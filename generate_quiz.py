@@ -21,7 +21,7 @@ from difflib import SequenceMatcher
 from openai import OpenAI
 
 # ============ 🔐 OpenAI ============
-client = OpenAI(api_key="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")  # <-- API-Key eintragen
+client = OpenAI(api_key=os.environ["OPENAI_API_KEY"])
 
 # ============ ⚙️ Einstellungen ============
 BASE_URL = "https://www.tagesschau.de"
@@ -370,10 +370,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-resp = requests.get(
-    "https://api.openai.com/v1/models",
-    headers={"Authorization": f"Bearer {"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"}"}
-)
-models = resp.json()
-print(models)
