@@ -44,12 +44,16 @@ jobs:
 
       - name: Commit & push if changed
         run: |
-          if [ -n "$(git status --porcelain quizzes/ latest.json catalog.json 2>/dev/null)" ]; then
-            git config user.name "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add quizzes/ latest.json catalog.json 2>/dev/null || true
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # Alles markieren, auch neue Dateien
+          git add -A
+
+          # Prüfen, ob überhaupt Änderungen existieren
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
             git commit -m "chore(quiz): update $(date +'%Y-%m-%d')"
             git push
-          else
-            echo "No changes to commit."
           fi
