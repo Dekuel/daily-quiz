@@ -144,11 +144,12 @@ POLITICS_JSON_SCHEMA = """{
   "is_politics": true,
   "category": "Politik",
   "question": "...",
-  "choices": ["A", "B", "C", "D"],
+  "choices": ["A: ...", "B: ...", "C: ...", "D: ..."],
   "correct_answer": "A",
   "explanation": "...",
   "source": {"title": "...", "url": "..."}
 }"""
+
 
 def build_politics_prompt(title: str, content_short: str, url: str) -> str:
     return f"""
@@ -181,10 +182,11 @@ JSON-SCHEMA:
 GENERAL_JSON_SCHEMA = """{
   "category": "Sport|Geschichte|Wissenschaft|Kunst und Literatur|Sprache|Essen und Trinken",
   "question": "...",
-  "choices": ["A", "B", "C", "D"],
+  "choices": ["A: ...", "B: ...", "C: ...", "D: ..."],
   "correct_answer": "A",
   "explanation": "2–3 Sätze, kurz und hilfreich."
 }"""
+
 
 def build_general_prompt(category: str) -> str:
     return f"""
