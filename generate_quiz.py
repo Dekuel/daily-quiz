@@ -33,8 +33,8 @@ PAST_DAYS_TO_CHECK = 7
 # Wie viele Politikfragen pro Modus?
 POLITICS_TARGET = 2
 
-# Wie viele Nicht-Politik-Kategorien pro Modus?
-RANDOM_SEGMENTS_PER_DAY = 3
+# Wie viele Nicht-Politik-Fragen pro Modus (normal/schwer)?
+OTHER_QUESTIONS_PER_GENERAL_MODE = 4  # vorher: 3
 
 # Kategorie-Name des Politik-Plugins
 POLITICS_CATEGORY_NAME = "Politik"
@@ -306,6 +306,28 @@ def generate_politics_for_mode(
     return out
 
 
+def _top_up_random_non_politics(
+    plugins: Dict[str, Callable[..., Optional[dict]]],
+    need: int,
+    past_texts: List[str],
+    day_seen: set[str],
+) -> List[dict]:
+    """Füllt mit Nicht-Politikfragen auf (Dedupe ggü. Vergangenheit & Tag)."""
+    if need <= 0:
+        return []
+    batch = generate_random_categories(
+        plugins=plugins,
+        k=need,
+        past_texts=past_texts,
+        exclude={POLITICS_CATEGORY_NAME},
+    )
+    for q in batch:
+        qt = _norm(q.get("question", ""))
+        if qt:
+            day_seen.add(qt)
+    return batch
+
+
 # ===================== Persistenz =====================
 
 def write_daily_bundle(quiz_list: List[dict], mode: str, date_str: Optional[str] = None) -> Optional[str]:
@@ -413,35 +435,59 @@ def main():
 
     for mode in ("normal", "schwer", "physik"):
         if mode in ("normal", "schwer"):
-            # 3.1 Politik pro Modus separat
+            # Zielverteilung je Modus:
+            #  - 2x Politik
+            #  - 4x andere Kategorien (ohne Politik)
+            target_politics = POLITICS_TARGET  # = 2
+            target_others = OTHER_QUESTIONS_PER_GENERAL_MODE  # = 4
+
+            # 1) Erst Politik erzeugen
             politics = generate_politics_for_mode(
                 plugins=plugins,
-                target=POLITICS_TARGET,
+                target=target_politics,
                 past_texts=past_texts,
                 day_seen=day_dedupe_texts,
             )
 
-            # 3.2 Random-Kategorien (ohne Politik)
-            random_cats = generate_random_categories(
+            # 2) Andere Kategorien erzeugen (ohne Politik)
+            others = generate_random_categories(
                 plugins=plugins,
-                k=RANDOM_SEGMENTS_PER_DAY,
+                k=target_others,
                 past_texts=past_texts,
                 exclude={POLITICS_CATEGORY_NAME},
             )
 
-            # 3.3 Zusammenführen
-            qlist: List[dict] = politics + random_cats
-
-            # 3.4 Optionaler Fallback, falls zu wenig Politikfragen
-            if len([q for q in qlist if q.get("category") == POLITICS_CATEGORY_NAME]) < POLITICS_TARGET:
-                needed = POLITICS_TARGET - sum(1 for q in qlist if q.get("category") == POLITICS_CATEGORY_NAME)
-                fillers = generate_random_categories(
+            # 3) Fallback: wenn Politik < 2, versuche nochmals Politik nachzulegen
+            if len(politics) < target_politics and POLITICS_CATEGORY_NAME in plugins:
+                missing = target_politics - len(politics)
+                tmp_day_seen = set(day_dedupe_texts)
+                for q in politics + others:
+                    qt = _norm(q.get("question", ""))
+                    if qt:
+                        tmp_day_seen.add(qt)
+                politics_retry = generate_politics_for_mode(
                     plugins=plugins,
-                    k=needed,
+                    target=missing,
                     past_texts=past_texts,
-                    exclude={POLITICS_CATEGORY_NAME},
+                    day_seen=tmp_day_seen,
                 )
-                qlist.extend(fillers)
+                politics.extend(politics_retry or [])
+
+            # 4) Wenn immer noch < 2 Politik, fülle den Fehlbetrag mit Nicht-Politik auf,
+            #    damit wir insgesamt trotzdem auf 6 Fragen kommen.
+            if len(politics) < target_politics:
+                deficit = target_politics - len(politics)
+                others += _top_up_random_non_politics(
+                    plugins=plugins,
+                    need=deficit,
+                    past_texts=past_texts,
+                    day_seen=day_dedupe_texts,
+                )
+
+            # 5) Finalisieren: exakt die Zielanzahlen zuschneiden
+            politics = politics[:target_politics]
+            others = others[:target_others]
+            qlist: List[dict] = politics + others
 
         else:  # mode == "physik"
             # nur Physik, 10 Fragen
