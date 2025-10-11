@@ -1,148 +1,148 @@
 {
   "date": "2025-10-11",
-  "generated_at": "2025-10-11T12:42:38Z",
+  "generated_at": "2025-10-11T14:22:59Z",
   "schema_version": 5,
   "mode": "physik",
   "questions": [
     {
       "category": "Physik",
-      "discipline": "Thermodynamik",
-      "question": "Welches der folgenden Gesetze beschreibt das Prinzip, dass die Entropie eines isolierten Systems niemals abnimmt?",
+      "discipline": "Klassische Mechanik",
+      "question": "Welches der folgenden Gesetze beschreibt das Verhalten eines Körpers, der sich in einem gleichmäßigen Kreis bewegt?",
       "choices": [
-        "A: Das zweite Hauptsatz der Thermodynamik",
-        "B: Das erste Hauptsatz der Thermodynamik",
-        "C: Das Gesetz von Boyle",
-        "D: Das Gesetz von Charles"
+        "A: Newtons erstes Gesetz",
+        "B: Newtons zweites Gesetz",
+        "C: Newtons drittes Gesetz",
+        "D: Das Gesetz der Erhaltung der Energie"
       ],
-      "correct_answer": "A",
-      "explanation": "Der zweite Hauptsatz der Thermodynamik besagt, dass die Entropie in einem isolierten System stets gleich bleibt oder zunimmt, was bedeutet, dass natürliche Prozesse irreversibel sind und eine Tendenz zur Unordnung haben.",
-      "difficulty": 9
-    },
-    {
-      "category": "Physik",
-      "discipline": "berühmte Physiker",
-      "question": "Welcher Physiker ist bekannt für die Entwicklung der Quantenmechanik und die Formulierung der Unschärferelation?",
-      "choices": [
-        "A: Werner Heisenberg",
-        "B: Albert Einstein",
-        "C: Niels Bohr",
-        "D: Max Planck"
-      ],
-      "correct_answer": "A",
-      "explanation": "Werner Heisenberg ist berühmt für seine Beiträge zur Quantenmechanik, insbesondere für die Unschärferelation, die besagt, dass bestimmte Paare von physikalischen Eigenschaften, wie Position und Impuls, nicht gleichzeitig mit beliebiger Genauigkeit bestimmt werden können.",
-      "difficulty": 3
-    },
-    {
-      "category": "Physik",
-      "discipline": "Thermodynamik",
-      "question": "Welches der folgenden Gesetze beschreibt den Zusammenhang zwischen Temperatur und Energie in einem geschlossenen System?",
-      "choices": [
-        "A: Das Gesetz von Joule",
-        "B: Das Gesetz von Avogadro",
-        "C: Das Gesetz von Ohm",
-        "D: Das Gesetz von Pascal"
-      ],
-      "correct_answer": "A",
-      "explanation": "Das Gesetz von Joule beschreibt, wie die innere Energie eines Systems mit der Temperatur zusammenhängt und wie Wärme in mechanische Arbeit umgewandelt werden kann. Es ist fundamental für das Verständnis thermodynamischer Prozesse.",
-      "difficulty": 4
-    },
-    {
-      "category": "Physik",
-      "discipline": "Astrophysik",
-      "question": "Was ist der Hauptgrund dafür, dass das Licht von fernen Galaxien rotverschoben erscheint?",
-      "choices": [
-        "A: Die Expansion des Universums.",
-        "B: Die Absorption durch interstellare Materie.",
-        "C: Die Lichtgeschwindigkeit, die verlangsamt wird.",
-        "D: Der Dopplereffekt aufgrund der Rotation der Galaxien."
-      ],
-      "correct_answer": "A",
-      "explanation": "Die rotverschobene Erscheinung des Lichts von fernen Galaxien ist hauptsächlich auf die Expansion des Universums zurückzuführen, die bewirkt, dass sich die Wellenlängen des Lichts verlängern, während sie sich aus der Quelle entfernen.",
-      "difficulty": 3
-    },
-    {
-      "category": "Physik",
-      "discipline": "berühmte Physiker",
-      "question": "Welcher Physiker formulierte das Prinzip der Relativität, das besagt, dass die physikalischen Gesetze in allen gleichförmig bewegten Bezugssystemen identisch sind?",
-      "choices": [
-        "A: Albert Einstein",
-        "B: Isaac Newton",
-        "C: Niels Bohr",
-        "D: Max Planck"
-      ],
-      "correct_answer": "A",
-      "explanation": "Albert Einstein ist bekannt für seine Relativitätstheorie, die das Verständnis von Raum und Zeit revolutionierte. Sein Prinzip der Relativität gilt für alle gleichförmig bewegten Systeme und ist grundlegend für die moderne Physik.",
+      "correct_answer": "B",
+      "explanation": "Das zweite Newtonsche Gesetz beschreibt, dass die Beschleunigung eines Körpers proportional zur auf ihn wirkenden Kraft und umgekehrt proportional zu seiner Masse ist. Bei einer gleichmäßigen Kreisbewegung ist die Zentripetalkraft entscheidend, die eine konstante Richtung der Geschwindigkeit erfordert.",
       "difficulty": 5
     },
     {
       "category": "Physik",
+      "discipline": "Festkörperphysik",
+      "question": "Was beschreibt das Konzept der Bandstruktur in Festkörpern?",
+      "choices": [
+        "A: Die Energielevels von Elektronen in einem Festkörper und deren Verteilung.",
+        "B: Die Bewegung von Atomen in einem Festkörper unter Wärmeeinfluss.",
+        "C: Die Wechselwirkungen zwischen Photonen und Elektronen in einem Gas.",
+        "D: Die Struktur von Molekülen in organischen Feststoffen."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Bandstruktur gibt an, welche Energien Elektronen in einem Festkörper annehmen können. Sie spielt eine zentrale Rolle bei der Erklärung elektrischer und optischer Eigenschaften von Materialien.",
+      "difficulty": 6
+    },
+    {
+      "category": "Physik",
+      "discipline": "Quantenmechanik",
+      "question": "Was beschreibt das Heisenbergsche Unschärfeprinzip in der Quantenmechanik?",
+      "choices": [
+        "A: Die Unmöglichkeit, den genauen Ort und den Impuls eines Teilchens gleichzeitig zu bestimmen.",
+        "B: Die Unmöglichkeit, Energie und Zeit gleichzeitig zu messen.",
+        "C: Die Unvorhersehbarkeit der Wechselwirkungen zwischen Teilchen.",
+        "D: Die Begrenztheit der Lichtgeschwindigkeit in einem Vakuum."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Heisenbergsche Unschärfeprinzip besagt, dass es fundamental unmöglich ist, sowohl den genauen Ort als auch den genauen Impuls eines Teilchens gleichzeitig zu kennen. Diese Einschränkung ist eine grundlegende Eigenschaft der Quantenmechanik.",
+      "difficulty": 7
+    },
+    {
+      "category": "Physik",
+      "discipline": "Astrophysik",
+      "question": "Was ist der Hauptgrund, warum Sterne in verschiedenen Farben leuchten?",
+      "choices": [
+        "A: Die Temperatur ihrer Oberfläche.",
+        "B: Ihre chemische Zusammensetzung.",
+        "C: Die Größe des Sterns.",
+        "D: Die Entfernung von der Erde."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Farbe eines Sterns hängt von seiner Oberflächentemperatur ab. Heiße Sterne erscheinen blau, während kühlere Sterne rötlich aussehen. Diese Farbänderung ist ein direktes Ergebnis der Strahlung, die sie abgeben.",
+      "difficulty": 6
+    },
+    {
+      "category": "Physik",
       "discipline": "Optik",
-      "question": "Welches Phänomen beschreibt das Licht, das beim Durchgang durch ein Prisma in seine Spektralfarben zerlegt wird?",
+      "question": "Welche der folgenden Aussagen beschreibt am besten das Phänomen der totalen Reflexion?",
       "choices": [
-        "A: Dispersion",
-        "B: Reflexion",
-        "C: Brechung",
-        "D: Interferenz"
+        "A: Licht wird an der Grenzfläche zwischen zwei Medien vollständig reflektiert, wenn der Einfallswinkel größer als der Grenzwinkel ist.",
+        "B: Licht wird in einem Medium verstärkt, wenn es auf eine andere Wellenlänge wechselt.",
+        "C: Licht breitet sich in einem Vakuum langsamer aus als in Wasser.",
+        "D: Licht wird in jedem Medium gleichmäßig gebrochen, unabhängig von der Wellenlänge."
       ],
       "correct_answer": "A",
-      "explanation": "Dispersion ist der Prozess, bei dem Licht in verschiedene Farben aufgespalten wird, wenn es durch Materialien wie ein Prisma hindurchtritt. Dies geschieht aufgrund der unterschiedlichen Wellenlängen und Geschwindigkeiten des Lichts in verschiedenen Medien.",
-      "difficulty": 3
+      "explanation": "Die totale Reflexion tritt auf, wenn Licht von einem dichteren Medium in ein dünneres Medium übergeht und der Einfallswinkel größer ist als der kritische Winkel. Dies führt dazu, dass das Licht vollständig an der Grenzfläche reflektiert wird.",
+      "difficulty": 1
     },
     {
       "category": "Physik",
-      "discipline": "berühmte Physiker",
-      "question": "Welcher Physiker formulierte das berühmte Prinzip der Unschärfe, das besagt, dass bestimmte Paare von physikalischen Eigenschaften nicht gleichzeitig mit beliebiger Genauigkeit gemessen werden können?",
+      "discipline": "Festkörperphysik",
+      "question": "Welches der folgenden Phänomene tritt auf, wenn ein Material bei tiefen Temperaturen in den supraleitenden Zustand übergeht?",
       "choices": [
-        "A: Werner Heisenberg",
-        "B: Albert Einstein",
-        "C: Niels Bohr",
-        "D: Max Planck"
+        "A: Der elektrische Widerstand des Materials fällt auf null.",
+        "B: Das Material wird magnetisch und stößt Magnetfelder ab.",
+        "C: Die Dichte des Materials verringert sich signifikant.",
+        "D: Das Material wird extrem spröde und zerbricht leicht."
       ],
       "correct_answer": "A",
-      "explanation": "Werner Heisenberg stellte 1927 das Unschärfeprinzip auf, das eine fundamentale Eigenschaft der Quantenmechanik beschreibt. Es besagt, dass die Position und der Impuls eines Teilchens nicht gleichzeitig genau bestimmt werden können.",
-      "difficulty": 3
-    },
-    {
-      "category": "Physik",
-      "discipline": "Klassische Mechanik",
-      "question": "Was beschreibt das Konzept der Impulserhaltung in einem abgeschlossenen System?",
-      "choices": [
-        "A: Der Gesamtimpuls bleibt konstant, wenn keine externen Kräfte wirken.",
-        "B: Die Geschwindigkeit eines Körpers bleibt konstant, wenn er nicht beschleunigt wird.",
-        "C: Die kinetische Energie eines Körpers bleibt immer gleich.",
-        "D: Die Masse eines Körpers verändert sich mit seiner Geschwindigkeit."
-      ],
-      "correct_answer": "A",
-      "explanation": "Das Konzept der Impulserhaltung besagt, dass der Gesamtimpuls eines geschlossenen Systems gleich bleibt, solange keine externen Kräfte auf das System einwirken. Dies ist ein fundamentales Prinzip der klassischen Mechanik und hat weitreichende Anwendungen in der Physik.",
-      "difficulty": 3
-    },
-    {
-      "category": "Physik",
-      "discipline": "Elektrodynamik",
-      "question": "Was beschreibt das Ampèresche Gesetz im Kontext der Elektrodynamik?",
-      "choices": [
-        "A: Die Beziehung zwischen elektrischen Strömen und den durch sie erzeugten magnetischen Feldern.",
-        "B: Die Beziehung zwischen elektrischen Ladungen und dem elektrischen Feld, das sie erzeugen.",
-        "C: Die Wechselwirkung zwischen Licht und Materie bei hohen Geschwindigkeiten.",
-        "D: Die thermodynamischen Eigenschaften von elektrischen Leitern."
-      ],
-      "correct_answer": "A",
-      "explanation": "Das Ampèresche Gesetz ist fundamental für die Elektrodynamik, da es aufzeigt, wie elektrische Ströme magnetische Felder erzeugen. Es verbindet die Konzepte von Elektrizität und Magnetismus, die in der klassischen Physik eng miteinander verknüpft sind.",
+      "explanation": "Im supraleitenden Zustand hat ein Material keinen elektrischen Widerstand, was bedeutet, dass elektrischer Strom ungehindert fließen kann. Dies ist eine der Hauptmerkmale von Supraleitern und spielt eine wichtige Rolle in der Festkörperphysik.",
       "difficulty": 9
     },
     {
       "category": "Physik",
-      "discipline": "Optik",
-      "question": "Was beschreibt das Phänomen der Totalreflexion?",
+      "discipline": "Analytische Mechanik",
+      "question": "Was beschreibt das Prinzip der virtuellen Arbeiten in der analytischen Mechanik?",
       "choices": [
-        "A: Licht wird vollständig zurückgeworfen, wenn es auf die Grenzfläche zwischen zwei Materialien trifft und der Einfallswinkel größer als der kritische Winkel ist.",
-        "B: Licht wird in einem Medium absorbiert und nicht reflektiert.",
-        "C: Licht breitet sich in einem Vakuum langsamer aus als in Wasser.",
-        "D: Licht verändert seine Wellenlänge, wenn es durch ein Prisma geht."
+        "A: Es handelt sich um die Gleichung von Bewegung für Systeme mit variablen Massen.",
+        "B: Es ist ein Ansatz zur Lösung von Gleichgewichtszuständen, der die Arbeit virtueller Kräfte betrachtet.",
+        "C: Es beschreibt die Beziehung zwischen Energie und Impuls in einem geschlossenen System.",
+        "D: Es ist ein Verfahren zur Berechnung der Bahnkurven von Teilchen in einem Gravitationsfeld."
+      ],
+      "correct_answer": "B",
+      "explanation": "Das Prinzip der virtuellen Arbeiten besagt, dass für ein System im Gleichgewicht die virtuelle Arbeit, die von den Kräften bei einer virtuellen Verschiebung verrichtet wird, gleich null ist. Dies ist ein zentraler Aspekt zur Analyse von mechanischen Systemen in der analytischen Mechanik.",
+      "difficulty": 8
+    },
+    {
+      "category": "Physik",
+      "discipline": "Elektrodynamik",
+      "question": "Welches der folgenden Phänomene beschreibt die Wechselwirkung zwischen bewegten elektrischen Ladungen und magnetischen Feldern?",
+      "choices": [
+        "A: Elektromagnetische Induktion",
+        "B: Coulombsches Gesetz",
+        "C: Ohmsches Gesetz",
+        "D: Newtons Gesetz der Gravitation"
       ],
       "correct_answer": "A",
-      "explanation": "Die Totalreflexion tritt auf, wenn Licht von einem dichteren in ein dünneres Medium übergeht und der Einfallswinkel größer als der kritische Winkel ist. In diesem Fall wird das Licht vollständig reflektiert und tritt nicht in das dünnere Medium ein.",
+      "explanation": "Die elektromagnetische Induktion beschreibt, wie ein sich änderndes Magnetfeld eine elektrische Spannung erzeugt und umgekehrt. Diese Wechselwirkung ist grundlegend für die Funktionsweise von Generatoren und Transformatoren.",
       "difficulty": 6
+    },
+    {
+      "category": "Physik",
+      "discipline": "Analytische Mechanik",
+      "question": "Ein Körper bewegt sich entlang einer geraden Linie mit konstanter Beschleunigung. Welche der folgenden Aussagen über die zurückgelegte Strecke in Abhängigkeit von der Zeit ist korrekt?",
+      "choices": [
+        "A: Die zurückgelegte Strecke ist proportional zur Zeit.",
+        "B: Die zurückgelegte Strecke ist proportional zur Zeit im Quadrat.",
+        "C: Die zurückgelegte Strecke bleibt konstant.",
+        "D: Die zurückgelegte Strecke ist umgekehrt proportional zur Zeit."
+      ],
+      "correct_answer": "B",
+      "explanation": "Bei konstanter Beschleunigung ist die zurückgelegte Strecke gleich der halben Beschleunigung multipliziert mit der Zeit im Quadrat (s = 1/2 a t^2). Daher ist die Strecke proportional zu t².",
+      "difficulty": 8
+    },
+    {
+      "category": "Physik",
+      "discipline": "Relativitätstheorie",
+      "question": "Welches Konzept beschreibt, dass die Zeit für einen sich bewegenden Beobachter langsamer vergeht als für einen ruhenden Beobachter?",
+      "choices": [
+        "A: Zeitdilatation",
+        "B: Raumkontraktion",
+        "C: Äquivalenzprinzip",
+        "D: Lichtgeschwindigkeit"
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Zeitdilatation ist ein zentrales Konzept der Relativitätstheorie, das besagt, dass die Zeit für einen bewegten Beobachter langsamer vergeht. Dies führt zu interessanten Effekten, insbesondere bei Geschwindigkeiten nahe der Lichtgeschwindigkeit.",
+      "difficulty": 5
     }
   ]
 }
