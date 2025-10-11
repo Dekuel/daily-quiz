@@ -1,78 +1,78 @@
 {
   "date": "2025-10-11",
-  "generated_at": "2025-10-11T12:14:08Z",
+  "generated_at": "2025-10-11T12:41:26Z",
   "schema_version": 5,
   "mode": "normal",
   "questions": [
     {
-      "category": "Sport",
-      "discipline": "Sonstige",
-      "question": "Welche Sportart wird oft als 'König der Sportarten' bezeichnet?",
+      "category": "Kunst und Literatur",
+      "subtopic": "Kunstgeschichte",
+      "question": "Welcher Künstler ist bekannt für seine Verwendung von Licht und Schatten in der Malerei, insbesondere im Barock?",
       "choices": [
-        "A: Fußball",
-        "B: Basketball",
-        "C: Tennis",
-        "D: Golf"
+        "A: Caravaggio",
+        "B: Monet",
+        "C: Van Gogh",
+        "D: Picasso"
       ],
       "correct_answer": "A",
-      "explanation": "Fußball wird häufig als 'König der Sportarten' bezeichnet, da es weltweit die größte Anhängerschaft und die meisten praktizierenden Spieler hat. Die einfache Spielweise und die geringe Ausrüstung machen es für viele Menschen zugänglich.",
-      "difficulty": 5
+      "explanation": "Caravaggio war ein revolutionärer Künstler des Barock, der die Technik des Chiaroscuro meisterhaft einsetzte. Seine Fähigkeit, dramatische Licht- und Schatteneffekte zu erzeugen, beeinflusste viele nachfolgende Maler.",
+      "difficulty": 3
+    },
+    {
+      "category": "Sport",
+      "discipline": "Olympische Spiele",
+      "question": "In welchem Jahr fanden die ersten modernen Olympischen Spiele statt?",
+      "choices": [
+        "A: 1896",
+        "B: 1900",
+        "C: 1924",
+        "D: 1936"
+      ],
+      "correct_answer": "A",
+      "explanation": "Die ersten modernen Olympischen Spiele wurden 1896 in Athen, Griechenland, abgehalten. Dieses Ereignis markierte die Wiederbelebung der antiken Spiele und legte den Grundstein für die heutige Form der Olympischen Spiele.",
+      "difficulty": 3
+    },
+    {
+      "category": "Geschichte",
+      "subperiod": "Mittelalter",
+      "question": "Welches Ereignis wird oft als Beginn des Mittelalters betrachtet?",
+      "choices": [
+        "A: Der Fall des Weströmischen Reiches",
+        "B: Die Erfindung des Buchdrucks",
+        "C: Der Beginn der Kreuzzüge",
+        "D: Der Vertrag von Verdun"
+      ],
+      "correct_answer": "A",
+      "explanation": "Der Fall des Weströmischen Reiches im Jahr 476 n. Chr. markiert den Übergang von der Antike zum Mittelalter. Dieses Ereignis führte zu politischen und sozialen Veränderungen in Europa, die das Mittelalter prägten.",
+      "difficulty": 9
     },
     {
       "category": "Essen und Trinken",
       "topic": "Ernährung",
-      "question": "Welches Vitamin ist bekannt dafür, das Immunsystem zu stärken und ist besonders reichlich in Zitrusfrüchten enthalten?",
+      "question": "Was ist der Hauptbestandteil von Tofu, einem wichtigen Nahrungsmittel in der asiatischen Küche?",
       "choices": [
-        "A: Vitamin C",
-        "B: Vitamin A",
-        "C: Vitamin D",
-        "D: Vitamin B12"
+        "A: Sojabohnen",
+        "B: Reis",
+        "C: Weizen",
+        "D: Mais"
       ],
       "correct_answer": "A",
-      "explanation": "Vitamin C, auch als Ascorbinsäure bekannt, ist ein essentielles Vitamin, das zur Unterstützung des Immunsystems beiträgt. Es ist vor allem in Früchten wie Orangen, Zitronen und Grapefruits enthalten.",
-      "difficulty": 4
+      "explanation": "Tofu wird hauptsächlich aus Sojabohnen hergestellt und ist eine bedeutende Proteinquelle, besonders in vegetarischen und veganen Ernährungsweisen. Es ist ein traditionelles Lebensmittel in vielen asiatischen Kulturen.",
+      "difficulty": 2
     },
     {
-      "category": "Geschichte",
-      "subperiod": "Zeitgeschichte (ab 1945)",
-      "question": "Welches Ereignis markiert den Beginn des Kalten Krieges?",
+      "category": "Sport",
+      "discipline": "Fußball",
+      "question": "Welches Land hat die meisten FIFA-Weltmeisterschaften gewonnen?",
       "choices": [
-        "A: Die Teilung Deutschlands in Ost- und Westdeutschland",
-        "B: Der Vietnamkrieg",
-        "C: Die Gründung der NATO",
-        "D: Der Fall der Berliner Mauer"
+        "A: Brasilien",
+        "B: Deutschland",
+        "C: Italien",
+        "D: Argentinien"
       ],
       "correct_answer": "A",
-      "explanation": "Der Kalte Krieg begann nach dem Zweiten Weltkrieg und wurde durch die Teilung Deutschlands in Ost- und Westdeutschland symbolisiert. Diese Teilung führte zu einer langen Phase politischer Spannungen zwischen den USA und der Sowjetunion.",
-      "difficulty": 7
-    },
-    {
-      "category": "Physik",
-      "discipline": "Kern- und Teilchenphysik",
-      "question": "Was beschreibt das Konzept der Kernfusion?",
-      "choices": [
-        "A: Die Verschmelzung leichter Atomkerne zu schwereren Kernen bei hohen Temperaturen.",
-        "B: Die Spaltung schwerer Atomkerne in leichtere Kerne mit Energiegewinn.",
-        "C: Die Anordnung von Elektronen um den Atomkern.",
-        "D: Die Wechselwirkung zwischen elektrischen Ladungen."
-      ],
-      "correct_answer": "A",
-      "explanation": "Kernfusion ist der Prozess, bei dem zwei leichte Atomkerne unter extremen Bedingungen, wie hohen Temperaturen und Druck, fusionieren, um einen schwereren Kern zu bilden. Dabei wird eine enorme Menge an Energie freigesetzt, was den Prozess für Sterne wie unsere Sonne antreibt.",
-      "difficulty": 7
-    },
-    {
-      "category": "Geschichte",
-      "subperiod": "Antike",
-      "question": "Welches berühmte Bauwerk wurde im antiken Griechenland erbaut und ist ein Symbol für die Stadt Athen?",
-      "choices": [
-        "A: Der Parthenon",
-        "B: Die Pyramiden von Gizeh",
-        "C: Der Kolosseum",
-        "D: Der Tempel von Jupiter"
-      ],
-      "correct_answer": "A",
-      "explanation": "Der Parthenon ist ein Tempel, der der Göttin Athene gewidmet ist und auf der Akropolis von Athen steht. Er gilt als Meisterwerk der antiken Architektur und ist ein Symbol für die kulturelle Blüte Athens im 5. Jahrhundert v. Chr.",
-      "difficulty": 7
+      "explanation": "Brasilien hat insgesamt fünf FIFA-Weltmeisterschaften gewonnen (1958, 1962, 1970, 1994, 2002) und ist damit das erfolgreichste Land in der Geschichte des Turniers.",
+      "difficulty": 9
     }
   ]
 }
