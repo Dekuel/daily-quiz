@@ -1,78 +1,64 @@
 {
   "date": "2025-10-11",
-  "generated_at": "2025-10-11T12:41:26Z",
+  "generated_at": "2025-10-11T14:20:52Z",
   "schema_version": 5,
   "mode": "normal",
   "questions": [
     {
-      "category": "Kunst und Literatur",
-      "subtopic": "Kunstgeschichte",
-      "question": "Welcher Künstler ist bekannt für seine Verwendung von Licht und Schatten in der Malerei, insbesondere im Barock?",
+      "category": "Wissenschaft",
+      "topic": "Biologie",
+      "question": "Was beschreibt das Konzept der natürlichen Selektion in der Evolutionstheorie?",
       "choices": [
-        "A: Caravaggio",
-        "B: Monet",
-        "C: Van Gogh",
-        "D: Picasso"
+        "A: Organismen mit vorteilhaften Eigenschaften überleben eher und geben diese an ihre Nachkommen weiter.",
+        "B: Alle Organismen in einer Population sind genetisch identisch.",
+        "C: Die Umwelt hat keinen Einfluss auf das Überleben von Arten.",
+        "D: Evolution geschieht nur durch zufällige Mutationen ohne Selektion."
       ],
       "correct_answer": "A",
-      "explanation": "Caravaggio war ein revolutionärer Künstler des Barock, der die Technik des Chiaroscuro meisterhaft einsetzte. Seine Fähigkeit, dramatische Licht- und Schatteneffekte zu erzeugen, beeinflusste viele nachfolgende Maler.",
-      "difficulty": 3
+      "explanation": "Natürliche Selektion ist der Prozess, bei dem Organismen mit vorteilhaften Eigenschaften bessere Überlebenschancen haben und diese Merkmale an ihre Nachkommen weitergeben. Dies führt im Laufe der Zeit zu Veränderungen in der Art.",
+      "difficulty": 4
     },
     {
-      "category": "Sport",
-      "discipline": "Olympische Spiele",
-      "question": "In welchem Jahr fanden die ersten modernen Olympischen Spiele statt?",
+      "category": "Kunst und Literatur",
+      "subtopic": "Literatur",
+      "question": "Welcher Autor ist bekannt für seine dystopischen Romane, darunter '1984' und 'Animal Farm'?",
       "choices": [
-        "A: 1896",
-        "B: 1900",
-        "C: 1924",
-        "D: 1936"
+        "A: George Orwell",
+        "B: Aldous Huxley",
+        "C: Ray Bradbury",
+        "D: Philip K. Dick"
       ],
       "correct_answer": "A",
-      "explanation": "Die ersten modernen Olympischen Spiele wurden 1896 in Athen, Griechenland, abgehalten. Dieses Ereignis markierte die Wiederbelebung der antiken Spiele und legte den Grundstein für die heutige Form der Olympischen Spiele.",
-      "difficulty": 3
+      "explanation": "George Orwell ist berühmt für seine kritischen und oft dystopischen Werke, die gesellschaftliche Themen und politische Unterdrückung behandeln. '1984' ist eines seiner bekanntesten Werke und beschreibt eine totalitäre Zukunft.",
+      "difficulty": 6
+    },
+    {
+      "category": "Sprache",
+      "topic": "Wortherkunft",
+      "question": "Woher stammt das deutsche Wort 'Schmetterling'?",
+      "choices": [
+        "A: Vom mittelhochdeutschen 'smetterling', was so viel wie 'schnellen' bedeutet.",
+        "B: Vom lateinischen Wort 'papilio', was 'Flügel' heißt.",
+        "C: Aus dem griechischen Wort 'lepidopteron', was 'Schuppenflügler' bedeutet.",
+        "D: Vom englischen Wort 'butterfly', das sich auf die Farbe des Insekts bezieht."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Wort 'Schmetterling' stammt vom mittelhochdeutschen 'smetterling', das sich auf die schnelle Bewegung des Insekts bezieht. Diese Herkunft verdeutlicht, wie Sprache oft durch Beobachtungen und Eigenschaften geprägt wird.",
+      "difficulty": 4
     },
     {
       "category": "Geschichte",
-      "subperiod": "Mittelalter",
-      "question": "Welches Ereignis wird oft als Beginn des Mittelalters betrachtet?",
+      "subperiod": "Zeitgeschichte (ab 1945)",
+      "question": "Welches Ereignis gilt als Beginn des Kalten Krieges?",
       "choices": [
-        "A: Der Fall des Weströmischen Reiches",
-        "B: Die Erfindung des Buchdrucks",
-        "C: Der Beginn der Kreuzzüge",
-        "D: Der Vertrag von Verdun"
+        "A: Die Gründung der NATO 1949",
+        "B: Der Fall der Berliner Mauer 1989",
+        "C: Die Kuba-Krise 1962",
+        "D: Die Gründung der Vereinten Nationen 1945"
       ],
       "correct_answer": "A",
-      "explanation": "Der Fall des Weströmischen Reiches im Jahr 476 n. Chr. markiert den Übergang von der Antike zum Mittelalter. Dieses Ereignis führte zu politischen und sozialen Veränderungen in Europa, die das Mittelalter prägten.",
-      "difficulty": 9
-    },
-    {
-      "category": "Essen und Trinken",
-      "topic": "Ernährung",
-      "question": "Was ist der Hauptbestandteil von Tofu, einem wichtigen Nahrungsmittel in der asiatischen Küche?",
-      "choices": [
-        "A: Sojabohnen",
-        "B: Reis",
-        "C: Weizen",
-        "D: Mais"
-      ],
-      "correct_answer": "A",
-      "explanation": "Tofu wird hauptsächlich aus Sojabohnen hergestellt und ist eine bedeutende Proteinquelle, besonders in vegetarischen und veganen Ernährungsweisen. Es ist ein traditionelles Lebensmittel in vielen asiatischen Kulturen.",
-      "difficulty": 2
-    },
-    {
-      "category": "Sport",
-      "discipline": "Fußball",
-      "question": "Welches Land hat die meisten FIFA-Weltmeisterschaften gewonnen?",
-      "choices": [
-        "A: Brasilien",
-        "B: Deutschland",
-        "C: Italien",
-        "D: Argentinien"
-      ],
-      "correct_answer": "A",
-      "explanation": "Brasilien hat insgesamt fünf FIFA-Weltmeisterschaften gewonnen (1958, 1962, 1970, 1994, 2002) und ist damit das erfolgreichste Land in der Geschichte des Turniers.",
-      "difficulty": 9
+      "explanation": "Der Kalte Krieg begann offiziell nach dem Zweiten Weltkrieg, als sich die USA und die Sowjetunion in einem ideologischen und politischen Konflikt gegenüberstanden. Die Gründung der NATO 1949 stellte einen wichtigen Schritt zur militärischen Allianz der westlichen Länder gegen die sowjetische Bedrohung dar.",
+      "difficulty": 4
     }
   ]
 }
