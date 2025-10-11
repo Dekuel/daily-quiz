@@ -1,82 +1,110 @@
 # -*- coding: utf-8 -*-
 """
-Tägliches Quiz:
-- 2 Politikfragen aus 5 Tagesschau-Artikeln (leicht verständlich, mit Einordnung von Personen)
-- 3 zusätzliche Fragen aus zufälligen Segmenten (Sport, Geschichte, Wissenschaft, Kunst & Literatur, Sprache, Essen & Trinken)
-- Duplikat-Check gegen die letzten 7 Tage (semantisch über einfache Textähnlichkeit)
-- Persistenz in /quizzes/YYYY-MM-DD/bundle.json + latest.json + catalog.json
+Daily Quiz Generator (zweimodig):
+- Modi: "normal" und "schwer"
+- Politik-Fragen werden pro Modus separat über das Politik-Plugin generiert (Ziel: 2)
+- Weitere Fragen über Kategorien-Plugins in ./kategorien/ (je Aufruf genau 1 Frage)
+- Dedupe ggü. Vergangenheit (7 Tage), innerhalb eines Modus, und zwischen den Modi (tagesweit)
+- Schwierigkeit pro Modus via Gewichten
+- Persistenz:
+  quizzes/YYYY-MM-DD/bundle.normal.json
+  quizzes/YYYY-MM-DD/bundle.schwer.json
+  latest.json -> { "latest_date": "...", "paths": {"normal": "...", "schwer": "..."} }
+  catalog.json -> [{ "date": "...", "paths": {"normal": "...", "schwer": "..."} }, ...]
 """
 
+from __future__ import annotations
 import os
 import re
 import json
-import time
 import random
-import string
-import requests
-from bs4 import BeautifulSoup
+import importlib
+import pkgutil
 from datetime import datetime, timezone, timedelta
 from difflib import SequenceMatcher
+from typing import Callable, Dict, List, Optional
 
-from openai import OpenAI
+# ===================== Konfiguration =====================
 
-# ============ 🔐 OpenAI ============
-client = OpenAI(api_key=os.environ["OPENAI_API_KEY"])
-
-# ============ ⚙️ Einstellungen ============
-BASE_URL = "https://www.tagesschau.de"
-NUM_FRONT_ARTICLES = 5
-POLITICS_TARGET = 2
 OUT_ROOT = "quizzes"
-RANDOM_SEGMENTS = [
-    "Sport",
-    "Geschichte",
-    "Wissenschaft",
-    "Kunst und Literatur",
-    "Sprache",
-    "Essen und Trinken",
-]
-RANDOM_SEGMENTS_PER_DAY = 3
-SLEEP_BETWEEN_CALLS = 1.5  # Sekunden, etwas sanfter für Rate Limits
-DUPLICATE_SIMILARITY_THRESHOLD = 0.82  # 0..1 (je höher, desto strenger)
 PAST_DAYS_TO_CHECK = 7
 
-# ============ 🧰 Utilities ============
+# Wie viele Politikfragen pro Modus?
+POLITICS_TARGET = 2
+
+# Wie viele Nicht-Politik-Kategorien pro Modus?
+RANDOM_SEGMENTS_PER_DAY = 3
+
+# Kategorie-Name des Politik-Plugins
+POLITICS_CATEGORY_NAME = "Politik"
+
+# Schwierigkeit-Gewichte (Schlüssel = Difficulty 1..10, Wert = Gewicht)
+DIFFICULTY_WEIGHTS: Dict[str, Dict[int, int]] = {
+    # vom Nutzer vorgegeben
+    "schwer": {10: 13, 9: 15, 8: 20, 7: 17, 6: 11, 5: 9, 4: 6, 3: 4, 2: 3, 1: 2},
+    # Vorschlag für "normal" (anpassbar)
+    "normal": {10: 3, 9: 5, 8: 8, 7: 10, 6: 14, 5: 18, 4: 16, 3: 12, 2: 8, 1: 6},
+}
+
+# Text-Ähnlichkeitsschwelle für Dedupe
+SIM_THRESHOLD = 0.82
+
+
+# ===================== Utilities =====================
+
 def _iso_date_today() -> str:
     return datetime.now().strftime("%Y-%m-%d")
+
 
 def _now_iso() -> str:
     return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
-def slugify(text: str, max_len: int = 120) -> str:
-    t = re.sub(r"\s+", " ", text).strip().lower()
-    t = "".join(ch for ch in t if ch in string.ascii_lowercase + string.digits + " -_")
-    return t[:max_len]
+
+def _norm(text: str) -> str:
+    return re.sub(r"\s+", " ", (text or "")).strip().lower()
+
 
 def similarity(a: str, b: str) -> float:
-    a = re.sub(r"\s+", " ", a).strip().lower()
-    b = re.sub(r"\s+", " ", b).strip().lower()
-    return SequenceMatcher(None, a, b).ratio()
+    return SequenceMatcher(None, _norm(a), _norm(b)).ratio()
 
-def is_duplicate(candidate_q: str, corpus_questions: list[str]) -> bool:
+
+def is_duplicate(candidate_q: str, corpus_questions: List[str], threshold: float = SIM_THRESHOLD) -> bool:
+    cand = _norm(candidate_q)
     for q in corpus_questions:
-        if similarity(candidate_q, q) >= DUPLICATE_SIMILARITY_THRESHOLD:
+        if similarity(cand, q) >= threshold:
             return True
     return False
 
-def load_past_questions(days: int = PAST_DAYS_TO_CHECK) -> list[dict]:
-    """Lädt alle Fragen der letzten N Tage aus dem quizzes/-Ordner."""
-    past = []
+
+def weighted_choice(weights: Dict[int, int]) -> int:
+    # weights: {difficulty: weight}
+    if not weights:
+        return 5
+    # sort optional – nicht notwendig für random.choices, aber deterministischer
+    items = sorted(weights.items(), key=lambda x: x[0])
+    keys = [k for k, _ in items]
+    vals = [w for _, w in items]
+    return random.choices(keys, weights=vals, k=1)[0]
+
+
+# ===================== Vergangenheit laden =====================
+
+def load_past_questions(days: int = PAST_DAYS_TO_CHECK) -> List[dict]:
+    """
+    Lädt Fragen aus bundle.json, bundle.normal.json, bundle.schwer.json der letzten N Tage.
+    """
+    past: List[dict] = []
     if not os.path.exists(OUT_ROOT):
         return past
 
-    # 1) Versuche catalog.json (falls vorhanden) – effizient
-    catalog_path = os.path.join(OUT_ROOT, "catalog.json")
+    cutoff = datetime.now().date() - timedelta(days=days)
     dates = set()
+
+    # bevorzugt catalog.json
+    catalog_path = os.path.join(OUT_ROOT, "catalog.json")
     if os.path.exists(catalog_path):
         try:
             catalog = json.load(open(catalog_path, "r", encoding="utf-8"))
-            cutoff = datetime.now().date() - timedelta(days=days)
             for entry in catalog:
                 try:
                     d = datetime.strptime(entry.get("date", ""), "%Y-%m-%d").date()
@@ -87,14 +115,14 @@ def load_past_questions(days: int = PAST_DAYS_TO_CHECK) -> list[dict]:
         except Exception:
             pass
 
-    # 2) Fallback: scanne Verzeichnisse
+    # Fallback: Verzeichnisse scannen
     if not dates:
         try:
             for name in os.listdir(OUT_ROOT):
-                p = os.path.join(OUT_ROOT, name, "bundle.json")
+                p = os.path.join(OUT_ROOT, name)
                 try:
                     d = datetime.strptime(name, "%Y-%m-%d").date()
-                    if d >= datetime.now().date() - timedelta(days=days) and os.path.exists(p):
+                    if d >= cutoff and os.path.isdir(p):
                         dates.add(name)
                 except Exception:
                     continue
@@ -102,198 +130,143 @@ def load_past_questions(days: int = PAST_DAYS_TO_CHECK) -> list[dict]:
             pass
 
     for d in sorted(dates, reverse=True):
-        bundle_path = os.path.join(OUT_ROOT, d, "bundle.json")
-        if os.path.exists(bundle_path):
-            try:
-                bundle = json.load(open(bundle_path, "r", encoding="utf-8"))
-                past.extend(bundle.get("questions", []))
-            except Exception:
-                continue
+        for fname in ("bundle.json", "bundle.normal.json", "bundle.schwer.json"):
+            bundle_path = os.path.join(OUT_ROOT, d, fname)
+            if os.path.exists(bundle_path):
+                try:
+                    bundle = json.load(open(bundle_path, "r", encoding="utf-8"))
+                    past.extend(bundle.get("questions", []))
+                except Exception:
+                    continue
+
     return past
 
-def fetch_front_article_links(n: int = NUM_FRONT_ARTICLES) -> list[str]:
-    res = requests.get(BASE_URL, timeout=15)
-    res.raise_for_status()
-    soup = BeautifulSoup(res.text, "html.parser")
-    links = []
-    for a in soup.select("a.teaser__link"):
-        href = a.get("href")
-        if href and href.startswith("/") and href not in links:
-            links.append(BASE_URL + href)
-        if len(links) == n:
-            break
-    return links
 
-def fetch_article(url: str) -> dict:
-    r = requests.get(url, timeout=20)
-    r.raise_for_status()
-    s = BeautifulSoup(r.text, "html.parser")
-    title_tag = s.find("h1")
-    title = title_tag.get_text(strip=True) if title_tag else url
-    paragraphs = s.select("p")
-    content_full = "\n".join(p.get_text(strip=True) for p in paragraphs if p.get_text(strip=True))
-    return {
-        "url": url,
-        "title": title,
-        "content_full": content_full,
-        "content_short": content_full[:2000],  # etwas großzügiger für besseren Kontext
-    }
+# ===================== Plugin Discovery =====================
 
-# ============ 🧠 Prompting ============
-POLITICS_JSON_SCHEMA = """{
-  "is_politics": true,
-  "category": "Politik",
-  "question": "...",
-  "choices": ["A: ...", "B: ...", "C: ...", "D: ..."],
-  "correct_answer": "A",
-  "explanation": "...",
-  "source": {"title": "...", "url": "..."}
-}"""
+def discover_category_plugins() -> Dict[str, Callable[..., Optional[dict]]]:
+    """
+    Findet alle Module in ./kategorien/ mit einer Funktion:
+        generate_one(past_texts: list[str]) -> dict | None
 
-
-def build_politics_prompt(title: str, content_short: str, url: str) -> str:
-    return f"""
-Du bist ein deutscher Nachrichten-Quizgenerator.
-
-AUFGABE:
-- Prüfe, ob der folgende Text überwiegend POLITIK betrifft (Regierung, Wahlen, Parlamente, Ministerien, Parteien, Staats- und Regierungschefs, internationale Politik, EU, UN, Gesetzgebung, Sicherheits-/Außenpolitik).
-- Wenn JA, erzeuge genau EINE Multiple-Choice-Frage (A–D, eine richtig).
-- Formuliere die FRAGE so, dass sie für Menschen verständlich ist, die die Nachrichten nicht verfolgt haben:
-  * Baue kurze EINORDNUNGEN direkt in die Frage ein (z. B. „… Bundeskanzler Olaf Scholz (Deutschland) …”, „… EU-Kommissionspräsidentin Ursula von der Leyen …”).
-  * Nenne bei erstmaliger Erwähnung von Personen ihren Titel/Funktion/Land, bei Organisationen kurz ihre Rolle.
-- Die Erklärung (2–3 Sätze) soll die richtige Antwort einordnen (Kontext, Bedeutung).
-- Die Frage sollte nach dem Ereignis selbst fragen
-
-
-GIB AUSSCHLIESSLICH valides JSON gemäß Schema zurück (keine zusätzlichen Zeichen, keine Markdown-Formatierung). 
-Wenn der Text KEINE Politik ist, gib folgendes JSON zurück: {{"is_politics": false}}
-
-TEXT:
----
-Titel: {title}
-Inhalt: {content_short}
-Quelle: {url}
----
-
-JSON-SCHEMA:
-{POLITICS_JSON_SCHEMA}
-""".strip()
-
-GENERAL_JSON_SCHEMA = """{
-  "category": "Sport|Geschichte|Wissenschaft|Kunst und Literatur|Sprache|Essen und Trinken",
-  "question": "...",
-  "choices": ["A: ...", "B: ...", "C: ...", "D: ..."],
-  "correct_answer": "A",
-  "explanation": "2–3 Sätze, kurz und hilfreich."
-}"""
-
-
-def build_general_prompt(category: str) -> str:
-    return f"""
-Erzeuge eine Multiple-Choice-Frage (A–D, eine richtig) zur Kategorie „{category}“ in deutscher Sprache.
-Anforderungen:
-- Verständlich für Laien.
-- Keine tagesaktuellen Nachrichten nötig (zeitlos oder langlebig).
-- Wenn Fachbegriffe vorkommen, erkläre sie kurz in der FRAGE selbst, außer die Frage fragt nach dem Begriff selbst (Klammer oder kurze Einordnung).
-- Gib AUSSCHLIESSLICH valides JSON gemäß Schema zurück, ohne Kommentare, ohne Markdown.
-
-JSON-SCHEMA:
-{GENERAL_JSON_SCHEMA}
-""".strip()
-
-def ask_openai_json(prompt: str) -> dict | None:
-    """Robuste JSON-Antwort einfordern und parsen. Bei Fehlern -> None."""
+    Rückgabe: Mapping { "Anzeigename": callable }
+    - Anzeigename: mod.CATEGORY_NAME oder Dateiname -> Titelcase
+    """
+    plugins: Dict[str, Callable[..., Optional[dict]]] = {}
     try:
-        resp = client.chat.completions.create(
-            model="gpt-4o-mini",  # kleines, günstiges Modell mit gutem JSON-Verhalten
-            messages=[
-                {"role": "system", "content": "Du gibst ausschließlich valides JSON zurück."},
-                {"role": "user", "content": prompt},
-            ],
-            temperature=0.7,
-        )
-        raw = resp.choices[0].message.content.strip()
-        # Herauslösen des ersten/letzten {...} Blocks, falls das Modell doch mal drumherum Text liefert
-        m = re.search(r"\{.*\}", raw, flags=re.DOTALL)
-        if m:
-            raw = m.group(0)
-        return json.loads(raw)
+        import kategorien  # type: ignore
     except Exception:
-        return None
+        return plugins
 
-# ============ 🧩 Pipeline ============
-def generate_politics_questions(articles: list[dict], past_questions_texts: list[str]) -> list[dict]:
-    """Versucht aus Artikeln genau POLITIK-Fragen zu generieren, dedupliziert ggü. Vergangenheit & untereinander."""
-    candidates = []
-    for art in articles:
-        prompt = build_politics_prompt(art["title"], art["content_short"], art["url"])
-        data = ask_openai_json(prompt)
-        time.sleep(SLEEP_BETWEEN_CALLS)
-        if not data or data.get("is_politics") is not True:
+    pkgpath = getattr(kategorien, "__path__", None)
+    if not pkgpath:
+        return plugins
+
+    for _, modname, ispkg in pkgutil.iter_modules(pkgpath):
+        if ispkg:
             continue
-        # Normieren & anreichern
-        qtext = data.get("question", "").strip()
-        if not qtext:
+        fqmn = f"kategorien.{modname}"
+        try:
+            mod = importlib.import_module(fqmn)
+        except Exception:
             continue
-        if is_duplicate(qtext, past_questions_texts):
-            # Duplikat ggü. Vergangenheit -> verwerfen
-            continue
-        data["category"] = "Politik"
-        data["source"] = {"title": art["title"], "url": art["url"]}
-        data["difficulty"] = random.randint(1, 10)
-        candidates.append(data)
+        fn = getattr(mod, "generate_one", None)
+        if callable(fn):
+            cname = getattr(mod, "CATEGORY_NAME", modname.replace("_", " ").title())
+            plugins[cname] = fn
+    return plugins
 
-    # Untereinander deduplizieren
-    final = []
-    for c in candidates:
-        if not any(similarity(c["question"], x["question"]) >= DUPLICATE_SIMILARITY_THRESHOLD for x in final):
-            final.append(c)
 
-    # Auf Zielzahl trimmen
-    return final[:POLITICS_TARGET]
+# ===================== Fragen-Generatoren =====================
 
-def regenerate_until_unique(generator_fn, target_count: int, past_texts: list[str], max_tries: int = 8) -> list[dict]:
-    """Hilfsfunktion für Random-Segmente: generiert bis target erreicht oder Versuche erschöpft."""
-    out = []
+def generate_random_categories(
+    plugins: Dict[str, Callable[..., Optional[dict]]],
+    k: int,
+    past_texts: List[str],
+    exclude: Optional[set[str]] = None,
+) -> List[dict]:
+    """
+    Wählt k Kategorien (ohne exclude) und erzeugt jeweils eine Frage.
+    Dedupe gegen Vergangenheit und innerhalb des Sets.
+    """
+    names = [n for n in plugins.keys() if not exclude or n not in exclude]
+    if not names or k <= 0:
+        return []
+
+    # ziehe möglichst verschiedene Kategorien
+    chosen = random.sample(names, k=min(k, len(names)))
+    while len(chosen) < k:
+        chosen.append(random.choice(names))
+
+    out: List[dict] = []
     tries = 0
-    while len(out) < target_count and tries < max_tries:
-        item = generator_fn()
+    while len(out) < k and tries < k * 6:
+        cat = chosen[len(out)]
         tries += 1
+        try:
+            item = plugins[cat](past_texts=past_texts)  # -> dict | None
+        except Exception:
+            continue
         if not item:
             continue
-        qt = item.get("question", "").strip()
+        qt = _norm(item.get("question", ""))
         if not qt:
             continue
-        if is_duplicate(qt, past_texts) or any(similarity(qt, x["question"]) >= DUPLICATE_SIMILARITY_THRESHOLD for x in out):
+        if any(similarity(qt, x.get("question", "")) >= SIM_THRESHOLD for x in out):
+            continue
+        if is_duplicate(qt, past_texts, SIM_THRESHOLD):
             continue
         out.append(item)
     return out
 
-def generate_random_segment_questions(past_questions_texts: list[str]) -> list[dict]:
-    segments = random.sample(RANDOM_SEGMENTS, k=RANDOM_SEGMENTS_PER_DAY)
-    def make_one(seg: str):
-        def _gen():
-            data = ask_openai_json(build_general_prompt(seg))
-            time.sleep(SLEEP_BETWEEN_CALLS)
-            if not data:
-                return None
-            data["category"] = seg  # sicherstellen
-            data["difficulty"] = random.randint(1, 10)
-            return data
-        return _gen
 
-    results = []
-    for seg in segments:
-        unique = regenerate_until_unique(make_one(seg), target_count=1, past_texts=past_questions_texts, max_tries=6)
-        if unique:
-            results.extend(unique)
-    return results
+def generate_politics_for_mode(
+    plugins: Dict[str, Callable[..., Optional[dict]]],
+    target: int,
+    past_texts: List[str],
+    day_seen: set[str],
+) -> List[dict]:
+    """
+    Erzeugt bis zu 'target' Politikfragen für einen Modus.
+    Dedupe: Vergangenheit, innerhalb dieses Sets, und 'day_seen' (andere Modi oder bereits erzeugte Fragen des Tages).
+    """
+    if POLITICS_CATEGORY_NAME not in plugins:
+        return []
 
-# ============ 💾 Persistenz ============
-def write_daily_bundle(quiz_list: list[dict], date_str: str | None = None):
+    out: List[dict] = []
+    tries = 0
+    while len(out) < target and tries < target * 6:
+        tries += 1
+        try:
+            q = plugins[POLITICS_CATEGORY_NAME](past_texts=past_texts)
+        except Exception:
+            continue
+        if not q:
+            continue
+        qt = _norm(q.get("question", ""))
+        if not qt:
+            continue
+        if is_duplicate(qt, past_texts, SIM_THRESHOLD):
+            continue
+        if any(similarity(qt, x.get("question", "")) >= SIM_THRESHOLD for x in out):
+            continue
+        if any(similarity(qt, t) >= SIM_THRESHOLD for t in day_seen):
+            continue
+        out.append(q)
+
+    return out
+
+
+# ===================== Persistenz =====================
+
+def write_daily_bundle(quiz_list: List[dict], mode: str, date_str: Optional[str] = None) -> Optional[str]:
+    """
+    Schreibt bundle.<mode>.json ins Tagesverzeichnis.
+    Gibt den relative Pfad zurück oder None, wenn leer.
+    """
     if not quiz_list:
-        print("❌ Keine gültigen Quizfragen generiert.")
-        return
+        print(f"❌ Keine gültigen Quizfragen für Modus '{mode}'.")
+        return None
 
     day = date_str or _iso_date_today()
     day_dir = os.path.join(OUT_ROOT, day)
@@ -302,73 +275,136 @@ def write_daily_bundle(quiz_list: list[dict], date_str: str | None = None):
     bundle = {
         "date": day,
         "generated_at": _now_iso(),
-        "schema_version": 3,  # ↑ Version, da category/source ergänzt wurden
+        "schema_version": 4,  # Multi-Modus + Plugins
+        "mode": mode,
         "questions": quiz_list,
     }
 
-    bundle_path = os.path.join(day_dir, "bundle.json")
+    suffix = ".schwer.json" if mode == "schwer" else ".normal.json"
+    bundle_path = os.path.join(day_dir, f"bundle{suffix}")
     with open(bundle_path, "w", encoding="utf-8") as f:
         json.dump(bundle, f, ensure_ascii=False, indent=2)
 
-    # latest.json aktualisieren
-    latest_path = os.path.join(OUT_ROOT, "latest.json")
-    with open(latest_path, "w", encoding="utf-8") as f:
-        json.dump({"latest_date": day, "path": f"{OUT_ROOT}/{day}/bundle.json"}, f, ensure_ascii=False, indent=2)
+    print(f"✅ Bundle gespeichert ({mode}): {bundle_path}")
+    return f"{OUT_ROOT}/{day}/bundle{suffix}"
 
-    # catalog.json pflegen
+
+def update_latest_and_catalog(paths_by_mode: Dict[str, str], date_str: Optional[str] = None) -> None:
+    """
+    Aktualisiert latest.json (mit beiden Pfaden) und catalog.json (Eintrag pro Datum mit beiden Pfaden).
+    """
+    day = date_str or _iso_date_today()
+
+    # latest.json
+    latest_path = os.path.join(OUT_ROOT, "latest.json")
+    latest = {"latest_date": day, "paths": {}}
+    if os.path.exists(latest_path):
+        try:
+            latest = json.load(open(latest_path, "r", encoding="utf-8"))
+        except Exception:
+            pass
+    latest["latest_date"] = day
+    latest.setdefault("paths", {}).update(paths_by_mode)
+    with open(latest_path, "w", encoding="utf-8") as f:
+        json.dump(latest, f, ensure_ascii=False, indent=2)
+    print(f"➡️  latest.json aktualisiert: {latest_path}")
+
+    # catalog.json
     catalog_path = os.path.join(OUT_ROOT, "catalog.json")
     catalog = []
     if os.path.exists(catalog_path):
         try:
-            with open(catalog_path, "r", encoding="utf-8") as f:
-                catalog = json.load(f)
+            catalog = json.load(open(catalog_path, "r", encoding="utf-8"))
         except Exception:
             catalog = []
-    entry = {"date": day, "path": f"{OUT_ROOT}/{day}/bundle.json"}
+    # Eintrag ersetzen/ergänzen
+    existing = next((e for e in catalog if e.get("date") == day), None)
+    entry = existing or {"date": day, "paths": {}}
+    entry["paths"].update(paths_by_mode)
     catalog = [e for e in catalog if e.get("date") != day] + [entry]
     catalog.sort(key=lambda e: e.get("date", ""), reverse=True)
     with open(catalog_path, "w", encoding="utf-8") as f:
         json.dump(catalog, f, ensure_ascii=False, indent=2)
-
-    print(f"✅ Bundle gespeichert: {bundle_path}")
-    print(f"➡️  latest.json aktualisiert: {latest_path}")
     print(f"🗂️  catalog.json aktualisiert: {catalog_path}")
 
-# ============ 🚀 Main ============
+
+# ===================== Orchestrierung =====================
+
+def assign_difficulties(questions: List[dict], mode: str) -> None:
+    weights = DIFFICULTY_WEIGHTS.get(mode) or DIFFICULTY_WEIGHTS["normal"]
+    for q in questions:
+        q["difficulty"] = int(weighted_choice(weights))
+
+
 def main():
-    # 1) Vergangene Woche laden
+    # 0) Plugins laden
+    plugins = discover_category_plugins()
+    if not plugins:
+        print("⚠️ Keine Plugins unter ./kategorien/ gefunden – keine Fragen generierbar.")
+        return
+    if POLITICS_CATEGORY_NAME not in plugins:
+        print("⚠️ Politik-Plugin nicht gefunden – es werden keine Politikfragen generiert.")
+
+    # 1) Vergangenheit (für Dedupe)
     past = load_past_questions(PAST_DAYS_TO_CHECK)
-    past_questions_texts = [q.get("question", "") for q in past if isinstance(q, dict)]
+    past_texts = [q.get("question", "") for q in past if isinstance(q, dict)]
 
-    # 2) Tagesschau-Artikel holen (5 Stück)
-    links = fetch_front_article_links(NUM_FRONT_ARTICLES)
-    if not links:
-        print("❌ Keine Artikel gefunden.")
-        return
-    articles = []
-    for u in links:
-        try:
-            articles.append(fetch_article(u))
-        except Exception as e:
-            print(f"⚠️ Fehler bei Artikel: {u} – {e}")
-    if not articles:
-        print("❌ Keine Artikelinhalte abrufbar.")
-        return
+    # 2) Tagesweite Dedupe-Sammlung, um Duplikate zwischen den Modi zu vermeiden
+    day_dedupe_texts: set[str] = set()
 
-    # 3) Politikfragen erzeugen (Ziel: 2)
-    politics = generate_politics_questions(articles, past_questions_texts)
+    # 3) pro Modus generieren und speichern
+    saved_paths: Dict[str, str] = {}
 
-    # Falls weniger als 2 Politikfragen entstanden sind, fülle NICHT mit anderen Kategorien auf;
-    # wir halten uns an „liest 5 Artikel und sucht 2 Politikfragen daraus“ – lieber 1 als eine unpassende.
-    if len(politics) < POLITICS_TARGET:
-        print(f"ℹ️ Nur {len(politics)} Politik-Frage(n) generiert – zu wenig Politik auf der Frontpage?")
+    for mode in ("normal", "schwer"):
+        # 3.1 Politik pro Modus separat
+        politics = generate_politics_for_mode(
+            plugins=plugins,
+            target=POLITICS_TARGET,
+            past_texts=past_texts,
+            day_seen=day_dedupe_texts,
+        )
 
-    # 4) 3 zufällige Segmente -> je 1 Frage
-    random_segments_questions = generate_random_segment_questions(past_questions_texts)
+        # 3.2 Random-Kategorien (ohne Politik)
+        random_cats = generate_random_categories(
+            plugins=plugins,
+            k=RANDOM_SEGMENTS_PER_DAY,
+            past_texts=past_texts,
+            exclude={POLITICS_CATEGORY_NAME},
+        )
 
-    # 5) Zusammenführen & Speichern
-    all_questions = politics + random_segments_questions
-    write_daily_bundle(all_questions)
+        # 3.3 Zusammenführen
+        qlist: List[dict] = politics + random_cats
+
+        # 3.4 Optionaler Fallback: Wenn weniger als POLITICS_TARGET Politikfragen zustande kamen,
+        #     fülle mit Nicht-Politik, damit die Gesamtzahl stabil bleibt.
+        if len([q for q in qlist if q.get("category") == POLITICS_CATEGORY_NAME]) < POLITICS_TARGET:
+            needed = POLITICS_TARGET - sum(1 for q in qlist if q.get("category") == POLITICS_CATEGORY_NAME)
+            fillers = generate_random_categories(
+                plugins=plugins,
+                k=needed,
+                past_texts=past_texts,
+                exclude={POLITICS_CATEGORY_NAME},
+            )
+            qlist.extend(fillers)
+
+        # 3.5 Tagesweites Dedupe-Set updaten
+        for q in qlist:
+            qt = _norm(q.get("question", ""))
+            if qt:
+                day_dedupe_texts.add(qt)
+
+        # 3.6 Schwierigkeiten setzen
+        assign_difficulties(qlist, mode)
+
+        # 3.7 Persistieren
+        saved = write_daily_bundle(qlist, mode=mode)
+        if saved:
+            saved_paths[mode] = saved
+
+    # 4) latest.json + catalog.json aktualisieren
+    if saved_paths:
+        update_latest_and_catalog(saved_paths)
+
 
 if __name__ == "__main__":
     main()
