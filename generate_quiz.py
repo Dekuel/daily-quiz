@@ -1,16 +1,17 @@
 # -*- coding: utf-8 -*-
 """
-Daily Quiz Generator (zweimodig):
-- Modi: "normal" und "schwer"
-- Politik-Fragen werden pro Modus separat über das Politik-Plugin generiert (Ziel: 2)
+Daily Quiz Generator (dreimodig):
+- Modi: "normal", "schwer" und "physik"
+- Politik-Fragen werden pro Modus separat über das Politik-Plugin generiert (Ziel: 2) – außer im Modus "physik"
 - Weitere Fragen über Kategorien-Plugins in ./kategorien/ (je Aufruf genau 1 Frage)
 - Dedupe ggü. Vergangenheit (7 Tage), innerhalb eines Modus, und zwischen den Modi (tagesweit)
 - Schwierigkeit pro Modus via Gewichten
 - Persistenz:
   quizzes/YYYY-MM-DD/bundle.normal.json
   quizzes/YYYY-MM-DD/bundle.schwer.json
-  latest.json -> { "latest_date": "...", "paths": {"normal": "...", "schwer": "..."} }
-  catalog.json -> [{ "date": "...", "paths": {"normal": "...", "schwer": "..."} }, ...]
+  quizzes/YYYY-MM-DD/bundle.physik.json
+  latest.json -> { "latest_date": "...", "paths": {"normal": "...", "schwer": "...", "physik": "..."} }
+  catalog.json -> [{ "date": "...", "paths": {"normal": "...", "schwer": "...", "physik": "..."} }, ...]
 """
 
 from __future__ import annotations
@@ -38,12 +39,20 @@ RANDOM_SEGMENTS_PER_DAY = 3
 # Kategorie-Name des Politik-Plugins
 POLITICS_CATEGORY_NAME = "Politik"
 
+# Kategorie-Name für das reine Physik-Quiz
+PHYSICS_CATEGORY_NAME = "Physik"
+
+# Anzahl Fragen im Physik-Bundle
+PHYSIK_QUESTIONS_COUNT = 10
+
 # Schwierigkeit-Gewichte (Schlüssel = Difficulty 1..10, Wert = Gewicht)
 DIFFICULTY_WEIGHTS: Dict[str, Dict[int, int]] = {
     # vom Nutzer vorgegeben
     "schwer": {10: 14, 9: 16, 8: 21, 7: 16, 6: 11, 5: 9, 4: 6, 3: 4, 2: 2, 1: 1},
-    # Vorschlag für "normal" (anpassbar)
+    # "normal" als Basis
     "normal": {10: 3, 9: 5, 8: 8, 7: 10, 6: 14, 5: 18, 4: 16, 3: 12, 2: 8, 1: 6},
+    # eigener Satz für den Physik-Modus (aktuell wie "normal"; beliebig anpassbar)
+    "physik": {10: 3, 9: 5, 8: 8, 7: 10, 6: 14, 5: 18, 4: 16, 3: 12, 2: 8, 1: 6},
 }
 
 # Text-Ähnlichkeitsschwelle für Dedupe
@@ -80,7 +89,6 @@ def weighted_choice(weights: Dict[int, int]) -> int:
     # weights: {difficulty: weight}
     if not weights:
         return 5
-    # sort optional – nicht notwendig für random.choices, aber deterministischer
     items = sorted(weights.items(), key=lambda x: x[0])
     keys = [k for k, _ in items]
     vals = [w for _, w in items]
@@ -91,7 +99,7 @@ def weighted_choice(weights: Dict[int, int]) -> int:
 
 def load_past_questions(days: int = PAST_DAYS_TO_CHECK) -> List[dict]:
     """
-    Lädt Fragen aus bundle.json, bundle.normal.json, bundle.schwer.json der letzten N Tage.
+    Lädt Fragen aus bundle.json, bundle.normal.json, bundle.schwer.json, bundle.physik.json der letzten N Tage.
     """
     past: List[dict] = []
     if not os.path.exists(OUT_ROOT):
@@ -130,7 +138,7 @@ def load_past_questions(days: int = PAST_DAYS_TO_CHECK) -> List[dict]:
             pass
 
     for d in sorted(dates, reverse=True):
-        for fname in ("bundle.json", "bundle.normal.json", "bundle.schwer.json"):
+        for fname in ("bundle.json", "bundle.normal.json", "bundle.schwer.json", "bundle.physik.json"):
             bundle_path = os.path.join(OUT_ROOT, d, fname)
             if os.path.exists(bundle_path):
                 try:
@@ -193,7 +201,6 @@ def generate_random_categories(
     if not names or k <= 0:
         return []
 
-    # ziehe möglichst verschiedene Kategorien
     chosen = random.sample(names, k=min(k, len(names)))
     while len(chosen) < k:
         chosen.append(random.choice(names))
@@ -217,6 +224,48 @@ def generate_random_categories(
         if is_duplicate(qt, past_texts, SIM_THRESHOLD):
             continue
         out.append(item)
+    return out
+
+
+def generate_specific_category_questions(
+    plugins: Dict[str, Callable[..., Optional[dict]]],
+    category_name: str,
+    target_count: int,
+    past_texts: List[str],
+    day_seen: set[str],
+) -> List[dict]:
+    """
+    Erzeugt ausschließlich Fragen aus einer bestimmten Kategorie (z. B. nur 'Physik').
+    Dedupe: Vergangenheit, innerhalb dieses Sets und tagesweit (day_seen).
+    """
+    if category_name not in plugins:
+        print(f"⚠️ Kategorie-Plugin '{category_name}' nicht gefunden.")
+        return []
+
+    out: List[dict] = []
+    tries = 0
+    # großzügiges Limit, falls mal Duplikate aussortiert werden
+    max_tries = target_count * 8
+
+    while len(out) < target_count and tries < max_tries:
+        tries += 1
+        try:
+            q = plugins[category_name](past_texts=past_texts)
+        except Exception:
+            continue
+        if not q:
+            continue
+        qt = _norm(q.get("question", ""))
+        if not qt:
+            continue
+        if is_duplicate(qt, past_texts, SIM_THRESHOLD):
+            continue
+        if any(similarity(qt, x.get("question", "")) >= SIM_THRESHOLD for x in out):
+            continue
+        if any(similarity(qt, t) >= SIM_THRESHOLD for t in day_seen):
+            continue
+        out.append(q)
+
     return out
 
 
@@ -275,12 +324,18 @@ def write_daily_bundle(quiz_list: List[dict], mode: str, date_str: Optional[str]
     bundle = {
         "date": day,
         "generated_at": _now_iso(),
-        "schema_version": 4,  # Multi-Modus + Plugins
+        "schema_version": 5,  # Multi-Modus (inkl. physik) + Plugins
         "mode": mode,
         "questions": quiz_list,
     }
 
-    suffix = ".schwer.json" if mode == "schwer" else ".normal.json"
+    if mode == "schwer":
+        suffix = ".schwer.json"
+    elif mode == "physik":
+        suffix = ".physik.json"
+    else:
+        suffix = ".normal.json"
+
     bundle_path = os.path.join(day_dir, f"bundle{suffix}")
     with open(bundle_path, "w", encoding="utf-8") as f:
         json.dump(bundle, f, ensure_ascii=False, indent=2)
@@ -291,7 +346,7 @@ def write_daily_bundle(quiz_list: List[dict], mode: str, date_str: Optional[str]
 
 def update_latest_and_catalog(paths_by_mode: Dict[str, str], date_str: Optional[str] = None) -> None:
     """
-    Aktualisiert latest.json (mit beiden Pfaden) und catalog.json (Eintrag pro Datum mit beiden Pfaden).
+    Aktualisiert latest.json (mit allen Pfaden) und catalog.json (Eintrag pro Datum mit allen Pfaden).
     """
     day = date_str or _iso_date_today()
 
@@ -342,6 +397,7 @@ def main():
     if not plugins:
         print("⚠️ Keine Plugins unter ./kategorien/ gefunden – keine Fragen generierbar.")
         return
+
     if POLITICS_CATEGORY_NAME not in plugins:
         print("⚠️ Politik-Plugin nicht gefunden – es werden keine Politikfragen generiert.")
 
@@ -355,37 +411,47 @@ def main():
     # 3) pro Modus generieren und speichern
     saved_paths: Dict[str, str] = {}
 
-    for mode in ("normal", "schwer"):
-        # 3.1 Politik pro Modus separat
-        politics = generate_politics_for_mode(
-            plugins=plugins,
-            target=POLITICS_TARGET,
-            past_texts=past_texts,
-            day_seen=day_dedupe_texts,
-        )
-
-        # 3.2 Random-Kategorien (ohne Politik)
-        random_cats = generate_random_categories(
-            plugins=plugins,
-            k=RANDOM_SEGMENTS_PER_DAY,
-            past_texts=past_texts,
-            exclude={POLITICS_CATEGORY_NAME},
-        )
-
-        # 3.3 Zusammenführen
-        qlist: List[dict] = politics + random_cats
-
-        # 3.4 Optionaler Fallback: Wenn weniger als POLITICS_TARGET Politikfragen zustande kamen,
-        #     fülle mit Nicht-Politik, damit die Gesamtzahl stabil bleibt.
-        if len([q for q in qlist if q.get("category") == POLITICS_CATEGORY_NAME]) < POLITICS_TARGET:
-            needed = POLITICS_TARGET - sum(1 for q in qlist if q.get("category") == POLITICS_CATEGORY_NAME)
-            fillers = generate_random_categories(
+    for mode in ("normal", "schwer", "physik"):
+        if mode in ("normal", "schwer"):
+            # 3.1 Politik pro Modus separat
+            politics = generate_politics_for_mode(
                 plugins=plugins,
-                k=needed,
+                target=POLITICS_TARGET,
+                past_texts=past_texts,
+                day_seen=day_dedupe_texts,
+            )
+
+            # 3.2 Random-Kategorien (ohne Politik)
+            random_cats = generate_random_categories(
+                plugins=plugins,
+                k=RANDOM_SEGMENTS_PER_DAY,
                 past_texts=past_texts,
                 exclude={POLITICS_CATEGORY_NAME},
             )
-            qlist.extend(fillers)
+
+            # 3.3 Zusammenführen
+            qlist: List[dict] = politics + random_cats
+
+            # 3.4 Optionaler Fallback, falls zu wenig Politikfragen
+            if len([q for q in qlist if q.get("category") == POLITICS_CATEGORY_NAME]) < POLITICS_TARGET:
+                needed = POLITICS_TARGET - sum(1 for q in qlist if q.get("category") == POLITICS_CATEGORY_NAME)
+                fillers = generate_random_categories(
+                    plugins=plugins,
+                    k=needed,
+                    past_texts=past_texts,
+                    exclude={POLITICS_CATEGORY_NAME},
+                )
+                qlist.extend(fillers)
+
+        else:  # mode == "physik"
+            # nur Physik, 10 Fragen
+            qlist = generate_specific_category_questions(
+                plugins=plugins,
+                category_name=PHYSICS_CATEGORY_NAME,
+                target_count=PHYSIK_QUESTIONS_COUNT,
+                past_texts=past_texts,
+                day_seen=day_dedupe_texts,
+            )
 
         # 3.5 Tagesweites Dedupe-Set updaten
         for q in qlist:
@@ -393,7 +459,7 @@ def main():
             if qt:
                 day_dedupe_texts.add(qt)
 
-        # 3.6 Schwierigkeiten setzen
+        # 3.6 Schwierigkeiten setzen (modusspezifisch)
         assign_difficulties(qlist, mode)
 
         # 3.7 Persistieren
