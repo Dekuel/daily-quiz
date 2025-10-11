@@ -33,11 +33,11 @@ _SCHEMA = """{
 # Leitplanken je Schwierigkeitsbereich:
 # Wir unterscheiden 5 Bänder (2er-Schritte), damit 8≠9≈10 etc. fühlbar wird.
 _DIFF_BANDS = [
-    ( (1, 2), "SEHR LEICHT (1–2): Alltagsphysik, anschauliche Begriffe, kaum Fachsprache.", 0.35 ),
-    ( (3, 4), "LEICHT (3–4): Grundbegriffe/Definitionen, einfache qualitative Zusammenhänge.", 0.45 ),
-    ( (5, 6), "MITTEL (5–6): Kombination mehrerer Konzepte, einfache quantitative Aussagen ohne Rechnen.", 0.55 ),
-    ( (7, 8), "ANSRUCHSVOLL (7–8): präzisere Konzepte/Fallunterscheidungen, engere Distraktoren.", 0.65 ),
-    ( (9,10), "SCHWER (9–10): tiefe Konzepte/Edge Cases, genaue Begriffsabgrenzungen, keine Herleitungen nötig.", 0.72 ),
+    ( (1, 2), "SEHR LEICHT (1–2): Alltagsphysik, anschauliche Begriffe, kaum Fachsprache.", 0.75 ),
+    ( (3, 4), "LEICHT (3–4): Grundbegriffe/Definitionen, einfache qualitative Zusammenhänge.", 0.75 ),
+    ( (5, 6), "MITTEL (5–6): Kombination mehrerer Konzepte, einfache quantitative Aussagen ohne Rechnen.", 0.75 ),
+    ( (7, 8), "ANSRUCHSVOLL (7–8): präzisere Konzepte/Fallunterscheidungen, engere Distraktoren.", 0.75 ),
+    ( (9,10), "SCHWER (9–10): tiefe Konzepte/Edge Cases, genaue Begriffsabgrenzungen, keine Herleitungen nötig.", 0.78 ),
 ]
 
 def _band_for_difficulty(target: int) -> tuple[str, float]:

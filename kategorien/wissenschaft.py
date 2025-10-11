@@ -74,11 +74,11 @@ _SCHEMA = """{
 
 # Schwierigkeitsbänder (feiner als nur leicht/mittel/schwer)
 _DIFF_BANDS = [
-    ((1, 2), "SEHR LEICHT (1–2): sehr bekanntes Grundlagenwissen, klare Distraktoren; keine Fachsprache nötig.", 0.35),
-    ((3, 4), "LEICHT (3–4): grundlegende Begriffe/Konzepte mit kurzem Kontext; einfache Beispiele.", 0.45),
-    ((5, 6), "MITTEL (5–6): Verknüpfung mehrerer Konzepte; knappe, präzise Begriffsabgrenzungen.", 0.55),
-    ((7, 8), "ANSPRUCHSVOLL (7–8): seltenere Konzepte/Subdisziplinen; eng verwandte, plausible Distraktoren.", 0.65),
-    ((9,10), "SCHWER (9–10): präzise Details/Edge Cases, exakte Terminologie; keine Rechnungen/Herleitungen nötig.", 0.72),
+    ((1, 2), "SEHR LEICHT (1–2): sehr bekanntes Grundlagenwissen, klare Distraktoren; keine Fachsprache nötig.", 0.75),
+    ((3, 4), "LEICHT (3–4): grundlegende Begriffe/Konzepte mit kurzem Kontext; einfache Beispiele.", 0.75),
+    ((5, 6), "MITTEL (5–6): Verknüpfung mehrerer Konzepte; knappe, präzise Begriffsabgrenzungen.", 0.75),
+    ((7, 8), "ANSPRUCHSVOLL (7–8): seltenere Konzepte/Subdisziplinen; eng verwandte, plausible Distraktoren.", 0.75),
+    ((9,10), "SCHWER (9–10): präzise Details/Edge Cases, exakte Terminologie; keine Rechnungen/Herleitungen nötig.", 0.82),
 ]
 
 def _band_for_difficulty(target: int) -> tuple[str, float]:

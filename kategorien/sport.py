@@ -27,11 +27,11 @@ _SCHEMA = """{
 
 # Schwierigkeitsbänder (feiner als nur leicht/mittel/schwer)
 _DIFF_BANDS = [
-    ((1, 2), "SEHR LEICHT (1–2): weithin bekannte Regeln, ikonische Personen/Ereignisse; klare Distraktoren.", 0.35),
-    ((3, 4), "LEICHT (3–4): Grundwissen zu Turnieren, Positionen, einfachen Statistiken oder Rekorden.", 0.45),
-    ((5, 6), "MITTEL (5–6): taktische Grundkonzepte, historische Kontexte, differenzierte Regeln.", 0.55),
-    ((7, 8), "ANSPRUCHSVOLL (7–8): seltenere Fakten, präzise Regelausnahmen, vergleichende Rekorde.", 0.65),
-    ((9,10), "SCHWER (9–10): Detailwissen (z. B. spezifische Regelpassagen, historische Sonderfälle, exakte Zuordnungen).", 0.72),
+    ((1, 2), "SEHR LEICHT (1–2): weithin bekannte Regeln, ikonische Personen/Ereignisse; klare Distraktoren.", 0.75),
+    ((3, 4), "LEICHT (3–4): Grundwissen zu Turnieren, Positionen, einfachen Statistiken oder Rekorden.", 0.75),
+    ((5, 6), "MITTEL (5–6): taktische Grundkonzepte, historische Kontexte, differenzierte Regeln.", 0.75),
+    ((7, 8), "ANSPRUCHSVOLL (7–8): seltenere Fakten, präzise Regelausnahmen, vergleichende Rekorde.", 0.75),
+    ((9,10), "SCHWER (9–10): Detailwissen (z. B. spezifische Regelpassagen, historische Sonderfälle, exakte Zuordnungen).", 0.82),
 ]
 
 def _band_for_difficulty(target: int) -> tuple[str, float]:

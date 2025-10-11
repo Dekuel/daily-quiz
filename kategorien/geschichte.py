@@ -32,13 +32,13 @@ _DIFF_GUIDE = """
 def _prompt(sub: str, target_difficulty: int, mode: Optional[str]) -> tuple[str, float]:
     if target_difficulty <= 3:
         tier_note = "LEICHT (1–3): bekannte Ereignisse/Personen, klar erkennbare Antwort."
-        temperature = 0.4
+        temperature = 0.8
     elif target_difficulty <= 7:
         tier_note = "MITTEL (4–7): etwas weniger bekannte Fakten, moderate Komplexität."
-        temperature = 0.6
+        temperature = 0.8
     else:
         tier_note = "SCHWER (8–10): spezifische Details, eng verwandte Distraktoren."
-        temperature = 0.7
+        temperature = 0.8
 
     prompt = f"""
 Erzeuge EINE Multiple-Choice-Frage (A–D, genau eine richtig) zur Kategorie „Geschichte“, Unterbereich „{sub}“.
