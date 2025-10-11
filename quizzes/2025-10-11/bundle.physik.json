@@ -1,97 +1,69 @@
 {
   "date": "2025-10-11",
-  "generated_at": "2025-10-11T12:15:52Z",
+  "generated_at": "2025-10-11T12:42:38Z",
   "schema_version": 5,
   "mode": "physik",
   "questions": [
     {
       "category": "Physik",
-      "discipline": "Quantenmechanik",
-      "question": "Was beschreibt das Heisenbergsche Unschärfetheorem?",
+      "discipline": "Thermodynamik",
+      "question": "Welches der folgenden Gesetze beschreibt das Prinzip, dass die Entropie eines isolierten Systems niemals abnimmt?",
       "choices": [
-        "A: Es ist unmöglich, den genauen Ort und den Impuls eines Teilchens gleichzeitig zu bestimmen.",
-        "B: Teilchen können sich nur in diskreten Energieniveaus bewegen.",
-        "C: Licht verhält sich sowohl wie eine Welle als auch wie ein Teilchen.",
-        "D: Teilchen können instantan über beliebige Entfernungen miteinander interagieren."
+        "A: Das zweite Hauptsatz der Thermodynamik",
+        "B: Das erste Hauptsatz der Thermodynamik",
+        "C: Das Gesetz von Boyle",
+        "D: Das Gesetz von Charles"
       ],
       "correct_answer": "A",
-      "explanation": "Das Heisenbergsche Unschärfetheorem besagt, dass es grundlegende Grenzen gibt, wie genau wir den Ort und den Impuls eines Teilchens gleichzeitig messen können. Je präziser wir den einen Wert bestimmen, desto ungenauer wird der andere.",
-      "difficulty": 6
-    },
-    {
-      "category": "Physik",
-      "discipline": "Festkörperphysik",
-      "question": "Was beschreibt den Begriff 'Kristallgitter' in der Festkörperphysik?",
-      "choices": [
-        "A: Die regelmäßige Anordnung von Atomen oder Molekülen in einem Festkörper.",
-        "B: Die Bewegung von Teilchen in einem flüssigen Zustand.",
-        "C: Die energetischen Zustände von Elektronen in einem Atom.",
-        "D: Die Wechselwirkungen zwischen Licht und Materie."
-      ],
-      "correct_answer": "A",
-      "explanation": "Ein Kristallgitter ist die Struktur, in der Atome oder Moleküle in einem festen Material regelmäßig angeordnet sind. Diese Anordnung beeinflusst die physikalischen Eigenschaften des Materials, wie z.B. seine Härte und elektrischen Eigenschaften.",
-      "difficulty": 4
-    },
-    {
-      "category": "Physik",
-      "discipline": "Festkörperphysik",
-      "question": "Was beschreibt die Kristallstruktur eines Festkörpers?",
-      "choices": [
-        "A: Die regelmäßige Anordnung der Atome oder Moleküle in einem festen Material.",
-        "B: Die Bewegung der Teilchen in einem Gas.",
-        "C: Die Energieverteilung in einem elektromagnetischen Feld.",
-        "D: Die Temperaturabhängigkeit von Flüssigkeiten."
-      ],
-      "correct_answer": "A",
-      "explanation": "Die Kristallstruktur beschreibt, wie die Atome oder Moleküle in einem Festkörper räumlich angeordnet sind. Diese Anordnung beeinflusst viele Eigenschaften des Materials, wie Festigkeit und Leitfähigkeit.",
-      "difficulty": 6
-    },
-    {
-      "category": "Physik",
-      "discipline": "Optik",
-      "question": "Was beschreibt das Snellius'sche Gesetz in der Optik?",
-      "choices": [
-        "A: Das Verhältnis der Sinuswerte der Einfalls- und Brechungswinkel beim Übergang zwischen zwei Medien.",
-        "B: Die Geschwindigkeit von Licht in Vakuum.",
-        "C: Die Reflexion von Licht an einer Oberfläche.",
-        "D: Die Wellenlänge von Licht in verschiedenen Medien."
-      ],
-      "correct_answer": "A",
-      "explanation": "Das Snellius'sche Gesetz beschreibt, wie Lichtstrahlen an der Grenze zwischen zwei Medien gebrochen werden. Es zeigt, dass das Verhältnis der Sinuswerte der Einfalls- und Brechungswinkel konstant ist und von den optischen Eigenschaften der jeweiligen Medien abhängt.",
-      "difficulty": 3
-    },
-    {
-      "category": "Physik",
-      "discipline": "Optik",
-      "question": "Welche Eigenschaft von Licht erklärt, warum ein Regenbogen entsteht?",
-      "choices": [
-        "A: Lichtbrechung",
-        "B: Lichtreflexion",
-        "C: Lichtstreuung",
-        "D: Lichtabsorption"
-      ],
-      "correct_answer": "A",
-      "explanation": "Ein Regenbogen entsteht durch die Brechung, Reflexion und Streuung des Lichts in Wassertropfen. Die unterschiedlichen Farben des Lichts werden beim Brechen in verschiedenen Winkeln abgelenkt, wodurch das Spektrum sichtbar wird.",
-      "difficulty": 5
-    },
-    {
-      "category": "Physik",
-      "discipline": "Optik",
-      "question": "Was beschreibt das Gesetz der Brechung (Snelliussches Gesetz)?",
-      "choices": [
-        "A: Den Zusammenhang zwischen dem Einfallswinkel und dem Brechungswinkel von Lichtstrahlen beim Übergang zwischen zwei Medien.",
-        "B: Die Energieübertragung von einem Körper auf einen anderen durch Wärme.",
-        "C: Die Bewegung von Körpern unter dem Einfluss von Kräften.",
-        "D: Die Wechselwirkung zwischen elektrisch geladenen Teilchen."
-      ],
-      "correct_answer": "A",
-      "explanation": "Das Gesetz der Brechung beschreibt, wie Lichtstrahlen beim Übergang von einem Medium in ein anderes ihre Richtung ändern. Der Einfallswinkel und der Brechungswinkel stehen in einem definierten Verhältnis, das durch den Brechungsindex der beiden Medien bestimmt wird.",
-      "difficulty": 5
+      "explanation": "Der zweite Hauptsatz der Thermodynamik besagt, dass die Entropie in einem isolierten System stets gleich bleibt oder zunimmt, was bedeutet, dass natürliche Prozesse irreversibel sind und eine Tendenz zur Unordnung haben.",
+      "difficulty": 9
     },
     {
       "category": "Physik",
       "discipline": "berühmte Physiker",
-      "question": "Welcher Physiker ist bekannt für seine Theorien über die Relativität?",
+      "question": "Welcher Physiker ist bekannt für die Entwicklung der Quantenmechanik und die Formulierung der Unschärferelation?",
+      "choices": [
+        "A: Werner Heisenberg",
+        "B: Albert Einstein",
+        "C: Niels Bohr",
+        "D: Max Planck"
+      ],
+      "correct_answer": "A",
+      "explanation": "Werner Heisenberg ist berühmt für seine Beiträge zur Quantenmechanik, insbesondere für die Unschärferelation, die besagt, dass bestimmte Paare von physikalischen Eigenschaften, wie Position und Impuls, nicht gleichzeitig mit beliebiger Genauigkeit bestimmt werden können.",
+      "difficulty": 3
+    },
+    {
+      "category": "Physik",
+      "discipline": "Thermodynamik",
+      "question": "Welches der folgenden Gesetze beschreibt den Zusammenhang zwischen Temperatur und Energie in einem geschlossenen System?",
+      "choices": [
+        "A: Das Gesetz von Joule",
+        "B: Das Gesetz von Avogadro",
+        "C: Das Gesetz von Ohm",
+        "D: Das Gesetz von Pascal"
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Gesetz von Joule beschreibt, wie die innere Energie eines Systems mit der Temperatur zusammenhängt und wie Wärme in mechanische Arbeit umgewandelt werden kann. Es ist fundamental für das Verständnis thermodynamischer Prozesse.",
+      "difficulty": 4
+    },
+    {
+      "category": "Physik",
+      "discipline": "Astrophysik",
+      "question": "Was ist der Hauptgrund dafür, dass das Licht von fernen Galaxien rotverschoben erscheint?",
+      "choices": [
+        "A: Die Expansion des Universums.",
+        "B: Die Absorption durch interstellare Materie.",
+        "C: Die Lichtgeschwindigkeit, die verlangsamt wird.",
+        "D: Der Dopplereffekt aufgrund der Rotation der Galaxien."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die rotverschobene Erscheinung des Lichts von fernen Galaxien ist hauptsächlich auf die Expansion des Universums zurückzuführen, die bewirkt, dass sich die Wellenlängen des Lichts verlängern, während sie sich aus der Quelle entfernen.",
+      "difficulty": 3
+    },
+    {
+      "category": "Physik",
+      "discipline": "berühmte Physiker",
+      "question": "Welcher Physiker formulierte das Prinzip der Relativität, das besagt, dass die physikalischen Gesetze in allen gleichförmig bewegten Bezugssystemen identisch sind?",
       "choices": [
         "A: Albert Einstein",
         "B: Isaac Newton",
@@ -99,50 +71,78 @@
         "D: Max Planck"
       ],
       "correct_answer": "A",
-      "explanation": "Albert Einstein ist berühmt für seine Relativitätstheorie, die das Verständnis von Raum und Zeit revolutionierte. Seine Arbeit hat grundlegende Konzepte der Physik neu definiert und beeinflusst bis heute viele wissenschaftliche Bereiche.",
-      "difficulty": 7
-    },
-    {
-      "category": "Physik",
-      "discipline": "Optik",
-      "question": "Was passiert mit Licht, wenn es auf eine Wasseroberfläche trifft?",
-      "choices": [
-        "A: Es wird teilweise reflektiert und teilweise gebrochen.",
-        "B: Es wird vollständig reflektiert.",
-        "C: Es wird nicht beeinflusst.",
-        "D: Es verschwindet vollständig im Wasser."
-      ],
-      "correct_answer": "A",
-      "explanation": "Wenn Licht auf eine Wasseroberfläche trifft, wird ein Teil des Lichts reflektiert und ein Teil in das Wasser gebrochen. Dies ist ein grundlegendes Prinzip der Optik, das die Wechselwirkung von Licht mit verschiedenen Materialien beschreibt.",
-      "difficulty": 4
-    },
-    {
-      "category": "Physik",
-      "discipline": "Kern- und Teilchenphysik",
-      "question": "Was beschreibt der Begriff 'Kernfusion'?",
-      "choices": [
-        "A: Die Verschmelzung leichter Atomkerne zu einem schwereren Kern.",
-        "B: Die Spaltung schwerer Atomkerne in leichtere Kerne.",
-        "C: Die Umwandlung von Energie in Materie.",
-        "D: Die Wechselwirkung zwischen Elektronen und Protonen."
-      ],
-      "correct_answer": "A",
-      "explanation": "Kernfusion ist der Prozess, bei dem zwei leichte Atomkerne, wie Wasserstoffisotope, miteinander verschmelzen, um einen schwereren Kern, wie Helium, zu bilden. Dieser Prozess setzt enorme Energiemengen frei und ist die Hauptenergiequelle der Sterne.",
+      "explanation": "Albert Einstein ist bekannt für seine Relativitätstheorie, die das Verständnis von Raum und Zeit revolutionierte. Sein Prinzip der Relativität gilt für alle gleichförmig bewegten Systeme und ist grundlegend für die moderne Physik.",
       "difficulty": 5
     },
     {
       "category": "Physik",
-      "discipline": "Astrophysik",
-      "question": "Was ist der Hauptbestandteil der meisten Sterne, einschließlich unserer Sonne?",
+      "discipline": "Optik",
+      "question": "Welches Phänomen beschreibt das Licht, das beim Durchgang durch ein Prisma in seine Spektralfarben zerlegt wird?",
       "choices": [
-        "A: Wasserstoff",
-        "B: Helium",
-        "C: Kohlenstoff",
-        "D: Eisen"
+        "A: Dispersion",
+        "B: Reflexion",
+        "C: Brechung",
+        "D: Interferenz"
       ],
       "correct_answer": "A",
-      "explanation": "Die meisten Sterne bestehen hauptsächlich aus Wasserstoff, der durch Kernfusion in Helium umgewandelt wird. Dieser Prozess setzt enorme Mengen an Energie frei und ist die Hauptquelle für das Licht und die Wärme, die Sterne abstrahlen.",
-      "difficulty": 8
+      "explanation": "Dispersion ist der Prozess, bei dem Licht in verschiedene Farben aufgespalten wird, wenn es durch Materialien wie ein Prisma hindurchtritt. Dies geschieht aufgrund der unterschiedlichen Wellenlängen und Geschwindigkeiten des Lichts in verschiedenen Medien.",
+      "difficulty": 3
+    },
+    {
+      "category": "Physik",
+      "discipline": "berühmte Physiker",
+      "question": "Welcher Physiker formulierte das berühmte Prinzip der Unschärfe, das besagt, dass bestimmte Paare von physikalischen Eigenschaften nicht gleichzeitig mit beliebiger Genauigkeit gemessen werden können?",
+      "choices": [
+        "A: Werner Heisenberg",
+        "B: Albert Einstein",
+        "C: Niels Bohr",
+        "D: Max Planck"
+      ],
+      "correct_answer": "A",
+      "explanation": "Werner Heisenberg stellte 1927 das Unschärfeprinzip auf, das eine fundamentale Eigenschaft der Quantenmechanik beschreibt. Es besagt, dass die Position und der Impuls eines Teilchens nicht gleichzeitig genau bestimmt werden können.",
+      "difficulty": 3
+    },
+    {
+      "category": "Physik",
+      "discipline": "Klassische Mechanik",
+      "question": "Was beschreibt das Konzept der Impulserhaltung in einem abgeschlossenen System?",
+      "choices": [
+        "A: Der Gesamtimpuls bleibt konstant, wenn keine externen Kräfte wirken.",
+        "B: Die Geschwindigkeit eines Körpers bleibt konstant, wenn er nicht beschleunigt wird.",
+        "C: Die kinetische Energie eines Körpers bleibt immer gleich.",
+        "D: Die Masse eines Körpers verändert sich mit seiner Geschwindigkeit."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Konzept der Impulserhaltung besagt, dass der Gesamtimpuls eines geschlossenen Systems gleich bleibt, solange keine externen Kräfte auf das System einwirken. Dies ist ein fundamentales Prinzip der klassischen Mechanik und hat weitreichende Anwendungen in der Physik.",
+      "difficulty": 3
+    },
+    {
+      "category": "Physik",
+      "discipline": "Elektrodynamik",
+      "question": "Was beschreibt das Ampèresche Gesetz im Kontext der Elektrodynamik?",
+      "choices": [
+        "A: Die Beziehung zwischen elektrischen Strömen und den durch sie erzeugten magnetischen Feldern.",
+        "B: Die Beziehung zwischen elektrischen Ladungen und dem elektrischen Feld, das sie erzeugen.",
+        "C: Die Wechselwirkung zwischen Licht und Materie bei hohen Geschwindigkeiten.",
+        "D: Die thermodynamischen Eigenschaften von elektrischen Leitern."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Ampèresche Gesetz ist fundamental für die Elektrodynamik, da es aufzeigt, wie elektrische Ströme magnetische Felder erzeugen. Es verbindet die Konzepte von Elektrizität und Magnetismus, die in der klassischen Physik eng miteinander verknüpft sind.",
+      "difficulty": 9
+    },
+    {
+      "category": "Physik",
+      "discipline": "Optik",
+      "question": "Was beschreibt das Phänomen der Totalreflexion?",
+      "choices": [
+        "A: Licht wird vollständig zurückgeworfen, wenn es auf die Grenzfläche zwischen zwei Materialien trifft und der Einfallswinkel größer als der kritische Winkel ist.",
+        "B: Licht wird in einem Medium absorbiert und nicht reflektiert.",
+        "C: Licht breitet sich in einem Vakuum langsamer aus als in Wasser.",
+        "D: Licht verändert seine Wellenlänge, wenn es durch ein Prisma geht."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Totalreflexion tritt auf, wenn Licht von einem dichteren in ein dünneres Medium übergeht und der Einfallswinkel größer als der kritische Winkel ist. In diesem Fall wird das Licht vollständig reflektiert und tritt nicht in das dünnere Medium ein.",
+      "difficulty": 6
     }
   ]
 }
