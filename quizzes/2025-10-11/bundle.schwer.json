@@ -1,78 +1,78 @@
 {
   "date": "2025-10-11",
-  "generated_at": "2025-10-11T09:52:11Z",
-  "schema_version": 4,
+  "generated_at": "2025-10-11T12:00:10Z",
+  "schema_version": 5,
   "mode": "schwer",
   "questions": [
     {
-      "category": "Essen und Trinken",
-      "topic": "Küche international",
-      "question": "Woher stammt das Gericht 'Paella', das oft mit Reis und Meeresfrüchten zubereitet wird?",
+      "category": "Physik",
+      "discipline": "Thermodynamik",
+      "question": "Was besagt das erste Gesetz der Thermodynamik?",
       "choices": [
-        "A: Spanien",
-        "B: Italien",
-        "C: Griechenland",
-        "D: Mexiko"
+        "A: Energie kann weder geschaffen noch vernichtet werden, sondern nur umgewandelt werden.",
+        "B: Alle Systeme streben immer nach maximaler Entropie.",
+        "C: Wärme kann nur von einem kälteren zu einem wärmeren Körper fließen.",
+        "D: Druck und Volumen eines Gases sind unabhängig von der Temperatur."
       ],
       "correct_answer": "A",
-      "explanation": "'Paella' hat ihren Ursprung in der Region Valencia in Spanien und ist ein traditionelles spanisches Gericht. Es wird häufig mit verschiedenen Zutaten wie Meeresfrüchten, Huhn und Gemüse zubereitet und ist ein Symbol der spanischen Küche.",
+      "explanation": "Das erste Gesetz der Thermodynamik, auch als Energieerhaltungssatz bekannt, besagt, dass die Gesamtenergie eines geschlossenen Systems konstant bleibt. Energie kann lediglich von einer Form in eine andere umgewandelt werden, aber nicht verloren gehen oder neu entstehen.",
+      "difficulty": 3
+    },
+    {
+      "category": "Geschichte",
+      "subperiod": "Antike",
+      "question": "Wer war der berühmte Herrscher, der das Persische Reich gründete?",
+      "choices": [
+        "A: Kyros der Große",
+        "B: Darius der Große",
+        "C: Xerxes",
+        "D: Alexander der Große"
+      ],
+      "correct_answer": "A",
+      "explanation": "Kyros der Große war der Gründer des Persischen Reiches und regierte im 6. Jahrhundert v. Chr. Er ist bekannt für seine Toleranz gegenüber anderen Kulturen und Religionen.",
       "difficulty": 8
     },
     {
-      "category": "Wissenschaft",
-      "topic": "Physik",
-      "question": "Was passiert mit einem Ball, wenn man ihn in die Luft wirft?",
+      "category": "Sport",
+      "discipline": "Sonstige",
+      "question": "Welches dieser Spiele wird traditionell in einem 9-inning Format gespielt?",
       "choices": [
-        "A: Er steigt auf und fällt dann wieder herunter.",
-        "B: Er bleibt in der Luft hängen.",
-        "C: Er explodiert.",
-        "D: Er wird unsichtbar."
+        "A: Baseball",
+        "B: Cricket",
+        "C: American Football",
+        "D: Rugby"
       ],
       "correct_answer": "A",
-      "explanation": "Wenn man einen Ball in die Luft wirft, wirkt die Schwerkraft auf ihn, die ihn wieder zu Boden zieht. Der Ball steigt zunächst auf, erreicht seinen höchsten Punkt und fällt dann aufgrund der Schwerkraft wieder herunter.",
-      "difficulty": 6
-    },
-    {
-      "category": "Kunst und Literatur",
-      "subtopic": "Musik",
-      "question": "Welches Instrument gehört zur Familie der Holzbläser?",
-      "choices": [
-        "A: Klarinette",
-        "B: Trompete",
-        "C: Posaune",
-        "D: Schlagzeug"
-      ],
-      "correct_answer": "A",
-      "explanation": "Die Klarinette ist ein Holzblasinstrument, das aus einem langen Rohr besteht und einen einfachen Rohrblattansatz verwendet. Im Gegensatz dazu gehören Trompete und Posaune zur Familie der Blechbläser, während Schlagzeug eher zur Perkussion gehört.",
-      "difficulty": 6
-    },
-    {
-      "category": "Sprache",
-      "topic": "Wortherkunft",
-      "question": "Woher stammt das Wort 'Schadenfreude'?",
-      "choices": [
-        "A: Aus dem Deutschen, es bedeutet Freude am Unglück anderer.",
-        "B: Aus dem Lateinischen, es beschreibt eine Art von Kunst.",
-        "C: Aus dem Französischen, es bezieht sich auf eine kulinarische Technik.",
-        "D: Aus dem Englischen, es steht für eine besondere Freundschaft."
-      ],
-      "correct_answer": "A",
-      "explanation": "'Schadenfreude' setzt sich aus den Wörtern 'Schaden' (Unglück) und 'Freude' (Freude) zusammen. Es beschreibt das Gefühl, Freude zu empfinden, wenn jemand anderes Pech hat.",
+      "explanation": "Baseball wird in der Regel über neun Innings gespielt, wobei jede Mannschaft versucht, mehr Runs als die andere zu erzielen. Im Gegensatz dazu haben Cricket und American Football unterschiedliche Spielstrukturen und Innings.",
       "difficulty": 7
+    },
+    {
+      "category": "Geschichte",
+      "subperiod": "Antike",
+      "question": "Welches antike Bauwerk wurde als eines der sieben Weltwunder der Antike betrachtet?",
+      "choices": [
+        "A: Der Leuchtturm von Alexandria",
+        "B: Das Kolosseum in Rom",
+        "C: Die Pyramiden von Gizeh",
+        "D: Der Parthenon in Athen"
+      ],
+      "correct_answer": "A",
+      "explanation": "Der Leuchtturm von Alexandria, auch Pharos von Alexandria genannt, war ein beeindruckendes Bauwerk auf der Insel Pharos in Ägypten. Er diente als Orientierungspunkt für Seefahrer und wurde als eines der sieben Weltwunder der Antike angesehen.",
+      "difficulty": 2
     },
     {
       "category": "Kunst und Literatur",
       "subtopic": "Kunstgeschichte",
-      "question": "Welcher Künstler ist bekannt für seine Anwendung der Perspektive und gilt als einer der Begründer der Renaissance?",
+      "question": "Welcher Künstler ist bekannt für seinen Beitrag zur Entwicklung des Kubismus?",
       "choices": [
-        "A: Leonardo da Vinci",
+        "A: Pablo Picasso",
         "B: Vincent van Gogh",
         "C: Claude Monet",
-        "D: Pablo Picasso"
+        "D: Salvador Dalí"
       ],
       "correct_answer": "A",
-      "explanation": "Leonardo da Vinci war ein bedeutender Künstler der Renaissance, der innovative Techniken zur Darstellung von Perspektive und Raum entwickelte. Sein Werk, wie das berühmte Gemälde 'Das letzte Abendmahl', zeigt eindrucksvoll seine Meisterschaft in der Perspektive.",
-      "difficulty": 7
+      "explanation": "Pablo Picasso gilt als einer der Begründer des Kubismus, einer Kunstbewegung, die Formen in geometrische Strukturen zerlegt. Gemeinsam mit Georges Braque revolutionierte er die Darstellung von Raum und Perspektive in der Malerei.",
+      "difficulty": 9
     }
   ]
 }
