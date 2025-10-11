@@ -1,64 +1,64 @@
 {
   "date": "2025-10-11",
-  "generated_at": "2025-10-11T18:22:47Z",
+  "generated_at": "2025-10-11T19:52:10Z",
   "schema_version": 5,
   "mode": "normal",
   "questions": [
     {
-      "category": "Sport",
-      "discipline": "Formel 1",
-      "question": "Welches Team hat die meisten Konstrukteursmeisterschaften in der Geschichte der Formel 1 gewonnen?",
-      "choices": [
-        "A: Ferrari",
-        "B: Mercedes",
-        "C: Red Bull Racing",
-        "D: McLaren"
-      ],
-      "correct_answer": "A",
-      "explanation": "Ferrari ist das erfolgreichste Team in der Geschichte der Formel 1 und hat die meisten Konstrukteursmeisterschaften gewonnen. Ihre Erfolge reichen bis in die Anfänge der Formel 1 zurück.",
-      "difficulty": 4
-    },
-    {
       "category": "Geschichte",
-      "subperiod": "Zeitgeschichte (ab 1945)",
-      "question": "Welches Ereignis gilt als der Beginn des Kalten Krieges?",
+      "subperiod": "Neuzeit",
+      "question": "Welches Ereignis gilt als Beginn der Industriellen Revolution in England?",
       "choices": [
-        "A: Die Gründung der NATO 1949",
-        "B: Der Marshall-Plan 1947",
-        "C: Die Berliner Blockade 1948-1949",
-        "D: Der Vietnamkrieg 1955"
+        "A: Die Gründung der ersten Fabrik",
+        "B: Die Entstehung der ersten Gewerkschaften",
+        "C: Die Erfindung der Dampfmaschine",
+        "D: Der amerikanische Unabhängigkeitskrieg"
       ],
       "correct_answer": "C",
-      "explanation": "Die Berliner Blockade, die von 1948 bis 1949 dauerte, war ein entscheidendes Ereignis, das die Spannungen zwischen den USA und der Sowjetunion verstärkte und als Beginn des Kalten Krieges angesehen wird. Während dieser Zeit versuchte die Sowjetunion, West-Berlin vom Westen abzuschneiden.",
+      "explanation": "Die Erfindung der Dampfmaschine durch James Watt im späten 18. Jahrhundert war ein entscheidender Faktor für den Beginn der Industriellen Revolution, da sie die Produktion und den Transport revolutionierte. Dieser technische Fortschritt führte zu einer massiven Steigerung der Produktivität und veränderte die Arbeitswelt nachhaltig.",
       "difficulty": 6
     },
     {
-      "category": "Sprache",
-      "topic": "Fremdsprachen",
-      "question": "Welche dieser Sprachen ist eine romanische Sprache?",
+      "category": "Kunst und Literatur",
+      "subtopic": "Musik",
+      "question": "Welches musikalische Werk wird oft als Beginn der Romantik in der Musik angesehen?",
       "choices": [
-        "A: Spanisch",
-        "B: Deutsch",
-        "C: Chinesisch",
-        "D: Englisch"
+        "A: Der Freischütz von Carl Maria von Weber",
+        "B: Die Moldau von Bedřich Smetana",
+        "C: Symphonie Nr. 1 von Ludwig van Beethoven",
+        "D: Die vier Jahreszeiten von Antonio Vivaldi"
       ],
-      "correct_answer": "A",
-      "explanation": "Romanische Sprachen sind eine Gruppe von Sprachen, die sich aus dem Lateinischen entwickelt haben. Spanisch gehört zu dieser Gruppe, während Deutsch, Chinesisch und Englisch anderen Sprachfamilien angehören.",
-      "difficulty": 6
+      "correct_answer": "C",
+      "explanation": "Beethovens Symphonie Nr. 1 gilt als wegweisend für die romantische Musik, da sie neue emotionale Ausdrucksformen und Strukturen einführt. Während die anderen Werke ebenfalls bedeutend sind, fallen sie eher in die spätere romantische oder barocke Periode.",
+      "difficulty": 5
+    },
+    {
+      "category": "Sport",
+      "discipline": "Fußball",
+      "question": "Was ist das Ziel eines Freistoßes im Fußball?",
+      "choices": [
+        "A: Den Schiedsrichter zu informieren.",
+        "B: Den Ball ins Aus zu spielen.",
+        "C: Den Ball direkt ins Tor zu schießen.",
+        "D: Den Ball an einen Mitspieler zu passen."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Ziel eines Freistoßes ist es, den Ball direkt ins Tor zu schießen, sofern es die Spielsituation erlaubt. Ein Freistoß wird in der Regel nach einem Foulspiel gegeben und bietet der angreifenden Mannschaft die Möglichkeit, Punkte zu erzielen.",
+      "difficulty": 5
     },
     {
       "category": "Physik",
-      "discipline": "Astrophysik",
-      "question": "Welches der folgenden Phänomene erklärt die Rotverschiebung des Lichts von fernen Galaxien?",
+      "discipline": "Relativitätstheorie",
+      "question": "Was beschreibt das Konzept der Zeitdilatation in der Relativitätstheorie?",
       "choices": [
-        "A: Der Dopplereffekt aufgrund der Expansion des Universums.",
-        "B: Die Gravitation von massereichen Objekten.",
-        "C: Die Absorption von Licht durch interstellare Materie.",
-        "D: Die Lichtbrechung in verschiedenen Medien."
+        "A: Zeitdilatation tritt nur in starken Gravitationsfeldern auf.",
+        "B: Zwei Objekte bewegen sich relativ zueinander, wobei die Zeit für das schnellere Objekt langsamer vergeht.",
+        "C: Die Zeit vergeht für alle Beobachter gleich, unabhängig von deren Bewegung.",
+        "D: Die Zeit vergeht für ein ruhendes Objekt langsamer als für ein sich bewegendes Objekt."
       ],
-      "correct_answer": "A",
-      "explanation": "Die Rotverschiebung des Lichts von fernen Galaxien wird durch den Dopplereffekt erklärt, der auf die Expansion des Universums zurückzuführen ist. Wenn sich Galaxien von uns wegbewegen, wird das Licht, das sie aussenden, in den roten Bereich des Spektrums verschoben.",
-      "difficulty": 2
+      "correct_answer": "B",
+      "explanation": "Die Zeitdilatation besagt, dass die Zeit für ein sich bewegendes Objekt relativ zu einem ruhenden Beobachter langsamer vergeht. Dies ist eine fundamentale Vorhersage der speziellen Relativitätstheorie und zeigt, dass Zeit relativ ist und von der Geschwindigkeit des Objekts abhängt.",
+      "difficulty": 9
     }
   ]
 }
