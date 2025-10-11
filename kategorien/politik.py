@@ -4,6 +4,16 @@ import os, re, json, time, random, requests
 from bs4 import BeautifulSoup
 from openai import OpenAI
 
+
+def _is_true(v) -> bool:
+    if v is True:
+        return True
+    if isinstance(v, str) and v.strip().lower() in {"true", "wahr", "ja", "1"}:
+        return True
+    if v in (1,):
+        return True
+    return False
+
 CATEGORY_NAME = "Politik"
 _BASE_URL = "https://www.tagesschau.de"
 _NUM_FRONT_ARTICLES = 5
@@ -153,7 +163,7 @@ def _generate_from_news()->dict|None:
     for art in list(_CACHE):
         d=_ask_json(_prompt_news(art["title"],art["content"],art["url"]))
         time.sleep(_SLEEP)
-        if not d or d.get("is_politics") is not True: 
+        if not d or not _is_true(d.get("is_politics")):
             continue
         if not (d.get("question") or "").strip():
             continue
@@ -187,7 +197,7 @@ def generate_one(past_texts:list[str])->dict|None:
     for _ in range(tries):
         d = _generate_from_news() if use_news else _generate_trivia()
         time.sleep(_SLEEP)
-        if d and d.get("is_politics") is True and (d.get("question") or "").strip():
+        if d and _is_true(d.get("is_politics")) and (d.get("question") or "").strip():
             d["category"]=CATEGORY_NAME
             # Standardquelle setzen, falls Trivia keine gesetzt hat
             if "source" not in d or not d["source"]:
