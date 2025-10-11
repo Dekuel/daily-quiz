@@ -1,148 +1,148 @@
 {
   "date": "2025-10-11",
-  "generated_at": "2025-10-11T16:13:20Z",
+  "generated_at": "2025-10-11T16:26:05Z",
   "schema_version": 5,
   "mode": "physik",
   "questions": [
     {
       "category": "Physik",
-      "discipline": "Relativitätstheorie",
-      "question": "Was beschreibt die spezielle Relativitätstheorie in Bezug auf die Zeit für Objekte, die sich relativ zueinander bewegen?",
+      "discipline": "Optik",
+      "question": "Welches Phänomen beschreibt die Ablenkung von Lichtstrahlen, wenn sie durch einen engen Spalt oder um ein Hindernis herumtreten?",
       "choices": [
-        "A: Zeit vergeht für bewegte Objekte langsamer im Vergleich zu einem ruhenden Beobachter.",
-        "B: Zeit vergeht für bewegte Objekte schneller im Vergleich zu einem ruhenden Beobachter.",
-        "C: Zeit ist unabhängig von der Bewegung und bleibt konstant.",
-        "D: Zeit kann nicht gemessen werden, wenn sich Objekte relativ zueinander bewegen."
+        "A: Brechung",
+        "B: Reflexion",
+        "C: Beugung",
+        "D: Streuung"
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Beugung ist das Phänomen, das auftritt, wenn Lichtwellen an Kanten oder durch enge Öffnungen abgelenkt werden. Dies führt zu Mustern von Licht und Schatten, die auf die Wellencharakteristik des Lichts hinweisen.",
+      "difficulty": 9
+    },
+    {
+      "category": "Physik",
+      "discipline": "Astrophysik",
+      "question": "Was ist die Hauptursache für die Bildung von Galaxien im frühen Universum?",
+      "choices": [
+        "A: Dunkle Materie",
+        "B: Schwarze Löcher",
+        "C: Überlichtschnelle Expansion",
+        "D: Gravitationswellen"
       ],
       "correct_answer": "A",
-      "explanation": "Die spezielle Relativitätstheorie postuliert, dass die Zeit für Objekte, die sich mit relativistischen Geschwindigkeiten bewegen, im Vergleich zu einem ruhenden Beobachter langsamer vergeht. Dies ist als Zeitdilatation bekannt.",
-      "difficulty": 3
+      "explanation": "Die Dunkle Materie spielt eine entscheidende Rolle bei der Gravitationsanziehung und der Strukturierung des Universums. Sie hilft dabei, die Materie zu bündeln und Galaxien zu bilden, insbesondere in den frühen Phasen des Universums.",
+      "difficulty": 6
     },
     {
       "category": "Physik",
       "discipline": "Elektrodynamik",
-      "question": "Welches Phänomen beschreibt die Tatsache, dass ein bewegter elektrischer Ladungsträger ein Magnetfeld erzeugt?",
+      "question": "Welches der folgenden Phänomene ist eine direkte Folge der Maxwell-Gleichungen?",
       "choices": [
-        "A: Elektromagnetische Induktion",
-        "B: Lorentzkraft",
-        "C: Faradaysches Gesetz",
-        "D: Ampèresches Gesetz"
+        "A: Elektromagnetische Wellen",
+        "B: Gravitationswellen",
+        "C: Thermische Strahlung",
+        "D: Kernfusion"
       ],
       "correct_answer": "A",
-      "explanation": "Die elektromagnetische Induktion beschreibt, wie sich ein sich bewegender elektrischer Ladungsträger in einem Magnetfeld verhält und wie er selbst ein Magnetfeld erzeugt. Dies ist ein grundlegendes Prinzip der Elektrodynamik, das in vielen technischen Anwendungen eine Rolle spielt.",
-      "difficulty": 7
-    },
-    {
-      "category": "Physik",
-      "discipline": "Thermodynamik",
-      "question": "Welches der folgenden Gesetze der Thermodynamik beschreibt, dass die Entropie eines geschlossenen Systems niemals abnimmt?",
-      "choices": [
-        "A: Das zweite Gesetz der Thermodynamik",
-        "B: Das erste Gesetz der Thermodynamik",
-        "C: Das dritte Gesetz der Thermodynamik",
-        "D: Das Nullte Gesetz der Thermodynamik"
-      ],
-      "correct_answer": "A",
-      "explanation": "Das zweite Gesetz der Thermodynamik besagt, dass die Entropie in einem geschlossenen System im Laufe der Zeit zunimmt oder im besten Fall konstant bleibt. Dies bedeutet, dass natürliche Prozesse eine Tendenz zur Zunahme der Unordnung haben.",
-      "difficulty": 1
-    },
-    {
-      "category": "Physik",
-      "discipline": "Festkörperphysik",
-      "question": "Was beschreibt das Phänomen der Supraleitung in Festkörpern?",
-      "choices": [
-        "A: Die Fähigkeit eines Materials, elektrischen Strom ohne Widerstand zu leiten.",
-        "B: Die Veränderung des Aggregatzustands eines Festkörpers bei hohen Temperaturen.",
-        "C: Die Fähigkeit eines Materials, Magnetfelder zu absorbieren.",
-        "D: Die Erhöhung der elektrischen Leitfähigkeit bei hohen Temperaturen."
-      ],
-      "correct_answer": "A",
-      "explanation": "Supraleitung ist ein Zustand, in dem bestimmte Materialien bei tiefen Temperaturen elektrischen Strom ohne Widerstand leiten können. Dieses Phänomen tritt auf, wenn die thermischen Schwingungen der Atome im Material stark genug reduziert werden.",
-      "difficulty": 3
+      "explanation": "Die Maxwell-Gleichungen beschreiben die Wechselwirkungen von elektrischen und magnetischen Feldern und führen zur Existenz elektromagnetischer Wellen. Diese Wellen sind das Ergebnis der dynamischen Wechselwirkung zwischen elektrischen Feldern und magnetischen Feldern.",
+      "difficulty": 8
     },
     {
       "category": "Physik",
       "discipline": "Quantenmechanik",
-      "question": "Was beschreibt das Heisenbergsche Unschärfeprinzip in der Quantenmechanik?",
+      "question": "Was beschreibt das Heisenbergsche Unschärfeprinzip?",
       "choices": [
-        "A: Es ist unmöglich, den genauen Ort und den genauen Impuls eines Teilchens gleichzeitig zu bestimmen.",
-        "B: Es erlaubt die genaue Vorhersage der Lebensdauer instabiler Teilchen.",
-        "C: Es besagt, dass Teilchen immer in einem festen Zustand existieren.",
-        "D: Es bestätigt, dass Teilchen immer als Teilchen oder Wellen auftreten, niemals beides."
+        "A: Die Unmöglichkeit, gleichzeitig den Ort und den Impuls eines Teilchens genau zu bestimmen.",
+        "B: Die Unfähigkeit, die Energie eines Teilchens genau zu messen.",
+        "C: Die Notwendigkeit, die Temperatur und den Druck in einem System zu kontrollieren.",
+        "D: Die Tatsache, dass Teilchen immer nur in einem festen Zustand existieren können."
       ],
       "correct_answer": "A",
-      "explanation": "Das Heisenbergsche Unschärfeprinzip besagt, dass es fundamentale Grenzen für die gleichzeitige Bestimmung bestimmter Paare von physikalischen Größen gibt, wie Ort und Impuls. Dies ist ein zentrales Konzept der Quantenmechanik und zeigt die grundlegende Unschärfe in der Natur auf.",
+      "explanation": "Das Heisenbergsche Unschärfeprinzip besagt, dass es grundlegende Limitierungen gibt, wie genau wir den Ort und den Impuls eines Teilchens gleichzeitig messen können. Je präziser wir den Ort kennen, desto ungenauer wird unsere Kenntnis über den Impuls und umgekehrt.",
       "difficulty": 4
     },
     {
       "category": "Physik",
-      "discipline": "Elektrodynamik",
-      "question": "Welche der folgenden Aussagen beschreibt am besten das Verhalten eines elektrischen Feldes in einem Leiter im Gleichgewichtszustand?",
+      "discipline": "Relativitätstheorie",
+      "question": "Welche Aussage beschreibt am besten das Konzept der Zeitdilatation in der Relativitätstheorie?",
       "choices": [
-        "A: Das elektrische Feld im Inneren des Leiters ist gleich null.",
-        "B: Das elektrische Feld im Inneren des Leiters ist konstant und hat eine positive Richtung.",
-        "C: Das elektrische Feld im Inneren des Leiters ist proportional zur Spannung an den Enden des Leiters.",
-        "D: Das elektrische Feld im Inneren des Leiters ist gleich dem elektrischen Feld in der Umgebung des Leiters."
+        "A: Die Zeit vergeht langsamer für einen Beobachter, der sich relativ zu einem anderen Beobachter bewegt.",
+        "B: Die Zeit vergeht schneller in einem starken Gravitationsfeld.",
+        "C: Zeit ist eine absolute Größe und unabhängig von der Bewegung des Beobachters.",
+        "D: Zeitdilatation hat keinen Einfluss auf Lichtgeschwindigkeit."
       ],
       "correct_answer": "A",
-      "explanation": "Im Gleichgewichtszustand gibt es im Inneren eines Leiters kein elektrisches Feld, da sich die freien Ladungsträger so anordnen, dass sie das Feld kompensieren. Daher ist die Aussage A korrekt.",
-      "difficulty": 4
+      "explanation": "Die Zeitdilatation besagt, dass die Zeit für einen bewegten Beobachter langsamer vergeht im Vergleich zu einem ruhenden Beobachter. Dies ist ein zentrales Ergebnis der speziellen Relativitätstheorie von Einstein.",
+      "difficulty": 6
     },
     {
       "category": "Physik",
       "discipline": "Festkörperphysik",
-      "question": "Was beschreibt die Bandstruktur in Festkörpern?",
+      "question": "Was beschreibt das Konzept der elektrischen Leitfähigkeit in Festkörpern?",
       "choices": [
-        "A: Die erlaubten und verbotenen Energien von Elektronen in einem Festkörper.",
-        "B: Die Temperaturabhängigkeit des elektrischen Widerstands in Metallen.",
-        "C: Die Wechselwirkungen zwischen Atomen in einem Molekül.",
-        "D: Die Mechanismen der Wärmeleitung in Flüssigkeiten."
+        "A: Die Fähigkeit eines Materials, elektrischen Strom zu leiten.",
+        "B: Die Fähigkeit eines Materials, Wärme zu speichern.",
+        "C: Die Fähigkeit eines Materials, Licht zu reflektieren.",
+        "D: Die Fähigkeit eines Materials, magnetische Felder zu erzeugen."
       ],
       "correct_answer": "A",
-      "explanation": "Die Bandstruktur ist ein fundamentales Konzept in der Festkörperphysik, das angibt, welche Energien Elektronen in einem Material annehmen können und welche Energien verboten sind. Sie erklärt viele Eigenschaften von Materialien, wie Leitfähigkeit und Halbleiterverhalten.",
+      "explanation": "Die elektrische Leitfähigkeit ist ein Maß dafür, wie gut ein Material elektrische Ströme leiten kann. Sie hängt von der Anzahl der freien Elektronen und der Beweglichkeit dieser Elektronen im Material ab.",
+      "difficulty": 3
+    },
+    {
+      "category": "Physik",
+      "discipline": "Optik",
+      "question": "Welches Phänomen beschreibt die Abhängigkeit der Lichtgeschwindigkeit von der Wellenlänge in einem Medium?",
+      "choices": [
+        "A: Dispersion",
+        "B: Reflexion",
+        "C: Brechung",
+        "D: Interferenz"
+      ],
+      "correct_answer": "A",
+      "explanation": "Dispersion ist das Phänomen, bei dem Licht unterschiedlicher Wellenlängen unterschiedlich stark gebrochen wird, was dazu führt, dass weißes Licht in seine Spektralfarben zerlegt wird. Dieses Konzept ist grundlegend für das Verständnis von Regenbögen und Prismen.",
+      "difficulty": 2
+    },
+    {
+      "category": "Physik",
+      "discipline": "Relativitätstheorie",
+      "question": "Was ist eine der zentralen Vorhersagen der allgemeinen Relativitätstheorie von Einstein?",
+      "choices": [
+        "A: Licht wird von starken Gravitationsfeldern abgelenkt.",
+        "B: Die Zeit vergeht in schnell bewegten Systemen langsamer als in ruhenden.",
+        "C: Materie kann sich mit Überlichtgeschwindigkeit bewegen.",
+        "D: Der Raum ist immer statisch und unveränderlich."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die allgemeine Relativitätstheorie beschreibt, wie Masse und Energie die Struktur von Raum und Zeit beeinflussen. Eine ihrer zentralen Vorhersagen ist, dass das Licht von massiven Objekten, wie Sternen oder Planeten, abgelenkt wird, was als Gravitationslinseneffekt bekannt ist.",
+      "difficulty": 8
+    },
+    {
+      "category": "Physik",
+      "discipline": "Kern- und Teilchenphysik",
+      "question": "Was beschreibt das Standardmodell der Teilchenphysik?",
+      "choices": [
+        "A: Es legt die grundlegenden Bausteine der Materie und die Wechselwirkungen zwischen ihnen fest.",
+        "B: Es erklärt die Entstehung des Universums und die Entwicklung von Galaxien.",
+        "C: Es beschreibt die thermodynamischen Eigenschaften von Gasen und Flüssigkeiten.",
+        "D: Es ist ein Modell zur Beschreibung der Bewegung von Körpern unter dem Einfluss von Kräften."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Standardmodell der Teilchenphysik ist ein theoretisches Modell, das die fundamentalen Teilchen und die Kräfte, die sie beeinflussen, beschreibt. Es umfasst Quarks, Leptonen und die austauschenden Bosonen, die die Wechselwirkungen vermitteln.",
       "difficulty": 4
     },
     {
       "category": "Physik",
       "discipline": "Astrophysik",
-      "question": "Was ist die Hauptursache für die Entstehung der kosmischen Hintergrundstrahlung?",
+      "question": "Was beschreibt das Konzept der 'Horizonlinie' in Bezug auf ein Schwarzes Loch?",
       "choices": [
-        "A: Der Urknall",
-        "B: Die Gravitation von Schwarzen Löchern",
-        "C: Die Fusion von Wasserstoff in Sternen",
-        "D: Die Wechselwirkung von dunkler Materie mit normaler Materie"
+        "A: Die Grenze, an der die Schwerkraft eines Schwarzen Lochs so stark ist, dass nicht einmal Licht entkommen kann.",
+        "B: Die Entfernung, ab der die Masse eines Schwarzen Lochs sichtbar wird.",
+        "C: Die Region um ein Schwarzes Loch, in der Sterne stabil bleiben können.",
+        "D: Die theoretische Fläche, an der Zeit stillsteht."
       ],
       "correct_answer": "A",
-      "explanation": "Die kosmische Hintergrundstrahlung ist ein Überbleibsel aus der Zeit des Urknalls, als das Universum sich schnell ausdehnte und abkühlte. Diese Strahlung ist ein entscheidender Beweis für die Urknalltheorie und zeigt die gleichmäßige Verteilung von Energie im frühen Universum.",
-      "difficulty": 5
-    },
-    {
-      "category": "Physik",
-      "discipline": "Kern- und Teilchenphysik",
-      "question": "Was beschreibt die starke Wechselwirkung in der Kernphysik?",
-      "choices": [
-        "A: Sie hält die Protonen und Neutronen im Atomkern zusammen.",
-        "B: Sie ist verantwortlich für die chemischen Bindungen zwischen Atomen.",
-        "C: Sie beschreibt die Wechselwirkung von Licht mit Materie.",
-        "D: Sie beeinflusst die Bewegung von Elektronen in Atomen."
-      ],
-      "correct_answer": "A",
-      "explanation": "Die starke Wechselwirkung ist die fundamentale Kraft, die die Quarks innerhalb von Protonen und Neutronen sowie die Neutronen und Protonen im Atomkern zusammenhält. Sie ist entscheidend für die Stabilität der Atomkerne.",
-      "difficulty": 3
-    },
-    {
-      "category": "Physik",
-      "discipline": "Festkörperphysik",
-      "question": "Welches der folgenden Phänomene beschreibt die Fähigkeit eines Festkörpers, seine Form zu ändern, wenn er einer externen Kraft ausgesetzt wird, und nach Entfernen der Kraft in seine ursprüngliche Form zurückzukehren?",
-      "choices": [
-        "A: Elastizität",
-        "B: Plastizität",
-        "C: Duktilität",
-        "D: Sprödigkeit"
-      ],
-      "correct_answer": "A",
-      "explanation": "Die Elastizität beschreibt das Verhalten von Materialien, die nach der Deformation durch externe Kräfte in ihre ursprüngliche Form zurückkehren können. Plastizität hingegen bezieht sich auf die dauerhafte Verformung eines Materials.",
-      "difficulty": 6
+      "explanation": "Die Horizonlinie, auch Ereignishorizont genannt, ist der Punkt um ein Schwarzes Loch, an dem die Fluchtgeschwindigkeit die Lichtgeschwindigkeit erreicht. Alles, was diesen Punkt überschreitet, kann nicht mehr entkommen.",
+      "difficulty": 10
     }
   ]
 }
