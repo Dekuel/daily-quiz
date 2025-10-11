@@ -1,64 +1,64 @@
 {
   "date": "2025-10-11",
-  "generated_at": "2025-10-11T14:59:25Z",
+  "generated_at": "2025-10-11T16:12:16Z",
   "schema_version": 5,
   "mode": "schwer",
   "questions": [
     {
-      "category": "Essen und Trinken",
-      "topic": "Kulinarische Geschichte",
-      "question": "Woher stammt die Tradition des Sushi?",
+      "category": "Kunst und Literatur",
+      "subtopic": "Literatur",
+      "question": "Welcher Autor ist bekannt für seine Werke der modernen amerikanischen Literatur, einschließlich 'Der große Gatsby'?",
       "choices": [
-        "A: Japan",
-        "B: China",
-        "C: Korea",
-        "D: Thailand"
+        "A: F. Scott Fitzgerald",
+        "B: Ernest Hemingway",
+        "C: Mark Twain",
+        "D: John Steinbeck"
       ],
       "correct_answer": "A",
-      "explanation": "Sushi hat seine Wurzeln in Japan, wo es ursprünglich als Methode zur Konservierung von Fisch in fermentiertem Reis entstanden ist. Diese Tradition entwickelte sich über die Jahrhunderte zu den verschiedenen Sushi-Varianten, die wir heute kennen.",
+      "explanation": "F. Scott Fitzgerald ist berühmt für seinen Roman 'Der große Gatsby', der als einer der bedeutendsten amerikanischen Romane des 20. Jahrhunderts gilt. Seine Werke thematisieren oft das Streben nach dem amerikanischen Traum und die gesellschaftlichen Veränderungen seiner Zeit.",
       "difficulty": 10
     },
     {
-      "category": "Sprache",
-      "topic": "Grammatik",
-      "question": "Was beschreibt der Begriff 'Subjekt' in einem Satz?",
+      "category": "Geschichte",
+      "subperiod": "Zeitgeschichte (ab 1945)",
+      "question": "Was war der Hauptgrund für den Bau der Berliner Mauer im Jahr 1961?",
       "choices": [
-        "A: Das Subjekt ist die Person oder Sache, die eine Handlung ausführt.",
-        "B: Das Subjekt ist das Wort, das die Zeitform des Satzes bestimmt.",
-        "C: Das Subjekt steht immer am Satzende.",
-        "D: Das Subjekt ist ein Synonym für das Prädikat."
+        "A: Um den Flüchtlingsstrom aus der DDR in die BRD zu stoppen.",
+        "B: Um die Westberliner Bevölkerung zu schützen.",
+        "C: Um die Grenzen zwischen den Alliierten zu sichern.",
+        "D: Um den Zugang zu Ostberlin für Touristen zu kontrollieren."
       ],
       "correct_answer": "A",
-      "explanation": "Das Subjekt ist das Hauptthema eines Satzes, also die Person oder Sache, die etwas tut oder über die etwas ausgesagt wird. Es steht in der Regel im Nominativ, also der Grundform.",
-      "difficulty": 9
+      "explanation": "Die Berliner Mauer wurde errichtet, um zu verhindern, dass Bürger der Deutschen Demokratischen Republik (DDR) in die Bundesrepublik Deutschland (BRD) fliehen. Dies war eine Reaktion auf die steigende Zahl von Flüchtlingen, die die DDR verließen.",
+      "difficulty": 6
     },
     {
-      "category": "Wissenschaft",
-      "topic": "Physik",
-      "question": "Was ist der Hauptbestandteil von Atomkernen?",
+      "category": "Sport",
+      "discipline": "Olympische Spiele",
+      "question": "In welchem Jahr fanden die ersten modernen Olympischen Spiele statt?",
       "choices": [
-        "A: Protonen und Neutronen",
-        "B: Elektronen",
-        "C: Photonen",
-        "D: Moleküle"
+        "A: 1896",
+        "B: 1900",
+        "C: 1924",
+        "D: 1936"
       ],
       "correct_answer": "A",
-      "explanation": "Atomkerne bestehen hauptsächlich aus Protonen, die positiv geladen sind, und Neutronen, die keine Ladung haben. Die Elektronen umkreisen den Atomkern und tragen nicht zur Masse des Kerns bei.",
+      "explanation": "Die ersten modernen Olympischen Spiele wurden 1896 in Athen, Griechenland, ausgetragen. Diese Spiele markierten die Wiederbelebung der Olympischen Tradition, die in der Antike begann.",
+      "difficulty": 7
+    },
+    {
+      "category": "Essen und Trinken",
+      "topic": "Küche international",
+      "question": "Welches Land ist bekannt für die Erfindung der Pizza?",
+      "choices": [
+        "A: Italien",
+        "B: Frankreich",
+        "C: Griechenland",
+        "D: Mexiko"
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Pizza hat ihren Ursprung in Neapel, Italien, wo sie im 18. Jahrhundert populär wurde. Ursprünglich war sie ein einfaches Gericht für die armen Leute, das aus Brot, Tomaten und Käse bestand.",
       "difficulty": 5
-    },
-    {
-      "category": "Physik",
-      "discipline": "Festkörperphysik",
-      "question": "Was beschreibt den Phasenübergang von einem festen Zustand in einen flüssigen Zustand bei konstanter Temperatur und Druck?",
-      "choices": [
-        "A: Schmelzpunkt",
-        "B: Siedepunkt",
-        "C: Sublimation",
-        "D: Kondensation"
-      ],
-      "correct_answer": "A",
-      "explanation": "Der Schmelzpunkt ist die Temperatur, bei der ein Festkörper in den flüssigen Zustand übergeht, während Druck konstant bleibt. Die anderen Optionen beziehen sich auf unterschiedliche Phasenübergänge.",
-      "difficulty": 3
     }
   ]
 }
