@@ -1,148 +1,148 @@
 {
   "date": "2025-10-11",
-  "generated_at": "2025-10-11T18:24:08Z",
+  "generated_at": "2025-10-11T19:53:38Z",
   "schema_version": 5,
   "mode": "physik",
   "questions": [
     {
       "category": "Physik",
-      "discipline": "Quantenmechanik",
-      "question": "Was beschreibt das Heisenbergsche Unschärfeprinzip?",
+      "discipline": "Optik",
+      "question": "Welches Phänomen beschreibt die Ablenkung von Lichtstrahlen, wenn sie durch unterschiedliche Medien mit verschiedenen Brechungsindizes hindurchtreten?",
       "choices": [
-        "A: Die Unmöglichkeit, den genauen Ort und den Impuls eines Teilchens gleichzeitig zu bestimmen.",
-        "B: Die Unmöglichkeit, die Energie eines Teilchens genau zu messen.",
-        "C: Die Tatsache, dass Licht sowohl als Welle als auch als Teilchen betrachtet werden kann.",
-        "D: Die Unbestimmtheit von Zeit und Raum in der Relativitätstheorie."
+        "A: Brechung",
+        "B: Streuung",
+        "C: Absorption",
+        "D: Reflexion"
       ],
       "correct_answer": "A",
-      "explanation": "Das Heisenbergsche Unschärfeprinzip besagt, dass es fundamental unmöglich ist, sowohl den genauen Ort als auch den Impuls eines Teilchens gleichzeitig zu messen. Diese Unschärfe ist eine grundlegende Eigenschaft der Quantenmechanik.",
+      "explanation": "Die Brechung ist das Phänomen, bei dem Lichtstrahlen ihre Richtung ändern, wenn sie von einem Medium in ein anderes übertreten. Dies geschieht aufgrund der unterschiedlichen Brechungsindizes der Medien, was zu einer Änderung der Lichtgeschwindigkeit führt.",
       "difficulty": 6
-    },
-    {
-      "category": "Physik",
-      "discipline": "Thermodynamik",
-      "question": "Welches der folgenden Gesetze beschreibt die Beziehung zwischen Temperatur und Energie eines idealen Gases?",
-      "choices": [
-        "A: Das Gesetz von Boyle",
-        "B: Das Gesetz von Charles",
-        "C: Das Gesetz von Avogadro",
-        "D: Das Gesetz von Joule"
-      ],
-      "correct_answer": "B",
-      "explanation": "Das Gesetz von Charles besagt, dass das Volumen eines idealen Gases bei konstantem Druck direkt proportional zur Temperatur in Kelvin ist. Dies impliziert eine Beziehung zwischen Temperatur und Energie, da die kinetische Energie der Gasteilchen mit der Temperatur steigt.",
-      "difficulty": 8
-    },
-    {
-      "category": "Physik",
-      "discipline": "Astrophysik",
-      "question": "Was beschreibt die Hubble-Konstante in der Astrophysik?",
-      "choices": [
-        "A: Die Geschwindigkeit, mit der sich Galaxien aufgrund der Expansion des Universums voneinander entfernen.",
-        "B: Die Temperatur, bei der Wasser in den gasförmigen Zustand übergeht.",
-        "C: Die Masse eines einzelnen Photons.",
-        "D: Die maximale Lichtgeschwindigkeit in einem Vakuum."
-      ],
-      "correct_answer": "A",
-      "explanation": "Die Hubble-Konstante ist ein Maß für die Geschwindigkeit, mit der sich Galaxien aufgrund der Expansion des Universums voneinander entfernen. Sie spielt eine zentrale Rolle in der Kosmologie und hilft, das Alter und die Größe des Universums zu bestimmen.",
-      "difficulty": 2
     },
     {
       "category": "Physik",
       "discipline": "Klassische Mechanik",
-      "question": "Was beschreibt das Prinzip der Impulserhaltung in einem geschlossenen System?",
+      "question": "Ein Körper bewegt sich mit konstanter Geschwindigkeit in einer geraden Linie. Welche der folgenden Aussagen trifft zu?",
       "choices": [
-        "A: Der Gesamtimpuls bleibt konstant, wenn keine externen Kräfte wirken.",
-        "B: Die Gesamtenergie bleibt konstant, unabhängig von den Wechselwirkungen.",
-        "C: Die Geschwindigkeit eines Körpers bleibt unverändert, solange keine Kraft wirkt.",
-        "D: Die Masse eines Körpers verändert sich, wenn er beschleunigt wird."
+        "A: Die Geschwindigkeit des Körpers kann sich ändern.",
+        "B: Es wirken keine Kräfte auf den Körper.",
+        "C: Der Körper erfährt eine Beschleunigung.",
+        "D: Der Körper benötigt eine Kraft, um sich zu bewegen."
+      ],
+      "correct_answer": "B",
+      "explanation": "Ein Körper, der sich mit konstanter Geschwindigkeit in einer geraden Linie bewegt, erfährt keine Nettokraft, gemäß dem ersten Newtonschen Gesetz. Das bedeutet, dass die resultierenden Kräfte gleich null sind und der Körper in seinem Bewegungszustand bleibt.",
+      "difficulty": 7
+    },
+    {
+      "category": "Physik",
+      "discipline": "Klassische Mechanik",
+      "question": "Was passiert mit der Geschwindigkeit eines Körpers, der sich in einem konstanten Gravitationsfeld befindet, wenn er auf einer schiefen Ebene ohne Reibung hinunterrollt?",
+      "choices": [
+        "A: Die Geschwindigkeit nimmt linear zu.",
+        "B: Die Geschwindigkeit bleibt konstant bis zur Mitte der schiefen Ebene.",
+        "C: Die Geschwindigkeit nimmt quadratisch zu.",
+        "D: Die Geschwindigkeit bleibt konstant."
+      ],
+      "correct_answer": "C",
+      "explanation": "In einem konstanten Gravitationsfeld erfährt der Körper auf einer schiefen Ebene eine Beschleunigung, die proportional zur Sinusfunktion des Neigungswinkels ist. Da die Geschwindigkeit mit der Zeit zunimmt und der Weg, den der Körper zurücklegt, quadratisch von der Zeit abhängt, nimmt die Geschwindigkeit tatsächlich quadratisch zu.",
+      "difficulty": 8
+    },
+    {
+      "category": "Physik",
+      "discipline": "Klassische Mechanik",
+      "question": "Was beschreibt das erste Newtonsche Gesetz?",
+      "choices": [
+        "A: Die Geschwindigkeit eines Körpers bleibt konstant, wenn er sich in einem Vakuum bewegt.",
+        "B: Ein Körper bleibt in Ruhe oder bewegt sich gleichförmig, solange keine äußeren Kräfte wirken.",
+        "C: Die Beschleunigung eines Körpers ist direkt proportional zur auf ihn wirkenden Kraft.",
+        "D: Für jede Aktion gibt es eine gleich große, entgegengesetzte Reaktion."
+      ],
+      "correct_answer": "B",
+      "explanation": "Das erste Newtonsche Gesetz, auch Trägheitsgesetz genannt, besagt, dass ein Körper in Ruhe bleibt oder sich gleichförmig bewegt, solange keine äußeren Kräfte auf ihn einwirken. Es beschreibt das Verhalten von Körpern in Abwesenheit von Kräften und ist grundlegend für das Verständnis der klassischen Mechanik.",
+      "difficulty": 3
+    },
+    {
+      "category": "Physik",
+      "discipline": "Klassische Mechanik",
+      "question": "Ein Körper wird von zwei Kräften beeinflusst: Eine Kraft zieht ihn nach rechts mit 10 N und eine andere Kraft zieht ihn nach links mit 6 N. Welche Richtung hat die resultierende Kraft?",
+      "choices": [
+        "A: Nach rechts",
+        "B: Nach unten",
+        "C: Nach oben",
+        "D: Nach links"
       ],
       "correct_answer": "A",
-      "explanation": "Das Prinzip der Impulserhaltung besagt, dass der Gesamtimpuls eines geschlossenen Systems konstant bleibt, solange keine äußeren Kräfte auf das System wirken. Dies ist ein fundamentales Konzept der klassischen Mechanik.",
-      "difficulty": 4
+      "explanation": "Die resultierende Kraft ergibt sich aus der Differenz der beiden Kräfte. Da die Kraft nach rechts stärker ist (10 N) als die nach links (6 N), zeigt die resultierende Kraft nach rechts mit 4 N.",
+      "difficulty": 6
+    },
+    {
+      "category": "Physik",
+      "discipline": "Festkörperphysik",
+      "question": "Welches der folgenden Phänomene ist charakteristisch für Supraleiter?",
+      "choices": [
+        "A: Supraleiter können keine Magnetfelder erzeugen.",
+        "B: Supraleiter reflektieren immer Licht vollständig.",
+        "C: Der Widerstand geht auf null bei einer kritischen Temperatur.",
+        "D: Supraleiter haben immer einen positiven Temperaturkoeffizienten."
+      ],
+      "correct_answer": "C",
+      "explanation": "Supraleiter besitzen die Eigenschaft, dass ihr elektrischer Widerstand bei Erreichen einer kritischen Temperatur auf null fällt. Dies ist ein zentrales Merkmal von Supraleitung und unterscheidet sie von normalen Leitern und Halbleitern.",
+      "difficulty": 7
     },
     {
       "category": "Physik",
       "discipline": "Quantenmechanik",
-      "question": "Was beschreibt das Heisenbergsche Unschärfeprinzip in der Quantenmechanik?",
+      "question": "Welches Prinzip beschreibt die Unschärfe in der gleichzeitigen Messung von Ort und Impuls eines Teilchens?",
       "choices": [
-        "A: Die Unmöglichkeit, den genauen Ort und Impuls eines Teilchens gleichzeitig zu bestimmen.",
-        "B: Die Unmöglichkeit, die Energie eines Systems ohne Messung zu definieren.",
-        "C: Die Beziehung zwischen Temperatur und Druck in einem idealen Gas.",
-        "D: Die Unbestimmtheit der Lebensdauer radioaktiver Elemente."
+        "A: Bornsches Gesetz",
+        "B: Pauli-Prinzip",
+        "C: Schrödinger-Gleichung",
+        "D: Heisenbergsche Unschärferelation"
       ],
-      "correct_answer": "A",
-      "explanation": "Das Heisenbergsche Unschärfeprinzip besagt, dass es prinzipiell unmöglich ist, sowohl den genauen Ort als auch den genauen Impuls eines Teilchens gleichzeitig zu kennen. Je genauer der eine Wert bestimmt wird, desto ungenauer wird der andere.",
-      "difficulty": 7
+      "correct_answer": "D",
+      "explanation": "Die Heisenbergsche Unschärferelation besagt, dass der Ort und der Impuls eines Teilchens nicht gleichzeitig mit beliebiger Genauigkeit bestimmt werden können. Diese fundamentale Eigenschaft der Quantenmechanik zeigt die Grenzen unserer Messungen und ist zentral für das Verständnis quantenmechanischer Systeme.",
+      "difficulty": 9
     },
     {
       "category": "Physik",
-      "discipline": "Relativitätstheorie",
-      "question": "Was beschreibt die spezielle Relativitätstheorie in Bezug auf die Lichtgeschwindigkeit?",
+      "discipline": "Elektrodynamik",
+      "question": "Was passiert mit der elektrischen Feldstärke, wenn der Abstand zwischen zwei gleich geladenen Punktladungen verdoppelt wird?",
       "choices": [
-        "A: Die Lichtgeschwindigkeit ist konstant und unabhängig von der Bewegung des Beobachters.",
-        "B: Die Lichtgeschwindigkeit kann durch gravitative Felder verändert werden.",
-        "C: Die Lichtgeschwindigkeit ist variabel und hängt von der Geschwindigkeit des Lichtquellen ab.",
-        "D: Die Lichtgeschwindigkeit ist in einem Vakuum langsamer als in einem Medium."
+        "A: Die elektrische Feldstärke wird halbiert.",
+        "B: Die elektrische Feldstärke wird vervierfacht.",
+        "C: Die elektrische Feldstärke bleibt gleich.",
+        "D: Die elektrische Feldstärke wird verdoppelt."
       ],
       "correct_answer": "A",
-      "explanation": "Die spezielle Relativitätstheorie postuliert, dass die Lichtgeschwindigkeit in einem Vakuum für alle Beobachter konstant ist, unabhängig von deren Bewegungszustand. Dies ist eine der grundlegenden Annahmen dieser Theorie.",
+      "explanation": "Die elektrische Feldstärke, die von einer Punktladung erzeugt wird, ist invers proportional zum Quadrat des Abstands. Wenn der Abstand verdoppelt wird, erhöht sich der Abstand im Quadrat, was bedeutet, dass die Feldstärke halbiert wird.",
       "difficulty": 5
     },
     {
       "category": "Physik",
-      "discipline": "Elektrodynamik",
-      "question": "Was beschreibt das Ampèresche Gesetz in seiner allgemeinen Form?",
+      "discipline": "Klassische Mechanik",
+      "question": "Was beschreibt das Newtonsche Gesetz der Trägheit?",
       "choices": [
-        "A: Die Beziehung zwischen dem Magnetfeld und dem elektrischen Strom.",
-        "B: Die Wechselwirkung zwischen elektrischen Ladungen.",
-        "C: Die Energieübertragung in elektrischen Schaltungen.",
-        "D: Die Ausbreitung elektromagnetischer Wellen im Vakuum."
+        "A: Die Beschleunigung eines Körpers ist unabhängig von der auf ihn wirkenden Kraft.",
+        "B: Ein Körper kann nicht beschleunigt werden, wenn er sich einmal in Bewegung befindet.",
+        "C: Die Geschwindigkeit eines Körpers ist immer konstant.",
+        "D: Ein Körper bleibt in Ruhe oder bewegt sich gleichförmig, solange keine äußeren Kräfte wirken."
       ],
-      "correct_answer": "A",
-      "explanation": "Das Ampèresche Gesetz beschreibt, wie ein elektrischer Strom ein Magnetfeld erzeugt. Es ist grundlegend für das Verständnis von Elektromagnetismus und ist eine der Maxwellschen Gleichungen.",
-      "difficulty": 6
+      "correct_answer": "D",
+      "explanation": "Das Newtonsche Gesetz der Trägheit besagt, dass ein Körper in Ruhe bleibt oder sich gleichförmig bewegt, solange keine äußeren Kräfte auf ihn einwirken. Dies ist ein grundlegendes Prinzip der klassischen Mechanik und erklärt, warum sich Objekte nicht ohne Einfluss von außen bewegen oder ihre Bewegung ändern.",
+      "difficulty": 3
     },
     {
       "category": "Physik",
       "discipline": "Elektrodynamik",
-      "question": "Welches der folgenden Phänomene ist ein Beispiel für die Wechselwirkung zwischen einem sich bewegenden elektrischen Ladungsträger und einem magnetischen Feld?",
+      "question": "Was passiert mit dem elektrischen Feld in der Nähe eines perfekten Leiters im Gleichgewichtszustand?",
       "choices": [
-        "A: Die Ablenkung eines Elektrons in einem Magnetfeld",
-        "B: Die Erzeugung von Licht durch eine Glühbirne",
-        "C: Die Erwärmung eines Drahts durch elektrischen Strom",
-        "D: Die Bildung eines elektrischen Feldes durch statische Elektrizität"
+        "A: Das elektrische Feld zeigt in Richtung des Leiters.",
+        "B: Das elektrische Feld variiert regelmäßig mit der Zeit.",
+        "C: Das elektrische Feld ist gleich null.",
+        "D: Das elektrische Feld ist konstant und nicht null."
       ],
-      "correct_answer": "A",
-      "explanation": "Die Ablenkung eines Elektrons in einem Magnetfeld ist ein direktes Resultat der Lorentzkraft, die auf bewegte Ladungen in einem Magnetfeld wirkt. Die anderen Optionen beschreiben unterschiedliche physikalische Phänomene, die nicht spezifisch die Wechselwirkung zwischen Bewegungen und Magnetfeldern betreffen.",
-      "difficulty": 5
-    },
-    {
-      "category": "Physik",
-      "discipline": "Astrophysik",
-      "question": "Was beschreibt das Konzept der Dunklen Energie in der modernen Kosmologie?",
-      "choices": [
-        "A: Die Beschleunigung der Expansion des Universums.",
-        "B: Die Masse der Schwarzen Löcher im Universum.",
-        "C: Die Wechselwirkung zwischen Galaxien.",
-        "D: Die Temperatur des kosmischen Mikrowellenhintergrunds."
-      ],
-      "correct_answer": "A",
-      "explanation": "Dunkle Energie ist eine hypothetische Form von Energie, die dafür verantwortlich gemacht wird, dass sich das Universum mit zunehmender Geschwindigkeit ausdehnt. Sie macht einen Großteil der Energie-Dichte des Universums aus und ist entscheidend für das Verständnis der langfristigen Entwicklung des Universums.",
-      "difficulty": 7
-    },
-    {
-      "category": "Physik",
-      "discipline": "Elektrodynamik",
-      "question": "Welche der folgenden Aussagen beschreibt am besten das Verhalten von elektrischen Feldern in einem Leiter im Gleichgewichtszustand?",
-      "choices": [
-        "A: Das elektrische Feld innerhalb des Leiters ist gleich null.",
-        "B: Das elektrische Feld innerhalb des Leiters ist konstant und nicht null.",
-        "C: Das elektrische Feld innerhalb des Leiters kann variieren, solange es externen Einflüssen ausgesetzt ist.",
-        "D: Das elektrische Feld innerhalb des Leiters ist immer proportional zur Temperatur des Leiters."
-      ],
-      "correct_answer": "A",
-      "explanation": "Im Gleichgewichtszustand ist das elektrische Feld innerhalb eines Leiters null, da sich die freien Ladungsträger so anordnen, dass sie alle externen elektrischen Felder ausgleichen.",
-      "difficulty": 6
+      "correct_answer": "C",
+      "explanation": "In der Nähe eines perfekten Leiters im Gleichgewicht ist das elektrische Feld aufgrund der Umverteilung der Ladungen im Leiter gleich null. Dies geschieht, weil die freien Elektronen im Leiter sich so anordnen, dass sie das äußere elektrische Feld aufheben.",
+      "difficulty": 9
     }
   ]
 }
