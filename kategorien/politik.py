@@ -39,12 +39,12 @@ logging.basicConfig(
     level=getattr(logging, _LOG_LEVEL, logging.INFO),
     format="%(asctime)s [%(levelname)s] politik: %(message)s",
 )
-# Drittlogger dämpfen
-logging.getLogger("httpx").setLevel(logging.WARNING)
-logging.getLogger("openai").setLevel(logging.WARNING)
-
-log = logging.getLogger("kategorien.politik")
-
+# Drittlogger dämpfen (wirklich!)
+for name in ("httpx", "httpcore", "openai"):
+    lg = logging.getLogger(name)
+    lg.setLevel(logging.WARNING)
+    lg.propagate = False
+    lg.handlers.clear()
 # ===================== Konfiguration (ENV-Overrides) =====================
 # OpenAI
 _OPENAI_MODEL = os.environ.get("POLITIK_OPENAI_MODEL", "gpt-4o-mini")
@@ -276,19 +276,21 @@ def _ask_json(prompt: str) -> Optional[Dict[str, Any]]:
                 {"role": "user", "content": prompt},
             ],
             temperature=0.7,
-            response_format={"type": "json_object"},  # <<< JSON erzwingen
+            response_format={"type": "json_object"},
             max_tokens=_MAX_TOKENS,
         )
         raw = (r.choices[0].message.content or "").strip()
+        log.debug("OpenAI raw (gekürzt): %s", raw[:300])
+
         if not raw:
             log.info("OpenAI: leere Antwort.")
             return None
 
-        # Dank response_format sollte raw schon pures JSON sein:
+        # raw sollte bereits pures JSON sein
         try:
             data = json.loads(raw)
         except Exception as e:
-            # Fallback: versuche JSON-Block zu extrahieren (sollte selten sein)
+            # Fallback: JSON-Block extrahieren (zur Sicherheit)
             jb = _extract_first_json_block(raw)
             if not jb:
                 log.info("OpenAI: JSON-Parse-Fehler: %s. Roh (gekürzt): %r", e, raw[:200])
@@ -299,8 +301,42 @@ def _ask_json(prompt: str) -> Optional[Dict[str, Any]]:
                 log.info("OpenAI: JSON-Parse-Fehler (Fallback): %s. Payload (gekürzt): %r", e2, jb[:200])
                 return None
 
-        valid = _validate_payload(data)
-        return valid
+        # Kurze Diagnose-Zusammenfassung
+        try:
+            q = (data.get("question") or "")
+            ch = data.get("choices") or []
+            ans = (data.get("correct_answer") or "")
+            log.debug(
+                "Parsed summary -> is_politics=%r, qlen=%d, choices=%d, ans=%r",
+                data.get("is_politics"), len(q), len(ch) if isinstance(ch, list) else -1, ans
+            )
+        except Exception:
+            pass
+
+        # Validieren mit Begründung
+        if not isinstance(data, dict):
+            log.info("OpenAI: Antwort ist kein JSON-Objekt.")
+            return None
+        if not _is_true(data.get("is_politics")):
+            log.info("OpenAI: is_politics ist false/fehlt – verwerfe.")
+            return None
+        q = (data.get("question") or "").strip()
+        choices = data.get("choices") or []
+        ans = (data.get("correct_answer") or "").strip()
+        if not q:
+            log.info("OpenAI: 'question' fehlt/leer – verwerfe.")
+            return None
+        if not isinstance(choices, list) or len(choices) < 4:
+            log.info("OpenAI: 'choices' unvollständig (<4) – verwerfe.")
+            return None
+        if ans not in {"A", "B", "C", "D"}:
+            log.info("OpenAI: 'correct_answer' nicht in A-D – verwerfe.")
+            return None
+
+        # Minimal normalisieren
+        data["category"] = CATEGORY_NAME
+        data.setdefault("source", {"title": "Politik-Trivia", "url": "https://www.bundesregierung.de"})
+        return data
 
     except Exception as e:
         log.warning("OpenAI-Aufruf fehlgeschlagen: %s", e)
