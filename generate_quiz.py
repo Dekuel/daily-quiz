@@ -41,7 +41,7 @@ POLITICS_CATEGORY_NAME = "Politik"
 # Schwierigkeit-Gewichte (Schlüssel = Difficulty 1..10, Wert = Gewicht)
 DIFFICULTY_WEIGHTS: Dict[str, Dict[int, int]] = {
     # vom Nutzer vorgegeben
-    "schwer": {10: 13, 9: 15, 8: 20, 7: 17, 6: 11, 5: 9, 4: 6, 3: 4, 2: 3, 1: 2},
+    "schwer": {10: 14, 9: 16, 8: 21, 7: 16, 6: 11, 5: 9, 4: 6, 3: 4, 2: 2, 1: 1},
     # Vorschlag für "normal" (anpassbar)
     "normal": {10: 3, 9: 5, 8: 8, 7: 10, 6: 14, 5: 18, 4: 16, 3: 12, 2: 8, 1: 6},
 }
