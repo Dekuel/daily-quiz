@@ -1,148 +1,148 @@
 {
   "date": "2025-10-11",
-  "generated_at": "2025-10-11T18:09:37Z",
+  "generated_at": "2025-10-11T18:24:08Z",
   "schema_version": 5,
   "mode": "physik",
   "questions": [
     {
       "category": "Physik",
-      "discipline": "Elektrodynamik",
-      "question": "Was beschreibt das Ampèresche Gesetz?",
+      "discipline": "Quantenmechanik",
+      "question": "Was beschreibt das Heisenbergsche Unschärfeprinzip?",
       "choices": [
-        "A: Den Zusammenhang zwischen elektrischer Strömung und dem erzeugten Magnetfeld.",
-        "B: Die Beziehung zwischen elektrischer Spannung und elektrischer Energie.",
-        "C: Die Wechselwirkung zwischen zwei elektrischen Ladungen.",
-        "D: Die Energieerhaltung in elektrischen Schaltkreisen."
+        "A: Die Unmöglichkeit, den genauen Ort und den Impuls eines Teilchens gleichzeitig zu bestimmen.",
+        "B: Die Unmöglichkeit, die Energie eines Teilchens genau zu messen.",
+        "C: Die Tatsache, dass Licht sowohl als Welle als auch als Teilchen betrachtet werden kann.",
+        "D: Die Unbestimmtheit von Zeit und Raum in der Relativitätstheorie."
       ],
       "correct_answer": "A",
-      "explanation": "Das Ampèresche Gesetz beschreibt, wie eine elektrische Strömung ein Magnetfeld erzeugt und wie dieses Magnetfeld mit anderen Strömungen interagiert. Es ist ein grundlegendes Prinzip der Elektrodynamik.",
-      "difficulty": 4
-    },
-    {
-      "category": "Physik",
-      "discipline": "Klassische Mechanik",
-      "question": "Was beschreibt das Trägheitsgesetz von Newton?",
-      "choices": [
-        "A: Ein Körper bleibt in Ruhe oder in gleichförmiger Bewegung, solange keine äußeren Kräfte wirken.",
-        "B: Die Kraft eines Körpers ist gleich der Masse multipliziert mit seiner Beschleunigung.",
-        "C: Die Gesamtenergie eines geschlossenen Systems bleibt konstant.",
-        "D: Jeder Körper zieht jeden anderen Körper mit einer Kraft an, die proportional zu ihren Massen ist."
-      ],
-      "correct_answer": "A",
-      "explanation": "Das Trägheitsgesetz, auch bekannt als Newtons erstes Gesetz, besagt, dass ein Objekt in Ruhe bleibt oder sich mit konstanter Geschwindigkeit bewegt, solange keine resultierende äußere Kraft auf es wirkt. Dieses Prinzip ist grundlegend für das Verständnis von Bewegung und Kräften.",
-      "difficulty": 4
-    },
-    {
-      "category": "Physik",
-      "discipline": "Thermodynamik",
-      "question": "Welche Aussage über den zweiten Hauptsatz der Thermodynamik ist korrekt?",
-      "choices": [
-        "A: Er besagt, dass die Entropie eines geschlossenen Systems im Laufe der Zeit immer abnimmt.",
-        "B: Er legt fest, dass Wärme immer von einem kälteren zu einem wärmeren Körper fließt.",
-        "C: Er beschreibt, dass es unmöglich ist, einen perpetuum mobile erster Art zu konstruieren.",
-        "D: Er besagt, dass alle chemischen Reaktionen exotherm sind."
-      ],
-      "correct_answer": "C",
-      "explanation": "Der zweite Hauptsatz der Thermodynamik besagt, dass Entropie in einem geschlossenen System niemals abnimmt, was bedeutet, dass ein perpetuum mobile erster Art, das Energie ohne Verlust umwandelt, unmöglich ist. Die anderen Aussagen sind entweder falsch oder irreführend.",
+      "explanation": "Das Heisenbergsche Unschärfeprinzip besagt, dass es fundamental unmöglich ist, sowohl den genauen Ort als auch den Impuls eines Teilchens gleichzeitig zu messen. Diese Unschärfe ist eine grundlegende Eigenschaft der Quantenmechanik.",
       "difficulty": 6
     },
     {
       "category": "Physik",
-      "discipline": "Festkörperphysik",
-      "question": "Was beschreibt das Phänomen der Supraleitung in Festkörpern?",
+      "discipline": "Thermodynamik",
+      "question": "Welches der folgenden Gesetze beschreibt die Beziehung zwischen Temperatur und Energie eines idealen Gases?",
       "choices": [
-        "A: Die Fähigkeit von Materialien, elektrischen Strom ohne Widerstand zu leiten.",
-        "B: Die Temperatur, bei der ein Material seinen Aggregatzustand ändert.",
-        "C: Die Veränderung der physikalischen Eigenschaften eines Materials unter Druck.",
-        "D: Die Wechselwirkung zwischen Atomen in einem Kristallgitter."
+        "A: Das Gesetz von Boyle",
+        "B: Das Gesetz von Charles",
+        "C: Das Gesetz von Avogadro",
+        "D: Das Gesetz von Joule"
       ],
-      "correct_answer": "A",
-      "explanation": "Supraleitung ist ein Zustand, in dem Materialien bei sehr niedrigen Temperaturen elektrischen Strom ohne Widerstand leiten können. Dies ist ein grundlegendes Konzept in der Festkörperphysik und zeigt die quantenmechanischen Eigenschaften von Elektronen in Materialien.",
-      "difficulty": 4
+      "correct_answer": "B",
+      "explanation": "Das Gesetz von Charles besagt, dass das Volumen eines idealen Gases bei konstantem Druck direkt proportional zur Temperatur in Kelvin ist. Dies impliziert eine Beziehung zwischen Temperatur und Energie, da die kinetische Energie der Gasteilchen mit der Temperatur steigt.",
+      "difficulty": 8
     },
     {
       "category": "Physik",
-      "discipline": "Klassische Mechanik",
-      "question": "Welches der folgenden Konzepte beschreibt am besten die Beziehung zwischen Kraft, Masse und Beschleunigung?",
+      "discipline": "Astrophysik",
+      "question": "Was beschreibt die Hubble-Konstante in der Astrophysik?",
       "choices": [
-        "A: Das Gesetz der Energieerhaltung",
-        "B: Das Gesetz von der gleichförmigen Bewegung",
-        "C: Das zweite Newtonsche Gesetz",
-        "D: Das Gesetz der gravitativen Anziehung"
+        "A: Die Geschwindigkeit, mit der sich Galaxien aufgrund der Expansion des Universums voneinander entfernen.",
+        "B: Die Temperatur, bei der Wasser in den gasförmigen Zustand übergeht.",
+        "C: Die Masse eines einzelnen Photons.",
+        "D: Die maximale Lichtgeschwindigkeit in einem Vakuum."
       ],
-      "correct_answer": "C",
-      "explanation": "Das zweite Newtonsche Gesetz besagt, dass die auf einen Körper wirkende Kraft gleich der Masse des Körpers multipliziert mit seiner Beschleunigung ist (F = m*a). Dies ist eine fundamentale Beziehung in der klassischen Mechanik.",
+      "correct_answer": "A",
+      "explanation": "Die Hubble-Konstante ist ein Maß für die Geschwindigkeit, mit der sich Galaxien aufgrund der Expansion des Universums voneinander entfernen. Sie spielt eine zentrale Rolle in der Kosmologie und hilft, das Alter und die Größe des Universums zu bestimmen.",
       "difficulty": 2
     },
     {
       "category": "Physik",
       "discipline": "Klassische Mechanik",
-      "question": "Was beschreibt das Prinzip der Erhaltung der mechanischen Energie?",
+      "question": "Was beschreibt das Prinzip der Impulserhaltung in einem geschlossenen System?",
       "choices": [
-        "A: Die gesamte mechanische Energie eines geschlossenen Systems bleibt konstant, solange keine externen Kräfte wirken.",
-        "B: Die kinetische Energie eines Objekts ist immer gleich seiner potentiellen Energie.",
-        "C: Die Energie kann nicht in andere Formen umgewandelt werden.",
-        "D: Alle Objekte in einem System haben die gleiche Geschwindigkeit."
+        "A: Der Gesamtimpuls bleibt konstant, wenn keine externen Kräfte wirken.",
+        "B: Die Gesamtenergie bleibt konstant, unabhängig von den Wechselwirkungen.",
+        "C: Die Geschwindigkeit eines Körpers bleibt unverändert, solange keine Kraft wirkt.",
+        "D: Die Masse eines Körpers verändert sich, wenn er beschleunigt wird."
       ],
       "correct_answer": "A",
-      "explanation": "Das Prinzip der Erhaltung der mechanischen Energie besagt, dass die Gesamtenergie in einem geschlossenen System konstant bleibt, wenn keine externen Kräfte wie Reibung oder Luftwiderstand einwirken. Dies bedeutet, dass die Summe aus kinetischer und potentieller Energie konstant bleibt.",
+      "explanation": "Das Prinzip der Impulserhaltung besagt, dass der Gesamtimpuls eines geschlossenen Systems konstant bleibt, solange keine äußeren Kräfte auf das System wirken. Dies ist ein fundamentales Konzept der klassischen Mechanik.",
+      "difficulty": 4
+    },
+    {
+      "category": "Physik",
+      "discipline": "Quantenmechanik",
+      "question": "Was beschreibt das Heisenbergsche Unschärfeprinzip in der Quantenmechanik?",
+      "choices": [
+        "A: Die Unmöglichkeit, den genauen Ort und Impuls eines Teilchens gleichzeitig zu bestimmen.",
+        "B: Die Unmöglichkeit, die Energie eines Systems ohne Messung zu definieren.",
+        "C: Die Beziehung zwischen Temperatur und Druck in einem idealen Gas.",
+        "D: Die Unbestimmtheit der Lebensdauer radioaktiver Elemente."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Heisenbergsche Unschärfeprinzip besagt, dass es prinzipiell unmöglich ist, sowohl den genauen Ort als auch den genauen Impuls eines Teilchens gleichzeitig zu kennen. Je genauer der eine Wert bestimmt wird, desto ungenauer wird der andere.",
       "difficulty": 7
     },
     {
       "category": "Physik",
-      "discipline": "Thermodynamik",
-      "question": "Welches der folgenden Gesetze der Thermodynamik beschreibt, dass die Gesamtenergie in einem geschlossenen System konstant bleibt?",
+      "discipline": "Relativitätstheorie",
+      "question": "Was beschreibt die spezielle Relativitätstheorie in Bezug auf die Lichtgeschwindigkeit?",
       "choices": [
-        "A: Das erste Gesetz der Thermodynamik",
-        "B: Das zweite Gesetz der Thermodynamik",
-        "C: Das dritte Gesetz der Thermodynamik",
-        "D: Das Gesetz von Boyle"
+        "A: Die Lichtgeschwindigkeit ist konstant und unabhängig von der Bewegung des Beobachters.",
+        "B: Die Lichtgeschwindigkeit kann durch gravitative Felder verändert werden.",
+        "C: Die Lichtgeschwindigkeit ist variabel und hängt von der Geschwindigkeit des Lichtquellen ab.",
+        "D: Die Lichtgeschwindigkeit ist in einem Vakuum langsamer als in einem Medium."
       ],
       "correct_answer": "A",
-      "explanation": "Das erste Gesetz der Thermodynamik, auch als Energieerhaltungssatz bekannt, besagt, dass die Energie in einem geschlossenen System nicht verloren gehen kann, sondern lediglich von einer Form in eine andere umgewandelt wird.",
+      "explanation": "Die spezielle Relativitätstheorie postuliert, dass die Lichtgeschwindigkeit in einem Vakuum für alle Beobachter konstant ist, unabhängig von deren Bewegungszustand. Dies ist eine der grundlegenden Annahmen dieser Theorie.",
+      "difficulty": 5
+    },
+    {
+      "category": "Physik",
+      "discipline": "Elektrodynamik",
+      "question": "Was beschreibt das Ampèresche Gesetz in seiner allgemeinen Form?",
+      "choices": [
+        "A: Die Beziehung zwischen dem Magnetfeld und dem elektrischen Strom.",
+        "B: Die Wechselwirkung zwischen elektrischen Ladungen.",
+        "C: Die Energieübertragung in elektrischen Schaltungen.",
+        "D: Die Ausbreitung elektromagnetischer Wellen im Vakuum."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Ampèresche Gesetz beschreibt, wie ein elektrischer Strom ein Magnetfeld erzeugt. Es ist grundlegend für das Verständnis von Elektromagnetismus und ist eine der Maxwellschen Gleichungen.",
       "difficulty": 6
     },
     {
       "category": "Physik",
       "discipline": "Elektrodynamik",
-      "question": "Was beschreibt das Maxwell'sche Gesetz über die Wechselwirkung zwischen elektrischen und magnetischen Feldern?",
+      "question": "Welches der folgenden Phänomene ist ein Beispiel für die Wechselwirkung zwischen einem sich bewegenden elektrischen Ladungsträger und einem magnetischen Feld?",
       "choices": [
-        "A: Elektrische Felder erzeugen immer magnetische Felder, auch ohne bewegte Ladungen.",
-        "B: Magnetische Felder können nur durch bewegte elektrische Ladungen erzeugt werden.",
-        "C: Elektrische und magnetische Felder sind unabhängig voneinander und beeinflussen sich nicht.",
-        "D: Das Vorhandensein eines elektrischen Feldes führt immer zu einer Zunahme der elektrischen Ladungsdichte."
+        "A: Die Ablenkung eines Elektrons in einem Magnetfeld",
+        "B: Die Erzeugung von Licht durch eine Glühbirne",
+        "C: Die Erwärmung eines Drahts durch elektrischen Strom",
+        "D: Die Bildung eines elektrischen Feldes durch statische Elektrizität"
       ],
       "correct_answer": "A",
-      "explanation": "Das Maxwell'sche Gesetz besagt, dass ein zeitlich veränderliches elektrisches Feld ein magnetisches Feld erzeugt und umgekehrt. Dies zeigt die enge Wechselwirkung zwischen diesen beiden Feldern auf.",
-      "difficulty": 3
+      "explanation": "Die Ablenkung eines Elektrons in einem Magnetfeld ist ein direktes Resultat der Lorentzkraft, die auf bewegte Ladungen in einem Magnetfeld wirkt. Die anderen Optionen beschreiben unterschiedliche physikalische Phänomene, die nicht spezifisch die Wechselwirkung zwischen Bewegungen und Magnetfeldern betreffen.",
+      "difficulty": 5
     },
     {
       "category": "Physik",
-      "discipline": "Optik",
-      "question": "Welche Aussage beschreibt am besten das Phänomen der totalen Reflexion?",
+      "discipline": "Astrophysik",
+      "question": "Was beschreibt das Konzept der Dunklen Energie in der modernen Kosmologie?",
       "choices": [
-        "A: Licht wird an der Grenzfläche zwischen zwei Medien vollständig reflektiert, wenn der Einfallswinkel größer als der kritische Winkel ist.",
-        "B: Licht wird in einem Medium langsamer, je höher die Frequenz ist.",
-        "C: Licht kann niemals vollständig reflektiert werden, unabhängig von der Wellenlänge.",
-        "D: Totalreflexion tritt nur bei transparenten Materialien auf, die keine Lichtbrechung zulassen."
+        "A: Die Beschleunigung der Expansion des Universums.",
+        "B: Die Masse der Schwarzen Löcher im Universum.",
+        "C: Die Wechselwirkung zwischen Galaxien.",
+        "D: Die Temperatur des kosmischen Mikrowellenhintergrunds."
       ],
       "correct_answer": "A",
-      "explanation": "Die totale Reflexion tritt auf, wenn Licht von einem dichteren in ein dünneres Medium übergeht und der Einfallswinkel den kritischen Winkel überschreitet. In diesem Fall wird das Licht vollständig reflektiert.",
+      "explanation": "Dunkle Energie ist eine hypothetische Form von Energie, die dafür verantwortlich gemacht wird, dass sich das Universum mit zunehmender Geschwindigkeit ausdehnt. Sie macht einen Großteil der Energie-Dichte des Universums aus und ist entscheidend für das Verständnis der langfristigen Entwicklung des Universums.",
       "difficulty": 7
     },
     {
       "category": "Physik",
-      "discipline": "Klassische Mechanik",
-      "question": "Welche der folgenden Aussagen beschreibt am besten das Prinzip der Impulserhaltung?",
+      "discipline": "Elektrodynamik",
+      "question": "Welche der folgenden Aussagen beschreibt am besten das Verhalten von elektrischen Feldern in einem Leiter im Gleichgewichtszustand?",
       "choices": [
-        "A: Der Gesamtimpuls eines geschlossenen Systems bleibt konstant, solange keine äußeren Kräfte wirken.",
-        "B: Der Impuls eines Körpers kann nicht in andere Energieformen umgewandelt werden.",
-        "C: Der Impuls eines Körpers ist immer gleich seiner Masse multipliziert mit seiner Geschwindigkeit.",
-        "D: Impuls kann nur in elastischen Kollisionen erhalten bleiben."
+        "A: Das elektrische Feld innerhalb des Leiters ist gleich null.",
+        "B: Das elektrische Feld innerhalb des Leiters ist konstant und nicht null.",
+        "C: Das elektrische Feld innerhalb des Leiters kann variieren, solange es externen Einflüssen ausgesetzt ist.",
+        "D: Das elektrische Feld innerhalb des Leiters ist immer proportional zur Temperatur des Leiters."
       ],
       "correct_answer": "A",
-      "explanation": "Das Prinzip der Impulserhaltung besagt, dass in einem geschlossenen System der Gesamtimpuls konstant bleibt, solange keine äußeren Kräfte einwirken. Dies ist eine fundamentale Regel in der klassischen Mechanik.",
-      "difficulty": 9
+      "explanation": "Im Gleichgewichtszustand ist das elektrische Feld innerhalb eines Leiters null, da sich die freien Ladungsträger so anordnen, dass sie alle externen elektrischen Felder ausgleichen.",
+      "difficulty": 6
     }
   ]
 }
