@@ -1,78 +1,78 @@
 {
   "date": "2025-10-11",
-  "generated_at": "2025-10-11T11:59:45Z",
+  "generated_at": "2025-10-11T12:14:08Z",
   "schema_version": 5,
   "mode": "normal",
   "questions": [
     {
       "category": "Sport",
-      "discipline": "Olympische Spiele",
-      "question": "In welchem Jahr fanden die ersten modernen Olympischen Spiele statt?",
+      "discipline": "Sonstige",
+      "question": "Welche Sportart wird oft als 'König der Sportarten' bezeichnet?",
       "choices": [
-        "A: 1896",
-        "B: 1900",
-        "C: 1924",
-        "D: 1936"
+        "A: Fußball",
+        "B: Basketball",
+        "C: Tennis",
+        "D: Golf"
       ],
       "correct_answer": "A",
-      "explanation": "Die ersten modernen Olympischen Spiele wurden 1896 in Athen, Griechenland, ausgetragen. Sie wurden von Pierre de Coubertin ins Leben gerufen, um die olympische Tradition wiederzubeleben.",
-      "difficulty": 3
-    },
-    {
-      "category": "Geschichte",
-      "subperiod": "Neuzeit",
-      "question": "Welches Ereignis wird häufig als Beginn der Neuzeit angesehen?",
-      "choices": [
-        "A: Die Erfindung des Buchdrucks durch Johannes Gutenberg",
-        "B: Der Fall des Römischen Reiches",
-        "C: Die Entdeckung Amerikas durch Christoph Kolumbus",
-        "D: Die Französische Revolution"
-      ],
-      "correct_answer": "A",
-      "explanation": "Die Erfindung des Buchdrucks um 1440 durch Johannes Gutenberg gilt als ein entscheidender Faktor für den Beginn der Neuzeit. Sie ermöglichte eine breitere Verbreitung von Wissen und Informationen, was zu bedeutenden gesellschaftlichen Veränderungen führte.",
-      "difficulty": 7
-    },
-    {
-      "category": "Kunst und Literatur",
-      "subtopic": "Kunstgeschichte",
-      "question": "Welcher Künstler ist bekannt für seine Rolle im Impressionismus und seine Gemälde von Licht und Natur?",
-      "choices": [
-        "A: Claude Monet",
-        "B: Pablo Picasso",
-        "C: Vincent van Gogh",
-        "D: Salvador Dalí"
-      ],
-      "correct_answer": "A",
-      "explanation": "Claude Monet war einer der Begründer des Impressionismus und ist berühmt für seine Fähigkeit, Licht und Atmosphäre in seinen Landschaftsgemälden einzufangen. Seine Werke wie 'Impression, Sonnenaufgang' sind Schlüsselbeispiele dieses Kunststils.",
-      "difficulty": 5
-    },
-    {
-      "category": "Kunst und Literatur",
-      "subtopic": "Musik",
-      "question": "Welches Instrument wird oft als 'König der Instrumente' bezeichnet?",
-      "choices": [
-        "A: Orgel",
-        "B: Klavier",
-        "C: Violine",
-        "D: Trompete"
-      ],
-      "correct_answer": "A",
-      "explanation": "Die Orgel wird oft als 'König der Instrumente' bezeichnet, da sie durch ihre Vielseitigkeit und klangliche Reichweite in der Musikgeschichte eine herausragende Rolle spielt. Sie kann sowohl in Kirchen als auch in Konzertsälen eine zentrale Funktion einnehmen.",
+      "explanation": "Fußball wird häufig als 'König der Sportarten' bezeichnet, da es weltweit die größte Anhängerschaft und die meisten praktizierenden Spieler hat. Die einfache Spielweise und die geringe Ausrüstung machen es für viele Menschen zugänglich.",
       "difficulty": 5
     },
     {
       "category": "Essen und Trinken",
-      "topic": "Küche international",
-      "question": "In welchem Land hat die Pasta ihren Ursprung?",
+      "topic": "Ernährung",
+      "question": "Welches Vitamin ist bekannt dafür, das Immunsystem zu stärken und ist besonders reichlich in Zitrusfrüchten enthalten?",
       "choices": [
-        "A: Italien",
-        "B: China",
-        "C: Griechenland",
-        "D: Spanien"
+        "A: Vitamin C",
+        "B: Vitamin A",
+        "C: Vitamin D",
+        "D: Vitamin B12"
       ],
       "correct_answer": "A",
-      "explanation": "Die Pasta gilt als eine der bekanntesten Spezialitäten der italienischen Küche. Obwohl es ähnliche Teigwaren in anderen Kulturen gibt, wird Italien allgemein als das Ursprungsland der modernen Pasta angesehen.",
-      "difficulty": 8
+      "explanation": "Vitamin C, auch als Ascorbinsäure bekannt, ist ein essentielles Vitamin, das zur Unterstützung des Immunsystems beiträgt. Es ist vor allem in Früchten wie Orangen, Zitronen und Grapefruits enthalten.",
+      "difficulty": 4
+    },
+    {
+      "category": "Geschichte",
+      "subperiod": "Zeitgeschichte (ab 1945)",
+      "question": "Welches Ereignis markiert den Beginn des Kalten Krieges?",
+      "choices": [
+        "A: Die Teilung Deutschlands in Ost- und Westdeutschland",
+        "B: Der Vietnamkrieg",
+        "C: Die Gründung der NATO",
+        "D: Der Fall der Berliner Mauer"
+      ],
+      "correct_answer": "A",
+      "explanation": "Der Kalte Krieg begann nach dem Zweiten Weltkrieg und wurde durch die Teilung Deutschlands in Ost- und Westdeutschland symbolisiert. Diese Teilung führte zu einer langen Phase politischer Spannungen zwischen den USA und der Sowjetunion.",
+      "difficulty": 7
+    },
+    {
+      "category": "Physik",
+      "discipline": "Kern- und Teilchenphysik",
+      "question": "Was beschreibt das Konzept der Kernfusion?",
+      "choices": [
+        "A: Die Verschmelzung leichter Atomkerne zu schwereren Kernen bei hohen Temperaturen.",
+        "B: Die Spaltung schwerer Atomkerne in leichtere Kerne mit Energiegewinn.",
+        "C: Die Anordnung von Elektronen um den Atomkern.",
+        "D: Die Wechselwirkung zwischen elektrischen Ladungen."
+      ],
+      "correct_answer": "A",
+      "explanation": "Kernfusion ist der Prozess, bei dem zwei leichte Atomkerne unter extremen Bedingungen, wie hohen Temperaturen und Druck, fusionieren, um einen schwereren Kern zu bilden. Dabei wird eine enorme Menge an Energie freigesetzt, was den Prozess für Sterne wie unsere Sonne antreibt.",
+      "difficulty": 7
+    },
+    {
+      "category": "Geschichte",
+      "subperiod": "Antike",
+      "question": "Welches berühmte Bauwerk wurde im antiken Griechenland erbaut und ist ein Symbol für die Stadt Athen?",
+      "choices": [
+        "A: Der Parthenon",
+        "B: Die Pyramiden von Gizeh",
+        "C: Der Kolosseum",
+        "D: Der Tempel von Jupiter"
+      ],
+      "correct_answer": "A",
+      "explanation": "Der Parthenon ist ein Tempel, der der Göttin Athene gewidmet ist und auf der Akropolis von Athen steht. Er gilt als Meisterwerk der antiken Architektur und ist ein Symbol für die kulturelle Blüte Athens im 5. Jahrhundert v. Chr.",
+      "difficulty": 7
     }
   ]
 }
