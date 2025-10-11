@@ -32,8 +32,12 @@ jobs:
           pip install -r requirements.txt
 
       - name: Generate quiz
+        env:
+          POLITIK_LOGLEVEL: DEBUG        # zeigt detaillierte Logs (auch Verwerfungsgründe)
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}  # bleibt gleich, falls schon gesetzt
         run: |
           python generate_quiz.py
+
 
       - name: Upload quizzes as artifact
         if: always()
