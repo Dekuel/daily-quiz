@@ -1,64 +1,64 @@
 {
   "date": "2025-10-11",
-  "generated_at": "2025-10-11T16:11:47Z",
+  "generated_at": "2025-10-11T16:24:35Z",
   "schema_version": 5,
   "mode": "normal",
   "questions": [
     {
       "category": "Kunst und Literatur",
       "subtopic": "Literatur",
-      "question": "Welcher Autor ist bekannt für seine Werke wie 'Der Prozess' und 'Das Schloss'?",
+      "question": "Welcher dieser Schriftsteller ist bekannt für seine Werke der modernen Literatur?",
       "choices": [
         "A: Franz Kafka",
-        "B: Thomas Mann",
-        "C: Hermann Hesse",
-        "D: Rainer Maria Rilke"
+        "B: Johann Wolfgang von Goethe",
+        "C: Friedrich Schiller",
+        "D: Thomas Mann"
       ],
       "correct_answer": "A",
-      "explanation": "Franz Kafka war ein bedeutender Schriftsteller des 20. Jahrhunderts, dessen Werke oft die Absurditäten und Herausforderungen des Lebens thematisieren. 'Der Prozess' und 'Das Schloss' sind zwei seiner bekanntesten und einflussreichsten Romane.",
-      "difficulty": 7
+      "explanation": "Franz Kafka gilt als einer der bedeutendsten Schriftsteller des 20. Jahrhunderts und ist bekannt für seine surrealen und oft düsteren Erzählungen. Seine Werke, wie 'Die Verwandlung', spiegeln die existenziellen Ängste und die Absurdität des Lebens wider.",
+      "difficulty": 6
     },
     {
       "category": "Wissenschaft",
-      "topic": "Biologie",
-      "question": "Was beschreibt der Begriff 'Nahrungsnetz' in einem Ökosystem?",
+      "topic": "Physik",
+      "question": "Was beschreibt die Theorie der Urknall, die für die Entstehung des Universums verantwortlich gemacht wird?",
       "choices": [
-        "A: Die verschiedenen Arten von Pflanzen in einem Gebiet.",
-        "B: Die komplexen Wechselbeziehungen zwischen verschiedenen Organismen, die sich gegenseitig ernähren.",
-        "C: Die Menge an Nährstoffen im Boden.",
-        "D: Die Anzahl der Tiere in einem bestimmten Lebensraum."
+        "A: Das Universum entstand aus einem extrem dichten und heißen Zustand.",
+        "B: Das Universum war immer in seiner heutigen Form existent.",
+        "C: Die Erde ist das Zentrum des Universums.",
+        "D: Licht kann nicht aus schwarzen Löchern entweichen."
       ],
-      "correct_answer": "B",
-      "explanation": "Ein Nahrungsnetz zeigt, wie verschiedene Tiere und Pflanzen in einem Ökosystem miteinander verbunden sind, indem sie sich gegenseitig fressen oder von anderen Organismen abhängig sind. Es verdeutlicht die komplexen Beziehungen und den Energiefluss in einem Lebensraum.",
+      "correct_answer": "A",
+      "explanation": "Die Urknall-Theorie besagt, dass das Universum vor etwa 13,8 Milliarden Jahren aus einem sehr kompakten und heißen Punkt entstand und sich seitdem ausdehnt. Dies erklärt die Beobachtungen der kosmischen Hintergrundstrahlung und die Verteilung der Galaxien im Universum.",
       "difficulty": 2
     },
     {
-      "category": "Sport",
-      "discipline": "Formel 1",
-      "question": "Welcher Fahrer hat die meisten Weltmeistertitel in der Geschichte der Formel 1 gewonnen?",
+      "category": "Physik",
+      "discipline": "Elektrodynamik",
+      "question": "Was beschreibt das Ampèresche Gesetz in seiner allgemeinen Form?",
       "choices": [
-        "A: Michael Schumacher",
-        "B: Lewis Hamilton",
-        "C: Ayrton Senna",
-        "D: Sebastian Vettel"
-      ],
-      "correct_answer": "B",
-      "explanation": "Lewis Hamilton hat bis Oktober 2023 insgesamt 7 Weltmeistertitel gewonnen, was ihn zusammen mit Michael Schumacher zum Rekordhalter macht. Allerdings hat er mehr Rennen gewonnen als Schumacher und gilt daher als einer der besten Fahrer aller Zeiten.",
-      "difficulty": 8
-    },
-    {
-      "category": "Essen und Trinken",
-      "topic": "Küche international",
-      "question": "In welchem Land hat das traditionelle Gericht 'Paella' seinen Ursprung?",
-      "choices": [
-        "A: Spanien",
-        "B: Italien",
-        "C: Griechenland",
-        "D: Mexiko"
+        "A: Die Beziehung zwischen der elektrischen Strömung und dem erzeugten Magnetfeld.",
+        "B: Die Wechselwirkung zwischen elektrischen Ladungen und der Energie, die sie speichern.",
+        "C: Die Abhängigkeit der elektrischen Feldstärke von der Spannung und dem Widerstand.",
+        "D: Die Bewegung von Elektronen unter dem Einfluss eines elektrischen Feldes."
       ],
       "correct_answer": "A",
-      "explanation": "Die Paella ist ein bekanntes Reisgericht, das ursprünglich aus Valencia, Spanien, stammt. Sie wird typischerweise mit verschiedenen Zutaten wie Meeresfrüchten, Hühnchen oder Gemüse zubereitet.",
-      "difficulty": 5
+      "explanation": "Das Ampèresche Gesetz beschreibt, wie ein elektrischer Strom ein Magnetfeld erzeugt. Es ist ein fundamentales Prinzip der Elektrodynamik, das die Wechselwirkungen zwischen elektrischen Strömen und Magnetfeldern beschreibt.",
+      "difficulty": 4
+    },
+    {
+      "category": "Geschichte",
+      "subperiod": "Antike",
+      "question": "Welches antike Bauwerk wurde als eines der sieben Weltwunder der Antike angesehen?",
+      "choices": [
+        "A: Die Hängenden Gärten der Semiramis",
+        "B: Der Eiffelturm",
+        "C: Das Kolosseum",
+        "D: Die Pyramiden von Gizeh"
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Hängenden Gärten der Semiramis waren ein legendäres Bauwerk in Babylon, das für seine terrassierten Gärten berühmt war. Sie gelten als eines der sieben Weltwunder der Antike, obwohl es keine eindeutigen Beweise für ihre Existenz gibt.",
+      "difficulty": 6
     }
   ]
 }

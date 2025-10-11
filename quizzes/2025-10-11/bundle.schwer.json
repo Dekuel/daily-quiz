@@ -1,63 +1,63 @@
 {
   "date": "2025-10-11",
-  "generated_at": "2025-10-11T16:12:16Z",
+  "generated_at": "2025-10-11T16:25:02Z",
   "schema_version": 5,
   "mode": "schwer",
   "questions": [
     {
-      "category": "Kunst und Literatur",
-      "subtopic": "Literatur",
-      "question": "Welcher Autor ist bekannt für seine Werke der modernen amerikanischen Literatur, einschließlich 'Der große Gatsby'?",
+      "category": "Physik",
+      "discipline": "Festkörperphysik",
+      "question": "Welche der folgenden Aussagen beschreibt am besten die Eigenschaften von Supraleitern?",
       "choices": [
-        "A: F. Scott Fitzgerald",
-        "B: Ernest Hemingway",
-        "C: Mark Twain",
-        "D: John Steinbeck"
+        "A: Supraleiter haben bei Temperaturen unterhalb einer bestimmten kritischen Temperatur keinen elektrischen Widerstand.",
+        "B: Supraleiter können nur bei Raumtemperatur existieren und zeigen keine magnetischen Eigenschaften.",
+        "C: Supraleiter können nur in Form von Gasen existieren und sind temperaturunabhängig.",
+        "D: Supraleiter leiten Wärme besser als normale Metalle, unabhängig von der Temperatur."
       ],
       "correct_answer": "A",
-      "explanation": "F. Scott Fitzgerald ist berühmt für seinen Roman 'Der große Gatsby', der als einer der bedeutendsten amerikanischen Romane des 20. Jahrhunderts gilt. Seine Werke thematisieren oft das Streben nach dem amerikanischen Traum und die gesellschaftlichen Veränderungen seiner Zeit.",
-      "difficulty": 10
+      "explanation": "Supraleiter sind Materialien, die bei Temperaturen unter einer kritischen Schwelle vollkommen elektrisch leitfähig werden, ohne jeglichen Widerstand. Diese Eigenschaft ist eines der faszinierendsten Phänomene in der Festkörperphysik.",
+      "difficulty": 5
     },
     {
       "category": "Geschichte",
-      "subperiod": "Zeitgeschichte (ab 1945)",
-      "question": "Was war der Hauptgrund für den Bau der Berliner Mauer im Jahr 1961?",
+      "subperiod": "Mittelalter",
+      "question": "Welches Ereignis wird oft als Beginn des Mittelalters betrachtet?",
       "choices": [
-        "A: Um den Flüchtlingsstrom aus der DDR in die BRD zu stoppen.",
-        "B: Um die Westberliner Bevölkerung zu schützen.",
-        "C: Um die Grenzen zwischen den Alliierten zu sichern.",
-        "D: Um den Zugang zu Ostberlin für Touristen zu kontrollieren."
+        "A: Der Fall des Weströmischen Reiches",
+        "B: Die Entdeckung Amerikas",
+        "C: Die Erfindung der Druckerpresse",
+        "D: Der Dreißigjährige Krieg"
       ],
       "correct_answer": "A",
-      "explanation": "Die Berliner Mauer wurde errichtet, um zu verhindern, dass Bürger der Deutschen Demokratischen Republik (DDR) in die Bundesrepublik Deutschland (BRD) fliehen. Dies war eine Reaktion auf die steigende Zahl von Flüchtlingen, die die DDR verließen.",
-      "difficulty": 6
+      "explanation": "Der Fall des Weströmischen Reiches im Jahr 476 n. Chr. gilt als wichtiger Wendepunkt, der das Ende der Antike und den Beginn des Mittelalters markiert. In dieser Zeit kam es zu bedeutenden sozialen und politischen Veränderungen in Europa.",
+      "difficulty": 9
+    },
+    {
+      "category": "Kunst und Literatur",
+      "subtopic": "Literatur",
+      "question": "Welcher Autor ist bekannt für seine Werke über die Dystopie und die Gesellschaftskritik, insbesondere durch den Roman '1984'?",
+      "choices": [
+        "A: George Orwell",
+        "B: Aldous Huxley",
+        "C: Ray Bradbury",
+        "D: Franz Kafka"
+      ],
+      "correct_answer": "A",
+      "explanation": "George Orwell ist der Autor von '1984', einem wegweisenden Werk der Dystopischen Literatur, das die Gefahren totalitärer Regime thematisiert. Seine Schriften sind auch für ihre scharfe Gesellschaftskritik bekannt.",
+      "difficulty": 8
     },
     {
       "category": "Sport",
-      "discipline": "Olympische Spiele",
-      "question": "In welchem Jahr fanden die ersten modernen Olympischen Spiele statt?",
+      "discipline": "Formel 1",
+      "question": "Wer hält den Rekord für die meisten Weltmeistertitel in der Formel 1?",
       "choices": [
-        "A: 1896",
-        "B: 1900",
-        "C: 1924",
-        "D: 1936"
+        "A: Michael Schumacher",
+        "B: Lewis Hamilton",
+        "C: Ayrton Senna",
+        "D: Alain Prost"
       ],
-      "correct_answer": "A",
-      "explanation": "Die ersten modernen Olympischen Spiele wurden 1896 in Athen, Griechenland, ausgetragen. Diese Spiele markierten die Wiederbelebung der Olympischen Tradition, die in der Antike begann.",
-      "difficulty": 7
-    },
-    {
-      "category": "Essen und Trinken",
-      "topic": "Küche international",
-      "question": "Welches Land ist bekannt für die Erfindung der Pizza?",
-      "choices": [
-        "A: Italien",
-        "B: Frankreich",
-        "C: Griechenland",
-        "D: Mexiko"
-      ],
-      "correct_answer": "A",
-      "explanation": "Die Pizza hat ihren Ursprung in Neapel, Italien, wo sie im 18. Jahrhundert populär wurde. Ursprünglich war sie ein einfaches Gericht für die armen Leute, das aus Brot, Tomaten und Käse bestand.",
+      "correct_answer": "B",
+      "explanation": "Lewis Hamilton hat insgesamt sieben Weltmeistertitel gewonnen, was ihn zusammen mit Michael Schumacher zum Rekordhalter macht. Beide Fahrer haben in ihrer Karriere zahlreiche Rekorde aufgestellt und gelten als zwei der größten Formel-1-Piloten aller Zeiten.",
       "difficulty": 5
     }
   ]
