@@ -1,64 +1,64 @@
 {
   "date": "2025-10-11",
-  "generated_at": "2025-10-11T16:24:35Z",
+  "generated_at": "2025-10-11T18:08:12Z",
   "schema_version": 5,
   "mode": "normal",
   "questions": [
     {
-      "category": "Kunst und Literatur",
-      "subtopic": "Literatur",
-      "question": "Welcher dieser Schriftsteller ist bekannt für seine Werke der modernen Literatur?",
+      "category": "Essen und Trinken",
+      "topic": "Kulinarische Geschichte",
+      "question": "In welchem Land entstand die Pizza, die heute weltweit bekannt ist?",
       "choices": [
-        "A: Franz Kafka",
-        "B: Johann Wolfgang von Goethe",
-        "C: Friedrich Schiller",
-        "D: Thomas Mann"
+        "A: Italien",
+        "B: Griechenland",
+        "C: Frankreich",
+        "D: Mexiko"
       ],
       "correct_answer": "A",
-      "explanation": "Franz Kafka gilt als einer der bedeutendsten Schriftsteller des 20. Jahrhunderts und ist bekannt für seine surrealen und oft düsteren Erzählungen. Seine Werke, wie 'Die Verwandlung', spiegeln die existenziellen Ängste und die Absurdität des Lebens wider.",
-      "difficulty": 6
-    },
-    {
-      "category": "Wissenschaft",
-      "topic": "Physik",
-      "question": "Was beschreibt die Theorie der Urknall, die für die Entstehung des Universums verantwortlich gemacht wird?",
-      "choices": [
-        "A: Das Universum entstand aus einem extrem dichten und heißen Zustand.",
-        "B: Das Universum war immer in seiner heutigen Form existent.",
-        "C: Die Erde ist das Zentrum des Universums.",
-        "D: Licht kann nicht aus schwarzen Löchern entweichen."
-      ],
-      "correct_answer": "A",
-      "explanation": "Die Urknall-Theorie besagt, dass das Universum vor etwa 13,8 Milliarden Jahren aus einem sehr kompakten und heißen Punkt entstand und sich seitdem ausdehnt. Dies erklärt die Beobachtungen der kosmischen Hintergrundstrahlung und die Verteilung der Galaxien im Universum.",
-      "difficulty": 2
-    },
-    {
-      "category": "Physik",
-      "discipline": "Elektrodynamik",
-      "question": "Was beschreibt das Ampèresche Gesetz in seiner allgemeinen Form?",
-      "choices": [
-        "A: Die Beziehung zwischen der elektrischen Strömung und dem erzeugten Magnetfeld.",
-        "B: Die Wechselwirkung zwischen elektrischen Ladungen und der Energie, die sie speichern.",
-        "C: Die Abhängigkeit der elektrischen Feldstärke von der Spannung und dem Widerstand.",
-        "D: Die Bewegung von Elektronen unter dem Einfluss eines elektrischen Feldes."
-      ],
-      "correct_answer": "A",
-      "explanation": "Das Ampèresche Gesetz beschreibt, wie ein elektrischer Strom ein Magnetfeld erzeugt. Es ist ein fundamentales Prinzip der Elektrodynamik, das die Wechselwirkungen zwischen elektrischen Strömen und Magnetfeldern beschreibt.",
+      "explanation": "Die Pizza hat ihren Ursprung in Italien, insbesondere in Neapel, wo sie im 18. Jahrhundert populär wurde. Ursprünglich wurde sie als einfache Speise für Arbeiter entwickelt und hat sich seitdem zu einem internationalen Gericht entwickelt.",
       "difficulty": 4
     },
     {
       "category": "Geschichte",
-      "subperiod": "Antike",
-      "question": "Welches antike Bauwerk wurde als eines der sieben Weltwunder der Antike angesehen?",
+      "subperiod": "Zeitgeschichte (ab 1945)",
+      "question": "Welches Ereignis wird oft als Beginn des Kalten Krieges angesehen?",
       "choices": [
-        "A: Die Hängenden Gärten der Semiramis",
-        "B: Der Eiffelturm",
-        "C: Das Kolosseum",
-        "D: Die Pyramiden von Gizeh"
+        "A: Der Fall der Berliner Mauer",
+        "B: Die Gründung der NATO",
+        "C: Der Koreakrieg",
+        "D: Die Kubakrise"
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Gründung der NATO (North Atlantic Treaty Organization) im Jahr 1949 wird häufig als ein entscheidendes Ereignis angesehen, das den Kalten Krieg einleitete. Sie stellte ein militärisches Bündnis der westlichen Staaten gegen die wahrgenommene Bedrohung durch die Sowjetunion dar.",
+      "difficulty": 1
+    },
+    {
+      "category": "Sport",
+      "discipline": "Fußball",
+      "question": "Welches Land gewann die erste FIFA-Weltmeisterschaft im Jahr 1930?",
+      "choices": [
+        "A: Uruguay",
+        "B: Brasilien",
+        "C: Deutschland",
+        "D: Italien"
       ],
       "correct_answer": "A",
-      "explanation": "Die Hängenden Gärten der Semiramis waren ein legendäres Bauwerk in Babylon, das für seine terrassierten Gärten berühmt war. Sie gelten als eines der sieben Weltwunder der Antike, obwohl es keine eindeutigen Beweise für ihre Existenz gibt.",
-      "difficulty": 6
+      "explanation": "Die erste FIFA-Weltmeisterschaft fand 1930 in Uruguay statt, und das Gastgeberland gewann das Turnier. Uruguay besiegte Argentinien im Finale mit 4:2.",
+      "difficulty": 7
+    },
+    {
+      "category": "Sprache",
+      "topic": "Redewendungen",
+      "question": "Was bedeutet die Redewendung 'Das Kind beim Schopfe packen'?",
+      "choices": [
+        "A: Eine Gelegenheit ergreifen.",
+        "B: Jemanden in Schwierigkeiten bringen.",
+        "C: Etwas auf die lange Bank schieben.",
+        "D: Ein Geheimnis bewahren."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Redewendung 'Das Kind beim Schopfe packen' bedeutet, eine Chance oder Gelegenheit sofort zu nutzen. Der Ausdruck stammt aus der Vorstellung, dass man ein Kind, um es zu führen, am Schopf (Haar) greifen kann.",
+      "difficulty": 4
     }
   ]
 }
