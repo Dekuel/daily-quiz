@@ -3,11 +3,11 @@
 """
 Politik-Plugin für den Daily Quiz Generator.
 
-Highlights:
-- Robuste Plugin-Discovery (Import bricht nicht, wenn Dependencies fehlen)
-- Klare Logs (geeignet für GitHub Actions)
-- News- & Trivia-Erzeugung, JSON-Extraktion auch bei "Geräusch" um das JSON
-- Konfigurierbar über ENV (siehe Variablen unten)
+- Erzwungener JSON-Output via response_format={"type":"json_object"}
+- Klare INFO-Logs, WARUM Antworten verworfen wurden (kein JSON, is_politics=false, Felder fehlen)
+- httpx/openai-Logs auf WARNING gedrosselt (Actions-Logs bleiben übersichtlich)
+- Optional-Dependency-Guard: Plugin wird importierbar, auch wenn deps fehlen (liefert dann None + Warnung)
+- Konfigurierbar per ENV: POLITIK_LOGLEVEL, POLITIK_OPENAI_MODEL, ...
 """
 
 from __future__ import annotations
@@ -33,12 +33,16 @@ except Exception as e:
     _DEPS_OK = False
     _DEPS_ERR = e
 
-# ===================== Logging-Konfiguration =====================
+# ===================== Logging =====================
 _LOG_LEVEL = os.environ.get("POLITIK_LOGLEVEL", "INFO").upper()
 logging.basicConfig(
     level=getattr(logging, _LOG_LEVEL, logging.INFO),
     format="%(asctime)s [%(levelname)s] politik: %(message)s",
 )
+# Drittlogger dämpfen
+logging.getLogger("httpx").setLevel(logging.WARNING)
+logging.getLogger("openai").setLevel(logging.WARNING)
+
 log = logging.getLogger("kategorien.politik")
 
 # ===================== Konfiguration (ENV-Overrides) =====================
@@ -58,9 +62,10 @@ _HTTP_HEADERS = {
     )
 }
 
-# Generator
-_SLEEP = float(os.environ.get("POLITIK_SLEEP_SECONDS", "1.0"))  # kleine Pause zwischen API-Aufrufen
+# Generator / Verhalten
+_SLEEP = float(os.environ.get("POLITIK_SLEEP_SECONDS", "1.0"))
 _TRIES_PER_ITEM = int(os.environ.get("POLITIK_TRIES_PER_ITEM", "6"))
+_MAX_TOKENS = int(os.environ.get("POLITIK_MAX_TOKENS", "400"))
 
 # ===================== Caches =====================
 _CACHE: Optional[List[Dict[str, Any]]] = None
@@ -119,7 +124,7 @@ def _is_true(v) -> bool:
 
 
 def _extract_first_json_block(text: str) -> Optional[str]:
-    """Extrahiert den ersten {...}-Block, toleriert Markdown-Codefences."""
+    """Extrahiert den ersten {...}-Block, toleriert Markdown-Codefences (Fallback – sollte dank response_format selten gebraucht werden)."""
     if not text:
         return None
     m = re.search(r"```(?:json)?\s*({.*?})\s*```", text, flags=re.DOTALL | re.IGNORECASE)
@@ -131,18 +136,25 @@ def _extract_first_json_block(text: str) -> Optional[str]:
 
 def _validate_payload(d: Dict[str, Any]) -> Optional[Dict[str, Any]]:
     if not isinstance(d, dict):
+        log.info("OpenAI: Antwort ist kein JSON-Objekt.")
         return None
     if not _is_true(d.get("is_politics")):
+        log.info("OpenAI: is_politics ist false/fehlt – verwerfe.")
         return None
     q = (d.get("question") or "").strip()
     choices = d.get("choices") or []
     ans = (d.get("correct_answer") or "").strip()
-    if not q or not isinstance(choices, list) or len(choices) < 4 or ans not in {"A", "B", "C", "D"}:
+    if not q:
+        log.info("OpenAI: 'question' fehlt/leer – verwerfe.")
         return None
-    # Normalize Pflichtfelder
+    if not isinstance(choices, list) or len(choices) < 4:
+        log.info("OpenAI: 'choices' unvollständig (<4) – verwerfe.")
+        return None
+    if ans not in {"A", "B", "C", "D"}:
+        log.info("OpenAI: 'correct_answer' nicht in A-D – verwerfe.")
+        return None
     d["category"] = CATEGORY_NAME
-    if "source" not in d or not d["source"]:
-        d["source"] = {"title": "Politik-Trivia", "url": "https://www.bundesregierung.de"}
+    d.setdefault("source", {"title": "Politik-Trivia", "url": "https://www.bundesregierung.de"})
     return d
 
 # ===================== Scraper =====================
@@ -256,28 +268,40 @@ def _ask_json(prompt: str) -> Optional[Dict[str, Any]]:
         r = client.chat.completions.create(
             model=_OPENAI_MODEL,
             messages=[
-                {"role": "system", "content": "Gib ausschließlich valides JSON ohne Erklärtext zurück."},
+                {
+                    "role": "system",
+                    "content": "Antworte ausschließlich als einzelnes JSON-Objekt. "
+                               "Keine Erklärtexte, keine Codefences."
+                },
                 {"role": "user", "content": prompt},
             ],
             temperature=0.7,
+            response_format={"type": "json_object"},  # <<< JSON erzwingen
+            max_tokens=_MAX_TOKENS,
         )
         raw = (r.choices[0].message.content or "").strip()
         if not raw:
-            log.debug("OpenAI leere Antwort.")
+            log.info("OpenAI: leere Antwort.")
             return None
-        jb = _extract_first_json_block(raw)
-        if not jb:
-            log.debug("Kein JSON-Block extrahiert. Volltext (gekürzt): %r", raw[:200])
-            return None
+
+        # Dank response_format sollte raw schon pures JSON sein:
         try:
-            data = json.loads(jb)
+            data = json.loads(raw)
         except Exception as e:
-            log.debug("JSON-Parse-Fehler: %s – Payload (gekürzt): %r", e, jb[:200])
-            return None
+            # Fallback: versuche JSON-Block zu extrahieren (sollte selten sein)
+            jb = _extract_first_json_block(raw)
+            if not jb:
+                log.info("OpenAI: JSON-Parse-Fehler: %s. Roh (gekürzt): %r", e, raw[:200])
+                return None
+            try:
+                data = json.loads(jb)
+            except Exception as e2:
+                log.info("OpenAI: JSON-Parse-Fehler (Fallback): %s. Payload (gekürzt): %r", e2, jb[:200])
+                return None
+
         valid = _validate_payload(data)
-        if not valid:
-            log.debug("JSON verworfen (keine Politik/inkomplett).")
         return valid
+
     except Exception as e:
         log.warning("OpenAI-Aufruf fehlgeschlagen: %s", e)
         return None
@@ -290,7 +314,6 @@ def _generate_from_news() -> Optional[Dict[str, Any]]:
     arts = list(_CACHE)
     random.shuffle(arts)
     for art in arts:
-        log.debug("News-Versuch mit: %s", art.get("title"))
         d = _ask_json(_prompt_news(art["title"], art["content"], art["url"]))
         time.sleep(_SLEEP)
         if d:
@@ -298,6 +321,8 @@ def _generate_from_news() -> Optional[Dict[str, Any]]:
             d["source"] = {"title": art["title"], "url": art["url"]}
             log.info("Politikfrage aus News generiert: %s", d.get("question")[:80])
             return d
+        else:
+            log.info("News-Kandidat verworfen: %s", art.get("title"))
     log.info("Keine geeignete Politik-News gefunden.")
     return None
 
