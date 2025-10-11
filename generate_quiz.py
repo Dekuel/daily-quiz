@@ -5,7 +5,7 @@ Daily Quiz Generator (dreimodig):
 - Politik-Fragen werden pro Modus separat über das Politik-Plugin generiert (Ziel: 2) – außer im Modus "physik"
 - Weitere Fragen über Kategorien-Plugins in ./kategorien/ (je Aufruf genau 1 Frage)
 - Dedupe ggü. Vergangenheit (7 Tage), innerhalb eines Modus, und zwischen den Modi (tagesweit)
-- Schwierigkeit pro Modus via Gewichten
+- Schwierigkeit pro Modus via Gewichten (zentral, Core->Plugin)
 - Persistenz:
   quizzes/YYYY-MM-DD/bundle.normal.json
   quizzes/YYYY-MM-DD/bundle.schwer.json
@@ -45,13 +45,10 @@ PHYSICS_CATEGORY_NAME = "Physik"
 # Anzahl Fragen im Physik-Bundle
 PHYSIK_QUESTIONS_COUNT = 10
 
-# Schwierigkeit-Gewichte (Schlüssel = Difficulty 1..10, Wert = Gewicht)
+# Schwierigkeit-Gewichte (Schlüssel = Difficulty 1..10, Wert = Gewicht) – ZENTRAL
 DIFFICULTY_WEIGHTS: Dict[str, Dict[int, int]] = {
-    # vom Nutzer vorgegeben
     "schwer": {10: 14, 9: 16, 8: 21, 7: 16, 6: 11, 5: 9, 4: 6, 3: 4, 2: 2, 1: 1},
-    # "normal" als Basis
     "normal": {10: 3, 9: 5, 8: 8, 7: 10, 6: 14, 5: 18, 4: 16, 3: 12, 2: 8, 1: 6},
-    # eigener Satz für den Physik-Modus (aktuell wie "normal"; beliebig anpassbar)
     "physik": {10: 3, 9: 5, 8: 8, 7: 10, 6: 14, 5: 18, 4: 16, 3: 12, 2: 8, 1: 6},
 }
 
@@ -93,6 +90,11 @@ def weighted_choice(weights: Dict[int, int]) -> int:
     keys = [k for k, _ in items]
     vals = [w for _, w in items]
     return random.choices(keys, weights=vals, k=1)[0]
+
+
+def pick_target_difficulty_for_mode(mode: str) -> int:
+    weights = DIFFICULTY_WEIGHTS.get(mode) or DIFFICULTY_WEIGHTS["normal"]
+    return int(weighted_choice(weights))
 
 
 # ===================== Vergangenheit laden =====================
@@ -155,7 +157,7 @@ def load_past_questions(days: int = PAST_DAYS_TO_CHECK) -> List[dict]:
 def discover_category_plugins() -> Dict[str, Callable[..., Optional[dict]]]:
     """
     Findet alle Module in ./kategorien/ mit einer Funktion:
-        generate_one(past_texts: list[str]) -> dict | None
+        generate_one(past_texts: list[str], target_difficulty: Optional[int] = None, mode: Optional[str] = None) -> dict | None
 
     Rückgabe: Mapping { "Anzeigename": callable }
     - Anzeigename: mod.CATEGORY_NAME oder Dateiname -> Titelcase
@@ -185,6 +187,114 @@ def discover_category_plugins() -> Dict[str, Callable[..., Optional[dict]]]:
     return plugins
 
 
+# ===================== Antwort-Shuffle =====================
+
+LETTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+
+def _strip_letter_prefix(s: str) -> str:
+    # Entfernt "A: " / "B) " / "C - " etc. am Anfang
+    return re.sub(r"^[A-D]\s*[:\)\]\.-]\s*", "", s.strip(), flags=re.IGNORECASE)
+
+def _apply_letter_prefixes(choices: List[str]) -> List[str]:
+    return [f"{LETTERS[i]}: {choices[i]}" for i in range(len(choices))]
+
+def _shuffle_answers_in_question(q: dict) -> None:
+    """
+    Unterstützt gängige Schemata:
+      - q["choices"] = ["A: ...","B: ...",...], q["correct_answer"] = "A|B|C|D"
+      - q["choices"] = ["...","..."], q["answer_index"] / q["correct_index"]
+      - q["answers"] mit Dict-Objekten und "correct"-Flag
+    """
+    # Feld identifizieren
+    field = None
+    if isinstance(q.get("choices"), list):
+        field = "choices"
+    elif isinstance(q.get("options"), list):
+        field = "options"
+    elif isinstance(q.get("answers"), list):
+        field = "answers"
+    if not field:
+        return
+
+    opts = list(q[field])
+    if not opts:
+        return
+
+    # Korrekt-Index bestimmen
+    correct_idx = None
+
+    # Fall: Index-Felder
+    for k in ("answer_index", "correct_index"):
+        if isinstance(q.get(k), int):
+            correct_idx = q[k]
+            break
+
+    # Fall: Buchstabe
+    if correct_idx is None and isinstance(q.get("correct_answer"), str):
+        try:
+            correct_idx = LETTERS.index(q["correct_answer"].strip().upper())
+        except ValueError:
+            pass
+
+    # Fall: Objektliste mit correct-Flag
+    if correct_idx is None and isinstance(opts[0], dict) and "correct" in opts[0]:
+        correct_idx = next((i for i, c in enumerate(opts) if c.get("correct")), None)
+
+    if correct_idx is None or not (0 <= correct_idx < len(opts)):
+        return
+
+    # Inhalte ohne A:/B: Präfixe normalisieren (nur für String-Choices)
+    def normalize_choice(x):
+        if isinstance(x, str):
+            return _strip_letter_prefix(x)
+        if isinstance(x, dict) and "text" in x:
+            return _strip_letter_prefix(str(x["text"]))
+        return x
+
+    normalized_opts = [normalize_choice(x) for x in opts]
+
+    # Permutation ziehen
+    idxs = list(range(len(opts)))
+    random.shuffle(idxs)
+
+    # Neuen Korrekt-Index finden
+    new_correct = idxs.index(correct_idx)
+
+    # Feld aktualisieren
+    if isinstance(opts[0], dict) and "correct" in opts[0]:
+        new_opts = []
+        for i, old_i in enumerate(idxs):
+            item = dict(opts[old_i])
+            # Text ggf. überschreiben
+            if "text" in item:
+                item["text"] = normalized_opts[old_i]
+            # correct-Flag setzen
+            item["correct"] = (i == new_correct)
+            new_opts.append(item)
+        q[field] = new_opts
+    else:
+        # String-Liste – nach Shuffle neu mit A:/B: labeln, falls vorher gelabelt
+        relabeled = _apply_letter_prefixes([normalized_opts[old_i] for old_i in idxs])
+        q[field] = relabeled
+
+    # Korrektheits-Felder synchronisieren
+    if "answer_index" in q:
+        q["answer_index"] = new_correct
+    if "correct_index" in q:
+        q["correct_index"] = new_correct
+    if "correct_answer" in q:
+        q["correct_answer"] = LETTERS[new_correct]
+
+
+def _shuffle_answers_in_bundle(qlist: List[dict]) -> None:
+    for q in qlist:
+        try:
+            _shuffle_answers_in_question(q)
+        except Exception:
+            # Nicht tödlich – einfach überspringen
+            continue
+
+
 # ===================== Fragen-Generatoren =====================
 
 def generate_random_categories(
@@ -192,10 +302,12 @@ def generate_random_categories(
     k: int,
     past_texts: List[str],
     exclude: Optional[set[str]] = None,
+    mode: str = "normal",
 ) -> List[dict]:
     """
     Wählt k Kategorien (ohne exclude) und erzeugt jeweils eine Frage.
     Dedupe gegen Vergangenheit und innerhalb des Sets.
+    Übergibt eine Ziel-Schwierigkeit pro Frage ans Plugin.
     """
     names = [n for n in plugins.keys() if not exclude or n not in exclude]
     if not names or k <= 0:
@@ -211,11 +323,13 @@ def generate_random_categories(
         cat = chosen[len(out)]
         tries += 1
         try:
-            item = plugins[cat](past_texts=past_texts)  # -> dict | None
+            target = pick_target_difficulty_for_mode(mode)
+            item = plugins[cat](past_texts=past_texts, target_difficulty=target, mode=mode)  # Core -> Plugin
         except Exception:
             continue
         if not item:
             continue
+        item.setdefault("difficulty", target)  # Fallback, falls Plugin noch nicht setzt
         qt = _norm(item.get("question", ""))
         if not qt:
             continue
@@ -233,10 +347,12 @@ def generate_specific_category_questions(
     target_count: int,
     past_texts: List[str],
     day_seen: set[str],
+    mode: str = "normal",
 ) -> List[dict]:
     """
     Erzeugt ausschließlich Fragen aus einer bestimmten Kategorie (z. B. nur 'Physik').
     Dedupe: Vergangenheit, innerhalb dieses Sets und tagesweit (day_seen).
+    Übergibt Ziel-Schwierigkeit pro Frage ans Plugin.
     """
     if category_name not in plugins:
         print(f"⚠️ Kategorie-Plugin '{category_name}' nicht gefunden.")
@@ -244,17 +360,18 @@ def generate_specific_category_questions(
 
     out: List[dict] = []
     tries = 0
-    # großzügiges Limit, falls mal Duplikate aussortiert werden
     max_tries = target_count * 8
 
     while len(out) < target_count and tries < max_tries:
         tries += 1
         try:
-            q = plugins[category_name](past_texts=past_texts)
+            target = pick_target_difficulty_for_mode(mode)
+            q = plugins[category_name](past_texts=past_texts, target_difficulty=target, mode=mode)
         except Exception:
             continue
         if not q:
             continue
+        q.setdefault("difficulty", target)
         qt = _norm(q.get("question", ""))
         if not qt:
             continue
@@ -274,10 +391,12 @@ def generate_politics_for_mode(
     target: int,
     past_texts: List[str],
     day_seen: set[str],
+    mode: str,
 ) -> List[dict]:
     """
     Erzeugt bis zu 'target' Politikfragen für einen Modus.
-    Dedupe: Vergangenheit, innerhalb dieses Sets, und 'day_seen' (andere Modi oder bereits erzeugte Fragen des Tages).
+    Dedupe: Vergangenheit, innerhalb dieses Sets, und 'day_seen'.
+    Übergibt Ziel-Schwierigkeit pro Frage ans Politik-Plugin.
     """
     if POLITICS_CATEGORY_NAME not in plugins:
         return []
@@ -287,11 +406,13 @@ def generate_politics_for_mode(
     while len(out) < target and tries < target * 6:
         tries += 1
         try:
-            q = plugins[POLITICS_CATEGORY_NAME](past_texts=past_texts)
+            target_diff = pick_target_difficulty_for_mode(mode)
+            q = plugins[POLITICS_CATEGORY_NAME](past_texts=past_texts, target_difficulty=target_diff, mode=mode)
         except Exception:
             continue
         if not q:
             continue
+        q.setdefault("difficulty", target_diff)
         qt = _norm(q.get("question", ""))
         if not qt:
             continue
@@ -304,28 +425,6 @@ def generate_politics_for_mode(
         out.append(q)
 
     return out
-
-
-def _top_up_random_non_politics(
-    plugins: Dict[str, Callable[..., Optional[dict]]],
-    need: int,
-    past_texts: List[str],
-    day_seen: set[str],
-) -> List[dict]:
-    """Füllt mit Nicht-Politikfragen auf (Dedupe ggü. Vergangenheit & Tag)."""
-    if need <= 0:
-        return []
-    batch = generate_random_categories(
-        plugins=plugins,
-        k=need,
-        past_texts=past_texts,
-        exclude={POLITICS_CATEGORY_NAME},
-    )
-    for q in batch:
-        qt = _norm(q.get("question", ""))
-        if qt:
-            day_seen.add(qt)
-    return batch
 
 
 # ===================== Persistenz =====================
@@ -408,9 +507,14 @@ def update_latest_and_catalog(paths_by_mode: Dict[str, str], date_str: Optional[
 # ===================== Orchestrierung =====================
 
 def assign_difficulties(questions: List[dict], mode: str) -> None:
+    """
+    Fallback: setzt difficulty NUR, wenn das Plugin keinen Wert gesetzt hat.
+    (Core überschreibt Plugin-Werte nicht.)
+    """
     weights = DIFFICULTY_WEIGHTS.get(mode) or DIFFICULTY_WEIGHTS["normal"]
     for q in questions:
-        q["difficulty"] = int(weighted_choice(weights))
+        if "difficulty" not in q or not isinstance(q["difficulty"], int):
+            q["difficulty"] = int(weighted_choice(weights))
 
 
 def main():
@@ -447,7 +551,9 @@ def main():
                 target=target_politics,
                 past_texts=past_texts,
                 day_seen=day_dedupe_texts,
+                mode=mode,  # NEU: Ziel-Schwierigkeit pro Frage
             )
+            print(f"[{mode}] Politikfragen erzeugt (erste Runde): {len(politics)} / {POLITICS_TARGET}")
 
             # 2) Andere Kategorien erzeugen (ohne Politik)
             others = generate_random_categories(
@@ -455,6 +561,7 @@ def main():
                 k=target_others,
                 past_texts=past_texts,
                 exclude={POLITICS_CATEGORY_NAME},
+                mode=mode,  # NEU
             )
 
             # 3) Fallback: wenn Politik < 2, versuche nochmals Politik nachzulegen
@@ -470,6 +577,7 @@ def main():
                     target=missing,
                     past_texts=past_texts,
                     day_seen=tmp_day_seen,
+                    mode=mode,  # NEU
                 )
                 politics.extend(politics_retry or [])
 
@@ -477,11 +585,12 @@ def main():
             #    damit wir insgesamt trotzdem auf 6 Fragen kommen.
             if len(politics) < target_politics:
                 deficit = target_politics - len(politics)
-                others += _top_up_random_non_politics(
+                others += generate_random_categories(
                     plugins=plugins,
-                    need=deficit,
+                    k=deficit,
                     past_texts=past_texts,
-                    day_seen=day_dedupe_texts,
+                    exclude={POLITICS_CATEGORY_NAME},
+                    mode=mode,  # NEU
                 )
 
             # 5) Finalisieren: exakt die Zielanzahlen zuschneiden
@@ -497,6 +606,7 @@ def main():
                 target_count=PHYSIK_QUESTIONS_COUNT,
                 past_texts=past_texts,
                 day_seen=day_dedupe_texts,
+                mode="physik",  # NEU
             )
 
         # 3.5 Tagesweites Dedupe-Set updaten
@@ -505,8 +615,11 @@ def main():
             if qt:
                 day_dedupe_texts.add(qt)
 
-        # 3.6 Schwierigkeiten setzen (modusspezifisch)
+        # 3.6 Schwierigkeiten setzen (nur Fallback, falls Plugin keinen Wert gesetzt hat)
         assign_difficulties(qlist, mode)
+
+        # 3.6b Antworten mischen (richtige Position wird angepasst)
+        _shuffle_answers_in_bundle(qlist)
 
         # 3.7 Persistieren
         saved = write_daily_bundle(qlist, mode=mode)
