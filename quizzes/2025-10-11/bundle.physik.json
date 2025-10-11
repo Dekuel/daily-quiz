@@ -1,147 +1,147 @@
 {
   "date": "2025-10-11",
-  "generated_at": "2025-10-11T14:22:59Z",
+  "generated_at": "2025-10-11T15:00:29Z",
   "schema_version": 5,
   "mode": "physik",
   "questions": [
     {
       "category": "Physik",
       "discipline": "Klassische Mechanik",
-      "question": "Welches der folgenden Gesetze beschreibt das Verhalten eines Körpers, der sich in einem gleichmäßigen Kreis bewegt?",
+      "question": "Was passiert mit der Geschwindigkeit eines Körpers, der sich in einem Vakuum bewegt, wenn er nicht durch äußere Kräfte beeinflusst wird?",
       "choices": [
-        "A: Newtons erstes Gesetz",
-        "B: Newtons zweites Gesetz",
-        "C: Newtons drittes Gesetz",
-        "D: Das Gesetz der Erhaltung der Energie"
+        "A: Die Geschwindigkeit bleibt konstant.",
+        "B: Die Geschwindigkeit nimmt immer zu.",
+        "C: Die Geschwindigkeit wird immer langsamer.",
+        "D: Die Geschwindigkeit ändert sich zufällig."
+      ],
+      "correct_answer": "A",
+      "explanation": "Im Vakuum gibt es keine Luftwiderstandskräfte oder andere äußere Einflüsse. Nach dem ersten Newtonschen Gesetz bleibt die Geschwindigkeit eines Körpers konstant, solange keine unbalancierten Kräfte wirken.",
+      "difficulty": 8
+    },
+    {
+      "category": "Physik",
+      "discipline": "Astrophysik",
+      "question": "Was beschreibt das Konzept der 'Hawking-Strahlung' in der Astrophysik?",
+      "choices": [
+        "A: Die Emission von Strahlung durch Schwarze Löcher aufgrund quantenmechanischer Effekte.",
+        "B: Die Temperaturverteilung in einem interstellaren Gas.",
+        "C: Die Gravitationswellen, die von kollidierenden Neutronensternen erzeugt werden.",
+        "D: Die Wechselwirkung zwischen Dunkler Materie und normaler Materie."
+      ],
+      "correct_answer": "A",
+      "explanation": "Hawking-Strahlung ist ein theoretisches Konzept, das beschreibt, wie Schwarze Löcher durch quantenmechanische Prozesse Teilchen emittieren können, was zu ihrem langsamen Verdampfen führt.",
+      "difficulty": 9
+    },
+    {
+      "category": "Physik",
+      "discipline": "Optik",
+      "question": "Welcher Effekt beschreibt das Phänomen, dass Lichtstrahlen beim Eintritt in ein dichteres Medium gebrochen werden und somit ihren Weg ändern?",
+      "choices": [
+        "A: Totalreflexion",
+        "B: Brechung",
+        "C: Reflexion",
+        "D: Dispersion"
       ],
       "correct_answer": "B",
-      "explanation": "Das zweite Newtonsche Gesetz beschreibt, dass die Beschleunigung eines Körpers proportional zur auf ihn wirkenden Kraft und umgekehrt proportional zu seiner Masse ist. Bei einer gleichmäßigen Kreisbewegung ist die Zentripetalkraft entscheidend, die eine konstante Richtung der Geschwindigkeit erfordert.",
+      "explanation": "Die Brechung ist der Effekt, der auftritt, wenn Licht von einem Medium in ein anderes übergeht und dabei seine Richtung ändert. Dies geschieht aufgrund der unterschiedlichen Lichtgeschwindigkeiten in verschiedenen Medien.",
       "difficulty": 5
     },
     {
       "category": "Physik",
       "discipline": "Festkörperphysik",
-      "question": "Was beschreibt das Konzept der Bandstruktur in Festkörpern?",
+      "question": "Welche der folgenden Aussagen beschreibt am besten den Zusammenhang zwischen der Temperatur und der Gitterstruktur in Festkörpern?",
       "choices": [
-        "A: Die Energielevels von Elektronen in einem Festkörper und deren Verteilung.",
-        "B: Die Bewegung von Atomen in einem Festkörper unter Wärmeeinfluss.",
-        "C: Die Wechselwirkungen zwischen Photonen und Elektronen in einem Gas.",
-        "D: Die Struktur von Molekülen in organischen Feststoffen."
+        "A: Mit steigender Temperatur nehmen die Schwingungen der Atome im Gitter zu, was zu einer Erhöhung der thermischen Energie führt.",
+        "B: Höhere Temperaturen führen dazu, dass die Atome im Gitter sich näher zusammenlagern und die Bindungsenergie erhöht wird.",
+        "C: Bei niedrigen Temperaturen verlieren die Atome im Gitter ihre Schwingungen vollständig, was zu einem festen Zustand führt.",
+        "D: Temperatur hat keinen Einfluss auf die Gitterstruktur von Festkörpern."
       ],
       "correct_answer": "A",
-      "explanation": "Die Bandstruktur gibt an, welche Energien Elektronen in einem Festkörper annehmen können. Sie spielt eine zentrale Rolle bei der Erklärung elektrischer und optischer Eigenschaften von Materialien.",
+      "explanation": "Die Temperatur beeinflusst die kinetische Energie der Atome in einem Festkörper. Mit steigender Temperatur schwingen die Atome stärker um ihre Gleichgewichtslage, was die thermische Energie des Materials erhöht.",
+      "difficulty": 1
+    },
+    {
+      "category": "Physik",
+      "discipline": "Analytische Mechanik",
+      "question": "Welches der folgenden Konzepte ist ein zentraler Bestandteil der Lagrangeschen Mechanik?",
+      "choices": [
+        "A: Das Prinzip der kleinsten Wirkung",
+        "B: Der Erhaltungsbetrag der kinetischen Energie",
+        "C: Das Newtonsche Gesetz der Gravitation",
+        "D: Die Maxwell-Gleichungen"
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Lagrangesche Mechanik basiert auf dem Prinzip der kleinsten Wirkung, das besagt, dass die Bewegung eines Systems den Pfad nimmt, für den die Wirkung minimiert wird. Dies unterscheidet sich von den klassischen Newtonschen Ansätzen, die sich auf Kräfte konzentrieren.",
+      "difficulty": 2
+    },
+    {
+      "category": "Physik",
+      "discipline": "Astrophysik",
+      "question": "Was beschreibt das Hubblesche Gesetz in der Astronomie?",
+      "choices": [
+        "A: Die Beziehung zwischen der Entfernung von Galaxien und ihrer Geschwindigkeit der Flucht.",
+        "B: Die Temperaturverteilung in einem Stern.",
+        "C: Die Struktur von atomaren Kernen.",
+        "D: Die Wechselwirkungen zwischen dunkler Materie und sichtbarer Materie."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Hubblesche Gesetz besagt, dass sich entfernte Galaxien mit einer Geschwindigkeit entfernen, die proportional zu ihrer Entfernung von der Erde ist. Dies ist ein zentraler Befund, der die Expansion des Universums beschreibt.",
       "difficulty": 6
     },
     {
       "category": "Physik",
       "discipline": "Quantenmechanik",
-      "question": "Was beschreibt das Heisenbergsche Unschärfeprinzip in der Quantenmechanik?",
+      "question": "Was beschreibt das Heisenbergsche Unschärfeprinzip?",
       "choices": [
-        "A: Die Unmöglichkeit, den genauen Ort und den Impuls eines Teilchens gleichzeitig zu bestimmen.",
-        "B: Die Unmöglichkeit, Energie und Zeit gleichzeitig zu messen.",
-        "C: Die Unvorhersehbarkeit der Wechselwirkungen zwischen Teilchen.",
-        "D: Die Begrenztheit der Lichtgeschwindigkeit in einem Vakuum."
+        "A: Die Unmöglichkeit, gleichzeitig den genauen Ort und den Impuls eines Teilchens zu bestimmen.",
+        "B: Die Fähigkeit, die Energie eines Teilchens mit absoluter Genauigkeit zu messen.",
+        "C: Die Vorhersage der genauen Lebensdauer instabiler Teilchen.",
+        "D: Die Unabhängigkeit der Quantenphänomene von der Beobachtung."
       ],
       "correct_answer": "A",
-      "explanation": "Das Heisenbergsche Unschärfeprinzip besagt, dass es fundamental unmöglich ist, sowohl den genauen Ort als auch den genauen Impuls eines Teilchens gleichzeitig zu kennen. Diese Einschränkung ist eine grundlegende Eigenschaft der Quantenmechanik.",
-      "difficulty": 7
-    },
-    {
-      "category": "Physik",
-      "discipline": "Astrophysik",
-      "question": "Was ist der Hauptgrund, warum Sterne in verschiedenen Farben leuchten?",
-      "choices": [
-        "A: Die Temperatur ihrer Oberfläche.",
-        "B: Ihre chemische Zusammensetzung.",
-        "C: Die Größe des Sterns.",
-        "D: Die Entfernung von der Erde."
-      ],
-      "correct_answer": "A",
-      "explanation": "Die Farbe eines Sterns hängt von seiner Oberflächentemperatur ab. Heiße Sterne erscheinen blau, während kühlere Sterne rötlich aussehen. Diese Farbänderung ist ein direktes Ergebnis der Strahlung, die sie abgeben.",
-      "difficulty": 6
+      "explanation": "Das Heisenbergsche Unschärfeprinzip besagt, dass es grundsätzlich unmöglich ist, den Ort und den Impuls eines Teilchens gleichzeitig exakt zu messen. Dies ist eine fundamentale Eigenschaft der Quantenmechanik und hat tiefgreifende Implikationen für unser Verständnis der Natur.",
+      "difficulty": 4
     },
     {
       "category": "Physik",
       "discipline": "Optik",
-      "question": "Welche der folgenden Aussagen beschreibt am besten das Phänomen der totalen Reflexion?",
+      "question": "Was beschreibt das Phänomen der Totalreflexion in der Optik?",
       "choices": [
-        "A: Licht wird an der Grenzfläche zwischen zwei Medien vollständig reflektiert, wenn der Einfallswinkel größer als der Grenzwinkel ist.",
-        "B: Licht wird in einem Medium verstärkt, wenn es auf eine andere Wellenlänge wechselt.",
-        "C: Licht breitet sich in einem Vakuum langsamer aus als in Wasser.",
-        "D: Licht wird in jedem Medium gleichmäßig gebrochen, unabhängig von der Wellenlänge."
+        "A: Es tritt auf, wenn Licht von einem dichteren in ein dünneres Medium übergeht und der Einfallswinkel den kritischen Winkel überschreitet.",
+        "B: Es tritt auf, wenn Licht in einem Medium vollständig absorbiert wird.",
+        "C: Es beschreibt die Ablenkung von Lichtstrahlen an einer Linse.",
+        "D: Es handelt sich um die Zerstreuung von Licht in einem Prisma."
       ],
       "correct_answer": "A",
-      "explanation": "Die totale Reflexion tritt auf, wenn Licht von einem dichteren Medium in ein dünneres Medium übergeht und der Einfallswinkel größer ist als der kritische Winkel. Dies führt dazu, dass das Licht vollständig an der Grenzfläche reflektiert wird.",
-      "difficulty": 1
-    },
-    {
-      "category": "Physik",
-      "discipline": "Festkörperphysik",
-      "question": "Welches der folgenden Phänomene tritt auf, wenn ein Material bei tiefen Temperaturen in den supraleitenden Zustand übergeht?",
-      "choices": [
-        "A: Der elektrische Widerstand des Materials fällt auf null.",
-        "B: Das Material wird magnetisch und stößt Magnetfelder ab.",
-        "C: Die Dichte des Materials verringert sich signifikant.",
-        "D: Das Material wird extrem spröde und zerbricht leicht."
-      ],
-      "correct_answer": "A",
-      "explanation": "Im supraleitenden Zustand hat ein Material keinen elektrischen Widerstand, was bedeutet, dass elektrischer Strom ungehindert fließen kann. Dies ist eine der Hauptmerkmale von Supraleitern und spielt eine wichtige Rolle in der Festkörperphysik.",
-      "difficulty": 9
-    },
-    {
-      "category": "Physik",
-      "discipline": "Analytische Mechanik",
-      "question": "Was beschreibt das Prinzip der virtuellen Arbeiten in der analytischen Mechanik?",
-      "choices": [
-        "A: Es handelt sich um die Gleichung von Bewegung für Systeme mit variablen Massen.",
-        "B: Es ist ein Ansatz zur Lösung von Gleichgewichtszuständen, der die Arbeit virtueller Kräfte betrachtet.",
-        "C: Es beschreibt die Beziehung zwischen Energie und Impuls in einem geschlossenen System.",
-        "D: Es ist ein Verfahren zur Berechnung der Bahnkurven von Teilchen in einem Gravitationsfeld."
-      ],
-      "correct_answer": "B",
-      "explanation": "Das Prinzip der virtuellen Arbeiten besagt, dass für ein System im Gleichgewicht die virtuelle Arbeit, die von den Kräften bei einer virtuellen Verschiebung verrichtet wird, gleich null ist. Dies ist ein zentraler Aspekt zur Analyse von mechanischen Systemen in der analytischen Mechanik.",
-      "difficulty": 8
-    },
-    {
-      "category": "Physik",
-      "discipline": "Elektrodynamik",
-      "question": "Welches der folgenden Phänomene beschreibt die Wechselwirkung zwischen bewegten elektrischen Ladungen und magnetischen Feldern?",
-      "choices": [
-        "A: Elektromagnetische Induktion",
-        "B: Coulombsches Gesetz",
-        "C: Ohmsches Gesetz",
-        "D: Newtons Gesetz der Gravitation"
-      ],
-      "correct_answer": "A",
-      "explanation": "Die elektromagnetische Induktion beschreibt, wie ein sich änderndes Magnetfeld eine elektrische Spannung erzeugt und umgekehrt. Diese Wechselwirkung ist grundlegend für die Funktionsweise von Generatoren und Transformatoren.",
-      "difficulty": 6
-    },
-    {
-      "category": "Physik",
-      "discipline": "Analytische Mechanik",
-      "question": "Ein Körper bewegt sich entlang einer geraden Linie mit konstanter Beschleunigung. Welche der folgenden Aussagen über die zurückgelegte Strecke in Abhängigkeit von der Zeit ist korrekt?",
-      "choices": [
-        "A: Die zurückgelegte Strecke ist proportional zur Zeit.",
-        "B: Die zurückgelegte Strecke ist proportional zur Zeit im Quadrat.",
-        "C: Die zurückgelegte Strecke bleibt konstant.",
-        "D: Die zurückgelegte Strecke ist umgekehrt proportional zur Zeit."
-      ],
-      "correct_answer": "B",
-      "explanation": "Bei konstanter Beschleunigung ist die zurückgelegte Strecke gleich der halben Beschleunigung multipliziert mit der Zeit im Quadrat (s = 1/2 a t^2). Daher ist die Strecke proportional zu t².",
-      "difficulty": 8
+      "explanation": "Die Totalreflexion tritt auf, wenn Licht von einem dichteren Medium, wie Wasser, in ein dünneres Medium, wie Luft, übergeht und der Einfallswinkel größer als der kritische Winkel ist. Dieses Phänomen ist entscheidend für die Funktionsweise von optischen Fasern.",
+      "difficulty": 4
     },
     {
       "category": "Physik",
       "discipline": "Relativitätstheorie",
-      "question": "Welches Konzept beschreibt, dass die Zeit für einen sich bewegenden Beobachter langsamer vergeht als für einen ruhenden Beobachter?",
+      "question": "Was beschreibt die spezielle Relativitätstheorie in Bezug auf die Lichtgeschwindigkeit?",
       "choices": [
-        "A: Zeitdilatation",
-        "B: Raumkontraktion",
-        "C: Äquivalenzprinzip",
-        "D: Lichtgeschwindigkeit"
+        "A: Die Lichtgeschwindigkeit ist im Vakuum für alle Beobachter gleich, unabhängig von deren Bewegung.",
+        "B: Die Lichtgeschwindigkeit kann von bewegten Objekten überschritten werden, wenn sie genügend Energie haben.",
+        "C: Lichtgeschwindigkeit variiert je nach Medium, durch das es sich bewegt.",
+        "D: Die Lichtgeschwindigkeit ist eine konstante Größe, die nur für ruhende Beobachter gilt."
       ],
       "correct_answer": "A",
-      "explanation": "Die Zeitdilatation ist ein zentrales Konzept der Relativitätstheorie, das besagt, dass die Zeit für einen bewegten Beobachter langsamer vergeht. Dies führt zu interessanten Effekten, insbesondere bei Geschwindigkeiten nahe der Lichtgeschwindigkeit.",
+      "explanation": "Die spezielle Relativitätstheorie, formuliert von Albert Einstein, besagt, dass die Lichtgeschwindigkeit im Vakuum für alle Beobachter konstant und unabhängig von ihrer Relativgeschwindigkeit ist. Dies ist eine der grundlegenden Annahmen, die die Theorie untermauert.",
+      "difficulty": 9
+    },
+    {
+      "category": "Physik",
+      "discipline": "Relativitätstheorie",
+      "question": "Was beschreibt das Konzept der Zeitdilatation in der Relativitätstheorie?",
+      "choices": [
+        "A: Die Zeit vergeht langsamer für Objekte, die sich relativ zueinander bewegen.",
+        "B: Zeit ist unabhängig von der Geschwindigkeit eines Objekts.",
+        "C: Zeit kann nicht beeinflusst werden, selbst bei relativistischen Geschwindigkeiten.",
+        "D: Die Zeit vergeht immer gleich, unabhängig von der Gravitation."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Zeitdilatation ist ein zentrales Konzept der Relativitätstheorie, das besagt, dass die Zeit für sich bewegende Objekte langsamer vergeht als für ruhende Beobachter. Dies wurde experimentell bestätigt und hat wichtige Auswirkungen auf die Verständnisse von Raum und Zeit.",
       "difficulty": 5
     }
   ]
