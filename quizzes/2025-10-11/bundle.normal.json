@@ -1,64 +1,64 @@
 {
   "date": "2025-10-11",
-  "generated_at": "2025-10-11T18:08:12Z",
+  "generated_at": "2025-10-11T18:22:47Z",
   "schema_version": 5,
   "mode": "normal",
   "questions": [
     {
-      "category": "Essen und Trinken",
-      "topic": "Kulinarische Geschichte",
-      "question": "In welchem Land entstand die Pizza, die heute weltweit bekannt ist?",
+      "category": "Sport",
+      "discipline": "Formel 1",
+      "question": "Welches Team hat die meisten Konstrukteursmeisterschaften in der Geschichte der Formel 1 gewonnen?",
       "choices": [
-        "A: Italien",
-        "B: Griechenland",
-        "C: Frankreich",
-        "D: Mexiko"
+        "A: Ferrari",
+        "B: Mercedes",
+        "C: Red Bull Racing",
+        "D: McLaren"
       ],
       "correct_answer": "A",
-      "explanation": "Die Pizza hat ihren Ursprung in Italien, insbesondere in Neapel, wo sie im 18. Jahrhundert populär wurde. Ursprünglich wurde sie als einfache Speise für Arbeiter entwickelt und hat sich seitdem zu einem internationalen Gericht entwickelt.",
+      "explanation": "Ferrari ist das erfolgreichste Team in der Geschichte der Formel 1 und hat die meisten Konstrukteursmeisterschaften gewonnen. Ihre Erfolge reichen bis in die Anfänge der Formel 1 zurück.",
       "difficulty": 4
     },
     {
       "category": "Geschichte",
       "subperiod": "Zeitgeschichte (ab 1945)",
-      "question": "Welches Ereignis wird oft als Beginn des Kalten Krieges angesehen?",
+      "question": "Welches Ereignis gilt als der Beginn des Kalten Krieges?",
       "choices": [
-        "A: Der Fall der Berliner Mauer",
-        "B: Die Gründung der NATO",
-        "C: Der Koreakrieg",
-        "D: Die Kubakrise"
+        "A: Die Gründung der NATO 1949",
+        "B: Der Marshall-Plan 1947",
+        "C: Die Berliner Blockade 1948-1949",
+        "D: Der Vietnamkrieg 1955"
       ],
-      "correct_answer": "B",
-      "explanation": "Die Gründung der NATO (North Atlantic Treaty Organization) im Jahr 1949 wird häufig als ein entscheidendes Ereignis angesehen, das den Kalten Krieg einleitete. Sie stellte ein militärisches Bündnis der westlichen Staaten gegen die wahrgenommene Bedrohung durch die Sowjetunion dar.",
-      "difficulty": 1
-    },
-    {
-      "category": "Sport",
-      "discipline": "Fußball",
-      "question": "Welches Land gewann die erste FIFA-Weltmeisterschaft im Jahr 1930?",
-      "choices": [
-        "A: Uruguay",
-        "B: Brasilien",
-        "C: Deutschland",
-        "D: Italien"
-      ],
-      "correct_answer": "A",
-      "explanation": "Die erste FIFA-Weltmeisterschaft fand 1930 in Uruguay statt, und das Gastgeberland gewann das Turnier. Uruguay besiegte Argentinien im Finale mit 4:2.",
-      "difficulty": 7
+      "correct_answer": "C",
+      "explanation": "Die Berliner Blockade, die von 1948 bis 1949 dauerte, war ein entscheidendes Ereignis, das die Spannungen zwischen den USA und der Sowjetunion verstärkte und als Beginn des Kalten Krieges angesehen wird. Während dieser Zeit versuchte die Sowjetunion, West-Berlin vom Westen abzuschneiden.",
+      "difficulty": 6
     },
     {
       "category": "Sprache",
-      "topic": "Redewendungen",
-      "question": "Was bedeutet die Redewendung 'Das Kind beim Schopfe packen'?",
+      "topic": "Fremdsprachen",
+      "question": "Welche dieser Sprachen ist eine romanische Sprache?",
       "choices": [
-        "A: Eine Gelegenheit ergreifen.",
-        "B: Jemanden in Schwierigkeiten bringen.",
-        "C: Etwas auf die lange Bank schieben.",
-        "D: Ein Geheimnis bewahren."
+        "A: Spanisch",
+        "B: Deutsch",
+        "C: Chinesisch",
+        "D: Englisch"
       ],
       "correct_answer": "A",
-      "explanation": "Die Redewendung 'Das Kind beim Schopfe packen' bedeutet, eine Chance oder Gelegenheit sofort zu nutzen. Der Ausdruck stammt aus der Vorstellung, dass man ein Kind, um es zu führen, am Schopf (Haar) greifen kann.",
-      "difficulty": 4
+      "explanation": "Romanische Sprachen sind eine Gruppe von Sprachen, die sich aus dem Lateinischen entwickelt haben. Spanisch gehört zu dieser Gruppe, während Deutsch, Chinesisch und Englisch anderen Sprachfamilien angehören.",
+      "difficulty": 6
+    },
+    {
+      "category": "Physik",
+      "discipline": "Astrophysik",
+      "question": "Welches der folgenden Phänomene erklärt die Rotverschiebung des Lichts von fernen Galaxien?",
+      "choices": [
+        "A: Der Dopplereffekt aufgrund der Expansion des Universums.",
+        "B: Die Gravitation von massereichen Objekten.",
+        "C: Die Absorption von Licht durch interstellare Materie.",
+        "D: Die Lichtbrechung in verschiedenen Medien."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Rotverschiebung des Lichts von fernen Galaxien wird durch den Dopplereffekt erklärt, der auf die Expansion des Universums zurückzuführen ist. Wenn sich Galaxien von uns wegbewegen, wird das Licht, das sie aussenden, in den roten Bereich des Spektrums verschoben.",
+      "difficulty": 2
     }
   ]
 }
