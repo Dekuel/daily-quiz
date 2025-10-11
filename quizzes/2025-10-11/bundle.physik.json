@@ -1,148 +1,148 @@
 {
   "date": "2025-10-11",
-  "generated_at": "2025-10-11T15:00:29Z",
+  "generated_at": "2025-10-11T16:13:20Z",
   "schema_version": 5,
   "mode": "physik",
   "questions": [
     {
       "category": "Physik",
-      "discipline": "Klassische Mechanik",
-      "question": "Was passiert mit der Geschwindigkeit eines Körpers, der sich in einem Vakuum bewegt, wenn er nicht durch äußere Kräfte beeinflusst wird?",
+      "discipline": "Relativitätstheorie",
+      "question": "Was beschreibt die spezielle Relativitätstheorie in Bezug auf die Zeit für Objekte, die sich relativ zueinander bewegen?",
       "choices": [
-        "A: Die Geschwindigkeit bleibt konstant.",
-        "B: Die Geschwindigkeit nimmt immer zu.",
-        "C: Die Geschwindigkeit wird immer langsamer.",
-        "D: Die Geschwindigkeit ändert sich zufällig."
+        "A: Zeit vergeht für bewegte Objekte langsamer im Vergleich zu einem ruhenden Beobachter.",
+        "B: Zeit vergeht für bewegte Objekte schneller im Vergleich zu einem ruhenden Beobachter.",
+        "C: Zeit ist unabhängig von der Bewegung und bleibt konstant.",
+        "D: Zeit kann nicht gemessen werden, wenn sich Objekte relativ zueinander bewegen."
       ],
       "correct_answer": "A",
-      "explanation": "Im Vakuum gibt es keine Luftwiderstandskräfte oder andere äußere Einflüsse. Nach dem ersten Newtonschen Gesetz bleibt die Geschwindigkeit eines Körpers konstant, solange keine unbalancierten Kräfte wirken.",
-      "difficulty": 8
+      "explanation": "Die spezielle Relativitätstheorie postuliert, dass die Zeit für Objekte, die sich mit relativistischen Geschwindigkeiten bewegen, im Vergleich zu einem ruhenden Beobachter langsamer vergeht. Dies ist als Zeitdilatation bekannt.",
+      "difficulty": 3
     },
     {
       "category": "Physik",
-      "discipline": "Astrophysik",
-      "question": "Was beschreibt das Konzept der 'Hawking-Strahlung' in der Astrophysik?",
+      "discipline": "Elektrodynamik",
+      "question": "Welches Phänomen beschreibt die Tatsache, dass ein bewegter elektrischer Ladungsträger ein Magnetfeld erzeugt?",
       "choices": [
-        "A: Die Emission von Strahlung durch Schwarze Löcher aufgrund quantenmechanischer Effekte.",
-        "B: Die Temperaturverteilung in einem interstellaren Gas.",
-        "C: Die Gravitationswellen, die von kollidierenden Neutronensternen erzeugt werden.",
-        "D: Die Wechselwirkung zwischen Dunkler Materie und normaler Materie."
+        "A: Elektromagnetische Induktion",
+        "B: Lorentzkraft",
+        "C: Faradaysches Gesetz",
+        "D: Ampèresches Gesetz"
       ],
       "correct_answer": "A",
-      "explanation": "Hawking-Strahlung ist ein theoretisches Konzept, das beschreibt, wie Schwarze Löcher durch quantenmechanische Prozesse Teilchen emittieren können, was zu ihrem langsamen Verdampfen führt.",
-      "difficulty": 9
+      "explanation": "Die elektromagnetische Induktion beschreibt, wie sich ein sich bewegender elektrischer Ladungsträger in einem Magnetfeld verhält und wie er selbst ein Magnetfeld erzeugt. Dies ist ein grundlegendes Prinzip der Elektrodynamik, das in vielen technischen Anwendungen eine Rolle spielt.",
+      "difficulty": 7
     },
     {
       "category": "Physik",
-      "discipline": "Optik",
-      "question": "Welcher Effekt beschreibt das Phänomen, dass Lichtstrahlen beim Eintritt in ein dichteres Medium gebrochen werden und somit ihren Weg ändern?",
+      "discipline": "Thermodynamik",
+      "question": "Welches der folgenden Gesetze der Thermodynamik beschreibt, dass die Entropie eines geschlossenen Systems niemals abnimmt?",
       "choices": [
-        "A: Totalreflexion",
-        "B: Brechung",
-        "C: Reflexion",
-        "D: Dispersion"
-      ],
-      "correct_answer": "B",
-      "explanation": "Die Brechung ist der Effekt, der auftritt, wenn Licht von einem Medium in ein anderes übergeht und dabei seine Richtung ändert. Dies geschieht aufgrund der unterschiedlichen Lichtgeschwindigkeiten in verschiedenen Medien.",
-      "difficulty": 5
-    },
-    {
-      "category": "Physik",
-      "discipline": "Festkörperphysik",
-      "question": "Welche der folgenden Aussagen beschreibt am besten den Zusammenhang zwischen der Temperatur und der Gitterstruktur in Festkörpern?",
-      "choices": [
-        "A: Mit steigender Temperatur nehmen die Schwingungen der Atome im Gitter zu, was zu einer Erhöhung der thermischen Energie führt.",
-        "B: Höhere Temperaturen führen dazu, dass die Atome im Gitter sich näher zusammenlagern und die Bindungsenergie erhöht wird.",
-        "C: Bei niedrigen Temperaturen verlieren die Atome im Gitter ihre Schwingungen vollständig, was zu einem festen Zustand führt.",
-        "D: Temperatur hat keinen Einfluss auf die Gitterstruktur von Festkörpern."
+        "A: Das zweite Gesetz der Thermodynamik",
+        "B: Das erste Gesetz der Thermodynamik",
+        "C: Das dritte Gesetz der Thermodynamik",
+        "D: Das Nullte Gesetz der Thermodynamik"
       ],
       "correct_answer": "A",
-      "explanation": "Die Temperatur beeinflusst die kinetische Energie der Atome in einem Festkörper. Mit steigender Temperatur schwingen die Atome stärker um ihre Gleichgewichtslage, was die thermische Energie des Materials erhöht.",
+      "explanation": "Das zweite Gesetz der Thermodynamik besagt, dass die Entropie in einem geschlossenen System im Laufe der Zeit zunimmt oder im besten Fall konstant bleibt. Dies bedeutet, dass natürliche Prozesse eine Tendenz zur Zunahme der Unordnung haben.",
       "difficulty": 1
     },
     {
       "category": "Physik",
-      "discipline": "Analytische Mechanik",
-      "question": "Welches der folgenden Konzepte ist ein zentraler Bestandteil der Lagrangeschen Mechanik?",
+      "discipline": "Festkörperphysik",
+      "question": "Was beschreibt das Phänomen der Supraleitung in Festkörpern?",
       "choices": [
-        "A: Das Prinzip der kleinsten Wirkung",
-        "B: Der Erhaltungsbetrag der kinetischen Energie",
-        "C: Das Newtonsche Gesetz der Gravitation",
-        "D: Die Maxwell-Gleichungen"
+        "A: Die Fähigkeit eines Materials, elektrischen Strom ohne Widerstand zu leiten.",
+        "B: Die Veränderung des Aggregatzustands eines Festkörpers bei hohen Temperaturen.",
+        "C: Die Fähigkeit eines Materials, Magnetfelder zu absorbieren.",
+        "D: Die Erhöhung der elektrischen Leitfähigkeit bei hohen Temperaturen."
       ],
       "correct_answer": "A",
-      "explanation": "Die Lagrangesche Mechanik basiert auf dem Prinzip der kleinsten Wirkung, das besagt, dass die Bewegung eines Systems den Pfad nimmt, für den die Wirkung minimiert wird. Dies unterscheidet sich von den klassischen Newtonschen Ansätzen, die sich auf Kräfte konzentrieren.",
-      "difficulty": 2
-    },
-    {
-      "category": "Physik",
-      "discipline": "Astrophysik",
-      "question": "Was beschreibt das Hubblesche Gesetz in der Astronomie?",
-      "choices": [
-        "A: Die Beziehung zwischen der Entfernung von Galaxien und ihrer Geschwindigkeit der Flucht.",
-        "B: Die Temperaturverteilung in einem Stern.",
-        "C: Die Struktur von atomaren Kernen.",
-        "D: Die Wechselwirkungen zwischen dunkler Materie und sichtbarer Materie."
-      ],
-      "correct_answer": "A",
-      "explanation": "Das Hubblesche Gesetz besagt, dass sich entfernte Galaxien mit einer Geschwindigkeit entfernen, die proportional zu ihrer Entfernung von der Erde ist. Dies ist ein zentraler Befund, der die Expansion des Universums beschreibt.",
-      "difficulty": 6
+      "explanation": "Supraleitung ist ein Zustand, in dem bestimmte Materialien bei tiefen Temperaturen elektrischen Strom ohne Widerstand leiten können. Dieses Phänomen tritt auf, wenn die thermischen Schwingungen der Atome im Material stark genug reduziert werden.",
+      "difficulty": 3
     },
     {
       "category": "Physik",
       "discipline": "Quantenmechanik",
-      "question": "Was beschreibt das Heisenbergsche Unschärfeprinzip?",
+      "question": "Was beschreibt das Heisenbergsche Unschärfeprinzip in der Quantenmechanik?",
       "choices": [
-        "A: Die Unmöglichkeit, gleichzeitig den genauen Ort und den Impuls eines Teilchens zu bestimmen.",
-        "B: Die Fähigkeit, die Energie eines Teilchens mit absoluter Genauigkeit zu messen.",
-        "C: Die Vorhersage der genauen Lebensdauer instabiler Teilchen.",
-        "D: Die Unabhängigkeit der Quantenphänomene von der Beobachtung."
+        "A: Es ist unmöglich, den genauen Ort und den genauen Impuls eines Teilchens gleichzeitig zu bestimmen.",
+        "B: Es erlaubt die genaue Vorhersage der Lebensdauer instabiler Teilchen.",
+        "C: Es besagt, dass Teilchen immer in einem festen Zustand existieren.",
+        "D: Es bestätigt, dass Teilchen immer als Teilchen oder Wellen auftreten, niemals beides."
       ],
       "correct_answer": "A",
-      "explanation": "Das Heisenbergsche Unschärfeprinzip besagt, dass es grundsätzlich unmöglich ist, den Ort und den Impuls eines Teilchens gleichzeitig exakt zu messen. Dies ist eine fundamentale Eigenschaft der Quantenmechanik und hat tiefgreifende Implikationen für unser Verständnis der Natur.",
+      "explanation": "Das Heisenbergsche Unschärfeprinzip besagt, dass es fundamentale Grenzen für die gleichzeitige Bestimmung bestimmter Paare von physikalischen Größen gibt, wie Ort und Impuls. Dies ist ein zentrales Konzept der Quantenmechanik und zeigt die grundlegende Unschärfe in der Natur auf.",
       "difficulty": 4
     },
     {
       "category": "Physik",
-      "discipline": "Optik",
-      "question": "Was beschreibt das Phänomen der Totalreflexion in der Optik?",
+      "discipline": "Elektrodynamik",
+      "question": "Welche der folgenden Aussagen beschreibt am besten das Verhalten eines elektrischen Feldes in einem Leiter im Gleichgewichtszustand?",
       "choices": [
-        "A: Es tritt auf, wenn Licht von einem dichteren in ein dünneres Medium übergeht und der Einfallswinkel den kritischen Winkel überschreitet.",
-        "B: Es tritt auf, wenn Licht in einem Medium vollständig absorbiert wird.",
-        "C: Es beschreibt die Ablenkung von Lichtstrahlen an einer Linse.",
-        "D: Es handelt sich um die Zerstreuung von Licht in einem Prisma."
+        "A: Das elektrische Feld im Inneren des Leiters ist gleich null.",
+        "B: Das elektrische Feld im Inneren des Leiters ist konstant und hat eine positive Richtung.",
+        "C: Das elektrische Feld im Inneren des Leiters ist proportional zur Spannung an den Enden des Leiters.",
+        "D: Das elektrische Feld im Inneren des Leiters ist gleich dem elektrischen Feld in der Umgebung des Leiters."
       ],
       "correct_answer": "A",
-      "explanation": "Die Totalreflexion tritt auf, wenn Licht von einem dichteren Medium, wie Wasser, in ein dünneres Medium, wie Luft, übergeht und der Einfallswinkel größer als der kritische Winkel ist. Dieses Phänomen ist entscheidend für die Funktionsweise von optischen Fasern.",
+      "explanation": "Im Gleichgewichtszustand gibt es im Inneren eines Leiters kein elektrisches Feld, da sich die freien Ladungsträger so anordnen, dass sie das Feld kompensieren. Daher ist die Aussage A korrekt.",
       "difficulty": 4
     },
     {
       "category": "Physik",
-      "discipline": "Relativitätstheorie",
-      "question": "Was beschreibt die spezielle Relativitätstheorie in Bezug auf die Lichtgeschwindigkeit?",
+      "discipline": "Festkörperphysik",
+      "question": "Was beschreibt die Bandstruktur in Festkörpern?",
       "choices": [
-        "A: Die Lichtgeschwindigkeit ist im Vakuum für alle Beobachter gleich, unabhängig von deren Bewegung.",
-        "B: Die Lichtgeschwindigkeit kann von bewegten Objekten überschritten werden, wenn sie genügend Energie haben.",
-        "C: Lichtgeschwindigkeit variiert je nach Medium, durch das es sich bewegt.",
-        "D: Die Lichtgeschwindigkeit ist eine konstante Größe, die nur für ruhende Beobachter gilt."
+        "A: Die erlaubten und verbotenen Energien von Elektronen in einem Festkörper.",
+        "B: Die Temperaturabhängigkeit des elektrischen Widerstands in Metallen.",
+        "C: Die Wechselwirkungen zwischen Atomen in einem Molekül.",
+        "D: Die Mechanismen der Wärmeleitung in Flüssigkeiten."
       ],
       "correct_answer": "A",
-      "explanation": "Die spezielle Relativitätstheorie, formuliert von Albert Einstein, besagt, dass die Lichtgeschwindigkeit im Vakuum für alle Beobachter konstant und unabhängig von ihrer Relativgeschwindigkeit ist. Dies ist eine der grundlegenden Annahmen, die die Theorie untermauert.",
-      "difficulty": 9
+      "explanation": "Die Bandstruktur ist ein fundamentales Konzept in der Festkörperphysik, das angibt, welche Energien Elektronen in einem Material annehmen können und welche Energien verboten sind. Sie erklärt viele Eigenschaften von Materialien, wie Leitfähigkeit und Halbleiterverhalten.",
+      "difficulty": 4
     },
     {
       "category": "Physik",
-      "discipline": "Relativitätstheorie",
-      "question": "Was beschreibt das Konzept der Zeitdilatation in der Relativitätstheorie?",
+      "discipline": "Astrophysik",
+      "question": "Was ist die Hauptursache für die Entstehung der kosmischen Hintergrundstrahlung?",
       "choices": [
-        "A: Die Zeit vergeht langsamer für Objekte, die sich relativ zueinander bewegen.",
-        "B: Zeit ist unabhängig von der Geschwindigkeit eines Objekts.",
-        "C: Zeit kann nicht beeinflusst werden, selbst bei relativistischen Geschwindigkeiten.",
-        "D: Die Zeit vergeht immer gleich, unabhängig von der Gravitation."
+        "A: Der Urknall",
+        "B: Die Gravitation von Schwarzen Löchern",
+        "C: Die Fusion von Wasserstoff in Sternen",
+        "D: Die Wechselwirkung von dunkler Materie mit normaler Materie"
       ],
       "correct_answer": "A",
-      "explanation": "Die Zeitdilatation ist ein zentrales Konzept der Relativitätstheorie, das besagt, dass die Zeit für sich bewegende Objekte langsamer vergeht als für ruhende Beobachter. Dies wurde experimentell bestätigt und hat wichtige Auswirkungen auf die Verständnisse von Raum und Zeit.",
+      "explanation": "Die kosmische Hintergrundstrahlung ist ein Überbleibsel aus der Zeit des Urknalls, als das Universum sich schnell ausdehnte und abkühlte. Diese Strahlung ist ein entscheidender Beweis für die Urknalltheorie und zeigt die gleichmäßige Verteilung von Energie im frühen Universum.",
       "difficulty": 5
+    },
+    {
+      "category": "Physik",
+      "discipline": "Kern- und Teilchenphysik",
+      "question": "Was beschreibt die starke Wechselwirkung in der Kernphysik?",
+      "choices": [
+        "A: Sie hält die Protonen und Neutronen im Atomkern zusammen.",
+        "B: Sie ist verantwortlich für die chemischen Bindungen zwischen Atomen.",
+        "C: Sie beschreibt die Wechselwirkung von Licht mit Materie.",
+        "D: Sie beeinflusst die Bewegung von Elektronen in Atomen."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die starke Wechselwirkung ist die fundamentale Kraft, die die Quarks innerhalb von Protonen und Neutronen sowie die Neutronen und Protonen im Atomkern zusammenhält. Sie ist entscheidend für die Stabilität der Atomkerne.",
+      "difficulty": 3
+    },
+    {
+      "category": "Physik",
+      "discipline": "Festkörperphysik",
+      "question": "Welches der folgenden Phänomene beschreibt die Fähigkeit eines Festkörpers, seine Form zu ändern, wenn er einer externen Kraft ausgesetzt wird, und nach Entfernen der Kraft in seine ursprüngliche Form zurückzukehren?",
+      "choices": [
+        "A: Elastizität",
+        "B: Plastizität",
+        "C: Duktilität",
+        "D: Sprödigkeit"
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Elastizität beschreibt das Verhalten von Materialien, die nach der Deformation durch externe Kräfte in ihre ursprüngliche Form zurückkehren können. Plastizität hingegen bezieht sich auf die dauerhafte Verformung eines Materials.",
+      "difficulty": 6
     }
   ]
 }

@@ -1,64 +1,64 @@
 {
   "date": "2025-10-11",
-  "generated_at": "2025-10-11T14:59:01Z",
+  "generated_at": "2025-10-11T16:11:47Z",
   "schema_version": 5,
   "mode": "normal",
   "questions": [
     {
       "category": "Kunst und Literatur",
       "subtopic": "Literatur",
-      "question": "Welcher Autor ist bekannt für das Werk 'Der Prozess'?",
+      "question": "Welcher Autor ist bekannt für seine Werke wie 'Der Prozess' und 'Das Schloss'?",
       "choices": [
         "A: Franz Kafka",
         "B: Thomas Mann",
         "C: Hermann Hesse",
-        "D: Stefan Zweig"
+        "D: Rainer Maria Rilke"
       ],
       "correct_answer": "A",
-      "explanation": "Franz Kafka veröffentlichte 'Der Prozess' posthum im Jahr 1925. Das Werk gilt als eines seiner bedeutendsten und thematisiert die Absurditäten und Ängste der modernen Existenz.",
-      "difficulty": 4
+      "explanation": "Franz Kafka war ein bedeutender Schriftsteller des 20. Jahrhunderts, dessen Werke oft die Absurditäten und Herausforderungen des Lebens thematisieren. 'Der Prozess' und 'Das Schloss' sind zwei seiner bekanntesten und einflussreichsten Romane.",
+      "difficulty": 7
+    },
+    {
+      "category": "Wissenschaft",
+      "topic": "Biologie",
+      "question": "Was beschreibt der Begriff 'Nahrungsnetz' in einem Ökosystem?",
+      "choices": [
+        "A: Die verschiedenen Arten von Pflanzen in einem Gebiet.",
+        "B: Die komplexen Wechselbeziehungen zwischen verschiedenen Organismen, die sich gegenseitig ernähren.",
+        "C: Die Menge an Nährstoffen im Boden.",
+        "D: Die Anzahl der Tiere in einem bestimmten Lebensraum."
+      ],
+      "correct_answer": "B",
+      "explanation": "Ein Nahrungsnetz zeigt, wie verschiedene Tiere und Pflanzen in einem Ökosystem miteinander verbunden sind, indem sie sich gegenseitig fressen oder von anderen Organismen abhängig sind. Es verdeutlicht die komplexen Beziehungen und den Energiefluss in einem Lebensraum.",
+      "difficulty": 2
     },
     {
       "category": "Sport",
-      "discipline": "Fußball",
-      "question": "Was ist die maximale Anzahl an Spielern, die ein Fußballteam auf dem Platz haben darf?",
+      "discipline": "Formel 1",
+      "question": "Welcher Fahrer hat die meisten Weltmeistertitel in der Geschichte der Formel 1 gewonnen?",
       "choices": [
-        "A: 11",
-        "B: 7",
-        "C: 15",
-        "D: 9"
+        "A: Michael Schumacher",
+        "B: Lewis Hamilton",
+        "C: Ayrton Senna",
+        "D: Sebastian Vettel"
       ],
-      "correct_answer": "A",
-      "explanation": "Ein Fußballteam besteht aus maximal 11 Spielern auf dem Spielfeld. Dazu gehören 10 Feldspieler und 1 Torwart. Diese Regel ist international anerkannt und gilt für die meisten Wettbewerbe.",
-      "difficulty": 4
-    },
-    {
-      "category": "Physik",
-      "discipline": "Astrophysik",
-      "question": "Was beschreibt das Konzept der 'Horizonlänge' im Zusammenhang mit dem Universum?",
-      "choices": [
-        "A: Die maximale Entfernung, von der Licht seit dem Urknall die Erde erreichen konnte.",
-        "B: Die Grenze, bis zu der wir neue Sterne in unserer Galaxie beobachten können.",
-        "C: Die Größe des sichtbaren Universums zu einem bestimmten Zeitpunkt.",
-        "D: Die Entfernung zwischen Erde und dem nächsten Galaxienhaufen."
-      ],
-      "correct_answer": "A",
-      "explanation": "Die Horizontlänge bezieht sich auf die maximale Distanz, die Licht seit dem Urknall zurücklegen konnte und somit die Grenze darstellt, bis zu der wir Informationen über das Universum erhalten können.",
-      "difficulty": 6
+      "correct_answer": "B",
+      "explanation": "Lewis Hamilton hat bis Oktober 2023 insgesamt 7 Weltmeistertitel gewonnen, was ihn zusammen mit Michael Schumacher zum Rekordhalter macht. Allerdings hat er mehr Rennen gewonnen als Schumacher und gilt daher als einer der besten Fahrer aller Zeiten.",
+      "difficulty": 8
     },
     {
       "category": "Essen und Trinken",
-      "topic": "Ernährung",
-      "question": "Welche Vitaminquelle ist besonders wichtig für die Gesundheit der Augen?",
+      "topic": "Küche international",
+      "question": "In welchem Land hat das traditionelle Gericht 'Paella' seinen Ursprung?",
       "choices": [
-        "A: Karotten",
-        "B: Brot",
-        "C: Reis",
-        "D: Hülsenfrüchte"
+        "A: Spanien",
+        "B: Italien",
+        "C: Griechenland",
+        "D: Mexiko"
       ],
       "correct_answer": "A",
-      "explanation": "Karotten sind reich an Beta-Carotin, das im Körper in Vitamin A umgewandelt wird. Vitamin A ist entscheidend für die Sehkraft und kann helfen, Augenerkrankungen vorzubeugen.",
-      "difficulty": 6
+      "explanation": "Die Paella ist ein bekanntes Reisgericht, das ursprünglich aus Valencia, Spanien, stammt. Sie wird typischerweise mit verschiedenen Zutaten wie Meeresfrüchten, Hühnchen oder Gemüse zubereitet.",
+      "difficulty": 5
     }
   ]
 }
