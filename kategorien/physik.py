@@ -7,17 +7,16 @@ CATEGORY_NAME = "Physik"
 
 # Neue Themen mit Gewichten (Zahl × 4 = Prozentchance)
 _PHYSIK = {
-    "Klassische Mechanik": 8,
-    "Thermodynamik": 8,
-    "Quantenmechanik": 8,
-    "Analytische Mechanik": 8,
-    "Relativitätstheorie": 8,
-    "Elektrodynamik": 8,
-    "Optik": 8,
-    "Kern- und Teilchenphysik": 8,
-    "Astrophysik": 8,
-    "Festkörperphysik": 8,
-    "berühmte Physiker": 20,
+    "Klassische Mechanik": 10,
+    "Thermodynamik": 10,
+    "Quantenmechanik": 10,
+    "Analytische Mechanik": 10,
+    "Relativitätstheorie": 10,
+    "Elektrodynamik": 10,
+    "Optik": 10,
+    "Kern- und Teilchenphysik": 10,
+    "Astrophysik": 10,
+    "Festkörperphysik": 10,
 }
 
 _SCHEMA = """{
@@ -25,7 +24,7 @@ _SCHEMA = """{
   "discipline": "Klassische Mechanik|Thermodynamik|Quantenmechanik|Analytische Mechanik|Relativitätstheorie|Elektrodynamik|Optik|Kern- und Teilchenphysik|Astrophysik|Festkörperphysik|berühmte Physiker",
   "question": "...",
   "choices": ["A: ...","B: ...","C: ...","D: ..."],
-  "correct_answer": "A",
+  "correct_answer": "A|B|C|D",
   "explanation": "2–3 Sätze, kurz und hilfreich."
 }"""
 

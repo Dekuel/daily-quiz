@@ -27,7 +27,6 @@ _SUBTOPICS = {
         ("Kern- und Teilchenphysik", 2),
         ("Astrophysik", 2),
         ("Festkörperphysik", 2),
-        ("berühmte Physiker", 5),
     ],
     "Biologie": [
         ("Genetik", 3),
@@ -37,7 +36,6 @@ _SUBTOPICS = {
         ("Neurobiologie", 1),
         ("Physiologie", 1),
         ("Mikrobiologie", 1),
-        ("berühmte Biologen", 4),
     ],
     "Chemie": [
         ("Physikalische Chemie", 2),
@@ -45,7 +43,6 @@ _SUBTOPICS = {
         ("Anorganische Chemie", 2),
         ("Analytische Chemie", 2),
         ("Biochemie", 1),
-        ("berühmte Chemiker", 3),
     ],
     "Astronomie": [
         ("Planetenkunde", 2),
@@ -69,7 +66,7 @@ _SCHEMA = """{
   "topic": "Physik|Biologie|Chemie|Astronomie|Medizin",
   "question": "...",
   "choices": ["A: ...","B: ...","C: ...","D: ..."],
-  "correct_answer": "A",
+  "correct_answer": "A|B|C|D",
   "explanation": "2–3 Sätze, kurz und hilfreich."
 }"""
 

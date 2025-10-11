@@ -12,7 +12,7 @@ _SCHEMA = """{
   "subtopic": "Kunstgeschichte|Literatur|Musik",
   "question": "...",
   "choices": ["A: ...","B: ...","C: ...","D: ..."],
-  "correct_answer": "A",
+  "correct_answer": "A|B|C|D",
   "explanation": "2–3 Sätze, kurz und hilfreich."
 }"""
 

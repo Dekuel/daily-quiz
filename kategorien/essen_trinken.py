@@ -12,7 +12,7 @@ _SCHEMA = """{
   "topic": "Küche international|Ernährung|Getränke|Kulinarische Geschichte",
   "question": "...",
   "choices": ["A: ...","B: ...","C: ...","D: ..."],
-  "correct_answer": "A",
+  "correct_answer": "A|B|C|D",
   "explanation": "2–3 Sätze, kurz und hilfreich."
 }"""
 
