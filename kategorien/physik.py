@@ -34,6 +34,7 @@ def _prompt(disc: str) -> str:
 Erzeuge EINE Multiple-Choice-Frage (A–D, eine richtig) zur Kategorie „Physik“, Disziplin „{disc}“.
 - Frage soll allgemeines Wissen oder grundlegendes physikalisches Verständnis testen (nicht zu mathematisch).
 - Für Laien und Studierende verständlich.
+- Die Fragen sollten tendenziell schwerer sein. Eine 9 zum Beispiel sollte auch für einen Physikstudenten oder Physiker eine Herausfordung sein
 - Gib ausschließlich valides JSON gemäß Schema zurück.
 
 JSON-SCHEMA:
