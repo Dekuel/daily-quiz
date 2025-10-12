@@ -1,70 +1,72 @@
-# kategorien/wissenschaft.py
+# kategorien/natur.py
 # -*- coding: utf-8 -*-
 import os, re, json, random, time
 from typing import Optional, List, Tuple
 from openai import OpenAI
 
-CATEGORY_NAME = "Wissenschaft"
+CATEGORY_NAME = "Natur"
 
 # Top-Level-Themen mit Gewichten
 _TOPICS = {
-    "Physik": 25,
-    "Biologie": 25,
-    "Chemie": 20,
-    "Astronomie": 15,
-    "Medizin": 15,
+    "Pflanzenwelt": 25,
+    "Tierwelt": 25,
+    "Lebensräume & Ökosysteme": 20,
+    "Wetter & Klima": 15,
+    "Geologie & Erde": 15,
 }
 
 # Subtopics pro Top-Level-Topic (name, gewicht)
 _SUBTOPICS: dict[str, List[Tuple[str, int]]] = {
-    "Physik": [
-        ("Klassische Mechanik", 2),
-        ("Thermodynamik", 2),
-        ("Quantenmechanik", 2),
-        ("Analytische Mechanik", 2),
-        ("Relativitätstheorie", 2),
-        ("Elektrodynamik", 2),
-        ("Optik", 2),
-        ("Kern- und Teilchenphysik", 2),
-        ("Astrophysik", 2),
-        ("Festkörperphysik", 2),
+    "Pflanzenwelt": [
+        ("Bäume & Sträucher", 2),
+        ("Blumen & Blüten", 2),
+        ("Heilpflanzen & Kräuter", 2),
+        ("Nutzpflanzen", 2),
+        ("Pilze & Flechten", 2),
+        ("Pflanzenanatomie", 1),
+        ("Bestäubung & Samen", 1),
     ],
-    "Biologie": [
-        ("Genetik", 3),
-        ("Evolution", 2),
-        ("Ökologie", 2),
-        ("Zellbiologie", 2),
-        ("Neurobiologie", 1),
-        ("Physiologie", 1),
-        ("Mikrobiologie", 1),
+    "Tierwelt": [
+        ("Säugetiere", 2),
+        ("Vögel", 2),
+        ("Insekten", 2),
+        ("Reptilien & Amphibien", 2),
+        ("Fische & Meeresbewohner", 2),
+        ("Tierverhalten", 1),
+        ("Tierrekorde", 1),
     ],
-    "Chemie": [
-        ("Physikalische Chemie", 2),
-        ("Organische Chemie", 3),
-        ("Anorganische Chemie", 2),
-        ("Analytische Chemie", 2),
-        ("Biochemie", 1),
+    "Lebensräume & Ökosysteme": [
+        ("Wald", 2),
+        ("Wüste", 2),
+        ("Gebirge", 2),
+        ("Polarregionen", 2),
+        ("Süßwasser-Ökosysteme", 2),
+        ("Meere & Küsten", 2),
+        ("Stadtökologie", 1),
+        ("Artenvielfalt & Schutzgebiete", 1),
     ],
-    "Astronomie": [
-        ("Planetenkunde", 2),
-        ("Sternentwicklung", 2),
-        ("Kosmologie", 2),
-        ("Exoplaneten", 2),
-        ("Galaxien", 1),
+    "Wetter & Klima": [
+        ("Wetterphänomene", 2),
+        ("Klimazonen", 2),
+        ("Klimawandel", 2),
+        ("Jahreszeiten", 2),
+        ("Extremwetter", 2),
+        ("Wolken & Niederschlag", 1),
     ],
-    "Medizin": [
-        ("Kardiologie", 2),
-        ("Neurologie", 2),
-        ("Infektiologie", 2),
-        ("Onkologie", 2),
-        ("Endokrinologie", 1),
-        ("Pulmologie", 1),
+    "Geologie & Erde": [
+        ("Gesteine & Mineralien", 2),
+        ("Vulkane & Erdbeben", 2),
+        ("Bodenkunde", 2),
+        ("Erdgeschichte & Fossilien", 2),
+        ("Plattentektonik", 2),
+        ("Geomorphologie", 1),
+        ("Rohstoffe & Kreisläufe", 1),
     ],
 }
 
 _SCHEMA = """{
-  "category": "Wissenschaft",
-  "topic": "Physik|Biologie|Chemie|Astronomie|Medizin",
+  "category": "Natur",
+  "topic": "Pflanzenwelt|Tierwelt|Lebensräume & Ökosysteme|Wetter & Klima|Geologie & Erde",
   "question": "...",
   "choices": ["A: ...","B: ...","C: ...","D: ..."],
   "correct_answer": "A|B|C|D",
@@ -75,8 +77,8 @@ _SCHEMA = """{
 # Schwierigkeitsbänder (feiner als nur leicht/mittel/schwer)
 _DIFF_BANDS = [
     ((1, 2), "SEHR LEICHT (1–2): sehr bekanntes Grundlagenwissen, klare Distraktoren; keine Fachsprache nötig.", 0.75),
-    ((3, 4), "LEICHT (3–4): grundlegende Begriffe/Konzepte mit kurzem Kontext; einfache Beispiele.", 0.75),
-    ((5, 6), "MITTEL (5–6): Verknüpfung mehrerer Konzepte; knappe, präzise Begriffsabgrenzungen.", 0.75),
+    ((3, 4), "LEICHT (3–4): grundlegende Begriffe/Konzepte mit kurzem Kontext; relativ einfache Beispiele.", 0.75),
+    ((5, 6), "MITTEL (5–6): ", 0.75),
     ((7, 8), "ANSPRUCHSVOLL (7–8): seltenere Konzepte/Subdisziplinen; eng verwandte, plausible Distraktoren.", 0.75),
     ((9,10), "SCHWER (9–10): präzise Details/Edge Cases, exakte Terminologie;", 0.82),
 ]
@@ -93,7 +95,7 @@ def _prompt(topic: str, target_difficulty: int, mode: Optional[str], subtopic: O
     sub_hint = f"- Subthema (nur als inhaltlicher Hinweis, NICHT ins JSON übernehmen): „{subtopic}“.\n" if subtopic else ""
 
     prompt = f"""
-Erzeuge EINE Multiple-Choice-Frage (A–D, genau eine richtig) zur Kategorie „Wissenschaft“, Thema „{topic}“ (Deutsch).
+Erzeuge EINE Multiple-Choice-Frage (A–D, genau eine richtig) zur Kategorie „Natur“, Thema „{topic}“ (Deutsch).
 {sub_hint}Ziel-Schwierigkeit: {target_difficulty}/10 – {band_note}
 
 Vorgaben:

@@ -37,7 +37,7 @@ _DIFF_BANDS = [
     ( (3, 4), "LEICHT (3–4): Grundbegriffe/Definitionen, einfache qualitative Zusammenhänge.", 0.75 ),
     ( (5, 6), "MITTEL (5–6): Kombination mehrerer Konzepte, einfache quantitative Aussagen ohne Rechnen.", 0.75 ),
     ( (7, 8), "ANSRUCHSVOLL (7–8): präzisere Konzepte/Fallunterscheidungen, engere Distraktoren.", 0.75 ),
-    ( (9,10), "SCHWER (9–10): tiefe Konzepte/Edge Cases, genaue Begriffsabgrenzungen, keine Herleitungen nötig.", 0.78 ),
+    ( (9,10), "SCHWER (9–10): tiefe Konzepte/Edge Cases, genaue Begriffsabgrenzungen", 0.78 ),
 ]
 
 def _band_for_difficulty(target: int) -> tuple[str, float]:
