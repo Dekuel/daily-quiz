@@ -34,7 +34,7 @@ PAST_DAYS_TO_CHECK = 7
 POLITICS_TARGET = 2
 
 # Wie viele Nicht-Politik-Fragen pro Modus (normal/schwer)?
-OTHER_QUESTIONS_PER_GENERAL_MODE = 4  # vorher: 3
+OTHER_QUESTIONS_PER_GENERAL_MODE = 7  # vorher: 3
 
 # Kategorie-Name des Politik-Plugins
 POLITICS_CATEGORY_NAME = "Politik"

@@ -25,15 +25,22 @@ _DIFF_GUIDE = """
 """
 
 def _prompt(sub: str, target_difficulty: int, mode: Optional[str]) -> tuple[str, float]:
-    if target_difficulty <= 3:
-        tier_note = "LEICHT (1–3): ikonische Namen/Werke, klar unterscheidbare Distraktoren."
+    if target_difficulty <= 2:
+        tier_note = "LEICHT (1–2): bekannte Fakten,teils logisch erschließbare Antwort."
         temperature = 0.8
-    elif target_difficulty <= 7:
-        tier_note = "MITTEL (4–7): kontextuelles Wissen, moderat nahe Distraktoren."
+    elif target_difficulty <= 4:
+        tier_note = "MITTEL (3-4): etwas weniger bekannte Fakten, moderate Komplexität."
+        temperature = 0.8
+    elif target_difficulty<= 6:
+        tier_note = "Etwas schwerer (5-6): spezifische Details, oder etwas tiefere Konzepte eng verwandte Distraktoren."
+        temperature = 0.8
+    elif target_difficulty<= 8:
+        tier_note = "Schwer (7-8): spezifische Details oder tiefe Konzepte, eng verwandte Distraktoren."
         temperature = 0.8
     else:
-        tier_note = "SCHWER (8–10): präzise Details, eng verwandte Distraktoren, keine Mehrdeutigkeiten."
-        temperature = 0.9
+        tier_note = "sehr Schwer (9-10): spezifische Details oder tiefe Konzepte, expertenwissen, eng verwandte Distraktoren."
+        temperature = 0.8
+
 
     prompt = f"""
 Erzeuge EINE Multiple-Choice-Frage (A–D, genau eine richtig) zur Kategorie „Kunst und Literatur“, Unterthema „{sub}“.

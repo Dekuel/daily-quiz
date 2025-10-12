@@ -30,15 +30,22 @@ DIFF_GUIDE = """
 
 def _prompt(topic: str, target_difficulty: int, mode: Optional[str]) -> str:
     # kurze Umschreibung je Tier
-    if target_difficulty <= 3:
-        tier_note = "LEICHT (1–3): sehr bekanntes Allgemeinwissen, klare Distraktoren."
+    if target_difficulty <= 2:
+        tier_note = "LEICHT (1–2): bekannte Fakten,teils logisch erschließbare Antwort."
         temperature = 0.8
-    elif target_difficulty <= 7:
-        tier_note = "MITTEL (4–7): weniger offensichtliche Fakten, aber ohne Nischen-Nerdwissen."
+    elif target_difficulty <= 4:
+        tier_note = "MITTEL (3-4): etwas weniger bekannte Fakten, moderate Komplexität."
+        temperature = 0.8
+    elif target_difficulty<= 6:
+        tier_note = "Etwas schwerer (5-6): spezifische Details, oder etwas tiefere Konzepte eng verwandte Distraktoren."
+        temperature = 0.8
+    elif target_difficulty<= 8:
+        tier_note = "Schwer (7-8): spezifische Details oder tiefe Konzepte, eng verwandte Distraktoren."
         temperature = 0.8
     else:
-        tier_note = "SCHWER (8–10): spezifisch/präzise Fakten, nahe Distraktoren, keine Mehrdeutigkeit."
+        tier_note = "sehr Schwer (9-10): spezifische Details oder tiefe Konzepte, expertenwissen, eng verwandte Distraktoren."
         temperature = 0.8
+
 
     return f"""
 Erzeuge EINE Multiple-Choice-Frage (A–D, eine richtig) zur Kategorie „Essen und Trinken“, Thema „{topic}“.
