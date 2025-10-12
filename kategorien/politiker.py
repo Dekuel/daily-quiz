@@ -10,7 +10,9 @@ CATEGORY_NAME = "Politiker"
 #                      FESTE LISTEN (gleichverteilt auswählen)
 # =====================================================================
 
-# 16 Bundesministerien (nur Titel; Personen liefert ChatGPT)
+# 16 Bundesministerien (nur Titel; Personen liefert GPT)
+# Hinweis: Die folgende Liste enthält zweimal ein Verkehrsministerium
+# mit vertauschter Wortreihenfolge (so wie im Original).
 _MINISTERIEN: List[str] = [
     "Auswärtiges Amt",
     "Bundesministerium des Innern und für Heimat",
@@ -30,14 +32,14 @@ _MINISTERIEN: List[str] = [
     "Bundesministerium für Digitales und Verkehr",
 ]
 
-# „Wichtige Länder“ (gleichverteilt; Person liefert ChatGPT)
+# „Wichtige Länder“ (gleichverteilt; Person liefert GPT)
 _WICHTIGE_LAENDER: List[str] = [
     "USA", "Vereinigtes Königreich", "Frankreich", "Deutschland", "Italien",
     "Spanien", "Kanada", "Japan", "Indien", "China",
     "Brasilien", "Südafrika", "Türkei", "Mexiko", "Australien", "Ukraine", "Argentinien"
 ]
 
-# Bedeutende Organisationen (Person liefert ChatGPT)
+# Bedeutende Organisationen (Person liefert GPT)
 _WICHTIGE_ORGS: List[str] = [
     "Vereinte Nationen (UN)",
     "NATO",
@@ -113,15 +115,15 @@ _SCHEMA = """{
   "difficulty": 1
 }"""
 
-# Prozentverteilung (summe = 100)
+# Prozentverteilung (summe = 100) – Auswahl erfolgt LOKAL per random.choices
 _WEIGHTS = [
-    ("minister_de_gpt", 45),
-    ("regierungschefs_gpt", 15),
+    ("minister_de_gpt", 38),
+    ("regierungschefs_gpt", 13),
     ("org_person_gpt", 10),
     ("kanzler_zeit_local", 5),
-    ("partei_kuerzel_local", 5),
-    ("grundrechte_gpt", 5),
-    ("sitze_de_local", 5),
+    ("partei_kuerzel_local", 7),
+    ("grundrechte_gpt", 10),
+    ("sitze_de_local", 8),
     ("sitze_intl_local", 10),
 ]
 
@@ -133,6 +135,10 @@ _GPT_TEMPERATURE = 0.72
 # =====================================================================
 
 def _ask_json(prompt: str, temperature: float = _GPT_TEMPERATURE) -> dict | None:
+    """
+    GPT dient NUR zur sprachlichen Formulierung der Frage/Erklärung.
+    Zufall (Kategorie/Seed/Antwortmischung) passiert komplett lokal.
+    """
     client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
     try:
         r = client.chat.completions.create(
@@ -149,15 +155,65 @@ def _ask_json(prompt: str, temperature: float = _GPT_TEMPERATURE) -> dict | None
     except Exception:
         return None
 
+# =====================================================================
+#                 NEU: LOKALES Mischen & Normalisieren
+# =====================================================================
+
+_LETTERS = ["A", "B", "C", "D"]
+
+def _extract_choice_text(choice: str) -> str:
+    # akzeptiert "A: Text" oder nur "Text"
+    parts = choice.split(":", 1)
+    return parts[1].strip() if len(parts) == 2 else choice.strip()
+
+def _format_choices(choice_texts: List[str]) -> List[str]:
+    return [f"{_LETTERS[i]}: {choice_texts[i]}" for i in range(4)]
+
+def _shuffle_choices_and_fix_answer(data: dict) -> dict:
+    """
+    Erwartet data['choices'] (A–D) und data['correct_answer'].
+    Wir extrahieren die reinen Texte, bestimmen die korrekte, mischen lokal und setzen den Buchstaben neu.
+    Primärannahme: GPT liefert die richtige Antwort bei 'A'. Fallback: correct_answer-Feld.
+    """
+    if not isinstance(data, dict):
+        return data
+    if not isinstance(data.get("choices"), list) or len(data["choices"]) != 4:
+        return data
+
+    choice_texts = [_extract_choice_text(c) for c in data["choices"]]
+
+    # Standard: korrekt ist A
+    correct_idx = 0
+    # Fallback: respektiere vorhandenes Feld (falls GPT sich nicht an Vorgabe hält)
+    if isinstance(data.get("correct_answer"), str) and data["correct_answer"] in _LETTERS:
+        correct_idx = _LETTERS.index(data["correct_answer"])
+
+    flags = [i == correct_idx for i in range(4)]
+    pairs = list(zip(choice_texts, flags))
+    random.shuffle(pairs)
+
+    shuffled_texts = [t for (t, _) in pairs]
+    shuffled_flags = [f for (_, f) in pairs]
+    new_correct_idx = shuffled_flags.index(True)
+
+    data["choices"] = _format_choices(shuffled_texts)
+    data["correct_answer"] = _LETTERS[new_correct_idx]
+    return data
+
+# =====================================================================
+#                 GPT-Prompts (mit "A ist korrekt")
+# =====================================================================
+
 def _prompt_gpt_from_choice(discipline: str, seed_text: str) -> str:
     """Wir geben NUR die gewählte Entität (Ministerium/Land/Organisation) vor.
-    GPT muss Frage, vier Optionen (A–D) und korrekte Option erzeugen."""
+    GPT soll die Frage/Erklärung formulieren und die richtige Antwort unter A listen.
+    """
     if discipline == "Ministerien (DE)":
-        task = f"Erzeuge eine Frage: Wer ist (allgemein, ohne Datum zu nennen) Bundesminister(in) für „{seed_text}“?"
+        task = f"Erzeuge eine Frage: Wer ist (allgemein, ohne Datum) Bundesminister(in) für „{seed_text}“?"
     elif discipline == "Regierungschefs (Welt)":
-        task = f"Erzeuge eine Frage: Wer ist (allgemein) Regierungschef von „{seed_text}“ (z. B. Präsident/in oder Premierminister/in, je nach Staatsform)?"
+        task = f"Erzeuge eine Frage: Wer ist (allgemein) Regierungschef von „{seed_text}“?"
     elif discipline == "Org-Personen":
-        task = f"Erzeuge eine Frage: Wer ist (allgemein) die/der oberste Amtsinhaber(in) der Organisation „{seed_text}“ (z. B. Generalsekretär/in, Präsident/in)?"
+        task = f"Erzeuge eine Frage: Wer ist (allgemein) die/der oberste Amtsinhaber(in) der Organisation „{seed_text}“?"
     else:
         task = f"Erzeuge eine Frage basierend auf: {seed_text}"
 
@@ -166,9 +222,10 @@ Erzeuge EINE Multiple-Choice-Frage (Deutsch) zur Kategorie „Politik“, Diszip
 
 Aufgabe:
 - {task}
-- Vier plausible Antwortoptionen A–D, GENAU EINE richtig. KEINE Antworten wie „alle/keine der oben“.
-- Formuliere neutral; vermeide tagesaktuelle Zahlen/Statistiken in der Frage.
-- Gib ausschließlich valides JSON gemäß diesem Schema aus (keinen Text außerhalb des JSON):
+- Vier plausible Antwortoptionen A–D.
+- WICHTIG: Setze die KORREKTE Antwort IMMER bei A. B–D sind plausible Distraktoren.
+- NEUTRAL formulieren; keine datumsabhängigen Fakten in der Frage.
+- Gib ausschließlich valides JSON gemäß diesem Schema aus (kein Text außerhalb):
 
 {_SCHEMA}
 """.strip()
@@ -179,10 +236,10 @@ def _prompt_grundrechte() -> str:
 Erzeuge EINE Multiple-Choice-Frage (Deutsch) zur Kategorie „Politik“, Disziplin „Grundrechte (DE)“.
 
 Vorgaben:
-- Thema: „Was ist KEIN Grundrecht im Sinne des Grundgesetzes (GG)?“ – allgemeingültig (keine Datumsabhängigkeit).
-- Vier plausible Antwortoptionen A–D, genau eine korrekt; KEINE „alle/keine der oben“.
-- Erklärung in 2–3 Sätzen: kurz begründen, warum die richtige Option kein Grundrecht ist und wozu sie ggf. gehört.
-- Gib ausschließlich valides JSON gemäß Schema zurück:
+- Thema: „Was ist KEIN Grundrecht im Sinne des Grundgesetzes (GG)?“.
+- Vier plausible Antwortoptionen A–D, KORREKTE Antwort IMMER bei A; keine „alle/keine der oben“.
+- Erklärung in 2–3 Sätzen.
+- Gib ausschließlich valides JSON gemäß Schema:
 
 {_SCHEMA}
 """.strip()
@@ -194,7 +251,7 @@ Vorgaben:
 def _choices_from_correct_and_pool(correct: str, pool: List[str]) -> Tuple[List[str], str]:
     distractors = [x for x in pool if x != correct]
     random.shuffle(distractors)
-    opts = [correct] + distractors[:3]
+    opts = [correct] + distractors[:3]  # A ist korrekt, wir mischen später lokal erneut
     letters = ["A", "B", "C", "D"]
     return [f"{letters[i]}: {opts[i]}" for i in range(4)], "A"
 
@@ -202,7 +259,7 @@ def _gen_kanzler_zeit_local() -> dict | None:
     entry = random.choice(_CHANCELLOR_TERMS)
     pool = [e["kanzler"] for e in _CHANCELLOR_TERMS]
     choices, correct_letter = _choices_from_correct_and_pool(entry["kanzler"], pool)
-    return {
+    data = {
         "category": CATEGORY_NAME,
         "discipline": "Bundeskanzler (Amtszeit)",
         "question": f"Wer war Bundeskanzler(in) der Bundesrepublik Deutschland in der Amtszeit {entry['amtszeit']}?",
@@ -211,12 +268,13 @@ def _gen_kanzler_zeit_local() -> dict | None:
         "explanation": "Historische Kanzlerschaften sind eindeutig datiert; die Alternativen sind Kanzler anderer Zeiträume.",
         "difficulty": 1,
     }
+    return _shuffle_choices_and_fix_answer(data)
 
 def _gen_partei_kuerzel_local() -> dict | None:
     kuerzel, langname = random.choice(list(_PARTY_ACRONYMS.items()))
     pool = list(_PARTY_ACRONYMS.values())
     choices, correct_letter = _choices_from_correct_and_pool(langname, pool)
-    return {
+    data = {
         "category": CATEGORY_NAME,
         "discipline": "Parteikürzel (DE)",
         "question": f"Wofür steht das Parteikürzel „{kuerzel}“ in Deutschland?",
@@ -225,12 +283,13 @@ def _gen_partei_kuerzel_local() -> dict | None:
         "explanation": "Parteibezeichnungen sind offiziell festgelegt; die anderen Optionen sind Bezeichnungen anderer Parteien.",
         "difficulty": 1,
     }
+    return _shuffle_choices_and_fix_answer(data)
 
 def _gen_sitze_de_local() -> dict | None:
     entry = random.choice(_DE_SEATS)
     pool = list({e["stadt"] for e in _DE_SEATS})
     choices, correct_letter = _choices_from_correct_and_pool(entry["stadt"], pool)
-    return {
+    data = {
         "category": CATEGORY_NAME,
         "discipline": "Sitze (DE)",
         "question": f"In welcher Stadt hat {entry['institution']} seinen/ihren Sitz (Hauptsitz/Plenarsitz)?",
@@ -239,12 +298,13 @@ def _gen_sitze_de_local() -> dict | None:
         "explanation": "Bundesinstitutionen haben definierte Sitze; die anderen Städte sind Sitze anderer Institutionen.",
         "difficulty": 1,
     }
+    return _shuffle_choices_and_fix_answer(data)
 
 def _gen_sitze_intl_local() -> dict | None:
     entry = random.choice(_INTL_SEATS)
     pool = list({e["stadt"] for e in _INTL_SEATS})
     choices, correct_letter = _choices_from_correct_and_pool(entry["stadt"], pool)
-    return {
+    data = {
         "category": CATEGORY_NAME,
         "discipline": "Sitze (International)",
         "question": f"In welcher Stadt befindet sich der Hauptsitz/Sitz von {entry['organisation']}?",
@@ -253,29 +313,34 @@ def _gen_sitze_intl_local() -> dict | None:
         "explanation": "Internationale Organisationen haben feste Hauptsitze; die Alternativen sind Sitze anderer Organisationen.",
         "difficulty": 1,
     }
+    return _shuffle_choices_and_fix_answer(data)
 
 # =====================================================================
-#                 GPT-basierte Generierung (aus Listen-Seed)
+#                 GPT-basierte Generierung (Seed lokal → GPT)
 # =====================================================================
 
 def _gen_minister_de_gpt() -> dict | None:
-    ministerium = random.choice(_MINISTERIEN)
+    ministerium = random.choice(_MINISTERIEN)  # Seed lokal
     prompt = _prompt_gpt_from_choice("Ministerien (DE)", ministerium)
-    return _ask_json(prompt)
+    data = _ask_json(prompt)
+    return _shuffle_choices_and_fix_answer(data) if data else None
 
 def _gen_regierungschefs_gpt() -> dict | None:
-    land = random.choice(_WICHTIGE_LAENDER)
+    land = random.choice(_WICHTIGE_LAENDER)  # Seed lokal
     prompt = _prompt_gpt_from_choice("Regierungschefs (Welt)", land)
-    return _ask_json(prompt)
+    data = _ask_json(prompt)
+    return _shuffle_choices_and_fix_answer(data) if data else None
 
 def _gen_org_person_gpt() -> dict | None:
-    org = random.choice(_WICHTIGE_ORGS)
+    org = random.choice(_WICHTIGE_ORGS)  # Seed lokal
     prompt = _prompt_gpt_from_choice("Org-Personen", org)
-    return _ask_json(prompt)
+    data = _ask_json(prompt)
+    return _shuffle_choices_and_fix_answer(data) if data else None
 
 def _gen_grundrechte_gpt() -> dict | None:
-    prompt = _prompt_grundrechte()
-    return _ask_json(prompt)
+    # Grundrechte bleibt GPT-inhaltlich; danach lokal mischen/normalisieren
+    data = _ask_json(_prompt_grundrechte())
+    return _shuffle_choices_and_fix_answer(data) if data else None
 
 # =====================================================================
 #                              PUBLIC API
@@ -283,6 +348,7 @@ def _gen_grundrechte_gpt() -> dict | None:
 
 def _pick_weighted_type() -> str:
     names, weights = zip(*_WEIGHTS)
+    # Kategorieauswahl erfolgt lokal – GPT hat keinen Einfluss auf Wahrscheinlichkeiten
     return random.choices(names, weights=weights, k=1)[0]
 
 def generate_one(
@@ -297,6 +363,9 @@ def generate_one(
                 5% Sitze (DE) (lokal), 10% Sitze (International) (lokal).
     Innerhalb der Listen: GLEICHE Wahrscheinlichkeit je Eintrag.
     Schwierigkeit wird nicht berücksichtigt und fix auf 1 gesetzt.
+
+    WICHTIG: Alle Zufälle (Kategorie/Seed/Antwort-Mischen) werden lokal bestimmt.
+    GPT dient nur der sprachlichen Formulierung (plus Erklärung).
     """
     qtype = _pick_weighted_type()
 
