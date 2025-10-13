@@ -1,0 +1,148 @@
+{
+  "date": "2025-10-13",
+  "generated_at": "2025-10-13T05:14:18Z",
+  "schema_version": 5,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "discipline": "Analytische Mechanik",
+      "question": "Ein Körper bewegt sich in einem Kreis mit konstantem Radius. Welche der folgenden Aussagen trifft auf die Bewegung zu?",
+      "choices": [
+        "A: Die Geschwindigkeit des Körpers bleibt konstant, die Beschleunigung ist konstant.",
+        "B: Die Geschwindigkeit des Körpers ändert sich, die Beschleunigung bleibt konstant.",
+        "C: Die Geschwindigkeit und die Beschleunigung des Körpers ändern sich konstant.",
+        "D: Die Geschwindigkeit des Körpers bleibt konstant, die Beschleunigung ändert sich ständig."
+      ],
+      "correct_answer": "D",
+      "explanation": "Obwohl die Geschwindigkeit des Körpers in Betrag konstant bleibt, ändert sich ihre Richtung ständig, was zu einer konstanten Beschleunigung führt. Diese Beschleunigung ist zentripetal und immer zum Zentrum des Kreises gerichtet.",
+      "difficulty": 5
+    },
+    {
+      "category": "Physik",
+      "discipline": "Thermodynamik",
+      "question": "Welches der folgenden Konzepte beschreibt das Verhalten idealer Gase bei konstantem Druck?",
+      "choices": [
+        "A: Das Volumen eines idealen Gases bleibt konstant, wenn die Temperatur erhöht wird.",
+        "B: Die innere Energie eines idealen Gases ist unabhängig von der Temperatur.",
+        "C: Der Druck eines idealen Gases nimmt ab, wenn das Volumen erhöht wird, bei konstanter Temperatur.",
+        "D: Die Temperatur eines idealen Gases steigt linear mit der zugeführten Wärme."
+      ],
+      "correct_answer": "C",
+      "explanation": "Bei konstantem Druck beschreibt das Gesetz von Boyle, dass das Volumen eines idealen Gases zunimmt, wenn die Temperatur steigt, was zu einem abnehmenden Druck führt, wenn das Volumen erhöht wird. Option C ist korrekt, da sie das Verhalten des idealen Gases korrekt darstellt.",
+      "difficulty": 8
+    },
+    {
+      "category": "Physik",
+      "discipline": "Astrophysik",
+      "question": "Welches der folgenden Objekte ist ein Beispiel für einen Pulsar?",
+      "choices": [
+        "A: Ein schnell rotierender Neutronenstern, der regelmäßig Radiowellen aussendet.",
+        "B: Ein Planet, der in einem stabilen Orbit um einen Stern kreist.",
+        "C: Ein schwarzes Loch, das Materie aus seiner Umgebung anzieht.",
+        "D: Ein massereicher Stern, der am Ende seines Lebenszyklus zu einem Supernova wird."
+      ],
+      "correct_answer": "A",
+      "explanation": "Ein Pulsar ist ein schnell rotierender Neutronenstern, der aufgrund seiner starken Magnetfelder und schnellen Rotation regelmäßig Strahlung in Form von Radiowellen abgibt. Diese Strahlung wird in Form von regelmäßigen Impulsen wahrgenommen, was dem Objekt seinen Namen gibt.",
+      "difficulty": 6
+    },
+    {
+      "category": "Physik",
+      "discipline": "Astrophysik",
+      "question": "Welche der folgenden Aussagen beschreibt die Hauptursache für die Bildung von Sternen in einer Molekülwolke?",
+      "choices": [
+        "A: Die magnetischen Felder verhindern die Bildung von Sternen durch Druck.",
+        "B: Die Temperatur der Molekülwolken ist konstant und hat keinen Einfluss auf die Sternbildung.",
+        "C: Die Gravitationskraft zieht Materie zusammen und führt zur Erhöhung der Dichte.",
+        "D: Die Strahlung von bereits gebildeten Sternen kühlt die Molekülwolken ab."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Gravitationskraft spielt eine entscheidende Rolle bei der Verdichtung von Materie in Molekülwolken, was zur Bildung von Sternen führt. Eine erhöhte Dichte ermöglicht es, dass die Temperatur steigt und thermonukleare Reaktionen einsetzen, die schließlich zur Sternentstehung führen.",
+      "difficulty": 7
+    },
+    {
+      "category": "Physik",
+      "discipline": "Astrophysik",
+      "question": "Was beschreibt die sogenannte 'Hubble-Konstante' in der Astrophysik?",
+      "choices": [
+        "A: Die Temperatur des kosmischen Mikrowellenhintergrunds.",
+        "B: Die Lichtgeschwindigkeit im Vakuum.",
+        "C: Die Masse der Erde im Verhältnis zur Masse der Sonne.",
+        "D: Die Geschwindigkeit, mit der sich Galaxien in Abhängigkeit von ihrer Entfernung voneinander bewegen."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Hubble-Konstante beschreibt die Expansionsrate des Universums und zeigt, dass sich Galaxien mit zunehmendem Abstand schneller voneinander entfernen. Dies ist ein zentrales Konzept in der modernen Kosmologie und spielt eine wichtige Rolle im Verständnis der Struktur und Entwicklung des Universums.",
+      "difficulty": 7
+    },
+    {
+      "category": "Physik",
+      "discipline": "Elektrodynamik",
+      "question": "Was passiert mit der Stärke eines elektrischen Feldes, wenn der Abstand zwischen zwei parallelen Platten verdoppelt wird, während die Spannung konstant bleibt?",
+      "choices": [
+        "A: Die Feldstärke bleibt gleich.",
+        "B: Die Feldstärke halbiert sich.",
+        "C: Die Feldstärke vervierfacht sich.",
+        "D: Die Feldstärke verdoppelt sich."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die elektrische Feldstärke zwischen zwei parallelen Platten ist definiert als das Verhältnis von Spannung zu Abstand. Wenn der Abstand verdoppelt wird, während die Spannung konstant bleibt, reduziert sich die Feldstärke auf die Hälfte ihres ursprünglichen Wertes.",
+      "difficulty": 5
+    },
+    {
+      "category": "Physik",
+      "discipline": "Astrophysik",
+      "question": "Was beschreibt der Begriff 'Schwarzes Loch' in der Astrophysik?",
+      "choices": [
+        "A: Ein Objekt, das Licht in eine andere Dimension transportiert.",
+        "B: Eine Art von Planet, der keine Atmosphäre hat.",
+        "C: Ein Bereich im Raum, wo die Gravitation so stark ist, dass nichts entkommen kann.",
+        "D: Ein sehr kalter Stern, der keine Wärme abgibt."
+      ],
+      "correct_answer": "C",
+      "explanation": "Ein schwarzes Loch ist ein Bereich im Raum, in dem die Gravitation so stark ist, dass selbst Licht nicht entkommen kann. Dies geschieht, weil die Masse in einem sehr kleinen Raum konzentriert ist, was zu einer extrem hohen Gravitationskraft führt.",
+      "difficulty": 4
+    },
+    {
+      "category": "Physik",
+      "discipline": "Festkörperphysik",
+      "question": "Was beschreibt die Kristallstruktur eines Festkörpers?",
+      "choices": [
+        "A: Die Geschwindigkeit der Atome im Festkörper.",
+        "B: Die Temperatur des Festkörpers.",
+        "C: Die regelmäßige Anordnung der Atome oder Moleküle.",
+        "D: Die elektrische Ladung der Atome."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Kristallstruktur eines Festkörpers beschreibt die regelmäßige Anordnung der Atome oder Moleküle in einem dreidimensionalen Gitter. Diese Struktur beeinflusst viele physikalische Eigenschaften des Materials, wie Festigkeit und Leitfähigkeit.",
+      "difficulty": 4
+    },
+    {
+      "category": "Physik",
+      "discipline": "Thermodynamik",
+      "question": "Was beschreibt der Begriff 'Temperatur' in der Thermodynamik?",
+      "choices": [
+        "A: Ein Maß für die durchschnittliche kinetische Energie der Teilchen in einem System.",
+        "B: Die Anzahl der Teilchen in einem System.",
+        "C: Die Gesamtenergie eines Systems.",
+        "D: Ein Maß für den Druck eines Gases."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Temperatur ist ein Maß für die durchschnittliche kinetische Energie der Teilchen in einem Stoff. Je höher die Temperatur, desto schneller bewegen sich die Teilchen, was zu einer höheren kinetischen Energie führt.",
+      "difficulty": 4
+    },
+    {
+      "category": "Physik",
+      "discipline": "Thermodynamik",
+      "question": "Was passiert mit der Temperatur eines Gases, wenn es im geschlossenen Raum komprimiert wird?",
+      "choices": [
+        "A: Die Temperatur steigt.",
+        "B: Die Temperatur schwankt.",
+        "C: Die Temperatur sinkt.",
+        "D: Die Temperatur bleibt gleich."
+      ],
+      "correct_answer": "A",
+      "explanation": "Wenn ein Gas in einem geschlossenen Raum komprimiert wird, erhöht sich der Druck und damit auch die Temperatur, da die Moleküle enger zusammengepresst werden und mehr kinetische Energie haben. Dies ist ein Beispiel für den ersten Hauptsatz der Thermodynamik, der die Beziehung zwischen Arbeit, Wärme und Energie beschreibt.",
+      "difficulty": 5
+    }
+  ]
+}
