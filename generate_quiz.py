@@ -12,6 +12,14 @@ Daily Quiz Generator (dreimodig):
   quizzes/YYYY-MM-DD/bundle.physik.json
   latest.json -> { "latest_date": "...", "paths": {"normal": "...", "schwer": "...", "physik": "..."} }
   catalog.json -> [{ "date": "...", "paths": {"normal": "...", "schwer": "...", "physik": "..."} }, ...]
+
+Zusatz (NEU):
+- Kategorieweises Archiv pro Modus:
+  - "normal"  -> Ordner "Fragen leicht", Datei pro Kategorie (z. B. "Natur.json")
+  - "schwer"  -> Ordner "Fragen schwer", Datei pro Kategorie
+  - "physik"  -> KEINE Archivierung
+- Dateien werden geladen, erweitert und zurückgeschrieben (Bestand bleibt erhalten)
+- Einfache Dedupe innerhalb der Kategorie-Datei (identischer question-Text + Kategorie)
 """
 
 from __future__ import annotations
@@ -295,6 +303,79 @@ def _shuffle_answers_in_bundle(qlist: List[dict]) -> None:
             continue
 
 
+# ===================== Archiv (kategorieweise) =====================
+
+ARCHIVE_DIRS = {
+    "normal": "Fragen leicht",
+    "schwer": "Fragen schwer",
+}
+
+def _sanitize_filename(name: str) -> str:
+    # rudimentär: Leerzeichen -> Unterstrich; nur Buchstaben/Ziffern/_/-/Umlaute/ß
+    base = re.sub(r"\s+", "_", name.strip())
+    base = re.sub(r"[^A-Za-z0-9_\-ÄÖÜäöüß]", "", base)
+    return base or "Unbekannt"
+
+def _load_json_list(path: str) -> List[dict]:
+    if not os.path.exists(path):
+        return []
+    try:
+        data = json.load(open(path, "r", encoding="utf-8"))
+        if isinstance(data, dict) and isinstance(data.get("questions"), list):
+            return list(data["questions"])
+        if isinstance(data, list):
+            return list(data)
+    except Exception:
+        pass
+    return []
+
+def _save_json_list(path: str, category_name: str, questions: List[dict]) -> None:
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    payload = {
+        "category": category_name,
+        "questions": questions,
+    }
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(payload, f, ensure_ascii=False, indent=2)
+
+def _append_questions_to_category_files(questions: List[dict], mode: str) -> None:
+    """
+    Hängt Fragen kategorieweise in ARCHIVE_DIRS[mode] an.
+    - Nur für Modi 'normal' und 'schwer'
+    - Physik wird nicht archiviert
+    - Bewahrt bisherigen Inhalt; einfache Dedupe pro Datei (identische question+category)
+    """
+    archive_root = ARCHIVE_DIRS.get(mode)
+    if not archive_root:
+        return
+
+    # kategorie -> neue fragen
+    buckets: Dict[str, List[dict]] = {}
+    for q in questions:
+        cat = str(q.get("category") or "Unbekannt").strip()
+        if not cat:
+            cat = "Unbekannt"
+        buckets.setdefault(cat, []).append(q)
+
+    for cat, qlist in buckets.items():
+        fname = f"{_sanitize_filename(cat)}.json"
+        fpath = os.path.join(archive_root, fname)
+
+        existing = _load_json_list(fpath)
+
+        # Dedupe: keine identischen Frage-Texte in gleicher Kategorie
+        seen = {(_norm(x.get("question", "")), _norm(x.get("category", ""))) for x in existing}
+        merged = list(existing)
+        for q in qlist:
+            key = (_norm(q.get("question", "")), _norm(q.get("category", "")))
+            if key in seen:
+                continue
+            merged.append(q)
+            seen.add(key)
+
+        _save_json_list(fpath, cat, merged)
+
+
 # ===================== Fragen-Generatoren =====================
 
 def generate_random_categories(
@@ -329,7 +410,8 @@ def generate_random_categories(
             continue
         if not item:
             continue
-        item.setdefault("difficulty", target)  # Fallback, falls Plugin noch nicht setzt
+        item.setdefault("difficulty", target)   # Fallback, falls Plugin noch nicht setzt
+        item.setdefault("category", cat)        # NEU: Kategorie mitschreiben
         qt = _norm(item.get("question", ""))
         if not qt:
             continue
@@ -372,6 +454,7 @@ def generate_specific_category_questions(
         if not q:
             continue
         q.setdefault("difficulty", target)
+        q.setdefault("category", category_name)  # NEU: Kategorie mitschreiben
         qt = _norm(q.get("question", ""))
         if not qt:
             continue
@@ -413,6 +496,7 @@ def generate_politics_for_mode(
         if not q:
             continue
         q.setdefault("difficulty", target_diff)
+        q.setdefault("category", POLITICS_CATEGORY_NAME)  # NEU: Kategorie mitschreiben
         qt = _norm(q.get("question", ""))
         if not qt:
             continue
@@ -541,9 +625,9 @@ def main():
         if mode in ("normal", "schwer"):
             # Zielverteilung je Modus:
             #  - 2x Politik
-            #  - 4x andere Kategorien (ohne Politik)
+            #  - 7x andere Kategorien (ohne Politik)
             target_politics = POLITICS_TARGET  # = 2
-            target_others = OTHER_QUESTIONS_PER_GENERAL_MODE  # = 4
+            target_others = OTHER_QUESTIONS_PER_GENERAL_MODE  # = 7
 
             # 1) Erst Politik erzeugen
             politics = generate_politics_for_mode(
@@ -582,7 +666,7 @@ def main():
                 politics.extend(politics_retry or [])
 
             # 4) Wenn immer noch < 2 Politik, fülle den Fehlbetrag mit Nicht-Politik auf,
-            #    damit wir insgesamt trotzdem auf 6 Fragen kommen.
+            #    damit wir insgesamt trotzdem auf Zielanzahl kommen.
             if len(politics) < target_politics:
                 deficit = target_politics - len(politics)
                 others += generate_random_categories(
@@ -621,10 +705,14 @@ def main():
         # 3.6b Antworten mischen (richtige Position wird angepasst)
         _shuffle_answers_in_bundle(qlist)
 
-        # 3.7 Persistieren
+        # 3.7 Persistieren (Tages-Bundle)
         saved = write_daily_bundle(qlist, mode=mode)
         if saved:
             saved_paths[mode] = saved
+
+        # 3.8 Zusatz: kategorieweise Archivierung (nur normal/schwer)
+        if mode in ("normal", "schwer"):
+            _append_questions_to_category_files(qlist, mode)
 
     # 4) latest.json + catalog.json aktualisieren
     if saved_paths:
