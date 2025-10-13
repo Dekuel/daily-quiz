@@ -1,148 +1,148 @@
 {
   "date": "2025-10-13",
-  "generated_at": "2025-10-13T05:14:18Z",
+  "generated_at": "2025-10-13T11:12:31Z",
   "schema_version": 5,
   "mode": "physik",
   "questions": [
     {
       "category": "Physik",
-      "discipline": "Analytische Mechanik",
-      "question": "Ein Körper bewegt sich in einem Kreis mit konstantem Radius. Welche der folgenden Aussagen trifft auf die Bewegung zu?",
+      "discipline": "Klassische Mechanik",
+      "question": "Welche der folgenden Aussagen beschreibt am besten das Konzept des Impulses in einem geschlossenen System?",
       "choices": [
-        "A: Die Geschwindigkeit des Körpers bleibt konstant, die Beschleunigung ist konstant.",
-        "B: Die Geschwindigkeit des Körpers ändert sich, die Beschleunigung bleibt konstant.",
-        "C: Die Geschwindigkeit und die Beschleunigung des Körpers ändern sich konstant.",
-        "D: Die Geschwindigkeit des Körpers bleibt konstant, die Beschleunigung ändert sich ständig."
-      ],
-      "correct_answer": "D",
-      "explanation": "Obwohl die Geschwindigkeit des Körpers in Betrag konstant bleibt, ändert sich ihre Richtung ständig, was zu einer konstanten Beschleunigung führt. Diese Beschleunigung ist zentripetal und immer zum Zentrum des Kreises gerichtet.",
-      "difficulty": 5
-    },
-    {
-      "category": "Physik",
-      "discipline": "Thermodynamik",
-      "question": "Welches der folgenden Konzepte beschreibt das Verhalten idealer Gase bei konstantem Druck?",
-      "choices": [
-        "A: Das Volumen eines idealen Gases bleibt konstant, wenn die Temperatur erhöht wird.",
-        "B: Die innere Energie eines idealen Gases ist unabhängig von der Temperatur.",
-        "C: Der Druck eines idealen Gases nimmt ab, wenn das Volumen erhöht wird, bei konstanter Temperatur.",
-        "D: Die Temperatur eines idealen Gases steigt linear mit der zugeführten Wärme."
-      ],
-      "correct_answer": "C",
-      "explanation": "Bei konstantem Druck beschreibt das Gesetz von Boyle, dass das Volumen eines idealen Gases zunimmt, wenn die Temperatur steigt, was zu einem abnehmenden Druck führt, wenn das Volumen erhöht wird. Option C ist korrekt, da sie das Verhalten des idealen Gases korrekt darstellt.",
-      "difficulty": 8
-    },
-    {
-      "category": "Physik",
-      "discipline": "Astrophysik",
-      "question": "Welches der folgenden Objekte ist ein Beispiel für einen Pulsar?",
-      "choices": [
-        "A: Ein schnell rotierender Neutronenstern, der regelmäßig Radiowellen aussendet.",
-        "B: Ein Planet, der in einem stabilen Orbit um einen Stern kreist.",
-        "C: Ein schwarzes Loch, das Materie aus seiner Umgebung anzieht.",
-        "D: Ein massereicher Stern, der am Ende seines Lebenszyklus zu einem Supernova wird."
+        "A: Der Gesamtimpuls bleibt konstant, solange keine externen Kräfte wirken.",
+        "B: Der Impuls eines Körpers ist unabhängig von seiner Geschwindigkeit.",
+        "C: Der Impuls eines Körpers ist immer proportional zu seiner Masse.",
+        "D: Der Impuls kann nicht umgekehrt werden, selbst wenn keine äußeren Kräfte wirken."
       ],
       "correct_answer": "A",
-      "explanation": "Ein Pulsar ist ein schnell rotierender Neutronenstern, der aufgrund seiner starken Magnetfelder und schnellen Rotation regelmäßig Strahlung in Form von Radiowellen abgibt. Diese Strahlung wird in Form von regelmäßigen Impulsen wahrgenommen, was dem Objekt seinen Namen gibt.",
-      "difficulty": 6
-    },
-    {
-      "category": "Physik",
-      "discipline": "Astrophysik",
-      "question": "Welche der folgenden Aussagen beschreibt die Hauptursache für die Bildung von Sternen in einer Molekülwolke?",
-      "choices": [
-        "A: Die magnetischen Felder verhindern die Bildung von Sternen durch Druck.",
-        "B: Die Temperatur der Molekülwolken ist konstant und hat keinen Einfluss auf die Sternbildung.",
-        "C: Die Gravitationskraft zieht Materie zusammen und führt zur Erhöhung der Dichte.",
-        "D: Die Strahlung von bereits gebildeten Sternen kühlt die Molekülwolken ab."
-      ],
-      "correct_answer": "C",
-      "explanation": "Die Gravitationskraft spielt eine entscheidende Rolle bei der Verdichtung von Materie in Molekülwolken, was zur Bildung von Sternen führt. Eine erhöhte Dichte ermöglicht es, dass die Temperatur steigt und thermonukleare Reaktionen einsetzen, die schließlich zur Sternentstehung führen.",
-      "difficulty": 7
-    },
-    {
-      "category": "Physik",
-      "discipline": "Astrophysik",
-      "question": "Was beschreibt die sogenannte 'Hubble-Konstante' in der Astrophysik?",
-      "choices": [
-        "A: Die Temperatur des kosmischen Mikrowellenhintergrunds.",
-        "B: Die Lichtgeschwindigkeit im Vakuum.",
-        "C: Die Masse der Erde im Verhältnis zur Masse der Sonne.",
-        "D: Die Geschwindigkeit, mit der sich Galaxien in Abhängigkeit von ihrer Entfernung voneinander bewegen."
-      ],
-      "correct_answer": "D",
-      "explanation": "Die Hubble-Konstante beschreibt die Expansionsrate des Universums und zeigt, dass sich Galaxien mit zunehmendem Abstand schneller voneinander entfernen. Dies ist ein zentrales Konzept in der modernen Kosmologie und spielt eine wichtige Rolle im Verständnis der Struktur und Entwicklung des Universums.",
-      "difficulty": 7
+      "explanation": "Der Impuls in einem geschlossenen System bleibt konstant, was als Impulserhaltungssatz bekannt ist. Diese Eigenschaft ist entscheidend für das Verständnis von Kollisionen und anderen dynamischen Prozessen, bei denen keine externen Kräfte einwirken.",
+      "difficulty": 9
     },
     {
       "category": "Physik",
       "discipline": "Elektrodynamik",
-      "question": "Was passiert mit der Stärke eines elektrischen Feldes, wenn der Abstand zwischen zwei parallelen Platten verdoppelt wird, während die Spannung konstant bleibt?",
+      "question": "Was ist ein Beispiel für eine alltägliche Anwendung von Elektrizität?",
       "choices": [
-        "A: Die Feldstärke bleibt gleich.",
-        "B: Die Feldstärke halbiert sich.",
-        "C: Die Feldstärke vervierfacht sich.",
-        "D: Die Feldstärke verdoppelt sich."
+        "A: Ein Kühlschrank",
+        "B: Ein Lichtschalter",
+        "C: Ein Auto",
+        "D: Eine Wasserpumpe"
       ],
       "correct_answer": "B",
-      "explanation": "Die elektrische Feldstärke zwischen zwei parallelen Platten ist definiert als das Verhältnis von Spannung zu Abstand. Wenn der Abstand verdoppelt wird, während die Spannung konstant bleibt, reduziert sich die Feldstärke auf die Hälfte ihres ursprünglichen Wertes.",
+      "explanation": "Ein Lichtschalter ist ein einfaches Beispiel für Elektrizität im Alltag. Er ermöglicht es, elektrische Geräte wie Lampen ein- und auszuschalten. Die anderen Optionen sind ebenfalls technisch, jedoch nicht so direkt mit der Nutzung von Elektrizität verbunden wie ein Lichtschalter.",
+      "difficulty": 1
+    },
+    {
+      "category": "Physik",
+      "discipline": "Kern- und Teilchenphysik",
+      "question": "Was beschreibt der Begriff ‚Beta-Zerfall‘ in der Kernphysik?",
+      "choices": [
+        "A: Die Fusion von zwei leichten Kernen zu einem schwereren.",
+        "B: Die Umwandlung eines Neutrons in ein Proton und ein Elektron.",
+        "C: Die Emission von Photonen aus einem angeregten Kern.",
+        "D: Die Zerfallsgeschwindigkeit eines instabilen Kerns."
+      ],
+      "correct_answer": "B",
+      "explanation": "Der Beta-Zerfall ist ein Prozess, bei dem ein Neutron in einem Atomkern in ein Proton umgewandelt wird, wobei ein Elektron und ein Antineutrino emittiert werden. Dies führt zu einer Erhöhung der Ordnungszahl des Elements, während die Massenzahl unverändert bleibt.",
+      "difficulty": 8
+    },
+    {
+      "category": "Physik",
+      "discipline": "Quantenmechanik",
+      "question": "Was beschreibt das Heisenbergsche Unschärfeprinzip in der Quantenmechanik?",
+      "choices": [
+        "A: Die gleichzeitige Messung von Ort und Impuls eines Teilchens kann nicht mit beliebiger Genauigkeit erfolgen.",
+        "B: Alle Teilchen haben einen festen, unveränderlichen Ort.",
+        "C: Die Energie eines Teilchens ist immer konstant und unabhängig von seiner Bewegung.",
+        "D: Licht kann nicht sowohl als Welle als auch als Teilchen betrachtet werden."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Heisenbergsche Unschärfeprinzip besagt, dass es eine fundamentale Grenze für die Genauigkeit gibt, mit der Ort und Impuls eines Teilchens gleichzeitig gemessen werden können. Diese Unschärfe ist eine grundlegende Eigenschaft der Quantenmechanik und zeigt die Einschränkungen der klassischen Physik auf.",
       "difficulty": 5
     },
     {
       "category": "Physik",
-      "discipline": "Astrophysik",
-      "question": "Was beschreibt der Begriff 'Schwarzes Loch' in der Astrophysik?",
+      "discipline": "Quantenmechanik",
+      "question": "Welches der folgenden Konzepte ist ein zentrales Prinzip der Quantenmechanik?",
       "choices": [
-        "A: Ein Objekt, das Licht in eine andere Dimension transportiert.",
-        "B: Eine Art von Planet, der keine Atmosphäre hat.",
-        "C: Ein Bereich im Raum, wo die Gravitation so stark ist, dass nichts entkommen kann.",
-        "D: Ein sehr kalter Stern, der keine Wärme abgibt."
+        "A: Das Coulomb-Gesetz",
+        "B: Das Heisenbergsche Unschärfeprinzip",
+        "C: Das Gesetz der Erhaltung der Energie",
+        "D: Das Newtonsche Bewegungsgesetz"
+      ],
+      "correct_answer": "B",
+      "explanation": "Das Heisenbergsche Unschärfeprinzip besagt, dass bestimmte Paare von physikalischen Größen, wie Position und Impuls, nicht gleichzeitig mit beliebiger Genauigkeit bestimmt werden können. Dieses Prinzip ist eine der fundamentalen Eigenschaften der Quantenmechanik und unterscheidet sie von der klassischen Physik.",
+      "difficulty": 6
+    },
+    {
+      "category": "Physik",
+      "discipline": "Quantenmechanik",
+      "question": "Was beschreibt das Konzept der Unschärferelation in der Quantenmechanik?",
+      "choices": [
+        "A: Teilchen können nicht gleichzeitig existieren und nicht existieren.",
+        "B: Licht kann sowohl als Teilchen als auch als Welle betrachtet werden.",
+        "C: Es ist unmöglich, sowohl den Ort als auch den Impuls eines Teilchens genau zu bestimmen.",
+        "D: Ein Teilchen kann nie schneller als das Licht reisen."
       ],
       "correct_answer": "C",
-      "explanation": "Ein schwarzes Loch ist ein Bereich im Raum, in dem die Gravitation so stark ist, dass selbst Licht nicht entkommen kann. Dies geschieht, weil die Masse in einem sehr kleinen Raum konzentriert ist, was zu einer extrem hohen Gravitationskraft führt.",
+      "explanation": "Die Unschärferelation besagt, dass es eine fundamentale Grenze für die gleichzeitige Messung von Ort und Impuls eines Teilchens gibt. Je genauer man den Ort kennt, desto ungenauer wird die Messung des Impulses und umgekehrt, was eine grundlegende Eigenschaft der Quantenwelt darstellt.",
       "difficulty": 4
+    },
+    {
+      "category": "Physik",
+      "discipline": "Relativitätstheorie",
+      "question": "Was beschreibt die Relativitätstheorie von Einstein in Bezug auf die Zeit?",
+      "choices": [
+        "A: Die Zeit vergeht in einem Vakuum schneller als in der Luft.",
+        "B: Die Zeit verlangsamt sich, je schneller man sich bewegt.",
+        "C: Die Zeit kann nicht beeinflusst werden und bleibt immer gleich.",
+        "D: Die Zeit bleibt immer konstant, unabhängig von der Geschwindigkeit."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Relativitätstheorie zeigt, dass die Zeit relativ ist und sich je nach Geschwindigkeit des Beobachters verlangsamen kann. Dies führt zu dem Effekt, dass zwei Personen, die sich unterschiedlich schnell bewegen, unterschiedliche Zeitwahrnehmungen haben können.",
+      "difficulty": 4
+    },
+    {
+      "category": "Physik",
+      "discipline": "Relativitätstheorie",
+      "question": "Was beschreibt die spezielle Relativitätstheorie von Albert Einstein?",
+      "choices": [
+        "A: Die Wellen-Teilchen-Dualität von Licht.",
+        "B: Die Anziehungskraft zwischen Massen.",
+        "C: Die Relativität von Zeit und Raum bei hohen Geschwindigkeiten.",
+        "D: Die Struktur von Atomen."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die spezielle Relativitätstheorie befasst sich mit den Auswirkungen hoher Geschwindigkeiten auf Zeit und Raum. Sie zeigt, dass Zeit relativ ist und sich je nach Geschwindigkeit des Beobachters verändert. Diese Theorie revolutionierte unser Verständnis von Raum und Zeit.",
+      "difficulty": 4
+    },
+    {
+      "category": "Physik",
+      "discipline": "Klassische Mechanik",
+      "question": "Ein Auto fährt mit konstanter Geschwindigkeit von 60 km/h auf einer geraden Strecke. Was passiert, wenn der Fahrer plötzlich die Bremse betätigt?",
+      "choices": [
+        "A: Das Auto bleibt mit konstanter Geschwindigkeit weiterfahren.",
+        "B: Das Auto wechselt die Richtung ohne Geschwindigkeitsänderung.",
+        "C: Das Auto beschleunigt weiter in Richtung der Bremskraft.",
+        "D: Das Auto wird langsamer und kommt schließlich zum Stillstand."
+      ],
+      "correct_answer": "D",
+      "explanation": "Wenn ein Fahrzeug mit konstanter Geschwindigkeit fährt und die Bremse betätigt wird, erfährt es eine Verzögerung durch die Bremskraft. Diese führt dazu, dass das Auto allmählich langsamer wird und schließlich zum Stillstand kommt.",
+      "difficulty": 6
     },
     {
       "category": "Physik",
       "discipline": "Festkörperphysik",
-      "question": "Was beschreibt die Kristallstruktur eines Festkörpers?",
+      "question": "Was beschreibt den Unterschied zwischen einem Leiter und einem Isolator?",
       "choices": [
-        "A: Die Geschwindigkeit der Atome im Festkörper.",
-        "B: Die Temperatur des Festkörpers.",
-        "C: Die regelmäßige Anordnung der Atome oder Moleküle.",
-        "D: Die elektrische Ladung der Atome."
+        "A: Leiter sind immer aus Metall, Isolatoren sind immer aus Kunststoff.",
+        "B: Leiter haben viele freie Elektronen, Isolatoren haben kaum freie Elektronen.",
+        "C: Leiter können nur in Gasform existieren, Isolatoren immer in fester Form.",
+        "D: Leiter leiten Wärme besser als Isolatoren, unabhängig von der Temperatur."
       ],
-      "correct_answer": "C",
-      "explanation": "Die Kristallstruktur eines Festkörpers beschreibt die regelmäßige Anordnung der Atome oder Moleküle in einem dreidimensionalen Gitter. Diese Struktur beeinflusst viele physikalische Eigenschaften des Materials, wie Festigkeit und Leitfähigkeit.",
+      "correct_answer": "B",
+      "explanation": "Der Hauptunterschied zwischen Leitern und Isolatoren liegt in der Anzahl der freien Elektronen. Leiter besitzen viele freie Elektronen, die den elektrischen Strom leiten können, während Isolatoren nur sehr wenige freie Elektronen haben und somit den Stromfluss stark hemmen.",
       "difficulty": 4
-    },
-    {
-      "category": "Physik",
-      "discipline": "Thermodynamik",
-      "question": "Was beschreibt der Begriff 'Temperatur' in der Thermodynamik?",
-      "choices": [
-        "A: Ein Maß für die durchschnittliche kinetische Energie der Teilchen in einem System.",
-        "B: Die Anzahl der Teilchen in einem System.",
-        "C: Die Gesamtenergie eines Systems.",
-        "D: Ein Maß für den Druck eines Gases."
-      ],
-      "correct_answer": "A",
-      "explanation": "Die Temperatur ist ein Maß für die durchschnittliche kinetische Energie der Teilchen in einem Stoff. Je höher die Temperatur, desto schneller bewegen sich die Teilchen, was zu einer höheren kinetischen Energie führt.",
-      "difficulty": 4
-    },
-    {
-      "category": "Physik",
-      "discipline": "Thermodynamik",
-      "question": "Was passiert mit der Temperatur eines Gases, wenn es im geschlossenen Raum komprimiert wird?",
-      "choices": [
-        "A: Die Temperatur steigt.",
-        "B: Die Temperatur schwankt.",
-        "C: Die Temperatur sinkt.",
-        "D: Die Temperatur bleibt gleich."
-      ],
-      "correct_answer": "A",
-      "explanation": "Wenn ein Gas in einem geschlossenen Raum komprimiert wird, erhöht sich der Druck und damit auch die Temperatur, da die Moleküle enger zusammengepresst werden und mehr kinetische Energie haben. Dies ist ein Beispiel für den ersten Hauptsatz der Thermodynamik, der die Beziehung zwischen Arbeit, Wärme und Energie beschreibt.",
-      "difficulty": 5
     }
   ]
 }
