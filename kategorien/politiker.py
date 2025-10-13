@@ -53,6 +53,7 @@ _WICHTIGE_ORGS: List[str] = [
     "Welthandelsorganisation (WTO)",
     "Organisation für Sicherheit und Zusammenarbeit in Europa (OSZE)",
     "Internationaler Gerichtshof (IGH)",
+    "Zentralbank-System und die Notenbank der Vereinigten Staaten von Amerika (FED)",
 ]
 
 # Bundeskanzler nach Amtszeit (stabil)
@@ -213,7 +214,12 @@ def _prompt_gpt_from_choice(discipline: str, seed_text: str) -> str:
     elif discipline == "Regierungschefs (Welt)":
         task = f"Erzeuge eine Frage: Wer ist (allgemein) Regierungschef von „{seed_text}“?"
     elif discipline == "Org-Personen":
-        task = f"Erzeuge eine Frage: Wer ist (allgemein) die/der oberste Amtsinhaber(in) der Organisation „{seed_text}“?"
+        # WICHTIG: Hier wird ausdrücklich nach dem NAMEN der Person gefragt – nicht nach dem Amtstitel.
+        task = (
+            "Erzeuge eine Frage: Wie heißt (allgemein) die/der amtierende oberste Amtsinhaber(in) "
+            f"– z. B. Generalsekretär(in), Präsident(in) oder Direktor(in) – der Organisation „{seed_text}“? "
+            "Die Antwortoptionen müssen ausschließlich aus vollständigen Personennamen bestehen (keine Titel/Ämter)."
+        )
     else:
         task = f"Erzeuge eine Frage basierend auf: {seed_text}"
 
@@ -224,6 +230,7 @@ Aufgabe:
 - {task}
 - Vier plausible Antwortoptionen A–D.
 - WICHTIG: Setze die KORREKTE Antwort IMMER bei A. B–D sind plausible Distraktoren.
+- Für „Org-Personen“ gilt zusätzlich: Antworten sind NUR Personennamen (kein Amtstitel).
 - NEUTRAL formulieren; keine datumsabhängigen Fakten in der Frage.
 - Gib ausschließlich valides JSON gemäß diesem Schema aus (kein Text außerhalb):
 
