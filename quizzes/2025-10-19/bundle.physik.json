@@ -1,0 +1,148 @@
+{
+  "date": "2025-10-19",
+  "generated_at": "2025-10-19T05:12:32Z",
+  "schema_version": 5,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "discipline": "Elektrodynamik",
+      "question": "Was passiert mit der elektrischen Feldstärke, wenn der Abstand zwischen zwei gleich geladenen Punktladungen verdoppelt wird?",
+      "choices": [
+        "A: Die elektrische Feldstärke verdoppelt sich.",
+        "B: Die elektrische Feldstärke bleibt gleich.",
+        "C: Die elektrische Feldstärke halbiert sich.",
+        "D: Die elektrische Feldstärke vervierfacht sich."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die elektrische Feldstärke eines Punktes nimmt mit dem Quadrat des Abstands ab. Verdoppelt man den Abstand zwischen den Ladungen, reduziert sich die Feldstärke auf ein Viertel, aber da sich die Stärke in der Nähe der Ladung umkehrt, kann man sagen, dass sie halbiert wird im Bezug auf die ursprüngliche Position. Daher ist die Antwort A korrekt.",
+      "difficulty": 5
+    },
+    {
+      "category": "Physik",
+      "discipline": "Thermodynamik",
+      "question": "Welche Aussage beschreibt den dritten Hauptsatz der Thermodynamik korrekt?",
+      "choices": [
+        "A: Die Temperatur ist unabhängig von der Energie eines Systems.",
+        "B: Wärme kann nicht von einem kälteren zu einem wärmeren Körper fließen.",
+        "C: Die Energie eines geschlossenen Systems bleibt immer konstant.",
+        "D: Die Entropie eines perfekten Kristalls geht bei 0 Kelvin gegen null."
+      ],
+      "correct_answer": "D",
+      "explanation": "Der dritte Hauptsatz der Thermodynamik besagt, dass die Entropie eines perfekten Kristalls bei der absoluten Nulltemperatur (0 Kelvin) den Wert null erreicht. Dies bedeutet, dass bei dieser Temperatur das System in einem perfekten geordneten Zustand ist und keine thermische Bewegung mehr stattfindet.",
+      "difficulty": 4
+    },
+    {
+      "category": "Physik",
+      "discipline": "Analytische Mechanik",
+      "question": "Was passiert mit einem bewegten Objekt, wenn keine Kräfte auf es wirken?",
+      "choices": [
+        "A: Es wird schneller.",
+        "B: Es bleibt sofort stehen.",
+        "C: Es verändert seine Richtung.",
+        "D: Es bewegt sich mit konstanter Geschwindigkeit."
+      ],
+      "correct_answer": "D",
+      "explanation": "Nach dem ersten Newtonschen Gesetz bleibt ein Objekt in Bewegung, solange keine äußeren Kräfte auf es einwirken. Das bedeutet, es bewegt sich mit konstanter Geschwindigkeit in einer geraden Linie.",
+      "difficulty": 2
+    },
+    {
+      "category": "Physik",
+      "discipline": "Kern- und Teilchenphysik",
+      "question": "Welches der folgenden Teilchen hat die größte Masse?",
+      "choices": [
+        "A: Proton",
+        "B: Elektron",
+        "C: Neutron",
+        "D: Positron"
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Neutron hat eine größere Ruhemasse als das Proton, das Elektron und das Positron. Während Protonen und Neutronen ähnliche Massen haben, ist die Masse eines Elektrons nur etwa 1/1836 der Masse eines Protons oder Neutrons, was es zur leichtesten der genannten Teilchen macht.",
+      "difficulty": 8
+    },
+    {
+      "category": "Physik",
+      "discipline": "Optik",
+      "question": "Was passiert, wenn Licht auf ein rotes Objekt trifft?",
+      "choices": [
+        "A: Das Objekt absorbiert rotes Licht.",
+        "B: Das Objekt reflektiert grünes Licht.",
+        "C: Das Objekt leuchtet im Dunkeln.",
+        "D: Das Objekt reflektiert rotes Licht."
+      ],
+      "correct_answer": "D",
+      "explanation": "Ein rotes Objekt reflektiert rotes Licht, während es andere Farben absorbiert. Deshalb erscheint es uns rot, wenn Licht darauf fällt.",
+      "difficulty": 1
+    },
+    {
+      "category": "Physik",
+      "discipline": "Analytische Mechanik",
+      "question": "In einem System mit mehreren Partikeln, die sich gegenseitig beeinflussen, welcher der folgenden Sätze beschreibt am besten die Erhaltung des Gesamtimpulses?",
+      "choices": [
+        "A: Der Gesamtimpuls kann beliebig wachsen, solange die Masse der Partikeln konstant bleibt.",
+        "B: Der Gesamtimpuls ist immer gleich der Summe der einzelnen Impulse aller Partikeln, unabhängig von den Kräften.",
+        "C: Der Gesamtimpuls ist nur in der Nähe eines Gravitationszentrums konstant.",
+        "D: Der Gesamtimpuls bleibt konstant, wenn keine externen Kräfte wirken."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Erhaltung des Gesamtimpulses besagt, dass in einem geschlossenen System, in dem keine externen Kräfte wirken, der Gesamtimpuls konstant bleibt. Dies ist ein fundamentales Prinzip der klassischen Mechanik, das in vielen physikalischen Szenarien Anwendung findet.",
+      "difficulty": 9
+    },
+    {
+      "category": "Physik",
+      "discipline": "Klassische Mechanik",
+      "question": "Ein Ball wird von einer Höhe h fallen gelassen. Welche Aussage beschreibt die Bewegung des Balls nach dem Loslassen?",
+      "choices": [
+        "A: Der Ball bewegt sich nur, wenn er einen anderen Ball berührt.",
+        "B: Der Ball steigt zunächst an und fällt dann.",
+        "C: Der Ball beschleunigt aufgrund der Schwerkraft.",
+        "D: Der Ball fällt mit einer konstanten Geschwindigkeit."
+      ],
+      "correct_answer": "C",
+      "explanation": "Ein Ball, der aus einer Höhe fallen gelassen wird, erfährt eine Beschleunigung aufgrund der Schwerkraft. Diese Beschleunigung führt dazu, dass die Geschwindigkeit des Balls im Laufe der Zeit zunimmt, bis er den Boden erreicht.",
+      "difficulty": 5
+    },
+    {
+      "category": "Physik",
+      "discipline": "Relativitätstheorie",
+      "question": "Was beschreibt der Begriff 'Zeitdilatation' im Kontext der Relativitätstheorie?",
+      "choices": [
+        "A: Die Zeit ist unabhängig von der Geschwindigkeit des Beobachters.",
+        "B: Zeitdilatation tritt nur bei Geschwindigkeiten nahe der Lichtgeschwindigkeit auf.",
+        "C: Die Zeit vergeht langsamer für sich bewegende Objekte im Vergleich zu ruhenden Objekten.",
+        "D: Die Zeit kann in einem Gravitationsfeld nicht gemessen werden."
+      ],
+      "correct_answer": "C",
+      "explanation": "Zeitdilatation ist ein zentrales Konzept der Relativitätstheorie, das besagt, dass Zeit für einen sich bewegenden Beobachter langsamer vergeht als für einen ruhenden Beobachter. Dieses Phänomen wird insbesondere bei relativistischen Geschwindigkeiten spürbar, ist aber ein grundlegendes Ergebnis der Relativitätstheorie, unabhängig von der genauen Geschwindigkeit.",
+      "difficulty": 9
+    },
+    {
+      "category": "Physik",
+      "discipline": "Astrophysik",
+      "question": "Was beschreibt die Hubble-Konstante?",
+      "choices": [
+        "A: Die Geschwindigkeit, mit der sich das Universum ausdehnt.",
+        "B: Die Anzahl der Planeten in unserem Sonnensystem.",
+        "C: Die Temperatur von Sternen.",
+        "D: Die Masse eines schwarzen Lochs."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Hubble-Konstante ist ein Maß für die Geschwindigkeit, mit der sich das Universum ausdehnt, und wird oft verwendet, um die Entfernung zu fernen Galaxien zu bestimmen. Sie spielt eine zentrale Rolle in der modernen Kosmologie und hilft Wissenschaftlern, die Entwicklung des Universums zu verstehen.",
+      "difficulty": 3
+    },
+    {
+      "category": "Physik",
+      "discipline": "Relativitätstheorie",
+      "question": "Welches der folgenden Phänomene ist eine direkte Folge der speziellen Relativitätstheorie?",
+      "choices": [
+        "A: Zeitdilatation bei hohen Geschwindigkeiten",
+        "B: Der Einfluss von Gravitation auf Lichtstrahlen",
+        "C: Die quantisierte Natur elektromagnetischer Strahlung",
+        "D: Erhaltung der Energie in geschlossenen Systemen"
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Zeitdilatation ist ein zentrales Konzept der speziellen Relativitätstheorie und beschreibt, wie die Zeit für einen sich bewegenden Beobachter langsamer vergeht im Vergleich zu einem ruhenden Beobachter. Die anderen Optionen beziehen sich auf Prinzipien der klassischen Mechanik oder der Quantenmechanik.",
+      "difficulty": 7
+    }
+  ]
+}
