@@ -198,8 +198,9 @@ def discover_category_plugins() -> Dict[str, Callable[..., Optional[dict]]]:
     Findet alle Module in ./kategorien/ mit einer Funktion:
         generate_one(past_texts: list[str], target_difficulty: Optional[int] = None, mode: Optional[str] = None) -> dict | None
 
-    Rückgabe: Mapping { "Anzeigename": callable }
-    - Anzeigename: mod.CATEGORY_NAME oder Dateiname -> Titelcase
+    Rückgabe: Mapping { key: callable }
+    - key = modulname in lowercase (z.B. 'physik', 'politik', 'geschichte')
+    - Anzeigename bleibt weiterhin im Modul (CATEGORY_NAME), wird aber NICHT als Key verwendet.
     """
     plugins: Dict[str, Callable[..., Optional[dict]]] = {}
     try:
@@ -221,8 +222,8 @@ def discover_category_plugins() -> Dict[str, Callable[..., Optional[dict]]]:
             continue
         fn = getattr(mod, "generate_one", None)
         if callable(fn):
-            cname = getattr(mod, "CATEGORY_NAME", modname.replace("_", " ").title())
-            plugins[cname] = fn
+            key = modname.lower()  # <- **entscheidend**: interne ID = Dateiname
+            plugins[key] = fn
     return plugins
 
 
