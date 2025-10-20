@@ -1,36 +1,106 @@
 {
   "date": "2025-10-20",
-  "generated_at": "2025-10-20T09:20:25Z",
+  "generated_at": "2025-10-20T09:38:47Z",
   "schema_version": 6,
   "mode": "normal",
   "questions": [
     {
-      "category": "Sport",
-      "discipline": "Fußball",
-      "question": "Was beschreibt das Konzept der 'Offside-Regel' im Fußball?",
+      "category": "Sprache",
+      "subcategory": "Fremdsprachen",
+      "question": "In welchem der folgenden Sätze ist die Wortstellung im Deutschen korrekt?",
       "choices": [
-        "A: Ein Spieler ist im Abseits, wenn er während einer Ecke im eigenen Strafraum steht.",
-        "B: Ein Spieler ist im Abseits, wenn er bei einem Einwurf den Ball berührt, bevor er das Spielfeld betritt.",
-        "C: Ein Spieler ist im Abseits, wenn er sich näher zur gegnerischen Torlinie befindet als der Ball und der vorletzte Abwehrspieler, wenn der Ball zu ihm gespielt wird.",
-        "D: Ein Spieler ist im Abseits, wenn er sich außerhalb des Spielfelds befindet, während der Ball im Spiel ist."
+        "A: Ich möchte einen Apfel essen.",
+        "B: Ich einen Apfel essen möchte.",
+        "C: Einen Apfel möchte ich essen.",
+        "D: Essen möchte ich einen Apfel."
       ],
-      "correct_answer": "C",
-      "explanation": "Die Offside-Regel besagt, dass ein Spieler sich in einer Abseitsposition befindet, wenn er sich näher zur gegnerischen Torlinie befindet als der Ball und der vorletzte Abwehrspieler, wenn der Ball zu ihm gespielt wird. Diese Regel soll verhindern, dass Spieler einfach vor dem Tor lauern und somit das Spiel fairer gestalten.",
-      "difficulty": 6
+      "correct_answer": "A",
+      "explanation": "Im Deutschen ist die übliche Wortstellung Subjekt-Verb-Objekt, weshalb 'Ich möchte einen Apfel essen.' korrekt ist. Die anderen Optionen verstoßen gegen diese Regel oder klingen ungrammatisch.",
+      "difficulty": 7
+    },
+    {
+      "category": "Wissenschaft",
+      "topic": "Chemie",
+      "question": "Welches der folgenden Moleküle ist ein Beispiel für ein Enzym, das in der menschlichen Verdauung eine wichtige Rolle spielt?",
+      "choices": [
+        "A: Cholesterin",
+        "B: Glukose",
+        "C: Lipid",
+        "D: Amylase"
+      ],
+      "correct_answer": "D",
+      "explanation": "Amylase ist ein Enzym, das Speisen in der Mundhöhle und im Dünndarm abbaut, indem es Stärke in Zucker zerlegt. Glukose ist ein Zucker, Lipide sind Fette und Cholesterin ist ein Steroid, aber sie sind keine Enzyme.",
+      "difficulty": 5
     },
     {
       "category": "Geschichte",
       "subperiod": "Antike",
-      "question": "Welcher griechische Gott war für die Unterwelt und die Seelen der Verstorbenen zuständig?",
+      "question": "Welches Material wurde in der Pharaonenzeit hauptsächlich für den Bau von Monumentalbauten in Ägypten verwendet?",
       "choices": [
-        "A: Poseidon",
-        "B: Zeus",
-        "C: Hermes",
-        "D: Hades"
+        "A: Marmor",
+        "B: Sandstein",
+        "C: Beton",
+        "D: Ziegel"
+      ],
+      "correct_answer": "B",
+      "explanation": "In der Pharaonenzeit wurde Sandstein häufig für den Bau von Tempeln und Pyramiden verwendet, da er lokal abgebaut werden konnte und eine hohe Stabilität aufweist. Ziegel wurden ebenfalls verwendet, aber vor allem für weniger monumentale Gebäude.",
+      "difficulty": 4
+    },
+    {
+      "category": "Geographie",
+      "topic": "Kartographie & GIS",
+      "question": "Welcher dieser Flüsse fließt durch die Hauptstadt eines europäischen Landes, das für seine Windmühlen bekannt ist?",
+      "choices": [
+        "A: Amstel",
+        "B: Seine",
+        "C: Elbe",
+        "D: Donau"
+      ],
+      "correct_answer": "A",
+      "explanation": "Der Amstelfluss fließt durch Amsterdam, die Hauptstadt der Niederlande, die für ihre Windmühlen bekannt ist. Die Seine fließt durch Paris, die Donau durch mehrere Länder und die Elbe durch Deutschland, jedoch ist nur der Amstel direkt mit der genannten Hauptstadt verbunden.",
+      "difficulty": 5
+    },
+    {
+      "category": "Essen und Trinken",
+      "topic": "Ernährung",
+      "question": "Welches Vitamin ist besonders wichtig für die Funktion des Immunsystems und wird häufig mit Zitrusfrüchten in Verbindung gebracht?",
+      "choices": [
+        "A: Vitamin K",
+        "B: Vitamin A",
+        "C: Vitamin C",
+        "D: Vitamin D"
+      ],
+      "correct_answer": "C",
+      "explanation": "Vitamin C ist bekannt für seine immunstärkenden Eigenschaften und kommt vor allem in Zitrusfrüchten wie Orangen und Zitronen vor. Es spielt eine entscheidende Rolle bei der Bekämpfung von Infektionen und der Unterstützung des Immunsystems.",
+      "difficulty": 6
+    },
+    {
+      "category": "Natur",
+      "topic": "Pflanzenwelt",
+      "question": "Welche Pflanze wird häufig zur Herstellung von Brot verwendet?",
+      "choices": [
+        "A: Reis",
+        "B: Weizen",
+        "C: Mais",
+        "D: Kartoffel"
+      ],
+      "correct_answer": "B",
+      "explanation": "Weizen ist eine der am häufigsten angebauten Nutzpflanzen und wird vor allem zur Herstellung von Mehl für Brot verwendet. Reis und Mais sind ebenfalls wichtige Nutzpflanzen, jedoch nicht die Hauptzutat für Brot. Kartoffeln werden primär als Gemüse genutzt.",
+      "difficulty": 1
+    },
+    {
+      "category": "Sport",
+      "discipline": "Basketball",
+      "question": "Was ist das Hauptziel eines Basketballspielers während eines Angriffs?",
+      "choices": [
+        "A: Die Verteidigung des Gegners abzulenken.",
+        "B: Den Ball zu dribbeln, um Zeit zu gewinnen.",
+        "C: Den Ball an den Schiedsrichter zu übergeben.",
+        "D: Den Ball ins gegnerische Korb zu werfen."
       ],
       "correct_answer": "D",
-      "explanation": "Hades ist in der griechischen Mythologie der Gott der Unterwelt und das Reich der Toten. Er wird oft mit einem dreiköpfigen Hund namens Kerberos dargestellt, der die Tore zur Unterwelt bewacht.",
-      "difficulty": 8
+      "explanation": "Das Hauptziel eines Basketballspielers im Angriff ist es, den Ball erfolgreich in den gegnerischen Korb zu werfen, um Punkte zu erzielen. Dies geschieht durch verschiedene Wurf- und Spieltechniken, die darauf abzielen, die Verteidigung zu überwinden und einen Korb zu erzielen.",
+      "difficulty": 6
     }
   ]
 }

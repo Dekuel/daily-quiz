@@ -1,107 +1,107 @@
 {
   "date": "2025-10-20",
-  "generated_at": "2025-10-20T09:20:56Z",
+  "generated_at": "2025-10-20T09:39:28Z",
   "schema_version": 6,
   "mode": "schwer",
   "questions": [
     {
-      "category": "Geographie",
-      "topic": "Kartographie & GIS",
-      "question": "Welcher Maßstab würde es ermöglichen, ein detailliertes Stadtgebiet zu kartieren, sodass einzelne Gebäude und Straßen klar zu erkennen sind?",
+      "category": "Sprache",
+      "subcategory": "Wortherkunft",
+      "question": "Welches der folgenden Wörter ist ein Kompositum, das aus einem Präfix und einem Grundwort besteht?",
       "choices": [
-        "A: 1:100.000",
-        "B: 1:500.000",
-        "C: 1:1.000",
-        "D: 1:10.000.000"
+        "A: Freund",
+        "B: Freundlichkeit",
+        "C: Freundschaft",
+        "D: Unfreundlichkeit"
+      ],
+      "correct_answer": "D",
+      "explanation": "Das Wort 'Unfreundlichkeit' besteht aus dem Präfix 'un-' und dem Grundwort 'Freundlichkeit'. Das Präfix 'un-' negiert die Bedeutung des Grundworts und schafft so eine neue, entgegengesetzte Bedeutung. Die anderen Optionen sind entweder einfache Wörter oder andere Formen der Wortbildung ohne Präfix.",
+      "difficulty": 8
+    },
+    {
+      "category": "Geschichte",
+      "subperiod": "Neuzeit",
+      "question": "Welcher Vertrag beendete offiziell den Dreißigjährigen Krieg im Jahr 1648?",
+      "choices": [
+        "A: Osnabrücker Vertrag",
+        "B: Prager Frieden",
+        "C: Frieden von Westfalen",
+        "D: Vertrag von Augsburg"
       ],
       "correct_answer": "C",
-      "explanation": "Ein Maßstab von 1:1.000 zeigt eine sehr detaillierte Karte, auf der sogar einzelne Gebäude und Straßen abgebildet werden können. Höhere Maßstäbe wie 1:100.000 oder 1:10.000.000 sind für die Darstellung größerer Regionen gedacht und verlieren dabei an Detailtreue.",
-      "difficulty": 10
+      "explanation": "Der Frieden von Westfalen, bestehend aus mehreren Verträgen, beendete 1648 den Dreißigjährigen Krieg und stellte die politischen Verhältnisse in Europa neu auf. Er führte zu einer Stärkung der territorialen Souveränität der Einzelstaaten und legte den Grundstein für das moderne Völkerrecht.",
+      "difficulty": 7
+    },
+    {
+      "category": "Sport",
+      "discipline": "Basketball",
+      "question": "Was ist die maximale Anzahl an Spielern, die ein Basketballteam während eines Spiels auf dem Spielfeld haben kann?",
+      "choices": [
+        "A: 5",
+        "B: 6",
+        "C: 4",
+        "D: 7"
+      ],
+      "correct_answer": "A",
+      "explanation": "In einem Basketballspiel darf jedes Team maximal fünf Spieler gleichzeitig auf dem Spielfeld haben. Diese Regel ist entscheidend für die Teamtaktik und das Spielgeschehen.",
+      "difficulty": 3
+    },
+    {
+      "category": "Kunst und Literatur",
+      "subtopic": "Literatur",
+      "question": "Welcher Autor schrieb das Werk 'Der Steppenwolf', das tiefgehende psychologische Themen behandelt und 1927 veröffentlicht wurde?",
+      "choices": [
+        "A: Thomas Mann",
+        "B: Franz Kafka",
+        "C: Rainer Maria Rilke",
+        "D: Hermann Hesse"
+      ],
+      "correct_answer": "D",
+      "explanation": "'Der Steppenwolf' ist ein berühmter Roman von Hermann Hesse, der die innere Zerrissenheit und die Suche nach Identität thematisiert. Hesse ist bekannt für seine tiefgründigen Werke, die oft psychologische Aspekte beleuchten.",
+      "difficulty": 8,
+      "subcategory": "Literatur"
     },
     {
       "category": "Politiker",
       "discipline": "Ministerien (DE)",
-      "question": "Wer ist Bundesminister(in) für Bundesministerium für Gesundheit?",
+      "question": "Wer ist Bundesminister(in) für das Bundesministerium für Wirtschaft und Klimaschutz?",
       "choices": [
-        "A: Ulla Schmidt",
-        "B: Hermann Gröhe",
-        "C: Karl Lauterbach",
-        "D: Jens Spahn"
+        "A: Jens Spahn",
+        "B: Annalena Baerbock",
+        "C: Robert Habeck",
+        "D: Olaf Scholz"
       ],
       "correct_answer": "C",
-      "explanation": "Karl Lauterbach ist der Bundesminister für Gesundheit. Er hat die Verantwortung für die Gesundheitspolitik in Deutschland und leitet das Bundesministerium für Gesundheit.",
+      "explanation": "Der Bundesminister für Wirtschaft und Klimaschutz ist für die wirtschaftliche Entwicklung und die Umsetzung der Klimaschutzpolitik in Deutschland zuständig. Diese Position ist wichtig für die Gestaltung der Wirtschafts- und Klimapolitik des Landes.",
       "difficulty": 1
     },
     {
-      "category": "Natur",
-      "topic": "Pflanzenwelt",
-      "question": "Welcher der folgenden Bäume ist bekannt für seine charakteristischen gefingerten Blätter und kann eine Höhe von bis zu 30 Metern erreichen?",
-      "choices": [
-        "A: Kiefer",
-        "B: Ahorn",
-        "C: Eiche",
-        "D: Buche"
-      ],
-      "correct_answer": "B",
-      "explanation": "Der Ahornbaum ist besonders für seine gefingerten Blätter bekannt, die im Herbst oft leuchtend rot oder gelb werden. Eichen, Buchen und Kiefern haben andere Blattstrukturen und Wuchsformen, die sie von Ahornbäumen unterscheiden.",
-      "difficulty": 10
-    },
-    {
       "category": "Wissenschaft",
-      "topic": "Physik",
-      "question": "Ein Objekt wird in einem Vakuum fallen gelassen. Welche Aussage über die Fallgeschwindigkeit und den Einfluss der Luftdichte ist korrekt?",
+      "topic": "Chemie",
+      "question": "Welche Aussage über die Gibbs-Energie ist korrekt?",
       "choices": [
-        "A: Die Fallgeschwindigkeit wird durch die Luftdichte nicht beeinflusst, da im Vakuum keine Luft vorhanden ist.",
-        "B: Die Fallgeschwindigkeit nimmt mit der Luftdichte zu.",
-        "C: Die Fallgeschwindigkeit ist geringer, weil die Luftdichte den Widerstand erhöht.",
-        "D: Die Fallgeschwindigkeit ist konstant unabhängig von der Masse des Objekts."
+        "A: Eine negative Veränderung der Gibbs-Energie deutet auf einen spontan ablaufenden Prozess hin.",
+        "B: Die Gibbs-Energie ist stets gleich der Enthalpie einer Reaktion.",
+        "C: Eine positive Gibbs-Energie bedeutet, dass die Reaktion nicht stattfinden kann.",
+        "D: Die Gibbs-Energie kann nur bei konstantem Druck und konstanter Temperatur bestimmt werden."
       ],
       "correct_answer": "A",
-      "explanation": "Im Vakuum gibt es keinen Luftwiderstand, was bedeutet, dass die Fallgeschwindigkeit eines Objekts unabhängig von seiner Masse konstant bleibt. Daher beeinflusst die Luftdichte die Fallgeschwindigkeit nicht, da sie nicht vorhanden ist.",
+      "explanation": "Die Gibbs-Energie, auch freies Gibbs, ist ein Maß für die maximale Arbeit, die bei konstantem Druck und Temperatur aus einem System geleistet werden kann. Ein negativer Wert der Gibbs-Energie zeigt an, dass eine Reaktion spontan ablaufen kann, während eine positive Änderung darauf hinweist, dass der Prozess nicht spontan ist.",
       "difficulty": 10
-    },
-    {
-      "category": "Kunst und Literatur",
-      "subtopic": "Kunstgeschichte",
-      "question": "Welcher Künstler ist bekannt für seine Verwendung von Licht und Schatten (Chiaroscuro) in der Barockzeit?",
-      "choices": [
-        "A: Claude Monet",
-        "B: Vincent van Gogh",
-        "C: Piet Mondrian",
-        "D: Caravaggio"
-      ],
-      "correct_answer": "D",
-      "explanation": "Caravaggio ist berühmt für seine dramatische Beleuchtung und den Einsatz von Chiaroscuro, was seine Werke besonders ausdrucksstark macht. Monet hingegen gehört zur Impressionismus-Bewegung und hat einen anderen Fokus auf Licht und Farbe.",
-      "difficulty": 4,
-      "subcategory": "Kunstgeschichte"
     },
     {
       "category": "Essen und Trinken",
       "topic": "Getränke",
-      "question": "Welcher der folgenden Rohstoffe ist traditionell nicht Bestandteil der Bierherstellung?",
+      "question": "Welche Rebsorte ist bekannt für die Herstellung von Weinen in der Region Bordeaux?",
       "choices": [
-        "A: Malz",
-        "B: Wasser",
-        "C: Hopfen",
-        "D: Zuckerrohr"
+        "A: Merlot",
+        "B: Tempranillo",
+        "C: Zinfandel",
+        "D: Chardonnay"
       ],
-      "correct_answer": "D",
-      "explanation": "Bier wird typischerweise aus Malz, Hopfen und Wasser hergestellt. Zuckerrohr wird hingegen hauptsächlich für die Herstellung von Rum verwendet und ist kein Bestandteil des klassischen Brauprozesses.",
-      "difficulty": 7
-    },
-    {
-      "category": "Geschichte",
-      "subperiod": "Zeitgeschichte (ab 1945)",
-      "question": "Welches Jahr markiert den Beginn der ersten großen Bürgerrechtsbewegung in den USA, die sich gegen die Rassentrennung und für die Gleichberechtigung von Afroamerikanern einsetzte?",
-      "choices": [
-        "A: 1971",
-        "B: 1964",
-        "C: 1963",
-        "D: 1954"
-      ],
-      "correct_answer": "D",
-      "explanation": "Das Jahr 1954 ist durch das wegweisende Urteil des Obersten Gerichtshofs der USA in der Rechtssache Brown v. Board of Education bekannt, das die Rassentrennung in öffentlichen Schulen für verfassungswidrig erklärte und einen bedeutenden Wendepunkt in der Bürgerrechtsbewegung darstellte.",
-      "difficulty": 9
+      "correct_answer": "A",
+      "explanation": "Merlot ist eine der Hauptrebsorten im Bordeaux und bekannt für ihre samtigen und fruchtigen Weine. Diese Traube gedeiht gut im gemäßigten Klima der Region und ist oft Teil von Bordeaux-Cuvées.",
+      "difficulty": 6
     }
   ]
 }
