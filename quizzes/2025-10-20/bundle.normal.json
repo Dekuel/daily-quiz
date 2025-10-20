@@ -1,105 +1,35 @@
 {
   "date": "2025-10-20",
-  "generated_at": "2025-10-20T09:10:12Z",
+  "generated_at": "2025-10-20T09:20:25Z",
   "schema_version": 6,
   "mode": "normal",
   "questions": [
     {
-      "category": "Geschichte",
-      "subperiod": "Zeitgeschichte (ab 1945)",
-      "question": "Welches Dokument, das 1964 von der US-Regierung veröffentlicht wurde, gilt als entscheidend für die Bürgerrechtsbewegung und forderte eine umfassende Untersuchung der Rassendiskriminierung in den Vereinigten Staaten?",
-      "choices": [
-        "A: Der Marshall-Bericht",
-        "B: Der Civil Rights Act",
-        "C: Der Kerner-Bericht",
-        "D: Der Warren-Bericht"
-      ],
-      "correct_answer": "C",
-      "explanation": "Der Kerner-Bericht, offiziell als 'Report of the National Advisory Commission on Civil Disorders' bekannt, wurde 1968 veröffentlicht und untersuchte die Ursachen der Rassenunruhen in den USA. Er stellte fest, dass die Gesellschaft in 'zwei Nationen' gespalten war und empfahl Maßnahmen zur Beseitigung der Rassendiskriminierung.",
-      "difficulty": 8
-    },
-    {
-      "category": "Politiker",
-      "discipline": "Sitze (International)",
-      "question": "In welcher Stadt befindet sich der Hauptsitz/Sitz von WTO – Sitz?",
-      "choices": [
-        "A: Luxemburg",
-        "B: Straßburg",
-        "C: Den Haag",
-        "D: Genf"
-      ],
-      "correct_answer": "D",
-      "explanation": "Internationale Organisationen haben feste Hauptsitze; die Alternativen sind Sitze anderer Organisationen.",
-      "difficulty": 1
-    },
-    {
-      "category": "Natur",
-      "topic": "Geologie & Erde",
-      "question": "Was ist der Hauptursache für die Entstehung von Erdbeben?",
-      "choices": [
-        "A: Vulkanische Ausbrüche",
-        "B: Verschiebungen von tektonischen Platten",
-        "C: Veränderungen der Erdumlaufbahn",
-        "D: Meteoriten, die auf die Erde treffen"
-      ],
-      "correct_answer": "B",
-      "explanation": "Erdbeben entstehen hauptsächlich durch das plötzliche Auseinander- oder Aneinanderbewegen von tektonischen Platten, die die Erdkruste bilden. Diese Bewegungen können Spannungen aufbauen, die schließlich entladen werden und ein Beben verursachen.",
-      "difficulty": 6
-    },
-    {
-      "category": "Sprache",
-      "subcategory": "Wortherkunft",
-      "question": "Welches deutsche Wort hat ursprünglich eine andere Bedeutung gehabt, bevor es die heutige Annäherung an 'übertreiben' erhielt?",
-      "choices": [
-        "A: zappeln",
-        "B: schwindeln",
-        "C: anschnallen",
-        "D: klappen"
-      ],
-      "correct_answer": "B",
-      "explanation": "'Schwindeln' stammt vom mittelhochdeutschen 'swindeln', was 'hin und her bewegen' bedeutete. Im Laufe der Zeit entwickelte sich die Bedeutung hin zu 'übertreiben' oder 'lügen', was einen Bedeutungswandel darstellt. Bedeutungswandel bezeichnet die Veränderung der Bedeutung eines Wortes im Lauf der Zeit.",
-      "difficulty": 6
-    },
-    {
       "category": "Sport",
-      "discipline": "Basketball",
-      "question": "Welche Position im Basketball ist typischerweise für das Anführen des Spiels und das Verteilen des Balls verantwortlich?",
+      "discipline": "Fußball",
+      "question": "Was beschreibt das Konzept der 'Offside-Regel' im Fußball?",
       "choices": [
-        "A: Shooting Guard",
-        "B: Power Forward",
-        "C: Point Guard",
-        "D: Center"
+        "A: Ein Spieler ist im Abseits, wenn er während einer Ecke im eigenen Strafraum steht.",
+        "B: Ein Spieler ist im Abseits, wenn er bei einem Einwurf den Ball berührt, bevor er das Spielfeld betritt.",
+        "C: Ein Spieler ist im Abseits, wenn er sich näher zur gegnerischen Torlinie befindet als der Ball und der vorletzte Abwehrspieler, wenn der Ball zu ihm gespielt wird.",
+        "D: Ein Spieler ist im Abseits, wenn er sich außerhalb des Spielfelds befindet, während der Ball im Spiel ist."
       ],
       "correct_answer": "C",
-      "explanation": "Der Point Guard ist die Schlüsselposition, die für das Spielmanagement zuständig ist. Er organisiert die Angriffe und sorgt dafür, dass die Mitspieler in die beste Position kommen, um zu punkten.",
-      "difficulty": 3
+      "explanation": "Die Offside-Regel besagt, dass ein Spieler sich in einer Abseitsposition befindet, wenn er sich näher zur gegnerischen Torlinie befindet als der Ball und der vorletzte Abwehrspieler, wenn der Ball zu ihm gespielt wird. Diese Regel soll verhindern, dass Spieler einfach vor dem Tor lauern und somit das Spiel fairer gestalten.",
+      "difficulty": 6
     },
     {
-      "category": "Essen und Trinken",
-      "topic": "Getränke",
-      "question": "Welches Mineralwasser enthält in der Regel viele Mineralien und wird oft für seine positiven Wirkungen auf die Gesundheit geschätzt?",
+      "category": "Geschichte",
+      "subperiod": "Antike",
+      "question": "Welcher griechische Gott war für die Unterwelt und die Seelen der Verstorbenen zuständig?",
       "choices": [
-        "A: Mineralwasser",
-        "B: Quellwasser",
-        "C: Leitungswasser",
-        "D: Tafelwasser"
-      ],
-      "correct_answer": "A",
-      "explanation": "Mineralwasser ist für seinen hohen Gehalt an Mineralien und Spurenelementen bekannt. Es wird oft direkt aus der Quelle abgefüllt und gilt als gesundheitsfördernd. Leitungswasser und Tafelwasser enthalten weniger Mineralien, während Quellwasser häufig weniger reguliert ist.",
-      "difficulty": 1
-    },
-    {
-      "category": "Geographie",
-      "topic": "Gebirge, Inseln & Relief",
-      "question": "Welche der folgenden Wüsten liegt auf einem Hochplateau und ist bekannt für ihre extreme Höhenlage?",
-      "choices": [
-        "A: Gobi",
-        "B: Sahara",
-        "C: Kalahari",
-        "D: Atacama-Wüste"
+        "A: Poseidon",
+        "B: Zeus",
+        "C: Hermes",
+        "D: Hades"
       ],
       "correct_answer": "D",
-      "explanation": "Die Atacama-Wüste in Chile befindet sich auf dem Altiplano-Hochplateau und ist eine der trockensten Wüsten der Welt. Im Gegensatz dazu liegen die Sahara, Gobi und Kalahari in anderen geographischen Regionen mit unterschiedlichen Reliefstrukturen.",
+      "explanation": "Hades ist in der griechischen Mythologie der Gott der Unterwelt und das Reich der Toten. Er wird oft mit einem dreiköpfigen Hund namens Kerberos dargestellt, der die Tore zur Unterwelt bewacht.",
       "difficulty": 8
     }
   ]
