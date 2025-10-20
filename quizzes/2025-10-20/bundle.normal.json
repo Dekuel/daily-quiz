@@ -1,105 +1,106 @@
 {
   "date": "2025-10-20",
-  "generated_at": "2025-10-20T07:51:33Z",
-  "schema_version": 5,
+  "generated_at": "2025-10-20T08:37:56Z",
+  "schema_version": 6,
   "mode": "normal",
   "questions": [
     {
-      "category": "Wissenschaft",
-      "topic": "Biologie",
-      "question": "Welches der folgenden Ökosysteme hat die höchste Biodiversität?",
+      "category": "Geographie",
+      "topic": "Länder, Hauptstädte & Flaggen",
+      "question": "Welche Hauptstadt liegt auf der Insel Viti Levu und ist die größte Stadt Fidschis?",
       "choices": [
-        "A: Tundra",
-        "B: Wüste",
-        "C: Grasland",
-        "D: Regenwald"
+        "A: Apia",
+        "B: Honiara",
+        "C: Port Moresby",
+        "D: Suva"
       ],
       "correct_answer": "D",
-      "explanation": "Der Regenwald ist bekannt für seine immense Vielfalt an Pflanzen- und Tierarten, die in einem engen ökologischen Verhältnis zueinander stehen. Im Vergleich dazu haben Tundra, Wüste und Grasland eine geringere Anzahl von Arten und weniger komplexe Lebensgemeinschaften.",
+      "explanation": "Suva ist die Hauptstadt von Fidschi und befindet sich auf der Hauptinsel Viti Levu. Die Stadt ist ein wichtiges politisches und wirtschaftliches Zentrum in Ozeanien und liegt an der Südküste der Insel, gegenüber von Neuseeland und Tonga.",
+      "difficulty": 7
+    },
+    {
+      "category": "Natur",
+      "topic": "Tierwelt",
+      "question": "Welcher dieser Vögel ist bekannt für seine Fähigkeit, menschliche Sprache zu imitieren?",
+      "choices": [
+        "A: Spatz",
+        "B: Kranich",
+        "C: Adler",
+        "D: Papagei"
+      ],
+      "correct_answer": "D",
+      "explanation": "Papageien sind dafür bekannt, eine Vielzahl von Geräuschen und sogar menschliche Sprache nachahmen zu können. Diese Fähigkeit ist auf ihre hohe Intelligenz und spezielle Stimmapparatur zurückzuführen.",
+      "difficulty": 6
+    },
+    {
+      "category": "Essen und Trinken",
+      "topic": "Ernährung",
+      "question": "Welches der folgenden Lebensmittel ist in der EU als häufiges Allergen klassifiziert?",
+      "choices": [
+        "A: Zucchini",
+        "B: Brokkoli",
+        "C: Karotten",
+        "D: Erdnüsse"
+      ],
+      "correct_answer": "D",
+      "explanation": "Erdnüsse gehören zu den 14 häufigsten Allergenen in der EU und müssen auf Verpackungen deutlich gekennzeichnet werden. Karotten, Zucchini und Brokkoli sind nicht in dieser Liste enthalten, obwohl sie ebenfalls allergische Reaktionen hervorrufen können, jedoch seltener.",
       "difficulty": 4
     },
     {
       "category": "Sprache",
-      "subcategory": "Redewendungen",
-      "question": "Welche Redewendung wird in Deutschland häufig verwendet, um auszudrücken, dass jemand nichts mehr zu verlieren hat?",
+      "subcategory": "Wortherkunft",
+      "question": "Welches Wort hat ursprünglich die Bedeutung 'Häufchen' und hat sich semantisch zu 'kleine Menge' gewandelt?",
       "choices": [
-        "A: Den letzten Nagel ins Holz hauen.",
-        "B: Alles auf eine Karte setzen.",
-        "C: Die Flinte ins Korn werfen.",
-        "D: Den Bock zum Gärtner machen."
+        "A: Brötchen",
+        "B: Mangel",
+        "C: Mütze",
+        "D: Tunfisch"
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Wort 'Brötchen' stammt von dem mittelhochdeutschen 'brödel', was so viel wie 'Häufchen' oder 'kleines Stück' bedeutet. Im Laufe der Zeit hat sich die Bedeutung auf das gebackene kleine Brot, das wir heute kennen, verschoben.",
+      "difficulty": 2
+    },
+    {
+      "category": "Kunst und Literatur",
+      "subtopic": "Literatur",
+      "question": "Welches Werk von Franz Kafka thematisiert das absurde und entfremdete Leben eines Einzelnen in der modernen Gesellschaft?",
+      "choices": [
+        "A: Das Schloss",
+        "B: Die Verwandlung",
+        "C: Amerika",
+        "D: Der Prozess"
       ],
       "correct_answer": "B",
-      "explanation": "Die Redewendung 'Alles auf eine Karte setzen' bedeutet, dass man ein hohes Risiko eingeht, indem man seine gesamten Ressourcen oder Chancen auf eine einzige Möglichkeit konzentriert. Diese Wendung wird häufig verwendet, um zu verdeutlichen, dass man in einer aussichtslosen Lage alles auf eine Lösung setzt, da man nichts mehr zu verlieren hat.",
+      "explanation": "In 'Die Verwandlung' wird die Geschichte von Gregor Samsa erzählt, der sich eines Morgens in ein Ungeziefer verwandelt. Dieses Werk symbolisiert die Isolation und Entfremdung des Individuums in der modernen Welt, ein zentrales Thema in Kafkas Schaffen.",
+      "difficulty": 5,
+      "subcategory": "Literatur"
+    },
+    {
+      "category": "Geschichte",
+      "subperiod": "Antike",
+      "question": "Welches Jahr markiert den Beginn der römischen Kaiserzeit, die auf die Herrschaft von Augustus folgt?",
+      "choices": [
+        "A: 27 v. Chr.",
+        "B: 31 v. Chr.",
+        "C: 14 n. Chr.",
+        "D: 44 v. Chr."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Jahr 27 v. Chr. gilt als Beginn der römischen Kaiserzeit, als Augustus (Octavian) den Titel 'Princeps' annahm und die römische Republik in eine Monarchie umwandelte. Diese politische Umstellung führte zu einer neuen Ära der stabilen Herrschaft und territorialen Expansion des Römischen Reiches.",
       "difficulty": 8
     },
     {
       "category": "Politiker",
-      "discipline": "Ministerien (DE)",
-      "question": "Wer ist Bundesminister(in) für das Bundesministerium für Familie, Senioren, Frauen und Jugend?",
+      "discipline": "Sitze (International)",
+      "question": "In welcher Stadt befindet sich der Hauptsitz/Sitz von OSZE – Sekretariat?",
       "choices": [
-        "A: Christian Lindner",
-        "B: Lisa Paus",
-        "C: Annalena Baerbock",
-        "D: Olaf Scholz"
-      ],
-      "correct_answer": "B",
-      "explanation": "Das Bundesministerium für Familie, Senioren, Frauen und Jugend wird von der Person geleitet, die als Bundesminister(in) in diesem Bereich tätig ist. Lisa Paus ist die aktuelle Amtsinhaberin und hat sich auf diese Themen spezialisiert.",
-      "difficulty": 1
-    },
-    {
-      "category": "Geschichte",
-      "subperiod": "Mittelalter",
-      "question": "Welches Zentrum des Wissens und Handels war während der islamischen Blütezeit besonders bekannt?",
-      "choices": [
-        "A: Bagdad",
-        "B: Paris",
-        "C: Rom",
-        "D: Konstantinopel"
-      ],
-      "correct_answer": "A",
-      "explanation": "Bagdad war im 8. bis 13. Jahrhundert ein bedeutendes Zentrum für Wissenschaft und Handel während der islamischen Blütezeit. Die Stadt beherbergte das Haus der Weisheit, eine Institution, die Wissenschaftler aus verschiedenen Kulturen zusammenbrachte und den Austausch von Wissen förderte.",
-      "difficulty": 3
-    },
-    {
-      "category": "Geographie",
-      "topic": "Länder, Hauptstädte & Flaggen",
-      "question": "Welche Hauptstadt liegt am Jangtsekiang, dem längsten Fluss Asiens?",
-      "choices": [
-        "A: Tokio",
-        "B: Peking",
-        "C: Wuhan",
-        "D: Bangkok"
+        "A: Paris",
+        "B: Straßburg",
+        "C: Wien",
+        "D: Luxemburg"
       ],
       "correct_answer": "C",
-      "explanation": "Wuhan ist eine bedeutende Stadt in Zentralchina und liegt direkt am Jangtsekiang. Der Fluss erstreckt sich über erhebliche Teile Chinas und hat eine wichtige Rolle in der Geschichte und Wirtschaft des Landes gespielt.",
-      "difficulty": 4
-    },
-    {
-      "category": "Natur",
-      "topic": "Lebensräume & Ökosysteme",
-      "question": "Welches Tier lebt typischerweise in einem Wald?",
-      "choices": [
-        "A: Pinguin",
-        "B: Wal",
-        "C: Krokodil",
-        "D: Reh"
-      ],
-      "correct_answer": "D",
-      "explanation": "Das Reh ist ein typisches Waldbewohner, das dort Nahrung und Schutz findet. Pinguine leben in kalten Küstenregionen, Krokodile in tropischen Gewässern und Wale im Ozean, weshalb diese Tiere nicht im Wald anzutreffen sind.",
-      "difficulty": 2
-    },
-    {
-      "category": "Essen und Trinken",
-      "topic": "Küche international",
-      "question": "Welches der folgenden Lebensmittel ist ein traditionelles Gericht aus Äthiopien?",
-      "choices": [
-        "A: Tacos",
-        "B: Sushi",
-        "C: Injera",
-        "D: Paella"
-      ],
-      "correct_answer": "C",
-      "explanation": "Injera ist ein typisches äthiopisches Fladenbrot, das aus Teffmehl hergestellt wird. Es dient oft als Grundlage für verschiedene Gerichte und wird gemeinsam mit anderen Speisen serviert.",
+      "explanation": "Internationale Organisationen haben feste Hauptsitze; die Alternativen sind Sitze anderer Organisationen.",
       "difficulty": 1
     }
   ]
