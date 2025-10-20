@@ -6,8 +6,10 @@ from typing import Optional, List, Tuple, Dict
 from openai import OpenAI
 
 # ──────────────────────────────────────────────────────────────────────────────
-# Project root discovery: make sure <root> (that contains 'Unterkategorien') is on sys.path
-# This file lives at <root>/kategorien/physik.py (sometimes CI nests the repo one level deeper)
+# Make sure 'Unterkategorien' is importable in both common layouts:
+#   1) <root>/Unterkategorien/...
+#   2) <root>/kategorien/Unterkategorien/...   (CI layout)
+# Also supports lowercase folder names via aliasing.
 # ──────────────────────────────────────────────────────────────────────────────
 _THIS = os.path.abspath(__file__)
 _DIR  = os.path.dirname(_THIS)
@@ -19,55 +21,52 @@ _CANDIDATE_ROOTS = [
 ]
 
 def _ensure_root_on_syspath() -> Optional[str]:
-    # Prefer exact-cased 'Unterkategorien'
+    # Case 1: Unterkategorien directly under candidate root
     for root in _CANDIDATE_ROOTS:
         if os.path.isdir(os.path.join(root, "Unterkategorien")):
             if root not in sys.path:
                 sys.path.insert(0, root)
             return root
-    # Fallback: lowercase folder name, but alias so 'Unterkategorien' works
+    # Case 2: Unterkategorien under 'kategorien'
+    for root in _CANDIDATE_ROOTS:
+        kat_dir = os.path.join(root, "kategorien")
+        if os.path.isdir(os.path.join(kat_dir, "Unterkategorien")):
+            if kat_dir not in sys.path:
+                sys.path.insert(0, kat_dir)
+            return kat_dir
+    # Lowercase fallbacks (case 1)
     for root in _CANDIDATE_ROOTS:
         if os.path.isdir(os.path.join(root, "unterkategorien")):
             if root not in sys.path:
                 sys.path.insert(0, root)
             try:
-                import unterkategorien as _u  # lowercase import
+                import unterkategorien as _u
                 sys.modules.setdefault("Unterkategorien", sys.modules.get("unterkategorien"))
             except Exception:
                 pass
             return root
+    # Lowercase fallbacks (case 2)
+    for root in _CANDIDATE_ROOTS:
+        kat_dir = os.path.join(root, "kategorien")
+        if os.path.isdir(os.path.join(kat_dir, "unterkategorien")):
+            if kat_dir not in sys.path:
+                sys.path.insert(0, kat_dir)
+            try:
+                import unterkategorien as _u
+                sys.modules.setdefault("Unterkategorien", sys.modules.get("unterkategorien"))
+            except Exception:
+                pass
+            return kat_dir
     return None
 
 _PROJECT_ROOT = _ensure_root_on_syspath()
-
-def _fs_debug_for_top_package() -> str:
-    """Helpful diagnostics when Unterkategorien cannot be resolved."""
-    lines = []
-    for name in ("Unterkategorien", "unterkategorien"):
-        pkg_dir = os.path.join(_PROJECT_ROOT or _DIR, name)
-        init_py = os.path.join(pkg_dir, "__init__.py")
-        phys_dir = os.path.join(pkg_dir, "Physik")
-        phys_init = os.path.join(phys_dir, "__init__.py")
-        lines.append(f"  - Exists {pkg_dir}: {os.path.isdir(pkg_dir)}")
-        lines.append(f"    - __init__.py present: {os.path.isfile(init_py)}")
-        lines.append(f"    - Physik dir: {phys_dir} -> {os.path.isdir(phys_dir)}")
-        lines.append(f"      - __init__.py present: {os.path.isfile(phys_init)}")
-    lines.append("  - sys.path head:")
-    for p in sys.path[:5]:
-        lines.append(f"    * {p}")
-    return "\n".join(lines)
-
-# Optional one-time debug (enable by setting QUIZ_DEBUG=1 in CI env)
-if os.environ.get("QUIZ_DEBUG") == "1":
-    print("[physik] _PROJECT_ROOT:", _PROJECT_ROOT)
-    print(_fs_debug_for_top_package())
 
 # ──────────────────────────────────────────────────────────────────────────────
 # Plugin metadata
 # ──────────────────────────────────────────────────────────────────────────────
 CATEGORY_NAME = "Physik"
 
-# Discipline → module path (ASCII only for filenames)
+# Discipline → module path (ASCII filenames only)
 _SUBMODULE_PATHS: Dict[str, str] = {
     "Klassische Mechanik":        "Unterkategorien.Physik.klassische_mechanik",
     "Analytische Mechanik":       "Unterkategorien.Physik.analytische_mechanik",
@@ -82,12 +81,11 @@ _SUBMODULE_PATHS: Dict[str, str] = {
 }
 
 def _find_spec_with_casing_fallback(path: str):
-    """find_spec with ModuleNotFoundError guard + lowercase fallback."""
+    """find_spec with ModuleNotFoundError guard + lowercase fallback for the top-level package."""
     try:
         spec = importlib.util.find_spec(path)
     except ModuleNotFoundError:
         spec = None
-
     if spec is not None:
         return spec, path
 
@@ -98,7 +96,7 @@ def _find_spec_with_casing_fallback(path: str):
         except ModuleNotFoundError:
             spec = None
         if spec is not None:
-            # also ensure alias so later imports via 'Unterkategorien' keep working
+            # ensure alias so later 'Unterkategorien' imports work as well
             try:
                 import unterkategorien as _u
                 sys.modules.setdefault("Unterkategorien", sys.modules.get("unterkategorien"))
@@ -109,6 +107,7 @@ def _find_spec_with_casing_fallback(path: str):
     return None, path
 
 def _load_subs_strict() -> Dict[str, List[Tuple[str, int]]]:
+    """Import all subtopic modules strictly; raise with clear message if anything is missing/wrong."""
     errors: List[str] = []
     result: Dict[str, List[Tuple[str, int]]] = {}
 
@@ -140,12 +139,7 @@ def _load_subs_strict() -> Dict[str, List[Tuple[str, int]]]:
         result[disc] = subs
 
     if errors:
-        raise ImportError(
-            "Physik-Plugin konnte Subthemen nicht laden:\n"
-            + "\n".join(f" - {e}" for e in errors)
-            + "\n\nDateisystem-Check:\n" + _fs_debug_for_top_package()
-        )
-
+        raise ImportError("Physik-Plugin konnte Subthemen nicht laden:\n" + "\n".join(f" - {e}" for e in errors))
     return result
 
 _SUBDISCIPLINES: Dict[str, List[Tuple[str, int]]] = _load_subs_strict()
@@ -268,6 +262,9 @@ def _ask_json(p: str, temperature: float) -> Optional[dict]:
 def _pick_disc() -> str:
     return random.choices(list(_PHYSIK.keys()), weights=list(_PHYSIK.values()), k=1)[0]
 
+# ──────────────────────────────────────────────────────────────────────────────
+# Public generator API
+# ──────────────────────────────────────────────────────────────────────────────
 def generate_one(past_texts: List[str], target_difficulty: Optional[int] = None, mode: Optional[str] = None) -> Optional[dict]:
     disc = _pick_disc()
     tier = int(target_difficulty) if isinstance(target_difficulty, int) else random.choice([6, 8])
@@ -292,6 +289,7 @@ def generate_one(past_texts: List[str], target_difficulty: Optional[int] = None,
     data = _postprocess(data)
     return data
 
+# Optional alias & registry
 def make_question(*args, **kwargs):
     return generate_one(*args, **kwargs)
 
