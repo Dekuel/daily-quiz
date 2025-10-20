@@ -12,6 +12,9 @@ from Unterkategorien.Physik.elektrodynamik import SUBDISCIPLINES as ED_SUBS
 from Unterkategorien.Physik.srt import SUBDISCIPLINES as RT_SUBS
 from Unterkategorien.Physik.quantenmechanik import SUBDISCIPLINES as QM_SUBS
 from Unterkategorien.Physik.optik import SUBDISCIPLINES as OP_SUBS
+from Unterkategorien.Physik.kernteilchen import SUBDISCIPLINES as KT_SUBS
+from Unterkategorien.Physik.festkörper import SUBDISCIPLINES as FK_SUBS
+from Unterkategorien.Physik.statmech import SUBDISCIPLINES as SM_SUBS
 
 
 
@@ -26,7 +29,7 @@ _PHYSIK = {
     "Elektrodynamik": 10,
     "Optik": 10,
     "Kern- und Teilchenphysik": 10,
-    "Astrophysik": 10,
+    "Statistische Mechanik": 10,
     "Festkörperphysik": 10,
 }
 
@@ -36,23 +39,26 @@ _SUBDISCIPLINES: dict[str, List[Tuple[str, int]]] = {
     "Analytische Mechanik": AM_SUBS,
     "Thermodynamik": TH_SUBS,
     "Elektrodynamik": ED_SUBS,
-    "relativitätstheorie": RT_SUBS,
+    "Relativitätstheorie": RT_SUBS,
     "Quantenmechanik": QM_SUBS,
     "Optik": OP_SUBS,
-    
-
+    "Kern- und Teilchenphysik": KT_SUBS,
+    "Festkörperphysik": FK_SUBS,
+    "Statistische Mechanik": SM_SUBS,
 
 }
 
 _SCHEMA = """{
   "category": "Physik",
   "discipline": "Klassische Mechanik|Thermodynamik|Quantenmechanik|Analytische Mechanik|Relativitätstheorie|Elektrodynamik|Optik|Kern- und Teilchenphysik|Astrophysik|Festkörperphysik|berühmte Physiker",
+  "subcategory": "...",
   "question": "...",
   "choices": ["A: ...","B: ...","C: ...","D: ..."],
   "correct_answer": "A|B|C|D",
   "explanation": "2–3 Sätze, kurz und hilfreich.",
   "difficulty": 1
 }"""
+
 
 _DIFF_BANDS = [
     ((1, 2), "SEHR LEICHT (1–2): Alltagsphysik, anschauliche Begriffe, kaum Fachsprache.", 0.75),
@@ -74,17 +80,19 @@ def _pick_weighted(pairs: List[Tuple[str, int]]) -> str:
 
 def _prompt(disc: str, target_difficulty: int, mode: Optional[str], subtopic: Optional[str] = None) -> tuple[str, float]:
     band_note, temperature = _band_for_difficulty(target_difficulty)
-    sub_hint = f"- Subthema (nur als inhaltlicher Hinweis): „{subtopic}“.\n" if subtopic else ""
+    sub_line = f'- Subthema: "{subtopic}"\n' if subtopic else '- Subthema: ""\n'
     prompt = f"""
-Erzeuge EINE Multiple-Choice-Frage (A–D, genau eine richtig) zur Kategorie „Physik“, Disziplin „{disc}“ (Deutsch).
-{sub_hint}Ziel-Schwierigkeit: {target_difficulty}/10 – {band_note}
+Erzeuge EINE Multiple-Choice-Frage (A–D, genau eine richtig) zur Kategorie "Physik" (Deutsch).
+- Disziplin: "{disc}"
+{sub_line}Ziel-Schwierigkeit: {target_difficulty}/10 – {band_note}
 
 Vorgaben:
-- Allgemeinverständliche, fachlich korrekte Formulierung; keine Formelumstellungen/Rechenwege.
-- Qualitative/konzeptionelle Prüfung; Zahlen nur zur Orientierung.
+- Nutze das Subthema (falls nicht leer) als inhaltlichen Fokus der Frage.
+- Setze "discipline" exakt auf "{disc}" und "subcategory" exakt auf das oben angegebene Subthema (oder "" wenn keins).
 - Vier plausible Antwortoptionen (A–D), eine korrekt.
 - Erklärung in 2–3 Sätzen: kurz, präzise, hilfreich.
-- Gib ausschließlich valides JSON gemäß Schema zurück.
+- Antworte ausschließlich mit validem JSON gemäß Schema.
+
 
 JSON-SCHEMA:
 {_SCHEMA}

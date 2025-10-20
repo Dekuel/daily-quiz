@@ -20,6 +20,12 @@ Zusatz (NEU):
   - "physik"  -> KEINE Archivierung
 - Dateien werden geladen, erweitert und zurückgeschrieben (Bestand bleibt erhalten)
 - Einfache Dedupe innerhalb der Kategorie-Datei (identischer question-Text + Kategorie)
+
+NEU (diese Version):
+- Harmonisierung von Unterkategorien/Subdisziplinen auf das Feld `subcategory`.
+  Falls Plugins unterschiedliche Schlüssel wie `subtopic`, `subdiscipline`, `Unterkategorie` etc. liefern,
+  werden diese automatisch in `subcategory` gespiegelt (ohne die Originalfelder zu löschen).
+  Wenn ein Plugin keine Unterkategorie liefert, bleibt `subcategory` einfach ungesetzt.
 """
 
 from __future__ import annotations
@@ -103,6 +109,31 @@ def weighted_choice(weights: Dict[int, int]) -> int:
 def pick_target_difficulty_for_mode(mode: str) -> int:
     weights = DIFFICULTY_WEIGHTS.get(mode) or DIFFICULTY_WEIGHTS["normal"]
     return int(weighted_choice(weights))
+
+
+# ===================== Feld-Harmonisierung (Unterkategorie) =====================
+
+# Mögliche Plugin-Feldnamen für Unterkategorien/Subdisziplinen
+_SUBCATEGORY_ALIASES = [
+    "subcategory", "subtopic", "sub_topic",
+    "subdiscipline", "sub_discipline",
+    "unterkategorie", "unter_kategorie",
+]
+
+def _harmonize_question_metadata(q: dict) -> None:
+    """
+    Vereinheitlicht optionale Metadaten der Fragen:
+    - Spiegelt diverse Alias-Felder auf 'subcategory' (falls vorhanden).
+    - Löscht Originalfelder nicht (Backward-Kompatibilität).
+    - Greift nur, wenn 'subcategory' noch nicht gesetzt ist.
+    """
+    if not isinstance(q, dict):
+        return
+    if "subcategory" not in q:
+        for k in _SUBCATEGORY_ALIASES:
+            if k in q and isinstance(q[k], str) and q[k].strip():
+                q["subcategory"] = q[k].strip()
+                break
 
 
 # ===================== Vergangenheit laden =====================
@@ -412,6 +443,10 @@ def generate_random_categories(
             continue
         item.setdefault("difficulty", target)   # Fallback, falls Plugin noch nicht setzt
         item.setdefault("category", cat)        # NEU: Kategorie mitschreiben
+
+        # Unterkategorie/Subdisziplin harmonisieren
+        _harmonize_question_metadata(item)
+
         qt = _norm(item.get("question", ""))
         if not qt:
             continue
@@ -455,6 +490,10 @@ def generate_specific_category_questions(
             continue
         q.setdefault("difficulty", target)
         q.setdefault("category", category_name)  # NEU: Kategorie mitschreiben
+
+        # Unterkategorie/Subdisziplin harmonisieren
+        _harmonize_question_metadata(q)
+
         qt = _norm(q.get("question", ""))
         if not qt:
             continue
@@ -497,6 +536,10 @@ def generate_politics_for_mode(
             continue
         q.setdefault("difficulty", target_diff)
         q.setdefault("category", POLITICS_CATEGORY_NAME)  # NEU: Kategorie mitschreiben
+
+        # Unterkategorie/Subdisziplin harmonisieren (falls Politik-Plugin sowas hat)
+        _harmonize_question_metadata(q)
+
         qt = _norm(q.get("question", ""))
         if not qt:
             continue
@@ -529,7 +572,7 @@ def write_daily_bundle(quiz_list: List[dict], mode: str, date_str: Optional[str]
     bundle = {
         "date": day,
         "generated_at": _now_iso(),
-        "schema_version": 5,  # Multi-Modus (inkl. physik) + Plugins
+        "schema_version": 6,  # <-- erhöht: Harmonisierung 'subcategory'
         "mode": mode,
         "questions": quiz_list,
     }
