@@ -1,0 +1,148 @@
+{
+  "date": "2025-10-16",
+  "generated_at": "2025-10-16T05:13:25Z",
+  "schema_version": 5,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "discipline": "Festkörperphysik",
+      "question": "Was beschreibt die Fähigkeit eines Materials, Wärme zu leiten?",
+      "choices": [
+        "A: Dichte",
+        "B: Wärmeleitfähigkeit",
+        "C: Zähigkeit",
+        "D: Elastizität"
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Wärmeleitfähigkeit ist ein Maß dafür, wie gut ein Material Wärme von einem Ort zum anderen transportieren kann. Materialien mit hoher Wärmeleitfähigkeit, wie Metalle, können Wärme effizient leiten, während Isolatoren, wie Holz oder Styropor, dies nur schlecht können.",
+      "difficulty": 2
+    },
+    {
+      "category": "Physik",
+      "discipline": "Festkörperphysik",
+      "question": "Welches Material hat die höchste elektrische Leitfähigkeit unter den folgenden?",
+      "choices": [
+        "A: Silber",
+        "B: Eisen",
+        "C: Kupfer",
+        "D: Aluminium"
+      ],
+      "correct_answer": "A",
+      "explanation": "Silber ist das Material mit der höchsten elektrischen Leitfähigkeit, gefolgt von Kupfer und Aluminium. Diese Eigenschaft macht Silber zu einem bevorzugten Material für elektrische Leitungen, obwohl es aufgrund seiner Kosten nicht so häufig verwendet wird wie Kupfer.",
+      "difficulty": 6
+    },
+    {
+      "category": "Physik",
+      "discipline": "Kern- und Teilchenphysik",
+      "question": "Was ist das kleinste Bauelement eines Atoms?",
+      "choices": [
+        "A: Neutron",
+        "B: Elektron",
+        "C: Proton",
+        "D: Atomkern"
+      ],
+      "correct_answer": "B",
+      "explanation": "Ein Elektron ist das kleinste Bauelement eines Atoms und trägt eine negative elektrische Ladung. Es umkreist den Atomkern, der aus Protonen und Neutronen besteht. Protonen und Neutronen sind größer als Elektronen und bestehen aus Quarks.",
+      "difficulty": 2
+    },
+    {
+      "category": "Physik",
+      "discipline": "Optik",
+      "question": "Welches Phänomen beschreibt die Ablenkung von Lichtstrahlen, wenn sie an der Grenze zwischen zwei unterschiedlichen Medien passieren?",
+      "choices": [
+        "A: Brechung",
+        "B: Dispersion",
+        "C: Reflexion",
+        "D: Interferenz"
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Brechung ist das Phänomen, bei dem Lichtstrahlen ihre Richtung ändern, wenn sie in ein Medium mit einer anderen Dichte eintreten. Diese Änderung der Richtung hängt von den optischen Eigenschaften der beiden Medien ab und wird durch das Snell'sche Gesetz beschrieben.",
+      "difficulty": 6
+    },
+    {
+      "category": "Physik",
+      "discipline": "Festkörperphysik",
+      "question": "Welche der folgenden Aussagen beschreibt am besten die Eigenschaften von Metallen im Vergleich zu Isolatoren?",
+      "choices": [
+        "A: Metalle sind immer transparent, während Isolatoren undurchsichtig sind.",
+        "B: Metalle haben eine hohe elektrische Leitfähigkeit, während Isolatoren eine niedrige Leitfähigkeit aufweisen.",
+        "C: Metalle haben immer eine höhere Dichte als Isolatoren, unabhängig von der Temperatur.",
+        "D: Metalle können bei Zimmertemperatur keine Elektronen transportieren, Isolatoren hingegen schon."
+      ],
+      "correct_answer": "B",
+      "explanation": "Metalle besitzen eine hohe elektrische Leitfähigkeit aufgrund der freien Elektronen, die sich leicht bewegen können. Im Gegensatz dazu haben Isolatoren kaum freie Elektronen, was zu ihrer niedrigen Leitfähigkeit führt. Diese grundlegenden Eigenschaften sind entscheidend für die Anwendung in der Elektronik und Materialwissenschaft.",
+      "difficulty": 5
+    },
+    {
+      "category": "Physik",
+      "discipline": "Relativitätstheorie",
+      "question": "Was beschreibt die Relativitätstheorie hinsichtlich der Zeit?",
+      "choices": [
+        "A: Zeit vergeht für bewegte Objekte langsamer als für ruhende.",
+        "B: Zeit kann nicht beeinflusst werden und bleibt immer gleich.",
+        "C: Zeit vergeht schneller in der Nähe von großen Massen.",
+        "D: Zeit ist in jedem Bezugssystem konstant und unabhängig von der Bewegung."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Relativitätstheorie, insbesondere die spezielle Relativitätstheorie, besagt, dass die Zeit für bewegte Objekte langsamer vergeht als für ruhende Objekte. Dies wird als Zeitdilatation bezeichnet und ist ein zentrales Konzept in der Relativitätstheorie.",
+      "difficulty": 4
+    },
+    {
+      "category": "Physik",
+      "discipline": "Klassische Mechanik",
+      "question": "Ein Wagen mit einer Masse von 1000 kg beschleunigt gleichmäßig von 0 auf 20 m/s in 10 Sekunden. Welcher Betrag der resultierenden Kraft wirkt auf den Wagen?",
+      "choices": [
+        "A: 2000 N",
+        "B: 200 N",
+        "C: 5000 N",
+        "D: 1000 N"
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Beschleunigung beträgt 2 m/s², da die Geschwindigkeit von 0 auf 20 m/s in 10 Sekunden steigt. Nach dem Newtonschen Gesetz (F = m * a) ergibt sich eine Kraft von 1000 N für den Wagen mit 1000 kg Masse und dieser Beschleunigung.",
+      "difficulty": 5
+    },
+    {
+      "category": "Physik",
+      "discipline": "Quantenmechanik",
+      "question": "Welches Konzept beschreibt die Unmöglichkeit, sowohl den Ort als auch den Impuls eines Teilchens gleichzeitig mit beliebiger Genauigkeit zu bestimmen?",
+      "choices": [
+        "A: Quantenverschränkung",
+        "B: Prinzip der Unschärfe",
+        "C: Superposition",
+        "D: Wellen-Teilchen-Dualismus"
+      ],
+      "correct_answer": "B",
+      "explanation": "Das Heisenbergsche Unschärfeprinzip besagt, dass es eine fundamentale Grenze gibt, wie genau die Werte von Ort und Impuls eines Teilchens gleichzeitig bestimmt werden können. Diese Unschärfe ist nicht nur eine Einschränkung der Messinstrumente, sondern ein grundlegendes Merkmal der Quantenmechanik.",
+      "difficulty": 10
+    },
+    {
+      "category": "Physik",
+      "discipline": "Analytische Mechanik",
+      "question": "Ein Körper wird in einem Schwingungssystem durch eine Feder und eine Masse beschrieben. Was passiert, wenn die Feder härter gemacht wird?",
+      "choices": [
+        "A: Die Frequenz der Schwingung erhöht sich.",
+        "B: Die Energie der Schwingung bleibt konstant.",
+        "C: Die Amplitude der Schwingung nimmt zu.",
+        "D: Der Körper bleibt in Ruhe."
+      ],
+      "correct_answer": "A",
+      "explanation": "Wenn die Feder härter wird, erhöht sich die Rückstellkraft, die auf die Masse wirkt. Dies führt zu einer Erhöhung der Frequenz der Schwingung, da die Masse schneller um die Gleichgewichtslage schwingt.",
+      "difficulty": 5
+    },
+    {
+      "category": "Physik",
+      "discipline": "Festkörperphysik",
+      "question": "Was passiert mit einem festen Material, wenn es erhitzt wird?",
+      "choices": [
+        "A: Es verändert seine Farbe dauerhaft.",
+        "B: Es wird schwerer.",
+        "C: Es zieht sich zusammen.",
+        "D: Es dehnt sich aus."
+      ],
+      "correct_answer": "D",
+      "explanation": "Wenn ein festes Material erhitzt wird, bewegen sich die Teilchen schneller und nehmen mehr Platz ein, wodurch das Material sich ausdehnt. Dies ist ein allgemeines Verhalten vieler Materialien, das als thermische Ausdehnung bekannt ist.",
+      "difficulty": 1
+    }
+  ]
+}

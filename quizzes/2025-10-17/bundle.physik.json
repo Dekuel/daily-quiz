@@ -1,0 +1,148 @@
+{
+  "date": "2025-10-17",
+  "generated_at": "2025-10-17T05:13:11Z",
+  "schema_version": 5,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "discipline": "Quantenmechanik",
+      "question": "Was beschreibt das Heisenbergsche Unschärferelation in der Quantenmechanik?",
+      "choices": [
+        "A: Die Beziehung zwischen Temperatur und Energie in einem System.",
+        "B: Die Unmöglichkeit, die Energie eines Teilchens konstant zu halten.",
+        "C: Die Unmöglichkeit, den Ort und den Impuls eines Teilchens gleichzeitig genau zu bestimmen.",
+        "D: Die maximale Geschwindigkeit, mit der Informationen übertragen werden können."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Heisenbergsche Unschärferelation besagt, dass es grundlegend unmöglich ist, sowohl den genauen Ort als auch den genauen Impuls eines Teilchens gleichzeitig zu messen. Dies liegt an der Natur der Quantenmechanik, die zeigt, dass Teilchen sowohl Wellen- als auch Teilcheneigenschaften besitzen.",
+      "difficulty": 5
+    },
+    {
+      "category": "Physik",
+      "discipline": "Analytische Mechanik",
+      "question": "Was beschreibt die Geschwindigkeit eines Objekts?",
+      "choices": [
+        "A: Die Kraft, die auf das Objekt wirkt",
+        "B: Die Änderung des Ortes pro Zeiteinheit",
+        "C: Die Temperatur des Objekts",
+        "D: Die Masse des Objekts"
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Geschwindigkeit eines Objekts ist definiert als die Änderung des Ortes pro Zeiteinheit. Sie gibt an, wie schnell sich ein Objekt bewegt und in welche Richtung. Der Rest der Optionen beschreibt andere physikalische Konzepte.",
+      "difficulty": 2
+    },
+    {
+      "category": "Physik",
+      "discipline": "Astrophysik",
+      "question": "Welche der folgenden Aussagen beschreibt am besten den Effekt der Rotverschiebung bei fernen Galaxien?",
+      "choices": [
+        "A: Die Oberflächenstruktur der Galaxien verändert sich mit der Lichtgeschwindigkeit.",
+        "B: Die Temperatur der Galaxien sinkt, was zu einer blauen Verschiebung führt.",
+        "C: Die Wellenlängen des Lichts werden durch die Expansion des Universums verlängert.",
+        "D: Die Lichtintensität der Galaxien nimmt mit der Entfernung linear ab."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Rotverschiebung ist ein direktes Resultat der Expansion des Universums, bei dem sich die Wellenlängen des Lichts von fernen Galaxien verlängern. Dies bedeutet, dass das Licht, das uns erreicht, einen größeren Wellenlängenbereich hat, was als Rotverschiebung wahrgenommen wird.",
+      "difficulty": 8
+    },
+    {
+      "category": "Physik",
+      "discipline": "Optik",
+      "question": "Was passiert mit Licht, wenn es durch ein Glasfenster fällt?",
+      "choices": [
+        "A: Es wird zerstört.",
+        "B: Es wird gebrochen.",
+        "C: Es wird eingefroren.",
+        "D: Es wird angezogen."
+      ],
+      "correct_answer": "B",
+      "explanation": "Wenn Lichtstrahlen durch ein Glasfenster fallen, ändert sich ihre Richtung aufgrund der Lichtbrechung. Dies geschieht, weil Licht in verschiedenen Materialien unterschiedlich schnell ist und sich dabei an der Grenzfläche zwischen Luft und Glas krümmt.",
+      "difficulty": 2
+    },
+    {
+      "category": "Physik",
+      "discipline": "Optik",
+      "question": "Was geschieht, wenn Licht von einem optisch dichteren in ein optisch dünneres Medium übertritt?",
+      "choices": [
+        "A: Es wird gebrochen und zur Normale hin gelenkt.",
+        "B: Es passiert nichts.",
+        "C: Es wird vollständig reflektiert.",
+        "D: Es wird gebrochen und von der Normale weg gelenkt."
+      ],
+      "correct_answer": "D",
+      "explanation": "Wenn Licht von einem optisch dichteren Medium (z.B. Wasser) in ein optisch dünneres Medium (z.B. Luft) übergeht, wird es gebrochen und von der Normale weg gelenkt. Dies ist ein grundlegendes Konzept der geometrischen Optik und erklärt, warum Lichtstrahlen an der Grenze zwischen verschiedenen Medien ihre Richtung ändern.",
+      "difficulty": 3
+    },
+    {
+      "category": "Physik",
+      "discipline": "Analytische Mechanik",
+      "question": "Was beschreibt das Konzept der Impulserhaltung in der Physik?",
+      "choices": [
+        "A: Alle Körper bewegen sich mit der gleichen Geschwindigkeit.",
+        "B: Der Gesamtimpuls eines geschlossenen Systems bleibt konstant.",
+        "C: Die Masse eines Körpers bleibt immer gleich.",
+        "D: Die Energie eines Systems kann nicht verloren gehen."
+      ],
+      "correct_answer": "B",
+      "explanation": "Das Konzept der Impulserhaltung besagt, dass der Gesamtimpuls eines geschlossenen Systems, in dem keine äußeren Kräfte wirken, konstant bleibt. Dies bedeutet, dass die Summe der Impulse aller Körper innerhalb des Systems vor und nach einem Ereignis gleich ist.",
+      "difficulty": 3
+    },
+    {
+      "category": "Physik",
+      "discipline": "Elektrodynamik",
+      "question": "Welches der folgenden Konzepte beschreibt das Phänomen, dass sich ein elektrischer Strom durch einen Leiter nicht sofort mit der maximalen Geschwindigkeit ausbreitet?",
+      "choices": [
+        "A: Der elektrische Fluss",
+        "B: Die Kapazität",
+        "C: Die Relaxationszeit",
+        "D: Der Widerstand"
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Relaxationszeit beschreibt die Zeit, die benötigt wird, damit sich das elektrische Feld im Leiter stabilisiert, nachdem eine Spannung angelegt wurde. Dies führt dazu, dass der Strom nicht sofort seine maximale Stärke erreicht, sondern sich allmählich aufbaut.",
+      "difficulty": 9
+    },
+    {
+      "category": "Physik",
+      "discipline": "Optik",
+      "question": "Welche der folgenden Aussagen beschreibt am besten, was passiert, wenn Licht von einem Medium mit höherer Brechungsindex in ein Medium mit niedrigerer Brechungsindex übergeht?",
+      "choices": [
+        "A: Das Licht wird nur gebrochen, ohne Reflexion.",
+        "B: Das Licht wird vollständig absorbiert.",
+        "C: Das Licht wird an der Grenzfläche reflektiert und gebrochen.",
+        "D: Das Licht wird in alle Richtungen gestreut."
+      ],
+      "correct_answer": "C",
+      "explanation": "Wenn Licht von einem Medium mit höherem Brechungsindex in ein Medium mit niedrigerem Brechungsindex übergeht, erfährt es sowohl Reflexion als auch Brechung an der Grenzfläche. Ein Teil des Lichts wird reflektiert, während der andere Teil in das neue Medium eindringt und gebrochen wird, was zu einer Änderung der Lichtgeschwindigkeit und des Einfallswinkels führt.",
+      "difficulty": 6
+    },
+    {
+      "category": "Physik",
+      "discipline": "Elektrodynamik",
+      "question": "Was beschreibt das Coulomb-Gesetz?",
+      "choices": [
+        "A: Die Kraft zwischen zwei punktuellen elektrischen Ladungen.",
+        "B: Die Beziehung zwischen elektrischem Feld und Magnetfeld.",
+        "C: Die Wechselwirkung zwischen elektrisch geladenen Teilchen und Licht.",
+        "D: Die Bewegung von Elektronen in einem Leiter."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Coulomb-Gesetz beschreibt die Stärke und Richtung der elektrischen Kraft zwischen zwei punktuellen Ladungen. Diese Kraft ist direkt proportional zum Produkt der Ladungen und umgekehrt proportional zum Quadrat des Abstands zwischen ihnen.",
+      "difficulty": 4
+    },
+    {
+      "category": "Physik",
+      "discipline": "Astrophysik",
+      "question": "Was beschreibt die Bewegung der Erde um die Sonne?",
+      "choices": [
+        "A: Temperatur",
+        "B: Luftdruck",
+        "C: Magnetismus",
+        "D: Gravitation"
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Gravitation ist die Kraft, die die Erde in ihrer Umlaufbahn um die Sonne hält. Diese Anziehungskraft sorgt dafür, dass sich die Erde nicht geradlinig bewegt, sondern eine elliptische Bahn beschreibt.",
+      "difficulty": 1
+    }
+  ]
+}
