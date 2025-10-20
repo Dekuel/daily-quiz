@@ -1,5 +1,5 @@
-from __future__ import annotations
 # -*- coding: utf-8 -*-
+from __future__ import annotations
 """
 Daily Quiz Generator (dreimodig):
 - Modi: "normal", "schwer" und "physik"
@@ -28,17 +28,19 @@ NEU (diese Version):
   werden diese automatisch in `subcategory` gespiegelt (ohne die Originalfelder zu löschen).
   Wenn ein Plugin keine Unterkategorie liefert, bleibt `subcategory` einfach ungesetzt.
 """
+
 # --- ensure repo root on sys.path ---
 import os, sys
 REPO_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 if REPO_ROOT not in sys.path:
     sys.path.insert(0, REPO_ROOT)
-import os
+
 import re
 import json
 import random
 import importlib
 import pkgutil
+import traceback
 from datetime import datetime, timezone, timedelta
 from difflib import SequenceMatcher
 from typing import Callable, Dict, List, Optional
@@ -204,16 +206,18 @@ def discover_category_plugins() -> Dict[str, Callable[..., Optional[dict]]]:
 
     Rückgabe: Mapping { key: callable }
     - key = modulname in lowercase (z.B. 'physik', 'politik', 'geschichte')
-    - Anzeigename bleibt weiterhin im Modul (CATEGORY_NAME), wird aber NICHT als Key verwendet.
+    - Anzeigename bleibt im Modul (CATEGORY_NAME), wird aber NICHT als Key verwendet.
     """
     plugins: Dict[str, Callable[..., Optional[dict]]] = {}
     try:
         import kategorien  # type: ignore
-    except Exception:
-        return plugins
+    except Exception as e:
+        print("[DISCOVERY] Konnte Package 'kategorien' nicht importieren:", e)
+        raise
 
     pkgpath = getattr(kategorien, "__path__", None)
     if not pkgpath:
+        print("[DISCOVERY] 'kategorien' hat kein __path__ – ist es ein Package?")
         return plugins
 
     for _, modname, ispkg in pkgutil.iter_modules(pkgpath):
@@ -222,12 +226,19 @@ def discover_category_plugins() -> Dict[str, Callable[..., Optional[dict]]]:
         fqmn = f"kategorien.{modname}"
         try:
             mod = importlib.import_module(fqmn)
-        except Exception:
+        except Exception as e:
+            print(f"[PLUGIN-IMPORT-ERROR] {fqmn}: {e}")
+            traceback.print_exc()
+            # Physik ist essenziell: hier bewusst hart scheitern
+            if modname.lower() == "physik":
+                raise
             continue
+
         fn = getattr(mod, "generate_one", None)
         if callable(fn):
-            key = modname.lower()  # <- **entscheidend**: interne ID = Dateiname
+            key = modname.lower()
             plugins[key] = fn
+            print(f"[DISCOVERY] Plugin registriert: {key} -> {fn}")
     return plugins
 
 
@@ -652,6 +663,20 @@ def assign_difficulties(questions: List[dict], mode: str) -> None:
 def main():
     # 0) Plugins laden
     plugins = discover_category_plugins()
+    print("[DEBUG] Plugins gefunden:", sorted(plugins.keys()))
+
+    # Expliziter Direktimport-Test für 'kategorien.physik' (zeigt Pfad/Fehler klar an)
+    try:
+        import inspect
+        physik_mod = importlib.import_module("kategorien.physik")
+        print("[DEBUG] kategorien.physik geladen aus:", inspect.getfile(physik_mod))
+        print("[DEBUG] hat generate_one:", hasattr(physik_mod, "generate_one"))
+    except Exception as e:
+        print("[DEBUG] Direktimport 'kategorien.physik' fehlgeschlagen:", e)
+        traceback.print_exc()
+        # Wenn physik für dich zwingend ist, hier hard fail:
+        # raise
+
     if not plugins:
         print("⚠️ Keine Plugins unter ./kategorien/ gefunden – keine Fragen generierbar.")
         return
@@ -683,7 +708,7 @@ def main():
                 target=target_politics,
                 past_texts=past_texts,
                 day_seen=day_dedupe_texts,
-                mode=mode,  # NEU: Ziel-Schwierigkeit pro Frage
+                mode=mode,
             )
             print(f"[{mode}] Politikfragen erzeugt (erste Runde): {len(politics)} / {POLITICS_TARGET}")
 
@@ -693,7 +718,7 @@ def main():
                 k=target_others,
                 past_texts=past_texts,
                 exclude={POLITICS_CATEGORY_NAME},
-                mode=mode,  # NEU
+                mode=mode,
             )
 
             # 3) Fallback: wenn Politik < 2, versuche nochmals Politik nachzulegen
@@ -709,12 +734,11 @@ def main():
                     target=missing,
                     past_texts=past_texts,
                     day_seen=tmp_day_seen,
-                    mode=mode,  # NEU
+                    mode=mode,
                 )
                 politics.extend(politics_retry or [])
 
-            # 4) Wenn immer noch < 2 Politik, fülle den Fehlbetrag mit Nicht-Politik auf,
-            #    damit wir insgesamt trotzdem auf Zielanzahl kommen.
+            # 4) Wenn immer noch < 2 Politik, fülle den Fehlbetrag mit Nicht-Politik auf
             if len(politics) < target_politics:
                 deficit = target_politics - len(politics)
                 others += generate_random_categories(
@@ -722,10 +746,10 @@ def main():
                     k=deficit,
                     past_texts=past_texts,
                     exclude={POLITICS_CATEGORY_NAME},
-                    mode=mode,  # NEU
+                    mode=mode,
                 )
 
-            # 5) Finalisieren: exakt die Zielanzahlen zuschneiden
+            # 5) Finalisieren
             politics = politics[:target_politics]
             others = others[:target_others]
             qlist: List[dict] = politics + others
@@ -738,7 +762,7 @@ def main():
                 target_count=PHYSIK_QUESTIONS_COUNT,
                 past_texts=past_texts,
                 day_seen=day_dedupe_texts,
-                mode="physik",  # NEU
+                mode="physik",
             )
 
         # 3.5 Tagesweites Dedupe-Set updaten
@@ -750,7 +774,7 @@ def main():
         # 3.6 Schwierigkeiten setzen (nur Fallback, falls Plugin keinen Wert gesetzt hat)
         assign_difficulties(qlist, mode)
 
-        # 3.6b Antworten mischen (richtige Position wird angepasst)
+        # 3.6b Antworten mischen
         _shuffle_answers_in_bundle(qlist)
 
         # 3.7 Persistieren (Tages-Bundle)
