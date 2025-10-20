@@ -55,8 +55,8 @@ PHYSIK_QUESTIONS_COUNT = 10
 
 # Schwierigkeit-Gewichte (Schlüssel = Difficulty 1..10, Wert = Gewicht) – ZENTRAL
 DIFFICULTY_WEIGHTS: Dict[str, Dict[int, int]] = {
-    "schwer": {10: 14, 9: 16, 8: 21, 7: 16, 6: 11, 5: 9, 4: 6, 3: 4, 2: 2, 1: 1},
-    "normal": {10: 3, 9: 5, 8: 8, 7: 10, 6: 14, 5: 18, 4: 16, 3: 12, 2: 8, 1: 6},
+    "schwer": {10: 16, 9: 17, 8: 21, 7: 16, 6: 11, 5: 9, 4: 6, 3: 4, 2: 0, 1: 0},
+    "normal": {10: 0, 9: 0, 8: 10, 7: 10, 6: 14, 5: 18, 4: 16, 3: 12, 2: 10, 1: 10},
     "physik": {10: 3, 9: 5, 8: 8, 7: 10, 6: 14, 5: 18, 4: 16, 3: 12, 2: 8, 1: 6},
 }
 
