@@ -1,39 +1,21 @@
 # kategorien/physik.py
 # -*- coding: utf-8 -*-
-# -*- coding: utf-8 -*-
-import os, sys
+import os, sys, re, json, time, random, importlib, importlib.util
+from types import ModuleType
+from typing import Optional, List, Tuple, Dict
+from openai import OpenAI
 
-# Ensure the project root (the folder that contains 'Unterkategorien' and 'kategorien') is on sys.path.
-# This file lives at <project_root>/kategorien/physik.py, so go one level up.
+# ──────────────────────────────────────────────────────────────────────────────
+# Pfad-Setup: <repo_root> auf sys.path, damit 'Unterkategorien' sicher importierbar ist
+# Dieses File liegt bei: <repo_root>/kategorien/physik.py → ein Verzeichnis hoch = <repo_root>
+# ──────────────────────────────────────────────────────────────────────────────
 _PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 if _PROJECT_ROOT not in sys.path:
     sys.path.insert(0, _PROJECT_ROOT)
-import os
-import re
-import json
-import time
-import random
-import importlib
-import importlib.util
-import sys
-from types import ModuleType
-from typing import Optional, List, Tuple, Dict
-
-from openai import OpenAI
-
-# =============================================================================
-# Public plugin metadata
-# =============================================================================
 
 CATEGORY_NAME = "Physik"
 
-# =============================================================================
-# Strict subtopic discovery (NO fallbacks)
-# - Ensure all submodules exist, import cleanly, and expose SUBDISCIPLINES
-# - Enforce ASCII for module names (e.g., festkoerper instead of festkörper)
-# =============================================================================
-
-# Mapping: canonical discipline name -> python module path
+# Disziplin → Modulpfad (Top-Level groß geschrieben; wir probieren bei Bedarf auch klein)
 _SUBMODULE_PATHS: Dict[str, str] = {
     "Klassische Mechanik":        "Unterkategorien.Physik.klassische_mechanik",
     "Analytische Mechanik":       "Unterkategorien.Physik.analytische_mechanik",
@@ -43,27 +25,56 @@ _SUBMODULE_PATHS: Dict[str, str] = {
     "Quantenmechanik":            "Unterkategorien.Physik.quantenmechanik",
     "Optik":                      "Unterkategorien.Physik.optik",
     "Kern- und Teilchenphysik":   "Unterkategorien.Physik.kernteilchen",
-    "Festkörperphysik":           "Unterkategorien.Physik.festkoerper",  # ASCII only!
+    "Festkörperphysik":           "Unterkategorien.Physik.festkoerper",  # ASCII!
     "Statistische Mechanik":      "Unterkategorien.Physik.statmech",
 }
+
+def _find_spec_with_casing_fallback(path: str):
+    """find_spec mit Fallback auf kleingeschriebenes Top-Level ('unterkategorien.*')."""
+    spec = importlib.util.find_spec(path)
+    if spec is not None:
+        return spec, path
+    if path.startswith("Unterkategorien."):
+        alt = "unterkategorien." + path[len("Unterkategorien."):]
+        spec = importlib.util.find_spec(alt)
+        if spec is not None:
+            return spec, alt
+    return None, path
+
+def _fs_debug_for_top_package() -> str:
+    """Hilfreiche Dateisystem-Diagnose, falls 'Unterkategorien' nicht gefunden wird."""
+    lines = []
+    for name in ("Unterkategorien", "unterkategorien"):
+        pkg_dir = os.path.join(_PROJECT_ROOT, name)
+        init_py = os.path.join(pkg_dir, "__init__.py")
+        phys_dir = os.path.join(pkg_dir, "Physik")
+        phys_init = os.path.join(phys_dir, "__init__.py")
+        lines.append(f"  - Exists {pkg_dir}: {os.path.isdir(pkg_dir)}")
+        lines.append(f"    - __init__.py present: {os.path.isfile(init_py)}")
+        lines.append(f"    - Physik dir: {phys_dir} -> {os.path.isdir(phys_dir)}")
+        lines.append(f"      - __init__.py present: {os.path.isfile(phys_init)}")
+    lines.append("  - sys.path head:")
+    for p in sys.path[:5]:
+        lines.append(f"    * {p}")
+    return "\n".join(lines)
 
 def _load_subs_strict() -> Dict[str, List[Tuple[str, int]]]:
     errors: List[str] = []
     result: Dict[str, List[Tuple[str, int]]] = {}
 
     for disc, path in _SUBMODULE_PATHS.items():
-        spec = importlib.util.find_spec(path)
+        spec, used_path = _find_spec_with_casing_fallback(path)
         if spec is None:
-            errors.append(f"[{disc}] Modul nicht gefunden: {path}")
+            errors.append(f"[{disc}] Modul nicht gefunden: {path} (versucht auch casing-Fallback).")
             continue
         try:
-            mod: ModuleType = importlib.import_module(path)
+            mod: ModuleType = importlib.import_module(used_path)
         except Exception as e:
-            errors.append(f"[{disc}] Importfehler in {path}: {e.__class__.__name__}: {e}")
+            errors.append(f"[{disc}] Importfehler in {used_path}: {e.__class__.__name__}: {e}")
             continue
 
         if not hasattr(mod, "SUBDISCIPLINES"):
-            errors.append(f"[{disc}] {path} enthält kein 'SUBDISCIPLINES'")
+            errors.append(f"[{disc}] {used_path} enthält kein 'SUBDISCIPLINES'")
             continue
 
         subs = getattr(mod, "SUBDISCIPLINES")
@@ -73,31 +84,26 @@ def _load_subs_strict() -> Dict[str, List[Tuple[str, int]]]:
             all(isinstance(x[0], str) and isinstance(x[1], int) for x in subs)
         )
         if not ok:
-            errors.append(f"[{disc}] {path}.SUBDISCIPLINES hat falsches Format (erwartet List[Tuple[str,int]])")
+            errors.append(f"[{disc}] {used_path}.SUBDISCIPLINES hat falsches Format (List[Tuple[str,int]])")
             continue
 
         result[disc] = subs
 
     if errors:
-        details = "\n".join(f" - {e}" for e in errors)
-        cwd = os.getcwd()
-        syspath = "\n".join(f"   - {p}" for p in sys.path)
+        fsdiag = _fs_debug_for_top_package()
         raise ImportError(
             "Physik-Plugin konnte Subthemen nicht laden:\n"
-            f"{details}\n\n"
-            f"Arbeitsverzeichnis: {cwd}\n"
-            "sys.path:\n" + syspath + "\n"
-            "Hinweis: Prüfe ASCII-Modulnamen (z.B. 'festkoerper' statt 'festkörper'), "
-            "exakte Groß-/Kleinschreibung und __init__.py-Dateien."
+            + "\n".join(f" - {e}" for e in errors)
+            + "\n\nDateisystem-Check:\n" + fsdiag
         )
 
     return result
 
 _SUBDISCIPLINES: Dict[str, List[Tuple[str, int]]] = _load_subs_strict()
 
-# =============================================================================
-# Discipline weights and generation schema
-# =============================================================================
+# ──────────────────────────────────────────────────────────────────────────────
+# Disziplin-Gewichte & Prompt-Schema
+# ──────────────────────────────────────────────────────────────────────────────
 
 _PHYSIK: Dict[str, int] = {
     "Klassische Mechanik": 10,
@@ -130,10 +136,6 @@ _DIFF_BANDS = [
     ((7, 8), "ANSPRUCHSVOLL (7–8): präzisere Konzepte/Fallunterscheidungen, engere Distraktoren.", 0.75),
     ((9,10), "SCHWER (9–10): tiefe Konzepte/Edge Cases, genaue Begriffsabgrenzungen", 0.78),
 ]
-
-# =============================================================================
-# Helpers
-# =============================================================================
 
 def _band_for_difficulty(target: int) -> Tuple[str, float]:
     for (lo, hi), note, temp in _DIFF_BANDS:
@@ -173,37 +175,27 @@ def _normalize_choice_letter(s: str) -> str:
     return c if c in "ABCD" else ""
 
 def _postprocess(data: dict) -> Optional[dict]:
-    """
-    Normalize:
-    - choices may come as 'A: text' ... strip the 'A:' prefix
-    - correct_answer may be 'A' or 'A:' or 'a' etc.
-    Return None if invalid after normalization.
-    """
     if not isinstance(data, dict):
         return None
     if "choices" not in data or "correct_answer" not in data or "question" not in data:
         return None
 
-    # Normalize choices
     raw_choices = data["choices"]
     if not isinstance(raw_choices, list) or len(raw_choices) != 4:
         return None
     norm_choices: List[str] = []
     for c in raw_choices:
         c = str(c)
-        # remove "X:" / "X)" / "X." prefixes, where X in A-D
         if len(c) >= 2 and c[0].upper() in "ABCD" and c[1] in [":", ")", "."]:
             c = c[2:].strip()
         norm_choices.append(c)
     data["choices"] = norm_choices
 
-    # Normalize correct answer
     ca = _normalize_choice_letter(str(data["correct_answer"]))
     if ca not in "ABCD":
         return None
     data["correct_answer"] = ca
 
-    # Basic sanity
     if not isinstance(data["question"], str) or not data["question"].strip():
         return None
     if not isinstance(data.get("explanation", ""), str):
@@ -228,15 +220,7 @@ def _ask_json(p: str, temperature: float) -> Optional[dict]:
 def _pick_disc() -> str:
     return random.choices(list(_PHYSIK.keys()), weights=list(_PHYSIK.values()), k=1)[0]
 
-# =============================================================================
-# Public generator API
-# =============================================================================
-
 def generate_one(past_texts: List[str], target_difficulty: Optional[int] = None, mode: Optional[str] = None) -> Optional[dict]:
-    """
-    Returns a single MC question dict or None (if the LLM response was unusable).
-    Import-time will already have raised if any subtopic module is broken.
-    """
     disc = _pick_disc()
     tier = int(target_difficulty) if isinstance(target_difficulty, int) else random.choice([6, 8])
 
@@ -260,11 +244,9 @@ def generate_one(past_texts: List[str], target_difficulty: Optional[int] = None,
     data = _postprocess(data)
     return data
 
-# Optional alias for loaders expecting a different symbol name
 def make_question(*args, **kwargs):
     return generate_one(*args, **kwargs)
 
-# Optional plugin registry object for dynamic discovery
 PLUGIN = {
     "key": "physik",
     "name": CATEGORY_NAME,
