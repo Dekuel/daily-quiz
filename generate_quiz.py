@@ -51,10 +51,10 @@ POLITICS_TARGET = 2
 OTHER_QUESTIONS_PER_GENERAL_MODE = 7  # vorher: 3
 
 # Kategorie-Name des Politik-Plugins
-POLITICS_CATEGORY_NAME = "Politik"
+POLITICS_CATEGORY_NAME = "politik"
 
 # Kategorie-Name für das reine Physik-Quiz
-PHYSICS_CATEGORY_NAME = "Physik"
+PHYSICS_CATEGORY_NAME = "physik"
 
 # Anzahl Fragen im Physik-Bundle
 PHYSIK_QUESTIONS_COUNT = 10
