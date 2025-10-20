@@ -1,33 +1,37 @@
 # kategorien/physik.py
 # -*- coding: utf-8 -*-
-import os, sys
+import os, sys, re, json, time, random, importlib, importlib.util
+from types import ModuleType
+from typing import Optional, List, Tuple, Dict
+from openai import OpenAI
 
-# This file lives at <some_root>/kategorien/physik.py.
-# We will probe a few candidate roots and add the first one that actually contains 'Unterkategorien'.
+# ──────────────────────────────────────────────────────────────────────────────
+# Project root discovery: make sure <root> (that contains 'Unterkategorien') is on sys.path
+# This file lives at <root>/kategorien/physik.py (sometimes CI nests the repo one level deeper)
+# ──────────────────────────────────────────────────────────────────────────────
 _THIS = os.path.abspath(__file__)
 _DIR  = os.path.dirname(_THIS)
 
-# Candidate roots to try (handles CI layouts like /home/runner/work/daily-quiz/daily-quiz/…)
 _CANDIDATE_ROOTS = [
-    os.path.abspath(os.path.join(_DIR, "..")),          # <root> (sibling of 'kategorien')
-    os.path.abspath(os.path.join(_DIR, "..", "..")),    # <root> one level higher (if repo nested)
-    os.path.abspath(os.path.join(os.getcwd())),         # current working dir
+    os.path.abspath(os.path.join(_DIR, "..")),        # <root> (sibling of 'kategorien')
+    os.path.abspath(os.path.join(_DIR, "..", "..")),  # nested repo layouts
+    os.path.abspath(os.getcwd()),                     # CI working dir
 ]
 
-def _ensure_root_on_syspath():
+def _ensure_root_on_syspath() -> Optional[str]:
+    # Prefer exact-cased 'Unterkategorien'
     for root in _CANDIDATE_ROOTS:
         if os.path.isdir(os.path.join(root, "Unterkategorien")):
             if root not in sys.path:
                 sys.path.insert(0, root)
             return root
-    # As a last resort, also support lowercase folder name on disk
+    # Fallback: lowercase folder name, but alias so 'Unterkategorien' works
     for root in _CANDIDATE_ROOTS:
         if os.path.isdir(os.path.join(root, "unterkategorien")):
             if root not in sys.path:
                 sys.path.insert(0, root)
-            # create alias so 'Unterkategorien' imports still work
             try:
-                import unterkategorien as _u
+                import unterkategorien as _u  # lowercase import
                 sys.modules.setdefault("Unterkategorien", sys.modules.get("unterkategorien"))
             except Exception:
                 pass
@@ -36,26 +40,34 @@ def _ensure_root_on_syspath():
 
 _PROJECT_ROOT = _ensure_root_on_syspath()
 
-# Optional: print once to know what root was used (remove if too chatty)
-# print("[physik] using project root:", _PROJECT_ROOT)
+def _fs_debug_for_top_package() -> str:
+    """Helpful diagnostics when Unterkategorien cannot be resolved."""
+    lines = []
+    for name in ("Unterkategorien", "unterkategorien"):
+        pkg_dir = os.path.join(_PROJECT_ROOT or _DIR, name)
+        init_py = os.path.join(pkg_dir, "__init__.py")
+        phys_dir = os.path.join(pkg_dir, "Physik")
+        phys_init = os.path.join(phys_dir, "__init__.py")
+        lines.append(f"  - Exists {pkg_dir}: {os.path.isdir(pkg_dir)}")
+        lines.append(f"    - __init__.py present: {os.path.isfile(init_py)}")
+        lines.append(f"    - Physik dir: {phys_dir} -> {os.path.isdir(phys_dir)}")
+        lines.append(f"      - __init__.py present: {os.path.isfile(phys_init)}")
+    lines.append("  - sys.path head:")
+    for p in sys.path[:5]:
+        lines.append(f"    * {p}")
+    return "\n".join(lines)
 
-# -*- coding: utf-8 -*-
-import os, sys, re, json, time, random, importlib, importlib.util
-from types import ModuleType
-from typing import Optional, List, Tuple, Dict
-from openai import OpenAI
+# Optional one-time debug (enable by setting QUIZ_DEBUG=1 in CI env)
+if os.environ.get("QUIZ_DEBUG") == "1":
+    print("[physik] _PROJECT_ROOT:", _PROJECT_ROOT)
+    print(_fs_debug_for_top_package())
 
 # ──────────────────────────────────────────────────────────────────────────────
-# Pfad-Setup: <repo_root> auf sys.path, damit 'Unterkategorien' sicher importierbar ist
-# Dieses File liegt bei: <repo_root>/kategorien/physik.py → ein Verzeichnis hoch = <repo_root>
+# Plugin metadata
 # ──────────────────────────────────────────────────────────────────────────────
-_PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-if _PROJECT_ROOT not in sys.path:
-    sys.path.insert(0, _PROJECT_ROOT)
-
 CATEGORY_NAME = "Physik"
 
-# Disziplin → Modulpfad (Top-Level groß geschrieben; wir probieren bei Bedarf auch klein)
+# Discipline → module path (ASCII only for filenames)
 _SUBMODULE_PATHS: Dict[str, str] = {
     "Klassische Mechanik":        "Unterkategorien.Physik.klassische_mechanik",
     "Analytische Mechanik":       "Unterkategorien.Physik.analytische_mechanik",
@@ -70,33 +82,31 @@ _SUBMODULE_PATHS: Dict[str, str] = {
 }
 
 def _find_spec_with_casing_fallback(path: str):
-    """find_spec mit Fallback auf kleingeschriebenes Top-Level ('unterkategorien.*')."""
-    spec = importlib.util.find_spec(path)
+    """find_spec with ModuleNotFoundError guard + lowercase fallback."""
+    try:
+        spec = importlib.util.find_spec(path)
+    except ModuleNotFoundError:
+        spec = None
+
     if spec is not None:
         return spec, path
+
     if path.startswith("Unterkategorien."):
         alt = "unterkategorien." + path[len("Unterkategorien."):]
-        spec = importlib.util.find_spec(alt)
+        try:
+            spec = importlib.util.find_spec(alt)
+        except ModuleNotFoundError:
+            spec = None
         if spec is not None:
+            # also ensure alias so later imports via 'Unterkategorien' keep working
+            try:
+                import unterkategorien as _u
+                sys.modules.setdefault("Unterkategorien", sys.modules.get("unterkategorien"))
+            except Exception:
+                pass
             return spec, alt
-    return None, path
 
-def _fs_debug_for_top_package() -> str:
-    """Hilfreiche Dateisystem-Diagnose, falls 'Unterkategorien' nicht gefunden wird."""
-    lines = []
-    for name in ("Unterkategorien", "unterkategorien"):
-        pkg_dir = os.path.join(_PROJECT_ROOT, name)
-        init_py = os.path.join(pkg_dir, "__init__.py")
-        phys_dir = os.path.join(pkg_dir, "Physik")
-        phys_init = os.path.join(phys_dir, "__init__.py")
-        lines.append(f"  - Exists {pkg_dir}: {os.path.isdir(pkg_dir)}")
-        lines.append(f"    - __init__.py present: {os.path.isfile(init_py)}")
-        lines.append(f"    - Physik dir: {phys_dir} -> {os.path.isdir(phys_dir)}")
-        lines.append(f"      - __init__.py present: {os.path.isfile(phys_init)}")
-    lines.append("  - sys.path head:")
-    for p in sys.path[:5]:
-        lines.append(f"    * {p}")
-    return "\n".join(lines)
+    return None, path
 
 def _load_subs_strict() -> Dict[str, List[Tuple[str, int]]]:
     errors: List[str] = []
@@ -105,7 +115,7 @@ def _load_subs_strict() -> Dict[str, List[Tuple[str, int]]]:
     for disc, path in _SUBMODULE_PATHS.items():
         spec, used_path = _find_spec_with_casing_fallback(path)
         if spec is None:
-            errors.append(f"[{disc}] Modul nicht gefunden: {path} (versucht auch casing-Fallback).")
+            errors.append(f"[{disc}] Modul nicht gefunden: {path} (inkl. Casing-Fallback).")
             continue
         try:
             mod: ModuleType = importlib.import_module(used_path)
@@ -119,22 +129,21 @@ def _load_subs_strict() -> Dict[str, List[Tuple[str, int]]]:
 
         subs = getattr(mod, "SUBDISCIPLINES")
         ok = (
-            isinstance(subs, list) and
-            all(isinstance(x, tuple) and len(x) == 2 for x in subs) and
-            all(isinstance(x[0], str) and isinstance(x[1], int) for x in subs)
+            isinstance(subs, list)
+            and all(isinstance(x, tuple) and len(x) == 2 for x in subs)
+            and all(isinstance(x[0], str) and isinstance(x[1], int) for x in subs)
         )
         if not ok:
-            errors.append(f"[{disc}] {used_path}.SUBDISCIPLINES hat falsches Format (List[Tuple[str,int]])")
+            errors.append(f"[{disc}] {used_path}.SUBDISCIPLINES falsches Format (List[Tuple[str,int]])")
             continue
 
         result[disc] = subs
 
     if errors:
-        fsdiag = _fs_debug_for_top_package()
         raise ImportError(
             "Physik-Plugin konnte Subthemen nicht laden:\n"
             + "\n".join(f" - {e}" for e in errors)
-            + "\n\nDateisystem-Check:\n" + fsdiag
+            + "\n\nDateisystem-Check:\n" + _fs_debug_for_top_package()
         )
 
     return result
@@ -144,7 +153,6 @@ _SUBDISCIPLINES: Dict[str, List[Tuple[str, int]]] = _load_subs_strict()
 # ──────────────────────────────────────────────────────────────────────────────
 # Disziplin-Gewichte & Prompt-Schema
 # ──────────────────────────────────────────────────────────────────────────────
-
 _PHYSIK: Dict[str, int] = {
     "Klassische Mechanik": 10,
     "Thermodynamik": 10,
