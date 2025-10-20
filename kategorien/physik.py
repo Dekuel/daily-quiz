@@ -1,5 +1,13 @@
 # kategorien/physik.py
 # -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
+import os, sys
+
+# Ensure the project root (the folder that contains 'Unterkategorien' and 'kategorien') is on sys.path.
+# This file lives at <project_root>/kategorien/physik.py, so go one level up.
+_PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+if _PROJECT_ROOT not in sys.path:
+    sys.path.insert(0, _PROJECT_ROOT)
 import os
 import re
 import json
