@@ -13,7 +13,7 @@ from Unterkategorien.Physik.srt import SUBDISCIPLINES as RT_SUBS
 from Unterkategorien.Physik.quantenmechanik import SUBDISCIPLINES as QM_SUBS
 from Unterkategorien.Physik.optik import SUBDISCIPLINES as OP_SUBS
 from Unterkategorien.Physik.kernteilchen import SUBDISCIPLINES as KT_SUBS
-from Unterkategorien.Physik.festkörper import SUBDISCIPLINES as FK_SUBS
+from Unterkategorien.Physik.festkoerper import SUBDISCIPLINES as FK_SUBS
 from Unterkategorien.Physik.statmech import SUBDISCIPLINES as SM_SUBS
 
 
