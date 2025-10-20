@@ -1,0 +1,158 @@
+{
+  "date": "2025-10-20",
+  "generated_at": "2025-10-20T12:16:26Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "discipline": "Thermodynamik",
+      "subcategory": "Zweiter Hauptsatz (Kelvin-Planck/Clausius)",
+      "question": "Was besagt der zweite Hauptsatz der Thermodynamik in Bezug auf Wärmeübertragung?",
+      "choices": [
+        "A: Wärmeübertragung erfolgt immer vom wärmeren zu einem kälteren Körper.",
+        "B: Energie kann nicht erzeugt oder vernichtet werden, sondern nur umgewandelt.",
+        "C: Wärme kann von einem kälteren Körper zu einem wärmeren Körper übertragen werden, ohne Arbeit zu verrichten.",
+        "D: Ein perfekter Motor kann die gesamte Wärmeenergie in Arbeit umwandeln."
+      ],
+      "correct_answer": "A",
+      "explanation": "Der zweite Hauptsatz der Thermodynamik besagt, dass Wärme von einem wärmeren Körper zu einem kälteren Körper fließt, es sei denn, es wird Arbeit verrichtet. Dies bedeutet, dass Wärmeübertragung nicht spontan in die entgegengesetzte Richtung ohne externe Energiezufuhr erfolgen kann.",
+      "difficulty": 4
+    },
+    {
+      "category": "Physik",
+      "discipline": "Klassische Mechanik",
+      "subcategory": "Grenzflächen & Haftspannung",
+      "question": "Welche Aussage über die Haftspannung zwischen zwei festen Oberflächen ist korrekt?",
+      "choices": [
+        "A: Die Haftspannung ist immer gleich, unabhängig von den Materialien der Oberflächen.",
+        "B: Die Haftspannung ist unabhängig von der Kontaktfläche der Oberflächen.",
+        "C: Die Haftspannung kann durch Erhöhung des Drucks zwischen den Oberflächen erhöht werden.",
+        "D: Die Haftspannung ist nur in Flüssigkeiten relevant."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Haftspannung ist die Kraft, die benötigt wird, um zwei Oberflächen voneinander zu trennen. Sie kann erhöht werden, indem der Druck zwischen den Oberflächen erhöht wird, was die Kontaktfläche und die intermolekularen Kräfte beeinflusst.",
+      "difficulty": 6
+    },
+    {
+      "category": "Physik",
+      "discipline": "Quantenmechanik",
+      "subcategory": "Zweite Quantisierung: Erzeugungs-/Vernichtungsoperatoren",
+      "question": "Welcher der folgenden Operatoren wird verwendet, um ein Teilchen aus einem Quantenzustand zu erzeugen?",
+      "choices": [
+        "A: H (Hamiltonoperator)",
+        "B: p (Impulsoperator)",
+        "C: a (Vernichtungsoperator)",
+        "D: a^† (Erzeugungsoperator)"
+      ],
+      "correct_answer": "D",
+      "explanation": "Der Erzeugungsoperator a^† wird in der Quantenmechanik verwendet, um ein zusätzliches Teilchen in einen Zustand zu erzeugen. Im Gegensatz dazu reduziert der Vernichtungsoperator a die Teilchenanzahl in einem Zustand.",
+      "difficulty": 7
+    },
+    {
+      "category": "Physik",
+      "discipline": "Quantenmechanik",
+      "subcategory": "Wronski-Determinante",
+      "question": "Was beschreibt die Wronski-Determinante in der Quantenmechanik?",
+      "choices": [
+        "A: Die Unabhängigkeit von Wellenfunktionen.",
+        "B: Die Frequenz eines Photons.",
+        "C: Die Energie eines Teilchens in einem Potential.",
+        "D: Die Linearität von Wellenfunktionen."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Wronski-Determinate wird verwendet, um die lineare Unabhängigkeit von Wellenfunktionen zu überprüfen. Wenn die Wronski-Determinate nicht null ist, sind die Funktionen linear unabhängig, was in der Quantenmechanik wichtig ist, um die Lösungen der Schrödinger-Gleichung zu bestimmen.",
+      "difficulty": 4
+    },
+    {
+      "category": "Physik",
+      "discipline": "Thermodynamik",
+      "subcategory": "Thermodynamische Systeme (offen/geschlossen/isoliert)",
+      "question": "Welches dieser Systeme kann Materie und Energie mit seiner Umgebung austauschen?",
+      "choices": [
+        "A: Isoliertes System",
+        "B: Offenes System",
+        "C: None of the above",
+        "D: Geschlossenes System"
+      ],
+      "correct_answer": "B",
+      "explanation": "Ein offenes System ist in der Lage, sowohl Materie als auch Energie mit seiner Umgebung auszutauschen. Im Gegensatz dazu kann ein geschlossenes System nur Energie und ein isoliertes System weder Materie noch Energie austauschen.",
+      "difficulty": 1
+    },
+    {
+      "category": "Physik",
+      "discipline": "Klassische Mechanik",
+      "subcategory": "Innere Reibung (Kontinuumsmechanik)",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt die innere Reibung in einem viskosen Fluid?",
+      "choices": [
+        "A: Innere Reibung tritt nur bei hohen Temperaturen auf.",
+        "B: Innere Reibung kann ignoriert werden, wenn das Fluid nicht in Bewegung ist.",
+        "C: Innere Reibung ist unabhängig von der Dichte des Fluids.",
+        "D: Innere Reibung ist direkt proportional zur Geschwindigkeitsgradienten des Fluids."
+      ],
+      "correct_answer": "D",
+      "explanation": "Innere Reibung, auch Viskosität genannt, beschreibt den Widerstand, den ein Fluid der Bewegung entgegensetzt. Sie ist direkt proportional zum Geschwindigkeitsgradienten, was bedeutet, dass die Reibung steigt, wenn der Unterschied in der Geschwindigkeit zwischen benachbarten Fluidschichten zunimmt.",
+      "difficulty": 6
+    },
+    {
+      "category": "Physik",
+      "discipline": "Kern- und Teilchenphysik",
+      "subcategory": "Feynman‑Diagramme (Streuprozesse)",
+      "question": "Was beschreibt ein Feynman-Diagramm in der Kern- und Teilchenphysik?",
+      "choices": [
+        "A: Die Quantisierung von Licht in Form von Photonen.",
+        "B: Die Verteilung der Energie in einem geschlossenen System.",
+        "C: Die Wechselwirkungen zwischen Teilchen und die Austauschprozesse von Kraftträgern.",
+        "D: Die Bewegung von Teilchen in einem elektrischen Feld."
+      ],
+      "correct_answer": "C",
+      "explanation": "Feynman-Diagramme sind eine grafische Darstellung von Wechselwirkungen zwischen Teilchen in der Quantenfeldtheorie. Sie zeigen, wie Teilchen miteinander interagieren und vermitteln, welche Austauschkräfte dabei wirken, typischerweise durch die Darstellung von virtuellen Teilchen.",
+      "difficulty": 8
+    },
+    {
+      "category": "Physik",
+      "discipline": "Klassische Mechanik",
+      "subcategory": "Rotation bei konstantem Drehmoment",
+      "question": "Ein Festkörper rotiert um eine feste Achse mit einem konstanten Drehmoment. Welche Aussage über die Winkelbeschleunigung ist korrekt?",
+      "choices": [
+        "A: Die Winkelbeschleunigung ist direkt proportional zur Zeit.",
+        "B: Die Winkelbeschleunigung bleibt konstant.",
+        "C: Die Winkelbeschleunigung nimmt mit der Zeit ab.",
+        "D: Die Winkelbeschleunigung hängt nicht vom Drehmoment ab."
+      ],
+      "correct_answer": "B",
+      "explanation": "Bei einem konstanten Drehmoment ist die Winkelbeschleunigung des Körpers ebenfalls konstant, gemäß dem Drehmomentgesetz. Dies bedeutet, dass sich die Rotationsbewegung gleichmäßig verändert und keine Beschleunigungsänderung auftritt.",
+      "difficulty": 5
+    },
+    {
+      "category": "Physik",
+      "discipline": "Quantenmechanik",
+      "subcategory": "Dichtematrix (statistischer Operator)",
+      "question": "Welche Aussage über die Dichtematrix in der Quantenmechanik ist korrekt?",
+      "choices": [
+        "A: Die Dichtematrix beschreibt den Zustand eines quantenmechanischen Systems und enthält alle Informationen über die möglichen Ergebnisse von Messungen.",
+        "B: Die Dichtematrix kann niemals eine rein gemischte Zustand beschreiben.",
+        "C: Die Dichtematrix ist unabhängig von der Basis, in der sie dargestellt wird.",
+        "D: Die Dichtematrix ist immer positiv definit und hat nur reelle Eigenwerte."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Dichtematrix ist ein fundamentales Konzept in der Quantenmechanik, das den Zustand eines quantenmechanischen Systems repräsentiert und alle Informationen über die möglichen Messwerte enthält. Sie ermöglicht es, sowohl reine als auch gemischte Zustände zu beschreiben, was für die Analyse von quantenmechanischen Systemen entscheidend ist.",
+      "difficulty": 5
+    },
+    {
+      "category": "Physik",
+      "discipline": "Analytische Mechanik",
+      "subcategory": "Bezug zur Quantenmechanik (Kommutator ↔ Poisson)",
+      "question": "Welches der folgenden Paare von physikalischen Größen erfüllt die Beziehung zwischen Kommutatoren in der Quantenmechanik und Poissonklammern in der analytischen Mechanik?",
+      "choices": [
+        "A: Temperatur und Druck",
+        "B: Ort und Impuls",
+        "C: Geschwindigkeit und Beschleunigung",
+        "D: Energie und Zeit"
+      ],
+      "correct_answer": "B",
+      "explanation": "In der Quantenmechanik sind Ort und Impuls kanonisch konjugierte Größen, deren Kommutator gleich iħ ist. In der analytischen Mechanik entsprechen diese Größen den Variablen, deren Poissonklammer ebenfalls konstant ist und die dynamische Beziehungen zwischen ihnen beschreibt.",
+      "difficulty": 6
+    }
+  ]
+}

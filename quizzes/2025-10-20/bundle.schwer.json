@@ -1,106 +1,107 @@
 {
   "date": "2025-10-20",
-  "generated_at": "2025-10-20T10:00:05Z",
+  "generated_at": "2025-10-20T12:15:25Z",
   "schema_version": 6,
   "mode": "schwer",
   "questions": [
     {
-      "category": "Natur",
-      "topic": "Tierwelt",
-      "question": "Welches der folgenden Säugetiere ist bekannt für seine Fähigkeit, durch Wasser zu gleiten und dabei seine Vorderbeine als Flügel zu nutzen?",
+      "category": "Essen und Trinken",
+      "topic": "Küche international",
+      "question": "Welches der folgenden italienischen Produkte hat die geschützte Herkunftsbezeichnung DOP und ist für seine Herstellung in der Region Emilia-Romagna bekannt?",
       "choices": [
-        "A: Flughund",
-        "B: Koalabär",
-        "C: Seekuh",
-        "D: Wasserfledermaus"
+        "A: Mozzarella di Bufala",
+        "B: Parmigiano Reggiano",
+        "C: Gorgonzola",
+        "D: Prosciutto di San Daniele"
       ],
-      "correct_answer": "A",
-      "explanation": "Der Flughund ist ein Säugetier, das durch seine ausgeprägten Flughäute zwischen den Fingern in der Lage ist, durch die Luft zu fliegen und bei Bedarf auch über Wasser zu gleiten. Im Gegensatz dazu sind die Wasserfledermaus und die Seekuh weniger für das Gleiten über Wasser bekannt.",
+      "correct_answer": "B",
+      "explanation": "Parmigiano Reggiano ist ein berühmter Hartkäse, der ausschließlich in bestimmten Provinzen der Emilia-Romagna produziert werden darf und eine geschützte Ursprungsbezeichnung (DOP) hat. Die anderen Optionen sind ebenfalls geschützte Produkte, jedoch aus anderen Regionen Italiens.",
       "difficulty": 7
     },
     {
-      "category": "Politiker",
-      "discipline": "Ministerien (DE)",
-      "question": "Wer ist Bundesminister(in) für Bundesministerium für Verkehr und Digitales?",
+      "category": "Kunst und Literatur",
+      "subtopic": "Kunstgeschichte",
+      "question": "Welcher Künstler ist für die Entwicklung des Barockstils in der Malerei bekannt?",
       "choices": [
-        "A: Volker Wissing",
-        "B: Olaf Scholz",
-        "C: Andreas Scheuer",
-        "D: Peter Altmaier"
+        "A: Pablo Picasso",
+        "B: Caravaggio",
+        "C: Vincent van Gogh",
+        "D: Claude Monet"
       ],
-      "correct_answer": "A",
-      "explanation": "Das Bundesministerium für Verkehr und Digitales ist verantwortlich für die Verkehrspolitik in Deutschland. Volker Wissing ist der aktuelle Amtsinhaber und hat die Leitung des Ministeriums übernommen.",
-      "difficulty": 1
+      "correct_answer": "B",
+      "explanation": "Caravaggio gilt als einer der Hauptvertreter des Barockstils und ist bekannt für seine dramatische Beleuchtung und realistischen Darstellungen. Die anderen genannten Künstler sind mit unterschiedlichen Epochen und Stilen verbunden, jedoch nicht mit dem Barock.",
+      "difficulty": 4,
+      "subcategory": "Kunstgeschichte"
     },
     {
       "category": "Wissenschaft",
-      "topic": "Physik",
-      "question": "Welches Phänomen beschreibt die Strukturunterschiede zwischen amorphen und kristallinen Festkörpern in Bezug auf ihre atomare Anordnung?",
+      "topic": "Biologie",
+      "question": "Welche der folgenden Aussagen beschreibt am besten den Begriff 'sexuelle Selektion' in der Evolutionstheorie?",
       "choices": [
-        "A: Hohe Temperaturbeständigkeit von amorphen Materialien",
-        "B: Unregelmäßige atomare Anordnung in amorphen Festkörpern",
-        "C: Gleiche atomare Anordnung in allen Kristallen",
-        "D: Vollständige Transparenz aller kristallinen Materialien"
+        "A: Individuen mit stark ausgeprägten Überlebensfähigkeiten überleben unabhängig von ihren Fortpflanzungschancen.",
+        "B: Alle Individuen einer Art haben die gleiche Fortpflanzungsrate, unabhängig von ihren Eigenschaften.",
+        "C: Individuen mit auffälligen Merkmalen haben eine höhere Wahrscheinlichkeit, Partner zu finden und ihre Gene weiterzugeben.",
+        "D: Der Prozess der natürlichen Selektion führt immer zu einem gleichmäßigen Merkmalsverlauf in einer Population."
       ],
-      "correct_answer": "B",
-      "explanation": "Amorphe Festkörper haben keine regelmäßige, periodische Anordnung der Atome, was zu ihren unterschiedlichen physikalischen Eigenschaften im Vergleich zu kristallinen Festkörpern führt. Kristalline Materialien besitzen hingegen eine regelmäßige und wiederholte Struktur, die ihre Stabilität und mechanischen Eigenschaften bestimmt.",
-      "difficulty": 7
+      "correct_answer": "C",
+      "explanation": "Sexuelle Selektion bezieht sich auf den Vorteil, den bestimmte Merkmale bei der Partnerwahl bringen. Diese Merkmale können die Fortpflanzungschancen erhöhen, was zu einer verstärkten Weitergabe dieser Gene führt.",
+      "difficulty": 10
     },
     {
       "category": "Sprache",
-      "subcategory": "Grammatik",
-      "question": "Welcher der folgenden Sätze enthält eine korrekte Anwendung der Präposition 'an' im Deutschen?",
+      "subcategory": "Fremdsprachen",
+      "question": "Welche Form der Anrede ist im Deutschen als besonders formell und höflich angesehen?",
       "choices": [
-        "A: Ich freue mich an das Wochenende.",
-        "B: Ich denke an das Buch.",
-        "C: Ich erinnere mich an deinen Geburtstag.",
-        "D: Ich warte an dem Bus."
+        "A: Euer",
+        "B: Du",
+        "C: Ihr",
+        "D: Sie"
       ],
-      "correct_answer": "C",
-      "explanation": "'An' wird in Verbindung mit dem Akkusativ verwendet, wenn es um Erinnerungen geht, wie in 'Ich erinnere mich an...'. Die anderen Optionen verwenden 'an' nicht korrekt in Bezug auf die jeweiligen Verben oder Kontexte.",
-      "difficulty": 9
+      "correct_answer": "D",
+      "explanation": "Die Anrede 'Sie' wird im Deutschen verwendet, um Respekt und Höflichkeit auszudrücken, insbesondere in formellen oder geschäftlichen Kontexten. 'Du' ist eine vertraute Anrede und wird in informellen Situationen verwendet. 'Euer' und 'Ihr' sind ebenfalls höfliche Anredeformen, aber weniger gebräuchlich im modernen Sprachgebrauch.",
+      "difficulty": 3
+    },
+    {
+      "category": "Politiker",
+      "discipline": "Sitze (International)",
+      "question": "In welcher Stadt befindet sich der Hauptsitz/Sitz von WTO – Sitz?",
+      "choices": [
+        "A: Wien",
+        "B: New York",
+        "C: Brüssel",
+        "D: Genf"
+      ],
+      "correct_answer": "D",
+      "explanation": "Internationale Organisationen haben feste Hauptsitze; die Alternativen sind Sitze anderer Organisationen.",
+      "difficulty": 1
     },
     {
       "category": "Geschichte",
-      "subperiod": "Zeitgeschichte (ab 1945)",
-      "question": "Welches Land war 1961 Gründungsmitglied der Bewegung der Blockfreien Staaten?",
+      "subperiod": "Neuzeit",
+      "question": "Welches Ereignis gilt als der Beginn des Dreißigjährigen Krieges?",
       "choices": [
-        "A: Jugoslawien",
-        "B: Indien",
-        "C: Brasilien",
-        "D: Südafrika"
-      ],
-      "correct_answer": "A",
-      "explanation": "Jugoslawien spielt eine zentrale Rolle in der Bewegung der Blockfreien Staaten, die 1961 in Belgrad gegründet wurde, um Staaten zu vereinen, die sich nicht den großen Machtblöcken im Kalten Krieg anschließen wollten. Die Gründung war ein wichtiger Schritt in der Dekolonisation und der politischen Unabhängigkeit vieler Länder der Dritten Welt.",
-      "difficulty": 4
-    },
-    {
-      "category": "Sport",
-      "discipline": "Fußball",
-      "question": "Welcher Spieler hat die meisten Tore in der Geschichte der UEFA Champions League erzielt?",
-      "choices": [
-        "A: Lionel Messi",
-        "B: Cristiano Ronaldo",
-        "C: Raúl González",
-        "D: Robert Lewandowski"
+        "A: Der Augsburger Religionsfrieden",
+        "B: Der Prager Fenstersturz",
+        "C: Der Westfälische Frieden",
+        "D: Die Schlacht bei Nördlingen"
       ],
       "correct_answer": "B",
-      "explanation": "Cristiano Ronaldo hält den Rekord für die meisten Tore in der UEFA Champions League, mit über 130 Treffern in seinen Spielen. Seine Torquote und seine Fähigkeit, in entscheidenden Momenten zu treffen, haben ihn zur herausragenden Figur des Wettbewerbs gemacht.",
-      "difficulty": 10
+      "explanation": "Der Prager Fenstersturz von 1618 wird als Auslöser des Dreißigjährigen Krieges angesehen. Er markierte den Konflikt zwischen protestantischen und katholischen Ständen im Heiligen Römischen Reich, der sich schnell auf ganz Europa ausbreitete.",
+      "difficulty": 5
     },
     {
       "category": "Geographie",
-      "topic": "Humangeographie & Städte",
-      "question": "Welche Stadt ist bekannt für ihr Mikroklima, das durch die Lage in einem Tal und die umliegenden Gebirgen beeinflusst wird, und hat gleichzeitig eine hohe Landnutzung in Form von Gewerbe und Wohnraummangel?",
+      "topic": "Gebirge, Inseln & Relief",
+      "question": "Welches der folgenden Gebirge ist bekannt für seine Fjorde, die oft von steilen Kliffs flankiert werden und in Norwegen liegen?",
       "choices": [
-        "A: Los Angeles",
-        "B: San Francisco",
-        "C: Mexiko-Stadt",
-        "D: Zürich"
+        "A: das Skandinavische Gebirge",
+        "B: die Anden",
+        "C: die Alpen",
+        "D: die Rocky Mountains"
       ],
-      "correct_answer": "C",
-      "explanation": "Mexiko-Stadt liegt in einem Hochlandbecken, umgeben von Bergen, was zu einem einzigartigen Mikroklima führt, das sowohl die Luftqualität als auch die Landnutzung stark beeinflusst. Aufgrund der hohen Bevölkerungsdichte gibt es einen signifikanten Mangel an Wohnraum und eine starke Landnutzung durch Gewerbe.",
-      "difficulty": 10
+      "correct_answer": "A",
+      "explanation": "Das Skandinavische Gebirge erstreckt sich über Norwegen und Schweden und ist berühmt für seine tiefen Fjorde, die durch Gletscher entstanden sind. Diese Fjorde sind oft von hohen Kliffs umgeben, die dramatische Landschaften bieten.",
+      "difficulty": 8
     }
   ]
 }
