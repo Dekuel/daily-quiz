@@ -1,5 +1,45 @@
 # kategorien/physik.py
 # -*- coding: utf-8 -*-
+import os, sys
+
+# This file lives at <some_root>/kategorien/physik.py.
+# We will probe a few candidate roots and add the first one that actually contains 'Unterkategorien'.
+_THIS = os.path.abspath(__file__)
+_DIR  = os.path.dirname(_THIS)
+
+# Candidate roots to try (handles CI layouts like /home/runner/work/daily-quiz/daily-quiz/…)
+_CANDIDATE_ROOTS = [
+    os.path.abspath(os.path.join(_DIR, "..")),          # <root> (sibling of 'kategorien')
+    os.path.abspath(os.path.join(_DIR, "..", "..")),    # <root> one level higher (if repo nested)
+    os.path.abspath(os.path.join(os.getcwd())),         # current working dir
+]
+
+def _ensure_root_on_syspath():
+    for root in _CANDIDATE_ROOTS:
+        if os.path.isdir(os.path.join(root, "Unterkategorien")):
+            if root not in sys.path:
+                sys.path.insert(0, root)
+            return root
+    # As a last resort, also support lowercase folder name on disk
+    for root in _CANDIDATE_ROOTS:
+        if os.path.isdir(os.path.join(root, "unterkategorien")):
+            if root not in sys.path:
+                sys.path.insert(0, root)
+            # create alias so 'Unterkategorien' imports still work
+            try:
+                import unterkategorien as _u
+                sys.modules.setdefault("Unterkategorien", sys.modules.get("unterkategorien"))
+            except Exception:
+                pass
+            return root
+    return None
+
+_PROJECT_ROOT = _ensure_root_on_syspath()
+
+# Optional: print once to know what root was used (remove if too chatty)
+# print("[physik] using project root:", _PROJECT_ROOT)
+
+# -*- coding: utf-8 -*-
 import os, sys, re, json, time, random, importlib, importlib.util
 from types import ModuleType
 from typing import Optional, List, Tuple, Dict
