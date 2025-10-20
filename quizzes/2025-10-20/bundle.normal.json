@@ -1,106 +1,106 @@
 {
   "date": "2025-10-20",
-  "generated_at": "2025-10-20T05:12:45Z",
+  "generated_at": "2025-10-20T07:51:33Z",
   "schema_version": 5,
   "mode": "normal",
   "questions": [
     {
-      "category": "Kunst und Literatur",
-      "subtopic": "Kunstgeschichte",
-      "question": "Welche der folgenden Strömungen war ein Hauptmerkmal der italienischen Renaissance und ist eng mit dem Werk von Leonardo da Vinci verbunden?",
+      "category": "Wissenschaft",
+      "topic": "Biologie",
+      "question": "Welches der folgenden Ökosysteme hat die höchste Biodiversität?",
       "choices": [
-        "A: Tenebrismus",
-        "B: Sfumato",
-        "C: Chiaroscuro",
-        "D: Impasto"
+        "A: Tundra",
+        "B: Wüste",
+        "C: Grasland",
+        "D: Regenwald"
       ],
-      "correct_answer": "B",
-      "explanation": "Das Sfumato ist eine Technik, die besonders von Leonardo da Vinci verwendet wurde, um weiche Übergänge und eine atmosphärische Tiefe zu schaffen. Es ist ein zentrales Merkmal seiner Gemälde, das die Illusion von Volumen und Raum verstärkt.",
-      "difficulty": 9
+      "correct_answer": "D",
+      "explanation": "Der Regenwald ist bekannt für seine immense Vielfalt an Pflanzen- und Tierarten, die in einem engen ökologischen Verhältnis zueinander stehen. Im Vergleich dazu haben Tundra, Wüste und Grasland eine geringere Anzahl von Arten und weniger komplexe Lebensgemeinschaften.",
+      "difficulty": 4
     },
     {
-      "category": "Natur",
-      "topic": "Lebensräume & Ökosysteme",
-      "question": "Welches dieser Tiere ist am besten an die extremen Bedingungen einer Wüste angepasst?",
+      "category": "Sprache",
+      "subcategory": "Redewendungen",
+      "question": "Welche Redewendung wird in Deutschland häufig verwendet, um auszudrücken, dass jemand nichts mehr zu verlieren hat?",
       "choices": [
-        "A: Fennek (Wüstenfuchs)",
-        "B: Weißer Bär",
-        "C: Pinguin",
-        "D: Känguru"
+        "A: Den letzten Nagel ins Holz hauen.",
+        "B: Alles auf eine Karte setzen.",
+        "C: Die Flinte ins Korn werfen.",
+        "D: Den Bock zum Gärtner machen."
       ],
-      "correct_answer": "A",
-      "explanation": "Der Fennek hat große Ohren, die ihm helfen, Wärme abzuleiten, und ist in der Lage, ohne Wasser zu überleben, indem er aus seiner Nahrung genügend Flüssigkeit aufnimmt. Im Gegensatz dazu sind die anderen Tiere nicht an die trockenen und heißen Bedingungen der Wüste angepasst.",
+      "correct_answer": "B",
+      "explanation": "Die Redewendung 'Alles auf eine Karte setzen' bedeutet, dass man ein hohes Risiko eingeht, indem man seine gesamten Ressourcen oder Chancen auf eine einzige Möglichkeit konzentriert. Diese Wendung wird häufig verwendet, um zu verdeutlichen, dass man in einer aussichtslosen Lage alles auf eine Lösung setzt, da man nichts mehr zu verlieren hat.",
       "difficulty": 8
     },
     {
       "category": "Politiker",
       "discipline": "Ministerien (DE)",
-      "question": "Wer ist Bundesminister(in) für das Bundesministerium für Gesundheit?",
+      "question": "Wer ist Bundesminister(in) für das Bundesministerium für Familie, Senioren, Frauen und Jugend?",
       "choices": [
-        "A: Ulla Schmidt",
-        "B: Jens Spahn",
-        "C: Karl Lauterbach",
-        "D: Hermann Gröhe"
+        "A: Christian Lindner",
+        "B: Lisa Paus",
+        "C: Annalena Baerbock",
+        "D: Olaf Scholz"
       ],
-      "correct_answer": "C",
-      "explanation": "Das Bundesministerium für Gesundheit ist in Deutschland für die Gesundheitsversorgung und Gesundheitspolitik zuständig. Karl Lauterbach ist in dieser Rolle bekannt und hat sich in den letzten Jahren stark mit gesundheitspolitischen Themen auseinandergesetzt.",
+      "correct_answer": "B",
+      "explanation": "Das Bundesministerium für Familie, Senioren, Frauen und Jugend wird von der Person geleitet, die als Bundesminister(in) in diesem Bereich tätig ist. Lisa Paus ist die aktuelle Amtsinhaberin und hat sich auf diese Themen spezialisiert.",
       "difficulty": 1
     },
     {
       "category": "Geschichte",
-      "subperiod": "Neuzeit",
-      "question": "Welche bedeutende politische Ideologie entstand im Zuge der Revolutionen des 19. Jahrhunderts und beeinflusste die Nationenbildung in Europa?",
+      "subperiod": "Mittelalter",
+      "question": "Welches Zentrum des Wissens und Handels war während der islamischen Blütezeit besonders bekannt?",
       "choices": [
-        "A: Liberalismus",
-        "B: Feudalismus",
-        "C: Kolonialismus",
-        "D: Absolutismus"
+        "A: Bagdad",
+        "B: Paris",
+        "C: Rom",
+        "D: Konstantinopel"
       ],
       "correct_answer": "A",
-      "explanation": "Der Liberalismus entstand im 19. Jahrhundert als Reaktion auf Monarchien und förderte individuelle Freiheit und nationale Souveränität. Er spielte eine zentrale Rolle bei den Revolutionen von 1848 in Europa, die viele Staaten zur Bildung moderner Nationen anregten.",
-      "difficulty": 4
-    },
-    {
-      "category": "Physik",
-      "discipline": "Analytische Mechanik",
-      "question": "Ein Körper mit einer Masse von 2 kg wird in einem konstanten Gravitationsfeld von 9,81 m/s² gehalten. Welche Aussage über die Gewichtskraft des Körpers ist korrekt?",
-      "choices": [
-        "A: Die Gewichtskraft hängt nicht von der Masse ab.",
-        "B: Die Gewichtskraft beträgt 19,62 N.",
-        "C: Die Gewichtskraft beträgt 9,81 N.",
-        "D: Die Gewichtskraft ist immer gleich der Auftriebskraft."
-      ],
-      "correct_answer": "B",
-      "explanation": "Die Gewichtskraft F_g eines Körpers wird durch die Formel F_g = m * g berechnet, wobei m die Masse und g die Erdbeschleunigung ist. In diesem Fall ergibt sich die Gewichtskraft zu 2 kg * 9,81 m/s² = 19,62 N. Die anderen Aussagen sind entweder falsch oder unvollständig.",
-      "difficulty": 6
-    },
-    {
-      "category": "Sprache",
-      "subcategory": "Wortherkunft",
-      "question": "Welches Wort hat ursprünglich die Bedeutung 'schützen' und hat sich dann zu 'bewahren' gewandelt?",
-      "choices": [
-        "A: retten",
-        "B: erhalten",
-        "C: bewahren",
-        "D: schützen"
-      ],
-      "correct_answer": "B",
-      "explanation": "Das Wort 'erhalten' stammt vom mittelhochdeutschen 'erhalden', was so viel wie 'schützen' oder 'bewahren' bedeutet. Im Laufe der Zeit hat sich die Bedeutung verschoben, sodass 'erhalten' heutzutage oft im Kontext von 'bewahren' verwendet wird.",
-      "difficulty": 5
+      "explanation": "Bagdad war im 8. bis 13. Jahrhundert ein bedeutendes Zentrum für Wissenschaft und Handel während der islamischen Blütezeit. Die Stadt beherbergte das Haus der Weisheit, eine Institution, die Wissenschaftler aus verschiedenen Kulturen zusammenbrachte und den Austausch von Wissen förderte.",
+      "difficulty": 3
     },
     {
       "category": "Geographie",
       "topic": "Länder, Hauptstädte & Flaggen",
-      "question": "Welche Hauptstadt liegt am Ufer des Flusses Seine und ist bekannt für den Eiffelturm?",
+      "question": "Welche Hauptstadt liegt am Jangtsekiang, dem längsten Fluss Asiens?",
       "choices": [
-        "A: Amsterdam",
-        "B: Bern",
-        "C: Brüssel",
-        "D: Paris"
+        "A: Tokio",
+        "B: Peking",
+        "C: Wuhan",
+        "D: Bangkok"
+      ],
+      "correct_answer": "C",
+      "explanation": "Wuhan ist eine bedeutende Stadt in Zentralchina und liegt direkt am Jangtsekiang. Der Fluss erstreckt sich über erhebliche Teile Chinas und hat eine wichtige Rolle in der Geschichte und Wirtschaft des Landes gespielt.",
+      "difficulty": 4
+    },
+    {
+      "category": "Natur",
+      "topic": "Lebensräume & Ökosysteme",
+      "question": "Welches Tier lebt typischerweise in einem Wald?",
+      "choices": [
+        "A: Pinguin",
+        "B: Wal",
+        "C: Krokodil",
+        "D: Reh"
       ],
       "correct_answer": "D",
-      "explanation": "Paris ist die Hauptstadt von Frankreich und liegt am Fluss Seine. Der Eiffelturm ist eines der bekanntesten Wahrzeichen der Stadt, die im Herzen Westeuropas liegt.",
-      "difficulty": 6
+      "explanation": "Das Reh ist ein typisches Waldbewohner, das dort Nahrung und Schutz findet. Pinguine leben in kalten Küstenregionen, Krokodile in tropischen Gewässern und Wale im Ozean, weshalb diese Tiere nicht im Wald anzutreffen sind.",
+      "difficulty": 2
+    },
+    {
+      "category": "Essen und Trinken",
+      "topic": "Küche international",
+      "question": "Welches der folgenden Lebensmittel ist ein traditionelles Gericht aus Äthiopien?",
+      "choices": [
+        "A: Tacos",
+        "B: Sushi",
+        "C: Injera",
+        "D: Paella"
+      ],
+      "correct_answer": "C",
+      "explanation": "Injera ist ein typisches äthiopisches Fladenbrot, das aus Teffmehl hergestellt wird. Es dient oft als Grundlage für verschiedene Gerichte und wird gemeinsam mit anderen Speisen serviert.",
+      "difficulty": 1
     }
   ]
 }
