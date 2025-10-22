@@ -1,0 +1,158 @@
+{
+  "date": "2025-10-22",
+  "generated_at": "2025-10-22T05:13:59Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "discipline": "Festkörperphysik",
+      "subcategory": "Elastische Konstanten",
+      "question": "Was beschreibt die elastische Konstante eines Materials?",
+      "choices": [
+        "A: Die Wärmeleitfähigkeit eines Materials.",
+        "B: Die Fähigkeit eines Materials, sich unter Spannung zu verformen und nach der Entlastung in seine ursprüngliche Form zurückzukehren.",
+        "C: Die Dichte eines Materials.",
+        "D: Die elektrische Leitfähigkeit eines Materials."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die elastische Konstante eines Materials gibt an, wie gut es sich unter einer äußeren Kraft verformen kann und wie stark es in seine ursprüngliche Form zurückkehrt, wenn die Kraft entfernt wird. Sie ist ein Maß für die Steifigkeit eines Materials und ist entscheidend für das Verständnis von mechanischen Eigenschaften in der Festkörperphysik.",
+      "difficulty": 3
+    },
+    {
+      "category": "Physik",
+      "discipline": "Statistische Mechanik",
+      "subcategory": "Phasenübergänge & kritische Phänomene (Überblick)",
+      "question": "Welches der folgenden Konzepte beschreibt am besten den Begriff des kritischen Punktes in der statistischen Mechanik?",
+      "choices": [
+        "A: Ein Punkt, an dem die Temperatur eines Stoffes konstant bleibt.",
+        "B: Ein Punkt, an dem die Moleküle eines Stoffes in Ruhe sind.",
+        "C: Ein Punkt, an dem die Dichte eines Stoffes maximal ist.",
+        "D: Ein Punkt, an dem die Phasen eines Stoffes koexistieren können."
+      ],
+      "correct_answer": "D",
+      "explanation": "Der kritische Punkt ist der Zustand, bei dem die Phasen eines Stoffes, wie flüssig und gasförmig, nicht mehr unterscheidbar sind und koexistieren können. Über diesem Punkt gibt es kein Umwandeln zwischen diesen Phasen mehr, was die Eigenschaften des Materials verändert.",
+      "difficulty": 6
+    },
+    {
+      "category": "Physik",
+      "discipline": "Klassische Mechanik",
+      "subcategory": "Rotation bei konstantem Drehmoment",
+      "question": "Was passiert mit der Winkelgeschwindigkeit eines Körpers, der einem konstanten Drehmoment ausgesetzt ist, wenn der Widerstand gegen die Rotation zunimmt?",
+      "choices": [
+        "A: Die Winkelgeschwindigkeit nimmt zu.",
+        "B: Die Rotation stoppt sofort.",
+        "C: Die Winkelgeschwindigkeit bleibt konstant.",
+        "D: Die Winkelgeschwindigkeit nimmt ab."
+      ],
+      "correct_answer": "D",
+      "explanation": "Wenn ein konstantes Drehmoment auf einen Körper wirkt, aber der Widerstand gegen die Rotation (z.B. durch Reibung) zunimmt, wird die resultierende Winkelbeschleunigung verringert. Dies führt dazu, dass die Winkelgeschwindigkeit des Körpers abnimmt, bis der Widerstand das Drehmoment ausgleicht.",
+      "difficulty": 7
+    },
+    {
+      "category": "Physik",
+      "discipline": "Thermodynamik",
+      "subcategory": "Geschl. System bei konstanten Kräften: Minimum der Enthalpie H",
+      "question": "In einem geschlossenen thermodynamischen System unter konstanten Kräften strebt die Enthalpie H einem Minimum zu. Welche der folgenden Aussagen beschreibt am besten die Bedingungen, unter denen dies geschieht?",
+      "choices": [
+        "A: Wenn die Druckänderungen innerhalb des Systems sehr schnell erfolgen.",
+        "B: Wenn die Temperatur konstant bleibt und das System im Gleichgewicht ist.",
+        "C: Wenn das System einer externen Wärmequelle ausgesetzt ist.",
+        "D: Wenn das System chemische Reaktionen unterliegt."
+      ],
+      "correct_answer": "B",
+      "explanation": "Das Minimum der Enthalpie H in einem geschlossenen System wird erreicht, wenn das System thermodynamisch im Gleichgewicht ist und die Temperatur konstant bleibt. Unter diesen Bedingungen ist die Enthalpie am niedrigsten, was bedeutet, dass das System stabil ist und keine weiteren spontanen Änderungen auftreten werden.",
+      "difficulty": 7
+    },
+    {
+      "category": "Physik",
+      "discipline": "Relativitätstheorie",
+      "subcategory": "Definitionen & Rechenregeln von Tensoren",
+      "question": "Welcher der folgenden Tensoren beschreibt die Krümmung der Raum-Zeit in der allgemeinen Relativitätstheorie?",
+      "choices": [
+        "A: Krümmungs-Tensor",
+        "B: Riemann-Tensor",
+        "C: Minkowski-Tensor",
+        "D: Energie-Impuls-Tensor"
+      ],
+      "correct_answer": "B",
+      "explanation": "Der Riemann-Tensor ist ein grundlegender Tensor in der allgemeinen Relativitätstheorie, der die Geometrie der gekrümmten Raum-Zeit beschreibt. Die anderen Tensoren haben unterschiedliche physikalische Bedeutungen, sind aber nicht direkt für die Beschreibung der Raum-Zeit-Krümmung verantwortlich.",
+      "difficulty": 8
+    },
+    {
+      "category": "Physik",
+      "discipline": "Quantenmechanik",
+      "subcategory": "Quadratintegrable Funktionen H=L^2",
+      "question": "Welche der folgenden Aussagen beschreibt eine Eigenschaft von quadratintegrablen Funktionen im Hilbertraum H=L^2?",
+      "choices": [
+        "A: Sie sind nur an einer endlichen Anzahl von Stellen definiert.",
+        "B: Sie sind nicht beschränkt, können jedoch nicht divergieren.",
+        "C: Sie sind überall stetig und haben eine endliche Norm.",
+        "D: Ihre Quadrate sind Lebesgue-integrierbar über ganz R."
+      ],
+      "correct_answer": "D",
+      "explanation": "Quadratintegrable Funktionen im Hilbertraum H=L^2 müssen Lebesgue-integrierbar sein, was bedeutet, dass das Integral des Quadrats der Funktion über den gesamten Raum endlich ist. Diese Eigenschaft stellt sicher, dass die Funktion innerhalb des Hilbertraums korrekt definiert ist und eine endliche Norm besitzt.",
+      "difficulty": 5
+    },
+    {
+      "category": "Physik",
+      "discipline": "Optik",
+      "subcategory": "Gitterspektrometer",
+      "question": "Was ist die Hauptfunktion eines Gitterspektrometers?",
+      "choices": [
+        "A: Es verstärkt die Lichtintensität.",
+        "B: Es zerlegt Licht in seine Spektralfarben.",
+        "C: Es misst die Temperatur von Objekten.",
+        "D: Es erzeugt Licht durch elektrische Entladung."
+      ],
+      "correct_answer": "B",
+      "explanation": "Ein Gitterspektrometer nutzt ein optisches Gitter, um Lichtstrahlen zu beugen und in verschiedene Wellenlängen zu zerlegen, wodurch ein Spektrum entsteht. Dies ermöglicht die Analyse der Farbzusammensetzung des Lichts und ist wichtig in der Spektroskopie.",
+      "difficulty": 4
+    },
+    {
+      "category": "Physik",
+      "discipline": "Klassische Mechanik",
+      "subcategory": "Reibung: Gleitreibung",
+      "question": "Was passiert mit einem Objekt, wenn die Gleitreibung zwischen dem Objekt und der Oberfläche groß genug ist?",
+      "choices": [
+        "A: Es bewegt sich konstant weiter.",
+        "B: Es beschleunigt in die entgegengesetzte Richtung.",
+        "C: Es bleibt in Ruhe.",
+        "D: Es stoppt sofort."
+      ],
+      "correct_answer": "A",
+      "explanation": "Wenn die Gleitreibung zwischen einem Objekt und der Oberfläche groß genug ist, wird das Objekt mit konstanter Geschwindigkeit weiterbewegt, solange keine zusätzlichen Kräfte wirken. Die Reibungskraft hält das Objekt in Bewegung, bis es durch eine andere Kraft gestoppt wird.",
+      "difficulty": 2
+    },
+    {
+      "category": "Physik",
+      "discipline": "Analytische Mechanik",
+      "subcategory": "Wirkungsprinzipien (Überblick)",
+      "question": "Welches Prinzip beschreibt den Zusammenhang zwischen der Variation der Wirkung und den Bewegungen eines Systems?",
+      "choices": [
+        "A: Das Impulserhaltungsgesetz",
+        "B: Das Gesetz der Erhaltung der Energie",
+        "C: Das Prinzip der kleinsten Wirkung",
+        "D: Das Auftriebsgesetz"
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Prinzip der kleinsten Wirkung besagt, dass die tatsächliche Bahn eines Systems zwischen zwei Punkten diejenige ist, für die die Wirkung minimiert wird. Dieses Prinzip ist grundlegend für die analytische Mechanik und verbindet verschiedene Konzepte der Dynamik auf elegante Weise.",
+      "difficulty": 5
+    },
+    {
+      "category": "Physik",
+      "discipline": "Kern- und Teilchenphysik",
+      "subcategory": "Einheiten (natürliche Einheiten)",
+      "question": "Welche Einheit wird in der natürlichen Einheitensystematik häufig verwendet, um die Energie von Teilchen zu beschreiben?",
+      "choices": [
+        "A: Elektronvolt",
+        "B: Watt",
+        "C: Joule",
+        "D: Newton"
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Elektronvolt (eV) ist eine natürliche Einheit, die häufig in der Kern- und Teilchenphysik verwendet wird, um die Energie von Teilchen zu quantifizieren. Im Gegensatz dazu sind Joule, Newton und Watt nicht spezifisch für die Beschreibung der Energieniveaus in diesen Bereichen.",
+      "difficulty": 7
+    }
+  ]
+}
