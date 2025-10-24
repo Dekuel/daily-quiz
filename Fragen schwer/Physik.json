@@ -70,6 +70,36 @@
       "correct_answer": "D",
       "explanation": "Das Gesetz der Reflexion besagt, dass der Winkel, in dem das Licht auf eine Oberfläche trifft (Einfallswinkel), gleich dem Winkel ist, in dem es von der Oberfläche reflektiert wird (Reflexionswinkel). Dieses Prinzip gilt für alle reflektierenden Oberflächen und ist grundlegend für das Verständnis optischer Phänomene.",
       "difficulty": 4
+    },
+    {
+      "category": "Physik",
+      "discipline": "Statistische Mechanik",
+      "subcategory": "Kanonisches Ensemble: Dichtematrix & Zustandssumme",
+      "question": "Welche Aussage zur Zustandssumme im kanonischen Ensemble ist korrekt?",
+      "choices": [
+        "A: Die Zustandssumme bleibt konstant, unabhängig von der Temperatur.",
+        "B: Die Zustandssumme ist die Summe der Exponentialfunktionen der Energien multipliziert mit der Boltzmann-Konstante.",
+        "C: Die Zustandssumme ist das Produkt der Dichten aller möglichen Mikrozustände.",
+        "D: Die Zustandssumme ist direkt proportional zur Anzahl der Moleküle im System."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Zustandssumme im kanonischen Ensemble ist definiert als die Summe der Exponentialfunktionen der Energien der Mikrozustände, gewichtet mit der Boltzmann-Konstante und der Temperatur. Diese Berechnung ist entscheidend für die Ableitung thermodynamischer Eigenschaften des Systems bei konstantem Volumen und konstanter Temperatur.",
+      "difficulty": 8
+    },
+    {
+      "category": "Physik",
+      "discipline": "Klassische Mechanik",
+      "subcategory": "Wärmeleitung in Gasen",
+      "question": "Welcher der folgenden Faktoren hat den größten Einfluss auf die Wärmeleitfähigkeit eines Gases?",
+      "choices": [
+        "A: Die Molmasse des Gases",
+        "B: Die Temperatur des Gases",
+        "C: Der Druck des Gases",
+        "D: Die Viskosität des Gases"
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Wärmeleitfähigkeit in Gasen ist stark von der Molmasse abhängig, da leichtere Gasmoleküle schneller bewegen können und somit Energie effizienter übertragen. Temperatur und Druck haben ebenfalls Einfluss, aber die Molmasse bleibt der entscheidende Faktor in diesem Zusammenhang.",
+      "difficulty": 9
     }
   ]
 }

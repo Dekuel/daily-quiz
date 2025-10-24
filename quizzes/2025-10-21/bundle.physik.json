@@ -1,0 +1,158 @@
+{
+  "date": "2025-10-21",
+  "generated_at": "2025-10-21T05:13:40Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "discipline": "Relativitätstheorie",
+      "subcategory": "Transformation der elektromagnetischen Felder",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt, wie sich elektrische und magnetische Felder unter Lorentz-Transformationen verhalten?",
+      "choices": [
+        "A: Das elektrische Feld verändert sich nur, wenn die Bewegungsrichtung des Beobachters mit der Feldrichtung übereinstimmt.",
+        "B: Sowohl das elektrische als auch das magnetische Feld verändern sich, wenn sich der Beobachter relativ zu den Feldern bewegt.",
+        "C: Das elektrische Feld bleibt unverändert, während das magnetische Feld bei relativistischer Bewegung des Beobachters unverändert bleibt.",
+        "D: Die Transformation der Felder führt dazu, dass die Energie des Systems konstant bleibt, unabhängig von der Relativgeschwindigkeit."
+      ],
+      "correct_answer": "B",
+      "explanation": "Bei Lorentz-Transformationen ändern sich sowohl die elektrischen als auch die magnetischen Felder, wenn sich der Beobachter relativ zu diesen Feldern bewegt. Dies ist eine grundlegende Eigenschaft der Elektrodynamik in der relativistischen Physik, die die Wechselwirkungen zwischen Feldern und bewegten Ladungen beschreibt.",
+      "difficulty": 8
+    },
+    {
+      "category": "Physik",
+      "discipline": "Optik",
+      "subcategory": "Reflexionsvermögen absorbierender Medien",
+      "question": "Welches der folgenden Materialien hat das höchste Reflexionsvermögen für sichtbares Licht?",
+      "choices": [
+        "A: Wasser",
+        "B: schwarzes Papier",
+        "C: rotes Glas",
+        "D: Spiegel"
+      ],
+      "correct_answer": "D",
+      "explanation": "Spiegel sind dafür konstruiert, Licht zu reflektieren und besitzen ein sehr hohes Reflexionsvermögen. Im Gegensatz dazu absorbiert schwarzes Papier einen Großteil des Lichts, Wasser hat ein moderates Reflexionsvermögen, und rotes Glas lässt nur einen Teil des Lichts durch, während es den Rest absorbiert.",
+      "difficulty": 6
+    },
+    {
+      "category": "Physik",
+      "discipline": "Kern- und Teilchenphysik",
+      "subcategory": "Elektroschwache Vereinheitlichung (SU(2)×U(1))",
+      "question": "Welche der folgenden Aussagen über die elektroschwache Vereinheitlichung ist korrekt?",
+      "choices": [
+        "A: Die elektroschwache Theorie vereint die Elektromagnetische und die Schwache Wechselwirkung unter einem gemeinsamen Rahmen.",
+        "B: In der elektroschwachen Theorie sind die W- und Z-Bosonen masselos.",
+        "C: Die elektroschwache Vereinigung gilt nur für Teilchen mit positiver Ladung.",
+        "D: Die elektroschwache Wechselwirkung ist durch die Quantengravitation bedingt."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die elektroschwache Vereinheitlichung beschreibt, wie die elektromagnetische und die schwache Wechselwirkung in einer einzigen Theorie zusammengefasst werden. Diese Theorie erklärt, warum W- und Z-Bosonen eine Masse haben, was im Widerspruch zu Aussage B steht. Aussage C und D sind ebenfalls falsch, da sie grundlegende Missverständnisse über die Natur der Wechselwirkungen beinhalten.",
+      "difficulty": 5
+    },
+    {
+      "category": "Physik",
+      "discipline": "Klassische Mechanik",
+      "subcategory": "Kapillarität",
+      "question": "Welche der folgenden Aussagen beschreibt am besten den Einfluss der Oberflächenspannung auf die Kapillarität in einem engen Rohr?",
+      "choices": [
+        "A: Die Oberflächenspannung verursacht eine negative Druckdifferenz, die den Flüssigkeitsstand im Rohr anhebt.",
+        "B: Eine höhere Oberflächenspannung führt immer zu einer niedrigeren Kapillarität.",
+        "C: Die Oberflächenspannung hat keinen Einfluss auf die Kapillarität in einem Rohr.",
+        "D: Die Oberflächenspannung bewirkt, dass die Flüssigkeit im Rohr nicht ansteigt."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Oberflächenspannung spielt eine entscheidende Rolle bei der Kapillarität, indem sie eine negative Druckdifferenz erzeugt, die die Flüssigkeit im Rohr anhebt. Dies resultiert aus der Wechselwirkung zwischen der Flüssigkeit und den Wänden des Rohrs sowie dem Molekülverhalten an der Oberfläche.",
+      "difficulty": 10
+    },
+    {
+      "category": "Physik",
+      "discipline": "Optik",
+      "subcategory": "Lichtausbreitung im Hohlleiter",
+      "question": "Wie breitet sich Licht in einem Hohlleiter aus?",
+      "choices": [
+        "A: Es wird absorbiert und geht verloren.",
+        "B: Es wird total reflektiert.",
+        "C: Es verlässt den Hohlleiter und breitet sich im Raum aus.",
+        "D: Es breitet sich nur in geraden Linien ohne Reflexion aus."
+      ],
+      "correct_answer": "B",
+      "explanation": "Licht in einem Hohlleiter breitet sich durch totale Reflexion aus, was bedeutet, dass es an den Wänden des Hohlleiters reflektiert wird. Dies ermöglicht eine effiziente Übertragung von Licht über längere Strecken ohne signifikante Verluste.",
+      "difficulty": 4
+    },
+    {
+      "category": "Physik",
+      "discipline": "Quantenmechanik",
+      "subcategory": "Observable",
+      "question": "Welche der folgenden Größen wird in der Quantenmechanik als Observable betrachtet?",
+      "choices": [
+        "A: Die Farbe eines Objekts",
+        "B: Die Geschwindigkeit eines Fahrzeugs",
+        "C: Die Temperatur eines Systems",
+        "D: Der Ort eines Teilchens"
+      ],
+      "correct_answer": "D",
+      "explanation": "In der Quantenmechanik sind Observables physikalische Größen, die durch Operatoren dargestellt werden und gemessen werden können. Der Ort eines Teilchens ist eine zentrale Observable, während die anderen Optionen nicht zu den quantenmechanischen Observablen zählen.",
+      "difficulty": 5
+    },
+    {
+      "category": "Physik",
+      "discipline": "Statistische Mechanik",
+      "subcategory": "Klassischer Grenzfall (z ≪ 1)",
+      "question": "Was beschreibt der klassische Grenzfall in der statistischen Mechanik in Bezug auf das Teilchenzahlenverhältnis z?",
+      "choices": [
+        "A: Die quantenmechanischen Effekte sind dominant und beeinflussen das System stark.",
+        "B: Das System verhält sich unabhängig von Temperatur und Druck.",
+        "C: Alle Teilchen sind identisch und ihre Wechselwirkungen sind vernachlässigbar.",
+        "D: Das Verhalten des Systems kann durch klassische Mechanik beschrieben werden."
+      ],
+      "correct_answer": "D",
+      "explanation": "Im klassischen Grenzfall (z ≪ 1) können die Teilchen als klassisch betrachtet werden, was bedeutet, dass ihre Bewegungen durch die Gesetze der klassischen Mechanik beschrieben werden. Hierbei sind quantenmechanische Effekte vernachlässigbar, und das Verhalten des Systems wird durch statistische Gesetze bestimmt.",
+      "difficulty": 5
+    },
+    {
+      "category": "Physik",
+      "discipline": "Elektrodynamik",
+      "subcategory": "Kraft & Drehmoment auf Stromverteilungen",
+      "question": "Was passiert, wenn ein elektrischer Strom durch einen Draht fließt, der sich in einem Magnetfeld befindet?",
+      "choices": [
+        "A: Es entsteht eine Kraft auf den Draht.",
+        "B: Der Draht wird unsichtbar.",
+        "C: Der Stromfluss stoppt sofort.",
+        "D: Das Magnetfeld wird stärker."
+      ],
+      "correct_answer": "A",
+      "explanation": "Wenn ein elektrischer Strom durch einen Draht fließt, der sich in einem Magnetfeld befindet, wirkt eine Kraft auf den Draht. Diese Kraft ist das Ergebnis der Wechselwirkung zwischen dem Magnetfeld und dem bewegten elektrischen Strom.",
+      "difficulty": 2
+    },
+    {
+      "category": "Physik",
+      "discipline": "Elektrodynamik",
+      "subcategory": "Dirac’sche δ-Funktion",
+      "question": "Was beschreibt die Dirac’sche δ-Funktion in der Elektrodynamik?",
+      "choices": [
+        "A: Sie beschreibt die Zeitabhängigkeit von elektromagnetischen Wellen.",
+        "B: Sie ist eine Funktion, die das elektrische Feld in einem Leiter beschreibt.",
+        "C: Sie beschreibt die Elektronenbewegung in einem Magnetfeld.",
+        "D: Sie ist eine Funktion, die an einem Punkt unendlich ist und überall sonst null."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Dirac’sche δ-Funktion ist eine mathematische Funktion, die an einem bestimmten Punkt unendlich ist und an allen anderen Punkten den Wert null hat. Sie wird häufig in der Physik verwendet, um punktuelle Quellen oder Ladungen zu modellieren.",
+      "difficulty": 4
+    },
+    {
+      "category": "Physik",
+      "discipline": "Quantenmechanik",
+      "subcategory": "Dirac-Gleichung",
+      "question": "Welche Aussage über die Dirac-Gleichung ist zutreffend?",
+      "choices": [
+        "A: Sie beschreibt relativistische Elektronen und berücksichtigt Spin.",
+        "B: Sie ist eine klassische Gleichung zur Beschreibung von Teilchenbewegungen.",
+        "C: Sie kann nur für massive Teilchen angewendet werden, nicht für masselose.",
+        "D: Sie enthält keine Informationen über die Wechselwirkung mit elektromagnetischen Feldern."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Dirac-Gleichung ist eine relativistische Gleichung, die die Eigenschaften von Elektronen und anderen Fermionen beschreibt und deren Spin berücksichtigt. Sie ist entscheidend für die Quantenfeldtheorie und die Beschreibung von Teilchen mit Spin 1/2.",
+      "difficulty": 8
+    }
+  ]
+}

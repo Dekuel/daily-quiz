@@ -70,6 +70,66 @@
       "correct_answer": "B",
       "explanation": "Die Gewichtskraft F_g eines Körpers wird durch die Formel F_g = m * g berechnet, wobei m die Masse und g die Erdbeschleunigung ist. In diesem Fall ergibt sich die Gewichtskraft zu 2 kg * 9,81 m/s² = 19,62 N. Die anderen Aussagen sind entweder falsch oder unvollständig.",
       "difficulty": 6
+    },
+    {
+      "category": "Physik",
+      "discipline": "Optik",
+      "subcategory": "Kohärenz von Lichtquellen",
+      "question": "Welche der folgenden Lichtquellen erzeugt kohärentes Licht?",
+      "choices": [
+        "A: Eine LED mit unterschiedlichen Wellenlängen",
+        "B: Ein Laser",
+        "C: Eine Glühbirne",
+        "D: Ein Neonröhrenlicht"
+      ],
+      "correct_answer": "B",
+      "explanation": "Ein Laser erzeugt kohärentes Licht, da die Photonen eine feste Phase und Frequenz haben, was zu einer gleichmäßigen Interferenz führt. Im Gegensatz dazu strahlen Glühbirnen und viele andere Lichtquellen Licht in einem breiten Spektrum ohne feste Phase ab, was sie nicht kohärent macht.",
+      "difficulty": 8
+    },
+    {
+      "category": "Physik",
+      "discipline": "Statistische Mechanik",
+      "subcategory": "Paramagnetismus ungekoppelter Momente (Curie-Gesetz)",
+      "question": "Was beschreibt das Curie-Gesetz im Zusammenhang mit Paramagnetismus?",
+      "choices": [
+        "A: Paramagnetische Materialien können nicht magnetisiert werden.",
+        "B: Die Magnetisierung eines Materials nimmt mit der Temperatur ab.",
+        "C: Alle Materialien sind immer magnetisch.",
+        "D: Magnetisierung hat keinen Zusammenhang mit Temperatur."
+      ],
+      "correct_answer": "B",
+      "explanation": "Das Curie-Gesetz besagt, dass die Magnetisierung eines paramagnetischen Materials umgekehrt proportional zur Temperatur ist. Das bedeutet, je höher die Temperatur, desto geringer ist die Magnetisierung. Dies erklärt, warum Materialien bei höheren Temperaturen weniger magnetisch sind.",
+      "difficulty": 1
+    },
+    {
+      "category": "Physik",
+      "discipline": "Elektrodynamik",
+      "subcategory": "Gegen- und Selbstinduktion",
+      "question": "Was beschreibt der Begriff Selbstinduktion in einem elektrischen Stromkreis?",
+      "choices": [
+        "A: Die Bewegung von Elektronen in einem Leiter ohne äußeren Einfluss.",
+        "B: Die Fähigkeit einer Spule, durch ihre eigene Stromänderung eine Spannung zu induzieren.",
+        "C: Die Erzeugung von elektrischer Energie aus Wärme.",
+        "D: Die Wechselwirkung zwischen zwei benachbarten Spulen."
+      ],
+      "correct_answer": "B",
+      "explanation": "Selbstinduktion beschreibt das Phänomen, dass eine Spule aufgrund der Änderung des eigenen Stroms eine Spannung in sich selbst induziert. Dies ist ein grundlegendes Konzept in der Elektrodynamik, welches die Wechselwirkungen von Magnetfeldern und elektrischen Strömen erklärt.",
+      "difficulty": 4
+    },
+    {
+      "category": "Physik",
+      "discipline": "Klassische Mechanik",
+      "subcategory": "Hookesches Gesetz",
+      "question": "Welches der folgenden Aussagen beschreibt korrekt die Beziehung zwischen der Dehnung einer Feder und der auf sie wirkenden Kraft gemäß dem Hookeschen Gesetz?",
+      "choices": [
+        "A: Die Dehnung einer Feder bleibt konstant, unabhängig von der auf sie wirkenden Kraft.",
+        "B: Die Dehnung einer Feder ist unabhängig von der Länge der Feder.",
+        "C: Die Dehnung einer Feder ist umgekehrt proportional zur auf sie wirkenden Kraft.",
+        "D: Die Dehnung einer Feder ist direkt proportional zur auf sie wirkenden Kraft, solange die elastische Grenze nicht überschritten wird."
+      ],
+      "correct_answer": "D",
+      "explanation": "Das Hookesche Gesetz besagt, dass die Dehnung (x) einer Feder direkt proportional zur auf sie wirkenden Kraft (F) ist, solange die elastische Grenze der Feder nicht überschritten wird. Diese Beziehung wird durch die Gleichung F = k * x beschrieben, wobei k die Federkonstante ist.",
+      "difficulty": 7
     }
   ]
 }

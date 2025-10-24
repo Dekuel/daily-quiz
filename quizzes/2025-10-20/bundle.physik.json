@@ -1,158 +1,158 @@
 {
   "date": "2025-10-20",
-  "generated_at": "2025-10-20T12:16:26Z",
+  "generated_at": "2025-10-20T15:27:14Z",
   "schema_version": 6,
   "mode": "physik",
   "questions": [
     {
       "category": "Physik",
-      "discipline": "Thermodynamik",
-      "subcategory": "Zweiter Hauptsatz (Kelvin-Planck/Clausius)",
-      "question": "Was besagt der zweite Hauptsatz der Thermodynamik in Bezug auf Wärmeübertragung?",
+      "discipline": "Statistische Mechanik",
+      "subcategory": "Gefrierpunktserniedrigung/Siedepunktserhöhung",
+      "question": "Was beschreibt das Phänomen der Gefrierpunktserniedrigung?",
       "choices": [
-        "A: Wärmeübertragung erfolgt immer vom wärmeren zu einem kälteren Körper.",
-        "B: Energie kann nicht erzeugt oder vernichtet werden, sondern nur umgewandelt.",
-        "C: Wärme kann von einem kälteren Körper zu einem wärmeren Körper übertragen werden, ohne Arbeit zu verrichten.",
-        "D: Ein perfekter Motor kann die gesamte Wärmeenergie in Arbeit umwandeln."
+        "A: Die Temperatur, bei der ein Stoff gefriert, steigt durch das Hinzufügen eines gelösten Stoffes.",
+        "B: Die Temperatur, bei der ein Stoff siedet, steigt durch das Entfernen von Druck.",
+        "C: Die Temperatur, bei der ein Stoff gefriert, sinkt durch das Hinzufügen eines gelösten Stoffes.",
+        "D: Die Temperatur, bei der ein Stoff siedet, sinkt durch das Hinzufügen von Druck."
       ],
-      "correct_answer": "A",
-      "explanation": "Der zweite Hauptsatz der Thermodynamik besagt, dass Wärme von einem wärmeren Körper zu einem kälteren Körper fließt, es sei denn, es wird Arbeit verrichtet. Dies bedeutet, dass Wärmeübertragung nicht spontan in die entgegengesetzte Richtung ohne externe Energiezufuhr erfolgen kann.",
+      "correct_answer": "C",
+      "explanation": "Die Gefrierpunktserniedrigung tritt auf, wenn ein nichtflüchtiger Stoff in ein Lösungsmittel gelöst wird, wodurch die gefrierende Temperatur der Lösung sinkt. Dies geschieht, weil die Moleküle des gelösten Stoffes die Kristallbildung des Lösungsmittels behindern.",
       "difficulty": 4
     },
     {
       "category": "Physik",
-      "discipline": "Klassische Mechanik",
-      "subcategory": "Grenzflächen & Haftspannung",
-      "question": "Welche Aussage über die Haftspannung zwischen zwei festen Oberflächen ist korrekt?",
+      "discipline": "Quantenmechanik",
+      "subcategory": "Quasiklassische Näherung (WKB)",
+      "question": "Welche Aussage zur WKB-Näherung in der Quantenmechanik ist korrekt?",
       "choices": [
-        "A: Die Haftspannung ist immer gleich, unabhängig von den Materialien der Oberflächen.",
-        "B: Die Haftspannung ist unabhängig von der Kontaktfläche der Oberflächen.",
-        "C: Die Haftspannung kann durch Erhöhung des Drucks zwischen den Oberflächen erhöht werden.",
-        "D: Die Haftspannung ist nur in Flüssigkeiten relevant."
+        "A: In der WKB-Näherung wird die Schrödinger-Gleichung ausschließlich in einem eindimensionalen Potential verwendet.",
+        "B: Die WKB-Näherung kann verwendet werden, um das Verhalten von Quantenpartikeln in klassisch erlaubten und verbotenen Regionen zu beschreiben.",
+        "C: Die WKB-Näherung ist nur für Potentiale mit konstanten Werten anwendbar.",
+        "D: Die WKB-Näherung ist eine exakte Lösung für alle quantenmechanischen Probleme."
       ],
-      "correct_answer": "C",
-      "explanation": "Die Haftspannung ist die Kraft, die benötigt wird, um zwei Oberflächen voneinander zu trennen. Sie kann erhöht werden, indem der Druck zwischen den Oberflächen erhöht wird, was die Kontaktfläche und die intermolekularen Kräfte beeinflusst.",
-      "difficulty": 6
+      "correct_answer": "B",
+      "explanation": "Die WKB-Näherung ermöglicht die Analyse von Quantenmechanik in Bereichen, in denen klassisches Verhalten angenommen werden kann, sowohl in erlaubten als auch in verbotenen Regionen. Sie ist jedoch keine exakte Lösung und hat ihre Grenzen, insbesondere in stark variierenden Potentialen.",
+      "difficulty": 5
     },
     {
       "category": "Physik",
-      "discipline": "Quantenmechanik",
-      "subcategory": "Zweite Quantisierung: Erzeugungs-/Vernichtungsoperatoren",
-      "question": "Welcher der folgenden Operatoren wird verwendet, um ein Teilchen aus einem Quantenzustand zu erzeugen?",
+      "discipline": "Statistische Mechanik",
+      "subcategory": "Phasen von Einstoffsystemen & Clausius–Clapeyron",
+      "question": "Was beschreibt die Clausius–Clapeyron-Gleichung?",
       "choices": [
-        "A: H (Hamiltonoperator)",
-        "B: p (Impulsoperator)",
-        "C: a (Vernichtungsoperator)",
-        "D: a^† (Erzeugungsoperator)"
-      ],
-      "correct_answer": "D",
-      "explanation": "Der Erzeugungsoperator a^† wird in der Quantenmechanik verwendet, um ein zusätzliches Teilchen in einen Zustand zu erzeugen. Im Gegensatz dazu reduziert der Vernichtungsoperator a die Teilchenanzahl in einem Zustand.",
-      "difficulty": 7
-    },
-    {
-      "category": "Physik",
-      "discipline": "Quantenmechanik",
-      "subcategory": "Wronski-Determinante",
-      "question": "Was beschreibt die Wronski-Determinante in der Quantenmechanik?",
-      "choices": [
-        "A: Die Unabhängigkeit von Wellenfunktionen.",
-        "B: Die Frequenz eines Photons.",
-        "C: Die Energie eines Teilchens in einem Potential.",
-        "D: Die Linearität von Wellenfunktionen."
+        "A: Den Zusammenhang zwischen Druck und Temperatur an einer Phasengrenze.",
+        "B: Die Energieerhaltung in einem geschlossenen System.",
+        "C: Die Bewegung von Teilchen in einem Vakuum.",
+        "D: Die Gravitationskraft zwischen zwei Massen."
       ],
       "correct_answer": "A",
-      "explanation": "Die Wronski-Determinate wird verwendet, um die lineare Unabhängigkeit von Wellenfunktionen zu überprüfen. Wenn die Wronski-Determinate nicht null ist, sind die Funktionen linear unabhängig, was in der Quantenmechanik wichtig ist, um die Lösungen der Schrödinger-Gleichung zu bestimmen.",
+      "explanation": "Die Clausius–Clapeyron-Gleichung beschreibt, wie sich der Druck eines Stoffes an einer Phasengrenze (zum Beispiel zwischen flüssig und gasförmig) in Abhängigkeit von der Temperatur verändert. Sie ist besonders wichtig für das Verständnis von Phasenübergängen in der Thermodynamik.",
       "difficulty": 4
     },
     {
       "category": "Physik",
-      "discipline": "Thermodynamik",
-      "subcategory": "Thermodynamische Systeme (offen/geschlossen/isoliert)",
-      "question": "Welches dieser Systeme kann Materie und Energie mit seiner Umgebung austauschen?",
+      "discipline": "Optik",
+      "subcategory": "Beugung am Gitter",
+      "question": "Was beschreibt das Phänomen der Beugung am Gitter?",
       "choices": [
-        "A: Isoliertes System",
-        "B: Offenes System",
-        "C: None of the above",
-        "D: Geschlossenes System"
-      ],
-      "correct_answer": "B",
-      "explanation": "Ein offenes System ist in der Lage, sowohl Materie als auch Energie mit seiner Umgebung auszutauschen. Im Gegensatz dazu kann ein geschlossenes System nur Energie und ein isoliertes System weder Materie noch Energie austauschen.",
-      "difficulty": 1
-    },
-    {
-      "category": "Physik",
-      "discipline": "Klassische Mechanik",
-      "subcategory": "Innere Reibung (Kontinuumsmechanik)",
-      "question": "Welche der folgenden Aussagen beschreibt korrekt die innere Reibung in einem viskosen Fluid?",
-      "choices": [
-        "A: Innere Reibung tritt nur bei hohen Temperaturen auf.",
-        "B: Innere Reibung kann ignoriert werden, wenn das Fluid nicht in Bewegung ist.",
-        "C: Innere Reibung ist unabhängig von der Dichte des Fluids.",
-        "D: Innere Reibung ist direkt proportional zur Geschwindigkeitsgradienten des Fluids."
-      ],
-      "correct_answer": "D",
-      "explanation": "Innere Reibung, auch Viskosität genannt, beschreibt den Widerstand, den ein Fluid der Bewegung entgegensetzt. Sie ist direkt proportional zum Geschwindigkeitsgradienten, was bedeutet, dass die Reibung steigt, wenn der Unterschied in der Geschwindigkeit zwischen benachbarten Fluidschichten zunimmt.",
-      "difficulty": 6
-    },
-    {
-      "category": "Physik",
-      "discipline": "Kern- und Teilchenphysik",
-      "subcategory": "Feynman‑Diagramme (Streuprozesse)",
-      "question": "Was beschreibt ein Feynman-Diagramm in der Kern- und Teilchenphysik?",
-      "choices": [
-        "A: Die Quantisierung von Licht in Form von Photonen.",
-        "B: Die Verteilung der Energie in einem geschlossenen System.",
-        "C: Die Wechselwirkungen zwischen Teilchen und die Austauschprozesse von Kraftträgern.",
-        "D: Die Bewegung von Teilchen in einem elektrischen Feld."
-      ],
-      "correct_answer": "C",
-      "explanation": "Feynman-Diagramme sind eine grafische Darstellung von Wechselwirkungen zwischen Teilchen in der Quantenfeldtheorie. Sie zeigen, wie Teilchen miteinander interagieren und vermitteln, welche Austauschkräfte dabei wirken, typischerweise durch die Darstellung von virtuellen Teilchen.",
-      "difficulty": 8
-    },
-    {
-      "category": "Physik",
-      "discipline": "Klassische Mechanik",
-      "subcategory": "Rotation bei konstantem Drehmoment",
-      "question": "Ein Festkörper rotiert um eine feste Achse mit einem konstanten Drehmoment. Welche Aussage über die Winkelbeschleunigung ist korrekt?",
-      "choices": [
-        "A: Die Winkelbeschleunigung ist direkt proportional zur Zeit.",
-        "B: Die Winkelbeschleunigung bleibt konstant.",
-        "C: Die Winkelbeschleunigung nimmt mit der Zeit ab.",
-        "D: Die Winkelbeschleunigung hängt nicht vom Drehmoment ab."
-      ],
-      "correct_answer": "B",
-      "explanation": "Bei einem konstanten Drehmoment ist die Winkelbeschleunigung des Körpers ebenfalls konstant, gemäß dem Drehmomentgesetz. Dies bedeutet, dass sich die Rotationsbewegung gleichmäßig verändert und keine Beschleunigungsänderung auftritt.",
-      "difficulty": 5
-    },
-    {
-      "category": "Physik",
-      "discipline": "Quantenmechanik",
-      "subcategory": "Dichtematrix (statistischer Operator)",
-      "question": "Welche Aussage über die Dichtematrix in der Quantenmechanik ist korrekt?",
-      "choices": [
-        "A: Die Dichtematrix beschreibt den Zustand eines quantenmechanischen Systems und enthält alle Informationen über die möglichen Ergebnisse von Messungen.",
-        "B: Die Dichtematrix kann niemals eine rein gemischte Zustand beschreiben.",
-        "C: Die Dichtematrix ist unabhängig von der Basis, in der sie dargestellt wird.",
-        "D: Die Dichtematrix ist immer positiv definit und hat nur reelle Eigenwerte."
+        "A: Die Interferenz von Lichtwellen, die durch enge Spalte treten.",
+        "B: Die Streuung von Licht durch eine unebene Fläche.",
+        "C: Die Ablenkung von Lichtstrahlen an einer scharfen Kante.",
+        "D: Die Aufspaltung von Licht in seine Farbbestandteile."
       ],
       "correct_answer": "A",
-      "explanation": "Die Dichtematrix ist ein fundamentales Konzept in der Quantenmechanik, das den Zustand eines quantenmechanischen Systems repräsentiert und alle Informationen über die möglichen Messwerte enthält. Sie ermöglicht es, sowohl reine als auch gemischte Zustände zu beschreiben, was für die Analyse von quantenmechanischen Systemen entscheidend ist.",
-      "difficulty": 5
+      "explanation": "Die Beugung am Gitter tritt auf, wenn Lichtwellen durch enge Spalte oder Gitteröffnungen treten und anschließend interferieren. Dies führt zu einem charakteristischen Muster von hellen und dunklen Streifen, das von den Wellenlängen des Lichts abhängt.",
+      "difficulty": 4
     },
     {
       "category": "Physik",
       "discipline": "Analytische Mechanik",
-      "subcategory": "Bezug zur Quantenmechanik (Kommutator ↔ Poisson)",
-      "question": "Welches der folgenden Paare von physikalischen Größen erfüllt die Beziehung zwischen Kommutatoren in der Quantenmechanik und Poissonklammern in der analytischen Mechanik?",
+      "subcategory": "Zwangsbedingungen & generalisierte Koordinaten",
+      "question": "Welche der folgenden Aussagen über Zwangsbedingungen in der analytischen Mechanik ist korrekt?",
       "choices": [
-        "A: Temperatur und Druck",
-        "B: Ort und Impuls",
-        "C: Geschwindigkeit und Beschleunigung",
-        "D: Energie und Zeit"
+        "A: Zwangsbedingungen sind immer zeitabhängig.",
+        "B: Zwangsbedingungen reduzieren die Anzahl der unabhängigen Koordinaten im System.",
+        "C: Zwangsbedingungen können niemals in generalisierte Koordinaten umgewandelt werden.",
+        "D: Zwangsbedingungen beeinflussen nicht die Energie eines Systems."
       ],
       "correct_answer": "B",
-      "explanation": "In der Quantenmechanik sind Ort und Impuls kanonisch konjugierte Größen, deren Kommutator gleich iħ ist. In der analytischen Mechanik entsprechen diese Größen den Variablen, deren Poissonklammer ebenfalls konstant ist und die dynamische Beziehungen zwischen ihnen beschreibt.",
-      "difficulty": 6
+      "explanation": "Zwangsbedingungen sind Einschränkungen, die die Bewegung eines Systems beschränken und somit die Anzahl der unabhängigen Koordinaten reduzieren. Diese Reduktion ist entscheidend für die Anwendung der Lagrangeschen Mechanik, wo man mit generalisierten Koordinaten arbeitet, um die Bewegungsgleichungen zu formulieren.",
+      "difficulty": 5
+    },
+    {
+      "category": "Physik",
+      "discipline": "Optik",
+      "subcategory": "χ^(2)-Phänomene (zweite Ordnung)",
+      "question": "Was beschreibt das χ^(2)-Phänomen in der Optik?",
+      "choices": [
+        "A: Die Reflexion von Licht an einer glatten Oberfläche.",
+        "B: Die Wechselwirkung zwischen Licht und Materie durch nichtlineare Effekte.",
+        "C: Die Brechung von Lichtstrahlen an verschiedenen Medien.",
+        "D: Die Absorption von Licht durch ein Medium."
+      ],
+      "correct_answer": "B",
+      "explanation": "Das χ^(2)-Phänomen bezieht sich auf nichtlineare optische Effekte, die auftreten, wenn Licht in bestimmten Materialien mit hoher Intensität interagiert. Dies kann zur Erzeugung neuer Frequenzen von Licht führen, was in Anwendungen wie Frequenzverdopplung genutzt wird.",
+      "difficulty": 4
+    },
+    {
+      "category": "Physik",
+      "discipline": "Klassische Mechanik",
+      "subcategory": "Auftrieb vs. Widerstand",
+      "question": "Was beschreibt den Auftrieb, der auf ein Objekt wirkt, das in eine Flüssigkeit eingetaucht ist?",
+      "choices": [
+        "A: Der Auftrieb ist gleich dem Gewicht des verdrängten Fluids.",
+        "B: Der Auftrieb ist immer gleich der Gewichtskraft des Objekts.",
+        "C: Der Auftrieb ist unabhängig von der Form des Objekts.",
+        "D: Der Auftrieb wirkt nur auf feste Körper."
+      ],
+      "correct_answer": "A",
+      "explanation": "Der Auftrieb auf ein in eine Flüssigkeit eingetauchtes Objekt ist gleich dem Gewicht des von diesem Objekt verdrängten Fluids, gemäß dem archimedischen Prinzip. Dies bedeutet, dass die Form des Objekts keinen Einfluss auf die Höhe des Auftriebs hat, solange es vollständig in die Flüssigkeit eingetaucht ist.",
+      "difficulty": 4
+    },
+    {
+      "category": "Physik",
+      "discipline": "Klassische Mechanik",
+      "subcategory": "Diffusion (in Gasen)",
+      "question": "Welche Aussage beschreibt den Einfluss der Temperatur auf die Diffusionsrate eines Gases am besten?",
+      "choices": [
+        "A: Diffusion tritt nur bei tiefen Temperaturen auf, da die Moleküle sonst zu aktiv sind.",
+        "B: Die Diffusionsrate bleibt unabhängig von der Temperatur, da die Molekülbewegung konstant ist.",
+        "C: Höhere Temperaturen verringern die Diffusionsrate, da die Moleküle sich langsamer bewegen.",
+        "D: Eine Erhöhung der Temperatur führt zu einer Erhöhung der kinetischen Energie der Moleküle, wodurch die Diffusionsrate steigt."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Diffusionsrate eines Gases ist direkt proportional zur Temperatur, da eine höhere Temperatur die kinetische Energie der Moleküle erhöht. Dies führt zu schnelleren Bewegungen und einer schnelleren Ausbreitung im Raum.",
+      "difficulty": 7
+    },
+    {
+      "category": "Physik",
+      "discipline": "Relativitätstheorie",
+      "subcategory": "Maxwell-Gleichungen in kovarianter Form",
+      "question": "Was beschreibt die kovariante Form der Maxwell-Gleichungen?",
+      "choices": [
+        "A: Die maximale Geschwindigkeit von Licht in einem Vakuum.",
+        "B: Die Beziehung zwischen elektrischen und magnetischen Feldern in verschiedenen Inertialsystemen.",
+        "C: Die Schwingungen von Teilchen in einem Festkörper.",
+        "D: Die Temperaturabhängigkeit von Gasen."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die kovariante Form der Maxwell-Gleichungen zeigt, wie elektrische und magnetische Felder in unterschiedlichen Bezugssystemen miteinander verbunden sind. Diese Formulierung ist entscheidend für das Verständnis der Elektrodynamik im Rahmen der Relativitätstheorie.",
+      "difficulty": 2
+    },
+    {
+      "category": "Physik",
+      "discipline": "Analytische Mechanik",
+      "subcategory": "Isotropie des Raumes ⇒ Drehimpulserhaltung",
+      "question": "Ein starrer Körper rotiert um eine feste Achse. Wenn keine externen Drehmomente wirken, was passiert mit dem Drehimpuls des Körpers?",
+      "choices": [
+        "A: Der Drehimpuls wird unberechenbar.",
+        "B: Der Drehimpuls nimmt zu.",
+        "C: Der Drehimpuls nimmt ab.",
+        "D: Der Drehimpuls bleibt konstant."
+      ],
+      "correct_answer": "D",
+      "explanation": "Nach dem Gesetz der Drehimpulserhaltung bleibt der Drehimpuls eines geschlossenen Systems konstant, wenn keine externen Drehmomente wirken. Dies ist ein fundamentales Prinzip in der analytischen Mechanik, das die Isotropie des Raumes widerspiegelt.",
+      "difficulty": 5
     }
   ]
 }
