@@ -73,9 +73,9 @@ def _fs_debug() -> str:
 # Epochen & Modulpfade (ohne Case-Fallback; exakt 'Unterkategorien')
 # ──────────────────────────────────────────────────────────────────────────────
 _SUBPERIODS: Dict[str, int] = {
-    "Antike": 25,
-    "Mittelalter": 25,
-    "Neuzeit": 30,
+    "Antike": 35,
+    "Mittelalter": 20,
+    "Neuzeit": 15,
     "Zeitgeschichte (ab 1945)": 20,
 }
 
