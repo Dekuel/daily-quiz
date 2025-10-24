@@ -1,0 +1,158 @@
+{
+  "date": "2025-10-24",
+  "generated_at": "2025-10-24T05:13:30Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "discipline": "Kern- und Teilchenphysik",
+      "subcategory": "Atom und seine Bausteine",
+      "question": "Was ist der kleinste Baustein eines Atoms?",
+      "choices": [
+        "A: Atomkern",
+        "B: Elektron",
+        "C: Neutron",
+        "D: Proton"
+      ],
+      "correct_answer": "B",
+      "explanation": "Das Elektron ist der kleinste Baustein eines Atoms und hat eine negative Ladung. Es umkreist den Atomkern, der aus Protonen und Neutronen besteht. Protonen und Neutronen sind wesentlich schwerer als Elektronen und bilden den Kern des Atoms.",
+      "difficulty": 2
+    },
+    {
+      "category": "Physik",
+      "discipline": "Optik",
+      "subcategory": "Lichtquellen für Beleuchtungszwecke",
+      "question": "Welche der folgenden Lichtquellen wird am häufigsten für die allgemeine Raumbeleuchtung verwendet?",
+      "choices": [
+        "A: Glühlampen",
+        "B: Neonröhren",
+        "C: LED-Lampen",
+        "D: Kerzen"
+      ],
+      "correct_answer": "C",
+      "explanation": "LED-Lampen sind aufgrund ihrer Energieeffizienz und langen Lebensdauer die am häufigsten verwendeten Lichtquellen für die allgemeine Raumbeleuchtung. Sie bieten eine hohe Lichtausbeute bei niedrigem Stromverbrauch und sind umweltfreundlicher als herkömmliche Glühlampen.",
+      "difficulty": 4
+    },
+    {
+      "category": "Physik",
+      "discipline": "Optik",
+      "subcategory": "Dicke Linsen und Linsensysteme",
+      "question": "Welche Aussage über dicke Linsen ist korrekt?",
+      "choices": [
+        "A: Dicke Linsen sind immer konvex.",
+        "B: Der Brennwert einer dicken Linse hängt von ihrer Dicke und dem Brechungsindex ab.",
+        "C: Der Brennpunkt einer dicken Linse liegt immer außerhalb der Linse.",
+        "D: Dicke Linsen haben immer einen positiven Brennwert."
+      ],
+      "correct_answer": "B",
+      "explanation": "Der Brennwert einer dicken Linse ist von der Linse selbst, ihrer Dicke, der Krümmung ihrer Oberflächen sowie dem Brechungsindex des verwendeten Materials abhängig. Dies bedeutet, dass nicht jede dicke Linse einen positiven Brennwert hat und der Brennpunkt nicht immer außerhalb liegt.",
+      "difficulty": 5
+    },
+    {
+      "category": "Physik",
+      "discipline": "Kern- und Teilchenphysik",
+      "subcategory": "Nichtresonante Hadronerzeugung (R‑Verhältnis)",
+      "question": "Welche Aussage beschreibt am besten das R-Verhältnis in der nichtresonanten Hadronerzeugung?",
+      "choices": [
+        "A: Das R-Verhältnis ist das Verhältnis der Hadronenproduktion zu den Leptonen in einem bestimmten Ereignis.",
+        "B: Das R-Verhältnis bleibt unabhängig von der Energie des kollidierenden Systems.",
+        "C: Das R-Verhältnis hängt von der Wechselwirkungsstärke der Quarks ab und variiert mit der Energie.",
+        "D: Das R-Verhältnis beschreibt die Wahrscheinlichkeit der Erzeugung von Neutrinos in Hadronenkollisionen."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das R-Verhältnis ist entscheidend für das Verständnis der Hadronerzeugung und hängt von der Wechselwirkungsstärke der Quarks ab, wobei es mit steigender Energie variiert. Dies ermöglicht detaillierte Einblicke in die zugrunde liegenden physikalischen Prozesse während der Kollisionen.",
+      "difficulty": 7
+    },
+    {
+      "category": "Physik",
+      "discipline": "Elektrodynamik",
+      "subcategory": "Integraldarstellung der Divergenz",
+      "question": "Welche Aussage zur Integraldarstellung der Divergenz ist korrekt?",
+      "choices": [
+        "A: Die Divergenz ist immer gleich null für alle Vektorfelder.",
+        "B: Die Divergenz kann nur für konstante Vektorfelder definiert werden.",
+        "C: Die Divergenz eines Vektorfeldes ist gleich der Summe seiner Komponenten.",
+        "D: Die Divergenz eines Vektorfeldes kann als Fluss durch eine geschlossene Fläche dargestellt werden."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Integraldarstellung der Divergenz besagt, dass die Divergenz eines Vektorfeldes als Fluss durch eine geschlossene Fläche interpretiert werden kann. Dies ist ein zentrales Konzept in der Elektrodynamik, das auf dem Divergenzsatz basiert.",
+      "difficulty": 6
+    },
+    {
+      "category": "Physik",
+      "discipline": "Optik",
+      "subcategory": "Projektionsapparat",
+      "question": "Welches Element eines Projektionsapparates ist dafür verantwortlich, das Licht zu bündeln und zu fokussieren?",
+      "choices": [
+        "A: Lichtquelle",
+        "B: Linse",
+        "C: Spiegel",
+        "D: Projektionsleinwand"
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Linse spielt eine entscheidende Rolle im Projektionsapparat, indem sie das einfallende Licht bündelt und auf die Projektionsleinwand fokussiert. Ohne eine Linse wäre eine klare Projektion nicht möglich.",
+      "difficulty": 4
+    },
+    {
+      "category": "Physik",
+      "discipline": "Quantenmechanik",
+      "subcategory": "Hilbert-Raum & Basiszustände (sym/antisym)",
+      "question": "In einem symmetrischen Quantensystem, das aus zwei Bosonen besteht, welche Eigenschaft ist charakteristisch für die Basiszustände?",
+      "choices": [
+        "A: Die Wellenfunktionen sind antisymmetrisch bezüglich des Austauschs der Teilchen.",
+        "B: Die gesamte Energie ist immer konstant.",
+        "C: Die Wellenfunktionen sind symmetrisch bezüglich des Austauschs der Teilchen.",
+        "D: Die Teilchen können nicht gleichzeitig am gleichen Ort sein."
+      ],
+      "correct_answer": "C",
+      "explanation": "Bosonen folgen der Bose-Einstein Statistik und ihre Wellenfunktionen sind symmetrisch, was bedeutet, dass die Wellenfunktion beim Austausch der Teilchen unverändert bleibt. Dies unterscheidet sich von Fermionen, die antisymmetrische Wellenfunktionen besitzen und das Pauli-Verbot befolgen.",
+      "difficulty": 5
+    },
+    {
+      "category": "Physik",
+      "discipline": "Analytische Mechanik",
+      "subcategory": "Entartung (degenerate Systeme)",
+      "question": "Welche Aussage beschreibt am besten das Konzept der Entartung in einem physikalischen System?",
+      "choices": [
+        "A: Entartete Zustände sind immer stabil und führen zu einem Minimum der möglichen Energie.",
+        "B: Entartung tritt nur in Quantenmechanik auf und hat keine Relevanz in der klassischen Mechanik.",
+        "C: Entartete Systeme können nicht durch Änderungen der äußeren Bedingungen beeinflusst werden.",
+        "D: Entartete Zustände haben die gleiche Energie, aber unterschiedliche physikalische Eigenschaften."
+      ],
+      "correct_answer": "D",
+      "explanation": "In der analytischen Mechanik bezeichnet Entartung Zustände, die die gleiche Energie besitzen, jedoch unterschiedliche physikalische Eigenschaften aufweisen können. Dies ist ein wichtiges Konzept, da es das Verhalten von Systemen unter verschiedenen Bedingungen beeinflussen kann.",
+      "difficulty": 5
+    },
+    {
+      "category": "Physik",
+      "discipline": "Kern- und Teilchenphysik",
+      "subcategory": "Quark‑Gluon‑Wechselwirkung (QCD)",
+      "question": "Was beschreibt die Quark-Gluon-Wechselwirkung (QCD) im Rahmen der Teilchenphysik?",
+      "choices": [
+        "A: Die Wechselwirkung zwischen Elektronen und Protonen.",
+        "B: Die Wechselwirkung zwischen Neutronen und Photonen.",
+        "C: Die Gravitation zwischen subatomaren Teilchen.",
+        "D: Die Wechselwirkung zwischen Quarks durch den Austausch von Gluonen."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Quark-Gluon-Wechselwirkung ist die fundamentale Kraft, die Quarks innerhalb von Protonen und Neutronen zusammenhält. Diese Wechselwirkung erfolgt durch den Austausch von Gluonen, die als Kraftträger der starken Wechselwirkung fungieren.",
+      "difficulty": 5
+    },
+    {
+      "category": "Physik",
+      "discipline": "Thermodynamik",
+      "subcategory": "Kritische Exponenten",
+      "question": "Welcher kritische Exponent beschreibt die Divergenz der spezifischen Wärme bei der kritischen Temperatur eines zweiten Ordnungs Phasenübergangs?",
+      "choices": [
+        "A: δ",
+        "B: β",
+        "C: γ",
+        "D: α"
+      ],
+      "correct_answer": "C",
+      "explanation": "Der kritische Exponent γ beschreibt die Divergenz der spezifischen Wärme an der kritischen Temperatur für Phasenübergänge erster und zweiter Ordnung. Bei einem zweiten Ordnungs Phasenübergang zeigt die spezifische Wärme ein charakteristisches Verhalten, das durch diesen Exponenten quantifiziert wird.",
+      "difficulty": 8
+    }
+  ]
+}
