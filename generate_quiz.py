@@ -358,7 +358,7 @@ ARCHIVE_DIRS = {
 }
 
 def _sanitize_filename(name: str) -> str:
-    # rudimentär: Leerzeichen -> Unterstrich; nur Buchstaben/Ziffern/_/-/Umlaute/ß
+    #rudimentär: Leerzeichen -> Unterstrich; nur Buchstaben/Ziffern/_/-/Umlaute/ß
     base = re.sub(r"\s+", "_", name.strip())
     base = re.sub(r"[^A-Za-z0-9_\-ÄÖÜäöüß]", "", base)
     return base or "Unbekannt"
