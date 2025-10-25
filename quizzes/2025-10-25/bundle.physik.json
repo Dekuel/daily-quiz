@@ -1,0 +1,158 @@
+{
+  "date": "2025-10-25",
+  "generated_at": "2025-10-25T05:13:25Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "discipline": "Relativitätstheorie",
+      "subcategory": "Kovariante Formulierung der klassischen Mechanik",
+      "question": "Welche Aussage beschreibt am besten die kovariante Formulierung der klassischen Mechanik?",
+      "choices": [
+        "A: Sie zeigt, dass die Zeit in allen Inertialsystemen absolut ist.",
+        "B: Sie ermöglicht die Beschreibung von physikalischen Gesetzen in allen Inertialsystemen ohne Veränderung der Form der Gleichungen.",
+        "C: Sie beschreibt die Bewegung von Teilchen nur in einem festen Bezugssystem.",
+        "D: Sie ist nur für relativistische Geschwindigkeiten anwendbar und nicht für die klassische Mechanik."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die kovariante Formulierung der klassischen Mechanik stellt sicher, dass die physikalischen Gesetze in allen Inertialsystemen gleich aussehen, was eine zentrale Idee der Relativitätstheorie ist. Dies bedeutet, dass die Gleichungen unabhängig vom Bezugssystem sind, in dem sie betrachtet werden.",
+      "difficulty": 6
+    },
+    {
+      "category": "Physik",
+      "discipline": "Quantenmechanik",
+      "subcategory": "Potentialbarrieren & -stufen",
+      "question": "Welche Aussage beschreibt am besten das Verhalten eines Teilchens, das auf eine Potentialbarriere stößt?",
+      "choices": [
+        "A: Das Teilchen hat eine Wahrscheinlichkeit, die Barriere zu tunneln, selbst wenn seine Energie niedriger ist.",
+        "B: Das Teilchen wird immer reflektiert, unabhängig von seiner Energie.",
+        "C: Das Teilchen verhält sich wie eine klassische Kugel und bewegt sich einfach weiter.",
+        "D: Das Teilchen kann die Barriere überwinden, wenn seine Energie höher ist als die Höhe der Barriere."
+      ],
+      "correct_answer": "A",
+      "explanation": "In der Quantenmechanik gibt es die Möglichkeit des Tunneleffekts, bei dem Teilchen eine Potentialbarriere überwinden können, obwohl ihre Energie niedriger als die Höhe der Barriere ist. Diese Eigenschaft ist ein zentrales Konzept in der Quantenmechanik und unterscheidet sich grundlegend von der klassischen Physik.",
+      "difficulty": 6
+    },
+    {
+      "category": "Physik",
+      "discipline": "Analytische Mechanik",
+      "subcategory": "Wirkungs- und Winkelvariable (Action-Angle)",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt die Beziehung zwischen der Wirkung und den Winkelvariablen in der analytischen Mechanik?",
+      "choices": [
+        "A: Jede Winkelvariable ist unabhängig von der Wirkung.",
+        "B: Die Wirkung kann nur aus der Zeit abgeleitet werden.",
+        "C: Winkelvariablen sind konstant und beeinflussen die Wirkung nicht.",
+        "D: Die Wirkung ist eine Funktion der Winkelvariablen und deren Ableitungen."
+      ],
+      "correct_answer": "D",
+      "explanation": "In der analytischen Mechanik ist die Wirkung (Action) ein funktionales Integral, das von den Trajektorien abhängt, die durch die Winkelvariablen beschrieben werden. Die Winkelvariablen sind entscheidend, um das Verhalten des Systems zu verstehen und die Dynamik zu beschreiben.",
+      "difficulty": 5
+    },
+    {
+      "category": "Physik",
+      "discipline": "Festkörperphysik",
+      "subcategory": "Ferri- & Antiferromagnetismus (Überblick)",
+      "question": "Was beschreibt den Antiferromagnetismus in Bezug auf die magnetischen Momente der Atome?",
+      "choices": [
+        "A: Sie sind nicht vorhanden.",
+        "B: Sie richten sich parallel zueinander aus.",
+        "C: Sie richten sich antiparallel zueinander aus.",
+        "D: Sie sind vollkommen zufällig ausgerichtet."
+      ],
+      "correct_answer": "C",
+      "explanation": "Im Antiferromagnetismus richten sich die magnetischen Momente benachbarter Atome antiparallel aus, was zu einer Auslöschung des makroskopischen Magnetfeldes führt. Dies unterscheidet sich vom Ferromagnetismus, wo die Momente parallel ausgerichtet sind und ein starkes Magnetfeld erzeugen.",
+      "difficulty": 4
+    },
+    {
+      "category": "Physik",
+      "discipline": "Relativitätstheorie",
+      "subcategory": "Definitionen & Rechenregeln von Tensoren",
+      "question": "Was ist ein Tensor in der Relativitätstheorie?",
+      "choices": [
+        "A: Eine Art von Energieform, die in der Relativitätstheorie eine Rolle spielt.",
+        "B: Ein mathematisches Objekt, das in verschiedenen Koordinatensystemen transformiert werden kann.",
+        "C: Eine Größe, die immer konstant bleibt, unabhängig von der Beobachterposition.",
+        "D: Ein spezieller Typ von Vektor, der nur in der klassischen Mechanik verwendet wird."
+      ],
+      "correct_answer": "B",
+      "explanation": "Ein Tensor ist ein mathematisches Objekt, das sich unter Koordinatentransformationen verändert. In der Relativitätstheorie beschreibt es physikalische Größen in verschiedenen Bezugssystemen und ermöglicht die Formulierung von Gesetzen der Physik unabhängig von der Wahl des Koordinatensystems.",
+      "difficulty": 3
+    },
+    {
+      "category": "Physik",
+      "discipline": "Festkörperphysik",
+      "subcategory": "Quasi-freie Elektronen (Näherung)",
+      "question": "Welche Aussage beschreibt am besten das Verhalten quasi-freier Elektronen in einem Metall?",
+      "choices": [
+        "A: Sie sind vollständig lokalisiert und können keine elektrischen Ströme erzeugen.",
+        "B: Sie bewegen sich nahezu ungehindert und können Energie und Impuls ohne große Verluste übertragen.",
+        "C: Sie sind in festen Positionen und können sich nur durch thermische Energie bewegen.",
+        "D: Sie bewegen sich langsamer als die phononischen Schwingungen im Gitter."
+      ],
+      "correct_answer": "B",
+      "explanation": "Quasi-freie Elektronen in Metallen verhalten sich wie ideale Teilchen, die sich fast ungehindert bewegen können. Dies ermöglicht ihnen, effizient Energie und Impuls zu übertragen, was für die elektrische Leitfähigkeit von Metallen entscheidend ist.",
+      "difficulty": 5
+    },
+    {
+      "category": "Physik",
+      "discipline": "Klassische Mechanik",
+      "subcategory": "Dynamischer Auftrieb",
+      "question": "Welcher der folgenden Faktoren beeinflusst NICHT den dynamischen Auftrieb eines Körpers in einer Flüssigkeit?",
+      "choices": [
+        "A: Die Geschwindigkeit des Körpers relativ zur Flüssigkeit",
+        "B: Die Dichte der Flüssigkeit",
+        "C: Die Form des Körpers",
+        "D: Die Temperatur der Flüssigkeit"
+      ],
+      "correct_answer": "D",
+      "explanation": "Der dynamische Auftrieb hängt von der Geschwindigkeit des Körpers, der Dichte der Flüssigkeit und der Form des Körpers ab. Die Temperatur der Flüssigkeit hat jedoch keinen direkten Einfluss auf den dynamischen Auftrieb, sondern kann lediglich die Dichte der Flüssigkeit verändern, was jedoch nicht direkt die Auftriebskraft selbst beeinflusst.",
+      "difficulty": 9
+    },
+    {
+      "category": "Physik",
+      "discipline": "Festkörperphysik",
+      "subcategory": "Kritischer Strom & kritisches Feld",
+      "question": "Was beschreibt der kritische Strom in einem supraleitenden Material?",
+      "choices": [
+        "A: Den maximalen Strom, den das Material führen kann, ohne seine supraleitenden Eigenschaften zu verlieren.",
+        "B: Den minimalen Strom, der benötigt wird, um Supraleitung zu erreichen.",
+        "C: Den Strom, bei dem das Material seine elektrische Leitfähigkeit völlig verliert.",
+        "D: Den durchschnittlichen Strom, der in einem supraleitenden Zustand fließt."
+      ],
+      "correct_answer": "A",
+      "explanation": "Der kritische Strom ist der höchstmögliche Strom, den ein supraleitendes Material führen kann, ohne dass es in den normalen Zustand übergeht. Wenn dieser Strom überschritten wird, verlieren die supraleitenden Eigenschaften des Materials ihre Gültigkeit.",
+      "difficulty": 3
+    },
+    {
+      "category": "Physik",
+      "discipline": "Statistische Mechanik",
+      "subcategory": "Transfermatrix-Methode (Ising etc.)",
+      "question": "Was beschreibt die Transfermatrix-Methode im Kontext des Ising-Modells?",
+      "choices": [
+        "A: Die evolutionäre Dynamik von Teilchen in einem Feld.",
+        "B: Die Berechnung der Zustandsdichte eines Systems.",
+        "C: Die statistische Gewichtung von Mikrozuständen.",
+        "D: Die Lösung von Differentialgleichungen in der Quantenmechanik."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Transfermatrix-Methode ist ein entscheidendes Werkzeug in der statistischen Mechanik, um die statistische Gewichtung von Mikrozuständen in Systemen wie dem Ising-Modell zu analysieren. Sie ermöglicht die Berechnung von Makrogrößen durch die Betrachtung der Wechselwirkungen zwischen benachbarten Spins.",
+      "difficulty": 4
+    },
+    {
+      "category": "Physik",
+      "discipline": "Analytische Mechanik",
+      "subcategory": "Holonome Zwangsbedingungen",
+      "question": "Welche der folgenden Aussagen beschreibt am besten holonome Zwangsbedingungen in der analytischen Mechanik?",
+      "choices": [
+        "A: Holonome Zwangsbedingungen sind durch integrable Gleichungen definiert, die die Position eines Systems in Abhängigkeit von den generalisierten Koordinaten beschreiben.",
+        "B: Holonome Zwangsbedingungen beziehen sich ausschließlich auf zeitlich unabhängige Kräfte im System.",
+        "C: Holonome Zwangsbedingungen sind solche, die nicht durch die Potentialenergie beschrieben werden können.",
+        "D: Holonome Zwangsbedingungen sind nicht-integrabel und können nur durch kinetische Gleichungen erfasst werden."
+      ],
+      "correct_answer": "A",
+      "explanation": "Holonome Zwangsbedingungen stellen eine spezielle Form von Einschränkungen dar, die in integrabler Form als Funktionen der Positionen in den generalisierten Koordinaten formuliert werden können. Sie sind entscheidend für die Formulierung der Lagrangeschen Mechanik und ermöglichen eine klare Trennung der Dynamik des Systems von seinen Einschränkungen.",
+      "difficulty": 10
+    }
+  ]
+}
