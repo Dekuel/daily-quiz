@@ -25,28 +25,53 @@ _SCHEMA = """{
   "difficulty": 1
 }"""
 
-# Schwierigkeitsbänder (feiner als nur leicht/mittel/schwer)
-_DIFF_BANDS = [
-    ((1, 2), "SEHR LEICHT (1–2): weithin bekannte Regeln, ikonische Personen/Ereignisse; klare Distraktoren.", 0.75),
-    ((3, 4), "LEICHT (3–4): Grundwissen zu Turnieren, Positionen, einfachen Statistiken oder Rekorden.", 0.75),
-    ((5, 6), "MITTEL (5–6): taktische Grundkonzepte, historische Kontexte, differenzierte Regeln.", 0.75),
-    ((7, 8), "ANSPRUCHSVOLL (7–8): seltenere Fakten, präzise Regelausnahmen, vergleichende Rekorde.", 0.75),
-    ((9,10), "SCHWER (9–10): Detailwissen (z. B. spezifische Regelpassagen, historische Sonderfälle, exakte Zuordnungen).", 0.82),
-]
+# ──────────────────────────────────────────────────────────────────────────────
+# Neuer Schwierigkeitsleitfaden 1–10 (exakt nach Vorgabe)
+# ──────────────────────────────────────────────────────────────────────────────
+_DIFF_GUIDE = """
+1 = absolutes Grundwissen (≈ 95 % der Bevölkerung in DE)
+2 = sehr einfaches Grundwissen
+3 = einfache Fragen (ohne schwere Thematik)
+4 = leichte Fragen (Recall, einfache Anwendung)
+5 = einfach–mittel (70–80 % schaffbar)
+6 = mittlere Komplexität (≈ 60 % schaffbar)
+7 = mittel–schwer (für Nicht-Expert:innen anspruchsvoll)
+8 = schwer (deutliches Vorwissen/vertieftes Verständnis nötig)
+9 = Expertenwissen (Fachkenntnisse erforderlich)
+10 = schwerstmöglich (oberes Expertenniveau)
+""".strip()
 
-def _band_for_difficulty(target: int) -> tuple[str, float]:
-    t = int(target)
-    for (lo, hi), note, temp in _DIFF_BANDS:
-        if lo <= t <= hi:
-            return note, temp
-    return "MITTEL (5–6): taktische Grundkonzepte, historische Kontexte.", 0.55
+# Stufengenaue Beschreibung für die Prompt-Zeile
+_DIFF_LEVELS: dict[int, str] = {
+    1: "absolutes Grundwissen (≈ 95 % der Bevölkerung in DE)",
+    2: "sehr einfaches Grundwissen",
+    3: "einfache Fragen (ohne schwere Thematik)",
+    4: "leichte Fragen (Recall, einfache Anwendung)",
+    5: "einfach–mittel (70–80 % schaffbar)",
+    6: "mittlere Komplexität (≈ 60 % schaffbar)",
+    7: "mittel–schwer (für Nicht-Expert:innen anspruchsvoll)",
+    8: "schwer (deutliches Vorwissen/vertieftes Verständnis nötig)",
+    9: "Expertenwissen (Fachkenntnisse erforderlich)",
+    10:"schwerstmöglich (oberes Expertenniveau)",
+}
+
+def _temperature_for(d: int) -> float:
+    if d <= 2: return 0.75
+    if d <= 4: return 0.75
+    if d <= 6: return 0.75
+    if d <= 8: return 0.75
+    return 0.82
 
 def _prompt(disc: str, target_difficulty: int, mode: Optional[str]) -> tuple[str, float]:
-    band_note, temperature = _band_for_difficulty(target_difficulty)
+    temperature = _temperature_for(int(target_difficulty))
+    level_desc = _DIFF_LEVELS.get(int(target_difficulty), "siehe Stufenleitfaden")
 
     prompt = f"""
 Erzeuge EINE Multiple-Choice-Frage (A–D, genau eine richtig) zur Kategorie „Sport“, Disziplin „{disc}“ (Deutsch).
-Ziel-Schwierigkeit: {target_difficulty}/10 – {band_note}
+Ziel-Schwierigkeit: {target_difficulty}/10 – {level_desc}
+
+Kontext zu Schwierigkeitsstufen (1–10):
+{_DIFF_GUIDE}
 
 Vorgaben:
 - Allgemeines Sportwissen; vermeide tagesaktuelle Ergebnisse/Transfers (keine Datumsabhängigkeit).

@@ -18,35 +18,52 @@ _SCHEMA = """{
   "difficulty": 1
 }"""
 
+# ──────────────────────────────────────────────────────────────────────────────
+# Neuer Schwierigkeitsleitfaden 1–10 (wie vorgegeben)
+# ──────────────────────────────────────────────────────────────────────────────
 _DIFF_GUIDE = """
-- 1–3 (leicht): sehr bekannte Werke/Autor:innen/Komponist:innen, ikonische Stile oder Epochenmerkmale.
-- 4–7 (mittel): weniger offensichtliche Zuordnungen, Werk-Kontexte, Gattungen, Motive, stilistische Kennzeichen.
-- 8–10 (schwer): spezifische Jahreszahlen/Erstveröffentlichungen, Einflüsse, Fachbegriffe, Detailwissen zu Schulen/Techniken.
-"""
+1 = absolutes Grundwissen (≈ 95 % der Bevölkerung in DE)
+2 = sehr einfaches Grundwissen
+3 = einfache Fragen (ohne schwere Thematik)
+4 = leichte Fragen (Recall, einfache Anwendung)
+5 = einfach–mittel (70–80 % schaffbar)
+6 = mittlere Komplexität (≈ 60 % schaffbar)
+7 = mittel–schwer (für Nicht-Expert:innen anspruchsvoll)
+8 = schwer (deutliches Vorwissen/vertieftes Verständnis nötig)
+9 = Expertenwissen (Fachkenntnisse erforderlich)
+10 = schwerstmöglich (oberes Expertenniveau)
+""".strip()
+
+# Stufengenaue Beschreibung für die Promptzeile
+_DIFF_LEVELS: dict[int, str] = {
+    1: "absolutes Grundwissen (≈ 95 % der Bevölkerung in DE)",
+    2: "sehr einfaches Grundwissen",
+    3: "einfache Fragen (ohne schwere Thematik)",
+    4: "leichte Fragen (Recall, einfache Anwendung)",
+    5: "einfach–mittel (70–80 % schaffbar)",
+    6: "mittlere Komplexität (≈ 60 % schaffbar)",
+    7: "mittel–schwer (für Nicht-Expert:innen anspruchsvoll)",
+    8: "schwer (deutliches Vorwissen/vertieftes Verständnis nötig)",
+    9: "Expertenwissen (Fachkenntnisse erforderlich)",
+    10:"schwerstmöglich (oberes Expertenniveau)",
+}
+
+def _temperature_for(d: int) -> float:
+    if d <= 2: return 0.8
+    if d <= 4: return 0.8
+    if d <= 6: return 0.8
+    if d <= 8: return 0.8
+    return 0.82
 
 def _prompt(sub: str, target_difficulty: int, mode: Optional[str]) -> tuple[str, float]:
-    if target_difficulty <= 2:
-        tier_note = "LEICHT (1–2): bekannte Fakten,teils logisch erschließbare Antwort."
-        temperature = 0.8
-    elif target_difficulty <= 4:
-        tier_note = "MITTEL (3-4): etwas weniger bekannte Fakten, moderate Komplexität."
-        temperature = 0.8
-    elif target_difficulty<= 6:
-        tier_note = "Etwas schwerer (5-6): spezifische Details, oder etwas tiefere Konzepte eng verwandte Distraktoren."
-        temperature = 0.8
-    elif target_difficulty<= 8:
-        tier_note = "Schwer (7-8): spezifische Details oder tiefe Konzepte, eng verwandte Distraktoren."
-        temperature = 0.8
-    else:
-        tier_note = "sehr Schwer (9-10): spezifische Details oder tiefe Konzepte, expertenwissen, eng verwandte Distraktoren."
-        temperature = 0.8
-
+    temperature = _temperature_for(int(target_difficulty))
+    level_desc = _DIFF_LEVELS.get(int(target_difficulty), "siehe Stufenleitfaden")
 
     prompt = f"""
 Erzeuge EINE Multiple-Choice-Frage (A–D, genau eine richtig) zur Kategorie „Kunst und Literatur“, Unterthema „{sub}“.
-Ziel-Schwierigkeit: {target_difficulty}/10 – {tier_note}
+Ziel-Schwierigkeit: {target_difficulty}/10 – {level_desc}
 
-Kontext zu Schwierigkeitsstufen:
+Kontext zu Schwierigkeitsstufen (1–10):
 {_DIFF_GUIDE}
 
 Vorgaben:
@@ -54,7 +71,8 @@ Vorgaben:
 - Kulturwissen statt Datumsraterei um der Datumszahl willen; Daten nur, wenn inhaltlich sinnvoll.
 - Keine Antwortoption „alle oben/keine der oben“.
 - Vier plausible Optionen (A–D), genau eine korrekt.
-- Gib ausschließlich valides JSON gemäß Schema zurück.
+- Erklärung: 2–3 Sätze, kurz und hilfreich (ggf. Stilrichtung/Einordnung).
+- Antworte ausschließlich mit **validem JSON** gemäß Schema.
 
 JSON-SCHEMA:
 {_SCHEMA}

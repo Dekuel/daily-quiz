@@ -53,7 +53,7 @@ _SUBTOPICS: dict[str, List[Tuple[str, int]]] = {
         ("Industrialisierung & Konservierung: Dosen, Kühlung, Pasteurisierung – Gesellschaftseffekte", 2),
         ("Migration & Hybridküchen: Diaspora, Kreolisierung, Globalisierung von Gerichten", 2),
         ("Esskultur & Tischsitten: Rituale, Etikette, gesellschaftlicher Kontext", 1),
-        ("Regionale Brot- & Käsekulturen: Handwerk, Reifung, regionale Profile", 1),
+        ("Regionale Brot- & Käsekulturen: Handwerk, Reifung, regionale Profiles", 1),
     ],
 }
 
@@ -68,43 +68,58 @@ _SCHEMA = """{
   "difficulty": 1
 }"""
 
-# Leitplanken je Schwierigkeit (1..10)
-DIFF_GUIDE = """
-- 1–3 (leicht): sehr bekanntes Alltagswissen; Distraktoren klar unterscheidbar.
-- 4–7 (mittel): weniger offensichtliche Fakten, regionale Besonderheiten, einfache Zahlenbereiche.
-- 8–10 (schwer): spezifische Herkunft/Etmythologie/geschützte Herkunftsbezeichnungen, rare Zubereitungen;
-  Distraktoren plausibel und nah dran.
-"""
+# ──────────────────────────────────────────────────────────────────────────────
+# Neuer Schwierigkeitsleitfaden 1–10 (exakt nach Vorgabe)
+# ──────────────────────────────────────────────────────────────────────────────
+_DIFF_GUIDE = """
+1 = absolutes Grundwissen (≈ 95 % der Bevölkerung in DE)
+2 = sehr einfaches Grundwissen
+3 = einfache Fragen (ohne schwere Thematik)
+4 = leichte Fragen (Recall, einfache Anwendung)
+5 = einfach–mittel (70–80 % schaffbar)
+6 = mittlere Komplexität (≈ 60 % schaffbar)
+7 = mittel–schwer (für Nicht-Expert:innen anspruchsvoll)
+8 = schwer (deutliches Vorwissen/vertieftes Verständnis nötig)
+9 = Expertenwissen (Fachkenntnisse erforderlich)
+10 = schwerstmöglich (oberes Expertenniveau)
+""".strip()
+
+# Stufengenaue Beschreibung für die Prompt-Zeile
+_DIFF_LEVELS: dict[int, str] = {
+    1: "absolutes Grundwissen (≈ 95 % der Bevölkerung in DE)",
+    2: "sehr einfaches Grundwissen",
+    3: "einfache Fragen (ohne schwere Thematik)",
+    4: "leichte Fragen (Recall, einfache Anwendung)",
+    5: "einfach–mittel (70–80 % schaffbar)",
+    6: "mittlere Komplexität (≈ 60 % schaffbar)",
+    7: "mittel–schwer (für Nicht-Expert:innen anspruchsvoll)",
+    8: "schwer (deutliches Vorwissen/vertieftes Verständnis nötig)",
+    9: "Expertenwissen (Fachkenntnisse erforderlich)",
+    10:"schwerstmöglich (oberes Expertenniveau)",
+}
+
+def _temperature_for(d: int) -> float:
+    if d <= 2: return 0.8
+    if d <= 4: return 0.8
+    if d <= 6: return 0.8
+    if d <= 8: return 0.8
+    return 0.82
 
 def _pick_weighted(pairs: List[Tuple[str, int]]) -> str:
     names, weights = zip(*pairs)
     return random.choices(list(names), weights=list(weights), k=1)[0]
 
 def _prompt(topic: str, target_difficulty: int, mode: Optional[str], subtopic: Optional[str] = None) -> tuple[str, float]:
-    # Temperatur moderat einheitlich; könnte optional je Tier variiert werden
-    if target_difficulty <= 2:
-        tier_note = "LEICHT (1–2): bekannte Fakten, teils logisch erschließbar."
-        temperature = 0.8
-    elif target_difficulty <= 4:
-        tier_note = "MITTEL (3–4): weniger bekannte Fakten, moderate Komplexität."
-        temperature = 0.8
-    elif target_difficulty <= 6:
-        tier_note = "Etwas schwerer (5–6): spezifischere Details, eng verwandte Distraktoren."
-        temperature = 0.8
-    elif target_difficulty <= 8:
-        tier_note = "Schwer (7–8): präzise Details oder tiefere Konzepte, enge Distraktoren."
-        temperature = 0.8
-    else:
-        tier_note = "Sehr schwer (9–10): Expertenwissen, exakte Terminologie, engste Distraktoren."
-        temperature = 0.82
-
+    temperature = _temperature_for(int(target_difficulty))
+    level_desc = _DIFF_LEVELS.get(int(target_difficulty), "siehe Stufenleitfaden")
     sub_hint = f"- Subthema (nur als inhaltlicher Hinweis, NICHT ins JSON übernehmen): „{subtopic}“.\n" if subtopic else ""
 
     prompt = f"""
 Erzeuge EINE Multiple-Choice-Frage (A–D, eine richtig) zur Kategorie „Essen und Trinken“, Thema „{topic}“ (Deutsch).
-{sub_hint}Ziel-Schwierigkeit: {target_difficulty}/10 – {tier_note}
-Kontext zu Schwierigkeitsstufen:
-{DIFF_GUIDE}
+{sub_hint}Ziel-Schwierigkeit: {target_difficulty}/10 – {level_desc}
+
+Kontext zu Schwierigkeitsstufen (1–10):
+{_DIFF_GUIDE}
 
 Anforderungen:
 - Keine reinen Rezeptschritte; Fokus auf Ursprung, Geschichte, Zutatenkunde, Bezeichnungen, Geographie, Schutzsiegel.

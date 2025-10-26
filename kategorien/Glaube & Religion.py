@@ -279,36 +279,56 @@ _SCHEMA = """{
   "difficulty": 1
 }"""
 
+# NEU: exakte Stufenbeschreibung 1–10
 _DIFF_GUIDE = """
-- 1–3 (leicht): ikonische Ereignisse oder Personen, Grundwissen.
-- 4–7 (mittel): weniger bekannte Zusammenhänge, Ursachen/Folgen, einfache Datierungen.
-- 8–10 (schwer): exakte Terminologie/Datierungen, komplexe Prozesse, seltene Begriffe.
-"""
+1 = absolutes Grundwissen (≈ 95 % der Bevölkerung in DE)
+2 = sehr einfaches Grundwissen
+3 = einfache Fragen (ohne schwere Thematik)
+4 = leichte Fragen (Recall, einfache Anwendung)
+5 = einfach–mittel (70–80 % schaffbar)
+6 = mittlere Komplexität (≈ 60 % schaffbar)
+7 = mittel–schwer (für Nicht-Expert:innen anspruchsvoll)
+8 = schwer (deutliches Vorwissen/vertieftes Verständnis nötig)
+9 = Expertenwissen (Fachkenntnisse erforderlich)
+10 = schwerstmöglich (oberes Expertenniveau)
+""".strip()
+
+# Zusätzlich: Map für stufengenauen Hinweis im Prompt
+_DIFF_LEVELS: Dict[int, str] = {
+    1: "absolutes Grundwissen (≈ 95 % der Bevölkerung in DE)",
+    2: "sehr einfaches Grundwissen",
+    3: "einfache Fragen (ohne schwere Thematik)",
+    4: "leichte Fragen (Recall, einfache Anwendung)",
+    5: "einfach–mittel (70–80 % schaffbar)",
+    6: "mittlere Komplexität (≈ 60 % schaffbar)",
+    7: "mittel–schwer (für Nicht-Expert:innen anspruchsvoll)",
+    8: "schwer (deutliches Vorwissen/vertieftes Verständnis nötig)",
+    9: "Expertenwissen (Fachkenntnisse erforderlich)",
+    10:"schwerstmöglich (oberes Expertenniveau)",
+}
 
 def _prompt(subperiod: str, target_difficulty: int, mode: Optional[str], subtopic: Optional[str] = None) -> tuple[str, float]:
+    # Temperatur weiterhin grob nach Buckets gestaffelt (wie zuvor)
     if target_difficulty <= 2:
-        tier_note = "LEICHT (1–2): bekannte Fakten, teils logisch erschließbar."
         temperature = 0.8
     elif target_difficulty <= 4:
-        tier_note = "MITTEL (3–4): etwas weniger bekannte Fakten, moderate Komplexität."
         temperature = 0.8
     elif target_difficulty <= 6:
-        tier_note = "Etwas schwerer (5–6): spezifischere Details, engere Distraktoren."
         temperature = 0.8
     elif target_difficulty <= 8:
-        tier_note = "Schwer (7–8): präzise Details oder tiefere Konzepte, enge Distraktoren."
         temperature = 0.8
     else:
-        tier_note = "Sehr schwer (9–10): exakte Terminologie/Datierungen, Expertenwissen."
         temperature = 0.82
+
+    level_desc = _DIFF_LEVELS.get(int(target_difficulty), "siehe Stufenleitfaden")
 
     sub_hint = f"- Unterthema (nur als inhaltlicher Hinweis, NICHT ins JSON übernehmen): „{subtopic}“.\n" if subtopic else ""
 
     prompt = f"""
 Erzeuge EINE Multiple-Choice-Frage (A–D, genau eine richtig) zur Kategorie „{CATEGORY_NAME}“, Oberbereich „{subperiod}“ (Deutsch).
-{sub_hint}Ziel-Schwierigkeit: {target_difficulty}/10 – {tier_note}
+{sub_hint}Ziel-Schwierigkeit: {target_difficulty}/10 – {level_desc}
 
-Kontext zu Schwierigkeitsstufen:
+Kontext zu Schwierigkeitsstufen (1–10):
 {_DIFF_GUIDE}
 
 Vorgaben:

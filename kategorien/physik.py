@@ -171,31 +171,66 @@ _SCHEMA = """{
   "difficulty": 1
 }"""
 
-_DIFF_BANDS = [
-    ((1, 2), "SEHR LEICHT (1–2): Alltagsphysik, anschauliche Begriffe, kaum Fachsprache.", 0.75),
-    ((3, 4), "LEICHT (3–4): Grundbegriffe/Definitionen, einfache qualitative Zusammenhänge.", 0.75),
-    ((5, 6), "MITTEL (5–6): Kombination mehrerer Konzepte, einfache quantitative Aussagen ohne Rechnen.", 0.75),
-    ((7, 8), "ANSPRUCHSVOLL (7–8): präzisere Konzepte/Fallunterscheidungen, engere Distraktoren.", 0.75),
-    ((9,10), "SCHWER (9–10): tiefe Konzepte/Edge Cases, genaue Begriffsabgrenzungen", 0.78),
-]
+# ──────────────────────────────────────────────────────────────────────────────
+# Neuer Schwierigkeitsleitfaden 1–10 (wie von dir vorgegeben)
+# ──────────────────────────────────────────────────────────────────────────────
+_DIFF_GUIDE = """
+1 = absolutes Grundwissen (≈ 95 % der Bevölkerung in DE)
+2 = sehr einfaches Grundwissen
+3 = einfache Fragen (ohne schwere Thematik)
+4 = leichte Fragen (Recall, einfache Anwendung)
+5 = einfach–mittel (70–80 % schaffbar)
+6 = mittlere Komplexität (≈ 60 % schaffbar)
+7 = mittel–schwer (für Nicht-Expert:innen anspruchsvoll)
+8 = schwer (deutliches Vorwissen/vertieftes Verständnis nötig)
+9 = Expertenwissen (Fachkenntnisse erforderlich)
+10 = schwerstmöglich (oberes Expertenniveau)
+""".strip()
 
-def _band_for_difficulty(target: int) -> Tuple[str, float]:
-    for (lo, hi), note, temp in _DIFF_BANDS:
-        if lo <= target <= hi:
-            return note, temp
-    return "MITTEL (5–6): Kombination mehrerer Konzepte.", 0.55
+# Stufengenaue Beschreibung für die Promptzeile
+_DIFF_LEVELS: Dict[int, str] = {
+    1: "absolutes Grundwissen (≈ 95 % der Bevölkerung in DE)",
+    2: "sehr einfaches Grundwissen",
+    3: "einfache Fragen (ohne schwere Thematik)",
+    4: "leichte Fragen (Recall, einfache Anwendung)",
+    5: "einfach–mittel (70–80 % schaffbar)",
+    6: "mittlere Komplexität (≈ 60 % schaffbar)",
+    7: "mittel–schwer (für Nicht-Expert:innen anspruchsvoll)",
+    8: "schwer (deutliches Vorwissen/vertieftes Verständnis nötig)",
+    9: "Expertenwissen (Fachkenntnisse erforderlich)",
+    10:"schwerstmöglich (oberes Expertenniveau)",
+}
 
 def _pick_weighted(pairs: List[Tuple[str, int]]) -> str:
     names, weights = zip(*pairs)
     return random.choices(list(names), weights=list(weights), k=1)[0]
 
+def _pick_disc() -> str:
+    return random.choices(list(_PHYSIK.keys()), weights=list(_PHYSIK.values()), k=1)[0]
+
 def _prompt(disc: str, target_difficulty: int, mode: Optional[str], subtopic: Optional[str] = None) -> Tuple[str, float]:
-    band_note, temperature = _band_for_difficulty(target_difficulty)
+    # Temperatur-Logik grob nach Bereichen (wie bisher)
+    if target_difficulty <= 2:
+        temperature = 0.75
+    elif target_difficulty <= 4:
+        temperature = 0.75
+    elif target_difficulty <= 6:
+        temperature = 0.75
+    elif target_difficulty <= 8:
+        temperature = 0.75
+    else:
+        temperature = 0.78
+
+    level_desc = _DIFF_LEVELS.get(int(target_difficulty), "siehe Stufenleitfaden")
     sub_line = f'- Subthema: "{subtopic}"\n' if subtopic else '- Subthema: ""\n'
+
     prompt = f"""
 Erzeuge EINE Multiple-Choice-Frage (A–D, genau eine richtig) zur Kategorie "Physik" (Deutsch).
 - Disziplin: "{disc}"
-{sub_line}Ziel-Schwierigkeit: {target_difficulty}/10 – {band_note}
+{sub_line}Ziel-Schwierigkeit: {target_difficulty}/10 – {level_desc}
+
+Kontext zu Schwierigkeitsstufen (1–10):
+{_DIFF_GUIDE}
 
 Vorgaben:
 - Nutze das Subthema (falls nicht leer) als inhaltlichen Fokus der Frage.
@@ -258,9 +293,6 @@ def _ask_json(p: str, temperature: float) -> Optional[dict]:
     raw = r.choices[0].message.content.strip()
     m = re.search(r"\{.*\}", raw, re.DOTALL)
     return json.loads(m.group(0)) if m else None
-
-def _pick_disc() -> str:
-    return random.choices(list(_PHYSIK.keys()), weights=list(_PHYSIK.values()), k=1)[0]
 
 # ──────────────────────────────────────────────────────────────────────────────
 # Public generator API
