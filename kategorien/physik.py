@@ -160,10 +160,11 @@ _PHYSIK: Dict[str, int] = {
     "Festkörperphysik": 10,
 }
 
+# ── Schema: 'topic' (statt 'discipline') & 'subtopic' (statt 'subcategory') ───
 _SCHEMA = """{
   "category": "Physik",
-  "discipline": "Klassische Mechanik|Thermodynamik|Quantenmechanik|Analytische Mechanik|Relativitätstheorie|Elektrodynamik|Optik|Kern- und Teilchenphysik|Astrophysik|Festkörperphysik|berühmte Physiker",
-  "subcategory": "...",
+  "topic": "Klassische Mechanik|Thermodynamik|Quantenmechanik|Analytische Mechanik|Relativitätstheorie|Elektrodynamik|Optik|Kern- und Teilchenphysik|Astrophysik|Festkörperphysik|berühmte Physiker",
+  "subtopic": "...",
   "question": "...",
   "choices": ["A: ...","B: ...","C: ...","D: ..."],
   "correct_answer": "A|B|C|D",
@@ -226,7 +227,7 @@ def _prompt(disc: str, target_difficulty: int, mode: Optional[str], subtopic: Op
 
     prompt = f"""
 Erzeuge EINE Multiple-Choice-Frage (A–D, genau eine richtig) zur Kategorie "Physik" (Deutsch).
-- Disziplin: "{disc}"
+- Oberthema ("topic"): "{disc}"
 {sub_line}Ziel-Schwierigkeit: {target_difficulty}/10 – {level_desc}
 
 Kontext zu Schwierigkeitsstufen (1–10):
@@ -234,7 +235,7 @@ Kontext zu Schwierigkeitsstufen (1–10):
 
 Vorgaben:
 - Nutze das Subthema (falls nicht leer) als inhaltlichen Fokus der Frage.
-- Setze "discipline" exakt auf "{disc}" und "subcategory" exakt auf das oben angegebene Subthema (oder "" wenn keins).
+- Setze "topic" exakt auf "{disc}" und "subtopic" exakt auf das oben angegebene Subthema (oder "" wenn keins).
 - Vier plausible Antwortoptionen (A–D), eine korrekt.
 - Erklärung in 2–3 Sätzen: kurz, präzise, hilfreich.
 - Antworte ausschließlich mit validem JSON gemäß Schema.
@@ -313,10 +314,21 @@ def generate_one(past_texts: List[str], target_difficulty: Optional[int] = None,
     if not data:
         return None
 
+    # --- Defensive Normalisierung von alten Keys -> neue Keys ---
+    if "topic" not in data and "discipline" in data:
+        data["topic"] = data.pop("discipline")
+    if "subtopic" not in data and "subcategory" in data:
+        data["subtopic"] = data.pop("subcategory")
+
+    # Pflichtfelder (hart fixieren)
     data["category"] = CATEGORY_NAME
-    data["discipline"] = data.get("discipline", disc)
-    data["subcategory"] = data.get("subcategory", sub or "")
+    data["topic"] = disc                     # Oberthema (immer setzen)
+    data["subtopic"] = sub or ""             # Subthema (leer erlaubt)
     data["difficulty"] = int(data.get("difficulty", tier))
+
+    # Optional: alte Felder entfernen, falls Modell sie trotzdem gesetzt hat
+    data.pop("discipline", None)
+    data.pop("subcategory", None)
 
     data = _postprocess(data)
     return data

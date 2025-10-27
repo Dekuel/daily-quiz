@@ -49,9 +49,10 @@ _SUBTOPICS: dict[str, List[Tuple[str, int]]] = {
     ],
 }
 
+# -- Schema: 'topic' statt 'subcategory' --------------------------------------
 _SCHEMA = """{
   "category": "Sprache",
-  "subcategory": "Grammatik|Wortherkunft|Redewendungen|Fremdsprachen",
+  "topic": "Grammatik|Wortherkunft|Redewendungen|Fremdsprachen",
   "question": "...",
   "choices": ["A: ...", "B: ...", "C: ...", "D: ..."],
   "correct_answer": "A|B|C|D",
@@ -116,8 +117,8 @@ Vorgaben:
 - Knapp und eindeutig formulieren; Beispiel statt Metadiskussion.
 - Vier plausible Antwortoptionen (A–D), genau eine korrekt; keine „alle oben/keine der oben“.
 - Erklärung: 2–3 Sätze, warum die richtige Lösung stimmt; Fachbegriffe kurz laienverständlich erläutern.
-- Das Feld "subcategory" im JSON enthält ausschließlich den Oberbereich („{subcategory}“). Unterthema nicht ins JSON.
-- Gib ausschließlich valides JSON gemäß Schema zurück.
+- Das Feld "topic" im JSON enthält ausschließlich den Oberbereich („{subcategory}“). Unterthema nicht ins JSON.
+- Antworte ausschließlich mit **validem JSON** gemäß Schema.
 
 JSON-SCHEMA:
 {_SCHEMA}
@@ -168,9 +169,13 @@ def generate_one(
     if not data:
         return None
 
-    # 5) Pflichtfelder normieren
+    # --- Defensive Normalisierung: alte Keys -> neue Keys ---
+    if "topic" not in data and "subcategory" in data:
+        data["topic"] = data.pop("subcategory")
+
+    # 5) Pflichtfelder normieren (Oberbereich immer festschreiben)
     data["category"] = CATEGORY_NAME
-    data["subcategory"] = sub          # Oberbereich erzwingen (Unterthema nie ins JSON)
+    data["topic"] = sub
     data["difficulty"] = int(data.get("difficulty", tier))
 
     # 6) minimale Validierung

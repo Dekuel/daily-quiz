@@ -146,7 +146,7 @@ _SUBTOPICS = _load_all_subtopics_strict()
 # ──────────────────────────────────────────────────────────────────────────────
 _SCHEMA = """{
   "category": "Geschichte",
-  "subperiod": "Antike|Mittelalter|Neuzeit|Zeitgeschichte (ab 1945)",
+  "topic": "Antike|Mittelalter|Neuzeit|Zeitgeschichte (ab 1945)",
   "question": "...",
   "choices": ["A: ...", "B: ...", "C: ...", "D: ..."],
   "correct_answer": "A|B|C|D",
@@ -217,7 +217,7 @@ Vorgaben:
 - Neutrale, gut verständliche Formulierung; keine Gegenwarts-/Tagesbezüge.
 - Keine „alle oben/keine der oben“-Optionen; vier plausible Antworten, genau eine korrekt.
 - Erklärung: 2–3 Sätze, knapp und hilfreich (ggf. kurze Einordnung/Datierung).
-- Das Feld "subperiod" im JSON enthält ausschließlich den Oberbereich („{subperiod}“). Unterthema nicht ins JSON.
+- Das Feld "topic" im JSON enthält ausschließlich den Oberbereich („{subperiod}“). Unterthema nicht ins JSON.
 - Antworte ausschließlich mit **validem JSON** gemäß Schema.
 
 JSON-SCHEMA:
@@ -276,7 +276,7 @@ def generate_one(
 
     # 5) Pflichtfelder normieren
     data["category"]   = CATEGORY_NAME
-    data["subperiod"]  = subperiod  # Unterthema nie ins JSON übernehmen
+    data["topic"]  = subperiod  # Unterthema nie ins JSON übernehmen
     data["difficulty"] = int(data.get("difficulty", tier))
 
     # 6) Minimale Validierung

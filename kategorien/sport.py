@@ -15,9 +15,10 @@ _SPORTS = {
     "Sonstige": 10,
 }
 
+# -- Schema: 'topic' statt 'discipline' ---------------------------------------
 _SCHEMA = """{
   "category": "Sport",
-  "discipline": "Fußball|Olympische Spiele|Tennis|Formel 1|Basketball|Sonstige",
+  "topic": "Fußball|Olympische Spiele|Tennis|Formel 1|Basketball|Sonstige",
   "question": "...",
   "choices": ["A: ...","B: ...","C: ...","D: ..."],
   "correct_answer": "A|B|C|D",
@@ -67,7 +68,7 @@ def _prompt(disc: str, target_difficulty: int, mode: Optional[str]) -> tuple[str
     level_desc = _DIFF_LEVELS.get(int(target_difficulty), "siehe Stufenleitfaden")
 
     prompt = f"""
-Erzeuge EINE Multiple-Choice-Frage (A–D, genau eine richtig) zur Kategorie „Sport“, Disziplin „{disc}“ (Deutsch).
+Erzeuge EINE Multiple-Choice-Frage (A–D, genau eine richtig) zur Kategorie „Sport“, Oberthema („topic“) „{disc}“ (Deutsch).
 Ziel-Schwierigkeit: {target_difficulty}/10 – {level_desc}
 
 Kontext zu Schwierigkeitsstufen (1–10):
@@ -78,6 +79,7 @@ Vorgaben:
 - Klar verständlich für Laien, dennoch präzise.
 - Vier plausible Antwortoptionen (A–D), eine korrekt; keine Optionen wie „alle oben/keine der oben“.
 - Erklärung in 2–3 Sätzen, die die richtige Lösung knapp begründet.
+- Setze das Feld "topic" im JSON exakt auf „{disc}“.
 - Gib ausschließlich valides JSON gemäß Schema zurück.
 
 JSON-SCHEMA:
@@ -127,9 +129,13 @@ def generate_one(
     if not data:
         return None
 
+    # Defensive Normalisierung: alte Keys -> neue Keys
+    if "topic" not in data and "discipline" in data:
+        data["topic"] = data.pop("discipline")
+
     # Pflichtfelder pflegen/normalisieren
     data["category"] = CATEGORY_NAME
-    data["discipline"] = data.get("discipline", disc)
+    data["topic"] = disc  # Oberthema immer festschreiben
     data["difficulty"] = int(data.get("difficulty", tier))
 
     # minimale Validierung

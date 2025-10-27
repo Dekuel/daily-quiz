@@ -79,12 +79,12 @@ def _fs_debug() -> str:
     return "\n".join(lines)
 
 # ──────────────────────────────────────────────────────────────────────────────
-# Oberbereiche (Subperiods) & Gewichte
-#   _SUBPERIODS: Default-Gewichte (Fallback)
-#   _SUBPERIOD_WEIGHTS_BY_BUCKET: Gewichte je Schwierigkeits-Bucket 1–4 / 5–7 / 8–10
+# Oberthemen (Topics) & Gewichte
+#   _TOPICS: Default-Gewichte (Fallback)
+#   _TOPIC_WEIGHTS_BY_BUCKET: Gewichte je Schwierigkeits-Bucket 1–4 / 5–7 / 8–10
 # ──────────────────────────────────────────────────────────────────────────────
 
-_SUBPERIODS: Dict[str, int] = {
+_TOPICS: Dict[str, int] = {
     "Monotheistische Religionen": 23,
     "Indische & fernöstliche Religionen": 11,
     "Klassische & nordische Mythologien": 34,
@@ -96,7 +96,7 @@ _SUBPERIODS: Dict[str, int] = {
     "Religionsgeschichte, Soziologie & Praxis": 5,
 }
 
-_SUBPERIOD_WEIGHTS_BY_BUCKET: Dict[str, Dict[str, int]] = {
+_TOPIC_WEIGHTS_BY_BUCKET: Dict[str, Dict[str, int]] = {
     "1-4": {
         "Monotheistische Religionen": 40,
         "Indische & fernöstliche Religionen": 0,
@@ -137,14 +137,14 @@ def _bucket_for(d: int) -> str:
     if d <= 7: return "5-7"
     return "8-10"
 
-def _pick_subperiod_for_difficulty(d: int) -> str:
+def _pick_topic_for_difficulty(d: int) -> str:
     bucket = _bucket_for(d)
-    weights_map = _SUBPERIOD_WEIGHTS_BY_BUCKET.get(bucket, _SUBPERIODS)
+    weights_map = _TOPIC_WEIGHTS_BY_BUCKET.get(bucket, _TOPICS)
     names = list(weights_map.keys())
     weights = [weights_map[n] for n in names]
     return random.choices(names, weights=weights, k=1)[0]
 
-# Epoche -> Modulpfad (einheitlich Religion, keine doppelte Definition)
+# Topic -> Modulpfad (einheitlich Religion, keine doppelte Definition)
 _SUBMODULE_PATHS: Dict[str, str] = {
     "Monotheistische Religionen": "Unterkategorien.Religion.monotheismus",
     "Indische & fernöstliche Religionen": "Unterkategorien.Religion.indien_fernost",
@@ -158,7 +158,7 @@ _SUBMODULE_PATHS: Dict[str, str] = {
 }
 
 # Geladene Unterthemen-Listen:
-#   subperiod -> List[Dict(name,weight,min_difficulty,max_difficulty)]
+#   topic -> List[Dict(name,weight,min_difficulty,max_difficulty)]
 _SUBTOPICS: Dict[str, List[Dict[str, Any]]] = {}
 
 # ──────────────────────────────────────────────────────────────────────────────
@@ -218,19 +218,19 @@ def _load_subtopics_from_module(mod: ModuleType) -> List[Dict[str, Any]]:
 def _load_all_subtopics_strict() -> Dict[str, List[Dict[str, Any]]]:
     errors: List[str] = []
     result: Dict[str, List[Dict[str, Any]]] = {}
-    for period, module_path in _SUBMODULE_PATHS.items():
+    for topic, module_path in _SUBMODULE_PATHS.items():
         try:
             spec = importlib.util.find_spec(module_path)
         except ModuleNotFoundError:
             spec = None
         if spec is None:
-            errors.append(f"[{period}] Modul nicht gefunden: {module_path}")
+            errors.append(f"[{topic}] Modul nicht gefunden: {module_path}")
             continue
         try:
             mod = importlib.import_module(module_path)
-            result[period] = _load_subtopics_from_module(mod)
+            result[topic] = _load_subtopics_from_module(mod)
         except Exception as e:
-            errors.append(f"[{period}] Import-/Ladefehler in {module_path}: {e.__class__.__name__}: {e}")
+            errors.append(f"[{topic}] Import-/Ladefehler in {module_path}: {e.__class__.__name__}: {e}")
             continue
 
     if errors:
@@ -254,8 +254,8 @@ def _pick_weighted_name(dicts: List[Dict[str, Any]]) -> Optional[str]:
     weights = [d["weight"] for d in dicts]
     return random.choices(names, weights=weights, k=1)[0]
 
-def _choose_subdiscipline(subperiod: str, target_difficulty: int) -> Optional[str]:
-    entries = _SUBTOPICS.get(subperiod, [])
+def _choose_subdiscipline(topic: str, target_difficulty: int) -> Optional[str]:
+    entries = _SUBTOPICS.get(topic, [])
     eligible = [d for d in entries if d["min_difficulty"] <= target_difficulty <= d["max_difficulty"]]
     if eligible:
         return _pick_weighted_name(eligible)
@@ -271,7 +271,7 @@ def _choose_subdiscipline(subperiod: str, target_difficulty: int) -> Optional[st
 # ──────────────────────────────────────────────────────────────────────────────
 _SCHEMA = """{
   "category": "Glaube & Religion",
-  "subperiod": "Monotheistische Religionen|Indische & fernöstliche Religionen|Klassische & nordische Mythologien|Weitere antike Mittelmeer- & europäische Mythologien|Afrikanische & indigene Religionen|Nahöstliche & altorientalische Kulte|Religiöse Ideen, Theologie & Mystik|Spiritualität, Esoterik & neue religiöse Bewegungen|Religionsgeschichte, Soziologie & Praxis",
+  "topic": "Monotheistische Religionen|Indische & fernöstliche Religionen|Klassische & nordische Mythologien|Weitere antike Mittelmeer- & europäische Mythologien|Afrikanische & indigene Religionen|Nahöstliche & altorientalische Kulte|Religiöse Ideen, Theologie & Mystik|Spiritualität, Esoterik & neue religiöse Bewegungen|Religionsgeschichte, Soziologie & Praxis",
   "question": "...",
   "choices": ["A: ...", "B: ...", "C: ...", "D: ..."],
   "correct_answer": "A|B|C|D",
@@ -307,7 +307,7 @@ _DIFF_LEVELS: Dict[int, str] = {
     10:"schwerstmöglich (oberes Expertenniveau)",
 }
 
-def _prompt(subperiod: str, target_difficulty: int, mode: Optional[str], subtopic: Optional[str] = None) -> tuple[str, float]:
+def _prompt(topic: str, target_difficulty: int, mode: Optional[str], subtopic: Optional[str] = None) -> tuple[str, float]:
     # Temperatur weiterhin grob nach Buckets gestaffelt (wie zuvor)
     if target_difficulty <= 2:
         temperature = 0.8
@@ -325,7 +325,7 @@ def _prompt(subperiod: str, target_difficulty: int, mode: Optional[str], subtopi
     sub_hint = f"- Unterthema (nur als inhaltlicher Hinweis, NICHT ins JSON übernehmen): „{subtopic}“.\n" if subtopic else ""
 
     prompt = f"""
-Erzeuge EINE Multiple-Choice-Frage (A–D, genau eine richtig) zur Kategorie „{CATEGORY_NAME}“, Oberbereich „{subperiod}“ (Deutsch).
+Erzeuge EINE Multiple-Choice-Frage (A–D, genau eine richtig) zur Kategorie „{CATEGORY_NAME}“, Oberthema „{topic}“ (Deutsch).
 {sub_hint}Ziel-Schwierigkeit: {target_difficulty}/10 – {level_desc}
 
 Kontext zu Schwierigkeitsstufen (1–10):
@@ -335,7 +335,7 @@ Vorgaben:
 - Neutrale, gut verständliche Formulierung; keine Gegenwarts-/Tagesbezüge.
 - Keine „alle oben/keine der oben“-Optionen; vier plausible Antworten, genau eine korrekt.
 - Erklärung: 2–3 Sätze, knapp und hilfreich (ggf. kurze Einordnung/Datierung).
-- Das Feld "subperiod" im JSON enthält ausschließlich den Oberbereich („{subperiod}“). Unterthema nicht ins JSON.
+- Das Feld "topic" im JSON enthält ausschließlich das Oberthema („{topic}“). Unterthema nicht ins JSON.
 - Antworte ausschließlich mit **validem JSON** gemäß Schema.
 
 JSON-SCHEMA:
@@ -376,14 +376,14 @@ def generate_one(
     # 1) Zielschwierigkeit losen/bestimmen
     tier = int(target_difficulty) if isinstance(target_difficulty, int) else random.choice([3, 5, 7])
 
-    # 2) Subperiod abhängig von tier (Buckets)
-    subperiod = _pick_subperiod_for_difficulty(tier)
+    # 2) Topic abhängig von tier (Buckets)
+    topic = _pick_topic_for_difficulty(tier)
 
-    # 3) Passende Subdisziplin innerhalb der Subperiod gemäß Range-Filter
-    subtopic = _choose_subdiscipline(subperiod, tier)
+    # 3) Passende Subdisziplin innerhalb des Topics gemäß Range-Filter
+    subtopic = _choose_subdiscipline(topic, tier)
 
     # 4) Prompt bauen & Anfrage
-    prompt, temp = _prompt(subperiod, tier, mode, subtopic=subtopic)
+    prompt, temp = _prompt(topic, tier, mode, subtopic=subtopic)
     data = _ask_json(prompt, temperature=temp)
     time.sleep(0.6)
     if not data:
@@ -391,7 +391,7 @@ def generate_one(
 
     # 5) Pflichtfelder normieren
     data["category"]   = CATEGORY_NAME
-    data["subperiod"]  = subperiod  # Unterthema nie ins JSON übernehmen
+    data["topic"]      = topic   # Unterthema nie ins JSON übernehmen
     data["difficulty"] = int(data.get("difficulty", tier))
 
     # 6) Minimale Validierung

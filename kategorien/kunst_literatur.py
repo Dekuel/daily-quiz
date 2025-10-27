@@ -8,9 +8,10 @@ CATEGORY_NAME = "Kunst und Literatur"
 
 _SUB = {"Kunstgeschichte": 40, "Literatur": 40, "Musik": 20}
 
+# ── Schema: 'topic' statt 'subtopic' ──────────────────────────────────────────
 _SCHEMA = """{
   "category": "Kunst und Literatur",
-  "subtopic": "Kunstgeschichte|Literatur|Musik",
+  "topic": "Kunstgeschichte|Literatur|Musik",
   "question": "...",
   "choices": ["A: ...","B: ...","C: ...","D: ..."],
   "correct_answer": "A|B|C|D",
@@ -72,6 +73,7 @@ Vorgaben:
 - Keine Antwortoption „alle oben/keine der oben“.
 - Vier plausible Optionen (A–D), genau eine korrekt.
 - Erklärung: 2–3 Sätze, kurz und hilfreich (ggf. Stilrichtung/Einordnung).
+- Das Feld "topic" im JSON enthält ausschließlich das Unterthema („{sub}“).
 - Antworte ausschließlich mit **validem JSON** gemäß Schema.
 
 JSON-SCHEMA:
@@ -123,7 +125,13 @@ def generate_one(
 
     # Pflichtfelder pflegen
     data["category"] = CATEGORY_NAME
-    data["subtopic"] = data.get("subtopic", sub)
+
+    # Defensive Normalisierung: falls das Modell noch "subtopic" liefert
+    if "topic" not in data and "subtopic" in data:
+        data["topic"] = data.pop("subtopic")
+
+    # In jedem Fall festschreiben, was als Ober-/Unterthema gemeint ist:
+    data["topic"] = data.get("topic", sub)
     data["difficulty"] = int(data.get("difficulty", tier))
 
     # minimale Validierung
