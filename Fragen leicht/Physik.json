@@ -160,6 +160,21 @@
       "correct_answer": "A",
       "explanation": "Im kanonischen Ensemble ist die Temperatur eine wichtige Größe, die die durchschnittliche Energie eines Systems bestimmt. Sie beeinflusst, wie sich die Teilchen im System verhalten und wie viel Energie sie im Durchschnitt besitzen.",
       "difficulty": 2
+    },
+    {
+      "category": "Physik",
+      "discipline": "Quantenmechanik",
+      "subcategory": "Spin 1/2 (Pauli-Matrizen)",
+      "question": "Welche der folgenden Pauli-Matrizen beschreibt den Spin-Operator für eine Spin-1/2-Teilchen in der z-Richtung?",
+      "choices": [
+        "A: σ_z = [[0, 1], [1, 0]]",
+        "B: σ_x = [[0, 1], [1, 0]]",
+        "C: σ_z = [[1, 0], [0, -1]]",
+        "D: σ_y = [[0, -i], [i, 0]]"
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Pauli-Matrix σ_z = [[1, 0], [0, -1]] repräsentiert den Spin-Operator in der z-Richtung für Spin-1/2-Teilchen. Die anderen Matrizen beschreiben die Spin-Operationen in den x- und y-Richtungen. Diese Konzepte sind grundlegend für das Verständnis von Spin in der Quantenmechanik.",
+      "difficulty": 6
     }
   ]
 }
