@@ -1,158 +1,168 @@
 {
   "date": "2025-10-27",
-  "generated_at": "2025-10-27T05:14:56Z",
+  "generated_at": "2025-10-27T11:42:48Z",
   "schema_version": 6,
   "mode": "physik",
   "questions": [
     {
       "category": "Physik",
-      "discipline": "Klassische Mechanik",
-      "subcategory": "Laminar: Rohrströmung",
-      "question": "Was beschreibt die laminare Strömung in einem Rohr?",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Erhaltungssätze & Hydrodynamik im lokalen Gleichgewicht",
+      "question": "Welche Aussage beschreibt am besten den Erhaltungssatz der Energie in einem System im lokalen Gleichgewicht?",
       "choices": [
-        "A: Die Strömung ist nur bei hohen Geschwindigkeiten stabil.",
-        "B: Die Strömung ist turbulent und chaotisch.",
-        "C: Die Strömung erfolgt in parallelen Schichten ohne Vermischung.",
-        "D: Die Flüssigkeit verhält sich wie ein Festkörper."
+        "A: Die Temperatur eines Systems bleibt immer konstant.",
+        "B: Die kinetische Energie ist immer gleich der potentiellen Energie.",
+        "C: Die Gesamtenergie bleibt in einem geschlossenen System konstant.",
+        "D: Die Anzahl der Teilchen in einem System bleibt konstant."
       ],
       "correct_answer": "C",
-      "explanation": "Die laminare Strömung in einem Rohr bedeutet, dass die Flüssigkeit in parallelen Schichten fließt und es zu keiner Vermischung zwischen den Schichten kommt. Dies tritt typischerweise bei niedrigen Geschwindigkeiten und niedrigem Druck auf.",
-      "difficulty": 2
+      "explanation": "Der Erhaltungssatz der Energie besagt, dass die Gesamtenergie in einem geschlossenen System konstant bleibt, solange keine Arbeit verrichtet wird oder Wärme zugeführt wird. Dies ist eine zentrale Annahme in der statistischen Mechanik, die das Verhalten von Teilchen in einem thermodynamischen Gleichgewicht beschreibt.",
+      "difficulty": 4,
+      "subcategory": "Erhaltungssätze & Hydrodynamik im lokalen Gleichgewicht"
     },
     {
       "category": "Physik",
-      "discipline": "Relativitätstheorie",
-      "subcategory": "Der elastische Stoß in der SRT",
-      "question": "Was bleibt bei einem elastischen Stoß in der speziellen Relativitätstheorie erhalten?",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Maxwell-Verteilung & barometrische Höhenformel",
+      "question": "Was beschreibt die Maxwell-Verteilung in der statistischen Mechanik?",
       "choices": [
-        "A: Nur der Impuls",
-        "B: Nur die kinetische Energie",
-        "C: Energie und Impuls",
-        "D: Keine der oben genannten"
-      ],
-      "correct_answer": "C",
-      "explanation": "Bei einem elastischen Stoß in der speziellen Relativitätstheorie bleiben sowohl die Gesamtenergie als auch der Gesamtimpuls erhalten. Dies ist eine grundlegende Eigenschaft der physikalischen Gesetze, die in allen Bezugssystemen gilt.",
-      "difficulty": 2
-    },
-    {
-      "category": "Physik",
-      "discipline": "Klassische Mechanik",
-      "subcategory": "Viskosität von Gasen",
-      "question": "Welcher der folgenden Parameter hat den größten Einfluss auf die Viskosität eines idealen Gases bei konstantem Druck?",
-      "choices": [
-        "A: Dichte des Gases",
-        "B: Molekulargewicht des Gases",
-        "C: Volumen des Gases",
-        "D: Temperatur des Gases"
-      ],
-      "correct_answer": "D",
-      "explanation": "Die Viskosität eines idealen Gases nimmt mit steigender Temperatur zu, was durch die Erhöhung der kinetischen Energie der Moleküle bedingt ist. Das Molekulargewicht hat ebenfalls einen Einfluss, jedoch ist der Temperaturbeitrag dominanter im typischen Temperaturbereich für Gase.",
-      "difficulty": 10
-    },
-    {
-      "category": "Physik",
-      "discipline": "Quantenmechanik",
-      "subcategory": "Kronig–Penney-Modell (Bänder)",
-      "question": "Was beschreibt das Kronig–Penney-Modell in der Quantenmechanik?",
-      "choices": [
-        "A: Die Relativität von Zeit und Raum.",
-        "B: Die Bewegung von Teilchen in einem Vakuum.",
-        "C: Die Wechselwirkung von Licht mit Materie.",
-        "D: Die Ausbildung von Energiebandstrukturen in Festkörpern."
-      ],
-      "correct_answer": "D",
-      "explanation": "Das Kronig–Penney-Modell beschreibt, wie Elektronen in einem periodischen Potential Energiebandstrukturen bilden. Es ist ein wichtiges Modell zur Erklärung der Eigenschaften von Halbleitern und anderen Festkörpern in der Quantenmechanik.",
-      "difficulty": 5
-    },
-    {
-      "category": "Physik",
-      "discipline": "Festkörperphysik",
-      "subcategory": "Nachweis der Energielücke",
-      "question": "Welches Experiment wird häufig verwendet, um die Energielücke in Halbleitern nachzuweisen?",
-      "choices": [
-        "A: Photoelektrischer Effekt",
-        "B: Rutherford-Streuung",
-        "C: Doppelspalt-Experiment",
-        "D: Stern-Gerlach-Versuch"
-      ],
-      "correct_answer": "A",
-      "explanation": "Der photoelektrische Effekt ist ein zentrales Experiment, um die Energielücke in Halbleitermaterialien zu untersuchen. Durch die Analyse der emittierten Elektronen bei unterschiedlichen Lichtfrequenzen kann die Energielücke genau bestimmt werden.",
-      "difficulty": 5
-    },
-    {
-      "category": "Physik",
-      "discipline": "Statistische Mechanik",
-      "subcategory": "Ferromagnetismus: Austausch & Ising-MF",
-      "question": "Was beschreibt der Austauschwechsel im Kontext des Ferromagnetismus?",
-      "choices": [
-        "A: Die Wechselwirkung zwischen benachbarten Spins, die zu einer parallel ausgerichteten Magnetisierung führt.",
-        "B: Die Beziehung zwischen der Dichte und der Temperatur von ferromagnetischen Flüssigkeiten.",
-        "C: Die Temperaturabhängigkeit des spezifischen Wärmespeichers von ferromagnetischen Materialien.",
-        "D: Den Einfluss von äußeren elektrischen Feldern auf die magnetische Ordnung."
-      ],
-      "correct_answer": "A",
-      "explanation": "Der Austauschwechsel beschreibt die Wechselwirkung zwischen benachbarten Spins in einem ferromagnetischen Material. Diese Wechselwirkung führt dazu, dass Spins bevorzugt parallel ausgerichtet sind, was zu einer makroskopischen Magnetisierung führt.",
-      "difficulty": 4
-    },
-    {
-      "category": "Physik",
-      "discipline": "Festkörperphysik",
-      "subcategory": "Elektronen im Magnetfeld",
-      "question": "Was passiert mit Elektronen, die sich in einem Magnetfeld bewegen?",
-      "choices": [
-        "A: Sie verlieren ihre Energie und stoppen sofort.",
-        "B: Sie bewegen sich immer in einer geraden Linie ohne Ablenkung.",
-        "C: Sie bewegen sich nur in einem Kreis ohne Einfluss von externen Kräften.",
-        "D: Sie erfahren eine Lorentzkraft, die ihre Bewegungsrichtung ändert."
-      ],
-      "correct_answer": "D",
-      "explanation": "Wenn sich Elektronen in einem Magnetfeld bewegen, erfahren sie eine Lorentzkraft, die ihre Bewegungsrichtung ändert. Diese Kraft ist senkrecht zur Bewegungsrichtung und zum Magnetfeld, was zu einer spiralförmigen Bewegung führt.",
-      "difficulty": 5
-    },
-    {
-      "category": "Physik",
-      "discipline": "Statistische Mechanik",
-      "subcategory": "Diamagnetismus (atomar)",
-      "question": "Welche Aussage beschreibt am besten den Diamagnetismus auf atomarer Ebene?",
-      "choices": [
-        "A: Diamagnetismus ist ein Phänomen, das nur bei sehr hohen Temperaturen auftritt.",
-        "B: Diamagnetische Materialien weisen eine negative magnetische Suszeptibilität auf.",
-        "C: Diamagnetische Materialien haben keine freien Elektronen.",
-        "D: Diamagnetismus entsteht durch die Ausrichtung der Spins in einem externen Magnetfeld."
+        "A: Die Struktur von atomaren Kernen.",
+        "B: Die Verteilung der Geschwindigkeiten von Teilchen in einem idealen Gas.",
+        "C: Die Temperaturabhängigkeit von Flüssigkeiten.",
+        "D: Den Zusammenhang zwischen Druck und Volumen von Gasen."
       ],
       "correct_answer": "B",
-      "explanation": "Diamagnetische Materialien haben eine negative magnetische Suszeptibilität, was bedeutet, dass sie sich in einem externen Magnetfeld schwach abstoßen. Diese Eigenschaft resultiert aus der Bewegung der Elektronen in den Atomen, die sich gegen das angelegte Magnetfeld ausrichten und so eine schwache magnetische Abstoßung erzeugen.",
-      "difficulty": 5
+      "explanation": "Die Maxwell-Verteilung beschreibt die Verteilung der Geschwindigkeiten von Teilchen in einem idealen Gas, was ein zentrales Konzept in der statistischen Mechanik darstellt. Diese Verteilung zeigt, dass die meisten Teilchen Geschwindigkeiten nahe dem Durchschnitt haben, während einige Teilchen deutlich schneller oder langsamer sind.",
+      "difficulty": 4,
+      "subcategory": "Maxwell-Verteilung & barometrische Höhenformel"
     },
     {
       "category": "Physik",
-      "discipline": "Festkörperphysik",
-      "subcategory": "Wärmekapazität von Gläsern (tiefe T)",
-      "question": "Was beschreibt die spezifische Wärmekapazität von Glas bei niedrigen Temperaturen?",
+      "topic": "Quantenmechanik",
+      "subtopic": "Operatoren in zweiter Quantisierung",
+      "question": "Was ist ein Operator in der Quantenmechanik?",
       "choices": [
-        "A: Sie bleibt konstant und ist unabhängig von der Temperatur.",
-        "B: Sie nimmt mit sinkender Temperatur zu.",
-        "C: Sie ist bei tiefen Temperaturen unendlich.",
-        "D: Sie nimmt mit sinkender Temperatur ab."
+        "A: Ein mathematisches Werkzeug zur Beschreibung von physikalischen Größen.",
+        "B: Eine Methode zur Berechnung von Bewegungen in der klassischen Physik.",
+        "C: Ein Gerät zur Messung von Teilchen.",
+        "D: Eine spezielle Art von Quantencomputern."
       ],
-      "correct_answer": "D",
-      "explanation": "Die spezifische Wärmekapazität von Glas nimmt bei tiefen Temperaturen ab, was auf die geringere thermische Bewegung der Atome und Moleküle zurückzuführen ist. Dies führt dazu, dass weniger Energie benötigt wird, um die Temperatur des Glases zu verändern.",
-      "difficulty": 4
+      "correct_answer": "A",
+      "explanation": "In der Quantenmechanik sind Operatoren mathematische Objekte, die physikalische Größen wie Impuls oder Energie repräsentieren. Sie wirken auf den Wellenfunktionen und ermöglichen die Berechnung von Messwerten in quantenmechanischen Systemen.",
+      "difficulty": 1,
+      "subcategory": "Operatoren in zweiter Quantisierung"
     },
     {
       "category": "Physik",
-      "discipline": "Thermodynamik",
-      "subcategory": "Joule–Thomson-Prozess (Inversionstemp.)",
-      "question": "Was ist die Inversionstemperatur im Joule-Thomson-Prozess?",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Kugelfall-Viskosimeter; Stokes-Gesetz",
+      "question": "Welcher Parameter beeinflusst im Stokes-Gesetz die Fallgeschwindigkeit einer Kugel in einer viskosen Flüssigkeit?",
       "choices": [
-        "A: Die Temperatur, bei der ein gasförmiges Medium in einen festen Zustand übergeht.",
-        "B: Die Temperatur, bei der ein gasförmiges Medium beim Entspannen wärmer wird.",
-        "C: Die Temperatur, bei der ein gasförmiges Medium keinen Druck mehr hat.",
-        "D: Die Temperatur, bei der ein gasförmiges Medium beim Entspannen kälter wird."
+        "A: Die Temperatur der Kugel",
+        "B: Der Durchmesser der Kugel",
+        "C: Die Dichte der Flüssigkeit",
+        "D: Die Farbe der Kugel"
+      ],
+      "correct_answer": "B",
+      "explanation": "Im Stokes-Gesetz ist die Fallgeschwindigkeit einer kugelförmigen Teilchen in einer viskosen Flüssigkeit direkt proportional zum Quadrat des Durchmessers der Kugel. Dies bedeutet, dass größere Kugeln schneller fallen als kleinere, wenn alle anderen Bedingungen gleich bleiben.",
+      "difficulty": 7,
+      "subcategory": "Kugelfall-Viskosimeter; Stokes-Gesetz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Ladungsträgerdichte (intrinsisch)",
+      "question": "Welche Aussage über die intrinsische Ladungsträgerdichte in Halbleitern ist korrekt?",
+      "choices": [
+        "A: Sie ist temperaturunabhängig und konstant.",
+        "B: Sie ist abhängig von der Temperatur und steigt mit zunehmender Temperatur.",
+        "C: Sie ist immer höher als die Ladungsträgerdichte in Metallen.",
+        "D: Sie kann nur durch äußere Dopierung erhöht werden."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die intrinsische Ladungsträgerdichte in Halbleitern ist temperaturabhängig. Mit steigender Temperatur erhöht sich die thermische Energie, was zu einer höheren Anzahl von Elektronen führt, die aus dem Valenzband in das Leitungsband angeregt werden, wodurch die Ladungsträgerdichte zunimmt.",
+      "difficulty": 7,
+      "subcategory": "Ladungsträgerdichte (intrinsisch)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Lösungsmethode der HJ-Theorie",
+      "question": "Was ist das Hauptziel der Hamilton-Jacobi-Theorie in der analytischen Mechanik?",
+      "choices": [
+        "A: Die Berechnung der Temperatur eines Systems.",
+        "B: Die Bestimmung der Energie eines Systems bei verschiedenen Temperaturen.",
+        "C: Die Analyse der Lichtbrechung in verschiedenen Materialien.",
+        "D: Die Reduktion eines dynamischen Problems auf die Lösung einer Differentialgleichung."
       ],
       "correct_answer": "D",
-      "explanation": "Die Inversionstemperatur ist der Punkt, an dem ein gasförmiges Medium beim Entspannen entweder kälter oder wärmer wird. Unterhalb dieser Temperatur wird das Gas kälter, während es sich entspannt, und oberhalb wird es wärmer.",
-      "difficulty": 4
+      "explanation": "Die Hamilton-Jacobi-Theorie zielt darauf ab, die Bewegungsgleichungen eines Systems auf eine skalare Funktion zu reduzieren, die die zeitliche Entwicklung der Dynamik beschreibt. Dadurch wird die Lösung von Problemen der analytischen Mechanik vereinfacht und die Analyse von Systemen erleichtert.",
+      "difficulty": 4,
+      "subcategory": "Lösungsmethode der HJ-Theorie"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Elektron (Entdeckung, Eigenschaften)",
+      "question": "Welches Experiment führte zur Entdeckung des Elektrons?",
+      "choices": [
+        "A: Das Rutherford-Streuexperiment",
+        "B: Das Doppelspalt-Experiment",
+        "C: Das Kathodenstrahl-Experiment",
+        "D: Das Michelson-Morley-Experiment"
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Kathodenstrahl-Experiment, durchgeführt von J.J. Thomson im Jahr 1897, führte zur Entdeckung des Elektrons. Er zeigte, dass Kathodenstrahlen aus negativ geladenen Teilchen bestehen, die später als Elektronen bezeichnet wurden.",
+      "difficulty": 3,
+      "subcategory": "Elektron (Entdeckung, Eigenschaften)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Dirac-Gleichung",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt die Dirac-Gleichung?",
+      "choices": [
+        "A: Sie beschreibt relativistische Elektronen und berücksichtigt deren Spin.",
+        "B: Sie ist eine klassische Gleichung und gilt nur in der Newtonschen Mechanik.",
+        "C: Sie beschreibt die Bewegung von Lichtstrahlen in einem Vakuum.",
+        "D: Sie ist nur für massive Teilchen gültig und ignoriert Spin."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Dirac-Gleichung ist eine relativistische Quantenmechanik-Gleichung, die Elektronen und deren Spin beschreibt. Sie spielt eine zentrale Rolle in der Beschreibung von Fermionen und ist grundlegend für die Quantenfeldtheorie.",
+      "difficulty": 6,
+      "subcategory": "Dirac-Gleichung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Green’sche Funktion",
+      "question": "Welche der folgenden Eigenschaften ist charakteristisch für die Green’sche Funktion in der Elektrodynamik?",
+      "choices": [
+        "A: Sie ist immer positiv definiert.",
+        "B: Sie ist nur für zeitunabhängige Probleme anwendbar.",
+        "C: Sie beschreibt die Antwort eines Systems auf eine delta-funktionale Störung.",
+        "D: Sie ist unabhängig von den Randbedingungen des Problems."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Green’sche Funktion ist ein fundamentales Konzept in der Elektrodynamik, das die Reaktion eines Systems auf eine punktuelle Störung beschreibt. Sie ermöglicht die Lösung von Differenzialgleichungen, indem sie die Antwort auf eine delta-funktionale Eingabe charakterisiert.",
+      "difficulty": 9,
+      "subcategory": "Green’sche Funktion"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Dampfdruckkurve & Clausius–Clapeyron-Gleichung",
+      "question": "Was beschreibt die Clausius–Clapeyron-Gleichung?",
+      "choices": [
+        "A: Die Wechselwirkungen zwischen elektrischen Ladungen.",
+        "B: Die Geschwindigkeit von Teilchen in einem Gas.",
+        "C: Den Zusammenhang zwischen Druck und Temperatur von Phasenübergängen.",
+        "D: Die Energieerhaltung in einem geschlossenen System."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Clausius–Clapeyron-Gleichung beschreibt, wie sich der Dampfdruck einer Substanz in Abhängigkeit von der Temperatur verändert, insbesondere bei Phasenübergängen wie Verdampfung und Kondensation. Sie ist fundamental in der Thermodynamik und hilft, die Eigenschaften von Stoffen zu verstehen.",
+      "difficulty": 1,
+      "subcategory": "Dampfdruckkurve & Clausius–Clapeyron-Gleichung"
     }
   ]
 }

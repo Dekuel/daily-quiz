@@ -1,108 +1,108 @@
 {
   "date": "2025-10-27",
-  "generated_at": "2025-10-27T05:13:14Z",
+  "generated_at": "2025-10-27T11:40:57Z",
   "schema_version": 6,
   "mode": "normal",
   "questions": [
     {
-      "category": "Physik",
-      "discipline": "Quantenmechanik",
-      "subcategory": "Spin 1/2 (Pauli-Matrizen)",
-      "question": "Welche der folgenden Pauli-Matrizen beschreibt den Spin-Operator für eine Spin-1/2-Teilchen in der z-Richtung?",
+      "category": "Sport",
+      "topic": "Olympische Spiele",
+      "question": "Welches Land hat die meisten Goldmedaillen bei den Olympischen Spielen insgesamt gewonnen?",
       "choices": [
-        "A: σ_z = [[0, 1], [1, 0]]",
-        "B: σ_x = [[0, 1], [1, 0]]",
-        "C: σ_z = [[1, 0], [0, -1]]",
-        "D: σ_y = [[0, -i], [i, 0]]"
+        "A: Russland",
+        "B: Deutschland",
+        "C: USA",
+        "D: China"
       ],
       "correct_answer": "C",
-      "explanation": "Die Pauli-Matrix σ_z = [[1, 0], [0, -1]] repräsentiert den Spin-Operator in der z-Richtung für Spin-1/2-Teilchen. Die anderen Matrizen beschreiben die Spin-Operationen in den x- und y-Richtungen. Diese Konzepte sind grundlegend für das Verständnis von Spin in der Quantenmechanik.",
-      "difficulty": 6
-    },
-    {
-      "category": "Sport",
-      "discipline": "Fußball",
-      "question": "Welcher Spieler hat in der Geschichte der Fußball-Weltmeisterschaften die meisten Tore erzielt?",
-      "choices": [
-        "A: Miroslav Klose",
-        "B: Gerd Müller",
-        "C: Pelé",
-        "D: Ronaldo Nazário"
-      ],
-      "correct_answer": "A",
-      "explanation": "Miroslav Klose hält den Rekord für die meisten Tore in Fußball-Weltmeisterschaftsspielen mit insgesamt 16 Treffern, die er zwischen 2002 und 2014 erzielte. Diese Zahl übertraf den vorherigen Rekord von Ronaldo Nazário, der 15 Tore erzielte.",
+      "explanation": "Die USA führen die Medaillenwertung bei den Olympischen Spielen mit einem deutlich höheren Anteil an Goldmedaillen an. Dies ist auf die lange Geschichte und den großen Sportförderungsprogrammen des Landes zurückzuführen.",
       "difficulty": 8
     },
     {
-      "category": "Geographie",
-      "topic": "Gebirge, Inseln & Relief",
-      "question": "Welches Gebirge ist bekannt für seine Karstlandschaften und Höhlen, insbesondere die bekannten Höhlen von Postojna und Škocjan?",
-      "choices": [
-        "A: die Karpaten",
-        "B: die Alpen",
-        "C: die Pyrenäen",
-        "D: die Dinariden"
-      ],
-      "correct_answer": "D",
-      "explanation": "Die Dinariden erstrecken sich entlang der Adriaküste und sind bekannt für ihre beeindruckenden Karstlandschaften, die viele Höhlen beherbergen. Die Höhlen von Postojna und Škocjan in Slowenien sind besonders berühmt und ziehen viele Touristen an.",
-      "difficulty": 2
-    },
-    {
       "category": "Kunst und Literatur",
-      "subtopic": "Literatur",
-      "question": "Welcher Autor ist bekannt für seine Werke 'Der Prozess' und 'Die Verwandlung'?",
+      "topic": "Musik",
+      "question": "Welches Instrument wird häufig mit klassischer Musik assoziiert und hat 88 Tasten?",
       "choices": [
-        "A: Franz Kafka",
-        "B: Hermann Hesse",
-        "C: Rainer Maria Rilke",
-        "D: Thomas Mann"
+        "A: Violine",
+        "B: Klavier",
+        "C: Schlagzeug",
+        "D: Trompete"
       ],
-      "correct_answer": "A",
-      "explanation": "Franz Kafka ist ein bedeutender Schriftsteller des 20. Jahrhunderts, dessen Werke oft existenzielle Themen und die Absurdität des Lebens behandeln. 'Der Prozess' und 'Die Verwandlung' gehören zu seinen bekanntesten Erzählungen und sind prägend für die moderne Literatur.",
-      "difficulty": 5,
-      "subcategory": "Literatur"
+      "correct_answer": "B",
+      "explanation": "Das Klavier ist ein wichtiges Instrument in der klassischen Musik und bekannt für seine Vielseitigkeit. Mit 88 Tasten ermöglicht es eine breite Palette von Klängen und Ausdrucksformen und wird oft in Solostücken und Begleitungen verwendet.",
+      "difficulty": 4
     },
     {
       "category": "Sprache",
-      "subcategory": "Redewendungen",
-      "question": "Was bedeutet die Redewendung \"Das Kind beim Schopf packen\"?",
+      "topic": "Wortherkunft",
+      "question": "Welches Wort hat ursprünglich die Bedeutung 'Haus' und hat sich im Deutschen zu 'Heim' entwickelt?",
       "choices": [
-        "A: Ein Kind sanft beruhigen",
-        "B: Jemanden anrufen, um Hilfe zu bitten",
-        "C: Eine Gelegenheit beim Schopfe ergreifen",
-        "D: Ein Problem ignorieren"
+        "A: Heimatlos",
+        "B: Heimat",
+        "C: Heimkehr",
+        "D: Heimsuchung"
       ],
-      "correct_answer": "C",
-      "explanation": "Die Redewendung \"Das Kind beim Schopf packen\" bedeutet, eine Gelegenheit oder Situation entschlossen zu nutzen, bevor sie vorüber ist. Der Ausdruck stammt aus der Vorstellung, dass man ein Kind, das im Weg steht, schnell ergreifen sollte, um nicht darüber zu stolpern.",
-      "difficulty": 4
+      "correct_answer": "B",
+      "explanation": "Das Wort 'Heimat' stammt vom althochdeutschen 'heimat', was so viel wie 'Haus' oder 'Wohnsitz' bedeutete. Im Laufe der Zeit hat sich die Bedeutung ins Gefühl des Vertrauten und Zugehörigen gewandelt.",
+      "difficulty": 3
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Wirbel & Zirkulation",
+      "question": "Welche der folgenden Aussagen beschreibt am besten den Begriff 'Wirbel' in der Fluidmechanik?",
+      "choices": [
+        "A: Ein Wirbel ist eine kreisförmige Bewegung von Teilchen in einem Fluid, die durch eine zentrale Achse gekennzeichnet ist.",
+        "B: Ein Wirbel ist eine lineare Bewegung von Teilchen in einem Fluid in die gleiche Richtung.",
+        "C: Ein Wirbel ist ein Zustand, in dem ein Fluid stillsteht und keine Bewegung aufweist.",
+        "D: Ein Wirbel ist eine gleichmäßige Verteilung von Teilchen in einem Fluid ohne Bewegung."
+      ],
+      "correct_answer": "A",
+      "explanation": "In der Fluidmechanik bezeichnet ein Wirbel eine Bewegung von Teilchen in einem kreisförmigen Muster um eine zentrale Achse. Dies ist ein wichtiges Konzept, um die Strömungsverhältnisse in Flüssigkeiten und Gasen zu verstehen.",
+      "difficulty": 5,
+      "subcategory": "Wirbel & Zirkulation"
+    },
+    {
+      "category": "Politiker",
+      "discipline": "Regierungschefs (Welt)",
+      "question": "Wer ist (allgemein) Regierungschef von Spanien?",
+      "choices": [
+        "A: José Luis Rodríguez Zapatero",
+        "B: Albert Rivera",
+        "C: Mariano Rajoy",
+        "D: Pedro Sánchez"
+      ],
+      "correct_answer": "D",
+      "explanation": "Pedro Sánchez ist der aktuelle Regierungschef von Spanien. Er führt die sozialistische Partei und hat das Amt seit 2018 inne. Die anderen genannten Personen waren ebenfalls Regierungschefs, jedoch nicht aktuell.",
+      "difficulty": 1
     },
     {
       "category": "Essen und Trinken",
       "topic": "Küche international",
-      "question": "Welches italienische Gericht ist besonders bekannt für seine Herkunft aus Süditalien und enthält oft Tomaten, Olivenöl und frische Kräuter?",
+      "question": "Welches Gericht ist typisches Streetfood aus Thailand, das oft mit Erdnusssauce serviert wird?",
       "choices": [
-        "A: Risotto",
-        "B: Osso Buco",
-        "C: Caprese",
-        "D: Lasagne"
+        "A: Satay-Spieße",
+        "B: Falafel",
+        "C: Tacos",
+        "D: Sushi"
       ],
-      "correct_answer": "C",
-      "explanation": "Caprese-Salat stammt ursprünglich von der Insel Capri in Süditalien und ist bekannt für seine einfachen, frischen Zutaten. Dabei werden oft Tomaten, Mozzarella, frisches Basilikum und Olivenöl kombiniert.",
-      "difficulty": 6
+      "correct_answer": "A",
+      "explanation": "Satay-Spieße sind mariniertes, gegrilltes Fleisch, das häufig mit einer cremigen Erdnusssauce serviert wird. Dieses Gericht ist in Thailand und anderen südostasiatischen Ländern sehr beliebt und wird oft auf Straßenmärkten angeboten.",
+      "difficulty": 5
     },
     {
-      "category": "Politiker",
-      "discipline": "Org-Personen",
-      "question": "Wie heißt die/der amtierende oberste Amtsinhaber(in) der Organisation „Organisation für Sicherheit und Zusammenarbeit in Europa (OSZE)“?",
+      "category": "Natur",
+      "topic": "Tierwelt",
+      "question": "Welcher Fisch ist bekannt für seine Fähigkeit, in Süß- und Salzwasser zu leben?",
       "choices": [
-        "A: Ursula von der Leyen",
-        "B: Helga Schmid",
-        "C: Emmanuel Macron",
-        "D: Angela Merkel"
+        "A: Guppy",
+        "B: Lachs",
+        "C: Goldfisch",
+        "D: Karpfen"
       ],
       "correct_answer": "B",
-      "explanation": "Helga Schmid ist die derzeitige Generalsekretärin der OSZE. Die anderen genannten Personen sind prominent, jedoch nicht in dieser Position tätig.",
-      "difficulty": 1
+      "explanation": "Der Lachs ist einzigartig, da er in Flüssen zur Fortpflanzung laicht und dann ins Meer wandert. Diese Anpassungsfähigkeit an verschiedene Wasserarten macht ihn zu einem bemerkenswerten Fisch.",
+      "difficulty": 2
     }
   ]
 }
