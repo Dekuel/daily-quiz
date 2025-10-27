@@ -1,0 +1,158 @@
+{
+  "date": "2025-10-27",
+  "generated_at": "2025-10-27T05:14:56Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "discipline": "Klassische Mechanik",
+      "subcategory": "Laminar: Rohrströmung",
+      "question": "Was beschreibt die laminare Strömung in einem Rohr?",
+      "choices": [
+        "A: Die Strömung ist nur bei hohen Geschwindigkeiten stabil.",
+        "B: Die Strömung ist turbulent und chaotisch.",
+        "C: Die Strömung erfolgt in parallelen Schichten ohne Vermischung.",
+        "D: Die Flüssigkeit verhält sich wie ein Festkörper."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die laminare Strömung in einem Rohr bedeutet, dass die Flüssigkeit in parallelen Schichten fließt und es zu keiner Vermischung zwischen den Schichten kommt. Dies tritt typischerweise bei niedrigen Geschwindigkeiten und niedrigem Druck auf.",
+      "difficulty": 2
+    },
+    {
+      "category": "Physik",
+      "discipline": "Relativitätstheorie",
+      "subcategory": "Der elastische Stoß in der SRT",
+      "question": "Was bleibt bei einem elastischen Stoß in der speziellen Relativitätstheorie erhalten?",
+      "choices": [
+        "A: Nur der Impuls",
+        "B: Nur die kinetische Energie",
+        "C: Energie und Impuls",
+        "D: Keine der oben genannten"
+      ],
+      "correct_answer": "C",
+      "explanation": "Bei einem elastischen Stoß in der speziellen Relativitätstheorie bleiben sowohl die Gesamtenergie als auch der Gesamtimpuls erhalten. Dies ist eine grundlegende Eigenschaft der physikalischen Gesetze, die in allen Bezugssystemen gilt.",
+      "difficulty": 2
+    },
+    {
+      "category": "Physik",
+      "discipline": "Klassische Mechanik",
+      "subcategory": "Viskosität von Gasen",
+      "question": "Welcher der folgenden Parameter hat den größten Einfluss auf die Viskosität eines idealen Gases bei konstantem Druck?",
+      "choices": [
+        "A: Dichte des Gases",
+        "B: Molekulargewicht des Gases",
+        "C: Volumen des Gases",
+        "D: Temperatur des Gases"
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Viskosität eines idealen Gases nimmt mit steigender Temperatur zu, was durch die Erhöhung der kinetischen Energie der Moleküle bedingt ist. Das Molekulargewicht hat ebenfalls einen Einfluss, jedoch ist der Temperaturbeitrag dominanter im typischen Temperaturbereich für Gase.",
+      "difficulty": 10
+    },
+    {
+      "category": "Physik",
+      "discipline": "Quantenmechanik",
+      "subcategory": "Kronig–Penney-Modell (Bänder)",
+      "question": "Was beschreibt das Kronig–Penney-Modell in der Quantenmechanik?",
+      "choices": [
+        "A: Die Relativität von Zeit und Raum.",
+        "B: Die Bewegung von Teilchen in einem Vakuum.",
+        "C: Die Wechselwirkung von Licht mit Materie.",
+        "D: Die Ausbildung von Energiebandstrukturen in Festkörpern."
+      ],
+      "correct_answer": "D",
+      "explanation": "Das Kronig–Penney-Modell beschreibt, wie Elektronen in einem periodischen Potential Energiebandstrukturen bilden. Es ist ein wichtiges Modell zur Erklärung der Eigenschaften von Halbleitern und anderen Festkörpern in der Quantenmechanik.",
+      "difficulty": 5
+    },
+    {
+      "category": "Physik",
+      "discipline": "Festkörperphysik",
+      "subcategory": "Nachweis der Energielücke",
+      "question": "Welches Experiment wird häufig verwendet, um die Energielücke in Halbleitern nachzuweisen?",
+      "choices": [
+        "A: Photoelektrischer Effekt",
+        "B: Rutherford-Streuung",
+        "C: Doppelspalt-Experiment",
+        "D: Stern-Gerlach-Versuch"
+      ],
+      "correct_answer": "A",
+      "explanation": "Der photoelektrische Effekt ist ein zentrales Experiment, um die Energielücke in Halbleitermaterialien zu untersuchen. Durch die Analyse der emittierten Elektronen bei unterschiedlichen Lichtfrequenzen kann die Energielücke genau bestimmt werden.",
+      "difficulty": 5
+    },
+    {
+      "category": "Physik",
+      "discipline": "Statistische Mechanik",
+      "subcategory": "Ferromagnetismus: Austausch & Ising-MF",
+      "question": "Was beschreibt der Austauschwechsel im Kontext des Ferromagnetismus?",
+      "choices": [
+        "A: Die Wechselwirkung zwischen benachbarten Spins, die zu einer parallel ausgerichteten Magnetisierung führt.",
+        "B: Die Beziehung zwischen der Dichte und der Temperatur von ferromagnetischen Flüssigkeiten.",
+        "C: Die Temperaturabhängigkeit des spezifischen Wärmespeichers von ferromagnetischen Materialien.",
+        "D: Den Einfluss von äußeren elektrischen Feldern auf die magnetische Ordnung."
+      ],
+      "correct_answer": "A",
+      "explanation": "Der Austauschwechsel beschreibt die Wechselwirkung zwischen benachbarten Spins in einem ferromagnetischen Material. Diese Wechselwirkung führt dazu, dass Spins bevorzugt parallel ausgerichtet sind, was zu einer makroskopischen Magnetisierung führt.",
+      "difficulty": 4
+    },
+    {
+      "category": "Physik",
+      "discipline": "Festkörperphysik",
+      "subcategory": "Elektronen im Magnetfeld",
+      "question": "Was passiert mit Elektronen, die sich in einem Magnetfeld bewegen?",
+      "choices": [
+        "A: Sie verlieren ihre Energie und stoppen sofort.",
+        "B: Sie bewegen sich immer in einer geraden Linie ohne Ablenkung.",
+        "C: Sie bewegen sich nur in einem Kreis ohne Einfluss von externen Kräften.",
+        "D: Sie erfahren eine Lorentzkraft, die ihre Bewegungsrichtung ändert."
+      ],
+      "correct_answer": "D",
+      "explanation": "Wenn sich Elektronen in einem Magnetfeld bewegen, erfahren sie eine Lorentzkraft, die ihre Bewegungsrichtung ändert. Diese Kraft ist senkrecht zur Bewegungsrichtung und zum Magnetfeld, was zu einer spiralförmigen Bewegung führt.",
+      "difficulty": 5
+    },
+    {
+      "category": "Physik",
+      "discipline": "Statistische Mechanik",
+      "subcategory": "Diamagnetismus (atomar)",
+      "question": "Welche Aussage beschreibt am besten den Diamagnetismus auf atomarer Ebene?",
+      "choices": [
+        "A: Diamagnetismus ist ein Phänomen, das nur bei sehr hohen Temperaturen auftritt.",
+        "B: Diamagnetische Materialien weisen eine negative magnetische Suszeptibilität auf.",
+        "C: Diamagnetische Materialien haben keine freien Elektronen.",
+        "D: Diamagnetismus entsteht durch die Ausrichtung der Spins in einem externen Magnetfeld."
+      ],
+      "correct_answer": "B",
+      "explanation": "Diamagnetische Materialien haben eine negative magnetische Suszeptibilität, was bedeutet, dass sie sich in einem externen Magnetfeld schwach abstoßen. Diese Eigenschaft resultiert aus der Bewegung der Elektronen in den Atomen, die sich gegen das angelegte Magnetfeld ausrichten und so eine schwache magnetische Abstoßung erzeugen.",
+      "difficulty": 5
+    },
+    {
+      "category": "Physik",
+      "discipline": "Festkörperphysik",
+      "subcategory": "Wärmekapazität von Gläsern (tiefe T)",
+      "question": "Was beschreibt die spezifische Wärmekapazität von Glas bei niedrigen Temperaturen?",
+      "choices": [
+        "A: Sie bleibt konstant und ist unabhängig von der Temperatur.",
+        "B: Sie nimmt mit sinkender Temperatur zu.",
+        "C: Sie ist bei tiefen Temperaturen unendlich.",
+        "D: Sie nimmt mit sinkender Temperatur ab."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die spezifische Wärmekapazität von Glas nimmt bei tiefen Temperaturen ab, was auf die geringere thermische Bewegung der Atome und Moleküle zurückzuführen ist. Dies führt dazu, dass weniger Energie benötigt wird, um die Temperatur des Glases zu verändern.",
+      "difficulty": 4
+    },
+    {
+      "category": "Physik",
+      "discipline": "Thermodynamik",
+      "subcategory": "Joule–Thomson-Prozess (Inversionstemp.)",
+      "question": "Was ist die Inversionstemperatur im Joule-Thomson-Prozess?",
+      "choices": [
+        "A: Die Temperatur, bei der ein gasförmiges Medium in einen festen Zustand übergeht.",
+        "B: Die Temperatur, bei der ein gasförmiges Medium beim Entspannen wärmer wird.",
+        "C: Die Temperatur, bei der ein gasförmiges Medium keinen Druck mehr hat.",
+        "D: Die Temperatur, bei der ein gasförmiges Medium beim Entspannen kälter wird."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Inversionstemperatur ist der Punkt, an dem ein gasförmiges Medium beim Entspannen entweder kälter oder wärmer wird. Unterhalb dieser Temperatur wird das Gas kälter, während es sich entspannt, und oberhalb wird es wärmer.",
+      "difficulty": 4
+    }
+  ]
+}
