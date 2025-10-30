@@ -1,0 +1,168 @@
+{
+  "date": "2025-10-30",
+  "generated_at": "2025-10-30T05:14:06Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Strahlenablenkung am Prisma",
+      "question": "Welche der folgenden Aussagen beschreibt am besten den Effekt der Strahlenablenkung am Prisma?",
+      "choices": [
+        "A: Lichtstrahlen werden beim Verlassen eines Prismas nicht beeinflusst und setzen ihren Weg unverändert fort.",
+        "B: Lichtstrahlen werden beim Eintritt in ein Prisma gebrochen und ändern dabei ihre Richtung.",
+        "C: Lichtstrahlen werden beim Eintritt in ein Prisma nicht gebrochen, sondern nur gestreut.",
+        "D: Lichtstrahlen werden beim Durchgang durch ein Prisma reflektiert und bleiben in der gleichen Richtung."
+      ],
+      "correct_answer": "B",
+      "explanation": "Beim Eintritt in ein Prisma wird das Licht aufgrund der unterschiedlichen Dichte des Materials gebrochen, was zu einer Ablenkung der Lichtstrahlen führt. Dieser Effekt ist entscheidend für die Farbenzerlegung des Lichts in einem Prismaspektrum.",
+      "difficulty": 4,
+      "subcategory": "Strahlenablenkung am Prisma"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Elektromagnetische Übergänge",
+      "question": "Welche der folgenden Aussagen beschreibt einen klassischen elektromagnetischen Übergang zwischen zwei Energiezuständen eines Atoms?",
+      "choices": [
+        "A: Ein Atom gibt während eines radioaktiven Zerfalls eine Alphateilchenstrahlung ab.",
+        "B: Ein Elektron wird aus dem Atom entfernt, wodurch das Atom ionisiert wird.",
+        "C: Ein Elektron springt von einem höheren auf einen niedrigeren Energieniveau und emittiert ein Photon.",
+        "D: Ein Atom absorbiert ein Photon ohne Energieänderung."
+      ],
+      "correct_answer": "C",
+      "explanation": "Bei einem elektromagnetischen Übergang springt ein Elektron zwischen verschiedenen Energiezuständen, was mit der Emission oder Absorption von Photonen verbunden ist. Diese Übergänge sind zentral für das Verständnis von Spektrallinien und der Wechselwirkung von Photonen mit Materie.",
+      "difficulty": 7,
+      "subcategory": "Elektromagnetische Übergänge"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Elektronen im periodischen Potential (Überblick)",
+      "question": "Was beschreibt das Bloch-Theorem in der Festkörperphysik?",
+      "choices": [
+        "A: Elektronen in Festkörpern verhalten sich wie klassische Teilchen ohne quantenmechanische Effekte.",
+        "B: Das Bloch-Theorem erklärt die Entstehung von Magnetismus in Festkörpern.",
+        "C: Elektronen in einem Kristallgitter können als Wellenfunktion beschrieben werden, die eine periodische Struktur aufweist.",
+        "D: Die Bewegungen von Elektronen sind unabhängig von der Gitterstruktur des Kristalls."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Bloch-Theorem besagt, dass Elektronen in einem periodischen Potential, wie es in Kristallen vorkommt, durch Wellenfunktionen beschrieben werden können, die eine periodische Struktur aufweisen. Diese Eigenschaft ist entscheidend für das Verständnis der elektronischen Bandstruktur von Festkörpern.",
+      "difficulty": 7,
+      "subcategory": "Elektronen im periodischen Potential (Überblick)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Bottonium & Toponium",
+      "question": "Welche der folgenden Aussagen über Bottonium und Toponium ist korrekt?",
+      "choices": [
+        "A: Toponium hat eine größere Masse als Bottonium und ist daher stabiler.",
+        "B: Bottonium ist ein Meson, das aus einem Bottom-Quark und seinem Antiquark besteht.",
+        "C: Bottonium und Toponium sind beide stabil und wurden experimentell nachgewiesen.",
+        "D: Bottonium kann nur durch elektromagnetische Wechselwirkungen entstehen."
+      ],
+      "correct_answer": "B",
+      "explanation": "Bottonium ist tatsächlich ein gebundenes Zustand aus einem Bottom-Quark und seinem Antiquark, was es zu einem Meson macht. Toponium hingegen hat eine kürzere Lebensdauer und ist weniger stabil, was es schwieriger macht, experimentell zu beobachten.",
+      "difficulty": 8,
+      "subcategory": "Bottonium & Toponium"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Ultraschalldämpfung in amorphen Festkörpern",
+      "question": "Was ist der Hauptmechanismus der Ultraschalldämpfung in amorphen Festkörpern?",
+      "choices": [
+        "A: Wärmeleitung",
+        "B: Elastische Rückführung",
+        "C: Magnetische Wechselwirkungen",
+        "D: Viskose Dämpfung"
+      ],
+      "correct_answer": "D",
+      "explanation": "In amorphen Festkörpern erfolgt die Ultraschalldämpfung hauptsächlich durch viskose Dämpfung, bei der kinetische Energie in Wärme umgewandelt wird. Diese Mechanismen sind besonders ausgeprägt, da die ungeordnete Struktur der Materialien die Bewegung der Schallwellen beeinflusst.",
+      "difficulty": 5,
+      "subcategory": "Ultraschalldämpfung in amorphen Festkörpern"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Jacobi-Prinzip (verkürzte Wirkung)",
+      "question": "Welche Aussage beschreibt das Jacobi-Prinzip in der analytischen Mechanik korrekt?",
+      "choices": [
+        "A: Es gilt nur für Systeme mit einer konstanten Masse.",
+        "B: Es ermöglicht die Ableitung der Bewegungsgleichungen aus einer Funktion, die die Wirkung verkürzt.",
+        "C: Es besagt, dass die Energie eines Systems immer konstant bleibt.",
+        "D: Es legt fest, dass alle Kräfte in einem System gleichmäßig verteilt sind."
+      ],
+      "correct_answer": "B",
+      "explanation": "Das Jacobi-Prinzip, auch als verkürzte Wirkung bekannt, ermöglicht die Ableitung der Bewegungsgleichungen durch eine spezielle Funktion, die die Wirkung eines Systems unter bestimmten Bedingungen minimiert. Dies ist ein zentraler Aspekt der analytischen Mechanik, der die Analyse komplexer Systeme vereinfacht.",
+      "difficulty": 5,
+      "subcategory": "Jacobi-Prinzip (verkürzte Wirkung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Phasen- und Gruppengeschwindigkeit",
+      "question": "Welche Aussage über die Beziehung zwischen Phasengeschwindigkeit und Gruppengeschwindigkeit in dispersiven Medien ist korrekt?",
+      "choices": [
+        "A: In dispersiven Medien kann die Gruppengeschwindigkeit die Phasengeschwindigkeit übertreffen.",
+        "B: Die Phasengeschwindigkeit ist immer größer als die Gruppengeschwindigkeit.",
+        "C: Phasen- und Gruppengeschwindigkeit sind in jedem Medium gleich.",
+        "D: Die Gruppengeschwindigkeit ist immer größer als die Phasengeschwindigkeit."
+      ],
+      "correct_answer": "A",
+      "explanation": "In dispersiven Medien kann die Gruppengeschwindigkeit, die die Ausbreitungsgeschwindigkeit von Energie oder Information beschreibt, die Phasengeschwindigkeit, die die Ausbreitung von Phasen beschreibt, übertreffen. Dies tritt häufig in Materialien auf, bei denen die Lichtgeschwindigkeit von der Frequenz abhängt.",
+      "difficulty": 10,
+      "subcategory": "Phasen- und Gruppengeschwindigkeit"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Beugung am Kristallgitter",
+      "question": "Was beschreibt das Phänomen der Beugung am Kristallgitter?",
+      "choices": [
+        "A: Die Ablenkung von Wellen, wenn sie auf das Kristallgitter treffen.",
+        "B: Die Beschleunigung von Elektronen in einem elektrischen Feld.",
+        "C: Die Bewegung von Teilchen durch ein Vakuum.",
+        "D: Die Wechselwirkung von Licht mit einem Magnetfeld."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Beugung am Kristallgitter tritt auf, wenn Wellen (z.B. Röntgenstrahlen) auf die regelmäßige Struktur des Kristalls treffen und dabei abgelenkt werden. Dieses Phänomen ist entscheidend für die Untersuchung der Struktur von Kristallen mittels Röntgenbeugung.",
+      "difficulty": 2,
+      "subcategory": "Beugung am Kristallgitter"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Reelle und virtuelle Abbildungen",
+      "question": "Was beschreibt eine virtuelle Abbildung in der Optik?",
+      "choices": [
+        "A: Sie ist das gleiche wie eine reelle Abbildung.",
+        "B: Sie kann nicht auf einem Bildschirm dargestellt werden.",
+        "C: Sie ist immer größer als das Objekt.",
+        "D: Sie entsteht immer durch eine konkave Linse."
+      ],
+      "correct_answer": "B",
+      "explanation": "Eine virtuelle Abbildung kann nicht auf einem Bildschirm dargestellt werden, da die Lichtstrahlen nicht tatsächlich von dem Ort der Abbildung ausgehen. Diese Art von Abbildung entsteht häufig in optischen Systemen wie Spiegeln oder bestimmten Linsen und wird als scheinbar wahrgenommen.",
+      "difficulty": 5,
+      "subcategory": "Reelle und virtuelle Abbildungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Ginzburg–Landau-Funktional & -Nähe",
+      "question": "Welche Aussage über die Ginzburg–Landau-Theorie ist korrekt?",
+      "choices": [
+        "A: Das Ginzburg–Landau-Funktional ist nur für klassische Systeme anwendbar.",
+        "B: Die Theorie beschreibt die Übergänge zwischen verschiedenen Phasen in Gasen.",
+        "C: Die Ginzburg–Landau-Funktional beschreibt die thermodynamischen Eigenschaften von Superleitern.",
+        "D: Die Ginzburg–Landau-Theorie ist unabhängig von Temperaturänderungen."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Ginzburg–Landau-Theorie ist ein effektives Modell zur Beschreibung von Superleitern, insbesondere in der Nähe der Phasengrenze. Sie ermöglicht das Verständnis von Phasenübergängen und der Ordnung in Supraleitern unter dem Einfluss von Temperatur und magnetischen Feldern.",
+      "difficulty": 7,
+      "subcategory": "Ginzburg–Landau-Funktional & -Nähe"
+    }
+  ]
+}
