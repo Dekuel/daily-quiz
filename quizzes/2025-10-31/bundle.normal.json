@@ -1,108 +1,108 @@
 {
   "date": "2025-10-31",
-  "generated_at": "2025-10-31T05:12:44Z",
+  "generated_at": "2025-10-31T14:36:20Z",
   "schema_version": 6,
   "mode": "normal",
   "questions": [
     {
-      "category": "Glaube & Religion",
-      "topic": "Monotheistische Religionen",
-      "question": "Welche der folgenden Religionen gehört zu den abrahamitischen Religionen?",
+      "category": "Kunst und Literatur",
+      "topic": "Literatur",
+      "question": "Welcher dieser Romane wurde von Franz Kafka verfasst?",
       "choices": [
-        "A: Buddhismus",
-        "B: Judentum",
-        "C: Hinduismus",
-        "D: Zoroastrismus"
+        "A: Der Prozess",
+        "B: Der Steppenwolf",
+        "C: Die Verwandlung",
+        "D: Die Räuber"
       ],
-      "correct_answer": "B",
-      "explanation": "Das Judentum ist eine der drei monotheistischen Religionen, die auf Abraham zurückgeführt werden, neben dem Christentum und dem Islam. Diese Religionen teilen viele grundlegende Glaubensüberzeugungen und Geschichten, die sich um die Figur Abrahams drehen.",
-      "difficulty": 3
+      "correct_answer": "A",
+      "explanation": "Franz Kafka ist bekannt für seine surrealistischen und oft düsteren Werke. 'Der Prozess' ist einer seiner bekanntesten Romane und behandelt die Themen Schuld und Isolation.",
+      "difficulty": 4
+    },
+    {
+      "category": "Politiker",
+      "discipline": "Ministerien (DE)",
+      "question": "Wer ist Bundesminister(in) für das Bundesministerium für Digitales und Verkehr?",
+      "choices": [
+        "A: Volker Wissing",
+        "B: Andreas Scheuer",
+        "C: Peter Altmaier",
+        "D: Dorothee Bär"
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Bundesministerium für Digitales und Verkehr ist zuständig für die digitale Transformation und Verkehrsinfrastruktur in Deutschland. Volker Wissing ist die aktuelle Person, die dieses Ministerium leitet.",
+      "difficulty": 1
     },
     {
       "category": "Wissenschaft",
       "topic": "Chemie",
-      "question": "Welches Molekül ist die wichtigste Energiequelle für die meisten Zellen im menschlichen Körper?",
+      "question": "Was ist die chemische Strukturformel für Ethanol?",
       "choices": [
-        "A: Fette",
-        "B: Proteine",
-        "C: Glukose",
-        "D: Nukleinsäuren"
+        "A: C2H5OH",
+        "B: CH3COOH",
+        "C: CH4",
+        "D: C2H4"
+      ],
+      "correct_answer": "A",
+      "explanation": "Ethanol, auch bekannt als Alkohol, hat die Strukturformel C2H5OH. Es besteht aus zwei Kohlenstoffatomen, sechs Wasserstoffatomen und einem Sauerstoffatom. Die anderen Optionen stellen andere chemische Verbindungen dar, wie Essigsäure und Methan.",
+      "difficulty": 2
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Charmonium",
+      "question": "Was beschreibt das Charmonium in der Teilchenphysik?",
+      "choices": [
+        "A: Eine spezielle Form von Neutronenstern, der Materie in extremen Dichten beinhaltet.",
+        "B: Ein Zustand von Quarks, der ausschließlich aus Up- und Down-Quarks besteht.",
+        "C: Ein gebundenes Zustandssystem aus einem Charm-Quark und einem Charm-Antiquark.",
+        "D: Ein Higgs-Boson, das stabil in der Materie vorkommt."
       ],
       "correct_answer": "C",
-      "explanation": "Glukose ist ein einfacher Zucker, der als primäre Energiequelle für Zellen dient. Sie wird durch den Abbau in der Zellatmung in Energie umgewandelt, die für verschiedene zelluläre Prozesse benötigt wird.",
+      "explanation": "Charmonium ist ein gebundenes Zustandssystem, das aus einem Charm-Quark und seinem entsprechenden Antiquark besteht. Es ist ein Beispiel für ein Meson und spielt eine wichtige Rolle in der Quantenchromodynamik (QCD).",
+      "difficulty": 8,
+      "subcategory": "Charmonium"
+    },
+    {
+      "category": "Glaube & Religion",
+      "topic": "Monotheistische Religionen",
+      "question": "Welcher dieser Aspekte ist ein zentraler Bestandteil des monotheistischen Glaubens?",
+      "choices": [
+        "A: Der Glaube an einen einzigen Gott",
+        "B: Der Glaube an heilige Schriften verschiedener Religionen",
+        "C: Die Verehrung mehrerer Götter",
+        "D: Die Wiedergeburt der Seele"
+      ],
+      "correct_answer": "A",
+      "explanation": "Monotheistische Religionen, wie das Christentum, der Islam und das Judentum, basieren auf dem Glauben an einen einzigen, allmächtigen Gott. Dieser Glaube unterscheidet sich grundlegend von polytheistischen Glaubenssystemen, die mehrere Götter verehren. Die Idee einer einzigen Gottheit prägt auch die ethischen Vorstellungen in diesen Religionen.",
       "difficulty": 4
     },
     {
       "category": "Sprache",
       "topic": "Wortherkunft",
-      "question": "Welche der folgenden Endungen ist aus dem Althochdeutschen abgeleitet und bedeutet im Deutschen oft eine Verkleinerung des Ursprungswortes?",
+      "question": "Was bedeutet das Präfix 'un-' in dem Wort 'unglücklich'?",
       "choices": [
-        "A: -chen",
-        "B: -ung",
-        "C: -heit",
-        "D: -keit"
-      ],
-      "correct_answer": "A",
-      "explanation": "Die Endung -chen stammt vom althochdeutschen '-ki', das eine Verkleinerung oder Verniedlichung anzeigt. Diese Endung wird häufig verwendet, um einen liebevollen oder kleinen Bezug zum Ursprungswort herzustellen, wie in 'Häuschen' von 'Haus'.",
-      "difficulty": 8
-    },
-    {
-      "category": "Physik",
-      "topic": "Kern- und Teilchenphysik",
-      "subtopic": "Große Vereinheitlichung (GUT)",
-      "question": "Was beschreibt die Große Vereinheitlichung (GUT) in der Teilchenphysik?",
-      "choices": [
-        "A: Die Theorie der Relativität von Einstein.",
-        "B: Die Vereinigung der Elektromagnetismus, schwachen und starken Wechselwirkungen.",
-        "C: Die unendliche Teilbarkeit von Materie.",
-        "D: Die Entstehung von Materie aus reiner Energie."
+        "A: Es verändert die Zeitform.",
+        "B: Es zeigt eine Verneinung an.",
+        "C: Es macht das Wort positiv.",
+        "D: Es verstärkt die Bedeutung."
       ],
       "correct_answer": "B",
-      "explanation": "Die Große Vereinheitlichung (GUT) beschreibt ein theoretisches Modell, das vorschlägt, dass die drei fundamentalen Wechselwirkungen – Elektromagnetismus, starke und schwache Wechselwirkung – bei sehr hohen Energien eine gemeinsame Ursache haben. Dies steht im Gegensatz zu den gängigen Modellen, die diese Wechselwirkungen separat behandeln.",
-      "difficulty": 5,
-      "subcategory": "Große Vereinheitlichung (GUT)"
-    },
-    {
-      "category": "Natur",
-      "topic": "Wetter & Klima",
-      "question": "Welche der folgenden Wetterphänomene wird am häufigsten mit extremen Wetterbedingungen in Verbindung gebracht?",
-      "choices": [
-        "A: Leichte Regenfälle",
-        "B: Hitzewellen",
-        "C: Sanfte Brisen",
-        "D: Morgentau"
-      ],
-      "correct_answer": "B",
-      "explanation": "Hitzewellen sind Perioden intensiver und überdurchschnittlicher Wärme, die gesundheitliche Risiken mit sich bringen können. Sie treten häufig in Verbindung mit anderen extremen Wetterereignissen auf, wie Dürre oder Waldbränden.",
-      "difficulty": 5
-    },
-    {
-      "category": "Sport",
-      "topic": "Tennis",
-      "question": "Was ist der Zweck eines Tennisballs?",
-      "choices": [
-        "A: Um den Schiedsrichter zu verwirren.",
-        "B: Um den Gegner zu treffen.",
-        "C: Um das Spiel zu verlieren.",
-        "D: Um Punkte zu erzielen."
-      ],
-      "correct_answer": "D",
-      "explanation": "Der Zweck eines Tennisballs ist es, Punkte zu erzielen, indem er über das Netz geschlagen wird und im Spielfeld des Gegners landet. Das Ziel im Tennis ist es, den Ball so zu spielen, dass der Gegner ihn nicht zurückspielen kann.",
+      "explanation": "'Un-' ist ein häufiges Präfix im Deutschen, das eine Verneinung oder das Gegenteil ausdrückt. Im Wort 'unglücklich' bedeutet es, dass jemand nicht glücklich ist, also das Gegenteil von glücklich.",
       "difficulty": 2
     },
     {
       "category": "Geographie",
-      "topic": "Hauptstädte",
-      "question": "Welche hochgelegene Hauptstadt Europas ist bekannt für ihr kaltes Klima und liegt auf über 1.100 Metern Höhe?",
+      "topic": "Klima, Biome & Naturregionen",
+      "question": "Was beschreibt den langfristigen Durchschnitt von Wetterbedingungen in einem bestimmten Gebiet?",
       "choices": [
-        "A: Andorra la Vella",
-        "B: Sofia",
-        "C: Madrid",
-        "D: Bern"
+        "A: Klima",
+        "B: Jahreszeit",
+        "C: Temperatur",
+        "D: Wetter"
       ],
       "correct_answer": "A",
-      "explanation": "Andorra la Vella ist die Hauptstadt des Fürstentums Andorra und liegt in den Pyrenäen auf einer Höhe von etwa 1.023 Metern. Diese hohe Lage beeinflusst das Klima der Stadt, das durch kalte Winter und milde Sommer geprägt ist.",
-      "difficulty": 5
+      "explanation": "Das Klima ist der statistische Durchschnitt der Wetterbedingungen über einen längeren Zeitraum, normalerweise mindestens 30 Jahre. Im Gegensatz dazu bezieht sich Wetter auf die kurzfristigen atmosphärischen Bedingungen zu einem bestimmten Zeitpunkt.",
+      "difficulty": 3
     }
   ]
 }
