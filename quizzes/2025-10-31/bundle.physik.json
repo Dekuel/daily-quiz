@@ -1,0 +1,168 @@
+{
+  "date": "2025-10-31",
+  "generated_at": "2025-10-31T05:14:24Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Phasen- und Gruppengeschwindigkeit",
+      "question": "Was beschreibt die Phasengeschwindigkeit in einem Medium?",
+      "choices": [
+        "A: Die Geschwindigkeit, mit der sich die Wellenfronten einer Welle bewegen.",
+        "B: Die Geschwindigkeit, mit der sich die Teilchen eines Mediums bewegen.",
+        "C: Die Geschwindigkeit, mit der sich die Energie einer Welle ausbreitet.",
+        "D: Die Geschwindigkeit, mit der sich die Amplitude einer Welle ändert."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Phasengeschwindigkeit ist die Geschwindigkeit, mit der sich die Phasen einer Welle (z.B. Wellenfronten) durch ein Medium bewegen. Sie ist wichtig, um das Verhalten von Wellen in verschiedenen Materialien zu verstehen.",
+      "difficulty": 3,
+      "subcategory": "Phasen- und Gruppengeschwindigkeit"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Das Auge (Optik)",
+      "question": "Was ist die Hauptfunktion der Linse im menschlichen Auge?",
+      "choices": [
+        "A: Sie filtert Farben aus.",
+        "B: Sie speichert Lichtenergie.",
+        "C: Sie fokussiert das Licht auf die Netzhaut.",
+        "D: Sie verstärkt die Helligkeit des Lichts."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Linse im menschlichen Auge hat die Hauptfunktion, das Licht zu fokussieren, damit es scharf auf der Netzhaut abgebildet wird. Diese Fähigkeit zur Anpassung wird als Akkommodation bezeichnet und ermöglicht es uns, Objekte in unterschiedlichen Entfernungen klar zu sehen.",
+      "difficulty": 2,
+      "subcategory": "Das Auge (Optik)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Entropie: Definition & Extremaleigenschaft",
+      "question": "Was beschreibt die Entropie in einem thermodynamischen System?",
+      "choices": [
+        "A: Die Menge der Energie im System.",
+        "B: Die Unordnung oder das Maß an Zufälligkeit im System.",
+        "C: Die Masse des Systems.",
+        "D: Die Temperatur des Systems."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Entropie ist ein Maß für die Unordnung oder das Maß an Zufälligkeit in einem thermodynamischen System. Höhere Entropie bedeutet eine größere Unordnung und mehr mögliche Mikrozustände des Systems.",
+      "difficulty": 1,
+      "subcategory": "Entropie: Definition & Extremaleigenschaft"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Dirac’scher Spinoperator",
+      "question": "Was beschreibt der Dirac’sche Spinoperator in der Quantenmechanik?",
+      "choices": [
+        "A: Die Wechselwirkung zwischen Elektronen und Photonen.",
+        "B: Den Spin von Teilchen und deren quantenmechanische Eigenschaften.",
+        "C: Die Bewegung von Teilchen in einem klassischen Kräftefeld.",
+        "D: Die Energiezustände von Atomen im Festkörper."
+      ],
+      "correct_answer": "B",
+      "explanation": "Der Dirac’sche Spinoperator ist ein mathematisches Werkzeug in der Quantenmechanik, das den Spin von Fermionen beschreibt. Er spielt eine entscheidende Rolle in der relativistischen Quantenmechanik und hilft, die quantenmechanischen Eigenschaften von Teilchen wie Elektronen zu verstehen.",
+      "difficulty": 5,
+      "subcategory": "Dirac’scher Spinoperator"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Natürliche Zustandsvariablen (U, H, F, G)",
+      "question": "Welche der folgenden Größen ist eine natürliche Zustandsvariable des thermodynamischen Systems?",
+      "choices": [
+        "A: Innere Energie (U)",
+        "B: Temperatur (T)",
+        "C: Druck (P)",
+        "D: Volumenarbeit (W)"
+      ],
+      "correct_answer": "A",
+      "explanation": "Die innere Energie (U) ist eine grundlegende Zustandsvariable in der Thermodynamik, die den Energieinhalt eines Systems beschreibt. Temperatur, Druck und Volumenarbeit sind ebenfalls wichtige Größen, aber keine natürlichen Zustandsvariablen im gleichen Sinne wie U, H, F und G.",
+      "difficulty": 6,
+      "subcategory": "Natürliche Zustandsvariablen (U, H, F, G)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Maxwell-Gleichungen der Magnetostatik",
+      "question": "Welche der folgenden Gleichungen beschreibt das Magnetfeld, das durch einen stationären elektrischen Strom erzeugt wird?",
+      "choices": [
+        "A: ∇ · E = 0",
+        "B: ∇ × B = μ₀j",
+        "C: ∇ × E = -∂B/∂t",
+        "D: ∇ · B = 0"
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Gleichung ∇ × B = μ₀j beschreibt das Magnetfeld B, das durch einen elektrischen Strom j erzeugt wird. Diese Gleichung ist eine der Maxwell-Gleichungen und ist zentral für die Magnetostatik.",
+      "difficulty": 5,
+      "subcategory": "Maxwell-Gleichungen der Magnetostatik"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Definitionen & Rechenregeln von Tensoren",
+      "question": "Was ist ein Tensor in der Physik?",
+      "choices": [
+        "A: Eine Theorie zur Erklärung der Gravitation.",
+        "B: Ein Gerät zur Messung von Zeit und Raum.",
+        "C: Eine spezielle Art von Vektor, der nur in der klassischen Mechanik vorkommt.",
+        "D: Ein mathematisches Objekt, das Informationen über physikalische Größen in verschiedenen Koordinatensystemen beschreibt."
+      ],
+      "correct_answer": "D",
+      "explanation": "Ein Tensor ist ein mathematisches Objekt, das verwendet wird, um physikalische Größen in verschiedenen Koordinatensystemen zu beschreiben. Er ermöglicht die Formulierung von physikalischen Gesetzen in einer Form, die unabhängig von der Wahl des Koordinatensystems ist.",
+      "difficulty": 3,
+      "subcategory": "Definitionen & Rechenregeln von Tensoren"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Brechungsgesetz aus Fermat",
+      "question": "Was beschreibt das Brechungsgesetz nach Fermat?",
+      "choices": [
+        "A: Licht strahlt immer in geraden Linien.",
+        "B: Der Lichtweg zwischen zwei Punkten ist der kürzeste.",
+        "C: Licht kann nicht durch transparente Materialien hindurchgehen.",
+        "D: Licht wird beim Durchgang durch ein Prisma nicht abgelenkt."
+      ],
+      "correct_answer": "B",
+      "explanation": "Das Brechungsgesetz nach Fermat besagt, dass Licht den Weg nimmt, der die geringste Zeit benötigt, um zwischen zwei Punkten zu gelangen. Damit wird die Brechung des Lichts an Grenzflächen beschrieben, wo sich die Geschwindigkeit des Lichts ändert.",
+      "difficulty": 1,
+      "subcategory": "Brechungsgesetz aus Fermat"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "1D-Potentialprobleme: allgemeine Aussagen",
+      "question": "Welche Aussage über das Verhalten eines Teilchens in einem eindimensionalen Potentialtopf ist korrekt?",
+      "choices": [
+        "A: Im Potentialtopf gibt es keine stehenden Wellenlösungen.",
+        "B: Das Teilchen hat immer eine definierte Position und Geschwindigkeit im Potentialtopf.",
+        "C: Das Teilchen kann sich beliebig im Potentialtopf bewegen, ohne Energie zu verlieren.",
+        "D: Die Energie des Teilchens ist quantisiert und kann nur diskrete Werte annehmen."
+      ],
+      "correct_answer": "D",
+      "explanation": "In einem eindimensionalen Potentialtopf ist die Energie des Teilchens quantisiert, was bedeutet, dass es nur bestimmte diskrete Energiezustände einnehmen kann. Diese quantisierten Zustände sind das Ergebnis der Schrödinger-Gleichung und führen zu stehenden Wellen im Potentialtopf.",
+      "difficulty": 7,
+      "subcategory": "1D-Potentialprobleme: allgemeine Aussagen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Dritter Hauptsatz (Nernstsches Theorem): Konsequenzen",
+      "question": "Welche Aussage beschreibt eine Konsequenz des Nernstschen Theorems?",
+      "choices": [
+        "A: Der absolute Nullpunkt kann nicht erreicht werden.",
+        "B: Die Energie eines Systems kann unbegrenzt reduziert werden.",
+        "C: Die Entropie eines idealen Gases ist konstant.",
+        "D: Wärmeübertragung findet immer nur bei Temperaturunterschieden statt."
+      ],
+      "correct_answer": "A",
+      "explanation": "Der Dritte Hauptsatz der Thermodynamik besagt, dass die Entropie eines Systems beim Erreichen des absoluten Nullpunkts konstant bleibt und nicht weiter gesenkt werden kann. Dies bedeutet, dass der absolute Nullpunkt theoretisch nicht erreicht werden kann, was eine wichtige Konsequenz für die thermodynamischen Eigenschaften von Materie darstellt.",
+      "difficulty": 4,
+      "subcategory": "Dritter Hauptsatz (Nernstsches Theorem): Konsequenzen"
+    }
+  ]
+}
