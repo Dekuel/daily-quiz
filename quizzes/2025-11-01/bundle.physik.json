@@ -1,0 +1,168 @@
+{
+  "date": "2025-11-01",
+  "generated_at": "2025-11-01T05:12:57Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Streuung langsamer Teilchen am Potentialtopf",
+      "question": "Was beschreibt der Effekt der Streuung langsamer Teilchen an einem Potentialtopf in der Quantenmechanik?",
+      "choices": [
+        "A: Teilchen verhalten sich immer wie klassische Teilchen bei der Streuung.",
+        "B: Die Teilchen können das Potential nur überwinden, wenn ihre Energie größer als das Potential ist.",
+        "C: Teilchen werden niemals gestreut, wenn sie langsamer als Licht sind.",
+        "D: Langsame Teilchen werden immer reflektiert, unabhängig von ihrer Energie."
+      ],
+      "correct_answer": "B",
+      "explanation": "In der Quantenmechanik können Teilchen an einem Potentialtopf gestreut werden. Wenn die Energie der Teilchen geringer als das Potential ist, können sie nicht einfach hindurch, sie verhalten sich aber anders als in der klassischen Mechanik und können teilweise reflektiert oder tunneln.",
+      "difficulty": 4,
+      "subcategory": "Streuung langsamer Teilchen am Potentialtopf"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Wechselwirkungsdarstellung (Dirac-Bild)",
+      "question": "Welche Aussage beschreibt korrekt die Beziehung zwischen dem Dirac-Bild und dem Schrödinger-Bild in der Quantenmechanik?",
+      "choices": [
+        "A: Das Dirac-Bild ist identisch mit dem Schrödinger-Bild und hat keine unterschiedlichen Eigenschaften.",
+        "B: Im Dirac-Bild werden die Wechselwirkungen als nicht vorhandene betrachtet, was die Berechnung vereinfacht.",
+        "C: Im Dirac-Bild bleiben die Zustände zeitlich konstant, während die Operatoren zeitabhängig sind.",
+        "D: Im Dirac-Bild ändern sich die Zustände mit der Zeit, während die Operatoren zeitunabhängig sind."
+      ],
+      "correct_answer": "D",
+      "explanation": "Im Dirac-Bild sind die Zustände zeitabhängig und die Operatoren sind zeitunabhängig. Dies steht im Gegensatz zum Schrödinger-Bild, wo die Zustände zeitunabhängig sind und die Operatoren zeitabhängig. Diese Darstellungen sind äquivalent, bieten jedoch unterschiedliche Perspektiven auf die Dynamik quantenmechanischer Systeme.",
+      "difficulty": 9,
+      "subcategory": "Wechselwirkungsdarstellung (Dirac-Bild)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Farbzentren",
+      "question": "Was sind Farbzentren in Festkörpern?",
+      "choices": [
+        "A: Eine Art von chemischen Bindungen in Festkörpern.",
+        "B: Defekte im Kristallgitter, die Licht absorbieren und Farbe erzeugen.",
+        "C: Die Temperaturpunkte, an denen ein Festkörper schmilzt.",
+        "D: Die Struktur von Atomen in einem Molekül."
+      ],
+      "correct_answer": "B",
+      "explanation": "Farbzentren sind Defekte in Kristallgittern, die durch die Wechselwirkung mit Licht Farbe in den Materialien erzeugen. Diese Defekte können durch die Abwesenheit von Atomen oder durch die Anwesenheit von Fremdatomen entstehen und sind von Bedeutung für die Eigenschaften von Festkörpern.",
+      "difficulty": 1,
+      "subcategory": "Farbzentren"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Brechende Kugelflächen",
+      "question": "Welche Aussage über die Brechung von Licht an einer gekrümmten Oberfläche ist richtig?",
+      "choices": [
+        "A: Der Brechungsindex kann für eine konvexe Kugelfläche größer als 1 sein.",
+        "B: Der Brechungswinkel hängt nur vom Einfallswinkel ab.",
+        "C: Der Brechungsindex ist unabhängig von der Wellenlänge des Lichts.",
+        "D: Der Brechungswinkel ist immer kleiner als der Einfallswinkel."
+      ],
+      "correct_answer": "A",
+      "explanation": "Bei brechenden Kugelflächen kann der Brechungsindex tatsächlich größer als 1 sein, insbesondere wenn das Material dichte Eigenschaften aufweist. Die anderen Antworten sind nicht korrekt, da der Brechungswinkel vom Einfallswinkel und dem Brechungsindex abhängig ist und nicht immer kleiner sein muss als der Einfallswinkel.",
+      "difficulty": 7,
+      "subcategory": "Brechende Kugelflächen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Legendre-Transformation (L→H)",
+      "question": "Was beschreibt die Legendre-Transformation in der analytischen Mechanik?",
+      "choices": [
+        "A: Sie beschreibt die Erhaltung des Impulses.",
+        "B: Sie definiert die Arbeit in einem geschlossenen System.",
+        "C: Sie berechnet die kinetische Energie eines Systems.",
+        "D: Sie ermöglicht den Übergang von der Lagrange- zur Hamilton-Formulierung."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Legendre-Transformation ist ein mathematisches Werkzeug, das verwendet wird, um von der Lagrange-Formulierung der Mechanik zur Hamilton-Formulierung zu wechseln. Dabei werden die generalisierten Koordinaten und Impulse umgewandelt, um die Hamilton-Funktion zu erhalten.",
+      "difficulty": 5,
+      "subcategory": "Legendre-Transformation (L→H)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Zyklotronresonanz",
+      "question": "Was beschreibt die Zyklotronresonanz in Festkörpern?",
+      "choices": [
+        "A: Die Wärmeleitung in supraleitenden Materialien.",
+        "B: Die Wechselwirkung von Elektronen mit einem externen Magnetfeld.",
+        "C: Die Schwingungen von Kristallgittern bei hohen Temperaturen.",
+        "D: Die Änderung der elektrischen Leitfähigkeit bei Temperaturerhöhung."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Zyklotronresonanz beschreibt, wie sich geladene Teilchen, wie Elektronen, in einem Magnetfeld bewegen und dabei spezifische Energielevels erreichen können. Dies ist besonders wichtig in der Festkörperphysik, um die Eigenschaften von Materialien unter dem Einfluss von Magnetfeldern zu verstehen.",
+      "difficulty": 5,
+      "subcategory": "Zyklotronresonanz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Fabry–Perot-Interferometer (Vielfachinterferenzen)",
+      "question": "Welche Bedingung muss erfüllt sein, damit ein Fabry–Perot-Interferometer maximale Intensität bei einem bestimmten Wellenlängenbereich zeigt?",
+      "choices": [
+        "A: Die Dicke des Interferometers muss konstant variieren.",
+        "B: Die Lichtwellen müssen im Interferometer phasengleich sein.",
+        "C: Die einfallende Lichtintensität muss konstant erhöht werden.",
+        "D: Die Wellenlängen müssen außerhalb des Reflexionsspektrums liegen."
+      ],
+      "correct_answer": "B",
+      "explanation": "Für maximale Intensität im Fabry–Perot-Interferometer müssen die Lichtwellen, die durch die parallelen Spiegel reflektiert werden, phasengleich sein, was bedeutet, dass ihre Phasenverschiebung bei jeder Reflexion ein ganzzahliges Vielfaches der Wellenlänge betragen muss. Dies führt zu konstruktiver Interferenz und damit zu einer Verstärkung der Intensität in bestimmten Wellenlängenbereichen.",
+      "difficulty": 10,
+      "subcategory": "Fabry–Perot-Interferometer (Vielfachinterferenzen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Potentiale & Hauptsätze der Gleichgewichtsthermodynamik",
+      "question": "Welches der folgenden Konzepte beschreibt den Zustand eines Systems im thermischen Gleichgewicht?",
+      "choices": [
+        "A: Entropie bleibt konstant.",
+        "B: Energie ist nicht übertragbar.",
+        "C: Temperatur ist in allen Teilen des Systems gleich.",
+        "D: Druck ist variabel."
+      ],
+      "correct_answer": "C",
+      "explanation": "Ein System im thermischen Gleichgewicht hat überall die gleiche Temperatur, was bedeutet, dass es keine Temperaturunterschiede gibt, die Wärmeübertragungen verursachen könnten. Die Entropie kann in diesem Fall konstant bleiben, aber der entscheidende Punkt ist die Temperaturgleichheit.",
+      "difficulty": 4,
+      "subcategory": "Potentiale & Hauptsätze der Gleichgewichtsthermodynamik"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Freie Materiewelle",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt die Eigenschaften einer freien Materiewelle gemäß der Quantenmechanik?",
+      "choices": [
+        "A: Eine freie Materiewelle hat eine bestimmte Position und einen bestimmten Impuls.",
+        "B: Eine freie Materiewelle bewegt sich stets mit Lichtgeschwindigkeit.",
+        "C: Eine freie Materiewelle kann als Überlagerung von verschiedenen Impulszuständen dargestellt werden.",
+        "D: Eine freie Materiewelle ist immer lokalisiert und hat keine Unschärfe."
+      ],
+      "correct_answer": "C",
+      "explanation": "Eine freie Materiewelle wird durch eine Wellenfunktion beschrieben, die als Überlagerung von verschiedenen Impulszuständen interpretiert werden kann. Dies führt zu den typischen Unschärfe-Eigenschaften, die in der Quantenmechanik gelten, wo Position und Impuls nicht gleichzeitig genau bestimmt werden können.",
+      "difficulty": 8,
+      "subcategory": "Freie Materiewelle"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Entropie als Zustandsgröße",
+      "question": "Welche der folgenden Aussagen beschreibt am besten die Entropie in einem geschlossenen System?",
+      "choices": [
+        "A: Entropie ist ein Maß für die Unordnung oder Zufälligkeit in einem System.",
+        "B: Entropie bleibt in einem geschlossenen System immer konstant.",
+        "C: Entropie kann nur abnehmen, wenn Energie zugeführt wird.",
+        "D: Entropie ist unabhängig von der Temperatur des Systems."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Entropie ist ein wichtiges Konzept in der Thermodynamik, das die Unordnung oder Zufälligkeit eines Systems quantifiziert. In einem geschlossenen System kann die Entropie niemals abnehmen, sie strebt stets zu einem Maximum an, was mit dem Zweiten Gesetz der Thermodynamik übereinstimmt.",
+      "difficulty": 7,
+      "subcategory": "Entropie als Zustandsgröße"
+    }
+  ]
+}
