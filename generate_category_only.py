@@ -6,7 +6,7 @@ Generate-only-one-category script.
 
 Example:
     python scripts/generate_category_only.py --category natur --count 20 --mode normal
-    python scripts/generate_category_only.py -c natur -n 20 -m schwer -o out/natur.20.json --shuffle
+    python scripts/generate_category_only.py -c natur -n 20 -m random -o out/natur.20.json --shuffle
 """
 
 import os, sys, re, json, random, argparse, importlib, pkgutil
@@ -257,7 +257,7 @@ def main():
     ap = argparse.ArgumentParser(description="Generate only one category into a single JSON file.")
     ap.add_argument("-c", "--category", default="natur", help="Plugin key (module name) under ./kategorien/, e.g. 'natur'")
     ap.add_argument("-n", "--count", type=int, default=20, help="Number of questions to generate")
-    ap.add_argument("-m", "--mode", default="normal", choices=["normal", "schwer", "physik"], help="Difficulty profile")
+    ap.add_argument("-m", "--mode", default="normal", choices=["normal", "schwer", "physik","random"], help="Difficulty profile")
     ap.add_argument("-o", "--out", default=None, help="Output path for JSON (default: out/<category>.<count>.<date>.json)")
     ap.add_argument("--shuffle", action="store_true", help="Shuffle answers within this run")
     args = ap.parse_args()
