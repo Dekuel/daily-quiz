@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 import os, sys, re, json, time, random, importlib, importlib.util
 from types import ModuleType
-from typing import Optional, List, Tuple, Dict
+from typing import Optional, List, Tuple, Dict, Any
 from openai import OpenAI
 
 CATEGORY_NAME = "Geschichte"
@@ -10,8 +10,7 @@ CATEGORY_NAME = "Geschichte"
 # ──────────────────────────────────────────────────────────────────────────────
 # sys.path-Bootstrap: unterstütze beide Repo-Layouts
 #   1) <root>/Unterkategorien/…
-#   2) <root>/kategorien/Unterkategorien/…   (dein CI-Layout)
-# Keine Groß-/Kleinschreibungstricks; wir erwarten exakt "Unterkategorien".
+#   2) <root>/kategorien/Unterkategorien/…
 # ──────────────────────────────────────────────────────────────────────────────
 _THIS = os.path.abspath(__file__)
 _DIR  = os.path.dirname(_THIS)
@@ -70,14 +69,50 @@ def _fs_debug() -> str:
     return "\n".join(lines)
 
 # ──────────────────────────────────────────────────────────────────────────────
-# Epochen & Modulpfade (ohne Case-Fallback; exakt 'Unterkategorien')
+# Oberthemen (Epochen) & Gewichte
+#   _TOPICS: Default-Gewichte (Fallback)
+#   _TOPIC_WEIGHTS_BY_BUCKET: Gewichte je Schwierigkeits-Bucket 1–4 / 5–7 / 8–10
 # ──────────────────────────────────────────────────────────────────────────────
-_SUBPERIODS: Dict[str, int] = {
-    "Antike": 35,
-    "Mittelalter": 20,
-    "Neuzeit": 15,
-    "Zeitgeschichte (ab 1945)": 20,
+
+_TOPICS: Dict[str, int] = {
+    "Antike": 34,
+    "Mittelalter": 22,
+    "Neuzeit": 20,
+    "Zeitgeschichte (ab 1945)": 24,
 }
+
+_TOPIC_WEIGHTS_BY_BUCKET: Dict[str, Dict[str, int]] = {
+    "1-4": {
+        "Antike": 30,
+        "Mittelalter": 35,
+        "Neuzeit": 25,
+        "Zeitgeschichte (ab 1945)": 10,
+    },
+    "5-7": {
+        "Antike": 30,
+        "Mittelalter": 25,
+        "Neuzeit": 25,
+        "Zeitgeschichte (ab 1945)": 20,
+    },
+    "8-10": {
+        "Antike": 30,
+        "Mittelalter": 25,
+        "Neuzeit": 30,
+        "Zeitgeschichte (ab 1945)": 15,
+    },
+}
+
+def _bucket_for(d: int) -> str:
+    if d <= 4: return "1-4"
+    if d <= 7: return "5-7"
+    return "8-10"
+
+def _pick_topic_for_difficulty(d: int) -> str:
+    bucket = _bucket_for(d)
+    weights_map = _TOPIC_WEIGHTS_BY_BUCKET.get(bucket, _TOPICS)
+    names = list(weights_map.keys())
+    weights = [weights_map[n] for n in names]
+    return random.choices(names, weights=weights, k=1)[0]
 
 # Epoche -> Modulpfad
 _SUBMODULE_PATHS: Dict[str, str] = {
@@ -87,13 +122,21 @@ _SUBMODULE_PATHS: Dict[str, str] = {
     "Zeitgeschichte (ab 1945)": "Unterkategorien.Geschichte.zeitgeschichte",
 }
 
-# Geladene Unterthemen-Listen (Epoche -> List[(subtopic, weight)])
-_SUBTOPICS: Dict[str, List[Tuple[str, int]]] = {}
+# Geladene Unterthemen-Listen:
+#   topic -> List[Dict(name,weight,min_difficulty,max_difficulty)]
+_SUBTOPICS: Dict[str, List[Dict[str, Any]]] = {}
 
-def _load_subtopics_from_module(mod: ModuleType) -> List[Tuple[str, int]]:
+# ──────────────────────────────────────────────────────────────────────────────
+# Loader akzeptiert 2-Tuple (name, weight) ODER 3-Tuple (name, weight, (min,max))
+# ──────────────────────────────────────────────────────────────────────────────
+def _load_subtopics_from_module(mod: ModuleType) -> List[Dict[str, Any]]:
     """
-    Erlaubt entweder SUBTOPICS oder SUBDISCIPLINES im Untermodul.
-    Erwartet: List[Tuple[str,int]].
+    Akzeptiert:
+      - List[Tuple[str, int]]
+      - List[Tuple[str, int, Tuple[int,int]]]
+    Normalisiert auf Dict:
+      { "name": str, "weight": int, "min_difficulty": int, "max_difficulty": int }
+    Default-Range: (1,10)
     """
     if hasattr(mod, "SUBTOPICS"):
         data = getattr(mod, "SUBTOPICS")
@@ -102,31 +145,57 @@ def _load_subtopics_from_module(mod: ModuleType) -> List[Tuple[str, int]]:
     else:
         raise AttributeError("weder SUBTOPICS noch SUBDISCIPLINES gefunden")
 
-    ok = (
-        isinstance(data, list)
-        and all(isinstance(x, tuple) and len(x) == 2 for x in data)
-        and all(isinstance(x[0], str) and isinstance(x[1], int) for x in data)
-    )
-    if not ok:
-        raise TypeError("SUBTOPICS/SUBDISCIPLINES hat falsches Format (List[Tuple[str,int]] erwartet)")
-    return data
+    if not isinstance(data, list):
+        raise TypeError("SUBTOPICS/SUBDISCIPLINES muss eine Liste sein")
 
-def _load_all_subtopics_strict() -> Dict[str, List[Tuple[str, int]]]:
+    normed: List[Dict[str, Any]] = []
+    for item in data:
+        if not isinstance(item, tuple):
+            raise TypeError("Eintrag muss Tuple sein")
+        if len(item) == 2:
+            name, w = item
+            rng = (1, 10)
+        elif len(item) == 3:
+            name, w, rng = item
+            if not (isinstance(rng, tuple) and len(rng) == 2 and all(isinstance(x, int) for x in rng)):
+                raise TypeError("Range muss Tuple[int,int] sein")
+        else:
+            raise TypeError("Tuple-Länge 2 oder 3 erwartet")
+
+        if not (isinstance(name, str) and isinstance(w, int)):
+            raise TypeError("Format (str,int[, (int,int)]) erwartet")
+
+        mn, mx = rng
+        mn = max(1, min(10, mn))
+        mx = max(1, min(10, mx))
+        if mn > mx:
+            mn, mx = mx, mn
+
+        normed.append({
+            "name": name,
+            "weight": w,
+            "min_difficulty": mn,
+            "max_difficulty": mx,
+        })
+
+    return normed
+
+def _load_all_subtopics_strict() -> Dict[str, List[Dict[str, Any]]]:
     errors: List[str] = []
-    result: Dict[str, List[Tuple[str, int]]] = {}
-    for period, module_path in _SUBMODULE_PATHS.items():
+    result: Dict[str, List[Dict[str, Any]]] = {}
+    for topic, module_path in _SUBMODULE_PATHS.items():
         try:
             spec = importlib.util.find_spec(module_path)
         except ModuleNotFoundError:
             spec = None
         if spec is None:
-            errors.append(f"[{period}] Modul nicht gefunden: {module_path}")
+            errors.append(f"[{topic}] Modul nicht gefunden: {module_path}")
             continue
         try:
             mod = importlib.import_module(module_path)
-            result[period] = _load_subtopics_from_module(mod)
+            result[topic] = _load_subtopics_from_module(mod)
         except Exception as e:
-            errors.append(f"[{period}] Import-/Ladefehler in {module_path}: {e.__class__.__name__}: {e}")
+            errors.append(f"[{topic}] Import-/Ladefehler in {module_path}: {e.__class__.__name__}: {e}")
             continue
 
     if errors:
@@ -135,11 +204,32 @@ def _load_all_subtopics_strict() -> Dict[str, List[Tuple[str, int]]]:
             + "\n".join(f" - {e}" for e in errors)
             + "\n\nDateisystem-Check:\n" + _fs_debug()
         )
-
     return result
 
-# Lade bei Import streng (damit Fehler früh sichtbar sind)
+# Beim Import streng laden (Fehler früh sichtbar)
 _SUBTOPICS = _load_all_subtopics_strict()
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Auswahl-Hilfen
+# ──────────────────────────────────────────────────────────────────────────────
+def _pick_weighted_name(dicts: List[Dict[str, Any]]) -> Optional[str]:
+    if not dicts:
+        return None
+    names = [d["name"] for d in dicts]
+    weights = [d["weight"] for d in dicts]
+    return random.choices(names, weights=weights, k=1)[0]
+
+def _choose_subdiscipline(topic: str, target_difficulty: int) -> Optional[str]:
+    entries = _SUBTOPICS.get(topic, [])
+    eligible = [d for d in entries if d["min_difficulty"] <= target_difficulty <= d["max_difficulty"]]
+    if eligible:
+        return _pick_weighted_name(eligible)
+    # Sanfter Fallback, um nicht leerzulaufen
+    for delta in (1, 2, 3):
+        eligible = [d for d in entries if (d["min_difficulty"] - delta) <= target_difficulty <= (d["max_difficulty"] + delta)]
+        if eligible:
+            return _pick_weighted_name(eligible)
+    return _pick_weighted_name(entries)
 
 # ──────────────────────────────────────────────────────────────────────────────
 # Prompting & Schema
@@ -154,7 +244,7 @@ _SCHEMA = """{
   "difficulty": 1
 }"""
 
-# Neuer 1–10-Schwieigkeitsleitfaden (identisch zu deiner Vorgabe)
+# NEU: exakte Stufenbeschreibung 1–10
 _DIFF_GUIDE = """
 1 = absolutes Grundwissen (≈ 95 % der Bevölkerung in DE)
 2 = sehr einfaches Grundwissen
@@ -168,7 +258,7 @@ _DIFF_GUIDE = """
 10 = schwerstmöglich (oberes Expertenniveau)
 """.strip()
 
-# Stufengenaue Beschreibung für den Prompt
+# Zusätzlich: Map für stufengenauen Hinweis im Prompt
 _DIFF_LEVELS: Dict[int, str] = {
     1: "absolutes Grundwissen (≈ 95 % der Bevölkerung in DE)",
     2: "sehr einfaches Grundwissen",
@@ -182,16 +272,8 @@ _DIFF_LEVELS: Dict[int, str] = {
     10:"schwerstmöglich (oberes Expertenniveau)",
 }
 
-def _pick_weighted(pairs: List[Tuple[str, int]]) -> str:
-    names, weights = zip(*pairs)
-    return random.choices(list(names), weights=list(weights), k=1)[0]
-
-def _pick_subperiod() -> str:
-    names, weights = list(_SUBPERIODS.keys()), list(_SUBPERIODS.values())
-    return random.choices(names, weights=weights, k=1)[0]
-
-def _prompt(subperiod: str, target_difficulty: int, mode: Optional[str], subtopic: Optional[str] = None) -> tuple[str, float]:
-    # Temperatur-Logik beibehalten
+def _prompt(topic: str, target_difficulty: int, mode: Optional[str], subtopic: Optional[str] = None) -> tuple[str, float]:
+    # Temperatur weiterhin grob nach Buckets gestaffelt (wie zuvor)
     if target_difficulty <= 2:
         temperature = 0.8
     elif target_difficulty <= 4:
@@ -204,10 +286,11 @@ def _prompt(subperiod: str, target_difficulty: int, mode: Optional[str], subtopi
         temperature = 0.82
 
     level_desc = _DIFF_LEVELS.get(int(target_difficulty), "siehe Stufenleitfaden")
+
     sub_hint = f"- Unterthema (nur als inhaltlicher Hinweis, NICHT ins JSON übernehmen): „{subtopic}“.\n" if subtopic else ""
 
     prompt = f"""
-Erzeuge EINE Multiple-Choice-Frage (A–D, genau eine richtig) zur Kategorie „Geschichte“, Oberbereich „{subperiod}“ (Deutsch).
+Erzeuge EINE Multiple-Choice-Frage (A–D, genau eine richtig) zur Kategorie „{CATEGORY_NAME}“, Epoche „{topic}“ (Deutsch).
 {sub_hint}Ziel-Schwierigkeit: {target_difficulty}/10 – {level_desc}
 
 Kontext zu Schwierigkeitsstufen (1–10):
@@ -217,7 +300,7 @@ Vorgaben:
 - Neutrale, gut verständliche Formulierung; keine Gegenwarts-/Tagesbezüge.
 - Keine „alle oben/keine der oben“-Optionen; vier plausible Antworten, genau eine korrekt.
 - Erklärung: 2–3 Sätze, knapp und hilfreich (ggf. kurze Einordnung/Datierung).
-- Das Feld "topic" im JSON enthält ausschließlich den Oberbereich („{subperiod}“). Unterthema nicht ins JSON.
+- Das Feld "topic" im JSON enthält ausschließlich die Epoche („{topic}“). Unterthema nicht ins JSON.
 - Antworte ausschließlich mit **validem JSON** gemäß Schema.
 
 JSON-SCHEMA:
@@ -247,28 +330,25 @@ def _ask_json(prompt: str, temperature: float) -> dict | None:
 # Öffentliche Generator-API
 # ──────────────────────────────────────────────────────────────────────────────
 def generate_one(
-    past_texts: list[str],
+    past_texts: List[str],
     target_difficulty: Optional[int] = None,
     mode: Optional[str] = None,
 ) -> dict | None:
     """
-    Core-Aufruf mit target_difficulty (1..10) und mode ("normal"|"schwer"|"physik").
+    Core-Aufruf mit target_difficulty (1..10) und mode ("normal"|"schwer"|...).
     Unterthema wird aus Untermodulen geladen und dient nur als Prompt-Hinweis.
     """
-    # 1) Epoche wählen
-    subperiod = _pick_subperiod()
-
-    # 2) Unterthema per Gewicht ziehen (aus Untermodulen)
-    subtopic = None
-    pairs = _SUBTOPICS.get(subperiod, [])
-    if pairs:
-        subtopic = _pick_weighted(pairs)
-
-    # 3) Zielschwierigkeit bestimmen
+    # 1) Zielschwierigkeit losen/bestimmen
     tier = int(target_difficulty) if isinstance(target_difficulty, int) else random.choice([3, 5, 7])
 
+    # 2) Epoche abhängig von tier (Buckets)
+    topic = _pick_topic_for_difficulty(tier)
+
+    # 3) Passende Subdisziplin innerhalb der Epoche gemäß Range-Filter
+    subtopic = _choose_subdiscipline(topic, tier)
+
     # 4) Prompt bauen & Anfrage
-    prompt, temp = _prompt(subperiod, tier, mode, subtopic=subtopic)
+    prompt, temp = _prompt(topic, tier, mode, subtopic=subtopic)
     data = _ask_json(prompt, temperature=temp)
     time.sleep(0.6)
     if not data:
@@ -276,7 +356,7 @@ def generate_one(
 
     # 5) Pflichtfelder normieren
     data["category"]   = CATEGORY_NAME
-    data["topic"]  = subperiod  # Unterthema nie ins JSON übernehmen
+    data["topic"]      = topic   # Unterthema nie ins JSON übernehmen
     data["difficulty"] = int(data.get("difficulty", tier))
 
     # 6) Minimale Validierung
@@ -295,7 +375,7 @@ def make_question(*args, **kwargs):
 
 # Optionales Registry-Objekt
 PLUGIN = {
-    "key": "geschichte",
+    "key": "Geschichte",
     "name": CATEGORY_NAME,
     "generator": generate_one,
 }

@@ -1,113 +1,87 @@
 # -*- coding: utf-8 -*-
 # Unterkategorien/Geschichte/antike.py
-"""
-Unterthemen (Subdisciplines) für die Disziplin „Antike“.
-Diese Liste wird von kategorien/geschichte.py importiert und dient als Datenquelle
-für die Subthema-Auswahl im Prompt.
-
-==========================================================================
-GENERATION_SYSTEM – Einheitliche Skala & Struktur (analog Religion-Modulen)
-==========================================================================
-- Skala 1–10: 1 = Allgemeinwissen, 10 = Expertenwissen
-- min = Bekanntheit (Population Familiarity)
-- max = inhaltliche/methodische Tiefe (Conceptual Depth)
-- „Basis…“-Kategorien haben immer min = 1 (Zuordnungen, Namen, einfache Fakten)
-- Nicht-Basis-Themen können i. d. R. bis 10 gehen (Vertiefbarkeit durch Forschung)
-"""
 
 SUBDISCIPLINES = [
-    # 1 Frühantike Hochkulturen
-    ("Frühantike Hochkulturen (Überblick)", 4, (3,10)),                       # 1
-    ("Mesopotamien: Sumerer, Babylonier, Assyrer", 4, (4,10)),                # 1.1
-    ("Ägypten: Altes, Mittleres und Neues Reich", 4, (3,10)),                 # 1.2
-    ("Pharaonentum & göttliche Herrschaft", 3, (4,10)),                       # 1.2.1
-    ("Pyramidenbau & Grabkultur", 3, (3,10)),                                 # 1.2.2
-    ("Schriftentwicklung: Keilschrift & Hieroglyphen", 3, (3,10)),            # 1.3
-    ("Rechtssysteme (z. B. Codex Hammurapi)", 3, (4,10)),                     # 1.4
-    ("Handel & frühe Stadtstaaten", 2, (2,9)),                                # 1.5
-    ("Frühe Wissenschaften (Astronomie, Mathematik)", 2, (2,9)),              # 1.6
-    # ⚑ Basis
-    ("Basis – Frühantike (Götter, Herrscher, Städte, Symbole)", 2, (1,7)),
+    ("Frühantike Hochkulturen (Überblick)", 7, (5,10)),
+    ("Mesopotamien: Sumerer, Babylonier, Assyrer", 7, (7,10)),
+    ("Ägypten: Altes, Mittleres und Neues Reich", 7, (5,10)),
+    ("Pharaonentum & göttliche Herrschaft", 5, (7,10)),
+    ("Pyramidenbau & Grabkultur", 5, (5,10)),
+    ("Schriftentwicklung: Keilschrift & Hieroglyphen", 5, (5,10)),
+    ("Rechtssysteme (z. B. Codex Hammurapi)", 5, (7,10)),
+    ("Handel & frühe Stadtstaaten", 3, (3,10)),
+    ("Frühe Wissenschaften (Astronomie, Mathematik)", 3, (3,10)),
+    ("Basis – Frühantike (Götter, Herrscher, Städte, Symbole)", 3, (1,10)),
 
-    # 2 Griechenland
-    ("Antikes Griechenland (Überblick)", 4, (3,10)),                           # 2
-    ("Mykenische & minoische Kultur", 3, (4,10)),                              # 2.1
-    ("Dunkle Jahrhunderte & Entstehung der Polis", 3, (4,10)),                 # 2.2
-    ("Polis-System: Athen & Sparta", 4, (3,10)),                               # 2.3
-    ("Demokratie in Athen", 4, (2,10)),                                        # 2.3.1
-    ("Spartanisches System & Heloten", 3, (4,10)),                              # 2.3.2
-    ("Perserkriege", 4, (3,10)),                                               # 2.4
-    ("Peloponnesischer Krieg", 4, (4,10)),                                      # 2.5
-    ("Griechische Kolonisation", 3, (4,10)),                                    # 2.6
-    ("Hellenistische Zeit (Alexander der Große)", 4, (3,10)),                  # 2.7
-    ("Kultur & Philosophie der Antike (Griechenland)", 4, (3,10)),             # 2.8
-    ("Mythologie & Religion", 3, (2,9)),                                       # 2.9
-    ("Architektur & Kunst (Tempel, Skulptur)", 3, (2,9)),                      # 2.10
-    ("Philosophen: Sokrates, Platon, Aristoteles", 4, (2,10)),                 # 2.11
-    ("Wissenschaft & Mathematik (Euklid, Archimedes)", 3, (3,10)),             # 2.12
-    ("Olympische Spiele & Panhellenismus", 2, (2,9)),                           # 2.13
-    # ⚑ Basis
-    ("Basis – Griechenland (Götter, Poleis, Personen, Daten)", 2, (1,7)),
+    ("Antikes Griechenland (Überblick)", 7, (5,10)),
+    ("Mykenische & minoische Kultur", 5, (7,10)),
+    ("Dunkle Jahrhunderte & Entstehung der Polis", 5, (7,10)),
+    ("Polis-System: Athen & Sparta", 7, (5,10)),
+    ("Demokratie in Athen", 7, (3,10)),
+    ("Spartanisches System & Heloten", 5, (7,10)),
+    ("Perserkriege", 7, (5,10)),
+    ("Peloponnesischer Krieg", 7, (7,10)),
+    ("Griechische Kolonisation", 5, (7,10)),
+    ("Hellenistische Zeit (Alexander der Große)", 7, (5,10)),
+    ("Kultur & Philosophie der Antike (Griechenland)", 7, (5,10)),
+    ("Mythologie & Religion", 5, (3,10)),
+    ("Architektur & Kunst (Tempel, Skulptur)", 5, (3,10)),
+    ("Philosophen: Sokrates, Platon, Aristoteles", 7, (3,10)),
+    ("Wissenschaft & Mathematik (Euklid, Archimedes)", 5, (5,10)),
+    ("Olympische Spiele & Panhellenismus", 3, (3,10)),
+    ("Basis – Griechenland (Götter, Poleis, Personen, Daten)", 3, (1,10)),
 
-    # 3 Römische Geschichte
-    ("Römische Antike (Überblick)", 4, (3,10)),                                # 3
-    ("Frühzeit & Königszeit Roms", 3, (4,10)),                                 # 3.1
-    ("Römische Republik", 4, (3,10)),                                          # 3.2
-    ("Senat & Magistrate", 3, (4,10)),                                         # 3.2.1
-    ("Ständekämpfe (Patrizier vs. Plebejer)", 3, (4,10)),                      # 3.2.2
-    ("Ausdehnung Italiens & Punische Kriege", 4, (3,10)),                      # 3.3
-    ("Hannibal & Rom-Karthago-Konflikt", 3, (3,10)),                           # 3.3.1
-    ("Krise der Republik & Bürgerkriege", 4, (4,10)),                          # 3.4
-    ("Caesar, Pompeius, Crassus (Triumvirat)", 3, (3,10)),                     # 3.4.1
-    ("Übergang zur Kaiserzeit (Augustus)", 4, (3,10)),                         # 3.5
-    ("Römisches Kaiserreich: Prinzipat & Dominat", 4, (4,10)),                 # 3.6
-    ("Pax Romana", 3, (3,10)),                                                 # 3.6.1
-    ("Römische Armee & Verwaltung", 3, (3,10)),                                 # 3.7
-    ("Provinzsystem & Romanisierung", 3, (3,10)),                               # 3.8
-    ("Recht & Gesellschaft (Zwölftafelgesetz, ius civile)", 4, (3,10)),        # 3.9
-    ("Sklaverei & soziale Strukturen", 3, (3,10)),                              # 3.10
-    ("Kaiserzeit: Nero bis Commodus", 2, (2,9)),                                # 3.11
-    ("Spätantike & Völkerwanderung", 3, (3,10)),                                # 3.12
-    ("Untergang des Weströmischen Reichs", 4, (3,10)),                          # 3.13
-    # ⚑ Basis
-    ("Basis – Rom (Ämter, Daten, Kaiser, Kriege, Begriffe)", 2, (1,7)),
+    ("Römische Antike (Überblick)", 7, (5,10)),
+    ("Frühzeit & Königszeit Roms", 5, (7,10)),
+    ("Römische Republik", 7, (5,10)),
+    ("Senat & Magistrate", 5, (7,10)),
+    ("Ständekämpfe (Patrizier vs. Plebejer)", 5, (7,10)),
+    ("Ausdehnung Italiens & Punische Kriege", 7, (5,10)),
+    ("Hannibal & Rom-Karthago-Konflikt", 5, (5,10)),
+    ("Krise der Republik & Bürgerkriege", 7, (7,10)),
+    ("Caesar, Pompeius, Crassus (Triumvirat)", 5, (5,10)),
+    ("Übergang zur Kaiserzeit (Augustus)", 7, (5,10)),
+    ("Römisches Kaiserreich: Prinzipat & Dominat", 7, (7,10)),
+    ("Pax Romana", 5, (5,10)),
+    ("Römische Armee & Verwaltung", 5, (5,10)),
+    ("Provinzsystem & Romanisierung", 5, (5,10)),
+    ("Recht & Gesellschaft (Zwölftafelgesetz, ius civile)", 7, (5,10)),
+    ("Sklaverei & soziale Strukturen", 5, (5,10)),
+    ("Kaiserzeit: Nero bis Commodus", 3, (3,10)),
+    ("Spätantike & Völkerwanderung", 5, (5,10)),
+    ("Untergang des Weströmischen Reichs", 7, (5,10)),
+    ("Basis – Rom (Ämter, Daten, Kaiser, Kriege, Begriffe)", 3, (1,10)),
 
-    # 4 Kultur, Wissenschaft und Alltag
-    ("Alltag in der Antike", 3, (2,9)),                                         # 4.1
-    ("Familie & Frauenrolle", 2, (2,9)),                                        # 4.1.1
-    ("Bildung & Erziehung (paideia)", 3, (3,9)),                                # 4.1.2
-    ("Religion & Kulte (Mysterienkulte, Isis, Mithras)", 3, (4,10)),            # 4.2
-    ("Philosophie der Spätantike (Stoiker, Epikureer)", 3, (3,10)),             # 4.3
-    ("Literatur (Epen, Tragödien, Komödien)", 3, (2,9)),                        # 4.4
-    ("Rhetorik & Geschichtsschreibung", 3, (3,10)),                              # 4.5
-    ("Architektur & Städtebau (Forum, Amphitheater)", 4, (3,10)),               # 4.6
-    ("Technik & Ingenieurskunst (Aquädukte, Straßenbau)", 3, (3,10)),           # 4.7
-    ("Wissenschaftliche Errungenschaften (Medizin, Astronomie)", 2, (2,9)),     # 4.8
-    ("Kleidung, Ernährung, Hygiene", 2, (1,8)),                                  # 4.9
-    # ⚑ Basis
-    ("Basis – Kultur & Alltag (Zuordnungen: Bauwerke, Autoren, Gattungen)", 2, (1,7)),
+    ("Alltag in der Antike", 5, (3,10)),
+    ("Familie & Frauenrolle", 3, (3,10)),
+    ("Bildung & Erziehung (paideia)", 5, (5,10)),
+    ("Religion & Kulte (Mysterienkulte, Isis, Mithras)", 5, (7,10)),
+    ("Philosophie der Spätantike (Stoiker, Epikureer)", 5, (5,10)),
+    ("Literatur (Epen, Tragödien, Komödien)", 5, (3,10)),
+    ("Rhetorik & Geschichtsschreibung", 5, (5,10)),
+    ("Architektur & Städtebau (Forum, Amphitheater)", 7, (5,10)),
+    ("Technik & Ingenieurskunst (Aquädukte, Straßenbau)", 5, (5,10)),
+    ("Wissenschaftliche Errungenschaften (Medizin, Astronomie)", 3, (3,10)),
+    ("Kleidung, Ernährung, Hygiene", 3, (1,10)),
+    ("Basis – Kultur & Alltag (Zuordnungen: Bauwerke, Autoren, Gattungen)", 3, (1,10)),
 
-    # 5 Antike im Mittelmeerraum & Kontaktzonen
-    ("Handel & Wirtschaft im Mittelmeerraum", 3, (3,10)),                       # 5.1
-    ("Phönizier & Karthago", 3, (4,10)),                                        # 5.2
-    ("Etrusker & frühes Italien", 2, (2,9)),                                    # 5.3
-    ("Kelten & Germanen im Kontakt mit Rom", 3, (3,10)),                        # 5.4
-    ("Persisches Großreich (Achaimeniden)", 4, (4,10)),                         # 5.5
-    ("Hellenistische Königreiche (Ptolemäer, Seleukiden)", 3, (4,10)),          # 5.6
-    ("Beziehungen Rom–Orient", 3, (4,10)),                                      # 5.7
-    ("Afrika & Nubien in der Antike", 2, (2,9)),                                 # 5.8
-    ("China & Seidenstraße (frühe Kontakte)", 2, (2,9)),                         # 5.9
-    # ⚑ Basis
-    ("Basis – Mittelmeer & Kontakte (Völker, Routen, Güter, Orte)", 2, (1,7)),
+    ("Handel & Wirtschaft im Mittelmeerraum", 5, (5,10)),
+    ("Phönizier & Karthago", 5, (7,10)),
+    ("Etrusker & frühes Italien", 3, (3,10)),
+    ("Kelten & Germanen im Kontakt mit Rom", 5, (5,10)),
+    ("Persisches Großreich (Achaimeniden)", 7, (7,10)),
+    ("Hellenistische Königreiche (Ptolemäer, Seleukiden)", 5, (7,10)),
+    ("Beziehungen Rom–Orient", 5, (7,10)),
+    ("Afrika & Nubien in der Antike", 3, (3,10)),
+    ("China & Seidenstraße (frühe Kontakte)", 3, (3,10)),
+    ("Basis – Mittelmeer & Kontakte (Völker, Routen, Güter, Orte)", 3, (1,10)),
 
-    # 6 Übergänge und Nachwirkungen
-    ("Übergang von Antike zu Mittelalter", 4, (4,10)),                           # 6.1
-    ("Christianisierung & Konstantin der Große", 4, (3,10)),                     # 6.2
-    ("Spätantike Philosophie (Neuplatonismus)", 3, (4,10)),                      # 6.3
-    ("Byzanz als Fortsetzung der Antike", 3, (3,10)),                            # 6.4
-    ("Römisches Erbe im Mittelalter", 3, (3,10)),                                # 6.5
-    ("Rezeption der Antike in Renaissance & Humanismus", 3, (3,10)),             # 6.6
-    ("Antikenbild in der Moderne", 2, (2,9)),                                    # 6.7
-    # ⚑ Basis
-    ("Basis – Nachwirkungen (Epochen, Begriffe, Schlüsselereignisse)", 2, (1,7)),
+    ("Übergang von Antike zu Mittelalter", 7, (7,10)),
+    ("Christianisierung & Konstantin der Große", 7, (5,10)),
+    ("Spätantike Philosophie (Neuplatonismus)", 5, (7,10)),
+    ("Byzanz als Fortsetzung der Antike", 5, (5,10)),
+    ("Römisches Erbe im Mittelalter", 5, (5,10)),
+    ("Rezeption der Antike in Renaissance & Humanismus", 5, (5,10)),
+    ("Antikenbild in der Moderne", 3, (3,10)),
+    ("Basis – Nachwirkungen (Epochen, Begriffe, Schlüsselereignisse)", 3, (1,10)),
 ]
