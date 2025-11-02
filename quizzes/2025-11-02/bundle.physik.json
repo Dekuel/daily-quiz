@@ -1,0 +1,168 @@
+{
+  "date": "2025-11-02",
+  "generated_at": "2025-11-02T05:13:16Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Kritisches Magnetfeld & thermodynamische Größen",
+      "question": "Was beschreibt das kritische Magnetfeld in einem Supraleiter?",
+      "choices": [
+        "A: Die maximale Feldstärke, bei der der Supraleiter supraleitend bleibt.",
+        "B: Die Temperatur, bei der ein Material beginnt, supraleitend zu werden.",
+        "C: Die minimale elektrische Leitfähigkeit eines Supraleiters.",
+        "D: Die maximale Temperatur, bei der ein Material seine magnetischen Eigenschaften verliert."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das kritische Magnetfeld ist die maximale magnetische Feldstärke, die ein Supraleiter aushalten kann, ohne seinen supraleitenden Zustand zu verlieren. Wenn das Magnetfeld diese Schwelle überschreitet, wird der Supraleiter normalleitend.",
+      "difficulty": 4,
+      "subcategory": "Kritisches Magnetfeld & thermodynamische Größen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Gefrierpunktserniedrigung/Siedepunktserhöhung",
+      "question": "Welcher Faktor beeinflusst die Gefrierpunktserniedrigung einer Lösung signifikant?",
+      "choices": [
+        "A: Der Druck über der Lösung",
+        "B: Die Art des Lösungsmittels",
+        "C: Die Temperatur der Umgebung",
+        "D: Die Anzahl der gelösten Teilchen"
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Gefrierpunktserniedrigung hängt direkt von der molalen Konzentration der gelösten Teilchen ab, unabhängig von ihrer chemischen Identität. Je mehr Teilchen in der Lösung vorhanden sind, desto stärker ist der Effekt auf den Gefrierpunkt.",
+      "difficulty": 7,
+      "subcategory": "Gefrierpunktserniedrigung/Siedepunktserhöhung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Elektroschwache Vereinheitlichung (SU(2)×U(1))",
+      "question": "Was beschreibt die elektroschwache Vereinheitlichung in der Teilchenphysik?",
+      "choices": [
+        "A: Die Wechselwirkung von Teilchen durch die Gravitation.",
+        "B: Die Auswirkungen von Temperaturen auf die Teilchenbewegung.",
+        "C: Die Beziehung zwischen Masse und Energie.",
+        "D: Die Vereinigung der elektromagnetischen Kraft und der schwachen Kernkraft."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die elektroschwache Vereinheitlichung ist ein theoretisches Modell, das die elektromagnetische Kraft und die schwache Kernkraft zu einer einzigen Kraft vereint. Diese Theorie ist ein zentraler Bestandteil des Standardmodells der Teilchenphysik und erklärt viele Phänomene auf subatomarer Ebene.",
+      "difficulty": 3,
+      "subcategory": "Elektroschwache Vereinheitlichung (SU(2)×U(1))"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Maxwell-Gleichungen der Magnetostatik",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt die Maxwell-Gleichungen in der Magnetostatik?",
+      "choices": [
+        "A: Der Divergenz des Magnetfeldes ist gleich der magnetischen Ladungsdichte.",
+        "B: Der Verlauf der elektrischen Feldlinien ist unabhängig von den Magnetfeldlinien.",
+        "C: Es gibt keine Wechselwirkungen zwischen bewegten elektrischen Ladungen und Magnetfeldern.",
+        "D: Der magnetische Fluss durch eine geschlossene Fläche ist stets null."
+      ],
+      "correct_answer": "D",
+      "explanation": "In der Magnetostatik besagen die Maxwell-Gleichungen, dass die Divergenz des Magnetfeldes immer gleich null ist, was bedeutet, dass es keine magnetischen Monopole gibt und der magnetische Fluss durch eine geschlossene Fläche null ist. Dies ist eine grundlegende Eigenschaft der magnetischen Felder und unterscheidet sich von den elektrischen Feldern, wo Ladungen existieren können.",
+      "difficulty": 7,
+      "subcategory": "Maxwell-Gleichungen der Magnetostatik"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Ladungsträgerdichte & Fermi-Niveau (dotiert)",
+      "question": "Was beschreibt das Fermi-Niveau in einem dotierten Halbleiter?",
+      "choices": [
+        "A: Die Temperatur, bei der ein Halbleiter supraleitend wird.",
+        "B: Die höchste Energie, die Elektronen im Grundzustand erreichen können.",
+        "C: Die maximale Beweglichkeit der Ladungsträger.",
+        "D: Die Energie, die benötigt wird, um ein Elektron aus dem Halbleiter zu entfernen."
+      ],
+      "correct_answer": "B",
+      "explanation": "Das Fermi-Niveau ist der Energiezustand, bei dem die Wahrscheinlichkeit, dass ein Elektron besetzt ist, 50 % beträgt. In einem dotierten Halbleiter verändert sich das Fermi-Niveau je nach Art und Konzentration der Dotierstoffe, was die elektrischen Eigenschaften des Materials beeinflusst.",
+      "difficulty": 4,
+      "subcategory": "Ladungsträgerdichte & Fermi-Niveau (dotiert)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Gegen- und Selbstinduktion",
+      "question": "Was beschreibt der Begriff Selbstinduktion?",
+      "choices": [
+        "A: Die Erzeugung einer elektromotorischen Kraft in einer Spule durch einen externen Magneten.",
+        "B: Die Bewegung von Elektronen in einem elektrischen Feld.",
+        "C: Die Erzeugung einer elektromotorischen Kraft in einer Spule durch eine Änderung des eigenen Stroms.",
+        "D: Die Wechselwirkung zwischen zwei benachbarten Spulen."
+      ],
+      "correct_answer": "C",
+      "explanation": "Selbstinduktion ist ein Phänomen, bei dem in einer Spule eine elektromotorische Kraft (EMK) erzeugt wird, wenn sich der Strom durch die Spule ändert. Dies geschieht aufgrund des sich ändernden Magnetfeldes, das durch den eigenen Stromfluss erzeugt wird.",
+      "difficulty": 2,
+      "subcategory": "Gegen- und Selbstinduktion"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Typen der schwachen Wechselwirkung (CC/NC)",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt die Charged Current (CC) Wechselwirkung in der schwachen Wechselwirkung?",
+      "choices": [
+        "A: Sie tritt nur in einem Vakuum auf.",
+        "B: Sie ist ausschließlich für die Erzeugung von Masseteilchen verantwortlich.",
+        "C: Sie erfolgt nur zwischen neutrinos.",
+        "D: Sie verändert die elektrische Ladung eines Teilchens."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Charged Current Wechselwirkung ist verantwortlich für Prozesse, bei denen die elektrische Ladung eines Teilchens verändert wird, wie beispielsweise bei der Beta-Zerfall. Diese Wechselwirkung tritt nicht nur zwischen Neutrinos auf, sondern auch zwischen anderen geladenen Teilchen wie Elektronen und Protonen.",
+      "difficulty": 6,
+      "subcategory": "Typen der schwachen Wechselwirkung (CC/NC)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Photographische Kamera",
+      "question": "Welche Funktion hat die Blende in einer photographischen Kamera?",
+      "choices": [
+        "A: Sie verändert die Brennweite des Objektivs.",
+        "B: Sie stabilisiert die Kamera während der Aufnahme.",
+        "C: Sie fokussiert das Licht auf den Sensor.",
+        "D: Sie reguliert die Lichtmenge, die auf den Sensor fällt."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Blende in einer Kamera steuert die Lichtmenge, die auf den Sensor oder Film fällt, was entscheidend für die Belichtung ist. Eine größere Blendenöffnung lässt mehr Licht passieren, während eine kleinere Blende weniger Licht durchlässt und die Schärfentiefe beeinflusst.",
+      "difficulty": 6,
+      "subcategory": "Photographische Kamera"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Frequenzabhängigkeit der Dielektrizitätskonstante",
+      "question": "Wie beeinflusst die Frequenz eines elektromagnetischen Feldes die Dielektrizitätskonstante eines Materials?",
+      "choices": [
+        "A: Sie variiert und zeigt komplexe Frequenzabhängigkeiten.",
+        "B: Sie bleibt konstant, unabhängig von der Frequenz.",
+        "C: Sie nimmt mit steigender Frequenz zu.",
+        "D: Sie nimmt mit steigender Frequenz ab."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Dielektrizitätskonstante eines Materials kann von der Frequenz des angelegten elektromagnetischen Feldes abhängen. Bei verschiedenen Frequenzen können unterschiedliche Polarisationsmechanismen aktiv werden, was zu komplexen Frequenzabhängigkeiten führt.",
+      "difficulty": 7,
+      "subcategory": "Frequenzabhängigkeit der Dielektrizitätskonstante"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Absolute thermodynamische Temperaturskala",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt die absolute thermodynamische Temperaturskala?",
+      "choices": [
+        "A: Die absolute Temperaturskala ist eine logarithmische Skala, die nur positive Werte annehmen kann.",
+        "B: Die absolute Temperaturskala misst die Temperatur anhand des Drucks eines Gases.",
+        "C: Die absolute Temperaturskala beginnt bei 0 Kelvin, dem absoluten Nullpunkt, wo die Bewegung der Teilchen theoretisch stoppt.",
+        "D: Die absolute Temperaturskala ist identisch mit der Celsius-Skala, aber um 273,15 höher."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die absolute thermodynamische Temperaturskala, auch Kelvin-Skala genannt, beginnt bei 0 Kelvin, was dem theoretischen absoluten Nullpunkt entspricht. An diesem Punkt haben die Teilchen minimale kinetische Energie und bewegen sich nicht mehr.",
+      "difficulty": 7,
+      "subcategory": "Absolute thermodynamische Temperaturskala"
+    }
+  ]
+}
