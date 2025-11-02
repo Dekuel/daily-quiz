@@ -1,0 +1,168 @@
+{
+  "date": "2025-10-31",
+  "generated_at": "2025-10-31T14:38:24Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Vergrößernde optische Instrumente",
+      "question": "Welches der folgenden optischen Instrumente verwendet ein Okular und ein Objektiv, um vergrößerte Bilder zu erzeugen?",
+      "choices": [
+        "A: Mikroskop",
+        "B: Fernglas",
+        "C: Projektor",
+        "D: Kamera"
+      ],
+      "correct_answer": "A",
+      "explanation": "Ein Mikroskop besteht aus einem Okular, das das Bild vergrößert, und einem Objektiv, das das ursprüngliche Bild erzeugt. Diese Kombination ermöglicht die Betrachtung von Objekten in großem Detail, was für die Forschung in der Biologie und anderen Wissenschaften entscheidend ist.",
+      "difficulty": 9,
+      "subcategory": "Vergrößernde optische Instrumente"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "RG-Ideen: Ising 1D/2D & Dezimierung",
+      "question": "Welcher der folgenden Aussagen beschreibt korrekt das Verhalten des 2D-Ising-Modells im thermodynamischen Limit?",
+      "choices": [
+        "A: Es zeigt keine kritischen Phänomene und verhält sich wie ein ideales Gas.",
+        "B: Es zeigt eine phasenübergreifende Übergangsphase bei einer Temperatur unterhalb des kritischen Punkts.",
+        "C: Es besitzt im gesamten Temperaturbereich nur eine ferromagnetische Phase.",
+        "D: Es ist immer im paramagnetischen Zustand, unabhängig von der Temperatur."
+      ],
+      "correct_answer": "B",
+      "explanation": "Das 2D-Ising-Modell zeigt bei Temperaturen unterhalb eines kritischen Wertes einen Übergang in eine ferromagnetische Phase, was zu spontaner Magnetisierung führt. Diese kritischen Phänomene sind zentral für das Verständnis von Phasenübergängen in statistischen Systemen.",
+      "difficulty": 9,
+      "subcategory": "RG-Ideen: Ising 1D/2D & Dezimierung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Beugung am Kristallgitter",
+      "question": "Was beschreibt das Phänomen der Beugung am Kristallgitter in der Quantenmechanik?",
+      "choices": [
+        "A: Die Ablenkung von Teilchen durch elektromagnetische Felder.",
+        "B: Die Bewegung von Teilchen in einem Vakuum.",
+        "C: Die Interferenz von Wellen, die durch das Gitter hindurchtreten.",
+        "D: Die Erzeugung von Elektronen aus Photonen."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Beugung am Kristallgitter ist ein wichtiges Phänomen, das die Interferenz von Wellen, wie z.B. von Elektronen, beschreibt, wenn sie auf regelmäßige Strukturen treffen. Diese Beugung ist grundlegend für die Analyse der Struktur von Materialien mit Hilfe der Röntgenbeugung.",
+      "difficulty": 5,
+      "subcategory": "Beugung am Kristallgitter"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Dichtematrix von Teilsystemen (Reduktion)",
+      "question": "Welche Aussage zur Dichtematrix von Teilsystemen in der statistischen Mechanik ist korrekt?",
+      "choices": [
+        "A: Die Dichtematrix eines Teilsystems kann nicht direkt aus der Dichtematrix des Gesamtsystems abgeleitet werden.",
+        "B: Die Dichtematrix eines Teilsystems ist unabhängig von der Wechselwirkung mit anderen Teilsystemen.",
+        "C: Die Dichtematrix eines Teilsystems ist immer gleich der Dichtematrix des Gesamtsystems.",
+        "D: Die Dichtematrix eines Teilsystems kann aus der Dichtematrix des Gesamtsystems durch Spur-Nehmen über die Zustände des komplementären Teilsystems gewonnen werden."
+      ],
+      "correct_answer": "D",
+      "explanation": "In der statistischen Mechanik kann die Dichtematrix eines Teilsystems durch die Spur über die Dichtematrix des Gesamtsystems berechnet werden, indem die Zustände des komplementären Teilsystems integriert werden. Diese Methode ist zentral für die Analyse von Teilsystemen im Rahmen der thermodynamischen Gleichgewichte.",
+      "difficulty": 8,
+      "subcategory": "Dichtematrix von Teilsystemen (Reduktion)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Hamilton’sches Prinzip (Prinzip der stationären Wirkung)",
+      "question": "Was besagt das Hamilton’sche Prinzip in der analytischen Mechanik?",
+      "choices": [
+        "A: Der Impuls eines Körpers bleibt immer gleich.",
+        "B: Die Energie eines Systems bleibt konstant.",
+        "C: Der Weg einer Bewegung ist der, für den die Wirkung stationär ist.",
+        "D: Die Geschwindigkeit eines Körpers ist immer konstant."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Hamilton’sche Prinzip besagt, dass die Bewegung eines Systems den Weg nimmt, für den die Wirkung (Integral der Lagrange-Funktion über die Zeit) stationär ist. Dies führt zu den Bewegungsgleichungen, die das Verhalten von physikalischen Systemen beschreiben.",
+      "difficulty": 4,
+      "subcategory": "Hamilton’sches Prinzip (Prinzip der stationären Wirkung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "α‑Zerfall",
+      "question": "Was wird beim α-Zerfall emittiert?",
+      "choices": [
+        "A: Elektronen",
+        "B: Heliumkerne",
+        "C: Protonen",
+        "D: Neutronen"
+      ],
+      "correct_answer": "B",
+      "explanation": "Beim α-Zerfall gibt ein instabiles Atomkern ein α-Teilchen ab, welches aus zwei Protonen und zwei Neutronen besteht. Dies entspricht dem Heliumkern, weshalb der α-Zerfall oft auch als Heliumzerfall bezeichnet wird.",
+      "difficulty": 2,
+      "subcategory": "α‑Zerfall"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Hookesches Gesetz",
+      "question": "Welcher der folgenden Aussagen beschreibt korrekt die Beziehung zwischen der Deformation einer Feder und der auf sie wirkenden Kraft gemäß dem Hookeschen Gesetz?",
+      "choices": [
+        "A: Die Deformation einer Feder ist konstant, egal wie hoch die Kraft ist.",
+        "B: Die Deformation einer Feder ist unabhängig von der auf sie wirkenden Kraft.",
+        "C: Die Deformation einer Feder ist proportional zur auf sie wirkenden Kraft.",
+        "D: Die Deformation einer Feder ist umgekehrt proportional zur auf sie wirkenden Kraft."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Hookesche Gesetz besagt, dass die Deformation (Verlängerung oder Verkürzung) einer elastischen Feder direkt proportional zur auf sie wirkenden Kraft ist, solange die elastische Grenze nicht überschritten wird. Diese Beziehung wird mathematisch durch F = k * x beschrieben, wobei F die Kraft, k die Federkonstante und x die Deformation ist.",
+      "difficulty": 8,
+      "subcategory": "Hookesches Gesetz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Ortsdarstellung (Hermite-Polynome)",
+      "question": "Welches der folgenden Hermite-Polynome ist die korrekte Lösung der Schrödinger-Gleichung für das harmonische Oszillator-System im quantenmechanischen Kontext?",
+      "choices": [
+        "A: H_0(x) = 1",
+        "B: H_3(x) = 8x^3 - 12x",
+        "C: H_1(x) = 2x",
+        "D: H_2(x) = 4x^2 - 2"
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Hermite-Polynome H_n(x) sind Lösungen der quantenmechanischen Schrödinger-Gleichung für den harmonischen Oszillator. Insbesondere ist H_2(x) = 4x^2 - 2 das zweite Hermite-Polynom und beschreibt den Zustand des Oszillators bei n=2.",
+      "difficulty": 7,
+      "subcategory": "Ortsdarstellung (Hermite-Polynome)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Isotropie des Raumes ⇒ Drehimpulserhaltung",
+      "question": "Was besagt das Gesetz der Drehimpulserhaltung in einem isotropen Raum?",
+      "choices": [
+        "A: Der Energieinhalt eines geschlossenen Systems bleibt konstant.",
+        "B: Der Druck in einem geschlossenen System bleibt konstant.",
+        "C: Der Gesamtimpuls eines geschlossenen Systems bleibt konstant.",
+        "D: Der Drehimpuls eines geschlossenen Systems bleibt konstant."
+      ],
+      "correct_answer": "D",
+      "explanation": "Das Gesetz der Drehimpulserhaltung besagt, dass der Drehimpuls eines geschlossenen Systems konstant bleibt, solange keine äußeren Drehmomente wirken. Dies ist eine Folge der Isotropie des Raumes, die besagt, dass der Raum in alle Richtungen gleich ist.",
+      "difficulty": 3,
+      "subcategory": "Isotropie des Raumes ⇒ Drehimpulserhaltung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Joule–Thomson-Prozess (Inversionstemp.)",
+      "question": "Was beschreibt die Inversionstemperatur im Joule-Thomson-Prozess?",
+      "choices": [
+        "A: Die Temperatur, bei der ein Gas in einen festen Zustand übergeht.",
+        "B: Die Temperatur, bei der die spezifische Wärme eines Gases konstant bleibt.",
+        "C: Die Temperatur, bei der ein Gas beim Expandieren kälter wird.",
+        "D: Die Temperatur, bei der ein Gas keinen Druck mehr erzeugt."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Inversionstemperatur ist der Punkt, an dem sich das Verhalten eines Gases im Joule-Thomson-Prozess ändert. Unter dieser Temperatur kühlt sich das Gas beim Expandieren ab, während es darüber wärmer wird.",
+      "difficulty": 2,
+      "subcategory": "Joule–Thomson-Prozess (Inversionstemp.)"
+    }
+  ]
+}

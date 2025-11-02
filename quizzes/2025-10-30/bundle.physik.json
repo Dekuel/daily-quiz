@@ -1,168 +1,168 @@
 {
   "date": "2025-10-30",
-  "generated_at": "2025-10-30T05:14:06Z",
+  "generated_at": "2025-10-30T18:45:12Z",
   "schema_version": 6,
   "mode": "physik",
   "questions": [
     {
       "category": "Physik",
-      "topic": "Optik",
-      "subtopic": "Strahlenablenkung am Prisma",
-      "question": "Welche der folgenden Aussagen beschreibt am besten den Effekt der Strahlenablenkung am Prisma?",
+      "topic": "Festkörperphysik",
+      "subtopic": "Festkörperoberflächen",
+      "question": "Welche der folgenden Eigenschaften ist typischerweise mit den Oberflächen von Festkörpern verbunden?",
       "choices": [
-        "A: Lichtstrahlen werden beim Verlassen eines Prismas nicht beeinflusst und setzen ihren Weg unverändert fort.",
-        "B: Lichtstrahlen werden beim Eintritt in ein Prisma gebrochen und ändern dabei ihre Richtung.",
-        "C: Lichtstrahlen werden beim Eintritt in ein Prisma nicht gebrochen, sondern nur gestreut.",
-        "D: Lichtstrahlen werden beim Durchgang durch ein Prisma reflektiert und bleiben in der gleichen Richtung."
+        "A: Oberflächen haben keinen Einfluss auf die chemische Reaktivität.",
+        "B: Oberflächen haben eine höhere Energie als das Innere des Festkörpers.",
+        "C: Oberflächen beeinflussen nicht die elektrischen Eigenschaften des Materials.",
+        "D: Oberflächen sind immer perfekt glatt und homogen."
       ],
       "correct_answer": "B",
-      "explanation": "Beim Eintritt in ein Prisma wird das Licht aufgrund der unterschiedlichen Dichte des Materials gebrochen, was zu einer Ablenkung der Lichtstrahlen führt. Dieser Effekt ist entscheidend für die Farbenzerlegung des Lichts in einem Prismaspektrum.",
-      "difficulty": 4,
-      "subcategory": "Strahlenablenkung am Prisma"
+      "explanation": "Oberflächen von Festkörpern weisen häufig eine höhere Energie auf als das Innere, was zu speziellen physikalischen und chemischen Eigenschaften führt. Diese erhöhte Energie kann Reaktionen und Wechselwirkungen an der Oberfläche beeinflussen, während die anderen Optionen nicht zutreffend sind.",
+      "difficulty": 6,
+      "subcategory": "Festkörperoberflächen"
     },
     {
       "category": "Physik",
-      "topic": "Kern- und Teilchenphysik",
-      "subtopic": "Elektromagnetische Übergänge",
-      "question": "Welche der folgenden Aussagen beschreibt einen klassischen elektromagnetischen Übergang zwischen zwei Energiezuständen eines Atoms?",
+      "topic": "Elektrodynamik",
+      "subtopic": "Wellenausbreitung in Leitern",
+      "question": "Welche Aussage zur Wellenausbreitung in Leitern ist korrekt?",
       "choices": [
-        "A: Ein Atom gibt während eines radioaktiven Zerfalls eine Alphateilchenstrahlung ab.",
-        "B: Ein Elektron wird aus dem Atom entfernt, wodurch das Atom ionisiert wird.",
-        "C: Ein Elektron springt von einem höheren auf einen niedrigeren Energieniveau und emittiert ein Photon.",
-        "D: Ein Atom absorbiert ein Photon ohne Energieänderung."
-      ],
-      "correct_answer": "C",
-      "explanation": "Bei einem elektromagnetischen Übergang springt ein Elektron zwischen verschiedenen Energiezuständen, was mit der Emission oder Absorption von Photonen verbunden ist. Diese Übergänge sind zentral für das Verständnis von Spektrallinien und der Wechselwirkung von Photonen mit Materie.",
-      "difficulty": 7,
-      "subcategory": "Elektromagnetische Übergänge"
-    },
-    {
-      "category": "Physik",
-      "topic": "Festkörperphysik",
-      "subtopic": "Elektronen im periodischen Potential (Überblick)",
-      "question": "Was beschreibt das Bloch-Theorem in der Festkörperphysik?",
-      "choices": [
-        "A: Elektronen in Festkörpern verhalten sich wie klassische Teilchen ohne quantenmechanische Effekte.",
-        "B: Das Bloch-Theorem erklärt die Entstehung von Magnetismus in Festkörpern.",
-        "C: Elektronen in einem Kristallgitter können als Wellenfunktion beschrieben werden, die eine periodische Struktur aufweist.",
-        "D: Die Bewegungen von Elektronen sind unabhängig von der Gitterstruktur des Kristalls."
-      ],
-      "correct_answer": "C",
-      "explanation": "Das Bloch-Theorem besagt, dass Elektronen in einem periodischen Potential, wie es in Kristallen vorkommt, durch Wellenfunktionen beschrieben werden können, die eine periodische Struktur aufweisen. Diese Eigenschaft ist entscheidend für das Verständnis der elektronischen Bandstruktur von Festkörpern.",
-      "difficulty": 7,
-      "subcategory": "Elektronen im periodischen Potential (Überblick)"
-    },
-    {
-      "category": "Physik",
-      "topic": "Kern- und Teilchenphysik",
-      "subtopic": "Bottonium & Toponium",
-      "question": "Welche der folgenden Aussagen über Bottonium und Toponium ist korrekt?",
-      "choices": [
-        "A: Toponium hat eine größere Masse als Bottonium und ist daher stabiler.",
-        "B: Bottonium ist ein Meson, das aus einem Bottom-Quark und seinem Antiquark besteht.",
-        "C: Bottonium und Toponium sind beide stabil und wurden experimentell nachgewiesen.",
-        "D: Bottonium kann nur durch elektromagnetische Wechselwirkungen entstehen."
-      ],
-      "correct_answer": "B",
-      "explanation": "Bottonium ist tatsächlich ein gebundenes Zustand aus einem Bottom-Quark und seinem Antiquark, was es zu einem Meson macht. Toponium hingegen hat eine kürzere Lebensdauer und ist weniger stabil, was es schwieriger macht, experimentell zu beobachten.",
-      "difficulty": 8,
-      "subcategory": "Bottonium & Toponium"
-    },
-    {
-      "category": "Physik",
-      "topic": "Festkörperphysik",
-      "subtopic": "Ultraschalldämpfung in amorphen Festkörpern",
-      "question": "Was ist der Hauptmechanismus der Ultraschalldämpfung in amorphen Festkörpern?",
-      "choices": [
-        "A: Wärmeleitung",
-        "B: Elastische Rückführung",
-        "C: Magnetische Wechselwirkungen",
-        "D: Viskose Dämpfung"
+        "A: Die Feldstärke einer elektromagnetischen Welle in einem perfekten Leiter bleibt konstant über die gesamte Breite des Leiters.",
+        "B: Die Wellenlänge einer elektromagnetischen Welle in einem Leiter ist unabhängig von der Frequenz der Welle.",
+        "C: In einem idealen Leiter gibt es keine Dämpfung der elektromagnetischen Welle.",
+        "D: Die Phasengeschwindigkeit einer elektromagnetischen Welle in einem Leiter ist immer kleiner als die Lichtgeschwindigkeit im Vakuum."
       ],
       "correct_answer": "D",
-      "explanation": "In amorphen Festkörpern erfolgt die Ultraschalldämpfung hauptsächlich durch viskose Dämpfung, bei der kinetische Energie in Wärme umgewandelt wird. Diese Mechanismen sind besonders ausgeprägt, da die ungeordnete Struktur der Materialien die Bewegung der Schallwellen beeinflusst.",
-      "difficulty": 5,
-      "subcategory": "Ultraschalldämpfung in amorphen Festkörpern"
+      "explanation": "Die Phasengeschwindigkeit in einem Leiter ist aufgrund der Wechselwirkungen zwischen den elektromagnetischen Feldern und den freien Elektronen immer geringer als die Lichtgeschwindigkeit im Vakuum. Dies ist ein zentrales Konzept in der Elektrodynamik und beeinflusst die Wellenausbreitung erheblich.",
+      "difficulty": 8,
+      "subcategory": "Wellenausbreitung in Leitern"
     },
     {
       "category": "Physik",
-      "topic": "Analytische Mechanik",
-      "subtopic": "Jacobi-Prinzip (verkürzte Wirkung)",
-      "question": "Welche Aussage beschreibt das Jacobi-Prinzip in der analytischen Mechanik korrekt?",
+      "topic": "Thermodynamik",
+      "subtopic": "Arbeit in der Thermodynamik (p dV, generalisiert)",
+      "question": "Welche Aussage über die Arbeit in einem geschlossenen System während eines isothermen Prozesses ist korrekt?",
       "choices": [
-        "A: Es gilt nur für Systeme mit einer konstanten Masse.",
-        "B: Es ermöglicht die Ableitung der Bewegungsgleichungen aus einer Funktion, die die Wirkung verkürzt.",
-        "C: Es besagt, dass die Energie eines Systems immer konstant bleibt.",
-        "D: Es legt fest, dass alle Kräfte in einem System gleichmäßig verteilt sind."
-      ],
-      "correct_answer": "B",
-      "explanation": "Das Jacobi-Prinzip, auch als verkürzte Wirkung bekannt, ermöglicht die Ableitung der Bewegungsgleichungen durch eine spezielle Funktion, die die Wirkung eines Systems unter bestimmten Bedingungen minimiert. Dies ist ein zentraler Aspekt der analytischen Mechanik, der die Analyse komplexer Systeme vereinfacht.",
-      "difficulty": 5,
-      "subcategory": "Jacobi-Prinzip (verkürzte Wirkung)"
-    },
-    {
-      "category": "Physik",
-      "topic": "Optik",
-      "subtopic": "Phasen- und Gruppengeschwindigkeit",
-      "question": "Welche Aussage über die Beziehung zwischen Phasengeschwindigkeit und Gruppengeschwindigkeit in dispersiven Medien ist korrekt?",
-      "choices": [
-        "A: In dispersiven Medien kann die Gruppengeschwindigkeit die Phasengeschwindigkeit übertreffen.",
-        "B: Die Phasengeschwindigkeit ist immer größer als die Gruppengeschwindigkeit.",
-        "C: Phasen- und Gruppengeschwindigkeit sind in jedem Medium gleich.",
-        "D: Die Gruppengeschwindigkeit ist immer größer als die Phasengeschwindigkeit."
-      ],
-      "correct_answer": "A",
-      "explanation": "In dispersiven Medien kann die Gruppengeschwindigkeit, die die Ausbreitungsgeschwindigkeit von Energie oder Information beschreibt, die Phasengeschwindigkeit, die die Ausbreitung von Phasen beschreibt, übertreffen. Dies tritt häufig in Materialien auf, bei denen die Lichtgeschwindigkeit von der Frequenz abhängt.",
-      "difficulty": 10,
-      "subcategory": "Phasen- und Gruppengeschwindigkeit"
-    },
-    {
-      "category": "Physik",
-      "topic": "Quantenmechanik",
-      "subtopic": "Beugung am Kristallgitter",
-      "question": "Was beschreibt das Phänomen der Beugung am Kristallgitter?",
-      "choices": [
-        "A: Die Ablenkung von Wellen, wenn sie auf das Kristallgitter treffen.",
-        "B: Die Beschleunigung von Elektronen in einem elektrischen Feld.",
-        "C: Die Bewegung von Teilchen durch ein Vakuum.",
-        "D: Die Wechselwirkung von Licht mit einem Magnetfeld."
-      ],
-      "correct_answer": "A",
-      "explanation": "Die Beugung am Kristallgitter tritt auf, wenn Wellen (z.B. Röntgenstrahlen) auf die regelmäßige Struktur des Kristalls treffen und dabei abgelenkt werden. Dieses Phänomen ist entscheidend für die Untersuchung der Struktur von Kristallen mittels Röntgenbeugung.",
-      "difficulty": 2,
-      "subcategory": "Beugung am Kristallgitter"
-    },
-    {
-      "category": "Physik",
-      "topic": "Optik",
-      "subtopic": "Reelle und virtuelle Abbildungen",
-      "question": "Was beschreibt eine virtuelle Abbildung in der Optik?",
-      "choices": [
-        "A: Sie ist das gleiche wie eine reelle Abbildung.",
-        "B: Sie kann nicht auf einem Bildschirm dargestellt werden.",
-        "C: Sie ist immer größer als das Objekt.",
-        "D: Sie entsteht immer durch eine konkave Linse."
-      ],
-      "correct_answer": "B",
-      "explanation": "Eine virtuelle Abbildung kann nicht auf einem Bildschirm dargestellt werden, da die Lichtstrahlen nicht tatsächlich von dem Ort der Abbildung ausgehen. Diese Art von Abbildung entsteht häufig in optischen Systemen wie Spiegeln oder bestimmten Linsen und wird als scheinbar wahrgenommen.",
-      "difficulty": 5,
-      "subcategory": "Reelle und virtuelle Abbildungen"
-    },
-    {
-      "category": "Physik",
-      "topic": "Statistische Mechanik",
-      "subtopic": "Ginzburg–Landau-Funktional & -Nähe",
-      "question": "Welche Aussage über die Ginzburg–Landau-Theorie ist korrekt?",
-      "choices": [
-        "A: Das Ginzburg–Landau-Funktional ist nur für klassische Systeme anwendbar.",
-        "B: Die Theorie beschreibt die Übergänge zwischen verschiedenen Phasen in Gasen.",
-        "C: Die Ginzburg–Landau-Funktional beschreibt die thermodynamischen Eigenschaften von Superleitern.",
-        "D: Die Ginzburg–Landau-Theorie ist unabhängig von Temperaturänderungen."
+        "A: Die geleistete Arbeit hängt direkt von der Temperatur ab.",
+        "B: Die geleistete Arbeit ist unabhängig vom Volumenwechsel.",
+        "C: Die geleistete Arbeit kann als Integral des Drucks über das Volumen dargestellt werden.",
+        "D: Die geleistete Arbeit ist immer negativ."
       ],
       "correct_answer": "C",
-      "explanation": "Die Ginzburg–Landau-Theorie ist ein effektives Modell zur Beschreibung von Superleitern, insbesondere in der Nähe der Phasengrenze. Sie ermöglicht das Verständnis von Phasenübergängen und der Ordnung in Supraleitern unter dem Einfluss von Temperatur und magnetischen Feldern.",
+      "explanation": "In einem isothermen Prozess kann die geleistete Arbeit als Integral des Drucks über das Volumen dargestellt werden, was die Beziehung zwischen Druck und Volumen beschreibt. Diese Beziehung ist entscheidend, um die Arbeit zu berechnen, die bei einem solchen Prozess verrichtet wird.",
       "difficulty": 7,
-      "subcategory": "Ginzburg–Landau-Funktional & -Nähe"
+      "subcategory": "Arbeit in der Thermodynamik (p dV, generalisiert)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Photoeffekt (Grundlagen)",
+      "question": "Was beschreibt der Photoeffekt in der Physik?",
+      "choices": [
+        "A: Die Brechung von Lichtstrahlen an einer Linse.",
+        "B: Die Emission von Elektronen aus einer Metalloberfläche durch Licht.",
+        "C: Die Interferenz von Lichtwellen in einem Doppelspalt.",
+        "D: Die Reflexion von Lichtstrahlen an einer glatten Oberfläche."
+      ],
+      "correct_answer": "B",
+      "explanation": "Der Photoeffekt beschreibt das Phänomen, dass Licht Elektronen von einer Metalloberfläche abstoßen kann, wenn die Energie der Lichtquanten hoch genug ist. Dies war ein wichtiger Nachweis für die Teilchennatur des Lichts und führte zur Entwicklung der Quantenmechanik.",
+      "difficulty": 3,
+      "subcategory": "Photoeffekt (Grundlagen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Charakter der Kernkraft",
+      "question": "Welche Eigenschaft charakterisiert die Kernkraft?",
+      "choices": [
+        "A: Sie hat keinerlei Einfluss auf die Atomkerne.",
+        "B: Sie wirkt nur auf Elektronen und nicht auf Protonen.",
+        "C: Sie ist immer abstoßend und wirkt über große Distanzen.",
+        "D: Sie ist anziehend und wirkt nur über sehr kurze Distanzen."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Kernkraft ist eine starke Wechselwirkung, die Protonen und Neutronen im Atomkern zusammenhält. Sie wirkt nur über sehr kurze Distanzen, typischerweise im Bereich von wenigen Femtometern, und ist anziehend. Diese Eigenschaften unterscheiden sie von anderen Kräften wie der elektromagnetischen Kraft, die auch abstoßende Wechselwirkungen haben kann.",
+      "difficulty": 4,
+      "subcategory": "Charakter der Kernkraft"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Randwertprobleme & Energie in Dielektrika",
+      "question": "Welche Aussage über die Energie in einem Dielektrikum ist korrekt?",
+      "choices": [
+        "A: Die Polarisation in einem Dielektrikum führt zu einer Verringerung der Energie im elektrischen Feld.",
+        "B: Die Energie in einem Dielektrikum wird durch die Polarisation des Materials gespeichert.",
+        "C: Die Energie in einem Dielektrikum ist unabhängig von der elektrischen Feldstärke.",
+        "D: Die Energie in einem Dielektrikum kann nicht als potentielle Energie betrachtet werden."
+      ],
+      "correct_answer": "B",
+      "explanation": "In einem Dielektrikum wird die elektrische Energie durch die Polarisation des Materials gespeichert, wenn es in ein elektrisches Feld eingebracht wird. Diese Polarisation führt zu einer Anhäufung von Energie im Material, die in der Feldstärke und der Materialantwort abhängt.",
+      "difficulty": 6,
+      "subcategory": "Randwertprobleme & Energie in Dielektrika"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Stoßquerschnitt & mittlere freie Weglänge",
+      "question": "Was beschreibt der Stoßquerschnitt in der klassischen Mechanik?",
+      "choices": [
+        "A: Die Wahrscheinlichkeit, dass zwei Teilchen miteinander stoßen.",
+        "B: Die Temperatur eines Gases.",
+        "C: Die Geschwindigkeit eines Teilchens vor dem Stoß.",
+        "D: Die Größe eines Teilchens im Vergleich zu anderen Teilchen."
+      ],
+      "correct_answer": "A",
+      "explanation": "Der Stoßquerschnitt ist ein Maß dafür, wie wahrscheinlich es ist, dass zwei Teilchen bei einem bestimmten Stoß miteinander interagieren. Er ist wichtig für die Berechnung der mittleren freien Weglänge, die angibt, wie weit ein Teilchen im Durchschnitt zwischen zwei Kollisionen zurücklegt.",
+      "difficulty": 3,
+      "subcategory": "Stoßquerschnitt & mittlere freie Weglänge"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Transformationsmatrix der Lorentz-Transformation",
+      "question": "Was beschreibt die Lorentz-Transformation in der Relativitätstheorie?",
+      "choices": [
+        "A: Die Bewegung von Körpern unter dem Einfluss der Schwerkraft.",
+        "B: Die Beziehung zwischen Raum und Zeit in verschiedenen Inertialsystemen.",
+        "C: Die Geschwindigkeit von Licht in Vakuum.",
+        "D: Die Schwingungen von Teilchen in einem Feld."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Lorentz-Transformation beschreibt, wie sich Raum und Zeit zwischen verschiedenen Bewegungszuständen ändern. Sie ist grundlegend für das Verständnis der Relativitätstheorie und zeigt, wie die Wahrnehmung von Zeit und Raum relativ ist, abhängig von der Geschwindigkeit des Beobachters.",
+      "difficulty": 2,
+      "subcategory": "Transformationsmatrix der Lorentz-Transformation"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Hookesches Gesetz",
+      "question": "Was beschreibt das Hookesche Gesetz?",
+      "choices": [
+        "A: Die Beziehung zwischen der Dehnung einer Feder und der auf sie wirkenden Kraft.",
+        "B: Die Energieumwandlung in einem geschlossenen System.",
+        "C: Die Masse eines Körpers in einem Gravitationsfeld.",
+        "D: Die Geschwindigkeit eines Körpers in Bewegung."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Hookesche Gesetz besagt, dass die Dehnung einer elastischen Feder proportional zur auf sie wirkenden Kraft ist, solange die elastische Grenze nicht überschritten wird. Es wird oft in Form der Gleichung F = k * x dargestellt, wobei F die Kraft, k die Federkonstante und x die Dehnung ist.",
+      "difficulty": 3,
+      "subcategory": "Hookesches Gesetz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Dirac’sche δ-Funktion",
+      "question": "Welche der folgenden Eigenschaften beschreibt die Dirac’sche δ-Funktion am besten?",
+      "choices": [
+        "A: Sie beschreibt eine periodische Welle mit unendlicher Amplitude.",
+        "B: Sie ist eine integrierbare Funktion über alle reellen Zahlen mit einem nicht definierten Integral.",
+        "C: Sie ist eine Funktion, die nur an einem Punkt definiert ist und überall sonst den Wert Null hat.",
+        "D: Sie ist eine harmonische Funktion, die in jedem Punkt einen konstanten Wert hat."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Dirac’sche δ-Funktion ist keine klassische Funktion, sondern eine Verteilungsfunktion, die an einem bestimmten Punkt den Wert Unendlich und überall sonst den Wert Null hat. Ihr Integral über die gesamte reelle Achse ergibt eins, was sie besonders nützlich für die Darstellung punktueller Quellen in der Physik macht.",
+      "difficulty": 9,
+      "subcategory": "Dirac’sche δ-Funktion"
     }
   ]
 }
