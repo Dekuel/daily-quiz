@@ -115,7 +115,7 @@ Kontext zu Schwierigkeitsstufen (1–10):
 
 Vorgaben:
 - Knapp und eindeutig formulieren; Beispiel statt Metadiskussion.
-- Vier plausible Antwortoptionen (A–D), genau eine korrekt; keine „alle oben/keine der oben“.
+- Vier plausible Antwortoptionen (A–D), genau eine korrekt, auf keinen Fall 2 oder mehr; keine „alle oben/keine der oben“.
 - Erklärung: 2–3 Sätze, warum die richtige Lösung stimmt; Fachbegriffe kurz laienverständlich erläutern.
 - Das Feld "topic" im JSON enthält ausschließlich den Oberbereich („{subcategory}“). Unterthema nicht ins JSON.
 - Antworte ausschließlich mit **validem JSON** gemäß Schema.
