@@ -1,0 +1,64 @@
+name: Generate single category
+
+on:
+  workflow_dispatch:
+    inputs:
+      category:
+        description: "Plugin-Key (Ordnername unter ./kategorien)"
+        required: true
+        default: "natur"
+      count:
+        description: "Anzahl Fragen"
+        required: true
+        default: "20"
+      mode:
+        description: "Difficulty-Profil"
+        required: true
+        default: "normal"
+        type: choice
+        options: ["normal", "schwer", "physik", "random"]
+      shuffle:
+        description: "Antworten mischen?"
+        required: true
+        default: "true"
+        type: choice
+        options: ["true", "false"]
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    env:
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      PYTHONUTF8: "1"
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install "openai>=1.59"
+
+      - name: Run generator
+        run: |
+          PY_ARGS=()
+          [ "${{ github.event.inputs.shuffle }}" = "true" ] && PY_ARGS+=(--shuffle)
+          python scripts/generate_category_only.py \
+            --category "${{ github.event.inputs.category }}" \
+            --count "${{ github.event.inputs.count }}" \
+            --mode "${{ github.event.inputs.mode }}" \
+            --out "out/${{ github.event.inputs.category }}.${{ github.event.inputs.count }}.${{ github.run_id }}.json" \
+            "${PY_ARGS[@]}"
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ github.event.inputs.category }}-${{ github.event.inputs.count }}-${{ github.event.inputs.mode }}
+          path: out/*.json
+          if-no-files-found: error
