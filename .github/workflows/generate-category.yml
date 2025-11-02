@@ -49,7 +49,7 @@ jobs:
         run: |
           PY_ARGS=()
           [ "${{ github.event.inputs.shuffle }}" = "true" ] && PY_ARGS+=(--shuffle)
-          python scripts/generate_category_only.py \
+          python generate_category_only.py \
             --category "${{ github.event.inputs.category }}" \
             --count "${{ github.event.inputs.count }}" \
             --mode "${{ github.event.inputs.mode }}" \
