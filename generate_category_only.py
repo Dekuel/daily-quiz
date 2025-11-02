@@ -270,6 +270,9 @@ def main():
         stamp = datetime.now().strftime("%Y-%m-%d")
         out_path = os.path.join("out", f"{args.category}.{args.count}.{stamp}.json")
 
+    # NEU: Zielordner sicherstellen (auch wenn --out benutzt wird)
+    out_dir = os.path.dirname(out_path) or "."
+    os.makedirs(out_dir, exist_ok=True)
     # Sanity: API-Key-Hinweis
     if not os.environ.get("OPENAI_API_KEY"):
         print("⚠️  Hinweis: OPENAI_API_KEY ist nicht gesetzt. Plugins, die die OpenAI API nutzen, werden fehlschlagen.")
