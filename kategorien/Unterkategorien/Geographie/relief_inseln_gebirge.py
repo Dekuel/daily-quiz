@@ -30,8 +30,8 @@ SUBTOPICS = [
     # 1 BASIS & GRUNDLAGEN
     ("Relief – Basiswissen (Zuordnungen: Gebirge, Tiefebenen, Inselgruppen, Vulkanketten)", 5, (1,7)),
     ("Reliefenergie, Morphologie & Geomorphometrie (Höhenunterschiede, Steilheit, Talformen)", 3, (3,9)),
-    ("Plattentektonik & Orogenese – Grundmechanismen (Subduktion, Kollision, Rift, Hotspot)", 4, (3,10)),
-    ("Isostasie & Krustenbewegungen (Gleichgewicht, Glazialisostasie, Hebung/Senkung)", 3, (5,10)),
+    ("Plattentektonik & Orogenese – Grundmechanismen (Subduktion, Kollision, Rift, Hotspot)", 4, (5,10)),
+    ("Isostasie & Krustenbewegungen (Gleichgewicht, Glazialisostasie, Hebung/Senkung)", 1, (7,10)),
 
     # 2 GEBIRGE DER WELT
     ("Junge Faltengebirge (Alpen, Anden, Himalaya) – Entstehung, Alter, Prozesse", 4, (3,9)),
