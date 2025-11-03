@@ -1,116 +1,108 @@
 {
   "date": "2025-11-03",
-  "generated_at": "2025-11-03T07:35:28Z",
+  "generated_at": "2025-11-03T11:24:26Z",
   "schema_version": 6,
   "mode": "normal",
   "questions": [
     {
-      "category": "Essen und Trinken",
-      "topic": "Ernährung",
-      "question": "Welches dieser Gewürze wird oft für seine Schärfe geschätzt und ist ein zentraler Bestandteil der mexikanischen Küche?",
+      "category": "Wissenschaft",
+      "topic": "Biologie",
+      "question": "Was ist das Hauptprinzip der natürlichen Selektion in der Evolution?",
       "choices": [
-        "A: Zimt",
-        "B: Chili",
-        "C: Petersilie",
-        "D: Basilikum"
+        "A: Arten bleiben immer unverändert, sie passen sich nicht an ihre Umwelt an.",
+        "B: Organismen mit vorteilhaften Eigenschaften haben eine höhere Überlebens- und Fortpflanzungsrate.",
+        "C: Alle Organismen haben die gleiche Chance, sich fortzupflanzen, unabhängig von ihren Eigenschaften.",
+        "D: Evolution geschieht ausschließlich durch genetische Mutationen ohne Einfluss von Umweltfaktoren."
       ],
       "correct_answer": "B",
-      "explanation": "Chili hat seinen Ursprung in Mittel- und Südamerika und ist berühmt für seine Schärfe. In der mexikanischen Küche ist Chili ein unverzichtbares Gewürz, das in vielen traditionellen Gerichten verwendet wird.",
-      "difficulty": 2
-    },
-    {
-      "category": "Natur",
-      "topic": "Tierwelt",
-      "question": "Welches Tier nutzt die Seitenlinie, um Bewegungen und Strömungen im Wasser wahrzunehmen?",
-      "choices": [
-        "A: Adler",
-        "B: Hai",
-        "C: Elefant",
-        "D: Fuchs"
-      ],
-      "correct_answer": "B",
-      "explanation": "Die Seitenlinie ist ein Sinnesorgan, das vor allem bei Fischen vorkommt und ihnen hilft, Strömungen und Bewegungen im Wasser zu spüren. Haie nutzen diese Fähigkeit, um ihre Beute zu lokalisieren und sich im Wasser zu orientieren.",
-      "difficulty": 6,
-      "meta": "topic=Tierwelt;subtopic=Sinnesleistungen im Überblick (Sehen, Hören, Geruch, Seitenlinie)",
-      "options": [
-        "Hai",
-        "Adler",
-        "Fuchs",
-        "Elefant"
-      ],
-      "correctIndex": 0
-    },
-    {
-      "category": "Sport",
-      "topic": "Fußball",
-      "question": "Was ist die maximale Anzahl an Spielern, die ein Fußballteam während eines Spiels auf dem Feld haben darf?",
-      "choices": [
-        "A: 7",
-        "B: 11",
-        "C: 15",
-        "D: 5"
-      ],
-      "correct_answer": "B",
-      "explanation": "Ein Fußballteam besteht aus maximal 11 Spielern, die gleichzeitig auf dem Spielfeld stehen dürfen. Dies umfasst 10 Feldspieler und 1 Torwart.",
-      "difficulty": 2
-    },
-    {
-      "category": "Geschichte",
-      "topic": "Neuzeit",
-      "question": "Welche Philosophie war während der Aufklärung besonders einflussreich und betonte die Vernunft als Grundlage für Wissen und gesellschaftliches Zusammenleben?",
-      "choices": [
-        "A: Romantik",
-        "B: Rationalismus",
-        "C: Barock",
-        "D: Empirismus"
-      ],
-      "correct_answer": "B",
-      "explanation": "Der Rationalismus war eine der zentralen Strömungen der Aufklärung, die die Bedeutung der Vernunft und des logischen Denkens in den Vordergrund stellte. Wichtige Vertreter dieser Bewegung sind unter anderem René Descartes und Baruch de Spinoza. Die Aufklärung förderte auch den Austausch von Ideen in Salons und der Öffentlichkeit.",
+      "explanation": "Natürliche Selektion ist der Prozess, durch den Organismen mit vorteilhaften Merkmalen eher überleben und sich fortpflanzen, was zu einer Veränderung der Arten im Laufe der Zeit führt. Es ist ein zentrales Konzept in der Evolutionstheorie von Charles Darwin.",
       "difficulty": 5
     },
     {
-      "category": "Physik",
-      "topic": "Quantenmechanik",
-      "subtopic": "Korrespondenzregel (Operatorersatz)",
-      "question": "Was beschreibt die Korrespondenzregel in der Quantenmechanik?",
+      "category": "Kunst und Literatur",
+      "topic": "Zitate, Figuren & Allgemeinwissen",
+      "question": "Welche der folgenden Redewendungen stammt aus der Bibel?",
       "choices": [
-        "A: Die Beziehung zwischen Energie und Frequenz eines Photons.",
-        "B: Die quantenmechanische Superposition von Zuständen.",
-        "C: Die Unschärferelation zwischen Ort und Impuls.",
-        "D: Der Übergang von quantenmechanischen Operatoren zu klassischen Variablen im Grenzfall hoher Quantenzahlen."
+        "A: Auge um Auge, Zahn um Zahn",
+        "B: Wer anderen eine Grube gräbt, fällt selbst hinein",
+        "C: In der Not frisst der Teufel Fliegen",
+        "D: Der Apfel fällt nicht weit vom Stamm"
       ],
-      "correct_answer": "D",
-      "explanation": "Die Korrespondenzregel besagt, dass in der klassischen Limitierung die quantenmechanischen Operatoren durch klassische Variablen ersetzt werden können. Dies ist besonders relevant, wenn die Quantenzahlen groß sind und die Quantenmechanik sich den klassischen Gesetzen annähert.",
-      "difficulty": 4,
-      "subcategory": "Korrespondenzregel (Operatorersatz)"
+      "correct_answer": "A",
+      "explanation": "Die Redewendung 'Auge um Auge, Zahn um Zahn' stammt aus dem Alten Testament der Bibel und steht für das Prinzip der Vergeltung. Diese Formulierung wird oft in Diskussionen über Gerechtigkeit und Rache zitiert.",
+      "difficulty": 4
     },
     {
       "category": "Glaube & Religion",
-      "topic": "Religiöse Ideen, Theologie & Mystik",
-      "question": "Welche Methode wird häufig in religiösen Praktiken verwendet, um innere Stille und Kontemplation zu fördern?",
+      "topic": "Indische & fernöstliche Religionen",
+      "question": "Welche der folgenden Schriften ist ein Teil des Mahabharata?",
       "choices": [
-        "A: Fasten",
-        "B: Meditation",
-        "C: Predigt",
-        "D: Pilgerfahrt"
+        "A: Tao Te Ching",
+        "B: Veda",
+        "C: Upanishaden",
+        "D: Bhagavad Gita"
       ],
-      "correct_answer": "B",
-      "explanation": "Meditation ist eine weit verbreitete Praxis in vielen Religionen, die darauf abzielt, den Geist zu beruhigen und eine tiefere spirituelle Verbindung herzustellen. Sie kann in Stille oder mit geführten Techniken durchgeführt werden und ist ein zentraler Bestandteil der mystischen Traditionen in vielen Glaubensrichtungen.",
-      "difficulty": 5
+      "correct_answer": "D",
+      "explanation": "Die Bhagavad Gita ist ein bedeutender Abschnitt des Mahabharata, der in Form eines Dialogs zwischen Arjuna und Krishna ethische und philosophische Fragen behandelt. Diese Schriften sind zentral in der indischen religiösen und kulturellen Tradition und stammen aus der Zeit des alten Indien, etwa um 200 v. Chr. bis 200 n. Chr.",
+      "difficulty": 7
     },
     {
-      "category": "Wissenschaft",
-      "topic": "Chemie",
-      "question": "Welche der folgenden Aminosäuren ist eine essentielle Aminosäure, die der menschliche Körper nicht selbst produzieren kann?",
+      "category": "Natur",
+      "topic": "Pflanzenwelt",
+      "question": "Welche Methode nutzen viele Pflanzen, um ihre Samen durch den Wind zu verbreiten?",
       "choices": [
-        "A: Leucin",
-        "B: Glycin",
-        "C: Serin",
-        "D: Alanin"
+        "A: Indem sie sich im Boden verankern",
+        "B: Durch Wurzelausläufer",
+        "C: Durch Zusammenballung mit anderen Samen",
+        "D: Mit leichten, geflügelten Samen"
       ],
-      "correct_answer": "A",
-      "explanation": "Essentielle Aminosäuren sind solche, die der Körper nicht selbst herstellen kann und daher mit der Nahrung aufgenommen werden müssen. Leucin ist eine essentielle Aminosäure, während Alanin, Glycin und Serin nicht essentiell sind, da der Körper sie synthetisieren kann.",
-      "difficulty": 5
+      "correct_answer": "D",
+      "explanation": "Viele Pflanzen haben sich an die Windverbreitung ihrer Samen angepasst, indem sie leichte, geflügelte Samen entwickeln. Diese fliegen mit dem Wind und können große Entfernungen zurücklegen, was der Pflanze hilft, neue Lebensräume zu besiedeln.",
+      "difficulty": 3
+    },
+    {
+      "category": "Geschichte",
+      "topic": "Mittelalter",
+      "question": "Welcher der folgenden Kreuzzüge fand im Jahr 1096 statt?",
+      "choices": [
+        "A: Zweiter Kreuzzug",
+        "B: Dritter Kreuzzug",
+        "C: Erster Kreuzzug",
+        "D: Vierter Kreuzzug"
+      ],
+      "correct_answer": "C",
+      "explanation": "Der Erste Kreuzzug begann 1096 und führte zur Eroberung Jerusalems im Jahr 1099. Er wurde von verschiedenen europäischen Königen und Ritterorden initiiert, um die Kontrolle über das Heilige Land zu gewinnen.",
+      "difficulty": 2
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Das Auge (Optik)",
+      "question": "Welche Struktur im menschlichen Auge ist für das Scharfstellen von Bildern verantwortlich?",
+      "choices": [
+        "A: Hornhaut",
+        "B: Iris",
+        "C: Linse",
+        "D: Netzhaut"
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Linse des menschlichen Auges ist entscheidend für das Fokussieren von Lichtstrahlen, um ein scharfes Bild auf der Netzhaut zu erzeugen. Sie verändert ihre Form, um Objekte in unterschiedlichen Entfernungen klar zu sehen.",
+      "difficulty": 2,
+      "subcategory": "Das Auge (Optik)"
+    },
+    {
+      "category": "Sprache",
+      "topic": "Grammatik",
+      "question": "Welcher Satz verwendet den Konjunktiv II korrekt?",
+      "choices": [
+        "A: Wenn ich mehr Zeit habe, schließe ich das Projekt ab.",
+        "B: Hätte ich mehr Zeit, ich schließe das Projekt ab.",
+        "C: Wenn ich nur mehr Zeit hätte, würde ich das Projekt abschließen.",
+        "D: Wenn ich mehr Zeit hatte, schließe ich das Projekt ab."
+      ],
+      "correct_answer": "C",
+      "explanation": "Der Konjunktiv II wird verwendet, um Wünsche oder hypothetische Situationen auszudrücken. In Antwort A wird korrekt formuliert, dass in der hypothetischen Situation mehr Zeit vorhanden wäre, das Projekt abgeschlossen würde. Die anderen Optionen verwenden den Indikativ oder eine falsche Konjugation im Konjunktiv.",
+      "difficulty": 8
     }
   ]
 }

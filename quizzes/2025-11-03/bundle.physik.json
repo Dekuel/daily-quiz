@@ -1,168 +1,168 @@
 {
   "date": "2025-11-03",
-  "generated_at": "2025-11-03T07:37:14Z",
+  "generated_at": "2025-11-03T11:26:35Z",
   "schema_version": 6,
   "mode": "physik",
   "questions": [
     {
       "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Van-der-Waals-Gas (Korrekturen)",
+      "question": "Welche der folgenden Annahmen zur Beschreibung eines Van-der-Waals-Gases ist korrekt?",
+      "choices": [
+        "A: Van-der-Waals-Gase verhalten sich immer in Übereinstimmung mit dem idealen Gasgesetz.",
+        "B: Es gibt keine intermolekularen Kräfte zwischen den Molekülen eines Van-der-Waals-Gases.",
+        "C: Van-der-Waals-Gase verhalten sich wie ideale Gase bei allen Temperaturen.",
+        "D: Die Moleküle eines Van-der-Waals-Gases haben ein bestimmtes Volumen."
+      ],
+      "correct_answer": "D",
+      "explanation": "Van-der-Waals-Gase berücksichtigen das physikalische Volumen der Moleküle sowie die intermolekularen Anziehungskräfte. Diese Korrekturen machen die Beschreibung des Verhaltens von realen Gasen präziser, insbesondere bei hohen Drücken und niedrigen Temperaturen.",
+      "difficulty": 6,
+      "subcategory": "Van-der-Waals-Gas (Korrekturen)"
+    },
+    {
+      "category": "Physik",
       "topic": "Analytische Mechanik",
-      "subtopic": "Reibung in der Lagrange-Formulierung",
-      "question": "Wie wird die Reibungskraft in der Lagrange-Formulierung der analytischen Mechanik berücksichtigt?",
+      "subtopic": "Nicht-holonome Zwangsbedingungen",
+      "question": "Welche der folgenden Aussagen beschreibt eine nicht-holonome Zwangsbedingung?",
       "choices": [
-        "A: Durch die Vernachlässigung der Reibung in allen Gleichungen.",
-        "B: Durch die Einführung eines dissipativen Terms in die Lagrange-Gleichungen.",
-        "C: Durch die Berücksichtigung einer externen Kraft, die die Reibung darstellt.",
-        "D: Durch die Verwendung der Hamiltonschen Formulierung anstelle der Lagrange-Formulierung."
-      ],
-      "correct_answer": "B",
-      "explanation": "In der Lagrange-Formulierung wird die Reibungskraft durch einen dissipativen Term in den Lagrange-Gleichungen integriert, was die Energieverluste im System berücksichtigt. Diese Vorgehensweise ermöglicht eine präzisere Modellierung dynamischer Systeme, in denen Reibung eine Rolle spielt.",
-      "difficulty": 8,
-      "subcategory": "Reibung in der Lagrange-Formulierung"
-    },
-    {
-      "category": "Physik",
-      "topic": "Elektrodynamik",
-      "subtopic": "Inhomogene Wellengleichung",
-      "question": "Was beschreibt die inhomogene Wellengleichung in der Elektrodynamik?",
-      "choices": [
-        "A: Die Wechselwirkungen zwischen elektrischen und magnetischen Feldern in einem Vakuum.",
-        "B: Die Verteilung von Quellen, die elektromagnetische Wellen erzeugen.",
-        "C: Die Ausbreitung elektromagnetischer Wellen in einem homogenen Medium.",
-        "D: Die Reflexion von Wellen an der Grenzfläche zwischen zwei Medien."
-      ],
-      "correct_answer": "B",
-      "explanation": "Die inhomogene Wellengleichung beschreibt, wie elektromagnetische Wellen durch Quellen beeinflusst werden, die nicht gleichmäßig verteilt sind. Sie berücksichtigt die Effekte von Ladungen und Strömen, die in der Umgebung vorhanden sind und die Wellen erzeugen oder modifizieren können.",
-      "difficulty": 4,
-      "subcategory": "Inhomogene Wellengleichung"
-    },
-    {
-      "category": "Physik",
-      "topic": "Festkörperphysik",
-      "subtopic": "Punktdefekte (Überblick)",
-      "question": "Welche der folgenden Aussagen beschreibt korrekt einen Punktdefekt in einem Kristallgitter?",
-      "choices": [
-        "A: Ein Punktdefekt ist eine Fehlstelle, an der ein Atom im Gitter fehlt.",
-        "B: Punktdefekte sind immer größere Ansammlungen von Atomen.",
-        "C: Punktdefekte treten nur in amorphen Materialien auf.",
-        "D: Punktdefekte beeinflussen die elektrische Leitfähigkeit nicht."
-      ],
-      "correct_answer": "A",
-      "explanation": "Ein Punktdefekt ist eine lokale Unregelmäßigkeit im Kristallgitter, typischerweise durch das Fehlen eines Atoms (Fehlstelle) oder durch zusätzliche Atome (Interstitielle). Diese Defekte können die Eigenschaften eines Materials erheblich beeinflussen, einschließlich seiner elektrischen und thermischen Leitfähigkeit.",
-      "difficulty": 6,
-      "subcategory": "Punktdefekte (Überblick)"
-    },
-    {
-      "category": "Physik",
-      "topic": "Elektrodynamik",
-      "subtopic": "Feldenergie & Feldimpuls",
-      "question": "Welcher Zusammenhang gilt für die Feldenergie E und den Feldimpuls P eines elektrischen Feldes in einem homogenen Medium?",
-      "choices": [
-        "A: E = 0,5 * ε * E² und P = ε * E",
-        "B: E = ε * E und P = 0,5 * ε * E²",
-        "C: E = 0,5 * ε * E² und P = 0,5 * ε * E",
-        "D: E = ε * E² und P = 0,5 * ε * E"
-      ],
-      "correct_answer": "A",
-      "explanation": "Die Feldenergie einer elektrischen Energie ist definiert als E = 0,5 * ε * E², während der Feldimpuls P als P = ε * E gegeben ist. Diese Beziehungen sind zentral in der Elektrodynamik und zeigen, wie elektrische Felder Energie speichern und Impuls übertragen können.",
-      "difficulty": 7,
-      "subcategory": "Feldenergie & Feldimpuls"
-    },
-    {
-      "category": "Physik",
-      "topic": "Elektrodynamik",
-      "subtopic": "Reflexion & Brechung elektromagnetischer Wellen",
-      "question": "Was passiert, wenn Licht von einem Medium mit höherem Brechungsindex in ein Medium mit niedrigerem Brechungsindex übergeht?",
-      "choices": [
-        "A: Es wird nur reflektiert.",
-        "B: Es passiert nichts.",
-        "C: Es wird reflektiert und gebrochen.",
-        "D: Es wird nur gebrochen."
+        "A: Eine Zwangsbedingung, die immer linear ist.",
+        "B: Eine Zwangsbedingung, die nur von den Positionen eines Systems abhängt.",
+        "C: Eine Zwangsbedingung, die nicht nur von den Koordinaten, sondern auch von der Geschwindigkeit abhängt.",
+        "D: Eine Zwangsbedingung, die in jedem System auftreten kann."
       ],
       "correct_answer": "C",
-      "explanation": "Wenn Licht von einem Medium mit höherem Brechungsindex in ein Medium mit niedrigerem Brechungsindex übergeht, wird ein Teil des Lichts reflektiert und ein Teil wird gebrochen. Dies ist ein grundlegendes Prinzip der Optik und beschreibt das Verhalten von Licht an der Grenzfläche zwischen zwei verschiedenen Medien.",
+      "explanation": "Nicht-holonome Zwangsbedingungen sind solche, die von den Geschwindigkeiten eines Systems abhängen, nicht nur von den Positionen. Dies macht sie komplex und führt zu speziellen Herausforderungen in der Dynamik, da sie nicht in den Integrationsbedingungen einer Lagrange- oder Hamilton-Formulierung enthalten sind.",
+      "difficulty": 3,
+      "subcategory": "Nicht-holonome Zwangsbedingungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Elektromagnetische Potentiale (Vierervektor)",
+      "question": "Was beschreibt der elektromagnetische Vierervektor in der Relativitätstheorie?",
+      "choices": [
+        "A: Die Geschwindigkeit eines Körpers relativ zu einem Beobachter.",
+        "B: Die Masse eines Körpers in einem Gravitationsfeld.",
+        "C: Die Wechselwirkung zwischen Elektrizität und Magnetismus.",
+        "D: Die Energie eines Photons."
+      ],
+      "correct_answer": "C",
+      "explanation": "Der elektromagnetische Vierervektor kombiniert elektrische und magnetische Felder und beschreibt deren Wechselwirkung in der Relativitätstheorie. Er ist ein zentraler Bestandteil der relativistischen Elektrodynamik und ermöglicht die Formulierung der Maxwell-Gleichungen in einer relativistischen Form.",
+      "difficulty": 4,
+      "subcategory": "Elektromagnetische Potentiale (Vierervektor)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Herstellung von Glasfasern",
+      "question": "Was ist ein wichtiger Schritt bei der Herstellung von Glasfasern?",
+      "choices": [
+        "A: Das Trocknen von Papier",
+        "B: Das Erhitzen von Wasser",
+        "C: Das Mischen von Farben",
+        "D: Das Schmelzen von Siliziumdioxid"
+      ],
+      "correct_answer": "D",
+      "explanation": "Bei der Herstellung von Glasfasern ist das Schmelzen von Siliziumdioxid ein entscheidender Schritt, da es die Grundlage für das Glas bildet. Dieses geschmolzene Material wird dann geformt und gezogen, um die Glasfaser zu erzeugen.",
       "difficulty": 2,
-      "subcategory": "Reflexion & Brechung elektromagnetischer Wellen"
+      "subcategory": "Herstellung von Glasfasern"
     },
     {
       "category": "Physik",
-      "topic": "Kern- und Teilchenphysik",
-      "subtopic": "Mott‑Wirkungsquerschnitt",
-      "question": "Was beschreibt der Mott-Wirkungsquerschnitt in der Kern- und Teilchenphysik?",
+      "topic": "Elektrodynamik",
+      "subtopic": "Elektromagnetische Potentiale (φ, A)",
+      "question": "Was beschreibt das skalare elektrische Potential φ in einem elektrischen Feld?",
       "choices": [
-        "A: Die Wahrscheinlichkeit, dass ein Elektron von einem Atomkern gestreut wird.",
-        "B: Die Energieverteilung von Photonen in einem Vakuum.",
-        "C: Die Geschwindigkeit von Teilchen in einem elektrischen Feld.",
-        "D: Die Anzahl der Neutronen in einem Atomkern."
-      ],
-      "correct_answer": "A",
-      "explanation": "Der Mott-Wirkungsquerschnitt beschreibt die Wahrscheinlichkeit, dass ein Elektron bei einer Streuung mit einem Atomkern abgelenkt wird. Diese Größe ist entscheidend für die Analyse von Streuexperimenten in der Teilchenphysik.",
-      "difficulty": 6,
-      "subcategory": "Mott‑Wirkungsquerschnitt"
-    },
-    {
-      "category": "Physik",
-      "topic": "Festkörperphysik",
-      "subtopic": "Quasi-freie Elektronen (Näherung)",
-      "question": "Was beschreibt das Modell der quasi-freien Elektronen in Festkörpern?",
-      "choices": [
-        "A: Die Elektronen sind vollständig gebunden und können sich nicht bewegen.",
-        "B: Die Elektronen bewegen sich nur in einer Dimension.",
-        "C: Die Elektronen bewegen sich wie freie Teilchen und sind nicht an Atomrümpfe gebunden.",
-        "D: Die Elektronen können nur bei extrem hohen Temperaturen bewegt werden."
+        "A: Die magnetische Flussdichte in einem gegebenen Bereich.",
+        "B: Die Geschwindigkeit eines elektrischen Feldes in einem Vakuum.",
+        "C: Die Arbeit pro Ladung, die benötigt wird, um eine positive Testladung von unendlich weit zu einem Punkt zu bringen.",
+        "D: Die Richtung der Kraft, die auf eine positive Testladung wirkt."
       ],
       "correct_answer": "C",
-      "explanation": "Das Modell der quasi-freien Elektronen geht davon aus, dass Elektronen in einem Festkörper sich wie freie Teilchen bewegen können, jedoch unter dem Einfluss periodischer Potentiale der Atomrümpfe. Dies erklärt viele elektronische Eigenschaften von Metallen, wie die elektrische Leitfähigkeit.",
+      "explanation": "Das skalare elektrische Potential φ gibt an, wie viel Arbeit pro Einheit Ladung notwendig ist, um eine Testladung von einem Referenzpunkt (häufig unendlich) zu einem bestimmten Punkt im elektrischen Feld zu bewegen. Es ist ein wichtiger Bestandteil der Elektrodynamik, da es die Grundlage für die Berechnung elektrischer Felder bildet.",
+      "difficulty": 6,
+      "subcategory": "Elektromagnetische Potentiale (φ, A)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "d’Alembert’sches Prinzip",
+      "question": "Welches der folgenden Aussagen beschreibt das d’Alembert’sche Prinzip korrekt?",
+      "choices": [
+        "A: Es bezieht sich ausschließlich auf die Rotationsbewegung von Körpern.",
+        "B: Es kann nicht auf nicht-konservative Kräfte angewendet werden.",
+        "C: Es ist nur für Systeme im Gleichgewicht anwendbar.",
+        "D: Es besagt, dass die Summe der virtuellen Arbeiten aller Kräfte, die auf ein System wirken, gleich Null ist."
+      ],
+      "correct_answer": "D",
+      "explanation": "Das d’Alembert’sche Prinzip verknüpft die Dynamik mit der Statik, indem es besagt, dass die Summe der virtuellen Arbeiten aller Kräfte auf ein System, einschließlich der Trägheitskräfte, gleich Null ist. Dies ermöglicht die Anwendung der Prinzipien der Statik auf dynamische Systeme.",
+      "difficulty": 8,
+      "subcategory": "d’Alembert’sches Prinzip"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Kanonische Transformationen (Motivation)",
+      "question": "Was ist das Hauptziel einer kanonischen Transformation in der analytischen Mechanik?",
+      "choices": [
+        "A: Die Berechnung der Geschwindigkeit eines Körpers.",
+        "B: Die Erhaltung der Hamiltonschen Struktur des Systems.",
+        "C: Die Ermittlung der Temperatur eines Systems.",
+        "D: Die Bestimmung der Masse eines Teilchens."
+      ],
+      "correct_answer": "B",
+      "explanation": "Kanonische Transformationen dienen dazu, die Hamiltonsche Struktur eines dynamischen Systems zu bewahren, was die Analyse und Lösung der Bewegungsgleichungen erleichtert. Sie ermöglichen es, von einer Menge von Koordinaten und Impulsen zu einer anderen zu wechseln, ohne die physikalischen Eigenschaften des Systems zu verändern.",
       "difficulty": 4,
-      "subcategory": "Quasi-freie Elektronen (Näherung)"
+      "subcategory": "Kanonische Transformationen (Motivation)"
     },
     {
       "category": "Physik",
       "topic": "Statistische Mechanik",
-      "subtopic": "Erster & Zweiter Hauptsatz (reversibel/irreversibel)",
-      "question": "Was beschreibt der zweite Hauptsatz der Thermodynamik?",
+      "subtopic": "Verdünnte Lösungen: chem. Potentiale & osmotischer Druck",
+      "question": "Was beschreibt der osmotische Druck in einer verdünnten Lösung?",
       "choices": [
-        "A: Die Gesamtenergie eines geschlossenen Systems bleibt konstant.",
-        "B: Wärme kann nicht von einem kälteren zu einem wärmeren Körper fließen.",
-        "C: Energie kann aus nichts geschaffen werden.",
-        "D: Der Druck eines Gases ist proportional zu seiner Temperatur."
+        "A: Den Druck, der benötigt wird, um die Temperatur einer Lösung zu erhöhen.",
+        "B: Den Druck, der entsteht, wenn sich Gase in einem Behälter ausdehnen.",
+        "C: Den Druck, der benötigt wird, um das Lösungsmittel durch eine semipermeable Membran zu drücken.",
+        "D: Den Druck, der auf die Moleküle einer Lösung durch äußere Kräfte ausgeübt wird."
       ],
-      "correct_answer": "B",
-      "explanation": "Der zweite Hauptsatz der Thermodynamik besagt, dass Wärme natürlicherweise nicht von einem kälteren zu einem wärmeren Körper fließen kann, was die Richtung von Energieübertragungen bestimmt. Dies ist ein grundlegendes Konzept, das irreversibile Prozesse beschreibt und die Entstehung von Entropie erklärt.",
+      "correct_answer": "C",
+      "explanation": "Der osmotische Druck ist der Druck, der erforderlich ist, um das Lösungsmittel durch eine semipermeable Membran zu bewegen, sodass ein Gleichgewicht zwischen der Lösung und dem Lösungsmittel erreicht wird. Dies ist ein zentrales Konzept in der Chemie und der statistischen Mechanik, insbesondere bei der Untersuchung von verdünnten Lösungen.",
       "difficulty": 2,
-      "subcategory": "Erster & Zweiter Hauptsatz (reversibel/irreversibel)"
+      "subcategory": "Verdünnte Lösungen: chem. Potentiale & osmotischer Druck"
     },
     {
       "category": "Physik",
-      "topic": "Quantenmechanik",
-      "subtopic": "Besetzungszahldarstellung",
-      "question": "Was beschreibt die Besetzungszahldarstellung in der Quantenmechanik?",
+      "topic": "Optik",
+      "subtopic": "Brechungsgesetz aus Fermat",
+      "question": "Was besagt das Brechungsgesetz nach Fermat in Bezug auf Lichtstrahlen?",
       "choices": [
-        "A: Die Bewegung von Teilchen in einem klassischen System.",
-        "B: Die Anzahl der Teilchen in verschiedenen Energiezuständen.",
-        "C: Die Wechselwirkungen zwischen Photonen und Elektronen.",
-        "D: Die Geschwindigkeit von Teilchen in einem quantenmechanischen System."
+        "A: Lichtstrahlen brechen sich immer im rechten Winkel zur Oberfläche.",
+        "B: Lichtstrahlen nehmen den schnellsten Weg zwischen zwei Punkten.",
+        "C: Lichtstrahlen können nicht durch verschiedene Medien hindurchgehen.",
+        "D: Lichtstrahlen bewegen sich immer in einer geraden Linie."
       ],
       "correct_answer": "B",
-      "explanation": "Die Besetzungszahldarstellung beschreibt, wie viele Teilchen sich in jedem möglichen Energiezustand befinden. Sie ist ein fundamentales Konzept in der statistischen Mechanik und wichtig für das Verständnis von quantenmechanischen Systemen mit vielen Teilchen.",
-      "difficulty": 5,
-      "subcategory": "Besetzungszahldarstellung"
+      "explanation": "Das Brechungsgesetz nach Fermat besagt, dass Lichtstrahlen den Weg wählen, der die geringste Zeit benötigt, um von einem Punkt zu einem anderen zu gelangen. Dies führt zur Brechung des Lichts an Grenzflächen zwischen unterschiedlichen Medien.",
+      "difficulty": 8,
+      "subcategory": "Brechungsgesetz aus Fermat"
     },
     {
       "category": "Physik",
-      "topic": "Quantenmechanik",
-      "subtopic": "Spin (allgemein)",
-      "question": "Was beschreibt der Spin eines Teilchens in der Quantenmechanik?",
+      "topic": "Optik",
+      "subtopic": "Fabry–Perot-Interferometer (Vielfachinterferenzen)",
+      "question": "Was ist das Hauptprinzip, das einem Fabry–Perot-Interferometer zugrunde liegt?",
       "choices": [
-        "A: Eine Art innerer Drehimpuls des Teilchens.",
-        "B: Die Masse des Teilchens.",
-        "C: Die Geschwindigkeit, mit der sich das Teilchen bewegt.",
-        "D: Die elektrische Ladung des Teilchens."
+        "A: Polarisation von Licht durch einen Filter",
+        "B: Interferenz von Lichtwellen, die mehrfach zwischen zwei reflektierenden Oberflächen reflektiert werden",
+        "C: Brechung von Licht an einer Linse",
+        "D: Beugung von Licht an einem Gitter"
       ],
-      "correct_answer": "A",
-      "explanation": "Der Spin ist eine fundamentale Eigenschaft von Teilchen, die als eine Art innerer Drehimpuls angesehen werden kann. Er ist quantisiert und spielt eine wichtige Rolle in der Quantenmechanik, insbesondere in Bezug auf die Statistik von Fermionen und Bosonen.",
+      "correct_answer": "B",
+      "explanation": "Ein Fabry–Perot-Interferometer nutzt die Interferenz von Lichtwellen, die zwischen zwei parallel reflektierenden Oberflächen hin und her reflektiert werden. Diese Vielfachinterferenzen führen zu charakteristischen Intensitätsmustern, die zur Analyse von Lichtquellen verwendet werden können.",
       "difficulty": 4,
-      "subcategory": "Spin (allgemein)"
+      "subcategory": "Fabry–Perot-Interferometer (Vielfachinterferenzen)"
     }
   ]
 }
