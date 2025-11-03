@@ -1,168 +1,168 @@
 {
   "date": "2025-11-03",
-  "generated_at": "2025-11-03T05:15:44Z",
+  "generated_at": "2025-11-03T07:12:19Z",
   "schema_version": 6,
   "mode": "physik",
   "questions": [
     {
       "category": "Physik",
-      "topic": "Kern- und Teilchenphysik",
-      "subtopic": "Typen der schwachen Wechselwirkung (CC/NC)",
-      "question": "Welche der folgenden Wechselwirkungen ist eine Form der schwachen Wechselwirkung mit einer Änderung der elektrischen Ladung?",
+      "topic": "Quantenmechanik",
+      "subtopic": "Korrespondenzprinzip (QM↔klassisch)",
+      "question": "Welches der folgenden Konzepte beschreibt am besten die Beziehung zwischen Quantenmechanik und klassischer Mechanik im Rahmen des Korrespondenzprinzips?",
       "choices": [
-        "A: Chargenwechsel (CC)",
-        "B: Gravitative Wechselwirkung",
-        "C: Elektromagnetische Wechselwirkung",
-        "D: Neutrale Strahlung (NC)"
-      ],
-      "correct_answer": "A",
-      "explanation": "Die Chargenwechsel (CC) sind eine Form der schwachen Wechselwirkung, bei der die elektrische Ladung eines Teilchens verändert wird. Im Gegensatz dazu bleibt die neutrale Wechselwirkung (NC) in der Regel ohne Änderung der Ladung.",
-      "difficulty": 4,
-      "subcategory": "Typen der schwachen Wechselwirkung (CC/NC)"
-    },
-    {
-      "category": "Physik",
-      "topic": "Analytische Mechanik",
-      "subtopic": "Holonome Zwangsbedingungen",
-      "question": "Was beschreibt eine holonome Zwangsbedingung in der analytischen Mechanik?",
-      "choices": [
-        "A: Eine Zwangsbedingung, die nicht differenzierbar ist.",
-        "B: Eine Zwangsbedingung, die nur von den Koordinaten abhängt.",
-        "C: Eine Zwangsbedingung, die die Geschwindigkeit eines Körpers beschränkt.",
-        "D: Eine Zwangsbedingung, die die Beschleunigung eines Körpers beeinflusst."
+        "A: Das Korrespondenzprinzip besagt, dass klassische Mechanik nur in extremen Energiegrenzen anwendbar ist.",
+        "B: Im Grenzfall großer Quantenzahlen stimmen die Vorhersagen der Quantenmechanik mit denen der klassischen Mechanik überein.",
+        "C: Quantenmechanik kann niemals mit klassischer Mechanik in Einklang gebracht werden.",
+        "D: Die klassische Mechanik ist ein Spezialfall der Quantenmechanik, unabhängig von den Quantenbedingungen."
       ],
       "correct_answer": "B",
-      "explanation": "Holonome Zwangsbedingungen sind solche, die nur von den Positionen der Teilchen abhängen und in Form einer Gleichung dargestellt werden können. Sie sind entscheidend für die Formulierung der Lagrangeschen Mechanik und vereinfachen viele physikalische Probleme.",
-      "difficulty": 4,
-      "subcategory": "Holonome Zwangsbedingungen"
-    },
-    {
-      "category": "Physik",
-      "topic": "Elektrodynamik",
-      "subtopic": "Methode der Bildladungen",
-      "question": "Was ist der Hauptzweck der Methode der Bildladungen in der Elektrodynamik?",
-      "choices": [
-        "A: Die Berechnung von elektrischen Feldern in der Nähe von leitenden Oberflächen.",
-        "B: Die Untersuchung der thermischen Eigenschaften von Materialien.",
-        "C: Die Bestimmung der Magnetfelder in elektrischen Schaltkreisen.",
-        "D: Die Analyse von Lichtstrahlen in optischen Systemen."
-      ],
-      "correct_answer": "A",
-      "explanation": "Die Methode der Bildladungen dient dazu, elektrische Felder in der Nähe von leitenden Oberflächen zu berechnen, indem fiktive Ladungen eingeführt werden. Diese Methode vereinfacht die Analyse von Problemen in der Elektrodynamik erheblich.",
-      "difficulty": 5,
-      "subcategory": "Methode der Bildladungen"
-    },
-    {
-      "category": "Physik",
-      "topic": "Festkörperphysik",
-      "subtopic": "Korngrenzen",
-      "question": "Was sind Korngrenzen in einem Festkörper?",
-      "choices": [
-        "A: Die Grenzen zwischen verschiedenen Phasen eines Materials",
-        "B: Die Temperaturgrenzen, bei denen ein Festkörper schmilzt",
-        "C: Bereiche, in denen Atome frei beweglich sind",
-        "D: Bereiche, in denen sich Kristallstrukturen treffen"
-      ],
-      "correct_answer": "D",
-      "explanation": "Korngrenzen sind die Bereiche in einem Festkörper, in denen sich verschiedene Kristallkörner treffen. Sie spielen eine wichtige Rolle in der Materialwissenschaft, da sie die mechanischen Eigenschaften und die Stabilität von Materialien beeinflussen.",
-      "difficulty": 3,
-      "subcategory": "Korngrenzen"
-    },
-    {
-      "category": "Physik",
-      "topic": "Optik",
-      "subtopic": "Wellengleichung und Lösungen",
-      "question": "Was beschreibt die Wellengleichung in der Optik?",
-      "choices": [
-        "A: Die Temperatur eines Körpers.",
-        "B: Die Gravitation zwischen zwei Massen.",
-        "C: Die Ausbreitung von Lichtwellen.",
-        "D: Die Bewegung von Teilchen."
-      ],
-      "correct_answer": "C",
-      "explanation": "Die Wellengleichung in der Optik beschreibt, wie Lichtwellen sich im Raum ausbreiten. Sie ist grundlegend für das Verständnis von Phänomenen wie Interferenz und Beugung.",
-      "difficulty": 2,
-      "subcategory": "Wellengleichung und Lösungen"
-    },
-    {
-      "category": "Physik",
-      "topic": "Statistische Mechanik",
-      "subtopic": "Photonengas & Plancksches Strahlungsgesetz",
-      "question": "Welches der folgenden Gesetze beschreibt die Intensität der Strahlung eines idealen Photonengases in Abhängigkeit von der Temperatur?",
-      "choices": [
-        "A: Kirchhoffsches Strahlungsgesetz",
-        "B: Plancksches Strahlungsgesetz",
-        "C: Stefan-Boltzmann-Gesetz",
-        "D: Wien'sches Verschiebungsgesetz"
-      ],
-      "correct_answer": "B",
-      "explanation": "Das Plancksche Strahlungsgesetz beschreibt die spektrale Verteilung der Strahlungsintensität eines idealen schwarzen Körpers in Abhängigkeit von der Temperatur. Es ist grundlegend für das Verständnis des Verhaltens von Photonengasen in der statistischen Mechanik und erklärt, wie die Intensität der Strahlung mit der Temperatur variiert.",
-      "difficulty": 7,
-      "subcategory": "Photonengas & Plancksches Strahlungsgesetz"
-    },
-    {
-      "category": "Physik",
-      "topic": "Klassische Mechanik",
-      "subtopic": "Helmholtzsche Wirbelsätze",
-      "question": "Was besagt der Helmholtzsche Wirbelsatz über die Bewegung von Partikeln in einem strömenden Medium?",
-      "choices": [
-        "A: Partikel bewegen sich immer geradlinig.",
-        "B: Partikel können nicht rotieren.",
-        "C: Wirbel sind unabhängig von der Strömungsgeschwindigkeit.",
-        "D: Die Bewegung erfolgt entlang von Wirbeln."
-      ],
-      "correct_answer": "D",
-      "explanation": "Der Helmholtzsche Wirbelsatz beschreibt, dass die Bewegung von Partikeln in einem strömenden Medium durch Wirbelstrukturen beeinflusst wird. Dies bedeutet, dass Partikel entlang von Wirbeln bewegt werden, was für die Analyse von Strömungen in der Fluidmechanik wichtig ist.",
-      "difficulty": 3,
-      "subcategory": "Helmholtzsche Wirbelsätze"
+      "explanation": "Das Korrespondenzprinzip besagt, dass in dem Grenzbereich, in dem die Quantenzahlen groß werden, die Vorhersagen der Quantenmechanik die der klassischen Mechanik reproduzieren. Dies zeigt die Übergangsbeziehung zwischen diesen beiden Theorien auf und erklärt, wie klassische Phänomene aus der Quantenmechanik abgeleitet werden können.",
+      "difficulty": 10,
+      "subcategory": "Korrespondenzprinzip (QM↔klassisch)"
     },
     {
       "category": "Physik",
       "topic": "Thermodynamik",
-      "subtopic": "Exponenten-Ungleichungen (Scaling Bounds)",
-      "question": "Welche Aussage über Exponenten-Ungleichungen in der Thermodynamik ist korrekt?",
+      "subtopic": "Van-der-Waals-Gas (Korrekturen)",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt die Van-der-Waals-Korrektur für ideale Gase?",
       "choices": [
-        "A: Exponenten-Ungleichungen helfen, die Beziehungen zwischen verschiedenen thermodynamischen Variablen zu verstehen.",
-        "B: Exponenten-Ungleichungen haben keinen Einfluss auf die thermodynamischen Prozesse.",
-        "C: Exponenten-Ungleichungen sind nur in der Quantenmechanik relevant.",
-        "D: Exponenten-Ungleichungen beschreiben ausschließlich chemische Reaktionen."
+        "A: Die Van-der-Waals-Gleichung ist identisch mit der idealen Gasgleichung unter allen Bedingungen.",
+        "B: Die Van-der-Waals-Gleichung ignoriert die intermolekularen Kräfte bei hohen Temperaturen.",
+        "C: Die Van-der-Waals-Gleichung berücksichtigt die endlichen Molekülvolumina und die intermolekularen Anziehungskräfte.",
+        "D: Die Van-der-Waals-Gleichung kann nur für ideale Gase angewendet werden."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Van-der-Waals-Gleichung erweitert die ideale Gasgleichung, indem sie die endlichen Volumina der Moleküle und die Anziehungskräfte zwischen ihnen berücksichtigt. Diese Korrekturen sind besonders wichtig bei hohen Drücken und niedrigen Temperaturen, wo die Abweichungen von der idealen Gasverhaltensweise signifikant werden.",
+      "difficulty": 8,
+      "subcategory": "Van-der-Waals-Gas (Korrekturen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Drehschwingungen um eine feste Achse",
+      "question": "Was beschreibt die Frequenz bei Drehschwingungen um eine feste Achse?",
+      "choices": [
+        "A: Die Anzahl der vollständigen Umdrehungen pro Zeitintervall",
+        "B: Die Beschleunigung des schwingenden Körpers",
+        "C: Die Energie der Schwingung",
+        "D: Die maximale Auslenkung von der Gleichgewichtslage"
       ],
       "correct_answer": "A",
-      "explanation": "Exponenten-Ungleichungen sind wichtig in der Thermodynamik, da sie helfen, die Beziehungen zwischen Variablen wie Temperatur, Druck und Volumen zu analysieren. Sie bieten wertvolle Einsichten in das Verhalten von Systemen unter verschiedenen Bedingungen.",
+      "explanation": "Die Frequenz beschreibt, wie oft ein Körper in einer bestimmten Zeit eine vollständige Umdrehung durchführt. Sie ist ein zentrales Konzept in der Analyse von Drehschwingungen und wird in Hertz (Hz) gemessen.",
       "difficulty": 3,
-      "subcategory": "Exponenten-Ungleichungen (Scaling Bounds)"
+      "subcategory": "Drehschwingungen um eine feste Achse"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Beweglichkeit & elektrische Leitfähigkeit",
+      "question": "Was ist ein charakteristisches Merkmal von Metallen in Bezug auf ihre elektrische Leitfähigkeit?",
+      "choices": [
+        "A: Metalle haben eine negative elektrische Leitfähigkeit.",
+        "B: Metalle leiten elektrischen Strom gut.",
+        "C: Metalle leiten keinen Strom.",
+        "D: Metalle sind Isolatoren."
+      ],
+      "correct_answer": "B",
+      "explanation": "Metalle haben eine hohe Beweglichkeit von Elektronen, was sie zu guten elektrischen Leitern macht. Diese Eigenschaft ist auf die Struktur der Metallatome und die freie Bewegung der Elektronen in ihrem Gitter zurückzuführen.",
+      "difficulty": 1,
+      "subcategory": "Beweglichkeit & elektrische Leitfähigkeit"
     },
     {
       "category": "Physik",
       "topic": "Analytische Mechanik",
-      "subtopic": "Erweiterungen des Hamilton’schen Prinzips",
-      "question": "Welche Aussage beschreibt am besten die Erweiterung des Hamilton’schen Prinzips für Systeme mit Nebenbedingungen?",
+      "subtopic": "Reibung in der Lagrange-Formulierung",
+      "question": "Was beschreibt die Reibung in der Lagrange-Formulierung der analytischen Mechanik?",
       "choices": [
-        "A: Es ist identisch mit dem Prinzip der kleinsten Aktion für Systeme in Ruhe.",
-        "B: Es hat keinen Einfluss auf die Herleitung von Bewegungsgleichungen.",
-        "C: Es führt zu den Euler-Lagrange-Gleichungen, die die Bewegungsgleichungen für Systeme ohne Nebenbedingungen ergeben.",
-        "D: Es ermöglicht die Formulierung der Bewegungsgleichungen für Systeme mit Beschränkungen unter Verwendung der Lagrange-Multiplikatoren."
+        "A: Sie wird als dissipative Kraft behandelt, die die Energie eines Systems reduziert.",
+        "B: Sie hat keinen Einfluss auf die Bewegung der Teilchen im System.",
+        "C: Sie ist immer proportional zur Geschwindigkeit des Teilchens.",
+        "D: Sie wird in der Lagrange-Gleichung als konservative Kraft modelliert."
+      ],
+      "correct_answer": "A",
+      "explanation": "In der Lagrange-Formulierung wird Reibung als dissipative Kraft betrachtet, die Energieverluste im System verursacht. Diese Beschreibung ermöglicht es, die Auswirkungen von Reibung auf die Bewegung und das Verhalten von Teilchen zu analysieren.",
+      "difficulty": 4,
+      "subcategory": "Reibung in der Lagrange-Formulierung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Wellenpakete & Kugelwellen",
+      "question": "Was beschreibt ein Wellenpaket in der Elektrodynamik?",
+      "choices": [
+        "A: Eine einzelne Welle, die unendlich lange ausbreitet.",
+        "B: Eine stehende Welle, die nicht wandert.",
+        "C: Eine Welle, die nur in einem Medium existieren kann.",
+        "D: Eine Überlagerung von Wellen mit unterschiedlichen Frequenzen."
       ],
       "correct_answer": "D",
-      "explanation": "Die Erweiterung des Hamilton’schen Prinzips mit Lagrange-Multiplikatoren ermöglicht die Berücksichtigung von Nebenbedingungen beim Ableiten von Bewegungsgleichungen. Dadurch können Systeme mit Einschränkungen korrekt beschrieben werden, was in vielen physikalischen Anwendungen wichtig ist.",
+      "explanation": "Ein Wellenpaket entsteht durch die Überlagerung mehrerer Wellen mit unterschiedlichen Frequenzen, was zu einer lokalisierten Energieverteilung führt. Diese Konstruktion ermöglicht es, spezifische Informationen über Teilchen oder Impulse zu transportieren.",
       "difficulty": 5,
-      "subcategory": "Erweiterungen des Hamilton’schen Prinzips"
+      "subcategory": "Wellenpakete & Kugelwellen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "de Broglie-Wellen",
+      "question": "Was beschreibt die de Broglie-Wellenhypothese?",
+      "choices": [
+        "A: Quantenobjekte sind immer in einem festen Zustand.",
+        "B: Teilchen besitzen sowohl Eigenschaften von Teilchen als auch von Wellen.",
+        "C: Alle Teilchen bewegen sich immer mit Lichtgeschwindigkeit.",
+        "D: Die Energie eines Teilchens ist unabhängig von seiner Wellenlänge."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die de Broglie-Wellenhypothese postuliert, dass Teilchen wie Elektronen sowohl Teilchen- als auch Welleneigenschaften aufweisen. Dies bedeutet, dass mit jedem Teilchen eine Welle assoziiert ist, deren Wellenlänge von der Impulsgröße abhängt.",
+      "difficulty": 7,
+      "subcategory": "de Broglie-Wellen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Elektrostatische Feldenergie",
+      "question": "Wie wird die elektrostatische Feldenergie U eines Punktladungssystems berechnet?",
+      "choices": [
+        "A: U = q * V",
+        "B: U = k * (q1 + q2) / r",
+        "C: U = k * (q1 * q2) / r",
+        "D: U = 1/2 * k * (q1 * q2) / r^2"
+      ],
+      "correct_answer": "C",
+      "explanation": "Die elektrostatische Feldenergie U zwischen zwei Punktladungen q1 und q2, die sich in einem Abstand r befinden, wird durch die Formel U = k * (q1 * q2) / r beschrieben, wobei k die Coulomb-Konstante ist. Diese Formel zeigt, dass die Energie proportional zum Produkt der beiden Ladungen und umgekehrt proportional zum Abstand zwischen ihnen ist.",
+      "difficulty": 6,
+      "subcategory": "Elektrostatische Feldenergie"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Einfluss der Wandbelegung",
+      "question": "Wie beeinflusst die Wandbelegung eines Raumes die Schwingungseigenschaften von darin befindlichen Objekten?",
+      "choices": [
+        "A: Sie reduziert die Dämpfung der Schwingungen.",
+        "B: Sie verändert die Resonanzfrequenzen der Objekte.",
+        "C: Sie hat keinen Einfluss auf die Schwingungseigenschaften.",
+        "D: Sie erhöht die Masse der Objekte."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Wandbelegung eines Raumes kann die Resonanzfrequenzen beeinflussen, da die akustischen Eigenschaften des Raumes die Reflektion und Absorption von Schallwellen modifizieren. Dadurch können die Schwingungseigenschaften der Objekte, die sich im Raum befinden, variieren.",
+      "difficulty": 9,
+      "subcategory": "Einfluss der Wandbelegung"
     },
     {
       "category": "Physik",
       "topic": "Statistische Mechanik",
-      "subtopic": "Quantenstatistik: Dichtematrix (rein/gemischt)",
-      "question": "Was beschreibt die Dichtematrix in der Quantenstatistik?",
+      "subtopic": "Einleitung & Zielsetzung der Statistischen Mechanik",
+      "question": "Welche der folgenden Aussagen beschreibt am besten das Hauptziel der Statistischen Mechanik?",
       "choices": [
-        "A: Die Temperatur eines Systems in thermischem Gleichgewicht.",
-        "B: Die Energieverteilung in einem klassischen Teilchensystem.",
-        "C: Den Zustand eines quantenmechanischen Systems als statistische Mischung von Zuständen.",
-        "D: Nur den Zustand eines rein quantenmechanischen Systems ohne äußere Einflüsse."
+        "A: Die Untersuchung von Quantenfluktuationen in isolierten Systemen.",
+        "B: Die Erklärung der Gravitation zwischen großen Körpern.",
+        "C: Die Ableitung makroskopischer Eigenschaften von einem Ensemble mikroskopischer Zustände.",
+        "D: Die Berechnung der Bahnen von Teilchen in einem klassischen System."
       ],
       "correct_answer": "C",
-      "explanation": "Die Dichtematrix ist ein wichtiges Werkzeug in der Quantenstatistik, um sowohl reine als auch gemischte Zustände eines Systems zu beschreiben. Sie ermöglicht es, die statistische Verteilung von Quanten-Zuständen zu charakterisieren und ist besonders nützlich bei der Beschreibung von Systemen in thermischen Gleichgewichtszuständen.",
-      "difficulty": 6,
-      "subcategory": "Quantenstatistik: Dichtematrix (rein/gemischt)"
+      "explanation": "Das Hauptziel der Statistischen Mechanik besteht darin, die makroskopischen Eigenschaften eines Systems aus den mikroskopischen Zuständen abzuleiten. Dies ermöglicht es, thermodynamische Konzepte wie Temperatur und Druck zu verstehen und zu erklären.",
+      "difficulty": 10,
+      "subcategory": "Einleitung & Zielsetzung der Statistischen Mechanik"
     }
   ]
 }
