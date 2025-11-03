@@ -1,168 +1,168 @@
 {
   "date": "2025-11-03",
-  "generated_at": "2025-11-03T11:26:35Z",
+  "generated_at": "2025-11-03T12:38:21Z",
   "schema_version": 6,
   "mode": "physik",
   "questions": [
     {
       "category": "Physik",
-      "topic": "Thermodynamik",
-      "subtopic": "Van-der-Waals-Gas (Korrekturen)",
-      "question": "Welche der folgenden Annahmen zur Beschreibung eines Van-der-Waals-Gases ist korrekt?",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Reibung in der Lagrange-Formulierung",
+      "question": "Was beschreibt die Reibung in der Lagrange-Formulierung der Mechanik?",
       "choices": [
-        "A: Van-der-Waals-Gase verhalten sich immer in Übereinstimmung mit dem idealen Gasgesetz.",
-        "B: Es gibt keine intermolekularen Kräfte zwischen den Molekülen eines Van-der-Waals-Gases.",
-        "C: Van-der-Waals-Gase verhalten sich wie ideale Gase bei allen Temperaturen.",
-        "D: Die Moleküle eines Van-der-Waals-Gases haben ein bestimmtes Volumen."
+        "A: Sie wirkt entgegen der Bewegung und reduziert die Geschwindigkeit.",
+        "B: Sie hat keinen Einfluss auf die Bewegung von Körpern.",
+        "C: Sie verstärkt die Bewegung von Körpern.",
+        "D: Sie ist nur in der Quantenmechanik relevant."
+      ],
+      "correct_answer": "A",
+      "explanation": "In der Lagrange-Formulierung wird Reibung als eine Kraft beschrieben, die der Bewegung eines Körpers entgegenwirkt und somit die Geschwindigkeit verringert. Diese Berücksichtigung ist wichtig, um realistische Bewegungsmodelle zu erstellen.",
+      "difficulty": 2,
+      "subcategory": "Reibung in der Lagrange-Formulierung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Bra- und Ket-Vektoren; Dualraum",
+      "question": "Was stellt ein Ket-Vektor in der Quantenmechanik dar?",
+      "choices": [
+        "A: Einen Operator, der auf Zustände wirkt",
+        "B: Eine Wahrscheinlichkeit für einen Zustand",
+        "C: Eine Messung des Systems",
+        "D: Einen Zustand eines quantenmechanischen Systems"
       ],
       "correct_answer": "D",
-      "explanation": "Van-der-Waals-Gase berücksichtigen das physikalische Volumen der Moleküle sowie die intermolekularen Anziehungskräfte. Diese Korrekturen machen die Beschreibung des Verhaltens von realen Gasen präziser, insbesondere bei hohen Drücken und niedrigen Temperaturen.",
-      "difficulty": 6,
-      "subcategory": "Van-der-Waals-Gas (Korrekturen)"
-    },
-    {
-      "category": "Physik",
-      "topic": "Analytische Mechanik",
-      "subtopic": "Nicht-holonome Zwangsbedingungen",
-      "question": "Welche der folgenden Aussagen beschreibt eine nicht-holonome Zwangsbedingung?",
-      "choices": [
-        "A: Eine Zwangsbedingung, die immer linear ist.",
-        "B: Eine Zwangsbedingung, die nur von den Positionen eines Systems abhängt.",
-        "C: Eine Zwangsbedingung, die nicht nur von den Koordinaten, sondern auch von der Geschwindigkeit abhängt.",
-        "D: Eine Zwangsbedingung, die in jedem System auftreten kann."
-      ],
-      "correct_answer": "C",
-      "explanation": "Nicht-holonome Zwangsbedingungen sind solche, die von den Geschwindigkeiten eines Systems abhängen, nicht nur von den Positionen. Dies macht sie komplex und führt zu speziellen Herausforderungen in der Dynamik, da sie nicht in den Integrationsbedingungen einer Lagrange- oder Hamilton-Formulierung enthalten sind.",
-      "difficulty": 3,
-      "subcategory": "Nicht-holonome Zwangsbedingungen"
-    },
-    {
-      "category": "Physik",
-      "topic": "Relativitätstheorie",
-      "subtopic": "Elektromagnetische Potentiale (Vierervektor)",
-      "question": "Was beschreibt der elektromagnetische Vierervektor in der Relativitätstheorie?",
-      "choices": [
-        "A: Die Geschwindigkeit eines Körpers relativ zu einem Beobachter.",
-        "B: Die Masse eines Körpers in einem Gravitationsfeld.",
-        "C: Die Wechselwirkung zwischen Elektrizität und Magnetismus.",
-        "D: Die Energie eines Photons."
-      ],
-      "correct_answer": "C",
-      "explanation": "Der elektromagnetische Vierervektor kombiniert elektrische und magnetische Felder und beschreibt deren Wechselwirkung in der Relativitätstheorie. Er ist ein zentraler Bestandteil der relativistischen Elektrodynamik und ermöglicht die Formulierung der Maxwell-Gleichungen in einer relativistischen Form.",
+      "explanation": "Ein Ket-Vektor, notiert als |ψ⟩, repräsentiert einen Zustand in der Quantenmechanik. Er gehört zum Hilbertraum und ist ein zentrales Element zur Beschreibung quantenmechanischer Systeme.",
       "difficulty": 4,
-      "subcategory": "Elektromagnetische Potentiale (Vierervektor)"
+      "subcategory": "Bra- und Ket-Vektoren; Dualraum"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Zerfallskanäle schwerer Quarkonia",
+      "question": "Was ist ein typischer Zerfallskanal für schwere Quarkonia wie das Upsilon?",
+      "choices": [
+        "A: Proton-Proton-Streuung",
+        "B: Neutronen-Einfang",
+        "C: Elektron-Positron-Paarbildung",
+        "D: Alpha-Zerfall"
+      ],
+      "correct_answer": "C",
+      "explanation": "Schwere Quarkonia wie das Upsilon zerfallen häufig in ein Elektron-Positron-Paar. Diese Zerfallskanäle sind charakteristisch für die Wechselwirkungen zwischen Quarks und Leptonen.",
+      "difficulty": 4,
+      "subcategory": "Zerfallskanäle schwerer Quarkonia"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Spektroskopie mittels Kernreaktionen",
+      "question": "Welche Methode wird häufig verwendet, um die Energie von Gammastrahlung zu messen, die bei Kernreaktionen entsteht?",
+      "choices": [
+        "A: Szintillationsspektroskopie",
+        "B: Massenspektrometrie",
+        "C: Mikrowellenspektroskopie",
+        "D: Elektronenspinresonanz"
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Szintillationsspektroskopie ist eine Technik, die häufig zur Messung der Energie von Gammastrahlung verwendet wird, indem sie die von der Strahlung erzeugten Lichtblitze in elektrische Signale umwandelt. Diese Methode ist besonders nützlich in der Kern- und Teilchenphysik zur Analyse von Kernreaktionen.",
+      "difficulty": 6,
+      "subcategory": "Spektroskopie mittels Kernreaktionen"
     },
     {
       "category": "Physik",
       "topic": "Optik",
-      "subtopic": "Herstellung von Glasfasern",
-      "question": "Was ist ein wichtiger Schritt bei der Herstellung von Glasfasern?",
+      "subtopic": "Gaußsche Bündel & abbildende Elemente",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt die Eigenschaften eines idealen Gaußschen Bündels in Bezug auf abbildende Elemente?",
       "choices": [
-        "A: Das Trocknen von Papier",
-        "B: Das Erhitzen von Wasser",
-        "C: Das Mischen von Farben",
-        "D: Das Schmelzen von Siliziumdioxid"
+        "A: Die Brennweite eines abbildenden Elements ist unabhängig von der Divergenz des einfallenden Lichtstrahls.",
+        "B: Ein idealer Gaußscher Strahl hat an jedem Punkt der Strahlachse eine konstante Intensität.",
+        "C: Die Form eines idealen Gaußschen Bündels hängt nur von der Wellenlänge des Lichts ab und nicht von der Form der Apertur.",
+        "D: Ein idealer Gaußscher Strahl bleibt über große Distanzen konstant fokussiert, vorausgesetzt, die aperturbegrenzenden Elemente sind optimal angeordnet."
       ],
       "correct_answer": "D",
-      "explanation": "Bei der Herstellung von Glasfasern ist das Schmelzen von Siliziumdioxid ein entscheidender Schritt, da es die Grundlage für das Glas bildet. Dieses geschmolzene Material wird dann geformt und gezogen, um die Glasfaser zu erzeugen.",
-      "difficulty": 2,
-      "subcategory": "Herstellung von Glasfasern"
+      "explanation": "Ein ideales Gaußsches Bündel zeigt eine optimale Fokussierung über große Distanzen, solange die abbildenden Elemente richtig ausgerichtet sind. Dies liegt an der speziellen mathematischen Form der elektromagnetischen Wellenfronten, die in einem Gaußschen Bündel auftreten. Die anderen Aussagen sind falsch, da sie grundlegende Eigenschaften des Lichtverhaltens missverstehen.",
+      "difficulty": 10,
+      "subcategory": "Gaußsche Bündel & abbildende Elemente"
     },
     {
       "category": "Physik",
-      "topic": "Elektrodynamik",
-      "subtopic": "Elektromagnetische Potentiale (φ, A)",
-      "question": "Was beschreibt das skalare elektrische Potential φ in einem elektrischen Feld?",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Turbulenz & Strömungswiderstand",
+      "question": "Welcher Faktor beeinflusst maßgeblich den Strömungswiderstand eines Körpers in einer turbulent strömenden Flüssigkeit?",
       "choices": [
-        "A: Die magnetische Flussdichte in einem gegebenen Bereich.",
-        "B: Die Geschwindigkeit eines elektrischen Feldes in einem Vakuum.",
-        "C: Die Arbeit pro Ladung, die benötigt wird, um eine positive Testladung von unendlich weit zu einem Punkt zu bringen.",
-        "D: Die Richtung der Kraft, die auf eine positive Testladung wirkt."
+        "A: Die Oberflächenrauhigkeit des Körpers",
+        "B: Die Dichte der Flüssigkeit",
+        "C: Die Temperatur der Flüssigkeit",
+        "D: Die Farbe des Körpers"
       ],
-      "correct_answer": "C",
-      "explanation": "Das skalare elektrische Potential φ gibt an, wie viel Arbeit pro Einheit Ladung notwendig ist, um eine Testladung von einem Referenzpunkt (häufig unendlich) zu einem bestimmten Punkt im elektrischen Feld zu bewegen. Es ist ein wichtiger Bestandteil der Elektrodynamik, da es die Grundlage für die Berechnung elektrischer Felder bildet.",
-      "difficulty": 6,
-      "subcategory": "Elektromagnetische Potentiale (φ, A)"
-    },
-    {
-      "category": "Physik",
-      "topic": "Analytische Mechanik",
-      "subtopic": "d’Alembert’sches Prinzip",
-      "question": "Welches der folgenden Aussagen beschreibt das d’Alembert’sche Prinzip korrekt?",
-      "choices": [
-        "A: Es bezieht sich ausschließlich auf die Rotationsbewegung von Körpern.",
-        "B: Es kann nicht auf nicht-konservative Kräfte angewendet werden.",
-        "C: Es ist nur für Systeme im Gleichgewicht anwendbar.",
-        "D: Es besagt, dass die Summe der virtuellen Arbeiten aller Kräfte, die auf ein System wirken, gleich Null ist."
-      ],
-      "correct_answer": "D",
-      "explanation": "Das d’Alembert’sche Prinzip verknüpft die Dynamik mit der Statik, indem es besagt, dass die Summe der virtuellen Arbeiten aller Kräfte auf ein System, einschließlich der Trägheitskräfte, gleich Null ist. Dies ermöglicht die Anwendung der Prinzipien der Statik auf dynamische Systeme.",
-      "difficulty": 8,
-      "subcategory": "d’Alembert’sches Prinzip"
-    },
-    {
-      "category": "Physik",
-      "topic": "Analytische Mechanik",
-      "subtopic": "Kanonische Transformationen (Motivation)",
-      "question": "Was ist das Hauptziel einer kanonischen Transformation in der analytischen Mechanik?",
-      "choices": [
-        "A: Die Berechnung der Geschwindigkeit eines Körpers.",
-        "B: Die Erhaltung der Hamiltonschen Struktur des Systems.",
-        "C: Die Ermittlung der Temperatur eines Systems.",
-        "D: Die Bestimmung der Masse eines Teilchens."
-      ],
-      "correct_answer": "B",
-      "explanation": "Kanonische Transformationen dienen dazu, die Hamiltonsche Struktur eines dynamischen Systems zu bewahren, was die Analyse und Lösung der Bewegungsgleichungen erleichtert. Sie ermöglichen es, von einer Menge von Koordinaten und Impulsen zu einer anderen zu wechseln, ohne die physikalischen Eigenschaften des Systems zu verändern.",
-      "difficulty": 4,
-      "subcategory": "Kanonische Transformationen (Motivation)"
+      "correct_answer": "A",
+      "explanation": "Die Oberflächenrauhigkeit spielt eine entscheidende Rolle im Strömungswiderstand, insbesondere bei turbulenten Strömungen. Eine raue Oberfläche kann die Turbulenzen verstärken und somit den Widerstand erhöhen, während eine glatte Oberfläche den Widerstand verringert.",
+      "difficulty": 7,
+      "subcategory": "Turbulenz & Strömungswiderstand"
     },
     {
       "category": "Physik",
       "topic": "Statistische Mechanik",
-      "subtopic": "Verdünnte Lösungen: chem. Potentiale & osmotischer Druck",
-      "question": "Was beschreibt der osmotische Druck in einer verdünnten Lösung?",
+      "subtopic": "Virialsatz & Äquipartition (Gleichverteilungssatz)",
+      "question": "Was besagt der Äquipartitionstheorem in der statistischen Mechanik?",
       "choices": [
-        "A: Den Druck, der benötigt wird, um die Temperatur einer Lösung zu erhöhen.",
-        "B: Den Druck, der entsteht, wenn sich Gase in einem Behälter ausdehnen.",
-        "C: Den Druck, der benötigt wird, um das Lösungsmittel durch eine semipermeable Membran zu drücken.",
-        "D: Den Druck, der auf die Moleküle einer Lösung durch äußere Kräfte ausgeübt wird."
-      ],
-      "correct_answer": "C",
-      "explanation": "Der osmotische Druck ist der Druck, der erforderlich ist, um das Lösungsmittel durch eine semipermeable Membran zu bewegen, sodass ein Gleichgewicht zwischen der Lösung und dem Lösungsmittel erreicht wird. Dies ist ein zentrales Konzept in der Chemie und der statistischen Mechanik, insbesondere bei der Untersuchung von verdünnten Lösungen.",
-      "difficulty": 2,
-      "subcategory": "Verdünnte Lösungen: chem. Potentiale & osmotischer Druck"
-    },
-    {
-      "category": "Physik",
-      "topic": "Optik",
-      "subtopic": "Brechungsgesetz aus Fermat",
-      "question": "Was besagt das Brechungsgesetz nach Fermat in Bezug auf Lichtstrahlen?",
-      "choices": [
-        "A: Lichtstrahlen brechen sich immer im rechten Winkel zur Oberfläche.",
-        "B: Lichtstrahlen nehmen den schnellsten Weg zwischen zwei Punkten.",
-        "C: Lichtstrahlen können nicht durch verschiedene Medien hindurchgehen.",
-        "D: Lichtstrahlen bewegen sich immer in einer geraden Linie."
+        "A: Temperatur ist unabhängig von der kinetischen Energie der Teilchen.",
+        "B: Jeder Freiheitsgrad eines Systems trägt gleich viel zur inneren Energie bei.",
+        "C: Teilchen in einem idealen Gas bewegen sich unabhängig von einander.",
+        "D: Die Gesamtenergie eines Systems bleibt immer konstant."
       ],
       "correct_answer": "B",
-      "explanation": "Das Brechungsgesetz nach Fermat besagt, dass Lichtstrahlen den Weg wählen, der die geringste Zeit benötigt, um von einem Punkt zu einem anderen zu gelangen. Dies führt zur Brechung des Lichts an Grenzflächen zwischen unterschiedlichen Medien.",
-      "difficulty": 8,
-      "subcategory": "Brechungsgesetz aus Fermat"
-    },
-    {
-      "category": "Physik",
-      "topic": "Optik",
-      "subtopic": "Fabry–Perot-Interferometer (Vielfachinterferenzen)",
-      "question": "Was ist das Hauptprinzip, das einem Fabry–Perot-Interferometer zugrunde liegt?",
-      "choices": [
-        "A: Polarisation von Licht durch einen Filter",
-        "B: Interferenz von Lichtwellen, die mehrfach zwischen zwei reflektierenden Oberflächen reflektiert werden",
-        "C: Brechung von Licht an einer Linse",
-        "D: Beugung von Licht an einem Gitter"
-      ],
-      "correct_answer": "B",
-      "explanation": "Ein Fabry–Perot-Interferometer nutzt die Interferenz von Lichtwellen, die zwischen zwei parallel reflektierenden Oberflächen hin und her reflektiert werden. Diese Vielfachinterferenzen führen zu charakteristischen Intensitätsmustern, die zur Analyse von Lichtquellen verwendet werden können.",
+      "explanation": "Der Äquipartitionstheorem besagt, dass in einem thermodynamischen Gleichgewicht jeder Freiheitsgrad eines Systems im Mittel gleich viel zur inneren Energie beiträgt. Dies bedeutet, dass die Energie eines Systems gleichmäßig auf die verschiedenen Bewegungsarten verteilt ist.",
       "difficulty": 4,
-      "subcategory": "Fabry–Perot-Interferometer (Vielfachinterferenzen)"
+      "subcategory": "Virialsatz & Äquipartition (Gleichverteilungssatz)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Saugvermögen & Saugleistung von Pumpen",
+      "question": "Was beschreibt das Saugvermögen einer Pumpe?",
+      "choices": [
+        "A: Die maximale Menge an Flüssigkeit, die die Pumpe aus einem Behälter ansaugen kann.",
+        "B: Den Druck, den die Pumpe erzeugt, um Flüssigkeit zu bewegen.",
+        "C: Die Geschwindigkeit, mit der die Pumpe Flüssigkeit fördert.",
+        "D: Die Energie, die für den Betrieb der Pumpe benötigt wird."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Saugvermögen einer Pumpe bezieht sich auf die maximale Menge an Flüssigkeit, die sie aus einem Behälter ansaugen kann. Es ist ein wichtiger Faktor bei der Auswahl und dem Einsatz von Pumpen in verschiedenen Anwendungen.",
+      "difficulty": 3,
+      "subcategory": "Saugvermögen & Saugleistung von Pumpen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Steinerscher Satz",
+      "question": "Welcher der folgenden Sätze beschreibt den Steinerschen Satz korrekt?",
+      "choices": [
+        "A: Der Steinersche Satz besagt, dass das Trägheitsmoment eines Körpers um eine Achse parallel zu einer Achse durch seinen Schwerpunkt gleich dem Trägheitsmoment um die Schwerpunktachse plus der Masse des Körpers multipliziert mit dem Quadrat des Abstandes zwischen den Achsen ist.",
+        "B: Der Steinersche Satz beschreibt die Beziehung zwischen der Geschwindigkeit eines Körpers und der auf ihn wirkenden Kraft.",
+        "C: Der Steinersche Satz bezieht sich ausschließlich auf die Rotation von starren Körpern ohne Berücksichtigung von Kräften.",
+        "D: Der Steinersche Satz ist ein Prinzip der Thermodynamik, das die Energieumwandlung in geschlossenen Systemen beschreibt."
+      ],
+      "correct_answer": "A",
+      "explanation": "Der Steinersche Satz beschreibt, wie das Trägheitsmoment eines Körpers um eine Achse, die nicht durch den Schwerpunkt verläuft, berechnet werden kann. Er ist besonders wichtig in der klassischen Mechanik, um Eigenschaften rotierender Körper zu verstehen und zu analysieren.",
+      "difficulty": 7,
+      "subcategory": "Steinerscher Satz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Metall–Isolator-Übergang",
+      "question": "Was beschreibt den Metall-Insulator-Übergang in Festkörpern?",
+      "choices": [
+        "A: Eine Änderung der elektrischen Leitfähigkeit von einem Metall zu einem Isolator.",
+        "B: Eine Verschiebung der Atome in einem Kristallgitter ohne Leitfähigkeitsänderung.",
+        "C: Eine Änderung der Temperatur, die zu einer Verdampfung führt.",
+        "D: Eine Veränderung der Farbe eines Materials bei Erwärmung."
+      ],
+      "correct_answer": "A",
+      "explanation": "Der Metall-Insulator-Übergang beschreibt den Punkt, an dem ein Material von einem metallischen Zustand mit hoher elektrischer Leitfähigkeit in einen isolierenden Zustand mit geringer Leitfähigkeit übergeht. Dieser Übergang ist entscheidend für das Verständnis von Materialien in der Festkörperphysik und hat zahlreiche Anwendungen in der Elektronik.",
+      "difficulty": 5,
+      "subcategory": "Metall–Isolator-Übergang"
     }
   ]
 }

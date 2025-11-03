@@ -128,6 +128,22 @@
       "explanation": "Die Poisson-Verteilung wird häufig verwendet, um die Wahrscheinlichkeit zu modellieren, dass in einem festen Zeitintervall eine bestimmte Anzahl von Ereignissen auftritt, unter der Annahme, dass diese Ereignisse unabhängig sind. Dies macht sie ideal für Anwendungen wie die Modellierung von radioaktiven Zerfällen oder Anrufen in einem Call-Center.",
       "difficulty": 3,
       "subcategory": "Binomial- & Poisson-Verteilung (Exkurs)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Dichtematrix (statistischer Operator)",
+      "question": "Welches der folgenden Elemente ist nicht Teil der Dichtematrix in der Quantenmechanik?",
+      "choices": [
+        "A: Temperatur des Systems",
+        "B: Überlappungsintegrale zwischen Zuständen",
+        "C: Eigenwerte des Hamiltonoperators",
+        "D: Wahrscheinlichkeitsverteilung des Zustands"
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Dichtematrix beschreibt die statistische Beschreibung eines Quantensystems und enthält Informationen über die Wahrscheinlichkeitsverteilung der Zustände sowie deren Wechselwirkungen. Die Temperatur des Systems ist jedoch kein direkter Bestandteil der Dichtematrix, sondern hat eher Bedeutung in der thermodynamischen Betrachtung des Systems.",
+      "difficulty": 8,
+      "subcategory": "Dichtematrix (statistischer Operator)"
     }
   ]
 }
