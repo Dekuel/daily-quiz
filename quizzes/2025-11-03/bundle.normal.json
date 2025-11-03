@@ -1,108 +1,116 @@
 {
   "date": "2025-11-03",
-  "generated_at": "2025-11-03T07:10:35Z",
+  "generated_at": "2025-11-03T07:35:28Z",
   "schema_version": 6,
   "mode": "normal",
   "questions": [
     {
-      "category": "Geschichte",
-      "topic": "Antike",
-      "question": "Welches berühmte Bauwerk wurde in der Antike als eines der sieben Weltwunder angesehen?",
+      "category": "Essen und Trinken",
+      "topic": "Ernährung",
+      "question": "Welches dieser Gewürze wird oft für seine Schärfe geschätzt und ist ein zentraler Bestandteil der mexikanischen Küche?",
       "choices": [
-        "A: Die Hagia Sophia",
-        "B: Das Kolosseum",
-        "C: Der Koloss von Rhodos",
-        "D: Die Pyramiden von Gizeh"
+        "A: Zimt",
+        "B: Chili",
+        "C: Petersilie",
+        "D: Basilikum"
       ],
-      "correct_answer": "C",
-      "explanation": "Der Koloss von Rhodos war eine riesige Statue des Sonnengottes Helios und wurde um 280 v. Chr. erbaut. Er galt als eines der sieben Weltwunder der Antike und war ein Symbol für den Wohlstand der Stadt Rhodos.",
+      "correct_answer": "B",
+      "explanation": "Chili hat seinen Ursprung in Mittel- und Südamerika und ist berühmt für seine Schärfe. In der mexikanischen Küche ist Chili ein unverzichtbares Gewürz, das in vielen traditionellen Gerichten verwendet wird.",
       "difficulty": 2
     },
     {
-      "category": "Essen und Trinken",
-      "topic": "Ernährung",
-      "question": "Welche Maßnahme kann helfen, Lebensmittelverschwendung zu reduzieren?",
+      "category": "Natur",
+      "topic": "Tierwelt",
+      "question": "Welches Tier nutzt die Seitenlinie, um Bewegungen und Strömungen im Wasser wahrzunehmen?",
       "choices": [
-        "A: Eine Einkaufsliste erstellen und nur benötigte Lebensmittel kaufen.",
-        "B: Lebensmittel immer nach dem MHD (Mindesthaltbarkeitsdatum) entsorgen.",
-        "C: Alle Lebensmittel in der Küche unbeschützt stehen lassen.",
-        "D: Große Mengen an frischen Lebensmitteln ohne Plan einkaufen."
-      ],
-      "correct_answer": "A",
-      "explanation": "Eine Einkaufsliste hilft, gezielt nur die benötigten Lebensmittel zu kaufen und überflüssige Käufe zu vermeiden, was zur Reduzierung von Lebensmittelverschwendung beiträgt. Bewusste Planung ist ein wichtiger Schritt im Umgang mit Nahrungsmitteln.",
-      "difficulty": 4
-    },
-    {
-      "category": "Kunst und Literatur",
-      "topic": "Kunstgeschichte & Epochen",
-      "question": "Welcher Künstler ist bekannt für seine Verwendung von Licht und Farbe im Impressionismus, insbesondere durch die Darstellung von Wasser und Natur?",
-      "choices": [
-        "A: Pablo Picasso",
-        "B: Claude Monet",
-        "C: Vincent van Gogh",
-        "D: Henri Matisse"
+        "A: Adler",
+        "B: Hai",
+        "C: Elefant",
+        "D: Fuchs"
       ],
       "correct_answer": "B",
-      "explanation": "Claude Monet gilt als einer der führenden Maler des Impressionismus. Seine Werke, wie die Seerosen-Serie, zeigen eindrucksvoll, wie Licht und Farbe die Wahrnehmung von Landschaften verändern können.",
-      "difficulty": 5
-    },
-    {
-      "category": "Politiker",
-      "discipline": "Org-Personen",
-      "question": "Wie heißt die/der amtierende oberste Amtsinhaber(in) der Organisation „Vereinte Nationen (UN)“?",
-      "choices": [
-        "A: António Guterres",
-        "B: Boutros Boutros-Ghali",
-        "C: Ban Ki-moon",
-        "D: Kofi Annan"
+      "explanation": "Die Seitenlinie ist ein Sinnesorgan, das vor allem bei Fischen vorkommt und ihnen hilft, Strömungen und Bewegungen im Wasser zu spüren. Haie nutzen diese Fähigkeit, um ihre Beute zu lokalisieren und sich im Wasser zu orientieren.",
+      "difficulty": 6,
+      "meta": "topic=Tierwelt;subtopic=Sinnesleistungen im Überblick (Sehen, Hören, Geruch, Seitenlinie)",
+      "options": [
+        "Hai",
+        "Adler",
+        "Fuchs",
+        "Elefant"
       ],
-      "correct_answer": "A",
-      "explanation": "António Guterres ist der aktuelle Generalsekretär der Vereinten Nationen. Er trat sein Amt nach Ban Ki-moon an und ist für die Leitung der Organisation verantwortlich.",
-      "difficulty": 1
+      "correctIndex": 0
     },
     {
       "category": "Sport",
-      "topic": "Sonstige",
-      "question": "Welcher Sport wird oft als 'König der Sportarten' bezeichnet?",
+      "topic": "Fußball",
+      "question": "Was ist die maximale Anzahl an Spielern, die ein Fußballteam während eines Spiels auf dem Feld haben darf?",
       "choices": [
-        "A: Fußball",
-        "B: Tennis",
-        "C: Basketball",
-        "D: Schwimmen"
+        "A: 7",
+        "B: 11",
+        "C: 15",
+        "D: 5"
       ],
-      "correct_answer": "A",
-      "explanation": "Fußball wird häufig als 'König der Sportarten' bezeichnet, da er weltweit die größte Anhängerschaft und Popularität hat. Dieser Sport hat eine immense kulturelle Bedeutung und zieht Millionen von Zuschauern an.",
-      "difficulty": 3
+      "correct_answer": "B",
+      "explanation": "Ein Fußballteam besteht aus maximal 11 Spielern, die gleichzeitig auf dem Spielfeld stehen dürfen. Dies umfasst 10 Feldspieler und 1 Torwart.",
+      "difficulty": 2
+    },
+    {
+      "category": "Geschichte",
+      "topic": "Neuzeit",
+      "question": "Welche Philosophie war während der Aufklärung besonders einflussreich und betonte die Vernunft als Grundlage für Wissen und gesellschaftliches Zusammenleben?",
+      "choices": [
+        "A: Romantik",
+        "B: Rationalismus",
+        "C: Barock",
+        "D: Empirismus"
+      ],
+      "correct_answer": "B",
+      "explanation": "Der Rationalismus war eine der zentralen Strömungen der Aufklärung, die die Bedeutung der Vernunft und des logischen Denkens in den Vordergrund stellte. Wichtige Vertreter dieser Bewegung sind unter anderem René Descartes und Baruch de Spinoza. Die Aufklärung förderte auch den Austausch von Ideen in Salons und der Öffentlichkeit.",
+      "difficulty": 5
     },
     {
       "category": "Physik",
-      "topic": "Thermodynamik",
-      "subtopic": "Gibb’sche Phasenregel",
-      "question": "Was beschreibt die Gibb’sche Phasenregel in einem thermodynamischen System?",
+      "topic": "Quantenmechanik",
+      "subtopic": "Korrespondenzregel (Operatorersatz)",
+      "question": "Was beschreibt die Korrespondenzregel in der Quantenmechanik?",
       "choices": [
-        "A: Die Anzahl der Phasen in einem System in Abhängigkeit von der Anzahl der Komponenten und Freiheitsgrade.",
-        "B: Die maximale Temperatur, die ein System erreichen kann.",
-        "C: Die Beziehung zwischen Druck und Volumen in einem idealen Gas.",
-        "D: Die Energieumwandlung zwischen verschiedenen Phasen eines Stoffes."
+        "A: Die Beziehung zwischen Energie und Frequenz eines Photons.",
+        "B: Die quantenmechanische Superposition von Zuständen.",
+        "C: Die Unschärferelation zwischen Ort und Impuls.",
+        "D: Der Übergang von quantenmechanischen Operatoren zu klassischen Variablen im Grenzfall hoher Quantenzahlen."
       ],
-      "correct_answer": "A",
-      "explanation": "Die Gibb’sche Phasenregel gibt an, wie viele Phasen in einem System stabil sein können, abhängig von der Anzahl der chemischen Komponenten und der Freiheitsgrade. Sie wird häufig in der Materialwissenschaft und Chemie verwendet, um das Verhalten von Mischungen zu verstehen.",
-      "difficulty": 7,
-      "subcategory": "Gibb’sche Phasenregel"
+      "correct_answer": "D",
+      "explanation": "Die Korrespondenzregel besagt, dass in der klassischen Limitierung die quantenmechanischen Operatoren durch klassische Variablen ersetzt werden können. Dies ist besonders relevant, wenn die Quantenzahlen groß sind und die Quantenmechanik sich den klassischen Gesetzen annähert.",
+      "difficulty": 4,
+      "subcategory": "Korrespondenzregel (Operatorersatz)"
+    },
+    {
+      "category": "Glaube & Religion",
+      "topic": "Religiöse Ideen, Theologie & Mystik",
+      "question": "Welche Methode wird häufig in religiösen Praktiken verwendet, um innere Stille und Kontemplation zu fördern?",
+      "choices": [
+        "A: Fasten",
+        "B: Meditation",
+        "C: Predigt",
+        "D: Pilgerfahrt"
+      ],
+      "correct_answer": "B",
+      "explanation": "Meditation ist eine weit verbreitete Praxis in vielen Religionen, die darauf abzielt, den Geist zu beruhigen und eine tiefere spirituelle Verbindung herzustellen. Sie kann in Stille oder mit geführten Techniken durchgeführt werden und ist ein zentraler Bestandteil der mystischen Traditionen in vielen Glaubensrichtungen.",
+      "difficulty": 5
     },
     {
       "category": "Wissenschaft",
-      "topic": "Physik",
-      "question": "Welcher Effekt beschreibt die Zeitdilatation in der speziellen Relativitätstheorie?",
+      "topic": "Chemie",
+      "question": "Welche der folgenden Aminosäuren ist eine essentielle Aminosäure, die der menschliche Körper nicht selbst produzieren kann?",
       "choices": [
-        "A: Ein sich schnell bewegender Beobachter misst eine kürzere Zeitspanne für einen ruhenden Prozess.",
-        "B: Die Lichtgeschwindigkeit variiert je nach Bewegung des Beobachters.",
-        "C: Ein Lichtstrahl, der sich durch ein Gravitationsfeld bewegt, wird schneller.",
-        "D: Ein sich schnell bewegender Beobachter misst eine längere Zeitspanne für einen ruhenden Prozess."
+        "A: Leucin",
+        "B: Glycin",
+        "C: Serin",
+        "D: Alanin"
       ],
       "correct_answer": "A",
-      "explanation": "Die Zeitdilatation besagt, dass für einen Beobachter, der sich relativ zu einem ruhenden Prozess schnell bewegt, die Zeit langsamer vergeht. Dies führt dazu, dass er eine kürzere Zeitspanne misst, während der ruhende Beobachter eine längere Zeitspanne wahrnimmt.",
-      "difficulty": 8
+      "explanation": "Essentielle Aminosäuren sind solche, die der Körper nicht selbst herstellen kann und daher mit der Nahrung aufgenommen werden müssen. Leucin ist eine essentielle Aminosäure, während Alanin, Glycin und Serin nicht essentiell sind, da der Körper sie synthetisieren kann.",
+      "difficulty": 5
     }
   ]
 }
