@@ -1,0 +1,116 @@
+{
+  "date": "2025-11-03",
+  "generated_at": "2025-11-03T07:35:28Z",
+  "schema_version": 6,
+  "mode": "normal",
+  "questions": [
+    {
+      "category": "Essen und Trinken",
+      "topic": "Ernährung",
+      "question": "Welches dieser Gewürze wird oft für seine Schärfe geschätzt und ist ein zentraler Bestandteil der mexikanischen Küche?",
+      "choices": [
+        "A: Zimt",
+        "B: Chili",
+        "C: Petersilie",
+        "D: Basilikum"
+      ],
+      "correct_answer": "B",
+      "explanation": "Chili hat seinen Ursprung in Mittel- und Südamerika und ist berühmt für seine Schärfe. In der mexikanischen Küche ist Chili ein unverzichtbares Gewürz, das in vielen traditionellen Gerichten verwendet wird.",
+      "difficulty": 2
+    },
+    {
+      "category": "Natur",
+      "topic": "Tierwelt",
+      "question": "Welches Tier nutzt die Seitenlinie, um Bewegungen und Strömungen im Wasser wahrzunehmen?",
+      "choices": [
+        "A: Adler",
+        "B: Hai",
+        "C: Elefant",
+        "D: Fuchs"
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Seitenlinie ist ein Sinnesorgan, das vor allem bei Fischen vorkommt und ihnen hilft, Strömungen und Bewegungen im Wasser zu spüren. Haie nutzen diese Fähigkeit, um ihre Beute zu lokalisieren und sich im Wasser zu orientieren.",
+      "difficulty": 6,
+      "meta": "topic=Tierwelt;subtopic=Sinnesleistungen im Überblick (Sehen, Hören, Geruch, Seitenlinie)",
+      "options": [
+        "Hai",
+        "Adler",
+        "Fuchs",
+        "Elefant"
+      ],
+      "correctIndex": 0
+    },
+    {
+      "category": "Sport",
+      "topic": "Fußball",
+      "question": "Was ist die maximale Anzahl an Spielern, die ein Fußballteam während eines Spiels auf dem Feld haben darf?",
+      "choices": [
+        "A: 7",
+        "B: 11",
+        "C: 15",
+        "D: 5"
+      ],
+      "correct_answer": "B",
+      "explanation": "Ein Fußballteam besteht aus maximal 11 Spielern, die gleichzeitig auf dem Spielfeld stehen dürfen. Dies umfasst 10 Feldspieler und 1 Torwart.",
+      "difficulty": 2
+    },
+    {
+      "category": "Geschichte",
+      "topic": "Neuzeit",
+      "question": "Welche Philosophie war während der Aufklärung besonders einflussreich und betonte die Vernunft als Grundlage für Wissen und gesellschaftliches Zusammenleben?",
+      "choices": [
+        "A: Romantik",
+        "B: Rationalismus",
+        "C: Barock",
+        "D: Empirismus"
+      ],
+      "correct_answer": "B",
+      "explanation": "Der Rationalismus war eine der zentralen Strömungen der Aufklärung, die die Bedeutung der Vernunft und des logischen Denkens in den Vordergrund stellte. Wichtige Vertreter dieser Bewegung sind unter anderem René Descartes und Baruch de Spinoza. Die Aufklärung förderte auch den Austausch von Ideen in Salons und der Öffentlichkeit.",
+      "difficulty": 5
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Korrespondenzregel (Operatorersatz)",
+      "question": "Was beschreibt die Korrespondenzregel in der Quantenmechanik?",
+      "choices": [
+        "A: Die Beziehung zwischen Energie und Frequenz eines Photons.",
+        "B: Die quantenmechanische Superposition von Zuständen.",
+        "C: Die Unschärferelation zwischen Ort und Impuls.",
+        "D: Der Übergang von quantenmechanischen Operatoren zu klassischen Variablen im Grenzfall hoher Quantenzahlen."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Korrespondenzregel besagt, dass in der klassischen Limitierung die quantenmechanischen Operatoren durch klassische Variablen ersetzt werden können. Dies ist besonders relevant, wenn die Quantenzahlen groß sind und die Quantenmechanik sich den klassischen Gesetzen annähert.",
+      "difficulty": 4,
+      "subcategory": "Korrespondenzregel (Operatorersatz)"
+    },
+    {
+      "category": "Glaube & Religion",
+      "topic": "Religiöse Ideen, Theologie & Mystik",
+      "question": "Welche Methode wird häufig in religiösen Praktiken verwendet, um innere Stille und Kontemplation zu fördern?",
+      "choices": [
+        "A: Fasten",
+        "B: Meditation",
+        "C: Predigt",
+        "D: Pilgerfahrt"
+      ],
+      "correct_answer": "B",
+      "explanation": "Meditation ist eine weit verbreitete Praxis in vielen Religionen, die darauf abzielt, den Geist zu beruhigen und eine tiefere spirituelle Verbindung herzustellen. Sie kann in Stille oder mit geführten Techniken durchgeführt werden und ist ein zentraler Bestandteil der mystischen Traditionen in vielen Glaubensrichtungen.",
+      "difficulty": 5
+    },
+    {
+      "category": "Wissenschaft",
+      "topic": "Chemie",
+      "question": "Welche der folgenden Aminosäuren ist eine essentielle Aminosäure, die der menschliche Körper nicht selbst produzieren kann?",
+      "choices": [
+        "A: Leucin",
+        "B: Glycin",
+        "C: Serin",
+        "D: Alanin"
+      ],
+      "correct_answer": "A",
+      "explanation": "Essentielle Aminosäuren sind solche, die der Körper nicht selbst herstellen kann und daher mit der Nahrung aufgenommen werden müssen. Leucin ist eine essentielle Aminosäure, während Alanin, Glycin und Serin nicht essentiell sind, da der Körper sie synthetisieren kann.",
+      "difficulty": 5
+    }
+  ]
+}
