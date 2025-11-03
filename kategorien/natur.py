@@ -328,6 +328,11 @@ def generate_one(
     target_difficulty: Optional[int] = None,
     mode: Optional[str] = None,
 ) -> dict | None:
+    """Erzeugt genau EINE Frage im Daily-Format:
+    - choices: ["A: …", "B: …", "C: …", "D: …"]
+    - correct_answer: "A"|"B"|"C"|"D"
+    - KEIN options/correctIndex/meta
+    """
     tier = int(target_difficulty) if isinstance(target_difficulty, int) else random.choice([3, 5, 7])
     topic = _pick_topic_for_difficulty(tier)
     subtopic = _choose_subdiscipline(topic, tier)
@@ -338,46 +343,56 @@ def generate_one(
     if not data:
         return None
 
-    # enforce/normalize
-    data["category"]   = CATEGORY_NAME
-    data["topic"]      = topic                 # überschreibt Modell-Rückgabe
-    data["difficulty"] = int(data.get("difficulty", tier))
-
-    q = data.get("question")
+    # Pflichtfelder grob prüfen
+    q = (data.get("question") or "").strip()
     choices = data.get("choices")
-    ca = data.get("correct_answer")
-
-    if not isinstance(q, str) or not q.strip():
-        return None
-    if not isinstance(choices, list) or len(choices) != 4 or not all(isinstance(c, str) for c in choices):
+    ca_raw = (data.get("correct_answer") or "").strip()
+    expl = (data.get("explanation") or "").strip()
+    if not q or not isinstance(choices, list) or len(choices) != 4 or not expl:
         return None
 
-    norm_choices = [_normalize_choice(c) for c in choices]
-    idx = _letter_to_index(ca)
-    if idx is None or not (0 <= idx < 4):
-        return None
+    # Helper
+    letters = ["A", "B", "C", "D"]
+    _has_label = re.compile(r"^\s*[A-DÄÖÜ]\s*[:\)\.\-]\s*", re.IGNORECASE)
+    def _strip_label(s: str) -> str:
+        return _CHOICE_PREFIX_RE.sub("", s.strip())
 
-    # Optionales Meta für Downstream (z.B. Anzeige)
-    data["meta"] = f"topic={topic};subtopic={subtopic}" if subtopic else f"topic={topic}"
+    # 1) Choices normieren → mit "A: …" bis "D: …"
+    raw_texts = [_strip_label(str(c)) for c in choices]
+    labeled = [f"{letters[i]}: {raw_texts[i]}" for i in range(4)]
 
-    # Für App-Kompatibilität (falls gewünscht):
-    data["options"] = norm_choices
-    data["correctIndex"] = idx
+    # 2) correct_answer prüfen/normalisieren (nur Buchstabe)
+    ca_letter = ca_raw[:1].upper() if ca_raw else "A"
+    if ca_letter not in letters:
+        # Falls das Modell z. B. "2" geliefert hat, mappen wir defensiv
+        try:
+            idx = int(re.findall(r"\d", ca_raw)[0])
+        except Exception:
+            idx = 0
+        idx = max(0, min(3, idx))
+        ca_letter = letters[idx]
 
-    # Original-Felder beibehalten (wenn andere Pfade sie lesen)
-    data["choices"] = norm_choices
-    data["correct_answer"] = "ABCD"[idx]
+    # 3) Ausgabe säubern: nur Daily-Felder, keine Zusatz-Metas/Indices
+    out = {
+        "category": CATEGORY_NAME,
+        "topic": topic,                 # Oberthema, Subtopic NICHT exportieren
+        "question": q,
+        "choices": labeled,
+        "correct_answer": ca_letter,
+        "explanation": expl,
+        "difficulty": int(data.get("difficulty", tier)),
+    }
 
-    if not isinstance(data.get("explanation"), str) or not data["explanation"].strip():
-        return None
+    # Optionale Quellenfelder beibehalten, falls Modell sie gesetzt hat
+    for k in ("sourceTitle", "sourceUrl"):
+        v = data.get(k)
+        if isinstance(v, str) and v.strip():
+            out[k] = v.strip()
 
-    return data
+    # Garantiert KEINE Extra-Felder
+    # (falls das Modell sie fälschlich geliefert hat)
+    for k in ("options", "correctIndex", "meta"):
+        if k in out:
+            out.pop(k, None)
 
-def make_question(*args, **kwargs):
-    return generate_one(*args, **kwargs)
-
-PLUGIN = {
-    "key": "Natur",
-    "name": CATEGORY_NAME,
-    "generator": generate_one,
-}
+    return out
