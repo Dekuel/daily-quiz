@@ -41,25 +41,26 @@ jobs:
           python-version: "3.11"
           cache: "pip"
 
+      # ⬇️ Nur EINMAL daily-quiz!
       - name: Install dependencies
-        working-directory: daily-quiz/daily-quiz
+        working-directory: daily-quiz
         run: |
           python -m pip install --upgrade pip
           python -m pip install -r requirements.txt
 
-      - name: Debug env
-        working-directory: daily-quiz/daily-quiz
+      - name: Debug environment
+        working-directory: daily-quiz
         run: |
           python - << 'PY'
           import sys, importlib.util
-          print("PY:", sys.executable)
-          print("sys.path[0:3]:", sys.path[:3])
-          print("requests spec:", importlib.util.find_spec("requests"))
+          print("Python:", sys.executable)
+          print("sys.path[:3] =", sys.path[:3])
+          print("requests:", importlib.util.find_spec("requests"))
           PY
           python generate_category_only.py --list
 
       - name: Generate
-        working-directory: daily-quiz/daily-quiz
+        working-directory: daily-quiz
         shell: bash
         run: |
           [[ "${{ github.event.inputs.shuffle }}" == "true" ]] && SHUF="--shuffle" || SHUF=""
@@ -75,5 +76,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: ${{ github.event.inputs.category }}-${{ github.event.inputs.count }}-${{ github.event.inputs.mode }}
-          path: daily-quiz/daily-quiz/out/*.json
+          path: daily-quiz/out/*.json
           if-no-files-found: error
