@@ -4,7 +4,6 @@ import os, re, json, random, time, threading
 from typing import Optional, Tuple, List, Dict
 from openai import OpenAI
 import requests
-from functools import lru_cache
 
 CATEGORY_NAME = "Politiker"
 
@@ -22,12 +21,12 @@ _MINISTERIEN: List[str] = [
     "Bundesministerium für Ernährung und Landwirtschaft",
     "Bundesministerium für Familie, Senioren, Frauen und Jugend",
     "Bundesministerium für Gesundheit",
-    "Bundesministerium für Verkehr und Digitales",
     "Bundesministerium für Umwelt, Naturschutz, nukleare Sicherheit und Verbraucherschutz",
     "Bundesministerium für Bildung und Forschung",
     "Bundesministerium für Wohnen, Stadtentwicklung und Bauwesen",
     "Bundesministerium für wirtschaftliche Zusammenarbeit und Entwicklung",
     "Bundesministerium der Verteidigung",
+    # Nur die offizielle Schreibweise behalten:
     "Bundesministerium für Digitales und Verkehr",
 ]
 
@@ -101,10 +100,10 @@ _INTL_SEATS: List[Dict[str, str]] = [
 
 _WIKIPEDIA_API = "https://{lang}.wikipedia.org/w/api.php"
 _WIKIDATA_SPARQL = "https://query.wikidata.org/sparql"
-_HTTP_TIMEOUT = 10
+_HTTP_TIMEOUT = 15
 _CACHE_PATH = os.environ.get("POLQUIZ_CACHE_FILE", "politikerquiz_cache.json")
+_memory_cache: Dict[str, Dict[str, float | str]] = {}  # key -> {"value": "...", "ts": 1700000000.0}
 _cache_lock = threading.Lock()
-_memory_cache: Dict[str, Dict[str, str]] = {}  # key -> {"value": "...", "ts": 1700000000}
 
 def _load_cache_from_disk():
     global _memory_cache
@@ -129,9 +128,9 @@ def _cache_get(key: str, max_age_sec: int = 60 * 60 * 24 * 7) -> Optional[str]:
     ent = _memory_cache.get(key)
     if not ent:
         return None
-    if time.time() - ent.get("ts", 0) > max_age_sec:
+    if time.time() - float(ent.get("ts", 0)) > max_age_sec:
         return None
-    return ent.get("value")
+    return str(ent.get("value"))
 
 def _cache_set(key: str, value: str) -> None:
     _memory_cache[key] = {"value": value, "ts": time.time()}
@@ -144,13 +143,17 @@ def _cache_set(key: str, value: str) -> None:
 def _wikipedia_title_to_qid(title_de: str, lang: str = "de") -> Optional[str]:
     """
     Holt die Wikidata-QID zu einem deutschen Wikipedia-Titel/Begriff.
-    Funktioniert gut mit offiziellen Namen wie 'Bundesministerium der Finanzen'.
+    Robust mit User-Agent; folgt Redirects.
     """
     key = f"qid:{lang}:{title_de}"
     cached = _cache_get(key)
     if cached:
         return cached
     try:
+        headers = {
+            "Accept": "application/json",
+            "User-Agent": "PolitikerQuiz/1.0 (+https://example.org)"
+        }
         r = requests.get(
             _WIKIPEDIA_API.format(lang=lang),
             params={
@@ -161,6 +164,7 @@ def _wikipedia_title_to_qid(title_de: str, lang: str = "de") -> Optional[str]:
                 "titles": title_de,
                 "redirects": 1,
             },
+            headers=headers,
             timeout=_HTTP_TIMEOUT,
         )
         r.raise_for_status()
@@ -178,15 +182,16 @@ def _wikipedia_title_to_qid(title_de: str, lang: str = "de") -> Optional[str]:
 def _sparql_first_label(query: str, lang: str = "de") -> Optional[str]:
     """
     Führt SPARQL aus und gibt das erste ?whoLabel als String zurück.
+    Zwischencache: 6h.
     """
     key = f"sparql:{hash(query)}:{lang}"
-    cached = _cache_get(key, max_age_sec=6 * 60 * 60)  # 6h
+    cached = _cache_get(key, max_age_sec=6 * 60 * 60)
     if cached:
         return cached
     try:
         headers = {
             "Accept": "application/sparql-results+json",
-            "User-Agent": "PolitikerQuiz/1.0 (https://example.org)"
+            "User-Agent": "PolitikerQuiz/1.0 (+https://example.org)"
         }
         r = requests.get(
             _WIKIDATA_SPARQL,
@@ -207,19 +212,40 @@ def _sparql_first_label(query: str, lang: str = "de") -> Optional[str]:
         return None
     return None
 
-def _get_head_of_organization_name(qid: str) -> Optional[str]:
-    # P169: Leiter/in / CEO / 'head of the organization'
+# ---- Ministerien: über Positionskette (P2388 -> P1308)
+def _get_ministry_head_via_position(ministry_qid: str) -> Optional[str]:
     query = f"""
     SELECT ?whoLabel WHERE {{
-      wd:{qid} wdt:P169 ?who .
+      wd:{ministry_qid} wdt:P2388 ?position .
+      ?position wdt:P1308 ?who .
       SERVICE wikibase:label {{ bd:serviceParam wikibase:language "de,en". }}
     }}
     LIMIT 1
     """
     return _sparql_first_label(query)
 
+# ---- Organisationen: mehrere Properties probieren + Positionskette
+def _get_org_leader_any(qid: str) -> Optional[str]:
+    for prop in ("P169", "P488", "P1037"):  # Leiter/CEO, Vorsitz, Direktor
+        name = _sparql_first_label(f"""
+        SELECT ?whoLabel WHERE {{
+          wd:{qid} wdt:{prop} ?who .
+          SERVICE wikibase:label {{ bd:serviceParam wikibase:language "de,en". }}
+        }} LIMIT 1
+        """)
+        if name:
+            return name
+    # Fallback: Positionskette
+    return _sparql_first_label(f"""
+    SELECT ?whoLabel WHERE {{
+      wd:{qid} wdt:P2388 ?position .
+      ?position wdt:P1308 ?who .
+      SERVICE wikibase:label {{ bd:serviceParam wikibase:language "de,en". }}
+    }} LIMIT 1
+    """)
+
+# ---- Staaten: Regierungschef (P6)
 def _get_head_of_government_name(country_qid: str) -> Optional[str]:
-    # P6: head of government
     query = f"""
     SELECT ?whoLabel WHERE {{
       wd:{country_qid} wdt:P6 ?who .
@@ -234,24 +260,22 @@ def resolve_minister_name(ministry_name_de: str) -> Optional[str]:
     qid = _wikipedia_title_to_qid(ministry_name_de)
     if not qid:
         return None
-    return _get_head_of_organization_name(qid)
+    return _get_ministry_head_via_position(qid) or _get_org_leader_any(qid)
 
 def resolve_org_head(org_name_de: str) -> Optional[str]:
     qid = _wikipedia_title_to_qid(org_name_de)
     if not qid:
         return None
-    return _get_head_of_organization_name(qid)
+    return _get_org_leader_any(qid)
 
 def resolve_head_of_government(country_name_de: str) -> Optional[str]:
-    # Wikipedia-Titel ist in der Regel identisch mit dem Landesnamen (DE),
-    # Redirects werden vom API-Call gehandhabt.
     qid = _wikipedia_title_to_qid(country_name_de)
     if not qid:
         return None
     return _get_head_of_government_name(qid)
 
 # =====================================================================
-#                       GPT-Formulierung (unverändert)
+#                       GPT-Formulierung
 # =====================================================================
 
 _GPT_TEMPERATURE = 0.72
@@ -304,7 +328,6 @@ def _shuffle_choices_and_fix_answer(data: dict) -> dict:
 
     choice_texts = [_extract_choice_text(c) for c in data["choices"]]
 
-    # Standard: korrekt ist A (wir setzen es ohnehin vorher manuell)
     correct_idx = 0
     if isinstance(data.get("correct_answer"), str) and data["correct_answer"] in _LETTERS:
         correct_idx = _LETTERS.index(data["correct_answer"])
@@ -320,6 +343,13 @@ def _shuffle_choices_and_fix_answer(data: dict) -> dict:
     data["choices"] = _format_choices(shuffled_texts)
     data["correct_answer"] = _LETTERS[new_correct_idx]
     return data
+
+def _reject_if_na_or_empty(data: dict) -> bool:
+    ch = data.get("choices", [])
+    if not isinstance(ch, list) or len(ch) != 4:
+        return True
+    texts = [_extract_choice_text(c).strip().lower() for c in ch]
+    return any(t in ("n/a", "k.a.", "unbekannt", "none", "") for t in texts)
 
 # =====================================================================
 #                 GPT-Prompts (A ist korrekt)
@@ -339,7 +369,7 @@ def _prompt_gpt_from_choice(discipline: str, seed_text: str, correct_name: Optio
     else:
         task = f"Erzeuge eine Frage basierend auf: {seed_text}"
 
-    # wichtiger Hinweis für A=korrekt
+    # wichtiger Hinweis für A=korrekt + keine Pseudo-Antworten
     correct_hint = f"Die korrekte Antwort lautet: {correct_name or 'N/A'}."
     prompt = f"""
 Erzeuge EINE Multiple-Choice-Frage (Deutsch) zur Kategorie „Politik“, Disziplin „{discipline}“.
@@ -348,6 +378,7 @@ Aufgabe:
 - {task}
 - Vier plausible Antwortoptionen A–D.
 - WICHTIG: Setze die KORREKTE Antwort IMMER bei A. B–D sind plausible Distraktoren.
+- Antworten MÜSSEN echte Personennamen sein. KEIN „N/A“, KEIN „unbekannt“.
 - Verwende keine konkreten Datumsangaben in Frage/Erklärung.
 - {correct_hint}
 - Gib ausschließlich valides JSON gemäß diesem Schema aus:
@@ -355,19 +386,6 @@ Aufgabe:
 {_SCHEMA}
 """.strip()
     return prompt
-
-def _prompt_grundrechte() -> str:
-    return f"""
-Erzeuge EINE Multiple-Choice-Frage (Deutsch) zur Kategorie „Politik“, Disziplin „Grundrechte (DE)“.
-
-Vorgaben:
-- Thema: „Was ist KEIN Grundrecht im Sinne des Grundgesetzes (GG)?“.
-- Vier plausible Antwortoptionen A–D, KORREKTE Antwort IMMER bei A; kein „alle/keine der oben“.
-- Erklärung in 2–3 Sätzen.
-- Gib ausschließlich valides JSON gemäß Schema:
-
-{_SCHEMA}
-""".strip()
 
 # =====================================================================
 #                 LOKALE GENERATOREN (stabile Wissensbereiche)
@@ -402,7 +420,7 @@ def _gen_partei_kuerzel_local() -> dict | None:
     data = {
         "category": CATEGORY_NAME,
         "discipline": "Parteikürzel (DE)",
-        "question": f"Wofür steht das Parteikürzel „{kuerzel}““ in Deutschland?",
+        "question": f"Wofür steht das Parteikürzel „{kuerzel}“ in Deutschland?",
         "choices": choices,
         "correct_answer": correct_letter,
         "explanation": "Parteibezeichnungen sind offiziell festgelegt; die anderen Optionen sind Bezeichnungen anderer Parteien.",
@@ -440,64 +458,88 @@ def _gen_sitze_intl_local() -> dict | None:
     }
     return _shuffle_choices_and_fix_answer(data)
 
+# --- Grundrechte (DE): stabil & lokal (kein GPT)
+_GRUNDRECHTE_RECHTE = [
+    "Das Recht auf Meinungsfreiheit",
+    "Die Glaubens- und Gewissensfreiheit",
+    "Die Versammlungsfreiheit",
+    "Die Unverletzlichkeit der Wohnung",
+    "Die allgemeine Handlungsfreiheit",
+    "Die Berufsfreiheit",
+    "Der Gleichheitssatz vor dem Gesetz",
+]
+
+_GRUNDRECHTE_KEIN_RECHT = [
+    "Das Recht auf ein bedingungsloses Grundeinkommen",
+    "Das Recht auf unbegrenzten Waffenbesitz",
+    "Das Recht auf kostenlosen Wohnraum",
+    "Das Recht auf ein eigenes Auto",
+    "Das Recht auf kostenlose Urlaubsreisen",
+]
+
+def _gen_grundrechte_local() -> dict | None:
+    correct = random.choice(_GRUNDRECHTE_KEIN_RECHT)
+    distractors = random.sample(_GRUNDRECHTE_RECHTE, k=3)
+    choices_texts = [correct] + distractors
+    letters = ["A","B","C","D"]
+    choices = [f"{letters[i]}: {choices_texts[i]}" for i in range(4)]
+    data = {
+        "category": CATEGORY_NAME,
+        "discipline": "Grundrechte (DE)",
+        "question": "Was ist KEIN Grundrecht im Sinne des Grundgesetzes (GG)?",
+        "choices": choices,
+        "correct_answer": "A",
+        "explanation": "Die Grundrechte im GG schützen Freiheit und Würde. Ein bedingungsloses Grundeinkommen oder ähnliche Sozialleistungen sind dort nicht als Grundrechte festgeschrieben.",
+        "difficulty": 1,
+    }
+    return _shuffle_choices_and_fix_answer(data)
+
 # =====================================================================
 #           GPT-basierte Generatoren mit LIVE-Antwort (Wikidata)
 # =====================================================================
 
-def _gen_minister_de_gpt() -> dict | None:
-    ministerium = random.choice(_MINISTERIEN)
-    correct_name = resolve_minister_name(ministerium)  # LIVE
-    prompt = _prompt_gpt_from_choice("Ministerien (DE)", ministerium, correct_name)
-    data = _ask_json(prompt)
-    if not data:
-        return None
-    # Setze A explizit auf die live ermittelte Person (falls vorhanden)
-    if correct_name:
-        # Ersetze A-Text
+def _gen_with_live_answer(discipline: str, seed_picker, resolver, max_tries=4) -> dict | None:
+    for _ in range(max_tries):
+        seed = seed_picker()
+        correct_name = resolver(seed)
+        if not correct_name:
+            continue  # anderer Seed
+        prompt = _prompt_gpt_from_choice(discipline, seed, correct_name)
+        data = _ask_json(prompt)
+        if not data:
+            continue
+        # setze A sicher auf den Live-Namen
         choices = data.get("choices", [])
         if isinstance(choices, list) and len(choices) == 4:
-            # setze A:
-            choices_texts = [_extract_choice_text(c) for c in choices]
-            choices_texts[0] = correct_name
-            data["choices"] = _format_choices(choices_texts)
+            texts = [_extract_choice_text(c) for c in choices]
+            texts[0] = correct_name
+            data["choices"] = _format_choices(texts)
             data["correct_answer"] = "A"
-    return _shuffle_choices_and_fix_answer(data)
+        if _reject_if_na_or_empty(data):
+            continue
+        return _shuffle_choices_and_fix_answer(data)
+    return None
+
+def _gen_minister_de_gpt() -> dict | None:
+    return _gen_with_live_answer(
+        "Ministerien (DE)",
+        seed_picker=lambda: random.choice(_MINISTERIEN),
+        resolver=resolve_minister_name
+    )
 
 def _gen_regierungschefs_gpt() -> dict | None:
-    land = random.choice(_WICHTIGE_LAENDER)
-    correct_name = resolve_head_of_government(land)  # LIVE
-    prompt = _prompt_gpt_from_choice("Regierungschefs (Welt)", land, correct_name)
-    data = _ask_json(prompt)
-    if not data:
-        return None
-    if correct_name:
-        choices = data.get("choices", [])
-        if isinstance(choices, list) and len(choices) == 4:
-            choices_texts = [_extract_choice_text(c) for c in choices]
-            choices_texts[0] = correct_name
-            data["choices"] = _format_choices(choices_texts)
-            data["correct_answer"] = "A"
-    return _shuffle_choices_and_fix_answer(data)
+    return _gen_with_live_answer(
+        "Regierungschefs (Welt)",
+        seed_picker=lambda: random.choice(_WICHTIGE_LAENDER),
+        resolver=resolve_head_of_government
+    )
 
 def _gen_org_person_gpt() -> dict | None:
-    org = random.choice(_WICHTIGE_ORGS)
-    correct_name = resolve_org_head(org)  # LIVE
-    prompt = _prompt_gpt_from_choice("Org-Personen", org, correct_name)
-    data = _ask_json(prompt)
-    if not data:
-        return None
-    if correct_name:
-        choices = data.get("choices", [])
-        if isinstance(choices, list) and len(choices) == 4:
-            choices_texts = [_extract_choice_text(c) for c in choices]
-            choices_texts[0] = correct_name
-            data["choices"] = _format_choices(choices_texts)
-            data["correct_answer"] = "A"
-    return _shuffle_choices_and_fix_answer(data)
-
-def _gen_grundrechte_gpt() -> dict | None:
-    data = _ask_json(_prompt_grundrechte())
-    return _shuffle_choices_and_fix_answer(data) if data else None
+    return _gen_with_live_answer(
+        "Org-Personen",
+        seed_picker=lambda: random.choice(_WICHTIGE_ORGS),
+        resolver=resolve_org_head
+    )
 
 # =====================================================================
 #                              PUBLIC API
@@ -509,9 +551,9 @@ _WEIGHTS = [
     ("org_person_gpt", 10),
     ("kanzler_zeit_local", 5),
     ("partei_kuerzel_local", 7),
-    ("grundrechte_gpt", 10),
+    ("grundrechte_local", 10),   # ersetzt früheres grundrechte_gpt
     ("sitze_de_local", 8),
-    ("sitze_intl_local", 10),
+    ("sitze_intl_local", 9),
 ]
 
 def _pick_weighted_type() -> str:
@@ -531,7 +573,7 @@ def generate_one(
         "org_person_gpt": _gen_org_person_gpt,
         "kanzler_zeit_local": _gen_kanzler_zeit_local,
         "partei_kuerzel_local": _gen_partei_kuerzel_local,
-        "grundrechte_gpt": _gen_grundrechte_gpt,
+        "grundrechte_local": _gen_grundrechte_local,
         "sitze_de_local": _gen_sitze_de_local,
         "sitze_intl_local": _gen_sitze_intl_local,
     }
@@ -542,14 +584,18 @@ def generate_one(
     if not data:
         return None
 
+    # Normalisierung
     data["category"] = CATEGORY_NAME
     data["difficulty"] = 1
 
+    # Minimalvalidierung
     if not isinstance(data.get("question"), str) or not data["question"].strip():
         return None
     if not isinstance(data.get("choices"), list) or len(data["choices"]) != 4:
         return None
     if not isinstance(data.get("correct_answer"), str) or data["correct_answer"] not in ("A","B","C","D"):
+        return None
+    if _reject_if_na_or_empty(data):
         return None
 
     return data
