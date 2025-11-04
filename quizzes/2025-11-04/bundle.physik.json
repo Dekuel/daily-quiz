@@ -1,0 +1,168 @@
+{
+  "date": "2025-11-04",
+  "generated_at": "2025-11-04T05:13:48Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Phasen von Einstoffsystemen & Clausius–Clapeyron",
+      "question": "Was beschreibt die Clausius–Clapeyron-Gleichung?",
+      "choices": [
+        "A: Die Energieerhaltung in geschlossenen Systemen.",
+        "B: Die Beziehung zwischen Druck und Temperatur bei Phasenübergängen.",
+        "C: Die Geschwindigkeit eines Teilchens in einem Gas.",
+        "D: Die Wechselwirkung zwischen Licht und Materie."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Clausius–Clapeyron-Gleichung beschreibt, wie der Druck eines Stoffes in Abhängigkeit von der Temperatur verändert wird, wenn ein Phasenübergang stattfindet, wie z.B. von flüssig zu gasförmig. Diese Beziehung ist wichtig, um das Verhalten von Stoffen bei Phasenänderungen zu verstehen.",
+      "difficulty": 5,
+      "subcategory": "Phasen von Einstoffsystemen & Clausius–Clapeyron"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Ansatz der Wellenmechanik (de Broglie/Schrödinger-Idee)",
+      "question": "Welches Konzept beschreibt die Wellen-Teilchen-Dualität in der Quantenmechanik?",
+      "choices": [
+        "A: Das Gesetz der Erhaltung der Energie",
+        "B: Das Newtonsche Gesetz der Bewegung",
+        "C: Der de Broglie-Wellenlängenansatz",
+        "D: Der thermodynamische Gleichgewichtszustand"
+      ],
+      "correct_answer": "C",
+      "explanation": "Der de Broglie-Wellenlängenansatz besagt, dass Teilchen wie Elektronen sowohl Wellen- als auch Teilchencharakter besitzen. Dies ist ein zentraler Aspekt der Quantenmechanik und bildet die Grundlage für die Schrödinger-Gleichung.",
+      "difficulty": 5,
+      "subcategory": "Ansatz der Wellenmechanik (de Broglie/Schrödinger-Idee)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Der elastische Stoß in der SRT",
+      "question": "Was bleibt bei einem elastischen Stoß in der speziellen Relativitätstheorie in einem Inertialsystem konstant?",
+      "choices": [
+        "A: Die Geschwindigkeit der Objekte",
+        "B: Die Gesamtenergie",
+        "C: Die Masse der Objekte",
+        "D: Die Impulsrichtung"
+      ],
+      "correct_answer": "B",
+      "explanation": "Bei einem elastischen Stoß in der speziellen Relativitätstheorie bleibt die Gesamtenergie der beteiligten Objekte konstant. Dies ist eine grundlegende Eigenschaft elastischer Stöße, die auch im relativistischen Kontext gilt.",
+      "difficulty": 5,
+      "subcategory": "Der elastische Stoß in der SRT"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Phasen (Definitionen, Beispiele)",
+      "question": "Welche der folgenden Phasen beschreibt den Zustand, in dem Moleküle sich frei bewegen können und keinen festen Platz einnehmen?",
+      "choices": [
+        "A: Gas",
+        "B: Flüssigkeit",
+        "C: Festkörper",
+        "D: Plasma"
+      ],
+      "correct_answer": "A",
+      "explanation": "In der Gasphase sind die Moleküle weit voneinander entfernt und bewegen sich unabhängig, was ihnen erlaubt, den verfügbaren Raum zu füllen. Im Gegensatz dazu haben Festkörper eine feste Struktur und Flüssigkeiten haben eine definierte Form, die jedoch anpassungsfähig ist.",
+      "difficulty": 6,
+      "subcategory": "Phasen (Definitionen, Beispiele)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Laser-Strahlen: Optik Gaußscher Bündel",
+      "question": "Was beschreibt die Güte eines optischen Systems im Kontext eines Gaußschen Strahlbündels?",
+      "choices": [
+        "A: Die maximale Intensität des Lichtstrahls.",
+        "B: Die Anzahl der Reflexionen, die ein Lichtstrahl durchläuft.",
+        "C: Die Wellenlänge des erzeugten Lichts.",
+        "D: Die Fähigkeit, Lichtstrahlen zu fokussieren und zu bündeln."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Güte eines optischen Systems bezieht sich auf dessen Fähigkeit, Lichtstrahlen präzise zu fokussieren und zu bündeln, was besonders wichtig für die Anwendung von Laserstrahlen ist. Ein höherer Gütefaktor bedeutet weniger Streuung und eine bessere Fokussierung des Strahlbündels.",
+      "difficulty": 9,
+      "subcategory": "Laser-Strahlen: Optik Gaußscher Bündel"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Kernspaltung",
+      "question": "Was ist das Hauptprodukt der Kernspaltung von Uran-235?",
+      "choices": [
+        "A: Neutronen",
+        "B: Helium",
+        "C: Wasserstoff",
+        "D: Sauerstoff"
+      ],
+      "correct_answer": "A",
+      "explanation": "Bei der Kernspaltung von Uran-235 entstehen hauptsächlich Neutronen, die weitere Spaltungen auslösen können. Dies ist der Grund, warum Kernspaltung für die Energieerzeugung in Kernkraftwerken genutzt wird.",
+      "difficulty": 4,
+      "subcategory": "Kernspaltung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Maxwell-Gleichungen (vollständig)",
+      "question": "Welche der folgenden Gleichungen ist eine der Maxwell-Gleichungen?",
+      "choices": [
+        "A: pV = nRT",
+        "B: F = m * a",
+        "C: ∇ · E = ρ/ε₀",
+        "D: E = mc²"
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Gleichung ∇ · E = ρ/ε₀ beschreibt die Beziehung zwischen dem elektrischen Feld E und der elektrischen Ladungsdichte ρ und ist eine der vier Maxwell-Gleichungen. Die anderen Gleichungen sind für unterschiedliche physikalische Phänomene zuständig, die nicht direkt mit Elektromagnetismus zu tun haben.",
+      "difficulty": 5,
+      "subcategory": "Maxwell-Gleichungen (vollständig)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Linsenfehler (Aberrationen)",
+      "question": "Welcher Linsenfehler führt dazu, dass Lichtstrahlen, die parallel zur optischen Achse eintreffen, nicht in einem gemeinsamen Punkt fokussiert werden?",
+      "choices": [
+        "A: astigmatische Aberration",
+        "B: sphärische Aberration",
+        "C: chromatische Aberration",
+        "D: geometrische Aberration"
+      ],
+      "correct_answer": "B",
+      "explanation": "Die sphärische Aberration ist ein Fehler, der auftritt, wenn Linsen mit sphärischen Flächen nicht alle Lichtstrahlen, die parallel zur optischen Achse eintreffen, im gleichen Brennpunkt bündeln. Dies führt zu einem unscharfen Bild, da die Randstrahlen anders fokussiert werden als die zentralen Strahlen.",
+      "difficulty": 4,
+      "subcategory": "Linsenfehler (Aberrationen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Potentialtopf: Streuzustände",
+      "question": "Was beschreibt ein Streuzustand in einem eindimensionalen Potentialtopf?",
+      "choices": [
+        "A: Ein Zustand, in dem sich Teilchen mit konstanter Geschwindigkeit bewegen.",
+        "B: Ein Zustand, der nur in einem unendlichen Potentialtopf existieren kann.",
+        "C: Ein Zustand, der immer eine diskrete Energie hat.",
+        "D: Ein Zustand, der von einer Wellenfunktion beschrieben wird, die nicht im Potentialtopf lokalisiert ist."
+      ],
+      "correct_answer": "D",
+      "explanation": "Streuzustände sind solche, bei denen die Teilchen nicht im Potentialtopf lokalisiert sind und sich außerhalb des Potentials bewegen. Diese Zustände sind wichtig für das Verständnis von Quantenmechanik und Wechselwirkungen zwischen Teilchen und Potentialen.",
+      "difficulty": 6,
+      "subcategory": "Potentialtopf: Streuzustände"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Lichtleitfasern (Grundlagen)",
+      "question": "Was ist das grundlegende Prinzip, das Lichtleitfasern zugrunde liegt?",
+      "choices": [
+        "A: Totalreflexion",
+        "B: Beugung",
+        "C: Absorption",
+        "D: Streuung"
+      ],
+      "correct_answer": "A",
+      "explanation": "Lichtleitfasern nutzen das Prinzip der Totalreflexion, um Licht über längere Strecken zu übertragen. Wenn der Lichtstrahl auf die Grenzfläche zwischen dem Kern der Faser und dem Mantel trifft, wird er vollständig reflektiert, solange der Einfallswinkel größer als der kritische Winkel ist.",
+      "difficulty": 5,
+      "subcategory": "Lichtleitfasern (Grundlagen)"
+    }
+  ]
+}
