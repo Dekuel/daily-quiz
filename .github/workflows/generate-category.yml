@@ -1,35 +1,24 @@
-name: Generate single category
+name: Generate Category
 
 on:
   workflow_dispatch:
     inputs:
       category:
-        description: "Plugin-Key (Ordnername unter ./kategorien)"
+        description: "Plugin-Key (z.B. politiker, politik, natur)"
         required: true
-        default: "natur"
+        default: "politiker"
       count:
         description: "Anzahl Fragen"
         required: true
         default: "20"
       mode:
-        description: "Difficulty-Profil"
+        description: "Mode (normal|schwer|physik|random)"
         required: true
-        default: "normal"
-        type: choice
-        options: ["normal", "schwer", "physik", "random"]
-      shuffle:
-        description: "Antworten mischen?"
-        required: true
-        default: "true"
-        type: choice
-        options: ["true", "false"]
+        default: "random"
 
 jobs:
-  generate:
+  build:
     runs-on: ubuntu-latest
-    env:
-      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-      PYTHONUTF8: "1"
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -37,28 +26,21 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
-          cache: "pip"
+          python-version: "3.11"      # oder "3.13", aber dann überall konsistent
 
-      - name: Install deps
+      - name: Install dependencies
+        working-directory: daily-quiz/daily-quiz
         run: |
           python -m pip install --upgrade pip
-          pip install "openai>=1.59"
+          python -m pip install -r requirements.txt
 
-      - name: Run generator
+      - name: Show env info (debug)
+        working-directory: daily-quiz/daily-quiz
         run: |
-          PY_ARGS=()
-          [ "${{ github.event.inputs.shuffle }}" = "true" ] && PY_ARGS+=(--shuffle)
-          python generate_category_only.py \
-            --category "${{ github.event.inputs.category }}" \
-            --count "${{ github.event.inputs.count }}" \
-            --mode "${{ github.event.inputs.mode }}" \
-            --out "out/${{ github.event.inputs.category }}.${{ github.event.inputs.count }}.${{ github.run_id }}.json" \
-            "${PY_ARGS[@]}"
+          python -c "import sys,requests; print(sys.executable); print(requests.__version__)"
 
-      - name: Upload artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: ${{ github.event.inputs.category }}-${{ github.event.inputs.count }}-${{ github.event.inputs.mode }}
-          path: out/*.json
-          if-no-files-found: error
+      - name: Generate
+        working-directory: daily-quiz/daily-quiz
+        run: |
+          python generate_category_only.py --list
+          python generate_category_only.py -c "${{ github.event.inputs.category }}" -n "${{ github.event.inputs.count }}" -m "${{ github.event.inputs.mode }}" --shuffle
