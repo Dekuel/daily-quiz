@@ -1,6 +1,6 @@
 {
   "date": "2025-11-03",
-  "generated_at": "2025-11-03T07:37:14Z",
+  "generated_at": "2025-11-03T12:38:21Z",
   "schema_version": 6,
   "mode": "physik",
   "questions": [
@@ -8,161 +8,161 @@
       "category": "Physik",
       "topic": "Analytische Mechanik",
       "subtopic": "Reibung in der Lagrange-Formulierung",
-      "question": "Wie wird die Reibungskraft in der Lagrange-Formulierung der analytischen Mechanik berücksichtigt?",
+      "question": "Was beschreibt die Reibung in der Lagrange-Formulierung der Mechanik?",
       "choices": [
-        "A: Durch die Vernachlässigung der Reibung in allen Gleichungen.",
-        "B: Durch die Einführung eines dissipativen Terms in die Lagrange-Gleichungen.",
-        "C: Durch die Berücksichtigung einer externen Kraft, die die Reibung darstellt.",
-        "D: Durch die Verwendung der Hamiltonschen Formulierung anstelle der Lagrange-Formulierung."
+        "A: Sie wirkt entgegen der Bewegung und reduziert die Geschwindigkeit.",
+        "B: Sie hat keinen Einfluss auf die Bewegung von Körpern.",
+        "C: Sie verstärkt die Bewegung von Körpern.",
+        "D: Sie ist nur in der Quantenmechanik relevant."
       ],
-      "correct_answer": "B",
-      "explanation": "In der Lagrange-Formulierung wird die Reibungskraft durch einen dissipativen Term in den Lagrange-Gleichungen integriert, was die Energieverluste im System berücksichtigt. Diese Vorgehensweise ermöglicht eine präzisere Modellierung dynamischer Systeme, in denen Reibung eine Rolle spielt.",
-      "difficulty": 8,
+      "correct_answer": "A",
+      "explanation": "In der Lagrange-Formulierung wird Reibung als eine Kraft beschrieben, die der Bewegung eines Körpers entgegenwirkt und somit die Geschwindigkeit verringert. Diese Berücksichtigung ist wichtig, um realistische Bewegungsmodelle zu erstellen.",
+      "difficulty": 2,
       "subcategory": "Reibung in der Lagrange-Formulierung"
     },
     {
       "category": "Physik",
-      "topic": "Elektrodynamik",
-      "subtopic": "Inhomogene Wellengleichung",
-      "question": "Was beschreibt die inhomogene Wellengleichung in der Elektrodynamik?",
+      "topic": "Quantenmechanik",
+      "subtopic": "Bra- und Ket-Vektoren; Dualraum",
+      "question": "Was stellt ein Ket-Vektor in der Quantenmechanik dar?",
       "choices": [
-        "A: Die Wechselwirkungen zwischen elektrischen und magnetischen Feldern in einem Vakuum.",
-        "B: Die Verteilung von Quellen, die elektromagnetische Wellen erzeugen.",
-        "C: Die Ausbreitung elektromagnetischer Wellen in einem homogenen Medium.",
-        "D: Die Reflexion von Wellen an der Grenzfläche zwischen zwei Medien."
+        "A: Einen Operator, der auf Zustände wirkt",
+        "B: Eine Wahrscheinlichkeit für einen Zustand",
+        "C: Eine Messung des Systems",
+        "D: Einen Zustand eines quantenmechanischen Systems"
       ],
-      "correct_answer": "B",
-      "explanation": "Die inhomogene Wellengleichung beschreibt, wie elektromagnetische Wellen durch Quellen beeinflusst werden, die nicht gleichmäßig verteilt sind. Sie berücksichtigt die Effekte von Ladungen und Strömen, die in der Umgebung vorhanden sind und die Wellen erzeugen oder modifizieren können.",
+      "correct_answer": "D",
+      "explanation": "Ein Ket-Vektor, notiert als |ψ⟩, repräsentiert einen Zustand in der Quantenmechanik. Er gehört zum Hilbertraum und ist ein zentrales Element zur Beschreibung quantenmechanischer Systeme.",
       "difficulty": 4,
-      "subcategory": "Inhomogene Wellengleichung"
-    },
-    {
-      "category": "Physik",
-      "topic": "Festkörperphysik",
-      "subtopic": "Punktdefekte (Überblick)",
-      "question": "Welche der folgenden Aussagen beschreibt korrekt einen Punktdefekt in einem Kristallgitter?",
-      "choices": [
-        "A: Ein Punktdefekt ist eine Fehlstelle, an der ein Atom im Gitter fehlt.",
-        "B: Punktdefekte sind immer größere Ansammlungen von Atomen.",
-        "C: Punktdefekte treten nur in amorphen Materialien auf.",
-        "D: Punktdefekte beeinflussen die elektrische Leitfähigkeit nicht."
-      ],
-      "correct_answer": "A",
-      "explanation": "Ein Punktdefekt ist eine lokale Unregelmäßigkeit im Kristallgitter, typischerweise durch das Fehlen eines Atoms (Fehlstelle) oder durch zusätzliche Atome (Interstitielle). Diese Defekte können die Eigenschaften eines Materials erheblich beeinflussen, einschließlich seiner elektrischen und thermischen Leitfähigkeit.",
-      "difficulty": 6,
-      "subcategory": "Punktdefekte (Überblick)"
-    },
-    {
-      "category": "Physik",
-      "topic": "Elektrodynamik",
-      "subtopic": "Feldenergie & Feldimpuls",
-      "question": "Welcher Zusammenhang gilt für die Feldenergie E und den Feldimpuls P eines elektrischen Feldes in einem homogenen Medium?",
-      "choices": [
-        "A: E = 0,5 * ε * E² und P = ε * E",
-        "B: E = ε * E und P = 0,5 * ε * E²",
-        "C: E = 0,5 * ε * E² und P = 0,5 * ε * E",
-        "D: E = ε * E² und P = 0,5 * ε * E"
-      ],
-      "correct_answer": "A",
-      "explanation": "Die Feldenergie einer elektrischen Energie ist definiert als E = 0,5 * ε * E², während der Feldimpuls P als P = ε * E gegeben ist. Diese Beziehungen sind zentral in der Elektrodynamik und zeigen, wie elektrische Felder Energie speichern und Impuls übertragen können.",
-      "difficulty": 7,
-      "subcategory": "Feldenergie & Feldimpuls"
-    },
-    {
-      "category": "Physik",
-      "topic": "Elektrodynamik",
-      "subtopic": "Reflexion & Brechung elektromagnetischer Wellen",
-      "question": "Was passiert, wenn Licht von einem Medium mit höherem Brechungsindex in ein Medium mit niedrigerem Brechungsindex übergeht?",
-      "choices": [
-        "A: Es wird nur reflektiert.",
-        "B: Es passiert nichts.",
-        "C: Es wird reflektiert und gebrochen.",
-        "D: Es wird nur gebrochen."
-      ],
-      "correct_answer": "C",
-      "explanation": "Wenn Licht von einem Medium mit höherem Brechungsindex in ein Medium mit niedrigerem Brechungsindex übergeht, wird ein Teil des Lichts reflektiert und ein Teil wird gebrochen. Dies ist ein grundlegendes Prinzip der Optik und beschreibt das Verhalten von Licht an der Grenzfläche zwischen zwei verschiedenen Medien.",
-      "difficulty": 2,
-      "subcategory": "Reflexion & Brechung elektromagnetischer Wellen"
+      "subcategory": "Bra- und Ket-Vektoren; Dualraum"
     },
     {
       "category": "Physik",
       "topic": "Kern- und Teilchenphysik",
-      "subtopic": "Mott‑Wirkungsquerschnitt",
-      "question": "Was beschreibt der Mott-Wirkungsquerschnitt in der Kern- und Teilchenphysik?",
+      "subtopic": "Zerfallskanäle schwerer Quarkonia",
+      "question": "Was ist ein typischer Zerfallskanal für schwere Quarkonia wie das Upsilon?",
       "choices": [
-        "A: Die Wahrscheinlichkeit, dass ein Elektron von einem Atomkern gestreut wird.",
-        "B: Die Energieverteilung von Photonen in einem Vakuum.",
-        "C: Die Geschwindigkeit von Teilchen in einem elektrischen Feld.",
-        "D: Die Anzahl der Neutronen in einem Atomkern."
+        "A: Proton-Proton-Streuung",
+        "B: Neutronen-Einfang",
+        "C: Elektron-Positron-Paarbildung",
+        "D: Alpha-Zerfall"
       ],
-      "correct_answer": "A",
-      "explanation": "Der Mott-Wirkungsquerschnitt beschreibt die Wahrscheinlichkeit, dass ein Elektron bei einer Streuung mit einem Atomkern abgelenkt wird. Diese Größe ist entscheidend für die Analyse von Streuexperimenten in der Teilchenphysik.",
-      "difficulty": 6,
-      "subcategory": "Mott‑Wirkungsquerschnitt"
+      "correct_answer": "C",
+      "explanation": "Schwere Quarkonia wie das Upsilon zerfallen häufig in ein Elektron-Positron-Paar. Diese Zerfallskanäle sind charakteristisch für die Wechselwirkungen zwischen Quarks und Leptonen.",
+      "difficulty": 4,
+      "subcategory": "Zerfallskanäle schwerer Quarkonia"
     },
     {
       "category": "Physik",
-      "topic": "Festkörperphysik",
-      "subtopic": "Quasi-freie Elektronen (Näherung)",
-      "question": "Was beschreibt das Modell der quasi-freien Elektronen in Festkörpern?",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Spektroskopie mittels Kernreaktionen",
+      "question": "Welche Methode wird häufig verwendet, um die Energie von Gammastrahlung zu messen, die bei Kernreaktionen entsteht?",
       "choices": [
-        "A: Die Elektronen sind vollständig gebunden und können sich nicht bewegen.",
-        "B: Die Elektronen bewegen sich nur in einer Dimension.",
-        "C: Die Elektronen bewegen sich wie freie Teilchen und sind nicht an Atomrümpfe gebunden.",
-        "D: Die Elektronen können nur bei extrem hohen Temperaturen bewegt werden."
+        "A: Szintillationsspektroskopie",
+        "B: Massenspektrometrie",
+        "C: Mikrowellenspektroskopie",
+        "D: Elektronenspinresonanz"
       ],
-      "correct_answer": "C",
-      "explanation": "Das Modell der quasi-freien Elektronen geht davon aus, dass Elektronen in einem Festkörper sich wie freie Teilchen bewegen können, jedoch unter dem Einfluss periodischer Potentiale der Atomrümpfe. Dies erklärt viele elektronische Eigenschaften von Metallen, wie die elektrische Leitfähigkeit.",
-      "difficulty": 4,
-      "subcategory": "Quasi-freie Elektronen (Näherung)"
+      "correct_answer": "A",
+      "explanation": "Die Szintillationsspektroskopie ist eine Technik, die häufig zur Messung der Energie von Gammastrahlung verwendet wird, indem sie die von der Strahlung erzeugten Lichtblitze in elektrische Signale umwandelt. Diese Methode ist besonders nützlich in der Kern- und Teilchenphysik zur Analyse von Kernreaktionen.",
+      "difficulty": 6,
+      "subcategory": "Spektroskopie mittels Kernreaktionen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Gaußsche Bündel & abbildende Elemente",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt die Eigenschaften eines idealen Gaußschen Bündels in Bezug auf abbildende Elemente?",
+      "choices": [
+        "A: Die Brennweite eines abbildenden Elements ist unabhängig von der Divergenz des einfallenden Lichtstrahls.",
+        "B: Ein idealer Gaußscher Strahl hat an jedem Punkt der Strahlachse eine konstante Intensität.",
+        "C: Die Form eines idealen Gaußschen Bündels hängt nur von der Wellenlänge des Lichts ab und nicht von der Form der Apertur.",
+        "D: Ein idealer Gaußscher Strahl bleibt über große Distanzen konstant fokussiert, vorausgesetzt, die aperturbegrenzenden Elemente sind optimal angeordnet."
+      ],
+      "correct_answer": "D",
+      "explanation": "Ein ideales Gaußsches Bündel zeigt eine optimale Fokussierung über große Distanzen, solange die abbildenden Elemente richtig ausgerichtet sind. Dies liegt an der speziellen mathematischen Form der elektromagnetischen Wellenfronten, die in einem Gaußschen Bündel auftreten. Die anderen Aussagen sind falsch, da sie grundlegende Eigenschaften des Lichtverhaltens missverstehen.",
+      "difficulty": 10,
+      "subcategory": "Gaußsche Bündel & abbildende Elemente"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Turbulenz & Strömungswiderstand",
+      "question": "Welcher Faktor beeinflusst maßgeblich den Strömungswiderstand eines Körpers in einer turbulent strömenden Flüssigkeit?",
+      "choices": [
+        "A: Die Oberflächenrauhigkeit des Körpers",
+        "B: Die Dichte der Flüssigkeit",
+        "C: Die Temperatur der Flüssigkeit",
+        "D: Die Farbe des Körpers"
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Oberflächenrauhigkeit spielt eine entscheidende Rolle im Strömungswiderstand, insbesondere bei turbulenten Strömungen. Eine raue Oberfläche kann die Turbulenzen verstärken und somit den Widerstand erhöhen, während eine glatte Oberfläche den Widerstand verringert.",
+      "difficulty": 7,
+      "subcategory": "Turbulenz & Strömungswiderstand"
     },
     {
       "category": "Physik",
       "topic": "Statistische Mechanik",
-      "subtopic": "Erster & Zweiter Hauptsatz (reversibel/irreversibel)",
-      "question": "Was beschreibt der zweite Hauptsatz der Thermodynamik?",
+      "subtopic": "Virialsatz & Äquipartition (Gleichverteilungssatz)",
+      "question": "Was besagt der Äquipartitionstheorem in der statistischen Mechanik?",
       "choices": [
-        "A: Die Gesamtenergie eines geschlossenen Systems bleibt konstant.",
-        "B: Wärme kann nicht von einem kälteren zu einem wärmeren Körper fließen.",
-        "C: Energie kann aus nichts geschaffen werden.",
-        "D: Der Druck eines Gases ist proportional zu seiner Temperatur."
+        "A: Temperatur ist unabhängig von der kinetischen Energie der Teilchen.",
+        "B: Jeder Freiheitsgrad eines Systems trägt gleich viel zur inneren Energie bei.",
+        "C: Teilchen in einem idealen Gas bewegen sich unabhängig von einander.",
+        "D: Die Gesamtenergie eines Systems bleibt immer konstant."
       ],
       "correct_answer": "B",
-      "explanation": "Der zweite Hauptsatz der Thermodynamik besagt, dass Wärme natürlicherweise nicht von einem kälteren zu einem wärmeren Körper fließen kann, was die Richtung von Energieübertragungen bestimmt. Dies ist ein grundlegendes Konzept, das irreversibile Prozesse beschreibt und die Entstehung von Entropie erklärt.",
-      "difficulty": 2,
-      "subcategory": "Erster & Zweiter Hauptsatz (reversibel/irreversibel)"
+      "explanation": "Der Äquipartitionstheorem besagt, dass in einem thermodynamischen Gleichgewicht jeder Freiheitsgrad eines Systems im Mittel gleich viel zur inneren Energie beiträgt. Dies bedeutet, dass die Energie eines Systems gleichmäßig auf die verschiedenen Bewegungsarten verteilt ist.",
+      "difficulty": 4,
+      "subcategory": "Virialsatz & Äquipartition (Gleichverteilungssatz)"
     },
     {
       "category": "Physik",
-      "topic": "Quantenmechanik",
-      "subtopic": "Besetzungszahldarstellung",
-      "question": "Was beschreibt die Besetzungszahldarstellung in der Quantenmechanik?",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Saugvermögen & Saugleistung von Pumpen",
+      "question": "Was beschreibt das Saugvermögen einer Pumpe?",
       "choices": [
-        "A: Die Bewegung von Teilchen in einem klassischen System.",
-        "B: Die Anzahl der Teilchen in verschiedenen Energiezuständen.",
-        "C: Die Wechselwirkungen zwischen Photonen und Elektronen.",
-        "D: Die Geschwindigkeit von Teilchen in einem quantenmechanischen System."
-      ],
-      "correct_answer": "B",
-      "explanation": "Die Besetzungszahldarstellung beschreibt, wie viele Teilchen sich in jedem möglichen Energiezustand befinden. Sie ist ein fundamentales Konzept in der statistischen Mechanik und wichtig für das Verständnis von quantenmechanischen Systemen mit vielen Teilchen.",
-      "difficulty": 5,
-      "subcategory": "Besetzungszahldarstellung"
-    },
-    {
-      "category": "Physik",
-      "topic": "Quantenmechanik",
-      "subtopic": "Spin (allgemein)",
-      "question": "Was beschreibt der Spin eines Teilchens in der Quantenmechanik?",
-      "choices": [
-        "A: Eine Art innerer Drehimpuls des Teilchens.",
-        "B: Die Masse des Teilchens.",
-        "C: Die Geschwindigkeit, mit der sich das Teilchen bewegt.",
-        "D: Die elektrische Ladung des Teilchens."
+        "A: Die maximale Menge an Flüssigkeit, die die Pumpe aus einem Behälter ansaugen kann.",
+        "B: Den Druck, den die Pumpe erzeugt, um Flüssigkeit zu bewegen.",
+        "C: Die Geschwindigkeit, mit der die Pumpe Flüssigkeit fördert.",
+        "D: Die Energie, die für den Betrieb der Pumpe benötigt wird."
       ],
       "correct_answer": "A",
-      "explanation": "Der Spin ist eine fundamentale Eigenschaft von Teilchen, die als eine Art innerer Drehimpuls angesehen werden kann. Er ist quantisiert und spielt eine wichtige Rolle in der Quantenmechanik, insbesondere in Bezug auf die Statistik von Fermionen und Bosonen.",
-      "difficulty": 4,
-      "subcategory": "Spin (allgemein)"
+      "explanation": "Das Saugvermögen einer Pumpe bezieht sich auf die maximale Menge an Flüssigkeit, die sie aus einem Behälter ansaugen kann. Es ist ein wichtiger Faktor bei der Auswahl und dem Einsatz von Pumpen in verschiedenen Anwendungen.",
+      "difficulty": 3,
+      "subcategory": "Saugvermögen & Saugleistung von Pumpen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Steinerscher Satz",
+      "question": "Welcher der folgenden Sätze beschreibt den Steinerschen Satz korrekt?",
+      "choices": [
+        "A: Der Steinersche Satz besagt, dass das Trägheitsmoment eines Körpers um eine Achse parallel zu einer Achse durch seinen Schwerpunkt gleich dem Trägheitsmoment um die Schwerpunktachse plus der Masse des Körpers multipliziert mit dem Quadrat des Abstandes zwischen den Achsen ist.",
+        "B: Der Steinersche Satz beschreibt die Beziehung zwischen der Geschwindigkeit eines Körpers und der auf ihn wirkenden Kraft.",
+        "C: Der Steinersche Satz bezieht sich ausschließlich auf die Rotation von starren Körpern ohne Berücksichtigung von Kräften.",
+        "D: Der Steinersche Satz ist ein Prinzip der Thermodynamik, das die Energieumwandlung in geschlossenen Systemen beschreibt."
+      ],
+      "correct_answer": "A",
+      "explanation": "Der Steinersche Satz beschreibt, wie das Trägheitsmoment eines Körpers um eine Achse, die nicht durch den Schwerpunkt verläuft, berechnet werden kann. Er ist besonders wichtig in der klassischen Mechanik, um Eigenschaften rotierender Körper zu verstehen und zu analysieren.",
+      "difficulty": 7,
+      "subcategory": "Steinerscher Satz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Metall–Isolator-Übergang",
+      "question": "Was beschreibt den Metall-Insulator-Übergang in Festkörpern?",
+      "choices": [
+        "A: Eine Änderung der elektrischen Leitfähigkeit von einem Metall zu einem Isolator.",
+        "B: Eine Verschiebung der Atome in einem Kristallgitter ohne Leitfähigkeitsänderung.",
+        "C: Eine Änderung der Temperatur, die zu einer Verdampfung führt.",
+        "D: Eine Veränderung der Farbe eines Materials bei Erwärmung."
+      ],
+      "correct_answer": "A",
+      "explanation": "Der Metall-Insulator-Übergang beschreibt den Punkt, an dem ein Material von einem metallischen Zustand mit hoher elektrischer Leitfähigkeit in einen isolierenden Zustand mit geringer Leitfähigkeit übergeht. Dieser Übergang ist entscheidend für das Verständnis von Materialien in der Festkörperphysik und hat zahlreiche Anwendungen in der Elektronik.",
+      "difficulty": 5,
+      "subcategory": "Metall–Isolator-Übergang"
     }
   ]
 }
