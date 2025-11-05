@@ -10,11 +10,11 @@ on:
       count:
         description: "Anzahl Fragen"
         required: true
-        default: "20"
+        default: "10"
       mode:
         description: "Difficulty-Profil"
         required: true
-        default: "random"
+        default: "normal"
         type: choice
         options: ["normal", "schwer", "physik", "random"]
       shuffle:
@@ -41,66 +41,26 @@ jobs:
           python-version: "3.11"
           cache: "pip"
 
-      # 🔎 Auto-Detect: Wo liegen requirements.txt & generate_category_only.py?
-      - name: Locate project dir
-        id: locate
-        shell: bash
-        run: |
-          set -euo pipefail
-          echo "GITHUB_WORKSPACE=$GITHUB_WORKSPACE"
-          echo "Repo root content:"
-          ls -la
-          # Kandidaten durchprobieren
-          CANDIDATES=("." "daily-quiz" "daily_quiz" "app" "src")
-          WORKDIR=""
-          for d in "${CANDIDATES[@]}"; do
-            if [ -f "$d/requirements.txt" ] && [ -f "$d/generate_category_only.py" ]; then
-              WORKDIR="$d"
-              break
-            fi
-          done
-          # Fallback: Suche per git ls-files
-          if [ -z "$WORKDIR" ]; then
-            REQS=$(git ls-files "*requirements.txt" || true)
-            while IFS= read -r f; do
-              dir=$(dirname "$f")
-              if [ -f "$dir/generate_category_only.py" ]; then
-                WORKDIR="$dir"
-                break
-              fi
-            done <<< "$REQS"
-          fi
-          # Letzter Fallback: plain repo root
-          WORKDIR="${WORKDIR:-.}"
-          echo "Detected WORKDIR=$WORKDIR"
-          echo "WORKDIR=$WORKDIR" >> "$GITHUB_ENV"
-          echo "workdir=$WORKDIR" >> "$GITHUB_OUTPUT"
-          echo "Listing $WORKDIR:"
-          ls -la "$WORKDIR"
-
       - name: Install dependencies
-        shell: bash
-        working-directory: ${{ env.WORKDIR }}
+        working-directory: daily-quiz/daily-quiz
         run: |
           python -m pip install --upgrade pip
           python -m pip install -r requirements.txt
 
-      - name: Debug environment
-        shell: bash
-        working-directory: ${{ env.WORKDIR }}
+      - name: Debug env
+        working-directory: daily-quiz/daily-quiz
         run: |
           python - << 'PY'
-          import sys, importlib.util, os
-          print("Python:", sys.executable)
-          print("CWD:", os.getcwd())
-          print("sys.path[:3] =", sys.path[:3])
-          print("requests:", importlib.util.find_spec("requests"))
+          import sys, importlib.util
+          print("PY:", sys.executable)
+          print("sys.path[0:3]:", sys.path[:3])
+          print("requests spec:", importlib.util.find_spec("requests"))
           PY
           python generate_category_only.py --list
 
       - name: Generate
+        working-directory: daily-quiz/daily-quiz
         shell: bash
-        working-directory: ${{ env.WORKDIR }}
         run: |
           [[ "${{ github.event.inputs.shuffle }}" == "true" ]] && SHUF="--shuffle" || SHUF=""
           mkdir -p out
@@ -115,5 +75,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: ${{ github.event.inputs.category }}-${{ github.event.inputs.count }}-${{ github.event.inputs.mode }}
-          path: ${{ env.WORKDIR }}/out/*.json
+          path: daily-quiz/daily-quiz/out/*.json
           if-no-files-found: error
