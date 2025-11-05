@@ -72,16 +72,17 @@ _PARTY_ACRONYMS: Dict[str, str] = {
     "AfD": "Alternative für Deutschland",
     "BSW": "Bündnis Sahra Wagenknecht – Vernunft und Gerechtigkeit",
 }
-# Ergänzung direkt unter _PARTY_ACRONYMS:
+
+# Plausible Falschantworten pro Kürzel (gleiche Initialen)
 _PARTY_FALSE_EXPANSIONS: Dict[str, List[str]] = {
     "CDU": [
-        "Christlich Demokratische Union",          # ohne 'Deutschlands'
+        "Christlich Demokratische Union",
         "Christliche Deutsche Union",
         "Christdemokratische Union",
-        "Christlich Demokratische Unionisten"      # leicht technokratisch
+        "Christlich Demokratische Unionisten"
     ],
     "CSU": [
-        "Christlich-Soziale Union",                # ohne 'in Bayern'
+        "Christlich-Soziale Union",
         "Christliche Sozial-Union",
         "Christsozialer Union",
         "Christliche Soziale Union"
@@ -112,6 +113,16 @@ _PARTY_FALSE_EXPANSIONS: Dict[str, List[str]] = {
     ],
 }
 
+# Einzeiler zu Parteien: Ausrichtung/Gründung – für interessantere Erklärungen
+_PARTY_FACTS: Dict[str, str] = {
+    "CDU": "Mitte-rechts, christdemokratisch; gegründet 1945.",
+    "CSU": "Bayerische Schwester der CDU; konservativ; seit 1945.",
+    "SPD": "Sozialdemokratisch; gegründet 1863 (älteste Bundestagspartei).",
+    "FDP": "Liberale Partei; marktwirtschaftlich und bürgerrechtlich; seit 1948.",
+    "AfD": "Rechtskonservativ bis rechtspopulistisch; gegründet 2013.",
+    "BSW": "Linkspopulistisches Bündnis um Sahra Wagenknecht; gegründet 2024.",
+}
+
 _DE_SEATS: List[Dict[str, str]] = [
     {"institution": "Bundesregierung (Regierungssitz)", "stadt": "Berlin"},
     {"institution": "Bundestag (Plenarsitz)", "stadt": "Berlin"},
@@ -122,64 +133,35 @@ _DE_SEATS: List[Dict[str, str]] = [
     {"institution": "Europäische Zentralbank (EZB) – Sitz in DE", "stadt": "Frankfurt am Main"},
 ]
 
-# Internationale Organisationen – mit Genitiv (inklusive Artikel!), Land und ggf. Gebäude/Ort
+# Internationale Organisationen – mit Genitiv, Land und ggf. Gebäude/Ort
 _INTL_SEATS: List[Dict[str, str]] = [
-    {
-        "organisation": "Vereinte Nationen (UN) – Hauptquartier",
-        "stadt": "New York City",
-        "land": "USA",
-        "genitiv_full": "der Vereinten Nationen (UN)",
-        "ort": "UN-Hauptquartier"
-    },
-    {
-        "organisation": "NATO – Hauptsitz",
-        "stadt": "Brüssel",
-        "land": "Belgien",
-        "genitiv_full": "der NATO"
-        # kein spezielles Gebäude nötig
-    },
-    {
-        "organisation": "Internationaler Gerichtshof (IGH)",
-        "stadt": "Den Haag",
-        "land": "Niederlande",
-        "genitiv_full": "des Internationalen Gerichtshofs (IGH)",
-        "ort": "Friedenspalast"
-    },
-    {
-        "organisation": "Europäischer Gerichtshof (EuGH)",
-        "stadt": "Luxemburg",
-        "land": "Luxemburg",
-        "genitiv_full": "des Europäischen Gerichtshofs (EuGH)",
-        "ort": "Kirchberg-Plateau"
-    },
-    {
-        "organisation": "Europarat – Sitz",
-        "stadt": "Straßburg",
-        "land": "Frankreich",
-        "genitiv_full": "des Europarats",
-        "ort": "Palais de l’Europe"
-    },
-    {
-        "organisation": "OSZE – Sekretariat",
-        "stadt": "Wien",
-        "land": "Österreich",
-        "genitiv_full": "der OSZE"
-    },
-    {
-        "organisation": "OECD – Hauptsitz",
-        "stadt": "Paris",
-        "land": "Frankreich",
-        "genitiv_full": "der OECD",
-        "ort": "Château de la Muette"
-    },
-    {
-        "organisation": "WTO – Sitz",
-        "stadt": "Genf",
-        "land": "Schweiz",
-        "genitiv_full": "der Welthandelsorganisation (WTO)",
-        "ort": "Centre William Rappard"
-    },
+    {"organisation": "Vereinte Nationen (UN) – Hauptquartier", "stadt": "New York City", "land": "USA", "genitiv_full": "der Vereinten Nationen (UN)", "ort": "UN-Hauptquartier"},
+    {"organisation": "NATO – Hauptsitz", "stadt": "Brüssel", "land": "Belgien", "genitiv_full": "der NATO"},
+    {"organisation": "Internationaler Gerichtshof (IGH)", "stadt": "Den Haag", "land": "Niederlande", "genitiv_full": "des Internationalen Gerichtshofs (IGH)", "ort": "Friedenspalast"},
+    {"organisation": "Europäischer Gerichtshof (EuGH)", "stadt": "Luxemburg", "land": "Luxemburg", "genitiv_full": "des Europäischen Gerichtshofs (EuGH)", "ort": "Kirchberg-Plateau"},
+    {"organisation": "Europarat – Sitz", "stadt": "Straßburg", "land": "Frankreich", "genitiv_full": "des Europarats", "ort": "Palais de l’Europe"},
+    {"organisation": "OSZE – Sekretariat", "stadt": "Wien", "land": "Österreich", "genitiv_full": "der OSZE"},
+    {"organisation": "OECD – Hauptsitz", "stadt": "Paris", "land": "Frankreich", "genitiv_full": "der OECD", "ort": "Château de la Muette"},
+    {"organisation": "WTO – Sitz", "stadt": "Genf", "land": "Schweiz", "genitiv_full": "der Welthandelsorganisation (WTO)", "ort": "Centre William Rappard"},
 ]
+
+# Kurzbeschreibungen (Einzeiler) zu wichtigen Organisationen
+_ORG_DESCRIPTIONS: Dict[str, str] = {
+    "Vereinte Nationen": "Staatenbund für Frieden & Sicherheit, Menschenrechte und Entwicklung.",
+    "NATO": "Verteidigungsbündnis der nordatlantischen Staaten.",
+    "Europäische Zentralbank": "Zentralbank des Euroraums – Geldpolitik und Preisstabilität.",
+    "Europäische Kommission": "Exekutive der EU; schlägt Gesetze vor und überwacht ihre Anwendung.",
+    "Europarat": "Fördert Menschenrechte, Demokratie und Rechtsstaatlichkeit (kein EU-Organ).",
+    "Internationaler Währungsfonds": "Sichert globale Finanzstabilität; Kredite und Beratung.",
+    "Weltbank": "Entwicklungsfinanzierung zur Armutsminderung.",
+    "Weltgesundheitsorganisation": "Koordiniert internationale Gesundheitspolitik und Standards.",
+    "OECD": "Wirtschaftspolitische Zusammenarbeit und vergleichende Analysen.",
+    "Welthandelsorganisation": "Regelt den Welthandel und schlichtet Handelsstreitigkeiten.",
+    "OSZE": "Sicherheit und Zusammenarbeit in Europa; Wahlbeobachtung & Konfliktprävention.",
+    "Internationaler Gerichtshof": "Hauptrechtsprechungsorgan der UN für Streitigkeiten zwischen Staaten.",
+    "Federal Reserve": "Zentralbank der USA; Geldpolitik und Finanzaufsicht.",
+    "Europäischer Gerichtshof": "Oberstes Gericht der EU zur Auslegung des EU-Rechts."
+}
 
 # =====================================================================
 #                         SCHNITTSTELLEN / KONFIG
@@ -456,7 +438,6 @@ def _prompt_gpt_from_choice(discipline: str, seed_text: str, correct_name: Optio
     else:
         task = f"Erzeuge eine Frage basierend auf: {seed_text}"
 
-    # wichtiger Hinweis für A=korrekt + keine Pseudo-Antworten
     correct_hint = f"Die korrekte Antwort lautet: {correct_name or 'N/A'}."
     prompt = f"""
 Erzeuge EINE Multiple-Choice-Frage (Deutsch) zur Kategorie „Politik“, Disziplin „{discipline}“.
@@ -502,34 +483,34 @@ def _gen_kanzler_zeit_local() -> dict | None:
 
 def _gen_partei_kuerzel_local() -> dict | None:
     kuerzel, langname = random.choice(list(_PARTY_ACRONYMS.items()))
-    # Hole plausible Falschantworten, fallback: alte Logik
     pool_false = _PARTY_FALSE_EXPANSIONS.get(kuerzel, [])
     if len(pool_false) >= 3:
         distractors = random.sample(pool_false, k=3)
         choice_texts = [langname] + distractors
         letters = ["A", "B", "C", "D"]
         choices = [f"{letters[i]}: {choice_texts[i]}" for i in range(4)]
+        fact = _PARTY_FACTS.get(kuerzel, f"{kuerzel}: offizielle Langform gesucht.")
         data = {
             "category": CATEGORY_NAME,
             "discipline": "Parteikürzel (DE)",
             "question": f"Wofür steht das Parteikürzel „{kuerzel}“ in Deutschland?",
             "choices": choices,
             "correct_answer": "A",
-            "explanation": f"Alle Optionen beginnen mit den Initialen {kuerzel}; nur die richtige Antwort ist die offizielle Langform.",
+            "explanation": fact,
             "difficulty": 1,
         }
         return _shuffle_choices_and_fix_answer(data)
     else:
-        # Fallback auf frühere (weniger schöne) Variante
         pool = list(_PARTY_ACRONYMS.values())
         choices, correct_letter = _choices_from_correct_and_pool(langname, pool)
+        fact = _PARTY_FACTS.get(kuerzel, "Parteibezeichnung ist offiziell festgelegt.")
         data = {
             "category": CATEGORY_NAME,
             "discipline": "Parteikürzel (DE)",
             "question": f"Wofür steht das Parteikürzel „{kuerzel}“ in Deutschland?",
             "choices": choices,
             "correct_answer": correct_letter,
-            "explanation": "Parteibezeichnungen sind offiziell festgelegt; die anderen Optionen sind ähnliche, aber nicht offizielle Langformen.",
+            "explanation": fact,
             "difficulty": 1,
         }
         return _shuffle_choices_and_fix_answer(data)
@@ -580,7 +561,7 @@ def _gen_grundrechte_local() -> dict | None:
         "question": "Was ist KEIN Grundrecht im Sinne des Grundgesetzes (GG)?",
         "choices": choices,
         "correct_answer": "A",
-        "explanation": "Die Grundrechte im GG schützen Freiheit und Würde. Ein bedingungsloses Grundeinkommen oder ähnliche Sozialleistungen sind dort nicht als Grundrechte festgeschrieben.",
+        "explanation": "Die Grundrechte im GG schützen Freiheit und Würde; Sozialleistungen sind dort nicht als Grundrechte festgeschrieben.",
         "difficulty": 1,
     }
     return _shuffle_choices_and_fix_answer(data)
@@ -594,12 +575,11 @@ def _gen_with_live_answer(discipline: str, seed_picker, resolver, max_tries=4) -
         seed = seed_picker()
         correct_name = resolver(seed)
         if not correct_name:
-            continue  # anderer Seed
+            continue
         prompt = _prompt_gpt_from_choice(discipline, seed, correct_name)
         data = _ask_json(prompt)
         if not data:
             continue
-        # setze A sicher auf den Live-Namen
         choices = data.get("choices", [])
         if isinstance(choices, list) and len(choices) == 4:
             texts = [_extract_choice_text(c) for c in choices]
@@ -625,12 +605,32 @@ def _gen_regierungschefs_gpt() -> dict | None:
         resolver=resolve_head_of_government
     )
 
+# Eigene Variante für Org-Personen, damit die Erklärung eine Org-Kurzbeschreibung enthält
 def _gen_org_person_gpt() -> dict | None:
-    return _gen_with_live_answer(
-        "Org-Personen",
-        seed_picker=lambda: random.choice(_WICHTIGE_ORGS),
-        resolver=resolve_org_head
-    )
+    max_tries = 4
+    for _ in range(max_tries):
+        seed = random.choice(_WICHTIGE_ORGS)  # Organisationsname
+        correct_name = resolve_org_head(seed)
+        if not correct_name:
+            continue
+        prompt = _prompt_gpt_from_choice("Org-Personen", seed, correct_name)
+        data = _ask_json(prompt)
+        if not data:
+            continue
+        # Korrekte Antwort sicherstellen
+        if isinstance(data.get("choices"), list) and len(data["choices"]) == 4:
+            texts = [_extract_choice_text(c) for c in data["choices"]]
+            texts[0] = correct_name
+            data["choices"] = _format_choices(texts)
+            data["correct_answer"] = "A"
+        # Erklärung mit Kurzbeschreibung der Organisation überschreiben/ergänzen
+        desc = _ORG_DESCRIPTIONS.get(seed)
+        if desc:
+            data["explanation"] = f"{seed}: {desc}"
+        if _reject_if_na_or_empty(data):
+            continue
+        return _shuffle_choices_and_fix_answer(data)
+    return None
 
 # =====================================================================
 #                     HILFSFORMATTER FÜR SITZE (INTL)
@@ -651,6 +651,21 @@ def _format_correct(entry: Dict[str, str]) -> str:
         return f"{city} ({land})"
     return city
 
+def _org_base_name(raw: str) -> str:
+    """
+    Normalisiert Anzeige-Namen aus _INTL_SEATS['organisation'] auf den
+    schlichten Organisationsnamen (ohne Klammern/Suffixe), um _ORG_DESCRIPTIONS
+    nachschlagen zu können. Beispiele:
+      "Vereinte Nationen (UN) – Hauptquartier" -> "Vereinte Nationen"
+      "Internationaler Gerichtshof (IGH)" -> "Internationaler Gerichtshof"
+    """
+    if not raw:
+        return ""
+    left = raw.split("–", 1)[0].strip()
+    # entferne Klammerzusätze wie (UN), (IGH)
+    left = re.sub(r"\s*\([^)]*\)", "", left).strip()
+    return left
+
 # =====================================================================
 #                 GENERATOR: SITZE (INTERNATIONAL) – ÜBERARBEITET
 # =====================================================================
@@ -658,13 +673,10 @@ def _format_correct(entry: Dict[str, str]) -> str:
 def _gen_sitze_intl_local() -> dict | None:
     entry = random.choice(_INTL_SEATS)
 
-    # korrekte Antwort mit Stadt + (Ort, Land) falls vorhanden
     correct_text = _format_correct(entry)
-
-    # Genitiv-Formulierung inkl. Artikel (z. B. "der NATO", "des Europarats")
     genitiv_full = entry.get("genitiv_full") or f"der Organisation „{entry.get('organisation','')}\""
 
-    # Distraktoren: andere Einträge – nur Stadt/Land, ohne Gebäude
+    # Distraktoren
     distractor_entries = random.sample([e for e in _INTL_SEATS if e is not entry], k=3)
     distractors = [_format_city_land(e) for e in distractor_entries]
 
@@ -672,13 +684,18 @@ def _gen_sitze_intl_local() -> dict | None:
     letters = ["A", "B", "C", "D"]
     choices = [f"{letters[i]}: {choice_texts[i]}" for i in range(4)]
 
+    # Erklärung mit Kurzbeschreibung der Organisation
+    base = _org_base_name(entry.get("organisation", ""))
+    desc = _ORG_DESCRIPTIONS.get(base)
+    explanation = f"{base}: {desc}" if desc else "Internationale Organisationen haben fest definierte Hauptsitze; die Alternativen sind Sitze anderer Organisationen."
+
     data = {
         "category": CATEGORY_NAME,
         "discipline": "Sitze (International)",
         "question": f"In welcher Stadt befindet sich der Hauptsitz {genitiv_full}?",
         "choices": choices,
         "correct_answer": "A",
-        "explanation": "Internationale Organisationen haben fest definierte Hauptsitze; die Alternativen sind Sitze anderer Organisationen.",
+        "explanation": explanation,
         "difficulty": 1,
     }
     return _shuffle_choices_and_fix_answer(data)
@@ -689,11 +706,11 @@ def _gen_sitze_intl_local() -> dict | None:
 
 _WEIGHTS = [
     ("minister_de_gpt", 38),
-    ("regierungschefs_gpt", 13),
+    ("regierungschefs_gpt", 21),
     ("org_person_gpt", 10),
-    ("kanzler_zeit_local", 5),
+    ("kanzler_zeit_local", 7),
     ("partei_kuerzel_local", 7),
-    ("grundrechte_local", 10),   # ersetzt früheres grundrechte_gpt
+    ("grundrechte_local", 0),
     ("sitze_de_local", 8),
     ("sitze_intl_local", 9),
 ]
