@@ -72,6 +72,45 @@ _PARTY_ACRONYMS: Dict[str, str] = {
     "AfD": "Alternative für Deutschland",
     "BSW": "Bündnis Sahra Wagenknecht – Vernunft und Gerechtigkeit",
 }
+# Ergänzung direkt unter _PARTY_ACRONYMS:
+_PARTY_FALSE_EXPANSIONS: Dict[str, List[str]] = {
+    "CDU": [
+        "Christlich Demokratische Union",          # ohne 'Deutschlands'
+        "Christliche Deutsche Union",
+        "Christdemokratische Union",
+        "Christlich Demokratische Unionisten"      # leicht technokratisch
+    ],
+    "CSU": [
+        "Christlich-Soziale Union",                # ohne 'in Bayern'
+        "Christliche Sozial-Union",
+        "Christsozialer Union",
+        "Christliche Soziale Union"
+    ],
+    "SPD": [
+        "Sozialistische Partei Deutschlands",
+        "Sozialpolitische Partei Deutschlands",
+        "Soziale Partei Deutschlands",
+        "Sozialdemokratische Partei der Deutschen"
+    ],
+    "FDP": [
+        "Freie Demokratische Partei Deutschlands",
+        "Freidemokratische Partei",
+        "Freiheitlich Demokratische Partei",
+        "Freie Demokraten Partei"
+    ],
+    "AfD": [
+        "Alternative für Demokratie",
+        "Allianz für Deutschland",
+        "Aktion für Deutschland",
+        "Alternative freiheitlicher Demokraten"
+    ],
+    "BSW": [
+        "Bündnis für soziale Wende",
+        "Bürgerbündnis Soziale Wende",
+        "Bündnis Solidarität und Wandel",
+        "Bewegung für Solidarität und Wohlstand"
+    ],
+}
 
 _DE_SEATS: List[Dict[str, str]] = [
     {"institution": "Bundesregierung (Regierungssitz)", "stadt": "Berlin"},
@@ -463,18 +502,37 @@ def _gen_kanzler_zeit_local() -> dict | None:
 
 def _gen_partei_kuerzel_local() -> dict | None:
     kuerzel, langname = random.choice(list(_PARTY_ACRONYMS.items()))
-    pool = list(_PARTY_ACRONYMS.values())
-    choices, correct_letter = _choices_from_correct_and_pool(langname, pool)
-    data = {
-        "category": CATEGORY_NAME,
-        "discipline": "Parteikürzel (DE)",
-        "question": f"Wofür steht das Parteikürzel „{kuerzel}“ in Deutschland?",
-        "choices": choices,
-        "correct_answer": correct_letter,
-        "explanation": "Parteibezeichnungen sind offiziell festgelegt; die anderen Optionen sind Bezeichnungen anderer Parteien.",
-        "difficulty": 1,
-    }
-    return _shuffle_choices_and_fix_answer(data)
+    # Hole plausible Falschantworten, fallback: alte Logik
+    pool_false = _PARTY_FALSE_EXPANSIONS.get(kuerzel, [])
+    if len(pool_false) >= 3:
+        distractors = random.sample(pool_false, k=3)
+        choice_texts = [langname] + distractors
+        letters = ["A", "B", "C", "D"]
+        choices = [f"{letters[i]}: {choice_texts[i]}" for i in range(4)]
+        data = {
+            "category": CATEGORY_NAME,
+            "discipline": "Parteikürzel (DE)",
+            "question": f"Wofür steht das Parteikürzel „{kuerzel}“ in Deutschland?",
+            "choices": choices,
+            "correct_answer": "A",
+            "explanation": f"Alle Optionen beginnen mit den Initialen {kuerzel}; nur die richtige Antwort ist die offizielle Langform.",
+            "difficulty": 1,
+        }
+        return _shuffle_choices_and_fix_answer(data)
+    else:
+        # Fallback auf frühere (weniger schöne) Variante
+        pool = list(_PARTY_ACRONYMS.values())
+        choices, correct_letter = _choices_from_correct_and_pool(langname, pool)
+        data = {
+            "category": CATEGORY_NAME,
+            "discipline": "Parteikürzel (DE)",
+            "question": f"Wofür steht das Parteikürzel „{kuerzel}“ in Deutschland?",
+            "choices": choices,
+            "correct_answer": correct_letter,
+            "explanation": "Parteibezeichnungen sind offiziell festgelegt; die anderen Optionen sind ähnliche, aber nicht offizielle Langformen.",
+            "difficulty": 1,
+        }
+        return _shuffle_choices_and_fix_answer(data)
 
 def _gen_sitze_de_local() -> dict | None:
     entry = random.choice(_DE_SEATS)
