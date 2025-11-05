@@ -1,0 +1,168 @@
+{
+  "date": "2025-11-05",
+  "generated_at": "2025-11-05T05:14:52Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Fresnel–Kirchhoffsche Beugungstheorie",
+      "question": "Was beschreibt die Fresnel–Kirchhoffsche Beugungstheorie?",
+      "choices": [
+        "A: Die Ausbreitung von Lichtwellen und deren Beugung an Hindernissen.",
+        "B: Die Polarisation von Lichtstrahlen.",
+        "C: Die Brechung von Licht in verschiedenen Medien.",
+        "D: Die Reflexion von Licht an glatten Oberflächen."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Fresnel–Kirchhoffsche Beugungstheorie erklärt, wie Lichtwellen sich um Hindernisse herum ausbreiten und dabei Beugungsmuster erzeugen. Sie ist fundamental für das Verständnis der Wellennatur des Lichts und der Interferenzphänomene.",
+      "difficulty": 2,
+      "subcategory": "Fresnel–Kirchhoffsche Beugungstheorie"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Turbulenz & Strömungswiderstand",
+      "question": "Welcher Effekt beschreibt die Erhöhung des Strömungswiderstands bei turbulenter Strömung im Vergleich zu laminarer Strömung?",
+      "choices": [
+        "A: Der Druckverlust in einer turbulenten Strömung ist höher.",
+        "B: Die Viskosität der Flüssigkeit nimmt ab.",
+        "C: Die Geschwindigkeit der Strömung wird reduziert.",
+        "D: Die Temperatur der Strömung bleibt konstant."
+      ],
+      "correct_answer": "A",
+      "explanation": "In turbulenten Strömungen entstehen Wirbel und unregelmäßige Strömungsmuster, die zu einem höheren Druckverlust führen. Im Gegensatz dazu können laminare Strömungen effizienter fließen, was einen geringeren Strömungswiderstand zur Folge hat.",
+      "difficulty": 8,
+      "subcategory": "Turbulenz & Strömungswiderstand"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Nicht-holonome Systeme (Lagrange)",
+      "question": "Was charakterisiert nicht-holonome Systeme in der Lagrange-Mechanik?",
+      "choices": [
+        "A: Sie haben Einschränkungen, die nicht nur von den Koordinaten, sondern auch von den Geschwindigkeiten abhängen.",
+        "B: Sie sind immer in einem Gleichgewichtszustand.",
+        "C: Sie können nur in einem festen Bezugssystem beschrieben werden.",
+        "D: Sie haben nur holonome Einschränkungen, die von den Positionen abhängen."
+      ],
+      "correct_answer": "A",
+      "explanation": "Nicht-holonome Systeme zeichnen sich durch Einschränkungen aus, die von den Geschwindigkeiten der Teilchen abhängen, was zu einer komplexeren dynamischen Analyse führt. Im Gegensatz dazu beziehen sich holonome Einschränkungen ausschließlich auf die Positionen der Teilchen und können durch Gleichungen beschrieben werden.",
+      "difficulty": 5,
+      "subcategory": "Nicht-holonome Systeme (Lagrange)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Nicht-Vertauschbarkeit von Operatoren",
+      "question": "Was beschreibt das Konzept der Nicht-Vertauschbarkeit von Operatoren in der Quantenmechanik?",
+      "choices": [
+        "A: Operatoren beeinflussen sich gegenseitig nicht.",
+        "B: Alle Operatoren sind identisch und führen zu denselben Ergebnissen.",
+        "C: Zwei Operatoren können nicht gleichzeitig genau gemessen werden.",
+        "D: Operatoren können beliebig vertauscht werden ohne Einfluss auf die Ergebnisse."
+      ],
+      "correct_answer": "C",
+      "explanation": "In der Quantenmechanik beschreibt die Nicht-Vertauschbarkeit von Operatoren, dass bestimmte physikalische Größen, wie Position und Impuls, nicht gleichzeitig mit beliebiger Genauigkeit gemessen werden können. Dies ist eine grundlegende Eigenschaft der Quantenmechanik und hat tiefgreifende Auswirkungen auf unser Verständnis von physikalischen Systemen.",
+      "difficulty": 2,
+      "subcategory": "Nicht-Vertauschbarkeit von Operatoren"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Totalreflexion und evaneszente Wellen",
+      "question": "Was passiert bei der Totalreflexion an der Grenzfläche zwischen zwei Medien?",
+      "choices": [
+        "A: Das Licht wird absorbiert und verschwindet.",
+        "B: Das Licht wird vollständig reflektiert und tritt nicht in das zweite Medium ein.",
+        "C: Das Licht wird in alle Richtungen gestreut.",
+        "D: Das Licht wird teilweise reflektiert und teilweise in das zweite Medium gebrochen."
+      ],
+      "correct_answer": "B",
+      "explanation": "Bei der Totalreflexion wird Licht an der Grenzfläche zwischen zwei Medien vollständig reflektiert, wenn der Einfallswinkel größer als der Grenzwinkel ist. Dies bedeutet, dass kein Licht ins zweite Medium eindringt, wodurch evaneszente Wellen an der Grenzfläche entstehen können.",
+      "difficulty": 5,
+      "subcategory": "Totalreflexion und evaneszente Wellen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Klassische Ensembles: Phasenraum & Verteilungsfunktion",
+      "question": "Welche Aussage beschreibt korrekt die Bedeutung der Verteilungsfunktion im Phasenraum eines klassischen Ensembles?",
+      "choices": [
+        "A: Sie ist identisch mit der Temperatur eines Systems.",
+        "B: Sie definiert die maximale Geschwindigkeit von Teilchen in einem idealen Gas.",
+        "C: Sie beschreibt die durchschnittliche Energie eines Systems bei gegebener Temperatur.",
+        "D: Sie gibt die Wahrscheinlichkeit an, dass sich ein Teilchen in einem bestimmten Zustand befindet."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Verteilungsfunktion im Phasenraum gibt an, wie die Teilchen eines Systems über die möglichen Zustände verteilt sind. Sie ist entscheidend für das Verständnis thermodynamischer Eigenschaften und Wahrscheinlichkeiten in der statistischen Mechanik.",
+      "difficulty": 7,
+      "subcategory": "Klassische Ensembles: Phasenraum & Verteilungsfunktion"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Wirkungsprinzipien (Überblick)",
+      "question": "Welches der folgenden Prinzipien beschreibt die Beziehung zwischen der Lagrange-Funktion und den Bewegungsgleichungen eines Systems?",
+      "choices": [
+        "A: Impulserhaltungssatz",
+        "B: Erhaltungssatz der Energie",
+        "C: Newtons Bewegungsgesetze",
+        "D: Prinzip der kleinsten Wirkung"
+      ],
+      "correct_answer": "D",
+      "explanation": "Das Prinzip der kleinsten Wirkung besagt, dass die tatsächliche Bewegung eines Systems den Lagrange-Funktionen entspricht, die die kinetische und potenzielle Energie des Systems charakterisieren. Aus diesem Prinzip lassen sich die Bewegungsgleichungen ableiten, die für die Analyse komplexer Systeme entscheidend sind.",
+      "difficulty": 9,
+      "subcategory": "Wirkungsprinzipien (Überblick)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "de Broglie-Wellen",
+      "question": "Was beschreibt die de Broglie-Wellenlänge eines Teilchens?",
+      "choices": [
+        "A: Die Wellenlänge, die mit der Bewegung des Teilchens verbunden ist.",
+        "B: Die Amplitude der Schwingung des Teilchens.",
+        "C: Die Energie des Teilchens in Form von kinetischer Energie.",
+        "D: Die Frequenz des Lichtes, das von dem Teilchen ausgestrahlt wird."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die de Broglie-Wellenlänge ist ein Konzept in der Quantenmechanik, das besagt, dass jedem Teilchen eine Wellenlänge zugeordnet werden kann, die von seiner Geschwindigkeit abhängt. Diese Beziehung wird durch die de Broglie-Gleichung ausgedrückt, die zeigt, dass die Wellenlänge invers proportional zum Impuls des Teilchens ist.",
+      "difficulty": 6,
+      "subcategory": "de Broglie-Wellen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Kräftefreier symmetrischer Kreisel",
+      "question": "Was passiert mit der Drehachse eines symmetrischen Kreisels, wenn er in einem kräftefreien Zustand gedreht wird?",
+      "choices": [
+        "A: Die Drehachse rotiert um eine senkrechte Achse.",
+        "B: Die Drehachse oszilliert unregelmäßig.",
+        "C: Die Drehachse bleibt stabil und verändert ihre Ausrichtung nicht.",
+        "D: Die Drehachse neigt sich ständig nach unten."
+      ],
+      "correct_answer": "C",
+      "explanation": "Ein symmetrischer Kreisel, der sich im Kräftefreien Zustand dreht, behält aufgrund der Erhaltung des Drehimpulses seine Drehachse stabil. Veränderungen in der Ausrichtung finden nur statt, wenn äußere Kräfte wirken, was hier nicht der Fall ist.",
+      "difficulty": 4,
+      "subcategory": "Kräftefreier symmetrischer Kreisel"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Ehrenfest-Klassifikation",
+      "question": "Welche der folgenden Phasenübergänge wird in der Ehrenfest-Klassifikation als erster Ordnung bezeichnet?",
+      "choices": [
+        "A: Kristallisation",
+        "B: Schmelzen",
+        "C: Verdampfen",
+        "D: Sublimation"
+      ],
+      "correct_answer": "B",
+      "explanation": "In der Ehrenfest-Klassifikation wird ein erster Ordnung Phasenübergang durch einen Sprung in der Entropie charakterisiert, während die Temperatur konstant bleibt. Das Schmelzen von Feststoffen zu Flüssigkeiten ist ein typisches Beispiel für einen solchen Übergang.",
+      "difficulty": 3,
+      "subcategory": "Ehrenfest-Klassifikation"
+    }
+  ]
+}
