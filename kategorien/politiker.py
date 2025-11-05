@@ -83,15 +83,63 @@ _DE_SEATS: List[Dict[str, str]] = [
     {"institution": "Europäische Zentralbank (EZB) – Sitz in DE", "stadt": "Frankfurt am Main"},
 ]
 
+# Internationale Organisationen – mit Genitiv (inklusive Artikel!), Land und ggf. Gebäude/Ort
 _INTL_SEATS: List[Dict[str, str]] = [
-    {"organisation": "Vereinte Nationen (UN) – Hauptquartier", "stadt": "New York"},
-    {"organisation": "NATO – Hauptsitz", "stadt": "Brüssel"},
-    {"organisation": "Internationaler Gerichtshof (IGH)", "stadt": "Den Haag"},
-    {"organisation": "Europäischer Gerichtshof (EuGH)", "stadt": "Luxemburg"},
-    {"organisation": "Europarat – Sitz", "stadt": "Straßburg"},
-    {"organisation": "OSZE – Sekretariat", "stadt": "Wien"},
-    {"organisation": "OECD – Hauptsitz", "stadt": "Paris"},
-    {"organisation": "WTO – Sitz", "stadt": "Genf"},
+    {
+        "organisation": "Vereinte Nationen (UN) – Hauptquartier",
+        "stadt": "New York City",
+        "land": "USA",
+        "genitiv_full": "der Vereinten Nationen (UN)",
+        "ort": "UN-Hauptquartier"
+    },
+    {
+        "organisation": "NATO – Hauptsitz",
+        "stadt": "Brüssel",
+        "land": "Belgien",
+        "genitiv_full": "der NATO"
+        # kein spezielles Gebäude nötig
+    },
+    {
+        "organisation": "Internationaler Gerichtshof (IGH)",
+        "stadt": "Den Haag",
+        "land": "Niederlande",
+        "genitiv_full": "des Internationalen Gerichtshofs (IGH)",
+        "ort": "Friedenspalast"
+    },
+    {
+        "organisation": "Europäischer Gerichtshof (EuGH)",
+        "stadt": "Luxemburg",
+        "land": "Luxemburg",
+        "genitiv_full": "des Europäischen Gerichtshofs (EuGH)",
+        "ort": "Kirchberg-Plateau"
+    },
+    {
+        "organisation": "Europarat – Sitz",
+        "stadt": "Straßburg",
+        "land": "Frankreich",
+        "genitiv_full": "des Europarats",
+        "ort": "Palais de l’Europe"
+    },
+    {
+        "organisation": "OSZE – Sekretariat",
+        "stadt": "Wien",
+        "land": "Österreich",
+        "genitiv_full": "der OSZE"
+    },
+    {
+        "organisation": "OECD – Hauptsitz",
+        "stadt": "Paris",
+        "land": "Frankreich",
+        "genitiv_full": "der OECD",
+        "ort": "Château de la Muette"
+    },
+    {
+        "organisation": "WTO – Sitz",
+        "stadt": "Genf",
+        "land": "Schweiz",
+        "genitiv_full": "der Welthandelsorganisation (WTO)",
+        "ort": "Centre William Rappard"
+    },
 ]
 
 # =====================================================================
@@ -443,21 +491,6 @@ def _gen_sitze_de_local() -> dict | None:
     }
     return _shuffle_choices_and_fix_answer(data)
 
-def _gen_sitze_intl_local() -> dict | None:
-    entry = random.choice(_INTL_SEATS)
-    pool = list({e["stadt"] for e in _INTL_SEATS})
-    choices, correct_letter = _choices_from_correct_and_pool(entry["stadt"], pool)
-    data = {
-        "category": CATEGORY_NAME,
-        "discipline": "Sitze (International)",
-        "question": f"In welcher Stadt befindet sich der Hauptsitz/Sitz von {entry['organisation']}?",
-        "choices": choices,
-        "correct_answer": correct_letter,
-        "explanation": "Internationale Organisationen haben feste Hauptsitze; die Alternativen sind Sitze anderer Organisationen.",
-        "difficulty": 1,
-    }
-    return _shuffle_choices_and_fix_answer(data)
-
 # --- Grundrechte (DE): stabil & lokal (kein GPT)
 _GRUNDRECHTE_RECHTE = [
     "Das Recht auf Meinungsfreiheit",
@@ -540,6 +573,57 @@ def _gen_org_person_gpt() -> dict | None:
         seed_picker=lambda: random.choice(_WICHTIGE_ORGS),
         resolver=resolve_org_head
     )
+
+# =====================================================================
+#                     HILFSFORMATTER FÜR SITZE (INTL)
+# =====================================================================
+
+def _format_city_land(entry: Dict[str, str]) -> str:
+    city = entry.get("stadt", "").strip()
+    land = entry.get("land")
+    return f"{city} ({land})" if land else city
+
+def _format_correct(entry: Dict[str, str]) -> str:
+    city = entry.get("stadt", "").strip()
+    land = entry.get("land")
+    ort  = entry.get("ort")
+    if ort and land:
+        return f"{city} ({ort}, {land})"
+    if land:
+        return f"{city} ({land})"
+    return city
+
+# =====================================================================
+#                 GENERATOR: SITZE (INTERNATIONAL) – ÜBERARBEITET
+# =====================================================================
+
+def _gen_sitze_intl_local() -> dict | None:
+    entry = random.choice(_INTL_SEATS)
+
+    # korrekte Antwort mit Stadt + (Ort, Land) falls vorhanden
+    correct_text = _format_correct(entry)
+
+    # Genitiv-Formulierung inkl. Artikel (z. B. "der NATO", "des Europarats")
+    genitiv_full = entry.get("genitiv_full") or f"der Organisation „{entry.get('organisation','')}\""
+
+    # Distraktoren: andere Einträge – nur Stadt/Land, ohne Gebäude
+    distractor_entries = random.sample([e for e in _INTL_SEATS if e is not entry], k=3)
+    distractors = [_format_city_land(e) for e in distractor_entries]
+
+    choice_texts = [correct_text] + distractors
+    letters = ["A", "B", "C", "D"]
+    choices = [f"{letters[i]}: {choice_texts[i]}" for i in range(4)]
+
+    data = {
+        "category": CATEGORY_NAME,
+        "discipline": "Sitze (International)",
+        "question": f"In welcher Stadt befindet sich der Hauptsitz {genitiv_full}?",
+        "choices": choices,
+        "correct_answer": "A",
+        "explanation": "Internationale Organisationen haben fest definierte Hauptsitze; die Alternativen sind Sitze anderer Organisationen.",
+        "difficulty": 1,
+    }
+    return _shuffle_choices_and_fix_answer(data)
 
 # =====================================================================
 #                              PUBLIC API
