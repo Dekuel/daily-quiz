@@ -705,14 +705,14 @@ def _gen_sitze_intl_local() -> dict | None:
 # =====================================================================
 
 _WEIGHTS = [
-    ("minister_de_gpt", 38),
-    ("regierungschefs_gpt", 21),
-    ("org_person_gpt", 10),
+    ("minister_de_gpt", 40),
+    ("regierungschefs_gpt", 25),
+    ("org_person_gpt", 7),
     ("kanzler_zeit_local", 7),
     ("partei_kuerzel_local", 7),
     ("grundrechte_local", 0),
-    ("sitze_de_local", 8),
-    ("sitze_intl_local", 9),
+    ("sitze_de_local", 7),
+    ("sitze_intl_local", 7),
 ]
 
 def _pick_weighted_type() -> str:
