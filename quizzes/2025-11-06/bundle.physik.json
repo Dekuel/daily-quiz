@@ -1,0 +1,168 @@
+{
+  "date": "2025-11-06",
+  "generated_at": "2025-11-06T05:15:02Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Interferenz & Beugung elektromagnetischer Wellen",
+      "question": "Was beschreibt das Phänomen der Interferenz bei elektromagnetischen Wellen?",
+      "choices": [
+        "A: Die Geschwindigkeit, mit der sich elektromagnetische Wellen ausbreiten.",
+        "B: Die Überlagerung von zwei oder mehr Wellen, die zu verstärkten oder abgeschwächten Signalen führen kann.",
+        "C: Die Ablenkung einer Welle an einem festen Objekt.",
+        "D: Die Polarisation von Lichtstrahlen durch reflektierende Oberflächen."
+      ],
+      "correct_answer": "B",
+      "explanation": "Interferenz tritt auf, wenn sich zwei oder mehr Wellen überlagern und dabei verstärken oder abschwächen können. Dieses Phänomen ist entscheidend für das Verständnis von Beugungsmustern und der Eigenschaften von Lichtwellen.",
+      "difficulty": 3,
+      "subcategory": "Interferenz & Beugung elektromagnetischer Wellen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Residuensatz",
+      "question": "Welcher der folgenden Aussagen beschreibt korrekt die Anwendung des Residuensatzes in der Elektrodynamik?",
+      "choices": [
+        "A: Der Residuensatz ist ausschließlich für die Analyse von statischen elektrischen Feldern anwendbar.",
+        "B: Der Residuensatz wird verwendet, um die Lösungen der Laplace-Gleichung zu finden.",
+        "C: Der Residuensatz wird nicht in der Elektrodynamik verwendet.",
+        "D: Der Residuensatz hilft bei der Berechnung von Integralen komplexer Funktionen, die Pole im Integrationsbereich haben."
+      ],
+      "correct_answer": "D",
+      "explanation": "Der Residuensatz ist ein wichtiges Werkzeug in der komplexen Analysis, das es ermöglicht, Integrale von meromorphen Funktionen über geschlossene Kurven zu berechnen. In der Elektrodynamik findet er Anwendung, um elektrische Felder und Potentiale zu bestimmen, insbesondere wenn die Funktion Pole enthält, die im Integrationsbereich liegen.",
+      "difficulty": 7,
+      "subcategory": "Residuensatz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Bewegte Punktladungen & Liénard–Wiechert-Potentiale",
+      "question": "Was beschreibt das Liénard-Wiechert-Potential für eine bewegte Punktladung?",
+      "choices": [
+        "A: Das elektrische Potential einer ruhenden Punktladung.",
+        "B: Das elektrische und magnetische Feld einer bewegten Punktladung.",
+        "C: Das elektrische Feld einer ruhenden Punktladung.",
+        "D: Die Gravitation einer bewegten Punktladung."
+      ],
+      "correct_answer": "B",
+      "explanation": "Das Liénard-Wiechert-Potential beschreibt das elektrische und magnetische Feld, das von einer sich bewegenden Punktladung erzeugt wird. Es ist entscheidend für das Verständnis der Elektrodynamik bewegter Ladungen und ihre Wechselwirkungen mit anderen Ladungen.",
+      "difficulty": 4,
+      "subcategory": "Bewegte Punktladungen & Liénard–Wiechert-Potentiale"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Zustandsdichte im Magnetfeld",
+      "question": "Wie beeinflusst ein externes Magnetfeld die Zustandsdichte von Elektronen in einem Festkörper?",
+      "choices": [
+        "A: Sie variiert nur bei supraleitenden Materialien.",
+        "B: Sie nimmt mit steigender Magnetfeldstärke zu.",
+        "C: Sie verringert sich, da Elektronen gezwungen sind, höhere Energiezustände zu besetzen.",
+        "D: Sie bleibt unverändert, unabhängig von der Stärke des Magnetfelds."
+      ],
+      "correct_answer": "C",
+      "explanation": "Ein externes Magnetfeld kann die Energiezustände von Elektronen in einem Festkörper beeinflussen, wodurch sie gezwungen werden, höhere Energiezustände zu besetzen. Dies führt typischerweise zu einer Verringerung der Zustandsdichte bei normalen Materialien, da weniger Zustände im unteren Energiebereich zur Verfügung stehen.",
+      "difficulty": 7,
+      "subcategory": "Zustandsdichte im Magnetfeld"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Quarkstruktur der Nukleonen",
+      "question": "Welche Quarks sind die Bestandteile eines Protons?",
+      "choices": [
+        "A: Zwei Up-Quarks und ein Down-Quark",
+        "B: Drei Up-Quarks",
+        "C: Ein Up-Quark und zwei Down-Quarks",
+        "D: Ein Up-Quark, ein Down-Quark und ein Strange-Quark"
+      ],
+      "correct_answer": "A",
+      "explanation": "Ein Proton besteht aus zwei Up-Quarks und einem Down-Quark. Diese Quarks sind durch die starke Wechselwirkung miteinander verbunden und bilden die Grundlage für die Struktur des Protons.",
+      "difficulty": 4,
+      "subcategory": "Quarkstruktur der Nukleonen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Gleichgewichtsbedingungen (allgemein)",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt die Bedingung für thermodynamisches Gleichgewicht in einem geschlossenen System?",
+      "choices": [
+        "A: Es gibt einen kontinuierlichen Austausch von Energie zwischen den Systemteilen.",
+        "B: Die Entropie des Systems nimmt ständig zu, ohne dass ein Gleichgewicht erreicht wird.",
+        "C: Der gesamte Energieinhalt des Systems ist gleich null.",
+        "D: Die Temperatur, der Druck und das chemische Potential sind in allen Teilen des Systems konstant."
+      ],
+      "correct_answer": "D",
+      "explanation": "Für thermodynamisches Gleichgewicht müssen Temperatur, Druck und chemisches Potential überall im System konstant sein. Dies stellt sicher, dass es keine Nettobewegungen von Materie oder Energie gibt, die zu einem Ungleichgewicht führen könnten.",
+      "difficulty": 10,
+      "subcategory": "Gleichgewichtsbedingungen (allgemein)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Einfache Beispiele in Hamilton-Formulierung",
+      "question": "Was ist die Hamilton-Funktion für ein harmonisches Oszillator-System?",
+      "choices": [
+        "A: H = qΦ + pA",
+        "B: H = E + V",
+        "C: H = mv²/2 + mgh",
+        "D: H = p²/2m + kx²/2"
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Hamilton-Funktion für einen harmonischen Oszillator beschreibt die Gesamtenergie des Systems, die aus der kinetischen Energie (p²/2m) und der potentiellen Energie (kx²/2) besteht. Diese Darstellung ist fundamental in der Hamilton-Mechanik und zeigt die Beziehung zwischen Impuls, Position und Energie.",
+      "difficulty": 4,
+      "subcategory": "Einfache Beispiele in Hamilton-Formulierung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Dritter Hauptsatz (Nernst’scher Wärmesatz)",
+      "question": "Was besagt der dritte Hauptsatz der Thermodynamik?",
+      "choices": [
+        "A: Wärmeübertragung erfolgt immer von kalten zu warmen Körpern.",
+        "B: Die Temperatur eines Systems ist immer positiv.",
+        "C: Die Energie kann nicht erzeugt oder vernichtet werden.",
+        "D: Es ist unmöglich, den absoluten Nullpunkt zu erreichen."
+      ],
+      "correct_answer": "D",
+      "explanation": "Der dritte Hauptsatz der Thermodynamik besagt, dass es unmöglich ist, den absoluten Nullpunkt (0 Kelvin) zu erreichen. Dies bedeutet, dass die Entropie eines perfekten Kristalls bei dieser Temperatur Null ist, was praktische Implikationen für die Kühlung von Materialien hat.",
+      "difficulty": 1,
+      "subcategory": "Dritter Hauptsatz (Nernst’scher Wärmesatz)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Zeitunabhängige Störungstheorie: entartete Niveaus",
+      "question": "Was beschreibt die zeitunabhängige Störungstheorie in der Quantenmechanik, wenn es um entartete Niveaus geht?",
+      "choices": [
+        "A: Die vollständige Unabhängigkeit von äußeren Einflüssen.",
+        "B: Die Aufspaltung entarteter Energieniveaus durch schwache Störungen.",
+        "C: Die Unmöglichkeit, entartete Niveaus zu unterscheiden.",
+        "D: Die exakte Berechnung aller Energieniveaus ohne Störungen."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die zeitunabhängige Störungstheorie ermöglicht es, die Auswirkungen von kleinen Störungen auf entartete Niveaus zu untersuchen, wodurch diese Niveaus aufgespalten werden können. Dies ist wichtig für das Verständnis von Systemen mit mehreren Zuständen, die energetisch gleich sind.",
+      "difficulty": 5,
+      "subcategory": "Zeitunabhängige Störungstheorie: entartete Niveaus"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Wahrscheinlichkeitstheorie: Dichten & charakteristische Funktion",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt die Beziehung zwischen der Wahrscheinlichkeitsdichte einer Zufallsvariablen und ihrer charakteristischen Funktion?",
+      "choices": [
+        "A: Die charakteristische Funktion ist die Fourier-Transformierte der Wahrscheinlichkeitsdichte.",
+        "B: Die Wahrscheinlichkeitsdichte ist die Ableitung der charakteristischen Funktion.",
+        "C: Die Wahrscheinlichkeitsdichte kann aus der charakteristischen Funktion nur für diskrete Zufallsvariablen bestimmt werden.",
+        "D: Die charakteristische Funktion ist immer konstant, unabhängig von der Wahrscheinlichkeitsdichte."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die charakteristische Funktion einer Zufallsvariablen ist die Fourier-Transformierte ihrer Wahrscheinlichkeitsdichte. Diese Beziehung ist fundamental, da sie es ermöglicht, Informationen über die Verteilung der Zufallsvariablen im Frequenzbereich zu analysieren.",
+      "difficulty": 8,
+      "subcategory": "Wahrscheinlichkeitstheorie: Dichten & charakteristische Funktion"
+    }
+  ]
+}
