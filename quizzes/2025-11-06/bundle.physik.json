@@ -1,168 +1,168 @@
 {
   "date": "2025-11-06",
-  "generated_at": "2025-11-06T05:15:02Z",
+  "generated_at": "2025-11-06T10:34:35Z",
   "schema_version": 6,
   "mode": "physik",
   "questions": [
     {
       "category": "Physik",
-      "topic": "Elektrodynamik",
-      "subtopic": "Interferenz & Beugung elektromagnetischer Wellen",
-      "question": "Was beschreibt das Phänomen der Interferenz bei elektromagnetischen Wellen?",
+      "topic": "Optik",
+      "subtopic": "Welle-Teilchen-Dualismus (Licht)",
+      "question": "Was beschreibt der Welle-Teilchen-Dualismus in Bezug auf Licht?",
       "choices": [
-        "A: Die Geschwindigkeit, mit der sich elektromagnetische Wellen ausbreiten.",
-        "B: Die Überlagerung von zwei oder mehr Wellen, die zu verstärkten oder abgeschwächten Signalen führen kann.",
-        "C: Die Ablenkung einer Welle an einem festen Objekt.",
-        "D: Die Polarisation von Lichtstrahlen durch reflektierende Oberflächen."
-      ],
-      "correct_answer": "B",
-      "explanation": "Interferenz tritt auf, wenn sich zwei oder mehr Wellen überlagern und dabei verstärken oder abschwächen können. Dieses Phänomen ist entscheidend für das Verständnis von Beugungsmustern und der Eigenschaften von Lichtwellen.",
-      "difficulty": 3,
-      "subcategory": "Interferenz & Beugung elektromagnetischer Wellen"
-    },
-    {
-      "category": "Physik",
-      "topic": "Elektrodynamik",
-      "subtopic": "Residuensatz",
-      "question": "Welcher der folgenden Aussagen beschreibt korrekt die Anwendung des Residuensatzes in der Elektrodynamik?",
-      "choices": [
-        "A: Der Residuensatz ist ausschließlich für die Analyse von statischen elektrischen Feldern anwendbar.",
-        "B: Der Residuensatz wird verwendet, um die Lösungen der Laplace-Gleichung zu finden.",
-        "C: Der Residuensatz wird nicht in der Elektrodynamik verwendet.",
-        "D: Der Residuensatz hilft bei der Berechnung von Integralen komplexer Funktionen, die Pole im Integrationsbereich haben."
+        "A: Licht breitet sich nur in Vakuum aus.",
+        "B: Licht besteht nur aus Teilchen.",
+        "C: Licht hat keine Masse.",
+        "D: Licht kann sowohl als Welle als auch als Teilchen beschrieben werden."
       ],
       "correct_answer": "D",
-      "explanation": "Der Residuensatz ist ein wichtiges Werkzeug in der komplexen Analysis, das es ermöglicht, Integrale von meromorphen Funktionen über geschlossene Kurven zu berechnen. In der Elektrodynamik findet er Anwendung, um elektrische Felder und Potentiale zu bestimmen, insbesondere wenn die Funktion Pole enthält, die im Integrationsbereich liegen.",
-      "difficulty": 7,
-      "subcategory": "Residuensatz"
-    },
-    {
-      "category": "Physik",
-      "topic": "Elektrodynamik",
-      "subtopic": "Bewegte Punktladungen & Liénard–Wiechert-Potentiale",
-      "question": "Was beschreibt das Liénard-Wiechert-Potential für eine bewegte Punktladung?",
-      "choices": [
-        "A: Das elektrische Potential einer ruhenden Punktladung.",
-        "B: Das elektrische und magnetische Feld einer bewegten Punktladung.",
-        "C: Das elektrische Feld einer ruhenden Punktladung.",
-        "D: Die Gravitation einer bewegten Punktladung."
-      ],
-      "correct_answer": "B",
-      "explanation": "Das Liénard-Wiechert-Potential beschreibt das elektrische und magnetische Feld, das von einer sich bewegenden Punktladung erzeugt wird. Es ist entscheidend für das Verständnis der Elektrodynamik bewegter Ladungen und ihre Wechselwirkungen mit anderen Ladungen.",
-      "difficulty": 4,
-      "subcategory": "Bewegte Punktladungen & Liénard–Wiechert-Potentiale"
-    },
-    {
-      "category": "Physik",
-      "topic": "Festkörperphysik",
-      "subtopic": "Zustandsdichte im Magnetfeld",
-      "question": "Wie beeinflusst ein externes Magnetfeld die Zustandsdichte von Elektronen in einem Festkörper?",
-      "choices": [
-        "A: Sie variiert nur bei supraleitenden Materialien.",
-        "B: Sie nimmt mit steigender Magnetfeldstärke zu.",
-        "C: Sie verringert sich, da Elektronen gezwungen sind, höhere Energiezustände zu besetzen.",
-        "D: Sie bleibt unverändert, unabhängig von der Stärke des Magnetfelds."
-      ],
-      "correct_answer": "C",
-      "explanation": "Ein externes Magnetfeld kann die Energiezustände von Elektronen in einem Festkörper beeinflussen, wodurch sie gezwungen werden, höhere Energiezustände zu besetzen. Dies führt typischerweise zu einer Verringerung der Zustandsdichte bei normalen Materialien, da weniger Zustände im unteren Energiebereich zur Verfügung stehen.",
-      "difficulty": 7,
-      "subcategory": "Zustandsdichte im Magnetfeld"
-    },
-    {
-      "category": "Physik",
-      "topic": "Kern- und Teilchenphysik",
-      "subtopic": "Quarkstruktur der Nukleonen",
-      "question": "Welche Quarks sind die Bestandteile eines Protons?",
-      "choices": [
-        "A: Zwei Up-Quarks und ein Down-Quark",
-        "B: Drei Up-Quarks",
-        "C: Ein Up-Quark und zwei Down-Quarks",
-        "D: Ein Up-Quark, ein Down-Quark und ein Strange-Quark"
-      ],
-      "correct_answer": "A",
-      "explanation": "Ein Proton besteht aus zwei Up-Quarks und einem Down-Quark. Diese Quarks sind durch die starke Wechselwirkung miteinander verbunden und bilden die Grundlage für die Struktur des Protons.",
-      "difficulty": 4,
-      "subcategory": "Quarkstruktur der Nukleonen"
-    },
-    {
-      "category": "Physik",
-      "topic": "Thermodynamik",
-      "subtopic": "Gleichgewichtsbedingungen (allgemein)",
-      "question": "Welche der folgenden Aussagen beschreibt korrekt die Bedingung für thermodynamisches Gleichgewicht in einem geschlossenen System?",
-      "choices": [
-        "A: Es gibt einen kontinuierlichen Austausch von Energie zwischen den Systemteilen.",
-        "B: Die Entropie des Systems nimmt ständig zu, ohne dass ein Gleichgewicht erreicht wird.",
-        "C: Der gesamte Energieinhalt des Systems ist gleich null.",
-        "D: Die Temperatur, der Druck und das chemische Potential sind in allen Teilen des Systems konstant."
-      ],
-      "correct_answer": "D",
-      "explanation": "Für thermodynamisches Gleichgewicht müssen Temperatur, Druck und chemisches Potential überall im System konstant sein. Dies stellt sicher, dass es keine Nettobewegungen von Materie oder Energie gibt, die zu einem Ungleichgewicht führen könnten.",
-      "difficulty": 10,
-      "subcategory": "Gleichgewichtsbedingungen (allgemein)"
-    },
-    {
-      "category": "Physik",
-      "topic": "Analytische Mechanik",
-      "subtopic": "Einfache Beispiele in Hamilton-Formulierung",
-      "question": "Was ist die Hamilton-Funktion für ein harmonisches Oszillator-System?",
-      "choices": [
-        "A: H = qΦ + pA",
-        "B: H = E + V",
-        "C: H = mv²/2 + mgh",
-        "D: H = p²/2m + kx²/2"
-      ],
-      "correct_answer": "D",
-      "explanation": "Die Hamilton-Funktion für einen harmonischen Oszillator beschreibt die Gesamtenergie des Systems, die aus der kinetischen Energie (p²/2m) und der potentiellen Energie (kx²/2) besteht. Diese Darstellung ist fundamental in der Hamilton-Mechanik und zeigt die Beziehung zwischen Impuls, Position und Energie.",
-      "difficulty": 4,
-      "subcategory": "Einfache Beispiele in Hamilton-Formulierung"
-    },
-    {
-      "category": "Physik",
-      "topic": "Thermodynamik",
-      "subtopic": "Dritter Hauptsatz (Nernst’scher Wärmesatz)",
-      "question": "Was besagt der dritte Hauptsatz der Thermodynamik?",
-      "choices": [
-        "A: Wärmeübertragung erfolgt immer von kalten zu warmen Körpern.",
-        "B: Die Temperatur eines Systems ist immer positiv.",
-        "C: Die Energie kann nicht erzeugt oder vernichtet werden.",
-        "D: Es ist unmöglich, den absoluten Nullpunkt zu erreichen."
-      ],
-      "correct_answer": "D",
-      "explanation": "Der dritte Hauptsatz der Thermodynamik besagt, dass es unmöglich ist, den absoluten Nullpunkt (0 Kelvin) zu erreichen. Dies bedeutet, dass die Entropie eines perfekten Kristalls bei dieser Temperatur Null ist, was praktische Implikationen für die Kühlung von Materialien hat.",
+      "explanation": "Der Welle-Teilchen-Dualismus besagt, dass Licht sowohl wellenartige als auch teilchenartige Eigenschaften besitzt. Diese Theorie ist fundamental für das Verständnis der Quantenmechanik und erklärt verschiedene Phänomene wie Interferenz und den photoelektrischen Effekt.",
       "difficulty": 1,
-      "subcategory": "Dritter Hauptsatz (Nernst’scher Wärmesatz)"
+      "subcategory": "Welle-Teilchen-Dualismus (Licht)"
     },
     {
       "category": "Physik",
       "topic": "Quantenmechanik",
-      "subtopic": "Zeitunabhängige Störungstheorie: entartete Niveaus",
-      "question": "Was beschreibt die zeitunabhängige Störungstheorie in der Quantenmechanik, wenn es um entartete Niveaus geht?",
+      "subtopic": "Eigenfunktionen der gebundenen Zustände (Laguerre)",
+      "question": "Welche der folgenden Aussagen über die Eigenfunktionen der gebundenen Zustände in der Quantenmechanik ist korrekt?",
       "choices": [
-        "A: Die vollständige Unabhängigkeit von äußeren Einflüssen.",
-        "B: Die Aufspaltung entarteter Energieniveaus durch schwache Störungen.",
-        "C: Die Unmöglichkeit, entartete Niveaus zu unterscheiden.",
-        "D: Die exakte Berechnung aller Energieniveaus ohne Störungen."
+        "A: Sie beschreiben nur ungebundene Zustände.",
+        "B: Sie sind Lösungen der Schrödinger-Gleichung für das Wasserstoffatom.",
+        "C: Sie sind nur für ein Elektron im freien Raum relevant.",
+        "D: Sie sind immer konstant und unabhängig von den Koordinaten."
       ],
       "correct_answer": "B",
-      "explanation": "Die zeitunabhängige Störungstheorie ermöglicht es, die Auswirkungen von kleinen Störungen auf entartete Niveaus zu untersuchen, wodurch diese Niveaus aufgespalten werden können. Dies ist wichtig für das Verständnis von Systemen mit mehreren Zuständen, die energetisch gleich sind.",
+      "explanation": "Die Eigenfunktionen der gebundenen Zustände im Wasserstoffatom sind spezifische Lösungen der Schrödinger-Gleichung, die die quantenmechanischen Eigenschaften von Elektronen in einem Atom beschreiben. Diese Lösungen sind entscheidend für das Verständnis der quantenmechanischen Struktur von Atomen und deren Energieniveaus.",
+      "difficulty": 4,
+      "subcategory": "Eigenfunktionen der gebundenen Zustände (Laguerre)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Stokes’scher Satz",
+      "question": "Was beschreibt der Stokes’sche Satz in der Elektrodynamik?",
+      "choices": [
+        "A: Die Änderung der elektrischen Energie eines Systems über die Zeit.",
+        "B: Die Bewegung von Teilchen in einem elektrischen Feld.",
+        "C: Die Beziehung zwischen dem Rotation eines Vektorfeldes und dem Fluss des Feldes durch eine Oberfläche.",
+        "D: Die Beziehung zwischen Spannung und Strom in einem geschlossenen Kreis."
+      ],
+      "correct_answer": "C",
+      "explanation": "Der Stokes’sche Satz verbindet die Integration eines Vektorfeldes über eine Fläche mit der Integration der Rotation dieses Feldes entlang des Randes der Fläche. In der Elektrodynamik ist dies besonders nützlich, um die Eigenschaften von elektrischen und magnetischen Feldern zu analysieren.",
       "difficulty": 5,
-      "subcategory": "Zeitunabhängige Störungstheorie: entartete Niveaus"
+      "subcategory": "Stokes’scher Satz"
     },
     {
       "category": "Physik",
       "topic": "Statistische Mechanik",
-      "subtopic": "Wahrscheinlichkeitstheorie: Dichten & charakteristische Funktion",
-      "question": "Welche der folgenden Aussagen beschreibt korrekt die Beziehung zwischen der Wahrscheinlichkeitsdichte einer Zufallsvariablen und ihrer charakteristischen Funktion?",
+      "subtopic": "Verdünnte Lösungen: chem. Potentiale & osmotischer Druck",
+      "question": "Welcher Zusammenhang beschreibt den Einfluss des osmotischen Drucks auf das chemische Potential einer verdünnten Lösung?",
       "choices": [
-        "A: Die charakteristische Funktion ist die Fourier-Transformierte der Wahrscheinlichkeitsdichte.",
-        "B: Die Wahrscheinlichkeitsdichte ist die Ableitung der charakteristischen Funktion.",
-        "C: Die Wahrscheinlichkeitsdichte kann aus der charakteristischen Funktion nur für diskrete Zufallsvariablen bestimmt werden.",
-        "D: Die charakteristische Funktion ist immer konstant, unabhängig von der Wahrscheinlichkeitsdichte."
+        "A: Das chemische Potential bleibt konstant, unabhängig vom osmotischen Druck.",
+        "B: Das chemische Potential steigt mit zunehmendem osmotischen Druck.",
+        "C: Der osmotische Druck hat keinen Einfluss auf das chemische Potential.",
+        "D: Das chemische Potential sinkt mit zunehmendem osmotischen Druck."
       ],
-      "correct_answer": "A",
-      "explanation": "Die charakteristische Funktion einer Zufallsvariablen ist die Fourier-Transformierte ihrer Wahrscheinlichkeitsdichte. Diese Beziehung ist fundamental, da sie es ermöglicht, Informationen über die Verteilung der Zufallsvariablen im Frequenzbereich zu analysieren.",
+      "correct_answer": "B",
+      "explanation": "Der osmotische Druck ist direkt mit dem chemischen Potential einer Lösung verknüpft. Ein Anstieg des osmotischen Drucks führt zu einem Anstieg des chemischen Potentials, da mehr Energie benötigt wird, um die Lösung zu verdünnen.",
       "difficulty": 8,
-      "subcategory": "Wahrscheinlichkeitstheorie: Dichten & charakteristische Funktion"
+      "subcategory": "Verdünnte Lösungen: chem. Potentiale & osmotischer Druck"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Ideales Gas (Zustandsgleichung)",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt die Zustandsgleichung eines idealen Gases?",
+      "choices": [
+        "A: Der Druck eines idealen Gases ist konstant, unabhängig von Temperatur und Volumen.",
+        "B: Der Druck eines idealen Gases ist direkt proportional zur Temperatur und umgekehrt proportional zum Volumen.",
+        "C: Der Druck eines idealen Gases ist direkt proportional zur Anzahl der Mole bei konstanter Temperatur und Volumen.",
+        "D: Der Druck eines idealen Gases ist direkt proportional zum Produkt aus Temperatur und Volumen."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Zustandsgleichung eines idealen Gases wird durch die Formel PV = nRT beschrieben, wobei P der Druck, V das Volumen, n die Stoffmenge, R die ideale Gaskonstante und T die Temperatur ist. Die Aussage A beschreibt korrekt, dass bei konstantem Volumen der Druck eines idealen Gases mit steigender Temperatur zunimmt und umgekehrt.",
+      "difficulty": 8,
+      "subcategory": "Ideales Gas (Zustandsgleichung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Skalenbrechung (Scaling Violation)",
+      "question": "Was versteht man unter Skalenbrechung in der Teilchenphysik?",
+      "choices": [
+        "A: Die Fähigkeit von Teilchen, ihre Masse zu verändern.",
+        "B: Die Wechselwirkung zwischen zwei oder mehr Teilchen ohne Energieverlust.",
+        "C: Die Abhängigkeit von physikalischen Prozessen von der Energie oder dem Impuls der beteiligten Teilchen.",
+        "D: Die Erzeugung von Teilchen aus Lichtstrahlen."
+      ],
+      "correct_answer": "C",
+      "explanation": "Skalenbrechung bezieht sich auf die Tatsache, dass die Wechselwirkungen in der Teilchenphysik von der Energie oder dem Impuls der Teilchen abhängen. Diese Konzepte sind wichtig, um verschiedene physikalische Prozesse und deren Verhalten bei unterschiedlichen Skalen zu verstehen.",
+      "difficulty": 4,
+      "subcategory": "Skalenbrechung (Scaling Violation)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Doppelspaltexperiment (Materiewellen)",
+      "question": "Was zeigt das Doppelspaltexperiment mit Elektronen?",
+      "choices": [
+        "A: Licht besteht nur aus Teilchen.",
+        "B: Materie kann nicht interferieren.",
+        "C: Teilchen können sich wie Wellen verhalten.",
+        "D: Elektronen haben immer eine definierte Position."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Doppelspaltexperiment zeigt, dass Elektronen sich nicht nur wie Teilchen, sondern auch wie Wellen verhalten können. Wenn Elektronen durch zwei Spalte gesendet werden, erzeugen sie ein Interferenzmuster, was auf ihre wellenartige Natur hinweist.",
+      "difficulty": 1,
+      "subcategory": "Doppelspaltexperiment (Materiewellen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Mikrokanonisches Ensemble: Verteilungsfunktion & Dichtematrix",
+      "question": "Was beschreibt die Dichtematrix im mikrokanonischen Ensemble?",
+      "choices": [
+        "A: Die Entropie eines Systems.",
+        "B: Die Gesamtenergie eines Systems.",
+        "C: Die Wahrscheinlichkeit, dass sich ein System in einem bestimmten Zustand befindet.",
+        "D: Die Temperatur eines Systems."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Dichtematrix beschreibt die Wahrscheinlichkeit, dass sich ein System im mikrokanonischen Ensemble in einem bestimmten Zustand befindet. Diese Information ist entscheidend, um das Verhalten des Systems zu analysieren und weiterführende thermodynamische Eigenschaften abzuleiten.",
+      "difficulty": 2,
+      "subcategory": "Mikrokanonisches Ensemble: Verteilungsfunktion & Dichtematrix"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Band-Ferromagnetismus",
+      "question": "Was ist eine notwendige Bedingung für den Band-Ferromagnetismus in einem Material?",
+      "choices": [
+        "A: Eine isotrope Kristallstruktur.",
+        "B: Die Existenz von ungepaarten Elektronenspins.",
+        "C: Eine hohe Temperatur.",
+        "D: Das Fehlen von Elektronenkorrelationen."
+      ],
+      "correct_answer": "B",
+      "explanation": "Für den Band-Ferromagnetismus ist es entscheidend, dass es ungepaarte Elektronenspins gibt, die zur magnetischen Ordnung führen können. Diese Spins müssen in der Lage sein, sich parallel auszurichten, um Ferromagnetismus zu erzeugen.",
+      "difficulty": 6,
+      "subcategory": "Band-Ferromagnetismus"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Temperaturdefinition aus Energieaustausch",
+      "question": "Was beschreibt die Temperatur im Kontext des Energieaustauschs zwischen Systemen?",
+      "choices": [
+        "A: Sie ist immer konstant, unabhängig von der Energie der Teilchen.",
+        "B: Sie ist ein Maß für die Gesamtenergie eines Systems.",
+        "C: Sie hängt nur von der Anzahl der Teilchen im System ab.",
+        "D: Sie ist ein Maß für die durchschnittliche kinetische Energie der Teilchen."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Temperatur ist ein Maß für die durchschnittliche kinetische Energie der Teilchen in einem System. Höhere Temperaturen bedeuten, dass die Teilchen im Schnitt schneller bewegen und somit mehr kinetische Energie besitzen.",
+      "difficulty": 3,
+      "subcategory": "Temperaturdefinition aus Energieaustausch"
     }
   ]
 }
