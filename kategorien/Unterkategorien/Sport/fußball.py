@@ -128,6 +128,9 @@ SUBDISCIPLINES = [
     ('eFootball/Simulationen (Karrieremodus, Ultimate Team, Taktik-Meta)', 2, (1, 10)),
     ('Schiedsrichterzeichen & Kommunikation', 2, (3, 10)),
 
+    # 21 transfers
+    ('rekordtranfers', 2, (4, 10)),
+    
     # ⚑ globale Sammel-Basis (Level-1 möglich)
     ('Fußball – Weltweit Basis: Trophäenformen, Vereinswappen, Spitznamen, Derbys', 2, (1, 10)),
 ]
