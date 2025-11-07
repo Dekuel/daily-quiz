@@ -717,7 +717,7 @@ def main():
                 plugins=plugins,
                 k=target_others,
                 past_texts=past_texts,
-                exclude={POLITICS_CATEGORY_NAME},
+                exclude={POLITICS_CATEGORY_NAME,PHYSICS_CATEGORY_NAME},
                 mode=mode,
             )
 
@@ -745,7 +745,7 @@ def main():
                     plugins=plugins,
                     k=deficit,
                     past_texts=past_texts,
-                    exclude={POLITICS_CATEGORY_NAME},
+                    exclude={POLITICS_CATEGORY_NAME,PHYSICS_CATEGORY_NAME},
                     mode=mode,
                 )
 
