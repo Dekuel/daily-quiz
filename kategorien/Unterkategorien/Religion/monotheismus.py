@@ -122,66 +122,94 @@ J. Konsistenz-Checkliste (für neue Domänen)
 # Schwierigkeits-Skala kurz (zur Laufzeit nutzbar):
 # 1=Allgemeinwissen … 10=schwerstmöglich.
 
+# -*- coding: utf-8 -*-
+# Unterkategorien/Religion/monotheismus.py
+
 SUBDISCIPLINES = [
     # 1 Allgemeines & Grundlagen
-    ("Monotheismus: Begriff, Ursprung, Abgrenzung", 4, (2,10)),
-    ("Abrahamitische Religionen: gemeinsame Wurzeln", 4, (2,9)),
-    ("Offenbarung, Prophetie & Heilige Schriften", 4, (2,10)),
-    ("Ethik & Gottesbild im Monotheismus", 3, (3,9)),
-    ("Schöpfung, Erlösung, Eschatologie", 3, (3,10)),
+    ("Monotheismus: Begriff, Ursprung, Abgrenzung", 4, (4, 10)),
+    ("Abrahamitische Religionen: gemeinsame Wurzeln", 4, (4, 10)),
+    ("Offenbarung, Prophetie & Heilige Schriften", 4, (4, 10)),
+    ("Ethik & Gottesbild im Monotheismus", 3, (5, 10)),
+    ("Schöpfung, Erlösung, Eschatologie", 3, (5, 10)),
     # ⚑ einfache Kategorie (Level-1 möglich)
-    ("Basiswissen Monotheismus: Zuordnungen & Begriffe (z. B. Name der heiligen Schriften, Gebetsstätten)", 2, (1,7)),
-    ("Globale Verbreitung & Anhängerzahlen (Basis)", 2, (1,9)),
+    ("Basiswissen Monotheismus: Zuordnungen & Begriffe (z. B. Name der heiligen Schriften, Gebetsstätten)", 2, (1, 7)),
+    ("Globale Verbreitung & Anhängerzahlen (Basis)", 2, (1, 9)),
 
     # 2 Judentum
-    ("Judentum: Ursprung & Geschichte Israels", 4, (3,10)),
-    ("Tanach (Tora, Neviim, Ketuvim)", 4, (4,10)),
-    ("Tempel, Priesterschaft & Opferkult", 3, (4,10)),
-    ("Rabbinisches Judentum & Talmud", 3, (5,10)),
-    ("Diaspora & jüdische Identität", 3, (3,9)),
-    ("Jüdische Feste & Bräuche (Pessach, Jom Kippur, Schabbat)", 3, (2,9)),
-    ("Zionismus & Staat Israel", 2, (3,9)),
+    ("Judentum: Ursprung & Geschichte Israels", 4, (5, 10)),
+    ("Tanach (Tora, Neviim, Ketuvim)", 4, (7, 10)),
+    ("Tempel, Priesterschaft & Opferkult", 3, (7, 10)),
+    ("Rabbinisches Judentum & Talmud", 3, (8, 10)),
+    ("Diaspora & jüdische Identität", 3, (5, 10)),
+    ("Jüdische Feste & Bräuche (Pessach, Jom Kippur, Schabbat)", 3, (4, 10)),
+    ("Zionismus & Staat Israel", 2, (5, 10)),
     # ⚑ einfache Kategorie (Level-1 möglich)
-    ("Judentum – Basisfakten (z. B. Heilige Schrift, Sabbat, Menora)", 2, (1,7)),
+    ("Judentum – Basisfakten (z. B. Heilige Schrift, Sabbat, Menora)", 2, (1, 7)),
 
     # 3 Christentum
-    ("Christentum: Entstehung & frühe Kirche", 4, (3,10)),
-    ("Neues Testament & Evangelien", 4, (2,9)),
-    ("Jesus von Nazareth & Apostelgeschichte", 4, (2,9)),
-    ("Konzile & Dogmenbildung (Nicäa, Chalcedon)", 3, (7,10)),
-    ("Katholizismus, Orthodoxie & Protestantismus", 4, (2,9)),
-    ("Reformation & Gegenreformation", 3, (3,9)),
-    ("Christliche Liturgie, Sakramente & Heilige", 3, (3,10)),
-    ("Mission, Kolonialismus & Weltkirche", 2, (3,9)),
+    ("Christentum: Entstehung & frühe Kirche", 4, (5, 10)),
+    ("Neues Testament & Evangelien", 4, (4, 10)),
+    ("Jesus von Nazareth & Apostelgeschichte", 4, (4, 10)),
+    ("Konzile & Dogmenbildung (Nicäa, Chalcedon)", 3, (10, 10)),
+    ("Katholizismus, Orthodoxie & Protestantismus", 4, (4, 10)),
+    ("Reformation & Gegenreformation", 3, (5, 10)),
+    ("Christliche Liturgie, Sakramente & Heilige", 3, (5, 10)),
+    ("Mission, Kolonialismus & Weltkirche", 2, (5, 10)),
     # ⚑ einfache Kategorie (Level-1 möglich)
-    ("Christentum – Basisfakten (z. B. Bibel, Kreuz, Weihnachten/Ostern)", 2, (1,7)),
+    ("Christentum – Basisfakten (z. B. Bibel, Kreuz, Weihnachten/Ostern)", 2, (1, 7)),
+
+        # 3,5 Bibel
+    # Allgemeines / Meta
+    ("Bibel: Aufbau, Sprachen & Entstehungsgeschichte", 4, (5, 10)),
+
+    # --- Altes Testament (6 Unterkategorien) ---
+    ("Altes Testament: Überblick & Struktur (Tora, Geschichtsbücher, Propheten, Schriften)", 4, (5, 10)),
+    ("Biblische Erzählungen AT I – Schöpfung & Urgeschichte (Adam und Eva, Kain und Abel, Sintflut, Turmbau zu Babel)", 3, (1, 10)),
+    ("Biblische Erzählungen AT II – Patriarchen & Bund (Abraham, Isaak, Jakob, Josef)", 3, (4, 10)),
+    ("Biblische Erzählungen AT III – Mose & Exodus (Auszug aus Ägypten, Zehn Gebote, Wüstenwanderung)", 3, (1, 10)),
+    ("Biblische Erzählungen AT IV – Königszeit & Propheten (David, Goliath, Salomo, Elija, Jesaja)", 3, (4, 10)),
+    ("Biblische Erzählungen AT V – Spätzeit & Exil (Daniel, Jona, Esra, Nehemia und andere)", 3, (4, 10)),
+
+    # --- Neues Testament (4 Unterkategorien) ---
+    ("Neues Testament: Aufbau, Kanonbildung & zentrale Themen", 4, (5, 10)),
+    ("Biblische Erzählungen NT I – Geburt & Kindheit Jesu (Maria, Josef, Bethlehem, Herodes, Tempelgeschichte)", 3, (4, 10)),
+    ("Biblische Erzählungen NT II – Wirken & Gleichnisse Jesu (Bergpredigt, Wunder, Gleichnis vom Sämann u. a.)", 3, (6, 10)),
+    ("Biblische Erzählungen NT III – Passion, Tod & Auferstehung (Letztes Abendmahl, Kreuzigung, leeres Grab)", 3, (4, 10)),
+
+    # --- Figuren, Symbolik & Textüberlieferung ---
+    ("Biblische Figuren & Symbolik (Propheten, Engel, Satan, Archetypen)", 3, (5, 10)),
+    ("Überlieferung, Kanonbildung & Übersetzungen (Septuaginta, Vulgata, Lutherbibel)", 3, (7, 10)),
+
+    # ⚑ einfache Kategorie (Level-1 möglich)
+    ("Basiswissen Bibel: Aufbau, zentrale Geschichten, Hauptfiguren", 2, (1, 7)),
 
     # 4 Islam
-    ("Islam: Ursprung & Prophet Mohammed", 4, (2,9)),
-    ("Koran & Hadith", 4, (1,10)),
-    ("Fünf Säulen des Islam", 4, (1,8)),
-    ("Scharia & islamische Rechtsschulen", 3, (5,10)),
-    ("Sunniten & Schiiten", 4, (3,9)),
-    ("Kalifate & islamische Geschichte", 3, (3,9)),
-    ("Sufismus (islamische Mystik)", 3, (3,10)),
-    ("Islam in der Moderne & interreligiöser Dialog", 3, (3,9)),
+    ("Islam: Ursprung & Prophet Mohammed", 4, (4, 10)),
+    ("Koran & Hadith", 4, (1, 10)),
+    ("Fünf Säulen des Islam", 4, (1, 8)),
+    ("Scharia & islamische Rechtsschulen", 3, (8, 10)),
+    ("Sunniten & Schiiten", 4, (5, 10)),
+    ("Kalifate & islamische Geschichte", 3, (5, 10)),
+    ("Sufismus (islamische Mystik)", 3, (5, 10)),
+    ("Islam in der Moderne & interreligiöser Dialog", 3, (5, 10)),
     # ⚑ einfache Kategorie (Level-1 möglich)
-    ("Islam – Basisfakten (z. B. Koran, Moschee, Ramadan)", 2, (1,7)),
+    ("Islam – Basisfakten (z. B. Koran, Moschee, Ramadan)", 2, (1, 7)),
 
     # 5 Bahaitum & andere monotheistische Strömungen
-    ("Bahaitum: Ursprung & Lehre", 3, (4,10)),
-    ("Zoroastrismus (Ahura Mazda & Dualismus)", 3, (5,10)),
-    ("Manichäismus & spätantike monotheistische Bewegungen", 2, (7,10)),
+    ("Bahaitum: Ursprung & Lehre", 3, (7, 10)),
+    ("Zoroastrismus (Ahura Mazda & Dualismus)", 3, (8, 10)),
+    ("Manichäismus & spätantike monotheistische Bewegungen", 2, (10, 10)),
     # ⚑ einfache Kategorie (Level-1 möglich)
-    ("Weitere Strömungen – Basisfakten (Bahá’í, Zoroastrismus, Manichäismus: Gründer, Kernidee, heilige Schrift)", 2, (1,8)),
+    ("Weitere Strömungen – Basisfakten (Bahá’í, Zoroastrismus, Manichäismus: Gründer, Kernidee, heilige Schrift)", 2, (1, 8)),
 
     # 6 Vergleichende Themen
-    ("Gemeinsamkeiten & Unterschiede der abrahamitischen Religionen", 4, (3,10)),
-    ("Monotheismus & Gewalt / Toleranz", 3, (4,10)),
-    ("Frauenbilder im Monotheismus", 2, (3,9)),
-    ("Monotheismus und Moderne (Säkularisierung, Pluralismus)", 3, (4,10)),
-    ("Heilige Orte: Jerusalem, Mekka, Rom", 3, (2,9)),
+    ("Gemeinsamkeiten & Unterschiede der abrahamitischen Religionen", 4, (5, 10)),
+    ("Monotheismus & Gewalt / Toleranz", 3, (7, 10)),
+    ("Frauenbilder im Monotheismus", 2, (5, 10)),
+    ("Monotheismus und Moderne (Säkularisierung, Pluralismus)", 3, (7, 10)),
+    ("Heilige Orte: Jerusalem, Mekka, Rom", 3, (4, 10)),
     # ⚑ einfache Kategorien (Level-1 möglich)
-    ("Vergleich – Basis: Heilige Schriften, Gebetsstätten, zentrale Feste (Zuordnungen)", 2, (1,8)),
-    ("Vergleich – Demografie & Verbreitung (kontinental/länderweise, Basis)", 2, (1,9)),
+    ("Vergleich – Basis: Heilige Schriften, Gebetsstätten, zentrale Feste (Zuordnungen)", 2, (1, 8)),
+    ("Vergleich – Demografie & Verbreitung (kontinental/länderweise, Basis)", 2, (1, 9)),
 ]

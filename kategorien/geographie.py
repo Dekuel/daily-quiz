@@ -109,14 +109,14 @@ _TOPIC_WEIGHTS_BY_BUCKET: Dict[str, Dict[str, int]] = {
         "Naturkatastrophen & Georisiken": 3,
     },
     "8-10": {
-        "Hauptstädte": 15,
-        "Städte, Länder & Flaggen": 15,
-        "Flüsse, Seen & Meere": 16,
-        "Gebirge, Inseln & Relief": 16,
-        "Humangeographie & Städte": 12,
-        "Klima, Biome & Naturregionen": 10,
-        "Kartographie & GIS": 8,
-        "Naturkatastrophen & Georisiken": 10,
+        "Hauptstädte": 18,
+        "Städte, Länder & Flaggen": 18,
+        "Flüsse, Seen & Meere": 18,
+        "Gebirge, Inseln & Relief": 18,
+        "Humangeographie & Städte": 10,
+        "Klima, Biome & Naturregionen": 7,
+        "Kartographie & GIS": 6,
+        "Naturkatastrophen & Georisiken": 7,
     },
 }
 
