@@ -3,7 +3,7 @@ name: Daily Quiz
 on:
   schedule:
     # GitHub läuft in UTC. 05:00 UTC = 07:00 in Berlin (Sommer) / 06:00 (Winter).
-    - cron: '0 5 * * *'
+    - cron: '0 3 * * *'
   workflow_dispatch: {}  # manuell startbar
 
 permissions:
