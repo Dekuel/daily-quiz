@@ -1,55 +1,232 @@
-# kategorien/sprache.py
 # -*- coding: utf-8 -*-
-import os, re, json, random, time
-from typing import Optional, List, Tuple
+"""
+Sprache-Generator im selben Schema/Architektur wie kategorien/sport.py
+- SysPath-Bootstrap & Filesystem-Debug
+- Oberthemen (Topics) + Bucket-Gewichte (1–4 / 5–7 / 8–10)
+- Submodule-Lader (Unterkategorien/Sprache/*.py) mit SUBTOPICS|SUBDISCIPLINES
+- Weighted Picking (Topic/Subtopic)
+- Einheitliche Prompt-/Schema-Logik
+- _ask_json mit OpenAI
+- generate_one liefert identisches Daily-Format wie sport.py
+"""
+
+import os, sys, re, json, time, random, importlib, importlib.util
+from types import ModuleType
+from typing import Optional, List, Tuple, Dict, Any
 from openai import OpenAI
 
 CATEGORY_NAME = "Sprache"
 
-# Oberbereiche (Unterkategorien) mit Gewichten – wie bei Geschichte
-_SUBCATEGORIES: dict[str, int] = {
-    "Grammatik": 10,
-    "Wortherkunft": 50,
-    "Redewendungen": 15,
-    "Fremdsprachen": 25,
+# ──────────────────────────────────────────────────────────────────────────────
+# sys.path-Bootstrap (analog zu sport.py)
+# ──────────────────────────────────────────────────────────────────────────────
+_THIS = os.path.abspath(__file__)
+_DIR  = os.path.dirname(_THIS)
+
+_CANDIDATE_ROOTS = [
+    os.path.abspath(os.path.join(_DIR, "..")),        # <repo root>
+    os.path.abspath(os.path.join(_DIR, "..", "..")),  # verschachtelte Repos
+    os.path.abspath(os.getcwd()),                     # CI working dir
+]
+
+def _ensure_root_on_syspath() -> Optional[str]:
+    # 1) Repo-Root (mit Unterkategorien)
+    for root in _CANDIDATE_ROOTS:
+        if os.path.isdir(os.path.join(root, "Unterkategorien")):
+            if root not in sys.path:
+                sys.path.insert(0, root)
+            return root
+    # 2) Fallback: kategorien-Verzeichnis mit Unterkategorien
+    for root in _CANDIDATE_ROOTS:
+        kat_dir = os.path.join(root, "kategorien")
+        if os.path.isdir(os.path.join(kat_dir, "Unterkategorien")):
+            if kat_dir not in sys.path:
+                sys.path.insert(0, kat_dir)
+            return kat_dir
+    return None
+
+_PROJECT_ANCHOR = _ensure_root_on_syspath()
+
+
+def _fs_debug() -> str:
+    bases = []
+    if _PROJECT_ANCHOR:
+        bases.append(_PROJECT_ANCHOR)
+        k = os.path.join(_PROJECT_ANCHOR, "kategorien")
+        if os.path.isdir(k):
+            bases.append(k)
+    else:
+        bases.append(_DIR)
+
+    lines = []
+    for base in bases:
+        pkg = os.path.join(base, "Unterkategorien")
+        rp  = os.path.join(pkg, "Sprache")
+        lines.append(f"Base: {base}")
+        lines.append(f"  - Exists {pkg}: {os.path.isdir(pkg)}")
+        lines.append(f"  - Exists {rp}: {os.path.isdir(rp)}")
+        if os.path.isdir(pkg):
+            lines.append(f"    - __init__.py: {os.path.isfile(os.path.join(pkg,'__init__.py'))}")
+        if os.path.isdir(rp):
+            lines.append(f"    - __init__.py: {os.path.isfile(os.path.join(rp,'__init__.py'))}")
+            for mod in (
+                "grammatik",
+                "wortherkunft",
+                "redewendungen",
+                "fremdsprachen",
+            ):
+                lines.append(f"    - {mod}.py: {os.path.isfile(os.path.join(rp, mod + '.py'))}")
+    lines.append("sys.path (head):")
+    for p in sys.path[:6]:
+        lines.append("  * " + p)
+    return "\n".join(lines)
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Oberthemen & Gewichte + Bucket-Gewichte (1–4 / 5–7 / 8–10)
+#   (aus ursprünglichem sprache.py übernommen und als Basisgewichte genutzt)
+# ──────────────────────────────────────────────────────────────────────────────
+_TOPICS: Dict[str, int] = {
+    "Grammatik":      10,
+    "Wortherkunft":   50,
+    "Redewendungen":  15,
+    "Fremdsprachen":  25,
 }
 
-# Gewichtete Unterthemen pro Unterkategorie (nur Prompt-Hinweis, NICHT ins JSON übernehmen)
-_SUBTOPICS: dict[str, List[Tuple[str, int]]] = {
-    "Grammatik": [
-        ("Kasus & Rektion (Präpositionen, Verben)", 3),
-        ("Satzbau & Wortstellung (Verbzweit, Nebensätze, Feldmodell)", 3),
-        ("Tempus & Modus (Konjunktiv I/II, Zeitengebrauch)", 3),
-        ("Kongruenz & Übereinstimmung (Subjekt–Verb, Attribute)", 2),
-        ("Kommasetzung aus grammatischen Gründen (Nebensätze, Infinitive)", 2),
-        ("Adjektivdeklination & Steigerung", 1),
-        ("Aktiv–Passiv-Umformungen", 1),
-    ],
-    "Wortherkunft": [
-        ("Lehn- & Fremdwörter (Latein, Französisch, Englisch)", 3),
-        ("Wortbildung: Präfixe/Suffixe, Komposita", 3),
-        ("Bedeutungswandel & semantische Verschiebung", 2),
-        ("Etymologie geläufiger Wörter/Endungen (z. B. -chen, ur-)", 2),
-        ("Falsche Freunde & Scheinverwandte", 1),
-        ("Namens- & Ortsnamnetymologie (Basiswissen)", 1),
-    ],
-    "Redewendungen": [
-        ("Bedeutung gängiger Idiome & Sprichwörter", 3),
-        ("Herkunft/Metaphorik verbreiteter Wendungen", 2),
-        ("Verwechslungsgefahr naher Wendungen (Nuancen)", 2),
-        ("Register & Gebrauch (formell/umgangssprachlich)", 1),
-        ("Regionale Varianten (D/A/CH) – Grundkenntnis", 1),
-    ],
-    "Fremdsprachen": [
-        ("Deutsch–Englisch: False Friends & Interferenzen", 3),
-        ("Wortstellung/Artikel im Vergleich (DE vs. EN/FR/ES)", 2),
-        ("Höflichkeitsformen, Anrede & Modalität", 2),
-        ("Lehnübersetzungen & Anglizismen im Deutschen", 2),
-        ("Typische Fehlerquellen für Lernende (A2–B2)", 1),
-    ],
+# Für alle Buckets aktuell gleiche Verteilung; bei Bedarf feinjustieren.
+_TOPIC_WEIGHTS_BY_BUCKET: Dict[str, Dict[str, int]] = {
+    "1-4": dict(_TOPICS),
+    "5-7": dict(_TOPICS),
+    "8-10": dict(_TOPICS),
 }
 
-# -- Schema: 'topic' statt 'subcategory' --------------------------------------
+
+def _bucket_for(d: int) -> str:
+    if d <= 4: return "1-4"
+    if d <= 7: return "5-7"
+    return "8-10"
+
+
+def _pick_topic_for_difficulty(d: int) -> str:
+    bucket = _bucket_for(d)
+    weights_map = _TOPIC_WEIGHTS_BY_BUCKET.get(bucket, _TOPICS)
+    names = list(weights_map.keys())
+    weights = [weights_map[n] for n in names]
+    return random.choices(names, weights=weights, k=1)[0]
+
+# Topic -> Modulpfad in Unterkategorien/Sprache/*.py
+_SUBMODULE_PATHS: Dict[str, str] = {
+    "Grammatik":      "Unterkategorien.Sprache.grammatik",
+    "Wortherkunft":   "Unterkategorien.Sprache.wortherkunft",
+    "Redewendungen":  "Unterkategorien.Sprache.redewendungen",
+    "Fremdsprachen":  "Unterkategorien.Sprache.fremdsprachen",
+}
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Loader: SUBTOPICS/SUBDISCIPLINES als Liste von Tupeln
+#   ("Name", weight) oder ("Name", weight, (min_d, max_d))
+# ──────────────────────────────────────────────────────────────────────────────
+_SUBTOPICS: Dict[str, List[Dict[str, Any]]] = {}
+
+
+def _load_subtopics_from_module(mod: ModuleType) -> List[Dict[str, Any]]:
+    if hasattr(mod, "SUBTOPICS"):
+        data = getattr(mod, "SUBTOPICS")
+    elif hasattr(mod, "SUBDISCIPLINES"):
+        data = getattr(mod, "SUBDISCIPLINES")
+    else:
+        raise AttributeError("weder SUBTOPICS noch SUBDISCIPLINES gefunden")
+
+    if not isinstance(data, list):
+        raise TypeError("SUBTOPICS/SUBDISCIPLINES muss eine Liste sein")
+
+    normed: List[Dict[str, Any]] = []
+    for item in data:
+        if not isinstance(item, tuple):
+            raise TypeError("Eintrag muss Tuple sein")
+        if len(item) == 2:
+            name, w = item
+            rng = (1, 10)
+        elif len(item) == 3:
+            name, w, rng = item
+            if not (isinstance(rng, tuple) and len(rng) == 2 and all(isinstance(x, int) for x in rng)):
+                raise TypeError("Range muss Tuple[int,int] sein")
+        else:
+            raise TypeError("Tuple-Länge 2 oder 3 erwartet")
+
+        if not (isinstance(name, str) and isinstance(w, int)):
+            raise TypeError("Format (str,int[, (int,int)]) erwartet")
+
+        mn, mx = rng
+        mn = max(1, min(10, mn))
+        mx = max(1, min(10, mx))
+        if mn > mx:
+            mn, mx = mx, mn
+
+        normed.append({
+            "name": name,
+            "weight": w,
+            "min_difficulty": mn,
+            "max_difficulty": mx,
+        })
+
+    return normed
+
+
+def _load_all_subtopics_strict() -> Dict[str, List[Dict[str, Any]]]:
+    errors: List[str] = []
+    result: Dict[str, List[Dict[str, Any]]] = {}
+    for topic, module_path in _SUBMODULE_PATHS.items():
+        try:
+            spec = importlib.util.find_spec(module_path)
+        except ModuleNotFoundError:
+            spec = None
+        if spec is None:
+            errors.append(f"[{topic}] Modul nicht gefunden: {module_path}")
+            continue
+        try:
+            mod = importlib.import_module(module_path)
+            result[topic] = _load_subtopics_from_module(mod)
+        except Exception as e:
+            errors.append(f"[{topic}] Import-/Ladefehler in {module_path}: {e.__class__.__name__}: {e}")
+            continue
+
+    if errors:
+        raise ImportError(
+            "Sprache-Plugin konnte Unterthemen nicht laden:\n"
+            + "\n".join(f" - {e}" for e in errors)
+            + "\n\nDateisystem-Check:\n" + _fs_debug()
+        )
+    return result
+
+
+_SUBTOPICS = _load_all_subtopics_strict()
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Auswahl-Hilfen
+# ──────────────────────────────────────────────────────────────────────────────
+
+def _pick_weighted_name(dicts: List[Dict[str, Any]]) -> Optional[str]:
+    if not dicts:
+        return None
+    names = [d["name"] for d in dicts]
+    weights = [d["weight"] for d in dicts]
+    return random.choices(names, weights=weights, k=1)[0]
+
+
+def _choose_subdiscipline(topic: str, target_difficulty: int) -> Optional[str]:
+    entries = _SUBTOPICS.get(topic, [])
+    eligible = [d for d in entries if d["min_difficulty"] <= target_difficulty <= d["max_difficulty"]]
+    if eligible:
+        return _pick_weighted_name(eligible)
+    for delta in (1, 2, 3):
+        eligible = [d for d in entries if (d["min_difficulty"] - delta) <= target_difficulty <= (d["max_difficulty"] + delta)]
+        if eligible:
+            return _pick_weighted_name(eligible)
+    return _pick_weighted_name(entries)
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Prompting & Schema (analog sport.py, aber mit Sprache-Constraints)
+# ──────────────────────────────────────────────────────────────────────────────
 _SCHEMA = """{
   "category": "Sprache",
   "topic": "Grammatik|Wortherkunft|Redewendungen|Fremdsprachen",
@@ -60,9 +237,6 @@ _SCHEMA = """{
   "difficulty": 1
 }"""
 
-# ──────────────────────────────────────────────────────────────────────────────
-# Neuer Schwierigkeitsleitfaden 1–10 (exakt nach Vorgabe)
-# ──────────────────────────────────────────────────────────────────────────────
 _DIFF_GUIDE = """
 1 = absolutes Grundwissen (≈ 95 % der Bevölkerung in DE)
 2 = sehr einfaches Grundwissen
@@ -76,8 +250,7 @@ _DIFF_GUIDE = """
 10 = schwerstmöglich (oberes Expertenniveau)
 """.strip()
 
-# Stufengenaue Beschreibung für die Prompt-Zeile
-_DIFF_LEVELS: dict[int, str] = {
+_DIFF_LEVELS: Dict[int, str] = {
     1: "absolutes Grundwissen (≈ 95 % der Bevölkerung in DE)",
     2: "sehr einfaches Grundwissen",
     3: "einfache Fragen (ohne schwere Thematik)",
@@ -90,24 +263,23 @@ _DIFF_LEVELS: dict[int, str] = {
     10:"schwerstmöglich (oberes Expertenniveau)",
 }
 
+
 def _temperature_for(d: int) -> float:
-    if d <= 2: return 0.8
-    if d <= 4: return 0.8
-    if d <= 6: return 0.8
-    if d <= 8: return 0.8
-    return 0.82
+    # An sport.py angelehnt, leicht konservativ
+    return 0.8 + (0.02 if d >= 9 else 0.0)
 
-def _pick_weighted(pairs: List[Tuple[str, int]]) -> str:
-    names, weights = zip(*pairs)
-    return random.choices(list(names), weights=list(weights), k=1)[0]
 
-def _prompt(subcategory: str, target_difficulty: int, mode: Optional[str], subtopic: Optional[str] = None) -> tuple[str, float]:
+_JSON_OBJ_RE = re.compile(r"\{.*\}", re.DOTALL)
+_CHOICE_PREFIX_RE = re.compile(r"^[A-D]:\s*", re.IGNORECASE)
+
+
+def _prompt(topic: str, target_difficulty: int, mode: Optional[str], subtopic: Optional[str] = None) -> tuple[str, float]:
     temperature = _temperature_for(int(target_difficulty))
     level_desc = _DIFF_LEVELS.get(int(target_difficulty), "siehe Stufenleitfaden")
     sub_hint = f"- Unterthema (nur als inhaltlicher Hinweis, NICHT ins JSON übernehmen): „{subtopic}“.\n" if subtopic else ""
 
     prompt = f"""
-Erzeuge EINE Multiple-Choice-Frage (A–D, genau eine richtig) zur Kategorie „Sprache“, Unterbereich „{subcategory}“ (Deutsch).
+Erzeuge EINE Multiple-Choice-Frage (A–D, genau eine richtig) zur Kategorie „{CATEGORY_NAME}“, Oberthema „{topic}“ (Deutsch).
 {sub_hint}Ziel-Schwierigkeit: {target_difficulty}/10 – {level_desc}
 
 Kontext zu Schwierigkeitsstufen (1–10):
@@ -115,77 +287,130 @@ Kontext zu Schwierigkeitsstufen (1–10):
 
 Vorgaben:
 - Knapp und eindeutig formulieren; Beispiel statt Metadiskussion.
-- Vier plausible Antwortoptionen (A–D), aber nur eine korrekt; keine „alle oben/keine der oben“.
--stelle sicher, dass die 3 falschen Antwortoption keine korrekten Antwortmöglichkeiten auf die Frage sind, auch wenn es nur aufgrund einer Kleinigkeit ist.
+- Vier plausible Antworten, genau eine korrekt; keine „alle oben/keine der oben“-Optionen.
+- Stelle sicher, dass die 3 falschen Optionen *nicht* korrekt sind (notfalls durch kleine, aber entscheidende Details).
 - Erklärung: 2–3 Sätze, warum die richtige Lösung stimmt; Fachbegriffe kurz laienverständlich erläutern.
-- Das Feld "topic" im JSON enthält ausschließlich den Oberbereich („{subcategory}“). Unterthema nicht ins JSON.
+- Das Feld "topic" im JSON enthält ausschließlich das Oberthema („{topic}“). Unterthema nicht ins JSON.
 - Antworte ausschließlich mit **validem JSON** gemäß Schema.
+-Vermeide Fragen, in denen die richtige Lösung oder Varianten davon bereits im Fragetext vorkommen. Auch konjugierte, abgewandelte oder zusammengesetzte Formen der Lösung dürfen nicht im Fragetext vorkommen.
 
 JSON-SCHEMA:
 {_SCHEMA}
 """.strip()
-
     return prompt, temperature
+
 
 def _ask_json(prompt: str, temperature: float) -> dict | None:
     client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
-    try:
-        r = client.chat.completions.create(
-            model="gpt-4o-mini",
-            messages=[
-                {"role": "system", "content": "Antwort ausschließlich als valides JSON, keine Zusätze."},
-                {"role": "user", "content": prompt},
-            ],
-            temperature=temperature,
-        )
-        raw = r.choices[0].message.content.strip()
-        m = re.search(r"\{.*\}", raw, re.DOTALL)
-        return json.loads(m.group(0)) if m else None
-    except Exception:
-        return None
+    last_err = None
+    for attempt in range(3):
+        try:
+            r = client.chat.completions.create(
+                model="gpt-4o-mini",
+                messages=[
+                    {"role": "system", "content": "Antwort ausschließlich als valides JSON, keine Zusätze."},
+                    {"role": "user", "content": prompt},
+                ],
+                temperature=temperature,
+            )
+            raw = (r.choices[0].message.content or "").strip()
+            m = _JSON_OBJ_RE.search(raw)
+            if not m:
+                raise ValueError("Kein JSON im Modell-Output gefunden")
+            return json.loads(m.group(0))
+        except Exception as e:
+            last_err = e
+            time.sleep(0.3 * (attempt + 1))
+    return None
 
-def _pick_subcategory() -> str:
-    names, weights = list(_SUBCATEGORIES.keys()), list(_SUBCATEGORIES.values())
-    return random.choices(names, weights=weights, k=1)[0]
+
+def _normalize_choice(s: str) -> str:
+    return _CHOICE_PREFIX_RE.sub("", s.strip())
+
+
+def _letter_to_index(letter: str) -> Optional[int]:
+    if not isinstance(letter, str) or not letter:
+        return None
+    L = letter.strip().upper()[:1]
+    return {"A":0, "B":1, "C":2, "D":3}.get(L)
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Öffentliche Generator-API (identisches Daily-Format wie sport.py)
+# ──────────────────────────────────────────────────────────────────────────────
 
 def generate_one(
-    past_texts: list[str],
+    past_texts: List[str],
     target_difficulty: Optional[int] = None,
     mode: Optional[str] = None,
 ) -> dict | None:
+    """Erzeugt genau EINE Frage im Daily-Format:
+    - choices: ["A: …", "B: …", "C: …", "D: …"]
+    - correct_answer: "A"|"B"|"C"|"D"
+    - KEIN options/correctIndex/meta
     """
-    Wird vom Core mit target_difficulty (1..10) und mode ("normal"|"schwer"|"physik") aufgerufen.
-    Falls target_difficulty fehlt, wähle moderaten Standardwert.
-    """
-    # 1) Unterkategorie wählen
-    sub = _pick_subcategory()
-    # 2) Unterthema als Prompt-Hinweis ziehen
-    subtopic = _pick_weighted(_SUBTOPICS[sub]) if sub in _SUBTOPICS and _SUBTOPICS[sub] else None
-    # 3) Zielschwierigkeit bestimmen
+    # 1) Zielschwierigkeit bestimmen
     tier = int(target_difficulty) if isinstance(target_difficulty, int) else random.choice([3, 5, 7])
+
+    # 2) Oberthema per Bucket-Gewichtung wählen
+    topic = _pick_topic_for_difficulty(tier)
+
+    # 3) Subtopic aus passendem Untermodul (falls vorhanden) ziehen
+    subtopic = _choose_subdiscipline(topic, tier)
+
     # 4) Prompt bauen & Anfrage senden
-    prompt, temp = _prompt(sub, tier, mode, subtopic=subtopic)
+    prompt, temp = _prompt(topic, tier, mode, subtopic=subtopic)
     data = _ask_json(prompt, temperature=temp)
-    time.sleep(0.8)
+    time.sleep(0.6)
     if not data:
         return None
 
-    # --- Defensive Normalisierung: alte Keys -> neue Keys ---
-    if "topic" not in data and "subcategory" in data:
-        data["topic"] = data.pop("subcategory")
-
-    # 5) Pflichtfelder normieren (Oberbereich immer festschreiben)
-    data["category"] = CATEGORY_NAME
-    data["topic"] = sub
-    data["difficulty"] = int(data.get("difficulty", tier))
-
-    # 6) minimale Validierung
-    if not isinstance(data.get("question"), str) or not data["question"].strip():
-        return None
-    if not isinstance(data.get("choices"), list) or len(data["choices"]) != 4:
-        return None
-    if not isinstance(data.get("correct_answer"), str):
+    # 5) Pflichtfelder grob prüfen
+    q = (data.get("question") or "").strip()
+    choices = data.get("choices")
+    ca_raw = (data.get("correct_answer") or "").strip()
+    expl = (data.get("explanation") or "").strip()
+    if not q or not isinstance(choices, list) or len(choices) != 4 or not expl:
         return None
 
-    # Shuffle übernimmt der Core zentral
-    return data
+    # Helper
+    letters = ["A", "B", "C", "D"]
+    def _strip_label(s: str) -> str:
+        return _CHOICE_PREFIX_RE.sub("", str(s).strip())
+
+    # 6) Choices normieren → "A: …" bis "D: …"
+    raw_texts = [_strip_label(c) for c in choices]
+    labeled = [f"{letters[i]}: {raw_texts[i]}" for i in range(4)]
+
+    # 7) correct_answer prüfen/normalisieren (nur Buchstabe)
+    ca_letter = ca_raw[:1].upper() if ca_raw else "A"
+    if ca_letter not in letters:
+        try:
+            idx = int(re.findall(r"\d", ca_raw)[0])
+        except Exception:
+            idx = 0
+        idx = max(0, min(3, idx))
+        ca_letter = letters[idx]
+
+    # 8) Ausgabe säubern: nur Daily-Felder
+    out = {
+        "category": CATEGORY_NAME,
+        "topic": topic,                 # Oberthema, Subtopic NICHT exportieren
+        "question": q,
+        "choices": labeled,
+        "correct_answer": ca_letter,
+        "explanation": expl,
+        "difficulty": int(data.get("difficulty", tier)),
+    }
+
+    # Optionale Quellenfelder durchreichen
+    for k in ("sourceTitle", "sourceUrl"):
+        v = data.get(k)
+        if isinstance(v, str) and v.strip():
+            out[k] = v.strip()
+
+    # Garantiert KEINE Extra-Felder
+    for k in ("options", "correctIndex", "meta"):
+        if k in out:
+            out.pop(k, None)
+
+    return out
