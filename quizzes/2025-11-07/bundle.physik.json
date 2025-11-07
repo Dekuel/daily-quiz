@@ -1,0 +1,168 @@
+{
+  "date": "2025-11-07",
+  "generated_at": "2025-11-07T05:14:25Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Maxwell-Konstruktion (Van-der-Waals-Isothermen)",
+      "question": "Welche Aussage beschreibt korrekt die Maxwell-Konstruktion für Van-der-Waals-Isothermen?",
+      "choices": [
+        "A: Sie dient zur Berechnung des Drucks bei konstantem Volumen.",
+        "B: Sie ist ein Verfahren zur Bestimmung der Temperaturänderung bei konstantem Druck.",
+        "C: Sie ermöglicht die Bestimmung der max. Arbeit, die bei einem Phasenübergang verrichtet werden kann.",
+        "D: Sie beschreibt die Umwandlung von Flüssigkeit in Dampf bei konstantem Druck."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Maxwell-Konstruktion ist ein grafisches Verfahren zur Analyse von Phasenübergängen in der Thermodynamik. Sie hilft dabei, die maximale Arbeit zu bestimmen, die während des Übergangs zwischen verschiedenen Phasen, wie z.B. Flüssigkeit und Dampf, verrichtet werden kann, was besonders für Van-der-Waals-Gase relevant ist.",
+      "difficulty": 6,
+      "subcategory": "Maxwell-Konstruktion (Van-der-Waals-Isothermen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Elektrostatik der Dielektrika",
+      "question": "Was bewirkt das Vorhandensein eines Dielektrikums zwischen den Platten eines Kondensators?",
+      "choices": [
+        "A: Der Kondensator wird überladen.",
+        "B: Die Spannung über den Kondensator sinkt.",
+        "C: Der Stromfluss wird gestoppt.",
+        "D: Die Kapazität des Kondensators erhöht sich."
+      ],
+      "correct_answer": "D",
+      "explanation": "Das Einbringen eines Dielektrikums zwischen den Platten eines Kondensators erhöht dessen Kapazität, da die Polarisation des Dielektrikums die elektrische Feldstärke verringert. Dadurch kann mehr Ladung bei einer gegebenen Spannung gespeichert werden.",
+      "difficulty": 4,
+      "subcategory": "Elektrostatik der Dielektrika"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Wärmeleitung (Phononen)",
+      "question": "Was sind Phononen in der Festkörperphysik?",
+      "choices": [
+        "A: Teilchen, die die elektrische Ladung transportieren.",
+        "B: Atome, die während der Kernfusion zerfallen.",
+        "C: Moleküle, die für die chemischen Bindungen verantwortlich sind.",
+        "D: Quasiteilchen, die Wärme durch Gittern schwingen."
+      ],
+      "correct_answer": "D",
+      "explanation": "Phononen sind Quasiteilchen, die in Festkörpern durch Schwingungen des Kristallgitters Wärme transportieren. Sie spielen eine zentrale Rolle in der Wärmeleitung von Materialien und beeinflussen deren thermische Eigenschaften.",
+      "difficulty": 5,
+      "subcategory": "Wärmeleitung (Phononen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Irreversible Expansion (Gay-Lussac)",
+      "question": "Was beschreibt das Gesetz von Gay-Lussac in Bezug auf die irreversible Expansion eines Gases?",
+      "choices": [
+        "A: Das Volumen eines Gases bleibt konstant, während sich seine Temperatur ändert.",
+        "B: Der Druck eines Gases steigt, wenn die Temperatur erhöht wird, bei konstantem Volumen.",
+        "C: Das Volumen eines Gases nimmt ab, wenn die Temperatur sinkt.",
+        "D: Der Druck eines Gases bleibt konstant, wenn die Temperatur steigt."
+      ],
+      "correct_answer": "B",
+      "explanation": "Das Gesetz von Gay-Lussac besagt, dass der Druck eines Gases direkt proportional zur Temperatur ist, wenn das Volumen konstant gehalten wird. Bei einer irreversiblen Expansion ändert sich das Volumen, aber das grundlegende Verhältnis bleibt relevant für die Temperaturänderung und den Druck des Gases.",
+      "difficulty": 4,
+      "subcategory": "Irreversible Expansion (Gay-Lussac)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Møller-Operatoren & Streuoperator",
+      "question": "Welcher der folgenden Operatoren beschreibt in der Quantenmechanik die Streuung von Teilchen?",
+      "choices": [
+        "A: Impulsoperator",
+        "B: Hamilton-Operator",
+        "C: Møller-Operator",
+        "D: Drehimpulsoperator"
+      ],
+      "correct_answer": "C",
+      "explanation": "Der Møller-Operator ist ein zentraler Operator in der Quantenmechanik, der verwendet wird, um die Streuung von Teilchen zu beschreiben. Er verbindet den Zustand eines Teilchens im Unendlichen mit dem Zustand nach der Wechselwirkung.",
+      "difficulty": 6,
+      "subcategory": "Møller-Operatoren & Streuoperator"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Wellenausbreitung in Leitern",
+      "question": "Was beschreibt die Wellenausbreitung in elektrischen Leitern?",
+      "choices": [
+        "A: Die Ausbreitung elektromagnetischer Wellen entlang des Leiters.",
+        "B: Die Wärmeleitung in festen Materialien.",
+        "C: Die Reflexion von Licht an der Oberfläche eines Leiters.",
+        "D: Die Bewegung von Elektronen in einem Vakuum."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Wellenausbreitung in elektrischen Leitern bezieht sich auf die Ausbreitung elektromagnetischer Wellen, die durch die Leitermaterialien hindurchgeführt werden. Diese Phänomene sind wichtig für die Übertragung von Signalen in elektrischen Schaltungen und Kommunikationssystemen.",
+      "difficulty": 4,
+      "subcategory": "Wellenausbreitung in Leitern"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Quarkstruktur der Nukleonen",
+      "question": "Welche Quarks bilden einen Proton?",
+      "choices": [
+        "A: Zwei Strange-Quarks und ein Up-Quark",
+        "B: Drei Down-Quarks",
+        "C: Zwei Up-Quarks und ein Down-Quark",
+        "D: Ein Up-Quark und zwei Strange-Quarks"
+      ],
+      "correct_answer": "C",
+      "explanation": "Ein Proton besteht aus zwei Up-Quarks und einem Down-Quark. Diese Kombination sorgt für die positive Ladung des Protons, während ein Neutron aus einem Up-Quark und zwei Down-Quarks besteht.",
+      "difficulty": 4,
+      "subcategory": "Quarkstruktur der Nukleonen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Experimente (Überblick)",
+      "question": "Welches Experiment lieferte den ersten direkten Nachweis von Neutrinos?",
+      "choices": [
+        "A: Das Stern-Gerlach-Experiment",
+        "B: Das Cowan-Reines-Experiment",
+        "C: Das Michelson-Morley-Experiment",
+        "D: Das Rutherford-Experiment"
+      ],
+      "correct_answer": "B",
+      "explanation": "Das Cowan-Reines-Experiment von 1956 war das erste Experiment, das Neutrinos nachwies. Es verwendete einen Wasserstoffsulfit-Detektor, um die schwachen Wechselwirkungen der Neutrinos mit Materie zu erfassen.",
+      "difficulty": 9,
+      "subcategory": "Experimente (Überblick)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Energie–Zeit–Unschärfe",
+      "question": "Welche Aussage beschreibt die Energie-Zeit-Unschärferelation in der Quantenmechanik am besten?",
+      "choices": [
+        "A: Eine hohe Präzision in der Zeitmessung führt zu einer hohen Unschärfe in der Energie.",
+        "B: Eine kurze Zeitspanne kann mit einer hohen Energiepräzision verbunden sein.",
+        "C: Energie und Zeit sind unabhängig voneinander und unterliegen nicht der Unschärferelation.",
+        "D: Die Energie eines Systems kann beliebig genau bestimmt werden, wenn die Zeitmessung ungenau ist."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Energie-Zeit-Unschärferelation besagt, dass eine genauere Messung der Zeit zu einer größeren Unschärfe in der Energie führt. Dies bedeutet, dass wenn ein System für kurze Zeit in einem Zustand verweilt, die Energie des Systems weniger genau definiert ist. Diese Beziehung ist eine fundamentale Eigenschaft der Quantenmechanik.",
+      "difficulty": 7,
+      "subcategory": "Energie–Zeit–Unschärfe"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Inhomogene Wellengleichung",
+      "question": "Was beschreibt die inhomogene Wellengleichung in der Elektrodynamik?",
+      "choices": [
+        "A: Die Beschreibung stationärer elektrische Felder in leitenden Materialien.",
+        "B: Die Ausbreitung elektromagnetischer Wellen in einem homogenen Medium.",
+        "C: Die Wechselwirkung zwischen elektrischen und magnetischen Feldern in einem Vakuum.",
+        "D: Die Lösung für die Ausbreitung von Wellen unter dem Einfluss externer Quellen."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die inhomogene Wellengleichung beschreibt die Ausbreitung von Wellen, die durch externe Quellen beeinflusst werden, wie beispielsweise die Erzeugung von elektromagnetischen Wellen durch Ladungen. Diese Gleichung ist zentral in der Analyse von Wellenphänomenen in häufig nicht homogenen Medien.",
+      "difficulty": 3,
+      "subcategory": "Inhomogene Wellengleichung"
+    }
+  ]
+}
