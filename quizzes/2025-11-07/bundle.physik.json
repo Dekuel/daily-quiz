@@ -1,168 +1,168 @@
 {
   "date": "2025-11-07",
-  "generated_at": "2025-11-07T05:14:25Z",
+  "generated_at": "2025-11-07T09:35:12Z",
   "schema_version": 6,
   "mode": "physik",
   "questions": [
     {
       "category": "Physik",
-      "topic": "Thermodynamik",
-      "subtopic": "Maxwell-Konstruktion (Van-der-Waals-Isothermen)",
-      "question": "Welche Aussage beschreibt korrekt die Maxwell-Konstruktion für Van-der-Waals-Isothermen?",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Quarkfamilien (CKM)",
+      "question": "Welche der folgenden Aussagen über die CKM-Matrix (Cabibbo-Kobayashi-Maskawa-Matrix) ist korrekt?",
       "choices": [
-        "A: Sie dient zur Berechnung des Drucks bei konstantem Volumen.",
-        "B: Sie ist ein Verfahren zur Bestimmung der Temperaturänderung bei konstantem Druck.",
-        "C: Sie ermöglicht die Bestimmung der max. Arbeit, die bei einem Phasenübergang verrichtet werden kann.",
-        "D: Sie beschreibt die Umwandlung von Flüssigkeit in Dampf bei konstantem Druck."
+        "A: Sie ist identisch mit der PMNS-Matrix, die für Leptonen verwendet wird.",
+        "B: Sie ist eine 2x2-Matrix, die nur die Up- und Down-Quarks berücksichtigt.",
+        "C: Sie beschreibt die Mischungs- und Übergangswahrscheinlichkeiten zwischen den drei Quarkfamilien.",
+        "D: Sie hat keinen Einfluss auf die CP-Verletzung in der Quantenchromodynamik."
       ],
       "correct_answer": "C",
-      "explanation": "Die Maxwell-Konstruktion ist ein grafisches Verfahren zur Analyse von Phasenübergängen in der Thermodynamik. Sie hilft dabei, die maximale Arbeit zu bestimmen, die während des Übergangs zwischen verschiedenen Phasen, wie z.B. Flüssigkeit und Dampf, verrichtet werden kann, was besonders für Van-der-Waals-Gase relevant ist.",
-      "difficulty": 6,
-      "subcategory": "Maxwell-Konstruktion (Van-der-Waals-Isothermen)"
+      "explanation": "Die CKM-Matrix beschreibt die Mischungs- und Übergangswahrscheinlichkeiten zwischen den verschiedenen Quarkarten (Up, Down, Strange, Charm, Bottom, Top). Sie spielt eine wichtige Rolle bei der Erklärung von CP-Verletzung in der Teilchenphysik.",
+      "difficulty": 7,
+      "subcategory": "Quarkfamilien (CKM)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Begrenzungen in optischen Systemen (Apertur, Vignettierung)",
+      "question": "Welcher Effekt beschreibt die Verringerung der Lichtmenge, die durch eine optische Öffnung gelangt, wenn die Apertur nicht vollständig ausgenutzt wird?",
+      "choices": [
+        "A: Reflektion",
+        "B: Dispersion",
+        "C: Aberration",
+        "D: Vignettierung"
+      ],
+      "correct_answer": "D",
+      "explanation": "Vignettierung tritt auf, wenn Lichtstrahlen, die durch eine optische Apertur gelangen, durch physikalische Begrenzungen blockiert werden, was zu einer ungleichmäßigen Ausleuchtung des Bildfeldes führt. Dies kann die Bildqualität erheblich beeinträchtigen, insbesondere in der Fotografie und Optik.",
+      "difficulty": 9,
+      "subcategory": "Begrenzungen in optischen Systemen (Apertur, Vignettierung)"
     },
     {
       "category": "Physik",
       "topic": "Elektrodynamik",
-      "subtopic": "Elektrostatik der Dielektrika",
-      "question": "Was bewirkt das Vorhandensein eines Dielektrikums zwischen den Platten eines Kondensators?",
+      "subtopic": "Wechselströme & Schwingkreise",
+      "question": "Was beschreibt die Resonanzfrequenz in einem Schwingkreis?",
       "choices": [
-        "A: Der Kondensator wird überladen.",
-        "B: Die Spannung über den Kondensator sinkt.",
-        "C: Der Stromfluss wird gestoppt.",
-        "D: Die Kapazität des Kondensators erhöht sich."
+        "A: Die Frequenz, bei der der Stromfluss gleich null ist.",
+        "B: Die Frequenz, bei der die Gesamtimpedanz minimal ist.",
+        "C: Die Frequenz, bei der sich die Phasen von Spannung und Strom um 90 Grad verschieben.",
+        "D: Die Frequenz, bei der die Energie im Schwingkreis maximal gespeichert wird."
       ],
       "correct_answer": "D",
-      "explanation": "Das Einbringen eines Dielektrikums zwischen den Platten eines Kondensators erhöht dessen Kapazität, da die Polarisation des Dielektrikums die elektrische Feldstärke verringert. Dadurch kann mehr Ladung bei einer gegebenen Spannung gespeichert werden.",
-      "difficulty": 4,
-      "subcategory": "Elektrostatik der Dielektrika"
+      "explanation": "Die Resonanzfrequenz eines Schwingkreises ist die Frequenz, bei der die gespeicherte Energie zwischen dem elektrischen und dem magnetischen Feld maximal ist. Dies führt zu einer maximalen Amplitude der Schwingung und einer hohen Stromstärke im Schwingkreis.",
+      "difficulty": 6,
+      "subcategory": "Wechselströme & Schwingkreise"
     },
     {
       "category": "Physik",
-      "topic": "Festkörperphysik",
-      "subtopic": "Wärmeleitung (Phononen)",
-      "question": "Was sind Phononen in der Festkörperphysik?",
+      "topic": "Quantenmechanik",
+      "subtopic": "Übergangswahrscheinlichkeit",
+      "question": "Was beschreibt die Übergangswahrscheinlichkeit in der Quantenmechanik?",
       "choices": [
-        "A: Teilchen, die die elektrische Ladung transportieren.",
-        "B: Atome, die während der Kernfusion zerfallen.",
-        "C: Moleküle, die für die chemischen Bindungen verantwortlich sind.",
-        "D: Quasiteilchen, die Wärme durch Gittern schwingen."
+        "A: Die Masse eines Teilchens in einem bestimmten Zustand.",
+        "B: Die Geschwindigkeit eines Teilchens zu einem bestimmten Zeitpunkt.",
+        "C: Die Energie eines Teilchens in Ruhe.",
+        "D: Die Wahrscheinlichkeit, dass ein Teilchen von einem Zustand in einen anderen Zustand wechselt."
       ],
       "correct_answer": "D",
-      "explanation": "Phononen sind Quasiteilchen, die in Festkörpern durch Schwingungen des Kristallgitters Wärme transportieren. Sie spielen eine zentrale Rolle in der Wärmeleitung von Materialien und beeinflussen deren thermische Eigenschaften.",
+      "explanation": "Die Übergangswahrscheinlichkeit beschreibt, wie wahrscheinlich es ist, dass ein Quantensystem von einem gegebenen Zustand in einen anderen Zustand übergeht. Sie ist ein zentrales Konzept in der Quantenmechanik und hängt von verschiedenen Faktoren wie der Zeit und den Eigenschaften der Zustände ab.",
       "difficulty": 5,
-      "subcategory": "Wärmeleitung (Phononen)"
+      "subcategory": "Übergangswahrscheinlichkeit"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Elektronenspin (Pauli-Theorie)",
+      "question": "Was beschreibt der Elektronenspin in der Quantenmechanik?",
+      "choices": [
+        "A: Die elektrische Ladung eines Elektrons.",
+        "B: Die Rotation eines Elektrons um seine eigene Achse.",
+        "C: Die Masse eines Elektrons.",
+        "D: Die Geschwindigkeit eines Elektrons in einem Atom."
+      ],
+      "correct_answer": "B",
+      "explanation": "Der Elektronenspin ist eine intrinsische Eigenschaft von Elektronen, die ihnen ein quantenmechanisches Drehmoment verleiht, obwohl sie sich nicht tatsächlich um eine Achse drehen. Diese Eigenschaft ist entscheidend für das Verständnis der Pauli-Prinzipien und des Verhaltens von Elektronen in Atomen.",
+      "difficulty": 5,
+      "subcategory": "Elektronenspin (Pauli-Theorie)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Hartree-Gleichungen",
+      "question": "Was beschreiben die Hartree-Gleichungen in der Quantenmechanik?",
+      "choices": [
+        "A: Die Wechselwirkungen zwischen Elektronen in einem Atom.",
+        "B: Die Lichtgeschwindigkeit im Vakuum.",
+        "C: Die genaue Position eines Teilchens zu einem bestimmten Zeitpunkt.",
+        "D: Die relativistische Masse eines Objekts."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Hartree-Gleichungen sind ein wichtiger Teil der Quantenmechanik, die die Wechselwirkungen zwischen mehreren Elektronen in einem Atom beschreiben. Sie sind eine Annäherung, um die komplexen Wechselwirkungen in vielen-Elektronen-Systemen zu verstehen.",
+      "difficulty": 1,
+      "subcategory": "Hartree-Gleichungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Spektrum des harmonischen Oszillators",
+      "question": "Welche der folgenden Aussagen beschreibt das Energiespektrum eines harmonischen Oszillators in der Quantenmechanik?",
+      "choices": [
+        "A: Das Energiespektrum ist kontinuierlich und hat keinen Abstand zwischen den Energien.",
+        "B: Das Energiespektrum ist diskret und hat gleichmäßig steigende Abstände zwischen den Energien.",
+        "C: Das Energiespektrum hat nur eine einzige Energieebene.",
+        "D: Das Energiespektrum ist diskret und gleichmäßig verteilt."
+      ],
+      "correct_answer": "B",
+      "explanation": "Der harmonische Oszillator in der Quantenmechanik hat ein diskretes Energiespektrum, bei dem die Energien in bestimmten Abständen zueinander liegen, die durch die quantisierte Frequenz des Systems bestimmt werden. Diese Abstände sind konstant und erhöhen sich mit jeder Energieebene.",
+      "difficulty": 1,
+      "subcategory": "Spektrum des harmonischen Oszillators"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Fresnelsche Formeln (Reflexionsgrad)",
+      "question": "Was beschreibt der Reflexionsgrad in der Fresnelschen Formel?",
+      "choices": [
+        "A: Den Brechungsindex des Mediums.",
+        "B: Die Geschwindigkeit des Lichts in einem Medium.",
+        "C: Die Wellenlänge des einfallenden Lichts.",
+        "D: Den Anteil des Lichts, der von einer Grenzfläche reflektiert wird."
+      ],
+      "correct_answer": "D",
+      "explanation": "Der Reflexionsgrad gibt an, welcher Anteil des Lichts an einer Grenzfläche zwischen zwei Medien reflektiert wird. Dies ist ein zentrales Konzept in der Optik, insbesondere bei der Anwendung der Fresnelschen Formeln zur Berechnung von Reflexion und Transmission von Licht.",
+      "difficulty": 3,
+      "subcategory": "Fresnelsche Formeln (Reflexionsgrad)"
     },
     {
       "category": "Physik",
       "topic": "Statistische Mechanik",
-      "subtopic": "Irreversible Expansion (Gay-Lussac)",
-      "question": "Was beschreibt das Gesetz von Gay-Lussac in Bezug auf die irreversible Expansion eines Gases?",
+      "subtopic": "Phasen von Einstoffsystemen & Clausius–Clapeyron",
+      "question": "Welche Aussage beschreibt am besten die Bedeutung der Clausius–Clapeyron-Gleichung in Bezug auf Phasenübergänge?",
       "choices": [
-        "A: Das Volumen eines Gases bleibt konstant, während sich seine Temperatur ändert.",
-        "B: Der Druck eines Gases steigt, wenn die Temperatur erhöht wird, bei konstantem Volumen.",
-        "C: Das Volumen eines Gases nimmt ab, wenn die Temperatur sinkt.",
-        "D: Der Druck eines Gases bleibt konstant, wenn die Temperatur steigt."
-      ],
-      "correct_answer": "B",
-      "explanation": "Das Gesetz von Gay-Lussac besagt, dass der Druck eines Gases direkt proportional zur Temperatur ist, wenn das Volumen konstant gehalten wird. Bei einer irreversiblen Expansion ändert sich das Volumen, aber das grundlegende Verhältnis bleibt relevant für die Temperaturänderung und den Druck des Gases.",
-      "difficulty": 4,
-      "subcategory": "Irreversible Expansion (Gay-Lussac)"
-    },
-    {
-      "category": "Physik",
-      "topic": "Quantenmechanik",
-      "subtopic": "Møller-Operatoren & Streuoperator",
-      "question": "Welcher der folgenden Operatoren beschreibt in der Quantenmechanik die Streuung von Teilchen?",
-      "choices": [
-        "A: Impulsoperator",
-        "B: Hamilton-Operator",
-        "C: Møller-Operator",
-        "D: Drehimpulsoperator"
-      ],
-      "correct_answer": "C",
-      "explanation": "Der Møller-Operator ist ein zentraler Operator in der Quantenmechanik, der verwendet wird, um die Streuung von Teilchen zu beschreiben. Er verbindet den Zustand eines Teilchens im Unendlichen mit dem Zustand nach der Wechselwirkung.",
-      "difficulty": 6,
-      "subcategory": "Møller-Operatoren & Streuoperator"
-    },
-    {
-      "category": "Physik",
-      "topic": "Elektrodynamik",
-      "subtopic": "Wellenausbreitung in Leitern",
-      "question": "Was beschreibt die Wellenausbreitung in elektrischen Leitern?",
-      "choices": [
-        "A: Die Ausbreitung elektromagnetischer Wellen entlang des Leiters.",
-        "B: Die Wärmeleitung in festen Materialien.",
-        "C: Die Reflexion von Licht an der Oberfläche eines Leiters.",
-        "D: Die Bewegung von Elektronen in einem Vakuum."
+        "A: Sie beschreibt die Beziehung zwischen Druck und Temperatur während eines Phasenübergangs.",
+        "B: Sie analysiert die kinetische Energie der Moleküle in einem gasförmigen Zustand.",
+        "C: Sie definiert die molekulare Struktur der verschiedenen Phasen eines Stoffes.",
+        "D: Sie erklärt die spezifische Wärme von Phasen in einem Einstoffsystem."
       ],
       "correct_answer": "A",
-      "explanation": "Die Wellenausbreitung in elektrischen Leitern bezieht sich auf die Ausbreitung elektromagnetischer Wellen, die durch die Leitermaterialien hindurchgeführt werden. Diese Phänomene sind wichtig für die Übertragung von Signalen in elektrischen Schaltungen und Kommunikationssystemen.",
-      "difficulty": 4,
-      "subcategory": "Wellenausbreitung in Leitern"
+      "explanation": "Die Clausius–Clapeyron-Gleichung ist entscheidend für das Verständnis von Phasenübergängen, da sie die Veränderung des Dampfdrucks eines Stoffes in Abhängigkeit von der Temperatur beschreibt. Diese Beziehung ist wichtig, um das Verhalten von Stoffen beim Wechsel zwischen den Phasen zu verstehen.",
+      "difficulty": 8,
+      "subcategory": "Phasen von Einstoffsystemen & Clausius–Clapeyron"
     },
     {
       "category": "Physik",
-      "topic": "Kern- und Teilchenphysik",
-      "subtopic": "Quarkstruktur der Nukleonen",
-      "question": "Welche Quarks bilden einen Proton?",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Kovariante Lagrange-Formulierung",
+      "question": "Welche Aussage über die kovariante Lagrange-Formulierung in der Relativitätstheorie ist korrekt?",
       "choices": [
-        "A: Zwei Strange-Quarks und ein Up-Quark",
-        "B: Drei Down-Quarks",
-        "C: Zwei Up-Quarks und ein Down-Quark",
-        "D: Ein Up-Quark und zwei Strange-Quarks"
+        "A: Sie ermöglicht die Formulierung der Physik in einer Weise, die unabhängig von der Wahl des Koordinatensystems ist.",
+        "B: Sie basiert ausschließlich auf der Newtonschen Mechanik.",
+        "C: Sie ignoriert die Zeitdimension und konzentriert sich nur auf räumliche Variablen.",
+        "D: Sie ist nur für nicht-relativistische Systeme anwendbar."
       ],
-      "correct_answer": "C",
-      "explanation": "Ein Proton besteht aus zwei Up-Quarks und einem Down-Quark. Diese Kombination sorgt für die positive Ladung des Protons, während ein Neutron aus einem Up-Quark und zwei Down-Quarks besteht.",
-      "difficulty": 4,
-      "subcategory": "Quarkstruktur der Nukleonen"
-    },
-    {
-      "category": "Physik",
-      "topic": "Kern- und Teilchenphysik",
-      "subtopic": "Experimente (Überblick)",
-      "question": "Welches Experiment lieferte den ersten direkten Nachweis von Neutrinos?",
-      "choices": [
-        "A: Das Stern-Gerlach-Experiment",
-        "B: Das Cowan-Reines-Experiment",
-        "C: Das Michelson-Morley-Experiment",
-        "D: Das Rutherford-Experiment"
-      ],
-      "correct_answer": "B",
-      "explanation": "Das Cowan-Reines-Experiment von 1956 war das erste Experiment, das Neutrinos nachwies. Es verwendete einen Wasserstoffsulfit-Detektor, um die schwachen Wechselwirkungen der Neutrinos mit Materie zu erfassen.",
-      "difficulty": 9,
-      "subcategory": "Experimente (Überblick)"
-    },
-    {
-      "category": "Physik",
-      "topic": "Quantenmechanik",
-      "subtopic": "Energie–Zeit–Unschärfe",
-      "question": "Welche Aussage beschreibt die Energie-Zeit-Unschärferelation in der Quantenmechanik am besten?",
-      "choices": [
-        "A: Eine hohe Präzision in der Zeitmessung führt zu einer hohen Unschärfe in der Energie.",
-        "B: Eine kurze Zeitspanne kann mit einer hohen Energiepräzision verbunden sein.",
-        "C: Energie und Zeit sind unabhängig voneinander und unterliegen nicht der Unschärferelation.",
-        "D: Die Energie eines Systems kann beliebig genau bestimmt werden, wenn die Zeitmessung ungenau ist."
-      ],
-      "correct_answer": "B",
-      "explanation": "Die Energie-Zeit-Unschärferelation besagt, dass eine genauere Messung der Zeit zu einer größeren Unschärfe in der Energie führt. Dies bedeutet, dass wenn ein System für kurze Zeit in einem Zustand verweilt, die Energie des Systems weniger genau definiert ist. Diese Beziehung ist eine fundamentale Eigenschaft der Quantenmechanik.",
+      "correct_answer": "A",
+      "explanation": "Die kovariante Lagrange-Formulierung erlaubt es, physikalische Gesetze in einer Formulierung auszudrücken, die unter Lorentz-Transformationen invariant ist, was sie besonders für die Relativitätstheorie geeignet macht. Dadurch wird die Unabhängigkeit von der Wahl des Koordinatensystems gewährleistet und die Relativität der Gleichzeitigkeit berücksichtigt.",
       "difficulty": 7,
-      "subcategory": "Energie–Zeit–Unschärfe"
-    },
-    {
-      "category": "Physik",
-      "topic": "Elektrodynamik",
-      "subtopic": "Inhomogene Wellengleichung",
-      "question": "Was beschreibt die inhomogene Wellengleichung in der Elektrodynamik?",
-      "choices": [
-        "A: Die Beschreibung stationärer elektrische Felder in leitenden Materialien.",
-        "B: Die Ausbreitung elektromagnetischer Wellen in einem homogenen Medium.",
-        "C: Die Wechselwirkung zwischen elektrischen und magnetischen Feldern in einem Vakuum.",
-        "D: Die Lösung für die Ausbreitung von Wellen unter dem Einfluss externer Quellen."
-      ],
-      "correct_answer": "D",
-      "explanation": "Die inhomogene Wellengleichung beschreibt die Ausbreitung von Wellen, die durch externe Quellen beeinflusst werden, wie beispielsweise die Erzeugung von elektromagnetischen Wellen durch Ladungen. Diese Gleichung ist zentral in der Analyse von Wellenphänomenen in häufig nicht homogenen Medien.",
-      "difficulty": 3,
-      "subcategory": "Inhomogene Wellengleichung"
+      "subcategory": "Kovariante Lagrange-Formulierung"
     }
   ]
 }

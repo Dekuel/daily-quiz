@@ -1,106 +1,108 @@
 {
   "date": "2025-11-07",
-  "generated_at": "2025-11-07T05:13:28Z",
+  "generated_at": "2025-11-07T09:34:01Z",
   "schema_version": 6,
   "mode": "schwer",
   "questions": [
     {
-      "category": "Sport",
-      "topic": "Fußball",
-      "question": "Welcher Spieler hält den Rekord für die meisten Tore in einer einzigen Saison der UEFA Champions League?",
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Zentraler Grenzwertsatz",
+      "question": "Welches der folgenden Szenarien beschreibt am besten die Anwendung des zentralen Grenzwertsatzes in der statistischen Mechanik?",
       "choices": [
-        "A: Raúl González",
-        "B: Lionel Messi",
-        "C: Cristiano Ronaldo",
-        "D: Robert Lewandowski"
-      ],
-      "correct_answer": "D",
-      "explanation": "Robert Lewandowski stellte während der Saison 2020/21 den Rekord für die meisten Tore in einer Champions-League-Saison mit 17 Treffern auf. Dieser Rekord übertraf die vorherigen Bestmarken von Lionel Messi und Cristiano Ronaldo.",
-      "difficulty": 10
-    },
-    {
-      "category": "Essen und Trinken",
-      "topic": "Küche international",
-      "question": "Welche der folgenden Saucen ist traditionell mit der Region Bourgogne (Burgund) in Frankreich verbunden und gilt als AOP-geschützte Spezialität?",
-      "choices": [
-        "A: Sauce Velouté",
-        "B: Sauce Dijon",
-        "C: Sauce Béchamel",
-        "D: Sauce Bordelaise"
-      ],
-      "correct_answer": "D",
-      "explanation": "Die Sauce Bordelaise ist eine klassische französische Sauce, die aus Rotwein, Schalotten, Butter und Knochenmark zubereitet wird und eng mit der Region Bourgogne verbunden ist. Sie ist Teil der französischen Haute Cuisine und wird oft zu Rindfleischgerichten serviert.",
-      "difficulty": 9
-    },
-    {
-      "category": "Sprache",
-      "topic": "Wortherkunft",
-      "question": "Welches deutsche Wort hat ursprünglich die Bedeutung 'Lärm' und hat sich im Laufe der Zeit zur Bedeutung 'Freude' gewandelt?",
-      "choices": [
-        "A: Krawall",
-        "B: Jubel",
-        "C: Spaß",
-        "D: Lärm"
+        "A: Die Spannungsverteilung in einem elektrischen Feld ist unabhängig von der Anzahl der geladenen Teilchen.",
+        "B: Die Zeit zwischen aufeinanderfolgenden Quantenereignissen folgt immer einer Exponentialverteilung.",
+        "C: Die Verteilung der Energien von Teilchen in einem idealen Gas folgt einer Normalverteilung, wenn die Teilchenzahl sehr groß ist.",
+        "D: Die Temperatur eines Systems kann nicht durch die statistische Verteilung der Teilchen beschrieben werden."
       ],
       "correct_answer": "C",
-      "explanation": "Das Wort 'Spaß' stammt vom mittelhochdeutschen 'spaz', was 'Lärm' bedeutete. Im Laufe der Zeit hat sich die Bedeutung jedoch gewandelt und wird heute vor allem mit Freude und Vergnügen assoziiert.",
-      "difficulty": 9
-    },
-    {
-      "category": "Kunst und Literatur",
-      "topic": "Kunstgeschichte & Epochen",
-      "question": "Welche dieser Aussagen beschreibt am besten die charakteristischen Merkmale der römischen Porträtkunst?",
-      "choices": [
-        "A: Römische Porträts wurden ausschließlich aus Marmor gefertigt und waren meist farblich sehr lebendig gestaltet.",
-        "B: Römische Porträts streben nach idealisierter Schönheit und Symmetrie, ähnlich der griechischen Kunst.",
-        "C: Römische Porträts sind hauptsächlich in Mosaiken und Fresken zu finden und zeigen eine Vielzahl von mythologischen Figuren.",
-        "D: Römische Porträts betonen Realismus und individuelle Merkmale, um die Persönlichkeit und soziale Stellung der Dargestellten zu zeigen."
-      ],
-      "correct_answer": "D",
-      "explanation": "Die römische Porträtkunst ist bekannt für ihren Realismus und die Betonung individueller Merkmale. Dies diente dazu, die Persönlichkeit und sozialen Status der abgebildeten Personen zu verdeutlichen, was sich von der idealisierenden Darstellungsweise der griechischen Kunst unterscheidet.",
-      "difficulty": 7
+      "explanation": "Der zentrale Grenzwertsatz besagt, dass die Summe oder der Durchschnitt einer großen Anzahl von unabhängigen Zufallsvariablen gegen eine Normalverteilung konvergiert, unabhängig von der ursprünglichen Verteilung. In der statistischen Mechanik ist dies entscheidend, um die Energieverteilung in einem System großer Teilchenzahlen zu beschreiben.",
+      "difficulty": 10,
+      "subcategory": "Zentraler Grenzwertsatz"
     },
     {
       "category": "Geschichte",
-      "topic": "Zeitgeschichte (ab 1945)",
-      "question": "Welches Ereignis wird häufig als Beginn der modernen Computerrevolution angesehen?",
+      "topic": "Mittelalter",
+      "question": "Welches Merkmal ist charakteristisch für die Architektur der Romanik im Vergleich zur Gotik?",
       "choices": [
-        "A: Die Einführung des Mikroprozessors im Jahr 1971",
-        "B: Die Entwicklung des ersten Personal Computers im Jahr 1981",
-        "C: Die Gründung des ARPANET im Jahr 1969",
-        "D: Der erste kommerzielle Computer, der UNIVAC I, im Jahr 1951"
-      ],
-      "correct_answer": "A",
-      "explanation": "Der Mikroprozessor, der 1971 von Intel eingeführt wurde, markierte einen entscheidenden Wendepunkt in der Computertechnologie. Er ermöglichte die Miniaturisierung und die breitere Verfügbarkeit von Computern für den persönlichen Gebrauch und leitete damit die moderne Computerrevolution ein.",
-      "difficulty": 8
-    },
-    {
-      "category": "Politiker",
-      "discipline": "Sitze (International)",
-      "question": "In welcher Stadt befindet sich der Hauptsitz der OECD?",
-      "choices": [
-        "A: Den Haag (Niederlande)",
-        "B: Wien (Österreich)",
-        "C: Straßburg (Frankreich)",
-        "D: Paris (Château de la Muette, Frankreich)"
+        "A: Vertikale Ausrichtung und hohe Türme",
+        "B: Spitzbogenfenster und filigrane Strukturen",
+        "C: Verwendung von Glasmalerei in großem Maßstab",
+        "D: Rundbogenfenster und massive Wände"
       ],
       "correct_answer": "D",
-      "explanation": "OECD: Wirtschaftspolitische Zusammenarbeit und vergleichende Analysen.",
-      "difficulty": 1
+      "explanation": "Die Romanik, die etwa vom 10. bis zum 12. Jahrhundert dominierte, ist durch ihre massiven Wände und Rundbögen gekennzeichnet, im Gegensatz zur Gotik, die ab dem 12. Jahrhundert mit Spitzbögen und hohen, lichtdurchfluteten Strukturen aufwartet. Diese Unterschiede sind deutlich in den Bauwerken dieser Epochen zu erkennen.",
+      "difficulty": 9
     },
     {
-      "category": "Geographie",
-      "topic": "Humangeographie & Städte",
-      "question": "Welche Maßnahme kann dazu beitragen, den Wärmeinsel-Effekt in Städten zu reduzieren?",
+      "category": "Sport",
+      "topic": "Tennis",
+      "question": "Welcher Spieler hat die meisten Grand-Slam-Titel im Einzel (Stand 2023)?",
       "choices": [
-        "A: Begrünung von Dächern und Fassaden",
-        "B: Verwendung von dunklen Materialien für Straßen",
-        "C: Verkleinerung der Stadtparks",
-        "D: Erhöhung der Anzahl von Parkplätzen"
+        "A: Pete Sampras",
+        "B: Novak Djokovic",
+        "C: Rafael Nadal",
+        "D: Roger Federer"
+      ],
+      "correct_answer": "B",
+      "explanation": "Novak Djokovic hält den Rekord für die meisten Grand-Slam-Titel im Einzel. Er hat in seiner Karriere zahlreiche Titel gewonnen und sich damit an die Spitze der Liste gesetzt.",
+      "difficulty": 7
+    },
+    {
+      "category": "Natur",
+      "topic": "Pflanzenwelt",
+      "question": "Welche der folgenden Aussagen beschreibt einen Vorteil der Bestäubung durch Tiere im Vergleich zur Windbestäubung?",
+      "choices": [
+        "A: Tierbestäuber können gezielt bestimmte Blüten anfliegen, was die Effizienz der Bestäubung erhöht.",
+        "B: Windbestäubung erfordert keine Energie von Pflanzen, wodurch sie weniger Ressourcen verbrauchen.",
+        "C: Tierbestäubung ist unabhängig von Wetterbedingungen wie Wind und Regen.",
+        "D: Bei der Windbestäubung ist die Anzahl der benötigten Pollen geringer als bei Tierbestäubung."
       ],
       "correct_answer": "A",
-      "explanation": "Die Begrünung von Dächern und Fassaden trägt dazu bei, die Temperatur in städtischen Gebieten zu senken, indem sie Schatten spendet und die Verdampfung von Wasser fördert. Im Gegensatz dazu können dunkle Materialien und weniger Grünflächen den Wärmeinsel-Effekt verstärken.",
+      "explanation": "Tierbestäuber, wie Bienen und Schmetterlinge, sind in der Lage, gezielt Blüten anzufliegen und tragen Pollen effizient von einer Blüte zur nächsten. Dies führt zu einer höheren Erfolgsquote bei der Bestäubung im Vergleich zur zufälligen Verteilung durch den Wind.",
+      "difficulty": 7
+    },
+    {
+      "category": "Essen und Trinken",
+      "topic": "Getränke",
+      "question": "Welches der folgenden Getränke muss in der EU gemäß der Verordnung über die Kennzeichnung von Getränken als alkoholhaltig gekennzeichnet werden?",
+      "choices": [
+        "A: Fruchtsaft",
+        "B: Limonade",
+        "C: Bier",
+        "D: Mineralwasser"
+      ],
+      "correct_answer": "C",
+      "explanation": "In der EU müssen alkoholhaltige Getränke, wie Bier, deutlich gekennzeichnet werden, um den Konsumenten über den Alkoholgehalt zu informieren. Getränke ohne Alkohol, wie Mineralwasser, Fruchtsaft oder Limonade, unterliegen nicht dieser Kennzeichnungspflicht.",
       "difficulty": 5
+    },
+    {
+      "category": "Sprache",
+      "topic": "Grammatik",
+      "question": "Welcher Satz ist grammatikalisch korrekt?",
+      "choices": [
+        "A: Heute ins Kino gehe ich.",
+        "B: Ich gehe heute ins Kino.",
+        "C: Ich ins Kino gehe heute.",
+        "D: Ins Kino gehe ich heute."
+      ],
+      "correct_answer": "B",
+      "explanation": "Der Satz 'Ich gehe heute ins Kino.' folgt der gängigen deutschen Satzstruktur, bei der das Subjekt (ich) vor dem Verb (gehe) steht. In den anderen Sätzen ist die Wortstellung nicht korrekt oder unnatürlich für die deutsche Sprache, was die Verständlichkeit beeinträchtigt.",
+      "difficulty": 4
+    },
+    {
+      "category": "Glaube & Religion",
+      "topic": "Klassische & nordische Mythologien",
+      "question": "Welches antike Werk beschreibt die Reise der Seele durch die Unterwelt und enthält Anweisungen für das Jenseits?",
+      "choices": [
+        "A: Die Metamorphosen",
+        "B: Das Epos von Gilgamesch",
+        "C: Die Göttliche Komödie",
+        "D: Das Buch der Toten"
+      ],
+      "correct_answer": "D",
+      "explanation": "Das Buch der Toten ist eine Sammlung von Texten aus dem alten Ägypten, die den Verstorbenen auf ihrer Reise durch das Jenseits helfen sollten. Es enthält wichtige Hinweise und magische Formeln, um die Herausforderungen im Totenreich zu meistern.",
+      "difficulty": 7
     }
   ]
 }
