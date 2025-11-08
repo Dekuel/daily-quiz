@@ -1,168 +1,168 @@
 {
   "date": "2025-11-08",
-  "generated_at": "2025-11-08T03:35:02Z",
+  "generated_at": "2025-11-08T20:26:24Z",
   "schema_version": 6,
   "mode": "physik",
   "questions": [
     {
       "category": "Physik",
-      "topic": "Kern- und Teilchenphysik",
-      "subtopic": "Meson‑Multipletts (SU(3))",
-      "question": "Was ist ein Beispiel für ein Meson-Multiplett in der SU(3) Symmetrie?",
-      "choices": [
-        "A: Elektron",
-        "B: Pion",
-        "C: Neutron",
-        "D: Proton"
-      ],
-      "correct_answer": "B",
-      "explanation": "Das Pion ist ein Meson und gehört zu einem Multiplett der SU(3)-Symmetrie. Es ist eines der grundlegenden Teilchen, die in der starken Wechselwirkung eine Rolle spielen, während Protonen und Neutronen Baryonen sind und Elektronen Leptonen sind.",
-      "difficulty": 1,
-      "subcategory": "Meson‑Multipletts (SU(3))"
-    },
-    {
-      "category": "Physik",
-      "topic": "Kern- und Teilchenphysik",
-      "subtopic": "Naturkonstanten (Fundamentalwerte)",
-      "question": "Welche der folgenden Naturkonstanten beschreibt die Stärke der elektroschwachen Wechselwirkung?",
-      "choices": [
-        "A: Die Gravitationskonstante",
-        "B: Die Weinberg-Salam-Konstante",
-        "C: Die Planck-Konstante",
-        "D: Die Feinstrukturkonstante"
-      ],
-      "correct_answer": "B",
-      "explanation": "Die Weinberg-Salam-Konstante ist eine wichtige Naturkonstante, die die Stärke der elektroschwachen Wechselwirkung beschreibt. Sie spielt eine zentrale Rolle in der Vereinheitlichung der elektromagnetischen und der schwachen Wechselwirkungen in der Teilchenphysik.",
-      "difficulty": 5,
-      "subcategory": "Naturkonstanten (Fundamentalwerte)"
-    },
-    {
-      "category": "Physik",
-      "topic": "Klassische Mechanik",
-      "subtopic": "Kugelfall-Viskosimeter; Stokes-Gesetz",
-      "question": "Was beschreibt das Stokes-Gesetz im Kontext eines Kugelfall-Viskosimeters?",
-      "choices": [
-        "A: Die Abhängigkeit der Fallgeschwindigkeit einer Kugel in einer viskosen Flüssigkeit von der Viskosität der Flüssigkeit.",
-        "B: Die Energieerhaltung in einem geschlossenen System.",
-        "C: Die Beziehung zwischen der Temperatur und der Druckänderung in einem Gas.",
-        "D: Die Geschwindigkeit von Licht in vakuum."
-      ],
-      "correct_answer": "A",
-      "explanation": "Das Stokes-Gesetz beschreibt, wie die Fallgeschwindigkeit einer Kugel in einer viskosen Flüssigkeit direkt von der Viskosität der Flüssigkeit sowie dem Radius der Kugel abhängt. Dieses Gesetz wird oft in Viskosimetern verwendet, um die Viskosität einer Flüssigkeit zu bestimmen.",
-      "difficulty": 4,
-      "subcategory": "Kugelfall-Viskosimeter; Stokes-Gesetz"
-    },
-    {
-      "category": "Physik",
       "topic": "Quantenmechanik",
-      "subtopic": "Lineare Operatoren",
-      "question": "Welcher der folgenden Operatoren ist ein Beispiel für einen hermiteschen Operator in der Quantenmechanik?",
+      "subtopic": "Störungstheoretische Grundformel",
+      "question": "Was beschreibt die störungstheoretische Grundformel in der Quantenmechanik?",
       "choices": [
-        "A: Energieoperator",
-        "B: Positionsoperator",
-        "C: Impulsoperator",
-        "D: Zeitoperator"
-      ],
-      "correct_answer": "C",
-      "explanation": "Ein hermitescher Operator ist wichtig, da er reale Eigenwerte hat, die Messwerte in der Quantenmechanik repräsentieren. Der Impulsoperator ist ein klassisches Beispiel für einen hermiteschen Operator, der häufig in quantenmechanischen Systemen verwendet wird.",
-      "difficulty": 3,
-      "subcategory": "Lineare Operatoren"
-    },
-    {
-      "category": "Physik",
-      "topic": "Klassische Mechanik",
-      "subtopic": "Brownsche Bewegung",
-      "question": "Was beschreibt die Brownsche Bewegung?",
-      "choices": [
-        "A: Die gleichförmige Bewegung eines Körpers in einer geraden Linie.",
-        "B: Die zufällige Bewegung von Partikeln in einer Flüssigkeit oder einem Gas.",
-        "C: Die Rotation eines Körpers um seine eigene Achse.",
-        "D: Die Schwingung eines Pendels in der Luft."
+        "A: Die Berechnung der Energieniveaus eines harmonischen Oszillators.",
+        "B: Die Zeitentwicklung eines quantenmechanischen Systems unter dem Einfluss einer Störung.",
+        "C: Die Beziehung zwischen Energie und Frequenz eines Photons.",
+        "D: Die Korrelation zwischen den Spin-Zuständen zweier Teilchen."
       ],
       "correct_answer": "B",
-      "explanation": "Die Brownsche Bewegung beschreibt die unregelmäßige, zufällige Bewegung von kleinen Partikeln, die in einer Flüssigkeit oder einem Gas suspendiert sind. Diese Bewegung entsteht durch die Kollisionen der Partikel mit den Molekülen der Flüssigkeit oder des Gases.",
-      "difficulty": 4,
-      "subcategory": "Brownsche Bewegung"
+      "explanation": "Die störungstheoretische Grundformel ermöglicht es, die Zeitentwicklung eines quantenmechanischen Systems zu analysieren, wenn es durch eine kleine Störung beeinflusst wird. Sie ist ein zentrales Werkzeug in der Quantenmechanik, insbesondere in der Zeitabhängigen Störungstheorie.",
+      "difficulty": 10,
+      "subcategory": "Störungstheoretische Grundformel"
     },
     {
       "category": "Physik",
       "topic": "Statistische Mechanik",
-      "subtopic": "Phasenübergänge & kritische Phänomene (Überblick)",
-      "question": "Was beschreibt der Begriff 'kritischer Punkt' in der Thermodynamik?",
+      "subtopic": "Bose–Einstein-Kondensation (BEC)",
+      "question": "Was ist ein charakteristisches Merkmal der Bose-Einstein-Kondensation?",
       "choices": [
-        "A: Den Zustand, in dem die Phasen eines Stoffes nicht mehr unterscheidbar sind.",
-        "B: Den Zustand, in dem alle Teilchen eines Stoffes in Ruhe sind.",
-        "C: Den Punkt, an dem ein Stoff vollständig verdampft.",
-        "D: Den Punkt, an dem ein Stoff in den festen Zustand übergeht."
+        "A: Bosonen kondensieren in den gleichen quantenmechanischen Zustand.",
+        "B: Fermi-Dirac-Statistik beschreibt das Verhalten der Teilchen.",
+        "C: Die Kondensation tritt nur bei schweren Atomkernen auf.",
+        "D: Teilchen erreichen eine Temperatur von 0 Kelvin."
       ],
       "correct_answer": "A",
-      "explanation": "Der kritische Punkt ist der Zustand, bei dem die Eigenschaften der Flüssigkeits- und Gasphase eines Stoffes identisch werden, sodass keine klare Grenze zwischen den beiden Phasen mehr existiert. Dies ist ein zentrales Konzept in der Untersuchung von Phasenübergängen in der statistischen Mechanik.",
-      "difficulty": 5,
-      "subcategory": "Phasenübergänge & kritische Phänomene (Überblick)"
+      "explanation": "Ein charakteristisches Merkmal der Bose-Einstein-Kondensation ist, dass Bosonen in den gleichen quantenmechanischen Zustand übergehen. Dies führt zu einem makroskopischen Besetzungszustand, der bei sehr niedrigen Temperaturen beobachtet wird.",
+      "difficulty": 6,
+      "subcategory": "Bose–Einstein-Kondensation (BEC)"
     },
     {
       "category": "Physik",
-      "topic": "Relativitätstheorie",
-      "subtopic": "Lorentz-Kraft in Vierervektorform",
-      "question": "Was beschreibt die Lorentz-Kraft in der Relativitätstheorie?",
+      "topic": "Elektrodynamik",
+      "subtopic": "Bewegte Punktladungen & Liénard–Wiechert-Potentiale",
+      "question": "Welches der folgenden Phänomene beschreibt das Liénard–Wiechert-Potential für bewegte Punktladungen?",
       "choices": [
-        "A: Die Kraft, die auf eine bewegte elektrische Ladung wirkt.",
-        "B: Die Kraft, die auf einen ruhenden Körper wirkt.",
-        "C: Die Gravitationskraft zwischen zwei Massen.",
-        "D: Die Kraft, die durch den Druck eines Gases erzeugt wird."
+        "A: Es beschreibt die Wechselwirkung zwischen magnetischen Dipolen.",
+        "B: Es beschreibt den Gravitationsfeld einer bewegten Masse.",
+        "C: Es beschreibt die Änderung des elektrischen Feldes bei einer Ruheladung.",
+        "D: Es beschreibt die elektromagnetischen Felder, die von einer punktförmigen Ladung ausgehen, die sich mit konstanter Geschwindigkeit bewegt."
+      ],
+      "correct_answer": "D",
+      "explanation": "Das Liénard–Wiechert-Potential gibt die elektromagnetischen Felder an, die von einer bewegten Punktladung erzeugt werden. Es berücksichtigt die Relativität der Bewegung und beschreibt die Felder für beliebige Geschwindigkeiten der Ladung.",
+      "difficulty": 5,
+      "subcategory": "Bewegte Punktladungen & Liénard–Wiechert-Potentiale"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Kritische Exponenten & Skalengesetze",
+      "question": "Welcher kritische Exponent beschreibt das Verhalten der spezifischen Wärme an einem kritischen Punkt in der statistischen Mechanik?",
+      "choices": [
+        "A: γ",
+        "B: α",
+        "C: β",
+        "D: δ"
       ],
       "correct_answer": "A",
-      "explanation": "Die Lorentz-Kraft beschreibt die Wechselwirkung zwischen einer bewegten elektrischen Ladung und einem elektromagnetischen Feld. Sie ist eine zentrale Größe in der Elektrodynamik und berücksichtigt sowohl elektrische als auch magnetische Felder. Diese Kraft beeinflusst die Bewegung von Teilchen in einem relativistischen Kontext.",
-      "difficulty": 1,
-      "subcategory": "Lorentz-Kraft in Vierervektorform"
+      "explanation": "Der kritische Exponent γ beschreibt das Verhalten der spezifischen Wärme C_v in der Nähe des kritischen Punktes, wo C_v divergiert. In der statistischen Mechanik ist γ ein wichtiger Indikator für Phasenübergänge und das Verhalten des Systems im kritischen Zustand.",
+      "difficulty": 8,
+      "subcategory": "Kritische Exponenten & Skalengesetze"
     },
     {
       "category": "Physik",
       "topic": "Optik",
-      "subtopic": "Interferenzen dünner Schichten",
-      "question": "Was ist der Hauptgrund für die Farbänderung, die man bei Licht sieht, das auf eine dünne ölige Wasseroberfläche trifft?",
+      "subtopic": "Moden in optischen Wellenleitern",
+      "question": "Welche der folgenden Aussagen über die Moden in optischen Wellenleitern ist korrekt?",
       "choices": [
-        "A: Reflexion des Lichts",
-        "B: Brechung des Lichts",
-        "C: Absorption des Lichts",
-        "D: Interferenz von Lichtwellen"
+        "A: Moden sind immer radial symmetrisch und unabhängig von der Wellenlänge.",
+        "B: Moden sind stehende Wellen, die sich innerhalb des Wellenleiters bilden.",
+        "C: Moden können nur in eindimensionalen Wellenleitern existieren.",
+        "D: Alle Moden haben die gleiche Energie."
+      ],
+      "correct_answer": "B",
+      "explanation": "Moden in optischen Wellenleitern sind tatsächlich stehende Wellen, die durch die Interferenz von Lichtstrahlen entstehen, die in den Wellenleiter hinein- und herausreflektiert werden. Sie sind entscheidend für die Lichtleitung und bestimmen die Eigenschaften des Wellenleiters.",
+      "difficulty": 6,
+      "subcategory": "Moden in optischen Wellenleitern"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Entropie im kanonischen Ensemble & Extremalität",
+      "question": "Welche Aussage über die Entropie im kanonischen Ensemble ist korrekt?",
+      "choices": [
+        "A: Die Entropie kann nur in geschlossenen Systemen betrachtet werden.",
+        "B: Entropie hat keine physikalische Bedeutung in der statistischen Mechanik.",
+        "C: Entropie ist unabhängig von der Temperatur und bleibt konstant.",
+        "D: Die Entropie ist ein Maß für die Unordnung und erreicht ihr Maximum im thermodynamischen Gleichgewicht."
       ],
       "correct_answer": "D",
-      "explanation": "Die Farbänderung auf einer dünnen öligen Schicht entsteht durch die Interferenz von Lichtwellen, die an den oberen und unteren Grenzflächen der Schicht reflektiert werden. Diese Interferenz kann konstruktiv oder destruktiv sein, abhängig von der Dicke der Schicht und der Wellenlänge des Lichts.",
-      "difficulty": 5,
-      "subcategory": "Interferenzen dünner Schichten"
+      "explanation": "Im kanonischen Ensemble beschreibt die Entropie die Anzahl der möglichen Mikrozustände eines Systems. Im thermodynamischen Gleichgewicht ist die Entropie maximiert, was mit einem Zustand maximaler Unordnung korreliert ist.",
+      "difficulty": 6,
+      "subcategory": "Entropie im kanonischen Ensemble & Extremalität"
     },
     {
       "category": "Physik",
       "topic": "Quantenmechanik",
-      "subtopic": "Spin (allgemein)",
-      "question": "Was beschreibt der Spin eines Teilchens in der Quantenmechanik?",
+      "subtopic": "Coulomb-Potential (Wasserstoffatom): Energiespektrum",
+      "question": "Was beschreibt das Energiespektrum eines Wasserstoffatoms im Coulomb-Potential?",
       "choices": [
-        "A: Die Geschwindigkeit des Teilchens.",
-        "B: Die Masse des Teilchens.",
-        "C: Die Position des Teilchens im Raum.",
-        "D: Die intrinsische Drehimpuls des Teilchens."
+        "A: Es gibt keine energetischen Zustände.",
+        "B: Es sind nur diskrete Energiewerte erlaubt.",
+        "C: Die Energie ist unabhängig von der Entfernung zum Atomkern.",
+        "D: Es sind kontinuierliche Energiewerte erlaubt."
       ],
-      "correct_answer": "D",
-      "explanation": "Der Spin ist eine fundamentale Eigenschaft von Teilchen in der Quantenmechanik, die ihren intrinsischen Drehimpuls beschreibt. Er ist quantisiert und kann nur bestimmte Werte annehmen, was zu verschiedenen quantenmechanischen Effekten führt.",
-      "difficulty": 6,
-      "subcategory": "Spin (allgemein)"
+      "correct_answer": "B",
+      "explanation": "Das Energiespektrum des Wasserstoffatoms ist diskret, was bedeutet, dass nur bestimmte, definierte Energiewerte erlaubt sind. Dies ist eine fundamentale Eigenschaft quantenmechanischer Systeme, die aus der Lösung der Schrödinger-Gleichung im Coulomb-Potential resultiert.",
+      "difficulty": 1,
+      "subcategory": "Coulomb-Potential (Wasserstoffatom): Energiespektrum"
     },
     {
       "category": "Physik",
-      "topic": "Festkörperphysik",
-      "subtopic": "Zustandsgleichung & thermische Ausdehnung",
-      "question": "Was passiert mit den meisten Festkörpern, wenn sie erhitzt werden?",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Eulersche Gleichungen",
+      "question": "Was beschreiben die Eulerschen Gleichungen in der klassischen Mechanik?",
       "choices": [
-        "A: Sie ändern die Farbe.",
-        "B: Sie ziehen sich zusammen.",
-        "C: Sie werden schwerer.",
-        "D: Sie dehnen sich aus."
+        "A: Die Wechselwirkung zwischen Elektronen und Photonen.",
+        "B: Die Bewegung eines starren Körpers unter dem Einfluss von Kräften.",
+        "C: Die thermodynamischen Eigenschaften von Gasen.",
+        "D: Die quantenmechanischen Zustände von Teilchen."
       ],
-      "correct_answer": "D",
-      "explanation": "Die meisten Festkörper dehnen sich bei Erwärmung aus, da die Teilchen mehr Energie erhalten und sich stärker bewegen. Diese thermische Ausdehnung ist ein grundlegendes Phänomen in der Festkörperphysik.",
-      "difficulty": 1,
-      "subcategory": "Zustandsgleichung & thermische Ausdehnung"
+      "correct_answer": "B",
+      "explanation": "Die Eulerschen Gleichungen beschreiben die Bewegung eines starren Körpers, indem sie die Beziehung zwischen den Kräften und den resultierenden Beschleunigungen darstellen. Sie sind besonders wichtig in der Mechanik, um das Verhalten von rotierenden Körpern zu analysieren.",
+      "difficulty": 5,
+      "subcategory": "Eulersche Gleichungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Fluktuationen & thermodynamische Ungleichungen",
+      "question": "Welche Aussage über thermodynamische Fluktuationen ist korrekt?",
+      "choices": [
+        "A: Thermodynamische Ungleichungen gelten nur im Gleichgewichtszustand.",
+        "B: Fluktuationen treten in der Regel in kleinen Systemen stärker auf.",
+        "C: Fluktuationen nehmen mit steigender Temperatur ab.",
+        "D: Thermodynamische Fluktuationen sind unabhängig von der Systemgröße."
+      ],
+      "correct_answer": "B",
+      "explanation": "In kleinen Systemen sind die relativen Fluktuationen größer, da die Anzahl der Teilchen geringer ist und somit statistische Schwankungen deutlicher ausgeprägt sind. In großen Systemen gleichen sich die Fluktuationen aus, was zu stabileren Eigenschaften führt.",
+      "difficulty": 6,
+      "subcategory": "Fluktuationen & thermodynamische Ungleichungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Noether-Idee: Homogenität der Zeit ⇒ Energieerhaltung",
+      "question": "Was besagt die Noether-Idee in Bezug auf die Zeit und die Energieerhaltung?",
+      "choices": [
+        "A: Die Homogenität der Zeit führt zur Erhaltung der Energie.",
+        "B: Die Homogenität der Zeit führt zur Erhaltung des Impulses.",
+        "C: Die Homogenität der Zeit führt zur Erhaltung der Masse.",
+        "D: Die Homogenität der Zeit hat keinen Einfluss auf physikalische Gesetze."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Noether-Idee besagt, dass jede Symmetrie in der Physik eine Erhaltungsgröße zugeordnet ist. Die Homogenität der Zeit, also die Unabhängigkeit von physikalischen Gesetzen von einem bestimmten Zeitpunkt, führt zur Erhaltung der Energie.",
+      "difficulty": 3,
+      "subcategory": "Noether-Idee: Homogenität der Zeit ⇒ Energieerhaltung"
     }
   ]
 }
