@@ -1,34 +1,103 @@
 {
   "date": "2025-11-08",
-  "generated_at": "2025-11-08T21:21:09Z",
+  "generated_at": "2025-11-08T21:26:10Z",
   "schema_version": 6,
   "mode": "normal",
   "questions": [
     {
-      "question": "Which institution is responsible for passing federal laws in the United States?",
+      "category": "Language",
+      "topic": "Foreign Languages",
+      "question": "Which of the following is a common greeting in English?",
       "choices": [
-        "A: The Senate alone",
-        "B: The Supreme Court",
-        "C: The Cabinet",
-        "D: The Congress"
+        "A: Hello",
+        "B: Bonjour",
+        "C: Hola",
+        "D: Ciao"
       ],
-      "correct_answer": "D",
-      "difficulty": 4,
-      "category": "politics",
-      "_untranslated": true
+      "correct_answer": "A",
+      "explanation": "The word 'Hello' is widely recognized as a standard greeting in English-speaking countries. The other options, while greetings, are from different languages: French, Spanish, and Italian respectively.",
+      "difficulty": 1
     },
     {
-      "question": "Which institution is responsible for passing federal laws in the United States?",
+      "category": "Geschichte",
+      "topic": "Neuzeit",
+      "question": "Who is considered the main initiator of the Reformation?",
       "choices": [
-        "A: The Supreme Court",
-        "B: The Congress",
-        "C: The Cabinet",
-        "D: The Senate alone"
+        "A: Huldrych Zwingli",
+        "B: John Calvin",
+        "C: Martin Luther",
+        "D: Henry VIII"
+      ],
+      "correct_answer": "C",
+      "explanation": "Martin Luther published his 95 Theses in 1517, which are seen as the beginning of the Reformation. This movement led to a profound change in the Christian religious landscape in Europe and the establishment of new denominations.",
+      "difficulty": 3
+    },
+    {
+      "category": "Language",
+      "topic": "Etymology",
+      "question": "What is the origin of the English word 'school'?",
+      "choices": [
+        "A: From Latin 'schola'",
+        "B: From Old English 'sceol'",
+        "C: From Greek 'scholē'",
+        "D: From French 'école'"
+      ],
+      "correct_answer": "A",
+      "explanation": "The word 'school' comes from the Latin 'schola', which in turn was derived from the Greek 'scholē'. This evolution reflects the historical influence of the Latin language on English, particularly in terms related to learning and education.",
+      "difficulty": 3
+    },
+    {
+      "question": "Who is the current President of the United States?",
+      "choices": [
+        "A: Barack Obama",
+        "B: Joe Biden",
+        "C: Donald Trump"
       ],
       "correct_answer": "B",
-      "difficulty": 4,
-      "category": "politics",
-      "_untranslated": true
+      "difficulty": 3,
+      "category": "politics"
+    },
+    {
+      "category": "Essen und Trinken",
+      "topic": "Ernährung",
+      "question": "Which of these vitamins is known to support the immune system and is found in citrus fruits?",
+      "choices": [
+        "A: Vitamin C",
+        "B: Vitamin B12",
+        "C: Vitamin A",
+        "D: Vitamin D"
+      ],
+      "correct_answer": "A",
+      "explanation": "Vitamin C is a water-soluble vitamin that is mainly found in citrus fruits such as oranges and lemons. It plays an important role in strengthening the immune system and skin health.",
+      "difficulty": 1
+    },
+    {
+      "category": "Kunst und Literatur",
+      "topic": "Kunstwissen & Allgemeines",
+      "question": "Which work is associated with Impressionism?",
+      "choices": [
+        "A: 'Impression, Sunrise'",
+        "B: 'The Scream'",
+        "C: 'The Birth of Venus'",
+        "D: 'The Last Supper'"
+      ],
+      "correct_answer": "A",
+      "explanation": "'Impression, Sunrise' by Claude Monet is considered the first work of Impressionism and gave the style its name. Impressionism is characterized by the use of light and color to capture the fleeting impression of a moment.",
+      "difficulty": 5
+    },
+    {
+      "category": "Natur",
+      "topic": "Tierwelt",
+      "question": "Which animal is typically found in the tropical rainforest?",
+      "choices": [
+        "A: Jaguar",
+        "B: Ibex",
+        "C: Kangaroo",
+        "D: Polar bear"
+      ],
+      "correct_answer": "A",
+      "explanation": "The jaguar is a predator that mainly lives in the dense forests of the tropical rainforest. Polar bears, on the other hand, are adapted to cold, Arctic habitats, while kangaroos are found in Australia and ibexes in alpine regions.",
+      "difficulty": 6
     }
   ]
 }

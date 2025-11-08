@@ -1,34 +1,103 @@
 {
   "date": "2025-11-08",
-  "generated_at": "2025-11-08T21:21:09Z",
+  "generated_at": "2025-11-08T21:24:21Z",
   "schema_version": 6,
   "mode": "normal",
   "questions": [
     {
-      "question": "Which institution is responsible for passing federal laws in the United States?",
+      "category": "Sprache",
+      "topic": "Wortherkunft",
+      "question": "Woher stammt das deutsche Wort 'Tisch'?",
       "choices": [
-        "A: The Senate alone",
-        "B: The Supreme Court",
-        "C: The Cabinet",
-        "D: The Congress"
+        "A: Aus dem Englischen",
+        "B: Aus dem Französischen",
+        "C: Aus dem Slawischen",
+        "D: Aus dem Lateinischen"
       ],
       "correct_answer": "D",
-      "difficulty": 4,
+      "explanation": "'Tisch' stammt vom lateinischen Wort 'mensa', das ebenfalls 'Tisch' bedeutet. Im Deutschen wurde es über mittelhochdeutsche Formen übernommen und hat sich im Sprachgebrauch etabliert.",
+      "difficulty": 1
+    },
+    {
+      "category": "Geschichte",
+      "topic": "Neuzeit",
+      "question": "Wer gilt als der Hauptinitiator der Reformation?",
+      "choices": [
+        "A: Huldrych Zwingli",
+        "B: Johannes Calvin",
+        "C: Martin Luther",
+        "D: Heinrich VIII."
+      ],
+      "correct_answer": "C",
+      "explanation": "Martin Luther veröffentlichte 1517 seine 95 Thesen, die als Beginn der Reformation angesehen werden. Diese Bewegung führte zu einer tiefgreifenden Veränderung der christlichen Glaubenslandschaft in Europa und zur Gründung neuer Konfessionen.",
+      "difficulty": 3
+    },
+    {
+      "category": "Language",
+      "topic": "Etymology",
+      "question": "What is the origin of the English word 'school'?",
+      "choices": [
+        "A: From Latin 'schola'",
+        "B: From Old English 'sceol'",
+        "C: From Greek 'scholē'",
+        "D: From French 'école'"
+      ],
+      "correct_answer": "A",
+      "explanation": "The word 'school' comes from the Latin 'schola', which in turn was derived from the Greek 'scholē'. This evolution reflects the historical influence of the Latin language on English, particularly in terms related to learning and education.",
+      "difficulty": 3
+    },
+    {
+      "question": "Who is the current President of the United States?",
+      "choices": [
+        "A: Barack Obama",
+        "B: Joe Biden",
+        "C: Donald Trump"
+      ],
+      "correct_answer": "B",
+      "difficulty": 3,
       "category": "politics"
     },
     {
-      "category": "Politiker",
-      "discipline": "Sitze (International)",
-      "question": "In welcher Stadt befindet sich der Hauptsitz des Internationalen Gerichtshofs (IGH)?",
+      "category": "Essen und Trinken",
+      "topic": "Ernährung",
+      "question": "Welches dieser Vitamine ist bekannt dafür, das Immunsystem zu unterstützen und in Zitrusfrüchten vorkommt?",
       "choices": [
-        "A: Den Haag (Friedenspalast, Niederlande)",
-        "B: Straßburg (Frankreich)",
-        "C: Genf (Schweiz)",
-        "D: Luxemburg (Luxemburg)"
+        "A: Vitamin C",
+        "B: Vitamin B12",
+        "C: Vitamin A",
+        "D: Vitamin D"
       ],
       "correct_answer": "A",
-      "explanation": "Internationaler Gerichtshof: Hauptrechtsprechungsorgan der UN für Streitigkeiten zwischen Staaten.",
+      "explanation": "Vitamin C ist ein wasserlösliches Vitamin, das vor allem in Zitrusfrüchten wie Orangen und Zitronen vorkommt. Es spielt eine wichtige Rolle bei der Stärkung des Immunsystems und der Hautgesundheit.",
       "difficulty": 1
+    },
+    {
+      "category": "Kunst und Literatur",
+      "topic": "Kunstwissen & Allgemeines",
+      "question": "Welches Werk wird dem Impressionismus zugeordnet?",
+      "choices": [
+        "A: 'Impression, Sonnenaufgang'",
+        "B: 'Der Schrei'",
+        "C: 'Die Geburt der Venus'",
+        "D: 'Das letzte Abendmahl'"
+      ],
+      "correct_answer": "A",
+      "explanation": "'Impression, Sonnenaufgang' von Claude Monet gilt als das erste Werk des Impressionismus und gab dem Stil seinen Namen. Der Impressionismus zeichnet sich durch die Anwendung von Licht und Farbe aus, um den flüchtigen Eindruck eines Moments festzuhalten.",
+      "difficulty": 5
+    },
+    {
+      "category": "Natur",
+      "topic": "Tierwelt",
+      "question": "Welches Tier ist typischerweise im tropischen Regenwald anzutreffen?",
+      "choices": [
+        "A: Jaguar",
+        "B: Steinbock",
+        "C: Känguru",
+        "D: Eisbär"
+      ],
+      "correct_answer": "A",
+      "explanation": "Der Jaguar ist ein Raubtier, das vor allem in den dichten Wäldern des tropischen Regenwaldes lebt. Eisbären sind hingegen an kalte, arktische Lebensräume angepasst, während Kängurus in Australien und Steinböcke in alpinen Regionen vorkommen.",
+      "difficulty": 6
     }
   ]
 }
