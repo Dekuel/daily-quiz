@@ -1,168 +1,168 @@
 {
   "date": "2025-11-08",
-  "generated_at": "2025-11-08T20:34:09Z",
+  "generated_at": "2025-11-08T20:53:23Z",
   "schema_version": 6,
   "mode": "physik",
   "questions": [
     {
       "category": "Physik",
-      "topic": "Festkörperphysik",
-      "subtopic": "Molekularfeldnäherung",
-      "question": "Was ist das Hauptziel der Molekularfeldnäherung in der Festkörperphysik?",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Holonome Zwangsbedingungen",
+      "question": "Was beschreibt eine holonome Zwangsbedingung in der analytischen Mechanik?",
       "choices": [
-        "A: Die thermischen Eigenschaften von Flüssigkeiten zu analysieren.",
-        "B: Die Struktur von Atomkernen zu erforschen.",
-        "C: Die Wechselwirkungen zwischen Molekülen zu vernachlässigen.",
-        "D: Die elektrischen Eigenschaften von Metallen zu untersuchen."
+        "A: Sie hängt nur von den Koordinaten und nicht von der Zeit ab.",
+        "B: Sie kann nur durch Kräfte der Schwerkraft erzeugt werden.",
+        "C: Sie ist immer zeitabhängig und variiert mit der Geschwindigkeit.",
+        "D: Sie ist eine Bedingung, die nicht in die Bewegungsgleichungen integriert werden kann."
       ],
-      "correct_answer": "C",
-      "explanation": "Die Molekularfeldnäherung zielt darauf ab, die komplexen Wechselwirkungen zwischen Molekülen zu vereinfachen, indem man sie als durchschnittliches Feld betrachtet. Dies ermöglicht eine vereinfachte Analyse von Phänomenen in Festkörpern, ohne alle individuellen Molekülwechselwirkungen berücksichtigen zu müssen.",
-      "difficulty": 4,
-      "subcategory": "Molekularfeldnäherung"
+      "correct_answer": "A",
+      "explanation": "Eine holonome Zwangsbedingung ist eine Einschränkung, die ausschließlich von den Positionen der Teilchen abhängt und nicht von der Zeit oder den Geschwindigkeiten. Diese Art von Bedingung ermöglicht eine einfache Integration in die Gleichungen der Bewegung in der analytischen Mechanik.",
+      "difficulty": 5,
+      "subcategory": "Holonome Zwangsbedingungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Transformation der elektromagnetischen Felder",
+      "question": "Wie verändern sich die elektrischen und magnetischen Felder bei einer Lorentz-Transformation?",
+      "choices": [
+        "A: Beide Felder transformieren miteinander gemäß der Relativitätstheorie.",
+        "B: Das magnetische Feld wird zu einem elektrischen Feld.",
+        "C: Sie bleiben unverändert.",
+        "D: Das elektrische Feld wird zu einem magnetischen Feld."
+      ],
+      "correct_answer": "A",
+      "explanation": "Bei einer Lorentz-Transformation ändern sich die elektromagnetischen Felder aufgrund der Relativitätstheorie. Das elektrische und magnetische Feld sind miteinander gekoppelt und transformieren entsprechend der Relativität, was bedeutet, dass die Änderungen in einem Feld auch das andere beeinflussen können.",
+      "difficulty": 2,
+      "subcategory": "Transformation der elektromagnetischen Felder"
     },
     {
       "category": "Physik",
       "topic": "Thermodynamik",
-      "subtopic": "Geschl. System im Wärmebad: Minimum der freien Energie F",
-      "question": "Was beschreibt das Minimum der freien Energie F in einem geschlossenen System im Wärmebad?",
+      "subtopic": "Geometrische Interpretation von Phasenübergängen",
+      "question": "Welche Aussage beschreibt am besten die geometrische Interpretation eines Phasenübergangs in einem Druck-Temperatur-Diagramm?",
       "choices": [
-        "A: Das System ist nicht in einem stabilen Zustand.",
-        "B: Das System befindet sich im Gleichgewicht.",
-        "C: Das System hat die höchste Temperatur.",
-        "D: Das System hat die größte Entropie."
+        "A: Phasenübergänge sind immer irreversibel.",
+        "B: Phasenübergänge finden entlang der Linien, die Phasengebiete im Diagramm trennen.",
+        "C: Der Druck bleibt während eines Phasenübergangs konstant.",
+        "D: Jeder Punkt im Diagramm stellt eine konstante Temperatur dar."
       ],
       "correct_answer": "B",
-      "explanation": "Das Minimum der freien Energie F ist ein Zustand, in dem ein geschlossenes System im Wärmebad das thermodynamische Gleichgewicht erreicht hat. In diesem Zustand sind die Energie und die Entropie optimal verteilt, was zu einem stabilen Zustand führt.",
-      "difficulty": 4,
-      "subcategory": "Geschl. System im Wärmebad: Minimum der freien Energie F"
-    },
-    {
-      "category": "Physik",
-      "topic": "Analytische Mechanik",
-      "subtopic": "Isotropie des Raumes ⇒ Drehimpulserhaltung",
-      "question": "Was besagt das Prinzip der Drehimpulserhaltung in einem isotropen Raum?",
-      "choices": [
-        "A: Die Masse eines Körpers verändert sich durch Rotation.",
-        "B: Der gesamte Impuls eines Systems bleibt immer null.",
-        "C: Energie kann nicht in mechanische Arbeit umgewandelt werden.",
-        "D: Der Drehimpuls bleibt konstant, wenn keine äußeren Momente wirken."
-      ],
-      "correct_answer": "D",
-      "explanation": "Das Prinzip der Drehimpulserhaltung besagt, dass der Gesamt-Drehimpuls eines geschlossenen Systems konstant bleibt, solange keine äußeren Drehmomente auf das System wirken. Dies ist eine grundlegende Eigenschaft der Isotropie des Raumes.",
-      "difficulty": 2,
-      "subcategory": "Isotropie des Raumes ⇒ Drehimpulserhaltung"
-    },
-    {
-      "category": "Physik",
-      "topic": "Analytische Mechanik",
-      "subtopic": "Hamilton–Jacobi-Gleichung (HJ)",
-      "question": "Was beschreibt die Hamilton–Jacobi-Gleichung in der analytischen Mechanik?",
-      "choices": [
-        "A: Die Beziehung zwischen Energie und Impuls eines Systems.",
-        "B: Die Beziehung zwischen der Qualität von Arbeit und der Geschwindigkeit eines Körpers.",
-        "C: Die Zeitentwicklung von Systemen in der klassischen Mechanik.",
-        "D: Die Trajektorien von Teilchen in einem Potentialfeld."
-      ],
-      "correct_answer": "C",
-      "explanation": "Die Hamilton–Jacobi-Gleichung beschreibt die Zeitentwicklung eines mechanischen Systems und stellt eine Brücke zwischen klassischer und quantenmechanischer Beschreibung dar. Sie ermöglicht die Analyse von Systemen durch die Lösung einer Differentialgleichung, die die Hamiltonsche Energie berücksichtigt.",
-      "difficulty": 5,
-      "subcategory": "Hamilton–Jacobi-Gleichung (HJ)"
-    },
-    {
-      "category": "Physik",
-      "topic": "Optik",
-      "subtopic": "χ^(3)-Phänomene (dritte Ordnung)",
-      "question": "Was beschreibt das χ^(3)-Phänomen in der Optik?",
-      "choices": [
-        "A: Die nichtlineare Wechselwirkung von Licht mit Materie.",
-        "B: Die Absorption von Licht durch ein Material.",
-        "C: Die Brechung von Licht an einer Grenzfläche.",
-        "D: Die Reflexion von Licht an einem Spiegel."
-      ],
-      "correct_answer": "A",
-      "explanation": "Das χ^(3)-Phänomen beschreibt die nichtlineare Wechselwirkung von Licht mit Materie, was zu Effekten wie der Frequenzverdopplung führen kann. Diese Phänomene treten auf, wenn intensives Licht auf ein Material trifft und dessen Eigenschaften beeinflusst.",
-      "difficulty": 1,
-      "subcategory": "χ^(3)-Phänomene (dritte Ordnung)"
-    },
-    {
-      "category": "Physik",
-      "topic": "Elektrodynamik",
-      "subtopic": "Methode der Bildladungen",
-      "question": "Welche der folgenden Aussagen zur Methode der Bildladungen ist korrekt?",
-      "choices": [
-        "A: Die Methode der Bildladungen ermöglicht die Berechnung des elektrischen Feldes durch die Einführung fiktiver Ladungen.",
-        "B: Die Methode der Bildladungen kann nicht zur Lösung von Problemen mit leitenden Oberflächen verwendet werden.",
-        "C: Die Methode der Bildladungen ist unabhängig von den Randbedingungen des Problems.",
-        "D: Die Methode der Bildladungen kann nur für ebene Kondensatoren angewendet werden."
-      ],
-      "correct_answer": "A",
-      "explanation": "Die Methode der Bildladungen ist ein mathematisches Verfahren, das fiktive Ladungen einführt, um das elektrische Feld in der Nähe von leitenden Oberflächen zu berechnen. Dadurch werden komplexe Probleme vereinfacht, indem die Randbedingungen berücksichtigt werden. Die Methode ist besonders nützlich bei der Berechnung von Feldern, die durch Punktladungen in der Nähe von leitenden Objekten erzeugt werden.",
-      "difficulty": 8,
-      "subcategory": "Methode der Bildladungen"
-    },
-    {
-      "category": "Physik",
-      "topic": "Analytische Mechanik",
-      "subtopic": "Nicht-holonome Systeme (Lagrange)",
-      "question": "Welche Aussage über nicht-holonome Systeme in der Lagrange-Mechanik ist korrekt?",
-      "choices": [
-        "A: Nicht-holonome Systeme zeichnen sich durch Einschränkungen aus, die nicht nur von den Koordinaten, sondern auch von den Geschwindigkeiten abhängen.",
-        "B: In nicht-holonomen Systemen können die Lagrange-Gleichungen nicht angewendet werden.",
-        "C: Alle nicht-holonomen Systeme sind auch holonom.",
-        "D: Nicht-holonome Systeme erfordern immer die Verwendung von potentiellen Energien zur Lösung."
-      ],
-      "correct_answer": "A",
-      "explanation": "Nicht-holonome Systeme haben Einschränkungen, die von den Geschwindigkeiten abhängen, was sie von holonomen Systemen unterscheidet. Diese Art von Einschränkungen erfordert spezielle Behandlungsmethoden in der analytischen Mechanik, um die Bewegungsgleichungen korrekt aufzustellen.",
-      "difficulty": 7,
-      "subcategory": "Nicht-holonome Systeme (Lagrange)"
+      "explanation": "In einem Druck-Temperatur-Diagramm sind die Linien, die verschiedene Phasen trennen, entscheidend für das Verständnis von Phasenübergängen. Diese Linien repräsentieren die Bedingungen, unter denen ein Phasenwechsel, wie von fest zu flüssig oder von flüssig zu gasförmig, stattfinden kann.",
+      "difficulty": 6,
+      "subcategory": "Geometrische Interpretation von Phasenübergängen"
     },
     {
       "category": "Physik",
       "topic": "Quantenmechanik",
-      "subtopic": "Verträgliche vs. nicht-verträgliche Observable",
-      "question": "Welche der folgenden Observable sind verträglich?",
+      "subtopic": "Impulsoperator & Orts-/Impulsdarstellung",
+      "question": "Welcher Operator beschreibt den Impuls eines Teilchens in der Quantenmechanik?",
       "choices": [
-        "A: Ort und Impuls",
-        "B: Spin in zwei verschiedenen Richtungen",
-        "C: Energie und Zeit",
-        "D: Temperatur und Druck"
+        "A: -iħ ∂/∂x",
+        "B: -iħ ∇",
+        "C: ħ ∂/∂t",
+        "D: ħ ∇"
       ],
       "correct_answer": "B",
-      "explanation": "Verträgliche Observable sind solche, die gleichzeitig präzise gemessen werden können, ohne dass sich ihre Messungen gegenseitig beeinflussen. Der Spin in zwei verschiedenen Richtungen ist ein Beispiel für verträgliche Observable, da sie gemeinsam einen Zustand definieren können.",
-      "difficulty": 1,
-      "subcategory": "Verträgliche vs. nicht-verträgliche Observable"
+      "explanation": "In der Quantenmechanik wird der Impuls eines Teilchens durch den Impulsoperator -iħ ∇ dargestellt, wobei ħ das reduzierte Plancksche Wirkungsquantum ist. Dieser Operator spielt eine zentrale Rolle in der Orts- und Impulsdarstellung der Quantenmechanik.",
+      "difficulty": 5,
+      "subcategory": "Impulsoperator & Orts-/Impulsdarstellung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Magnetostatik in Materie",
+      "question": "Was beschreibt die magnetische Permeabilität eines Materials?",
+      "choices": [
+        "A: Die Fähigkeit des Materials, magnetische Felder zu leiten.",
+        "B: Die Fähigkeit des Materials, Wärme zu leiten.",
+        "C: Die Fähigkeit des Materials, Licht zu brechen.",
+        "D: Die Fähigkeit des Materials, elektrische Ladungen zu speichern."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die magnetische Permeabilität ist ein Maß dafür, wie gut ein Material magnetische Felder durchlässt oder verstärkt. Materialien mit hoher Permeabilität können magnetische Felder effektiver leiten als Materialien mit niedriger Permeabilität.",
+      "difficulty": 3,
+      "subcategory": "Magnetostatik in Materie"
     },
     {
       "category": "Physik",
       "topic": "Optik",
-      "subtopic": "Moden in optischen Wellenleitern",
-      "question": "Was beschreibt der Begriff 'Moden' in optischen Wellenleitern?",
+      "subtopic": "χ^(2)-Phänomene (zweite Ordnung)",
+      "question": "Welche der folgenden Aussagen über χ^(2)-Phänomene in der Optik ist korrekt?",
       "choices": [
-        "A: Die Anzahl der Lichtstrahlen, die in einem Material reflektiert werden.",
-        "B: Die verschiedenen Materialien, aus denen Wellenleiter hergestellt werden.",
-        "C: Die verschiedenen Lichtwellenlängen, die durch den Wellenleiter propagieren können.",
-        "D: Die Temperatur, bei der Licht durch den Wellenleiter leitet."
+        "A: χ^(2)-Phänomene treten nur bei sehr hohen Temperaturen auf.",
+        "B: χ^(2)-Phänomene sind unabhängig von der Polarisation des einfallenden Lichts.",
+        "C: χ^(2)-Phänomene sind nur in optischen Fasern von Bedeutung.",
+        "D: χ^(2)-Phänomene sind verantwortlich für die Erzeugung von harmonischen Frequenzen in nichtlinearen Materialien."
       ],
-      "correct_answer": "C",
-      "explanation": "In optischen Wellenleitern bezeichnet der Begriff 'Moden' die spezifischen Lichtwellen, die sich innerhalb des Wellenleiters ausbreiten können. Jede Mode hat eine bestimmte Frequenz und Ausbreitungsrichtung, was die Effizienz und die Kapazität des Wellenleiters beeinflusst.",
-      "difficulty": 2,
-      "subcategory": "Moden in optischen Wellenleitern"
+      "correct_answer": "D",
+      "explanation": "χ^(2)-Phänomene beziehen sich auf nichtlineare optische Effekte, bei denen die Polarisation eines Materials von der quadratischen Abhängigkeit des elektrischen Feldes abhängt. Diese Phänomene sind entscheidend für die Erzeugung von neuen Frequenzen, wie z.B. in der Frequenzverdopplung.",
+      "difficulty": 6,
+      "subcategory": "χ^(2)-Phänomene (zweite Ordnung)"
     },
     {
       "category": "Physik",
-      "topic": "Statistische Mechanik",
-      "subtopic": "Anwendungen: Reaktionen, kritische Dynamik",
-      "question": "Was beschreibt die kritische Dynamik in der statistischen Mechanik?",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Härte von Festkörpern",
+      "question": "Welches Material gilt allgemein als das härteste bekannte natürliche Material?",
       "choices": [
-        "A: Die Energieverteilung in idealen Gasen.",
-        "B: Die Bewegung von Teilchen in einem Vakuum.",
-        "C: Das Verhalten von Systemen nahe der kritischen Temperatur.",
-        "D: Die Wechselwirkungen zwischen Elektronen und Photonen."
+        "A: Stahl",
+        "B: Granit",
+        "C: Gold",
+        "D: Diamant"
+      ],
+      "correct_answer": "D",
+      "explanation": "Diamant ist aufgrund seiner kristallinen Struktur und der starken kovalenten Bindungen zwischen den Kohlenstoffatomen das härteste bekannte natürliche Material. Diese Härte macht es besonders widerstandsfähig gegen Kratzer und andere äußere Einflüsse.",
+      "difficulty": 5,
+      "subcategory": "Härte von Festkörpern"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Kovariante Formulierung der Elektrodynamik",
+      "question": "Welches der folgenden Gesetze bleibt in der kovarianten Formulierung der Elektrodynamik unverändert unter Lorentz-Transformationen?",
+      "choices": [
+        "A: Das Gesetz von der Erhaltung der Energie",
+        "B: Das Plancksche Strahlungsgesetz",
+        "C: Das Maxwell-Gesetz für elektrische und magnetische Felder",
+        "D: Das Newtonsche Gesetz der Gravitation"
       ],
       "correct_answer": "C",
-      "explanation": "Die kritische Dynamik bezieht sich auf das Verhalten von Systemen, die sich in der Nähe von Phasenübergängen befinden, insbesondere bei kritischen Temperaturen. Dabei spielen universelle Eigenschaften eine Rolle, die in verschiedenen Systemen ähnlich sind.",
-      "difficulty": 4,
-      "subcategory": "Anwendungen: Reaktionen, kritische Dynamik"
+      "explanation": "In der kovarianten Formulierung der Elektrodynamik bleiben die Maxwell-Gleichungen unter Lorentz-Transformationen unverändert, was ihre Formulierung in einem relativistischen Kontext ermöglicht. Dies ist entscheidend für die Vereinheitlichung von Elektrizität und Magnetismus in der Relativitätstheorie.",
+      "difficulty": 7,
+      "subcategory": "Kovariante Formulierung der Elektrodynamik"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Goldene Regel (Fermi)",
+      "question": "Was beschreibt die Goldene Regel von Fermi in der Kern- und Teilchenphysik?",
+      "choices": [
+        "A: Die Geschwindigkeit eines Teilchens hängt ausschließlich von seiner Masse ab.",
+        "B: Die Energie eines Teilchens bleibt immer konstant während eines Prozesses.",
+        "C: Teilchen können sich nicht gegenseitig beeinflussen, wenn sie sich nicht direkt berühren.",
+        "D: Die Wahrscheinlichkeit eines Übergangs zwischen zwei Zuständen ist proportional zur Dichte der Zustände und der Matrixelemente."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Goldene Regel von Fermi beschreibt, wie wahrscheinlich es ist, dass ein Übergang zwischen zwei quantenmechanischen Zuständen stattfindet. Diese Wahrscheinlichkeit ist proportional zur Dichte der Zustände im Endzustand sowie zum Quadrat des Matrixelements, das den Übergang beschreibt.",
+      "difficulty": 6,
+      "subcategory": "Goldene Regel (Fermi)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Lichttechnische Größen",
+      "question": "Welche Einheit wird verwendet, um die Helligkeit einer Lichtquelle zu messen?",
+      "choices": [
+        "A: Lumen",
+        "B: Watt",
+        "C: Joule",
+        "D: Meter"
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Helligkeit einer Lichtquelle wird in Lumen gemessen. Lumen gibt an, wie viel Licht von einer Quelle in alle Richtungen abgestrahlt wird und ist eine wichtige Größe in der Lichttechnik.",
+      "difficulty": 2,
+      "subcategory": "Lichttechnische Größen"
     }
   ]
 }
