@@ -1,108 +1,104 @@
 {
-  "date": "2025-11-07",
-  "generated_at": "2025-11-07T09:32:40Z",
+  "date": "2025-11-08",
+  "generated_at": "2025-11-08T20:34:09Z",
   "schema_version": 6,
   "mode": "normal",
   "questions": [
     {
-      "category": "physics",
-      "topic": "Optik",
-      "subtopic": "Frequenzabhängigkeit der Dielektrizitätskonstante",
-      "question": "Helloooooooo?",
+      "category": "Essen und Trinken",
+      "topic": "Kulinarische Geschichte",
+      "question": "Welches Gewürz, das einst mit Gold aufgewogen wurde, spielte eine zentrale Rolle im Handel entlang der Seidenstraße und wurde vor allem in der Antike als Heilmittel geschätzt?",
       "choices": [
-        "A: Sie nimmt mit steigender Frequenz immer zu.",
-        "B: Sie bleibt unabhängig von der Frequenz.",
-        "C: Sie schwankt chaotisch ohne erkennbares Muster.",
-        "D: Sie nimmt mit steigender Frequenz in der Regel ab."
-      ],
-      "correct_answer": "D",
-      "explanation": "Die Dielektrizitätskonstante eines Materials ist häufig frequenzabhängig und kann mit steigender Frequenz abnehmen. Dies tritt auf, weil die Polarisation des Materials nicht schnell genug auf die Änderungen des elektrischen Feldes reagieren kann, was zu einer geringeren effektiven Dielektrizitätskonstante führt.",
-      "difficulty": 6,
-      "subcategory": "Frequenzabhängigkeit der Dielektrizitätskonstante"
-    },
-    {
-      "category": "Sport",
-      "topic": "Fußball",
-      "question": "Was ist das Ziel eines Fußballspiels?",
-      "choices": [
-        "A: Die Spielzeit zu verlängern",
-        "B: Den Schiedsrichter zu überzeugen",
-        "C: Mehr Tore als der Gegner erzielen",
-        "D: Den Ball ins Aus zu spielen"
+        "A: Zimt",
+        "B: Nelken",
+        "C: Pfeffer",
+        "D: Muskat"
       ],
       "correct_answer": "C",
-      "explanation": "Das Hauptziel eines Fußballspiels ist es, mehr Tore als der Gegner zu erzielen. Dies geschieht, indem der Ball ins Tor des Gegners geschossen wird, während man gleichzeitig versucht, eigene Tore zu verhindern.",
+      "explanation": "Pfeffer war eines der wertvollsten Gewürze und galt im Mittelalter als 'schwarzes Gold'. Sein Handel entlang der Seidenstraße trug wesentlich zur Entwicklung des Gewürzhandels und zur Verbindung zwischen dem Osten und Westen bei.",
+      "difficulty": 7
+    },
+    {
+      "category": "Geographie",
+      "topic": "Hauptstädte",
+      "question": "Welche Hauptstadt liegt am Victoriasee und ist die größte Stadt Ugandas?",
+      "choices": [
+        "A: Nairobi",
+        "B: Addis Abeba",
+        "C: Kigali",
+        "D: Kampala"
+      ],
+      "correct_answer": "D",
+      "explanation": "Kampala ist die Hauptstadt Ugandas und liegt nahe dem Victoriasee. Die Stadt ist ein wichtiges wirtschaftliches und kulturelles Zentrum in der Region Ostafrika.",
+      "difficulty": 5
+    },
+    {
+      "question": "Which institution is responsible for passing federal laws in the United States?",
+      "choices": [
+        "A: The Supreme Court",
+        "B: The Congress",
+        "C: The Cabinet",
+        "D: The Senate alone"
+      ],
+      "correct_answer": "B",
+      "difficulty": 4,
+      "category": "politics"
+    },
+    {
+      "category": "Wissenschaft",
+      "topic": "Astronomie",
+      "question": "Welches der folgenden Kriterien ist entscheidend, um einen Exoplaneten als potenziell bewohnbar zu klassifizieren?",
+      "choices": [
+        "A: Er hat einen Durchmesser von mindestens dem der Erde.",
+        "B: Er besitzt einen Mond.",
+        "C: Er umkreist einen roten Zwergstern.",
+        "D: Er befindet sich in der habitablen Zone seiner Sonne."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die habitable Zone ist der Bereich um einen Stern, in dem flüssiges Wasser auf der Oberfläche eines Planeten existieren kann, was für die Möglichkeit von Leben entscheidend ist. Obwohl die anderen Kriterien interessant sind, bestimmen sie nicht direkt die Fähigkeit eines Planeten, Leben zu unterstützen.",
+      "difficulty": 7
+    },
+    {
+      "category": "Glaube & Religion",
+      "topic": "Klassische & nordische Mythologien",
+      "question": "Welcher Held ist bekannt dafür, die Medusa zu besiegen und ihren Kopf als Waffe zu verwenden?",
+      "choices": [
+        "A: Theseus",
+        "B: Odysseus",
+        "C: Herakles",
+        "D: Perseus"
+      ],
+      "correct_answer": "D",
+      "explanation": "Perseus ist ein zentraler Held der griechischen Mythologie, bekannt für seinen Sieg über die Gorgone Medusa. Sein Abenteuer, bei dem er den Kopf der Medusa erlangt, ist Teil eines größeren Sagenzyklus, der seine Heldentaten beschreibt.",
+      "difficulty": 7
+    },
+    {
+      "category": "Geschichte",
+      "topic": "Neuzeit",
+      "question": "Welches Land war im 16. Jahrhundert führend im transatlantischen Handel?",
+      "choices": [
+        "A: Indien",
+        "B: Ägypten",
+        "C: China",
+        "D: Spanien"
+      ],
+      "correct_answer": "D",
+      "explanation": "Im 16. Jahrhundert war Spanien eine der mächtigsten Seemächte und dominierte den transatlantischen Handel, insbesondere durch den Kolonialhandel mit Amerika. Die spanische Flotte transportierte wertvolle Waren wie Gold und Silber nach Europa.",
       "difficulty": 1
     },
     {
       "category": "Natur",
       "topic": "Pflanzenwelt",
-      "question": "Welches Blütenorgan ist hauptsächlich für die Fortpflanzung und die Bildung von Samen zuständig?",
+      "question": "Welche Aussage beschreibt am besten den Prozess der Photosynthese bei Pflanzen?",
       "choices": [
-        "A: Stempel",
-        "B: Kronblätter",
-        "C: Kelchblätter",
-        "D: Staubblätter"
+        "A: Pflanzen nehmen Kohlendioxid auf und setzen Sauerstoff frei, während sie Lichtenergie in chemische Energie umwandeln.",
+        "B: Pflanzen produzieren nur während der Nacht Sauerstoff und nehmen tagsüber Kohlendioxid auf.",
+        "C: Pflanzen benötigen keinen Sonnenlicht, um Photosynthese durchzuführen, da sie auch künstliche Lichtquellen nutzen können.",
+        "D: Pflanzen nutzen ausschließlich Wasser und Nährstoffe aus dem Boden, um Energie zu produzieren."
       ],
       "correct_answer": "A",
-      "explanation": "Der Stempel ist das weibliche Fortpflanzungsorgan der Blüte und spielt eine zentrale Rolle bei der Bildung von Samen. Während die Staubblätter die männlichen Fortpflanzungsorgane sind, dienen Kelch- und Kronblätter hauptsächlich dem Schutz und der Anziehung von Bestäubern.",
-      "difficulty": 4
-    },
-    {
-      "category": "Glaube & Religion",
-      "topic": "Monotheistische Religionen",
-      "question": "Welcher Aspekt wird häufig als eine der Herausforderungen des Monotheismus in der modernen Gesellschaft angesehen?",
-      "choices": [
-        "A: Die absolute Ablehnung aller Formen von Spiritualität.",
-        "B: Die Tendenz zur Säkularisierung und das Aufkommen pluralistischer Weltanschauungen.",
-        "C: Die Uneinigkeit über die Schriften der Heiligen Texte.",
-        "D: Die Notwendigkeit, religiöse Rituale im Alltag zu integrieren."
-      ],
-      "correct_answer": "B",
-      "explanation": "In der modernen Gesellschaft sind Säkularisierung und Pluralismus bedeutende Herausforderungen für monotheistische Religionen. Diese Entwicklungen führen dazu, dass traditionelle Glaubenssysteme oftmals in Konkurrenz zu einer Vielzahl von Weltanschauungen treten.",
+      "explanation": "Die Photosynthese ist ein entscheidender Prozess, bei dem Pflanzen Lichtenergie nutzen, um Kohlendioxid und Wasser in Glukose und Sauerstoff umzuwandeln. Diese Umwandlung findet überwiegend bei Tageslicht statt und spielt eine zentrale Rolle im Kohlenstoffkreislauf.",
       "difficulty": 7
-    },
-    {
-      "category": "Kunst und Literatur",
-      "topic": "Musikgeschichte & Epochen",
-      "question": "Welcher Komponist gilt als einer der bedeutendsten Vertreter des Barock und ist bekannt für seine Orgel- und Kirchenmusik?",
-      "choices": [
-        "A: Wolfgang Amadeus Mozart",
-        "B: Franz Schubert",
-        "C: Johann Sebastian Bach",
-        "D: Ludwig van Beethoven"
-      ],
-      "correct_answer": "C",
-      "explanation": "Johann Sebastian Bach wird als einer der wichtigsten Komponisten des Barockzeitalters angesehen. Seine Werke, insbesondere die Orgel- und Kirchenmusik, haben einen enormen Einfluss auf die Entwicklung der westlichen Musik. Bach kombiniert komplexe Harmonien mit tiefem emotionalen Ausdruck.",
-      "difficulty": 3
-    },
-    {
-      "category": "Geographie",
-      "topic": "Städte, Länder & Flaggen",
-      "question": "Welche der folgenden Inseln ist die größte und bekannteste Insel Japans?",
-      "choices": [
-        "A: Kyushu",
-        "B: Hokkaido",
-        "C: Honshu",
-        "D: Shikoku"
-      ],
-      "correct_answer": "C",
-      "explanation": "Honshu ist die größte Insel Japans und beherbergt die Hauptstadt Tokio sowie andere bedeutende Städte wie Osaka und Kyoto. Sie liegt zwischen dem Japanischen Meer und dem Pazifischen Ozean und ist ein zentrales wirtschaftliches und kulturelles Zentrum des Landes.",
-      "difficulty": 8
-    },
-    {
-      "category": "Politiker",
-      "discipline": "Org-Personen",
-      "question": "Wie heißt die/der amtierende oberste Amtsinhaber(in) der Organisation „Federal Reserve“?",
-      "choices": [
-        "A: Jerome Powell",
-        "B: Janet Yellen",
-        "C: Alan Greenspan",
-        "D: Ben Bernanke"
-      ],
-      "correct_answer": "A",
-      "explanation": "Federal Reserve: Zentralbank der USA; Geldpolitik und Finanzaufsicht.",
-      "difficulty": 1
     }
   ]
 }
