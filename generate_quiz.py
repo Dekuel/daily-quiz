@@ -386,20 +386,33 @@ def _openai_translate_text(text: str, src: str = "de", tgt: str = "en") -> Optio
     if not key:
         return None
     try:
-        import openai
-        openai.api_key = key
-        # Use a conservative model and temperature for deterministic translations
-        resp = openai.ChatCompletion.create(
-            model="gpt-3.5-turbo",
-            messages=[
-                {"role": "system", "content": "You are a helpful, concise translator. Translate the provided quiz text from %s to %s. Keep lists, punctuation and letters (A:, B:, ...) intact where possible." % (src, tgt)},
-                {"role": "user", "content": text},
-            ],
-            temperature=0,
-            max_tokens=800,
-        )
-        out = resp.choices[0].message.content.strip()
-        return out
+        # Prefer new OpenAI client (openai>=1.0.0)
+        try:
+            from openai import OpenAI
+            client = OpenAI(api_key=key)
+            resp = client.chat.completions.create(
+                model="gpt-3.5-turbo",
+                messages=[
+                    {"role": "system", "content": f"You are a helpful, concise translator. Translate the provided quiz text from {src} to {tgt}. Keep lists, punctuation and letters (A:, B:, ...) intact where possible."},
+                    {"role": "user", "content": text},
+                ],
+                temperature=0,
+                max_tokens=800,
+            )
+            out = resp.choices[0].message.content.strip()
+            return out
+        except Exception:
+            # Fallback to older openai package API if present
+            import openai
+            openai.api_key = key
+            resp = openai.ChatCompletion.create(
+                model="gpt-3.5-turbo",
+                messages=[{"role": "system", "content": f"You are a helpful, concise translator. Translate the provided quiz text from {src} to {tgt}. Keep lists, punctuation and letters (A:, B:, ...) intact where possible."}, {"role": "user", "content": text}],
+                temperature=0,
+                max_tokens=800,
+            )
+            out = resp.choices[0].message.content.strip()
+            return out
     except Exception as e:
         print("[TRANSLATE-ERROR]", e)
         return None
@@ -471,14 +484,21 @@ def _openai_translate_texts(texts: List[str], src: str = "de", tgt: str = "en") 
     if not key:
         return None
     try:
-        import openai
-        openai.api_key = key
-        # Send the texts as a JSON array and request a JSON array back
-        system = {"role": "system", "content": f"You are a concise translator from {src} to {tgt}. Return only a JSON array of translated strings with no commentary."}
         import json as _json
+        system = {"role": "system", "content": f"You are a concise translator from {src} to {tgt}. Return only a JSON array of translated strings with no commentary."}
         user = {"role": "user", "content": _json.dumps(texts, ensure_ascii=False)}
-        resp = openai.ChatCompletion.create(model="gpt-3.5-turbo", messages=[system, user], temperature=0, max_tokens=4000)
-        out_text = resp.choices[0].message.content.strip()
+        # Prefer new client
+        try:
+            from openai import OpenAI
+            client = OpenAI(api_key=key)
+            resp = client.chat.completions.create(model="gpt-3.5-turbo", messages=[system, user], temperature=0, max_tokens=4000)
+            out_text = resp.choices[0].message.content.strip()
+        except Exception:
+            import openai
+            openai.api_key = key
+            resp = openai.ChatCompletion.create(model="gpt-3.5-turbo", messages=[system, user], temperature=0, max_tokens=4000)
+            out_text = resp.choices[0].message.content.strip()
+
         # extract JSON array
         start = out_text.find("[")
         end = out_text.rfind("]")
@@ -491,12 +511,10 @@ def _openai_translate_texts(texts: List[str], src: str = "de", tgt: str = "en") 
             if isinstance(arr, list):
                 return [str(x) if x is not None else "" for x in arr]
         except Exception:
-            # fallback: no parse
             return None
     except Exception as e:
         print("[TRANSLATE-BATCH-ERROR]", e)
         return None
-    return None
 
 
 def _translate_questions_batch(questions: List[dict]) -> List[dict]:

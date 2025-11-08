@@ -1,106 +1,34 @@
 {
   "date": "2025-11-08",
-  "generated_at": "2025-11-08T20:52:02Z",
+  "generated_at": "2025-11-08T21:21:09Z",
   "schema_version": 6,
   "mode": "normal",
   "questions": [
     {
-      "category": "Natur",
-      "topic": "Pflanzenwelt",
-      "question": "Welche der folgenden Aussagen zur Domestikation von Nutzpflanzen ist korrekt?",
+      "question": "Which institution is responsible for passing federal laws in the United States?",
       "choices": [
-        "A: Reis wurde zuerst in Europa domestiziert und ist heute die wichtigste Grundnahrungsmittelpflanze weltweit.",
-        "B: Kartoffeln wurden zuerst in Asien domestiziert und dann nach Europa eingeführt.",
-        "C: Mais wurde ursprünglich aus der Wildpflanze Teosinte durch gezielte Selektion über viele Generationen domestiziert.",
-        "D: Weizen ist eine Pflanze, die sich nicht an verschiedene Klimazonen anpassen kann und daher nur in bestimmten Regionen wächst."
+        "A: The Senate alone",
+        "B: The Supreme Court",
+        "C: The Cabinet",
+        "D: The Congress"
       ],
-      "correct_answer": "C",
-      "explanation": "Mais wurde tatsächlich aus der Wildpflanze Teosinte domestiziert, was einen bedeutenden Einfluss auf die Landwirtschaft hatte. Diese gezielte Selektion hat zur Entwicklung der modernen Maissorten beigetragen, die für die Ernährung von Milliarden von Menschen wichtig sind.",
-      "difficulty": 8
-    },
-    {
-      "category": "Sprache",
-      "topic": "Fremdsprachen",
-      "question": "Was ist die korrekte Übersetzung des Wortes 'Haus' ins Englische?",
-      "choices": [
-        "A: Home",
-        "B: Flat",
-        "C: House",
-        "D: Garage"
-      ],
-      "correct_answer": "C",
-      "explanation": "'House' ist das englische Wort für 'Haus', während 'home' mehr ein Gefühl von Zuhause beschreibt. 'Flat' bedeutet Wohnung und 'garage' ist eine Garage, also ein Ort zum Abstellen von Fahrzeugen.",
-      "difficulty": 4
-    },
-    {
-      "category": "Language",
-      "topic": "Foreign Languages",
-      "question": "What is the French equivalent of the English phrase 'to have a cold'?",
-      "choices": [
-        "A: avoir un rhume",
-        "B: être un rhume",
-        "C: prendre un rhume",
-        "D: faire un rhume"
-      ],
-      "correct_answer": "A",
-      "explanation": "The correct phrase in French is 'avoir un rhume', which translates directly to 'to have a cold'. The other options do not accurately express the same meaning in French.",
-      "difficulty": 8
-    },
-    {
-      "category": "Kunst und Literatur",
-      "topic": "Zitate, Figuren & Allgemeinwissen",
-      "question": "Welcher Autor ist bekannt für den Satz: 'Die Gedanken sind frei'?",
-      "choices": [
-        "A: Friedrich Schiller",
-        "B: Johann Wolfgang von Goethe",
-        "C: Matthias Claudius",
-        "D: Heinrich Heine"
-      ],
-      "correct_answer": "C",
-      "explanation": "Der Satz 'Die Gedanken sind frei' stammt aus einem Volkslied, das oft Matthias Claudius zugeschrieben wird. Es thematisiert die Freiheit des Denkens und wurde in verschiedenen Kontexten, insbesondere in politischen Bewegungen, verwendet.",
-      "difficulty": 3
+      "correct_answer": "D",
+      "difficulty": 4,
+      "category": "politics"
     },
     {
       "category": "Politiker",
-      "discipline": "Ministerien (DE)",
-      "question": "Wer ist Bundesministerin für das Bundesministerium für Arbeit und Soziales?",
+      "discipline": "Sitze (International)",
+      "question": "In welcher Stadt befindet sich der Hauptsitz des Internationalen Gerichtshofs (IGH)?",
       "choices": [
-        "A: Andrea Nahles",
-        "B: Ursula von der Leyen",
-        "C: Olaf Scholz",
-        "D: Katarina Barley"
+        "A: Den Haag (Friedenspalast, Niederlande)",
+        "B: Straßburg (Frankreich)",
+        "C: Genf (Schweiz)",
+        "D: Luxemburg (Luxemburg)"
       ],
-      "correct_answer": "D",
-      "explanation": "Katarina Barley hatte in der Vergangenheit die Position der Bundesministerin für Arbeit und Soziales inne. Diese Rolle ist entscheidend für die Gestaltung der Arbeitsmarkt- und Sozialpolitik in Deutschland.",
+      "correct_answer": "A",
+      "explanation": "Internationaler Gerichtshof: Hauptrechtsprechungsorgan der UN für Streitigkeiten zwischen Staaten.",
       "difficulty": 1
-    },
-    {
-      "category": "Geschichte",
-      "topic": "Neuzeit",
-      "question": "Welcher Künstler ist bekannt für seine Beiträge zur Renaissance, die in der Neuzeit stattfand?",
-      "choices": [
-        "A: Leonardo da Vinci",
-        "B: Vincent van Gogh",
-        "C: Caspar David Friedrich",
-        "D: Claude Monet"
-      ],
-      "correct_answer": "A",
-      "explanation": "Leonardo da Vinci war ein herausragender Künstler der Renaissance, die im 15. und 16. Jahrhundert stattfand und als Teil der Neuzeit gilt. Seine Werke wie die 'Mona Lisa' und 'Das letzte Abendmahl' haben die Kunstgeschichte nachhaltig geprägt.",
-      "difficulty": 4
-    },
-    {
-      "category": "Geographie",
-      "topic": "Humangeographie & Städte",
-      "question": "Welcher dieser Faktoren hat in den letzten Jahren maßgeblich zur Suburbanisierung in vielen Städten beigetragen?",
-      "choices": [
-        "A: Die Zunahme von Homeoffice-Möglichkeiten.",
-        "B: Der Rückgang der Geburtenrate.",
-        "C: Die Erhöhung der Mietpreise in städtischen Zentren.",
-        "D: Die Verbesserung der öffentlichen Verkehrsanbindungen."
-      ],
-      "correct_answer": "A",
-      "explanation": "Die Zunahme von Homeoffice-Möglichkeiten hat dazu geführt, dass viele Menschen nicht mehr täglich in die Stadt pendeln müssen und sich daher vermehrt im suburbanen Raum ansiedeln. Dies beeinflusst die Bevölkerungsdynamik und die Entwicklung von Randgebieten der Städte.",
-      "difficulty": 6
     }
   ]
 }

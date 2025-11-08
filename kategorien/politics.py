@@ -64,17 +64,25 @@ def _request_question_from_openai(template: str, target_difficulty: Optional[int
     if not key:
         return None
     try:
-        import openai
-        openai.api_key = key
-        system_msg = {
-            "role": "system",
-            "content": "You are an assistant that outputs a single JSON object only. No explanations, no markdown."
-        }
-        user_msg = {"role": "user", "content": template}
-        if target_difficulty:
-            user_msg["content"] += f" Use difficulty approximately {int(target_difficulty)} (1-10)."
-        resp = openai.ChatCompletion.create(model="gpt-3.5-turbo", messages=[system_msg, user_msg], temperature=0.3, max_tokens=400)
-        text = resp.choices[0].message.content.strip()
+        # Prefer new OpenAI client
+        try:
+            from openai import OpenAI
+            client = OpenAI(api_key=key)
+            system_msg = {"role": "system", "content": "You are an assistant that outputs a single JSON object only. No explanations, no markdown."}
+            user_msg = {"role": "user", "content": template}
+            if target_difficulty:
+                user_msg["content"] += f" Use difficulty approximately {int(target_difficulty)} (1-10)."
+            resp = client.chat.completions.create(model="gpt-3.5-turbo", messages=[system_msg, user_msg], temperature=0.3, max_tokens=400)
+            text = resp.choices[0].message.content.strip()
+        except Exception:
+            import openai
+            openai.api_key = key
+            system_msg = {"role": "system", "content": "You are an assistant that outputs a single JSON object only. No explanations, no markdown."}
+            user_msg = {"role": "user", "content": template}
+            if target_difficulty:
+                user_msg["content"] += f" Use difficulty approximately {int(target_difficulty)} (1-10)."
+            resp = openai.ChatCompletion.create(model="gpt-3.5-turbo", messages=[system_msg, user_msg], temperature=0.3, max_tokens=400)
+            text = resp.choices[0].message.content.strip()
         # Try to extract JSON from the response
         try:
             # Sometimes the model wraps JSON in fences—strip non-json prefix/suffix
