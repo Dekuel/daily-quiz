@@ -1,64 +1,76 @@
 {
   "date": "2025-11-08",
-  "generated_at": "2025-11-08T20:53:23Z",
+  "generated_at": "2025-11-08T21:16:33Z",
   "schema_version": 6,
   "mode": "normal",
   "questions": [
     {
-      "category": "Natur",
-      "topic": "Pflanzenwelt",
-      "question": "Welche der folgenden Aussagen zur Domestikation von Nutzpflanzen ist korrekt?",
-      "choices": [
-        "A: Reis wurde zuerst in Europa domestiziert und ist heute die wichtigste Grundnahrungsmittelpflanze weltweit.",
-        "B: Kartoffeln wurden zuerst in Asien domestiziert und dann nach Europa eingeführt.",
-        "C: Mais wurde ursprünglich aus der Wildpflanze Teosinte durch gezielte Selektion über viele Generationen domestiziert.",
-        "D: Weizen ist eine Pflanze, die sich nicht an verschiedene Klimazonen anpassen kann und daher nur in bestimmten Regionen wächst."
-      ],
-      "correct_answer": "C",
-      "explanation": "Mais wurde tatsächlich aus der Wildpflanze Teosinte domestiziert, was einen bedeutenden Einfluss auf die Landwirtschaft hatte. Diese gezielte Selektion hat zur Entwicklung der modernen Maissorten beigetragen, die für die Ernährung von Milliarden von Menschen wichtig sind.",
-      "difficulty": 8
-    },
-    {
-      "category": "Sprache",
-      "topic": "Fremdsprachen",
-      "question": "Was ist die korrekte Übersetzung des Wortes 'Haus' ins Englische?",
-      "choices": [
-        "A: Home",
-        "B: Flat",
-        "C: House",
-        "D: Garage"
-      ],
-      "correct_answer": "C",
-      "explanation": "'House' ist das englische Wort für 'Haus', während 'home' mehr ein Gefühl von Zuhause beschreibt. 'Flat' bedeutet Wohnung und 'garage' ist eine Garage, also ein Ort zum Abstellen von Fahrzeugen.",
-      "difficulty": 4
-    },
-    {
       "category": "Language",
-      "topic": "Foreign Languages",
-      "question": "What is the French equivalent of the English phrase 'to have a cold'?",
+      "topic": "Etymology",
+      "question": "What is the origin of the suffix '-ford' commonly found in English toponyms?",
       "choices": [
-        "A: avoir un rhume",
-        "B: être un rhume",
-        "C: prendre un rhume",
-        "D: faire un rhume"
+        "A: It denotes a river crossing.",
+        "B: It signifies a forested area.",
+        "C: It refers to a hill or elevated ground.",
+        "D: It indicates a settlement near a sea."
       ],
       "correct_answer": "A",
-      "explanation": "The correct phrase in French is 'avoir un rhume', which translates directly to 'to have a cold'. The other options do not accurately express the same meaning in French.",
-      "difficulty": 8
+      "explanation": "The suffix '-ford' comes from the Old English 'ford', meaning a river crossing. This term was used to describe areas where travelers could cross rivers safely. Thus, many place names incorporating this suffix indicate their historical significance as crossing points.",
+      "difficulty": 6
     },
     {
-      "category": "Kunst und Literatur",
-      "topic": "Zitate, Figuren & Allgemeinwissen",
-      "question": "Welcher Autor ist bekannt für den Satz: 'Die Gedanken sind frei'?",
+      "category": "Glaube & Religion",
+      "topic": "Klassische & nordische Mythologien",
+      "question": "Welcher nordische Gott wird oft mit der Dichtung und der Inspiration in Verbindung gebracht und spielte eine entscheidende Rolle in der Entwicklung der skandinavischen Literatur?",
       "choices": [
-        "A: Friedrich Schiller",
-        "B: Johann Wolfgang von Goethe",
-        "C: Matthias Claudius",
-        "D: Heinrich Heine"
+        "A: Loki",
+        "B: Odin",
+        "C: Freya",
+        "D: Thor"
       ],
-      "correct_answer": "C",
-      "explanation": "Der Satz 'Die Gedanken sind frei' stammt aus einem Volkslied, das oft Matthias Claudius zugeschrieben wird. Es thematisiert die Freiheit des Denkens und wurde in verschiedenen Kontexten, insbesondere in politischen Bewegungen, verwendet.",
-      "difficulty": 3
+      "correct_answer": "B",
+      "explanation": "Odin, der Hauptgott der nordischen Mythologie, ist bekannt für seine Liebe zur Weisheit und Dichtung. Seine Suche nach Wissen und seine Verbindung zur Poesie haben einen tiefgreifenden Einfluss auf die skandinavische Literatur und Kultur ausgeübt, insbesondere in der Edda-Literatur.",
+      "difficulty": 7
+    },
+    {
+      "question": "Which institution is responsible for passing federal laws in the United States?",
+      "choices": [
+        "A: The Senate alone",
+        "B: The Cabinet",
+        "C: The Supreme Court",
+        "D: The Congress"
+      ],
+      "correct_answer": "D",
+      "difficulty": 4,
+      "category": "politics"
+    },
+    {
+      "category": "Geschichte",
+      "topic": "Mittelalter",
+      "question": "Welches dieser Reiche war das erste, das die islamische Herrschaft in Spanien etablierte?",
+      "choices": [
+        "A: Ottomane",
+        "B: Umayyaden",
+        "C: Fatimiden",
+        "D: Abbasiden"
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Umayyaden errichteten im Jahr 711 das erste islamische Herrschaftsgebiet in der Iberischen Halbinsel, bekannt als Al-Andalus. Diese Periode stellte eine bedeutende kulturelle und wissenschaftliche Blütezeit dar, die bis zur Reconquista andauerte.",
+      "difficulty": 7
+    },
+    {
+      "category": "Essen und Trinken",
+      "topic": "Küche international",
+      "question": "Welche der folgenden Küchen ist ein Beispiel für die Kreolisierung, die aus der Vermischung verschiedener kultureller Einflüsse entstanden ist?",
+      "choices": [
+        "A: Sushi",
+        "B: Cajun-Küche",
+        "C: Tacos",
+        "D: Pasta"
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Cajun-Küche hat ihre Wurzeln in der Fusion französischer, spanischer und afrikanischer Einflüsse in Louisiana, USA. Diese Küchenstile sind durch die Migration und die kulturelle Vermischung entstanden und repräsentieren die Kreolisierung in der Gastronomie.",
+      "difficulty": 6
     },
     {
       "question": "Which institution is responsible for passing federal laws in the United States?",
@@ -73,32 +85,18 @@
       "category": "politics"
     },
     {
-      "category": "Geschichte",
-      "topic": "Neuzeit",
-      "question": "Welcher Künstler ist bekannt für seine Beiträge zur Renaissance, die in der Neuzeit stattfand?",
+      "category": "Kunst und Literatur",
+      "topic": "Zitate, Figuren & Allgemeinwissen",
+      "question": "Welches berühmte Zitat stammt von William Shakespeare?",
       "choices": [
-        "A: Leonardo da Vinci",
-        "B: Vincent van Gogh",
-        "C: Caspar David Friedrich",
-        "D: Claude Monet"
+        "A: 'Der Weg ist das Ziel.'",
+        "B: 'Die beste aller möglichen Welten.'",
+        "C: 'Ich denke, also bin ich.'",
+        "D: 'Sein oder Nichtsein, das ist hier die Frage.'"
       ],
-      "correct_answer": "A",
-      "explanation": "Leonardo da Vinci war ein herausragender Künstler der Renaissance, die im 15. und 16. Jahrhundert stattfand und als Teil der Neuzeit gilt. Seine Werke wie die 'Mona Lisa' und 'Das letzte Abendmahl' haben die Kunstgeschichte nachhaltig geprägt.",
-      "difficulty": 4
-    },
-    {
-      "category": "Geographie",
-      "topic": "Humangeographie & Städte",
-      "question": "Welcher dieser Faktoren hat in den letzten Jahren maßgeblich zur Suburbanisierung in vielen Städten beigetragen?",
-      "choices": [
-        "A: Die Zunahme von Homeoffice-Möglichkeiten.",
-        "B: Der Rückgang der Geburtenrate.",
-        "C: Die Erhöhung der Mietpreise in städtischen Zentren.",
-        "D: Die Verbesserung der öffentlichen Verkehrsanbindungen."
-      ],
-      "correct_answer": "A",
-      "explanation": "Die Zunahme von Homeoffice-Möglichkeiten hat dazu geführt, dass viele Menschen nicht mehr täglich in die Stadt pendeln müssen und sich daher vermehrt im suburbanen Raum ansiedeln. Dies beeinflusst die Bevölkerungsdynamik und die Entwicklung von Randgebieten der Städte.",
-      "difficulty": 6
+      "correct_answer": "D",
+      "explanation": "Das Zitat 'Sein oder Nichtsein, das ist hier die Frage.' stammt aus Shakespeares Tragödie 'Hamlet'. Es reflektiert die zentralen existenziellen Fragen des Protagonisten und ist eines der bekanntesten Zitate der Weltliteratur.",
+      "difficulty": 2
     }
   ]
 }

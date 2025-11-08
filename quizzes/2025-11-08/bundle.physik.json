@@ -1,168 +1,168 @@
 {
   "date": "2025-11-08",
-  "generated_at": "2025-11-08T20:53:23Z",
+  "generated_at": "2025-11-08T21:16:29Z",
   "schema_version": 6,
   "mode": "physik",
   "questions": [
     {
       "category": "Physik",
-      "topic": "Analytische Mechanik",
-      "subtopic": "Holonome Zwangsbedingungen",
-      "question": "Was beschreibt eine holonome Zwangsbedingung in der analytischen Mechanik?",
+      "topic": "Statistische Mechanik",
+      "subtopic": "RG-Ideen: Ising 1D/2D & Dezimierung",
+      "question": "Welcher der folgenden Aussagen beschreibt korrekt das Verhalten des 2D-Ising-Modells bei der Phaseübergangstemperatur?",
       "choices": [
-        "A: Sie hängt nur von den Koordinaten und nicht von der Zeit ab.",
-        "B: Sie kann nur durch Kräfte der Schwerkraft erzeugt werden.",
-        "C: Sie ist immer zeitabhängig und variiert mit der Geschwindigkeit.",
-        "D: Sie ist eine Bedingung, die nicht in die Bewegungsgleichungen integriert werden kann."
+        "A: Die spezifische Wärme des Systems nimmt bei Temperaturen unterhalb der Phaseübergangstemperatur ab.",
+        "B: Die Magnetisierung bleibt konstant und unabhängig von der Temperatur.",
+        "C: Das Ising-Modell zeigt im 2D-Fall keinen Phaseübergang, egal bei welcher Temperatur.",
+        "D: Das System zeigt in der Nähe der Phaseübergangstemperatur eine divergente Korrelationslänge."
       ],
-      "correct_answer": "A",
-      "explanation": "Eine holonome Zwangsbedingung ist eine Einschränkung, die ausschließlich von den Positionen der Teilchen abhängt und nicht von der Zeit oder den Geschwindigkeiten. Diese Art von Bedingung ermöglicht eine einfache Integration in die Gleichungen der Bewegung in der analytischen Mechanik.",
-      "difficulty": 5,
-      "subcategory": "Holonome Zwangsbedingungen"
-    },
-    {
-      "category": "Physik",
-      "topic": "Relativitätstheorie",
-      "subtopic": "Transformation der elektromagnetischen Felder",
-      "question": "Wie verändern sich die elektrischen und magnetischen Felder bei einer Lorentz-Transformation?",
-      "choices": [
-        "A: Beide Felder transformieren miteinander gemäß der Relativitätstheorie.",
-        "B: Das magnetische Feld wird zu einem elektrischen Feld.",
-        "C: Sie bleiben unverändert.",
-        "D: Das elektrische Feld wird zu einem magnetischen Feld."
-      ],
-      "correct_answer": "A",
-      "explanation": "Bei einer Lorentz-Transformation ändern sich die elektromagnetischen Felder aufgrund der Relativitätstheorie. Das elektrische und magnetische Feld sind miteinander gekoppelt und transformieren entsprechend der Relativität, was bedeutet, dass die Änderungen in einem Feld auch das andere beeinflussen können.",
-      "difficulty": 2,
-      "subcategory": "Transformation der elektromagnetischen Felder"
-    },
-    {
-      "category": "Physik",
-      "topic": "Thermodynamik",
-      "subtopic": "Geometrische Interpretation von Phasenübergängen",
-      "question": "Welche Aussage beschreibt am besten die geometrische Interpretation eines Phasenübergangs in einem Druck-Temperatur-Diagramm?",
-      "choices": [
-        "A: Phasenübergänge sind immer irreversibel.",
-        "B: Phasenübergänge finden entlang der Linien, die Phasengebiete im Diagramm trennen.",
-        "C: Der Druck bleibt während eines Phasenübergangs konstant.",
-        "D: Jeder Punkt im Diagramm stellt eine konstante Temperatur dar."
-      ],
-      "correct_answer": "B",
-      "explanation": "In einem Druck-Temperatur-Diagramm sind die Linien, die verschiedene Phasen trennen, entscheidend für das Verständnis von Phasenübergängen. Diese Linien repräsentieren die Bedingungen, unter denen ein Phasenwechsel, wie von fest zu flüssig oder von flüssig zu gasförmig, stattfinden kann.",
-      "difficulty": 6,
-      "subcategory": "Geometrische Interpretation von Phasenübergängen"
+      "correct_answer": "D",
+      "explanation": "Im 2D-Ising-Modell zeigt das System an der Phaseübergangstemperatur eine divergente Korrelationslänge, was auf das Vorhandensein eines phasenübergreifenden Verhaltens hinweist. Diese Eigenschaft ist entscheidend für das Verständnis von kritischen Phänomenen in statistischen Systemen.",
+      "difficulty": 10,
+      "subcategory": "RG-Ideen: Ising 1D/2D & Dezimierung"
     },
     {
       "category": "Physik",
       "topic": "Quantenmechanik",
-      "subtopic": "Impulsoperator & Orts-/Impulsdarstellung",
-      "question": "Welcher Operator beschreibt den Impuls eines Teilchens in der Quantenmechanik?",
+      "subtopic": "Variationsverfahren (Extremalprinzip)",
+      "question": "Was beschreibt das Variationsverfahren in der Quantenmechanik?",
       "choices": [
-        "A: -iħ ∂/∂x",
-        "B: -iħ ∇",
-        "C: ħ ∂/∂t",
-        "D: ħ ∇"
+        "A: Es behandelt die Wechselwirkung zwischen Licht und Materie.",
+        "B: Es findet das Minimum der Energie eines quantenmechanischen Systems.",
+        "C: Es erklärt die Zerfallsgesetze radioaktiver Elemente.",
+        "D: Es berechnet die Geschwindigkeit eines Teilchens."
       ],
       "correct_answer": "B",
-      "explanation": "In der Quantenmechanik wird der Impuls eines Teilchens durch den Impulsoperator -iħ ∇ dargestellt, wobei ħ das reduzierte Plancksche Wirkungsquantum ist. Dieser Operator spielt eine zentrale Rolle in der Orts- und Impulsdarstellung der Quantenmechanik.",
-      "difficulty": 5,
-      "subcategory": "Impulsoperator & Orts-/Impulsdarstellung"
-    },
-    {
-      "category": "Physik",
-      "topic": "Elektrodynamik",
-      "subtopic": "Magnetostatik in Materie",
-      "question": "Was beschreibt die magnetische Permeabilität eines Materials?",
-      "choices": [
-        "A: Die Fähigkeit des Materials, magnetische Felder zu leiten.",
-        "B: Die Fähigkeit des Materials, Wärme zu leiten.",
-        "C: Die Fähigkeit des Materials, Licht zu brechen.",
-        "D: Die Fähigkeit des Materials, elektrische Ladungen zu speichern."
-      ],
-      "correct_answer": "A",
-      "explanation": "Die magnetische Permeabilität ist ein Maß dafür, wie gut ein Material magnetische Felder durchlässt oder verstärkt. Materialien mit hoher Permeabilität können magnetische Felder effektiver leiten als Materialien mit niedriger Permeabilität.",
+      "explanation": "Das Variationsverfahren ist ein mathematisches Werkzeug, das verwendet wird, um die niedrigste Energie eines quantenmechanischen Systems zu finden. Es basiert auf dem Prinzip, dass die tatsächliche Energie eines Systems immer größer oder gleich der niedrigsten möglichen Energie ist, die durch geeignete Variationen der Wellenfunktion ermittelt werden kann.",
       "difficulty": 3,
-      "subcategory": "Magnetostatik in Materie"
+      "subcategory": "Variationsverfahren (Extremalprinzip)"
     },
     {
       "category": "Physik",
-      "topic": "Optik",
-      "subtopic": "χ^(2)-Phänomene (zweite Ordnung)",
-      "question": "Welche der folgenden Aussagen über χ^(2)-Phänomene in der Optik ist korrekt?",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Separation der Variablen in HJ",
+      "question": "Was ist das Ziel der Separation der Variablen in der Hamilton-Jacobi-Theorie?",
       "choices": [
-        "A: χ^(2)-Phänomene treten nur bei sehr hohen Temperaturen auf.",
-        "B: χ^(2)-Phänomene sind unabhängig von der Polarisation des einfallenden Lichts.",
-        "C: χ^(2)-Phänomene sind nur in optischen Fasern von Bedeutung.",
-        "D: χ^(2)-Phänomene sind verantwortlich für die Erzeugung von harmonischen Frequenzen in nichtlinearen Materialien."
+        "A: Die Berechnung der Masse eines Körpers.",
+        "B: Die Analyse von elektrischen Feldern.",
+        "C: Die Reduzierung von Differentialgleichungen auf einfachere Formen.",
+        "D: Die Bestimmung der Temperatur eines Systems."
       ],
-      "correct_answer": "D",
-      "explanation": "χ^(2)-Phänomene beziehen sich auf nichtlineare optische Effekte, bei denen die Polarisation eines Materials von der quadratischen Abhängigkeit des elektrischen Feldes abhängt. Diese Phänomene sind entscheidend für die Erzeugung von neuen Frequenzen, wie z.B. in der Frequenzverdopplung.",
-      "difficulty": 6,
-      "subcategory": "χ^(2)-Phänomene (zweite Ordnung)"
+      "correct_answer": "C",
+      "explanation": "Die Separation der Variablen in der Hamilton-Jacobi-Theorie zielt darauf ab, komplexe Differentialgleichungen in einfachere, separierbare Formen zu zerlegen, um die Lösungen zu erleichtern. Dies ist besonders hilfreich bei der Analyse dynamischer Systeme.",
+      "difficulty": 2,
+      "subcategory": "Separation der Variablen in HJ"
     },
     {
       "category": "Physik",
       "topic": "Klassische Mechanik",
-      "subtopic": "Härte von Festkörpern",
-      "question": "Welches Material gilt allgemein als das härteste bekannte natürliche Material?",
+      "subtopic": "Kapillarität",
+      "question": "Was beschreibt den Effekt der Kapillarität in Flüssigkeiten?",
       "choices": [
-        "A: Stahl",
-        "B: Granit",
-        "C: Gold",
-        "D: Diamant"
-      ],
-      "correct_answer": "D",
-      "explanation": "Diamant ist aufgrund seiner kristallinen Struktur und der starken kovalenten Bindungen zwischen den Kohlenstoffatomen das härteste bekannte natürliche Material. Diese Härte macht es besonders widerstandsfähig gegen Kratzer und andere äußere Einflüsse.",
-      "difficulty": 5,
-      "subcategory": "Härte von Festkörpern"
-    },
-    {
-      "category": "Physik",
-      "topic": "Relativitätstheorie",
-      "subtopic": "Kovariante Formulierung der Elektrodynamik",
-      "question": "Welches der folgenden Gesetze bleibt in der kovarianten Formulierung der Elektrodynamik unverändert unter Lorentz-Transformationen?",
-      "choices": [
-        "A: Das Gesetz von der Erhaltung der Energie",
-        "B: Das Plancksche Strahlungsgesetz",
-        "C: Das Maxwell-Gesetz für elektrische und magnetische Felder",
-        "D: Das Newtonsche Gesetz der Gravitation"
+        "A: Die Ausdehnung einer Flüssigkeit bei Temperaturerhöhung.",
+        "B: Die Temperaturabhängigkeit des Drucks in Flüssigkeiten.",
+        "C: Die Fähigkeit einer Flüssigkeit, in engen Räumen zu steigen oder zu sinken.",
+        "D: Die Dichteänderung von Flüssigkeiten unter Druck."
       ],
       "correct_answer": "C",
-      "explanation": "In der kovarianten Formulierung der Elektrodynamik bleiben die Maxwell-Gleichungen unter Lorentz-Transformationen unverändert, was ihre Formulierung in einem relativistischen Kontext ermöglicht. Dies ist entscheidend für die Vereinheitlichung von Elektrizität und Magnetismus in der Relativitätstheorie.",
-      "difficulty": 7,
-      "subcategory": "Kovariante Formulierung der Elektrodynamik"
+      "explanation": "Kapillarität ist das Phänomen, bei dem Flüssigkeiten in engen Röhren oder Spalten ansteigen oder sinken, abhängig von den Wechselwirkungen zwischen der Flüssigkeit und der Oberfläche. Dies tritt häufig bei Wasser in engen Röhren auf, wo die Adhäsion zu den Wänden und die Kohäsion innerhalb der Flüssigkeit eine Rolle spielen.",
+      "difficulty": 6,
+      "subcategory": "Kapillarität"
     },
     {
       "category": "Physik",
-      "topic": "Kern- und Teilchenphysik",
-      "subtopic": "Goldene Regel (Fermi)",
-      "question": "Was beschreibt die Goldene Regel von Fermi in der Kern- und Teilchenphysik?",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Verdünnte Lösungen: chem. Potentiale & osmotischer Druck",
+      "question": "Welcher Zusammenhang beschreibt den osmotischen Druck einer verdünnten Lösung?",
       "choices": [
-        "A: Die Geschwindigkeit eines Teilchens hängt ausschließlich von seiner Masse ab.",
-        "B: Die Energie eines Teilchens bleibt immer konstant während eines Prozesses.",
-        "C: Teilchen können sich nicht gegenseitig beeinflussen, wenn sie sich nicht direkt berühren.",
-        "D: Die Wahrscheinlichkeit eines Übergangs zwischen zwei Zuständen ist proportional zur Dichte der Zustände und der Matrixelemente."
+        "A: π = c^2RT",
+        "B: π = cRT^2",
+        "C: π = cRT",
+        "D: π = c/R"
       ],
-      "correct_answer": "D",
-      "explanation": "Die Goldene Regel von Fermi beschreibt, wie wahrscheinlich es ist, dass ein Übergang zwischen zwei quantenmechanischen Zuständen stattfindet. Diese Wahrscheinlichkeit ist proportional zur Dichte der Zustände im Endzustand sowie zum Quadrat des Matrixelements, das den Übergang beschreibt.",
+      "correct_answer": "C",
+      "explanation": "Der osmotische Druck π einer verdünnten Lösung wird durch die van 't Hoff-Gleichung gegeben, die den Druck in Abhängigkeit von der Konzentration c, der Gaskonstante R und der Temperatur T beschreibt. Diese Beziehung ist fundamental für das Verständnis von osmotischen Prozessen in Lösungen.",
       "difficulty": 6,
-      "subcategory": "Goldene Regel (Fermi)"
+      "subcategory": "Verdünnte Lösungen: chem. Potentiale & osmotischer Druck"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Integraldarstellung der Divergenz",
+      "question": "Was beschreibt die Integraldarstellung der Divergenz in einem Vektorfeld?",
+      "choices": [
+        "A: Die Summe der Werte des Vektorfeldes an einem Punkt.",
+        "B: Die Änderung des Vektorfeldes entlang einer Linie.",
+        "C: Den Fluss des Vektorfeldes durch eine geschlossene Fläche.",
+        "D: Die Rotation des Vektorfeldes um einen Punkt."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Integraldarstellung der Divergenz besagt, dass die Divergenz eines Vektorfeldes in einem Punkt durch den Fluss des Feldes durch eine geschlossene Fläche um diesen Punkt bestimmt wird. Dies ist ein zentrales Konzept in der Vektoranalysis und ist in der Elektrodynamik von großer Bedeutung.",
+      "difficulty": 5,
+      "subcategory": "Integraldarstellung der Divergenz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Heterostrukturen & Übergitter",
+      "question": "Was beschreibt der Begriff 'Heterostruktur' in der Festkörperphysik?",
+      "choices": [
+        "A: Eine Struktur, die aus einem einzigen Material ohne Einschlüsse besteht.",
+        "B: Eine Struktur, die ausschließlich aus Halbleitermaterialien besteht.",
+        "C: Eine Struktur, die aus verschiedenen Materialien mit unterschiedlichen elektronischen Eigenschaften besteht.",
+        "D: Eine Struktur, die nur aus metallischen Materialien gebildet wird."
+      ],
+      "correct_answer": "C",
+      "explanation": "Heterostrukturen bestehen aus mehreren Schichten unterschiedlicher Materialien, die spezifische elektronische Eigenschaften aufweisen. Sie sind wichtig für die Entwicklung von Bauelementen wie Transistoren und Laserdioden.",
+      "difficulty": 4,
+      "subcategory": "Heterostrukturen & Übergitter"
     },
     {
       "category": "Physik",
       "topic": "Optik",
-      "subtopic": "Lichttechnische Größen",
-      "question": "Welche Einheit wird verwendet, um die Helligkeit einer Lichtquelle zu messen?",
+      "subtopic": "Doppelbrechung",
+      "question": "Was beschreibt der Begriff 'Doppelbrechung' in der Optik?",
       "choices": [
-        "A: Lumen",
-        "B: Watt",
-        "C: Joule",
-        "D: Meter"
+        "A: Die Reflexion von Licht an einer Oberfläche.",
+        "B: Die Aufspaltung von Licht in zwei unterschiedliche Strahlen bei bestimmten Materialien.",
+        "C: Die Zerstreuung von Lichtstrahlen durch ein Prisma.",
+        "D: Die Absorption von Licht durch ein Material."
+      ],
+      "correct_answer": "B",
+      "explanation": "Doppelbrechung tritt auf, wenn Licht auf anisotrope Materialien trifft und in zwei verschiedene Polarisationsrichtungen aufgespalten wird. Dies führt dazu, dass zwei Bilder eines Objekts entstehen können, was typischerweise bei Kristallen wie Kalzit beobachtet wird.",
+      "difficulty": 3,
+      "subcategory": "Doppelbrechung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Zwischengitteratome",
+      "question": "Was sind Zwischengitteratome in einem Kristallgitter?",
+      "choices": [
+        "A: Atome, die in den Zwischengittern des Kristalls positioniert sind.",
+        "B: Atome, die sich an der Oberfläche eines Kristalls befinden.",
+        "C: Atome, die nur bei hohen Temperaturen existieren.",
+        "D: Atome, die sich in den Ecken eines Kubus befinden."
       ],
       "correct_answer": "A",
-      "explanation": "Die Helligkeit einer Lichtquelle wird in Lumen gemessen. Lumen gibt an, wie viel Licht von einer Quelle in alle Richtungen abgestrahlt wird und ist eine wichtige Größe in der Lichttechnik.",
-      "difficulty": 2,
-      "subcategory": "Lichttechnische Größen"
+      "explanation": "Zwischengitteratome sind Atome, die in den Zwischenräumen (Zwischengittern) zwischen den Hauptatomen eines Kristallgitters positioniert sind. Sie beeinflussen die Eigenschaften des Materials, wie z.B. die elektrische Leitfähigkeit und die Festigkeit.",
+      "difficulty": 3,
+      "subcategory": "Zwischengitteratome"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Jacobi-Prinzip (verkürzte Wirkung)",
+      "question": "Was beschreibt das Jacobi-Prinzip in der analytischen Mechanik?",
+      "choices": [
+        "A: Es verknüpft die Geschwindigkeit und die Beschleunigung eines Körpers.",
+        "B: Es definiert die Masse eines Körpers in Bewegung.",
+        "C: Es beschreibt die Erhaltung der Energie in einem geschlossenen System.",
+        "D: Es ermöglicht die Ableitung der Bewegungsgleichungen aus einer Funktion, die die Wirkung verkürzt."
+      ],
+      "correct_answer": "D",
+      "explanation": "Das Jacobi-Prinzip ist ein zentrales Konzept in der analytischen Mechanik, das die Bewegungsgleichungen aus einer verkürzten Wirkung ableitet. Es vereinfacht die Analyse von dynamischen Systemen, indem es die Anzahl der Variablen reduziert und somit die Lösung erleichtert.",
+      "difficulty": 5,
+      "subcategory": "Jacobi-Prinzip (verkürzte Wirkung)"
     }
   ]
 }

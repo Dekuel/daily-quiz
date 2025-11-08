@@ -1,64 +1,106 @@
 {
   "date": "2025-11-08",
-  "generated_at": "2025-11-08T20:52:22Z",
+  "generated_at": "2025-11-08T21:15:22Z",
   "schema_version": 6,
   "mode": "schwer",
   "questions": [
     {
       "category": "Wissenschaft",
-      "topic": "Biologie",
-      "question": "Welche Struktur in der Zelle ist für die Energieproduktion verantwortlich?",
+      "topic": "Chemie",
+      "question": "Welches der folgenden Elemente ist ein Halogen und kommt in der Natur hauptsächlich in Form von Salzen vor?",
       "choices": [
-        "A: Ribosomen",
-        "B: Zellkern",
-        "C: Golgi-Apparat",
-        "D: Mitochondrien"
+        "A: Stickstoff",
+        "B: Chlor",
+        "C: Kalzium",
+        "D: Eisen"
       ],
-      "correct_answer": "D",
-      "explanation": "Mitochondrien sind die 'Kraftwerke' der Zelle, in denen ATP, die Hauptenergiequelle für zelluläre Prozesse, produziert wird. Ribosomen sind für die Proteinsynthese zuständig, während der Golgi-Apparat und der Zellkern andere Funktionen in der Zelle haben.",
-      "difficulty": 6
-    },
-    {
-      "category": "Natur",
-      "topic": "Pflanzenwelt",
-      "question": "Welche Pflanze ist bekannt für ihre Anpassung an extrem trockene Bedingungen und hat häufig fleischige Blätter zur Wasserspeicherung?",
-      "choices": [
-        "A: Ahorn",
-        "B: Eiche",
-        "C: Kaktus",
-        "D: Fichte"
-      ],
-      "correct_answer": "C",
-      "explanation": "Kaktusse sind speziell an Wüstenbedingungen angepasst und verfügen über Eigenschaften wie fleischige Blätter, die als Wasserspeicher dienen. Diese Anpassungen ermöglichen ihnen das Überleben in extrem trockenen Umgebungen, wo Wasser knapp ist.",
+      "correct_answer": "B",
+      "explanation": "Chlor ist ein Halogen und bildet in der Natur hauptsächlich Chloride, die als Salze vorkommen. Eisen und Kalzium sind Metalle, während Stickstoff ein Nichtmetall ist, das nicht als Halogen klassifiziert wird.",
       "difficulty": 8
     },
     {
-      "category": "Wissenschaft",
-      "topic": "Medizin",
-      "question": "Welche der folgenden Erkrankungen ist eine häufige Ursache für chronisch obstruktive Lungenerkrankung (COPD)?",
+      "category": "Sprache",
+      "topic": "Redewendungen",
+      "question": "Welches Wort gehört in die Redewendung 'auf dem ... sein'?",
       "choices": [
-        "A: Raucherlunge (chronische Bronchitis)",
-        "B: Lungenentzündung (Pneumonie)",
-        "C: Asthma bronchiale",
-        "D: Lungenfibrose"
-      ],
-      "correct_answer": "A",
-      "explanation": "Die chronisch obstruktive Lungenerkrankung (COPD) wird häufig durch langfristiges Rauchen verursacht, was zu einer chronischen Bronchitis und einer Verengung der Atemwege führt. Asthma und Lungenentzündungen sind zwar Atemwegserkrankungen, jedoch nicht die Hauptursachen für COPD.",
-      "difficulty": 7
-    },
-    {
-      "category": "Politiker",
-      "discipline": "Ministerien (DE)",
-      "question": "Wer ist Bundesminister(in) für das Bundesministerium für Wirtschaft und Klimaschutz?",
-      "choices": [
-        "A: Annalena Baerbock",
-        "B: Helmut Schmidt",
-        "C: Olaf Scholz",
-        "D: Angela Merkel"
+        "A: falschen Pfad",
+        "B: Holzweg",
+        "C: guten Kurs",
+        "D: richtigen Weg"
       ],
       "correct_answer": "B",
-      "explanation": "Der Bundesminister für Wirtschaft und Klimaschutz spielt eine zentrale Rolle in der deutschen Wirtschaftspolitik. Helmut Schmidt war eine prägende Figur in der deutschen Politik und hat viele wichtige Entscheidungen in diesem Bereich getroffen.",
-      "difficulty": 1
+      "explanation": "Die korrekte Redewendung ist 'auf dem Holzweg sein', was bedeutet, dass man sich irrt oder in die falsche Richtung geht. Die Verwendung des Dativs in dieser Fügung ist charakteristisch für viele deutsche Redewendungen, bei denen ein bestimmter Kasus in Verbindung mit einer Präposition steht.",
+      "difficulty": 3
+    },
+    {
+      "category": "Language",
+      "topic": "Foreign Languages",
+      "question": "What is the French word for 'apple'?",
+      "choices": [
+        "A: Cerise",
+        "B: Pomme",
+        "C: Raisin",
+        "D: Poire"
+      ],
+      "correct_answer": "B",
+      "explanation": "In French, 'pomme' specifically translates to 'apple.' The other options refer to different fruits: 'poire' means 'pear,' 'cerise' means 'cherry,' and 'raisin' means 'grape.'",
+      "difficulty": 8
+    },
+    {
+      "category": "Kunst und Literatur",
+      "topic": "Bildende Kunst & Malerei",
+      "question": "Welcher Maler ist bekannt für seine Anwendung von Chiaroscuro und wird oft mit der Entwicklung des barocken Lichts in der Malerei in Verbindung gebracht?",
+      "choices": [
+        "A: Claude Monet",
+        "B: Vincent van Gogh",
+        "C: Pablo Picasso",
+        "D: Caravaggio"
+      ],
+      "correct_answer": "D",
+      "explanation": "Caravaggio ist ein zentraler Vertreter des Barock, der durch seine dramatische Verwendung von Licht und Schatten (Chiaroscuro) revolutionäre Effekte in der Malerei erzielte. Sein Stil beeinflusste zahlreiche Künstler und prägte die Entwicklung der Malerei im 17. Jahrhundert erheblich.",
+      "difficulty": 9
+    },
+    {
+      "category": "Glaube & Religion",
+      "topic": "Religiöse Ideen, Theologie & Mystik",
+      "question": "Welche der folgenden Tugenden wird in den meisten religiösen Traditionen als grundlegende ethische Leitlinie angesehen?",
+      "choices": [
+        "A: Hass",
+        "B: Nächstenliebe",
+        "C: Hochmut",
+        "D: Gier"
+      ],
+      "correct_answer": "B",
+      "explanation": "Nächstenliebe ist eine zentrale Tugend in vielen Religionen, darunter das Christentum, Judentum und Islam. Sie wird oft als Grundlage für moralisches Verhalten und zwischenmenschliche Beziehungen angesehen.",
+      "difficulty": 6
+    },
+    {
+      "category": "Sport",
+      "topic": "Fußball",
+      "question": "Welches Land hat die meisten FIFA-Weltmeisterschaften im Fußball gewonnen?",
+      "choices": [
+        "A: Brasilien",
+        "B: Deutschland",
+        "C: Argentinien",
+        "D: Italien"
+      ],
+      "correct_answer": "A",
+      "explanation": "Brasilien hat insgesamt 5 FIFA-Weltmeisterschaften gewonnen (1958, 1962, 1970, 1994, 2002) und ist damit das erfolgreichste Land in der Geschichte des Turniers. Deutschland und Italien folgen mit je 4 Titeln.",
+      "difficulty": 5
+    },
+    {
+      "category": "Geschichte",
+      "topic": "Neuzeit",
+      "question": "Welche Epoche folgt direkt auf die Renaissance?",
+      "choices": [
+        "A: Klassik",
+        "B: Aufklärung",
+        "C: Barock",
+        "D: Romantik"
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Barockepoche begann im späten 16. Jahrhundert und folgte direkt auf die Renaissance. Diese Zeit war geprägt von prunkvoller Kunst, Architektur und einer starken politischen Macht der Monarchien in Europa.",
+      "difficulty": 4
     }
   ]
 }
