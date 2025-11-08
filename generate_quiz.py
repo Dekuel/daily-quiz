@@ -357,6 +357,198 @@ ARCHIVE_DIRS = {
     "schwer": "Fragen schwer",
 }
 
+# English archives (copies / translations go here)
+ARCHIVE_DIRS_EN = {
+    "normal": "Fragen leicht_en",
+    "schwer": "Fragen schwer_en",
+}
+
+
+# ===================== Optional Translation Support (OpenAI) =====================
+
+def _has_openai_api() -> bool:
+    return bool(os.getenv("OPENAI_API_KEY") or os.getenv("OPENAI_KEY"))
+
+
+def _openai_translate_text(text: str, src: str = "de", tgt: str = "en") -> Optional[str]:
+    """Translate a short piece of text using OpenAI if API key is available.
+    Returns translated text or None on any failure / missing key.
+    """
+    key = os.getenv("OPENAI_API_KEY") or os.getenv("OPENAI_KEY")
+    if not key:
+        return None
+    try:
+        import openai
+        openai.api_key = key
+        # Use a conservative model and temperature for deterministic translations
+        resp = openai.ChatCompletion.create(
+            model="gpt-3.5-turbo",
+            messages=[
+                {"role": "system", "content": "You are a helpful, concise translator. Translate the provided quiz text from %s to %s. Keep lists, punctuation and letters (A:, B:, ...) intact where possible." % (src, tgt)},
+                {"role": "user", "content": text},
+            ],
+            temperature=0,
+            max_tokens=800,
+        )
+        out = resp.choices[0].message.content.strip()
+        return out
+    except Exception as e:
+        print("[TRANSLATE-ERROR]", e)
+        return None
+
+
+def _translate_question_dict(q: dict) -> dict:
+    """Translate the question dict fields (question, choices/options/answers, explanation) to English if possible.
+    If translation service not available, returns the original dict.
+    """
+    if not isinstance(q, dict):
+        return q
+    if not _has_openai_api():
+        # no translation available
+        return q
+
+    out = dict(q)
+
+    # Translate main question text
+    qtext = str(q.get("question") or "")
+    if qtext:
+        tr = _openai_translate_text(qtext, src="de", tgt="en")
+        if tr:
+            out["question"] = tr
+
+    # Translate explanation if present
+    if "explanation" in q and q.get("explanation"):
+        tr = _openai_translate_text(str(q.get("explanation")), src="de", tgt="en")
+        if tr:
+            out["explanation"] = tr
+
+    # Translate category name (best-effort)
+    cat = str(q.get("category") or "")
+    if cat:
+        # simple mapping common categories
+        cat_map = {"politik": "politics", "physik": "physics", "geschichte": "history", "natur": "nature", "sport": "sport", "kunst_und_literatur": "arts_and_literature"}
+        low = cat.lower()
+        out["category"] = cat_map.get(low, cat)
+
+    # Translate choices / options / answers
+    for field in ("choices", "options", "answers"):
+        if field in q and isinstance(q[field], list):
+            new_list = []
+            for item in q[field]:
+                if isinstance(item, str):
+                    tr = _openai_translate_text(item, src="de", tgt="en")
+                    new_list.append(tr or item)
+                elif isinstance(item, dict):
+                    it = dict(item)
+                    if "text" in it:
+                        tr = _openai_translate_text(str(it["text"]), src="de", tgt="en")
+                        if tr:
+                            it["text"] = tr
+                    new_list.append(it)
+                else:
+                    new_list.append(item)
+            out[field] = new_list
+
+    # Sync letter prefixes if needed: we don't try to reinterpret correct_answer indices
+    return out
+
+
+def _openai_translate_texts(texts: List[str], src: str = "de", tgt: str = "en") -> Optional[List[str]]:
+    """Translate a list of strings in a single batch OpenAI call. Returns list of translations
+    or None on failure.
+    """
+    if not texts:
+        return []
+    key = os.getenv("OPENAI_API_KEY") or os.getenv("OPENAI_KEY")
+    if not key:
+        return None
+    try:
+        import openai
+        openai.api_key = key
+        # Send the texts as a JSON array and request a JSON array back
+        system = {"role": "system", "content": f"You are a concise translator from {src} to {tgt}. Return only a JSON array of translated strings with no commentary."}
+        import json as _json
+        user = {"role": "user", "content": _json.dumps(texts, ensure_ascii=False)}
+        resp = openai.ChatCompletion.create(model="gpt-3.5-turbo", messages=[system, user], temperature=0, max_tokens=4000)
+        out_text = resp.choices[0].message.content.strip()
+        # extract JSON array
+        start = out_text.find("[")
+        end = out_text.rfind("]")
+        if start != -1 and end != -1:
+            arr_text = out_text[start:end+1]
+        else:
+            arr_text = out_text
+        try:
+            arr = _json.loads(arr_text)
+            if isinstance(arr, list):
+                return [str(x) if x is not None else "" for x in arr]
+        except Exception:
+            # fallback: no parse
+            return None
+    except Exception as e:
+        print("[TRANSLATE-BATCH-ERROR]", e)
+        return None
+    return None
+
+
+def _translate_questions_batch(questions: List[dict]) -> List[dict]:
+    """Translate fields of multiple questions in a single batched call.
+    This function gathers all strings that need translation, calls OpenAI once,
+    and maps translations back into the question dicts.
+    """
+    # Build list of source strings in stable order and keep mapping
+    to_translate: List[str] = []
+    mapping: List[tuple[int, str, Optional[int]]] = []  # (qidx, field, opt_idx)
+
+    for qi, q in enumerate(questions):
+        # main question text
+        qtext = str(q.get("question") or "")
+        to_translate.append(qtext)
+        mapping.append((qi, "question", None))
+
+        # explanation
+        expl = str(q.get("explanation") or "")
+        to_translate.append(expl)
+        mapping.append((qi, "explanation", None))
+
+        # choices/options/answers
+        for field in ("choices", "options", "answers"):
+            if field in q and isinstance(q[field], list):
+                for oi, item in enumerate(q[field]):
+                    if isinstance(item, str):
+                        to_translate.append(item)
+                        mapping.append((qi, field, oi))
+                    elif isinstance(item, dict) and "text" in item:
+                        to_translate.append(str(item.get("text") or ""))
+                        mapping.append((qi, field, oi))
+
+    if not to_translate:
+        return questions
+
+    translated = _openai_translate_texts(to_translate, src="de", tgt="en")
+    if not translated:
+        # translation failed; return original
+        return questions
+
+    # Apply translations
+    out_questions = [dict(q) for q in questions]
+    for (qi, field, oi), tr in zip(mapping, translated):
+        try:
+            if field in ("question", "explanation"):
+                if tr:
+                    out_questions[qi][field] = tr
+            else:
+                # list element
+                if field in out_questions[qi] and isinstance(out_questions[qi][field], list):
+                    if isinstance(out_questions[qi][field][oi], str):
+                        out_questions[qi][field][oi] = tr or out_questions[qi][field][oi]
+                    elif isinstance(out_questions[qi][field][oi], dict) and "text" in out_questions[qi][field][oi]:
+                        out_questions[qi][field][oi]["text"] = tr or out_questions[qi][field][oi]["text"]
+        except Exception:
+            continue
+
+    return out_questions
+
 def _sanitize_filename(name: str) -> str:
     #rudimentär: Leerzeichen -> Unterstrich; nur Buchstaben/Ziffern/_/-/Umlaute/ß
     base = re.sub(r"\s+", "_", name.strip())
@@ -608,6 +800,136 @@ def write_daily_bundle(quiz_list: List[dict], mode: str, date_str: Optional[str]
     return f"{OUT_ROOT}/{day}/bundle{suffix}"
 
 
+def _write_daily_bundle_en(quiz_list: List[dict], mode: str, date_str: Optional[str], plugins: Dict[str, Callable[..., Optional[dict]]]) -> Optional[str]:
+    """
+    Writes an English variant of the bundle. Strategy:
+    - Start from the provided quiz_list (usually the German one)
+    - Replace questions whose category == 'politiker' using the 'politics' plugin when available
+    - Save as bundle.<mode>_en.json and append to EN archive dirs
+    """
+    if not quiz_list:
+        return None
+
+    day = date_str or _iso_date_today()
+    day_dir = os.path.join(OUT_ROOT, day)
+    os.makedirs(day_dir, exist_ok=True)
+
+    # deep copy entries (shallow copy of dicts is enough since we'll swap some)
+    en_questions: List[dict] = [dict(q) for q in quiz_list]
+
+    # Substitute politiker-questions with 'politics' plugin if present
+    politics_fn = plugins.get("politics")
+    new_en_questions: List[dict] = []
+    for q in en_questions:
+        try:
+            if str(q.get("category", "")).lower() == "politiker":
+                # try to replace with politics plugin
+                if callable(politics_fn):
+                    try:
+                        target = q.get("difficulty") if isinstance(q.get("difficulty"), int) else None
+                        repl = politics_fn(past_texts=[], target_difficulty=target, mode=mode)
+                        if repl:
+                            repl.setdefault("category", "politics")
+                            _harmonize_question_metadata(repl)
+                            new_en_questions.append(repl)
+                            continue
+                    except Exception:
+                        # drop if replacement fails
+                        continue
+                # no politics plugin: keep the original (will be translated if translator available)
+                new_en_questions.append(q)
+                continue
+            else:
+                new_en_questions.append(q)
+        except Exception:
+            continue
+
+    en_questions = new_en_questions
+
+    # if after substitution we have no questions, skip writing
+    if not en_questions:
+        print(f"⚠️ English bundle for mode '{mode}' would be empty after substitutions - skipping.")
+        return None
+
+    # Translate remaining questions if OpenAI is configured (best-effort)
+    if _has_openai_api():
+        try:
+            en_questions = _translate_questions_batch(en_questions)
+        except Exception:
+            # on any failure, keep original en_questions
+            pass
+    else:
+        # If no translator, ensure category names use simple mappings for EN
+        cat_map = {"politik": "politics", "physik": "physics"}
+        for q in en_questions:
+            c = str(q.get("category") or "").lower()
+            if c in cat_map:
+                q["category"] = cat_map[c]
+
+    bundle = {
+        "date": day,
+        "generated_at": _now_iso(),
+        "schema_version": 6,
+        "mode": mode,
+        "questions": en_questions,
+    }
+
+    if mode == "schwer":
+        suffix = ".schwer.json"
+    elif mode == "physik":
+        suffix = ".physik.json"
+    else:
+        suffix = ".normal.json"
+
+    # create _en filename
+    bundle_path = os.path.join(day_dir, f"bundle{suffix}")
+    bundle_path_en = bundle_path.replace('.json', '_en.json')
+    with open(bundle_path_en, "w", encoding="utf-8") as f:
+        json.dump(bundle, f, ensure_ascii=False, indent=2)
+
+    print(f"✅ English bundle gespeichert ({mode}): {bundle_path_en}")
+
+    # also append to EN archive dirs (normal/schwer)
+    if mode in ("normal", "schwer"):
+        _append_questions_to_category_files_en(en_questions, mode)
+
+    return f"{OUT_ROOT}/{day}/bundle{suffix.replace('.json', '_en.json')}"
+
+
+def _append_questions_to_category_files_en(questions: List[dict], mode: str) -> None:
+    """
+    Append questions into EN archive dirs (Fragen leicht_en / Fragen schwer_en).
+    Behavior mirrors _append_questions_to_category_files.
+    """
+    archive_root = ARCHIVE_DIRS_EN.get(mode)
+    if not archive_root:
+        return
+
+    buckets: Dict[str, List[dict]] = {}
+    for q in questions:
+        cat = str(q.get("category") or "Unknown").strip()
+        if not cat:
+            cat = "Unknown"
+        buckets.setdefault(cat, []).append(q)
+
+    for cat, qlist in buckets.items():
+        fname = f"{_sanitize_filename(cat)}.json"
+        fpath = os.path.join(archive_root, fname)
+
+        existing = _load_json_list(fpath)
+
+        seen = {(_norm(x.get("question", "")), _norm(x.get("category", ""))) for x in existing}
+        merged = list(existing)
+        for q in qlist:
+            key = (_norm(q.get("question", "")), _norm(q.get("category", "")))
+            if key in seen:
+                continue
+            merged.append(q)
+            seen.add(key)
+
+        _save_json_list(fpath, cat, merged)
+
+
 def update_latest_and_catalog(paths_by_mode: Dict[str, str], date_str: Optional[str] = None) -> None:
     """
     Aktualisiert latest.json (mit allen Pfaden) und catalog.json (Eintrag pro Datum mit allen Pfaden).
@@ -693,6 +1015,8 @@ def main():
 
     # 3) pro Modus generieren und speichern
     saved_paths: Dict[str, str] = {}
+    # keep generated question lists in memory so we can create EN variants
+    qlists_by_mode: Dict[str, List[dict]] = {}
 
     for mode in ("normal", "schwer", "physik"):
         if mode in ("normal", "schwer"):
@@ -781,12 +1105,23 @@ def main():
         saved = write_daily_bundle(qlist, mode=mode)
         if saved:
             saved_paths[mode] = saved
+        # keep the in-memory list for EN variant generation
+        qlists_by_mode[mode] = qlist
 
         # 3.8 Zusatz: kategorieweise Archivierung (nur normal/schwer)
         if mode in ("normal", "schwer"):
             _append_questions_to_category_files(qlist, mode)
 
-    # 4) latest.json + catalog.json aktualisieren
+    # 3.9 Generate English variants for each mode (if possible)
+    for mode, qlist in qlists_by_mode.items():
+        try:
+            en_path = _write_daily_bundle_en(qlist, mode=mode, date_str=None, plugins=plugins)
+            if en_path:
+                saved_paths[f"{mode}_en"] = en_path
+        except Exception as e:
+            print(f"[EN-GENERATION-ERROR] mode={mode}: {e}")
+
+    # 4) latest.json + catalog.json aktualisieren (includes EN variants)
     if saved_paths:
         update_latest_and_catalog(saved_paths)
 
