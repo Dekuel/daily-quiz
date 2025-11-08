@@ -368,7 +368,14 @@ ARCHIVE_DIRS_EN = {
 # ===================== Optional Translation Support (OpenAI) =====================
 
 def _has_openai_api() -> bool:
-    return bool(os.getenv("OPENAI_API_KEY") or os.getenv("OPENAI_KEY"))
+    return bool(os.getenv("OPENAI_API_KEY") or os.getenv("OPENAI_KEY") or os.getenv("OPENAI"))
+
+
+def _openai_key_source() -> Optional[str]:
+    for name in ("OPENAI_API_KEY", "OPENAI_KEY", "OPENAI"):
+        if os.getenv(name):
+            return name
+    return None
 
 
 def _openai_translate_text(text: str, src: str = "de", tgt: str = "en") -> Optional[str]:
@@ -818,32 +825,40 @@ def _write_daily_bundle_en(quiz_list: List[dict], mode: str, date_str: Optional[
     # deep copy entries (shallow copy of dicts is enough since we'll swap some)
     en_questions: List[dict] = [dict(q) for q in quiz_list]
 
-    # Substitute politiker-questions with 'politics' plugin if present
-    politics_fn = plugins.get("politics")
+    # Attempt to generate English replacements using available EN-capable plugins.
+    # Mapping: German category key -> plugin key that can create English questions.
+    # We explicitly prefer 'politics' for 'politiker' and 'language' for 'sprache' if present.
+    german_to_en_plugin = {}
+    if "politics" in plugins:
+        german_to_en_plugin["politiker"] = "politics"
+        german_to_en_plugin["politik"] = "politics"
+    if "language" in plugins:
+        german_to_en_plugin["sprache"] = "language"
+
     new_en_questions: List[dict] = []
     for q in en_questions:
         try:
-            if str(q.get("category", "")).lower() == "politiker":
-                # try to replace with politics plugin
-                if callable(politics_fn):
-                    try:
-                        target = q.get("difficulty") if isinstance(q.get("difficulty"), int) else None
-                        repl = politics_fn(past_texts=[], target_difficulty=target, mode=mode)
-                        if repl:
-                            repl.setdefault("category", "politics")
-                            _harmonize_question_metadata(repl)
-                            new_en_questions.append(repl)
-                            continue
-                    except Exception:
-                        # drop if replacement fails
+            cat = str(q.get("category") or "").lower()
+            mapped = german_to_en_plugin.get(cat)
+            if mapped and mapped in plugins and callable(plugins[mapped]):
+                try:
+                    target = q.get("difficulty") if isinstance(q.get("difficulty"), int) else None
+                    repl = plugins[mapped](past_texts=[], target_difficulty=target, mode=mode)
+                    if repl:
+                        # ensure category name is English and harmonize
+                        repl.setdefault("category", mapped)
+                        _harmonize_question_metadata(repl)
+                        new_en_questions.append(repl)
                         continue
-                # no politics plugin: keep the original (will be translated if translator available)
-                new_en_questions.append(q)
-                continue
-            else:
-                new_en_questions.append(q)
+                except Exception:
+                    # fallback: keep original for translation below
+                    pass
+
+            # No EN plugin replacement performed — keep original for subsequent translation
+            new_en_questions.append(q)
         except Exception:
-            continue
+            # If anything goes wrong for a single question, preserve it so bundle isn't lost
+            new_en_questions.append(q)
 
     en_questions = new_en_questions
 
@@ -860,12 +875,16 @@ def _write_daily_bundle_en(quiz_list: List[dict], mode: str, date_str: Optional[
             # on any failure, keep original en_questions
             pass
     else:
-        # If no translator, ensure category names use simple mappings for EN
-        cat_map = {"politik": "politics", "physik": "physics"}
+        # No OpenAI translator available. Try to improve English output by
+        # applying simple category-name mappings and flagging items that
+        # likely remain untranslated so they can be inspected.
+        cat_map = {"politik": "politics", "physik": "physics", "politiker": "politics", "sprache": "language"}
         for q in en_questions:
             c = str(q.get("category") or "").lower()
             if c in cat_map:
                 q["category"] = cat_map[c]
+            # mark untranslated items so humans can filter/translate later
+            q.setdefault("_untranslated", True)
 
     bundle = {
         "date": day,
@@ -987,6 +1006,14 @@ def main():
     # 0) Plugins laden
     plugins = discover_category_plugins()
     print("[DEBUG] Plugins gefunden:", sorted(plugins.keys()))
+
+    # Report whether an OpenAI key is available in the environment — useful
+    # to know if translation will run in this execution context.
+    key_src = _openai_key_source()
+    if key_src:
+        print(f"[DEBUG] OpenAI key detected via env var: {key_src}")
+    else:
+        print("[DEBUG] No OpenAI key detected in environment; EN translations will be skipped or best-effort only.")
 
     # Expliziter Direktimport-Test für 'kategorien.physik' (zeigt Pfad/Fehler klar an)
     try:
