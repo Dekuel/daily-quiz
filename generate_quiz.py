@@ -33,7 +33,8 @@ NEU (diese Version):
 import os, sys
 REPO_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 if REPO_ROOT not in sys.path:
-    sys.path.insert(0, REPO_ROOT)
+    # append (not insert at front) to avoid shadowing Python stdlib modules
+    sys.path.append(REPO_ROOT)
 
 import re
 import json
