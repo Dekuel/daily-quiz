@@ -1083,11 +1083,21 @@ def main():
             print(f"[{mode}] Politikfragen erzeugt (erste Runde): {len(politics)} / {POLITICS_TARGET}")
 
             # 2) Andere Kategorien erzeugen (ohne Politik)
+            # Exclude also English-only plugin names (e.g. 'politics', 'language')
+            def _german_exclude_set(plugins_map: Dict[str, Callable[..., Optional[dict]]]) -> set:
+                ex = {POLITICS_CATEGORY_NAME, PHYSICS_CATEGORY_NAME}
+                # if English-language plugin modules exist, don't include them in German generation
+                if "politics" in plugins_map:
+                    ex.add("politics")
+                if "language" in plugins_map:
+                    ex.add("language")
+                return ex
+
             others = generate_random_categories(
                 plugins=plugins,
                 k=target_others,
                 past_texts=past_texts,
-                exclude={POLITICS_CATEGORY_NAME,PHYSICS_CATEGORY_NAME},
+                exclude=_german_exclude_set(plugins),
                 mode=mode,
             )
 
@@ -1115,7 +1125,7 @@ def main():
                     plugins=plugins,
                     k=deficit,
                     past_texts=past_texts,
-                    exclude={POLITICS_CATEGORY_NAME,PHYSICS_CATEGORY_NAME},
+                    exclude=_german_exclude_set(plugins),
                     mode=mode,
                 )
 
