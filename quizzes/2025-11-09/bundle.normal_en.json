@@ -1,9 +1,79 @@
 {
   "date": "2025-11-09",
-  "generated_at": "2025-11-09T03:43:34Z",
+  "generated_at": "2025-11-09T08:38:24Z",
   "schema_version": 6,
   "mode": "normal",
   "questions": [
+    {
+      "category": "Sport",
+      "topic": "Sonstige",
+      "question": "Which sport is played with a racket and a small, hard ball that is hit over a net?",
+      "choices": [
+        "A: Tennis",
+        "B: Basketball",
+        "C: Soccer",
+        "D: Handball"
+      ],
+      "correct_answer": "A",
+      "explanation": "Tennis is played with a racket, hitting the ball over a net into the opponent's court. The other sports mentioned either do not use a racket or have different rules and equipment.",
+      "difficulty": 2
+    },
+    {
+      "category": "Language",
+      "topic": "Etymology",
+      "question": "Which of the following English words is a direct descendant of a Proto-Germanic word that underwent the Second Sound Shift?",
+      "choices": [
+        "A: father",
+        "B: mother",
+        "C: knight",
+        "D: church"
+      ],
+      "correct_answer": "D",
+      "explanation": "The word 'church' comes from the Proto-Germanic *kirkō, which underwent a shift from 'k' to 'kch' in the transition to Middle English. This makes it a clear example of the Second Sound Shift in action. The other options did not experience this transformation.",
+      "difficulty": 7
+    },
+    {
+      "category": "Essen und Trinken",
+      "topic": "Ernährung",
+      "question": "Which statement about freezing food is correct?",
+      "choices": [
+        "A: Frozen foods always have the same quality as fresh products.",
+        "B: The formation of crystals during freezing can affect the texture of food.",
+        "C: Frozen foods do not necessarily have to be consumed within six months.",
+        "D: Thawing food at room temperature is always safe."
+      ],
+      "correct_answer": "B",
+      "explanation": "When food freezes, ice can form in the shape of crystals, which can damage the cell structure of the food. This can affect the texture and quality, especially in sensitive foods like fruits and vegetables.",
+      "difficulty": 5
+    },
+    {
+      "category": "Natur",
+      "topic": "Tierwelt",
+      "question": "Which of the following animals is known for its ability to live in forests and mountains, adapting well to various habitats?",
+      "choices": [
+        "A: Dolphin",
+        "B: Penguin",
+        "C: Brown bear",
+        "D: Kangaroo"
+      ],
+      "correct_answer": "C",
+      "explanation": "The brown bear is a typical mammal that inhabits different environments such as forests and mountains. In contrast, penguins live in cold coastal regions, dolphins in the water, and kangaroos in Australian bushlands.",
+      "difficulty": 4
+    },
+    {
+      "category": "Kunst und Literatur",
+      "topic": "Zitate, Figuren & Allgemeinwissen",
+      "question": "Which animal is the main character in Aesop's fable 'The Fox and the Grapes'?",
+      "choices": [
+        "A: Wolf",
+        "B: Rabbit",
+        "C: Lion",
+        "D: Fox"
+      ],
+      "correct_answer": "D",
+      "explanation": "In the fable 'The Fox and the Grapes,' the fox tries to reach the unreachable grapes and eventually declares that they would not taste good anyway. This fable teaches us how people often devalue things they cannot attain.",
+      "difficulty": 1
+    },
     {
       "question": "Who is the current President of the United States?",
       "choices": [
@@ -16,86 +86,18 @@
       "category": "politics"
     },
     {
-      "category": "Language",
-      "topic": "Etymology",
-      "question": "Which of the following terms has undergone pejoration, shifting to a more negative connotation over time?",
-      "choices": [
-        "A: Knight",
-        "B: Scholar",
-        "C: Lady",
-        "D: Knave"
-      ],
-      "correct_answer": "D",
-      "explanation": "The term 'knave' originally meant a boy or a servant, but over time it has come to refer to a dishonest or untrustworthy man. This shift illustrates pejoration, where the term's meaning has deteriorated in a social context.",
-      "difficulty": 8
-    },
-    {
-      "category": "Essen und Trinken",
-      "topic": "Getränke",
-      "question": "Which of the following beers is traditionally brewed according to the German Beer Purity Law of 1516?",
-      "choices": [
-        "A: Radler",
-        "B: Helles",
-        "C: IPA",
-        "D: Stout"
-      ],
-      "correct_answer": "B",
-      "explanation": "Helles is a classic German beer brewed according to the Beer Purity Law, thus containing only water, malt, hops, and yeast. In contrast, IPAs and stouts are often not bound by the Beer Purity Law as they frequently use other ingredients and flavors.",
-      "difficulty": 4
-    },
-    {
       "category": "Wissenschaft",
-      "topic": "Chemie",
-      "question": "Which of the following elements is a noble gas?",
+      "topic": "Medizin",
+      "question": "What is the main organ responsible for gas exchange in the lungs?",
       "choices": [
-        "A: Nitrogen",
-        "B: Hydrogen",
-        "C: Oxygen",
-        "D: Helium"
-      ],
-      "correct_answer": "D",
-      "explanation": "Noble gases are chemically very inert and are usually found in nature in elemental form. Helium is an example of a noble gas, while the other gases mentioned have reactive properties.",
-      "difficulty": 3
-    },
-    {
-      "category": "Glaube & Religion",
-      "topic": "Monotheistische Religionen",
-      "question": "Which event in the New Testament is described as the moment when Jesus renews the relationship between God and humanity through his sacrifice?",
-      "choices": [
-        "A: The Resurrection",
-        "B: The Baptism of Jesus",
-        "C: The Last Supper",
-        "D: The Temptation in the Desert"
-      ],
-      "correct_answer": "C",
-      "explanation": "The Last Supper is a central biblical narrative in the New Testament where Jesus gives his disciples bread and wine as his body and blood, symbolizing the upcoming sacrifice for the sins of humanity. This narrative is often understood as the beginning of the new covenant between God and humanity.",
-      "difficulty": 6
-    },
-    {
-      "question": "Who is the current Chancellor of Germany?",
-      "choices": [
-        "A: Annalena Baerbock",
-        "B: Angela Merkel",
-        "C: Jens Spahn",
-        "D: Olaf Scholz"
-      ],
-      "correct_answer": "D",
-      "difficulty": 7,
-      "category": "politics"
-    },
-    {
-      "category": "Natur",
-      "topic": "Pflanzenwelt",
-      "question": "Which of the following plants is known for being used as an ornamental plant in many gardens and often has a striking bloom?",
-      "choices": [
-        "A: Horsetail",
-        "B: Roses",
-        "C: Dandelion",
-        "D: Nettle"
+        "A: Trachea",
+        "B: Alveoli",
+        "C: Bronchi",
+        "D: Diaphragm"
       ],
       "correct_answer": "B",
-      "explanation": "Roses are popular ornamental plants appreciated for their beautiful and fragrant flowers. They are commonly planted in gardens and have many different varieties with various colors and shapes.",
-      "difficulty": 3
+      "explanation": "The alveoli are small air sacs in the lungs that enable gas exchange. Here, oxygen is absorbed into the blood and carbon dioxide is released. The other options are also parts of the respiratory system but not the main sites of gas exchange.",
+      "difficulty": 1
     }
   ]
 }
