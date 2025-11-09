@@ -1,0 +1,168 @@
+{
+  "date": "2025-11-09",
+  "generated_at": "2025-11-09T03:43:47Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Definitionen & Rechenregeln von Tensoren",
+      "question": "What does the metric tensor describe in General Relativity?",
+      "choices": [
+        "A: The energy content of a system",
+        "B: The velocity of an object",
+        "C: The curvature of spacetime",
+        "D: The conservation of momentum"
+      ],
+      "correct_answer": "C",
+      "explanation": "The metric tensor is a fundamental tool in General Relativity that describes the geometry of spacetime, quantifying the curvature caused by mass and energy. This curvature influences the motion of objects and the propagation of light rays in spacetime.",
+      "difficulty": 8,
+      "subcategory": "Definitionen & Rechenregeln von Tensoren"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Plattenkondensator",
+      "question": "What is the main function of a parallel plate capacitor?",
+      "choices": [
+        "A: Conversion of electrical into thermal energy",
+        "B: Generation of magnetic fields",
+        "C: Storage of electrical energy",
+        "D: Increase in electrical conductivity"
+      ],
+      "correct_answer": "C",
+      "explanation": "A parallel plate capacitor stores electrical energy in an electric field generated between two conducting plates. This stored energy can be released when needed, making it an important component in many electrical circuits.",
+      "difficulty": 4,
+      "subcategory": "Plattenkondensator"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Helmholtzsche Wirbelsätze",
+      "question": "Which of the following sentences does not belong to Helmholtz's vortex theorems?",
+      "choices": [
+        "A: The third vortex theorem leads to the formulation of energy conservation principles in fluid dynamics.",
+        "B: The first vortex theorem states that every closed curve in a vector field creates a vortex structure.",
+        "C: The second vortex theorem describes the generation of vortices in incompressible fluids.",
+        "D: The fourth vortex theorem is a consequence of the Navier-Stokes equations."
+      ],
+      "correct_answer": "A",
+      "explanation": "The Helmholtz vortex theorems refer to the properties of vortex fields and their conservation in fluids. The third theorem, as formulated here, is not part of Helmholtz's vortex theorems and does not address the specific properties of vortices, but rather general energy principles in fluid dynamics.",
+      "difficulty": 9,
+      "subcategory": "Helmholtzsche Wirbelsätze"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "d’Alembert’sches Prinzip",
+      "question": "Which of the following concepts best describes d'Alembert's principle?",
+      "choices": [
+        "A: Accelerations are independent of the acting forces.",
+        "B: The equation of motion is the result of applying forces and inertial forces.",
+        "C: The velocity of a body remains constant as long as no external force acts.",
+        "D: Energy conservation is valid only in closed systems."
+      ],
+      "correct_answer": "B",
+      "explanation": "D'Alembert's principle formulates the equation of motion such that the sum of forces and inertial forces is zero. It is a fundamental concept in analytical mechanics that describes the relationship between forces and motions.",
+      "difficulty": 6,
+      "subcategory": "d’Alembert’sches Prinzip"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Brillouin-Zonen & Fermi-Flächen",
+      "question": "What does the Fermi surface describe in a metal?",
+      "choices": [
+        "A: The structure of magnetic domains in ferromagnetic materials.",
+        "B: The highest energy that electrons can occupy at T = 0 K.",
+        "C: The temperature at which a material loses its superconducting properties.",
+        "D: The area defining the Brillouin zone in reciprocal space."
+      ],
+      "correct_answer": "B",
+      "explanation": "The Fermi surface is the energetic boundary up to which electrons are occupied in the ground state of a metal, and it plays a crucial role in solid-state physics for understanding electrical properties. It is particularly important in describing the behavior of electrons in metals at low temperatures.",
+      "difficulty": 9,
+      "subcategory": "Brillouin-Zonen & Fermi-Flächen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Zwangsbedingungen & generalisierte Koordinaten",
+      "question": "Which of the following statements correctly describes the role of constraints in analytical mechanics?",
+      "choices": [
+        "A: Constraints can be bypassed by increasing the number of coordinates in the system.",
+        "B: Constraints reduce the number of degrees of freedom of a system and allow the use of generalized coordinates.",
+        "C: Constraints are only relevant in classical mechanics and play no role in analytical mechanics.",
+        "D: Constraints are irrelevant in analytical mechanics, as all systems are considered freely movable."
+      ],
+      "correct_answer": "B",
+      "explanation": "Constraints are limitations that define the possible movements of a system, thereby reducing the number of degrees of freedom. This allows the use of generalized coordinates, enabling a simplified analysis of dynamic systems.",
+      "difficulty": 9,
+      "subcategory": "Zwangsbedingungen & generalisierte Koordinaten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Lorentz-Kraft in Vierervektorform",
+      "question": "What does the Lorentz force in four-vector form describe in Relativity?",
+      "choices": [
+        "A: The structure of atoms and molecules.",
+        "B: The conservation of energy in isolated systems.",
+        "C: The gravitational interaction between two massive bodies.",
+        "D: The interaction between electric and magnetic fields."
+      ],
+      "correct_answer": "D",
+      "explanation": "The Lorentz force describes how a charged particle is influenced by an electric and magnetic field. It is a central concept in electrodynamics and is extended in Relativity through the four-vector formulation.",
+      "difficulty": 4,
+      "subcategory": "Lorentz-Kraft in Vierervektorform"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Brechungsindex und Absorption von Metallen",
+      "question": "Which factor most strongly influences the refractive index of a metal?",
+      "choices": [
+        "A: The color of the metal",
+        "B: The thickness of the metal",
+        "C: The electron density of the metal",
+        "D: The temperature of the metal"
+      ],
+      "correct_answer": "C",
+      "explanation": "The refractive index of a metal is highly dependent on the electron density, as it determines the interaction of light with the material. Higher electron density typically leads to a higher refractive index, while other factors like temperature or thickness have less influence.",
+      "difficulty": 7,
+      "subcategory": "Brechungsindex und Absorption von Metallen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Polarisationszustände von Licht",
+      "question": "Which of the following statements best describes the polarization state of light?",
+      "choices": [
+        "A: Polarized light oscillates in a specific plane.",
+        "B: Polarized light can only be generated by special glasses.",
+        "C: Polarized light is always monochromatic.",
+        "D: Polarized light always has a uniform distribution of colors."
+      ],
+      "correct_answer": "A",
+      "explanation": "The polarization state of light describes that the electric field vectors oscillate in a specific plane. In unpolarized light, these vectors oscillate in random directions, while polarized light has a defined orientation.",
+      "difficulty": 3,
+      "subcategory": "Polarisationszustände von Licht"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Statischer Druck in Flüssigkeiten",
+      "question": "How does the static pressure in a liquid change when the depth is doubled?",
+      "choices": [
+        "A: The pressure increases by a factor of three.",
+        "B: The pressure doubles.",
+        "C: The pressure remains the same.",
+        "D: The pressure decreases."
+      ],
+      "correct_answer": "B",
+      "explanation": "The static pressure in a liquid increases linearly with depth. This means that the pressure doubles when the depth is doubled, explained by the hydrostatic pressure formula: p = ρgh, where ρ is the density, g is the acceleration due to gravity, and h is the depth.",
+      "difficulty": 6,
+      "subcategory": "Statischer Druck in Flüssigkeiten"
+    }
+  ]
+}
