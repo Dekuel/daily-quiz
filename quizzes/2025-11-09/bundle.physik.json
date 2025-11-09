@@ -1,168 +1,168 @@
 {
   "date": "2025-11-09",
-  "generated_at": "2025-11-09T08:38:15Z",
+  "generated_at": "2025-11-09T08:47:13Z",
   "schema_version": 6,
   "mode": "physik",
   "questions": [
     {
       "category": "Physik",
-      "topic": "Statistische Mechanik",
-      "subtopic": "Ableitungen thermodynamischer Größen & Maxwell-Relationen",
-      "question": "Was beschreibt die Maxwell-Relation in der Thermodynamik?",
+      "topic": "Thermodynamik",
+      "subtopic": "Potentiale des idealen Gases",
+      "question": "Welcher Ausdruck beschreibt das thermodynamische Potential eines idealen Gases bei konstanter Temperatur und Volumen?",
       "choices": [
-        "A: Den Zusammenhang zwischen Druck und Volumen.",
-        "B: Den Zusammenhang zwischen Energie und Arbeit.",
-        "C: Den Zusammenhang zwischen Temperatur und Energie.",
-        "D: Den Zusammenhang zwischen Temperatur und Entropie."
-      ],
-      "correct_answer": "D",
-      "explanation": "Die Maxwell-Relationen geben mathematische Zusammenhänge zwischen verschiedenen thermodynamischen Größen wie Temperatur, Entropie, Druck und Volumen an. Sie sind fundamentale Werkzeuge zur Ableitung wichtiger thermodynamischer Eigenschaften aus den Zustandsgleichungen eines Systems.",
-      "difficulty": 1,
-      "subcategory": "Ableitungen thermodynamischer Größen & Maxwell-Relationen"
-    },
-    {
-      "category": "Physik",
-      "topic": "Optik",
-      "subtopic": "Interferenzen dünner Schichten",
-      "question": "Welche Bedingung muss erfüllt sein, damit bei der Interferenz von Licht an einer dünnen Schicht konstruktive Interferenz auftritt?",
-      "choices": [
-        "A: Der Wegunterschied zwischen den reflektierten Strahlen muss ein ganzzahliges Vielfaches der Wellenlänge sein.",
-        "B: Die Schichtdicke muss größer als die Wellenlänge des Lichts sein.",
-        "C: Die Lichtquelle muss monochromatisch sein.",
-        "D: Der Wegunterschied muss ein halbes Vielfaches der Wellenlänge betragen."
+        "A: Helmholtz-Freie Energie",
+        "B: Innere Energie",
+        "C: Gibbs-Freie Energie",
+        "D: Enthalpie"
       ],
       "correct_answer": "A",
-      "explanation": "Für konstruktive Interferenz bei der Reflexion an dünnen Schichten ist es notwendig, dass der Wegunterschied zwischen den reflektierten Lichtstrahlen ein ganzzahliges Vielfaches der Wellenlänge beträgt. Diese Bedingung stellt sicher, dass die Wellen sich in Phase überlagern und sich verstärken.",
-      "difficulty": 6,
-      "subcategory": "Interferenzen dünner Schichten"
-    },
-    {
-      "category": "Physik",
-      "topic": "Statistische Mechanik",
-      "subtopic": "Massenwirkungsgesetz (chem. Gleichgewicht)",
-      "question": "Was beschreibt das Massenwirkungsgesetz in einer chemischen Reaktion?",
-      "choices": [
-        "A: Die Temperaturabhängigkeit von chemischen Reaktionen.",
-        "B: Die totale Energie einer chemischen Reaktion.",
-        "C: Die Geschwindigkeit, mit der Reaktionen ablaufen.",
-        "D: Das Verhältnis der Konzentrationen der Produkte zu den Reaktanten im Gleichgewicht."
-      ],
-      "correct_answer": "D",
-      "explanation": "Das Massenwirkungsgesetz besagt, dass das Verhältnis der Konzentrationen der Produkte zu den Reaktanten konstant ist, wenn ein chemisches Gleichgewicht erreicht wird. Diese Konstante hängt nur von der Temperatur ab und ist ein fundamentales Konzept in der Chemie.",
-      "difficulty": 3,
-      "subcategory": "Massenwirkungsgesetz (chem. Gleichgewicht)"
-    },
-    {
-      "category": "Physik",
-      "topic": "Statistische Mechanik",
-      "subtopic": "Gesetz korrespondierender Zustände & kritischer Punkt",
-      "question": "Welches Gesetz beschreibt das Verhalten von Substanzen nahe dem kritischen Punkt in der statistischen Mechanik?",
-      "choices": [
-        "A: Charles' Gesetz",
-        "B: Gesetz der korrespondierenden Zustände",
-        "C: Avogadro's Gesetz",
-        "D: Boyle's Gesetz"
-      ],
-      "correct_answer": "B",
-      "explanation": "Das Gesetz der korrespondierenden Zustände besagt, dass verschiedene Substanzen unter denselben reduzierten Bedingungen ähnliches Verhalten zeigen. Dies ist besonders relevant, wenn man sich dem kritischen Punkt einer Substanz nähert, wo die Unterscheidung zwischen Flüssigkeit und Dampf verschwindet.",
-      "difficulty": 4,
-      "subcategory": "Gesetz korrespondierender Zustände & kritischer Punkt"
-    },
-    {
-      "category": "Physik",
-      "topic": "Optik",
-      "subtopic": "Brechungsindex (Dispersion)",
-      "question": "Was beschreibt der Brechungsindex eines Materials im Kontext der Lichtbrechung?",
-      "choices": [
-        "A: Die Farbe des Lichts, das durch das Material hindurchgeht.",
-        "B: Die Energie des Lichts, das durch das Material hindurchgeht.",
-        "C: Das Verhältnis der Lichtgeschwindigkeit im Vakuum zur Lichtgeschwindigkeit im Material.",
-        "D: Die Temperatur des Materials bei Lichtdurchgang."
-      ],
-      "correct_answer": "C",
-      "explanation": "Der Brechungsindex ist ein Maß dafür, wie stark das Licht beim Eintritt in ein Material gebrochen wird. Er definiert das Verhältnis der Lichtgeschwindigkeit im Vakuum zur Lichtgeschwindigkeit im Material. Eine höhere Brechungsindex bedeutet eine stärkere Ablenkung des Lichts.",
-      "difficulty": 4,
-      "subcategory": "Brechungsindex (Dispersion)"
-    },
-    {
-      "category": "Physik",
-      "topic": "Thermodynamik",
-      "subtopic": "Gibb’sche Phasenregel",
-      "question": "Welche der folgenden Aussagen beschreibt korrekt die Gibb’sche Phasenregel für ein System mit k Komponenten und p Phasen?",
-      "choices": [
-        "A: F = k + p",
-        "B: F = k - p",
-        "C: F = k + p - 2",
-        "D: F = k - p + 2"
-      ],
-      "correct_answer": "D",
-      "explanation": "Die Gibb’sche Phasenregel gibt an, dass die Anzahl der Freiheitsgrade (F) eines thermodynamischen Systems durch die Beziehung F = k - p + 2 bestimmt wird. Hierbei ist k die Anzahl der Komponenten und p die Anzahl der Phasen im Gleichgewicht.",
+      "explanation": "Die Helmholtz-Freie Energie beschreibt das Potential eines Systems bei konstanter Temperatur und Volumen und ist besonders relevant für ideale Gase. Sie gibt Auskunft darüber, wie viel Arbeit ein System bei konstanten Bedingungen verrichten kann und ist daher ein wichtiges Konzept in der Thermodynamik.",
       "difficulty": 8,
-      "subcategory": "Gibb’sche Phasenregel"
-    },
-    {
-      "category": "Physik",
-      "topic": "Thermodynamik",
-      "subtopic": "Absolute thermodynamische Temperaturskala",
-      "question": "Was ist die absolute Temperaturskala, die in der Thermodynamik verwendet wird?",
-      "choices": [
-        "A: Celsius",
-        "B: Kelvin",
-        "C: Fahrenheit",
-        "D: Rankine"
-      ],
-      "correct_answer": "B",
-      "explanation": "Die absolute Temperaturskala, die in der Thermodynamik verwendet wird, ist die Kelvin-Skala. Sie beginnt bei 0 K, dem absoluten Nullpunkt, wo alle thermischen Bewegungen zum Stillstand kommen. Celsius und Fahrenheit sind relative Skalen, die nicht bei null thermischer Bewegung beginnen.",
-      "difficulty": 5,
-      "subcategory": "Absolute thermodynamische Temperaturskala"
-    },
-    {
-      "category": "Physik",
-      "topic": "Relativitätstheorie",
-      "subtopic": "Kovariante Formulierung der Elektrodynamik",
-      "question": "Welche Aussage zur kovarianten Formulierung der Elektrodynamik ist korrekt?",
-      "choices": [
-        "A: Die Maxwell-Gleichungen sind in allen Inertialsystemen identisch.",
-        "B: Elektromagnetische Felder können nicht relativistisch transformiert werden.",
-        "C: Die Lichtgeschwindigkeit variiert je nach Beobachter.",
-        "D: Elektrische und magnetische Felder sind unabhängig von der Bewegung des Beobachters."
-      ],
-      "correct_answer": "A",
-      "explanation": "Die kovariante Formulierung der Elektrodynamik zeigt, dass die Maxwell-Gleichungen in jedem Inertialsystem die gleiche Form haben, was bedeutet, dass sie in der Relativitätstheorie invariant sind. Dies ist ein zentrales Konzept der speziellen Relativitätstheorie, das die Gleichheit der Lichtgeschwindigkeit für alle Beobachter betont.",
-      "difficulty": 6,
-      "subcategory": "Kovariante Formulierung der Elektrodynamik"
-    },
-    {
-      "category": "Physik",
-      "topic": "Statistische Mechanik",
-      "subtopic": "Legendre-Transformation",
-      "question": "Was ist das Hauptziel der Legendre-Transformation in der statistischen Mechanik?",
-      "choices": [
-        "A: Um die Entropie eines Systems zu minimieren.",
-        "B: Um von einer Funktion zu ihrer konjugierten Variablen zu wechseln.",
-        "C: Um die Energie eines Systems konstant zu halten.",
-        "D: Um die Temperatur eines Systems zu berechnen."
-      ],
-      "correct_answer": "B",
-      "explanation": "Die Legendre-Transformation wird verwendet, um von einer Funktion einer Variablen zu einer Funktion ihrer konjugierten Variablen zu wechseln, was in der Thermodynamik und statistischen Mechanik häufig benötigt wird. Dies ermöglicht eine einfachere Analyse von Zustandsgrößen und deren Beziehungen.",
-      "difficulty": 3,
-      "subcategory": "Legendre-Transformation"
+      "subcategory": "Potentiale des idealen Gases"
     },
     {
       "category": "Physik",
       "topic": "Festkörperphysik",
-      "subtopic": "Versetzungen",
-      "question": "Was sind Versetzungen in Festkörpern?",
+      "subtopic": "BCS-Grundzustand",
+      "question": "Was beschreibt der BCS-Grundzustand in der Festkörperphysik?",
       "choices": [
-        "A: Chemische Reaktionen in Metallen.",
-        "B: Temperaturänderungen in einem Material.",
-        "C: Elektronische Eigenschaften von Halbleitern.",
-        "D: Lineare Defekte, die die Kristallstruktur beeinflussen."
+        "A: Die Bewegungen von Atomen in einem Kristallgitter.",
+        "B: Die Entstehung von Magnetfeldern in Metallen.",
+        "C: Die Absorption von Photonen in Halbleitern.",
+        "D: Die Paarbildung von Elektronen in supraleitenden Materialien."
       ],
       "correct_answer": "D",
-      "explanation": "Versetzungen sind lineare Defekte in der Kristallstruktur von Festkörpern, die deren mechanische Eigenschaften beeinflussen können. Sie spielen eine entscheidende Rolle bei der Verformung und Festigkeit von Materialien.",
-      "difficulty": 3,
-      "subcategory": "Versetzungen"
+      "explanation": "Der BCS-Grundzustand beschreibt das Phänomen der Cooper-Paarbildung, bei dem Elektronen in bestimmten Materialien bei tiefen Temperaturen Paare bilden und somit zu supraleitenden Eigenschaften führen. Diese Theorie erklärt, wie und warum Supraleiter im Grundzustand elektrischen Strom ohne Widerstand leiten können.",
+      "difficulty": 7,
+      "subcategory": "BCS-Grundzustand"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Van-der-Waals-Bindung",
+      "question": "Welche der folgenden Aussagen beschreibt die Van-der-Waals-Bindung am besten?",
+      "choices": [
+        "A: Sie ist eine Form der Wasserstoffbindung zwischen Wasserstoff und Sauerstoff.",
+        "B: Sie ist eine starke ionische Bindung zwischen Atomen.",
+        "C: Sie ist eine schwache Wechselwirkung zwischen Molekülen, die durch temporäre Dipole entsteht.",
+        "D: Sie entsteht durch die Überlappung von Atomorbitalen."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Van-der-Waals-Bindung ist eine schwache Wechselwirkung, die aus temporären Dipolen resultiert, die durch die Bewegung von Elektronen in Molekülen entstehen. Sie spielt eine wichtige Rolle in der Chemie und der Physik von Molekülen und Festkörpern.",
+      "difficulty": 4,
+      "subcategory": "Van-der-Waals-Bindung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Ideales Fermi-Gas: Grundzustand & starke Entartung",
+      "question": "Was beschreibt den Grundzustand eines idealen Fermi-Gases bei absoluter Nulltemperatur?",
+      "choices": [
+        "A: Alle Fermionen befinden sich im niedrigsten Energiezustand.",
+        "B: Alle Fermionen sind gleichmäßig über alle Energiezustände verteilt.",
+        "C: Es gibt keine Einschränkungen für die Besetzung von Energiezuständen.",
+        "D: Die Fermionen befinden sich nur in den höchsten Energiezuständen."
+      ],
+      "correct_answer": "A",
+      "explanation": "Im Grundzustand eines idealen Fermi-Gases bei 0 Kelvin besetzen die Fermionen die niedrigsten verfügbaren Energiezustände. Dies führt zu einer maximalen Entartung, da Fermionen aufgrund des Pauli-Prinzips nicht denselben Zustand einnehmen können.",
+      "difficulty": 5,
+      "subcategory": "Ideales Fermi-Gas: Grundzustand & starke Entartung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Korrespondenzregel (Operatorersatz)",
+      "question": "Was besagt die Korrespondenzregel in der Quantenmechanik?",
+      "choices": [
+        "A: Die quantenmechanischen Operatoren sind immer kommutativ.",
+        "B: Quantenmechanische Effekte sind immer nicht messbar.",
+        "C: Die Energie eines Teilchens ist unabhängig von seinem Impuls.",
+        "D: In der klassischen Mechanik können die gleichen physikalischen Größen wie in der Quantenmechanik verwendet werden."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Korrespondenzregel besagt, dass die Ergebnisse quantenmechanischer Berechnungen in der klassischen Grenze mit den klassischen physikalischen Größen übereinstimmen. Das bedeutet, dass in bestimmten Grenzfällen die klassischen und quantenmechanischen Beschreibungen übereinstimmen sollten.",
+      "difficulty": 5,
+      "subcategory": "Korrespondenzregel (Operatorersatz)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Wärmekapazitäten (C_V, C_p, Beziehungen)",
+      "question": "Welche der folgenden Aussagen beschreibt die Beziehung zwischen der molaren Wärmekapazität bei konstantem Volumen (C_V) und der molaren Wärmekapazität bei konstantem Druck (C_p) für ideale Gase?",
+      "choices": [
+        "A: C_p = 2C_V",
+        "B: C_p = C_V + R",
+        "C: C_p = C_V - R",
+        "D: C_p = C_V"
+      ],
+      "correct_answer": "B",
+      "explanation": "Für ideale Gase gilt die Beziehung C_p = C_V + R, wobei R die universelle Gaskonstante ist. Diese Beziehung resultiert aus den unterschiedlichen Bedingungen, unter denen die Wärmekapazitäten gemessen werden: konstantem Volumen vs. konstantem Druck.",
+      "difficulty": 6,
+      "subcategory": "Wärmekapazitäten (C_V, C_p, Beziehungen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Unbestimmtheitsrelation(en)",
+      "question": "Was besagt die Heisenbergsche Unbestimmtheitsrelation?",
+      "choices": [
+        "A: Man kann den Ort und den Impuls eines Teilchens nicht gleichzeitig beliebig genau bestimmen.",
+        "B: Licht kann nur als Teilchen betrachtet werden.",
+        "C: Die Geschwindigkeit eines Objekts kann niemals kleiner als null sein.",
+        "D: Der Energieerhaltungssatz ist immer gültig."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Heisenbergsche Unbestimmtheitsrelation besagt, dass es eine grundlegende Grenze für die gleichzeitige Messung von Ort und Impuls eines Teilchens gibt. Je genauer der Ort bestimmt wird, desto ungenauer wird der Impuls und umgekehrt.",
+      "difficulty": 2,
+      "subcategory": "Unbestimmtheitsrelation(en)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Resonanzen (Breit‑Wigner)",
+      "question": "Was beschreibt die Breit-Wigner-Formel in der Teilchenphysik?",
+      "choices": [
+        "A: Die Energieverbreiterung eines instabilen Teilchens.",
+        "B: Die Geschwindigkeit von Teilchen in einem Magnetfeld.",
+        "C: Die Lebensdauer eines Teilchens in einem Vakuum.",
+        "D: Die Masse eines stabilen Teilchens."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Breit-Wigner-Formel beschreibt die Verbreiterung der Resonanzlinie eines instabilen Teilchens in Bezug auf seine Energie und Lebensdauer. Sie ist ein wichtiges Werkzeug zur Analyse von Zerfall und Wechselwirkungen von Teilchen.",
+      "difficulty": 5,
+      "subcategory": "Resonanzen (Breit‑Wigner)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Erster & Zweiter Hauptsatz (reversibel/irreversibel)",
+      "question": "Welcher der folgenden Prozesse ist gemäß dem Zweiten Hauptsatz der Thermodynamik irreversibel?",
+      "choices": [
+        "A: Ein idealer Gaszustand, der sich ohne Temperaturänderung ausdehnt.",
+        "B: Der Wärmeübergang von einem heißeren Körper zu einem kälteren Körper.",
+        "C: Die spontane Mischung von zwei Gasen.",
+        "D: Die Kompression eines Gases bei konstanter Temperatur."
+      ],
+      "correct_answer": "C",
+      "explanation": "Der Zweite Hauptsatz der Thermodynamik besagt, dass Prozesse, die zur Erhöhung der Entropie führen, irreversibel sind. Die spontane Mischung von zwei Gasen führt zu einer Erhöhung der Entropie und ist somit ein irreversibler Prozess.",
+      "difficulty": 4,
+      "subcategory": "Erster & Zweiter Hauptsatz (reversibel/irreversibel)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Laminar: parallele Wände",
+      "question": "Welche Aussage beschreibt am besten das Verhalten einer laminaren Strömung zwischen zwei parallelen Wänden?",
+      "choices": [
+        "A: Die Geschwindigkeit des Fluids bleibt konstant über die gesamte Schichtdicke.",
+        "B: Die Strömung ist gleichmäßig verteilt und hat eine parabolische Geschwindigkeitsprofil.",
+        "C: Der Druckunterschied zwischen den Wänden ist konstant und unabhängig von der Strömungsgeschwindigkeit.",
+        "D: Die Strömung verursacht Turbulenzen, die die Energieverluste erhöhen."
+      ],
+      "correct_answer": "B",
+      "explanation": "In einer laminaren Strömung zwischen parallelen Wänden zeigt das Geschwindigkeitsprofil typischerweise eine parabolische Form, wobei die Geschwindigkeit in der Mitte am höchsten ist und an den Wänden aufgrund der Reibung null ist. Diese Strömung ist stabil und weist keine Turbulenzen auf.",
+      "difficulty": 9,
+      "subcategory": "Laminar: parallele Wände"
     }
   ]
 }

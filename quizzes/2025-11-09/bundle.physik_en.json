@@ -1,168 +1,168 @@
 {
   "date": "2025-11-09",
-  "generated_at": "2025-11-09T08:38:41Z",
+  "generated_at": "2025-11-09T08:47:39Z",
   "schema_version": 6,
   "mode": "physik",
   "questions": [
     {
       "category": "Physik",
-      "topic": "Statistische Mechanik",
-      "subtopic": "Ableitungen thermodynamischer Größen & Maxwell-Relationen",
-      "question": "What does the Maxwell relation describe in thermodynamics?",
+      "topic": "Thermodynamik",
+      "subtopic": "Potentiale des idealen Gases",
+      "question": "Which term describes the thermodynamic potential of an ideal gas at constant temperature and volume?",
       "choices": [
-        "A: The relationship between pressure and volume.",
-        "B: The relationship between energy and work.",
-        "C: The relationship between temperature and energy.",
-        "D: The relationship between temperature and entropy."
-      ],
-      "correct_answer": "D",
-      "explanation": "The Maxwell relations provide mathematical relationships between different thermodynamic quantities such as temperature, entropy, pressure, and volume. They are fundamental tools for deriving important thermodynamic properties from the equations of state of a system.",
-      "difficulty": 1,
-      "subcategory": "Ableitungen thermodynamischer Größen & Maxwell-Relationen"
-    },
-    {
-      "category": "Physik",
-      "topic": "Optik",
-      "subtopic": "Interferenzen dünner Schichten",
-      "question": "What condition must be met for constructive interference to occur in the interference of light at a thin film?",
-      "choices": [
-        "A: The path difference between the reflected beams must be an integer multiple of the wavelength.",
-        "B: The thickness of the film must be greater than the wavelength of light.",
-        "C: The light source must be monochromatic.",
-        "D: The path difference must be half a multiple of the wavelength."
+        "A: Helmholtz free energy",
+        "B: Internal energy",
+        "C: Gibbs free energy",
+        "D: Enthalpy"
       ],
       "correct_answer": "A",
-      "explanation": "For constructive interference in the reflection at thin films, it is necessary that the path difference between the reflected light beams is an integer multiple of the wavelength. This condition ensures that the waves overlap in phase and reinforce each other.",
-      "difficulty": 6,
-      "subcategory": "Interferenzen dünner Schichten"
-    },
-    {
-      "category": "Physik",
-      "topic": "Statistische Mechanik",
-      "subtopic": "Massenwirkungsgesetz (chem. Gleichgewicht)",
-      "question": "What does the law of mass action describe in a chemical reaction?",
-      "choices": [
-        "A: The temperature dependence of chemical reactions.",
-        "B: The total energy of a chemical reaction.",
-        "C: The rate at which reactions occur.",
-        "D: The ratio of the concentrations of the products to the reactants at equilibrium."
-      ],
-      "correct_answer": "D",
-      "explanation": "The law of mass action states that the ratio of the concentrations of the products to the reactants is constant when a chemical equilibrium is reached. This constant depends only on the temperature and is a fundamental concept in chemistry.",
-      "difficulty": 3,
-      "subcategory": "Massenwirkungsgesetz (chem. Gleichgewicht)"
-    },
-    {
-      "category": "Physik",
-      "topic": "Statistische Mechanik",
-      "subtopic": "Gesetz korrespondierender Zustände & kritischer Punkt",
-      "question": "Which law describes the behavior of substances near the critical point in statistical mechanics?",
-      "choices": [
-        "A: Charles' Law",
-        "B: Law of corresponding states",
-        "C: Avogadro's Law",
-        "D: Boyle's Law"
-      ],
-      "correct_answer": "B",
-      "explanation": "The law of corresponding states states that different substances exhibit similar behavior under the same reduced conditions. This is particularly relevant when approaching the critical point of a substance, where the distinction between liquid and vapor disappears.",
-      "difficulty": 4,
-      "subcategory": "Gesetz korrespondierender Zustände & kritischer Punkt"
-    },
-    {
-      "category": "Physik",
-      "topic": "Optik",
-      "subtopic": "Brechungsindex (Dispersion)",
-      "question": "What does the refractive index of a material describe in the context of light refraction?",
-      "choices": [
-        "A: The color of light passing through the material.",
-        "B: The energy of light passing through the material.",
-        "C: The ratio of the speed of light in a vacuum to the speed of light in the material.",
-        "D: The temperature of the material during light passage."
-      ],
-      "correct_answer": "C",
-      "explanation": "The refractive index is a measure of how much light is bent when entering a material. It defines the ratio of the speed of light in a vacuum to the speed of light in the material. A higher refractive index means a stronger deviation of light.",
-      "difficulty": 4,
-      "subcategory": "Brechungsindex (Dispersion)"
-    },
-    {
-      "category": "Physik",
-      "topic": "Thermodynamik",
-      "subtopic": "Gibb’sche Phasenregel",
-      "question": "Which of the following statements correctly describes Gibbs' phase rule for a system with k components and p phases?",
-      "choices": [
-        "A: F = k + p",
-        "B: F = k - p",
-        "C: F = k + p - 2",
-        "D: F = k - p + 2"
-      ],
-      "correct_answer": "D",
-      "explanation": "Gibbs' phase rule states that the number of degrees of freedom (F) of a thermodynamic system is determined by the relationship F = k - p + 2. Here, k is the number of components and p is the number of phases in equilibrium.",
+      "explanation": "The Helmholtz free energy describes the potential of a system at constant temperature and volume and is particularly relevant for ideal gases. It provides information on how much work a system can perform under constant conditions and is therefore an important concept in thermodynamics.",
       "difficulty": 8,
-      "subcategory": "Gibb’sche Phasenregel"
-    },
-    {
-      "category": "Physik",
-      "topic": "Thermodynamik",
-      "subtopic": "Absolute thermodynamische Temperaturskala",
-      "question": "What is the absolute temperature scale used in thermodynamics?",
-      "choices": [
-        "A: Celsius",
-        "B: Kelvin",
-        "C: Fahrenheit",
-        "D: Rankine"
-      ],
-      "correct_answer": "B",
-      "explanation": "The absolute temperature scale used in thermodynamics is the Kelvin scale. It starts at 0 K, the absolute zero point where all thermal motions come to a standstill. Celsius and Fahrenheit are relative scales that do not start at zero thermal motion.",
-      "difficulty": 5,
-      "subcategory": "Absolute thermodynamische Temperaturskala"
-    },
-    {
-      "category": "Physik",
-      "topic": "Relativitätstheorie",
-      "subtopic": "Kovariante Formulierung der Elektrodynamik",
-      "question": "Which statement about the covariant formulation of electrodynamics is correct?",
-      "choices": [
-        "A: The Maxwell equations are identical in all inertial systems.",
-        "B: Electromagnetic fields cannot be relativistically transformed.",
-        "C: The speed of light varies depending on the observer.",
-        "D: Electric and magnetic fields are independent of the observer's motion."
-      ],
-      "correct_answer": "A",
-      "explanation": "The covariant formulation of electrodynamics shows that the Maxwell equations have the same form in every inertial system, meaning they are invariant in relativity theory. This is a central concept of special relativity theory that emphasizes the equality of the speed of light for all observers.",
-      "difficulty": 6,
-      "subcategory": "Kovariante Formulierung der Elektrodynamik"
-    },
-    {
-      "category": "Physik",
-      "topic": "Statistische Mechanik",
-      "subtopic": "Legendre-Transformation",
-      "question": "What is the main goal of the Legendre transformation in statistical mechanics?",
-      "choices": [
-        "A: To minimize the entropy of a system.",
-        "B: To switch from a function to its conjugate variable.",
-        "C: To keep the energy of a system constant.",
-        "D: To calculate the temperature of a system."
-      ],
-      "correct_answer": "B",
-      "explanation": "The Legendre transformation is used to switch from a function of one variable to a function of its conjugate variables, which is often needed in thermodynamics and statistical mechanics. This allows for a simpler analysis of state variables and their relationships.",
-      "difficulty": 3,
-      "subcategory": "Legendre-Transformation"
+      "subcategory": "Potentiale des idealen Gases"
     },
     {
       "category": "Physik",
       "topic": "Festkörperphysik",
-      "subtopic": "Versetzungen",
-      "question": "What are dislocations in solids?",
+      "subtopic": "BCS-Grundzustand",
+      "question": "What does the BCS ground state describe in solid-state physics?",
       "choices": [
-        "A: Chemical reactions in metals.",
-        "B: Temperature changes in a material.",
-        "C: Electronic properties of semiconductors.",
-        "D: Linear defects that influence the crystal structure."
+        "A: The movements of atoms in a crystal lattice.",
+        "B: The generation of magnetic fields in metals.",
+        "C: The absorption of photons in semiconductors.",
+        "D: The pairing of electrons in superconducting materials."
       ],
       "correct_answer": "D",
-      "explanation": "Dislocations are linear defects in the crystal structure of solids that can influence their mechanical properties. They play a crucial role in the deformation and strength of materials.",
-      "difficulty": 3,
-      "subcategory": "Versetzungen"
+      "explanation": "The BCS ground state describes the phenomenon of Cooper pair formation, where electrons in certain materials form pairs at low temperatures, leading to superconducting properties. This theory explains how and why superconductors can conduct electric current without resistance in the ground state.",
+      "difficulty": 7,
+      "subcategory": "BCS-Grundzustand"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Van-der-Waals-Bindung",
+      "question": "Which of the following statements best describes the van der Waals bond?",
+      "choices": [
+        "A: It is a form of hydrogen bonding between hydrogen and oxygen.",
+        "B: It is a strong ionic bond between atoms.",
+        "C: It is a weak interaction between molecules arising from temporary dipoles.",
+        "D: It arises from the overlap of atomic orbitals."
+      ],
+      "correct_answer": "C",
+      "explanation": "The van der Waals bond is a weak interaction resulting from temporary dipoles arising from electron movements in molecules. It plays a significant role in the chemistry and physics of molecules and solids.",
+      "difficulty": 4,
+      "subcategory": "Van-der-Waals-Bindung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Ideales Fermi-Gas: Grundzustand & starke Entartung",
+      "question": "What describes the ground state of an ideal Fermi gas at absolute zero temperature?",
+      "choices": [
+        "A: All fermions are in the lowest energy state.",
+        "B: All fermions are evenly distributed across all energy states.",
+        "C: There are no restrictions on the occupation of energy states.",
+        "D: Fermions are only in the highest energy states."
+      ],
+      "correct_answer": "A",
+      "explanation": "In the ground state of an ideal Fermi gas at 0 Kelvin, fermions occupy the lowest available energy states, leading to maximum degeneracy as fermions cannot occupy the same state due to the Pauli exclusion principle.",
+      "difficulty": 5,
+      "subcategory": "Ideales Fermi-Gas: Grundzustand & starke Entartung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Korrespondenzregel (Operatorersatz)",
+      "question": "What does the correspondence principle state in quantum mechanics?",
+      "choices": [
+        "A: Quantum mechanical operators always commute.",
+        "B: Quantum mechanical effects are always unmeasurable.",
+        "C: The energy of a particle is independent of its momentum.",
+        "D: Classical mechanics can use the same physical quantities as quantum mechanics."
+      ],
+      "correct_answer": "D",
+      "explanation": "The correspondence principle states that the results of quantum mechanical calculations should match classical physical quantities in the classical limit. This implies that classical and quantum mechanical descriptions should coincide in certain limiting cases.",
+      "difficulty": 5,
+      "subcategory": "Korrespondenzregel (Operatorersatz)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Wärmekapazitäten (C_V, C_p, Beziehungen)",
+      "question": "Which of the following statements describes the relationship between molar heat capacity at constant volume (C_V) and molar heat capacity at constant pressure (C_p) for ideal gases?",
+      "choices": [
+        "A: C_p = 2C_V",
+        "B: C_p = C_V + R",
+        "C: C_p = C_V - R",
+        "D: C_p = C_V"
+      ],
+      "correct_answer": "B",
+      "explanation": "For ideal gases, the relationship is C_p = C_V + R, where R is the universal gas constant. This relationship arises from the different conditions under which heat capacities are measured: constant volume vs. constant pressure.",
+      "difficulty": 6,
+      "subcategory": "Wärmekapazitäten (C_V, C_p, Beziehungen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Unbestimmtheitsrelation(en)",
+      "question": "What does the Heisenberg Uncertainty Principle state?",
+      "choices": [
+        "A: One cannot simultaneously precisely determine the position and momentum of a particle.",
+        "B: Light can only be considered as particles.",
+        "C: The velocity of an object can never be less than zero.",
+        "D: The conservation of energy is always valid."
+      ],
+      "correct_answer": "A",
+      "explanation": "The Heisenberg Uncertainty Principle states that there is a fundamental limit to the simultaneous measurement of a particle's position and momentum. The more precisely one property is measured, the less precisely the other can be known, and vice versa.",
+      "difficulty": 2,
+      "subcategory": "Unbestimmtheitsrelation(en)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Resonanzen (Breit‑Wigner)",
+      "question": "What does the Breit-Wigner formula describe in particle physics?",
+      "choices": [
+        "A: The energy broadening of an unstable particle.",
+        "B: The speed of particles in a magnetic field.",
+        "C: The lifetime of a particle in a vacuum.",
+        "D: The mass of a stable particle."
+      ],
+      "correct_answer": "A",
+      "explanation": "The Breit-Wigner formula describes the broadening of the resonance line of an unstable particle in terms of its energy and lifetime. It is an important tool for analyzing particle decay and interactions.",
+      "difficulty": 5,
+      "subcategory": "Resonanzen (Breit‑Wigner)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Erster & Zweiter Hauptsatz (reversibel/irreversibel)",
+      "question": "Which of the following processes is irreversible according to the Second Law of Thermodynamics?",
+      "choices": [
+        "A: An ideal gas state expanding without a change in temperature.",
+        "B: Heat transfer from a hotter body to a colder body.",
+        "C: The spontaneous mixing of two gases.",
+        "D: The compression of a gas at constant temperature."
+      ],
+      "correct_answer": "C",
+      "explanation": "The Second Law of Thermodynamics states that processes leading to an increase in entropy are irreversible. The spontaneous mixing of two gases results in an increase in entropy and is thus an irreversible process.",
+      "difficulty": 4,
+      "subcategory": "Erster & Zweiter Hauptsatz (reversibel/irreversibel)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Laminar: parallele Wände",
+      "question": "Which statement best describes the behavior of laminar flow between two parallel walls?",
+      "choices": [
+        "A: The fluid velocity remains constant across the entire layer thickness.",
+        "B: The flow is evenly distributed and has a parabolic velocity profile.",
+        "C: The pressure difference between the walls is constant and independent of the flow velocity.",
+        "D: The flow induces turbulence, increasing energy losses."
+      ],
+      "correct_answer": "B",
+      "explanation": "In laminar flow between parallel walls, the velocity profile typically exhibits a parabolic shape, with the velocity highest in the middle and zero at the walls due to friction. This flow is stable and devoid of turbulence.",
+      "difficulty": 9,
+      "subcategory": "Laminar: parallele Wände"
     }
   ]
 }
