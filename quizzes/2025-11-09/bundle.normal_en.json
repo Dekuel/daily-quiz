@@ -1,100 +1,105 @@
 {
   "date": "2025-11-09",
-  "generated_at": "2025-11-09T03:43:34Z",
+  "generated_at": "2025-11-09T08:47:23Z",
   "schema_version": 6,
   "mode": "normal",
   "questions": [
     {
-      "question": "Who is the current President of the United States?",
+      "category": "Natur",
+      "topic": "Tierwelt",
+      "question": "What describes territorial behavior in many songbirds?",
       "choices": [
-        "A. Joe Biden",
-        "B. Donald Trump",
-        "C. Barack Obama"
+        "A: Songbirds do not have specific breeding times and can breed throughout the year.",
+        "B: Songbirds use song to demarcate their territory and warn other conspecifics.",
+        "C: Songbirds are usually solitary and do not live in groups.",
+        "D: Songbirds prefer to nest in urban areas without natural predators."
       ],
-      "correct_answer": "A",
-      "difficulty": 1,
-      "category": "politics"
-    },
-    {
-      "category": "Language",
-      "topic": "Etymology",
-      "question": "Which of the following terms has undergone pejoration, shifting to a more negative connotation over time?",
-      "choices": [
-        "A: Knight",
-        "B: Scholar",
-        "C: Lady",
-        "D: Knave"
-      ],
-      "correct_answer": "D",
-      "explanation": "The term 'knave' originally meant a boy or a servant, but over time it has come to refer to a dishonest or untrustworthy man. This shift illustrates pejoration, where the term's meaning has deteriorated in a social context.",
-      "difficulty": 8
+      "correct_answer": "B",
+      "explanation": "Territorial behavior in songbirds is often associated with the use of song to mark their territory and keep conspecifics away. This behavior plays an important role in reproductive behavior and resource distribution.",
+      "difficulty": 6
     },
     {
       "category": "Essen und Trinken",
-      "topic": "Getränke",
-      "question": "Which of the following beers is traditionally brewed according to the German Beer Purity Law of 1516?",
+      "topic": "Küche international",
+      "question": "Which of these products carries the 'DOP' protection seal, which stands for protected designation of origin in Italy?",
       "choices": [
-        "A: Radler",
-        "B: Helles",
-        "C: IPA",
-        "D: Stout"
+        "A: Feta",
+        "B: Parmigiano Reggiano",
+        "C: Brie de Meaux",
+        "D: Gouda"
       ],
       "correct_answer": "B",
-      "explanation": "Helles is a classic German beer brewed according to the Beer Purity Law, thus containing only water, malt, hops, and yeast. In contrast, IPAs and stouts are often not bound by the Beer Purity Law as they frequently use other ingredients and flavors.",
+      "explanation": "The 'DOP' protection seal stands for 'Denominazione di Origine Protetta' and guarantees that the product is made in a specific geographical area using traditional methods. Parmigiano Reggiano is a well-known example of a DOP product from Italy, while the other mentioned cheeses come from different countries and have other protection seals.",
+      "difficulty": 5
+    },
+    {
+      "category": "Glaube & Religion",
+      "topic": "Klassische & nordische Mythologien",
+      "question": "Who is the Greek goddess of the underworld, married to Hades?",
+      "choices": [
+        "A: Hera",
+        "B: Demeter",
+        "C: Athena",
+        "D: Persephone"
+      ],
+      "correct_answer": "D",
+      "explanation": "Persephone is in Greek mythology the daughter of Demeter and the wife of Hades. She plays a central role in the myths about the cycle of the seasons and the underworld.",
       "difficulty": 4
     },
     {
       "category": "Wissenschaft",
-      "topic": "Chemie",
-      "question": "Which of the following elements is a noble gas?",
+      "topic": "Physik",
+      "question": "What describes the principle of conservation of energy in a closed system?",
       "choices": [
-        "A: Nitrogen",
-        "B: Hydrogen",
-        "C: Oxygen",
-        "D: Helium"
+        "A: Energy increases over time.",
+        "B: Total energy remains constant.",
+        "C: Energy cannot be converted into work.",
+        "D: Energy can only be lost."
       ],
-      "correct_answer": "D",
-      "explanation": "Noble gases are chemically very inert and are usually found in nature in elemental form. Helium is an example of a noble gas, while the other gases mentioned have reactive properties.",
+      "correct_answer": "B",
+      "explanation": "The principle of conservation of energy states that in a closed system, the total energy remains constant at all times. Energy can be transformed from one form to another, but it cannot be lost or created.",
       "difficulty": 3
     },
     {
-      "category": "Glaube & Religion",
-      "topic": "Monotheistische Religionen",
-      "question": "Which event in the New Testament is described as the moment when Jesus renews the relationship between God and humanity through his sacrifice?",
+      "category": "Sport",
+      "topic": "Sonstige",
+      "question": "Which chess piece can move diagonally across the board and is one of the strongest pieces in the game?",
       "choices": [
-        "A: The Resurrection",
-        "B: The Baptism of Jesus",
-        "C: The Last Supper",
-        "D: The Temptation in the Desert"
-      ],
-      "correct_answer": "C",
-      "explanation": "The Last Supper is a central biblical narrative in the New Testament where Jesus gives his disciples bread and wine as his body and blood, symbolizing the upcoming sacrifice for the sins of humanity. This narrative is often understood as the beginning of the new covenant between God and humanity.",
-      "difficulty": 6
-    },
-    {
-      "question": "Who is the current Chancellor of Germany?",
-      "choices": [
-        "A: Annalena Baerbock",
-        "B: Angela Merkel",
-        "C: Jens Spahn",
-        "D: Olaf Scholz"
-      ],
-      "correct_answer": "D",
-      "difficulty": 7,
-      "category": "politics"
-    },
-    {
-      "category": "Natur",
-      "topic": "Pflanzenwelt",
-      "question": "Which of the following plants is known for being used as an ornamental plant in many gardens and often has a striking bloom?",
-      "choices": [
-        "A: Horsetail",
-        "B: Roses",
-        "C: Dandelion",
-        "D: Nettle"
+        "A: Rook",
+        "B: Bishop",
+        "C: Pawn",
+        "D: Knight"
       ],
       "correct_answer": "B",
-      "explanation": "Roses are popular ornamental plants appreciated for their beautiful and fragrant flowers. They are commonly planted in gardens and have many different varieties with various colors and shapes.",
+      "explanation": "The bishop can move diagonally across any number of squares and plays a central role in controlling the chessboard. However, unlike other pieces, it has access only to squares of its own color.",
+      "difficulty": 5
+    },
+    {
+      "category": "Language",
+      "topic": "Foreign Languages",
+      "question": "Which of the following phrases correctly translates to 'How are you?' in French?",
+      "choices": [
+        "A: Comment ça va?",
+        "B: Où est la bibliothèque?",
+        "C: Je m'appelle",
+        "D: Merci beaucoup"
+      ],
+      "correct_answer": "A",
+      "explanation": "'Comment ça va?' is the correct translation for 'How are you?' in French. The other options do not pertain to asking about someone's well-being.",
+      "difficulty": 5
+    },
+    {
+      "category": "Geschichte",
+      "topic": "Antike",
+      "question": "Who is considered one of the first astronomers of antiquity and developed a geocentric worldview?",
+      "choices": [
+        "A: Ptolemy",
+        "B: Thales of Miletus",
+        "C: Aristotle",
+        "D: Archimedes"
+      ],
+      "correct_answer": "A",
+      "explanation": "Ptolemy lived in the 2nd century AD and is known for his geocentric model of the universe, which placed the Earth at the center. This model was the predominant view in astronomy for many centuries.",
       "difficulty": 3
     }
   ]

@@ -1,168 +1,168 @@
 {
   "date": "2025-11-09",
-  "generated_at": "2025-11-09T03:43:29Z",
+  "generated_at": "2025-11-09T08:47:13Z",
   "schema_version": 6,
   "mode": "physik",
   "questions": [
     {
       "category": "Physik",
-      "topic": "Relativitätstheorie",
-      "subtopic": "Definitionen & Rechenregeln von Tensoren",
-      "question": "Was beschreibt der metrische Tensor in der Allgemeinen Relativitätstheorie?",
+      "topic": "Thermodynamik",
+      "subtopic": "Potentiale des idealen Gases",
+      "question": "Welcher Ausdruck beschreibt das thermodynamische Potential eines idealen Gases bei konstanter Temperatur und Volumen?",
       "choices": [
-        "A: Den Energieinhalt eines Systems",
-        "B: Die Geschwindigkeit eines Objekts",
-        "C: Die Krümmung der Raum-Zeit",
-        "D: Die Erhaltung des Impulses"
-      ],
-      "correct_answer": "C",
-      "explanation": "Der metrische Tensor ist ein fundamentales Werkzeug in der Allgemeinen Relativitätstheorie, das die Geometrie der Raum-Zeit beschreibt und somit die Krümmung, die durch Masse und Energie verursacht wird, quantifiziert. Diese Krümmung beeinflusst die Bewegung von Objekten und die Ausbreitung von Lichtstrahlen in der Raum-Zeit.",
-      "difficulty": 8,
-      "subcategory": "Definitionen & Rechenregeln von Tensoren"
-    },
-    {
-      "category": "Physik",
-      "topic": "Elektrodynamik",
-      "subtopic": "Plattenkondensator",
-      "question": "Was ist die Hauptfunktion eines Plattenkondensators?",
-      "choices": [
-        "A: Umwandlung von elektrischer in thermische Energie",
-        "B: Erzeugung von Magnetfeldern",
-        "C: Speicherung von elektrischer Energie",
-        "D: Erhöhung der elektrischen Leitfähigkeit"
-      ],
-      "correct_answer": "C",
-      "explanation": "Ein Plattenkondensator speichert elektrische Energie in einem elektrischen Feld, das zwischen zwei leitenden Platten erzeugt wird. Diese gespeicherte Energie kann bei Bedarf wieder abgegeben werden, was ihn zu einem wichtigen Bauelement in vielen elektrischen Schaltungen macht.",
-      "difficulty": 4,
-      "subcategory": "Plattenkondensator"
-    },
-    {
-      "category": "Physik",
-      "topic": "Klassische Mechanik",
-      "subtopic": "Helmholtzsche Wirbelsätze",
-      "question": "Welcher der folgenden Sätze gehört nicht zu den Helmholtzschen Wirbelsätzen?",
-      "choices": [
-        "A: Der dritte Wirbelsatz führt zur Formulierung der Energieerhaltungsprinzipien in der Fluiddynamik.",
-        "B: Der erste Wirbelsatz besagt, dass jede geschlossene Kurve in einem Vektorfluss eine Wirbelstruktur erzeugt.",
-        "C: Der zweite Wirbelsatz beschreibt die Entstehung von Wirbeln in inkompressiblen Fluiden.",
-        "D: Der vierte Wirbelsatz ist eine Folge der Gleichungen von Navier-Stokes."
+        "A: Helmholtz-Freie Energie",
+        "B: Innere Energie",
+        "C: Gibbs-Freie Energie",
+        "D: Enthalpie"
       ],
       "correct_answer": "A",
-      "explanation": "Die Helmholtzschen Wirbelsätze beziehen sich auf die Eigenschaften von Wirbelfeldern und deren Erhaltung in Fluiden. Der dritte Satz, wie hier formuliert, ist nicht Teil der Helmholtzschen Wirbelsätze und behandelt nicht die spezifischen Eigenschaften von Wirbeln, sondern eher allgemeine Energieprinzipien in der Fluiddynamik.",
-      "difficulty": 9,
-      "subcategory": "Helmholtzsche Wirbelsätze"
-    },
-    {
-      "category": "Physik",
-      "topic": "Analytische Mechanik",
-      "subtopic": "d’Alembert’sches Prinzip",
-      "question": "Welches der folgenden Konzepte beschreibt das d’Alembert’sche Prinzip am besten?",
-      "choices": [
-        "A: Beschleunigungen sind unabhängig von den wirkenden Kräften.",
-        "B: Die Gleichung der Bewegung ist das Ergebnis der Anwendung von Kräften und Trägheitskräften.",
-        "C: Die Geschwindigkeit eines Körpers bleibt konstant, solange keine externe Kraft wirkt.",
-        "D: Energieerhaltung ist nur in geschlossenen Systemen gültig."
-      ],
-      "correct_answer": "B",
-      "explanation": "Das d’Alembert’sche Prinzip formuliert die Gleichung der Bewegung so, dass die Summe der Kräfte und der Trägheitskräfte gleich null ist. Es ist ein fundamentales Konzept in der analytischen Mechanik, das die Beziehung zwischen Kräften und Bewegungen beschreibt.",
-      "difficulty": 6,
-      "subcategory": "d’Alembert’sches Prinzip"
+      "explanation": "Die Helmholtz-Freie Energie beschreibt das Potential eines Systems bei konstanter Temperatur und Volumen und ist besonders relevant für ideale Gase. Sie gibt Auskunft darüber, wie viel Arbeit ein System bei konstanten Bedingungen verrichten kann und ist daher ein wichtiges Konzept in der Thermodynamik.",
+      "difficulty": 8,
+      "subcategory": "Potentiale des idealen Gases"
     },
     {
       "category": "Physik",
       "topic": "Festkörperphysik",
-      "subtopic": "Brillouin-Zonen & Fermi-Flächen",
-      "question": "Was beschreibt die Fermi-Fläche in einem Metall?",
+      "subtopic": "BCS-Grundzustand",
+      "question": "Was beschreibt der BCS-Grundzustand in der Festkörperphysik?",
       "choices": [
-        "A: Die Struktur von magnetischen Domänen in ferromagnetischen Materialien.",
-        "B: Die höchste Energie, die von Elektronen bei T = 0 K eingenommen werden kann.",
-        "C: Die Temperatur, bei der ein Material seine supraleitenden Eigenschaften verliert.",
-        "D: Die Fläche, die die Brillouin-Zone im reciprocal space definiert."
-      ],
-      "correct_answer": "B",
-      "explanation": "Die Fermi-Fläche ist die energetische Grenze, bis zu der Elektronen im Grundzustand eines Metalls besetzt sind, und sie spielt eine entscheidende Rolle in der Festkörperphysik für das Verständnis elektrischer Eigenschaften. Sie ist besonders wichtig in der Beschreibung des Verhaltens von Elektronen in Metallen bei tiefen Temperaturen.",
-      "difficulty": 9,
-      "subcategory": "Brillouin-Zonen & Fermi-Flächen"
-    },
-    {
-      "category": "Physik",
-      "topic": "Analytische Mechanik",
-      "subtopic": "Zwangsbedingungen & generalisierte Koordinaten",
-      "question": "Welche der folgenden Aussagen beschreibt korrekt die Rolle der Zwangsbedingungen in der analytischen Mechanik?",
-      "choices": [
-        "A: Zwangsbedingungen können durch die Erhöhung der Anzahl der Koordinaten im System umgangen werden.",
-        "B: Zwangsbedingungen reduzieren die Anzahl der Freiheitsgrade eines Systems und ermöglichen die Verwendung generalisierter Koordinaten.",
-        "C: Zwangsbedingungen sind nur in der klassischen Mechanik relevant und spielen keine Rolle in der analytischen Mechanik.",
-        "D: Zwangsbedingungen sind in der analytischen Mechanik irrelevant, da alle Systeme als frei beweglich betrachtet werden."
-      ],
-      "correct_answer": "B",
-      "explanation": "Zwangsbedingungen sind Einschränkungen, die die möglichen Bewegungen eines Systems definieren und somit die Anzahl der Freiheitsgrade reduzieren. Dies ermöglicht die Anwendung von generalisierten Koordinaten, die eine vereinfachte Analyse der dynamischen Systeme erlauben.",
-      "difficulty": 9,
-      "subcategory": "Zwangsbedingungen & generalisierte Koordinaten"
-    },
-    {
-      "category": "Physik",
-      "topic": "Relativitätstheorie",
-      "subtopic": "Lorentz-Kraft in Vierervektorform",
-      "question": "Was beschreibt die Lorentz-Kraft in Vierervektorform in der Relativitätstheorie?",
-      "choices": [
-        "A: Die Struktur von Atomen und Molekülen.",
-        "B: Die Energieerhaltung in isolierten Systemen.",
-        "C: Die Gravitation zwischen zwei massiven Körpern.",
-        "D: Die Wechselwirkung zwischen elektrischen und magnetischen Feldern."
+        "A: Die Bewegungen von Atomen in einem Kristallgitter.",
+        "B: Die Entstehung von Magnetfeldern in Metallen.",
+        "C: Die Absorption von Photonen in Halbleitern.",
+        "D: Die Paarbildung von Elektronen in supraleitenden Materialien."
       ],
       "correct_answer": "D",
-      "explanation": "Die Lorentz-Kraft beschreibt, wie ein geladenes Teilchen in einem elektrischen und magnetischen Feld beeinflusst wird. Sie ist ein zentrales Konzept in der Elektrodynamik und wird in der Relativitätstheorie durch die Vierervektorformulierung erweitert.",
-      "difficulty": 4,
-      "subcategory": "Lorentz-Kraft in Vierervektorform"
+      "explanation": "Der BCS-Grundzustand beschreibt das Phänomen der Cooper-Paarbildung, bei dem Elektronen in bestimmten Materialien bei tiefen Temperaturen Paare bilden und somit zu supraleitenden Eigenschaften führen. Diese Theorie erklärt, wie und warum Supraleiter im Grundzustand elektrischen Strom ohne Widerstand leiten können.",
+      "difficulty": 7,
+      "subcategory": "BCS-Grundzustand"
     },
     {
       "category": "Physik",
-      "topic": "Optik",
-      "subtopic": "Brechungsindex und Absorption von Metallen",
-      "question": "Welcher Faktor beeinflusst den Brechungsindex eines Metalls am stärksten?",
+      "topic": "Festkörperphysik",
+      "subtopic": "Van-der-Waals-Bindung",
+      "question": "Welche der folgenden Aussagen beschreibt die Van-der-Waals-Bindung am besten?",
       "choices": [
-        "A: Die Farbe des Metalls",
-        "B: Die Dicke des Metalls",
-        "C: Die Elektronendichte des Metalls",
-        "D: Die Temperatur des Metalls"
+        "A: Sie ist eine Form der Wasserstoffbindung zwischen Wasserstoff und Sauerstoff.",
+        "B: Sie ist eine starke ionische Bindung zwischen Atomen.",
+        "C: Sie ist eine schwache Wechselwirkung zwischen Molekülen, die durch temporäre Dipole entsteht.",
+        "D: Sie entsteht durch die Überlappung von Atomorbitalen."
       ],
       "correct_answer": "C",
-      "explanation": "Der Brechungsindex eines Metalls ist stark von der Elektronendichte abhängig, da diese die Wechselwirkung des Lichts mit dem Material bestimmt. Eine höhere Elektronendichte führt typischerweise zu einem höheren Brechungsindex, während andere Faktoren wie Temperatur oder Dicke weniger Einfluss haben.",
-      "difficulty": 7,
-      "subcategory": "Brechungsindex und Absorption von Metallen"
+      "explanation": "Die Van-der-Waals-Bindung ist eine schwache Wechselwirkung, die aus temporären Dipolen resultiert, die durch die Bewegung von Elektronen in Molekülen entstehen. Sie spielt eine wichtige Rolle in der Chemie und der Physik von Molekülen und Festkörpern.",
+      "difficulty": 4,
+      "subcategory": "Van-der-Waals-Bindung"
     },
     {
       "category": "Physik",
-      "topic": "Optik",
-      "subtopic": "Polarisationszustände von Licht",
-      "question": "Welche der folgenden Aussagen beschreibt am besten den Polarisationszustand von Licht?",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Ideales Fermi-Gas: Grundzustand & starke Entartung",
+      "question": "Was beschreibt den Grundzustand eines idealen Fermi-Gases bei absoluter Nulltemperatur?",
       "choices": [
-        "A: Polarisiertes Licht schwingt in einer bestimmten Ebene.",
-        "B: Polarisiertes Licht kann nur durch spezielle Gläser erzeugt werden.",
-        "C: Polarisiertes Licht ist immer monochromatisch.",
-        "D: Polarisiertes Licht hat immer eine gleichmäßige Verteilung der Farben."
+        "A: Alle Fermionen befinden sich im niedrigsten Energiezustand.",
+        "B: Alle Fermionen sind gleichmäßig über alle Energiezustände verteilt.",
+        "C: Es gibt keine Einschränkungen für die Besetzung von Energiezuständen.",
+        "D: Die Fermionen befinden sich nur in den höchsten Energiezuständen."
       ],
       "correct_answer": "A",
-      "explanation": "Der Polarisationszustand von Licht beschreibt, dass die elektrischen Feldvektoren in einer bestimmten Ebene schwingen. Bei unpolarisiertem Licht schwingen diese Vektoren in zufälligen Richtungen, während polarisiertes Licht eine definierte Ausrichtung aufweist.",
-      "difficulty": 3,
-      "subcategory": "Polarisationszustände von Licht"
+      "explanation": "Im Grundzustand eines idealen Fermi-Gases bei 0 Kelvin besetzen die Fermionen die niedrigsten verfügbaren Energiezustände. Dies führt zu einer maximalen Entartung, da Fermionen aufgrund des Pauli-Prinzips nicht denselben Zustand einnehmen können.",
+      "difficulty": 5,
+      "subcategory": "Ideales Fermi-Gas: Grundzustand & starke Entartung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Korrespondenzregel (Operatorersatz)",
+      "question": "Was besagt die Korrespondenzregel in der Quantenmechanik?",
+      "choices": [
+        "A: Die quantenmechanischen Operatoren sind immer kommutativ.",
+        "B: Quantenmechanische Effekte sind immer nicht messbar.",
+        "C: Die Energie eines Teilchens ist unabhängig von seinem Impuls.",
+        "D: In der klassischen Mechanik können die gleichen physikalischen Größen wie in der Quantenmechanik verwendet werden."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Korrespondenzregel besagt, dass die Ergebnisse quantenmechanischer Berechnungen in der klassischen Grenze mit den klassischen physikalischen Größen übereinstimmen. Das bedeutet, dass in bestimmten Grenzfällen die klassischen und quantenmechanischen Beschreibungen übereinstimmen sollten.",
+      "difficulty": 5,
+      "subcategory": "Korrespondenzregel (Operatorersatz)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Wärmekapazitäten (C_V, C_p, Beziehungen)",
+      "question": "Welche der folgenden Aussagen beschreibt die Beziehung zwischen der molaren Wärmekapazität bei konstantem Volumen (C_V) und der molaren Wärmekapazität bei konstantem Druck (C_p) für ideale Gase?",
+      "choices": [
+        "A: C_p = 2C_V",
+        "B: C_p = C_V + R",
+        "C: C_p = C_V - R",
+        "D: C_p = C_V"
+      ],
+      "correct_answer": "B",
+      "explanation": "Für ideale Gase gilt die Beziehung C_p = C_V + R, wobei R die universelle Gaskonstante ist. Diese Beziehung resultiert aus den unterschiedlichen Bedingungen, unter denen die Wärmekapazitäten gemessen werden: konstantem Volumen vs. konstantem Druck.",
+      "difficulty": 6,
+      "subcategory": "Wärmekapazitäten (C_V, C_p, Beziehungen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Unbestimmtheitsrelation(en)",
+      "question": "Was besagt die Heisenbergsche Unbestimmtheitsrelation?",
+      "choices": [
+        "A: Man kann den Ort und den Impuls eines Teilchens nicht gleichzeitig beliebig genau bestimmen.",
+        "B: Licht kann nur als Teilchen betrachtet werden.",
+        "C: Die Geschwindigkeit eines Objekts kann niemals kleiner als null sein.",
+        "D: Der Energieerhaltungssatz ist immer gültig."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Heisenbergsche Unbestimmtheitsrelation besagt, dass es eine grundlegende Grenze für die gleichzeitige Messung von Ort und Impuls eines Teilchens gibt. Je genauer der Ort bestimmt wird, desto ungenauer wird der Impuls und umgekehrt.",
+      "difficulty": 2,
+      "subcategory": "Unbestimmtheitsrelation(en)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Resonanzen (Breit‑Wigner)",
+      "question": "Was beschreibt die Breit-Wigner-Formel in der Teilchenphysik?",
+      "choices": [
+        "A: Die Energieverbreiterung eines instabilen Teilchens.",
+        "B: Die Geschwindigkeit von Teilchen in einem Magnetfeld.",
+        "C: Die Lebensdauer eines Teilchens in einem Vakuum.",
+        "D: Die Masse eines stabilen Teilchens."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Breit-Wigner-Formel beschreibt die Verbreiterung der Resonanzlinie eines instabilen Teilchens in Bezug auf seine Energie und Lebensdauer. Sie ist ein wichtiges Werkzeug zur Analyse von Zerfall und Wechselwirkungen von Teilchen.",
+      "difficulty": 5,
+      "subcategory": "Resonanzen (Breit‑Wigner)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Erster & Zweiter Hauptsatz (reversibel/irreversibel)",
+      "question": "Welcher der folgenden Prozesse ist gemäß dem Zweiten Hauptsatz der Thermodynamik irreversibel?",
+      "choices": [
+        "A: Ein idealer Gaszustand, der sich ohne Temperaturänderung ausdehnt.",
+        "B: Der Wärmeübergang von einem heißeren Körper zu einem kälteren Körper.",
+        "C: Die spontane Mischung von zwei Gasen.",
+        "D: Die Kompression eines Gases bei konstanter Temperatur."
+      ],
+      "correct_answer": "C",
+      "explanation": "Der Zweite Hauptsatz der Thermodynamik besagt, dass Prozesse, die zur Erhöhung der Entropie führen, irreversibel sind. Die spontane Mischung von zwei Gasen führt zu einer Erhöhung der Entropie und ist somit ein irreversibler Prozess.",
+      "difficulty": 4,
+      "subcategory": "Erster & Zweiter Hauptsatz (reversibel/irreversibel)"
     },
     {
       "category": "Physik",
       "topic": "Klassische Mechanik",
-      "subtopic": "Statischer Druck in Flüssigkeiten",
-      "question": "Wie verändert sich der statische Druck in einer Flüssigkeit, wenn die Tiefe verdoppelt wird?",
+      "subtopic": "Laminar: parallele Wände",
+      "question": "Welche Aussage beschreibt am besten das Verhalten einer laminaren Strömung zwischen zwei parallelen Wänden?",
       "choices": [
-        "A: Der Druck erhöht sich um einen Faktor von drei.",
-        "B: Der Druck verdoppelt sich.",
-        "C: Der Druck bleibt gleich.",
-        "D: Der Druck verringert sich."
+        "A: Die Geschwindigkeit des Fluids bleibt konstant über die gesamte Schichtdicke.",
+        "B: Die Strömung ist gleichmäßig verteilt und hat eine parabolische Geschwindigkeitsprofil.",
+        "C: Der Druckunterschied zwischen den Wänden ist konstant und unabhängig von der Strömungsgeschwindigkeit.",
+        "D: Die Strömung verursacht Turbulenzen, die die Energieverluste erhöhen."
       ],
       "correct_answer": "B",
-      "explanation": "Der statische Druck in einer Flüssigkeit nimmt mit der Tiefe linear zu. Dies bedeutet, dass sich der Druck verdoppelt, wenn die Tiefe verdoppelt wird, was durch die hydrostatische Druckformel erklärt wird: p = ρgh, wobei ρ die Dichte, g die Erdbeschleunigung und h die Tiefe ist.",
-      "difficulty": 6,
-      "subcategory": "Statischer Druck in Flüssigkeiten"
+      "explanation": "In einer laminaren Strömung zwischen parallelen Wänden zeigt das Geschwindigkeitsprofil typischerweise eine parabolische Form, wobei die Geschwindigkeit in der Mitte am höchsten ist und an den Wänden aufgrund der Reibung null ist. Diese Strömung ist stabil und weist keine Turbulenzen auf.",
+      "difficulty": 9,
+      "subcategory": "Laminar: parallele Wände"
     }
   ]
 }

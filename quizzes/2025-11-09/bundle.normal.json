@@ -1,103 +1,105 @@
 {
   "date": "2025-11-09",
-  "generated_at": "2025-11-09T03:41:38Z",
+  "generated_at": "2025-11-09T08:44:59Z",
   "schema_version": 6,
   "mode": "normal",
   "questions": [
     {
-      "category": "Politiker",
-      "discipline": "Sitze (International)",
-      "question": "In welcher Stadt befindet sich der Hauptsitz der OECD?",
+      "category": "Natur",
+      "topic": "Tierwelt",
+      "question": "Was beschreibt das Territorialverhalten bei vielen Singvögeln?",
       "choices": [
-        "A: Wien (Österreich)",
-        "B: Paris (Château de la Muette, Frankreich)",
-        "C: Straßburg (Frankreich)",
-        "D: Genf (Schweiz)"
+        "A: Singvögel haben keine spezifischen Fortpflanzungszeiten und können das ganze Jahr über brüten.",
+        "B: Singvögel nutzen Gesang, um ihr Revier abzugrenzen und andere Artgenossen zu warnen.",
+        "C: Singvögel sind in der Regel Einzelgänger und leben nicht in Gruppen.",
+        "D: Singvögel bevorzugen es, in städtischen Gebieten ohne natürliche Feinde zu nisten."
       ],
       "correct_answer": "B",
-      "explanation": "OECD: Wirtschaftspolitische Zusammenarbeit und vergleichende Analysen.",
-      "difficulty": 1
-    },
-    {
-      "category": "Language",
-      "topic": "Etymology",
-      "question": "Which of the following terms has undergone pejoration, shifting to a more negative connotation over time?",
-      "choices": [
-        "A: Knight",
-        "B: Scholar",
-        "C: Lady",
-        "D: Knave"
-      ],
-      "correct_answer": "D",
-      "explanation": "The term 'knave' originally meant a boy or a servant, but over time it has come to refer to a dishonest or untrustworthy man. This shift illustrates pejoration, where the term's meaning has deteriorated in a social context.",
-      "difficulty": 8
+      "explanation": "Territorialverhalten ist bei Singvögeln häufig mit der Nutzung von Gesang verbunden, um ihr Revier zu markieren und Artgenossen fernzuhalten. Dieses Verhalten spielt eine wichtige Rolle im Fortpflanzungsverhalten und der Ressourcenverteilung.",
+      "difficulty": 6
     },
     {
       "category": "Essen und Trinken",
-      "topic": "Getränke",
-      "question": "Welches dieser Biere wird traditionell nach dem deutschen Reinheitsgebot von 1516 gebraut?",
+      "topic": "Küche international",
+      "question": "Welches dieser Produkte trägt das Schutzsiegel 'DOP', das für die geschützte Ursprungsbezeichnung in Italien steht?",
       "choices": [
-        "A: Radler",
-        "B: Helles",
-        "C: IPA",
-        "D: Stout"
+        "A: Feta",
+        "B: Parmigiano Reggiano",
+        "C: Brie de Meaux",
+        "D: Gouda"
       ],
       "correct_answer": "B",
-      "explanation": "Das Helle ist ein klassisches deutsches Bier, das nach dem Reinheitsgebot gebraut wird und somit nur Wasser, Malz, Hopfen und Hefe enthält. Im Gegensatz dazu sind IPA und Stout meist nicht an das Reinheitsgebot gebunden, da sie häufig andere Zutaten und Aromen verwenden.",
+      "explanation": "Das Schutzsiegel 'DOP' steht für 'Denominazione di Origine Protetta' und garantiert, dass das Produkt in einem bestimmten geografischen Gebiet nach traditionellen Methoden hergestellt wird. Parmigiano Reggiano ist ein bekanntes Beispiel für ein DOP-Produkt aus Italien, während die anderen genannten Käse aus unterschiedlichen Ländern stammen und andere Schutzsiegel haben.",
+      "difficulty": 5
+    },
+    {
+      "category": "Glaube & Religion",
+      "topic": "Klassische & nordische Mythologien",
+      "question": "Wer ist die griechische Göttin der Unterwelt, die mit Hades verheiratet ist?",
+      "choices": [
+        "A: Hera",
+        "B: Demeter",
+        "C: Athena",
+        "D: Persephone"
+      ],
+      "correct_answer": "D",
+      "explanation": "Persephone ist in der griechischen Mythologie die Tochter von Demeter und die Gemahlin von Hades. Sie spielt eine zentrale Rolle in den Mythen über den Zyklus der Jahreszeiten und die Unterwelt.",
       "difficulty": 4
     },
     {
       "category": "Wissenschaft",
-      "topic": "Chemie",
-      "question": "Welches der folgenden Elemente ist ein Edelgas?",
+      "topic": "Physik",
+      "question": "Was beschreibt das Prinzip der Erhaltung der Energie in einem geschlossenen System?",
       "choices": [
-        "A: Stickstoff",
-        "B: Wasserstoff",
-        "C: Sauerstoff",
-        "D: Helium"
+        "A: Die Energie erhöht sich mit der Zeit.",
+        "B: Die Gesamtenergie bleibt konstant.",
+        "C: Energie kann nicht in Arbeit umgewandelt werden.",
+        "D: Energie kann nur verloren gehen."
       ],
-      "correct_answer": "D",
-      "explanation": "Edelgase sind chemisch sehr reaktionsträge und kommen in der Natur meist in elementarer Form vor. Helium ist ein Beispiel für ein Edelgas, während die anderen genannten Gase reaktive Eigenschaften besitzen.",
+      "correct_answer": "B",
+      "explanation": "Das Prinzip der Erhaltung der Energie besagt, dass in einem geschlossenen System die Gesamtenergie jederzeit konstant bleibt. Energie kann von einer Form in eine andere umgewandelt werden, aber sie kann nicht verloren gehen oder erzeugt werden.",
       "difficulty": 3
     },
     {
-      "category": "Glaube & Religion",
-      "topic": "Monotheistische Religionen",
-      "question": "Welches Ereignis wird im Neuen Testament als der Moment beschrieben, in dem Jesus die Beziehung zwischen Gott und den Menschen durch sein Opfer erneuert?",
+      "category": "Sport",
+      "topic": "Sonstige",
+      "question": "Welche Figur im Schach kann sich diagonal über das Schachbrett bewegen und gehört zu den stärksten Figuren im Spiel?",
       "choices": [
-        "A: Die Auferstehung",
-        "B: Die Taufe Jesu",
-        "C: Das letzte Abendmahl",
-        "D: Die Versuchung in der Wüste"
-      ],
-      "correct_answer": "C",
-      "explanation": "Das letzte Abendmahl ist eine zentrale biblische Erzählung im Neuen Testament, in der Jesus seinen Jüngern das Brot und den Wein als seinen Leib und sein Blut gibt, was das bevorstehende Opfer für die Sünden der Menschen symbolisiert. Diese Erzählung wird häufig als der Beginn des neuen Bundes zwischen Gott und der Menschheit verstanden.",
-      "difficulty": 6
-    },
-    {
-      "question": "Who is the current Chancellor of Germany?",
-      "choices": [
-        "A: Annalena Baerbock",
-        "B: Angela Merkel",
-        "C: Jens Spahn",
-        "D: Olaf Scholz"
-      ],
-      "correct_answer": "D",
-      "difficulty": 7,
-      "category": "politics"
-    },
-    {
-      "category": "Natur",
-      "topic": "Pflanzenwelt",
-      "question": "Welche der folgenden Pflanzen ist bekannt dafür, dass sie in vielen Gärten als Zierpflanze verwendet wird und oft eine auffällige Blüte hat?",
-      "choices": [
-        "A: Schachtelhalm",
-        "B: Rosen",
-        "C: Löwenzahn",
-        "D: Brennnessel"
+        "A: Turm",
+        "B: Läufer",
+        "C: Bauer",
+        "D: Springer"
       ],
       "correct_answer": "B",
-      "explanation": "Rosen sind beliebte Zierpflanzen, die für ihre schönen und duftenden Blüten geschätzt werden. Sie werden häufig in Gärten angepflanzt und haben viele verschiedene Sorten mit unterschiedlichen Farben und Formen.",
+      "explanation": "Der Läufer kann sich diagonal auf beliebig vielen Feldern bewegen und spielt eine zentrale Rolle in der Kontrolle des Schachbretts. Im Gegensatz zu anderen Figuren hat er jedoch nur Zugriff auf Felder seiner eigenen Farbe.",
+      "difficulty": 5
+    },
+    {
+      "category": "Sprache",
+      "topic": "Wortherkunft",
+      "question": "Welches deutsche Wort hat seinen Ursprung im Türkischen und bezeichnet ein typisches Gericht?",
+      "choices": [
+        "A: Tacos",
+        "B: Sushi",
+        "C: Pizza",
+        "D: Kebab"
+      ],
+      "correct_answer": "D",
+      "explanation": "Das Wort 'Kebab' kommt aus dem Türkischen und bezieht sich auf gegrilltes oder gebratenes Fleisch, oft in Fladenbrot serviert. Im Gegensatz dazu stammen Pizza, Sushi und Tacos aus anderen kulinarischen Traditionen und haben keine türkische Herkunft.",
+      "difficulty": 5
+    },
+    {
+      "category": "Geschichte",
+      "topic": "Antike",
+      "question": "Wer gilt als einer der ersten Astronomen der Antike und entwickelte ein geozentrisches Weltbild?",
+      "choices": [
+        "A: Ptolemäus",
+        "B: Thales von Milet",
+        "C: Aristoteles",
+        "D: Archimedes"
+      ],
+      "correct_answer": "A",
+      "explanation": "Ptolemäus lebte im 2. Jahrhundert n. Chr. und ist bekannt für sein geozentrisches Modell des Universums, das die Erde im Mittelpunkt sah. Dieses Modell war über viele Jahrhunderte hinweg die vorherrschende Sichtweise in der Astronomie.",
       "difficulty": 3
     }
   ]
