@@ -302,6 +302,8 @@ Vorgaben:
 - Erklärung: 2–3 Sätze, knapp und hilfreich (ggf. kurze Einordnung/Datierung).
 - Das Feld "topic" im JSON enthält ausschließlich die Epoche („{topic}“). Unterthema nicht ins JSON.
 - Antworte ausschließlich mit **validem JSON** gemäß Schema.
+-Vermeide Fragen, in denen die richtige Lösung oder Varianten davon bereits im Fragetext vorkommen. Auch konjugierte, abgewandelte oder zusammengesetzte Formen der Lösung dürfen nicht im Fragetext vorkommen.
+
 
 JSON-SCHEMA:
 {_SCHEMA}
