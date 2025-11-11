@@ -1,0 +1,168 @@
+{
+  "date": "2025-11-11",
+  "generated_at": "2025-11-11T03:45:40Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Kern‑Formfaktoren",
+      "question": "Which core form factor describes the spatial distribution of electric charge in the nucleus and is crucial for the interpretation of electron scattering experiments?",
+      "choices": [
+        "A: The strong interaction form factor",
+        "B: The electromagnetic form factor",
+        "C: The spin-dependent form factor",
+        "D: The magnetic form factor"
+      ],
+      "correct_answer": "B",
+      "explanation": "The electromagnetic form factor is crucial for describing the distribution of electric charge in the atomic nucleus. It influences the results of electron scattering experiments and provides insights into the nucleus's structure.",
+      "difficulty": 10,
+      "subcategory": "Kern‑Formfaktoren"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Separation der Variablen in HJ",
+      "question": "What condition is necessary to apply the separation of variables in the Hamilton-Jacobi equation?",
+      "choices": [
+        "A: The potential energy must be constant.",
+        "B: The motion must be harmonic.",
+        "C: The Hamiltonian must be additively decomposed into kinetic and potential energy.",
+        "D: The conservation of energy must be violated."
+      ],
+      "correct_answer": "C",
+      "explanation": "To apply the separation of variables in the Hamilton-Jacobi equation, it is necessary to bring the Hamiltonian into a form that allows an additive structure for kinetic and potential energy. This enables solving the equation by separating the variables and facilitates the analysis of the system.",
+      "difficulty": 6,
+      "subcategory": "Separation der Variablen in HJ"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Spezifische Wärme der Elektronen",
+      "question": "What does the specific heat of electrons in solids describe?",
+      "choices": [
+        "A: The energy required to increase the temperature of a collection of electrons by one degree.",
+        "B: The ability of electrons to conduct electricity.",
+        "C: The geometric structure of a crystal.",
+        "D: The number of electrons in a solid."
+      ],
+      "correct_answer": "A",
+      "explanation": "The specific heat of electrons describes how much energy is required to increase the temperature of a specific amount of electrons in a material by one degree. This is particularly important for understanding the thermal properties of metals and semiconductors.",
+      "difficulty": 6,
+      "subcategory": "Spezifische Wärme der Elektronen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Kritische Exponenten",
+      "question": "Which critical exponent describes the divergence of specific heat at a phase transition?",
+      "choices": [
+        "A: δ (Delta)",
+        "B: γ (Gamma)",
+        "C: α (Alpha)",
+        "D: β (Beta)"
+      ],
+      "correct_answer": "B",
+      "explanation": "The critical exponent γ describes the divergence of specific heat at a phase transition. It is essential for understanding phase transitions in thermodynamics and the associated critical phenomena.",
+      "difficulty": 6,
+      "subcategory": "Kritische Exponenten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Klassisches ideales Gas (großkanonisch)",
+      "question": "What does the grand canonical ensemble describe in statistical mechanics for an ideal gas?",
+      "choices": [
+        "A: The relationship between pressure, volume, and temperature in a closed system.",
+        "B: The distribution of particle energies at constant temperature and variable number of particles.",
+        "C: The motion of particles in a closed space without interactions.",
+        "D: The quantized energy levels in an atom."
+      ],
+      "correct_answer": "B",
+      "explanation": "The grand canonical ensemble describes systems in which both energy and the number of particles can vary, considering the statistical distribution of particle energies at constant temperature. This is particularly important for describing ideal gases that operate with a variable number of particles.",
+      "difficulty": 6,
+      "subcategory": "Klassisches ideales Gas (großkanonisch)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Bohr–Sommerfeld-Quantisierung (historisch)",
+      "question": "What condition does the Bohr-Sommerfeld quantization impose on the energy levels of a system?",
+      "choices": [
+        "A: The temperature of the system must be below a certain value.",
+        "B: The total momentum must be zero.",
+        "C: The kinetic energy must be constant.",
+        "D: The orbit must encompass an integer multiple of the de Broglie wavelength."
+      ],
+      "correct_answer": "D",
+      "explanation": "The Bohr-Sommerfeld quantization states that the quantized orbits of a particle in a potential field are such that the product of the orbital period and the wave frequency is an integer multiple of the de Broglie wavelength. This leads to discrete energy levels in a quantized system.",
+      "difficulty": 8,
+      "subcategory": "Bohr–Sommerfeld-Quantisierung (historisch)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Eigenschaften der Leptonen",
+      "question": "Which of the following particles is a lepton?",
+      "choices": [
+        "A: Alpha particles",
+        "B: Electron",
+        "C: Proton",
+        "D: Neutron"
+      ],
+      "correct_answer": "B",
+      "explanation": "An electron is a fundamental particle and belongs to the leptons. Protons and neutrons, on the other hand, are hadrons and consist of quarks. Alpha particles are assemblies of two protons and two neutrons and also do not belong to the leptons.",
+      "difficulty": 4,
+      "subcategory": "Eigenschaften der Leptonen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Ebene Wellen & Polarisation",
+      "question": "Which statement about the polarization of a plane electromagnetic wave is correct?",
+      "choices": [
+        "A: Polarization has no effect on the wave propagation.",
+        "B: Polarization is only defined in a vacuum.",
+        "C: An electromagnetic wave can only be linearly polarized.",
+        "D: An electromagnetic wave can be both linearly and circularly polarized."
+      ],
+      "correct_answer": "D",
+      "explanation": "An electromagnetic wave can be both linearly and circularly polarized, as dictated by the mathematical description of its electric and magnetic fields. Polarization describes the orientation of the electric field vectors and influences many properties of the wave, including its interaction with matter.",
+      "difficulty": 9,
+      "subcategory": "Ebene Wellen & Polarisation"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Kryo- & Sorptionspumpen",
+      "question": "Which of the following statements best describes the operation of a cryopump?",
+      "choices": [
+        "A: It utilizes the electric charge of particles for gas removal.",
+        "B: It uses chemical reactions to bind gases.",
+        "C: It utilizes low temperatures to liquefy and remove gases.",
+        "D: It generates a vacuum through mechanical movement of pistons."
+      ],
+      "correct_answer": "C",
+      "explanation": "A cryopump operates by liquefying or trapping gases at very low temperatures, creating a vacuum. This technique is particularly effective for removing gases from vacuum chambers.",
+      "difficulty": 4,
+      "subcategory": "Kryo- & Sorptionspumpen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Fresnelsche Beugung (qualitativ)",
+      "question": "What does Fresnel diffraction describe?",
+      "choices": [
+        "A: Die Reflexion von Licht an einer glatten Oberfläche.",
+        "B: Die Brechung von Licht an einer Linse.",
+        "C: Die Polarisation von Licht durch Filter.",
+        "D: Die Ausbreitung von Lichtwellen um Hindernisse herum."
+      ],
+      "correct_answer": "D",
+      "explanation": "Fresnel diffraction describes how light waves propagate around edges and obstacles, causing interference. These diffraction phenomena are often observed when light passes through narrow slits or around objects.",
+      "difficulty": 4,
+      "subcategory": "Fresnelsche Beugung (qualitativ)"
+    }
+  ]
+}

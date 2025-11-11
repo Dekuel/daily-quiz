@@ -1,0 +1,168 @@
+{
+  "date": "2025-11-11",
+  "generated_at": "2025-11-11T03:45:16Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Kern‑Formfaktoren",
+      "question": "Welcher Kern-Formfaktor beschreibt die räumliche Verteilung der elektrischen Ladung im Kern und ist entscheidend für die Interpretation von Elektron-Streuungsexperimenten?",
+      "choices": [
+        "A: Der Formfaktor der starken Wechselwirkung",
+        "B: Der elektromagnetische Formfaktor",
+        "C: Der spinabhängige Formfaktor",
+        "D: Der magnetische Formfaktor"
+      ],
+      "correct_answer": "B",
+      "explanation": "Der elektromagnetische Formfaktor ist entscheidend für die Beschreibung der elektrischen Ladungsverteilung im Atomkern. Er beeinflusst die Ergebnisse von Elektron-Streuungsexperimenten und ermöglicht Einblicke in die Struktur des Kerns.",
+      "difficulty": 10,
+      "subcategory": "Kern‑Formfaktoren"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Separation der Variablen in HJ",
+      "question": "Welche Bedingung ist notwendig, um die Separation der Variablen in der Hamilton-Jacobi-Gleichung anzuwenden?",
+      "choices": [
+        "A: Die potenzielle Energie muss konstant sein.",
+        "B: Die Bewegung muss harmonisch sein.",
+        "C: Der Hamiltonian muss additiv in die kinetischen und potenziellen Energie zerlegt werden.",
+        "D: Der Energieerhaltungssatz muss verletzt sein."
+      ],
+      "correct_answer": "C",
+      "explanation": "Um die Separation der Variablen in der Hamilton-Jacobi-Gleichung anzuwenden, ist es notwendig, dass der Hamiltonian in eine Form gebracht wird, die eine additive Struktur für die kinetische und potentielle Energie erlaubt. Dies ermöglicht die Lösung der Gleichung durch Trennung der Variablen und erleichtert die Analyse des Systems.",
+      "difficulty": 6,
+      "subcategory": "Separation der Variablen in HJ"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Spezifische Wärme der Elektronen",
+      "question": "Was beschreibt die spezifische Wärme der Elektronen in Festkörpern?",
+      "choices": [
+        "A: Die Energie, die benötigt wird, um die Temperatur einer Elektronenansammlung um ein Grad zu erhöhen.",
+        "B: Die Fähigkeit von Elektronen, Strom zu leiten.",
+        "C: Die geometrische Struktur eines Kristalls.",
+        "D: Die Anzahl der Elektronen in einem Festkörper."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die spezifische Wärme der Elektronen beschreibt, wie viel Energie erforderlich ist, um die Temperatur einer bestimmten Menge Elektronen in einem Material um ein Grad zu erhöhen. Dies ist besonders wichtig für das Verständnis thermischer Eigenschaften von Metallen und Halbleitern.",
+      "difficulty": 6,
+      "subcategory": "Spezifische Wärme der Elektronen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Kritische Exponenten",
+      "question": "Welcher kritische Exponent beschreibt die Divergenz der spezifischen Wärme an einem Phasenübergang?",
+      "choices": [
+        "A: δ (Delta)",
+        "B: γ (Gamma)",
+        "C: α (Alpha)",
+        "D: β (Beta)"
+      ],
+      "correct_answer": "B",
+      "explanation": "Der kritische Exponent γ beschreibt die Divergenz der spezifischen Wärme an einem Phasenübergang. Er ist essentiell für das Verständnis von Phasenübergängen in der Thermodynamik und den damit verbundenen kritischen Phänomenen.",
+      "difficulty": 6,
+      "subcategory": "Kritische Exponenten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Klassisches ideales Gas (großkanonisch)",
+      "question": "Was beschreibt die großkanonische Ensemble in der statistischen Mechanik für ein ideales Gas?",
+      "choices": [
+        "A: Die Beziehung zwischen Druck, Volumen und Temperatur in einem geschlossenen System.",
+        "B: Die Verteilung der Teilchenenergien bei konstanter Temperatur und variabler Teilchenzahl.",
+        "C: Die Bewegung der Teilchen in einem geschlossenen Raum ohne Wechselwirkungen.",
+        "D: Die quantisierten Energieniveaus in einem Atom."
+      ],
+      "correct_answer": "B",
+      "explanation": "Das großkanonische Ensemble beschreibt Systeme, in denen sowohl die Energie als auch die Teilchenzahl variieren können, und es berücksichtigt die statistische Verteilung der Energien der Teilchen bei konstanter Temperatur. Dies ist besonders wichtig für die Beschreibung von idealen Gasen, die mit einer variablen Anzahl von Teilchen arbeiten.",
+      "difficulty": 6,
+      "subcategory": "Klassisches ideales Gas (großkanonisch)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Bohr–Sommerfeld-Quantisierung (historisch)",
+      "question": "Welche Bedingung stellt die Bohr–Sommerfeld-Quantisierung für die Energielevels eines Systems auf?",
+      "choices": [
+        "A: Die Temperatur des Systems muss unter einem bestimmten Wert liegen.",
+        "B: Der Gesamtimpuls muss null sein.",
+        "C: Die kinetische Energie muss konstant sein.",
+        "D: Die Bahn muss ein ganzzahliges Vielfaches der de Broglie-Wellenlänge umfassen."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Bohr–Sommerfeld-Quantisierung besagt, dass die quantisierten Bahnen eines Teilchens in einem Potentialfeld so beschaffen sind, dass der Produkt aus der Umlaufzeit und der Frequenz der Welle ein ganzzahliges Vielfaches der de Broglie-Wellenlänge ist. Dies führt zu diskreten Energielevels in einem quantisierten System.",
+      "difficulty": 8,
+      "subcategory": "Bohr–Sommerfeld-Quantisierung (historisch)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Eigenschaften der Leptonen",
+      "question": "Welches der folgenden Teilchen ist ein Lepton?",
+      "choices": [
+        "A: Alpha-Teilchen",
+        "B: Elektron",
+        "C: Proton",
+        "D: Neutron"
+      ],
+      "correct_answer": "B",
+      "explanation": "Ein Elektron ist ein fundamental Teilchen und gehört zu den Leptonen. Protonen und Neutronen sind hingegen Hadronen und bestehen aus Quarks. Alpha-Teilchen sind Zusammenschlüsse von zwei Protonen und zwei Neutronen und gehören ebenfalls nicht zu den Leptonen.",
+      "difficulty": 4,
+      "subcategory": "Eigenschaften der Leptonen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Ebene Wellen & Polarisation",
+      "question": "Welche Aussage über die Polarisation einer ebenen elektromagnetischen Welle ist korrekt?",
+      "choices": [
+        "A: Die Polarisation hat keinen Einfluss auf die Ausbreitung der Welle.",
+        "B: Die Polarisation ist nur im Vakuum definiert.",
+        "C: Eine elektromagnetische Welle kann nur linear polarisiert sein.",
+        "D: Eine elektromagnetische Welle kann sowohl linear als auch zirkular polarisiert sein."
+      ],
+      "correct_answer": "D",
+      "explanation": "Eine elektromagnetische Welle kann sowohl linear als auch zirkular polarisiert sein, was sich aus der mathematischen Beschreibung ihrer elektrischen und magnetischen Felder ergibt. Die Polarisation beschreibt die Ausrichtung der elektrischen Feldvektoren und beeinflusst viele Eigenschaften der Welle, einschließlich ihrer Interaktion mit Materie.",
+      "difficulty": 9,
+      "subcategory": "Ebene Wellen & Polarisation"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Kryo- & Sorptionspumpen",
+      "question": "Welche der folgenden Aussagen beschreibt die Funktionsweise einer Kryopumpe am besten?",
+      "choices": [
+        "A: Sie nutzt die elektrische Ladung von Partikeln zur Gasentfernung.",
+        "B: Sie verwendet chemische Reaktionen, um Gase zu binden.",
+        "C: Sie nutzt niedrige Temperaturen, um Gase zu verflüssigen und zu entfernen.",
+        "D: Sie erzeugt ein Vakuum durch mechanische Bewegung von Kolben."
+      ],
+      "correct_answer": "C",
+      "explanation": "Eine Kryopumpe funktioniert, indem sie Gase bei sehr niedrigen Temperaturen verflüssigt oder festhält, wodurch ein Vakuum erzeugt wird. Diese Technik ist besonders effektiv für das Entfernen von Gasen aus Vakuumkammern.",
+      "difficulty": 4,
+      "subcategory": "Kryo- & Sorptionspumpen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Fresnelsche Beugung (qualitativ)",
+      "question": "Was beschreibt die Fresnelsche Beugung?",
+      "choices": [
+        "A: Die Reflexion von Licht an einer glatten Oberfläche.",
+        "B: Die Brechung von Licht an einer Linse.",
+        "C: Die Polarisation von Licht durch Filter.",
+        "D: Die Ausbreitung von Lichtwellen um Hindernisse herum."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Fresnelsche Beugung beschreibt, wie Lichtwellen sich um Kanten und Hindernisse ausbreiten und dabei interferieren. Diese Beugungsphänomene sind oft bei Licht, das durch schmale Spalte oder um Objekte herumtritt, zu beobachten.",
+      "difficulty": 4,
+      "subcategory": "Fresnelsche Beugung (qualitativ)"
+    }
+  ]
+}
