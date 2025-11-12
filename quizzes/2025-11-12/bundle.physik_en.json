@@ -1,0 +1,168 @@
+{
+  "date": "2025-11-12",
+  "generated_at": "2025-11-12T03:44:44Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Phasen (Definitionen, Beispiele)",
+      "question": "Which of the following statements best describes the critical point of a substance?",
+      "choices": [
+        "A: It is the point at which all chemical reactions come to a halt.",
+        "B: It is the point at which the density of liquid and vapor is equal.",
+        "C: It is the point at which a substance reaches its highest pressure.",
+        "D: It is the point at which a substance is completely frozen."
+      ],
+      "correct_answer": "B",
+      "explanation": "The critical point of a substance is the state at which the properties of liquid and vapor are no longer distinguishable, leading to a single phase. Here, density and temperature are such that there is no clear separation between the states of matter.",
+      "difficulty": 7,
+      "subcategory": "Phasen (Definitionen, Beispiele)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Einfache Anwendungen der Lagrange-Gleichungen",
+      "question": "Which of the following statements correctly describes the application of Lagrange equations to a simple pendulum?",
+      "choices": [
+        "A: Lagrange equations cannot be applied to systems with multiple degrees of freedom.",
+        "B: Lagrange equations allow for deriving the equations of motion based on kinetic and potential energy.",
+        "C: Lagrange equations are only suitable for non-conservative systems.",
+        "D: The use of Lagrange equations always requires knowledge of external forces."
+      ],
+      "correct_answer": "B",
+      "explanation": "The Lagrange equations are based on the principle of virtual work and allow for deriving the equations of motion of a system by the difference between kinetic and potential energy. This is particularly useful for systems like the simple pendulum, where motion can be described by these energies.",
+      "difficulty": 6,
+      "subcategory": "Einfache Anwendungen der Lagrange-Gleichungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Detektoren (Nachweismethoden)",
+      "question": "Which of the following detection methods is commonly used for measuring ionizing radiation?",
+      "choices": [
+        "A: Geiger-Müller counter",
+        "B: Spectroscopy",
+        "C: Thermocouple",
+        "D: Photodiodes"
+      ],
+      "correct_answer": "A",
+      "explanation": "The Geiger-Müller counter is a widely used instrument for detecting ionizing radiation such as alpha, beta, and gamma radiation. It operates by capturing the ionizing particles and converting them into electrical pulses, which are then counted.",
+      "difficulty": 7,
+      "subcategory": "Detektoren (Nachweismethoden)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Maxwell-Gleichungen in kovarianter Form",
+      "question": "What do the Maxwell equations describe in their covariant form?",
+      "choices": [
+        "A: The structure of atoms.",
+        "B: The interactions between electric and magnetic fields.",
+        "C: The quantum nature of light.",
+        "D: The motion of mass in a gravitational field."
+      ],
+      "correct_answer": "B",
+      "explanation": "The Maxwell equations in covariant form are fundamental for understanding electromagnetism and describe how electric and magnetic fields interact and propagate in space and time. They are a central element of the theory of relativity, linking the concepts of electricity and magnetism in a unified framework.",
+      "difficulty": 1,
+      "subcategory": "Maxwell-Gleichungen in kovarianter Form"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Beugung am Doppelspalt",
+      "question": "What does the phenomenon of diffraction at a double slit describe?",
+      "choices": [
+        "A: The absorption of light by an opaque material.",
+        "B: The deflection of light rays by a prism.",
+        "C: The reflection of light on a smooth surface.",
+        "D: The interference of light waves passing through two closely spaced slits."
+      ],
+      "correct_answer": "D",
+      "explanation": "The phenomenon of diffraction at a double slit shows how light waves interfere when passing through two narrow slits. This results in a characteristic pattern of bright and dark fringes, attributed to the superposition of waves.",
+      "difficulty": 6,
+      "subcategory": "Beugung am Doppelspalt"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "H-Theorem, Irreversibilität & lokale Maxwell-Verteilung",
+      "question": "What does the H-theorem describe in statistical mechanics?",
+      "choices": [
+        "A: The motion of particles in an electric field.",
+        "B: The gravitational force between two masses.",
+        "C: The interaction between light and matter.",
+        "D: The increase of entropy in a closed system over time."
+      ],
+      "correct_answer": "D",
+      "explanation": "The H-theorem states that the entropy of a closed system increases over time, leading to the irreversibility of thermodynamic processes. It is a central concept in statistical mechanics that describes the direction of time and the increase in disorder.",
+      "difficulty": 3,
+      "subcategory": "H-Theorem, Irreversibilität & lokale Maxwell-Verteilung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Quadratintegrable Funktionen H=L^2",
+      "question": "What does it mean for a function to be square integrable?",
+      "choices": [
+        "A: The function has only positive values.",
+        "B: The function is continuous and differentiable.",
+        "C: The function is integrable in a specific interval and the integral of its square is finite.",
+        "D: The function is periodic."
+      ],
+      "correct_answer": "C",
+      "explanation": "A function is square integrable if the integral of its square over the entire domain is finite. This is an important condition in quantum mechanics, especially when working with state functions in the Hilbert space L^2.",
+      "difficulty": 4,
+      "subcategory": "Quadratintegrable Funktionen H=L^2"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Kepler-Problem (HJ/AA-Formalismus)",
+      "question": "Which of the following laws does not describe the motion of planets within the framework of the Kepler problem?",
+      "choices": [
+        "A: The acceleration of a planet is constant and depends only on the mass of the planet.",
+        "B: The total mechanical energy remains constant during the elliptical orbit.",
+        "C: The orbital period of a planet is proportional to the third power of its major axis.",
+        "D: The area swept by a planet in a specific time is constant."
+      ],
+      "correct_answer": "A",
+      "explanation": "The Kepler problem describes the motion of planets around the Sun and includes laws that consider gravitational forces and elliptical orbits. Statement D is incorrect as the acceleration of a planet is not constant and depends on the distance from the Sun, not just its mass.",
+      "difficulty": 10,
+      "subcategory": "Kepler-Problem (HJ/AA-Formalismus)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Kraft & Drehmoment auf Stromverteilungen",
+      "question": "Which statement best describes the influence of a magnetic field on a current-carrying conductor?",
+      "choices": [
+        "A: The conductor always heats up when a magnetic field is applied.",
+        "B: The conductor remains unaffected, regardless of the strength of the magnetic field.",
+        "C: The conductor experiences a force that is perpendicular to the direction of the current and the magnetic field.",
+        "D: The conductor experiences a force that acts parallel to the direction of the current."
+      ],
+      "correct_answer": "C",
+      "explanation": "When a current-carrying conductor is placed in a magnetic field, it experiences a Lorentz force. This force acts perpendicular to both the direction of the current and the direction of the magnetic field, forming the basis for many electromagnetic applications.",
+      "difficulty": 4,
+      "subcategory": "Kraft & Drehmoment auf Stromverteilungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Phasenintegralquantisierung",
+      "question": "What does the phase integral describe in quantum mechanics?",
+      "choices": [
+        "A: The relationship between energy and time.",
+        "B: The interaction between two particles.",
+        "C: The quantization of energy states through phase spaces.",
+        "D: The path taken by a particle in space."
+      ],
+      "correct_answer": "C",
+      "explanation": "The phase integral is a central concept in quantum mechanics that describes how the phases of wave functions are quantized in a specific space. This quantization is crucial for understanding energy states in quantum mechanical systems.",
+      "difficulty": 5,
+      "subcategory": "Phasenintegralquantisierung"
+    }
+  ]
+}
