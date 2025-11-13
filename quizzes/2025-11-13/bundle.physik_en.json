@@ -1,0 +1,168 @@
+{
+  "date": "2025-11-13",
+  "generated_at": "2025-11-13T03:47:14Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Wirkungs- und Winkelvariable (Action-Angle)",
+      "question": "Welche Aussage über die Action-Angle-Variablen in der analytischen Mechanik ist korrekt?",
+      "choices": [
+        "A: Die Action-Variablen sind immer negativ.",
+        "B: Die Winkelvariablen sind unabhängig von der Zeit.",
+        "C: Die Winkelvariable beschreibt die Änderungen der Kraft im System.",
+        "D: Die Action-Variable bleibt in einem konservativen System konstant."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Action-Variable ist ein Maß für die gesamte Bewegung eines Systems und bleibt in einem konservativen System konstant, was die Erhaltung der Energie widerspiegelt. Die Winkelvariablen hingegen sind nicht unabhängig von der Zeit, sondern hängen von der Bewegung des Systems ab.",
+      "difficulty": 6,
+      "subcategory": "Wirkungs- und Winkelvariable (Action-Angle)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Auftrieb & Schwimmen",
+      "question": "Welches Prinzip erklärt, warum ein Schiff, das aus einem schweren Material wie Stahl besteht, auf dem Wasser schwimmt?",
+      "choices": [
+        "A: Das Prinzip der Impulserhaltung",
+        "B: Das Gesetz von Newton",
+        "C: Das Prinzip von Archimedes",
+        "D: Das Bernoulli-Prinzip"
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Prinzip von Archimedes besagt, dass ein Körper in einer Flüssigkeit eine Auftriebskraft erfährt, die gleich dem Gewicht der verdrängten Flüssigkeit ist. Ein Schiff aus Stahl schwimmt, weil sein Gesamtgewicht kleiner ist als die Auftriebskraft, die es erzeugt, wenn es eine bestimmte Menge Wasser verdrängt.",
+      "difficulty": 10,
+      "subcategory": "Auftrieb & Schwimmen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Leptonpaar‑Erzeugung",
+      "question": "Was ist eine Voraussetzung für die Erzeugung eines Leptonenpaars in einem Teilchenprozess?",
+      "choices": [
+        "A: Es muss eine Wechselwirkung mit einem anderen Lepton stattfinden.",
+        "B: Die Energie des Prozesses muss mindestens die Ruhemasse der beiden Leptonen überschreiten.",
+        "C: Die Temperatur des Systems muss über einen bestimmten Wert liegen.",
+        "D: Der Prozess muss in einem Vakuum stattfinden."
+      ],
+      "correct_answer": "B",
+      "explanation": "Für die Erzeugung eines Leptonenpaars muss die verfügbare Energie mindestens der Gesamtmasse der beiden Leptonen entsprechen, gemäß der Energie-Masse-Äquivalenz. Dies ist eine grundlegende Anforderung in der Teilchenphysik, um solche Prozesse zu ermöglichen.",
+      "difficulty": 5,
+      "subcategory": "Leptonpaar‑Erzeugung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Gefrierpunktserniedrigung/Siedepunktserhöhung",
+      "question": "Was bewirkt das Hinzufügen von Salz in Wasser in Bezug auf den Gefrierpunkt?",
+      "choices": [
+        "A: Der Gefrierpunkt wird erhöht.",
+        "B: Der Gefrierpunkt wird gesenkt.",
+        "C: Der Gefrierpunkt bleibt gleich.",
+        "D: Das Wasser gefriert sofort."
+      ],
+      "correct_answer": "B",
+      "explanation": "Das Hinzufügen von Salz zu Wasser senkt den Gefrierpunkt, ein Phänomen, das als Gefrierpunktserniedrigung bekannt ist. Dies geschieht, weil die gelösten Salze die Bildung von Eiskristallen im Wasser behindern, wodurch eine niedrigere Temperatur erforderlich ist, um zu gefrieren.",
+      "difficulty": 5,
+      "subcategory": "Gefrierpunktserniedrigung/Siedepunktserhöhung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Legendre-Transformation (U↔H↔F↔G)",
+      "question": "Welche der folgenden Beziehungen beschreibt die Legendre-Transformation vom inneren Energie U zur Enthalpie H?",
+      "choices": [
+        "A: H = U + pV",
+        "B: H = U + T/S",
+        "C: H = U - pV",
+        "D: H = U - T/S"
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Legendre-Transformation von der inneren Energie U zur Enthalpie H erfolgt durch die Beziehung H = U + pV, wobei p den Druck und V das Volumen des Systems darstellen. Diese Transformation ist wichtig, um die Enthalpie in verschiedenen thermodynamischen Prozessen zu verwenden.",
+      "difficulty": 5,
+      "subcategory": "Legendre-Transformation (U↔H↔F↔G)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Homogenitätsrelationen (Euler/Gibbs-Duhem)",
+      "question": "Welche Aussage beschreibt die Gibbs-Duhem-Gleichung korrekt?",
+      "choices": [
+        "A: Sie beschreibt die Änderung der inneren Energie eines Systems bei konstantem Volumen.",
+        "B: Sie beschreibt die Beziehung zwischen Temperatur und Druck in einem idealen Gas.",
+        "C: Sie beschreibt die Beziehung zwischen chemischen Potentialen und der Temperatur.",
+        "D: Sie beschreibt die Beziehung zwischen der Entropie und der Temperatur eines Systems."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Gibbs-Duhem-Gleichung stellt eine Beziehung zwischen den chemischen Potentialen verschiedener Komponenten in einem thermodynamischen System her. Sie ist besonders wichtig in der Thermodynamik, um die Auswirkungen von Temperatur und Druck auf die chemischen Eigenschaften eines Systems zu verstehen.",
+      "difficulty": 5,
+      "subcategory": "Homogenitätsrelationen (Euler/Gibbs-Duhem)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Ferromagnetismus: Austausch & Ising-MF",
+      "question": "Was beschreibt das Austauschinteraktion im Ferromagnetismus?",
+      "choices": [
+        "A: Die Wechselwirkung zwischen benachbarten Spins.",
+        "B: Die Energie der Spin-anregungen.",
+        "C: Die spezifische Wärme eines Ferromagneten.",
+        "D: Die Temperaturabhängigkeit der magnetischen Ordnung."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Austauschinteraktion ist ein zentrales Konzept im Ferromagnetismus, das beschreibt, wie benachbarte Spins miteinander wechselwirken. Diese Wechselwirkung führt dazu, dass Spins in der gleichen Richtung ausgerichtet werden, was zur magnetischen Ordnung beiträgt.",
+      "difficulty": 2,
+      "subcategory": "Ferromagnetismus: Austausch & Ising-MF"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Beugung am Doppelspalt",
+      "question": "Was bewirkt die Beugung von Lichtstrahlen am Doppelspalt?",
+      "choices": [
+        "A: Die Änderung der Lichtgeschwindigkeit.",
+        "B: Die Absorption des Lichts.",
+        "C: Eine Erhöhung der Lichtintensität.",
+        "D: Die Entstehung eines Interferenzmusters."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Beugung am Doppelspalt führt zur Überlagerung der von den Spalten ausgestrahlten Lichtwellen, was ein charakteristisches Interferenzmuster erzeugt. Dieses Muster besteht aus hellen und dunklen Streifen, die durch konstruktive und destruktive Interferenz entstehen.",
+      "difficulty": 5,
+      "subcategory": "Beugung am Doppelspalt"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Zwangsbedingungen & generalisierte Koordinaten",
+      "question": "Was beschreibt eine Zwangsbedingung in der analytischen Mechanik?",
+      "choices": [
+        "A: Eine Methode zur Berechnung der Geschwindigkeit eines Objekts.",
+        "B: Eine Maßnahme zur Erhöhung der Energie eines Systems.",
+        "C: Eine Kraft, die auf ein System wirkt und seine Bewegung beeinflusst.",
+        "D: Eine Beziehung zwischen den generalisierten Koordinaten, die die Bewegung des Systems einschränkt."
+      ],
+      "correct_answer": "D",
+      "explanation": "Eine Zwangsbedingung ist eine Einschränkung, die die Bewegungsfreiheit eines Systems reduziert, indem sie eine Beziehung zwischen den generalisierten Koordinaten herstellt. Diese Bedingungen sind entscheidend für die Analyse von Systemen in der analytischen Mechanik.",
+      "difficulty": 3,
+      "subcategory": "Zwangsbedingungen & generalisierte Koordinaten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Gluonenabstrahlung (Jets)",
+      "question": "Welche Aussage über die Gluonenabstrahlung in Quark-Jets ist korrekt?",
+      "choices": [
+        "A: Gluonenabstrahlung tritt nur bei hohen Energien auf und ist der Hauptmechanismus zur Erzeugung von Jets.",
+        "B: Gluonenabstrahlung führt zu einer Verringerung der Anzahl der Quarks in einem Jet.",
+        "C: Bei der Gluonenabstrahlung entstehen immer genau zwei Jets.",
+        "D: Gluonen können nicht in Quark-Jets emittiert werden, da sie nur für Hadronen relevant sind."
+      ],
+      "correct_answer": "A",
+      "explanation": "Gluonenabstrahlung ist ein wesentlicher Prozess in der Quantenchromodynamik, der zur Erzeugung von Quark-Jets beiträgt, insbesondere bei hohen Energien. Sie ist entscheidend für das Verständnis, wie Teilchen bei Kollisionen in hohen Energiebereichen interagieren und zerfallen.",
+      "difficulty": 7,
+      "subcategory": "Gluonenabstrahlung (Jets)"
+    }
+  ]
+}
