@@ -1,106 +1,103 @@
 {
   "date": "2025-11-13",
-  "generated_at": "2025-11-13T03:46:36Z",
+  "generated_at": "2025-11-13T06:14:46Z",
   "schema_version": 6,
   "mode": "schwer",
   "questions": [
     {
-      "category": "Geographie",
-      "topic": "Hauptstädte",
-      "question": "Which capital city in Asia is located on the banks of the Yangtze River?",
+      "question": "Who is the current President of the United States?",
       "choices": [
-        "A: New Delhi",
-        "B: Ulaanbaatar",
-        "C: Hanoi",
-        "D: Nanjing"
+        "A. Joe Biden",
+        "B. Donald Trump",
+        "C. Barack Obama"
       ],
-      "correct_answer": "D",
-      "explanation": "Nanjing is a significant city in China and is situated directly on the Yangtze River, one of the longest rivers in the world. New Delhi is the capital of India, Hanoi is the capital of Vietnam, and Ulaanbaatar is the capital of Mongolia, but these are not located on the Yangtze River.",
-      "difficulty": 7
-    },
-    {
-      "category": "Glaube & Religion",
-      "topic": "Klassische & nordische Mythologien",
-      "question": "Which work is often considered one of the oldest sources of Greek mythology, describing the genealogy of the gods and mythological narratives?",
-      "choices": [
-        "A: Metamorphoses by Ovid",
-        "B: Argonautica by Apollonius of Rhodes",
-        "C: Iliad by Homer",
-        "D: Theogony by Hesiod"
-      ],
-      "correct_answer": "D",
-      "explanation": "Hesiod's 'Theogony,' written in the 8th century BCE, is regarded as one of the earliest and most important sources of Greek mythology. It provides a comprehensive overview of the origins of the gods and their relationships.",
-      "difficulty": 10
-    },
-    {
-      "category": "Natur",
-      "topic": "Tierwelt",
-      "question": "Which of the following pairs of taxonomic levels is correctly matched and represents the next hierarchical step within the biological system?",
-      "choices": [
-        "A: Family - Genus",
-        "B: Order - Class",
-        "C: Genus - Species",
-        "D: Class - Order"
-      ],
-      "correct_answer": "D",
-      "explanation": "In biological classification, the order follows the class as the next higher taxonomic level. The correct hierarchy is: Domain > Kingdom > Phylum > Class > Order. The other options do not contain correct hierarchical steps in the biological classification system.",
-      "difficulty": 8
-    },
-    {
-      "category": "Kunst und Literatur",
-      "topic": "Musikgeschichte & Epochen",
-      "question": "Which of the following musical forms was particularly influential in the development of polyphonic music during the Middle Ages?",
-      "choices": [
-        "A: Symphony",
-        "B: Cantata",
-        "C: Sonata",
-        "D: Organum"
-      ],
-      "correct_answer": "D",
-      "explanation": "Organum is one of the earliest forms of polyphonic music that emerged in the early Middle Ages. It is based on Gregorian chant and laid the foundation for the development of more complex musical structures in the Middle Ages and beyond.",
-      "difficulty": 8
-    },
-    {
-      "category": "Geschichte",
-      "topic": "Antike",
-      "question": "Which Roman emperor was known for his eccentric rule and was posthumously referred to as 'Nero the Fiddler'?",
-      "choices": [
-        "A: Trajan",
-        "B: Hadrian",
-        "C: Nero",
-        "D: Commodus"
-      ],
-      "correct_answer": "C",
-      "explanation": "Nero ruled from 54 to 68 AD and is infamous for his extravagant spending and the alleged burning of Rome. His death marked the end of the Julio-Claudian dynasty and led to a power vacuum in Rome.",
-      "difficulty": 6
+      "correct_answer": "A",
+      "difficulty": 1,
+      "category": "politics"
     },
     {
       "category": "Language",
-      "topic": "Idioms",
-      "question": "What does the idiom 'kick the bucket' mean?",
+      "topic": "Grammar",
+      "question": "In the sentence 'The cat chased the mouse quickly', what is the subject?",
       "choices": [
-        "A: To die",
-        "B: To start a project",
-        "C: To lose something valuable",
-        "D: To take a break"
+        "A: The cat",
+        "B: chased",
+        "C: the mouse",
+        "D: quickly"
       ],
       "correct_answer": "A",
-      "explanation": "'Kick the bucket' is a metaphorical expression for dying. The phrase originates from a method of suicide where a bucket was kicked away, leading to death, although its usage has evolved to simply refer to the end of life.",
+      "explanation": "The subject of a sentence is the person or thing that performs the action. In this case, 'The cat' is the one performing the action of chasing.",
+      "difficulty": 8
+    },
+    {
+      "category": "Glaube & Religion",
+      "topic": "Monotheistische Religionen",
+      "question": "Which book of the New Testament is not one of the Gospels?",
+      "choices": [
+        "A: Acts of the Apostles",
+        "B: Matthew",
+        "C: Luke",
+        "D: Mark"
+      ],
+      "correct_answer": "A",
+      "explanation": "The Acts of the Apostles is a standalone book in the New Testament that describes the actions of the apostles after the death of Jesus. The Gospels, on the other hand, are the accounts of the life, teachings, and resurrection of Jesus Christ and include Matthew, Mark, Luke, and John.",
+      "difficulty": 9
+    },
+    {
+      "category": "Natur",
+      "topic": "Lebensräume & Ökosysteme",
+      "question": "Which of the following elements is a primary component of the food chain in a terrestrial ecosystem?",
+      "choices": [
+        "A: Decomposers",
+        "B: Consumers",
+        "C: All of the above",
+        "D: Producers"
+      ],
+      "correct_answer": "D",
+      "explanation": "Producers, such as plants, form the basis of the food chain as they gain energy from sunlight through photosynthesis. Consumers and decomposers are also important, but producers are the first to provide energy in the chain.",
       "difficulty": 6
     },
     {
-      "category": "Sport",
-      "topic": "Fußball",
-      "question": "Which country won the first FIFA World Cup in 1930?",
+      "category": "Wissenschaft",
+      "topic": "Chemie",
+      "question": "Which of the following statements correctly describes the concept of activation energy in a chemical reaction?",
       "choices": [
-        "A: Argentina",
-        "B: Italy",
-        "C: Germany",
-        "D: Brazil"
+        "A: Activation energy is the amount of energy needed to start the reaction and reach the transition state.",
+        "B: Activation energy is irrelevant for exothermic reactions.",
+        "C: Activation energy is the total energy released in the reaction.",
+        "D: Activation energy is always the same, regardless of reaction rate."
       ],
       "correct_answer": "A",
-      "explanation": "The first FIFA World Cup took place in Uruguay in 1930, and the host country Argentina emerged as the tournament champions. This World Cup is considered the birth of modern international football and set the stage for future World Cups.",
+      "explanation": "Activation energy is a critical factor in chemical reactions as it describes the energy required to bring the reactants to a transition state. It influences the reaction rate and is crucial for understanding reaction mechanisms.",
+      "difficulty": 10
+    },
+    {
+      "category": "Kunst und Literatur",
+      "topic": "Bildende Kunst & Malerei",
+      "question": "Which of the following artists is not associated with the development of Cubism?",
+      "choices": [
+        "A: Georges Braque",
+        "B: Juan Gris",
+        "C: Pablo Picasso",
+        "D: Henri Matisse"
+      ],
+      "correct_answer": "D",
+      "explanation": "Henri Matisse was a leading figure of Fauvism, a movement characterized by vibrant colors and expressive forms. In contrast, Picasso and Braque are central figures of Cubism, which focuses on the deconstruction of forms and multiple perspectives.",
       "difficulty": 7
+    },
+    {
+      "category": "Geographie",
+      "topic": "Hauptstädte",
+      "question": "Which of the following capitals is the northernmost?",
+      "choices": [
+        "A: Ulaanbaatar",
+        "B: Beijing",
+        "C: Tokyo",
+        "D: Seoul"
+      ],
+      "correct_answer": "A",
+      "explanation": "Ulaanbaatar, the capital of Mongolia, is located further north than Tokyo, Beijing, and Seoul. These cities are all situated further south in Asia, while Ulaanbaatar lies in the cold steppe of northern Mongolia.",
+      "difficulty": 6
     }
   ]
 }

@@ -1,168 +1,168 @@
 {
   "date": "2025-11-13",
-  "generated_at": "2025-11-13T03:47:14Z",
+  "generated_at": "2025-11-13T06:15:06Z",
   "schema_version": 6,
   "mode": "physik",
   "questions": [
     {
       "category": "Physik",
-      "topic": "Analytische Mechanik",
-      "subtopic": "Wirkungs- und Winkelvariable (Action-Angle)",
-      "question": "Welche Aussage über die Action-Angle-Variablen in der analytischen Mechanik ist korrekt?",
+      "topic": "Festkörperphysik",
+      "subtopic": "Wärmekapazität von Gläsern (tiefe T)",
+      "question": "Which effect most strongly influences the heat capacity of glasses at low temperatures?",
       "choices": [
-        "A: Die Action-Variablen sind immer negativ.",
-        "B: Die Winkelvariablen sind unabhängig von der Zeit.",
-        "C: Die Winkelvariable beschreibt die Änderungen der Kraft im System.",
-        "D: Die Action-Variable bleibt in einem konservativen System konstant."
+        "A: Magnetic anisotropy",
+        "B: Temperature dependence of the crystal lattice structure",
+        "C: Debye model of phononic contribution",
+        "D: Influence of electron effects"
       ],
-      "correct_answer": "D",
-      "explanation": "Die Action-Variable ist ein Maß für die gesamte Bewegung eines Systems und bleibt in einem konservativen System konstant, was die Erhaltung der Energie widerspiegelt. Die Winkelvariablen hingegen sind nicht unabhängig von der Zeit, sondern hängen von der Bewegung des Systems ab.",
-      "difficulty": 6,
-      "subcategory": "Wirkungs- und Winkelvariable (Action-Angle)"
+      "correct_answer": "C",
+      "explanation": "The Debye model describes how phononic contributions dominate the heat capacity at low temperatures. These contributions are crucial as they consider the mechanical vibrations of the lattice, which become significant at low temperatures.",
+      "difficulty": 9,
+      "subcategory": "Wärmekapazität von Gläsern (tiefe T)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Kanonisches Ensemble: Dichtematrix & Zustandssumme",
+      "question": "What does the partition function describe in a canonical ensemble?",
+      "choices": [
+        "A: It indicates the number of possible microstates of a system.",
+        "B: It provides the energy of a single particle.",
+        "C: It describes the movements of particles in a system.",
+        "D: It calculates the temperature of a system."
+      ],
+      "correct_answer": "A",
+      "explanation": "The partition function of a canonical ensemble is a central quantity that describes the number of possible microstates of a thermodynamic system. It is crucial for calculating thermodynamic properties such as energy and entropy.",
+      "difficulty": 3,
+      "subcategory": "Kanonisches Ensemble: Dichtematrix & Zustandssumme"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Nichtresonante Hadronerzeugung (R‑Verhältnis)",
+      "question": "What does the R-ratio describe in non-resonant hadron production?",
+      "choices": [
+        "A: The ratio of the number of produced hadrons to the energy quanta used.",
+        "B: The ratio of the lifetime of hadrons to their mass.",
+        "C: The ratio of quark-antiquark pairs to gluons in a proton.",
+        "D: The ratio of kinetic energy to potential energy in hadrons."
+      ],
+      "correct_answer": "A",
+      "explanation": "The R-ratio is an important parameter in particle physics that indicates how many hadrons are produced from a certain energy quantum. It helps to understand the efficiency of hadron production in collision experiments.",
+      "difficulty": 4,
+      "subcategory": "Nichtresonante Hadronerzeugung (R‑Verhältnis)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Natürliche Zustandsvariablen (U, H, F, G)",
+      "question": "Which of the following state quantities describes the free enthalpy of a system?",
+      "choices": [
+        "A: G",
+        "B: F",
+        "C: H",
+        "D: U"
+      ],
+      "correct_answer": "A",
+      "explanation": "The free enthalpy, also known as Gibbs energy, is represented by the symbol G. It is an important state quantity in thermodynamics that indicates how much work a system can perform at constant pressure and temperature.",
+      "difficulty": 5,
+      "subcategory": "Natürliche Zustandsvariablen (U, H, F, G)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Multipolentwicklung",
+      "question": "What does the multipole expansion describe in electrodynamics?",
+      "choices": [
+        "A: The analysis of thermal effects in electrical circuits.",
+        "B: The calculation of magnetic fields in moving conductors.",
+        "C: The approximation of electric fields by a series of simple fields.",
+        "D: Determining the speed of light in different media."
+      ],
+      "correct_answer": "C",
+      "explanation": "The multipole expansion is a method to approximate complex electric fields by a sum of simpler fields, such as monopoles, dipoles, and quadrupoles. This technique is particularly useful in theoretical electrodynamics for simplifying calculations and analyzing field-theoretical problems.",
+      "difficulty": 5,
+      "subcategory": "Multipolentwicklung"
     },
     {
       "category": "Physik",
       "topic": "Klassische Mechanik",
-      "subtopic": "Auftrieb & Schwimmen",
-      "question": "Welches Prinzip erklärt, warum ein Schiff, das aus einem schweren Material wie Stahl besteht, auf dem Wasser schwimmt?",
+      "subtopic": "Diffusion (in Gasen)",
+      "question": "Which statement best describes the process of diffusion in gases?",
       "choices": [
-        "A: Das Prinzip der Impulserhaltung",
-        "B: Das Gesetz von Newton",
-        "C: Das Prinzip von Archimedes",
-        "D: Das Bernoulli-Prinzip"
-      ],
-      "correct_answer": "C",
-      "explanation": "Das Prinzip von Archimedes besagt, dass ein Körper in einer Flüssigkeit eine Auftriebskraft erfährt, die gleich dem Gewicht der verdrängten Flüssigkeit ist. Ein Schiff aus Stahl schwimmt, weil sein Gesamtgewicht kleiner ist als die Auftriebskraft, die es erzeugt, wenn es eine bestimmte Menge Wasser verdrängt.",
-      "difficulty": 10,
-      "subcategory": "Auftrieb & Schwimmen"
-    },
-    {
-      "category": "Physik",
-      "topic": "Kern- und Teilchenphysik",
-      "subtopic": "Leptonpaar‑Erzeugung",
-      "question": "Was ist eine Voraussetzung für die Erzeugung eines Leptonenpaars in einem Teilchenprozess?",
-      "choices": [
-        "A: Es muss eine Wechselwirkung mit einem anderen Lepton stattfinden.",
-        "B: Die Energie des Prozesses muss mindestens die Ruhemasse der beiden Leptonen überschreiten.",
-        "C: Die Temperatur des Systems muss über einen bestimmten Wert liegen.",
-        "D: Der Prozess muss in einem Vakuum stattfinden."
+        "A: Molecules always move in uniform paths without interactions.",
+        "B: Molecules move from areas of high concentration to areas of low concentration.",
+        "C: Temperature has no effect on the rate of diffusion.",
+        "D: Diffusion only occurs in liquids."
       ],
       "correct_answer": "B",
-      "explanation": "Für die Erzeugung eines Leptonenpaars muss die verfügbare Energie mindestens der Gesamtmasse der beiden Leptonen entsprechen, gemäß der Energie-Masse-Äquivalenz. Dies ist eine grundlegende Anforderung in der Teilchenphysik, um solche Prozesse zu ermöglichen.",
-      "difficulty": 5,
-      "subcategory": "Leptonpaar‑Erzeugung"
-    },
-    {
-      "category": "Physik",
-      "topic": "Statistische Mechanik",
-      "subtopic": "Gefrierpunktserniedrigung/Siedepunktserhöhung",
-      "question": "Was bewirkt das Hinzufügen von Salz in Wasser in Bezug auf den Gefrierpunkt?",
-      "choices": [
-        "A: Der Gefrierpunkt wird erhöht.",
-        "B: Der Gefrierpunkt wird gesenkt.",
-        "C: Der Gefrierpunkt bleibt gleich.",
-        "D: Das Wasser gefriert sofort."
-      ],
-      "correct_answer": "B",
-      "explanation": "Das Hinzufügen von Salz zu Wasser senkt den Gefrierpunkt, ein Phänomen, das als Gefrierpunktserniedrigung bekannt ist. Dies geschieht, weil die gelösten Salze die Bildung von Eiskristallen im Wasser behindern, wodurch eine niedrigere Temperatur erforderlich ist, um zu gefrieren.",
-      "difficulty": 5,
-      "subcategory": "Gefrierpunktserniedrigung/Siedepunktserhöhung"
-    },
-    {
-      "category": "Physik",
-      "topic": "Thermodynamik",
-      "subtopic": "Legendre-Transformation (U↔H↔F↔G)",
-      "question": "Welche der folgenden Beziehungen beschreibt die Legendre-Transformation vom inneren Energie U zur Enthalpie H?",
-      "choices": [
-        "A: H = U + pV",
-        "B: H = U + T/S",
-        "C: H = U - pV",
-        "D: H = U - T/S"
-      ],
-      "correct_answer": "A",
-      "explanation": "Die Legendre-Transformation von der inneren Energie U zur Enthalpie H erfolgt durch die Beziehung H = U + pV, wobei p den Druck und V das Volumen des Systems darstellen. Diese Transformation ist wichtig, um die Enthalpie in verschiedenen thermodynamischen Prozessen zu verwenden.",
-      "difficulty": 5,
-      "subcategory": "Legendre-Transformation (U↔H↔F↔G)"
-    },
-    {
-      "category": "Physik",
-      "topic": "Thermodynamik",
-      "subtopic": "Homogenitätsrelationen (Euler/Gibbs-Duhem)",
-      "question": "Welche Aussage beschreibt die Gibbs-Duhem-Gleichung korrekt?",
-      "choices": [
-        "A: Sie beschreibt die Änderung der inneren Energie eines Systems bei konstantem Volumen.",
-        "B: Sie beschreibt die Beziehung zwischen Temperatur und Druck in einem idealen Gas.",
-        "C: Sie beschreibt die Beziehung zwischen chemischen Potentialen und der Temperatur.",
-        "D: Sie beschreibt die Beziehung zwischen der Entropie und der Temperatur eines Systems."
-      ],
-      "correct_answer": "C",
-      "explanation": "Die Gibbs-Duhem-Gleichung stellt eine Beziehung zwischen den chemischen Potentialen verschiedener Komponenten in einem thermodynamischen System her. Sie ist besonders wichtig in der Thermodynamik, um die Auswirkungen von Temperatur und Druck auf die chemischen Eigenschaften eines Systems zu verstehen.",
-      "difficulty": 5,
-      "subcategory": "Homogenitätsrelationen (Euler/Gibbs-Duhem)"
-    },
-    {
-      "category": "Physik",
-      "topic": "Statistische Mechanik",
-      "subtopic": "Ferromagnetismus: Austausch & Ising-MF",
-      "question": "Was beschreibt das Austauschinteraktion im Ferromagnetismus?",
-      "choices": [
-        "A: Die Wechselwirkung zwischen benachbarten Spins.",
-        "B: Die Energie der Spin-anregungen.",
-        "C: Die spezifische Wärme eines Ferromagneten.",
-        "D: Die Temperaturabhängigkeit der magnetischen Ordnung."
-      ],
-      "correct_answer": "A",
-      "explanation": "Die Austauschinteraktion ist ein zentrales Konzept im Ferromagnetismus, das beschreibt, wie benachbarte Spins miteinander wechselwirken. Diese Wechselwirkung führt dazu, dass Spins in der gleichen Richtung ausgerichtet werden, was zur magnetischen Ordnung beiträgt.",
-      "difficulty": 2,
-      "subcategory": "Ferromagnetismus: Austausch & Ising-MF"
-    },
-    {
-      "category": "Physik",
-      "topic": "Optik",
-      "subtopic": "Beugung am Doppelspalt",
-      "question": "Was bewirkt die Beugung von Lichtstrahlen am Doppelspalt?",
-      "choices": [
-        "A: Die Änderung der Lichtgeschwindigkeit.",
-        "B: Die Absorption des Lichts.",
-        "C: Eine Erhöhung der Lichtintensität.",
-        "D: Die Entstehung eines Interferenzmusters."
-      ],
-      "correct_answer": "D",
-      "explanation": "Die Beugung am Doppelspalt führt zur Überlagerung der von den Spalten ausgestrahlten Lichtwellen, was ein charakteristisches Interferenzmuster erzeugt. Dieses Muster besteht aus hellen und dunklen Streifen, die durch konstruktive und destruktive Interferenz entstehen.",
-      "difficulty": 5,
-      "subcategory": "Beugung am Doppelspalt"
+      "explanation": "Diffusion in gases occurs through the movement of molecules, which, due to their kinetic energy, move from areas of higher concentration to areas of lower concentration. This movement leads to a more uniform distribution of molecules in space. Temperature significantly influences the speed of this process as higher temperatures increase the kinetic energy of the molecules.",
+      "difficulty": 6,
+      "subcategory": "Diffusion (in Gasen)"
     },
     {
       "category": "Physik",
       "topic": "Analytische Mechanik",
-      "subtopic": "Zwangsbedingungen & generalisierte Koordinaten",
-      "question": "Was beschreibt eine Zwangsbedingung in der analytischen Mechanik?",
+      "subtopic": "Kanonische Transformationen (Motivation)",
+      "question": "Which of the following statements best describes the purpose of canonical transformations in analytical mechanics?",
       "choices": [
-        "A: Eine Methode zur Berechnung der Geschwindigkeit eines Objekts.",
-        "B: Eine Maßnahme zur Erhöhung der Energie eines Systems.",
-        "C: Eine Kraft, die auf ein System wirkt und seine Bewegung beeinflusst.",
-        "D: Eine Beziehung zwischen den generalisierten Koordinaten, die die Bewegung des Systems einschränkt."
+        "A: They lead to conservation of total energy in a closed system.",
+        "B: They allow the use of non-conservative forces in system analysis.",
+        "C: They are necessary to solve the equations of motion and calculate the energy of a system.",
+        "D: They enable the conversion of the Hamiltonian equations into a simpler form."
       ],
       "correct_answer": "D",
-      "explanation": "Eine Zwangsbedingung ist eine Einschränkung, die die Bewegungsfreiheit eines Systems reduziert, indem sie eine Beziehung zwischen den generalisierten Koordinaten herstellt. Diese Bedingungen sind entscheidend für die Analyse von Systemen in der analytischen Mechanik.",
-      "difficulty": 3,
-      "subcategory": "Zwangsbedingungen & generalisierte Koordinaten"
+      "explanation": "Canonical transformations are used to transform the Hamiltonian equations into a form that is often easier to analyze. They are a central tool for simplifying complex problems in analytical mechanics and preserving the structure of the underlying dynamics.",
+      "difficulty": 8,
+      "subcategory": "Kanonische Transformationen (Motivation)"
     },
     {
       "category": "Physik",
       "topic": "Kern- und Teilchenphysik",
-      "subtopic": "Gluonenabstrahlung (Jets)",
-      "question": "Welche Aussage über die Gluonenabstrahlung in Quark-Jets ist korrekt?",
+      "subtopic": "Massen der Baryonen",
+      "question": "Which of the following statements about the mass of the neutron is correct?",
       "choices": [
-        "A: Gluonenabstrahlung tritt nur bei hohen Energien auf und ist der Hauptmechanismus zur Erzeugung von Jets.",
-        "B: Gluonenabstrahlung führt zu einer Verringerung der Anzahl der Quarks in einem Jet.",
-        "C: Bei der Gluonenabstrahlung entstehen immer genau zwei Jets.",
-        "D: Gluonen können nicht in Quark-Jets emittiert werden, da sie nur für Hadronen relevant sind."
+        "A: The mass of the neutron is lower than that of the proton.",
+        "B: The mass of the neutron is about 939.6 MeV/c².",
+        "C: Neutrons have a negative electric charge.",
+        "D: The mass of the neutron is exactly 1 u."
+      ],
+      "correct_answer": "B",
+      "explanation": "The mass of the neutron is approximately 939.6 MeV/c², making it one of the heaviest baryons. In contrast, the mass of the proton is slightly lower, and neutrons are electrically neutral, not negatively charged.",
+      "difficulty": 7,
+      "subcategory": "Massen der Baryonen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Energietransport in Wellenfeldern (Poynting-Vektor)",
+      "question": "What does the Poynting vector describe in electromagnetic waves?",
+      "choices": [
+        "A: The frequency of the electromagnetic wave.",
+        "B: The direction and intensity of energy transport.",
+        "C: The magnetic flux density in a vacuum.",
+        "D: The electric field strength at a point."
+      ],
+      "correct_answer": "B",
+      "explanation": "The Poynting vector describes the flux density of electromagnetic energy and indicates both the direction and intensity of energy transport. It is an important concept for analyzing energy transfer in electromagnetic fields.",
+      "difficulty": 6,
+      "subcategory": "Energietransport in Wellenfeldern (Poynting-Vektor)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Bohr–Sommerfeld-Quantisierung (historisch)",
+      "question": "Which of the following concepts is a central part of Bohr-Sommerfeld quantization?",
+      "choices": [
+        "A: The quantized paths of electrons are defined by the condition of integer multiples of de Broglie wavelengths.",
+        "B: The energy of electrons in atoms is continuous and not quantized.",
+        "C: All particles behave like perfect spheres in a classical system.",
+        "D: The Planck constant is irrelevant for the motion of particles in an atom."
       ],
       "correct_answer": "A",
-      "explanation": "Gluonenabstrahlung ist ein wesentlicher Prozess in der Quantenchromodynamik, der zur Erzeugung von Quark-Jets beiträgt, insbesondere bei hohen Energien. Sie ist entscheidend für das Verständnis, wie Teilchen bei Kollisionen in hohen Energiebereichen interagieren und zerfallen.",
+      "explanation": "Bohr-Sommerfeld quantization introduces the idea that electrons orbit the atomic nucleus in quantized paths, with the condition that the orbit must be an integer multiple of the de Broglie wavelength. This was an important step in the development of quantum mechanics as it helped explain the spectral lines of atoms.",
       "difficulty": 7,
-      "subcategory": "Gluonenabstrahlung (Jets)"
+      "subcategory": "Bohr–Sommerfeld-Quantisierung (historisch)"
     }
   ]
 }
