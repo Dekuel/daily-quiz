@@ -1,0 +1,168 @@
+{
+  "date": "2025-11-14",
+  "generated_at": "2025-11-14T03:45:02Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Dritter Hauptsatz (Nernstsches Theorem): Konsequenzen",
+      "question": "Which statement describes a consequence of the Nernst theorem in the context of statistical mechanics?",
+      "choices": [
+        "A: The temperature of a system can be negative.",
+        "B: Absolute zero is unattainable.",
+        "C: Energy can be generated out of nothing.",
+        "D: Entropy remains constant in all processes."
+      ],
+      "correct_answer": "B",
+      "explanation": "The third law of thermodynamics states that the entropy of a perfect crystal is zero at absolute zero, and this state is unattainable. This sets a fundamental limit for temperature, which cannot drop below 0 K.",
+      "difficulty": 6,
+      "subcategory": "Dritter Hauptsatz (Nernstsches Theorem): Konsequenzen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Grenzflächen & Haftspannung",
+      "question": "Which statement about interfacial adhesion stress is correct?",
+      "choices": [
+        "A: Adhesion stress affects the density of materials.",
+        "B: Adhesion stress only occurs in liquids.",
+        "C: Adhesion stress is directly proportional to the surface energy of materials.",
+        "D: Adhesion stress is independent of temperature."
+      ],
+      "correct_answer": "C",
+      "explanation": "Adhesion stress describes the force acting at the interface between two materials. It is directly proportional to surface energy, meaning materials with higher surface energy can exhibit greater adhesion stress. Temperature can influence adhesion stress, and it occurs in both liquids and solids.",
+      "difficulty": 7,
+      "subcategory": "Grenzflächen & Haftspannung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Isotropie des Raumes ⇒ Drehimpulserhaltung",
+      "question": "What does the conservation of angular momentum principle state in an isotropic space?",
+      "choices": [
+        "A: The total angular momentum of a closed system remains constant.",
+        "B: Angular momentum depends on the chosen reference frame.",
+        "C: Angular momentum is always zero.",
+        "D: Angular momentum can be arbitrarily calculated."
+      ],
+      "correct_answer": "A",
+      "explanation": "The conservation of angular momentum principle states that in a closed system without external torques, the total angular momentum remains constant. This property is a consequence of space isotropy, which asserts that physical laws are the same in all directions.",
+      "difficulty": 5,
+      "subcategory": "Isotropie des Raumes ⇒ Drehimpulserhaltung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Stark gebundene Elektronen (tight-binding)",
+      "question": "What does the tight-binding model describe in solid-state physics?",
+      "choices": [
+        "A: The elastic properties of solids.",
+        "B: The interaction of electrons in a metal lattice.",
+        "C: The interaction of photons with atoms.",
+        "D: The diffusion of atoms in a crystal."
+      ],
+      "correct_answer": "B",
+      "explanation": "The tight-binding model describes how electrons in a metal lattice are strongly bound by overlapping their wave functions. It is commonly used to explain the electronic structure of solids.",
+      "difficulty": 4,
+      "subcategory": "Stark gebundene Elektronen (tight-binding)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Reflexionsgesetz (geometrisch)",
+      "question": "What does the law of reflection state?",
+      "choices": [
+        "A: The angle of incidence is equal to the angle of reflection.",
+        "B: The angle of reflection is always 90 degrees.",
+        "C: Light is always refracted.",
+        "D: Light cannot be reflected."
+      ],
+      "correct_answer": "A",
+      "explanation": "The law of reflection states that the angle of incidence is equal to the angle of reflection when light hits a reflecting surface. This is a fundamental property of light reflection and applies to all planar reflecting surfaces.",
+      "difficulty": 1,
+      "subcategory": "Reflexionsgesetz (geometrisch)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Maxwell-Gleichungen der Elektrostatik",
+      "question": "Which of the following statements correctly describes the Maxwell equations in relation to electrostatics?",
+      "choices": [
+        "A: They are only applicable to time-varying electric fields.",
+        "B: They are valid only in vacuum and lose their validity in matter.",
+        "C: They describe the interaction between electric and magnetic fields as a function of time.",
+        "D: They represent the relationship between electric fields and electric charges."
+      ],
+      "correct_answer": "D",
+      "explanation": "The Maxwell equations of electrostatics describe the relationship between electric fields and the electric charges responsible for them. They form the basis for understanding static electric phenomena and are applicable in matter as well.",
+      "difficulty": 7,
+      "subcategory": "Maxwell-Gleichungen der Elektrostatik"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Äußere Parameter & Druck",
+      "question": "What relationship describes the influence of pressure on the volume of an ideal gas at constant temperature?",
+      "choices": [
+        "A: Gay-Lussac's law",
+        "B: Avogadro's law",
+        "C: Charles's law",
+        "D: Boyle's law"
+      ],
+      "correct_answer": "D",
+      "explanation": "Boyle's law states that the volume of an ideal gas at constant temperature is inversely proportional to the pressure. This means that an increase in pressure leads to a decrease in volume as long as the temperature remains constant.",
+      "difficulty": 6,
+      "subcategory": "Äußere Parameter & Druck"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Coulomb’sches Gesetz & elektrisches Feld",
+      "question": "What does Coulomb's law describe?",
+      "choices": [
+        "A: The wavelength of electromagnetic radiation.",
+        "B: The energy of an electric field.",
+        "C: The force between two point-like electric charges.",
+        "D: The motion of a body under the influence of gravity."
+      ],
+      "correct_answer": "C",
+      "explanation": "Coulomb's law describes the electrostatic force acting between two point charges. The force is proportional to the product of the charges and inversely proportional to the square of the distance between them.",
+      "difficulty": 4,
+      "subcategory": "Coulomb’sches Gesetz & elektrisches Feld"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Bahndrehimpuls: Operator & Kommutatoren",
+      "question": "What does the orbital angular momentum operator describe in quantum mechanics?",
+      "choices": [
+        "A: The rotational motion of a particle.",
+        "B: The position of a particle.",
+        "C: The energy of a particle.",
+        "D: The velocity of a particle."
+      ],
+      "correct_answer": "A",
+      "explanation": "The orbital angular momentum operator describes the quantum mechanical rotational motion of a particle around a point. It is an important component in describing the behavior of particles in quantum mechanical systems and plays a central role in the theory of quantum mechanical angular momentum.",
+      "difficulty": 2,
+      "subcategory": "Bahndrehimpuls: Operator & Kommutatoren"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Relativistische Theorie des Elektrons (Überblick)",
+      "question": "What does the relativistic theory of the electron describe?",
+      "choices": [
+        "A: The motion of electrons at high speeds.",
+        "B: The chemical bonds between atoms.",
+        "C: The oscillations of electric fields.",
+        "D: The structure of atomic nuclei."
+      ],
+      "correct_answer": "A",
+      "explanation": "The relativistic theory of the electron deals with the properties and behavior of electrons when they move near the speed of light. This has significant implications for the physics of particles and their interactions.",
+      "difficulty": 2,
+      "subcategory": "Relativistische Theorie des Elektrons (Überblick)"
+    }
+  ]
+}
