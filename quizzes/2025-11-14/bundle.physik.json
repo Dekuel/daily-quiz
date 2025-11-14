@@ -1,168 +1,168 @@
 {
   "date": "2025-11-14",
-  "generated_at": "2025-11-14T03:44:40Z",
+  "generated_at": "2025-11-14T08:30:36Z",
   "schema_version": 6,
   "mode": "physik",
   "questions": [
     {
       "category": "Physik",
-      "topic": "Statistische Mechanik",
-      "subtopic": "Dritter Hauptsatz (Nernstsches Theorem): Konsequenzen",
-      "question": "Welche Aussage beschreibt eine Konsequenz des Nernstschen Theorems im Kontext der statistischen Mechanik?",
+      "topic": "Elektrodynamik",
+      "subtopic": "Randwertprobleme der Elektrostatik (Laplace-Gleichung)",
+      "question": "Welche der folgenden Bedingungen ist notwendig, um die Laplace-Gleichung in einem Gebiet zu lösen, das von elektrischen Ladungsverteilungen umgeben ist?",
       "choices": [
-        "A: Die Temperatur eines Systems kann negativ sein.",
-        "B: Der absolute Nullpunkt ist unerreichbar.",
-        "C: Energie kann aus dem Nichts erzeugt werden.",
-        "D: Die Entropie bleibt bei allen Prozessen konstant."
+        "A: Die gesamte elektrische Energie muss in diesem Gebiet gleichmäßig verteilt sein.",
+        "B: Die Randbedingungen müssen für alle Punkte des Gebiets identisch sein.",
+        "C: Es müssen keine elektrischen Felder im Inneren des Gebiets vorhanden sein.",
+        "D: Die Potentialverteilung muss an den Randflächen konstant sein."
       ],
-      "correct_answer": "B",
-      "explanation": "Der dritte Hauptsatz der Thermodynamik besagt, dass die Entropie eines perfekten Kristalls bei absolutem Nullpunkt null ist, und dieser Zustand ist nicht erreichbar. Dies stellt eine fundamentale Grenze für die Temperatur dar, die nicht unter 0 K sinken kann.",
-      "difficulty": 6,
-      "subcategory": "Dritter Hauptsatz (Nernstsches Theorem): Konsequenzen"
-    },
-    {
-      "category": "Physik",
-      "topic": "Klassische Mechanik",
-      "subtopic": "Grenzflächen & Haftspannung",
-      "question": "Welche Aussage zur Haftspannung an Grenzflächen ist korrekt?",
-      "choices": [
-        "A: Haftspannung beeinflusst die Dichte der Materialien.",
-        "B: Haftspannung tritt nur in Flüssigkeiten auf.",
-        "C: Haftspannung ist direkt proportional zur Oberflächenenergie der Materialien.",
-        "D: Haftspannung ist unabhängig von der Temperatur."
-      ],
-      "correct_answer": "C",
-      "explanation": "Haftspannung beschreibt die Kraft, die an der Grenzfläche zwischen zwei Materialien wirkt. Sie ist direkt proportional zur Oberflächenenergie, was bedeutet, dass Materialien mit höherer Oberflächenenergie eine größere Haftspannung aufweisen können. Temperatur kann die Haftspannung beeinflussen, und sie tritt sowohl in Flüssigkeiten als auch in Feststoffen auf.",
-      "difficulty": 7,
-      "subcategory": "Grenzflächen & Haftspannung"
-    },
-    {
-      "category": "Physik",
-      "topic": "Analytische Mechanik",
-      "subtopic": "Isotropie des Raumes ⇒ Drehimpulserhaltung",
-      "question": "Was besagt das Prinzip der Drehimpulserhaltung in einem isotropen Raum?",
-      "choices": [
-        "A: Der Gesamt-Drehimpuls eines geschlossenen Systems bleibt konstant.",
-        "B: Der Drehimpuls hängt vom gewählten Bezugssystem ab.",
-        "C: Der Drehimpuls ist immer gleich null.",
-        "D: Der Drehimpuls kann beliebig verrechnet werden."
-      ],
-      "correct_answer": "A",
-      "explanation": "Das Prinzip der Drehimpulserhaltung besagt, dass in einem geschlossenen System ohne äußere Drehmomente der Gesamt-Drehimpuls konstant bleibt. Diese Eigenschaft ist eine Folge der Isotropie des Raumes, die besagt, dass die physikalischen Gesetze in alle Richtungen gleich sind.",
-      "difficulty": 5,
-      "subcategory": "Isotropie des Raumes ⇒ Drehimpulserhaltung"
-    },
-    {
-      "category": "Physik",
-      "topic": "Festkörperphysik",
-      "subtopic": "Stark gebundene Elektronen (tight-binding)",
-      "question": "Was beschreibt das Tight-Binding-Modell in der Festkörperphysik?",
-      "choices": [
-        "A: Die elastischen Eigenschaften von Festkörpern.",
-        "B: Die Wechselwirkung von Elektronen in einem Metallgitter.",
-        "C: Die Wechselwirkung von Photonen mit Atomen.",
-        "D: Die Diffusion von Atomen in einem Kristall."
-      ],
-      "correct_answer": "B",
-      "explanation": "Das Tight-Binding-Modell beschreibt, wie Elektronen in einem Metallgitter durch Überlappung ihrer Wellenfunktionen stark gebunden sind. Es wird häufig verwendet, um die elektronische Struktur von Festkörpern zu erklären.",
-      "difficulty": 4,
-      "subcategory": "Stark gebundene Elektronen (tight-binding)"
+      "correct_answer": "D",
+      "explanation": "Um die Laplace-Gleichung in einem Gebiet zu lösen, sind spezifische Randbedingungen erforderlich. Insbesondere muss die Potentialverteilung an den Randflächen konstant oder definiert sein, um eine eindeutige Lösung zu gewährleisten.",
+      "difficulty": 8,
+      "subcategory": "Randwertprobleme der Elektrostatik (Laplace-Gleichung)"
     },
     {
       "category": "Physik",
       "topic": "Optik",
-      "subtopic": "Reflexionsgesetz (geometrisch)",
-      "question": "Was besagt das Reflexionsgesetz?",
+      "subtopic": "Streuung elektromagnetischer Wellen",
+      "question": "Was beschreibt den Effekt, bei dem Lichtstrahlen an kleinen Partikeln in der Atmosphäre gestreut werden?",
       "choices": [
-        "A: Der Einfallswinkel ist gleich dem Reflexionswinkel.",
-        "B: Der Reflexionswinkel ist immer 90 Grad.",
-        "C: Licht wird immer gebrochen.",
-        "D: Licht kann nicht reflektiert werden."
+        "A: Fresnel-Streuung",
+        "B: Rayleigh-Streuung",
+        "C: Beugung",
+        "D: Reflexion"
       ],
-      "correct_answer": "A",
-      "explanation": "Das Reflexionsgesetz besagt, dass der Einfallswinkel gleich dem Reflexionswinkel ist, wenn Licht auf eine reflektierende Oberfläche trifft. Dies ist eine grundlegende Eigenschaft der Lichtreflexion und gilt für alle planen Reflexionsoberflächen.",
-      "difficulty": 1,
-      "subcategory": "Reflexionsgesetz (geometrisch)"
-    },
-    {
-      "category": "Physik",
-      "topic": "Elektrodynamik",
-      "subtopic": "Maxwell-Gleichungen der Elektrostatik",
-      "question": "Welche der folgenden Aussagen beschreibt korrekt die Maxwell-Gleichungen in Bezug auf die Elektrostatik?",
-      "choices": [
-        "A: Sie sind nur anwendbar für zeitlich veränderliche elektrische Felder.",
-        "B: Sie gelten nur im Vakuum und verlieren ihre Gültigkeit in Materie.",
-        "C: Sie beschreiben die Wechselwirkung zwischen elektrischen und magnetischen Feldern als eine Funktion der Zeit.",
-        "D: Sie stellen die Beziehung zwischen elektrischen Feldern und elektrischen Ladungen dar."
-      ],
-      "correct_answer": "D",
-      "explanation": "Die Maxwell-Gleichungen der Elektrostatik beschreiben die Beziehung zwischen elektrischen Feldern und den dafür verantwortlichen elektrischen Ladungen. Sie bilden die Grundlage für das Verständnis statischer elektrische Phänomene und sind auch in Materie anwendbar.",
-      "difficulty": 7,
-      "subcategory": "Maxwell-Gleichungen der Elektrostatik"
+      "correct_answer": "B",
+      "explanation": "Die Rayleigh-Streuung tritt auf, wenn Lichtstrahlen auf Partikel treffen, die kleiner sind als die Wellenlänge des Lichts. Dies führt dazu, dass kürzere Wellenlängen, wie Blau, stärker gestreut werden, was unter anderem für die blaue Farbe des Himmels verantwortlich ist.",
+      "difficulty": 5,
+      "subcategory": "Streuung elektromagnetischer Wellen"
     },
     {
       "category": "Physik",
       "topic": "Statistische Mechanik",
-      "subtopic": "Äußere Parameter & Druck",
-      "question": "Welcher Zusammenhang beschreibt den Einfluss des Drucks auf das Volumen eines idealen Gases bei konstanter Temperatur?",
+      "subtopic": "Phasen von Einstoffsystemen & Clausius–Clapeyron",
+      "question": "Welche Aussage beschreibt am besten den Begriff der Phasenübergänge in einem Einstoffsystem?",
       "choices": [
-        "A: Gay-Lussacs Gesetz",
-        "B: Avogadro-Gesetz",
-        "C: Charles' Gesetz",
-        "D: Boylesches Gesetz"
+        "A: Ein Phasenübergang findet nur bei extrem hohen Temperaturen statt.",
+        "B: Ein Phasenübergang kann nicht reversibel sein.",
+        "C: Ein Phasenübergang ist der Wechsel zwischen fest, flüssig und gasförmig.",
+        "D: Phasenübergänge sind unabhängig von Druck und Temperatur."
+      ],
+      "correct_answer": "C",
+      "explanation": "Phasenübergänge beschreiben den Wechsel zwischen den verschiedenen Aggregatzuständen, also fest, flüssig und gasförmig. Sie können durch Änderungen von Temperatur und Druck ausgelöst werden und sind ein zentrales Konzept in der statistischen Mechanik.",
+      "difficulty": 1,
+      "subcategory": "Phasen von Einstoffsystemen & Clausius–Clapeyron"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Zeitunabhängige Störungstheorie: nicht-entartete Niveaus",
+      "question": "Was beschreibt die zeitunabhängige Störungstheorie in der Quantenmechanik für nicht-entartete Niveaus?",
+      "choices": [
+        "A: Die Entstehung neuer Teilchen bei hoher Energie.",
+        "B: Die Temperaturabhängigkeit der Quantenzustände.",
+        "C: Die Wechselwirkungen zwischen Teilchen in einem klassischen System.",
+        "D: Die Änderung der Energieniveaus eines Systems durch eine kleine Störung."
       ],
       "correct_answer": "D",
-      "explanation": "Das Boylesche Gesetz besagt, dass das Volumen eines idealen Gases bei konstanter Temperatur umgekehrt proportional zum Druck ist. Dies bedeutet, dass ein Anstieg des Drucks zu einem Rückgang des Volumens führt, solange die Temperatur konstant bleibt.",
-      "difficulty": 6,
-      "subcategory": "Äußere Parameter & Druck"
+      "explanation": "Die zeitunabhängige Störungstheorie behandelt, wie die Energieniveaus eines quantenmechanischen Systems durch kleine Störungen verändert werden, wenn die Niveaus nicht entartet sind. Dies ermöglicht es, die neuen Energieniveaus und die zugehörigen Zustände im Rahmen der Störungstheorie zu berechnen.",
+      "difficulty": 5,
+      "subcategory": "Zeitunabhängige Störungstheorie: nicht-entartete Niveaus"
     },
     {
       "category": "Physik",
       "topic": "Elektrodynamik",
-      "subtopic": "Coulomb’sches Gesetz & elektrisches Feld",
-      "question": "Was beschreibt das Coulomb’sche Gesetz?",
+      "subtopic": "Resonanz & Schaltvorgänge",
+      "question": "Was passiert in einem Schwingkreis, wenn die Frequenz der angelegten Wechselspannung der Eigenfrequenz des Schwingkreises entspricht?",
       "choices": [
-        "A: Die Wellenlänge von elektromagnetischer Strahlung.",
-        "B: Die Energie eines elektrischen Feldes.",
-        "C: Die Kraft zwischen zwei punktförmigen elektrischen Ladungen.",
-        "D: Die Bewegung eines Körpers unter dem Einfluss der Schwerkraft."
+        "A: Der Schwingkreis verliert an Energie.",
+        "B: Es findet keine Änderung der Schwingung statt.",
+        "C: Es tritt eine vollständige Dämpfung der Schwingung ein.",
+        "D: Die Amplitude der Schwingung erreicht ihren maximalen Wert."
+      ],
+      "correct_answer": "D",
+      "explanation": "Wenn die Frequenz der angelegten Wechselspannung der Eigenfrequenz des Schwingkreises entspricht, kommt es zur Resonanz. In diesem Zustand erreicht die Amplitude der Schwingung ihren maximalen Wert, da die Energiezufuhr optimal mit der Schwingung übereinstimmt.",
+      "difficulty": 5,
+      "subcategory": "Resonanz & Schaltvorgänge"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Wirkungs- und Winkelvariable (Action-Angle)",
+      "question": "Was beschreibt die Winkelvariable in der analytischen Mechanik im Kontext von periodischen Systemen?",
+      "choices": [
+        "A: Den Phasenwinkel eines harmonischen Oszillators.",
+        "B: Die Massenträgheit eines Körpers.",
+        "C: Die Energie eines Systems in Ruhe.",
+        "D: Die Geschwindigkeit eines Teilchens im Raum."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Winkelvariable beschreibt in der analytischen Mechanik den Phasenwinkel eines harmonischen Oszillators und ist Teil der Action-Angle-Darstellung, die in der Analyse periodischer Bewegungen verwendet wird. Sie hilft dabei, die Dynamik von Systemen mit konservativen Kräften zu verstehen.",
+      "difficulty": 5,
+      "subcategory": "Wirkungs- und Winkelvariable (Action-Angle)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Elektronen im periodischen Potential (Überblick)",
+      "question": "Was beschreibt das Konzept der Bandstruktur in Festkörpern?",
+      "choices": [
+        "A: Die Wechselwirkung von Photonen mit Atomen.",
+        "B: Die Bewegung von Elektronen in einem Vakuum.",
+        "C: Die Verteilung der Elektronen in verschiedenen Energiezuständen.",
+        "D: Die Temperaturabhängigkeit von metallischen Leitern."
       ],
       "correct_answer": "C",
-      "explanation": "Das Coulomb’sche Gesetz beschreibt die elektrostatische Kraft, die zwischen zwei Punktladungen wirkt. Die Kraft ist proportional zum Produkt der Ladungen und umgekehrt proportional zum Quadrat des Abstandes zwischen ihnen.",
-      "difficulty": 4,
-      "subcategory": "Coulomb’sches Gesetz & elektrisches Feld"
+      "explanation": "Die Bandstruktur beschreibt, wie die Elektronen in Festkörpern in verschiedenen Energiezuständen verteilt sind, was entscheidend für das Verständnis von Leitfähigkeit und Halbleiterverhalten ist. Sie zeigt, welche Energielevel die Elektronen in einem Kristall annehmen können und wie diese niveauspezifisch miteinander interagieren.",
+      "difficulty": 5,
+      "subcategory": "Elektronen im periodischen Potential (Überblick)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Freie Achsen",
+      "question": "Was beschreibt die Bewegung eines Körpers entlang einer freien Achse?",
+      "choices": [
+        "A: Eine Bewegung, die nur durch Reibung beeinflusst wird",
+        "B: Eine Bewegung, die immer beschleunigt ist",
+        "C: Eine Bewegung, die nur durch die Schwerkraft verursacht wird",
+        "D: Eine gleichmäßige Bewegung ohne äußere Einflüsse"
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Bewegung eines Körpers entlang einer freien Achse erfolgt ohne äußere Einflüsse, was bedeutet, dass die Geschwindigkeit konstant bleibt. In diesem Fall wirken keine Kräfte, die die Bewegung beeinflussen würden.",
+      "difficulty": 2,
+      "subcategory": "Freie Achsen"
     },
     {
       "category": "Physik",
       "topic": "Quantenmechanik",
-      "subtopic": "Bahndrehimpuls: Operator & Kommutatoren",
-      "question": "Was beschreibt der Bahndrehimpuls-Operator in der Quantenmechanik?",
+      "subtopic": "Ortsdarstellung & Eigenfunktionen (sphärische Harmonische)",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt die Eigenschaften sphärischer Harmonischer in der Quantenmechanik?",
       "choices": [
-        "A: Die Drehbewegung eines Teilchens",
-        "B: Die Position eines Teilchens",
-        "C: Die Energie eines Teilchens",
-        "D: Die Geschwindigkeit eines Teilchens"
+        "A: Sphärische Harmonische beschreiben ausschließlich die Bewegung von Teilchen in einem eindimensionalen Potential.",
+        "B: Sphärische Harmonische sind nur für ein-dimensionalen Raum definiert und enthalten keine komplexen Phasen.",
+        "C: Sphärische Harmonische sind unabhängig von den quantenmechanischen Zuständen eines Systems.",
+        "D: Sphärische Harmonische sind Lösungen der Schrödinger-Gleichung im Kugelkoordinatensystem und haben quantisierte Werte für den Drehimpuls."
       ],
-      "correct_answer": "A",
-      "explanation": "Der Bahndrehimpuls-Operator beschreibt die quantenmechanische Drehbewegung eines Teilchens um einen Punkt. Er ist ein wichtiger Bestandteil in der Beschreibung des Verhaltens von Teilchen in quantenmechanischen Systemen und spielt eine zentrale Rolle in der Theorie der quantenmechanischen Angularmomentum.",
-      "difficulty": 2,
-      "subcategory": "Bahndrehimpuls: Operator & Kommutatoren"
+      "correct_answer": "D",
+      "explanation": "Sphärische Harmonische sind spezielle mathematische Funktionen, die in der Quantenmechanik verwendet werden, um die Lösungen der Schrödinger-Gleichung in Kugelkoordinaten zu beschreiben. Sie spielen eine wichtige Rolle bei der Beschreibung des Drehimpulses und der räumlichen Verteilung von Wellenfunktionen in drei Dimensionen.",
+      "difficulty": 6,
+      "subcategory": "Ortsdarstellung & Eigenfunktionen (sphärische Harmonische)"
     },
     {
       "category": "Physik",
-      "topic": "Quantenmechanik",
-      "subtopic": "Relativistische Theorie des Elektrons (Überblick)",
-      "question": "Was beschreibt die relativistische Theorie des Elektrons?",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Viskosität von Gasen",
+      "question": "Was beschreibt die Viskosität eines Gases?",
       "choices": [
-        "A: Die Bewegung von Elektronen bei hohen Geschwindigkeiten.",
-        "B: Die chemischen Bindungen zwischen Atomen.",
-        "C: Die Schwingungen von elektrischen Feldern.",
-        "D: Die Struktur von Atomkernen."
+        "A: Den Widerstand eines Gases gegen die Bewegung eines anderen Gases.",
+        "B: Die Dichte eines Gases bei unterschiedlichen Temperaturen.",
+        "C: Die Fähigkeit eines Gases, Wärme zu leiten.",
+        "D: Die Geschwindigkeit, mit der sich Gasmoleküle in einem Vakuum bewegen."
       ],
       "correct_answer": "A",
-      "explanation": "Die relativistische Theorie des Elektrons behandelt die Eigenschaften und das Verhalten von Elektronen, wenn sie sich nahe der Lichtgeschwindigkeit bewegen. Dies hat wichtige Auswirkungen auf die Physik von Teilchen und deren Wechselwirkungen.",
-      "difficulty": 2,
-      "subcategory": "Relativistische Theorie des Elektrons (Überblick)"
+      "explanation": "Die Viskosität eines Gases ist ein Maß für den Widerstand, den es der Bewegung eines anderen Körpers entgegensetzt. Sie ist entscheidend für die Beschreibung des Fließverhaltens von Gasen und beeinflusst beispielsweise den Luftwiderstand bei Fahrzeugen.",
+      "difficulty": 7,
+      "subcategory": "Viskosität von Gasen"
     }
   ]
 }

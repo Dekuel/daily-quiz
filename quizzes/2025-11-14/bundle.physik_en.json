@@ -1,168 +1,168 @@
 {
   "date": "2025-11-14",
-  "generated_at": "2025-11-14T03:45:02Z",
+  "generated_at": "2025-11-14T08:30:56Z",
   "schema_version": 6,
   "mode": "physik",
   "questions": [
     {
       "category": "Physik",
-      "topic": "Statistische Mechanik",
-      "subtopic": "Dritter Hauptsatz (Nernstsches Theorem): Konsequenzen",
-      "question": "Which statement describes a consequence of the Nernst theorem in the context of statistical mechanics?",
+      "topic": "Elektrodynamik",
+      "subtopic": "Randwertprobleme der Elektrostatik (Laplace-Gleichung)",
+      "question": "Which of the following conditions is necessary to solve the Laplace equation in a domain surrounded by electric charge distributions?",
       "choices": [
-        "A: The temperature of a system can be negative.",
-        "B: Absolute zero is unattainable.",
-        "C: Energy can be generated out of nothing.",
-        "D: Entropy remains constant in all processes."
+        "A: The total electric energy must be evenly distributed in this domain.",
+        "B: The boundary conditions must be identical for all points in the domain.",
+        "C: There must be no electric fields inside the domain.",
+        "D: The potential distribution at the boundary surfaces must be constant."
       ],
-      "correct_answer": "B",
-      "explanation": "The third law of thermodynamics states that the entropy of a perfect crystal is zero at absolute zero, and this state is unattainable. This sets a fundamental limit for temperature, which cannot drop below 0 K.",
-      "difficulty": 6,
-      "subcategory": "Dritter Hauptsatz (Nernstsches Theorem): Konsequenzen"
-    },
-    {
-      "category": "Physik",
-      "topic": "Klassische Mechanik",
-      "subtopic": "Grenzflächen & Haftspannung",
-      "question": "Which statement about interfacial adhesion stress is correct?",
-      "choices": [
-        "A: Adhesion stress affects the density of materials.",
-        "B: Adhesion stress only occurs in liquids.",
-        "C: Adhesion stress is directly proportional to the surface energy of materials.",
-        "D: Adhesion stress is independent of temperature."
-      ],
-      "correct_answer": "C",
-      "explanation": "Adhesion stress describes the force acting at the interface between two materials. It is directly proportional to surface energy, meaning materials with higher surface energy can exhibit greater adhesion stress. Temperature can influence adhesion stress, and it occurs in both liquids and solids.",
-      "difficulty": 7,
-      "subcategory": "Grenzflächen & Haftspannung"
-    },
-    {
-      "category": "Physik",
-      "topic": "Analytische Mechanik",
-      "subtopic": "Isotropie des Raumes ⇒ Drehimpulserhaltung",
-      "question": "What does the conservation of angular momentum principle state in an isotropic space?",
-      "choices": [
-        "A: The total angular momentum of a closed system remains constant.",
-        "B: Angular momentum depends on the chosen reference frame.",
-        "C: Angular momentum is always zero.",
-        "D: Angular momentum can be arbitrarily calculated."
-      ],
-      "correct_answer": "A",
-      "explanation": "The conservation of angular momentum principle states that in a closed system without external torques, the total angular momentum remains constant. This property is a consequence of space isotropy, which asserts that physical laws are the same in all directions.",
-      "difficulty": 5,
-      "subcategory": "Isotropie des Raumes ⇒ Drehimpulserhaltung"
-    },
-    {
-      "category": "Physik",
-      "topic": "Festkörperphysik",
-      "subtopic": "Stark gebundene Elektronen (tight-binding)",
-      "question": "What does the tight-binding model describe in solid-state physics?",
-      "choices": [
-        "A: The elastic properties of solids.",
-        "B: The interaction of electrons in a metal lattice.",
-        "C: The interaction of photons with atoms.",
-        "D: The diffusion of atoms in a crystal."
-      ],
-      "correct_answer": "B",
-      "explanation": "The tight-binding model describes how electrons in a metal lattice are strongly bound by overlapping their wave functions. It is commonly used to explain the electronic structure of solids.",
-      "difficulty": 4,
-      "subcategory": "Stark gebundene Elektronen (tight-binding)"
+      "correct_answer": "D",
+      "explanation": "To solve the Laplace equation in a domain, specific boundary conditions are required. In particular, the potential distribution at the boundary surfaces must be constant or defined to ensure a unique solution.",
+      "difficulty": 8,
+      "subcategory": "Randwertprobleme der Elektrostatik (Laplace-Gleichung)"
     },
     {
       "category": "Physik",
       "topic": "Optik",
-      "subtopic": "Reflexionsgesetz (geometrisch)",
-      "question": "What does the law of reflection state?",
+      "subtopic": "Streuung elektromagnetischer Wellen",
+      "question": "What describes the effect where light rays are scattered by small particles in the atmosphere?",
       "choices": [
-        "A: The angle of incidence is equal to the angle of reflection.",
-        "B: The angle of reflection is always 90 degrees.",
-        "C: Light is always refracted.",
-        "D: Light cannot be reflected."
+        "A: Fresnel scattering",
+        "B: Rayleigh scattering",
+        "C: Diffraction",
+        "D: Reflection"
       ],
-      "correct_answer": "A",
-      "explanation": "The law of reflection states that the angle of incidence is equal to the angle of reflection when light hits a reflecting surface. This is a fundamental property of light reflection and applies to all planar reflecting surfaces.",
-      "difficulty": 1,
-      "subcategory": "Reflexionsgesetz (geometrisch)"
-    },
-    {
-      "category": "Physik",
-      "topic": "Elektrodynamik",
-      "subtopic": "Maxwell-Gleichungen der Elektrostatik",
-      "question": "Which of the following statements correctly describes the Maxwell equations in relation to electrostatics?",
-      "choices": [
-        "A: They are only applicable to time-varying electric fields.",
-        "B: They are valid only in vacuum and lose their validity in matter.",
-        "C: They describe the interaction between electric and magnetic fields as a function of time.",
-        "D: They represent the relationship between electric fields and electric charges."
-      ],
-      "correct_answer": "D",
-      "explanation": "The Maxwell equations of electrostatics describe the relationship between electric fields and the electric charges responsible for them. They form the basis for understanding static electric phenomena and are applicable in matter as well.",
-      "difficulty": 7,
-      "subcategory": "Maxwell-Gleichungen der Elektrostatik"
+      "correct_answer": "B",
+      "explanation": "Rayleigh scattering occurs when light rays encounter particles smaller than the wavelength of light. This results in shorter wavelengths, such as blue, being scattered more, which is responsible for the blue color of the sky, among other things.",
+      "difficulty": 5,
+      "subcategory": "Streuung elektromagnetischer Wellen"
     },
     {
       "category": "Physik",
       "topic": "Statistische Mechanik",
-      "subtopic": "Äußere Parameter & Druck",
-      "question": "What relationship describes the influence of pressure on the volume of an ideal gas at constant temperature?",
+      "subtopic": "Phasen von Einstoffsystemen & Clausius–Clapeyron",
+      "question": "Which statement best describes the concept of phase transitions in a single-component system?",
       "choices": [
-        "A: Gay-Lussac's law",
-        "B: Avogadro's law",
-        "C: Charles's law",
-        "D: Boyle's law"
+        "A: A phase transition only occurs at extremely high temperatures.",
+        "B: A phase transition may not be reversible.",
+        "C: A phase transition is the change between solid, liquid, and gas.",
+        "D: Phase transitions are independent of pressure and temperature."
+      ],
+      "correct_answer": "C",
+      "explanation": "Phase transitions describe the change between different states of matter, such as solid, liquid, and gas. They can be triggered by changes in temperature and pressure and are a central concept in statistical mechanics.",
+      "difficulty": 1,
+      "subcategory": "Phasen von Einstoffsystemen & Clausius–Clapeyron"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Zeitunabhängige Störungstheorie: nicht-entartete Niveaus",
+      "question": "What describes the time-independent perturbation theory in quantum mechanics for non-degenerate levels?",
+      "choices": [
+        "A: The creation of new particles at high energy.",
+        "B: The temperature dependence of quantum states.",
+        "C: The interactions between particles in a classical system.",
+        "D: The change in energy levels of a system by a small perturbation."
       ],
       "correct_answer": "D",
-      "explanation": "Boyle's law states that the volume of an ideal gas at constant temperature is inversely proportional to the pressure. This means that an increase in pressure leads to a decrease in volume as long as the temperature remains constant.",
-      "difficulty": 6,
-      "subcategory": "Äußere Parameter & Druck"
+      "explanation": "The time-independent perturbation theory deals with how the energy levels of a quantum mechanical system are altered by small perturbations when the levels are non-degenerate. This allows for the calculation of the new energy levels and associated states within the framework of perturbation theory.",
+      "difficulty": 5,
+      "subcategory": "Zeitunabhängige Störungstheorie: nicht-entartete Niveaus"
     },
     {
       "category": "Physik",
       "topic": "Elektrodynamik",
-      "subtopic": "Coulomb’sches Gesetz & elektrisches Feld",
-      "question": "What does Coulomb's law describe?",
+      "subtopic": "Resonanz & Schaltvorgänge",
+      "question": "What happens in a resonant circuit when the frequency of the applied alternating voltage matches the resonant frequency of the circuit?",
       "choices": [
-        "A: The wavelength of electromagnetic radiation.",
-        "B: The energy of an electric field.",
-        "C: The force between two point-like electric charges.",
-        "D: The motion of a body under the influence of gravity."
+        "A: The resonant circuit loses energy.",
+        "B: There is no change in the oscillation.",
+        "C: Complete damping of the oscillation occurs.",
+        "D: The amplitude of the oscillation reaches its maximum value."
+      ],
+      "correct_answer": "D",
+      "explanation": "When the frequency of the applied alternating voltage matches the resonant frequency of the resonant circuit, resonance occurs. In this state, the amplitude of the oscillation reaches its maximum value as the energy input optimally matches the oscillation.",
+      "difficulty": 5,
+      "subcategory": "Resonanz & Schaltvorgänge"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Wirkungs- und Winkelvariable (Action-Angle)",
+      "question": "What describes the angular variable in analytical mechanics in the context of periodic systems?",
+      "choices": [
+        "A: The phase angle of a harmonic oscillator.",
+        "B: The inertia of a body.",
+        "C: The energy of a system at rest.",
+        "D: The velocity of a particle in space."
+      ],
+      "correct_answer": "A",
+      "explanation": "The angular variable in analytical mechanics describes the phase angle of a harmonic oscillator and is part of the action-angle representation used in analyzing periodic motions. It helps understand the dynamics of systems with conservative forces.",
+      "difficulty": 5,
+      "subcategory": "Wirkungs- und Winkelvariable (Action-Angle)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Elektronen im periodischen Potential (Überblick)",
+      "question": "What describes the concept of band structure in solids?",
+      "choices": [
+        "A: The interaction of photons with atoms.",
+        "B: The movement of electrons in a vacuum.",
+        "C: The distribution of electrons in different energy states.",
+        "D: The temperature dependence of metallic conductors."
       ],
       "correct_answer": "C",
-      "explanation": "Coulomb's law describes the electrostatic force acting between two point charges. The force is proportional to the product of the charges and inversely proportional to the square of the distance between them.",
-      "difficulty": 4,
-      "subcategory": "Coulomb’sches Gesetz & elektrisches Feld"
+      "explanation": "The band structure describes how electrons in solids are distributed in different energy states, which is crucial for understanding conductivity and semiconductor behavior. It shows which energy levels the electrons in a crystal can assume and how these levels interact with each other specifically.",
+      "difficulty": 5,
+      "subcategory": "Elektronen im periodischen Potential (Überblick)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Freie Achsen",
+      "question": "What describes the motion of a body along a free axis?",
+      "choices": [
+        "A: Motion influenced only by friction",
+        "B: Motion always accelerating",
+        "C: Motion caused only by gravity",
+        "D: Uniform motion without external influences"
+      ],
+      "correct_answer": "D",
+      "explanation": "The motion of a body along a free axis occurs without external influences, meaning the velocity remains constant. In this case, there are no forces influencing the motion.",
+      "difficulty": 2,
+      "subcategory": "Freie Achsen"
     },
     {
       "category": "Physik",
       "topic": "Quantenmechanik",
-      "subtopic": "Bahndrehimpuls: Operator & Kommutatoren",
-      "question": "What does the orbital angular momentum operator describe in quantum mechanics?",
+      "subtopic": "Ortsdarstellung & Eigenfunktionen (sphärische Harmonische)",
+      "question": "Which of the following statements correctly describes the properties of spherical harmonics in quantum mechanics?",
       "choices": [
-        "A: The rotational motion of a particle.",
-        "B: The position of a particle.",
-        "C: The energy of a particle.",
-        "D: The velocity of a particle."
+        "A: Spherical harmonics exclusively describe the motion of particles in a one-dimensional potential.",
+        "B: Spherical harmonics are defined only for one-dimensional space and do not contain complex phases.",
+        "C: Spherical harmonics are independent of the quantum mechanical states of a system.",
+        "D: Spherical harmonics are solutions of the Schrödinger equation in the spherical coordinate system and have quantized values for angular momentum."
       ],
-      "correct_answer": "A",
-      "explanation": "The orbital angular momentum operator describes the quantum mechanical rotational motion of a particle around a point. It is an important component in describing the behavior of particles in quantum mechanical systems and plays a central role in the theory of quantum mechanical angular momentum.",
-      "difficulty": 2,
-      "subcategory": "Bahndrehimpuls: Operator & Kommutatoren"
+      "correct_answer": "D",
+      "explanation": "Spherical harmonics are special mathematical functions used in quantum mechanics to describe the solutions of the Schrödinger equation in spherical coordinates. They play an important role in describing angular momentum and the spatial distribution of wave functions in three dimensions.",
+      "difficulty": 6,
+      "subcategory": "Ortsdarstellung & Eigenfunktionen (sphärische Harmonische)"
     },
     {
       "category": "Physik",
-      "topic": "Quantenmechanik",
-      "subtopic": "Relativistische Theorie des Elektrons (Überblick)",
-      "question": "What does the relativistic theory of the electron describe?",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Viskosität von Gasen",
+      "question": "What describes the viscosity of a gas?",
       "choices": [
-        "A: The motion of electrons at high speeds.",
-        "B: The chemical bonds between atoms.",
-        "C: The oscillations of electric fields.",
-        "D: The structure of atomic nuclei."
+        "A: The resistance of a gas to the motion of another gas.",
+        "B: The density of a gas at different temperatures.",
+        "C: The ability of a gas to conduct heat.",
+        "D: The speed at which gas molecules move in a vacuum."
       ],
       "correct_answer": "A",
-      "explanation": "The relativistic theory of the electron deals with the properties and behavior of electrons when they move near the speed of light. This has significant implications for the physics of particles and their interactions.",
-      "difficulty": 2,
-      "subcategory": "Relativistische Theorie des Elektrons (Überblick)"
+      "explanation": "The viscosity of a gas is a measure of the resistance it opposes to the motion of another body. It is crucial for describing the flow behavior of gases and influences, for example, the air resistance in vehicles.",
+      "difficulty": 7,
+      "subcategory": "Viskosität von Gasen"
     }
   ]
 }
