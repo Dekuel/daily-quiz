@@ -1,0 +1,168 @@
+{
+  "date": "2025-11-15",
+  "generated_at": "2025-11-15T03:39:25Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Reelle und virtuelle Abbildungen",
+      "question": "Welche der folgenden Aussagen über reelle und virtuelle Abbildungen ist korrekt?",
+      "choices": [
+        "A: Virtuelle Abbildungen entstehen nur durch konvexe Spiegel.",
+        "B: Reelle Abbildungen sind immer auf der gleichen Seite wie das Objekt.",
+        "C: Virtuelle Abbildungen sind immer verkleinert.",
+        "D: Reelle Abbildungen können immer auf einem Schirm sichtbar gemacht werden."
+      ],
+      "correct_answer": "D",
+      "explanation": "Reelle Abbildungen entstehen, wenn Lichtstrahlen tatsächlich durch einen Punkt konvergieren und können auf einem Schirm abgebildet werden. Virtuelle Abbildungen hingegen können nicht auf einem Schirm projiziert werden, da die Lichtstrahlen nicht wirklich dort konvergieren, sondern nur scheinen dort zu stammen.",
+      "difficulty": 10,
+      "subcategory": "Reelle und virtuelle Abbildungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Dynamischer Auftrieb",
+      "question": "Was beschreibt den dynamischen Auftrieb eines Körpers in einer Flüssigkeit?",
+      "choices": [
+        "A: Die Auftriebskraft, die ausschließlich von der Form des Körpers abhängt.",
+        "B: Die Auftriebskraft, die unabhängig von der Dichte der Flüssigkeit ist.",
+        "C: Die Auftriebskraft, die durch die Gewichtskraft des verdrängten Volumens erzeugt wird.",
+        "D: Die Auftriebskraft, die proportional zur Geschwindigkeit des Körpers ist."
+      ],
+      "correct_answer": "C",
+      "explanation": "Der dynamische Auftrieb eines Körpers in einer Flüssigkeit wird durch die Gewichtskraft des verdrängten Volumens bestimmt, was das archimedische Prinzip beschreibt. Die anderen Optionen sind irreführend, da sie nicht die grundlegenden physikalischen Gesetze berücksichtigen, die den Auftrieb beeinflussen.",
+      "difficulty": 7,
+      "subcategory": "Dynamischer Auftrieb"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Formfaktoren des Nukleons",
+      "question": "Welcher der folgenden Formfaktoren beschreibt die räumliche Verteilung der elektrischen Ladung innerhalb eines Nukleons?",
+      "choices": [
+        "A: Der isotopische Formfaktor",
+        "B: Der magnetische Formfaktor",
+        "C: Der spinabhängige Formfaktor",
+        "D: Der elektromagnetische Formfaktor"
+      ],
+      "correct_answer": "D",
+      "explanation": "Der elektromagnetische Formfaktor beschreibt die räumliche Verteilung der elektrischen Ladung in einem Nukleon. Er ist entscheidend für die Analyse von Streuungsexperimenten, die die Struktur von Nukleonen untersuchen.",
+      "difficulty": 6,
+      "subcategory": "Formfaktoren des Nukleons"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Maxwell-Konstruktion (Van-der-Waals-Isothermen)",
+      "question": "Welche Aussage über die Maxwell-Konstruktion zur Bestimmung des Phasenübergangs von Van-der-Waals-Gasen ist korrekt?",
+      "choices": [
+        "A: Sie verwendet die Fläche zwischen der Isotherme und der Druckachse zur Berechnung der Phasengleichgewichtszustände.",
+        "B: Sie ist nur für ideale Gase anwendbar und vernachlässigt Wechselwirkungen zwischen Molekülen.",
+        "C: Sie erfordert die Annahme eines konstanten Volumens während des Phasenübergangs.",
+        "D: Sie beschreibt die Beziehung zwischen Temperatur und Druck ohne Berücksichtigung des Volumens."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Maxwell-Konstruktion nutzt die Fläche zwischen der Isotherme und der Druckachse, um die Gleichgewichtszustände zwischen den Phasen zu bestimmen. Diese Methode ist entscheidend für das Verständnis der Phasengleichgewichte bei Van-der-Waals-Gasen und berücksichtigt die Wechselwirkungen zwischen den Molekülen.",
+      "difficulty": 8,
+      "subcategory": "Maxwell-Konstruktion (Van-der-Waals-Isothermen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Ladungen und Ströme",
+      "question": "Was passiert mit der elektrischen Feldstärke, wenn der Abstand zwischen zwei punktförmigen Ladungen verdoppelt wird?",
+      "choices": [
+        "A: Sie halbiert sich.",
+        "B: Sie bleibt gleich.",
+        "C: Sie verdoppelt sich.",
+        "D: Sie vervierfacht sich."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die elektrische Feldstärke ist invers zum Quadrat des Abstands zwischen den Ladungen. Verdoppelt sich der Abstand, verringert sich die Feldstärke auf ein Viertel. Daher halbiert sich die Feldstärke, wenn man den Abstand betrachtet, was zu Antwort A führt.",
+      "difficulty": 5,
+      "subcategory": "Ladungen und Ströme"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Turbulenz & Strömungswiderstand",
+      "question": "Welche der folgenden Aussagen beschreibt am besten den Einfluss von Turbulenz auf den Strömungswiderstand?",
+      "choices": [
+        "A: Turbulenz erhöht den Strömungswiderstand.",
+        "B: Turbulenz verringert den Strömungswiderstand.",
+        "C: Turbulenz hat keinen Einfluss auf den Strömungswiderstand.",
+        "D: Turbulenz ist nur in Gasen relevant, nicht in Flüssigkeiten."
+      ],
+      "correct_answer": "A",
+      "explanation": "Turbulente Strömungen führen zu unregelmäßigen Bewegungen der Partikel, was den Strömungswiderstand erhöht. Im Gegensatz zu laminarer Strömung, bei der die Bewegung geordnet ist, sorgt Turbulenz für zusätzliche Reibung und Energieverluste.",
+      "difficulty": 4,
+      "subcategory": "Turbulenz & Strömungswiderstand"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Der Laser (Prinzip & Anwendungen)",
+      "question": "Welches Prinzip beschreibt die Funktionsweise eines Lasers?",
+      "choices": [
+        "A: Reflexion",
+        "B: Stimulated Emission",
+        "C: Bremsstrahlung",
+        "D: Thermische Strahlung"
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Funktionsweise eines Lasers basiert auf dem Prinzip der stimulierten Emission, bei dem Photonen die Emission weiterer Photonen aus angeregten Atomen oder Molekülen auslösen. Dies führt zu einer kohärenten und monochromatischen Lichtemission, die charakteristisch für Laserstrahlen ist.",
+      "difficulty": 6,
+      "subcategory": "Der Laser (Prinzip & Anwendungen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Huygenssches Prinzip",
+      "question": "Welche Aussage beschreibt das Huygenssche Prinzip korrekt?",
+      "choices": [
+        "A: Lichtstrahlen bewegen sich immer in geraden Linien, unabhängig von der Umgebung.",
+        "B: Das Huygenssche Prinzip ist nur auf longitudinale Wellen anwendbar.",
+        "C: Jede Punktquelle in einem Wellenfront sendet sekundäre Wellenfronten aus, die zusammen die neue Wellenfront bilden.",
+        "D: Das Huygenssche Prinzip besagt, dass Wellenfronten immer sphärisch sind."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Huygenssche Prinzip besagt, dass jede Punktquelle auf einer Wellenfront eigene sekundäre Wellenfronten aussendet, die die Gesamtform der neuen Wellenfront bestimmen. Diese Idee ist fundamental für das Verständnis von Wellenphänomenen, einschließlich der Brechung und Beugung von Licht.",
+      "difficulty": 9,
+      "subcategory": "Huygenssches Prinzip"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Quantenzahlen des Gesamtdrehimpulses",
+      "question": "Welche der folgenden Quantenzahlen beschreibt den Gesamtdrehimpuls eines quantenmechanischen Systems?",
+      "choices": [
+        "A: Die Hauptquantenzahl n",
+        "B: Die magnetische Quantenzahl m",
+        "C: Die Spinquantenzahl s",
+        "D: Die Nebenquantenzahl l"
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Nebenquantenzahl l beschreibt den Drehimpuls eines Elektrons in einem Atom und bestimmt die Form des Orbitales. Der Gesamtdrehimpuls wird durch die Kombination der Spinquantenzahl s und der Nebenquantenzahl l beeinflusst.",
+      "difficulty": 5,
+      "subcategory": "Quantenzahlen des Gesamtdrehimpulses"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Majorana‑Neutrino?",
+      "question": "Was ist ein charakteristisches Merkmal eines Majorana-Neutrinos?",
+      "choices": [
+        "A: Es kann nicht mit anderen Teilchen wechselwirken.",
+        "B: Es hat eine elektrische Ladung.",
+        "C: Es hat eine Masse von genau null.",
+        "D: Es ist sein eigener Antiteilchen."
+      ],
+      "correct_answer": "D",
+      "explanation": "Ein Majorana-Neutrino ist einzigartig, da es als sein eigener Antiteilchen gilt, was bedeutet, dass es keine separate antimaterielle Entsprechung hat. Diese Eigenschaft hat weitreichende Konsequenzen für die theoretische Physik und die Suche nach dunkler Materie.",
+      "difficulty": 8,
+      "subcategory": "Majorana‑Neutrino?"
+    }
+  ]
+}
