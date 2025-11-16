@@ -1,0 +1,168 @@
+{
+  "date": "2025-11-16",
+  "generated_at": "2025-11-16T03:48:27Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Flächenintegrale (orientierte Flächen)",
+      "question": "How is the surface integral of a vector field \\( \\mathbf{F} \\) over an oriented surface \\( S \\) calculated?",
+      "choices": [
+        "A: \\( \\int_C \\mathbf{F} \\cdot d\\mathbf{l} \\)",
+        "B: \\( \\int_S \\mathbf{F} \\, dS \\)",
+        "C: \\( \\iint_S \\mathbf{F} \\cdot d\\mathbf{A} \\)",
+        "D: \\( \\iint_S \\nabla \\cdot \\mathbf{F} \\, dV \\)"
+      ],
+      "correct_answer": "C",
+      "explanation": "The surface integral of a vector field over an oriented surface is defined by the formula \\( \\iint_S \\mathbf{F} \\cdot d\\mathbf{A} \\), where \\( d\\mathbf{A} \\) represents the oriented area element. This calculation is fundamental in electrodynamics, especially in the application of Gauss's theorem.",
+      "difficulty": 8,
+      "subcategory": "Flächenintegrale (orientierte Flächen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Schallwellen im Festkörper",
+      "question": "What does the speed of sound in a solid describe?",
+      "choices": [
+        "A: It can only be measured in liquids.",
+        "B: It is always the same and independent of the material.",
+        "C: It depends on the density and the elasticity modulus of the material.",
+        "D: It is slower in solids than in gases."
+      ],
+      "correct_answer": "C",
+      "explanation": "The speed of sound in a solid depends on the density and the elasticity modulus of the material. The higher the elasticity modulus and the lower the density, the faster sound propagates.",
+      "difficulty": 5,
+      "subcategory": "Schallwellen im Festkörper"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Zeitlich oszillierende Quellen",
+      "question": "Which of the following statements correctly describes the relationship between the frequency of a time-oscillating electrical source and the generated electromagnetic wave?",
+      "choices": [
+        "A: Higher frequencies lead to less intense electromagnetic waves.",
+        "B: The frequency of the source determines the wavelength of the generated wave according to the relationship c = λν.",
+        "C: The frequency only influences the amplitude of the wave, not its wavelength.",
+        "D: The frequency has no effect on the wavelength, as it is independent of the source."
+      ],
+      "correct_answer": "B",
+      "explanation": "The relationship c = λν shows that the speed c of the wave is equal to the product of the wavelength λ and the frequency ν. As the frequency of the source increases, the wavelength decreases accordingly, which is a fundamental property of electromagnetic waves.",
+      "difficulty": 10,
+      "subcategory": "Zeitlich oszillierende Quellen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Maxwell-Gleichungen der Elektrostatik",
+      "question": "Which of the following statements correctly describes the significance of Gauss's law in electrostatics?",
+      "choices": [
+        "A: Electric field lines can extend infinitely in a closed space.",
+        "B: The electric flux is independent of the shape of the closed surface.",
+        "C: The electric flux density is proportional to the enclosed charge.",
+        "D: Electric fields are always arranged concentrically around point charges."
+      ],
+      "correct_answer": "C",
+      "explanation": "Gauss's law states that the electric flux through a closed surface is proportional to the total charge enclosed within that surface. This is a central concept in electrostatics that describes the relationship between electric fields and charges.",
+      "difficulty": 8,
+      "subcategory": "Maxwell-Gleichungen der Elektrostatik"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Potentiale des idealen Gases",
+      "question": "Which of the following laws describes the relationship between pressure, volume, and temperature of an ideal gas when the number of molecules remains constant?",
+      "choices": [
+        "A: The ideal gas law",
+        "B: Avogadro's law",
+        "C: Boyle's law",
+        "D: Charles's law"
+      ],
+      "correct_answer": "A",
+      "explanation": "The ideal gas law (PV = nRT) represents the fundamental relationship between pressure (P), volume (V), and temperature (T) for ideal gases, assuming the number of molecules (n) remains constant. The other laws specify only partial aspects of this relationship under certain conditions.",
+      "difficulty": 9,
+      "subcategory": "Potentiale des idealen Gases"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Punktdefekte (Überblick)",
+      "question": "What is a point defect in a crystal lattice?",
+      "choices": [
+        "A: Extensive cracking in the material.",
+        "B: A change in the chemical composition of the material.",
+        "C: An irregularity in the atomic structure, such as a vacancy or interstitial defect.",
+        "D: A phenomenon that only occurs in liquid substances."
+      ],
+      "correct_answer": "C",
+      "explanation": "Point defects are local irregularities in a crystal lattice that arise from the absence of atoms (vacancies) or from additionally trapped atoms (interstitial defects). These defects significantly influence the physical properties of the material and are a central topic in solid-state physics.",
+      "difficulty": 5,
+      "subcategory": "Punktdefekte (Überblick)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Symmetrien und Erhaltungssätze",
+      "question": "Which of the following conservation laws is crucial in nuclear and particle physics?",
+      "choices": [
+        "A: Conservation of velocity",
+        "B: Conservation of mass in all processes",
+        "C: Conservation of temperature",
+        "D: Conservation of energy"
+      ],
+      "correct_answer": "D",
+      "explanation": "The conservation of energy is a fundamental principle in physics, stating that the total energy of a closed system remains constant. In nuclear and particle physics, this principle is crucial for the analysis of particle interactions and reactions.",
+      "difficulty": 5,
+      "subcategory": "Symmetrien und Erhaltungssätze"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Reibung: Haftreibung",
+      "question": "What describes static friction in classical mechanics?",
+      "choices": [
+        "A: The force needed to keep an object in uniform motion.",
+        "B: The force needed to set a stationary object in motion.",
+        "C: The force that prevents an object from rolling.",
+        "D: The force that slows down an object when it is in motion."
+      ],
+      "correct_answer": "B",
+      "explanation": "Static friction is the force that must be overcome to move a stationary object. It occurs when two surfaces are in contact and are at rest relative to each other. This force is typically greater than kinetic friction, which occurs once the object is in motion.",
+      "difficulty": 5,
+      "subcategory": "Reibung: Haftreibung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Klassisches ideales Gas (mikrokanonisch)",
+      "question": "What describes the density of states of a classical ideal gas in the microcanonical ensemble?",
+      "choices": [
+        "A: The maximum number of particles that can fit in a specific volume.",
+        "B: The entropy of the system as a function of temperature.",
+        "C: The temperature of the gas in relation to the kinetic energy of the particles.",
+        "D: The number of microstates per unit of energy."
+      ],
+      "correct_answer": "D",
+      "explanation": "The density of states indicates how many microstates are associated with a specific energy level. In the microcanonical ensemble, this is crucial for understanding the thermodynamic properties of a classical ideal gas, as it describes the probability of a specific energy state.",
+      "difficulty": 8,
+      "subcategory": "Klassisches ideales Gas (mikrokanonisch)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Eigenwertspektrum (diskret/kontinuierlich)",
+      "question": "What describes a discrete eigenvalue spectrum in quantum mechanics?",
+      "choices": [
+        "A: There are only specific, defined energy levels.",
+        "B: There are infinitely many possible energy levels without restriction.",
+        "C: It describes the motion of particles in space.",
+        "D: There are no energy levels, only continuous values."
+      ],
+      "correct_answer": "A",
+      "explanation": "A discrete eigenvalue spectrum means that the possible energy levels of a quantum mechanical system can only take on certain distinct values. This is typical for bound systems, such as electrons in atoms.",
+      "difficulty": 3,
+      "subcategory": "Eigenwertspektrum (diskret/kontinuierlich)"
+    }
+  ]
+}
