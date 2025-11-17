@@ -1,0 +1,168 @@
+{
+  "date": "2025-11-17",
+  "generated_at": "2025-11-17T03:47:46Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Wirkungsquerschnitt & differentielle Größen",
+      "question": "Was beschreibt der Wirkungsquerschnitt in der Teilchenphysik?",
+      "choices": [
+        "A: Die Geschwindigkeit eines Teilchens.",
+        "B: Die Wahrscheinlichkeit, dass ein Teilchen mit einem anderen interagiert.",
+        "C: Die Energie eines Teilchens.",
+        "D: Die Masse eines Teilchens."
+      ],
+      "correct_answer": "B",
+      "explanation": "Der Wirkungsquerschnitt ist ein Maß für die Wahrscheinlichkeit, dass eine Wechselwirkung zwischen Teilchen stattfindet. Je größer der Wirkungsquerschnitt, desto höher die Wahrscheinlichkeit für eine Interaktion.",
+      "difficulty": 1,
+      "subcategory": "Wirkungsquerschnitt & differentielle Größen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Temperaturbegriff (thermisches Gleichgewicht)",
+      "question": "Was bedeutet thermisches Gleichgewicht?",
+      "choices": [
+        "A: Ein System ist in Ruhe.",
+        "B: Alle Teilchen in einem System bewegen sich mit der gleichen Geschwindigkeit.",
+        "C: Die Temperaturen zweier Systeme sind gleich.",
+        "D: Ein System hat eine höhere Temperatur als ein anderes."
+      ],
+      "correct_answer": "C",
+      "explanation": "Thermisches Gleichgewicht tritt ein, wenn zwei Systeme keinen Wärmeaustausch mehr haben, weil ihre Temperaturen gleich sind. In diesem Zustand erfährt kein System mehr Temperaturänderungen durch den Kontakt mit dem anderen System.",
+      "difficulty": 3,
+      "subcategory": "Temperaturbegriff (thermisches Gleichgewicht)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Transfermatrix-Methode (Ising etc.)",
+      "question": "Was beschreibt die Transfermatrix in der statistischen Mechanik im Kontext des Ising-Modells?",
+      "choices": [
+        "A: Die Wechselwirkungen zwischen benachbarten Spins.",
+        "B: Die Wahrscheinlichkeiten der Konfigurationen des Systems.",
+        "C: Die Temperaturabhängigkeit des Systems.",
+        "D: Den energetischen Zustand eines einzelnen Spins."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Transfermatrix ist ein zentrales Werkzeug, um die statistischen Eigenschaften von Systemen wie dem Ising-Modell zu analysieren. Sie ermöglicht die Berechnung der Wahrscheinlichkeiten für verschiedene Konfigurationen und trägt entsprechend zur Bestimmung der frei Energie und der thermodynamischen Eigenschaften des Systems bei.",
+      "difficulty": 6,
+      "subcategory": "Transfermatrix-Methode (Ising etc.)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Erster Hauptsatz & innere Energie",
+      "question": "Welche Aussage beschreibt korrekt die Beziehung zwischen der inneren Energie eines Systems und der Arbeit, die an ihm verrichtet wird, gemäß dem ersten Hauptsatz der Thermodynamik?",
+      "choices": [
+        "A: Die innere Energie bleibt konstant, wenn Arbeit verrichtet wird.",
+        "B: Die Änderung der inneren Energie ist gleich der zugeführten Wärme minus der geleisteten Arbeit.",
+        "C: Die innere Energie kann nicht durch Wärmeübertragung beeinflusst werden.",
+        "D: Arbeit hat keinen Einfluss auf die innere Energie eines Systems."
+      ],
+      "correct_answer": "B",
+      "explanation": "Der erste Hauptsatz der Thermodynamik besagt, dass die Änderung der inneren Energie eines Systems gleich der zugeführten Wärme minus der geleisteten Arbeit ist. Diese Beziehung zeigt, wie Energie in einem geschlossenen System umgewandelt und übertragen wird.",
+      "difficulty": 8,
+      "subcategory": "Erster Hauptsatz & innere Energie"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Extremaleigenschaften von U und H",
+      "question": "Welche der folgenden Aussagen beschreibt die innere Energie (U) eines geschlossenen Systems bei isothermer Temperaturänderung korrekt?",
+      "choices": [
+        "A: Die innere Energie steigt immer an.",
+        "B: Die innere Energie sinkt immer ab.",
+        "C: Die innere Energie bleibt konstant.",
+        "D: Die innere Energie hängt von der Druckänderung ab."
+      ],
+      "correct_answer": "C",
+      "explanation": "Bei einer isothermen Prozessänderung bleibt die Temperatur konstant, weshalb die innere Energie eines idealen Gases ebenfalls konstant bleibt. Diese Eigenschaft ist ein grundlegendes Konzept der Thermodynamik und zeigt, dass die innere Energie nicht nur von Temperatur, sondern auch von anderen Faktoren abhängt, aber nicht von Druckänderungen in einem isothermen Prozess.",
+      "difficulty": 2,
+      "subcategory": "Extremaleigenschaften von U und H"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Plattenkondensator",
+      "question": "Welche Aussage über den elektrischen Feldstärke E in einem Plattenkondensator trifft zu?",
+      "choices": [
+        "A: Die elektrische Feldstärke ist konstant und hängt nicht von der Distanz zwischen den Platten ab.",
+        "B: Die elektrische Feldstärke ist umgekehrt proportional zur Fläche der Platten.",
+        "C: Die elektrische Feldstärke ist nur in der Nähe der positiven Platte messbar.",
+        "D: Die elektrische Feldstärke wird größer, je weiter man sich von den Platten entfernt."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die elektrische Feldstärke E in einem idealen Plattenkondensator ist konstant und unabhängig von der Distanz zwischen den Platten, solange man sich im homogenen Feld zwischen den Platten befindet. Diese Eigenschaft ist entscheidend für die Anwendung von Plattenkondensatoren in vielen elektrischen Schaltungen.",
+      "difficulty": 7,
+      "subcategory": "Plattenkondensator"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Phasen von Einstoffsystemen & Clausius–Clapeyron",
+      "question": "Welche der folgenden Aussagen beschreibt am besten die Clausius–Clapeyron-Gleichung?",
+      "choices": [
+        "A: Sie beschreibt die Bewegung von Teilchen in einem Festkörper.",
+        "B: Sie beschreibt den Zusammenhang zwischen Temperatur und Druck an der Phasengrenze von zwei Zuständen.",
+        "C: Sie beschreibt die Energieumwandlung bei der Arbeit eines Gases.",
+        "D: Sie beschreibt die Wechselwirkung zwischen Licht und Materie."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Clausius–Clapeyron-Gleichung beschreibt den Zusammenhang zwischen Temperatur und Druck an der Phasengrenze von zwei Zuständen, wie z.B. zwischen flüssig und gasförmig. Sie ist wichtig für das Verständnis von Phasenübergängen in Stoffen.",
+      "difficulty": 2,
+      "subcategory": "Phasen von Einstoffsystemen & Clausius–Clapeyron"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "RG-Ideen: Ising 1D/2D & Dezimierung",
+      "question": "Welche Aussage beschreibt korrekt die kritische Dimension für den Ising-Modell Übergang in der statistischen Mechanik?",
+      "choices": [
+        "A: Der Übergang ist nur in Dimensionen d = 1 und d = 2 möglich.",
+        "B: Der Übergang findet in jeder Dimension statt, aber die Art des Übergangs variiert.",
+        "C: Der Übergang tritt ausschließlich in Dimensionen d < 2 auf.",
+        "D: Der Übergang ist nur in Dimensionen d > 2 möglich."
+      ],
+      "correct_answer": "D",
+      "explanation": "Der Ising-Übergang ist in Dimensionen d = 1 und d = 2 nicht kontinuierlich, während er in Dimensionen d > 2 als kontinuierlicher Übergang beschrieben wird. Dies ist eine zentrale Erkenntnis in der kritischen Phänomenologie und der renormierungsgruppen Theorie.",
+      "difficulty": 10,
+      "subcategory": "RG-Ideen: Ising 1D/2D & Dezimierung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Kinetische Gastheorie: Grundgleichungen",
+      "question": "Was beschreibt die kinetische Gastheorie im Wesentlichen?",
+      "choices": [
+        "A: Die Energieumwandlung in elektrischen Schaltkreisen.",
+        "B: Die Eigenschaften von Festkörpern bei hohen Temperaturen.",
+        "C: Die Gravitation zwischen zwei Massen.",
+        "D: Die Bewegung von Teilchen in einem Gas und deren Wechselwirkungen."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die kinetische Gastheorie erklärt das Verhalten von Gasen anhand der Bewegung und Wechselwirkungen ihrer Moleküle. Sie basiert auf der Annahme, dass Gasteilchen ständig in Bewegung sind und sich elastisch miteinander stoßen.",
+      "difficulty": 1,
+      "subcategory": "Kinetische Gastheorie: Grundgleichungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Semiklassische Atommodelle (Rutherford→Bohr)",
+      "question": "Welches Atommodell wurde von Niels Bohr entwickelt und beschreibt Elektronen in festen Bahnen um den Atomkern?",
+      "choices": [
+        "A: Thomson-Modell",
+        "B: Rutherford-Modell",
+        "C: Bohr-Modell",
+        "D: Schrödinger-Modell"
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Bohr-Modell beschreibt die Elektronen als Teilchen, die sich in festen, quantisierten Bahnen um den Atomkern bewegen. Dieses Modell war ein wichtiger Schritt in der Entwicklung der Quantenmechanik und half, das Verhalten von Wasserstoffatomen zu erklären.",
+      "difficulty": 3,
+      "subcategory": "Semiklassische Atommodelle (Rutherford→Bohr)"
+    }
+  ]
+}
