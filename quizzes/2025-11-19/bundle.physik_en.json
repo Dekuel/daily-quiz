@@ -1,0 +1,168 @@
+{
+  "date": "2025-11-19",
+  "generated_at": "2025-11-19T03:45:21Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Übergang zur Wellenmechanik (klassisch → QM)",
+      "question": "What does the transition from classical mechanics to quantum mechanics describe regarding particles?",
+      "choices": [
+        "A: Particles cannot interfere with each other.",
+        "B: Particles always move in straight lines.",
+        "C: Particles have both particle and wave characteristics.",
+        "D: Particles are always stable and unaffected by external forces."
+      ],
+      "correct_answer": "C",
+      "explanation": "The transition to quantum mechanics shows that particles possess both wave and particle characteristics, leading to phenomena like interference. This dual nature is fundamental for understanding quantum mechanics and differs significantly from classical mechanics.",
+      "difficulty": 3,
+      "subcategory": "Übergang zur Wellenmechanik (klassisch → QM)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Baryon‑Multipletts",
+      "question": "What is a baryon multiplet?",
+      "choices": [
+        "A: A term for interactions between protons and neutrons.",
+        "B: A type of mesons generated only in accelerators.",
+        "C: A group of baryons with different spin states.",
+        "D: A collection of electrons in an atom."
+      ],
+      "correct_answer": "C",
+      "explanation": "Baryon multiplets are a group of baryons that differ in their spin states but belong to the same set of quantum numbers. These multiplet structures are important for understanding strong interactions and quark models.",
+      "difficulty": 6,
+      "subcategory": "Baryon‑Multipletts"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Stokes’scher Satz",
+      "question": "What does Stokes's theorem describe in electrodynamics?",
+      "choices": [
+        "A: Conservation of electric charge in a closed system.",
+        "B: Relationship between electric field strength and magnetic flux density.",
+        "C: Interaction between electric and magnetic fields in moving systems.",
+        "D: Relationship between circulation of a vector field along a closed path and the flux of the corresponding curl field through a surface enclosed by that path."
+      ],
+      "correct_answer": "D",
+      "explanation": "Stokes's theorem relates the circulation of a vector field along a closed path to the flux of the curl field through the surface enclosed by that path. This is a fundamental concept in vector field theory and has broad applications in electrodynamics.",
+      "difficulty": 7,
+      "subcategory": "Stokes’scher Satz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Residuensatz",
+      "question": "Which of the following statements correctly describes the residue theorem in complex analysis?",
+      "choices": [
+        "A: The residue theorem is identical to the fundamental theorem of calculus.",
+        "B: The residue theorem is only applicable to functions without singularities.",
+        "C: The residue theorem states that the derivative of an analytic function at a point is always zero.",
+        "D: The residue theorem enables the calculation of curve integrals over closed paths with respect to isolated singularities."
+      ],
+      "correct_answer": "D",
+      "explanation": "The residue theorem is a central result in complex analysis that allows for the calculation of curve integrals over closed paths by considering the residues of isolated singularities within the path. This is particularly useful in electrodynamics for solving problems involving complex functions.",
+      "difficulty": 9,
+      "subcategory": "Residuensatz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Großkanonisches Potential (Quanten-Gase)",
+      "question": "What does the grand canonical potential describe in the statistical mechanics of quantum gases?",
+      "choices": [
+        "A: Relationship between temperature and entropy in a closed system.",
+        "B: Thermodynamic properties of a system at constant pressure.",
+        "C: Probability of a particle being in a specific state.",
+        "D: Energy of a system at constant volume and temperature."
+      ],
+      "correct_answer": "C",
+      "explanation": "The grand canonical potential is an important concept in statistical mechanics that describes the probability of a particle being in a specific state. It is used to analyze systems where the number of particles, temperature, and chemical potential are variable.",
+      "difficulty": 4,
+      "subcategory": "Großkanonisches Potential (Quanten-Gase)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Nukleon‑Nukleon‑Streuung",
+      "question": "What essentially describes nucleon-nucleon scattering?",
+      "choices": [
+        "A: Interaction between electrons and photons.",
+        "B: Interaction between atoms and molecules.",
+        "C: Interaction between nuclei and external fields.",
+        "D: Interaction between two protons or neutrons."
+      ],
+      "correct_answer": "D",
+      "explanation": "Nucleon-nucleon scattering describes the fundamental interaction between protons and neutrons, which are the building blocks of atomic nuclei. These interactions are crucial for understanding nuclear processes and the stable structure of atomic nuclei.",
+      "difficulty": 5,
+      "subcategory": "Nukleon‑Nukleon‑Streuung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Spin 1/2 (Pauli-Matrizen)",
+      "question": "Which Pauli matrix describes spin in the Z-direction?",
+      "choices": [
+        "A: σ_z = [[1, 0], [0, -1]]",
+        "B: σ_0 = [[1, 0], [0, 1]]",
+        "C: σ_x = [[0, 1], [1, 0]]",
+        "D: σ_y = [[0, -i], [i, 0]]"
+      ],
+      "correct_answer": "A",
+      "explanation": "The Pauli matrix σ_z describes the spin of a spin-1/2 system in the Z-direction. It has the form [[1, 0], [0, -1]], representing the 'spin up' and 'spin down' states.",
+      "difficulty": 3,
+      "subcategory": "Spin 1/2 (Pauli-Matrizen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Linsenfehler (Aberrationen)",
+      "question": "What is chromatic aberration in lenses?",
+      "choices": [
+        "A: Defocusing due to blurriness.",
+        "B: Disturbance caused by the lens itself.",
+        "C: Impairment of image brightness.",
+        "D: Distortion caused by differential refraction of light colors."
+      ],
+      "correct_answer": "D",
+      "explanation": "Chromatic aberration occurs because different colors of light are refracted to different extents. This leads to a colored fringe around objects viewed through the lens, which can affect image quality.",
+      "difficulty": 5,
+      "subcategory": "Linsenfehler (Aberrationen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Makroskopische Feldgrößen (B, H, M)",
+      "question": "Which of the following quantities describes the magnetic field in a material?",
+      "choices": [
+        "A: ρ (Density)",
+        "B: E (Electric field strength)",
+        "C: H (Magnetic field strength)",
+        "D: T (Temperature)"
+      ],
+      "correct_answer": "C",
+      "explanation": "The magnetic field strength H describes the magnetic field in a material and is an important parameter in electrodynamics. The other options refer to different physical quantities.",
+      "difficulty": 3,
+      "subcategory": "Makroskopische Feldgrößen (B, H, M)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Quarkstruktur der Nukleonen",
+      "question": "Which of the following statements correctly describes the quark structure of a proton?",
+      "choices": [
+        "A: A proton consists of three down quarks.",
+        "B: A proton consists of one up quark and one strange quark.",
+        "C: A proton consists of one up quark and two down quarks.",
+        "D: A proton consists of two up quarks and one down quark."
+      ],
+      "correct_answer": "D",
+      "explanation": "A proton is a baryonic particle composed of two up quarks and one down quark. This quark structure is fundamental to the properties and interactions of nucleons in nuclear physics.",
+      "difficulty": 7,
+      "subcategory": "Quarkstruktur der Nukleonen"
+    }
+  ]
+}
