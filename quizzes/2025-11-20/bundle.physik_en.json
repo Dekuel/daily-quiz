@@ -1,0 +1,168 @@
+{
+  "date": "2025-11-20",
+  "generated_at": "2025-11-20T03:43:11Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Beispiele kanonischer Transformationen",
+      "question": "Which of the following transformations is an example of a canonical transformation?",
+      "choices": [
+        "A: The conversion of thermal energy into mechanical work.",
+        "B: The change from an inertial system to an accelerated reference frame.",
+        "C: The transition from the positions and momenta of a system to the Hamiltonian variables.",
+        "D: The comparison of elastic and inelastic collisions."
+      ],
+      "correct_answer": "C",
+      "explanation": "Canonical transformations are transformations that preserve the form of the Hamiltonian equations. The transition to Hamiltonian variables is a classic example of this, as it does not alter the structure of the dynamic equations.",
+      "difficulty": 3,
+      "subcategory": "Beispiele kanonischer Transformationen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Relativistischer Impuls, Energie und Kraft",
+      "question": "Which expression describes the relativistic momentum of a body moving at a speed close to the speed of light?",
+      "choices": [
+        "A: p = mv / sqrt(1 - v^2/c^2)",
+        "B: p = mc^2",
+        "C: p = m * g",
+        "D: p = mv"
+      ],
+      "correct_answer": "A",
+      "explanation": "The relativistic momentum is defined by the expression p = mv / sqrt(1 - v^2/c^2), where m is the rest mass and v is the speed of the body. This expression shows that momentum increases at relativistic speeds and the classical definition is no longer sufficient.",
+      "difficulty": 7,
+      "subcategory": "Relativistischer Impuls, Energie und Kraft"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Kepler-Problem (HJ/AA-Formalismus)",
+      "question": "Which of the following statements correctly describes the Kepler problem in the context of the Hamilton-Jacobi formalism?",
+      "choices": [
+        "A: The motion of a planet around the sun follows an elliptical path with the sun at a focus.",
+        "B: The Hamilton-Jacobi formalism does not require knowledge of energy conservation.",
+        "C: The gravitational force between two bodies is independent of the distance between them.",
+        "D: The path of a planet is always a straight line."
+      ],
+      "correct_answer": "A",
+      "explanation": "The Kepler problem describes the motion of a planet around the sun as an elliptical path, which is one of the principles of celestial mechanics. In the Hamilton-Jacobi formalism, this motion is analyzed by applying energy and momentum conservation. The other options are either incorrect or misleading.",
+      "difficulty": 6,
+      "subcategory": "Kepler-Problem (HJ/AA-Formalismus)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Idealer Paramagnet (Brillouin/Langevin-Idee)",
+      "question": "What does the Langevin model describe regarding ideal paramagnets?",
+      "choices": [
+        "A: The magnetic susceptibility as a function of temperature.",
+        "B: The change in internal energy at constant volume.",
+        "C: The relationship between pressure and volume in a gas.",
+        "D: The specific heat of a solid."
+      ],
+      "correct_answer": "A",
+      "explanation": "The Langevin model describes how the magnetic susceptibility of an ideal paramagnet varies with temperature. It explains why the magnetic response of a material decreases at higher temperatures, as thermal motions disrupt the alignment of magnetic moments.",
+      "difficulty": 6,
+      "subcategory": "Idealer Paramagnet (Brillouin/Langevin-Idee)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Dritter Hauptsatz (Nernst’scher Wärmesatz)",
+      "question": "What does Nernst's heat theorem state in the context of thermodynamics?",
+      "choices": [
+        "A: Temperature is independent of the entropy of a system.",
+        "B: All thermodynamic processes are irreversible.",
+        "C: The entropy of a perfect crystal approaches zero at 0 Kelvin.",
+        "D: Energy cannot be created or destroyed, only converted."
+      ],
+      "correct_answer": "C",
+      "explanation": "Nernst's heat theorem states that the entropy of a perfect crystal reaches zero at absolute zero temperature (0 Kelvin). This means that there is a state of maximum order that can theoretically be reached at this temperature.",
+      "difficulty": 7,
+      "subcategory": "Dritter Hauptsatz (Nernst’scher Wärmesatz)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Skalenhypothese (Skalierungsansatz)",
+      "question": "Which statement best describes the scale hypothesis in thermodynamics?",
+      "choices": [
+        "A: It describes the relationship between pressure and volume in ideal gases.",
+        "B: It explains why gases are less compressible at higher temperatures.",
+        "C: It postulates that physical systems show similar properties on different scales.",
+        "D: It states that temperature is independent of the energy distribution of particles."
+      ],
+      "correct_answer": "C",
+      "explanation": "The scale hypothesis suggests that many physical phenomena exhibit similar behaviors on different scales. This is particularly important for understanding and modeling complex systems.",
+      "difficulty": 6,
+      "subcategory": "Skalenhypothese (Skalierungsansatz)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Reelle und virtuelle Abbildungen",
+      "question": "What is a virtual image?",
+      "choices": [
+        "A: An image that cannot be displayed on a screen.",
+        "B: An image that is formed on the opposite side of the object.",
+        "C: An image created only by a pair of convex lenses.",
+        "D: An image that is always smaller than the object."
+      ],
+      "correct_answer": "A",
+      "explanation": "A virtual image occurs when the light rays emanating from an object do not actually converge at a point but only appear to come from a point. These images cannot be captured on a screen as they lie behind the mirror or lens.",
+      "difficulty": 4,
+      "subcategory": "Reelle und virtuelle Abbildungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Skalenhypothese (Skalierungsansatz)",
+      "question": "Which of the following concepts best describes the application of the scale hypothesis in thermodynamics?",
+      "choices": [
+        "A: Analyzing the motion of particles in a vacuum.",
+        "B: Calculating the specific heat of an ideal gas.",
+        "C: Determining the pressure in a closed system.",
+        "D: The relationship between macroscopic and microscopic variables of a thermodynamic unit."
+      ],
+      "correct_answer": "D",
+      "explanation": "The scale hypothesis in thermodynamics describes how macroscopic properties of a system, such as temperature and pressure, can be derived from the microscopic properties of particles. This is crucial for understanding thermodynamic processes and phenomena.",
+      "difficulty": 7,
+      "subcategory": "Skalenhypothese (Skalierungsansatz)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Zerlegungs- und Eindeutigkeitssatz (Vektoranalysis)",
+      "question": "Which of the following statements correctly describes the decomposition and uniqueness theorem for vector fields in electrodynamics?",
+      "choices": [
+        "A: Every vector field can be decomposed into a divergent and a rotational component.",
+        "B: Every smooth vector field can be represented as the gradient of a scalar field.",
+        "C: Vector fields are always divergent fields.",
+        "D: Every vector field in a simply connected region can be represented as the sum of a conservative and a divergence-free field."
+      ],
+      "correct_answer": "D",
+      "explanation": "The decomposition and uniqueness theorem states that in a simply connected region, every vector field can be represented as the sum of a conservative field and a divergence-free field. This is crucial for understanding electromagnetic fields and their properties.",
+      "difficulty": 7,
+      "subcategory": "Zerlegungs- und Eindeutigkeitssatz (Vektoranalysis)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Resonanz & Schaltvorgänge",
+      "question": "Which of the following statements correctly describes a resonance switching process in an electrical circuit?",
+      "choices": [
+        "A: Resonance occurs when the frequency of an external source does not match the natural frequency.",
+        "B: At resonance, the phase shift between voltage and current is constantly at 90 degrees.",
+        "C: The resonance frequency is always below the natural frequency of the circuit.",
+        "D: The impedance of the circuit is minimal, leading to maximum current."
+      ],
+      "correct_answer": "D",
+      "explanation": "In an electrical circuit with resonance, the impedance is minimal, meaning that the current can flow maximally. Resonance occurs when the frequency of an external source matches the natural frequency of the circuit, which is not reflected in the conditions in the other answers.",
+      "difficulty": 8,
+      "subcategory": "Resonanz & Schaltvorgänge"
+    }
+  ]
+}

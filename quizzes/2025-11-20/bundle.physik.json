@@ -1,0 +1,168 @@
+{
+  "date": "2025-11-20",
+  "generated_at": "2025-11-20T03:42:49Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Beispiele kanonischer Transformationen",
+      "question": "Welche der folgenden Transformationen ist ein Beispiel für eine kanonische Transformation?",
+      "choices": [
+        "A: Die Umwandlung thermischer Energie in mechanische Arbeit.",
+        "B: Der Wechsel von einem Inertialsystem zu einem beschleunigten Bezugssystem.",
+        "C: Der Übergang von den Positionen und Impulsen eines Systems zu den Hamiltonschen Variablen.",
+        "D: Der Vergleich von elastischen und unelastischen Kollisionen."
+      ],
+      "correct_answer": "C",
+      "explanation": "Kanonische Transformationen sind Transformationen, die die Form der Hamiltonschen Gleichungen beibehalten. Der Übergang zu Hamiltonschen Variablen ist ein klassisches Beispiel dafür, da er die Struktur der dynamischen Gleichungen nicht verändert.",
+      "difficulty": 3,
+      "subcategory": "Beispiele kanonischer Transformationen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Relativistischer Impuls, Energie und Kraft",
+      "question": "Welcher Ausdruck beschreibt den relativistischen Impuls eines Körpers, der sich mit einer Geschwindigkeit nahe der Lichtgeschwindigkeit bewegt?",
+      "choices": [
+        "A: p = mv / sqrt(1 - v^2/c^2)",
+        "B: p = mc^2",
+        "C: p = m * g",
+        "D: p = mv"
+      ],
+      "correct_answer": "A",
+      "explanation": "Der relativistische Impuls wird durch den Ausdruck p = mv / sqrt(1 - v^2/c^2) definiert, wobei m die Ruhemasse und v die Geschwindigkeit des Körpers ist. Dieser Ausdruck zeigt, dass der Impuls bei relativistischen Geschwindigkeiten ansteigt und die klassische Definition nicht mehr ausreicht.",
+      "difficulty": 7,
+      "subcategory": "Relativistischer Impuls, Energie und Kraft"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Kepler-Problem (HJ/AA-Formalismus)",
+      "question": "Welcher der folgenden Aussagen beschreibt das Kepler-Problem korrekt im Kontext des Hamiltion-Jacobi-Formalismus?",
+      "choices": [
+        "A: Die Bewegung eines Planeten um die Sonne folgt einer elliptischen Bahn, deren Fokus die Sonne ist.",
+        "B: Der Hamiltion-Jacobi-Formalismus erfordert keine Kenntnisse der Energieerhaltung.",
+        "C: Die Gravitationskraft zwischen zwei Körpern ist unabhängig von der Entfernung zwischen ihnen.",
+        "D: Die Bahn eines Planeten ist immer eine gerade Linie."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Kepler-Problem beschreibt die Bewegung eines Planeten um die Sonne als elliptische Bahn, was einer der Grundsätze der Himmelsmechanik ist. Im Hamiltion-Jacobi-Formalismus wird diese Bewegung durch die Anwendung von Energie- und Impulserhaltung analysiert. Die anderen Optionen sind entweder falsch oder missverständlich.",
+      "difficulty": 6,
+      "subcategory": "Kepler-Problem (HJ/AA-Formalismus)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Idealer Paramagnet (Brillouin/Langevin-Idee)",
+      "question": "Was beschreibt das Langevin-Modell in Bezug auf ideale Paramagneten?",
+      "choices": [
+        "A: Die magnetische Suszeptibilität in Abhängigkeit von der Temperatur.",
+        "B: Die Änderung der inneren Energie bei konstantem Volumen.",
+        "C: Den Zusammenhang zwischen Druck und Volumen in einem Gas.",
+        "D: Die spezifische Wärme eines Festkörpers."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Langevin-Modell beschreibt, wie die magnetische Suszeptibilität eines idealen Paramagneten mit der Temperatur variiert. Es erklärt, warum die magnetische Antwort eines Materials bei höheren Temperaturen abnimmt, da thermische Bewegungen die Ausrichtung der magnetischen Momente stören.",
+      "difficulty": 6,
+      "subcategory": "Idealer Paramagnet (Brillouin/Langevin-Idee)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Dritter Hauptsatz (Nernst’scher Wärmesatz)",
+      "question": "Was besagt der Nernst’sche Wärmesatz im Kontext der Thermodynamik?",
+      "choices": [
+        "A: Die Temperatur ist unabhängig von der Entropie eines Systems.",
+        "B: Alle thermodynamischen Prozesse sind irreversibel.",
+        "C: Die Entropie eines perfekten Kristalls nähert sich bei 0 Kelvin dem Wert null an.",
+        "D: Die Energie kann nicht erzeugt oder vernichtet werden, sondern nur umgewandelt werden."
+      ],
+      "correct_answer": "C",
+      "explanation": "Der Nernst’sche Wärmesatz besagt, dass die Entropie eines perfekten Kristalls bei der absoluten Nulltemperatur (0 Kelvin) den Wert null erreicht. Dies bedeutet, dass es einen Zustand maximaler Ordnung gibt, der theoretisch bei dieser Temperatur erreicht werden kann.",
+      "difficulty": 7,
+      "subcategory": "Dritter Hauptsatz (Nernst’scher Wärmesatz)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Skalenhypothese (Skalierungsansatz)",
+      "question": "Welche Aussage beschreibt am besten die Skalenhypothese in der Thermodynamik?",
+      "choices": [
+        "A: Sie beschreibt die Beziehung zwischen Druck und Volumen in idealen Gasen.",
+        "B: Sie erklärt, warum Gase bei höheren Temperaturen weniger komprimierbar sind.",
+        "C: Sie postuliert, dass physikalische Systeme auf verschiedenen Skalen ähnliche Eigenschaften zeigen.",
+        "D: Sie besagt, dass die Temperatur unabhängig von der Energieverteilung der Teilchen ist."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Skalenhypothese legt nahe, dass viele physikalische Phänomene auf unterschiedlichen Skalen ähnliche Verhaltensweisen aufweisen. Dies ist besonders wichtig, um komplexe Systeme zu verstehen und zu modellieren.",
+      "difficulty": 6,
+      "subcategory": "Skalenhypothese (Skalierungsansatz)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Reelle und virtuelle Abbildungen",
+      "question": "Was ist eine virtuelle Abbildung?",
+      "choices": [
+        "A: Eine Abbildung, die nicht auf einem Bildschirm dargestellt werden kann.",
+        "B: Eine Abbildung, die auf der gegenüberliegenden Seite des Objekts entsteht.",
+        "C: Eine Abbildung, die nur durch ein konvexes Linsenpaar erzeugt wird.",
+        "D: Eine Abbildung, die immer kleiner ist als das Objekt."
+      ],
+      "correct_answer": "A",
+      "explanation": "Eine virtuelle Abbildung entsteht, wenn die Lichtstrahlen, die von einem Objekt ausgehen, nicht tatsächlich einen Punkt treffen, sondern nur scheinbar von einem Punkt kommen. Diese Abbildungen können nicht auf einem Bildschirm aufgefangen werden, da sie hinter dem Spiegel oder der Linse liegen.",
+      "difficulty": 4,
+      "subcategory": "Reelle und virtuelle Abbildungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Skalenhypothese (Skalierungsansatz)",
+      "question": "Welches der folgenden Konzepte beschreibt am besten die Anwendung der Skalenhypothese in der Thermodynamik?",
+      "choices": [
+        "A: Die Analyse der Bewegung von Teilchen in einem Vakuum.",
+        "B: Die Berechnung der spezifischen Wärme eines idealen Gases.",
+        "C: Die Bestimmung des Drucks in einem geschlossenen System.",
+        "D: Die Beziehung zwischen makroskopischen und mikroskopischen Variablen einer thermodynamischen Einheit."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Skalenhypothese in der Thermodynamik beschreibt, wie makroskopische Eigenschaften eines Systems, wie Temperatur und Druck, aus den mikroskopischen Eigenschaften der Teilchen abgeleitet werden können. Dies ist entscheidend für das Verständnis thermodynamischer Prozesse und Phänomene.",
+      "difficulty": 7,
+      "subcategory": "Skalenhypothese (Skalierungsansatz)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Zerlegungs- und Eindeutigkeitssatz (Vektoranalysis)",
+      "question": "Welcher der folgenden Sätze beschreibt korrekt den Zerlegungs- und Eindeutigkeitssatz für Vektorfelder in der Elektrodynamik?",
+      "choices": [
+        "A: Jedes Vektorfeld kann in eine divergente und eine rotierende Komponente zerlegt werden.",
+        "B: Jedes glatte Vektorfeld kann als Gradient eines Skalarfeldes dargestellt werden.",
+        "C: Vektorfelder sind immer divergente Felder.",
+        "D: Jedes Vektorfeld in einem einfach zusammenhängenden Gebiet kann als Summe eines konservativen und eines wirbelfreien Feldes dargestellt werden."
+      ],
+      "correct_answer": "D",
+      "explanation": "Der Zerlegungs- und Eindeutigkeitssatz besagt, dass in einem einfach zusammenhängenden Gebiet jedes Vektorfeld als Summe eines konservativen Feldes und eines wirbelfreien Feldes dargestellt werden kann. Dies ist entscheidend für das Verständnis von elektromagnetischen Feldern und deren Eigenschaften.",
+      "difficulty": 7,
+      "subcategory": "Zerlegungs- und Eindeutigkeitssatz (Vektoranalysis)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Resonanz & Schaltvorgänge",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt einen Resonanzschaltvorgang in einem elektrischen Schaltkreis?",
+      "choices": [
+        "A: Resonanz tritt auf, wenn die Frequenz einer externen Quelle nicht mit der Eigenfrequenz übereinstimmt.",
+        "B: Bei Resonanz ist die Phasenverschiebung zwischen Spannung und Strom konstant bei 90 Grad.",
+        "C: Die Resonanzfrequenz liegt immer unterhalb der natürlichen Frequenz des Kreises.",
+        "D: Die Impedanz des Schaltkreises ist minimal, was zu maximalem Strom führt."
+      ],
+      "correct_answer": "D",
+      "explanation": "In einem elektrischen Schaltkreis mit Resonanz ist die Impedanz minimal, was bedeutet, dass der Strom maximal fließen kann. Resonanz tritt auf, wenn die Frequenz einer externen Quelle mit der Eigenfrequenz des Schaltkreises übereinstimmt, was nicht die Bedingungen in den anderen Antworten widerspiegelt.",
+      "difficulty": 8,
+      "subcategory": "Resonanz & Schaltvorgänge"
+    }
+  ]
+}
