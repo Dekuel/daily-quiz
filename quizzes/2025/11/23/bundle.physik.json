@@ -1,0 +1,168 @@
+{
+  "date": "2025-11-23",
+  "generated_at": "2025-11-23T18:06:37Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Einfluss der Wandbelegung",
+      "question": "Wie beeinflusst die Beschaffenheit der Wände eines Raumes die Bewegung eines Balls, der in diesem Raum geworfen wird?",
+      "choices": [
+        "A: Eine raue Wand erhöht den Luftwiderstand und verringert die Geschwindigkeit des Balls.",
+        "B: Die Farbe der Wand beeinflusst die Energie des Balls.",
+        "C: Eine glatte Wand hat keinen Einfluss auf die Bewegung des Balls.",
+        "D: Eine weiche Wand absorbiert die gesamte Energie des Balls und stoppt ihn sofort."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Beschaffenheit der Wände, insbesondere ihre Rauheit, kann den Luftwiderstand erhöhen und somit die Geschwindigkeit des Balls verringern. Eine glatte Wand hingegen reflektiert den Ball effizienter, während weiche Wände die Energie absorbieren können, aber nicht vollständig aufhalten sollten.",
+      "difficulty": 8,
+      "subcategory": "Einfluss der Wandbelegung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Maxwell-Gleichungen in kovarianter Form",
+      "question": "Welche Aussage über die Maxwell-Gleichungen in kovarianter Form ist korrekt?",
+      "choices": [
+        "A: Sie beschreiben nur elektrische Felder.",
+        "B: Sie gelten nur im Ruhesystem einer Ladung.",
+        "C: Sie sind in jeder Inertialsystemform invariant.",
+        "D: Sie sind unabhängig von der Lichtgeschwindigkeit."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Maxwell-Gleichungen in kovarianter Form sind so formuliert, dass sie in allen Inertialsystemen invariant bleiben. Das bedeutet, dass die physikalischen Gesetze unabhängig von der Bewegung des Beobachters gelten, was ein fundamentales Konzept der Relativitätstheorie ist.",
+      "difficulty": 5,
+      "subcategory": "Maxwell-Gleichungen in kovarianter Form"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Ebene Wellen & Polarisation",
+      "question": "Was beschreibt die Polarisation einer elektromagnetischen Welle?",
+      "choices": [
+        "A: Die Intensität der Welle.",
+        "B: Die Richtung der elektrischen Feldstärke.",
+        "C: Die Frequenz der Welle.",
+        "D: Die Geschwindigkeit der Welle im Vakuum."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Polarisation einer elektromagnetischen Welle beschreibt die Richtung, in der die elektrische Feldstärke schwingt. Dies ist ein wichtiges Konzept, da es Einfluss auf die Wechselwirkung der Welle mit Materie hat, wie beispielsweise bei der Reflexion oder Brechung.",
+      "difficulty": 5,
+      "subcategory": "Ebene Wellen & Polarisation"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Photoeffekt in der Detektion (Nachweis)",
+      "question": "Welcher der folgenden Faktoren beeinflusst den Photoeffekt maßgeblich bei der Detektion von Lichtquellen?",
+      "choices": [
+        "A: Die Intensität des einfallenden Lichts",
+        "B: Die Temperatur des Detektionsmaterials",
+        "C: Die Form des Detektionsmaterials",
+        "D: Die Frequenz des einfallenden Lichts"
+      ],
+      "correct_answer": "D",
+      "explanation": "Der Photoeffekt ist stark von der Frequenz des einfallenden Lichts abhängig, da nur Licht mit einer Frequenz über einem bestimmten Schwellenwert Elektronen aus dem Material lösen kann. Die Temperatur, Intensität und Form des Materials haben zwar Einfluss auf die Effizienz des Detektionsprozesses, sind jedoch nicht entscheidend für das Auftreten des Photoeffekts selbst.",
+      "difficulty": 8,
+      "subcategory": "Photoeffekt in der Detektion (Nachweis)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "β‑Zerfall (β±, EC)",
+      "question": "Was ist das Hauptmerkmal des β+ (Beta-Plus) Zerfalls?",
+      "choices": [
+        "A: Ein Proton wird in ein Neutron umgewandelt.",
+        "B: Ein Elektron wird aus dem Atomkern emittiert.",
+        "C: Ein Proton zerfällt in ein Neutron und ein Positron.",
+        "D: Ein Neutron zerfällt in ein Proton und ein Elektron."
+      ],
+      "correct_answer": "C",
+      "explanation": "Beim β+ Zerfall wandelt sich ein Proton in ein Neutron um und emittiert ein Positron, das ist das Antiteilchen des Elektrons. Dieser Prozess ist wichtig für den radioaktiven Zerfall von bestimmten Isotopen und spielt eine Rolle in der Positronen-Emissions-Tomographie (PET).",
+      "difficulty": 4,
+      "subcategory": "β‑Zerfall (β±, EC)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Separation der Variablen & orthogonale Funktionen",
+      "question": "Was beschreibt das Konzept der orthogonalen Funktionen in der Elektrodynamik?",
+      "choices": [
+        "A: Sie sind Funktionen, die immer gleich sind.",
+        "B: Sie sind Funktionen, die sich bei Integration über ein bestimmtes Intervall gegenseitig aufheben.",
+        "C: Sie sind Funktionen, die immer positive Werte annehmen.",
+        "D: Sie sind Funktionen, die nur im Zeitbereich existieren."
+      ],
+      "correct_answer": "B",
+      "explanation": "Orthogonale Funktionen sind solche, die bei der Integration über ein bestimmtes Intervall zu null führen. Dies ist wichtig für die Separation der Variablen in der Elektrodynamik, insbesondere bei der Lösung von Differentialgleichungen.",
+      "difficulty": 1,
+      "subcategory": "Separation der Variablen & orthogonale Funktionen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Brechungsgesetz aus Fermat",
+      "question": "Was besagt das Brechungsgesetz nach Fermat?",
+      "choices": [
+        "A: Licht wird bei jedem Mediumwechsel reflektiert.",
+        "B: Licht kann nicht durch transparente Materialien hindurch gelangen.",
+        "C: Licht folgt dem Weg, der die geringste Zeit benötigt.",
+        "D: Licht breitet sich immer in geraden Linien aus."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Brechungsgesetz nach Fermat besagt, dass Licht den Pfad wählt, der die kürzeste Zeit benötigt, um von einem Punkt zu einem anderen zu gelangen. Dies erklärt, warum Lichtstrahlen an der Grenze zwischen zwei Medien gebrochen werden. Dieser Ansatz ist grundlegend für das Verständnis der Optik und der Lichtausbreitung.",
+      "difficulty": 6,
+      "subcategory": "Brechungsgesetz aus Fermat"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Feldenergie & Feldimpuls",
+      "question": "Was beschreibt die Feldenergie in einem elektrischen Feld?",
+      "choices": [
+        "A: Die kinetische Energie von Elektronen im Feld.",
+        "B: Die Energie, die in einer elektrischen Ladung gespeichert ist.",
+        "C: Die Energie, die benötigt wird, um eine Ladung von unendlich weit in das Feld zu bewegen.",
+        "D: Die Energie, die durch die Bewegung eines elektrischen Leiters erzeugt wird."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Feldenergie in einem elektrischen Feld ist die Arbeit, die notwendig ist, um eine Testladung von einem Punkt im Raum zu einem anderen Punkt innerhalb des Feldes zu bewegen. Diese Energie wird in Form von Potenzialenergie gespeichert, wenn die Ladung in das Feld gebracht wird.",
+      "difficulty": 4,
+      "subcategory": "Feldenergie & Feldimpuls"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Schallwellen im Festkörper",
+      "question": "Welche Eigenschaft von Schallwellen im Festkörper ermöglicht es ihnen, sich schneller auszubreiten als in Luft?",
+      "choices": [
+        "A: geringere Viskosität",
+        "B: Höhere Dichte des Mediums",
+        "C: größere Molekülgröße",
+        "D: niedrigere Temperatur"
+      ],
+      "correct_answer": "B",
+      "explanation": "Schallwellen breiten sich in festen Materialien schneller aus, weil die Teilchen dichter gepackt sind, was eine schnellere Übertragung der Schwingungen ermöglicht. In Luft sind die Teilchen weiter auseinander, was die Ausbreitungsgeschwindigkeit verringert.",
+      "difficulty": 5,
+      "subcategory": "Schallwellen im Festkörper"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Nichtresonante Hadronerzeugung (R‑Verhältnis)",
+      "question": "Was beschreibt das R-Verhältnis in der nichtresonanten Hadronerzeugung?",
+      "choices": [
+        "A: Das Verhältnis der Energie, die in Teilchen und Antiteilchen umgewandelt wird.",
+        "B: Das Verhältnis der verschiedenen Hadronarten, die in einem Prozess erzeugt werden.",
+        "C: Das Verhältnis der Quark- zu Gluonenaustauschprozesse.",
+        "D: Das Verhältnis der Anzahl der erzeugten Hadronen zu den gebundenen Zuständen."
+      ],
+      "correct_answer": "B",
+      "explanation": "Das R-Verhältnis gibt an, wie viele Hadronen im Vergleich zu anderen Teilchenarten bei einem bestimmten Prozess erzeugt werden. Es ist entscheidend für das Verständnis der zugrunde liegenden Wechselwirkungen in der Teilchenphysik.",
+      "difficulty": 5,
+      "subcategory": "Nichtresonante Hadronerzeugung (R‑Verhältnis)"
+    }
+  ]
+}
