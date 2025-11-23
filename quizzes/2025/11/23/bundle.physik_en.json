@@ -1,168 +1,168 @@
 {
   "date": "2025-11-23",
-  "generated_at": "2025-11-23T18:07:05Z",
+  "generated_at": "2025-11-23T19:20:58Z",
   "schema_version": 6,
   "mode": "physik",
   "questions": [
     {
       "category": "Physik",
-      "topic": "Klassische Mechanik",
-      "subtopic": "Einfluss der Wandbelegung",
-      "question": "How does the texture of the walls of a room affect the motion of a ball thrown in that room?",
+      "topic": "Quantenmechanik",
+      "subtopic": "Grenzen der klassischen Physik",
+      "question": "Welche Aussage beschreibt am besten die Grenze der klassischen Physik im Vergleich zur Quantenmechanik?",
       "choices": [
-        "A: A rough wall increases air resistance and decreases the speed of the ball.",
-        "B: The color of the wall affects the energy of the ball.",
-        "C: A smooth wall has no effect on the motion of the ball.",
-        "D: A soft wall absorbs all the energy of the ball and stops it immediately."
-      ],
-      "correct_answer": "A",
-      "explanation": "The texture of the walls, especially their roughness, can increase air resistance and thus decrease the speed of the ball. A smooth wall, on the other hand, reflects the ball more efficiently, while soft walls can absorb energy but should not completely stop it.",
-      "difficulty": 8,
-      "subcategory": "Einfluss der Wandbelegung"
-    },
-    {
-      "category": "Physik",
-      "topic": "Relativitätstheorie",
-      "subtopic": "Maxwell-Gleichungen in kovarianter Form",
-      "question": "Which statement about the Maxwell equations in covariant form is correct?",
-      "choices": [
-        "A: They only describe electric fields.",
-        "B: They are valid only in the rest frame of a charge.",
-        "C: They are invariant in any inertial system form.",
-        "D: They are independent of the speed of light."
+        "A: Die klassische Physik kann Verhalten von subatomaren Teilchen vorhersagen.",
+        "B: Die klassische Physik erklärt Phänomene im Vakuum besser als die Quantenmechanik.",
+        "C: Die klassische Physik ist für makroskopische Objekte anwendbar, während die Quantenmechanik für mikroskopische gilt.",
+        "D: Die klassische Physik ist die einzige gültige Theorie in der Physik."
       ],
       "correct_answer": "C",
-      "explanation": "The Maxwell equations in covariant form are formulated to remain invariant in all inertial systems. This means that the physical laws hold regardless of the observer's motion, which is a fundamental concept of the theory of relativity.",
-      "difficulty": 5,
-      "subcategory": "Maxwell-Gleichungen in kovarianter Form"
+      "explanation": "Die klassische Physik ist gut geeignet für makroskopische Objekte, während die Quantenmechanik das Verhalten von subatomaren Teilchen beschreibt. Dies zeigt die Grenze der klassischen Physik, da sie nicht in der Lage ist, quantenmechanische Effekte zu erklären.",
+      "difficulty": 3,
+      "subcategory": "Grenzen der klassischen Physik"
     },
     {
       "category": "Physik",
-      "topic": "Elektrodynamik",
-      "subtopic": "Ebene Wellen & Polarisation",
-      "question": "What describes the polarization of an electromagnetic wave?",
+      "topic": "Festkörperphysik",
+      "subtopic": "Sommerfeldsche Theorie",
+      "question": "Was beschreibt die Sommerfeldsche Theorie im Kontext von Festkörpern?",
       "choices": [
-        "A: The intensity of the wave.",
-        "B: The direction of the electric field strength.",
-        "C: The frequency of the wave.",
-        "D: The speed of the wave in a vacuum."
+        "A: Die Lichtbrechung in Kristallen.",
+        "B: Die Elektronenkonduktion in Metallen.",
+        "C: Die thermodynamischen Eigenschaften von Gasen.",
+        "D: Die Struktur von Atomkernen."
       ],
       "correct_answer": "B",
-      "explanation": "The polarization of an electromagnetic wave describes the direction in which the electric field strength oscillates. This is an important concept as it influences the interaction of the wave with matter, such as in reflection or refraction.",
-      "difficulty": 5,
-      "subcategory": "Ebene Wellen & Polarisation"
+      "explanation": "Die Sommerfeldsche Theorie erweitert das Drude-Modell zur Erklärung der elektrischen Leitfähigkeit in Metallen durch die Berücksichtigung von quantenmechanischen Effekten und der Elektronengas-Modell. Sie beschreibt die Bewegungen der Elektronen in einem Metall als ein freies Gas, was zu einem besseren Verständnis der elektrischen Eigenschaften führt.",
+      "difficulty": 6,
+      "subcategory": "Sommerfeldsche Theorie"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Periodische Systeme & Winkelvariable",
+      "question": "Welcher Parameter beschreibt in einem harmonischen Oszillator die Änderung der Phase pro Zeiteinheit?",
+      "choices": [
+        "A: Die Energie",
+        "B: Die Amplitude",
+        "C: Die Frequenz",
+        "D: Die Phase selbst"
+      ],
+      "correct_answer": "C",
+      "explanation": "Im harmonischen Oszillator ist die Frequenz die Größe, die angibt, wie oft der Oszillator pro Zeiteinheit eine vollständige Schwingung vollzieht. Sie ist direkt mit der zeitlichen Veränderung der Phase verbunden, da die Phase die zeitliche Integration der Frequenz darstellt.",
+      "difficulty": 9,
+      "subcategory": "Periodische Systeme & Winkelvariable"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Energiebänder (Überblick)",
+      "question": "Was beschreibt das Konzept der Energiebänder in Festkörpern?",
+      "choices": [
+        "A: Die Temperaturverteilung in einem Festkörper.",
+        "B: Die Lichtbrechung in verschiedenen Materialien.",
+        "C: Die Masse von Atomen in einem Festkörper.",
+        "D: Die erlaubten Energieniveaus für Elektronen in einem Material."
+      ],
+      "correct_answer": "D",
+      "explanation": "Energiebänder beschreiben die erlaubten Energieniveaus, die Elektronen in einem Festkörper annehmen können. Diese Konzepte sind entscheidend für das Verständnis der elektrischen Eigenschaften von Materialien, insbesondere ob sie Isolatoren, Halbleiter oder Leiter sind.",
+      "difficulty": 2,
+      "subcategory": "Energiebänder (Überblick)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Phasenübergänge (Übersicht)",
+      "question": "Welcher Phasenübergang beschreibt den Wechsel von flüssig zu gasförmig?",
+      "choices": [
+        "A: Erstarrung",
+        "B: Verdampfung",
+        "C: Kondensation",
+        "D: Sublimation"
+      ],
+      "correct_answer": "B",
+      "explanation": "Der Phasenübergang von flüssig zu gasförmig wird als Verdampfung bezeichnet. Dieser Prozess tritt auf, wenn Moleküle in der Flüssigkeit genügend Energie erhalten, um die intermolekularen Kräfte zu überwinden und in die Gasphase überzutreten.",
+      "difficulty": 4,
+      "subcategory": "Phasenübergänge (Übersicht)"
     },
     {
       "category": "Physik",
       "topic": "Optik",
-      "subtopic": "Photoeffekt in der Detektion (Nachweis)",
-      "question": "Which of the following factors significantly influences the photoelectric effect in the detection of light sources?",
+      "subtopic": "Anwendungen der Matrizenmethode",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt die Anwendung der Matrizenmethode in der Optik?",
       "choices": [
-        "A: The intensity of the incident light",
-        "B: The temperature of the detection material",
-        "C: The shape of the detection material",
-        "D: The frequency of the incident light"
-      ],
-      "correct_answer": "D",
-      "explanation": "The photoelectric effect strongly depends on the frequency of the incident light, as only light with a frequency above a certain threshold can release electrons from the material. While temperature, intensity, and shape of the material affect the efficiency of the detection process, they are not crucial for the occurrence of the photoelectric effect itself.",
-      "difficulty": 8,
-      "subcategory": "Photoeffekt in der Detektion (Nachweis)"
-    },
-    {
-      "category": "Physik",
-      "topic": "Kern- und Teilchenphysik",
-      "subtopic": "β‑Zerfall (β±, EC)",
-      "question": "What is the main feature of beta-plus (β+) decay?",
-      "choices": [
-        "A: A proton is converted into a neutron.",
-        "B: An electron is emitted from the atomic nucleus.",
-        "C: A proton decays into a neutron and a positron.",
-        "D: A neutron decays into a proton and an electron."
+        "A: Die Matrizenmethode wird verwendet, um die Brechung von Licht an einem einzelnen Grenzfläche zu berechnen.",
+        "B: Die Matrizenmethode ist nur für die Analyse von Linse-Systemen geeignet und nicht anwendbar auf Spiegel.",
+        "C: Die Matrizenmethode ermöglicht die Analyse von optischen Systemen, indem sie die Übertragung von Lichtstrahlen durch verschiedene Komponenten in einem System beschreibt.",
+        "D: Bei der Matrizenmethode wird die Wellenoptik ausschließlich ignoriert, um vereinfachte Lösungen zu finden."
       ],
       "correct_answer": "C",
-      "explanation": "In beta-plus decay, a proton converts into a neutron and emits a positron, which is the antiparticle of the electron. This process is important for the radioactive decay of certain isotopes and plays a role in positron emission tomography (PET).",
-      "difficulty": 4,
-      "subcategory": "β‑Zerfall (β±, EC)"
+      "explanation": "Die Matrizenmethode in der Optik eignet sich hervorragend zur Analyse komplexer optischer Systeme, indem sie die Lichtstrahlenübertragung durch mehrere optische Elemente beschreibt. Diese Methode ist vielseitig und anwendbar sowohl auf Linsen als auch auf Spiegel und berücksichtigt die Geometrie und die Eigenschaften der einzelnen Elemente.",
+      "difficulty": 8,
+      "subcategory": "Anwendungen der Matrizenmethode"
     },
     {
       "category": "Physik",
-      "topic": "Elektrodynamik",
-      "subtopic": "Separation der Variablen & orthogonale Funktionen",
-      "question": "What does the concept of orthogonal functions describe in electrodynamics?",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Lagrange-Gleichungen",
+      "question": "Welche der folgenden Aussagen über die Lagrange-Gleichungen ist korrekt?",
       "choices": [
-        "A: They are functions that are always equal.",
-        "B: They are functions that cancel each other out when integrated over a specific interval.",
-        "C: They are functions that always take positive values.",
-        "D: They are functions that exist only in the time domain."
+        "A: Die Lagrange-Gleichungen sind identisch mit den Newtonschen Bewegungsgleichungen.",
+        "B: Die Lagrange-Gleichungen beinhalten immer einen zeitabhängigen Kraftbegriff.",
+        "C: Die Lagrange-Gleichungen sind nur für konservative Systeme anwendbar.",
+        "D: Die Lagrange-Gleichungen können zur Analyse nicht-konservativer Systeme verwendet werden."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Lagrange-Gleichungen sind ein sehr flexibles Werkzeug und können auch für nicht-konservative Systeme angewendet werden, indem sie die Lagrange-Funktion entsprechend definieren. Sie bieten einen alternativen Ansatz zur Beschreibung der Dynamik von Systemen, unabhängig von den Kräften, die auf sie wirken.",
+      "difficulty": 8,
+      "subcategory": "Lagrange-Gleichungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Energie–Zeit–Unschärfe",
+      "question": "Was beschreibt das Energie–Zeit–Unschärfe-Prinzip in der Quantenmechanik?",
+      "choices": [
+        "A: Das Prinzip beschreibt, dass Teilchen nur in festen Zeitintervallen existieren können.",
+        "B: Je genauer die Energie eines Teilchens bestimmt wird, desto ungenauer kann der Zeitpunkt seines Auftretens bestimmt werden.",
+        "C: Die Energie eines Teilchens ist immer konstant und unabhängig von der Zeit.",
+        "D: Je genauer der Zeitpunkt eines Ereignisses bekannt ist, desto mehr Energie kann das System speichern."
       ],
       "correct_answer": "B",
-      "explanation": "Orthogonal functions are those that lead to zero when integrated over a specific interval. This is important for the separation of variables in electrodynamics, especially in solving differential equations.",
-      "difficulty": 1,
-      "subcategory": "Separation der Variablen & orthogonale Funktionen"
+      "explanation": "Das Energie–Zeit–Unschärfe-Prinzip besagt, dass es eine fundamentale Grenze für die gleichzeitige Bestimmung von Energie und Zeit gibt. Das bedeutet, dass eine genaue Messung der Energie eines Teilchens die Präzision der Zeitmessung verringert und umgekehrt.",
+      "difficulty": 3,
+      "subcategory": "Energie–Zeit–Unschärfe"
     },
     {
       "category": "Physik",
       "topic": "Optik",
       "subtopic": "Brechungsgesetz aus Fermat",
-      "question": "What does Fermat's principle of refraction state?",
+      "question": "Welches Prinzip beschreibt das Brechungsgesetz, das besagt, dass Lichtstrahlen den Weg nehmen, der die Gesamtzeit minimiert?",
       "choices": [
-        "A: Light is reflected at every change of medium.",
-        "B: Light cannot pass through transparent materials.",
-        "C: Light follows the path that requires the least time.",
-        "D: Light always propagates in straight lines."
+        "A: Prinzip der kleinsten Zeit",
+        "B: Prinzip der maximalen Energie",
+        "C: Prinzip der kleinsten Fläche",
+        "D: Prinzip der minimalen Distanz"
       ],
-      "correct_answer": "C",
-      "explanation": "Fermat's principle of refraction states that light chooses the path that requires the shortest time to travel from one point to another. This explains why light rays are refracted at the boundary between two media. This approach is fundamental to understanding optics and light propagation.",
-      "difficulty": 6,
+      "correct_answer": "A",
+      "explanation": "Das Brechungsgesetz, auch bekannt als Snelliussches Gesetz, leitet sich aus dem Prinzip der kleinsten Zeit ab, das von Fermat formuliert wurde. Dieses Prinzip besagt, dass Lichtstrahlen den Weg nehmen, der die benötigte Zeit für die Ausbreitung minimiert.",
+      "difficulty": 8,
       "subcategory": "Brechungsgesetz aus Fermat"
     },
     {
       "category": "Physik",
-      "topic": "Elektrodynamik",
-      "subtopic": "Feldenergie & Feldimpuls",
-      "question": "What describes the field energy in an electric field?",
+      "topic": "Quantenmechanik",
+      "subtopic": "Lösung der 1D-Schrödinger-Gleichung",
+      "question": "Welche der folgenden Funktionen ist eine gültige Lösung der eindimensionalen Schrödinger-Gleichung für ein Teilchen in einem unendlichen Potentialtopf?",
       "choices": [
-        "A: The kinetic energy of electrons in the field.",
-        "B: The energy stored in an electric charge.",
-        "C: The energy needed to move a charge from infinitely far into the field.",
-        "D: The energy generated by the movement of an electric conductor."
+        "A: sin(nπx/L)",
+        "B: cos(x)",
+        "C: e^(ix)",
+        "D: x^2"
       ],
-      "correct_answer": "C",
-      "explanation": "The field energy in an electric field is the work required to move a test charge from one point in space to another point within the field. This energy is stored in the form of potential energy when the charge is brought into the field.",
-      "difficulty": 4,
-      "subcategory": "Feldenergie & Feldimpuls"
-    },
-    {
-      "category": "Physik",
-      "topic": "Festkörperphysik",
-      "subtopic": "Schallwellen im Festkörper",
-      "question": "Which property of sound waves in a solid allows them to propagate faster than in air?",
-      "choices": [
-        "A: lower viscosity",
-        "B: Higher density of the medium",
-        "C: larger molecule size",
-        "D: lower temperature"
-      ],
-      "correct_answer": "B",
-      "explanation": "Sound waves propagate faster in solid materials because the particles are packed more densely, allowing for faster transmission of vibrations. In air, the particles are further apart, which reduces the propagation speed.",
-      "difficulty": 5,
-      "subcategory": "Schallwellen im Festkörper"
-    },
-    {
-      "category": "Physik",
-      "topic": "Kern- und Teilchenphysik",
-      "subtopic": "Nichtresonante Hadronerzeugung (R‑Verhältnis)",
-      "question": "What does the R-ratio describe in non-resonant hadron production?",
-      "choices": [
-        "A: The ratio of energy converted into particles and antiparticles.",
-        "B: The ratio of different types of hadrons produced in a process.",
-        "C: The ratio of quark to gluon exchange processes.",
-        "D: The ratio of the number of produced hadrons to bound states."
-      ],
-      "correct_answer": "B",
-      "explanation": "The R-ratio indicates how many hadrons are produced compared to other types of particles in a specific process. It is crucial for understanding the underlying interactions in particle physics.",
-      "difficulty": 5,
-      "subcategory": "Nichtresonante Hadronerzeugung (R‑Verhältnis)"
+      "correct_answer": "A",
+      "explanation": "Die Funktion sin(nπx/L) repräsentiert die Wellenfunktion eines Teilchens in einem unendlichen Potentialtopf und ist eine gültige Lösung der 1D-Schrödinger-Gleichung. Die anderen Funktionen erfüllen nicht die Randbedingungen oder die Form der Schrödinger-Gleichung in diesem Kontext.",
+      "difficulty": 6,
+      "subcategory": "Lösung der 1D-Schrödinger-Gleichung"
     }
   ]
 }
