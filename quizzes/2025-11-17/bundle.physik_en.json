@@ -1,0 +1,168 @@
+{
+  "date": "2025-11-17",
+  "generated_at": "2025-11-17T03:48:19Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Wirkungsquerschnitt & differentielle Größen",
+      "question": "What does the cross section describe in particle physics?",
+      "choices": [
+        "A: The speed of a particle.",
+        "B: The probability that a particle interacts with another.",
+        "C: The energy of a particle.",
+        "D: The mass of a particle."
+      ],
+      "correct_answer": "B",
+      "explanation": "The cross section is a measure of the probability that an interaction between particles occurs. The larger the cross section, the higher the probability of an interaction.",
+      "difficulty": 1,
+      "subcategory": "Wirkungsquerschnitt & differentielle Größen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Temperaturbegriff (thermisches Gleichgewicht)",
+      "question": "What does thermal equilibrium mean?",
+      "choices": [
+        "A: A system is at rest.",
+        "B: All particles in a system move at the same speed.",
+        "C: The temperatures of two systems are equal.",
+        "D: One system has a higher temperature than another."
+      ],
+      "correct_answer": "C",
+      "explanation": "Thermal equilibrium occurs when two systems no longer have heat exchange because their temperatures are equal. In this state, no system experiences temperature changes through contact with the other system.",
+      "difficulty": 3,
+      "subcategory": "Temperaturbegriff (thermisches Gleichgewicht)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Transfermatrix-Methode (Ising etc.)",
+      "question": "What does the transfer matrix describe in statistical mechanics in the context of the Ising model?",
+      "choices": [
+        "A: The interactions between neighboring spins.",
+        "B: The probabilities of the system's configurations.",
+        "C: The temperature dependence of the system.",
+        "D: The energetic state of an individual spin."
+      ],
+      "correct_answer": "B",
+      "explanation": "The transfer matrix is a central tool for analyzing the statistical properties of systems like the Ising model. It enables the calculation of probabilities for different configurations and contributes to determining the free energy and thermodynamic properties of the system.",
+      "difficulty": 6,
+      "subcategory": "Transfermatrix-Methode (Ising etc.)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Erster Hauptsatz & innere Energie",
+      "question": "Which statement correctly describes the relationship between the internal energy of a system and the work done on it according to the first law of thermodynamics?",
+      "choices": [
+        "A: The internal energy remains constant when work is done.",
+        "B: The change in internal energy is equal to the heat supplied minus the work done.",
+        "C: The internal energy cannot be influenced by heat transfer.",
+        "D: Work has no effect on the internal energy of a system."
+      ],
+      "correct_answer": "B",
+      "explanation": "The first law of thermodynamics states that the change in the internal energy of a system is equal to the heat supplied minus the work done. This relationship shows how energy is converted and transferred in a closed system.",
+      "difficulty": 8,
+      "subcategory": "Erster Hauptsatz & innere Energie"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Extremaleigenschaften von U und H",
+      "question": "Which of the following statements correctly describes the internal energy (U) of a closed system during an isothermal temperature change?",
+      "choices": [
+        "A: The internal energy always increases.",
+        "B: The internal energy always decreases.",
+        "C: The internal energy remains constant.",
+        "D: The internal energy depends on the change in pressure."
+      ],
+      "correct_answer": "C",
+      "explanation": "During an isothermal process change, the temperature remains constant, so the internal energy of an ideal gas also remains constant. This property is a fundamental concept of thermodynamics and shows that internal energy depends not only on temperature but also on other factors, but not on pressure changes in an isothermal process.",
+      "difficulty": 2,
+      "subcategory": "Extremaleigenschaften von U und H"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Plattenkondensator",
+      "question": "Which statement about the electric field strength E in a parallel plate capacitor is true?",
+      "choices": [
+        "A: The electric field strength is constant and does not depend on the distance between the plates.",
+        "B: The electric field strength is inversely proportional to the area of the plates.",
+        "C: The electric field strength is only measurable near the positive plate.",
+        "D: The electric field strength increases the further one moves away from the plates."
+      ],
+      "correct_answer": "A",
+      "explanation": "The electric field strength E in an ideal parallel plate capacitor is constant and independent of the distance between the plates, as long as one is in the homogeneous field between the plates. This property is crucial for the application of parallel plate capacitors in many electrical circuits.",
+      "difficulty": 7,
+      "subcategory": "Plattenkondensator"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Phasen von Einstoffsystemen & Clausius–Clapeyron",
+      "question": "Which of the following statements best describes the Clausius–Clapeyron equation?",
+      "choices": [
+        "A: It describes the motion of particles in a solid.",
+        "B: It describes the relationship between temperature and pressure at the phase boundary of two states.",
+        "C: It describes the energy conversion in the work of a gas.",
+        "D: It describes the interaction between light and matter."
+      ],
+      "correct_answer": "B",
+      "explanation": "The Clausius–Clapeyron equation describes the relationship between temperature and pressure at the phase boundary of two states, such as between liquid and gas. It is important for understanding phase transitions in substances.",
+      "difficulty": 2,
+      "subcategory": "Phasen von Einstoffsystemen & Clausius–Clapeyron"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "RG-Ideen: Ising 1D/2D & Dezimierung",
+      "question": "Which statement correctly describes the critical dimension for the Ising model transition in statistical mechanics?",
+      "choices": [
+        "A: The transition is only possible in dimensions d = 1 and d = 2.",
+        "B: The transition occurs in every dimension, but the nature of the transition varies.",
+        "C: The transition occurs exclusively in dimensions d < 2.",
+        "D: The transition is only possible in dimensions d > 2."
+      ],
+      "correct_answer": "D",
+      "explanation": "The Ising transition is not continuous in dimensions d = 1 and d = 2, while it is described as a continuous transition in dimensions d > 2. This is a key insight in critical phenomenology and renormalization group theory.",
+      "difficulty": 10,
+      "subcategory": "RG-Ideen: Ising 1D/2D & Dezimierung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Kinetische Gastheorie: Grundgleichungen",
+      "question": "What essentially describes kinetic theory of gases?",
+      "choices": [
+        "A: The energy conversion in electrical circuits.",
+        "B: The properties of solids at high temperatures.",
+        "C: The gravitational attraction between two masses.",
+        "D: The motion of particles in a gas and their interactions."
+      ],
+      "correct_answer": "D",
+      "explanation": "The kinetic theory of gases explains the behavior of gases based on the motion and interactions of their molecules. It is based on the assumption that gas particles are constantly in motion and collide elastically with each other.",
+      "difficulty": 1,
+      "subcategory": "Kinetische Gastheorie: Grundgleichungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Semiklassische Atommodelle (Rutherford→Bohr)",
+      "question": "Which atomic model was developed by Niels Bohr and describes electrons in fixed orbits around the atomic nucleus?",
+      "choices": [
+        "A: Thomson model",
+        "B: Rutherford model",
+        "C: Bohr model",
+        "D: Schrödinger model"
+      ],
+      "correct_answer": "C",
+      "explanation": "The Bohr model describes electrons as particles moving in fixed, quantized orbits around the atomic nucleus. This model was an important step in the development of quantum mechanics and helped explain the behavior of hydrogen atoms.",
+      "difficulty": 3,
+      "subcategory": "Semiklassische Atommodelle (Rutherford→Bohr)"
+    }
+  ]
+}

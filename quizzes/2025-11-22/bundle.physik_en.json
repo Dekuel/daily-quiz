@@ -1,0 +1,168 @@
+{
+  "date": "2025-11-22",
+  "generated_at": "2025-11-22T03:37:58Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Zeitunabhängige Störungstheorie: nicht-entartete Niveaus",
+      "question": "What does the time-independent perturbation theory in quantum mechanics describe for non-degenerate levels?",
+      "choices": [
+        "A: The generation of particle-antiparticle pairs.",
+        "B: The evolution of the wave function over time.",
+        "C: The diffraction of particles on a lattice.",
+        "D: The change in the energy of a system by a small perturbation."
+      ],
+      "correct_answer": "D",
+      "explanation": "The time-independent perturbation theory describes how the energy levels of a quantum mechanical system change when a small perturbation is added. For non-degenerate levels, the calculation is simpler because the levels are clearly separated and the perturbations can be directly applied to the energy.",
+      "difficulty": 3,
+      "subcategory": "Zeitunabhängige Störungstheorie: nicht-entartete Niveaus"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Methode der Bildladungen",
+      "question": "What does the method of images describe in electrodynamics?",
+      "choices": [
+        "A: It describes the motion of charges in an electric field.",
+        "B: It is used to analyze the radiation of electrons.",
+        "C: It explains the interaction between magnetic fields and moving charges.",
+        "D: It is used to calculate electric fields by assuming virtual charges."
+      ],
+      "correct_answer": "D",
+      "explanation": "The method of images is a technique for calculating electric fields, where virtual or 'image' charges are assumed to account for the effects of conducting surfaces. This simplifies the analysis of problems that would otherwise be difficult to solve.",
+      "difficulty": 4,
+      "subcategory": "Methode der Bildladungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Ferromagnetismus: Austausch & Ising-MF",
+      "question": "What does the exchange interaction describe in the context of ferromagnetism in the Ising model?",
+      "choices": [
+        "A: The interaction between neighboring spins that affects their alignment.",
+        "B: The electron configuration in ferromagnetic materials.",
+        "C: The change in entropy when magnetizing materials.",
+        "D: The temperature dependence of magnetic susceptibility."
+      ],
+      "correct_answer": "A",
+      "explanation": "The exchange interaction is crucial for the interactions between neighboring spins in the Ising model and determines whether these spins are aligned parallel or antiparallel, influencing the magnetic behavior of the material.",
+      "difficulty": 7,
+      "subcategory": "Ferromagnetismus: Austausch & Ising-MF"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Reibungsvakuummeter",
+      "question": "What does a friction vacuum gauge primarily measure?",
+      "choices": [
+        "A: The pressure in a vacuum",
+        "B: The temperature of a substance",
+        "C: The speed of an object",
+        "D: The density of a gas"
+      ],
+      "correct_answer": "A",
+      "explanation": "A friction vacuum gauge is used to measure the pressure in a vacuum. It works by detecting the friction between a moving element and a fixed surface in a vacuum.",
+      "difficulty": 4,
+      "subcategory": "Reibungsvakuummeter"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "H-Theorem, Irreversibilität & lokale Maxwell-Verteilung",
+      "question": "What does the H-theorem describe in statistical mechanics?",
+      "choices": [
+        "A: The increase in entropy in a closed system.",
+        "B: The motion of particles in an electric field.",
+        "C: The interaction between light and matter.",
+        "D: The calculation of the total energy of a system."
+      ],
+      "correct_answer": "A",
+      "explanation": "The H-theorem states that the entropy of a closed system increases with time, describing the irreversibility of processes in thermodynamics. It is a central result of statistical mechanics and shows that systems tend to a state of higher disorder over time.",
+      "difficulty": 2,
+      "subcategory": "H-Theorem, Irreversibilität & lokale Maxwell-Verteilung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Wirkungen der Gezeiten",
+      "question": "Which of the following statements best describes the cause of tides on Earth?",
+      "choices": [
+        "A: The gravitational attraction of the Moon and the Sun on Earth.",
+        "B: The temperature differences in the water of the oceans.",
+        "C: The rotation of the Earth on its own axis.",
+        "D: The magnetic fields of the Earth and the Moon."
+      ],
+      "correct_answer": "A",
+      "explanation": "Tides are mainly caused by the gravitational attraction of the Moon and to a lesser extent by the Sun. These gravitational forces lead to a rise and fall of the water levels in the oceans.",
+      "difficulty": 6,
+      "subcategory": "Wirkungen der Gezeiten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Teilbarkeit der Materie (historisch)",
+      "question": "Who was the first physicist to formulate the concept of an indivisible atom?",
+      "choices": [
+        "A: Albert Einstein",
+        "B: Max Planck",
+        "C: Niels Bohr",
+        "D: John Dalton"
+      ],
+      "correct_answer": "D",
+      "explanation": "John Dalton formulated the atomic theory in the early 19th century, stating that matter consists of indivisible atoms. This idea laid the foundation for modern chemistry and physics, although we now know that atoms are made up of subatomic particles.",
+      "difficulty": 4,
+      "subcategory": "Teilbarkeit der Materie (historisch)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Periodische Störungen",
+      "question": "What does the concept of periodic perturbation describe in quantum mechanics?",
+      "choices": [
+        "A: The change in the temperature of a gas.",
+        "B: The interaction of particles with an external, time-varying potential.",
+        "C: The formation of electron shells in atoms.",
+        "D: The diffraction of light on a lattice."
+      ],
+      "correct_answer": "B",
+      "explanation": "In quantum mechanics, a periodic perturbation describes the interaction of quantum objects with an external potential that varies over time. Such perturbations are important for understanding phenomena like the Stark effect and energy transfer in quantum mechanical systems.",
+      "difficulty": 5,
+      "subcategory": "Periodische Störungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Joule–Thomson-Prozess (Inversionstemp.)",
+      "question": "Which statement about the inversion temperature in the Joule–Thomson process is correct?",
+      "choices": [
+        "A: The inversion temperature has no effect on the Joule–Thomson process.",
+        "B: The inversion temperature is the temperature at which a gas typically cools upon expansion.",
+        "C: The inversion temperature is constant for all gases under all conditions.",
+        "D: At temperatures below the inversion temperature, the gas heats up upon expansion."
+      ],
+      "correct_answer": "D",
+      "explanation": "The inversion temperature is the point at which the behavior of a gas in the Joule–Thomson process changes. Below this temperature, the gas cools upon expansion, while above this temperature, it heats up.",
+      "difficulty": 6,
+      "subcategory": "Joule–Thomson-Prozess (Inversionstemp.)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Methode der Bildladungen",
+      "question": "What is the main purpose of the method of images in electrodynamics?",
+      "choices": [
+        "A: To simplify the potentials in a complex electrostatic problem.",
+        "B: To analyze the interaction between two moving charges.",
+        "C: To calculate the electric field distribution in a charged body.",
+        "D: To determine the speed of light in different media."
+      ],
+      "correct_answer": "A",
+      "explanation": "The method of images simplifies the calculation of electric potentials in complex situations by introducing imaginary charges that simulate the effect of real charges. This allows for an easier solution to problems, especially in the analysis of conductors and their interaction with electric fields.",
+      "difficulty": 4,
+      "subcategory": "Methode der Bildladungen"
+    }
+  ]
+}

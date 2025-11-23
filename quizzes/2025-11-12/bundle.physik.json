@@ -1,0 +1,168 @@
+{
+  "date": "2025-11-12",
+  "generated_at": "2025-11-12T03:44:22Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Phasen (Definitionen, Beispiele)",
+      "question": "Welche der folgenden Aussagen beschreibt am besten den kritischen Punkt einer Substanz?",
+      "choices": [
+        "A: Es ist der Punkt, an dem alle chemischen Reaktionen zum Stillstand kommen.",
+        "B: Es ist der Punkt, an dem die Dichte von Flüssigkeit und Dampf gleich ist.",
+        "C: Es ist der Punkt, an dem eine Substanz ihren höchsten Druck erreicht.",
+        "D: Es ist der Punkt, an dem eine Substanz vollständig gefroren ist."
+      ],
+      "correct_answer": "B",
+      "explanation": "Der kritische Punkt einer Substanz ist der Zustand, an dem die Eigenschaften von Flüssigkeit und Dampf nicht mehr unterscheidbar sind, was zu einer einheitlichen Phase führt. Hier sind Dichte und Temperatur so beschaffen, dass keine klare Trennung zwischen den Aggregatzuständen besteht.",
+      "difficulty": 7,
+      "subcategory": "Phasen (Definitionen, Beispiele)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Einfache Anwendungen der Lagrange-Gleichungen",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt die Anwendung der Lagrange-Gleichungen auf ein einfaches Pendel?",
+      "choices": [
+        "A: Die Lagrange-Gleichungen können nicht auf Systeme mit mehreren Freiheitsgraden angewendet werden.",
+        "B: Die Lagrange-Gleichungen ermöglichen die Ableitung der Bewegungsgleichungen basierend auf kinetischer und potenzieller Energie.",
+        "C: Die Lagrange-Gleichungen sind nur für nicht-konservative Systeme geeignet.",
+        "D: Die Verwendung der Lagrange-Gleichungen erfordert immer die Kenntnis der externen Kräfte."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Lagrange-Gleichungen basieren auf dem Prinzip der virtuellen Arbeit und ermöglichen es, die Bewegungsgleichungen eines Systems durch die Differenz zwischen kinetischer und potenzieller Energie abzuleiten. Dies ist besonders nützlich für Systeme wie das einfache Pendel, wo die Bewegung durch diese Energien beschrieben werden kann.",
+      "difficulty": 6,
+      "subcategory": "Einfache Anwendungen der Lagrange-Gleichungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Detektoren (Nachweismethoden)",
+      "question": "Welche der folgenden Detektionsmethoden wird häufig zur Messung von ionisierender Strahlung verwendet?",
+      "choices": [
+        "A: Geiger-Müller-Zähler",
+        "B: Spektroskopie",
+        "C: Thermoelement",
+        "D: Fotodioden"
+      ],
+      "correct_answer": "A",
+      "explanation": "Der Geiger-Müller-Zähler ist ein weit verbreitetes Instrument zur Detektion von ionisierender Strahlung wie Alpha-, Beta- und Gammastrahlung. Er funktioniert, indem er die ionisierenden Partikel erfasst und in elektrische Impulse umwandelt, die dann gezählt werden.",
+      "difficulty": 7,
+      "subcategory": "Detektoren (Nachweismethoden)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Maxwell-Gleichungen in kovarianter Form",
+      "question": "Was beschreiben die Maxwell-Gleichungen in ihrer kovarianten Form?",
+      "choices": [
+        "A: Die Struktur von Atomen.",
+        "B: Die Wechselwirkungen zwischen elektrischen und magnetischen Feldern.",
+        "C: Die Quantennatur von Licht.",
+        "D: Die Bewegung von Masse in einem Gravitationsfeld."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Maxwell-Gleichungen in kovarianter Form sind fundamental für das Verständnis der Elektromagnetismus und beschreiben, wie elektrische und magnetische Felder miteinander interagieren und sich in Raum und Zeit ausbreiten. Sie sind ein zentrales Element der Relativitätstheorie und verknüpfen die Konzepte von Elektrizität und Magnetismus in einem einheitlichen Rahmen.",
+      "difficulty": 1,
+      "subcategory": "Maxwell-Gleichungen in kovarianter Form"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Beugung am Doppelspalt",
+      "question": "Was beschreibt das Phänomen der Beugung am Doppelspalt?",
+      "choices": [
+        "A: Die Absorption von Licht durch ein opakes Material.",
+        "B: Die Ablenkung von Lichtstrahlen an einem Prismas.",
+        "C: Die Reflexion von Licht an einer glatten Oberfläche.",
+        "D: Die Interferenz von Lichtwellen, die durch zwei nahe beieinander liegende Spalte hindurchtreten."
+      ],
+      "correct_answer": "D",
+      "explanation": "Das Phänomen der Beugung am Doppelspalt zeigt, wie Lichtwellen interferieren, wenn sie durch zwei schmale Spalte hindurchtreten. Dies führt zu einem charakteristischen Muster aus hellen und dunklen Streifen, das auf die Überlagerung der Wellen zurückzuführen ist.",
+      "difficulty": 6,
+      "subcategory": "Beugung am Doppelspalt"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "H-Theorem, Irreversibilität & lokale Maxwell-Verteilung",
+      "question": "Was beschreibt das H-Theorem in der statistischen Mechanik?",
+      "choices": [
+        "A: Die Bewegung von Teilchen in einem elektrischen Feld.",
+        "B: Die Gravitationskraft zwischen zwei Massen.",
+        "C: Die Wechselwirkung zwischen Licht und Materie.",
+        "D: Die Erhöhung der Entropie in einem geschlossenen System über die Zeit."
+      ],
+      "correct_answer": "D",
+      "explanation": "Das H-Theorem besagt, dass die Entropie eines geschlossenen Systems im Laufe der Zeit zunimmt, was zur Irreversibilität von thermodynamischen Prozessen führt. Es ist ein zentrales Konzept in der statistischen Mechanik, das die Richtung der Zeit und die Zunahme der Unordnung beschreibt.",
+      "difficulty": 3,
+      "subcategory": "H-Theorem, Irreversibilität & lokale Maxwell-Verteilung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Quadratintegrable Funktionen H=L^2",
+      "question": "Was bedeutet es, dass eine Funktion quadratintegrabel ist?",
+      "choices": [
+        "A: Die Funktion hat nur positive Werte.",
+        "B: Die Funktion ist stetig und differenzierbar.",
+        "C: Die Funktion ist in einem bestimmten Intervall integrierbar und das Integral ihres Quadrats ist endlich.",
+        "D: Die Funktion ist periodisch."
+      ],
+      "correct_answer": "C",
+      "explanation": "Eine Funktion ist quadratintegrabel, wenn das Integral ihres Quadrats über den gesamten Definitionsbereich endlich ist. Dies ist eine wichtige Bedingung in der Quantenmechanik, insbesondere beim Arbeiten mit Zustandsfunktionen im Hilbertraum L^2.",
+      "difficulty": 4,
+      "subcategory": "Quadratintegrable Funktionen H=L^2"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Kepler-Problem (HJ/AA-Formalismus)",
+      "question": "Welches der folgenden Gesetze beschreibt nicht die Bewegung von Planeten im Rahmen des Kepler-Problems?",
+      "choices": [
+        "A: Die Beschleunigung eines Planeten ist konstant und hängt nur von der Masse des Planeten ab.",
+        "B: Der Betrag der gesamten mechanischen Energie bleibt während der elliptischen Bahn konstant.",
+        "C: Die Umlaufzeit eines Planeten ist proportional zur dritten Potenz seiner großen Halbachse.",
+        "D: Die Fläche, die ein Planet in einer bestimmten Zeit überstreicht, ist konstant."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Kepler-Problem beschreibt die Bewegung von Planeten um die Sonne und beinhaltet Gesetze, die Gravitationskräfte und elliptische Bahnformen berücksichtigen. Aussage D ist falsch, da die Beschleunigung eines Planeten nicht konstant ist und von der Distanz zur Sonne abhängt, nicht nur von seiner Masse.",
+      "difficulty": 10,
+      "subcategory": "Kepler-Problem (HJ/AA-Formalismus)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Kraft & Drehmoment auf Stromverteilungen",
+      "question": "Welche Aussage beschreibt am besten den Einfluss eines Magnetfeldes auf einen stromdurchflossenen Leiter?",
+      "choices": [
+        "A: Der Leiter wird immer erwärmt, wenn ein Magnetfeld angelegt wird.",
+        "B: Der Leiter bleibt unbeeinflusst, unabhängig von der Stärke des Magnetfeldes.",
+        "C: Der Leiter erfährt eine Kraft, die senkrecht zur Richtung des Stroms und des Magnetfeldes steht.",
+        "D: Der Leiter erfährt eine Kraft, die parallel zur Richtung des Stroms wirkt."
+      ],
+      "correct_answer": "C",
+      "explanation": "Wenn ein stromdurchflossener Leiter in ein Magnetfeld gebracht wird, erfährt er eine Lorentzkraft. Diese Kraft wirkt senkrecht sowohl zur Richtung des Stroms als auch zur Richtung des Magnetfeldes, was die Grundlage für viele elektromagnetische Anwendungen ist.",
+      "difficulty": 4,
+      "subcategory": "Kraft & Drehmoment auf Stromverteilungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Phasenintegralquantisierung",
+      "question": "Was beschreibt das Phasenintegral in der Quantenmechanik?",
+      "choices": [
+        "A: Die Beziehung zwischen Energie und Zeit.",
+        "B: Die Wechselwirkung zwischen zwei Teilchen.",
+        "C: Die Quantisierung von Energiezuständen durch Phasenräume.",
+        "D: Den Weg, den ein Teilchen im Raum zurücklegt."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Phasenintegral ist ein zentrales Konzept in der Quantenmechanik, das beschreibt, wie die Phasen von Wellenfunktionen in einem bestimmten Raum quantisiert werden. Diese Quantisierung ist entscheidend für das Verständnis von Energiezuständen in quantenmechanischen Systemen.",
+      "difficulty": 5,
+      "subcategory": "Phasenintegralquantisierung"
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "date": "2025-11-14",
+  "generated_at": "2025-11-14T08:30:56Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Randwertprobleme der Elektrostatik (Laplace-Gleichung)",
+      "question": "Which of the following conditions is necessary to solve the Laplace equation in a domain surrounded by electric charge distributions?",
+      "choices": [
+        "A: The total electric energy must be evenly distributed in this domain.",
+        "B: The boundary conditions must be identical for all points in the domain.",
+        "C: There must be no electric fields inside the domain.",
+        "D: The potential distribution at the boundary surfaces must be constant."
+      ],
+      "correct_answer": "D",
+      "explanation": "To solve the Laplace equation in a domain, specific boundary conditions are required. In particular, the potential distribution at the boundary surfaces must be constant or defined to ensure a unique solution.",
+      "difficulty": 8,
+      "subcategory": "Randwertprobleme der Elektrostatik (Laplace-Gleichung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Streuung elektromagnetischer Wellen",
+      "question": "What describes the effect where light rays are scattered by small particles in the atmosphere?",
+      "choices": [
+        "A: Fresnel scattering",
+        "B: Rayleigh scattering",
+        "C: Diffraction",
+        "D: Reflection"
+      ],
+      "correct_answer": "B",
+      "explanation": "Rayleigh scattering occurs when light rays encounter particles smaller than the wavelength of light. This results in shorter wavelengths, such as blue, being scattered more, which is responsible for the blue color of the sky, among other things.",
+      "difficulty": 5,
+      "subcategory": "Streuung elektromagnetischer Wellen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Phasen von Einstoffsystemen & Clausius–Clapeyron",
+      "question": "Which statement best describes the concept of phase transitions in a single-component system?",
+      "choices": [
+        "A: A phase transition only occurs at extremely high temperatures.",
+        "B: A phase transition may not be reversible.",
+        "C: A phase transition is the change between solid, liquid, and gas.",
+        "D: Phase transitions are independent of pressure and temperature."
+      ],
+      "correct_answer": "C",
+      "explanation": "Phase transitions describe the change between different states of matter, such as solid, liquid, and gas. They can be triggered by changes in temperature and pressure and are a central concept in statistical mechanics.",
+      "difficulty": 1,
+      "subcategory": "Phasen von Einstoffsystemen & Clausius–Clapeyron"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Zeitunabhängige Störungstheorie: nicht-entartete Niveaus",
+      "question": "What describes the time-independent perturbation theory in quantum mechanics for non-degenerate levels?",
+      "choices": [
+        "A: The creation of new particles at high energy.",
+        "B: The temperature dependence of quantum states.",
+        "C: The interactions between particles in a classical system.",
+        "D: The change in energy levels of a system by a small perturbation."
+      ],
+      "correct_answer": "D",
+      "explanation": "The time-independent perturbation theory deals with how the energy levels of a quantum mechanical system are altered by small perturbations when the levels are non-degenerate. This allows for the calculation of the new energy levels and associated states within the framework of perturbation theory.",
+      "difficulty": 5,
+      "subcategory": "Zeitunabhängige Störungstheorie: nicht-entartete Niveaus"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Resonanz & Schaltvorgänge",
+      "question": "What happens in a resonant circuit when the frequency of the applied alternating voltage matches the resonant frequency of the circuit?",
+      "choices": [
+        "A: The resonant circuit loses energy.",
+        "B: There is no change in the oscillation.",
+        "C: Complete damping of the oscillation occurs.",
+        "D: The amplitude of the oscillation reaches its maximum value."
+      ],
+      "correct_answer": "D",
+      "explanation": "When the frequency of the applied alternating voltage matches the resonant frequency of the resonant circuit, resonance occurs. In this state, the amplitude of the oscillation reaches its maximum value as the energy input optimally matches the oscillation.",
+      "difficulty": 5,
+      "subcategory": "Resonanz & Schaltvorgänge"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Wirkungs- und Winkelvariable (Action-Angle)",
+      "question": "What describes the angular variable in analytical mechanics in the context of periodic systems?",
+      "choices": [
+        "A: The phase angle of a harmonic oscillator.",
+        "B: The inertia of a body.",
+        "C: The energy of a system at rest.",
+        "D: The velocity of a particle in space."
+      ],
+      "correct_answer": "A",
+      "explanation": "The angular variable in analytical mechanics describes the phase angle of a harmonic oscillator and is part of the action-angle representation used in analyzing periodic motions. It helps understand the dynamics of systems with conservative forces.",
+      "difficulty": 5,
+      "subcategory": "Wirkungs- und Winkelvariable (Action-Angle)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Elektronen im periodischen Potential (Überblick)",
+      "question": "What describes the concept of band structure in solids?",
+      "choices": [
+        "A: The interaction of photons with atoms.",
+        "B: The movement of electrons in a vacuum.",
+        "C: The distribution of electrons in different energy states.",
+        "D: The temperature dependence of metallic conductors."
+      ],
+      "correct_answer": "C",
+      "explanation": "The band structure describes how electrons in solids are distributed in different energy states, which is crucial for understanding conductivity and semiconductor behavior. It shows which energy levels the electrons in a crystal can assume and how these levels interact with each other specifically.",
+      "difficulty": 5,
+      "subcategory": "Elektronen im periodischen Potential (Überblick)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Freie Achsen",
+      "question": "What describes the motion of a body along a free axis?",
+      "choices": [
+        "A: Motion influenced only by friction",
+        "B: Motion always accelerating",
+        "C: Motion caused only by gravity",
+        "D: Uniform motion without external influences"
+      ],
+      "correct_answer": "D",
+      "explanation": "The motion of a body along a free axis occurs without external influences, meaning the velocity remains constant. In this case, there are no forces influencing the motion.",
+      "difficulty": 2,
+      "subcategory": "Freie Achsen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Ortsdarstellung & Eigenfunktionen (sphärische Harmonische)",
+      "question": "Which of the following statements correctly describes the properties of spherical harmonics in quantum mechanics?",
+      "choices": [
+        "A: Spherical harmonics exclusively describe the motion of particles in a one-dimensional potential.",
+        "B: Spherical harmonics are defined only for one-dimensional space and do not contain complex phases.",
+        "C: Spherical harmonics are independent of the quantum mechanical states of a system.",
+        "D: Spherical harmonics are solutions of the Schrödinger equation in the spherical coordinate system and have quantized values for angular momentum."
+      ],
+      "correct_answer": "D",
+      "explanation": "Spherical harmonics are special mathematical functions used in quantum mechanics to describe the solutions of the Schrödinger equation in spherical coordinates. They play an important role in describing angular momentum and the spatial distribution of wave functions in three dimensions.",
+      "difficulty": 6,
+      "subcategory": "Ortsdarstellung & Eigenfunktionen (sphärische Harmonische)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Viskosität von Gasen",
+      "question": "What describes the viscosity of a gas?",
+      "choices": [
+        "A: The resistance of a gas to the motion of another gas.",
+        "B: The density of a gas at different temperatures.",
+        "C: The ability of a gas to conduct heat.",
+        "D: The speed at which gas molecules move in a vacuum."
+      ],
+      "correct_answer": "A",
+      "explanation": "The viscosity of a gas is a measure of the resistance it opposes to the motion of another body. It is crucial for describing the flow behavior of gases and influences, for example, the air resistance in vehicles.",
+      "difficulty": 7,
+      "subcategory": "Viskosität von Gasen"
+    }
+  ]
+}

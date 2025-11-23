@@ -1,0 +1,168 @@
+{
+  "date": "2025-11-14",
+  "generated_at": "2025-11-14T08:30:36Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Randwertprobleme der Elektrostatik (Laplace-Gleichung)",
+      "question": "Welche der folgenden Bedingungen ist notwendig, um die Laplace-Gleichung in einem Gebiet zu lösen, das von elektrischen Ladungsverteilungen umgeben ist?",
+      "choices": [
+        "A: Die gesamte elektrische Energie muss in diesem Gebiet gleichmäßig verteilt sein.",
+        "B: Die Randbedingungen müssen für alle Punkte des Gebiets identisch sein.",
+        "C: Es müssen keine elektrischen Felder im Inneren des Gebiets vorhanden sein.",
+        "D: Die Potentialverteilung muss an den Randflächen konstant sein."
+      ],
+      "correct_answer": "D",
+      "explanation": "Um die Laplace-Gleichung in einem Gebiet zu lösen, sind spezifische Randbedingungen erforderlich. Insbesondere muss die Potentialverteilung an den Randflächen konstant oder definiert sein, um eine eindeutige Lösung zu gewährleisten.",
+      "difficulty": 8,
+      "subcategory": "Randwertprobleme der Elektrostatik (Laplace-Gleichung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Streuung elektromagnetischer Wellen",
+      "question": "Was beschreibt den Effekt, bei dem Lichtstrahlen an kleinen Partikeln in der Atmosphäre gestreut werden?",
+      "choices": [
+        "A: Fresnel-Streuung",
+        "B: Rayleigh-Streuung",
+        "C: Beugung",
+        "D: Reflexion"
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Rayleigh-Streuung tritt auf, wenn Lichtstrahlen auf Partikel treffen, die kleiner sind als die Wellenlänge des Lichts. Dies führt dazu, dass kürzere Wellenlängen, wie Blau, stärker gestreut werden, was unter anderem für die blaue Farbe des Himmels verantwortlich ist.",
+      "difficulty": 5,
+      "subcategory": "Streuung elektromagnetischer Wellen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Phasen von Einstoffsystemen & Clausius–Clapeyron",
+      "question": "Welche Aussage beschreibt am besten den Begriff der Phasenübergänge in einem Einstoffsystem?",
+      "choices": [
+        "A: Ein Phasenübergang findet nur bei extrem hohen Temperaturen statt.",
+        "B: Ein Phasenübergang kann nicht reversibel sein.",
+        "C: Ein Phasenübergang ist der Wechsel zwischen fest, flüssig und gasförmig.",
+        "D: Phasenübergänge sind unabhängig von Druck und Temperatur."
+      ],
+      "correct_answer": "C",
+      "explanation": "Phasenübergänge beschreiben den Wechsel zwischen den verschiedenen Aggregatzuständen, also fest, flüssig und gasförmig. Sie können durch Änderungen von Temperatur und Druck ausgelöst werden und sind ein zentrales Konzept in der statistischen Mechanik.",
+      "difficulty": 1,
+      "subcategory": "Phasen von Einstoffsystemen & Clausius–Clapeyron"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Zeitunabhängige Störungstheorie: nicht-entartete Niveaus",
+      "question": "Was beschreibt die zeitunabhängige Störungstheorie in der Quantenmechanik für nicht-entartete Niveaus?",
+      "choices": [
+        "A: Die Entstehung neuer Teilchen bei hoher Energie.",
+        "B: Die Temperaturabhängigkeit der Quantenzustände.",
+        "C: Die Wechselwirkungen zwischen Teilchen in einem klassischen System.",
+        "D: Die Änderung der Energieniveaus eines Systems durch eine kleine Störung."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die zeitunabhängige Störungstheorie behandelt, wie die Energieniveaus eines quantenmechanischen Systems durch kleine Störungen verändert werden, wenn die Niveaus nicht entartet sind. Dies ermöglicht es, die neuen Energieniveaus und die zugehörigen Zustände im Rahmen der Störungstheorie zu berechnen.",
+      "difficulty": 5,
+      "subcategory": "Zeitunabhängige Störungstheorie: nicht-entartete Niveaus"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Resonanz & Schaltvorgänge",
+      "question": "Was passiert in einem Schwingkreis, wenn die Frequenz der angelegten Wechselspannung der Eigenfrequenz des Schwingkreises entspricht?",
+      "choices": [
+        "A: Der Schwingkreis verliert an Energie.",
+        "B: Es findet keine Änderung der Schwingung statt.",
+        "C: Es tritt eine vollständige Dämpfung der Schwingung ein.",
+        "D: Die Amplitude der Schwingung erreicht ihren maximalen Wert."
+      ],
+      "correct_answer": "D",
+      "explanation": "Wenn die Frequenz der angelegten Wechselspannung der Eigenfrequenz des Schwingkreises entspricht, kommt es zur Resonanz. In diesem Zustand erreicht die Amplitude der Schwingung ihren maximalen Wert, da die Energiezufuhr optimal mit der Schwingung übereinstimmt.",
+      "difficulty": 5,
+      "subcategory": "Resonanz & Schaltvorgänge"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Wirkungs- und Winkelvariable (Action-Angle)",
+      "question": "Was beschreibt die Winkelvariable in der analytischen Mechanik im Kontext von periodischen Systemen?",
+      "choices": [
+        "A: Den Phasenwinkel eines harmonischen Oszillators.",
+        "B: Die Massenträgheit eines Körpers.",
+        "C: Die Energie eines Systems in Ruhe.",
+        "D: Die Geschwindigkeit eines Teilchens im Raum."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Winkelvariable beschreibt in der analytischen Mechanik den Phasenwinkel eines harmonischen Oszillators und ist Teil der Action-Angle-Darstellung, die in der Analyse periodischer Bewegungen verwendet wird. Sie hilft dabei, die Dynamik von Systemen mit konservativen Kräften zu verstehen.",
+      "difficulty": 5,
+      "subcategory": "Wirkungs- und Winkelvariable (Action-Angle)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Elektronen im periodischen Potential (Überblick)",
+      "question": "Was beschreibt das Konzept der Bandstruktur in Festkörpern?",
+      "choices": [
+        "A: Die Wechselwirkung von Photonen mit Atomen.",
+        "B: Die Bewegung von Elektronen in einem Vakuum.",
+        "C: Die Verteilung der Elektronen in verschiedenen Energiezuständen.",
+        "D: Die Temperaturabhängigkeit von metallischen Leitern."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Bandstruktur beschreibt, wie die Elektronen in Festkörpern in verschiedenen Energiezuständen verteilt sind, was entscheidend für das Verständnis von Leitfähigkeit und Halbleiterverhalten ist. Sie zeigt, welche Energielevel die Elektronen in einem Kristall annehmen können und wie diese niveauspezifisch miteinander interagieren.",
+      "difficulty": 5,
+      "subcategory": "Elektronen im periodischen Potential (Überblick)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Freie Achsen",
+      "question": "Was beschreibt die Bewegung eines Körpers entlang einer freien Achse?",
+      "choices": [
+        "A: Eine Bewegung, die nur durch Reibung beeinflusst wird",
+        "B: Eine Bewegung, die immer beschleunigt ist",
+        "C: Eine Bewegung, die nur durch die Schwerkraft verursacht wird",
+        "D: Eine gleichmäßige Bewegung ohne äußere Einflüsse"
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Bewegung eines Körpers entlang einer freien Achse erfolgt ohne äußere Einflüsse, was bedeutet, dass die Geschwindigkeit konstant bleibt. In diesem Fall wirken keine Kräfte, die die Bewegung beeinflussen würden.",
+      "difficulty": 2,
+      "subcategory": "Freie Achsen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Ortsdarstellung & Eigenfunktionen (sphärische Harmonische)",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt die Eigenschaften sphärischer Harmonischer in der Quantenmechanik?",
+      "choices": [
+        "A: Sphärische Harmonische beschreiben ausschließlich die Bewegung von Teilchen in einem eindimensionalen Potential.",
+        "B: Sphärische Harmonische sind nur für ein-dimensionalen Raum definiert und enthalten keine komplexen Phasen.",
+        "C: Sphärische Harmonische sind unabhängig von den quantenmechanischen Zuständen eines Systems.",
+        "D: Sphärische Harmonische sind Lösungen der Schrödinger-Gleichung im Kugelkoordinatensystem und haben quantisierte Werte für den Drehimpuls."
+      ],
+      "correct_answer": "D",
+      "explanation": "Sphärische Harmonische sind spezielle mathematische Funktionen, die in der Quantenmechanik verwendet werden, um die Lösungen der Schrödinger-Gleichung in Kugelkoordinaten zu beschreiben. Sie spielen eine wichtige Rolle bei der Beschreibung des Drehimpulses und der räumlichen Verteilung von Wellenfunktionen in drei Dimensionen.",
+      "difficulty": 6,
+      "subcategory": "Ortsdarstellung & Eigenfunktionen (sphärische Harmonische)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Viskosität von Gasen",
+      "question": "Was beschreibt die Viskosität eines Gases?",
+      "choices": [
+        "A: Den Widerstand eines Gases gegen die Bewegung eines anderen Gases.",
+        "B: Die Dichte eines Gases bei unterschiedlichen Temperaturen.",
+        "C: Die Fähigkeit eines Gases, Wärme zu leiten.",
+        "D: Die Geschwindigkeit, mit der sich Gasmoleküle in einem Vakuum bewegen."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Viskosität eines Gases ist ein Maß für den Widerstand, den es der Bewegung eines anderen Körpers entgegensetzt. Sie ist entscheidend für die Beschreibung des Fließverhaltens von Gasen und beeinflusst beispielsweise den Luftwiderstand bei Fahrzeugen.",
+      "difficulty": 7,
+      "subcategory": "Viskosität von Gasen"
+    }
+  ]
+}

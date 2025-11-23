@@ -1,0 +1,168 @@
+{
+  "date": "2025-11-18",
+  "generated_at": "2025-11-18T03:44:22Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Taylor-Entwicklung für Felder",
+      "question": "Welcher der folgenden Ausdrücke stellt die erste Ableitung eines elektrischen Feldes E(x) an einem Punkt x0 dar, wenn E(x) in der Umgebung von x0 mit einer Taylor-Reihe entwickelt wird?",
+      "choices": [
+        "A: E'(x0) = E(x0 + Δx) - E(x0)",
+        "B: E'(x0) = (E(x0 + Δx) - E(x0)) / Δx",
+        "C: E'(x0) = lim (Δx -> 0) (E(x0 + Δx) + E(x0)) / Δx",
+        "D: E'(x0) = E(x0) * Δx"
+      ],
+      "correct_answer": "B",
+      "explanation": "Die korrekte Antwort ist A, da die Formel für die erste Ableitung eines Feldes E(x) an der Stelle x0 die Differenzquotienten-Formel darstellt. Diese beschreibt den Grenzwert des Differenzenquotienten, wenn Δx gegen null geht und ist die Grundlage der Taylor-Entwicklung für Felder.",
+      "difficulty": 8,
+      "subcategory": "Taylor-Entwicklung für Felder"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Zweiter Hauptsatz (Kelvin-Planck/Clausius)",
+      "question": "Was besagt der zweite Hauptsatz der Thermodynamik im Kontext der Kelvin-Planck-Formulierung?",
+      "choices": [
+        "A: Die Energie eines geschlossenen Systems bleibt immer konstant.",
+        "B: Wärme kann von einem kälteren Körper auf einen wärmeren übertragen werden.",
+        "C: Es ist unmöglich, ein Perpetuum Mobile zweiter Art zu konstruieren.",
+        "D: Alle physikalischen Prozesse sind reversibel."
+      ],
+      "correct_answer": "C",
+      "explanation": "Der zweite Hauptsatz der Thermodynamik, in der Kelvin-Planck-Formulierung, besagt, dass es unmöglich ist, eine Maschine zu konstruieren, die Arbeit aus Wärme entnimmt und dabei keine andere Wirkung erzeugt. Dies bedeutet, dass alle realen Prozesse irreversibel sind und nicht ohne Energieverluste ablaufen können.",
+      "difficulty": 7,
+      "subcategory": "Zweiter Hauptsatz (Kelvin-Planck/Clausius)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Bra- und Ket-Vektoren; Dualraum",
+      "question": "Welcher der folgenden Begriffe bezeichnet den Vektor im Hilbertraum, der einen Zustand eines quantenmechanischen Systems beschreibt?",
+      "choices": [
+        "A: Operator",
+        "B: Ket-Vektor",
+        "C: Bra-Vektor",
+        "D: Dualraum"
+      ],
+      "correct_answer": "B",
+      "explanation": "Ein Ket-Vektor ist eine mathematische Darstellung eines Zustands in der Quantenmechanik, üblicherweise in der Form |ψ⟩. Der Bra-Vektor, geschrieben als ⟨ψ|, ist die duale Darstellung und wird oft zur Berechnung von inneren Produkten verwendet.",
+      "difficulty": 5,
+      "subcategory": "Bra- und Ket-Vektoren; Dualraum"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Bottonium & Toponium",
+      "question": "Was sind Bottonium und Toponium in der Teilchenphysik?",
+      "choices": [
+        "A: Mesonen, die aus einem Bottom-Quark und einem Bottom-Antiquark bestehen.",
+        "B: Baryonen, die aus einem Top-Quark und zwei Bottom-Quarks bestehen.",
+        "C: Leptonen, die aus einem Elektron und einem Neutrino bestehen.",
+        "D: Mesonen, die aus einem Top-Quark und einem Bottom-Quark bestehen."
+      ],
+      "correct_answer": "A",
+      "explanation": "Bottonium ist ein gebundenes Zustandssystem aus einem Bottom-Quark und seinem Antipartikel, dem Bottom-Antiquark. Diese mesonischen Teilchen sind wichtig für das Verständnis der starken Wechselwirkung und der Quantenchromodynamik.",
+      "difficulty": 6,
+      "subcategory": "Bottonium & Toponium"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Beispiel: α-Radioaktivität",
+      "question": "Was ist α-Radioaktivität?",
+      "choices": [
+        "A: Der Prozess, bei dem Licht von einem Atom absorbiert wird.",
+        "B: Der Zerfall eines Atomkerns, bei dem ein Elektron emittiert wird.",
+        "C: Der Zustand, in dem ein Atomkern stabil bleibt.",
+        "D: Der Zerfall eines Atomkerns, bei dem ein Heliumkern emittiert wird."
+      ],
+      "correct_answer": "D",
+      "explanation": "α-Radioaktivität ist ein Prozess, bei dem ein instabiler Atomkern einen Heliumkern (α-Teilchen) abgibt, was zu einer Verringerung seiner Protonen- und Neutronenzahl führt. Dies ist eine wichtige Form der Kernreaktion, die in schweren Elementen vorkommt.",
+      "difficulty": 1,
+      "subcategory": "Beispiel: α-Radioaktivität"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Streuung an amorphen Substanzen",
+      "question": "Was beschreibt die Streuung von Licht an amorphen Substanzen?",
+      "choices": [
+        "A: Die Lichtstrahlen werden in verschiedene Richtungen abgelenkt.",
+        "B: Licht wird ausschließlich reflektiert.",
+        "C: Es gibt keine Wechselwirkung zwischen Licht und amorphen Substanzen.",
+        "D: Licht wird nur absorbiert und nicht gestreut."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Streuung an amorphen Substanzen führt dazu, dass Lichtstrahlen in verschiedene Richtungen abgelenkt werden. Dies geschieht aufgrund der unregelmäßigen Struktur von amorphen Materialien, die die Lichtwellen unterschiedlich beeinflusst.",
+      "difficulty": 1,
+      "subcategory": "Streuung an amorphen Substanzen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Lichtleitung durch Totalreflexion",
+      "question": "Was ist die Bedingung für Totalreflexion an der Grenzfläche zwischen zwei Medien?",
+      "choices": [
+        "A: Das Licht muss von einem dichteren in ein dünneres Medium übertreten.",
+        "B: Der Einfallswinkel muss größer sein als der Grenzwinkel.",
+        "C: Das Licht muss in einem Vakuum reisen.",
+        "D: Der Einfallswinkel muss kleiner sein als der Grenzwinkel."
+      ],
+      "correct_answer": "B",
+      "explanation": "Totalreflexion tritt auf, wenn der Einfallswinkel größer ist als der kritische Winkel, der von den Brechungsindices der beiden Medien abhängt. In diesem Fall wird das Licht vollständig im dichteren Medium gehalten und nicht ins dünnere Medium übertragen.",
+      "difficulty": 6,
+      "subcategory": "Lichtleitung durch Totalreflexion"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Optische Aktivität & Faraday-Effekt",
+      "question": "Was beschreibt der Faraday-Effekt in Bezug auf die optische Aktivität eines Materials?",
+      "choices": [
+        "A: Die Veränderung der Lichtgeschwindigkeit in Abhängigkeit von der Frequenz.",
+        "B: Die Drehung der Polarisationsebene von Licht in einem starken Magnetfeld.",
+        "C: Die Reflexion von Licht an der Grenzfläche zwischen zwei Medien.",
+        "D: Die Brechung von Licht aufgrund einer Temperaturänderung."
+      ],
+      "correct_answer": "B",
+      "explanation": "Der Faraday-Effekt beschreibt die Rotation der Polarisationsebene von Licht, wenn es durch ein Material in einem starken Magnetfeld läuft. Diese Eigenschaft ist wichtig für Anwendungen in der Optoelektronik und der Informationsverarbeitung.",
+      "difficulty": 8,
+      "subcategory": "Optische Aktivität & Faraday-Effekt"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Reibung: Haftreibung",
+      "question": "Was beschreibt der Begriff 'Haftreibung' in der Physik?",
+      "choices": [
+        "A: Die Kraft, die einen bewegten Körper stoppt.",
+        "B: Die Kraft, die zwischen zwei sich bewegenden Oberflächen wirkt.",
+        "C: Die Energie, die bei der Bewegung eines Körpers verloren geht.",
+        "D: Die Kraft, die benötigt wird, um einen ruhenden Körper in Bewegung zu setzen."
+      ],
+      "correct_answer": "D",
+      "explanation": "Haftreibung ist die Kraft, die benötigt wird, um einen ruhenden Körper zu bewegen. Sie tritt auf, solange der Körper nicht in Bewegung ist und ist in der Regel größer als die Gleitreibung, die bei bereits bewegten Körpern wirkt.",
+      "difficulty": 2,
+      "subcategory": "Reibung: Haftreibung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Kontinuitätsgleichung (vierdimensional)",
+      "question": "Was beschreibt die Kontinuitätsgleichung in der vierdimensionalen Relativitätstheorie?",
+      "choices": [
+        "A: Die Erhaltung der Ladung in einem elektrischen Feld.",
+        "B: Die Erhaltung der Energie in einem geschlossenen System.",
+        "C: Die Erhaltung der Masse in der klassischen Mechanik.",
+        "D: Die Erhaltung der Impulsübertragung zwischen zwei Körpern."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Kontinuitätsgleichung in der vierdimensionalen Relativitätstheorie beschreibt die Erhaltung der Ladung und zeigt, wie diese in Raum und Zeit verteilt ist. Sie ist grundlegend für das Verständnis elektromagnetischer Phänomene und deren Wechselwirkungen in der Relativitätstheorie.",
+      "difficulty": 1,
+      "subcategory": "Kontinuitätsgleichung (vierdimensional)"
+    }
+  ]
+}

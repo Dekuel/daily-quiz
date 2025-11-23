@@ -1,0 +1,168 @@
+{
+  "date": "2025-11-16",
+  "generated_at": "2025-11-16T03:48:03Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Flächenintegrale (orientierte Flächen)",
+      "question": "Wie berechnet man das Flächenintegral eines Vektorfeldes \\( \\mathbf{F} \\) über eine orientierte Fläche \\( S \\)?",
+      "choices": [
+        "A: \\( \\int_C \\mathbf{F} \\cdot d\\mathbf{l} \\)",
+        "B: \\( \\int_S \\mathbf{F} \\, dS \\)",
+        "C: \\( \\iint_S \\mathbf{F} \\cdot d\\mathbf{A} \\)",
+        "D: \\( \\iint_S \\nabla \\cdot \\mathbf{F} \\, dV \\)"
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Flächenintegral eines Vektorfeldes über eine orientierte Fläche wird durch die Formel \\( \\iint_S \\mathbf{F} \\cdot d\\mathbf{A} \\) definiert, wobei \\( d\\mathbf{A} \\) das orientierte Flächenelement darstellt. Diese Berechnung ist fundamental in der Elektrodynamik, insbesondere bei der Anwendung des Satzes von Gauss.",
+      "difficulty": 8,
+      "subcategory": "Flächenintegrale (orientierte Flächen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Schallwellen im Festkörper",
+      "question": "Was beschreibt die Schallgeschwindigkeit in einem Festkörper?",
+      "choices": [
+        "A: Sie kann nur in Flüssigkeiten gemessen werden.",
+        "B: Sie ist immer gleich und unabhängig vom Material.",
+        "C: Sie hängt von der Dichte und dem Elastizitätsmodul des Materials ab.",
+        "D: Sie ist in Festkörpern langsamer als in Gasen."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Schallgeschwindigkeit in einem Festkörper ist abhängig von der Dichte und dem Elastizitätsmodul des Materials. Je höher das Elastizitätsmodul und je geringer die Dichte, desto schneller breitet sich der Schall aus.",
+      "difficulty": 5,
+      "subcategory": "Schallwellen im Festkörper"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Zeitlich oszillierende Quellen",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt die Beziehung zwischen der Frequenz einer zeitlich oszillierenden elektrischen Quelle und der erzeugten elektromagnetischen Welle?",
+      "choices": [
+        "A: Höhere Frequenzen führen zu weniger intensiven elektromagnetischen Wellen.",
+        "B: Die Frequenz der Quelle bestimmt die Wellenlänge der erzeugten Welle gemäß der Beziehung c = λν.",
+        "C: Die Frequenz beeinflusst nur die Amplitude der Welle, nicht ihre Wellenlänge.",
+        "D: Die Frequenz hat keinen Einfluss auf die Wellenlänge, da diese unabhängig von der Quelle ist."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Beziehung c = λν zeigt, dass die Geschwindigkeit c der Welle gleich dem Produkt der Wellenlänge λ und der Frequenz ν ist. Wenn die Frequenz der Quelle steigt, verringert sich entsprechend die Wellenlänge, was eine fundamentale Eigenschaft elektromagnetischer Wellen ist.",
+      "difficulty": 10,
+      "subcategory": "Zeitlich oszillierende Quellen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Maxwell-Gleichungen der Elektrostatik",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt die Bedeutung der Gaußschen Gesetzmäßigkeit in der Elektrostatik?",
+      "choices": [
+        "A: Elektrische Feldlinien können in einem geschlossenen Raum endlos verlaufen.",
+        "B: Der elektrische Fluss ist unabhängig von der Form der geschlossenen Fläche.",
+        "C: Die elektrische Flussdichte ist proportional zur eingeschlossenen Ladung.",
+        "D: Elektrische Felder sind immer konzentrisch um Punktladungen angeordnet."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Gaußsche Gesetz besagt, dass der elektrische Fluss durch eine geschlossene Fläche proportional zur Gesamtladung ist, die sich innerhalb dieser Fläche befindet. Dies ist ein zentrales Konzept in der Elektrostatik, das die Beziehung zwischen elektrischen Feldern und Ladungen beschreibt.",
+      "difficulty": 8,
+      "subcategory": "Maxwell-Gleichungen der Elektrostatik"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Potentiale des idealen Gases",
+      "question": "Welches der folgenden Gesetze beschreibt den Zusammenhang zwischen Druck, Volumen und Temperatur eines idealen Gases, wenn die Anzahl der Moleküle konstant bleibt?",
+      "choices": [
+        "A: Das ideale Gasgesetz",
+        "B: Das Avogadro-Gesetz",
+        "C: Das Gesetz von Boyle",
+        "D: Das Gesetz von Charles"
+      ],
+      "correct_answer": "A",
+      "explanation": "Das ideale Gasgesetz (PV = nRT) stellt den grundlegenden Zusammenhang zwischen Druck (P), Volumen (V) und Temperatur (T) für ideale Gase dar, vorausgesetzt die Anzahl der Moleküle (n) bleibt konstant. Die anderen Gesetze spezifizieren nur Teilaspekte dieses Zusammenhangs unter bestimmten Bedingungen.",
+      "difficulty": 9,
+      "subcategory": "Potentiale des idealen Gases"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Punktdefekte (Überblick)",
+      "question": "Was ist ein Punktdefekt in einem Kristallgitter?",
+      "choices": [
+        "A: Eine großflächige Rissbildung im Material.",
+        "B: Eine Änderung der chemischen Zusammensetzung des Materials.",
+        "C: Eine Unregelmäßigkeit in der atomaren Struktur, wie z.B. ein Leerstellen- oder Interstitialdefekt.",
+        "D: Ein Phänomen, das nur bei flüssigen Stoffen auftritt."
+      ],
+      "correct_answer": "C",
+      "explanation": "Punktdefekte sind lokale Unregelmäßigkeiten in einem Kristallgitter, die durch das Fehlen von Atomen (Leerstellen) oder durch zusätzlich eingeklemmte Atome (Interstitialdefekte) entstehen. Diese Defekte beeinflussen die physikalischen Eigenschaften des Materials erheblich und sind ein zentrales Thema in der Festkörperphysik.",
+      "difficulty": 5,
+      "subcategory": "Punktdefekte (Überblick)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Symmetrien und Erhaltungssätze",
+      "question": "Welcher der folgenden Erhaltungssätze ist in der Kern- und Teilchenphysik von entscheidender Bedeutung?",
+      "choices": [
+        "A: Erhaltung der Geschwindigkeit",
+        "B: Erhaltung der Masse in allen Prozessen",
+        "C: Erhaltung der Temperatur",
+        "D: Erhaltung der Energie"
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Erhaltung der Energie ist ein grundlegendes Prinzip in der Physik, das besagt, dass die Gesamtenergie eines geschlossenen Systems konstant bleibt. In der Kern- und Teilchenphysik ist dieses Prinzip entscheidend für die Analyse von Teilchenwechselwirkungen und -reaktionen.",
+      "difficulty": 5,
+      "subcategory": "Symmetrien und Erhaltungssätze"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Reibung: Haftreibung",
+      "question": "Was beschreibt die Haftreibung in der klassischen Mechanik?",
+      "choices": [
+        "A: Die Kraft, die benötigt wird, um ein Objekt in gleichförmiger Bewegung zu halten.",
+        "B: Die Kraft, die benötigt wird, um ein ruhendes Objekt in Bewegung zu setzen.",
+        "C: Die Kraft, die ein Objekt daran hindert, zu rollen.",
+        "D: Die Kraft, die ein Objekt abbremst, wenn es sich bewegt."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Haftreibung ist die Kraft, die überwunden werden muss, um ein ruhendes Objekt zu bewegen. Sie tritt auf, wenn zwei Oberflächen in Kontakt sind und eine relativ zueinander still stehen. Diese Kraft ist in der Regel größer als die Gleitreibung, die auftritt, sobald das Objekt in Bewegung ist.",
+      "difficulty": 5,
+      "subcategory": "Reibung: Haftreibung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Klassisches ideales Gas (mikrokanonisch)",
+      "question": "Was beschreibt die Zustandsdichte eines klassischen idealen Gases im mikrokanonischen Ensemble?",
+      "choices": [
+        "A: Die maximale Anzahl von Teilchen, die in einem bestimmten Volumen Platz finden.",
+        "B: Die Entropie des Systems in Abhängigkeit von der Temperatur.",
+        "C: Die Temperatur des Gases in Bezug auf die kinetische Energie der Teilchen.",
+        "D: Die Anzahl der Mikrozustände pro Energieeinheit."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Zustandsdichte gibt an, wie viele Mikrozustände einem bestimmten Energieniveau zugeordnet sind. Im mikrokanonischen Ensemble ist dies entscheidend für das Verständnis der thermodynamischen Eigenschaften eines klassischen idealen Gases, da es die Wahrscheinlichkeit eines bestimmten Energiezustands beschreibt.",
+      "difficulty": 8,
+      "subcategory": "Klassisches ideales Gas (mikrokanonisch)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Eigenwertspektrum (diskret/kontinuierlich)",
+      "question": "Was beschreibt ein diskretes Eigenwertspektrum in der Quantenmechanik?",
+      "choices": [
+        "A: Es gibt nur bestimmte, festgelegte Energielevels.",
+        "B: Es gibt unendlich viele mögliche Energielevels ohne Einschränkung.",
+        "C: Es beschreibt die Bewegung von Teilchen im Raum.",
+        "D: Es gibt keine Energielevels, nur kontinuierliche Werte."
+      ],
+      "correct_answer": "A",
+      "explanation": "Ein diskretes Eigenwertspektrum bedeutet, dass die möglichen Energielevels eines quantenmechanischen Systems nur bestimmte, klare Werte annehmen können. Dies ist typisch für gebundene Systeme, wie z.B. Elektronen in Atomen.",
+      "difficulty": 3,
+      "subcategory": "Eigenwertspektrum (diskret/kontinuierlich)"
+    }
+  ]
+}
