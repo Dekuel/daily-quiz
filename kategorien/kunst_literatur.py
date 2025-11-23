@@ -108,9 +108,9 @@ _TOPICS: Dict[str, int] = {
 _TOPIC_WEIGHTS_BY_BUCKET: Dict[str, Dict[str, int]] = {
     "1-4": {
         # Kunst 45 → 12,11,11,11
-        TOPICS_ART[0]: 5, TOPICS_ART[1]: 15, TOPICS_ART[2]: 5, TOPICS_ART[3]: 15,
+        TOPICS_ART[0]: 5, TOPICS_ART[1]: 16, TOPICS_ART[2]: 6, TOPICS_ART[3]: 16,
         # Literatur 40 → 10,10,10,10
-        TOPICS_LIT[0]: 5, TOPICS_LIT[1]: 5, TOPICS_LIT[2]: 5, TOPICS_LIT[3]: 25,
+        TOPICS_LIT[0]: 5, TOPICS_LIT[1]: 6, TOPICS_LIT[2]: 6, TOPICS_LIT[3]: 20,
         # Musik 15 → 4,4,4,3
         TOPICS_MUS[0]: 6,  TOPICS_MUS[1]: 6,  TOPICS_MUS[2]: 6,  TOPICS_MUS[3]: 2,
     },

@@ -171,23 +171,35 @@ def load_past_questions(days: int = PAST_DAYS_TO_CHECK) -> List[dict]:
         except Exception:
             pass
 
-    # Fallback: Verzeichnisse scannen
+    # Fallback: Verzeichnisse scannen (neue Struktur: YYYY/MM/DD)
     if not dates:
         try:
-            for name in os.listdir(OUT_ROOT):
-                p = os.path.join(OUT_ROOT, name)
-                try:
-                    d = datetime.strptime(name, "%Y-%m-%d").date()
-                    if d >= cutoff and os.path.isdir(p):
-                        dates.add(name)
-                except Exception:
+            for year_name in os.listdir(OUT_ROOT):
+                year_path = os.path.join(OUT_ROOT, year_name)
+                if not os.path.isdir(year_path) or not year_name.isdigit():
                     continue
+                for month_name in os.listdir(year_path):
+                    month_path = os.path.join(year_path, month_name)
+                    if not os.path.isdir(month_path) or not month_name.isdigit():
+                        continue
+                    for day_name in os.listdir(month_path):
+                        day_path = os.path.join(month_path, day_name)
+                        if not os.path.isdir(day_path) or not day_name.isdigit():
+                            continue
+                        try:
+                            date_str = f"{year_name}-{month_name.zfill(2)}-{day_name.zfill(2)}"
+                            d = datetime.strptime(date_str, "%Y-%m-%d").date()
+                            if d >= cutoff:
+                                dates.add(date_str)
+                        except Exception:
+                            continue
         except Exception:
             pass
 
     for d in sorted(dates, reverse=True):
+        year, month, day = d.split('-')
         for fname in ("bundle.json", "bundle.normal.json", "bundle.schwer.json", "bundle.physik.json"):
-            bundle_path = os.path.join(OUT_ROOT, d, fname)
+            bundle_path = os.path.join(OUT_ROOT, year, month, day, fname)
             if os.path.exists(bundle_path):
                 try:
                     bundle = json.load(open(bundle_path, "r", encoding="utf-8"))
@@ -800,7 +812,9 @@ def write_daily_bundle(quiz_list: List[dict], mode: str, date_str: Optional[str]
         return None
 
     day = date_str or _iso_date_today()
-    day_dir = os.path.join(OUT_ROOT, day)
+    # Neue Struktur: YYYY/MM/DD statt YYYY-MM-DD
+    year, month, day_only = day.split('-')
+    day_dir = os.path.join(OUT_ROOT, year, month, day_only)
     os.makedirs(day_dir, exist_ok=True)
 
     bundle = {
@@ -823,7 +837,7 @@ def write_daily_bundle(quiz_list: List[dict], mode: str, date_str: Optional[str]
         json.dump(bundle, f, ensure_ascii=False, indent=2)
 
     print(f"✅ Bundle gespeichert ({mode}): {bundle_path}")
-    return f"{OUT_ROOT}/{day}/bundle{suffix}"
+    return f"{OUT_ROOT}/{year}/{month}/{day_only}/bundle{suffix}"
 
 
 def _write_daily_bundle_en(quiz_list: List[dict], mode: str, date_str: Optional[str], plugins: Dict[str, Callable[..., Optional[dict]]]) -> Optional[str]:
@@ -837,7 +851,9 @@ def _write_daily_bundle_en(quiz_list: List[dict], mode: str, date_str: Optional[
         return None
 
     day = date_str or _iso_date_today()
-    day_dir = os.path.join(OUT_ROOT, day)
+    # Neue Struktur: YYYY/MM/DD statt YYYY-MM-DD
+    year, month, day_only = day.split('-')
+    day_dir = os.path.join(OUT_ROOT, year, month, day_only)
     os.makedirs(day_dir, exist_ok=True)
 
     # deep copy entries (shallow copy of dicts is enough since we'll swap some)
@@ -931,7 +947,7 @@ def _write_daily_bundle_en(quiz_list: List[dict], mode: str, date_str: Optional[
     if mode in ("normal", "schwer"):
         _append_questions_to_category_files_en(en_questions, mode)
 
-    return f"{OUT_ROOT}/{day}/bundle{suffix.replace('.json', '_en.json')}"
+    return f"{OUT_ROOT}/{year}/{month}/{day_only}/bundle{suffix.replace('.json', '_en.json')}"
 
 
 def _append_questions_to_category_files_en(questions: List[dict], mode: str) -> None:
