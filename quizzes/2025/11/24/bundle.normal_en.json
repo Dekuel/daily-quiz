@@ -1,22 +1,36 @@
 {
   "date": "2025-11-24",
-  "generated_at": "2025-11-24T03:56:27Z",
+  "generated_at": "2025-11-24T09:59:17Z",
   "schema_version": 6,
   "mode": "normal",
   "questions": [
     {
-      "category": "Essen und Trinken",
-      "topic": "Getränke",
-      "question": "What is the main ingredient for preparing a traditional espresso?",
+      "category": "Language",
+      "topic": "Idioms",
+      "question": "What does the idiom 'break the ice' mean?",
       "choices": [
-        "A: Cocoa powder",
-        "B: Sugar",
-        "C: Ground coffee beans",
-        "D: Tea"
+        "A: To begin a conversation in a social setting",
+        "B: To literally crack ice",
+        "C: To cancel plans",
+        "D: To lose one's temper"
       ],
-      "correct_answer": "C",
-      "explanation": "An espresso is made exclusively from ground coffee beans. The beans are extracted under high pressure with hot water, resulting in a strong and flavorful coffee. In contrast, tea does not contain coffee beans, and the other options are not basic ingredients for coffee.",
-      "difficulty": 3
+      "correct_answer": "A",
+      "explanation": "'Break the ice' is commonly used to describe the act of initiating conversation to relieve tension. It helps foster a comfortable environment, especially in new or awkward situations.",
+      "difficulty": 1
+    },
+    {
+      "category": "Geschichte",
+      "topic": "Mittelalter",
+      "question": "What was a central feature of chivalric culture in the Middle Ages?",
+      "choices": [
+        "A: Seafaring",
+        "B: Code of Chivalry",
+        "C: Agricultural production",
+        "D: Trade relations"
+      ],
+      "correct_answer": "B",
+      "explanation": "The code of chivalry was a crucial element of knighthood in the Middle Ages. It regulated the behavior of knights and emphasized values such as bravery, loyalty, and honor. These ideals shaped chivalric culture and social life at the court.",
+      "difficulty": 4
     },
     {
       "question": "Who is the current President of the United States?",
@@ -30,74 +44,60 @@
       "category": "politics"
     },
     {
-      "category": "Sport",
-      "topic": "Sonstige",
-      "question": "Which of these training principles is crucial for improving endurance performance?",
+      "category": "Glaube & Religion",
+      "topic": "Monotheistische Religionen",
+      "question": "Which book is considered the holy scripture of Islam?",
       "choices": [
-        "A: Specificity",
-        "B: Progression",
-        "C: Regeneration",
-        "D: Variation"
+        "A: Bhagavad Gita",
+        "B: Torah",
+        "C: Quran",
+        "D: Bible"
       ],
-      "correct_answer": "A",
-      "explanation": "The principle of specificity states that training should be directly related to the goals one aims to achieve. For improving endurance, it is important to focus training specifically on endurance performance to achieve optimal progress.",
-      "difficulty": 6
-    },
-    {
-      "category": "Language",
-      "topic": "Idioms",
-      "question": "What does the idiom 'break the ice' mean?",
-      "choices": [
-        "A: To initiate conversation in a social setting",
-        "B: To physically break something",
-        "C: To make a situation worse",
-        "D: To end a relationship"
-      ],
-      "correct_answer": "A",
-      "explanation": "'Break the ice' refers to the act of starting a conversation or easing tension in a social setting. It is often used when meeting new people to create a more comfortable atmosphere.",
+      "correct_answer": "C",
+      "explanation": "The Quran is the central holy book of Islam, considered as Allah's revelation to the Prophet Muhammad. It encompasses teachings, laws, and stories that form the basis of the Islamic faith.",
       "difficulty": 4
     },
     {
-      "category": "Glaube & Religion",
-      "topic": "Klassische & nordische Mythologien",
-      "question": "What term did the ancient Greeks use to describe the collection of myths and stories about their gods and heroes, often transmitted in song or poetry?",
+      "category": "Essen und Trinken",
+      "topic": "Küche international",
+      "question": "Which of the following dishes is typically a popular main course in the Philippines, often served with rice and known for its marinated preparation?",
       "choices": [
-        "A: Myth",
-        "B: Hymn",
-        "C: Theogony",
-        "D: Epic"
-      ],
-      "correct_answer": "D",
-      "explanation": "An epic is an extensive narrative in verse form that often deals with the deeds of gods and heroes. The most famous examples are the works of Homer, such as the 'Iliad' and the 'Odyssey,' which represent central elements of Greek mythology.",
-      "difficulty": 8
-    },
-    {
-      "category": "Geographie",
-      "topic": "Hauptstädte",
-      "question": "Which capital city is the largest city in the Pacific region and known for its diverse culture and history?",
-      "choices": [
-        "A: Suva",
-        "B: Canberra",
-        "C: Nouméa",
-        "D: Wellington"
+        "A: Sushi",
+        "B: Adobo",
+        "C: Goulash",
+        "D: Paella"
       ],
       "correct_answer": "B",
-      "explanation": "Canberra is the capital of Australia and the largest city in the Pacific region, serving as a political center. It was specifically planned as the capital and has played a significant role in Australia's history and culture.",
-      "difficulty": 7
+      "explanation": "Adobo is a traditional Filipino dish consisting of marinated meat, often chicken or pork, cooked in a mixture of vinegar, soy sauce, garlic, and spices. It reflects culinary influences from the Spanish colonial era and is usually served with rice.",
+      "difficulty": 6
     },
     {
-      "category": "Geschichte",
-      "topic": "Neuzeit",
-      "question": "Which inventor is known for developing the first functional airship?",
+      "category": "Sport",
+      "topic": "Sonstige",
+      "question": "Which mistake in badminton results in a point for the opponent?",
       "choices": [
-        "A: Nikola Tesla",
-        "B: Alexander Graham Bell",
-        "C: Ferdinand von Zeppelin",
-        "D: Thomas Edison"
+        "A: The shuttlecock lands out of bounds.",
+        "B: The player touches the net with the racket.",
+        "C: The player changes their racket during the game.",
+        "D: The serve is too low."
       ],
-      "correct_answer": "C",
-      "explanation": "Ferdinand von Zeppelin was a German aviation pioneer who developed the first functional airship at the end of the 19th century. His constructions laid the foundation for later airship travel in the 20th century.",
+      "correct_answer": "A",
+      "explanation": "If the shuttlecock lands out of bounds, it is a clear mistake that results in a point for the opponent. Such errors are crucial as they can directly affect the score.",
       "difficulty": 5
+    },
+    {
+      "category": "Wissenschaft",
+      "topic": "Medizin",
+      "question": "Which hormones does the thyroid gland produce?",
+      "choices": [
+        "A: Insulin and glucagon",
+        "B: Estrogen and testosterone",
+        "C: Adrenaline and noradrenaline",
+        "D: Thyroxine and triiodothyronine"
+      ],
+      "correct_answer": "D",
+      "explanation": "The thyroid gland mainly produces the hormones thyroxine (T4) and triiodothyronine (T3), which regulate metabolism. Insulin and glucagon are produced by the pancreas, while adrenaline and noradrenaline come from the adrenal gland.",
+      "difficulty": 1
     }
   ]
 }

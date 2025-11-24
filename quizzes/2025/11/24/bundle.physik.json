@@ -1,168 +1,168 @@
 {
   "date": "2025-11-24",
-  "generated_at": "2025-11-24T03:56:15Z",
+  "generated_at": "2025-11-24T09:59:06Z",
   "schema_version": 6,
   "mode": "physik",
   "questions": [
     {
       "category": "Physik",
-      "topic": "Relativitätstheorie",
-      "subtopic": "Lorentz-Transformation (Grundform)",
-      "question": "Was beschreibt die Lorentz-Transformation in der speziellen Relativitätstheorie?",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Oberflächenspannung",
+      "question": "Was bewirkt die Oberflächenspannung von Wasser?",
       "choices": [
-        "A: Die Bewegung von Teilchen in einem elektromagnetischen Feld.",
-        "B: Die Beziehung zwischen Temperatur und Druck in einem idealen Gas.",
-        "C: Die Umwandlung von Zeit und Raum zwischen zwei Inertialsystemen.",
-        "D: Die Schwingungen von Molekülen in einem Festkörper."
-      ],
-      "correct_answer": "C",
-      "explanation": "Die Lorentz-Transformation ist ein zentrales Konzept der speziellen Relativitätstheorie und beschreibt, wie Zeit und Raum zwischen zwei Inertialsystemen, die sich relativ zueinander bewegen, umgerechnet werden. Sie ist entscheidend für das Verständnis der relativistischen Effekte wie Zeitdilatation und Längenkontraktion.",
-      "difficulty": 5,
-      "subcategory": "Lorentz-Transformation (Grundform)"
-    },
-    {
-      "category": "Physik",
-      "topic": "Kern- und Teilchenphysik",
-      "subtopic": "Kernspaltung",
-      "question": "Was ist das Hauptprodukt der Kernspaltung von Uran-235?",
-      "choices": [
-        "A: Helium",
-        "B: Neutronen",
-        "C: Wasserstoff",
-        "D: Kohlenstoff"
+        "A: Wasser hat immer eine konstante Temperatur.",
+        "B: Wasser bildet Tropfen und kann kleine Objekte tragen.",
+        "C: Wasser hat keine Anziehungskräfte zwischen den Molekülen.",
+        "D: Wasser kann nicht in festen Formen gefroren werden."
       ],
       "correct_answer": "B",
-      "explanation": "Bei der Kernspaltung von Uran-235 werden Neutronen freigesetzt, die dann weitere Spaltungen in anderen Uran-235-Kernen auslösen können. Dies führt zu einer Kettenreaktion, die in Kernkraftwerken zur Energiegewinnung genutzt wird.",
+      "explanation": "Die Oberflächenspannung von Wasser entsteht durch die Anziehungskräfte zwischen den Wassermolekülen, die dafür sorgen, dass Wasser einen Tropfen bildet. Diese Spannung ermöglicht es kleinen Objekten, auf der Wasseroberfläche zu schwimmen, ohne sofort einzutauchen.",
       "difficulty": 4,
-      "subcategory": "Kernspaltung"
-    },
-    {
-      "category": "Physik",
-      "topic": "Thermodynamik",
-      "subtopic": "Entropie als Zustandsgröße",
-      "question": "Was beschreibt die Entropie in einem geschlossenen System?",
-      "choices": [
-        "A: Die Temperatur des Systems.",
-        "B: Die Unordnung oder Zufälligkeit der Teilchenanordnung.",
-        "C: Den Druck des Systems.",
-        "D: Die Gesamtheit der Energie im System."
-      ],
-      "correct_answer": "B",
-      "explanation": "Die Entropie ist ein Maß für die Unordnung oder Zufälligkeit in einem System. In einem geschlossenen System nimmt die Entropie in der Regel zu, was die Richtung von irreversiblen Prozessen beschreibt.",
-      "difficulty": 6,
-      "subcategory": "Entropie als Zustandsgröße"
+      "subcategory": "Oberflächenspannung"
     },
     {
       "category": "Physik",
       "topic": "Festkörperphysik",
-      "subtopic": "Streuung an amorphen Substanzen",
-      "question": "Welche Eigenschaft von amorphen Substanzen beeinflusst maßgeblich die Streuung von Röntgenstrahlen?",
+      "subtopic": "Brillouin-Zone",
+      "question": "Welche Aussage beschreibt die Brillouin-Zone in der Festkörperphysik korrekt?",
       "choices": [
-        "A: Die kristalline Symmetrie der Atome",
-        "B: Die Temperatur des Materials",
-        "C: Die Unordnung und fehlende Langreichweitigkeit der atomaren Struktur",
-        "D: Die hohe Dichte der Materialien"
+        "A: Die Brillouin-Zone ist der Raum, in dem sich die Atome eines Festkörpers bewegen.",
+        "B: Die Brillouin-Zone beschreibt die Temperaturabhängigkeit der Struktur eines Festkörpers.",
+        "C: Die Brillouin-Zone ist der Bereich im k-Raum, der die Energiezustände eines Elektrons in einem Kristall beschreibt.",
+        "D: Die Brillouin-Zone ist eine Art von quantenmechanischem Zustand eines einzelnen Atoms."
       ],
       "correct_answer": "C",
-      "explanation": "Amorphe Substanzen besitzen eine unregelmäßige atomare Anordnung, was zu einer diffusen Streuung von Röntgenstrahlen führt. Im Gegensatz zu kristallinen Materialien fehlt es an einer regelmäßigen Struktur, was die Streuung beeinflusst.",
-      "difficulty": 6,
-      "subcategory": "Streuung an amorphen Substanzen"
+      "explanation": "Die Brillouin-Zone ist ein Konzept aus der Festkörperphysik, das im k-Raum die möglichen Energiezustände von Elektronen in einem Kristall beschreibt. Sie ist entscheidend für das Verständnis des Verhaltens von Elektronen in Festkörpern und deren Bandstruktur.",
+      "difficulty": 4,
+      "subcategory": "Brillouin-Zone"
     },
     {
       "category": "Physik",
-      "topic": "Statistische Mechanik",
-      "subtopic": "Anwendungen: Polymere/Negative Temperaturen",
-      "question": "Welche Eigenschaft von Polymeren kann bei negativen Temperaturen beobachtet werden?",
+      "topic": "Festkörperphysik",
+      "subtopic": "Hall-Effekt",
+      "question": "Was beschreibt der Hall-Effekt in einem leitenden Material?",
       "choices": [
-        "A: Ihre Dichte erhöht sich mit Temperatur.",
-        "B: Sie können eine negative spezifische Wärme besitzen.",
-        "C: Sie verlaufen immer in einem festen Zustand.",
-        "D: Sie leiten Wärme besser als Metalle."
+        "A: Die Erhöhung der Temperatur bei elektrischem Stromfluss.",
+        "B: Die Entstehung einer Spannung quer zur Stromrichtung unter dem Einfluss eines Magnetfeldes.",
+        "C: Die Bewegung von Elektronen in einem elektrischen Feld ohne Magnetfeld.",
+        "D: Die Änderung der elektrischen Leitfähigkeit bei unterschiedlichen Temperaturen."
       ],
       "correct_answer": "B",
-      "explanation": "Bei negativen Temperaturen können einige Systeme, einschließlich bestimmter Polymere, eine negative spezifische Wärme aufweisen. Dies bedeutet, dass ein Zuwachs an Energie zu einem Rückgang der Temperatur führt, was gegen die üblichen thermodynamischen Prinzipien verstößt.",
+      "explanation": "Der Hall-Effekt beschreibt die Entstehung einer Spannungsdifferenz quer zu einem elektrischen Stromfluss, wenn ein Magnetfeld senkrecht auf die Stromrichtung wirkt. Dies ist ein wichtiges Phänomen in der Festkörperphysik und wird unter anderem in Hall-Sensoren genutzt.",
       "difficulty": 3,
-      "subcategory": "Anwendungen: Polymere/Negative Temperaturen"
+      "subcategory": "Hall-Effekt"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Nuklide & Nuklidkarte",
+      "question": "Welches der folgenden Nuklide ist ein stabiles Isotop von Kohlenstoff?",
+      "choices": [
+        "A: 12",
+        "B: 14",
+        "C: 13",
+        "D: 15"
+      ],
+      "correct_answer": "A",
+      "explanation": "C-12 ist das häufigste stabile Isotop von Kohlenstoff und macht etwa 98,9 % des natürlichen Kohlenstoffs aus. C-14 hingegen ist radioaktiv und wird in der Radiokohlenstoffdatierung verwendet, während C-13 ein stabiles Isotop ist, aber nicht das am häufigsten vorkommende. C-15 ist instabil und zerfällt schnell.",
+      "difficulty": 6,
+      "subcategory": "Nuklide & Nuklidkarte"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Kontinuitätsgleichung (vierdimensional)",
+      "question": "Welche Aussage zur vierdimensionalen Kontinuitätsgleichung in der Relativitätstheorie ist korrekt?",
+      "choices": [
+        "A: Sie beschreibt die Erhaltung der elektrischen Ladung in einem vierdimensionalen Raum-Zeit-Kontinuum.",
+        "B: Sie gilt nur in nicht-relativistischen Systemen.",
+        "C: Sie ist identisch mit der klassischen Kontinuitätsgleichung der Strömungsmechanik.",
+        "D: Sie ist unabhängig von der Wahl des Bezugssystems."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die vierdimensionale Kontinuitätsgleichung in der Relativitätstheorie beschreibt die Erhaltung der elektrischen Ladung unter Berücksichtigung der Raum-Zeit-Struktur. Sie ist eine Erweiterung der klassischen Kontinuitätsgleichung und berücksichtigt die relativistischen Effekte, die in nicht-relativistischen Systemen nicht auftreten.",
+      "difficulty": 7,
+      "subcategory": "Kontinuitätsgleichung (vierdimensional)"
     },
     {
       "category": "Physik",
       "topic": "Analytische Mechanik",
-      "subtopic": "Integrale der Bewegung & Involution",
-      "question": "Welches der folgenden Konzepte beschreibt die Erhaltung einer physikalischen Größe in einem geschlossenen System?",
+      "subtopic": "Wirkungs- und Winkelvariable (Action-Angle)",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt die Beziehung zwischen der Wirkungsvariable und den Winkelvariablen in der analytischen Mechanik?",
       "choices": [
-        "A: Impulserhaltungssatz",
-        "B: Alle genannten Sätze",
-        "C: Energieerhaltungssatz",
-        "D: Drehimpulserhaltungssatz"
+        "A: Die Winkelvariablen sind unabhängig von der Wirkungsvariable.",
+        "B: Die Winkelvariablen sind immer gleich der Wirkungsvariable.",
+        "C: Die Wirkungsvariable kann niemals konstant sein.",
+        "D: Die Wirkungsvariable ist konstant, während sich die Winkelvariablen periodisch ändern."
       ],
-      "correct_answer": "B",
-      "explanation": "In einem geschlossenen System bleiben die Gesamtenergie, der Impuls und der Drehimpuls konstant, was in den jeweiligen Erhaltungssätzen beschrieben wird. Diese Konzepte sind zentrale Prinzipien in der Analytischen Mechanik und gelten für viele physikalische Systeme.",
-      "difficulty": 4,
-      "subcategory": "Integrale der Bewegung & Involution"
+      "correct_answer": "D",
+      "explanation": "In der analytischen Mechanik beschreibt die Wirkungsvariable die Gesamtheit des Systems, während die Winkelvariablen die periodischen Bewegungen repräsentieren. Diese Beziehung ist zentral für das Verständnis von integrablen Systemen, in denen die Wirkungsvariable konstant bleibt, während sich die Winkelvariablen verändern.",
+      "difficulty": 6,
+      "subcategory": "Wirkungs- und Winkelvariable (Action-Angle)"
     },
     {
       "category": "Physik",
       "topic": "Kern- und Teilchenphysik",
-      "subtopic": "Fundamentale Wechselwirkungen",
-      "question": "Welche der folgenden Wechselwirkungen ist für den Zerfall von radioaktiven Atomkernen verantwortlich?",
+      "subtopic": "Kern‑Formfaktoren",
+      "question": "Was beschreibt der Formfaktor eines Kerns?",
       "choices": [
-        "A: Elektromagnetische Wechselwirkung",
-        "B: Starke Wechselwirkung",
-        "C: Gravitationswechselwirkung",
-        "D: Schwache Wechselwirkung"
+        "A: Die Anzahl der Neutronen im Kern.",
+        "B: Die Temperatur des Kerns.",
+        "C: Die Masse des Kerns.",
+        "D: Die räumliche Verteilung der elektrischen Ladung im Kern."
       ],
       "correct_answer": "D",
-      "explanation": "Die schwache Wechselwirkung ist verantwortlich für Prozesse wie den Beta-Zerfall, bei dem ein Neutron in ein Proton umgewandelt wird. Diese Wechselwirkung ist essenziell für viele radioaktive Zerfälle und spielt eine wichtige Rolle in der Teilchenphysik.",
+      "explanation": "Der Formfaktor eines Kerns beschreibt die räumliche Verteilung der elektrischen Ladung innerhalb des Kerns und ist wichtig für die Analyse von Streuexperimenten. Er gibt Aufschluss darüber, wie die Ladung im Kern verteilt ist und beeinflusst die Wechselwirkung mit anderen Teilchen.",
       "difficulty": 3,
-      "subcategory": "Fundamentale Wechselwirkungen"
+      "subcategory": "Kern‑Formfaktoren"
     },
     {
       "category": "Physik",
-      "topic": "Festkörperphysik",
-      "subtopic": "Wärmeleitung (Phononen)",
-      "question": "Welche Aussage über Phononen in Festkörpern ist korrekt?",
+      "topic": "Quantenmechanik",
+      "subtopic": "Bessel’sche Differentialgleichung (Zusatz)",
+      "question": "Welche der folgenden Aussagen beschreibt die Bessel'sche Differentialgleichung korrekt?",
       "choices": [
-        "A: Phononen sind Teilchen, die für die elektrische Leitfähigkeit in Metallen verantwortlich sind.",
-        "B: Phononen sind immer mit einer Temperaturerhöhung verbunden und können somit nicht bei 0 Kelvin existieren.",
-        "C: Phononen sind quantisierte Gitterschwingungen, die Wärmeleitung in Festkörpern ermöglichen.",
-        "D: Phononen können nur in nicht-kristallinen Materialien existieren."
+        "A: Sie ist eine spezielle Form der Differentialgleichung, die in zylindrischen Koordinaten auftritt.",
+        "B: Sie hat keine physikalische Relevanz in der Quantenmechanik.",
+        "C: Sie wird verwendet, um die Schrödinger-Gleichung in einem eindimensionalen Raum zu lösen.",
+        "D: Sie beschreibt die Bewegung von Teilchen in einem eindimensionalen Potential."
       ],
-      "correct_answer": "C",
-      "explanation": "Phononen sind die quantisierten Schwingungsmodi in einem Kristallgitter und spielen eine entscheidende Rolle bei der Wärmeleitung in Festkörpern. Sie ermöglichen den Transport von Wärme durch die Wechselwirkungen zwischen Atomen im Gitter. Die anderen Aussagen sind entweder falsch oder missverständlich.",
-      "difficulty": 7,
-      "subcategory": "Wärmeleitung (Phononen)"
+      "correct_answer": "A",
+      "explanation": "Die Bessel'sche Differentialgleichung ist wichtig in der Quantenmechanik, insbesondere bei der Lösung von Problemen in zylindrischen Koordinaten, wie beispielsweise bei der Analyse von Wellenfunktionen in bestimmten Potentialen. Ihre Lösungen, die Bessel-Funktionen, treten häufig in physikalischen Anwendungen auf, beispielsweise in der Akustik und Elektrodynamik.",
+      "difficulty": 5,
+      "subcategory": "Bessel’sche Differentialgleichung (Zusatz)"
     },
     {
       "category": "Physik",
-      "topic": "Optik",
-      "subtopic": "Fresnel vs. Fraunhofer (Übergangsbedingungen)",
-      "question": "Was ist eine wesentliche Bedingung für den Übergang von Fresnel- zu Fraunhofer-Diffraction?",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Differentialoperatoren in der SRT",
+      "question": "Welcher Differentialoperator wird in der speziellen Relativitätstheorie häufig verwendet, um die Änderung von physikalischen Größen zu beschreiben?",
       "choices": [
-        "A: Die Blende muss eine große Öffnung haben.",
-        "B: Die Beobachtungsentfernung muss sehr groß im Vergleich zur Wellenlänge des Lichtes sein.",
-        "C: Die Lichtquelle muss punktförmig sein.",
-        "D: Der Abstand zwischen der Lichtquelle und dem Objekt muss sehr klein sein."
+        "A: Der Hamilton-Operator",
+        "B: Der Lorentz-Operator",
+        "C: Der Gradient-Operator",
+        "D: Der Laplace-Operator"
       ],
       "correct_answer": "B",
-      "explanation": "Der Übergang von Fresnel- zu Fraunhofer-Diffraction erfolgt, wenn die Beobachtungsentfernung groß genug ist, sodass die Wellenfronten als plan betrachtet werden können. Dies ist wichtig, um die Einfachheit der mathematischen Analyse zu gewährleisten und die Diffractionsmuster zu vereinfachen.",
-      "difficulty": 6,
-      "subcategory": "Fresnel vs. Fraunhofer (Übergangsbedingungen)"
+      "explanation": "Der Lorentz-Operator ist entscheidend in der speziellen Relativitätstheorie, da er die Transformation von physikalischen Größen zwischen verschiedenen Inertialsystemen beschreibt. Während andere Operatoren in verschiedenen Kontexten verwendet werden, hat der Lorentz-Operator eine spezielle Bedeutung in der Relativitätstheorie.",
+      "difficulty": 4,
+      "subcategory": "Differentialoperatoren in der SRT"
     },
     {
       "category": "Physik",
-      "topic": "Thermodynamik",
-      "subtopic": "Absolute thermodynamische Temperaturskala",
-      "question": "Welche Aussage über die absolute Temperaturskala ist korrekt?",
+      "topic": "Quantenmechanik",
+      "subtopic": "Nicht-Vertauschbarkeit von Operatoren",
+      "question": "Was beschreibt die Nicht-Vertauschbarkeit von Operatoren in der Quantenmechanik?",
       "choices": [
-        "A: Die absolute Temperaturskala ist nur für Gase anwendbar und nicht für Flüssigkeiten oder Feststoffe.",
-        "B: Die absolute Temperaturskala ist identisch mit der Celsius-Skala, jedoch um 100 Grad verschoben.",
-        "C: Die absolute Temperaturskala beginnt bei 0 Kelvin, dem Punkt, an dem alle molekularen Bewegungen zum Stillstand kommen.",
-        "D: Der Bezugspunkt der absoluten Temperaturskala ist der Gefrierpunkt von Wasser."
+        "A: Alle Operatoren sind in der Quantenmechanik vertauschbar.",
+        "B: Operatoren wirken immer unabhängig voneinander.",
+        "C: Zwei Operatoren können in einer bestimmten Reihenfolge nicht gleichzeitig angewendet werden.",
+        "D: Es gibt keine Operatoren in der Quantenmechanik."
       ],
       "correct_answer": "C",
-      "explanation": "Die absolute Temperaturskala, gemessen in Kelvin, beginnt bei 0 K, was dem absoluten Nullpunkt entspricht, an dem die Bewegung der Teilchen theoretisch zum Stillstand kommt. Dies ist ein fundamentaler Bezugspunkt in der Thermodynamik und unterscheidet sich von anderen Temperaturskalen wie Celsius oder Fahrenheit.",
-      "difficulty": 7,
-      "subcategory": "Absolute thermodynamische Temperaturskala"
+      "explanation": "In der Quantenmechanik bedeutet die Nicht-Vertauschbarkeit von Operatoren, dass die Anwendung zweier Operatoren in unterschiedlicher Reihenfolge zu unterschiedlichen Ergebnissen führen kann. Dies ist ein zentrales Konzept, das die Natur quantenmechanischer Systeme beschreibt.",
+      "difficulty": 2,
+      "subcategory": "Nicht-Vertauschbarkeit von Operatoren"
     }
   ]
 }
