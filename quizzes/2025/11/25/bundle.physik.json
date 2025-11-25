@@ -1,0 +1,168 @@
+{
+  "date": "2025-11-25",
+  "generated_at": "2025-11-25T03:48:08Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Doppelspaltexperiment (Materiewellen)",
+      "question": "Was zeigt das Doppelspaltexperiment im Kontext der Quantenmechanik?",
+      "choices": [
+        "A: Teilchen können sich wie Wellen verhalten und Interferenzmuster erzeugen.",
+        "B: Materiewellen können nicht existieren.",
+        "C: Teilchen bewegen sich immer mit Lichtgeschwindigkeit.",
+        "D: Die Messung von Teilchen hat keinen Einfluss auf ihre Bewegung."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Doppelspaltexperiment demonstriert, dass Teilchen wie Elektronen sowohl Teilcheneigenschaften als auch Welleneigenschaften aufweisen. Die beobachtbaren Interferenzmuster entstehen, wenn Teilchen als Wellen betrachtet werden und durch zwei Spalte passieren.",
+      "difficulty": 6,
+      "subcategory": "Doppelspaltexperiment (Materiewellen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Randwertprobleme der Elektrostatik (Laplace-Gleichung)",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt die Lösung der Laplace-Gleichung in einem Bereich mit festen Randwerten?",
+      "choices": [
+        "A: Die Lösung ist nicht eindeutig, wenn die Randwerte in Abhängigkeit von der Zeit variieren.",
+        "B: Die Lösung ist eindeutig bestimmt, wenn die Randwerte konstant sind.",
+        "C: Die Lösung muss stets eine kontinuierliche Funktion sein, unabhängig von den Randwerten.",
+        "D: Die Lösung hat immer nur eine endliche Anzahl von Lösungen unabhängig von den Randbedingungen."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Laplace-Gleichung hat unter gegebenen Randbedingungen eine eindeutige Lösung, solange die Randwerte konstant sind. Variierende Randwerte können die Lösung beeinflussen, führen jedoch nicht zu Mehrdeutigkeiten im stationären Fall.",
+      "difficulty": 8,
+      "subcategory": "Randwertprobleme der Elektrostatik (Laplace-Gleichung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Halbleiterlaser",
+      "question": "Was ist das Hauptprinzip, das die Funktionsweise eines Halbleiterlasers ermöglicht?",
+      "choices": [
+        "A: Kompression von Gasen",
+        "B: Thermische Strahlung",
+        "C: Stimulated Emission",
+        "D: Photoelektrischer Effekt"
+      ],
+      "correct_answer": "C",
+      "explanation": "Halbleiterlaser basieren auf dem Prinzip der stimulierten Emission, bei dem Elektronen in einem Halbleitermaterial angeregt werden und beim Rückfall in einen niedrigeren Energiezustand Photonen emittieren. Dies führt zur Verstärkung von Licht und der Erzeugung eines kohärenten Strahls.",
+      "difficulty": 4,
+      "subcategory": "Halbleiterlaser"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Phasen von Einstoffsystemen & Clausius–Clapeyron",
+      "question": "Welcher der folgenden Prozesse beschreibt am besten den Phasenübergang von Wasser zu Dampf?",
+      "choices": [
+        "A: Sublimation",
+        "B: Kondensation",
+        "C: Verdampfung",
+        "D: Erstarren"
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Verdampfung ist der Prozess, bei dem eine Flüssigkeit in einen Dampf übergeht. Dies geschieht, wenn Moleküle an der Oberfläche der Flüssigkeit genügend Energie haben, um die intermolekularen Kräfte zu überwinden und in die Gasphase überzugehen.",
+      "difficulty": 4,
+      "subcategory": "Phasen von Einstoffsystemen & Clausius–Clapeyron"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Temperaturbegriff (thermisches Gleichgewicht)",
+      "question": "Was beschreibt der Begriff 'thermisches Gleichgewicht'?",
+      "choices": [
+        "A: Die Temperatur eines Systems ist immer konstant.",
+        "B: Die Temperatur eines Systems steigt kontinuierlich.",
+        "C: Zwei Systeme haben die gleiche Temperatur.",
+        "D: Ein System hat eine höhere Temperatur als ein anderes."
+      ],
+      "correct_answer": "C",
+      "explanation": "Thermisches Gleichgewicht bedeutet, dass zwei oder mehr Systeme die gleiche Temperatur erreicht haben und keine Wärme zwischen ihnen fließt. Dies ist ein Grundprinzip in der Thermodynamik, das sich auf den Temperaturbegriff bezieht.",
+      "difficulty": 1,
+      "subcategory": "Temperaturbegriff (thermisches Gleichgewicht)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Methode der Bildladungen",
+      "question": "Was beschreibt die Methode der Bildladungen in der Elektrodynamik?",
+      "choices": [
+        "A: Sie wird verwendet, um die Temperatur von Gasen zu messen.",
+        "B: Sie hilft, das elektrische Feld einer Punktladung in der Nähe eines leitenden Objekts zu berechnen.",
+        "C: Sie erklärt, wie Licht brechen kann.",
+        "D: Sie ist eine Methode zur Berechnung der Masse von Teilchen."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Methode der Bildladungen ist ein mathematisches Werkzeug, das es erlaubt, das elektrische Feld einer Punktladung in der Nähe eines leitenden Objekts zu berechnen, indem man imaginäre Ladungen (Bildladungen) einführt. Dadurch können komplexe Probleme vereinfacht werden.",
+      "difficulty": 1,
+      "subcategory": "Methode der Bildladungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Frequenzabhängigkeit der Dielektrizitätskonstante",
+      "question": "Wie beeinflusst die Frequenz eines elektrischen Feldes die Dielektrizitätskonstante eines Materials?",
+      "choices": [
+        "A: Die Dielektrizitätskonstante nimmt mit steigender Frequenz monoton zu.",
+        "B: Die Dielektrizitätskonstante verringert sich bei höheren Frequenzen aufgrund von polarisationseffekten.",
+        "C: Die Dielektrizitätskonstante ist nur bei sehr hohen Frequenzen relevant.",
+        "D: Die Dielektrizitätskonstante bleibt konstant, unabhängig von der Frequenz."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Dielektrizitätskonstante eines Materials kann von der Frequenz abhängen, da bei höheren Frequenzen die Möglichkeit der Polarisation eingeschränkt ist. Dies führt oft zu einer Verringerung der Dielektrizitätskonstante, da die Moleküle nicht mehr schnell genug reagieren können, um das elektrische Feld zu folgen.",
+      "difficulty": 7,
+      "subcategory": "Frequenzabhängigkeit der Dielektrizitätskonstante"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Detektoren (Nachweismethoden)",
+      "question": "Welcher Detektor wird häufig zur Messung von ionisierender Strahlung eingesetzt?",
+      "choices": [
+        "A: Geiger-Müller-Zähler",
+        "B: Photovoltaikzelle",
+        "C: Thermometer",
+        "D: Magnetometer"
+      ],
+      "correct_answer": "A",
+      "explanation": "Der Geiger-Müller-Zähler ist ein weit verbreiteter Detektor, der ionisierende Strahlung wie Alpha-, Beta- und Gammastrahlung misst. Er funktioniert, indem er die Ionisation von Gas in einem Gehäuse registriert, wenn Strahlung auf das Gas trifft.",
+      "difficulty": 3,
+      "subcategory": "Detektoren (Nachweismethoden)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Entropie als Zustandsgröße",
+      "question": "Was beschreibt die Entropie in einem thermodynamischen System?",
+      "choices": [
+        "A: Die Druckerhöhung eines Gases.",
+        "B: Die Temperatur eines Systems.",
+        "C: Die Unordnung oder den Grad der Zufälligkeit in einem System.",
+        "D: Die Menge an Energie in einem System."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Entropie ist ein Maß für die Unordnung oder den Grad der Zufälligkeit in einem thermodynamischen System. Ein höherer Entropiewert deutet auf eine größere Unordnung hin und ist ein zentrales Konzept in der Thermodynamik.",
+      "difficulty": 3,
+      "subcategory": "Entropie als Zustandsgröße"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Geometrische Interpretation von Phasenübergängen",
+      "question": "Welche der folgenden Aussagen beschreibt am besten die geometrische Interpretation eines Phasenübergangs in einem Zustandsdiagramm?",
+      "choices": [
+        "A: Phasenübergänge sind ausschließlich in einem dreidimensionalen Raum darstellbar.",
+        "B: Der Verlauf einer Phasengrenze ist immer linear und beschreibt den Druck in Abhängigkeit von der Temperatur.",
+        "C: Ein Phasenübergang ist immer reversibel und erfolgt ohne Energiezufuhr.",
+        "D: Ein Phasenübergang tritt an den Punkten auf, wo sich die Phasengrenzen im Zustandsdiagramm schneiden."
+      ],
+      "correct_answer": "D",
+      "explanation": "In einem Zustandsdiagramm sind Phasengrenzen die Linien, die verschiedene Phasen trennen. Ein Phasenübergang findet an den Schnittpunkten dieser Grenzen statt, wo sich die Bedingungen für die Phasen ändern.",
+      "difficulty": 6,
+      "subcategory": "Geometrische Interpretation von Phasenübergängen"
+    }
+  ]
+}
