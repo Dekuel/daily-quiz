@@ -1,0 +1,168 @@
+{
+  "date": "2025-11-26",
+  "generated_at": "2025-11-26T03:46:53Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Arbeit in der Thermodynamik (p dV, generalisiert)",
+      "question": "Welche Aussage über die Arbeit in der Thermodynamik ist korrekt?",
+      "choices": [
+        "A: Arbeit kann nur in geschlossenen Systemen geleistet werden.",
+        "B: Arbeit wird als das Produkt von Druck und Volumenänderung (p dV) definiert.",
+        "C: Arbeit hat keinen Einfluss auf die Energie eines Systems.",
+        "D: Arbeit ist immer negativ und kann nicht positiv sein."
+      ],
+      "correct_answer": "B",
+      "explanation": "In der Thermodynamik wird die Arbeit, die an einem System verrichtet wird, als Produkt von Druck und der Änderung des Volumen (p dV) beschrieben. Diese Beziehung ist grundlegend, um die Energieänderungen in einem thermodynamischen System zu verstehen.",
+      "difficulty": 2,
+      "subcategory": "Arbeit in der Thermodynamik (p dV, generalisiert)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Auftrieb & Schwimmen",
+      "question": "Welches der folgenden Prinzipien erklärt, warum ein Schiff im Wasser schwimmt?",
+      "choices": [
+        "A: Das Joulesche Gesetz",
+        "B: Das Archimedische Prinzip",
+        "C: Das Ohmsche Gesetz",
+        "D: Das Gesetz von Newton"
+      ],
+      "correct_answer": "B",
+      "explanation": "Das Archimedische Prinzip besagt, dass ein Körper, der in eine Flüssigkeit eintaucht, einen Auftrieb erfährt, der gleich dem Gewicht der verdrängten Flüssigkeit ist. Dieses Prinzip erklärt, warum ein Schiff schwimmt, obwohl es schwerer als das Wasser ist, da es genügend Wasser verdrängt, um Auftrieb zu erzeugen.",
+      "difficulty": 6,
+      "subcategory": "Auftrieb & Schwimmen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Korrespondenzregel (Operatorersatz)",
+      "question": "Was besagt die Korrespondenzregel in der Quantenmechanik?",
+      "choices": [
+        "A: Der Zustand eines Systems kann nicht eindeutig beschrieben werden.",
+        "B: Die Energie eines Systems ist immer konstant.",
+        "C: In der klassischen Grenze stimmen die quantenmechanischen Operatoren mit den klassischen Größen überein.",
+        "D: Quantenobjekte können nicht gleichzeitig in mehreren Zuständen existieren."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Korrespondenzregel besagt, dass in der klassischen Grenze die quantenmechanischen Operatoren durch ihre klassischen Entsprechungen ersetzt werden können. Dies ermöglicht den Übergang von der Quantenmechanik zur klassischen Physik, wenn die Systeme große Maßstäbe erreichen.",
+      "difficulty": 5,
+      "subcategory": "Korrespondenzregel (Operatorersatz)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Zustandsgleichungen (Überblick)",
+      "question": "Welche der folgenden Zustandsgleichungen beschreibt am besten das Verhalten eines idealen Gases?",
+      "choices": [
+        "A: PV = nRT",
+        "B: P + V = nRT",
+        "C: PV^2 = nRT",
+        "D: P = nRT/V"
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Zustandsgleichung PV = nRT beschreibt das Verhalten eines idealen Gases, wobei P der Druck, V das Volumen, n die Stoffmenge und R die universelle Gaskonstante ist. Diese Gleichung ist grundlegend für die Thermodynamik und wird häufig verwendet, um Gase unter idealen Bedingungen zu analysieren.",
+      "difficulty": 6,
+      "subcategory": "Zustandsgleichungen (Überblick)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Magnetisches Moment & Drehimpuls",
+      "question": "Was beschreibt das magnetische Moment eines Teilchens in der Quantenmechanik?",
+      "choices": [
+        "A: Die Temperatur des Teilchens.",
+        "B: Die Stärke und Richtung des magnetischen Feldes, das das Teilchen erzeugt.",
+        "C: Die Geschwindigkeit des Teilchens im Raum.",
+        "D: Die Masse des Teilchens."
+      ],
+      "correct_answer": "B",
+      "explanation": "Das magnetische Moment eines Teilchens ist eine wichtige Größe in der Quantenmechanik, die angibt, wie stark und in welcher Richtung das Teilchen ein magnetisches Feld erzeugt. Es ist insbesondere relevant für Teilchen mit Spin, da es deren Wechselwirkung mit äußeren Magnetfeldern beschreibt.",
+      "difficulty": 2,
+      "subcategory": "Magnetisches Moment & Drehimpuls"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Nuklide & Nuklidkarte",
+      "question": "Welches der folgenden Nuklide hat die größte Stabilität?",
+      "choices": [
+        "A: 235U",
+        "B: 14C",
+        "C: 12C",
+        "D: 3H"
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Nuklid 12C (Kohlenstoff-12) ist ein stabiles Nuklid und kommt in der Natur vor, während 14C (Kohlenstoff-14) und 3H (Tritium) radioaktiv sind und zerfallen. 235U (Uran-235) ist ebenfalls instabil und unterliegt einer langsamen radioaktiven Zerfallsreaktion.",
+      "difficulty": 5,
+      "subcategory": "Nuklide & Nuklidkarte"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Isolierte Systeme: Maximum der Entropie",
+      "question": "Was beschreibt das Maximum der Entropie in einem isolierten System?",
+      "choices": [
+        "A: Der Zustand minimaler Energie.",
+        "B: Der Zustand maximaler Temperatur.",
+        "C: Der Zustand minimaler Teilchenanzahl.",
+        "D: Der Zustand maximaler Unordnung."
+      ],
+      "correct_answer": "D",
+      "explanation": "Das Maximum der Entropie in einem isolierten System beschreibt den Zustand maximaler Unordnung, wo die Energie gleichmäßig verteilt ist. Dies ist eine Grundlage des zweiten Hauptsatzes der Thermodynamik, der besagt, dass die Entropie in einem geschlossenen System nicht abnehmen kann.",
+      "difficulty": 4,
+      "subcategory": "Isolierte Systeme: Maximum der Entropie"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Virialsatz & Äquipartition (Gleichverteilungssatz)",
+      "question": "Was besagt der Äquipartitionstheorem in der statistischen Mechanik?",
+      "choices": [
+        "A: Energie kann nicht verloren gehen.",
+        "B: Jede Energieform eines Teilchens trägt gleichmäßig zur Gesamtenergie bei.",
+        "C: Temperatur hat keinen Einfluss auf die Energieverteilung.",
+        "D: Teilchen bewegen sich immer in geraden Linien."
+      ],
+      "correct_answer": "B",
+      "explanation": "Der Äquipartitionstheorem besagt, dass die Energie eines Systems gleichmäßig auf die verschiedenen Freiheitsgrade verteilt ist. Das bedeutet, dass jede Form der Energie, die ein Teilchen hat, im Durchschnitt den gleichen Beitrag zur Gesamtenergie liefert.",
+      "difficulty": 2,
+      "subcategory": "Virialsatz & Äquipartition (Gleichverteilungssatz)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Spin-Bahn-Wechselwirkung",
+      "question": "Was beschreibt die Spin-Bahn-Wechselwirkung in der Quantenmechanik?",
+      "choices": [
+        "A: Die Wechselwirkung zwischen Licht und Materie.",
+        "B: Die Wechselwirkung zwischen Protonen und Neutronen im Atomkern.",
+        "C: Die Wechselwirkung zwischen zwei Elektronen im gleichen Atom.",
+        "D: Die Wechselwirkung zwischen dem Spin eines Elektrons und seinem Orbitalmoment."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Spin-Bahn-Wechselwirkung beschreibt die Wechselwirkung des Spins eines Elektrons mit seinem Bewegungszustand im Atom, was zu einer Energieaufspaltung führt. Diese Effekte sind wichtig für das Verständnis der Elektronenkonfiguration in Atomen und die Eigenschaften von Materialien.",
+      "difficulty": 1,
+      "subcategory": "Spin-Bahn-Wechselwirkung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Resonanzstreuung",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt das Phänomen der Resonanzstreuung in der Quantenmechanik?",
+      "choices": [
+        "A: In der Resonanzstreuung bleibt die Gesamtenergie des Systems unverändert, während die Impulsübertragung maximiert wird.",
+        "B: Resonanzstreuung kann nur in makroskopischen Systemen beobachtet werden.",
+        "C: Resonanzstreuung ist ein rein klassisches Phänomen, das keine quantenmechanischen Effekte berücksichtigt.",
+        "D: Resonanzstreuung tritt auf, wenn die Energie eines einfallenden Teilchens nahe einer diskreten Energieebene des Zielsystems liegt."
+      ],
+      "correct_answer": "D",
+      "explanation": "Resonanzstreuung ist ein quantenmechanisches Phänomen, das auftritt, wenn die Energie eines einfallenden Teilchens mit einer diskreten Energieebene des Zielsystems übereinstimmt oder nahekommt. Dadurch kann es zu einer signifikanten Wechselwirkung kommen, die die Streuung beeinflusst und oft zu einer erhöhten Wahrscheinlichkeit führt.",
+      "difficulty": 10,
+      "subcategory": "Resonanzstreuung"
+    }
+  ]
+}
