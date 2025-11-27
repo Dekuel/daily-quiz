@@ -3,7 +3,12 @@
 import os, sys, re, json, time, random, importlib, importlib.util
 from types import ModuleType
 from typing import Optional, List, Tuple, Dict, Any
-from openai import OpenAI
+
+try:
+    from openai import OpenAI
+    client = OpenAI()
+except (ImportError, Exception):
+    client = None
 
 CATEGORY_NAME = "Pop-Kultur"
 
@@ -322,7 +327,7 @@ D: Walt Disney (absurd)
 def _prompt(topic: str, target_difficulty: int, mode: Optional[str], subtopic: Optional[str] = None) -> tuple[str, float]:
     temperature = _temperature_for(int(target_difficulty))
     level_desc = _DIFF_LEVELS.get(int(target_difficulty), "siehe Stufenleitfaden")
-    sub_hint = f"- Unterthema (nur als inhaltlicher Hinweis, NICHT ins JSON übernehmen): „{subtopic}".\n" if subtopic else ""
+    sub_hint = f"- Unterthema (nur als inhaltlicher Hinweis, NICHT ins JSON übernehmen): '{subtopic}'.\n" if subtopic else ""
     
     examples = _get_difficulty_examples(target_difficulty)
     distractor_guide = _get_distractors_guide()
@@ -391,39 +396,67 @@ def _letter_to_index(letter: str) -> Optional[int]:
 # ──────────────────────────────────────────────────────────────────────────────
 # Öffentliche Generator-API
 # ──────────────────────────────────────────────────────────────────────────────
-def generate_one(
-    past_texts: List[str],
-    target_difficulty: Optional[int] = None,
-    mode: Optional[str] = None,
-) -> dict | None:
-    """Erzeugt genau EINE Frage im Daily-Format."""
-    tier = int(target_difficulty) if isinstance(target_difficulty, int) else random.choice([3, 5, 7])
-    topic = _pick_topic_for_difficulty(tier)
-    subtopic = _choose_subdiscipline(topic, tier)
-
-    prompt, temp = _prompt(topic, tier, mode, subtopic=subtopic)
-    data = _ask_json(prompt, temperature=temp)
-    time.sleep(0.6)
+def generate_one(tier: int = 5, mode: Optional[str] = None) -> Optional[dict]:
+    if not client:
+        return None
+    
+    main_topics = list(_SUBTOPIC_MAP.keys())
+    topic = random.choice(main_topics)
+    topic_data = _SUBTOPIC_MAP[topic]
+    
+    bucket_for_tier = _get_tier_bucket(tier)
+    main_weights = _WEIGHTS.get(bucket_for_tier, _WEIGHTS["5-7"])
+    
+    if topic not in main_weights:
+        return None
+    
+    subtopic, (min_d, max_d) = _pick_weighted_subtopic(topic_data, tier)
+    clamped_tier = max(min_d, min(tier, max_d))
+    
+    prompt_str, temp = _prompt(topic, clamped_tier, mode, subtopic)
+    
+    try:
+        resp = client.chat.completions.create(
+            model="gpt-4o-mini",
+            messages=[{"role": "user", "content": prompt_str}],
+            temperature=temp,
+            max_tokens=600,
+        )
+        raw = resp.choices[0].message.content.strip()
+    except Exception as e:
+        print(f"[popkultur] OpenAI error: {e}")
+        return None
+    
+    data = _parse_json(raw)
     if not data:
         return None
-
-    # Pflichtfelder prüfen
-    q = (data.get("question") or "").strip()
-    choices = data.get("choices")
-    ca_raw = (data.get("correct_answer") or "").strip()
-    expl = (data.get("explanation") or "").strip()
-    if not q or not isinstance(choices, list) or len(choices) != 4 or not expl:
+    
+    q = data.get("question", "").strip()
+    if not q:
         return None
-
-    # Choices normieren
+    
+    choices_raw = data.get("choices", [])
+    if not isinstance(choices_raw, list) or len(choices_raw) < 4:
+        return None
+    
+    ca_raw = data.get("correct_answer", "")
+    expl = data.get("explanation", "").strip()
+    
+    labeled = {}
     letters = ["A", "B", "C", "D"]
-    def _strip_label(s: str) -> str:
-        return _CHOICE_PREFIX_RE.sub("", s.strip())
-
-    raw_texts = [_strip_label(str(c)) for c in choices]
-    labeled = [f"{letters[i]}: {raw_texts[i]}" for i in range(4)]
-
-    # correct_answer normalisieren
+    for i, ch_item in enumerate(choices_raw[:4]):
+        if isinstance(ch_item, dict):
+            txt = ch_item.get("text", "").strip()
+        elif isinstance(ch_item, str):
+            txt = ch_item.strip()
+        else:
+            txt = ""
+        if txt:
+            labeled[letters[i]] = txt
+    
+    if len(labeled) < 4:
+        return None
+    
     ca_letter = ca_raw[:1].upper() if ca_raw else "A"
     if ca_letter not in letters:
         try:
@@ -432,27 +465,22 @@ def generate_one(
             idx = 0
         idx = max(0, min(3, idx))
         ca_letter = letters[idx]
-
-    # Ausgabe
+    
     out = {
         "category": CATEGORY_NAME,
-        "topic": topic,
+        "subcategory": subtopic,
         "question": q,
-        "choices": labeled,
+        "options": labeled,
         "correct_answer": ca_letter,
-        "explanation": expl,
         "difficulty": int(data.get("difficulty", tier)),
     }
-
-    # Optionale Quellenfelder
+    
+    if expl:
+        out["explanation"] = expl
+    
     for k in ("sourceTitle", "sourceUrl"):
         v = data.get(k)
         if isinstance(v, str) and v.strip():
             out[k] = v.strip()
-
-    # Keine Extra-Felder
-    for k in ("options", "correctIndex", "meta"):
-        if k in out:
-            out.pop(k, None)
-
+    
     return out

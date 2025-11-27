@@ -15,7 +15,7 @@ from typing import Optional, Tuple, List
 try:
     from openai import OpenAI
     client = OpenAI()
-except ImportError:
+except (ImportError, Exception):
     client = None
 
 
@@ -120,7 +120,7 @@ def _get_distractors_guide(main_topic: str) -> str:
     return "Nutze plausible, aber falsche Varianten (ähnliche Zahlen, verwechselbare Begriffe, realistische aber falsche Regelungen)."
 
 
-def generate_one(target_difficulty: int = 5) -> Optional[dict]:
+def generate_one(target_difficulty: int = 5, past_texts: Optional[List[str]] = None, mode: Optional[str] = None) -> Optional[dict]:
     """
     Generiert eine Alltags-Frage per GPT-4o-mini.
     

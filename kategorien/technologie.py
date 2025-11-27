@@ -322,7 +322,7 @@ D: Mercedes (Autohersteller, absurd)
 def _prompt(topic: str, target_difficulty: int, mode: Optional[str], subtopic: Optional[str] = None) -> tuple[str, float]:
     temperature = _temperature_for(int(target_difficulty))
     level_desc = _DIFF_LEVELS.get(int(target_difficulty), "siehe Stufenleitfaden")
-    sub_hint = f"- Unterthema (nur als inhaltlicher Hinweis, NICHT ins JSON übernehmen): „{subtopic}".\n" if subtopic else ""
+    sub_hint = f"- Unterthema (nur als inhaltlicher Hinweis, NICHT ins JSON übernehmen): '{subtopic}'.\n" if subtopic else ""
     
     examples = _get_difficulty_examples(target_difficulty)
     distractor_guide = _get_distractors_guide()
