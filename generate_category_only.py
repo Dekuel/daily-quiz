@@ -160,6 +160,72 @@ def _shuffle_answers_in_question(q: dict) -> None:
     q["correct_answer"] = LETTERS[new_correct]
 
 # ──────────────────────────────────────────────────────────────────────────────
+# Archiv (kategorieweise) - analog zu generate_quiz.py
+# ──────────────────────────────────────────────────────────────────────────────
+ARCHIVE_DIRS = {
+    "normal": "Fragen leicht",
+    "schwer": "Fragen schwer",
+}
+
+def _sanitize_filename(name: str) -> str:
+    """Rudimentär: Leerzeichen -> Unterstrich; nur Buchstaben/Ziffern/_/-/Umlaute/ß"""
+    base = re.sub(r"\s+", "_", name.strip())
+    base = re.sub(r"[^A-Za-z0-9_\-ÄÖÜäöüß]", "", base)
+    return base or "Unbekannt"
+
+def _load_json_list(path: str) -> List[dict]:
+    """Lädt existierende Fragen aus einer JSON-Datei."""
+    if not os.path.exists(path):
+        return []
+    try:
+        data = json.load(open(path, "r", encoding="utf-8"))
+        if isinstance(data, dict) and isinstance(data.get("questions"), list):
+            return list(data["questions"])
+        if isinstance(data, list):
+            return list(data)
+    except Exception:
+        pass
+    return []
+
+def _save_json_list(path: str, category_name: str, questions: List[dict]) -> None:
+    """Speichert Fragen in eine kategorieweise JSON-Datei."""
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    payload = {
+        "category": category_name,
+        "questions": questions,
+    }
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(payload, f, ensure_ascii=False, indent=2)
+
+def _append_questions_to_category_file(questions: List[dict], category_name: str, mode: str) -> None:
+    """
+    Hängt Fragen kategorieweise in ARCHIVE_DIRS[mode] an.
+    - Nur für Modi 'normal' und 'schwer'
+    - Bewahrt bisherigen Inhalt; einfache Dedupe pro Datei (identische question+category)
+    """
+    archive_root = ARCHIVE_DIRS.get(mode)
+    if not archive_root:
+        return
+
+    fname = f"{_sanitize_filename(category_name)}.json"
+    fpath = os.path.join(archive_root, fname)
+
+    existing = _load_json_list(fpath)
+
+    # Dedupe: keine identischen Frage-Texte in gleicher Kategorie
+    seen = {(_norm(x.get("question", "")), _norm(x.get("category", ""))) for x in existing}
+    merged = list(existing)
+    for q in questions:
+        key = (_norm(q.get("question", "")), _norm(q.get("category", "")))
+        if key in seen:
+            continue
+        merged.append(q)
+        seen.add(key)
+
+    _save_json_list(fpath, category_name, merged)
+    print(f"📁 Archiviert: {len(merged) - len(existing)} neue Fragen → {fpath}")
+
+# ──────────────────────────────────────────────────────────────────────────────
 # Plugin Discovery
 # ──────────────────────────────────────────────────────────────────────────────
 def discover_category_plugins() -> Dict[str, callable]:
@@ -279,6 +345,17 @@ def main():
         json.dump(payload, f, ensure_ascii=False, indent=2)
 
     print(f"✅ fertig: {out_path}  (Fragen: {payload['count']})")
+
+    # NEU: Archivierung in Fragenordner (nur für normal/schwer)
+    if args.mode in ("normal", "schwer"):
+        try:
+            _append_questions_to_category_file(
+                payload["questions"], 
+                args.category, 
+                args.mode
+            )
+        except Exception as e:
+            print(f"⚠️  Archivierung fehlgeschlagen: {e}")
 
 if __name__ == "__main__":
     main()
