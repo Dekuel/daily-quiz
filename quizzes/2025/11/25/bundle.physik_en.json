@@ -1,0 +1,168 @@
+{
+  "date": "2025-11-25",
+  "generated_at": "2025-11-25T03:48:38Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Doppelspaltexperiment (Materiewellen)",
+      "question": "What does the double-slit experiment show in the context of quantum mechanics?",
+      "choices": [
+        "A: Particles can behave like waves and create interference patterns.",
+        "B: Matter waves cannot exist.",
+        "C: Particles always move at the speed of light.",
+        "D: Measuring particles has no influence on their motion."
+      ],
+      "correct_answer": "A",
+      "explanation": "The double-slit experiment demonstrates that particles like electrons exhibit both particle and wave properties. The observable interference patterns arise when particles are considered as waves and pass through two slits.",
+      "difficulty": 6,
+      "subcategory": "Doppelspaltexperiment (Materiewellen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Randwertprobleme der Elektrostatik (Laplace-Gleichung)",
+      "question": "Which of the following statements correctly describes the solution of the Laplace's equation in a domain with fixed boundary values?",
+      "choices": [
+        "A: The solution is not unique when the boundary values vary with time.",
+        "B: The solution is uniquely determined when the boundary values are constant.",
+        "C: The solution must always be a continuous function, regardless of the boundary values.",
+        "D: The solution always has only a finite number of solutions regardless of the boundary conditions."
+      ],
+      "correct_answer": "B",
+      "explanation": "The Laplace's equation has a unique solution under given boundary conditions as long as the boundary values are constant. Varying boundary values can influence the solution but do not lead to ambiguities in the stationary case.",
+      "difficulty": 8,
+      "subcategory": "Randwertprobleme der Elektrostatik (Laplace-Gleichung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Halbleiterlaser",
+      "question": "What is the main principle that enables the operation of a semiconductor laser?",
+      "choices": [
+        "A: Compression of gases",
+        "B: Thermal radiation",
+        "C: Stimulated emission",
+        "D: Photoelectric effect"
+      ],
+      "correct_answer": "C",
+      "explanation": "Semiconductor lasers are based on the principle of stimulated emission, where electrons in a semiconductor material are excited and emit photons when they fall back to a lower energy state. This leads to the amplification of light and the generation of a coherent beam.",
+      "difficulty": 4,
+      "subcategory": "Halbleiterlaser"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Phasen von Einstoffsystemen & Clausius–Clapeyron",
+      "question": "Which of the following processes best describes the phase transition from water to vapor?",
+      "choices": [
+        "A: Sublimation",
+        "B: Condensation",
+        "C: Evaporation",
+        "D: Freezing"
+      ],
+      "correct_answer": "C",
+      "explanation": "Evaporation is the process in which a liquid transitions into a vapor. This occurs when molecules at the liquid's surface have enough energy to overcome the intermolecular forces and enter the gas phase.",
+      "difficulty": 4,
+      "subcategory": "Phasen von Einstoffsystemen & Clausius–Clapeyron"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Temperaturbegriff (thermisches Gleichgewicht)",
+      "question": "What does the term 'thermal equilibrium' describe?",
+      "choices": [
+        "A: The temperature of a system is always constant.",
+        "B: The temperature of a system continuously rises.",
+        "C: Two systems have the same temperature.",
+        "D: One system has a higher temperature than another."
+      ],
+      "correct_answer": "C",
+      "explanation": "Thermal equilibrium means that two or more systems have reached the same temperature and no heat flows between them. This is a fundamental principle in thermodynamics related to the concept of temperature.",
+      "difficulty": 1,
+      "subcategory": "Temperaturbegriff (thermisches Gleichgewicht)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Methode der Bildladungen",
+      "question": "What describes the method of image charges in electrodynamics?",
+      "choices": [
+        "A: It is used to measure the temperature of gases.",
+        "B: It helps calculate the electric field of a point charge near a conducting object.",
+        "C: It explains how light can refract.",
+        "D: It is a method for calculating the mass of particles."
+      ],
+      "correct_answer": "B",
+      "explanation": "The method of image charges is a mathematical tool that allows calculating the electric field of a point charge near a conducting object by introducing imaginary charges (image charges). This simplifies complex problems.",
+      "difficulty": 1,
+      "subcategory": "Methode der Bildladungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Frequenzabhängigkeit der Dielektrizitätskonstante",
+      "question": "How does the frequency of an electric field affect the dielectric constant of a material?",
+      "choices": [
+        "A: The dielectric constant increases monotonically with increasing frequency.",
+        "B: The dielectric constant decreases at higher frequencies due to polarization effects.",
+        "C: The dielectric constant is only relevant at very high frequencies.",
+        "D: The dielectric constant remains constant regardless of the frequency."
+      ],
+      "correct_answer": "B",
+      "explanation": "The dielectric constant of a material can depend on the frequency, as at higher frequencies, the possibility of polarization is restricted. This often leads to a reduction in the dielectric constant as molecules cannot react quickly enough to follow the electric field.",
+      "difficulty": 7,
+      "subcategory": "Frequenzabhängigkeit der Dielektrizitätskonstante"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Detektoren (Nachweismethoden)",
+      "question": "Which detector is commonly used for measuring ionizing radiation?",
+      "choices": [
+        "A: Geiger-Müller counter",
+        "B: Photovoltaic cell",
+        "C: Thermometer",
+        "D: Magnetometer"
+      ],
+      "correct_answer": "A",
+      "explanation": "The Geiger-Müller counter is a widely used detector that measures ionizing radiation such as alpha, beta, and gamma radiation. It operates by registering the ionization of gas in a chamber when radiation interacts with the gas.",
+      "difficulty": 3,
+      "subcategory": "Detektoren (Nachweismethoden)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Entropie als Zustandsgröße",
+      "question": "What describes entropy in a thermodynamic system?",
+      "choices": [
+        "A: The increase in pressure of a gas.",
+        "B: The temperature of a system.",
+        "C: The disorder or degree of randomness in a system.",
+        "D: The amount of energy in a system."
+      ],
+      "correct_answer": "C",
+      "explanation": "Entropy is a measure of disorder or the degree of randomness in a thermodynamic system. A higher entropy value indicates greater disorder and is a central concept in thermodynamics.",
+      "difficulty": 3,
+      "subcategory": "Entropie als Zustandsgröße"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Geometrische Interpretation von Phasenübergängen",
+      "question": "Which of the following statements best describes the geometric interpretation of a phase transition in a state diagram?",
+      "choices": [
+        "A: Phase transitions can only be represented in a three-dimensional space.",
+        "B: The course of a phase boundary is always linear and describes the pressure as a function of temperature.",
+        "C: A phase transition is always reversible and occurs without the input of energy.",
+        "D: A phase transition occurs at the points where the phase boundaries intersect in the state diagram."
+      ],
+      "correct_answer": "D",
+      "explanation": "In a state diagram, phase boundaries are the lines that separate different phases. A phase transition occurs at the intersections of these boundaries, where the conditions for the phases change.",
+      "difficulty": 6,
+      "subcategory": "Geometrische Interpretation von Phasenübergängen"
+    }
+  ]
+}

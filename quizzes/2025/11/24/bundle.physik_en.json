@@ -1,0 +1,168 @@
+{
+  "date": "2025-11-24",
+  "generated_at": "2025-11-24T09:59:48Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Oberflächenspannung",
+      "question": "What does the surface tension of water cause?",
+      "choices": [
+        "A: Water always has a constant temperature.",
+        "B: Water forms droplets and can carry small objects.",
+        "C: Water has no attractive forces between the molecules.",
+        "D: Water cannot be frozen in solid forms."
+      ],
+      "correct_answer": "B",
+      "explanation": "The surface tension of water is created by the attractive forces between water molecules, which cause water to form a droplet. This tension allows small objects to float on the water surface without immediately sinking.",
+      "difficulty": 4,
+      "subcategory": "Oberflächenspannung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Brillouin-Zone",
+      "question": "Which statement correctly describes the Brillouin zone in solid-state physics?",
+      "choices": [
+        "A: The Brillouin zone is the space in which the atoms of a solid move.",
+        "B: The Brillouin zone describes the temperature dependence of a solid's structure.",
+        "C: The Brillouin zone is the region in k-space that describes the energy states of an electron in a crystal.",
+        "D: The Brillouin zone is a type of quantum mechanical state of a single atom."
+      ],
+      "correct_answer": "C",
+      "explanation": "The Brillouin zone is a concept in solid-state physics that describes the possible energy states of electrons in a crystal in k-space. It is crucial for understanding the behavior of electrons in solids and their band structure.",
+      "difficulty": 4,
+      "subcategory": "Brillouin-Zone"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Hall-Effekt",
+      "question": "What does the Hall effect describe in a conducting material?",
+      "choices": [
+        "A: The increase in temperature with electric current flow.",
+        "B: The generation of a voltage perpendicular to the direction of the current under the influence of a magnetic field.",
+        "C: The movement of electrons in an electric field without a magnetic field.",
+        "D: The change in electrical conductivity at different temperatures."
+      ],
+      "correct_answer": "B",
+      "explanation": "The Hall effect describes the generation of a voltage difference perpendicular to an electric current flow when a magnetic field acts perpendicular to the direction of the current. This is an important phenomenon in solid-state physics and is used, among other things, in Hall sensors.",
+      "difficulty": 3,
+      "subcategory": "Hall-Effekt"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Nuklide & Nuklidkarte",
+      "question": "Which of the following nuclides is a stable isotope of carbon?",
+      "choices": [
+        "A: 12",
+        "B: 14",
+        "C: 13",
+        "D: 15"
+      ],
+      "correct_answer": "A",
+      "explanation": "C-12 is the most common stable isotope of carbon, making up about 98.9% of natural carbon. C-14, on the other hand, is radioactive and is used in radiocarbon dating, while C-13 is a stable isotope but not the most common. C-15 is unstable and decays rapidly.",
+      "difficulty": 6,
+      "subcategory": "Nuklide & Nuklidkarte"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Kontinuitätsgleichung (vierdimensional)",
+      "question": "Which statement about the four-dimensional continuity equation in relativity theory is correct?",
+      "choices": [
+        "A: It describes the conservation of electric charge in a four-dimensional spacetime continuum.",
+        "B: It is only valid in non-relativistic systems.",
+        "C: It is identical to the classical continuity equation of fluid mechanics.",
+        "D: It is independent of the choice of reference frame."
+      ],
+      "correct_answer": "A",
+      "explanation": "The four-dimensional continuity equation in relativity theory describes the conservation of electric charge taking into account the spacetime structure. It is an extension of the classical continuity equation and considers the relativistic effects that do not occur in non-relativistic systems.",
+      "difficulty": 7,
+      "subcategory": "Kontinuitätsgleichung (vierdimensional)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Wirkungs- und Winkelvariable (Action-Angle)",
+      "question": "Which of the following statements correctly describes the relationship between the action variable and the angle variables in analytical mechanics?",
+      "choices": [
+        "A: The angle variables are independent of the action variable.",
+        "B: The angle variables are always equal to the action variable.",
+        "C: The action variable can never be constant.",
+        "D: The action variable is constant while the angle variables change periodically."
+      ],
+      "correct_answer": "D",
+      "explanation": "In analytical mechanics, the action variable describes the entirety of the system, while the angle variables represent the periodic motions. This relationship is central to understanding integrable systems, where the action variable remains constant while the angle variables change.",
+      "difficulty": 6,
+      "subcategory": "Wirkungs- und Winkelvariable (Action-Angle)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Kern‑Formfaktoren",
+      "question": "What does the form factor of a nucleus describe?",
+      "choices": [
+        "A: The number of neutrons in the nucleus.",
+        "B: The temperature of the nucleus.",
+        "C: The mass of the nucleus.",
+        "D: The spatial distribution of electric charge in the nucleus."
+      ],
+      "correct_answer": "D",
+      "explanation": "The form factor of a nucleus describes the spatial distribution of electric charge within the nucleus and is important for the analysis of scattering experiments. It provides information on how charge is distributed in the nucleus and influences the interaction with other particles.",
+      "difficulty": 3,
+      "subcategory": "Kern‑Formfaktoren"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Bessel’sche Differentialgleichung (Zusatz)",
+      "question": "Which of the following statements correctly describes the Bessel's differential equation?",
+      "choices": [
+        "A: It is a special form of differential equation that arises in cylindrical coordinates.",
+        "B: It has no physical relevance in quantum mechanics.",
+        "C: It is used to solve the Schrödinger equation in one-dimensional space.",
+        "D: It describes the motion of particles in a one-dimensional potential."
+      ],
+      "correct_answer": "A",
+      "explanation": "The Bessel's differential equation is important in quantum mechanics, especially in solving problems in cylindrical coordinates, such as analyzing wave functions in specific potentials. Its solutions, the Bessel functions, frequently appear in physical applications, for example, in acoustics and electrodynamics.",
+      "difficulty": 5,
+      "subcategory": "Bessel’sche Differentialgleichung (Zusatz)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Differentialoperatoren in der SRT",
+      "question": "Which differential operator is commonly used in special relativity to describe the change of physical quantities?",
+      "choices": [
+        "A: The Hamilton operator",
+        "B: The Lorentz operator",
+        "C: The gradient operator",
+        "D: The Laplace operator"
+      ],
+      "correct_answer": "B",
+      "explanation": "The Lorentz operator is crucial in special relativity as it describes the transformation of physical quantities between different inertial systems. While other operators are used in various contexts, the Lorentz operator holds special significance in relativity theory.",
+      "difficulty": 4,
+      "subcategory": "Differentialoperatoren in der SRT"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Nicht-Vertauschbarkeit von Operatoren",
+      "question": "What does the non-commutativity of operators describe in quantum mechanics?",
+      "choices": [
+        "A: All operators are commutative in quantum mechanics.",
+        "B: Operators always act independently of each other.",
+        "C: Two operators cannot be applied simultaneously in a specific order.",
+        "D: There are no operators in quantum mechanics."
+      ],
+      "correct_answer": "C",
+      "explanation": "In quantum mechanics, the non-commutativity of operators means that applying two operators in different orders can lead to different results. This is a central concept that describes the nature of quantum mechanical systems.",
+      "difficulty": 2,
+      "subcategory": "Nicht-Vertauschbarkeit von Operatoren"
+    }
+  ]
+}

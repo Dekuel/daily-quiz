@@ -1,0 +1,168 @@
+{
+  "date": "2025-11-23",
+  "generated_at": "2025-11-23T19:20:58Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Grenzen der klassischen Physik",
+      "question": "Welche Aussage beschreibt am besten die Grenze der klassischen Physik im Vergleich zur Quantenmechanik?",
+      "choices": [
+        "A: Die klassische Physik kann Verhalten von subatomaren Teilchen vorhersagen.",
+        "B: Die klassische Physik erklärt Phänomene im Vakuum besser als die Quantenmechanik.",
+        "C: Die klassische Physik ist für makroskopische Objekte anwendbar, während die Quantenmechanik für mikroskopische gilt.",
+        "D: Die klassische Physik ist die einzige gültige Theorie in der Physik."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die klassische Physik ist gut geeignet für makroskopische Objekte, während die Quantenmechanik das Verhalten von subatomaren Teilchen beschreibt. Dies zeigt die Grenze der klassischen Physik, da sie nicht in der Lage ist, quantenmechanische Effekte zu erklären.",
+      "difficulty": 3,
+      "subcategory": "Grenzen der klassischen Physik"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Sommerfeldsche Theorie",
+      "question": "Was beschreibt die Sommerfeldsche Theorie im Kontext von Festkörpern?",
+      "choices": [
+        "A: Die Lichtbrechung in Kristallen.",
+        "B: Die Elektronenkonduktion in Metallen.",
+        "C: Die thermodynamischen Eigenschaften von Gasen.",
+        "D: Die Struktur von Atomkernen."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Sommerfeldsche Theorie erweitert das Drude-Modell zur Erklärung der elektrischen Leitfähigkeit in Metallen durch die Berücksichtigung von quantenmechanischen Effekten und der Elektronengas-Modell. Sie beschreibt die Bewegungen der Elektronen in einem Metall als ein freies Gas, was zu einem besseren Verständnis der elektrischen Eigenschaften führt.",
+      "difficulty": 6,
+      "subcategory": "Sommerfeldsche Theorie"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Periodische Systeme & Winkelvariable",
+      "question": "Welcher Parameter beschreibt in einem harmonischen Oszillator die Änderung der Phase pro Zeiteinheit?",
+      "choices": [
+        "A: Die Energie",
+        "B: Die Amplitude",
+        "C: Die Frequenz",
+        "D: Die Phase selbst"
+      ],
+      "correct_answer": "C",
+      "explanation": "Im harmonischen Oszillator ist die Frequenz die Größe, die angibt, wie oft der Oszillator pro Zeiteinheit eine vollständige Schwingung vollzieht. Sie ist direkt mit der zeitlichen Veränderung der Phase verbunden, da die Phase die zeitliche Integration der Frequenz darstellt.",
+      "difficulty": 9,
+      "subcategory": "Periodische Systeme & Winkelvariable"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Energiebänder (Überblick)",
+      "question": "Was beschreibt das Konzept der Energiebänder in Festkörpern?",
+      "choices": [
+        "A: Die Temperaturverteilung in einem Festkörper.",
+        "B: Die Lichtbrechung in verschiedenen Materialien.",
+        "C: Die Masse von Atomen in einem Festkörper.",
+        "D: Die erlaubten Energieniveaus für Elektronen in einem Material."
+      ],
+      "correct_answer": "D",
+      "explanation": "Energiebänder beschreiben die erlaubten Energieniveaus, die Elektronen in einem Festkörper annehmen können. Diese Konzepte sind entscheidend für das Verständnis der elektrischen Eigenschaften von Materialien, insbesondere ob sie Isolatoren, Halbleiter oder Leiter sind.",
+      "difficulty": 2,
+      "subcategory": "Energiebänder (Überblick)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Phasenübergänge (Übersicht)",
+      "question": "Welcher Phasenübergang beschreibt den Wechsel von flüssig zu gasförmig?",
+      "choices": [
+        "A: Erstarrung",
+        "B: Verdampfung",
+        "C: Kondensation",
+        "D: Sublimation"
+      ],
+      "correct_answer": "B",
+      "explanation": "Der Phasenübergang von flüssig zu gasförmig wird als Verdampfung bezeichnet. Dieser Prozess tritt auf, wenn Moleküle in der Flüssigkeit genügend Energie erhalten, um die intermolekularen Kräfte zu überwinden und in die Gasphase überzutreten.",
+      "difficulty": 4,
+      "subcategory": "Phasenübergänge (Übersicht)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Anwendungen der Matrizenmethode",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt die Anwendung der Matrizenmethode in der Optik?",
+      "choices": [
+        "A: Die Matrizenmethode wird verwendet, um die Brechung von Licht an einem einzelnen Grenzfläche zu berechnen.",
+        "B: Die Matrizenmethode ist nur für die Analyse von Linse-Systemen geeignet und nicht anwendbar auf Spiegel.",
+        "C: Die Matrizenmethode ermöglicht die Analyse von optischen Systemen, indem sie die Übertragung von Lichtstrahlen durch verschiedene Komponenten in einem System beschreibt.",
+        "D: Bei der Matrizenmethode wird die Wellenoptik ausschließlich ignoriert, um vereinfachte Lösungen zu finden."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Matrizenmethode in der Optik eignet sich hervorragend zur Analyse komplexer optischer Systeme, indem sie die Lichtstrahlenübertragung durch mehrere optische Elemente beschreibt. Diese Methode ist vielseitig und anwendbar sowohl auf Linsen als auch auf Spiegel und berücksichtigt die Geometrie und die Eigenschaften der einzelnen Elemente.",
+      "difficulty": 8,
+      "subcategory": "Anwendungen der Matrizenmethode"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Lagrange-Gleichungen",
+      "question": "Welche der folgenden Aussagen über die Lagrange-Gleichungen ist korrekt?",
+      "choices": [
+        "A: Die Lagrange-Gleichungen sind identisch mit den Newtonschen Bewegungsgleichungen.",
+        "B: Die Lagrange-Gleichungen beinhalten immer einen zeitabhängigen Kraftbegriff.",
+        "C: Die Lagrange-Gleichungen sind nur für konservative Systeme anwendbar.",
+        "D: Die Lagrange-Gleichungen können zur Analyse nicht-konservativer Systeme verwendet werden."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Lagrange-Gleichungen sind ein sehr flexibles Werkzeug und können auch für nicht-konservative Systeme angewendet werden, indem sie die Lagrange-Funktion entsprechend definieren. Sie bieten einen alternativen Ansatz zur Beschreibung der Dynamik von Systemen, unabhängig von den Kräften, die auf sie wirken.",
+      "difficulty": 8,
+      "subcategory": "Lagrange-Gleichungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Energie–Zeit–Unschärfe",
+      "question": "Was beschreibt das Energie–Zeit–Unschärfe-Prinzip in der Quantenmechanik?",
+      "choices": [
+        "A: Das Prinzip beschreibt, dass Teilchen nur in festen Zeitintervallen existieren können.",
+        "B: Je genauer die Energie eines Teilchens bestimmt wird, desto ungenauer kann der Zeitpunkt seines Auftretens bestimmt werden.",
+        "C: Die Energie eines Teilchens ist immer konstant und unabhängig von der Zeit.",
+        "D: Je genauer der Zeitpunkt eines Ereignisses bekannt ist, desto mehr Energie kann das System speichern."
+      ],
+      "correct_answer": "B",
+      "explanation": "Das Energie–Zeit–Unschärfe-Prinzip besagt, dass es eine fundamentale Grenze für die gleichzeitige Bestimmung von Energie und Zeit gibt. Das bedeutet, dass eine genaue Messung der Energie eines Teilchens die Präzision der Zeitmessung verringert und umgekehrt.",
+      "difficulty": 3,
+      "subcategory": "Energie–Zeit–Unschärfe"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Brechungsgesetz aus Fermat",
+      "question": "Welches Prinzip beschreibt das Brechungsgesetz, das besagt, dass Lichtstrahlen den Weg nehmen, der die Gesamtzeit minimiert?",
+      "choices": [
+        "A: Prinzip der kleinsten Zeit",
+        "B: Prinzip der maximalen Energie",
+        "C: Prinzip der kleinsten Fläche",
+        "D: Prinzip der minimalen Distanz"
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Brechungsgesetz, auch bekannt als Snelliussches Gesetz, leitet sich aus dem Prinzip der kleinsten Zeit ab, das von Fermat formuliert wurde. Dieses Prinzip besagt, dass Lichtstrahlen den Weg nehmen, der die benötigte Zeit für die Ausbreitung minimiert.",
+      "difficulty": 8,
+      "subcategory": "Brechungsgesetz aus Fermat"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Lösung der 1D-Schrödinger-Gleichung",
+      "question": "Welche der folgenden Funktionen ist eine gültige Lösung der eindimensionalen Schrödinger-Gleichung für ein Teilchen in einem unendlichen Potentialtopf?",
+      "choices": [
+        "A: sin(nπx/L)",
+        "B: cos(x)",
+        "C: e^(ix)",
+        "D: x^2"
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Funktion sin(nπx/L) repräsentiert die Wellenfunktion eines Teilchens in einem unendlichen Potentialtopf und ist eine gültige Lösung der 1D-Schrödinger-Gleichung. Die anderen Funktionen erfüllen nicht die Randbedingungen oder die Form der Schrödinger-Gleichung in diesem Kontext.",
+      "difficulty": 6,
+      "subcategory": "Lösung der 1D-Schrödinger-Gleichung"
+    }
+  ]
+}
