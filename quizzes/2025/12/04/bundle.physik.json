@@ -1,168 +1,168 @@
 {
   "date": "2025-12-04",
-  "generated_at": "2025-12-04T15:14:36Z",
+  "generated_at": "2025-12-04T15:23:51Z",
   "schema_version": 6,
   "mode": "physik",
   "questions": [
     {
       "category": "Physik",
-      "topic": "Elektrodynamik",
-      "subtopic": "Integraldarstellung der Divergenz",
-      "question": "Was beschreibt die Divergenz eines Vektorfeldes in der Elektrodynamik?",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Querkontraktion",
+      "question": "Was beschreibt der Begriff Querkontraktion in der Materialwissenschaft?",
       "choices": [
-        "A: Die Richtung des Feldes.",
-        "B: Die Stärke des magnetischen Feldes.",
-        "C: Die Geschwindigkeit eines Teilchens.",
-        "D: Die Quellstärke eines Feldes."
+        "A: Die Temperaturänderung eines Materials aufgrund von mechanischer Beanspruchung.",
+        "B: Die Ausdehnung eines Materials in der Querrichtung bei Druckbelastung.",
+        "C: Die Änderung der Dichte eines Materials bei Temperaturänderung.",
+        "D: Die Schrumpfung eines Materials in der Querrichtung bei Zugbelastung."
       ],
       "correct_answer": "D",
-      "explanation": "Die Divergenz eines Vektorfeldes beschreibt, wie stark und in welche Richtung das Feld von einem Punkt ausgeht oder sich dort sammelt. In der Elektrodynamik ist dies entscheidend, um die Quellstärke von elektrischen Feldern zu bestimmen.",
-      "difficulty": 1,
-      "subcategory": "Integraldarstellung der Divergenz"
-    },
-    {
-      "category": "Physik",
-      "topic": "Optik",
-      "subtopic": "Projektionsapparat",
-      "question": "Welches Element eines Projektionsapparates ist entscheidend für die Vergrößerung des Bildes?",
-      "choices": [
-        "A: Der Spiegel",
-        "B: Die Linse",
-        "C: Der Bildschirm",
-        "D: Der Projektor"
-      ],
-      "correct_answer": "B",
-      "explanation": "Die Linse ist das zentrale Element eines Projektionsapparates, das das Licht bündelt und das Bild vergrößert. Durch die Wahl einer geeigneten Linse kann die Vergrößerung und Schärfe des projizierten Bildes beeinflusst werden.",
+      "explanation": "Querkontraktion ist ein Phänomen, das auftritt, wenn ein Material unter Zugbelastung in der Längsrichtung gestreckt wird und sich gleichzeitig in der Querrichtung verengt. Dies ist ein wichtiger Aspekt in der Materialwissenschaft, da er das Verhalten von Materialien bei verschiedenen Belastungen beschreibt.",
       "difficulty": 6,
-      "subcategory": "Projektionsapparat"
+      "subcategory": "Querkontraktion"
     },
     {
       "category": "Physik",
       "topic": "Klassische Mechanik",
-      "subtopic": "Reibung: Rollreibung",
-      "question": "Welche der folgenden Aussagen beschreibt die Rollreibung am besten?",
+      "subtopic": "Auftrieb vs. Widerstand (Zusammenhang)",
+      "question": "Welcher der folgenden Faktoren hat den größten Einfluss auf den Auftrieb eines Körpers in einer Flüssigkeit?",
       "choices": [
-        "A: Rollreibung ist immer größer als Gleitreibung.",
-        "B: Rollreibung tritt nur bei sehr hohen Geschwindigkeiten auf.",
-        "C: Rollreibung tritt auf, wenn ein Körper auf einer Oberfläche rollt und weniger Widerstand bietet als Gleitreibung.",
-        "D: Rollreibung hat keinen Einfluss auf die Bewegung eines rollenden Körpers."
+        "A: Die Dichte der Flüssigkeit",
+        "B: Die Geschwindigkeit des Körpers",
+        "C: Die Form des Körpers",
+        "D: Die Temperatur der Flüssigkeit"
       ],
-      "correct_answer": "C",
-      "explanation": "Rollreibung ist der Widerstand, der entsteht, wenn ein Objekt auf einer Oberfläche rollt. Im Vergleich zur Gleitreibung ist dieser Widerstand in der Regel geringer, was die Bewegung erleichtert. Daher ist Aussage A korrekt, während die anderen Aussagen falsche Informationen über Rollreibung geben.",
-      "difficulty": 5,
-      "subcategory": "Reibung: Rollreibung"
-    },
-    {
-      "category": "Physik",
-      "topic": "Elektrodynamik",
-      "subtopic": "Wechselwirkung einer Ladungsverteilung mit äußerem Feld",
-      "question": "Was passiert mit einer positiven Ladung, die sich in einem homogenen elektrischen Feld befindet?",
-      "choices": [
-        "A: Sie bewegt sich nur, wenn ein magnetisches Feld vorhanden ist.",
-        "B: Sie erfährt eine konstante Kraft in Richtung des elektrischen Feldes.",
-        "C: Sie bleibt immer in Ruhe.",
-        "D: Sie erfährt eine konstante Kraft in die entgegengesetzte Richtung des elektrischen Feldes."
-      ],
-      "correct_answer": "B",
-      "explanation": "Eine positive Ladung in einem homogenen elektrischen Feld erfährt eine konstante Kraft, die in Richtung des Feldes wirkt. Diese Kraft ist proportional zur Stärke des Feldes und der Ladung selbst, gemäß der Formel F = qE.",
-      "difficulty": 6,
-      "subcategory": "Wechselwirkung einer Ladungsverteilung mit äußerem Feld"
-    },
-    {
-      "category": "Physik",
-      "topic": "Thermodynamik",
-      "subtopic": "Potentiale des idealen Gases",
-      "question": "Welches der folgenden Potentiale beschreibt die thermodynamische Energie eines idealen Gases am besten?",
-      "choices": [
-        "A: Gravitationspotential",
-        "B: Magnetisches Potential",
-        "C: Elektrisches Potential",
-        "D: Innere Energie"
-      ],
-      "correct_answer": "D",
-      "explanation": "Die innere Energie eines idealen Gases ist die Gesamtenergie, die durch die kinetische Energie der Gasteilchen und die intermolekularen Wechselwirkungen bestimmt wird. Sie ist ein zentrales Konzept in der Thermodynamik und beschreibt die thermodynamische Energie des Systems.",
-      "difficulty": 6,
-      "subcategory": "Potentiale des idealen Gases"
+      "correct_answer": "A",
+      "explanation": "Der Auftrieb eines Körpers in einer Flüssigkeit wird durch die Dichte der Flüssigkeit bestimmt, gemäß dem archimedischen Prinzip. Während Temperatur und Form ebenfalls Einfluss haben können, ist die Dichte der entscheidende Faktor für die Berechnung des Auftriebs.",
+      "difficulty": 8,
+      "subcategory": "Auftrieb vs. Widerstand (Zusammenhang)"
     },
     {
       "category": "Physik",
       "topic": "Statistische Mechanik",
-      "subtopic": "Pauli-Paramagnetismus",
-      "question": "Welche Aussage beschreibt korrekt das Verhalten von Pauli-paramagnetischen Materialien bei einem externen Magnetfeld?",
+      "subtopic": "Irreversible Expansion (Gay-Lussac)",
+      "question": "Was passiert bei einer irreversiblen Expansion eines Gases, wenn es gegen einen äußeren Druck expandiert?",
       "choices": [
-        "A: Die magnetischen Momente der Elektronen richten sich parallel zum Feld aus, jedoch ist die Stärke der Magnetisierung temperaturabhängig.",
-        "B: Die magnetischen Momente der Elektronen richten sich antiparallel zum Feld aus und erzeugen eine abstoßende Kraft.",
-        "C: Die magnetischen Momente der Elektronen sind temperaturunabhängig und zeigen keine Ausrichtung im Magnetfeld.",
-        "D: Die magnetischen Momente der Elektronen richten sich parallel zum Feld aus und erzeugen eine anziehende Kraft."
+        "A: Die Temperatur des Gases sinkt.",
+        "B: Die Temperatur des Gases steigt.",
+        "C: Die Dichte des Gases bleibt konstant.",
+        "D: Die Temperatur des Gases bleibt konstant."
       ],
-      "correct_answer": "A",
-      "explanation": "Pauli-paramagnetische Materialien zeigen eine Ausrichtung ihrer Elektronenmomente parallel zum externen Magnetfeld. Die Stärke dieser Ausrichtung ist jedoch temperaturabhängig, da thermische Bewegungen die Ordnung der Spins beeinflussen können.",
-      "difficulty": 8,
-      "subcategory": "Pauli-Paramagnetismus"
+      "correct_answer": "B",
+      "explanation": "Bei einer irreversiblen Expansion eines Gases gegen äußeren Druck kann die Temperatur des Gases ansteigen, da Arbeit gegen den Druck verrichtet wird. Dies geschieht, weil die inneren Energie- und Temperaturänderungen des Gases nicht im Gleichgewicht sind.",
+      "difficulty": 3,
+      "subcategory": "Irreversible Expansion (Gay-Lussac)"
     },
     {
       "category": "Physik",
-      "topic": "Festkörperphysik",
-      "subtopic": "Meißner-Effekt & London-Gleichungen",
-      "question": "Was beschreibt der Meißner-Effekt in Supraleitern?",
+      "topic": "Quantenmechanik",
+      "subtopic": "Eigenwertproblem",
+      "question": "Was beschreibt das Eigenwertproblem in der Quantenmechanik?",
       "choices": [
-        "A: Supraleiter stoßen Magnetfelder ab.",
-        "B: Supraleiter leiten elektrischen Strom ohne Widerstand.",
-        "C: Supraleiter verlieren ihre Temperatur schnell.",
-        "D: Supraleiter haben eine endliche Energiedichte."
+        "A: Die Zustände eines quantenmechanischen Systems und ihre Energie.",
+        "B: Die Temperatur eines thermodynamischen Systems.",
+        "C: Die Kräfte, die auf einen Körper in Ruhe wirken.",
+        "D: Die Geschwindigkeit von Teilchen in einem klassischen System."
       ],
       "correct_answer": "A",
-      "explanation": "Der Meißner-Effekt beschreibt das Phänomen, dass Supraleiter Magnetfelder aus ihrem Inneren abstoßen, wenn sie unter ihre kritische Temperatur gekühlt werden. Dies führt dazu, dass sie im Magnetfeld schweben können.",
-      "difficulty": 2,
-      "subcategory": "Meißner-Effekt & London-Gleichungen"
+      "explanation": "Das Eigenwertproblem bezieht sich auf die Suche nach Eigenwerten und Eigenzuständen eines Operators, wobei insbesondere der Hamilton-Operator zur Bestimmung der Energiezustände eines quantenmechanischen Systems verwendet wird. Es ist ein zentrales Konzept in der Quantenmechanik, welches das Verhalten von Teilchen beschreibt.",
+      "difficulty": 6,
+      "subcategory": "Eigenwertproblem"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Phononen/Rotonen in He II: Anregungen & Thermik",
+      "question": "Was sind Phononen in der Quantenmechanik?",
+      "choices": [
+        "A: Quasiteilchen, die Schwingungen in einem Festkörper beschreiben.",
+        "B: Energiestufen in einem Atom.",
+        "C: Teilchen, die die Elektronen in einem Atom darstellen.",
+        "D: Eine Art von radioaktiven Strahlen."
+      ],
+      "correct_answer": "A",
+      "explanation": "Phononen sind quasiteilchenartige Anregungen, die die Schwingungen von Atomen in einem Kristallgitter beschreiben. Sie spielen eine wichtige Rolle in der Thermodynamik und der Wärmeleitung von Festkörpern.",
+      "difficulty": 1,
+      "subcategory": "Phononen/Rotonen in He II: Anregungen & Thermik"
     },
     {
       "category": "Physik",
       "topic": "Thermodynamik",
-      "subtopic": "Carnot-Kreisprozess & Wirkungsgrad",
-      "question": "Was beschreibt der Wirkungsgrad eines Carnot-Kreisprozesses?",
+      "subtopic": "Einfache Folgerungen aus den Hauptsätzen",
+      "question": "Welche Aussage beschreibt die Konsequenz des zweiten Hauptsatzes der Thermodynamik korrekt?",
       "choices": [
-        "A: Die Zeit, die benötigt wird, um den Prozess abzuschließen.",
-        "B: Die Gesamtwärme, die während des Prozesses verloren geht.",
-        "C: Das Verhältnis der geleisteten Arbeit zur zugeführten Wärme.",
-        "D: Die Temperaturdifferenz zwischen den beiden Wärmequellen."
+        "A: Die Gesamtentropie eines geschlossenen Systems kann niemals abnehmen.",
+        "B: Ein adiabatischer Prozess ist immer irreversibel.",
+        "C: Wärme kann von einem kälteren Körper auf einen wärmeren Körper übertragen werden, ohne dass Arbeit verrichtet wird.",
+        "D: In einem perfekten Gas ist die Temperatur direkt proportional zum Druck."
       ],
-      "correct_answer": "C",
-      "explanation": "Der Wirkungsgrad eines Carnot-Kreisprozesses ist definiert als das Verhältnis der geleisteten Arbeit zur zugeführten Wärme. Er zeigt, wie effizient der Prozess im Vergleich zu einem idealen thermodynamischen Prozess arbeitet.",
-      "difficulty": 5,
-      "subcategory": "Carnot-Kreisprozess & Wirkungsgrad"
+      "correct_answer": "A",
+      "explanation": "Der zweite Hauptsatz der Thermodynamik besagt, dass die Entropie in einem geschlossenen System immer zunimmt oder gleich bleibt, aber niemals abnimmt. Dies bedeutet, dass natürliche Prozesse in eine Richtung verlaufen, die die Gesamtentropie erhöht.",
+      "difficulty": 7,
+      "subcategory": "Einfache Folgerungen aus den Hauptsätzen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Energie–Zeit–Unschärfe",
+      "question": "Was beschreibt das Energie–Zeit–Unschärfe-Prinzip in der Quantenmechanik?",
+      "choices": [
+        "A: Die Unschärfe im Energiegehalt eines Systems ist umgekehrt proportional zur Zeitdauer, während der dieser Zustand beobachtet wird.",
+        "B: Die Energie eines Teilchens kann niemals negative Werte annehmen.",
+        "C: Teilchen können sich mit Überlichtgeschwindigkeit bewegen.",
+        "D: Zeit und Raum sind in der Quantenmechanik unabhängig voneinander."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Energie–Zeit–Unschärfe-Prinzip besagt, dass die Unsicherheit in der Energie eines Systems umgekehrt proportional zur Zeitdauer ist, während der diese Energie gemessen wird. Dies bedeutet, dass eine genauere Messung der Energie zu einer größeren Unsicherheit in der Zeit führt und umgekehrt.",
+      "difficulty": 4,
+      "subcategory": "Energie–Zeit–Unschärfe"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Partonmodell",
+      "question": "Welches Konzept beschreibt die Verteilung der Partonen innerhalb eines Protonen und ermöglicht die Erklärung der Struktur der Protonen bei hochenergetischen Kollisionen?",
+      "choices": [
+        "A: Partonmodell",
+        "B: Quark-Gluon-Plasma",
+        "C: Standardmodell der Teilchenphysik",
+        "D: Supersymmetrie"
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Partonmodell stellt eine wichtige Theorie dar, die die inneren Strukturen von Hadronen wie Protonen durch die Annahme beschreibt, dass sie aus Punktpartikeln, den sogenannten Partonen, bestehen. Dieses Modell hilft zu verstehen, wie die Energie und Impulsverteilung in hochenergetischen Kollisionen zustande kommt und ist entscheidend für die Analyse von Experimenten in Teilchenbeschleunigern.",
+      "difficulty": 10,
+      "subcategory": "Partonmodell"
     },
     {
       "category": "Physik",
       "topic": "Klassische Mechanik",
-      "subtopic": "Präzession des symmetrischen Kreisels",
-      "question": "Was bewirkt die Präzession eines symmetrischen Kreisels?",
+      "subtopic": "Viskosität von Gasen",
+      "question": "Welche Aussage über die Viskosität von Gasen ist korrekt?",
       "choices": [
-        "A: Eine Erhöhung der Masse des Kreisels.",
-        "B: Eine Änderung der Rotationsachse unter dem Einfluss eines Drehmoments.",
-        "C: Eine Änderung der Rotationsgeschwindigkeit.",
-        "D: Eine Verringerung des Luftwiderstands."
+        "A: Viskosität von Gasen ist immer konstant, egal bei welchem Druck.",
+        "B: Gase haben immer eine höhere Viskosität als Flüssigkeiten.",
+        "C: Die Viskosität von Gasen ist unabhängig von der Temperatur.",
+        "D: Die Viskosität von Gasen nimmt mit steigender Temperatur zu."
       ],
-      "correct_answer": "B",
-      "explanation": "Die Präzession eines symmetrischen Kreisels tritt auf, wenn ein externes Drehmoment auf ihn wirkt, wodurch seine Rotationsachse sich in eine neue Richtung bewegt. Dies geschieht, während der Kreisel weiterhin um seine ursprüngliche Achse rotiert, was zu einer spiralförmigen Bewegung führt.",
-      "difficulty": 5,
-      "subcategory": "Präzession des symmetrischen Kreisels"
+      "correct_answer": "D",
+      "explanation": "Die Viskosität von Gasen nimmt in der Regel mit steigender Temperatur zu, da die Moleküle bei höheren Temperaturen schneller bewegen und häufiger miteinander kollidieren. Dies führt zu einer erhöhten inneren Reibung im Gas.",
+      "difficulty": 3,
+      "subcategory": "Viskosität von Gasen"
     },
     {
       "category": "Physik",
-      "topic": "Relativitätstheorie",
-      "subtopic": "Der elastische Stoß in der SRT",
-      "question": "Was passiert beim elastischen Stoß zwischen zwei Partikeln in der speziellen Relativitätstheorie?",
+      "topic": "Thermodynamik",
+      "subtopic": "Absolute thermodynamische Temperaturskala",
+      "question": "Welcher der folgenden Werte entspricht 0 Kelvin auf der absoluten thermodynamischen Temperaturskala?",
       "choices": [
-        "A: Die Gesamtenergie wird verdoppelt.",
-        "B: Die Gesamtenergie und der Impuls bleiben erhalten.",
-        "C: Die Partikel verlieren ihre Masse.",
-        "D: Der Stoß führt zu einer Zeitdilatation."
+        "A: 0 °C",
+        "B: 273,15 °C",
+        "C: -273,15 °C",
+        "D: -100 °C"
       ],
-      "correct_answer": "B",
-      "explanation": "Beim elastischen Stoß bleiben sowohl die Gesamtenergie als auch der Impuls der beiden Partikeln erhalten, was auch in der speziellen Relativitätstheorie gilt. Dies bedeutet, dass die Bewegungszustände der Partikel vor und nach dem Stoß durch diese Erhaltungssätze beschrieben werden können.",
-      "difficulty": 1,
-      "subcategory": "Der elastische Stoß in der SRT"
+      "correct_answer": "C",
+      "explanation": "0 Kelvin entspricht dem absoluten Nullpunkt, der bei -273,15 °C liegt. Dies ist die theoretische Temperatur, bei der die Teilchenbewegung minimal ist und damit die thermische Energie eines Systems verschwindet.",
+      "difficulty": 10,
+      "subcategory": "Absolute thermodynamische Temperaturskala"
     }
   ]
 }

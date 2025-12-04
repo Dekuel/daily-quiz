@@ -1,168 +1,168 @@
 {
   "date": "2025-12-04",
-  "generated_at": "2025-12-04T15:14:55Z",
+  "generated_at": "2025-12-04T15:24:06Z",
   "schema_version": 6,
   "mode": "physik",
   "questions": [
     {
       "category": "Physik",
-      "topic": "Elektrodynamik",
-      "subtopic": "Integraldarstellung der Divergenz",
-      "question": "What does the divergence of a vector field describe in electrodynamics?",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Querkontraktion",
+      "question": "What does the term lateral contraction describe in materials science?",
       "choices": [
-        "A: The direction of the field.",
-        "B: The strength of the magnetic field.",
-        "C: The velocity of a particle.",
-        "D: The source strength of a field."
+        "A: The temperature change of a material due to mechanical stress.",
+        "B: The expansion of a material in the transverse direction under compressive stress.",
+        "C: The change in density of a material due to temperature change.",
+        "D: The shrinkage of a material in the transverse direction under tensile stress."
       ],
       "correct_answer": "D",
-      "explanation": "The divergence of a vector field describes how strongly and in which direction the field emanates from or converges at a point. In electrodynamics, this is crucial for determining the source strength of electric fields.",
-      "difficulty": 1,
-      "subcategory": "Integraldarstellung der Divergenz"
-    },
-    {
-      "category": "Physik",
-      "topic": "Optik",
-      "subtopic": "Projektionsapparat",
-      "question": "Which element of a projection apparatus is crucial for enlarging the image?",
-      "choices": [
-        "A: The mirror",
-        "B: The lens",
-        "C: The screen",
-        "D: The projector"
-      ],
-      "correct_answer": "B",
-      "explanation": "The lens is the central element of a projection apparatus that focuses light and enlarges the image. By choosing an appropriate lens, the magnification and sharpness of the projected image can be influenced.",
+      "explanation": "Lateral contraction is a phenomenon that occurs when a material is stretched in the longitudinal direction under tensile stress and simultaneously narrows in the transverse direction. This is an important aspect in materials science as it describes the behavior of materials under different loads.",
       "difficulty": 6,
-      "subcategory": "Projektionsapparat"
+      "subcategory": "Querkontraktion"
     },
     {
       "category": "Physik",
       "topic": "Klassische Mechanik",
-      "subtopic": "Reibung: Rollreibung",
-      "question": "Which of the following statements best describes rolling friction?",
+      "subtopic": "Auftrieb vs. Widerstand (Zusammenhang)",
+      "question": "Which of the following factors has the greatest influence on the buoyancy of a body in a fluid?",
       "choices": [
-        "A: Rolling friction is always greater than sliding friction.",
-        "B: Rolling friction only occurs at very high speeds.",
-        "C: Rolling friction occurs when an object rolls on a surface and offers less resistance than sliding friction.",
-        "D: Rolling friction has no effect on the motion of a rolling object."
+        "A: The density of the fluid",
+        "B: The velocity of the body",
+        "C: The shape of the body",
+        "D: The temperature of the fluid"
       ],
-      "correct_answer": "C",
-      "explanation": "Rolling friction is the resistance that occurs when an object rolls on a surface. Compared to sliding friction, this resistance is usually lower, making movement easier. Therefore, statement A is correct, while the other statements provide incorrect information about rolling friction.",
-      "difficulty": 5,
-      "subcategory": "Reibung: Rollreibung"
-    },
-    {
-      "category": "Physik",
-      "topic": "Elektrodynamik",
-      "subtopic": "Wechselwirkung einer Ladungsverteilung mit äußerem Feld",
-      "question": "What happens to a positive charge in a homogeneous electric field?",
-      "choices": [
-        "A: It moves only if a magnetic field is present.",
-        "B: It experiences a constant force in the direction of the electric field.",
-        "C: It always remains at rest.",
-        "D: It experiences a constant force in the opposite direction of the electric field."
-      ],
-      "correct_answer": "B",
-      "explanation": "A positive charge in a homogeneous electric field experiences a constant force acting in the direction of the field. This force is proportional to the field's strength and the charge itself, according to the formula F = qE.",
-      "difficulty": 6,
-      "subcategory": "Wechselwirkung einer Ladungsverteilung mit äußerem Feld"
-    },
-    {
-      "category": "Physik",
-      "topic": "Thermodynamik",
-      "subtopic": "Potentiale des idealen Gases",
-      "question": "Which of the following potentials best describes the thermodynamic energy of an ideal gas?",
-      "choices": [
-        "A: Gravitational potential",
-        "B: Magnetic potential",
-        "C: Electric potential",
-        "D: Internal energy"
-      ],
-      "correct_answer": "D",
-      "explanation": "The internal energy of an ideal gas is the total energy determined by the kinetic energy of the gas particles and intermolecular interactions. It is a central concept in thermodynamics and describes the system's thermodynamic energy.",
-      "difficulty": 6,
-      "subcategory": "Potentiale des idealen Gases"
+      "correct_answer": "A",
+      "explanation": "The buoyancy of a body in a fluid is determined by the density of the fluid, according to the Archimedes' principle. While temperature and shape can also have an impact, density is the crucial factor for calculating buoyancy.",
+      "difficulty": 8,
+      "subcategory": "Auftrieb vs. Widerstand (Zusammenhang)"
     },
     {
       "category": "Physik",
       "topic": "Statistische Mechanik",
-      "subtopic": "Pauli-Paramagnetismus",
-      "question": "Which statement correctly describes the behavior of Pauli paramagnetic materials in an external magnetic field?",
+      "subtopic": "Irreversible Expansion (Gay-Lussac)",
+      "question": "What happens during an irreversible expansion of a gas when it expands against an external pressure?",
       "choices": [
-        "A: The magnetic moments of the electrons align parallel to the field, but the strength of magnetization is temperature-dependent.",
-        "B: The magnetic moments of the electrons align antiparallel to the field, creating a repulsive force.",
-        "C: The magnetic moments of the electrons are temperature-independent and show no alignment in the magnetic field.",
-        "D: The magnetic moments of the electrons align parallel to the field, creating an attractive force."
+        "A: The temperature of the gas decreases.",
+        "B: The temperature of the gas increases.",
+        "C: The density of the gas remains constant.",
+        "D: The temperature of the gas remains constant."
       ],
-      "correct_answer": "A",
-      "explanation": "Pauli paramagnetic materials align their electron moments parallel to the external magnetic field. However, the strength of this alignment is temperature-dependent, as thermal motions can influence the spin order.",
-      "difficulty": 8,
-      "subcategory": "Pauli-Paramagnetismus"
+      "correct_answer": "B",
+      "explanation": "During an irreversible expansion of a gas against external pressure, the temperature of the gas can increase as work is done against the pressure. This occurs because the internal energy and temperature changes of the gas are not in equilibrium.",
+      "difficulty": 3,
+      "subcategory": "Irreversible Expansion (Gay-Lussac)"
     },
     {
       "category": "Physik",
-      "topic": "Festkörperphysik",
-      "subtopic": "Meißner-Effekt & London-Gleichungen",
-      "question": "What does the Meissner effect describe in superconductors?",
+      "topic": "Quantenmechanik",
+      "subtopic": "Eigenwertproblem",
+      "question": "What does the eigenvalue problem describe in quantum mechanics?",
       "choices": [
-        "A: Superconductors repel magnetic fields.",
-        "B: Superconductors conduct electric current without resistance.",
-        "C: Superconductors lose their temperature quickly.",
-        "D: Superconductors have a finite energy density."
+        "A: The states of a quantum mechanical system and their energy.",
+        "B: The temperature of a thermodynamic system.",
+        "C: The forces acting on a body at rest.",
+        "D: The velocity of particles in a classical system."
       ],
       "correct_answer": "A",
-      "explanation": "The Meissner effect describes the phenomenon where superconductors repel magnetic fields from their interior when cooled below their critical temperature. This allows them to levitate in a magnetic field.",
-      "difficulty": 2,
-      "subcategory": "Meißner-Effekt & London-Gleichungen"
+      "explanation": "The eigenvalue problem refers to the search for eigenvalues and eigenvectors of an operator, with the Hamiltonian operator being particularly used to determine the energy states of a quantum mechanical system. It is a central concept in quantum mechanics that describes the behavior of particles.",
+      "difficulty": 6,
+      "subcategory": "Eigenwertproblem"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Phononen/Rotonen in He II: Anregungen & Thermik",
+      "question": "What are phonons in quantum mechanics?",
+      "choices": [
+        "A: Quasi-particles describing vibrations in a solid.",
+        "B: Energy levels in an atom.",
+        "C: Particles representing the electrons in an atom.",
+        "D: A type of radioactive radiation."
+      ],
+      "correct_answer": "A",
+      "explanation": "Phonons are quasi-particle-like excitations that describe the vibrations of atoms in a crystal lattice. They play an important role in the thermodynamics and heat conduction of solids.",
+      "difficulty": 1,
+      "subcategory": "Phononen/Rotonen in He II: Anregungen & Thermik"
     },
     {
       "category": "Physik",
       "topic": "Thermodynamik",
-      "subtopic": "Carnot-Kreisprozess & Wirkungsgrad",
-      "question": "What does the efficiency of a Carnot cycle process describe?",
+      "subtopic": "Einfache Folgerungen aus den Hauptsätzen",
+      "question": "Which statement correctly describes the consequence of the second law of thermodynamics?",
       "choices": [
-        "A: The time required to complete the process.",
-        "B: The total heat lost during the process.",
-        "C: The ratio of work done to heat supplied.",
-        "D: The temperature difference between the two heat sources."
+        "A: The total entropy of a closed system can never decrease.",
+        "B: An adiabatic process is always irreversible.",
+        "C: Heat can be transferred from a colder body to a warmer body without work being done.",
+        "D: In a perfect gas, temperature is directly proportional to pressure."
       ],
-      "correct_answer": "C",
-      "explanation": "The efficiency of a Carnot cycle process is defined as the ratio of the work done to the heat supplied. It indicates how efficiently the process operates compared to an ideal thermodynamic process.",
-      "difficulty": 5,
-      "subcategory": "Carnot-Kreisprozess & Wirkungsgrad"
+      "correct_answer": "A",
+      "explanation": "The second law of thermodynamics states that the entropy in a closed system always increases or remains the same, but never decreases. This means that natural processes proceed in a direction that increases the total entropy.",
+      "difficulty": 7,
+      "subcategory": "Einfache Folgerungen aus den Hauptsätzen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Energie–Zeit–Unschärfe",
+      "question": "What does the energy-time uncertainty principle describe in quantum mechanics?",
+      "choices": [
+        "A: The uncertainty in the energy content of a system is inversely proportional to the duration of time over which this state is observed.",
+        "B: The energy of a particle can never assume negative values.",
+        "C: Particles can move faster than the speed of light.",
+        "D: Time and space are independent of each other in quantum mechanics."
+      ],
+      "correct_answer": "A",
+      "explanation": "The energy-time uncertainty principle states that the uncertainty in the energy of a system is inversely proportional to the duration of time over which this energy is measured. This means that a more precise measurement of energy leads to greater uncertainty in time and vice versa.",
+      "difficulty": 4,
+      "subcategory": "Energie–Zeit–Unschärfe"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Partonmodell",
+      "question": "Which concept describes the distribution of partons within a proton and enables the explanation of the structure of protons in high-energy collisions?",
+      "choices": [
+        "A: Parton model",
+        "B: Quark-gluon plasma",
+        "C: Standard Model of particle physics",
+        "D: Supersymmetry"
+      ],
+      "correct_answer": "A",
+      "explanation": "The parton model is an important theory that describes the internal structures of hadrons like protons by assuming they consist of point-like particles called partons. This model helps understand how energy and momentum distribution arises in high-energy collisions and is crucial for analyzing experiments in particle accelerators.",
+      "difficulty": 10,
+      "subcategory": "Partonmodell"
     },
     {
       "category": "Physik",
       "topic": "Klassische Mechanik",
-      "subtopic": "Präzession des symmetrischen Kreisels",
-      "question": "What causes the precession of a symmetric gyroscope?",
+      "subtopic": "Viskosität von Gasen",
+      "question": "Which statement about the viscosity of gases is correct?",
       "choices": [
-        "A: An increase in the mass of the gyroscope.",
-        "B: A change in the axis of rotation under the influence of a torque.",
-        "C: A change in the rotational speed.",
-        "D: A reduction in air resistance."
+        "A: Viscosity of gases is always constant regardless of pressure.",
+        "B: Gases always have higher viscosity than liquids.",
+        "C: The viscosity of gases is independent of temperature.",
+        "D: The viscosity of gases increases with rising temperature."
       ],
-      "correct_answer": "B",
-      "explanation": "The precession of a symmetric gyroscope occurs when an external torque acts on it, causing its axis of rotation to move in a new direction. This happens while the gyroscope continues to rotate around its original axis, leading to a spiraling motion.",
-      "difficulty": 5,
-      "subcategory": "Präzession des symmetrischen Kreisels"
+      "correct_answer": "D",
+      "explanation": "Viscosity of gases generally increases with rising temperature as molecules move faster and collide more frequently at higher temperatures, leading to increased internal friction in the gas.",
+      "difficulty": 3,
+      "subcategory": "Viskosität von Gasen"
     },
     {
       "category": "Physik",
-      "topic": "Relativitätstheorie",
-      "subtopic": "Der elastische Stoß in der SRT",
-      "question": "What happens during an elastic collision between two particles in special relativity?",
+      "topic": "Thermodynamik",
+      "subtopic": "Absolute thermodynamische Temperaturskala",
+      "question": "Which of the following values corresponds to 0 Kelvin on the absolute thermodynamic temperature scale?",
       "choices": [
-        "A: The total energy doubles.",
-        "B: The total energy and momentum remain conserved.",
-        "C: The particles lose their mass.",
-        "D: The collision results in time dilation."
+        "A: 0 °C",
+        "B: 273.15 °C",
+        "C: -273.15 °C",
+        "D: -100 °C"
       ],
-      "correct_answer": "B",
-      "explanation": "In an elastic collision, both the total energy and momentum of the two particles remain conserved, which also holds in special relativity. This means that the motion states of the particles before and after the collision can be described by these conservation laws.",
-      "difficulty": 1,
-      "subcategory": "Der elastische Stoß in der SRT"
+      "correct_answer": "C",
+      "explanation": "0 Kelvin corresponds to absolute zero, which is at -273.15 °C. This is the theoretical temperature where particle motion is minimal, and thus the thermal energy of a system vanishes.",
+      "difficulty": 10,
+      "subcategory": "Absolute thermodynamische Temperaturskala"
     }
   ]
 }

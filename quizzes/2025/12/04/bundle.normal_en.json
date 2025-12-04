@@ -1,36 +1,105 @@
 {
   "date": "2025-12-04",
-  "generated_at": "2025-12-04T15:14:40Z",
+  "generated_at": "2025-12-04T15:23:55Z",
   "schema_version": 6,
   "mode": "normal",
   "questions": [
     {
-      "category": "Essen und Trinken",
-      "topic": "Ernährung",
-      "question": "Which vitamin is known to support the immune system and is mainly found in citrus fruits?",
+      "category": "Sport",
+      "topic": "Sonstige",
+      "question": "Which of these devices is typically used in tennis?",
       "choices": [
-        "A: Vitamin D",
-        "B: Vitamin C",
-        "C: Vitamin A",
-        "D: Vitamin B12"
+        "A: Goal",
+        "B: Racket",
+        "C: Net",
+        "D: Ball"
       ],
       "correct_answer": "B",
-      "explanation": "Vitamin C is crucial for the function of the immune system and plays an important role in fighting infections. It is mainly found in citrus fruits such as oranges and lemons, which are often considered a natural source of this vitamin.",
+      "explanation": "In tennis, a racket is used to hit the ball over the net. While the ball and the net are also important components of the game, the racket is the central device that players use to play.",
+      "difficulty": 5
+    },
+    {
+      "category": "Wissenschaft",
+      "topic": "Biologie",
+      "question": "Which of the following statements about Mendelian inheritance is correct?",
+      "choices": [
+        "A: Genotype and phenotype are always identical.",
+        "B: All genetic traits are equally inherited from both parents to offspring.",
+        "C: Mendel's laws apply only to animals, not plants.",
+        "D: An allele can be dominant or recessive, with the dominant allele determining the phenotype."
+      ],
+      "correct_answer": "D",
+      "explanation": "In Mendelian inheritance, alleles can be expressed with varying degrees of strength. A dominant allele masks the recessive allele, meaning that only the phenotype of the dominant allele is visible, while the genotype can contain both alleles.",
+      "difficulty": 8
+    },
+    {
+      "category": "Geschichte",
+      "topic": "Zeitgeschichte (ab 1945)",
+      "question": "Which statement about the role of media in political communication during the Cold War is correct?",
+      "choices": [
+        "A: There was no significant media coverage of international conflicts.",
+        "B: Independent media played a central role in educating the public about the conflicts.",
+        "C: The use of social media was crucial for disseminating information at that time.",
+        "D: Media were solely controlled by governments and served as propaganda tools."
+      ],
+      "correct_answer": "B",
+      "explanation": "During the Cold War, independent media played a crucial role by disseminating information about geopolitical tensions and educating the public about the background of conflicts. This reporting was often crucial for the public's perception of events.",
+      "difficulty": 7
+    },
+    {
+      "category": "Technologie",
+      "topic": "Technik-Geschichte",
+      "question": "Which company developed the first iPhone?",
+      "choices": [
+        "A: Samsung",
+        "B: Nokia",
+        "C: Apple",
+        "D: Microsoft"
+      ],
+      "correct_answer": "C",
+      "explanation": "The first iPhone was introduced by Apple in 2007, revolutionizing the smartphone market. Samsung, Nokia, and Microsoft were also active at that time but did not develop the iPhone.",
       "difficulty": 2
     },
     {
-      "category": "Natur",
-      "topic": "Tierwelt",
-      "question": "Which animal is known to live in large herds and is often referred to as the 'king of the animals'?",
+      "category": "Geographie",
+      "topic": "Hauptstädte",
+      "question": "Which capital city belongs to the country France?",
       "choices": [
-        "A: Giraffe",
-        "B: Lion",
-        "C: Zebra",
-        "D: Elephant"
+        "A: Madrid",
+        "B: Berlin",
+        "C: Rome",
+        "D: Paris"
+      ],
+      "correct_answer": "D",
+      "explanation": "Paris is the capital of France and known for its cultural landmarks such as the Eiffel Tower and the Louvre. The city is located on the Seine River and has played an important role in European history.",
+      "difficulty": 1
+    },
+    {
+      "category": "Glaube & Religion",
+      "topic": "Afrikanische & indigene Religionen",
+      "question": "Which of the following narrative forms is particularly characteristic of many African religions and serves the transmission of myths and traditions?",
+      "choices": [
+        "A: Visual arts",
+        "B: Oral tradition",
+        "C: Written records",
+        "D: Religious rituals"
       ],
       "correct_answer": "B",
-      "explanation": "The lion is often referred to as the 'king of the animals' because it plays a significant role in the ecosystem as a predator and often lives in social groups, called prides. These social structures help them in hunting and protecting their offspring.",
-      "difficulty": 2
+      "explanation": "Oral tradition plays a central role in many African religions, as it allows for the transmission of myths, stories, and traditions across generations. This form of storytelling is often lively and interactive, making it an important part of cultural identity.",
+      "difficulty": 5
+    },
+    {
+      "question": "What financial support do parents in Germany receive during separation or divorce?",
+      "category": "Alltag & Gesellschaft",
+      "subcategory": "Scheidung & Sorgerecht",
+      "difficulty": 6,
+      "options": {
+        "A": "Kinderzuschlag",
+        "B": "Elterngeld Plus",
+        "C": "Kindergeld",
+        "D": "Ausbildungsbeihilfe"
+      },
+      "correct_answer": "C"
     }
   ]
 }
