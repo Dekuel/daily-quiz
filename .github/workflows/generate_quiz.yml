@@ -26,7 +26,8 @@ jobs:
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: |
-          python daily-quiz/generate_quiz.py
+          cd daily-quiz
+          python generate_quiz.py
 
       - name: Commit generated quizzes (optional)
         if: always()
@@ -36,6 +37,6 @@ jobs:
           # commit any changes to quizzes/ back to the repository
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add quizzes || true
+          git add daily-quiz/quizzes daily-quiz/Fragen\ leicht daily-quiz/Fragen\ schwer daily-quiz/Fragen\ leicht_en daily-quiz/Fragen\ schwer_en || true
           git commit -m "chore: generate quizzes via CI" || echo "no changes to commit"
           git push || echo "push failed"
