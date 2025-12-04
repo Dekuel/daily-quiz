@@ -400,9 +400,9 @@ def generate_one(tier: int = 5, mode: Optional[str] = None) -> Optional[dict]:
     if not client:
         return None
     
-    main_topics = list(_SUBTOPIC_MAP.keys())
+    main_topics = list(_SUBTOPICS.keys())
     topic = random.choice(main_topics)
-    topic_data = _SUBTOPIC_MAP[topic]
+    topic_data = _SUBTOPICS[topic]
     
     bucket_for_tier = _get_tier_bucket(tier)
     main_weights = _WEIGHTS.get(bucket_for_tier, _WEIGHTS["5-7"])
