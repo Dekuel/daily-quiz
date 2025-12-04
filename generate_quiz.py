@@ -1138,25 +1138,13 @@ def main():
     for mode in ("normal", "schwer", "physik"):
         if mode in ("normal", "schwer"):
             # Zielverteilung je Modus:
-            #  - 2x Politik
+            #  - Politik wird vorerst übersprungen
             #  - 7x andere Kategorien (ohne Politik)
-            target_politics = POLITICS_TARGET  # = 2
-            target_others = OTHER_QUESTIONS_PER_GENERAL_MODE  # = 7
+            target_questions = OTHER_QUESTIONS_PER_GENERAL_MODE  # = 7
 
-            # 1) Erst Politik erzeugen
-            politics = generate_politics_for_mode(
-                plugins=plugins,
-                target=target_politics,
-                past_texts=past_texts,
-                day_seen=day_dedupe_texts,
-                mode=mode,
-            )
-            print(f"[{mode}] Politikfragen erzeugt (erste Runde): {len(politics)} / {POLITICS_TARGET}")
-
-            # 2) Andere Kategorien erzeugen (ohne Politik)
-            # Exclude also English-only plugin names (e.g. 'politics', 'language')
+            # Exclude Politik, Physik, Popkultur und English-only plugins
             def _german_exclude_set(plugins_map: Dict[str, Callable[..., Optional[dict]]]) -> set:
-                ex = {POLITICS_CATEGORY_NAME, PHYSICS_CATEGORY_NAME}
+                ex = {POLITICS_CATEGORY_NAME, PHYSICS_CATEGORY_NAME, "popkultur"}
                 # if English-language plugin modules exist, don't include them in German generation
                 if "politics" in plugins_map:
                     ex.add("politics")
@@ -1164,46 +1152,14 @@ def main():
                     ex.add("language")
                 return ex
 
-            others = generate_random_categories(
+            # Generiere alle Fragen aus anderen Kategorien
+            qlist = generate_random_categories(
                 plugins=plugins,
-                k=target_others,
+                k=target_questions,
                 past_texts=past_texts,
                 exclude=_german_exclude_set(plugins),
                 mode=mode,
             )
-
-            # 3) Fallback: wenn Politik < 2, versuche nochmals Politik nachzulegen
-            if len(politics) < target_politics and POLITICS_CATEGORY_NAME in plugins:
-                missing = target_politics - len(politics)
-                tmp_day_seen = set(day_dedupe_texts)
-                for q in politics + others:
-                    qt = _norm(q.get("question", ""))
-                    if qt:
-                        tmp_day_seen.add(qt)
-                politics_retry = generate_politics_for_mode(
-                    plugins=plugins,
-                    target=missing,
-                    past_texts=past_texts,
-                    day_seen=tmp_day_seen,
-                    mode=mode,
-                )
-                politics.extend(politics_retry or [])
-
-            # 4) Wenn immer noch < 2 Politik, fülle den Fehlbetrag mit Nicht-Politik auf
-            if len(politics) < target_politics:
-                deficit = target_politics - len(politics)
-                others += generate_random_categories(
-                    plugins=plugins,
-                    k=deficit,
-                    past_texts=past_texts,
-                    exclude=_german_exclude_set(plugins),
-                    mode=mode,
-                )
-
-            # 5) Finalisieren
-            politics = politics[:target_politics]
-            others = others[:target_others]
-            qlist: List[dict] = politics + others
 
         else:  # mode == "physik"
             # nur Physik, 10 Fragen
