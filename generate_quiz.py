@@ -29,12 +29,16 @@ NEU (diese Version):
   Wenn ein Plugin keine Unterkategorie liefert, bleibt `subcategory` einfach ungesetzt.
 """
 
-# --- ensure repo root on sys.path ---
+# --- ensure repo root and kategorien dir on sys.path ---
 import os, sys
 REPO_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+KATEGORIEN_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "kategorien"))
 if REPO_ROOT not in sys.path:
     # append (not insert at front) to avoid shadowing Python stdlib modules
     sys.path.append(REPO_ROOT)
+if KATEGORIEN_DIR not in sys.path:
+    # Add kategorien dir so Unterkategorien package can be imported
+    sys.path.append(KATEGORIEN_DIR)
 
 import re
 import json
