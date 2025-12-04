@@ -1,168 +1,168 @@
 {
   "date": "2025-12-04",
-  "generated_at": "2025-12-04T15:48:11Z",
+  "generated_at": "2025-12-04T15:59:25Z",
   "schema_version": 6,
   "mode": "physik",
   "questions": [
     {
       "category": "Physik",
       "topic": "Quantenmechanik",
-      "subtopic": "Eigenfunktionen der gebundenen Zustände (Laguerre)",
-      "question": "Which of the following statements about the eigenfunctions of the bound states in a hydrogen atom, described by Laguerre polynomials, is correct?",
+      "subtopic": "Resonanzstreuung",
+      "question": "What does the term resonance scattering describe in quantum mechanics?",
       "choices": [
-        "A: The eigenfunctions are independent of the principal quantum number.",
-        "B: The eigenfunctions are not normalizable.",
-        "C: The eigenfunctions are always constant in time.",
-        "D: The eigenfunctions are orthogonal to each other."
+        "Which law describes the relationship between the temperature of a black body and the wavelength at which the maximum radiation intensity occurs?",
+        "The Wien's displacement law describes how the temperature of a black body influences the wavelength at which radiation is at its maximum. It shows that the wavelength decreases as the temperature increases.",
+        "What does the equation of state of an ideal gas describe?",
+        "The equation of state of an ideal gas, represented by the formula PV = nRT, describes the relationship between pressure (P), volume (V), and temperature (T) of the gas. This relationship is fundamental for understanding the properties of ideal gases in thermodynamics."
       ],
       "correct_answer": "D",
-      "explanation": "The eigenfunctions of the bound states in the hydrogen atom are actually orthogonal to each other, which is an important property in quantum mechanics. This orthogonality is crucial for the development of quantum states and the application of superposition principles.",
-      "difficulty": 8,
-      "subcategory": "Eigenfunktionen der gebundenen Zustände (Laguerre)"
-    },
-    {
-      "category": "Physik",
-      "topic": "Statistische Mechanik",
-      "subtopic": "Kritische Exponenten & Skalengesetze",
-      "question": "What does the critical exponent describe in statistical mechanics?",
-      "choices": [
-        "A: The speed of light in a vacuum.",
-        "B: The mass of a particle.",
-        "C: The temperature of an ideal gas.",
-        "D: The behavior of a system near a phase boundary."
-      ],
-      "correct_answer": "D",
-      "explanation": "The critical exponent describes how physical quantities such as specific heat or magnetization vary near a phase transition. This is a central concept in statistical mechanics, especially in the analysis of critical phenomena.",
-      "difficulty": 1,
-      "subcategory": "Kritische Exponenten & Skalengesetze"
+      "explanation": "Resonance scattering describes a process in which particles interact with a specific energy level and temporarily reach a higher energy level as a result. This interaction is characteristic of quantum mechanics and leads to specific scattering effects.",
+      "difficulty": 4,
+      "subcategory": "Resonanzstreuung"
     },
     {
       "category": "Physik",
       "topic": "Optik",
-      "subtopic": "Lichttechnische Größen",
-      "question": "What does luminous intensity describe in optics?",
+      "subtopic": "Strahlungsgesetze (Wien, Rayleigh–Jeans)",
+      "question": "What does electric current in a conductor describe?",
       "choices": [
-        "A: The intensity of light emitted in a specific direction.",
-        "B: The total amount of light emitted by a light source.",
-        "C: The color of light.",
-        "D: The wavelength of light."
-      ],
-      "correct_answer": "A",
-      "explanation": "Luminous intensity is a measure of the intensity of light emitted in a specific direction. It is measured in candela (cd) and is an important quantity in lighting technology.",
-      "difficulty": 2,
-      "subcategory": "Lichttechnische Größen"
-    },
-    {
-      "category": "Physik",
-      "topic": "Statistische Mechanik",
-      "subtopic": "Großkanonisches Potential (Quanten-Gase)",
-      "question": "What does the grand canonical potential describe in statistical mechanics for quantum gases?",
-      "choices": [
-        "A: The relationship between temperature and energy of a system.",
-        "B: The energetic distribution of particles in a system at constant pressure and temperature.",
-        "C: The interaction between particles in a gas.",
-        "D: The free energy of a system at constant volume and temperature."
+        "Which statement about the density of states in solids is correct?",
+        "The density of states in solids indicates how many quantum states per energy unit are present in a specific energy range. In semiconductors, the density of states near the band gap is particularly relevant as it determines the behavior of electrons and holes in these materials.",
+        "Which of the following laws is part of the Maxwell equations?",
+        "The Gauss's law for electricity is one of the four Maxwell equations and describes how electric fields are related to charges. The other laws mentioned do not belong to electrodynamics and deal with other physical phenomena."
       ],
       "correct_answer": "D",
-      "explanation": "The grand canonical potential describes the free energy of a system in contact with a reservoir of particles and energy. It is used to analyze macroscopic properties of quantum gases, especially at constant volume and temperature.",
-      "difficulty": 3,
-      "subcategory": "Großkanonisches Potential (Quanten-Gase)"
-    },
-    {
-      "category": "Physik",
-      "topic": "Analytische Mechanik",
-      "subtopic": "Erweiterungen des Hamilton’schen Prinzips",
-      "question": "What does Hamilton's principle describe in analytical mechanics?",
-      "choices": [
-        "A: Forces can only be considered in a conservative field.",
-        "B: The momentum of a system is always conserved.",
-        "C: The energy of a system remains constant during motion.",
-        "D: The motion of a system of particles minimizes the total action function."
-      ],
-      "correct_answer": "D",
-      "explanation": "Hamilton's principle states that the actual motion of a system between two time points is the path that minimizes the total action function. This is a central concept in analytical mechanics that forms the basis for formulating the equations of motion.",
-      "difficulty": 4,
-      "subcategory": "Erweiterungen des Hamilton’schen Prinzips"
-    },
-    {
-      "category": "Physik",
-      "topic": "Statistische Mechanik",
-      "subtopic": "Universalität & Skalenhypothese (statisch)",
-      "question": "What does the scaling hypothesis describe in statistical mechanics?",
-      "choices": [
-        "A: Energy can only be transferred in discrete amounts.",
-        "B: All physical laws are irrelevant on macroscopic scales.",
-        "C: The behavior of systems on different scales is independent of the details of microscopic interactions.",
-        "D: Temperature is independent of the number of particles in a system."
-      ],
-      "correct_answer": "C",
-      "explanation": "The scaling hypothesis states that the behavior of physical systems on macroscopic scales is independent of the specific microscopic details. This universality is a central concept in statistical mechanics that helps understand complex systems.",
-      "difficulty": 1,
-      "subcategory": "Universalität & Skalenhypothese (statisch)"
-    },
-    {
-      "category": "Physik",
-      "topic": "Kern- und Teilchenphysik",
-      "subtopic": "Doppelter β‑Zerfall",
-      "question": "What is a characteristic feature of double beta decay?",
-      "choices": [
-        "A: It is a form of alpha decay.",
-        "B: It leads to the emission of two electrons and two neutrinos.",
-        "C: It only occurs in heavy elements.",
-        "D: It always causes a change in atomic mass by 4 units."
-      ],
-      "correct_answer": "B",
-      "explanation": "Double beta decay is a process where two beta decays occur simultaneously, leading to the emission of two electrons and two neutrinos. This differs from other decay modes, such as alpha decay, which does not emit two electrons.",
-      "difficulty": 6,
-      "subcategory": "Doppelter β‑Zerfall"
-    },
-    {
-      "category": "Physik",
-      "topic": "Kern- und Teilchenphysik",
-      "subtopic": "Dipolschwingungen",
-      "question": "What does a dipole vibration in an electric dipole describe?",
-      "choices": [
-        "A: The periodic change of electric dipole moments over time.",
-        "B: The uniform distribution of electric charge in a metal.",
-        "C: The constant position of an electric dipole in space.",
-        "D: The interaction between two oppositely charged particles."
-      ],
-      "correct_answer": "A",
-      "explanation": "A dipole vibration describes the temporal change of the dipole moment that arises when positive and negative charges move relative to each other. This movement results in electromagnetic radiation and is important for understanding molecular vibrations and their interactions with electromagnetic fields.",
-      "difficulty": 6,
-      "subcategory": "Dipolschwingungen"
+      "explanation": "Electric current is defined as the movement of electric charges, typically electrons, through a conductor. This movement is often measured in amperes and is crucial for understanding electrical circuits.",
+      "difficulty": 5,
+      "subcategory": "Strahlungsgesetze (Wien, Rayleigh–Jeans)"
     },
     {
       "category": "Physik",
       "topic": "Thermodynamik",
-      "subtopic": "Temperaturbegriff (thermisches Gleichgewicht)",
-      "question": "What does thermal equilibrium between two systems describe?",
+      "subtopic": "Ideales Gas (Zustandsgleichung)",
+      "question": "What does the minimum of the free energy F in a closed system in a heat bath describe?",
       "choices": [
-        "A: The systems have the same volume.",
-        "B: The systems have the same temperature.",
-        "C: The systems have the same pressure.",
-        "D: The systems are made of the same material."
+        "Which of the following statements about the interaction between two point-like electric charges is correct?",
+        "The Coulomb force describes the interaction between two electric charges and is repulsive when the charges are of the same sign. This force is quantified by Coulomb's law and is inversely proportional to the square of the distance between the charges, meaning that the force decreases with increasing distance.",
+        "Which statement about the internal energy (U) and enthalpy (H) is correct?",
+        "Enthalpy (H) is defined as the internal energy (U) plus the product of pressure and volume (PV). It is particularly important in processes at constant pressure as it encompasses all the energy needed for work and heat transfer."
       ],
-      "correct_answer": "B",
-      "explanation": "In thermal equilibrium, two systems no longer have net energy transfer, meaning their temperatures are equal. This is a fundamental concept in thermodynamics and crucial for understanding heat transfer.",
-      "difficulty": 5,
-      "subcategory": "Temperaturbegriff (thermisches Gleichgewicht)"
+      "correct_answer": "A",
+      "explanation": "The minimum of the free energy F in a closed system in a heat bath indicates that the system is in thermal equilibrium. In this state, the macroscopic properties are stable, and there is no net movement of energy or particles in the system.",
+      "difficulty": 4,
+      "subcategory": "Ideales Gas (Zustandsgleichung)"
     },
     {
       "category": "Physik",
-      "topic": "Kern- und Teilchenphysik",
-      "subtopic": "Kernspaltung",
-      "question": "What is the main product of the fission of uranium-235?",
+      "topic": "Elektrodynamik",
+      "subtopic": "Elektrischer Strom (Definition & Kontinuitätsgleichung)",
+      "question": "Which of the following statements best describes the process of coherent inelastic neutron scattering?",
       "choices": [
-        "A: Helium-4",
-        "B: Carbon-12",
-        "C: Hydrogen-1",
-        "D: Barium-141 and Krypton-92"
+        "A: Die Spannung an den Enden des Leiters.",
+        "B: Die Bewegung von elektrischen Ladungen.",
+        "C: Den Widerstand des Leiters.",
+        "D: Die Temperatur des Leiters."
+      ],
+      "correct_answer": "B",
+      "explanation": "In coherent inelastic neutron scattering, neutrons lose energy and transfer it to the atoms of the material, leading to vibrations. This process allows for obtaining information about the dynamic properties of the solid.",
+      "difficulty": 5,
+      "subcategory": "Elektrischer Strom (Definition & Kontinuitätsgleichung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Zustandsdichte (Bänder)",
+      "question": "Welche Aussage zur Zustandsdichte in Festkörpern ist korrekt?",
+      "choices": [
+        "A: Die Zustandsdichte ist konstant bei allen Energien in einem Metall.",
+        "B: Die Zustandsdichte beschreibt die Anzahl der Zustände pro Energiedifferenz und ist für Halbleiter bei der Bandlücke am höchsten.",
+        "C: In Isolatoren liegt die Zustandsdichte immer über der von Metallen.",
+        "D: Die Zustandsdichte beeinflusst nicht die elektrischen Eigenschaften von Materialien."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Zustandsdichte in Festkörpern gibt an, wie viele Quantenzustände pro Energieeinheit in einem bestimmten Energiebereich vorhanden sind. Bei Halbleitern ist die Zustandsdichte in der Nähe der Bandlücke besonders relevant, da sie das Verhalten von Elektronen und Löchern in diesen Materialien bestimmt.",
+      "difficulty": 8,
+      "subcategory": "Zustandsdichte (Bänder)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Maxwell-Gleichungen (vollständig)",
+      "question": "Welches der folgenden Gesetze ist Teil der Maxwell-Gleichungen?",
+      "choices": [
+        "A: Das Hooke'sche Gesetz",
+        "B: Das Gauss'sche Gesetz für die Elektrizität",
+        "C: Das Gesetz von Boyle-Mariotte",
+        "D: Das Gesetz der Energieerhaltung"
+      ],
+      "correct_answer": "B",
+      "explanation": "Das Gauss'sche Gesetz für die Elektrizität ist eine der vier Maxwell-Gleichungen und beschreibt, wie elektrische Felder mit Ladungen verbunden sind. Die anderen genannten Gesetze gehören nicht zur Elektrodynamik und behandeln andere physikalische Phänomene.",
+      "difficulty": 5,
+      "subcategory": "Maxwell-Gleichungen (vollständig)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Geschl. System im Wärmebad: Minimum der freien Energie F",
+      "question": "Was beschreibt das Minimum der freien Energie F in einem geschlossenen System im Wärmebad?",
+      "choices": [
+        "A: Die Energie des Systems ist konstant.",
+        "B: Das System hat die maximale Entropie erreicht.",
+        "C: Das System befindet sich im thermischen Gleichgewicht.",
+        "D: Das System hat die minimale Temperatur erreicht."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Minimum der freien Energie F in einem geschlossenen System im Wärmebad zeigt an, dass das System im thermischen Gleichgewicht ist. In diesem Zustand sind die makroskopischen Eigenschaften stabil, und es gibt keine Nettobewegung von Energie oder Teilchen im System.",
+      "difficulty": 4,
+      "subcategory": "Geschl. System im Wärmebad: Minimum der freien Energie F"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Ladungen und Ströme",
+      "question": "Welche der folgenden Aussagen über die Wechselwirkung zwischen zwei punktförmigen elektrischen Ladungen ist korrekt?",
+      "choices": [
+        "A: Die elektrische Kraft wirkt nur über einen festen, definierten Abstand zwischen den Ladungen.",
+        "B: Die elektrische Kraft zwischen zwei gleichnamigen Ladungen ist abstoßend und folgt dem Coulombschen Gesetz.",
+        "C: Die Kraft zwischen den Ladungen ist immer anziehend, unabhängig von ihren Vorzeichen.",
+        "D: Die Stärke der elektrischen Kraft ist unabhängig von der Entfernung zwischen den Ladungen."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Coulomb-Kraft beschreibt die Wechselwirkung zwischen zwei elektrischen Ladungen und ist abstoßend, wenn die Ladungen gleichnamig sind. Diese Kraft wird durch das Coulomb-Gesetz quantifiziert und ist invers proportional zum Quadrat der Entfernung zwischen den Ladungen, was bedeutet, dass die Kraft mit zunehmender Entfernung abnimmt.",
+      "difficulty": 8,
+      "subcategory": "Ladungen und Ströme"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Extremaleigenschaften von U und H",
+      "question": "Welche Aussage über die innere Energie (U) und die Enthalpie (H) ist korrekt?",
+      "choices": [
+        "A: Die Enthalpie berücksichtigt die Arbeit, die bei konstantem Druck verrichtet wird.",
+        "B: Die innere Energie ist unabhängig von der Temperatur.",
+        "C: Die Enthalpie ist immer kleiner als die innere Energie.",
+        "D: Die innere Energie kann nicht in thermodynamischen Prozessen verändert werden."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Enthalpie (H) ist definiert als die innere Energie (U) plus das Produkt aus Druck und Volumen (PV). Sie ist besonders wichtig in Prozessen bei konstantem Druck, da sie die gesamte Energie umfasst, die für die Arbeit und die Wärmeübertragung benötigt wird.",
+      "difficulty": 5,
+      "subcategory": "Extremaleigenschaften von U und H"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Kohärente inelastische Neutronenstreuung",
+      "question": "Welche der folgenden Aussagen beschreibt am besten den Prozess der kohärenten inelastischen Neutronenstreuung?",
+      "choices": [
+        "A: Die Neutronen verlieren Energie und ändern ihre Richtung ohne Energieübertragung an das Material.",
+        "B: Die Neutronen werden elastisch gestreut, wobei ihre Energie und Richtung unverändert bleiben.",
+        "C: Die Neutronen werden vollständig absorbiert und erzeugen keine Streuung.",
+        "D: Die Neutronen übertragen Energie auf das Material und erzeugen dabei Schwingungen der Atome."
       ],
       "correct_answer": "D",
-      "explanation": "In the fission of uranium-235, the typical fission products are barium-141 and krypton-92, as well as neutrons and energy. This reaction is fundamental to the operation of nuclear power plants.",
-      "difficulty": 5,
-      "subcategory": "Kernspaltung"
+      "explanation": "Bei der kohärenten inelastischen Neutronenstreuung verlieren die Neutronen Energie und übertragen diese auf die Atome des Materials, was zu Schwingungen führt. Dieser Prozess ermöglicht es, Informationen über die dynamischen Eigenschaften des Festkörpers zu gewinnen.",
+      "difficulty": 6,
+      "subcategory": "Kohärente inelastische Neutronenstreuung"
     }
   ]
 }

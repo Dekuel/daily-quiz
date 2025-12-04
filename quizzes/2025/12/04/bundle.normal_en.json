@@ -1,78 +1,102 @@
 {
   "date": "2025-12-04",
-  "generated_at": "2025-12-04T15:47:53Z",
+  "generated_at": "2025-12-04T15:59:11Z",
   "schema_version": 6,
   "mode": "normal",
   "questions": [
     {
-      "category": "Wissenschaft",
-      "topic": "Biologie",
-      "question": "Which of the following organelles is responsible for energy production in the cell?",
+      "category": "Technologie",
+      "topic": "Soziale Medien",
+      "question": "What does the term 'Influencer' refer to in social media?",
       "choices": [
-        "A: Golgi apparatus",
-        "B: Lysosomes",
-        "C: Ribosomes",
-        "D: Mitochondria"
+        "A: A software that automatically creates posts on social media.",
+        "B: A person who influences the opinions and purchasing decisions of others through their online presence.",
+        "C: An algorithm that determines the most popular posts on social media.",
+        "D: A company that runs advertisements on social media."
       ],
-      "correct_answer": "D",
-      "explanation": "Mitochondria are known as the 'powerhouses' of the cell because they produce ATP, the cell's main source of energy. Ribosomes are responsible for protein production, while the Golgi apparatus and lysosomes have other functions in cell processing and waste disposal.",
-      "difficulty": 4
+      "correct_answer": "B",
+      "explanation": "An influencer is a person who exerts influence on others through their following on social media, often in the context of marketing and advertising. Influencers use their reach to recommend products or services, thus influencing the purchasing decisions of their followers.",
+      "difficulty": 3
     },
     {
       "category": "Language",
-      "topic": "Idioms",
-      "question": "What does the idiom 'auf dem Holzweg sein' mean?",
+      "topic": "Etymology",
+      "question": "Which of the following English words originates from Latin?",
       "choices": [
-        "A: To be on the wrong track",
-        "B: To have a strong opinion",
-        "C: To be very successful",
-        "D: To work hard for a goal"
+        "A: Culture",
+        "B: Café",
+        "C: Vodka",
+        "D: Kindergarten"
       ],
       "correct_answer": "A",
-      "explanation": "'Auf dem Holzweg sein' translates to 'to be on the wrong track' in English, indicating that someone is pursuing an incorrect or misguided approach. This idiom uses the Dative case, reflecting its fixed expression in the German language.",
+      "explanation": "The word 'culture' comes from the Latin 'cultura', meaning cultivation or tillage. In contrast, 'café' comes from French, 'vodka' from a Slavic language, and 'kindergarten' is derived from German.",
+      "difficulty": 8
+    },
+    {
+      "category": "Kunst und Literatur",
+      "topic": "Kunstwissen & Allgemeines",
+      "question": "Which of these formats is typically associated with contemporary art and often serves as a platform for new, experimental art practices?",
+      "choices": [
+        "A: Museum",
+        "B: Gallery",
+        "C: Art academy",
+        "D: Biennial"
+      ],
+      "correct_answer": "D",
+      "explanation": "Biennials are large, regularly occurring art exhibitions that allow artists to showcase their work to a broad audience. They are often pioneering for new trends in contemporary art and provide a space for innovative and experimental practices.",
       "difficulty": 5
+    },
+    {
+      "question": "Which type of school usually leads to the completion of the Mittlere Reife?",
+      "category": "Alltag & Gesellschaft",
+      "subcategory": "Lehrer & Unterrichtsmethoden",
+      "difficulty": 3,
+      "options": {
+        "A": "Grundschule",
+        "B": "Gesamtschule",
+        "C": "Hauptschule",
+        "D": "Realschule"
+      },
+      "correct_answer": "D"
     },
     {
       "category": "Glaube & Religion",
-      "topic": "Monotheistische Religionen",
-      "question": "Which event is considered the founding of the ancient Kingdom of Israel in Judaism?",
+      "topic": "Klassische & nordische Mythologien",
+      "question": "Which god is often referred to as the Allfather in Norse mythology?",
       "choices": [
-        "A: The Exodus from Egypt",
-        "B: The conquest of Canaan under Joshua",
-        "C: The construction of the first Temple in Jerusalem",
-        "D: The return from the Babylonian Exile"
+        "A: Thor",
+        "B: Loki",
+        "C: Freyja",
+        "D: Odin"
       ],
-      "correct_answer": "B",
-      "explanation": "The conquest of Canaan under Joshua marks the beginning of the settlement and political organization of ancient Israel, which established itself as a kingdom. This event is of great importance to Judaism and is described in the Hebrew Bible.",
-      "difficulty": 5
-    },
-    {
-      "category": "Geschichte",
-      "topic": "Antike",
-      "question": "Which city was the political and cultural center of the Byzantine Empire?",
-      "choices": [
-        "A: Constantinople",
-        "B: Athens",
-        "C: Rome",
-        "D: Cairo"
-      ],
-      "correct_answer": "A",
-      "explanation": "Constantinople, founded by Emperor Constantine the Great, became the center of the Byzantine Empire and played a key role in continuing ancient traditions. The city was known for its impressive buildings and its strategic location between Europe and Asia.",
+      "correct_answer": "D",
+      "explanation": "Odin is a central figure in Norse mythology, known as the Allfather who rules over wisdom, war, and death. He is also recognized for his role as the leader of the gods and his pursuit of knowledge. Thor, Loki, and Freyja are also important gods but play different roles.",
       "difficulty": 6
     },
     {
-      "category": "Technologie",
-      "topic": "KI & Zukunftstechnologien",
-      "question": "Which of the following quantum computing models uses the property of superposition of quantum bits (qubits) for information processing?",
+      "question": "Who is the current President of the United States?",
       "choices": [
-        "A: Analog model",
-        "B: Classical model",
-        "C: Hybrid model",
-        "D: Gate model"
+        "A. Joe Biden",
+        "B. Donald Trump",
+        "C. Barack Obama"
       ],
-      "correct_answer": "D",
-      "explanation": "The Gate model is a well-known quantum computing model that utilizes the principles of quantum mechanics, particularly the superposition and entanglement of qubits, to perform complex calculations. In contrast, the other models do not rely on the fundamental properties of quantum mechanics and are therefore not suitable for quantum computations.",
-      "difficulty": 8
+      "correct_answer": "A",
+      "difficulty": 1,
+      "category": "politics"
+    },
+    {
+      "category": "Geographie",
+      "topic": "Hauptstädte",
+      "question": "Which of the following capitals is closest to the Equator?",
+      "choices": [
+        "A: Buenos Aires",
+        "B: Santiago",
+        "C: Quito",
+        "D: Brasília"
+      ],
+      "correct_answer": "C",
+      "explanation": "Quito, the capital of Ecuador, is located just a few kilometers north of the Equator. In comparison, Buenos Aires and Santiago are significantly further south, while Brasília is also farther from the Equator line.",
+      "difficulty": 7
     }
   ]
 }

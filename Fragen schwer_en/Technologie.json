@@ -28,6 +28,20 @@
       "correct_answer": "C",
       "explanation": "TensorFlow Quantum is a specific framework for integrating quantum computing into machine learning and is particularly suitable for optimizing problems in quantum information science. Qiskit and Cirq are also significant frameworks but not primarily designed for optimization problems. OpenFermion focuses on quantum chemical calculations rather than general optimization algorithms.",
       "difficulty": 10
+    },
+    {
+      "category": "Technologie",
+      "topic": "Technik-Geschichte",
+      "question": "Which protocol was originally developed for the exchange of email messages and remains a standard on the Internet to this day?",
+      "choices": [
+        "A: POP3",
+        "B: HTTP",
+        "C: IMAP",
+        "D: SMTP"
+      ],
+      "correct_answer": "D",
+      "explanation": "SMTP (Simple Mail Transfer Protocol) is the basic protocol for sending emails over the Internet. It was developed in the 1980s and continues to be the standard for email delivery. IMAP and POP3 are protocols for receiving emails, while HTTP is used for data transfer on the web.",
+      "difficulty": 8
     }
   ]
 }

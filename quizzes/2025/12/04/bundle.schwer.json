@@ -1,104 +1,104 @@
 {
   "date": "2025-12-04",
-  "generated_at": "2025-12-04T15:46:25Z",
+  "generated_at": "2025-12-04T15:57:57Z",
   "schema_version": 6,
   "mode": "schwer",
   "questions": [
     {
-      "category": "Sprache",
-      "topic": "Grammatik",
-      "question": "Welcher Satz ist grammatikalisch korrekt?",
+      "category": "Geschichte",
+      "topic": "Antike",
+      "question": "Welche der folgenden Hochkulturen war nicht in Mesopotamien ansässig?",
       "choices": [
-        "A: Ich weiß, dass heute nicht kommst du.",
-        "B: Ich weiß, du heute nicht kommst, dass.",
-        "C: Ich weiß, kommst du heute nicht, dass.",
-        "D: Ich weiß, dass du heute nicht kommst."
-      ],
-      "correct_answer": "D",
-      "explanation": "Der Satz in A ist korrekt, weil die Konjunktion 'dass' die Nebensatzstruktur richtig einleitet und das Verb am Ende steht. In den anderen Sätzen sind die Verben falsch positioniert, was die Satzstellung stört und die Grammatik unverständlich macht.",
-      "difficulty": 7
-    },
-    {
-      "category": "Wissenschaft",
-      "topic": "Chemie",
-      "question": "Welches der folgenden Anionen ist nicht Teil der Gruppe der Halogenide?",
-      "choices": [
-        "A: Fluorid",
-        "B: Nitrat",
-        "C: Bromid",
-        "D: Iodid"
+        "A: Assyrer",
+        "B: Ägypter",
+        "C: Babylonier",
+        "D: Sumerer"
       ],
       "correct_answer": "B",
-      "explanation": "Halogenide sind Salze oder Verbindungen, die Halogenanione wie Iodid, Fluorid und Bromid enthalten. Nitrat hingegen ist ein Anion, das aus Stickstoff und Sauerstoff besteht und nicht zu den Halogeniden zählt.",
+      "explanation": "Die Ägypter entwickelten ihre Hochkultur am Nil in Ägypten, während die anderen genannten Kulturen in Mesopotamien, dem Gebiet zwischen Tigris und Euphrat, ansässig waren. Diese Hochkulturen zeichneten sich durch fortschrittliche Entwicklungen in Schrift, Architektur und Verwaltung aus.",
+      "difficulty": 9
+    },
+    {
+      "category": "Technologie",
+      "topic": "Technik-Geschichte",
+      "question": "Welches Protokoll wurde ursprünglich für den Austausch von E-Mail-Nachrichten entwickelt und ist bis heute ein Standard im Internet?",
+      "choices": [
+        "A: POP3",
+        "B: HTTP",
+        "C: IMAP",
+        "D: SMTP"
+      ],
+      "correct_answer": "D",
+      "explanation": "SMTP (Simple Mail Transfer Protocol) ist das grundlegende Protokoll für den Versand von E-Mails über das Internet. Es wurde in den 1980er Jahren entwickelt und ist nach wie vor der Standard für den E-Mail-Versand. IMAP und POP3 sind Protokolle für den Empfang von E-Mails, während HTTP für den Datenübertrag im Web verwendet wird.",
       "difficulty": 8
     },
     {
-      "question": "Wie hoch ist das Bußgeld für das Fahren mit einer Geschwindigkeit von 60 km/h in einer 30 km/h-Zone?",
-      "category": "Alltag & Gesellschaft",
-      "subcategory": "Bußgeld & Punkte in Flensburg",
-      "difficulty": 7,
-      "options": {
-        "A": "80 Euro",
-        "B": "120 Euro",
-        "C": "100 Euro",
-        "D": "40 Euro"
-      },
-      "correct_answer": "B"
-    },
-    {
-      "question": "Welche der folgenden Aussagen beschreibt korrekt die Funktion der Treuhandanstalt nach der Wiedervereinigung Deutschlands?",
-      "category": "Wirtschaft & Finanzen",
-      "subcategory": "Wiedervereinigung & Treuhand",
-      "difficulty": 8,
-      "options": {
-        "A": "Sie wurde 1989 gegründet, um die Deutsche Mark in Ostdeutschland einzuführen.",
-        "B": "Ihre Hauptaufgabe war die Privatisierung und Sanierung von volkseigenen Betrieben in den neuen Bundesländern.",
-        "C": "Die Treuhandanstalt sollte 1990 alle westdeutschen Unternehmen übertake.",
-        "D": "Sie wurde 1991 gegründet, um den Marshallplan für Ostdeutschland zu verwalten."
-      },
-      "correct_answer": "B"
-    },
-    {
-      "category": "Geschichte",
-      "topic": "Zeitgeschichte (ab 1945)",
-      "question": "Welcher der folgenden Verträge wurde 1949 unterzeichnet und legte die Grundlagen für die Teilung Deutschlands in zwei Staaten?",
+      "category": "Geographie",
+      "topic": "Städte, Länder & Flaggen",
+      "question": "Welche der folgenden Städte ist bekannt als einer der größten Seehandelsknoten in Europa und liegt an der Mündung des Rheins?",
       "choices": [
-        "A: Pariser Verträge",
-        "B: Petersberger Abkommen",
-        "C: Genfer Abkommen",
-        "D: Potsdamer Abkommen"
+        "A: Rotterdam",
+        "B: Hamburg",
+        "C: Antwerpen",
+        "D: Marseille"
       ],
       "correct_answer": "A",
-      "explanation": "Die Pariser Verträge von 1949 waren entscheidend für die westliche Integration der Bundesrepublik Deutschland und führten zur endgültigen Teilung des Landes. Sie regelten unter anderem die Beziehungen zwischen der Bundesrepublik und den westlichen Alliierten und schufen die Grundlage für die Souveränität der Bundesrepublik Deutschland.",
-      "difficulty": 7
-    },
-    {
-      "category": "Essen und Trinken",
-      "topic": "Ernährung",
-      "question": "Welches der folgenden Elemente gehört nicht zum HACCP-Prinzip zur Gewährleistung der Lebensmittelsicherheit?",
-      "choices": [
-        "A: Überwachung der Kontrollmaßnahmen",
-        "B: Verwendung von organischen Zutaten",
-        "C: Identifizierung von Gefahren",
-        "D: Festlegung von Kontrollpunkten"
-      ],
-      "correct_answer": "B",
-      "explanation": "Das HACCP-Prinzip fokussiert sich auf die Identifikation und Kontrolle von Gefahren in der Lebensmittelproduktion. Die Verwendung von organischen Zutaten ist kein Bestandteil dieses Systems, sondern betrifft eher die Herkunft und die Anbauweise der Lebensmittel.",
-      "difficulty": 7
+      "explanation": "Rotterdam ist einer der größten Seehäfen Europas und ein bedeutender Knotenpunkt für den internationalen Handel. Die Stadt liegt strategisch an der Mündung des Rheins, was ihr eine herausragende Bedeutung im europäischen Warenverkehr verleiht.",
+      "difficulty": 8
     },
     {
       "category": "Politiker",
-      "discipline": "Regierungschefs (Welt)",
-      "question": "Wer ist Regierungschef von USA?",
+      "discipline": "Ministerien (DE)",
+      "question": "Wer ist Bundesminister(in) für Bundesministerium für Umwelt, Naturschutz, nukleare Sicherheit und Verbraucherschutz?",
       "choices": [
-        "A: Barack Obama",
-        "B: George W. Bush",
-        "C: Donald Trump",
-        "D: Joe Biden"
+        "A: Anja Karliczek",
+        "B: Barbara Hendricks",
+        "C: Svenja Schulze",
+        "D: Olaf Scholz"
       ],
-      "correct_answer": "C",
-      "explanation": "Donald Trump war ein prominenter Regierungschef der USA. Er ist bekannt für seine unkonventionelle Politik und seine Präsidentschaft hat viele Kontroversen ausgelöst.",
+      "correct_answer": "B",
+      "explanation": "Barbara Hendricks war die Bundesministerin für Umwelt, Naturschutz, nukleare Sicherheit und Verbraucherschutz in Deutschland. Sie hatte in dieser Position mehrere wichtige Projekte zur Förderung des Umweltschutzes geleitet.",
       "difficulty": 1
+    },
+    {
+      "category": "Kunst und Literatur",
+      "topic": "Moderne & Zeitgenössische Kunst",
+      "question": "Welches ikonische Motiv wird häufig in der Street Art verwendet und symbolisiert oft soziale Ungerechtigkeiten und den Widerstand gegen Autoritäten?",
+      "choices": [
+        "A: Die Taube",
+        "B: Der Anarchist Stern",
+        "C: Die Banane",
+        "D: Der Smiley"
+      ],
+      "correct_answer": "B",
+      "explanation": "Der Anarchist Stern ist ein bekanntes Symbol, das in der Street Art häufig verwendet wird, um Protest und Widerstand auszudrücken. Es steht für die Ablehnung von Autorität und die Forderung nach sozialer Gerechtigkeit, was es zu einem ikonischen Motiv in dieser Kunstform macht.",
+      "difficulty": 10
+    },
+    {
+      "question": "Was ist der Hauptvorteil des Kontowechsels mit einem Wechselservice?",
+      "category": "Wirtschaft & Finanzen",
+      "subcategory": "Kontowechsel & Wechselservice",
+      "difficulty": 6,
+      "options": {
+        "A": "Er reduziert den Zinssatz für Kredite.",
+        "B": "Er sorgt dafür, dass alle regelmäßigen Zahlungen automatisch zu einem neuen Konto übertragen werden.",
+        "C": "Er ermöglicht höhere Tagesgeldzinsen.",
+        "D": "Er erhöht die Bonität des Kontoinhabers."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "question": "Welche der folgenden Aussagen beschreibt korrekt den Anspruch auf Elterngeld während der Elternzeit?",
+      "category": "Alltag & Gesellschaft",
+      "subcategory": "Elternzeit & Elterngeld",
+      "difficulty": 7,
+      "options": {
+        "A": "Elterngeld kann nur für maximal 6 Monate beantragt werden.",
+        "B": "Elterngeld wird auch während des Mutterschutzes gezahlt.",
+        "C": "Eltern können Elterngeld bis zu 14 Monate lang in Anspruch nehmen, wenn beide Elternteile sich beteiligen.",
+        "D": "Das Elterngeld beträgt immer 100% des vorherigen Einkommens ohne Höchstgrenze."
+      },
+      "correct_answer": "C"
     }
   ]
 }

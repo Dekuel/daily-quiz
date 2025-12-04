@@ -1,78 +1,105 @@
 {
   "date": "2025-12-04",
-  "generated_at": "2025-12-04T15:45:36Z",
+  "generated_at": "2025-12-04T15:57:23Z",
   "schema_version": 6,
   "mode": "normal",
   "questions": [
     {
-      "category": "Wissenschaft",
-      "topic": "Biologie",
-      "question": "Welche der folgenden Organellen ist für die Energieproduktion in der Zelle verantwortlich?",
+      "category": "Technologie",
+      "topic": "Soziale Medien",
+      "question": "Was bezeichnet der Begriff 'Influencer' in sozialen Medien?",
       "choices": [
-        "A: Golgi-Apparat",
-        "B: Lysosomen",
-        "C: Ribosomen",
-        "D: Mitochondrien"
+        "A: Eine Software, die automatisch Beiträge in sozialen Medien erstellt.",
+        "B: Eine Person, die durch ihre Online-Präsenz Einfluss auf die Meinungen und Kaufentscheidungen anderer hat.",
+        "C: Ein Algorithmus, der die beliebtesten Beiträge in sozialen Medien bestimmt.",
+        "D: Ein Unternehmen, das Werbeanzeigen in sozialen Medien schaltet."
       ],
-      "correct_answer": "D",
-      "explanation": "Mitochondrien sind als 'Kraftwerke' der Zelle bekannt, da sie ATP, die Hauptenergiequelle der Zelle, produzieren. Ribosomen sind für die Proteinproduktion zuständig, während der Golgi-Apparat und Lysosomen andere Funktionen in der Zellverarbeitung und Abfallentsorgung haben.",
-      "difficulty": 4
+      "correct_answer": "B",
+      "explanation": "Ein Influencer ist eine Person, die durch ihre Anhängerschaft in sozialen Medien einen Einfluss auf andere ausübt, oft im Rahmen von Marketing und Werbung. Influencer nutzen ihre Reichweite, um Produkte oder Dienstleistungen zu empfehlen und beeinflussen so die Kaufentscheidungen ihrer Follower.",
+      "difficulty": 3
     },
     {
       "category": "Sprache",
-      "topic": "Wortherkunft",
-      "question": "Welches Suffix wird verwendet, um aus einem Adjektiv ein Substantiv zu bilden, das einen Zustand oder eine Eigenschaft beschreibt?",
+      "topic": "Fremdsprachen",
+      "question": "Welches der folgenden französischen Wörter bedeutet „Haus“?",
       "choices": [
-        "A: -isch",
-        "B: -chen",
-        "C: -ung",
-        "D: -keit"
+        "A: Maison",
+        "B: Voiture",
+        "C: Chien",
+        "D: Arbre"
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Wort „Maison“ ist das französische Wort für „Haus“. Die anderen Begriffe bedeuten „Hund“ (Chien), „Auto“ (Voiture) und „Baum“ (Arbre).",
+      "difficulty": 8
+    },
+    {
+      "category": "Kunst und Literatur",
+      "topic": "Kunstwissen & Allgemeines",
+      "question": "Welches dieser Formate ist typischerweise für die zeitgenössische Kunst bekannt und stellt oft eine Plattform für neue, experimentalistische Kunstpraktiken dar?",
+      "choices": [
+        "A: Museum",
+        "B: Galerie",
+        "C: Kunstakademie",
+        "D: Biennale"
       ],
       "correct_answer": "D",
-      "explanation": "-keit ist ein produktives Suffix im Deutschen, das häufig verwendet wird, um aus Adjektiven wie 'krank' das Substantiv 'Krankheit' zu bilden. Es zeigt an, dass es sich um einen Zustand oder eine Eigenschaft handelt, während die anderen Suffixe unterschiedliche Bedeutungen oder Funktionen haben.",
+      "explanation": "Biennalen sind große, regelmäßig stattfindende Kunstausstellungen, die es Künstler:innen ermöglichen, ihre Arbeiten einem breiten Publikum vorzustellen. Sie sind oft wegweisend für neue Strömungen in der zeitgenössischen Kunst und bieten einen Raum für innovative und experimentelle Praktiken.",
       "difficulty": 5
+    },
+    {
+      "question": "Welche Schulform führt normalerweise zum Abschluss der mittleren Reife?",
+      "category": "Alltag & Gesellschaft",
+      "subcategory": "Lehrer & Unterrichtsmethoden",
+      "difficulty": 3,
+      "options": {
+        "A": "Grundschule",
+        "B": "Gesamtschule",
+        "C": "Hauptschule",
+        "D": "Realschule"
+      },
+      "correct_answer": "D"
     },
     {
       "category": "Glaube & Religion",
-      "topic": "Monotheistische Religionen",
-      "question": "Welches Ereignis gilt als die Gründung des antiken Königreichs Israel im Judentum?",
+      "topic": "Klassische & nordische Mythologien",
+      "question": "Welcher Gott wird in der nordischen Mythologie oft als der Allvater bezeichnet?",
       "choices": [
-        "A: Der Auszug aus Ägypten",
-        "B: Die Eroberung Kanaans unter Josua",
-        "C: Die Errichtung des ersten Tempels in Jerusalem",
-        "D: Die Rückkehr aus dem Babylonischen Exil"
+        "A: Thor",
+        "B: Loki",
+        "C: Freyja",
+        "D: Odin"
       ],
-      "correct_answer": "B",
-      "explanation": "Die Eroberung Kanaans unter Josua markiert den Beginn der Besiedlung und der politischen Organisation des antiken Israel, das sich als Königreich etablierte. Dieses Ereignis ist für das Judentum von großer Bedeutung und wird in der hebräischen Bibel beschrieben.",
-      "difficulty": 5
-    },
-    {
-      "category": "Geschichte",
-      "topic": "Antike",
-      "question": "Welche Stadt war das politische und kulturelle Zentrum des Byzantinischen Reiches?",
-      "choices": [
-        "A: Konstantinopel",
-        "B: Athen",
-        "C: Rom",
-        "D: Kairo"
-      ],
-      "correct_answer": "A",
-      "explanation": "Konstantinopel, gegründet von Kaiser Konstantin dem Großen, wurde zum Zentrum des Byzantinischen Reiches und spielte eine Schlüsselrolle in der Fortführung antiker Traditionen. Die Stadt war bekannt für ihre beeindruckenden Bauwerke und ihre strategische Lage zwischen Europa und Asien.",
+      "correct_answer": "D",
+      "explanation": "Odin ist eine zentrale Figur in der nordischen Mythologie, bekannt als der Allvater, der Weisheit, Krieg und Tod regiert. Er ist auch für seine Rolle als Anführer der Götter und sein Streben nach Wissen bekannt. Thor, Loki und Freyja sind ebenfalls wichtige Götter, spielen jedoch andere Rollen.",
       "difficulty": 6
     },
     {
-      "category": "Technologie",
-      "topic": "KI & Zukunftstechnologien",
-      "question": "Welches der folgenden Quantencomputing-Modelle nutzt die Eigenschaft der Überlagerung von Quantenbits (Qubits) zur Informationsverarbeitung?",
+      "category": "Politiker",
+      "discipline": "Ministerien (DE)",
+      "question": "Wer ist Bundesminister(in) für das Bundesministerium für Ernährung und Landwirtschaft?",
       "choices": [
-        "A: Analoges Modell",
-        "B: Klassisches Modell",
-        "C: Hybrid-Modell",
-        "D: Gate-Modell"
+        "A: Alois Rainer",
+        "B: Christian Schmidt",
+        "C: Julia Klöckner",
+        "D: Cem Özdemir"
       ],
-      "correct_answer": "D",
-      "explanation": "Das Gate-Modell ist ein bekanntes Quantencomputing-Modell, das die Prinzipien der Quantenmechanik nutzt, insbesondere die Überlagerung und Verschränkung von Qubits, um komplexe Berechnungen durchzuführen. Im Gegensatz dazu basieren die anderen Modelle nicht auf den fundamentalen Eigenschaften der Quantenmechanik und sind daher nicht für Quantenberechnungen geeignet.",
-      "difficulty": 8
+      "correct_answer": "A",
+      "explanation": "Der Bundesminister für Ernährung und Landwirtschaft ist für die Agrar- und Ernährungspolitik in Deutschland zuständig. Alois Rainer ist aktuell in dieser Position.",
+      "difficulty": 1
+    },
+    {
+      "category": "Geographie",
+      "topic": "Hauptstädte",
+      "question": "Welche der folgenden Hauptstädte liegt am nächsten zum Äquator?",
+      "choices": [
+        "A: Buenos Aires",
+        "B: Santiago",
+        "C: Quito",
+        "D: Brasília"
+      ],
+      "correct_answer": "C",
+      "explanation": "Quito, die Hauptstadt von Ecuador, befindet sich nur wenige Kilometer nördlich des Äquators. Im Vergleich dazu liegen Buenos Aires und Santiago deutlich weiter südlich, während Brasília ebenfalls weiter von der Äquatorlinie entfernt ist.",
+      "difficulty": 7
     }
   ]
 }

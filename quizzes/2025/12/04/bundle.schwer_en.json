@@ -1,90 +1,50 @@
 {
   "date": "2025-12-04",
-  "generated_at": "2025-12-04T15:48:04Z",
+  "generated_at": "2025-12-04T15:59:19Z",
   "schema_version": 6,
   "mode": "schwer",
   "questions": [
     {
-      "category": "Language",
-      "topic": "Etymology",
-      "question": "Which of the following terms refers specifically to the vowel changes in Germanic languages that contribute to the formation of strong verbs?",
+      "category": "Geschichte",
+      "topic": "Antike",
+      "question": "Which of the following ancient civilizations was not located in Mesopotamia?",
       "choices": [
-        "A: Ablaut",
-        "B: Umlaut",
-        "C: i-Umlaut",
-        "D: Conjugation"
-      ],
-      "correct_answer": "A",
-      "explanation": "Ablaut refers to the systematic vowel changes in the root of verbs, particularly in strong verbs of the Germanic languages. This phenomenon plays a crucial role in the conjugation patterns of these verbs, contrasting with umlaut, which is a different vowel alteration process.",
-      "difficulty": 7
-    },
-    {
-      "category": "Wissenschaft",
-      "topic": "Chemie",
-      "question": "Which of the following anions is not part of the group of halides?",
-      "choices": [
-        "A: Fluoride",
-        "B: Nitrate",
-        "C: Bromide",
-        "D: Iodide"
+        "A: Assyrians",
+        "B: Egyptians",
+        "C: Babylonians",
+        "D: Sumerians"
       ],
       "correct_answer": "B",
-      "explanation": "Halides are salts or compounds that contain halogen anions such as iodide, fluoride, and bromide. Nitrate, on the other hand, is an anion consisting of nitrogen and oxygen and does not belong to the halides.",
+      "explanation": "The Egyptians developed their ancient civilization along the Nile in Egypt, while the other mentioned civilizations were located in Mesopotamia, the region between the Tigris and Euphrates rivers. These ancient civilizations were characterized by advanced developments in writing, architecture, and administration.",
+      "difficulty": 9
+    },
+    {
+      "category": "Technologie",
+      "topic": "Technik-Geschichte",
+      "question": "Which protocol was originally developed for the exchange of email messages and remains a standard on the Internet to this day?",
+      "choices": [
+        "A: POP3",
+        "B: HTTP",
+        "C: IMAP",
+        "D: SMTP"
+      ],
+      "correct_answer": "D",
+      "explanation": "SMTP (Simple Mail Transfer Protocol) is the basic protocol for sending emails over the Internet. It was developed in the 1980s and continues to be the standard for email delivery. IMAP and POP3 are protocols for receiving emails, while HTTP is used for data transfer on the web.",
       "difficulty": 8
     },
     {
-      "question": "What is the fine for driving at a speed of 60 km/h in a 30 km/h zone?",
-      "category": "Alltag & Gesellschaft",
-      "subcategory": "Bußgeld & Punkte in Flensburg",
-      "difficulty": 7,
-      "options": {
-        "A": "80 Euro",
-        "B": "120 Euro",
-        "C": "100 Euro",
-        "D": "40 Euro"
-      },
-      "correct_answer": "B"
-    },
-    {
-      "question": "Which of the following statements correctly describes the function of the Treuhandanstalt after the reunification of Germany?",
-      "category": "Wirtschaft & Finanzen",
-      "subcategory": "Wiedervereinigung & Treuhand",
-      "difficulty": 8,
-      "options": {
-        "A": "Sie wurde 1989 gegründet, um die Deutsche Mark in Ostdeutschland einzuführen.",
-        "B": "Ihre Hauptaufgabe war die Privatisierung und Sanierung von volkseigenen Betrieben in den neuen Bundesländern.",
-        "C": "Die Treuhandanstalt sollte 1990 alle westdeutschen Unternehmen übertake.",
-        "D": "Sie wurde 1991 gegründet, um den Marshallplan für Ostdeutschland zu verwalten."
-      },
-      "correct_answer": "B"
-    },
-    {
-      "category": "Geschichte",
-      "topic": "Zeitgeschichte (ab 1945)",
-      "question": "Which of the following treaties was signed in 1949 and laid the foundations for the division of Germany into two states?",
+      "category": "Geographie",
+      "topic": "Städte, Länder & Flaggen",
+      "question": "Which of the following cities is known as one of the largest seaports in Europe and is located at the mouth of the Rhine River?",
       "choices": [
-        "A: Paris Agreements",
-        "B: Petersberg Agreement",
-        "C: Geneva Agreement",
-        "D: Potsdam Agreement"
+        "A: Rotterdam",
+        "B: Hamburg",
+        "C: Antwerp",
+        "D: Marseille"
       ],
       "correct_answer": "A",
-      "explanation": "The Paris Agreements of 1949 were crucial for the Western integration of the Federal Republic of Germany and led to the final division of the country. They regulated, among other things, the relations between the Federal Republic and the Western Allies and laid the foundation for the sovereignty of the Federal Republic of Germany.",
-      "difficulty": 7
-    },
-    {
-      "category": "Essen und Trinken",
-      "topic": "Ernährung",
-      "question": "Which of the following elements is not part of the HACCP principle to ensure food safety?",
-      "choices": [
-        "A: Monitoring of control measures",
-        "B: Use of organic ingredients",
-        "C: Identification of hazards",
-        "D: Establishment of control points"
-      ],
-      "correct_answer": "B",
-      "explanation": "The HACCP principle focuses on the identification and control of hazards in food production. The use of organic ingredients is not part of this system but rather concerns the origin and cultivation methods of the food.",
-      "difficulty": 7
+      "explanation": "Rotterdam is one of the largest seaports in Europe and a significant hub for international trade. The city is strategically located at the mouth of the Rhine River, giving it outstanding importance in European commerce.",
+      "difficulty": 8
     },
     {
       "question": "Who is the current President of the United States?",
@@ -96,6 +56,46 @@
       "correct_answer": "A",
       "difficulty": 1,
       "category": "politics"
+    },
+    {
+      "category": "Kunst und Literatur",
+      "topic": "Moderne & Zeitgenössische Kunst",
+      "question": "Which iconic motif is often used in street art and frequently symbolizes social injustices and resistance against authorities?",
+      "choices": [
+        "A: The Dove",
+        "B: The Anarchist Star",
+        "C: The Banana",
+        "D: The Smiley"
+      ],
+      "correct_answer": "B",
+      "explanation": "The Anarchist Star is a well-known symbol commonly used in street art to express protest and resistance. It represents the rejection of authority and the demand for social justice, making it an iconic motif in this art form.",
+      "difficulty": 10
+    },
+    {
+      "question": "What is the main advantage of switching accounts with a switching service?",
+      "category": "Wirtschaft & Finanzen",
+      "subcategory": "Kontowechsel & Wechselservice",
+      "difficulty": 6,
+      "options": {
+        "A": "Er reduziert den Zinssatz für Kredite.",
+        "B": "Er sorgt dafür, dass alle regelmäßigen Zahlungen automatisch zu einem neuen Konto übertragen werden.",
+        "C": "Er ermöglicht höhere Tagesgeldzinsen.",
+        "D": "Er erhöht die Bonität des Kontoinhabers."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "question": "Which of the following statements correctly describes the entitlement to parental leave during parental leave?",
+      "category": "Alltag & Gesellschaft",
+      "subcategory": "Elternzeit & Elterngeld",
+      "difficulty": 7,
+      "options": {
+        "A": "Elterngeld kann nur für maximal 6 Monate beantragt werden.",
+        "B": "Elterngeld wird auch während des Mutterschutzes gezahlt.",
+        "C": "Eltern können Elterngeld bis zu 14 Monate lang in Anspruch nehmen, wenn beide Elternteile sich beteiligen.",
+        "D": "Das Elterngeld beträgt immer 100% des vorherigen Einkommens ohne Höchstgrenze."
+      },
+      "correct_answer": "C"
     }
   ]
 }

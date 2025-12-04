@@ -1,168 +1,168 @@
 {
   "date": "2025-12-04",
-  "generated_at": "2025-12-04T15:47:42Z",
+  "generated_at": "2025-12-04T15:59:03Z",
   "schema_version": 6,
   "mode": "physik",
   "questions": [
     {
       "category": "Physik",
       "topic": "Quantenmechanik",
-      "subtopic": "Eigenfunktionen der gebundenen Zustände (Laguerre)",
-      "question": "Welche der folgenden Aussagen über die Eigenfunktionen der gebundenen Zustände in einem Wasserstoffatom, die durch Laguerre-Polynome beschrieben werden, ist korrekt?",
+      "subtopic": "Resonanzstreuung",
+      "question": "Was beschreibt der Begriff der Resonanzstreuung in der Quantenmechanik?",
       "choices": [
-        "A: Die Eigenfunktionen sind unabhängig von der Hauptquantenzahl.",
-        "B: Die Eigenfunktionen sind nicht normierbar.",
-        "C: Die Eigenfunktionen sind immer konstant in der Zeit.",
-        "D: Die Eigenfunktionen sind orthogonal zueinander."
+        "A: Die Bewegung von Teilchen in einem Vakuum.",
+        "B: Die gleichmäßige Verteilung von Teilchen in einem Raum.",
+        "C: Die permanente Bindung von Teilchen zu einem Molekül.",
+        "D: Die Wechselwirkung von Teilchen, die zu einem kurzfristigen Energiewechsel führt."
       ],
       "correct_answer": "D",
-      "explanation": "Die Eigenfunktionen der gebundenen Zustände im Wasserstoffatom sind tatsächlich orthogonal zueinander, was eine wichtige Eigenschaft in der Quantenmechanik darstellt. Diese Orthogonalität ist entscheidend für die Entwicklung von Quantenzuständen und die Anwendung von Superpositionsprinzipien.",
-      "difficulty": 8,
-      "subcategory": "Eigenfunktionen der gebundenen Zustände (Laguerre)"
-    },
-    {
-      "category": "Physik",
-      "topic": "Statistische Mechanik",
-      "subtopic": "Kritische Exponenten & Skalengesetze",
-      "question": "Was beschreibt der kritische Exponent in der statistischen Mechanik?",
-      "choices": [
-        "A: Die Geschwindigkeit von Licht im Vakuum.",
-        "B: Die Masse eines Teilchens.",
-        "C: Die Temperatur eines idealen Gases.",
-        "D: Das Verhalten eines Systems nahe einer Phasengrenze."
-      ],
-      "correct_answer": "D",
-      "explanation": "Der kritische Exponent beschreibt, wie physikalische Größen wie die spezifische Wärme oder die Magnetisierung in der Nähe eines Phasenübergangs variieren. Dies ist ein zentrales Konzept in der statistischen Mechanik, insbesondere bei der Analyse kritischer Phänomene.",
-      "difficulty": 1,
-      "subcategory": "Kritische Exponenten & Skalengesetze"
+      "explanation": "Resonanzstreuung beschreibt einen Prozess, bei dem Teilchen mit einem bestimmten Energieniveau interagieren und dadurch vorübergehend ein höheres Energieniveau erreichen. Diese Wechselwirkung ist charakteristisch für die Quantenmechanik und führt zu spezifischen Streuungseffekten.",
+      "difficulty": 4,
+      "subcategory": "Resonanzstreuung"
     },
     {
       "category": "Physik",
       "topic": "Optik",
-      "subtopic": "Lichttechnische Größen",
-      "question": "Was beschreibt die Lichtstärke in der Optik?",
+      "subtopic": "Strahlungsgesetze (Wien, Rayleigh–Jeans)",
+      "question": "Welches Gesetz beschreibt das Verhältnis zwischen der Temperatur eines Schwarzen Körpers und der Wellenlänge, bei der die maximale Strahlungsintensität auftritt?",
       "choices": [
-        "A: Die Intensität des Lichts in eine bestimmte Richtung.",
-        "B: Die gesamte Lichtmenge, die eine Lichtquelle abstrahlt.",
-        "C: Die Farbe des Lichts.",
-        "D: Die Wellenlänge des Lichts."
-      ],
-      "correct_answer": "A",
-      "explanation": "Die Lichtstärke ist ein Maß für die Intensität des Lichts, das in eine bestimmte Richtung abgestrahlt wird. Sie wird in Candela (cd) gemessen und ist eine wichtige Größe in der Lichttechnik.",
-      "difficulty": 2,
-      "subcategory": "Lichttechnische Größen"
-    },
-    {
-      "category": "Physik",
-      "topic": "Statistische Mechanik",
-      "subtopic": "Großkanonisches Potential (Quanten-Gase)",
-      "question": "Was beschreibt das großkanonische Potential in der statistischen Mechanik für Quanten-Gase?",
-      "choices": [
-        "A: Die Beziehung zwischen Temperatur und Energie eines Systems.",
-        "B: Die energetische Verteilung der Teilchen in einem System bei konstantem Druck und Temperatur.",
-        "C: Die Wechselwirkung zwischen Teilchen in einem Gas.",
-        "D: Die freie Energie eines Systems bei konstantem Volumen und Temperatur."
+        "A: Rayleigh-Jeans-Gesetz",
+        "B: Plancksches Strahlungsgesetz",
+        "C: Stefan-Boltzmann-Gesetz",
+        "D: Wien'sches Verschiebungsgesetz"
       ],
       "correct_answer": "D",
-      "explanation": "Das großkanonische Potential beschreibt die freie Energie eines Systems, das mit einem Reservoir von Teilchen und Energie in Kontakt steht. Es wird verwendet, um makroskopische Eigenschaften von Quanten-Gasen zu analysieren, insbesondere bei konstantem Volumen und Temperatur.",
-      "difficulty": 3,
-      "subcategory": "Großkanonisches Potential (Quanten-Gase)"
-    },
-    {
-      "category": "Physik",
-      "topic": "Analytische Mechanik",
-      "subtopic": "Erweiterungen des Hamilton’schen Prinzips",
-      "question": "Was beschreibt das Hamilton’sche Prinzip in der analytischen Mechanik?",
-      "choices": [
-        "A: Kräfte können nur in einem konservativen Feld betrachtet werden.",
-        "B: Der Impuls eines Systems wird immer erhalten.",
-        "C: Die Energie eines Systems bleibt während der Bewegung konstant.",
-        "D: Die Bewegung eines Systems von Teilchen minimiert die gesamte Aktionsfunktion."
-      ],
-      "correct_answer": "D",
-      "explanation": "Das Hamilton’sche Prinzip besagt, dass die tatsächliche Bewegung eines Systems zwischen zwei Zeitpunkten die Bahn ist, die die gesamte Aktionsfunktion minimiert. Dies ist ein zentrales Konzept in der analytischen Mechanik, das die Grundlage für die Formulierung der Bewegungsgleichungen bildet.",
-      "difficulty": 4,
-      "subcategory": "Erweiterungen des Hamilton’schen Prinzips"
-    },
-    {
-      "category": "Physik",
-      "topic": "Statistische Mechanik",
-      "subtopic": "Universalität & Skalenhypothese (statisch)",
-      "question": "Was beschreibt die Skalenhypothese in der statistischen Mechanik?",
-      "choices": [
-        "A: Energie kann nur in diskreten Mengen übertragen werden.",
-        "B: Alle physikalischen Gesetze sind auf makroskopischen Skalen irrelevant.",
-        "C: Das Verhalten von Systemen auf verschiedenen Skalen ist unabhängig von den Details der mikroskopischen Wechselwirkungen.",
-        "D: Die Temperatur ist unabhängig von der Anzahl der Teilchen in einem System."
-      ],
-      "correct_answer": "C",
-      "explanation": "Die Skalenhypothese besagt, dass das Verhalten von physikalischen Systemen auf makroskopischen Skalen unabhängig von den spezifischen mikroskopischen Details ist. Diese Universalität ist ein zentrales Konzept in der statistischen Mechanik, das hilft, komplexe Systeme zu verstehen.",
-      "difficulty": 1,
-      "subcategory": "Universalität & Skalenhypothese (statisch)"
-    },
-    {
-      "category": "Physik",
-      "topic": "Kern- und Teilchenphysik",
-      "subtopic": "Doppelter β‑Zerfall",
-      "question": "Was ist ein charakteristisches Merkmal des doppelten β-Zerfalls?",
-      "choices": [
-        "A: Er ist eine Form der Alpha-Zerfalls.",
-        "B: Er führt zur Emission von zwei Elektronen und zwei Neutrinos.",
-        "C: Er tritt nur bei schweren Elementen auf.",
-        "D: Er verursacht immer eine Änderung der Atommasse um 4 Einheiten."
-      ],
-      "correct_answer": "B",
-      "explanation": "Der doppelte β-Zerfall ist ein Prozess, bei dem zwei β-Zerfälle gleichzeitig stattfinden, was zur Emission von zwei Elektronen und zwei Neutrinos führt. Dies unterscheidet sich von anderen Zerfallsarten, wie dem Alpha-Zerfall, der nicht zwei Elektronen emittiert.",
-      "difficulty": 6,
-      "subcategory": "Doppelter β‑Zerfall"
-    },
-    {
-      "category": "Physik",
-      "topic": "Kern- und Teilchenphysik",
-      "subtopic": "Dipolschwingungen",
-      "question": "Was beschreibt eine Dipolschwingung in einem elektrischen Dipol?",
-      "choices": [
-        "A: Die periodische Änderung der elektrischen Dipolmomenten in der Zeit.",
-        "B: Die gleichmäßige Verteilung von elektrischer Ladung in einem Metall.",
-        "C: Die konstante Position eines elektrischen Dipols im Raum.",
-        "D: Die Wechselwirkung zwischen zwei entgegengesetzt geladenen Teilchen."
-      ],
-      "correct_answer": "A",
-      "explanation": "Eine Dipolschwingung beschreibt die zeitliche Veränderung des Dipolmoments, das entsteht, wenn positive und negative Ladungen sich relativ zueinander bewegen. Diese Bewegung führt zu elektromagnetischen Strahlungen und ist wichtig für das Verständnis von Molekülschwingungen und deren Wechselwirkungen mit elektromagnetischen Feldern.",
-      "difficulty": 6,
-      "subcategory": "Dipolschwingungen"
+      "explanation": "Das Wien'sche Verschiebungsgesetz beschreibt, wie die Temperatur eines Schwarzen Körpers die Wellenlänge beeinflusst, bei der die Strahlung maximal ist. Es zeigt, dass die Wellenlänge mit steigender Temperatur abnimmt.",
+      "difficulty": 5,
+      "subcategory": "Strahlungsgesetze (Wien, Rayleigh–Jeans)"
     },
     {
       "category": "Physik",
       "topic": "Thermodynamik",
-      "subtopic": "Temperaturbegriff (thermisches Gleichgewicht)",
-      "question": "Was beschreibt das thermische Gleichgewicht zwischen zwei Systemen?",
+      "subtopic": "Ideales Gas (Zustandsgleichung)",
+      "question": "Was beschreibt die Zustandsgleichung eines idealen Gases?",
       "choices": [
-        "A: Die Systeme haben das gleiche Volumen.",
-        "B: Die Systeme haben die gleiche Temperatur.",
-        "C: Die Systeme haben die gleiche Druck.",
-        "D: Die Systeme sind aus dem gleichen Material."
+        "A: Das Verhältnis von Druck, Volumen und Temperatur eines Gases.",
+        "B: Die Geschwindigkeit der Moleküle in einem Gas.",
+        "C: Die chemische Zusammensetzung des Gases.",
+        "D: Die maximale Energie, die ein Gas speichern kann."
       ],
-      "correct_answer": "B",
-      "explanation": "Im thermischen Gleichgewicht haben zwei Systeme keine Nettoenergieübertragung mehr, was bedeutet, dass ihre Temperaturen gleich sind. Dies ist ein grundlegendes Konzept in der Thermodynamik und entscheidend für das Verständnis von Wärmeübertragung.",
-      "difficulty": 5,
-      "subcategory": "Temperaturbegriff (thermisches Gleichgewicht)"
+      "correct_answer": "A",
+      "explanation": "Die Zustandsgleichung eines idealen Gases, dargestellt durch die Formel PV = nRT, beschreibt das Verhältnis von Druck (P), Volumen (V) und Temperatur (T) des Gases. Diese Beziehung ist fundamental für das Verständnis der Eigenschaften idealer Gase in der Thermodynamik.",
+      "difficulty": 4,
+      "subcategory": "Ideales Gas (Zustandsgleichung)"
     },
     {
       "category": "Physik",
-      "topic": "Kern- und Teilchenphysik",
-      "subtopic": "Kernspaltung",
-      "question": "Was ist das Hauptprodukt der Kernspaltung von Uran-235?",
+      "topic": "Elektrodynamik",
+      "subtopic": "Elektrischer Strom (Definition & Kontinuitätsgleichung)",
+      "question": "Was beschreibt der elektrische Strom in einem Leiter?",
       "choices": [
-        "A: Helium-4",
-        "B: Kohlenstoff-12",
-        "C: Wasserstoff-1",
-        "D: Barium-141 und Krypton-92"
+        "A: Die Spannung an den Enden des Leiters.",
+        "B: Die Bewegung von elektrischen Ladungen.",
+        "C: Den Widerstand des Leiters.",
+        "D: Die Temperatur des Leiters."
+      ],
+      "correct_answer": "B",
+      "explanation": "Der elektrische Strom ist definiert als die Bewegung von elektrischen Ladungen, typischerweise Elektronen, durch einen Leiter. Diese Bewegung wird oft in Ampere gemessen und ist entscheidend für das Verständnis elektrischer Schaltungen.",
+      "difficulty": 5,
+      "subcategory": "Elektrischer Strom (Definition & Kontinuitätsgleichung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Zustandsdichte (Bänder)",
+      "question": "Welche Aussage zur Zustandsdichte in Festkörpern ist korrekt?",
+      "choices": [
+        "A: Die Zustandsdichte ist konstant bei allen Energien in einem Metall.",
+        "B: Die Zustandsdichte beschreibt die Anzahl der Zustände pro Energiedifferenz und ist für Halbleiter bei der Bandlücke am höchsten.",
+        "C: In Isolatoren liegt die Zustandsdichte immer über der von Metallen.",
+        "D: Die Zustandsdichte beeinflusst nicht die elektrischen Eigenschaften von Materialien."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Zustandsdichte in Festkörpern gibt an, wie viele Quantenzustände pro Energieeinheit in einem bestimmten Energiebereich vorhanden sind. Bei Halbleitern ist die Zustandsdichte in der Nähe der Bandlücke besonders relevant, da sie das Verhalten von Elektronen und Löchern in diesen Materialien bestimmt.",
+      "difficulty": 8,
+      "subcategory": "Zustandsdichte (Bänder)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Maxwell-Gleichungen (vollständig)",
+      "question": "Welches der folgenden Gesetze ist Teil der Maxwell-Gleichungen?",
+      "choices": [
+        "A: Das Hooke'sche Gesetz",
+        "B: Das Gauss'sche Gesetz für die Elektrizität",
+        "C: Das Gesetz von Boyle-Mariotte",
+        "D: Das Gesetz der Energieerhaltung"
+      ],
+      "correct_answer": "B",
+      "explanation": "Das Gauss'sche Gesetz für die Elektrizität ist eine der vier Maxwell-Gleichungen und beschreibt, wie elektrische Felder mit Ladungen verbunden sind. Die anderen genannten Gesetze gehören nicht zur Elektrodynamik und behandeln andere physikalische Phänomene.",
+      "difficulty": 5,
+      "subcategory": "Maxwell-Gleichungen (vollständig)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Geschl. System im Wärmebad: Minimum der freien Energie F",
+      "question": "Was beschreibt das Minimum der freien Energie F in einem geschlossenen System im Wärmebad?",
+      "choices": [
+        "A: Die Energie des Systems ist konstant.",
+        "B: Das System hat die maximale Entropie erreicht.",
+        "C: Das System befindet sich im thermischen Gleichgewicht.",
+        "D: Das System hat die minimale Temperatur erreicht."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Minimum der freien Energie F in einem geschlossenen System im Wärmebad zeigt an, dass das System im thermischen Gleichgewicht ist. In diesem Zustand sind die makroskopischen Eigenschaften stabil, und es gibt keine Nettobewegung von Energie oder Teilchen im System.",
+      "difficulty": 4,
+      "subcategory": "Geschl. System im Wärmebad: Minimum der freien Energie F"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Ladungen und Ströme",
+      "question": "Welche der folgenden Aussagen über die Wechselwirkung zwischen zwei punktförmigen elektrischen Ladungen ist korrekt?",
+      "choices": [
+        "A: Die elektrische Kraft wirkt nur über einen festen, definierten Abstand zwischen den Ladungen.",
+        "B: Die elektrische Kraft zwischen zwei gleichnamigen Ladungen ist abstoßend und folgt dem Coulombschen Gesetz.",
+        "C: Die Kraft zwischen den Ladungen ist immer anziehend, unabhängig von ihren Vorzeichen.",
+        "D: Die Stärke der elektrischen Kraft ist unabhängig von der Entfernung zwischen den Ladungen."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Coulomb-Kraft beschreibt die Wechselwirkung zwischen zwei elektrischen Ladungen und ist abstoßend, wenn die Ladungen gleichnamig sind. Diese Kraft wird durch das Coulomb-Gesetz quantifiziert und ist invers proportional zum Quadrat der Entfernung zwischen den Ladungen, was bedeutet, dass die Kraft mit zunehmender Entfernung abnimmt.",
+      "difficulty": 8,
+      "subcategory": "Ladungen und Ströme"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Extremaleigenschaften von U und H",
+      "question": "Welche Aussage über die innere Energie (U) und die Enthalpie (H) ist korrekt?",
+      "choices": [
+        "A: Die Enthalpie berücksichtigt die Arbeit, die bei konstantem Druck verrichtet wird.",
+        "B: Die innere Energie ist unabhängig von der Temperatur.",
+        "C: Die Enthalpie ist immer kleiner als die innere Energie.",
+        "D: Die innere Energie kann nicht in thermodynamischen Prozessen verändert werden."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Enthalpie (H) ist definiert als die innere Energie (U) plus das Produkt aus Druck und Volumen (PV). Sie ist besonders wichtig in Prozessen bei konstantem Druck, da sie die gesamte Energie umfasst, die für die Arbeit und die Wärmeübertragung benötigt wird.",
+      "difficulty": 5,
+      "subcategory": "Extremaleigenschaften von U und H"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Kohärente inelastische Neutronenstreuung",
+      "question": "Welche der folgenden Aussagen beschreibt am besten den Prozess der kohärenten inelastischen Neutronenstreuung?",
+      "choices": [
+        "A: Die Neutronen verlieren Energie und ändern ihre Richtung ohne Energieübertragung an das Material.",
+        "B: Die Neutronen werden elastisch gestreut, wobei ihre Energie und Richtung unverändert bleiben.",
+        "C: Die Neutronen werden vollständig absorbiert und erzeugen keine Streuung.",
+        "D: Die Neutronen übertragen Energie auf das Material und erzeugen dabei Schwingungen der Atome."
       ],
       "correct_answer": "D",
-      "explanation": "Bei der Kernspaltung von Uran-235 entstehen typischerweise die Spaltprodukte Barium-141 und Krypton-92, sowie Neutronen und Energie. Diese Reaktion ist grundlegend für die Funktionsweise von Kernkraftwerken.",
-      "difficulty": 5,
-      "subcategory": "Kernspaltung"
+      "explanation": "Bei der kohärenten inelastischen Neutronenstreuung verlieren die Neutronen Energie und übertragen diese auf die Atome des Materials, was zu Schwingungen führt. Dieser Prozess ermöglicht es, Informationen über die dynamischen Eigenschaften des Festkörpers zu gewinnen.",
+      "difficulty": 6,
+      "subcategory": "Kohärente inelastische Neutronenstreuung"
     }
   ]
 }
