@@ -59,8 +59,11 @@ PAST_DAYS_TO_CHECK = 7
 # Wie viele Politikfragen pro Modus?
 POLITICS_TARGET = 2
 
-# Wie viele Nicht-Politik-Fragen pro Modus (normal/schwer)?
-OTHER_QUESTIONS_PER_GENERAL_MODE = 7  # vorher: 3
+# Wie viele Fragen pro Modus (normal/schwer)?
+QUESTIONS_PER_MODE = {
+    "normal": 7,
+    "schwer": 7,
+}
 
 # Kategorie-Name des Politik-Plugins
 POLITICS_CATEGORY_NAME = "politik"
@@ -1139,8 +1142,8 @@ def main():
         if mode in ("normal", "schwer"):
             # Zielverteilung je Modus:
             #  - Politik wird vorerst übersprungen
-            #  - 7x andere Kategorien (ohne Politik)
-            target_questions = OTHER_QUESTIONS_PER_GENERAL_MODE  # = 7
+            #  - normal: 7 Fragen, schwer: 5 Fragen
+            target_questions = QUESTIONS_PER_MODE.get(mode, 7)
 
             # Exclude Politik, Physik, Popkultur und English-only plugins
             def _german_exclude_set(plugins_map: Dict[str, Callable[..., Optional[dict]]]) -> set:
