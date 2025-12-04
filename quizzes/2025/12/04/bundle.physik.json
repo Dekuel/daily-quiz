@@ -1,168 +1,168 @@
 {
   "date": "2025-12-04",
-  "generated_at": "2025-12-04T15:11:53Z",
+  "generated_at": "2025-12-04T15:14:36Z",
   "schema_version": 6,
   "mode": "physik",
   "questions": [
     {
       "category": "Physik",
       "topic": "Elektrodynamik",
-      "subtopic": "Elektrostatik der Dielektrika",
-      "question": "Was passiert mit einem Dielektrikum, wenn es in ein elektrisches Feld eingeführt wird?",
+      "subtopic": "Integraldarstellung der Divergenz",
+      "question": "Was beschreibt die Divergenz eines Vektorfeldes in der Elektrodynamik?",
       "choices": [
-        "A: Es polarisiert sich und es entsteht eine elektrische Feldstärke innerhalb des Dielektrikums.",
-        "B: Es bleibt unverändert und beeinflusst das elektrische Feld nicht.",
-        "C: Es leitet den Strom und die elektrische Feldstärke wird neutralisiert.",
-        "D: Es wird magnetisch und erzeugt ein Magnetfeld."
+        "A: Die Richtung des Feldes.",
+        "B: Die Stärke des magnetischen Feldes.",
+        "C: Die Geschwindigkeit eines Teilchens.",
+        "D: Die Quellstärke eines Feldes."
       ],
-      "correct_answer": "A",
-      "explanation": "Ein Dielektrikum polarisiert sich in einem elektrischen Feld, was bedeutet, dass positive und negative Ladungen innerhalb des Materials verschoben werden. Dies führt zu einer Reduzierung der effektiven Feldstärke im Dielektrikum im Vergleich zur äußeren Feldstärke.",
-      "difficulty": 5,
-      "subcategory": "Elektrostatik der Dielektrika"
+      "correct_answer": "D",
+      "explanation": "Die Divergenz eines Vektorfeldes beschreibt, wie stark und in welche Richtung das Feld von einem Punkt ausgeht oder sich dort sammelt. In der Elektrodynamik ist dies entscheidend, um die Quellstärke von elektrischen Feldern zu bestimmen.",
+      "difficulty": 1,
+      "subcategory": "Integraldarstellung der Divergenz"
     },
     {
       "category": "Physik",
       "topic": "Optik",
-      "subtopic": "Frequenzabhängigkeit der Dielektrizitätskonstante",
-      "question": "Wie beeinflusst die Frequenz eines Lichtes die Dielektrizitätskonstante eines Materials?",
+      "subtopic": "Projektionsapparat",
+      "question": "Welches Element eines Projektionsapparates ist entscheidend für die Vergrößerung des Bildes?",
       "choices": [
-        "A: Sie steigt immer mit zunehmender Frequenz.",
-        "B: Sie sinkt immer mit zunehmender Frequenz.",
-        "C: Sie bleibt immer konstant, unabhängig von der Frequenz.",
-        "D: Sie kann variieren und hängt von der Materialeigenschaft ab."
-      ],
-      "correct_answer": "D",
-      "explanation": "Die Dielektrizitätskonstante eines Materials kann in Abhängigkeit von der Frequenz des einfallenden Lichtes variieren. Dies ist wichtig für das Verständnis der Wechselwirkung von Licht mit Materialien in der Optik.",
-      "difficulty": 1,
-      "subcategory": "Frequenzabhängigkeit der Dielektrizitätskonstante"
-    },
-    {
-      "category": "Physik",
-      "topic": "Statistische Mechanik",
-      "subtopic": "Klassischer Grenzfall (z ≪ 1)",
-      "question": "Was beschreibt im klassischen Grenzfall der statistischen Mechanik das Verhältnis von Teilchenzahl zu Volumen?",
-      "choices": [
-        "A: Die Energie der Teilchen",
-        "B: Die Dichte der Teilchen",
-        "C: Die Temperatur des Systems",
-        "D: Die Geschwindigkeit der Teilchen"
+        "A: Der Spiegel",
+        "B: Die Linse",
+        "C: Der Bildschirm",
+        "D: Der Projektor"
       ],
       "correct_answer": "B",
-      "explanation": "Im klassischen Grenzfall ist das Verhältnis von Teilchenzahl zu Volumen direkt mit der Dichte der Teilchen verbunden. Diese Dichte spielt eine entscheidende Rolle in der statistischen Mechanik, da sie das Verhalten und die Wechselwirkungen der Teilchen im System beschreibt.",
-      "difficulty": 3,
-      "subcategory": "Klassischer Grenzfall (z ≪ 1)"
-    },
-    {
-      "category": "Physik",
-      "topic": "Quantenmechanik",
-      "subtopic": "ħ→0-Grenzfall; Klassische Umkehrpunkte",
-      "question": "Was beschreibt der ħ→0-Grenzfall in der Quantenmechanik im Hinblick auf klassische Umkehrpunkte?",
-      "choices": [
-        "A: Die Übergänge zwischen diskreten Energieniveaus verschwinden.",
-        "B: Die Unschärferelation wird irrelevant und klassische Bahnen sind deterministisch.",
-        "C: Quantenfluktuationen nehmen zu und beeinflussen klassische Bewegungen.",
-        "D: Die Wahrscheinlichkeit für das Auftreten eines Ereignisses wird konstant."
-      ],
-      "correct_answer": "B",
-      "explanation": "Im ħ→0-Grenzfall wird die Quantenmechanik zu einer klassischen Theorie, da die Unschärferelation nicht mehr relevant ist. Dies führt zu deterministischen Bahnen, die den klassischen Umkehrpunkten entsprechen.",
-      "difficulty": 8,
-      "subcategory": "ħ→0-Grenzfall; Klassische Umkehrpunkte"
-    },
-    {
-      "category": "Physik",
-      "topic": "Analytische Mechanik",
-      "subtopic": "Modifiziertes Hamilton’sches Prinzip",
-      "question": "Was beschreibt das modifizierte Hamilton’sche Prinzip in der analytischen Mechanik?",
-      "choices": [
-        "A: Es erlaubt die Einbeziehung von Einschränkungen in das Bewegungsgesetz.",
-        "B: Es beschreibt die Trajektorien von Teilchen in einem konservativen Kraftfeld.",
-        "C: Es erfordert die Verwendung von Lagrange-Mechanik anstelle von Hamilton-Mechanik.",
-        "D: Es ist nur anwendbar, wenn keine externen Kräfte wirken."
-      ],
-      "correct_answer": "A",
-      "explanation": "Das modifizierte Hamilton’sche Prinzip ermöglicht es, Einschränkungen in die Bewegungsgleichungen zu integrieren, was besonders nützlich ist, wenn Systeme unter verschiedenen Bedingungen analysiert werden müssen. Es erweitert die klassischen Prinzipien, indem es die Dynamik unter Berücksichtigung dieser Einschränkungen betrachtet.",
-      "difficulty": 4,
-      "subcategory": "Modifiziertes Hamilton’sches Prinzip"
+      "explanation": "Die Linse ist das zentrale Element eines Projektionsapparates, das das Licht bündelt und das Bild vergrößert. Durch die Wahl einer geeigneten Linse kann die Vergrößerung und Schärfe des projizierten Bildes beeinflusst werden.",
+      "difficulty": 6,
+      "subcategory": "Projektionsapparat"
     },
     {
       "category": "Physik",
       "topic": "Klassische Mechanik",
-      "subtopic": "Drehschwingungen um eine feste Achse",
-      "question": "Was beschreibt die Eigenfrequenz eines Körpers, der um eine feste Achse schwingt?",
+      "subtopic": "Reibung: Rollreibung",
+      "question": "Welche der folgenden Aussagen beschreibt die Rollreibung am besten?",
       "choices": [
-        "A: Die Energie, die während der Schwingung verloren geht.",
-        "B: Die Geschwindigkeit, mit der sich die Achse dreht.",
-        "C: Die maximale Amplitude der Schwingung.",
-        "D: Die Frequenz, mit der der Körper zu seiner Ausgangsposition zurückkehrt."
+        "A: Rollreibung ist immer größer als Gleitreibung.",
+        "B: Rollreibung tritt nur bei sehr hohen Geschwindigkeiten auf.",
+        "C: Rollreibung tritt auf, wenn ein Körper auf einer Oberfläche rollt und weniger Widerstand bietet als Gleitreibung.",
+        "D: Rollreibung hat keinen Einfluss auf die Bewegung eines rollenden Körpers."
+      ],
+      "correct_answer": "C",
+      "explanation": "Rollreibung ist der Widerstand, der entsteht, wenn ein Objekt auf einer Oberfläche rollt. Im Vergleich zur Gleitreibung ist dieser Widerstand in der Regel geringer, was die Bewegung erleichtert. Daher ist Aussage A korrekt, während die anderen Aussagen falsche Informationen über Rollreibung geben.",
+      "difficulty": 5,
+      "subcategory": "Reibung: Rollreibung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Wechselwirkung einer Ladungsverteilung mit äußerem Feld",
+      "question": "Was passiert mit einer positiven Ladung, die sich in einem homogenen elektrischen Feld befindet?",
+      "choices": [
+        "A: Sie bewegt sich nur, wenn ein magnetisches Feld vorhanden ist.",
+        "B: Sie erfährt eine konstante Kraft in Richtung des elektrischen Feldes.",
+        "C: Sie bleibt immer in Ruhe.",
+        "D: Sie erfährt eine konstante Kraft in die entgegengesetzte Richtung des elektrischen Feldes."
+      ],
+      "correct_answer": "B",
+      "explanation": "Eine positive Ladung in einem homogenen elektrischen Feld erfährt eine konstante Kraft, die in Richtung des Feldes wirkt. Diese Kraft ist proportional zur Stärke des Feldes und der Ladung selbst, gemäß der Formel F = qE.",
+      "difficulty": 6,
+      "subcategory": "Wechselwirkung einer Ladungsverteilung mit äußerem Feld"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Potentiale des idealen Gases",
+      "question": "Welches der folgenden Potentiale beschreibt die thermodynamische Energie eines idealen Gases am besten?",
+      "choices": [
+        "A: Gravitationspotential",
+        "B: Magnetisches Potential",
+        "C: Elektrisches Potential",
+        "D: Innere Energie"
       ],
       "correct_answer": "D",
-      "explanation": "Die Eigenfrequenz ist die Frequenz, mit der ein System bei einer Schwingung um eine stabile Gleichgewichtslage schwingt. Sie hängt von den physikalischen Eigenschaften des Körpers und der Art der Aufhängung ab. Eine höhere Eigenfrequenz bedeutet eine schnellere Rückkehr zur Gleichgewichtslage nach einer Störung.",
+      "explanation": "Die innere Energie eines idealen Gases ist die Gesamtenergie, die durch die kinetische Energie der Gasteilchen und die intermolekularen Wechselwirkungen bestimmt wird. Sie ist ein zentrales Konzept in der Thermodynamik und beschreibt die thermodynamische Energie des Systems.",
       "difficulty": 6,
-      "subcategory": "Drehschwingungen um eine feste Achse"
-    },
-    {
-      "category": "Physik",
-      "topic": "Festkörperphysik",
-      "subtopic": "Boltzmann-Gleichung (Transport)",
-      "question": "Welche Größe beschreibt die Änderung der Verteilung von Teilchen in einem System gemäß der Boltzmann-Gleichung?",
-      "choices": [
-        "A: Die Verteilungsfunktion",
-        "B: Die Temperatur",
-        "C: Der Druck",
-        "D: Die Entropie"
-      ],
-      "correct_answer": "A",
-      "explanation": "Die Boltzmann-Gleichung beschreibt, wie die Verteilungsfunktion von Teilchen in einem System mit der Zeit variiert. Diese Verteilungsfunktion gibt an, wie viele Teilchen sich in einem bestimmten Zustand oder Energieniveau befinden und ist zentral für die Analyse von Transportphänomenen in Festkörpern.",
-      "difficulty": 6,
-      "subcategory": "Boltzmann-Gleichung (Transport)"
-    },
-    {
-      "category": "Physik",
-      "topic": "Festkörperphysik",
-      "subtopic": "Mechanische Festigkeit",
-      "question": "Was beschreibt die mechanische Festigkeit eines Materials?",
-      "choices": [
-        "A: Die Fähigkeit, einer Verformung unter Last zu widerstehen.",
-        "B: Die Fähigkeit, elektrischen Strom zu leiten.",
-        "C: Die Fähigkeit, Licht zu absorbieren.",
-        "D: Die Fähigkeit, Wärme zu leiten."
-      ],
-      "correct_answer": "A",
-      "explanation": "Die mechanische Festigkeit eines Materials bezieht sich auf dessen Fähigkeit, Verformungen und Brüchen unter Belastung zu widerstehen. Dies ist ein grundlegendes Konzept in der Festkörperphysik, das für Ingenieure und Materialwissenschaftler von zentraler Bedeutung ist.",
-      "difficulty": 1,
-      "subcategory": "Mechanische Festigkeit"
+      "subcategory": "Potentiale des idealen Gases"
     },
     {
       "category": "Physik",
       "topic": "Statistische Mechanik",
-      "subtopic": "Fluktuationen makroskopischer Größen",
-      "question": "Was beschreibt der Begriff 'Fluktuationen' in der statistischen Mechanik?",
+      "subtopic": "Pauli-Paramagnetismus",
+      "question": "Welche Aussage beschreibt korrekt das Verhalten von Pauli-paramagnetischen Materialien bei einem externen Magnetfeld?",
       "choices": [
-        "A: Stabile und unveränderliche Zustände eines Systems.",
-        "B: Die Bewegungen von Teilchen im Vakuum.",
-        "C: Temporäre Änderungen in den Werten makroskopischer Größen.",
-        "D: Die konstanten Temperaturen in einem abgeschlossenen System."
+        "A: Die magnetischen Momente der Elektronen richten sich parallel zum Feld aus, jedoch ist die Stärke der Magnetisierung temperaturabhängig.",
+        "B: Die magnetischen Momente der Elektronen richten sich antiparallel zum Feld aus und erzeugen eine abstoßende Kraft.",
+        "C: Die magnetischen Momente der Elektronen sind temperaturunabhängig und zeigen keine Ausrichtung im Magnetfeld.",
+        "D: Die magnetischen Momente der Elektronen richten sich parallel zum Feld aus und erzeugen eine anziehende Kraft."
       ],
-      "correct_answer": "C",
-      "explanation": "Fluktuationen beziehen sich auf die temporären Änderungen in den Werten makroskopischer Größen, die durch die Bewegung und Wechselwirkungen der Teilchen in einem System verursacht werden. Diese Änderungen sind typischerweise zufällig und können in thermodynamischen Gleichgewichten auftreten.",
-      "difficulty": 2,
-      "subcategory": "Fluktuationen makroskopischer Größen"
+      "correct_answer": "A",
+      "explanation": "Pauli-paramagnetische Materialien zeigen eine Ausrichtung ihrer Elektronenmomente parallel zum externen Magnetfeld. Die Stärke dieser Ausrichtung ist jedoch temperaturabhängig, da thermische Bewegungen die Ordnung der Spins beeinflussen können.",
+      "difficulty": 8,
+      "subcategory": "Pauli-Paramagnetismus"
     },
     {
       "category": "Physik",
-      "topic": "Analytische Mechanik",
-      "subtopic": "Kanonische Gleichungen (Hamilton-Gleichungen)",
-      "question": "Was beschreibt die Hamilton-Gleichung H(q, p) im Rahmen der analytischen Mechanik?",
+      "topic": "Festkörperphysik",
+      "subtopic": "Meißner-Effekt & London-Gleichungen",
+      "question": "Was beschreibt der Meißner-Effekt in Supraleitern?",
       "choices": [
-        "A: Die Änderung der Zeit eines Systems in Bezug auf seine Koordinaten und Impulse.",
-        "B: Die Beziehung zwischen der kinetischen und potenziellen Energie eines Systems.",
-        "C: Die Beziehung zwischen der Geschwindigkeit und der Beschleunigung eines Körpers.",
-        "D: Die Beziehung zwischen dem Energieinhalt eines Systems und seiner Temperatur."
+        "A: Supraleiter stoßen Magnetfelder ab.",
+        "B: Supraleiter leiten elektrischen Strom ohne Widerstand.",
+        "C: Supraleiter verlieren ihre Temperatur schnell.",
+        "D: Supraleiter haben eine endliche Energiedichte."
       ],
       "correct_answer": "A",
-      "explanation": "Die Hamilton-Gleichungen beschreiben, wie sich die Koordinaten (q) und Impulse (p) eines Systems im Laufe der Zeit ändern. Diese Gleichungen sind zentral für die Formulierung der analytischen Mechanik und ermöglichen eine vollständige Beschreibung des dynamischen Verhaltens eines Systems.",
-      "difficulty": 3,
-      "subcategory": "Kanonische Gleichungen (Hamilton-Gleichungen)"
+      "explanation": "Der Meißner-Effekt beschreibt das Phänomen, dass Supraleiter Magnetfelder aus ihrem Inneren abstoßen, wenn sie unter ihre kritische Temperatur gekühlt werden. Dies führt dazu, dass sie im Magnetfeld schweben können.",
+      "difficulty": 2,
+      "subcategory": "Meißner-Effekt & London-Gleichungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Carnot-Kreisprozess & Wirkungsgrad",
+      "question": "Was beschreibt der Wirkungsgrad eines Carnot-Kreisprozesses?",
+      "choices": [
+        "A: Die Zeit, die benötigt wird, um den Prozess abzuschließen.",
+        "B: Die Gesamtwärme, die während des Prozesses verloren geht.",
+        "C: Das Verhältnis der geleisteten Arbeit zur zugeführten Wärme.",
+        "D: Die Temperaturdifferenz zwischen den beiden Wärmequellen."
+      ],
+      "correct_answer": "C",
+      "explanation": "Der Wirkungsgrad eines Carnot-Kreisprozesses ist definiert als das Verhältnis der geleisteten Arbeit zur zugeführten Wärme. Er zeigt, wie effizient der Prozess im Vergleich zu einem idealen thermodynamischen Prozess arbeitet.",
+      "difficulty": 5,
+      "subcategory": "Carnot-Kreisprozess & Wirkungsgrad"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Präzession des symmetrischen Kreisels",
+      "question": "Was bewirkt die Präzession eines symmetrischen Kreisels?",
+      "choices": [
+        "A: Eine Erhöhung der Masse des Kreisels.",
+        "B: Eine Änderung der Rotationsachse unter dem Einfluss eines Drehmoments.",
+        "C: Eine Änderung der Rotationsgeschwindigkeit.",
+        "D: Eine Verringerung des Luftwiderstands."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Präzession eines symmetrischen Kreisels tritt auf, wenn ein externes Drehmoment auf ihn wirkt, wodurch seine Rotationsachse sich in eine neue Richtung bewegt. Dies geschieht, während der Kreisel weiterhin um seine ursprüngliche Achse rotiert, was zu einer spiralförmigen Bewegung führt.",
+      "difficulty": 5,
+      "subcategory": "Präzession des symmetrischen Kreisels"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Der elastische Stoß in der SRT",
+      "question": "Was passiert beim elastischen Stoß zwischen zwei Partikeln in der speziellen Relativitätstheorie?",
+      "choices": [
+        "A: Die Gesamtenergie wird verdoppelt.",
+        "B: Die Gesamtenergie und der Impuls bleiben erhalten.",
+        "C: Die Partikel verlieren ihre Masse.",
+        "D: Der Stoß führt zu einer Zeitdilatation."
+      ],
+      "correct_answer": "B",
+      "explanation": "Beim elastischen Stoß bleiben sowohl die Gesamtenergie als auch der Impuls der beiden Partikeln erhalten, was auch in der speziellen Relativitätstheorie gilt. Dies bedeutet, dass die Bewegungszustände der Partikel vor und nach dem Stoß durch diese Erhaltungssätze beschrieben werden können.",
+      "difficulty": 1,
+      "subcategory": "Der elastische Stoß in der SRT"
     }
   ]
 }
