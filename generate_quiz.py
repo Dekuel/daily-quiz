@@ -46,6 +46,7 @@ import random
 import importlib
 import pkgutil
 import traceback
+import inspect
 from datetime import datetime, timezone, timedelta
 from difflib import SequenceMatcher
 from typing import Callable, Dict, List, Optional
@@ -686,7 +687,19 @@ def generate_random_categories(
         tries += 1
         try:
             target = pick_target_difficulty_for_mode(mode)
-            item = plugins[cat](past_texts=past_texts, target_difficulty=target, mode=mode)  # Core -> Plugin
+            # Inspect plugin signature and call with appropriate arguments
+            plugin_fn = plugins[cat]
+            sig = inspect.signature(plugin_fn)
+            kwargs = {}
+            if 'past_texts' in sig.parameters:
+                kwargs['past_texts'] = past_texts
+            if 'target_difficulty' in sig.parameters:
+                kwargs['target_difficulty'] = target
+            elif 'tier' in sig.parameters:
+                kwargs['tier'] = target
+            if 'mode' in sig.parameters:
+                kwargs['mode'] = mode
+            item = plugin_fn(**kwargs)
         except Exception as e:
             print(f"⚠️ Fehler beim Generieren aus Kategorie '{cat}': {e.__class__.__name__}: {e}")
             traceback.print_exc()
@@ -735,7 +748,19 @@ def generate_specific_category_questions(
         tries += 1
         try:
             target = pick_target_difficulty_for_mode(mode)
-            q = plugins[category_name](past_texts=past_texts, target_difficulty=target, mode=mode)
+            # Inspect plugin signature and call with appropriate arguments
+            plugin_fn = plugins[category_name]
+            sig = inspect.signature(plugin_fn)
+            kwargs = {}
+            if 'past_texts' in sig.parameters:
+                kwargs['past_texts'] = past_texts
+            if 'target_difficulty' in sig.parameters:
+                kwargs['target_difficulty'] = target
+            elif 'tier' in sig.parameters:
+                kwargs['tier'] = target
+            if 'mode' in sig.parameters:
+                kwargs['mode'] = mode
+            q = plugin_fn(**kwargs)
         except Exception:
             continue
         if not q:
@@ -781,7 +806,19 @@ def generate_politics_for_mode(
         tries += 1
         try:
             target_diff = pick_target_difficulty_for_mode(mode)
-            q = plugins[POLITICS_CATEGORY_NAME](past_texts=past_texts, target_difficulty=target_diff, mode=mode)
+            # Inspect plugin signature and call with appropriate arguments
+            plugin_fn = plugins[POLITICS_CATEGORY_NAME]
+            sig = inspect.signature(plugin_fn)
+            kwargs = {}
+            if 'past_texts' in sig.parameters:
+                kwargs['past_texts'] = past_texts
+            if 'target_difficulty' in sig.parameters:
+                kwargs['target_difficulty'] = target_diff
+            elif 'tier' in sig.parameters:
+                kwargs['tier'] = target_diff
+            if 'mode' in sig.parameters:
+                kwargs['mode'] = mode
+            q = plugin_fn(**kwargs)
         except Exception:
             continue
         if not q:
@@ -883,7 +920,19 @@ def _write_daily_bundle_en(quiz_list: List[dict], mode: str, date_str: Optional[
             if mapped and mapped in plugins and callable(plugins[mapped]):
                 try:
                     target = q.get("difficulty") if isinstance(q.get("difficulty"), int) else None
-                    repl = plugins[mapped](past_texts=[], target_difficulty=target, mode=mode)
+                    # Inspect plugin signature and call with appropriate arguments
+                    plugin_fn = plugins[mapped]
+                    sig = inspect.signature(plugin_fn)
+                    kwargs = {}
+                    if 'past_texts' in sig.parameters:
+                        kwargs['past_texts'] = []
+                    if 'target_difficulty' in sig.parameters:
+                        kwargs['target_difficulty'] = target
+                    elif 'tier' in sig.parameters:
+                        kwargs['tier'] = target
+                    if 'mode' in sig.parameters:
+                        kwargs['mode'] = mode
+                    repl = plugin_fn(**kwargs)
                     if repl:
                         # ensure category name is English and harmonize
                         repl.setdefault("category", mapped)
