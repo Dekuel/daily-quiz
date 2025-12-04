@@ -1,105 +1,101 @@
 {
   "date": "2025-12-04",
-  "generated_at": "2025-12-04T15:33:06Z",
+  "generated_at": "2025-12-04T15:48:04Z",
   "schema_version": 6,
   "mode": "schwer",
   "questions": [
     {
-      "category": "Sport",
-      "topic": "Basketball",
-      "question": "Which body is usually responsible for appointing referees in the Basketball Bundesliga?",
+      "category": "Language",
+      "topic": "Etymology",
+      "question": "Which of the following terms refers specifically to the vowel changes in Germanic languages that contribute to the formation of strong verbs?",
       "choices": [
-        "A: The Referee Committee",
-        "B: The Team Management",
-        "C: The Player Roster",
-        "D: The Club's Supplier"
+        "A: Ablaut",
+        "B: Umlaut",
+        "C: i-Umlaut",
+        "D: Conjugation"
       ],
       "correct_answer": "A",
-      "explanation": "The Referee Committee is responsible for appointing and evaluating referees in the Basketball Bundesliga to ensure fairness and quality of the games. The other options mentioned have no influence on referee appointments.",
-      "difficulty": 5
-    },
-    {
-      "category": "Technologie",
-      "topic": "KI & Zukunftstechnologien",
-      "question": "Which quantum algorithm framework was specifically developed for optimizing problems in quantum information science?",
-      "choices": [
-        "A: Qiskit",
-        "B: Cirq",
-        "C: TensorFlow Quantum",
-        "D: OpenFermion"
-      ],
-      "correct_answer": "C",
-      "explanation": "TensorFlow Quantum is a specific framework for integrating quantum computing into machine learning and is particularly suitable for optimizing problems in quantum information science. Qiskit and Cirq are also significant frameworks but not primarily designed for optimization problems. OpenFermion focuses on quantum chemical calculations rather than general optimization algorithms.",
-      "difficulty": 10
-    },
-    {
-      "category": "Glaube & Religion",
-      "topic": "Religionsgeschichte, Soziologie & Praxis",
-      "question": "Which of the following statements best describes the concept of secularization in modern society?",
-      "choices": [
-        "A: The decline of religious practices and beliefs in the population.",
-        "B: The increase in interreligious dialogue and tolerance.",
-        "C: The revival of traditional belief systems in society.",
-        "D: The increased influence of religious institutions on state affairs."
-      ],
-      "correct_answer": "A",
-      "explanation": "Secularization refers to the process by which the societal importance of religion decreases, and religious practices and beliefs have less influence on public life. This is particularly observed in modern, industrialized societies where individual worldviews are increasingly gaining importance.",
-      "difficulty": 9
-    },
-    {
-      "question": "Which of the following options describes the main difference between further education and retraining?",
-      "category": "Alltag & Gesellschaft",
-      "subcategory": "Karriereplanung & Weiterbildung",
-      "difficulty": 7,
-      "options": {
-        "A": "Eine Fortbildung qualifiziert für einen anderen Beruf, während eine Umschulung das berufliche Know-how vertieft.",
-        "B": "Eine Fortbildung findet meist in Teilzeit statt, während eine Umschulung Vollzeit erfolgt.",
-        "C": "Eine Fortbildung erweitert die Fähigkeiten in einem bestehenden Beruf, während eine Umschulung einen kompletten Berufswechsel ermöglicht.",
-        "D": "Eine Fortbildung dauert in der Regel weniger als einen Monat, während eine Umschulung mehrere Jahre in Anspruch nimmt."
-      },
-      "correct_answer": "C"
-    },
-    {
-      "category": "Geographie",
-      "topic": "Städte, Länder & Flaggen",
-      "question": "Which of the following flags displays a white cross on a red background and belongs to a European country?",
-      "choices": [
-        "A: The flag of Norway",
-        "B: The flag of Denmark",
-        "C: The flag of Spain",
-        "D: The flag of Switzerland"
-      ],
-      "correct_answer": "D",
-      "explanation": "The flag of Switzerland is known for its characteristic white cross on a red background. While Norway and Denmark also have red colors, they feature different symbols. Spain, on the other hand, has a completely different color combination and a coat of arms on the flag.",
-      "difficulty": 6
-    },
-    {
-      "category": "Natur",
-      "topic": "Pflanzenwelt",
-      "question": "Which of these plants is known to thrive in dry and hot climates, being considered a desert plant?",
-      "choices": [
-        "A: Fern",
-        "B: Orchid",
-        "C: Cactus",
-        "D: Fig"
-      ],
-      "correct_answer": "C",
-      "explanation": "Cacti are specifically adapted to the conditions in deserts and dry climates. They possess features such as water storage in their stems and reduced leaves that function as thorns to minimize water loss.",
+      "explanation": "Ablaut refers to the systematic vowel changes in the root of verbs, particularly in strong verbs of the Germanic languages. This phenomenon plays a crucial role in the conjugation patterns of these verbs, contrasting with umlaut, which is a different vowel alteration process.",
       "difficulty": 7
     },
     {
-      "category": "Language",
-      "topic": "Etymology",
-      "question": "What is the origin of the word 'bridegroom'?",
+      "category": "Wissenschaft",
+      "topic": "Chemie",
+      "question": "Which of the following anions is not part of the group of halides?",
       "choices": [
-        "A: From 'bride' and 'groom' as separate terms",
-        "B: From Old English 'bryde' and 'guma'",
-        "C: From 'bride' and 'groom' as a compound word",
-        "D: From Old French 'bride' and 'groom'"
+        "A: Fluoride",
+        "B: Nitrate",
+        "C: Bromide",
+        "D: Iodide"
       ],
       "correct_answer": "B",
-      "explanation": "'Bridegroom' originates from the Old English 'bryde' (meaning bride) and 'guma' (meaning man). This illustrates a case of true etymology rather than false segmentation or folk etymology. The other options suggest incorrect origins or misinterpretations of the term's formation.",
-      "difficulty": 6
+      "explanation": "Halides are salts or compounds that contain halogen anions such as iodide, fluoride, and bromide. Nitrate, on the other hand, is an anion consisting of nitrogen and oxygen and does not belong to the halides.",
+      "difficulty": 8
+    },
+    {
+      "question": "What is the fine for driving at a speed of 60 km/h in a 30 km/h zone?",
+      "category": "Alltag & Gesellschaft",
+      "subcategory": "Bußgeld & Punkte in Flensburg",
+      "difficulty": 7,
+      "options": {
+        "A": "80 Euro",
+        "B": "120 Euro",
+        "C": "100 Euro",
+        "D": "40 Euro"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "question": "Which of the following statements correctly describes the function of the Treuhandanstalt after the reunification of Germany?",
+      "category": "Wirtschaft & Finanzen",
+      "subcategory": "Wiedervereinigung & Treuhand",
+      "difficulty": 8,
+      "options": {
+        "A": "Sie wurde 1989 gegründet, um die Deutsche Mark in Ostdeutschland einzuführen.",
+        "B": "Ihre Hauptaufgabe war die Privatisierung und Sanierung von volkseigenen Betrieben in den neuen Bundesländern.",
+        "C": "Die Treuhandanstalt sollte 1990 alle westdeutschen Unternehmen übertake.",
+        "D": "Sie wurde 1991 gegründet, um den Marshallplan für Ostdeutschland zu verwalten."
+      },
+      "correct_answer": "B"
+    },
+    {
+      "category": "Geschichte",
+      "topic": "Zeitgeschichte (ab 1945)",
+      "question": "Which of the following treaties was signed in 1949 and laid the foundations for the division of Germany into two states?",
+      "choices": [
+        "A: Paris Agreements",
+        "B: Petersberg Agreement",
+        "C: Geneva Agreement",
+        "D: Potsdam Agreement"
+      ],
+      "correct_answer": "A",
+      "explanation": "The Paris Agreements of 1949 were crucial for the Western integration of the Federal Republic of Germany and led to the final division of the country. They regulated, among other things, the relations between the Federal Republic and the Western Allies and laid the foundation for the sovereignty of the Federal Republic of Germany.",
+      "difficulty": 7
+    },
+    {
+      "category": "Essen und Trinken",
+      "topic": "Ernährung",
+      "question": "Which of the following elements is not part of the HACCP principle to ensure food safety?",
+      "choices": [
+        "A: Monitoring of control measures",
+        "B: Use of organic ingredients",
+        "C: Identification of hazards",
+        "D: Establishment of control points"
+      ],
+      "correct_answer": "B",
+      "explanation": "The HACCP principle focuses on the identification and control of hazards in food production. The use of organic ingredients is not part of this system but rather concerns the origin and cultivation methods of the food.",
+      "difficulty": 7
+    },
+    {
+      "question": "Who is the current President of the United States?",
+      "choices": [
+        "A. Joe Biden",
+        "B. Donald Trump",
+        "C. Barack Obama"
+      ],
+      "correct_answer": "A",
+      "difficulty": 1,
+      "category": "politics"
     }
   ]
 }

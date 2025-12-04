@@ -1,50 +1,78 @@
 {
   "date": "2025-12-04",
-  "generated_at": "2025-12-04T15:32:54Z",
+  "generated_at": "2025-12-04T15:47:53Z",
   "schema_version": 6,
   "mode": "normal",
   "questions": [
     {
-      "category": "Kunst und Literatur",
-      "topic": "Kunstwissen & Allgemeines",
-      "question": "Which of the following genres describes an image that portrays a single person in their characteristics?",
+      "category": "Wissenschaft",
+      "topic": "Biologie",
+      "question": "Which of the following organelles is responsible for energy production in the cell?",
       "choices": [
-        "A: Landscape",
-        "B: Portrait",
-        "C: History",
-        "D: Still life"
+        "A: Golgi apparatus",
+        "B: Lysosomes",
+        "C: Ribosomes",
+        "D: Mitochondria"
       ],
-      "correct_answer": "B",
-      "explanation": "Portrait is a classic art genre that aims to depict the essence, personality, and appearance of a person. This genre has a long tradition in art history and includes many well-known works by various artists.",
+      "correct_answer": "D",
+      "explanation": "Mitochondria are known as the 'powerhouses' of the cell because they produce ATP, the cell's main source of energy. Ribosomes are responsible for protein production, while the Golgi apparatus and lysosomes have other functions in cell processing and waste disposal.",
       "difficulty": 4
     },
     {
-      "category": "Natur",
-      "topic": "Tierwelt",
-      "question": "Which of these animals plays a crucial role in the ecosystem by pollinating plants and thus contributing to reproduction?",
+      "category": "Language",
+      "topic": "Idioms",
+      "question": "What does the idiom 'auf dem Holzweg sein' mean?",
       "choices": [
-        "A: Crocodile",
-        "B: Bee",
-        "C: Elephant",
-        "D: Fox"
+        "A: To be on the wrong track",
+        "B: To have a strong opinion",
+        "C: To be very successful",
+        "D: To work hard for a goal"
+      ],
+      "correct_answer": "A",
+      "explanation": "'Auf dem Holzweg sein' translates to 'to be on the wrong track' in English, indicating that someone is pursuing an incorrect or misguided approach. This idiom uses the Dative case, reflecting its fixed expression in the German language.",
+      "difficulty": 5
+    },
+    {
+      "category": "Glaube & Religion",
+      "topic": "Monotheistische Religionen",
+      "question": "Which event is considered the founding of the ancient Kingdom of Israel in Judaism?",
+      "choices": [
+        "A: The Exodus from Egypt",
+        "B: The conquest of Canaan under Joshua",
+        "C: The construction of the first Temple in Jerusalem",
+        "D: The return from the Babylonian Exile"
       ],
       "correct_answer": "B",
-      "explanation": "Bees are crucial for pollinating many plants, thus contributing to biodiversity and food production. Their role in the ecosystem is indispensable as they support the reproduction of many plant species.",
-      "difficulty": 4
+      "explanation": "The conquest of Canaan under Joshua marks the beginning of the settlement and political organization of ancient Israel, which established itself as a kingdom. This event is of great importance to Judaism and is described in the Hebrew Bible.",
+      "difficulty": 5
+    },
+    {
+      "category": "Geschichte",
+      "topic": "Antike",
+      "question": "Which city was the political and cultural center of the Byzantine Empire?",
+      "choices": [
+        "A: Constantinople",
+        "B: Athens",
+        "C: Rome",
+        "D: Cairo"
+      ],
+      "correct_answer": "A",
+      "explanation": "Constantinople, founded by Emperor Constantine the Great, became the center of the Byzantine Empire and played a key role in continuing ancient traditions. The city was known for its impressive buildings and its strategic location between Europe and Asia.",
+      "difficulty": 6
     },
     {
       "category": "Technologie",
-      "topic": "Soziale Medien",
-      "question": "What is one of the main functions of content moderation in social media?",
+      "topic": "KI & Zukunftstechnologien",
+      "question": "Which of the following quantum computing models uses the property of superposition of quantum bits (qubits) for information processing?",
       "choices": [
-        "A: Reviewing and filtering posts to remove harmful content.",
-        "B: Developing new features within the platform.",
-        "C: Enhancing the user interface for a better user experience.",
-        "D: Promoting advertisements and sponsored content."
+        "A: Analog model",
+        "B: Classical model",
+        "C: Hybrid model",
+        "D: Gate model"
       ],
-      "correct_answer": "A",
-      "explanation": "Content moderation is crucial for social media to ensure that platforms remain free of harmful content such as hate speech or spam. This creates a safer space for users and improves the quality of interactions.",
-      "difficulty": 6
+      "correct_answer": "D",
+      "explanation": "The Gate model is a well-known quantum computing model that utilizes the principles of quantum mechanics, particularly the superposition and entanglement of qubits, to perform complex calculations. In contrast, the other models do not rely on the fundamental properties of quantum mechanics and are therefore not suitable for quantum computations.",
+      "difficulty": 8
     }
   ]
 }

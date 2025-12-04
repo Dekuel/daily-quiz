@@ -1,168 +1,168 @@
 {
   "date": "2025-12-04",
-  "generated_at": "2025-12-04T15:32:50Z",
+  "generated_at": "2025-12-04T15:47:42Z",
   "schema_version": 6,
   "mode": "physik",
   "questions": [
     {
       "category": "Physik",
-      "topic": "Statistische Mechanik",
-      "subtopic": "Ginzburg–Landau-Funktional & -Nähe",
-      "question": "Was beschreibt das Ginzburg–Landau-Funktional in der statistischen Mechanik?",
-      "choices": [
-        "A: Die Wechselwirkungen zwischen Photonen und Materie.",
-        "B: Die Bewegung von Teilchen in einem elektrischen Feld.",
-        "C: Die kritischen Phasenübergänge in Supraleitern.",
-        "D: Die thermodynamischen Eigenschaften von Gasen."
-      ],
-      "correct_answer": "C",
-      "explanation": "Das Ginzburg–Landau-Funktional ist ein wichtiges Modell zur Beschreibung von Phasenübergängen, insbesondere in Supraleitern. Es erlaubt die Analyse von Ordnung und Symmetrie in den kritischen Bereichen der Materie.",
-      "difficulty": 4,
-      "subcategory": "Ginzburg–Landau-Funktional & -Nähe"
-    },
-    {
-      "category": "Physik",
       "topic": "Quantenmechanik",
-      "subtopic": "Zweite Quantisierung: Erzeugungs-/Vernichtungsoperatoren",
-      "question": "Welche der folgenden Eigenschaften beschreibt korrekt den Erzeugungsoperator in der Quantenmechanik?",
+      "subtopic": "Eigenfunktionen der gebundenen Zustände (Laguerre)",
+      "question": "Welche der folgenden Aussagen über die Eigenfunktionen der gebundenen Zustände in einem Wasserstoffatom, die durch Laguerre-Polynome beschrieben werden, ist korrekt?",
       "choices": [
-        "A: Er wirkt nur auf klassische Systeme.",
-        "B: Er verringert die Energie eines Zustands.",
-        "C: Er erhöht die Teilchenanzahl eines Zustands um eins.",
-        "D: Er ist hermitesch und hat immer reelle Eigenwerte."
-      ],
-      "correct_answer": "C",
-      "explanation": "Der Erzeugungsoperator erhöht die Teilchenanzahl eines quantenmechanischen Zustands um eins, was zu einem Zustand mit höherer Energie führt. Dies ist fundamental für die Beschreibung von Bosonen in der Quantenfeldtheorie und unterscheidet sich von den Eigenschaften des Vernichtungsoperators, der die Teilchenanzahl verringert.",
-      "difficulty": 8,
-      "subcategory": "Zweite Quantisierung: Erzeugungs-/Vernichtungsoperatoren"
-    },
-    {
-      "category": "Physik",
-      "topic": "Festkörperphysik",
-      "subtopic": "Dynamische Streuung & Phononenquantisierung",
-      "question": "Was beschreibt der Begriff 'Phonon' in der Festkörperphysik?",
-      "choices": [
-        "A: Eine Art von Lichtstrahlung.",
-        "B: Ein Teilchen, das die Schwerkraft vermittelt.",
-        "C: Ein Elektron in einem Halbleiter.",
-        "D: Ein quantisiertes Schwingungsmodus in einem Festkörper."
+        "A: Die Eigenfunktionen sind unabhängig von der Hauptquantenzahl.",
+        "B: Die Eigenfunktionen sind nicht normierbar.",
+        "C: Die Eigenfunktionen sind immer konstant in der Zeit.",
+        "D: Die Eigenfunktionen sind orthogonal zueinander."
       ],
       "correct_answer": "D",
-      "explanation": "Phononen sind quantisierte Schwingungsmoden in einem Festkörper und spielen eine wichtige Rolle in der Wärmeleitung und den dynamischen Eigenschaften von Materialien. Sie sind entscheidend für das Verständnis der Wechselwirkungen in Festkörpern.",
-      "difficulty": 2,
-      "subcategory": "Dynamische Streuung & Phononenquantisierung"
+      "explanation": "Die Eigenfunktionen der gebundenen Zustände im Wasserstoffatom sind tatsächlich orthogonal zueinander, was eine wichtige Eigenschaft in der Quantenmechanik darstellt. Diese Orthogonalität ist entscheidend für die Entwicklung von Quantenzuständen und die Anwendung von Superpositionsprinzipien.",
+      "difficulty": 8,
+      "subcategory": "Eigenfunktionen der gebundenen Zustände (Laguerre)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Kritische Exponenten & Skalengesetze",
+      "question": "Was beschreibt der kritische Exponent in der statistischen Mechanik?",
+      "choices": [
+        "A: Die Geschwindigkeit von Licht im Vakuum.",
+        "B: Die Masse eines Teilchens.",
+        "C: Die Temperatur eines idealen Gases.",
+        "D: Das Verhalten eines Systems nahe einer Phasengrenze."
+      ],
+      "correct_answer": "D",
+      "explanation": "Der kritische Exponent beschreibt, wie physikalische Größen wie die spezifische Wärme oder die Magnetisierung in der Nähe eines Phasenübergangs variieren. Dies ist ein zentrales Konzept in der statistischen Mechanik, insbesondere bei der Analyse kritischer Phänomene.",
+      "difficulty": 1,
+      "subcategory": "Kritische Exponenten & Skalengesetze"
     },
     {
       "category": "Physik",
       "topic": "Optik",
-      "subtopic": "Dispersion dichter Medien",
-      "question": "Welche Aussage zur Dispersion in dichter Medien ist korrekt?",
+      "subtopic": "Lichttechnische Größen",
+      "question": "Was beschreibt die Lichtstärke in der Optik?",
       "choices": [
-        "A: Alle Wellenlängen des Lichts werden gleich gebrochen.",
-        "B: Dispersion hat keinen Einfluss auf die Farbwahrnehmung.",
-        "C: Licht unterschiedlicher Wellenlängen wird unterschiedlich stark gebrochen.",
-        "D: Dispersion tritt nur in Vakuum auf."
-      ],
-      "correct_answer": "C",
-      "explanation": "Dispersion in dichten Medien beschreibt das Phänomen, dass Licht unterschiedlicher Wellenlängen unterschiedlich stark gebrochen wird. Dies führt dazu, dass weiße Lichtstrahlen in Farben zerlegt werden, was beispielsweise bei einem Prisma zu beobachten ist.",
-      "difficulty": 5,
-      "subcategory": "Dispersion dichter Medien"
-    },
-    {
-      "category": "Physik",
-      "topic": "Festkörperphysik",
-      "subtopic": "BCS bei endlicher Temperatur",
-      "question": "Was beschreibt das BCS-Modell in der Festkörperphysik?",
-      "choices": [
-        "A: Die Diffusion von Atomen in einem Kristall.",
-        "B: Die Bewegung von Elektronen in einem Halbleiter.",
-        "C: Die Wärmeleitung in Metallen.",
-        "D: Die Ausbildung von Cooper-Paaren in Superleitern."
-      ],
-      "correct_answer": "D",
-      "explanation": "Das BCS-Modell erklärt die Superleitung als Ergebnis der Ausbildung von Cooper-Paaren, die sich durch Wechselwirkungen zwischen Elektronen bilden. Diese Paare ermöglichen es den Elektronen, sich ohne Widerstand durch das Material zu bewegen, was zu einem supraleitenden Zustand führt.",
-      "difficulty": 1,
-      "subcategory": "BCS bei endlicher Temperatur"
-    },
-    {
-      "category": "Physik",
-      "topic": "Elektrodynamik",
-      "subtopic": "Biot–Savart-Gesetz",
-      "question": "Welches der folgenden Elemente beschreibt das Biot–Savart-Gesetz korrekt?",
-      "choices": [
-        "A: Es beschreibt das Magnetfeld, das von einem stationären elektrischen Ladung erzeugt wird.",
-        "B: Es beschreibt die Wechselwirkung zwischen elektrischen Feldern und bewegten Ladungen.",
-        "C: Es beschreibt das Magnetfeld, das durch einen stromdurchflossenen Leiter erzeugt wird.",
-        "D: Es beschreibt die Kraft auf eine bewegte Ladung in einem elektrischen Feld."
-      ],
-      "correct_answer": "C",
-      "explanation": "Das Biot–Savart-Gesetz beschreibt, wie ein elektrischer Strom in einem Leiter ein Magnetfeld erzeugt. Es berücksichtigt die Geometrie des Stroms und dessen Abstand zu einem Punkt, an dem das Magnetfeld gemessen wird.",
-      "difficulty": 6,
-      "subcategory": "Biot–Savart-Gesetz"
-    },
-    {
-      "category": "Physik",
-      "topic": "Thermodynamik",
-      "subtopic": "Zustandsgleichungen (Überblick)",
-      "question": "Welche der folgenden Gleichungen beschreibt den idealen Gaszustand?",
-      "choices": [
-        "A: PV = nRT",
-        "B: W = Fd",
-        "C: E = mc²",
-        "D: F = ma"
+        "A: Die Intensität des Lichts in eine bestimmte Richtung.",
+        "B: Die gesamte Lichtmenge, die eine Lichtquelle abstrahlt.",
+        "C: Die Farbe des Lichts.",
+        "D: Die Wellenlänge des Lichts."
       ],
       "correct_answer": "A",
-      "explanation": "Die Gleichung PV = nRT ist die Zustandsgleichung für ideale Gase, die den Zusammenhang zwischen Druck (P), Volumen (V), Temperatur (T) und der Anzahl der Mol (n) beschreibt. Die anderen Gleichungen beziehen sich auf unterschiedliche physikalische Konzepte.",
-      "difficulty": 1,
-      "subcategory": "Zustandsgleichungen (Überblick)"
+      "explanation": "Die Lichtstärke ist ein Maß für die Intensität des Lichts, das in eine bestimmte Richtung abgestrahlt wird. Sie wird in Candela (cd) gemessen und ist eine wichtige Größe in der Lichttechnik.",
+      "difficulty": 2,
+      "subcategory": "Lichttechnische Größen"
     },
     {
       "category": "Physik",
-      "topic": "Optik",
-      "subtopic": "Photoeffekt (Grundlagen)",
-      "question": "Welcher der folgenden Faktoren beeinflusst nicht die Auslösung des Photoeffekts?",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Großkanonisches Potential (Quanten-Gase)",
+      "question": "Was beschreibt das großkanonische Potential in der statistischen Mechanik für Quanten-Gase?",
       "choices": [
-        "A: Die Frequenz des einfallenden Lichts",
-        "B: Die Intensität des einfallenden Lichts",
-        "C: Die Temperatur des Elektrons im Material",
-        "D: Die Beschaffenheit des Materials der Oberfläche"
-      ],
-      "correct_answer": "C",
-      "explanation": "Der Photoeffekt wird durch die Frequenz des einfallenden Lichts und die Beschaffenheit des Materials beeinflusst. Die Intensität des Lichts beeinflusst die Anzahl der emittierten Elektronen, jedoch nicht die Auslösung selbst. Die Temperatur des Elektrons hat keinen direkten Einfluss auf den Photoeffekt.",
-      "difficulty": 8,
-      "subcategory": "Photoeffekt (Grundlagen)"
-    },
-    {
-      "category": "Physik",
-      "topic": "Quantenmechanik",
-      "subtopic": "Clebsch–Gordan-Koeffizienten",
-      "question": "Was beschreiben die Clebsch–Gordan-Koeffizienten in der Quantenmechanik?",
-      "choices": [
-        "A: Die Geschwindigkeit von Licht in verschiedenen Medien.",
-        "B: Die Masse von subatomaren Teilchen.",
-        "C: Die Energiezustände in einem Atom.",
-        "D: Die Kombination von Spin-Zuständen von Teilchen."
+        "A: Die Beziehung zwischen Temperatur und Energie eines Systems.",
+        "B: Die energetische Verteilung der Teilchen in einem System bei konstantem Druck und Temperatur.",
+        "C: Die Wechselwirkung zwischen Teilchen in einem Gas.",
+        "D: Die freie Energie eines Systems bei konstantem Volumen und Temperatur."
       ],
       "correct_answer": "D",
-      "explanation": "Die Clebsch–Gordan-Koeffizienten sind mathematische Hilfsmittel zur Kombination von quantenmechanischen Zuständen, insbesondere zur Beschreibung der Addition von Spins. Sie spielen eine wichtige Rolle in der Theorie der quantenmechanischen Systeme, in denen mehrere Teilchen betrachtet werden.",
-      "difficulty": 2,
-      "subcategory": "Clebsch–Gordan-Koeffizienten"
+      "explanation": "Das großkanonische Potential beschreibt die freie Energie eines Systems, das mit einem Reservoir von Teilchen und Energie in Kontakt steht. Es wird verwendet, um makroskopische Eigenschaften von Quanten-Gasen zu analysieren, insbesondere bei konstantem Volumen und Temperatur.",
+      "difficulty": 3,
+      "subcategory": "Großkanonisches Potential (Quanten-Gase)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Erweiterungen des Hamilton’schen Prinzips",
+      "question": "Was beschreibt das Hamilton’sche Prinzip in der analytischen Mechanik?",
+      "choices": [
+        "A: Kräfte können nur in einem konservativen Feld betrachtet werden.",
+        "B: Der Impuls eines Systems wird immer erhalten.",
+        "C: Die Energie eines Systems bleibt während der Bewegung konstant.",
+        "D: Die Bewegung eines Systems von Teilchen minimiert die gesamte Aktionsfunktion."
+      ],
+      "correct_answer": "D",
+      "explanation": "Das Hamilton’sche Prinzip besagt, dass die tatsächliche Bewegung eines Systems zwischen zwei Zeitpunkten die Bahn ist, die die gesamte Aktionsfunktion minimiert. Dies ist ein zentrales Konzept in der analytischen Mechanik, das die Grundlage für die Formulierung der Bewegungsgleichungen bildet.",
+      "difficulty": 4,
+      "subcategory": "Erweiterungen des Hamilton’schen Prinzips"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Universalität & Skalenhypothese (statisch)",
+      "question": "Was beschreibt die Skalenhypothese in der statistischen Mechanik?",
+      "choices": [
+        "A: Energie kann nur in diskreten Mengen übertragen werden.",
+        "B: Alle physikalischen Gesetze sind auf makroskopischen Skalen irrelevant.",
+        "C: Das Verhalten von Systemen auf verschiedenen Skalen ist unabhängig von den Details der mikroskopischen Wechselwirkungen.",
+        "D: Die Temperatur ist unabhängig von der Anzahl der Teilchen in einem System."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Skalenhypothese besagt, dass das Verhalten von physikalischen Systemen auf makroskopischen Skalen unabhängig von den spezifischen mikroskopischen Details ist. Diese Universalität ist ein zentrales Konzept in der statistischen Mechanik, das hilft, komplexe Systeme zu verstehen.",
+      "difficulty": 1,
+      "subcategory": "Universalität & Skalenhypothese (statisch)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Doppelter β‑Zerfall",
+      "question": "Was ist ein charakteristisches Merkmal des doppelten β-Zerfalls?",
+      "choices": [
+        "A: Er ist eine Form der Alpha-Zerfalls.",
+        "B: Er führt zur Emission von zwei Elektronen und zwei Neutrinos.",
+        "C: Er tritt nur bei schweren Elementen auf.",
+        "D: Er verursacht immer eine Änderung der Atommasse um 4 Einheiten."
+      ],
+      "correct_answer": "B",
+      "explanation": "Der doppelte β-Zerfall ist ein Prozess, bei dem zwei β-Zerfälle gleichzeitig stattfinden, was zur Emission von zwei Elektronen und zwei Neutrinos führt. Dies unterscheidet sich von anderen Zerfallsarten, wie dem Alpha-Zerfall, der nicht zwei Elektronen emittiert.",
+      "difficulty": 6,
+      "subcategory": "Doppelter β‑Zerfall"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Dipolschwingungen",
+      "question": "Was beschreibt eine Dipolschwingung in einem elektrischen Dipol?",
+      "choices": [
+        "A: Die periodische Änderung der elektrischen Dipolmomenten in der Zeit.",
+        "B: Die gleichmäßige Verteilung von elektrischer Ladung in einem Metall.",
+        "C: Die konstante Position eines elektrischen Dipols im Raum.",
+        "D: Die Wechselwirkung zwischen zwei entgegengesetzt geladenen Teilchen."
+      ],
+      "correct_answer": "A",
+      "explanation": "Eine Dipolschwingung beschreibt die zeitliche Veränderung des Dipolmoments, das entsteht, wenn positive und negative Ladungen sich relativ zueinander bewegen. Diese Bewegung führt zu elektromagnetischen Strahlungen und ist wichtig für das Verständnis von Molekülschwingungen und deren Wechselwirkungen mit elektromagnetischen Feldern.",
+      "difficulty": 6,
+      "subcategory": "Dipolschwingungen"
     },
     {
       "category": "Physik",
       "topic": "Thermodynamik",
-      "subtopic": "Erster Hauptsatz & innere Energie",
-      "question": "Was beschreibt der erste Hauptsatz der Thermodynamik?",
+      "subtopic": "Temperaturbegriff (thermisches Gleichgewicht)",
+      "question": "Was beschreibt das thermische Gleichgewicht zwischen zwei Systemen?",
       "choices": [
-        "A: Die Temperatur ist unabhängig von der Energie im System.",
-        "B: Die Energie eines geschlossenen Systems bleibt konstant.",
-        "C: Wärme kann nicht von einem kälteren zu einem wärmeren Körper fließen.",
-        "D: Arbeit kann nicht in Wärme umgewandelt werden."
+        "A: Die Systeme haben das gleiche Volumen.",
+        "B: Die Systeme haben die gleiche Temperatur.",
+        "C: Die Systeme haben die gleiche Druck.",
+        "D: Die Systeme sind aus dem gleichen Material."
       ],
       "correct_answer": "B",
-      "explanation": "Der erste Hauptsatz der Thermodynamik besagt, dass die Gesamtenergie in einem geschlossenen System erhalten bleibt. Das bedeutet, dass die zugeführte Wärme und die geleistete Arbeit die innere Energie des Systems verändern können, aber die Gesamtenergie konstant bleibt.",
-      "difficulty": 2,
-      "subcategory": "Erster Hauptsatz & innere Energie"
+      "explanation": "Im thermischen Gleichgewicht haben zwei Systeme keine Nettoenergieübertragung mehr, was bedeutet, dass ihre Temperaturen gleich sind. Dies ist ein grundlegendes Konzept in der Thermodynamik und entscheidend für das Verständnis von Wärmeübertragung.",
+      "difficulty": 5,
+      "subcategory": "Temperaturbegriff (thermisches Gleichgewicht)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Kernspaltung",
+      "question": "Was ist das Hauptprodukt der Kernspaltung von Uran-235?",
+      "choices": [
+        "A: Helium-4",
+        "B: Kohlenstoff-12",
+        "C: Wasserstoff-1",
+        "D: Barium-141 und Krypton-92"
+      ],
+      "correct_answer": "D",
+      "explanation": "Bei der Kernspaltung von Uran-235 entstehen typischerweise die Spaltprodukte Barium-141 und Krypton-92, sowie Neutronen und Energie. Diese Reaktion ist grundlegend für die Funktionsweise von Kernkraftwerken.",
+      "difficulty": 5,
+      "subcategory": "Kernspaltung"
     }
   ]
 }

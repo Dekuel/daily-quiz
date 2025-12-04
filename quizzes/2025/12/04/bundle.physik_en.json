@@ -1,168 +1,168 @@
 {
   "date": "2025-12-04",
-  "generated_at": "2025-12-04T15:33:21Z",
+  "generated_at": "2025-12-04T15:48:11Z",
   "schema_version": 6,
   "mode": "physik",
   "questions": [
     {
       "category": "Physik",
-      "topic": "Statistische Mechanik",
-      "subtopic": "Ginzburg–Landau-Funktional & -Nähe",
-      "question": "What does the Ginzburg-Landau functional describe in statistical mechanics?",
-      "choices": [
-        "A: The interactions between photons and matter.",
-        "B: The motion of particles in an electric field.",
-        "C: The critical phase transitions in superconductors.",
-        "D: The thermodynamic properties of gases."
-      ],
-      "correct_answer": "C",
-      "explanation": "The Ginzburg-Landau functional is an important model for describing phase transitions, especially in superconductors. It allows the analysis of order and symmetry in the critical regions of matter.",
-      "difficulty": 4,
-      "subcategory": "Ginzburg–Landau-Funktional & -Nähe"
-    },
-    {
-      "category": "Physik",
       "topic": "Quantenmechanik",
-      "subtopic": "Zweite Quantisierung: Erzeugungs-/Vernichtungsoperatoren",
-      "question": "Which of the following properties correctly describes the creation operator in quantum mechanics?",
+      "subtopic": "Eigenfunktionen der gebundenen Zustände (Laguerre)",
+      "question": "Which of the following statements about the eigenfunctions of the bound states in a hydrogen atom, described by Laguerre polynomials, is correct?",
       "choices": [
-        "A: It only acts on classical systems.",
-        "B: It decreases the energy of a state.",
-        "C: It increases the particle number of a state by one.",
-        "D: It is Hermitian and always has real eigenvalues."
-      ],
-      "correct_answer": "C",
-      "explanation": "The creation operator increases the particle number of a quantum state by one, leading to a state with higher energy. This is fundamental for describing bosons in quantum field theory and differs from the properties of the annihilation operator, which decreases the particle number.",
-      "difficulty": 8,
-      "subcategory": "Zweite Quantisierung: Erzeugungs-/Vernichtungsoperatoren"
-    },
-    {
-      "category": "Physik",
-      "topic": "Festkörperphysik",
-      "subtopic": "Dynamische Streuung & Phononenquantisierung",
-      "question": "What does the term 'phonon' describe in solid-state physics?",
-      "choices": [
-        "A: A type of light radiation.",
-        "B: A particle that mediates gravity.",
-        "C: An electron in a semiconductor.",
-        "D: A quantized vibrational mode in a solid."
+        "A: The eigenfunctions are independent of the principal quantum number.",
+        "B: The eigenfunctions are not normalizable.",
+        "C: The eigenfunctions are always constant in time.",
+        "D: The eigenfunctions are orthogonal to each other."
       ],
       "correct_answer": "D",
-      "explanation": "Phonons are quantized vibrational modes in a solid and play an important role in heat conduction and the dynamic properties of materials. They are crucial for understanding interactions in solids.",
-      "difficulty": 2,
-      "subcategory": "Dynamische Streuung & Phononenquantisierung"
+      "explanation": "The eigenfunctions of the bound states in the hydrogen atom are actually orthogonal to each other, which is an important property in quantum mechanics. This orthogonality is crucial for the development of quantum states and the application of superposition principles.",
+      "difficulty": 8,
+      "subcategory": "Eigenfunktionen der gebundenen Zustände (Laguerre)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Kritische Exponenten & Skalengesetze",
+      "question": "What does the critical exponent describe in statistical mechanics?",
+      "choices": [
+        "A: The speed of light in a vacuum.",
+        "B: The mass of a particle.",
+        "C: The temperature of an ideal gas.",
+        "D: The behavior of a system near a phase boundary."
+      ],
+      "correct_answer": "D",
+      "explanation": "The critical exponent describes how physical quantities such as specific heat or magnetization vary near a phase transition. This is a central concept in statistical mechanics, especially in the analysis of critical phenomena.",
+      "difficulty": 1,
+      "subcategory": "Kritische Exponenten & Skalengesetze"
     },
     {
       "category": "Physik",
       "topic": "Optik",
-      "subtopic": "Dispersion dichter Medien",
-      "question": "Which statement about dispersion in dense media is correct?",
+      "subtopic": "Lichttechnische Größen",
+      "question": "What does luminous intensity describe in optics?",
       "choices": [
-        "A: All wavelengths of light are refracted equally.",
-        "B: Dispersion has no effect on color perception.",
-        "C: Light of different wavelengths is refracted to different extents.",
-        "D: Dispersion only occurs in a vacuum."
-      ],
-      "correct_answer": "C",
-      "explanation": "Dispersion in dense media describes the phenomenon that light of different wavelengths is refracted to different extents. This results in white light being separated into colors, as observed, for example, with a prism.",
-      "difficulty": 5,
-      "subcategory": "Dispersion dichter Medien"
-    },
-    {
-      "category": "Physik",
-      "topic": "Festkörperphysik",
-      "subtopic": "BCS bei endlicher Temperatur",
-      "question": "What does the BCS model describe in solid-state physics?",
-      "choices": [
-        "A: The diffusion of atoms in a crystal.",
-        "B: The movement of electrons in a semiconductor.",
-        "C: Heat conduction in metals.",
-        "D: The formation of Cooper pairs in superconductors."
-      ],
-      "correct_answer": "D",
-      "explanation": "The BCS model explains superconductivity as a result of the formation of Cooper pairs, which are formed by interactions between electrons. These pairs allow electrons to move through the material without resistance, leading to a superconducting state.",
-      "difficulty": 1,
-      "subcategory": "BCS bei endlicher Temperatur"
-    },
-    {
-      "category": "Physik",
-      "topic": "Elektrodynamik",
-      "subtopic": "Biot–Savart-Gesetz",
-      "question": "Which of the following elements correctly describes the Biot-Savart law?",
-      "choices": [
-        "A: It describes the magnetic field generated by a stationary electric charge.",
-        "B: It describes the interaction between electric fields and moving charges.",
-        "C: It describes the magnetic field generated by a current-carrying conductor.",
-        "D: It describes the force on a moving charge in an electric field."
-      ],
-      "correct_answer": "C",
-      "explanation": "The Biot-Savart law describes how an electric current in a conductor generates a magnetic field. It takes into account the geometry of the current and its distance from a point where the magnetic field is measured.",
-      "difficulty": 6,
-      "subcategory": "Biot–Savart-Gesetz"
-    },
-    {
-      "category": "Physik",
-      "topic": "Thermodynamik",
-      "subtopic": "Zustandsgleichungen (Überblick)",
-      "question": "Which of the following equations describes the ideal gas law?",
-      "choices": [
-        "A: PV = nRT",
-        "B: W = Fd",
-        "C: E = mc²",
-        "D: F = ma"
+        "A: The intensity of light emitted in a specific direction.",
+        "B: The total amount of light emitted by a light source.",
+        "C: The color of light.",
+        "D: The wavelength of light."
       ],
       "correct_answer": "A",
-      "explanation": "The equation PV = nRT is the equation of state for ideal gases, describing the relationship between pressure (P), volume (V), temperature (T), and the number of moles (n). The other equations relate to different physical concepts.",
-      "difficulty": 1,
-      "subcategory": "Zustandsgleichungen (Überblick)"
+      "explanation": "Luminous intensity is a measure of the intensity of light emitted in a specific direction. It is measured in candela (cd) and is an important quantity in lighting technology.",
+      "difficulty": 2,
+      "subcategory": "Lichttechnische Größen"
     },
     {
       "category": "Physik",
-      "topic": "Optik",
-      "subtopic": "Photoeffekt (Grundlagen)",
-      "question": "Which of the following factors does not influence the triggering of the photoelectric effect?",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Großkanonisches Potential (Quanten-Gase)",
+      "question": "What does the grand canonical potential describe in statistical mechanics for quantum gases?",
       "choices": [
-        "A: The frequency of the incident light",
-        "B: The intensity of the incident light",
-        "C: The temperature of the electron in the material",
-        "D: The nature of the material surface"
-      ],
-      "correct_answer": "C",
-      "explanation": "The photoelectric effect is influenced by the frequency of the incident light and the nature of the material. The intensity of light affects the number of emitted electrons but not the triggering itself. The temperature of the electron does not directly affect the photoelectric effect.",
-      "difficulty": 8,
-      "subcategory": "Photoeffekt (Grundlagen)"
-    },
-    {
-      "category": "Physik",
-      "topic": "Quantenmechanik",
-      "subtopic": "Clebsch–Gordan-Koeffizienten",
-      "question": "What do the Clebsch-Gordan coefficients describe in quantum mechanics?",
-      "choices": [
-        "A: The speed of light in different media.",
-        "B: The mass of subatomic particles.",
-        "C: The energy states in an atom.",
-        "D: The combination of spin states of particles."
+        "A: The relationship between temperature and energy of a system.",
+        "B: The energetic distribution of particles in a system at constant pressure and temperature.",
+        "C: The interaction between particles in a gas.",
+        "D: The free energy of a system at constant volume and temperature."
       ],
       "correct_answer": "D",
-      "explanation": "The Clebsch-Gordan coefficients are mathematical tools for combining quantum states, especially for describing the addition of spins. They play an important role in the theory of quantum mechanical systems involving multiple particles.",
-      "difficulty": 2,
-      "subcategory": "Clebsch–Gordan-Koeffizienten"
+      "explanation": "The grand canonical potential describes the free energy of a system in contact with a reservoir of particles and energy. It is used to analyze macroscopic properties of quantum gases, especially at constant volume and temperature.",
+      "difficulty": 3,
+      "subcategory": "Großkanonisches Potential (Quanten-Gase)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Erweiterungen des Hamilton’schen Prinzips",
+      "question": "What does Hamilton's principle describe in analytical mechanics?",
+      "choices": [
+        "A: Forces can only be considered in a conservative field.",
+        "B: The momentum of a system is always conserved.",
+        "C: The energy of a system remains constant during motion.",
+        "D: The motion of a system of particles minimizes the total action function."
+      ],
+      "correct_answer": "D",
+      "explanation": "Hamilton's principle states that the actual motion of a system between two time points is the path that minimizes the total action function. This is a central concept in analytical mechanics that forms the basis for formulating the equations of motion.",
+      "difficulty": 4,
+      "subcategory": "Erweiterungen des Hamilton’schen Prinzips"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Universalität & Skalenhypothese (statisch)",
+      "question": "What does the scaling hypothesis describe in statistical mechanics?",
+      "choices": [
+        "A: Energy can only be transferred in discrete amounts.",
+        "B: All physical laws are irrelevant on macroscopic scales.",
+        "C: The behavior of systems on different scales is independent of the details of microscopic interactions.",
+        "D: Temperature is independent of the number of particles in a system."
+      ],
+      "correct_answer": "C",
+      "explanation": "The scaling hypothesis states that the behavior of physical systems on macroscopic scales is independent of the specific microscopic details. This universality is a central concept in statistical mechanics that helps understand complex systems.",
+      "difficulty": 1,
+      "subcategory": "Universalität & Skalenhypothese (statisch)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Doppelter β‑Zerfall",
+      "question": "What is a characteristic feature of double beta decay?",
+      "choices": [
+        "A: It is a form of alpha decay.",
+        "B: It leads to the emission of two electrons and two neutrinos.",
+        "C: It only occurs in heavy elements.",
+        "D: It always causes a change in atomic mass by 4 units."
+      ],
+      "correct_answer": "B",
+      "explanation": "Double beta decay is a process where two beta decays occur simultaneously, leading to the emission of two electrons and two neutrinos. This differs from other decay modes, such as alpha decay, which does not emit two electrons.",
+      "difficulty": 6,
+      "subcategory": "Doppelter β‑Zerfall"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Dipolschwingungen",
+      "question": "What does a dipole vibration in an electric dipole describe?",
+      "choices": [
+        "A: The periodic change of electric dipole moments over time.",
+        "B: The uniform distribution of electric charge in a metal.",
+        "C: The constant position of an electric dipole in space.",
+        "D: The interaction between two oppositely charged particles."
+      ],
+      "correct_answer": "A",
+      "explanation": "A dipole vibration describes the temporal change of the dipole moment that arises when positive and negative charges move relative to each other. This movement results in electromagnetic radiation and is important for understanding molecular vibrations and their interactions with electromagnetic fields.",
+      "difficulty": 6,
+      "subcategory": "Dipolschwingungen"
     },
     {
       "category": "Physik",
       "topic": "Thermodynamik",
-      "subtopic": "Erster Hauptsatz & innere Energie",
-      "question": "What does the first law of thermodynamics describe?",
+      "subtopic": "Temperaturbegriff (thermisches Gleichgewicht)",
+      "question": "What does thermal equilibrium between two systems describe?",
       "choices": [
-        "A: Temperature is independent of energy in the system.",
-        "B: The energy of a closed system remains constant.",
-        "C: Heat cannot flow from a colder to a warmer body.",
-        "D: Work cannot be converted into heat."
+        "A: The systems have the same volume.",
+        "B: The systems have the same temperature.",
+        "C: The systems have the same pressure.",
+        "D: The systems are made of the same material."
       ],
       "correct_answer": "B",
-      "explanation": "The first law of thermodynamics states that the total energy in a closed system remains constant. This means that the heat supplied and the work done can change the internal energy of the system, but the total energy remains constant.",
-      "difficulty": 2,
-      "subcategory": "Erster Hauptsatz & innere Energie"
+      "explanation": "In thermal equilibrium, two systems no longer have net energy transfer, meaning their temperatures are equal. This is a fundamental concept in thermodynamics and crucial for understanding heat transfer.",
+      "difficulty": 5,
+      "subcategory": "Temperaturbegriff (thermisches Gleichgewicht)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Kernspaltung",
+      "question": "What is the main product of the fission of uranium-235?",
+      "choices": [
+        "A: Helium-4",
+        "B: Carbon-12",
+        "C: Hydrogen-1",
+        "D: Barium-141 and Krypton-92"
+      ],
+      "correct_answer": "D",
+      "explanation": "In the fission of uranium-235, the typical fission products are barium-141 and krypton-92, as well as neutrons and energy. This reaction is fundamental to the operation of nuclear power plants.",
+      "difficulty": 5,
+      "subcategory": "Kernspaltung"
     }
   ]
 }
