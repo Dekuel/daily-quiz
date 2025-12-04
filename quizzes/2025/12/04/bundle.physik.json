@@ -1,168 +1,168 @@
 {
   "date": "2025-12-04",
-  "generated_at": "2025-12-04T15:59:03Z",
+  "generated_at": "2025-12-04T16:16:31Z",
   "schema_version": 6,
   "mode": "physik",
   "questions": [
     {
       "category": "Physik",
-      "topic": "Quantenmechanik",
-      "subtopic": "Resonanzstreuung",
-      "question": "Was beschreibt der Begriff der Resonanzstreuung in der Quantenmechanik?",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Kanonische Gleichungen (Hamilton-Gleichungen)",
+      "question": "Was beschreibt die Hamilton-Gleichung in der analytischen Mechanik?",
       "choices": [
-        "A: Die Bewegung von Teilchen in einem Vakuum.",
-        "B: Die gleichmäßige Verteilung von Teilchen in einem Raum.",
-        "C: Die permanente Bindung von Teilchen zu einem Molekül.",
-        "D: Die Wechselwirkung von Teilchen, die zu einem kurzfristigen Energiewechsel führt."
+        "A: Die Entwicklung des Zustands eines Systems über Zeit.",
+        "B: Die Beziehung zwischen Energie und Zeit.",
+        "C: Die Beschreibung der Temperatur eines Systems.",
+        "D: Die Bewegung eines Körpers unter dem Einfluss von Kräften."
       ],
-      "correct_answer": "D",
-      "explanation": "Resonanzstreuung beschreibt einen Prozess, bei dem Teilchen mit einem bestimmten Energieniveau interagieren und dadurch vorübergehend ein höheres Energieniveau erreichen. Diese Wechselwirkung ist charakteristisch für die Quantenmechanik und führt zu spezifischen Streuungseffekten.",
-      "difficulty": 4,
-      "subcategory": "Resonanzstreuung"
+      "correct_answer": "A",
+      "explanation": "Die Hamilton-Gleichungen beschreiben die zeitliche Entwicklung des Zustands eines mechanischen Systems in der analytischen Mechanik. Sie sind zentrale Gleichungen zur Analyse von dynamischen Systemen und verbinden Positionen und Impulse der Teilchen.",
+      "difficulty": 1,
+      "subcategory": "Kanonische Gleichungen (Hamilton-Gleichungen)"
     },
     {
       "category": "Physik",
       "topic": "Optik",
-      "subtopic": "Strahlungsgesetze (Wien, Rayleigh–Jeans)",
-      "question": "Welches Gesetz beschreibt das Verhältnis zwischen der Temperatur eines Schwarzen Körpers und der Wellenlänge, bei der die maximale Strahlungsintensität auftritt?",
+      "subtopic": "Brechungsgesetz aus Fermat",
+      "question": "Was besagt das Brechungsgesetz von Fermat für die Lichtausbreitung?",
       "choices": [
-        "A: Rayleigh-Jeans-Gesetz",
-        "B: Plancksches Strahlungsgesetz",
-        "C: Stefan-Boltzmann-Gesetz",
-        "D: Wien'sches Verschiebungsgesetz"
+        "A: Licht bricht immer an der Grenze zwischen zwei Medien mit unterschiedlichen Temperaturen.",
+        "B: Licht bewegt sich immer geradlinig und ändert niemals seine Richtung.",
+        "C: Licht breitet sich in jedem Medium mit der gleichen Geschwindigkeit aus.",
+        "D: Licht folgt dem kürzesten Weg zwischen zwei Punkten."
       ],
       "correct_answer": "D",
-      "explanation": "Das Wien'sche Verschiebungsgesetz beschreibt, wie die Temperatur eines Schwarzen Körpers die Wellenlänge beeinflusst, bei der die Strahlung maximal ist. Es zeigt, dass die Wellenlänge mit steigender Temperatur abnimmt.",
-      "difficulty": 5,
-      "subcategory": "Strahlungsgesetze (Wien, Rayleigh–Jeans)"
+      "explanation": "Das Brechungsgesetz von Fermat besagt, dass Licht den Weg zwischen zwei Punkten so wählt, dass die Zeit, die es benötigt, minimal ist. Dies führt zu dem Phänomen der Lichtbrechung an Grenzflächen zwischen verschiedenen Medien, wobei die Lichtgeschwindigkeit variiert.",
+      "difficulty": 6,
+      "subcategory": "Brechungsgesetz aus Fermat"
     },
     {
       "category": "Physik",
-      "topic": "Thermodynamik",
-      "subtopic": "Ideales Gas (Zustandsgleichung)",
-      "question": "Was beschreibt die Zustandsgleichung eines idealen Gases?",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Massen der Baryonen",
+      "question": "Welches der folgenden Baryonen hat die größte Masse?",
       "choices": [
-        "A: Das Verhältnis von Druck, Volumen und Temperatur eines Gases.",
-        "B: Die Geschwindigkeit der Moleküle in einem Gas.",
-        "C: Die chemische Zusammensetzung des Gases.",
-        "D: Die maximale Energie, die ein Gas speichern kann."
+        "A: Pi-Meson",
+        "B: Neutron",
+        "C: Proton",
+        "D: Lambda-Baryon"
       ],
-      "correct_answer": "A",
-      "explanation": "Die Zustandsgleichung eines idealen Gases, dargestellt durch die Formel PV = nRT, beschreibt das Verhältnis von Druck (P), Volumen (V) und Temperatur (T) des Gases. Diese Beziehung ist fundamental für das Verständnis der Eigenschaften idealer Gase in der Thermodynamik.",
-      "difficulty": 4,
-      "subcategory": "Ideales Gas (Zustandsgleichung)"
-    },
-    {
-      "category": "Physik",
-      "topic": "Elektrodynamik",
-      "subtopic": "Elektrischer Strom (Definition & Kontinuitätsgleichung)",
-      "question": "Was beschreibt der elektrische Strom in einem Leiter?",
-      "choices": [
-        "A: Die Spannung an den Enden des Leiters.",
-        "B: Die Bewegung von elektrischen Ladungen.",
-        "C: Den Widerstand des Leiters.",
-        "D: Die Temperatur des Leiters."
-      ],
-      "correct_answer": "B",
-      "explanation": "Der elektrische Strom ist definiert als die Bewegung von elektrischen Ladungen, typischerweise Elektronen, durch einen Leiter. Diese Bewegung wird oft in Ampere gemessen und ist entscheidend für das Verständnis elektrischer Schaltungen.",
-      "difficulty": 5,
-      "subcategory": "Elektrischer Strom (Definition & Kontinuitätsgleichung)"
+      "correct_answer": "D",
+      "explanation": "Das Lambda-Baryon ist schwerer als sowohl das Proton als auch das Neutron. Baryonen sind Teilchen, die aus drei Quarks bestehen, und das Lambda-Baryon hat eine höhere Masse aufgrund seines speziellen Quark-Zusammenschlusses. Das Pi-Meson ist kein Baryon, sondern ein Meson und hat daher eine geringere Masse.",
+      "difficulty": 2,
+      "subcategory": "Massen der Baryonen"
     },
     {
       "category": "Physik",
       "topic": "Festkörperphysik",
-      "subtopic": "Zustandsdichte (Bänder)",
-      "question": "Welche Aussage zur Zustandsdichte in Festkörpern ist korrekt?",
+      "subtopic": "Austauschwechselwirkung (lokalisierte Elektronen)",
+      "question": "Welche der folgenden Aussagen beschreibt am besten die Auswirkungen der Austauschwechselwirkung auf die Elektronenzustände in einem Festkörper?",
       "choices": [
-        "A: Die Zustandsdichte ist konstant bei allen Energien in einem Metall.",
-        "B: Die Zustandsdichte beschreibt die Anzahl der Zustände pro Energiedifferenz und ist für Halbleiter bei der Bandlücke am höchsten.",
-        "C: In Isolatoren liegt die Zustandsdichte immer über der von Metallen.",
-        "D: Die Zustandsdichte beeinflusst nicht die elektrischen Eigenschaften von Materialien."
+        "A: Die Austauschwechselwirkung führt zu einer energetischen Erhöhung von Elektronenzuständen mit antiparallel ausgerichteten Spins.",
+        "B: Die Austauschwechselwirkung führt zu einer energetischen Stabilisierung von Elektronenzuständen mit parallel ausgerichteten Spins.",
+        "C: Die Austauschwechselwirkung bewirkt eine vollständige Entkopplung der Elektronenzustände im Festkörper.",
+        "D: Die Austauschwechselwirkung hat keinen Einfluss auf die Energieniveaus der Elektronen in einem Festkörper."
       ],
       "correct_answer": "B",
-      "explanation": "Die Zustandsdichte in Festkörpern gibt an, wie viele Quantenzustände pro Energieeinheit in einem bestimmten Energiebereich vorhanden sind. Bei Halbleitern ist die Zustandsdichte in der Nähe der Bandlücke besonders relevant, da sie das Verhalten von Elektronen und Löchern in diesen Materialien bestimmt.",
+      "explanation": "Die Austauschwechselwirkung ist ein quantenmechanischer Effekt, der die energetische Stabilität von Elektronenzuständen beeinflusst, insbesondere durch die Spins der Elektronen. Elektronen mit parallel ausgerichteten Spins erfahren eine energetische Stabilisierung, was zu Ferromagnetismus und anderen magnetischen Eigenschaften führen kann.",
       "difficulty": 8,
-      "subcategory": "Zustandsdichte (Bänder)"
+      "subcategory": "Austauschwechselwirkung (lokalisierte Elektronen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Statistische Begründung der Irreversibilität",
+      "question": "Welches Konzept aus der statistischen Mechanik erklärt die irreversiblen Prozesse in einem geschlossenen System?",
+      "choices": [
+        "A: Druck",
+        "B: Entropie",
+        "C: Energie",
+        "D: Temperatur"
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Entropie ist ein zentrales Konzept in der statistischen Mechanik, das beschreibt, wie sich die Anzahl der Mikrozustände eines Systems mit der Zeit ändert. Irreversible Prozesse führen zu einer Zunahme der Entropie, was die Richtung und das Ende dieser Prozesse bestimmt.",
+      "difficulty": 8,
+      "subcategory": "Statistische Begründung der Irreversibilität"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Fabry–Perot-Interferometer (Vielfachinterferenzen)",
+      "question": "Was ist das Hauptprinzip eines Fabry–Perot-Interferometers?",
+      "choices": [
+        "A: Brechung von Licht an einer Linse.",
+        "B: Absorption von Licht durch ein Material.",
+        "C: Streuung von Licht an kleinen Partikeln.",
+        "D: Mehrfachreflexion von Licht zwischen zwei parallelen Spiegeln."
+      ],
+      "correct_answer": "D",
+      "explanation": "Ein Fabry–Perot-Interferometer funktioniert durch die Mehrfachreflexion von Licht zwischen zwei parallelen Spiegeln. Diese Reflexionen führen zu konstruktiven und destruktiven Interferenzen, die charakteristische Muster erzeugen.",
+      "difficulty": 1,
+      "subcategory": "Fabry–Perot-Interferometer (Vielfachinterferenzen)"
     },
     {
       "category": "Physik",
       "topic": "Elektrodynamik",
-      "subtopic": "Maxwell-Gleichungen (vollständig)",
-      "question": "Welches der folgenden Gesetze ist Teil der Maxwell-Gleichungen?",
+      "subtopic": "Randwertprobleme der Elektrostatik (Laplace-Gleichung)",
+      "question": "Welche Bedingung muss erfüllt sein, damit die Laplace-Gleichung in einem bestimmten Gebiet anwendbar ist?",
       "choices": [
-        "A: Das Hooke'sche Gesetz",
-        "B: Das Gauss'sche Gesetz für die Elektrizität",
-        "C: Das Gesetz von Boyle-Mariotte",
-        "D: Das Gesetz der Energieerhaltung"
+        "A: Es muss ein konstanter elektrischer Strom fließen.",
+        "B: Die Temperatur muss konstant sein.",
+        "C: Die Materiedichte muss gleichmäßig verteilt sein.",
+        "D: Die Potentialfunktion muss in diesem Gebiet harmonisch sein."
       ],
-      "correct_answer": "B",
-      "explanation": "Das Gauss'sche Gesetz für die Elektrizität ist eine der vier Maxwell-Gleichungen und beschreibt, wie elektrische Felder mit Ladungen verbunden sind. Die anderen genannten Gesetze gehören nicht zur Elektrodynamik und behandeln andere physikalische Phänomene.",
-      "difficulty": 5,
-      "subcategory": "Maxwell-Gleichungen (vollständig)"
+      "correct_answer": "D",
+      "explanation": "Die Laplace-Gleichung beschreibt harmonische Funktionen, die in einem bestimmten Gebiet gelten, wo es keine freien Ladungen gibt. Eine harmonische Potentialfunktion ist eine Voraussetzung für die Anwendung der Laplace-Gleichung in der Elektrostatik.",
+      "difficulty": 4,
+      "subcategory": "Randwertprobleme der Elektrostatik (Laplace-Gleichung)"
     },
     {
       "category": "Physik",
-      "topic": "Thermodynamik",
-      "subtopic": "Geschl. System im Wärmebad: Minimum der freien Energie F",
-      "question": "Was beschreibt das Minimum der freien Energie F in einem geschlossenen System im Wärmebad?",
+      "topic": "Quantenmechanik",
+      "subtopic": "Grenzen der klassischen Physik",
+      "question": "Welche Aussage beschreibt am besten die Grenze der klassischen Physik im Vergleich zur Quantenmechanik?",
       "choices": [
-        "A: Die Energie des Systems ist konstant.",
-        "B: Das System hat die maximale Entropie erreicht.",
-        "C: Das System befindet sich im thermischen Gleichgewicht.",
-        "D: Das System hat die minimale Temperatur erreicht."
+        "A: Die klassische Physik ist nur für sehr große Objekte relevant.",
+        "B: Quantenmechanik zeigt, dass Teilchen sowohl Wellen- als auch Teilchencharakter besitzen.",
+        "C: In der klassischen Physik gibt es keine Unschärferelation.",
+        "D: Die klassische Physik kann alle Phänomene des Mikrokosmos vollständig erklären."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Quantenmechanik zeigt, dass Teilchen sowohl Wellen- als auch Teilchencharakter besitzen, was ein zentrales Konzept ist, das die Grenzen der klassischen Physik aufzeigt. Während die klassische Physik in vielen Alltagsphänomenen gut funktioniert, versagt sie im Mikrokosmos, wo quantenmechanische Effekte dominieren.",
+      "difficulty": 5,
+      "subcategory": "Grenzen der klassischen Physik"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Observable",
+      "question": "Was ist eine Observable in der Quantenmechanik?",
+      "choices": [
+        "A: Ein Zustand eines quantenmechanischen Systems.",
+        "B: Ein Prinzip der Unschärferelation.",
+        "C: Eine physikalische Größe, die gemessen werden kann.",
+        "D: Eine mathematische Funktion zur Beschreibung von Teilchenbewegungen."
       ],
       "correct_answer": "C",
-      "explanation": "Das Minimum der freien Energie F in einem geschlossenen System im Wärmebad zeigt an, dass das System im thermischen Gleichgewicht ist. In diesem Zustand sind die makroskopischen Eigenschaften stabil, und es gibt keine Nettobewegung von Energie oder Teilchen im System.",
+      "explanation": "In der Quantenmechanik bezeichnet eine Observable eine physikalische Größe, die durch einen Messprozess erfasst werden kann, wie zum Beispiel Position oder Impuls. Der Wert einer Observable ist nicht immer eindeutig, sondern wird durch den Zustand des Systems bestimmt.",
       "difficulty": 4,
-      "subcategory": "Geschl. System im Wärmebad: Minimum der freien Energie F"
+      "subcategory": "Observable"
     },
     {
       "category": "Physik",
-      "topic": "Elektrodynamik",
-      "subtopic": "Ladungen und Ströme",
-      "question": "Welche der folgenden Aussagen über die Wechselwirkung zwischen zwei punktförmigen elektrischen Ladungen ist korrekt?",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Reibung: Gleitreibung",
+      "question": "Welche der folgenden Aussagen beschreibt am besten die Gleitreibung zwischen zwei Oberflächen?",
       "choices": [
-        "A: Die elektrische Kraft wirkt nur über einen festen, definierten Abstand zwischen den Ladungen.",
-        "B: Die elektrische Kraft zwischen zwei gleichnamigen Ladungen ist abstoßend und folgt dem Coulombschen Gesetz.",
-        "C: Die Kraft zwischen den Ladungen ist immer anziehend, unabhängig von ihren Vorzeichen.",
-        "D: Die Stärke der elektrischen Kraft ist unabhängig von der Entfernung zwischen den Ladungen."
-      ],
-      "correct_answer": "B",
-      "explanation": "Die Coulomb-Kraft beschreibt die Wechselwirkung zwischen zwei elektrischen Ladungen und ist abstoßend, wenn die Ladungen gleichnamig sind. Diese Kraft wird durch das Coulomb-Gesetz quantifiziert und ist invers proportional zum Quadrat der Entfernung zwischen den Ladungen, was bedeutet, dass die Kraft mit zunehmender Entfernung abnimmt.",
-      "difficulty": 8,
-      "subcategory": "Ladungen und Ströme"
-    },
-    {
-      "category": "Physik",
-      "topic": "Thermodynamik",
-      "subtopic": "Extremaleigenschaften von U und H",
-      "question": "Welche Aussage über die innere Energie (U) und die Enthalpie (H) ist korrekt?",
-      "choices": [
-        "A: Die Enthalpie berücksichtigt die Arbeit, die bei konstantem Druck verrichtet wird.",
-        "B: Die innere Energie ist unabhängig von der Temperatur.",
-        "C: Die Enthalpie ist immer kleiner als die innere Energie.",
-        "D: Die innere Energie kann nicht in thermodynamischen Prozessen verändert werden."
+        "A: Die Gleitreibung ist proportional zur Normalkraft zwischen den Oberflächen.",
+        "B: Die Gleitreibung ist unabhängig von der Art der Materialien.",
+        "C: Die Gleitreibung tritt nur bei ruhenden Oberflächen auf.",
+        "D: Die Gleitreibung ist immer gleich null."
       ],
       "correct_answer": "A",
-      "explanation": "Die Enthalpie (H) ist definiert als die innere Energie (U) plus das Produkt aus Druck und Volumen (PV). Sie ist besonders wichtig in Prozessen bei konstantem Druck, da sie die gesamte Energie umfasst, die für die Arbeit und die Wärmeübertragung benötigt wird.",
-      "difficulty": 5,
-      "subcategory": "Extremaleigenschaften von U und H"
-    },
-    {
-      "category": "Physik",
-      "topic": "Festkörperphysik",
-      "subtopic": "Kohärente inelastische Neutronenstreuung",
-      "question": "Welche der folgenden Aussagen beschreibt am besten den Prozess der kohärenten inelastischen Neutronenstreuung?",
-      "choices": [
-        "A: Die Neutronen verlieren Energie und ändern ihre Richtung ohne Energieübertragung an das Material.",
-        "B: Die Neutronen werden elastisch gestreut, wobei ihre Energie und Richtung unverändert bleiben.",
-        "C: Die Neutronen werden vollständig absorbiert und erzeugen keine Streuung.",
-        "D: Die Neutronen übertragen Energie auf das Material und erzeugen dabei Schwingungen der Atome."
-      ],
-      "correct_answer": "D",
-      "explanation": "Bei der kohärenten inelastischen Neutronenstreuung verlieren die Neutronen Energie und übertragen diese auf die Atome des Materials, was zu Schwingungen führt. Dieser Prozess ermöglicht es, Informationen über die dynamischen Eigenschaften des Festkörpers zu gewinnen.",
-      "difficulty": 6,
-      "subcategory": "Kohärente inelastische Neutronenstreuung"
+      "explanation": "Die Gleitreibungskräfte sind tatsächlich proportional zur Normalkraft, die auf die Oberflächen wirkt. Diese Beziehung ist wichtig, um das Verhalten von Objekten in Bewegung zu verstehen und kommt in der klassischen Mechanik häufig vor.",
+      "difficulty": 4,
+      "subcategory": "Reibung: Gleitreibung"
     }
   ]
 }

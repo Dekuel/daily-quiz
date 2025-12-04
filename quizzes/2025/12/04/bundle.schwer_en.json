@@ -1,49 +1,89 @@
 {
   "date": "2025-12-04",
-  "generated_at": "2025-12-04T15:59:19Z",
+  "generated_at": "2025-12-04T16:16:54Z",
   "schema_version": 6,
   "mode": "schwer",
   "questions": [
     {
-      "category": "Geschichte",
-      "topic": "Antike",
-      "question": "Which of the following ancient civilizations was not located in Mesopotamia?",
-      "choices": [
-        "A: Assyrians",
-        "B: Egyptians",
-        "C: Babylonians",
-        "D: Sumerians"
-      ],
-      "correct_answer": "B",
-      "explanation": "The Egyptians developed their ancient civilization along the Nile in Egypt, while the other mentioned civilizations were located in Mesopotamia, the region between the Tigris and Euphrates rivers. These ancient civilizations were characterized by advanced developments in writing, architecture, and administration.",
-      "difficulty": 9
+      "question": "What is a key advantage of leasing compared to buying a car?",
+      "category": "Alltag & Gesellschaft",
+      "subcategory": "Autokauf & Leasing",
+      "difficulty": 7,
+      "options": {
+        "A": "Höhere monatliche Raten",
+        "B": "Keine Versicherungsvergünstigungen",
+        "C": "Geringere Anfangsinvestition",
+        "D": "Unbegrenzte Kilometerzahl ohne Zusatzkosten"
+      },
+      "correct_answer": "B"
     },
     {
-      "category": "Technologie",
-      "topic": "Technik-Geschichte",
-      "question": "Which protocol was originally developed for the exchange of email messages and remains a standard on the Internet to this day?",
+      "category": "Natur",
+      "topic": "Lebensräume & Ökosysteme",
+      "question": "Which of the following characteristics is typically an indicator of a natural ecosystem compared to a human-altered ecosystem?",
       "choices": [
-        "A: POP3",
-        "B: HTTP",
-        "C: IMAP",
-        "D: SMTP"
+        "A: High biodiversity and stable food webs",
+        "B: Frequent use of pesticides and herbicidal substances",
+        "C: Intensive nutrient fertilization and monocultures",
+        "D: Uniform vegetation and reduced species diversity"
       ],
-      "correct_answer": "D",
-      "explanation": "SMTP (Simple Mail Transfer Protocol) is the basic protocol for sending emails over the Internet. It was developed in the 1980s and continues to be the standard for email delivery. IMAP and POP3 are protocols for receiving emails, while HTTP is used for data transfer on the web.",
+      "correct_answer": "A",
+      "explanation": "Natural ecosystems are characterized by high biodiversity and complex food webs, providing better adaptability and stability. Conversely, human-altered ecosystems tend to reduce species diversity and rely more on chemical interventions.",
       "difficulty": 8
     },
     {
-      "category": "Geographie",
-      "topic": "Städte, Länder & Flaggen",
-      "question": "Which of the following cities is known as one of the largest seaports in Europe and is located at the mouth of the Rhine River?",
+      "category": "Essen und Trinken",
+      "topic": "Küche international",
+      "question": "Which of the following ingredients is typical in the preparation of Pho, a traditional Vietnamese soup?",
       "choices": [
-        "A: Rotterdam",
-        "B: Hamburg",
-        "C: Antwerp",
-        "D: Marseille"
+        "A: Pesto",
+        "B: Teriyaki sauce",
+        "C: Fish sauce",
+        "D: Soy sauce"
       ],
-      "correct_answer": "A",
-      "explanation": "Rotterdam is one of the largest seaports in Europe and a significant hub for international trade. The city is strategically located at the mouth of the Rhine River, giving it outstanding importance in European commerce.",
+      "correct_answer": "C",
+      "explanation": "Fish sauce is a key element in Vietnamese cuisine, giving Pho its characteristic umami flavor. It is made from fermented fish and is essential in many Vietnamese dishes.",
+      "difficulty": 7
+    },
+    {
+      "category": "Sport",
+      "topic": "Sonstige",
+      "question": "Which of the following elements is not part of the official gameplay in ice hockey and does not affect the game continuation?",
+      "choices": [
+        "A: Puck",
+        "B: Referee's ball drop",
+        "C: Penalty",
+        "D: Faceoff"
+      ],
+      "correct_answer": "B",
+      "explanation": "The referee's ball drop is not an official element in ice hockey used for game continuation. In contrast, the puck, faceoff, and penalties are integral parts of the game directly related to game flow and control.",
+      "difficulty": 10
+    },
+    {
+      "question": "Which company is known as one of the largest family-owned businesses in Germany, founded in 1866?",
+      "category": "Wirtschaft & Finanzen",
+      "subcategory": "Familienunternehmen & Mittelstand",
+      "difficulty": 5,
+      "options": {
+        "A": "Bosch",
+        "B": "Siemens",
+        "C": "Adidas",
+        "D": "BMW"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "category": "Technologie",
+      "topic": "Smartphones & Apps",
+      "question": "Which programming language is primarily used for developing native iOS apps?",
+      "choices": [
+        "A: Kotlin",
+        "B: Swift",
+        "C: Java",
+        "D: JavaScript"
+      ],
+      "correct_answer": "B",
+      "explanation": "Swift is the programming language developed by Apple for native app development on iOS and macOS. Kotlin is primarily for Android development, while Java is also used for Android, and JavaScript is widely used on the web but not for native iOS app development.",
       "difficulty": 8
     },
     {
@@ -56,46 +96,6 @@
       "correct_answer": "A",
       "difficulty": 1,
       "category": "politics"
-    },
-    {
-      "category": "Kunst und Literatur",
-      "topic": "Moderne & Zeitgenössische Kunst",
-      "question": "Which iconic motif is often used in street art and frequently symbolizes social injustices and resistance against authorities?",
-      "choices": [
-        "A: The Dove",
-        "B: The Anarchist Star",
-        "C: The Banana",
-        "D: The Smiley"
-      ],
-      "correct_answer": "B",
-      "explanation": "The Anarchist Star is a well-known symbol commonly used in street art to express protest and resistance. It represents the rejection of authority and the demand for social justice, making it an iconic motif in this art form.",
-      "difficulty": 10
-    },
-    {
-      "question": "What is the main advantage of switching accounts with a switching service?",
-      "category": "Wirtschaft & Finanzen",
-      "subcategory": "Kontowechsel & Wechselservice",
-      "difficulty": 6,
-      "options": {
-        "A": "Er reduziert den Zinssatz für Kredite.",
-        "B": "Er sorgt dafür, dass alle regelmäßigen Zahlungen automatisch zu einem neuen Konto übertragen werden.",
-        "C": "Er ermöglicht höhere Tagesgeldzinsen.",
-        "D": "Er erhöht die Bonität des Kontoinhabers."
-      },
-      "correct_answer": "B"
-    },
-    {
-      "question": "Which of the following statements correctly describes the entitlement to parental leave during parental leave?",
-      "category": "Alltag & Gesellschaft",
-      "subcategory": "Elternzeit & Elterngeld",
-      "difficulty": 7,
-      "options": {
-        "A": "Elterngeld kann nur für maximal 6 Monate beantragt werden.",
-        "B": "Elterngeld wird auch während des Mutterschutzes gezahlt.",
-        "C": "Eltern können Elterngeld bis zu 14 Monate lang in Anspruch nehmen, wenn beide Elternteile sich beteiligen.",
-        "D": "Das Elterngeld beträgt immer 100% des vorherigen Einkommens ohne Höchstgrenze."
-      },
-      "correct_answer": "C"
     }
   ]
 }

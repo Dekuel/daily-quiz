@@ -1,168 +1,168 @@
 {
   "date": "2025-12-04",
-  "generated_at": "2025-12-04T15:59:25Z",
+  "generated_at": "2025-12-04T16:17:09Z",
   "schema_version": 6,
   "mode": "physik",
   "questions": [
     {
       "category": "Physik",
-      "topic": "Quantenmechanik",
-      "subtopic": "Resonanzstreuung",
-      "question": "What does the term resonance scattering describe in quantum mechanics?",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Kanonische Gleichungen (Hamilton-Gleichungen)",
+      "question": "What does the Hamiltonian equation describe in analytical mechanics?",
       "choices": [
-        "Which law describes the relationship between the temperature of a black body and the wavelength at which the maximum radiation intensity occurs?",
-        "The Wien's displacement law describes how the temperature of a black body influences the wavelength at which radiation is at its maximum. It shows that the wavelength decreases as the temperature increases.",
-        "What does the equation of state of an ideal gas describe?",
-        "The equation of state of an ideal gas, represented by the formula PV = nRT, describes the relationship between pressure (P), volume (V), and temperature (T) of the gas. This relationship is fundamental for understanding the properties of ideal gases in thermodynamics."
+        "A: The evolution of the state of a system over time.",
+        "B: The relationship between energy and time.",
+        "C: The description of the temperature of a system.",
+        "D: The motion of a body under the influence of forces."
       ],
-      "correct_answer": "D",
-      "explanation": "Resonance scattering describes a process in which particles interact with a specific energy level and temporarily reach a higher energy level as a result. This interaction is characteristic of quantum mechanics and leads to specific scattering effects.",
-      "difficulty": 4,
-      "subcategory": "Resonanzstreuung"
+      "correct_answer": "A",
+      "explanation": "The Hamiltonian equations describe the temporal evolution of the state of a mechanical system in analytical mechanics. They are central equations for the analysis of dynamic systems and connect the positions and momenta of the particles.",
+      "difficulty": 1,
+      "subcategory": "Kanonische Gleichungen (Hamilton-Gleichungen)"
     },
     {
       "category": "Physik",
       "topic": "Optik",
-      "subtopic": "Strahlungsgesetze (Wien, Rayleigh–Jeans)",
-      "question": "What does electric current in a conductor describe?",
+      "subtopic": "Brechungsgesetz aus Fermat",
+      "question": "What does Fermat's principle of least time state for the propagation of light?",
       "choices": [
-        "Which statement about the density of states in solids is correct?",
-        "The density of states in solids indicates how many quantum states per energy unit are present in a specific energy range. In semiconductors, the density of states near the band gap is particularly relevant as it determines the behavior of electrons and holes in these materials.",
-        "Which of the following laws is part of the Maxwell equations?",
-        "The Gauss's law for electricity is one of the four Maxwell equations and describes how electric fields are related to charges. The other laws mentioned do not belong to electrodynamics and deal with other physical phenomena."
+        "A: Light always refracts at the boundary between two media with different temperatures.",
+        "B: Light always moves in a straight line and never changes its direction.",
+        "C: Light propagates at the same speed in every medium.",
+        "D: Light follows the shortest path between two points."
       ],
       "correct_answer": "D",
-      "explanation": "Electric current is defined as the movement of electric charges, typically electrons, through a conductor. This movement is often measured in amperes and is crucial for understanding electrical circuits.",
-      "difficulty": 5,
-      "subcategory": "Strahlungsgesetze (Wien, Rayleigh–Jeans)"
+      "explanation": "Fermat's principle of least time states that light chooses the path between two points in such a way that the time it takes is minimal. This leads to the phenomenon of light refraction at interfaces between different media, where the speed of light varies.",
+      "difficulty": 6,
+      "subcategory": "Brechungsgesetz aus Fermat"
     },
     {
       "category": "Physik",
-      "topic": "Thermodynamik",
-      "subtopic": "Ideales Gas (Zustandsgleichung)",
-      "question": "What does the minimum of the free energy F in a closed system in a heat bath describe?",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Massen der Baryonen",
+      "question": "Which of the following baryons has the greatest mass?",
       "choices": [
-        "Which of the following statements about the interaction between two point-like electric charges is correct?",
-        "The Coulomb force describes the interaction between two electric charges and is repulsive when the charges are of the same sign. This force is quantified by Coulomb's law and is inversely proportional to the square of the distance between the charges, meaning that the force decreases with increasing distance.",
-        "Which statement about the internal energy (U) and enthalpy (H) is correct?",
-        "Enthalpy (H) is defined as the internal energy (U) plus the product of pressure and volume (PV). It is particularly important in processes at constant pressure as it encompasses all the energy needed for work and heat transfer."
+        "A: Pi-meson",
+        "B: Neutron",
+        "C: Proton",
+        "D: Lambda baryon"
       ],
-      "correct_answer": "A",
-      "explanation": "The minimum of the free energy F in a closed system in a heat bath indicates that the system is in thermal equilibrium. In this state, the macroscopic properties are stable, and there is no net movement of energy or particles in the system.",
-      "difficulty": 4,
-      "subcategory": "Ideales Gas (Zustandsgleichung)"
-    },
-    {
-      "category": "Physik",
-      "topic": "Elektrodynamik",
-      "subtopic": "Elektrischer Strom (Definition & Kontinuitätsgleichung)",
-      "question": "Which of the following statements best describes the process of coherent inelastic neutron scattering?",
-      "choices": [
-        "A: Die Spannung an den Enden des Leiters.",
-        "B: Die Bewegung von elektrischen Ladungen.",
-        "C: Den Widerstand des Leiters.",
-        "D: Die Temperatur des Leiters."
-      ],
-      "correct_answer": "B",
-      "explanation": "In coherent inelastic neutron scattering, neutrons lose energy and transfer it to the atoms of the material, leading to vibrations. This process allows for obtaining information about the dynamic properties of the solid.",
-      "difficulty": 5,
-      "subcategory": "Elektrischer Strom (Definition & Kontinuitätsgleichung)"
+      "correct_answer": "D",
+      "explanation": "The lambda baryon is heavier than both the proton and the neutron. Baryons are particles composed of three quarks, and the lambda baryon has a higher mass due to its specific quark composition. The pi-meson is not a baryon but a meson and therefore has a lower mass.",
+      "difficulty": 2,
+      "subcategory": "Massen der Baryonen"
     },
     {
       "category": "Physik",
       "topic": "Festkörperphysik",
-      "subtopic": "Zustandsdichte (Bänder)",
-      "question": "Welche Aussage zur Zustandsdichte in Festkörpern ist korrekt?",
+      "subtopic": "Austauschwechselwirkung (lokalisierte Elektronen)",
+      "question": "Which of the following statements best describes the effects of exchange interaction on electron states in a solid?",
       "choices": [
-        "A: Die Zustandsdichte ist konstant bei allen Energien in einem Metall.",
-        "B: Die Zustandsdichte beschreibt die Anzahl der Zustände pro Energiedifferenz und ist für Halbleiter bei der Bandlücke am höchsten.",
-        "C: In Isolatoren liegt die Zustandsdichte immer über der von Metallen.",
-        "D: Die Zustandsdichte beeinflusst nicht die elektrischen Eigenschaften von Materialien."
+        "A: The exchange interaction leads to an energetic increase of electron states with antiparallel spins.",
+        "B: The exchange interaction leads to an energetic stabilization of electron states with parallel spins.",
+        "C: The exchange interaction results in a complete decoupling of electron states in the solid.",
+        "D: The exchange interaction has no effect on the energy levels of electrons in a solid."
       ],
       "correct_answer": "B",
-      "explanation": "Die Zustandsdichte in Festkörpern gibt an, wie viele Quantenzustände pro Energieeinheit in einem bestimmten Energiebereich vorhanden sind. Bei Halbleitern ist die Zustandsdichte in der Nähe der Bandlücke besonders relevant, da sie das Verhalten von Elektronen und Löchern in diesen Materialien bestimmt.",
+      "explanation": "The exchange interaction is a quantum mechanical effect that influences the energetic stability of electron states, particularly through the spins of the electrons. Electrons with parallel spins experience an energetic stabilization, which can lead to ferromagnetism and other magnetic properties.",
       "difficulty": 8,
-      "subcategory": "Zustandsdichte (Bänder)"
+      "subcategory": "Austauschwechselwirkung (lokalisierte Elektronen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Statistische Begründung der Irreversibilität",
+      "question": "Which concept from statistical mechanics explains irreversible processes in a closed system?",
+      "choices": [
+        "A: Pressure",
+        "B: Entropy",
+        "C: Energy",
+        "D: Temperature"
+      ],
+      "correct_answer": "B",
+      "explanation": "Entropy is a central concept in statistical mechanics that describes how the number of microstates of a system changes over time. Irreversible processes lead to an increase in entropy, determining the direction and end of these processes.",
+      "difficulty": 8,
+      "subcategory": "Statistische Begründung der Irreversibilität"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Fabry–Perot-Interferometer (Vielfachinterferenzen)",
+      "question": "What is the main principle of a Fabry-Perot interferometer?",
+      "choices": [
+        "A: Refraction of light by a lens.",
+        "B: Absorption of light by a material.",
+        "C: Scattering of light by small particles.",
+        "D: Multiple reflections of light between two parallel mirrors."
+      ],
+      "correct_answer": "D",
+      "explanation": "A Fabry-Perot interferometer operates by multiple reflections of light between two parallel mirrors. These reflections result in constructive and destructive interferences, creating characteristic patterns.",
+      "difficulty": 1,
+      "subcategory": "Fabry–Perot-Interferometer (Vielfachinterferenzen)"
     },
     {
       "category": "Physik",
       "topic": "Elektrodynamik",
-      "subtopic": "Maxwell-Gleichungen (vollständig)",
-      "question": "Welches der folgenden Gesetze ist Teil der Maxwell-Gleichungen?",
+      "subtopic": "Randwertprobleme der Elektrostatik (Laplace-Gleichung)",
+      "question": "What condition must be met for the Laplace's equation to be applicable in a specific domain?",
       "choices": [
-        "A: Das Hooke'sche Gesetz",
-        "B: Das Gauss'sche Gesetz für die Elektrizität",
-        "C: Das Gesetz von Boyle-Mariotte",
-        "D: Das Gesetz der Energieerhaltung"
+        "A: A constant electric current must flow.",
+        "B: The temperature must be constant.",
+        "C: The mass density must be uniformly distributed.",
+        "D: The potential function must be harmonic in that domain."
       ],
-      "correct_answer": "B",
-      "explanation": "Das Gauss'sche Gesetz für die Elektrizität ist eine der vier Maxwell-Gleichungen und beschreibt, wie elektrische Felder mit Ladungen verbunden sind. Die anderen genannten Gesetze gehören nicht zur Elektrodynamik und behandeln andere physikalische Phänomene.",
-      "difficulty": 5,
-      "subcategory": "Maxwell-Gleichungen (vollständig)"
+      "correct_answer": "D",
+      "explanation": "Laplace's equation describes harmonic functions that hold in a specific domain where there are no free charges. A harmonic potential function is a requirement for the application of Laplace's equation in electrostatics.",
+      "difficulty": 4,
+      "subcategory": "Randwertprobleme der Elektrostatik (Laplace-Gleichung)"
     },
     {
       "category": "Physik",
-      "topic": "Thermodynamik",
-      "subtopic": "Geschl. System im Wärmebad: Minimum der freien Energie F",
-      "question": "Was beschreibt das Minimum der freien Energie F in einem geschlossenen System im Wärmebad?",
+      "topic": "Quantenmechanik",
+      "subtopic": "Grenzen der klassischen Physik",
+      "question": "Which statement best describes the boundary of classical physics compared to quantum mechanics?",
       "choices": [
-        "A: Die Energie des Systems ist konstant.",
-        "B: Das System hat die maximale Entropie erreicht.",
-        "C: Das System befindet sich im thermischen Gleichgewicht.",
-        "D: Das System hat die minimale Temperatur erreicht."
+        "A: Classical physics is only relevant for very large objects.",
+        "B: Quantum mechanics shows that particles possess both wave and particle characteristics.",
+        "C: There is no uncertainty principle in classical physics.",
+        "D: Classical physics can fully explain all phenomena of the microcosm."
+      ],
+      "correct_answer": "B",
+      "explanation": "Quantum mechanics shows that particles possess both wave and particle characteristics, which is a central concept highlighting the limits of classical physics. While classical physics works well in many everyday phenomena, it fails in the microcosm where quantum effects dominate.",
+      "difficulty": 5,
+      "subcategory": "Grenzen der klassischen Physik"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Observable",
+      "question": "What is an observable in quantum mechanics?",
+      "choices": [
+        "A: A state of a quantum mechanical system.",
+        "B: A principle of the uncertainty relation.",
+        "C: A physical quantity that can be measured.",
+        "D: A mathematical function describing particle movements."
       ],
       "correct_answer": "C",
-      "explanation": "Das Minimum der freien Energie F in einem geschlossenen System im Wärmebad zeigt an, dass das System im thermischen Gleichgewicht ist. In diesem Zustand sind die makroskopischen Eigenschaften stabil, und es gibt keine Nettobewegung von Energie oder Teilchen im System.",
+      "explanation": "In quantum mechanics, an observable refers to a physical quantity that can be captured through a measurement process, such as position or momentum. The value of an observable is not always unique but is determined by the state of the system.",
       "difficulty": 4,
-      "subcategory": "Geschl. System im Wärmebad: Minimum der freien Energie F"
+      "subcategory": "Observable"
     },
     {
       "category": "Physik",
-      "topic": "Elektrodynamik",
-      "subtopic": "Ladungen und Ströme",
-      "question": "Welche der folgenden Aussagen über die Wechselwirkung zwischen zwei punktförmigen elektrischen Ladungen ist korrekt?",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Reibung: Gleitreibung",
+      "question": "Which of the following statements best describes kinetic friction between two surfaces?",
       "choices": [
-        "A: Die elektrische Kraft wirkt nur über einen festen, definierten Abstand zwischen den Ladungen.",
-        "B: Die elektrische Kraft zwischen zwei gleichnamigen Ladungen ist abstoßend und folgt dem Coulombschen Gesetz.",
-        "C: Die Kraft zwischen den Ladungen ist immer anziehend, unabhängig von ihren Vorzeichen.",
-        "D: Die Stärke der elektrischen Kraft ist unabhängig von der Entfernung zwischen den Ladungen."
-      ],
-      "correct_answer": "B",
-      "explanation": "Die Coulomb-Kraft beschreibt die Wechselwirkung zwischen zwei elektrischen Ladungen und ist abstoßend, wenn die Ladungen gleichnamig sind. Diese Kraft wird durch das Coulomb-Gesetz quantifiziert und ist invers proportional zum Quadrat der Entfernung zwischen den Ladungen, was bedeutet, dass die Kraft mit zunehmender Entfernung abnimmt.",
-      "difficulty": 8,
-      "subcategory": "Ladungen und Ströme"
-    },
-    {
-      "category": "Physik",
-      "topic": "Thermodynamik",
-      "subtopic": "Extremaleigenschaften von U und H",
-      "question": "Welche Aussage über die innere Energie (U) und die Enthalpie (H) ist korrekt?",
-      "choices": [
-        "A: Die Enthalpie berücksichtigt die Arbeit, die bei konstantem Druck verrichtet wird.",
-        "B: Die innere Energie ist unabhängig von der Temperatur.",
-        "C: Die Enthalpie ist immer kleiner als die innere Energie.",
-        "D: Die innere Energie kann nicht in thermodynamischen Prozessen verändert werden."
+        "A: Kinetic friction is proportional to the normal force between the surfaces.",
+        "B: Kinetic friction is independent of the types of materials.",
+        "C: Kinetic friction only occurs on stationary surfaces.",
+        "D: Kinetic friction is always zero."
       ],
       "correct_answer": "A",
-      "explanation": "Die Enthalpie (H) ist definiert als die innere Energie (U) plus das Produkt aus Druck und Volumen (PV). Sie ist besonders wichtig in Prozessen bei konstantem Druck, da sie die gesamte Energie umfasst, die für die Arbeit und die Wärmeübertragung benötigt wird.",
-      "difficulty": 5,
-      "subcategory": "Extremaleigenschaften von U und H"
-    },
-    {
-      "category": "Physik",
-      "topic": "Festkörperphysik",
-      "subtopic": "Kohärente inelastische Neutronenstreuung",
-      "question": "Welche der folgenden Aussagen beschreibt am besten den Prozess der kohärenten inelastischen Neutronenstreuung?",
-      "choices": [
-        "A: Die Neutronen verlieren Energie und ändern ihre Richtung ohne Energieübertragung an das Material.",
-        "B: Die Neutronen werden elastisch gestreut, wobei ihre Energie und Richtung unverändert bleiben.",
-        "C: Die Neutronen werden vollständig absorbiert und erzeugen keine Streuung.",
-        "D: Die Neutronen übertragen Energie auf das Material und erzeugen dabei Schwingungen der Atome."
-      ],
-      "correct_answer": "D",
-      "explanation": "Bei der kohärenten inelastischen Neutronenstreuung verlieren die Neutronen Energie und übertragen diese auf die Atome des Materials, was zu Schwingungen führt. Dieser Prozess ermöglicht es, Informationen über die dynamischen Eigenschaften des Festkörpers zu gewinnen.",
-      "difficulty": 6,
-      "subcategory": "Kohärente inelastische Neutronenstreuung"
+      "explanation": "Kinetic friction forces are actually proportional to the normal force acting on the surfaces. This relationship is important for understanding the behavior of objects in motion and is common in classical mechanics.",
+      "difficulty": 4,
+      "subcategory": "Reibung: Gleitreibung"
     }
   ]
 }

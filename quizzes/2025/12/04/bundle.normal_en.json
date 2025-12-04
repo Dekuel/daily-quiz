@@ -1,76 +1,48 @@
 {
   "date": "2025-12-04",
-  "generated_at": "2025-12-04T15:59:11Z",
+  "generated_at": "2025-12-04T16:16:46Z",
   "schema_version": 6,
   "mode": "normal",
   "questions": [
     {
-      "category": "Technologie",
-      "topic": "Soziale Medien",
-      "question": "What does the term 'Influencer' refer to in social media?",
-      "choices": [
-        "A: A software that automatically creates posts on social media.",
-        "B: A person who influences the opinions and purchasing decisions of others through their online presence.",
-        "C: An algorithm that determines the most popular posts on social media.",
-        "D: A company that runs advertisements on social media."
-      ],
-      "correct_answer": "B",
-      "explanation": "An influencer is a person who exerts influence on others through their following on social media, often in the context of marketing and advertising. Influencers use their reach to recommend products or services, thus influencing the purchasing decisions of their followers.",
-      "difficulty": 3
-    },
-    {
-      "category": "Language",
-      "topic": "Etymology",
-      "question": "Which of the following English words originates from Latin?",
-      "choices": [
-        "A: Culture",
-        "B: Café",
-        "C: Vodka",
-        "D: Kindergarten"
-      ],
-      "correct_answer": "A",
-      "explanation": "The word 'culture' comes from the Latin 'cultura', meaning cultivation or tillage. In contrast, 'café' comes from French, 'vodka' from a Slavic language, and 'kindergarten' is derived from German.",
-      "difficulty": 8
-    },
-    {
-      "category": "Kunst und Literatur",
-      "topic": "Kunstwissen & Allgemeines",
-      "question": "Which of these formats is typically associated with contemporary art and often serves as a platform for new, experimental art practices?",
-      "choices": [
-        "A: Museum",
-        "B: Gallery",
-        "C: Art academy",
-        "D: Biennial"
-      ],
-      "correct_answer": "D",
-      "explanation": "Biennials are large, regularly occurring art exhibitions that allow artists to showcase their work to a broad audience. They are often pioneering for new trends in contemporary art and provide a space for innovative and experimental practices.",
-      "difficulty": 5
-    },
-    {
-      "question": "Which type of school usually leads to the completion of the Mittlere Reife?",
+      "question": "What do you need to consider when you want to park in a zone with parking fees?",
       "category": "Alltag & Gesellschaft",
-      "subcategory": "Lehrer & Unterrichtsmethoden",
-      "difficulty": 3,
+      "subcategory": "Parken & Parkgebühren",
+      "difficulty": 2,
       "options": {
-        "A": "Grundschule",
-        "B": "Gesamtschule",
-        "C": "Hauptschule",
-        "D": "Realschule"
+        "A": "Die Parkscheibe muss auf 2 Stunden eingestellt werden.",
+        "B": "Sie brauchen keinen Parkschein, wenn Sie dort wohnen.",
+        "C": "Parkscheine sind nur von Montag bis Freitag gültig.",
+        "D": "Sie müssen einen Parkschein für die maximale Zeitdauer erwerben."
       },
       "correct_answer": "D"
     },
     {
-      "category": "Glaube & Religion",
-      "topic": "Klassische & nordische Mythologien",
-      "question": "Which god is often referred to as the Allfather in Norse mythology?",
+      "category": "Language",
+      "topic": "Etymology",
+      "question": "Which of the following words is a direct result of the Second Sound Shift, where the Germanic 'p' evolved into 'pf' in modern German?",
       "choices": [
-        "A: Thor",
-        "B: Loki",
-        "C: Freyja",
-        "D: Odin"
+        "A: Apfel",
+        "B: Wasser",
+        "C: Hand",
+        "D: Nacht"
       ],
-      "correct_answer": "D",
-      "explanation": "Odin is a central figure in Norse mythology, known as the Allfather who rules over wisdom, war, and death. He is also recognized for his role as the leader of the gods and his pursuit of knowledge. Thor, Loki, and Freyja are also important gods but play different roles.",
+      "correct_answer": "A",
+      "explanation": "The word 'Apfel' (apple) demonstrates the Second Sound Shift where the Proto-Germanic 'ap(a)l' evolved into the modern German form with 'pf'. The other options do not exhibit this phonetic change.",
+      "difficulty": 8
+    },
+    {
+      "category": "Kunst und Literatur",
+      "topic": "Kunstgeschichte & Epochen",
+      "question": "Which artist is known for his realistic depictions of rural life and is considered a significant representative of Realism?",
+      "choices": [
+        "A: Vincent van Gogh",
+        "B: Claude Monet",
+        "C: Gustave Courbet",
+        "D: Paul Cézanne"
+      ],
+      "correct_answer": "C",
+      "explanation": "Gustave Courbet is a central figure of Realism, often focusing on the simple life of rural populations in his works. His realistic style critically highlighted the social conditions of his time and influenced many subsequent artists.",
       "difficulty": 6
     },
     {
@@ -85,17 +57,45 @@
       "category": "politics"
     },
     {
-      "category": "Geographie",
-      "topic": "Hauptstädte",
-      "question": "Which of the following capitals is closest to the Equator?",
+      "category": "Essen und Trinken",
+      "topic": "Kulinarische Geschichte",
+      "question": "Which of the following traditions is closely associated with the Thanksgiving holiday in the USA, where a feast is prepared often including turkey?",
       "choices": [
-        "A: Buenos Aires",
-        "B: Santiago",
-        "C: Quito",
-        "D: Brasília"
+        "A: Thanksgiving",
+        "B: Bastille Day",
+        "C: Oktoberfest",
+        "D: Diwali"
       ],
-      "correct_answer": "C",
-      "explanation": "Quito, the capital of Ecuador, is located just a few kilometers north of the Equator. In comparison, Buenos Aires and Santiago are significantly further south, while Brasília is also farther from the Equator line.",
+      "correct_answer": "A",
+      "explanation": "Thanksgiving is a traditional American holiday celebrated on the fourth Thursday of November. It is about giving thanks for the harvest and often involves a lavish feast with turkey and other seasonal side dishes.",
+      "difficulty": 7
+    },
+    {
+      "category": "Geographie",
+      "topic": "Humangeographie & Städte",
+      "question": "Which city is considered the world's leading center for digital platforms and co-working spaces, known for its high density of startups and tech companies?",
+      "choices": [
+        "A: London",
+        "B: San Francisco",
+        "C: Berlin",
+        "D: Shanghai"
+      ],
+      "correct_answer": "B",
+      "explanation": "San Francisco, particularly Silicon Valley, is renowned for its large number of technology companies and a thriving start-up culture. The city attracts professionals from around the world engaged in the digital economy.",
+      "difficulty": 7
+    },
+    {
+      "category": "Natur",
+      "topic": "Tierwelt",
+      "question": "Which of the following animals is known for entering a state in winter months where metabolism is significantly reduced to conserve energy?",
+      "choices": [
+        "A: Brown bear",
+        "B: Fox",
+        "C: Sheep",
+        "D: Eagle"
+      ],
+      "correct_answer": "A",
+      "explanation": "The brown bear is known for its hibernation, during which it significantly lowers its body temperature and metabolism to survive periods of low food intake. In contrast, sheep, eagles, and foxes do not rely on such a state to survive the winter.",
       "difficulty": 7
     }
   ]
