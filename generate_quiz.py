@@ -687,7 +687,9 @@ def generate_random_categories(
         try:
             target = pick_target_difficulty_for_mode(mode)
             item = plugins[cat](past_texts=past_texts, target_difficulty=target, mode=mode)  # Core -> Plugin
-        except Exception:
+        except Exception as e:
+            print(f"⚠️ Fehler beim Generieren aus Kategorie '{cat}': {e.__class__.__name__}: {e}")
+            traceback.print_exc()
             continue
         if not item:
             continue
