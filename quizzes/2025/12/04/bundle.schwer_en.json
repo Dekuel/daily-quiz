@@ -1,22 +1,61 @@
 {
   "date": "2025-12-04",
-  "generated_at": "2025-12-04T15:14:41Z",
+  "generated_at": "2025-12-04T15:23:56Z",
   "schema_version": 6,
   "mode": "schwer",
   "questions": [
     {
-      "category": "Technologie",
-      "topic": "Smartphones & Apps",
-      "question": "Which programming language is commonly used for developing native Android apps?",
+      "category": "Glaube & Religion",
+      "topic": "Klassische & nordische Mythologien",
+      "question": "Which of the following Olympic gods is considered the god of the sea?",
       "choices": [
-        "A: JavaScript",
-        "B: Swift",
-        "C: C#",
-        "D: Kotlin"
+        "A: Poseidon",
+        "B: Zeus",
+        "C: Hermes",
+        "D: Apollo"
       ],
-      "correct_answer": "D",
-      "explanation": "Kotlin is the programming language recommended by Google for developing native Android apps. On the other hand, Swift is used for iOS apps, while JavaScript is often found in web applications and hybrid apps. C# is frequently used in game development with Unity, but it is not the main language for Android apps.",
-      "difficulty": 10
+      "correct_answer": "A",
+      "explanation": "Poseidon is the god of the sea in Greek mythology and one of the twelve Olympic gods. He is often depicted with a trident and is also the god of earthquakes and horses.",
+      "difficulty": 5
+    },
+    {
+      "question": "What is the maximum speed allowed in a traffic-calmed zone where car-sharing vehicles are parked?",
+      "category": "Alltag & Gesellschaft",
+      "subcategory": "Carsharing & Mobilitätsdienste",
+      "difficulty": 6,
+      "options": {
+        "A": "20 km/h",
+        "B": "30 km/h",
+        "C": "40 km/h",
+        "D": "50 km/h"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "question": "Which index reflects the performance of the 30 largest publicly traded German companies?",
+      "category": "Wirtschaft & Finanzen",
+      "subcategory": "Aktien & Börsengrundlagen",
+      "difficulty": 6,
+      "options": {
+        "A": "MDAX",
+        "B": "DAX",
+        "C": "SDAX",
+        "D": "TecDAX"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "question": "Which school leaving certificate generally allows direct access to a university in Germany?",
+      "category": "Alltag & Gesellschaft",
+      "subcategory": "Noten & Bewertungssysteme",
+      "difficulty": 6,
+      "options": {
+        "A": "Hauptschulabschluss",
+        "B": "Realschulabschluss",
+        "C": "Abitur",
+        "D": "Fachhochschulreife"
+      },
+      "correct_answer": "C"
     }
   ]
 }

@@ -1,22 +1,61 @@
 {
   "date": "2025-12-04",
-  "generated_at": "2025-12-04T15:13:32Z",
+  "generated_at": "2025-12-04T15:22:46Z",
   "schema_version": 6,
   "mode": "schwer",
   "questions": [
     {
-      "category": "Technologie",
-      "topic": "Smartphones & Apps",
-      "question": "Welche Programmiersprache wird häufig zur Entwicklung von nativen Android-Apps verwendet?",
+      "category": "Glaube & Religion",
+      "topic": "Klassische & nordische Mythologien",
+      "question": "Welcher der folgenden Olympischen Götter wird als Gott des Meeres angesehen?",
       "choices": [
-        "A: JavaScript",
-        "B: Swift",
-        "C: C#",
-        "D: Kotlin"
+        "A: Poseidon",
+        "B: Zeus",
+        "C: Hermes",
+        "D: Apollon"
       ],
-      "correct_answer": "D",
-      "explanation": "Kotlin ist die von Google empfohlene Programmiersprache für die Entwicklung von nativen Android-Apps. Swift hingegen wird für iOS-Apps verwendet, während JavaScript oft in Webanwendungen und hybriden Apps vorkommt. C# wird häufig in der Spielentwicklung mit Unity eingesetzt, ist jedoch nicht die Hauptsprache für Android-Apps.",
-      "difficulty": 10
+      "correct_answer": "A",
+      "explanation": "Poseidon ist der Gott des Meeres in der griechischen Mythologie und einer der zwölf Olympischen Götter. Er wird oft mit einem Dreizack dargestellt und ist auch der Gott der Erdbeben und der Pferde.",
+      "difficulty": 5
+    },
+    {
+      "question": "Welche maximale Geschwindigkeit darf man in einer verkehrsberuhigten Zone fahren, in der Carsharing-Fahrzeuge abgestellt sind?",
+      "category": "Alltag & Gesellschaft",
+      "subcategory": "Carsharing & Mobilitätsdienste",
+      "difficulty": 6,
+      "options": {
+        "A": "20 km/h",
+        "B": "30 km/h",
+        "C": "40 km/h",
+        "D": "50 km/h"
+      },
+      "correct_answer": "A"
+    },
+    {
+      "question": "Welcher Index spiegelt die Entwicklung der 30 größten börsennotierten deutschen Unternehmen wider?",
+      "category": "Wirtschaft & Finanzen",
+      "subcategory": "Aktien & Börsengrundlagen",
+      "difficulty": 6,
+      "options": {
+        "A": "MDAX",
+        "B": "DAX",
+        "C": "SDAX",
+        "D": "TecDAX"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "question": "Welcher Schulabschluss ermöglicht in Deutschland in der Regel den direkten Zugang zu einer Hochschule?",
+      "category": "Alltag & Gesellschaft",
+      "subcategory": "Noten & Bewertungssysteme",
+      "difficulty": 6,
+      "options": {
+        "A": "Hauptschulabschluss",
+        "B": "Realschulabschluss",
+        "C": "Abitur",
+        "D": "Fachhochschulreife"
+      },
+      "correct_answer": "C"
     }
   ]
 }
