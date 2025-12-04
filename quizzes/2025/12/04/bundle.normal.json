@@ -1,105 +1,50 @@
 {
   "date": "2025-12-04",
-  "generated_at": "2025-12-04T15:22:36Z",
+  "generated_at": "2025-12-04T15:30:44Z",
   "schema_version": 6,
   "mode": "normal",
   "questions": [
     {
-      "category": "Sport",
-      "topic": "Sonstige",
-      "question": "Welches dieser Geräte wird typischerweise im Tennis verwendet?",
+      "category": "Kunst und Literatur",
+      "topic": "Kunstwissen & Allgemeines",
+      "question": "Welche der folgenden Gattungen beschreibt ein Bild, das eine einzelne Person in ihrer Charakteristik darstellt?",
       "choices": [
-        "A: Tor",
-        "B: Schläger",
-        "C: Netz",
-        "D: Ball"
+        "A: Landschaft",
+        "B: Porträt",
+        "C: Historie",
+        "D: Stillleben"
       ],
       "correct_answer": "B",
-      "explanation": "Im Tennis wird ein Schläger verwendet, um den Ball über das Netz zu schlagen. Während der Ball und das Netz ebenfalls wichtige Bestandteile des Spiels sind, ist der Schläger das zentrale Gerät, das die Spieler benutzen, um zu spielen.",
-      "difficulty": 5
+      "explanation": "Das Porträt ist eine klassische Kunstgattung, die darauf abzielt, das Wesen, die Persönlichkeit und das Aussehen einer Person darzustellen. Diese Gattung hat eine lange Tradition in der Kunstgeschichte und umfasst viele bekannte Werke von verschiedenen Künstlern.",
+      "difficulty": 4
     },
     {
-      "category": "Wissenschaft",
-      "topic": "Biologie",
-      "question": "Welche der folgenden Aussagen über die Mendelsche Vererbung ist korrekt?",
+      "category": "Natur",
+      "topic": "Tierwelt",
+      "question": "Welches dieser Tiere spielt eine wichtige Rolle im Ökosystem, indem es Pflanzen bestäubt und somit zur Fortpflanzung beiträgt?",
       "choices": [
-        "A: Genotyp und Phänotyp sind immer identisch.",
-        "B: Alle Erbanlagen werden gleichmäßig von beiden Elternteilen an die Nachkommen weitergegeben.",
-        "C: Die Mendelschen Gesetze gelten nur für Tiere, nicht für Pflanzen.",
-        "D: Ein Allel kann dominant oder rezessiv sein, wobei das dominante Allel den Phänotyp bestimmt."
-      ],
-      "correct_answer": "D",
-      "explanation": "In der Mendelschen Vererbung können Allele unterschiedlich stark ausgeprägt sein. Ein dominantes Allel maskiert das rezessive Allel, was bedeutet, dass nur der Phänotyp des dominanten Allels sichtbar ist, während der Genotyp beide Allele enthalten kann.",
-      "difficulty": 8
-    },
-    {
-      "category": "Geschichte",
-      "topic": "Zeitgeschichte (ab 1945)",
-      "question": "Welche Äußerung zur Rolle von Medien in der politischen Kommunikation während des Kalten Krieges ist korrekt?",
-      "choices": [
-        "A: Es gab keine nennenswerte Medienberichterstattung über internationale Konflikte.",
-        "B: Unabhängige Medien spielten eine zentrale Rolle bei der Aufklärung der Öffentlichkeit über die Konflikte.",
-        "C: Die Nutzung von sozialen Medien war entscheidend für die Verbreitung von Informationen zu dieser Zeit.",
-        "D: Medien wurden ausschließlich von den Regierungen kontrolliert und dienten als Propagandainstrumente."
+        "A: Krokodil",
+        "B: Biene",
+        "C: Elefant",
+        "D: Fuchs"
       ],
       "correct_answer": "B",
-      "explanation": "Während des Kalten Krieges spielten unabhängige Medien eine wichtige Rolle, indem sie Informationen über die geopolitischen Spannungen verbreiteten und die Öffentlichkeit über die Hintergründe der Konflikte aufklärten. Diese Berichterstattung war oft entscheidend für die Wahrnehmung der Ereignisse durch die Bevölkerung.",
-      "difficulty": 7
+      "explanation": "Bienen sind entscheidend für die Bestäubung vieler Pflanzen und tragen so zur Artenvielfalt und Nahrungsmittelproduktion bei. Ihre Rolle im Ökosystem ist unverzichtbar, da sie die Fortpflanzung vieler Pflanzenarten unterstützen.",
+      "difficulty": 4
     },
     {
       "category": "Technologie",
-      "topic": "Technik-Geschichte",
-      "question": "Welches Unternehmen entwickelte das erste iPhone?",
+      "topic": "Soziale Medien",
+      "question": "Was ist eine der Hauptfunktionen von Content-Moderation in sozialen Medien?",
       "choices": [
-        "A: Samsung",
-        "B: Nokia",
-        "C: Apple",
-        "D: Microsoft"
+        "A: Die Überprüfung und Filterung von Beiträgen, um schädliche Inhalte zu entfernen.",
+        "B: Die Entwicklung neuer Funktionen innerhalb der Plattform.",
+        "C: Die Verbesserung der Nutzeroberfläche für ein besseres Nutzererlebnis.",
+        "D: Die Förderung von Werbeanzeigen und Sponsoreninhalten."
       ],
-      "correct_answer": "C",
-      "explanation": "Das erste iPhone wurde 2007 von Apple vorgestellt und revolutionierte den Smartphone-Markt. Samsung, Nokia und Microsoft waren zu dieser Zeit ebenfalls aktiv, entwickelten jedoch nicht das iPhone.",
-      "difficulty": 2
-    },
-    {
-      "category": "Geographie",
-      "topic": "Hauptstädte",
-      "question": "Welche Hauptstadt gehört zu dem Land Frankreich?",
-      "choices": [
-        "A: Madrid",
-        "B: Berlin",
-        "C: Rom",
-        "D: Paris"
-      ],
-      "correct_answer": "D",
-      "explanation": "Paris ist die Hauptstadt von Frankreich und bekannt für seine kulturellen Sehenswürdigkeiten wie den Eiffelturm und den Louvre. Die Stadt liegt an der Seine und hat eine wichtige Rolle in der europäischen Geschichte gespielt.",
-      "difficulty": 1
-    },
-    {
-      "category": "Glaube & Religion",
-      "topic": "Afrikanische & indigene Religionen",
-      "question": "Welche der folgenden Erzählformen ist besonders charakteristisch für viele afrikanische Religionen und dient der Überlieferung von Mythen und Traditionen?",
-      "choices": [
-        "A: Bildende Kunst",
-        "B: Mündliche Überlieferung",
-        "C: Schriftliche Aufzeichnungen",
-        "D: Religiöse Rituale"
-      ],
-      "correct_answer": "B",
-      "explanation": "Mündliche Überlieferung spielt eine zentrale Rolle in vielen afrikanischen Religionen, da sie es ermöglicht, Mythen, Geschichten und Traditionen über Generationen hinweg weiterzugeben. Diese Form der Erzählung ist oft lebendig und interaktiv, was sie zu einem wichtigen Bestandteil der kulturellen Identität macht.",
-      "difficulty": 5
-    },
-    {
-      "question": "Welche finanzielle Unterstützung erhalten Eltern in Deutschland während der Trennung oder Scheidung?",
-      "category": "Alltag & Gesellschaft",
-      "subcategory": "Scheidung & Sorgerecht",
-      "difficulty": 6,
-      "options": {
-        "A": "Kinderzuschlag",
-        "B": "Elterngeld Plus",
-        "C": "Kindergeld",
-        "D": "Ausbildungsbeihilfe"
-      },
-      "correct_answer": "C"
+      "correct_answer": "A",
+      "explanation": "Content-Moderation ist entscheidend für soziale Medien, um sicherzustellen, dass die Plattformen frei von schädlichen Inhalten wie Hassrede oder Spam bleiben. Dadurch wird ein sichererer Raum für Nutzer geschaffen und die Qualität der Interaktionen verbessert.",
+      "difficulty": 6
     }
   ]
 }

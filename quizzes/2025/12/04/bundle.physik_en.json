@@ -1,168 +1,168 @@
 {
   "date": "2025-12-04",
-  "generated_at": "2025-12-04T15:24:06Z",
+  "generated_at": "2025-12-04T15:33:21Z",
   "schema_version": 6,
   "mode": "physik",
   "questions": [
     {
       "category": "Physik",
-      "topic": "Klassische Mechanik",
-      "subtopic": "Querkontraktion",
-      "question": "What does the term lateral contraction describe in materials science?",
-      "choices": [
-        "A: The temperature change of a material due to mechanical stress.",
-        "B: The expansion of a material in the transverse direction under compressive stress.",
-        "C: The change in density of a material due to temperature change.",
-        "D: The shrinkage of a material in the transverse direction under tensile stress."
-      ],
-      "correct_answer": "D",
-      "explanation": "Lateral contraction is a phenomenon that occurs when a material is stretched in the longitudinal direction under tensile stress and simultaneously narrows in the transverse direction. This is an important aspect in materials science as it describes the behavior of materials under different loads.",
-      "difficulty": 6,
-      "subcategory": "Querkontraktion"
-    },
-    {
-      "category": "Physik",
-      "topic": "Klassische Mechanik",
-      "subtopic": "Auftrieb vs. Widerstand (Zusammenhang)",
-      "question": "Which of the following factors has the greatest influence on the buoyancy of a body in a fluid?",
-      "choices": [
-        "A: The density of the fluid",
-        "B: The velocity of the body",
-        "C: The shape of the body",
-        "D: The temperature of the fluid"
-      ],
-      "correct_answer": "A",
-      "explanation": "The buoyancy of a body in a fluid is determined by the density of the fluid, according to the Archimedes' principle. While temperature and shape can also have an impact, density is the crucial factor for calculating buoyancy.",
-      "difficulty": 8,
-      "subcategory": "Auftrieb vs. Widerstand (Zusammenhang)"
-    },
-    {
-      "category": "Physik",
       "topic": "Statistische Mechanik",
-      "subtopic": "Irreversible Expansion (Gay-Lussac)",
-      "question": "What happens during an irreversible expansion of a gas when it expands against an external pressure?",
+      "subtopic": "Ginzburg–Landau-Funktional & -Nähe",
+      "question": "What does the Ginzburg-Landau functional describe in statistical mechanics?",
       "choices": [
-        "A: The temperature of the gas decreases.",
-        "B: The temperature of the gas increases.",
-        "C: The density of the gas remains constant.",
-        "D: The temperature of the gas remains constant."
-      ],
-      "correct_answer": "B",
-      "explanation": "During an irreversible expansion of a gas against external pressure, the temperature of the gas can increase as work is done against the pressure. This occurs because the internal energy and temperature changes of the gas are not in equilibrium.",
-      "difficulty": 3,
-      "subcategory": "Irreversible Expansion (Gay-Lussac)"
-    },
-    {
-      "category": "Physik",
-      "topic": "Quantenmechanik",
-      "subtopic": "Eigenwertproblem",
-      "question": "What does the eigenvalue problem describe in quantum mechanics?",
-      "choices": [
-        "A: The states of a quantum mechanical system and their energy.",
-        "B: The temperature of a thermodynamic system.",
-        "C: The forces acting on a body at rest.",
-        "D: The velocity of particles in a classical system."
-      ],
-      "correct_answer": "A",
-      "explanation": "The eigenvalue problem refers to the search for eigenvalues and eigenvectors of an operator, with the Hamiltonian operator being particularly used to determine the energy states of a quantum mechanical system. It is a central concept in quantum mechanics that describes the behavior of particles.",
-      "difficulty": 6,
-      "subcategory": "Eigenwertproblem"
-    },
-    {
-      "category": "Physik",
-      "topic": "Statistische Mechanik",
-      "subtopic": "Phononen/Rotonen in He II: Anregungen & Thermik",
-      "question": "What are phonons in quantum mechanics?",
-      "choices": [
-        "A: Quasi-particles describing vibrations in a solid.",
-        "B: Energy levels in an atom.",
-        "C: Particles representing the electrons in an atom.",
-        "D: A type of radioactive radiation."
-      ],
-      "correct_answer": "A",
-      "explanation": "Phonons are quasi-particle-like excitations that describe the vibrations of atoms in a crystal lattice. They play an important role in the thermodynamics and heat conduction of solids.",
-      "difficulty": 1,
-      "subcategory": "Phononen/Rotonen in He II: Anregungen & Thermik"
-    },
-    {
-      "category": "Physik",
-      "topic": "Thermodynamik",
-      "subtopic": "Einfache Folgerungen aus den Hauptsätzen",
-      "question": "Which statement correctly describes the consequence of the second law of thermodynamics?",
-      "choices": [
-        "A: The total entropy of a closed system can never decrease.",
-        "B: An adiabatic process is always irreversible.",
-        "C: Heat can be transferred from a colder body to a warmer body without work being done.",
-        "D: In a perfect gas, temperature is directly proportional to pressure."
-      ],
-      "correct_answer": "A",
-      "explanation": "The second law of thermodynamics states that the entropy in a closed system always increases or remains the same, but never decreases. This means that natural processes proceed in a direction that increases the total entropy.",
-      "difficulty": 7,
-      "subcategory": "Einfache Folgerungen aus den Hauptsätzen"
-    },
-    {
-      "category": "Physik",
-      "topic": "Quantenmechanik",
-      "subtopic": "Energie–Zeit–Unschärfe",
-      "question": "What does the energy-time uncertainty principle describe in quantum mechanics?",
-      "choices": [
-        "A: The uncertainty in the energy content of a system is inversely proportional to the duration of time over which this state is observed.",
-        "B: The energy of a particle can never assume negative values.",
-        "C: Particles can move faster than the speed of light.",
-        "D: Time and space are independent of each other in quantum mechanics."
-      ],
-      "correct_answer": "A",
-      "explanation": "The energy-time uncertainty principle states that the uncertainty in the energy of a system is inversely proportional to the duration of time over which this energy is measured. This means that a more precise measurement of energy leads to greater uncertainty in time and vice versa.",
-      "difficulty": 4,
-      "subcategory": "Energie–Zeit–Unschärfe"
-    },
-    {
-      "category": "Physik",
-      "topic": "Kern- und Teilchenphysik",
-      "subtopic": "Partonmodell",
-      "question": "Which concept describes the distribution of partons within a proton and enables the explanation of the structure of protons in high-energy collisions?",
-      "choices": [
-        "A: Parton model",
-        "B: Quark-gluon plasma",
-        "C: Standard Model of particle physics",
-        "D: Supersymmetry"
-      ],
-      "correct_answer": "A",
-      "explanation": "The parton model is an important theory that describes the internal structures of hadrons like protons by assuming they consist of point-like particles called partons. This model helps understand how energy and momentum distribution arises in high-energy collisions and is crucial for analyzing experiments in particle accelerators.",
-      "difficulty": 10,
-      "subcategory": "Partonmodell"
-    },
-    {
-      "category": "Physik",
-      "topic": "Klassische Mechanik",
-      "subtopic": "Viskosität von Gasen",
-      "question": "Which statement about the viscosity of gases is correct?",
-      "choices": [
-        "A: Viscosity of gases is always constant regardless of pressure.",
-        "B: Gases always have higher viscosity than liquids.",
-        "C: The viscosity of gases is independent of temperature.",
-        "D: The viscosity of gases increases with rising temperature."
-      ],
-      "correct_answer": "D",
-      "explanation": "Viscosity of gases generally increases with rising temperature as molecules move faster and collide more frequently at higher temperatures, leading to increased internal friction in the gas.",
-      "difficulty": 3,
-      "subcategory": "Viskosität von Gasen"
-    },
-    {
-      "category": "Physik",
-      "topic": "Thermodynamik",
-      "subtopic": "Absolute thermodynamische Temperaturskala",
-      "question": "Which of the following values corresponds to 0 Kelvin on the absolute thermodynamic temperature scale?",
-      "choices": [
-        "A: 0 °C",
-        "B: 273.15 °C",
-        "C: -273.15 °C",
-        "D: -100 °C"
+        "A: The interactions between photons and matter.",
+        "B: The motion of particles in an electric field.",
+        "C: The critical phase transitions in superconductors.",
+        "D: The thermodynamic properties of gases."
       ],
       "correct_answer": "C",
-      "explanation": "0 Kelvin corresponds to absolute zero, which is at -273.15 °C. This is the theoretical temperature where particle motion is minimal, and thus the thermal energy of a system vanishes.",
-      "difficulty": 10,
-      "subcategory": "Absolute thermodynamische Temperaturskala"
+      "explanation": "The Ginzburg-Landau functional is an important model for describing phase transitions, especially in superconductors. It allows the analysis of order and symmetry in the critical regions of matter.",
+      "difficulty": 4,
+      "subcategory": "Ginzburg–Landau-Funktional & -Nähe"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Zweite Quantisierung: Erzeugungs-/Vernichtungsoperatoren",
+      "question": "Which of the following properties correctly describes the creation operator in quantum mechanics?",
+      "choices": [
+        "A: It only acts on classical systems.",
+        "B: It decreases the energy of a state.",
+        "C: It increases the particle number of a state by one.",
+        "D: It is Hermitian and always has real eigenvalues."
+      ],
+      "correct_answer": "C",
+      "explanation": "The creation operator increases the particle number of a quantum state by one, leading to a state with higher energy. This is fundamental for describing bosons in quantum field theory and differs from the properties of the annihilation operator, which decreases the particle number.",
+      "difficulty": 8,
+      "subcategory": "Zweite Quantisierung: Erzeugungs-/Vernichtungsoperatoren"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Dynamische Streuung & Phononenquantisierung",
+      "question": "What does the term 'phonon' describe in solid-state physics?",
+      "choices": [
+        "A: A type of light radiation.",
+        "B: A particle that mediates gravity.",
+        "C: An electron in a semiconductor.",
+        "D: A quantized vibrational mode in a solid."
+      ],
+      "correct_answer": "D",
+      "explanation": "Phonons are quantized vibrational modes in a solid and play an important role in heat conduction and the dynamic properties of materials. They are crucial for understanding interactions in solids.",
+      "difficulty": 2,
+      "subcategory": "Dynamische Streuung & Phononenquantisierung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Dispersion dichter Medien",
+      "question": "Which statement about dispersion in dense media is correct?",
+      "choices": [
+        "A: All wavelengths of light are refracted equally.",
+        "B: Dispersion has no effect on color perception.",
+        "C: Light of different wavelengths is refracted to different extents.",
+        "D: Dispersion only occurs in a vacuum."
+      ],
+      "correct_answer": "C",
+      "explanation": "Dispersion in dense media describes the phenomenon that light of different wavelengths is refracted to different extents. This results in white light being separated into colors, as observed, for example, with a prism.",
+      "difficulty": 5,
+      "subcategory": "Dispersion dichter Medien"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "BCS bei endlicher Temperatur",
+      "question": "What does the BCS model describe in solid-state physics?",
+      "choices": [
+        "A: The diffusion of atoms in a crystal.",
+        "B: The movement of electrons in a semiconductor.",
+        "C: Heat conduction in metals.",
+        "D: The formation of Cooper pairs in superconductors."
+      ],
+      "correct_answer": "D",
+      "explanation": "The BCS model explains superconductivity as a result of the formation of Cooper pairs, which are formed by interactions between electrons. These pairs allow electrons to move through the material without resistance, leading to a superconducting state.",
+      "difficulty": 1,
+      "subcategory": "BCS bei endlicher Temperatur"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Biot–Savart-Gesetz",
+      "question": "Which of the following elements correctly describes the Biot-Savart law?",
+      "choices": [
+        "A: It describes the magnetic field generated by a stationary electric charge.",
+        "B: It describes the interaction between electric fields and moving charges.",
+        "C: It describes the magnetic field generated by a current-carrying conductor.",
+        "D: It describes the force on a moving charge in an electric field."
+      ],
+      "correct_answer": "C",
+      "explanation": "The Biot-Savart law describes how an electric current in a conductor generates a magnetic field. It takes into account the geometry of the current and its distance from a point where the magnetic field is measured.",
+      "difficulty": 6,
+      "subcategory": "Biot–Savart-Gesetz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Zustandsgleichungen (Überblick)",
+      "question": "Which of the following equations describes the ideal gas law?",
+      "choices": [
+        "A: PV = nRT",
+        "B: W = Fd",
+        "C: E = mc²",
+        "D: F = ma"
+      ],
+      "correct_answer": "A",
+      "explanation": "The equation PV = nRT is the equation of state for ideal gases, describing the relationship between pressure (P), volume (V), temperature (T), and the number of moles (n). The other equations relate to different physical concepts.",
+      "difficulty": 1,
+      "subcategory": "Zustandsgleichungen (Überblick)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Photoeffekt (Grundlagen)",
+      "question": "Which of the following factors does not influence the triggering of the photoelectric effect?",
+      "choices": [
+        "A: The frequency of the incident light",
+        "B: The intensity of the incident light",
+        "C: The temperature of the electron in the material",
+        "D: The nature of the material surface"
+      ],
+      "correct_answer": "C",
+      "explanation": "The photoelectric effect is influenced by the frequency of the incident light and the nature of the material. The intensity of light affects the number of emitted electrons but not the triggering itself. The temperature of the electron does not directly affect the photoelectric effect.",
+      "difficulty": 8,
+      "subcategory": "Photoeffekt (Grundlagen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Clebsch–Gordan-Koeffizienten",
+      "question": "What do the Clebsch-Gordan coefficients describe in quantum mechanics?",
+      "choices": [
+        "A: The speed of light in different media.",
+        "B: The mass of subatomic particles.",
+        "C: The energy states in an atom.",
+        "D: The combination of spin states of particles."
+      ],
+      "correct_answer": "D",
+      "explanation": "The Clebsch-Gordan coefficients are mathematical tools for combining quantum states, especially for describing the addition of spins. They play an important role in the theory of quantum mechanical systems involving multiple particles.",
+      "difficulty": 2,
+      "subcategory": "Clebsch–Gordan-Koeffizienten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Erster Hauptsatz & innere Energie",
+      "question": "What does the first law of thermodynamics describe?",
+      "choices": [
+        "A: Temperature is independent of energy in the system.",
+        "B: The energy of a closed system remains constant.",
+        "C: Heat cannot flow from a colder to a warmer body.",
+        "D: Work cannot be converted into heat."
+      ],
+      "correct_answer": "B",
+      "explanation": "The first law of thermodynamics states that the total energy in a closed system remains constant. This means that the heat supplied and the work done can change the internal energy of the system, but the total energy remains constant.",
+      "difficulty": 2,
+      "subcategory": "Erster Hauptsatz & innere Energie"
     }
   ]
 }

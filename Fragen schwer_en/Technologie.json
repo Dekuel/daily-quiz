@@ -14,6 +14,20 @@
       "correct_answer": "D",
       "explanation": "Kotlin is the programming language recommended by Google for developing native Android apps. On the other hand, Swift is used for iOS apps, while JavaScript is often found in web applications and hybrid apps. C# is frequently used in game development with Unity, but it is not the main language for Android apps.",
       "difficulty": 10
+    },
+    {
+      "category": "Technologie",
+      "topic": "KI & Zukunftstechnologien",
+      "question": "Which quantum algorithm framework was specifically developed for optimizing problems in quantum information science?",
+      "choices": [
+        "A: Qiskit",
+        "B: Cirq",
+        "C: TensorFlow Quantum",
+        "D: OpenFermion"
+      ],
+      "correct_answer": "C",
+      "explanation": "TensorFlow Quantum is a specific framework for integrating quantum computing into machine learning and is particularly suitable for optimizing problems in quantum information science. Qiskit and Cirq are also significant frameworks but not primarily designed for optimization problems. OpenFermion focuses on quantum chemical calculations rather than general optimization algorithms.",
+      "difficulty": 10
     }
   ]
 }

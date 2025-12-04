@@ -1,61 +1,105 @@
 {
   "date": "2025-12-04",
-  "generated_at": "2025-12-04T15:22:46Z",
+  "generated_at": "2025-12-04T15:31:37Z",
   "schema_version": 6,
   "mode": "schwer",
   "questions": [
     {
-      "category": "Glaube & Religion",
-      "topic": "Klassische & nordische Mythologien",
-      "question": "Welcher der folgenden Olympischen Götter wird als Gott des Meeres angesehen?",
+      "category": "Sport",
+      "topic": "Basketball",
+      "question": "Welches Gremium ist in der Regel für die Ansetzung von Schiedsrichtern in der Basketball-Bundesliga zuständig?",
       "choices": [
-        "A: Poseidon",
-        "B: Zeus",
-        "C: Hermes",
-        "D: Apollon"
+        "A: Der Schiedsrichterausschuss",
+        "B: Die Mannschaftsleitung",
+        "C: Der Kader der Spieler",
+        "D: Der Ausrüster des Vereins"
       ],
       "correct_answer": "A",
-      "explanation": "Poseidon ist der Gott des Meeres in der griechischen Mythologie und einer der zwölf Olympischen Götter. Er wird oft mit einem Dreizack dargestellt und ist auch der Gott der Erdbeben und der Pferde.",
+      "explanation": "Der Schiedsrichterausschuss ist verantwortlich für die Ansetzung und Evaluierung der Schiedsrichter in der Basketball-Bundesliga, um die Fairness und Qualität der Spiele zu gewährleisten. Die anderen genannten Optionen haben keinen Einfluss auf die Schiedsrichteranstellungen.",
       "difficulty": 5
     },
     {
-      "question": "Welche maximale Geschwindigkeit darf man in einer verkehrsberuhigten Zone fahren, in der Carsharing-Fahrzeuge abgestellt sind?",
-      "category": "Alltag & Gesellschaft",
-      "subcategory": "Carsharing & Mobilitätsdienste",
-      "difficulty": 6,
-      "options": {
-        "A": "20 km/h",
-        "B": "30 km/h",
-        "C": "40 km/h",
-        "D": "50 km/h"
-      },
-      "correct_answer": "A"
+      "category": "Technologie",
+      "topic": "KI & Zukunftstechnologien",
+      "question": "Welches Quantenalgorithmus-Framework wurde speziell für die Optimierung von Problemen in der Quanteninformatik entwickelt?",
+      "choices": [
+        "A: Qiskit",
+        "B: Cirq",
+        "C: TensorFlow Quantum",
+        "D: OpenFermion"
+      ],
+      "correct_answer": "C",
+      "explanation": "TensorFlow Quantum ist ein spezifisches Framework zur Integration von Quantencomputing in maschinelles Lernen und ist besonders für die Optimierung von Problemen in der Quanteninformatik geeignet. Qiskit und Cirq sind ebenfalls bedeutende Frameworks, jedoch nicht primär auf Optimierungsprobleme ausgelegt. OpenFermion konzentriert sich auf quantenchemische Berechnungen und nicht direkt auf allgemeine Optimierungsalgorithmen.",
+      "difficulty": 10
     },
     {
-      "question": "Welcher Index spiegelt die Entwicklung der 30 größten börsennotierten deutschen Unternehmen wider?",
-      "category": "Wirtschaft & Finanzen",
-      "subcategory": "Aktien & Börsengrundlagen",
-      "difficulty": 6,
-      "options": {
-        "A": "MDAX",
-        "B": "DAX",
-        "C": "SDAX",
-        "D": "TecDAX"
-      },
-      "correct_answer": "B"
+      "category": "Glaube & Religion",
+      "topic": "Religionsgeschichte, Soziologie & Praxis",
+      "question": "Welche der folgenden Aussagen beschreibt am besten den Begriff der Säkularisierung in der modernen Gesellschaft?",
+      "choices": [
+        "A: Die Abnahme religiöser Praktiken und Überzeugungen in der Bevölkerung.",
+        "B: Die Zunahme von interreligiösem Dialog und Toleranz.",
+        "C: Die Wiederbelebung traditioneller Glaubenssysteme in der Gesellschaft.",
+        "D: Die verstärkte Einflussnahme von religiösen Institutionen auf staatliche Angelegenheiten."
+      ],
+      "correct_answer": "A",
+      "explanation": "Säkularisierung bezeichnet den Prozess, durch den die gesellschaftliche Bedeutung von Religion abnimmt und religiöse Praktiken und Überzeugungen weniger Einfluss auf das öffentliche Leben haben. Dies ist besonders in modernen, industrialisierten Gesellschaften zu beobachten, wo zunehmend individuelle Weltanschauungen an Bedeutung gewinnen.",
+      "difficulty": 9
     },
     {
-      "question": "Welcher Schulabschluss ermöglicht in Deutschland in der Regel den direkten Zugang zu einer Hochschule?",
+      "question": "Welche der folgenden Optionen beschreibt den Hauptunterschied zwischen einer Fortbildung und einer Umschulung?",
       "category": "Alltag & Gesellschaft",
-      "subcategory": "Noten & Bewertungssysteme",
-      "difficulty": 6,
+      "subcategory": "Karriereplanung & Weiterbildung",
+      "difficulty": 7,
       "options": {
-        "A": "Hauptschulabschluss",
-        "B": "Realschulabschluss",
-        "C": "Abitur",
-        "D": "Fachhochschulreife"
+        "A": "Eine Fortbildung qualifiziert für einen anderen Beruf, während eine Umschulung das berufliche Know-how vertieft.",
+        "B": "Eine Fortbildung findet meist in Teilzeit statt, während eine Umschulung Vollzeit erfolgt.",
+        "C": "Eine Fortbildung erweitert die Fähigkeiten in einem bestehenden Beruf, während eine Umschulung einen kompletten Berufswechsel ermöglicht.",
+        "D": "Eine Fortbildung dauert in der Regel weniger als einen Monat, während eine Umschulung mehrere Jahre in Anspruch nimmt."
       },
       "correct_answer": "C"
+    },
+    {
+      "category": "Geographie",
+      "topic": "Städte, Länder & Flaggen",
+      "question": "Welche der folgenden Flaggen zeigt ein weißes Kreuz auf rotem Grund und gehört zu einem europäischen Land?",
+      "choices": [
+        "A: Die Flagge von Norwegen",
+        "B: Die Flagge von Dänemark",
+        "C: Die Flagge von Spanien",
+        "D: Die Flagge der Schweiz"
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Flagge der Schweiz ist bekannt für ihr charakteristisches weißes Kreuz auf rotem Grund. Norwegen und Dänemark haben zwar auch rote Farben, aber andere Symbole. Spanien hingegen hat eine ganz andere Farbkombination und ein Wappen in der Flagge.",
+      "difficulty": 6
+    },
+    {
+      "category": "Natur",
+      "topic": "Pflanzenwelt",
+      "question": "Welche dieser Pflanzen ist bekannt dafür, dass sie in trockenen und heißen Klimazonen gut gedeiht und als Wüstenpflanze gilt?",
+      "choices": [
+        "A: Farn",
+        "B: Orchidee",
+        "C: Kaktee",
+        "D: Ficus"
+      ],
+      "correct_answer": "C",
+      "explanation": "Kaktusse sind speziell an die Bedingungen in Wüsten und trockenen Klimazonen angepasst. Sie verfügen über Eigenschaften wie Wasseransammlungen in ihren Stämmen und reduzierte Blätter, die als Dornen fungieren, um den Wasserverlust zu minimieren.",
+      "difficulty": 7
+    },
+    {
+      "category": "Sprache",
+      "topic": "Redewendungen",
+      "question": "Welche Redewendung bedeutet, dass etwas nicht so einfach ist, wie es scheint?",
+      "choices": [
+        "A: Den Nagel auf den Kopf treffen",
+        "B: Etwas auf die lange Bank schieben",
+        "C: Die Kirche im Dorf lassen",
+        "D: Es ist nicht alles Gold, was glänzt"
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Redewendung 'Es ist nicht alles Gold, was glänzt' besagt, dass nicht alles, was schön oder ansprechend aussieht, auch wertvoll oder gut ist. Hierbei handelt es sich um eine lexikalisierte Wendung, die eine feste Bedeutung hat und oft verwendet wird, um auf verborgene Wahrheiten hinzuweisen.",
+      "difficulty": 6
     }
   ]
 }

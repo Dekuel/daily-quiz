@@ -1,168 +1,168 @@
 {
   "date": "2025-12-04",
-  "generated_at": "2025-12-04T15:23:51Z",
+  "generated_at": "2025-12-04T15:32:50Z",
   "schema_version": 6,
   "mode": "physik",
   "questions": [
     {
       "category": "Physik",
-      "topic": "Klassische Mechanik",
-      "subtopic": "Querkontraktion",
-      "question": "Was beschreibt der Begriff Querkontraktion in der Materialwissenschaft?",
-      "choices": [
-        "A: Die Temperaturänderung eines Materials aufgrund von mechanischer Beanspruchung.",
-        "B: Die Ausdehnung eines Materials in der Querrichtung bei Druckbelastung.",
-        "C: Die Änderung der Dichte eines Materials bei Temperaturänderung.",
-        "D: Die Schrumpfung eines Materials in der Querrichtung bei Zugbelastung."
-      ],
-      "correct_answer": "D",
-      "explanation": "Querkontraktion ist ein Phänomen, das auftritt, wenn ein Material unter Zugbelastung in der Längsrichtung gestreckt wird und sich gleichzeitig in der Querrichtung verengt. Dies ist ein wichtiger Aspekt in der Materialwissenschaft, da er das Verhalten von Materialien bei verschiedenen Belastungen beschreibt.",
-      "difficulty": 6,
-      "subcategory": "Querkontraktion"
-    },
-    {
-      "category": "Physik",
-      "topic": "Klassische Mechanik",
-      "subtopic": "Auftrieb vs. Widerstand (Zusammenhang)",
-      "question": "Welcher der folgenden Faktoren hat den größten Einfluss auf den Auftrieb eines Körpers in einer Flüssigkeit?",
-      "choices": [
-        "A: Die Dichte der Flüssigkeit",
-        "B: Die Geschwindigkeit des Körpers",
-        "C: Die Form des Körpers",
-        "D: Die Temperatur der Flüssigkeit"
-      ],
-      "correct_answer": "A",
-      "explanation": "Der Auftrieb eines Körpers in einer Flüssigkeit wird durch die Dichte der Flüssigkeit bestimmt, gemäß dem archimedischen Prinzip. Während Temperatur und Form ebenfalls Einfluss haben können, ist die Dichte der entscheidende Faktor für die Berechnung des Auftriebs.",
-      "difficulty": 8,
-      "subcategory": "Auftrieb vs. Widerstand (Zusammenhang)"
-    },
-    {
-      "category": "Physik",
       "topic": "Statistische Mechanik",
-      "subtopic": "Irreversible Expansion (Gay-Lussac)",
-      "question": "Was passiert bei einer irreversiblen Expansion eines Gases, wenn es gegen einen äußeren Druck expandiert?",
+      "subtopic": "Ginzburg–Landau-Funktional & -Nähe",
+      "question": "Was beschreibt das Ginzburg–Landau-Funktional in der statistischen Mechanik?",
       "choices": [
-        "A: Die Temperatur des Gases sinkt.",
-        "B: Die Temperatur des Gases steigt.",
-        "C: Die Dichte des Gases bleibt konstant.",
-        "D: Die Temperatur des Gases bleibt konstant."
-      ],
-      "correct_answer": "B",
-      "explanation": "Bei einer irreversiblen Expansion eines Gases gegen äußeren Druck kann die Temperatur des Gases ansteigen, da Arbeit gegen den Druck verrichtet wird. Dies geschieht, weil die inneren Energie- und Temperaturänderungen des Gases nicht im Gleichgewicht sind.",
-      "difficulty": 3,
-      "subcategory": "Irreversible Expansion (Gay-Lussac)"
-    },
-    {
-      "category": "Physik",
-      "topic": "Quantenmechanik",
-      "subtopic": "Eigenwertproblem",
-      "question": "Was beschreibt das Eigenwertproblem in der Quantenmechanik?",
-      "choices": [
-        "A: Die Zustände eines quantenmechanischen Systems und ihre Energie.",
-        "B: Die Temperatur eines thermodynamischen Systems.",
-        "C: Die Kräfte, die auf einen Körper in Ruhe wirken.",
-        "D: Die Geschwindigkeit von Teilchen in einem klassischen System."
-      ],
-      "correct_answer": "A",
-      "explanation": "Das Eigenwertproblem bezieht sich auf die Suche nach Eigenwerten und Eigenzuständen eines Operators, wobei insbesondere der Hamilton-Operator zur Bestimmung der Energiezustände eines quantenmechanischen Systems verwendet wird. Es ist ein zentrales Konzept in der Quantenmechanik, welches das Verhalten von Teilchen beschreibt.",
-      "difficulty": 6,
-      "subcategory": "Eigenwertproblem"
-    },
-    {
-      "category": "Physik",
-      "topic": "Statistische Mechanik",
-      "subtopic": "Phononen/Rotonen in He II: Anregungen & Thermik",
-      "question": "Was sind Phononen in der Quantenmechanik?",
-      "choices": [
-        "A: Quasiteilchen, die Schwingungen in einem Festkörper beschreiben.",
-        "B: Energiestufen in einem Atom.",
-        "C: Teilchen, die die Elektronen in einem Atom darstellen.",
-        "D: Eine Art von radioaktiven Strahlen."
-      ],
-      "correct_answer": "A",
-      "explanation": "Phononen sind quasiteilchenartige Anregungen, die die Schwingungen von Atomen in einem Kristallgitter beschreiben. Sie spielen eine wichtige Rolle in der Thermodynamik und der Wärmeleitung von Festkörpern.",
-      "difficulty": 1,
-      "subcategory": "Phononen/Rotonen in He II: Anregungen & Thermik"
-    },
-    {
-      "category": "Physik",
-      "topic": "Thermodynamik",
-      "subtopic": "Einfache Folgerungen aus den Hauptsätzen",
-      "question": "Welche Aussage beschreibt die Konsequenz des zweiten Hauptsatzes der Thermodynamik korrekt?",
-      "choices": [
-        "A: Die Gesamtentropie eines geschlossenen Systems kann niemals abnehmen.",
-        "B: Ein adiabatischer Prozess ist immer irreversibel.",
-        "C: Wärme kann von einem kälteren Körper auf einen wärmeren Körper übertragen werden, ohne dass Arbeit verrichtet wird.",
-        "D: In einem perfekten Gas ist die Temperatur direkt proportional zum Druck."
-      ],
-      "correct_answer": "A",
-      "explanation": "Der zweite Hauptsatz der Thermodynamik besagt, dass die Entropie in einem geschlossenen System immer zunimmt oder gleich bleibt, aber niemals abnimmt. Dies bedeutet, dass natürliche Prozesse in eine Richtung verlaufen, die die Gesamtentropie erhöht.",
-      "difficulty": 7,
-      "subcategory": "Einfache Folgerungen aus den Hauptsätzen"
-    },
-    {
-      "category": "Physik",
-      "topic": "Quantenmechanik",
-      "subtopic": "Energie–Zeit–Unschärfe",
-      "question": "Was beschreibt das Energie–Zeit–Unschärfe-Prinzip in der Quantenmechanik?",
-      "choices": [
-        "A: Die Unschärfe im Energiegehalt eines Systems ist umgekehrt proportional zur Zeitdauer, während der dieser Zustand beobachtet wird.",
-        "B: Die Energie eines Teilchens kann niemals negative Werte annehmen.",
-        "C: Teilchen können sich mit Überlichtgeschwindigkeit bewegen.",
-        "D: Zeit und Raum sind in der Quantenmechanik unabhängig voneinander."
-      ],
-      "correct_answer": "A",
-      "explanation": "Das Energie–Zeit–Unschärfe-Prinzip besagt, dass die Unsicherheit in der Energie eines Systems umgekehrt proportional zur Zeitdauer ist, während der diese Energie gemessen wird. Dies bedeutet, dass eine genauere Messung der Energie zu einer größeren Unsicherheit in der Zeit führt und umgekehrt.",
-      "difficulty": 4,
-      "subcategory": "Energie–Zeit–Unschärfe"
-    },
-    {
-      "category": "Physik",
-      "topic": "Kern- und Teilchenphysik",
-      "subtopic": "Partonmodell",
-      "question": "Welches Konzept beschreibt die Verteilung der Partonen innerhalb eines Protonen und ermöglicht die Erklärung der Struktur der Protonen bei hochenergetischen Kollisionen?",
-      "choices": [
-        "A: Partonmodell",
-        "B: Quark-Gluon-Plasma",
-        "C: Standardmodell der Teilchenphysik",
-        "D: Supersymmetrie"
-      ],
-      "correct_answer": "A",
-      "explanation": "Das Partonmodell stellt eine wichtige Theorie dar, die die inneren Strukturen von Hadronen wie Protonen durch die Annahme beschreibt, dass sie aus Punktpartikeln, den sogenannten Partonen, bestehen. Dieses Modell hilft zu verstehen, wie die Energie und Impulsverteilung in hochenergetischen Kollisionen zustande kommt und ist entscheidend für die Analyse von Experimenten in Teilchenbeschleunigern.",
-      "difficulty": 10,
-      "subcategory": "Partonmodell"
-    },
-    {
-      "category": "Physik",
-      "topic": "Klassische Mechanik",
-      "subtopic": "Viskosität von Gasen",
-      "question": "Welche Aussage über die Viskosität von Gasen ist korrekt?",
-      "choices": [
-        "A: Viskosität von Gasen ist immer konstant, egal bei welchem Druck.",
-        "B: Gase haben immer eine höhere Viskosität als Flüssigkeiten.",
-        "C: Die Viskosität von Gasen ist unabhängig von der Temperatur.",
-        "D: Die Viskosität von Gasen nimmt mit steigender Temperatur zu."
-      ],
-      "correct_answer": "D",
-      "explanation": "Die Viskosität von Gasen nimmt in der Regel mit steigender Temperatur zu, da die Moleküle bei höheren Temperaturen schneller bewegen und häufiger miteinander kollidieren. Dies führt zu einer erhöhten inneren Reibung im Gas.",
-      "difficulty": 3,
-      "subcategory": "Viskosität von Gasen"
-    },
-    {
-      "category": "Physik",
-      "topic": "Thermodynamik",
-      "subtopic": "Absolute thermodynamische Temperaturskala",
-      "question": "Welcher der folgenden Werte entspricht 0 Kelvin auf der absoluten thermodynamischen Temperaturskala?",
-      "choices": [
-        "A: 0 °C",
-        "B: 273,15 °C",
-        "C: -273,15 °C",
-        "D: -100 °C"
+        "A: Die Wechselwirkungen zwischen Photonen und Materie.",
+        "B: Die Bewegung von Teilchen in einem elektrischen Feld.",
+        "C: Die kritischen Phasenübergänge in Supraleitern.",
+        "D: Die thermodynamischen Eigenschaften von Gasen."
       ],
       "correct_answer": "C",
-      "explanation": "0 Kelvin entspricht dem absoluten Nullpunkt, der bei -273,15 °C liegt. Dies ist die theoretische Temperatur, bei der die Teilchenbewegung minimal ist und damit die thermische Energie eines Systems verschwindet.",
-      "difficulty": 10,
-      "subcategory": "Absolute thermodynamische Temperaturskala"
+      "explanation": "Das Ginzburg–Landau-Funktional ist ein wichtiges Modell zur Beschreibung von Phasenübergängen, insbesondere in Supraleitern. Es erlaubt die Analyse von Ordnung und Symmetrie in den kritischen Bereichen der Materie.",
+      "difficulty": 4,
+      "subcategory": "Ginzburg–Landau-Funktional & -Nähe"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Zweite Quantisierung: Erzeugungs-/Vernichtungsoperatoren",
+      "question": "Welche der folgenden Eigenschaften beschreibt korrekt den Erzeugungsoperator in der Quantenmechanik?",
+      "choices": [
+        "A: Er wirkt nur auf klassische Systeme.",
+        "B: Er verringert die Energie eines Zustands.",
+        "C: Er erhöht die Teilchenanzahl eines Zustands um eins.",
+        "D: Er ist hermitesch und hat immer reelle Eigenwerte."
+      ],
+      "correct_answer": "C",
+      "explanation": "Der Erzeugungsoperator erhöht die Teilchenanzahl eines quantenmechanischen Zustands um eins, was zu einem Zustand mit höherer Energie führt. Dies ist fundamental für die Beschreibung von Bosonen in der Quantenfeldtheorie und unterscheidet sich von den Eigenschaften des Vernichtungsoperators, der die Teilchenanzahl verringert.",
+      "difficulty": 8,
+      "subcategory": "Zweite Quantisierung: Erzeugungs-/Vernichtungsoperatoren"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Dynamische Streuung & Phononenquantisierung",
+      "question": "Was beschreibt der Begriff 'Phonon' in der Festkörperphysik?",
+      "choices": [
+        "A: Eine Art von Lichtstrahlung.",
+        "B: Ein Teilchen, das die Schwerkraft vermittelt.",
+        "C: Ein Elektron in einem Halbleiter.",
+        "D: Ein quantisiertes Schwingungsmodus in einem Festkörper."
+      ],
+      "correct_answer": "D",
+      "explanation": "Phononen sind quantisierte Schwingungsmoden in einem Festkörper und spielen eine wichtige Rolle in der Wärmeleitung und den dynamischen Eigenschaften von Materialien. Sie sind entscheidend für das Verständnis der Wechselwirkungen in Festkörpern.",
+      "difficulty": 2,
+      "subcategory": "Dynamische Streuung & Phononenquantisierung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Dispersion dichter Medien",
+      "question": "Welche Aussage zur Dispersion in dichter Medien ist korrekt?",
+      "choices": [
+        "A: Alle Wellenlängen des Lichts werden gleich gebrochen.",
+        "B: Dispersion hat keinen Einfluss auf die Farbwahrnehmung.",
+        "C: Licht unterschiedlicher Wellenlängen wird unterschiedlich stark gebrochen.",
+        "D: Dispersion tritt nur in Vakuum auf."
+      ],
+      "correct_answer": "C",
+      "explanation": "Dispersion in dichten Medien beschreibt das Phänomen, dass Licht unterschiedlicher Wellenlängen unterschiedlich stark gebrochen wird. Dies führt dazu, dass weiße Lichtstrahlen in Farben zerlegt werden, was beispielsweise bei einem Prisma zu beobachten ist.",
+      "difficulty": 5,
+      "subcategory": "Dispersion dichter Medien"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "BCS bei endlicher Temperatur",
+      "question": "Was beschreibt das BCS-Modell in der Festkörperphysik?",
+      "choices": [
+        "A: Die Diffusion von Atomen in einem Kristall.",
+        "B: Die Bewegung von Elektronen in einem Halbleiter.",
+        "C: Die Wärmeleitung in Metallen.",
+        "D: Die Ausbildung von Cooper-Paaren in Superleitern."
+      ],
+      "correct_answer": "D",
+      "explanation": "Das BCS-Modell erklärt die Superleitung als Ergebnis der Ausbildung von Cooper-Paaren, die sich durch Wechselwirkungen zwischen Elektronen bilden. Diese Paare ermöglichen es den Elektronen, sich ohne Widerstand durch das Material zu bewegen, was zu einem supraleitenden Zustand führt.",
+      "difficulty": 1,
+      "subcategory": "BCS bei endlicher Temperatur"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Biot–Savart-Gesetz",
+      "question": "Welches der folgenden Elemente beschreibt das Biot–Savart-Gesetz korrekt?",
+      "choices": [
+        "A: Es beschreibt das Magnetfeld, das von einem stationären elektrischen Ladung erzeugt wird.",
+        "B: Es beschreibt die Wechselwirkung zwischen elektrischen Feldern und bewegten Ladungen.",
+        "C: Es beschreibt das Magnetfeld, das durch einen stromdurchflossenen Leiter erzeugt wird.",
+        "D: Es beschreibt die Kraft auf eine bewegte Ladung in einem elektrischen Feld."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Biot–Savart-Gesetz beschreibt, wie ein elektrischer Strom in einem Leiter ein Magnetfeld erzeugt. Es berücksichtigt die Geometrie des Stroms und dessen Abstand zu einem Punkt, an dem das Magnetfeld gemessen wird.",
+      "difficulty": 6,
+      "subcategory": "Biot–Savart-Gesetz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Zustandsgleichungen (Überblick)",
+      "question": "Welche der folgenden Gleichungen beschreibt den idealen Gaszustand?",
+      "choices": [
+        "A: PV = nRT",
+        "B: W = Fd",
+        "C: E = mc²",
+        "D: F = ma"
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Gleichung PV = nRT ist die Zustandsgleichung für ideale Gase, die den Zusammenhang zwischen Druck (P), Volumen (V), Temperatur (T) und der Anzahl der Mol (n) beschreibt. Die anderen Gleichungen beziehen sich auf unterschiedliche physikalische Konzepte.",
+      "difficulty": 1,
+      "subcategory": "Zustandsgleichungen (Überblick)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Photoeffekt (Grundlagen)",
+      "question": "Welcher der folgenden Faktoren beeinflusst nicht die Auslösung des Photoeffekts?",
+      "choices": [
+        "A: Die Frequenz des einfallenden Lichts",
+        "B: Die Intensität des einfallenden Lichts",
+        "C: Die Temperatur des Elektrons im Material",
+        "D: Die Beschaffenheit des Materials der Oberfläche"
+      ],
+      "correct_answer": "C",
+      "explanation": "Der Photoeffekt wird durch die Frequenz des einfallenden Lichts und die Beschaffenheit des Materials beeinflusst. Die Intensität des Lichts beeinflusst die Anzahl der emittierten Elektronen, jedoch nicht die Auslösung selbst. Die Temperatur des Elektrons hat keinen direkten Einfluss auf den Photoeffekt.",
+      "difficulty": 8,
+      "subcategory": "Photoeffekt (Grundlagen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Clebsch–Gordan-Koeffizienten",
+      "question": "Was beschreiben die Clebsch–Gordan-Koeffizienten in der Quantenmechanik?",
+      "choices": [
+        "A: Die Geschwindigkeit von Licht in verschiedenen Medien.",
+        "B: Die Masse von subatomaren Teilchen.",
+        "C: Die Energiezustände in einem Atom.",
+        "D: Die Kombination von Spin-Zuständen von Teilchen."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Clebsch–Gordan-Koeffizienten sind mathematische Hilfsmittel zur Kombination von quantenmechanischen Zuständen, insbesondere zur Beschreibung der Addition von Spins. Sie spielen eine wichtige Rolle in der Theorie der quantenmechanischen Systeme, in denen mehrere Teilchen betrachtet werden.",
+      "difficulty": 2,
+      "subcategory": "Clebsch–Gordan-Koeffizienten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Erster Hauptsatz & innere Energie",
+      "question": "Was beschreibt der erste Hauptsatz der Thermodynamik?",
+      "choices": [
+        "A: Die Temperatur ist unabhängig von der Energie im System.",
+        "B: Die Energie eines geschlossenen Systems bleibt konstant.",
+        "C: Wärme kann nicht von einem kälteren zu einem wärmeren Körper fließen.",
+        "D: Arbeit kann nicht in Wärme umgewandelt werden."
+      ],
+      "correct_answer": "B",
+      "explanation": "Der erste Hauptsatz der Thermodynamik besagt, dass die Gesamtenergie in einem geschlossenen System erhalten bleibt. Das bedeutet, dass die zugeführte Wärme und die geleistete Arbeit die innere Energie des Systems verändern können, aber die Gesamtenergie konstant bleibt.",
+      "difficulty": 2,
+      "subcategory": "Erster Hauptsatz & innere Energie"
     }
   ]
 }

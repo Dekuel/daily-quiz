@@ -1,61 +1,105 @@
 {
   "date": "2025-12-04",
-  "generated_at": "2025-12-04T15:23:56Z",
+  "generated_at": "2025-12-04T15:33:06Z",
   "schema_version": 6,
   "mode": "schwer",
   "questions": [
     {
-      "category": "Glaube & Religion",
-      "topic": "Klassische & nordische Mythologien",
-      "question": "Which of the following Olympic gods is considered the god of the sea?",
+      "category": "Sport",
+      "topic": "Basketball",
+      "question": "Which body is usually responsible for appointing referees in the Basketball Bundesliga?",
       "choices": [
-        "A: Poseidon",
-        "B: Zeus",
-        "C: Hermes",
-        "D: Apollo"
+        "A: The Referee Committee",
+        "B: The Team Management",
+        "C: The Player Roster",
+        "D: The Club's Supplier"
       ],
       "correct_answer": "A",
-      "explanation": "Poseidon is the god of the sea in Greek mythology and one of the twelve Olympic gods. He is often depicted with a trident and is also the god of earthquakes and horses.",
+      "explanation": "The Referee Committee is responsible for appointing and evaluating referees in the Basketball Bundesliga to ensure fairness and quality of the games. The other options mentioned have no influence on referee appointments.",
       "difficulty": 5
     },
     {
-      "question": "What is the maximum speed allowed in a traffic-calmed zone where car-sharing vehicles are parked?",
-      "category": "Alltag & Gesellschaft",
-      "subcategory": "Carsharing & Mobilitätsdienste",
-      "difficulty": 6,
-      "options": {
-        "A": "20 km/h",
-        "B": "30 km/h",
-        "C": "40 km/h",
-        "D": "50 km/h"
-      },
-      "correct_answer": "A"
+      "category": "Technologie",
+      "topic": "KI & Zukunftstechnologien",
+      "question": "Which quantum algorithm framework was specifically developed for optimizing problems in quantum information science?",
+      "choices": [
+        "A: Qiskit",
+        "B: Cirq",
+        "C: TensorFlow Quantum",
+        "D: OpenFermion"
+      ],
+      "correct_answer": "C",
+      "explanation": "TensorFlow Quantum is a specific framework for integrating quantum computing into machine learning and is particularly suitable for optimizing problems in quantum information science. Qiskit and Cirq are also significant frameworks but not primarily designed for optimization problems. OpenFermion focuses on quantum chemical calculations rather than general optimization algorithms.",
+      "difficulty": 10
     },
     {
-      "question": "Which index reflects the performance of the 30 largest publicly traded German companies?",
-      "category": "Wirtschaft & Finanzen",
-      "subcategory": "Aktien & Börsengrundlagen",
-      "difficulty": 6,
-      "options": {
-        "A": "MDAX",
-        "B": "DAX",
-        "C": "SDAX",
-        "D": "TecDAX"
-      },
-      "correct_answer": "B"
+      "category": "Glaube & Religion",
+      "topic": "Religionsgeschichte, Soziologie & Praxis",
+      "question": "Which of the following statements best describes the concept of secularization in modern society?",
+      "choices": [
+        "A: The decline of religious practices and beliefs in the population.",
+        "B: The increase in interreligious dialogue and tolerance.",
+        "C: The revival of traditional belief systems in society.",
+        "D: The increased influence of religious institutions on state affairs."
+      ],
+      "correct_answer": "A",
+      "explanation": "Secularization refers to the process by which the societal importance of religion decreases, and religious practices and beliefs have less influence on public life. This is particularly observed in modern, industrialized societies where individual worldviews are increasingly gaining importance.",
+      "difficulty": 9
     },
     {
-      "question": "Which school leaving certificate generally allows direct access to a university in Germany?",
+      "question": "Which of the following options describes the main difference between further education and retraining?",
       "category": "Alltag & Gesellschaft",
-      "subcategory": "Noten & Bewertungssysteme",
-      "difficulty": 6,
+      "subcategory": "Karriereplanung & Weiterbildung",
+      "difficulty": 7,
       "options": {
-        "A": "Hauptschulabschluss",
-        "B": "Realschulabschluss",
-        "C": "Abitur",
-        "D": "Fachhochschulreife"
+        "A": "Eine Fortbildung qualifiziert für einen anderen Beruf, während eine Umschulung das berufliche Know-how vertieft.",
+        "B": "Eine Fortbildung findet meist in Teilzeit statt, während eine Umschulung Vollzeit erfolgt.",
+        "C": "Eine Fortbildung erweitert die Fähigkeiten in einem bestehenden Beruf, während eine Umschulung einen kompletten Berufswechsel ermöglicht.",
+        "D": "Eine Fortbildung dauert in der Regel weniger als einen Monat, während eine Umschulung mehrere Jahre in Anspruch nimmt."
       },
       "correct_answer": "C"
+    },
+    {
+      "category": "Geographie",
+      "topic": "Städte, Länder & Flaggen",
+      "question": "Which of the following flags displays a white cross on a red background and belongs to a European country?",
+      "choices": [
+        "A: The flag of Norway",
+        "B: The flag of Denmark",
+        "C: The flag of Spain",
+        "D: The flag of Switzerland"
+      ],
+      "correct_answer": "D",
+      "explanation": "The flag of Switzerland is known for its characteristic white cross on a red background. While Norway and Denmark also have red colors, they feature different symbols. Spain, on the other hand, has a completely different color combination and a coat of arms on the flag.",
+      "difficulty": 6
+    },
+    {
+      "category": "Natur",
+      "topic": "Pflanzenwelt",
+      "question": "Which of these plants is known to thrive in dry and hot climates, being considered a desert plant?",
+      "choices": [
+        "A: Fern",
+        "B: Orchid",
+        "C: Cactus",
+        "D: Fig"
+      ],
+      "correct_answer": "C",
+      "explanation": "Cacti are specifically adapted to the conditions in deserts and dry climates. They possess features such as water storage in their stems and reduced leaves that function as thorns to minimize water loss.",
+      "difficulty": 7
+    },
+    {
+      "category": "Language",
+      "topic": "Etymology",
+      "question": "What is the origin of the word 'bridegroom'?",
+      "choices": [
+        "A: From 'bride' and 'groom' as separate terms",
+        "B: From Old English 'bryde' and 'guma'",
+        "C: From 'bride' and 'groom' as a compound word",
+        "D: From Old French 'bride' and 'groom'"
+      ],
+      "correct_answer": "B",
+      "explanation": "'Bridegroom' originates from the Old English 'bryde' (meaning bride) and 'guma' (meaning man). This illustrates a case of true etymology rather than false segmentation or folk etymology. The other options suggest incorrect origins or misinterpretations of the term's formation.",
+      "difficulty": 6
     }
   ]
 }
