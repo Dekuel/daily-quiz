@@ -1,0 +1,168 @@
+{
+  "date": "2025-12-04",
+  "generated_at": "2025-12-04T15:12:10Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Elektrostatik der Dielektrika",
+      "question": "What happens to a dielectric when introduced into an electric field?",
+      "choices": [
+        "A: It polarizes and creates an electric field strength within the dielectric.",
+        "B: It remains unchanged and does not affect the electric field.",
+        "C: It conducts electricity and neutralizes the electric field strength.",
+        "D: It becomes magnetic and generates a magnetic field."
+      ],
+      "correct_answer": "A",
+      "explanation": "A dielectric polarizes in an electric field, meaning positive and negative charges within the material are displaced. This leads to a reduction in the effective field strength within the dielectric compared to the external field strength.",
+      "difficulty": 5,
+      "subcategory": "Elektrostatik der Dielektrika"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Frequenzabhängigkeit der Dielektrizitätskonstante",
+      "question": "How does the frequency of light affect the dielectric constant of a material?",
+      "choices": [
+        "A: It always increases with increasing frequency.",
+        "B: It always decreases with increasing frequency.",
+        "C: It remains constant regardless of frequency.",
+        "D: It can vary and depends on the material properties."
+      ],
+      "correct_answer": "D",
+      "explanation": "The dielectric constant of a material can vary depending on the frequency of the incident light. This is important for understanding the interaction of light with materials in optics.",
+      "difficulty": 1,
+      "subcategory": "Frequenzabhängigkeit der Dielektrizitätskonstante"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Klassischer Grenzfall (z ≪ 1)",
+      "question": "In the classical limit of statistical mechanics, what does the ratio of the number of particles to volume describe?",
+      "choices": [
+        "A: The energy of the particles",
+        "B: The density of the particles",
+        "C: The temperature of the system",
+        "D: The velocity of the particles"
+      ],
+      "correct_answer": "B",
+      "explanation": "In the classical limit, the ratio of the number of particles to volume is directly related to the density of the particles. This density plays a crucial role in statistical mechanics as it describes the behavior and interactions of particles in the system.",
+      "difficulty": 3,
+      "subcategory": "Klassischer Grenzfall (z ≪ 1)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "ħ→0-Grenzfall; Klassische Umkehrpunkte",
+      "question": "What does the ħ→0 limit in quantum mechanics describe regarding classical turning points?",
+      "choices": [
+        "A: Transitions between discrete energy levels disappear.",
+        "B: The uncertainty principle becomes irrelevant and classical paths are deterministic.",
+        "C: Quantum fluctuations increase and influence classical motions.",
+        "D: The probability of an event occurring remains constant."
+      ],
+      "correct_answer": "B",
+      "explanation": "In the ħ→0 limit, quantum mechanics becomes a classical theory as the uncertainty principle becomes irrelevant. This leads to deterministic paths corresponding to classical turning points.",
+      "difficulty": 8,
+      "subcategory": "ħ→0-Grenzfall; Klassische Umkehrpunkte"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Modifiziertes Hamilton’sches Prinzip",
+      "question": "What does the modified Hamiltonian principle describe in analytical mechanics?",
+      "choices": [
+        "A: It allows for the inclusion of constraints in the equation of motion.",
+        "B: It describes the trajectories of particles in a conservative force field.",
+        "C: It requires the use of Lagrangian mechanics instead of Hamiltonian mechanics.",
+        "D: It is only applicable when no external forces are acting."
+      ],
+      "correct_answer": "A",
+      "explanation": "The modified Hamiltonian principle allows for the integration of constraints into the equations of motion, which is particularly useful when analyzing systems under different conditions. It extends classical principles by considering dynamics while accounting for these constraints.",
+      "difficulty": 4,
+      "subcategory": "Modifiziertes Hamilton’sches Prinzip"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Drehschwingungen um eine feste Achse",
+      "question": "What describes the natural frequency of a body oscillating about a fixed axis?",
+      "choices": [
+        "A: The energy lost during oscillation.",
+        "B: The speed at which the axis rotates.",
+        "C: The maximum amplitude of the oscillation.",
+        "D: The frequency at which the body returns to its initial position."
+      ],
+      "correct_answer": "D",
+      "explanation": "The natural frequency is the frequency at which a system oscillates around a stable equilibrium position. It depends on the physical properties of the body and the type of suspension. A higher natural frequency means a quicker return to equilibrium after a disturbance.",
+      "difficulty": 6,
+      "subcategory": "Drehschwingungen um eine feste Achse"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Boltzmann-Gleichung (Transport)",
+      "question": "Which quantity describes the change in the distribution of particles in a system according to the Boltzmann equation?",
+      "choices": [
+        "A: The distribution function",
+        "B: The temperature",
+        "C: The pressure",
+        "D: The entropy"
+      ],
+      "correct_answer": "A",
+      "explanation": "The Boltzmann equation describes how the distribution function of particles in a system varies with time. This distribution function indicates how many particles are in a particular state or energy level and is crucial for analyzing transport phenomena in solids.",
+      "difficulty": 6,
+      "subcategory": "Boltzmann-Gleichung (Transport)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Mechanische Festigkeit",
+      "question": "What describes the mechanical strength of a material?",
+      "choices": [
+        "A: The ability to resist deformation under load.",
+        "B: The ability to conduct electric current.",
+        "C: The ability to absorb light.",
+        "D: The ability to conduct heat."
+      ],
+      "correct_answer": "A",
+      "explanation": "The mechanical strength of a material refers to its ability to resist deformations and fractures under stress. This is a fundamental concept in solid-state physics that is essential for engineers and materials scientists.",
+      "difficulty": 1,
+      "subcategory": "Mechanische Festigkeit"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Fluktuationen makroskopischer Größen",
+      "question": "What does the term 'fluctuations' describe in statistical mechanics?",
+      "choices": [
+        "A: Stable and unchanging states of a system.",
+        "B: The movements of particles in a vacuum.",
+        "C: Temporary changes in the values of macroscopic quantities.",
+        "D: The constant temperatures in a closed system."
+      ],
+      "correct_answer": "C",
+      "explanation": "Fluctuations refer to the temporary changes in the values of macroscopic quantities caused by the motion and interactions of particles in a system. These changes are typically random and can occur in thermodynamic equilibrium.",
+      "difficulty": 2,
+      "subcategory": "Fluktuationen makroskopischer Größen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Kanonische Gleichungen (Hamilton-Gleichungen)",
+      "question": "What does the Hamiltonian equation H(q, p) describe in analytical mechanics?",
+      "choices": [
+        "A: The change in time of a system with respect to its coordinates and momenta.",
+        "B: The relationship between the kinetic and potential energy of a system.",
+        "C: The relationship between the velocity and acceleration of a body.",
+        "D: The relationship between the energy content of a system and its temperature."
+      ],
+      "correct_answer": "A",
+      "explanation": "The Hamiltonian equations describe how the coordinates (q) and momenta (p) of a system change over time. These equations are central to formulating analytical mechanics and allow for a complete description of a system's dynamic behavior.",
+      "difficulty": 3,
+      "subcategory": "Kanonische Gleichungen (Hamilton-Gleichungen)"
+    }
+  ]
+}

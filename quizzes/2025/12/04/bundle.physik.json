@@ -1,0 +1,168 @@
+{
+  "date": "2025-12-04",
+  "generated_at": "2025-12-04T15:11:53Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Elektrostatik der Dielektrika",
+      "question": "Was passiert mit einem Dielektrikum, wenn es in ein elektrisches Feld eingeführt wird?",
+      "choices": [
+        "A: Es polarisiert sich und es entsteht eine elektrische Feldstärke innerhalb des Dielektrikums.",
+        "B: Es bleibt unverändert und beeinflusst das elektrische Feld nicht.",
+        "C: Es leitet den Strom und die elektrische Feldstärke wird neutralisiert.",
+        "D: Es wird magnetisch und erzeugt ein Magnetfeld."
+      ],
+      "correct_answer": "A",
+      "explanation": "Ein Dielektrikum polarisiert sich in einem elektrischen Feld, was bedeutet, dass positive und negative Ladungen innerhalb des Materials verschoben werden. Dies führt zu einer Reduzierung der effektiven Feldstärke im Dielektrikum im Vergleich zur äußeren Feldstärke.",
+      "difficulty": 5,
+      "subcategory": "Elektrostatik der Dielektrika"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Frequenzabhängigkeit der Dielektrizitätskonstante",
+      "question": "Wie beeinflusst die Frequenz eines Lichtes die Dielektrizitätskonstante eines Materials?",
+      "choices": [
+        "A: Sie steigt immer mit zunehmender Frequenz.",
+        "B: Sie sinkt immer mit zunehmender Frequenz.",
+        "C: Sie bleibt immer konstant, unabhängig von der Frequenz.",
+        "D: Sie kann variieren und hängt von der Materialeigenschaft ab."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Dielektrizitätskonstante eines Materials kann in Abhängigkeit von der Frequenz des einfallenden Lichtes variieren. Dies ist wichtig für das Verständnis der Wechselwirkung von Licht mit Materialien in der Optik.",
+      "difficulty": 1,
+      "subcategory": "Frequenzabhängigkeit der Dielektrizitätskonstante"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Klassischer Grenzfall (z ≪ 1)",
+      "question": "Was beschreibt im klassischen Grenzfall der statistischen Mechanik das Verhältnis von Teilchenzahl zu Volumen?",
+      "choices": [
+        "A: Die Energie der Teilchen",
+        "B: Die Dichte der Teilchen",
+        "C: Die Temperatur des Systems",
+        "D: Die Geschwindigkeit der Teilchen"
+      ],
+      "correct_answer": "B",
+      "explanation": "Im klassischen Grenzfall ist das Verhältnis von Teilchenzahl zu Volumen direkt mit der Dichte der Teilchen verbunden. Diese Dichte spielt eine entscheidende Rolle in der statistischen Mechanik, da sie das Verhalten und die Wechselwirkungen der Teilchen im System beschreibt.",
+      "difficulty": 3,
+      "subcategory": "Klassischer Grenzfall (z ≪ 1)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "ħ→0-Grenzfall; Klassische Umkehrpunkte",
+      "question": "Was beschreibt der ħ→0-Grenzfall in der Quantenmechanik im Hinblick auf klassische Umkehrpunkte?",
+      "choices": [
+        "A: Die Übergänge zwischen diskreten Energieniveaus verschwinden.",
+        "B: Die Unschärferelation wird irrelevant und klassische Bahnen sind deterministisch.",
+        "C: Quantenfluktuationen nehmen zu und beeinflussen klassische Bewegungen.",
+        "D: Die Wahrscheinlichkeit für das Auftreten eines Ereignisses wird konstant."
+      ],
+      "correct_answer": "B",
+      "explanation": "Im ħ→0-Grenzfall wird die Quantenmechanik zu einer klassischen Theorie, da die Unschärferelation nicht mehr relevant ist. Dies führt zu deterministischen Bahnen, die den klassischen Umkehrpunkten entsprechen.",
+      "difficulty": 8,
+      "subcategory": "ħ→0-Grenzfall; Klassische Umkehrpunkte"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Modifiziertes Hamilton’sches Prinzip",
+      "question": "Was beschreibt das modifizierte Hamilton’sche Prinzip in der analytischen Mechanik?",
+      "choices": [
+        "A: Es erlaubt die Einbeziehung von Einschränkungen in das Bewegungsgesetz.",
+        "B: Es beschreibt die Trajektorien von Teilchen in einem konservativen Kraftfeld.",
+        "C: Es erfordert die Verwendung von Lagrange-Mechanik anstelle von Hamilton-Mechanik.",
+        "D: Es ist nur anwendbar, wenn keine externen Kräfte wirken."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das modifizierte Hamilton’sche Prinzip ermöglicht es, Einschränkungen in die Bewegungsgleichungen zu integrieren, was besonders nützlich ist, wenn Systeme unter verschiedenen Bedingungen analysiert werden müssen. Es erweitert die klassischen Prinzipien, indem es die Dynamik unter Berücksichtigung dieser Einschränkungen betrachtet.",
+      "difficulty": 4,
+      "subcategory": "Modifiziertes Hamilton’sches Prinzip"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Drehschwingungen um eine feste Achse",
+      "question": "Was beschreibt die Eigenfrequenz eines Körpers, der um eine feste Achse schwingt?",
+      "choices": [
+        "A: Die Energie, die während der Schwingung verloren geht.",
+        "B: Die Geschwindigkeit, mit der sich die Achse dreht.",
+        "C: Die maximale Amplitude der Schwingung.",
+        "D: Die Frequenz, mit der der Körper zu seiner Ausgangsposition zurückkehrt."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Eigenfrequenz ist die Frequenz, mit der ein System bei einer Schwingung um eine stabile Gleichgewichtslage schwingt. Sie hängt von den physikalischen Eigenschaften des Körpers und der Art der Aufhängung ab. Eine höhere Eigenfrequenz bedeutet eine schnellere Rückkehr zur Gleichgewichtslage nach einer Störung.",
+      "difficulty": 6,
+      "subcategory": "Drehschwingungen um eine feste Achse"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Boltzmann-Gleichung (Transport)",
+      "question": "Welche Größe beschreibt die Änderung der Verteilung von Teilchen in einem System gemäß der Boltzmann-Gleichung?",
+      "choices": [
+        "A: Die Verteilungsfunktion",
+        "B: Die Temperatur",
+        "C: Der Druck",
+        "D: Die Entropie"
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Boltzmann-Gleichung beschreibt, wie die Verteilungsfunktion von Teilchen in einem System mit der Zeit variiert. Diese Verteilungsfunktion gibt an, wie viele Teilchen sich in einem bestimmten Zustand oder Energieniveau befinden und ist zentral für die Analyse von Transportphänomenen in Festkörpern.",
+      "difficulty": 6,
+      "subcategory": "Boltzmann-Gleichung (Transport)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Mechanische Festigkeit",
+      "question": "Was beschreibt die mechanische Festigkeit eines Materials?",
+      "choices": [
+        "A: Die Fähigkeit, einer Verformung unter Last zu widerstehen.",
+        "B: Die Fähigkeit, elektrischen Strom zu leiten.",
+        "C: Die Fähigkeit, Licht zu absorbieren.",
+        "D: Die Fähigkeit, Wärme zu leiten."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die mechanische Festigkeit eines Materials bezieht sich auf dessen Fähigkeit, Verformungen und Brüchen unter Belastung zu widerstehen. Dies ist ein grundlegendes Konzept in der Festkörperphysik, das für Ingenieure und Materialwissenschaftler von zentraler Bedeutung ist.",
+      "difficulty": 1,
+      "subcategory": "Mechanische Festigkeit"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Fluktuationen makroskopischer Größen",
+      "question": "Was beschreibt der Begriff 'Fluktuationen' in der statistischen Mechanik?",
+      "choices": [
+        "A: Stabile und unveränderliche Zustände eines Systems.",
+        "B: Die Bewegungen von Teilchen im Vakuum.",
+        "C: Temporäre Änderungen in den Werten makroskopischer Größen.",
+        "D: Die konstanten Temperaturen in einem abgeschlossenen System."
+      ],
+      "correct_answer": "C",
+      "explanation": "Fluktuationen beziehen sich auf die temporären Änderungen in den Werten makroskopischer Größen, die durch die Bewegung und Wechselwirkungen der Teilchen in einem System verursacht werden. Diese Änderungen sind typischerweise zufällig und können in thermodynamischen Gleichgewichten auftreten.",
+      "difficulty": 2,
+      "subcategory": "Fluktuationen makroskopischer Größen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Kanonische Gleichungen (Hamilton-Gleichungen)",
+      "question": "Was beschreibt die Hamilton-Gleichung H(q, p) im Rahmen der analytischen Mechanik?",
+      "choices": [
+        "A: Die Änderung der Zeit eines Systems in Bezug auf seine Koordinaten und Impulse.",
+        "B: Die Beziehung zwischen der kinetischen und potenziellen Energie eines Systems.",
+        "C: Die Beziehung zwischen der Geschwindigkeit und der Beschleunigung eines Körpers.",
+        "D: Die Beziehung zwischen dem Energieinhalt eines Systems und seiner Temperatur."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Hamilton-Gleichungen beschreiben, wie sich die Koordinaten (q) und Impulse (p) eines Systems im Laufe der Zeit ändern. Diese Gleichungen sind zentral für die Formulierung der analytischen Mechanik und ermöglichen eine vollständige Beschreibung des dynamischen Verhaltens eines Systems.",
+      "difficulty": 3,
+      "subcategory": "Kanonische Gleichungen (Hamilton-Gleichungen)"
+    }
+  ]
+}
