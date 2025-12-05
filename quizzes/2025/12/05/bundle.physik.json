@@ -1,0 +1,168 @@
+{
+  "date": "2025-12-05",
+  "generated_at": "2025-12-05T03:50:12Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Klassische Ensembles: Phasenraum & Verteilungsfunktion",
+      "question": "Welche Aussage beschreibt am besten, was der Phasenraum in der statistischen Mechanik ist?",
+      "choices": [
+        "A: Der Phasenraum beschreibt ausschließlich die Energieverteilung eines Systems.",
+        "B: Der Phasenraum ist nur der Raum der Positionen von Teilchen in einem System.",
+        "C: Der Phasenraum ist irrelevant für die Analyse thermodynamischer Systeme.",
+        "D: Der Phasenraum ist der Raum, der alle möglichen Zustände eines Systems beschreibt, einschließlich Position und Impuls."
+      ],
+      "correct_answer": "D",
+      "explanation": "Der Phasenraum ist ein Konzept in der statistischen Mechanik, das alle möglichen Zustände eines Systems erfasst, indem er sowohl die Position als auch den Impuls der Teilchen berücksichtigt. Dies ist entscheidend für die Analyse und das Verständnis von thermodynamischen und kinetischen Eigenschaften von Systemen.",
+      "difficulty": 5,
+      "subcategory": "Klassische Ensembles: Phasenraum & Verteilungsfunktion"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Das Deuteron",
+      "question": "Welcher der folgenden Prozesse ist typisch für die Wechselwirkung eines Deuterons mit einem Proton bei niedrigen Energien?",
+      "choices": [
+        "A: Deuteron-Transfer-Reaktion",
+        "B: Betazerfall",
+        "C: Elektroneneinfang",
+        "D: Neutroneneinfang"
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Deuteron-Transfer-Reaktion ist ein charakteristischer Prozess, bei dem das Deuteron in Wechselwirkung mit einem Proton tritt, typischerweise bei niedrigen Energien. Diese Reaktionen sind relevant für die Kernfusion und die Struktur von Atomkernen.",
+      "difficulty": 10,
+      "subcategory": "Das Deuteron"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "BCS-Grundzustand",
+      "question": "Welches der folgenden Konzepte ist entscheidend für das Verständnis des BCS-Grundzustands in Supraleitern?",
+      "choices": [
+        "A: Entropie-Zunahme",
+        "B: Cooper-Paare",
+        "C: Photon-Energie",
+        "D: Lorentz-Kraft"
+      ],
+      "correct_answer": "B",
+      "explanation": "Im BCS-Theorie bilden Elektronen bei tiefen Temperaturen Cooper-Paare, die ein kondensiertes Zustand erzeugen, was zur Supraleitung führt. Dies ist das zentrale Konzept für das Verständnis des BCS-Grundzustands und unterscheidet sich deutlich von anderen physikalischen Phänomenen.",
+      "difficulty": 8,
+      "subcategory": "BCS-Grundzustand"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Zustandsgleichungen (Überblick)",
+      "question": "Welche der folgenden Zustandsgleichungen beschreibt das Verhalten eines idealen Gases?",
+      "choices": [
+        "A: F = ma",
+        "B: pV = mgh",
+        "C: E = mc²",
+        "D: pV = nRT"
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Zustandsgleichung pV = nRT beschreibt das Verhalten idealer Gase, wobei p der Druck, V das Volumen, n die Anzahl der Mol, R die universelle Gaskonstante und T die Temperatur in Kelvin ist. Die anderen Optionen beziehen sich auf unterschiedliche physikalische Konzepte.",
+      "difficulty": 3,
+      "subcategory": "Zustandsgleichungen (Überblick)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Clebsch–Gordan-Koeffizienten",
+      "question": "Was beschreiben die Clebsch–Gordan-Koeffizienten in der Quantenmechanik?",
+      "choices": [
+        "A: Die Lichtbrechung an einer Grenzfläche.",
+        "B: Die Energieverteilung in einem thermischen System.",
+        "C: Die Kombination von zwei Spins zu einem Gesamtdrehimpuls.",
+        "D: Die Bewegung von Teilchen in einem elektrischen Feld."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Clebsch–Gordan-Koeffizienten sind mathematische Faktoren, die verwendet werden, um die Zustände von zwei quantenmechanischen Systemen zu kombinieren, insbesondere um die Gesamtspin-Zustände zu bestimmen. Sie spielen eine entscheidende Rolle bei der Addition von Drehimpulsen in der Quantenmechanik.",
+      "difficulty": 3,
+      "subcategory": "Clebsch–Gordan-Koeffizienten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Reibung in der Lagrange-Formulierung",
+      "question": "Wie wird die Reibung in der Lagrange-Formulierung eines mechanischen Systems berücksichtigt?",
+      "choices": [
+        "A: Indem man die Reibung in die kinetische Energie des Systems integriert.",
+        "B: Durch Hinzufügen eines zusätzlichen Terms in der Lagrange-Funktion, der der Reibung entgegenwirkt.",
+        "C: Durch die Anwendung des D'Alembertschen Prinzips, welches die Reibung als äußere Kraft behandelt.",
+        "D: Durch die Einführung von virtuellen Arbeit, die von der Reibung verrichtet wird."
+      ],
+      "correct_answer": "C",
+      "explanation": "In der Lagrange-Formulierung wird die Reibung in der Regel durch das D'Alembertsche Prinzip berücksichtigt, bei dem die Reibung als äußere Kraft behandelt wird, die die Gesamtheit der dynamischen Gleichungen beeinflusst. Diese Herangehensweise ermöglicht eine korrekte Formulierung der Bewegungsgleichungen unter Berücksichtigung von dissipativen Kräften wie der Reibung.",
+      "difficulty": 9,
+      "subcategory": "Reibung in der Lagrange-Formulierung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Plancksche Strahlungsformel",
+      "question": "Was beschreibt die Plancksche Strahlungsformel?",
+      "choices": [
+        "A: Die Geschwindigkeit von Licht in verschiedenen Medien.",
+        "B: Die Verteilung der Energie über verschiedene Frequenzen einer schwarzen Körperstrahlung.",
+        "C: Die Brechung von Licht beim Übergang zwischen zwei Medien.",
+        "D: Die Reflexion von Licht an einer Oberfläche."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Plancksche Strahlungsformel beschreibt, wie die Energie eines idealen schwarzen Körpers in Abhängigkeit von der Frequenz verteilt ist. Sie zeigt, dass die Energiequanten proportional zur Frequenz sind, was eine grundlegende Erkenntnis der Quantenmechanik darstellt.",
+      "difficulty": 4,
+      "subcategory": "Plancksche Strahlungsformel"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Leerstellen",
+      "question": "Was sind Leerstellen in einem Kristallgitter?",
+      "choices": [
+        "A: Atome, die sich in einem anderen Material befinden",
+        "B: Fehlende Atome oder Ionen im Gitter",
+        "C: Atome, die sich in einer falschen Position befinden",
+        "D: Überflüssige Atome oder Ionen im Gitter"
+      ],
+      "correct_answer": "B",
+      "explanation": "Leerstellen sind Punkte in einem Kristallgitter, an denen ein Atom oder Ion fehlt. Sie spielen eine wichtige Rolle bei der Diffusion und den mechanischen Eigenschaften von Materialien.",
+      "difficulty": 4,
+      "subcategory": "Leerstellen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Uneigentliche (Dirac-)Vektoren",
+      "question": "Welche Aussage über uneigentliche (Dirac-)Vektoren in der Quantenmechanik ist korrekt?",
+      "choices": [
+        "A: Uneigentliche Vektoren sind immer orthogonal zueinander.",
+        "B: Uneigentliche Vektoren erlauben die Beschreibung von Zuständen mit unbestimmtem Norm.",
+        "C: Uneigentliche Vektoren können nicht zur Berechnung von beobachtbaren Größen verwendet werden.",
+        "D: Uneigentliche Vektoren sind nur im klassischen Kontext definiert."
+      ],
+      "correct_answer": "B",
+      "explanation": "Uneigentliche (Dirac-)Vektoren sind ein fundamentales Konzept in der Quantenmechanik, das es ermöglicht, Zustände mit unbestimmter Norm zu beschreiben, insbesondere für Teilchen mit negativen Energien oder nicht-normalisierbaren Zuständen. Diese Vektoren sind besonders nützlich in der Quantenfeldtheorie und der Beschreibung von Verhältnissen zwischen Zuständen in Hilberträumen.",
+      "difficulty": 8,
+      "subcategory": "Uneigentliche (Dirac-)Vektoren"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Welle-Teilchen-Dualismus (Licht)",
+      "question": "Welches Experiment zeigt die Welle-Teilchen-Dualität von Licht?",
+      "choices": [
+        "A: Newtonsche Ringe",
+        "B: Photoelektrischer Effekt",
+        "C: Brechung von Licht",
+        "D: Doppelspaltexperiment"
+      ],
+      "correct_answer": "D",
+      "explanation": "Das Doppelspaltexperiment veranschaulicht, wie Licht sowohl Wellen- als auch Teilchencharakter zeigen kann. Bei diesem Experiment erzeugt Licht Interferenzmuster, die typisch für Wellen sind, während es bei der Messung von einzelnen Photonen zeigt, dass es sich auch wie Teilchen verhält.",
+      "difficulty": 5,
+      "subcategory": "Welle-Teilchen-Dualismus (Licht)"
+    }
+  ]
+}
