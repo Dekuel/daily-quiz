@@ -1,105 +1,104 @@
 {
   "date": "2025-12-05",
-  "generated_at": "2025-12-05T09:33:11Z",
+  "generated_at": "2025-12-05T10:05:13Z",
   "schema_version": 6,
   "mode": "schwer",
   "questions": [
     {
+      "question": "Who is the current President of the United States?",
+      "choices": [
+        "B. Donald Trump",
+        "C. Barack Obama",
+        "What does a person's creditworthiness measure in relation to loans?"
+      ],
+      "correct_answer": "A",
+      "difficulty": 1,
+      "category": "politics",
+      "explanation": "A. Joe Biden"
+    },
+    {
+      "question": "A: The amount of interest on savings accounts",
+      "category": "Wirtschaft & Finanzen",
+      "subcategory": "Schufa & Bonität",
+      "difficulty": 6,
+      "choices": [
+        "C: The amount of the account balance",
+        "D: The payment behavior and creditworthiness",
+        "Which statement about scoring in badminton is correct?",
+        "In badminton, a player wins a set by scoring 21 points, unless the score reaches 20:20. In this case, the player must win by two points to ensure that a set does not end in a tie."
+      ],
+      "correct_answer": "D",
+      "explanation": "B: The number of credit cards"
+    },
+    {
       "category": "Sport",
       "topic": "Sonstige",
-      "question": "Which of the following rowing boat classes is not part of the Olympic disciplines?",
+      "question": "A: During a serve, the player can only play the shuttlecock with one hand.",
       "choices": [
-        "A: Coxless Four",
-        "B: Eight",
-        "C: Quadruple Scull",
-        "D: Double Scull"
+        "C: A game is played up to 21 points, but the player must always serve when possible.",
+        "D: In a 20:20 situation, the score can be extended up to 30 points without a player needing to win.",
+        "Which of the following terms refers specifically to the practice of adapting foreign words into a language to fit its phonetic and grammatical norms?",
+        "Germanization is a German term that signifies the process of making foreign words conform to German phonetics and grammar. This practice is often discussed in the context of language policy and purism, which focus on language preservation and the debate surrounding foreign influences."
       ],
-      "correct_answer": "C",
-      "explanation": "The Quadruple Scull is a popular rowing boat class, but it is not part of the Olympic competitions. The other mentioned boat classes, on the other hand, are part of the Olympic program and are contested at the Games.",
-      "difficulty": 9
+      "correct_answer": "B",
+      "explanation": "B: A set is won when a player reaches 21 points, unless the score is 20:20, then a player must win by two points.",
+      "difficulty": 6
     },
     {
       "category": "Language",
-      "topic": "Grammar",
-      "question": "Which of the following sentences correctly uses a separable prefix verb?",
+      "topic": "Etymology",
+      "question": "A: Germanization",
       "choices": [
-        "A: She is looking forward to the party.",
-        "B: He is understanding the lesson.",
-        "C: They are giving up on their project.",
-        "D: I am enjoying the book."
+        "C: Purism",
+        "D: Loanword",
+        "Which hormone plays a crucial role in regulating glucose metabolism and is produced by the beta cells of the pancreas?",
+        "Insulin is the main actor in lowering blood sugar levels by promoting the uptake of glucose into cells. Glucagon, on the other hand, raises blood sugar levels by stimulating the release of glucose from the liver. Cortisol and adrenaline have other functions in metabolism."
       ],
-      "correct_answer": "C",
-      "explanation": "In the sentence 'They are giving up on their project,' 'giving up' is a separable prefix verb where 'up' can stand alone. The other options use non-separable or different types of verb constructions.",
+      "correct_answer": "A",
+      "explanation": "B: Language policy",
       "difficulty": 5
-    },
-    {
-      "category": "Technologie",
-      "topic": "Technik-Geschichte",
-      "question": "Which protocol is primarily responsible for the transmission of web pages on the Internet?",
-      "choices": [
-        "A: FTP",
-        "B: SMTP",
-        "C: SNMP",
-        "D: HTTP"
-      ],
-      "correct_answer": "D",
-      "explanation": "The Hypertext Transfer Protocol (HTTP) is the fundamental protocol used for transmitting web pages and their content on the Internet. FTP (File Transfer Protocol) is used for file transfer, SMTP (Simple Mail Transfer Protocol) for email transmission, and SNMP (Simple Network Management Protocol) for network monitoring.",
-      "difficulty": 9
-    },
-    {
-      "category": "Glaube & Religion",
-      "topic": "Monotheistische Religionen",
-      "question": "Which of the following concepts best describes the image of God in monotheism?",
-      "choices": [
-        "A: An abstract principle that does not intervene in world events.",
-        "B: A multitude of gods controlling different aspects of life.",
-        "C: A personal God who actively directs the world and intervenes in people's lives.",
-        "D: A God described only in certain sacred texts."
-      ],
-      "correct_answer": "C",
-      "explanation": "In monotheism, God is often understood as a personal being who actively intervenes in the lives of believers and directs the world. This differs from polytheistic or pantheistic views, where gods are often specialized or do not directly intervene in world events.",
-      "difficulty": 5
-    },
-    {
-      "category": "Natur",
-      "topic": "Pflanzenwelt",
-      "question": "Which of the following plant species is typically a shade plant that grows in the lower layers of a deciduous forest?",
-      "choices": [
-        "A: Spruce",
-        "B: Oak",
-        "C: Pine",
-        "D: Ferns"
-      ],
-      "correct_answer": "D",
-      "explanation": "Ferns are adapted to shady conditions and are commonly found in the undergrowth of deciduous forests. In contrast, spruce and pine are light-demanding tree species, while oak is a light plant that grows in higher layers.",
-      "difficulty": 7
     },
     {
       "category": "Wissenschaft",
-      "topic": "Biologie",
-      "question": "Which of the following genes is crucial for the development of male sex in mammals?",
+      "topic": "Medizin",
+      "question": "A: Cortisol",
       "choices": [
-        "A: FOXL2",
-        "B: SRY",
-        "C: SOX2",
-        "D: DAX1"
+        "C: Glucagon",
+        "D: Insulin",
+        "What is the minimum speed that an electric car should maintain on the highway in Germany?",
+        "A: 120 km/h"
       ],
-      "correct_answer": "B",
-      "explanation": "The SRY gene (Sex-determining Region Y) is crucial for the formation of male reproductive organs and the development of a male phenotype in mammals. It activates other genes that are important for male differentiation.",
+      "correct_answer": "D",
+      "explanation": "B: Adrenaline",
       "difficulty": 10
     },
     {
-      "question": "What is the vehicle tax for a car with an engine capacity of 1,800 cc and a CO2 emission of 150 g/km per year?",
+      "question": "B: 100 km/h",
       "category": "Alltag & Gesellschaft",
-      "subcategory": "Versicherungen & KFZ-Steuer",
-      "difficulty": 8,
-      "options": {
-        "A": "180 Euro",
-        "B": "250 Euro",
-        "C": "320 Euro",
-        "D": "400 Euro"
-      },
-      "correct_answer": "B"
+      "subcategory": "E-Mobilität & Elektroautos",
+      "difficulty": 6,
+      "choices": [
+        "D: 80 km/h",
+        "Which of the following features is typical of Baroque music, especially regarding the use of the basso continuo?",
+        "In the Baroque period, the basso continuo is used as an essential harmonic foundation that underlies the performance of melodies through accompanying voices and embellishments. This technique allows for a rich musical texture and contributes to the affective doctrine of the Baroque, which emphasizes the emotions of the music.",
+        "A: The use of the basso continuo in the Baroque is characterized by monody, without any harmony."
+      ],
+      "correct_answer": "D",
+      "explanation": "C: 60 km/h"
+    },
+    {
+      "category": "Kunst und Literatur",
+      "topic": "Musikgeschichte & Epochen",
+      "question": "B: The basso continuo is used in Baroque only in vocal music, not in instrumental works.",
+      "choices": [
+        "D: The basso continuo is used as a harmonic foundation complemented by chords and melodic embellishments.",
+        "B: Der Generalbass wird im Barock nur in der Vokalmusik verwendet, nicht in instrumentalen Werken.",
+        "C: Es wird ausschließlich auf die polyphone Struktur ohne harmonische Begleitung gesetzt.",
+        "D: Der Generalbass wird als harmonische Grundlage genutzt, die durch Chordarien und melodische Verzierung ergänzt wird."
+      ],
+      "correct_answer": "D",
+      "explanation": "C: It focuses solely on polyphonic structure without harmonic accompaniment.",
+      "difficulty": 10
     }
   ]
 }

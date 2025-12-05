@@ -1,50 +1,35 @@
 {
   "date": "2025-12-05",
-  "generated_at": "2025-12-05T09:32:59Z",
+  "generated_at": "2025-12-05T10:04:57Z",
   "schema_version": 6,
   "mode": "normal",
   "questions": [
     {
-      "category": "Essen und Trinken",
-      "topic": "Küche international",
-      "question": "Which of these dishes is a typical example of the fusion of Polynesian and American cuisine?",
+      "category": "Geographie",
+      "topic": "Gebirge, Inseln & Relief",
+      "question": "Which mountain range mainly stretches across the continent of Asia and is known for its high peaks, including the highest mountain in the world?",
       "choices": [
-        "A: Tacos",
-        "B: Poke",
-        "C: Sushi",
-        "D: Falafel"
-      ],
-      "correct_answer": "B",
-      "explanation": "Poke is a traditional dish from Hawaii that combines raw fish in cubes with various ingredients. It reflects the influences of Polynesian and American cuisine and is a good example of hybrid dishes from the Pacific region.",
-      "difficulty": 3
-    },
-    {
-      "category": "Wissenschaft",
-      "topic": "Medizin",
-      "question": "What is the main purpose of an electrocardiogram (EKG)?",
-      "choices": [
-        "A: Monitoring body temperature.",
-        "B: Measuring blood pressure.",
-        "C: Determining blood oxygen saturation.",
-        "D: Recording the electrical activity of the heart."
+        "A: Atlas Mountains",
+        "B: Alps",
+        "C: Rocky Mountains",
+        "D: Himalayas"
       ],
       "correct_answer": "D",
-      "explanation": "An electrocardiogram (EKG) records the electrical activity of the heart and helps diagnose heart rhythm disorders and other heart conditions. It is an important tool in cardiology.",
-      "difficulty": 5
+      "explanation": "The Himalayas is the highest mountain range in the world and spans across several Asian countries, including Nepal and Tibet. The most famous peak, Mount Everest, is part of this range.",
+      "difficulty": 4
     },
     {
-      "category": "Glaube & Religion",
-      "topic": "Klassische & nordische Mythologien",
-      "question": "Which of the following Egyptian gods is known as the god of the underworld?",
+      "question": "What is a key advantage of self-employment compared to being an employee?",
+      "category": "Alltag & Gesellschaft",
+      "subcategory": "Selbstständigkeit & Freelancing",
+      "difficulty": 6,
       "choices": [
-        "A: Osiris",
-        "B: Horus",
-        "C: Ra",
-        "D: Thoth"
+        "A: Flexibility in managing working hours",
+        "B: Entitlement to holiday pay",
+        "C: Higher social security",
+        "D: Guaranteed monthly salary"
       ],
-      "correct_answer": "A",
-      "explanation": "Osiris is the god of the underworld and resurrection in Egyptian mythology. He plays a central role in the belief in the afterlife and is often associated with death and rebirth.",
-      "difficulty": 3
+      "correct_answer": "A"
     },
     {
       "question": "Who is the current President of the United States?",
@@ -58,45 +43,60 @@
       "category": "politics"
     },
     {
-      "category": "Language",
-      "topic": "Foreign Languages",
-      "question": "What is the primary language spoken in Brazil?",
+      "category": "Technologie",
+      "topic": "Soziale Medien",
+      "question": "Which function allows users to save and view other users' posts later?",
       "choices": [
-        "A: Spanish",
-        "B: Portuguese",
-        "C: French",
-        "D: English"
+        "A: Follow",
+        "B: Save",
+        "C: Bookmark",
+        "D: Share"
       ],
       "correct_answer": "B",
-      "explanation": "The primary language spoken in Brazil is Portuguese, reflecting the country's colonial history. While Spanish is spoken in many other South American countries, Brazil stands out for its use of Portuguese.",
-      "difficulty": 4
-    },
-    {
-      "category": "Geographie",
-      "topic": "Hauptstädte",
-      "question": "Which capital city is closest to the geographical center of Europe?",
-      "choices": [
-        "A: Vienna",
-        "B: Brussels",
-        "C: Prague",
-        "D: Budapest"
-      ],
-      "correct_answer": "A",
-      "explanation": "Vienna is near the geographical center of Europe. Budapest, Brussels, and Prague are significant capitals but geographically farther from the center of Europe.",
+      "explanation": "The 'Save' function allows users to bookmark interesting posts on social media for easy retrieval later. This feature is particularly useful for storing content for future reference or sharing.",
       "difficulty": 3
     },
     {
-      "question": "Which of the following statements applies to job protection laws in Germany?",
-      "category": "Alltag & Gesellschaft",
-      "subcategory": "Kündigungsschutz & Abfindung",
-      "difficulty": 6,
-      "options": {
-        "A": "Der Kündigungsschutz gilt nur für Arbeitnehmer mit einem Arbeitsvertrag von mehr als 12 Monaten.",
-        "B": "Eine Kündigung ist immer ohne Angabe von Gründen möglich.",
-        "C": "Bei einer betriebsbedingten Kündigung muss der Arbeitgeber eine Abfindung von mindestens 5.000 Euro zahlen.",
-        "D": "Der Kündigungsschutz greift, wenn der Arbeitnehmer länger als 6 Monate im Unternehmen beschäftigt ist."
-      },
-      "correct_answer": "D"
+      "category": "Sport",
+      "topic": "Sonstige",
+      "question": "How many squares does a chessboard have?",
+      "choices": [
+        "A: 81",
+        "B: 64",
+        "C: 72",
+        "D: 100"
+      ],
+      "correct_answer": "B",
+      "explanation": "A chessboard consists of 8x8 squares, totaling 64 squares. This arrangement is characteristic of the game and enables strategic movements of the pieces.",
+      "difficulty": 3
+    },
+    {
+      "category": "Language",
+      "topic": "Grammar",
+      "question": "Which question corresponds to the accusative case in German?",
+      "choices": [
+        "A: Wen?",
+        "B: Wem?",
+        "C: Wessen?",
+        "D: Wer?"
+      ],
+      "correct_answer": "A",
+      "explanation": "The accusative case in German is used to ask about the direct object of a verb, represented by the question 'Wen?'. This corresponds to asking 'whom?' in English, identifying the correct case.",
+      "difficulty": 1
+    },
+    {
+      "category": "Natur",
+      "topic": "Tierwelt",
+      "question": "What function do air sacs serve in birds during flight?",
+      "choices": [
+        "A: They protect feathers from moisture.",
+        "B: They store oxygen and aid in flying.",
+        "C: They facilitate reproduction.",
+        "D: They act as thermal insulation."
+      ],
+      "correct_answer": "B",
+      "explanation": "Birds' air sacs play a crucial role in respiration and flight capability. They store oxygen and enable a continuous airflow through the lungs, enhancing flight efficiency.",
+      "difficulty": 3
     }
   ]
 }

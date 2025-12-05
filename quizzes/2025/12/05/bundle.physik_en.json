@@ -1,168 +1,168 @@
 {
   "date": "2025-12-05",
-  "generated_at": "2025-12-05T09:33:19Z",
+  "generated_at": "2025-12-05T10:05:21Z",
   "schema_version": 6,
   "mode": "physik",
   "questions": [
     {
       "category": "Physik",
-      "topic": "Statistische Mechanik",
-      "subtopic": "Tripelpunkt & Konvexität/ Konkavität freier Energien",
-      "question": "Which statement about the triple point of a substance is correct?",
+      "topic": "Quantenmechanik",
+      "subtopic": "Materiewellen (de Broglie-Idee)",
+      "question": "What does the de Broglie idea describe in quantum mechanics?",
       "choices": [
-        "A: The triple point is the point where all three phases of a substance are in thermodynamic equilibrium.",
-        "B: The triple point can only be observed in pure substances, not in mixtures.",
-        "C: At the triple point, the free energy for two phases is equal, and the third phase has higher energy.",
-        "D: The triple point is always at 0 degrees Celsius and 1 atm pressure."
+        "A: All particles always move at the speed of light.",
+        "B: Matter cannot be broken down into smallest parts.",
+        "C: Light consists solely of particles.",
+        "D: Matter has both particle and wave properties."
       ],
-      "correct_answer": "A",
-      "explanation": "The triple point is the state in which the three phases (solid, liquid, gas) of a substance exist simultaneously in equilibrium. This is a unique point in the phase diagram of a substance, specific to each substance and not bound to a particular temperature or pressure.",
-      "difficulty": 8,
-      "subcategory": "Tripelpunkt & Konvexität/ Konkavität freier Energien"
-    },
-    {
-      "category": "Physik",
-      "topic": "Thermodynamik",
-      "subtopic": "Absolute thermodynamische Temperaturskala",
-      "question": "What value is defined as the zero point of the absolute thermodynamic temperature scale?",
-      "choices": [
-        "A: -273.15 °C",
-        "B: 0 °C",
-        "C: 100 °C",
-        "D: 0 K"
-      ],
-      "correct_answer": "A",
-      "explanation": "The zero point of the absolute thermodynamic temperature scale is 0 K, which corresponds to -273.15 °C. This is the point where the thermal motion of particles theoretically ceases, minimizing the entropy of a system.",
-      "difficulty": 9,
-      "subcategory": "Absolute thermodynamische Temperaturskala"
-    },
-    {
-      "category": "Physik",
-      "topic": "Analytische Mechanik",
-      "subtopic": "Hamilton-Funktion (Hamiltonian)",
-      "question": "Which of the following statements describes the Hamiltonian function correctly?",
-      "choices": [
-        "A: It specifies the total energy of a system in terms of kinetic and potential energy.",
-        "B: It cannot be used to derive the equations of motion.",
-        "C: It describes the time evolution of a system through the Schrödinger equation.",
-        "D: It is defined only for non-conservative systems."
-      ],
-      "correct_answer": "A",
-      "explanation": "The Hamiltonian function, often referred to as Hamiltonian, is a central quantity in analytical mechanics that describes the total energy of a system. It plays a crucial role in formulating the equations of motion in Hamiltonian mechanics.",
-      "difficulty": 4,
-      "subcategory": "Hamilton-Funktion (Hamiltonian)"
+      "correct_answer": "D",
+      "explanation": "The de Broglie idea states that all matter, including electrons and other particles, possesses both particle and wave properties. This led to the development of the concept of matter waves, which plays a central role in quantum mechanics.",
+      "difficulty": 2,
+      "subcategory": "Materiewellen (de Broglie-Idee)"
     },
     {
       "category": "Physik",
       "topic": "Optik",
-      "subtopic": "Fraunhofersche Beugung (allgemein)",
-      "question": "What does Fraunhofer diffraction describe?",
+      "subtopic": "Schwarzer Strahler: Emissionsverhalten",
+      "question": "What describes the emission behavior of a blackbody?",
       "choices": [
-        "A: The diffraction of light waves around an obstacle at a large distance from the light source.",
-        "B: The absorption of light by various materials.",
-        "C: The reflection of light on a smooth surface.",
-        "D: The influence of temperature on light refraction."
+        "A: It emits the maximum amount of energy for any temperature.",
+        "B: It absorbs all incoming radiation without emitting.",
+        "C: It emits only infrared radiation.",
+        "D: It reflects most incoming light rays."
       ],
       "correct_answer": "A",
-      "explanation": "Fraunhofer diffraction describes the behavior of light waves when they pass through an obstacle or aperture and are diffracted in different directions. This typically occurs at large distances between the light source, obstacle, and the observation point.",
-      "difficulty": 3,
-      "subcategory": "Fraunhofersche Beugung (allgemein)"
-    },
-    {
-      "category": "Physik",
-      "topic": "Klassische Mechanik",
-      "subtopic": "Trägheitstensor & -ellipsoid",
-      "question": "Which of the following concepts describes the distribution of mass of a rigid body and its influence on rotational dynamics?",
-      "choices": [
-        "A: Gravitational field",
-        "B: Impulse transfer",
-        "C: Inertia tensor",
-        "D: Conservation of energy"
-      ],
-      "correct_answer": "C",
-      "explanation": "The inertia tensor is a mathematical representation that describes how the mass of a body is distributed and how this distribution affects its rotational motion. It plays a central role in the analysis of the rotational dynamics of rigid bodies.",
-      "difficulty": 6,
-      "subcategory": "Trägheitstensor & -ellipsoid"
-    },
-    {
-      "category": "Physik",
-      "topic": "Quantenmechanik",
-      "subtopic": "Beugung am Kristallgitter",
-      "question": "What describes the phenomenon of X-ray diffraction on crystal lattices?",
-      "choices": [
-        "A: The absorption of light by electrons in an atom.",
-        "B: The deflection of particles due to their mass.",
-        "C: The interference of waves reflected on the lattice planes.",
-        "D: The temperature dependence of electrical conductivity."
-      ],
-      "correct_answer": "C",
-      "explanation": "X-ray diffraction on crystal lattices is a result of wave interference. When X-rays hit the periodic lattice planes of a crystal, the reflected waves interfere, creating a characteristic pattern that can be used to determine the crystal structure.",
+      "explanation": "A blackbody is an ideal object that emits the maximum possible amount of radiation energy for any temperature. This property makes it important for understanding thermal radiation and Planck's radiation laws.",
       "difficulty": 4,
-      "subcategory": "Beugung am Kristallgitter"
+      "subcategory": "Schwarzer Strahler: Emissionsverhalten"
     },
     {
       "category": "Physik",
-      "topic": "Klassische Mechanik",
-      "subtopic": "Reibungsvakuummeter",
-      "question": "What does a friction vacuum gauge measure?",
+      "topic": "Festkörperphysik",
+      "subtopic": "Metalle und Isolatoren (Bandbild)",
+      "question": "Which of the following concepts best explains why metals are good electrical conductors while insulators are not?",
       "choices": [
-        "A: The density of liquids.",
-        "B: The temperature of gases.",
-        "C: The pressure in a vacuum.",
-        "D: The speed of an object."
+        "A: Metals have an empty valence band and an empty conduction band.",
+        "B: Metals have a fully occupied valence band.",
+        "C: In metals, the valence and conduction bands overlap.",
+        "D: Insulators always have a high electron density."
       ],
       "correct_answer": "C",
-      "explanation": "A friction vacuum gauge is a device that measures the pressure in a vacuum by utilizing the friction between an object and a moving surface. The readings provide information about the quality of the vacuum.",
-      "difficulty": 3,
-      "subcategory": "Reibungsvakuummeter"
+      "explanation": "Metals are good electrical conductors because their valence and conduction bands overlap, allowing electrons to move freely. In contrast, insulators have a fully occupied valence band and a distant conduction band, severely restricting electron movement.",
+      "difficulty": 8,
+      "subcategory": "Metalle und Isolatoren (Bandbild)"
     },
     {
       "category": "Physik",
       "topic": "Analytische Mechanik",
-      "subtopic": "Elemente der Variationsrechnung",
-      "question": "What does the calculus of variations describe in physics?",
+      "subtopic": "Separation der Variablen in HJ",
+      "question": "Which of the following statements correctly describes the separation of variables in the Hamilton-Jacobi equation?",
       "choices": [
-        "A: Determining the speed of light in a vacuum.",
-        "B: Analyzing wave functions in quantum mechanics.",
-        "C: Calculating temperature distributions in a body.",
-        "D: Searching for optimal trajectories for particles."
+        "A: The Hamilton-Jacobi equation is independent of the energy conditions of the system.",
+        "B: The separation of variables is only applicable to time-independent problems.",
+        "C: The method can only be applied to systems with a single degree of freedom.",
+        "D: The Hamilton-Jacobi equation enables the separation of time and space variables."
       ],
       "correct_answer": "D",
-      "explanation": "The calculus of variations is used in physics to find optimal solutions, such as the trajectory of particles that minimize or maximize a certain principle. It is an important tool in analytical mechanics and helps understand the motion of systems.",
-      "difficulty": 1,
-      "subcategory": "Elemente der Variationsrechnung"
-    },
-    {
-      "category": "Physik",
-      "topic": "Elektrodynamik",
-      "subtopic": "Randwertprobleme & Energie in Dielektrika",
-      "question": "Which of the following factors most strongly influences the energy of an electric field in a dielectric?",
-      "choices": [
-        "A: The thickness of the dielectric",
-        "B: The frequency of the applied electric field",
-        "C: The dielectric constant of the material",
-        "D: The temperature of the dielectric"
-      ],
-      "correct_answer": "C",
-      "explanation": "The dielectric constant (ε) is a measure of how much a material can influence electric fields. It determines the dielectric's ability to store energy and is therefore the crucial factor for the energy of an electric field in a dielectric.",
-      "difficulty": 8,
-      "subcategory": "Randwertprobleme & Energie in Dielektrika"
+      "explanation": "The Hamilton-Jacobi equation is a fundamental tool in analytical mechanics that allows for the separation of time and space variables. This separation helps break down complex problems into simpler, solvable parts, facilitating the analysis of particle motion.",
+      "difficulty": 5,
+      "subcategory": "Separation der Variablen in HJ"
     },
     {
       "category": "Physik",
       "topic": "Relativitätstheorie",
-      "subtopic": "Kovariante Formulierung der Elektrodynamik",
-      "question": "Which of the following statements correctly describes the covariant formulation of electrodynamics within the framework of relativity theory?",
+      "subtopic": "Inertialsysteme (Definition und Eigenschaften)",
+      "question": "What is an inertial frame of reference?",
       "choices": [
-        "A: The electromagnetic energy is kept constant regardless of the observer's velocity.",
-        "B: The Lorentz force is modified only for relativistic velocities and remains in its classical expression.",
-        "C: The covariant formulation ignores time dilation and treats time as an absolute quantity.",
-        "D: The Maxwell equations remain the same in every inertial system and are formulated in terms of four-dimensional vectors."
+        "A: A reference system in which a body without external forces remains at rest or moves uniformly in a straight line.",
+        "B: A reference system that exists only near large masses.",
+        "C: A reference system that is always in motion.",
+        "D: A reference system in which all bodies accelerate."
+      ],
+      "correct_answer": "A",
+      "explanation": "An inertial frame of reference is a reference system in which Newton's laws hold true. In such a system, a body on which no external forces act remains at rest or moves uniformly in a straight line.",
+      "difficulty": 3,
+      "subcategory": "Inertialsysteme (Definition und Eigenschaften)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Kinetische Gastheorie: Grundgleichungen",
+      "question": "What does the kinetic theory of gases primarily describe?",
+      "choices": [
+        "A: Interactions between electric charges.",
+        "B: Motion of particles in a gas.",
+        "C: Properties of light.",
+        "D: Structure of solid materials."
+      ],
+      "correct_answer": "B",
+      "explanation": "The kinetic theory of gases explains the behavior of gases through the motion of individual particles. It assumes that gas particles are in constant motion and undergo elastic collisions with each other.",
+      "difficulty": 2,
+      "subcategory": "Kinetische Gastheorie: Grundgleichungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Biot–Savart-Gesetz",
+      "question": "What does the Biot-Savart law describe?",
+      "choices": [
+        "A: The relationship between voltage and current in a resistor.",
+        "B: Interaction between electric charges.",
+        "C: The electric field strength generated by a point charge.",
+        "D: The magnetic field strength generated by a current-carrying conductor."
       ],
       "correct_answer": "D",
-      "explanation": "The covariant formulation of electrodynamics shows that the Maxwell equations are invariant under Lorentz transformations and uses four-dimensional vectors to describe the physical laws. This formulation is crucial for connecting electrodynamics with special relativity theory.",
-      "difficulty": 9,
-      "subcategory": "Kovariante Formulierung der Elektrodynamik"
+      "explanation": "The Biot-Savart law describes how an electric current in a conductor generates a magnetic field. It is used to calculate the magnetic field strength at a specific point in space around the conductor, based on the current and geometry of the conductor.",
+      "difficulty": 6,
+      "subcategory": "Biot–Savart-Gesetz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Wellengleichung und Lösungen",
+      "question": "Which of the following statements describes a solution of the wave equation for light waves?",
+      "choices": [
+        "A: Light waves can only exist in solid media.",
+        "B: Light waves can only propagate in a straight line.",
+        "C: Light waves have no frequency.",
+        "D: Light waves propagate in a vacuum at a constant speed."
+      ],
+      "correct_answer": "D",
+      "explanation": "The wave equation describes that light waves propagate in a vacuum at a constant speed, the speed of light. The other statements are incorrect as light waves also exist in a vacuum, have frequency, and can propagate not only in straight lines.",
+      "difficulty": 3,
+      "subcategory": "Wellengleichung und Lösungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Deformierte Kerne",
+      "question": "What does the term 'deformed nuclei' describe in nuclear physics?",
+      "choices": [
+        "A: Nuclei that have a non-spherical shape.",
+        "B: Nuclei that are always unstable.",
+        "C: Nuclei that have a higher mass than normal nuclei.",
+        "D: Nuclei that contain only one proton."
+      ],
+      "correct_answer": "A",
+      "explanation": "Deformed nuclei are nuclei that do not have the ideal spherical shape but are distorted by different forces and energies. This deformation can affect the properties of the nucleus, including its stability and reactivity.",
+      "difficulty": 2,
+      "subcategory": "Deformierte Kerne"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Potentiale & Hauptsätze der Gleichgewichtsthermodynamik",
+      "question": "Which statement about thermodynamic equilibrium is correct?",
+      "choices": [
+        "A: In thermodynamic equilibrium, temperature and pressure in a system are constant.",
+        "B: In thermodynamic equilibrium, the entropy of a system is always minimal.",
+        "C: In thermodynamic equilibrium, there is always a temperature difference.",
+        "D: In thermodynamic equilibrium, energy and matter can flow between systems."
+      ],
+      "correct_answer": "A",
+      "explanation": "In thermodynamic equilibrium, temperature and pressure in a system are actually constant. This means that there are no macroscopic flows of energy or matter within the entire system, and the properties of the system remain stable.",
+      "difficulty": 5,
+      "subcategory": "Potentiale & Hauptsätze der Gleichgewichtsthermodynamik"
     }
   ]
 }

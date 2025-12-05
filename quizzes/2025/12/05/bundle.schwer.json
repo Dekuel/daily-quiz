@@ -1,105 +1,104 @@
 {
   "date": "2025-12-05",
-  "generated_at": "2025-12-05T09:31:51Z",
+  "generated_at": "2025-12-05T10:03:36Z",
   "schema_version": 6,
   "mode": "schwer",
   "questions": [
     {
+      "category": "Politiker",
+      "discipline": "Org-Personen",
+      "question": "Wie heißt die amtierende oberste Amtsinhaberin der Organisation „OSZE“?",
+      "choices": [
+        "A: Antonio Guterres",
+        "B: Ivica Dačić",
+        "C: Ursula von der Leyen",
+        "D: Jens Stoltenberg"
+      ],
+      "correct_answer": "B",
+      "explanation": "OSZE: Sicherheit und Zusammenarbeit in Europa; Wahlbeobachtung & Konfliktprävention.",
+      "difficulty": 1
+    },
+    {
+      "question": "Was misst die Bonität einer Person in Bezug auf Kredite?",
+      "category": "Wirtschaft & Finanzen",
+      "subcategory": "Schufa & Bonität",
+      "difficulty": 6,
+      "choices": [
+        "A: Die Höhe der Zinsen auf Tagesgeldkonten",
+        "B: Die Anzahl der Kreditkarten",
+        "C: Die Höhe des Kontostands",
+        "D: Die Zahlungsmoral und Kreditwürdigkeit"
+      ],
+      "correct_answer": "D"
+    },
+    {
       "category": "Sport",
       "topic": "Sonstige",
-      "question": "Welche der folgenden Bootsklassen im Rudern gehört nicht zu den Olympischen Disziplinen?",
+      "question": "Welche Aussage zur Zählweise im Badminton ist korrekt?",
       "choices": [
-        "A: Vierer ohne Steuermann",
-        "B: Achter",
-        "C: Quadruple Scull",
-        "D: Doppelzweier"
+        "A: Bei einem Aufschlag darf der Spieler den Shuttlecock nur mit einer Hand spielen.",
+        "B: Ein Satz wird gewonnen, wenn ein Spieler 21 Punkte erreicht, es sei denn, der Punktestand ist 20:20, dann muss ein Spieler mit zwei Punkten Vorsprung gewinnen.",
+        "C: Ein Spiel wird bis 21 Punkte gespielt, der Spieler muss jedoch immer aufschlagen, wenn er die Möglichkeit hat.",
+        "D: Bei einem 20:20 kann der Punktestand bis zu 30 Punkten weitergespielt werden, ohne dass ein Spieler gewinnen muss."
       ],
-      "correct_answer": "C",
-      "explanation": "Der Quadruple Scull ist zwar eine populäre Bootsklasse im Rudern, jedoch gehört diese nicht zu den olympischen Wettbewerben. Die anderen genannten Bootsklassen sind dagegen Teil des Olympischen Programms und werden bei den Spielen ausgetragen.",
-      "difficulty": 9
+      "correct_answer": "B",
+      "explanation": "Im Badminton gewinnt ein Spieler einen Satz, indem er 21 Punkte erzielt, es sei denn, der Punktestand erreicht 20:20. In diesem Fall muss er mit zwei Punkten Vorsprung gewinnen. Damit wird sichergestellt, dass ein Satz nicht zu unentschieden endet.",
+      "difficulty": 6
     },
     {
       "category": "Sprache",
-      "topic": "Wortherkunft",
-      "question": "Welches Wort hat seinen Ursprung im lateinischen Wort 'cultura', was 'Bearbeitung' oder 'Pflege' bedeutet?",
+      "topic": "Fremdsprachen",
+      "question": "Was ist die korrekte Übersetzung des englischen Wortes 'apple' ins Deutsche?",
       "choices": [
-        "A: Kummer",
-        "B: Kultur",
-        "C: Klugheit",
-        "D: Klarheit"
+        "A: Apfel",
+        "B: Birne",
+        "C: Traube",
+        "D: Orange"
       ],
-      "correct_answer": "B",
-      "explanation": "Das Wort 'Kultur' leitet sich direkt vom lateinischen 'cultura' ab, welches auf die Pflege von Land oder das Bilden und Entwickeln von Dingen hinweist. Etymologie beschäftigt sich mit der Herkunft von Wörtern und deren Entwicklung im Laufe der Zeit.",
+      "correct_answer": "A",
+      "explanation": "'Apple' bedeutet auf Deutsch 'Apfel'. Es handelt sich um eine Frucht, die in vielen Kulturen verbreitet ist. Die anderen Optionen sind verschiedene Früchte, die jedoch nicht die Bedeutung des englischen Wortes wiedergeben.",
       "difficulty": 5
-    },
-    {
-      "category": "Technologie",
-      "topic": "Technik-Geschichte",
-      "question": "Welches Protokoll ist maßgeblich für die Übertragung von Webseiten im Internet verantwortlich?",
-      "choices": [
-        "A: FTP",
-        "B: SMTP",
-        "C: SNMP",
-        "D: HTTP"
-      ],
-      "correct_answer": "D",
-      "explanation": "Das Hypertext Transfer Protocol (HTTP) ist das grundlegende Protokoll, das für die Übertragung von Webseiten und deren Inhalten im Internet verwendet wird. FTP (File Transfer Protocol) wird für den Dateitransfer genutzt, SMTP (Simple Mail Transfer Protocol) für den Versand von E-Mails und SNMP (Simple Network Management Protocol) zur Netzwerküberwachung.",
-      "difficulty": 9
-    },
-    {
-      "category": "Glaube & Religion",
-      "topic": "Monotheistische Religionen",
-      "question": "Welches der folgenden Konzepte beschreibt am besten das Bild von Gott im Monotheismus?",
-      "choices": [
-        "A: Ein abstraktes Prinzip, das nicht in das Weltgeschehen eingreift.",
-        "B: Eine Vielzahl von Göttern, die verschiedene Aspekte des Lebens kontrollieren.",
-        "C: Ein persönlicher Gott, der die Welt aktiv lenkt und in das Leben der Menschen eingreift.",
-        "D: Ein Gott, der nur in bestimmten heiligen Schriften beschrieben wird."
-      ],
-      "correct_answer": "C",
-      "explanation": "Im Monotheismus wird Gott häufig als persönliches Wesen verstanden, das aktiv in das Leben der Gläubigen eingreift und die Welt lenkt. Dies unterscheidet sich von polytheistischen oder pantheistischen Auffassungen, bei denen Götter oft spezialisiert sind oder nicht direkt in das Weltgeschehen eingreifen.",
-      "difficulty": 5
-    },
-    {
-      "category": "Natur",
-      "topic": "Pflanzenwelt",
-      "question": "Welche der folgenden Pflanzenarten ist typischerweise eine Schattenpflanze, die in den unteren Schichten eines Laubwaldes wächst?",
-      "choices": [
-        "A: Fichte",
-        "B: Eiche",
-        "C: Kiefer",
-        "D: Farne"
-      ],
-      "correct_answer": "D",
-      "explanation": "Farne sind an schattige Bedingungen angepasst und finden sich häufig im Unterwuchs von Laubwäldern. Im Gegensatz dazu sind Fichte und Kiefer Lichtbaumarten, während die Eiche eine Lichtpflanze ist, die in höheren Schichten wächst.",
-      "difficulty": 7
     },
     {
       "category": "Wissenschaft",
-      "topic": "Biologie",
-      "question": "Welches der folgenden Gene ist entscheidend für die Entwicklung des männlichen Geschlechts bei Säugetieren?",
+      "topic": "Medizin",
+      "question": "Welches Hormon spielt eine entscheidende Rolle bei der Regulation des Glukosestoffwechsels und wird von den beta-Zellen der Bauchspeicheldrüse produziert?",
       "choices": [
-        "A: FOXL2",
-        "B: SRY",
-        "C: SOX2",
-        "D: DAX1"
+        "A: Cortisol",
+        "B: Adrenalin",
+        "C: Glukagon",
+        "D: Insulin"
       ],
-      "correct_answer": "B",
-      "explanation": "Das SRY-Gen (Sex-determining Region Y) ist entscheidend für die Bildung der männlichen Geschlechtsorgane und die Entwicklung zu einem männlichen Phänotyp bei Säugetieren. Es aktiviert andere Gene, die für die männliche Differenzierung wichtig sind.",
+      "correct_answer": "D",
+      "explanation": "Insulin ist das Hauptakteur bei der Senkung des Blutzuckerspiegels, indem es die Aufnahme von Glukose in die Zellen fördert. Glukagon hingegen erhöht den Blutzuckerspiegel, indem es die Freisetzung von Glukose aus der Leber stimuliert. Cortisol und Adrenalin haben andere Funktionen im Stoffwechsel.",
       "difficulty": 10
     },
     {
-      "question": "Wie hoch ist die KFZ-Steuer für ein Auto mit einem Hubraum von 1.800 ccm und einem CO2-Ausstoß von 150 g/km pro Jahr?",
+      "question": "Welche Mindestgeschwindigkeit sollte ein Elektroauto auf der Autobahn in Deutschland einhalten?",
       "category": "Alltag & Gesellschaft",
-      "subcategory": "Versicherungen & KFZ-Steuer",
-      "difficulty": 8,
-      "options": {
-        "A": "180 Euro",
-        "B": "250 Euro",
-        "C": "320 Euro",
-        "D": "400 Euro"
-      },
-      "correct_answer": "B"
+      "subcategory": "E-Mobilität & Elektroautos",
+      "difficulty": 6,
+      "choices": [
+        "A: 120 km/h",
+        "B: 100 km/h",
+        "C: 60 km/h",
+        "D: 80 km/h"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "category": "Kunst und Literatur",
+      "topic": "Musikgeschichte & Epochen",
+      "question": "Welches der folgenden Merkmale ist typisch für die Musik des Barockzeitalters, insbesondere im Hinblick auf die Verwendung des Generalbasses?",
+      "choices": [
+        "A: Die Verwendung des Generalbasses ist im Barock durch Monodie geprägt, ohne jegliche Harmonie.",
+        "B: Der Generalbass wird im Barock nur in der Vokalmusik verwendet, nicht in instrumentalen Werken.",
+        "C: Es wird ausschließlich auf die polyphone Struktur ohne harmonische Begleitung gesetzt.",
+        "D: Der Generalbass wird als harmonische Grundlage genutzt, die durch Chordarien und melodische Verzierung ergänzt wird."
+      ],
+      "correct_answer": "D",
+      "explanation": "Im Barock wird der Generalbass als essentielle harmonische Grundlage verwendet, die der Aufführung von Melodien durch Begleitstimmen und Verzierungen zugrunde liegt. Diese Technik ermöglicht eine reiche musikalische Textur und trägt zur Affektenlehre des Barock bei, die die Emotionen der Musik betont.",
+      "difficulty": 10
     }
   ]
 }

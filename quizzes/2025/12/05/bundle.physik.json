@@ -1,168 +1,168 @@
 {
   "date": "2025-12-05",
-  "generated_at": "2025-12-05T09:32:50Z",
+  "generated_at": "2025-12-05T10:04:47Z",
   "schema_version": 6,
   "mode": "physik",
   "questions": [
     {
       "category": "Physik",
-      "topic": "Statistische Mechanik",
-      "subtopic": "Tripelpunkt & Konvexität/ Konkavität freier Energien",
-      "question": "Welche Aussage über den Tripelpunkt einer Substanz ist korrekt?",
+      "topic": "Quantenmechanik",
+      "subtopic": "Materiewellen (de Broglie-Idee)",
+      "question": "Was beschreibt die de Broglie-Idee in der Quantenmechanik?",
       "choices": [
-        "A: Der Tripelpunkt ist der Punkt, an dem alle drei Phasen einer Substanz in thermodynamischem Gleichgewicht sind.",
-        "B: Der Tripelpunkt kann nur bei reinen Substanzen beobachtet werden, nicht bei Mischungen.",
-        "C: Am Tripelpunkt ist die freie Energie für zwei Phasen gleich und die dritte Phase hat eine höhere Energie.",
-        "D: Der Tripelpunkt ist immer bei 0 Grad Celsius und 1 atm Druck."
+        "A: Alle Teilchen bewegen sich immer mit Lichtgeschwindigkeit.",
+        "B: Materie kann nicht in kleinste Teile zerlegt werden.",
+        "C: Licht besteht ausschließlich aus Teilchen.",
+        "D: Materie hat sowohl Teilchen- als auch Welleneigenschaften."
       ],
-      "correct_answer": "A",
-      "explanation": "Der Tripelpunkt ist der Zustand, in dem die drei Phasen (fest, flüssig, gasförmig) einer Substanz gleichzeitig im Gleichgewicht existieren. Dies ist ein einzigartiger Punkt in der Phasendiagramm einer Substanz, der spezifisch für jede Substanz ist und nicht an eine bestimmte Temperatur oder Druck gebunden ist.",
-      "difficulty": 8,
-      "subcategory": "Tripelpunkt & Konvexität/ Konkavität freier Energien"
-    },
-    {
-      "category": "Physik",
-      "topic": "Thermodynamik",
-      "subtopic": "Absolute thermodynamische Temperaturskala",
-      "question": "Welcher Betrag wird als Nullpunkt der absoluten thermodynamischen Temperaturskala definiert?",
-      "choices": [
-        "A: -273,15 °C",
-        "B: 0 °C",
-        "C: 100 °C",
-        "D: 0 K"
-      ],
-      "correct_answer": "A",
-      "explanation": "Der Nullpunkt der absoluten thermodynamischen Temperaturskala ist 0 K, was -273,15 °C entspricht. Dies ist der Punkt, an dem die thermische Bewegung der Teilchen theoretisch zum Stillstand kommt und damit die Entropie eines Systems minimal ist.",
-      "difficulty": 9,
-      "subcategory": "Absolute thermodynamische Temperaturskala"
-    },
-    {
-      "category": "Physik",
-      "topic": "Analytische Mechanik",
-      "subtopic": "Hamilton-Funktion (Hamiltonian)",
-      "question": "Welche der folgenden Aussagen beschreibt die Hamilton-Funktion korrekt?",
-      "choices": [
-        "A: Sie gibt die Gesamtenergie eines Systems in Form von kinetischer und potentieller Energie an.",
-        "B: Sie kann nicht zur Ableitung der Bewegungsgleichungen verwendet werden.",
-        "C: Sie beschreibt die Zeitentwicklung eines Systems über die Schrödinger-Gleichung.",
-        "D: Sie ist nur für nicht-konservative Systeme definiert."
-      ],
-      "correct_answer": "A",
-      "explanation": "Die Hamilton-Funktion, oft als Hamiltonian bezeichnet, ist eine zentrale Größe in der analytischen Mechanik, die die Gesamtenergie eines Systems beschreibt. Sie spielt eine wichtige Rolle bei der Formulierung der Bewegungsgleichungen in der Hamiltonschen Mechanik.",
-      "difficulty": 4,
-      "subcategory": "Hamilton-Funktion (Hamiltonian)"
+      "correct_answer": "D",
+      "explanation": "Die de Broglie-Idee besagt, dass alle Materie, einschließlich Elektronen und anderer Teilchen, sowohl Teilchen- als auch Welleneigenschaften besitzt. Dies führte zur Entwicklung des Konzepts der Materiewellen, das eine zentrale Rolle in der Quantenmechanik spielt.",
+      "difficulty": 2,
+      "subcategory": "Materiewellen (de Broglie-Idee)"
     },
     {
       "category": "Physik",
       "topic": "Optik",
-      "subtopic": "Fraunhofersche Beugung (allgemein)",
-      "question": "Was beschreibt die Fraunhofersche Beugung?",
+      "subtopic": "Schwarzer Strahler: Emissionsverhalten",
+      "question": "Was beschreibt das Emissionsverhalten eines schwarzen Strahlers?",
       "choices": [
-        "A: Die Beugung von Lichtwellen um ein Hindernis bei großer Entfernung zur Lichtquelle.",
-        "B: Die Absorption von Licht durch verschiedene Materialien.",
-        "C: Die Reflexion von Licht an einer glatten Oberfläche.",
-        "D: Den Einfluss von Temperatur auf die Lichtbrechung."
+        "A: Er strahlt die maximale Menge an Energie für jede Temperatur ab.",
+        "B: Er absorbiert alle einfallenden Strahlen, ohne zu emittieren.",
+        "C: Er emittiert nur Infrarotstrahlung.",
+        "D: Er reflektiert die meisten einfallenden Lichtstrahlen."
       ],
       "correct_answer": "A",
-      "explanation": "Die Fraunhofersche Beugung beschreibt das Verhalten von Lichtwellen, wenn sie an einem Hindernis oder durch eine Öffnung hindurchtreten und dabei in verschiedene Richtungen abgelenkt werden. Dies geschieht typischerweise bei großen Entfernungen zwischen Lichtquelle, Hindernis und dem Beobachtungspunkt.",
-      "difficulty": 3,
-      "subcategory": "Fraunhofersche Beugung (allgemein)"
-    },
-    {
-      "category": "Physik",
-      "topic": "Klassische Mechanik",
-      "subtopic": "Trägheitstensor & -ellipsoid",
-      "question": "Welches der folgenden Konzepte beschreibt die Verteilung der Masse eines starren Körpers und deren Einfluss auf die Rotationsdynamik?",
-      "choices": [
-        "A: Gravitationsfeld",
-        "B: Impulsübertragung",
-        "C: Trägheitstensor",
-        "D: Energieerhaltung"
-      ],
-      "correct_answer": "C",
-      "explanation": "Der Trägheitstensor ist eine mathematische Darstellung, die beschreibt, wie die Masse eines Körpers verteilt ist und wie diese Verteilung seine Rotationsbewegung beeinflusst. Er spielt eine zentrale Rolle in der Analyse der Rotationsdynamik von starren Körpern.",
-      "difficulty": 6,
-      "subcategory": "Trägheitstensor & -ellipsoid"
-    },
-    {
-      "category": "Physik",
-      "topic": "Quantenmechanik",
-      "subtopic": "Beugung am Kristallgitter",
-      "question": "Was beschreibt das Phänomen der Beugung von Röntgenstrahlen an Kristallgittern?",
-      "choices": [
-        "A: Die Absorption von Licht durch die Elektronen in einem Atom.",
-        "B: Die Ablenkung von Teilchen aufgrund ihrer Masse.",
-        "C: Die Interferenz von Wellen, die an den Gitterebenen reflektiert werden.",
-        "D: Die Temperaturabhängigkeit der elektrischen Leitfähigkeit."
-      ],
-      "correct_answer": "C",
-      "explanation": "Die Beugung von Röntgenstrahlen an Kristallgittern ist ein Ergebnis der Welleninterferenz. Wenn Röntgenstrahlen auf die periodischen Gitterebenen eines Kristalls treffen, interferieren die reflektierten Wellen und erzeugen ein charakteristisches Muster, das zur Bestimmung der Kristallstruktur verwendet werden kann.",
+      "explanation": "Ein schwarzer Strahler ist ein ideales Objekt, das für jede Temperatur die maximal mögliche Strahlungsenergie abgibt. Diese Eigenschaft macht ihn wichtig für das Verständnis der thermischen Strahlung und der Planckschen Strahlungsgesetze.",
       "difficulty": 4,
-      "subcategory": "Beugung am Kristallgitter"
+      "subcategory": "Schwarzer Strahler: Emissionsverhalten"
     },
     {
       "category": "Physik",
-      "topic": "Klassische Mechanik",
-      "subtopic": "Reibungsvakuummeter",
-      "question": "Was misst ein Reibungsvakuummeter?",
+      "topic": "Festkörperphysik",
+      "subtopic": "Metalle und Isolatoren (Bandbild)",
+      "question": "Welches der folgenden Konzepte erklärt am besten, warum Metalle gute elektrische Leiter sind, während Isolatoren dies nicht sind?",
       "choices": [
-        "A: Die Dichte von Flüssigkeiten.",
-        "B: Die Temperatur von Gase.",
-        "C: Den Druck in einem Vakuum.",
-        "D: Die Geschwindigkeit eines Objekts."
+        "A: Metalle haben ein leeres Valenzband und ein leeres Leitungsband.",
+        "B: Metalle haben ein voll besetztes Valenzband.",
+        "C: In Metallen sind die Valenzbänder und Leitungsbänder überlappend.",
+        "D: Isolatoren besitzen immer eine hohe Elektronendichte."
       ],
       "correct_answer": "C",
-      "explanation": "Ein Reibungsvakuummeter ist ein Gerät, das den Druck in einem Vakuum misst, indem es die Reibung zwischen einem Objekt und einer beweglichen Oberfläche nutzt. Die abgelesenen Werte geben Aufschluss über die Qualität des Vakuums.",
-      "difficulty": 3,
-      "subcategory": "Reibungsvakuummeter"
+      "explanation": "Metalle sind gute elektrische Leiter, weil ihre Valenz- und Leitungsbänder überlappen, was bedeutet, dass Elektronen sich frei bewegen können. Im Gegensatz dazu haben Isolatoren ein vollständig besetztes Valenzband und ein weit entferntes Leitungsband, was die Elektronenbewegung stark einschränkt.",
+      "difficulty": 8,
+      "subcategory": "Metalle und Isolatoren (Bandbild)"
     },
     {
       "category": "Physik",
       "topic": "Analytische Mechanik",
-      "subtopic": "Elemente der Variationsrechnung",
-      "question": "Was beschreibt die Variationsrechnung in der Physik?",
+      "subtopic": "Separation der Variablen in HJ",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt die Separation der Variablen in der Hamilton-Jacobi-Gleichung?",
       "choices": [
-        "A: Die Bestimmung der Lichtgeschwindigkeit im Vakuum.",
-        "B: Die Analyse von Wellenfunktionen in der Quantenmechanik.",
-        "C: Die Berechnung von Temperaturverteilungen in einem Körper.",
-        "D: Die Suche nach optimalen Bahnkurven für Teilchen."
+        "A: Die Hamilton-Jacobi-Gleichung ist unabhängig von den Energiebedingungen des Systems.",
+        "B: Die Separation der Variablen ist nur für zeitunabhängige Probleme anwendbar.",
+        "C: Die Methode kann nur für Systeme mit einer einzigen Freiheitsgrad angewendet werden.",
+        "D: Die Hamilton-Jacobi-Gleichung ermöglicht die Trennung der Zeit- und Raumvariablen."
       ],
       "correct_answer": "D",
-      "explanation": "Die Variationsrechnung wird in der Physik verwendet, um optimale Lösungen zu finden, wie beispielsweise die Bahnkurven von Teilchen, die ein bestimmtes Prinzip minimieren oder maximieren. Sie ist ein wichtiges Werkzeug in der analytischen Mechanik und hilft dabei, die Bewegung von Systemen zu verstehen.",
-      "difficulty": 1,
-      "subcategory": "Elemente der Variationsrechnung"
-    },
-    {
-      "category": "Physik",
-      "topic": "Elektrodynamik",
-      "subtopic": "Randwertprobleme & Energie in Dielektrika",
-      "question": "Welcher der folgenden Faktoren beeinflusst die Energie eines elektrischen Feldes in einem Dielektrikum am stärksten?",
-      "choices": [
-        "A: Die Dicke des Dielektrikums",
-        "B: Die Frequenz des angelegten elektrischen Feldes",
-        "C: Die Dielektrizitätskonstante des Materials",
-        "D: Die Temperatur des Dielektrikums"
-      ],
-      "correct_answer": "C",
-      "explanation": "Die Dielektrizitätskonstante (ε) ist ein Maß dafür, wie stark ein Material elektrische Felder beeinflussen kann. Sie bestimmt die Fähigkeit des Dielektrikums, Energie zu speichern und ist daher der entscheidende Faktor für die Energie eines elektrischen Feldes in einem Dielektrikum.",
-      "difficulty": 8,
-      "subcategory": "Randwertprobleme & Energie in Dielektrika"
+      "explanation": "Die Hamilton-Jacobi-Gleichung ist ein fundamentales Werkzeug in der analytischen Mechanik, das es ermöglicht, die Variablen der Zeit und des Raums zu trennen. Diese Trennung hilft, komplexe Probleme in einfachere, lösbare Teile zu zerlegen, was die Analyse der Bewegung von Teilchen erleichtert.",
+      "difficulty": 5,
+      "subcategory": "Separation der Variablen in HJ"
     },
     {
       "category": "Physik",
       "topic": "Relativitätstheorie",
-      "subtopic": "Kovariante Formulierung der Elektrodynamik",
-      "question": "Welche der folgenden Aussagen beschreibt korrekt die kovariante Formulierung der Elektrodynamik im Rahmen der Relativitätstheorie?",
+      "subtopic": "Inertialsysteme (Definition und Eigenschaften)",
+      "question": "Was ist ein Inertialsystem?",
       "choices": [
-        "A: Die elektromagnetische Energie wird unabhängig von der Geschwindigkeit des Beobachters konstant gehalten.",
-        "B: Die Lorentz-Kraft wird nur für relativistische Geschwindigkeiten modifiziert und bleibt in ihrem klassischen Ausdruck.",
-        "C: Die kovariante Formulierung ignoriert die Zeitdilatation und behandelt Zeit als eine absolute Größe.",
-        "D: Die Maxwell-Gleichungen bleiben in jeder Inertialsystem gleich und sind in Form von vierdimensionalen Vektoren formuliert."
+        "A: Ein Bezugssystem, in dem ein Körper ohne äußere Kräfte in Ruhe bleibt oder sich geradlinig gleichförmig bewegt.",
+        "B: Ein Bezugssystem, das nur in der Nähe von großen Massen existiert.",
+        "C: Ein Bezugssystem, das sich immer in Bewegung befindet.",
+        "D: Ein Bezugssystem, in dem alle Körper sich beschleunigen."
+      ],
+      "correct_answer": "A",
+      "explanation": "Ein Inertialsystem ist ein Bezugssystem, in dem die Newtonschen Gesetze gelten. In einem solchen System verhält sich ein Körper, auf den keine äußeren Kräfte wirken, entweder in Ruhe oder bewegt sich gleichmäßig geradlinig.",
+      "difficulty": 3,
+      "subcategory": "Inertialsysteme (Definition und Eigenschaften)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Kinetische Gastheorie: Grundgleichungen",
+      "question": "Was beschreibt die kinetische Gastheorie hauptsächlich?",
+      "choices": [
+        "A: Die Wechselwirkungen zwischen elektrischen Ladungen.",
+        "B: Die Bewegung von Teilchen in einem Gas.",
+        "C: Die Eigenschaften von Licht.",
+        "D: Die Struktur von festen Stoffen."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die kinetische Gastheorie erklärt das Verhalten von Gasen durch die Bewegung der einzelnen Teilchen. Sie geht davon aus, dass Gasteilchen sich in ständiger Bewegung befinden und dabei elastische Stöße miteinander haben.",
+      "difficulty": 2,
+      "subcategory": "Kinetische Gastheorie: Grundgleichungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Biot–Savart-Gesetz",
+      "question": "Was beschreibt das Biot–Savart-Gesetz?",
+      "choices": [
+        "A: Die Beziehung zwischen Spannung und Strom in einem Widerstand.",
+        "B: Die Wechselwirkung zwischen elektrischen Ladungen.",
+        "C: Die elektrische Feldstärke, die durch eine Punktladung erzeugt wird.",
+        "D: Die magnetische Feldstärke, die durch einen stromführenden Leiter erzeugt wird."
       ],
       "correct_answer": "D",
-      "explanation": "Die kovariante Formulierung der Elektrodynamik zeigt, dass die Maxwell-Gleichungen unter Lorentz-Transformationen invariant sind und nutzt vierdimensionale Vektoren, um die physikalischen Gesetze zu beschreiben. Diese Formulierung ist entscheidend, um die Elektrodynamik mit der speziellen Relativitätstheorie zu verbinden.",
-      "difficulty": 9,
-      "subcategory": "Kovariante Formulierung der Elektrodynamik"
+      "explanation": "Das Biot–Savart-Gesetz beschreibt, wie ein elektrischer Strom in einem Leiter ein magnetisches Feld erzeugt. Es wird verwendet, um die magnetische Feldstärke in einem bestimmten Punkt im Raum um den Leiter zu berechnen, basierend auf der Stromstärke und der Geometrie des Leiters.",
+      "difficulty": 6,
+      "subcategory": "Biot–Savart-Gesetz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Wellengleichung und Lösungen",
+      "question": "Welche der folgenden Aussagen beschreibt eine Lösung der Wellengleichung für Lichtwellen?",
+      "choices": [
+        "A: Lichtwellen können nur in festen Medien existieren.",
+        "B: Lichtwellen können nur in einem geraden Linienverlauf propagieren.",
+        "C: Lichtwellen haben keine Frequenz.",
+        "D: Lichtwellen breiten sich in einem Vakuum mit konstanter Geschwindigkeit aus."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Wellengleichung beschreibt, dass Lichtwellen sich im Vakuum mit einer konstanten Geschwindigkeit, der Lichtgeschwindigkeit, ausbreiten. Die anderen Aussagen sind nicht korrekt, da Lichtwellen auch in Vakuum existieren, Frequenz haben und nicht nur in geraden Linien verlaufen können.",
+      "difficulty": 3,
+      "subcategory": "Wellengleichung und Lösungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Deformierte Kerne",
+      "question": "Was beschreibt der Begriff 'deformierte Kerne' in der Kernphysik?",
+      "choices": [
+        "A: Kerne, die eine abweichende Form von der sphärischen haben.",
+        "B: Kerne, die immer instabil sind.",
+        "C: Kerne, die eine höhere Masse haben als normale Kerne.",
+        "D: Kerne, die nur einen Protonen enthalten."
+      ],
+      "correct_answer": "A",
+      "explanation": "Deformierte Kerne sind Kerne, die nicht die ideale sphärische Form haben, sondern durch unterschiedliche Kräfte und Energien verzerrt sind. Diese Deformation kann die Eigenschaften des Kerns, einschließlich seiner Stabilität und Reaktivität, beeinflussen.",
+      "difficulty": 2,
+      "subcategory": "Deformierte Kerne"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Potentiale & Hauptsätze der Gleichgewichtsthermodynamik",
+      "question": "Welche Aussage über das thermodynamische Gleichgewicht ist korrekt?",
+      "choices": [
+        "A: Im thermodynamischen Gleichgewicht sind Temperatur und Druck in einem System konstant.",
+        "B: Im thermodynamischen Gleichgewicht ist die Entropie eines Systems immer minimal.",
+        "C: Im thermodynamischen Gleichgewicht gibt es immer eine Temperaturdifferenz.",
+        "D: Im thermodynamischen Gleichgewicht können Energie und Materie zwischen den Systemen fließen."
+      ],
+      "correct_answer": "A",
+      "explanation": "Im thermodynamischen Gleichgewicht sind Temperatur und Druck in einem System tatsächlich konstant. Dies bedeutet, dass im gesamten System keine makroskopischen Flüsse von Energie oder Materie mehr stattfinden, und die Eigenschaften des Systems stabil bleiben.",
+      "difficulty": 5,
+      "subcategory": "Potentiale & Hauptsätze der Gleichgewichtsthermodynamik"
     }
   ]
 }
