@@ -1,168 +1,168 @@
 {
   "date": "2025-12-05",
-  "generated_at": "2025-12-05T03:50:12Z",
+  "generated_at": "2025-12-05T09:32:50Z",
   "schema_version": 6,
   "mode": "physik",
   "questions": [
     {
       "category": "Physik",
       "topic": "Statistische Mechanik",
-      "subtopic": "Klassische Ensembles: Phasenraum & Verteilungsfunktion",
-      "question": "Welche Aussage beschreibt am besten, was der Phasenraum in der statistischen Mechanik ist?",
+      "subtopic": "Tripelpunkt & Konvexität/ Konkavität freier Energien",
+      "question": "Welche Aussage über den Tripelpunkt einer Substanz ist korrekt?",
       "choices": [
-        "A: Der Phasenraum beschreibt ausschließlich die Energieverteilung eines Systems.",
-        "B: Der Phasenraum ist nur der Raum der Positionen von Teilchen in einem System.",
-        "C: Der Phasenraum ist irrelevant für die Analyse thermodynamischer Systeme.",
-        "D: Der Phasenraum ist der Raum, der alle möglichen Zustände eines Systems beschreibt, einschließlich Position und Impuls."
-      ],
-      "correct_answer": "D",
-      "explanation": "Der Phasenraum ist ein Konzept in der statistischen Mechanik, das alle möglichen Zustände eines Systems erfasst, indem er sowohl die Position als auch den Impuls der Teilchen berücksichtigt. Dies ist entscheidend für die Analyse und das Verständnis von thermodynamischen und kinetischen Eigenschaften von Systemen.",
-      "difficulty": 5,
-      "subcategory": "Klassische Ensembles: Phasenraum & Verteilungsfunktion"
-    },
-    {
-      "category": "Physik",
-      "topic": "Kern- und Teilchenphysik",
-      "subtopic": "Das Deuteron",
-      "question": "Welcher der folgenden Prozesse ist typisch für die Wechselwirkung eines Deuterons mit einem Proton bei niedrigen Energien?",
-      "choices": [
-        "A: Deuteron-Transfer-Reaktion",
-        "B: Betazerfall",
-        "C: Elektroneneinfang",
-        "D: Neutroneneinfang"
+        "A: Der Tripelpunkt ist der Punkt, an dem alle drei Phasen einer Substanz in thermodynamischem Gleichgewicht sind.",
+        "B: Der Tripelpunkt kann nur bei reinen Substanzen beobachtet werden, nicht bei Mischungen.",
+        "C: Am Tripelpunkt ist die freie Energie für zwei Phasen gleich und die dritte Phase hat eine höhere Energie.",
+        "D: Der Tripelpunkt ist immer bei 0 Grad Celsius und 1 atm Druck."
       ],
       "correct_answer": "A",
-      "explanation": "Die Deuteron-Transfer-Reaktion ist ein charakteristischer Prozess, bei dem das Deuteron in Wechselwirkung mit einem Proton tritt, typischerweise bei niedrigen Energien. Diese Reaktionen sind relevant für die Kernfusion und die Struktur von Atomkernen.",
-      "difficulty": 10,
-      "subcategory": "Das Deuteron"
-    },
-    {
-      "category": "Physik",
-      "topic": "Festkörperphysik",
-      "subtopic": "BCS-Grundzustand",
-      "question": "Welches der folgenden Konzepte ist entscheidend für das Verständnis des BCS-Grundzustands in Supraleitern?",
-      "choices": [
-        "A: Entropie-Zunahme",
-        "B: Cooper-Paare",
-        "C: Photon-Energie",
-        "D: Lorentz-Kraft"
-      ],
-      "correct_answer": "B",
-      "explanation": "Im BCS-Theorie bilden Elektronen bei tiefen Temperaturen Cooper-Paare, die ein kondensiertes Zustand erzeugen, was zur Supraleitung führt. Dies ist das zentrale Konzept für das Verständnis des BCS-Grundzustands und unterscheidet sich deutlich von anderen physikalischen Phänomenen.",
+      "explanation": "Der Tripelpunkt ist der Zustand, in dem die drei Phasen (fest, flüssig, gasförmig) einer Substanz gleichzeitig im Gleichgewicht existieren. Dies ist ein einzigartiger Punkt in der Phasendiagramm einer Substanz, der spezifisch für jede Substanz ist und nicht an eine bestimmte Temperatur oder Druck gebunden ist.",
       "difficulty": 8,
-      "subcategory": "BCS-Grundzustand"
+      "subcategory": "Tripelpunkt & Konvexität/ Konkavität freier Energien"
     },
     {
       "category": "Physik",
       "topic": "Thermodynamik",
-      "subtopic": "Zustandsgleichungen (Überblick)",
-      "question": "Welche der folgenden Zustandsgleichungen beschreibt das Verhalten eines idealen Gases?",
+      "subtopic": "Absolute thermodynamische Temperaturskala",
+      "question": "Welcher Betrag wird als Nullpunkt der absoluten thermodynamischen Temperaturskala definiert?",
       "choices": [
-        "A: F = ma",
-        "B: pV = mgh",
-        "C: E = mc²",
-        "D: pV = nRT"
+        "A: -273,15 °C",
+        "B: 0 °C",
+        "C: 100 °C",
+        "D: 0 K"
       ],
-      "correct_answer": "D",
-      "explanation": "Die Zustandsgleichung pV = nRT beschreibt das Verhalten idealer Gase, wobei p der Druck, V das Volumen, n die Anzahl der Mol, R die universelle Gaskonstante und T die Temperatur in Kelvin ist. Die anderen Optionen beziehen sich auf unterschiedliche physikalische Konzepte.",
-      "difficulty": 3,
-      "subcategory": "Zustandsgleichungen (Überblick)"
-    },
-    {
-      "category": "Physik",
-      "topic": "Quantenmechanik",
-      "subtopic": "Clebsch–Gordan-Koeffizienten",
-      "question": "Was beschreiben die Clebsch–Gordan-Koeffizienten in der Quantenmechanik?",
-      "choices": [
-        "A: Die Lichtbrechung an einer Grenzfläche.",
-        "B: Die Energieverteilung in einem thermischen System.",
-        "C: Die Kombination von zwei Spins zu einem Gesamtdrehimpuls.",
-        "D: Die Bewegung von Teilchen in einem elektrischen Feld."
-      ],
-      "correct_answer": "C",
-      "explanation": "Die Clebsch–Gordan-Koeffizienten sind mathematische Faktoren, die verwendet werden, um die Zustände von zwei quantenmechanischen Systemen zu kombinieren, insbesondere um die Gesamtspin-Zustände zu bestimmen. Sie spielen eine entscheidende Rolle bei der Addition von Drehimpulsen in der Quantenmechanik.",
-      "difficulty": 3,
-      "subcategory": "Clebsch–Gordan-Koeffizienten"
+      "correct_answer": "A",
+      "explanation": "Der Nullpunkt der absoluten thermodynamischen Temperaturskala ist 0 K, was -273,15 °C entspricht. Dies ist der Punkt, an dem die thermische Bewegung der Teilchen theoretisch zum Stillstand kommt und damit die Entropie eines Systems minimal ist.",
+      "difficulty": 9,
+      "subcategory": "Absolute thermodynamische Temperaturskala"
     },
     {
       "category": "Physik",
       "topic": "Analytische Mechanik",
-      "subtopic": "Reibung in der Lagrange-Formulierung",
-      "question": "Wie wird die Reibung in der Lagrange-Formulierung eines mechanischen Systems berücksichtigt?",
+      "subtopic": "Hamilton-Funktion (Hamiltonian)",
+      "question": "Welche der folgenden Aussagen beschreibt die Hamilton-Funktion korrekt?",
       "choices": [
-        "A: Indem man die Reibung in die kinetische Energie des Systems integriert.",
-        "B: Durch Hinzufügen eines zusätzlichen Terms in der Lagrange-Funktion, der der Reibung entgegenwirkt.",
-        "C: Durch die Anwendung des D'Alembertschen Prinzips, welches die Reibung als äußere Kraft behandelt.",
-        "D: Durch die Einführung von virtuellen Arbeit, die von der Reibung verrichtet wird."
+        "A: Sie gibt die Gesamtenergie eines Systems in Form von kinetischer und potentieller Energie an.",
+        "B: Sie kann nicht zur Ableitung der Bewegungsgleichungen verwendet werden.",
+        "C: Sie beschreibt die Zeitentwicklung eines Systems über die Schrödinger-Gleichung.",
+        "D: Sie ist nur für nicht-konservative Systeme definiert."
       ],
-      "correct_answer": "C",
-      "explanation": "In der Lagrange-Formulierung wird die Reibung in der Regel durch das D'Alembertsche Prinzip berücksichtigt, bei dem die Reibung als äußere Kraft behandelt wird, die die Gesamtheit der dynamischen Gleichungen beeinflusst. Diese Herangehensweise ermöglicht eine korrekte Formulierung der Bewegungsgleichungen unter Berücksichtigung von dissipativen Kräften wie der Reibung.",
-      "difficulty": 9,
-      "subcategory": "Reibung in der Lagrange-Formulierung"
+      "correct_answer": "A",
+      "explanation": "Die Hamilton-Funktion, oft als Hamiltonian bezeichnet, ist eine zentrale Größe in der analytischen Mechanik, die die Gesamtenergie eines Systems beschreibt. Sie spielt eine wichtige Rolle bei der Formulierung der Bewegungsgleichungen in der Hamiltonschen Mechanik.",
+      "difficulty": 4,
+      "subcategory": "Hamilton-Funktion (Hamiltonian)"
     },
     {
       "category": "Physik",
       "topic": "Optik",
-      "subtopic": "Plancksche Strahlungsformel",
-      "question": "Was beschreibt die Plancksche Strahlungsformel?",
+      "subtopic": "Fraunhofersche Beugung (allgemein)",
+      "question": "Was beschreibt die Fraunhofersche Beugung?",
       "choices": [
-        "A: Die Geschwindigkeit von Licht in verschiedenen Medien.",
-        "B: Die Verteilung der Energie über verschiedene Frequenzen einer schwarzen Körperstrahlung.",
-        "C: Die Brechung von Licht beim Übergang zwischen zwei Medien.",
-        "D: Die Reflexion von Licht an einer Oberfläche."
+        "A: Die Beugung von Lichtwellen um ein Hindernis bei großer Entfernung zur Lichtquelle.",
+        "B: Die Absorption von Licht durch verschiedene Materialien.",
+        "C: Die Reflexion von Licht an einer glatten Oberfläche.",
+        "D: Den Einfluss von Temperatur auf die Lichtbrechung."
       ],
-      "correct_answer": "B",
-      "explanation": "Die Plancksche Strahlungsformel beschreibt, wie die Energie eines idealen schwarzen Körpers in Abhängigkeit von der Frequenz verteilt ist. Sie zeigt, dass die Energiequanten proportional zur Frequenz sind, was eine grundlegende Erkenntnis der Quantenmechanik darstellt.",
-      "difficulty": 4,
-      "subcategory": "Plancksche Strahlungsformel"
+      "correct_answer": "A",
+      "explanation": "Die Fraunhofersche Beugung beschreibt das Verhalten von Lichtwellen, wenn sie an einem Hindernis oder durch eine Öffnung hindurchtreten und dabei in verschiedene Richtungen abgelenkt werden. Dies geschieht typischerweise bei großen Entfernungen zwischen Lichtquelle, Hindernis und dem Beobachtungspunkt.",
+      "difficulty": 3,
+      "subcategory": "Fraunhofersche Beugung (allgemein)"
     },
     {
       "category": "Physik",
-      "topic": "Festkörperphysik",
-      "subtopic": "Leerstellen",
-      "question": "Was sind Leerstellen in einem Kristallgitter?",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Trägheitstensor & -ellipsoid",
+      "question": "Welches der folgenden Konzepte beschreibt die Verteilung der Masse eines starren Körpers und deren Einfluss auf die Rotationsdynamik?",
       "choices": [
-        "A: Atome, die sich in einem anderen Material befinden",
-        "B: Fehlende Atome oder Ionen im Gitter",
-        "C: Atome, die sich in einer falschen Position befinden",
-        "D: Überflüssige Atome oder Ionen im Gitter"
+        "A: Gravitationsfeld",
+        "B: Impulsübertragung",
+        "C: Trägheitstensor",
+        "D: Energieerhaltung"
       ],
-      "correct_answer": "B",
-      "explanation": "Leerstellen sind Punkte in einem Kristallgitter, an denen ein Atom oder Ion fehlt. Sie spielen eine wichtige Rolle bei der Diffusion und den mechanischen Eigenschaften von Materialien.",
-      "difficulty": 4,
-      "subcategory": "Leerstellen"
+      "correct_answer": "C",
+      "explanation": "Der Trägheitstensor ist eine mathematische Darstellung, die beschreibt, wie die Masse eines Körpers verteilt ist und wie diese Verteilung seine Rotationsbewegung beeinflusst. Er spielt eine zentrale Rolle in der Analyse der Rotationsdynamik von starren Körpern.",
+      "difficulty": 6,
+      "subcategory": "Trägheitstensor & -ellipsoid"
     },
     {
       "category": "Physik",
       "topic": "Quantenmechanik",
-      "subtopic": "Uneigentliche (Dirac-)Vektoren",
-      "question": "Welche Aussage über uneigentliche (Dirac-)Vektoren in der Quantenmechanik ist korrekt?",
+      "subtopic": "Beugung am Kristallgitter",
+      "question": "Was beschreibt das Phänomen der Beugung von Röntgenstrahlen an Kristallgittern?",
       "choices": [
-        "A: Uneigentliche Vektoren sind immer orthogonal zueinander.",
-        "B: Uneigentliche Vektoren erlauben die Beschreibung von Zuständen mit unbestimmtem Norm.",
-        "C: Uneigentliche Vektoren können nicht zur Berechnung von beobachtbaren Größen verwendet werden.",
-        "D: Uneigentliche Vektoren sind nur im klassischen Kontext definiert."
+        "A: Die Absorption von Licht durch die Elektronen in einem Atom.",
+        "B: Die Ablenkung von Teilchen aufgrund ihrer Masse.",
+        "C: Die Interferenz von Wellen, die an den Gitterebenen reflektiert werden.",
+        "D: Die Temperaturabhängigkeit der elektrischen Leitfähigkeit."
       ],
-      "correct_answer": "B",
-      "explanation": "Uneigentliche (Dirac-)Vektoren sind ein fundamentales Konzept in der Quantenmechanik, das es ermöglicht, Zustände mit unbestimmter Norm zu beschreiben, insbesondere für Teilchen mit negativen Energien oder nicht-normalisierbaren Zuständen. Diese Vektoren sind besonders nützlich in der Quantenfeldtheorie und der Beschreibung von Verhältnissen zwischen Zuständen in Hilberträumen.",
-      "difficulty": 8,
-      "subcategory": "Uneigentliche (Dirac-)Vektoren"
+      "correct_answer": "C",
+      "explanation": "Die Beugung von Röntgenstrahlen an Kristallgittern ist ein Ergebnis der Welleninterferenz. Wenn Röntgenstrahlen auf die periodischen Gitterebenen eines Kristalls treffen, interferieren die reflektierten Wellen und erzeugen ein charakteristisches Muster, das zur Bestimmung der Kristallstruktur verwendet werden kann.",
+      "difficulty": 4,
+      "subcategory": "Beugung am Kristallgitter"
     },
     {
       "category": "Physik",
-      "topic": "Optik",
-      "subtopic": "Welle-Teilchen-Dualismus (Licht)",
-      "question": "Welches Experiment zeigt die Welle-Teilchen-Dualität von Licht?",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Reibungsvakuummeter",
+      "question": "Was misst ein Reibungsvakuummeter?",
       "choices": [
-        "A: Newtonsche Ringe",
-        "B: Photoelektrischer Effekt",
-        "C: Brechung von Licht",
-        "D: Doppelspaltexperiment"
+        "A: Die Dichte von Flüssigkeiten.",
+        "B: Die Temperatur von Gase.",
+        "C: Den Druck in einem Vakuum.",
+        "D: Die Geschwindigkeit eines Objekts."
+      ],
+      "correct_answer": "C",
+      "explanation": "Ein Reibungsvakuummeter ist ein Gerät, das den Druck in einem Vakuum misst, indem es die Reibung zwischen einem Objekt und einer beweglichen Oberfläche nutzt. Die abgelesenen Werte geben Aufschluss über die Qualität des Vakuums.",
+      "difficulty": 3,
+      "subcategory": "Reibungsvakuummeter"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Elemente der Variationsrechnung",
+      "question": "Was beschreibt die Variationsrechnung in der Physik?",
+      "choices": [
+        "A: Die Bestimmung der Lichtgeschwindigkeit im Vakuum.",
+        "B: Die Analyse von Wellenfunktionen in der Quantenmechanik.",
+        "C: Die Berechnung von Temperaturverteilungen in einem Körper.",
+        "D: Die Suche nach optimalen Bahnkurven für Teilchen."
       ],
       "correct_answer": "D",
-      "explanation": "Das Doppelspaltexperiment veranschaulicht, wie Licht sowohl Wellen- als auch Teilchencharakter zeigen kann. Bei diesem Experiment erzeugt Licht Interferenzmuster, die typisch für Wellen sind, während es bei der Messung von einzelnen Photonen zeigt, dass es sich auch wie Teilchen verhält.",
-      "difficulty": 5,
-      "subcategory": "Welle-Teilchen-Dualismus (Licht)"
+      "explanation": "Die Variationsrechnung wird in der Physik verwendet, um optimale Lösungen zu finden, wie beispielsweise die Bahnkurven von Teilchen, die ein bestimmtes Prinzip minimieren oder maximieren. Sie ist ein wichtiges Werkzeug in der analytischen Mechanik und hilft dabei, die Bewegung von Systemen zu verstehen.",
+      "difficulty": 1,
+      "subcategory": "Elemente der Variationsrechnung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Randwertprobleme & Energie in Dielektrika",
+      "question": "Welcher der folgenden Faktoren beeinflusst die Energie eines elektrischen Feldes in einem Dielektrikum am stärksten?",
+      "choices": [
+        "A: Die Dicke des Dielektrikums",
+        "B: Die Frequenz des angelegten elektrischen Feldes",
+        "C: Die Dielektrizitätskonstante des Materials",
+        "D: Die Temperatur des Dielektrikums"
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Dielektrizitätskonstante (ε) ist ein Maß dafür, wie stark ein Material elektrische Felder beeinflussen kann. Sie bestimmt die Fähigkeit des Dielektrikums, Energie zu speichern und ist daher der entscheidende Faktor für die Energie eines elektrischen Feldes in einem Dielektrikum.",
+      "difficulty": 8,
+      "subcategory": "Randwertprobleme & Energie in Dielektrika"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Kovariante Formulierung der Elektrodynamik",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt die kovariante Formulierung der Elektrodynamik im Rahmen der Relativitätstheorie?",
+      "choices": [
+        "A: Die elektromagnetische Energie wird unabhängig von der Geschwindigkeit des Beobachters konstant gehalten.",
+        "B: Die Lorentz-Kraft wird nur für relativistische Geschwindigkeiten modifiziert und bleibt in ihrem klassischen Ausdruck.",
+        "C: Die kovariante Formulierung ignoriert die Zeitdilatation und behandelt Zeit als eine absolute Größe.",
+        "D: Die Maxwell-Gleichungen bleiben in jeder Inertialsystem gleich und sind in Form von vierdimensionalen Vektoren formuliert."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die kovariante Formulierung der Elektrodynamik zeigt, dass die Maxwell-Gleichungen unter Lorentz-Transformationen invariant sind und nutzt vierdimensionale Vektoren, um die physikalischen Gesetze zu beschreiben. Diese Formulierung ist entscheidend, um die Elektrodynamik mit der speziellen Relativitätstheorie zu verbinden.",
+      "difficulty": 9,
+      "subcategory": "Kovariante Formulierung der Elektrodynamik"
     }
   ]
 }

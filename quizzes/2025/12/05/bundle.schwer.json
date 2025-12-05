@@ -1,106 +1,105 @@
 {
   "date": "2025-12-05",
-  "generated_at": "2025-12-05T03:49:22Z",
+  "generated_at": "2025-12-05T09:31:51Z",
   "schema_version": 6,
   "mode": "schwer",
   "questions": [
     {
-      "category": "Kunst und Literatur",
-      "topic": "Zitate, Figuren & Allgemeinwissen",
-      "question": "Welches der folgenden Zitate stammt ursprünglich aus der Bibel und wird oft in der Alltagssprache verwendet?",
+      "category": "Sport",
+      "topic": "Sonstige",
+      "question": "Welche der folgenden Bootsklassen im Rudern gehört nicht zu den Olympischen Disziplinen?",
       "choices": [
-        "A: Wer den Pfennig nicht ehrt, ist des Talers nicht wert.",
-        "B: Der Weg ist das Ziel.",
-        "C: Jeder ist seines Glückes Schmied.",
-        "D: Die Liebe hört niemals auf."
+        "A: Vierer ohne Steuermann",
+        "B: Achter",
+        "C: Quadruple Scull",
+        "D: Doppelzweier"
       ],
-      "correct_answer": "D",
-      "explanation": "Das Zitat 'Die Liebe hört niemals auf' stammt aus dem Neuen Testament, konkret aus dem ersten Korintherbrief (1. Kor 13,8). Es wird häufig in verschiedenen Kontexten verwendet, um die Beständigkeit und Unendlichkeit der Liebe zu betonen.",
+      "correct_answer": "C",
+      "explanation": "Der Quadruple Scull ist zwar eine populäre Bootsklasse im Rudern, jedoch gehört diese nicht zu den olympischen Wettbewerben. Die anderen genannten Bootsklassen sind dagegen Teil des Olympischen Programms und werden bei den Spielen ausgetragen.",
       "difficulty": 9
     },
     {
-      "category": "Politiker",
-      "discipline": "Ministerien (DE)",
-      "question": "Wer ist Bundesminister(in) für das Bundesministerium des Innern und für Heimat?",
+      "category": "Sprache",
+      "topic": "Wortherkunft",
+      "question": "Welches Wort hat seinen Ursprung im lateinischen Wort 'cultura', was 'Bearbeitung' oder 'Pflege' bedeutet?",
       "choices": [
-        "A: Annalena Baerbock",
-        "B: Christian Lindner",
-        "C: Nancy Faeser",
-        "D: Olaf Scholz"
+        "A: Kummer",
+        "B: Kultur",
+        "C: Klugheit",
+        "D: Klarheit"
+      ],
+      "correct_answer": "B",
+      "explanation": "Das Wort 'Kultur' leitet sich direkt vom lateinischen 'cultura' ab, welches auf die Pflege von Land oder das Bilden und Entwickeln von Dingen hinweist. Etymologie beschäftigt sich mit der Herkunft von Wörtern und deren Entwicklung im Laufe der Zeit.",
+      "difficulty": 5
+    },
+    {
+      "category": "Technologie",
+      "topic": "Technik-Geschichte",
+      "question": "Welches Protokoll ist maßgeblich für die Übertragung von Webseiten im Internet verantwortlich?",
+      "choices": [
+        "A: FTP",
+        "B: SMTP",
+        "C: SNMP",
+        "D: HTTP"
+      ],
+      "correct_answer": "D",
+      "explanation": "Das Hypertext Transfer Protocol (HTTP) ist das grundlegende Protokoll, das für die Übertragung von Webseiten und deren Inhalten im Internet verwendet wird. FTP (File Transfer Protocol) wird für den Dateitransfer genutzt, SMTP (Simple Mail Transfer Protocol) für den Versand von E-Mails und SNMP (Simple Network Management Protocol) zur Netzwerküberwachung.",
+      "difficulty": 9
+    },
+    {
+      "category": "Glaube & Religion",
+      "topic": "Monotheistische Religionen",
+      "question": "Welches der folgenden Konzepte beschreibt am besten das Bild von Gott im Monotheismus?",
+      "choices": [
+        "A: Ein abstraktes Prinzip, das nicht in das Weltgeschehen eingreift.",
+        "B: Eine Vielzahl von Göttern, die verschiedene Aspekte des Lebens kontrollieren.",
+        "C: Ein persönlicher Gott, der die Welt aktiv lenkt und in das Leben der Menschen eingreift.",
+        "D: Ein Gott, der nur in bestimmten heiligen Schriften beschrieben wird."
       ],
       "correct_answer": "C",
-      "explanation": "Nancy Faeser ist die aktuelle Bundesministerin für das Bundesministerium des Innern und für Heimat. Sie ist Mitglied der SPD und hat in dieser Position verschiedene sicherheitspolitische Themen behandelt.",
-      "difficulty": 1
+      "explanation": "Im Monotheismus wird Gott häufig als persönliches Wesen verstanden, das aktiv in das Leben der Gläubigen eingreift und die Welt lenkt. Dies unterscheidet sich von polytheistischen oder pantheistischen Auffassungen, bei denen Götter oft spezialisiert sind oder nicht direkt in das Weltgeschehen eingreifen.",
+      "difficulty": 5
+    },
+    {
+      "category": "Natur",
+      "topic": "Pflanzenwelt",
+      "question": "Welche der folgenden Pflanzenarten ist typischerweise eine Schattenpflanze, die in den unteren Schichten eines Laubwaldes wächst?",
+      "choices": [
+        "A: Fichte",
+        "B: Eiche",
+        "C: Kiefer",
+        "D: Farne"
+      ],
+      "correct_answer": "D",
+      "explanation": "Farne sind an schattige Bedingungen angepasst und finden sich häufig im Unterwuchs von Laubwäldern. Im Gegensatz dazu sind Fichte und Kiefer Lichtbaumarten, während die Eiche eine Lichtpflanze ist, die in höheren Schichten wächst.",
+      "difficulty": 7
     },
     {
       "category": "Wissenschaft",
       "topic": "Biologie",
-      "question": "Welches der folgenden Konzepte beschreibt am besten den Prozess der natürlichen Selektion in der Evolution?",
+      "question": "Welches der folgenden Gene ist entscheidend für die Entwicklung des männlichen Geschlechts bei Säugetieren?",
       "choices": [
-        "A: Individuen mit vorteilhaften Eigenschaften haben höhere Überlebens- und Fortpflanzungsraten.",
-        "B: Natürliche Selektion führt immer zu einer perfekten Anpassung an die Umwelt.",
-        "C: Evolution erfolgt ausschließlich durch Mutation ohne Einfluss von Umweltfaktoren.",
-        "D: Alle Individuen einer Art haben die gleiche Chance, sich fortzupflanzen."
+        "A: FOXL2",
+        "B: SRY",
+        "C: SOX2",
+        "D: DAX1"
       ],
-      "correct_answer": "A",
-      "explanation": "Natürliche Selektion ist der Prozess, durch den Individuen mit vorteilhaften Eigenschaften eher überleben und sich fortpflanzen, was zu einer Anpassung der Art führt. Die anderen Optionen beschreiben Fehlinformationen über den Evolutionsprozess.",
+      "correct_answer": "B",
+      "explanation": "Das SRY-Gen (Sex-determining Region Y) ist entscheidend für die Bildung der männlichen Geschlechtsorgane und die Entwicklung zu einem männlichen Phänotyp bei Säugetieren. Es aktiviert andere Gene, die für die männliche Differenzierung wichtig sind.",
       "difficulty": 10
     },
     {
-      "category": "Sprache",
-      "topic": "Redewendungen",
-      "question": "Was bedeutet die Redewendung 'den Draht zur Öffentlichkeit verlieren'?",
-      "choices": [
-        "A: Den Kontakt zu den Medien verlieren.",
-        "B: Die Fähigkeit verlieren, effektiv zu kommunizieren.",
-        "C: Die Verbindung zu einer Technik verlieren.",
-        "D: Sich vom sozialen Leben zurückziehen."
-      ],
-      "correct_answer": "A",
-      "explanation": "'Den Draht zur Öffentlichkeit verlieren' bezieht sich darauf, dass jemand den Zugang oder die Beziehung zu den Medien und der Öffentlichkeit verliert, was oft negative Auswirkungen auf die Wahrnehmung hat. Der Begriff 'Draht' steht hier metaphorisch für eine Verbindung, ähnlich wie bei der Kommunikation über Drahtleitungen.",
-      "difficulty": 6
-    },
-    {
-      "category": "Geschichte",
-      "topic": "Mittelalter",
-      "question": "Welcher Papst rief zum ersten Kreuzzug im Jahr 1095 auf?",
-      "choices": [
-        "A: Urban II",
-        "B: Leo III",
-        "C: Gregor I",
-        "D: Johannes XXII"
-      ],
-      "correct_answer": "A",
-      "explanation": "Papst Urban II. rief auf dem Konzil von Clermont im Jahr 1095 zum ersten Kreuzzug auf, um das Heilige Land von der muslimischen Herrschaft zu befreien. Dieser Aufruf stellte einen Wendepunkt in der europäischen Geschichte dar und führte zu einer Reihe von militärischen Expeditionen nach Palästina.",
-      "difficulty": 9
-    },
-    {
-      "category": "Sport",
-      "topic": "Sonstige",
-      "question": "Wie viele Bases gibt es auf einem Baseballfeld?",
-      "choices": [
-        "A: 6",
-        "B: 4",
-        "C: 5",
-        "D: 3"
-      ],
-      "correct_answer": "B",
-      "explanation": "Auf einem Baseballfeld gibt es insgesamt vier Bases: die Home Plate, die erste Base, die zweite Base und die dritte Base. Diese Basen sind entscheidend für das Spiel, da sie den Verlauf der Spielzüge und das Scoring bestimmen.",
-      "difficulty": 3
-    },
-    {
-      "category": "Natur",
-      "topic": "Tierwelt",
-      "question": "Welche der folgenden Aussagen trifft am ehesten auf Altwelt-Primaten zu?",
-      "choices": [
-        "A: Sie haben in der Regel eine höhere soziale Komplexität als Neuwelt-Primaten.",
-        "B: Sie zeichnen sich durch einen auffällig langen Schwanz aus, der als Greiforgan dient.",
-        "C: Altwelt-Primaten sind ausschließlich in Nord- und Südamerika verbreitet.",
-        "D: Sie besitzen eine prägnante Schnauze, die für die Nahrungsaufnahme von Bedeutung ist."
-      ],
-      "correct_answer": "A",
-      "explanation": "Altwelt-Primaten, darunter Affen und Menschen, zeigen oft komplexe soziale Strukturen und Verhaltensweisen, die ihnen helfen, in vielfältigen Lebensräumen zu überleben. Neuwelt-Primaten hingegen sind häufig weniger komplex in ihren sozialen Interaktionen und haben unterschiedliche Anpassungen, wie das Greifen mit dem Schwanz.",
-      "difficulty": 7
+      "question": "Wie hoch ist die KFZ-Steuer für ein Auto mit einem Hubraum von 1.800 ccm und einem CO2-Ausstoß von 150 g/km pro Jahr?",
+      "category": "Alltag & Gesellschaft",
+      "subcategory": "Versicherungen & KFZ-Steuer",
+      "difficulty": 8,
+      "options": {
+        "A": "180 Euro",
+        "B": "250 Euro",
+        "C": "320 Euro",
+        "D": "400 Euro"
+      },
+      "correct_answer": "B"
     }
   ]
 }

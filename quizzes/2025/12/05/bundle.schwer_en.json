@@ -1,103 +1,105 @@
 {
   "date": "2025-12-05",
-  "generated_at": "2025-12-05T03:50:26Z",
+  "generated_at": "2025-12-05T09:33:11Z",
   "schema_version": 6,
   "mode": "schwer",
   "questions": [
     {
-      "category": "Kunst und Literatur",
-      "topic": "Zitate, Figuren & Allgemeinwissen",
-      "question": "Which of the following quotes originally comes from the Bible and is often used in everyday language?",
+      "category": "Sport",
+      "topic": "Sonstige",
+      "question": "Which of the following rowing boat classes is not part of the Olympic disciplines?",
       "choices": [
-        "A: A penny saved is a penny earned.",
-        "B: The journey is the reward.",
-        "C: Every man is the architect of his own fortune.",
-        "D: Love never ends."
+        "A: Coxless Four",
+        "B: Eight",
+        "C: Quadruple Scull",
+        "D: Double Scull"
       ],
-      "correct_answer": "D",
-      "explanation": "The quote 'Love never ends' comes from the New Testament, specifically from the first letter to the Corinthians (1 Cor 13:8). It is frequently used in various contexts to emphasize the constancy and infinity of love.",
+      "correct_answer": "C",
+      "explanation": "The Quadruple Scull is a popular rowing boat class, but it is not part of the Olympic competitions. The other mentioned boat classes, on the other hand, are part of the Olympic program and are contested at the Games.",
       "difficulty": 9
     },
     {
-      "question": "Who is the current President of the United States?",
+      "category": "Language",
+      "topic": "Grammar",
+      "question": "Which of the following sentences correctly uses a separable prefix verb?",
       "choices": [
-        "A. Joe Biden",
-        "B. Donald Trump",
-        "C. Barack Obama"
+        "A: She is looking forward to the party.",
+        "B: He is understanding the lesson.",
+        "C: They are giving up on their project.",
+        "D: I am enjoying the book."
       ],
-      "correct_answer": "A",
-      "difficulty": 1,
-      "category": "politics"
+      "correct_answer": "C",
+      "explanation": "In the sentence 'They are giving up on their project,' 'giving up' is a separable prefix verb where 'up' can stand alone. The other options use non-separable or different types of verb constructions.",
+      "difficulty": 5
+    },
+    {
+      "category": "Technologie",
+      "topic": "Technik-Geschichte",
+      "question": "Which protocol is primarily responsible for the transmission of web pages on the Internet?",
+      "choices": [
+        "A: FTP",
+        "B: SMTP",
+        "C: SNMP",
+        "D: HTTP"
+      ],
+      "correct_answer": "D",
+      "explanation": "The Hypertext Transfer Protocol (HTTP) is the fundamental protocol used for transmitting web pages and their content on the Internet. FTP (File Transfer Protocol) is used for file transfer, SMTP (Simple Mail Transfer Protocol) for email transmission, and SNMP (Simple Network Management Protocol) for network monitoring.",
+      "difficulty": 9
+    },
+    {
+      "category": "Glaube & Religion",
+      "topic": "Monotheistische Religionen",
+      "question": "Which of the following concepts best describes the image of God in monotheism?",
+      "choices": [
+        "A: An abstract principle that does not intervene in world events.",
+        "B: A multitude of gods controlling different aspects of life.",
+        "C: A personal God who actively directs the world and intervenes in people's lives.",
+        "D: A God described only in certain sacred texts."
+      ],
+      "correct_answer": "C",
+      "explanation": "In monotheism, God is often understood as a personal being who actively intervenes in the lives of believers and directs the world. This differs from polytheistic or pantheistic views, where gods are often specialized or do not directly intervene in world events.",
+      "difficulty": 5
+    },
+    {
+      "category": "Natur",
+      "topic": "Pflanzenwelt",
+      "question": "Which of the following plant species is typically a shade plant that grows in the lower layers of a deciduous forest?",
+      "choices": [
+        "A: Spruce",
+        "B: Oak",
+        "C: Pine",
+        "D: Ferns"
+      ],
+      "correct_answer": "D",
+      "explanation": "Ferns are adapted to shady conditions and are commonly found in the undergrowth of deciduous forests. In contrast, spruce and pine are light-demanding tree species, while oak is a light plant that grows in higher layers.",
+      "difficulty": 7
     },
     {
       "category": "Wissenschaft",
       "topic": "Biologie",
-      "question": "Which of the following concepts best describes the process of natural selection in evolution?",
+      "question": "Which of the following genes is crucial for the development of male sex in mammals?",
       "choices": [
-        "A: Individuals with advantageous traits have higher rates of survival and reproduction.",
-        "B: Natural selection always leads to perfect adaptation to the environment.",
-        "C: Evolution occurs solely through mutation without influence of environmental factors.",
-        "D: All individuals of a species have an equal chance of reproducing."
+        "A: FOXL2",
+        "B: SRY",
+        "C: SOX2",
+        "D: DAX1"
       ],
-      "correct_answer": "A",
-      "explanation": "Natural selection is the process by which individuals with advantageous traits are more likely to survive and reproduce, leading to adaptation of the species. The other options describe misconceptions about the process of evolution.",
+      "correct_answer": "B",
+      "explanation": "The SRY gene (Sex-determining Region Y) is crucial for the formation of male reproductive organs and the development of a male phenotype in mammals. It activates other genes that are important for male differentiation.",
       "difficulty": 10
     },
     {
-      "category": "Language",
-      "topic": "Etymology",
-      "question": "What is the origin of the English word 'salary'?",
-      "choices": [
-        "A: Latin",
-        "B: French",
-        "C: Slavic",
-        "D: German"
-      ],
-      "correct_answer": "A",
-      "explanation": "The word 'salary' comes from the Latin 'salarium', which referred to the payments made to Roman soldiers for the purchase of salt. This historical context reveals the connection between the word and its original economic significance.",
-      "difficulty": 6
-    },
-    {
-      "category": "Geschichte",
-      "topic": "Mittelalter",
-      "question": "Which Pope called for the First Crusade in 1095?",
-      "choices": [
-        "A: Urban II",
-        "B: Leo III",
-        "C: Gregory I",
-        "D: John XXII"
-      ],
-      "correct_answer": "A",
-      "explanation": "Pope Urban II called for the First Crusade at the Council of Clermont in 1095 to liberate the Holy Land from Muslim rule. This call marked a turning point in European history and led to a series of military expeditions to Palestine.",
-      "difficulty": 9
-    },
-    {
-      "category": "Sport",
-      "topic": "Sonstige",
-      "question": "How many bases are there on a baseball field?",
-      "choices": [
-        "A: 6",
-        "B: 4",
-        "C: 5",
-        "D: 3"
-      ],
-      "correct_answer": "B",
-      "explanation": "There are a total of four bases on a baseball field: home plate, first base, second base, and third base. These bases are crucial to the game as they determine the course of plays and scoring.",
-      "difficulty": 3
-    },
-    {
-      "category": "Natur",
-      "topic": "Tierwelt",
-      "question": "Which of the following statements most likely applies to Old World primates?",
-      "choices": [
-        "A: They generally have higher social complexity than New World primates.",
-        "B: They are characterized by a notably long tail that serves as a grasping organ.",
-        "C: Old World primates are exclusively found in North and South America.",
-        "D: They possess a distinct muzzle that is important for food intake."
-      ],
-      "correct_answer": "A",
-      "explanation": "Old World primates, including apes and humans, often exhibit complex social structures and behaviors that help them survive in diverse habitats. In contrast, New World primates are often less complex in their social interactions and have different adaptations, such as tail grasping.",
-      "difficulty": 7
+      "question": "What is the vehicle tax for a car with an engine capacity of 1,800 cc and a CO2 emission of 150 g/km per year?",
+      "category": "Alltag & Gesellschaft",
+      "subcategory": "Versicherungen & KFZ-Steuer",
+      "difficulty": 8,
+      "options": {
+        "A": "180 Euro",
+        "B": "250 Euro",
+        "C": "320 Euro",
+        "D": "400 Euro"
+      },
+      "correct_answer": "B"
     }
   ]
 }
