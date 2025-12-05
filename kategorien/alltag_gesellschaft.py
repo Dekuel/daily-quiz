@@ -196,7 +196,7 @@ D) [Antwort 4]"""
     # 5) Parsing
     lines = [l.strip() for l in raw.split("\n") if l.strip()]
     question_text = ""
-    options = {}
+    choices = []
     correct_key = None
 
     for line in lines:
@@ -208,9 +208,9 @@ D) [Antwort 4]"""
             if "[CORRECT]" in rest.upper():
                 rest = rest.replace("[CORRECT]", "").replace("[correct]", "").strip()
                 correct_key = key
-            options[key] = rest
+            choices.append(f"{key}: {rest}")
 
-    if not question_text or len(options) < 4 or not correct_key:
+    if not question_text or len(choices) < 4 or not correct_key:
         return None
 
     return {
@@ -218,6 +218,6 @@ D) [Antwort 4]"""
         "category": "Alltag & Gesellschaft",
         "subcategory": chosen_topic,
         "difficulty": clamped_diff,
-        "options": options,
+        "choices": choices,
         "correct_answer": correct_key,
     }
