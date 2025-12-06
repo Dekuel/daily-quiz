@@ -1,0 +1,101 @@
+{
+  "date": "2025-12-06",
+  "generated_at": "2025-12-06T03:41:26Z",
+  "schema_version": 6,
+  "mode": "schwer",
+  "questions": [
+    {
+      "question": "Who is the current President of the United States?",
+      "choices": [
+        "A. Joe Biden",
+        "B. Donald Trump",
+        "C. Barack Obama"
+      ],
+      "correct_answer": "A",
+      "difficulty": 1,
+      "category": "politics"
+    },
+    {
+      "question": "What is a Smart Contract in the Ethereum blockchain?",
+      "category": "Wirtschaft & Finanzen",
+      "subcategory": "Ethereum & Smart Contracts",
+      "difficulty": 6,
+      "choices": [
+        "A: A special cryptocurrency used only in the Ethereum blockchain",
+        "B: An automated program that executes conditions without human intervention",
+        "C: A type of wallet that stores Ethereum",
+        "D: A contract managed exclusively by banks"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "question": "Which of the following diets is most associated with reducing body fat percentage?",
+      "category": "Alltag & Gesellschaft",
+      "subcategory": "Ernährung & Diäten",
+      "difficulty": 6,
+      "choices": [
+        "A: Detox diet",
+        "B: Mediterranean diet",
+        "C: Potato diet",
+        "D: Protein shake diet"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "category": "Wissenschaft",
+      "topic": "Physik",
+      "question": "Which law describes the relationship between the temperature and pressure of an ideal gas at constant volume?",
+      "choices": [
+        "A: Boyle's Law",
+        "B: Avogadro's Law",
+        "C: Charles's Law",
+        "D: Gay-Lussac's Law"
+      ],
+      "correct_answer": "D",
+      "explanation": "Gay-Lussac's Law states that the pressure of an ideal gas is directly proportional to the temperature when the volume is constant. This means that as the temperature increases, the gas pressure also increases.",
+      "difficulty": 8
+    },
+    {
+      "category": "Geographie",
+      "topic": "Hauptstädte",
+      "question": "Which of the following capitals is located on the island of New Zealand?",
+      "choices": [
+        "A: Port Moresby",
+        "B: Wellington",
+        "C: Suva",
+        "D: Canberra"
+      ],
+      "correct_answer": "B",
+      "explanation": "Wellington is the capital of New Zealand and is located on the country's North Island. Canberra is the capital of Australia, Suva is the capital of Fiji, and Port Moresby is the capital of Papua New Guinea.",
+      "difficulty": 7
+    },
+    {
+      "category": "Geschichte",
+      "topic": "Mittelalter",
+      "question": "Which order was founded in 1099 during the First Crusade and is known for its military and hospitaller activities?",
+      "choices": [
+        "A: Franciscan Order",
+        "B: Order of the Templars",
+        "C: Dominican Order",
+        "D: Benedictine Order"
+      ],
+      "correct_answer": "B",
+      "explanation": "The Order of the Templars was founded during the First Crusade and played a significant role in medieval Europe, both militarily and in caring for pilgrims. It quickly evolved into one of the most powerful religious and economic institutions of the Middle Ages.",
+      "difficulty": 7
+    },
+    {
+      "category": "Sport",
+      "topic": "Basketball",
+      "question": "Which of the following women's basketball tournaments is held every four years and is considered the most important international tournament?",
+      "choices": [
+        "A: FIBA Women's World Championship",
+        "B: FIBA European Championship",
+        "C: Olympic Games Women's Basketball Tournament",
+        "D: FIBA U19 Women's World Championship"
+      ],
+      "correct_answer": "C",
+      "explanation": "The Olympic Games Women's Basketball Tournament is held every four years as part of the Olympic Games and is one of the most prestigious tournaments in women's basketball. It attracts the best players and teams from around the world.",
+      "difficulty": 9
+    }
+  ]
+}

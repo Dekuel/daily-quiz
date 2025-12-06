@@ -1,0 +1,168 @@
+{
+  "date": "2025-12-06",
+  "generated_at": "2025-12-06T03:41:10Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Homogene Wellengleichung",
+      "question": "Welche der folgenden Gleichungen beschreibt eine homogene Wellengleichung für elektrostatische Felder in einem Vakuum?",
+      "choices": [
+        "A: ∇²E = 0",
+        "B: ∇²E = -μ₀J",
+        "C: ∇²E = ρ/ε₀",
+        "D: ∇²E = μ₀ε₀∂²E/∂t²"
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Gleichung ∇²E = 0 beschreibt die homogene Wellengleichung für elektrische Felder im Vakuum, wo keine Ladungen oder Ströme vorhanden sind. In dieser Form ist die Divergenz der elektrischen Feldstärke gleich null, was die Wellenausbreitung beschreibt.",
+      "difficulty": 9,
+      "subcategory": "Homogene Wellengleichung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Dritter Hauptsatz (Nernst’scher Wärmesatz)",
+      "question": "Was besagt der Nernst’sche Wärmesatz in Bezug auf die Entropie bei Temperaturen nahe dem absoluten Nullpunkt?",
+      "choices": [
+        "A: Die Entropie kann nicht gemessen werden.",
+        "B: Die Entropie eines perfekten Kristalls nähert sich null.",
+        "C: Die Entropie eines idealen Gases steigt unbegrenzt.",
+        "D: Die Entropie eines Gases bleibt konstant."
+      ],
+      "correct_answer": "B",
+      "explanation": "Der Nernst’sche Wärmesatz besagt, dass die Entropie eines perfekten Kristalls bei der Temperatur des absoluten Nullpunkts null wird. Dies impliziert, dass sich Systeme im absoluten Nullpunkt in einem geordneten Zustand befinden, was für die Thermodynamik von großer Bedeutung ist.",
+      "difficulty": 8,
+      "subcategory": "Dritter Hauptsatz (Nernst’scher Wärmesatz)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Nicht wechselwirkende Systeme: Ideales Gas",
+      "question": "Was beschreibt die ideale Gasgleichung?",
+      "choices": [
+        "A: E = mc²",
+        "B: W = Fd",
+        "C: PV = nRT",
+        "D: F = ma"
+      ],
+      "correct_answer": "C",
+      "explanation": "Die ideale Gasgleichung beschreibt das Verhalten eines idealen Gases in Bezug auf Druck (P), Volumen (V), Anzahl der Mole (n), die ideale Gaskonstante (R) und die Temperatur (T). Diese Gleichung ist grundlegend für das Verständnis nicht wechselwirkender Gassysteme in der statistischen Mechanik.",
+      "difficulty": 4,
+      "subcategory": "Nicht wechselwirkende Systeme: Ideales Gas"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Interferenzen dünner Schichten",
+      "question": "Welcher Effekt tritt auf, wenn Licht auf eine dünne Schicht einer anderen Substanz trifft und dabei konstruktive Interferenz entsteht?",
+      "choices": [
+        "A: Es entsteht ein kontinuierliches Spektrum.",
+        "B: Die Wellenlängen der reflektierten Lichtstrahlen verstärken sich.",
+        "C: Die Lichtstrahlen werden vollständig absorbiert.",
+        "D: Die Lichtintensität wird gleichmäßig verteilt."
+      ],
+      "correct_answer": "B",
+      "explanation": "Konstruktive Interferenz tritt auf, wenn die Phasenlage der reflektierten Lichtstrahlen so ist, dass sie sich gegenseitig verstärken. Dies geschieht, wenn die Dicke der dünnen Schicht und die Wellenlängen des Lichts bestimmte Bedingungen erfüllen, was zu einer erhöhten Intensität des reflektierten Lichts führt.",
+      "difficulty": 8,
+      "subcategory": "Interferenzen dünner Schichten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Beugung an der kreisförmigen Öffnung",
+      "question": "Welche Aussage beschreibt am besten das Beugungsmuster, das entsteht, wenn monochromatisches Licht durch eine kreisförmige Öffnung fällt?",
+      "choices": [
+        "A: Es entsteht ein einfaches Linienmuster mit gleichmäßigen Abständen.",
+        "B: Es gibt keine Beugung, da das Licht durch die Öffnung ungestört hindurchgeht.",
+        "C: Das Beugungsmuster ist unabhängig von der Wellenlänge des Lichts.",
+        "D: Es entsteht ein zentrales Maximum mit konzentrischen Ringen, die abwechselnd heller und dunkler sind."
+      ],
+      "correct_answer": "D",
+      "explanation": "Wenn Licht durch eine kreisförmige Öffnung fällt, entsteht ein Beugungsmuster mit einem zentralen Maximum, das von konzentrischen Ringen umgeben ist. Dieses Muster ist charakteristisch für die Beugung und hängt von der Wellenlänge des Lichts und dem Durchmesser der Öffnung ab.",
+      "difficulty": 7,
+      "subcategory": "Beugung an der kreisförmigen Öffnung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Begrenzungen in optischen Systemen (Apertur, Vignettierung)",
+      "question": "Welche der folgenden Aussagen beschreibt am besten die Auswirkungen der Vignettierung in optischen Systemen?",
+      "choices": [
+        "A: Vignettierung verursacht eine Abschattung an den Bildrändern und reduziert die Bildhelligkeit.",
+        "B: Vignettierung hat keinen Einfluss auf die Bildqualität.",
+        "C: Vignettierung erhöht die Schärfentiefe eines optischen Systems.",
+        "D: Vignettierung führt zu einer gleichmäßigen Ausleuchtung des Bildes."
+      ],
+      "correct_answer": "A",
+      "explanation": "Vignettierung tritt auf, wenn Lichtstrahlen, die von den Randbereichen eines optischen Systems kommen, blockiert oder abgeschwächt werden. Dies führt zu einer ungleichmäßigen Helligkeit im Bild, wobei die Ränder dunkler erscheinen als die Mitte. Daher ist Antwort B korrekt, während die anderen Aussagen falsch sind.",
+      "difficulty": 7,
+      "subcategory": "Begrenzungen in optischen Systemen (Apertur, Vignettierung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Rotation bei konstantem Drehmoment",
+      "question": "Was passiert mit der Winkelgeschwindigkeit eines Körpers, der sich in einer konstanten Drehmoment-Situation befindet?",
+      "choices": [
+        "A: Sie bleibt immer gleich.",
+        "B: Sie nimmt ab.",
+        "C: Sie nimmt zu oder bleibt konstant.",
+        "D: Sie kann beliebig schwanken."
+      ],
+      "correct_answer": "C",
+      "explanation": "Bei konstantem Drehmoment erfährt der Körper eine gleichmäßige Beschleunigung, was bedeutet, dass die Winkelgeschwindigkeit entweder zunimmt oder konstant bleibt. Dies ist eine grundlegende Eigenschaft der Rotation in der klassischen Mechanik.",
+      "difficulty": 1,
+      "subcategory": "Rotation bei konstantem Drehmoment"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Einfluss der Wandbelegung",
+      "question": "Welchen Einfluss hat die Wandbelegung eines Raumes auf die Schwingungen eines schwingenden Systems?",
+      "choices": [
+        "A: Eine Wandbelegung aus Schaumstoff erhöht die Frequenz der Schwingungen.",
+        "B: Die Wandbelegung hat keinen Einfluss auf die Schwingungen.",
+        "C: Eine weiche Wandbelegung dämpft die Schwingungen.",
+        "D: Eine harte Wandbelegung verstärkt die Schwingungen."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Wandbelegung kann die Dämpfung von Schwingungen beeinflussen, da weichere Materialien Schwingungsenergie absorbieren und somit die Amplitude der Schwingungen verringern können. Harte Materialien hingegen reflektieren die Schwingungen, was zu einer Verstärkung führen kann. Daher hat die Art der Wandbelegung einen signifikanten Einfluss auf das Verhalten schwingender Systeme.",
+      "difficulty": 6,
+      "subcategory": "Einfluss der Wandbelegung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Streutheorie: Grundbegriffe & Modell des Streuprozesses",
+      "question": "Was beschreibt das Konzept der Streuamplitude in der Quantenmechanik?",
+      "choices": [
+        "A: Die Wahrscheinlichkeit, dass ein Teilchen in einen bestimmten Zustand übergeht.",
+        "B: Die Masse der Teilchen, die am Streuprozess beteiligt sind.",
+        "C: Die Energie eines Teilchens während des Streuprozesses.",
+        "D: Die Geschwindigkeit eines Teilchens nach dem Zusammenstoß."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Streuamplitude ist ein zentrales Konzept in der Quantenmechanik, das die Wahrscheinlichkeit beschreibt, mit der ein Teilchen in einen bestimmten Zustand übergeht, nachdem es mit einem anderen Teilchen gestreut wurde. Sie ist essentiell für die Berechnung von Streuwahrscheinlichkeiten und der Analyse von Quantenprozessen.",
+      "difficulty": 7,
+      "subcategory": "Streutheorie: Grundbegriffe & Modell des Streuprozesses"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Oberflächenspannung",
+      "question": "Was bewirkt die Oberflächenspannung bei Flüssigkeiten?",
+      "choices": [
+        "A: Sie erhöht die Temperatur von Flüssigkeiten.",
+        "B: Sie verhindert, dass Flüssigkeiten verdampfen.",
+        "C: Sie sorgt dafür, dass Flüssigkeiten nicht fließen können.",
+        "D: Sie lässt kleine Wassertröpfchen kugelförmig werden."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Oberflächenspannung ist eine physikalische Eigenschaft von Flüssigkeiten, die dazu führt, dass die Oberfläche einer Flüssigkeit wie eine elastische Haut wirkt. Dadurch nehmen kleine Wassertröpfchen eine kugelförmige Form an, um die Oberfläche zu minimieren.",
+      "difficulty": 2,
+      "subcategory": "Oberflächenspannung"
+    }
+  ]
+}

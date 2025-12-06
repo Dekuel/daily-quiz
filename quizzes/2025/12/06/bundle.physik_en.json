@@ -1,0 +1,168 @@
+{
+  "date": "2025-12-06",
+  "generated_at": "2025-12-06T03:41:39Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Homogene Wellengleichung",
+      "question": "Which of the following equations describes a homogeneous wave equation for electrostatic fields in a vacuum?",
+      "choices": [
+        "A: ∇²E = 0",
+        "B: ∇²E = -μ₀J",
+        "C: ∇²E = ρ/ε₀",
+        "D: ∇²E = μ₀ε₀∂²E/∂t²"
+      ],
+      "correct_answer": "A",
+      "explanation": "The equation ∇²E = 0 describes the homogeneous wave equation for electric fields in a vacuum, where no charges or currents are present. In this form, the divergence of the electric field strength is zero, describing wave propagation.",
+      "difficulty": 9,
+      "subcategory": "Homogene Wellengleichung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Dritter Hauptsatz (Nernst’scher Wärmesatz)",
+      "question": "What does Nernst's heat theorem state regarding entropy at temperatures near absolute zero?",
+      "choices": [
+        "A: Entropy cannot be measured.",
+        "B: The entropy of a perfect crystal approaches zero.",
+        "C: The entropy of an ideal gas increases indefinitely.",
+        "D: The entropy of a gas remains constant."
+      ],
+      "correct_answer": "B",
+      "explanation": "Nernst's heat theorem states that the entropy of a perfect crystal becomes zero at the temperature of absolute zero. This implies that systems at absolute zero are in an ordered state, which is of great importance for thermodynamics.",
+      "difficulty": 8,
+      "subcategory": "Dritter Hauptsatz (Nernst’scher Wärmesatz)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Nicht wechselwirkende Systeme: Ideales Gas",
+      "question": "What does the ideal gas equation describe?",
+      "choices": [
+        "A: E = mc²",
+        "B: W = Fd",
+        "C: PV = nRT",
+        "D: F = ma"
+      ],
+      "correct_answer": "C",
+      "explanation": "The ideal gas equation describes the behavior of an ideal gas in terms of pressure (P), volume (V), number of moles (n), the ideal gas constant (R), and temperature (T). This equation is fundamental for understanding non-interacting gas systems in statistical mechanics.",
+      "difficulty": 4,
+      "subcategory": "Nicht wechselwirkende Systeme: Ideales Gas"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Interferenzen dünner Schichten",
+      "question": "What effect occurs when light hits a thin layer of another substance and constructive interference takes place?",
+      "choices": [
+        "A: A continuous spectrum is formed.",
+        "B: The wavelengths of the reflected light rays reinforce each other.",
+        "C: The light rays are completely absorbed.",
+        "D: The light intensity is evenly distributed."
+      ],
+      "correct_answer": "B",
+      "explanation": "Constructive interference occurs when the phase of the reflected light rays is such that they reinforce each other. This happens when the thickness of the thin layer and the wavelengths of light meet certain conditions, leading to increased intensity of the reflected light.",
+      "difficulty": 8,
+      "subcategory": "Interferenzen dünner Schichten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Beugung an der kreisförmigen Öffnung",
+      "question": "Which statement best describes the diffraction pattern that occurs when monochromatic light passes through a circular aperture?",
+      "choices": [
+        "A: A simple line pattern with uniform spacing is formed.",
+        "B: There is no diffraction as the light passes undisturbed through the aperture.",
+        "C: The diffraction pattern is independent of the wavelength of light.",
+        "D: A central maximum is formed with concentric rings alternating in brightness."
+      ],
+      "correct_answer": "D",
+      "explanation": "When light passes through a circular aperture, a diffraction pattern is formed with a central maximum surrounded by concentric rings. This pattern is characteristic of diffraction and depends on the wavelength of light and the aperture diameter.",
+      "difficulty": 7,
+      "subcategory": "Beugung an der kreisförmigen Öffnung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Begrenzungen in optischen Systemen (Apertur, Vignettierung)",
+      "question": "Which of the following statements best describes the effects of vignetting in optical systems?",
+      "choices": [
+        "A: Vignetting causes shading at the image edges and reduces image brightness.",
+        "B: Vignetting has no impact on image quality.",
+        "C: Vignetting increases the depth of field of an optical system.",
+        "D: Vignetting leads to uniform illumination of the image."
+      ],
+      "correct_answer": "A",
+      "explanation": "Vignetting occurs when light rays coming from the edges of an optical system are blocked or attenuated. This results in uneven brightness in the image, with the edges appearing darker than the center. Therefore, option B is correct while the other statements are incorrect.",
+      "difficulty": 7,
+      "subcategory": "Begrenzungen in optischen Systemen (Apertur, Vignettierung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Rotation bei konstantem Drehmoment",
+      "question": "What happens to the angular velocity of a body in a constant torque situation?",
+      "choices": [
+        "A: It remains constant.",
+        "B: It decreases.",
+        "C: It increases or remains constant.",
+        "D: It can fluctuate arbitrarily."
+      ],
+      "correct_answer": "C",
+      "explanation": "In a constant torque situation, the body experiences uniform acceleration, meaning the angular velocity either increases or remains constant. This is a fundamental property of rotation in classical mechanics.",
+      "difficulty": 1,
+      "subcategory": "Rotation bei konstantem Drehmoment"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Einfluss der Wandbelegung",
+      "question": "How does the wall covering of a room affect the vibrations of a oscillating system?",
+      "choices": [
+        "A: Wall covering made of foam increases the frequency of vibrations.",
+        "B: The wall covering has no effect on the vibrations.",
+        "C: Soft wall covering dampens the vibrations.",
+        "D: Hard wall covering amplifies the vibrations."
+      ],
+      "correct_answer": "C",
+      "explanation": "The wall covering can influence the damping of vibrations, as softer materials absorb vibrational energy and can reduce the amplitude of vibrations. On the other hand, hard materials reflect vibrations, which can lead to amplification. Therefore, the type of wall covering has a significant impact on the behavior of oscillating systems.",
+      "difficulty": 6,
+      "subcategory": "Einfluss der Wandbelegung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Streutheorie: Grundbegriffe & Modell des Streuprozesses",
+      "question": "What does the concept of scattering amplitude in quantum mechanics describe?",
+      "choices": [
+        "A: The probability of a particle transitioning to a specific state.",
+        "B: The mass of the particles involved in the scattering process.",
+        "C: The energy of a particle during the scattering process.",
+        "D: The velocity of a particle after the collision."
+      ],
+      "correct_answer": "A",
+      "explanation": "The scattering amplitude is a central concept in quantum mechanics that describes the probability of a particle transitioning to a specific state after being scattered by another particle. It is essential for calculating scattering probabilities and analyzing quantum processes.",
+      "difficulty": 7,
+      "subcategory": "Streutheorie: Grundbegriffe & Modell des Streuprozesses"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Oberflächenspannung",
+      "question": "What does surface tension do to liquids?",
+      "choices": [
+        "A: It increases the temperature of liquids.",
+        "B: It prevents liquids from evaporating.",
+        "C: It prevents liquids from flowing.",
+        "D: It causes small water droplets to become spherical."
+      ],
+      "correct_answer": "D",
+      "explanation": "Surface tension is a physical property of liquids that causes the surface of a liquid to act like an elastic skin. This leads to small water droplets taking a spherical shape to minimize surface area.",
+      "difficulty": 2,
+      "subcategory": "Oberflächenspannung"
+    }
+  ]
+}
