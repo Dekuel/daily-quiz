@@ -1,0 +1,168 @@
+{
+  "date": "2025-12-07",
+  "generated_at": "2025-12-07T03:56:13Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Zentraler Grenzwertsatz",
+      "question": "Was besagt der zentrale Grenzwertsatz in der Statistik?",
+      "choices": [
+        "A: Die Varianz einer Zufallsvariablen ist immer konstant.",
+        "B: Zufallsvariablen sind immer unabhängig.",
+        "C: Die Summe einer kleinen Anzahl unabhängiger Zufallsvariablen hat eine Normalverteilung.",
+        "D: Die Summe einer großen Anzahl unabhängiger Zufallsvariablen hat eine Normalverteilung."
+      ],
+      "correct_answer": "D",
+      "explanation": "Der zentrale Grenzwertsatz besagt, dass die Summe (oder der Durchschnitt) einer großen Anzahl von unabhängigen Zufallsvariablen, unabhängig von der ursprünglichen Verteilung, sich einer Normalverteilung nähert. Dies ist ein fundamentales Konzept in der Statistik und hat weitreichende Anwendungen in der Physik und anderen Wissenschaften.",
+      "difficulty": 1,
+      "subcategory": "Zentraler Grenzwertsatz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Elektroschwache Vereinheitlichung (SU(2)×U(1))",
+      "question": "Was beschreibt die elektroschwache Vereinheitlichung in der Teilchenphysik?",
+      "choices": [
+        "A: Die Vereinigung von elektromagnetischer und schwacher Wechselwirkung.",
+        "B: Die Trennung von Quarks und Leptonen.",
+        "C: Die Erklärung der Gravitation in der Teilchenphysik.",
+        "D: Die Unterscheidung zwischen starken und schwachen Wechselwirkungen."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die elektroschwache Vereinheitlichung beschreibt, wie die elektromagnetische und die schwache Wechselwirkung durch das Standardmodell der Teilchenphysik zu einer einzigen Theorie zusammengefasst werden. Dies geschieht mathematisch durch die Gruppe SU(2)×U(1).",
+      "difficulty": 3,
+      "subcategory": "Elektroschwache Vereinheitlichung (SU(2)×U(1))"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Virialsatz & Äquipartition (Gleichverteilungssatz)",
+      "question": "Was besagt der Äquipartitionstheorem in der statistischen Mechanik?",
+      "choices": [
+        "A: Die Entropie eines Systems nimmt mit der Temperatur zu.",
+        "B: Die Gesamtenergie eines Systems ist konstant.",
+        "C: Teilchen in einem idealen Gas bewegen sich immer gleich schnell.",
+        "D: Jede Energieform wird gleichmäßig unter den Freiheitsgraden verteilt."
+      ],
+      "correct_answer": "D",
+      "explanation": "Der Äquipartitionstheorem besagt, dass die Energie eines Systems gleichmäßig auf alle Freiheitsgrade verteilt ist. Dies bedeutet, dass jeder Freiheitsgrad im Durchschnitt einen gleichen Beitrag zur Gesamtenergie leistet, was in vielen physikalischen Systemen bestätigt wird.",
+      "difficulty": 4,
+      "subcategory": "Virialsatz & Äquipartition (Gleichverteilungssatz)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Kepler-Problem (HJ/AA-Formalismus)",
+      "question": "Welches der folgenden Aussagen beschreibt korrekt die Lagrange-Punkte im Kontext des Kepler-Problems?",
+      "choices": [
+        "A: Lagrange-Punkte sind Positionen, an denen die Gravitationskräfte zweier großer Körper und die Zentrifugalkraft eines dritten, kleinen Körpers im Gleichgewicht sind.",
+        "B: Lagrange-Punkte existieren nur in Systemen mit mehr als zwei Körpern.",
+        "C: Lagrange-Punkte sind feste Punkte im Raum, die unabhängig von der Bewegung der Körper sind.",
+        "D: Lagrange-Punkte sind Orte, an denen die Gesamtenergie des Systems immer maximal ist."
+      ],
+      "correct_answer": "A",
+      "explanation": "Lagrange-Punkte sind spezielle Positionen in einem System von zwei großen Massen, wo ein dritter Körper, der sich dort befindet, im Gleichgewicht bleibt. Diese Punkte sind das Resultat der Balance zwischen der Gravitationskraft der beiden Hauptkörper und der Zentrifugalkraft, die auf den kleinen Körper wirkt.",
+      "difficulty": 9,
+      "subcategory": "Kepler-Problem (HJ/AA-Formalismus)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Wechselwirkung einer Ladungsverteilung mit äußerem Feld",
+      "question": "Was beschreibt die Polarisation eines Dielektrikums in einem externen elektrischen Feld?",
+      "choices": [
+        "A: Die Zunahme der elektrischen Leitfähigkeit des Materials.",
+        "B: Die Verschiebung der positiven und negativen Ladungen innerhalb des Materials.",
+        "C: Die Erhöhung der Temperatur des Materials.",
+        "D: Die Änderung der chemischen Zusammensetzung des Materials."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Polarisation eines Dielektrikums tritt auf, wenn ein externes elektrisches Feld die positiven und negativen Ladungen im Material verschiebt. Diese Verschiebung führt zu einem Dipolmoment, welches die Effektivität des elektrischen Feldes innerhalb des Dielektrikums beeinflusst.",
+      "difficulty": 6,
+      "subcategory": "Wechselwirkung einer Ladungsverteilung mit äußerem Feld"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Korrespondenzregel (Operatorersatz)",
+      "question": "Was besagt die Korrespondenzregel in der Quantenmechanik?",
+      "choices": [
+        "A: Die klassischen Ergebnisse und die quantenmechanischen Ergebnisse stimmen in dem Grenzfall überein, wenn die Quantenzahlen sehr groß sind.",
+        "B: Quantenmechanik ist unabhängig von der klassischen Mechanik und hat keinerlei Ähnlichkeiten.",
+        "C: Es gibt keine Verbindung zwischen klassischen und quantenmechanischen Systemen.",
+        "D: Die Korrespondenzregel ist nur für Teilchen mit einer Masse größer als Null gültig."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Korrespondenzregel besagt, dass die Vorhersagen der Quantenmechanik in dem Grenzfall, in dem die Quantenzahlen sehr groß sind, den Ergebnissen der klassischen Mechanik entsprechen. Dies ist wichtig, um die Verbindung zwischen beiden Theorien zu verstehen.",
+      "difficulty": 5,
+      "subcategory": "Korrespondenzregel (Operatorersatz)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Kriterien für Kanonizität (Symplektizität)",
+      "question": "Welche Bedingung beschreibt die Symplektizität in der analytischen Mechanik?",
+      "choices": [
+        "A: Die Zeit muss unabhängig von den Koordinaten betrachtet werden.",
+        "B: Alle physikalischen Größen müssen kontinuierlich sein.",
+        "C: Die Hamiltonschen Gleichungen müssen die Form eines kanonischen Systems haben.",
+        "D: Der Energieerhaltungssatz muss für alle Systeme gelten."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Symplektizität ist eine zentrale Eigenschaft kanonischer Systeme in der analytischen Mechanik, die sicherstellt, dass die Hamiltonschen Gleichungen die Form eines kanonischen Systems haben. Diese Bedingung ist notwendig, um die Erhaltung der Struktur im Phasenraum zu gewährleisten.",
+      "difficulty": 7,
+      "subcategory": "Kriterien für Kanonizität (Symplektizität)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Reibungsvakuummeter",
+      "question": "Welcher physikalische Grundsatz beschreibt, wie ein Reibungsvakuummeter funktioniert?",
+      "choices": [
+        "A: Die Impulserhaltung.",
+        "B: Das Prinzip der kommunizierenden Röhren.",
+        "C: Der hydrostatische Druck.",
+        "D: Der Gesetz von Hooke."
+      ],
+      "correct_answer": "C",
+      "explanation": "Ein Reibungsvakuummeter misst den Druck, indem es den hydrostatischen Druck in einem System erfasst. Der Druckunterschied führt dazu, dass eine bestimmte Kraft auf die Messeinheit wirkt, die in den entsprechenden Werten angezeigt wird.",
+      "difficulty": 6,
+      "subcategory": "Reibungsvakuummeter"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Kryo- & Sorptionspumpen",
+      "question": "Welche Funktion haben Kryopumpen in der Vakuumtechnik?",
+      "choices": [
+        "A: Sie erzeugen elektrische Energie.",
+        "B: Sie entfernen Gase durch Abkühlung und Kondensation.",
+        "C: Sie messen die Temperatur von Gasen.",
+        "D: Sie erhöhen den Druck in einem Behälter."
+      ],
+      "correct_answer": "B",
+      "explanation": "Kryopumpen funktionieren, indem sie Gase durch extreme Abkühlung auf eine kalte Oberfläche kondensieren. Dies ermöglicht die Erzeugung eines hohen Vakuums, indem die Moleküle aus dem Raum entfernt werden.",
+      "difficulty": 2,
+      "subcategory": "Kryo- & Sorptionspumpen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Moden im dielektrischen Wellenleiter",
+      "question": "Welche der folgenden Aussagen über die Moden im dielektrischen Wellenleiter ist korrekt?",
+      "choices": [
+        "A: Höhere Moden haben eine kontinuierliche Energieverteilung ohne feste Knotenpunkte.",
+        "B: Die Grundmode hat die niedrigste Ausbreitungsgeschwindigkeit und die größte Energieverteilung.",
+        "C: Die Anzahl der unterstützten Moden hängt nur von der Wellenleiterlänge ab.",
+        "D: Die Grundmode ist immer die einzige Mode, die in einem dielektrischen Wellenleiter existiert."
+      ],
+      "correct_answer": "B",
+      "explanation": "Im dielektrischen Wellenleiter hat die Grundmode die niedrigste Ausbreitungsgeschwindigkeit und die höchste Energieverteilung in der Querschnittsfläche. Höhere Moden haben komplexere Verteilungen und Knotenpunkte, was die Anzahl der unterstützten Moden von Faktoren wie dem Wellenleiterdurchmesser und der Wellenlänge abhängt.",
+      "difficulty": 9,
+      "subcategory": "Moden im dielektrischen Wellenleiter"
+    }
+  ]
+}
