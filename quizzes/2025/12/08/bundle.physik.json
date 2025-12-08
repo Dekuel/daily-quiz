@@ -1,0 +1,168 @@
+{
+  "date": "2025-12-08",
+  "generated_at": "2025-12-08T03:55:02Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Zeitentwicklung (Heisenberg-Bild)",
+      "question": "Was beschreibt die Zeitentwicklung eines Quantenzustands im Heisenberg-Bild?",
+      "choices": [
+        "A: Die Operatoren verändern sich mit der Zeit, während die Zustände konstant bleiben.",
+        "B: Die Zeit spielt im Heisenberg-Bild keine Rolle.",
+        "C: Sowohl die Zustände als auch die Operatoren verändern sich mit der Zeit.",
+        "D: Die Zustände verändern sich mit der Zeit, während die Operatoren konstant bleiben."
+      ],
+      "correct_answer": "A",
+      "explanation": "Im Heisenberg-Bild der Quantenmechanik sind die Zustände zeitunabhängig, während die physikalischen Größen durch zeitabhängige Operatoren beschrieben werden. Dies ermöglicht eine alternative Betrachtungsweise zur Zeitentwicklung im Vergleich zum Schrödinger-Bild.",
+      "difficulty": 5,
+      "subcategory": "Zeitentwicklung (Heisenberg-Bild)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Lichttechnische Größen",
+      "question": "Welche der folgenden Größen beschreibt die Lichtstärke in einer bestimmten Richtung?",
+      "choices": [
+        "A: Watt",
+        "B: Candela",
+        "C: Lux",
+        "D: Lumen"
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Candela ist die Einheit der Lichtstärke in eine bestimmte Richtung und ist eine der sieben Basiseinheiten im Internationalen Einheitensystem (SI). Im Gegensatz dazu beschreibt das Lumen die gesamte Lichtmenge, die von einer Lichtquelle ausgestrahlt wird, während Lux die Beleuchtungsstärke angibt.",
+      "difficulty": 7,
+      "subcategory": "Lichttechnische Größen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "s-Streuung am Potentialtopf",
+      "question": "Welche Aussage zur s-Streuung an einem eindimensionalen Potentialtopf ist korrekt?",
+      "choices": [
+        "A: Die Transmission hängt nicht von der Energie des eingehenden Teilchens ab.",
+        "B: Die Reflexionsamplitude ist immer gleich null.",
+        "C: Bei einer Energie unterhalb der Potentialhöhe beträgt die Transmission einen Wert zwischen 0 und 1.",
+        "D: Die Wellenfunktion ist außerhalb des Potentialtopfes immer konstant."
+      ],
+      "correct_answer": "C",
+      "explanation": "Bei der s-Streuung an einem Potentialtopf kann ein Teilchen, dessen Energie unterhalb der Potentialhöhe liegt, mit einer gewissen Wahrscheinlichkeit hindurchtunneln. Dies führt zu einer Transmission, die zwischen 0 (keine Transmission) und 1 (vollständige Transmission) variiert, abhängig von der spezifischen Energie des Teilchens und den Eigenschaften des Potentials.",
+      "difficulty": 7,
+      "subcategory": "s-Streuung am Potentialtopf"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Lichtleitung durch Totalreflexion",
+      "question": "Was ist die Bedingung für Totalreflexion eines Lichtstrahls an der Grenzfläche zwischen zwei Medien?",
+      "choices": [
+        "A: Der Lichtstrahl trifft senkrecht auf die Grenzfläche.",
+        "B: Der Lichtstrahl trifft unter einem Winkel größer als der Grenzwinkel ein.",
+        "C: Der Lichtstrahl kommt aus einem dunklen Medium.",
+        "D: Der Lichtstrahl hat eine hohe Frequenz."
+      ],
+      "correct_answer": "B",
+      "explanation": "Totalreflexion tritt auf, wenn Licht an der Grenzfläche zwischen zwei Medien auf einen Winkel trifft, der größer ist als der kritische Winkel. In diesem Fall wird das Licht vollständig im ersten Medium reflektiert und dringt nicht in das zweite Medium ein.",
+      "difficulty": 1,
+      "subcategory": "Lichtleitung durch Totalreflexion"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Reziprokes Gitter",
+      "question": "Was beschreibt das reziproke Gitter in der Festkörperphysik?",
+      "choices": [
+        "A: Die Struktur von elektronischen Bändern in Materialien.",
+        "B: Die Beziehung zwischen der Wellenlänge und dem Kristallgitter.",
+        "C: Die Anordnung der Atome in einem Kristall.",
+        "D: Die geometrischen Eigenschaften von Wellen und deren Interferenz."
+      ],
+      "correct_answer": "B",
+      "explanation": "Das reziproke Gitter ist ein Konzept, das die Beziehung zwischen der Wellenlänge von Wellen und der Struktur eines Kristallgitters beschreibt. Es wird häufig in der Festkörperphysik verwendet, um die Eigenschaften von Kristallen und deren Beugung von Wellen zu analysieren.",
+      "difficulty": 1,
+      "subcategory": "Reziprokes Gitter"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Spektroskopie mittels Kernreaktionen",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt den Prozess der Kernspaltung in Bezug auf die Spektroskopie mittels Kernreaktionen?",
+      "choices": [
+        "A: Die Spektroskopie mittels Kernreaktionen erfordert keine speziellen Detektoren, da alle Reaktionen gleich sind.",
+        "B: Kernspaltung ist ein rein thermischer Prozess und hat keinen Einfluss auf die Kernresonanzspektroskopie.",
+        "C: Bei der Kernspaltung wird Energie in Form von Photonen emittiert, die zur Spektroskopie verwendet werden können.",
+        "D: In der Kernspaltung entstehen keine neuen Isotope, die für spektroskopische Analysen verwendet werden könnten."
+      ],
+      "correct_answer": "C",
+      "explanation": "Bei der Kernspaltung werden große Mengen von Energie freigesetzt, oft in Form von Photonen, die für die Spektroskopie genutzt werden können. Diese Photonen tragen Informationen über die Energiezustände der Produkte der Spaltung und sind entscheidend für die Analyse der Reaktionen.",
+      "difficulty": 10,
+      "subcategory": "Spektroskopie mittels Kernreaktionen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Carnot-Kreisprozess & Wirkungsgrad",
+      "question": "Was ist der maximal mögliche Wirkungsgrad eines Carnot-Kreisprozesses, der zwischen zwei Temperaturreservoirs mit Temperaturen T1 und T2 arbeitet?",
+      "choices": [
+        "A: T1 / (T1 + T2)",
+        "B: T2 / (T1 + T2)",
+        "C: 1 - (T2/T1)",
+        "D: (T1/T2) - 1"
+      ],
+      "correct_answer": "C",
+      "explanation": "Der maximale Wirkungsgrad eines Carnot-Kreisprozesses wird durch die Temperaturverhältnisse der beiden Reservoirs bestimmt. Er ist gegeben durch die Formel 1 - (T2/T1), wobei T1 die höhere und T2 die niedrigere Temperatur ist. Diese Beziehung zeigt, dass der Wirkungsgrad davon abhängt, wie groß der Temperaturunterschied ist.",
+      "difficulty": 4,
+      "subcategory": "Carnot-Kreisprozess & Wirkungsgrad"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Wärmekapazitäten (C_V, C_p, Beziehungen)",
+      "question": "Welche der folgenden Aussagen über die Wärmekapazitäten C_V und C_p ist korrekt?",
+      "choices": [
+        "A: C_p ist immer größer als C_V für ideale Gase.",
+        "B: C_p ist die Wärmekapazität bei konstantem Volumen.",
+        "C: C_V beschreibt die Wärmekapazität bei konstantem Druck.",
+        "D: C_V und C_p sind für alle Stoffe gleich."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Wärmekapazität C_p beschreibt die Wärmemenge, die benötigt wird, um die Temperatur eines Gases bei konstantem Druck zu erhöhen, während C_V die Wärmemenge bei konstantem Volumen beschreibt. Für ideale Gase ist C_p immer größer als C_V, da bei konstantem Druck zusätzlich Arbeit gegen den Umgebungsdruck verrichtet wird.",
+      "difficulty": 4,
+      "subcategory": "Wärmekapazitäten (C_V, C_p, Beziehungen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Photoeffekt (Grundlagen)",
+      "question": "Was ist eine Voraussetzung für den Photoeffekt?",
+      "choices": [
+        "A: Die Lichtquelle muss konstant sein.",
+        "B: Die einfallende Strahlung muss eine bestimmte Frequenz überschreiten.",
+        "C: Es muss eine chemische Reaktion im Material stattfinden.",
+        "D: Die Temperatur des Materials muss über 100 Grad Celsius liegen."
+      ],
+      "correct_answer": "B",
+      "explanation": "Der Photoeffekt tritt auf, wenn Licht auf ein Material trifft und Elektronen aus diesem Material herausgelöst werden. Eine Voraussetzung dafür ist, dass die Frequenz der einfallenden Strahlung einen bestimmten Wert überschreiten muss, der für jedes Material unterschiedlich ist.",
+      "difficulty": 4,
+      "subcategory": "Photoeffekt (Grundlagen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Variationsverfahren (Extremalprinzip)",
+      "question": "Was beschreibt das Variationsverfahren in der Quantenmechanik?",
+      "choices": [
+        "A: Es erklärt die Reaktion von Materie auf elektromagnetische Felder.",
+        "B: Es wird verwendet, um die optimale Wellenfunktion eines Systems zu finden.",
+        "C: Es wird eingesetzt, um die Bewegung von Planeten zu analysieren.",
+        "D: Es dient der Berechnung von Kinetik und Dynamik von Makrosystemen."
+      ],
+      "correct_answer": "B",
+      "explanation": "Das Variationsverfahren ist ein mathematisches Werkzeug, das in der Quantenmechanik eingesetzt wird, um die Wellenfunktion eines quantenmechanischen Systems zu optimieren. Durch die Variation bestimmter Parameter kann die niedrigste Energie eines Systems gefunden werden, was entscheidend für die Beschreibung seiner physikalischen Eigenschaften ist.",
+      "difficulty": 1,
+      "subcategory": "Variationsverfahren (Extremalprinzip)"
+    }
+  ]
+}

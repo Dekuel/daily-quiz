@@ -1,0 +1,168 @@
+{
+  "date": "2025-12-08",
+  "generated_at": "2025-12-08T03:55:26Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Zeitentwicklung (Heisenberg-Bild)",
+      "question": "What describes the time evolution of a quantum state in the Heisenberg picture?",
+      "choices": [
+        "A: The operators change with time while the states remain constant.",
+        "B: Time does not play a role in the Heisenberg picture.",
+        "C: Both the states and the operators change with time.",
+        "D: The states change with time while the operators remain constant."
+      ],
+      "correct_answer": "A",
+      "explanation": "In the Heisenberg picture of quantum mechanics, the states are time-independent, while the physical quantities are described by time-dependent operators. This allows for an alternative view of time evolution compared to the Schrödinger picture.",
+      "difficulty": 5,
+      "subcategory": "Zeitentwicklung (Heisenberg-Bild)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Lichttechnische Größen",
+      "question": "Which of the following quantities describes luminous intensity in a specific direction?",
+      "choices": [
+        "A: Watt",
+        "B: Candela",
+        "C: Lux",
+        "D: Lumen"
+      ],
+      "correct_answer": "B",
+      "explanation": "The candela is the unit of luminous intensity in a specific direction and is one of the seven base units in the International System of Units (SI). In contrast, the lumen describes the total amount of light emitted by a light source, while lux indicates illuminance.",
+      "difficulty": 7,
+      "subcategory": "Lichttechnische Größen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "s-Streuung am Potentialtopf",
+      "question": "Which statement regarding s-scattering at a one-dimensional potential well is correct?",
+      "choices": [
+        "A: The transmission does not depend on the energy of the incoming particle.",
+        "B: The reflection amplitude is always zero.",
+        "C: For energy below the potential height, the transmission has a value between 0 and 1.",
+        "D: The wave function is always constant outside the potential well."
+      ],
+      "correct_answer": "C",
+      "explanation": "In s-scattering at a potential well, a particle whose energy is below the potential height can tunnel through with a certain probability. This leads to a transmission that varies between 0 (no transmission) and 1 (complete transmission), depending on the specific energy of the particle and the properties of the potential.",
+      "difficulty": 7,
+      "subcategory": "s-Streuung am Potentialtopf"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Lichtleitung durch Totalreflexion",
+      "question": "What is the condition for total reflection of a light beam at the interface between two media?",
+      "choices": [
+        "A: The light beam hits the interface perpendicularly.",
+        "B: The light beam enters at an angle greater than the critical angle.",
+        "C: The light beam comes from a dark medium.",
+        "D: The light beam has a high frequency."
+      ],
+      "correct_answer": "B",
+      "explanation": "Total reflection occurs when light hits the interface between two media at an angle greater than the critical angle. In this case, the light is completely reflected in the first medium and does not penetrate into the second medium.",
+      "difficulty": 1,
+      "subcategory": "Lichtleitung durch Totalreflexion"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Reziprokes Gitter",
+      "question": "What does the reciprocal lattice describe in solid-state physics?",
+      "choices": [
+        "A: The structure of electronic bands in materials.",
+        "B: The relationship between wavelength and crystal lattice.",
+        "C: The arrangement of atoms in a crystal.",
+        "D: The geometric properties of waves and their interference."
+      ],
+      "correct_answer": "B",
+      "explanation": "The reciprocal lattice is a concept that describes the relationship between the wavelength of waves and the structure of a crystal lattice. It is commonly used in solid-state physics to analyze the properties of crystals and their wave diffraction.",
+      "difficulty": 1,
+      "subcategory": "Reziprokes Gitter"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Spektroskopie mittels Kernreaktionen",
+      "question": "Which of the following statements correctly describes the process of nuclear fission in relation to spectroscopy using nuclear reactions?",
+      "choices": [
+        "A: Spectroscopy using nuclear reactions does not require special detectors as all reactions are the same.",
+        "B: Nuclear fission is a purely thermal process and has no effect on nuclear magnetic resonance spectroscopy.",
+        "C: Nuclear fission emits energy in the form of photons that can be used for spectroscopy.",
+        "D: Nuclear fission does not produce new isotopes that could be used for spectroscopic analysis."
+      ],
+      "correct_answer": "C",
+      "explanation": "In nuclear fission, large amounts of energy are released, often in the form of photons that can be used for spectroscopy. These photons carry information about the energy states of the fission products and are crucial for the analysis of the reactions.",
+      "difficulty": 10,
+      "subcategory": "Spektroskopie mittels Kernreaktionen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Carnot-Kreisprozess & Wirkungsgrad",
+      "question": "What is the maximum possible efficiency of a Carnot cycle process operating between two temperature reservoirs with temperatures T1 and T2?",
+      "choices": [
+        "A: T1 / (T1 + T2)",
+        "B: T2 / (T1 + T2)",
+        "C: 1 - (T2/T1)",
+        "D: (T1/T2) - 1"
+      ],
+      "correct_answer": "C",
+      "explanation": "The maximum efficiency of a Carnot cycle process is determined by the temperature ratio of the two reservoirs. It is given by the formula 1 - (T2/T1), where T1 is the higher temperature and T2 is the lower temperature. This relationship shows that the efficiency depends on how large the temperature difference is.",
+      "difficulty": 4,
+      "subcategory": "Carnot-Kreisprozess & Wirkungsgrad"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Wärmekapazitäten (C_V, C_p, Beziehungen)",
+      "question": "Which of the following statements about the heat capacities C_V and C_p is correct?",
+      "choices": [
+        "A: C_p is always greater than C_V for ideal gases.",
+        "B: C_p is the heat capacity at constant volume.",
+        "C: C_V describes the heat capacity at constant pressure.",
+        "D: C_V and C_p are the same for all substances."
+      ],
+      "correct_answer": "A",
+      "explanation": "The heat capacity C_p describes the amount of heat needed to increase the temperature of a gas at constant pressure, while C_V describes the heat capacity at constant volume. For ideal gases, C_p is always greater than C_V because additional work is done against the ambient pressure at constant pressure.",
+      "difficulty": 4,
+      "subcategory": "Wärmekapazitäten (C_V, C_p, Beziehungen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Photoeffekt (Grundlagen)",
+      "question": "What is a requirement for the photoelectric effect?",
+      "choices": [
+        "A: The light source must be constant.",
+        "B: The incident radiation must exceed a certain frequency.",
+        "C: A chemical reaction must occur in the material.",
+        "D: The temperature of the material must be above 100 degrees Celsius."
+      ],
+      "correct_answer": "B",
+      "explanation": "The photoelectric effect occurs when light strikes a material and electrons are ejected from the material. One requirement is that the frequency of the incident radiation must exceed a certain value, which is different for each material.",
+      "difficulty": 4,
+      "subcategory": "Photoeffekt (Grundlagen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Variationsverfahren (Extremalprinzip)",
+      "question": "What does the variational method describe in quantum mechanics?",
+      "choices": [
+        "A: It explains the response of matter to electromagnetic fields.",
+        "B: It is used to find the optimal wave function of a system.",
+        "C: It is used to analyze the motion of planets.",
+        "D: It is used to calculate the kinetics and dynamics of macro systems."
+      ],
+      "correct_answer": "B",
+      "explanation": "The variational method is a mathematical tool used in quantum mechanics to optimize the wave function of a quantum mechanical system. By varying certain parameters, the lowest energy of a system can be found, which is crucial for describing its physical properties.",
+      "difficulty": 1,
+      "subcategory": "Variationsverfahren (Extremalprinzip)"
+    }
+  ]
+}
