@@ -1,0 +1,168 @@
+{
+  "date": "2025-12-09",
+  "generated_at": "2025-12-09T03:50:20Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Energietransport in Wellenfeldern (Poynting-Vektor)",
+      "question": "What does the Poynting vector describe in electrodynamics?",
+      "choices": [
+        "A: The velocity of electric charges.",
+        "B: The wavelength of electromagnetic waves.",
+        "C: The strength of an electric field.",
+        "D: The direction and flow of electromagnetic energy."
+      ],
+      "correct_answer": "D",
+      "explanation": "The Poynting vector is an important concept in electrodynamics that describes the flow and direction of electromagnetic energy. It shows how much energy per unit area and unit time is transported through a specific point in space.",
+      "difficulty": 3,
+      "subcategory": "Energietransport in Wellenfeldern (Poynting-Vektor)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Elastische Eigenschaften (Überblick)",
+      "question": "What does the Young's modulus describe in elasticity theory?",
+      "choices": [
+        "A: The ratio of stress to strain in an elastic material.",
+        "B: The density of a material at room temperature.",
+        "C: The ability of a material to conduct heat.",
+        "D: The maximum strain a material can withstand without breaking."
+      ],
+      "correct_answer": "A",
+      "explanation": "The Young's modulus is a measure of the stiffness of an elastic material and describes the ratio of stress (force per area) to strain (relative length change) in the elastic range. The higher the Young's modulus, the stiffer the material and the less it stretches under load.",
+      "difficulty": 4,
+      "subcategory": "Elastische Eigenschaften (Überblick)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Nukleon‑Nukleon‑Streuung",
+      "question": "What best describes nucleon-nucleon scattering?",
+      "choices": [
+        "A: The interaction between atoms in a solid.",
+        "B: The interaction between photons and electrons in quantum electrodynamics.",
+        "C: The interaction between protons and neutrons within an atomic nucleus.",
+        "D: The interaction between electrons and protons in an electron beam."
+      ],
+      "correct_answer": "C",
+      "explanation": "Nucleon-nucleon scattering refers to the interactions between protons and neutrons, which are the building blocks of atomic nuclei. These interactions are crucial for understanding nuclear forces and the stability of atomic nuclei.",
+      "difficulty": 5,
+      "subcategory": "Nukleon‑Nukleon‑Streuung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Fabry–Perot-Interferometer (Vielfachinterferenzen)",
+      "question": "What does the Fabry–Perot interferometer describe in terms of light rays?",
+      "choices": [
+        "A: It is a device for generating monochromatic light.",
+        "B: It converts light rays into electrical signals.",
+        "C: It measures the speed of light rays in different media.",
+        "D: It generates multiple interferences through multiple reflections and superposition of light rays."
+      ],
+      "correct_answer": "D",
+      "explanation": "The Fabry–Perot interferometer utilizes multiple reflections of light rays between two parallel mirrors to generate interference patterns. These interferences arise from the superposition of the reflected light rays and are crucial for analyzing the wavelengths and frequencies of light.",
+      "difficulty": 6,
+      "subcategory": "Fabry–Perot-Interferometer (Vielfachinterferenzen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Feldstärke-Tensor (Fμν)",
+      "question": "What does the field strength tensor Fμν describe in relativity theory?",
+      "choices": [
+        "A: The gravitational force between two masses.",
+        "B: The time dilation of moving objects.",
+        "C: The structure of space and time.",
+        "D: The interactions between electric and magnetic fields."
+      ],
+      "correct_answer": "D",
+      "explanation": "The field strength tensor Fμν describes the electromagnetic fields and their interactions in relativity theory. It is an essential element in describing electromagnetic phenomena in a relativistic context.",
+      "difficulty": 5,
+      "subcategory": "Feldstärke-Tensor (Fμν)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Einschub über Lichtwellen (Optikbezug)",
+      "question": "What does the phenomenon of refraction of light waves describe?",
+      "choices": [
+        "A: The absorption of light by a material.",
+        "B: The reflection of light on a surface.",
+        "C: The scattering of light by small particles.",
+        "D: The change in the speed of light when transitioning between two media."
+      ],
+      "correct_answer": "D",
+      "explanation": "The refraction of light occurs when light transitions from one medium to another, changing its speed in the process. This results in a change in the direction of the light beam, which is described by Snell's law of refraction.",
+      "difficulty": 5,
+      "subcategory": "Einschub über Lichtwellen (Optikbezug)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Elastische Konstanten",
+      "question": "Which of the following statements about the elastic constant of a material is correct?",
+      "choices": [
+        "A: A higher value of the elastic constant means the material is more flexible.",
+        "B: The elastic constant has no effect on the speed of sound in a material.",
+        "C: The elastic constant describes how strongly a material responds to tensile and compressive forces.",
+        "D: The elastic constant is always the same, regardless of temperature."
+      ],
+      "correct_answer": "C",
+      "explanation": "The elastic constant is a measure of a material's ability to deform under stress and return to its original shape. It is crucial for understanding mechanical properties and deformations in solids. The other statements are incorrect as temperature and material properties can influence the elastic constant.",
+      "difficulty": 7,
+      "subcategory": "Elastische Konstanten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Tunneleffekt",
+      "question": "What does the tunneling effect describe in quantum mechanics?",
+      "choices": [
+        "A: Particles always behave like classical objects at high speeds.",
+        "B: Particles can tunnel through energetic barriers even though they do not have enough energy.",
+        "C: Particles always move at the speed of light in a vacuum.",
+        "D: Particles can only exist in discrete energy levels."
+      ],
+      "correct_answer": "B",
+      "explanation": "The tunneling effect is a quantum mechanical phenomenon where particles can penetrate barriers without overcoming the classical energy barrier. This is a central concept in quantum mechanics and has applications in technologies such as tunneling microscopes and nuclear fusion.",
+      "difficulty": 7,
+      "subcategory": "Tunneleffekt"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Elektromagnetische Übergänge",
+      "question": "Which of the following processes describes an electromagnetic transition in an atom?",
+      "choices": [
+        "A: An electron changes its spin without energy exchange.",
+        "B: An electron jumps from a higher to a lower energy level and emits a photon.",
+        "C: A proton is converted into a neutron by a neutron collision.",
+        "D: An electron is ejected from the atomic nucleus by a strong interaction."
+      ],
+      "correct_answer": "B",
+      "explanation": "An electromagnetic transition occurs when an electron moves between different energy levels within an atom, emitting or absorbing a photon in the process. These processes are crucial for explaining spectral lines and other atomic properties.",
+      "difficulty": 6,
+      "subcategory": "Elektromagnetische Übergänge"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Phasenübergänge & kritische Phänomene (Überblick)",
+      "question": "What does a critical point in a phase diagram describe?",
+      "choices": [
+        "A: The point at which a substance reaches its highest density.",
+        "B: The point at which the phases of a substance are no longer distinguishable.",
+        "C: The point at which the molecules of a substance move rapidly.",
+        "D: The point at which the temperature of a substance remains constant."
+      ],
+      "correct_answer": "B",
+      "explanation": "A critical point is the state where the properties of different phases (liquid and gas) become equal and indistinguishable. This leads to a phase transition, which is visible in the phase diagram.",
+      "difficulty": 4,
+      "subcategory": "Phasenübergänge & kritische Phänomene (Überblick)"
+    }
+  ]
+}
