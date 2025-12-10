@@ -1,0 +1,168 @@
+{
+  "date": "2025-12-10",
+  "generated_at": "2025-12-10T03:55:22Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Elektrischer Strom (Definition & Kontinuitätsgleichung)",
+      "question": "Was beschreibt die Kontinuitätsgleichung im Kontext des elektrischen Stroms?",
+      "choices": [
+        "A: Die Beziehung zwischen Spannung und Widerstand in einem elektrischen Schaltkreis.",
+        "B: Die Erhaltung der elektrischen Ladung in einem geschlossenen System.",
+        "C: Die Umwandlung elektrischer Energie in Wärme in einem Widerstand.",
+        "D: Die maximale Stromstärke, die ein Leiter ohne Überhitzung führen kann."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Kontinuitätsgleichung besagt, dass die elektrische Ladung in einem geschlossenen System erhalten bleibt. Dies bedeutet, dass der gesamte elektrische Strom, der in einen Querschnitt eines Leiters eintritt, gleich dem Strom ist, der ihn verlässt, was die Erhaltung der Ladung beschreibt.",
+      "difficulty": 8,
+      "subcategory": "Elektrischer Strom (Definition & Kontinuitätsgleichung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Stokes’scher Satz",
+      "question": "Welcher der folgenden Aussagen beschreibt korrekt die Anwendung des Stokes’schen Satzes?",
+      "choices": [
+        "A: Der Satz ist nur für konstante Vektorfelder anwendbar.",
+        "B: Der Satz kann nicht in der Elektrodynamik angewendet werden.",
+        "C: Der Satz besagt, dass die Divergenz eines Vektorfeldes über eine Fläche das Volumenintegral des Vektorfeldes ist.",
+        "D: Der Satz verbindet Oberflächenintegrale mit Linienintegralen und beschreibt die Zirkulation eines Vektorfeldes."
+      ],
+      "correct_answer": "D",
+      "explanation": "Der Stokes’sche Satz verbindet das Linienintegral eines Vektorfeldes entlang eines geschlossenen Pfades mit dem Oberflächenintegral der Rotation dieses Vektorfeldes über die Fläche, die von dem Pfad umschlossen wird. Diese Beziehung ist grundlegend für viele Anwendungen in der Elektrodynamik, insbesondere bei der Analyse von elektromagnetischen Feldern.",
+      "difficulty": 4,
+      "subcategory": "Stokes’scher Satz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "β‑Zerfall (β±, EC)",
+      "question": "Was ist das Hauptmerkmal eines β+ (Beta-plus) Zerfalls?",
+      "choices": [
+        "A: Ein Proton wird in ein Neutron umgewandelt und ein Positron wird emittiert.",
+        "B: Ein Proton zerfällt in zwei Neutronen und emittiert dabei ein Antineutrino.",
+        "C: Ein Neutron bleibt stabil und gibt ein Photon ab.",
+        "D: Ein Neutron wird in ein Proton umgewandelt und ein Elektron wird emittiert."
+      ],
+      "correct_answer": "A",
+      "explanation": "Beim β+ Zerfall wandelt sich ein Proton in ein Neutron um, wobei ein Positron und ein Neutrino emittiert werden. Dies führt zu einer Abnahme der Protonenzahl im Atomkern und ist eine Form der Positronenstrahlung.",
+      "difficulty": 7,
+      "subcategory": "β‑Zerfall (β±, EC)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Carnot-Kreisprozess & Wirkungsgrad",
+      "question": "Was beschreibt der Carnot-Wirkungsgrad in einem idealen Thermodynamikprozess?",
+      "choices": [
+        "A: Das Verhältnis der geleisteten Arbeit zur zugeführten Wärme.",
+        "B: Den Gesamtenergieverlust während des Prozesses.",
+        "C: Die maximale mögliche Effizienz eines Wärmeprozesses zwischen zwei Temperaturgrenzen.",
+        "D: Die Temperaturdifferenz zwischen den beteiligten Reservoirs."
+      ],
+      "correct_answer": "C",
+      "explanation": "Der Carnot-Wirkungsgrad gibt die maximale Effizienz an, die ein Wärmekraftwerk erreichen kann, wenn es zwischen zwei Temperaturreservoirs arbeitet. Er ist eine theoretische Obergrenze und hängt nur von den Temperaturen der Reservoirs ab.",
+      "difficulty": 6,
+      "subcategory": "Carnot-Kreisprozess & Wirkungsgrad"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Elektrischer Ladungstransport",
+      "question": "Was beschreibt den Zusammenhang zwischen der elektrischen Mobilität und der Driftgeschwindigkeit von Ladungsträgern in einem Festkörper?",
+      "choices": [
+        "A: Die Driftgeschwindigkeit ist invers proportional zur elektrischen Mobilität.",
+        "B: Die Driftgeschwindigkeit ist unabhängig von der elektrischen Mobilität.",
+        "C: Die Driftgeschwindigkeit hängt nur von der Temperatur ab.",
+        "D: Die Driftgeschwindigkeit ist direkt proportional zur elektrischen Mobilität."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Driftgeschwindigkeit von Ladungsträgern in einem elektrischen Feld ist direkt proportional zur elektrischen Mobilität, was bedeutet, dass eine höhere Mobilität zu einer schnelleren Driftgeschwindigkeit führt. Dies ist ein grundlegendes Konzept in der Festkörperphysik und entscheidend für das Verständnis von Halbleitern und anderen Materialien.",
+      "difficulty": 8,
+      "subcategory": "Elektrischer Ladungstransport"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Magnetisches Moment",
+      "question": "Was beschreibt das magnetische Moment eines Körpers?",
+      "choices": [
+        "A: Die elektrische Ladung des Körpers.",
+        "B: Die Stärke und Richtung seines magnetischen Feldes.",
+        "C: Die Masse des Körpers.",
+        "D: Die Temperatur des Körpers."
+      ],
+      "correct_answer": "B",
+      "explanation": "Das magnetische Moment ist eine physikalische Größe, die die Stärke und Richtung des magnetischen Feldes eines Körpers beschreibt. Es ist besonders wichtig in der Elektrodynamik, um das Verhalten von magnetischen Materialien zu verstehen.",
+      "difficulty": 3,
+      "subcategory": "Magnetisches Moment"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Relativistischer Impuls, Energie und Kraft",
+      "question": "Was beschreibt der relativistische Impuls eines Körpers, der sich mit relativistischer Geschwindigkeit bewegt?",
+      "choices": [
+        "A: Er ist immer geringer als der klassische Impuls bei jeder Geschwindigkeit.",
+        "B: Er bleibt konstant unabhängig von der Geschwindigkeit des Körpers.",
+        "C: Er nimmt zu und wird unendlich, wenn die Geschwindigkeit die Lichtgeschwindigkeit erreicht.",
+        "D: Er ist gleich der klassischen Impulsformel, da relativistische Effekte vernachlässigbar sind."
+      ],
+      "correct_answer": "C",
+      "explanation": "Der relativistische Impuls eines Körpers nimmt mit steigender Geschwindigkeit zu und erreicht Unendlichkeit, wenn die Lichtgeschwindigkeit erreicht wird. Dies ist eine zentrale Aussage der Relativitätstheorie, die zeigt, dass die klassischen Konzepte in relativistischen Geschwindigkeitsbereichen nicht mehr gelten.",
+      "difficulty": 5,
+      "subcategory": "Relativistischer Impuls, Energie und Kraft"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Wellenpakete (Optik)",
+      "question": "Welches der folgenden Konzepte beschreibt am besten die Wechselwirkung zwischen Wellenpaketen und nichtlinearen Medien?",
+      "choices": [
+        "A: Wellenpakete können sich in nichtlinearen Medien nicht brechen.",
+        "B: Die Dispersion führt zur zeitlichen Verbreiterung von Wellenpaketen.",
+        "C: Wellenpakete interagieren nicht mit elektrischen Feldern in nichtlinearen Medien.",
+        "D: In nichtlinearen Medien bleibt die Form des Wellenpakets stets unverändert."
+      ],
+      "correct_answer": "B",
+      "explanation": "In nichtlinearen Medien führt die Dispersion dazu, dass unterschiedliche Frequenzen innerhalb eines Wellenpakets unterschiedlich schnell reisen, was zu einer zeitlichen Verbreiterung führt. Dies ist ein zentrales Phänomen in der Optik, wenn es um die Ausbreitung von Pulsformen geht, insbesondere in Materialien mit nichtlinearer Antwort.",
+      "difficulty": 10,
+      "subcategory": "Wellenpakete (Optik)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Design und Herstellung von Objektiven",
+      "question": "Welches der folgenden Materialien hat die niedrigste Brechzahl und wird häufig zur Herstellung von kostengünstigen Objektiven verwendet?",
+      "choices": [
+        "A: Flintglas",
+        "B: Kronglas",
+        "C: Polycarbonat",
+        "D: Glasfaser"
+      ],
+      "correct_answer": "C",
+      "explanation": "Polycarbonat hat eine Brechzahl von etwa 1,586, was es zu einem der am häufigsten verwendeten Materialien für kostengünstige Objektive macht. Im Vergleich dazu haben Kronglas und Flintglas höhere Brechzahlen, was sie für spezielle optische Anwendungen geeignet macht.",
+      "difficulty": 9,
+      "subcategory": "Design und Herstellung von Objektiven"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Doppelspaltexperiment (Materiewellen)",
+      "question": "Was passiert im Doppelspaltexperiment, wenn nur ein Spalt geöffnet ist?",
+      "choices": [
+        "A: Die Teilchen bewegen sich langsamer.",
+        "B: Es entsteht ein Interferenzmuster.",
+        "C: Es entstehen keine Wellenmuster.",
+        "D: Es tritt nur eine Einzelspaltbeugung auf."
+      ],
+      "correct_answer": "D",
+      "explanation": "Wenn im Doppelspaltexperiment nur ein Spalt geöffnet ist, verhalten sich die Teilchen wie klassische Teilchen und erzeugen ein Beugungsmuster, das typischerweise einer Einzelspaltbeugung entspricht. Ein Interferenzmuster entsteht nur, wenn beide Spalten offen sind und die Materiewellen interferieren können.",
+      "difficulty": 7,
+      "subcategory": "Doppelspaltexperiment (Materiewellen)"
+    }
+  ]
+}
