@@ -1,105 +1,175 @@
 {
   "date": "2025-12-11",
-  "generated_at": "2025-12-11T03:55:28Z",
+  "generated_at": "2025-12-11T11:53:38Z",
   "schema_version": 6,
   "mode": "normal",
+  "bundle_type": "full",
   "questions": [
     {
-      "category": "Geschichte",
-      "topic": "Neuzeit",
-      "question": "Welches Land trat 1973 als erstes neues Mitglied der Europäischen Gemeinschaft bei?",
+      "category": "Glaube & Religion",
+      "topic": "Klassische & nordische Mythologien",
+      "question": "Welches antike Werk beschreibt das Jenseits und die Bedeutung von Totenriten im alten Ägypten?",
       "choices": [
-        "A: Irland",
-        "B: Dänemark",
-        "C: Griechenland",
-        "D: Vereinigtes Königreich"
+        "A: Das Gilgamesch-Epos",
+        "B: Das Buch der Toten",
+        "C: Die Ilias",
+        "D: Die Metamorphosen"
       ],
       "correct_answer": "B",
-      "explanation": "Dänemark trat 1973 gemeinsam mit Irland und dem Vereinigten Königreich der Europäischen Gemeinschaft bei. Dies war ein bedeutender Schritt in der Geschichte der europäischen Integration, der den Weg für zukünftige Erweiterungen der Gemeinschaft ebnete.",
-      "difficulty": 8
+      "explanation": "Das Buch der Toten ist eine Sammlung von Sprüchen und Texten, die den alten Ägyptern helfen sollten, sicher ins Jenseits zu gelangen. Es bietet wichtige Einblicke in den Totenkult und die Jenseitsvorstellungen der ägyptischen Kultur.",
+      "difficulty": 4
+    },
+    {
+      "question": "Welche Maßnahme gilt als besonders effektiv, um beim Wohnen Energie zu sparen?",
+      "category": "Alltag & Gesellschaft",
+      "subcategory": "Nachhaltiges Wohnen & Energiesparen",
+      "difficulty": 5,
+      "choices": [
+        "A: Balkonkraftwerke installieren",
+        "B: Heizkörper regelmäßig entlüften",
+        "C: Fenster ohne Wärmedämmung wählen",
+        "D: Thermostate auf maximaler Stufe einstellen"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "category": "Essen und Trinken",
+      "topic": "Küche international",
+      "question": "Welches dieser Kräuter ist ein typisches Element der südostasiatischen Küche und wird häufig in Gerichten wie Tom Yum verwendet?",
+      "choices": [
+        "A: Zitronengras",
+        "B: Thymian",
+        "C: Basilikum",
+        "D: Rosmarin"
+      ],
+      "correct_answer": "A",
+      "explanation": "Zitronengras ist ein charakteristisches Kraut der südostasiatischen Küche und verleiht vielen Gerichten, insbesondere Suppen und Currys, eine frische, zitrusartige Note. Es ist unverzichtbar für die Zubereitung von Klassikern wie Tom Yum, einer beliebten thailändischen Suppe.",
+      "difficulty": 2
+    },
+    {
+      "category": "Geographie",
+      "topic": "Humangeographie & Städte",
+      "question": "Welche der folgenden Begriffe beschreibt eine große städtische Region, die mehrere benachbarte Städte und deren Umland umfasst?",
+      "choices": [
+        "A: Urbanisierung",
+        "B: Metropolregion",
+        "C: Stadtstaat",
+        "D: Agglomeration"
+      ],
+      "correct_answer": "B",
+      "explanation": "Eine Metropolregion ist ein großes städtisches Gebiet, das mehrere Städte und deren umliegende Regionen umfasst. Agglomerationen sind zwar auch große Ansammlungen von Städten, aber der Begriff Metropolregion betont die wirtschaftlichen und sozialen Verbindungen zwischen den Städten und ihrem Umland.",
+      "difficulty": 4
+    },
+    {
+      "category": "Geschichte",
+      "topic": "Antike",
+      "question": "Welche Art von Kleidung trugen die meisten Männer im antiken Rom?",
+      "choices": [
+        "A: Kilt",
+        "B: Kimono",
+        "C: Anzug",
+        "D: Toga"
+      ],
+      "correct_answer": "D",
+      "explanation": "Im antiken Rom war die Toga ein deutliches Zeichen der Bürgerwürde und wurde hauptsächlich von Männern getragen. Sie war ein einfaches, langes Stück Stoff, das über den Körper gewickelt wurde und die sozialen Stellungen der Träger deutlich machte.",
+      "difficulty": 1
+    },
+    {
+      "category": "Kunst und Literatur",
+      "topic": "Zitate, Figuren & Allgemeinwissen",
+      "question": "Welches Zitat stammt von Oscar Wilde?",
+      "choices": [
+        "A: \"Die beste Art, die Zukunft vorherzusagen, ist, sie zu erfinden.\"",
+        "B: \"Die einzige Art, ein Leben zu leben, ist, es in der Gesellschaft von anderen zu verbringen.\"",
+        "C: \"Ich kann allem widerstehen, außer der Versuchung.\"",
+        "D: \"Der Mensch ist das Maß aller Dinge.\""
+      ],
+      "correct_answer": "C",
+      "explanation": "Oscar Wilde war ein irischer Schriftsteller und Dichter, bekannt für seinen scharfen Witz und seine ironischen Äußerungen. Das Zitat über die Versuchung spiegelt seinen Stil und seine Philosophie wider, die oft mit der Dekadenzbewegung des späten 19. Jahrhunderts in Verbindung gebracht wird.",
+      "difficulty": 6
     },
     {
       "category": "Natur",
       "topic": "Tierwelt",
-      "question": "Welches dieser Tiere gehört zu den Wirbeltieren?",
+      "question": "Welches Kommunikationsmittel nutzen Ameisen hauptsächlich, um Informationen über Nahrungsquellen zu verbreiten?",
       "choices": [
-        "A: Ein Regenwurm",
-        "B: Ein Goldfisch",
-        "C: Eine Qualle",
-        "D: Eine Ameise"
+        "A: Geräusche",
+        "B: Körperhaltungen",
+        "C: Lichtsignale",
+        "D: Pheromone"
       ],
-      "correct_answer": "B",
-      "explanation": "Wirbeltiere sind Tiere mit einer Wirbelsäule und einem inneren Skelett. Dazu zählen Fische, Vögel, Säugetiere, Reptilien und Amphibien. Goldfische sind eine häufige Art von Fischen, während Quallen, Regenwürmer und Ameisen zu den wirbellosen Tieren gehören.",
-      "difficulty": 3
-    },
-    {
-      "category": "Essen und Trinken",
-      "topic": "Getränke",
-      "question": "Welches Merkmal unterscheidet Mezcal signifikant von Tequila in der Produktionsweise?",
-      "choices": [
-        "A: Die Verwendung von verschiedenen Agavensorten.",
-        "B: Die Destillation in kontinuierlichen Säulen.",
-        "C: Die Lagerung in amerikanischen Eichenfässern.",
-        "D: Die Verwendung von Wasser aus artesischen Brunnen."
-      ],
-      "correct_answer": "A",
-      "explanation": "Mezcal kann aus zahlreichen Agavensorten hergestellt werden, während Tequila ausschließlich aus der blauen Agave produziert wird. Diese Vielfalt in der Rohstoffwahl verleiht Mezcal unterschiedliche Geschmäcker und Charakteristiken.",
+      "correct_answer": "D",
+      "explanation": "Ameisen verwenden Pheromone, um ihre Kollegen über Futterquellen zu informieren. Diese chemischen Signale ermöglichen eine effiziente Kommunikation und Navigation innerhalb ihrer Kolonien, indem sie Informationen schnell und präzise verbreiten.",
       "difficulty": 7
     },
     {
-      "category": "Glaube & Religion",
-      "topic": "Klassische & nordische Mythologien",
-      "question": "Welcher Gott ist als der Hauptgott der nordischen Mythologie bekannt?",
+      "category": "Sport",
+      "topic": "Olympische Spiele",
+      "question": "Was symbolisieren die fünf Ringe der Olympischen Spiele?",
       "choices": [
-        "A: Thor",
-        "B: Freyja",
-        "C: Loki",
-        "D: Odin"
+        "A: Die fünf Kontinente der Welt",
+        "B: Die fünf Hauptsportarten der Olympischen Spiele",
+        "C: Die fünf Disziplinen der Leichtathletik",
+        "D: Die fünf größten Städte der Welt"
       ],
-      "correct_answer": "D",
-      "explanation": "Odin gilt in der nordischen Mythologie als der Hauptgott und ist mit Weisheit, Krieg und Tod verbunden. Er ist auch der Vater von Thor und Loki und spielt eine zentrale Rolle in vielen Mythen und Legenden der nordischen Kultur.",
-      "difficulty": 2
+      "correct_answer": "A",
+      "explanation": "Die fünf Ringe stehen für die fünf Kontinente: Afrika, Amerika, Asien, Europa und Ozeanien. Sie symbolisieren die Vereinigung der Athleten aus aller Welt, die an den Olympischen Spielen teilnehmen, unabhängig von ihrer Herkunft.",
+      "difficulty": 1
     },
     {
       "category": "Sprache",
       "topic": "Wortherkunft",
-      "question": "Welches Wort hat seine Wurzeln im französischen 'mariage', das die Ehe beschreibt?",
+      "question": "Welches der folgenden Wörter hat KEINE slawische Herkunft?",
       "choices": [
-        "A: Heirat",
-        "B: Trauung",
-        "C: Verlobung",
-        "D: Hochzeit"
+        "A: Kiefern",
+        "B: Zelt",
+        "C: Karpfen",
+        "D: Borschtsch"
+      ],
+      "correct_answer": "B",
+      "explanation": "Das Wort 'Zelt' stammt aus dem mittelhochdeutschen 'zelte' und hat keine slawischen Wurzeln. 'Karpfen', 'Borschtsch' und 'Kiefern' sind hingegen durch slawische Einflüsse im Deutschen verankert. Slawische Herkunft bedeutet, dass die Wörter aus Sprachen wie Polnisch oder Tschechisch stammen und in den deutschen Wortschatz übergegangen sind.",
+      "difficulty": 7
+    },
+    {
+      "category": "Technologie",
+      "topic": "Computer & Internet",
+      "question": "Welches Bauteil ist entscheidend für die Verarbeitung von Daten in einem Computer?",
+      "choices": [
+        "A: RAM",
+        "B: HDD",
+        "C: GPU",
+        "D: CPU"
       ],
       "correct_answer": "D",
-      "explanation": "Das Wort 'Hochzeit' stammt von dem französischen 'mariage', was auf die Eheschließung hinweist. Während 'Heirat' und 'Trauung' andere Begriffe für den Vorgang sind, haben sie unterschiedliche etymologische Ursprünge. 'Verlobung' hingegen bezieht sich auf eine vorherige Phase vor der Ehe.",
-      "difficulty": 6
+      "explanation": "Die CPU (Central Processing Unit) ist das zentrale Rechenwerk eines Computers, das alle Berechnungen und Datenverarbeitungen durchführt. RAM (Arbeitsspeicher) dient zur temporären Speicherung von Daten, während HDD (Festplatte) und GPU (Grafikprozessor) für die langfristige Datenspeicherung und grafische Berechnungen zuständig sind.",
+      "difficulty": 5
     },
     {
-      "category": "Kunst und Literatur",
-      "topic": "Künstler, Bands & Hits",
-      "question": "Welches bekannte Liebeslied wurde von der Band 'The Beatles' im Jahr 1967 veröffentlicht?",
+      "question": "Was ist eine wesentliche Eigenschaft eines Girokontos?",
+      "category": "Wirtschaft & Finanzen",
+      "subcategory": "Girokonto & Kontoführung",
+      "difficulty": 5,
       "choices": [
-        "A: I Want to Hold Your Hand",
-        "B: Let It Be",
-        "C: All You Need Is Love",
-        "D: Hey Jude"
+        "A: Keine monatlichen Kontoführungsgebühren",
+        "B: Hohe Zinsen auf Guthaben",
+        "C: Unbegrenzte Verfügbarkeit von Bargeld",
+        "D: Festgelegte Laufzeit"
       ],
-      "correct_answer": "C",
-      "explanation": "'All You Need Is Love' ist eines der bekanntesten Liebeslieder der Beatles und wurde während einer Live-Satellitenübertragung in der ganzen Welt aufgeführt. Der Song vermittelt die Botschaft, dass Liebe eine universelle Kraft ist, die über alle Grenzen hinweg wirkt.",
-      "difficulty": 6
+      "correct_answer": "C"
     },
     {
-      "question": "Welche der folgenden Aussagen beschreibt am besten die Aufgabe von Volkshochschulen in der Erwachsenenbildung?",
-      "category": "Alltag & Gesellschaft",
-      "subcategory": "Volkshochschule & Erwachsenenbildung",
-      "difficulty": 6,
+      "category": "Wissenschaft",
+      "topic": "Medizin",
+      "question": "Was ist die Hauptfunktion des menschlichen Gehirns?",
       "choices": [
-        "A: Sie verleihen akademische Abschlüsse, wie Bachelor oder Master.",
-        "B: Sie fördern die persönliche und berufliche Weiterbildung für Menschen jeden Alters.",
-        "C: Sie bieten ausschließlich berufliche Weiterbildung für Hochschulabsolventen an.",
-        "D: Sie sind nur für Grundschüler zugänglich und bieten Nachhilfe an."
+        "A: Verdauung von Nahrung",
+        "B: Steuerung und Koordination von Körperfunktionen",
+        "C: Produktion von roten Blutkörperchen",
+        "D: Regulierung des Blutdrucks"
       ],
-      "correct_answer": "B"
+      "correct_answer": "B",
+      "explanation": "Das menschliche Gehirn ist das zentrale Steuerorgan des Nervensystems und verantwortlich für die Koordination aller Körperfunktionen sowie für das Denken und Fühlen. Es verarbeitet Informationen aus der Umwelt und steuert Bewegungen und Reaktionen.",
+      "difficulty": 1
     }
   ]
 }

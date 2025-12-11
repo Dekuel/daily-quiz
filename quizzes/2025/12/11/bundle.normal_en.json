@@ -1,105 +1,174 @@
 {
   "date": "2025-12-11",
-  "generated_at": "2025-12-11T03:57:00Z",
+  "generated_at": "2025-12-11T11:55:56Z",
   "schema_version": 6,
   "mode": "normal",
   "questions": [
     {
-      "category": "Geschichte",
-      "topic": "Neuzeit",
-      "question": "Which country was the first new member to join the European Community in 1973?",
+      "category": "Glaube & Religion",
+      "topic": "Klassische & nordische Mythologien",
+      "question": "Which ancient work describes the afterlife and the significance of funerary rites in ancient Egypt?",
       "choices": [
-        "A: Ireland",
-        "B: Denmark",
-        "C: Greece",
-        "D: United Kingdom"
+        "A: The Epic of Gilgamesh",
+        "B: The Book of the Dead",
+        "C: The Iliad",
+        "D: The Metamorphoses"
       ],
       "correct_answer": "B",
-      "explanation": "Denmark joined the European Community in 1973 along with Ireland and the United Kingdom. This was a significant step in the history of European integration, paving the way for future enlargements of the Community.",
-      "difficulty": 8
+      "explanation": "The Book of the Dead is a collection of spells and texts that were intended to help ancient Egyptians safely navigate the afterlife. It provides important insights into the funerary cult and afterlife beliefs of Egyptian culture.",
+      "difficulty": 4
+    },
+    {
+      "question": "Which measure is considered particularly effective for saving energy when living?",
+      "category": "Alltag & Gesellschaft",
+      "subcategory": "Nachhaltiges Wohnen & Energiesparen",
+      "difficulty": 5,
+      "choices": [
+        "A: Install balcony solar panels",
+        "B: Regularly bleed radiators",
+        "C: Choose windows without thermal insulation",
+        "D: Set thermostats to maximum level"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "category": "Essen und Trinken",
+      "topic": "Küche international",
+      "question": "Which of these herbs is a typical element of Southeast Asian cuisine and is often used in dishes like Tom Yum?",
+      "choices": [
+        "A: Lemongrass",
+        "B: Thyme",
+        "C: Basil",
+        "D: Rosemary"
+      ],
+      "correct_answer": "A",
+      "explanation": "Lemongrass is a characteristic herb of Southeast Asian cuisine and imparts a fresh, citrusy flavor to many dishes, especially soups and curries. It is essential for preparing classics like Tom Yum, a popular Thai soup.",
+      "difficulty": 2
+    },
+    {
+      "category": "Geographie",
+      "topic": "Humangeographie & Städte",
+      "question": "Which of the following terms describes a large urban region encompassing several neighboring cities and their surrounding areas?",
+      "choices": [
+        "A: Urbanization",
+        "B: Metropolitan region",
+        "C: City-state",
+        "D: Agglomeration"
+      ],
+      "correct_answer": "B",
+      "explanation": "A metropolitan region is a large urban area that includes multiple cities and their surrounding regions. While agglomerations are also large collections of cities, the term metropolitan region emphasizes the economic and social connections between the cities and their surrounding areas.",
+      "difficulty": 4
+    },
+    {
+      "category": "Geschichte",
+      "topic": "Antike",
+      "question": "What type of clothing did most men wear in ancient Rome?",
+      "choices": [
+        "A: Kilt",
+        "B: Kimono",
+        "C: Suit",
+        "D: Toga"
+      ],
+      "correct_answer": "D",
+      "explanation": "In ancient Rome, the toga was a clear symbol of civic dignity and was mainly worn by men. It was a simple, long piece of fabric that was draped over the body and clearly indicated the social status of the wearer.",
+      "difficulty": 1
+    },
+    {
+      "category": "Kunst und Literatur",
+      "topic": "Zitate, Figuren & Allgemeinwissen",
+      "question": "Which quote is attributed to Oscar Wilde?",
+      "choices": [
+        "A: \"The best way to predict the future is to invent it.\"",
+        "B: \"The only way to live a life is to spend it in the company of others.\"",
+        "C: \"I can resist everything except temptation.\"",
+        "D: \"Man is the measure of all things.\""
+      ],
+      "correct_answer": "C",
+      "explanation": "Oscar Wilde was an Irish writer and poet known for his sharp wit and ironic statements. The quote about temptation reflects his style and philosophy, often associated with the decadent movement of the late 19th century.",
+      "difficulty": 6
     },
     {
       "category": "Natur",
       "topic": "Tierwelt",
-      "question": "Which of these animals belongs to the vertebrates?",
+      "question": "What communication method do ants primarily use to spread information about food sources?",
       "choices": [
-        "A: An earthworm",
-        "B: A goldfish",
-        "C: A jellyfish",
-        "D: An ant"
+        "A: Sounds",
+        "B: Body postures",
+        "C: Light signals",
+        "D: Pheromones"
       ],
-      "correct_answer": "B",
-      "explanation": "Vertebrates are animals with a backbone and an internal skeleton. This includes fish, birds, mammals, reptiles, and amphibians. Goldfish are a common type of fish, while jellyfish, earthworms, and ants are invertebrates.",
-      "difficulty": 3
-    },
-    {
-      "category": "Essen und Trinken",
-      "topic": "Getränke",
-      "question": "What significant feature distinguishes Mezcal from Tequila in the production process?",
-      "choices": [
-        "A: The use of different agave varieties.",
-        "B: Distillation in continuous columns.",
-        "C: Aging in American oak barrels.",
-        "D: The use of water from artesian wells."
-      ],
-      "correct_answer": "A",
-      "explanation": "Mezcal can be made from various types of agave, while Tequila is exclusively produced from the blue agave. This diversity in raw material selection gives Mezcal different flavors and characteristics.",
+      "correct_answer": "D",
+      "explanation": "Ants use pheromones to inform their colony mates about food sources. These chemical signals enable efficient communication and navigation within their colonies by spreading information quickly and accurately.",
       "difficulty": 7
     },
     {
-      "category": "Glaube & Religion",
-      "topic": "Klassische & nordische Mythologien",
-      "question": "Which god is known as the chief god of Norse mythology?",
+      "category": "Sport",
+      "topic": "Olympische Spiele",
+      "question": "What do the five rings of the Olympic Games symbolize?",
       "choices": [
-        "A: Thor",
-        "B: Freyja",
-        "C: Loki",
-        "D: Odin"
+        "A: The five continents of the world",
+        "B: The five main sports of the Olympic Games",
+        "C: The five disciplines of athletics",
+        "D: The five largest cities in the world"
       ],
-      "correct_answer": "D",
-      "explanation": "Odin is considered the chief god in Norse mythology, associated with wisdom, war, and death. He is also the father of Thor and Loki, playing a central role in many myths and legends of Norse culture.",
-      "difficulty": 2
+      "correct_answer": "A",
+      "explanation": "The five rings represent the five continents: Africa, America, Asia, Europe, and Oceania. They symbolize the unity of athletes from around the world participating in the Olympic Games, regardless of their origins.",
+      "difficulty": 1
     },
     {
       "category": "Language",
-      "topic": "Etymology",
-      "question": "Which prefix in English typically conveys the meaning of 'to remove' or 'to undo'?",
+      "topic": "Foreign Languages",
+      "question": "Which of the following is the primary language spoken in Brazil?",
       "choices": [
-        "A: be-",
-        "B: ver-",
-        "C: ent-",
-        "D: zer-"
+        "A: Spanish",
+        "B: Portuguese",
+        "C: English",
+        "D: French"
       ],
-      "correct_answer": "C",
-      "explanation": "The prefix 'ent-' often indicates a sense of removal or negation, as seen in words like 'entangle' or 'enable'. This contrasts with the other prefixes listed, which do not carry the same meaning.",
-      "difficulty": 6
+      "correct_answer": "B",
+      "explanation": "The primary language spoken in Brazil is Portuguese, a result of Portugal's colonization of the country in the 16th century. While Spanish and English are spoken in some regions, they are not the dominant languages.",
+      "difficulty": 7
     },
     {
-      "category": "Kunst und Literatur",
-      "topic": "Künstler, Bands & Hits",
-      "question": "Which famous love song was released by 'The Beatles' in 1967?",
+      "category": "Technologie",
+      "topic": "Computer & Internet",
+      "question": "Which component is crucial for processing data in a computer?",
       "choices": [
-        "A: I Want to Hold Your Hand",
-        "B: Let It Be",
-        "C: All You Need Is Love",
-        "D: Hey Jude"
+        "A: RAM",
+        "B: HDD",
+        "C: GPU",
+        "D: CPU"
       ],
-      "correct_answer": "C",
-      "explanation": "'All You Need Is Love' is one of the most famous love songs by the Beatles and was performed during a live satellite broadcast worldwide. The song conveys the message that love is a universal force that transcends all boundaries.",
-      "difficulty": 6
+      "correct_answer": "D",
+      "explanation": "The CPU (Central Processing Unit) is the central processing unit of a computer that performs all calculations and data processing. RAM (Random Access Memory) is used for temporary data storage, while HDD (Hard Disk Drive) and GPU (Graphics Processing Unit) are responsible for long-term data storage and graphic calculations.",
+      "difficulty": 5
     },
     {
-      "question": "Which of the following statements best describes the role of adult education centers in adult education?",
-      "category": "Alltag & Gesellschaft",
-      "subcategory": "Volkshochschule & Erwachsenenbildung",
-      "difficulty": 6,
+      "question": "What is an essential feature of a checking account?",
+      "category": "Wirtschaft & Finanzen",
+      "subcategory": "Girokonto & Kontoführung",
+      "difficulty": 5,
       "choices": [
-        "A: They award academic degrees, such as Bachelor's or Master's.",
-        "B: They promote personal and professional development for people of all ages.",
-        "C: They exclusively offer professional development for university graduates.",
-        "D: They are only accessible to elementary school students and provide tutoring."
+        "A: No monthly account maintenance fees",
+        "B: High interest on balances",
+        "C: Unlimited availability of cash",
+        "D: Fixed term"
       ],
-      "correct_answer": "B"
+      "correct_answer": "C"
+    },
+    {
+      "category": "Wissenschaft",
+      "topic": "Medizin",
+      "question": "What is the main function of the human brain?",
+      "choices": [
+        "A: Digestion of food",
+        "B: Control and coordination of bodily functions",
+        "C: Production of red blood cells",
+        "D: Regulation of blood pressure"
+      ],
+      "correct_answer": "B",
+      "explanation": "The human brain is the central control organ of the nervous system and is responsible for coordinating all bodily functions as well as for thinking and feeling. It processes information from the environment and controls movements and reactions.",
+      "difficulty": 1
     }
   ]
 }

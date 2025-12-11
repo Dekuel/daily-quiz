@@ -1,168 +1,169 @@
 {
   "date": "2025-12-11",
-  "generated_at": "2025-12-11T03:56:52Z",
+  "generated_at": "2025-12-11T11:55:44Z",
   "schema_version": 6,
   "mode": "physik",
+  "bundle_type": "full",
   "questions": [
     {
       "category": "Physik",
-      "topic": "Klassische Mechanik",
-      "subtopic": "Mechanische Pumpen",
-      "question": "Welche Art von mechanischer Pumpe nutzt einen Kolben, um Flüssigkeiten zu bewegen?",
-      "choices": [
-        "A: Membranpumpe",
-        "B: Zahnradpumpe",
-        "C: Kolbenpumpe",
-        "D: Schraubenpumpe"
-      ],
-      "correct_answer": "C",
-      "explanation": "Eine Kolbenpumpe funktioniert, indem sie einen Kolben in einem Zylinder hin und her bewegt, wodurch ein Vakuum entsteht, das Flüssigkeiten anzieht und durch den Auslass drückt. Diese Art von Pumpe ist häufig in Anwendungen zu finden, bei denen eine präzise Fördermenge benötigt wird.",
-      "difficulty": 3,
-      "subcategory": "Mechanische Pumpen"
-    },
-    {
-      "category": "Physik",
       "topic": "Optik",
-      "subtopic": "Reflexions- und Brechungsgesetz",
-      "question": "Welches der folgenden Gesetze beschreibt den Zusammenhang zwischen dem Einfallswinkel und dem Brechungswinkel beim Übergang von Licht zwischen zwei Medien?",
+      "subtopic": "Beugung an der kreisförmigen Öffnung",
+      "question": "Was beschreibt das Phänomen der Beugung von Licht an einer kreisförmigen Öffnung?",
       "choices": [
-        "A: Coulombs Gesetz",
-        "B: Hookes Gesetz",
-        "C: Snellius' Gesetz",
-        "D: Newtons Gesetz"
-      ],
-      "correct_answer": "C",
-      "explanation": "Snellius' Gesetz beschreibt, wie der Einfallswinkel und der Brechungswinkel in zwei verschiedenen Medien miteinander verknüpft sind. Es besagt, dass das Verhältnis der Sinuswerte dieser Winkel gleich dem Verhältnis der Geschwindigkeiten des Lichts in den beiden Medien ist.",
-      "difficulty": 6,
-      "subcategory": "Reflexions- und Brechungsgesetz"
-    },
-    {
-      "category": "Physik",
-      "topic": "Elektrodynamik",
-      "subtopic": "Gauß’scher Satz",
-      "question": "Was besagt der Gauß’sche Satz in der Elektrodynamik?",
-      "choices": [
-        "A: Der elektrische Widerstand ist unabhängig von der Temperatur.",
-        "B: Der magnetische Fluss durch eine geschlossene Fläche ist konstant.",
-        "C: Die Geschwindigkeit eines elektrischen Signals ist immer konstant.",
-        "D: Der elektrische Fluss durch eine geschlossene Fläche ist proportional zur eingeschlossenen Ladung."
+        "A: Licht verliert vollständig seine Intensität.",
+        "B: Licht wird in verschiedene Farben aufgeteilt.",
+        "C: Licht wird vollständig reflektiert.",
+        "D: Licht breitet sich hinter der Öffnung in Form von konzentrischen Ringen aus."
       ],
       "correct_answer": "D",
-      "explanation": "Der Gauß’sche Satz beschreibt die Beziehung zwischen dem elektrischen Fluss durch eine geschlossene Fläche und der totalen elektrischen Ladung, die innerhalb dieser Fläche eingeschlossen ist. Er ist ein grundlegendes Prinzip in der Elektrodynamik und hilft bei der Berechnung elektrischer Felder.",
-      "difficulty": 3,
-      "subcategory": "Gauß’scher Satz"
+      "explanation": "Bei der Beugung an einer kreisförmigen Öffnung breitet sich Licht hinter der Öffnung in Form von konzentrischen Ringen aus. Diese Ringe entstehen aufgrund der Überlagerung von Lichtwellen, die an den Kanten der Öffnung gebeugt werden.",
+      "difficulty": 6,
+      "subcategory": "Beugung an der kreisförmigen Öffnung"
     },
     {
       "category": "Physik",
       "topic": "Festkörperphysik",
-      "subtopic": "Ionenbindung: Abschätzung & Messung",
-      "question": "Was beschreibt die Ionenbindung in einem Festkörper?",
+      "subtopic": "Streuung an Kristallen",
+      "question": "Was passiert, wenn ein Elektron auf ein Kristallgitter trifft?",
       "choices": [
-        "A: Die Wechselwirkung zwischen Elektronen in einem Metall.",
-        "B: Die Anziehung zwischen positiv und negativ geladenen Ionen.",
-        "C: Die Wechselwirkungen in einem Diamanten.",
-        "D: Die molekulare Struktur von Gasen."
+        "A: Es wird gestreut und kann seine Richtung ändern.",
+        "B: Es wird reflektiert wie Licht an einem Spiegel.",
+        "C: Es gibt keine Wechselwirkung.",
+        "D: Es wird vollständig absorbiert."
       ],
-      "correct_answer": "B",
-      "explanation": "Die Ionenbindung ist eine chemische Bindung, die durch die elektrostatische Anziehung zwischen positiv und negativ geladenen Ionen entsteht. Diese Art der Bindung ist typisch für ionische Verbindungen, die in Festkörpern vorzufinden sind.",
-      "difficulty": 3,
-      "subcategory": "Ionenbindung: Abschätzung & Messung"
+      "correct_answer": "A",
+      "explanation": "Wenn ein Elektron auf ein Kristallgitter trifft, kann es gestreut werden. Diese Streuung führt dazu, dass das Elektron seine Richtung ändert, was wichtige Informationen über die Struktur des Materials liefert.",
+      "difficulty": 4,
+      "subcategory": "Streuung an Kristallen"
     },
     {
       "category": "Physik",
       "topic": "Optik",
-      "subtopic": "Strahlenablenkung am Prisma",
-      "question": "Was passiert, wenn ein Lichtstrahl auf ein Prisma trifft?",
+      "subtopic": "Welle-Teilchen-Dualismus (Licht)",
+      "question": "Was beschreibt den Welle-Teilchen-Dualismus von Licht?",
       "choices": [
-        "A: Der Lichtstrahl bleibt unverändert.",
-        "B: Der Lichtstrahl wird absorbiert.",
-        "C: Der Lichtstrahl wird verstärkt.",
-        "D: Der Lichtstrahl wird abgelenkt."
+        "A: Licht besteht nur aus Teilchen und hat keine wellenartige Natur.",
+        "B: Licht breitet sich immer nur als Welle aus.",
+        "C: Licht kann nur unter bestimmten Bedingungen als Teilchen betrachtet werden.",
+        "D: Licht kann sowohl als Welle als auch als Teilchen betrachtet werden."
       ],
       "correct_answer": "D",
-      "explanation": "Wenn ein Lichtstrahl auf ein Prisma trifft, wird er an den Grenzen zwischen Luft und Glas abgelenkt. Diese Ablenkung führt zu einer Brechung des Lichts, wodurch verschiedene Farben sichtbar werden können.",
-      "difficulty": 1,
-      "subcategory": "Strahlenablenkung am Prisma"
+      "explanation": "Der Welle-Teilchen-Dualismus besagt, dass Licht sowohl Eigenschaften von Wellen als auch von Teilchen aufweist. Dies bedeutet, dass Licht in bestimmten Experimenten als Welle und in anderen als Teilchen erscheinen kann, abhängig von der Art der Messung.",
+      "difficulty": 4,
+      "subcategory": "Welle-Teilchen-Dualismus (Licht)"
     },
     {
       "category": "Physik",
-      "topic": "Analytische Mechanik",
-      "subtopic": "Formulierung des Hamilton’schen Prinzips",
-      "question": "Welches der folgenden Prinzipien beschreibt die Bedingung für die stationären Lösungen in der Hamiltonschen Mechanik?",
+      "topic": "Thermodynamik",
+      "subtopic": "Natürliche Zustandsvariablen (U, H, F, G)",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt die Beziehung zwischen der Gibbs-Energie (G) und der freien Enthalpie (H)?",
       "choices": [
-        "A: Das Prinzip der Impulserhaltung",
-        "B: Das Prinzip der Superposition",
-        "C: Das Prinzip der Energieerhaltung",
-        "D: Das Prinzip der kleinsten Wirkung"
-      ],
-      "correct_answer": "D",
-      "explanation": "Das Hamilton’sche Prinzip besagt, dass die tatsächliche Bahn eines Systems diejenige ist, die die Wirkung minimiert. Dieses Prinzip ist grundlegend für die Ableitung der Hamiltonschen Gleichungen und beschreibt die Dynamik eines Systems in der analytischen Mechanik.",
-      "difficulty": 9,
-      "subcategory": "Formulierung des Hamilton’schen Prinzips"
-    },
-    {
-      "category": "Physik",
-      "topic": "Relativitätstheorie",
-      "subtopic": "Michelson–Morley-Experiment (Ätherhypothese)",
-      "question": "Welches Ergebnis des Michelson–Morley-Experiments widerlegte die Ätherhypothese?",
-      "choices": [
-        "A: Es wurde eine konstante Lichtgeschwindigkeit in allen Bezugssystemen gemessen.",
-        "B: Es wurde keine Veränderung der Lichtgeschwindigkeit in verschiedene Richtungen festgestellt.",
-        "C: Die Lichtgeschwindigkeit variierte je nach Jahreszeit.",
-        "D: Die Existenz des Äthers wurde durch experimentelle Beweise bestätigt."
+        "A: G = H + TS",
+        "B: G = H - TS",
+        "C: G = H - PV",
+        "D: G = H + PV"
       ],
       "correct_answer": "B",
-      "explanation": "Das Michelson–Morley-Experiment zeigte, dass es keine signifikanten Unterschiede in der Lichtgeschwindigkeit gab, unabhängig von der Bewegungsrichtung der Erde durch den Äther. Dies stellte die Ätherhypothese in Frage und trug zur Entwicklung der Relativitätstheorie bei.",
+      "explanation": "Die Gibbs-Energie G ist definiert als G = H - TS, wobei H die Enthalpie, T die Temperatur und S die Entropie ist. Diese Beziehung ist entscheidend für die Bewertung der thermodynamischen Stabilität und der Spontanität von Prozessen.",
       "difficulty": 7,
-      "subcategory": "Michelson–Morley-Experiment (Ätherhypothese)"
-    },
-    {
-      "category": "Physik",
-      "topic": "Klassische Mechanik",
-      "subtopic": "Wirbel & Zirkulation",
-      "question": "Was beschreibt die Zirkulation in einem Fluid?",
-      "choices": [
-        "A: Den Druckunterschied zwischen zwei Punkten im Fluid.",
-        "B: Die Bewegung eines Fluids um einen festen Punkt.",
-        "C: Die Temperaturveränderung in einem Fluid.",
-        "D: Die Dichte eines Fluids in verschiedenen Höhen."
-      ],
-      "correct_answer": "B",
-      "explanation": "Die Zirkulation in einem Fluid beschreibt die Bewegung des Fluids um einen festen Punkt, was oft in der Strömungsmechanik untersucht wird. Sie ist ein wichtiger Aspekt bei der Analyse von Wirbeln und deren Stabilität in der Fluiddynamik.",
-      "difficulty": 3,
-      "subcategory": "Wirbel & Zirkulation"
+      "subcategory": "Natürliche Zustandsvariablen (U, H, F, G)"
     },
     {
       "category": "Physik",
       "topic": "Kern- und Teilchenphysik",
-      "subtopic": "Schalenmodell",
-      "question": "Was beschreibt das Schalenmodell in der Kernphysik?",
+      "subtopic": "Dipolschwingungen",
+      "question": "Was beschreibt die Frequenz einer Dipolschwingung?",
       "choices": [
-        "A: Die Wechselwirkungen zwischen Molekülen.",
-        "B: Die Eigenschaften von Quarks.",
-        "C: Die Anordnung der Elektronen in einem Atom.",
-        "D: Die Struktur von Molekülen."
+        "A: Die Anzahl der Schwingungen pro Sekunde",
+        "B: Die Energie, die während der Schwingung übertragen wird",
+        "C: Die maximale Auslenkung des Dipols",
+        "D: Die Temperatur des Systems"
       ],
-      "correct_answer": "C",
-      "explanation": "Das Schalenmodell beschreibt, wie Elektronen in bestimmten Energiestufen oder 'Schalen' um den Atomkern angeordnet sind. Es hilft, die chemischen Eigenschaften von Elementen zu verstehen, basierend auf der Elektronenkonfiguration.",
+      "correct_answer": "A",
+      "explanation": "Die Frequenz einer Dipolschwingung ist definiert als die Anzahl der vollständigen Schwingungen, die pro Sekunde stattfinden. Sie ist ein wichtiges Maß für die Dynamik des Systems und beeinflusst die Wechselwirkungen mit externen Feldern.",
+      "difficulty": 5,
+      "subcategory": "Dipolschwingungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Ansatz der Wellenmechanik (de Broglie/Schrödinger-Idee)",
+      "question": "Was beschreibt die de Broglie-Wellenlänge eines Teilchens?",
+      "choices": [
+        "A: Die Energie des Teilchens.",
+        "B: Den Impuls des Teilchens in Form einer Welle.",
+        "C: Die Geschwindigkeit des Teilchens.",
+        "D: Die Masse des Teilchens."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die de Broglie-Wellenlänge ist ein Konzept, das beschreibt, dass Teilchen wie Elektronen sowohl Teilchen- als auch Welleneigenschaften besitzen. Sie ist direkt mit dem Impuls des Teilchens verknüpft und wird durch die Formel λ = h/p definiert, wobei h das Plancksche Wirkungsquantum und p der Impuls ist.",
+      "difficulty": 5,
+      "subcategory": "Ansatz der Wellenmechanik (de Broglie/Schrödinger-Idee)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Gleichgewichtsbedingungen (allgemein)",
+      "question": "Welche Bedingung beschreibt das thermodynamische Gleichgewicht zwischen zwei Systemen?",
+      "choices": [
+        "A: Die Temperaturen der Systeme sind gleich.",
+        "B: Die Volumina der Systeme sind gleich.",
+        "C: Die Druckverhältnisse sind unterschiedlich.",
+        "D: Die Anzahl der Teilchen ist in beiden Systemen unterschiedlich."
+      ],
+      "correct_answer": "A",
+      "explanation": "Im thermodynamischen Gleichgewicht haben zwei Systeme die gleiche Temperatur, was bedeutet, dass kein Wärmefluss zwischen ihnen stattfindet. Druck- und Volumenverhältnisse sowie die Anzahl der Teilchen können unterschiedlich sein, solange die Temperaturen übereinstimmen.",
+      "difficulty": 6,
+      "subcategory": "Gleichgewichtsbedingungen (allgemein)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Saugvermögen & Saugleistung von Pumpen",
+      "question": "Was beschreibt das Saugvermögen einer Pumpe?",
+      "choices": [
+        "A: Die maximale Menge an Flüssigkeit, die die Pumpe in einer bestimmten Zeit fördern kann.",
+        "B: Die Fähigkeit der Pumpe, Luft aus einem Raum zu entfernen.",
+        "C: Die Energie, die benötigt wird, um die Pumpe zu betreiben.",
+        "D: Die maximale Druckhöhe, die die Pumpe erreichen kann."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Saugvermögen einer Pumpe bezieht sich auf die maximale Menge an Flüssigkeit, die sie innerhalb einer bestimmten Zeit fördern kann. Es ist ein wichtiger Faktor, um die Effizienz und Leistung einer Pumpe zu beurteilen.",
       "difficulty": 3,
-      "subcategory": "Schalenmodell"
+      "subcategory": "Saugvermögen & Saugleistung von Pumpen"
     },
     {
       "category": "Physik",
       "topic": "Quantenmechanik",
-      "subtopic": "Wronski-Determinante",
-      "question": "Welche Aussage über die Wronski-Determinante in der Quantenmechanik ist korrekt?",
+      "subtopic": "Hilbert-Raum & Basiszustände (sym/antisym)",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt den Charakter von symmetrischen und antisymmetrischen Zuständen im Hilbert-Raum?",
       "choices": [
-        "A: Sie ist ein Maß für die Linearunabhängigkeit von Wellenfunktionen.",
-        "B: Sie hat keinen Einfluss auf die Lösungen der Schrödinger-Gleichung.",
-        "C: Sie wird nur in der klassischen Mechanik verwendet.",
-        "D: Sie beschreibt die Energiezustände eines Teilchens."
+        "A: Antisymmetrische Zustände können nur bei Bosonen vorkommen.",
+        "B: Symmetrische Zustände sind für Bosonen und antisymmetrische Zustände für Fermionen zuständig.",
+        "C: Symmetrische und antisymmetrische Zustände sind gleichwertig für alle Teilchenarten.",
+        "D: Alle Zustände im Hilbert-Raum sind immer symmetrisch."
+      ],
+      "correct_answer": "B",
+      "explanation": "In der Quantenmechanik sind symmetrische Zustände mit Bosonen assoziiert, während antisymmetrische Zustände für Fermionen charakteristisch sind. Diese Eigenschaften sind entscheidend für das statistische Verhalten der Teilchen.",
+      "difficulty": 5,
+      "subcategory": "Hilbert-Raum & Basiszustände (sym/antisym)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Unterscheidbare Teilchen: Produktraum & Observable",
+      "question": "Welches der folgenden Konzepte ist entscheidend für die Beschreibung von Systemen aus unterscheidbaren Teilchen im Produktraum der Quantenmechanik?",
+      "choices": [
+        "A: Die Symmetrieeigenschaften der Wellenfunktionen",
+        "B: Das Pauli-Prinzip",
+        "C: Die Unschärferelation von Heisenberg",
+        "D: Der Energieerhaltungssatz"
       ],
       "correct_answer": "A",
-      "explanation": "Die Wronski-Determinante ist ein wichtiges Werkzeug, um die Linearunabhängigkeit von Wellenfunktionen zu überprüfen. Wenn die Wronski-Determinante null ist, sind die Wellenfunktionen linear abhängig, was für die Quantentheorie von Bedeutung ist.",
-      "difficulty": 5,
-      "subcategory": "Wronski-Determinante"
+      "explanation": "In der Quantenmechanik ist die Symmetrie der Wellenfunktionen entscheidend für die korrekte Beschreibung von Systemen mit unterscheidbaren Teilchen. Diese Symmetrien bestimmen, wie die Wellenfunktionen im Produktraum konstruiert werden und beeinflussen die Observable des Systems.",
+      "difficulty": 8,
+      "subcategory": "Unterscheidbare Teilchen: Produktraum & Observable"
     }
   ]
 }

@@ -1,168 +1,168 @@
 {
   "date": "2025-12-11",
-  "generated_at": "2025-12-11T03:57:15Z",
+  "generated_at": "2025-12-11T11:56:17Z",
   "schema_version": 6,
   "mode": "physik",
   "questions": [
     {
       "category": "Physik",
-      "topic": "Klassische Mechanik",
-      "subtopic": "Mechanische Pumpen",
-      "question": "What type of mechanical pump uses a piston to move liquids?",
-      "choices": [
-        "A: Diaphragm pump",
-        "B: Gear pump",
-        "C: Piston pump",
-        "D: Screw pump"
-      ],
-      "correct_answer": "C",
-      "explanation": "A piston pump works by moving a piston back and forth in a cylinder, creating a vacuum that attracts liquids and pushes them through the outlet. This type of pump is commonly found in applications where precise delivery is needed.",
-      "difficulty": 3,
-      "subcategory": "Mechanische Pumpen"
-    },
-    {
-      "category": "Physik",
       "topic": "Optik",
-      "subtopic": "Reflexions- und Brechungsgesetz",
-      "question": "Which of the following laws describes the relationship between the angle of incidence and the angle of refraction when light transitions between two media?",
+      "subtopic": "Beugung an der kreisförmigen Öffnung",
+      "question": "What describes the phenomenon of light diffraction at a circular aperture?",
       "choices": [
-        "A: Coulomb's Law",
-        "B: Hooke's Law",
-        "C: Snell's Law",
-        "D: Newton's Law"
-      ],
-      "correct_answer": "C",
-      "explanation": "Snell's Law describes how the angle of incidence and the angle of refraction are related in two different media. It states that the ratio of the sine values of these angles is equal to the ratio of the speeds of light in the two media.",
-      "difficulty": 6,
-      "subcategory": "Reflexions- und Brechungsgesetz"
-    },
-    {
-      "category": "Physik",
-      "topic": "Elektrodynamik",
-      "subtopic": "Gauß’scher Satz",
-      "question": "What does Gauss's Law describe in electrodynamics?",
-      "choices": [
-        "A: Electric resistance is independent of temperature.",
-        "B: The magnetic flux through a closed surface is constant.",
-        "C: The speed of an electrical signal is always constant.",
-        "D: The electric flux through a closed surface is proportional to the enclosed charge."
+        "A: Light completely loses its intensity.",
+        "B: Light is split into different colors.",
+        "C: Light is completely reflected.",
+        "D: Light spreads behind the aperture in the form of concentric rings."
       ],
       "correct_answer": "D",
-      "explanation": "Gauss's Law describes the relationship between the electric flux through a closed surface and the total electric charge enclosed within that surface. It is a fundamental principle in electrodynamics and aids in the calculation of electric fields.",
-      "difficulty": 3,
-      "subcategory": "Gauß’scher Satz"
+      "explanation": "During diffraction at a circular aperture, light spreads behind the aperture in the form of concentric rings. These rings are formed due to the interference of light waves diffracted at the edges of the aperture.",
+      "difficulty": 6,
+      "subcategory": "Beugung an der kreisförmigen Öffnung"
     },
     {
       "category": "Physik",
       "topic": "Festkörperphysik",
-      "subtopic": "Ionenbindung: Abschätzung & Messung",
-      "question": "What does ionic bonding describe in a solid?",
+      "subtopic": "Streuung an Kristallen",
+      "question": "What happens when an electron hits a crystal lattice?",
       "choices": [
-        "A: Interaction between electrons in a metal.",
-        "B: Attraction between positively and negatively charged ions.",
-        "C: Interactions in a diamond.",
-        "D: Molecular structure of gases."
+        "A: It is scattered and can change its direction.",
+        "B: It is reflected like light on a mirror.",
+        "C: There is no interaction.",
+        "D: It is completely absorbed."
       ],
-      "correct_answer": "B",
-      "explanation": "Ionic bonding is a chemical bond that forms due to the electrostatic attraction between positively and negatively charged ions. This type of bonding is typical for ionic compounds found in solids.",
-      "difficulty": 3,
-      "subcategory": "Ionenbindung: Abschätzung & Messung"
+      "correct_answer": "A",
+      "explanation": "When an electron hits a crystal lattice, it can be scattered. This scattering causes the electron to change its direction, providing important information about the material's structure.",
+      "difficulty": 4,
+      "subcategory": "Streuung an Kristallen"
     },
     {
       "category": "Physik",
       "topic": "Optik",
-      "subtopic": "Strahlenablenkung am Prisma",
-      "question": "What happens when a light beam hits a prism?",
+      "subtopic": "Welle-Teilchen-Dualismus (Licht)",
+      "question": "What describes the wave-particle duality of light?",
       "choices": [
-        "A: The light beam remains unchanged.",
-        "B: The light beam is absorbed.",
-        "C: The light beam is amplified.",
-        "D: The light beam is refracted."
+        "A: Light consists only of particles and has no wave-like nature.",
+        "B: Light always propagates only as a wave.",
+        "C: Light can only be considered as a particle under certain conditions.",
+        "D: Light can be considered both as a wave and as a particle."
       ],
       "correct_answer": "D",
-      "explanation": "When a light beam hits a prism, it is refracted at the boundaries between air and glass. This refraction leads to a separation of light, making different colors visible.",
-      "difficulty": 1,
-      "subcategory": "Strahlenablenkung am Prisma"
+      "explanation": "The wave-particle duality states that light exhibits properties of both waves and particles. This means that in certain experiments, light can appear as a wave and in others as a particle, depending on the type of measurement.",
+      "difficulty": 4,
+      "subcategory": "Welle-Teilchen-Dualismus (Licht)"
     },
     {
       "category": "Physik",
-      "topic": "Analytische Mechanik",
-      "subtopic": "Formulierung des Hamilton’schen Prinzips",
-      "question": "Which of the following principles describes the condition for stationary solutions in Hamiltonian mechanics?",
+      "topic": "Thermodynamik",
+      "subtopic": "Natürliche Zustandsvariablen (U, H, F, G)",
+      "question": "Which of the following statements correctly describes the relationship between Gibbs energy (G) and free enthalpy (H)?",
       "choices": [
-        "A: Principle of conservation of momentum",
-        "B: Principle of superposition",
-        "C: Principle of conservation of energy",
-        "D: Principle of least action"
-      ],
-      "correct_answer": "D",
-      "explanation": "The Hamiltonian principle states that the actual path of a system is the one that minimizes the action. This principle is fundamental for deriving the Hamiltonian equations and describes the dynamics of a system in analytical mechanics.",
-      "difficulty": 9,
-      "subcategory": "Formulierung des Hamilton’schen Prinzips"
-    },
-    {
-      "category": "Physik",
-      "topic": "Relativitätstheorie",
-      "subtopic": "Michelson–Morley-Experiment (Ätherhypothese)",
-      "question": "Which result of the Michelson-Morley experiment refuted the ether hypothesis?",
-      "choices": [
-        "A: A constant speed of light was measured in all reference frames.",
-        "B: No change in the speed of light was observed in different directions.",
-        "C: The speed of light varied depending on the season.",
-        "D: The existence of the ether was confirmed by experimental evidence."
+        "A: G = H + TS",
+        "B: G = H - TS",
+        "C: G = H - PV",
+        "D: G = H + PV"
       ],
       "correct_answer": "B",
-      "explanation": "The Michelson-Morley experiment showed that there were no significant differences in the speed of light, regardless of the Earth's motion through the ether. This challenged the ether hypothesis and contributed to the development of the theory of relativity.",
+      "explanation": "Gibbs energy G is defined as G = H - TS, where H is enthalpy, T is temperature, and S is entropy. This relationship is crucial for evaluating the thermodynamic stability and spontaneity of processes.",
       "difficulty": 7,
-      "subcategory": "Michelson–Morley-Experiment (Ätherhypothese)"
-    },
-    {
-      "category": "Physik",
-      "topic": "Klassische Mechanik",
-      "subtopic": "Wirbel & Zirkulation",
-      "question": "What does circulation in a fluid describe?",
-      "choices": [
-        "A: Pressure difference between two points in the fluid.",
-        "B: Movement of a fluid around a fixed point.",
-        "C: Temperature change in a fluid.",
-        "D: Density of a fluid at different heights."
-      ],
-      "correct_answer": "B",
-      "explanation": "Circulation in a fluid describes the movement of the fluid around a fixed point, often studied in fluid mechanics. It is an important aspect in analyzing vortices and their stability in fluid dynamics.",
-      "difficulty": 3,
-      "subcategory": "Wirbel & Zirkulation"
+      "subcategory": "Natürliche Zustandsvariablen (U, H, F, G)"
     },
     {
       "category": "Physik",
       "topic": "Kern- und Teilchenphysik",
-      "subtopic": "Schalenmodell",
-      "question": "What does the shell model describe in nuclear physics?",
+      "subtopic": "Dipolschwingungen",
+      "question": "What describes the frequency of a dipole vibration?",
       "choices": [
-        "A: Interactions between molecules.",
-        "B: Properties of quarks.",
-        "C: Arrangement of electrons in an atom.",
-        "D: Structure of molecules."
+        "A: The number of vibrations per second",
+        "B: The energy transferred during the vibration",
+        "C: The maximum displacement of the dipole",
+        "D: The temperature of the system"
       ],
-      "correct_answer": "C",
-      "explanation": "The shell model describes how electrons are arranged in specific energy levels or 'shells' around the atomic nucleus. It helps understand the chemical properties of elements based on electron configuration.",
+      "correct_answer": "A",
+      "explanation": "The frequency of a dipole vibration is defined as the number of complete vibrations that occur per second. It is an important measure of the system's dynamics and influences interactions with external fields.",
+      "difficulty": 5,
+      "subcategory": "Dipolschwingungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Ansatz der Wellenmechanik (de Broglie/Schrödinger-Idee)",
+      "question": "What describes the de Broglie wavelength of a particle?",
+      "choices": [
+        "A: The energy of the particle.",
+        "B: The particle's momentum in the form of a wave.",
+        "C: The particle's velocity.",
+        "D: The particle's mass."
+      ],
+      "correct_answer": "B",
+      "explanation": "The de Broglie wavelength is a concept that describes how particles like electrons exhibit both particle and wave properties. It is directly related to the particle's momentum and is defined by the formula λ = h/p, where h is the Planck constant and p is the momentum.",
+      "difficulty": 5,
+      "subcategory": "Ansatz der Wellenmechanik (de Broglie/Schrödinger-Idee)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Gleichgewichtsbedingungen (allgemein)",
+      "question": "Which condition describes the thermodynamic equilibrium between two systems?",
+      "choices": [
+        "A: The temperatures of the systems are equal.",
+        "B: The volumes of the systems are equal.",
+        "C: The pressure ratios are different.",
+        "D: The number of particles is different in both systems."
+      ],
+      "correct_answer": "A",
+      "explanation": "In thermodynamic equilibrium, two systems have the same temperature, meaning no heat flow occurs between them. Pressure and volume ratios, as well as the number of particles, can be different as long as the temperatures match.",
+      "difficulty": 6,
+      "subcategory": "Gleichgewichtsbedingungen (allgemein)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Saugvermögen & Saugleistung von Pumpen",
+      "question": "What describes the pumping speed of a pump?",
+      "choices": [
+        "A: The maximum amount of liquid the pump can deliver in a specific time.",
+        "B: The pump's ability to remove air from a space.",
+        "C: The energy required to operate the pump.",
+        "D: The maximum pressure height the pump can reach."
+      ],
+      "correct_answer": "A",
+      "explanation": "The pumping speed of a pump refers to the maximum amount of liquid it can deliver within a specific time. It is an important factor in assessing the efficiency and performance of a pump.",
       "difficulty": 3,
-      "subcategory": "Schalenmodell"
+      "subcategory": "Saugvermögen & Saugleistung von Pumpen"
     },
     {
       "category": "Physik",
       "topic": "Quantenmechanik",
-      "subtopic": "Wronski-Determinante",
-      "question": "Which statement about the Wronskian in quantum mechanics is correct?",
+      "subtopic": "Hilbert-Raum & Basiszustände (sym/antisym)",
+      "question": "Which of the following statements correctly describes the nature of symmetric and antisymmetric states in Hilbert space?",
       "choices": [
-        "A: It is a measure of the linear independence of wave functions.",
-        "B: It has no effect on the solutions of the Schrödinger equation.",
-        "C: It is only used in classical mechanics.",
-        "D: It describes the energy states of a particle."
+        "A: Antisymmetric states can only occur with bosons.",
+        "B: Symmetric states are responsible for bosons and antisymmetric states for fermions.",
+        "C: Symmetric and antisymmetric states are equivalent for all types of particles.",
+        "D: All states in Hilbert space are always symmetric."
+      ],
+      "correct_answer": "B",
+      "explanation": "In quantum mechanics, symmetric states are associated with bosons, while antisymmetric states are characteristic of fermions. These properties are crucial for the statistical behavior of particles.",
+      "difficulty": 5,
+      "subcategory": "Hilbert-Raum & Basiszustände (sym/antisym)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Unterscheidbare Teilchen: Produktraum & Observable",
+      "question": "Which of the following concepts is crucial for describing systems of distinguishable particles in the product space of quantum mechanics?",
+      "choices": [
+        "A: The symmetry properties of the wave functions",
+        "B: The Pauli exclusion principle",
+        "C: Heisenberg's uncertainty principle",
+        "D: The conservation of energy"
       ],
       "correct_answer": "A",
-      "explanation": "The Wronskian is an important tool for checking the linear independence of wave functions. If the Wronskian is zero, the wave functions are linearly dependent, which is significant for quantum theory.",
-      "difficulty": 5,
-      "subcategory": "Wronski-Determinante"
+      "explanation": "In quantum mechanics, the symmetry of wave functions is crucial for the correct description of systems with distinguishable particles. These symmetries determine how the wave functions are constructed in the product space and influence the system's observables.",
+      "difficulty": 8,
+      "subcategory": "Unterscheidbare Teilchen: Produktraum & Observable"
     }
   ]
 }

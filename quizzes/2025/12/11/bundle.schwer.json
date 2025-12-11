@@ -1,105 +1,175 @@
 {
   "date": "2025-12-11",
-  "generated_at": "2025-12-11T03:55:57Z",
+  "generated_at": "2025-12-11T11:54:53Z",
   "schema_version": 6,
   "mode": "schwer",
+  "bundle_type": "full",
   "questions": [
     {
-      "category": "Natur",
-      "topic": "Wetter & Klima",
-      "question": "Welches Phänomen kann als Zeichen für die bevorstehende Entstehung eines Gewitters gelten?",
+      "category": "Glaube & Religion",
+      "topic": "Spiritualität, Esoterik & neue religiöse Bewegungen",
+      "question": "Welcher esoterische Orden wurde im 19. Jahrhundert gegründet und ist bekannt für seine Ritualpraxis und das Studium der Hermetik?",
       "choices": [
-        "A: Starker Sonnenschein ohne Wolkenbildung",
-        "B: Stetiger Wind aus einer Richtung",
-        "C: Konstante Luftdruckverhältnisse über mehrere Tage",
-        "D: Anstieg der Luftfeuchtigkeit und plötzlicher Temperaturabfall"
-      ],
-      "correct_answer": "D",
-      "explanation": "Ein Anstieg der Luftfeuchtigkeit zusammen mit einem plötzlichen Temperaturabfall sind häufige Anzeichen für die Bildung eines Gewitters. Diese Bedingungen fördern das Entstehen von aufsteigenden Luftmassen, die zu Gewittern führen können.",
-      "difficulty": 7
-    },
-    {
-      "category": "Wissenschaft",
-      "topic": "Chemie",
-      "question": "Welches der folgenden Anionen hat die höchste Ladung und ist typischerweise in anorganischen Salzen zu finden?",
-      "choices": [
-        "A: Nitrat (NO3-)",
-        "B: Carbonat (CO3^2-)",
-        "C: Phosphat (PO4^3-)",
-        "D: Sulfat (SO4^2-)"
-      ],
-      "correct_answer": "C",
-      "explanation": "Das Phosphat-Anion (PO4^3-) hat eine dreifache negative Ladung, was es zu einem der am stärksten negativ geladenen Anionen macht. Es ist häufig in anorganischen Salzen wie Phosphaten zu finden und spielt eine wichtige Rolle in biologischen und chemischen Prozessen.",
-      "difficulty": 9
-    },
-    {
-      "category": "Technologie",
-      "topic": "Computer & Internet",
-      "question": "Welches Protokoll wird hauptsächlich für die Übertragung von Webseiten im Internet verwendet?",
-      "choices": [
-        "A: FTP",
-        "B: HTTP",
-        "C: ICMP",
-        "D: SMTP"
+        "A: Rosicrucians",
+        "B: Hermetic Order of the Golden Dawn",
+        "C: The Church of Satan",
+        "D: Thelema"
       ],
       "correct_answer": "B",
-      "explanation": "HTTP (Hypertext Transfer Protocol) ist das grundlegende Protokoll für die Übertragung von Daten im World Wide Web. Während FTP für den Dateitransfer, SMTP für den E-Mail-Versand und ICMP für Netzwerkdiagnosen verwendet wird, ist HTTP für das Laden von Webseiten zuständig.",
+      "explanation": "Der Hermetic Order of the Golden Dawn wurde in den 1880er Jahren gegründet und spielte eine zentrale Rolle in der westlichen Esoterik. Er kombinierte Elemente der Kabbala, Alchemie und Astrologie in seinen Lehren und Ritualen.",
+      "difficulty": 5
+    },
+    {
+      "question": "Welche der folgenden Weiterbildungsangebote ist in der Regel nicht staatlich gefördert?",
+      "category": "Alltag & Gesellschaft",
+      "subcategory": "Karriereplanung & Weiterbildung",
+      "difficulty": 7,
+      "choices": [
+        "A: Fernkurs zum Fachwirt",
+        "B: Meisterschule",
+        "C: Zertifikatslehrgang in der Erwachsenenbildung",
+        "D: Betriebswirt (IHK)"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "category": "Essen und Trinken",
+      "topic": "Kulinarische Geschichte",
+      "question": "Welche der folgenden Getreidearten war die erste, die während der neolithischen Revolution im Fruchtbaren Halbmond domestiziert wurde?",
+      "choices": [
+        "A: Weizen",
+        "B: Gerste",
+        "C: Reis",
+        "D: Mais"
+      ],
+      "correct_answer": "B",
+      "explanation": "Gerste wurde bereits um 10.000 v. Chr. im Fruchtbaren Halbmond kultiviert und ist somit eine der ersten domestizierten Getreidearten. Diese frühe Form der Landwirtschaft war entscheidend für die Entwicklung stabiler Siedlungen und komplexer Gesellschaften.",
       "difficulty": 10
+    },
+    {
+      "category": "Geographie",
+      "topic": "Naturkatastrophen & Georisiken",
+      "question": "Welches Warnsymbol wird häufig bei der Vorwarnung vor Tsunamis verwendet?",
+      "choices": [
+        "A: Schneeflocke",
+        "B: Blitz",
+        "C: Feuer",
+        "D: Welle"
+      ],
+      "correct_answer": "D",
+      "explanation": "Das Warnsymbol für Tsunamis ist typischerweise eine stilisierte Welle. Tsunamis entstehen meistens durch unterseeische Erdbeben und können verheerende Auswirkungen auf Küstenregionen haben. Die richtige Warnung kann Leben retten, indem sie Menschen dazu anregt, sich in höhere Lagen zu begeben.",
+      "difficulty": 6
     },
     {
       "category": "Geschichte",
       "topic": "Neuzeit",
-      "question": "Welcher französische Monarch wird häufig als das Paradebeispiel des Absolutismus angesehen, bekannt für seinen Ausspruch \"Der Staat bin ich\"?",
+      "question": "Welches Ereignis wird oft als Beginn der modernen Völkerwanderung betrachtet, das die politischen Landkarten Europas im 19. Jahrhundert maßgeblich veränderte?",
       "choices": [
-        "A: Ludwig XVI.",
-        "B: Franz I.",
-        "C: Ludwig XIV.",
-        "D: Heinrich IV."
+        "A: Der Wiener Kongress 1815",
+        "B: Der Deutsch-Französische Krieg 1870",
+        "C: Der Aufstand der Ungarn 1848",
+        "D: Die Französische Revolution 1789"
       ],
-      "correct_answer": "C",
-      "explanation": "Ludwig XIV. regierte von 1643 bis 1715 und gilt als einer der bedeutendsten Vertreter des Absolutismus in Europa. Sein Hof in Versailles wurde zum Zentrum politischer Macht und kultureller Blüte, was seine Vorstellung vom unumschränkten Herrscher verkörpert.",
+      "correct_answer": "A",
+      "explanation": "Der Wiener Kongress 1815 war entscheidend für die Neuordnung Europas nach den Napoleonischen Kriegen. Er führte zu einem neuen politischen System, das auf dem Gleichgewicht der Kräfte basierte und die nationalen Bewegungen des 19. Jahrhunderts maßgeblich beeinflusste.",
+      "difficulty": 9
+    },
+    {
+      "category": "Kunst und Literatur",
+      "topic": "Kunstgeschichte & Epochen",
+      "question": "Welches Merkmal ist charakteristisch für die Malerei Tizians während der venezianischen Renaissance?",
+      "choices": [
+        "A: Verwendung von intensivem Licht und Schatten",
+        "B: Lebendige Farben und atmosphärische Tiefenwirkung",
+        "C: Stark vereinfachte Formen und monochrome Farbgebung",
+        "D: Fokussierung auf mythologische und religiöse Themen ohne emotionale Tiefe"
+      ],
+      "correct_answer": "B",
+      "explanation": "Tizian wird oft für seine meisterhafte Verwendung lebendiger Farben und die Schaffung von Atmosphäre in seinen Gemälden geschätzt. Diese Techniken trugen zu einer neuen emotionalen Tiefe und einem sinnlichen Erlebnis in der venezianischen Malerei bei.",
       "difficulty": 8
     },
     {
-      "question": "Was ist in der Nebenkostenabrechnung in der Regel nicht enthalten?",
-      "category": "Alltag & Gesellschaft",
-      "subcategory": "Mietrecht & Nebenkostenabrechnung",
+      "category": "Natur",
+      "topic": "Pflanzenwelt",
+      "question": "Welche Methode nutzen Pflanzen, um sich gegen bestimmte Schaderreger zu verteidigen, indem sie chemische Verbindungen produzieren, die das Wachstum von Schimmelpilzen hemmen?",
+      "choices": [
+        "A: Sekundärmetabolismus",
+        "B: Transpiration",
+        "C: Photosynthese",
+        "D: Symbiose"
+      ],
+      "correct_answer": "A",
+      "explanation": "Der Sekundärmetabolismus ist ein wichtiger Abwehrmechanismus von Pflanzen, der ihnen hilft, sich gegen Schaderreger wie Schimmelpilze zu wehren. Dabei produzieren sie spezielle chemische Verbindungen, die antimikrobielle Eigenschaften besitzen und somit das Wachstum von schädlichen Organismen hemmen können.",
+      "difficulty": 7
+    },
+    {
+      "category": "Sport",
+      "topic": "Basketball",
+      "question": "Welche der folgenden Aussagen beschreibt am besten die Bedeutung der Wurfmechanik im Basketball und deren Einfluss auf die Trefferquote?",
+      "choices": [
+        "A: Eine veränderte Wurfmechanik kann die Körperhaltung beim Dribbeln beeinflussen, hat aber keinen Einfluss auf den Wurf selbst.",
+        "B: Die Wurfmechanik hat keinen signifikanten Einfluss auf die Wurfgeschwindigkeit, sondern nur auf die Ballkontrolle.",
+        "C: Wurfmechanik ist nur für Freiwürfe wichtig, da der Ball beim Korbwurf keine Einflussfaktoren hat.",
+        "D: Eine korrekte Wurfmechanik sorgt dafür, dass der Ball immer die gleiche Flugbahn hat, was die Genauigkeit erhöht."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Wurfmechanik ist entscheidend für die Flugbahn des Balls und beeinflusst damit direkt die Trefferquote. Eine konsistente Wurfmechanik ermöglicht es einem Spieler, zuverlässiger zu werfen und das Ziel effizient zu treffen.",
+      "difficulty": 10
+    },
+    {
+      "category": "Sprache",
+      "topic": "Fremdsprachen",
+      "question": "Welche der folgenden Wörter hat NICHT ihren Ursprung im Altfranzösischen?",
+      "choices": [
+        "A: Restaurant",
+        "B: Ballet",
+        "C: Computer",
+        "D: Cuisine"
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Wort 'Computer' hat seinen Ursprung im Lateinischen und nicht im Altfranzösischen. Im Gegensatz dazu stammen 'Restaurant', 'Ballet' und 'Cuisine' alle aus dem Altfranzösischen und wurden direkt ins Deutsche übernommen. Diese Herkunft bezieht sich auf die enge kulturelle Verbindung zwischen Frankreich und Deutschland, besonders in der Gastronomie und Kunst.",
+      "difficulty": 10
+    },
+    {
+      "category": "Technologie",
+      "topic": "Smartphones & Apps",
+      "question": "Welches der folgenden Betriebssysteme hat die größte Marktanteil auf Smartphones weltweit?",
+      "choices": [
+        "A: Windows Phone",
+        "B: iOS",
+        "C: Android",
+        "D: HarmonyOS"
+      ],
+      "correct_answer": "C",
+      "explanation": "Android hat den größten Marktanteil unter den Smartphone-Betriebssystemen und wird von verschiedenen Herstellern eingesetzt. iOS kommt zwar auf einen signifikanten Marktanteil, liegt jedoch hinter Android. Windows Phone und HarmonyOS haben nur einen geringen Marktanteil oder sind nicht weit verbreitet.",
+      "difficulty": 9
+    },
+    {
+      "question": "Was ist der Hauptunterschied zwischen Bitcoin und Bitcoin Cash?",
+      "category": "Wirtschaft & Finanzen",
+      "subcategory": "Bitcoin & Grundlagen",
       "difficulty": 6,
       "choices": [
-        "A: Grunderwerbssteuer",
-        "B: Grundsteuer",
-        "C: Heizkosten",
-        "D: Wasserverbrauch"
+        "A: Bitcoin Cash hat eine größere maximale Blockgröße",
+        "B: Bitcoin ist ein Fork von Bitcoin Cash",
+        "C: Bitcoin hat eine schnellere Transaktionsbestätigung als Bitcoin Cash",
+        "D: Bitcoin Cash verwendet Proof of Stake statt Proof of Work"
       ],
       "correct_answer": "A"
     },
     {
-      "category": "Sprache",
-      "topic": "Grammatik",
-      "question": "Welches der folgenden Beispiele enthält eine Verbzweitverletzung?",
+      "category": "Wissenschaft",
+      "topic": "Biologie",
+      "question": "Welche der folgenden Bakterienarten ist bekannt dafür, dass sie eine wichtige Rolle im Stickstoffkreislauf spielt, indem sie Stickstoff aus der Luft in eine für Pflanzen nutzbare Form umwandelt?",
       "choices": [
-        "A: Ich kann das nicht tun.",
-        "B: Gestern ein Buch habe ich gekauft.",
-        "C: Ich habe gestern ein Buch gekauft.",
-        "D: Das Buch habe ich gestern gelesen."
+        "A: Rhizobium",
+        "B: Escherichia coli",
+        "C: Lactobacillus acidophilus",
+        "D: Streptococcus pneumoniae"
       ],
-      "correct_answer": "B",
-      "explanation": "Die Verbzweitverletzung tritt auf, wenn das konjugierte Verb nicht an der zweiten Position im Satz steht. In Antwort B ist das Verb 'habe' an der dritten Stelle, was gegen die Standardwortstellung im Deutschen verstößt.",
+      "correct_answer": "A",
+      "explanation": "Rhizobium ist ein Beispiel für eine Gattung von Bakterien, die in Symbiose mit bestimmten Pflanzen, insbesondere Hülsenfrüchten, leben und Stickstoff fixieren. Dies ist entscheidend für die Bodenfruchtbarkeit und das Wachstum von Pflanzen.",
       "difficulty": 7
-    },
-    {
-      "category": "Geographie",
-      "topic": "Städte, Länder & Flaggen",
-      "question": "Welche Flagge zeigt einen roten Hintergrund mit einem weißen Kreuz? ",
-      "choices": [
-        "A: Türkei",
-        "B: Schweiz",
-        "C: Dänemark",
-        "D: Japan"
-      ],
-      "correct_answer": "B",
-      "explanation": "Die Flagge der Schweiz ist bekannt für ihr rotes Hintergrundfeld und das weiße Kreuz in der Mitte. Diese Flagge ist ein Symbol für Neutralität und humanitäre Hilfe und wird oft mit dem Land in Verbindung gebracht.",
-      "difficulty": 4
     }
   ]
 }
