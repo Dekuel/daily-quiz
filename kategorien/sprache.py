@@ -273,6 +273,66 @@ _JSON_OBJ_RE = re.compile(r"\{.*\}", re.DOTALL)
 _CHOICE_PREFIX_RE = re.compile(r"^[A-D]:\s*", re.IGNORECASE)
 
 
+def _validate_answer_uniqueness(data: dict) -> tuple[bool, Optional[str]]:
+    """Validates that only ONE answer is truly correct using OpenAI.
+    Returns (is_valid, reason_if_invalid).
+    """
+    question = data.get("question", "")
+    choices = data.get("choices", [])
+    correct = data.get("correct_answer", "")
+    
+    if not question or not choices or len(choices) != 4:
+        return True, None  # Skip validation if data incomplete
+    
+    # Build validation prompt
+    choices_text = "\n".join(choices)
+    validation_prompt = f"""Analysiere diese Multiple-Choice-Frage kritisch:
+
+Frage: {question}
+
+Antwortmöglichkeiten:
+{choices_text}
+
+Angegeben als korrekt: {correct}
+
+AUFGABE: Prüfe, ob MEHR ALS EINE Antwort sachlich korrekt sein könnte.
+
+BEISPIELE für Probleme:
+- Frage: "Welcher Name deutet auf einen Beruf hin?" → Wenn Müller, Fischer, Schmidt alle vorkommen, sind alle 3 korrekt!
+- Frage: "Welches Wort stammt aus dem Französischen?" → Wenn mehrere aus dem Französischen stammen = Problem
+
+Antworte in diesem JSON-Format:
+{{
+  "valid": true/false,
+  "reason": "Kurze Begründung warum mehrere Antworten korrekt sein könnten (nur wenn valid=false)"
+}}
+
+Wenn nur GENAU EINE Antwort korrekt ist → valid: true
+Wenn MEHRERE Antworten korrekt sein könnten → valid: false + reason"""
+    
+    try:
+        client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
+        r = client.chat.completions.create(
+            model="gpt-4o-mini",
+            messages=[
+                {"role": "system", "content": "Du bist ein präziser Logik-Validator. Antworte nur mit validem JSON."},
+                {"role": "user", "content": validation_prompt},
+            ],
+            temperature=0.3,
+        )
+        raw = (r.choices[0].message.content or "").strip()
+        m = _JSON_OBJ_RE.search(raw)
+        if m:
+            result = json.loads(m.group(0))
+            is_valid = result.get("valid", True)
+            reason = result.get("reason", "")
+            return is_valid, reason if not is_valid else None
+    except Exception:
+        pass
+    
+    return True, None  # On error, accept question (don't block generation)
+
+
 def _prompt(topic: str, target_difficulty: int, mode: Optional[str], subtopic: Optional[str] = None) -> tuple[str, float]:
     temperature = _temperature_for(int(target_difficulty))
     level_desc = _DIFF_LEVELS.get(int(target_difficulty), "siehe Stufenleitfaden")
@@ -287,12 +347,16 @@ Kontext zu Schwierigkeitsstufen (1–10):
 
 Vorgaben:
 - Knapp und eindeutig formulieren; Beispiel statt Metadiskussion.
-- Vier plausible Antworten, genau eine korrekt; keine „alle oben/keine der oben“-Optionen.
+- Vier plausible Antworten, genau eine korrekt; keine „alle oben/keine der oben"-Optionen.
+- **KRITISCH**: Stelle absolut sicher, dass nur EINE Antwort sachlich korrekt ist!
+  Beispiel-FEHLER: "Welcher Name deutet auf einen Beruf hin?" mit Optionen [Müller, Fischer, Schmidt, König] → 3 sind korrekt!
+  LÖSUNG: Frage umdrehen "Welcher Name deutet NICHT auf einen Beruf hin?" → König ist eindeutig.
+- Wenn eine "Welche/r/s"-Frage mehrere korrekte Antworten haben könnte, nutze Superlative ("am häufigsten", "typischsten", "ersten") oder Ausschlussfragen ("NICHT", "keine").
 - Stelle sicher, dass die 3 falschen Optionen *nicht* korrekt sind (notfalls durch kleine, aber entscheidende Details).
 - Erklärung: 2–3 Sätze, warum die richtige Lösung stimmt; Fachbegriffe kurz laienverständlich erläutern.
-- Das Feld "topic" im JSON enthält ausschließlich das Oberthema („{topic}“). Unterthema nicht ins JSON.
+- Das Feld "topic" im JSON enthält ausschließlich das Oberthema („{topic}"). Unterthema nicht ins JSON.
 - Antworte ausschließlich mit **validem JSON** gemäß Schema.
--Vermeide Fragen, in denen die richtige Lösung oder Varianten davon bereits im Fragetext vorkommen. Auch konjugierte, abgewandelte oder zusammengesetzte Formen der Lösung dürfen nicht im Fragetext vorkommen.
+- Vermeide Fragen, in denen die richtige Lösung oder Varianten davon bereits im Fragetext vorkommen. Auch konjugierte, abgewandelte oder zusammengesetzte Formen der Lösung dürfen nicht im Fragetext vorkommen.
 
 JSON-SCHEMA:
 {_SCHEMA}
@@ -363,6 +427,22 @@ def generate_one(
     time.sleep(0.6)
     if not data:
         return None
+
+    # 4.5) Validierung: Prüfe ob wirklich nur EINE Antwort korrekt ist
+    is_valid, reason = _validate_answer_uniqueness(data)
+    if not is_valid:
+        # Zweiter Versuch mit strikterem Prompt
+        strict_prompt = prompt + f"\n\n**WICHTIG**: Die vorherige Frage war ungültig, weil: {reason}\nGeneriere eine NEUE Frage zum selben Thema, aber stelle sicher, dass EXAKT EINE Antwort korrekt ist. Nutze ggf. Ausschlussfragen (NICHT/keine) oder Superlative."
+        data = _ask_json(strict_prompt, temperature=temp)
+        time.sleep(0.6)
+        if not data:
+            return None
+        # Validiere erneut (aber akzeptiere diesmal das Ergebnis)
+        is_valid_retry, _ = _validate_answer_uniqueness(data)
+        if not is_valid_retry:
+            # Auch zweiter Versuch problematisch - aber wir geben die Frage trotzdem zurück
+            # (sonst könnten wir in Endlosschleife geraten)
+            pass
 
     # 5) Pflichtfelder grob prüfen
     q = (data.get("question") or "").strip()
