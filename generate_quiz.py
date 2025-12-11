@@ -60,10 +60,14 @@ PAST_DAYS_TO_CHECK = 7
 POLITICS_TARGET = 2
 
 # Wie viele Fragen pro Modus (normal/schwer)?
-QUESTIONS_PER_MODE = {
-    "normal": 7,
-    "schwer": 7,
-}
+# NEU: Wird nicht mehr verwendet, da wir ALLE Kategorien generieren
+# QUESTIONS_PER_MODE = {
+#     "normal": 7,
+#     "schwer": 7,
+# }
+
+# Wie viele Fragen im täglichen Quiz (zufällig aus allen generierten ausgewählt)?
+DAILY_QUIZ_SIZE = 7
 
 # Kategorie-Name des Politik-Plugins
 POLITICS_CATEGORY_NAME = "politik"
@@ -663,6 +667,81 @@ def _append_questions_to_category_files(questions: List[dict], mode: str) -> Non
 
 # ===================== Fragen-Generatoren =====================
 
+def generate_one_per_category(
+    plugins: Dict[str, Callable[..., Optional[dict]]],
+    past_texts: List[str],
+    exclude: Optional[set[str]] = None,
+    mode: str = "normal",
+) -> List[dict]:
+    """
+    Generiert EINE Frage aus JEDER verfügbaren Kategorie (außer exclude).
+    Dies ermöglicht es Spielern, Kategorien auszuschließen und trotzdem genug Fragen zu haben.
+    Dedupe gegen Vergangenheit und innerhalb des Sets.
+    Übergibt eine Ziel-Schwierigkeit pro Frage ans Plugin.
+    """
+    categories = [n for n in plugins.keys() if not exclude or n not in exclude]
+    if not categories:
+        return []
+
+    out: List[dict] = []
+    
+    for cat in categories:
+        tries = 0
+        max_tries_per_cat = 6
+        
+        while tries < max_tries_per_cat:
+            tries += 1
+            try:
+                target = pick_target_difficulty_for_mode(mode)
+                # Inspect plugin signature and call with appropriate arguments
+                plugin_fn = plugins[cat]
+                sig = inspect.signature(plugin_fn)
+                kwargs = {}
+                if 'past_texts' in sig.parameters:
+                    kwargs['past_texts'] = past_texts
+                if 'target_difficulty' in sig.parameters:
+                    kwargs['target_difficulty'] = target
+                elif 'tier' in sig.parameters:
+                    kwargs['tier'] = target
+                if 'mode' in sig.parameters:
+                    kwargs['mode'] = mode
+                item = plugin_fn(**kwargs)
+            except Exception as e:
+                print(f"⚠️ Fehler beim Generieren aus Kategorie '{cat}': {e.__class__.__name__}: {e}")
+                traceback.print_exc()
+                continue
+                
+            if not item:
+                continue
+                
+            item.setdefault("difficulty", target)
+            item.setdefault("category", cat)
+            
+            # Unterkategorie/Subdisziplin harmonisieren
+            _harmonize_question_metadata(item)
+            
+            qt = _norm(item.get("question", ""))
+            if not qt:
+                continue
+                
+            # Check for duplicates within output
+            if any(similarity(qt, x.get("question", "")) >= SIM_THRESHOLD for x in out):
+                continue
+                
+            # Check against past
+            if is_duplicate(qt, past_texts, SIM_THRESHOLD):
+                continue
+                
+            out.append(item)
+            print(f"✓ Frage generiert für Kategorie '{cat}' (Schwierigkeit: {target})")
+            break  # Success for this category
+        
+        if tries >= max_tries_per_cat:
+            print(f"⚠️ Konnte keine gültige Frage für Kategorie '{cat}' nach {max_tries_per_cat} Versuchen generieren")
+    
+    return out
+
+
 def generate_random_categories(
     plugins: Dict[str, Callable[..., Optional[dict]]],
     k: int,
@@ -848,9 +927,10 @@ def generate_politics_for_mode(
 
 # ===================== Persistenz =====================
 
-def write_daily_bundle(quiz_list: List[dict], mode: str, date_str: Optional[str] = None) -> Optional[str]:
+def write_daily_bundle(quiz_list: List[dict], mode: str, date_str: Optional[str] = None, bundle_type: str = "full") -> Optional[str]:
     """
     Schreibt bundle.<mode>.json ins Tagesverzeichnis.
+    bundle_type: "full" für alle generierten Fragen, "daily" für 7 zufällige
     Gibt den relative Pfad zurück oder None, wenn leer.
     """
     if not quiz_list:
@@ -868,6 +948,7 @@ def write_daily_bundle(quiz_list: List[dict], mode: str, date_str: Optional[str]
         "generated_at": _now_iso(),
         "schema_version": 6,  # <-- erhöht: Harmonisierung 'subcategory'
         "mode": mode,
+        "bundle_type": bundle_type,  # NEU: "full" oder "daily"
         "questions": quiz_list,
     }
 
@@ -878,12 +959,18 @@ def write_daily_bundle(quiz_list: List[dict], mode: str, date_str: Optional[str]
     else:
         suffix = ".normal.json"
 
-    bundle_path = os.path.join(day_dir, f"bundle{suffix}")
+    # NEU: unterschiedliche Dateinamen für full vs daily
+    if bundle_type == "daily":
+        bundle_filename = f"bundle.daily{suffix}"
+    else:
+        bundle_filename = f"bundle{suffix}"
+
+    bundle_path = os.path.join(day_dir, bundle_filename)
     with open(bundle_path, "w", encoding="utf-8") as f:
         json.dump(bundle, f, ensure_ascii=False, indent=2)
 
-    print(f"✅ Bundle gespeichert ({mode}): {bundle_path}")
-    return f"{OUT_ROOT}/{year}/{month}/{day_only}/bundle{suffix}"
+    print(f"✅ Bundle gespeichert ({mode}, {bundle_type}): {bundle_path}")
+    return f"{OUT_ROOT}/{year}/{month}/{day_only}/{bundle_filename}"
 
 
 def _write_daily_bundle_en(quiz_list: List[dict], mode: str, date_str: Optional[str], plugins: Dict[str, Callable[..., Optional[dict]]]) -> Optional[str]:
@@ -1140,11 +1227,7 @@ def main():
 
     for mode in ("normal", "schwer", "physik"):
         if mode in ("normal", "schwer"):
-            # Zielverteilung je Modus:
-            #  - Politik wird vorerst übersprungen
-            #  - normal: 7 Fragen, schwer: 5 Fragen
-            target_questions = QUESTIONS_PER_MODE.get(mode, 7)
-
+            # NEU: Generiere eine Frage aus JEDER Kategorie (außer ausgeschlossene)
             # Exclude Politik, Physik, Popkultur und English-only plugins
             def _german_exclude_set(plugins_map: Dict[str, Callable[..., Optional[dict]]]) -> set:
                 ex = {POLITICS_CATEGORY_NAME, PHYSICS_CATEGORY_NAME, "popkultur"}
@@ -1155,18 +1238,19 @@ def main():
                     ex.add("language")
                 return ex
 
-            # Generiere alle Fragen aus anderen Kategorien
-            qlist = generate_random_categories(
+            # Generiere EINE Frage aus JEDER Kategorie
+            qlist_full = generate_one_per_category(
                 plugins=plugins,
-                k=target_questions,
                 past_texts=past_texts,
                 exclude=_german_exclude_set(plugins),
                 mode=mode,
             )
+            
+            print(f"✓ {len(qlist_full)} Fragen für Modus '{mode}' generiert (alle Kategorien)")
 
         else:  # mode == "physik"
             # nur Physik, 10 Fragen
-            qlist = generate_specific_category_questions(
+            qlist_full = generate_specific_category_questions(
                 plugins=plugins,
                 category_name=PHYSICS_CATEGORY_NAME,
                 target_count=PHYSIK_QUESTIONS_COUNT,
@@ -1176,27 +1260,44 @@ def main():
             )
 
         # 3.5 Tagesweites Dedupe-Set updaten
-        for q in qlist:
+        for q in qlist_full:
             qt = _norm(q.get("question", ""))
             if qt:
                 day_dedupe_texts.add(qt)
 
         # 3.6 Schwierigkeiten setzen (nur Fallback, falls Plugin keinen Wert gesetzt hat)
-        assign_difficulties(qlist, mode)
+        assign_difficulties(qlist_full, mode)
 
         # 3.6b Antworten mischen
-        _shuffle_answers_in_bundle(qlist)
+        _shuffle_answers_in_bundle(qlist_full)
 
-        # 3.7 Persistieren (Tages-Bundle)
-        saved = write_daily_bundle(qlist, mode=mode)
-        if saved:
-            saved_paths[mode] = saved
-        # keep the in-memory list for EN variant generation
-        qlists_by_mode[mode] = qlist
-
-        # 3.8 Zusatz: kategorieweise Archivierung (nur normal/schwer)
+        # 3.7 Persistieren - FULL Bundle (alle Fragen)
+        saved_full = write_daily_bundle(qlist_full, mode=mode, bundle_type="full")
+        if saved_full:
+            saved_paths[f"{mode}_full"] = saved_full
+        
+        # 3.8 NEU: Erstelle DAILY Bundle (7 zufällige Fragen für das Tagesquiz)
         if mode in ("normal", "schwer"):
-            _append_questions_to_category_files(qlist, mode)
+            if len(qlist_full) >= DAILY_QUIZ_SIZE:
+                qlist_daily = random.sample(qlist_full, DAILY_QUIZ_SIZE)
+                print(f"✓ {DAILY_QUIZ_SIZE} zufällige Fragen für Tagesquiz ausgewählt (aus {len(qlist_full)})")
+            else:
+                qlist_daily = qlist_full
+                print(f"⚠️ Nur {len(qlist_full)} Fragen verfügbar, weniger als {DAILY_QUIZ_SIZE}")
+            
+            saved_daily = write_daily_bundle(qlist_daily, mode=mode, bundle_type="daily")
+            if saved_daily:
+                saved_paths[mode] = saved_daily
+        elif mode == "physik":
+            # Physik bleibt wie vorher - kein separates Daily Bundle
+            saved_paths[mode] = saved_full
+        
+        # keep the in-memory FULL list for EN variant generation and archiving
+        qlists_by_mode[mode] = qlist_full
+
+        # 3.9 Zusatz: kategorieweise Archivierung (nur normal/schwer, alle Fragen)
+        if mode in ("normal", "schwer"):
+            _append_questions_to_category_files(qlist_full, mode)
 
     # 3.9 Generate English variants for each mode (if possible)
     for mode, qlist in qlists_by_mode.items():
