@@ -1,0 +1,168 @@
+{
+  "date": "2025-12-11",
+  "generated_at": "2025-12-11T03:56:52Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Mechanische Pumpen",
+      "question": "Welche Art von mechanischer Pumpe nutzt einen Kolben, um Flüssigkeiten zu bewegen?",
+      "choices": [
+        "A: Membranpumpe",
+        "B: Zahnradpumpe",
+        "C: Kolbenpumpe",
+        "D: Schraubenpumpe"
+      ],
+      "correct_answer": "C",
+      "explanation": "Eine Kolbenpumpe funktioniert, indem sie einen Kolben in einem Zylinder hin und her bewegt, wodurch ein Vakuum entsteht, das Flüssigkeiten anzieht und durch den Auslass drückt. Diese Art von Pumpe ist häufig in Anwendungen zu finden, bei denen eine präzise Fördermenge benötigt wird.",
+      "difficulty": 3,
+      "subcategory": "Mechanische Pumpen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Reflexions- und Brechungsgesetz",
+      "question": "Welches der folgenden Gesetze beschreibt den Zusammenhang zwischen dem Einfallswinkel und dem Brechungswinkel beim Übergang von Licht zwischen zwei Medien?",
+      "choices": [
+        "A: Coulombs Gesetz",
+        "B: Hookes Gesetz",
+        "C: Snellius' Gesetz",
+        "D: Newtons Gesetz"
+      ],
+      "correct_answer": "C",
+      "explanation": "Snellius' Gesetz beschreibt, wie der Einfallswinkel und der Brechungswinkel in zwei verschiedenen Medien miteinander verknüpft sind. Es besagt, dass das Verhältnis der Sinuswerte dieser Winkel gleich dem Verhältnis der Geschwindigkeiten des Lichts in den beiden Medien ist.",
+      "difficulty": 6,
+      "subcategory": "Reflexions- und Brechungsgesetz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Gauß’scher Satz",
+      "question": "Was besagt der Gauß’sche Satz in der Elektrodynamik?",
+      "choices": [
+        "A: Der elektrische Widerstand ist unabhängig von der Temperatur.",
+        "B: Der magnetische Fluss durch eine geschlossene Fläche ist konstant.",
+        "C: Die Geschwindigkeit eines elektrischen Signals ist immer konstant.",
+        "D: Der elektrische Fluss durch eine geschlossene Fläche ist proportional zur eingeschlossenen Ladung."
+      ],
+      "correct_answer": "D",
+      "explanation": "Der Gauß’sche Satz beschreibt die Beziehung zwischen dem elektrischen Fluss durch eine geschlossene Fläche und der totalen elektrischen Ladung, die innerhalb dieser Fläche eingeschlossen ist. Er ist ein grundlegendes Prinzip in der Elektrodynamik und hilft bei der Berechnung elektrischer Felder.",
+      "difficulty": 3,
+      "subcategory": "Gauß’scher Satz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Ionenbindung: Abschätzung & Messung",
+      "question": "Was beschreibt die Ionenbindung in einem Festkörper?",
+      "choices": [
+        "A: Die Wechselwirkung zwischen Elektronen in einem Metall.",
+        "B: Die Anziehung zwischen positiv und negativ geladenen Ionen.",
+        "C: Die Wechselwirkungen in einem Diamanten.",
+        "D: Die molekulare Struktur von Gasen."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Ionenbindung ist eine chemische Bindung, die durch die elektrostatische Anziehung zwischen positiv und negativ geladenen Ionen entsteht. Diese Art der Bindung ist typisch für ionische Verbindungen, die in Festkörpern vorzufinden sind.",
+      "difficulty": 3,
+      "subcategory": "Ionenbindung: Abschätzung & Messung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Strahlenablenkung am Prisma",
+      "question": "Was passiert, wenn ein Lichtstrahl auf ein Prisma trifft?",
+      "choices": [
+        "A: Der Lichtstrahl bleibt unverändert.",
+        "B: Der Lichtstrahl wird absorbiert.",
+        "C: Der Lichtstrahl wird verstärkt.",
+        "D: Der Lichtstrahl wird abgelenkt."
+      ],
+      "correct_answer": "D",
+      "explanation": "Wenn ein Lichtstrahl auf ein Prisma trifft, wird er an den Grenzen zwischen Luft und Glas abgelenkt. Diese Ablenkung führt zu einer Brechung des Lichts, wodurch verschiedene Farben sichtbar werden können.",
+      "difficulty": 1,
+      "subcategory": "Strahlenablenkung am Prisma"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Formulierung des Hamilton’schen Prinzips",
+      "question": "Welches der folgenden Prinzipien beschreibt die Bedingung für die stationären Lösungen in der Hamiltonschen Mechanik?",
+      "choices": [
+        "A: Das Prinzip der Impulserhaltung",
+        "B: Das Prinzip der Superposition",
+        "C: Das Prinzip der Energieerhaltung",
+        "D: Das Prinzip der kleinsten Wirkung"
+      ],
+      "correct_answer": "D",
+      "explanation": "Das Hamilton’sche Prinzip besagt, dass die tatsächliche Bahn eines Systems diejenige ist, die die Wirkung minimiert. Dieses Prinzip ist grundlegend für die Ableitung der Hamiltonschen Gleichungen und beschreibt die Dynamik eines Systems in der analytischen Mechanik.",
+      "difficulty": 9,
+      "subcategory": "Formulierung des Hamilton’schen Prinzips"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Michelson–Morley-Experiment (Ätherhypothese)",
+      "question": "Welches Ergebnis des Michelson–Morley-Experiments widerlegte die Ätherhypothese?",
+      "choices": [
+        "A: Es wurde eine konstante Lichtgeschwindigkeit in allen Bezugssystemen gemessen.",
+        "B: Es wurde keine Veränderung der Lichtgeschwindigkeit in verschiedene Richtungen festgestellt.",
+        "C: Die Lichtgeschwindigkeit variierte je nach Jahreszeit.",
+        "D: Die Existenz des Äthers wurde durch experimentelle Beweise bestätigt."
+      ],
+      "correct_answer": "B",
+      "explanation": "Das Michelson–Morley-Experiment zeigte, dass es keine signifikanten Unterschiede in der Lichtgeschwindigkeit gab, unabhängig von der Bewegungsrichtung der Erde durch den Äther. Dies stellte die Ätherhypothese in Frage und trug zur Entwicklung der Relativitätstheorie bei.",
+      "difficulty": 7,
+      "subcategory": "Michelson–Morley-Experiment (Ätherhypothese)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Wirbel & Zirkulation",
+      "question": "Was beschreibt die Zirkulation in einem Fluid?",
+      "choices": [
+        "A: Den Druckunterschied zwischen zwei Punkten im Fluid.",
+        "B: Die Bewegung eines Fluids um einen festen Punkt.",
+        "C: Die Temperaturveränderung in einem Fluid.",
+        "D: Die Dichte eines Fluids in verschiedenen Höhen."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Zirkulation in einem Fluid beschreibt die Bewegung des Fluids um einen festen Punkt, was oft in der Strömungsmechanik untersucht wird. Sie ist ein wichtiger Aspekt bei der Analyse von Wirbeln und deren Stabilität in der Fluiddynamik.",
+      "difficulty": 3,
+      "subcategory": "Wirbel & Zirkulation"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Schalenmodell",
+      "question": "Was beschreibt das Schalenmodell in der Kernphysik?",
+      "choices": [
+        "A: Die Wechselwirkungen zwischen Molekülen.",
+        "B: Die Eigenschaften von Quarks.",
+        "C: Die Anordnung der Elektronen in einem Atom.",
+        "D: Die Struktur von Molekülen."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Schalenmodell beschreibt, wie Elektronen in bestimmten Energiestufen oder 'Schalen' um den Atomkern angeordnet sind. Es hilft, die chemischen Eigenschaften von Elementen zu verstehen, basierend auf der Elektronenkonfiguration.",
+      "difficulty": 3,
+      "subcategory": "Schalenmodell"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Wronski-Determinante",
+      "question": "Welche Aussage über die Wronski-Determinante in der Quantenmechanik ist korrekt?",
+      "choices": [
+        "A: Sie ist ein Maß für die Linearunabhängigkeit von Wellenfunktionen.",
+        "B: Sie hat keinen Einfluss auf die Lösungen der Schrödinger-Gleichung.",
+        "C: Sie wird nur in der klassischen Mechanik verwendet.",
+        "D: Sie beschreibt die Energiezustände eines Teilchens."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Wronski-Determinante ist ein wichtiges Werkzeug, um die Linearunabhängigkeit von Wellenfunktionen zu überprüfen. Wenn die Wronski-Determinante null ist, sind die Wellenfunktionen linear abhängig, was für die Quantentheorie von Bedeutung ist.",
+      "difficulty": 5,
+      "subcategory": "Wronski-Determinante"
+    }
+  ]
+}

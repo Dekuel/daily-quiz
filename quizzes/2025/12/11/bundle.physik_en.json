@@ -1,0 +1,168 @@
+{
+  "date": "2025-12-11",
+  "generated_at": "2025-12-11T03:57:15Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Mechanische Pumpen",
+      "question": "What type of mechanical pump uses a piston to move liquids?",
+      "choices": [
+        "A: Diaphragm pump",
+        "B: Gear pump",
+        "C: Piston pump",
+        "D: Screw pump"
+      ],
+      "correct_answer": "C",
+      "explanation": "A piston pump works by moving a piston back and forth in a cylinder, creating a vacuum that attracts liquids and pushes them through the outlet. This type of pump is commonly found in applications where precise delivery is needed.",
+      "difficulty": 3,
+      "subcategory": "Mechanische Pumpen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Reflexions- und Brechungsgesetz",
+      "question": "Which of the following laws describes the relationship between the angle of incidence and the angle of refraction when light transitions between two media?",
+      "choices": [
+        "A: Coulomb's Law",
+        "B: Hooke's Law",
+        "C: Snell's Law",
+        "D: Newton's Law"
+      ],
+      "correct_answer": "C",
+      "explanation": "Snell's Law describes how the angle of incidence and the angle of refraction are related in two different media. It states that the ratio of the sine values of these angles is equal to the ratio of the speeds of light in the two media.",
+      "difficulty": 6,
+      "subcategory": "Reflexions- und Brechungsgesetz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Gauß’scher Satz",
+      "question": "What does Gauss's Law describe in electrodynamics?",
+      "choices": [
+        "A: Electric resistance is independent of temperature.",
+        "B: The magnetic flux through a closed surface is constant.",
+        "C: The speed of an electrical signal is always constant.",
+        "D: The electric flux through a closed surface is proportional to the enclosed charge."
+      ],
+      "correct_answer": "D",
+      "explanation": "Gauss's Law describes the relationship between the electric flux through a closed surface and the total electric charge enclosed within that surface. It is a fundamental principle in electrodynamics and aids in the calculation of electric fields.",
+      "difficulty": 3,
+      "subcategory": "Gauß’scher Satz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Ionenbindung: Abschätzung & Messung",
+      "question": "What does ionic bonding describe in a solid?",
+      "choices": [
+        "A: Interaction between electrons in a metal.",
+        "B: Attraction between positively and negatively charged ions.",
+        "C: Interactions in a diamond.",
+        "D: Molecular structure of gases."
+      ],
+      "correct_answer": "B",
+      "explanation": "Ionic bonding is a chemical bond that forms due to the electrostatic attraction between positively and negatively charged ions. This type of bonding is typical for ionic compounds found in solids.",
+      "difficulty": 3,
+      "subcategory": "Ionenbindung: Abschätzung & Messung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Strahlenablenkung am Prisma",
+      "question": "What happens when a light beam hits a prism?",
+      "choices": [
+        "A: The light beam remains unchanged.",
+        "B: The light beam is absorbed.",
+        "C: The light beam is amplified.",
+        "D: The light beam is refracted."
+      ],
+      "correct_answer": "D",
+      "explanation": "When a light beam hits a prism, it is refracted at the boundaries between air and glass. This refraction leads to a separation of light, making different colors visible.",
+      "difficulty": 1,
+      "subcategory": "Strahlenablenkung am Prisma"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Formulierung des Hamilton’schen Prinzips",
+      "question": "Which of the following principles describes the condition for stationary solutions in Hamiltonian mechanics?",
+      "choices": [
+        "A: Principle of conservation of momentum",
+        "B: Principle of superposition",
+        "C: Principle of conservation of energy",
+        "D: Principle of least action"
+      ],
+      "correct_answer": "D",
+      "explanation": "The Hamiltonian principle states that the actual path of a system is the one that minimizes the action. This principle is fundamental for deriving the Hamiltonian equations and describes the dynamics of a system in analytical mechanics.",
+      "difficulty": 9,
+      "subcategory": "Formulierung des Hamilton’schen Prinzips"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Michelson–Morley-Experiment (Ätherhypothese)",
+      "question": "Which result of the Michelson-Morley experiment refuted the ether hypothesis?",
+      "choices": [
+        "A: A constant speed of light was measured in all reference frames.",
+        "B: No change in the speed of light was observed in different directions.",
+        "C: The speed of light varied depending on the season.",
+        "D: The existence of the ether was confirmed by experimental evidence."
+      ],
+      "correct_answer": "B",
+      "explanation": "The Michelson-Morley experiment showed that there were no significant differences in the speed of light, regardless of the Earth's motion through the ether. This challenged the ether hypothesis and contributed to the development of the theory of relativity.",
+      "difficulty": 7,
+      "subcategory": "Michelson–Morley-Experiment (Ätherhypothese)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Wirbel & Zirkulation",
+      "question": "What does circulation in a fluid describe?",
+      "choices": [
+        "A: Pressure difference between two points in the fluid.",
+        "B: Movement of a fluid around a fixed point.",
+        "C: Temperature change in a fluid.",
+        "D: Density of a fluid at different heights."
+      ],
+      "correct_answer": "B",
+      "explanation": "Circulation in a fluid describes the movement of the fluid around a fixed point, often studied in fluid mechanics. It is an important aspect in analyzing vortices and their stability in fluid dynamics.",
+      "difficulty": 3,
+      "subcategory": "Wirbel & Zirkulation"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Schalenmodell",
+      "question": "What does the shell model describe in nuclear physics?",
+      "choices": [
+        "A: Interactions between molecules.",
+        "B: Properties of quarks.",
+        "C: Arrangement of electrons in an atom.",
+        "D: Structure of molecules."
+      ],
+      "correct_answer": "C",
+      "explanation": "The shell model describes how electrons are arranged in specific energy levels or 'shells' around the atomic nucleus. It helps understand the chemical properties of elements based on electron configuration.",
+      "difficulty": 3,
+      "subcategory": "Schalenmodell"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Wronski-Determinante",
+      "question": "Which statement about the Wronskian in quantum mechanics is correct?",
+      "choices": [
+        "A: It is a measure of the linear independence of wave functions.",
+        "B: It has no effect on the solutions of the Schrödinger equation.",
+        "C: It is only used in classical mechanics.",
+        "D: It describes the energy states of a particle."
+      ],
+      "correct_answer": "A",
+      "explanation": "The Wronskian is an important tool for checking the linear independence of wave functions. If the Wronskian is zero, the wave functions are linearly dependent, which is significant for quantum theory.",
+      "difficulty": 5,
+      "subcategory": "Wronski-Determinante"
+    }
+  ]
+}
