@@ -1,0 +1,169 @@
+{
+  "date": "2025-12-12",
+  "generated_at": "2025-12-12T03:57:54Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Gleichgewichtsbedingungen (allgemein)",
+      "question": "Welche Bedingung muss erfüllt sein, damit ein System im thermodynamischen Gleichgewicht ist?",
+      "choices": [
+        "A: Es findet ständig ein Energieaustausch mit der Umgebung statt.",
+        "B: Die Temperatur ist überall im System gleich.",
+        "C: Die Dichte des Systems variiert über das gesamte Volumen.",
+        "D: Die Druckdifferenz zwischen den Teilen des Systems ist maximal."
+      ],
+      "correct_answer": "B",
+      "explanation": "Für thermodynamisches Gleichgewicht muss die Temperatur im gesamten System einheitlich sein. Dies bedeutet, dass keine Energie in Form von Wärme zwischen den verschiedenen Teilen des Systems übertragen wird, was zu einem stabilen Zustand führt.",
+      "difficulty": 6,
+      "subcategory": "Gleichgewichtsbedingungen (allgemein)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Linsenfehler (Aberrationen)",
+      "question": "Welche Art von Aberration verursacht eine Unschärfe in der Bilddarstellung bei Linsen?",
+      "choices": [
+        "A: Dispersion",
+        "B: Reflexion",
+        "C: Koma",
+        "D: Brechung"
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Koma ist eine Aberration, die auftritt, wenn Lichtstrahlen, die durch eine Linse gehen, nicht an einem Punkt fokussiert werden, was zu einer Unschärfe führt. Diese Art von Fehler ist besonders bei großen Blendenöffnungen in Kameras oder Teleskopen bemerkbar.",
+      "difficulty": 2,
+      "subcategory": "Linsenfehler (Aberrationen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Wechselwirkungsdarstellung (Dirac-Bild)",
+      "question": "Was beschreibt die Wechselwirkungsdarstellung in der Quantenmechanik?",
+      "choices": [
+        "A: Die Thermodynamik von Quantenflüssigkeiten.",
+        "B: Die stabilen Zustände eines Teilchens ohne Wechselwirkung.",
+        "C: Die Zeitentwicklung von Zuständen in einem System mit wechselwirkenden Teilchen.",
+        "D: Die Bewegung von Teilchen unter dem Einfluss von Gravitationskräften."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Wechselwirkungsdarstellung, auch Dirac-Bild genannt, beschreibt, wie sich quantenmechanische Zustände im Laufe der Zeit verändern, wenn sie Wechselwirkungen unterliegen. Diese Formulierung ist besonders nützlich zur Analyse von Systemen mit zeitabhängigen Wechselwirkungen.",
+      "difficulty": 1,
+      "subcategory": "Wechselwirkungsdarstellung (Dirac-Bild)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Erzeugung & Nachweis von Baryonen",
+      "question": "Welche der folgenden Methoden wird häufig verwendet, um Baryonen in Teilchenbeschleunigern zu erzeugen?",
+      "choices": [
+        "A: Lichtbrechung",
+        "B: Proton-Proton-Kollisionen",
+        "C: Elektron-Positron-Annihilation",
+        "D: Neutronenstrahlung"
+      ],
+      "correct_answer": "B",
+      "explanation": "Proton-Proton-Kollisionen sind eine der primären Methoden zur Erzeugung von Baryonen in Teilchenbeschleunigern, da sie die notwendige Energie bereitstellen, um neue Teilchen zu produzieren. Elektron-Positron-Annihilation erzeugt typischerweise keine Baryonen, während Neutronenstrahlung und Lichtbrechung nicht für die Erzeugung von Baryonen verwendet werden.",
+      "difficulty": 6,
+      "subcategory": "Erzeugung & Nachweis von Baryonen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Bra- und Ket-Vektoren; Dualraum",
+      "question": "Was ist die korrekte Beziehung zwischen einem Ket-Vektor |ψ⟩ und seinem zugehörigen Bra-Vektor ⟨ψ|?",
+      "choices": [
+        "A: ⟨ψ| = -|ψ⟩",
+        "B: ⟨ψ| = |ψ⟩* (konjugiert)",
+        "C: ⟨ψ| = |ψ⟩^2",
+        "D: ⟨ψ| = |ψ⟩"
+      ],
+      "correct_answer": "B",
+      "explanation": "In der Quantenmechanik ist der Bra-Vektor ⟨ψ| der konjugierte Transponierte des Ket-Vektors |ψ⟩. Dies bedeutet, dass die Elemente des Ket-Vektors komplex konjugiert werden, um den entsprechenden Bra-Vektor zu bilden.",
+      "difficulty": 6,
+      "subcategory": "Bra- und Ket-Vektoren; Dualraum"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Wahrscheinlichkeitstheorie: Dichten & charakteristische Funktion",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt die charakteristische Funktion einer Zufallsvariable?",
+      "choices": [
+        "A: Sie ist die Fourier-Transformierte der Wahrscheinlichkeitsdichte.",
+        "B: Sie ist nur für diskrete Zufallsvariablen definiert.",
+        "C: Sie beschreibt nur die Lage des Mittelwerts.",
+        "D: Sie ist immer gleich null für alle Zufallsvariablen."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die charakteristische Funktion einer Zufallsvariable ist tatsächlich die Fourier-Transformierte ihrer Wahrscheinlichkeitsdichte. Sie bietet eine vollständige Beschreibung der Verteilung und hat zahlreiche Anwendungen in der Wahrscheinlichkeitstheorie und Statistik.",
+      "difficulty": 4,
+      "subcategory": "Wahrscheinlichkeitstheorie: Dichten & charakteristische Funktion"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Nuklide & Nuklidkarte",
+      "question": "Welches der folgenden Nuklide hat die größte Bindungsenergie pro Nukleon?",
+      "choices": [
+        "A: 4He",
+        "B: 56Fe",
+        "C: 235U",
+        "D: 12C"
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Bindungsenergie pro Nukleon ist ein Maß für die Stabilität eines Nuklids. 56Fe hat die höchste Bindungsenergie pro Nukleon und ist somit das stabilste Nuklid. Dies erklärt, warum es in der Natur am häufigsten vorkommt und warum Fusion zu schwereren Elementen energetisch ungünstig ist.",
+      "difficulty": 8,
+      "subcategory": "Nuklide & Nuklidkarte"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Gefrierpunktserniedrigung/Siedepunktserhöhung",
+      "question": "Was bewirkt das Hinzufügen von Salz zu Wasser in Bezug auf den Gefrierpunkt?",
+      "choices": [
+        "A: Der Gefrierpunkt sinkt.",
+        "B: Der Gefrierpunkt bleibt unverändert.",
+        "C: Der Gefrierpunkt sinkt nur bei hohen Temperaturen.",
+        "D: Der Gefrierpunkt steigt."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Hinzufügen von Salz zu Wasser senkt den Gefrierpunkt, ein Phänomen, das als Gefrierpunktserniedrigung bekannt ist. Dies geschieht, weil die Salzionen die Bildung von Eiskristallen stören und somit die Temperatur verringert werden muss, um das Wasser zum Gefrieren zu bringen.",
+      "difficulty": 1,
+      "subcategory": "Gefrierpunktserniedrigung/Siedepunktserhöhung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Freie Materiewelle",
+      "question": "Was beschreibt die freie Materiewelle in der Quantenmechanik?",
+      "choices": [
+        "A: Die Temperatur eines Gases.",
+        "B: Die Schwingung eines Pendels.",
+        "C: Die Bewegung eines Teilchens ohne äußere Kräfte.",
+        "D: Die Gravitation zwischen zwei Massen."
+      ],
+      "correct_answer": "C",
+      "explanation": "In der Quantenmechanik beschreibt die freie Materiewelle die Bewegung eines Teilchens, das sich ohne Einwirkung äußerer Kräfte bewegt. Diese Welle wird durch eine Wellenfunktion repräsentiert, die die Wahrscheinlichkeiten für die Position und den Impuls des Teilchens angibt.",
+      "difficulty": 2,
+      "subcategory": "Freie Materiewelle"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Eigenschaften von Photonen",
+      "question": "Welche Eigenschaft von Photonen ermöglicht es ihnen, durch verschiedene Medien unterschiedlich schnell zu reisen?",
+      "choices": [
+        "A: Frequenz",
+        "B: Impuls",
+        "C: Energie",
+        "D: Wellenlänge"
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Wellenlänge eines Photons beeinflusst, wie es in verschiedenen Medien refraktiert wird, was zu unterschiedlichen Geschwindigkeiten führt. In Medien mit höherer Dichte verlangsamt sich das Photon, was durch die Wellenlänge bedingt ist. Diese Eigenschaft ist grundlegend für das Verständnis von Lichtbrechung und Dispersion.",
+      "difficulty": 7,
+      "subcategory": "Eigenschaften von Photonen"
+    }
+  ]
+}

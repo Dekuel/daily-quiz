@@ -1,0 +1,168 @@
+{
+  "date": "2025-12-12",
+  "generated_at": "2025-12-12T03:58:29Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Gleichgewichtsbedingungen (allgemein)",
+      "question": "What condition must be met for a system to be in thermodynamic equilibrium?",
+      "choices": [
+        "A: There is a constant exchange of energy with the surroundings.",
+        "B: The temperature is the same everywhere in the system.",
+        "C: The density of the system varies across the entire volume.",
+        "D: The pressure difference between the parts of the system is maximal."
+      ],
+      "correct_answer": "B",
+      "explanation": "In order to achieve thermodynamic equilibrium, the temperature throughout the system must be uniform. This means that no energy in the form of heat is transferred between different parts of the system, leading to a stable state.",
+      "difficulty": 6,
+      "subcategory": "Gleichgewichtsbedingungen (allgemein)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Linsenfehler (Aberrationen)",
+      "question": "What type of aberration causes blurring in image representation with lenses?",
+      "choices": [
+        "A: Dispersion",
+        "B: Reflection",
+        "C: Coma",
+        "D: Refraction"
+      ],
+      "correct_answer": "C",
+      "explanation": "Coma is an aberration that occurs when light rays passing through a lens do not focus at a single point, resulting in blurriness. This type of error is particularly noticeable with large aperture openings in cameras or telescopes.",
+      "difficulty": 2,
+      "subcategory": "Linsenfehler (Aberrationen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Wechselwirkungsdarstellung (Dirac-Bild)",
+      "question": "What does the interaction representation describe in quantum mechanics?",
+      "choices": [
+        "A: The thermodynamics of quantum fluids.",
+        "B: The stable states of a particle without interaction.",
+        "C: The time evolution of states in a system with interacting particles.",
+        "D: The motion of particles under the influence of gravitational forces."
+      ],
+      "correct_answer": "C",
+      "explanation": "The interaction representation, also known as the Dirac picture, describes how quantum mechanical states evolve over time when they are subject to interactions. This formulation is particularly useful for analyzing systems with time-dependent interactions.",
+      "difficulty": 1,
+      "subcategory": "Wechselwirkungsdarstellung (Dirac-Bild)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Erzeugung & Nachweis von Baryonen",
+      "question": "Which of the following methods is commonly used to generate baryons in particle accelerators?",
+      "choices": [
+        "A: Light refraction",
+        "B: Proton-proton collisions",
+        "C: Electron-positron annihilation",
+        "D: Neutron radiation"
+      ],
+      "correct_answer": "B",
+      "explanation": "Proton-proton collisions are one of the primary methods for generating baryons in particle accelerators, as they provide the necessary energy to produce new particles. Electron-positron annihilation typically does not produce baryons, while neutron radiation and light refraction are not used for baryon generation.",
+      "difficulty": 6,
+      "subcategory": "Erzeugung & Nachweis von Baryonen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Bra- und Ket-Vektoren; Dualraum",
+      "question": "What is the correct relationship between a ket vector |ψ⟩ and its corresponding bra vector ⟨ψ|?",
+      "choices": [
+        "A: ⟨ψ| = -|ψ⟩",
+        "B: ⟨ψ| = |ψ⟩* (conjugate)",
+        "C: ⟨ψ| = |ψ⟩^2",
+        "D: ⟨ψ| = |ψ⟩"
+      ],
+      "correct_answer": "B",
+      "explanation": "In quantum mechanics, the bra vector ⟨ψ| is the conjugate transpose of the ket vector |ψ⟩. This means that the elements of the ket vector are complex conjugated to form the corresponding bra vector.",
+      "difficulty": 6,
+      "subcategory": "Bra- und Ket-Vektoren; Dualraum"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Wahrscheinlichkeitstheorie: Dichten & charakteristische Funktion",
+      "question": "Which of the following statements correctly describes the characteristic function of a random variable?",
+      "choices": [
+        "A: It is the Fourier transform of the probability density.",
+        "B: It is only defined for discrete random variables.",
+        "C: It only describes the location of the mean.",
+        "D: It is always zero for all random variables."
+      ],
+      "correct_answer": "A",
+      "explanation": "The characteristic function of a random variable is actually the Fourier transform of its probability density. It provides a complete description of the distribution and has numerous applications in probability theory and statistics.",
+      "difficulty": 4,
+      "subcategory": "Wahrscheinlichkeitstheorie: Dichten & charakteristische Funktion"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Nuklide & Nuklidkarte",
+      "question": "Which of the following nuclides has the highest binding energy per nucleon?",
+      "choices": [
+        "A: 4He",
+        "B: 56Fe",
+        "C: 235U",
+        "D: 12C"
+      ],
+      "correct_answer": "B",
+      "explanation": "The binding energy per nucleon is a measure of a nuclide's stability. 56Fe has the highest binding energy per nucleon and is therefore the most stable nuclide. This explains why it is the most common in nature and why fusion to heavier elements is energetically unfavorable.",
+      "difficulty": 8,
+      "subcategory": "Nuklide & Nuklidkarte"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Gefrierpunktserniedrigung/Siedepunktserhöhung",
+      "question": "What effect does adding salt to water have on the freezing point?",
+      "choices": [
+        "A: The freezing point decreases.",
+        "B: The freezing point remains unchanged.",
+        "C: The freezing point only decreases at high temperatures.",
+        "D: The freezing point increases."
+      ],
+      "correct_answer": "A",
+      "explanation": "Adding salt to water lowers the freezing point, a phenomenon known as freezing point depression. This occurs because the salt ions disrupt the formation of ice crystals, requiring the temperature to be lowered to freeze the water.",
+      "difficulty": 1,
+      "subcategory": "Gefrierpunktserniedrigung/Siedepunktserhöhung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Freie Materiewelle",
+      "question": "What does the free matter wave describe in quantum mechanics?",
+      "choices": [
+        "A: The temperature of a gas.",
+        "B: The oscillation of a pendulum.",
+        "C: The motion of a particle without external forces.",
+        "D: The gravitational attraction between two masses."
+      ],
+      "correct_answer": "C",
+      "explanation": "In quantum mechanics, the free matter wave describes the motion of a particle moving without the influence of external forces. This wave is represented by a wave function that indicates the probabilities of the particle's position and momentum.",
+      "difficulty": 2,
+      "subcategory": "Freie Materiewelle"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Eigenschaften von Photonen",
+      "question": "Which property of photons allows them to travel at different speeds through different media?",
+      "choices": [
+        "A: Frequency",
+        "B: Momentum",
+        "C: Energy",
+        "D: Wavelength"
+      ],
+      "correct_answer": "D",
+      "explanation": "The wavelength of a photon influences how it refracts in different media, leading to different speeds. In denser media, the photon slows down, a phenomenon determined by the wavelength. This property is fundamental for understanding light refraction and dispersion.",
+      "difficulty": 7,
+      "subcategory": "Eigenschaften von Photonen"
+    }
+  ]
+}
