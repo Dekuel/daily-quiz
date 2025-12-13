@@ -1,0 +1,168 @@
+{
+  "date": "2025-12-13",
+  "generated_at": "2025-12-13T03:48:36Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Meson‑Multipletts (SU(3))",
+      "question": "Which of the following mesons belongs to a pion multiplet?",
+      "choices": [
+        "A: ρ⁰",
+        "B: K⁺",
+        "C: π⁺",
+        "D: η"
+      ],
+      "correct_answer": "C",
+      "explanation": "The pion multiplet consists of three charges: the positive pion (π⁺), the negative pion (π⁻), and the neutral pion (π⁰). These mesons are crucial for the strong interaction and contribute to the understanding of quarks and their interactions.",
+      "difficulty": 3,
+      "subcategory": "Meson‑Multipletts (SU(3))"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Relativität der Gleichzeitigkeit",
+      "question": "Which statement best describes the concept of the relativity of simultaneity?",
+      "choices": [
+        "A: Two events that are simultaneous for one observer may appear offset in time for another observer.",
+        "B: Time is always the same for all observers, regardless of their velocity.",
+        "C: Only events that occur in the same reference frame can be considered simultaneous.",
+        "D: All events are simultaneous for every observer, regardless of their motion."
+      ],
+      "correct_answer": "A",
+      "explanation": "The relativity of simultaneity states that the simultaneity of events is relative and depends on the observer's motion. This means that two events that appear simultaneous to one observer can be temporally offset for another due to their relativistic motion.",
+      "difficulty": 5,
+      "subcategory": "Relativität der Gleichzeitigkeit"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "H-Theorem, Irreversibilität & lokale Maxwell-Verteilung",
+      "question": "What does the H-theorem describe in statistical mechanics?",
+      "choices": [
+        "A: The relationship between temperature and pressure in ideal gases.",
+        "B: The increase of entropy in closed systems over time.",
+        "C: The interactions between electrons in a solid.",
+        "D: The quantum mechanical diffraction of particles."
+      ],
+      "correct_answer": "B",
+      "explanation": "The H-theorem, formulated by Ludwig Boltzmann, states that entropy in a closed system increases with time, describing the direction of irreversible processes. It is a fundamental concept for explaining irreversibility in statistical mechanics.",
+      "difficulty": 5,
+      "subcategory": "H-Theorem, Irreversibilität & lokale Maxwell-Verteilung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Transistoren",
+      "question": "What is the main function of a transistor?",
+      "choices": [
+        "A: Energy storage",
+        "B: Generation of magnetic fields",
+        "C: Amplification of electrical signals",
+        "D: Conversion of light into electricity"
+      ],
+      "correct_answer": "C",
+      "explanation": "Transistors are semiconductor devices mainly used for amplifying and switching electrical signals. They are fundamental components in modern electronics and are found in many devices.",
+      "difficulty": 2,
+      "subcategory": "Transistoren"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Entropie: Definition & Extremaleigenschaft",
+      "question": "What does entropy describe in a closed system?",
+      "choices": [
+        "A: The number of particles in the system.",
+        "B: The disorder or randomness of particle arrangement.",
+        "C: The total energy of the system.",
+        "D: The temperature of the system."
+      ],
+      "correct_answer": "B",
+      "explanation": "Entropy is a measure of disorder or randomness in a closed system. It increases as the system moves from an ordered state to a disordered state, describing the direction of spontaneous processes.",
+      "difficulty": 4,
+      "subcategory": "Entropie: Definition & Extremaleigenschaft"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Ginzburg–Landau-Funktional: Herleitung",
+      "question": "Which term is typically not included in the Ginzburg-Landau functional when considering the thermodynamic properties of a superconducting system?",
+      "choices": [
+        "A: The reciprocal particle potential term",
+        "B: The kinetic term of Cooper pair formation",
+        "C: The energetic contribution of electronic states",
+        "D: The gradient term of the order parameter"
+      ],
+      "correct_answer": "A",
+      "explanation": "The Ginzburg-Landau functional describes the energetic contributions of a superconducting system and typically includes terms related to the order parameter and its gradients. However, the reciprocal particle potential term is not part of this description as it is not considered in the conventional derivation.",
+      "difficulty": 8,
+      "subcategory": "Ginzburg–Landau-Funktional: Herleitung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Beugung am Doppelspalt",
+      "question": "What describes the phenomenon of double-slit diffraction?",
+      "choices": [
+        "A: The absorption of light by a material.",
+        "B: The reflection of light on a smooth surface.",
+        "C: The formation of interference patterns by superposition of light waves.",
+        "D: The deflection of light rays by a lens."
+      ],
+      "correct_answer": "C",
+      "explanation": "The phenomenon of double-slit diffraction describes how light waves pass through two narrow slits and create interference patterns. These patterns result from the superposition of waves coming from the two slits, leading to bright and dark fringes.",
+      "difficulty": 6,
+      "subcategory": "Beugung am Doppelspalt"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Kritische Exponenten",
+      "question": "Which critical exponent describes the behavior of specific heat at a phase transition?",
+      "choices": [
+        "A: δ",
+        "B: β",
+        "C: α",
+        "D: γ"
+      ],
+      "correct_answer": "B",
+      "explanation": "The critical exponent β describes the behavior of specific heat near the critical point of a phase transition. It is crucial for understanding phase transitions in thermodynamics.",
+      "difficulty": 4,
+      "subcategory": "Kritische Exponenten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Korrelationsfunktion & Suszeptibilität; Ornstein–Zernike",
+      "question": "Which statement best describes the significance of the correlation function in statistical mechanics?",
+      "choices": [
+        "A: It defines the energy of a particle in an ideal gas.",
+        "B: It indicates how strongly the properties of a particle depend on another particle.",
+        "C: It explains the motion of particles in a vacuum.",
+        "D: It describes the temperature of a system at a specific time."
+      ],
+      "correct_answer": "B",
+      "explanation": "The correlation function is crucial in statistical mechanics as it describes the dependence of physical quantities on the positions and states of other particles. This is important for understanding phase transitions and critical phenomena.",
+      "difficulty": 5,
+      "subcategory": "Korrelationsfunktion & Suszeptibilität; Ornstein–Zernike"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Zyklotronresonanz",
+      "question": "What does cyclotron resonance in solids describe?",
+      "choices": [
+        "A: The motion of electrons in a magnetic field.",
+        "B: The interaction of photons with atoms.",
+        "C: The refraction of light in different materials.",
+        "D: The change in electrical resistance with temperature."
+      ],
+      "correct_answer": "A",
+      "explanation": "Cyclotron resonance describes the motion of charged particles, especially electrons, in a magnetic field, leading to characteristic resonance frequencies. This resonance can be used to study the electronic properties of materials.",
+      "difficulty": 4,
+      "subcategory": "Zyklotronresonanz"
+    }
+  ]
+}
