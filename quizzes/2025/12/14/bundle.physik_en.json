@@ -1,0 +1,168 @@
+{
+  "date": "2025-12-14",
+  "generated_at": "2025-12-14T04:00:35Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Ehrenfest-Klassifikation",
+      "question": "Which of the following statements correctly describes the Ehrenfest classification of phase transitions?",
+      "choices": [
+        "A: First-order phase transitions are characterized by a discontinuous change in enthalpy.",
+        "B: The Ehrenfest classification distinguishes only between gaseous and solid phases.",
+        "C: First-order phase transitions are characterized by a continuous change in entropy.",
+        "D: Second-order phase transitions have a discontinuous change in specific heat."
+      ],
+      "correct_answer": "A",
+      "explanation": "The Ehrenfest classification divides phase transitions into first and second order. In first-order transitions, there are discontinuous changes in thermodynamic quantities like enthalpy, while in second-order transitions, the derivatives of the thermodynamic potentials remain continuous.",
+      "difficulty": 6,
+      "subcategory": "Ehrenfest-Klassifikation"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Klassifikation der Randbedingungen",
+      "question": "Which of the following boundary conditions describes the electric field strength at a perfect conductor?",
+      "choices": [
+        "A: The electric field strength is zero at the surface of the conductor.",
+        "B: The electric field strength is constant.",
+        "C: The electric field strength varies with time.",
+        "D: The electric field strength is proportional to temperature."
+      ],
+      "correct_answer": "A",
+      "explanation": "At the surface of a perfect conductor, the electric field strength is zero because the free charge carriers arrange themselves to completely balance the electric field. This is a fundamental property of conductors in electrostatic equilibrium states.",
+      "difficulty": 1,
+      "subcategory": "Klassifikation der Randbedingungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Doppelter β‑Zerfall",
+      "question": "What is a characteristic feature of double beta decay?",
+      "choices": [
+        "A: There is no change in the number of nucleons.",
+        "B: Two electrons and two antineutrinos are emitted.",
+        "C: It is a spontaneous decay without energy release.",
+        "D: Two protons and two neutrons are produced."
+      ],
+      "correct_answer": "B",
+      "explanation": "Double beta decay is a process where an atomic nucleus emits two electrons and two antineutrinos. This process occurs when a nucleus converts two protons into neutrons while keeping the total number of nucleons constant.",
+      "difficulty": 6,
+      "subcategory": "Doppelter β‑Zerfall"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Rutherford‑Wirkungsquerschnitt",
+      "question": "Which parameter significantly influences the Rutherford cross section when considering the scattering of alpha particles on an atomic nucleus?",
+      "choices": [
+        "A: The kinetic energy of the alpha particles",
+        "B: The temperature of the experiment",
+        "C: The number of electrons in the atom",
+        "D: The mass of the alpha particles"
+      ],
+      "correct_answer": "A",
+      "explanation": "The Rutherford cross section is strongly dependent on the kinetic energy of the scattering particles. Higher energies increase the probability of alpha particles interacting with atomic nuclei, leading to a higher cross section.",
+      "difficulty": 10,
+      "subcategory": "Rutherford‑Wirkungsquerschnitt"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Wirkungsquerschnitt & differentielle Größen",
+      "question": "What does the cross section describe in particle physics?",
+      "choices": [
+        "A: The speed at which particles move.",
+        "B: The mass of a particle.",
+        "C: The temperature of a system.",
+        "D: The probability of an interaction between particles occurring."
+      ],
+      "correct_answer": "D",
+      "explanation": "The cross section is a measure of the probability of a specific interaction between particles occurring. It is a central quantity in particle physics to quantify the efficiency of interactions.",
+      "difficulty": 4,
+      "subcategory": "Wirkungsquerschnitt & differentielle Größen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Längenkontraktion",
+      "question": "What happens to the length of an object when it moves relative to an observer at relativistic speeds?",
+      "choices": [
+        "A: The length of the object varies randomly.",
+        "B: The length of the object remains unchanged.",
+        "C: The length of the object increases.",
+        "D: The length of the object contracts."
+      ],
+      "correct_answer": "D",
+      "explanation": "According to the theory of relativity, an object moving relative to an observer experiences length contraction in the direction of motion. This means that the measured length of the object appears shorter to the observer as the object's velocity approaches the speed of light.",
+      "difficulty": 5,
+      "subcategory": "Längenkontraktion"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Methode der Bildladungen",
+      "question": "Which statement about the method of images is correct?",
+      "choices": [
+        "A: It is used to calculate the electric field of a charged point near a conducting body.",
+        "B: The method cannot solve symmetric problems.",
+        "C: It is applicable only for stationary electric fields.",
+        "D: It requires the use of differential equations."
+      ],
+      "correct_answer": "A",
+      "explanation": "The method of images is a mathematical tool that allows determining the electric field of a point charge near a conducting body by introducing an 'image charge.' This technique significantly simplifies calculations by transforming the problem into a solvable state.",
+      "difficulty": 5,
+      "subcategory": "Methode der Bildladungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Harmonischer Oszillator: Erzeugungs-/Vernichtungsoperator",
+      "question": "What does the annihilation operator a do in a quantum mechanical harmonic oscillator?",
+      "choices": [
+        "A: It transforms the state into a classical state.",
+        "B: It has no effect on the system's energy.",
+        "C: It reduces the system's energy by one quantum of hν.",
+        "D: It increases the system's energy by one quantum of hν."
+      ],
+      "correct_answer": "C",
+      "explanation": "The annihilation operator a lowers the energy state of a quantum mechanical harmonic oscillator by one quantum of hν. This means it transitions the system's state to a lower energy state, thereby reducing the energy.",
+      "difficulty": 5,
+      "subcategory": "Harmonischer Oszillator: Erzeugungs-/Vernichtungsoperator"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Thermodynamische Systeme (offen/geschlossen/isoliert)",
+      "question": "Which of the following systems is a closed thermodynamic system?",
+      "choices": [
+        "A: An open glass of water in the air.",
+        "B: A refrigerator releasing heat to the surroundings.",
+        "C: A hermetically sealed vessel with water.",
+        "D: A container filled with water without a lid."
+      ],
+      "correct_answer": "C",
+      "explanation": "A closed thermodynamic system can exchange energy in the form of heat or work with its surroundings but not matter. A hermetically sealed vessel with water meets these conditions as the content cannot escape.",
+      "difficulty": 5,
+      "subcategory": "Thermodynamische Systeme (offen/geschlossen/isoliert)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Holonome Zwangsbedingungen",
+      "question": "Which of the following statements describes a holonomic constraint?",
+      "choices": [
+        "A: A constraint that can be represented in the form of an equation involving coordinates and time.",
+        "B: A constraint that only affects the velocities of the particles.",
+        "C: A constraint independent of time that does not establish a relationship between coordinates.",
+        "D: A constraint that cannot be expressed in integral form."
+      ],
+      "correct_answer": "A",
+      "explanation": "A holonomic constraint is a restriction that can be described by an equation involving the coordinates of the particles and possibly time. It allows reducing the degrees of freedom of a system in analytical mechanics.",
+      "difficulty": 5,
+      "subcategory": "Holonome Zwangsbedingungen"
+    }
+  ]
+}

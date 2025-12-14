@@ -1,0 +1,169 @@
+{
+  "date": "2025-12-14",
+  "generated_at": "2025-12-14T03:59:56Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Ehrenfest-Klassifikation",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt die Ehrenfest-Klassifikation von Phasenübergängen?",
+      "choices": [
+        "A: Erster Ordnung Phasenübergänge zeichnen sich durch eine diskontinuierliche Änderung der Enthalpie aus.",
+        "B: Die Ehrenfest-Klassifikation unterscheidet nur zwischen gasförmigen und festen Phasen.",
+        "C: Erster Ordnung Phasenübergänge sind durch eine kontinuierliche Änderung der Entropie gekennzeichnet.",
+        "D: Zweiter Ordnung Phasenübergänge haben eine diskontinuierliche Änderung der spezifischen Wärme."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Ehrenfest-Klassifikation teilt Phasenübergänge in erster und zweiter Ordnung ein. Bei Übergängen erster Ordnung kommt es zu diskontinuierlichen Änderungen von thermodynamischen Größen wie Enthalpie, während bei Übergängen zweiter Ordnung die Ableitungen der thermodynamischen Potentiale kontinuierlich bleiben.",
+      "difficulty": 6,
+      "subcategory": "Ehrenfest-Klassifikation"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Klassifikation der Randbedingungen",
+      "question": "Welche der folgenden Randbedingungen beschreibt die elektrische Feldstärke an einem perfekten Leiter?",
+      "choices": [
+        "A: Die elektrische Feldstärke ist an der Oberfläche des Leiters gleich null.",
+        "B: Die elektrische Feldstärke ist konstant.",
+        "C: Die elektrische Feldstärke variiert mit der Zeit.",
+        "D: Die elektrische Feldstärke ist proportional zur Temperatur."
+      ],
+      "correct_answer": "A",
+      "explanation": "An der Oberfläche eines perfekten Leiters ist die elektrische Feldstärke gleich null, da die freien Ladungsträger sich so anordnen, dass sie das elektrische Feld vollständig ausgleichen. Dies ist eine grundlegende Eigenschaft von Leitern in elektrostatischen Gleichgewichtszuständen.",
+      "difficulty": 1,
+      "subcategory": "Klassifikation der Randbedingungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Doppelter β‑Zerfall",
+      "question": "Was ist ein charakteristisches Merkmal des doppelten β-Zerfalls?",
+      "choices": [
+        "A: Es findet kein Wechsel der Nukleonenzahl statt.",
+        "B: Es werden zwei Elektronen und zwei Antineutrinos emittiert.",
+        "C: Es handelt sich um einen spontanen Zerfall ohne Energieabgabe.",
+        "D: Es entstehen zwei Protonen und zwei Neutronen."
+      ],
+      "correct_answer": "B",
+      "explanation": "Der doppelte β-Zerfall ist ein Prozess, bei dem ein Atomkern zwei Elektronen und zwei Antineutrinos emittiert. Dieser Prozess tritt auf, wenn ein Kern zwei Protonen in Neutronen umwandelt und dabei die Gesamtzahl der Nukleonen konstant bleibt.",
+      "difficulty": 6,
+      "subcategory": "Doppelter β‑Zerfall"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Rutherford‑Wirkungsquerschnitt",
+      "question": "Welcher Parameter beeinflusst den Rutherford-Wirkungsquerschnitt signifikant, wenn man die Streuung von α-Teilchen an einem Atomkern betrachtet?",
+      "choices": [
+        "A: Die kinetische Energie der α-Teilchen",
+        "B: Die Temperatur des Experiments",
+        "C: Die Anzahl der Elektronen im Atom",
+        "D: Die Masse der α-Teilchen"
+      ],
+      "correct_answer": "A",
+      "explanation": "Der Rutherford-Wirkungsquerschnitt ist stark abhängig von der kinetischen Energie der streuenden Teilchen. Höhere Energien erhöhen die Wahrscheinlichkeit, dass α-Teilchen mit den Atomkernen in Wechselwirkung treten, was zu einem höheren Wirkungsquerschnitt führt.",
+      "difficulty": 10,
+      "subcategory": "Rutherford‑Wirkungsquerschnitt"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Wirkungsquerschnitt & differentielle Größen",
+      "question": "Was beschreibt der Wirkungsquerschnitt in der Teilchenphysik?",
+      "choices": [
+        "A: Die Geschwindigkeit, mit der Teilchen sich bewegen.",
+        "B: Die Masse eines Teilchens.",
+        "C: Die Temperatur eines Systems.",
+        "D: Die Wahrscheinlichkeit, dass eine Wechselwirkung zwischen Teilchen stattfindet."
+      ],
+      "correct_answer": "D",
+      "explanation": "Der Wirkungsquerschnitt ist ein Maß für die Wahrscheinlichkeit, dass eine bestimmte Wechselwirkung zwischen Teilchen auftritt. Er ist eine zentrale Größe in der Teilchenphysik, um die Effizienz von Interaktionen zu quantifizieren.",
+      "difficulty": 4,
+      "subcategory": "Wirkungsquerschnitt & differentielle Größen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Längenkontraktion",
+      "question": "Was passiert mit der Länge eines Objekts, wenn es sich relativ zu einem Beobachter mit relativistischer Geschwindigkeit bewegt?",
+      "choices": [
+        "A: Die Länge des Objekts variiert zufällig.",
+        "B: Die Länge des Objekts bleibt unverändert.",
+        "C: Die Länge des Objekts wird größer.",
+        "D: Die Länge des Objekts verkürzt sich."
+      ],
+      "correct_answer": "D",
+      "explanation": "Gemäß der Relativitätstheorie erfährt ein Objekt, das sich relativ zu einem Beobachter bewegt, eine Längenkontraktion in Bewegungsrichtung. Dies bedeutet, dass die gemessene Länge des Objekts aus Sicht des Beobachters kürzer erscheint, je näher die Geschwindigkeit des Objekts an der Lichtgeschwindigkeit liegt.",
+      "difficulty": 5,
+      "subcategory": "Längenkontraktion"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Methode der Bildladungen",
+      "question": "Welche Aussage zur Methode der Bildladungen ist korrekt?",
+      "choices": [
+        "A: Sie wird verwendet, um das elektrische Feld einer geladenen Punktladung in der Nähe eines leitenden Körpers zu berechnen.",
+        "B: Die Methode kann keine symmetrischen Probleme lösen.",
+        "C: Sie ist nur für stationäre elektrische Felder anwendbar.",
+        "D: Sie erfordert die Verwendung von Differentialgleichungen."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Methode der Bildladungen ist ein mathematisches Werkzeug, das es ermöglicht, das elektrische Feld einer Punktladung in der Nähe eines leitenden Körpers zu bestimmen, indem man eine 'Bildladung' einführt. Diese Technik vereinfacht die Berechnungen erheblich, da sie das Problem in einen lösbaren Zustand transformiert.",
+      "difficulty": 5,
+      "subcategory": "Methode der Bildladungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Harmonischer Oszillator: Erzeugungs-/Vernichtungsoperator",
+      "question": "Was bewirkt der Vernichtungsoperator a in einem quantenmechanischen harmonischen Oszillator?",
+      "choices": [
+        "A: Er verwandelt den Zustand in einen klassischen Zustand.",
+        "B: Er hat keinen Einfluss auf die Energie des Systems.",
+        "C: Er reduziert die Energie des Systems um ein Quanten von hν.",
+        "D: Er erhöht die Energie des Systems um ein Quanten von hν."
+      ],
+      "correct_answer": "C",
+      "explanation": "Der Vernichtungsoperator a senkt den Energiezustand eines quantenmechanischen harmonischen Oszillators um ein Quant von hν. Dies bedeutet, dass er den Zustand des Systems in einen niedrigeren Energiezustand überführt und somit die Energie reduziert.",
+      "difficulty": 5,
+      "subcategory": "Harmonischer Oszillator: Erzeugungs-/Vernichtungsoperator"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Thermodynamische Systeme (offen/geschlossen/isoliert)",
+      "question": "Welches der folgenden Systeme ist ein geschlossenes thermodynamisches System?",
+      "choices": [
+        "A: Ein offenes Glas mit Wasser an der Luft.",
+        "B: Ein Kühlschrank, der Wärme an die Umgebung abgibt.",
+        "C: Ein luftdicht verschlossenes Gefäß mit Wasser.",
+        "D: Ein Behälter ohne Deckel, der mit Wasser gefüllt ist."
+      ],
+      "correct_answer": "C",
+      "explanation": "Ein geschlossenes thermodynamisches System kann Energie in Form von Wärme oder Arbeit mit seiner Umgebung austauschen, jedoch keine Materie. Ein luftdicht verschlossenes Gefäß mit Wasser erfüllt diese Bedingungen, da der Inhalt nicht entweichen kann.",
+      "difficulty": 5,
+      "subcategory": "Thermodynamische Systeme (offen/geschlossen/isoliert)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Holonome Zwangsbedingungen",
+      "question": "Welche der folgenden Aussagen beschreibt eine holonome Zwangsbedingung?",
+      "choices": [
+        "A: Eine Zwangsbedingung, die in Form einer Gleichung zwischen den Koordinaten und der Zeit dargestellt werden kann.",
+        "B: Eine Zwangsbedingung, die nur die Geschwindigkeiten der Teilchen betrifft.",
+        "C: Eine Zwangsbedingung, die unabhängig von der Zeit ist und keine Beziehung zwischen den Koordinaten herstellt.",
+        "D: Eine Zwangsbedingung, die nicht in einer integralen Form ausgedrückt werden kann."
+      ],
+      "correct_answer": "A",
+      "explanation": "Eine holonome Zwangsbedingung ist eine Einschränkung, die durch eine Gleichung zwischen den Koordinaten der Teilchen und eventuell der Zeit beschrieben werden kann. Sie ermöglicht die Reduktion der Freiheitsgrade eines Systems in der analytischen Mechanik.",
+      "difficulty": 5,
+      "subcategory": "Holonome Zwangsbedingungen"
+    }
+  ]
+}
