@@ -1,0 +1,169 @@
+{
+  "date": "2025-12-15",
+  "generated_at": "2025-12-15T04:05:33Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Nicht-holonome Zwangsbedingungen",
+      "question": "Welche der folgenden Aussagen beschreibt am besten die Eigenschaften nicht-holonome Zwangsbedingungen?",
+      "choices": [
+        "A: Sie sind unabhängig von der Wahl der Generalisierten Koordinaten.",
+        "B: Sie können in integrable holonome Zwangsbedingungen umgewandelt werden.",
+        "C: Sie sind Zwangsbedingungen, die nicht nur von den Koordinaten, sondern auch von den Geschwindigkeiten abhängen.",
+        "D: Sie führen immer zu einer Erhaltungssatzverletzung im System."
+      ],
+      "correct_answer": "C",
+      "explanation": "Nicht-holonome Zwangsbedingungen zeichnen sich dadurch aus, dass sie von den Geschwindigkeiten und den Koordinaten abhängen, was zu einer komplexeren Dynamik führt. Anders als holonome Zwangsbedingungen lassen sie sich nicht durch zusätzliche Potentiale ausdrücken und beeinflussen die Integrabilität der Bewegungsgleichungen erheblich.",
+      "difficulty": 9,
+      "subcategory": "Nicht-holonome Zwangsbedingungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Relativität der Gleichzeitigkeit",
+      "question": "Welches der folgenden Szenarien veranschaulicht am besten die Relativität der Gleichzeitigkeit?",
+      "choices": [
+        "A: Zwei Uhren, die sich an verschiedenen Orten befinden, zeigen immer die gleiche Zeit an.",
+        "B: Ein Pendel schwingt in einem ruhenden Rahmen und in einem bewegten Rahmen gleich schnell.",
+        "C: Ein Objekt bewegt sich mit konstanter Geschwindigkeit und erfährt keinen Zeitverlust.",
+        "D: Zwei Blitze schlagen gleichzeitig in zwei verschiedenen Städten ein, aber ein Beobachter in einem sich bewegenden Zug sieht sie nicht gleichzeitig."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Relativität der Gleichzeitigkeit besagt, dass zwei Ereignisse, die in einem Bezugssystem gleichzeitig stattfinden, in einem anderen Bezugssystem nicht gleichzeitig wahrgenommen werden müssen, insbesondere wenn sich der Beobachter relativ zu den Ereignissen bewegt. Das Beispiel mit den Blitzen illustriert dieses Konzept sehr anschaulich.",
+      "difficulty": 8,
+      "subcategory": "Relativität der Gleichzeitigkeit"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Idealer Paramagnet (Brillouin/Langevin-Idee)",
+      "question": "Welche Aussage beschreibt die magnetische Suszeptibilität eines idealen Paramagneten bei hohen Temperaturen?",
+      "choices": [
+        "A: Sie ist direkt proportional zur Temperatur.",
+        "B: Sie ist invers proportional zur Temperatur.",
+        "C: Sie ist unabhängig von der externen magnetischen Feldstärke.",
+        "D: Sie bleibt konstant unabhängig von der Temperatur."
+      ],
+      "correct_answer": "B",
+      "explanation": "Bei hohen Temperaturen folgt die magnetische Suszeptibilität eines idealen Paramagneten der Langevin-Theorie, die zeigt, dass die Suszeptibilität invers proportional zur Temperatur ist. Dies bedeutet, dass mit steigender Temperatur die magnetische Antwort des Materials abnimmt, da thermische Bewegungen die Ausrichtung der magnetischen Momente stören.",
+      "difficulty": 8,
+      "subcategory": "Idealer Paramagnet (Brillouin/Langevin-Idee)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Extremaleigenschaften von U und H",
+      "question": "Welcher Zusammenhang beschreibt die Beziehung zwischen der inneren Energie U und der Enthalpie H in einem geschlossenen System bei konstantem Druck?",
+      "choices": [
+        "A: H = U - RT",
+        "B: H = U + RT",
+        "C: H = U + pV",
+        "D: H = U - pV"
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Enthalpie H eines Systems ist definiert als die innere Energie U plus das Produkt aus Druck p und Volumen V. Dieser Zusammenhang ist besonders wichtig bei Prozessen, die bei konstantem Druck ablaufen, wie beispielsweise bei vielen chemischen Reaktionen.",
+      "difficulty": 6,
+      "subcategory": "Extremaleigenschaften von U und H"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Wärmestrahlungsgesetze & Planck-Formel",
+      "question": "Was beschreibt die Planck-Formel?",
+      "choices": [
+        "A: Die Wechselwirkungen zwischen Licht und Materie.",
+        "B: Die Verteilung der elektromagnetischen Strahlung von einem schwarzen Körper in Abhängigkeit von der Temperatur.",
+        "C: Die Bewegung von Teilchen in einem Vakuum.",
+        "D: Die Schwingungen von Molekülen in einem Festkörper."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Planck-Formel beschreibt, wie die elektromagnetische Strahlung eines idealen schwarzen Körpers in Abhängigkeit von seiner Temperatur verteilt ist. Diese Formel ist grundlegend für das Verständnis von Wärmeübertragung durch Strahlung in der Quantenmechanik.",
+      "difficulty": 1,
+      "subcategory": "Wärmestrahlungsgesetze & Planck-Formel"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Methode der Lagrange’schen Multiplikatoren (Zwangskräfte)",
+      "question": "Was ist der Hauptzweck der Lagrange’schen Multiplikatoren in der analytischen Mechanik?",
+      "choices": [
+        "A: Um den Energieerhaltungssatz zu beweisen.",
+        "B: Um die Bewegungsgleichungen unter Berücksichtigung von Zwangskräften zu formulieren.",
+        "C: Um die Geschwindigkeit eines Objekts zu messen.",
+        "D: Um die Masse eines Körpers zu bestimmen."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Lagrange’schen Multiplikatoren sind ein mathematisches Werkzeug, um die Bewegung eines Systems mit Zwangsbedingungen zu analysieren. Sie ermöglichen es, die Gleichungen der Bewegung unter Berücksichtigung von Einschränkungen aufzustellen, ohne die Zwangskräfte direkt zu berechnen.",
+      "difficulty": 3,
+      "subcategory": "Methode der Lagrange’schen Multiplikatoren (Zwangskräfte)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Ko- und kontravariante Tensoren (Grundbegriffe)",
+      "question": "Was beschreibt ein kontravarianter Tensor in der Relativitätstheorie?",
+      "choices": [
+        "A: Er beschreibt nur skalare Größen.",
+        "B: Er bleibt unter Koordinatentransformationen unverändert.",
+        "C: Er ist immer gleich null.",
+        "D: Er verändert sich unter Koordinatentransformationen wie ein Vektor."
+      ],
+      "correct_answer": "D",
+      "explanation": "Ein kontravarianter Tensor verhält sich unter Koordinatentransformationen wie ein Vektor, was bedeutet, dass seine Komponenten sich entsprechend der Ableitungen der neuen Koordinaten ändern. Dies ist wichtig für die Beschreibung physikalischer Gesetze in verschiedenen Bezugssystemen.",
+      "difficulty": 4,
+      "subcategory": "Ko- und kontravariante Tensoren (Grundbegriffe)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Eulersche Gleichungen",
+      "question": "Was beschreiben die Eulerschen Gleichungen in der klassischen Mechanik?",
+      "choices": [
+        "A: Die Quantennatur von Teilchen.",
+        "B: Die Gesetze der Thermodynamik.",
+        "C: Die Bewegung von starren Körpern unter dem Einfluss von Kräften.",
+        "D: Die Lichtbrechung in verschiedenen Medien."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Eulerschen Gleichungen sind fundamentale Gleichungen in der klassischen Mechanik, die die Bewegung starrer Körper unter dem Einfluss von Kräften beschreiben. Sie sind besonders wichtig für die Analyse von Rotationsbewegungen und dynamischen Systemen.",
+      "difficulty": 2,
+      "subcategory": "Eulersche Gleichungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Plasmonen (longitudinale Schwingungen)",
+      "question": "Welche Eigenschaft von Plasmonen ist entscheidend für ihre Anwendung in der Nanotechnologie?",
+      "choices": [
+        "A: Ihre Fähigkeit, Licht zu absorbieren und zu verstärken.",
+        "B: Ihre Rolle als Vermittler von chemischen Reaktionen.",
+        "C: Ihre Unabhängigkeit von der elektrischen Leitfähigkeit des Materials.",
+        "D: Ihre Stabilität bei hohen Temperaturen."
+      ],
+      "correct_answer": "A",
+      "explanation": "Plasmonen sind kollektive Schwingungen der Elektronendichte in Metallen, die Licht absorbieren und verstärken können. Diese Eigenschaft ist besonders wichtig in der Nanotechnologie, da sie für die Entwicklung von Sensoren und optischen Geräten genutzt wird.",
+      "difficulty": 6,
+      "subcategory": "Plasmonen (longitudinale Schwingungen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Partonmodell",
+      "question": "Was beschreibt das Partonmodell in der Teilchenphysik?",
+      "choices": [
+        "A: Die Wechselwirkungen zwischen Quarks und Gluonen.",
+        "B: Die Entstehung von Elementarteilchen aus Energie.",
+        "C: Die interne Struktur von Protonen und Neutronen.",
+        "D: Die thermodynamischen Eigenschaften von Kernen."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Partonmodell beschreibt die interne Struktur von Protonen und Neutronen, indem es diese als Zusammensetzung von Partonen (Quarks und Gluonen) betrachtet. Es hilft, die Eigenschaften von Hadronen bei hochenergetischen Kollisionen zu verstehen.",
+      "difficulty": 4,
+      "subcategory": "Partonmodell"
+    }
+  ]
+}

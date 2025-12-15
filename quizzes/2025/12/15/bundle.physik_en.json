@@ -1,0 +1,168 @@
+{
+  "date": "2025-12-15",
+  "generated_at": "2025-12-15T04:06:04Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Nicht-holonome Zwangsbedingungen",
+      "question": "Which of the following statements best describes the characteristics of non-holonomic constraints?",
+      "choices": [
+        "A: They are independent of the choice of generalized coordinates.",
+        "B: They can be transformed into integrable holonomic constraints.",
+        "C: They are constraints that depend not only on coordinates but also on velocities.",
+        "D: They always lead to a violation of a conservation law in the system."
+      ],
+      "correct_answer": "C",
+      "explanation": "Non-holonomic constraints are characterized by depending on velocities and coordinates, leading to a more complex dynamics. Unlike holonomic constraints, they cannot be expressed by additional potentials and significantly affect the integrability of the equations of motion.",
+      "difficulty": 9,
+      "subcategory": "Nicht-holonome Zwangsbedingungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Relativität der Gleichzeitigkeit",
+      "question": "Which of the following scenarios best illustrates the relativity of simultaneity?",
+      "choices": [
+        "A: Two clocks located at different places always show the same time.",
+        "B: A pendulum swings at the same speed in a stationary frame and in a moving frame.",
+        "C: An object moves at a constant speed and experiences no time loss.",
+        "D: Two lightning strikes simultaneously in two different cities, but an observer in a moving train does not see them simultaneously."
+      ],
+      "correct_answer": "D",
+      "explanation": "The relativity of simultaneity states that two events that occur simultaneously in one reference frame do not necessarily appear simultaneous in another reference frame, especially when the observer is moving relative to the events. The example with the lightning strikes illustrates this concept very vividly.",
+      "difficulty": 8,
+      "subcategory": "Relativität der Gleichzeitigkeit"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Idealer Paramagnet (Brillouin/Langevin-Idee)",
+      "question": "Which statement describes the magnetic susceptibility of an ideal paramagnet at high temperatures?",
+      "choices": [
+        "A: It is directly proportional to the temperature.",
+        "B: It is inversely proportional to the temperature.",
+        "C: It is independent of the external magnetic field strength.",
+        "D: It remains constant regardless of the temperature."
+      ],
+      "correct_answer": "B",
+      "explanation": "At high temperatures, the magnetic susceptibility of an ideal paramagnet follows the Langevin theory, which shows that the susceptibility is inversely proportional to the temperature. This means that as the temperature increases, the material's magnetic response decreases due to thermal movements disrupting the alignment of magnetic moments.",
+      "difficulty": 8,
+      "subcategory": "Idealer Paramagnet (Brillouin/Langevin-Idee)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Extremaleigenschaften von U und H",
+      "question": "What describes the relationship between the internal energy U and the enthalpy H in a closed system at constant pressure?",
+      "choices": [
+        "A: H = U - RT",
+        "B: H = U + RT",
+        "C: H = U + pV",
+        "D: H = U - pV"
+      ],
+      "correct_answer": "C",
+      "explanation": "The enthalpy H of a system is defined as the internal energy U plus the product of pressure p and volume V. This relationship is particularly important in processes that occur at constant pressure, such as in many chemical reactions.",
+      "difficulty": 6,
+      "subcategory": "Extremaleigenschaften von U und H"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Wärmestrahlungsgesetze & Planck-Formel",
+      "question": "What does the Planck formula describe?",
+      "choices": [
+        "A: The interactions between light and matter.",
+        "B: The distribution of electromagnetic radiation from a black body depending on the temperature.",
+        "C: The movement of particles in a vacuum.",
+        "D: The vibrations of molecules in a solid."
+      ],
+      "correct_answer": "B",
+      "explanation": "The Planck formula describes how the electromagnetic radiation of an ideal black body is distributed depending on its temperature. This formula is fundamental for understanding heat transfer through radiation in quantum mechanics.",
+      "difficulty": 1,
+      "subcategory": "Wärmestrahlungsgesetze & Planck-Formel"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Methode der Lagrange’schen Multiplikatoren (Zwangskräfte)",
+      "question": "What is the main purpose of Lagrange's multipliers in analytical mechanics?",
+      "choices": [
+        "A: To prove the conservation of energy.",
+        "B: To formulate the equations of motion considering constraint forces.",
+        "C: To measure the velocity of an object.",
+        "D: To determine the mass of a body."
+      ],
+      "correct_answer": "B",
+      "explanation": "Lagrange's multipliers are a mathematical tool to analyze the motion of a system with constraints. They allow formulating the equations of motion considering restrictions without directly calculating the constraint forces.",
+      "difficulty": 3,
+      "subcategory": "Methode der Lagrange’schen Multiplikatoren (Zwangskräfte)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Ko- und kontravariante Tensoren (Grundbegriffe)",
+      "question": "What does a contravariant tensor describe in the theory of relativity?",
+      "choices": [
+        "A: It describes only scalar quantities.",
+        "B: It remains unchanged under coordinate transformations.",
+        "C: It is always zero.",
+        "D: It changes like a vector under coordinate transformations."
+      ],
+      "correct_answer": "D",
+      "explanation": "A contravariant tensor behaves like a vector under coordinate transformations, meaning its components change according to the derivatives of the new coordinates. This is important for describing physical laws in different reference frames.",
+      "difficulty": 4,
+      "subcategory": "Ko- und kontravariante Tensoren (Grundbegriffe)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Eulersche Gleichungen",
+      "question": "What do the Euler equations describe in classical mechanics?",
+      "choices": [
+        "A: The quantum nature of particles.",
+        "B: The laws of thermodynamics.",
+        "C: The motion of rigid bodies under the influence of forces.",
+        "D: The refraction of light in different media."
+      ],
+      "correct_answer": "C",
+      "explanation": "The Euler equations are fundamental equations in classical mechanics that describe the motion of rigid bodies under the influence of forces. They are particularly important for analyzing rotational motion and dynamic systems.",
+      "difficulty": 2,
+      "subcategory": "Eulersche Gleichungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Plasmonen (longitudinale Schwingungen)",
+      "question": "What property of plasmons is crucial for their application in nanotechnology?",
+      "choices": [
+        "A: Their ability to absorb and enhance light.",
+        "B: Their role as mediators of chemical reactions.",
+        "C: Their independence from the electrical conductivity of the material.",
+        "D: Their stability at high temperatures."
+      ],
+      "correct_answer": "A",
+      "explanation": "Plasmons are collective oscillations of electron density in metals that can absorb and enhance light. This property is particularly important in nanotechnology as it is used for developing sensors and optical devices.",
+      "difficulty": 6,
+      "subcategory": "Plasmonen (longitudinale Schwingungen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Partonmodell",
+      "question": "What does the parton model describe in particle physics?",
+      "choices": [
+        "A: The interactions between quarks and gluons.",
+        "B: The emergence of elementary particles from energy.",
+        "C: The internal structure of protons and neutrons.",
+        "D: The thermodynamic properties of nuclei."
+      ],
+      "correct_answer": "C",
+      "explanation": "The parton model describes the internal structure of protons and neutrons by considering them as compositions of partons (quarks and gluons). It helps understand the properties of hadrons in high-energy collisions.",
+      "difficulty": 4,
+      "subcategory": "Partonmodell"
+    }
+  ]
+}

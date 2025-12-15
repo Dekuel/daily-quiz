@@ -154,6 +154,20 @@
       "correct_answer": "D",
       "explanation": "HTTP (Hypertext Transfer Protocol) ist das grundlegende Protokoll, das für die Übertragung von Webseiteninhalten im World Wide Web verantwortlich ist. FTP (File Transfer Protocol) wird zum Übertragen von Dateien verwendet, während SMTP (Simple Mail Transfer Protocol) für den Versand von E-Mails zuständig ist und SNMP (Simple Network Management Protocol) für das Netzwerkmanagement. Daher ist HTTP die richtige Antwort.",
       "difficulty": 9
+    },
+    {
+      "category": "Technologie",
+      "topic": "Computer & Internet",
+      "question": "Welches der folgenden Protokolle wird häufig für den sicheren Datenaustausch in Cloud-Diensten verwendet?",
+      "choices": [
+        "A: SNMP",
+        "B: TLS",
+        "C: HTTP",
+        "D: FTP"
+      ],
+      "correct_answer": "B",
+      "explanation": "TLS (Transport Layer Security) sorgt für eine sichere Verbindung und schützt die Integrität sowie Vertraulichkeit der übermittelten Daten. Es ist das gängigste Protokoll für sichere Kommunikation im Internet, insbesondere in Cloud-Diensten, während die anderen Protokolle nicht primär auf Sicherheit ausgelegt sind.",
+      "difficulty": 7
     }
   ]
 }
