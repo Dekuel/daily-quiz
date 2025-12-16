@@ -1,0 +1,169 @@
+{
+  "date": "2025-12-16",
+  "generated_at": "2025-12-16T03:58:29Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Dipolschwingungen",
+      "question": "Was ist eine Dipolschwingung?",
+      "choices": [
+        "A: Eine Schwingung, die nur bei sehr hohen Temperaturen auftritt.",
+        "B: Eine Schwingung, die keine Energieübertragung beinhaltet.",
+        "C: Eine Schwingung, die durch zwei entgegengesetzte elektrische Ladungen erzeugt wird.",
+        "D: Eine Schwingung, die nur in einem Vakuum stattfindet."
+      ],
+      "correct_answer": "C",
+      "explanation": "Eine Dipolschwingung tritt auf, wenn sich zwei entgegengesetzte elektrische Ladungen periodisch bewegen. Diese Bewegung erzeugt ein zeitlich veränderliches elektrisches Feld, das für viele physikalische Phänomene, wie z.B. die Strahlung von elektromagnetischen Wellen, von Bedeutung ist.",
+      "difficulty": 2,
+      "subcategory": "Dipolschwingungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Maxwell-Gleichungen der Magnetostatik",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt die Maxwell-Gleichungen in der Magnetostatik?",
+      "choices": [
+        "A: Es existieren magnetische Monopole, die in der Natur vorkommen.",
+        "B: Der elektrische Fluss durch eine geschlossene Fläche ist immer konstant.",
+        "C: Der Zusammenhang zwischen elektrischen und magnetischen Feldern wird durch die Lorentz-Kraft beschrieben.",
+        "D: Der magnetische Fluss durch eine geschlossene Fläche ist immer null."
+      ],
+      "correct_answer": "D",
+      "explanation": "In der Magnetostatik besagen die Maxwell-Gleichungen, dass der magnetische Fluss durch eine geschlossene Fläche null ist, was bedeutet, dass es keine Quellen oder Senken von magnetischen Feldlinien gibt. Magnetische Monopole sind bisher nicht nachgewiesen, und die Lorentz-Kraft beschreibt die Wechselwirkung von elektrischen und magnetischen Feldern, nicht die Maxwell-Gleichungen selbst.",
+      "difficulty": 6,
+      "subcategory": "Maxwell-Gleichungen der Magnetostatik"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Hookesches Gesetz",
+      "question": "Was beschreibt das Hookesche Gesetz?",
+      "choices": [
+        "A: Die Beziehung zwischen der auf einen Feder ausgeübten Kraft und der daraus resultierenden Dehnung.",
+        "B: Die Wechselwirkung zwischen zwei elektrisch geladenen Körpern.",
+        "C: Die Bewegung eines Körpers im freien Fall.",
+        "D: Die Temperaturabhängigkeit von Gasen."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Hookesche Gesetz beschreibt, dass die Dehnung einer Feder proportional zur auf sie ausgeübten Kraft ist, solange die elastische Grenze nicht überschritten wird. Dies ist eine fundamentale Beziehung in der klassischen Mechanik, die viele Anwendungen in der Technik hat.",
+      "difficulty": 3,
+      "subcategory": "Hookesches Gesetz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Kugelfall-Viskosimeter; Stokes-Gesetz",
+      "question": "Welches der folgenden Gesetze beschreibt den Zusammenhang zwischen der Fallgeschwindigkeit einer Kugel in einer viskosen Flüssigkeit und der Viskosität dieser Flüssigkeit?",
+      "choices": [
+        "A: Newtonsches Gesetz",
+        "B: Archimedes' Prinzip",
+        "C: Stokes-Gesetz",
+        "D: Bernoulli-Gleichung"
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Stokes-Gesetz beschreibt, wie die Fallgeschwindigkeit einer Kugel in einer viskosen Flüssigkeit von der Viskosität der Flüssigkeit, dem Radius der Kugel und der Dichte der Kugel abhängt. Es ist besonders wichtig in der Hydrodynamik und bei der Analyse von Viskosimetern.",
+      "difficulty": 6,
+      "subcategory": "Kugelfall-Viskosimeter; Stokes-Gesetz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Potentiale des idealen Gases",
+      "question": "Was beschreibt das ideale Gasgesetz?",
+      "choices": [
+        "A: Die Schwingungen von Atomen in einem Festkörper.",
+        "B: Das Verhältnis von Druck, Volumen und Temperatur eines idealen Gases.",
+        "C: Die Wechselwirkungen zwischen Photonen und Elektronen.",
+        "D: Die Energieerhaltung in einem geschlossenen System."
+      ],
+      "correct_answer": "B",
+      "explanation": "Das ideale Gasgesetz formuliert die Beziehung zwischen Druck, Volumen und Temperatur eines idealen Gases und ist eine fundamentale Gleichung in der Thermodynamik. Es lautet PV = nRT, wobei P der Druck, V das Volumen, n die Stoffmenge, R die universelle Gaskonstante und T die Temperatur ist.",
+      "difficulty": 3,
+      "subcategory": "Potentiale des idealen Gases"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Ordnung und Unordnung",
+      "question": "Welche der folgenden Aussagen beschreibt am besten den Unterschied zwischen einem kristallinen und einem amorphen Festkörper?",
+      "choices": [
+        "A: Ein kristalliner Festkörper hat eine regelmäßige atomare Anordnung, während ein amorpher Festkörper keine langfristige Ordnung aufweist.",
+        "B: Ein amorpher Festkörper hat immer eine höhere Dichte als ein kristalliner Festkörper.",
+        "C: Ein kristalliner Festkörper leitet Wärme besser als ein amorpher Festkörper.",
+        "D: Kristalline Festkörper bestehen immer aus Metallen, während amorphe Festkörper aus Nichtmetallen bestehen."
+      ],
+      "correct_answer": "A",
+      "explanation": "Der Hauptunterschied zwischen kristallinen und amorphen Festkörpern liegt in der Anordnung der Atome. Kristalline Festkörper weisen eine regelmäßige und wiederholbare Struktur auf, während amorphe Festkörper in ihrer atomaren Anordnung unregelmäßig sind und keine langfristige Ordnung zeigen.",
+      "difficulty": 4,
+      "subcategory": "Ordnung und Unordnung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Reibung in der Lagrange-Formulierung",
+      "question": "Wie wird die Reibung in der Lagrange-Formulierung typischerweise behandelt?",
+      "choices": [
+        "A: Reibung wird ignoriert, da sie nicht in der Lagrange-Formulierung enthalten ist.",
+        "B: Reibung wird als konstante Kraft in die Gleichungen integriert.",
+        "C: Durch die Verwendung von Impuls- und Energieerhaltungsgleichungen.",
+        "D: Durch die Einführung eines dissipativen Terms in die Lagrange-Gleichungen."
+      ],
+      "correct_answer": "D",
+      "explanation": "In der Lagrange-Formulierung wird Reibung häufig durch dissipative Terme behandelt, die in die Lagrange-Gleichungen eingeführt werden. Diese Terme berücksichtigen die Energieverluste, die durch Reibung entstehen, und ermöglichen eine genauere Modellierung dynamischer Systeme.",
+      "difficulty": 8,
+      "subcategory": "Reibung in der Lagrange-Formulierung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Harmonischer Oszillator: Erzeugungs-/Vernichtungsoperator",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt die Funktion des Erzeugungsoperators im harmonischen Oszillator?",
+      "choices": [
+        "A: Er hat keinen Einfluss auf die Energie des Systems.",
+        "B: Er vermindert die Energie des Systems um eine Quantenstufe.",
+        "C: Er ändert die Frequenz des harmonischen Oszillators.",
+        "D: Er erhöht die Energie des Systems um eine Quantenstufe."
+      ],
+      "correct_answer": "D",
+      "explanation": "Der Erzeugungsoperator, auch als Schöpfungsoperator bekannt, erhöht die Anzahl der Quanten im Zustand des harmonischen Oszillators um eins, was zu einer Erhöhung der Energie des Systems führt. Diese Eigenschaft ist grundlegend für die Quantenmechanik und beschreibt, wie Teilchenzustände erzeugt werden können.",
+      "difficulty": 4,
+      "subcategory": "Harmonischer Oszillator: Erzeugungs-/Vernichtungsoperator"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Sternentwicklung & Elementsynthese",
+      "question": "Welches Element wird typischerweise in der Hauptreihe eines Sterns hauptsächlich durch Kernfusion erzeugt?",
+      "choices": [
+        "A: Wasserstoff",
+        "B: Helium",
+        "C: Eisen",
+        "D: Kohlenstoff"
+      ],
+      "correct_answer": "A",
+      "explanation": "In der Hauptreihe eines Sterns findet die Fusion von Wasserstoff zu Helium statt, was die primäre Energiequelle für die meisten Sterne ist. Diese Reaktion ist entscheidend für die Stabilität und Lebensdauer eines Sterns in dieser Phase seiner Entwicklung.",
+      "difficulty": 6,
+      "subcategory": "Sternentwicklung & Elementsynthese"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Flussquantisierung",
+      "question": "Was beschreibt der Effekt der Flussquantisierung in einem supraleitenden Ring?",
+      "choices": [
+        "A: Der Widerstand ist immer null.",
+        "B: Die Temperatur bleibt unverändert.",
+        "C: Die magnetische Flussdurchdringung ist quantisiert.",
+        "D: Die elektrische Leitfähigkeit ist konstant."
+      ],
+      "correct_answer": "C",
+      "explanation": "Der Effekt der Flussquantisierung besagt, dass der magnetische Fluss durch einen supraleitenden Ring nur bestimmte, diskrete Werte annehmen kann. Dies ist ein zentrales Konzept in der Festkörperphysik und verdeutlicht die quantenmechanischen Eigenschaften von Supraleitern.",
+      "difficulty": 3,
+      "subcategory": "Flussquantisierung"
+    }
+  ]
+}
