@@ -1,0 +1,168 @@
+{
+  "date": "2025-12-17",
+  "generated_at": "2025-12-17T03:55:42Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Feynman‑Diagramme (Streuprozesse)",
+      "question": "What does a Feynman diagram typically represent?",
+      "choices": [
+        "A: The interactions between particles during a scattering process.",
+        "B: The structure of atomic nuclei and their stability.",
+        "C: The motion of planets in the solar system.",
+        "D: The temperature dependence of substances."
+      ],
+      "correct_answer": "A",
+      "explanation": "Feynman diagrams are graphical representations of particle interactions in quantum field theory. They show how particles interact during a scattering process using lines for the particles and vertices for the interactions.",
+      "difficulty": 6,
+      "subcategory": "Feynman‑Diagramme (Streuprozesse)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Gitterspektrometer",
+      "question": "What is the main function of a grating spectrometer?",
+      "choices": [
+        "A: Dispersing light into its spectral colors.",
+        "B: Measuring the temperature of objects.",
+        "C: Generating electromagnetic waves.",
+        "D: Amplifying sound waves."
+      ],
+      "correct_answer": "A",
+      "explanation": "A grating spectrometer is used to disperse light into its various spectral colors. It utilizes a diffraction grating to analyze the wavelengths of light, thus enabling the examination of spectra of materials.",
+      "difficulty": 4,
+      "subcategory": "Gitterspektrometer"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Elektrostatik der Dielektrika",
+      "question": "What happens to the electric field strength in a dielectric when placed in an electric field?",
+      "choices": [
+        "A: It becomes infinite.",
+        "B: It remains the same.",
+        "C: It increases.",
+        "D: It decreases."
+      ],
+      "correct_answer": "D",
+      "explanation": "When a dielectric is placed in an electric field, it polarizes and generates an opposite field strength. This reduces the overall field strength in the dielectric compared to vacuum or air.",
+      "difficulty": 5,
+      "subcategory": "Elektrostatik der Dielektrika"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Spin 1/2 (Pauli-Matrizen)",
+      "question": "Which Pauli matrix describes spin in the z-direction for a spin-1/2 system?",
+      "choices": [
+        "A: σ_x = [[0, 1], [1, 0]]",
+        "B: σ_z = [[0, 1], [1, 0]]",
+        "C: σ_y = [[0, -i], [i, 0]]",
+        "D: σ_z = [[1, 0], [0, -1]]"
+      ],
+      "correct_answer": "D",
+      "explanation": "The Pauli matrix σ_z describes spin in the z-direction and has the form [[1, 0], [0, -1]]. This matrix is important for describing spin-1/2 systems in quantum mechanics and plays a central role in quantum mechanical calculations.",
+      "difficulty": 3,
+      "subcategory": "Spin 1/2 (Pauli-Matrizen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Wirbel & Zirkulation",
+      "question": "What does a vortex describe in fluid mechanics?",
+      "choices": [
+        "A: Random motion of fluid particles.",
+        "B: Static arrangement of fluid particles.",
+        "C: Circular motion of fluid particles.",
+        "D: Straight-line motion of fluid particles."
+      ],
+      "correct_answer": "C",
+      "explanation": "A vortex describes the circular motion of fluid particles around a central point. This motion is typical of flows in liquids or gases and is a fundamental concept in fluid mechanics.",
+      "difficulty": 1,
+      "subcategory": "Wirbel & Zirkulation"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Gaußsche Bündel & abbildende Elemente",
+      "question": "Which of the following features is characteristic of an ideal Gaussian beam in optics?",
+      "choices": [
+        "A: The beam paths are linear and parallel.",
+        "B: It allows imaging of points at a specific distance without aberrations.",
+        "C: It is independent of the wavelength of light.",
+        "D: It has a constant beam radius at all focal lengths."
+      ],
+      "correct_answer": "B",
+      "explanation": "An ideal Gaussian beam allows the imaging of points at a specific distance without geometric aberrations, making it particularly important for precise optical systems. The other options refer to properties that do not apply to an ideal Gaussian beam or are inaccurate.",
+      "difficulty": 10,
+      "subcategory": "Gaußsche Bündel & abbildende Elemente"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Methode der Lagrange’schen Multiplikatoren (Zwangskräfte)",
+      "question": "Which statement about the method of Lagrange multipliers is correct?",
+      "choices": [
+        "A: It calculates only the velocity of a body.",
+        "B: It is only relevant in quantum mechanics.",
+        "C: It is only applied to systems without constraint forces.",
+        "D: It is used to analyze the motion of systems with constraint forces."
+      ],
+      "correct_answer": "D",
+      "explanation": "The method of Lagrange multipliers is used to analyze the motion of systems constrained by constraint forces. It allows the integration of constraints into the Lagrange equations to examine the dynamics of the system.",
+      "difficulty": 4,
+      "subcategory": "Methode der Lagrange’schen Multiplikatoren (Zwangskräfte)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Erweiterungen des Hamilton’schen Prinzips",
+      "question": "Which of the following concepts is an extension of Hamilton's principle in analytical mechanics?",
+      "choices": [
+        "A: Principle of least action",
+        "B: Noether's theorem",
+        "C: Hamilton-Jacobi equation",
+        "D: Lagrange formulation"
+      ],
+      "correct_answer": "C",
+      "explanation": "The Hamilton-Jacobi equation represents a significant extension of Hamilton's principle by integrating the problems of motion into a Hamiltonian system and establishing a connection between classical and quantum mechanical approaches. While the principle of least action and the Lagrange formulation are fundamental concepts, the Hamilton-Jacobi equation focuses on solving motion problems through the transformation of the Hamiltonian equations.",
+      "difficulty": 8,
+      "subcategory": "Erweiterungen des Hamilton’schen Prinzips"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Ehrenfest-Klassifikation",
+      "question": "What does the Ehrenfest classification describe in thermodynamics?",
+      "choices": [
+        "A: Calculating work in closed systems.",
+        "B: The relationship between temperature and pressure in ideal gases.",
+        "C: Assigning phase transitions to their thermodynamic nature.",
+        "D: Conversion of kinetic energy into heat."
+      ],
+      "correct_answer": "C",
+      "explanation": "The Ehrenfest classification distinguishes between different types of phase transitions, such as first and second order, based on their thermodynamic properties. This classification helps understand the behavior of substances during phase changes.",
+      "difficulty": 1,
+      "subcategory": "Ehrenfest-Klassifikation"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Flussquantisierung",
+      "question": "What does the phenomenon of flux quantization in solids describe?",
+      "choices": [
+        "A: The quantized number of magnetic flux lines through a superconducting ring.",
+        "B: The energy states of electrons in a semiconductor.",
+        "C: The quantized motion of particles in a solid lattice.",
+        "D: The maximum temperature a solid can reach."
+      ],
+      "correct_answer": "A",
+      "explanation": "Flux quantization describes that in superconducting rings, the magnetic flux can only occur in discrete values. This is a central concept in solid-state physics that illustrates the quantum mechanical nature of magnetic fields in superconducting materials.",
+      "difficulty": 5,
+      "subcategory": "Flussquantisierung"
+    }
+  ]
+}

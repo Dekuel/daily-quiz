@@ -1,0 +1,169 @@
+{
+  "date": "2025-12-17",
+  "generated_at": "2025-12-17T03:55:11Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Feynman‑Diagramme (Streuprozesse)",
+      "question": "Was stellt ein Feynman-Diagramm typischerweise dar?",
+      "choices": [
+        "A: Die Wechselwirkungen zwischen Teilchen während eines Streuprozesses.",
+        "B: Die Struktur von Atomkernen und deren Stabilität.",
+        "C: Die Bewegung von Planeten im Sonnensystem.",
+        "D: Die Temperaturabhängigkeit von Stoffen."
+      ],
+      "correct_answer": "A",
+      "explanation": "Feynman-Diagramme sind grafische Darstellungen von Teilchenwechselwirkungen in der Quantenfeldtheorie. Sie zeigen, wie Teilchen während eines Streuprozesses interagieren, indem sie Linien für die Teilchen und Vertices für die Wechselwirkungen verwenden.",
+      "difficulty": 6,
+      "subcategory": "Feynman‑Diagramme (Streuprozesse)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Gitterspektrometer",
+      "question": "Was ist die Hauptfunktion eines Gitterspektrometers?",
+      "choices": [
+        "A: Die Zerlegung von Licht in seine Spektralfarben.",
+        "B: Die Messung der Temperatur von Objekten.",
+        "C: Die Erzeugung von elektromagnetischen Wellen.",
+        "D: Die Verstärkung von Schallwellen."
+      ],
+      "correct_answer": "A",
+      "explanation": "Ein Gitterspektrometer wird verwendet, um Licht in seine verschiedenen Spektralfarben zu zerlegen. Es nutzt ein Beugungsgitter, um die Wellenlängen des Lichts zu analysieren und ermöglicht somit die Untersuchung von Spektren von Materialien.",
+      "difficulty": 4,
+      "subcategory": "Gitterspektrometer"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Elektrostatik der Dielektrika",
+      "question": "Was passiert mit der elektrischen Feldstärke in einem Dielektrikum, wenn es in ein elektrisches Feld gebracht wird?",
+      "choices": [
+        "A: Sie wird unendlich.",
+        "B: Sie bleibt gleich.",
+        "C: Sie erhöht sich.",
+        "D: Sie verringert sich."
+      ],
+      "correct_answer": "D",
+      "explanation": "Wenn ein Dielektrikum in ein elektrisches Feld gebracht wird, polarisiert es sich und erzeugt eine entgegengesetzte Feldstärke. Dadurch wird die Gesamtfeldstärke im Dielektrikum geringer als im Vakuum oder in Luft.",
+      "difficulty": 5,
+      "subcategory": "Elektrostatik der Dielektrika"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Spin 1/2 (Pauli-Matrizen)",
+      "question": "Welche Pauli-Matrix beschreibt den Spin in der z-Richtung für ein Spin-1/2-System?",
+      "choices": [
+        "A: σ_x = [[0, 1], [1, 0]]",
+        "B: σ_z = [[0, 1], [1, 0]]",
+        "C: σ_y = [[0, -i], [i, 0]]",
+        "D: σ_z = [[1, 0], [0, -1]]"
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Pauli-Matrix σ_z beschreibt den Spin in der z-Richtung und hat die Form [[1, 0], [0, -1]]. Diese Matrix ist wichtig für die Beschreibung von Spin-1/2-Systemen in der Quantenmechanik und spielt eine zentrale Rolle in den quantenmechanischen Berechnungen.",
+      "difficulty": 3,
+      "subcategory": "Spin 1/2 (Pauli-Matrizen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Wirbel & Zirkulation",
+      "question": "Was beschreibt ein Wirbel in der Fluidmechanik?",
+      "choices": [
+        "A: Eine zufällige Bewegung von Fluidpartikeln.",
+        "B: Eine statische Anordnung von Fluidpartikeln.",
+        "C: Eine kreisförmige Bewegung von Fluidpartikeln.",
+        "D: Eine gerade Bewegung von Fluidpartikeln."
+      ],
+      "correct_answer": "C",
+      "explanation": "Ein Wirbel beschreibt die kreisförmige Bewegung von Fluidpartikeln um einen zentralen Punkt. Diese Bewegung ist typisch für Strömungen in Flüssigkeiten oder Gasen und ist ein grundlegendes Konzept in der Fluidmechanik.",
+      "difficulty": 1,
+      "subcategory": "Wirbel & Zirkulation"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Gaußsche Bündel & abbildende Elemente",
+      "question": "Welches der folgenden Merkmale ist charakteristisch für ein ideales Gaußsches Bündel in der Abbildungstheorie?",
+      "choices": [
+        "A: Die Strahlengänge sind linear und verlaufen parallel.",
+        "B: Es ermöglicht die Abbildung von Punkten in einem bestimmten Abstand ohne Aberrationen.",
+        "C: Es ist unabhängig von der Wellenlänge des Lichts.",
+        "D: Es hat einen konstanten Strahlradius in allen Brennweiten."
+      ],
+      "correct_answer": "B",
+      "explanation": "Ein ideales Gaußsches Bündel ermöglicht die Abbildung von Punkten in einem bestimmten Abstand ohne geometrische Aberrationen, was es besonders wichtig für präzise optische Systeme macht. Die anderen Optionen beziehen sich auf Eigenschaften, die nicht für ein ideales Gaußsches Bündel gelten oder ungenau sind.",
+      "difficulty": 10,
+      "subcategory": "Gaußsche Bündel & abbildende Elemente"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Methode der Lagrange’schen Multiplikatoren (Zwangskräfte)",
+      "question": "Welche Aussage über die Methode der Lagrange’schen Multiplikatoren ist korrekt?",
+      "choices": [
+        "A: Sie berechnet ausschließlich die Geschwindigkeit eines Körpers.",
+        "B: Sie ist nur in der Quantenmechanik von Bedeutung.",
+        "C: Sie wird nur für Systeme ohne Zwangskräfte angewendet.",
+        "D: Sie wird verwendet, um die Bewegung von Systemen mit Zwangskräften zu analysieren."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Methode der Lagrange’schen Multiplikatoren wird angewendet, um die Bewegung von Systemen zu analysieren, die durch Zwangskräfte eingeschränkt sind. Sie ermöglicht es, die Zwangsbedingungen in die Lagrange-Gleichungen zu integrieren und so die Dynamik des Systems zu untersuchen.",
+      "difficulty": 4,
+      "subcategory": "Methode der Lagrange’schen Multiplikatoren (Zwangskräfte)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Erweiterungen des Hamilton’schen Prinzips",
+      "question": "Welches der folgenden Konzepte ist eine Erweiterung des Hamilton’schen Prinzips in der analytischen Mechanik?",
+      "choices": [
+        "A: Prinzip der kleinsten Wirkung",
+        "B: Noether-Theorem",
+        "C: Hamilton-Jacobi-Gleichung",
+        "D: Lagrange-Formulierung"
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Hamilton-Jacobi-Gleichung stellt eine bedeutende Erweiterung des Hamilton’schen Prinzips dar, indem sie die Probleme der Bewegung in ein Hamiltonsches System integriert und eine Verbindung zwischen klassischen und quantenmechanischen Ansätzen schafft. Während das Prinzip der kleinsten Wirkung und die Lagrange-Formulierung grundlegende Konzepte sind, fokussiert sich die Hamilton-Jacobi-Gleichung auf die Lösung von Bewegungsproblemen durch die Transformation der Hamiltonschen Gleichungen.",
+      "difficulty": 8,
+      "subcategory": "Erweiterungen des Hamilton’schen Prinzips"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Ehrenfest-Klassifikation",
+      "question": "Was beschreibt die Ehrenfest-Klassifikation in der Thermodynamik?",
+      "choices": [
+        "A: Die Berechnung der Arbeit in geschlossenen Systemen.",
+        "B: Die Beziehung zwischen Temperatur und Druck in idealen Gasen.",
+        "C: Die Zuordnung von Phasenübergängen zu ihrer thermodynamischen Natur.",
+        "D: Die Umwandlung von kinetischer Energie in Wärme."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Ehrenfest-Klassifikation unterscheidet zwischen verschiedenen Arten von Phasenübergängen, wie z.B. zwischen ersten und zweiten Ordnung, basierend auf deren thermodynamischen Eigenschaften. Diese Klassifikation hilft, das Verhalten von Stoffen während der Phasenänderungen zu verstehen.",
+      "difficulty": 1,
+      "subcategory": "Ehrenfest-Klassifikation"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Flussquantisierung",
+      "question": "Was beschreibt das Phänomen der Flussquantisierung in Festkörpern?",
+      "choices": [
+        "A: Die quantisierte Anzahl an magnetischen Flusslinien durch einen supraleitenden Ring.",
+        "B: Die Energiezustände von Elektronen in einem Halbleiter.",
+        "C: Die quantisierte Bewegung von Teilchen in einem festen Gitter.",
+        "D: Die maximale Temperatur, die ein Festkörper erreichen kann."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Flussquantisierung beschreibt, dass in supraleitenden Ringen der magnetische Fluss nur in diskreten Werten auftreten kann. Dies ist ein zentrales Konzept in der Festkörperphysik, das die quantenmechanische Natur von Magnetfeldern in supraleitenden Materialien verdeutlicht.",
+      "difficulty": 5,
+      "subcategory": "Flussquantisierung"
+    }
+  ]
+}
