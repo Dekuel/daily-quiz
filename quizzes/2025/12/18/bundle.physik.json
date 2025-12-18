@@ -1,0 +1,169 @@
+{
+  "date": "2025-12-18",
+  "generated_at": "2025-12-18T03:55:51Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Moden im dielektrischen Wellenleiter",
+      "question": "Welche Aussage über die Moden in einem dielektrischen Wellenleiter ist korrekt?",
+      "choices": [
+        "A: Alle Moden haben die gleiche Ausbreitungsgeschwindigkeit.",
+        "B: Die Anzahl der Moden hängt von der Wellenlänge des Lichts ab.",
+        "C: Es gibt keine Begrenzung für die Anzahl der Moden in einem Wellenleiter.",
+        "D: Moden in einem dielektrischen Wellenleiter sind immer transversal."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Anzahl der Moden in einem dielektrischen Wellenleiter hängt von der Wellenlänge des Lichts sowie von den geometrischen Abmessungen des Wellenleiters ab. Längere Wellenlängen führen in der Regel zu weniger Moden, während kürzere Wellenlängen mehr Moden unterstützen können.",
+      "difficulty": 6,
+      "subcategory": "Moden im dielektrischen Wellenleiter"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Ritz’sches Verfahren",
+      "question": "Was beschreibt das Ritz’sche Verfahren in der Quantenmechanik?",
+      "choices": [
+        "A: Die Analyse der Wechselwirkungen zwischen Licht und Materie.",
+        "B: Die Berechnung der Quantenfluktuationen in einem Vakuum.",
+        "C: Die Bestimmung von Energieniveaus in einem Atom durch die Anwendung von variationalen Prinzipien.",
+        "D: Die Beschreibung von Teilchen in einem harmonischen Oszillator."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Ritz’sche Verfahren ist eine Methode zur Berechnung der Energieniveaus von Atomen, indem es variationalen Prinzipien folgt. Es ermöglicht die Quantifizierung von Zuständen durch die Minimierung der Energieerwartungswerte.",
+      "difficulty": 8,
+      "subcategory": "Ritz’sches Verfahren"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Ansatz der Wellenmechanik (de Broglie/Schrödinger-Idee)",
+      "question": "Welche der folgenden Aussagen beschreibt am besten die de Broglie-Wellenlänge eines Teilchens?",
+      "choices": [
+        "A: Sie ist gleich der klassischen Wellenlänge eines Photons.",
+        "B: Sie ist invers proportional zu dem Impuls des Teilchens.",
+        "C: Sie ist proportional zu der Energie des Teilchens.",
+        "D: Sie ist unabhängig von der Masse des Teilchens."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die de Broglie-Wellenlänge ist definiert als λ = h/p, wobei h das Plancksche Wirkungsquantum und p der Impuls des Teilchens ist. Dies bedeutet, dass die Wellenlänge invers proportional zum Impuls ist, was für die Beschreibung der Wellen-Natur von Materie entscheidend ist.",
+      "difficulty": 9,
+      "subcategory": "Ansatz der Wellenmechanik (de Broglie/Schrödinger-Idee)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Schwarzer Strahler: Emissionsverhalten",
+      "question": "Ein idealer schwarzer Strahler emittiert Strahlung abhängig von welcher Größe?",
+      "choices": [
+        "A: Farbe des Materials",
+        "B: Temperatur",
+        "C: Größe des Objekts",
+        "D: Oberflächenbeschaffenheit"
+      ],
+      "correct_answer": "B",
+      "explanation": "Ein idealer schwarzer Strahler emittiert Strahlung in Abhängigkeit von seiner Temperatur, gemäß dem Stefan-Boltzmann-Gesetz. Je höher die Temperatur, desto mehr Strahlung wird abgegeben und desto kürzer ist die Wellenlänge der emittierten Strahlung.",
+      "difficulty": 4,
+      "subcategory": "Schwarzer Strahler: Emissionsverhalten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Phasen der Kernmaterie",
+      "question": "Welche Phase der Kernmaterie beschreibt Zustände, in denen die Quarks und Gluonen nicht in gebundenen Hadronen vorliegen?",
+      "choices": [
+        "A: Hadronen-Materie",
+        "B: Plasma-Materie",
+        "C: Neutronenstern-Materie",
+        "D: Quark-Gluon-Plasma"
+      ],
+      "correct_answer": "D",
+      "explanation": "Das Quark-Gluon-Plasma ist eine Phase der Kernmaterie, in der Quarks und Gluonen frei sind und nicht in Hadronen gebunden. Diese Phase tritt unter extremen Bedingungen, wie in frühen Universum oder in Hochenergie-Kollisionen, auf.",
+      "difficulty": 4,
+      "subcategory": "Phasen der Kernmaterie"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Fermi’s Goldene Regel",
+      "question": "Was beschreibt Fermi’s Goldene Regel in der Quantenmechanik?",
+      "choices": [
+        "A: Die Entropie in einem thermodynamischen Prozess.",
+        "B: Die Energieerhaltung in geschlossenen Systemen.",
+        "C: Die Wahrscheinlichkeit eines Übergangs zwischen quantenmechanischen Zuständen.",
+        "D: Die Geschwindigkeit eines Teilchens in einem Vakuum."
+      ],
+      "correct_answer": "C",
+      "explanation": "Fermi's Goldene Regel beschreibt die Übergangswahrscheinlichkeit zwischen zwei quantenmechanischen Zuständen, basierend auf der Dichte der Endzustände und der Matrixelementen der Wechselwirkung. Diese Regel ist besonders wichtig in der Quantenmechanik, um Prozesse wie radioaktiven Zerfall oder elektronischen Übergänge zu verstehen.",
+      "difficulty": 3,
+      "subcategory": "Fermi’s Goldene Regel"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Rotation bei konstantem Drehmoment",
+      "question": "Was passiert mit der Winkelgeschwindigkeit eines Körpers, wenn ein konstantes Drehmoment auf ihn wirkt und keine Reibung vorhanden ist?",
+      "choices": [
+        "A: Sie nimmt kontinuierlich ab.",
+        "B: Sie nimmt kontinuierlich zu.",
+        "C: Sie bleibt konstant.",
+        "D: Sie wird gleich null."
+      ],
+      "correct_answer": "B",
+      "explanation": "Wenn ein konstantes Drehmoment auf einen Körper wirkt, wird die Winkelgeschwindigkeit aufgrund der kontinuierlichen Beschleunigung des Körpers steigen. Dies geschieht, solange keine äußeren Kräfte wie Reibung wirken, die den Drehimpuls beeinflussen würden.",
+      "difficulty": 5,
+      "subcategory": "Rotation bei konstantem Drehmoment"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Potentiale & Hauptsätze der Gleichgewichtsthermodynamik",
+      "question": "Welcher der folgenden Hauptsätze der Thermodynamik besagt, dass die Gesamtenergie eines isolierten Systems konstant bleibt?",
+      "choices": [
+        "A: Zweiter Hauptsatz",
+        "B: Erster Hauptsatz",
+        "C: Nullter Hauptsatz",
+        "D: Dritter Hauptsatz"
+      ],
+      "correct_answer": "B",
+      "explanation": "Der Erste Hauptsatz der Thermodynamik, auch als Energieerhaltungssatz bekannt, stipuliert, dass die Energie in einem geschlossenen System nicht verloren gehen kann, sondern nur umgewandelt wird. Dies ist ein fundamentales Prinzip in der Thermodynamik und bildet die Basis für das Verständnis von Energieübertragungen und -umwandlungen in physikalischen Prozessen.",
+      "difficulty": 7,
+      "subcategory": "Potentiale & Hauptsätze der Gleichgewichtsthermodynamik"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Der Laser (Prinzip & Anwendungen)",
+      "question": "Was ist das grundlegende Prinzip eines Lasers?",
+      "choices": [
+        "A: Brechung",
+        "B: Stimulated Emission",
+        "C: Absorption",
+        "D: Reflexion"
+      ],
+      "correct_answer": "B",
+      "explanation": "Das grundlegende Prinzip eines Lasers ist die stimulierte Emission von Photonen. Diese Technik ermöglicht es, kohärentes Licht zu erzeugen, das in Anwendungen wie der Medizintechnik oder der Kommunikation eingesetzt wird.",
+      "difficulty": 4,
+      "subcategory": "Der Laser (Prinzip & Anwendungen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Bohr’sches Atommodell",
+      "question": "Was beschreibt das Bohr’sche Atommodell?",
+      "choices": [
+        "A: Die quantisierten Energieniveaus der Elektronen in einem Atom",
+        "B: Die Struktur von Festkörpern",
+        "C: Die Bewegung von Planeten um die Sonne",
+        "D: Die Eigenschaften von Gasen"
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Bohr’sche Atommodell beschreibt, wie Elektronen in bestimmten Energieniveaus um den Atomkern kreisen. Diese Energieniveaus sind quantisiert, was bedeutet, dass die Elektronen nur bestimmte Energiewerte annehmen können.",
+      "difficulty": 2,
+      "subcategory": "Bohr’sches Atommodell"
+    }
+  ]
+}

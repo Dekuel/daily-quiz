@@ -1,0 +1,168 @@
+{
+  "date": "2025-12-18",
+  "generated_at": "2025-12-18T03:56:27Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Moden im dielektrischen Wellenleiter",
+      "question": "Which statement about modes in a dielectric waveguide is correct?",
+      "choices": [
+        "A: All modes have the same propagation velocity.",
+        "B: The number of modes depends on the wavelength of light.",
+        "C: There is no limit to the number of modes in a waveguide.",
+        "D: Modes in a dielectric waveguide are always transverse."
+      ],
+      "correct_answer": "B",
+      "explanation": "The number of modes in a dielectric waveguide depends on the wavelength of light as well as the geometric dimensions of the waveguide. Longer wavelengths generally lead to fewer modes, while shorter wavelengths can support more modes.",
+      "difficulty": 6,
+      "subcategory": "Moden im dielektrischen Wellenleiter"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Ritz’sches Verfahren",
+      "question": "What does the Ritz method describe in quantum mechanics?",
+      "choices": [
+        "A: The analysis of interactions between light and matter.",
+        "B: The calculation of quantum fluctuations in a vacuum.",
+        "C: Determining energy levels in an atom through the application of variational principles.",
+        "D: Describing particles in a harmonic oscillator."
+      ],
+      "correct_answer": "C",
+      "explanation": "The Ritz method is a technique for calculating the energy levels of atoms by following variational principles. It allows the quantification of states by minimizing the energy expectation values.",
+      "difficulty": 8,
+      "subcategory": "Ritz’sches Verfahren"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Ansatz der Wellenmechanik (de Broglie/Schrödinger-Idee)",
+      "question": "Which of the following statements best describes the de Broglie wavelength of a particle?",
+      "choices": [
+        "A: It is equal to the classical wavelength of a photon.",
+        "B: It is inversely proportional to the particle's momentum.",
+        "C: It is proportional to the particle's energy.",
+        "D: It is independent of the particle's mass."
+      ],
+      "correct_answer": "B",
+      "explanation": "The de Broglie wavelength is defined as λ = h/p, where h is the Planck constant and p is the particle's momentum. This means that the wavelength is inversely proportional to the momentum, which is crucial for describing the wave nature of matter.",
+      "difficulty": 9,
+      "subcategory": "Ansatz der Wellenmechanik (de Broglie/Schrödinger-Idee)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Schwarzer Strahler: Emissionsverhalten",
+      "question": "What does an ideal blackbody emitter radiation depend on?",
+      "choices": [
+        "A: Color of the material",
+        "B: Temperature",
+        "C: Size of the object",
+        "D: Surface texture"
+      ],
+      "correct_answer": "B",
+      "explanation": "An ideal blackbody emitter radiates based on its temperature, according to the Stefan-Boltzmann law. The higher the temperature, the more radiation is emitted, and the shorter the wavelength of the emitted radiation.",
+      "difficulty": 4,
+      "subcategory": "Schwarzer Strahler: Emissionsverhalten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Phasen der Kernmaterie",
+      "question": "Which phase of nuclear matter describes states where quarks and gluons are not bound in hadrons?",
+      "choices": [
+        "A: Hadronic matter",
+        "B: Plasma matter",
+        "C: Neutron star matter",
+        "D: Quark-gluon plasma"
+      ],
+      "correct_answer": "D",
+      "explanation": "Quark-gluon plasma is a phase of nuclear matter where quarks and gluons are free and not bound in hadrons. This phase occurs under extreme conditions, such as in the early universe or in high-energy collisions.",
+      "difficulty": 4,
+      "subcategory": "Phasen der Kernmaterie"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Fermi’s Goldene Regel",
+      "question": "What does Fermi's Golden Rule describe in quantum mechanics?",
+      "choices": [
+        "A: The entropy in a thermodynamic process.",
+        "B: The conservation of energy in closed systems.",
+        "C: The probability of a transition between quantum states.",
+        "D: The velocity of a particle in a vacuum."
+      ],
+      "correct_answer": "C",
+      "explanation": "Fermi's Golden Rule describes the transition probability between two quantum states based on the density of final states and the matrix elements of the interaction. This rule is particularly important in quantum mechanics to understand processes like radioactive decay or electronic transitions.",
+      "difficulty": 3,
+      "subcategory": "Fermi’s Goldene Regel"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Rotation bei konstantem Drehmoment",
+      "question": "What happens to the angular velocity of a body when a constant torque acts on it and there is no friction?",
+      "choices": [
+        "A: It continuously decreases.",
+        "B: It continuously increases.",
+        "C: It remains constant.",
+        "D: It becomes zero."
+      ],
+      "correct_answer": "B",
+      "explanation": "When a constant torque acts on a body, the angular velocity increases due to the continuous acceleration of the body. This occurs as long as no external forces like friction act to influence the angular momentum.",
+      "difficulty": 5,
+      "subcategory": "Rotation bei konstantem Drehmoment"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Potentiale & Hauptsätze der Gleichgewichtsthermodynamik",
+      "question": "Which of the following laws of thermodynamics states that the total energy of an isolated system remains constant?",
+      "choices": [
+        "A: Second Law",
+        "B: First Law",
+        "C: Zeroth Law",
+        "D: Third Law"
+      ],
+      "correct_answer": "B",
+      "explanation": "The First Law of Thermodynamics, also known as the law of conservation of energy, states that energy in a closed system cannot be lost but only converted. This is a fundamental principle in thermodynamics and forms the basis for understanding energy transfers and conversions in physical processes.",
+      "difficulty": 7,
+      "subcategory": "Potentiale & Hauptsätze der Gleichgewichtsthermodynamik"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Der Laser (Prinzip & Anwendungen)",
+      "question": "What is the fundamental principle of a laser?",
+      "choices": [
+        "A: Refraction",
+        "B: Stimulated Emission",
+        "C: Absorption",
+        "D: Reflection"
+      ],
+      "correct_answer": "B",
+      "explanation": "The fundamental principle of a laser is the stimulated emission of photons. This technique allows for the generation of coherent light used in applications such as medical technology or communication.",
+      "difficulty": 4,
+      "subcategory": "Der Laser (Prinzip & Anwendungen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Bohr’sches Atommodell",
+      "question": "What does the Bohr atomic model describe?",
+      "choices": [
+        "A: The quantized energy levels of electrons in an atom",
+        "B: The structure of solids",
+        "C: The motion of planets around the sun",
+        "D: The properties of gases"
+      ],
+      "correct_answer": "A",
+      "explanation": "The Bohr atomic model describes how electrons orbit the atomic nucleus in specific energy levels. These energy levels are quantized, meaning electrons can only assume certain energy values.",
+      "difficulty": 2,
+      "subcategory": "Bohr’sches Atommodell"
+    }
+  ]
+}
