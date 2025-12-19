@@ -1,0 +1,169 @@
+{
+  "date": "2025-12-19",
+  "generated_at": "2025-12-19T03:58:18Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Dynamischer Auftrieb",
+      "question": "Welches der folgenden Prinzipien beschreibt den dynamischen Auftrieb eines Körpers in einer Flüssigkeit?",
+      "choices": [
+        "A: Newtons drittes Gesetz",
+        "B: Archimedes' Prinzip",
+        "C: Hookesches Gesetz",
+        "D: Bernoulli-Prinzip"
+      ],
+      "correct_answer": "B",
+      "explanation": "Der dynamische Auftrieb eines Körpers wird durch Archimedes' Prinzip beschrieben, das besagt, dass ein in eine Flüssigkeit eingetauchter Körper einen Auftrieb erfährt, der gleich dem Gewicht der verdrängten Flüssigkeit ist. Dieses Prinzip ist entscheidend für das Verständnis der Schwimmfähigkeit von Objekten in Flüssigkeiten.",
+      "difficulty": 6,
+      "subcategory": "Dynamischer Auftrieb"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Potentiale des idealen Gases",
+      "question": "Welches der folgenden Gesetze beschreibt die Beziehung zwischen Druck, Volumen und Temperatur eines idealen Gases?",
+      "choices": [
+        "A: Das Gesetz von Boyle",
+        "B: Das ideale Gasgesetz",
+        "C: Das Stefan-Boltzmann-Gesetz",
+        "D: Das Hookesche Gesetz"
+      ],
+      "correct_answer": "B",
+      "explanation": "Das ideale Gasgesetz beschreibt die Beziehung zwischen Druck, Volumen und Temperatur eines idealen Gases in der Form PV = nRT. Es ist grundlegend für das Verständnis der Eigenschaften von Gasen unter idealen Bedingungen.",
+      "difficulty": 6,
+      "subcategory": "Potentiale des idealen Gases"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Hall-Effekt",
+      "question": "Was beschreibt der Hall-Effekt in einem leitenden Material?",
+      "choices": [
+        "A: Die Erzeugung einer Spannung senkrecht zum Stromfluss und zum Magnetfeld.",
+        "B: Die Energieumwandlung bei chemischen Reaktionen.",
+        "C: Die Reflexion von Licht an der Oberfläche eines Festkörpers.",
+        "D: Die Temperaturabhängigkeit des elektrischen Widerstands."
+      ],
+      "correct_answer": "A",
+      "explanation": "Der Hall-Effekt beschreibt die Entstehung einer elektrischen Spannung (Hall-Spannung) in einem leitenden Material, wenn es sich in einem Magnetfeld befindet und ein elektrischer Strom fließt. Diese Spannung steht senkrecht sowohl zum Stromfluss als auch zum Magnetfeld.",
+      "difficulty": 1,
+      "subcategory": "Hall-Effekt"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Kritische Exponenten",
+      "question": "Was beschreibt der kritische Exponent in der Thermodynamik?",
+      "choices": [
+        "A: Die Beziehung zwischen einem physikalischen Parameter und der Temperatur nahe dem kritischen Punkt.",
+        "B: Die Anzahl der Teilchen in einem System.",
+        "C: Die Geschwindigkeit, mit der Wärme übertragen wird.",
+        "D: Die maximale Temperatur, die ein System erreichen kann."
+      ],
+      "correct_answer": "A",
+      "explanation": "Der kritische Exponent beschreibt, wie physikalische Größen wie die Dichte oder die spezifische Wärme in der Nähe des kritischen Punktes eines Phasenübergangs variieren. Diese Beziehung ist entscheidend für das Verständnis von Phasenübergängen und kritischen Phänomenen in der Thermodynamik.",
+      "difficulty": 4,
+      "subcategory": "Kritische Exponenten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Bezug zur Quantenmechanik (Kommutator ↔ Poisson)",
+      "question": "Was beschreibt der Kommutator in der Quantenmechanik?",
+      "choices": [
+        "A: Die Geschwindigkeit eines Körpers.",
+        "B: Die Beziehung zwischen zwei Observablen.",
+        "C: Die Energie eines Systems.",
+        "D: Die Masse eines Teilchens."
+      ],
+      "correct_answer": "B",
+      "explanation": "Der Kommutator ist ein mathematisches Werkzeug in der Quantenmechanik, das die Beziehung zwischen zwei Observablen beschreibt. Er spielt eine zentrale Rolle beim Verständnis der Messungen und der Dynamik quantenmechanischer Systeme.",
+      "difficulty": 2,
+      "subcategory": "Bezug zur Quantenmechanik (Kommutator ↔ Poisson)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Legendre-Transformation",
+      "question": "Was ist die Hauptanwendung der Legendre-Transformation in der statistischen Mechanik?",
+      "choices": [
+        "A: Um die Energie eines Systems zu berechnen.",
+        "B: Um zwischen verschiedenen thermodynamischen Potentialen zu wechseln.",
+        "C: Um die Temperatur eines Gases zu messen.",
+        "D: Um die Geschwindigkeit eines Teilchens zu bestimmen."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Legendre-Transformation wird verwendet, um von einem thermodynamischen Potential zu einem anderen zu wechseln, wie zum Beispiel von innerer Energie zu Enthalpie oder Helmholtz-Freiheitsenergie. Dies ist wichtig, um verschiedene thermodynamische Zustände zu beschreiben und zu analysieren.",
+      "difficulty": 4,
+      "subcategory": "Legendre-Transformation"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Hamilton’sche charakteristische Funktion S",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt die Rolle der Hamilton’schen charakteristischen Funktion S in der Hamiltonschen Mechanik?",
+      "choices": [
+        "A: Sie ermöglicht die Umwandlung von Lagrangeschen in Hamiltonsche Gleichungen, indem sie die zugehörigen Verallgemeinerten Koordinaten und Impulse definiert.",
+        "B: Sie stellt die Energie des Systems in Abhängigkeit von den verallgemeinerten Koordinaten und Impulsen dar und ist identisch mit der Hamiltonian-Funktion.",
+        "C: Sie ist eine Funktion, die die Bewegungsgleichungen direkt ableitet und dabei die Zeit nicht explizit berücksichtigt.",
+        "D: Sie ist eine Funktion, die die Erhaltung des Gesamtimpulses in einem System beschreibt."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Hamilton'sche charakteristische Funktion S ist entscheidend, da sie die dynamischen Eigenschaften eines Systems unabhängig von der Zeit formuliert. Durch ihre Ableitung erhält man die Bewegungsgleichungen, die die Zeit nicht direkt enthalten, was sie zu einem zentralen Konzept in der Hamiltonschen Mechanik macht.",
+      "difficulty": 10,
+      "subcategory": "Hamilton’sche charakteristische Funktion S"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Brownsche Bewegung",
+      "question": "Welche Aussage zur Brownschen Bewegung ist korrekt?",
+      "choices": [
+        "A: Die Geschwindigkeit der Partikel bleibt während der Brownschen Bewegung konstant.",
+        "B: Die Bewegung der Partikel ist eine Folge ihrer Kollisionen mit anderen Molekülen.",
+        "C: Die Brownsche Bewegung ist unabhängig von der Temperatur des Systems.",
+        "D: Die Brownsche Bewegung tritt nur in Gasen auf, nicht in Flüssigkeiten."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Brownsche Bewegung beschreibt die zufällige Bewegung von Teilchen, die durch Kollisionen mit anderen Molekülen verursacht wird. Diese Kollisionen sind eine Funktion der thermischen Energie und somit temperaturabhängig. Die Bewegung tritt sowohl in Flüssigkeiten als auch in Gasen auf und die Geschwindigkeit der Teilchen variiert ständig.",
+      "difficulty": 10,
+      "subcategory": "Brownsche Bewegung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Zeitentwicklung (Heisenberg-Bild)",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt die Zeitentwicklung von Observablen im Heisenberg-Bild der Quantenmechanik?",
+      "choices": [
+        "A: Observablen sind zeitunabhängig und ändern sich nur durch die Wellenfunktion.",
+        "B: Die Zeitentwicklung erfolgt ausschließlich durch die Schrödinger-Gleichung.",
+        "C: Die Zeitentwicklung wird durch die Heisenbergsche Bewegungsgleichung bestimmt.",
+        "D: Im Heisenberg-Bild sind die Zustände zeitabhängig und die Observablen konstant."
+      ],
+      "correct_answer": "C",
+      "explanation": "Im Heisenberg-Bild ist die Zeitentwicklung der Observablen durch die Heisenbergsche Bewegungsgleichung gegeben, während die Zustände zeitunabhängig sind. Diese Perspektive unterscheidet sich von der Schrödinger-Darstellung, wo die Zustände sich zeitabhängig entwickeln.",
+      "difficulty": 7,
+      "subcategory": "Zeitentwicklung (Heisenberg-Bild)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Charakter der Kernkraft",
+      "question": "Welche der folgenden Eigenschaften beschreibt die Kernkraft am besten?",
+      "choices": [
+        "A: Sie ist eine elektromagnetische Kraft, die immer anziehend ist.",
+        "B: Sie ist unabhängig von der Art der Nukleonen und wirkt über große Entfernungen.",
+        "C: Sie ist eine anziehende Kraft, die nur zwischen Protonen wirkt.",
+        "D: Sie hat eine sehr kurze Reichweite und wirkt zwischen Nukleonen."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Kernkraft ist eine starke Wechselwirkung, die nur über sehr kurze Distanzen (im Bereich von Femtometern) wirkt und sowohl zwischen Protonen als auch Neutronen (Nukleonen) anziehend ist. Diese Kraft ist entscheidend für die Stabilität von Atomkernen und überwindet die abstoßenden elektromagnetischen Kräfte zwischen Protonen.",
+      "difficulty": 7,
+      "subcategory": "Charakter der Kernkraft"
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "date": "2025-12-19",
+  "generated_at": "2025-12-19T03:58:45Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Dynamischer Auftrieb",
+      "question": "Which of the following principles describes the dynamic buoyancy of a body in a fluid?",
+      "choices": [
+        "A: Newton's third law",
+        "B: Archimedes' principle",
+        "C: Hooke's law",
+        "D: Bernoulli's principle"
+      ],
+      "correct_answer": "B",
+      "explanation": "The dynamic buoyancy of a body is described by Archimedes' principle, which states that a body immersed in a fluid experiences an upward buoyant force equal to the weight of the displaced fluid. This principle is crucial for understanding the buoyancy of objects in fluids.",
+      "difficulty": 6,
+      "subcategory": "Dynamischer Auftrieb"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Potentiale des idealen Gases",
+      "question": "Which of the following laws describes the relationship between pressure, volume, and temperature of an ideal gas?",
+      "choices": [
+        "A: Boyle's law",
+        "B: The ideal gas law",
+        "C: Stefan-Boltzmann law",
+        "D: Hooke's law"
+      ],
+      "correct_answer": "B",
+      "explanation": "The ideal gas law describes the relationship between pressure, volume, and temperature of an ideal gas in the form PV = nRT. It is fundamental for understanding the properties of gases under ideal conditions.",
+      "difficulty": 6,
+      "subcategory": "Potentiale des idealen Gases"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Hall-Effekt",
+      "question": "What does the Hall effect describe in a conducting material?",
+      "choices": [
+        "A: The generation of a voltage perpendicular to the current flow and the magnetic field.",
+        "B: Energy conversion in chemical reactions.",
+        "C: Reflection of light on the surface of a solid.",
+        "D: Temperature dependence of electrical resistance."
+      ],
+      "correct_answer": "A",
+      "explanation": "The Hall effect describes the generation of an electric voltage (Hall voltage) in a conducting material when it is placed in a magnetic field and an electric current flows through it. This voltage is perpendicular to both the current flow and the magnetic field.",
+      "difficulty": 1,
+      "subcategory": "Hall-Effekt"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Kritische Exponenten",
+      "question": "What does the critical exponent describe in thermodynamics?",
+      "choices": [
+        "A: The relationship between a physical parameter and temperature near the critical point.",
+        "B: The number of particles in a system.",
+        "C: The rate at which heat is transferred.",
+        "D: The maximum temperature a system can reach."
+      ],
+      "correct_answer": "A",
+      "explanation": "The critical exponent describes how physical quantities such as density or specific heat vary near the critical point of a phase transition. This relationship is crucial for understanding phase transitions and critical phenomena in thermodynamics.",
+      "difficulty": 4,
+      "subcategory": "Kritische Exponenten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Bezug zur Quantenmechanik (Kommutator ↔ Poisson)",
+      "question": "What does the commutator describe in quantum mechanics?",
+      "choices": [
+        "A: The velocity of a body.",
+        "B: The relationship between two observables.",
+        "C: The energy of a system.",
+        "D: The mass of a particle."
+      ],
+      "correct_answer": "B",
+      "explanation": "The commutator is a mathematical tool in quantum mechanics that describes the relationship between two observables. It plays a central role in understanding measurements and the dynamics of quantum mechanical systems.",
+      "difficulty": 2,
+      "subcategory": "Bezug zur Quantenmechanik (Kommutator ↔ Poisson)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Legendre-Transformation",
+      "question": "What is the main application of the Legendre transformation in statistical mechanics?",
+      "choices": [
+        "A: To calculate the energy of a system.",
+        "B: To switch between different thermodynamic potentials.",
+        "C: To measure the temperature of a gas.",
+        "D: To determine the velocity of a particle."
+      ],
+      "correct_answer": "B",
+      "explanation": "The Legendre transformation is used to switch from one thermodynamic potential to another, such as from internal energy to enthalpy or Helmholtz free energy. This is important for describing and analyzing different thermodynamic states.",
+      "difficulty": 4,
+      "subcategory": "Legendre-Transformation"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Hamilton’sche charakteristische Funktion S",
+      "question": "Which statement correctly describes the role of Hamilton's characteristic function S in Hamiltonian mechanics?",
+      "choices": [
+        "A: It enables the conversion of Lagrangian into Hamiltonian equations by defining the corresponding generalized coordinates and momenta.",
+        "B: It represents the energy of the system in terms of generalized coordinates and momenta and is identical to the Hamiltonian function.",
+        "C: It is a function that directly derives the equations of motion without explicitly considering time.",
+        "D: It is a function that describes the conservation of total momentum in a system."
+      ],
+      "correct_answer": "C",
+      "explanation": "The Hamiltonian characteristic function S is crucial as it formulates the dynamic properties of a system independent of time. By deriving it, one obtains the equations of motion that do not directly contain time, making it a central concept in Hamiltonian mechanics.",
+      "difficulty": 10,
+      "subcategory": "Hamilton’sche charakteristische Funktion S"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Brownsche Bewegung",
+      "question": "Which statement about Brownian motion is correct?",
+      "choices": [
+        "A: The speed of the particles remains constant during Brownian motion.",
+        "B: The motion of the particles is a result of their collisions with other molecules.",
+        "C: Brownian motion is independent of the system's temperature.",
+        "D: Brownian motion occurs only in gases, not in liquids."
+      ],
+      "correct_answer": "B",
+      "explanation": "Brownian motion describes the random movement of particles caused by collisions with other molecules. These collisions are a function of thermal energy and thus temperature-dependent. The motion occurs in both liquids and gases, and the particles' speed constantly varies.",
+      "difficulty": 10,
+      "subcategory": "Brownsche Bewegung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Zeitentwicklung (Heisenberg-Bild)",
+      "question": "Which of the following statements correctly describes the time evolution of observables in the Heisenberg picture of quantum mechanics?",
+      "choices": [
+        "A: Observables are time-independent and change only through the wave function.",
+        "B: The time evolution is solely determined by the Schrödinger equation.",
+        "C: The time evolution is determined by the Heisenberg equation of motion.",
+        "D: In the Heisenberg picture, states are time-dependent and observables are constant."
+      ],
+      "correct_answer": "C",
+      "explanation": "In the Heisenberg picture, the time evolution of observables is given by the Heisenberg equation of motion, while the states are time-independent. This perspective differs from the Schrödinger representation, where states evolve with time.",
+      "difficulty": 7,
+      "subcategory": "Zeitentwicklung (Heisenberg-Bild)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Charakter der Kernkraft",
+      "question": "Which property best describes the nuclear force?",
+      "choices": [
+        "A: It is an electromagnetic force that is always attractive.",
+        "B: It is independent of the type of nucleons and acts over long distances.",
+        "C: It is an attractive force that only acts between protons.",
+        "D: It has a very short range and acts between nucleons."
+      ],
+      "correct_answer": "D",
+      "explanation": "The nuclear force is a strong interaction that acts over very short distances (on the order of femtometers) and is attractive between both protons and neutrons (nucleons). This force is crucial for the stability of atomic nuclei and overcomes the repulsive electromagnetic forces between protons.",
+      "difficulty": 7,
+      "subcategory": "Charakter der Kernkraft"
+    }
+  ]
+}
