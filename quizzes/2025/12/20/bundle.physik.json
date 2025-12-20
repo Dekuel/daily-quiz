@@ -1,0 +1,169 @@
+{
+  "date": "2025-12-20",
+  "generated_at": "2025-12-20T03:48:41Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Impulsoperator & Orts-/Impulsdarstellung",
+      "question": "Welcher Ausdruck beschreibt den Impulsoperator in der Ortsdarstellung der Quantenmechanik?",
+      "choices": [
+        "A: ħ ∂/∂x",
+        "B: -ħ ∂/∂x",
+        "C: iħ ∂/∂x",
+        "D: -iħ ∂/∂x"
+      ],
+      "correct_answer": "D",
+      "explanation": "In der Quantenmechanik ist der Impulsoperator in der Ortsdarstellung durch den Ausdruck -iħ ∂/∂x definiert. Dies spiegelt die Beziehung zwischen dem Impuls eines Teilchens und der Ableitung seiner Wellenfunktion wider.",
+      "difficulty": 7,
+      "subcategory": "Impulsoperator & Orts-/Impulsdarstellung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Bloch-Funktion",
+      "question": "Was beschreibt die Bloch-Funktion in der Festkörperphysik?",
+      "choices": [
+        "A: Die Thermodynamik von Materialien bei hohen Temperaturen.",
+        "B: Die Wellenfunktion eines Elektrons in einem periodischen Potential.",
+        "C: Die Bewegung von Teilchen in einem Vakuum.",
+        "D: Die elektronische Struktur von Periodensystemelementen."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Bloch-Funktion beschreibt die Wellenfunktion von Elektronen in einem kristallinen Festkörper, der ein periodisches Potential aufweist. Sie ist ein zentrales Konzept zur Analyse der elektronischen Eigenschaften von Halbleitern und Metallen.",
+      "difficulty": 4,
+      "subcategory": "Bloch-Funktion"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Gitterspektrometer",
+      "question": "Was beschreibt das Auflösungsvermögen eines Gitters im Gitterspektrometer?",
+      "choices": [
+        "A: Die maximale Wellenlänge, die das Gitter analysieren kann.",
+        "B: Die Anzahl der Gitterlinien pro Millimeter.",
+        "C: Die Fähigkeit, zwei nahe beieinanderliegende spektrale Linien zu unterscheiden.",
+        "D: Die Energie der Photonen, die das Gitter durchqueren."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Auflösungsvermögen eines Gitters ist entscheidend für die Fähigkeit, feine Details im Spektrum zu erkennen. Es hängt von der Anzahl der Gitterlinien und der Wellenlänge des Lichts ab, das analysiert wird, und ist wichtig für präzise Spektralanalysen.",
+      "difficulty": 9,
+      "subcategory": "Gitterspektrometer"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Potentiale & Hauptsätze der Gleichgewichtsthermodynamik",
+      "question": "Was beschreibt der erste Hauptsatz der Thermodynamik?",
+      "choices": [
+        "A: Energie kann weder geschaffen noch vernichtet werden, nur umgewandelt.",
+        "B: Der Druck eines Gases ist unabhängig von seiner Temperatur.",
+        "C: Wärmeübertragung erfolgt immer von kalten zu warmen Körpern.",
+        "D: Alle Systeme streben nach maximaler Entropie."
+      ],
+      "correct_answer": "A",
+      "explanation": "Der erste Hauptsatz der Thermodynamik besagt, dass die Gesamtenergie eines geschlossenen Systems konstant bleibt. Energie kann in verschiedene Formen umgewandelt werden, aber sie kann nicht verloren gehen oder erzeugt werden. Dies ist ein grundlegendes Prinzip der Physik, das in vielen Anwendungen relevant ist.",
+      "difficulty": 1,
+      "subcategory": "Potentiale & Hauptsätze der Gleichgewichtsthermodynamik"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Phasenintegralquantisierung",
+      "question": "Was besagt das Phasenintegral in der Quantenmechanik?",
+      "choices": [
+        "A: Das Phasenintegral muss ganzzahlig sein, um stabile Zustände zu beschreiben.",
+        "B: Das Phasenintegral hat keinen Einfluss auf die Eigenschaften von Teilchen.",
+        "C: Das Phasenintegral beschreibt nur klassische Teilchenbewegungen.",
+        "D: Das Phasenintegral ist immer negativ."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Phasenintegral quantisiert die Phasen der Wellenfunktionen und muss für stabile Zustände ganzzahlig sein. Diese Bedingung ist wesentlich für das Verständnis der Energielevels in quantenmechanischen Systemen.",
+      "difficulty": 5,
+      "subcategory": "Phasenintegralquantisierung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Streuung elektromagnetischer Wellen",
+      "question": "Was beschreibt den Effekt, dass Lichtstrahlen in verschiedene Richtungen gestreut werden, wenn sie auf kleine Partikel treffen?",
+      "choices": [
+        "A: Brechung",
+        "B: Reflexion",
+        "C: Absorption",
+        "D: Streuung"
+      ],
+      "correct_answer": "D",
+      "explanation": "Der Begriff 'Streuung' bezieht sich auf die Ablenkung von Lichtstrahlen, wenn sie auf kleine Partikel treffen. Dieser Effekt ist besonders wichtig für das Verständnis von Phänomenen wie der blauen Farbe des Himmels, die durch Rayleigh-Streuung verursacht wird.",
+      "difficulty": 3,
+      "subcategory": "Streuung elektromagnetischer Wellen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Formfaktoren des Nukleons",
+      "question": "Welche Aussage über den Formfaktor des Protons ist korrekt?",
+      "choices": [
+        "A: Der Formfaktor ist nur für Neutronen von Bedeutung.",
+        "B: Der Formfaktor hat keinen Einfluss auf die Wechselwirkung mit Neutronen.",
+        "C: Der Formfaktor ist konstant und ändert sich nicht mit der Energie des Stoßprozesses.",
+        "D: Der Formfaktor beschreibt die räumliche Verteilung der elektrischen Ladung im Proton."
+      ],
+      "correct_answer": "D",
+      "explanation": "Der Formfaktor des Protons beschreibt die Verteilung der elektrischen Ladung innerhalb des Protons und variiert mit dem übertragenden Impuls. Er ist entscheidend für die Interpretation von Experimenten zur Struktur des Protons und beeinflusst die Wechselwirkungen mit anderen Teilchen.",
+      "difficulty": 6,
+      "subcategory": "Formfaktoren des Nukleons"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Legendre-Transformation (U↔H↔F↔G)",
+      "question": "Welche der folgenden Größen wird durch die Legendre-Transformation von der inneren Energie U abgeleitet?",
+      "choices": [
+        "A: Enthalpie H",
+        "B: Temperatur T",
+        "C: Entropie S",
+        "D: Druck P"
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Legendre-Transformation wird verwendet, um von der inneren Energie U zur Enthalpie H zu gelangen, indem der Druck und das Volumen in die Betrachtung einbezogen werden. Diese Transformation ist wichtig, um thermodynamische Beziehungen zu verstehen und verschiedene Zustandsgrößen zu analysieren.",
+      "difficulty": 3,
+      "subcategory": "Legendre-Transformation (U↔H↔F↔G)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Homogenität des Raumes ⇒ Impulserhaltung",
+      "question": "Welche Aussage beschreibt am besten das Prinzip der Impulserhaltung im Zusammenhang mit der Homogenität des Raumes?",
+      "choices": [
+        "A: Impulserhaltung tritt nur auf, wenn die Masse eines Körpers konstant ist.",
+        "B: Die Geschwindigkeit eines Körpers bleibt konstant, solange er sich in einem homogenen Raum befindet.",
+        "C: Der Gesamtimpuls eines geschlossenen Systems bleibt konstant, solange keine externen Kräfte wirken.",
+        "D: Der Impuls eines Körpers kann nur durch eine externe Kraft verändert werden, unabhängig von seiner Position."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Prinzip der Impulserhaltung besagt, dass der Gesamtimpuls eines geschlossenen Systems konstant bleibt, solange keine externen Kräfte auf das System wirken. Dies ist direkt mit der Homogenität des Raumes verknüpft, da diese Homogenität bedeutet, dass die physikalischen Gesetze überall im Raum gleich sind.",
+      "difficulty": 6,
+      "subcategory": "Homogenität des Raumes ⇒ Impulserhaltung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Kryo- & Sorptionspumpen",
+      "question": "Welches Prinzip nutzen Kryopumpen zur Erzeugung eines Vakuums?",
+      "choices": [
+        "A: Erhöhung des Drucks im Behälter",
+        "B: Abkühlung von Gasen zur Verflüssigung",
+        "C: Filtration von Partikeln aus der Luft",
+        "D: Erzeugung von elektrischem Strom"
+      ],
+      "correct_answer": "B",
+      "explanation": "Kryopumpen nutzen das Prinzip der Abkühlung, um Gase zu verflüssigen und so ein Vakuum zu erzeugen. Durch das Abkühlen der Oberflächen an der Pumpe kondensieren Gasmoleküle und werden somit aus dem System entfernt.",
+      "difficulty": 3,
+      "subcategory": "Kryo- & Sorptionspumpen"
+    }
+  ]
+}

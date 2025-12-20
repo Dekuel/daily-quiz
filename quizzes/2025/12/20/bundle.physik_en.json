@@ -1,0 +1,168 @@
+{
+  "date": "2025-12-20",
+  "generated_at": "2025-12-20T03:49:16Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Impulsoperator & Orts-/Impulsdarstellung",
+      "question": "Which term describes the momentum operator in the position representation of quantum mechanics?",
+      "choices": [
+        "A: ħ ∂/∂x",
+        "B: -ħ ∂/∂x",
+        "C: iħ ∂/∂x",
+        "D: -iħ ∂/∂x"
+      ],
+      "correct_answer": "D",
+      "explanation": "In quantum mechanics, the momentum operator in the position representation is defined by the expression -iħ ∂/∂x. This reflects the relationship between the momentum of a particle and the derivative of its wave function.",
+      "difficulty": 7,
+      "subcategory": "Impulsoperator & Orts-/Impulsdarstellung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Bloch-Funktion",
+      "question": "What does the Bloch function describe in solid-state physics?",
+      "choices": [
+        "A: The thermodynamics of materials at high temperatures.",
+        "B: The wave function of an electron in a periodic potential.",
+        "C: The motion of particles in a vacuum.",
+        "D: The electronic structure of periodic table elements."
+      ],
+      "correct_answer": "B",
+      "explanation": "The Bloch function describes the wave function of electrons in a crystalline solid that exhibits a periodic potential. It is a central concept for analyzing the electronic properties of semiconductors and metals.",
+      "difficulty": 4,
+      "subcategory": "Bloch-Funktion"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Gitterspektrometer",
+      "question": "What describes the resolving power of a grating in a spectrometer?",
+      "choices": [
+        "A: The maximum wavelength the grating can analyze.",
+        "B: The number of grating lines per millimeter.",
+        "C: The ability to distinguish two closely spaced spectral lines.",
+        "D: The energy of photons passing through the grating."
+      ],
+      "correct_answer": "C",
+      "explanation": "The resolving power of a grating is crucial for the ability to discern fine details in the spectrum. It depends on the number of grating lines and the wavelength of light being analyzed, and is important for precise spectral analysis.",
+      "difficulty": 9,
+      "subcategory": "Gitterspektrometer"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Potentiale & Hauptsätze der Gleichgewichtsthermodynamik",
+      "question": "What does the first law of thermodynamics state?",
+      "choices": [
+        "A: Energy cannot be created or destroyed, only converted.",
+        "B: The pressure of a gas is independent of its temperature.",
+        "C: Heat transfer always occurs from cold to hot bodies.",
+        "D: All systems tend towards maximum entropy."
+      ],
+      "correct_answer": "A",
+      "explanation": "The first law of thermodynamics states that the total energy of a closed system remains constant. Energy can be converted into different forms, but it cannot be lost or created. This is a fundamental principle of physics relevant in many applications.",
+      "difficulty": 1,
+      "subcategory": "Potentiale & Hauptsätze der Gleichgewichtsthermodynamik"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Phasenintegralquantisierung",
+      "question": "What does the phase integral describe in quantum mechanics?",
+      "choices": [
+        "A: The phase integral must be an integer to describe stable states.",
+        "B: The phase integral has no influence on particle properties.",
+        "C: The phase integral only describes classical particle motions.",
+        "D: The phase integral is always negative."
+      ],
+      "correct_answer": "A",
+      "explanation": "The phase integral quantizes the phases of wave functions and must be integer for stable states. This condition is essential for understanding energy levels in quantum mechanical systems.",
+      "difficulty": 5,
+      "subcategory": "Phasenintegralquantisierung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Streuung elektromagnetischer Wellen",
+      "question": "What describes the effect that light rays are scattered in different directions when they encounter small particles?",
+      "choices": [
+        "A: Refraction",
+        "B: Reflection",
+        "C: Absorption",
+        "D: Scattering"
+      ],
+      "correct_answer": "D",
+      "explanation": "The term 'scattering' refers to the deflection of light rays when they encounter small particles. This effect is particularly important for understanding phenomena like the blue color of the sky, caused by Rayleigh scattering.",
+      "difficulty": 3,
+      "subcategory": "Streuung elektromagnetischer Wellen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Formfaktoren des Nukleons",
+      "question": "Which statement about the form factor of the proton is correct?",
+      "choices": [
+        "A: The form factor is only relevant for neutrons.",
+        "B: The form factor has no effect on interactions with neutrons.",
+        "C: The form factor is constant and does not change with the energy of the collision process.",
+        "D: The form factor describes the spatial distribution of electric charge in the proton."
+      ],
+      "correct_answer": "D",
+      "explanation": "The form factor of the proton describes the distribution of electric charge within the proton and varies with the transferred momentum. It is crucial for interpreting experiments on the structure of the proton and influences interactions with other particles.",
+      "difficulty": 6,
+      "subcategory": "Formfaktoren des Nukleons"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Legendre-Transformation (U↔H↔F↔G)",
+      "question": "Which of the following quantities is derived from the inner energy U by Legendre transformation?",
+      "choices": [
+        "A: Enthalpy H",
+        "B: Temperature T",
+        "C: Entropy S",
+        "D: Pressure P"
+      ],
+      "correct_answer": "A",
+      "explanation": "The Legendre transformation is used to go from the inner energy U to the enthalpy H by incorporating pressure and volume into consideration. This transformation is important for understanding thermodynamic relationships and analyzing different state variables.",
+      "difficulty": 3,
+      "subcategory": "Legendre-Transformation (U↔H↔F↔G)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Homogenität des Raumes ⇒ Impulserhaltung",
+      "question": "Which statement best describes the principle of momentum conservation in relation to spatial homogeneity?",
+      "choices": [
+        "A: Momentum conservation only occurs when the mass of a body is constant.",
+        "B: The velocity of a body remains constant as long as it is in a homogeneous space.",
+        "C: The total momentum of a closed system remains constant unless external forces act.",
+        "D: The momentum of a body can only be changed by an external force, regardless of its position."
+      ],
+      "correct_answer": "C",
+      "explanation": "The principle of momentum conservation states that the total momentum of a closed system remains constant unless external forces act on the system. This is directly linked to spatial homogeneity, as this homogeneity means that physical laws are the same everywhere in space.",
+      "difficulty": 6,
+      "subcategory": "Homogenität des Raumes ⇒ Impulserhaltung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Kryo- & Sorptionspumpen",
+      "question": "What principle do cryopumps use to generate a vacuum?",
+      "choices": [
+        "A: Increasing the pressure in the container",
+        "B: Cooling gases to liquefy",
+        "C: Filtration of particles from the air",
+        "D: Generation of electrical current"
+      ],
+      "correct_answer": "B",
+      "explanation": "Cryopumps use the principle of cooling to liquefy gases and create a vacuum. By cooling the surfaces on the pump, gas molecules condense and are thus removed from the system.",
+      "difficulty": 3,
+      "subcategory": "Kryo- & Sorptionspumpen"
+    }
+  ]
+}
