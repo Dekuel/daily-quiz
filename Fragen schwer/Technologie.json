@@ -238,6 +238,20 @@
       "correct_answer": "B",
       "explanation": "HTTPS (Hypertext Transfer Protocol Secure) ist eine Erweiterung des HTTP-Protokolls und sorgt für eine sichere Verbindung, indem es die Daten während der Übertragung verschlüsselt. Im Gegensatz dazu dienen FTP, SMTP und IMAP anderen Zwecken, wie Dateitransfer und E-Mail-Versand.",
       "difficulty": 8
+    },
+    {
+      "category": "Technologie",
+      "topic": "Computer & Internet",
+      "question": "Welches Protokoll wird hauptsächlich für die sichere Übertragung von Daten über das Internet verwendet?",
+      "choices": [
+        "A: SMTP (Simple Mail Transfer Protocol)",
+        "B: FTP (File Transfer Protocol)",
+        "C: ICMP (Internet Control Message Protocol)",
+        "D: TLS ✓"
+      ],
+      "correct_answer": "D",
+      "explanation": "TLS (Transport Layer Security) ist ein kryptographisches Protokoll, das für die sichere Kommunikation über Netzwerke, insbesondere das Internet, entwickelt wurde. Es wird häufig in Verbindung mit HTTPS zur Sicherstellung der Vertraulichkeit und Integrität von Daten verwendet.",
+      "difficulty": 9
     }
   ]
 }
