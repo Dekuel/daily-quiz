@@ -1,0 +1,168 @@
+{
+  "date": "2025-12-22",
+  "generated_at": "2025-12-22T04:05:59Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Inertialsysteme (Definition und Eigenschaften)",
+      "question": "What is an inertial system in physics?",
+      "choices": [
+        "A: A system in which objects move uniformly in a straight line without external forces.",
+        "B: A system in which all forces are constantly in balance.",
+        "C: A system in which only gravity acts.",
+        "D: A system that is always in motion."
+      ],
+      "correct_answer": "A",
+      "explanation": "An inertial system is defined as a reference system in which a body, not influenced by external forces, moves in a straight line at a constant speed. This is a fundamental assumption in classical mechanics and the theory of relativity.",
+      "difficulty": 4,
+      "subcategory": "Inertialsysteme (Definition und Eigenschaften)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Reflexionsgesetz (geometrisch)",
+      "question": "Which of the following laws describes the relationship between the angle of incidence and the angle of reflection of a light ray on a smooth surface?",
+      "choices": [
+        "A: The law of conservation of energy, stating that energy is not lost.",
+        "B: Snell's law, describing the angle relationship between two different media.",
+        "C: The law of reflection, stating that the angle of incidence is equal to the angle of reflection.",
+        "D: The law of refraction, describing the change in the speed of light when transitioning between two media."
+      ],
+      "correct_answer": "C",
+      "explanation": "The law of reflection states that the angle of incidence is equal to the angle of reflection, meaning that the angle at which light strikes the surface is equal to the angle at which it is reflected back. This principle is fundamental to optics and explains many phenomena such as reflections.",
+      "difficulty": 7,
+      "subcategory": "Reflexionsgesetz (geometrisch)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Optische Aktivität & Faraday-Effekt",
+      "question": "Which statement correctly describes the Faraday effect?",
+      "choices": [
+        "A: The Faraday effect is the rotation of the plane of polarization of light in a magnetic field.",
+        "B: The Faraday effect only occurs with ultraviolet light.",
+        "C: The Faraday effect is independent of the wavelength of light.",
+        "D: The Faraday effect can only occur with high-temperature conductors."
+      ],
+      "correct_answer": "A",
+      "explanation": "The Faraday effect describes the rotation of the plane of polarization of light passing through a material in a magnetic field. This property is important for the development of optical devices and technologies that work with magnetic fields.",
+      "difficulty": 7,
+      "subcategory": "Optische Aktivität & Faraday-Effekt"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Moden in optischen Wellenleitern",
+      "question": "What does the term 'modes' refer to in optical waveguides?",
+      "choices": [
+        "A: The frequencies used for transmission in waveguides",
+        "B: Different light rays propagating in different directions",
+        "C: The different materials that waveguides can be made of",
+        "D: The temperature at which light is reflected in a waveguide"
+      ],
+      "correct_answer": "B",
+      "explanation": "Modes in optical waveguides refer to the different light rays or paths that can propagate within the waveguide. Each mode has its own spatial distribution and can propagate at different speeds, which is important for signal transmission in optical communication systems.",
+      "difficulty": 1,
+      "subcategory": "Moden in optischen Wellenleitern"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Spannung & Verformung",
+      "question": "Which of the following statements correctly describes the relationship between stress and strain in an elastic material?",
+      "choices": [
+        "A: Strain only occurs at high temperatures.",
+        "B: Stress is always constant, regardless of strain.",
+        "C: Stress is proportional to strain up to the elastic limit.",
+        "D: Elastic deformation is irreversible."
+      ],
+      "correct_answer": "C",
+      "explanation": "In the elastic range of a material, Hooke's law describes that stress (σ) is proportional to strain (ε). This relationship holds only up to the elastic limit, where the material returns to its original shape after release.",
+      "difficulty": 6,
+      "subcategory": "Spannung & Verformung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Herstellung: Kristalle & amorphe Festkörper (Überblick)",
+      "question": "Which method is commonly used for the production of crystals?",
+      "choices": [
+        "A: Ultrasonic treatment",
+        "B: Direct evaporation of water",
+        "C: Electrophoresis",
+        "D: Cooling a saturated solution"
+      ],
+      "correct_answer": "D",
+      "explanation": "Cooling a saturated solution is a common method for crystallization, where the dissolved substances precipitate out of the solution upon cooling. In contrast, the other options are less relevant for targeted crystal production.",
+      "difficulty": 4,
+      "subcategory": "Herstellung: Kristalle & amorphe Festkörper (Überblick)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Dynamischer Auftrieb",
+      "question": "What causes the dynamic buoyancy of a body in a liquid?",
+      "choices": [
+        "A: The velocity of the body",
+        "B: The color of the body",
+        "C: The temperature of the liquid",
+        "D: The density of the liquid"
+      ],
+      "correct_answer": "D",
+      "explanation": "The dynamic buoyancy of a body in a liquid arises from the differences in density between the body and the liquid. When the density of the liquid is greater than that of the body, the body experiences buoyancy that pushes it upward.",
+      "difficulty": 4,
+      "subcategory": "Dynamischer Auftrieb"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Versetzungen",
+      "question": "What does a dislocation in a crystal lattice describe?",
+      "choices": [
+        "A: A change in electrical conductivity.",
+        "B: A chemical reaction within the material.",
+        "C: An increase in the temperature of the material.",
+        "D: A misalignment in the arrangement of atoms."
+      ],
+      "correct_answer": "D",
+      "explanation": "A dislocation is a type of defect in a crystal lattice that arises from a misalignment in the atomic arrangement. It plays a crucial role in the plasticity of materials and influences their mechanical properties.",
+      "difficulty": 4,
+      "subcategory": "Versetzungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Virialsatz & Äquipartition (Gleichverteilungssatz)",
+      "question": "What does the equipartition theorem state in statistical mechanics?",
+      "choices": [
+        "A: Energy cannot be created or destroyed.",
+        "B: Temperature is a measure of the total energy of a system.",
+        "C: All forms of energy are evenly distributed among the degrees of freedom of a system.",
+        "D: All particles in a system are identical."
+      ],
+      "correct_answer": "C",
+      "explanation": "The equipartition theorem states that the energy of a system is evenly distributed among all degrees of freedom. This means that each degree of freedom contributes equally to the total energy on average, which is a fundamental assumption in statistical mechanics.",
+      "difficulty": 1,
+      "subcategory": "Virialsatz & Äquipartition (Gleichverteilungssatz)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Carnot-Kreisprozess & Wirkungsgrad",
+      "question": "What is the maximum possible efficiency of a Carnot cycle operating between two temperatures T_H and T_C?",
+      "choices": [
+        "A: 1 - (T_C / T_H)",
+        "B: (T_C / T_H)",
+        "C: (T_H / T_C)",
+        "D: 1 + (T_H / T_C)"
+      ],
+      "correct_answer": "A",
+      "explanation": "The maximum efficiency of a Carnot cycle is determined by the temperature conditions of the hot and cold reservoirs and is 1 - (T_C / T_H). This means that efficiency increases with the temperature difference.",
+      "difficulty": 5,
+      "subcategory": "Carnot-Kreisprozess & Wirkungsgrad"
+    }
+  ]
+}
