@@ -1,0 +1,168 @@
+{
+  "date": "2025-12-23",
+  "generated_at": "2025-12-23T04:00:50Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Klassisches ideales Gas (großkanonisch)",
+      "question": "What does the grand canonical ensemble describe in statistical mechanics for an ideal gas?",
+      "choices": [
+        "A: The relationship between pressure and volume of a gas at constant temperature.",
+        "B: The change in temperature of a gas at constant volume.",
+        "C: The distribution of particle energy at constant temperature and variable number of particles.",
+        "D: The motion of particles in a magnetic field."
+      ],
+      "correct_answer": "C",
+      "explanation": "The grand canonical ensemble describes a system with a variable number of particles, where the temperature remains constant. The energy levels of the particles are statistically considered, which is crucial for the thermodynamic properties of the gas.",
+      "difficulty": 5,
+      "subcategory": "Klassisches ideales Gas (großkanonisch)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Quadrupol- und magnetische Dipolstrahlung",
+      "question": "What type of radiation is primarily produced by an electric dipole?",
+      "choices": [
+        "A: Gravitational radiation",
+        "B: Magnetic dipole radiation",
+        "C: Electric dipole radiation",
+        "D: Quadrupole radiation"
+      ],
+      "correct_answer": "C",
+      "explanation": "Electric dipole radiation is the radiation generated when an electric dipole changes. This type of radiation is one of the most common forms of electromagnetic radiation in electrodynamics.",
+      "difficulty": 2,
+      "subcategory": "Quadrupol- und magnetische Dipolstrahlung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Doppelspaltexperiment (Materiewellen)",
+      "question": "What does the double-slit experiment with electrons mainly demonstrate?",
+      "choices": [
+        "A: Electron beams in a vacuum tube",
+        "B: Particle behavior of electrons",
+        "C: Wave interference of electrons",
+        "D: Magnetic fields around electrons"
+      ],
+      "correct_answer": "C",
+      "explanation": "The double-slit experiment demonstrates that electrons behave like waves and can create interference patterns when passed through two slits. This is a fundamental concept of quantum mechanics that shows the dual nature of matter.",
+      "difficulty": 4,
+      "subcategory": "Doppelspaltexperiment (Materiewellen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Semileptonische Baryon‑Zerfälle",
+      "question": "What does a semileptonic baryon decay describe?",
+      "choices": [
+        "A: A decay in which a baryon decays into another baryon and a lepton.",
+        "B: A decay in which a baryon decays into three hadrons.",
+        "C: A decay in which a baryon decays into a photon and a neutrino.",
+        "D: A decay in which a baryon decays into two mesons."
+      ],
+      "correct_answer": "A",
+      "explanation": "A semileptonic baryon decay is a process in which a baryon decays into another baryon and a lepton (e.g. electron or muon), often accompanied by a neutrino. This process is important for understanding weak interactions in particle physics.",
+      "difficulty": 6,
+      "subcategory": "Semileptonische Baryon‑Zerfälle"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Ritz’sches Verfahren",
+      "question": "What is the main goal of the Ritz method in quantum mechanics?",
+      "choices": [
+        "A: Derivation of the Schrödinger equation.",
+        "B: Explanation of the photoelectric effects.",
+        "C: Determination of the energy levels of atoms.",
+        "D: Development of the theory of relativity."
+      ],
+      "correct_answer": "C",
+      "explanation": "The Ritz method aims to determine the energy levels of atoms by applying variational principles. It utilizes the idea that the eigenvalues of a Hamiltonian operator can be found through suitable approximations, which is helpful in solving complex quantum mechanical systems.",
+      "difficulty": 7,
+      "subcategory": "Ritz’sches Verfahren"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Ehrenfest-Klassifikation",
+      "question": "What does the Ehrenfest classification of phase transitions describe?",
+      "choices": [
+        "A: Determination of temperature during a phase transition.",
+        "B: Differentiation between continuous and discontinuous phase transitions.",
+        "C: Reaction kinetics during a phase transition.",
+        "D: Determination of the specific heat of a substance."
+      ],
+      "correct_answer": "B",
+      "explanation": "The Ehrenfest classification distinguishes phase transitions based on the continuity of thermodynamic properties such as entropy and volume. Continuous transitions show no jumps in these properties, while discontinuous transitions exhibit such jumps.",
+      "difficulty": 4,
+      "subcategory": "Ehrenfest-Klassifikation"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Energie und Impuls von Licht",
+      "question": "Which of the following statements about the momentum of light is correct?",
+      "choices": [
+        "A: The momentum of light is directly proportional to the frequency of light.",
+        "B: The momentum of light is independent of the wavelength.",
+        "C: The momentum of light is constant for all light sources.",
+        "D: The momentum of light can only exist in a vacuum."
+      ],
+      "correct_answer": "A",
+      "explanation": "The momentum of light is actually directly proportional to the frequency (p = h/λ), meaning that light with higher frequency also has a greater momentum. This relationship is a central concept in quantum optics and demonstrates the interaction between light and matter.",
+      "difficulty": 7,
+      "subcategory": "Energie und Impuls von Licht"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Statischer Druck in Flüssigkeiten",
+      "question": "How does static pressure in a liquid behave with depth?",
+      "choices": [
+        "A: The pressure increases with increasing depth.",
+        "B: The pressure depends only on the temperature of the liquid.",
+        "C: The pressure remains constant regardless of depth.",
+        "D: The pressure decreases with increasing depth."
+      ],
+      "correct_answer": "A",
+      "explanation": "The static pressure in a liquid increases with increasing depth because the weight of the overlying column of liquid increases the pressure. This is a fundamental principle of hydrostatics.",
+      "difficulty": 5,
+      "subcategory": "Statischer Druck in Flüssigkeiten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Längenkontraktion",
+      "question": "What does the phenomenon of length contraction in the theory of relativity describe?",
+      "choices": [
+        "A: The shortening of an object's length when it moves relative to an observer.",
+        "B: The change in color of an object depending on its velocity.",
+        "C: The extension of time it takes for an object to travel a certain distance.",
+        "D: The increase in mass of an object when it moves quickly."
+      ],
+      "correct_answer": "A",
+      "explanation": "Length contraction is a central concept of special relativity theory, stating that the length of a moving object appears shortened from the perspective of a stationary observer. This phenomenon occurs at relativistic speeds, i.e., when the object moves close to the speed of light.",
+      "difficulty": 4,
+      "subcategory": "Längenkontraktion"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Potentiale & Hauptsätze der Gleichgewichtsthermodynamik",
+      "question": "Which law of thermodynamics states that the energy of a closed system remains constant as long as no energy is added or removed from outside?",
+      "choices": [
+        "A: Second Law",
+        "B: First Law",
+        "C: Zeroth Law",
+        "D: Third Law"
+      ],
+      "correct_answer": "B",
+      "explanation": "The first law of thermodynamics, also known as the law of conservation of energy, postulates that the total energy of a closed system remains constant. It describes how energy can be converted between different forms (e.g. heat and work) without the total energy being lost.",
+      "difficulty": 5,
+      "subcategory": "Potentiale & Hauptsätze der Gleichgewichtsthermodynamik"
+    }
+  ]
+}
