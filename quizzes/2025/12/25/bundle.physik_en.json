@@ -1,0 +1,168 @@
+{
+  "date": "2025-12-25",
+  "generated_at": "2025-12-25T04:00:21Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Kohärente inelastische Neutronenstreuung",
+      "question": "What is the main goal of coherent inelastic neutron scattering in solid-state physics?",
+      "choices": [
+        "A: Examination of vibrational modes in crystals",
+        "B: Measurement of material temperature",
+        "C: Determination of electrical conductivity",
+        "D: Analysis of chemical bonds"
+      ],
+      "correct_answer": "A",
+      "explanation": "Coherent inelastic neutron scattering is used to examine the vibrational modes in crystals, providing information about the dynamics and structure of solids.",
+      "difficulty": 2,
+      "subcategory": "Kohärente inelastische Neutronenstreuung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Legendre-Transformation (U↔H↔F↔G)",
+      "question": "What is the Legendre transformation in thermodynamics?",
+      "choices": [
+        "A: A method for calculating temperature",
+        "B: A technique for measuring pressure",
+        "C: A form of energy transfer between bodies",
+        "D: A method for converting thermodynamic potentials"
+      ],
+      "correct_answer": "D",
+      "explanation": "The Legendre transformation is a mathematical method used in thermodynamics to switch between different thermodynamic potentials such as internal energy (U), enthalpy (H), Helmholtz free energy (F), and Gibbs free energy (G). It allows for reformulation of equations to analyze different physical states.",
+      "difficulty": 2,
+      "subcategory": "Legendre-Transformation (U↔H↔F↔G)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Streutheorie: Grundbegriffe & Modell des Streuprozesses",
+      "question": "What does the concept of 'differential cross-section' describe in quantum mechanics?",
+      "choices": [
+        "A: The maximum speed a particle can reach during the scattering process",
+        "B: The probability of a particle being scattered at a specific angle",
+        "C: The total energy of a particle before and after the scattering process",
+        "D: The number of particles present in a system"
+      ],
+      "correct_answer": "B",
+      "explanation": "The differential cross-section describes the probability of a particle being scattered at a specific angle, being a central element of scattering theory in quantum mechanics. This value is crucial for the analysis and prediction of scattering processes in quantum mechanical systems.",
+      "difficulty": 8,
+      "subcategory": "Streutheorie: Grundbegriffe & Modell des Streuprozesses"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "β‑Zerfall des Kerns",
+      "question": "What happens during the β-decay of a nucleus?",
+      "choices": [
+        "A: A neutron converts into a proton emitting an electron",
+        "B: A proton decays into two neutrons",
+        "C: A neutron is converted into a photon",
+        "D: A proton converts into a neutron emitting a positron"
+      ],
+      "correct_answer": "A",
+      "explanation": "During β-decay, a neutron converts into a proton emitting an electron (β-particle) and an antineutrino. This process alters the elemental structure of the nucleus, increasing the atomic number.",
+      "difficulty": 4,
+      "subcategory": "β‑Zerfall des Kerns"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Wirbel & Zirkulation",
+      "question": "What describes the concept of 'vortex' in classical mechanics?",
+      "choices": [
+        "A: A static accumulation of particles",
+        "B: Motion occurring in a straight line",
+        "C: Linear circulation without rotation",
+        "D: Circular motion of particles around a central point"
+      ],
+      "correct_answer": "D",
+      "explanation": "In classical mechanics, a vortex describes a motion where particles rotate around a central point. This is typical for many fluid dynamic phenomena, such as in flows or tornadoes.",
+      "difficulty": 4,
+      "subcategory": "Wirbel & Zirkulation"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Potential einer Punktladung, Multipolmomente",
+      "question": "What describes the electric potential of a point charge in relation to the distance from the charge center?",
+      "choices": [
+        "A: It remains constant regardless of the distance",
+        "B: It decreases inversely proportional to the distance",
+        "C: It decreases quadratically with distance",
+        "D: It decreases linearly with distance"
+      ],
+      "correct_answer": "B",
+      "explanation": "The electric potential V of a point charge Q at a distance r is given by V = k * Q / r, where k is the Coulomb constant. Therefore, the potential decreases inversely proportional to the distance.",
+      "difficulty": 6,
+      "subcategory": "Potential einer Punktladung, Multipolmomente"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Ebene Wellen & Polarisation",
+      "question": "Which of the following statements best describes the polarization of light waves?",
+      "choices": [
+        "A: Polarization has no effect on light intensity",
+        "B: All light waves are automatically polarized",
+        "C: Polarized light oscillates only in a specific plane",
+        "D: Polarization occurs only with monochromatic light"
+      ],
+      "correct_answer": "C",
+      "explanation": "The polarization of light refers to the direction of vibration of the electromagnetic wave. Polarized light oscillates exclusively in a specific plane, distinguishing it from unpolarized light that oscillates in multiple planes.",
+      "difficulty": 6,
+      "subcategory": "Ebene Wellen & Polarisation"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Kovariante Formulierung der klassischen Mechanik",
+      "question": "What describes the covariant formulation of classical mechanics?",
+      "choices": [
+        "A: The constancy of the speed of light in all inertial systems",
+        "B: The relationship between space and time in moving systems",
+        "C: The conservation of energy in closed systems",
+        "D: The independence of forces in different reference systems"
+      ],
+      "correct_answer": "B",
+      "explanation": "The covariant formulation of classical mechanics shows how space and time are linked and change in different inertial systems. This is a central concept of relativity theory that transitions classical mechanics laws into a relativistic context.",
+      "difficulty": 5,
+      "subcategory": "Kovariante Formulierung der klassischen Mechanik"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Kinetische Gastheorie: Grundgleichungen",
+      "question": "Which of the following equations describes the relationship between pressure, volume, and temperature of an ideal gas according to the ideal gas equation?",
+      "choices": [
+        "A: E = mc²",
+        "B: F = ma",
+        "C: PV = nRT",
+        "D: W = Fd"
+      ],
+      "correct_answer": "C",
+      "explanation": "The ideal gas equation PV = nRT describes the state of an ideal gas, connecting pressure (P), volume (V), temperature (T), the number of moles (n), and the universal gas constant (R). The other equations refer to different physical concepts and are thus incorrect in this context.",
+      "difficulty": 9,
+      "subcategory": "Kinetische Gastheorie: Grundgleichungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Wirkungs- und Winkelvariable (Action-Angle)",
+      "question": "Which statement about the action-angle variables in analytical mechanics is correct?",
+      "choices": [
+        "A: Action and angle variables are independent of the system's energy",
+        "B: The action variable can never take negative values",
+        "C: The angle variable describes the time evolution of the action variable",
+        "D: The action variable is always constant for a system in a closed potential"
+      ],
+      "correct_answer": "D",
+      "explanation": "The action variable is a measure of the total motion of a system and remains constant for closed systems. This is a central part of the Hamiltonian formalism used in analytical mechanics.",
+      "difficulty": 6,
+      "subcategory": "Wirkungs- und Winkelvariable (Action-Angle)"
+    }
+  ]
+}

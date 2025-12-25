@@ -1,0 +1,169 @@
+{
+  "date": "2025-12-25",
+  "generated_at": "2025-12-25T03:59:47Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Kohärente inelastische Neutronenstreuung",
+      "question": "Was ist das Hauptziel der kohärenten inelastischen Neutronenstreuung in der Festkörperphysik?",
+      "choices": [
+        "A: Die Untersuchung von Schwingungsmoden in Kristallen",
+        "B: Die Messung der Temperatur von Materialien",
+        "C: Die Bestimmung der elektrischen Leitfähigkeit",
+        "D: Die Analyse von chemischen Bindungen"
+      ],
+      "correct_answer": "A",
+      "explanation": "Die kohärente inelastische Neutronenstreuung wird verwendet, um die Schwingungsmoden in Kristallen zu untersuchen. Dabei können Informationen über die Dynamik und Struktur von Festkörpern gewonnen werden.",
+      "difficulty": 2,
+      "subcategory": "Kohärente inelastische Neutronenstreuung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Legendre-Transformation (U↔H↔F↔G)",
+      "question": "Was ist die Legendre-Transformation in der Thermodynamik?",
+      "choices": [
+        "A: Ein Verfahren zur Berechnung der Temperatur.",
+        "B: Eine Technik zur Messung des Drucks.",
+        "C: Eine Art der Energieübertragung zwischen Körpern.",
+        "D: Eine Methode zur Umwandlung von thermodynamischen Potentialen."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Legendre-Transformation ist ein mathematisches Verfahren, das in der Thermodynamik verwendet wird, um zwischen verschiedenen thermodynamischen Potentialen wie innerer Energie (U), Enthalpie (H), Helmholtz-Freie Energie (F) und Gibbs-Freie Energie (G) zu wechseln. Es ermöglicht eine Umformulierung der Gleichungen, um unterschiedliche physikalische Zustände zu analysieren.",
+      "difficulty": 2,
+      "subcategory": "Legendre-Transformation (U↔H↔F↔G)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Streutheorie: Grundbegriffe & Modell des Streuprozesses",
+      "question": "Was beschreibt das Konzept des 'Differentialstreuquerschnitts' in der Quantenmechanik?",
+      "choices": [
+        "A: Die maximale Geschwindigkeit, die ein Teilchen während des Streuprozesses erreichen kann.",
+        "B: Die Wahrscheinlichkeit, dass ein Teilchen in einem bestimmten Winkel gestreut wird.",
+        "C: Die Gesamtenergie eines Teilchens vor und nach dem Streuprozess.",
+        "D: Die Anzahl der Teilchen, die in einem System vorhanden sind."
+      ],
+      "correct_answer": "B",
+      "explanation": "Der Differentialstreuquerschnitt beschreibt die Wahrscheinlichkeit, dass ein Teilchen in einem spezifischen Winkel gestreut wird, und ist ein zentrales Element der Streutheorie in der Quantenmechanik. Dieser Wert ist entscheidend für die Analyse und Vorhersage von Streuprozessen in quantenmechanischen Systemen.",
+      "difficulty": 8,
+      "subcategory": "Streutheorie: Grundbegriffe & Modell des Streuprozesses"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "β‑Zerfall des Kerns",
+      "question": "Was geschieht während des β-Zerfalls eines Kerns?",
+      "choices": [
+        "A: Ein Neutron wandelt sich in ein Proton um und es wird ein Elektron emittiert.",
+        "B: Ein Proton zerfällt in zwei Neutronen.",
+        "C: Ein Neutron wird in ein Photon umgewandelt.",
+        "D: Ein Proton wandelt sich in ein Neutron um und es wird ein Positron emittiert."
+      ],
+      "correct_answer": "A",
+      "explanation": "Beim β-Zerfall wandelt sich ein Neutron in ein Proton um und es wird ein Elektron (β-Partikel) sowie ein Antineutrino emittiert. Dieser Prozess verändert die Elementarstruktur des Kerns und führt zu einer Erhöhung der Ordnungszahl.",
+      "difficulty": 4,
+      "subcategory": "β‑Zerfall des Kerns"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Wirbel & Zirkulation",
+      "question": "Was beschreibt den Begriff 'Wirbel' in der klassischen Mechanik?",
+      "choices": [
+        "A: Eine statische Ansammlung von Teilchen.",
+        "B: Eine Bewegung, die in gerader Linie erfolgt.",
+        "C: Eine lineare Zirkulation ohne Rotation.",
+        "D: Eine kreisförmige Bewegung von Teilchen um einen zentralen Punkt."
+      ],
+      "correct_answer": "D",
+      "explanation": "Ein Wirbel beschreibt in der klassischen Mechanik eine Bewegung, bei der Teilchen um einen zentralen Punkt rotieren. Dies ist typisch für viele flüssigkeitsdynamische Phänomene, wie z.B. in Strömungen oder bei Tornados.",
+      "difficulty": 4,
+      "subcategory": "Wirbel & Zirkulation"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Potential einer Punktladung, Multipolmomente",
+      "question": "Was beschreibt das elektrische Potential einer Punktladung in Bezug auf den Abstand zum Ladungszentrum?",
+      "choices": [
+        "A: Es bleibt konstant unabhängig vom Abstand.",
+        "B: Es nimmt mit dem Abstand umgekehrt proportional ab.",
+        "C: Es nimmt mit dem Abstand quadratisch ab.",
+        "D: Es nimmt linear mit dem Abstand zu."
+      ],
+      "correct_answer": "B",
+      "explanation": "Das elektrische Potential V einer Punktladung Q in einem Abstand r ist gegeben durch V = k * Q / r, wobei k die Coulomb-Konstante ist. Daher nimmt das Potential mit zunehmendem Abstand umgekehrt proportional ab.",
+      "difficulty": 6,
+      "subcategory": "Potential einer Punktladung, Multipolmomente"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Ebene Wellen & Polarisation",
+      "question": "Welche der folgenden Aussagen beschreibt am besten die Polarisation von Lichtwellen?",
+      "choices": [
+        "A: Polarisation hat keinen Einfluss auf die Lichtintensität.",
+        "B: Alle Lichtwellen sind automatisch polarisiert.",
+        "C: Polarisiertes Licht schwingt nur in einer bestimmten Ebene.",
+        "D: Polarisation tritt nur bei monochromatischem Licht auf."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Polarisation von Licht bezieht sich auf die Richtung der Schwingung der elektromagnetischen Welle. Polarisiertes Licht schwingt ausschließlich in einer bestimmten Ebene, was es von unpolarisiertem Licht unterscheidet, das in mehreren Ebenen schwingt.",
+      "difficulty": 6,
+      "subcategory": "Ebene Wellen & Polarisation"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Kovariante Formulierung der klassischen Mechanik",
+      "question": "Was beschreibt die kovariante Formulierung der klassischen Mechanik?",
+      "choices": [
+        "A: Die Unveränderlichkeit der Lichtgeschwindigkeit in allen Inertialsystemen.",
+        "B: Die Beziehung zwischen Raum und Zeit in bewegten Systemen.",
+        "C: Die Erhaltung der Energie in geschlossenen Systemen.",
+        "D: Die Unabhängigkeit von Kräften in verschiedenen Bezugssystemen."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die kovariante Formulierung der klassischen Mechanik zeigt, wie Raum und Zeit miteinander verknüpft sind und sich in verschiedenen Inertialsystemen verändern. Dies ist ein zentrales Konzept der Relativitätstheorie, das die klassischen Gesetze der Mechanik in einen relativistischen Kontext überführt.",
+      "difficulty": 5,
+      "subcategory": "Kovariante Formulierung der klassischen Mechanik"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Kinetische Gastheorie: Grundgleichungen",
+      "question": "Welche der folgenden Gleichungen beschreibt den Zusammenhang zwischen Druck, Volumen und Temperatur eines idealen Gases nach der idealen Gasgleichung?",
+      "choices": [
+        "A: E = mc²",
+        "B: F = ma",
+        "C: PV = nRT",
+        "D: W = Fd"
+      ],
+      "correct_answer": "C",
+      "explanation": "Die ideale Gasgleichung PV = nRT beschreibt den Zustand eines idealen Gases und verbindet Druck (P), Volumen (V), Temperatur (T) und die Anzahl der Mole (n) sowie die universelle Gaskonstante (R). Die anderen Gleichungen beziehen sich auf unterschiedliche physikalische Konzepte und sind somit nicht korrekt in diesem Kontext.",
+      "difficulty": 9,
+      "subcategory": "Kinetische Gastheorie: Grundgleichungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Wirkungs- und Winkelvariable (Action-Angle)",
+      "question": "Welche Aussage über die Action-Angle-Variablen in der analytischen Mechanik ist korrekt?",
+      "choices": [
+        "A: Action- und Winkelvariablen sind unabhängig von der Energie des Systems.",
+        "B: Die Action-Variable kann nie negative Werte annehmen.",
+        "C: Die Winkelvariable beschreibt die Zeitentwicklung der Action-Variable.",
+        "D: Die Action-Variable ist immer konstant für ein System in einem geschlossenen Potential."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Action-Variable ist ein Maß für die Gesamtbewegung eines Systems und bleibt für geschlossene Systeme konstant. Dies ist ein zentraler Bestandteil des Hamiltonschen Formalismus, der in der analytischen Mechanik verwendet wird.",
+      "difficulty": 6,
+      "subcategory": "Wirkungs- und Winkelvariable (Action-Angle)"
+    }
+  ]
+}
