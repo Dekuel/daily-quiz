@@ -1,0 +1,169 @@
+{
+  "date": "2025-12-26",
+  "generated_at": "2025-12-26T03:58:16Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Ko- und kontravariante Tensoren (Grundbegriffe)",
+      "question": "Was beschreibt ein kontravarianter Tensor in der Relativitätstheorie?",
+      "choices": [
+        "A: Er bleibt in allen Koordinatensystemen identisch.",
+        "B: Er verändert sich wie die Koordinaten bei einer Transformation.",
+        "C: Er ist immer von niedrigem Rang, unabhängig von der Dimension des Raums.",
+        "D: Er beschreibt die Änderung eines Skalars in Bezug auf die Zeit."
+      ],
+      "correct_answer": "B",
+      "explanation": "Ein kontravarianter Tensor verändert sich gemäß den Koordinatentransformationen, die in der Relativitätstheorie verwendet werden. Dies steht im Gegensatz zu kovarianten Tensors, die sich anders verhalten. Das Verständnis dieser Unterschiede ist zentral für das Arbeiten mit Tensoren in der relativistischen Physik.",
+      "difficulty": 8,
+      "subcategory": "Ko- und kontravariante Tensoren (Grundbegriffe)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Zustandsdichte im Magnetfeld",
+      "question": "Wie beeinflusst ein externes Magnetfeld die Zustandsdichte von Elektronen in einem Festkörper?",
+      "choices": [
+        "A: Die Zustandsdichte nimmt zu, da das Magnetfeld die Elektronenspins ausrichtet und so mehr Zustände verfügbar macht.",
+        "B: Die Zustandsdichte wird unendlich, da das Magnetfeld keine Grenzen für die Energieniveaus setzt.",
+        "C: Die Zustandsdichte nimmt ab, weil das Magnetfeld die Beweglichkeit der Elektronen verringert.",
+        "D: Die Zustandsdichte bleibt unverändert, da das Magnetfeld keinen Einfluss auf die Energieniveaus hat."
+      ],
+      "correct_answer": "A",
+      "explanation": "Ein externes Magnetfeld kann die Spins der Elektronen ausrichten, was zu einer Änderung der verfügbaren Energieniveaus führt. Dies erhöht die Zustandsdichte, da mehr energetische Zustände für die Elektronen zur Verfügung stehen.",
+      "difficulty": 6,
+      "subcategory": "Zustandsdichte im Magnetfeld"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Freie Materiewelle",
+      "question": "Was beschreibt die freie Materiewelle in der Quantenmechanik?",
+      "choices": [
+        "A: Die Erzeugung von Teilchen aus Licht.",
+        "B: Die Schrumpfung eines Teilchens in einem Potentialtopf.",
+        "C: Die Wechselwirkung zwischen zwei Teilchen.",
+        "D: Die Bewegung eines Teilchens ohne Wechselwirkungen."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die freie Materiewelle beschreibt die Bewegung eines Teilchens, das sich ohne äußere Einflüsse oder Wechselwirkungen fortbewegt. In dieser Situation können die Eigenschaften des Teilchens durch Wellenfunktionen dargestellt werden, die seine Wahrscheinlichkeit, an einem bestimmten Ort zu sein, beschreiben.",
+      "difficulty": 4,
+      "subcategory": "Freie Materiewelle"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Formfaktoren des Nukleons",
+      "question": "Was beschreibt der Formfaktor eines Nukleons?",
+      "choices": [
+        "A: Die Lebensdauer des Nukleons.",
+        "B: Die Anzahl der Nukleonen in einem Atom.",
+        "C: Die räumliche Verteilung der elektrischen Ladung innerhalb des Nukleons.",
+        "D: Die Masse des Nukleons."
+      ],
+      "correct_answer": "C",
+      "explanation": "Der Formfaktor eines Nukleons beschreibt, wie die elektrische Ladung innerhalb des Nukleons verteilt ist. Dies ist wichtig für das Verständnis der Wechselwirkungen zwischen Nukleonen und anderen Teilchen in der Kernphysik.",
+      "difficulty": 3,
+      "subcategory": "Formfaktoren des Nukleons"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Großkanonisches Ensemble: Dichtematrix & Potential",
+      "question": "Welche Aussage beschreibt korrekt die Dichtematrix im großkanonischen Ensemble?",
+      "choices": [
+        "A: Sie ist unabhängig von der Temperatur und hängt nur vom Volumen ab.",
+        "B: Sie enthält Informationen über die Wahrscheinlichkeit der Besetzung verschiedener Zustände bei konstantem Volumen und Temperatur.",
+        "C: Sie zeigt die Wechselwirkungen zwischen den Teilchen im System in einem idealen Gas an.",
+        "D: Sie beschreibt ausschließlich die kinetische Energie der Teilchen im System."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Dichtematrix im großkanonischen Ensemble gibt die Wahrscheinlichkeit an, mit der verschiedene mikroskopische Zustände bei festen Temperatur- und chemischen Potentialbedingungen besetzt sind. Dies ist entscheidend, um thermodynamische Eigenschaften des Systems zu untersuchen.",
+      "difficulty": 6,
+      "subcategory": "Großkanonisches Ensemble: Dichtematrix & Potential"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Spezifische Wärme der Elektronen",
+      "question": "Was beschreibt die spezifische Wärme der Elektronen in einem Festkörper?",
+      "choices": [
+        "A: Die Temperatur, bei der Elektronen den Festkörper verlassen.",
+        "B: Die Wärmemenge, die nötig ist, um einen Festkörper zu schmelzen.",
+        "C: Die Gesamtwärme, die von einem Festkörper abgegeben wird.",
+        "D: Die Energiemenge, die benötigt wird, um die Temperatur eines Elektrons um 1 Grad zu erhöhen."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die spezifische Wärme der Elektronen beschreibt, wie viel Energie benötigt wird, um die Temperatur eines Elektrons in einem Festkörper zu erhöhen. Dies ist ein wichtiges Konzept in der Festkörperphysik, da es die thermischen Eigenschaften von Materialien beeinflusst.",
+      "difficulty": 3,
+      "subcategory": "Spezifische Wärme der Elektronen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "1D-Potentialprobleme: allgemeine Aussagen",
+      "question": "Was beschreibt die Wellenfunktion in einem 1D-Potentialproblem der Quantenmechanik?",
+      "choices": [
+        "A: Die Geschwindigkeit des Teilchens zu jedem Zeitpunkt.",
+        "B: Die Masse des Teilchens in einem festen Zustand.",
+        "C: Die Energie des Teilchens unabhängig von seiner Position.",
+        "D: Die Wahrscheinlichkeit, das Teilchen an einem bestimmten Ort zu finden."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Wellenfunktion in der Quantenmechanik gibt die Wahrscheinlichkeit an, ein Teilchen an einem bestimmten Ort zu finden. Sie ist ein zentrales Konzept zur Beschreibung des Verhaltens von Teilchen in Potentialen und enthält alle Informationen über das System.",
+      "difficulty": 4,
+      "subcategory": "1D-Potentialprobleme: allgemeine Aussagen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Homogenität des Raumes ⇒ Impulserhaltung",
+      "question": "Was ist eine Folge der Homogenität des Raumes in der Analytischen Mechanik?",
+      "choices": [
+        "A: Der Impuls eines geschlossenen Systems bleibt konstant.",
+        "B: Die Geschwindigkeit eines Körpers kann nicht negativ sein.",
+        "C: Die Masse eines Körpers ändert sich mit der Zeit.",
+        "D: Die Energie eines Systems wird immer verloren gehen."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Homogenität des Raumes führt zur Impulserhaltung, was bedeutet, dass der Gesamtimpuls eines geschlossenen Systems konstant bleibt, solange keine äußeren Kräfte wirken. Diese Grundregel ist entscheidend in der Analytischen Mechanik und unterstreicht die Erhaltung physikalischer Größen in isolierten Systemen.",
+      "difficulty": 3,
+      "subcategory": "Homogenität des Raumes ⇒ Impulserhaltung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Beugung an mehrdimensionalen Gittern",
+      "question": "Was beschreibt die Beugung an einem zweidimensionalen Gitter?",
+      "choices": [
+        "A: Die Reflexion von Licht an der Oberfläche des Gitters.",
+        "B: Die Absorption von Licht durch das Gittermaterial.",
+        "C: Die Ablenkung von Lichtstrahlen, die auf die Gitterstruktur treffen.",
+        "D: Die Ausbreitung von Lichtstrahlen, die durch das Gitter hindurchgehen."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Beugung an einem zweidimensionalen Gitter beschreibt die Ablenkung von Lichtstrahlen, die auf die Struktur des Gitters treffen. Diese Ablenkung führt zu charakteristischen Beugungsmustern, die zur Analyse der Gitterstruktur verwendet werden können.",
+      "difficulty": 3,
+      "subcategory": "Beugung an mehrdimensionalen Gittern"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Geschl. System im Wärmebad: Minimum der freien Energie F",
+      "question": "Was beschreibt das Minimum der freien Energie F in einem geschlossenen System im Wärmebad?",
+      "choices": [
+        "A: Der Zustand, in dem das System im Gleichgewicht ist.",
+        "B: Der Zustand, in dem die Temperatur konstant bleibt.",
+        "C: Der Zustand, in dem die Entropie maximal ist.",
+        "D: Der Zustand, in dem die innere Energie minimal ist."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Minimum der freien Energie F in einem geschlossenen System im Wärmebad entspricht dem Gleichgewichtszustand. In diesem Zustand sind die makroskopischen Eigenschaften des Systems stabil und verändern sich nicht mehr, solange keine äußeren Einflüsse auftreten.",
+      "difficulty": 6,
+      "subcategory": "Geschl. System im Wärmebad: Minimum der freien Energie F"
+    }
+  ]
+}

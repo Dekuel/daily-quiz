@@ -1,0 +1,168 @@
+{
+  "date": "2025-12-26",
+  "generated_at": "2025-12-26T03:58:52Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Ko- und kontravariante Tensoren (Grundbegriffe)",
+      "question": "What does a contravariant tensor describe in relativity theory?",
+      "choices": [
+        "A: It remains identical in all coordinate systems.",
+        "B: It changes like the coordinates during a transformation.",
+        "C: It is always of low rank, regardless of the dimension of space.",
+        "D: It describes the change of a scalar with respect to time."
+      ],
+      "correct_answer": "B",
+      "explanation": "A contravariant tensor changes according to the coordinate transformations used in relativity theory. This is in contrast to covariant tensors, which behave differently. Understanding these differences is central to working with tensors in relativistic physics.",
+      "difficulty": 8,
+      "subcategory": "Ko- und kontravariante Tensoren (Grundbegriffe)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Zustandsdichte im Magnetfeld",
+      "question": "How does an external magnetic field affect the density of states of electrons in a solid?",
+      "choices": [
+        "A: The density of states increases as the magnetic field aligns the electron spins, making more states available.",
+        "B: The density of states becomes infinite as the magnetic field sets no limits on the energy levels.",
+        "C: The density of states decreases because the magnetic field reduces the mobility of the electrons.",
+        "D: The density of states remains unchanged as the magnetic field has no influence on the energy levels."
+      ],
+      "correct_answer": "A",
+      "explanation": "An external magnetic field can align the spins of the electrons, leading to a change in the available energy levels. This increases the density of states as more energetic states become available for the electrons.",
+      "difficulty": 6,
+      "subcategory": "Zustandsdichte im Magnetfeld"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Freie Materiewelle",
+      "question": "What does the free matter wave describe in quantum mechanics?",
+      "choices": [
+        "A: The generation of particles from light.",
+        "B: The shrinking of a particle in a potential well.",
+        "C: The interaction between two particles.",
+        "D: The motion of a particle without interactions."
+      ],
+      "correct_answer": "D",
+      "explanation": "The free matter wave describes the motion of a particle that moves without external influences or interactions. In this situation, the particle's properties can be represented by wave functions that describe its probability of being at a certain location.",
+      "difficulty": 4,
+      "subcategory": "Freie Materiewelle"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Formfaktoren des Nukleons",
+      "question": "What does the form factor of a nucleon describe?",
+      "choices": [
+        "A: The lifetime of the nucleon.",
+        "B: The number of nucleons in an atom.",
+        "C: The spatial distribution of the electric charge within the nucleon.",
+        "D: The mass of the nucleon."
+      ],
+      "correct_answer": "C",
+      "explanation": "The form factor of a nucleon describes how the electric charge is distributed within the nucleon. This is important for understanding the interactions between nucleons and other particles in nuclear physics.",
+      "difficulty": 3,
+      "subcategory": "Formfaktoren des Nukleons"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Großkanonisches Ensemble: Dichtematrix & Potential",
+      "question": "Which statement correctly describes the density matrix in the grand canonical ensemble?",
+      "choices": [
+        "A: It is independent of temperature and depends only on volume.",
+        "B: It contains information about the probability of occupation of different states at constant volume and temperature.",
+        "C: It shows the interactions between particles in the system in an ideal gas.",
+        "D: It exclusively describes the kinetic energy of particles in the system."
+      ],
+      "correct_answer": "B",
+      "explanation": "The density matrix in the grand canonical ensemble indicates the probability of occupying various microscopic states under fixed temperature and chemical potential conditions. This is crucial for investigating the thermodynamic properties of the system.",
+      "difficulty": 6,
+      "subcategory": "Großkanonisches Ensemble: Dichtematrix & Potential"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Spezifische Wärme der Elektronen",
+      "question": "What does the specific heat of electrons in a solid describe?",
+      "choices": [
+        "A: The temperature at which electrons leave the solid.",
+        "B: The amount of heat needed to melt a solid.",
+        "C: The total heat emitted by a solid.",
+        "D: The amount of energy needed to increase the temperature of an electron by 1 degree."
+      ],
+      "correct_answer": "D",
+      "explanation": "The specific heat of electrons describes how much energy is needed to increase the temperature of an electron in a solid. This is an important concept in solid-state physics as it influences the thermal properties of materials.",
+      "difficulty": 3,
+      "subcategory": "Spezifische Wärme der Elektronen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "1D-Potentialprobleme: allgemeine Aussagen",
+      "question": "What does the wave function describe in a 1D potential problem in quantum mechanics?",
+      "choices": [
+        "A: The velocity of the particle at any given time.",
+        "B: The mass of the particle in a fixed state.",
+        "C: The energy of the particle independent of its position.",
+        "D: The probability of finding the particle at a specific location."
+      ],
+      "correct_answer": "D",
+      "explanation": "The wave function in quantum mechanics indicates the probability of finding a particle at a specific location. It is a central concept for describing the behavior of particles in potentials and contains all information about the system.",
+      "difficulty": 4,
+      "subcategory": "1D-Potentialprobleme: allgemeine Aussagen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Homogenität des Raumes ⇒ Impulserhaltung",
+      "question": "What is a consequence of the homogeneity of space in analytical mechanics?",
+      "choices": [
+        "A: The momentum of a closed system remains constant.",
+        "B: The velocity of a body cannot be negative.",
+        "C: The mass of a body changes with time.",
+        "D: The energy of a system will always be lost."
+      ],
+      "correct_answer": "A",
+      "explanation": "The homogeneity of space leads to momentum conservation, meaning the total momentum of a closed system remains constant as long as no external forces act. This fundamental rule is crucial in analytical mechanics and emphasizes the conservation of physical quantities in isolated systems.",
+      "difficulty": 3,
+      "subcategory": "Homogenität des Raumes ⇒ Impulserhaltung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Beugung an mehrdimensionalen Gittern",
+      "question": "What does diffraction at a two-dimensional lattice describe?",
+      "choices": [
+        "A: The reflection of light on the surface of the lattice.",
+        "B: The absorption of light by the lattice material.",
+        "C: The deviation of light rays incident on the lattice structure.",
+        "D: The propagation of light rays passing through the lattice."
+      ],
+      "correct_answer": "C",
+      "explanation": "Diffraction at a two-dimensional lattice describes the deviation of light rays incident on the lattice structure. This deviation results in characteristic diffraction patterns that can be used to analyze the lattice structure.",
+      "difficulty": 3,
+      "subcategory": "Beugung an mehrdimensionalen Gittern"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Geschl. System im Wärmebad: Minimum der freien Energie F",
+      "question": "What does the minimum of the free energy F in a closed system in a heat bath describe?",
+      "choices": [
+        "A: The state in which the system is in equilibrium.",
+        "B: The state in which the temperature remains constant.",
+        "C: The state in which the entropy is maximal.",
+        "D: The state in which the internal energy is minimal."
+      ],
+      "correct_answer": "A",
+      "explanation": "The minimum of the free energy F in a closed system in a heat bath corresponds to the equilibrium state. In this state, the macroscopic properties of the system are stable and do not change unless external influences occur.",
+      "difficulty": 6,
+      "subcategory": "Geschl. System im Wärmebad: Minimum der freien Energie F"
+    }
+  ]
+}
