@@ -1,0 +1,169 @@
+{
+  "date": "2025-12-28",
+  "generated_at": "2025-12-28T04:07:52Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Gauß’scher Satz",
+      "question": "Was besagt der Gauß’sche Satz in der Elektrodynamik?",
+      "choices": [
+        "A: Der elektrische Fluss durch eine geschlossene Fläche ist proportional zur eingeschlossenen elektrischen Ladung.",
+        "B: Die elektrische Feldstärke ist konstant innerhalb eines Leiters.",
+        "C: Der magnetische Fluss durch eine geschlossene Fläche ist immer null.",
+        "D: Die Spannung ist das Produkt aus dem Strom und dem Widerstand."
+      ],
+      "correct_answer": "A",
+      "explanation": "Der Gauß’sche Satz beschreibt, dass der elektrische Fluss durch eine geschlossene Fläche proportional zur Menge der innerhalb dieser Fläche eingeschlossenen elektrischen Ladung ist. Dies ist ein grundlegendes Prinzip in der Elektrodynamik und hilft, elektrische Felder zu verstehen.",
+      "difficulty": 3,
+      "subcategory": "Gauß’scher Satz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Elektronenspin (Pauli-Theorie)",
+      "question": "Welches Prinzip beschreibt, dass zwei Elektronen im gleichen Atom nicht denselben Spin haben können?",
+      "choices": [
+        "A: Bohr-Modell",
+        "B: Heisenberg-Unschärferelation",
+        "C: Schrödinger-Gleichung",
+        "D: Pauli-Prinzip"
+      ],
+      "correct_answer": "D",
+      "explanation": "Das Pauli-Prinzip besagt, dass keine zwei fermionischen Teilchen, wie Elektronen, in einem Quantenzustand existieren können, was sich auf ihren Spin bezieht. Daher müssen zwei Elektronen im selben Atom unterschiedliche Spins haben, was die Struktur von Atomen und die chemischen Eigenschaften erklärt.",
+      "difficulty": 7,
+      "subcategory": "Elektronenspin (Pauli-Theorie)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Strukturfaktor",
+      "question": "Was beschreibt der Strukturfaktor in der Festkörperphysik?",
+      "choices": [
+        "A: Die elektrische Leitfähigkeit eines Materials.",
+        "B: Die magnetischen Eigenschaften eines Festkörpers.",
+        "C: Die räumliche Anordnung der Atome in einem Kristall.",
+        "D: Die thermische Ausdehnung eines Festkörpers."
+      ],
+      "correct_answer": "C",
+      "explanation": "Der Strukturfaktor ist ein Maß für die räumliche Anordnung der Atome in einem Kristall und spielt eine zentrale Rolle bei der Analyse von Röntgenbeugungsdaten. Er liefert Informationen über die Periodizität und Symmetrie der atomaren Struktur eines Festkörpers.",
+      "difficulty": 5,
+      "subcategory": "Strukturfaktor"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Brownsche Bewegung",
+      "question": "Was beschreibt die Brownsche Bewegung?",
+      "choices": [
+        "A: Die Schwingungen von Molekülen in einem festen Körper.",
+        "B: Die gleichmäßige Bewegung von Planeten um die Sonne.",
+        "C: Die zufällige Bewegung von Partikeln in einer Flüssigkeit oder einem Gas.",
+        "D: Die Bewegung von elektrischen Ladungen in einem elektrischen Feld."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Brownsche Bewegung beschreibt die unregelmäßige, zufällige Bewegung von kleinen Partikeln, die in einer Flüssigkeit oder einem Gas suspendiert sind. Diese Bewegung entsteht durch die Kollision der Partikel mit den Molekülen der umgebenden Flüssigkeit oder des Gases.",
+      "difficulty": 3,
+      "subcategory": "Brownsche Bewegung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Effektive Masse von Elektronen & Löchern",
+      "question": "Welches der folgenden Konzepte beschreibt am besten die effektive Masse von Elektronen in einem Halbleiter?",
+      "choices": [
+        "A: Sie ist unabhängig von der Bandstruktur und bleibt konstant bei verschiedenen Temperaturen.",
+        "B: Sie ist immer gleich der Masse des freien Elektrons in Vakuum.",
+        "C: Sie hängt von der Krümmung der Energiebänder und der Wechselwirkung mit dem Kristallgitter ab.",
+        "D: Sie beschreibt ausschließlich die Beweglichkeit von Löchern in einem Halbleiter."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die effektive Masse von Elektronen in einem Halbleiter ist ein Maß dafür, wie sich Elektronen unter dem Einfluss eines elektrischen Feldes verhalten, und hängt stark von der Krümmung der Energiebänder sowie der Wechselwirkung mit dem Kristallgitter ab. Im Gegensatz zur Masse des freien Elektrons variiert sie je nach Material und Bandstruktur.",
+      "difficulty": 8,
+      "subcategory": "Effektive Masse von Elektronen & Löchern"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Stoßquerschnitt & mittlere freie Weglänge",
+      "question": "Was beschreibt der Begriff 'mittlere freie Weglänge' in der Physik?",
+      "choices": [
+        "A: Die Geschwindigkeit, die ein Teilchen nach einer Kollision erreicht.",
+        "B: Die maximale Strecke, die ein Teilchen in einem Vakuum zurücklegen kann.",
+        "C: Die durchschnittliche Entfernung, die ein Teilchen zwischen zwei Kollisionen zurücklegt.",
+        "D: Die Zeit, die ein Teilchen benötigt, um eine bestimmte Strecke zurückzulegen."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die mittlere freie Weglänge ist ein wichtiges Konzept in der kinetischen Gastheorie und beschreibt die durchschnittliche Distanz, die ein Teilchen in einem gasförmigen Zustand zwischen zwei zufälligen Kollisionen zurücklegt. Dieses Maß hilft dabei, das Verhalten von Gasen und deren Teilcheninteraktionen zu verstehen.",
+      "difficulty": 1,
+      "subcategory": "Stoßquerschnitt & mittlere freie Weglänge"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Carnot- und allgemeine Kreisprozesse",
+      "question": "Welches der folgenden Gesetze beschreibt das Maximum der thermodynamischen Effizienz eines Carnot-Prozesses?",
+      "choices": [
+        "A: Die Effizienz ist unabhängig von den Temperaturen der Wärmequellen.",
+        "B: Die Effizienz kann beliebig erhöht werden durch zusätzliche Wärmequellen.",
+        "C: Die Effizienz ist konstant und beträgt 100 %.",
+        "D: Die Effizienz hängt nur von den Temperaturen der Wärmequellen ab."
+      ],
+      "correct_answer": "D",
+      "explanation": "Der Carnot-Prozess ist ein idealisierter thermodynamischer Kreisprozess, dessen Effizienz ausschließlich von den Temperaturen der heißen und kalten Reservoirs abhängt. Diese Effizienz wird durch die Formel η = 1 - (T_k/T_h) definiert, wobei T_k die Temperatur des kalten und T_h die Temperatur des heißen Reservoirs ist.",
+      "difficulty": 7,
+      "subcategory": "Carnot- und allgemeine Kreisprozesse"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Elektromagnetische Potentiale (φ, A)",
+      "question": "Welches der folgenden Potentiale beschreibt das elektrische Potential in einem elektrostatischen Feld?",
+      "choices": [
+        "A: A",
+        "B: E",
+        "C: B",
+        "D: φ"
+      ],
+      "correct_answer": "D",
+      "explanation": "Das elektrische Potential, dargestellt durch φ, ist ein Maß für die potenzielle Energie pro Einheit Ladung in einem elektrischen Feld. Das Vektorpotential A hingegen beschreibt die magnetischen Eigenschaften eines Feldes.",
+      "difficulty": 5,
+      "subcategory": "Elektromagnetische Potentiale (φ, A)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Elastische Konstanten",
+      "question": "Welche der folgenden elastischen Konstanten beschreibt die Fähigkeit eines Materials, bei Zugbelastung zu dehnen?",
+      "choices": [
+        "A: Bulkmodul",
+        "B: Poissonsche Verhältnis",
+        "C: Youngscher Modul",
+        "D: Schubmodul"
+      ],
+      "correct_answer": "C",
+      "explanation": "Der Youngsche Modul beschreibt das Verhältnis von Zugspannung zu Dehnung in einem elastischen Material. Er ist ein Maß für die Steifigkeit des Materials und stellt somit dar, wie gut es sich unter Zugbelastung dehnen lässt.",
+      "difficulty": 6,
+      "subcategory": "Elastische Konstanten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Van-der-Waals-Kräfte",
+      "question": "Welche Aussage über Van-der-Waals-Kräfte ist korrekt?",
+      "choices": [
+        "A: Sie sind ausschliesslich in metallischen Festkörpern zu finden.",
+        "B: Sie entstehen aus temporären Dipolen in Atomen oder Molekülen.",
+        "C: Sie sind immer stärker als ionische Bindungen.",
+        "D: Sie können nur zwischen unpolaren Molekülen wirken."
+      ],
+      "correct_answer": "B",
+      "explanation": "Van-der-Waals-Kräfte sind schwache intermolekulare Kräfte, die durch temporäre Dipole entstehen, die sich in Atomen oder Molekülen bilden. Diese Kräfte sind bedeutend für die Eigenschaften von Festkörpern und Flüssigkeiten, insbesondere in organischen Verbindungen. Sie sind jedoch nicht stärker als ionische oder kovalente Bindungen.",
+      "difficulty": 6,
+      "subcategory": "Van-der-Waals-Kräfte"
+    }
+  ]
+}

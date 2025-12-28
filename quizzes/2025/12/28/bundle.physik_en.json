@@ -1,0 +1,168 @@
+{
+  "date": "2025-12-28",
+  "generated_at": "2025-12-28T04:08:30Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Gauß’scher Satz",
+      "question": "What does Gauss's law state in electrodynamics?",
+      "choices": [
+        "A: The electric flux through a closed surface is proportional to the enclosed electric charge.",
+        "B: The electric field strength is constant within a conductor.",
+        "C: The magnetic flux through a closed surface is always zero.",
+        "D: Voltage is the product of current and resistance."
+      ],
+      "correct_answer": "A",
+      "explanation": "Gauss's law states that the electric flux through a closed surface is proportional to the amount of electric charge enclosed within that surface. This is a fundamental principle in electrodynamics and helps to understand electric fields.",
+      "difficulty": 3,
+      "subcategory": "Gauß’scher Satz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Elektronenspin (Pauli-Theorie)",
+      "question": "Which principle states that two electrons in the same atom cannot have the same spin?",
+      "choices": [
+        "A: Bohr model",
+        "B: Heisenberg uncertainty principle",
+        "C: Schrödinger equation",
+        "D: Pauli exclusion principle"
+      ],
+      "correct_answer": "D",
+      "explanation": "The Pauli exclusion principle states that no two fermionic particles, such as electrons, can exist in the same quantum state, referring to their spin. Therefore, two electrons in the same atom must have different spins, explaining the structure of atoms and their chemical properties.",
+      "difficulty": 7,
+      "subcategory": "Elektronenspin (Pauli-Theorie)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Strukturfaktor",
+      "question": "What does the structure factor describe in solid-state physics?",
+      "choices": [
+        "A: The electrical conductivity of a material.",
+        "B: The magnetic properties of a solid.",
+        "C: The spatial arrangement of atoms in a crystal.",
+        "D: The thermal expansion of a solid."
+      ],
+      "correct_answer": "C",
+      "explanation": "The structure factor is a measure of the spatial arrangement of atoms in a crystal and plays a central role in the analysis of X-ray diffraction data. It provides information about the periodicity and symmetry of the atomic structure of a solid.",
+      "difficulty": 5,
+      "subcategory": "Strukturfaktor"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Brownsche Bewegung",
+      "question": "What does Brownian motion describe?",
+      "choices": [
+        "A: The vibrations of molecules in a solid.",
+        "B: The uniform motion of planets around the sun.",
+        "C: The random motion of particles in a liquid or gas.",
+        "D: The motion of electric charges in an electric field."
+      ],
+      "correct_answer": "C",
+      "explanation": "Brownian motion describes the irregular, random motion of small particles suspended in a liquid or gas. This motion arises from the collision of particles with the molecules of the surrounding liquid or gas.",
+      "difficulty": 3,
+      "subcategory": "Brownsche Bewegung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Effektive Masse von Elektronen & Löchern",
+      "question": "Which of the following concepts best describes the effective mass of electrons in a semiconductor?",
+      "choices": [
+        "A: It is independent of the band structure and remains constant at different temperatures.",
+        "B: It is always equal to the mass of a free electron in a vacuum.",
+        "C: It depends on the curvature of the energy bands and the interaction with the crystal lattice.",
+        "D: It exclusively describes the mobility of holes in a semiconductor."
+      ],
+      "correct_answer": "C",
+      "explanation": "The effective mass of electrons in a semiconductor is a measure of how electrons behave under the influence of an electric field and strongly depends on the curvature of the energy bands and the interaction with the crystal lattice. Unlike the mass of a free electron, it varies depending on the material and band structure.",
+      "difficulty": 8,
+      "subcategory": "Effektive Masse von Elektronen & Löchern"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Stoßquerschnitt & mittlere freie Weglänge",
+      "question": "What does the term 'mean free path' describe in physics?",
+      "choices": [
+        "A: The velocity a particle reaches after a collision.",
+        "B: The maximum distance a particle can travel in a vacuum.",
+        "C: The average distance a particle travels between two collisions.",
+        "D: The time a particle takes to travel a certain distance."
+      ],
+      "correct_answer": "C",
+      "explanation": "The mean free path is an important concept in kinetic theory of gases and describes the average distance a particle in a gaseous state travels between two random collisions. This measure helps to understand the behavior of gases and their particle interactions.",
+      "difficulty": 1,
+      "subcategory": "Stoßquerschnitt & mittlere freie Weglänge"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Carnot- und allgemeine Kreisprozesse",
+      "question": "Which of the following laws describes the maximum thermodynamic efficiency of a Carnot process?",
+      "choices": [
+        "A: Efficiency is independent of the temperatures of the heat sources.",
+        "B: Efficiency can be increased arbitrarily by additional heat sources.",
+        "C: Efficiency is constant and equals 100%.",
+        "D: Efficiency depends only on the temperatures of the heat sources."
+      ],
+      "correct_answer": "D",
+      "explanation": "The Carnot process is an idealized thermodynamic cycle whose efficiency depends solely on the temperatures of the hot and cold reservoirs. This efficiency is defined by the formula η = 1 - (T_c/T_h), where T_c is the temperature of the cold reservoir and T_h is the temperature of the hot reservoir.",
+      "difficulty": 7,
+      "subcategory": "Carnot- und allgemeine Kreisprozesse"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Elektromagnetische Potentiale (φ, A)",
+      "question": "Which of the following potentials describes the electric potential in an electrostatic field?",
+      "choices": [
+        "A: A",
+        "B: E",
+        "C: B",
+        "D: φ"
+      ],
+      "correct_answer": "D",
+      "explanation": "The electric potential, represented by φ, is a measure of the potential energy per unit charge in an electric field. The vector potential A, on the other hand, describes the magnetic properties of a field.",
+      "difficulty": 5,
+      "subcategory": "Elektromagnetische Potentiale (φ, A)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Elastische Konstanten",
+      "question": "Which of the following elastic constants describes a material's ability to stretch under tensile stress?",
+      "choices": [
+        "A: Bulk modulus",
+        "B: Poisson's ratio",
+        "C: Young's modulus",
+        "D: Shear modulus"
+      ],
+      "correct_answer": "C",
+      "explanation": "Young's modulus describes the ratio of tensile stress to strain in an elastic material. It is a measure of the material's stiffness and represents how well it stretches under tensile stress.",
+      "difficulty": 6,
+      "subcategory": "Elastische Konstanten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Van-der-Waals-Kräfte",
+      "question": "Which statement about Van der Waals forces is correct?",
+      "choices": [
+        "A: They are exclusively found in metallic solids.",
+        "B: They arise from temporary dipoles in atoms or molecules.",
+        "C: They are always stronger than ionic bonds.",
+        "D: They can only act between nonpolar molecules."
+      ],
+      "correct_answer": "B",
+      "explanation": "Van der Waals forces are weak intermolecular forces that arise from temporary dipoles formed in atoms or molecules. These forces are significant for the properties of solids and liquids, especially in organic compounds. However, they are not stronger than ionic or covalent bonds.",
+      "difficulty": 6,
+      "subcategory": "Van-der-Waals-Kräfte"
+    }
+  ]
+}
