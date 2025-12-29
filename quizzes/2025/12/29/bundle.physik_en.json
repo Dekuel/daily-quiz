@@ -1,0 +1,168 @@
+{
+  "date": "2025-12-29",
+  "generated_at": "2025-12-29T04:10:04Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Periodische Systeme & Winkelvariable",
+      "question": "What describes the frequency of a periodic system?",
+      "choices": [
+        "A: The maximum displacement of the system",
+        "B: The number of oscillations per unit of time",
+        "C: The total energy of the system",
+        "D: The direction of motion"
+      ],
+      "correct_answer": "B",
+      "explanation": "The frequency of a periodic system is defined as the number of complete oscillations that occur in a specific period of time, usually one second. It is an important characteristic that characterizes the behavior of the system.",
+      "difficulty": 3,
+      "subcategory": "Periodische Systeme & Winkelvariable"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Resonanzen (Breit‑Wigner)",
+      "question": "What does the Breit-Wigner formula describe in nuclear and particle physics?",
+      "choices": [
+        "A: The temperature of an ideal gas.",
+        "B: The orbitals of an electron in an atom.",
+        "C: The energy distribution of an unstable particle resonance.",
+        "D: The velocity of a moving body."
+      ],
+      "correct_answer": "C",
+      "explanation": "The Breit-Wigner formula describes the energy distribution and lifetime of resonances in particle physics, especially for unstable particles. It indicates how the probability of finding a particle in a specific energy state depends on the energy and is crucial for understanding particle reactions.",
+      "difficulty": 3,
+      "subcategory": "Resonanzen (Breit‑Wigner)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Paritätsverletzung",
+      "question": "What describes the phenomenon of parity violation in physics?",
+      "choices": [
+        "A: The conservation of energy in a closed system.",
+        "B: The symmetry of physical processes under reflection.",
+        "C: The interaction of light and matter.",
+        "D: The motion of particles in a magnetic field."
+      ],
+      "correct_answer": "B",
+      "explanation": "Parity violation refers to the fact that certain physical processes are not symmetric in their mirror image representation. This was particularly observed in weak interactions, where symmetry under reflection is not preserved.",
+      "difficulty": 3,
+      "subcategory": "Paritätsverletzung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Design und Herstellung von Objektiven",
+      "question": "Which aspect is crucial for minimizing chromatic aberration in lenses?",
+      "choices": [
+        "A: Reducing the number of lenses in the lens",
+        "B: Using lenses with simple shapes",
+        "C: Increasing the focal length of the lenses",
+        "D: Using lenses made of different materials with varying refractive indices"
+      ],
+      "correct_answer": "D",
+      "explanation": "Chromatic aberration occurs because light of different wavelengths is refracted differently. To minimize this, lenses made of different materials with varying refractive indices are used to better focus the colors.",
+      "difficulty": 4,
+      "subcategory": "Design und Herstellung von Objektiven"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Erweiterungen des Hamilton’schen Prinzips",
+      "question": "Which of the following concepts is an extension of Hamilton's principle?",
+      "choices": [
+        "A: Lagrange's equations",
+        "B: Conservation laws",
+        "C: Principle of least action",
+        "D: Hamilton-Jacobi theory"
+      ],
+      "correct_answer": "D",
+      "explanation": "The Hamilton-Jacobi theory is an extension of Hamilton's principle that allows describing dynamic systems through a Hamilton-Jacobi equation. This theory transforms the problem into a form that is often easier to solve by transferring the classical trajectories into phase space.",
+      "difficulty": 8,
+      "subcategory": "Erweiterungen des Hamilton’schen Prinzips"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Fundamentale Wechselwirkungen",
+      "question": "Which of the following interactions is responsible for the decay of radioactive elements?",
+      "choices": [
+        "A: Gravity",
+        "B: Strong interaction",
+        "C: Weak interaction",
+        "D: Electromagnetic interaction"
+      ],
+      "correct_answer": "C",
+      "explanation": "The weak interaction is one of the four fundamental interactions and plays a crucial role in radioactive decay, especially in beta decays. The strong interaction, on the other hand, is responsible for binding nucleons in the atomic nucleus, while the electromagnetic interaction and gravity are not relevant in this context.",
+      "difficulty": 6,
+      "subcategory": "Fundamentale Wechselwirkungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Korrelationsfunktion & Suszeptibilität; Ornstein–Zernike",
+      "question": "What does the correlation function describe in statistical mechanics?",
+      "choices": [
+        "A: The temperature of a thermodynamic system.",
+        "B: The energy content of a system.",
+        "C: The relationship between the states of particles in the system.",
+        "D: The velocity of particles in a gas."
+      ],
+      "correct_answer": "C",
+      "explanation": "The correlation function describes how the states of particles in a system are connected and indicates how the properties of one particle influence another. This is particularly important for understanding phase transitions and critical phenomena in statistical mechanics.",
+      "difficulty": 4,
+      "subcategory": "Korrelationsfunktion & Suszeptibilität; Ornstein–Zernike"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Coulomb’sches Gesetz & elektrisches Feld",
+      "question": "What does Coulomb's law describe?",
+      "choices": [
+        "A: The velocity of electrons in a conductor.",
+        "B: The force between two point charges.",
+        "C: The temperature of a body.",
+        "D: The energy of an electric field."
+      ],
+      "correct_answer": "B",
+      "explanation": "Coulomb's law describes the interaction between two electric charges. It states that the force between the charges is proportional to the product of their charges and inversely proportional to the square of their distance.",
+      "difficulty": 3,
+      "subcategory": "Coulomb’sches Gesetz & elektrisches Feld"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Ewald-Kugel & Bragg-Bedingung",
+      "question": "What does the Bragg condition describe in solid-state physics?",
+      "choices": [
+        "A: The energy distribution in an ideal gas.",
+        "B: The condition for the constructive interference of X-rays on crystal lattices.",
+        "C: The temperature dependence of magnetic materials.",
+        "D: The motion of particles in an electric field."
+      ],
+      "correct_answer": "B",
+      "explanation": "The Bragg condition describes under what conditions X-rays interfere constructively with the planes of a crystal. This is crucial for the analysis of crystal structure using X-ray diffraction.",
+      "difficulty": 2,
+      "subcategory": "Ewald-Kugel & Bragg-Bedingung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Holonome Zwangsbedingungen",
+      "question": "What does a holonomic constraint describe in analytical mechanics?",
+      "choices": [
+        "A: A constraint that depends only on the coordinates and not on time.",
+        "B: A constraint that restricts the velocity of a system.",
+        "C: A time-dependent constraint.",
+        "D: A constraint that only applies in a fixed reference frame."
+      ],
+      "correct_answer": "A",
+      "explanation": "A holonomic constraint is a restriction that depends only on the positions of the particles and not on their time derivatives. This condition allows for the complete integration of the equations of motion in analytical mechanics.",
+      "difficulty": 3,
+      "subcategory": "Holonome Zwangsbedingungen"
+    }
+  ]
+}

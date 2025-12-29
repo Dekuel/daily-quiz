@@ -1,0 +1,169 @@
+{
+  "date": "2025-12-29",
+  "generated_at": "2025-12-29T04:09:30Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Periodische Systeme & Winkelvariable",
+      "question": "Was beschreibt die Frequenz eines periodischen Systems?",
+      "choices": [
+        "A: Die maximale Auslenkung des Systems",
+        "B: Die Anzahl der Schwingungen pro Zeiteinheit",
+        "C: Die Gesamtenergie des Systems",
+        "D: Die Richtung der Bewegung"
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Frequenz eines periodischen Systems ist definiert als die Anzahl der vollständigen Schwingungen, die in einer bestimmten Zeitspanne, meist einer Sekunde, stattfinden. Sie ist ein wichtiges Merkmal, das das Verhalten des Systems charakterisiert.",
+      "difficulty": 3,
+      "subcategory": "Periodische Systeme & Winkelvariable"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Resonanzen (Breit‑Wigner)",
+      "question": "Was beschreibt die Breit-Wigner-Formel in der Kern- und Teilchenphysik?",
+      "choices": [
+        "A: Die Temperatur eines idealen Gases.",
+        "B: Die Orbitale eines Elektrons in einem Atom.",
+        "C: Die Energieverteilung einer instabilen Teilchenresonanz.",
+        "D: Die Geschwindigkeit eines bewegten Körpers."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Breit-Wigner-Formel beschreibt die Energieverteilung und die Lebensdauer von Resonanzen in der Teilchenphysik, insbesondere für instabile Teilchen. Sie gibt an, wie die Wahrscheinlichkeit, ein Teilchen in einem bestimmten Energiezustand zu finden, von der Energie abhängt und ist entscheidend für das Verständnis von Teilchenreaktionen.",
+      "difficulty": 3,
+      "subcategory": "Resonanzen (Breit‑Wigner)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Paritätsverletzung",
+      "question": "Was beschreibt das Phänomen der Paritätsverletzung in der Physik?",
+      "choices": [
+        "A: Die Erhaltung der Energie in einem geschlossenen System.",
+        "B: Die Symmetrie von physikalischen Prozessen unter Spiegelung.",
+        "C: Die Wechselwirkung von Licht und Materie.",
+        "D: Die Bewegung von Teilchen in einem Magnetfeld."
+      ],
+      "correct_answer": "B",
+      "explanation": "Paritätsverletzung bezieht sich auf die Tatsache, dass bestimmte physikalische Prozesse nicht in ihrer Spiegelbilddarstellung symmetrisch sind. Dies wurde insbesondere in der schwachen Wechselwirkung beobachtet, wo die Symmetrie unter Spiegelung nicht erhalten bleibt.",
+      "difficulty": 3,
+      "subcategory": "Paritätsverletzung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Design und Herstellung von Objektiven",
+      "question": "Welcher Aspekt ist entscheidend für die Minimierung von chromatischer Aberration in Objektiven?",
+      "choices": [
+        "A: Verringerung der Anzahl der Linsen im Objektiv",
+        "B: Verwendung von Linsen mit einfacher Form",
+        "C: Erhöhung der Brennweite der Linsen",
+        "D: Verwendung von Linsen aus unterschiedlichen Materialien mit variierenden Brechungsindizes"
+      ],
+      "correct_answer": "D",
+      "explanation": "Chromatische Aberration entsteht, weil Licht unterschiedlicher Wellenlängen unterschiedlich gebrochen wird. Um dies zu minimieren, werden Linsen aus verschiedenen Materialien eingesetzt, die unterschiedliche Brechungsindizes haben und somit die Farben besser fokussieren können.",
+      "difficulty": 4,
+      "subcategory": "Design und Herstellung von Objektiven"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Erweiterungen des Hamilton’schen Prinzips",
+      "question": "Welches der folgenden Konzepte ist eine Erweiterung des Hamilton’schen Prinzips?",
+      "choices": [
+        "A: Lagrangesche Gleichungen",
+        "B: Erhaltungssätze",
+        "C: Prinzip der kleinsten Aktion",
+        "D: Hamilton-Jacobi-Theorie"
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Hamilton-Jacobi-Theorie ist eine Erweiterung des Hamilton’schen Prinzips, die es ermöglicht, die dynamischen Systeme durch eine Hamilton-Jacobi-Gleichung zu beschreiben. Diese Theorie transformiert die Problemstellung in eine Form, die oft einfacher zu lösen ist, indem sie die klassischen Trajektorien in den Phasenraum überträgt.",
+      "difficulty": 8,
+      "subcategory": "Erweiterungen des Hamilton’schen Prinzips"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Fundamentale Wechselwirkungen",
+      "question": "Welche der folgenden Wechselwirkungen ist verantwortlich für den Zerfall von radioaktiven Elementen?",
+      "choices": [
+        "A: Gravitation",
+        "B: Starke Wechselwirkung",
+        "C: Schwache Wechselwirkung",
+        "D: Elektromagnetische Wechselwirkung"
+      ],
+      "correct_answer": "C",
+      "explanation": "Die schwache Wechselwirkung ist eine der vier fundamentalen Wechselwirkungen und spielt eine entscheidende Rolle beim radioaktiven Zerfall, insbesondere bei Beta-Zerfällen. Die starke Wechselwirkung hingegen ist für die Bindung von Nukleonen im Atomkern verantwortlich, während die elektromagnetische Wechselwirkung und die Gravitation in diesem Kontext nicht relevant sind.",
+      "difficulty": 6,
+      "subcategory": "Fundamentale Wechselwirkungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Korrelationsfunktion & Suszeptibilität; Ornstein–Zernike",
+      "question": "Was beschreibt die Korrelationsfunktion in der statistischen Mechanik?",
+      "choices": [
+        "A: Die Temperatur eines thermodynamischen Systems.",
+        "B: Den Energieinhalt eines Systems.",
+        "C: Die Beziehung zwischen den Zuständen von Teilchen im System.",
+        "D: Die Geschwindigkeit von Teilchen in einem Gas."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Korrelationsfunktion beschreibt, wie die Zustände von Teilchen in einem System miteinander verbunden sind und gibt an, wie die Eigenschaften eines Teilchens die eines anderen beeinflussen. Dies ist besonders wichtig für das Verständnis von Phasenübergängen und kritischen Phänomenen in der statistischen Mechanik.",
+      "difficulty": 4,
+      "subcategory": "Korrelationsfunktion & Suszeptibilität; Ornstein–Zernike"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Coulomb’sches Gesetz & elektrisches Feld",
+      "question": "Was beschreibt das Coulomb’sche Gesetz?",
+      "choices": [
+        "A: Die Geschwindigkeit von Elektronen in einem Leiter.",
+        "B: Die Kraft zwischen zwei Punktladungen.",
+        "C: Die Temperatur eines Körpers.",
+        "D: Die Energie eines elektrischen Feldes."
+      ],
+      "correct_answer": "B",
+      "explanation": "Das Coulomb’sche Gesetz beschreibt die Wechselwirkung zwischen zwei elektrischen Ladungen. Es besagt, dass die Kraft zwischen den Ladungen proportional zum Produkt ihrer Ladungen und umgekehrt proportional zum Quadrat ihres Abstands ist.",
+      "difficulty": 3,
+      "subcategory": "Coulomb’sches Gesetz & elektrisches Feld"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Ewald-Kugel & Bragg-Bedingung",
+      "question": "Was beschreibt die Bragg-Bedingung in der Festkörperphysik?",
+      "choices": [
+        "A: Die Energieverteilung in einem idealen Gas.",
+        "B: Die Bedingung für die konstruktive Interferenz von Röntgenstrahlen an Kristallgittern.",
+        "C: Die Temperaturabhängigkeit von magnetischen Materialien.",
+        "D: Die Bewegung von Teilchen in einem elektrischen Feld."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Bragg-Bedingung beschreibt, unter welchen Bedingungen Röntgenstrahlen an den Ebenen eines Kristalls konstruktiv interferieren. Dies ist entscheidend für die Analyse der Kristallstruktur mittels Röntgenbeugung.",
+      "difficulty": 2,
+      "subcategory": "Ewald-Kugel & Bragg-Bedingung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Holonome Zwangsbedingungen",
+      "question": "Was beschreibt eine holonome Zwangsbedingung in der analytischen Mechanik?",
+      "choices": [
+        "A: Eine Zwangsbedingung, die nur von den Koordinaten und nicht von der Zeit abhängt.",
+        "B: Eine Zwangsbedingung, die die Geschwindigkeit eines Systems einschränkt.",
+        "C: Eine Zwangsbedingung, die zeitabhängig ist.",
+        "D: Eine Zwangsbedingung, die nur in einem festen Bezugssystem gilt."
+      ],
+      "correct_answer": "A",
+      "explanation": "Eine holonome Zwangsbedingung ist eine Einschränkung, die nur von den Positionen der Teilchen abhängt und nicht von deren zeitlichen Ableitungen. Diese Bedingung ermöglicht die vollständige Integration der Bewegungsgleichungen in der analytischen Mechanik.",
+      "difficulty": 3,
+      "subcategory": "Holonome Zwangsbedingungen"
+    }
+  ]
+}
