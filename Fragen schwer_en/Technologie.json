@@ -364,6 +364,20 @@
       "correct_answer": "A",
       "explanation": "Soziale Netzwerke ermöglichen es Nutzern, miteinander zu kommunizieren, Inhalte zu teilen und Kontakte zu knüpfen. Wetter-Apps, Fitness-Tracking und Notizen sind zwar nützliche Anwendungen, dienen jedoch nicht primär der Kommunikation.",
       "difficulty": 6
+    },
+    {
+      "category": "Technologie",
+      "topic": "Computer & Internet",
+      "question": "Which transport protocol is responsible for data transmission on the internet and ensures packet order?",
+      "choices": [
+        "A: TCP",
+        "B: HTTP",
+        "C: ICMP",
+        "D: UDP"
+      ],
+      "correct_answer": "A",
+      "explanation": "TCP (Transmission Control Protocol) is a connection-oriented protocol that ensures data packets are transmitted in the correct order and without errors. In contrast, UDP (User Datagram Protocol) is connectionless and does not guarantee packet order or data integrity, while ICMP and HTTP fulfill different functions in the network protocol stack.",
+      "difficulty": 10
     }
   ]
 }

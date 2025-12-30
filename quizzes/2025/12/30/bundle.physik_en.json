@@ -1,0 +1,168 @@
+{
+  "date": "2025-12-30",
+  "generated_at": "2025-12-30T04:02:00Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Der Dipol & Dipolfeld",
+      "question": "What describes an electric dipole?",
+      "choices": [
+        "A: An electric charge located in an electric field.",
+        "B: A single positive electric charge.",
+        "C: A pair of opposite electric charges separated by a certain distance.",
+        "D: A magnet with two poles."
+      ],
+      "correct_answer": "C",
+      "explanation": "An electric dipole consists of two equally large, opposite electric charges separated by a certain distance. This concept is important for understanding dipole fields and interactions in electric fields.",
+      "difficulty": 4,
+      "subcategory": "Der Dipol & Dipolfeld"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Thermodynamische Systeme (offen/geschlossen/isoliert)",
+      "question": "Which of the following thermodynamic systems can exchange matter and energy with its surroundings?",
+      "choices": [
+        "A: Open system",
+        "B: Closed system",
+        "C: Thermodynamic equilibrium",
+        "D: Isolated system"
+      ],
+      "correct_answer": "A",
+      "explanation": "An open system allows for the exchange of both matter and energy with its surroundings. In contrast, closed systems can only exchange energy, and isolated systems cannot exchange either matter or energy.",
+      "difficulty": 4,
+      "subcategory": "Thermodynamische Systeme (offen/geschlossen/isoliert)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Fresnelsche Beugung (qualitativ)",
+      "question": "Which statement best describes the phenomenon of Fresnel diffraction at a single aperture?",
+      "choices": [
+        "A: Sharp shadows without interference patterns are formed.",
+        "B: Light rays are reflected at the aperture, and no diffraction pattern is formed.",
+        "C: Diffraction occurs only when the aperture is larger than the wavelength of light.",
+        "D: Light is diffracted at the aperture, resulting in a characteristic interference pattern."
+      ],
+      "correct_answer": "D",
+      "explanation": "Fresnel diffraction describes that when light passes through a small aperture, it diffracts and creates an interference pattern. This occurs because light is diffracted at the edges of the aperture, leading to a characteristic pattern dependent on the light's wavelength and the aperture's size.",
+      "difficulty": 7,
+      "subcategory": "Fresnelsche Beugung (qualitativ)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Beugung am Schirm & Poisson’scher Fleck",
+      "question": "What does the Poisson's spot describe regarding the diffraction of light on a circular screen?",
+      "choices": [
+        "A: It describes the intensity distribution of light after diffraction on a rectangular screen.",
+        "B: The spot is the result of interference between two light waves.",
+        "C: It is a bright spot appearing in the middle of the diffraction pattern.",
+        "D: It only occurs in the diffraction of electrons."
+      ],
+      "correct_answer": "C",
+      "explanation": "The Poisson's spot is a central bright spot that appears in the middle of the diffraction pattern when light diffracts through a small, circular aperture. This effect is an important phenomenon in wave optics and demonstrates the wave nature of light.",
+      "difficulty": 7,
+      "subcategory": "Beugung am Schirm & Poisson’scher Fleck"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Freie Achsen",
+      "question": "Which of the following systems represents an ideal free axis?",
+      "choices": [
+        "A: A body freely falling in a gravitational field.",
+        "B: A rigid body rotating about a fixed axis.",
+        "C: A body moving along a straight line without friction.",
+        "D: A pendulum hanging from a fixed point and swinging."
+      ],
+      "correct_answer": "C",
+      "explanation": "An ideal free axis means the body moves in a straight line without external influences, as in option B. The other options describe systems influenced by external forces or conditions.",
+      "difficulty": 6,
+      "subcategory": "Freie Achsen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Thermische Leitfähigkeit",
+      "question": "Which material typically has the highest thermal conductivity?",
+      "choices": [
+        "A: Wood",
+        "B: Styrofoam",
+        "C: Glass",
+        "D: Copper"
+      ],
+      "correct_answer": "D",
+      "explanation": "Copper is known for its high thermal conductivity, making it an excellent material for electrical wiring and heat transfer. In comparison, wood, glass, and styrofoam have significantly lower values in thermal conductivity.",
+      "difficulty": 5,
+      "subcategory": "Thermische Leitfähigkeit"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Formale Eigenschaften (Bilinearität, Antisymmetrie, Jacobi)",
+      "question": "Which of the following properties is characteristic of an antisymmetric bilinear form?",
+      "choices": [
+        "A: f(x, y) = 0 for x = y",
+        "B: f(x, y) = f(y, x)",
+        "C: f(x, y) = -f(y, x)",
+        "D: f(x, y) = f(x, y) + f(x, z)"
+      ],
+      "correct_answer": "C",
+      "explanation": "An antisymmetric bilinear form satisfies the property f(x, y) = -f(y, x), meaning the value of the form changes when the arguments are swapped. This property is central in the theory of antisymmetric matrices and is applied in Hamiltonian mechanics.",
+      "difficulty": 7,
+      "subcategory": "Formale Eigenschaften (Bilinearität, Antisymmetrie, Jacobi)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Nicht-Vertauschbarkeit von Operatoren",
+      "question": "Which of the following statements best describes the non-commutativity of operators in quantum mechanics?",
+      "choices": [
+        "A: If two operators are non-commutative, they cannot simultaneously measure certain values.",
+        "B: Non-commutative operators can always be measured simultaneously.",
+        "C: Non-commutativity is only relevant for linear operators.",
+        "D: Every operator in quantum mechanics commutes with all other operators."
+      ],
+      "correct_answer": "A",
+      "explanation": "In quantum mechanics, the non-commutativity of operators means the corresponding observables cannot be simultaneously measured with defined values. This is a fundamental property resulting from the uncertainty principle and is crucial for understanding quantum mechanical systems.",
+      "difficulty": 7,
+      "subcategory": "Nicht-Vertauschbarkeit von Operatoren"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Fresnelsche Beugung (qualitativ)",
+      "question": "Which of the following statements best describes the behavior of light in Fresnel diffraction at a narrow aperture?",
+      "choices": [
+        "A: Light is completely absorbed by the aperture and does not pass through.",
+        "B: Light exhibits diffraction patterns arising from wave interference at the aperture.",
+        "C: Light behaves like a particle and shows no diffraction effects.",
+        "D: Light propagates uniformly in all directions without diffraction."
+      ],
+      "correct_answer": "B",
+      "explanation": "Fresnel diffraction describes the wave characteristics of light, where it interferes at a narrow aperture and creates characteristic diffraction patterns. These effects result from the superposition of light waves emerging from different points of the aperture.",
+      "difficulty": 9,
+      "subcategory": "Fresnelsche Beugung (qualitativ)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Relativistischer Impuls, Energie und Kraft",
+      "question": "What describes the relativistic momentum of an object compared to classical momentum?",
+      "choices": [
+        "A: It is independent of the object's velocity.",
+        "B: It remains constant at high velocities.",
+        "C: It is always smaller than classical momentum.",
+        "D: It increases with the object's velocity and approaches infinity when reaching the speed of light."
+      ],
+      "correct_answer": "D",
+      "explanation": "The relativistic momentum of an object increases with velocity and becomes infinite as the object approaches the speed of light. In contrast, classical momentum remains constant as long as mass and velocity are constant.",
+      "difficulty": 5,
+      "subcategory": "Relativistischer Impuls, Energie und Kraft"
+    }
+  ]
+}

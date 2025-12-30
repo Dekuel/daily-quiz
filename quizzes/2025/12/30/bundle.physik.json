@@ -1,0 +1,169 @@
+{
+  "date": "2025-12-30",
+  "generated_at": "2025-12-30T04:01:29Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Der Dipol & Dipolfeld",
+      "question": "Was beschreibt ein elektrischer Dipol?",
+      "choices": [
+        "A: Eine elektrische Ladung, die sich in einem elektrischen Feld befindet.",
+        "B: Eine einzelne positive elektrische Ladung.",
+        "C: Ein Paar entgegengesetzter elektrischer Ladungen, die durch eine bestimmte Distanz voneinander getrennt sind.",
+        "D: Ein Magnet mit zwei Polen."
+      ],
+      "correct_answer": "C",
+      "explanation": "Ein elektrischer Dipol besteht aus zwei gleich großen, entgegengesetzten elektrischen Ladungen, die durch einen bestimmten Abstand voneinander getrennt sind. Dieses Konzept ist wichtig für das Verständnis von Dipolfeldern und Wechselwirkungen in elektrischen Feldern.",
+      "difficulty": 4,
+      "subcategory": "Der Dipol & Dipolfeld"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Thermodynamische Systeme (offen/geschlossen/isoliert)",
+      "question": "Welches der folgenden thermodynamischen Systeme kann Materie und Energie mit seiner Umgebung austauschen?",
+      "choices": [
+        "A: Offenes System",
+        "B: Geschlossenes System",
+        "C: Thermodynamisches Gleichgewicht",
+        "D: Isoliertes System"
+      ],
+      "correct_answer": "A",
+      "explanation": "Ein offenes System ermöglicht den Austausch von sowohl Materie als auch Energie mit seiner Umgebung. Im Gegensatz dazu können geschlossene Systeme nur Energie, und isolierte Systeme weder Materie noch Energie austauschen.",
+      "difficulty": 4,
+      "subcategory": "Thermodynamische Systeme (offen/geschlossen/isoliert)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Fresnelsche Beugung (qualitativ)",
+      "question": "Welche Aussage beschreibt am besten das Phänomen der Fresnelschen Beugung bei einer einzelnen Öffnung?",
+      "choices": [
+        "A: Es entstehen scharfe Schatten ohne Interferenzmuster.",
+        "B: Lichtstrahlen werden an der Öffnung reflektiert und kein Beugungsmuster entsteht.",
+        "C: Beugung tritt nur auf, wenn die Öffnung größer als die Wellenlänge des Lichtes ist.",
+        "D: Licht wird an der Öffnung gebeugt, was zu einem charakteristischen Interferenzmuster führt."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Fresnelsche Beugung beschreibt, dass Licht, wenn es durch eine kleine Öffnung tritt, gebeugt wird und ein Interferenzmuster erzeugt. Dies geschieht, weil das Licht an den Rändern der Öffnung abgelenkt wird, was zu einem charakteristischen Muster führt, das von der Wellenlänge des Lichts und der Größe der Öffnung abhängt.",
+      "difficulty": 7,
+      "subcategory": "Fresnelsche Beugung (qualitativ)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Beugung am Schirm & Poisson’scher Fleck",
+      "question": "Was beschreibt der Poisson’sche Fleck in Bezug auf die Beugung von Licht an einem kreisförmigen Schirm?",
+      "choices": [
+        "A: Er beschreibt die Intensitätsverteilung von Licht nach der Beugung an einem rechteckigen Schirm.",
+        "B: Der Fleck ist das Ergebnis von Interferenz zwischen zwei Lichtwellen.",
+        "C: Es handelt sich um einen Lichtfleck, der in der Mitte der Beugungsfigur auftritt.",
+        "D: Er tritt nur bei der Beugung von Elektronen auf."
+      ],
+      "correct_answer": "C",
+      "explanation": "Der Poisson’sche Fleck ist ein zentraler Lichtfleck, der in der Mitte der Beugungsfigur entsteht, wenn Licht durch einen kleinen, kreisförmigen Öffnung beugend hindurchtritt. Dieser Effekt ist ein wichtiges Phänomen der Wellenoptik und zeigt die Wellennatur des Lichts.",
+      "difficulty": 7,
+      "subcategory": "Beugung am Schirm & Poisson’scher Fleck"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Freie Achsen",
+      "question": "Welches der folgenden Systeme stellt eine ideale freie Achse dar?",
+      "choices": [
+        "A: Ein Körper, der in einem Gravitationsfeld frei fällt.",
+        "B: Ein starrer Körper, der um eine feste Achse rotiert.",
+        "C: Ein Körper, der sich ohne Reibung entlang einer geraden Linie bewegt.",
+        "D: Ein Pendel, das an einem festen Punkt hängt und schwingt."
+      ],
+      "correct_answer": "C",
+      "explanation": "Eine ideale freie Achse bedeutet, dass sich der Körper in einer geraden Linie und ohne äußere Einflüsse bewegt, was in Option B der Fall ist. Die anderen Optionen beschreiben Systeme, die durch äußere Kräfte oder Bedingungen beeinflusst werden.",
+      "difficulty": 6,
+      "subcategory": "Freie Achsen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Thermische Leitfähigkeit",
+      "question": "Welches Material hat in der Regel die höchste thermische Leitfähigkeit?",
+      "choices": [
+        "A: Holz",
+        "B: Styropor",
+        "C: Glas",
+        "D: Kupfer"
+      ],
+      "correct_answer": "D",
+      "explanation": "Kupfer ist bekannt für seine hohe thermische Leitfähigkeit, was es zu einem ausgezeichneten Material für elektrische Leitungen und Wärmeübertragung macht. Im Vergleich dazu haben Holz, Glas und Styropor deutlich niedrigere Werte in der thermischen Leitfähigkeit.",
+      "difficulty": 5,
+      "subcategory": "Thermische Leitfähigkeit"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Formale Eigenschaften (Bilinearität, Antisymmetrie, Jacobi)",
+      "question": "Welche der folgenden Eigenschaften ist charakteristisch für eine antisymmetrische Bilinearform?",
+      "choices": [
+        "A: f(x, y) = 0 für x = y",
+        "B: f(x, y) = f(y, x)",
+        "C: f(x, y) = -f(y, x)",
+        "D: f(x, y) = f(x, y) + f(x, z)"
+      ],
+      "correct_answer": "C",
+      "explanation": "Eine antisymmetrische Bilinearform erfüllt die Eigenschaft f(x, y) = -f(y, x), was bedeutet, dass der Wert der Form wechselt, wenn die Argumente vertauscht werden. Diese Eigenschaft ist zentral in der Theorie der antisymmetrischen Matrizen und findet Anwendung in der Hamiltonschen Mechanik.",
+      "difficulty": 7,
+      "subcategory": "Formale Eigenschaften (Bilinearität, Antisymmetrie, Jacobi)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Nicht-Vertauschbarkeit von Operatoren",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt die Nicht-Vertauschbarkeit von Operatoren in der Quantenmechanik?",
+      "choices": [
+        "A: Wenn zwei Operatoren nicht vertauschbar sind, können sie nicht gleichzeitig bestimmte Werte messen.",
+        "B: Nicht-vertauschbare Operatoren können immer gleichzeitig gemessen werden.",
+        "C: Nicht-Vertauschbarkeit ist nur für lineare Operatoren relevant.",
+        "D: Jeder Operator in der Quantenmechanik vertauscht mit allen anderen Operatoren."
+      ],
+      "correct_answer": "A",
+      "explanation": "In der Quantenmechanik bedeutet die Nicht-Vertauschbarkeit von Operatoren, dass die entsprechenden Observablen nicht gleichzeitig mit definierten Werten gemessen werden können. Dies ist eine grundlegende Eigenschaft, die aus der Unschärferelation resultiert und entscheidend für das Verständnis quantenmechanischer Systeme ist.",
+      "difficulty": 7,
+      "subcategory": "Nicht-Vertauschbarkeit von Operatoren"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Fresnelsche Beugung (qualitativ)",
+      "question": "Welche der folgenden Aussagen beschreibt am besten das Verhalten von Licht bei der Fresnelschen Beugung an einer schmalen Öffnung?",
+      "choices": [
+        "A: Licht wird durch die Öffnung vollständig absorbiert und tritt nicht hindurch.",
+        "B: Licht zeigt Beugungsmuster, die durch Interferenz von Wellen an der Öffnung entstehen.",
+        "C: Licht verhält sich wie ein Teilchen und zeigt keine Beugungseffekte.",
+        "D: Licht breitet sich gleichmäßig in alle Richtungen ohne Beugung aus."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Fresnelsche Beugung beschreibt die Wellencharakteristik von Licht, bei der es an einer schmalen Öffnung interferiert und charakteristische Beugungsmuster erzeugt. Diese Effekte sind das Ergebnis der Überlagerung von Lichtwellen, die aus verschiedenen Punkten der Öffnung austreten.",
+      "difficulty": 9,
+      "subcategory": "Fresnelsche Beugung (qualitativ)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Relativistischer Impuls, Energie und Kraft",
+      "question": "Was beschreibt der relativistische Impuls eines Objekts im Vergleich zum klassischen Impuls?",
+      "choices": [
+        "A: Er ist unabhängig von der Geschwindigkeit des Objekts.",
+        "B: Er bleibt bei hohen Geschwindigkeiten konstant.",
+        "C: Er ist immer kleiner als der klassische Impuls.",
+        "D: Er nimmt mit der Geschwindigkeit des Objekts zu und nähert sich unendlich, wenn die Lichtgeschwindigkeit erreicht wird."
+      ],
+      "correct_answer": "D",
+      "explanation": "Der relativistische Impuls eines Objekts nimmt mit der Geschwindigkeit zu und wird unendlich, wenn das Objekt sich der Lichtgeschwindigkeit nähert. Im Gegensatz dazu bleibt der klassische Impuls konstant, solange die Masse und die Geschwindigkeit konstant sind.",
+      "difficulty": 5,
+      "subcategory": "Relativistischer Impuls, Energie und Kraft"
+    }
+  ]
+}

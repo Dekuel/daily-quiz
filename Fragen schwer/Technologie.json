@@ -364,6 +364,20 @@
       "correct_answer": "A",
       "explanation": "Soziale Netzwerke ermöglichen es Nutzern, miteinander zu kommunizieren, Inhalte zu teilen und Kontakte zu knüpfen. Wetter-Apps, Fitness-Tracking und Notizen sind zwar nützliche Anwendungen, dienen jedoch nicht primär der Kommunikation.",
       "difficulty": 6
+    },
+    {
+      "category": "Technologie",
+      "topic": "Computer & Internet",
+      "question": "Welches Transportprotokoll ist für die Übertragung von Daten im Internet zuständig und garantiert die Ordnung der Pakete?",
+      "choices": [
+        "A: TCP",
+        "B: HTTP",
+        "C: ICMP",
+        "D: UDP"
+      ],
+      "correct_answer": "A",
+      "explanation": "TCP (Transmission Control Protocol) ist ein verbindungsorientiertes Protokoll, das sicherstellt, dass Datenpakete in der richtigen Reihenfolge und ohne Fehler übertragen werden. Im Gegensatz dazu ist UDP (User Datagram Protocol) verbindungslos und bietet keine Garantie für die Paketreihenfolge oder Datenintegrität, während ICMP und HTTP verschiedene Funktionen im Netzwerkprotokoll-Stack erfüllen.",
+      "difficulty": 10
     }
   ]
 }
