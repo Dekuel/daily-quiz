@@ -1,0 +1,168 @@
+{
+  "date": "2026-01-01",
+  "generated_at": "2026-01-01T04:10:21Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Kontinuitätsgleichung (vierdimensional)",
+      "question": "Which statement correctly describes the four-dimensional continuity equation in relativity theory?",
+      "choices": [
+        "A: The continuity equation represents the relationship between time and space in a closed system.",
+        "B: The continuity equation is a conservation equation for energy.",
+        "C: It is only applicable in classical mechanics.",
+        "D: It describes the conservation of charge in a four-dimensional spacetime continuum."
+      ],
+      "correct_answer": "D",
+      "explanation": "The four-dimensional continuity equation is a central equation in relativity theory that describes the conservation of charge. It is important for understanding interactions in spacetime and ensures that the total charge in a closed system remains constant.",
+      "difficulty": 6,
+      "subcategory": "Kontinuitätsgleichung (vierdimensional)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Potentiale des idealen Gases",
+      "question": "What does the ideal gas law describe regarding an ideal gas?",
+      "choices": [
+        "A: Pressure is inversely proportional to temperature and volume.",
+        "B: Pressure is directly proportional to temperature and inversely proportional to volume.",
+        "C: Pressure is directly proportional to temperature and volume.",
+        "D: Pressure is independent of temperature and volume."
+      ],
+      "correct_answer": "B",
+      "explanation": "The ideal gas law states PV = nRT, where P is pressure, V is volume, n is the amount of substance, R is the universal gas constant, and T is temperature. It follows that the pressure of an ideal gas is directly proportional to temperature and inversely proportional to volume.",
+      "difficulty": 4,
+      "subcategory": "Potentiale des idealen Gases"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Zeitentwicklung (Schrödinger-Bild)",
+      "question": "Which statement best describes the time evolution of a quantum mechanical system in the Schrödinger picture?",
+      "choices": [
+        "A: The observables remain constant and the wave function is time-independent.",
+        "B: The wave function of the system is temporally altered by the Schrödinger equation.",
+        "C: Interactions between particles affect the time evolution only in a classical sense.",
+        "D: The time evolution occurs solely through changes in the system's mass."
+      ],
+      "correct_answer": "B",
+      "explanation": "In the Schrödinger picture, the Schrödinger equation describes the temporal change of the wave function of a system, which describes the time evolution of quantum mechanical states. The observables in this picture are constant and do not change with time.",
+      "difficulty": 6,
+      "subcategory": "Zeitentwicklung (Schrödinger-Bild)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Nicht wechselwirkende Systeme: Ideales Gas",
+      "question": "Which law describes the behavior of an ideal gas in terms of pressure, volume, and temperature?",
+      "choices": [
+        "A: Charles's Law",
+        "B: Newton's Law",
+        "C: Avogadro's Law",
+        "D: Boyle's Law"
+      ],
+      "correct_answer": "D",
+      "explanation": "Boyle's Law states that at constant temperature, the product of pressure and volume of an ideal gas remains constant. It thus describes the behavior of ideal gases concerning pressure and volume changes at constant temperature.",
+      "difficulty": 5,
+      "subcategory": "Nicht wechselwirkende Systeme: Ideales Gas"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Einfluss der Wandbelegung",
+      "question": "How does the wall covering of a room affect the vibrations of a pendulum?",
+      "choices": [
+        "A: A harder wall covering increases the vibration amplitude.",
+        "B: The wall covering has no effect on the vibrations.",
+        "C: A softer wall covering reduces the vibration frequency.",
+        "D: The wall covering influences the humidity and thus the oscillation period."
+      ],
+      "correct_answer": "B",
+      "explanation": "In general, the wall covering has no direct influence on the vibrations of a pendulum as long as the room is sufficiently large and no additional dampening or disturbances are introduced. The oscillation period is primarily determined by the length of the pendulum and gravity.",
+      "difficulty": 3,
+      "subcategory": "Einfluss der Wandbelegung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Steinerscher Satz",
+      "question": "What does the Steiner's theorem describe in classical mechanics?",
+      "choices": [
+        "A: Calculating the velocity of a body in a vacuum.",
+        "B: Calculating the moment of inertia of a body about any axis.",
+        "C: Describing the motion of light rays.",
+        "D: Calculating the energy of a body in a gravitational field."
+      ],
+      "correct_answer": "B",
+      "explanation": "Steiner's theorem is an important relationship in classical mechanics that allows for the calculation of the moment of inertia of a body about any axis when the moment of inertia about a parallel axis is known. This is particularly useful in the analysis of rotational motion.",
+      "difficulty": 2,
+      "subcategory": "Steinerscher Satz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Farbmagnetische Wechselwirkung",
+      "question": "What does the color-magnetic interaction describe in quantum chromodynamics?",
+      "choices": [
+        "A: Interaction between photons and neutrons.",
+        "B: Interaction between atoms and molecules.",
+        "C: Interaction between quarks and gluons.",
+        "D: Interaction between electrons and protons."
+      ],
+      "correct_answer": "C",
+      "explanation": "The color-magnetic interaction is a fundamental force that describes the interactions between quarks and gluons in quantum chromodynamics. This interaction is responsible for binding quarks into hadrons and is crucial for understanding the strong nuclear force.",
+      "difficulty": 6,
+      "subcategory": "Farbmagnetische Wechselwirkung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Einfache Folgerungen aus den Hauptsätzen",
+      "question": "Which of the following statements is a direct consequence of the second law of thermodynamics?",
+      "choices": [
+        "A: In a closed system, the total energy remains constant.",
+        "B: The entropy of an isolated system increases over time.",
+        "C: Heat can spontaneously flow from a lower temperature body to a higher temperature body.",
+        "D: Work can be converted into heat without losses."
+      ],
+      "correct_answer": "B",
+      "explanation": "The second law of thermodynamics states that entropy in a closed system never decreases, meaning that entropy generally increases. This leads to irreversible processes and is fundamental to understanding thermodynamic operations.",
+      "difficulty": 8,
+      "subcategory": "Einfache Folgerungen aus den Hauptsätzen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Hookesches Gesetz",
+      "question": "Which of the following statements correctly describes Hooke's Law?",
+      "choices": [
+        "A: The extension of a spring is independent of the applied force.",
+        "B: Hooke's Law applies only to non-elastic materials.",
+        "C: The force acting on an elastic spring is proportional to the extension of the spring.",
+        "D: The maximum extension of a spring is always equal to its length."
+      ],
+      "correct_answer": "C",
+      "explanation": "Hooke's Law states that the extension of a spring is proportional to the force applied to it, as long as the elastic limit is not exceeded. This relationship is crucial for understanding elastic materials and their behavior under stress.",
+      "difficulty": 8,
+      "subcategory": "Hookesches Gesetz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Feldenergie & Feldimpuls",
+      "question": "What does the field energy in an electric field describe?",
+      "choices": [
+        "A: The total mass of the electric field.",
+        "B: The speed at which charges move.",
+        "C: The temperature of the electric field.",
+        "D: The energy needed to move a charge in the field."
+      ],
+      "correct_answer": "D",
+      "explanation": "The field energy in an electric field is the work required to move an electric charge against the field. This energy is directly dependent on the field strength and the position of the charge in the field.",
+      "difficulty": 4,
+      "subcategory": "Feldenergie & Feldimpuls"
+    }
+  ]
+}

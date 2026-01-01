@@ -1,0 +1,169 @@
+{
+  "date": "2026-01-01",
+  "generated_at": "2026-01-01T04:09:53Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Kontinuitätsgleichung (vierdimensional)",
+      "question": "Welche Aussage beschreibt die vierdimensionale Kontinuitätsgleichung in der Relativitätstheorie korrekt?",
+      "choices": [
+        "A: Die Kontinuitätsgleichung stellt die Beziehung zwischen Zeit und Raum in einem geschlossenen System dar.",
+        "B: Die Kontinuitätsgleichung ist eine Erhaltungsgleichung für die Energie.",
+        "C: Sie ist nur in der klassischen Mechanik anwendbar.",
+        "D: Sie beschreibt die Erhaltung der Ladung in einem vierdimensionalen Raum-Zeit-Kontinuum."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die vierdimensionale Kontinuitätsgleichung ist eine zentrale Gleichung in der Relativitätstheorie, die die Erhaltung der Ladung beschreibt. Sie ist wichtig für das Verständnis der Wechselwirkungen in der Raum-Zeit und stellt sicher, dass die Gesamtladung in einem geschlossenen System konstant bleibt.",
+      "difficulty": 6,
+      "subcategory": "Kontinuitätsgleichung (vierdimensional)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Potentiale des idealen Gases",
+      "question": "Was beschreibt das ideale Gasgesetz in Bezug auf ein ideales Gas?",
+      "choices": [
+        "A: Der Druck ist umgekehrt proportional zur Temperatur und zum Volumen.",
+        "B: Der Druck ist direkt proportional zur Temperatur und umgekehrt proportional zum Volumen.",
+        "C: Der Druck ist direkt proportional zur Temperatur und zum Volumen.",
+        "D: Der Druck ist unabhängig von Temperatur und Volumen."
+      ],
+      "correct_answer": "B",
+      "explanation": "Das ideale Gasgesetz lautet PV = nRT, wobei P der Druck, V das Volumen, n die Stoffmenge, R die universelle Gaskonstante und T die Temperatur ist. Daraus folgt, dass der Druck eines idealen Gases direkt proportional zur Temperatur und umgekehrt proportional zum Volumen ist.",
+      "difficulty": 4,
+      "subcategory": "Potentiale des idealen Gases"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Zeitentwicklung (Schrödinger-Bild)",
+      "question": "Welche Aussage beschreibt am besten die Zeitentwicklung eines quantenmechanischen Systems im Schrödinger-Bild?",
+      "choices": [
+        "A: Die Observable bleiben konstant und die Wellenfunktion ist zeitunabhängig.",
+        "B: Die Wellenfunktion des Systems wird durch die Schrödinger-Gleichung zeitabhängig verändert.",
+        "C: Die Wechselwirkungen zwischen Teilchen beeinflussen die Zeitentwicklung nur im klassischen Sinne.",
+        "D: Die Zeitentwicklung erfolgt ausschließlich durch die Änderung der Masse des Systems."
+      ],
+      "correct_answer": "B",
+      "explanation": "Im Schrödinger-Bild beschreibt die Schrödinger-Gleichung die zeitliche Änderung der Wellenfunktion eines Systems, was die Zeitentwicklung der quantenmechanischen Zustände beschreibt. Die Observable sind in diesem Bild konstant und ändern sich nicht mit der Zeit.",
+      "difficulty": 6,
+      "subcategory": "Zeitentwicklung (Schrödinger-Bild)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Nicht wechselwirkende Systeme: Ideales Gas",
+      "question": "Welches Gesetz beschreibt das Verhalten eines idealen Gases in Bezug auf Druck, Volumen und Temperatur?",
+      "choices": [
+        "A: Charles-Gesetz",
+        "B: Newtonsches Gesetz",
+        "C: Avogadro-Gesetz",
+        "D: Boyle-Mariotte-Gesetz"
+      ],
+      "correct_answer": "D",
+      "explanation": "Das Boyle-Mariotte-Gesetz besagt, dass bei konstantem Temperatur das Produkt aus Druck und Volumen eines idealen Gases konstant bleibt. Es beschreibt somit das Verhalten idealer Gase in Bezug auf Druck und Volumenänderungen bei konstanter Temperatur.",
+      "difficulty": 5,
+      "subcategory": "Nicht wechselwirkende Systeme: Ideales Gas"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Einfluss der Wandbelegung",
+      "question": "Wie beeinflusst die Wandbelegung eines Raumes die Schwingungen eines Pendels?",
+      "choices": [
+        "A: Eine härtere Wandbelegung erhöht die Schwingungsamplitude.",
+        "B: Die Wandbelegung hat keinen Einfluss auf die Schwingungen.",
+        "C: Eine weichere Wandbelegung reduziert die Schwingungsfrequenz.",
+        "D: Die Wandbelegung beeinflusst die Luftfeuchtigkeit und damit die Schwingungsdauer."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Wandbelegung hat in der Regel keinen direkten Einfluss auf die Schwingungen eines Pendels, solange der Raum ausreichend groß ist und keine zusätzlichen Dämpfungen oder Störungen eingeführt werden. Die Schwingungsdauer wird primär durch die Länge des Pendels und die Schwerkraft bestimmt.",
+      "difficulty": 3,
+      "subcategory": "Einfluss der Wandbelegung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Steinerscher Satz",
+      "question": "Was beschreibt der Steinersche Satz in der klassischen Mechanik?",
+      "choices": [
+        "A: Die Berechnung der Geschwindigkeit eines Körpers in einem Vakuum.",
+        "B: Die Berechnung des Trägheitsmoments eines Körpers bezüglich einer beliebigen Achse.",
+        "C: Die Beschreibung der Bewegung von Lichtstrahlen.",
+        "D: Die Berechnung der Energie eines Körpers in einem Gravitationsfeld."
+      ],
+      "correct_answer": "B",
+      "explanation": "Der Steinersche Satz ist eine wichtige Beziehung in der klassischen Mechanik, die es ermöglicht, das Trägheitsmoment eines Körpers um eine beliebige Achse zu berechnen, wenn das Trägheitsmoment um eine parallele Achse bekannt ist. Dies ist besonders nützlich bei der Analyse von Drehbewegungen.",
+      "difficulty": 2,
+      "subcategory": "Steinerscher Satz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Farbmagnetische Wechselwirkung",
+      "question": "Was beschreibt die farbmagnetische Wechselwirkung in der Quantenchromodynamik?",
+      "choices": [
+        "A: Die Wechselwirkung zwischen Photonen und Neutronen.",
+        "B: Die Wechselwirkung zwischen Atomen und Molekülen.",
+        "C: Die Wechselwirkung zwischen Quarks und Gluonen.",
+        "D: Die Wechselwirkung zwischen Elektronen und Protonen."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die farbmagnetische Wechselwirkung ist eine fundamentale Kraft, die die Wechselwirkungen zwischen Quarks und Gluonen in der Quantenchromodynamik beschreibt. Diese Wechselwirkung ist verantwortlich für die Bindung von Quarks zu Hadronen und ist entscheidend für das Verständnis der starken Kernkraft.",
+      "difficulty": 6,
+      "subcategory": "Farbmagnetische Wechselwirkung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Einfache Folgerungen aus den Hauptsätzen",
+      "question": "Welcher der folgenden Aussagen ist eine direkte Folgerung aus dem zweiten Hauptsatz der Thermodynamik?",
+      "choices": [
+        "A: In einem geschlossenen System bleibt die Gesamtenergie konstant.",
+        "B: Die Entropie eines isolierten Systems nimmt im Laufe der Zeit zu.",
+        "C: Wärme kann spontan von einem Körper niedrigerer Temperatur zu einem Körper höherer Temperatur fließen.",
+        "D: Arbeit kann in Wärme umgewandelt werden, ohne Verluste."
+      ],
+      "correct_answer": "B",
+      "explanation": "Der zweite Hauptsatz der Thermodynamik besagt, dass die Entropie in einem geschlossenen System nie abnimmt, was bedeutet, dass die Entropie im Allgemeinen zunimmt. Dies führt zu irreversiblen Prozessen und ist grundlegend für das Verständnis thermodynamischer Vorgänge.",
+      "difficulty": 8,
+      "subcategory": "Einfache Folgerungen aus den Hauptsätzen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Hookesches Gesetz",
+      "question": "Welcher der folgenden Aussagen beschreibt das Hookesche Gesetz korrekt?",
+      "choices": [
+        "A: Die Dehnung einer Feder ist unabhängig von der anliegenden Kraft.",
+        "B: Das Hookesche Gesetz gilt nur für Materialien, die nicht elastisch sind.",
+        "C: Die Kraft, die auf eine elastische Feder wirkt, ist proportional zur Dehnung der Feder.",
+        "D: Die maximale Dehnung einer Feder ist immer gleich ihrer Länge."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Hookesche Gesetz besagt, dass die Dehnung einer Feder proportional zur auf sie wirkenden Kraft ist, solange die elastische Grenze nicht überschritten wird. Diese Beziehung ist entscheidend für das Verständnis elastischer Materialien und deren Verhalten unter Belastung.",
+      "difficulty": 8,
+      "subcategory": "Hookesches Gesetz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Feldenergie & Feldimpuls",
+      "question": "Was beschreibt die Feldenergie in einem elektrischen Feld?",
+      "choices": [
+        "A: Die Gesamtmasse des elektrischen Feldes.",
+        "B: Die Geschwindigkeit, mit der sich die Ladungen bewegen.",
+        "C: Die Temperatur des elektrischen Feldes.",
+        "D: Die Energie, die benötigt wird, um eine Ladung im Feld zu bewegen."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Feldenergie in einem elektrischen Feld ist die Arbeit, die notwendig ist, um eine elektrische Ladung gegen das Feld zu bewegen. Diese Energie ist direkt abhängig von der Stärke des Feldes und der Position der Ladung im Feld.",
+      "difficulty": 4,
+      "subcategory": "Feldenergie & Feldimpuls"
+    }
+  ]
+}
