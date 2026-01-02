@@ -1,0 +1,168 @@
+{
+  "date": "2026-01-02",
+  "generated_at": "2026-01-02T04:04:49Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Wärmekapazitäten (C_V, C_p, Beziehungen)",
+      "question": "What is the relationship between the molar heat capacity at constant volume (C_V) and the molar heat capacity at constant pressure (C_p) for ideal gases?",
+      "choices": [
+        "A: C_p = 2C_V",
+        "B: C_p = C_V - R",
+        "C: C_p = C_V / R",
+        "D: C_p = C_V + R"
+      ],
+      "correct_answer": "D",
+      "explanation": "For ideal gases, the relationship is C_p = C_V + R, where R is the ideal gas constant. This relationship arises from the different conditions under which the heat capacities are measured and is a fundamental concept in thermodynamics.",
+      "difficulty": 7,
+      "subcategory": "Wärmekapazitäten (C_V, C_p, Beziehungen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Halbleiterlaser",
+      "question": "What is the fundamental principle that enables a semiconductor laser to function?",
+      "choices": [
+        "A: Refraction of light",
+        "B: Thermal radiation",
+        "C: Photoelectric effect",
+        "D: Stimulated emission"
+      ],
+      "correct_answer": "D",
+      "explanation": "Semiconductor lasers are based on the principle of stimulated emission, where a photon stimulates the emission of additional photons. This leads to amplification of light and enables the generation of a coherent light beam.",
+      "difficulty": 4,
+      "subcategory": "Halbleiterlaser"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Lichtkegel und Minkowski-Diagramme",
+      "question": "What does a light cone represent in a Minkowski diagram?",
+      "choices": [
+        "A: The region where light rays can move.",
+        "B: Time dilation at relativistic speeds.",
+        "C: The influence of gravity on light.",
+        "D: The speed of objects in space."
+      ],
+      "correct_answer": "A",
+      "explanation": "In a Minkowski diagram, a light cone represents the spacetime region that can be reached by light rays. It illustrates how light rays move in spacetime and helps in understanding the relativity of simultaneity.",
+      "difficulty": 3,
+      "subcategory": "Lichtkegel und Minkowski-Diagramme"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Phasen (Definitionen, Beispiele)",
+      "question": "Which of the following phases describes the state in which a substance exhibits both solid and liquid properties?",
+      "choices": [
+        "A: Plasma",
+        "B: Sublimation",
+        "C: Mixture",
+        "D: Gas"
+      ],
+      "correct_answer": "C",
+      "explanation": "A mixture is the state in which different phases coexist, such as in a melt where solid and liquid elements are present simultaneously. Plasma refers to an ionized state, while gas and sublimation do not combine solid and liquid properties.",
+      "difficulty": 3,
+      "subcategory": "Phasen (Definitionen, Beispiele)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Brillouin-Zone",
+      "question": "Which statement about the Brillouin zone is correct?",
+      "choices": [
+        "A: The Brillouin zone describes the energy states in a solid.",
+        "B: The Brillouin zone has no effect on the electrical properties of materials.",
+        "C: The Brillouin zone is always square regardless of the crystal structure.",
+        "D: The Brillouin zone is a term from thermodynamics."
+      ],
+      "correct_answer": "A",
+      "explanation": "The Brillouin zone is an important concept in solid-state physics that describes the energy states in a crystal lattice. It helps in understanding the behavior of electrons in solids and thus directly influences the physical properties of materials.",
+      "difficulty": 2,
+      "subcategory": "Brillouin-Zone"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Wärmeleitungsmanometer",
+      "question": "Which physical effect is primarily utilized in a heat conduction manometer for pressure measurement?",
+      "choices": [
+        "A: Thermoelectricity",
+        "B: Thermal expansion",
+        "C: Heat conduction",
+        "D: Fluid dynamics"
+      ],
+      "correct_answer": "C",
+      "explanation": "A heat conduction manometer utilizes the effect of heat conduction to measure the pressure inside a container. The difference in thermal conductivity of gases at different pressures leads to a change in temperature that can be measured.",
+      "difficulty": 9,
+      "subcategory": "Wärmeleitungsmanometer"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Josephson-Effekt",
+      "question": "What does the Josephson effect in superconducting materials describe?",
+      "choices": [
+        "A: Electron transport without resistance between two superconducting materials at a specific voltage.",
+        "B: The temperature dependence of electrical conductivity in normal materials.",
+        "C: The generation of photons in a superconducting material.",
+        "D: The interaction between superconducting and non-superconducting materials."
+      ],
+      "correct_answer": "A",
+      "explanation": "The Josephson effect describes the quantum mechanical tunneling process between two superconducting materials, leading to an electric current without resistance as long as a certain voltage is applied. This is a central phenomenon in solid-state physics and has significant applications in metrology and quantum computing.",
+      "difficulty": 9,
+      "subcategory": "Josephson-Effekt"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Nichtresonante Hadronerzeugung (R‑Verhältnis)",
+      "question": "What does the R-ratio in non-resonant hadron production describe?",
+      "choices": [
+        "A: The ratio of hadron production to other particle types.",
+        "B: The energy required to produce hadrons.",
+        "C: The number of interactions per unit time.",
+        "D: The ratio of quark to antiquark generation."
+      ],
+      "correct_answer": "A",
+      "explanation": "The R-ratio indicates how many hadrons are produced compared to other particles at a certain energy. It is an important measure for characterizing hadron production in high-energy processes.",
+      "difficulty": 4,
+      "subcategory": "Nichtresonante Hadronerzeugung (R‑Verhältnis)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Tiefinelastische Neutrinostreuung",
+      "question": "What does deep inelastic neutrino scattering describe in particle physics?",
+      "choices": [
+        "A: Interactions between neutrinos and photons.",
+        "B: Scattering of neutrons on electrons.",
+        "C: Interactions between neutrinos and quarks.",
+        "D: Scattering of protons on neutrinos."
+      ],
+      "correct_answer": "C",
+      "explanation": "Deep inelastic neutrino scattering describes the interaction between neutrinos and quarks, indicating the internal structure of nucleons. These processes are crucial for understanding strong interactions and the structure of matter at the subatomic level.",
+      "difficulty": 6,
+      "subcategory": "Tiefinelastische Neutrinostreuung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Querkontraktion",
+      "question": "What does the term lateral contraction describe in physics?",
+      "choices": [
+        "A: The change in density of a gas with temperature change.",
+        "B: The increase in volume of a body when heated.",
+        "C: The expansion of a material in the transverse direction under tensile stress.",
+        "D: The decrease in length of a material under pressure."
+      ],
+      "correct_answer": "C",
+      "explanation": "Lateral contraction describes the phenomenon where a material contracts in the transverse direction under tensile stress while being stretched in the longitudinal direction. This is an important concept in materials science and strength of materials.",
+      "difficulty": 4,
+      "subcategory": "Querkontraktion"
+    }
+  ]
+}

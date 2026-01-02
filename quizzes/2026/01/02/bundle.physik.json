@@ -1,0 +1,169 @@
+{
+  "date": "2026-01-02",
+  "generated_at": "2026-01-02T04:04:20Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Wärmekapazitäten (C_V, C_p, Beziehungen)",
+      "question": "Welcher Zusammenhang zwischen der molaren Wärmekapazität bei konstantem Volumen (C_V) und der molaren Wärmekapazität bei konstantem Druck (C_p) gilt für ideale Gase?",
+      "choices": [
+        "A: C_p = 2C_V",
+        "B: C_p = C_V - R",
+        "C: C_p = C_V / R",
+        "D: C_p = C_V + R"
+      ],
+      "correct_answer": "D",
+      "explanation": "Für ideale Gase gilt die Beziehung C_p = C_V + R, wobei R die ideale Gaskonstante ist. Diese Beziehung resultiert aus den unterschiedlichen Bedingungen, unter denen die Wärmekapazitäten gemessen werden, und ist ein grundlegendes Konzept in der Thermodynamik.",
+      "difficulty": 7,
+      "subcategory": "Wärmekapazitäten (C_V, C_p, Beziehungen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Halbleiterlaser",
+      "question": "Was ist das grundlegende Prinzip, das einen Halbleiterlaser zum Funktionieren bringt?",
+      "choices": [
+        "A: Lichtbrechung",
+        "B: Thermische Strahlung",
+        "C: Photoelektrischer Effekt",
+        "D: Stimulated Emission"
+      ],
+      "correct_answer": "D",
+      "explanation": "Halbleiterlaser basieren auf dem Prinzip der stimulierten Emission, bei dem ein Photon die Emission weiterer Photonen anregt. Dies führt zu einer Verstärkung des Lichts und ermöglicht die Erzeugung eines kohärenten Lichtstrahls.",
+      "difficulty": 4,
+      "subcategory": "Halbleiterlaser"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Lichtkegel und Minkowski-Diagramme",
+      "question": "Was beschreibt ein Lichtkegel in einem Minkowski-Diagramm?",
+      "choices": [
+        "A: Den Bereich, in dem sich Lichtstrahlen bewegen können.",
+        "B: Die Zeitdilatation bei relativistischen Geschwindigkeiten.",
+        "C: Den Einfluss von Gravitation auf Licht.",
+        "D: Die Geschwindigkeit von Objekten im Raum."
+      ],
+      "correct_answer": "A",
+      "explanation": "Ein Lichtkegel in einem Minkowski-Diagramm stellt den Raum-Zeit-Bereich dar, der von Lichtstrahlen erreicht werden kann. Er zeigt, wie sich Lichtstrahlen in der Raum-Zeit bewegen und hilft, die Relativität der Gleichzeitigkeit zu verstehen.",
+      "difficulty": 3,
+      "subcategory": "Lichtkegel und Minkowski-Diagramme"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Phasen (Definitionen, Beispiele)",
+      "question": "Welche der folgenden Phasen beschreibt den Zustand, in dem ein Stoff sowohl feste als auch flüssige Eigenschaften zeigt?",
+      "choices": [
+        "A: Plasma",
+        "B: Sublimation",
+        "C: Mischung",
+        "D: Gas"
+      ],
+      "correct_answer": "C",
+      "explanation": "Eine Mischung ist der Zustand, in dem verschiedene Phasen koexistieren, wie zum Beispiel in einer Schmelze, wo feste und flüssige Elemente gleichzeitig vorhanden sind. Plasma bezeichnet einen ionisierten Zustand, während Gas und Sublimation keine festen und flüssigen Eigenschaften kombinieren.",
+      "difficulty": 3,
+      "subcategory": "Phasen (Definitionen, Beispiele)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Brillouin-Zone",
+      "question": "Welche Aussage über die Brillouin-Zone ist korrekt?",
+      "choices": [
+        "A: Die Brillouin-Zone beschreibt die Energiezustände in einem Festkörper.",
+        "B: Die Brillouin-Zone hat keinen Einfluss auf die elektrischen Eigenschaften von Materialien.",
+        "C: Die Brillouin-Zone ist immer quadratisch unabhängig von der Kristallstruktur.",
+        "D: Die Brillouin-Zone ist ein Begriff aus der Thermodynamik."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Brillouin-Zone ist ein wichtiges Konzept in der Festkörperphysik, das die Energiezustände in einem Kristallgitter beschreibt. Sie hilft dabei, das Verhalten von Elektronen in Festkörpern zu verstehen und hat somit einen direkten Einfluss auf die physikalischen Eigenschaften der Materialien.",
+      "difficulty": 2,
+      "subcategory": "Brillouin-Zone"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Wärmeleitungsmanometer",
+      "question": "Welcher physikalische Effekt wird hauptsächlich in einem Wärmeleitungsmanometer zur Druckmessung genutzt?",
+      "choices": [
+        "A: Thermoelektrik",
+        "B: Wärmeausdehnung",
+        "C: Wärmeleitung",
+        "D: Strömungsdynamik"
+      ],
+      "correct_answer": "C",
+      "explanation": "Ein Wärmeleitungsmanometer nutzt den Effekt der Wärmeleitung, um den Druck im Inneren eines Behälters zu messen. Der Unterschied in der Wärmeleitfähigkeit von Gasen bei unterschiedlichen Drücken führt zu einer Änderung der Temperatur, die gemessen werden kann.",
+      "difficulty": 9,
+      "subcategory": "Wärmeleitungsmanometer"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Josephson-Effekt",
+      "question": "Was beschreibt der Josephson-Effekt in supraleitenden Materialien?",
+      "choices": [
+        "A: Elektronentransport ohne Widerstand zwischen zwei supraleitenden Materialien bei einer bestimmten Spannung.",
+        "B: Die Temperaturabhängigkeit der elektrischen Leitfähigkeit in normalen Materialien.",
+        "C: Die Erzeugung von Photonen in einem supraleitenden Material.",
+        "D: Die Wechselwirkung zwischen supraleitenden und nicht-supraleitenden Materialien."
+      ],
+      "correct_answer": "A",
+      "explanation": "Der Josephson-Effekt beschreibt den quantenmechanischen Tunnelprozess zwischen zwei supraleitenden Materialien, der zu einem elektrischen Strom führt, ohne dass ein Widerstand auftritt, solange eine gewisse Spannung anliegt. Dies ist ein zentrales Phänomen in der Festkörperphysik und hat bedeutende Anwendungen in der Messtechnik und Quantencomputern.",
+      "difficulty": 9,
+      "subcategory": "Josephson-Effekt"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Nichtresonante Hadronerzeugung (R‑Verhältnis)",
+      "question": "Was beschreibt das R-Verhältnis in der nichtresonanten Hadronerzeugung?",
+      "choices": [
+        "A: Das Verhältnis der Hadronenproduktion zu anderen Teilchenarten.",
+        "B: Die Energie, die benötigt wird, um Hadronen zu erzeugen.",
+        "C: Die Anzahl der Wechselwirkungen pro Zeiteinheit.",
+        "D: Das Verhältnis von Quark- zu Antiquark-Generierung."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das R-Verhältnis gibt an, wie viele Hadronen im Vergleich zu anderen Teilchen bei einer bestimmten Energie erzeugt werden. Es ist ein wichtiges Maß für die Charakterisierung der Hadronerzeugung in Hochenergieprozessen.",
+      "difficulty": 4,
+      "subcategory": "Nichtresonante Hadronerzeugung (R‑Verhältnis)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Tiefinelastische Neutrinostreuung",
+      "question": "Was beschreibt die tiefinelastische Neutrinostreuung in der Teilchenphysik?",
+      "choices": [
+        "A: Wechselwirkungen zwischen Neutrinos und Photonen.",
+        "B: Streuung von Neutronen an Elektronen.",
+        "C: Wechselwirkungen zwischen Neutrinos und Quarks.",
+        "D: Streuung von Protonen an Neutrinos."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die tiefinelastische Neutrinostreuung beschreibt die Wechselwirkung zwischen Neutrinos und Quarks, die auf die interne Struktur von Nukleonen hinweist. Diese Prozesse sind entscheidend für das Verständnis der starken Wechselwirkung und die Struktur der Materie auf subatomarer Ebene.",
+      "difficulty": 6,
+      "subcategory": "Tiefinelastische Neutrinostreuung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Querkontraktion",
+      "question": "Was beschreibt der Begriff Querkontraktion in der Physik?",
+      "choices": [
+        "A: Die Veränderung der Dichte eines Gases bei Temperaturänderung.",
+        "B: Die Erhöhung des Volumens eines Körpers beim Erwärmen.",
+        "C: Die Ausdehnung eines Materials in Querrichtung bei Zugbelastung.",
+        "D: Die Abnahme der Länge eines Materials bei Druckbelastung."
+      ],
+      "correct_answer": "C",
+      "explanation": "Querkontraktion beschreibt das Phänomen, dass ein Material bei Zugbelastung in der Querrichtung zusammengezogen wird, während es in Längsrichtung gedehnt wird. Dies ist ein wichtiges Konzept in der Materialwissenschaft und der Festigkeitslehre.",
+      "difficulty": 4,
+      "subcategory": "Querkontraktion"
+    }
+  ]
+}
