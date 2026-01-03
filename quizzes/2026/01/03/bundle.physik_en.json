@@ -1,0 +1,168 @@
+{
+  "date": "2026-01-03",
+  "generated_at": "2026-01-03T03:55:47Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Spezielle Operatoren (Zahl-, Hamilton-Operator)",
+      "question": "Which operator is commonly used in quantum mechanics to describe the energy of a system?",
+      "choices": [
+        "A: Position operator",
+        "B: Spin operator",
+        "C: Momentum operator",
+        "D: Hamiltonian operator"
+      ],
+      "correct_answer": "D",
+      "explanation": "The Hamiltonian operator is the central operator in quantum mechanics that describes the total energy of a quantum mechanical system. It plays a crucial role in the Schrödinger equation, which describes the temporal behavior of quantum states.",
+      "difficulty": 6,
+      "subcategory": "Spezielle Operatoren (Zahl-, Hamilton-Operator)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Ehrenfest-Klassifikation",
+      "question": "Which of the following state changes belongs to the Ehrenfest classification of phase transitions?",
+      "choices": [
+        "A: Phase transition of the fourth kind",
+        "B: Phase transition of the third kind",
+        "C: Phase transition of the first kind",
+        "D: Phase transition of the second kind"
+      ],
+      "correct_answer": "C",
+      "explanation": "The Ehrenfest classification distinguishes between first and second-order phase transitions. A first-order phase transition is characterized by a sudden change in enthalpy, while in second-order transitions, enthalpy remains continuous.",
+      "difficulty": 3,
+      "subcategory": "Ehrenfest-Klassifikation"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Kernspaltung",
+      "question": "What is the main product of the fission of Uranium-235?",
+      "choices": [
+        "A: Alpha particles",
+        "B: Protons",
+        "C: Electrons",
+        "D: Neutrons"
+      ],
+      "correct_answer": "D",
+      "explanation": "In the fission of Uranium-235, neutrons are released, which can cause further fissions. This is the mechanism used in both nuclear power plants and nuclear weapons to create a chain reaction.",
+      "difficulty": 7,
+      "subcategory": "Kernspaltung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Diamagnetismus (atomar)",
+      "question": "What does diamagnetism describe at the atomic level?",
+      "choices": [
+        "A: The ability of materials to enhance magnetic field lines.",
+        "B: The tendency of materials to oppose an external magnetic field.",
+        "C: The generation of permanent magnetic fields by electron movement.",
+        "D: The attraction of materials by an external magnetic field."
+      ],
+      "correct_answer": "B",
+      "explanation": "Diamagnetism occurs when materials resist the influence of an external magnetic field and are weakly repelled. This happens because electron movements in atoms are influenced by the magnetic field, creating an opposite magnetization.",
+      "difficulty": 5,
+      "subcategory": "Diamagnetismus (atomar)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Sommerfeld’sche Polynommethode",
+      "question": "What does the Sommerfeld polynomial method describe in quantum mechanics?",
+      "choices": [
+        "A: The analysis of the motion of bodies under the influence of forces.",
+        "B: The calculation of the temperature of an ideal gas.",
+        "C: The solution of the hydrogen atom using spherical harmonics.",
+        "D: The calculation of the energy of a harmonic oscillator."
+      ],
+      "correct_answer": "C",
+      "explanation": "The Sommerfeld polynomial method is a technique for solving the hydrogen atom based on spherical harmonics. This method extends the classical solution by considering quantum mechanical effects and allows for the precise calculation of the system's energy levels.",
+      "difficulty": 5,
+      "subcategory": "Sommerfeld’sche Polynommethode"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Das Deuteron",
+      "question": "Which of the following particles is a component of the Deuteron?",
+      "choices": [
+        "A: One proton and one neutron",
+        "B: One proton and one electron",
+        "C: Two neutrons",
+        "D: Two protons"
+      ],
+      "correct_answer": "A",
+      "explanation": "The Deuteron consists of a proton and a neutron, making it a stable isotope of hydrogen. Unlike normal hydrogen, which has only one proton, deuterium has an additional neutron. These properties make the Deuteron particularly interesting in nuclear physics.",
+      "difficulty": 5,
+      "subcategory": "Das Deuteron"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Strahlungsphysikalische Größen",
+      "question": "Which of the following quantities best describes the intensity of an electromagnetic radiation?",
+      "choices": [
+        "A: Wavelengths",
+        "B: Radiant flux",
+        "C: Energy",
+        "D: Frequency"
+      ],
+      "correct_answer": "B",
+      "explanation": "Radiant flux indicates how much energy flows through an area per unit time and is therefore a measure of radiation intensity. Frequency and wavelength are important properties of radiation, but do not directly describe intensity.",
+      "difficulty": 6,
+      "subcategory": "Strahlungsphysikalische Größen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Addition von Drehimpulsen: Gesamtdrehimpuls",
+      "question": "What is the total angular momentum of a system consisting of two particles with angular momenta J1 and J2?",
+      "choices": [
+        "A: J = J1 / J2",
+        "B: J = J1 * J2",
+        "C: J = J1 - J2",
+        "D: J = J1 + J2"
+      ],
+      "correct_answer": "D",
+      "explanation": "The total angular momentum of a system is determined by the vector sum of the individual angular momenta. Therefore, the correct formula is J = J1 + J2 for the addition of angular momenta.",
+      "difficulty": 4,
+      "subcategory": "Addition von Drehimpulsen: Gesamtdrehimpuls"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Bindungsenergie (Definition & Skalen)",
+      "question": "What is meant by the binding energy of a solid?",
+      "choices": [
+        "A: The energy required to conduct an electric current through a solid.",
+        "B: The energy required to completely separate the atoms of a solid.",
+        "C: The energy released during the formation of a solid.",
+        "D: The energy required to melt a solid."
+      ],
+      "correct_answer": "B",
+      "explanation": "The binding energy of a solid refers to the energy required to separate the atoms or molecules in the solid. It is a measure of the stability of the solid; the higher the binding energy, the more stable the substance. This energy is crucial for understanding material properties and their applications.",
+      "difficulty": 6,
+      "subcategory": "Bindungsenergie (Definition & Skalen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Hamilton’sches Prinzip (Prinzip der stationären Wirkung)",
+      "question": "What does Hamilton's principle state in analytical mechanics?",
+      "choices": [
+        "A: The path a system takes minimizes the action.",
+        "B: The velocity of a system is independent of time.",
+        "C: The energy of a system always remains constant.",
+        "D: The momentum of a system is always zero."
+      ],
+      "correct_answer": "A",
+      "explanation": "Hamilton's principle, also known as the principle of stationary action, states that the physical paths of a system minimize the action. This means that the actual path a system takes between two states keeps the value of the action at its lowest.",
+      "difficulty": 5,
+      "subcategory": "Hamilton’sches Prinzip (Prinzip der stationären Wirkung)"
+    }
+  ]
+}
