@@ -1,0 +1,168 @@
+{
+  "date": "2026-01-04",
+  "generated_at": "2026-01-04T04:11:20Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Virialentwicklung & 2. Virialkoeffizient (klass./quant.)",
+      "question": "Which of the following statements describes the relationship between the 2nd virial coefficient and the attractive forces between particles in a gas?",
+      "choices": [
+        "A: A negative 2nd virial coefficient indicates attractive forces between the particles.",
+        "B: A 2nd virial coefficient of zero means that the particles exhibit ideal gas behavior.",
+        "C: A positive 2nd virial coefficient indicates repulsive forces between the particles.",
+        "D: A negative 2nd virial coefficient indicates that the particles have no interactions."
+      ],
+      "correct_answer": "A",
+      "explanation": "The 2nd virial coefficient describes how interactions between particles influence the behavior of a gas. A negative value indicates attractive forces, leading to higher pressure at a given temperature, while positive values indicate repulsive forces.",
+      "difficulty": 7,
+      "subcategory": "Virialentwicklung & 2. Virialkoeffizient (klass./quant.)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Wechselwirkungsdarstellung (Dirac-Bild)",
+      "question": "Which of the following statements best describes the interaction representation (Dirac picture) in quantum mechanics?",
+      "choices": [
+        "A: In the Dirac picture, both the states and the operators are time-dependent.",
+        "B: In the Dirac picture, both the states and the operators are time-independent.",
+        "C: In the Dirac picture, the states are kept constant and only the measured quantities are adjusted.",
+        "D: In the Dirac picture, the states are time-dependent and the operators are time-independent."
+      ],
+      "correct_answer": "D",
+      "explanation": "In the Dirac picture of quantum mechanics, the states are time-dependent while the operators representing observable quantities remain time-independent. This representation is particularly useful for analyzing interactions between different quantum objects.",
+      "difficulty": 4,
+      "subcategory": "Wechselwirkungsdarstellung (Dirac-Bild)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Thermodynamische Größen aus dem kanonischen Ensemble",
+      "question": "Which thermodynamic quantity is defined as a measure of the temperature of a system in the canonical ensemble?",
+      "choices": [
+        "A: The pressure",
+        "B: The entropy",
+        "C: The energy",
+        "D: The temperature parameter β = 1/(k_B T)"
+      ],
+      "correct_answer": "D",
+      "explanation": "In the canonical ensemble, the temperature of a system is defined by the temperature parameter β = 1/(k_B T), where k_B is the Boltzmann constant. This relationship shows how the thermodynamic properties are linked to temperature.",
+      "difficulty": 7,
+      "subcategory": "Thermodynamische Größen aus dem kanonischen Ensemble"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Kanonische Transformationen (Motivation)",
+      "question": "What is the main goal of a canonical transformation in analytical mechanics?",
+      "choices": [
+        "A: To demonstrate the conservation of energy of a system.",
+        "B: To calculate the gravitational force between two objects.",
+        "C: To determine the mass of a body.",
+        "D: To simplify the equations of motion into a more straightforward form."
+      ],
+      "correct_answer": "D",
+      "explanation": "Canonical transformations aim to simplify the form of the Hamiltonian equations, often leading to problems that are easier to solve. They allow for the transformation of the dynamic variables into a new basis, facilitating the understanding of physical systems.",
+      "difficulty": 3,
+      "subcategory": "Kanonische Transformationen (Motivation)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Kritische Exponenten",
+      "question": "What does the critical exponent β describe in thermodynamics?",
+      "choices": [
+        "A: The relationship between specific heat and temperature.",
+        "B: The temperature dependence of magnetization.",
+        "C: The divergence of specific heat at a phase transition.",
+        "D: The change in volume at constant pressure."
+      ],
+      "correct_answer": "C",
+      "explanation": "The critical exponent β describes how the specific heat diverges at a phase transition. It is a measure of how sensitive the system is to temperature changes, especially near the critical point.",
+      "difficulty": 6,
+      "subcategory": "Kritische Exponenten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Elektromagnetische Potentiale (Vierervektor)",
+      "question": "What does the electromagnetic four-vector describe in relativity theory?",
+      "choices": [
+        "A: The interaction between light and matter in classical physics.",
+        "B: The gravitational force between two relativistic particles.",
+        "C: The time dilation of a moving object in an electromagnetic field.",
+        "D: The relationship between electric and magnetic fields in different inertial systems."
+      ],
+      "correct_answer": "D",
+      "explanation": "The electromagnetic four-vector combines electric and magnetic fields in a relativistic formulation. It describes how these fields behave under Lorentz transformations, which is crucial for relativity theory.",
+      "difficulty": 7,
+      "subcategory": "Elektromagnetische Potentiale (Vierervektor)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Biot–Savart-Gesetz",
+      "question": "What does the Biot-Savart law describe in electrodynamics?",
+      "choices": [
+        "A: The motion of electric charges in an electric field.",
+        "B: The conservation of energy in electrical circuits.",
+        "C: The interaction of light and matter.",
+        "D: The relationship between an electric current and the generated magnetic field."
+      ],
+      "correct_answer": "D",
+      "explanation": "The Biot-Savart law describes how an electric current generates a magnetic field. It is a fundamental relationship in electrodynamics, showing that the magnetic field at a point is determined by the current and its spatial arrangement.",
+      "difficulty": 2,
+      "subcategory": "Biot–Savart-Gesetz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Reibung: Gleitreibung",
+      "question": "What does the coefficient of sliding friction describe?",
+      "choices": [
+        "A: The maximum force required before sliding occurs.",
+        "B: The velocity of a body during sliding.",
+        "C: The ratio of applied force to normal force.",
+        "D: The temperature dependence of friction."
+      ],
+      "correct_answer": "C",
+      "explanation": "The coefficient of sliding friction is a measure of the frictional force acting between two sliding surfaces, relative to the normal force acting on the surfaces. A higher coefficient means more friction and thus more resistance to sliding.",
+      "difficulty": 5,
+      "subcategory": "Reibung: Gleitreibung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Fermat’sches Prinzip (Optik-Bezug)",
+      "question": "What does Fermat's principle state in optics?",
+      "choices": [
+        "A: Light propagates faster in a vacuum than in a medium.",
+        "B: Light follows the path of shortest time.",
+        "C: Light always moves in a straight line.",
+        "D: Light cannot be reflected."
+      ],
+      "correct_answer": "B",
+      "explanation": "Fermat's principle states that light chooses the path that takes the shortest time to travel from one point to another. This explains phenomena like refraction and reflection in optics.",
+      "difficulty": 5,
+      "subcategory": "Fermat’sches Prinzip (Optik-Bezug)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Kopplungsstärke des geladenen Stroms (G_F)",
+      "question": "What does the coupling strength of the charged current (G_F) describe in particle physics?",
+      "choices": [
+        "A: The speed of light",
+        "B: The mass of a particle",
+        "C: The temperature of a system",
+        "D: The probability of interaction between particles"
+      ],
+      "correct_answer": "D",
+      "explanation": "The coupling strength G_F in particle physics describes the probability of interactions between charged particles. It is an important parameter in weak interactions and influences various processes in particle physics.",
+      "difficulty": 2,
+      "subcategory": "Kopplungsstärke des geladenen Stroms (G_F)"
+    }
+  ]
+}

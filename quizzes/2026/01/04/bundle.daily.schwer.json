@@ -1,0 +1,105 @@
+{
+  "date": "2026-01-04",
+  "generated_at": "2026-01-04T04:09:55Z",
+  "schema_version": 6,
+  "mode": "schwer",
+  "bundle_type": "daily",
+  "questions": [
+    {
+      "category": "Wissenschaft",
+      "topic": "Chemie",
+      "question": "Welche der folgenden Methoden ist am besten geeignet, um die Reinheit eines chemischen Stoffes quantitativ zu bestimmen?",
+      "choices": [
+        "A: Chromatographie",
+        "B: Titration",
+        "C: Spektroskopie",
+        "D: Mikroskopie"
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Titration ist eine analytische Methode, die es ermöglicht, die Konzentration einer gelösten Substanz durch die Reaktion mit einer Reagenzlösung zu bestimmen. Sie ist besonders nützlich zur quantitativen Bestimmung der Reinheit eines Stoffes. Chromatographie hingegen ist oft für qualitative Analysen besser geeignet, während Mikroskopie und Spektroskopie zwar Informationen über die Struktur und Eigenschaften liefern, jedoch nicht primär zur Reinheitsbestimmung verwendet werden.",
+      "difficulty": 8
+    },
+    {
+      "category": "Natur",
+      "topic": "Pflanzenwelt",
+      "question": "Welche Rolle spielen Mykorrhizapilze in einem Ökosystem?",
+      "choices": [
+        "A: Sie sind ausschließlich für die Zersetzung von totem organischem Material verantwortlich.",
+        "B: Sie konkurrieren mit Pflanzen um Nährstoffe im Boden.",
+        "C: Sie produzieren Sauerstoff durch Photosynthese.",
+        "D: Sie fördern die Nährstoffaufnahme von Pflanzen durch Symbiose."
+      ],
+      "correct_answer": "D",
+      "explanation": "Mykorrhizapilze bilden eine symbiotische Beziehung mit Pflanzenwurzeln, die deren Nährstoffaufnahme, insbesondere von Phosphor, verbessern. Dies ist entscheidend für das Wachstum der Pflanzen und die Gesundheit des gesamten Ökosystems.",
+      "difficulty": 7
+    },
+    {
+      "category": "Technologie",
+      "topic": "Computer & Internet",
+      "question": "Welches Teil eines Computers wird oft als 'Gehirn' bezeichnet?",
+      "choices": [
+        "A: Grafikkarte",
+        "B: RAM",
+        "C: Motherboard",
+        "D: Prozessor"
+      ],
+      "correct_answer": "D",
+      "explanation": "Der Prozessor, auch CPU genannt, ist das zentrale Rechen- und Steuerwerk eines Computers, das alle Berechnungen und Operationen durchführt. Er ist entscheidend für die Leistung und Geschwindigkeit des Systems.",
+      "difficulty": 5
+    },
+    {
+      "category": "Politiker",
+      "discipline": "Sitze (International)",
+      "question": "In welcher Stadt befindet sich der Hauptsitz der Welthandelsorganisation (WTO)?",
+      "choices": [
+        "A: Genf (Centre William Rappard, Schweiz)",
+        "B: Luxemburg (Luxemburg)",
+        "C: Brüssel (Belgien)",
+        "D: New York City (USA)"
+      ],
+      "correct_answer": "A",
+      "explanation": "Internationale Organisationen haben fest definierte Hauptsitze; die Alternativen sind Sitze anderer Organisationen.",
+      "difficulty": 1
+    },
+    {
+      "category": "Essen und Trinken",
+      "topic": "Ernährung",
+      "question": "Welches dieser Prinzipien ist ein grundlegender Aspekt des HACCP-Systems zur Gewährleistung der Lebensmittelsicherheit?",
+      "choices": [
+        "A: Einhaltung von Portionsgrößen",
+        "B: Verwendung von Bio-Zutaten",
+        "C: Identifizierung und Bewertung von Gefahren",
+        "D: Maximierung der Lebensmittelhaltbarkeit"
+      ],
+      "correct_answer": "C",
+      "explanation": "Das HACCP-System (Hazard Analysis and Critical Control Points) fokussiert sich auf die Identifizierung und Bewertung von Gefahren, die in der Lebensmittelproduktion auftreten können. Ziel ist es, kritische Kontrollpunkte zu bestimmen, um die Sicherheit der Lebensmittel zu gewährleisten.",
+      "difficulty": 7
+    },
+    {
+      "question": "Was ist eine empfohlene Schlafdauer für Erwachsene, um eine optimale Gesundheit zu fördern?",
+      "category": "Alltag & Gesellschaft",
+      "subcategory": "Schlaf & Schlafhygiene",
+      "difficulty": 6,
+      "choices": [
+        "A: 4-5 Stunden",
+        "B: 10-12 Stunden",
+        "C: 6-7 Stunden",
+        "D: 7-9 Stunden"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "question": "Was beschreibt den DAX?",
+      "category": "Wirtschaft & Finanzen",
+      "subcategory": "Aktien & Börsengrundlagen",
+      "difficulty": 6,
+      "choices": [
+        "A: Den Index der 50 größten mittelständischen Unternehmen in Deutschland",
+        "B: Den Index der 30 größten Unternehmen in Deutschland",
+        "C: Den Index der 40 größten Unternehmen in Europa",
+        "D: Den Index der 25 größten Unternehmen im Technologiesektor"
+      ],
+      "correct_answer": "B"
+    }
+  ]
+}

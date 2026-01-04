@@ -1,0 +1,169 @@
+{
+  "date": "2026-01-04",
+  "generated_at": "2026-01-04T04:10:50Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Virialentwicklung & 2. Virialkoeffizient (klass./quant.)",
+      "question": "Welcher der folgenden Aussagen beschreibt den Zusammenhang zwischen dem 2. Virialkoeffizienten und der Anziehungskräfte zwischen Partikeln in einem Gas?",
+      "choices": [
+        "A: Ein negativer 2. Virialkoeffizient weist auf anziehende Kräfte zwischen den Partikeln hin.",
+        "B: Ein 2. Virialkoeffizient von null bedeutet, dass die Partikel sich in einem idealen Gasverhalten befinden.",
+        "C: Ein positiver 2. Virialkoeffizient deutet auf abstoßende Kräfte zwischen den Partikeln hin.",
+        "D: Ein negativer 2. Virialkoeffizient zeigt an, dass die Partikel keine Wechselwirkungen aufweisen."
+      ],
+      "correct_answer": "A",
+      "explanation": "Der 2. Virialkoeffizient beschreibt, wie Wechselwirkungen zwischen Partikeln das Verhalten eines Gases beeinflussen. Ein negativer Wert deutet auf anziehende Kräfte hin, was zu einem höheren Druck bei gegebener Temperatur führt, während positive Werte auf abstoßende Kräfte hinweisen.",
+      "difficulty": 7,
+      "subcategory": "Virialentwicklung & 2. Virialkoeffizient (klass./quant.)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Wechselwirkungsdarstellung (Dirac-Bild)",
+      "question": "Welche der folgenden Aussagen beschreibt am besten die Wechselwirkungsdarstellung (Dirac-Bild) in der Quantenmechanik?",
+      "choices": [
+        "A: Im Dirac-Bild sind die Zustände und die Operatoren beide zeitabhängig.",
+        "B: Im Dirac-Bild sind sowohl die Zustände als auch die Operatoren zeitunabhängig.",
+        "C: Im Dirac-Bild werden die Zustände konstant gehalten und nur die Messgrößen angepasst.",
+        "D: Im Dirac-Bild werden die Zustände zeitabhängig und die Operatoren zeitunabhängig."
+      ],
+      "correct_answer": "D",
+      "explanation": "Im Dirac-Bild der Quantenmechanik sind die Zustände zeitabhängig, während die Operatoren, die die beobachtbaren Größen repräsentieren, zeitunabhängig bleiben. Diese Darstellung ist besonders nützlich, um die Wechselwirkungen zwischen verschiedenen Quantenobjekten zu analysieren.",
+      "difficulty": 4,
+      "subcategory": "Wechselwirkungsdarstellung (Dirac-Bild)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Thermodynamische Größen aus dem kanonischen Ensemble",
+      "question": "Welche thermodynamische Größe wird im kanonischen Ensemble als Maß für die Temperatur eines Systems definiert?",
+      "choices": [
+        "A: Der Druck",
+        "B: Die Entropie",
+        "C: Die Energie",
+        "D: Der Temperaturparameter β = 1/(k_B T)"
+      ],
+      "correct_answer": "D",
+      "explanation": "Im kanonischen Ensemble wird die Temperatur eines Systems durch den Temperaturparameter β = 1/(k_B T) definiert, wobei k_B die Boltzmann-Konstante ist. Diese Beziehung zeigt, wie die thermodynamischen Eigenschaften mit der Temperatur verknüpft sind.",
+      "difficulty": 7,
+      "subcategory": "Thermodynamische Größen aus dem kanonischen Ensemble"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Kanonische Transformationen (Motivation)",
+      "question": "Was ist das Hauptziel einer kanonischen Transformation in der analytischen Mechanik?",
+      "choices": [
+        "A: Die Erhaltung der Energie eines Systems zu demonstrieren.",
+        "B: Die Gravitationskraft zwischen zwei Objekten zu berechnen.",
+        "C: Die Masse eines Körpers zu bestimmen.",
+        "D: Die Gleichungen der Bewegung in eine einfachere Form zu bringen."
+      ],
+      "correct_answer": "D",
+      "explanation": "Kanonische Transformationen zielen darauf ab, die Form der Hamiltonschen Gleichungen zu vereinfachen, was oft zu leichter zu lösenden Problemen führt. Sie ermöglichen es, die dynamischen Variablen in eine neue Basis zu transformieren, die das Verständnis der physikalischen Systeme erleichtert.",
+      "difficulty": 3,
+      "subcategory": "Kanonische Transformationen (Motivation)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Kritische Exponenten",
+      "question": "Was beschreibt der kritische Exponent β in der Thermodynamik?",
+      "choices": [
+        "A: Die Beziehung zwischen der spezifischen Wärme und der Temperatur.",
+        "B: Die Temperaturabhängigkeit der Magnetisierung.",
+        "C: Die Divergenz der spezifischen Wärme an einem Phasenübergang.",
+        "D: Die Änderung des Volumens bei konstantem Druck."
+      ],
+      "correct_answer": "C",
+      "explanation": "Der kritische Exponent β beschreibt, wie die spezifische Wärme an einem Phasenübergang divergiert. Er ist ein Maß dafür, wie empfindlich das System auf Temperaturänderungen reagiert, insbesondere in der Nähe des kritischen Punkts.",
+      "difficulty": 6,
+      "subcategory": "Kritische Exponenten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Elektromagnetische Potentiale (Vierervektor)",
+      "question": "Was beschreibt der elektromagnetische Vierervektor in der Relativitätstheorie?",
+      "choices": [
+        "A: Die Wechselwirkung zwischen Licht und Materie in der klassischen Physik.",
+        "B: Die Gravitationskraft zwischen zwei relativistischen Teilchen.",
+        "C: Die Zeitdilatation eines sich bewegenden Objekts in einem elektromagnetischen Feld.",
+        "D: Die Beziehung zwischen elektrischen und magnetischen Feldern in verschiedenen Inertialsystemen."
+      ],
+      "correct_answer": "D",
+      "explanation": "Der elektromagnetische Vierervektor vereint elektrische und magnetische Felder in einer relativistischen Formulierung. Er ermöglicht die Beschreibung, wie sich diese Felder unter Lorentz-Transformationen verhalten, was entscheidend für die Relativitätstheorie ist.",
+      "difficulty": 7,
+      "subcategory": "Elektromagnetische Potentiale (Vierervektor)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Biot–Savart-Gesetz",
+      "question": "Was beschreibt das Biot–Savart-Gesetz in der Elektrodynamik?",
+      "choices": [
+        "A: Die Bewegung von elektrischen Ladungen in einem elektrischen Feld.",
+        "B: Die Energieerhaltung in elektrischen Schaltungen.",
+        "C: Die Wechselwirkung von Licht und Materie.",
+        "D: Die Beziehung zwischen einem elektrischen Strom und dem erzeugten Magnetfeld."
+      ],
+      "correct_answer": "D",
+      "explanation": "Das Biot–Savart-Gesetz beschreibt, wie ein elektrischer Strom ein Magnetfeld erzeugt. Es ist eine fundamentale Beziehung in der Elektrodynamik, die zeigt, dass das Magnetfeld in einem Punkt durch den Strom und seine räumliche Anordnung bestimmt wird.",
+      "difficulty": 2,
+      "subcategory": "Biot–Savart-Gesetz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Reibung: Gleitreibung",
+      "question": "Was beschreibt der Koeffizient der Gleitreibung?",
+      "choices": [
+        "A: Die maximale Kraft, die vor dem Gleiten benötigt wird.",
+        "B: Die Geschwindigkeit eines Körpers beim Gleiten.",
+        "C: Das Verhältnis der aufgebrachten Kraft zur Normalkraft.",
+        "D: Die Temperaturabhängigkeit der Reibung."
+      ],
+      "correct_answer": "C",
+      "explanation": "Der Koeffizient der Gleitreibung ist ein Maß für die Reibungskraft, die zwischen zwei gleitenden Oberflächen wirkt, im Verhältnis zur Normalkraft, die auf die Oberflächen wirkt. Ein höherer Koeffizient bedeutet mehr Reibung und damit mehr Widerstand gegen das Gleiten.",
+      "difficulty": 5,
+      "subcategory": "Reibung: Gleitreibung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Fermat’sches Prinzip (Optik-Bezug)",
+      "question": "Was besagt das Fermat’sche Prinzip in der Optik?",
+      "choices": [
+        "A: Licht breitet sich in einem Vakuum schneller aus als in einem Medium.",
+        "B: Licht folgt dem Weg der kürzesten Zeit.",
+        "C: Licht bewegt sich immer geradeaus.",
+        "D: Licht kann nicht reflektiert werden."
+      ],
+      "correct_answer": "B",
+      "explanation": "Das Fermat’sche Prinzip besagt, dass Licht den Pfad wählt, der die kürzeste Zeit benötigt, um von einem Punkt zum anderen zu gelangen. Dies erklärt Phänomene wie Brechung und Reflexion in der Optik.",
+      "difficulty": 5,
+      "subcategory": "Fermat’sches Prinzip (Optik-Bezug)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Kopplungsstärke des geladenen Stroms (G_F)",
+      "question": "Was beschreibt die Kopplungsstärke des geladenen Stroms (G_F) in der Teilchenphysik?",
+      "choices": [
+        "A: Die Geschwindigkeit von Licht",
+        "B: Die Masse eines Teilchens",
+        "C: Die Temperatur eines Systems",
+        "D: Die Wahrscheinlichkeit einer Wechselwirkung zwischen Teilchen"
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Kopplungsstärke G_F beschreibt in der Teilchenphysik die Wahrscheinlichkeit, mit der Wechselwirkungen zwischen geladenen Teilchen stattfinden. Sie ist ein wichtiger Parameter in der schwachen Wechselwirkung und hat Einfluss auf verschiedene Prozesse in der Teilchenphysik.",
+      "difficulty": 2,
+      "subcategory": "Kopplungsstärke des geladenen Stroms (G_F)"
+    }
+  ]
+}
