@@ -1,0 +1,168 @@
+{
+  "date": "2026-01-05",
+  "generated_at": "2026-01-05T04:17:03Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Coulomb-Potential (Wasserstoffatom): Energiespektrum",
+      "question": "What describes the energy spectrum of the hydrogen atom in the Coulomb potential?",
+      "choices": [
+        "A: All energy levels are evenly distributed.",
+        "B: There are continuous energy levels for all electrons.",
+        "C: Only discrete energy levels are present.",
+        "D: Energy is independent of the principal quantum number."
+      ],
+      "correct_answer": "C",
+      "explanation": "In the Coulomb potential of the hydrogen atom, electrons can only occupy discrete energy levels defined by the principal quantum number n. This quantization leads to characteristic spectral lines emitted or absorbed during transitions between levels.",
+      "difficulty": 5,
+      "subcategory": "Coulomb-Potential (Wasserstoffatom): Energiespektrum"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Wirkungs- und Winkelvariable (Action-Angle)",
+      "question": "Which of the following axioms is not directly related to the construction of action-angle variables in an integrable Hamiltonian system?",
+      "choices": [
+        "A: Conservation of energy is a necessary condition.",
+        "B: The number of action variables corresponds to the number of degrees of freedom of the system.",
+        "C: The phase space is always bounded for periodic systems.",
+        "D: The time evolution of the angle variables is linear in time."
+      ],
+      "correct_answer": "C",
+      "explanation": "The statement about the phase space is misleading, as not all periodic systems need to have a bounded phase space, especially in many body problems. The other statements are directly linked to the properties of action-angle variables in integrable systems.",
+      "difficulty": 10,
+      "subcategory": "Wirkungs- und Winkelvariable (Action-Angle)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Zustandsgleichungen (Überblick)",
+      "question": "Which of the following equations describes the behavior of an ideal gas?",
+      "choices": [
+        "A: W = Fd",
+        "B: PV = nRT",
+        "C: F = ma",
+        "D: E = mc²"
+      ],
+      "correct_answer": "B",
+      "explanation": "The equation of state PV = nRT describes the behavior of ideal gases, where P is pressure, V is volume, n is the amount of substance, R is the universal gas constant, and T is temperature. The other options refer to different physical concepts.",
+      "difficulty": 2,
+      "subcategory": "Zustandsgleichungen (Überblick)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Reelle W‑ und Z‑Bosonen",
+      "question": "Which of the following bosons is responsible for mediating the weak interaction and has a massive nature?",
+      "choices": [
+        "A: W-boson",
+        "B: Gluon",
+        "C: Graviton",
+        "D: Photon"
+      ],
+      "correct_answer": "A",
+      "explanation": "The W-boson mediates the weak interaction and has mass, while the photon is massless. Gluons are responsible for the strong interaction, and the graviton is a hypothetical particle that mediates gravity.",
+      "difficulty": 10,
+      "subcategory": "Reelle W‑ und Z‑Bosonen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Phononen in Festkörpern: harmonischer Hamilton-Operator",
+      "question": "What does the harmonic Hamiltonian operator describe in relation to phonons in solids?",
+      "choices": [
+        "A: The kinetic and potential energy of phonons.",
+        "B: Only the kinetic energy of phonons.",
+        "C: Interactions between electrons in a solid.",
+        "D: Only the potential energy of phonons."
+      ],
+      "correct_answer": "A",
+      "explanation": "The harmonic Hamiltonian operator for phonons encompasses both the kinetic and potential energy of the atomic vibrations in the crystal lattice. These forms of energy are crucial for understanding the thermal properties of solids.",
+      "difficulty": 5,
+      "subcategory": "Phononen in Festkörpern: harmonischer Hamilton-Operator"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Das Auge (Optik)",
+      "question": "What is the main purpose of the lens in the human eye?",
+      "choices": [
+        "A: It amplifies light intensity.",
+        "B: It focuses light onto the retina.",
+        "C: It filters colors from the light.",
+        "D: It creates an image on the cornea."
+      ],
+      "correct_answer": "B",
+      "explanation": "The lens of the human eye is responsible for focusing incoming light so that it is projected onto the retina. This allows the brain to create sharp images and process visual information.",
+      "difficulty": 5,
+      "subcategory": "Das Auge (Optik)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Gaußsche Bündel & abbildende Elemente",
+      "question": "What does the Gaussian beam describe in optics?",
+      "choices": [
+        "A: A light beam that generates parallel beam paths.",
+        "B: A light beam that diverges after refraction.",
+        "C: A light beam with constant diameter.",
+        "D: A light beam focused by a lens."
+      ],
+      "correct_answer": "D",
+      "explanation": "The Gaussian beam describes the properties of a light beam that is focused by imaging elements such as lenses. It takes into account the divergence and convergence of light rays in optical systems.",
+      "difficulty": 5,
+      "subcategory": "Gaußsche Bündel & abbildende Elemente"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Feynman‑Diagramme (Streuprozesse)",
+      "question": "What does a Feynman diagram represent in particle physics?",
+      "choices": [
+        "A: Interactions between particles.",
+        "B: Motion of planets in the solar system.",
+        "C: Structure of atomic nuclei.",
+        "D: Properties of light waves."
+      ],
+      "correct_answer": "A",
+      "explanation": "Feynman diagrams are a graphical representation of interactions between subatomic particles. They allow physicists to visually represent and calculate complex scattering processes.",
+      "difficulty": 6,
+      "subcategory": "Feynman‑Diagramme (Streuprozesse)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Einkristallherstellung (z. B. Czochralski)",
+      "question": "Which of the following methods is primarily used for producing single crystals in the semiconductor industry?",
+      "choices": [
+        "A: Sol-gel process",
+        "B: Czochralski method",
+        "C: Zone melting process",
+        "D: Bridgman method"
+      ],
+      "correct_answer": "B",
+      "explanation": "The Czochralski method is a widely used technique for producing single crystals, especially in the semiconductor industry. It enables the controlled crystallization of materials from the melt and is crucial for producing highly pure and homogeneous crystals.",
+      "difficulty": 7,
+      "subcategory": "Einkristallherstellung (z. B. Czochralski)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Phasenintegralquantisierung",
+      "question": "What does the phase integral describe in quantum mechanics?",
+      "choices": [
+        "A: The relationship between time and space in relativity theory.",
+        "B: The motion of a particle in a classical field.",
+        "C: The quantization of the energy states of a system.",
+        "D: The statics of bodies at rest."
+      ],
+      "correct_answer": "C",
+      "explanation": "The phase integral is a central concept in quantum mechanics that describes the quantization of the energy states of a system. It is closely related to the concept of the wave function and transitions between different states.",
+      "difficulty": 4,
+      "subcategory": "Phasenintegralquantisierung"
+    }
+  ]
+}

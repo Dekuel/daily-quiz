@@ -1,0 +1,169 @@
+{
+  "date": "2026-01-05",
+  "generated_at": "2026-01-05T04:16:30Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Coulomb-Potential (Wasserstoffatom): Energiespektrum",
+      "question": "Was beschreibt das Energiespektrum des Wasserstoffatoms im Coulomb-Potential?",
+      "choices": [
+        "A: Alle Energieniveaus sind gleichmäßig verteilt.",
+        "B: Es gibt kontinuierliche Energieniveaus für alle Elektronen.",
+        "C: Es sind nur diskrete Energieniveaus vorhanden.",
+        "D: Die Energie ist unabhängig von der Hauptquantenzahl."
+      ],
+      "correct_answer": "C",
+      "explanation": "Im Coulomb-Potential des Wasserstoffatoms können Elektronen nur diskrete Energieniveaus einnehmen, die durch die Hauptquantenzahl n definiert sind. Diese Quantisierung führt zu charakteristischen Spektrallinien, die beim Übergang zwischen den Niveaus emittiert oder absorbiert werden.",
+      "difficulty": 5,
+      "subcategory": "Coulomb-Potential (Wasserstoffatom): Energiespektrum"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Wirkungs- und Winkelvariable (Action-Angle)",
+      "question": "Welches der folgenden Axiome ist nicht direkt mit der Konstruktion der Action-Angle-Variablen in einem integrablen Hamiltonschen System verbunden?",
+      "choices": [
+        "A: Die Erhaltung der Energie ist eine notwendige Bedingung.",
+        "B: Die Anzahl der Action-Variablen entspricht der Anzahl der Freiheitsgrade des Systems.",
+        "C: Der Phasenraum ist immer beschränkt für periodische Systeme.",
+        "D: Die Zeitentwicklung der Winkelvariablen ist linear in der Zeit."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Aussage über den Phasenraum ist irreführend, da nicht alle periodischen Systeme einen beschränkten Phasenraum aufweisen müssen, insbesondere in vielen Körperproblemen. Die anderen Aussagen sind direkt mit den Eigenschaften von Action-Angle-Variablen in integrablen Systemen verknüpft.",
+      "difficulty": 10,
+      "subcategory": "Wirkungs- und Winkelvariable (Action-Angle)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Zustandsgleichungen (Überblick)",
+      "question": "Welche der folgenden Zustandsgleichungen beschreibt das Verhalten eines idealen Gases?",
+      "choices": [
+        "A: W = Fd",
+        "B: PV = nRT",
+        "C: F = ma",
+        "D: E = mc²"
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Zustandsgleichung PV = nRT beschreibt das Verhalten idealer Gase, wobei P der Druck, V das Volumen, n die Stoffmenge, R die allgemeine Gaskonstante und T die Temperatur ist. Die anderen Optionen beziehen sich auf unterschiedliche physikalische Konzepte.",
+      "difficulty": 2,
+      "subcategory": "Zustandsgleichungen (Überblick)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Reelle W‑ und Z‑Bosonen",
+      "question": "Welches der folgenden Bosonen ist verantwortlich für die Vermittlung der schwachen Wechselwirkung und hat eine massive Natur?",
+      "choices": [
+        "A: W-Boson",
+        "B: Gluon",
+        "C: Graviton",
+        "D: Photon"
+      ],
+      "correct_answer": "A",
+      "explanation": "Das W-Boson vermittelt die schwache Wechselwirkung und trägt eine Masse, während das Photon masselos ist. Gluonen sind für die starke Wechselwirkung verantwortlich, und das Graviton ist ein hypothetisches Teilchen, das die Gravitation vermittelt.",
+      "difficulty": 10,
+      "subcategory": "Reelle W‑ und Z‑Bosonen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Phononen in Festkörpern: harmonischer Hamilton-Operator",
+      "question": "Was beschreibt der harmonische Hamilton-Operator in Bezug auf Phononen in Festkörpern?",
+      "choices": [
+        "A: Die kinetische und potenzielle Energie der Phononen.",
+        "B: Nur die kinetische Energie der Phononen.",
+        "C: Die Wechselwirkungen zwischen Elektronen in einem Festkörper.",
+        "D: Nur die potenzielle Energie der Phononen."
+      ],
+      "correct_answer": "A",
+      "explanation": "Der harmonische Hamilton-Operator für Phononen umfasst sowohl die kinetische als auch die potenzielle Energie der Schwingungen der Atome im Kristallgitter. Diese Energieformen sind entscheidend für das Verständnis der thermischen Eigenschaften von Festkörpern.",
+      "difficulty": 5,
+      "subcategory": "Phononen in Festkörpern: harmonischer Hamilton-Operator"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Das Auge (Optik)",
+      "question": "Was ist der Hauptzweck der Linse im menschlichen Auge?",
+      "choices": [
+        "A: Sie verstärkt die Lichtintensität.",
+        "B: Sie fokussiert das Licht auf die Netzhaut.",
+        "C: Sie filtert Farben aus dem Licht.",
+        "D: Sie erzeugt ein Bild in der Hornhaut."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Linse des menschlichen Auges hat die Aufgabe, das eintreffende Licht zu fokussieren, damit es auf die Netzhaut projiziert wird. Dadurch kann das Gehirn scharfe Bilder erzeugen und visuelle Informationen verarbeiten.",
+      "difficulty": 5,
+      "subcategory": "Das Auge (Optik)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Gaußsche Bündel & abbildende Elemente",
+      "question": "Was beschreibt das Gaußsche Bündel in der Optik?",
+      "choices": [
+        "A: Ein Lichtbündel, das eine parallele Strahlengänge erzeugt.",
+        "B: Ein Lichtbündel, das sich nach der Brechung divergiert.",
+        "C: Ein Lichtbündel mit konstantem Durchmesser.",
+        "D: Ein Lichtbündel, das durch eine Linse fokussiert wird."
+      ],
+      "correct_answer": "D",
+      "explanation": "Das Gaußsche Bündel beschreibt die Eigenschaften eines Lichtbündels, das durch abbildende Elemente wie Linsen fokussiert wird. Es berücksichtigt die Divergenz und Konvergenz von Lichtstrahlen in optischen Systemen.",
+      "difficulty": 5,
+      "subcategory": "Gaußsche Bündel & abbildende Elemente"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Feynman‑Diagramme (Streuprozesse)",
+      "question": "Was stellt ein Feynman-Diagramm in der Teilchenphysik dar?",
+      "choices": [
+        "A: Die Wechselwirkungen zwischen Teilchen.",
+        "B: Die Bewegung von Planeten im Sonnensystem.",
+        "C: Die Struktur von Atomkernen.",
+        "D: Die Eigenschaften von Lichtwellen."
+      ],
+      "correct_answer": "A",
+      "explanation": "Feynman-Diagramme sind eine grafische Darstellung von Wechselwirkungen zwischen subatomaren Teilchen. Sie ermöglichen es Physikern, komplizierte Streuprozesse verständlich darzustellen und zu berechnen.",
+      "difficulty": 6,
+      "subcategory": "Feynman‑Diagramme (Streuprozesse)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Einkristallherstellung (z. B. Czochralski)",
+      "question": "Welches der folgenden Verfahren wird hauptsächlich zur Herstellung von Einkristallen in der Halbleiterindustrie verwendet?",
+      "choices": [
+        "A: Sol-Gel-Prozess",
+        "B: Czochralski-Verfahren",
+        "C: Zone-Schmelzverfahren",
+        "D: Bridgman-Verfahren"
+      ],
+      "correct_answer": "B",
+      "explanation": "Das Czochralski-Verfahren ist eine weit verbreitete Methode zur Herstellung von Einkristallen, insbesondere in der Halbleiterindustrie. Es ermöglicht die kontrollierte Kristallisation von Materialien aus der Schmelze und ist entscheidend für die Produktion hochreiner und homogener Kristalle.",
+      "difficulty": 7,
+      "subcategory": "Einkristallherstellung (z. B. Czochralski)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Phasenintegralquantisierung",
+      "question": "Was beschreibt das Phasenintegral in der Quantenmechanik?",
+      "choices": [
+        "A: Die Beziehung zwischen Zeit und Raum in der Relativitätstheorie.",
+        "B: Die Bewegung eines Teilchens in einem klassischen Feld.",
+        "C: Die Quantisierung der Energiezustände eines Systems.",
+        "D: Die Statik von Körpern in Ruhe."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Phasenintegral ist ein zentraler Begriff in der Quantenmechanik, der die Quantisierung der Energiezustände eines Systems beschreibt. Es ist eng mit dem Konzept der Wellenfunktion und den Übergängen zwischen verschiedenen Zuständen verbunden.",
+      "difficulty": 4,
+      "subcategory": "Phasenintegralquantisierung"
+    }
+  ]
+}
