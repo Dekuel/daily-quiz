@@ -1,0 +1,168 @@
+{
+  "date": "2026-01-06",
+  "generated_at": "2026-01-06T04:03:27Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Übergangswahrscheinlichkeit",
+      "question": "What does the transition probability describe in quantum mechanics?",
+      "choices": [
+        "A: The mass of a particle.",
+        "B: The probability of a particle transitioning from one state to another.",
+        "C: The velocity of a particle.",
+        "D: The temperature of a system."
+      ],
+      "correct_answer": "B",
+      "explanation": "The transition probability in quantum mechanics describes how likely it is for a system to transition from one quantum state to another. It is a central concept for understanding quantum mechanical processes.",
+      "difficulty": 2,
+      "subcategory": "Übergangswahrscheinlichkeit"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Lösungsstruktur (radial)",
+      "question": "Which form describes the radial solutions of the hydrogen atom in quantum mechanics?",
+      "choices": [
+        "A: Laguerre polynomials",
+        "B: Bessel functions",
+        "C: Hermite polynomials",
+        "D: Spherical harmonics"
+      ],
+      "correct_answer": "A",
+      "explanation": "The radial solutions of the hydrogen atom arise from the Schrödinger equation and are characterized by Laguerre polynomials. These functions play a crucial role in describing the electron density and energy levels in the hydrogen atom.",
+      "difficulty": 9,
+      "subcategory": "Lösungsstruktur (radial)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Feldstärke-Tensor (Fμν)",
+      "question": "Which element describes the electromagnetic field strength tensor Fμν in relativity theory?",
+      "choices": [
+        "A: It is only relevant for stationary charges.",
+        "B: It is antisymmetric and encompasses electric and magnetic fields.",
+        "C: It is symmetric and describes only electric fields.",
+        "D: It is independent of the choice of reference frame."
+      ],
+      "correct_answer": "B",
+      "explanation": "The electromagnetic field strength tensor Fμν is an antisymmetric tensor field that integrates both electric and magnetic fields. Its structure allows for understanding the interactions between these fields and spacetime in relativity theory.",
+      "difficulty": 9,
+      "subcategory": "Feldstärke-Tensor (Fμν)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Grundbausteine der Materie",
+      "question": "Which of the following particles is an example of a quark?",
+      "choices": [
+        "A: Proton",
+        "B: Up quark",
+        "C: Electron",
+        "D: Neutron"
+      ],
+      "correct_answer": "B",
+      "explanation": "The up quark is one of the fundamental particles that make up hadrons like protons and neutrons. Electrons are leptons and not components of nuclear matter, while protons and neutrons are composed of quarks but are not quarks themselves.",
+      "difficulty": 10,
+      "subcategory": "Grundbausteine der Materie"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Thermodynamische Systeme (offen/geschlossen/isoliert)",
+      "question": "Which of the following systems describes a closed thermodynamic system?",
+      "choices": [
+        "A: A sealed container that releases heat but does not exchange matter with the surroundings.",
+        "B: A system that releases energy in the form of heat while losing matter.",
+        "C: An isolated system that exchanges neither heat nor matter with the surroundings.",
+        "D: An open system that exchanges air and heat with the surroundings."
+      ],
+      "correct_answer": "A",
+      "explanation": "A closed system can exchange heat with its surroundings but not matter. Option A precisely describes this concept, while the other options represent either open or isolated systems.",
+      "difficulty": 7,
+      "subcategory": "Thermodynamische Systeme (offen/geschlossen/isoliert)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Abbildung am Kugelspiegel",
+      "question": "Which of the following statements correctly describes the mapping of an object by a concave spherical mirror when the object is located between the focal point and the mirror?",
+      "choices": [
+        "A: The image is real and inverted.",
+        "B: The image is virtual and diminished.",
+        "C: The image is diminished and inverted.",
+        "D: The image is upright and magnified."
+      ],
+      "correct_answer": "D",
+      "explanation": "When an object is located between the focal point and a concave mirror, an upright, magnified image is formed. This image is virtual because it cannot be projected onto a physical surface.",
+      "difficulty": 8,
+      "subcategory": "Abbildung am Kugelspiegel"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Phasen (Definitionen, Beispiele)",
+      "question": "Which of the following statements correctly describes the term 'phase' in thermodynamics?",
+      "choices": [
+        "A: A phase is always gaseous and does not include solid or liquid components.",
+        "B: A phase is a homogeneous region of a substance with uniform physical properties.",
+        "C: A phase is the transition of a substance from solid to liquid.",
+        "D: A phase is a chemical compound between two or more substances."
+      ],
+      "correct_answer": "B",
+      "explanation": "A phase in thermodynamics refers to a homogeneous region of a substance characterized by uniform physical properties. Examples of phases include solid, liquid, and gas, each having specific properties that distinguish them from other phases.",
+      "difficulty": 6,
+      "subcategory": "Phasen (Definitionen, Beispiele)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Vakuumbereiche",
+      "question": "What happens to an object falling in a vacuum?",
+      "choices": [
+        "A: It remains suspended in the air.",
+        "B: It experiences no air resistance.",
+        "C: It falls faster than in air pressure.",
+        "D: It falls at a constant speed."
+      ],
+      "correct_answer": "B",
+      "explanation": "In a vacuum, there is no air resistance acting on the falling object. Therefore, it falls unimpeded, meaning it is only influenced by gravity and cannot fall slower or faster than in air pressure.",
+      "difficulty": 5,
+      "subcategory": "Vakuumbereiche"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Energie–Zeit–Unschärfe",
+      "question": "What does the energy-time uncertainty principle state in quantum mechanics?",
+      "choices": [
+        "A: The total energy of a system always remains constant.",
+        "B: Time is independent of energy in quantum mechanics.",
+        "C: The more precisely the energy of a system is known, the less precisely time can be determined.",
+        "D: Particles cannot possess both energy and momentum simultaneously."
+      ],
+      "correct_answer": "C",
+      "explanation": "The energy-time uncertainty principle describes that a small delta in the energy of a system leads to a larger delta in time. This means that a precise measurement of energy makes the measurement of time less accurate and vice versa.",
+      "difficulty": 6,
+      "subcategory": "Energie–Zeit–Unschärfe"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Fabry–Perot-Interferometer (Vielfachinterferenzen)",
+      "question": "What describes the condition for constructive interference in a Fabry–Perot interferometer?",
+      "choices": [
+        "A: d = (m + 0.5)λ",
+        "B: 2d = mλ",
+        "C: d = mλ/2",
+        "D: 2d = (m + 1)λ"
+      ],
+      "correct_answer": "B",
+      "explanation": "The condition for constructive interference in a Fabry–Perot interferometer is that the light waves generated after multiple reflections between the mirrors are in phase. This occurs when the path difference, given by twice the mirror separation d and the wavelength λ, is equal to an integer multiple m of the wavelength, so 2d = mλ.",
+      "difficulty": 7,
+      "subcategory": "Fabry–Perot-Interferometer (Vielfachinterferenzen)"
+    }
+  ]
+}

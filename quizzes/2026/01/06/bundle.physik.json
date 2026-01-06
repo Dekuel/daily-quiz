@@ -1,0 +1,169 @@
+{
+  "date": "2026-01-06",
+  "generated_at": "2026-01-06T04:02:51Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Übergangswahrscheinlichkeit",
+      "question": "Was beschreibt die Übergangswahrscheinlichkeit in der Quantenmechanik?",
+      "choices": [
+        "A: Die Masse eines Teilchens.",
+        "B: Die Wahrscheinlichkeit, dass ein Teilchen von einem Zustand in einen anderen übergeht.",
+        "C: Die Geschwindigkeit eines Teilchens.",
+        "D: Die Temperatur eines Systems."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Übergangswahrscheinlichkeit in der Quantenmechanik beschreibt, wie wahrscheinlich es ist, dass ein System von einem quantenmechanischen Zustand in einen anderen übergeht. Sie ist ein zentrales Konzept für das Verständnis quantenmechanischer Prozesse.",
+      "difficulty": 2,
+      "subcategory": "Übergangswahrscheinlichkeit"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Lösungsstruktur (radial)",
+      "question": "Welche Form beschreibt die radialen Lösungen des Wasserstoffatoms in der Quantenmechanik?",
+      "choices": [
+        "A: Laguerre-Polynome",
+        "B: Besselsche Funktionen",
+        "C: Hermite-Polynome",
+        "D: Kugelharmonische"
+      ],
+      "correct_answer": "A",
+      "explanation": "Die radialen Lösungen des Wasserstoffatoms ergeben sich aus der Schrödinger-Gleichung und sind durch Laguerre-Polynome charakterisiert. Diese Funktionen spielen eine entscheidende Rolle bei der Beschreibung der Elektronendichte und der Energieniveaus im Wasserstoffatom.",
+      "difficulty": 9,
+      "subcategory": "Lösungsstruktur (radial)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Feldstärke-Tensor (Fμν)",
+      "question": "Welches Element beschreibt den elektromagnetischen Feldstärke-Tensor Fμν in der Relativitätstheorie?",
+      "choices": [
+        "A: Er ist nur für ruhende Ladungen relevant.",
+        "B: Er ist antisymmetrisch und umfasst die elektrischen und magnetischen Felder.",
+        "C: Er ist symmetrisch und beschreibt nur elektrische Felder.",
+        "D: Er ist unabhängig von der Wahl des Bezugssystems."
+      ],
+      "correct_answer": "B",
+      "explanation": "Der elektromagnetische Feldstärke-Tensor Fμν ist ein antisymmetrisches Tensorfeld, das sowohl elektrische als auch magnetische Felder integriert. Seine Struktur ermöglicht es, die Wechselwirkungen zwischen diesen Feldern und der Raum-Zeit in der Relativitätstheorie zu verstehen.",
+      "difficulty": 9,
+      "subcategory": "Feldstärke-Tensor (Fμν)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Grundbausteine der Materie",
+      "question": "Welches der folgenden Teilchen ist ein Beispiel für ein Quark?",
+      "choices": [
+        "A: Proton",
+        "B: Up-Quark",
+        "C: Elektron",
+        "D: Neutron"
+      ],
+      "correct_answer": "B",
+      "explanation": "Das Up-Quark ist eines der grundlegenden Teilchen, aus denen Hadronen wie Protonen und Neutronen bestehen. Elektronen sind Leptonen und keine Komponenten der Kernmaterie, während Protonen und Neutronen aus Quarks aufgebaut sind, aber kein Quark selbst sind.",
+      "difficulty": 10,
+      "subcategory": "Grundbausteine der Materie"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Thermodynamische Systeme (offen/geschlossen/isoliert)",
+      "question": "Welches der folgenden Systeme beschreibt ein geschlossenes thermodynamisches System?",
+      "choices": [
+        "A: Ein luftdichter Behälter, der Wärme abgibt, aber keine Materie mit der Umgebung austauscht.",
+        "B: Ein System, das Energie in Form von Wärme abgibt und gleichzeitig Materie verliert.",
+        "C: Ein isoliertes System, das weder Wärme noch Materie mit der Umgebung austauscht.",
+        "D: Ein offenes System, das Luft und Wärme mit der Umgebung austauscht."
+      ],
+      "correct_answer": "A",
+      "explanation": "Ein geschlossenes System kann Wärme mit seiner Umgebung austauschen, jedoch keine Materie. Die Antwort A beschreibt genau dieses Konzept, während die anderen Optionen entweder offene oder isolierte Systeme darstellen.",
+      "difficulty": 7,
+      "subcategory": "Thermodynamische Systeme (offen/geschlossen/isoliert)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Abbildung am Kugelspiegel",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt die Abbildung eines Gegenstands durch einen konkaven Kugelspiegel, wenn der Gegenstand sich zwischen dem Brennpunkt und dem Spiegel befindet?",
+      "choices": [
+        "A: Das Bild ist real und umgekehrt.",
+        "B: Das Bild ist virtuell und verkleinert.",
+        "C: Das Bild ist verkleinert und umgekehrt.",
+        "D: Das Bild ist aufrecht und vergrößert."
+      ],
+      "correct_answer": "D",
+      "explanation": "Wenn sich ein Gegenstand zwischen dem Brennpunkt und einem konkaven Spiegel befindet, entsteht ein aufrechtes, vergrößertes Bild. Dieses Bild ist virtuell, weil es nicht auf einer physischen Fläche projiziert werden kann.",
+      "difficulty": 8,
+      "subcategory": "Abbildung am Kugelspiegel"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Phasen (Definitionen, Beispiele)",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt den Begriff 'Phase' in der Thermodynamik?",
+      "choices": [
+        "A: Eine Phase ist immer gasförmig und beinhaltet keine festen oder flüssigen Komponenten.",
+        "B: Eine Phase ist ein homogener Bereich eines Stoffes mit einheitlichen physikalischen Eigenschaften.",
+        "C: Eine Phase ist der Übergang eines Stoffes von fest zu flüssig.",
+        "D: Eine Phase ist eine chemische Verbindung zwischen zwei oder mehr Stoffen."
+      ],
+      "correct_answer": "B",
+      "explanation": "Eine Phase in der Thermodynamik bezeichnet einen homogenen Bereich eines Stoffes, der durch einheitliche physikalische Eigenschaften charakterisiert ist. Beispiele für Phasen sind fest, flüssig und gasförmig, wobei jede Phase spezifische Eigenschaften aufweist, die sie von anderen Phasen unterscheiden.",
+      "difficulty": 6,
+      "subcategory": "Phasen (Definitionen, Beispiele)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Vakuumbereiche",
+      "question": "Was passiert mit einem Objekt, das in einem Vakuumbereich fällt?",
+      "choices": [
+        "A: Es bleibt in der Luft stehen.",
+        "B: Es erfährt keinen Luftwiderstand.",
+        "C: Es wird schneller als im Luftdruck fallen.",
+        "D: Es fällt mit konstanter Geschwindigkeit."
+      ],
+      "correct_answer": "B",
+      "explanation": "In einem Vakuum gibt es keinen Luftwiderstand, der auf das fallende Objekt wirkt. Daher fällt es ungehindert, was bedeutet, dass es nur von der Schwerkraft beeinflusst wird und nicht langsamer oder schneller als im Luftdruck fallen kann.",
+      "difficulty": 5,
+      "subcategory": "Vakuumbereiche"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Energie–Zeit–Unschärfe",
+      "question": "Was besagt die Energie-Zeit-Unschärferelation in der Quantenmechanik?",
+      "choices": [
+        "A: Die Gesamtenergie eines Systems bleibt immer konstant.",
+        "B: Die Zeit ist in der Quantenmechanik unabhängig von der Energie.",
+        "C: Je genauer die Energie eines Systems bekannt ist, desto weniger genau kann die Zeit bestimmt werden.",
+        "D: Partikel können nicht gleichzeitig Energie und Impuls besitzen."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Energie-Zeit-Unschärferelation beschreibt, dass ein kleines Delta in der Energie eines Systems zu einem größeren Delta in der Zeit führt. Dies bedeutet, dass eine präzise Messung der Energie die Messung der Zeit ungenauer macht und umgekehrt.",
+      "difficulty": 6,
+      "subcategory": "Energie–Zeit–Unschärfe"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Fabry–Perot-Interferometer (Vielfachinterferenzen)",
+      "question": "Was beschreibt die Bedingung für konstruktive Interferenz in einem Fabry–Perot-Interferometer?",
+      "choices": [
+        "A: d = (m + 0.5)λ",
+        "B: 2d = mλ",
+        "C: d = mλ/2",
+        "D: 2d = (m + 1)λ"
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Bedingung für konstruktive Interferenz in einem Fabry–Perot-Interferometer ist, dass die Lichtwellen, die nach mehreren Reflexionen zwischen den Spiegeln entstehen, in Phase sind. Dies geschieht, wenn der Wegunterschied, der durch die doppelte Spiegelabstand d und die Wellenlänge λ gegeben ist, gleich dem ganzzahligen Vielfachen m der Wellenlänge ist, also 2d = mλ.",
+      "difficulty": 7,
+      "subcategory": "Fabry–Perot-Interferometer (Vielfachinterferenzen)"
+    }
+  ]
+}
