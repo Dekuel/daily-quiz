@@ -1,0 +1,106 @@
+{
+  "date": "2026-01-07",
+  "generated_at": "2026-01-07T04:01:50Z",
+  "schema_version": 6,
+  "mode": "schwer",
+  "bundle_type": "daily",
+  "questions": [
+    {
+      "category": "Technologie",
+      "topic": "Technik-Geschichte",
+      "question": "Welches Protokoll wurde ursprünglich zur Kommunikation zwischen Netzwerkdruckern und -computern entwickelt und ist heute das Rückgrat vieler Internet-Dienste?",
+      "choices": [
+        "A: POP3 (Post Office Protocol 3)",
+        "B: SMTP (Simple Mail Transfer Protocol)",
+        "C: FTP (File Transfer Protocol)",
+        "D: LPD (Line Printer Daemon)"
+      ],
+      "correct_answer": "D",
+      "explanation": "LPD wurde in den frühen 1980er Jahren entwickelt und ist ein Protokoll, das ursprünglich für die Druckerkommunikation konzipiert wurde. Es ist heute weniger verbreitet, hat aber den Grundstein für die Entwicklung ähnlicher Protokolle gelegt, die in der modernen Netzwerktechnologie Anwendung finden.",
+      "difficulty": 10
+    },
+    {
+      "category": "Essen und Trinken",
+      "topic": "Ernährung",
+      "question": "Welches der folgenden Garverfahren ist bekannt dafür, die Vitaminstabilität von Nahrungsmitteln am besten zu erhalten?",
+      "choices": [
+        "A: Frittieren",
+        "B: Kochen",
+        "C: Sous-vide",
+        "D: Grillen"
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Sous-vide-Garverfahren erfolgt bei konstant niedrigen Temperaturen und schont die Nahrungsmittel, was die Vitamine weitgehend bewahrt. Im Vergleich dazu führen Frittieren und Grillen zu höheren Temperaturen, die empfindliche Nährstoffe schädigen können.",
+      "difficulty": 9
+    },
+    {
+      "question": "Was ist der Hauptunterschied zwischen einem Arbeitsvertrag und einem Dienstvertrag?",
+      "category": "Alltag & Gesellschaft",
+      "subcategory": "Arbeitsrecht & Verträge",
+      "difficulty": 5,
+      "choices": [
+        "A: Ein Arbeitsvertrag enthält keine Vergütung.",
+        "B: Ein Arbeitsvertrag verpflichtet den Arbeitnehmer zur Erbringung von Arbeitsleistungen im Rahmen einer Weisungsgebundenheit.",
+        "C: Ein Arbeitsvertrag ist auf eine bestimmte Dauer ausgelegt.",
+        "D: Ein Dienstvertrag regelt immer eine feste Arbeitszeit."
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "category": "Politiker",
+      "discipline": "Sitze (International)",
+      "question": "In welcher Stadt befindet sich der Hauptsitz des Europäischen Gerichtshofs (EuGH)?",
+      "choices": [
+        "A: Genf (Schweiz)",
+        "B: Luxemburg (Kirchberg-Plateau, Luxemburg)",
+        "C: Brüssel (Belgien)",
+        "D: Paris (Frankreich)"
+      ],
+      "correct_answer": "B",
+      "explanation": "Europäischer Gerichtshof: Oberstes Gericht der EU zur Auslegung des EU-Rechts.",
+      "difficulty": 1
+    },
+    {
+      "category": "Geographie",
+      "topic": "Humangeographie & Städte",
+      "question": "Welche der folgenden Begriffe beschreibt eine städtische Ansiedlung, die durch eine besonders hohe Bevölkerungsdichte und räumliche Ausdehnung gekennzeichnet ist?",
+      "choices": [
+        "A: Landgemeinde",
+        "B: Agglomeration",
+        "C: Metropolregion",
+        "D: Kleinstadt"
+      ],
+      "correct_answer": "C",
+      "explanation": "Eine Metropolregion umfasst eine große Stadt und ihr Umland, das durch wirtschaftliche und soziale Verflechtungen geprägt ist. Diese Regionen haben oft mehrere benachbarte Städte und eine hohe Bevölkerungsdichte, die sie von kleineren Städten oder ländlichen Gebieten unterscheidet.",
+      "difficulty": 5
+    },
+    {
+      "category": "Sport",
+      "topic": "Sonstige",
+      "question": "Welcher der folgenden Kämpfer:innen war nicht nur im Boxring aktiv, sondern auch in der politischen Arena und war bekannt für seine pazifistischen Ansichten?",
+      "choices": [
+        "A: Joe Frazier",
+        "B: Floyd Mayweather Jr.",
+        "C: Muhammad Ali",
+        "D: Mike Tyson"
+      ],
+      "correct_answer": "C",
+      "explanation": "Muhammad Ali war nicht nur ein herausragender Boxer, sondern auch für sein Engagement gegen den Vietnamkrieg und seine politischen Überzeugungen bekannt. Seine Weigerung, in den Krieg zu ziehen, machte ihn zu einer ikonischen Figur im Kampf für Bürgerrechte und soziale Gerechtigkeit.",
+      "difficulty": 9
+    },
+    {
+      "category": "Wissenschaft",
+      "topic": "Physik",
+      "question": "Was beschreibt das Gesetz von Boyle in der Thermodynamik?",
+      "choices": [
+        "A: Der Druck eines Gases bleibt konstant, wenn das Volumen erhöht wird.",
+        "B: Das Volumen eines Gases ist umgekehrt proportional zum Druck bei konstanter Temperatur.",
+        "C: Das Volumen eines Gases bleibt konstant, wenn der Druck erhöht wird.",
+        "D: Die Temperatur eines Gases steigt, wenn das Volumen verringert wird."
+      ],
+      "correct_answer": "B",
+      "explanation": "Das Gesetz von Boyle besagt, dass das Volumen eines Gases bei konstanter Temperatur umgekehrt proportional zum Druck ist. Das bedeutet, dass bei steigendem Druck das Volumen abnimmt und umgekehrt, solange die Temperatur konstant bleibt.",
+      "difficulty": 6
+    }
+  ]
+}

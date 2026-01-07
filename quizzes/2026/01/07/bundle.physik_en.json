@@ -1,0 +1,168 @@
+{
+  "date": "2026-01-07",
+  "generated_at": "2026-01-07T04:03:24Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Zylinderkondensator",
+      "question": "What is the main application of a cylindrical capacitor in electrical engineering?",
+      "choices": [
+        "A: It generates magnetic fields.",
+        "B: It converts electrical energy into mechanical energy.",
+        "C: It stores electrical energy.",
+        "D: It is used for measuring electrical currents."
+      ],
+      "correct_answer": "C",
+      "explanation": "A cylindrical capacitor is mainly used to store electrical energy. It consists of two cylindrical conductors separated by a dielectric, which increases the capacitance and allows for energy storage.",
+      "difficulty": 4,
+      "subcategory": "Zylinderkondensator"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Wirkungsquerschnitt & differentielle Größen",
+      "question": "What does the cross section describe in particle physics?",
+      "choices": [
+        "A: The mass of a particle.",
+        "B: The probability of a specific process occurring during an interaction.",
+        "C: The velocity of a particle.",
+        "D: The energy of a particle."
+      ],
+      "correct_answer": "B",
+      "explanation": "The cross section is a measure of the probability that a specific process will occur during an interaction between particles. It plays a central role in the theoretical description of interactions in particle physics.",
+      "difficulty": 3,
+      "subcategory": "Wirkungsquerschnitt & differentielle Größen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Carnot-Kreisprozess & Wirkungsgrad",
+      "question": "Which of the following points best describes an important property of the Carnot cycle process?",
+      "choices": [
+        "A: The Carnot cycle process is the most efficient process for converting heat into work under real conditions.",
+        "B: The Carnot cycle process cannot be reversible.",
+        "C: The efficiency of the Carnot cycle process depends only on the temperatures of the reservoirs.",
+        "D: The Carnot cycle process can be carried out in reality without energy losses."
+      ],
+      "correct_answer": "C",
+      "explanation": "The efficiency of a Carnot cycle process is solely determined by the temperatures of the hot and cold reservoirs, according to the formula η = 1 - (T_c / T_h). This process is theoretical and idealized, meaning it can only be approximated in practice and not achieved without losses. The other statements are incorrect as they misunderstand fundamental properties of the Carnot process.",
+      "difficulty": 8,
+      "subcategory": "Carnot-Kreisprozess & Wirkungsgrad"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Eulersche Gleichungen",
+      "question": "What does the Euler equation describe in classical mechanics?",
+      "choices": [
+        "A: The conservation of energy in a closed system.",
+        "B: The correlation between pressure and volume in an ideal gas.",
+        "C: The relationship between torque and angular velocity.",
+        "D: The motion of bodies under the influence of external forces."
+      ],
+      "correct_answer": "C",
+      "explanation": "The Euler equation describes the relationship between the torque and angular velocity of a rigid body. It is a fundamental concept in the dynamics of rotating systems and shows how torque influences rotation.",
+      "difficulty": 8,
+      "subcategory": "Eulersche Gleichungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Wahrscheinlichkeiten & Erwartungswerte (H-Atom)",
+      "question": "What does the expectation value of an observable describe in quantum mechanics?",
+      "choices": [
+        "A: The value that a measurement will certainly yield.",
+        "B: The maximum possible value that the observable can take.",
+        "C: The value determined by the Heisenberg Uncertainty Principle.",
+        "D: The average value one can expect from many measurements."
+      ],
+      "correct_answer": "D",
+      "explanation": "The expectation value of an observable is the average value obtained when many measurements are carried out under identical conditions. It is derived from the wave function and provides important statistical information about the measurement.",
+      "difficulty": 5,
+      "subcategory": "Wahrscheinlichkeiten & Erwartungswerte (H-Atom)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Korrespondenzprinzip (QM↔klassisch)",
+      "question": "Which of the following concepts best describes the correspondence principle in quantum mechanics?",
+      "choices": [
+        "A: The correspondence principle states that quantum mechanics is only applicable near high energies.",
+        "B: Quantum objects always behave like classical objects.",
+        "C: Quantum mechanics can completely replace classical mechanics without restrictions.",
+        "D: The quantum states of a system coincide with the classical states in the classical limit."
+      ],
+      "correct_answer": "D",
+      "explanation": "The correspondence principle states that the predictions of quantum mechanics match those of classical mechanics in the classical limit (e.g., at high energies or large quantum numbers). This demonstrates that classical mechanics is a special case of quantum mechanics.",
+      "difficulty": 8,
+      "subcategory": "Korrespondenzprinzip (QM↔klassisch)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Lennard–Jones-Potential",
+      "question": "Which statement best describes the connection between the homogeneity of time and the conservation of energy according to the Noether idea?",
+      "choices": [
+        "A: Homogeneous time leads to the constant velocity of an object.",
+        "B: The invariance of a physical system under temporal shifts leads to the conservation of total energy.",
+        "C: The conservation of energy is independent of the symmetry of a physical system.",
+        "D: The conservation of energy only applies to closed systems without external influences."
+      ],
+      "correct_answer": "C",
+      "explanation": "According to the Noether idea, the invariance of a physical system under temporal shifts leads to the conservation of total energy. This means that if the physical laws remain unchanged no matter when they are applied, the energy in a closed system remains constant.",
+      "difficulty": 5,
+      "subcategory": "Lennard–Jones-Potential"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Noether-Idee: Homogenität der Zeit ⇒ Energieerhaltung",
+      "question": "What does the 2nd virial coefficient describe in statistical mechanics?",
+      "choices": [
+        "A: The temperature of a system.",
+        "B: The velocity of particles.",
+        "C: The interactions between two particles.",
+        "D: The number of particles in a system."
+      ],
+      "correct_answer": "B",
+      "explanation": "The 2nd virial coefficient is a measure of the interactions between two particles in a system and plays an important role in describing gases. It influences the relationship between pressure, temperature, and volume in the thermodynamic description of a gas.",
+      "difficulty": 8,
+      "subcategory": "Noether-Idee: Homogenität der Zeit ⇒ Energieerhaltung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Virialentwicklung & 2. Virialkoeffizient (klass./quant.)",
+      "question": "What happens when light passes through a rectangular aperture?",
+      "choices": [
+        "A: It is reflected.",
+        "B: It remains unchanged.",
+        "C: It is absorbed.",
+        "D: Diffraction occurs."
+      ],
+      "correct_answer": "C",
+      "explanation": "When light passes through a rectangular aperture, diffraction occurs. This means that the light is diffracted around the edges of the aperture, leading to a characteristic diffraction pattern.",
+      "difficulty": 1,
+      "subcategory": "Virialentwicklung & 2. Virialkoeffizient (klass./quant.)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Beugung an der Rechteckblende",
+      "question": "Was passiert, wenn Licht durch eine Rechteckblende fällt?",
+      "choices": [
+        "A: Es wird reflektiert.",
+        "B: Es bleibt unverändert.",
+        "C: Es wird absorbiert.",
+        "D: Es tritt Beugung auf."
+      ],
+      "correct_answer": "D",
+      "explanation": "Wenn Licht durch eine Rechteckblende fällt, tritt Beugung auf. Dies bedeutet, dass das Licht um die Kanten der Blende herum abgelenkt wird, was zu einem charakteristischen Beugungsmuster führt.",
+      "difficulty": 2,
+      "subcategory": "Beugung an der Rechteckblende"
+    }
+  ]
+}

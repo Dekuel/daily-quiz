@@ -1,0 +1,169 @@
+{
+  "date": "2026-01-07",
+  "generated_at": "2026-01-07T04:02:53Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Zylinderkondensator",
+      "question": "Was ist die Hauptanwendung eines Zylinderkondensators in der Elektrotechnik?",
+      "choices": [
+        "A: Er erzeugt magnetische Felder.",
+        "B: Er wandelt elektrische Energie in mechanische Energie um.",
+        "C: Er speichert elektrische Energie.",
+        "D: Er dient zur Messung von elektrischen Strömen."
+      ],
+      "correct_answer": "C",
+      "explanation": "Ein Zylinderkondensator wird hauptsächlich verwendet, um elektrische Energie zu speichern. Er besteht aus zwei zylindrischen Leitern, die durch ein Dielektrikum getrennt sind, was die Kapazität erhöht und die Speicherung von Energie ermöglicht.",
+      "difficulty": 4,
+      "subcategory": "Zylinderkondensator"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Wirkungsquerschnitt & differentielle Größen",
+      "question": "Was beschreibt der Wirkungsquerschnitt in der Teilchenphysik?",
+      "choices": [
+        "A: Die Masse eines Teilchens.",
+        "B: Die Wahrscheinlichkeit, dass ein bestimmter Prozess bei einer Wechselwirkung stattfindet.",
+        "C: Die Geschwindigkeit eines Teilchens.",
+        "D: Die Energie eines Teilchens."
+      ],
+      "correct_answer": "B",
+      "explanation": "Der Wirkungsquerschnitt ist ein Maß für die Wahrscheinlichkeit, dass bei einer Wechselwirkung zwischen Teilchen ein bestimmter Prozess stattfindet. Er spielt eine zentrale Rolle in der theoretischen Beschreibung von Wechselwirkungen in der Teilchenphysik.",
+      "difficulty": 3,
+      "subcategory": "Wirkungsquerschnitt & differentielle Größen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Carnot-Kreisprozess & Wirkungsgrad",
+      "question": "Welcher der folgenden Punkte beschreibt eine wichtige Eigenschaft des Carnot-Kreisprozesses?",
+      "choices": [
+        "A: Der Carnot-Kreisprozess ist der effizienteste Prozess zur Umwandlung von Wärme in Arbeit unter realen Bedingungen.",
+        "B: Der Carnot-Kreisprozess kann nicht reversibel sein.",
+        "C: Der Wirkungsgrad des Carnot-Kreisprozesses hängt nur von den Temperaturen der Reservoirs ab.",
+        "D: Der Carnot-Kreisprozess kann in der Realität ohne Energieverluste durchgeführt werden."
+      ],
+      "correct_answer": "C",
+      "explanation": "Der Wirkungsgrad eines Carnot-Kreisprozesses wird ausschließlich durch die Temperaturen der heißen und kalten Reservoirs bestimmt, gemäß der Formel η = 1 - (T_c / T_h). Dieser Prozess ist theoretisch und idealisiert, was bedeutet, dass er in der Praxis nur approximativ erreicht werden kann, jedoch nicht ohne Verluste erfolgt. Die anderen Aussagen sind falsch, da sie grundlegende Eigenschaften des Carnot-Prozesses missverstehen.",
+      "difficulty": 8,
+      "subcategory": "Carnot-Kreisprozess & Wirkungsgrad"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Eulersche Gleichungen",
+      "question": "Was beschreibt die Eulersche Gleichung in der klassischen Mechanik?",
+      "choices": [
+        "A: Die Energieerhaltung in einem geschlossenen System.",
+        "B: Die Korrelation zwischen Druck und Volumen in einem idealen Gas.",
+        "C: Die Beziehung zwischen Drehmoment und Winkelgeschwindigkeit.",
+        "D: Die Bewegung von Körpern unter dem Einfluss von externen Kräften."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Eulersche Gleichung beschreibt die Beziehung zwischen dem Drehmoment und der Winkelgeschwindigkeit eines starren Körpers. Sie ist ein fundamentales Konzept in der Dynamik rotierender Systeme und zeigt, wie Drehmoment die Rotation beeinflusst.",
+      "difficulty": 8,
+      "subcategory": "Eulersche Gleichungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Wahrscheinlichkeiten & Erwartungswerte (H-Atom)",
+      "question": "Was beschreibt der Erwartungswert einer Observablen in der Quantenmechanik?",
+      "choices": [
+        "A: Den Wert, den eine Messung mit Sicherheit ergeben wird.",
+        "B: Den maximal möglichen Wert, den die Observablen annehmen können.",
+        "C: Den Wert, der durch die Heisenbergsche Unschärferelation bestimmt wird.",
+        "D: Den durchschnittlichen Wert, den man bei vielen Messungen erwarten kann."
+      ],
+      "correct_answer": "D",
+      "explanation": "Der Erwartungswert einer Observablen ist der durchschnittliche Wert, den man erhält, wenn man viele Messungen unter identischen Bedingungen durchführt. Er wird aus der Wellenfunktion abgeleitet und gibt eine wichtige statistische Information über die Messung aus.",
+      "difficulty": 5,
+      "subcategory": "Wahrscheinlichkeiten & Erwartungswerte (H-Atom)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Korrespondenzprinzip (QM↔klassisch)",
+      "question": "Welches der folgenden Konzepte beschreibt am besten das Korrespondenzprinzip in der Quantenmechanik?",
+      "choices": [
+        "A: Das Korrespondenzprinzip besagt, dass Quantenmechanik nur in der Nähe von hohen Energien anwendbar ist.",
+        "B: Quantenobjekte verhalten sich immer wie klassische Objekte.",
+        "C: Quantenmechanik kann klassische Mechanik vollständig ersetzen, ohne Einschränkungen.",
+        "D: Die Quantenzustände eines Systems stimmen in der klassischen Grenzbetrachtung mit den klassischen Zuständen überein."
+      ],
+      "correct_answer": "D",
+      "explanation": "Das Korrespondenzprinzip besagt, dass die Vorhersagen der Quantenmechanik in der klassischen Grenzbetrachtung (z. B. bei hohen Energien oder großen Quantenzahlen) mit den Vorhersagen der klassischen Mechanik übereinstimmen. Dies zeigt, dass die klassische Mechanik ein Spezialfall der Quantenmechanik ist.",
+      "difficulty": 8,
+      "subcategory": "Korrespondenzprinzip (QM↔klassisch)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Lennard–Jones-Potential",
+      "question": "Welche der folgenden Aussagen beschreibt am besten das Lennard-Jones-Potential?",
+      "choices": [
+        "A: Es wird verwendet, um die Kinematik von Festkörpern zu analysieren.",
+        "B: Es beschreibt die thermodynamischen Eigenschaften von Gasen.",
+        "C: Es beschreibt die Wechselwirkungen zwischen Atomen, die sowohl anziehende als auch abstoßende Kräfte berücksichtigt.",
+        "D: Es ist ausschließlich für die Beschreibung von elektrischen Feldern zuständig."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Lennard-Jones-Potential ist ein mathematisches Modell, das die Wechselwirkungen zwischen Atomen beschreibt, indem es sowohl die anziehenden Van-der-Waals-Kräfte als auch die abstoßenden Kräfte bei sehr kurzen Abständen berücksichtigt. Es ist ein wichtiges Werkzeug in der Festkörperphysik und der Molekulardynamik.",
+      "difficulty": 5,
+      "subcategory": "Lennard–Jones-Potential"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Noether-Idee: Homogenität der Zeit ⇒ Energieerhaltung",
+      "question": "Welche Aussage beschreibt am besten die Verbindung zwischen der Homogenität der Zeit und dem Energieerhaltungssatz gemäß der Noether-Idee?",
+      "choices": [
+        "A: Homogene Zeit führt dazu, dass die Geschwindigkeit eines Objekts konstant bleibt.",
+        "B: Die Invarianz eines physikalischen Systems unter zeitlichen Verschiebungen führt zur Erhaltung der Gesamtenergie.",
+        "C: Der Energieerhaltungssatz ist unabhängig von der Symmetrie eines physikalischen Systems.",
+        "D: Der Energieerhaltungssatz gilt nur für geschlossene Systeme ohne äußere Einflüsse."
+      ],
+      "correct_answer": "B",
+      "explanation": "Gemäß der Noether-Idee führt die Invarianz eines physikalischen Systems unter zeitlichen Verschiebungen zur Erhaltung der Gesamtenergie. Dies bedeutet, dass wenn die physikalischen Gesetze unverändert bleiben, egal wann man sie anwendet, die Energie in einem geschlossenen System konstant bleibt.",
+      "difficulty": 8,
+      "subcategory": "Noether-Idee: Homogenität der Zeit ⇒ Energieerhaltung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Virialentwicklung & 2. Virialkoeffizient (klass./quant.)",
+      "question": "Was beschreibt der 2. Virialkoeffizient in der statistischen Mechanik?",
+      "choices": [
+        "A: Die Temperatur eines Systems.",
+        "B: Die Geschwindigkeit der Teilchen.",
+        "C: Die Wechselwirkungen zwischen zwei Teilchen.",
+        "D: Die Anzahl der Teilchen in einem System."
+      ],
+      "correct_answer": "C",
+      "explanation": "Der 2. Virialkoeffizient ist ein Maß für die Wechselwirkungen zwischen zwei Teilchen in einem System und spielt eine wichtige Rolle bei der Beschreibung von Gasen. Er beeinflusst die Beziehung zwischen Druck, Temperatur und Volumen in der thermodynamischen Beschreibung eines Gases.",
+      "difficulty": 1,
+      "subcategory": "Virialentwicklung & 2. Virialkoeffizient (klass./quant.)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Beugung an der Rechteckblende",
+      "question": "Was passiert, wenn Licht durch eine Rechteckblende fällt?",
+      "choices": [
+        "A: Es wird reflektiert.",
+        "B: Es bleibt unverändert.",
+        "C: Es wird absorbiert.",
+        "D: Es tritt Beugung auf."
+      ],
+      "correct_answer": "D",
+      "explanation": "Wenn Licht durch eine Rechteckblende fällt, tritt Beugung auf. Dies bedeutet, dass das Licht um die Kanten der Blende herum abgelenkt wird, was zu einem charakteristischen Beugungsmuster führt.",
+      "difficulty": 2,
+      "subcategory": "Beugung an der Rechteckblende"
+    }
+  ]
+}
