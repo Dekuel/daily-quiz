@@ -1,0 +1,168 @@
+{
+  "date": "2026-01-08",
+  "generated_at": "2026-01-08T04:03:28Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Sommerfeldsche Theorie",
+      "question": "What does the Sommerfeld theory describe regarding electrons in solids?",
+      "choices": [
+        "A: Electrons in solids behave like ideal fluids.",
+        "B: Electrons in solids can be considered as Fermi gases in the energy band model.",
+        "C: Electrons in solids are independent of the atomic lattice structures.",
+        "D: Electrons in solids move exclusively in a one-dimensional structure."
+      ],
+      "correct_answer": "B",
+      "explanation": "The Sommerfeld theory describes electrons in solids as Fermi gases, behaving within the framework of the energy band model. This perspective allows for explaining the electrical and thermal properties of metals and shows how electrons are arranged in different energy levels.",
+      "difficulty": 8,
+      "subcategory": "Sommerfeldsche Theorie"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Rotationszustände",
+      "question": "What describes the rotational state of an atomic nucleus?",
+      "choices": [
+        "A: The distribution of protons and neutrons in the nucleus.",
+        "B: The speed of electrons around the nucleus.",
+        "C: The energy levels of electrons in the atomic shell.",
+        "D: The number of nucleons in the nucleus."
+      ],
+      "correct_answer": "A",
+      "explanation": "The rotational state of an atomic nucleus refers to the specific distribution and movement of protons and neutrons within the nucleus. This arrangement influences the energy states and stability of the nucleus.",
+      "difficulty": 5,
+      "subcategory": "Rotationszustände"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Kriterien für Kanonizität (Symplektizität)",
+      "question": "Which criterion is crucial for the canonicity of a system in analytical mechanics?",
+      "choices": [
+        "A: The influence of external forces",
+        "B: The integrability of motions",
+        "C: The existence of a symplectic structure",
+        "D: The conservation of energy"
+      ],
+      "correct_answer": "C",
+      "explanation": "A system is canonical if there is a symplectic structure preserving the relationship between canonical variables. This structure ensures the validity of Hamilton's equations and the correct description of the system's physical properties.",
+      "difficulty": 7,
+      "subcategory": "Kriterien für Kanonizität (Symplektizität)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Thermodynamische Beschreibung der Kerne",
+      "question": "Which statement best describes the thermodynamic stability of an atomic nucleus?",
+      "choices": [
+        "A: A stable nucleus always has an even number of nucleons.",
+        "B: A stable nucleus has a positive binding energy per nucleon.",
+        "C: A stable nucleus is independent of the interaction between protons and neutrons.",
+        "D: A stable nucleus has a high temperature."
+      ],
+      "correct_answer": "B",
+      "explanation": "The binding energy per nucleon is a measure of a nucleus's stability; the higher this energy, the more stable the nucleus. A positive binding energy indicates that the nucleons are held together, thus making the nucleus stable.",
+      "difficulty": 6,
+      "subcategory": "Thermodynamische Beschreibung der Kerne"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Zeitlich oszillierende Quellen",
+      "question": "Which of the following statements about time-oscillating electric dipoles is correct?",
+      "choices": [
+        "A: The generated electromagnetic radiation pressure is independent of the distance from the source.",
+        "B: They can only exist in a vacuum and are not stable in matter.",
+        "C: They radiate exclusively in the UV region of the electromagnetic spectrum.",
+        "D: They generate electromagnetic waves with a frequency corresponding to the dipole's oscillation frequency."
+      ],
+      "correct_answer": "D",
+      "explanation": "A time-oscillating electric dipole generates electromagnetic waves whose frequency corresponds to the dipole's oscillation frequency. These waves propagate through space carrying energy, which is important for describing many physical phenomena.",
+      "difficulty": 8,
+      "subcategory": "Zeitlich oszillierende Quellen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Symmetrien und Erhaltungssätze",
+      "question": "Which of the following conservation laws is particularly important for describing interactions within the framework of quantum field theory?",
+      "choices": [
+        "A: Conservation of electric charge",
+        "B: Conservation of mass",
+        "C: Conservation of energy",
+        "D: Conservation of momentum"
+      ],
+      "correct_answer": "A",
+      "explanation": "The conservation of electric charge is crucial in quantum field theory, especially in interactions between charged particles. While energy, momentum, and mass are also conserved, charge conservation plays a special role in describing electromagnetic and weak interactions.",
+      "difficulty": 6,
+      "subcategory": "Symmetrien und Erhaltungssätze"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Postulate der Quantenmechanik",
+      "question": "Which of the following postulates is a fundamental principle of quantum mechanics?",
+      "choices": [
+        "A: Light always propagates in straight lines.",
+        "B: The state of a system is described by a wave function.",
+        "C: Energy cannot be created or destroyed.",
+        "D: Bodies always move at a constant speed."
+      ],
+      "correct_answer": "B",
+      "explanation": "A central postulate of quantum mechanics states that the state of a quantum mechanical system is described by a wave function. This wave function contains all information about the system and enables the calculation of probabilities for different measurement outcomes.",
+      "difficulty": 2,
+      "subcategory": "Postulate der Quantenmechanik"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Gibbs-Duhem-Relation (homogene Systeme)",
+      "question": "What does the Gibbs-Duhem relation describe in homogeneous systems?",
+      "choices": [
+        "A: The relationship between chemical potential and temperature.",
+        "B: The relationship between entropy and energy.",
+        "C: The change in pressure concerning volume change.",
+        "D: The interaction between different phases of a system."
+      ],
+      "correct_answer": "A",
+      "explanation": "The Gibbs-Duhem relation describes how the chemical potential of a system is related to temperature and other state variables. It is an important tool in statistical mechanics to understand the thermodynamic properties of homogeneous systems.",
+      "difficulty": 3,
+      "subcategory": "Gibbs-Duhem-Relation (homogene Systeme)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Phasenübergänge & kritische Phänomene (Überblick)",
+      "question": "What does the term 'critical point' describe in statistical mechanics?",
+      "choices": [
+        "A: The point where the density of a material is maximum.",
+        "B: The point where a system stores its maximum energy.",
+        "C: The point where phase transitions occur.",
+        "D: The point where the temperature of a system reaches absolute zero."
+      ],
+      "correct_answer": "C",
+      "explanation": "The critical point is the state of a system where two phases (e.g., liquid and vapor) can no longer be distinguished, and the system's properties change dramatically. At this point, temperature and pressure reach critical values crucial for the phase transition.",
+      "difficulty": 3,
+      "subcategory": "Phasenübergänge & kritische Phänomene (Überblick)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Kovariante Formulierung der klassischen Mechanik",
+      "question": "What is an important property of covariant formulations in classical mechanics?",
+      "choices": [
+        "A: They do not consider relativistic effects.",
+        "B: They are applicable only in two dimensions.",
+        "C: They require a change in the time dimension.",
+        "D: They are independent of the choice of reference frame."
+      ],
+      "correct_answer": "D",
+      "explanation": "Covariant formulations of classical mechanics are designed to be independent of the choice of reference frame, a central property in relativity theory. This allows for a consistent description of physical laws in different inertial reference frames.",
+      "difficulty": 4,
+      "subcategory": "Kovariante Formulierung der klassischen Mechanik"
+    }
+  ]
+}

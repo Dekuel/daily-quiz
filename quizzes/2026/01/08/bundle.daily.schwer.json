@@ -1,0 +1,107 @@
+{
+  "date": "2026-01-08",
+  "generated_at": "2026-01-08T04:01:57Z",
+  "schema_version": 6,
+  "mode": "schwer",
+  "bundle_type": "daily",
+  "questions": [
+    {
+      "category": "Geschichte",
+      "topic": "Neuzeit",
+      "question": "Welche der folgenden Erklärungen ist ein zentrales Prinzip der Erklärung der Menschenrechte während der Französischen Revolution?",
+      "choices": [
+        "A: Menschenrechte gelten ausschließlich für Bürger der Monarchie.",
+        "B: Menschenrechte wurden erst 1799 offiziell anerkannt.",
+        "C: Menschenrechte sind universell und unveräußerlich.",
+        "D: Menschenrechte sind an wirtschaftlichen Status gebunden."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das zentrale Prinzip der Menschenrechte während der Französischen Revolution war die Universalisierung dieser Rechte, die für alle Menschen unabhängig von ihrem sozialen oder wirtschaftlichen Status gelten sollten. Diese Ideen wurden maßgeblich in der Erklärung der Menschenrechte von 1789 festgehalten.",
+      "difficulty": 9
+    },
+    {
+      "category": "Natur",
+      "topic": "Tierwelt",
+      "question": "Welcher der folgenden Tierstämme gehört nicht zu den Chordata?",
+      "choices": [
+        "A: Säugetiere",
+        "B: Reptilien",
+        "C: Vögel",
+        "D: Mollusca"
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Chordata umfassen Tiere mit einem Chorda dorsalis, zu denen Säugetiere, Vögel und Reptilien gehören. Mollusca, zu denen Weichtiere wie Schnecken und Muscheln zählen, bilden einen separaten Stamm und sind keine Chordaten.",
+      "difficulty": 9
+    },
+    {
+      "category": "Geographie",
+      "topic": "Kartographie & GIS",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt einen typischen Workflow in der Geoinformationsverarbeitung?",
+      "choices": [
+        "A: Das Clip-Verfahren entfernt nur die Teile der Daten, die außerhalb einer festgelegten Fläche liegen, ohne diese erneut zu verarbeiten.",
+        "B: Das Vereinigen von Geodatensätzen erfordert immer die Verwendung eines gemeinsamen Koordinatensystems.",
+        "C: Die Verschneidung von zwei Geodatenebenen erzeugt eine neue Ebene, die nur die Schnittpunkte der beiden ursprünglichen Ebenen enthält.",
+        "D: Pufferanalysen sind ausschließlich zur Darstellung von Landnutzungsänderungen geeignet."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Aussage über die Verschneidung beschreibt einen wesentlichen Schritt in der Geodatenanalyse, bei dem relevante Informationen aus zwei Ebenen kombiniert werden. Die anderen Optionen enthalten entweder falsche Informationen oder sind zu spezifisch, um als allgemeingültige Workflow-Beschreibungen zu gelten.",
+      "difficulty": 7
+    },
+    {
+      "category": "Sport",
+      "topic": "Fußball",
+      "question": "Welches der folgenden Turniere für Nationalmannschaften hat die längste Tradition und wurde erstmals 1910 ausgetragen?",
+      "choices": [
+        "A: UEFA Europameisterschaft",
+        "B: Afrikanischer Nationen-Pokal (AFCON)",
+        "C: Copa América",
+        "D: Asien-Pokal"
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Copa América ist das älteste Fußballturnier für Nationalmannschaften und wurde 1910 gegründet. Im Gegensatz dazu wurden die UEFA Europameisterschaft und die anderen genannten Turniere später ins Leben gerufen und haben daher nicht die gleiche historische Tradition.",
+      "difficulty": 10
+    },
+    {
+      "category": "Glaube & Religion",
+      "topic": "Klassische & nordische Mythologien",
+      "question": "Welche der folgenden Mythen beschreibt eine Schöpfungsgeschichte, die sowohl bei den alten Griechen als auch in der nordischen Mythologie vorkommt?",
+      "choices": [
+        "A: Der Gott Odin erschafft die erste Menschheit aus Holz.",
+        "B: Der Chaoszustand vor der Schöpfung wird durch den Kampf zwischen den Göttern und den Urwesen überwunden.",
+        "C: Der Weltenbaum Yggdrasil verbindet die neun Welten und symbolisiert die Schöpfung.",
+        "D: Der Titan Prometheus stiehlt das Feuer von den Göttern und gibt es den Menschen."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Schöpfungsgeschichte von Prometheus, der das Feuer stiehlt, ist ein zentrales Element in der griechischen Mythologie und hat Parallelen zu vielen nordischen Mythen über den Umgang mit göttlichen Geschenken. Beide Mythologien thematisieren den Konflikt zwischen Göttern und Menschen sowie die Herausforderungen der Schöpfung und des Wissens.",
+      "difficulty": 10
+    },
+    {
+      "category": "Essen und Trinken",
+      "topic": "Ernährung",
+      "question": "Welche Aussage über ungesättigte Fettsäuren trifft zu?",
+      "choices": [
+        "A: Sie fördern in der Regel den Cholesterinspiegel und sollten bei der Ernährung gemieden werden.",
+        "B: Sie sind überwiegend in tierischen Fetten enthalten und ungesund für den Menschen.",
+        "C: Sie sind nur in gesättigten Fetten vorhanden und tragen zur Fettverbrennung bei.",
+        "D: Sie können zu einer Emulsion führen und sind häufig in pflanzlichen Ölen sowie fettem Fisch zu finden."
+      ],
+      "correct_answer": "D",
+      "explanation": "Ungesättigte Fettsäuren, insbesondere Omega-3- und Omega-6-Fettsäuren, sind in pflanzlichen Ölen und fettem Fisch reichlich vorhanden und tragen zu einer gesunden Ernährung bei. Diese Fette können Emulsionen bilden und haben positive Effekte auf das Herz-Kreislauf-System.",
+      "difficulty": 10
+    },
+    {
+      "category": "Technologie",
+      "topic": "Soziale Medien",
+      "question": "Welcher Algorithmus wird häufig verwendet, um personalisierte Inhalte in sozialen Medien zu kuratieren?",
+      "choices": [
+        "A: Dijkstra-Algorithmus",
+        "B: Collaborative Filtering",
+        "C: A* Suchalgorithmus",
+        "D: RSA-Verschlüsselung"
+      ],
+      "correct_answer": "B",
+      "explanation": "Collaborative Filtering ist ein weit verbreiteter Algorithmus, der auf Benutzerpräferenzen basiert, um personalisierte Empfehlungen zu erstellen. Im Gegensatz dazu sind die anderen Optionen auf verschiedene Bereiche der Informatik fokussiert, wie beispielsweise Graphensuche oder Kryptographie, die in sozialen Medien nicht direkt zur Inhaltsempfehlung verwendet werden.",
+      "difficulty": 8
+    }
+  ]
+}
