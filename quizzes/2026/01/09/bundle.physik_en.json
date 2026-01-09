@@ -1,0 +1,168 @@
+{
+  "date": "2026-01-09",
+  "generated_at": "2026-01-09T04:03:19Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Wechselwirkung einer Ladungsverteilung mit äußerem Feld",
+      "question": "What happens to a charge distribution when exposed to an external electric field?",
+      "choices": [
+        "A: It becomes polarized.",
+        "B: It always remains neutral.",
+        "C: It remains unchanged.",
+        "D: It is set in motion without being polarized."
+      ],
+      "correct_answer": "A",
+      "explanation": "When a charge distribution is exposed to an external electric field, the positive and negative charges experience different forces, leading to a polarization of the charge distribution. This polarization can alter the properties of the material within the field.",
+      "difficulty": 2,
+      "subcategory": "Wechselwirkung einer Ladungsverteilung mit äußerem Feld"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Kritische Exponenten",
+      "question": "Which critical exponent describes the divergence of specific heat at constant pressure conditions near the critical point?",
+      "choices": [
+        "A: γ (gamma)",
+        "B: β (beta)",
+        "C: δ (delta)",
+        "D: α (alpha)"
+      ],
+      "correct_answer": "A",
+      "explanation": "The critical exponent γ (gamma) describes the divergence of specific heat at constant pressure near the critical point. This relationship is crucial for understanding phase transitions and the thermodynamic properties of systems near critical points.",
+      "difficulty": 8,
+      "subcategory": "Kritische Exponenten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Hookesches Gesetz",
+      "question": "Which relationship describes Hooke's Law for an ideal spring?",
+      "choices": [
+        "A: F = k * x",
+        "B: F = m * g",
+        "C: F = 1/2 * k * x^2",
+        "D: F = m * a"
+      ],
+      "correct_answer": "A",
+      "explanation": "Hooke's Law states that the force F required to stretch or compress a spring by a distance x is proportional to the extension or compression. This proportionality is determined by the spring constant k.",
+      "difficulty": 7,
+      "subcategory": "Hookesches Gesetz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Zentraler Grenzwertsatz",
+      "question": "What does the central limit theorem state in statistics?",
+      "choices": [
+        "A: Every random variable has a normal distribution.",
+        "B: The sum of many independent random variables approaches a normal distribution.",
+        "C: The mean of a random variable remains constant.",
+        "D: There is always a linear relationship between two random variables."
+      ],
+      "correct_answer": "B",
+      "explanation": "The central limit theorem states that the sum or average of many independent random variables, regardless of their original distribution, approaches a normal distribution when the number of variables is large enough. This is a fundamental concept in statistics with broad applications.",
+      "difficulty": 3,
+      "subcategory": "Zentraler Grenzwertsatz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Interpretation der Strukturfunktionen (Partonmodell)",
+      "question": "Which concept in the parton model describes how the structure functions of a proton influence the distribution of quarks and gluons?",
+      "choices": [
+        "A: Neutrino oscillation",
+        "B: Higgs mechanism",
+        "C: Quark model",
+        "D: Parton Distribution Functions"
+      ],
+      "correct_answer": "D",
+      "explanation": "The Parton Distribution Functions (PDFs) describe the probability of finding a specific particle (quark or gluon) within a proton with a certain energy. These functions are crucial for understanding the structure of hadrons and their interactions at high energies.",
+      "difficulty": 7,
+      "subcategory": "Interpretation der Strukturfunktionen (Partonmodell)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Plancksche Strahlungsformel",
+      "question": "What does Planck's radiation formula describe regarding the emission of radiation by a black body?",
+      "choices": [
+        "A: The energy of emitted radiation depends on the temperature of the body and the wavelength.",
+        "B: The energy of emitted radiation is independent of the temperature of the body.",
+        "C: The frequency of emitted radiation is always constant, regardless of the temperature.",
+        "D: Planck's radiation formula applies only to idealized, unrealizable states."
+      ],
+      "correct_answer": "A",
+      "explanation": "Planck's radiation formula describes how the energy of radiation emitted by a black body depends on its temperature and wavelength. It shows that at higher temperatures, more energy is emitted at shorter wavelengths, explaining the properties of the black body.",
+      "difficulty": 8,
+      "subcategory": "Plancksche Strahlungsformel"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Phasenübergänge (Übersicht)",
+      "question": "Which phase transition describes the transition from solid to liquid?",
+      "choices": [
+        "A: Melting",
+        "B: Solidification",
+        "C: Evaporation",
+        "D: Sublimation"
+      ],
+      "correct_answer": "A",
+      "explanation": "The process of melting describes the transition of a substance from the solid to the liquid phase when heated. In contrast, solidification refers to the transition from liquid to solid.",
+      "difficulty": 5,
+      "subcategory": "Phasenübergänge (Übersicht)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Streuung elektromagnetischer Wellen",
+      "question": "Which statement about Rayleigh scattering is correct?",
+      "choices": [
+        "A: Rayleigh scattering can only be observed in gases.",
+        "B: Rayleigh scattering has no effect on the visibility of objects.",
+        "C: Rayleigh scattering is responsible for the bluish color of the sky.",
+        "D: Rayleigh scattering occurs preferentially at long wavelengths."
+      ],
+      "correct_answer": "C",
+      "explanation": "Rayleigh scattering is a physical phenomenon that occurs when light is scattered by particles smaller than the wavelength of the light. It is responsible for the bluish color of the sky as short-wavelength light is scattered more than long-wavelength light. The other statements are incorrect or misleading.",
+      "difficulty": 8,
+      "subcategory": "Streuung elektromagnetischer Wellen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Wärmeleitung (Phononen)",
+      "question": "What are phonons in solid-state physics?",
+      "choices": [
+        "A: Atoms moving in a solid.",
+        "B: Quasiparticles responsible for heat conduction.",
+        "C: Molecules determining the structure of a crystal.",
+        "D: Particles conducting electric current in metals."
+      ],
+      "correct_answer": "B",
+      "explanation": "Phonons are quantized vibrations in the crystal lattice of solids and play a crucial role in heat conduction. They are responsible for the transport of heat through lattice vibrations in a material.",
+      "difficulty": 5,
+      "subcategory": "Wärmeleitung (Phononen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Feldverhalten an Grenzflächen",
+      "question": "What happens to an electric field when it encounters the interface between two different materials?",
+      "choices": [
+        "A: The field disappears completely.",
+        "B: The field is partially reflected and partially refracted.",
+        "C: The field is amplified.",
+        "D: The field remains unchanged."
+      ],
+      "correct_answer": "B",
+      "explanation": "When an electric field encounters the interface between two materials, it is partially reflected and partially refracted. This effect depends on the electrical properties of the materials, such as permittivity.",
+      "difficulty": 3,
+      "subcategory": "Feldverhalten an Grenzflächen"
+    }
+  ]
+}

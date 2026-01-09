@@ -1,0 +1,169 @@
+{
+  "date": "2026-01-09",
+  "generated_at": "2026-01-09T04:02:37Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Wechselwirkung einer Ladungsverteilung mit äußerem Feld",
+      "question": "Was passiert mit einer Ladungsverteilung, wenn sie einem äußeren elektrischen Feld ausgesetzt wird?",
+      "choices": [
+        "A: Sie wird polarisiert.",
+        "B: Sie wird immer neutral.",
+        "C: Sie bleibt unverändert.",
+        "D: Sie wird in Bewegung gesetzt, ohne polarisiert zu werden."
+      ],
+      "correct_answer": "A",
+      "explanation": "Wenn eine Ladungsverteilung einem äußeren elektrischen Feld ausgesetzt wird, erfahren die positiven und negativen Ladungen unterschiedliche Kräfte, was zu einer Polarisation der Ladungsverteilung führt. Diese Polarisation kann die Eigenschaften des Materials innerhalb des Feldes verändern.",
+      "difficulty": 2,
+      "subcategory": "Wechselwirkung einer Ladungsverteilung mit äußerem Feld"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Kritische Exponenten",
+      "question": "Welcher kritische Exponent beschreibt in der Nähe des kritischen Punktes die Divergenz der spezifischen Wärme bei konstanter Druckbedingungen?",
+      "choices": [
+        "A: γ (gamma)",
+        "B: β (beta)",
+        "C: δ (delta)",
+        "D: α (alpha)"
+      ],
+      "correct_answer": "A",
+      "explanation": "Der kritische Exponent γ (gamma) beschreibt die Divergenz der spezifischen Wärme bei konstantem Druck in der Nähe des kritischen Punktes. Diese Beziehung ist entscheidend für das Verständnis des Phasenübergangs und der thermodynamischen Eigenschaften von Systemen in der Nähe der kritischen Punkte.",
+      "difficulty": 8,
+      "subcategory": "Kritische Exponenten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Hookesches Gesetz",
+      "question": "Welcher Zusammenhang beschreibt das Hookesche Gesetz für eine ideale Feder?",
+      "choices": [
+        "A: F = k * x",
+        "B: F = m * g",
+        "C: F = 1/2 * k * x^2",
+        "D: F = m * a"
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Hookesche Gesetz besagt, dass die Kraft F, die benötigt wird, um eine Feder um eine Strecke x zu dehnen oder zu komprimieren, proportional zur Dehnung oder Kompression ist. Diese Proportionalität wird durch die Federkonstante k bestimmt.",
+      "difficulty": 7,
+      "subcategory": "Hookesches Gesetz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Zentraler Grenzwertsatz",
+      "question": "Was besagt der zentrale Grenzwertsatz in der Statistik?",
+      "choices": [
+        "A: Jede Zufallsvariable hat eine Normalverteilung.",
+        "B: Die Summe vieler unabhängiger Zufallsvariablen nähert sich einer Normalverteilung.",
+        "C: Der Mittelwert einer Zufallsvariable bleibt konstant.",
+        "D: Es gibt immer eine lineare Beziehung zwischen zwei Zufallsvariablen."
+      ],
+      "correct_answer": "B",
+      "explanation": "Der zentrale Grenzwertsatz besagt, dass die Summe oder der Durchschnitt vieler unabhängiger Zufallsvariablen, unabhängig von ihrer ursprünglichen Verteilung, sich einer Normalverteilung annähert, wenn die Anzahl der Variablen groß genug ist. Dies ist ein zentrales Konzept in der Statistik und hat weitreichende Anwendungen.",
+      "difficulty": 3,
+      "subcategory": "Zentraler Grenzwertsatz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Interpretation der Strukturfunktionen (Partonmodell)",
+      "question": "Welches Konzept beschreibt im Partonmodell, wie die Strukturfunktionen eines Protons die Verteilung von Quarks und Gluonen beeinflussen?",
+      "choices": [
+        "A: Neutrino-Oszillation",
+        "B: Higgs-Mechanismus",
+        "C: Quark-Modell",
+        "D: Parton-Distribution-Funktionen"
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Parton-Distribution-Funktionen (PDFs) beschreiben die Wahrscheinlichkeit, ein bestimmtes Teilchen (Quark oder Gluon) innerhalb eines Protons mit einer bestimmten Energie zu finden. Diese Funktionen sind entscheidend für das Verständnis der Struktur von Hadronen und deren Wechselwirkungen bei hohen Energien.",
+      "difficulty": 7,
+      "subcategory": "Interpretation der Strukturfunktionen (Partonmodell)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Plancksche Strahlungsformel",
+      "question": "Was beschreibt die Plancksche Strahlungsformel in Bezug auf die Emission von Strahlung durch schwarzen Körper?",
+      "choices": [
+        "A: Die Energie der emittierten Strahlung hängt von der Temperatur des Körpers und der Wellenlänge ab.",
+        "B: Die Energie der emittierten Strahlung ist unabhängig von der Temperatur des Körpers.",
+        "C: Die Frequenz der emittierten Strahlung ist immer konstant, unabhängig von der Temperatur.",
+        "D: Die Plancksche Strahlungsformel gilt nur für idealisierte, nicht realisierbare Zustände."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Plancksche Strahlungsformel beschreibt, wie die Energie der emittierten Strahlung eines schwarzen Körpers von seiner Temperatur und der Wellenlänge abhängt. Sie zeigt, dass bei höheren Temperaturen mehr Energie in kürzeren Wellenlängen emittiert wird, was die Eigenschaften des schwarzen Körpers erklärt.",
+      "difficulty": 8,
+      "subcategory": "Plancksche Strahlungsformel"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Phasenübergänge (Übersicht)",
+      "question": "Welcher Phasenübergang beschreibt den Übergang von fest zu flüssig?",
+      "choices": [
+        "A: Schmelzen",
+        "B: Erstarren",
+        "C: Verdampfen",
+        "D: Sublimieren"
+      ],
+      "correct_answer": "A",
+      "explanation": "Der Prozess des Schmelzens beschreibt den Übergang eines Stoffes von der festen in die flüssige Phase, wenn er erwärmt wird. Im Gegensatz dazu bezieht sich das Erstarren auf den Übergang von flüssig zu fest.",
+      "difficulty": 5,
+      "subcategory": "Phasenübergänge (Übersicht)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Streuung elektromagnetischer Wellen",
+      "question": "Welche Aussage zur Rayleigh-Streuung ist korrekt?",
+      "choices": [
+        "A: Rayleigh-Streuung kann nur in Gasen beobachtet werden.",
+        "B: Rayleigh-Streuung hat keinen Einfluss auf die Sichtbarkeit von Objekten.",
+        "C: Rayleigh-Streuung ist verantwortlich für die bläuliche Farbe des Himmels.",
+        "D: Rayleigh-Streuung tritt bevorzugt bei langen Wellenlängen auf."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Rayleigh-Streuung ist ein physikalisches Phänomen, das bei der Streuung von Licht an Teilchen kleiner als die Wellenlänge des Lichts auftritt. Sie ist verantwortlich für die bläuliche Farbe des Himmels, da kurzwelliges Licht stärker gestreut wird als langwelliges Licht. Die anderen Aussagen sind falsch oder irreführend.",
+      "difficulty": 8,
+      "subcategory": "Streuung elektromagnetischer Wellen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Wärmeleitung (Phononen)",
+      "question": "Was sind Phononen in der Festkörperphysik?",
+      "choices": [
+        "A: Atome, die sich in einem Festkörper bewegen.",
+        "B: Quasiteilchen, die für die Wärmeleitung verantwortlich sind.",
+        "C: Moleküle, die die Struktur eines Kristalls bestimmen.",
+        "D: Teilchen, die den elektrischen Strom in Metallen leiten."
+      ],
+      "correct_answer": "B",
+      "explanation": "Phononen sind quantisierte Schwingungen im Kristallgitter von Festkörpern und spielen eine entscheidende Rolle bei der Wärmeleitung. Sie sind verantwortlich für den Transport von Wärme durch die lattice vibrations in einem Material.",
+      "difficulty": 5,
+      "subcategory": "Wärmeleitung (Phononen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Feldverhalten an Grenzflächen",
+      "question": "Was passiert mit einem elektrischen Feld, wenn es an die Grenzfläche zwischen zwei verschiedenen Materialien trifft?",
+      "choices": [
+        "A: Das Feld verschwindet vollständig.",
+        "B: Das Feld wird teilweise reflektiert und teilweise gebrochen.",
+        "C: Das Feld wird verstärkt.",
+        "D: Das Feld bleibt unverändert."
+      ],
+      "correct_answer": "B",
+      "explanation": "Wenn ein elektrisches Feld an die Grenzfläche zwischen zwei Materialien trifft, wird es teilweise reflektiert und teilweise gebrochen. Dieser Effekt hängt von den elektrischen Eigenschaften der Materialien ab, wie der Permittivität.",
+      "difficulty": 3,
+      "subcategory": "Feldverhalten an Grenzflächen"
+    }
+  ]
+}
