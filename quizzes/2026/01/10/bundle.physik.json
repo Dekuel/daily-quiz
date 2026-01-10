@@ -1,0 +1,169 @@
+{
+  "date": "2026-01-10",
+  "generated_at": "2026-01-10T03:56:21Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Quarkstruktur der Nukleonen",
+      "question": "Welches der folgenden Teilchen besteht aus drei Quarks?",
+      "choices": [
+        "A: Neutrino",
+        "B: Photon",
+        "C: Elektron",
+        "D: Proton"
+      ],
+      "correct_answer": "D",
+      "explanation": "Ein Proton ist ein baryonisches Teilchen, das aus drei Quarks besteht: zwei Up-Quarks und ein Down-Quark. Die anderen genannten Teilchen, wie Elektron, Neutrino und Photon, sind keine baryonischen Teilchen und bestehen nicht aus Quarks.",
+      "difficulty": 1,
+      "subcategory": "Quarkstruktur der Nukleonen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Quadrupol- und magnetische Dipolstrahlung",
+      "question": "Welche der folgenden Aussagen beschreibt am besten die magnetische Dipolstrahlung?",
+      "choices": [
+        "A: Sie tritt nur in statischen elektrischen Feldern auf.",
+        "B: Sie entsteht durch die Beschleunigung von elektrischen Ladungen.",
+        "C: Sie ist unabhängig von der Bewegung von Ladungen.",
+        "D: Sie entsteht bei der Änderung des magnetischen Moments eines Systems."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die magnetische Dipolstrahlung wird erzeugt, wenn sich das magnetische Moment eines Systems ändert, typischerweise durch die Beschleunigung von bewegten Ladungen. Diese Strahlung spielt eine wichtige Rolle in der Elektrodynamik, insbesondere bei Wechselstrom und wechselnden Magnetfeldern.",
+      "difficulty": 5,
+      "subcategory": "Quadrupol- und magnetische Dipolstrahlung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Einschub über Lichtwellen (Optikbezug)",
+      "question": "Was beschreibt das Licht, das wir sehen?",
+      "choices": [
+        "A: Lichtwellen",
+        "B: Erdbebenwellen",
+        "C: Schallwellen",
+        "D: Wasserwellen"
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Licht, das wir sehen, besteht aus Lichtwellen, die elektromagnetische Strahlung sind. Diese Wellen haben eine bestimmte Wellenlänge, die das sichtbare Spektrum umfasst und somit unsere Wahrnehmung von Farben ermöglicht.",
+      "difficulty": 1,
+      "subcategory": "Einschub über Lichtwellen (Optikbezug)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Inertialsysteme (Definition und Eigenschaften)",
+      "question": "Was beschreibt ein Inertialsystem in der Physik?",
+      "choices": [
+        "A: Ein Bezugssystem, in dem ein ruhendes Objekt ohne äußere Kräfte bleibt.",
+        "B: Ein Bezugssystem, das nur für relativistische Geschwindigkeiten gültig ist.",
+        "C: Ein Bezugssystem, in dem die Zeit langsamer vergeht.",
+        "D: Ein Bezugssystem, in dem alle Bewegungen beschleunigt sind."
+      ],
+      "correct_answer": "A",
+      "explanation": "Ein Inertialsystem ist ein Bezugssystem, in dem ein ruhendes Objekt in Ruhe bleibt oder sich mit konstanter Geschwindigkeit bewegt, solange keine äußeren Kräfte wirken. In solchen Systemen gelten die Gesetze der klassischen Mechanik ohne Anpassungen.",
+      "difficulty": 3,
+      "subcategory": "Inertialsysteme (Definition und Eigenschaften)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Poisson-Klammer (Definition & Bedeutung)",
+      "question": "Was beschreibt die Poisson-Klammer in der analytischen Mechanik?",
+      "choices": [
+        "A: Die Energieerhaltung in einem geschlossenen System.",
+        "B: Die Wechselwirkung zwischen verschiedenen Kräften.",
+        "C: Die Zeitentwicklung eines Systems in der klassischen Mechanik.",
+        "D: Die Beziehung zwischen den Zustandsgrößen eines Systems."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Poisson-Klammer ist ein wichtiges mathematisches Werkzeug in der analytischen Mechanik, das die Beziehung zwischen den Zustandsgrößen eines Systems beschreibt. Sie ermöglicht die Ableitung von Bewegungsgleichungen und spielt eine zentrale Rolle in der Hamiltonschen Mechanik.",
+      "difficulty": 5,
+      "subcategory": "Poisson-Klammer (Definition & Bedeutung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Freie Achsen",
+      "question": "Was beschreibt eine freie Achse in der klassischen Mechanik?",
+      "choices": [
+        "A: Eine Achse, die nur in Flüssigkeiten vorkommt.",
+        "B: Eine Achse, die nur in der Nähe eines Magnetfelds existiert.",
+        "C: Eine Achse, um die sich ein Körper ohne äußere Einflüsse drehen kann.",
+        "D: Eine Achse, die immer senkrecht zur Erdoberfläche steht."
+      ],
+      "correct_answer": "C",
+      "explanation": "Eine freie Achse ist eine imaginäre Linie, um die sich ein Körper drehen kann, ohne dass äußere Kräfte eingreifen. Diese Achse ist entscheidend für die Analyse der Bewegung und Rotation eines Körpers in der klassischen Mechanik.",
+      "difficulty": 2,
+      "subcategory": "Freie Achsen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Entropie im kanonischen Ensemble & Extremalität",
+      "question": "Was beschreibt die Entropie in einem kanonischen Ensemble?",
+      "choices": [
+        "A: Die maximale Temperatur eines Systems.",
+        "B: Die Anzahl der Teilchen in einem System.",
+        "C: Die Verteilung von Teilchen in verschiedenen Energiezuständen.",
+        "D: Die Geschwindigkeit der Teilchenbewegung."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Entropie im kanonischen Ensemble beschreibt die Wahrscheinlichkeit, dass sich ein System in einem bestimmten Mikrozustand befindet, basierend auf der Verteilung der Teilchen in den Energiezuständen. Höhere Entropie bedeutet eine größere Anzahl an zugelassenen Mikrozuständen.",
+      "difficulty": 5,
+      "subcategory": "Entropie im kanonischen Ensemble & Extremalität"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Äußere Parameter & Druck",
+      "question": "Wie beeinflusst der Druck in einem idealen Gas das chemische Potenzial der Teilchen?",
+      "choices": [
+        "A: Das chemische Potenzial bleibt unabhängig vom Druck.",
+        "B: Das chemische Potenzial sinkt mit steigendem Druck.",
+        "C: Der Druck hat keinen Einfluss auf das chemische Potenzial.",
+        "D: Das chemische Potenzial steigt mit steigendem Druck."
+      ],
+      "correct_answer": "D",
+      "explanation": "In der statistischen Mechanik ist das chemische Potenzial eines idealen Gases direkt proportional zum Druck. Ein Anstieg des Drucks führt zu einer höheren Anzahl von Teilchen pro Volumeneinheit, was das chemische Potenzial erhöht.",
+      "difficulty": 8,
+      "subcategory": "Äußere Parameter & Druck"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Nicht-holonome Systeme (Lagrange)",
+      "question": "Was zeichnet ein nicht-holonoms System in der Lagrange-Mechanik aus?",
+      "choices": [
+        "A: Es gibt keine holonomen Einschränkungen.",
+        "B: Es können keine nicht-konservativen Kräfte berücksichtigt werden.",
+        "C: Alle Bewegungen sind unabhängig von der Zeit.",
+        "D: Die Bewegungsgleichungen sind immer linear."
+      ],
+      "correct_answer": "A",
+      "explanation": "Ein nicht-holonoms System hat Einschränkungen, die nicht als integrale Bedingungen beschrieben werden können, was bedeutet, dass die Bewegung nicht vollständig durch holonome Einschränkungen definiert ist. Dies führt zu komplexeren Bewegungsgleichungen, die nicht einfach zu lösen sind.",
+      "difficulty": 5,
+      "subcategory": "Nicht-holonome Systeme (Lagrange)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Quadratintegrable Funktionen H=L^2",
+      "question": "Welche Bedingung muss eine Funktion erfüllen, um quadratintegrabel zu sein und somit in den Raum H=L^2 zu gehören?",
+      "choices": [
+        "A: Die Funktion muss nur an einer Stelle differenzierbar sein.",
+        "B: Das Integral des Betrags der Funktion zum Quadrat über ihren Definitionsbereich muss endlich sein.",
+        "C: Die Funktion muss periodisch sein.",
+        "D: Die Funktion muss auf einem kompakten Intervall stetig sein."
+      ],
+      "correct_answer": "B",
+      "explanation": "Eine Funktion ist quadratintegrabel, wenn das Integral des Betrags der Funktion zum Quadrat über ihren gesamten Definitionsbereich endlich ist. Dies ist eine zentrale Bedingung, um in den Hilbertraum H=L^2 aufgenommen zu werden.",
+      "difficulty": 3,
+      "subcategory": "Quadratintegrable Funktionen H=L^2"
+    }
+  ]
+}
