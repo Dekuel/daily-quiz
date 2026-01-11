@@ -1,0 +1,169 @@
+{
+  "date": "2026-01-11",
+  "generated_at": "2026-01-11T04:09:58Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Hookesches Gesetz",
+      "question": "Was beschreibt das Hookesche Gesetz?",
+      "choices": [
+        "A: Die Energie eines Körpers bleibt immer konstant.",
+        "B: Die Geschwindigkeit eines Körpers ist konstant.",
+        "C: Die Kraft ist proportional zur Dehnung einer Feder.",
+        "D: Der Druck in einem Gas ist konstant."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Hookesche Gesetz besagt, dass die Dehnung oder Stauchung einer Feder direkt proportional zur angelegten Kraft ist, solange die elastischen Grenzen der Feder nicht überschritten werden. Dies ist eine fundamentale Beziehung in der klassischen Mechanik und beschreibt das Verhalten elastischer Materialien.",
+      "difficulty": 2,
+      "subcategory": "Hookesches Gesetz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Ladungsunabhängigkeit der Kernkraft & Isospin",
+      "question": "Welche Aussage beschreibt am besten die Ladungsunabhängigkeit der Kernkraft?",
+      "choices": [
+        "A: Die Kernkraft wirkt gleich stark auf Protonen und Neutronen unabhängig von ihrer elektrischen Ladung.",
+        "B: Die Kernkraft ist ausschließlich zwischen geladenen Teilchen wirksam.",
+        "C: Die Kernkraft wirkt nur auf Atomkerne mit einer geraden Anzahl von Protonen.",
+        "D: Die Stärke der Kernkraft hängt von der Ladung der Teilchen ab."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Kernkraft ist tatsächlich unabhängig von der elektrischen Ladung der Teilchen, was bedeutet, dass sie gleich stark auf Protonen und Neutronen wirkt. Diese Eigenschaft ist entscheidend für die Stabilität von Atomkernen.",
+      "difficulty": 6,
+      "subcategory": "Ladungsunabhängigkeit der Kernkraft & Isospin"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Kanonische Gleichungen (Hamilton-Gleichungen)",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt die Beziehung zwischen den Hamilton-Gleichungen und der Zeitentwicklung eines Systems?",
+      "choices": [
+        "A: Die Hamilton-Gleichungen sind nur für zeitunabhängige Systeme anwendbar.",
+        "B: Die Hamilton-Gleichungen folgen direkt aus dem Prinzip der kleinsten Aktion und sind unabhängig von den Kräften im System.",
+        "C: Die Hamilton-Gleichungen beschreiben die Zeitentwicklung von Zustandsgrößen unabhängig von der Energie des Systems.",
+        "D: Die Hamilton-Gleichungen stellen eine Beziehung zwischen den allgemeinen Koordinaten und den Impulsen eines Systems dar und leiten die Zeitentwicklung aus der Hamilton-Funktion ab."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Hamilton-Gleichungen beschreiben die dynamische Entwicklung eines Systems in Form von Koordinaten und Impulsen. Sie leiten sich aus der Hamilton-Funktion ab und sind entscheidend für die Analyse der Zeitentwicklung in der analytischen Mechanik.",
+      "difficulty": 8,
+      "subcategory": "Kanonische Gleichungen (Hamilton-Gleichungen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Wirkungsprinzipien (Überblick)",
+      "question": "Welches Prinzip besagt, dass die Bewegung eines Systems von der Minimierung der Wirkung abhängt?",
+      "choices": [
+        "A: Prinzip der konservativen Kräfte",
+        "B: Prinzip der relativen Bewegung",
+        "C: Prinzip der kleinsten Wirkung",
+        "D: Prinzip der maximalen Energie"
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Prinzip der kleinsten Wirkung ist ein zentrales Konzept in der analytischen Mechanik. Es besagt, dass die Bahn eines Systems so gewählt wird, dass die Wirkung, ein bestimmtes Integral der Lagrange-Funktion, minimiert wird.",
+      "difficulty": 4,
+      "subcategory": "Wirkungsprinzipien (Überblick)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Helmholtzsche Wirbelsätze",
+      "question": "Was besagt der Helmholtzsche Wirbelsatz in der klassischen Mechanik?",
+      "choices": [
+        "A: Ein geschlossener Wirbel erzeugt eine unendliche Kraft.",
+        "B: Ein Wirbel ist immer stabil und kann nicht zerfallen.",
+        "C: Die Summe der Wirbelstärken ist konstant.",
+        "D: Ein Wirbel kann nicht in einem ruhenden Medium existieren."
+      ],
+      "correct_answer": "C",
+      "explanation": "Der Helmholtzsche Wirbelsatz besagt, dass in einem idealen Fluid die Summe der Wirbelstärken in einem geschlossenen System konstant bleibt. Dies ist wichtig für das Verständnis von Strömungen und der Erhaltung von Drehimpuls in der Fluidmechanik.",
+      "difficulty": 4,
+      "subcategory": "Helmholtzsche Wirbelsätze"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Wärmeleitung in Gasen",
+      "question": "Welches Gas leitet Wärme am besten?",
+      "choices": [
+        "A: Sauerstoff",
+        "B: Stickstoff",
+        "C: Wasserstoff",
+        "D: Helium"
+      ],
+      "correct_answer": "C",
+      "explanation": "Wasserstoff hat die höchste Wärmeleitfähigkeit unter den genannten Gasen. Dies liegt an seiner geringen Molekülmasse und der hohen Geschwindigkeit, mit der sich die Moleküle bewegen, was den Wärmeübergang effizienter macht.",
+      "difficulty": 2,
+      "subcategory": "Wärmeleitung in Gasen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Universalität & Skalenhypothese (statisch)",
+      "question": "Was besagt die Universalität in der statischen statistischen Mechanik?",
+      "choices": [
+        "A: Systeme mit unterschiedlichen mikroskopischen Details können ähnliche makroskopische Eigenschaften aufweisen.",
+        "B: Alle physikalischen Systeme verhalten sich immer identisch.",
+        "C: Die Energie eines Systems bleibt immer konstant.",
+        "D: Die Temperatur eines Systems kann unabhängig von seiner Größe betrachtet werden."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Universalität in der statistischen Mechanik bedeutet, dass Systeme, die auf verschiedenen mikroskopischen Ebenen unterschiedlich sind, dennoch ähnliche makroskopische Eigenschaften zeigen können. Dies ist besonders wichtig für das Verständnis komplexer Systeme und Phasenübergänge.",
+      "difficulty": 4,
+      "subcategory": "Universalität & Skalenhypothese (statisch)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Virialsatz & Äquipartition (Gleichverteilungssatz)",
+      "question": "Welcher der folgenden Aussagen beschreibt korrekt die Anwendung des Äquipartitionstheorems in einem thermodynamischen System?",
+      "choices": [
+        "A: Die Gesamtenergie eines Systems bleibt konstant, unabhängig von den Temperaturänderungen.",
+        "B: Äquipartition gilt nur für ideale Gase und nicht für reale Gase.",
+        "C: Jede Energieform in einem System trägt gleichmäßig zur Gesamtenergie des Systems bei.",
+        "D: Die kinetische Energie eines Teilchens ist immer gleich der potenziellen Energie."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Äquipartitionstheorem besagt, dass bei thermischen Gleichgewicht jeder Freiheitsgrad eines Systems im Durchschnitt die gleiche Energie trägt. Dies ist ein zentrales Konzept in der statistischen Mechanik und gilt für Systeme im thermodynamischen Gleichgewicht.",
+      "difficulty": 7,
+      "subcategory": "Virialsatz & Äquipartition (Gleichverteilungssatz)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Ehrenfest-Klassifikation",
+      "question": "Welches der folgenden Systeme wird in der Ehrenfest-Klassifikation als 'gemischtes' System klassifiziert?",
+      "choices": [
+        "A: Ein System, das keine Phasenänderungen durchläuft.",
+        "B: Ein System, das ausschließlich gasförmig ist.",
+        "C: Ein System, das sich stets im thermischen Gleichgewicht befindet.",
+        "D: Ein System, das sowohl feste als auch flüssige Phasen enthält."
+      ],
+      "correct_answer": "D",
+      "explanation": "In der Ehrenfest-Klassifikation werden Systeme mit mehreren Phasen, wie z.B. feste und flüssige Phasen, als 'gemischte' Systeme betrachtet. Diese Klassifikation hilft, die thermodynamischen Eigenschaften und das Verhalten solcher Systeme besser zu verstehen.",
+      "difficulty": 9,
+      "subcategory": "Ehrenfest-Klassifikation"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Elektroschwache Vereinheitlichung (SU(2)×U(1))",
+      "question": "Was beschreibt die elektroschwache Vereinheitlichung in der Teilchenphysik?",
+      "choices": [
+        "A: Die Vereinigung der elektromagnetischen und schwachen Wechselwirkungen.",
+        "B: Die Trennung von starken und schwachen Wechselwirkungen.",
+        "C: Die Verbindung von Gravitation und elektromagnetischen Kräften.",
+        "D: Die Wechselwirkung zwischen Elektronen und Protonen."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die elektroschwache Vereinheitlichung beschreibt die Theorie, die die elektromagnetische Kraft und die schwache Wechselwirkung in einem einheitlichen Rahmen zusammenfasst. Dies geschieht durch die Anwendung der Gruppenstruktur SU(2)×U(1), was zu einem tieferen Verständnis der fundamentalen Kräfte führt.",
+      "difficulty": 4,
+      "subcategory": "Elektroschwache Vereinheitlichung (SU(2)×U(1))"
+    }
+  ]
+}

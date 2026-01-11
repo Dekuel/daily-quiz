@@ -1,0 +1,168 @@
+{
+  "date": "2026-01-11",
+  "generated_at": "2026-01-11T04:10:23Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Hookesches Gesetz",
+      "question": "What does Hooke's Law describe?",
+      "choices": [
+        "Which statement best describes the charge independence of the nuclear force?",
+        "The nuclear force is actually independent of the electric charge of the particles, meaning it acts equally on protons and neutrons. This property is crucial for the stability of atomic nuclei.",
+        "Which of the following statements correctly describes the relationship between the Hamiltonian equations and the time evolution of a system?",
+        "The Hamiltonian equations describe the dynamic evolution of a system in terms of coordinates and momenta. They are derived from the Hamiltonian function and are crucial for analyzing the time evolution in analytical mechanics."
+      ],
+      "correct_answer": "C",
+      "explanation": "Hooke's Law states that the extension or compression of a spring is directly proportional to the applied force, as long as the elastic limits of the spring are not exceeded. This is a fundamental relationship in classical mechanics and describes the behavior of elastic materials.",
+      "difficulty": 2,
+      "subcategory": "Hookesches Gesetz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Ladungsunabhängigkeit der Kernkraft & Isospin",
+      "question": "What principle states that the motion of a system depends on the minimization of action?",
+      "choices": [
+        "What does the Helmholtz circulation theorem state in classical mechanics?",
+        "The Helmholtz circulation theorem states that in an ideal fluid, the sum of the circulations in a closed system remains constant. This is important for understanding flows and the conservation of angular momentum in fluid mechanics.",
+        "Which gas conducts heat the best?",
+        "Hydrogen has the highest thermal conductivity among the mentioned gases. This is due to its low molecular mass and the high speed at which the molecules move, making heat transfer more efficient."
+      ],
+      "correct_answer": "A",
+      "explanation": "The principle of least action is a central concept in analytical mechanics. It states that the path of a system is chosen so that the action, a specific integral of the Lagrangian function, is minimized.",
+      "difficulty": 6,
+      "subcategory": "Ladungsunabhängigkeit der Kernkraft & Isospin"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Kanonische Gleichungen (Hamilton-Gleichungen)",
+      "question": "What does universality in static statistical mechanics state?",
+      "choices": [
+        "Which of the following statements correctly describes the application of the equipartition theorem in a thermodynamic system?",
+        "The equipartition theorem states that in thermal equilibrium, each degree of freedom of a system carries the same average energy. This is a central concept in statistical mechanics and applies to systems in thermodynamic equilibrium.",
+        "Which of the following systems is classified as a 'mixed' system in the Ehrenfest classification?",
+        "In the Ehrenfest classification, systems with multiple phases, such as solid and liquid phases, are considered 'mixed' systems. This classification helps to better understand the thermodynamic properties and behavior of such systems."
+      ],
+      "correct_answer": "D",
+      "explanation": "Universality in statistical mechanics means that systems that are different at various microscopic levels can still exhibit similar macroscopic properties. This is particularly important for understanding complex systems and phase transitions.",
+      "difficulty": 8,
+      "subcategory": "Kanonische Gleichungen (Hamilton-Gleichungen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Wirkungsprinzipien (Überblick)",
+      "question": "What does the electroweak unification describe in particle physics?",
+      "choices": [
+        "A: Prinzip der konservativen Kräfte",
+        "B: Prinzip der relativen Bewegung",
+        "C: Prinzip der kleinsten Wirkung",
+        "D: Prinzip der maximalen Energie"
+      ],
+      "correct_answer": "C",
+      "explanation": "The electroweak unification describes the theory that combines the electromagnetic force and the weak interaction in a unified framework. This is achieved through the application of the group structure SU(2)×U(1), leading to a deeper understanding of fundamental forces.",
+      "difficulty": 4,
+      "subcategory": "Wirkungsprinzipien (Überblick)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Helmholtzsche Wirbelsätze",
+      "question": "Was besagt der Helmholtzsche Wirbelsatz in der klassischen Mechanik?",
+      "choices": [
+        "A: Ein geschlossener Wirbel erzeugt eine unendliche Kraft.",
+        "B: Ein Wirbel ist immer stabil und kann nicht zerfallen.",
+        "C: Die Summe der Wirbelstärken ist konstant.",
+        "D: Ein Wirbel kann nicht in einem ruhenden Medium existieren."
+      ],
+      "correct_answer": "C",
+      "explanation": "Der Helmholtzsche Wirbelsatz besagt, dass in einem idealen Fluid die Summe der Wirbelstärken in einem geschlossenen System konstant bleibt. Dies ist wichtig für das Verständnis von Strömungen und der Erhaltung von Drehimpuls in der Fluidmechanik.",
+      "difficulty": 4,
+      "subcategory": "Helmholtzsche Wirbelsätze"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Wärmeleitung in Gasen",
+      "question": "Welches Gas leitet Wärme am besten?",
+      "choices": [
+        "A: Sauerstoff",
+        "B: Stickstoff",
+        "C: Wasserstoff",
+        "D: Helium"
+      ],
+      "correct_answer": "C",
+      "explanation": "Wasserstoff hat die höchste Wärmeleitfähigkeit unter den genannten Gasen. Dies liegt an seiner geringen Molekülmasse und der hohen Geschwindigkeit, mit der sich die Moleküle bewegen, was den Wärmeübergang effizienter macht.",
+      "difficulty": 2,
+      "subcategory": "Wärmeleitung in Gasen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Universalität & Skalenhypothese (statisch)",
+      "question": "Was besagt die Universalität in der statischen statistischen Mechanik?",
+      "choices": [
+        "A: Systeme mit unterschiedlichen mikroskopischen Details können ähnliche makroskopische Eigenschaften aufweisen.",
+        "B: Alle physikalischen Systeme verhalten sich immer identisch.",
+        "C: Die Energie eines Systems bleibt immer konstant.",
+        "D: Die Temperatur eines Systems kann unabhängig von seiner Größe betrachtet werden."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Universalität in der statistischen Mechanik bedeutet, dass Systeme, die auf verschiedenen mikroskopischen Ebenen unterschiedlich sind, dennoch ähnliche makroskopische Eigenschaften zeigen können. Dies ist besonders wichtig für das Verständnis komplexer Systeme und Phasenübergänge.",
+      "difficulty": 4,
+      "subcategory": "Universalität & Skalenhypothese (statisch)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Virialsatz & Äquipartition (Gleichverteilungssatz)",
+      "question": "Welcher der folgenden Aussagen beschreibt korrekt die Anwendung des Äquipartitionstheorems in einem thermodynamischen System?",
+      "choices": [
+        "A: Die Gesamtenergie eines Systems bleibt konstant, unabhängig von den Temperaturänderungen.",
+        "B: Äquipartition gilt nur für ideale Gase und nicht für reale Gase.",
+        "C: Jede Energieform in einem System trägt gleichmäßig zur Gesamtenergie des Systems bei.",
+        "D: Die kinetische Energie eines Teilchens ist immer gleich der potenziellen Energie."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Äquipartitionstheorem besagt, dass bei thermischen Gleichgewicht jeder Freiheitsgrad eines Systems im Durchschnitt die gleiche Energie trägt. Dies ist ein zentrales Konzept in der statistischen Mechanik und gilt für Systeme im thermodynamischen Gleichgewicht.",
+      "difficulty": 7,
+      "subcategory": "Virialsatz & Äquipartition (Gleichverteilungssatz)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Ehrenfest-Klassifikation",
+      "question": "Welches der folgenden Systeme wird in der Ehrenfest-Klassifikation als 'gemischtes' System klassifiziert?",
+      "choices": [
+        "A: Ein System, das keine Phasenänderungen durchläuft.",
+        "B: Ein System, das ausschließlich gasförmig ist.",
+        "C: Ein System, das sich stets im thermischen Gleichgewicht befindet.",
+        "D: Ein System, das sowohl feste als auch flüssige Phasen enthält."
+      ],
+      "correct_answer": "D",
+      "explanation": "In der Ehrenfest-Klassifikation werden Systeme mit mehreren Phasen, wie z.B. feste und flüssige Phasen, als 'gemischte' Systeme betrachtet. Diese Klassifikation hilft, die thermodynamischen Eigenschaften und das Verhalten solcher Systeme besser zu verstehen.",
+      "difficulty": 9,
+      "subcategory": "Ehrenfest-Klassifikation"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Elektroschwache Vereinheitlichung (SU(2)×U(1))",
+      "question": "Was beschreibt die elektroschwache Vereinheitlichung in der Teilchenphysik?",
+      "choices": [
+        "A: Die Vereinigung der elektromagnetischen und schwachen Wechselwirkungen.",
+        "B: Die Trennung von starken und schwachen Wechselwirkungen.",
+        "C: Die Verbindung von Gravitation und elektromagnetischen Kräften.",
+        "D: Die Wechselwirkung zwischen Elektronen und Protonen."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die elektroschwache Vereinheitlichung beschreibt die Theorie, die die elektromagnetische Kraft und die schwache Wechselwirkung in einem einheitlichen Rahmen zusammenfasst. Dies geschieht durch die Anwendung der Gruppenstruktur SU(2)×U(1), was zu einem tieferen Verständnis der fundamentalen Kräfte führt.",
+      "difficulty": 4,
+      "subcategory": "Elektroschwache Vereinheitlichung (SU(2)×U(1))"
+    }
+  ]
+}
