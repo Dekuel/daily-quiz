@@ -1,0 +1,169 @@
+{
+  "date": "2026-01-12",
+  "generated_at": "2026-01-12T04:11:04Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Erzeugende Funktion (vier Typen)",
+      "question": "Welche der folgenden erzeugenden Funktionen beschreibt die Beziehung zwischen den Koordinaten und den Impulsen in der analytischen Mechanik?",
+      "choices": [
+        "A: Hamiltonsche Funktion",
+        "B: Kanonische Transformation",
+        "C: Lagrangesche Funktion",
+        "D: Zustandsgleichung"
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Hamiltonsche Funktion ist eine erzeugende Funktion, die die Beziehung zwischen den Koordinaten und den Impulsen beschreibt. Sie spielt eine zentrale Rolle in der Hamiltonschen Mechanik, wo sie die Dynamik eines Systems zusammenfasst.",
+      "difficulty": 6,
+      "subcategory": "Erzeugende Funktion (vier Typen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Eigenfunktionen der gebundenen Zustände (Laguerre)",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt die Eigenfunktionen der gebundenen Zustände eines Wasserstoffatoms?",
+      "choices": [
+        "A: Sie sind nur im positiven Bereich definiert.",
+        "B: Sie sind durch Laguerre-Polynome charakterisiert.",
+        "C: Sie sind identisch mit den Eigenfunktionen eines freien Teilchens.",
+        "D: Sie sind konstant über den Raum verteilt."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Eigenfunktionen der gebundenen Zustände eines Wasserstoffatoms werden durch Laguerre-Polynome dargestellt, die in der quantenmechanischen Beschreibung der Orbitale eine zentrale Rolle spielen. Diese Funktionen sind nicht konstant und nicht nur im positiven Bereich definiert, und sie unterscheiden sich grundlegend von den Eigenfunktionen eines freien Teilchens.",
+      "difficulty": 4,
+      "subcategory": "Eigenfunktionen der gebundenen Zustände (Laguerre)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Sternentwicklung & Elementsynthese",
+      "question": "Welche der folgenden Aussagen beschreibt am besten den Prozess der Kernfusion in Sternen der Hauptreihe?",
+      "choices": [
+        "A: Wasserstoffkerne fusionieren zu Heliumkernen unter Freisetzung von Energie.",
+        "B: Kohlenstoffkerne fusionieren zu Eisenkernen ohne Energiegewinn.",
+        "C: Heliumkerne zerfallen in Wasserstoffkerne und setzen dabei Energie frei.",
+        "D: Neutronen fusionieren zu Protonen und erzeugen dabei starke elektromagnetische Felder."
+      ],
+      "correct_answer": "A",
+      "explanation": "In Sternen der Hauptreihe findet die Kernfusion von Wasserstoff zu Helium statt, wobei eine erhebliche Menge an Energie freigesetzt wird. Dieser Prozess ist die Hauptquelle für die Energieerzeugung in Sternen und ermöglicht deren Stabilität über Milliarden von Jahren.",
+      "difficulty": 9,
+      "subcategory": "Sternentwicklung & Elementsynthese"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Kapillarität",
+      "question": "Was ist der Hauptgrund für die Kapillarität von Flüssigkeiten in engen Röhren?",
+      "choices": [
+        "A: Dichte",
+        "B: Oberflächenspannung",
+        "C: Viskosität",
+        "D: Temperatur"
+      ],
+      "correct_answer": "B",
+      "explanation": "Kapillarität tritt auf, weil die Oberflächenspannung der Flüssigkeit und die Wechselwirkungen zwischen der Flüssigkeit und der Wand der Röhre dazu führen, dass die Flüssigkeit in engen Räumen steigt oder sinkt. Oberflächenspannung ist der Hauptfaktor, der dieses Phänomen antreibt.",
+      "difficulty": 2,
+      "subcategory": "Kapillarität"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Kritisches Magnetfeld & thermodynamische Größen",
+      "question": "Was beschreibt das kritische Magnetfeld in der Festkörperphysik?",
+      "choices": [
+        "A: Die maximale Magnetfeldstärke, bei der ein Supraleiter supraleitend bleibt.",
+        "B: Die minimale Energie, die benötigt wird, um Elektronen aus einem Festkörper zu entfernen.",
+        "C: Die maximale Druckstärke, die ein Festkörper aushalten kann.",
+        "D: Die Temperatur, bei der ein Material seine magnetischen Eigenschaften verliert."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das kritische Magnetfeld ist die Grenzmagnetfeldstärke, bei der ein Supraleiter seine supraleitenden Eigenschaften verliert. Es ist ein wichtiges Konzept in der Festkörperphysik, das die Stabilität supraleitender Materialien beeinflusst.",
+      "difficulty": 1,
+      "subcategory": "Kritisches Magnetfeld & thermodynamische Größen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Paraxiale Strahlen & Matrizen-Verfahren",
+      "question": "Was beschreibt das paraxiale Strahlenmodell in der Optik?",
+      "choices": [
+        "A: Die Berücksichtigung der Beugung von Licht an Kanten.",
+        "B: Die Annahme, dass Lichtstrahlen in der Nähe der optischen Achse gerade verlaufen.",
+        "C: Die Analyse von Lichtstrahlen in einer Linse ohne Abbildungsfehler.",
+        "D: Die Berechnung der Lichtgeschwindigkeit in verschiedenen Medien."
+      ],
+      "correct_answer": "B",
+      "explanation": "Das paraxiale Strahlenmodell vereinfacht die Analyse von Lichtstrahlen, indem es annimmt, dass diese in der Nähe der optischen Achse verlaufen. Dadurch können komplexe optische Systeme leichter beschrieben und analysiert werden.",
+      "difficulty": 4,
+      "subcategory": "Paraxiale Strahlen & Matrizen-Verfahren"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Identische Teilchen: Ununterscheidbarkeit",
+      "question": "Was beschreibt das Prinzip der Ununterscheidbarkeit von identischen Teilchen in der Quantenmechanik?",
+      "choices": [
+        "A: Identische Teilchen können beliebig voneinander unterschieden werden.",
+        "B: Identische Teilchen verhalten sich immer wie klassische Teilchen.",
+        "C: Identische Teilchen können nur bei hohen Temperaturen unterschieden werden.",
+        "D: Identische Teilchen können nicht durch ihre Eigenschaften unterschieden werden."
+      ],
+      "correct_answer": "D",
+      "explanation": "Das Prinzip der Ununterscheidbarkeit besagt, dass identische Teilchen in der Quantenmechanik nicht durch ihre Eigenschaften, wie Position oder Spin, unterschieden werden können. Dies hat weitreichende Konsequenzen für die Statistiken und das Verhalten von Teilchen, wie z.B. Fermionen und Bosonen.",
+      "difficulty": 4,
+      "subcategory": "Identische Teilchen: Ununterscheidbarkeit"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Paramagnetismus",
+      "question": "Was ist eine Charakteristik von paramagnetischen Materialien?",
+      "choices": [
+        "A: Sie verlieren ihre magnetischen Eigenschaften bei tiefen Temperaturen.",
+        "B: Sie werden in Anwesenheit eines externen Magnetfeldes magnetisiert.",
+        "C: Sie haben ein permanentes Magnetfeld.",
+        "D: Sie sind bei hohen Temperaturen immer magnetisch."
+      ],
+      "correct_answer": "B",
+      "explanation": "Paramagnetische Materialien besitzen ungepaarte Elektronenspins, die in Anwesenheit eines externen Magnetfeldes ausgerichtet werden und somit magnetisiert werden. Im Gegensatz dazu haben ferromagnetische Materialien ein permanentes Magnetfeld, während diamagnetische Materialien keine magnetische Anziehung zeigen.",
+      "difficulty": 5,
+      "subcategory": "Paramagnetismus"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Kopplungsstärke des geladenen Stroms (G_F)",
+      "question": "Was beschreibt die Kopplungsstärke des geladenen Stroms (G_F) in der Teilchenphysik?",
+      "choices": [
+        "A: Die Wahrscheinlichkeit, dass W- und Z-Bosonen an Wechselwirkungen teilnehmen.",
+        "B: Die Geschwindigkeit von Licht im Vakuum.",
+        "C: Die Masse eines Elektrons.",
+        "D: Die Energie eines Photons."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Kopplungsstärke des geladenen Stroms (G_F) beschreibt die Stärke der Wechselwirkungen zwischen geladenen Teilchen und den vermittelnden Bosonen (W- und Z-Bosonen) in der schwachen Wechselwirkung. Diese Größe ist essenziell für das Verständnis von Prozessen wie Beta-Zerfällen in der Kernphysik.",
+      "difficulty": 1,
+      "subcategory": "Kopplungsstärke des geladenen Stroms (G_F)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Begrenzungen in optischen Systemen (Apertur, Vignettierung)",
+      "question": "Was beschreibt der Begriff 'Apertur' in optischen Systemen?",
+      "choices": [
+        "A: Die Anzahl der Linsen in einem optischen Gerät.",
+        "B: Die Art des verwendeten Lichts.",
+        "C: Die Öffnung, durch die Licht in ein optisches Gerät gelangt.",
+        "D: Die Brennweite des verwendeten Linsensystems."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Apertur ist die Öffnung eines optischen Systems, durch die Licht eintritt und somit die Lichtmenge bestimmt, die das System erreichen kann. Eine größere Apertur ermöglicht eine bessere Lichtaufnahme und somit hellere Bilder.",
+      "difficulty": 2,
+      "subcategory": "Begrenzungen in optischen Systemen (Apertur, Vignettierung)"
+    }
+  ]
+}

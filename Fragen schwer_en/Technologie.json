@@ -532,6 +532,20 @@
       "correct_answer": "B",
       "explanation": "GPT-3, developed by OpenAI, is an AI model based on the Transformer architecture known for generating human-like text. In contrast, BERT is specialized in processing context in texts, LSTM is a type of recurrent neural network, and CNN is often used for image processing.",
       "difficulty": 9
+    },
+    {
+      "category": "Technologie",
+      "topic": "KI & Zukunftstechnologien",
+      "question": "Which sensor system is commonly used in autonomous vehicles to perceive the environment?",
+      "choices": [
+        "A: Radar",
+        "B: Lidar",
+        "C: GPS",
+        "D: Thermometer"
+      ],
+      "correct_answer": "B",
+      "explanation": "Lidar is a frequently used sensor system in autonomous vehicles that uses laser beams to create precise 3D models of the surroundings. In contrast to GPS, which is used for location determination, Lidar allows for detailed object detection and distance measurements. Radar is also used but is not as precise as Lidar in terms of environmental perception.",
+      "difficulty": 4
     }
   ]
 }

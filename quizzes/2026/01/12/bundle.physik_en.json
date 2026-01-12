@@ -1,0 +1,168 @@
+{
+  "date": "2026-01-12",
+  "generated_at": "2026-01-12T04:11:41Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Erzeugende Funktion (vier Typen)",
+      "question": "Which of the following generating functions describes the relationship between coordinates and momenta in analytical mechanics?",
+      "choices": [
+        "A: Hamiltonian function",
+        "B: Canonical transformation",
+        "C: Lagrangian function",
+        "D: Equation of state"
+      ],
+      "correct_answer": "A",
+      "explanation": "The Hamiltonian function is a generating function that describes the relationship between coordinates and momenta. It plays a central role in Hamiltonian mechanics, summarizing the dynamics of a system.",
+      "difficulty": 6,
+      "subcategory": "Erzeugende Funktion (vier Typen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Eigenfunktionen der gebundenen Zustände (Laguerre)",
+      "question": "Which of the following statements correctly describes the eigenfunctions of the bound states of a hydrogen atom?",
+      "choices": [
+        "A: They are defined only in the positive range.",
+        "B: They are characterized by Laguerre polynomials.",
+        "C: They are identical to the eigenfunctions of a free particle.",
+        "D: They are constant throughout space."
+      ],
+      "correct_answer": "B",
+      "explanation": "The eigenfunctions of the bound states of a hydrogen atom are represented by Laguerre polynomials, which play a central role in the quantum mechanical description of orbitals. These functions are not constant and not defined only in the positive range, and they fundamentally differ from the eigenfunctions of a free particle.",
+      "difficulty": 4,
+      "subcategory": "Eigenfunktionen der gebundenen Zustände (Laguerre)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Sternentwicklung & Elementsynthese",
+      "question": "Which of the following statements best describes the process of nuclear fusion in main sequence stars?",
+      "choices": [
+        "A: Hydrogen nuclei fuse into helium nuclei releasing energy.",
+        "B: Carbon nuclei fuse into iron nuclei without energy gain.",
+        "C: Helium nuclei decay into hydrogen nuclei releasing energy.",
+        "D: Neutrons fuse into protons generating strong electromagnetic fields."
+      ],
+      "correct_answer": "A",
+      "explanation": "In main sequence stars, nuclear fusion of hydrogen into helium occurs, releasing a significant amount of energy. This process is the main source of energy generation in stars and enables their stability over billions of years.",
+      "difficulty": 9,
+      "subcategory": "Sternentwicklung & Elementsynthese"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Kapillarität",
+      "question": "What is the main reason for the capillarity of liquids in narrow tubes?",
+      "choices": [
+        "A: Density",
+        "B: Surface tension",
+        "C: Viscosity",
+        "D: Temperature"
+      ],
+      "correct_answer": "B",
+      "explanation": "Capillarity occurs because the surface tension of the liquid and the interactions between the liquid and the tube wall cause the liquid to rise or fall in narrow spaces. Surface tension is the main factor driving this phenomenon.",
+      "difficulty": 2,
+      "subcategory": "Kapillarität"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Kritisches Magnetfeld & thermodynamische Größen",
+      "question": "What does the critical magnetic field in solid-state physics describe?",
+      "choices": [
+        "A: The maximum magnetic field strength at which a superconductor remains superconducting.",
+        "B: The minimum energy required to remove electrons from a solid.",
+        "C: The maximum pressure strength a solid can withstand.",
+        "D: The temperature at which a material loses its magnetic properties."
+      ],
+      "correct_answer": "A",
+      "explanation": "The critical magnetic field is the limit magnetic field strength at which a superconductor loses its superconducting properties. It is an important concept in solid-state physics that influences the stability of superconducting materials.",
+      "difficulty": 1,
+      "subcategory": "Kritisches Magnetfeld & thermodynamische Größen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Paraxiale Strahlen & Matrizen-Verfahren",
+      "question": "What does the paraxial ray model describe in optics?",
+      "choices": [
+        "A: Considering the diffraction of light at edges.",
+        "B: Assuming that light rays run straight near the optical axis.",
+        "C: Analyzing light rays in a lens without aberrations.",
+        "D: Calculating the speed of light in different media."
+      ],
+      "correct_answer": "B",
+      "explanation": "The paraxial ray model simplifies the analysis of light rays by assuming that they run near the optical axis. This allows for easier description and analysis of complex optical systems.",
+      "difficulty": 4,
+      "subcategory": "Paraxiale Strahlen & Matrizen-Verfahren"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Identische Teilchen: Ununterscheidbarkeit",
+      "question": "What does the principle of indistinguishability of identical particles in quantum mechanics describe?",
+      "choices": [
+        "A: Identical particles can be distinguished arbitrarily.",
+        "B: Identical particles always behave like classical particles.",
+        "C: Identical particles can only be distinguished at high temperatures.",
+        "D: Identical particles cannot be distinguished by their properties."
+      ],
+      "correct_answer": "D",
+      "explanation": "The principle of indistinguishability states that identical particles in quantum mechanics cannot be distinguished by their properties, such as position or spin. This has far-reaching consequences for the statistics and behavior of particles, such as fermions and bosons.",
+      "difficulty": 4,
+      "subcategory": "Identische Teilchen: Ununterscheidbarkeit"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Paramagnetismus",
+      "question": "What is a characteristic of paramagnetic materials?",
+      "choices": [
+        "A: They lose their magnetic properties at low temperatures.",
+        "B: They become magnetized in the presence of an external magnetic field.",
+        "C: They have a permanent magnetic field.",
+        "D: They are always magnetic at high temperatures."
+      ],
+      "correct_answer": "B",
+      "explanation": "Paramagnetic materials have unpaired electron spins that align in the presence of an external magnetic field, thus becoming magnetized. In contrast, ferromagnetic materials have a permanent magnetic field, while diamagnetic materials show no magnetic attraction.",
+      "difficulty": 5,
+      "subcategory": "Paramagnetismus"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Kopplungsstärke des geladenen Stroms (G_F)",
+      "question": "What does the coupling strength of the charged current (G_F) in particle physics describe?",
+      "choices": [
+        "A: The probability of W and Z bosons participating in interactions.",
+        "B: The speed of light in a vacuum.",
+        "C: The mass of an electron.",
+        "D: The energy of a photon."
+      ],
+      "correct_answer": "A",
+      "explanation": "The coupling strength of the charged current (G_F) describes the strength of interactions between charged particles and the mediating bosons (W and Z bosons) in weak interactions. This quantity is essential for understanding processes like beta decays in nuclear physics.",
+      "difficulty": 1,
+      "subcategory": "Kopplungsstärke des geladenen Stroms (G_F)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Begrenzungen in optischen Systemen (Apertur, Vignettierung)",
+      "question": "What does the term 'aperture' in optical systems describe?",
+      "choices": [
+        "A: The number of lenses in an optical device.",
+        "B: The type of light used.",
+        "C: The opening through which light enters an optical device.",
+        "D: The focal length of the lens system."
+      ],
+      "correct_answer": "C",
+      "explanation": "The aperture is the opening of an optical system through which light enters, determining the amount of light the system can receive. A larger aperture allows for better light intake and thus brighter images.",
+      "difficulty": 2,
+      "subcategory": "Begrenzungen in optischen Systemen (Apertur, Vignettierung)"
+    }
+  ]
+}
