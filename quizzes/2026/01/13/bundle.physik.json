@@ -1,0 +1,169 @@
+{
+  "date": "2026-01-13",
+  "generated_at": "2026-01-13T04:03:35Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Legendre-Transformation (L→H)",
+      "question": "Was beschreibt die Legendre-Transformation in der analytischen Mechanik?",
+      "choices": [
+        "A: Den Wechsel von kinetischer zu potentieller Energie.",
+        "B: Den Zusammenhang zwischen Geschwindigkeit und Beschleunigung.",
+        "C: Den Übergang von Lagrange-Funktionen zu Hamilton-Funktionen.",
+        "D: Die Umwandlung von mechanischer Energie in thermische Energie."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Legendre-Transformation ist ein Verfahren, das verwendet wird, um von der Lagrange-Darstellung einer mechanischen Beschreibung zur Hamilton-Darstellung zu wechseln. Dies erfolgt durch die Umformulierung der Energie und der Zustandsgrößen, was in vielen Anwendungen der analytischen Mechanik von Bedeutung ist.",
+      "difficulty": 3,
+      "subcategory": "Legendre-Transformation (L→H)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Plancksche Strahlungsformel",
+      "question": "Was beschreibt die Plancksche Strahlungsformel?",
+      "choices": [
+        "A: Die Verteilung der elektromagnetischen Strahlung eines schwarzen Körpers in Abhängigkeit von der Temperatur.",
+        "B: Die Brechung von Lichtstrahlen in einem Prisma.",
+        "C: Die Erzeugung von Elektrizität durch Licht in Solarzellen.",
+        "D: Die Reflexion von Licht an einer Grenzfläche zwischen zwei Medien."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Plancksche Strahlungsformel beschreibt, wie die Intensität der elektromagnetischen Strahlung eines idealen schwarzen Körpers in Abhängigkeit von seiner Temperatur variiert. Sie ist ein fundamentales Konzept der Quantenmechanik und erklärt das Phänomen der Wärmestrahlung.",
+      "difficulty": 6,
+      "subcategory": "Plancksche Strahlungsformel"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Energietransport in Wellenfeldern (Poynting-Vektor)",
+      "question": "Was beschreibt der Poynting-Vektor in der Elektrodynamik?",
+      "choices": [
+        "A: Die Temperatur eines elektrischen Leiters.",
+        "B: Die Wechselwirkung zwischen elektrischen und magnetischen Feldern.",
+        "C: Die Richtung und Intensität des Energietransports in elektromagnetischen Wellen.",
+        "D: Die Geschwindigkeit von elektrischen Ladungen in einem Leiter."
+      ],
+      "correct_answer": "C",
+      "explanation": "Der Poynting-Vektor gibt an, wie viel Energie pro Flächeneinheit und Zeit in einer bestimmten Richtung transportiert wird. Er ist ein zentrales Konzept im Verständnis von elektromagnetischen Wellen und deren Energieübertragung.",
+      "difficulty": 1,
+      "subcategory": "Energietransport in Wellenfeldern (Poynting-Vektor)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Brechungsindex und Absorption von Metallen",
+      "question": "Welches Metall hat typischerweise einen hohen Brechungsindex und eine starke Absorption von Licht?",
+      "choices": [
+        "A: Kupfer",
+        "B: Zink",
+        "C: Gold",
+        "D: Aluminium"
+      ],
+      "correct_answer": "C",
+      "explanation": "Gold hat einen hohen Brechungsindex und absorbiert einen großen Teil des sichtbaren Lichts, was ihm seine charakteristische Farbe verleiht. Im Gegensatz dazu sind Aluminium, Kupfer und Zink weniger lichtabsorbierend und haben niedrigere Brechungsindices.",
+      "difficulty": 5,
+      "subcategory": "Brechungsindex und Absorption von Metallen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Nichtresonante Hadronerzeugung (R‑Verhältnis)",
+      "question": "Was beschreibt das R-Verhältnis in der nichtresonanten Hadronerzeugung?",
+      "choices": [
+        "A: Das Verhältnis der erzeugten Hadronen zu den durch die Wechselwirkung gelieferten Energie.",
+        "B: Das Verhältnis der Kernspin-Zustände nach einer Kollision.",
+        "C: Das Verhältnis der Anzahl der Elektronen zu Protonen in einem Atom.",
+        "D: Das Verhältnis der Anzahl der Quarks zu den Antiquarks."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das R-Verhältnis ist ein wichtiges Konzept in der Teilchenphysik, das die Effizienz der Hadronerzeugung in Bezug auf die zur Verfügung stehende Energie beschreibt. Bei nichtresonanten Prozessen wird die erzeugte Hadronenanzahl relativ zur Energie der Wechselwirkung betrachtet.",
+      "difficulty": 4,
+      "subcategory": "Nichtresonante Hadronerzeugung (R‑Verhältnis)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Zustand und Gleichgewicht (makro/mikro)",
+      "question": "Was beschreibt den thermodynamischen Gleichgewichtszustand eines Systems?",
+      "choices": [
+        "A: Es gibt immer eine chemische Reaktion.",
+        "B: Druck und Volumen ändern sich ständig.",
+        "C: Die Temperatur variiert ständig.",
+        "D: Alle makroskopischen Eigenschaften bleiben konstant."
+      ],
+      "correct_answer": "D",
+      "explanation": "Im thermodynamischen Gleichgewicht sind die makroskopischen Eigenschaften eines Systems, wie Temperatur, Druck und Volumen, konstant. Das bedeutet, dass sich die Zustände nicht mehr ändern, solange keine äußeren Einflüsse auftreten.",
+      "difficulty": 2,
+      "subcategory": "Zustand und Gleichgewicht (makro/mikro)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Interferometer (spezielle Anordnungen)",
+      "question": "Was ist das Hauptprinzip eines Interferometers?",
+      "choices": [
+        "A: Die Überlagerung von Lichtwellen",
+        "B: Die Brechung von Licht in verschiedenen Medien",
+        "C: Die Ablenkung von Lichtstrahlen durch Linsen",
+        "D: Die Reflexion von Licht an Spiegeln"
+      ],
+      "correct_answer": "A",
+      "explanation": "Ein Interferometer nutzt das Prinzip der Überlagerung von Lichtwellen. Durch die Interferenz der ausgestrahlten und reflektierten Lichtstrahlen entstehen Muster, die zur Messung von physikalischen Größen verwendet werden können.",
+      "difficulty": 3,
+      "subcategory": "Interferometer (spezielle Anordnungen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Weiß’scher Ferromagnet (mittlere Feldnäherung)",
+      "question": "Was beschreibt die mittlere Feldnäherung im Kontext des Weiß’schen Ferromagneten?",
+      "choices": [
+        "A: Die magnetische Suszeptibilität ist unabhängig von der Temperatur.",
+        "B: Die Wechselwirkungen zwischen benachbarten Spins werden vernachlässigt.",
+        "C: Der Magnetismus entsteht nur durch Temperaturänderungen.",
+        "D: Alle Spins sind immer parallel ausgerichtet."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die mittlere Feldnäherung im Weiß’schen Ferromagneten nimmt an, dass die Wechselwirkungen zwischen benachbarten Spins im Vergleich zu einem durchschnittlichen externen Feld vernachlässigt werden können. Dies vereinfacht die Analyse der magnetischen Eigenschaften des Materials erheblich.",
+      "difficulty": 3,
+      "subcategory": "Weiß’scher Ferromagnet (mittlere Feldnäherung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Elektronenspin (Pauli-Theorie)",
+      "question": "Was beschreibt der Elektronenspin in der Quantenmechanik?",
+      "choices": [
+        "A: Die Masse eines Elektrons.",
+        "B: Eine Quanteneigenschaft, die mit dem Drehimpuls eines Elektrons verbunden ist.",
+        "C: Die Geschwindigkeit, mit der sich ein Elektron bewegt.",
+        "D: Die elektrische Ladung eines Elektrons."
+      ],
+      "correct_answer": "B",
+      "explanation": "Der Elektronenspin ist eine intrinsische Quanteneigenschaft, die mit dem Drehimpuls eines Elektrons verknüpft ist. Er spielt eine wichtige Rolle in der Quantenmechanik und ist entscheidend für das Verständnis von Phänomenen wie dem Pauli-Prinzip.",
+      "difficulty": 3,
+      "subcategory": "Elektronenspin (Pauli-Theorie)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Compoundkern & Quantenchaos",
+      "question": "Was beschreibt das Phänomen des Quantenchaos im Kontext von Compoundkernen?",
+      "choices": [
+        "A: Die Stabilität der Elementarteilchen im Atomkern.",
+        "B: Die Wechselwirkungen zwischen Photonen und Elektronen.",
+        "C: Die Unvorhersehbarkeit der Energiestufen in einem Compoundkern.",
+        "D: Die Regelmäßigkeit der Kernspins in stabilen Kernen."
+      ],
+      "correct_answer": "C",
+      "explanation": "Quantenchaos beschreibt die Unvorhersehbarkeit und komplexen dynamischen Verhaltensweisen von Systemen, die in der Quantenmechanik auftreten, besonders in Compoundkernen. In solchen Systemen können die Energiestufen chaotisch und nicht einfach vorhersagbar sein, was eine Herausforderung in der theoretischen Physik darstellt.",
+      "difficulty": 5,
+      "subcategory": "Compoundkern & Quantenchaos"
+    }
+  ]
+}

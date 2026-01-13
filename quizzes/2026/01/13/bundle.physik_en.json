@@ -1,0 +1,168 @@
+{
+  "date": "2026-01-13",
+  "generated_at": "2026-01-13T04:04:10Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Legendre-Transformation (L→H)",
+      "question": "What does the Legendre transformation describe in analytical mechanics?",
+      "choices": [
+        "A: The transition from kinetic to potential energy.",
+        "B: The relationship between velocity and acceleration.",
+        "C: The transition from Lagrangian functions to Hamiltonian functions.",
+        "D: The conversion of mechanical energy into thermal energy."
+      ],
+      "correct_answer": "C",
+      "explanation": "The Legendre transformation is a method used to switch from the Lagrange representation of a mechanical description to the Hamiltonian representation. This is done by reformulating the energy and state variables, which is significant in many applications of analytical mechanics.",
+      "difficulty": 3,
+      "subcategory": "Legendre-Transformation (L→H)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Plancksche Strahlungsformel",
+      "question": "What does Planck's radiation formula describe?",
+      "choices": [
+        "A: The distribution of electromagnetic radiation from a black body depending on temperature.",
+        "B: The refraction of light rays in a prism.",
+        "C: The generation of electricity through light in solar cells.",
+        "D: The reflection of light at an interface between two media."
+      ],
+      "correct_answer": "A",
+      "explanation": "Planck's radiation formula describes how the intensity of electromagnetic radiation from an ideal black body varies depending on its temperature. It is a fundamental concept in quantum mechanics and explains the phenomenon of thermal radiation.",
+      "difficulty": 6,
+      "subcategory": "Plancksche Strahlungsformel"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Energietransport in Wellenfeldern (Poynting-Vektor)",
+      "question": "What does the Poynting vector describe in electrodynamics?",
+      "choices": [
+        "A: The temperature of an electrical conductor.",
+        "B: The interaction between electric and magnetic fields.",
+        "C: The direction and intensity of energy transport in electromagnetic waves.",
+        "D: The speed of electric charges in a conductor."
+      ],
+      "correct_answer": "C",
+      "explanation": "The Poynting vector indicates how much energy per unit area and time is transported in a specific direction. It is a central concept in understanding electromagnetic waves and their energy transfer.",
+      "difficulty": 1,
+      "subcategory": "Energietransport in Wellenfeldern (Poynting-Vektor)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Brechungsindex und Absorption von Metallen",
+      "question": "Which metal typically has a high refractive index and strong absorption of light?",
+      "choices": [
+        "A: Copper",
+        "B: Zinc",
+        "C: Gold",
+        "D: Aluminum"
+      ],
+      "correct_answer": "C",
+      "explanation": "Gold has a high refractive index and absorbs a large portion of visible light, giving it its characteristic color. In contrast, aluminum, copper, and zinc are less light-absorbing and have lower refractive indices.",
+      "difficulty": 5,
+      "subcategory": "Brechungsindex und Absorption von Metallen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Nichtresonante Hadronerzeugung (R‑Verhältnis)",
+      "question": "What does the R-ratio describe in non-resonant hadron production?",
+      "choices": [
+        "A: The ratio of generated hadrons to the energy supplied by the interaction.",
+        "B: The ratio of nuclear spin states after a collision.",
+        "C: The ratio of the number of electrons to protons in an atom.",
+        "D: The ratio of the number of quarks to antiquarks."
+      ],
+      "correct_answer": "A",
+      "explanation": "The R-ratio is an important concept in particle physics that describes the efficiency of hadron production in relation to the available energy. In non-resonant processes, the generated number of hadrons is considered relative to the interaction energy.",
+      "difficulty": 4,
+      "subcategory": "Nichtresonante Hadronerzeugung (R‑Verhältnis)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Zustand und Gleichgewicht (makro/mikro)",
+      "question": "What describes the thermodynamic equilibrium state of a system?",
+      "choices": [
+        "A: There is always a chemical reaction.",
+        "B: Pressure and volume constantly change.",
+        "C: The temperature varies constantly.",
+        "D: All macroscopic properties remain constant."
+      ],
+      "correct_answer": "D",
+      "explanation": "In thermodynamic equilibrium, the macroscopic properties of a system, such as temperature, pressure, and volume, remain constant. This means that the states do not change unless external influences occur.",
+      "difficulty": 2,
+      "subcategory": "Zustand und Gleichgewicht (makro/mikro)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Interferometer (spezielle Anordnungen)",
+      "question": "What is the main principle of an interferometer?",
+      "choices": [
+        "A: The superposition of light waves",
+        "B: The refraction of light in different media",
+        "C: The deflection of light rays by lenses",
+        "D: The reflection of light on mirrors"
+      ],
+      "correct_answer": "A",
+      "explanation": "An interferometer utilizes the principle of superposition of light waves. By the interference of emitted and reflected light rays, patterns are created that can be used to measure physical quantities.",
+      "difficulty": 3,
+      "subcategory": "Interferometer (spezielle Anordnungen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Weiß’scher Ferromagnet (mittlere Feldnäherung)",
+      "question": "What does the mean field approximation describe in the context of the Weiss ferromagnet?",
+      "choices": [
+        "A: The magnetic susceptibility is independent of temperature.",
+        "B: The interactions between neighboring spins are neglected.",
+        "C: Magnetism arises only from temperature changes.",
+        "D: All spins are always aligned in parallel."
+      ],
+      "correct_answer": "B",
+      "explanation": "The mean field approximation in the Weiss ferromagnet assumes that the interactions between neighboring spins can be neglected compared to an average external field. This significantly simplifies the analysis of the magnetic properties of the material.",
+      "difficulty": 3,
+      "subcategory": "Weiß’scher Ferromagnet (mittlere Feldnäherung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Elektronenspin (Pauli-Theorie)",
+      "question": "What does electron spin describe in quantum mechanics?",
+      "choices": [
+        "A: The mass of an electron.",
+        "B: A quantum property linked to the angular momentum of an electron.",
+        "C: The speed at which an electron moves.",
+        "D: The electric charge of an electron."
+      ],
+      "correct_answer": "B",
+      "explanation": "Electron spin is an intrinsic quantum property linked to the angular momentum of an electron. It plays a crucial role in quantum mechanics and is essential for understanding phenomena like the Pauli exclusion principle.",
+      "difficulty": 3,
+      "subcategory": "Elektronenspin (Pauli-Theorie)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Compoundkern & Quantenchaos",
+      "question": "What does the phenomenon of quantum chaos describe in the context of compound nuclei?",
+      "choices": [
+        "A: The stability of elementary particles in the atomic nucleus.",
+        "B: The interactions between photons and electrons.",
+        "C: The unpredictability of energy levels in a compound nucleus.",
+        "D: The regularity of nuclear spins in stable nuclei."
+      ],
+      "correct_answer": "C",
+      "explanation": "Quantum chaos describes the unpredictability and complex dynamic behaviors of systems that occur in quantum mechanics, especially in compound nuclei. In such systems, energy levels can be chaotic and not easily predictable, posing a challenge in theoretical physics.",
+      "difficulty": 5,
+      "subcategory": "Compoundkern & Quantenchaos"
+    }
+  ]
+}
