@@ -1,0 +1,168 @@
+{
+  "date": "2026-01-14",
+  "generated_at": "2026-01-14T04:09:13Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Präzession des symmetrischen Kreisels",
+      "question": "What describes the precession of a symmetric gyroscope?",
+      "choices": [
+        "A: The speed at which the gyroscope rotates.",
+        "B: The increase in the gyroscope's mass during rotation.",
+        "C: The change in the gyroscope's axis of rotation under the influence of an external torque.",
+        "D: The temperature change of the gyroscope during operation."
+      ],
+      "correct_answer": "C",
+      "explanation": "The precession of a symmetric gyroscope occurs when an external torque acts on the gyroscope, causing the gyroscope's axis of rotation to change. This movement is an important property of rotating bodies and can be explained by the relationship between torque and angular velocity.",
+      "difficulty": 4,
+      "subcategory": "Präzession des symmetrischen Kreisels"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Paramagnetismus",
+      "question": "Which statement about paramagnetic materials is correct?",
+      "choices": [
+        "A: The magnetic moments in paramagnetic materials are disordered in their rest position.",
+        "B: Paramagnetic materials do not possess permanent magnetic moments.",
+        "C: Paramagnetic materials are always repelled by an external magnetic field.",
+        "D: Paramagnetism only occurs at high temperatures."
+      ],
+      "correct_answer": "A",
+      "explanation": "Paramagnetic materials contain disordered magnetic moments that randomly orient in the absence of an external magnetic field. When an external magnetic field is applied, these moments partially align, creating an enhanced magnetic attraction.",
+      "difficulty": 7,
+      "subcategory": "Paramagnetismus"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Elastische Eigenschaften (Überblick)",
+      "question": "Which of the following properties describes a material's ability to return to its original shape after deformation?",
+      "choices": [
+        "A: Plasticity",
+        "B: Toughness",
+        "C: Elasticity",
+        "D: Hardness"
+      ],
+      "correct_answer": "C",
+      "explanation": "Elasticity is the property of materials to return to their original shape after deformation. In contrast, plasticity describes the permanent deformation of a material, while toughness and hardness represent other mechanical properties.",
+      "difficulty": 6,
+      "subcategory": "Elastische Eigenschaften (Überblick)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Nukleon‑Nukleon‑Streuung",
+      "question": "What does the term 'nucleon-nucleon scattering' describe?",
+      "choices": [
+        "A: The interaction between protons and neutrons.",
+        "B: The interaction between electrons and photons.",
+        "C: The interaction between atomic nuclei and external fields.",
+        "D: The interaction between molecules in gases."
+      ],
+      "correct_answer": "A",
+      "explanation": "Nucleon-nucleon scattering refers to the interactions that occur between protons and neutrons in an atomic nucleus. These processes are crucial for understanding nuclear forces and the structure of atomic nuclei.",
+      "difficulty": 4,
+      "subcategory": "Nukleon‑Nukleon‑Streuung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Ionisations- & Penning-Vakuummeter",
+      "question": "What do ionization and Penning vacuum gauges primarily measure?",
+      "choices": [
+        "A: The density of a solid",
+        "B: The temperature of a gas",
+        "C: The pressure in a vacuum",
+        "D: The electrical voltage"
+      ],
+      "correct_answer": "C",
+      "explanation": "Ionization and Penning vacuum gauges are devices that measure the pressure in a vacuum. They utilize the ionization of gases to determine the pressure level, which is important in many scientific and industrial applications.",
+      "difficulty": 1,
+      "subcategory": "Ionisations- & Penning-Vakuummeter"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Sommerfeld’sche Polynommethode",
+      "question": "What is the main goal of the Sommerfeld polynomial method in quantum mechanics?",
+      "choices": [
+        "A: Calculating the orbital paths of planets.",
+        "B: Explaining thermal radiation.",
+        "C: Determining the energy states of quantum mechanical systems.",
+        "D: Determining the speed of light in a vacuum."
+      ],
+      "correct_answer": "C",
+      "explanation": "The Sommerfeld polynomial method is used to determine the energy states in quantum mechanical systems such as the hydrogen atom. It utilizes special polynomials to find solutions to the Schrödinger equation, thus enabling a better understanding of the quantum mechanical properties of atoms.",
+      "difficulty": 5,
+      "subcategory": "Sommerfeld’sche Polynommethode"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Nicht-holonome Zwangsbedingungen",
+      "question": "What does a non-holonomic constraint describe in analytical mechanics?",
+      "choices": [
+        "A: It is independent of the system's velocity.",
+        "B: It can always be converted into holonomic constraints.",
+        "C: It only describes forces acting on the system.",
+        "D: It cannot be expressed as a function of coordinates and time."
+      ],
+      "correct_answer": "D",
+      "explanation": "A non-holonomic constraint cannot be formulated as a function of coordinates and time, meaning it depends on velocity. This makes it more complex to handle than holonomic constraints, which can be directly described by position.",
+      "difficulty": 5,
+      "subcategory": "Nicht-holonome Zwangsbedingungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Eigenwertproblem des Bahndrehimpulses",
+      "question": "What does the eigenvalue problem of orbital angular momentum in quantum mechanics describe?",
+      "choices": [
+        "A: The possible values of a particle's angular momentum.",
+        "B: The energy of a particle in an electric field.",
+        "C: The velocity of a particle.",
+        "D: The location of a particle at a specific time."
+      ],
+      "correct_answer": "A",
+      "explanation": "The eigenvalue problem of orbital angular momentum refers to the quantized values of angular momentum that a particle can assume. These values are crucial for understanding the motions of particles in quantum mechanical systems.",
+      "difficulty": 1,
+      "subcategory": "Eigenwertproblem des Bahndrehimpulses"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Auftrieb vs. Widerstand (Zusammenhang)",
+      "question": "Which of the following factors does not affect the buoyancy of a body in water?",
+      "choices": [
+        "A: The density of the body",
+        "B: The temperature of the water",
+        "C: The density of the water",
+        "D: The volume of the body"
+      ],
+      "correct_answer": "B",
+      "explanation": "The buoyancy of a body depends on the body's volume, the body's density, and the water's density. While the water's temperature affects its density, it is not a direct factor determining buoyancy itself.",
+      "difficulty": 5,
+      "subcategory": "Auftrieb vs. Widerstand (Zusammenhang)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Polarisationszustände von Licht",
+      "question": "What describes the polarization state of light?",
+      "choices": [
+        "A: The color of light.",
+        "B: The direction of oscillation of light waves.",
+        "C: The speed of light.",
+        "D: The intensity of light."
+      ],
+      "correct_answer": "B",
+      "explanation": "The polarization state of light describes the direction in which the electric field vectors of light waves oscillate. Light can be polarized by restricting the oscillations in a specific direction, which is important in many optical applications.",
+      "difficulty": 5,
+      "subcategory": "Polarisationszustände von Licht"
+    }
+  ]
+}
