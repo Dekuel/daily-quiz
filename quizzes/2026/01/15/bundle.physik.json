@@ -1,0 +1,169 @@
+{
+  "date": "2026-01-15",
+  "generated_at": "2026-01-15T04:05:37Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Maxwell-Gleichungen der Magnetostatik",
+      "question": "Welche der folgenden Aussagen über die Maxwell-Gleichungen in der Magnetostatik ist korrekt?",
+      "choices": [
+        "A: Die Rotation des elektrischen Feldes ist gleich der zeitlichen Ableitung des magnetischen Feldes.",
+        "B: Die Divergenz des magnetischen Feldes ist immer gleich null.",
+        "C: Der magnetische Fluss durch eine geschlossene Fläche ist proportional zur eingeschlossenen elektrischen Ladung.",
+        "D: Magnetische Monopole existieren und sind in den Maxwell-Gleichungen berücksichtigt."
+      ],
+      "correct_answer": "B",
+      "explanation": "In der Magnetostatik gilt die Gleichung, dass die Divergenz des magnetischen Feldes immer null ist, was bedeutet, dass es keine magnetischen Quellen gibt. Dies ist eine fundamentale Eigenschaft der Maxwell-Gleichungen und beschreibt das Fehlen von magnetischen Monopolen in der klassischen Theorie.",
+      "difficulty": 8,
+      "subcategory": "Maxwell-Gleichungen der Magnetostatik"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Polarisatoren",
+      "question": "Was ist die Hauptfunktion eines Polarisators?",
+      "choices": [
+        "A: Er filtert Lichtwellen nach ihrer Polarisation.",
+        "B: Er verstärkt die Lichtintensität.",
+        "C: Er ändert die Wellenlänge des Lichts.",
+        "D: Er erzeugt Lichtstrahlen."
+      ],
+      "correct_answer": "A",
+      "explanation": "Ein Polarisator ist ein optisches Element, das Lichtwellen so filtert, dass nur Licht einer bestimmten Polarisation durchgelassen wird. Dies ist wichtig in vielen Anwendungen, wie z.B. in Sonnenbrillen oder Kamera-Objektiven, um Reflexionen und Blendung zu reduzieren.",
+      "difficulty": 3,
+      "subcategory": "Polarisatoren"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Inhomogene Wellengleichung",
+      "question": "Was beschreibt die inhomogene Wellengleichung in der Elektrodynamik?",
+      "choices": [
+        "A: Die Reflexion von Wellen an einer Grenzfläche.",
+        "B: Die Interferenz von zwei gleichfrequenten Wellen.",
+        "C: Die Erzeugung von Wellen durch harmonische Oszillatoren.",
+        "D: Die Ausbreitung von elektromagnetischen Wellen in einem Medium mit Quellen."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die inhomogene Wellengleichung beschreibt die Ausbreitung von elektromagnetischen Wellen unter Berücksichtigung von Quellen, wie z.B. Ladungen oder Strömen, die Wellen erzeugen. Sie ist entscheidend für das Verständnis von Wellenphänomenen in der Elektrodynamik.",
+      "difficulty": 5,
+      "subcategory": "Inhomogene Wellengleichung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Zustandsgleichungen (Überblick)",
+      "question": "Welche der folgenden Zustandsgleichungen beschreibt das Verhalten eines idealen Gases am besten?",
+      "choices": [
+        "A: P = nV",
+        "B: P = V/T",
+        "C: PV = mRT",
+        "D: PV = nRT"
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Zustandsgleichung PV = nRT beschreibt das Verhalten idealer Gase, wobei P der Druck, V das Volumen, n die Anzahl der Mol, R die universelle Gaskonstante und T die Temperatur in Kelvin ist. Diese Gleichung ist fundamental in der Thermodynamik und gilt unter der Annahme, dass das Gas ideal ist.",
+      "difficulty": 8,
+      "subcategory": "Zustandsgleichungen (Überblick)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Green’sche Funktion",
+      "question": "Welche der folgenden Aussagen zur Green’schen Funktion in der Elektrodynamik ist korrekt?",
+      "choices": [
+        "A: Die Green’sche Funktion ist nur für zeitunabhängige Probleme anwendbar.",
+        "B: Die Green’sche Funktion wird ausschließlich in der Quantenmechanik verwendet.",
+        "C: Die Green’sche Funktion beschreibt die Antwort eines Systems auf eine Punktladung.",
+        "D: Die Green’sche Funktion ist immer unabhängig von der Geometrie des Problems."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Green’sche Funktion ist ein wichtiges Werkzeug in der Elektrodynamik, da sie die Antwort eines Systems auf externe Quellen, wie z.B. Punktladungen, beschreibt. Sie ermöglicht die Lösung von inhomogenen Differentialgleichungen, die die Felder in einem bestimmten Medium beschreiben.",
+      "difficulty": 7,
+      "subcategory": "Green’sche Funktion"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Dampfdruckkurve & Clausius–Clapeyron-Gleichung",
+      "question": "Welche Aussage beschreibt am besten die Clausius–Clapeyron-Gleichung?",
+      "choices": [
+        "A: Sie beschreibt die Bewegung von Teilchen in einem gasförmigen Zustand.",
+        "B: Sie zeigt den Zusammenhang zwischen Druck und Volumen in einem idealen Gas.",
+        "C: Sie beschreibt die Beziehung zwischen Temperatur und Dampfdruck einer Flüssigkeit.",
+        "D: Sie erklärt die Energieumwandlung in elektrischen Schaltkreisen."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Clausius–Clapeyron-Gleichung beschreibt, wie sich der Dampfdruck einer Flüssigkeit mit der Temperatur verändert. Sie ist besonders wichtig für das Verständnis von Phasenübergängen, wie dem Übergang von Flüssigkeit zu Dampf.",
+      "difficulty": 4,
+      "subcategory": "Dampfdruckkurve & Clausius–Clapeyron-Gleichung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Wirkungen der Gezeiten",
+      "question": "Welche Kraft ist hauptsächlich für die Gezeiten auf der Erde verantwortlich?",
+      "choices": [
+        "A: Die Zentrifugalkraft der Erdrotation",
+        "B: Die Gravitationskraft des Mondes",
+        "C: Die elektrische Kraft zwischen Wasserpartikeln",
+        "D: Die magnetische Anziehung der Sonne"
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Gezeiten auf der Erde werden hauptsächlich durch die Gravitationskraft des Mondes verursacht, die das Wasser in den Ozeanen anzieht. Diese Anziehung führt zu den regelmäßigen Anstiegen und Absenkungen des Wasserstands, die wir als Gezeiten kennen.",
+      "difficulty": 2,
+      "subcategory": "Wirkungen der Gezeiten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Hilbert-Raum & Basiszustände (sym/antisym)",
+      "question": "Welches der folgenden Merkmale ist charakteristisch für antisymmetrische Zustände in einem Hilbert-Raum, der zwei identische Fermionen beschreibt?",
+      "choices": [
+        "A: Die Wellenfunktion bleibt unverändert, wenn die Teilchen vertauscht werden.",
+        "B: Die Wellenfunktion ändert ihr Vorzeichen, wenn die Teilchen vertauscht werden.",
+        "C: Die Wellenfunktion kann nicht normalisiert werden.",
+        "D: Die Wellenfunktion ist immer positiv."
+      ],
+      "correct_answer": "B",
+      "explanation": "Antisymmetrische Zustände für Fermionen erfordern, dass die Wellenfunktion ihr Vorzeichen ändert, wenn die beiden Teilchen vertauscht werden, was die Pauli-Prinzipien widerspiegelt. Dies ist eine fundamentale Eigenschaft, die die Differenz zwischen Fermionen und Bosonen beschreibt.",
+      "difficulty": 9,
+      "subcategory": "Hilbert-Raum & Basiszustände (sym/antisym)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Entropie im kanonischen Ensemble & Extremalität",
+      "question": "Welche Aussage beschreibt am besten den Zusammenhang zwischen Entropie und der Wahrscheinlichkeit eines Mikrozustands im kanonischen Ensemble?",
+      "choices": [
+        "A: Entropie erreicht ihr Maximum, wenn alle Mikrozustände gleich wahrscheinlich sind.",
+        "B: Höhere Entropie bedeutet eine geringere Wahrscheinlichkeit für Mikrozustände.",
+        "C: Entropie ist unabhängig von der Wahrscheinlichkeit eines Mikrozustands.",
+        "D: Entropie ist proportional zur Wahrscheinlichkeit eines Mikrozustands."
+      ],
+      "correct_answer": "A",
+      "explanation": "Im kanonischen Ensemble beschreibt die Entropie die Anzahl der zugänglichen Mikrozustände. Wenn alle Mikrozustände gleich wahrscheinlich sind, ist die Entropie maximal, was ein Zustand der maximalen Unordnung und somit der Extremalität darstellt.",
+      "difficulty": 6,
+      "subcategory": "Entropie im kanonischen Ensemble & Extremalität"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Bezug zur Quantenmechanik (Kommutator ↔ Poisson)",
+      "question": "Was beschreibt der Kommutator in der Quantenmechanik im Vergleich zu den Poisson-Klammern in der analytischen Mechanik?",
+      "choices": [
+        "A: Er beschreibt die Unschärferelation zwischen zwei Observablen.",
+        "B: Er ist identisch und hat keine physikalische Bedeutung.",
+        "C: Er ist nur in klassischer Mechanik relevant.",
+        "D: Er beschreibt die Energieerhaltung in einem System."
+      ],
+      "correct_answer": "A",
+      "explanation": "Der Kommutator in der Quantenmechanik beschreibt die Unschärferelation zwischen zwei Observablen, was eine fundamentale Eigenschaft der Quantenmechanik ist. Im Gegensatz dazu verwenden Poisson-Klammern ähnliche Konzepte in der analytischen Mechanik, jedoch in einem klassischen Kontext.",
+      "difficulty": 5,
+      "subcategory": "Bezug zur Quantenmechanik (Kommutator ↔ Poisson)"
+    }
+  ]
+}

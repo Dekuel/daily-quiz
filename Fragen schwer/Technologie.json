@@ -588,6 +588,20 @@
       "correct_answer": "B",
       "explanation": "Künstliche neuronale Netze sind besonders effektiv bei der Verarbeitung und Klassifizierung von komplexen Mustern in Daten, was sie ideal für die Moderation von Inhalten macht. Diese Algorithmen lernen aus großen Mengen an Daten und können somit automatisiert unangemessene Inhalte erkennen und entfernen.",
       "difficulty": 8
+    },
+    {
+      "category": "Technologie",
+      "topic": "Computer & Internet",
+      "question": "Welche Art von Server-Architektur wird häufig verwendet, um Lastverteilung und Redundanz in Webanwendungen zu gewährleisten?",
+      "choices": [
+        "A: Microservices-Architektur",
+        "B: Peer-to-Peer-Architektur",
+        "C: Client-Server-Architektur",
+        "D: Monolithische Architektur"
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Microservices-Architektur ermöglicht eine flexible Entwicklung und Wartung von Anwendungen, indem sie in unabhängige, modulare Services aufgeteilt wird. Diese Architektur fördert die Lastverteilung und sorgt für eine höhere Verfügbarkeit durch Redundanz. Im Vergleich dazu können monolithische Ansätze in Bezug auf Skalierbarkeit und Wartbarkeit Einschränkungen aufweisen.",
+      "difficulty": 10
     }
   ]
 }

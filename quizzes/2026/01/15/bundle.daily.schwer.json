@@ -1,0 +1,106 @@
+{
+  "date": "2026-01-15",
+  "generated_at": "2026-01-15T04:04:16Z",
+  "schema_version": 6,
+  "mode": "schwer",
+  "bundle_type": "daily",
+  "questions": [
+    {
+      "category": "Sport",
+      "topic": "Sonstige",
+      "question": "Welches dieser Merkmale unterscheidet Softball von Baseball?",
+      "choices": [
+        "A: Softball erlaubt das Schlagen mit einem Schläger aus Metall.",
+        "B: Softball hat eine kürzere Spieldauer als Baseball.",
+        "C: Softball wird auf einem größeren Spielfeld gespielt.",
+        "D: Der Ball wird beim Pitching unterhand geworfen."
+      ],
+      "correct_answer": "D",
+      "explanation": "In Softball wird der Ball beim Pitching unterhand geworfen, was eine der markantesten Unterschiede zum Baseball darstellt, wo der Pitch in der Regel überhand erfolgt. Dies hat Einfluss auf die Spieltechnik und Strategie der Spieler.",
+      "difficulty": 8
+    },
+    {
+      "category": "Geographie",
+      "topic": "Gebirge, Inseln & Relief",
+      "question": "Welche der folgenden Landschaftsformen wird typischerweise durch Gletschererosion und Ablagerung in einem glazialen Umfeld gebildet?",
+      "choices": [
+        "A: Dünen",
+        "B: Lössfeld",
+        "C: Terrassen",
+        "D: Drumlins"
+      ],
+      "correct_answer": "D",
+      "explanation": "Drumlins sind geschwungene Hügel, die durch das Voranschreiten von Gletschern geformt werden. Sie bestehen aus Moränenmaterial und sind typische Indikatoren für frühere glaziale Aktivitäten. Die anderen genannten Formen sind nicht direkt durch Gletscher entstanden.",
+      "difficulty": 8
+    },
+    {
+      "category": "Politiker",
+      "discipline": "Regierungschefs (Welt)",
+      "question": "Wer ist Regierungschef von Vereinigtes Königreich?",
+      "choices": [
+        "A: Liz Truss",
+        "B: Rishi Sunak",
+        "C: Boris Johnson",
+        "D: Keir Starmer"
+      ],
+      "correct_answer": "D",
+      "explanation": "Keir Starmer ist der derzeitige Regierungschef des Vereinigten Königreichs. Er hat sich in der politischen Landschaft des Landes einen Namen gemacht und führt die Labour-Partei.",
+      "difficulty": 1
+    },
+    {
+      "question": "Was war eine der Hauptursachen für die Finanzkrise von 2008?",
+      "category": "Wirtschaft & Finanzen",
+      "subcategory": "Finanzkrise 2008",
+      "difficulty": 4,
+      "choices": [
+        "A: Der Zusammenbruch des Aktienmarktes im Jahr 1929",
+        "B: Die Überbewertung von Immobilien und riskante Hypothekenvergabe",
+        "C: Der Anstieg der Ölpreise im Jahr 1990",
+        "D: Die Bankenkrise in Japan im Jahr 1997"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "category": "Technologie",
+      "topic": "Computer & Internet",
+      "question": "Welche Art von Server-Architektur wird häufig verwendet, um Lastverteilung und Redundanz in Webanwendungen zu gewährleisten?",
+      "choices": [
+        "A: Microservices-Architektur",
+        "B: Peer-to-Peer-Architektur",
+        "C: Client-Server-Architektur",
+        "D: Monolithische Architektur"
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Microservices-Architektur ermöglicht eine flexible Entwicklung und Wartung von Anwendungen, indem sie in unabhängige, modulare Services aufgeteilt wird. Diese Architektur fördert die Lastverteilung und sorgt für eine höhere Verfügbarkeit durch Redundanz. Im Vergleich dazu können monolithische Ansätze in Bezug auf Skalierbarkeit und Wartbarkeit Einschränkungen aufweisen.",
+      "difficulty": 10
+    },
+    {
+      "category": "Kunst und Literatur",
+      "topic": "Zitate, Figuren & Allgemeinwissen",
+      "question": "Welches Zitat wird oft mit Friedrich Nietzsche in Verbindung gebracht: 'Gott ist tot'?",
+      "choices": [
+        "A: 'Die Gedanken sind frei'",
+        "B: 'Der Mensch ist das Maß aller Dinge'",
+        "C: 'Gott ist tot'",
+        "D: 'Ich denke, also bin ich'"
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Zitat 'Gott ist tot' stammt aus Friedrich Nietzsches Werk 'Die fröhliche Wissenschaft'. Es beschreibt Nietzsches Umgang mit der modernen Welt und die Folgen des Verlustes traditioneller Werte.",
+      "difficulty": 5
+    },
+    {
+      "category": "Wissenschaft",
+      "topic": "Biologie",
+      "question": "Welche der folgenden Aussagen über die Mendelschen Regeln ist korrekt?",
+      "choices": [
+        "A: Die Regeln gelten nur für Pflanzen und nicht für Tiere.",
+        "B: Die dritte Regel bezieht sich ausschließlich auf dominante Merkmale.",
+        "C: Die zweite Regel beschreibt die Unabhängigkeit der Allele während der Gametenbildung.",
+        "D: Die erste Regel besagt, dass alle Nachkommen identisch mit ihren Eltern sind."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die zweite Mendelsche Regel, auch als Regel der Unabhängigkeit der Merkmale bekannt, beschreibt, dass die Vererbung eines Merkmals die Vererbung eines anderen Merkmals nicht beeinflusst, solange die Gene auf verschiedenen Chromosomen liegen. Diese Regel ist grundlegend für das Verständnis von Genetik und Vererbung.",
+      "difficulty": 9
+    }
+  ]
+}

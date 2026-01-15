@@ -1,0 +1,168 @@
+{
+  "date": "2026-01-15",
+  "generated_at": "2026-01-15T04:06:09Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Maxwell-Gleichungen der Magnetostatik",
+      "question": "Which of the following statements about the Maxwell equations in magnetostatics is correct?",
+      "choices": [
+        "A: The rotation of the electric field is equal to the time derivative of the magnetic field.",
+        "B: The divergence of the magnetic field is always zero.",
+        "C: The magnetic flux through a closed surface is proportional to the enclosed electric charge.",
+        "D: Magnetic monopoles exist and are considered in the Maxwell equations."
+      ],
+      "correct_answer": "B",
+      "explanation": "In magnetostatics, the equation holds that the divergence of the magnetic field is always zero, which means there are no magnetic sources. This is a fundamental property of the Maxwell equations and describes the absence of magnetic monopoles in classical theory.",
+      "difficulty": 8,
+      "subcategory": "Maxwell-Gleichungen der Magnetostatik"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Polarisatoren",
+      "question": "What is the main function of a polarizer?",
+      "choices": [
+        "A: It filters light waves according to their polarization.",
+        "B: It amplifies light intensity.",
+        "C: It changes the wavelength of light.",
+        "D: It generates light beams."
+      ],
+      "correct_answer": "A",
+      "explanation": "A polarizer is an optical element that filters light waves so that only light of a certain polarization is transmitted. This is important in many applications, such as in sunglasses or camera lenses, to reduce reflections and glare.",
+      "difficulty": 3,
+      "subcategory": "Polarisatoren"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Inhomogene Wellengleichung",
+      "question": "What does the inhomogeneous wave equation in electrodynamics describe?",
+      "choices": [
+        "A: The reflection of waves at an interface.",
+        "B: The interference of two waves of the same frequency.",
+        "C: The generation of waves by harmonic oscillators.",
+        "D: The propagation of electromagnetic waves in a medium with sources."
+      ],
+      "correct_answer": "D",
+      "explanation": "The inhomogeneous wave equation describes the propagation of electromagnetic waves taking into account sources such as charges or currents that generate waves. It is crucial for understanding wave phenomena in electrodynamics.",
+      "difficulty": 5,
+      "subcategory": "Inhomogene Wellengleichung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Zustandsgleichungen (Überblick)",
+      "question": "Which of the following equations best describes the behavior of an ideal gas?",
+      "choices": [
+        "A: P = nV",
+        "B: P = V/T",
+        "C: PV = mRT",
+        "D: PV = nRT"
+      ],
+      "correct_answer": "D",
+      "explanation": "The equation PV = nRT describes the behavior of ideal gases, where P is pressure, V is volume, n is the number of moles, R is the universal gas constant, and T is the temperature in Kelvin. This equation is fundamental in thermodynamics and holds under the assumption that the gas is ideal.",
+      "difficulty": 8,
+      "subcategory": "Zustandsgleichungen (Überblick)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Green’sche Funktion",
+      "question": "Which of the following statements about the Green's function in electrodynamics is correct?",
+      "choices": [
+        "A: The Green's function is only applicable to time-independent problems.",
+        "B: The Green's function is used exclusively in quantum mechanics.",
+        "C: The Green's function describes the response of a system to a point charge.",
+        "D: The Green's function is always independent of the geometry of the problem."
+      ],
+      "correct_answer": "C",
+      "explanation": "The Green's function is an important tool in electrodynamics as it describes the response of a system to external sources such as point charges. It enables the solution of inhomogeneous differential equations that describe the fields in a specific medium.",
+      "difficulty": 7,
+      "subcategory": "Green’sche Funktion"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Dampfdruckkurve & Clausius–Clapeyron-Gleichung",
+      "question": "Which statement best describes the Clausius-Clapeyron equation?",
+      "choices": [
+        "A: It describes the motion of particles in a gaseous state.",
+        "B: It shows the relationship between pressure and volume in an ideal gas.",
+        "C: It describes the relationship between temperature and vapor pressure of a liquid.",
+        "D: It explains energy conversion in electrical circuits."
+      ],
+      "correct_answer": "C",
+      "explanation": "The Clausius-Clapeyron equation describes how the vapor pressure of a liquid changes with temperature. It is particularly important for understanding phase transitions, such as the transition from liquid to vapor.",
+      "difficulty": 4,
+      "subcategory": "Dampfdruckkurve & Clausius–Clapeyron-Gleichung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Wirkungen der Gezeiten",
+      "question": "Which force is primarily responsible for tides on Earth?",
+      "choices": [
+        "A: The centrifugal force of Earth's rotation",
+        "B: The gravitational force of the Moon",
+        "C: The electric force between water particles",
+        "D: The magnetic attraction of the Sun"
+      ],
+      "correct_answer": "B",
+      "explanation": "Tides on Earth are primarily caused by the gravitational force of the Moon, which attracts the water in the oceans. This attraction leads to the regular rise and fall of the water level that we know as tides.",
+      "difficulty": 2,
+      "subcategory": "Wirkungen der Gezeiten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Hilbert-Raum & Basiszustände (sym/antisym)",
+      "question": "Which of the following features is characteristic of antisymmetric states in a Hilbert space describing two identical fermions?",
+      "choices": [
+        "A: The wave function remains unchanged when particles are exchanged.",
+        "B: The wave function changes sign when particles are exchanged.",
+        "C: The wave function cannot be normalized.",
+        "D: The wave function is always positive."
+      ],
+      "correct_answer": "B",
+      "explanation": "Antisymmetric states for fermions require the wave function to change sign when the two particles are exchanged, reflecting the Pauli exclusion principles. This is a fundamental property that distinguishes fermions from bosons.",
+      "difficulty": 9,
+      "subcategory": "Hilbert-Raum & Basiszustände (sym/antisym)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Entropie im kanonischen Ensemble & Extremalität",
+      "question": "Which statement best describes the relationship between entropy and the probability of a microstate in the canonical ensemble?",
+      "choices": [
+        "A: Entropy reaches its maximum when all microstates are equally probable.",
+        "B: Higher entropy means lower probability for microstates.",
+        "C: Entropy is independent of the probability of a microstate.",
+        "D: Entropy is proportional to the probability of a microstate."
+      ],
+      "correct_answer": "A",
+      "explanation": "In the canonical ensemble, entropy describes the number of accessible microstates. When all microstates are equally probable, entropy is maximal, representing a state of maximum disorder and extremality.",
+      "difficulty": 6,
+      "subcategory": "Entropie im kanonischen Ensemble & Extremalität"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Bezug zur Quantenmechanik (Kommutator ↔ Poisson)",
+      "question": "What does the commutator in quantum mechanics describe compared to the Poisson brackets in analytical mechanics?",
+      "choices": [
+        "A: It describes the uncertainty relation between two observables.",
+        "B: It is identical and has no physical significance.",
+        "C: It is only relevant in classical mechanics.",
+        "D: It describes energy conservation in a system."
+      ],
+      "correct_answer": "A",
+      "explanation": "The commutator in quantum mechanics describes the uncertainty relation between two observables, which is a fundamental property of quantum mechanics. In contrast, Poisson brackets use similar concepts in analytical mechanics but in a classical context.",
+      "difficulty": 5,
+      "subcategory": "Bezug zur Quantenmechanik (Kommutator ↔ Poisson)"
+    }
+  ]
+}
