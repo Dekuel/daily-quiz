@@ -1,0 +1,168 @@
+{
+  "date": "2026-01-16",
+  "generated_at": "2026-01-16T04:03:26Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Spektrum des harmonischen Oszillators",
+      "question": "Which of the following statements describes the energy spectrum of a harmonic oscillator in quantum mechanics?",
+      "choices": [
+        "A: The energy is continuous and can take on any value.",
+        "B: The energy is quantized and takes only discrete values.",
+        "C: The energy is defined only within a specific temperature range.",
+        "D: The energy does not depend on the mass of the oscillator."
+      ],
+      "correct_answer": "B",
+      "explanation": "The energy spectrum of a harmonic oscillator is quantized, meaning that the energy can only take on certain discrete values. These values depend on the quantum number and the properties of the oscillator.",
+      "difficulty": 3,
+      "subcategory": "Spektrum des harmonischen Oszillators"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Partonmodell",
+      "question": "What does the parton model describe in nuclear and particle physics?",
+      "choices": [
+        "A: The properties of electrons in atoms.",
+        "B: The interactions between light and matter.",
+        "C: The motion of planets in the solar system.",
+        "D: The structure of protons and neutrons from quarks and gluons."
+      ],
+      "correct_answer": "D",
+      "explanation": "The parton model describes protons and neutrons as composed of quarks and gluons. It helps to understand how these particles interact in high-energy collisions and how their structure leads to the observed properties of hadrons.",
+      "difficulty": 1,
+      "subcategory": "Partonmodell"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Anwendungen: Hartree–Fock-Gleichungen",
+      "question": "Which of the following statements best describes the main goal of the Hartree-Fock equations in quantum mechanics?",
+      "choices": [
+        "A: They are only applicable to systems with an odd number of electrons.",
+        "B: They are used to calculate the energies and wave functions of many electrons in an atom.",
+        "C: They allow for the exact solution of the Schrödinger equation for a single electron.",
+        "D: They are used exclusively in thermodynamics."
+      ],
+      "correct_answer": "B",
+      "explanation": "The Hartree-Fock equations are a self-consistent method for approximating the wave functions and energies in many-body systems, especially in describing electron configurations in atoms or molecules. They take into account the interactions between electrons to model their quantum mechanical behavior.",
+      "difficulty": 9,
+      "subcategory": "Anwendungen: Hartree–Fock-Gleichungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Debye–Waller-Faktor (Dynamik)",
+      "question": "What does the Debye-Waller factor describe in solid-state physics?",
+      "choices": [
+        "A: The thermal motion of atoms in a solid.",
+        "B: The optical properties of crystals.",
+        "C: The magnetic properties of materials.",
+        "D: The electrical conductivity of a solid."
+      ],
+      "correct_answer": "A",
+      "explanation": "The Debye-Waller factor quantifies the mean square displacement of atoms in a crystal due to thermal fluctuations. It plays a crucial role in the analysis of X-ray and neutron scattering experiments.",
+      "difficulty": 5,
+      "subcategory": "Debye–Waller-Faktor (Dynamik)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Reibung: Gleitreibung",
+      "question": "Which of the following statements best describes the influence of sliding friction on the motion of an object?",
+      "choices": [
+        "A: Sliding friction acts opposite to the direction of motion and decreases speed.",
+        "B: Sliding friction is independent of the object's speed.",
+        "C: Sliding friction always accelerates an object.",
+        "D: Sliding friction has no effect on the motion of an object."
+      ],
+      "correct_answer": "A",
+      "explanation": "Sliding friction always acts opposite to the direction of motion of an object, causing the object's speed to decrease. This is a key aspect of sliding friction in classical mechanics.",
+      "difficulty": 5,
+      "subcategory": "Reibung: Gleitreibung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Dipolschicht & Quadrupol",
+      "question": "What describes an electric dipole?",
+      "choices": [
+        "A: Two equal and opposite charges separated by a distance.",
+        "B: A single positive charge.",
+        "C: An arrangement of four equal charges in a square.",
+        "D: An infinite line of positive charges."
+      ],
+      "correct_answer": "A",
+      "explanation": "An electric dipole consists of two equal and opposite charges separated by a certain distance. This configuration creates an electric field that is important for many physical applications.",
+      "difficulty": 4,
+      "subcategory": "Dipolschicht & Quadrupol"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Nicht-Vertauschbarkeit von Operatoren",
+      "question": "What does it mean when two operators in quantum mechanics are non-commutative?",
+      "choices": [
+        "A: Their product is independent of the order.",
+        "B: They describe the same physical quantity.",
+        "C: They have different values.",
+        "D: They cannot be precisely measured simultaneously."
+      ],
+      "correct_answer": "D",
+      "explanation": "Non-commutative operators in quantum mechanics mean that the associated physical quantities cannot be measured simultaneously with arbitrary precision. This is a central concept that explains, among other things, the Heisenberg uncertainty principle.",
+      "difficulty": 1,
+      "subcategory": "Nicht-Vertauschbarkeit von Operatoren"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Green’sche Funktion",
+      "question": "What property does the Green's function have in electrodynamics?",
+      "choices": [
+        "A: It represents a solution of the inhomogeneous differential equations.",
+        "B: It is always constant and independent of the boundary conditions.",
+        "C: It describes the interaction between electric fields and charges.",
+        "D: It is only applicable to static problems."
+      ],
+      "correct_answer": "A",
+      "explanation": "The Green's function is an important tool for solving inhomogeneous differential equations by describing the effect of a point source. It allows for finding solutions for various boundary conditions and is versatile in electrodynamics.",
+      "difficulty": 5,
+      "subcategory": "Green’sche Funktion"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Nicht-holonome Systeme (Lagrange)",
+      "question": "Which of the following statements about non-holonomic systems is correct?",
+      "choices": [
+        "A: Non-holonomic systems have constraints that affect not only positional coordinates.",
+        "B: Non-holonomic systems are relevant only in classical mechanics and not in relativistic mechanics.",
+        "C: All non-holonomic systems can be described using Hamiltonian mechanics.",
+        "D: Non-holonomic systems are always fully determined and have no degrees of freedom."
+      ],
+      "correct_answer": "A",
+      "explanation": "Non-holonomic systems are characterized by constraints that depend not only on positions but also on velocities. This leads to specific challenges in formulating the Lagrange equations and solving such systems.",
+      "difficulty": 6,
+      "subcategory": "Nicht-holonome Systeme (Lagrange)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Wirbel & Zirkulation",
+      "question": "What does circulation describe in fluid mechanics?",
+      "choices": [
+        "A: The temperature distribution in a fluid.",
+        "B: The density of the fluid at different locations.",
+        "C: The sum of the velocity vectors along a closed path.",
+        "D: The pressure difference between two points in a fluid."
+      ],
+      "correct_answer": "C",
+      "explanation": "Circulation is defined as the line integral of the velocity vectors of a fluid along a closed path. It is an important concept for analyzing vortices and flow patterns in fluid mechanics.",
+      "difficulty": 4,
+      "subcategory": "Wirbel & Zirkulation"
+    }
+  ]
+}
