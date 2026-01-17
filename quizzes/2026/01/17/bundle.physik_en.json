@@ -1,0 +1,168 @@
+{
+  "date": "2026-01-17",
+  "generated_at": "2026-01-17T03:56:35Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Kugelkondensator",
+      "question": "How is the capacitance of a spherical capacitor determined?",
+      "choices": [
+        "A: Only by the size of the inner sphere.",
+        "B: By the surface area of the two spheres and the distance between them.",
+        "C: Only by the distance between the spheres.",
+        "D: By the temperature of the capacitor."
+      ],
+      "correct_answer": "B",
+      "explanation": "The capacitance of a spherical capacitor depends on both the surface area of the two spheres and the distance between them. This relationship is described by the formula C = 4πε₀(R₁R₂)/(R₂-R₁), where R₁ and R₂ are the radii of the inner and outer sphere.",
+      "difficulty": 4,
+      "subcategory": "Kugelkondensator"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Phasen von Einstoffsystemen & Clausius–Clapeyron",
+      "question": "Which of the following statements correctly describes the relationship between pressure and temperature in the Clausius-Clapeyron equation for phase transitions?",
+      "choices": [
+        "A: The pressure of a substance increases with increasing temperature during a phase transition.",
+        "B: The pressure of a substance decreases with increasing temperature during a phase transition.",
+        "C: The pressure remains constant as the temperature increases during a phase transition.",
+        "D: Pressure and temperature are independent of each other during a phase transition."
+      ],
+      "correct_answer": "A",
+      "explanation": "The Clausius-Clapeyron equation describes the relationship between the pressure and temperature of a substance during a phase transition. During a phase transition, such as from liquid to gas, the pressure increases with increasing temperature, affecting the thermodynamic stability of the phases.",
+      "difficulty": 7,
+      "subcategory": "Phasen von Einstoffsystemen & Clausius–Clapeyron"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Energie und Impuls von Licht",
+      "question": "Which of the following statements about the momentum of light is correct?",
+      "choices": [
+        "A: The momentum of light is directly proportional to the frequency of light.",
+        "B: Light has no momentum because it is massless.",
+        "C: The momentum of light is independent of the wavelength.",
+        "D: The momentum of light is always equal to 1 Planck constant."
+      ],
+      "correct_answer": "A",
+      "explanation": "The momentum of light is actually directly proportional to the frequency, as described by the equation p = h/λ, where p is the momentum, h is the Planck constant, and λ is the wavelength. This means that light, although massless, still carries momentum that depends on its frequency.",
+      "difficulty": 7,
+      "subcategory": "Energie und Impuls von Licht"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Ausbreitung EM-Wellen in Metallen",
+      "question": "Which statement best describes the damping of electromagnetic waves in metals?",
+      "choices": [
+        "A: Damping is independent of the frequency of the wave.",
+        "B: Damping occurs only at very low frequencies.",
+        "C: Damping increases with increasing frequency.",
+        "D: Damping is constant across all frequencies."
+      ],
+      "correct_answer": "C",
+      "explanation": "The damping of electromagnetic waves in metals increases with frequency, as higher frequencies lead to a stronger interaction with the free electrons in the metal. This results in increased energy absorption and thus higher damping of the wave.",
+      "difficulty": 8,
+      "subcategory": "Ausbreitung EM-Wellen in Metallen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Molekulare Polarisierbarkeit",
+      "question": "What describes the molecular polarizability in an electric field?",
+      "choices": [
+        "A: The ability of a molecule to store heat.",
+        "B: The ability of a molecule to absorb light.",
+        "C: The ability of a molecule to align in an electric field.",
+        "D: The ability of a molecule to form chemical bonds."
+      ],
+      "correct_answer": "C",
+      "explanation": "Molecular polarizability describes how easily the electron distribution in a molecule can be distorted by an external electric field. This property is crucial for understanding the interactions between molecules and electric fields.",
+      "difficulty": 4,
+      "subcategory": "Molekulare Polarisierbarkeit"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Zustand und Gleichgewicht (makro/mikro)",
+      "question": "What describes thermodynamic equilibrium?",
+      "choices": [
+        "A: Energy cannot be exchanged between systems.",
+        "B: A system can never reach a state of equilibrium.",
+        "C: The states of a system are stable and no longer change.",
+        "D: The temperature of a system is always the same."
+      ],
+      "correct_answer": "C",
+      "explanation": "Thermodynamic equilibrium describes a state in which the macroscopic properties of a system are constant and do not change as long as no external influences occur. It means that all forces and energy flows in the system are balanced.",
+      "difficulty": 2,
+      "subcategory": "Zustand und Gleichgewicht (makro/mikro)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Struktur der Kristalle (Überblick)",
+      "question": "Which of the following statements most accurately describes the role of lattice parameters in crystal structure?",
+      "choices": [
+        "A: Lattice parameters determine the symmetry and basis of the crystal structure.",
+        "B: Lattice parameters have no influence on the electronic properties of the material.",
+        "C: Lattice parameters are solely temperature-dependent and therefore vary only with temperature.",
+        "D: Lattice parameters are independent of the chemical composition of the crystal."
+      ],
+      "correct_answer": "A",
+      "explanation": "Lattice parameters are crucial for determining the symmetry and basis of a crystal structure, as they define the spatial arrangement of atoms within the crystal. Changes in lattice parameters can significantly influence the chemical composition and electronic properties.",
+      "difficulty": 10,
+      "subcategory": "Struktur der Kristalle (Überblick)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Kirchhoffsches Strahlungsgesetz",
+      "question": "Which of the following laws describes the temperature dependence of the radiation intensity of an ideal black body?",
+      "choices": [
+        "A: Planck's radiation law",
+        "B: Stefan-Boltzmann law",
+        "C: Snell's law",
+        "D: Kirchhoff's radiation law"
+      ],
+      "correct_answer": "A",
+      "explanation": "Kirchhoff's radiation law states that ideal black bodies emit the maximum radiation at a given temperature in every wavelength range. In contrast, Planck's radiation law quantitatively describes how the intensity of radiation is distributed depending on temperature and wavelength.",
+      "difficulty": 9,
+      "subcategory": "Kirchhoffsches Strahlungsgesetz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Formale Eigenschaften (Bilinearität, Antisymmetrie, Jacobi)",
+      "question": "Which property describes that the order of the arguments in a specific mathematical operation does not affect the result?",
+      "choices": [
+        "A: Rectifiability",
+        "B: Bilinearity",
+        "C: Linearity",
+        "D: Antisymmetry"
+      ],
+      "correct_answer": "C",
+      "explanation": "Linearity means that the operation is linear with respect to the arguments, where the order does not affect the result. This property is fundamental in analytical mechanics and plays an important role in many physical applications.",
+      "difficulty": 1,
+      "subcategory": "Formale Eigenschaften (Bilinearität, Antisymmetrie, Jacobi)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Entropie: Definition & Extremaleigenschaft",
+      "question": "What describes entropy in a closed system?",
+      "choices": [
+        "A: The total energy of the system.",
+        "B: The number of particles in the system.",
+        "C: The temperature of the system.",
+        "D: The disorder or randomness of particle arrangement."
+      ],
+      "correct_answer": "D",
+      "explanation": "Entropy is a measure of disorder or randomness in a system. The higher the entropy, the greater the disorder of particle arrangement, which is related to the probability of different microstates.",
+      "difficulty": 4,
+      "subcategory": "Entropie: Definition & Extremaleigenschaft"
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "date": "2026-01-17",
+  "generated_at": "2026-01-17T03:55:58Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Kugelkondensator",
+      "question": "Wie wird die Kapazität eines Kugelkondensators bestimmt?",
+      "choices": [
+        "A: Nur durch die Größe der inneren Kugel.",
+        "B: Durch die Fläche der beiden Kugeln und den Abstand zwischen ihnen.",
+        "C: Nur durch den Abstand zwischen den Kugeln.",
+        "D: Durch die Temperatur des Kondensators."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Kapazität eines Kugelkondensators hängt sowohl von der Fläche der beiden Kugeln als auch vom Abstand zwischen ihnen ab. Diese Beziehung wird durch die Formel C = 4πε₀(R₁R₂)/(R₂-R₁) beschrieben, wobei R₁ und R₂ die Radien der inneren und äußeren Kugel sind.",
+      "difficulty": 4,
+      "subcategory": "Kugelkondensator"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Phasen von Einstoffsystemen & Clausius–Clapeyron",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt die Beziehung zwischen Druck und Temperatur in der Clausius–Clapeyron-Gleichung für Phasenübergänge?",
+      "choices": [
+        "A: Der Druck eines Stoffes steigt mit zunehmender Temperatur während eines Phasenübergangs.",
+        "B: Der Druck eines Stoffes sinkt mit zunehmender Temperatur während eines Phasenübergangs.",
+        "C: Der Druck bleibt konstant, während die Temperatur während eines Phasenübergangs steigt.",
+        "D: Der Druck und die Temperatur sind unabhängig von einander während eines Phasenübergangs."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Clausius–Clapeyron-Gleichung beschreibt die Beziehung zwischen dem Druck und der Temperatur eines Stoffes während eines Phasenübergangs. Bei einem Phasenübergang, wie z.B. dem Übergang von flüssig zu gasförmig, steigt der Druck mit zunehmender Temperatur, was die thermodynamische Stabilität der Phasen beeinflusst.",
+      "difficulty": 7,
+      "subcategory": "Phasen von Einstoffsystemen & Clausius–Clapeyron"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Energie und Impuls von Licht",
+      "question": "Welcher der folgenden Aussagen über den Impuls von Licht ist korrekt?",
+      "choices": [
+        "A: Der Impuls von Licht ist direkt proportional zur Frequenz des Lichts.",
+        "B: Licht hat keinen Impuls, da es masselos ist.",
+        "C: Der Impuls von Licht ist unabhängig von der Wellenlänge.",
+        "D: Der Impuls von Licht ist immer gleich 1 Plancksches Quantum."
+      ],
+      "correct_answer": "A",
+      "explanation": "Der Impuls von Licht ist tatsächlich direkt proportional zur Frequenz, was durch die Gleichung p = h/λ beschrieben wird, wobei p der Impuls, h das Plancksche Wirkungsquantum und λ die Wellenlänge ist. Dies bedeutet, dass Licht, obwohl es masselos ist, dennoch Impuls transportiert, der von seiner Frequenz abhängt.",
+      "difficulty": 7,
+      "subcategory": "Energie und Impuls von Licht"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Ausbreitung EM-Wellen in Metallen",
+      "question": "Welche Aussage beschreibt am besten die Dämpfung von elektromagnetischen Wellen in Metallen?",
+      "choices": [
+        "A: Die Dämpfung ist unabhängig von der Frequenz der Welle.",
+        "B: Die Dämpfung tritt nur bei sehr niedrigen Frequenzen auf.",
+        "C: Die Dämpfung nimmt mit steigender Frequenz zu.",
+        "D: Die Dämpfung ist konstant über alle Frequenzen hinweg."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Dämpfung elektromagnetischer Wellen in Metallen steigt mit der Frequenz, da höhere Frequenzen zu einer stärkeren Wechselwirkung mit den freien Elektronen im Metall führen. Dies resultiert in einer verstärkten Energieabsorption und damit in einer höheren Dämpfung der Welle.",
+      "difficulty": 8,
+      "subcategory": "Ausbreitung EM-Wellen in Metallen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Molekulare Polarisierbarkeit",
+      "question": "Was beschreibt die molekulare Polarisierbarkeit in einem elektrischen Feld?",
+      "choices": [
+        "A: Die Fähigkeit eines Moleküls, Wärme zu speichern.",
+        "B: Die Fähigkeit eines Moleküls, Licht zu absorbieren.",
+        "C: Die Fähigkeit eines Moleküls, sich in ein elektrisches Feld auszurichten.",
+        "D: Die Fähigkeit eines Moleküls, chemische Bindungen zu bilden."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die molekulare Polarisierbarkeit beschreibt, wie leicht die Elektronenverteilung in einem Molekül durch ein externes elektrisches Feld verzerrt werden kann. Diese Eigenschaft ist entscheidend für das Verständnis der Wechselwirkungen zwischen Molekülen und elektrischen Feldern.",
+      "difficulty": 4,
+      "subcategory": "Molekulare Polarisierbarkeit"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Zustand und Gleichgewicht (makro/mikro)",
+      "question": "Was beschreibt das thermodynamische Gleichgewicht?",
+      "choices": [
+        "A: Energie kann nicht zwischen Systemen ausgetauscht werden.",
+        "B: Ein System kann nie in einen Zustand des Gleichgewichts gelangen.",
+        "C: Die Zustände eines Systems sind stabil und ändern sich nicht mehr.",
+        "D: Die Temperatur eines Systems ist immer gleich."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das thermodynamische Gleichgewicht beschreibt einen Zustand, in dem die makroskopischen Eigenschaften eines Systems konstant sind und sich nicht mehr ändern, solange keine äußeren Einflüsse auftreten. Es bedeutet, dass alle Kräfte und Energieflüsse im System im Gleichgewicht sind.",
+      "difficulty": 2,
+      "subcategory": "Zustand und Gleichgewicht (makro/mikro)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Struktur der Kristalle (Überblick)",
+      "question": "Welche der folgenden Aussagen beschreibt die Rolle der Gitterparameter in der Kristallstruktur am genauesten?",
+      "choices": [
+        "A: Gitterparameter bestimmen die Symmetrie und die Basis der Kristallstruktur.",
+        "B: Gitterparameter haben keinen Einfluss auf die elektronischen Eigenschaften des Materials.",
+        "C: Gitterparameter sind ausschließlich temperaturabhängig und variieren daher nur mit der Temperatur.",
+        "D: Gitterparameter sind unabhängig von der chemischen Zusammensetzung des Kristalls."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Gitterparameter sind entscheidend für die Bestimmung der Symmetrie und der Basis einer Kristallstruktur, da sie die räumliche Anordnung der Atome innerhalb des Kristalls definieren. Die chemische Zusammensetzung und die elektronischen Eigenschaften können durch Veränderungen der Gitterparameter erheblich beeinflusst werden.",
+      "difficulty": 10,
+      "subcategory": "Struktur der Kristalle (Überblick)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Kirchhoffsches Strahlungsgesetz",
+      "question": "Welches der folgenden Gesetze beschreibt die Temperaturabhängigkeit der Strahlungsintensität eines idealen Schwarzen Körpers?",
+      "choices": [
+        "A: Das Plancksche Strahlungsgesetz",
+        "B: Das Stefan-Boltzmann-Gesetz",
+        "C: Das Snellius-Gesetz",
+        "D: Das Kirchhoffsche Strahlungsgesetz"
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Kirchhoffsche Strahlungsgesetz besagt, dass ideale schwarze Körper in jedem Wellenlängenbereich die maximale Strahlung bei einer gegebenen Temperatur emittieren. Das Plancksche Strahlungsgesetz hingegen beschreibt quantitativ, wie die Intensität der Strahlung in Abhängigkeit von der Temperatur und der Wellenlänge verteilt ist.",
+      "difficulty": 9,
+      "subcategory": "Kirchhoffsches Strahlungsgesetz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Formale Eigenschaften (Bilinearität, Antisymmetrie, Jacobi)",
+      "question": "Welche Eigenschaft beschreibt, dass die Reihenfolge der Argumente bei einer bestimmten mathematischen Operation keinen Einfluss auf das Ergebnis hat?",
+      "choices": [
+        "A: Rektifizierbarkeit",
+        "B: Bilinearität",
+        "C: Linearität",
+        "D: Antisymmetrie"
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Linearität bedeutet, dass die Operation bezüglich der Argumente linear ist, wobei die Reihenfolge keinen Einfluss auf das Resultat hat. Diese Eigenschaft ist grundlegend in der analytischen Mechanik und spielt eine wichtige Rolle in vielen physikalischen Anwendungen.",
+      "difficulty": 1,
+      "subcategory": "Formale Eigenschaften (Bilinearität, Antisymmetrie, Jacobi)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Entropie: Definition & Extremaleigenschaft",
+      "question": "Was beschreibt die Entropie in einem geschlossenen System?",
+      "choices": [
+        "A: Die Gesamtenergie des Systems.",
+        "B: Die Anzahl der Teilchen im System.",
+        "C: Die Temperatur des Systems.",
+        "D: Die Unordnung oder Zufälligkeit der Teilchenanordnung."
+      ],
+      "correct_answer": "D",
+      "explanation": "Entropie ist ein Maß für die Unordnung oder Zufälligkeit in einem System. Je höher die Entropie, desto größer ist die Unordnung der Teilchenanordnung, was mit der Wahrscheinlichkeit der verschiedenen Mikrozustände zusammenhängt.",
+      "difficulty": 4,
+      "subcategory": "Entropie: Definition & Extremaleigenschaft"
+    }
+  ]
+}
