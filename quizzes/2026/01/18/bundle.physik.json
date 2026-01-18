@@ -1,0 +1,169 @@
+{
+  "date": "2026-01-18",
+  "generated_at": "2026-01-18T04:05:50Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Eigenschaften von Photonen",
+      "question": "Welche der folgenden Aussagen beschreibt eine Eigenschaft von Photonen?",
+      "choices": [
+        "A: Photonen können sowohl als Teilchen als auch als Welle beschrieben werden.",
+        "B: Photonen können nicht durch elektrische und magnetische Felder beeinflusst werden.",
+        "C: Photonen haben eine Masse und werden durch Schwerkraft beeinflusst.",
+        "D: Photonen bewegen sich immer langsamer als Lichtgeschwindigkeit, abhängig von ihrem Medium."
+      ],
+      "correct_answer": "A",
+      "explanation": "Photonen sind Teilchen, die Licht und andere elektromagnetische Strahlung darstellen. Sie zeigen sowohl Teilchen- als auch Welleneigenschaften, was als Wellen-Teilchen-Dualismus bezeichnet wird.",
+      "difficulty": 7,
+      "subcategory": "Eigenschaften von Photonen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Transfermatrix-Methode (Ising etc.)",
+      "question": "Was beschreibt die Transfermatrix in der Transfermatrix-Methode für das Ising-Modell?",
+      "choices": [
+        "A: Die Temperaturabhängigkeit des Systems.",
+        "B: Den Übergangszustand des Systems zwischen verschiedenen Energiestufen.",
+        "C: Die Wechselwirkungen zwischen den Spins der Teilchen.",
+        "D: Die Wahrscheinlichkeit, dass ein Spin in einen bestimmten Zustand wechselt."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Transfermatrix beschreibt die Übergangswahrscheinlichkeiten zwischen den Zuständen von Spins in einem statistischen System. Sie ermöglicht es, die statistischen Eigenschaften des Ising-Modells effizient zu berechnen und zu analysieren.",
+      "difficulty": 4,
+      "subcategory": "Transfermatrix-Methode (Ising etc.)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Skalenhypothese (Skalierungsansatz)",
+      "question": "Was beschreibt die Skalenhypothese in der Thermodynamik?",
+      "choices": [
+        "A: Die Auswirkungen von externen Feldern auf die thermischen Eigenschaften von Materialien.",
+        "B: Die Effekte von Temperaturänderungen auf die Dichte von Gasen.",
+        "C: Die Beziehung zwischen makroskopischen und mikroskopischen Eigenschaften eines Systems.",
+        "D: Die Korrelation zwischen Druck und Volumen in einem idealen Gas."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Skalenhypothese stellt sicher, dass thermodynamische Eigenschaften, die auf makroskopischer Ebene beobachtet werden, durch die entsprechenden mikroskopischen Zustände und deren Statistiken erklärt werden können. Dies ist entscheidend für das Verständnis komplexer Systeme in der Thermodynamik.",
+      "difficulty": 8,
+      "subcategory": "Skalenhypothese (Skalierungsansatz)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Reihen komplexer Funktionen",
+      "question": "Welcher Ausdruck beschreibt den Zusammenhang zwischen der komplexen Impedanz Z und der Frequenz ω in einem RLC-Kreis, wenn die Resonanzfrequenz erreicht ist?",
+      "choices": [
+        "A: Z = 0",
+        "B: Z = ∞",
+        "C: Z = R + j0",
+        "D: Z = R"
+      ],
+      "correct_answer": "A",
+      "explanation": "Bei der Resonanzfrequenz in einem RLC-Kreis heben sich die reaktiven Komponenten der Impedanz (Induktivität und Kapazität) gegenseitig auf, was zu einer Gesamtimpedanz von null führt. Dies bedeutet, dass der Strom maximal fließt und die Spannung über den Widerstand R die einzige bleibt, die messbar ist.",
+      "difficulty": 10,
+      "subcategory": "Reihen komplexer Funktionen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Klassischer Grenzfall (z ≪ 1)",
+      "question": "Was beschreibt der klassische Grenzfall in der statistischen Mechanik, wenn der Parameter z viel kleiner als 1 ist?",
+      "choices": [
+        "A: Das System verhält sich wie ein ideales Gas.",
+        "B: Es gibt keine statistische Verteilung von Teilchen.",
+        "C: Die thermodynamischen Eigenschaften sind nicht anwendbar.",
+        "D: Die Wechselwirkungen zwischen den Teilchen sind dominant."
+      ],
+      "correct_answer": "A",
+      "explanation": "Im klassischen Grenzfall (z ≪ 1) kann das Verhalten eines Systems als ideal angesehen werden, was bedeutet, dass die Teilchen unabhängig voneinander agieren und die statistische Mechanik einfachere Modelle wie das ideale Gas anwendbar macht. Dies vereinfacht viele Berechnungen und Vorhersagen der thermodynamischen Eigenschaften des Systems.",
+      "difficulty": 3,
+      "subcategory": "Klassischer Grenzfall (z ≪ 1)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Einfache Folgerungen aus den Hauptsätzen",
+      "question": "Welcher Hauptsatz der Thermodynamik besagt, dass die Energie in einem geschlossenen System konstant bleibt?",
+      "choices": [
+        "A: Zweiter Hauptsatz",
+        "B: Dritter Hauptsatz",
+        "C: Nullter Hauptsatz",
+        "D: Erster Hauptsatz"
+      ],
+      "correct_answer": "D",
+      "explanation": "Der erste Hauptsatz der Thermodynamik, auch als Energieerhaltungssatz bekannt, besagt, dass die Energie in einem geschlossenen System nicht verloren geht, sondern nur umgewandelt wird. Dies ist eine grundlegende Eigenschaft aller physikalischen Systeme.",
+      "difficulty": 3,
+      "subcategory": "Einfache Folgerungen aus den Hauptsätzen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Streuung an Oberflächen/dünnen Schichten",
+      "question": "Welche der folgenden Aussagen beschreibt am besten den Einfluss der Oberflächenrauheit auf die Streuung von Photonen an einer Oberfläche?",
+      "choices": [
+        "A: Eine glatte Oberfläche führt immer zu einer vollständigen Reflexion von Photonen.",
+        "B: Rauhe Oberflächen reflektieren Photonen ausschließlich in eine definierte Richtung.",
+        "C: Eine erhöhte Oberflächenrauheit führt in der Regel zu einer erhöhten Streuung in alle Richtungen.",
+        "D: Oberflächenrauheit hat keinen Einfluss auf die Streuung von Photonen."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Oberflächenrauheit beeinflusst die Streuung von Photonen erheblich, da sie die Weglängen und die Interaktionen zwischen den Photonen und der Materie verändert. Eine rauere Oberfläche führt typischerweise zu einer diffusen Streuung, wodurch die Photonen in verschiedene Richtungen abgelenkt werden.",
+      "difficulty": 7,
+      "subcategory": "Streuung an Oberflächen/dünnen Schichten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Interferometer (spezielle Anordnungen)",
+      "question": "Welches Prinzip nutzen Interferometer zur Messung von Lichtwellen?",
+      "choices": [
+        "A: Reflexion von Licht",
+        "B: Überlagerung von Wellen",
+        "C: Brechung von Licht",
+        "D: Absorption von Licht"
+      ],
+      "correct_answer": "B",
+      "explanation": "Interferometer basieren auf dem Prinzip der Überlagerung von Wellen, um Interferenzmuster zu erzeugen. Diese Muster entstehen, wenn zwei oder mehr Lichtwellen sich überlagern, was zur Messung von sehr kleinen Veränderungen in der Wellenlänge führt.",
+      "difficulty": 5,
+      "subcategory": "Interferometer (spezielle Anordnungen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Anwendungen: Hartree–Fock-Gleichungen",
+      "question": "Welche Annahme wird in den Hartree-Fock-Gleichungen zur Berechnung der Elektronenkorrelation verwendet?",
+      "choices": [
+        "A: Die Elektronen befinden sich immer in einem festen Potential.",
+        "B: Die Wechselwirkungen zwischen Elektronen sind vernachlässigbar.",
+        "C: Alle Elektronen haben dieselbe Energie.",
+        "D: Die Elektronen bewegen sich unabhängig voneinander."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Hartree-Fock-Gleichungen basieren auf der Annahme, dass jedes Elektron sich unabhängig von den anderen bewegt, während die Effekte der Elektronenkorrelation durch einen effektiven Potentialterm berücksichtigt werden. Diese Annahme vereinfacht die komplexe Berechnung der Wechselwirkungen zwischen mehreren Elektronen erheblich.",
+      "difficulty": 6,
+      "subcategory": "Anwendungen: Hartree–Fock-Gleichungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Mikrokanonisches Ensemble: Verteilungsfunktion & Dichtematrix",
+      "question": "Was beschreibt die Verteilungsfunktion im mikrokanonischen Ensemble?",
+      "choices": [
+        "A: Die Temperatur eines Systems.",
+        "B: Die Wahrscheinlichkeit, dass ein System sich in einem bestimmten Energieniveau befindet.",
+        "C: Die Gesamtenergie eines Systems.",
+        "D: Die Anzahl der Teilchen in einem System."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Verteilungsfunktion im mikrokanonischen Ensemble beschreibt die Wahrscheinlichkeit, dass ein System sich in einem bestimmten Energieniveau befindet, gegeben die Gesamtenergie des Systems. Diese Funktion ist entscheidend für das Verständnis der thermodynamischen Eigenschaften von Systemen bei konstanter Energie.",
+      "difficulty": 4,
+      "subcategory": "Mikrokanonisches Ensemble: Verteilungsfunktion & Dichtematrix"
+    }
+  ]
+}
