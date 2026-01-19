@@ -1,0 +1,169 @@
+{
+  "date": "2026-01-19",
+  "generated_at": "2026-01-19T04:12:04Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Rutherford‑Wirkungsquerschnitt",
+      "question": "Welcher Faktor beeinflusst maßgeblich den Rutherford-Wirkungsquerschnitt bei der Streuung von Alpha-Teilchen an einem Atomkern?",
+      "choices": [
+        "A: Die Stärke der elektromagnetischen Wechselwirkung.",
+        "B: Die Temperatur des Experiments.",
+        "C: Die Energie der Alpha-Teilchen.",
+        "D: Die Masse des Alpha-Teilchens."
+      ],
+      "correct_answer": "A",
+      "explanation": "Der Rutherford-Wirkungsquerschnitt hängt entscheidend von der Stärke der elektromagnetischen Wechselwirkung ab, da diese die Wechselwirkung zwischen den positiv geladenen Alpha-Teilchen und dem Atomkern bestimmt. Eine höhere Wechselwirkungsstärke führt zu einer größeren Wahrscheinlichkeit der Ablenkung der Alpha-Teilchen und damit zu einem größeren Wirkungsquerschnitt.",
+      "difficulty": 10,
+      "subcategory": "Rutherford‑Wirkungsquerschnitt"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Induzierte Doppelbrechung",
+      "question": "Welche der folgenden Aussagen beschreibt am besten den Effekt der induzierten Doppelbrechung in anisotropen Materialien?",
+      "choices": [
+        "A: Sie hat keinen Einfluss auf die Lichtintensität, sondern nur auf die Farbe des Lichts.",
+        "B: Sie führt zu einer Veränderung der Lichtgeschwindigkeit in Abhängigkeit von der Polarisationsrichtung.",
+        "C: Sie tritt nur bei transparenten Materialien auf, die isotrop sind.",
+        "D: Sie bewirkt eine gleichmäßige Brechung des Lichts unabhängig von der Polarisationsrichtung."
+      ],
+      "correct_answer": "B",
+      "explanation": "Induzierte Doppelbrechung tritt in anisotropen Materialien auf, wo die Lichtgeschwindigkeit von der Polarisationsrichtung abhängt. Dies führt dazu, dass Licht, das in unterschiedlichen Polarisationsrichtungen durch das Material tritt, unterschiedlich gebrochen wird, was zu zwei getrennten Lichtstrahlen führt.",
+      "difficulty": 8,
+      "subcategory": "Induzierte Doppelbrechung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Korrespondenzprinzip (QM↔klassisch)",
+      "question": "Was besagt das Korrespondenzprinzip in der Quantenmechanik?",
+      "choices": [
+        "A: Die Quantenmechanik stimmt in bestimmten Grenzfällen mit der klassischen Mechanik überein.",
+        "B: Quantenmechanik ist unabhängig von klassischen Theorien.",
+        "C: Teilchen haben immer eine exakt definierte Position und Geschwindigkeit.",
+        "D: Energie ist in der Quantenmechanik kontinuierlich und nicht quantisiert."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Korrespondenzprinzip besagt, dass die Quantenmechanik in bestimmten Grenzfällen, wie bei großen Teilchen oder hohen Energien, mit der klassischen Mechanik übereinstimmt. Dies ermöglicht es, die klassischen Gesetze als Approximation der quantenmechanischen Gesetze zu betrachten, wenn die quantenmechanischen Effekte vernachlässigbar sind.",
+      "difficulty": 4,
+      "subcategory": "Korrespondenzprinzip (QM↔klassisch)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Auftrieb & Schwimmen",
+      "question": "Was bewirkt, dass ein schwimmender Körper im Wasser bleibt?",
+      "choices": [
+        "A: Der Auftrieb, der gleich dem Gewicht des verdrängten Wassers ist.",
+        "B: Der Druck des Wassers, der den Körper nach oben drückt.",
+        "C: Die Schwerkraft, die den Körper nach unten zieht.",
+        "D: Die Temperatur des Wassers, die den Auftrieb beeinflusst."
+      ],
+      "correct_answer": "A",
+      "explanation": "Ein schwimmender Körper bleibt im Wasser, weil der Auftrieb, der durch das verdrängte Wasser erzeugt wird, gleich dem Gewicht des Körpers ist. Wenn diese Kräfte im Gleichgewicht sind, bleibt der Körper an der Oberfläche.",
+      "difficulty": 2,
+      "subcategory": "Auftrieb & Schwimmen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Bezug zur Quantenmechanik (Kommutator ↔ Poisson)",
+      "question": "Welcher Zusammenhang besteht zwischen dem Poisson-Klammer und dem Kommutator in der Quantenmechanik?",
+      "choices": [
+        "A: Der Poisson-Klammer beschreibt klassische Systeme, während der Kommutator in quantenmechanischen Systemen verwendet wird.",
+        "B: Der Poisson-Klammer ist ein Spezialfall des Kommutators.",
+        "C: Beide sind identisch und beschreiben die gleiche mathematische Struktur.",
+        "D: Der Kommutator ist nur in der Thermodynamik von Bedeutung, der Poisson-Klammer in der Mechanik."
+      ],
+      "correct_answer": "A",
+      "explanation": "Der Poisson-Klammer ist eine mathematische Struktur, die in der klassischen Mechanik verwendet wird, während der Kommutator in der Quantenmechanik zur Beschreibung der Dynamik von Observablen dient. Beide Konzepte sind fundamental, aber in unterschiedlichen physikalischen Theorien relevant.",
+      "difficulty": 4,
+      "subcategory": "Bezug zur Quantenmechanik (Kommutator ↔ Poisson)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Hauptträgheitsmomente",
+      "question": "Welches der folgenden Hauptträgheitsmomente beschreibt am besten einen starren Zylinder um seine Längsachse?",
+      "choices": [
+        "A: \\( m r^2 \\)",
+        "B: \\( \\frac{1}{3} m r^2 \\)",
+        "C: \\( \\frac{1}{2} m r^2 \\)",
+        "D: \\( \\frac{2}{5} m r^2 \\)"
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Hauptträgheitsmoment eines starren Zylinders um seine Längsachse beträgt \\( \\frac{1}{2} m r^2 \\), wobei \\( m \\) die Masse und \\( r \\) der Radius des Zylinders ist. Dieses Moment ist entscheidend für die Analyse von Rotationsbewegungen und spielt eine zentrale Rolle in der klassischen Mechanik.",
+      "difficulty": 9,
+      "subcategory": "Hauptträgheitsmomente"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Stark gebundene Elektronen (tight-binding)",
+      "question": "Welche Aussage über das tight-binding-Modell in der Festkörperphysik ist korrekt?",
+      "choices": [
+        "A: Es berücksichtigt die Wechselwirkung zwischen benachbarten Atomen nur bis zur ersten Nachbarschaft.",
+        "B: Es ist nur für isotrope Materialien anwendbar.",
+        "C: Es beschreibt die Elektronenzustände als kontinuierliche Energiebänder ohne diskrete Werte.",
+        "D: Es vernachlässigt die spin-abhängigen Wechselwirkungen zwischen den Elektronen."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das tight-binding-Modell ist ein theoretischer Ansatz, der die Elektronenzustände in festen Materialien beschreibt, wobei die Wechselwirkungen zwischen benachbarten Atomen berücksichtigt werden, typischerweise nur bis zur ersten Nachbarschaft. Diese Annahme ermöglicht eine effiziente Berechnung der elektronischen Eigenschaften von Festkörpern, insbesondere von Halbleitern und Metallen.",
+      "difficulty": 10,
+      "subcategory": "Stark gebundene Elektronen (tight-binding)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "p–n-Übergang",
+      "question": "Was ist ein p–n-Übergang?",
+      "choices": [
+        "A: Eine Art von magnetischem Material.",
+        "B: Eine Verbindung zwischen einem p-Typ und einem n-Typ Halbleiter.",
+        "C: Ein Zustand von Materie bei extrem niedrigen Temperaturen.",
+        "D: Eine chemische Reaktion zwischen zwei Metallen."
+      ],
+      "correct_answer": "B",
+      "explanation": "Ein p–n-Übergang entsteht an der Grenzfläche zwischen einem p-Typ (positiv dotierten) und einem n-Typ (negativ dotierten) Halbleiter. Diese Struktur ist entscheidend für das Funktionieren von Halbleiterbauelementen wie Dioden und Transistoren.",
+      "difficulty": 3,
+      "subcategory": "p–n-Übergang"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Kugelsymmetrischer Potentialtopf (radial)",
+      "question": "Was beschreibt die Radialwellenfunktion in einem kugelsymmetrischen Potentialtopf?",
+      "choices": [
+        "A: Die Energie des Teilchens in Bezug auf seine Geschwindigkeit.",
+        "B: Die Wechselwirkung zwischen zwei Teilchen im Potentialtopf.",
+        "C: Die Wahrscheinlichkeit, ein Teilchen in einem bestimmten Radius um den Ursprung zu finden.",
+        "D: Die maximale Entfernung, die ein Teilchen im Potentialtopf erreichen kann."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Radialwellenfunktion in einem kugelsymmetrischen Potentialtopf beschreibt die Wahrscheinlichkeit, ein Teilchen bei einem bestimmten Abstand vom Zentrum zu finden. Sie spielt eine zentrale Rolle in der Lösung der Schrödinger-Gleichung für solche Systeme.",
+      "difficulty": 5,
+      "subcategory": "Kugelsymmetrischer Potentialtopf (radial)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Majorana‑Neutrino?",
+      "question": "Welches der folgenden Merkmale beschreibt ein Majorana-Neutrino?",
+      "choices": [
+        "A: Es interagiert ausschließlich über die starke Kernkraft.",
+        "B: Es hat eine elektrische Ladung.",
+        "C: Es ist immer masselos.",
+        "D: Es ist sein eigenes Antiteilchen."
+      ],
+      "correct_answer": "D",
+      "explanation": "Ein Majorana-Neutrino ist ein hypothetisches Teilchen, das die Eigenschaft hat, mit sich selbst zu identifizieren, was bedeutet, dass es sein eigenes Antiteilchen ist. Dies unterscheidet es von anderen Neutrinos, die von ihren Antiteilchen verschieden sind. Die Eigenschaften und Konsequenzen von Majorana-Neutrinos sind von großem Interesse in der theoretischen Physik, insbesondere in der Erforschung der Neutrinomassen und der Materie-Antimaterie-Asymmetrie im Universum.",
+      "difficulty": 9,
+      "subcategory": "Majorana‑Neutrino?"
+    }
+  ]
+}
