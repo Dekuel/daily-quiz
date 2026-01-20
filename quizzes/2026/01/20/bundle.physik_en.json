@@ -1,0 +1,168 @@
+{
+  "date": "2026-01-20",
+  "generated_at": "2026-01-20T04:07:35Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Entropie als Zustandsgröße",
+      "question": "Which of the following statements best describes the relationship between entropy and thermodynamic equilibrium?",
+      "choices": [
+        "A: A system can only reach equilibrium when entropy is minimal.",
+        "B: Entropy has no influence on thermodynamic equilibrium.",
+        "C: Entropy is always constant in thermodynamic equilibrium.",
+        "D: A system reaches thermodynamic equilibrium when entropy is maximal."
+      ],
+      "correct_answer": "D",
+      "explanation": "In thermodynamic equilibrium, the entropy of an isolated system is maximal. This means that all available energy states are evenly distributed and no net energy flows can occur.",
+      "difficulty": 9,
+      "subcategory": "Entropie als Zustandsgröße"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Exponenten-Ungleichungen (Scaling Bounds)",
+      "question": "Which of the following laws describes the relationship between the change in entropy and temperature in a thermodynamic system?",
+      "choices": [
+        "A: Boyle's Law",
+        "B: Bernoulli's Principle",
+        "C: Clausius' Inequality",
+        "D: Ohm's Law"
+      ],
+      "correct_answer": "C",
+      "explanation": "Clausius' inequality states that the change in entropy of a system is always greater than or equal to the heat supplied divided by the temperature. This relationship is fundamental for understanding entropy in thermodynamics.",
+      "difficulty": 6,
+      "subcategory": "Exponenten-Ungleichungen (Scaling Bounds)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Wellengleichung und Lösungen",
+      "question": "Which of the following statements correctly describes the wave equation for light waves in a vacuum?",
+      "choices": [
+        "A: The wave equation is v = a * t, where v is the velocity.",
+        "B: The wave equation describes only transverse waves.",
+        "C: The wave equation is c = λ * f, where c is the speed of light.",
+        "D: The wave equation is independent of frequency."
+      ],
+      "correct_answer": "C",
+      "explanation": "The wave equation for light waves in a vacuum is c = λ * f, where c is the speed of light, λ is the wavelength, and f is the frequency. This relationship is fundamental for understanding electromagnetic waves.",
+      "difficulty": 5,
+      "subcategory": "Wellengleichung und Lösungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Beweglichkeit & elektrische Leitfähigkeit",
+      "question": "Which material is a typical conductor for electric currents?",
+      "choices": [
+        "A: Rubber",
+        "B: Wood",
+        "C: Copper",
+        "D: Glass"
+      ],
+      "correct_answer": "C",
+      "explanation": "Copper is known for its high electrical conductivity and is commonly used in electrical wiring. In contrast, glass, rubber, and wood are insulators that strongly impede the flow of electricity.",
+      "difficulty": 4,
+      "subcategory": "Beweglichkeit & elektrische Leitfähigkeit"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Hookesches Gesetz",
+      "question": "What does Hooke's Law describe?",
+      "choices": [
+        "A: Heat conduction in solids.",
+        "B: The relationship between the extension of an elastic body and the force applied to it.",
+        "C: The motion of a body under the influence of gravity.",
+        "D: The frequency of a vibration system."
+      ],
+      "correct_answer": "B",
+      "explanation": "Hooke's Law states that the extension (or compression) of an elastic body is proportional to the force applied to it, as long as the elastic limit is not exceeded. It is a fundamental relationship in the mechanics of elastic materials.",
+      "difficulty": 5,
+      "subcategory": "Hookesches Gesetz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Translation vs. Rotation (Vergleich)",
+      "question": "Which of the following statements best describes the difference between translational and rotational motion?",
+      "choices": [
+        "A: Translational motion can only occur in two dimensions, while rotation is possible in all three dimensions.",
+        "B: In translational motion, the velocity is constant, while in rotational motion, the velocity always varies.",
+        "C: In translational motion, the center of mass of a body moves along a line, while in rotational motion, the body rotates around a fixed point.",
+        "D: Translational motion occurs only in straight lines, while rotation occurs exclusively in curves."
+      ],
+      "correct_answer": "C",
+      "explanation": "Translational motion refers to the movement of a body in which all parts are uniformly displaced in one direction, while rotational motion involves the body rotating about an axis. This distinction is fundamental in classical mechanics as it requires different physical laws and concepts.",
+      "difficulty": 8,
+      "subcategory": "Translation vs. Rotation (Vergleich)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Verteilungsfunktion",
+      "question": "Which of the following statements best describes the distribution function in classical mechanics?",
+      "choices": [
+        "A: It indicates the interaction between two bodies.",
+        "B: It specifies the mass of a body based on its position.",
+        "C: It indicates the probability of a particle being in a specific state.",
+        "D: It describes the velocity of a particle at a specific time."
+      ],
+      "correct_answer": "C",
+      "explanation": "The distribution function in classical mechanics describes the probability of finding a particle in a specific state or region of phase space. It is an important concept for understanding the behavior of particles in statistical systems.",
+      "difficulty": 4,
+      "subcategory": "Verteilungsfunktion"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Inertialsysteme (Definition und Eigenschaften)",
+      "question": "Which of the following statements correctly describes an inertial system?",
+      "choices": [
+        "A: An inertial system is a reference frame in which bodies move uniformly without external forces.",
+        "B: An inertial system is a reference frame where gravity does not exist.",
+        "C: An inertial system is a reference frame constantly in motion.",
+        "D: An inertial system is a reference frame where time passes slower than in another system."
+      ],
+      "correct_answer": "A",
+      "explanation": "An inertial system is defined as a reference frame in which Newton's laws hold, meaning that bodies move uniformly in the absence of external forces. The other statements are incorrect as they make false assumptions about motion or physical conditions.",
+      "difficulty": 7,
+      "subcategory": "Inertialsysteme (Definition und Eigenschaften)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Carnot-Kreisprozess & Wirkungsgrad",
+      "question": "Which of the following elements is crucial for the maximum efficiency of a Carnot cycle process?",
+      "choices": [
+        "A: The size of the working medium",
+        "B: The speed of the process",
+        "C: The temperature difference between the hot and cold reservoirs",
+        "D: The type of working medium"
+      ],
+      "correct_answer": "C",
+      "explanation": "The maximum efficiency of a Carnot cycle process depends solely on the temperature difference between the hot and cold reservoirs. The greater this temperature difference, the higher the potential efficiency of the process.",
+      "difficulty": 6,
+      "subcategory": "Carnot-Kreisprozess & Wirkungsgrad"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "χ^(3)-Phänomene (dritte Ordnung)",
+      "question": "What does a χ^(3) phenomenon in optics describe?",
+      "choices": [
+        "A: Reflection of light on a surface.",
+        "B: Refraction of light at the interface between two media.",
+        "C: Interaction of light with matter leading to a third harmonic frequency.",
+        "D: Deflection of light rays by a prism."
+      ],
+      "correct_answer": "C",
+      "explanation": "χ^(3) phenomena refer to nonlinear optical effects where light interacts with matter and generates higher harmonic frequencies. This is a central aspect in nonlinear optics relevant in various applications such as frequency doubling and optical modulators.",
+      "difficulty": 5,
+      "subcategory": "χ^(3)-Phänomene (dritte Ordnung)"
+    }
+  ]
+}

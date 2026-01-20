@@ -1,0 +1,169 @@
+{
+  "date": "2026-01-20",
+  "generated_at": "2026-01-20T04:07:03Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Entropie als Zustandsgröße",
+      "question": "Welche der folgenden Aussagen beschreibt am besten die Beziehung zwischen Entropie und dem thermodynamischen Gleichgewicht?",
+      "choices": [
+        "A: Ein System kann nur dann in ein Gleichgewicht übergehen, wenn die Entropie minimal ist.",
+        "B: Entropie hat keinen Einfluss auf das thermodynamische Gleichgewicht.",
+        "C: Entropie ist stets konstant im thermodynamischen Gleichgewicht.",
+        "D: Ein System erreicht thermodynamisches Gleichgewicht, wenn die Entropie maximal ist."
+      ],
+      "correct_answer": "D",
+      "explanation": "Im thermodynamischen Gleichgewicht ist die Entropie eines isolierten Systems maximal. Dies bedeutet, dass alle verfügbaren Energiezustände gleichmäßig verteilt sind und keine netten Energieflüsse mehr stattfinden können.",
+      "difficulty": 9,
+      "subcategory": "Entropie als Zustandsgröße"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Exponenten-Ungleichungen (Scaling Bounds)",
+      "question": "Welches der folgenden Gesetze beschreibt die Beziehung zwischen der Änderung der Entropie und der Temperatur in einem thermodynamischen System?",
+      "choices": [
+        "A: Boyle's Gesetz",
+        "B: Bernoullis Prinzip",
+        "C: Clausius' Ungleichung",
+        "D: Ohm's Gesetz"
+      ],
+      "correct_answer": "C",
+      "explanation": "Clausius' Ungleichung beschreibt, dass die Änderung der Entropie eines Systems immer größer oder gleich der zugeführten Wärme geteilt durch die Temperatur ist. Diese Beziehung ist grundlegend für das Verständnis der Entropie in der Thermodynamik.",
+      "difficulty": 6,
+      "subcategory": "Exponenten-Ungleichungen (Scaling Bounds)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Wellengleichung und Lösungen",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt die Wellengleichung für Lichtwellen im Vakuum?",
+      "choices": [
+        "A: Die Wellengleichung lautet v = a * t, wobei v die Geschwindigkeit ist.",
+        "B: Die Wellengleichung beschreibt nur transversale Wellen.",
+        "C: Die Wellengleichung lautet c = λ * f, wobei c die Lichtgeschwindigkeit ist.",
+        "D: Die Wellengleichung ist unabhängig von der Frequenz."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Wellengleichung für Lichtwellen im Vakuum lautet c = λ * f, wobei c die Lichtgeschwindigkeit, λ die Wellenlänge und f die Frequenz ist. Diese Beziehung ist fundamental für das Verständnis von elektromagnetischen Wellen.",
+      "difficulty": 5,
+      "subcategory": "Wellengleichung und Lösungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Beweglichkeit & elektrische Leitfähigkeit",
+      "question": "Welches Material ist ein typischer Leiter für elektrische Ströme?",
+      "choices": [
+        "A: Gummi",
+        "B: Holz",
+        "C: Kupfer",
+        "D: Glas"
+      ],
+      "correct_answer": "C",
+      "explanation": "Kupfer ist bekannt für seine hohe elektrische Leitfähigkeit und wird häufig in elektrischen Leitungen verwendet. Im Gegensatz dazu sind Glas, Gummi und Holz Isolatoren, die den elektrischen Fluss stark behindern.",
+      "difficulty": 4,
+      "subcategory": "Beweglichkeit & elektrische Leitfähigkeit"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Hookesches Gesetz",
+      "question": "Was beschreibt das Hookesche Gesetz?",
+      "choices": [
+        "A: Die Wärmeleitung in Festkörpern.",
+        "B: Die Beziehung zwischen der Dehnung eines elastischen Körpers und der auf ihn wirkenden Kraft.",
+        "C: Die Bewegung eines Körpers unter dem Einfluss der Schwerkraft.",
+        "D: Die Frequenz eines Schwingungssystems."
+      ],
+      "correct_answer": "B",
+      "explanation": "Das Hookesche Gesetz besagt, dass die Dehnung (oder Stauchung) eines elastischen Körpers proportional zur auf ihn wirkenden Kraft ist, solange die elastische Grenze nicht überschritten wird. Es ist eine grundlegende Beziehung in der Mechanik von elastischen Materialien.",
+      "difficulty": 5,
+      "subcategory": "Hookesches Gesetz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Translation vs. Rotation (Vergleich)",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt den Unterschied zwischen translationaler und rotationaler Bewegung?",
+      "choices": [
+        "A: Translationalbewegung kann nur in zwei Dimensionen stattfinden, während Rotation in allen drei Dimensionen möglich ist.",
+        "B: In der translationalen Bewegung ist die Geschwindigkeit konstant, während in der Rotationsbewegung die Geschwindigkeit immer variiert.",
+        "C: Bei translationaler Bewegung bewegt sich der Schwerpunkt eines Körpers entlang einer Linie, während bei rotationaler Bewegung der Körper um einen festen Punkt rotiert.",
+        "D: Translationalbewegung tritt nur in geraden Linien auf, während Rotation ausschließlich in Kurven stattfindet."
+      ],
+      "correct_answer": "C",
+      "explanation": "Translationalbewegung bezieht sich auf die Bewegung eines Körpers, bei der alle Teile gleichmäßig in eine Richtung verschoben werden, während bei der Rotationsbewegung der Körper um eine Achse rotiert. Diese Unterscheidung ist fundamental in der klassischen Mechanik, da sie unterschiedliche physikalische Gesetze und Konzepte erfordert.",
+      "difficulty": 8,
+      "subcategory": "Translation vs. Rotation (Vergleich)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Verteilungsfunktion",
+      "question": "Welche der folgenden Aussagen beschreibt am besten die Verteilungsfunktion in der klassischen Mechanik?",
+      "choices": [
+        "A: Sie zeigt die Wechselwirkung zwischen zwei Körpern an.",
+        "B: Sie gibt die Masse eines Körpers in Abhängigkeit von seiner Position an.",
+        "C: Sie gibt die Wahrscheinlichkeit an, dass ein Teilchen sich in einem bestimmten Zustand befindet.",
+        "D: Sie beschreibt die Geschwindigkeit eines Teilchens zu einem bestimmten Zeitpunkt."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Verteilungsfunktion in der klassischen Mechanik beschreibt die Wahrscheinlichkeit, dass ein Teilchen in einem bestimmten Zustand oder Bereich des Phasenraums zu finden ist. Sie ist ein wichtiges Konzept, um das Verhalten von Teilchen in statistischen Systemen zu verstehen.",
+      "difficulty": 4,
+      "subcategory": "Verteilungsfunktion"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Inertialsysteme (Definition und Eigenschaften)",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt ein Inertialsystem?",
+      "choices": [
+        "A: Ein Inertialsystem ist ein Bezugssystem, in dem sich Körper ohne äußere Kräfte gleichförmig bewegen.",
+        "B: Ein Inertialsystem ist ein Bezugssystem, in dem die Schwerkraft nicht existiert.",
+        "C: Ein Inertialsystem ist ein Bezugssystem, das sich immer in Bewegung befindet.",
+        "D: Ein Inertialsystem ist ein Bezugssystem, in dem die Zeit langsamer vergeht als in einem anderen System."
+      ],
+      "correct_answer": "A",
+      "explanation": "Ein Inertialsystem ist definiert als ein Bezugssystem, in dem die Newton'schen Gesetze gelten, was bedeutet, dass sich Körper ohne Einwirkung äußerer Kräfte gleichförmig bewegen. Die anderen Aussagen sind nicht korrekt, da sie entweder falsche Annahmen über Bewegung oder physikalische Bedingungen machen.",
+      "difficulty": 7,
+      "subcategory": "Inertialsysteme (Definition und Eigenschaften)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Carnot-Kreisprozess & Wirkungsgrad",
+      "question": "Welches der folgenden Elemente ist entscheidend für den maximalen Wirkungsgrad eines Carnot-Kreisprozesses?",
+      "choices": [
+        "A: Die Größe des Arbeitsmediums",
+        "B: Die Geschwindigkeit des Prozesses",
+        "C: Die Temperaturdifferenz zwischen dem heißen und dem kalten Reservoir",
+        "D: Die Art des verwendeten Arbeitsmediums"
+      ],
+      "correct_answer": "C",
+      "explanation": "Der maximale Wirkungsgrad eines Carnot-Kreisprozesses hängt ausschließlich von der Temperaturdifferenz zwischen dem heißen und dem kalten Reservoir ab. Je größer diese Temperaturdifferenz, desto höher ist der potenzielle Wirkungsgrad des Prozesses.",
+      "difficulty": 6,
+      "subcategory": "Carnot-Kreisprozess & Wirkungsgrad"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "χ^(3)-Phänomene (dritte Ordnung)",
+      "question": "Was beschreibt ein χ^(3)-Phänomen in der Optik?",
+      "choices": [
+        "A: Die Reflexion von Licht an einer Oberfläche.",
+        "B: Die Brechung von Licht beim Übergang zwischen zwei Medien.",
+        "C: Die Wechselwirkung von Licht mit Materie, die zu einer dritten harmonischen Frequenz führt.",
+        "D: Die Ablenkung von Lichtstrahlen durch ein Prisma."
+      ],
+      "correct_answer": "C",
+      "explanation": "χ^(3)-Phänomene beziehen sich auf nichtlineare optische Effekte, bei denen Licht mit Materie interagiert und höhere harmonische Frequenzen erzeugt werden. Dies ist ein zentraler Aspekt in der nichtlinearen Optik, der in verschiedenen Anwendungen wie Frequenzverdopplung und optischen Modulatoren relevant ist.",
+      "difficulty": 5,
+      "subcategory": "χ^(3)-Phänomene (dritte Ordnung)"
+    }
+  ]
+}
