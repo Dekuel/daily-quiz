@@ -1,0 +1,168 @@
+{
+  "date": "2026-01-21",
+  "generated_at": "2026-01-21T04:07:08Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Phasenübergänge (Übersicht)",
+      "question": "Which phase transition describes the change from gaseous to liquid?",
+      "choices": [
+        "A: Freezing",
+        "B: Condensation",
+        "C: Evaporation",
+        "D: Sublimation"
+      ],
+      "correct_answer": "B",
+      "explanation": "The phase transition from gaseous to liquid is called condensation. In this process, molecules release heat and come closer together, resulting in a liquid state.",
+      "difficulty": 6,
+      "subcategory": "Phasenübergänge (Übersicht)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "S- und T-Matrix",
+      "question": "Which statement about the S-matrix and T-matrix in quantum mechanics is correct?",
+      "choices": [
+        "A: The T-matrix is only defined for non-relativistic particles.",
+        "B: The S-matrix describes the transition from one state to another state, while the T-matrix represents the interaction between states.",
+        "C: The S-matrix cannot be used to calculate scattering cross sections.",
+        "D: The S-matrix is always equal to the T-matrix in every physical scenario."
+      ],
+      "correct_answer": "B",
+      "explanation": "The S-matrix (Scattering Matrix) describes the transition from incomplete to complete states, while the T-matrix (Transition Matrix) specifically considers the interaction between these states. Both matrices are important for describing scattering processes in quantum mechanics, with the S-matrix often used to calculate scattering cross sections.",
+      "difficulty": 8,
+      "subcategory": "S- und T-Matrix"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Orts- und Impulsdarstellung (Verknüpfung)",
+      "question": "Which of the following statements correctly describes the relationship between position and momentum representation in quantum mechanics?",
+      "choices": [
+        "A: The position representation is independent of the momentum representation and both can be considered independently.",
+        "B: Position and momentum can be measured exactly simultaneously without restrictions.",
+        "C: The position and momentum of a particle are complementary quantities linked by the Heisenberg Uncertainty Principle.",
+        "D: The position of a particle can be precisely determined while the momentum remains uncertain."
+      ],
+      "correct_answer": "C",
+      "explanation": "In quantum mechanics, the relationship between position and momentum is defined by the Heisenberg Uncertainty Principle, which states that an exact measurement of one value leads to uncertainty in the other. Therefore, position and momentum are complementary quantities that are not independent of each other.",
+      "difficulty": 6,
+      "subcategory": "Orts- und Impulsdarstellung (Verknüpfung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Kovariante Formulierung der klassischen Mechanik",
+      "question": "What does the covariant formulation of classical mechanics describe regarding physical laws?",
+      "choices": [
+        "A: It requires the use of relativistic velocity addition.",
+        "B: It remains identical in all inertial systems.",
+        "C: It ignores the effects of forces on motion.",
+        "D: It is valid only in a specific inertial system."
+      ],
+      "correct_answer": "B",
+      "explanation": "The covariant formulation of classical mechanics states that physical laws are independent of the chosen inertial system. This means that they have the same form in all inertial systems, which is a central concept in relativity theory.",
+      "difficulty": 5,
+      "subcategory": "Kovariante Formulierung der klassischen Mechanik"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Einfache Anwendungen der Lagrange-Gleichungen",
+      "question": "What does the Lagrange equation describe in analytical mechanics?",
+      "choices": [
+        "A: The motion of systems under the influence of forces.",
+        "B: The conservation of energy in closed systems.",
+        "C: The temperature change of substances.",
+        "D: The wave function of quantum objects."
+      ],
+      "correct_answer": "A",
+      "explanation": "The Lagrange equation is a fundamental concept in analytical mechanics that characterizes the motion of systems by describing their kinetic and potential energy under the influence of forces. It allows for a systematic analysis of dynamic systems and their movements.",
+      "difficulty": 1,
+      "subcategory": "Einfache Anwendungen der Lagrange-Gleichungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Messungen an Oberflächen & dünnen Filmen",
+      "question": "Which method is commonly used to analyze the surface structure of thin films?",
+      "choices": [
+        "A: X-ray diffraction",
+        "B: Nuclear magnetic resonance",
+        "C: Thermogravimetric analysis",
+        "D: Scanning Tunneling Microscopy"
+      ],
+      "correct_answer": "D",
+      "explanation": "Scanning Tunneling Microscopy (STM) is an important method for investigating the atomic structure of surfaces and thin films at the atomic level. It enables the visualization of surface atoms and their properties.",
+      "difficulty": 4,
+      "subcategory": "Messungen an Oberflächen & dünnen Filmen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Potentiale & Hauptsätze der Gleichgewichtsthermodynamik",
+      "question": "What does the first law of thermodynamics describe?",
+      "choices": [
+        "A: The energy of a closed system remains constant.",
+        "B: The entropy of a system can never decrease.",
+        "C: The temperature of a system is always constant.",
+        "D: The pressure change of a gas is independent of its volume."
+      ],
+      "correct_answer": "A",
+      "explanation": "The first law of thermodynamics, also known as the energy balance, states that the total energy in a closed system remains constant. Energy can be converted from one form to another, but it cannot be lost or gained.",
+      "difficulty": 3,
+      "subcategory": "Potentiale & Hauptsätze der Gleichgewichtsthermodynamik"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Wellengleichung und Lösungen",
+      "question": "Which of the following statements correctly describes the wave equation for a harmonic wave?",
+      "choices": [
+        "A: The wave equation is only valid for electromagnetic waves.",
+        "B: The wave equation describes only sound waves.",
+        "C: The wave equation has no significance in optics.",
+        "D: The wave equation is v = f * λ."
+      ],
+      "correct_answer": "D",
+      "explanation": "The wave equation v = f * λ describes the relationship between the velocity v, frequency f, and wavelength λ of a wave and is valid for all types of waves, including light waves. This relationship is fundamental in optics and other areas of physics.",
+      "difficulty": 6,
+      "subcategory": "Wellengleichung und Lösungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Jacobi-Prinzip (verkürzte Wirkung)",
+      "question": "Which of the following concepts is a central requirement for applying the Jacobi principle in analytical mechanics?",
+      "choices": [
+        "A: All forces in the system must be linear.",
+        "B: The system must operate in a non-conservative field.",
+        "C: The total energy of the system must remain constant.",
+        "D: The trajectory of a system must exhibit a stationary action."
+      ],
+      "correct_answer": "D",
+      "explanation": "The Jacobi principle is based on the concept that the true trajectory of a system is the one that makes the action stationary. This requirement allows for deriving and analyzing the motion equations for dynamic systems.",
+      "difficulty": 8,
+      "subcategory": "Jacobi-Prinzip (verkürzte Wirkung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Erster & Zweiter Hauptsatz (reversibel/irreversibel)",
+      "question": "Which of the following scenarios corresponds to an irreversible process according to the Second Law of Thermodynamics?",
+      "choices": [
+        "A: A heated metal piece is placed in a cool water bath.",
+        "B: A pendulum swings in an ideal vacuum without energy loss.",
+        "C: Air molecules in a container move uniformly and unhindered.",
+        "D: A perfectly insulated gas expands without a change in temperature."
+      ],
+      "correct_answer": "A",
+      "explanation": "The Second Law of Thermodynamics states that heat cannot spontaneously flow from a colder to a warmer body, explaining the irreversibility of the process. In the case of a heated metal piece being placed in a cool water bath, heat flows from the metal to the water, making the process irreversible.",
+      "difficulty": 9,
+      "subcategory": "Erster & Zweiter Hauptsatz (reversibel/irreversibel)"
+    }
+  ]
+}

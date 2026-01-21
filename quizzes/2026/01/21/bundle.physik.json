@@ -1,0 +1,169 @@
+{
+  "date": "2026-01-21",
+  "generated_at": "2026-01-21T04:06:34Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Phasenübergänge (Übersicht)",
+      "question": "Welcher Phasenübergang beschreibt den Wechsel von gasförmig zu flüssig?",
+      "choices": [
+        "A: Gefrieren",
+        "B: Kondensation",
+        "C: Verdampfung",
+        "D: Sublimation"
+      ],
+      "correct_answer": "B",
+      "explanation": "Der Phasenübergang von gasförmig zu flüssig wird als Kondensation bezeichnet. Dabei geben Moleküle Wärme ab und ziehen sich näher zusammen, wodurch ein flüssiger Zustand entsteht.",
+      "difficulty": 6,
+      "subcategory": "Phasenübergänge (Übersicht)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "S- und T-Matrix",
+      "question": "Welche Aussage über die S-Matrix und die T-Matrix in der Quantenmechanik ist korrekt?",
+      "choices": [
+        "A: Die T-Matrix ist nur für nicht-relativistische Teilchen definiert.",
+        "B: Die S-Matrix beschreibt den Übergang von einem Zustand in einen anderen Zustand, während die T-Matrix die Wechselwirkung zwischen Zuständen darstellt.",
+        "C: Die S-Matrix kann nicht zur Berechnung von Streuquerschnitten verwendet werden.",
+        "D: Die S-Matrix ist immer gleich der T-Matrix in jedem physikalischen Szenario."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die S-Matrix (Scattering-Matrix) beschreibt den Übergang von inkompletten zu kompletten Zuständen, während die T-Matrix (Transition-Matrix) spezifisch die Wechselwirkung zwischen diesen Zuständen betrachtet. Beide Matrizen sind wichtig für die Beschreibung von Streuvorgängen in der Quantenmechanik, wobei die S-Matrix oft verwendet wird, um Streuquerschnitte zu berechnen.",
+      "difficulty": 8,
+      "subcategory": "S- und T-Matrix"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Orts- und Impulsdarstellung (Verknüpfung)",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt die Beziehung zwischen Orts- und Impulsdarstellung in der Quantenmechanik?",
+      "choices": [
+        "A: Die Ortsdarstellung ist unabhängig von der Impulsdarstellung und beide können unabhängig voneinander betrachtet werden.",
+        "B: Ort und Impuls können gleichzeitig exakt gemessen werden, ohne Einschränkungen.",
+        "C: Ort und Impuls eines Teilchens sind komplementäre Größen, die durch die Heisenbergsche Unschärferelation miteinander verknüpft sind.",
+        "D: Der Ort eines Teilchens kann genau bestimmt werden, während der Impuls unbestimmt bleibt."
+      ],
+      "correct_answer": "C",
+      "explanation": "In der Quantenmechanik ist die Beziehung zwischen Ort und Impuls durch die Heisenbergsche Unschärferelation definiert, die besagt, dass eine genaue Messung des einen Wertes zu einer Unbestimmtheit des anderen führt. Daher sind Ort und Impuls komplementäre Größen, die nicht unabhängig voneinander sind.",
+      "difficulty": 6,
+      "subcategory": "Orts- und Impulsdarstellung (Verknüpfung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Kovariante Formulierung der klassischen Mechanik",
+      "question": "Was beschreibt die kovariante Formulierung der klassischen Mechanik in Bezug auf physikalische Gesetze?",
+      "choices": [
+        "A: Sie erfordert die Verwendung von relativistischen Geschwindigkeitsaddition.",
+        "B: Sie bleibt in allen Inertialsystemen identisch.",
+        "C: Sie ignoriert die Auswirkungen von Kräften auf Bewegungen.",
+        "D: Sie ist nur in einem bestimmten Inertialsystem gültig."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die kovariante Formulierung der klassischen Mechanik besagt, dass die physikalischen Gesetze unabhängig vom gewählten Inertialsystem sind. Dies bedeutet, dass sie in allen Inertialsystemen die gleiche Form haben, was ein zentrales Konzept in der Relativitätstheorie ist.",
+      "difficulty": 5,
+      "subcategory": "Kovariante Formulierung der klassischen Mechanik"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Einfache Anwendungen der Lagrange-Gleichungen",
+      "question": "Was beschreibt die Lagrange-Gleichung in der analytischen Mechanik?",
+      "choices": [
+        "A: Die Bewegung von Systemen unter dem Einfluss von Kräften.",
+        "B: Die Energieerhaltung in geschlossenen Systemen.",
+        "C: Die Temperaturänderung von Stoffen.",
+        "D: Die Wellenfunktion von Quantenobjekten."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Lagrange-Gleichung ist ein fundamentales Konzept in der analytischen Mechanik, das die Bewegung von Systemen durch die Beschreibung ihrer kinetischen und potentiellen Energie unter dem Einfluss von Kräften charakterisiert. Sie ermöglicht eine systematische Analyse von dynamischen Systemen und deren Bewegungen.",
+      "difficulty": 1,
+      "subcategory": "Einfache Anwendungen der Lagrange-Gleichungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Messungen an Oberflächen & dünnen Filmen",
+      "question": "Welches Verfahren wird häufig verwendet, um die Oberflächenstruktur von dünnen Filmen zu analysieren?",
+      "choices": [
+        "A: Röntgenbeugung",
+        "B: Kernspinresonanz",
+        "C: Thermogravimetrische Analyse",
+        "D: Rastertunnelmikroskopie"
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Rastertunnelmikroskopie (STM) ist ein wichtiges Verfahren zur Untersuchung der Atomstruktur von Oberflächen und dünnen Filmen auf atomarer Ebene. Sie ermöglicht die Visualisierung von Oberflächenatomen und deren Eigenschaften.",
+      "difficulty": 4,
+      "subcategory": "Messungen an Oberflächen & dünnen Filmen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Potentiale & Hauptsätze der Gleichgewichtsthermodynamik",
+      "question": "Was beschreibt der erste Hauptsatz der Thermodynamik?",
+      "choices": [
+        "A: Die Energie eines geschlossenen Systems bleibt konstant.",
+        "B: Die Entropie eines Systems kann niemals abnehmen.",
+        "C: Die Temperatur eines Systems ist immer konstant.",
+        "D: Die Druckänderung eines Gases ist unabhängig von seinem Volumen."
+      ],
+      "correct_answer": "A",
+      "explanation": "Der erste Hauptsatz der Thermodynamik, auch als Energiebilanz bekannt, besagt, dass die Gesamtenergie in einem geschlossenen System konstant bleibt. Energie kann von einer Form in eine andere umgewandelt werden, aber sie kann nicht verloren gehen oder gewonnen werden.",
+      "difficulty": 3,
+      "subcategory": "Potentiale & Hauptsätze der Gleichgewichtsthermodynamik"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Wellengleichung und Lösungen",
+      "question": "Welche der folgenden Aussagen beschreibt die Wellengleichung für eine harmonische Welle korrekt?",
+      "choices": [
+        "A: Die Wellengleichung ist nur für elektromagnetische Wellen gültig.",
+        "B: Die Wellengleichung beschreibt nur Schallwellen.",
+        "C: Die Wellengleichung hat keine Bedeutung in der Optik.",
+        "D: Die Wellengleichung lautet v = f * λ."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Wellengleichung v = f * λ beschreibt die Beziehung zwischen der Geschwindigkeit v, der Frequenz f und der Wellenlänge λ einer Welle und ist für alle Wellentypen, einschließlich Lichtwellen, gültig. Diese Beziehung ist fundamental in der Optik und anderen Bereichen der Physik.",
+      "difficulty": 6,
+      "subcategory": "Wellengleichung und Lösungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Jacobi-Prinzip (verkürzte Wirkung)",
+      "question": "Welches der folgenden Konzepte ist eine zentrale Voraussetzung für die Anwendung des Jacobi-Prinzips in der analytischen Mechanik?",
+      "choices": [
+        "A: Alle Kräfte im System müssen linear sein.",
+        "B: Das System muss in einem nicht konservativen Feld operieren.",
+        "C: Die Gesamtenergie des Systems muss konstant bleiben.",
+        "D: Die Trajektorie eines Systems muss eine stationäre Wirkung aufweisen."
+      ],
+      "correct_answer": "D",
+      "explanation": "Das Jacobi-Prinzip basiert auf dem Konzept, dass die wahre Trajektorie eines Systems diejenige ist, die die Wirkung stationär macht. Diese Voraussetzung ermöglicht es, die Bewegungsgleichungen für dynamische Systeme abzuleiten und zu analysieren.",
+      "difficulty": 8,
+      "subcategory": "Jacobi-Prinzip (verkürzte Wirkung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Erster & Zweiter Hauptsatz (reversibel/irreversibel)",
+      "question": "Welches der folgenden Szenarien entspricht einer irreversiblen Prozessierung gemäß dem Zweiten Hauptsatz der Thermodynamik?",
+      "choices": [
+        "A: Ein erhitztes Metallstück wird in ein kühles Wasserbad gelegt.",
+        "B: Ein Pendel schwingt in einem idealen Vakuum ohne Verlust der Energie.",
+        "C: Luftmoleküle in einem Behälter bewegen sich gleichmäßig und ungehindert.",
+        "D: Ein perfekt isoliertes Gas dehnt sich ohne Temperaturänderung aus."
+      ],
+      "correct_answer": "A",
+      "explanation": "Der Zweite Hauptsatz der Thermodynamik besagt, dass Wärme nicht spontan von einem kälteren zu einem wärmeren Körper fließen kann, was die irreversibilität des Prozesses erklärt. Im Fall des erhitzten Metallstücks, das in ein kühles Wasserbad gelegt wird, fließt Wärme vom Metall zum Wasser, was den Prozess irreversibel macht.",
+      "difficulty": 9,
+      "subcategory": "Erster & Zweiter Hauptsatz (reversibel/irreversibel)"
+    }
+  ]
+}
