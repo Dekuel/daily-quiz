@@ -1,0 +1,168 @@
+{
+  "date": "2026-01-22",
+  "generated_at": "2026-01-22T04:10:19Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Biegung eines Balkens",
+      "question": "What describes the deflection curve of a beam under uniform load?",
+      "choices": [
+        "A: It is a parabolic curve.",
+        "B: It is a hyperbolic curve.",
+        "C: It always remains straight.",
+        "D: It is a sinusoidal curve."
+      ],
+      "correct_answer": "A",
+      "explanation": "The deflection curve of a beam subjected to a uniform load typically describes a parabolic shape. This results from the mathematical relationships between the bending moment distribution and the deflection of the beam.",
+      "difficulty": 5,
+      "subcategory": "Biegung eines Balkens"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "β‑Zerfall des Kerns",
+      "question": "What happens during beta decay in an atomic nucleus?",
+      "choices": [
+        "A: An atomic nucleus splits into two smaller nuclei.",
+        "B: An electron is emitted from the atomic nucleus.",
+        "C: A proton is converted into a neutron.",
+        "D: A neutron is converted into a proton and an electron."
+      ],
+      "correct_answer": "D",
+      "explanation": "During beta decay, a neutron in the nucleus converts into a proton, emitting an electron (beta particle) and an antineutrino. This leads to an increase in the number of protons and thus a change in the element in the periodic table.",
+      "difficulty": 4,
+      "subcategory": "β‑Zerfall des Kerns"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Elektrische Polarisation von Isolatoren (Überblick)",
+      "question": "What does electrical polarization in insulators describe?",
+      "choices": [
+        "A: Increasing the temperature of a material.",
+        "B: Formation of ions in a chemical reaction.",
+        "C: Movement of electrons in a conductor.",
+        "D: Alignment of electric dipoles in an electric field."
+      ],
+      "correct_answer": "D",
+      "explanation": "Electrical polarization in insulators arises from the alignment of dipoles present in the atoms or molecules when an electric field is applied. This results in a displacement of electric charges in the material without an actual flow of electric current.",
+      "difficulty": 6,
+      "subcategory": "Elektrische Polarisation von Isolatoren (Überblick)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Präzession des symmetrischen Kreisels",
+      "question": "What describes the precession of a symmetric gyroscope when it rotates about a vertical axis?",
+      "choices": [
+        "A: Precession leads to an increase in the gyroscope's kinetic energy.",
+        "B: The gyroscope's speed remains constant during precession.",
+        "C: The gyroscope's axis of rotation describes a circle in space.",
+        "D: Rotation about its own axis remains constant."
+      ],
+      "correct_answer": "C",
+      "explanation": "The precession of a symmetric gyroscope refers to the motion of the axis of rotation around a fixed point, describing a circle in space. This occurs due to the torque exerted by gravity on the gyroscope's center of mass and is a central phenomenon in classical mechanics.",
+      "difficulty": 9,
+      "subcategory": "Präzession des symmetrischen Kreisels"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Clebsch–Gordan-Koeffizienten",
+      "question": "What does the Clebsch–Gordan coefficient describe in quantum mechanics?",
+      "choices": [
+        "A: Energy distribution in a thermodynamic system.",
+        "B: Motion of planets around the sun.",
+        "C: Combination of spin states of particles.",
+        "D: Reflection of light on a surface."
+      ],
+      "correct_answer": "C",
+      "explanation": "Clebsch–Gordan coefficients are used in quantum mechanics to describe the addition of spin states. They aid in constructing total states from the individual spin states of multiple particles.",
+      "difficulty": 3,
+      "subcategory": "Clebsch–Gordan-Koeffizienten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Laser-Strahlen: Optik Gaußscher Bündel",
+      "question": "Which of the following characteristics characterizes an ideal Gaussian beam?",
+      "choices": [
+        "A: The intensity distribution follows a Gaussian function.",
+        "B: It has infinite range without divergence.",
+        "C: It has constant intensity across the entire beam width.",
+        "D: It can only exist in a vacuum."
+      ],
+      "correct_answer": "A",
+      "explanation": "An ideal Gaussian beam is characterized by an intensity distribution following a Gaussian function. This means that the intensity is highest at the center of the beam and decreases towards the periphery.",
+      "difficulty": 8,
+      "subcategory": "Laser-Strahlen: Optik Gaußscher Bündel"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Elektromagnetische Potentiale (Vierervektor)",
+      "question": "Which of the following elements belongs to the four-vector of electromagnetic potentials?",
+      "choices": [
+        "A: The electric potential V",
+        "B: The magnetic field strength B",
+        "C: The momentum p",
+        "D: The speed of light c"
+      ],
+      "correct_answer": "A",
+      "explanation": "The four-vector of electromagnetic potentials consists of the electric potential V and the three components of the magnetic vector field A. The electric potential V is thus an integral part of this four-vector, while the other options are not directly linked to it.",
+      "difficulty": 6,
+      "subcategory": "Elektromagnetische Potentiale (Vierervektor)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Legendre-Transformation (L→H)",
+      "question": "What does the Legendre transformation describe in analytical mechanics?",
+      "choices": [
+        "A: Transition from kinetic energy to potential energy.",
+        "B: Conservation of energy.",
+        "C: Transition from Lagrangian function to Hamiltonian function.",
+        "D: Relationship between velocity and acceleration."
+      ],
+      "correct_answer": "C",
+      "explanation": "The Legendre transformation is used to transition from the Lagrangian function to the Hamiltonian function. This is a central step in analytical mechanics to change the description of a physical system and analyze it in a different framework.",
+      "difficulty": 2,
+      "subcategory": "Legendre-Transformation (L→H)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Strukturfunktionen (F1, F2,…)",
+      "question": "Which of the following statements correctly describes the function of the structure functions F1 and F2 in nuclear and particle physics?",
+      "choices": [
+        "A: They are irrelevant for particle interactions.",
+        "B: They describe the distribution of quarks within a proton and neutron.",
+        "C: They indicate the lifetime of unstable particles.",
+        "D: They are necessary for calculating the mass of atomic nuclei."
+      ],
+      "correct_answer": "B",
+      "explanation": "Structure functions F1 and F2 are essential quantities in describing the internal structure of hadrons, such as protons and neutrons. They quantify how quarks are distributed within these particles and play a crucial role in deep inelastic scattering.",
+      "difficulty": 6,
+      "subcategory": "Strukturfunktionen (F1, F2,…)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Abbesche Bildtheorie & Fourieroptik",
+      "question": "Which concept describes the ability to improve the resolution of an optical system by using aperture stops based on Abbe's image theory?",
+      "choices": [
+        "A: Spatial frequency analysis",
+        "B: Contrast enhancement",
+        "C: Wavelength optimization",
+        "D: Diffraction effects"
+      ],
+      "correct_answer": "A",
+      "explanation": "Abbe's image theory describes how the use of aperture stops influences the spatial frequency of light waves and thus enhances the resolution of an optical system. Spatial frequency analysis is crucial for understanding how image information can be processed in Fourier optics.",
+      "difficulty": 9,
+      "subcategory": "Abbesche Bildtheorie & Fourieroptik"
+    }
+  ]
+}
