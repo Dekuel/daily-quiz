@@ -1,0 +1,168 @@
+{
+  "date": "2026-01-23",
+  "generated_at": "2026-01-23T04:06:37Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Universalität & Skalenhypothese (statisch)",
+      "question": "Which statement about universality in statistical mechanics is correct?",
+      "choices": [
+        "A: Universality states that every system always exhibits identical behavior at high temperatures.",
+        "B: The critical exponents are independent of the specific nature of interactions in the system.",
+        "C: Universality only occurs in systems with a single dimension.",
+        "D: The scaling hypothesis describes that macroscopic properties always depend on microscopic details."
+      ],
+      "correct_answer": "B",
+      "explanation": "Universality in statistical mechanics means that critical exponents and behaviors at phase transitions are independent of the specific details of the system, as long as they belong to the same universal class. This explains why different physical systems can exhibit similar critical phenomena.",
+      "difficulty": 9,
+      "subcategory": "Universalität & Skalenhypothese (statisch)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Beugung am Doppelspalt",
+      "question": "Which of the following statements best describes the diffraction pattern observed in a double-slit experiment?",
+      "choices": [
+        "A: There is only one central maximum without additional maxima.",
+        "B: Diffraction occurs only when the slits have a width of zero.",
+        "C: The position of the maxima depends on the wavelength and the slit separation.",
+        "D: The intensity of the maxima is constant and independent of the wavelength of light."
+      ],
+      "correct_answer": "C",
+      "explanation": "In the double-slit experiment, light waves create interference patterns, where the positions of the maxima depend on both the wavelength of the light used and the separation of the slits. This relationship is fundamental for understanding wave optics and how light behaves when passing through narrow openings.",
+      "difficulty": 8,
+      "subcategory": "Beugung am Doppelspalt"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Spezielle Operatoren (hermitesch, projektiv)",
+      "question": "Which of the following operators is Hermitian?",
+      "choices": [
+        "A: The rotation operator",
+        "B: The momentum operator",
+        "C: The projector onto a state",
+        "D: The Hamiltonian operator"
+      ],
+      "correct_answer": "D",
+      "explanation": "Hermitian operators are important in quantum mechanics as they have real eigenvalues. The Hamiltonian operator, which describes the energy of a system, is always Hermitian, while the momentum operator is also Hermitian but not the only correct answer. Projectors can also be Hermitian, but they are not always what is being asked here.",
+      "difficulty": 3,
+      "subcategory": "Spezielle Operatoren (hermitesch, projektiv)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Maxwell-Verteilung & barometrische Höhenformel",
+      "question": "Which statement about the Maxwell distribution is correct?",
+      "choices": [
+        "A: The Maxwell distribution describes the velocity distribution of particles in an ideal gas.",
+        "B: The Maxwell distribution is independent of the temperature of the gas.",
+        "C: The Maxwell distribution applies only to gases under extreme pressure conditions.",
+        "D: The barometric height formula is a direct application of the Maxwell distribution to liquids."
+      ],
+      "correct_answer": "A",
+      "explanation": "The Maxwell distribution describes the velocity distribution of particles in an ideal gas and is a fundamental relationship in statistical mechanics. It shows that most particles have relatively low velocities, while only a few reach very high velocities, which is crucial for understanding the thermal properties of gases.",
+      "difficulty": 8,
+      "subcategory": "Maxwell-Verteilung & barometrische Höhenformel"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Flussquantisierung",
+      "question": "What describes the phenomenon of flux quantization in superconductors?",
+      "choices": [
+        "A: The quantized number of magnetic flux lines that can pass through a superconducting ring.",
+        "B: The energy levels of electrons in an atom.",
+        "C: The change in electrical conductivity in semiconductors under different light conditions.",
+        "D: The temperature dependence of the electrical resistance of metals."
+      ],
+      "correct_answer": "A",
+      "explanation": "Flux quantization describes that in a superconducting ring, only certain discrete values of magnetic flux can exist. This phenomenon occurs because the quantized states of Cooper pairs quantize the magnetic flux lines.",
+      "difficulty": 6,
+      "subcategory": "Flussquantisierung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Wahrscheinlichkeitstheorie: Dichten & charakteristische Funktion",
+      "question": "What does the characteristic function of a random variable describe in probability theory?",
+      "choices": [
+        "A: It represents the density function of the random variable.",
+        "B: It specifies the distribution of probabilities.",
+        "C: It describes the expected value of the random variable.",
+        "D: It is the Fourier transform of the density function."
+      ],
+      "correct_answer": "D",
+      "explanation": "The characteristic function of a random variable is the Fourier transform of its density function. It helps analyze the properties of the distribution, especially when adding independent random variables. This function is an important tool in probability theory.",
+      "difficulty": 3,
+      "subcategory": "Wahrscheinlichkeitstheorie: Dichten & charakteristische Funktion"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Saugvermögen & Saugleistung von Pumpen",
+      "question": "Which of the following statements best describes the influence of fluid density on the suction capacity of a pump?",
+      "choices": [
+        "A: Fluid density has no effect on the pump's suction capacity as long as the temperature remains constant.",
+        "B: Higher fluid density reduces the pump's suction capacity as more energy is needed to lift the fluid.",
+        "C: Lower fluid density reduces the pump's suction capacity as there is less weight to move.",
+        "D: Higher fluid density increases the pump's suction capacity as the pump needs to generate less pressure."
+      ],
+      "correct_answer": "B",
+      "explanation": "Higher fluid density means the pump must exert more energy to lift the heavier fluid, resulting in reduced suction capacity. This is because the flow velocity and pressure loss in the pump are influenced by density.",
+      "difficulty": 10,
+      "subcategory": "Saugvermögen & Saugleistung von Pumpen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Dynamischer Auftrieb",
+      "question": "What causes the dynamic buoyancy of a body moving in a fluid?",
+      "choices": [
+        "A: The resistance of the fluid against the motion of the body.",
+        "B: The speed of the body in the fluid.",
+        "C: The temperature of the fluid.",
+        "D: The density of the body compared to the fluid."
+      ],
+      "correct_answer": "A",
+      "explanation": "Dynamic buoyancy arises from the resistance the fluid exerts against the motion of the body. This resistance leads to a buoyant force that supports the body in the fluid, especially when it moves at a certain speed.",
+      "difficulty": 4,
+      "subcategory": "Dynamischer Auftrieb"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Bohr–Sommerfeld-Quantisierung (historisch)",
+      "question": "What does the Bohr-Sommerfeld quantization state about the allowed energy levels of a system?",
+      "choices": [
+        "A: They are independent of the particle's mass.",
+        "B: They are continuous and can take arbitrary values.",
+        "C: They are discrete and correspond to specific quantized orbits.",
+        "D: They depend solely on the temperature."
+      ],
+      "correct_answer": "C",
+      "explanation": "The Bohr-Sommerfeld quantization states that the allowed energy levels of a system are discrete and correspond to specific quantized orbits. This was a significant step in the development of quantum mechanics that revolutionized the understanding of atomic structures.",
+      "difficulty": 1,
+      "subcategory": "Bohr–Sommerfeld-Quantisierung (historisch)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Eigenschaften der Leptonen",
+      "question": "Which of the following leptons has the greatest mass?",
+      "choices": [
+        "A: Electron",
+        "B: Tau lepton",
+        "C: Muon",
+        "D: Neutrino"
+      ],
+      "correct_answer": "B",
+      "explanation": "The tau lepton is the heaviest known lepton with a mass of about 1.78 GeV/c². In comparison, the electron and muon are much lighter, while neutrinos are nearly massless. Therefore, the tau lepton is the correct answer.",
+      "difficulty": 9,
+      "subcategory": "Eigenschaften der Leptonen"
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "date": "2026-01-23",
+  "generated_at": "2026-01-23T04:06:04Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Universalität & Skalenhypothese (statisch)",
+      "question": "Welche Aussage zur Universalität in der statistischen Mechanik ist korrekt?",
+      "choices": [
+        "A: Universalität besagt, dass jedes System bei hohen Temperaturen stets identisches Verhalten zeigt.",
+        "B: Die kritischen Exponenten sind unabhängig von der spezifischen Art der Wechselwirkungen im System.",
+        "C: Universalität tritt nur in Systemen mit einer einzigen Dimension auf.",
+        "D: Die Skalenhypothese beschreibt, dass makroskopische Eigenschaften immer von mikroskopischen Details abhängen."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Universalität in der statistischen Mechanik bedeutet, dass kritische Exponenten und Verhaltensweisen bei Phasenübergängen unabhängig von den spezifischen Details des Systems sind, solange diese in derselben universellen Klasse sind. Dies erklärt, warum unterschiedliche physikalische Systeme ähnliche kritische Phänomene zeigen können.",
+      "difficulty": 9,
+      "subcategory": "Universalität & Skalenhypothese (statisch)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Beugung am Doppelspalt",
+      "question": "Welche der folgenden Aussagen beschreibt am besten das Beugungsmuster, das bei einem Doppelspalt-Experiment beobachtet wird?",
+      "choices": [
+        "A: Es gibt nur einen zentralen Maximum ohne weitere Maxima.",
+        "B: Die Beugung tritt nur auf, wenn die Spalte eine Breite von null haben.",
+        "C: Die Position der Maxima hängt von der Wellenlänge und dem Spaltabstand ab.",
+        "D: Die Intensität der Maxima ist konstant und unabhängig von der Wellenlänge des Lichts."
+      ],
+      "correct_answer": "C",
+      "explanation": "Im Doppelspalt-Experiment erzeugen Lichtwellen Interferenzmuster, deren Positionen der Maxima sowohl von der Wellenlänge des verwendeten Lichts als auch vom Abstand der Spalte abhängen. Diese Beziehung ist grundlegend für das Verständnis der Wellenoptik und zeigt, wie Licht sich verhält, wenn es durch enge Öffnungen geht.",
+      "difficulty": 8,
+      "subcategory": "Beugung am Doppelspalt"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Spezielle Operatoren (hermitesch, projektiv)",
+      "question": "Welcher der folgenden Operatoren ist hermitesch?",
+      "choices": [
+        "A: Der Drehoperator",
+        "B: Der Impulsoperator",
+        "C: Der Projektor auf einen Zustand",
+        "D: Der Hamilton-Operator"
+      ],
+      "correct_answer": "D",
+      "explanation": "Hermitesche Operatoren sind in der Quantenmechanik wichtig, da sie reale Eigenwerte haben. Der Hamilton-Operator, der die Energie eines Systems beschreibt, ist immer hermitesch, während der Impulsoperator zwar auch hermitesch ist, aber nicht die einzige Antwort darstellt. Projektoren können ebenfalls hermitesch sein, jedoch sind sie nicht immer das, was hier gefragt wird.",
+      "difficulty": 3,
+      "subcategory": "Spezielle Operatoren (hermitesch, projektiv)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Maxwell-Verteilung & barometrische Höhenformel",
+      "question": "Welche Aussage zur Maxwell-Verteilung ist korrekt?",
+      "choices": [
+        "A: Die Maxwell-Verteilung beschreibt die Geschwindigkeitsverteilung von Teilchen in einem idealen Gas.",
+        "B: Die Maxwell-Verteilung ist unabhängig von der Temperatur des Gases.",
+        "C: Die Maxwell-Verteilung gilt nur für Gase, die sich unter extremen Druckbedingungen befinden.",
+        "D: Die barometrische Höhenformel ist eine direkte Anwendung der Maxwell-Verteilung auf Flüssigkeiten."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Maxwell-Verteilung beschreibt die Geschwindigkeitsverteilung von Teilchen in einem idealen Gas und ist eine fundamentale Beziehung in der statistischen Mechanik. Sie zeigt, dass die meisten Teilchen relativ niedrige Geschwindigkeiten haben, während nur wenige sehr hohe Geschwindigkeiten erreichen, was entscheidend für das Verständnis thermischer Eigenschaften von Gasen ist.",
+      "difficulty": 8,
+      "subcategory": "Maxwell-Verteilung & barometrische Höhenformel"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Flussquantisierung",
+      "question": "Was beschreibt das Phänomen der Flussquantisierung in Superleitern?",
+      "choices": [
+        "A: Die quantisierte Anzahl von magnetischen Flusslinien, die durch einen superconducting Ring gehen können.",
+        "B: Die Energielevels von Elektronen in einem Atom.",
+        "C: Die Änderung der elektrischen Leitfähigkeit in Halbleitern bei unterschiedlichem Licht.",
+        "D: Die Temperaturabhängigkeit des elektrischen Widerstands von Metallen."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Flussquantisierung beschreibt, dass in einem superconducting Ring nur bestimmte diskrete Werte des magnetischen Flusses existieren können. Dieses Phänomen tritt auf, weil die quantisierten Zustände der Cooper-Paare die magnetischen Flusslinien quantisieren.",
+      "difficulty": 6,
+      "subcategory": "Flussquantisierung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Wahrscheinlichkeitstheorie: Dichten & charakteristische Funktion",
+      "question": "Was beschreibt die charakteristische Funktion einer Zufallsvariablen in der Wahrscheinlichkeitstheorie?",
+      "choices": [
+        "A: Sie stellt die Dichtefunktion der Zufallsvariablen dar.",
+        "B: Sie gibt die Verteilung der Wahrscheinlichkeiten an.",
+        "C: Sie beschreibt den Erwartungswert der Zufallsvariablen.",
+        "D: Sie ist die Fourier-Transformierte der Dichtefunktion."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die charakteristische Funktion einer Zufallsvariablen ist die Fourier-Transformierte ihrer Dichtefunktion. Sie hilft dabei, die Eigenschaften der Verteilung zu analysieren, insbesondere bei der Addition unabhängiger Zufallsvariablen. Diese Funktion ist ein wichtiges Werkzeug in der Wahrscheinlichkeitstheorie.",
+      "difficulty": 3,
+      "subcategory": "Wahrscheinlichkeitstheorie: Dichten & charakteristische Funktion"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Saugvermögen & Saugleistung von Pumpen",
+      "question": "Welche der folgenden Aussagen beschreibt am besten den Einfluss der Flüssigkeitsdichte auf das Saugvermögen einer Pumpe?",
+      "choices": [
+        "A: Die Flüssigkeitsdichte hat keinen Einfluss auf das Saugvermögen der Pumpe, solange die Temperatur konstant bleibt.",
+        "B: Eine höhere Flüssigkeitsdichte verringert das Saugvermögen der Pumpe, da mehr Energie benötigt wird, um die Flüssigkeit anzuheben.",
+        "C: Eine niedrigere Flüssigkeitsdichte verringert das Saugvermögen der Pumpe, da weniger Gewicht zu bewegen ist.",
+        "D: Eine höhere Flüssigkeitsdichte erhöht das Saugvermögen der Pumpe, da die Pumpe weniger Druck erzeugen muss."
+      ],
+      "correct_answer": "B",
+      "explanation": "Eine höhere Flüssigkeitsdichte bedeutet, dass die Pumpe mehr Energie aufbringen muss, um die schwerere Flüssigkeit anzuheben, was zu einem verringerten Saugvermögen führt. Dies liegt daran, dass die Strömungsgeschwindigkeit und der Druckverlust in der Pumpe durch die Dichte beeinflusst werden.",
+      "difficulty": 10,
+      "subcategory": "Saugvermögen & Saugleistung von Pumpen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Dynamischer Auftrieb",
+      "question": "Was bewirkt den dynamischen Auftrieb eines Körpers, der sich in einer Flüssigkeit bewegt?",
+      "choices": [
+        "A: Der Widerstand der Flüssigkeit gegen die Bewegung des Körpers.",
+        "B: Die Geschwindigkeit des Körpers in der Flüssigkeit.",
+        "C: Die Temperatur der Flüssigkeit.",
+        "D: Die Dichte des Körpers im Vergleich zur Flüssigkeit."
+      ],
+      "correct_answer": "A",
+      "explanation": "Der dynamische Auftrieb entsteht durch den Widerstand, den die Flüssigkeit gegen die Bewegung des Körpers leistet. Dieser Widerstand führt zu einer Auftriebskraft, die den Körper in der Flüssigkeit stützt, insbesondere wenn er sich mit einer bestimmten Geschwindigkeit bewegt.",
+      "difficulty": 4,
+      "subcategory": "Dynamischer Auftrieb"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Bohr–Sommerfeld-Quantisierung (historisch)",
+      "question": "Was besagt die Bohr-Sommerfeld-Quantisierung über die erlaubten Energieniveaus eines Systems?",
+      "choices": [
+        "A: Sie sind unabhängig von der Masse des Teilchens.",
+        "B: Sie sind kontinuierlich und können beliebige Werte annehmen.",
+        "C: Sie sind diskret und entsprechen bestimmten quantisierten Bahnen.",
+        "D: Sie hängen ausschließlich von der Temperatur ab."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Bohr-Sommerfeld-Quantisierung besagt, dass die erlaubten Energieniveaus eines Systems diskret sind und bestimmten quantisierten Bahnen entsprechen. Dies war ein wichtiger Schritt in der Entwicklung der Quantenmechanik, der das Verständnis atomarer Strukturen revolutionierte.",
+      "difficulty": 1,
+      "subcategory": "Bohr–Sommerfeld-Quantisierung (historisch)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Eigenschaften der Leptonen",
+      "question": "Welches der folgenden Leptonen hat die größte Masse?",
+      "choices": [
+        "A: Elektron",
+        "B: Tau-Lepton",
+        "C: Myon",
+        "D: Neutrino"
+      ],
+      "correct_answer": "B",
+      "explanation": "Das Tau-Lepton ist das schwerste bekannte Lepton und hat eine Masse von etwa 1,78 GeV/c². Im Vergleich dazu sind Elektron und Myon wesentlich leichter, während Neutrinos nahezu masselos sind. Daher ist das Tau-Lepton die richtige Antwort.",
+      "difficulty": 9,
+      "subcategory": "Eigenschaften der Leptonen"
+    }
+  ]
+}
