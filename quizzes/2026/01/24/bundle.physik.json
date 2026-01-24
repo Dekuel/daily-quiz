@@ -1,0 +1,169 @@
+{
+  "date": "2026-01-24",
+  "generated_at": "2026-01-24T03:59:35Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Punktdefekte (Überblick)",
+      "question": "Welcher der folgenden Punktdefekte ist charakteristisch für ein Metall und führt zur Erhöhung der elektrischen Leitfähigkeit?",
+      "choices": [
+        "A: Substitutionsatome",
+        "B: Interstitielle Atome",
+        "C: Versetzungen",
+        "D: Leerstellen"
+      ],
+      "correct_answer": "D",
+      "explanation": "Leerstellen sind Punktdefekte, die in Metallkristallen auftreten und als zusätzliche Freiheitsgrade für Elektronen fungieren. Diese Defekte erhöhen die mobile Elektronendichte, was die elektrische Leitfähigkeit verbessert.",
+      "difficulty": 10,
+      "subcategory": "Punktdefekte (Überblick)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Hilbert-Raum & Basiszustände (sym/antisym)",
+      "question": "Was beschreibt die Symmetrie von Wellenfunktionen im Hilbert-Raum der Quantenmechanik?",
+      "choices": [
+        "A: Antisymmetrische Wellenfunktionen haben immer einen Nullwert.",
+        "B: Antisymmetrische Wellenfunktionen sind identisch für alle Teilchen.",
+        "C: Symmetrische Wellenfunktionen sind unverändert unter Vertauschung der Teilchen.",
+        "D: Symmetrische Zustände sind nur für Fermionen relevant."
+      ],
+      "correct_answer": "C",
+      "explanation": "In der Quantenmechanik müssen die Wellenfunktionen für identische Teilchen entweder symmetrisch oder antisymmetrisch sein. Symmetrische Wellenfunktionen sind invariant gegenüber dem Vertauschen von Teilchen, während antisymmetrische Wellenfunktionen ein negatives Vorzeichen annehmen, was für Fermionen charakteristisch ist.",
+      "difficulty": 5,
+      "subcategory": "Hilbert-Raum & Basiszustände (sym/antisym)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Besetzungszahloperator & Eigenwertproblem",
+      "question": "Was beschreibt der Besetzungszahloperator in der Quantenmechanik?",
+      "choices": [
+        "A: Die Energie eines Teilchens.",
+        "B: Die Geschwindigkeit eines Teilchens.",
+        "C: Die Position eines Teilchens.",
+        "D: Die Anzahl der Teilchen in einem Zustand."
+      ],
+      "correct_answer": "D",
+      "explanation": "Der Besetzungszahloperator gibt an, wie viele Teilchen sich in einem bestimmten quantenmechanischen Zustand befinden. Er ist ein wichtiges Konzept in der statistischen Mechanik und Quantenfeldtheorie.",
+      "difficulty": 2,
+      "subcategory": "Besetzungszahloperator & Eigenwertproblem"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Gibb’sche Phasenregel",
+      "question": "Was besagt die Gibb'sche Phasenregel bezüglich der Anzahl der Freiheitsgrade in einem System?",
+      "choices": [
+        "A: F = C + P + 1",
+        "B: F = C - P + 2",
+        "C: F = P - C + 3",
+        "D: F = C + P - 1"
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Gibb'sche Phasenregel beschreibt den Zusammenhang zwischen der Anzahl der Freiheitsgrade (F), der Anzahl der Komponenten (C) und der Anzahl der Phasen (P) in einem thermodynamischen System. Die korrekte Formel lautet F = C - P + 2, was zeigt, wie sich die Freiheitsgrade mit der Veränderung von Phasen und Komponenten ändern.",
+      "difficulty": 8,
+      "subcategory": "Gibb’sche Phasenregel"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Statischer Druck in Flüssigkeiten",
+      "question": "Wie verändert sich der Druck in einer Flüssigkeit mit zunehmender Tiefe?",
+      "choices": [
+        "A: Der Druck bleibt konstant.",
+        "B: Der Druck nimmt mit zunehmender Tiefe zu.",
+        "C: Der Druck variiert zufällig.",
+        "D: Der Druck nimmt mit zunehmender Tiefe ab."
+      ],
+      "correct_answer": "B",
+      "explanation": "Der Druck in einer Flüssigkeit steigt mit zunehmender Tiefe, da das Gewicht der darüberliegenden Flüssigkeitssäule den Druck erhöht. Dies ist eine grundlegende Eigenschaft von Flüssigkeiten, die in der Hydrostatik beschrieben wird.",
+      "difficulty": 6,
+      "subcategory": "Statischer Druck in Flüssigkeiten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Zeitlich oszillierende Quellen",
+      "question": "Welche Aussage über die von einer zeitlich oszillierenden elektrischen Quelle erzeugten elektromagnetischen Wellen ist korrekt?",
+      "choices": [
+        "A: Die Amplitude der Welle ist unabhängig von der Amplitude der Quelle.",
+        "B: Die Frequenz der Welle entspricht der Frequenz der Quelle.",
+        "C: Die Wellen sind nur in der Nähe der Quelle detektierbar.",
+        "D: Die Wellen breiten sich nur im Vakuum aus."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Frequenz der erzeugten elektromagnetischen Wellen entspricht der Frequenz der zeitlich oszillierenden Quelle. Dies ist ein fundamentales Prinzip der Elektrodynamik, das den Zusammenhang zwischen Quelle und Wellen beschreibt.",
+      "difficulty": 9,
+      "subcategory": "Zeitlich oszillierende Quellen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Reibung: Gleitreibung",
+      "question": "Was beschreibt die Gleitreibung zwischen zwei Oberflächen am besten?",
+      "choices": [
+        "A: Sie ist immer gleich Null.",
+        "B: Sie ist invers proportional zur Normalkraft.",
+        "C: Sie hängt nur von der Geschwindigkeit der bewegten Körper ab.",
+        "D: Sie ist proportional zur Normalkraft und unabhängig von der Geschwindigkeit."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Gleitreibungskraft ist proportional zur Normalkraft, was bedeutet, dass sie mit zunehmendem Druck zwischen den Oberflächen steigt. Die Geschwindigkeit hat keinen Einfluss auf die Größe der Gleitreibungskraft, solange die Oberflächen in Kontakt sind und gleiten.",
+      "difficulty": 6,
+      "subcategory": "Reibung: Gleitreibung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Schwarzer Strahler: Emissionsverhalten",
+      "question": "Was beschreibt das Emissionsverhalten eines idealen schwarzen Strahlers?",
+      "choices": [
+        "A: Er absorbiert alle einfallenden Strahlung vollkommen.",
+        "B: Er emittiert nur sichtbares Licht.",
+        "C: Er reflektiert alle einfallenden Strahlung.",
+        "D: Er gibt keine Strahlung ab."
+      ],
+      "correct_answer": "A",
+      "explanation": "Ein idealer schwarzer Strahler absorbiert alle einfallende Strahlung, unabhängig von der Wellenlänge. Dadurch kann er die maximale Energie emittieren, die theoretisch möglich ist, was ihn zu einem perfekten Beispiel für das Emissionsverhalten von Körpern macht.",
+      "difficulty": 3,
+      "subcategory": "Schwarzer Strahler: Emissionsverhalten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Kritische Exponenten",
+      "question": "Was beschreibt der kritische Exponent β in der Thermodynamik?",
+      "choices": [
+        "A: Die kritische Dichte eines Stoffes bei Phasenübergängen.",
+        "B: Die Änderung des Volumens eines Stoffes unter Druck.",
+        "C: Die Temperaturabhängigkeit der spezifischen Wärme nahe dem kritischen Punkt.",
+        "D: Die Beziehung zwischen Druck und Temperatur in einem idealen Gas."
+      ],
+      "correct_answer": "C",
+      "explanation": "Der kritische Exponent β beschreibt, wie die spezifische Wärme eines Stoffes sich verändert, wenn man sich dem kritischen Punkt eines Phasenübergangs nähert. Dies ist ein wichtiger Aspekt in der Thermodynamik und hilft, das Verhalten von Materialien unter extremen Bedingungen zu verstehen.",
+      "difficulty": 6,
+      "subcategory": "Kritische Exponenten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Der elastische Stoß in der SRT",
+      "question": "Welche Aussage beschreibt den elastischen Stoß zwischen zwei Teilchen in der speziellen Relativitätstheorie korrekt?",
+      "choices": [
+        "A: Die Gesamtenergie und der Impuls beider Teilchen bleiben vor und nach dem Stoß konstant.",
+        "B: In der SRT gibt es keine elastischen Stöße, nur in der klassischen Mechanik.",
+        "C: Der Stoß kann nur bei Geschwindigkeiten nahe der Lichtgeschwindigkeit auftreten.",
+        "D: Der elastische Stoß führt immer zu einer Erhöhung der kinetischen Energie der Teilchen."
+      ],
+      "correct_answer": "A",
+      "explanation": "In der speziellen Relativitätstheorie bleibt sowohl die Gesamtenergie als auch der Impuls in einem elastischen Stoß erhalten. Dies ist eine grundlegende Eigenschaft, die sowohl in der klassischen als auch in der relativistischen Physik gilt.",
+      "difficulty": 7,
+      "subcategory": "Der elastische Stoß in der SRT"
+    }
+  ]
+}
