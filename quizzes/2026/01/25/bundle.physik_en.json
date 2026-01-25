@@ -1,0 +1,168 @@
+{
+  "date": "2026-01-25",
+  "generated_at": "2026-01-25T04:14:15Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Der elastische Stoß in der SRT",
+      "question": "Which statement correctly describes the behavior of momentum and energy during an elastic collision in special relativity?",
+      "choices": [
+        "A: Momentum remains conserved in every reference frame, while energy can vary.",
+        "B: Momentum remains conserved, while the total energy before and after the collision may differ.",
+        "C: Both momentum and energy remain conserved in every reference frame.",
+        "D: Neither momentum nor energy remain conserved in every reference frame."
+      ],
+      "correct_answer": "C",
+      "explanation": "In special relativity, both momentum and energy remain conserved in every reference frame during an elastic collision. This is a fundamental property that distinguishes relativity from classical mechanics, especially at high speeds close to the speed of light.",
+      "difficulty": 8,
+      "subcategory": "Der elastische Stoß in der SRT"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Lösung der 1D-Schrödinger-Gleichung",
+      "question": "What describes the solution of the 1D Schrödinger equation for a particle in an infinite potential well?",
+      "choices": [
+        "A: The wave function is always positive and has no zeros.",
+        "B: The energy of the particle is indeterminate and can take any value.",
+        "C: The wave function is constant across the entire potential.",
+        "D: The wave function is zero at the potential walls."
+      ],
+      "correct_answer": "D",
+      "explanation": "The solution of the 1D Schrödinger equation for a particle in an infinite potential well shows that the wave function at the potential walls (at the boundaries of the well) is zero. This is a condition for the normalization of the wave function and leads to quantized energy levels within the potential.",
+      "difficulty": 8,
+      "subcategory": "Lösung der 1D-Schrödinger-Gleichung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Strukturfunktionen (F1, F2,…)",
+      "question": "What describes the structure function F2 in nuclear and particle physics?",
+      "choices": [
+        "A: The probability of finding a quark in a proton.",
+        "B: The distribution of electric charge in the proton.",
+        "C: The energy distribution of neutrinos.",
+        "D: The quark content in the neutron."
+      ],
+      "correct_answer": "A",
+      "explanation": "The structure function F2 describes the probability of finding a quark in a proton at a certain energy and momentum transfer. It is an important aspect of deep inelastic scattering and provides information about the inner structure of hadrons.",
+      "difficulty": 4,
+      "subcategory": "Strukturfunktionen (F1, F2,…)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Thermodynamische Systeme (offen/geschlossen/isoliert)",
+      "question": "What is a closed thermodynamic system?",
+      "choices": [
+        "A: A system that exchanges both matter and energy with the surroundings.",
+        "B: A system that exchanges no matter but energy with the surroundings.",
+        "C: A system that exchanges neither matter nor energy with the surroundings.",
+        "D: A system that exchanges matter but no energy with the surroundings."
+      ],
+      "correct_answer": "B",
+      "explanation": "A closed thermodynamic system can exchange energy in the form of heat or work with its surroundings but does not allow matter to enter or exit. This is in contrast to open systems, which can exchange both energy and matter, and isolated systems, which have no exchange with the surroundings.",
+      "difficulty": 2,
+      "subcategory": "Thermodynamische Systeme (offen/geschlossen/isoliert)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Brechungsgesetz aus Fermat",
+      "question": "Which of the following principles best describes Fermat's principle of refraction?",
+      "choices": [
+        "A: Light always propagates in a straight line.",
+        "B: Light is always reflected when it encounters a boundary surface.",
+        "C: Light follows the path that minimizes time.",
+        "D: Light cannot pass through different media."
+      ],
+      "correct_answer": "C",
+      "explanation": "Fermat's principle of refraction states that light takes the path that minimizes the required time. This explains why light rays are refracted at interfaces between different media to achieve the shortest time.",
+      "difficulty": 8,
+      "subcategory": "Brechungsgesetz aus Fermat"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Operatoren in zweiter Quantisierung",
+      "question": "Which operator is used in second quantization to describe the number of particles in a specific state?",
+      "choices": [
+        "A: Creation operator",
+        "B: Position operator",
+        "C: Hamiltonian operator",
+        "D: Momentum operator"
+      ],
+      "correct_answer": "A",
+      "explanation": "The creation operator is used in second quantization to increase the number of particles in a specific quantum state. It is a central component of quantum field theory formulation and allows for the treatment of indeterminate particle numbers.",
+      "difficulty": 6,
+      "subcategory": "Operatoren in zweiter Quantisierung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Ebene Wellen & Polarisation",
+      "question": "Which statement about the polarization of light is correct?",
+      "choices": [
+        "A: Polarized light oscillates only in a specific plane.",
+        "B: Polarized light always has a random direction of vibration.",
+        "C: Polarization has no effect on the intensity of light.",
+        "D: Only monochromatic light can be polarized."
+      ],
+      "correct_answer": "A",
+      "explanation": "Polarized light oscillates only in a specific plane, distinguishing it from unpolarized light where the vibration directions are randomly distributed. Polarization also affects the intensity of light depending on the alignment of the polarization plane relative to the filter used.",
+      "difficulty": 5,
+      "subcategory": "Ebene Wellen & Polarisation"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Absolute thermodynamische Temperaturskala",
+      "question": "Which of the following statements best describes the absolute thermodynamic temperature scale?",
+      "choices": [
+        "A: It uses the Celsius scale, where the freezing point of water is defined as 0 °C and the boiling point as 100 °C.",
+        "B: It measures temperature in Kelvin, with 0 K representing absolute zero where no thermal energy is present.",
+        "C: It is identical to the Fahrenheit scale popular in the USA, based on the freezing temperature of water.",
+        "D: It is a logarithmic scale measuring temperature based on molecular activity."
+      ],
+      "correct_answer": "B",
+      "explanation": "The absolute thermodynamic temperature scale, measured in Kelvin, starts at 0 K, the absolute zero point. In this state, particles have the least possible thermal energy, which is a fundamental concept in thermodynamics.",
+      "difficulty": 8,
+      "subcategory": "Absolute thermodynamische Temperaturskala"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Langer-Verfahren",
+      "question": "Which principle is fundamental to the Langer's method in quantum mechanics?",
+      "choices": [
+        "A: Pauli exclusion principle",
+        "B: Principle of superposition",
+        "C: Principle of least action",
+        "D: Heisenberg uncertainty principle"
+      ],
+      "correct_answer": "C",
+      "explanation": "Langer's method is based on the principle of least action applied in quantum mechanics to describe the motion of systems. It allows for deriving quantum mechanical equations from a variational approach, which is significant for solving complex problems.",
+      "difficulty": 6,
+      "subcategory": "Langer-Verfahren"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Flüssigkeitsdruckmessgeräte",
+      "question": "What is the main principle underlying a U-tube manometer?",
+      "choices": [
+        "A: The temperature of the liquid has no influence on the measurement.",
+        "B: The manometer measures only the pressure of gases.",
+        "C: The hydrostatic pressure is equal in both arms of the tube.",
+        "D: The atmospheric pressure affects the liquid level in the manometer."
+      ],
+      "correct_answer": "C",
+      "explanation": "A U-tube manometer is based on the principle of hydrostatic pressure. The pressure in both arms of the tube is balanced by the columns of liquid, enabling precise pressure measurement.",
+      "difficulty": 6,
+      "subcategory": "Flüssigkeitsdruckmessgeräte"
+    }
+  ]
+}

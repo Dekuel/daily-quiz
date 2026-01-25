@@ -1,0 +1,169 @@
+{
+  "date": "2026-01-25",
+  "generated_at": "2026-01-25T04:13:38Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Der elastische Stoß in der SRT",
+      "question": "Welche Aussage beschreibt korrekt das Verhalten von Impuls und Energie während eines elastischen Stoßes in der speziellen Relativitätstheorie?",
+      "choices": [
+        "A: Der Impuls bleibt in jedem Bezugssystem erhalten, die Energie kann jedoch variieren.",
+        "B: Der Impuls bleibt erhalten, während die Gesamtenergie vor und nach dem Stoß unterschiedlich sein kann.",
+        "C: Sowohl Impuls als auch Energie bleiben in jedem Bezugssystem erhalten.",
+        "D: Weder Impuls noch Energie bleiben in jedem Bezugssystem erhalten."
+      ],
+      "correct_answer": "C",
+      "explanation": "In der speziellen Relativitätstheorie bleiben sowohl der Impuls als auch die Energie in jedem Bezugssystem während eines elastischen Stoßes erhalten. Dies ist eine grundlegende Eigenschaft, die die Relativitätstheorie von der klassischen Mechanik unterscheidet, insbesondere bei hohen Geschwindigkeiten nahe der Lichtgeschwindigkeit.",
+      "difficulty": 8,
+      "subcategory": "Der elastische Stoß in der SRT"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Lösung der 1D-Schrödinger-Gleichung",
+      "question": "Was beschreibt die Lösung der 1D-Schrödinger-Gleichung für ein Teilchen in einem unendlichen Potentialtopf?",
+      "choices": [
+        "A: Die Wellenfunktion ist immer positiv und hat keine Nullstellen.",
+        "B: Die Energie des Teilchens ist unbestimmt und kann beliebige Werte annehmen.",
+        "C: Die Wellenfunktion ist konstant über das gesamte Potential.",
+        "D: Die Wellenfunktion hat an den Wänden des Potentials den Wert Null."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Lösung der 1D-Schrödinger-Gleichung für ein Teilchen in einem unendlichen Potentialtopf zeigt, dass die Wellenfunktion an den Wänden des Potentials (bei den Grenzen des Topfes) den Wert Null hat. Dies ist eine Bedingung für die Normalisierbarkeit der Wellenfunktion und führt zu quantisierten Energieniveaus innerhalb des Potentials.",
+      "difficulty": 8,
+      "subcategory": "Lösung der 1D-Schrödinger-Gleichung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Strukturfunktionen (F1, F2,…)",
+      "question": "Was beschreibt die Strukturfunktion F2 in der Kern- und Teilchenphysik?",
+      "choices": [
+        "A: Die Wahrscheinlichkeit, ein Quark in einem Proton zu finden.",
+        "B: Die Verteilung der elektrischen Ladung im Proton.",
+        "C: Die Energieverteilung von Neutrinos.",
+        "D: Die Quarkanteile im Neutron."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Strukturfunktion F2 beschreibt die Wahrscheinlichkeit, ein Quark in einem Proton bei einer bestimmten Energie und Impulsübertragung zu finden. Sie ist ein wichtiger Aspekt der tiefinelastischen Streuung und liefert Informationen über die innere Struktur von Hadronen.",
+      "difficulty": 4,
+      "subcategory": "Strukturfunktionen (F1, F2,…)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Thermodynamische Systeme (offen/geschlossen/isoliert)",
+      "question": "Was ist ein geschlossenes thermodynamisches System?",
+      "choices": [
+        "A: Ein System, das sowohl Materie als auch Energie mit der Umgebung austauscht.",
+        "B: Ein System, das keine Materie, aber Energie mit der Umgebung austauscht.",
+        "C: Ein System, das weder Materie noch Energie mit der Umgebung austauscht.",
+        "D: Ein System, das Materie, aber keine Energie mit der Umgebung austauscht."
+      ],
+      "correct_answer": "B",
+      "explanation": "Ein geschlossenes thermodynamisches System kann Energie in Form von Wärme oder Arbeit mit seiner Umgebung austauschen, lässt jedoch keine Materie hinein oder heraus. Dies steht im Gegensatz zu offenen Systemen, die sowohl Energie als auch Materie austauschen können, und isolierten Systemen, die keinerlei Austausch mit der Umgebung haben.",
+      "difficulty": 2,
+      "subcategory": "Thermodynamische Systeme (offen/geschlossen/isoliert)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Brechungsgesetz aus Fermat",
+      "question": "Welches der folgenden Prinzipien beschreibt das Brechungsgesetz aus Fermat am besten?",
+      "choices": [
+        "A: Licht breitet sich immer in einer geraden Linie aus.",
+        "B: Licht wird immer reflektiert, wenn es auf eine Grenzfläche trifft.",
+        "C: Licht folgt dem Weg, der die Zeit minimiert.",
+        "D: Licht kann nicht durch verschiedene Medien hindurchtreten."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Brechungsgesetz aus Fermat besagt, dass Licht den Weg nimmt, der die benötigte Zeit minimiert. Dies erklärt, warum Lichtstrahlen an Grenzflächen zwischen verschiedenen Medien gebrochen werden, um die kürzeste Zeit zu erreichen.",
+      "difficulty": 8,
+      "subcategory": "Brechungsgesetz aus Fermat"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Operatoren in zweiter Quantisierung",
+      "question": "Welcher Operator wird in der zweiten Quantisierung verwendet, um die Anzahl der Teilchen in einem bestimmten Zustand zu beschreiben?",
+      "choices": [
+        "A: Schöpferoperator",
+        "B: Positionoperator",
+        "C: Hamilton-Operator",
+        "D: Impulsoperator"
+      ],
+      "correct_answer": "A",
+      "explanation": "Der Schöpferoperator wird in der zweiten Quantisierung verwendet, um die Anzahl der Teilchen in einem bestimmten Quantenzustand zu erhöhen. Er ist ein zentraler Bestandteil der Formulierung der Quantenfeldtheorie und ermöglicht die Behandlung von nicht festgelegten Teilchenzahlen.",
+      "difficulty": 6,
+      "subcategory": "Operatoren in zweiter Quantisierung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Ebene Wellen & Polarisation",
+      "question": "Welche Aussage über die Polarisation von Licht ist korrekt?",
+      "choices": [
+        "A: Polarisiertes Licht schwingt nur in einer bestimmten Ebene.",
+        "B: Polarisiertes Licht hat immer eine zufällige Schwingungsrichtung.",
+        "C: Polarisation hat keinen Einfluss auf die Intensität des Lichts.",
+        "D: Nur monochromatisches Licht kann polarisiert werden."
+      ],
+      "correct_answer": "A",
+      "explanation": "Polarisiertes Licht schwingt nur in einer bestimmten Ebene, was es von unpolarisiertem Licht unterscheidet, bei dem die Schwingungsrichtungen zufällig verteilt sind. Die Polarisation beeinflusst auch die Intensität des Lichts, abhängig von der Ausrichtung der Polarisationsebene gegenüber dem verwendeten Filter.",
+      "difficulty": 5,
+      "subcategory": "Ebene Wellen & Polarisation"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Absolute thermodynamische Temperaturskala",
+      "question": "Welche der folgenden Aussagen beschreibt am besten die absolute thermodynamische Temperaturskala?",
+      "choices": [
+        "A: Sie verwendet die Celsius-Skala, wobei der Gefrierpunkt von Wasser bei 0 °C und der Siedepunkt bei 100 °C definiert ist.",
+        "B: Sie misst die Temperatur in Kelvin, wobei 0 K den absoluten Nullpunkt darstellt, an dem keine thermische Energie mehr vorhanden ist.",
+        "C: Sie ist identisch mit der Fahrenheit-Skala, die in den USA populär ist und auf der Basis der Gefriertemperatur von Wasser basiert.",
+        "D: Sie ist eine logarithmische Skala, die die Temperatur in Bezug auf die Aktivität von Molekülen misst."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die absolute thermodynamische Temperaturskala, gemessen in Kelvin, beginnt bei 0 K, dem absoluten Nullpunkt. In diesem Zustand haben die Teilchen die geringstmögliche thermische Energie, was ein fundamentales Konzept in der Thermodynamik darstellt.",
+      "difficulty": 8,
+      "subcategory": "Absolute thermodynamische Temperaturskala"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Langer-Verfahren",
+      "question": "Welches Prinzip ist grundlegend für das Langer-Verfahren in der Quantenmechanik?",
+      "choices": [
+        "A: Das Pauli-Verbot",
+        "B: Das Superpositionsprinzip",
+        "C: Das Prinzip der kleinsten Wirkung",
+        "D: Das Heisenbergsche Unschärfeprinzip"
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Langer-Verfahren basiert auf dem Prinzip der kleinsten Wirkung, das in der Quantenmechanik angewendet wird, um die Bewegung von Systemen zu beschreiben. Es ermöglicht die Ableitung von quantenmechanischen Gleichungen aus einem variationalen Ansatz, was für die Lösung komplexer Probleme von Bedeutung ist.",
+      "difficulty": 6,
+      "subcategory": "Langer-Verfahren"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Flüssigkeitsdruckmessgeräte",
+      "question": "Was ist das Hauptprinzip, das einem U-Rohr-Manometer zugrunde liegt?",
+      "choices": [
+        "A: Die Temperatur der Flüssigkeit hat keinen Einfluss auf die Messung.",
+        "B: Das Manometer misst nur den Druck von Gasen.",
+        "C: Der hydrostatische Druck ist in beiden Ästen des Rohres gleich.",
+        "D: Der Luftdruck beeinflusst den Flüssigkeitsstand im Manometer."
+      ],
+      "correct_answer": "C",
+      "explanation": "Ein U-Rohr-Manometer basiert auf dem Prinzip des hydrostatischen Drucks. Der Druck in beiden Ästen des Rohres ist durch die Flüssigkeitssäulen ausgeglichen, was eine präzise Druckmessung ermöglicht.",
+      "difficulty": 6,
+      "subcategory": "Flüssigkeitsdruckmessgeräte"
+    }
+  ]
+}
