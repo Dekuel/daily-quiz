@@ -1,0 +1,168 @@
+{
+  "date": "2026-01-26",
+  "generated_at": "2026-01-26T04:17:29Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Tripelpunkt & Konvexität/ Konkavität freier Energien",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt die Beziehung zwischen dem Tripelpunkt einer Substanz und der Konvexität der freien Energie im Phasendiagramm?",
+      "choices": [
+        "A: Am Tripelpunkt sind die freien Energien der Phasen identisch und die Kurven sind dort konvex.",
+        "B: Der Tripelpunkt liegt immer an der Stelle, wo die freie Energie zwischen zwei Phasen konkav ist.",
+        "C: Der Tripelpunkt ist durch das Minimum der freien Energie in einem dreidimensionalen Phasendiagramm gekennzeichnet.",
+        "D: Am Tripelpunkt ist die freie Energie in Bezug auf alle Phasen konvex."
+      ],
+      "correct_answer": "D",
+      "explanation": "Der Tripelpunkt einer Substanz ist der Punkt, an dem die freie Energie aller drei Phasen gleich ist, und in diesem Zusammenhang zeigt die Konvexität der freien Energie, dass im Phasendiagramm die Übergänge stabil sind. Eine konvexe Beziehung deutet darauf hin, dass kleine Fluktuationen in der Zusammensetzung oder Temperatur nicht zu einem Phasenübergang führen werden.",
+      "difficulty": 10,
+      "subcategory": "Tripelpunkt & Konvexität/ Konkavität freier Energien"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Lichtwellen & Lichtquanten (Dualismus)",
+      "question": "Was beschreibt das Konzept des Wellen-Teilchen-Dualismus in der Quantenmechanik?",
+      "choices": [
+        "A: Licht ist immer nur eine Welle und niemals ein Teilchen.",
+        "B: Licht kann sowohl als Welle als auch als Teilchen betrachtet werden.",
+        "C: Licht hat keine Masse und bewegt sich nur in Vakuum.",
+        "D: Teilchen bewegen sich immer in geraden Linien ohne Beugung."
+      ],
+      "correct_answer": "B",
+      "explanation": "Der Wellen-Teilchen-Dualismus besagt, dass Licht sowohl Eigenschaften von Wellen als auch von Teilchen zeigt. Dies bedeutet, dass Licht in bestimmten Experimenten als Welle und in anderen als Teilchen auftritt, was ein zentrales Konzept der Quantenmechanik darstellt.",
+      "difficulty": 5,
+      "subcategory": "Lichtwellen & Lichtquanten (Dualismus)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Teilbarkeit der Materie (historisch)",
+      "question": "Wer war der erste Wissenschaftler, der die Idee der Atome als unteilbare Teilchen formulierte?",
+      "choices": [
+        "A: Albert Einstein",
+        "B: Niels Bohr",
+        "C: Isaac Newton",
+        "D: Demokrit"
+      ],
+      "correct_answer": "D",
+      "explanation": "Demokrit war ein antiker griechischer Philosoph, der die Theorie der Atome entwickelte und sie als die kleinsten, unteilbaren Einheiten der Materie betrachtete. Seine Ideen legten den Grundstein für die spätere atomare Theorie der Materie.",
+      "difficulty": 5,
+      "subcategory": "Teilbarkeit der Materie (historisch)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Planck’sches Wirkungsquantum",
+      "question": "Was beschreibt das Planck’sche Wirkungsquantum?",
+      "choices": [
+        "A: Die Anzahl der Teilchen in einem Molekül.",
+        "B: Die Temperatur, bei der alle Teilchen stillstehen.",
+        "C: Die kleinste Energiemenge, die bei quantisierten Prozessen übertragen werden kann.",
+        "D: Die maximale Geschwindigkeit von Licht in einem Vakuum."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Planck’sche Wirkungsquantum ist eine fundamentale Konstante, die die kleinste Energiemenge beschreibt, die in quantisierten Prozessen, wie dem Austausch von Energie zwischen Licht und Materie, übertragen werden kann. Diese Konstante ist entscheidend für das Verständnis der Quantenmechanik.",
+      "difficulty": 1,
+      "subcategory": "Planck’sches Wirkungsquantum"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Spin 1/2 (Pauli-Matrizen)",
+      "question": "Was beschreibt die Pauli-Matrix σ_z im Zusammenhang mit Spin 1/2-Systemen?",
+      "choices": [
+        "A: Sie gibt die z-Komponente des Spins an.",
+        "B: Sie ist die Matrix für die Zeitentwicklung von Teilchen.",
+        "C: Sie beschreibt die Energiezustände eines Elektrons.",
+        "D: Sie beschreibt das Verhalten von Photonen."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Pauli-Matrix σ_z repräsentiert die z-Komponente des Spins in einem Spin 1/2-System. Sie ermöglicht es, die Messung des Spins entlang der z-Achse darzustellen und ist entscheidend für die Beschreibung der Spin-Dynamik in der Quantenmechanik.",
+      "difficulty": 5,
+      "subcategory": "Spin 1/2 (Pauli-Matrizen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Operatoren als Matrizen",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt die Eigenschaft von Hermiteschen Operatoren in Bezug auf ihre Eigenwerte und Eigenzustände?",
+      "choices": [
+        "A: Die Eigenwerte sind immer imaginär, was zu stabilen Zuständen führt.",
+        "B: Die Eigenwerte sind immer reell und die zugehörigen Eigenzustände sind orthogonal.",
+        "C: Die Eigenwerte sind reell, aber die Eigenzustände sind nicht notwendigerweise orthogonal.",
+        "D: Die Eigenwerte sind komplex und die Eigenzustände bilden eine vollständige Basis im Hilbertraum."
+      ],
+      "correct_answer": "B",
+      "explanation": "Hermitesche Operatoren sind zentral in der Quantenmechanik, da ihre Eigenwerte immer reell sind und die entsprechenden Eigenzustände orthogonal zueinander sind. Dies ist entscheidend für die physikalische Interpretation der Messungen in der Quantenmechanik.",
+      "difficulty": 10,
+      "subcategory": "Operatoren als Matrizen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Doppelspalt: Welle vs. Teilchen",
+      "question": "Was beschreibt das Phänomen der Interferenz im Doppelspaltexperiment am besten?",
+      "choices": [
+        "A: Es zeigt, dass Licht als Welle betrachtet werden kann.",
+        "B: Es beweist, dass Licht aus Teilchen besteht.",
+        "C: Es hat keinen Einfluss auf die Sichtbarkeit der Lichtquelle.",
+        "D: Es ist nur bei sehr hohen Frequenzen sichtbar."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Doppelspaltexperiment ist ein klassisches Beispiel für die Wellennatur des Lichts, da es zeigt, wie Lichtwellen, die durch zwei Spalte hindurchtreten, sich überlagern und Interferenzmuster erzeugen. Dieses Verhalten kann nicht durch die Teilchentheorie allein erklärt werden.",
+      "difficulty": 7,
+      "subcategory": "Doppelspalt: Welle vs. Teilchen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Plattenkondensator",
+      "question": "Was beschreibt die Kapazität eines Plattenkondensators?",
+      "choices": [
+        "A: Die Temperatur, bei der der Kondensator funktioniert.",
+        "B: Die maximale Spannung, die er aushalten kann.",
+        "C: Die Fähigkeit, elektrische Ladung zu speichern.",
+        "D: Die gesamte Energie, die im Elektrofeld gespeichert ist."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Kapazität eines Plattenkondensators ist ein Maß für die Fähigkeit, elektrische Ladung zu speichern. Sie hängt von der Fläche der Platten, dem Abstand zwischen ihnen und dem Dielektrikum ab, das zwischen den Platten liegt.",
+      "difficulty": 6,
+      "subcategory": "Plattenkondensator"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Symmetriebrechung; Ehrenfest-Klassifikation",
+      "question": "Welche der folgenden Aussagen beschreibt am besten den Begriff der Symmetriebrechung in der statistischen Mechanik?",
+      "choices": [
+        "A: Symmetriebrechung führt immer zu einem Anstieg der Temperatur in einem System.",
+        "B: Symmetriebrechung tritt auf, wenn ein System in einen Zustand übergeht, der nicht mehr die ursprünglichen Symmetrieeigenschaften besitzt.",
+        "C: Symmetriebrechung ist der Prozess, bei dem alle Energieniveaus eines Systems gleich sind.",
+        "D: Symmetriebrechung ist ein Zustand, in dem alle Teilchen gleichmäßig im Raum verteilt sind."
+      ],
+      "correct_answer": "B",
+      "explanation": "Symmetriebrechung bezieht sich auf den Übergang eines Systems in einen Zustand, der nicht mehr die ursprünglichen Symmetrien aufweist, was häufig in Phasenübergängen vorkommt. Dieser Prozess ist entscheidend für das Verständnis von Phasen und kritischen Phänomenen in der statistischen Mechanik.",
+      "difficulty": 7,
+      "subcategory": "Symmetriebrechung; Ehrenfest-Klassifikation"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Elektron (Entdeckung, Eigenschaften)",
+      "question": "Welches Teilchen wurde 1897 von J.J. Thomson entdeckt und gilt als Träger der negativen elektrischen Ladung?",
+      "choices": [
+        "A: Elektron",
+        "B: Photon",
+        "C: Neutron",
+        "D: Proton"
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Elektron wurde von J.J. Thomson als das erste subatomare Teilchen entdeckt. Es hat eine negative Ladung und spielt eine zentrale Rolle in der Chemie und Physik, insbesondere in der Quantenmechanik.",
+      "difficulty": 3,
+      "subcategory": "Elektron (Entdeckung, Eigenschaften)"
+    }
+  ]
+}
