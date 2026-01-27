@@ -1,0 +1,168 @@
+{
+  "date": "2026-01-27",
+  "generated_at": "2026-01-27T04:08:28Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Elektrischer Ladungstransport",
+      "question": "Which mechanism describes the main charge transport in semiconductor materials?",
+      "choices": [
+        "A: Electromagnetic radiation",
+        "B: Lattice vibrations",
+        "C: Heat transfer",
+        "D: Drift and diffusion"
+      ],
+      "correct_answer": "D",
+      "explanation": "In semiconductor materials, charge transport mainly occurs through the mechanisms of drift and diffusion. Drift refers to the movement of charge carriers in an electric field, while diffusion is caused by concentration gradients.",
+      "difficulty": 7,
+      "subcategory": "Elektrischer Ladungstransport"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Trägheitstensor & -ellipsoid",
+      "question": "Which of the following statements correctly describes the properties of the inertia tensor of a rigid body?",
+      "choices": [
+        "A: The inertia tensor is only defined for spherically symmetric bodies.",
+        "B: The inertia tensor is independent of the body's mass density.",
+        "C: The inertia tensor has only positive eigenvalues.",
+        "D: The inertia tensor is always symmetric."
+      ],
+      "correct_answer": "D",
+      "explanation": "The inertia tensor of a rigid body is always a symmetric matrix, derived from the physical properties of rotation. Symmetry is a fundamental property that ensures the correct description of the body's inertia in all rotational directions.",
+      "difficulty": 6,
+      "subcategory": "Trägheitstensor & -ellipsoid"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Ehrenfest-Klassifikation",
+      "question": "Which of the following phase transitions is classified as first order?",
+      "choices": [
+        "A: Magnetic transformation",
+        "B: Phase transition in a solid",
+        "C: Sublimation",
+        "D: Melting"
+      ],
+      "correct_answer": "D",
+      "explanation": "A first-order phase transition is characterized by a discontinuous change in thermodynamic quantities, such as entropy or volume. The melting of ice to water is a classic example of such a transition, as it involves a sudden increase in entropy.",
+      "difficulty": 4,
+      "subcategory": "Ehrenfest-Klassifikation"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Randwertprobleme der Elektrostatik (Laplace-Gleichung)",
+      "question": "Which of the following statements correctly describes the solution of the Laplace equation in a specific region without charges?",
+      "choices": [
+        "A: The solution is constant and independent of the boundary conditions.",
+        "B: The solution is a function that satisfies the boundary conditions and is continuous throughout the region.",
+        "C: The solution can only be found through numerical methods.",
+        "D: The solution is always zero when no charges are present."
+      ],
+      "correct_answer": "B",
+      "explanation": "The Laplace equation describes the behavior of electric potentials in a region without charges. The solution must satisfy the given boundary conditions and be continuous throughout the considered region.",
+      "difficulty": 3,
+      "subcategory": "Randwertprobleme der Elektrostatik (Laplace-Gleichung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Spin (allgemein)",
+      "question": "What does the spin of a particle describe in quantum mechanics?",
+      "choices": [
+        "A: The mass of the particle.",
+        "B: The electric charge of the particle.",
+        "C: The property of the particle to spin.",
+        "D: The velocity of the particle."
+      ],
+      "correct_answer": "C",
+      "explanation": "Spin is an intrinsic property of particles, often described as a kind of 'intrinsic rotation,' although it is not directly comparable to physical rotational motion. Spin is a quantum mechanical concept used to describe particles like electrons and protons, with important implications for their statistical behavior.",
+      "difficulty": 4,
+      "subcategory": "Spin (allgemein)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Gefrierpunktserniedrigung/Siedepunktserhöhung",
+      "question": "What effect does adding salt to water have on the freezing and boiling points?",
+      "choices": [
+        "A: The freezing point remains the same and the boiling point remains the same.",
+        "B: The freezing point decreases and the boiling point increases.",
+        "C: The freezing point decreases and the boiling point remains the same.",
+        "D: The freezing point increases and the boiling point decreases."
+      ],
+      "correct_answer": "B",
+      "explanation": "Adding salt to water leads to a lowering of the freezing point and an elevation of the boiling point. This occurs because the dissolved particles hinder the formation of ice crystals and increase the vapor pressure of water.",
+      "difficulty": 2,
+      "subcategory": "Gefrierpunktserniedrigung/Siedepunktserhöhung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Wärmeleitung (Phononen)",
+      "question": "What are phonons in solid-state physics?",
+      "choices": [
+        "A: Atomic units forming chemical bonds.",
+        "B: Particles carrying electric charge.",
+        "C: Quasi-particles conducting heat through lattice vibrations.",
+        "D: Light particles playing a role in heat transfer."
+      ],
+      "correct_answer": "C",
+      "explanation": "Phonons are quasi-particles that arise in solids when atoms oscillate around their equilibrium positions. They are crucial for heat conduction as they transport energy through elastic distortions in the crystal lattice.",
+      "difficulty": 3,
+      "subcategory": "Wärmeleitung (Phononen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Feldstärke-Tensor (Fμν)",
+      "question": "What does the field strength tensor Fμν describe in relativity theory?",
+      "choices": [
+        "A: The electromagnetic fields in a relativistic context.",
+        "B: The time dilation of moving objects.",
+        "C: The gravitational field lines in a Schwarzschild field.",
+        "D: The mass-energy equivalence of particles."
+      ],
+      "correct_answer": "A",
+      "explanation": "The field strength tensor Fμν describes the electromagnetic fields in relativity theory, combining electric and magnetic fields in a four-dimensional formalism. It is crucial for understanding the interactions of light and matter in a relativistic framework.",
+      "difficulty": 5,
+      "subcategory": "Feldstärke-Tensor (Fμν)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Arbeit in der Thermodynamik (p dV, generalisiert)",
+      "question": "Which of the following statements describes the work done on a gas when it expands in a closed piston?",
+      "choices": [
+        "A: The work can only be calculated for isothermal processes.",
+        "B: The work is negative when the gas expands and moves the piston outward.",
+        "C: The work is independent of the direction of piston movement.",
+        "D: The work is positive when the gas expands and moves the piston outward."
+      ],
+      "correct_answer": "D",
+      "explanation": "The work done by a gas when it expands is positive, as the gas expends energy to move the piston outward. This is a fundamental concept in thermodynamics that describes the relationship between work and energy.",
+      "difficulty": 6,
+      "subcategory": "Arbeit in der Thermodynamik (p dV, generalisiert)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Gegen- und Selbstinduktion",
+      "question": "What does the term self-induction in a coil describe?",
+      "choices": [
+        "A: The change in the inductance of a coil due to temperature changes.",
+        "B: The generation of heat through electrical resistance in the coil.",
+        "C: The generation of an electromotive force (EMF) in the coil due to a change in its own current.",
+        "D: The generation of an EMF in the coil due to an external magnetic field change."
+      ],
+      "correct_answer": "C",
+      "explanation": "Self-induction occurs when a change in the current in a coil generates an electromotive force (EMF). This EMF opposes the change in current and is a fundamental principle in electrodynamics.",
+      "difficulty": 4,
+      "subcategory": "Gegen- und Selbstinduktion"
+    }
+  ]
+}

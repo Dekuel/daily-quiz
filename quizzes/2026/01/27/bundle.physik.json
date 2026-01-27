@@ -1,0 +1,169 @@
+{
+  "date": "2026-01-27",
+  "generated_at": "2026-01-27T04:07:51Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Elektrischer Ladungstransport",
+      "question": "Welcher Mechanismus beschreibt den hauptsächlichen Ladungstransport in Halbleitermaterialien?",
+      "choices": [
+        "A: Elektromagnetische Strahlung",
+        "B: Schwingungen von Gittern",
+        "C: Wärmeübertragung",
+        "D: Drift und Diffusion"
+      ],
+      "correct_answer": "D",
+      "explanation": "In Halbleitermaterialien erfolgt der Ladungstransport hauptsächlich durch die Mechanismen der Drift und Diffusion. Drift bezieht sich auf die Bewegung von Ladungsträgern im elektrischen Feld, während Diffusion durch Konzentrationsgradienten verursacht wird.",
+      "difficulty": 7,
+      "subcategory": "Elektrischer Ladungstransport"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Trägheitstensor & -ellipsoid",
+      "question": "Welcher der folgenden Aussagen beschreibt korrekt die Eigenschaften des Trägheitstensors eines starren Körpers?",
+      "choices": [
+        "A: Der Trägheitstensor ist nur für kugelsymmetrische Körper definiert.",
+        "B: Der Trägheitstensor ist unabhängig von der Massendichte des Körpers.",
+        "C: Der Trägheitstensor hat nur positive Eigenwerte.",
+        "D: Der Trägheitstensor ist immer symmetrisch."
+      ],
+      "correct_answer": "D",
+      "explanation": "Der Trägheitstensor eines starren Körpers ist immer eine symmetrische Matrix, was sich aus den physikalischen Eigenschaften der Rotation ableitet. Symmetrie ist eine grundlegende Eigenschaft, die sicherstellt, dass die Trägheit des Körpers in allen Rotationsrichtungen korrekt beschrieben wird.",
+      "difficulty": 6,
+      "subcategory": "Trägheitstensor & -ellipsoid"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Ehrenfest-Klassifikation",
+      "question": "Welche der folgenden Phasenübergänge wird als erster Ordnung klassifiziert?",
+      "choices": [
+        "A: Magnetische Umwandlung",
+        "B: Phasenumwandlung in einem Festkörper",
+        "C: Sublimation",
+        "D: Schmelzen"
+      ],
+      "correct_answer": "D",
+      "explanation": "Ein erster Ordnung Phasenübergang zeichnet sich durch eine diskontinuierliche Änderung thermodynamischer Größen, wie z.B. Entropie oder Volumen, aus. Das Schmelzen von Eis zu Wasser ist ein klassisches Beispiel für einen solchen Übergang, da hierbei die Entropie abrupt zunimmt.",
+      "difficulty": 4,
+      "subcategory": "Ehrenfest-Klassifikation"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Randwertprobleme der Elektrostatik (Laplace-Gleichung)",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt die Lösung der Laplace-Gleichung in einem bestimmten Gebiet ohne Ladungen?",
+      "choices": [
+        "A: Die Lösung ist konstant und hängt nicht von den Randbedingungen ab.",
+        "B: Die Lösung ist eine Funktion, die die Randbedingungen erfüllt und überall im Gebiet stetig ist.",
+        "C: Die Lösung kann nur durch numerische Methoden gefunden werden.",
+        "D: Die Lösung ist immer gleich null, wenn keine Ladungen vorhanden sind."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Laplace-Gleichung beschreibt das Verhalten von elektrischen Potentialen in einem Gebiet ohne Ladungen. Die Lösung muss die gegebenen Randbedingungen erfüllen und ist dabei überall im betrachteten Gebiet stetig.",
+      "difficulty": 3,
+      "subcategory": "Randwertprobleme der Elektrostatik (Laplace-Gleichung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Spin (allgemein)",
+      "question": "Was beschreibt der Spin eines Teilchens in der Quantenmechanik?",
+      "choices": [
+        "A: Die Masse des Teilchens.",
+        "B: Die elektrische Ladung des Teilchens.",
+        "C: Die Eigenschaft des Teilchens, sich zu drehen.",
+        "D: Die Geschwindigkeit des Teilchens."
+      ],
+      "correct_answer": "C",
+      "explanation": "Der Spin ist eine intrinsische Eigenschaft von Teilchen, die oft als eine Art 'Eigenrotation' beschrieben wird, obwohl er nicht direkt mit physikalischen Drehbewegungen vergleichbar ist. Spin ist ein quantenmechanisches Konzept, das zur Beschreibung von Teilchen wie Elektronen und Protonen verwendet wird und wichtige Auswirkungen auf deren statistisches Verhalten hat.",
+      "difficulty": 4,
+      "subcategory": "Spin (allgemein)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Gefrierpunktserniedrigung/Siedepunktserhöhung",
+      "question": "Was bewirkt das Hinzufügen von Salz zu Wasser in Bezug auf den Gefrier- und Siedepunkt?",
+      "choices": [
+        "A: Der Gefrierpunkt bleibt gleich und der Siedepunkt bleibt gleich.",
+        "B: Der Gefrierpunkt sinkt und der Siedepunkt steigt.",
+        "C: Der Gefrierpunkt sinkt und der Siedepunkt bleibt gleich.",
+        "D: Der Gefrierpunkt steigt und der Siedepunkt sinkt."
+      ],
+      "correct_answer": "B",
+      "explanation": "Das Hinzufügen von Salz zu Wasser führt zu einer Gefrierpunktserniedrigung und Siedepunktserhöhung. Dies geschieht, weil die gelösten Teilchen die Bildung von Eiskristallen erschweren und den Dampfdruck des Wassers erhöhen.",
+      "difficulty": 2,
+      "subcategory": "Gefrierpunktserniedrigung/Siedepunktserhöhung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Wärmeleitung (Phononen)",
+      "question": "Was sind Phononen in der Festkörperphysik?",
+      "choices": [
+        "A: Atomare Einheiten, die chemische Bindungen bilden.",
+        "B: Teilchen, die elektrische Ladung tragen.",
+        "C: Quasiteilchen, die Wärme durch Gittervibrationen leiten.",
+        "D: Lichtteilchen, die bei der Wärmeübertragung eine Rolle spielen."
+      ],
+      "correct_answer": "C",
+      "explanation": "Phononen sind Quasiteilchen, die in Festkörpern entstehen, wenn Atome um ihre Gleichgewichtslage schwingen. Sie sind entscheidend für die Wärmeleitung, da sie die Energie durch elastische Störungen im Kristallgitter transportieren.",
+      "difficulty": 3,
+      "subcategory": "Wärmeleitung (Phononen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Feldstärke-Tensor (Fμν)",
+      "question": "Was beschreibt der Feldstärke-Tensor Fμν in der Relativitätstheorie?",
+      "choices": [
+        "A: Die elektromagnetischen Felder in einem relativistischen Kontext.",
+        "B: Die Zeitdilatation von bewegten Objekten.",
+        "C: Die Gravitationsfeldlinien in einem Schwarzschildfeld.",
+        "D: Die Masse-Energie-Äquivalenz von Teilchen."
+      ],
+      "correct_answer": "A",
+      "explanation": "Der Feldstärke-Tensor Fμν beschreibt die elektromagnetischen Felder in der Relativitätstheorie und kombiniert elektrische und magnetische Felder in einem vierdimensionalen Formalismus. Er ist entscheidend für das Verständnis der Wechselwirkungen von Licht und Materie im relativistischen Rahmen.",
+      "difficulty": 5,
+      "subcategory": "Feldstärke-Tensor (Fμν)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Arbeit in der Thermodynamik (p dV, generalisiert)",
+      "question": "Welche der folgenden Aussagen beschreibt die Arbeit, die an einem Gas verrichtet wird, wenn es sich in einem geschlossenen Kolben ausdehnt?",
+      "choices": [
+        "A: Die Arbeit kann nur bei isothermen Prozessen berechnet werden.",
+        "B: Die Arbeit ist negativ, wenn das Gas sich ausdehnt und den Kolben nach außen bewegt.",
+        "C: Die Arbeit ist unabhängig von der Richtung der Kolbenbewegung.",
+        "D: Die Arbeit ist positiv, wenn das Gas sich ausdehnt und den Kolben nach außen bewegt."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Arbeit, die von einem Gas verrichtet wird, wenn es sich ausdehnt, ist positiv, da das Gas Energie aufwendet, um den Kolben nach außen zu bewegen. Dies ist ein grundlegendes Konzept in der Thermodynamik, das die Beziehung zwischen Arbeit und Energie beschreibt.",
+      "difficulty": 6,
+      "subcategory": "Arbeit in der Thermodynamik (p dV, generalisiert)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Gegen- und Selbstinduktion",
+      "question": "Was beschreibt der Begriff der Selbstinduktion in einer Spule?",
+      "choices": [
+        "A: Die Veränderung der Induktivität einer Spule durch Temperaturänderungen.",
+        "B: Die Entstehung von Wärme durch elektrischen Widerstand in der Spule.",
+        "C: Die Erzeugung einer elektromotorischen Kraft (EMK) in der Spule durch eine Änderung des eigenen Stroms.",
+        "D: Die Erzeugung einer EMK in der Spule durch einen externen Magnetfeldwechsel."
+      ],
+      "correct_answer": "C",
+      "explanation": "Selbstinduktion tritt auf, wenn die Änderung des eigenen Stroms in einer Spule eine elektromotorische Kraft (EMK) erzeugt. Diese EMK wirkt der Änderung des Stroms entgegen und ist ein wesentliches Prinzip in der Elektrodynamik.",
+      "difficulty": 4,
+      "subcategory": "Gegen- und Selbstinduktion"
+    }
+  ]
+}
