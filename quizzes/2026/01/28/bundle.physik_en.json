@@ -1,0 +1,168 @@
+{
+  "date": "2026-01-28",
+  "generated_at": "2026-01-28T04:07:31Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Postulate der Quantenmechanik",
+      "question": "Which postulate of quantum mechanics states that the state of a quantum mechanical system is described by a vector in Hilbert space?",
+      "choices": [
+        "A: The measurement postulate",
+        "B: The superposition postulate",
+        "C: The state vector postulate",
+        "D: The time evolution postulate"
+      ],
+      "correct_answer": "C",
+      "explanation": "The state vector postulate states that every state of a quantum mechanical system can be described by a vector in a Hilbert space. This is fundamental for the mathematical formulation of quantum mechanics and allows the application of linear algebra methods to quantum mechanical problems.",
+      "difficulty": 6,
+      "subcategory": "Postulate der Quantenmechanik"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Bloch-Funktion",
+      "question": "Which of the following statements correctly describes a property of the Bloch function in solid-state physics?",
+      "choices": [
+        "A: It is only relevant for single-atom crystals.",
+        "B: It is independent of the material's lattice structure.",
+        "C: It describes the states of electrons in a crystal in a periodic potential.",
+        "D: It cannot be used to describe electrons in semiconductors."
+      ],
+      "correct_answer": "C",
+      "explanation": "The Bloch function is a mathematical solution of the Schrödinger equation for electrons in periodic potentials, typical of crystal lattices. It takes into account the lattice structure and enables the description of electronic states in solids, including semiconductors.",
+      "difficulty": 9,
+      "subcategory": "Bloch-Funktion"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Kohärenz von Lichtquellen",
+      "question": "Which of the following light sources produces coherent light?",
+      "choices": [
+        "A: Sunlight",
+        "B: Light bulb",
+        "C: Fluorescent lamp",
+        "D: Laser"
+      ],
+      "correct_answer": "D",
+      "explanation": "A laser source produces coherent light as the light waves have a fixed phase and frequency. In contrast, light bulbs, sunlight, and fluorescent lamps are incoherent as they emit light at different phases and frequencies.",
+      "difficulty": 4,
+      "subcategory": "Kohärenz von Lichtquellen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Hilbert-Raum des Spins",
+      "question": "What does the Hilbert space describe in the context of spin in quantum mechanics?",
+      "choices": [
+        "A: The motion laws for macroscopic objects.",
+        "B: The mathematical space in which states of quantum objects are represented.",
+        "C: The physical laws for classical particles.",
+        "D: The structure of atomic nuclei."
+      ],
+      "correct_answer": "B",
+      "explanation": "The Hilbert space is an abstract mathematical space used to describe the states of quantum objects, such as spins. In this space, states can be represented as vectors, enabling the calculation of probabilities and other properties.",
+      "difficulty": 3,
+      "subcategory": "Hilbert-Raum des Spins"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Potentiale & Hauptsätze der Gleichgewichtsthermodynamik",
+      "question": "Which law of thermodynamics describes the principle that the energy of a closed system remains constant?",
+      "choices": [
+        "A: Second law",
+        "B: First law",
+        "C: Third law",
+        "D: Zeroth law"
+      ],
+      "correct_answer": "B",
+      "explanation": "The first law of thermodynamics, also known as the conservation of energy principle, states that the total energy of a closed system remains constant. This means that energy cannot be created or destroyed, only converted from one form to another.",
+      "difficulty": 6,
+      "subcategory": "Potentiale & Hauptsätze der Gleichgewichtsthermodynamik"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Entropie im mikrokanonischen Ensemble",
+      "question": "What does entropy describe in a microcanonical ensemble?",
+      "choices": [
+        "A: The total energy of a system.",
+        "B: The temperature of a system.",
+        "C: The density of a system.",
+        "D: The number of possible microstates of a system."
+      ],
+      "correct_answer": "D",
+      "explanation": "In a microcanonical ensemble, entropy is a measure of the number of accessible microstates of a system possible at a given energy. Higher entropy means more disorder and more possible states.",
+      "difficulty": 2,
+      "subcategory": "Entropie im mikrokanonischen Ensemble"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Klassisches ideales Gas (großkanonisch)",
+      "question": "In the context of a grand canonical ensemble, what describes the relationship between the temperature T and the chemical potential μ of an ideal gas?",
+      "choices": [
+        "A: T = μ/V",
+        "B: T = -μ/k",
+        "C: T = μ/k",
+        "D: T = V/μ"
+      ],
+      "correct_answer": "C",
+      "explanation": "In the grand canonical ensemble, the chemical potential μ is directly linked to the temperature T through the relationship T = μ/k, where k is the Boltzmann constant. This relationship is crucial for the thermodynamic properties of an ideal gas in an open system.",
+      "difficulty": 5,
+      "subcategory": "Klassisches ideales Gas (großkanonisch)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Reversible Vorgänge & Adiabatengleichung",
+      "question": "What does the adiabatic equation for reversible processes in thermodynamics describe?",
+      "choices": [
+        "A: pV = nRT",
+        "B: ΔU = Q + W",
+        "C: Q = mcΔT",
+        "D: pV^γ = constant"
+      ],
+      "correct_answer": "D",
+      "explanation": "The adiabatic equation pV^γ = constant describes the behavior of an ideal gas during an adiabatic, reversible process where no heat is exchanged with the surroundings. Here, γ is the ratio of specific heats, which is crucial for characterizing these processes.",
+      "difficulty": 9,
+      "subcategory": "Reversible Vorgänge & Adiabatengleichung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Phononen in Festkörpern: harmonischer Hamilton-Operator",
+      "question": "What does the harmonic Hamiltonian operator describe in the theory of phonons?",
+      "choices": [
+        "A: The kinetic energy of phonons and their interactions with electrons.",
+        "B: The potential energy of a system of harmonic oscillators.",
+        "C: The total energy of a system of non-interacting particles.",
+        "D: The relationship between temperature and entropy in a solid."
+      ],
+      "correct_answer": "B",
+      "explanation": "The harmonic Hamiltonian operator describes the energy of a system of harmonically oscillating particles that can be interpreted as phonons. It includes both the kinetic and potential energy of the oscillators and is fundamental for understanding the thermodynamic properties of solids.",
+      "difficulty": 6,
+      "subcategory": "Phononen in Festkörpern: harmonischer Hamilton-Operator"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Turbulenz & Strömungswiderstand",
+      "question": "Which of the following statements best describes the influence of turbulence on the flow resistance of a body in a fluid?",
+      "choices": [
+        "A: Turbulence increases flow resistance compared to laminar flow.",
+        "B: Turbulence has no effect on flow resistance.",
+        "C: Turbulence decreases flow resistance compared to laminar flow.",
+        "D: Turbulence only affects buoyancy, not flow resistance."
+      ],
+      "correct_answer": "A",
+      "explanation": "In turbulent flows, complex vortex motions occur, increasing the flow resistance. Compared to laminar flow, this leads to greater energy losses through friction and resistance.",
+      "difficulty": 9,
+      "subcategory": "Turbulenz & Strömungswiderstand"
+    }
+  ]
+}

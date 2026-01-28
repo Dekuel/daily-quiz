@@ -1,0 +1,169 @@
+{
+  "date": "2026-01-28",
+  "generated_at": "2026-01-28T04:06:49Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Postulate der Quantenmechanik",
+      "question": "Welches Postulat der Quantenmechanik besagt, dass der Zustand eines quantenmechanischen Systems durch einen Vektor im Hilbertraum beschrieben wird?",
+      "choices": [
+        "A: Der Mess-Postulat",
+        "B: Der Superpositions-Postulat",
+        "C: Der Zustandsvektor-Postulat",
+        "D: Der Zeitentwicklung-Postulat"
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Zustandsvektor-Postulat besagt, dass jeder Zustand eines quantenmechanischen Systems durch einen Vektor in einem Hilbertraum beschrieben werden kann. Dies ist grundlegend für die mathematische Formulierung der Quantenmechanik und ermöglicht die Anwendung von linearen Algebra-Methoden auf quantenmechanische Probleme.",
+      "difficulty": 6,
+      "subcategory": "Postulate der Quantenmechanik"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Bloch-Funktion",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt eine Eigenschaft der Bloch-Funktion in der Festkörperphysik?",
+      "choices": [
+        "A: Sie ist nur für einatomige Kristalle relevant.",
+        "B: Sie ist unabhängig von der Gitterstruktur des Materials.",
+        "C: Sie beschreibt die Zustände von Elektronen in einem Kristall in einem periodischen Potential.",
+        "D: Sie kann nicht zur Beschreibung von Elektronen in Halbleitern verwendet werden."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Bloch-Funktion ist eine mathematische Lösung der Schrödinger-Gleichung für Elektronen in periodischen Potentialen, typisch für Kristallgitter. Sie berücksichtigt die Gitterstruktur und ermöglicht die Beschreibung elektronischer Zustände in Festkörpern, einschließlich Halbleitern.",
+      "difficulty": 9,
+      "subcategory": "Bloch-Funktion"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Kohärenz von Lichtquellen",
+      "question": "Welche der folgenden Lichtquellen erzeugt kohärentes Licht?",
+      "choices": [
+        "A: Sonnenlicht",
+        "B: Glühbirne",
+        "C: Leuchtstofflampe",
+        "D: Laser"
+      ],
+      "correct_answer": "D",
+      "explanation": "Eine Laserquelle erzeugt kohärentes Licht, da die Lichtwellen eine feste Phase und Frequenz haben. Im Gegensatz dazu sind Glühbirnen, Sonnenlicht und Leuchtstofflampen inkohärent, da sie Licht in unterschiedlichen Phasen und Frequenzen abstrahlen.",
+      "difficulty": 4,
+      "subcategory": "Kohärenz von Lichtquellen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Hilbert-Raum des Spins",
+      "question": "Was beschreibt der Hilbert-Raum im Kontext des Spins in der Quantenmechanik?",
+      "choices": [
+        "A: Die Bewegungsgesetze für makroskopische Objekte.",
+        "B: Den mathematischen Raum, in dem Zustände von Quantenobjekten dargestellt werden.",
+        "C: Die physikalischen Gesetze für klassische Teilchen.",
+        "D: Die Struktur von Atomkernen."
+      ],
+      "correct_answer": "B",
+      "explanation": "Der Hilbert-Raum ist ein abstrakter mathematischer Raum, der verwendet wird, um die Zustände von Quantenobjekten, wie Spins, zu beschreiben. In diesem Raum können Zustände als Vektoren dargestellt werden, was die Berechnung von Wahrscheinlichkeiten und anderen Eigenschaften ermöglicht.",
+      "difficulty": 3,
+      "subcategory": "Hilbert-Raum des Spins"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Potentiale & Hauptsätze der Gleichgewichtsthermodynamik",
+      "question": "Welcher Hauptsatz der Thermodynamik beschreibt das Prinzip, dass die Energie eines geschlossenen Systems konstant bleibt?",
+      "choices": [
+        "A: Zweiter Hauptsatz",
+        "B: Erster Hauptsatz",
+        "C: Dritter Hauptsatz",
+        "D: Nullter Hauptsatz"
+      ],
+      "correct_answer": "B",
+      "explanation": "Der erste Hauptsatz der Thermodynamik, auch als Energieerhaltungssatz bekannt, besagt, dass die Gesamtenergie eines geschlossenen Systems konstant bleibt. Dies bedeutet, dass Energie weder erzeugt noch vernichtet werden kann, sondern nur von einer Form in eine andere umgewandelt wird.",
+      "difficulty": 6,
+      "subcategory": "Potentiale & Hauptsätze der Gleichgewichtsthermodynamik"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Entropie im mikrokanonischen Ensemble",
+      "question": "Was beschreibt die Entropie in einem mikrokanonischen Ensemble?",
+      "choices": [
+        "A: Die gesamte Energie eines Systems.",
+        "B: Die Temperatur eines Systems.",
+        "C: Die Dichte eines Systems.",
+        "D: Die Anzahl der möglichen Mikrozustände eines Systems."
+      ],
+      "correct_answer": "D",
+      "explanation": "Im mikrokanonischen Ensemble ist die Entropie ein Maß für die Anzahl der zugänglichen Mikrozustände eines Systems, die bei gegebener Energie möglich sind. Höhere Entropie bedeutet mehr Unordnung und mehr mögliche Zustände.",
+      "difficulty": 2,
+      "subcategory": "Entropie im mikrokanonischen Ensemble"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Klassisches ideales Gas (großkanonisch)",
+      "question": "Was beschreibt im Kontext eines großkanonischen Ensembles die Beziehung zwischen der Temperatur T und der chemischen Potential μ eines idealen Gases?",
+      "choices": [
+        "A: T = μ/V",
+        "B: T = -μ/k",
+        "C: T = μ/k",
+        "D: T = V/μ"
+      ],
+      "correct_answer": "C",
+      "explanation": "Im großkanonischen Ensemble ist das chemische Potential μ direkt mit der Temperatur T über die Beziehung T = μ/k verknüpft, wobei k die Boltzmann-Konstante ist. Diese Beziehung ist entscheidend für die thermodynamischen Eigenschaften eines idealen Gases in einem offenen System.",
+      "difficulty": 5,
+      "subcategory": "Klassisches ideales Gas (großkanonisch)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Reversible Vorgänge & Adiabatengleichung",
+      "question": "Was beschreibt die Adiabatengleichung für reversible Prozesse in der Thermodynamik?",
+      "choices": [
+        "A: pV = nRT",
+        "B: ΔU = Q + W",
+        "C: Q = mcΔT",
+        "D: pV^γ = konstant"
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Adiabatengleichung pV^γ = konstant beschreibt das Verhalten eines idealen Gases während eines adiabatischen, reversiblen Prozesses, bei dem keine Wärme mit der Umgebung ausgetauscht wird. Hierbei ist γ das Verhältnis der spezifischen Wärmen, was entscheidend für die Charakterisierung dieser Prozesse ist.",
+      "difficulty": 9,
+      "subcategory": "Reversible Vorgänge & Adiabatengleichung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Phononen in Festkörpern: harmonischer Hamilton-Operator",
+      "question": "Was beschreibt der harmonische Hamilton-Operator in der Theorie der Phononen?",
+      "choices": [
+        "A: Die kinetische Energie der Phononen und ihre Wechselwirkungen mit Elektronen.",
+        "B: Die Potentialenergie eines Systems von harmonischen Oszillatoren.",
+        "C: Die Gesamtenergie eines Systems aus nicht wechselwirkenden Teilchen.",
+        "D: Den Zusammenhang zwischen Temperatur und Entropie in einem Festkörper."
+      ],
+      "correct_answer": "B",
+      "explanation": "Der harmonische Hamilton-Operator beschreibt die Energie eines Systems von harmonisch schwingenden Teilchen, die als Phononen interpretiert werden können. Er beinhaltet sowohl die kinetische als auch die potentielle Energie der Oszillatoren und ist grundlegend für das Verständnis der thermodynamischen Eigenschaften von Festkörpern.",
+      "difficulty": 6,
+      "subcategory": "Phononen in Festkörpern: harmonischer Hamilton-Operator"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Turbulenz & Strömungswiderstand",
+      "question": "Welche der folgenden Aussagen beschreibt am besten den Einfluss von Turbulenz auf den Strömungswiderstand eines Körpers in einer Flüssigkeit?",
+      "choices": [
+        "A: Turbulenz erhöht den Strömungswiderstand im Vergleich zu laminarer Strömung.",
+        "B: Turbulenz hat keinen Einfluss auf den Strömungswiderstand.",
+        "C: Turbulenz vermindert den Strömungswiderstand im Vergleich zu laminarer Strömung.",
+        "D: Turbulenz beeinflusst nur den Auftrieb, nicht den Strömungswiderstand."
+      ],
+      "correct_answer": "A",
+      "explanation": "In turbulenten Strömungen treten komplexe Wirbelbewegungen auf, die den Strömungswiderstand erhöhen. Im Vergleich zur laminaren Strömung führt dies zu einer größeren Energieverluste durch Reibung und Widerstand.",
+      "difficulty": 9,
+      "subcategory": "Turbulenz & Strömungswiderstand"
+    }
+  ]
+}
