@@ -1,0 +1,169 @@
+{
+  "date": "2026-01-29",
+  "generated_at": "2026-01-29T04:27:25Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Abbesche Bildtheorie & Fourieroptik",
+      "question": "Was beschreibt die Abbesche Bildtheorie hauptsächlich?",
+      "choices": [
+        "A: Die thermodynamischen Eigenschaften von Gasen.",
+        "B: Die Wechselwirkungen von Teilchen auf quantenmechanischer Ebene.",
+        "C: Die Beziehung zwischen Lichtstrahlen und Bildentstehung in optischen Systemen.",
+        "D: Die Bewegung von Körpern unter dem Einfluss von Kräften."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Abbesche Bildtheorie behandelt, wie Lichtstrahlen in optischen Systemen abgebildet werden und wie diese Abbildungen durch Linsen und andere optische Elemente erzeugt werden. Sie ist grundlegend für das Verständnis der Bildentstehung in der Optik.",
+      "difficulty": 1,
+      "subcategory": "Abbesche Bildtheorie & Fourieroptik"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Entropie: Definition & Extremaleigenschaft",
+      "question": "Was beschreibt die Entropie in einem geschlossenen System?",
+      "choices": [
+        "A: Die Temperatur des Systems",
+        "B: Die Masse des Systems",
+        "C: Die Unordnung des Systems",
+        "D: Die Geschwindigkeit der Teilchen im System"
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Entropie ist ein Maß für die Unordnung oder Zufälligkeit in einem geschlossenen System. Eine höhere Entropie deutet auf eine größere Unordnung und damit auf eine höhere Anzahl möglicher Mikrozustände hin.",
+      "difficulty": 3,
+      "subcategory": "Entropie: Definition & Extremaleigenschaft"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Nutation & Präzession (Überlagerung)",
+      "question": "Was beschreibt die Präzession eines Körpers, der sich um eine Achse dreht?",
+      "choices": [
+        "A: Die Erhöhung der kinetischen Energie des rotierenden Körpers.",
+        "B: Die Veränderung der Geschwindigkeit des Körpers während der Drehung.",
+        "C: Die sofortige Änderung der Rotationsrichtung des Körpers.",
+        "D: Die langsame Kreisbewegung der Drehachse um eine senkrechte Linie."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Präzession beschreibt die langsame Änderung der Richtung der Drehachse eines rotierenden Körpers, was oft in Verbindung mit einem Momentenvektor auftritt. Dies geschieht, wenn ein äußeres Drehmoment auf den Körper wirkt, was zur Überlagerung von Nutation und Präzession führt.",
+      "difficulty": 5,
+      "subcategory": "Nutation & Präzession (Überlagerung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Absolute vs. empirische Temperatur",
+      "question": "Welche der folgenden Aussagen beschreibt den Unterschied zwischen absoluter und empirischer Temperatur korrekt?",
+      "choices": [
+        "A: Absolute Temperatur kann nicht unter 0 Grad Celsius liegen, während empirische Temperatur negative Werte annehmen kann.",
+        "B: Absolute Temperatur ist eine subjektive Wahrnehmung, während empirische Temperatur auf physikalischen Messungen basiert.",
+        "C: Die absolute Temperatur ist immer in Kelvin angegeben, während die empirische Temperatur in Celsius oder Fahrenheit angegeben werden kann.",
+        "D: Die empirische Temperatur ist eine Maßzahl, die nur in geschlossenen Systemen gilt, während die absolute Temperatur universell anwendbar ist."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die absolute Temperatur wird in Kelvin gemessen und ist ein fundamentales Konzept in der Thermodynamik. Im Gegensatz dazu kann die empirische Temperatur in verschiedenen Skalen wie Celsius oder Fahrenheit angegeben werden, was sie weniger universell macht.",
+      "difficulty": 7,
+      "subcategory": "Absolute vs. empirische Temperatur"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Grenzflächen & Haftspannung",
+      "question": "Was beschreibt der Begriff 'Haftspannung' in der Physik?",
+      "choices": [
+        "A: Die Fähigkeit eines Körpers, Wärme zu speichern.",
+        "B: Die Kraft, die zwischen zwei festen Oberflächen wirkt, um eine relative Bewegung zu verhindern.",
+        "C: Die Geschwindigkeit, mit der ein Objekt fällt.",
+        "D: Der Druck, der auf einen Körper in einem Fluid wirkt."
+      ],
+      "correct_answer": "B",
+      "explanation": "Haftspannung ist die Kraft, die an der Grenzfläche zwischen zwei festen Oberflächen wirkt und sie daran hindert, sich relativ zueinander zu bewegen. Diese Kraft spielt eine wichtige Rolle in der klassischen Mechanik, insbesondere bei der Betrachtung von Reibung und Haftung.",
+      "difficulty": 2,
+      "subcategory": "Grenzflächen & Haftspannung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Querkontraktion",
+      "question": "Was beschreibt das Phänomen der Querkontraktion in der klassischen Mechanik?",
+      "choices": [
+        "A: Die Erhöhung der Länge eines Materials bei Temperaturerhöhung.",
+        "B: Die Veränderung der Dichte eines Materials bei Druckerhöhung.",
+        "C: Die Verkleinerung der Querschnittsfläche eines Materials bei Dehnung.",
+        "D: Die Zunahme der Masse eines Materials bei Kompression."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Querkontraktion beschreibt das Verhalten von Materialien, die sich in der Querschnittsfläche verringern, wenn sie in Längsrichtung gedehnt werden. Dies ist ein wichtiges Konzept in der Materialwissenschaft und wird durch die Poisson-Zahl quantifiziert.",
+      "difficulty": 6,
+      "subcategory": "Querkontraktion"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Ko- und kontravariante Tensoren (Grundbegriffe)",
+      "question": "Was beschreibt ein kovarianter Tensor in der Relativitätstheorie?",
+      "choices": [
+        "A: Er hat immer eine feste Dimension.",
+        "B: Er transformiert sich wie die Koordinaten unter einer Koordinatentransformation.",
+        "C: Er ist invariant unter Lorentz-Transformationen.",
+        "D: Er beschreibt nur Vektoren im dreidimensionalen Raum."
+      ],
+      "correct_answer": "B",
+      "explanation": "Ein kovarianter Tensor transformiert sich gemäß den Regeln der Tensoranalysis, wenn die Koordinaten sich ändern. Dies bedeutet, dass er seine Form an die neuen Koordinaten anpasst, was für die korrekte Beschreibung physikalischer Gesetze in verschiedenen Bezugssystemen entscheidend ist.",
+      "difficulty": 5,
+      "subcategory": "Ko- und kontravariante Tensoren (Grundbegriffe)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Hamilton’sches Prinzip (Prinzip der stationären Wirkung)",
+      "question": "Welches der folgenden Konzepte beschreibt das Hamilton’sche Prinzip in der analytischen Mechanik?",
+      "choices": [
+        "A: Ein System bewegt sich immer auf der kürzesten Strecke zwischen zwei Punkten.",
+        "B: Energie kann nicht erzeugt oder vernichtet, sondern nur umgewandelt werden.",
+        "C: Die Bewegung eines Systems erfolgt entlang der Bahn, für die die Wirkung minimal ist.",
+        "D: Alle physikalischen Systeme sind isoliert und interagieren nicht mit ihrer Umgebung."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Hamilton’sche Prinzip besagt, dass die tatsächliche Bahn eines Systems diejenige ist, für die die Wirkung, definiert als das Integral über die Lagrange-Funktion, extremal (minimal oder maximal) ist. Dies ist ein zentrales Konzept in der analytischen Mechanik und ermöglicht die Ableitung der Bewegungsgleichungen für physikalische Systeme.",
+      "difficulty": 7,
+      "subcategory": "Hamilton’sches Prinzip (Prinzip der stationären Wirkung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Meißner-Effekt & London-Gleichungen",
+      "question": "Was beschreibt der Meißner-Effekt in Supraleitern?",
+      "choices": [
+        "A: Die vollständige Abstoßung eines Magnetfeldes.",
+        "B: Die Wärmeleitung in metallischen Festkörpern.",
+        "C: Die Bindung von Elektronen in einem Kristallgitter.",
+        "D: Die Erhöhung des elektrischen Widerstands bei tiefen Temperaturen."
+      ],
+      "correct_answer": "A",
+      "explanation": "Der Meißner-Effekt beschreibt das Phänomen, dass Supraleiter ein äußeres Magnetfeld vollständig aus ihrem Inneren verdrängen, wenn sie unter ihre kritische Temperatur abgekühlt werden. Dies führt zu einer perfekten diamagnetischen Eigenschaft und ist ein charakteristisches Merkmal von Supraleitung.",
+      "difficulty": 6,
+      "subcategory": "Meißner-Effekt & London-Gleichungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Dampfdruckkurve & Clausius–Clapeyron-Gleichung",
+      "question": "Welche Aussage zur Clausius–Clapeyron-Gleichung ist korrekt?",
+      "choices": [
+        "A: Sie ist nur für ideale Gase anwendbar.",
+        "B: Sie ist unabhängig von der Art des Stoffes.",
+        "C: Sie beschreibt den Zusammenhang zwischen Dampfdruck und Temperatur für eine Phasenumwandlung.",
+        "D: Sie gilt nur für chemische Reaktionen."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Clausius–Clapeyron-Gleichung stellt eine Beziehung zwischen dem Dampfdruck eines Stoffes und seiner Temperatur während einer Phasenumwandlung her. Sie ist besonders wichtig für das Verständnis von Phasenübergängen wie Verdampfung und Sublimation.",
+      "difficulty": 4,
+      "subcategory": "Dampfdruckkurve & Clausius–Clapeyron-Gleichung"
+    }
+  ]
+}
