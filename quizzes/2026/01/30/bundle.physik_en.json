@@ -1,0 +1,168 @@
+{
+  "date": "2026-01-30",
+  "generated_at": "2026-01-30T04:30:32Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Stark gebundene Elektronen (tight-binding)",
+      "question": "Which of the following concepts best describes the energy band structure in a solid in the tight-binding model?",
+      "choices": [
+        "A: The energy levels are only accessible through thermal excitations.",
+        "B: The energy levels are solely determined by the crystal structure.",
+        "C: The energy levels are discrete and result from the overlap of atomic orbitals.",
+        "D: The energy levels are continuously and evenly distributed."
+      ],
+      "correct_answer": "C",
+      "explanation": "In the tight-binding model, the energy band structures arise from the overlap of atomic orbitals of neighboring atoms, leading to discrete energy levels. This model is crucial for understanding the electrical and optical properties of materials, especially semiconductors and metals.",
+      "difficulty": 8,
+      "subcategory": "Stark gebundene Elektronen (tight-binding)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Relativistischer Impuls, Energie und Kraft",
+      "question": "What happens to the relativistic momentum of an object as its velocity approaches the speed of light?",
+      "choices": [
+        "A: It increases infinitely.",
+        "B: It increases linearly.",
+        "C: It remains constant.",
+        "D: It decreases."
+      ],
+      "correct_answer": "A",
+      "explanation": "The relativistic momentum of an object increases as its velocity approaches the speed of light. This leads to the momentum theoretically becoming infinite when the speed of light is reached, which represents a fundamental limit within the theory of relativity.",
+      "difficulty": 2,
+      "subcategory": "Relativistischer Impuls, Energie und Kraft"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Wellenausbreitung in Leitern",
+      "question": "Which of the following statements best describes wave propagation in an ideal conductor?",
+      "choices": [
+        "A: The waves are completely reflected and not transmitted when passing through the conductor.",
+        "B: The waves continuously lose energy during propagation due to Joule heating.",
+        "C: The waves propagate more strongly with increasing frequency.",
+        "D: The waves propagate without damping and with constant phase velocity."
+      ],
+      "correct_answer": "D",
+      "explanation": "In an ideal conductor, electromagnetic waves propagate without damping, meaning that energy is not lost and the phase velocity remains constant. This is a fundamental concept in electrodynamics, important in the context of high-frequency applications.",
+      "difficulty": 8,
+      "subcategory": "Wellenausbreitung in Leitern"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "d’Alembert’sches Prinzip",
+      "question": "Which of the following statements correctly describes d'Alembert's principle?",
+      "choices": [
+        "A: It is a principle for the conservation of energy in a closed system.",
+        "B: It explains the motion of objects under the influence of magnetic fields.",
+        "C: It describes the relationship between velocity and acceleration.",
+        "D: It states that the sum of the virtual works of all forces is zero."
+      ],
+      "correct_answer": "D",
+      "explanation": "d'Alembert's principle is a fundamental concept in analytical mechanics, stating that the sum of the virtual works of all forces acting on a system is zero when considering the accelerations of the particles. It connects statics and dynamics and is useful for analyzing complex systems.",
+      "difficulty": 6,
+      "subcategory": "d’Alembert’sches Prinzip"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Übergang zur Wellenmechanik (klassisch → QM)",
+      "question": "Which concept describes the transition from classical particles to quantum mechanical waves within the framework of analytical mechanics?",
+      "choices": [
+        "A: De Broglie waves",
+        "B: Relativistic mass",
+        "C: Entropy",
+        "D: Newton's laws"
+      ],
+      "correct_answer": "A",
+      "explanation": "De Broglie waves describe how particles can possess properties of both particles and waves. This transition is fundamental for understanding quantum mechanics and shows the connection between classical mechanics and wave mechanics.",
+      "difficulty": 7,
+      "subcategory": "Übergang zur Wellenmechanik (klassisch → QM)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Streuung an Kristallen",
+      "question": "What describes the diffraction of X-rays on a crystal?",
+      "choices": [
+        "A: The speed of light in a vacuum.",
+        "B: The temperature dependence of solids.",
+        "C: The regular arrangement of atoms in the crystal.",
+        "D: The motion of electrons in metals."
+      ],
+      "correct_answer": "C",
+      "explanation": "The diffraction of X-rays on a crystal occurs because the waves are scattered by the regularly arranged atoms. This allows for the analysis of the crystal structure and atomic arrangement in the solid.",
+      "difficulty": 3,
+      "subcategory": "Streuung an Kristallen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Symmetrien und Erhaltungssätze",
+      "question": "Which conservation law is of central importance in nuclear and particle physics?",
+      "choices": [
+        "A: Volume conservation",
+        "B: Temperature conservation",
+        "C: Energy conservation",
+        "D: Pressure conservation"
+      ],
+      "correct_answer": "C",
+      "explanation": "The conservation of energy is a fundamental principle in physics, stating that the total energy in a closed system remains constant. In nuclear and particle physics, energy conservation is crucial for analyzing particle interactions and decays.",
+      "difficulty": 4,
+      "subcategory": "Symmetrien und Erhaltungssätze"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Kritisches Magnetfeld & thermodynamische Größen",
+      "question": "What describes the critical magnetic field in superconductors?",
+      "choices": [
+        "A: It is the minimum temperature required to achieve superconductivity.",
+        "B: It is the temperature at which a material loses its superconducting ability.",
+        "C: It is the maximum magnetic field strength at which a material remains superconducting.",
+        "D: It is the energy needed to magnetize a superconducting material."
+      ],
+      "correct_answer": "C",
+      "explanation": "The critical magnetic field is the maximum magnetic field strength that a superconducting material can withstand before losing its superconducting properties. If the magnetic field exceeds this value, the material reverts to normal conductivity.",
+      "difficulty": 5,
+      "subcategory": "Kritisches Magnetfeld & thermodynamische Größen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Totalreflexion und evaneszente Wellen",
+      "question": "What is a requirement for total reflection of light at the interface between two media?",
+      "choices": [
+        "A: The light beam must have a wavelength of less than 400 nm.",
+        "B: The light beam must be polarized.",
+        "C: The light beam must fall from a denser to a rarer medium.",
+        "D: The light beam must strike the interface perpendicularly."
+      ],
+      "correct_answer": "C",
+      "explanation": "Total reflection occurs when light passes from a denser medium to a rarer medium and the angle of incidence is greater than the critical angle. Only in this case is the light completely reflected and cannot penetrate into the rarer medium.",
+      "difficulty": 6,
+      "subcategory": "Totalreflexion und evaneszente Wellen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Transformation der elektromagnetischen Felder",
+      "question": "Which statement about the transformation of electromagnetic fields between two reference frames is correct?",
+      "choices": [
+        "A: The electric and magnetic fields remain unchanged under Lorentz transformations.",
+        "B: The electric and magnetic fields change according to Lorentz transformations.",
+        "C: The transformation of electromagnetic fields is independent of the relative motion of the reference frames.",
+        "D: Only the electric fields change, while the magnetic fields remain constant."
+      ],
+      "correct_answer": "B",
+      "explanation": "In Lorentz transformations, both the electric and magnetic fields change when switching from one reference frame to another. This is a fundamental property of electromagnetic theory in relativity, showing that the fields vary relative to the observer's state of motion.",
+      "difficulty": 7,
+      "subcategory": "Transformation der elektromagnetischen Felder"
+    }
+  ]
+}

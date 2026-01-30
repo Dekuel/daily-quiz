@@ -1,0 +1,169 @@
+{
+  "date": "2026-01-30",
+  "generated_at": "2026-01-30T04:29:51Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Stark gebundene Elektronen (tight-binding)",
+      "question": "Welches der folgenden Konzepte beschreibt am besten die Energiebandstruktur in einem Festkörper im tight-binding-Modell?",
+      "choices": [
+        "A: Die Energielevels sind nur durch thermische Anregungen zugänglich.",
+        "B: Die Energielevels sind ausschließlich durch die Kristallstruktur bestimmt.",
+        "C: Die Energielevels sind diskret und resultieren aus der Überlappung von Atomorbitale.",
+        "D: Die Energielevels sind kontinuierlich und gleichmäßig verteilt."
+      ],
+      "correct_answer": "C",
+      "explanation": "Im tight-binding-Modell entstehen die Energiebandstrukturen durch die Überlappung der Atomorbitale benachbarter Atome, was zu diskreten Energielevels führt. Dieses Modell ist entscheidend für das Verständnis von elektrischen und optischen Eigenschaften von Materialien, insbesondere Halbleitern und Metallen.",
+      "difficulty": 8,
+      "subcategory": "Stark gebundene Elektronen (tight-binding)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Relativistischer Impuls, Energie und Kraft",
+      "question": "Was passiert mit dem relativistischen Impuls eines Körpers, wenn seine Geschwindigkeit sich der Lichtgeschwindigkeit nähert?",
+      "choices": [
+        "A: Er steigt unendlich an.",
+        "B: Er erhöht sich linear.",
+        "C: Er bleibt konstant.",
+        "D: Er sinkt ab."
+      ],
+      "correct_answer": "A",
+      "explanation": "Der relativistische Impuls eines Körpers nimmt zu, je näher seine Geschwindigkeit der Lichtgeschwindigkeit kommt. Dies führt dazu, dass der Impuls theoretisch unendlich wird, wenn die Lichtgeschwindigkeit erreicht wird, was im Rahmen der Relativitätstheorie eine fundamentale Grenze darstellt.",
+      "difficulty": 2,
+      "subcategory": "Relativistischer Impuls, Energie und Kraft"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Wellenausbreitung in Leitern",
+      "question": "Welche der folgenden Aussagen beschreibt am besten die Wellenausbreitung in einem idealen Leiter?",
+      "choices": [
+        "A: Die Wellen werden beim Durchgang durch den Leiter vollständig reflektiert und nicht übertragen.",
+        "B: Die Wellen verlieren bei der Ausbreitung kontinuierlich Energie aufgrund von Joulescher Erwärmung.",
+        "C: Die Wellen breiten sich mit zunehmender Frequenz stärker aus.",
+        "D: Die Wellen breiten sich ohne Dämpfung und mit konstanter Phasengeschwindigkeit aus."
+      ],
+      "correct_answer": "D",
+      "explanation": "In einem idealen Leiter breiten sich elektromagnetische Wellen ohne Dämpfung aus, was bedeutet, dass die Energie nicht verloren geht und die Phasengeschwindigkeit konstant bleibt. Dies ist ein fundamentales Konzept in der Elektrodynamik, das im Kontext von Hochfrequenzanwendungen von Bedeutung ist.",
+      "difficulty": 8,
+      "subcategory": "Wellenausbreitung in Leitern"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "d’Alembert’sches Prinzip",
+      "question": "Welches der folgenden Aussagen beschreibt das d’Alembert’sche Prinzip korrekt?",
+      "choices": [
+        "A: Es ist ein Prinzip zur Erhaltung der Energie in einem geschlossenen System.",
+        "B: Es erklärt die Bewegung von Objekten unter dem Einfluss von Magnetfeldern.",
+        "C: Es beschreibt die Beziehung zwischen Geschwindigkeit und Beschleunigung.",
+        "D: Es besagt, dass die Summe der virtuellen Arbeiten aller Kräfte gleich null ist."
+      ],
+      "correct_answer": "D",
+      "explanation": "Das d’Alembert’sche Prinzip ist ein fundamentales Konzept in der analytischen Mechanik, das besagt, dass die Summe der virtuellen Arbeiten aller Kräfte, die auf ein System wirken, gleich null ist, wenn man die Beschleunigungen der Teilchen berücksichtigt. Es verbindet die Statik und Dynamik und ist nützlich für die Analyse komplexer Systeme.",
+      "difficulty": 6,
+      "subcategory": "d’Alembert’sches Prinzip"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Übergang zur Wellenmechanik (klassisch → QM)",
+      "question": "Welches Konzept beschreibt den Übergang von klassischen Teilchen zu quantenmechanischen Wellen im Rahmen der analytischen Mechanik?",
+      "choices": [
+        "A: De Broglie-Wellen",
+        "B: Relativistische Masse",
+        "C: Entropie",
+        "D: Newtonsche Gesetze"
+      ],
+      "correct_answer": "A",
+      "explanation": "Die De Broglie-Wellen beschreiben, wie Teilchen sowohl Eigenschaften von Teilchen als auch von Wellen besitzen können. Dieser Übergang ist fundamental für das Verständnis der Quantenmechanik und zeigt, dass klassische Mechanik und Wellenmechanik miteinander verbunden sind.",
+      "difficulty": 7,
+      "subcategory": "Übergang zur Wellenmechanik (klassisch → QM)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Streuung an Kristallen",
+      "question": "Was beschreibt die Beugung von Röntgenstrahlen an einem Kristall?",
+      "choices": [
+        "A: Die Geschwindigkeit von Licht in einem Vakuum.",
+        "B: Die Temperaturabhängigkeit von Feststoffen.",
+        "C: Die regelmäßige Anordnung von Atomen im Kristall.",
+        "D: Die Bewegung von Elektronen in Metallen."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Beugung von Röntgenstrahlen an einem Kristall tritt auf, weil die Wellen an den regelmäßig angeordneten Atomen gestreut werden. Dies ermöglicht die Analyse der Kristallstruktur und der atomaren Anordnung im Festkörper.",
+      "difficulty": 3,
+      "subcategory": "Streuung an Kristallen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Symmetrien und Erhaltungssätze",
+      "question": "Welcher der folgenden Erhaltungssätze ist in der Kern- und Teilchenphysik von zentraler Bedeutung?",
+      "choices": [
+        "A: Volumenhaltung",
+        "B: Temperaturerhaltung",
+        "C: Energieerhaltung",
+        "D: Druckerhaltung"
+      ],
+      "correct_answer": "C",
+      "explanation": "Der Erhaltungssatz der Energie ist ein fundamentaler Grundsatz in der Physik, der besagt, dass die Gesamtenergie in einem geschlossenen System konstant bleibt. In der Kern- und Teilchenphysik ist die Energieerhaltung entscheidend für die Analyse von Teilchenwechselwirkungen und Zerfällen.",
+      "difficulty": 4,
+      "subcategory": "Symmetrien und Erhaltungssätze"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Kritisches Magnetfeld & thermodynamische Größen",
+      "question": "Was beschreibt das kritische Magnetfeld in Supraleitern?",
+      "choices": [
+        "A: Es ist die minimale Temperatur, die erforderlich ist, um Supraleitung zu erreichen.",
+        "B: Es ist die Temperatur, bei der ein Material seine Supraleitfähigkeit verliert.",
+        "C: Es ist die maximale Magnetfeldstärke, bei der ein Material supraleitend bleibt.",
+        "D: Es ist die Energie, die benötigt wird, um ein supraleitendes Material zu magnetisieren."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das kritische Magnetfeld ist die maximale Magnetfeldstärke, die ein supraleitendes Material ertragen kann, bevor es seine supraleitenden Eigenschaften verliert. Wenn das Magnetfeld diesen Wert überschreitet, wird das Material wieder normal leitend.",
+      "difficulty": 5,
+      "subcategory": "Kritisches Magnetfeld & thermodynamische Größen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Totalreflexion und evaneszente Wellen",
+      "question": "Was ist eine Voraussetzung für die Totalreflexion von Licht an der Grenzfläche zwischen zwei Medien?",
+      "choices": [
+        "A: Der Lichtstrahl muss eine Wellenlänge von weniger als 400 nm haben.",
+        "B: Der Lichtstrahl muss polarisiert sein.",
+        "C: Der Lichtstrahl muss von einem dichteren in ein dünneres Medium fallen.",
+        "D: Der Lichtstrahl muss senkrecht zur Grenzfläche auftreten."
+      ],
+      "correct_answer": "C",
+      "explanation": "Totalreflexion tritt auf, wenn Licht von einem dichteren Medium in ein dünneres Medium übergeht und der Einfallswinkel größer als der kritische Winkel ist. Nur in diesem Fall wird das Licht vollständig reflektiert und kann nicht in das dünnere Medium eindringen.",
+      "difficulty": 6,
+      "subcategory": "Totalreflexion und evaneszente Wellen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Transformation der elektromagnetischen Felder",
+      "question": "Welche Aussage über die Transformation der elektromagnetischen Felder zwischen zwei Bezugssystemen ist korrekt?",
+      "choices": [
+        "A: Die elektrischen und magnetischen Felder bleiben unter Lorentz-Transformationen unverändert.",
+        "B: Die elektrischen und magnetischen Felder verändern sich gemäß den Lorentz-Transformationen.",
+        "C: Die Transformation der elektromagnetischen Felder ist unabhängig von der Relativbewegung der Bezugssysteme.",
+        "D: Nur die elektrischen Felder verändern sich, während die magnetischen Felder konstant bleiben."
+      ],
+      "correct_answer": "B",
+      "explanation": "Bei der Lorentz-Transformation ändern sich sowohl die elektrischen als auch die magnetischen Felder, wenn man von einem Bezugssystem zu einem anderen wechselt. Dies ist eine fundamentale Eigenschaft der elektromagnetischen Theorie in der Relativitätstheorie, die zeigt, dass die Felder relativ zum Bewegungszustand des Beobachters variieren.",
+      "difficulty": 7,
+      "subcategory": "Transformation der elektromagnetischen Felder"
+    }
+  ]
+}
