@@ -1,0 +1,169 @@
+{
+  "date": "2026-01-31",
+  "generated_at": "2026-01-31T04:25:06Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Elektrostatische Feldenergie",
+      "question": "Was beschreibt die elektrostatische Feldenergie in einem elektrischen Feld?",
+      "choices": [
+        "A: Die Energie, die benötigt wird, um eine Ladung in das Feld zu bewegen.",
+        "B: Die Energie, die durch die Bewegung von elektrischen Ladungen erzeugt wird.",
+        "C: Die Energie, die in einem Magnetfeld gespeichert ist.",
+        "D: Die Energie, die zur Erzeugung eines elektrischen Feldes erforderlich ist."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die elektrostatische Feldenergie beschreibt die Arbeit, die erforderlich ist, um eine Testladung in ein elektrisches Feld zu bewegen. Diese Energie ist abhängig von der Stärke des Feldes und der Position der Ladung innerhalb des Feldes.",
+      "difficulty": 5,
+      "subcategory": "Elektrostatische Feldenergie"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Freies Elektronengas",
+      "question": "Was beschreibt das Modell des freien Elektronengases in der Festkörperphysik?",
+      "choices": [
+        "A: Elektronen bewegen sich frei und unabhängig in einem regelmäßigen Gitter von Atomkernen.",
+        "B: Elektronen sind fest an bestimmte Positionen in einem Atom gebunden.",
+        "C: Elektronen können nur an der Oberfläche eines Festkörpers existieren.",
+        "D: Elektronen sind in einem festen, starren Zustand ohne Bewegung."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Modell des freien Elektronengases beschreibt, dass Elektronen in einem Metallgitter sich frei und unabhängig bewegen können, was zu elektrischen und thermischen Eigenschaften führt. Dadurch können Metalle als gute Leiter fungieren, da die Elektronen nicht an feste Positionen gebunden sind.",
+      "difficulty": 5,
+      "subcategory": "Freies Elektronengas"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Ideales Gas (Zustandsgleichung)",
+      "question": "Welche der folgenden Gleichungen beschreibt das Verhalten eines idealen Gases?",
+      "choices": [
+        "A: W = Fd",
+        "B: F = ma",
+        "C: PV = nRT",
+        "D: E = mc²"
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Gleichung PV = nRT ist die Zustandsgleichung für ideale Gase, wobei P den Druck, V das Volumen, n die Stoffmenge, R die ideale Gaskonstante und T die Temperatur in Kelvin darstellt. Diese Beziehung beschreibt, wie Druck, Volumen und Temperatur eines idealen Gases zusammenhängen.",
+      "difficulty": 6,
+      "subcategory": "Ideales Gas (Zustandsgleichung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Kriterien für Kanonizität (Symplektizität)",
+      "question": "Welches Kriterium ist entscheidend, um zu bestimmen, ob ein Hamiltonsches System kanonisch ist?",
+      "choices": [
+        "A: Die Gleichungen des Systems sind linear.",
+        "B: Die Erhaltung der Gesamtenergie ist gegeben.",
+        "C: Die Symplektizität der Phasenraumstruktur ist erfüllt.",
+        "D: Das System zeigt eine periodische Bewegung."
+      ],
+      "correct_answer": "C",
+      "explanation": "Ein Hamiltonsches System ist genau dann kanonisch, wenn die Symplektizität der Strukturen im Phasenraum gewährleistet ist. Dies bedeutet, dass die Differentialformen des Systems die Hamiltonschen Gleichungen korrekt widerspiegeln und die Erhaltung der symplektischen Struktur eingehalten wird.",
+      "difficulty": 7,
+      "subcategory": "Kriterien für Kanonizität (Symplektizität)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Elektrischer Strom (Definition & Kontinuitätsgleichung)",
+      "question": "Was ist die Definition von elektrischem Strom?",
+      "choices": [
+        "A: Die Menge an elektrischem Widerstand in einem Stromkreis.",
+        "B: Die Spannung, die zwischen zwei Punkten in einem Stromkreis besteht.",
+        "C: Der Fluss von elektrischen Ladungen durch einen Leiter.",
+        "D: Die Fähigkeit eines Materials, elektrischen Strom zu speichern."
+      ],
+      "correct_answer": "C",
+      "explanation": "Elektrischer Strom ist definiert als der Fluss von elektrischen Ladungen, typischerweise Elektronen, durch einen Leiter. Diese Bewegung entsteht durch eine Spannung, die die Ladungen anzieht oder abstößt.",
+      "difficulty": 1,
+      "subcategory": "Elektrischer Strom (Definition & Kontinuitätsgleichung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Freie Materiewelle",
+      "question": "Was beschreibt die freie Materiewelle in der Quantenmechanik?",
+      "choices": [
+        "A: Die Strahlung von elektromagnetischen Wellen.",
+        "B: Die Bewegung von Teilchen ohne äußere Einflüsse.",
+        "C: Die Energie eines Teilchens in einem festen Zustand.",
+        "D: Die Wechselwirkung zwischen zwei Teilchen."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die freie Materiewelle beschreibt die Bewegung von Teilchen, die sich ohne äußere Einflüsse bewegen. In der Quantenmechanik wird diese Bewegung durch Wellenfunktionen beschrieben, die die Wahrscheinlichkeit des Aufenthalts eines Teilchens an einem bestimmten Ort angeben.",
+      "difficulty": 1,
+      "subcategory": "Freie Materiewelle"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Reibung: Gleitreibung",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt den Einfluss der Oberflächenrauhigkeit auf die Gleitreibung zwischen zwei festen Körpern?",
+      "choices": [
+        "A: Die Gleitreibung ist unabhängig von der Materialzusammensetzung der Oberflächen.",
+        "B: Eine höhere Oberflächenrauhigkeit führt immer zu einer höheren Gleitreibung.",
+        "C: Die Gleitreibung hängt nicht von der Oberflächenrauhigkeit ab, sondern nur von der Normalkraft.",
+        "D: Eine glatte Oberfläche führt zu einer höheren Gleitreibung als eine raue Oberfläche."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Oberflächenrauhigkeit beeinflusst die Kontaktfläche zwischen zwei Körpern, was den Gleitreibungskoeffizienten beeinflussen kann. Höhere Rauhigkeiten erhöhen typischerweise die Gleitreibung, da mehr Mikro-Kontakte zwischen den Oberflächen entstehen, die die Bewegung erschweren.",
+      "difficulty": 10,
+      "subcategory": "Reibung: Gleitreibung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Paritätsverletzung",
+      "question": "Was beschreibt das Phänomen der Paritätsverletzung in der Physik?",
+      "choices": [
+        "A: Die Symmetrie von physikalischen Prozessen bleibt unter Spiegelung nicht erhalten.",
+        "B: Die Symmetrie von physikalischen Prozessen bleibt unter der Temperaturänderung erhalten.",
+        "C: Die Symmetrie von physikalischen Prozessen bleibt unter der Drehung im Raum erhalten.",
+        "D: Die Symmetrie von physikalischen Prozessen bleibt unter der Zeitumkehrung erhalten."
+      ],
+      "correct_answer": "A",
+      "explanation": "Paritätsverletzung bedeutet, dass die physikalischen Gesetze nicht invariant sind, wenn man die räumlichen Koordinaten spiegelt. Dies wurde besonders in der schwachen Wechselwirkung beobachtet und zeigt, dass nicht alle physikalischen Prozesse symmetrisch sind.",
+      "difficulty": 4,
+      "subcategory": "Paritätsverletzung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Klassischer Grenzfall (z ≪ 1)",
+      "question": "Was beschreibt der klassische Grenzfall in der statistischen Mechanik?",
+      "choices": [
+        "A: Teilchen folgen den Gesetzen der Relativitätstheorie.",
+        "B: Alle Teilchen befinden sich im gleichen quantenmechanischen Zustand.",
+        "C: Die Temperatur ist konstant und die Teilchen befinden sich in einem Gleichgewichtszustand.",
+        "D: Teilchen sind unabhängig und die Wechselwirkungen sind vernachlässigbar."
+      ],
+      "correct_answer": "D",
+      "explanation": "Im klassischen Grenzfall (z ≪ 1) wird angenommen, dass Teilchen unabhängig sind und Wechselwirkungen zwischen ihnen vernachlässigbar sind. Dies ist eine grundlegende Annahme in der statistischen Mechanik, die die Beschreibung von Systemen erleichtert, bei denen die Wechselwirkungen schwach sind.",
+      "difficulty": 4,
+      "subcategory": "Klassischer Grenzfall (z ≪ 1)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Wellenpakete & Kugelwellen",
+      "question": "Was beschreibt ein Wellenpaket in der Elektrodynamik?",
+      "choices": [
+        "A: Eine Welle, die sich nur in einer Richtung ausbreitet.",
+        "B: Ein stehendes Wellenmuster ohne Bewegung.",
+        "C: Eine Überlagerung von mehreren Wellen mit unterschiedlichen Frequenzen.",
+        "D: Eine einzelne Welle mit konstanter Frequenz."
+      ],
+      "correct_answer": "C",
+      "explanation": "Ein Wellenpaket entsteht durch die Überlagerung mehrerer Wellen mit unterschiedlichen Frequenzen, was zu einer lokalisierten Ausbreitung führt. Dies ist wichtig für das Verständnis von Phänomenen wie der Licht- und Schallübertragung in der Elektrodynamik.",
+      "difficulty": 2,
+      "subcategory": "Wellenpakete & Kugelwellen"
+    }
+  ]
+}

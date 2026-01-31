@@ -798,6 +798,20 @@
       "correct_answer": "B",
       "explanation": "Entscheidungsbäume sind ein beliebtes Verfahren zur Klassifikation, da sie einfach zu interpretieren sind und sowohl für kategorische als auch für numerische Daten verwendet werden können. K-means Clustering hingegen wird für die Gruppierung von Daten verwendet, nicht für die Klassifikation. Neuronale Netze und Support Vector Machines sind ebenfalls Klassifikationsverfahren, aber weniger direkt mit dem Begriff 'Entscheidungsbaum' verwandt.",
       "difficulty": 8
+    },
+    {
+      "category": "Technologie",
+      "topic": "Computer & Internet",
+      "question": "Welches Protokoll wird häufig verwendet, um sichere Datenübertragungen im Internet zu gewährleisten?",
+      "choices": [
+        "A: SMTP",
+        "B: HTTPS",
+        "C: ICMP",
+        "D: FTP"
+      ],
+      "correct_answer": "B",
+      "explanation": "HTTPS (Hypertext Transfer Protocol Secure) ist die sichere Version von HTTP und wird verwendet, um Daten zwischen einem Webbrowser und einem Server verschlüsselt zu übertragen. Im Gegensatz dazu dienen FTP, SMTP und ICMP anderen Zwecken wie Dateiübertragungen, E-Mail-Versand und Netzwerkdiagnosen, jedoch nicht der sicheren Web-Datenübertragung.",
+      "difficulty": 9
     }
   ]
 }

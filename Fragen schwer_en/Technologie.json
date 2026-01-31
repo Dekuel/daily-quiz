@@ -798,6 +798,20 @@
       "correct_answer": "B",
       "explanation": "Decision trees are a popular method for classification as they are easy to interpret and can be used for both categorical and numerical data. K-means clustering, on the other hand, is used for data grouping, not classification. Neural networks and support vector machines are also classification methods but are less directly related to the term 'decision tree'.",
       "difficulty": 8
+    },
+    {
+      "category": "Technologie",
+      "topic": "Computer & Internet",
+      "question": "Which protocol is commonly used to ensure secure data transmissions over the internet?",
+      "choices": [
+        "A: SMTP",
+        "B: HTTPS",
+        "C: ICMP",
+        "D: FTP"
+      ],
+      "correct_answer": "B",
+      "explanation": "HTTPS (Hypertext Transfer Protocol Secure) is the secure version of HTTP used to encrypt data between a web browser and a server. In contrast, FTP, SMTP, and ICMP serve other purposes such as file transfers, email delivery, and network diagnostics, but not secure web data transmission.",
+      "difficulty": 9
     }
   ]
 }
