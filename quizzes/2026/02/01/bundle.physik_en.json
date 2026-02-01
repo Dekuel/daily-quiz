@@ -1,0 +1,168 @@
+{
+  "date": "2026-02-01",
+  "generated_at": "2026-02-01T05:00:23Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Orts- und Impulsdarstellung (Verknüpfung)",
+      "question": "Which statement correctly describes the relationship between position and momentum in quantum mechanics?",
+      "choices": [
+        "A: The position and momentum of a particle are complementary quantities subject to a Heisenberg Uncertainty Principle.",
+        "B: Position and momentum can be precisely determined simultaneously.",
+        "C: The momentum is always precisely known when the position is uncertain.",
+        "D: Position and momentum are independent of each other and do not influence each other."
+      ],
+      "correct_answer": "A",
+      "explanation": "In quantum mechanics, the Heisenberg Uncertainty Principle describes that position and momentum cannot be precisely determined simultaneously. This relationship is fundamental for understanding quantum mechanics and highlights the limits of our measurement technology.",
+      "difficulty": 3,
+      "subcategory": "Orts- und Impulsdarstellung (Verknüpfung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Der Regenbogen (Dispersion + Geometrie)",
+      "question": "What phenomenon leads to the formation of a rainbow?",
+      "choices": [
+        "A: Absorption of light by the atmosphere",
+        "B: Reflection of light by clouds",
+        "C: Refraction and dispersion of light in water droplets",
+        "D: Scattering of light by dust particles"
+      ],
+      "correct_answer": "C",
+      "explanation": "A rainbow is formed by the refraction and dispersion of sunlight as it enters water droplets. This process separates light into its various colors, resulting in the characteristic color spectrum that we perceive as a rainbow.",
+      "difficulty": 5,
+      "subcategory": "Der Regenbogen (Dispersion + Geometrie)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Operatoren in zweiter Quantisierung",
+      "question": "Which of the following statements about creation and annihilation operators in second quantization is correct?",
+      "choices": [
+        "A: The creation operators are Hermitian and the annihilation operators are anti-Hermitian.",
+        "B: The operators are independent of the choice of Hilbert space dimension.",
+        "C: Creation and annihilation operators always commute with each other.",
+        "D: The creation operator acts on a state to add another particle, while the annihilation operator removes a particle."
+      ],
+      "correct_answer": "D",
+      "explanation": "In second quantization, the creation operator describes how a particle is added to a state, while the annihilation operator removes a particle from a state. These properties are central to the quantum mechanical description of many particles and their interactions.",
+      "difficulty": 10,
+      "subcategory": "Operatoren in zweiter Quantisierung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Freies Teilchen (3D)",
+      "question": "Which of the following concepts describes the probability distribution of a free particle in three dimensions?",
+      "choices": [
+        "A: The Maxwell's equations describing electromagnetic fields.",
+        "B: The classical trajectory determined by Newton's laws.",
+        "C: The wave function determined by the Schrödinger equation.",
+        "D: The Heisenberg Uncertainty Principle describing measurement accuracy."
+      ],
+      "correct_answer": "C",
+      "explanation": "The wave function of a free particle in quantum mechanics is described by the Schrödinger equation and indicates the probability distribution of the particle in three dimensions. The other options refer to different concepts in physics that do not directly describe the probability distribution of a free particle.",
+      "difficulty": 8,
+      "subcategory": "Freies Teilchen (3D)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Erhaltungssätze in der Lagrange-Mechanik",
+      "question": "Which of the following statements describes the conservation of energy in a closed system?",
+      "choices": [
+        "A: The conservation of angular momentum",
+        "B: The conservation of momentum",
+        "C: Pascal's principle",
+        "D: The conservation of energy"
+      ],
+      "correct_answer": "D",
+      "explanation": "The law of conservation of energy states that the total energy in a closed system remains constant. This is a fundamental principle of physics and applies in both classical and Lagrangian mechanics.",
+      "difficulty": 2,
+      "subcategory": "Erhaltungssätze in der Lagrange-Mechanik"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Ordnungs–Unordnungs-Übergang",
+      "question": "What does the term 'order-disorder transition' in solid-state physics describe?",
+      "choices": [
+        "A: The transition of a solid into the liquid state.",
+        "B: The transition between ordered and disordered structures in a solid.",
+        "C: The process of crystallization from a solution.",
+        "D: The change in electrical conductivity with temperature changes."
+      ],
+      "correct_answer": "B",
+      "explanation": "The term 'order-disorder transition' refers to the transition between ordered (e.g. crystalline) and disordered (e.g. amorphous) structures in solids. These transitions are crucial for understanding materials and their properties.",
+      "difficulty": 4,
+      "subcategory": "Ordnungs–Unordnungs-Übergang"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Makroskopische Feldgrößen (D, E, P)",
+      "question": "Which of the following relationships correctly describes the relationship between the electric field E and the electric flux density D in an isotropic medium?",
+      "choices": [
+        "A: E = D/ε₀ + P",
+        "B: D = ε₀E + P",
+        "C: D = E/ε₀ - P",
+        "D: E = Dε₀ + P"
+      ],
+      "correct_answer": "B",
+      "explanation": "In an isotropic medium, the relationship D = εE + P represents the connection between the electric flux density D, the electric field E, and the polarization P. Here, ε is the permittivity of the medium, describing the influence of polarization on the flux density.",
+      "difficulty": 8,
+      "subcategory": "Makroskopische Feldgrößen (D, E, P)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Relativistische Theorie des Elektrons (Überblick)",
+      "question": "What does the relativistic theory of the electron primarily describe?",
+      "choices": [
+        "A: The structure of atoms and molecules.",
+        "B: The motion of electrons at relativistic speeds.",
+        "C: The interaction between electrons and photons.",
+        "D: The effects of gravitational fields on electrons."
+      ],
+      "correct_answer": "B",
+      "explanation": "The relativistic theory of the electron deals with the effects of special relativity on the motion of electrons, especially when they move at speeds close to the speed of light. This includes changes in energy and momentum that cannot be described by classical physics.",
+      "difficulty": 5,
+      "subcategory": "Relativistische Theorie des Elektrons (Überblick)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Hamilton’sche charakteristische Funktion S",
+      "question": "What does Hamilton's characteristic function S in analytical mechanics describe?",
+      "choices": [
+        "A: The energy of a system at any time.",
+        "B: The mass of a body.",
+        "C: The maximum velocity of a particle.",
+        "D: The relationship between the coordinates and momenta of a system."
+      ],
+      "correct_answer": "D",
+      "explanation": "Hamilton's characteristic function S is a function that describes the relationship between positions and momenta in a physical system. It plays a central role in formulating Hamiltonian mechanics and enables the derivation of the system's equations of motion.",
+      "difficulty": 4,
+      "subcategory": "Hamilton’sche charakteristische Funktion S"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Elektroschwache Vereinheitlichung (SU(2)×U(1))",
+      "question": "Which of the following statements correctly describes the role of the Weinberg-Salam model in electroweak unification?",
+      "choices": [
+        "A: It describes the interactions between electrons and neutrinos as exchanges of gluons.",
+        "B: It postulates that the strong interaction can be described in the same framework as the electromagnetic interaction.",
+        "C: It unifies the electromagnetic and weak interactions by introducing gauge bosons.",
+        "D: It explains the mass of quarks solely through Higgs mechanisms without reference to gauge symmetries."
+      ],
+      "correct_answer": "C",
+      "explanation": "The Weinberg-Salam model is crucial for electroweak unification as it shows how electromagnetic and weak interactions are connected by introducing gauge bosons, such as W and Z bosons. This leads to a unified understanding of the two forces at a fundamental level.",
+      "difficulty": 7,
+      "subcategory": "Elektroschwache Vereinheitlichung (SU(2)×U(1))"
+    }
+  ]
+}

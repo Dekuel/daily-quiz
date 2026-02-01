@@ -1,0 +1,169 @@
+{
+  "date": "2026-02-01",
+  "generated_at": "2026-02-01T04:59:27Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Orts- und Impulsdarstellung (Verknüpfung)",
+      "question": "Welche Aussage beschreibt korrekt die Beziehung zwischen Ort und Impuls in der Quantenmechanik?",
+      "choices": [
+        "A: Der Ort und der Impuls eines Teilchens sind komplementäre Größen, die einem Heisenbergschen Unschärferelation unterliegen.",
+        "B: Ort und Impuls können gleichzeitig beliebig genau bestimmt werden.",
+        "C: Der Impuls ist immer genau bekannt, wenn der Ort ungenau ist.",
+        "D: Ort und Impuls sind unabhängig von einander und beeinflussen sich nicht."
+      ],
+      "correct_answer": "A",
+      "explanation": "In der Quantenmechanik beschreibt die Heisenbergsche Unschärferelation, dass Ort und Impuls nicht gleichzeitig beliebig genau bestimmt werden können. Diese Beziehung ist fundamental für das Verständnis der Quantenmechanik und zeigt die Grenzen unserer Messtechnik auf.",
+      "difficulty": 3,
+      "subcategory": "Orts- und Impulsdarstellung (Verknüpfung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Der Regenbogen (Dispersion + Geometrie)",
+      "question": "Welches Phänomen führt zur Entstehung eines Regenbogens?",
+      "choices": [
+        "A: Absorption von Licht durch die Atmosphäre",
+        "B: Reflexion des Lichts an Wolken",
+        "C: Brechung und Dispersion des Lichts in Wassertropfen",
+        "D: Streuung des Lichts durch Staubpartikel"
+      ],
+      "correct_answer": "C",
+      "explanation": "Ein Regenbogen entsteht durch die Brechung und Dispersion des Sonnenlichts, wenn es in Wassertropfen eindringt. Dabei wird das Licht in seine verschiedenen Farben zerlegt, was zu dem charakteristischen Farbenspektrum führt, das wir als Regenbogen wahrnehmen.",
+      "difficulty": 5,
+      "subcategory": "Der Regenbogen (Dispersion + Geometrie)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Operatoren in zweiter Quantisierung",
+      "question": "Welche der folgenden Aussagen über die Erzeugungs- und Vernichtungsoperatoren in der zweiten Quantisierung ist korrekt?",
+      "choices": [
+        "A: Die Erzeugungsoperatoren sind hermitesch und die Vernichtungsoperatoren sind antihermites.",
+        "B: Die Operatoren sind unabhängig von der Wahl der Hilbertraum-Dimension.",
+        "C: Erzeugungs- und Vernichtungsoperatoren commutieren immer miteinander.",
+        "D: Der Erzeugungsoperator wirkt auf einen Zustand, um ein weiteres Teilchen hinzuzufügen, während der Vernichtungsoperator ein Teilchen entfernt."
+      ],
+      "correct_answer": "D",
+      "explanation": "In der zweiten Quantisierung beschreibt der Erzeugungsoperator, wie ein Teilchen zu einem Zustand hinzugefügt wird, während der Vernichtungsoperator ein Teilchen aus einem Zustand entfernt. Diese Eigenschaften sind zentral für die quantenmechanische Beschreibung von vielen Teilchen und deren Wechselwirkungen.",
+      "difficulty": 10,
+      "subcategory": "Operatoren in zweiter Quantisierung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Freies Teilchen (3D)",
+      "question": "Welches der folgenden Konzepte beschreibt die Wahrscheinlichkeitsverteilung eines freien Teilchens in drei Dimensionen?",
+      "choices": [
+        "A: Die Maxwell-Gleichungen, die elektromagnetische Felder beschreiben.",
+        "B: Die klassische Trajektorie, die durch Newtonsche Gesetze festgelegt wird.",
+        "C: Die Wellenfunktion, die durch die Schrödinger-Gleichung bestimmt wird.",
+        "D: Die Heisenberg'sche Unschärferelation, die die Messgenauigkeit beschreibt."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Wellenfunktion eines freien Teilchens in der Quantenmechanik wird durch die Schrödinger-Gleichung beschrieben und gibt die Wahrscheinlichkeitsverteilung des Teilchens in den drei Dimensionen an. Die anderen Optionen beziehen sich auf unterschiedliche Konzepte in der Physik, die nicht direkt die Wahrscheinlichkeitsverteilung eines freien Teilchens beschreiben.",
+      "difficulty": 8,
+      "subcategory": "Freies Teilchen (3D)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Erhaltungssätze in der Lagrange-Mechanik",
+      "question": "Welcher der folgenden Sätze beschreibt die Erhaltung der Energie in einem geschlossenen System?",
+      "choices": [
+        "A: Der Drehimpulserhaltungssatz",
+        "B: Der Impulserhaltungssatz",
+        "C: Der Satz von Pascal",
+        "D: Der Energieerhaltungssatz"
+      ],
+      "correct_answer": "D",
+      "explanation": "Der Energieerhaltungssatz besagt, dass die Gesamtenergie in einem geschlossenen System konstant bleibt. Dies ist ein grundlegendes Prinzip der Physik und gilt sowohl in der klassischen als auch in der Lagrange-Mechanik.",
+      "difficulty": 2,
+      "subcategory": "Erhaltungssätze in der Lagrange-Mechanik"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Ordnungs–Unordnungs-Übergang",
+      "question": "Was beschreibt der Begriff 'Ordnungs- und Unordnungsübergang' in der Festkörperphysik?",
+      "choices": [
+        "A: Den Übergang eines Festkörpers in den flüssigen Zustand.",
+        "B: Den Wechsel zwischen geordneten und ungeordneten Strukturen in einem Festkörper.",
+        "C: Den Prozess der Kristallisation aus einer Lösung.",
+        "D: Die Änderung der elektrischen Leitfähigkeit bei Temperaturänderungen."
+      ],
+      "correct_answer": "B",
+      "explanation": "Der Begriff 'Ordnungs- und Unordnungsübergang' bezieht sich auf den Wechsel zwischen geordneten (z.B. kristallinen) und ungeordneten (z.B. amorphen) Strukturen in Festkörpern. Diese Übergänge sind entscheidend für das Verständnis von Materialien und deren Eigenschaften.",
+      "difficulty": 4,
+      "subcategory": "Ordnungs–Unordnungs-Übergang"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Makroskopische Feldgrößen (D, E, P)",
+      "question": "Welcher der folgenden Zusammenhänge beschreibt korrekt die Beziehung zwischen dem elektrischen Feld E und der elektrischen Flussdichte D in einem isotropen Medium?",
+      "choices": [
+        "A: E = D/ε₀ + P",
+        "B: D = ε₀E + P",
+        "C: D = E/ε₀ - P",
+        "D: E = Dε₀ + P"
+      ],
+      "correct_answer": "B",
+      "explanation": "In einem isotropen Medium stellt die Beziehung D = εE + P den Zusammenhang zwischen der elektrischen Flussdichte D, dem elektrischen Feld E und der Polarisation P dar. Hierbei ist ε die Permittivität des Mediums, die den Einfluss der Polarisation auf die Flussdichte beschreibt.",
+      "difficulty": 8,
+      "subcategory": "Makroskopische Feldgrößen (D, E, P)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Relativistische Theorie des Elektrons (Überblick)",
+      "question": "Was beschreibt die relativistische Theorie des Elektrons hauptsächlich?",
+      "choices": [
+        "A: Die Struktur von Atomen und Molekülen.",
+        "B: Die Bewegung von Elektronen bei relativistischen Geschwindigkeiten.",
+        "C: Die Wechselwirkung zwischen Elektronen und Photonen.",
+        "D: Die Effekte von Gravitationsfeldern auf Elektronen."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die relativistische Theorie des Elektrons behandelt die Auswirkungen der speziellen Relativitätstheorie auf die Bewegung von Elektronen, insbesondere wenn sie sich mit Geschwindigkeiten nahe der Lichtgeschwindigkeit bewegen. Dies umfasst Veränderungen in Energie und Impuls, die nicht durch die klassische Physik beschrieben werden können.",
+      "difficulty": 5,
+      "subcategory": "Relativistische Theorie des Elektrons (Überblick)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Hamilton’sche charakteristische Funktion S",
+      "question": "Was beschreibt die Hamilton’sche charakteristische Funktion S in der analytischen Mechanik?",
+      "choices": [
+        "A: Die Energie eines Systems zu jedem Zeitpunkt.",
+        "B: Die Größe der Masse eines Körpers.",
+        "C: Die maximale Geschwindigkeit eines Teilchens.",
+        "D: Den Zusammenhang zwischen den Koordinaten und den Impulsen eines Systems."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Hamilton’sche charakteristische Funktion S ist eine Funktion, die die Beziehung zwischen Positionen und Impulsen in einem physikalischen System beschreibt. Sie spielt eine zentrale Rolle in der Formulierung der Hamiltonschen Mechanik und ermöglicht die Ableitung der Bewegungsgleichungen des Systems.",
+      "difficulty": 4,
+      "subcategory": "Hamilton’sche charakteristische Funktion S"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Elektroschwache Vereinheitlichung (SU(2)×U(1))",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt die Rolle des Weinberg-Salam-Modells in der elektroschwachen Vereinheitlichung?",
+      "choices": [
+        "A: Es beschreibt die Wechselwirkungen zwischen Elektronen und Neutrinos als Austausch von Gluonen.",
+        "B: Es postuliert, dass die starke Wechselwirkung im selben Rahmen wie die elektromagnetische Wechselwirkung beschrieben werden kann.",
+        "C: Es vereinheitlicht die elektromagnetische und die schwache Wechselwirkung durch die Einführung von Eichbosonen.",
+        "D: Es erklärt die Masse der Quarks ausschließlich durch Higgs-Mechanismen ohne Bezug zu Eichsymmetrien."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Weinberg-Salam-Modell ist entscheidend für die elektroschwache Vereinheitlichung, da es zeigt, wie elektromagnetische und schwache Wechselwirkungen durch die Einführung von Eichbosonen, wie W- und Z-Bosonen, verbunden werden. Dies führt zu einem einheitlichen Verständnis der beiden Kräfte auf einer fundamentalen Ebene.",
+      "difficulty": 7,
+      "subcategory": "Elektroschwache Vereinheitlichung (SU(2)×U(1))"
+    }
+  ]
+}
