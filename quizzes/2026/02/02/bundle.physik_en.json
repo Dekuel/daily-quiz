@@ -1,0 +1,168 @@
+{
+  "date": "2026-02-02",
+  "generated_at": "2026-02-02T04:56:21Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Verallgemeinerte Potentiale",
+      "question": "What is referred to as generalized potential in analytical mechanics?",
+      "choices": [
+        "A: A function describing the energy of a system.",
+        "B: A parameter indicating the velocity of an object.",
+        "C: A mass moving under the influence of gravity.",
+        "D: A force acting on an object."
+      ],
+      "correct_answer": "A",
+      "explanation": "In analytical mechanics, the generalized potential describes the energy of a system that can be used in different coordinate systems. It is a central concept for analyzing the motion of particles under the influence of forces.",
+      "difficulty": 1,
+      "subcategory": "Verallgemeinerte Potentiale"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Gebundene vs. Kontinuumszustände (radial)",
+      "question": "Which statement best describes a bound state in quantum mechanics?",
+      "choices": [
+        "A: The particle is freely movable with no restrictions.",
+        "B: The particle's energy is greater than the potential energy at infinity.",
+        "C: The particle has indefinite energy and position.",
+        "D: The particle's energy is less than the potential energy at infinity."
+      ],
+      "correct_answer": "D",
+      "explanation": "A bound state occurs when the energy of a particle is lower than the potential energy at infinite distance. This means the particle is trapped in a potential well and cannot travel infinitely far.",
+      "difficulty": 6,
+      "subcategory": "Gebundene vs. Kontinuumszustände (radial)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Fresnel vs. Fraunhofer (Übergangsbedingungen)",
+      "question": "What describes the difference between Fresnel and Fraunhofer diffraction?",
+      "choices": [
+        "A: The wavefronts and their curvature.",
+        "B: The type of light source used.",
+        "C: The geometric arrangement of the light source and the screen.",
+        "D: The influence of wavelength on diffraction."
+      ],
+      "correct_answer": "C",
+      "explanation": "Fresnel diffraction occurs near the light source where the wavefronts are curved, while Fraunhofer diffraction occurs at large distances where the wavefronts can be considered as parallel. The difference lies in the geometric arrangement of the light source and the screen.",
+      "difficulty": 2,
+      "subcategory": "Fresnel vs. Fraunhofer (Übergangsbedingungen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Dampfdruckkurve & Clausius–Clapeyron-Gleichung",
+      "question": "What does the Clausius–Clapeyron equation describe?",
+      "choices": [
+        "A: The gravitational force between two masses.",
+        "B: The velocity of an object in a vacuum.",
+        "C: The relationship between pressure and temperature of a phase transition.",
+        "D: The conservation of energy in a closed system."
+      ],
+      "correct_answer": "C",
+      "explanation": "The Clausius–Clapeyron equation describes the relationship between pressure and temperature when a substance transitions between two phases, such as from liquid to gas. This relationship is crucial for understanding vapor pressure curves in thermodynamics.",
+      "difficulty": 1,
+      "subcategory": "Dampfdruckkurve & Clausius–Clapeyron-Gleichung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Lorentz-Kraft in Vierervektorform",
+      "question": "What does the Lorentz force in four-vector form describe?",
+      "choices": [
+        "A: The conservation of energy in closed systems.",
+        "B: The interaction between electric charges and magnetic fields.",
+        "C: The gravitational force between two masses.",
+        "D: The relationship between time and space in special relativity theory."
+      ],
+      "correct_answer": "B",
+      "explanation": "The Lorentz force describes the force acting on an electric charge when it moves in an electromagnetic field. It is represented in four-vector form to account for relativistic effects in electrodynamics.",
+      "difficulty": 3,
+      "subcategory": "Lorentz-Kraft in Vierervektorform"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Drehschwingungen um eine feste Achse",
+      "question": "Which of the following statements correctly describes the condition for the equilibrium of a body swinging about a fixed axis?",
+      "choices": [
+        "A: The sum of torques about the axis must be zero.",
+        "B: The body must move with constant angular velocity.",
+        "C: The body's center of mass must lie above the axis of rotation.",
+        "D: The sum of forces in the vertical direction must be zero."
+      ],
+      "correct_answer": "A",
+      "explanation": "For the equilibrium of a body swinging about a fixed axis, the sum of the torques about that axis must be zero. This ensures that no net rotating forces act on the body, which is crucial for static equilibrium.",
+      "difficulty": 9,
+      "subcategory": "Drehschwingungen um eine feste Achse"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Mittlere kinetische Energie & Temperatur",
+      "question": "What describes the average kinetic energy of particles in a gas at constant volume?",
+      "choices": [
+        "A: The gas pressure",
+        "B: The gas temperature",
+        "C: The gas density",
+        "D: The chemical composition of the gas"
+      ],
+      "correct_answer": "B",
+      "explanation": "The average kinetic energy of particles in a gas is directly proportional to the gas temperature. A higher temperature means the particles, on average, possess more kinetic energy.",
+      "difficulty": 4,
+      "subcategory": "Mittlere kinetische Energie & Temperatur"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Großkanonisches Ensemble: Dichtematrix & Potential",
+      "question": "Which quantity in the grand canonical ensemble describes the probability of finding a system in a specific state?",
+      "choices": [
+        "A: Density matrix",
+        "B: Entropy",
+        "C: Temperature",
+        "D: Energy"
+      ],
+      "correct_answer": "A",
+      "explanation": "The density matrix is a central component of the grand canonical ensemble and describes the probability of the system being in a specific microscopic state. It provides information about the occupation probabilities of the system's different energy states.",
+      "difficulty": 5,
+      "subcategory": "Großkanonisches Ensemble: Dichtematrix & Potential"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Zeitlich oszillierende Quellen",
+      "question": "What is a time-oscillating source in electrodynamics?",
+      "choices": [
+        "A: A source that can only exist in a vacuum.",
+        "B: A source that generates only static electric fields.",
+        "C: A source that periodically changes in strength or frequency.",
+        "D: An electric source in a constant state."
+      ],
+      "correct_answer": "C",
+      "explanation": "A time-oscillating source is a source that periodically changes its strength or frequency, leading to alternating electric and magnetic fields. These sources are fundamental for generating electromagnetic waves.",
+      "difficulty": 3,
+      "subcategory": "Zeitlich oszillierende Quellen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Tripelpunkt & Konvexität/ Konkavität freier Energien",
+      "question": "Which of the following statements correctly describes the conditions at the triple point of a substance regarding free energy?",
+      "choices": [
+        "A: At the triple point, the phases are no longer stable, and the free energy is constant.",
+        "B: The free energy is minimal at this point, and the phases are in equilibrium.",
+        "C: The free energy shows a convex curve at this point.",
+        "D: The free energy is maximal at this point, and the phases are out of equilibrium."
+      ],
+      "correct_answer": "B",
+      "explanation": "At the triple point, the chemical potentials of the phases are equal, meaning the free energy is minimal and all phases can exist in thermodynamic equilibrium. This condition is crucial for the stability of phase transitions in a substance.",
+      "difficulty": 9,
+      "subcategory": "Tripelpunkt & Konvexität/ Konkavität freier Energien"
+    }
+  ]
+}

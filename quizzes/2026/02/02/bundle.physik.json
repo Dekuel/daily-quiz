@@ -1,0 +1,169 @@
+{
+  "date": "2026-02-02",
+  "generated_at": "2026-02-02T04:55:48Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Verallgemeinerte Potentiale",
+      "question": "Was wird in der analytischen Mechanik als verallgemeinertes Potential bezeichnet?",
+      "choices": [
+        "A: Eine Funktion, die die Energie eines Systems beschreibt.",
+        "B: Ein Parameter, der die Geschwindigkeit eines Objekts angibt.",
+        "C: Eine Masse, die sich unter dem Einfluss der Gravitation bewegt.",
+        "D: Eine Kraft, die auf ein Objekt wirkt."
+      ],
+      "correct_answer": "A",
+      "explanation": "In der analytischen Mechanik beschreibt das verallgemeinerte Potential die Energie eines Systems, die in verschiedenen Koordinatensystemen verwendet werden kann. Es ist ein zentrales Konzept, um die Bewegung von Teilchen unter dem Einfluss von Kräften zu analysieren.",
+      "difficulty": 1,
+      "subcategory": "Verallgemeinerte Potentiale"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Gebundene vs. Kontinuumszustände (radial)",
+      "question": "Welche Aussage beschreibt einen gebundenen Zustand in der Quantenmechanik am besten?",
+      "choices": [
+        "A: Der Teilchen ist frei beweglich und hat keine Einschränkungen.",
+        "B: Der Teilchenenergie ist größer als die potentielle Energie im Unendlichen.",
+        "C: Der Teilchen hat eine unbestimmte Energie und Position.",
+        "D: Der Teilchenenergie ist kleiner als die potentielle Energie im Unendlichen."
+      ],
+      "correct_answer": "D",
+      "explanation": "Ein gebundener Zustand liegt vor, wenn die Energie eines Teilchens kleiner ist als die potentielle Energie an unendlicher Entfernung. Dies bedeutet, dass das Teilchen im Potenzialtopf gefangen ist und nicht unendlich weit reisen kann.",
+      "difficulty": 6,
+      "subcategory": "Gebundene vs. Kontinuumszustände (radial)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Fresnel vs. Fraunhofer (Übergangsbedingungen)",
+      "question": "Was beschreibt der Unterschied zwischen Fresnel- und Fraunhofer-Beugung?",
+      "choices": [
+        "A: Die Wellenfronten und deren Krümmung.",
+        "B: Die Art der Lichtquelle, die verwendet wird.",
+        "C: Die geometrische Anordnung der Lichtquelle und des Schirms.",
+        "D: Den Einfluss der Wellenlänge auf die Beugung."
+      ],
+      "correct_answer": "C",
+      "explanation": "Fresnel-Beugung tritt nahe der Lichtquelle auf, wo die Wellenfronten gekrümmt sind, während die Fraunhofer-Beugung bei großen Entfernungen auftritt, wo die Wellenfronten als parallel betrachtet werden können. Der Unterschied liegt also in der geometrischen Anordnung der Lichtquelle und des Schirms.",
+      "difficulty": 2,
+      "subcategory": "Fresnel vs. Fraunhofer (Übergangsbedingungen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Dampfdruckkurve & Clausius–Clapeyron-Gleichung",
+      "question": "Was beschreibt die Clausius–Clapeyron-Gleichung?",
+      "choices": [
+        "A: Die Gravitationskraft zwischen zwei Massen.",
+        "B: Die Geschwindigkeit eines Objekts in einem Vakuum.",
+        "C: Den Zusammenhang zwischen Druck und Temperatur eines Phasenübergangs.",
+        "D: Die Energieerhaltung in einem geschlossenen System."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Clausius–Clapeyron-Gleichung beschreibt den Zusammenhang zwischen Druck und Temperatur, wenn ein Stoff zwischen zwei Phasen wechselt, wie z.B. von flüssig zu gasförmig. Diese Beziehung ist entscheidend für das Verständnis von Dampfdruckkurven in der Thermodynamik.",
+      "difficulty": 1,
+      "subcategory": "Dampfdruckkurve & Clausius–Clapeyron-Gleichung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Lorentz-Kraft in Vierervektorform",
+      "question": "Was beschreibt die Lorentz-Kraft in Vierervektorform?",
+      "choices": [
+        "A: Die Energieerhaltung in geschlossenen Systemen.",
+        "B: Die Wechselwirkung zwischen elektrischen Ladungen und magnetischen Feldern.",
+        "C: Die Gravitationskraft zwischen zwei Massen.",
+        "D: Die Beziehung zwischen Zeit und Raum in der speziellen Relativitätstheorie."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Lorentz-Kraft beschreibt die Kraft, die auf eine elektrische Ladung wirkt, wenn sie sich in einem elektromagnetischen Feld bewegt. Sie wird in der Vierervektorform dargestellt, um die Relativitätseffekte in der Elektrodynamik zu berücksichtigen.",
+      "difficulty": 3,
+      "subcategory": "Lorentz-Kraft in Vierervektorform"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Drehschwingungen um eine feste Achse",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt die Bedingung für das Gleichgewicht eines Körpers, der um eine feste Achse schwingt?",
+      "choices": [
+        "A: Die Summe der Drehmomente um die Achse muss gleich null sein.",
+        "B: Der Körper muss sich mit konstanter Winkelgeschwindigkeit bewegen.",
+        "C: Der Schwerpunkt des Körpers muss über der Drehachse liegen.",
+        "D: Die Summe der Kräfte in vertikaler Richtung muss gleich null sein."
+      ],
+      "correct_answer": "A",
+      "explanation": "Für das Gleichgewicht eines Körpers, der um eine feste Achse schwingt, muss die Summe der Drehmomente um diese Achse gleich null sein. Dies stellt sicher, dass keine netto drehenden Kräfte auf den Körper wirken, was für statisches Gleichgewicht entscheidend ist.",
+      "difficulty": 9,
+      "subcategory": "Drehschwingungen um eine feste Achse"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Mittlere kinetische Energie & Temperatur",
+      "question": "Was beschreibt die mittlere kinetische Energie der Teilchen in einem Gas bei konstantem Volumen?",
+      "choices": [
+        "A: Den Druck des Gases",
+        "B: Die Temperatur des Gases",
+        "C: Die Dichte des Gases",
+        "D: Die chemische Zusammensetzung des Gases"
+      ],
+      "correct_answer": "B",
+      "explanation": "Die mittlere kinetische Energie der Teilchen in einem Gas ist direkt proportional zur Temperatur des Gases. Eine höhere Temperatur bedeutet, dass die Teilchen im Durchschnitt mehr kinetische Energie besitzen.",
+      "difficulty": 4,
+      "subcategory": "Mittlere kinetische Energie & Temperatur"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Großkanonisches Ensemble: Dichtematrix & Potential",
+      "question": "Welche Größe beschreibt im großkanonischen Ensemble die Wahrscheinlichkeit, ein System in einem bestimmten Zustand zu finden?",
+      "choices": [
+        "A: Dichtematrix",
+        "B: Entropie",
+        "C: Temperatur",
+        "D: Energie"
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Dichtematrix ist ein zentraler Bestandteil des großkanonischen Ensembles und beschreibt die Wahrscheinlichkeit, dass das System in einem bestimmten mikroskopischen Zustand ist. Sie enthält Informationen über die Besetzungswahrscheinlichkeiten der verschiedenen Energiezustände des Systems.",
+      "difficulty": 5,
+      "subcategory": "Großkanonisches Ensemble: Dichtematrix & Potential"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Zeitlich oszillierende Quellen",
+      "question": "Was ist eine zeitlich oszillierende Quelle in der Elektrodynamik?",
+      "choices": [
+        "A: Eine Quelle, die nur in einem Vakuum existieren kann.",
+        "B: Eine Quelle, die nur statische elektrische Felder erzeugt.",
+        "C: Eine Quelle, die sich periodisch in ihrer Stärke oder Frequenz ändert.",
+        "D: Eine elektrische Quelle, die sich in einem konstanten Zustand befindet."
+      ],
+      "correct_answer": "C",
+      "explanation": "Eine zeitlich oszillierende Quelle ist eine Quelle, die ihre Stärke oder Frequenz periodisch ändert, was zu wechselnden elektrischen und magnetischen Feldern führt. Diese Quellen sind grundlegend für die Erzeugung von elektromagnetischen Wellen.",
+      "difficulty": 3,
+      "subcategory": "Zeitlich oszillierende Quellen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Tripelpunkt & Konvexität/ Konkavität freier Energien",
+      "question": "Welches der folgenden Aussagen beschreibt korrekt die Bedingungen am Tripelpunkt eines Stoffes bezüglich der freien Energie?",
+      "choices": [
+        "A: Am Tripelpunkt sind die Phasen nicht mehr stabil und die freie Energie ist konstant.",
+        "B: Die freie Energie ist an diesem Punkt minimal und die Phasen sind im Gleichgewicht.",
+        "C: Die freie Energie zeigt an diesem Punkt eine konvexe Kurve.",
+        "D: Die freie Energie ist an diesem Punkt maximal und die Phasen sind im Ungleichgewicht."
+      ],
+      "correct_answer": "B",
+      "explanation": "Am Tripelpunkt sind die chemischen Potenziale der Phasen gleich, was bedeutet, dass die freie Energie minimal ist und alle Phasen im thermodynamischen Gleichgewicht existieren können. Diese Bedingung ist entscheidend für die Stabilität der Phasenübergänge in einem Stoff.",
+      "difficulty": 9,
+      "subcategory": "Tripelpunkt & Konvexität/ Konkavität freier Energien"
+    }
+  ]
+}
