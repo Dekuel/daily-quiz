@@ -1,0 +1,169 @@
+{
+  "date": "2026-02-04",
+  "generated_at": "2026-02-04T04:28:15Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Eigenfunktionen der gebundenen Zustände (Laguerre)",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt die Laguerre-Polynome im Kontext der Quantenmechanik?",
+      "choices": [
+        "A: Sie sind die Eigenfunktionen des Hamilton-Operators in der klassischen Mechanik.",
+        "B: Sie beschreiben die Zeitentwicklung von quantenmechanischen Zuständen.",
+        "C: Sie sind nur für eindimensionale Potentiale anwendbar.",
+        "D: Sie sind Lösungen der radialen Schrödinger-Gleichung für das Wasserstoffatom."
+      ],
+      "correct_answer": "D",
+      "explanation": "Laguerre-Polynome sind die Eigenfunktionen der radialen Schrödinger-Gleichung für das Wasserstoffatom und spielen eine wichtige Rolle in der Beschreibung gebundener Zustände. Sie sind nicht auf eindimensionale Systeme beschränkt und haben keine Bedeutung in der klassischen Mechanik.",
+      "difficulty": 5,
+      "subcategory": "Eigenfunktionen der gebundenen Zustände (Laguerre)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Korrelationsfunktion & Suszeptibilität; Ornstein–Zernike",
+      "question": "Welche Aussage über die Ornstein-Zernike-Gleichung in der statistischen Mechanik ist korrekt?",
+      "choices": [
+        "A: Sie ist nur für nicht-ideale Gase anwendbar und ignoriert Wechselwirkungen.",
+        "B: Sie hat keine praktische Anwendung in der Festkörperphysik.",
+        "C: Sie beschreibt die Beziehung zwischen der Korrelationsfunktion und der Suszeptibilität in einem System im thermodynamischen Gleichgewicht.",
+        "D: Sie ist eine Gleichung, die nur in der Quantenmechanik verwendet wird."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Ornstein-Zernike-Gleichung ist fundamental für die Beschreibung der mikroskopischen Korrelationsfunktionen in thermodynamischen Systemen und verknüpft diese mit makroskopischen Eigenschaften wie der Suszeptibilität. Sie stellt somit eine wichtige Grundlage für das Verständnis von Phasenübergängen und kritischen Phänomenen dar.",
+      "difficulty": 8,
+      "subcategory": "Korrelationsfunktion & Suszeptibilität; Ornstein–Zernike"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Plattenkondensator",
+      "question": "Was bestimmt die Kapazität eines Plattenkondensators?",
+      "choices": [
+        "A: Die Temperatur des Kondensators",
+        "B: Die Spannung, die an den Platten anliegt",
+        "C: Die Fläche der Platten und der Abstand zwischen ihnen",
+        "D: Die Materialart der Platten"
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Kapazität eines Plattenkondensators wird durch die Fläche der Platten und den Abstand zwischen ihnen bestimmt. Ein größerer Abstand verringert die Kapazität, während eine größere Plattenfläche sie erhöht.",
+      "difficulty": 5,
+      "subcategory": "Plattenkondensator"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Zyklotronresonanz",
+      "question": "Was beschreibt der Begriff der Zyklotronresonanz in der Festkörperphysik?",
+      "choices": [
+        "A: Die thermische Ausdehnung von Materialien.",
+        "B: Die Bewegung von Teilchen in einem Vakuum.",
+        "C: Die Absorption von Licht durch Atome.",
+        "D: Die Wechselwirkung von Elektronen mit einem Magnetfeld."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Zyklotronresonanz beschreibt die Frequenz, bei der sich geladene Teilchen, wie Elektronen, in einem Magnetfeld bewegen und dabei Energie absorbieren oder emittieren können. Diese Resonanzphänomene sind wichtig für das Verständnis von Materialien in Festkörperphysik.",
+      "difficulty": 4,
+      "subcategory": "Zyklotronresonanz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Eigenfunktionen der gebundenen Zustände (Laguerre)",
+      "question": "Was beschreibt die Eigenfunktion eines gebundenen Zustands in der Quantenmechanik?",
+      "choices": [
+        "A: Die Masse eines Teilchens.",
+        "B: Die Wahrscheinlichkeit, ein Teilchen an einem bestimmten Ort zu finden.",
+        "C: Die Energie eines freien Teilchens im Raum.",
+        "D: Die Geschwindigkeit, mit der ein Teilchen bewegt wird."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Eigenfunktion eines gebundenen Zustands beschreibt die Wahrscheinlichkeit, ein Teilchen an einem bestimmten Ort zu finden. In der Quantenmechanik sind diese Funktionen entscheidend für das Verständnis von quantisierten Energieniveaus und der räumlichen Verteilung von Teilchen.",
+      "difficulty": 1,
+      "subcategory": "Eigenfunktionen der gebundenen Zustände (Laguerre)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Quark‑Antiquark‑Potential (Confinement)",
+      "question": "Was beschreibt das Quark-Antiquark-Potential im Kontext des Confinements?",
+      "choices": [
+        "A: Es beschreibt die Konstanz der Masse von Quarks unter extremen Bedingungen.",
+        "B: Es beschreibt die Wechselwirkungen zwischen Quarks und Gluonen bei niedrigen Energien.",
+        "C: Es beschreibt den Zerfall von Quarks in Leptonen.",
+        "D: Es beschreibt die Zunahme der Wechselwirkung mit steigender Entfernung zwischen den Quarks."
+      ],
+      "correct_answer": "D",
+      "explanation": "Das Quark-Antiquark-Potential zeigt, dass die Stärke der Wechselwirkung zwischen Quarks mit zunehmendem Abstand steigt, was zu dem Phänomen des Confinements führt. Quarks können daher nicht isoliert auftreten, sondern sind immer in gebundenen Zuständen zu finden, wie in Hadronen.",
+      "difficulty": 8,
+      "subcategory": "Quark‑Antiquark‑Potential (Confinement)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Der Regenbogen (Dispersion + Geometrie)",
+      "question": "Was verursacht die verschiedenen Farben im Regenbogen?",
+      "choices": [
+        "A: Die Temperaturunterschiede in der Atmosphäre.",
+        "B: Die Absorption bestimmter Lichtwellen durch die Luft.",
+        "C: Die Reflexion des Lichts an der Erdoberfläche.",
+        "D: Die unterschiedliche Brechung des Lichts in Wassertropfen."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die unterschiedlichen Farben im Regenbogen entstehen durch die Dispersion des Lichts, wenn es in Wassertropfen gebrochen wird. Jede Farbe wird dabei unterschiedlich stark gebrochen, was zu dem charakteristischen Spektrum führt.",
+      "difficulty": 5,
+      "subcategory": "Der Regenbogen (Dispersion + Geometrie)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Welle-Teilchen-Dualismus (Licht)",
+      "question": "Welches Experiment zeigt den Welle-Teilchen-Dualismus von Licht eindeutig?",
+      "choices": [
+        "A: Brechungsindexmessung",
+        "B: Newtonsche Ringe",
+        "C: Photoelektrischer Effekt",
+        "D: Doppelspaltexperiment"
+      ],
+      "correct_answer": "D",
+      "explanation": "Das Doppelspaltexperiment demonstriert, dass Licht sowohl als Welle als auch als Teilchen betrachtet werden kann. Wenn Licht durch zwei Spalte geschickt wird, erzeugt es Interferenzmuster, was auf seine wellenartige Natur hinweist. Gleichzeitig zeigt es in bestimmten Experimenten Teilcheneigenschaften, wenn Photonen als Einzelpartikel detektiert werden.",
+      "difficulty": 7,
+      "subcategory": "Welle-Teilchen-Dualismus (Licht)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Van-der-Waals-Kräfte",
+      "question": "Welche der folgenden Aussagen beschreibt am besten die Van-der-Waals-Kräfte?",
+      "choices": [
+        "A: Sie sind permanente Dipol-Dipol-Wechselwirkungen, die in polaren Molekülen auftreten.",
+        "B: Sie sind starke ionische Bindungen zwischen Atomen in einem Festkörper.",
+        "C: Sie sind temporäre Dipol-Dipol-Wechselwirkungen, die aufgrund von Elektronenschwankungen entstehen.",
+        "D: Sie sind die Hauptursache für die Festigkeit von metallischen Bindungen."
+      ],
+      "correct_answer": "C",
+      "explanation": "Van-der-Waals-Kräfte sind schwache intermolekulare Kräfte, die durch temporäre Dipole entstehen, die sich aufgrund der Bewegung von Elektronen bilden. Diese Kräfte sind entscheidend für viele physikalische Eigenschaften von Molekülen und Festkörpern, insbesondere in nichtpolaren Substanzen.",
+      "difficulty": 6,
+      "subcategory": "Van-der-Waals-Kräfte"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Entropie: Definition & Extremaleigenschaft",
+      "question": "Welche Aussage zur Entropie in einem geschlossenen System ist korrekt?",
+      "choices": [
+        "A: Entropie kann in einem geschlossenen System nur abnehmen.",
+        "B: Entropie bleibt in einem geschlossenen System immer konstant.",
+        "C: Entropie ist unabhängig von der Anzahl der Mikrozustände eines Systems.",
+        "D: Entropie erreicht ein Maximum im Gleichgewichtszustand eines geschlossenen Systems."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Entropie eines geschlossenen Systems erreicht im Gleichgewichtszustand ein Maximum, was bedeutet, dass die Anzahl der Mikrozustände maximiert wird. Dies ist ein zentrales Konzept in der statistischen Mechanik, das die Richtung thermodynamischer Prozesse bestimmt.",
+      "difficulty": 8,
+      "subcategory": "Entropie: Definition & Extremaleigenschaft"
+    }
+  ]
+}

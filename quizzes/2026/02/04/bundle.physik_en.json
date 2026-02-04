@@ -1,0 +1,168 @@
+{
+  "date": "2026-02-04",
+  "generated_at": "2026-02-04T04:28:57Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Eigenfunktionen der gebundenen Zustände (Laguerre)",
+      "question": "Which of the following statements correctly describes the Laguerre polynomials in the context of quantum mechanics?",
+      "choices": [
+        "A: They are the eigenfunctions of the Hamiltonian operator in classical mechanics.",
+        "B: They describe the time evolution of quantum mechanical states.",
+        "C: They are only applicable to one-dimensional potentials.",
+        "D: They are solutions of the radial Schrödinger equation for the hydrogen atom."
+      ],
+      "correct_answer": "D",
+      "explanation": "Laguerre polynomials are the eigenfunctions of the radial Schrödinger equation for the hydrogen atom and play an important role in describing bound states. They are not limited to one-dimensional systems and have no significance in classical mechanics.",
+      "difficulty": 5,
+      "subcategory": "Eigenfunktionen der gebundenen Zustände (Laguerre)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Korrelationsfunktion & Suszeptibilität; Ornstein–Zernike",
+      "question": "Which statement about the Ornstein-Zernike equation in statistical mechanics is correct?",
+      "choices": [
+        "A: It is only applicable to non-ideal gases and ignores interactions.",
+        "B: It has no practical application in solid-state physics.",
+        "C: It describes the relationship between the correlation function and susceptibility in a system at thermodynamic equilibrium.",
+        "D: It is an equation used only in quantum mechanics."
+      ],
+      "correct_answer": "C",
+      "explanation": "The Ornstein-Zernike equation is fundamental for describing microscopic correlation functions in thermodynamic systems and links them to macroscopic properties such as susceptibility. It thus provides an important basis for understanding phase transitions and critical phenomena.",
+      "difficulty": 8,
+      "subcategory": "Korrelationsfunktion & Suszeptibilität; Ornstein–Zernike"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Plattenkondensator",
+      "question": "What determines the capacitance of a parallel-plate capacitor?",
+      "choices": [
+        "A: The temperature of the capacitor",
+        "B: The voltage applied to the plates",
+        "C: The area of the plates and the distance between them",
+        "D: The material type of the plates"
+      ],
+      "correct_answer": "C",
+      "explanation": "The capacitance of a parallel-plate capacitor is determined by the area of the plates and the distance between them. A larger distance decreases the capacitance, while a larger plate area increases it.",
+      "difficulty": 5,
+      "subcategory": "Plattenkondensator"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Zyklotronresonanz",
+      "question": "What does the term cyclotron resonance describe in solid-state physics?",
+      "choices": [
+        "A: The thermal expansion of materials.",
+        "B: The motion of particles in a vacuum.",
+        "C: The absorption of light by atoms.",
+        "D: The interaction of electrons with a magnetic field."
+      ],
+      "correct_answer": "D",
+      "explanation": "Cyclotron resonance describes the frequency at which charged particles, such as electrons, move in a magnetic field and can absorb or emit energy. These resonance phenomena are important for understanding materials in solid-state physics.",
+      "difficulty": 4,
+      "subcategory": "Zyklotronresonanz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Eigenfunktionen der gebundenen Zustände (Laguerre)",
+      "question": "What does the eigenfunction of a bound state describe in quantum mechanics?",
+      "choices": [
+        "A: The mass of a particle.",
+        "B: The probability of finding a particle at a specific location.",
+        "C: The energy of a free particle in space.",
+        "D: The speed at which a particle moves."
+      ],
+      "correct_answer": "B",
+      "explanation": "The eigenfunction of a bound state describes the probability of finding a particle at a specific location. In quantum mechanics, these functions are crucial for understanding quantized energy levels and the spatial distribution of particles.",
+      "difficulty": 1,
+      "subcategory": "Eigenfunktionen der gebundenen Zustände (Laguerre)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Quark‑Antiquark‑Potential (Confinement)",
+      "question": "What does the quark-antiquark potential describe in the context of confinement?",
+      "choices": [
+        "A: It describes the constancy of quark mass under extreme conditions.",
+        "B: It describes the interactions between quarks and gluons at low energies.",
+        "C: It describes the decay of quarks into leptons.",
+        "D: It describes the increase in interaction with increasing distance between quarks."
+      ],
+      "correct_answer": "D",
+      "explanation": "The quark-antiquark potential shows that the strength of interaction between quarks increases with distance, leading to the phenomenon of confinement. Therefore, quarks cannot exist in isolation but are always found in bound states, such as in hadrons.",
+      "difficulty": 8,
+      "subcategory": "Quark‑Antiquark‑Potential (Confinement)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Der Regenbogen (Dispersion + Geometrie)",
+      "question": "What causes the different colors in a rainbow?",
+      "choices": [
+        "A: Temperature differences in the atmosphere.",
+        "B: Absorption of specific light waves by the air.",
+        "C: Reflection of light on the Earth's surface.",
+        "D: Differential refraction of light in water droplets."
+      ],
+      "correct_answer": "D",
+      "explanation": "The different colors in a rainbow are caused by the dispersion of light when it is refracted in water droplets. Each color is refracted to a different extent, resulting in the characteristic spectrum.",
+      "difficulty": 5,
+      "subcategory": "Der Regenbogen (Dispersion + Geometrie)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Welle-Teilchen-Dualismus (Licht)",
+      "question": "Which experiment clearly demonstrates the wave-particle duality of light?",
+      "choices": [
+        "A: Refractive index measurement",
+        "B: Newton's rings",
+        "C: Photoelectric effect",
+        "D: Double-slit experiment"
+      ],
+      "correct_answer": "D",
+      "explanation": "The double-slit experiment demonstrates that light can be considered both as a wave and a particle. When light is passed through two slits, it creates interference patterns, indicating its wave-like nature. At the same time, in certain experiments, it exhibits particle properties when photons are detected as individual particles.",
+      "difficulty": 7,
+      "subcategory": "Welle-Teilchen-Dualismus (Licht)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Van-der-Waals-Kräfte",
+      "question": "Which of the following statements best describes van der Waals forces?",
+      "choices": [
+        "A: They are permanent dipole-dipole interactions that occur in polar molecules.",
+        "B: They are strong ionic bonds between atoms in a solid.",
+        "C: They are temporary dipole-dipole interactions arising from electron fluctuations.",
+        "D: They are the main cause of the strength of metallic bonds."
+      ],
+      "correct_answer": "C",
+      "explanation": "Van der Waals forces are weak intermolecular forces that arise from temporary dipoles formed due to electron movement. These forces are crucial for many physical properties of molecules and solids, especially in nonpolar substances.",
+      "difficulty": 6,
+      "subcategory": "Van-der-Waals-Kräfte"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Entropie: Definition & Extremaleigenschaft",
+      "question": "Which statement about entropy in a closed system is correct?",
+      "choices": [
+        "A: Entropy can only decrease in a closed system.",
+        "B: Entropy always remains constant in a closed system.",
+        "C: Entropy is independent of the number of microstates of a system.",
+        "D: Entropy reaches a maximum in the equilibrium state of a closed system."
+      ],
+      "correct_answer": "D",
+      "explanation": "The entropy of a closed system reaches a maximum in equilibrium, meaning the number of microstates is maximized. This is a central concept in statistical mechanics that determines the direction of thermodynamic processes.",
+      "difficulty": 8,
+      "subcategory": "Entropie: Definition & Extremaleigenschaft"
+    }
+  ]
+}
