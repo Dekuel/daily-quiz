@@ -1,0 +1,169 @@
+{
+  "date": "2026-02-05",
+  "generated_at": "2026-02-05T04:47:01Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Bohr’sches Atommodell",
+      "question": "Was beschreibt das Bohr’sche Atommodell bezüglich der Elektronen im Atom?",
+      "choices": [
+        "A: Sie können nur im Vakuum existieren.",
+        "B: Sie sind in ständiger Bewegung und können beliebige Positionen einnehmen.",
+        "C: Sie bewegen sich auf festen Bahnen um den Atomkern.",
+        "D: Sie sind stationär und haben keine Bewegung."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Bohr’sche Atommodell postuliert, dass Elektronen sich auf festen, quantisierten Bahnen um den Atomkern bewegen. Diese Bahnen entsprechen bestimmten Energielevels, und ein Elektron kann zwischen diesen Bahnen durch Energiezufuhr oder -abgabe wechseln.",
+      "difficulty": 3,
+      "subcategory": "Bohr’sches Atommodell"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Scherung & Torsionsmodul",
+      "question": "Was beschreibt der Torsionsmodul eines Materials?",
+      "choices": [
+        "A: Die Dichte des Materials.",
+        "B: Die Fähigkeit, Wärme zu leiten.",
+        "C: Die Elastizität bei Zugbeanspruchung.",
+        "D: Die Widerstandsfähigkeit gegen Torsion."
+      ],
+      "correct_answer": "D",
+      "explanation": "Der Torsionsmodul ist eine Materialkonstante, die angibt, wie widerstandsfähig ein Material gegen Torsion ist. Er ist entscheidend für die Berechnung der Verformung eines Materials bei Drehbelastungen und spielt eine wichtige Rolle in der Mechanik von Bauteilen, die Torsion ausgesetzt sind.",
+      "difficulty": 6,
+      "subcategory": "Scherung & Torsionsmodul"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Spektrum des harmonischen Oszillators",
+      "question": "Was beschreibt das Energiespektrum eines harmonischen Oszillators in der Quantenmechanik?",
+      "choices": [
+        "A: Es ist nur für n = 1 und n = 2 definiert.",
+        "B: Es ist kontinuierlich und kann beliebige Werte annehmen.",
+        "C: Es besteht aus diskreten Energieleveln, die durch die Formel E_n = (n + 1/2)ħω gegeben sind.",
+        "D: Es hängt nicht von der Masse des Oszillators ab."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Energiespektrum eines quantenmechanischen harmonischen Oszillators ist diskret und wird durch die Formel E_n = (n + 1/2)ħω beschrieben, wobei n eine nicht-negative ganze Zahl ist. Diese quantisierten Energielevel sind charakteristisch für quantenmechanische Systeme und resultieren aus der Anwendung der Schrödinger-Gleichung.",
+      "difficulty": 7,
+      "subcategory": "Spektrum des harmonischen Oszillators"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Homogenitätsrelationen (Euler/Gibbs-Duhem)",
+      "question": "Was beschreibt die Gibbs-Duhem-Gleichung in der Thermodynamik?",
+      "choices": [
+        "A: Den Zusammenhang zwischen chemischem Potential und Temperatur.",
+        "B: Den Zusammenhang zwischen Entropie und Temperatur.",
+        "C: Den Zusammenhang zwischen Energie und Temperatur.",
+        "D: Den Zusammenhang zwischen Druck und Volumen."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Gibbs-Duhem-Gleichung beschreibt, wie sich das chemische Potential eines Systems mit Temperatur und anderen Systemvariablen ändert. Sie ist ein fundamentales Prinzip in der Thermodynamik, das die Beziehung zwischen den verschiedenen thermodynamischen Potentialen darstellt.",
+      "difficulty": 4,
+      "subcategory": "Homogenitätsrelationen (Euler/Gibbs-Duhem)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Kugelfall-Viskosimeter; Stokes-Gesetz",
+      "question": "Welche Aussage beschreibt am besten die Anwendung des Stokes-Gesetzes in einem Kugelfall-Viskosimeter?",
+      "choices": [
+        "A: Das Stokes-Gesetz findet keine Anwendung in Viskosimetern.",
+        "B: Die Dichte der Kugel hat keinen Einfluss auf die Fallgeschwindigkeit.",
+        "C: Die Fallgeschwindigkeit einer Kugel ist proportional zur Viskosität der Flüssigkeit.",
+        "D: Die Kugel wird langsamer, je größer der Durchmesser der Kugel ist."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Stokes-Gesetz beschreibt den Zusammenhang zwischen der Fallgeschwindigkeit einer Kugel und der Viskosität der Flüssigkeit, in der sie fällt. Es besagt, dass die Geschwindigkeit direkt proportional zur Viskosität ist, was für die Messung der Viskosität in einem Kugelfall-Viskosimeter genutzt wird.",
+      "difficulty": 6,
+      "subcategory": "Kugelfall-Viskosimeter; Stokes-Gesetz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Ebene Wellen & Polarisation",
+      "question": "Was beschreibt die Polarisation einer elektromagnetischen Welle?",
+      "choices": [
+        "A: Die Frequenz der Welle.",
+        "B: Die Geschwindigkeit der Welle im Vakuum.",
+        "C: Die Wellenlänge der Welle.",
+        "D: Die Ausrichtung der elektrischen Feldvektoren."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Polarisation einer elektromagnetischen Welle beschreibt die Ausrichtung der elektrischen Feldvektoren in der Raumrichtung. Bei linear polarisierten Wellen schwingen die Vektoren in einer bestimmten Ebene, was wichtige Anwendungen in der Optik und Kommunikation hat.",
+      "difficulty": 6,
+      "subcategory": "Ebene Wellen & Polarisation"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Abgeschirmtes Coulomb-Potential",
+      "question": "Was beschreibt das abgeschirmte Coulomb-Potential in der Festkörperphysik?",
+      "choices": [
+        "A: Die Lichtbrechung an einer Grenzfläche zwischen zwei Materialien.",
+        "B: Die Wechselwirkung zwischen zwei elektrisch geladenen Teilchen unter Berücksichtigung von Screening-Effekten.",
+        "C: Die Gravitationskraft zwischen zwei massiven Körpern.",
+        "D: Die thermische Ausdehnung von Materialien bei Temperaturänderungen."
+      ],
+      "correct_answer": "B",
+      "explanation": "Das abgeschirmte Coulomb-Potential beschreibt, wie die Wechselwirkungen zwischen geladenen Teilchen durch das Vorhandensein anderer Teilchen beeinflusst werden, was als Screening-Effekt bekannt ist. Dies ist besonders in Festkörpern relevant, wo Elektroneneffekte das Verhalten von Ionen beeinflussen können.",
+      "difficulty": 3,
+      "subcategory": "Abgeschirmtes Coulomb-Potential"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Quantentheoretische Bewegungsgleichungen",
+      "question": "Welche der folgenden Gleichungen beschreibt die zeitliche Entwicklung eines quantenmechanischen Systems?",
+      "choices": [
+        "A: Newtonsche Bewegungsgleichung",
+        "B: Erhaltungssatz der Energie",
+        "C: Maxwellsche Gleichungen",
+        "D: Schrödinger-Gleichung"
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Schrödinger-Gleichung ist fundamental in der Quantenmechanik und beschreibt, wie sich der Zustand eines quantenmechanischen Systems über die Zeit verändert. Sie ist entscheidend für das Verständnis von quantenmechanischen Phänomenen und deren zeitlicher Entwicklung.",
+      "difficulty": 3,
+      "subcategory": "Quantentheoretische Bewegungsgleichungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Bohr–Sommerfeld-Quantisierung (historisch)",
+      "question": "Welche Bedingung muss für das Bohr-Sommerfeld-Modell gelten, um die Quantisierung von Orbitale zu beschreiben?",
+      "choices": [
+        "A: Der Impuls des Teilchens muss linear variieren.",
+        "B: Die Bahn muss eine ganzzahlige Anzahl von Wellenlängen enthalten.",
+        "C: Die Geschwindigkeit des Teilchens muss konstant sein.",
+        "D: Die Energie des Systems muss konstant bleiben."
+      ],
+      "correct_answer": "B",
+      "explanation": "Im Bohr-Sommerfeld-Modell wird die Quantisierung durch die Bedingung beschrieben, dass die Bahn eines Teilchens eine ganzzahlige Anzahl von Wellenlängen enthalten muss. Dies führt zur Quantisierung der Energielevels und erklärt das Verhalten von Elektronen in Atomen. Die anderen Optionen entsprechen nicht den Voraussetzungen der Bohr-Sommerfeld-Quantisierung.",
+      "difficulty": 9,
+      "subcategory": "Bohr–Sommerfeld-Quantisierung (historisch)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Isotropie des Raumes ⇒ Drehimpulserhaltung",
+      "question": "Welche Aussage zur Drehimpulserhaltung in einem isotropen Raum ist korrekt?",
+      "choices": [
+        "A: Der Drehimpuls eines Systems kann immer durch äußere Kräfte verändert werden.",
+        "B: Drehimpuls ist nur in nicht-isotropen Systemen erhalten.",
+        "C: Der Drehimpuls eines Systems bleibt konstant, wenn keine äußeren Drehmomente wirken.",
+        "D: Der Drehimpuls bleibt nur konstant, wenn die Masse des Systems unverändert bleibt."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Drehimpulserhaltung besagt, dass der Gesamt-Drehimpuls eines geschlossenen Systems konstant bleibt, solange keine äußeren Drehmomente einwirken. Diese Eigenschaft ist eine direkte Konsequenz der Isotropie des Raumes, die bedeutet, dass die physikalischen Gesetze in jede Richtung gleich sind.",
+      "difficulty": 8,
+      "subcategory": "Isotropie des Raumes ⇒ Drehimpulserhaltung"
+    }
+  ]
+}

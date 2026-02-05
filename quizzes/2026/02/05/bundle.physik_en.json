@@ -1,0 +1,168 @@
+{
+  "date": "2026-02-05",
+  "generated_at": "2026-02-05T04:47:38Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Bohr’sches Atommodell",
+      "question": "What does the Bohr atomic model describe regarding electrons in the atom?",
+      "choices": [
+        "A: They can only exist in a vacuum.",
+        "B: They are in constant motion and can occupy any position.",
+        "C: They move on fixed orbits around the atomic nucleus.",
+        "D: They are stationary and have no motion."
+      ],
+      "correct_answer": "C",
+      "explanation": "The Bohr atomic model postulates that electrons move on fixed, quantized orbits around the atomic nucleus. These orbits correspond to specific energy levels, and an electron can transition between these orbits by absorbing or emitting energy.",
+      "difficulty": 3,
+      "subcategory": "Bohr’sches Atommodell"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Scherung & Torsionsmodul",
+      "question": "What does the torsion modulus of a material describe?",
+      "choices": [
+        "A: The density of the material.",
+        "B: The ability to conduct heat.",
+        "C: The elasticity under tensile stress.",
+        "D: The resistance to torsion."
+      ],
+      "correct_answer": "D",
+      "explanation": "The torsion modulus is a material constant that indicates how resistant a material is to torsion. It is crucial for calculating the deformation of a material under torsional loads and plays an important role in the mechanics of components subjected to torsion.",
+      "difficulty": 6,
+      "subcategory": "Scherung & Torsionsmodul"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Spektrum des harmonischen Oszillators",
+      "question": "What does the energy spectrum of a harmonic oscillator in quantum mechanics describe?",
+      "choices": [
+        "A: It is only defined for n = 1 and n = 2.",
+        "B: It is continuous and can take any values.",
+        "C: It consists of discrete energy levels given by the formula E_n = (n + 1/2)ħω.",
+        "D: It does not depend on the mass of the oscillator."
+      ],
+      "correct_answer": "C",
+      "explanation": "The energy spectrum of a quantum mechanical harmonic oscillator is discrete and is described by the formula E_n = (n + 1/2)ħω, where n is a non-negative integer. These quantized energy levels are characteristic of quantum mechanical systems and result from the application of the Schrödinger equation.",
+      "difficulty": 7,
+      "subcategory": "Spektrum des harmonischen Oszillators"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Homogenitätsrelationen (Euler/Gibbs-Duhem)",
+      "question": "What does the Gibbs-Duhem equation describe in thermodynamics?",
+      "choices": [
+        "A: The relationship between chemical potential and temperature.",
+        "B: The relationship between entropy and temperature.",
+        "C: The relationship between energy and temperature.",
+        "D: The relationship between pressure and volume."
+      ],
+      "correct_answer": "A",
+      "explanation": "The Gibbs-Duhem equation describes how the chemical potential of a system changes with temperature and other system variables. It is a fundamental principle in thermodynamics that represents the relationship between different thermodynamic potentials.",
+      "difficulty": 4,
+      "subcategory": "Homogenitätsrelationen (Euler/Gibbs-Duhem)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Kugelfall-Viskosimeter; Stokes-Gesetz",
+      "question": "Which statement best describes the application of Stokes' law in a falling-sphere viscometer?",
+      "choices": [
+        "A: Stokes' law has no application in viscometers.",
+        "B: The density of the sphere does not affect the falling speed.",
+        "C: The falling speed of a sphere is proportional to the viscosity of the liquid.",
+        "D: The sphere slows down as its diameter increases."
+      ],
+      "correct_answer": "C",
+      "explanation": "Stokes' law describes the relationship between the falling speed of a sphere and the viscosity of the liquid in which it falls. It states that the speed is directly proportional to the viscosity, which is used for measuring viscosity in a falling-sphere viscometer.",
+      "difficulty": 6,
+      "subcategory": "Kugelfall-Viskosimeter; Stokes-Gesetz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Ebene Wellen & Polarisation",
+      "question": "What does the polarization of an electromagnetic wave describe?",
+      "choices": [
+        "A: The frequency of the wave.",
+        "B: The speed of the wave in a vacuum.",
+        "C: The wavelength of the wave.",
+        "D: The orientation of the electric field vectors."
+      ],
+      "correct_answer": "D",
+      "explanation": "The polarization of an electromagnetic wave describes the orientation of the electric field vectors in space. In linearly polarized waves, the vectors oscillate in a specific plane, which has important applications in optics and communication.",
+      "difficulty": 6,
+      "subcategory": "Ebene Wellen & Polarisation"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Abgeschirmtes Coulomb-Potential",
+      "question": "What does the shielded Coulomb potential describe in solid-state physics?",
+      "choices": [
+        "A: The refraction of light at an interface between two materials.",
+        "B: The interaction between two electrically charged particles considering screening effects.",
+        "C: The gravitational force between two massive bodies.",
+        "D: The thermal expansion of materials with temperature changes."
+      ],
+      "correct_answer": "B",
+      "explanation": "The shielded Coulomb potential describes how the interactions between charged particles are influenced by the presence of other particles, known as the screening effect. This is particularly relevant in solids, where electron effects can influence the behavior of ions.",
+      "difficulty": 3,
+      "subcategory": "Abgeschirmtes Coulomb-Potential"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Quantentheoretische Bewegungsgleichungen",
+      "question": "Which of the following equations describes the temporal evolution of a quantum mechanical system?",
+      "choices": [
+        "A: Newton's motion equation.",
+        "B: Conservation of energy principle.",
+        "C: Maxwell's equations.",
+        "D: Schrödinger equation."
+      ],
+      "correct_answer": "D",
+      "explanation": "The Schrödinger equation is fundamental in quantum mechanics and describes how the state of a quantum mechanical system changes over time. It is crucial for understanding quantum phenomena and their temporal evolution.",
+      "difficulty": 3,
+      "subcategory": "Quantentheoretische Bewegungsgleichungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Bohr–Sommerfeld-Quantisierung (historisch)",
+      "question": "What condition must hold for the Bohr-Sommerfeld model to describe the quantization of orbitals?",
+      "choices": [
+        "A: The momentum of the particle must vary linearly.",
+        "B: The path must contain an integer number of wavelengths.",
+        "C: The velocity of the particle must be constant.",
+        "D: The energy of the system must remain constant."
+      ],
+      "correct_answer": "B",
+      "explanation": "In the Bohr-Sommerfeld model, quantization is described by the condition that the path of a particle must contain an integer number of wavelengths. This leads to the quantization of energy levels and explains the behavior of electrons in atoms. The other options do not correspond to the requirements of Bohr-Sommerfeld quantization.",
+      "difficulty": 9,
+      "subcategory": "Bohr–Sommerfeld-Quantisierung (historisch)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Isotropie des Raumes ⇒ Drehimpulserhaltung",
+      "question": "Which statement about angular momentum conservation in an isotropic space is correct?",
+      "choices": [
+        "A: The angular momentum of a system can always be altered by external forces.",
+        "B: Angular momentum is only conserved in non-isotropic systems.",
+        "C: The angular momentum of a system remains constant when no external torques act.",
+        "D: Angular momentum remains constant only if the mass of the system remains unchanged."
+      ],
+      "correct_answer": "C",
+      "explanation": "Angular momentum conservation states that the total angular momentum of a closed system remains constant unless external torques act. This property is a direct consequence of the isotropy of space, meaning that the physical laws are the same in every direction.",
+      "difficulty": 8,
+      "subcategory": "Isotropie des Raumes ⇒ Drehimpulserhaltung"
+    }
+  ]
+}

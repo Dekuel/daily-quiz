@@ -868,6 +868,20 @@
       "correct_answer": "C",
       "explanation": "Load balancers distribute incoming traffic across multiple servers to enhance performance and availability. They are crucial for efficiently utilizing resources in cloud environments, while the other options fulfill different security or networking functions.",
       "difficulty": 10
+    },
+    {
+      "category": "Technologie",
+      "topic": "KI & Zukunftstechnologien",
+      "question": "Which of the following learning algorithms is typically used for data classification?",
+      "choices": [
+        "A: K-Means Clustering",
+        "B: Reinforcement Learning",
+        "C: Generative Adversarial Network",
+        "D: Support Vector Machine"
+      ],
+      "correct_answer": "D",
+      "explanation": "Support Vector Machines (SVM) are effective classifiers that separate data points by an optimal hyperplane. In contrast, K-Means Clustering is used for unsupervised learning, while Reinforcement Learning and Generative Adversarial Networks have specific applications in other areas of AI.",
+      "difficulty": 8
     }
   ]
 }
