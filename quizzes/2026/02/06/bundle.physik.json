@@ -1,0 +1,169 @@
+{
+  "date": "2026-02-06",
+  "generated_at": "2026-02-06T04:45:46Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Zweiter Hauptsatz (Kelvin-Planck/Clausius)",
+      "question": "Welcher der folgenden Aussagen entspricht dem Kelvin-Planck-Formulierung des Zweiten Hauptsatzes der Thermodynamik?",
+      "choices": [
+        "A: Es ist unmöglich, einen Wärmeprozess zu konstruieren, der ausschließlich Arbeit verrichtet.",
+        "B: Es ist unmöglich, einen Prozess zu konstruieren, der eine endliche Menge Wärme vollständig in eine endliche Menge Arbeit umwandelt.",
+        "C: Wärme kann von einem kälteren Körper auf einen wärmeren Körper übertragen werden, ohne dass Arbeit verrichtet wird.",
+        "D: Die Entropie eines isolierten Systems kann niemals abnehmen."
+      ],
+      "correct_answer": "B",
+      "explanation": "Der Kelvin-Planck-Zweite Hauptsatz besagt, dass es unmöglich ist, einen Wärmeprozess zu konstruieren, der alle aufgenommene Wärme vollständig in mechanische Arbeit umwandelt. Dies verdeutlicht die Unmöglichkeit eines idealen Wärmekraftwerks, das keinen Energieverlust hat.",
+      "difficulty": 7,
+      "subcategory": "Zweiter Hauptsatz (Kelvin-Planck/Clausius)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Homogenität des Raumes ⇒ Impulserhaltung",
+      "question": "Welche Aussage beschreibt am besten die Impulserhaltung in einem homogenen Raum?",
+      "choices": [
+        "A: Impuls wird immer in Form von Wärme dissipiert, wenn zwei Körper kollidieren.",
+        "B: Der Gesamtimpuls eines geschlossenen Systems bleibt konstant, wenn keine äußeren Kräfte wirken.",
+        "C: Der Impuls eines einzelnen Körpers kann immer erhöht werden, unabhängig von den Kräften.",
+        "D: Der Gesamtimpuls eines Systems kann nur durch innere Kräfte verändert werden."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Impulserhaltung besagt, dass der Gesamtimpuls eines geschlossenen Systems konstant bleibt, solange keine äußeren Kräfte auf das System einwirken. Dies ist ein direktes Ergebnis der Homogenität des Raumes, die die Unabhängigkeit der physikalischen Gesetze von der Position im Raum beschreibt.",
+      "difficulty": 6,
+      "subcategory": "Homogenität des Raumes ⇒ Impulserhaltung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Auftrieb & Schwimmen",
+      "question": "Welche der folgenden Aussagen über den Auftrieb eines Körpers in einer Flüssigkeit ist korrekt, wenn der Körper sowohl eine höhere Dichte als auch ein größeres Volumen als die verdrängte Flüssigkeit hat?",
+      "choices": [
+        "A: Der Körper wird schwimmen, wenn er eine spezielle Form hat, die den Auftrieb erhöht.",
+        "B: Der Körper wird vollständig unter Wasser bleiben und kein Auftrieb erfahren.",
+        "C: Der Körper wird an die Oberfläche schwimmen, da er leichter als die verdrängte Flüssigkeit ist.",
+        "D: Der Körper wird im Gleichgewicht bleiben, solange die Temperatur der Flüssigkeit konstant ist."
+      ],
+      "correct_answer": "B",
+      "explanation": "Ein Körper mit höherer Dichte als die verdrängte Flüssigkeit kann aufgrund der Auftriebskraft, die gleich dem Gewicht der verdrängten Flüssigkeit ist, nicht schwimmen. Daher bleibt der Körper vollständig unter Wasser.",
+      "difficulty": 10,
+      "subcategory": "Auftrieb & Schwimmen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Jacobi-Determinante (Wechsel der Variablen)",
+      "question": "Was ist die Jacobi-Determinante bei einem Wechsel der Variablen in der statistischen Mechanik?",
+      "choices": [
+        "A: Sie ist immer gleich Eins, unabhängig von der Transformation.",
+        "B: Sie beschreibt, wie sich die Wahrscheinlichkeitsdichte bei einer Transformation der Variablen ändert.",
+        "C: Sie wird nur in der klassischen Mechanik verwendet und hat keine Relevanz in der statistischen Mechanik.",
+        "D: Sie ist ein Maß für die Trägheit eines Systems."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Jacobi-Determinante ist ein wichtiges Konzept beim Wechsel der Variablen, da sie die Änderung der Wahrscheinlichkeitsdichte beschreibt, wenn man von einem Satz von Variablen zu einem anderen wechselt. Sie ist entscheidend für die korrekte Berechnung von Integralen in der statistischen Mechanik.",
+      "difficulty": 5,
+      "subcategory": "Jacobi-Determinante (Wechsel der Variablen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Wellenfunktion & statistische Interpretation",
+      "question": "Was beschreibt die Wellenfunktion in der Quantenmechanik?",
+      "choices": [
+        "A: Die Wahrscheinlichkeit, ein Teilchen an einem bestimmten Ort zu finden.",
+        "B: Die genaue Position eines Teilchens zu jedem Zeitpunkt.",
+        "C: Die Geschwindigkeit eines Teilchens in Bewegung.",
+        "D: Die Masse eines Teilchens in Ruhe."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Wellenfunktion ist ein zentrales Konzept in der Quantenmechanik und beschreibt die Wahrscheinlichkeit, ein Teilchen an einem bestimmten Ort zu finden, wenn eine Messung durchgeführt wird. Sie liefert keine deterministischen Werte, sondern statistische Informationen über das Verhalten von Teilchen.",
+      "difficulty": 5,
+      "subcategory": "Wellenfunktion & statistische Interpretation"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Erhaltungssätze & Hydrodynamik im lokalen Gleichgewicht",
+      "question": "Welche Aussage beschreibt am besten den Erhaltungssatz der Energie im Kontext der statistischen Mechanik im lokalen Gleichgewicht?",
+      "choices": [
+        "A: Die Gesamtenergie eines Systems kann sich innerhalb eines geschlossenen Systems ändern.",
+        "B: Die gesamte Energie eines Systems bleibt konstant, es sei denn, äußere Kräfte wirken ein.",
+        "C: Im lokalen Gleichgewicht ist die kinetische Energie immer gleich der potentiellen Energie.",
+        "D: Energie kann nur zwischen verschiedenen Formen umgewandelt werden, ohne Verlust."
+      ],
+      "correct_answer": "B",
+      "explanation": "Der Erhaltungssatz der Energie besagt, dass die Gesamtenergie eines geschlossenen Systems konstant bleibt, solange keine äußeren Kräfte einwirken. Dies ist ein grundlegendes Prinzip, das auch im Kontext der statistischen Mechanik gilt, insbesondere im lokalen Gleichgewicht.",
+      "difficulty": 6,
+      "subcategory": "Erhaltungssätze & Hydrodynamik im lokalen Gleichgewicht"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Transfermatrix-Methode (Ising etc.)",
+      "question": "Was ist das Hauptziel der Transfermatrix-Methode in der statistischen Mechanik?",
+      "choices": [
+        "A: Bestimmung von thermodynamischen Eigenschaften durch Matrixoperationen",
+        "B: Simulation von Quantenverschränkung",
+        "C: Analyse der Wechselwirkungen zwischen Teilchen",
+        "D: Berechnung der Zustandsdichte eines Systems"
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Transfermatrix-Methode wird verwendet, um thermodynamische Eigenschaften von Systemen zu bestimmen, indem sie die Wechselwirkungen in Form von Matrixoperationen darstellt. Dies ermöglicht eine effiziente Analyse von Modellen wie dem Ising-Modell in der statistischen Mechanik.",
+      "difficulty": 3,
+      "subcategory": "Transfermatrix-Methode (Ising etc.)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Quasi-freie Elektronen (Näherung)",
+      "question": "Was beschreibt die Annahme der quasi-freien Elektronen im Festkörperphysik-Modell?",
+      "choices": [
+        "A: Elektronen befinden sich immer in einem festen Zustand.",
+        "B: Elektronen sind nicht in der Lage, sich innerhalb eines Festkörpers zu bewegen.",
+        "C: Elektronen haben keine Wechselwirkungen untereinander.",
+        "D: Elektronen bewegen sich unabhängig von Kristallgitterpotentialen."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Annahme der quasi-freien Elektronen postuliert, dass Elektronen in einem Kristallgitter sich wie freie Elektronen verhalten, obwohl sie durch das Gitterpotential beeinflusst werden. Dies vereinfacht die Beschreibung ihrer Bewegung erheblich und ermöglicht die Anwendung der Elektronentheorie auf Festkörper. Diese Näherung ist besonders nützlich zur Erklärung elektrischer und thermischer Eigenschaften von Materialien.",
+      "difficulty": 7,
+      "subcategory": "Quasi-freie Elektronen (Näherung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Maxwell-Gleichungen in kovarianter Form",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt die kovariante Form der Maxwell-Gleichungen?",
+      "choices": [
+        "A: Die Maxwell-Gleichungen sind in Form von vierdimensionalen Vektoren und Tensoren dargestellt.",
+        "B: Die Maxwell-Gleichungen können nicht in der Relativitätstheorie angewendet werden.",
+        "C: Die kovariante Form der Maxwell-Gleichungen ignoriert die Lichtgeschwindigkeit.",
+        "D: Die Maxwell-Gleichungen gelten nur im nicht-relativistischen Kontext."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die kovariante Form der Maxwell-Gleichungen stellt die Gesetze der Elektrodynamik in einer vierdimensionalen Sprache dar, die sowohl Zeit als auch Raum berücksichtigt. Diese Darstellung ist entscheidend für die Konsistenz der Elektrodynamik in der Relativitätstheorie.",
+      "difficulty": 4,
+      "subcategory": "Maxwell-Gleichungen in kovarianter Form"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Ferroelektrizität",
+      "question": "Was ist ein charakteristisches Merkmal von ferroelektrischen Materialien?",
+      "choices": [
+        "A: Sie sind nicht magnetisch.",
+        "B: Sie besitzen eine spontane Polarisation.",
+        "C: Sie leiten Wärme besser als Isolatoren.",
+        "D: Sie sind immer elektrisch leitend."
+      ],
+      "correct_answer": "B",
+      "explanation": "Ferroelektrische Materialien zeichnen sich durch eine spontane Polarisation aus, die auch ohne äußeres elektrisches Feld vorhanden ist. Diese Eigenschaft ist entscheidend für ihre Anwendung in verschiedenen Technologien, wie z.B. in Kondensatoren und Speichergeräten.",
+      "difficulty": 2,
+      "subcategory": "Ferroelektrizität"
+    }
+  ]
+}

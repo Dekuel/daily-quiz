@@ -1,0 +1,168 @@
+{
+  "date": "2026-02-06",
+  "generated_at": "2026-02-06T04:46:25Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Zweiter Hauptsatz (Kelvin-Planck/Clausius)",
+      "question": "Which of the following statements corresponds to the Kelvin-Planck formulation of the Second Law of Thermodynamics?",
+      "choices": [
+        "A: It is impossible to construct a heat engine that performs only work.",
+        "B: It is impossible to construct a process that converts a finite amount of heat completely into a finite amount of work.",
+        "C: Heat can be transferred from a colder body to a warmer body without work being done.",
+        "D: The entropy of an isolated system can never decrease."
+      ],
+      "correct_answer": "B",
+      "explanation": "The Kelvin-Planck Second Law states that it is impossible to construct a heat engine that converts all the absorbed heat into mechanical work. This highlights the impossibility of an ideal heat engine with no energy loss.",
+      "difficulty": 7,
+      "subcategory": "Zweiter Hauptsatz (Kelvin-Planck/Clausius)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Homogenität des Raumes ⇒ Impulserhaltung",
+      "question": "Which statement best describes the conservation of momentum in a homogeneous space?",
+      "choices": [
+        "A: Momentum is always dissipated in the form of heat when two bodies collide.",
+        "B: The total momentum of a closed system remains constant when no external forces are acting.",
+        "C: The momentum of an individual body can always be increased regardless of the forces.",
+        "D: The total momentum of a system can only be changed by internal forces."
+      ],
+      "correct_answer": "B",
+      "explanation": "The conservation of momentum states that the total momentum of a closed system remains constant as long as no external forces act on the system. This is a direct result of the homogeneity of space, which describes the independence of physical laws from position in space.",
+      "difficulty": 6,
+      "subcategory": "Homogenität des Raumes ⇒ Impulserhaltung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Auftrieb & Schwimmen",
+      "question": "Which of the following statements about the buoyancy of a body in a fluid is correct when the body has both a higher density and a larger volume than the displaced fluid?",
+      "choices": [
+        "A: The body will float if it has a special shape that increases buoyancy.",
+        "B: The body will remain completely submerged and experience no buoyancy.",
+        "C: The body will float to the surface as it is lighter than the displaced fluid.",
+        "D: The body will remain in equilibrium as long as the temperature of the fluid is constant."
+      ],
+      "correct_answer": "B",
+      "explanation": "A body with higher density than the displaced fluid cannot float due to the buoyant force, which is equal to the weight of the displaced fluid. Therefore, the body remains completely submerged.",
+      "difficulty": 10,
+      "subcategory": "Auftrieb & Schwimmen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Jacobi-Determinante (Wechsel der Variablen)",
+      "question": "What is the Jacobian determinant when changing variables in statistical mechanics?",
+      "choices": [
+        "A: It is always equal to one, regardless of the transformation.",
+        "B: It describes how the probability density changes when variables are transformed.",
+        "C: It is only used in classical mechanics and has no relevance in statistical mechanics.",
+        "D: It is a measure of a system's inertia."
+      ],
+      "correct_answer": "B",
+      "explanation": "The Jacobian determinant is an important concept when changing variables as it describes the change in probability density when moving from one set of variables to another. It is crucial for the correct calculation of integrals in statistical mechanics.",
+      "difficulty": 5,
+      "subcategory": "Jacobi-Determinante (Wechsel der Variablen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Wellenfunktion & statistische Interpretation",
+      "question": "What does the wave function describe in quantum mechanics?",
+      "choices": [
+        "A: The probability of finding a particle at a specific location.",
+        "B: The exact position of a particle at any time.",
+        "C: The velocity of a moving particle.",
+        "D: The mass of a particle at rest."
+      ],
+      "correct_answer": "A",
+      "explanation": "The wave function is a central concept in quantum mechanics and describes the probability of finding a particle at a specific location when a measurement is made. It provides statistical information about the behavior of particles, not deterministic values.",
+      "difficulty": 5,
+      "subcategory": "Wellenfunktion & statistische Interpretation"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Erhaltungssätze & Hydrodynamik im lokalen Gleichgewicht",
+      "question": "Which statement best describes the conservation of energy in the context of statistical mechanics in local equilibrium?",
+      "choices": [
+        "A: The total energy of a system can change within a closed system.",
+        "B: The total energy of a system remains constant unless external forces act.",
+        "C: In local equilibrium, kinetic energy is always equal to potential energy.",
+        "D: Energy can only be converted between different forms without loss."
+      ],
+      "correct_answer": "B",
+      "explanation": "The conservation of energy states that the total energy of a closed system remains constant as long as no external forces act. This is a fundamental principle that also applies in the context of statistical mechanics, especially in local equilibrium.",
+      "difficulty": 6,
+      "subcategory": "Erhaltungssätze & Hydrodynamik im lokalen Gleichgewicht"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Transfermatrix-Methode (Ising etc.)",
+      "question": "What is the main goal of the transfer matrix method in statistical mechanics?",
+      "choices": [
+        "A: Determination of thermodynamic properties through matrix operations",
+        "B: Simulation of quantum entanglement",
+        "C: Analysis of interactions between particles",
+        "D: Calculation of the density of states of a system"
+      ],
+      "correct_answer": "A",
+      "explanation": "The transfer matrix method is used to determine thermodynamic properties of systems by representing interactions in the form of matrix operations. This allows for efficient analysis of models like the Ising model in statistical mechanics.",
+      "difficulty": 3,
+      "subcategory": "Transfermatrix-Methode (Ising etc.)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Quasi-freie Elektronen (Näherung)",
+      "question": "What does the assumption of quasi-free electrons in solid-state physics model describe?",
+      "choices": [
+        "A: Electrons are always in a fixed state.",
+        "B: Electrons are unable to move within a solid.",
+        "C: Electrons have no interactions with each other.",
+        "D: Electrons move independently of crystal lattice potentials."
+      ],
+      "correct_answer": "D",
+      "explanation": "The assumption of quasi-free electrons postulates that electrons in a crystal lattice behave like free electrons, although they are influenced by the lattice potential. This greatly simplifies the description of their motion and enables the application of electron theory to solid-state physics. This approximation is particularly useful for explaining the electrical and thermal properties of materials.",
+      "difficulty": 7,
+      "subcategory": "Quasi-freie Elektronen (Näherung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Maxwell-Gleichungen in kovarianter Form",
+      "question": "Which of the following statements correctly describes the covariant form of the Maxwell equations?",
+      "choices": [
+        "A: The Maxwell equations are represented in terms of four-dimensional vectors and tensors.",
+        "B: The Maxwell equations cannot be applied in relativity theory.",
+        "C: The covariant form of the Maxwell equations ignores the speed of light.",
+        "D: The Maxwell equations are valid only in a non-relativistic context."
+      ],
+      "correct_answer": "A",
+      "explanation": "The covariant form of the Maxwell equations represents the laws of electrodynamics in a four-dimensional language that considers both time and space. This representation is crucial for the consistency of electrodynamics in relativity theory.",
+      "difficulty": 4,
+      "subcategory": "Maxwell-Gleichungen in kovarianter Form"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Ferroelektrizität",
+      "question": "What is a characteristic feature of ferroelectric materials?",
+      "choices": [
+        "A: They are not magnetic.",
+        "B: They possess a spontaneous polarization.",
+        "C: They conduct heat better than insulators.",
+        "D: They are always electrically conductive."
+      ],
+      "correct_answer": "B",
+      "explanation": "Ferroelectric materials are characterized by a spontaneous polarization that exists even without an external electric field. This property is crucial for their application in various technologies, such as capacitors and memory devices.",
+      "difficulty": 2,
+      "subcategory": "Ferroelektrizität"
+    }
+  ]
+}
