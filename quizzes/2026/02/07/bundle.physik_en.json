@@ -1,0 +1,168 @@
+{
+  "date": "2026-02-07",
+  "generated_at": "2026-02-07T04:27:58Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Wirkungsprinzipien (Überblick)",
+      "question": "Which principle describes the motion of a system as minimizing the action?",
+      "choices": [
+        "A: Principle of least action",
+        "B: Newton's principle",
+        "C: Principle of virtual work",
+        "D: Conservation of energy principle"
+      ],
+      "correct_answer": "A",
+      "explanation": "The principle of least action, also known as Hamilton's principle, states that the actual path of a system between two points is the one for which the action is minimized. This principle is central in analytical mechanics and connects kinematics with dynamics.",
+      "difficulty": 6,
+      "subcategory": "Wirkungsprinzipien (Überblick)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Potentiale & Hauptsätze der Gleichgewichtsthermodynamik",
+      "question": "Which of the following statements describes the relationship between a system's entropy and its thermodynamic equilibrium?",
+      "choices": [
+        "A: At constant volume, entropy remains constant regardless of temperature.",
+        "B: The entropy of a system remains constant as long as no work is done.",
+        "C: The entropy of an isolated system increases over time until the system reaches thermodynamic equilibrium.",
+        "D: Entropy can only be decreased by external influences."
+      ],
+      "correct_answer": "C",
+      "explanation": "The second law of thermodynamics states that the entropy of an isolated system increases over time, leading to the attainment of thermodynamic equilibrium. This is crucial for understanding irreversible processes in statistical mechanics.",
+      "difficulty": 7,
+      "subcategory": "Potentiale & Hauptsätze der Gleichgewichtsthermodynamik"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Fabry–Perot-Interferometer (Vielfachinterferenzen)",
+      "question": "What is the main principle of a Fabry-Perot interferometer?",
+      "choices": [
+        "A: Interference of light waves through repeated reflections",
+        "B: Deflection of light rays through a prism",
+        "C: Refraction of light through a lens",
+        "D: Generation of electrons through light radiation"
+      ],
+      "correct_answer": "A",
+      "explanation": "A Fabry-Perot interferometer utilizes the interference of light waves created by repeated reflections between two parallel mirrors. These interferences lead to characteristic patterns that can be used to analyze light sources.",
+      "difficulty": 3,
+      "subcategory": "Fabry–Perot-Interferometer (Vielfachinterferenzen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Brownsche Bewegung",
+      "question": "What does Brownian motion describe?",
+      "choices": [
+        "A: The random movement of particles in liquids or gases due to collisions with molecules.",
+        "B: The oscillations of a pendulum in a constant field.",
+        "C: The uniform motion of objects in a vacuum.",
+        "D: The motion of planets in a gravitationally stable system."
+      ],
+      "correct_answer": "A",
+      "explanation": "Brownian motion describes the chaotic, random movement of small particles suspended in a liquid or gas. This movement arises from the constant collisions of the particles with the rapidly moving molecules of the surrounding substance.",
+      "difficulty": 5,
+      "subcategory": "Brownsche Bewegung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Bezug zur Quantenmechanik (Kommutator ↔ Poisson)",
+      "question": "Which of the following pairs describes a relationship between the commutator in quantum mechanics and the Poisson brackets in classical mechanics?",
+      "choices": [
+        "A: The commutator is independent of the Poisson brackets.",
+        "B: Both concepts are identical and describe the same physical phenomena.",
+        "C: The commutator of two observables corresponds to the Poisson bracket of the corresponding classical quantities.",
+        "D: The Poisson brackets are an extension of the commutator."
+      ],
+      "correct_answer": "C",
+      "explanation": "In analytical mechanics and quantum mechanics, there is a close connection between the Poisson brackets of classical mechanics and the commutators of quantum mechanics. The commutator of two observables corresponds to the Poisson bracket of the respective classical quantities, which is an important aspect of quantum mechanical formalism.",
+      "difficulty": 4,
+      "subcategory": "Bezug zur Quantenmechanik (Kommutator ↔ Poisson)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Einfache Anwendungen der Lagrange-Gleichungen",
+      "question": "What does the Lagrange equation of the first kind describe for a system with a generalized coordinate q?",
+      "choices": [
+        "A: F = ma",
+        "B: ∂L/∂q = 0",
+        "C: d/dt(∂L/∂q') - ∂L/∂q = 0",
+        "D: T + V = E"
+      ],
+      "correct_answer": "C",
+      "explanation": "The Lagrange equation of the first kind describes the dynamics of a system in terms of the Lagrangian function L. This equation is crucial for deriving the equations of motion of a system with generalized coordinates and their derivatives.",
+      "difficulty": 4,
+      "subcategory": "Einfache Anwendungen der Lagrange-Gleichungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Gibbs-Phasenregel; Mehrkomponenten-Gleichgewichte",
+      "question": "What does the Gibbs phase rule describe in a system with multiple components?",
+      "choices": [
+        "A: The number of phases is equal to the number of components minus two.",
+        "B: The number of phases is always equal to the number of components.",
+        "C: The number of phases is independent of the number of components.",
+        "D: The number of phases is equal to the number of components minus the number of degrees of freedom plus two."
+      ],
+      "correct_answer": "D",
+      "explanation": "The Gibbs phase rule is a fundamental principle in thermodynamics that describes how many phases can coexist in a chemical system. It states that the number of phases (P) is equal to the number of components (C) minus the number of degrees of freedom (F) plus two: P = C - F + 2.",
+      "difficulty": 7,
+      "subcategory": "Gibbs-Phasenregel; Mehrkomponenten-Gleichgewichte"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Erster Hauptsatz & innere Energie",
+      "question": "What does the first law of thermodynamics state regarding the internal energy of a system?",
+      "choices": [
+        "A: The internal energy of a system cannot be changed.",
+        "B: The change in the internal energy of a system is equal to the heat added minus the work done.",
+        "C: The internal energy of a closed system remains constant.",
+        "D: The internal energy of a system depends only on temperature."
+      ],
+      "correct_answer": "B",
+      "explanation": "The first law of thermodynamics states that the change in the internal energy of a system is equal to the heat added minus the work done. This means that energy is not lost but rather transformed from one form to another.",
+      "difficulty": 6,
+      "subcategory": "Erster Hauptsatz & innere Energie"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Gleichgewichtsbedingungen (allgemein)",
+      "question": "What does thermodynamic equilibrium describe?",
+      "choices": [
+        "A: A state where no macroscopic changes occur anymore.",
+        "B: A state where all particles move uniformly.",
+        "C: A state where no energy conversions take place.",
+        "D: A state where the temperature always remains constant."
+      ],
+      "correct_answer": "A",
+      "explanation": "Thermodynamic equilibrium describes a state in which all macroscopic quantities, such as temperature, pressure, and volume, are constant and no changes occur over time. In this state, there is a balance between the different forms of energy and processes.",
+      "difficulty": 4,
+      "subcategory": "Gleichgewichtsbedingungen (allgemein)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Kanonisches Ensemble: Dichtematrix & Zustandssumme",
+      "question": "Which statement about the partition function Z of a canonical ensemble is correct?",
+      "choices": [
+        "A: It does not depend on the temperature of the system.",
+        "B: It is the sum of Boltzmann factors over all possible states of the system.",
+        "C: It describes the probability that all particles are in the same quantum mechanical state.",
+        "D: It is the product of the individual densities of the particles."
+      ],
+      "correct_answer": "B",
+      "explanation": "The partition function Z of a canonical ensemble is actually the sum of Boltzmann factors over all possible states of the system and thus depends on the temperature. This quantity is crucial for calculating thermodynamic properties in statistical mechanics.",
+      "difficulty": 6,
+      "subcategory": "Kanonisches Ensemble: Dichtematrix & Zustandssumme"
+    }
+  ]
+}

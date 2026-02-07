@@ -1,0 +1,169 @@
+{
+  "date": "2026-02-07",
+  "generated_at": "2026-02-07T04:27:20Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Wirkungsprinzipien (Überblick)",
+      "question": "Welches Prinzip beschreibt die Bewegung eines Systems als das Minimieren der Wirkung?",
+      "choices": [
+        "A: Prinzip der kleinsten Wirkung",
+        "B: Prinzip von Newton",
+        "C: Prinzip der virtuellen Arbeit",
+        "D: Erhaltungssatz der Energie"
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Prinzip der kleinsten Wirkung, auch als Hamiltonsches Prinzip bekannt, besagt, dass die tatsächliche Bahn eines Systems zwischen zwei Punkten diejenige ist, für die die Wirkung minimiert wird. Dieses Prinzip ist zentral in der analytischen Mechanik und verbindet die Kinematik mit der Dynamik.",
+      "difficulty": 6,
+      "subcategory": "Wirkungsprinzipien (Überblick)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Potentiale & Hauptsätze der Gleichgewichtsthermodynamik",
+      "question": "Welcher der folgenden Sätze beschreibt den Zusammenhang zwischen der Entropie eines Systems und dessen thermodynamischem Gleichgewicht?",
+      "choices": [
+        "A: Bei konstantem Volumen bleibt die Entropie immer gleich, unabhängig von der Temperatur.",
+        "B: Die Entropie eines Systems bleibt konstant, solange keine Arbeit verrichtet wird.",
+        "C: Die Entropie eines isolierten Systems nimmt im Laufe der Zeit zu, bis das System thermodynamisches Gleichgewicht erreicht.",
+        "D: Die Entropie kann nur durch äußere Einflüsse verringert werden."
+      ],
+      "correct_answer": "C",
+      "explanation": "Der zweite Hauptsatz der Thermodynamik besagt, dass die Entropie eines isolierten Systems im Laufe der Zeit zunimmt, was zur Erreichung des thermodynamischen Gleichgewichts führt. Dies ist entscheidend für das Verständnis von irreversiblen Prozessen in der Statistischen Mechanik.",
+      "difficulty": 7,
+      "subcategory": "Potentiale & Hauptsätze der Gleichgewichtsthermodynamik"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Fabry–Perot-Interferometer (Vielfachinterferenzen)",
+      "question": "Was ist das Hauptprinzip eines Fabry–Perot-Interferometers?",
+      "choices": [
+        "A: Überlagerung von Lichtwellen durch wiederholte Reflexionen",
+        "B: Ablenkung von Lichtstrahlen durch ein Prisma",
+        "C: Brechung von Licht an einer Linse",
+        "D: Erzeugung von Elektronen durch Lichtstrahlung"
+      ],
+      "correct_answer": "A",
+      "explanation": "Ein Fabry–Perot-Interferometer nutzt die Überlagerung von Lichtwellen, die durch wiederholte Reflexionen zwischen zwei parallelen Spiegeln entstehen. Diese Interferenzen führen zu charakteristischen Mustern, die zur Analyse von Lichtquellen verwendet werden können.",
+      "difficulty": 3,
+      "subcategory": "Fabry–Perot-Interferometer (Vielfachinterferenzen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Brownsche Bewegung",
+      "question": "Was beschreibt die Brownsche Bewegung?",
+      "choices": [
+        "A: Die zufällige Bewegung von Partikeln in Flüssigkeiten oder Gasen aufgrund von Kollisionen mit Molekülen.",
+        "B: Die Schwingungen eines Pendels in einem konstanten Feld.",
+        "C: Die gleichmäßige Bewegung von Objekten in einem Vakuum.",
+        "D: Die Bewegung von Planeten in einem gravitativ stabilen System."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Brownsche Bewegung beschreibt die chaotische, zufällige Bewegung von kleinen Partikeln, die in einer Flüssigkeit oder einem Gas suspendiert sind. Diese Bewegung entsteht durch die ständigen Kollisionen der Partikel mit den sich schnell bewegenden Molekülen der umgebenden Substanz.",
+      "difficulty": 5,
+      "subcategory": "Brownsche Bewegung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Bezug zur Quantenmechanik (Kommutator ↔ Poisson)",
+      "question": "Welches der folgenden Paare beschreibt eine Beziehung zwischen dem Kommutator in der Quantenmechanik und den Poisson-Klammern in der klassischen Mechanik?",
+      "choices": [
+        "A: Der Kommutator ist unabhängig von den Poisson-Klammern.",
+        "B: Beide Konzepte sind identisch und beschreiben dieselben physikalischen Phänomene.",
+        "C: Der Kommutator von zwei Observablen entspricht der Poisson-Klammer der korrespondierenden klassischen Größen.",
+        "D: Die Poisson-Klammern sind eine Erweiterung des Kommutators."
+      ],
+      "correct_answer": "C",
+      "explanation": "In der Analytischen Mechanik und Quantenmechanik gibt es eine enge Verbindung zwischen den Poisson-Klammern der klassischen Mechanik und den Kommutatoren der Quantenmechanik. Der Kommutator zweier Observablen entspricht der Poisson-Klammer der entsprechenden klassischen Größen, was einen wichtigen Aspekt der quantenmechanischen Formalismus darstellt.",
+      "difficulty": 4,
+      "subcategory": "Bezug zur Quantenmechanik (Kommutator ↔ Poisson)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Einfache Anwendungen der Lagrange-Gleichungen",
+      "question": "Was ist die Lagrange-Gleichung erster Art für ein System mit einer Generalisierten Koordinate q?",
+      "choices": [
+        "A: F = ma",
+        "B: ∂L/∂q = 0",
+        "C: d/dt(∂L/∂q') - ∂L/∂q = 0",
+        "D: T + V = E"
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Lagrange-Gleichung erster Art beschreibt die Dynamik eines Systems in Bezug auf die Lagrange-Funktion L. Diese Gleichung ist entscheidend für die Ableitung der Bewegungsgleichungen eines Systems mit verallgemeinerten Koordinaten und deren Ableitungen.",
+      "difficulty": 4,
+      "subcategory": "Einfache Anwendungen der Lagrange-Gleichungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Gibbs-Phasenregel; Mehrkomponenten-Gleichgewichte",
+      "question": "Was beschreibt die Gibbs-Phasenregel in einem System mit mehreren Komponenten?",
+      "choices": [
+        "A: Die Anzahl der Phasen ist gleich der Anzahl der Komponenten minus zwei.",
+        "B: Die Anzahl der Phasen ist immer gleich der Anzahl der Komponenten.",
+        "C: Die Anzahl der Phasen ist unabhängig von der Anzahl der Komponenten.",
+        "D: Die Anzahl der Phasen ist gleich der Anzahl der Komponenten minus der Anzahl der Freiheitsgrade plus zwei."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Gibbs-Phasenregel ist ein fundamentales Prinzip in der Thermodynamik, das beschreibt, wie viele Phasen in einem chemischen System koexistieren können. Sie besagt, dass die Anzahl der Phasen (P) gleich der Anzahl der Komponenten (C) minus der Anzahl der Freiheitsgrade (F) plus zwei ist: P = C - F + 2.",
+      "difficulty": 7,
+      "subcategory": "Gibbs-Phasenregel; Mehrkomponenten-Gleichgewichte"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Erster Hauptsatz & innere Energie",
+      "question": "Was besagt der erste Hauptsatz der Thermodynamik in Bezug auf die innere Energie eines Systems?",
+      "choices": [
+        "A: Die innere Energie eines Systems kann nicht verändert werden.",
+        "B: Die Änderung der inneren Energie eines Systems ist gleich der zugeführten Wärme minus der geleisteten Arbeit.",
+        "C: Die innere Energie eines geschlossenen Systems bleibt konstant.",
+        "D: Die innere Energie eines Systems hängt nur von der Temperatur ab."
+      ],
+      "correct_answer": "B",
+      "explanation": "Der erste Hauptsatz der Thermodynamik besagt, dass die Änderung der inneren Energie eines Systems gleich der zugeführten Wärme minus der geleisteten Arbeit ist. Dies bedeutet, dass Energie nicht verloren geht, sondern von einer Form in eine andere umgewandelt wird.",
+      "difficulty": 6,
+      "subcategory": "Erster Hauptsatz & innere Energie"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Gleichgewichtsbedingungen (allgemein)",
+      "question": "Was beschreibt das thermodynamische Gleichgewicht?",
+      "choices": [
+        "A: Ein Zustand, in dem keine makroskopischen Änderungen mehr auftreten.",
+        "B: Ein Zustand, in dem alle Teilchen sich gleichmäßig bewegen.",
+        "C: Ein Zustand, in dem keine Energieumwandlungen stattfinden.",
+        "D: Ein Zustand, in dem die Temperatur immer konstant bleibt."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das thermodynamische Gleichgewicht beschreibt einen Zustand, in dem alle makroskopischen Größen, wie Temperatur, Druck und Volumen, konstant sind und keine Änderungen über die Zeit stattfinden. In diesem Zustand herrscht ein Gleichgewicht zwischen den verschiedenen Energieformen und Prozessen.",
+      "difficulty": 4,
+      "subcategory": "Gleichgewichtsbedingungen (allgemein)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Kanonisches Ensemble: Dichtematrix & Zustandssumme",
+      "question": "Welche Aussage über die Zustandssumme Z eines kanonischen Ensembles ist korrekt?",
+      "choices": [
+        "A: Sie hängt nicht von der Temperatur des Systems ab.",
+        "B: Sie ist die Summe der Boltzmannfaktoren über alle möglichen Zustände des Systems.",
+        "C: Sie beschreibt die Wahrscheinlichkeit, dass alle Teilchen im selben quantenmechanischen Zustand sind.",
+        "D: Sie ist das Produkt der Einzeldichten der Teilchen."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Zustandssumme Z eines kanonischen Ensembles ist tatsächlich die Summe der Boltzmannfaktoren über alle möglichen Zustände des Systems und hängt somit von der Temperatur ab. Diese Größe ist entscheidend für die Berechnung thermodynamischer Eigenschaften in der statistischen Mechanik.",
+      "difficulty": 6,
+      "subcategory": "Kanonisches Ensemble: Dichtematrix & Zustandssumme"
+    }
+  ]
+}
