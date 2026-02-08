@@ -1,0 +1,168 @@
+{
+  "date": "2026-02-08",
+  "generated_at": "2026-02-08T04:59:36Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Begrenzungen in optischen Systemen (Apertur, Vignettierung)",
+      "question": "What does the term 'aperture' describe in an optical system?",
+      "choices": [
+        "A: The type of lens used in a microscope.",
+        "B: The angle at which light is refracted through a prism.",
+        "C: The opening through which light enters a system.",
+        "D: The maximum distance a light beam can travel."
+      ],
+      "correct_answer": "C",
+      "explanation": "The aperture is the opening of an optical system that determines how much light enters the system. A larger aperture allows for better light intake and thus a clearer image. It also influences the depth of field of an image.",
+      "difficulty": 2,
+      "subcategory": "Begrenzungen in optischen Systemen (Apertur, Vignettierung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Oberflächenspannung",
+      "question": "What describes the surface tension of a liquid body?",
+      "choices": [
+        "A: The viscosity of the liquid.",
+        "B: The temperature at which a liquid evaporates.",
+        "C: The force that holds molecules at the surface of a liquid together.",
+        "D: The ability of the liquid to conform to a shape."
+      ],
+      "correct_answer": "C",
+      "explanation": "Surface tension is a force that arises from the intermolecular attractive forces at the surface of a liquid. It causes the surface of the liquid to act like an elastic skin and influences the behavior of liquids in contact with other materials.",
+      "difficulty": 3,
+      "subcategory": "Oberflächenspannung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Clebsch–Gordan-Koeffizienten",
+      "question": "Which of the following statements about the Clebsch–Gordan coefficients is correct?",
+      "choices": [
+        "A: Clebsch–Gordan coefficients are only applicable to bosonic systems.",
+        "B: They describe the coupling of two spins and are always real.",
+        "C: Clebsch–Gordan coefficients can take negative values.",
+        "D: They are crucial for the decomposition of product states into uncoupled states."
+      ],
+      "correct_answer": "D",
+      "explanation": "The Clebsch–Gordan coefficients are important for describing the coupling of quantum mechanical states, especially in the decomposition of product states into a system of different angular momentum and spin quantum numbers. These coefficients are crucial for correctly defining and calculating the resulting basis states.",
+      "difficulty": 10,
+      "subcategory": "Clebsch–Gordan-Koeffizienten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Randwertprobleme & Energie in Dielektrika",
+      "question": "Which statement about energy in a dielectric under the influence of an electric field is correct?",
+      "choices": [
+        "A: Energy is stored through the polarization of the dielectric.",
+        "B: Energy remains constant regardless of polarization.",
+        "C: Energy is completely converted into heat.",
+        "D: Energy can only be stored in a vacuum."
+      ],
+      "correct_answer": "A",
+      "explanation": "In a dielectric, energy is stored through the polarization of the material when subjected to an electric field. This polarization leads to a reduction of the electric field within the material and allows for the storage of energy in the form of electric fields within the dielectric.",
+      "difficulty": 6,
+      "subcategory": "Randwertprobleme & Energie in Dielektrika"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Ginzburg–Landau-Funktional: Herleitung",
+      "question": "Which of the following concepts is central to deriving the Ginzburg–Landau functional in statistical mechanics?",
+      "choices": [
+        "A: Newton's laws of motion.",
+        "B: The relationship between order and disorder in a system.",
+        "C: The quantum mechanical description of particles.",
+        "D: The conservation of energy in closed systems."
+      ],
+      "correct_answer": "B",
+      "explanation": "The Ginzburg–Landau functional describes phase transitions and the relationship between order and disorder in a system. It is particularly relevant for superconductors and other materials exhibiting complex phase behavior.",
+      "difficulty": 5,
+      "subcategory": "Ginzburg–Landau-Funktional: Herleitung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Inertialsysteme (Definition und Eigenschaften)",
+      "question": "What is an inertial system in physics?",
+      "choices": [
+        "A: A reference system in which the oscillations of a pendulum are always constant.",
+        "B: A reference system that only applies to very high speeds and considers time dilation.",
+        "C: A reference system in which all motions are relative and no fixed reference points exist.",
+        "D: A reference system in which a body on which no external forces act remains at rest or moves uniformly in a straight line."
+      ],
+      "correct_answer": "D",
+      "explanation": "An inertial system is a reference system in which a body remains at rest or in uniform motion without external forces acting on it. It is fundamental for formulating Newton's laws and forms the basis of the theory of relativity.",
+      "difficulty": 4,
+      "subcategory": "Inertialsysteme (Definition und Eigenschaften)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Relativität der Gleichzeitigkeit",
+      "question": "What does the concept of the relativity of simultaneity describe?",
+      "choices": [
+        "A: Two events perceived as simultaneous by one observer may be perceived differently by another observer.",
+        "B: Time passes at the same rate for all observers.",
+        "C: Events that occur simultaneously in one inertial system are also simultaneous in all other inertial systems.",
+        "D: The speed of light is the same in all inertial systems."
+      ],
+      "correct_answer": "A",
+      "explanation": "The relativity of simultaneity states that events appearing simultaneous in one inertial system may be ordered differently by another observer in a different inertial system. This is a fundamental insight of Einstein's special theory of relativity.",
+      "difficulty": 4,
+      "subcategory": "Relativität der Gleichzeitigkeit"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Energietransport in Wellenfeldern (Poynting-Vektor)",
+      "question": "Which expression describes the Poynting vector characterizing energy transport in an electromagnetic field?",
+      "choices": [
+        "A: E x B",
+        "B: E + B",
+        "C: E / B",
+        "D: E · B"
+      ],
+      "correct_answer": "A",
+      "explanation": "The Poynting vector is described by the cross product of the electric field strength E and the magnetic field strength B, representing energy transport in an electromagnetic field. The Poynting vector is crucial for understanding how energy flows in these fields.",
+      "difficulty": 6,
+      "subcategory": "Energietransport in Wellenfeldern (Poynting-Vektor)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Impulsoperator & Orts-/Impulsdarstellung",
+      "question": "Which operator is used in quantum mechanics to describe the momentum of a particle?",
+      "choices": [
+        "A: E/c",
+        "B: ħ^2 ∇^2",
+        "C: -iħ ∇",
+        "D: m * v"
+      ],
+      "correct_answer": "C",
+      "explanation": "The momentum operator in quantum mechanics is represented by the expression -iħ ∇, where ħ is the reduced Planck constant and ∇ is the nabla operator. This operator is crucial for describing the momentum representation of quantum mechanical states.",
+      "difficulty": 5,
+      "subcategory": "Impulsoperator & Orts-/Impulsdarstellung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Phasen (Definitionen, Beispiele)",
+      "question": "Which of the following phases is an example of a solid state?",
+      "choices": [
+        "A: Water vapor",
+        "B: Mist",
+        "C: Ice",
+        "D: Water"
+      ],
+      "correct_answer": "C",
+      "explanation": "Ice is the solid form of water, while water itself represents the liquid phase. Water vapor and mist are examples of gaseous or mixed phases of water.",
+      "difficulty": 3,
+      "subcategory": "Phasen (Definitionen, Beispiele)"
+    }
+  ]
+}

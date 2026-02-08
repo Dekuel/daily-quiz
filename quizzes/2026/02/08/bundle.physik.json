@@ -1,0 +1,169 @@
+{
+  "date": "2026-02-08",
+  "generated_at": "2026-02-08T04:59:06Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Begrenzungen in optischen Systemen (Apertur, Vignettierung)",
+      "question": "Was beschreibt der Begriff 'Apertur' in einem optischen System?",
+      "choices": [
+        "A: Die Art der Linse, die in einem Mikroskop verwendet wird.",
+        "B: Den Winkel, in dem Licht durch ein Prisma gebrochen wird.",
+        "C: Die Öffnung, durch die Licht in ein System eintritt.",
+        "D: Die maximale Entfernung, die ein Lichtstrahl zurücklegen kann."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Apertur ist die Öffnung eines optischen Systems, die bestimmt, wie viel Licht ins System gelangt. Eine größere Apertur ermöglicht eine bessere Lichtaufnahme und somit eine klarere Abbildung. Sie beeinflusst auch die Schärfentiefe eines Bildes.",
+      "difficulty": 2,
+      "subcategory": "Begrenzungen in optischen Systemen (Apertur, Vignettierung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Oberflächenspannung",
+      "question": "Was beschreibt die Oberflächenspannung eines Flüssigkeitskörpers?",
+      "choices": [
+        "A: Die Viskosität der Flüssigkeit.",
+        "B: Die Temperatur, bei der eine Flüssigkeit verdampft.",
+        "C: Die Kraft, die Moleküle an der Oberfläche einer Flüssigkeit zusammenhält.",
+        "D: Die Fähigkeit der Flüssigkeit, sich in eine Form zu bringen."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Oberflächenspannung ist eine Kraft, die durch die intermolekularen Anziehungskräfte an der Oberfläche einer Flüssigkeit entsteht. Sie sorgt dafür, dass die Oberfläche der Flüssigkeit wie eine elastische Haut wirkt und beeinflusst das Verhalten von Flüssigkeiten in Kontakt mit anderen Materialien.",
+      "difficulty": 3,
+      "subcategory": "Oberflächenspannung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Clebsch–Gordan-Koeffizienten",
+      "question": "Welche der folgenden Aussagen über die Clebsch–Gordan-Koeffizienten ist korrekt?",
+      "choices": [
+        "A: Clebsch–Gordan-Koeffizienten sind nur für bosonische System anwendbar.",
+        "B: Sie beschreiben die Kopplung von zwei Spins und sind immer reell.",
+        "C: Clebsch–Gordan-Koeffizienten können negative Werte annehmen.",
+        "D: Sie sind entscheidend für die Zerlegung von Produktzuständen in entkoppelte Zustände."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Clebsch–Gordan-Koeffizienten sind wichtig für die Beschreibung der Kopplung von quantenmechanischen Zuständen, insbesondere bei der Zerlegung von Produktzuständen in ein System aus verschiedenen Impuls- und Spinquantenzahlen. Diese Koeffizienten sind entscheidend, um die resultierenden Basiszustände korrekt zu definieren und zu berechnen.",
+      "difficulty": 10,
+      "subcategory": "Clebsch–Gordan-Koeffizienten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Randwertprobleme & Energie in Dielektrika",
+      "question": "Welche Aussage über die Energie in einem Dielektrikum unter Einfluss eines elektrischen Feldes ist korrekt?",
+      "choices": [
+        "A: Die Energie wird durch Polarisation des Dielektrikums gespeichert.",
+        "B: Die Energie bleibt konstant, unabhängig von der Polarisation.",
+        "C: Die Energie wird vollständig in Wärme umgewandelt.",
+        "D: Die Energie kann nur in einem Vakuum gespeichert werden."
+      ],
+      "correct_answer": "A",
+      "explanation": "In einem Dielektrikum wird die Energie durch die Polarisation des Materials gespeichert, wenn es einem elektrischen Feld ausgesetzt wird. Diese Polarisation führt zu einer Verringerung des elektrischen Feldes im Material und ermöglicht die Speicherung von Energie in Form von elektrischen Feldern innerhalb des Dielektrikums.",
+      "difficulty": 6,
+      "subcategory": "Randwertprobleme & Energie in Dielektrika"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Ginzburg–Landau-Funktional: Herleitung",
+      "question": "Welches der folgenden Konzepte ist zentral für die Herleitung des Ginzburg–Landau-Funktionals in der statistischen Mechanik?",
+      "choices": [
+        "A: Die Newton'schen Gesetze der Bewegung.",
+        "B: Der Zusammenhang zwischen Ordnung und Unordnung in einem System.",
+        "C: Die quantenmechanische Beschreibung von Teilchen.",
+        "D: Die Erhaltung der Energie in geschlossenen Systemen."
+      ],
+      "correct_answer": "B",
+      "explanation": "Das Ginzburg–Landau-Funktional beschreibt Phasenübergänge und die Beziehung zwischen Ordnung und Unordnung in einem System. Es ist besonders relevant für Supraleiter und andere Materialien, die komplexe Phasenverhalten zeigen.",
+      "difficulty": 5,
+      "subcategory": "Ginzburg–Landau-Funktional: Herleitung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Inertialsysteme (Definition und Eigenschaften)",
+      "question": "Was ist ein Inertialsystem in der Physik?",
+      "choices": [
+        "A: Ein Bezugssystem, in dem die Schwingungen eines Pendels immer konstant sind.",
+        "B: Ein Bezugssystem, das nur für sehr hohe Geschwindigkeiten gilt und die Zeitdilatation berücksichtigt.",
+        "C: Ein Bezugssystem, in dem alle Bewegungen relativ sind und keine festen Bezugspunkte existieren.",
+        "D: Ein Bezugssystem, in dem ein Körper, auf den keine äußeren Kräfte wirken, in Ruhe bleibt oder sich gleichförmig geradlinig bewegt."
+      ],
+      "correct_answer": "D",
+      "explanation": "Ein Inertialsystem ist ein Bezugssystem, in dem sich ein Körper ohne äußere Kräfte in einem Zustand der Ruhe oder geradlinigen Bewegung befindet. Es ist grundlegend für die Formulierung der Newtonschen Gesetze und bildet die Basis der Relativitätstheorie.",
+      "difficulty": 4,
+      "subcategory": "Inertialsysteme (Definition und Eigenschaften)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Relativität der Gleichzeitigkeit",
+      "question": "Was beschreibt das Konzept der Relativität der Gleichzeitigkeit?",
+      "choices": [
+        "A: Zwei Ereignisse, die von einem Beobachter als gleichzeitig wahrgenommen werden, können von einem anderen Beobachter unterschiedlich wahrgenommen werden.",
+        "B: Zeit vergeht für alle Beobachter immer gleich schnell.",
+        "C: Ereignisse, die in einem Inertialsystem gleichzeitig stattfinden, sind auch in allen anderen Inertialsystemen gleichzeitig.",
+        "D: Die Geschwindigkeit des Lichts ist in allen Inertialsystemen gleich."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Relativität der Gleichzeitigkeit besagt, dass Ereignisse, die in einem Inertialsystem gleichzeitig erscheinen, von einem anderen Beobachter in einem anderen Inertialsystem unterschiedlich eingeordnet werden können. Dies ist eine grundlegende Einsicht der speziellen Relativitätstheorie von Einstein.",
+      "difficulty": 4,
+      "subcategory": "Relativität der Gleichzeitigkeit"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Energietransport in Wellenfeldern (Poynting-Vektor)",
+      "question": "Welcher Ausdruck beschreibt den Poynting-Vektor, der den Energietransport in einem elektromagnetischen Feld charakterisiert?",
+      "choices": [
+        "A: E x B",
+        "B: E + B",
+        "C: E / B",
+        "D: E · B"
+      ],
+      "correct_answer": "A",
+      "explanation": "Der Poynting-Vektor wird durch das Kreuzprodukt der elektrischen Feldstärke E und der magnetischen Feldstärke B beschrieben, was den Energietransport in einem elektromagnetischen Feld darstellt. Der Poynting-Vektor ist somit entscheidend für das Verständnis, wie Energie in diesen Feldern fließt.",
+      "difficulty": 6,
+      "subcategory": "Energietransport in Wellenfeldern (Poynting-Vektor)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Impulsoperator & Orts-/Impulsdarstellung",
+      "question": "Welcher Operator wird in der Quantenmechanik verwendet, um den Impuls eines Teilchens zu beschreiben?",
+      "choices": [
+        "A: E/c",
+        "B: ħ^2 ∇^2",
+        "C: -iħ ∇",
+        "D: m * v"
+      ],
+      "correct_answer": "C",
+      "explanation": "Der Impulsoperator in der Quantenmechanik wird durch den Ausdruck -iħ ∇ dargestellt, wobei ħ das reduzierte Plancksche Wirkungsquantum ist und ∇ der Nabla-Operator ist. Dieser Operator ist entscheidend für die Beschreibung der Impulsdarstellung von quantenmechanischen Zuständen.",
+      "difficulty": 5,
+      "subcategory": "Impulsoperator & Orts-/Impulsdarstellung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Phasen (Definitionen, Beispiele)",
+      "question": "Welche der folgenden Phasen ist ein Beispiel für einen festen Zustand?",
+      "choices": [
+        "A: Wasserdampf",
+        "B: Nebel",
+        "C: Eis",
+        "D: Wasser"
+      ],
+      "correct_answer": "C",
+      "explanation": "Eis ist die feste Form von Wasser, während Wasser selbst die flüssige Phase darstellt. Wasserdampf und Nebel sind Beispiele für gasförmige bzw. gemischte Phasen von Wasser.",
+      "difficulty": 3,
+      "subcategory": "Phasen (Definitionen, Beispiele)"
+    }
+  ]
+}
