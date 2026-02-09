@@ -1,0 +1,168 @@
+{
+  "date": "2026-02-09",
+  "generated_at": "2026-02-09T04:58:02Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Potentiale des idealen Gases",
+      "question": "What does the ideal gas law describe?",
+      "choices": [
+        "A: The relationship between the pressure, volume, and temperature of a gas.",
+        "B: The chemical reaction of gases.",
+        "C: The density of a gas at different temperatures.",
+        "D: The movement of molecules in a solid body."
+      ],
+      "correct_answer": "A",
+      "explanation": "The ideal gas law describes how pressure, volume, and temperature of an ideal gas are related to each other. It is a fundamental relationship in thermodynamics and applies under certain conditions to most gases.",
+      "difficulty": 2,
+      "subcategory": "Potentiale des idealen Gases"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Ladungsradius von Pionen und Kaonen",
+      "question": "Which of the following statements about the charge radius of pions and kaons is correct?",
+      "choices": [
+        "A: The charge radius of a kaon is larger than that of a pion.",
+        "B: The charge radius of pions and kaons is irrelevant to their properties.",
+        "C: Pions and kaons have the same charge radius.",
+        "D: The charge radius of a pion is larger than that of a kaon."
+      ],
+      "correct_answer": "A",
+      "explanation": "The charge radius of a kaon is actually larger than that of a pion because kaons have an additional quark component leading to a larger spatial extent. This knowledge is important for understanding the differences in their physical properties.",
+      "difficulty": 5,
+      "subcategory": "Ladungsradius von Pionen und Kaonen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Trägheitstensor & -ellipsoid",
+      "question": "What does the inertia tensor of a body describe?",
+      "choices": [
+        "A: The velocity of a body in a vacuum.",
+        "B: The distribution of mass of a body and its influence on its rotational motion.",
+        "C: The temperature of a body in a closed system.",
+        "D: The electric charge of a body."
+      ],
+      "correct_answer": "B",
+      "explanation": "The inertia tensor is a mathematical object that describes the mass distribution of a body and how it affects its rotational motion. It is crucial for calculating rotational dynamics and shows how mass is distributed around different axes.",
+      "difficulty": 1,
+      "subcategory": "Trägheitstensor & -ellipsoid"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Coulomb-Potential (Wasserstoffatom): Energiespektrum",
+      "question": "What is the energy of the n=1 state in the hydrogen atom according to quantum mechanics?",
+      "choices": [
+        "A: -1.5 eV",
+        "B: -13.6 eV",
+        "C: 0 eV",
+        "D: -3.4 eV"
+      ],
+      "correct_answer": "B",
+      "explanation": "In the hydrogen atom, the energy of the ground state (n=1) according to quantum mechanics is -13.6 eV. This energy is negative, indicating that the electron is bound to the proton. Higher n values correspond to higher energies that are less negative.",
+      "difficulty": 6,
+      "subcategory": "Coulomb-Potential (Wasserstoffatom): Energiespektrum"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Modifiziertes Hamilton’sches Prinzip",
+      "question": "Which of the following elements is a central component of the modified Hamiltonian principle used in analytical mechanics?",
+      "choices": [
+        "A: The conservation of energy",
+        "B: The symmetry of spacetime",
+        "C: The variation of action integrals",
+        "D: The quantum mechanical uncertainty principle"
+      ],
+      "correct_answer": "C",
+      "explanation": "The modified Hamiltonian principle is based on the variation of action integrals, allowing the derivation of the motion equations of a system. It is an extension of the classical Hamiltonian principle and considers possible constraints and variations in a system.",
+      "difficulty": 7,
+      "subcategory": "Modifiziertes Hamilton’sches Prinzip"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Rotationszustände",
+      "question": "What does the rotational state of a nucleus describe?",
+      "choices": [
+        "A: The number of protons in the nucleus.",
+        "B: The temperature of the nucleus.",
+        "C: The distribution of electrons around the nucleus.",
+        "D: The spin and orbital properties of the nucleons."
+      ],
+      "correct_answer": "D",
+      "explanation": "The rotational state of a nucleus refers to the spin and orbital properties of the nucleons determining the total angular momentum of the nucleus. These properties are important for understanding nuclear structure and reactions.",
+      "difficulty": 4,
+      "subcategory": "Rotationszustände"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Streuung an der harten Kugel",
+      "question": "What does the experiment of scattering on the hard sphere describe in quantum mechanics?",
+      "choices": [
+        "A: The vibrations of atoms in a crystal lattice.",
+        "B: The reflection of light on a mirror.",
+        "C: The motion of planets around the sun.",
+        "D: The interaction of particles with a solid and opaque surface."
+      ],
+      "correct_answer": "D",
+      "explanation": "The experiment of scattering on the hard sphere is a classical model for studying interactions between particles and a solid surface. It helps to understand basic concepts of quantum mechanics, especially regarding particle behavior and interactions.",
+      "difficulty": 1,
+      "subcategory": "Streuung an der harten Kugel"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Verallgemeinerte Potentiale",
+      "question": "Which of the following concepts describes the generalized potential in analytical mechanics?",
+      "choices": [
+        "A: A potential dependent on the generalized coordinates.",
+        "B: A potential independent of the forces in the system.",
+        "C: A potential used exclusively for elastic bodies.",
+        "D: A potential dependent only on time."
+      ],
+      "correct_answer": "A",
+      "explanation": "The generalized potential in analytical mechanics depends on the generalized coordinates and allows the application of Lagrangian mechanics. It describes how the energy of a system changes with respect to these coordinates.",
+      "difficulty": 4,
+      "subcategory": "Verallgemeinerte Potentiale"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Doppelspalt: Welle vs. Teilchen",
+      "question": "What does the double-slit experiment regarding light describe?",
+      "choices": [
+        "A: Light can only be described as particles.",
+        "B: Light behaves both as a wave and as a particle.",
+        "C: Light shows no interference patterns when passed through the double slit.",
+        "D: Light behaves only as a wave in a vacuum."
+      ],
+      "correct_answer": "B",
+      "explanation": "The double-slit experiment shows that light exhibits both wave and particle characteristics. When light is passed through two slits, it creates interference patterns, indicating its wave-like nature. At the same time, photons can be detected as particles, illustrating the duality of light.",
+      "difficulty": 6,
+      "subcategory": "Doppelspalt: Welle vs. Teilchen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Anwendungen: Reaktionen, kritische Dynamik",
+      "question": "Which term describes the state in which a system is at the boundary between two phases, typically at critical temperature and pressure?",
+      "choices": [
+        "A: Critical point",
+        "B: Phase transition",
+        "C: Thermal equilibrium",
+        "D: Entropy"
+      ],
+      "correct_answer": "A",
+      "explanation": "The critical point is the state where the properties of the two phases of a substance are no longer distinguishable. Phase transitions occur at this point, and the system exhibits critical dynamics.",
+      "difficulty": 4,
+      "subcategory": "Anwendungen: Reaktionen, kritische Dynamik"
+    }
+  ]
+}

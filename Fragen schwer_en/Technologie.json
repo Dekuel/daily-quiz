@@ -910,6 +910,20 @@
       "correct_answer": "A",
       "explanation": "The hard drive stores data permanently, while the processor and graphics card are responsible for processing and displaying information. On the other hand, RAM is a volatile memory that holds data temporarily as long as the computer is powered on.",
       "difficulty": 5
+    },
+    {
+      "category": "Technologie",
+      "topic": "Computer & Internet",
+      "question": "Which protocol is used to establish a secure connection between a client and a server on the internet?",
+      "choices": [
+        "A: SMTP",
+        "B: SNMP",
+        "C: HTTPS",
+        "D: FTP"
+      ],
+      "correct_answer": "C",
+      "explanation": "HTTPS (Hypertext Transfer Protocol Secure) is an extension of the HTTP protocol that ensures secure data transmission over the internet by encrypting data. The other protocols serve different purposes: FTP for file transfers, SMTP for email delivery, and SNMP for network management.",
+      "difficulty": 7
     }
   ]
 }
