@@ -1,0 +1,169 @@
+{
+  "date": "2026-02-10",
+  "generated_at": "2026-02-10T05:03:05Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Fundamentale Poisson-Klammern",
+      "question": "Was beschreibt die Poisson-Klammer zwischen zwei kanonischen Variablen in der Hamiltonschen Mechanik?",
+      "choices": [
+        "A: Die Beziehung zwischen Energiemengen in verschiedenen Zuständen.",
+        "B: Die zeitliche Änderung einer der Variablen.",
+        "C: Die Wechselwirkung zwischen zwei physikalischen Systemen.",
+        "D: Die Symmetrie der beiden Variablen."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Poisson-Klammer zwischen zwei kanonischen Variablen gibt an, wie sich die eine Variable in Bezug auf die zeitliche Änderung der anderen verhält. Sie ist ein zentrales Werkzeug zur Analyse dynamischer Systeme in der Hamiltonschen Mechanik.",
+      "difficulty": 6,
+      "subcategory": "Fundamentale Poisson-Klammern"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Heisenberg-Bild & Poisson-Klammer (klass. Limit)",
+      "question": "Welche Aussage beschreibt korrekt die Beziehung zwischen den Observablen im Heisenberg-Bild?",
+      "choices": [
+        "A: Sie sind unabhängig voneinander.",
+        "B: Sie können nicht gleichzeitig genau bestimmt werden.",
+        "C: Sie sind immer konstant.",
+        "D: Sie folgen den klassischen Poisson-Klammern."
+      ],
+      "correct_answer": "B",
+      "explanation": "Im Heisenberg-Bild ist die Unsicherheit, die durch die Heisenbergsche Unschärferelation beschrieben wird, ein zentrales Konzept. Diese Unschärfe impliziert, dass bestimmte Paare von Observablen, wie Position und Impuls, nicht gleichzeitig mit beliebiger Genauigkeit bestimmt werden können.",
+      "difficulty": 4,
+      "subcategory": "Heisenberg-Bild & Poisson-Klammer (klass. Limit)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Integraldarstellung der Rotation",
+      "question": "Welche Aussage zur Integraldarstellung der Rotation eines Vektorfeldes ist korrekt?",
+      "choices": [
+        "A: Die Rotation eines Vektorfeldes kann durch das Linienintegral entlang eines geschlossenen Pfades dargestellt werden.",
+        "B: Die Integraldarstellung der Rotation gilt nur für skalare Felder.",
+        "C: Die Rotation ist unabhängig von der Wahl des Integrationspfades.",
+        "D: Die Rotation eines Vektorfeldes ist immer null, wenn das Feld in einem geschlossenen Raum definiert ist."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Rotation eines Vektorfeldes wird durch das Linienintegral entlang eines geschlossenen Pfades beschrieben, was auf den Zusammenhang zwischen der lokalen und der globalen Eigenschaft des Feldes hinweist. Diese Darstellung ist besonders wichtig für das Verständnis von Magnetfeldern in der Elektrodynamik.",
+      "difficulty": 8,
+      "subcategory": "Integraldarstellung der Rotation"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Drude-Modell",
+      "question": "Welches der folgenden Merkmale beschreibt das Drude-Modell am besten?",
+      "choices": [
+        "A: Elektronen im Drude-Modell bewegen sich frei und elastisch durch das Gitter der Festkörper.",
+        "B: Das Drude-Modell erklärt die quantenmechanischen Eigenschaften von Elektronen in Festkörpern.",
+        "C: Das Drude-Modell basiert auf der Annahme, dass Elektronen in festen Gitterstrukturen gefangen sind.",
+        "D: Das Drude-Modell vernachlässigt die Wechselwirkungen zwischen Elektronen und dem ionischen Gitter."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Drude-Modell beschreibt die Elektronen in einem Festkörper als klassische Teilchen, die sich frei bewegen und elastische Stöße mit dem Gitter haben. Obwohl das Modell einige Einschränkungen hat, hilft es, die elektrische Leitfähigkeit und andere Eigenschaften von Metallen zu verstehen.",
+      "difficulty": 7,
+      "subcategory": "Drude-Modell"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Dotierung (n/p)",
+      "question": "Was ist das Hauptziel der Dotierung in Halbleitermaterialien?",
+      "choices": [
+        "A: Erhöhung der Lichtdurchlässigkeit",
+        "B: Verbesserung der thermischen Eigenschaften",
+        "C: Verringerung der Kristallstruktur",
+        "D: Erhöhung der elektrischen Leitfähigkeit"
+      ],
+      "correct_answer": "D",
+      "explanation": "Das Hauptziel der Dotierung in Halbleitermaterialien besteht darin, die elektrische Leitfähigkeit zu erhöhen. Durch das Hinzufügen von Donatoren oder Akzeptoren wird die Anzahl freier Ladungsträger verändert, was die elektrischen Eigenschaften des Halbleiters beeinflusst.",
+      "difficulty": 3,
+      "subcategory": "Dotierung (n/p)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Ginzburg–Landau-Funktional & -Nähe",
+      "question": "Was beschreibt das Ginzburg–Landau-Funktional in der statistischen Mechanik?",
+      "choices": [
+        "A: Die thermodynamischen Eigenschaften von supraleitenden Materialien.",
+        "B: Die Wechselwirkungen zwischen Teilchen in einem idealen Gas.",
+        "C: Die Geschwindigkeit von Licht in einem Vakuum.",
+        "D: Die Energieerhaltung in geschlossenen Systemen."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Ginzburg–Landau-Funktional beschreibt die Phasenübergänge und die thermodynamischen Eigenschaften von supraleitenden Materialien. Es wird verwendet, um das Verhalten von Materialien in der Nähe des kritischen Punktes zu analysieren.",
+      "difficulty": 3,
+      "subcategory": "Ginzburg–Landau-Funktional & -Nähe"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Erhaltungssätze in der Lagrange-Mechanik",
+      "question": "Welcher der folgenden Erhaltungssätze ist in der Lagrange-Mechanik von zentraler Bedeutung?",
+      "choices": [
+        "A: Erhaltung der Energie",
+        "B: Erhaltung des Impulses",
+        "C: Erhaltung der Ladung",
+        "D: Erhaltung der Masse"
+      ],
+      "correct_answer": "A",
+      "explanation": "In der Lagrange-Mechanik ist die Erhaltung der Energie ein grundlegender Erhaltungssatz, der sich direkt aus der Zeitinvarianz des Systems ableitet. Diese Invarianz bedeutet, dass die physikalischen Gesetze über die Zeit konstant bleiben und führt zur Erhaltung der Gesamtenergie eines Systems.",
+      "difficulty": 5,
+      "subcategory": "Erhaltungssätze in der Lagrange-Mechanik"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Projektionsapparat",
+      "question": "Was ist die Hauptfunktion eines Projektionsapparates?",
+      "choices": [
+        "A: Die Farben von Bildern zu verändern.",
+        "B: Licht zu erzeugen.",
+        "C: Geräusche zu verstärken.",
+        "D: Bilder vergrößert auf eine Fläche zu projizieren."
+      ],
+      "correct_answer": "D",
+      "explanation": "Ein Projektionsapparat dient dazu, Bilder oder Folien durch Licht vergrößert auf eine Oberfläche, wie eine Leinwand, zu projizieren. Diese Geräte werden häufig in Klassenräumen oder bei Präsentationen eingesetzt, um visuelle Informationen zu zeigen.",
+      "difficulty": 1,
+      "subcategory": "Projektionsapparat"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Goldene Regel (Fermi)",
+      "question": "Was besagt die goldene Regel von Fermi in der Kernphysik?",
+      "choices": [
+        "A: Die Wahrscheinlichkeit eines Übergangs ist proportional zum Quadrat des Matrixelements.",
+        "B: Kernreaktionen sind unabhängig von der Temperatur.",
+        "C: Alle Teilchen haben eine feste Masse und Größe.",
+        "D: Die Energieerhaltung ist für alle Kernprozesse entscheidend."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die goldene Regel von Fermi beschreibt, dass die Übergangswahrscheinlichkeit eines quantenmechanischen Prozesses proportional zum Quadrat des Matrixelements ist, was eine fundamentale Rolle in der Kernphysik spielt. Diese Regel hilft dabei, die Wechselwirkungen zwischen Teilchen in Kernreaktionen zu verstehen.",
+      "difficulty": 5,
+      "subcategory": "Goldene Regel (Fermi)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Bottonium & Toponium",
+      "question": "Was charakterisiert die Zustände von Bottonium und Toponium in der Teilchenphysik?",
+      "choices": [
+        "A: Sie entstehen nur in Hochenergie-Kollisionen von Protonen.",
+        "B: Sie bestehen aus einem Bottom- und einem Anti-Bottom-Quark bzw. einem Top- und einem Anti-Top-Quark.",
+        "C: Sie sind ausschließlich Mesonen ohne elektrische Ladung.",
+        "D: Sie sind stabil und kommen in der Natur häufig vor."
+      ],
+      "correct_answer": "B",
+      "explanation": "Bottonium und Toyonium sind Mesonen, die aus Quark-Antiquark-Paaren bestehen. Bottonium setzt sich aus einem Bottom- und einem Anti-Bottom-Quark zusammen, während Toyonium aus einem Top- und einem Anti-Top-Quark besteht. Diese Zustände sind wichtig für das Verständnis der starken Wechselwirkung und der Quantenchromodynamik.",
+      "difficulty": 6,
+      "subcategory": "Bottonium & Toponium"
+    }
+  ]
+}

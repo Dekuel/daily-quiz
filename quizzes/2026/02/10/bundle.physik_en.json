@@ -1,0 +1,168 @@
+{
+  "date": "2026-02-10",
+  "generated_at": "2026-02-10T05:03:45Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Fundamentale Poisson-Klammern",
+      "question": "What does the Poisson bracket between two canonical variables describe in Hamiltonian mechanics?",
+      "choices": [
+        "A: The relationship between energy levels in different states.",
+        "B: The temporal change of one of the variables.",
+        "C: The interaction between two physical systems.",
+        "D: The symmetry of the two variables."
+      ],
+      "correct_answer": "B",
+      "explanation": "The Poisson bracket between two canonical variables indicates how one variable behaves with respect to the temporal change of the other. It is a central tool for analyzing dynamic systems in Hamiltonian mechanics.",
+      "difficulty": 6,
+      "subcategory": "Fundamentale Poisson-Klammern"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Heisenberg-Bild & Poisson-Klammer (klass. Limit)",
+      "question": "Which statement correctly describes the relationship between observables in the Heisenberg picture?",
+      "choices": [
+        "A: They are independent of each other.",
+        "B: They cannot be precisely determined simultaneously.",
+        "C: They are always constant.",
+        "D: They follow the classical Poisson brackets."
+      ],
+      "correct_answer": "B",
+      "explanation": "In the Heisenberg picture, the uncertainty described by the Heisenberg Uncertainty Principle is a central concept. This uncertainty implies that certain pairs of observables, such as position and momentum, cannot be precisely determined simultaneously.",
+      "difficulty": 4,
+      "subcategory": "Heisenberg-Bild & Poisson-Klammer (klass. Limit)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Integraldarstellung der Rotation",
+      "question": "Which statement about the integral representation of the rotation of a vector field is correct?",
+      "choices": [
+        "A: The rotation of a vector field can be represented by the line integral along a closed path.",
+        "B: The integral representation of rotation applies only to scalar fields.",
+        "C: The rotation is independent of the choice of integration path.",
+        "D: The rotation of a vector field is always zero when the field is defined in a closed space."
+      ],
+      "correct_answer": "A",
+      "explanation": "The rotation of a vector field is described by the line integral along a closed path, indicating the relationship between the local and global properties of the field. This representation is particularly important for understanding magnetic fields in electrodynamics.",
+      "difficulty": 8,
+      "subcategory": "Integraldarstellung der Rotation"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Drude-Modell",
+      "question": "Which of the following features best describes the Drude model?",
+      "choices": [
+        "A: Electrons in the Drude model move freely and elastically through the lattice of solids.",
+        "B: The Drude model explains the quantum mechanical properties of electrons in solids.",
+        "C: The Drude model is based on the assumption that electrons are trapped in solid lattice structures.",
+        "D: The Drude model neglects the interactions between electrons and the ionic lattice."
+      ],
+      "correct_answer": "A",
+      "explanation": "The Drude model describes electrons in a solid as classical particles that move freely and undergo elastic collisions with the lattice. Although the model has some limitations, it helps to understand the electrical conductivity and other properties of metals.",
+      "difficulty": 7,
+      "subcategory": "Drude-Modell"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Dotierung (n/p)",
+      "question": "What is the main purpose of doping in semiconductor materials?",
+      "choices": [
+        "A: Increasing light transmittance.",
+        "B: Improving thermal properties.",
+        "C: Reducing crystal structure.",
+        "D: Increasing electrical conductivity."
+      ],
+      "correct_answer": "D",
+      "explanation": "The main purpose of doping in semiconductor materials is to increase electrical conductivity. By adding donors or acceptors, the number of free charge carriers is altered, affecting the electrical properties of the semiconductor.",
+      "difficulty": 3,
+      "subcategory": "Dotierung (n/p)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Ginzburg–Landau-Funktional & -Nähe",
+      "question": "What does the Ginzburg-Landau functional describe in statistical mechanics?",
+      "choices": [
+        "A: The thermodynamic properties of superconducting materials.",
+        "B: Interactions between particles in an ideal gas.",
+        "C: The speed of light in a vacuum.",
+        "D: Energy conservation in closed systems."
+      ],
+      "correct_answer": "A",
+      "explanation": "The Ginzburg-Landau functional describes the phase transitions and thermodynamic properties of superconducting materials. It is used to analyze the behavior of materials near the critical point.",
+      "difficulty": 3,
+      "subcategory": "Ginzburg–Landau-Funktional & -Nähe"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Erhaltungssätze in der Lagrange-Mechanik",
+      "question": "Which conservation law is of central importance in Lagrangian mechanics?",
+      "choices": [
+        "A: Conservation of energy",
+        "B: Conservation of momentum",
+        "C: Conservation of charge",
+        "D: Conservation of mass"
+      ],
+      "correct_answer": "A",
+      "explanation": "In Lagrangian mechanics, the conservation of energy is a fundamental conservation law that directly stems from the time invariance of the system. This invariance means that the physical laws remain constant over time, leading to the conservation of the total energy of a system.",
+      "difficulty": 5,
+      "subcategory": "Erhaltungssätze in der Lagrange-Mechanik"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Projektionsapparat",
+      "question": "What is the main function of a projection apparatus?",
+      "choices": [
+        "A: Changing the colors of images.",
+        "B: Generating light.",
+        "C: Amplifying sounds.",
+        "D: Projecting images enlarged onto a surface."
+      ],
+      "correct_answer": "D",
+      "explanation": "A projection apparatus is used to project images or slides enlarged by light onto a surface, such as a screen. These devices are commonly used in classrooms or presentations to display visual information.",
+      "difficulty": 1,
+      "subcategory": "Projektionsapparat"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Goldene Regel (Fermi)",
+      "question": "What does Fermi's golden rule state in nuclear physics?",
+      "choices": [
+        "A: The transition probability is proportional to the square of the matrix element.",
+        "B: Nuclear reactions are independent of temperature.",
+        "C: All particles have a fixed mass and size.",
+        "D: Energy conservation is crucial for all nuclear processes."
+      ],
+      "correct_answer": "A",
+      "explanation": "Fermi's golden rule describes that the transition probability of a quantum mechanical process is proportional to the square of the matrix element, playing a fundamental role in nuclear physics. This rule helps to understand the interactions between particles in nuclear reactions.",
+      "difficulty": 5,
+      "subcategory": "Goldene Regel (Fermi)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Bottonium & Toponium",
+      "question": "What characterizes the states of bottomonium and toponium in particle physics?",
+      "choices": [
+        "A: They only arise in high-energy collisions of protons.",
+        "B: They consist of a bottom and an anti-bottom quark or a top and an anti-top quark.",
+        "C: They are exclusively mesons without electric charge.",
+        "D: They are stable and occur frequently in nature."
+      ],
+      "correct_answer": "B",
+      "explanation": "Bottomonium and toponium are mesons composed of quark-antiquark pairs. Bottomonium consists of a bottom and an anti-bottom quark, while toponium consists of a top and an anti-top quark. These states are important for understanding strong interactions and quantum chromodynamics.",
+      "difficulty": 6,
+      "subcategory": "Bottonium & Toponium"
+    }
+  ]
+}
