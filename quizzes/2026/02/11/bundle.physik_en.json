@@ -1,0 +1,168 @@
+{
+  "date": "2026-02-11",
+  "generated_at": "2026-02-11T05:02:02Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Streuung an Defekten",
+      "question": "What does the term 'scattering at defects' in solids describe?",
+      "choices": [
+        "A: The generation of heat through friction.",
+        "B: The movement of atoms in a vacuum.",
+        "C: The reflection of light on surfaces.",
+        "D: The deflection of electrons at lattice defects."
+      ],
+      "correct_answer": "D",
+      "explanation": "Scattering at defects refers to the interaction of particles, such as electrons or photons, with irregularities in the crystal lattice of a solid. These defects can influence the properties of the material and are important for understanding electrical and thermal conductivities.",
+      "difficulty": 5,
+      "subcategory": "Streuung an Defekten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Pauli-Paramagnetismus",
+      "question": "What describes the behavior of electron spins in an external magnetic field in Pauli paramagnetism?",
+      "choices": [
+        "A: The spins remain randomly oriented and do not affect the magnetic field.",
+        "B: The spins cannot interact with the magnetic field.",
+        "C: The spins align antiparallel to the magnetic field.",
+        "D: The spins align parallel to the magnetic field."
+      ],
+      "correct_answer": "D",
+      "explanation": "In Pauli paramagnetism, the spins of electrons predominantly align parallel to the external magnetic field, leading to a net magnetic moment. This is characteristic of systems with unpaired electrons responding to the external magnetic field.",
+      "difficulty": 9,
+      "subcategory": "Pauli-Paramagnetismus"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Wellenausbreitung in Leitern",
+      "question": "Which of the following statements best describes how electromagnetic waves behave in a metallic conductor?",
+      "choices": [
+        "A: The waves propagate at a constant speed without loss.",
+        "B: The waves propagate without significant damping.",
+        "C: The waves penetrate the conductor and experience exponential damping.",
+        "D: The waves are completely reflected and do not penetrate the conductor."
+      ],
+      "correct_answer": "C",
+      "explanation": "In metallic conductors, electromagnetic waves penetrate but experience exponential damping due to the high conductivity of the material. This results in the wave intensity decreasing with penetration depth, a characteristic feature of wave propagation in conductors.",
+      "difficulty": 7,
+      "subcategory": "Wellenausbreitung in Leitern"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Michelson–Morley-Experiment (Ätherhypothese)",
+      "question": "What was the main goal of the Michelson-Morley experiment?",
+      "choices": [
+        "A: To demonstrate the ether as a medium for light waves.",
+        "B: To measure the speed of light in different colors.",
+        "C: To verify the existence of dark matter.",
+        "D: To measure Earth's gravitational force."
+      ],
+      "correct_answer": "A",
+      "explanation": "The Michelson-Morley experiment was conducted to detect the hypothetical ether, which was assumed as the medium for the propagation of light waves at that time. However, the results showed no differences in the speed of light, leading to the rejection of the ether hypothesis.",
+      "difficulty": 3,
+      "subcategory": "Michelson–Morley-Experiment (Ätherhypothese)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Unbestimmtheitsrelation(en)",
+      "question": "Which of the following statements about the Heisenberg Uncertainty Principle is correct?",
+      "choices": [
+        "A: The Uncertainty Principle is independent of measurement accuracy and only describes theoretical limits.",
+        "B: The Uncertainty Principle is a consequence of the wave nature of particles, stating that position and momentum cannot be precisely measured simultaneously.",
+        "C: The Uncertainty Principle states that a particle's position and momentum can be determined simultaneously with arbitrary precision.",
+        "D: The Uncertainty Principle applies only to macroscopic objects and is irrelevant for subatomic particles."
+      ],
+      "correct_answer": "B",
+      "explanation": "The Heisenberg Uncertainty Principle shows a fundamental limit to the simultaneous measurement of a particle's position and momentum. This limit is a consequence of the wave nature of particles and is particularly relevant in quantum mechanics where classical understanding is insufficient.",
+      "difficulty": 8,
+      "subcategory": "Unbestimmtheitsrelation(en)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Maxwell-Gleichungen der Magnetostatik",
+      "question": "Which of the following equations describes the relationship between magnetic field and electric currents in magnetostatics?",
+      "choices": [
+        "A: Faraday's Law",
+        "B: Coulomb's Law",
+        "C: Ampère's Law",
+        "D: Gauss's Law"
+      ],
+      "correct_answer": "C",
+      "explanation": "The Ampère's Law describes how an electric current generates a magnetic field. In magnetostatics, it is fundamental to understand the interaction between currents and magnetic fields.",
+      "difficulty": 5,
+      "subcategory": "Maxwell-Gleichungen der Magnetostatik"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Resonanzen (Breit‑Wigner)",
+      "question": "What does the Breit-Wigner resonance describe in particle physics?",
+      "choices": [
+        "A: The radiation of a particle at high temperatures.",
+        "B: The energy distribution of an unstable particle.",
+        "C: The lifetime of a particle in a magnetic field.",
+        "D: The interaction between two stable particles."
+      ],
+      "correct_answer": "B",
+      "explanation": "The Breit-Wigner resonance describes the energy distribution shape of an unstable particle transitioning to a resonance level. These resonances are important for analyzing decays and interactions in particle physics.",
+      "difficulty": 4,
+      "subcategory": "Resonanzen (Breit‑Wigner)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Relativität der Gleichzeitigkeit",
+      "question": "Which phenomenon does the relativity of simultaneity describe in the special theory of relativity?",
+      "choices": [
+        "A: Gravity does not affect time dilation.",
+        "B: Two events simultaneous in one inertial frame may appear different in another inertial frame.",
+        "C: Time passes faster for moving objects than for stationary ones.",
+        "D: The speed of light is different in all inertial frames."
+      ],
+      "correct_answer": "B",
+      "explanation": "The relativity of simultaneity means that two events simultaneous in one inertial frame may not appear simultaneous in another inertial frame moving relative to the first. This is a fundamental insight of Einstein's special theory of relativity.",
+      "difficulty": 9,
+      "subcategory": "Relativität der Gleichzeitigkeit"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Phänomenologie der Supraleitung",
+      "question": "What is a characteristic feature of superconductors?",
+      "choices": [
+        "A: They conduct heat better than normal conductors.",
+        "B: They have an electrical resistance of exactly zero.",
+        "C: They cannot influence magnetic fields.",
+        "D: They are always superconducting at room temperature."
+      ],
+      "correct_answer": "B",
+      "explanation": "A characteristic feature of superconductors is that they exhibit an electrical resistance of exactly zero when cooled below a certain critical temperature. This behavior enables lossless conduction of electrical energy.",
+      "difficulty": 5,
+      "subcategory": "Phänomenologie der Supraleitung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Auftrieb & Schwimmen",
+      "question": "Which of the following factors does not influence the buoyancy of a body in water?",
+      "choices": [
+        "A: The temperature of the body",
+        "B: The volume of the body",
+        "C: The shape of the body",
+        "D: The density of water"
+      ],
+      "correct_answer": "A",
+      "explanation": "The buoyancy of a body in water is determined by the density of water, the volume of the body, and the body's shape. The temperature of the body usually does not directly affect buoyancy, as it depends on the factors mentioned above.",
+      "difficulty": 6,
+      "subcategory": "Auftrieb & Schwimmen"
+    }
+  ]
+}

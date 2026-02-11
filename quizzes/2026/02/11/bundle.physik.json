@@ -1,0 +1,169 @@
+{
+  "date": "2026-02-11",
+  "generated_at": "2026-02-11T05:01:21Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Streuung an Defekten",
+      "question": "Was beschreibt der Begriff 'Streuung an Defekten' in Festkörpern?",
+      "choices": [
+        "A: Die Erzeugung von Wärme durch Reibung.",
+        "B: Die Bewegung von Atomen im Vakuum.",
+        "C: Die Reflexion von Licht an Oberflächen.",
+        "D: Die Ablenkung von Elektronen an Gitterfehlern."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Streuung an Defekten bezieht sich auf die Wechselwirkung von Partikeln, wie Elektronen oder Photonen, mit Unregelmäßigkeiten im Kristallgitter eines Festkörpers. Diese Defekte können die Eigenschaften des Materials beeinflussen und sind wichtig für das Verständnis von elektrischen und thermischen Leitfähigkeiten.",
+      "difficulty": 5,
+      "subcategory": "Streuung an Defekten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Pauli-Paramagnetismus",
+      "question": "Was beschreibt im Pauli-Paramagnetismus das Verhalten von Elektronenspins in einem externen Magnetfeld?",
+      "choices": [
+        "A: Die Spins bleiben zufällig orientiert und beeinflussen das Magnetfeld nicht.",
+        "B: Die Spins können keine Wechselwirkung mit dem Magnetfeld eingehen.",
+        "C: Die Spins richten sich antiparallel zum Magnetfeld aus.",
+        "D: Die Spins richten sich parallel zum Magnetfeld aus."
+      ],
+      "correct_answer": "D",
+      "explanation": "Im Pauli-Paramagnetismus richten sich die Spins der Elektronen in einem externen Magnetfeld vorwiegend parallel zum Feld aus, was zu einer netten magnetischen Momenten führt. Dies ist charakteristisch für Systeme mit ungepaarten Elektronen, die auf das äußere Magnetfeld reagieren.",
+      "difficulty": 9,
+      "subcategory": "Pauli-Paramagnetismus"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Wellenausbreitung in Leitern",
+      "question": "Welche der folgenden Aussagen beschreibt am besten, wie sich elektromagnetische Wellen in einem metallischen Leiter verhalten?",
+      "choices": [
+        "A: Die Wellen breiten sich mit konstanter Geschwindigkeit und ohne Verlust aus.",
+        "B: Die Wellen breiten sich ohne nennenswerte Dämpfung aus.",
+        "C: Die Wellen dringen in den Leiter ein und erfahren eine exponentielle Dämpfung.",
+        "D: Die Wellen werden vollständig reflektiert und dringen nicht in den Leiter ein."
+      ],
+      "correct_answer": "C",
+      "explanation": "In metallischen Leitern dringen elektromagnetische Wellen ein, erfahren jedoch eine exponentielle Dämpfung aufgrund der hohen Leitfähigkeit des Materials. Dies führt dazu, dass die Intensität der Welle mit der Eindringtiefe abnimmt, was eine charakteristische Eigenschaft der Wellenausbreitung in Leitern ist.",
+      "difficulty": 7,
+      "subcategory": "Wellenausbreitung in Leitern"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Michelson–Morley-Experiment (Ätherhypothese)",
+      "question": "Was war das Hauptziel des Michelson–Morley-Experiments?",
+      "choices": [
+        "A: Den Äther als Medium für Lichtwellen nachzuweisen.",
+        "B: Die Geschwindigkeit von Licht in verschiedenen Farben zu messen.",
+        "C: Die Existenz von schwarzer Materie zu überprüfen.",
+        "D: Die Erdanziehungskraft zu messen."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Michelson–Morley-Experiment wurde durchgeführt, um den hypothetischen Äther nachzuweisen, der damals als Medium für die Ausbreitung von Lichtwellen angenommen wurde. Die Ergebnisse des Experiments zeigten jedoch keine Unterschiede in der Lichtgeschwindigkeit, was zur Ablehnung der Ätherhypothese führte.",
+      "difficulty": 3,
+      "subcategory": "Michelson–Morley-Experiment (Ätherhypothese)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Unbestimmtheitsrelation(en)",
+      "question": "Welche der folgenden Aussagen zur Heisenbergschen Unbestimmtheitsrelation ist korrekt?",
+      "choices": [
+        "A: Die Unbestimmtheitsrelation ist unabhängig von der Messgenauigkeit und beschreibt nur theoretische Grenzen.",
+        "B: Die Unbestimmtheitsrelation ist eine Konsequenz der Wellen-Natur von Teilchen und beschreibt, dass Ort und Impuls nicht gleichzeitig genau messbar sind.",
+        "C: Die Unbestimmtheitsrelation besagt, dass der Ort und der Impuls eines Teilchens gleichzeitig beliebig genau bestimmt werden können.",
+        "D: Die Unbestimmtheitsrelation gilt nur für makroskopische Objekte und hat keine Bedeutung für subatomare Teilchen."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Heisenbergsche Unbestimmtheitsrelation zeigt, dass es eine fundamentale Grenze für die gleichzeitige Messung von Ort und Impuls eines Teilchens gibt. Diese Grenze ist eine Konsequenz der Wellen-Natur von Teilchen und ist besonders relevant in der Quantenmechanik, wo klassisches Verständnis nicht mehr ausreicht.",
+      "difficulty": 8,
+      "subcategory": "Unbestimmtheitsrelation(en)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Maxwell-Gleichungen der Magnetostatik",
+      "question": "Welche der folgenden Gleichungen beschreibt die Beziehung zwischen dem magnetischen Feld und den elektrischen Strömen in der Magnetostatik?",
+      "choices": [
+        "A: Faradaysches Gesetz",
+        "B: Coulombs Gesetz",
+        "C: Ampères Gesetz",
+        "D: Gauss'sches Gesetz"
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Ampèresche Gesetz beschreibt, wie ein elektrischer Strom ein magnetisches Feld erzeugt. In der Magnetostatik ist es fundamental, um die Wechselwirkung zwischen Strömen und magnetischen Feldern zu verstehen.",
+      "difficulty": 5,
+      "subcategory": "Maxwell-Gleichungen der Magnetostatik"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Resonanzen (Breit‑Wigner)",
+      "question": "Was beschreibt die Breit-Wigner-Resonanz in der Teilchenphysik?",
+      "choices": [
+        "A: Die Strahlung eines Teilchens bei hohen Temperaturen.",
+        "B: Die Energieverteilung eines instabilen Teilchens.",
+        "C: Die Lebensdauer eines Teilchens in einem Magnetfeld.",
+        "D: Die Wechselwirkung zwischen zwei stabilen Teilchen."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Breit-Wigner-Resonanz beschreibt die Form der Energieverteilung eines instabilen Teilchens, das in ein Resonanzniveau übergeht. Diese Resonanzen sind wichtig für die Analyse von Zerfällen und Wechselwirkungen in der Teilchenphysik.",
+      "difficulty": 4,
+      "subcategory": "Resonanzen (Breit‑Wigner)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Relativität der Gleichzeitigkeit",
+      "question": "Welches Phänomen beschreibt die Relativität der Gleichzeitigkeit in der speziellen Relativitätstheorie?",
+      "choices": [
+        "A: Die Gravitationskraft beeinflusst die Zeitdilatation nicht.",
+        "B: Zwei Ereignisse, die in einem Inertialsystem gleichzeitig stattfinden, können in einem anderen Inertialsystem unterschiedlich erscheinen.",
+        "C: Zeit vergeht für bewegte Objekte immer schneller als für ruhende.",
+        "D: Die Lichtgeschwindigkeit ist in allen Inertialsystemen unterschiedlich."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Relativität der Gleichzeitigkeit bedeutet, dass zwei Ereignisse, die in einem Inertialsystem gleichzeitig sind, in einem anderen Inertialsystem, das sich relativ zu dem ersten bewegt, nicht gleichzeitig erscheinen müssen. Dies ist eine grundlegende Einsicht der speziellen Relativitätstheorie von Einstein.",
+      "difficulty": 9,
+      "subcategory": "Relativität der Gleichzeitigkeit"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Phänomenologie der Supraleitung",
+      "question": "Was ist ein charakteristisches Merkmal von Supraleitern?",
+      "choices": [
+        "A: Sie leiten Wärme besser als normale Leiter.",
+        "B: Sie haben einen elektrischen Widerstand von genau null.",
+        "C: Sie können Magnetfelder nicht beeinflussen.",
+        "D: Sie sind immer bei Raumtemperatur supraleitend."
+      ],
+      "correct_answer": "B",
+      "explanation": "Ein charakteristisches Merkmal von Supraleitern ist, dass sie einen elektrischen Widerstand von genau null aufweisen, wenn sie unter eine bestimmte kritische Temperatur abgekühlt werden. Dieses Verhalten ermöglicht verlustfreies Leiten von elektrischer Energie.",
+      "difficulty": 5,
+      "subcategory": "Phänomenologie der Supraleitung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Auftrieb & Schwimmen",
+      "question": "Welcher der folgenden Faktoren beeinflusst nicht den Auftrieb eines Körpers im Wasser?",
+      "choices": [
+        "A: Die Temperatur des Körpers",
+        "B: Das Volumen des Körpers",
+        "C: Die Form des Körpers",
+        "D: Die Dichte des Wassers"
+      ],
+      "correct_answer": "A",
+      "explanation": "Der Auftrieb eines Körpers im Wasser wird durch die Dichte des Wassers, das Volumen des Körpers und die Form des Körpers bestimmt. Die Temperatur des Körpers hat in der Regel keinen direkten Einfluss auf den Auftrieb, da dieser von den oben genannten Faktoren abhängt.",
+      "difficulty": 6,
+      "subcategory": "Auftrieb & Schwimmen"
+    }
+  ]
+}
