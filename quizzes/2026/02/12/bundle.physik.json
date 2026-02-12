@@ -1,0 +1,169 @@
+{
+  "date": "2026-02-12",
+  "generated_at": "2026-02-12T04:56:35Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Geometrische Interpretation von Phasenübergängen",
+      "question": "Welches Diagramm wird häufig verwendet, um Phasenübergänge in der Thermodynamik darzustellen?",
+      "choices": [
+        "A: Zeitdiagramm",
+        "B: Geschwindigkeitsdiagramm",
+        "C: Phasendiagramm",
+        "D: Energiediagramm"
+      ],
+      "correct_answer": "C",
+      "explanation": "Ein Phasendiagramm zeigt die verschiedenen Phasen eines Stoffes in Abhängigkeit von Druck und Temperatur. Es ist ein wichtiges Werkzeug zur Analyse von Phasenübergängen wie Schmelzen und Verdampfen.",
+      "difficulty": 4,
+      "subcategory": "Geometrische Interpretation von Phasenübergängen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Kritische Exponenten",
+      "question": "Welcher kritische Exponent beschreibt das Verhalten des spezifischen Volumens nahe dem kritischen Punkt?",
+      "choices": [
+        "A: α",
+        "B: γ",
+        "C: δ",
+        "D: β"
+      ],
+      "correct_answer": "D",
+      "explanation": "Der kritische Exponent β beschreibt das Verhalten des spezifischen Volumens in der Nähe des kritischen Punktes. Er gibt an, wie das spezifische Volumen mit der Temperatur variiert, wenn das System sich dem kritischen Punkt nähert.",
+      "difficulty": 7,
+      "subcategory": "Kritische Exponenten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Ferri- & Antiferromagnetismus (Überblick)",
+      "question": "Was beschreibt den Antiferromagnetismus in Materialien?",
+      "choices": [
+        "A: Materialien haben keine magnetischen Eigenschaften.",
+        "B: Die Spins der Elektronen sind antiparallel ausgerichtet.",
+        "C: Die magnetischen Momente sind zufällig verteilt.",
+        "D: Die Spins der Elektronen sind parallel ausgerichtet."
+      ],
+      "correct_answer": "B",
+      "explanation": "Antiferromagnetische Materialien weisen eine Anordnung auf, bei der benachbarte Spins der Elektronen antiparallel zueinander ausgerichtet sind, was zu einer Nettomagnetisierung von null führt. Dies unterscheidet sich von ferromagnetischen Materialien, bei denen die Spins parallel ausgerichtet sind.",
+      "difficulty": 4,
+      "subcategory": "Ferri- & Antiferromagnetismus (Überblick)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Elektrischer Strom (Definition & Kontinuitätsgleichung)",
+      "question": "Was beschreibt der elektrische Strom in einem Leiter?",
+      "choices": [
+        "A: Die Spannung an den Enden des Leiters",
+        "B: Die Länge des Leiters",
+        "C: Die Temperatur des Leiters",
+        "D: Die Bewegung von Elektronen"
+      ],
+      "correct_answer": "D",
+      "explanation": "Der elektrische Strom ist definiert als die Bewegung von Elektronen durch einen Leiter. Der Stromfluss ist das Ergebnis der driftenden Elektronen, die durch ein elektrisches Feld im Leiter angeregt werden.",
+      "difficulty": 3,
+      "subcategory": "Elektrischer Strom (Definition & Kontinuitätsgleichung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Zweite Quantisierung: Erzeugungs-/Vernichtungsoperatoren",
+      "question": "Was ist die Funktion des Erzeugungsoperators in der Quantenmechanik?",
+      "choices": [
+        "A: Er reduziert die Energie eines Systems.",
+        "B: Er misst den Spin eines Teilchens.",
+        "C: Er beschreibt die Bewegung von Teilchen.",
+        "D: Er erhöht die Anzahl von Teilchen in einem Zustand."
+      ],
+      "correct_answer": "D",
+      "explanation": "Der Erzeugungsoperator ist ein mathematisches Werkzeug in der Quantenmechanik, das verwendet wird, um die Anzahl der Teilchen in einem bestimmten quantenmechanischen Zustand zu erhöhen. Dadurch kann man neue Zustände mit mehr Teilchen beschreiben, was in der Zweiten Quantisierung von Bedeutung ist.",
+      "difficulty": 4,
+      "subcategory": "Zweite Quantisierung: Erzeugungs-/Vernichtungsoperatoren"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Kirchhoffsches Strahlungsgesetz",
+      "question": "Was beschreibt das Kirchhoffsche Strahlungsgesetz?",
+      "choices": [
+        "A: Die Brechung von Licht an einer Grenzfläche.",
+        "B: Die Ablenkung von Lichtstrahlen an einer Linse.",
+        "C: Die Beziehung zwischen der Temperatur eines Körpers und der von ihm emittierten Strahlung.",
+        "D: Die Reflexion von Licht an einem Spiegel."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Kirchhoffsche Strahlungsgesetz besagt, dass ein idealer schwarzer Körper bei gegebener Temperatur die maximale Strahlung abgibt. Es verbindet die Temperatur eines Körpers mit der Wellenlängenverteilung der von ihm emittierten Strahlung und ist grundlegend für das Verständnis der thermischen Strahlung.",
+      "difficulty": 6,
+      "subcategory": "Kirchhoffsches Strahlungsgesetz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Zeitdilatation",
+      "question": "Welche der folgenden Aussagen zur Zeitdilatation im Rahmen der speziellen Relativitätstheorie ist korrekt?",
+      "choices": [
+        "A: Die Zeit vergeht für alle Beobachter in einem System gleich, unabhängig von deren Relativgeschwindigkeit.",
+        "B: Zeitdilatation tritt nur auf, wenn sich Objekte mit Geschwindigkeiten nahe der Lichtgeschwindigkeit bewegen.",
+        "C: Ein sich schnell bewegender Beobachter misst eine kürzere Zeitspanne, als dies ein ruhender Beobachter tun würde.",
+        "D: Ein Beobachter in einem sich schnell bewegenden Raumschiff misst eine längere Zeitspanne als ein ruhender Beobachter auf der Erde."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Zeitdilatation besagt, dass ein sich schnell bewegender Beobachter eine kürzere Zeitspanne misst, während für einen ruhenden Beobachter die Zeit langsamer vergeht. Dies ist ein zentrales Konzept in der speziellen Relativitätstheorie und illustriert, wie Geschwindigkeit die Wahrnehmung von Zeit beeinflusst.",
+      "difficulty": 10,
+      "subcategory": "Zeitdilatation"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Maxwell–Boltzmann-Verteilung",
+      "question": "Was beschreibt die Maxwell–Boltzmann-Verteilung?",
+      "choices": [
+        "A: Die Wärmeleitfähigkeit von Materialien.",
+        "B: Die elektromagnetische Strahlung von Atomen.",
+        "C: Die Energieverteilung in einem Metall.",
+        "D: Die Geschwindigkeitsverteilung von Teilchen in einem idealen Gas."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Maxwell–Boltzmann-Verteilung beschreibt, wie die Geschwindigkeiten von Teilchen in einem idealen Gas verteilt sind. Sie ist wichtig für das Verständnis von thermodynamischen Prozessen und der kinetischen Gastheorie.",
+      "difficulty": 3,
+      "subcategory": "Maxwell–Boltzmann-Verteilung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Inelastische Kernanregungen",
+      "question": "Was geschieht bei einer inelastischen Kernanregung?",
+      "choices": [
+        "A: Der Kern zerfällt sofort in kleinere Teile.",
+        "B: Der Kern bleibt unverändert und gibt Energie ab.",
+        "C: Der Kern absorbiert Energie und geht in einen angeregten Zustand über.",
+        "D: Der Kern wird vollständig zerstört."
+      ],
+      "correct_answer": "C",
+      "explanation": "Bei einer inelastischen Kernanregung absorbiert der Kern Energie, was zu einem Übergang in einen angeregten Zustand führt, ohne dass der Kern zerfällt. Diese Prozesse sind entscheidend für das Verständnis von Kernreaktionen und der Struktur von Atomkernen.",
+      "difficulty": 3,
+      "subcategory": "Inelastische Kernanregungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Mott‑Wirkungsquerschnitt",
+      "question": "Was beschreibt der Mott-Wirkungsquerschnitt in der Kern- und Teilchenphysik?",
+      "choices": [
+        "A: Die Wahrscheinlichkeit, dass ein Teilchen in einem bestimmten Zeitraum einen bestimmten Weg zurücklegt.",
+        "B: Die Energieverteilung von Photonen in einem Magnetfeld.",
+        "C: Die Resonanzfrequenz von Kernen in einem Magnetfeld.",
+        "D: Die Wechselwirkung zwischen einem geladenen Teilchen und einem Atomkern."
+      ],
+      "correct_answer": "D",
+      "explanation": "Der Mott-Wirkungsquerschnitt beschreibt die Streuung von geladenen Teilchen an Atomkernen und liefert wichtige Informationen über die Wechselwirkungen in der Kern- und Teilchenphysik. Er ist ein zentraler Faktor bei der Analyse von Experimenten zur Teilchenstreuung und zur Untersuchung der Struktur von Kernen.",
+      "difficulty": 7,
+      "subcategory": "Mott‑Wirkungsquerschnitt"
+    }
+  ]
+}

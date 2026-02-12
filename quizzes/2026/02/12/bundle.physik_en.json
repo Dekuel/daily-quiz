@@ -1,0 +1,168 @@
+{
+  "date": "2026-02-12",
+  "generated_at": "2026-02-12T04:57:11Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Geometrische Interpretation von Phasenübergängen",
+      "question": "Which diagram is commonly used to represent phase transitions in thermodynamics?",
+      "choices": [
+        "A: Time diagram",
+        "B: Velocity diagram",
+        "C: Phase diagram",
+        "D: Energy diagram"
+      ],
+      "correct_answer": "C",
+      "explanation": "A phase diagram shows the different phases of a substance as a function of pressure and temperature. It is an important tool for analyzing phase transitions such as melting and vaporization.",
+      "difficulty": 4,
+      "subcategory": "Geometrische Interpretation von Phasenübergängen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Kritische Exponenten",
+      "question": "Which critical exponent describes the behavior of specific volume near the critical point?",
+      "choices": [
+        "A: α",
+        "B: γ",
+        "C: δ",
+        "D: β"
+      ],
+      "correct_answer": "D",
+      "explanation": "The critical exponent β describes the behavior of specific volume near the critical point. It indicates how the specific volume varies with temperature as the system approaches the critical point.",
+      "difficulty": 7,
+      "subcategory": "Kritische Exponenten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Ferri- & Antiferromagnetismus (Überblick)",
+      "question": "What describes antiferromagnetism in materials?",
+      "choices": [
+        "A: Materials have no magnetic properties.",
+        "B: The spins of the electrons are antiparallel.",
+        "C: The magnetic moments are randomly distributed.",
+        "D: The spins of the electrons are aligned in parallel."
+      ],
+      "correct_answer": "B",
+      "explanation": "Antiferromagnetic materials exhibit an arrangement where adjacent spins of the electrons are antiparallel to each other, resulting in a net magnetization of zero. This differs from ferromagnetic materials where the spins are aligned in parallel.",
+      "difficulty": 4,
+      "subcategory": "Ferri- & Antiferromagnetismus (Überblick)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Elektrischer Strom (Definition & Kontinuitätsgleichung)",
+      "question": "What describes electric current in a conductor?",
+      "choices": [
+        "A: The voltage at the ends of the conductor",
+        "B: The length of the conductor",
+        "C: The temperature of the conductor",
+        "D: The movement of electrons"
+      ],
+      "correct_answer": "D",
+      "explanation": "Electric current is defined as the movement of electrons through a conductor. The flow of current results from the drifting electrons excited by an electric field in the conductor.",
+      "difficulty": 3,
+      "subcategory": "Elektrischer Strom (Definition & Kontinuitätsgleichung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Zweite Quantisierung: Erzeugungs-/Vernichtungsoperatoren",
+      "question": "What is the function of the creation operator in quantum mechanics?",
+      "choices": [
+        "A: It reduces the energy of a system.",
+        "B: It measures the spin of a particle.",
+        "C: It describes the motion of particles.",
+        "D: It increases the number of particles in a state."
+      ],
+      "correct_answer": "D",
+      "explanation": "The creation operator is a mathematical tool in quantum mechanics used to increase the number of particles in a specific quantum state. This allows describing new states with more particles, which is important in second quantization.",
+      "difficulty": 4,
+      "subcategory": "Zweite Quantisierung: Erzeugungs-/Vernichtungsoperatoren"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Kirchhoffsches Strahlungsgesetz",
+      "question": "What does Kirchhoff's radiation law describe?",
+      "choices": [
+        "A: The refraction of light at an interface.",
+        "B: The deflection of light rays by a lens.",
+        "C: The relationship between the temperature of a body and the radiation it emits.",
+        "D: The reflection of light by a mirror."
+      ],
+      "correct_answer": "C",
+      "explanation": "Kirchhoff's radiation law states that an ideal black body emits the maximum radiation at a given temperature. It relates the temperature of a body to the wavelength distribution of the radiation it emits and is fundamental for understanding thermal radiation.",
+      "difficulty": 6,
+      "subcategory": "Kirchhoffsches Strahlungsgesetz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Zeitdilatation",
+      "question": "Which of the following statements about time dilation in the context of special relativity is correct?",
+      "choices": [
+        "A: Time passes equally for all observers in a system, regardless of their relative velocity.",
+        "B: Time dilation occurs only when objects move at speeds close to the speed of light.",
+        "C: A fast-moving observer measures a shorter time interval than a stationary observer would.",
+        "D: An observer in a fast-moving spaceship measures a longer time interval than a stationary observer on Earth."
+      ],
+      "correct_answer": "C",
+      "explanation": "Time dilation states that a fast-moving observer measures a shorter time interval, while for a stationary observer time passes more slowly. This is a central concept in special relativity theory and illustrates how velocity affects the perception of time.",
+      "difficulty": 10,
+      "subcategory": "Zeitdilatation"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Maxwell–Boltzmann-Verteilung",
+      "question": "What does the Maxwell–Boltzmann distribution describe?",
+      "choices": [
+        "A: The thermal conductivity of materials.",
+        "B: The electromagnetic radiation of atoms.",
+        "C: The energy distribution in a metal.",
+        "D: The velocity distribution of particles in an ideal gas."
+      ],
+      "correct_answer": "D",
+      "explanation": "The Maxwell–Boltzmann distribution describes how the velocities of particles in an ideal gas are distributed. It is important for understanding thermodynamic processes and the kinetic theory of gases.",
+      "difficulty": 3,
+      "subcategory": "Maxwell–Boltzmann-Verteilung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Inelastische Kernanregungen",
+      "question": "What happens during an inelastic nuclear excitation?",
+      "choices": [
+        "A: The nucleus immediately decays into smaller parts.",
+        "B: The nucleus remains unchanged and releases energy.",
+        "C: The nucleus absorbs energy and transitions to an excited state.",
+        "D: The nucleus is completely destroyed."
+      ],
+      "correct_answer": "C",
+      "explanation": "In an inelastic nuclear excitation, the nucleus absorbs energy, leading to a transition to an excited state without the nucleus decaying. These processes are crucial for understanding nuclear reactions and the structure of atomic nuclei.",
+      "difficulty": 3,
+      "subcategory": "Inelastische Kernanregungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Mott‑Wirkungsquerschnitt",
+      "question": "What does the Mott cross section describe in nuclear and particle physics?",
+      "choices": [
+        "A: Die Wahrscheinlichkeit, dass ein Teilchen in einem bestimmten Zeitraum einen bestimmten Weg zurücklegt.",
+        "B: Die Energieverteilung von Photonen in einem Magnetfeld.",
+        "C: Die Resonanzfrequenz von Kernen in einem Magnetfeld.",
+        "D: Die Wechselwirkung zwischen einem geladenen Teilchen und einem Atomkern."
+      ],
+      "correct_answer": "D",
+      "explanation": "The Mott cross section describes the scattering of charged particles on atomic nuclei and provides important information about interactions in nuclear and particle physics. It is a key factor in analyzing experiments on particle scattering and investigating the structure of nuclei.",
+      "difficulty": 7,
+      "subcategory": "Mott‑Wirkungsquerschnitt"
+    }
+  ]
+}
