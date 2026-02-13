@@ -1,0 +1,169 @@
+{
+  "date": "2026-02-13",
+  "generated_at": "2026-02-13T04:51:15Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Entropie als Zustandsgröße",
+      "question": "Was beschreibt die Entropie in einem thermodynamischen System?",
+      "choices": [
+        "A: Den Druck des Systems.",
+        "B: Die Unordnung oder den Zufallsgrad des Systems.",
+        "C: Die Energie des Systems.",
+        "D: Die Temperatur des Systems."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Entropie ist ein Maß für die Unordnung oder den Zufallsgrad eines thermodynamischen Systems. Je höher die Entropie, desto größer ist die Unordnung im System, was Auswirkungen auf die Richtung von thermodynamischen Prozessen hat.",
+      "difficulty": 4,
+      "subcategory": "Entropie als Zustandsgröße"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Effektive Masse von Elektronen & Löchern",
+      "question": "Was beschreibt die effektive Masse von Elektronen in einem Festkörper?",
+      "choices": [
+        "A: Die tatsächliche Masse eines Elektrons im Vakuum.",
+        "B: Die Temperaturabhängigkeit von Elektronenbewegung.",
+        "C: Die Masse von Elektronen in chemischen Reaktionen.",
+        "D: Die Reaktion eines Elektrons auf äußere elektrische Felder."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die effektive Masse beschreibt, wie sich ein Elektron in einem Kristallgitter verhält, insbesondere wenn es durch äußere Felder beeinflusst wird. Sie ist ein Maß für die Trägheit des Elektrons in einem Material und kann von der Bandstruktur des Festkörpers abhängen.",
+      "difficulty": 3,
+      "subcategory": "Effektive Masse von Elektronen & Löchern"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Dampfdruckkurve & Clausius–Clapeyron-Gleichung",
+      "question": "Was beschreibt die Clausius–Clapeyron-Gleichung?",
+      "choices": [
+        "A: Den Zusammenhang zwischen Dampfdruck und Temperatur eines Stoffes.",
+        "B: Das Verhalten von Lichtstrahlen bei der Brechung.",
+        "C: Die Energiedichte eines idealen Gases.",
+        "D: Die Geschwindigkeit von Schall in verschiedenen Medien."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Clausius–Clapeyron-Gleichung beschreibt den Zusammenhang zwischen dem Dampfdruck eines Stoffes und seiner Temperatur. Sie ist wichtig für das Verständnis von Phasenübergängen, wie dem Wechsel von flüssig zu gasförmig.",
+      "difficulty": 3,
+      "subcategory": "Dampfdruckkurve & Clausius–Clapeyron-Gleichung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "β‑Zerfall des Kerns",
+      "question": "Was ist das Hauptprodukt eines β⁻-Zerfalls?",
+      "choices": [
+        "A: Ein Elektron",
+        "B: Ein Neutron",
+        "C: Ein Positron",
+        "D: Ein Proton"
+      ],
+      "correct_answer": "A",
+      "explanation": "Beim β⁻-Zerfall wandelt sich ein Neutron in ein Proton um, wobei ein Elektron (β⁻-Partikel) und ein Antineutrino emittiert werden. Dies führt zu einer Erhöhung der Ordnungszahl um eins und der Massenzahl bleibt unverändert.",
+      "difficulty": 6,
+      "subcategory": "β‑Zerfall des Kerns"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Beschleuniger (Arten & Prinzipien)",
+      "question": "Was ist das Hauptprinzip eines Teilchenbeschleunigers?",
+      "choices": [
+        "A: Er beschleunigt Teilchen durch elektrische und magnetische Felder.",
+        "B: Er verlangsamt Teilchen durch gravitative Kräfte.",
+        "C: Er wandelt Teilchen in Energie um.",
+        "D: Er erzeugt Temperaturen über 1000 Grad Celsius."
+      ],
+      "correct_answer": "A",
+      "explanation": "Teilchenbeschleuniger nutzen elektrische und magnetische Felder, um geladene Teilchen auf hohe Geschwindigkeiten zu bringen. Dies ermöglicht es Wissenschaftlern, Kollisionen zwischen Teilchen zu untersuchen und fundamentale Fragen der Physik zu beantworten.",
+      "difficulty": 4,
+      "subcategory": "Beschleuniger (Arten & Prinzipien)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Verträgliche vs. nicht-verträgliche Observable",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt eine verträgliche Observable in der Quantenmechanik?",
+      "choices": [
+        "A: Zwei Observable sind verträglich, wenn sie gleichzeitig messbar sind und ihre Kommutator gleich null ist.",
+        "B: Verträgliche Observable haben immer denselben erwarteten Wert.",
+        "C: Verträgliche Observable können nicht gleichzeitig gemessen werden.",
+        "D: Verträgliche Observable sind nur für klassische Systeme relevant."
+      ],
+      "correct_answer": "A",
+      "explanation": "In der Quantenmechanik sind zwei Observable verträglich, wenn sie gleichzeitig gemessen werden können, was bedeutet, dass ihr Kommutator gleich null ist. Dies ermöglicht es, präzise Werte für beide Observable zu bestimmen, ohne dass eine Messung die andere beeinflusst.",
+      "difficulty": 5,
+      "subcategory": "Verträgliche vs. nicht-verträgliche Observable"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Transformationsmatrix der Lorentz-Transformation",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt die Lorentz-Transformation für eine Bewegung entlang der x-Achse?",
+      "choices": [
+        "A: x' = γ(x - vt) und t' = γ(t - vx/c²)",
+        "B: x' = x/v und t' = t/v",
+        "C: x' = x + vt und t' = t",
+        "D: x' = x + vt² und t' = t + v²t"
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Lorentz-Transformation beschreibt, wie sich Raum und Zeit zwischen zwei Inertialsystemen verändern, die relativ zueinander mit einer konstanten Geschwindigkeit v bewegen. Die korrekten Formeln beinhalten den Lorentzfaktor γ, der die relativistischen Effekte berücksichtigt, und sind entscheidend für das Verständnis der Relativitätstheorie.",
+      "difficulty": 6,
+      "subcategory": "Transformationsmatrix der Lorentz-Transformation"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Klassische Ensembles: Phasenraum & Verteilungsfunktion",
+      "question": "Welche Aussage über die Verteilungsfunktion im Phasenraum ist korrekt?",
+      "choices": [
+        "A: Die Verteilungsfunktion ist unabhängig von der Temperatur des Systems.",
+        "B: Die Verteilungsfunktion beschreibt die Wahrscheinlichkeit, ein System in einem bestimmten Zustand zu finden.",
+        "C: Die Verteilungsfunktion ist nur für quantenmechanische Systeme relevant.",
+        "D: Die Verteilungsfunktion kann nicht zur Berechnung von makroskopischen Eigenschaften verwendet werden."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Verteilungsfunktion gibt an, wie die Wahrscheinlichkeit eines Systems verteilt ist, sich in bestimmten Zuständen im Phasenraum zu befinden. Sie spielt eine zentrale Rolle in der statistischen Mechanik, insbesondere bei der Beschreibung thermodynamischer Eigenschaften eines Systems.",
+      "difficulty": 6,
+      "subcategory": "Klassische Ensembles: Phasenraum & Verteilungsfunktion"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Kirchhoffsches Strahlungsgesetz",
+      "question": "Welches der folgenden Aussagen beschreibt das Kirchhoffsche Strahlungsgesetz korrekt?",
+      "choices": [
+        "A: Ein idealer schwarzer Körper strahlt und absorbiert Strahlung in allen Wellenlängen gleich gut.",
+        "B: Ein idealer weißer Körper strahlt nur im sichtbaren Bereich des Spektrums.",
+        "C: Ein idealer reflektierender Körper absorbiert Strahlung in allen Wellenlängen gleich gut.",
+        "D: Ein idealer Körper kann keine Strahlung absorbieren, wenn er temperiert ist."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Kirchhoffsche Strahlungsgesetz besagt, dass ein idealer schwarzer Körper sowohl die maximale Menge an Strahlung bei einer gegebenen Temperatur abstrahlt als auch die gesamte einfallende Strahlung perfekt absorbiert. Diese Eigenschaft ist grundlegend für das Verständnis der thermischen Strahlung und der Wärmeübertragung.",
+      "difficulty": 6,
+      "subcategory": "Kirchhoffsches Strahlungsgesetz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Schallwellen im Festkörper",
+      "question": "Welche Aussage über Schallwellen in Festkörpern ist korrekt?",
+      "choices": [
+        "A: Schallwellen breiten sich in Festkörpern schneller aus als in Luft.",
+        "B: Schallwellen können sich in einem Vakuum nicht ausbreiten.",
+        "C: Schallwellen benötigen keine Materie zur Ausbreitung.",
+        "D: Schallwellen in Festkörpern sind ausschließlich longitudinal."
+      ],
+      "correct_answer": "A",
+      "explanation": "Schallwellen breiten sich in Festkörpern in der Regel schneller aus als in Luft, da die Partikel in einem Festkörper dichter gepackt sind und somit effizienter Schwingungen übertragen können. Die anderen Aussagen sind falsch, da Schallwellen in einem Vakuum nicht existieren können und auch transverse Wellen in Festkörpern auftreten können.",
+      "difficulty": 4,
+      "subcategory": "Schallwellen im Festkörper"
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "date": "2026-02-13",
+  "generated_at": "2026-02-13T04:51:54Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Entropie als Zustandsgröße",
+      "question": "What does entropy describe in a thermodynamic system?",
+      "choices": [
+        "A: The pressure of the system.",
+        "B: The disorder or randomness of the system.",
+        "C: The energy of the system.",
+        "D: The temperature of the system."
+      ],
+      "correct_answer": "B",
+      "explanation": "Entropy is a measure of the disorder or randomness of a thermodynamic system. The higher the entropy, the greater the disorder in the system, which affects the direction of thermodynamic processes.",
+      "difficulty": 4,
+      "subcategory": "Entropie als Zustandsgröße"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Effektive Masse von Elektronen & Löchern",
+      "question": "What does the effective mass of electrons in a solid describe?",
+      "choices": [
+        "A: The actual mass of an electron in a vacuum.",
+        "B: The temperature dependence of electron motion.",
+        "C: The mass of electrons in chemical reactions.",
+        "D: The response of an electron to external electric fields."
+      ],
+      "correct_answer": "D",
+      "explanation": "The effective mass describes how an electron behaves in a crystal lattice, especially when influenced by external fields. It is a measure of the electron's inertia in a material and can depend on the band structure of the solid.",
+      "difficulty": 3,
+      "subcategory": "Effektive Masse von Elektronen & Löchern"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Dampfdruckkurve & Clausius–Clapeyron-Gleichung",
+      "question": "What does the Clausius–Clapeyron equation describe?",
+      "choices": [
+        "A: The relationship between vapor pressure and temperature of a substance.",
+        "B: The behavior of light rays during refraction.",
+        "C: The energy density of an ideal gas.",
+        "D: The speed of sound in different media."
+      ],
+      "correct_answer": "A",
+      "explanation": "The Clausius–Clapeyron equation describes the relationship between the vapor pressure of a substance and its temperature. It is important for understanding phase transitions, such as the transition from liquid to gas.",
+      "difficulty": 3,
+      "subcategory": "Dampfdruckkurve & Clausius–Clapeyron-Gleichung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "β‑Zerfall des Kerns",
+      "question": "What is the main product of a β⁻ decay?",
+      "choices": [
+        "A: An electron",
+        "B: A neutron",
+        "C: A positron",
+        "D: A proton"
+      ],
+      "correct_answer": "A",
+      "explanation": "In β⁻ decay, a neutron converts into a proton, emitting an electron (β⁻ particle) and an antineutrino. This results in an increase in the atomic number by one while the mass number remains unchanged.",
+      "difficulty": 6,
+      "subcategory": "β‑Zerfall des Kerns"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Beschleuniger (Arten & Prinzipien)",
+      "question": "What is the main principle of a particle accelerator?",
+      "choices": [
+        "A: It accelerates particles through electric and magnetic fields.",
+        "B: It decelerates particles through gravitational forces.",
+        "C: It converts particles into energy.",
+        "D: It generates temperatures above 1000 degrees Celsius."
+      ],
+      "correct_answer": "A",
+      "explanation": "Particle accelerators use electric and magnetic fields to propel charged particles to high speeds. This allows scientists to study collisions between particles and answer fundamental questions in physics.",
+      "difficulty": 4,
+      "subcategory": "Beschleuniger (Arten & Prinzipien)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Verträgliche vs. nicht-verträgliche Observable",
+      "question": "Which of the following statements correctly describes a compatible observable in quantum mechanics?",
+      "choices": [
+        "A: Two observables are compatible if they are simultaneously measurable and their commutator is zero.",
+        "B: Compatible observables always have the same expected value.",
+        "C: Compatible observables cannot be measured simultaneously.",
+        "D: Compatible observables are only relevant for classical systems."
+      ],
+      "correct_answer": "A",
+      "explanation": "In quantum mechanics, two observables are compatible if they can be measured simultaneously, meaning their commutator is zero. This allows for precise determination of both observables without one measurement affecting the other.",
+      "difficulty": 5,
+      "subcategory": "Verträgliche vs. nicht-verträgliche Observable"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Transformationsmatrix der Lorentz-Transformation",
+      "question": "Which of the following statements correctly describes the Lorentz transformation for motion along the x-axis?",
+      "choices": [
+        "A: x' = γ(x - vt) and t' = γ(t - vx/c²)",
+        "B: x' = x/v and t' = t/v",
+        "C: x' = x + vt and t' = t",
+        "D: x' = x + vt² and t' = t + v²t"
+      ],
+      "correct_answer": "A",
+      "explanation": "The Lorentz transformation describes how space and time change between two inertial systems moving relative to each other at a constant velocity v. The correct formulas involve the Lorentz factor γ, which accounts for relativistic effects and is crucial for understanding the theory of relativity.",
+      "difficulty": 6,
+      "subcategory": "Transformationsmatrix der Lorentz-Transformation"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Klassische Ensembles: Phasenraum & Verteilungsfunktion",
+      "question": "Which statement about the distribution function in phase space is correct?",
+      "choices": [
+        "A: The distribution function is independent of the system's temperature.",
+        "B: The distribution function describes the probability of finding a system in a specific state.",
+        "C: The distribution function is only relevant for quantum mechanical systems.",
+        "D: The distribution function cannot be used to calculate macroscopic properties."
+      ],
+      "correct_answer": "B",
+      "explanation": "The distribution function indicates how the probability of a system is distributed in specific states in phase space. It plays a central role in statistical mechanics, especially in describing thermodynamic properties of a system.",
+      "difficulty": 6,
+      "subcategory": "Klassische Ensembles: Phasenraum & Verteilungsfunktion"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Kirchhoffsches Strahlungsgesetz",
+      "question": "Which of the following statements correctly describes Kirchhoff's radiation law?",
+      "choices": [
+        "A: An ideal black body emits and absorbs radiation equally well in all wavelengths.",
+        "B: An ideal white body emits only in the visible spectrum.",
+        "C: An ideal reflecting body absorbs radiation equally well in all wavelengths.",
+        "D: An ideal body cannot absorb radiation when it is heated."
+      ],
+      "correct_answer": "A",
+      "explanation": "Kirchhoff's radiation law states that an ideal black body emits the maximum amount of radiation at a given temperature and perfectly absorbs all incident radiation. This property is fundamental for understanding thermal radiation and heat transfer.",
+      "difficulty": 6,
+      "subcategory": "Kirchhoffsches Strahlungsgesetz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Schallwellen im Festkörper",
+      "question": "Which statement about sound waves in solids is correct?",
+      "choices": [
+        "A: Sound waves propagate faster in solids than in air.",
+        "B: Sound waves cannot propagate in a vacuum.",
+        "C: Sound waves do not require matter for propagation.",
+        "D: Sound waves in solids are exclusively longitudinal."
+      ],
+      "correct_answer": "A",
+      "explanation": "Sound waves typically propagate faster in solids than in air because the particles in a solid are densely packed, allowing for efficient transmission of vibrations. The other statements are incorrect as sound waves cannot exist in a vacuum and transverse waves can also occur in solids.",
+      "difficulty": 4,
+      "subcategory": "Schallwellen im Festkörper"
+    }
+  ]
+}
