@@ -1,0 +1,168 @@
+{
+  "date": "2026-02-14",
+  "generated_at": "2026-02-14T04:31:58Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Gibb’sche Phasenregel",
+      "question": "What does the Gibbs phase rule describe?",
+      "choices": [
+        "Which of the following statements correctly describes the significance of the dipole moment in the multipole expansion of an electric field?",
+        "The dipole moment is an important concept in electrodynamics that describes the asymmetric distribution of electric charges. It plays a crucial role in the multipole expansion as it influences the fields around a dipole, making it important for analyzing electromagnetic interactions.",
+        "What does the uniqueness theorem in vector analysis state?",
+        "The uniqueness theorem in vector analysis states that every vector function can be uniquely decomposed into divergent and rotational components under certain conditions. This is a central concept in electrodynamics for analyzing electric and magnetic fields."
+      ],
+      "correct_answer": "D",
+      "explanation": "The Gibbs phase rule describes how many phases can exist in a thermodynamic system under given conditions such as temperature and pressure. It plays an important role in thermodynamics and materials science.",
+      "difficulty": 1,
+      "subcategory": "Gibb’sche Phasenregel"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Multipolentwicklung",
+      "question": "What is the main goal of the Hamilton-Jacobi theory in analytical mechanics?",
+      "choices": [
+        "Which statement best describes the binding energy of an atomic nucleus according to the Weizsäcker formula?",
+        "The Weizsäcker formula describes that the binding energy of an atomic nucleus increases with the number of nucleons up to a certain point, beyond which the stability of the nucleus decreases. This demonstrates the influence of the strong interaction on nuclear structure.",
+        "Which of the following statements best describes Hooke's Law in relation to the stress and strain of an elastic body?",
+        "Hooke's Law states that the stress acting on an elastic body is directly proportional to the deformation, as long as the elastic limit is not exceeded. This means that the body returns to its original shape within this range after being unloaded."
+      ],
+      "correct_answer": "A",
+      "explanation": "The Hamilton-Jacobi theory aims to transform the equations of motion of a system into a form that can be solved by a differential equation. This allows for a simplified analysis of mechanical problems.",
+      "difficulty": 8,
+      "subcategory": "Multipolentwicklung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Zerlegungs- und Eindeutigkeitssatz (Vektoranalysis)",
+      "question": "Which of the following statements correctly describes the relationship between local thermodynamic equilibrium and conservation laws in statistical mechanics?",
+      "choices": [
+        "What does friction describe in the Lagrangian formulation of analytical mechanics?",
+        "In the Lagrangian formulation, friction is considered as a dissipative force that reduces the mechanical energy of a system. This consideration allows for a more realistic modeling of systems that are not ideal.",
+        "What best describes the concept of Landau levels in a magnetic field?",
+        "Landau levels are the quantized energy levels of electrons in a strong magnetic field. These levels arise due to the interaction between the electrons and the magnetic field and are a central concept in solid-state physics."
+      ],
+      "correct_answer": "D",
+      "explanation": "Statement B is correct, as the state of local thermodynamic equilibrium supports the classical conservation laws by ensuring that energy, momentum, and particle number are locally constant. This allows for the application of statistical mechanics even in the presence of macroscopic flows, as long as they can be described through local equilibrium states.",
+      "difficulty": 5,
+      "subcategory": "Zerlegungs- und Eindeutigkeitssatz (Vektoranalysis)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Lösungsmethode der HJ-Theorie",
+      "question": "Was ist das Hauptziel der Hamilton-Jacobi-Theorie in der analytischen Mechanik?",
+      "choices": [
+        "A: Die Berechnung der kinetischen Energie eines Systems.",
+        "B: Die Reduktion des Problems auf eine Differentialgleichung.",
+        "C: Die Ermittlung der Geschwindigkeit eines Körpers.",
+        "D: Die Bestimmung der Masse eines Objekts."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Hamilton-Jacobi-Theorie zielt darauf ab, die Bewegungsgleichungen eines Systems in eine Form zu bringen, die durch eine Differentialgleichung gelöst werden kann. Dies ermöglicht eine vereinfachte Analyse von mechanischen Problemen.",
+      "difficulty": 3,
+      "subcategory": "Lösungsmethode der HJ-Theorie"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Parametrisierung der Bindungsenergie (Weizsäcker)",
+      "question": "Welche Aussage beschreibt die Bindungsenergie eines Atomkerns gemäß der Weizsäcker-Formel am besten?",
+      "choices": [
+        "A: Die Bindungsenergie steigt mit der Anzahl der Nukleonen bis zu einer bestimmten Grenze.",
+        "B: Die Bindungsenergie hängt nicht von der Protonen-Neutronen-Zahl ab.",
+        "C: Die Bindungsenergie ist immer negativ und beeinflusst die Stabilität des Kerns.",
+        "D: Die Bindungsenergie ist konstant und unabhängig von der Kerngröße."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Weizsäcker-Formel beschreibt, dass die Bindungsenergie eines Atomkerns mit der Anzahl der Nukleonen zunimmt, jedoch nur bis zu einem bestimmten Punkt, an dem die Stabilität des Kerns abnimmt. Dies zeigt den Einfluss der starken Wechselwirkung auf die Kernstruktur.",
+      "difficulty": 4,
+      "subcategory": "Parametrisierung der Bindungsenergie (Weizsäcker)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Spannung & Verformung",
+      "question": "Welche der folgenden Aussagen beschreibt am besten das Hooke'sche Gesetz in Bezug auf die Spannung und Verformung eines elastischen Körpers?",
+      "choices": [
+        "A: Die Deformation ist unabhängig von der auf den Körper wirkenden Spannung.",
+        "B: Die Deformation ist nur bei plastischen Materialien relevant.",
+        "C: Die Spannung ist proportional zur Deformation des Körpers, solange die elastische Grenze nicht überschritten wird.",
+        "D: Die Spannung ist konstant, unabhängig von der Deformation."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Hooke'sche Gesetz besagt, dass die Spannung, die auf einen elastischen Körper wirkt, direkt proportional zur Deformation ist, solange die elastische Grenze nicht überschritten wird. Dies bedeutet, dass der Körper in diesem Bereich nach der Entlastung in seine ursprüngliche Form zurückkehrt.",
+      "difficulty": 6,
+      "subcategory": "Spannung & Verformung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Erhaltungssätze & Hydrodynamik im lokalen Gleichgewicht",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt die Beziehung zwischen dem lokalen thermodynamischen Gleichgewicht und den Erhaltungssätzen in der statistischen Mechanik?",
+      "choices": [
+        "A: Der Zustand des lokalen thermodynamischen Gleichgewichts garantiert, dass die Erhaltungssätze immer in ihrer klassischen Form gelten.",
+        "B: Lokales thermodynamisches Gleichgewicht erfordert, dass alle makroskopischen Flüsse vernachlässigbar sind, was die Anwendung der Erhaltungssätze stark einschränkt.",
+        "C: Im lokalen thermodynamischen Gleichgewicht sind die Erhaltungssätze für Energie, Impuls und Teilchenzahl unabhängig voneinander.",
+        "D: Im lokalen Gleichgewicht können die Erhaltungssätze nicht auf mikroskopischer Ebene angewendet werden."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Aussage B ist korrekt, da der Zustand des lokalen thermodynamischen Gleichgewichts die klassischen Erhaltungssätze unterstützt, indem er sicherstellt, dass Energie, Impuls und Teilchenzahl lokal konstant sind. Dies ermöglicht die Anwendung der statistischen Mechanik, auch wenn makroskopische Flüsse vorhanden sind, solange diese über lokale Gleichgewichtszustände beschrieben werden können.",
+      "difficulty": 9,
+      "subcategory": "Erhaltungssätze & Hydrodynamik im lokalen Gleichgewicht"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Reibung in der Lagrange-Formulierung",
+      "question": "Was beschreibt die Reibung in der Lagrange-Formulierung der analytischen Mechanik?",
+      "choices": [
+        "A: Sie hat keinen Einfluss auf die Bewegungsgleichungen.",
+        "B: Sie ist immer konstant und unabhängig von der Geschwindigkeit.",
+        "C: Sie wird als dissipative Kraft betrachtet, die die Energie eines Systems verringert.",
+        "D: Sie wird ignoriert, da sie nicht zur Kinematik gehört."
+      ],
+      "correct_answer": "C",
+      "explanation": "In der Lagrange-Formulierung wird Reibung als dissipative Kraft betrachtet, die die mechanische Energie eines Systems verringert. Diese Berücksichtigung ermöglicht eine realistischere Modellierung von Systemen, die nicht ideal sind.",
+      "difficulty": 2,
+      "subcategory": "Reibung in der Lagrange-Formulierung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Der Dipol & Dipolfeld",
+      "question": "Was beschreibt das Dipolfeld eines elektrischen Dipols am besten?",
+      "choices": [
+        "A: Es ist identisch mit dem Feld einer einzelnen Punktladung.",
+        "B: Es ist symmetrisch und hat nur eine positive Ladung.",
+        "C: Es entsteht durch zwei entgegengesetzt geladene Punktladungen in einem bestimmten Abstand.",
+        "D: Es hat immer die gleiche Stärke unabhängig von der Distanz."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Dipolfeld eines elektrischen Dipols entsteht durch zwei gleich große, aber entgegengesetzt geladene Punktladungen, die sich in einem bestimmten Abstand zueinander befinden. Dieses Feld hat spezifische Eigenschaften, die sich mit der Distanz verändern, und ist nicht symmetrisch im Sinne einer einzelnen Ladung.",
+      "difficulty": 6,
+      "subcategory": "Der Dipol & Dipolfeld"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Landau-Niveaus",
+      "question": "Was beschreibt das Konzept der Landau-Niveaus in einem Magnetfeld?",
+      "choices": [
+        "A: Diskrete Energieniveaus von Elektronen",
+        "B: Kontinuierliche Energieniveaus von Atomen",
+        "C: Die Temperaturabhängigkeit von Festkörpern",
+        "D: Die Struktur von Kristallgittern"
+      ],
+      "correct_answer": "A",
+      "explanation": "Landau-Niveaus sind die quantisierten Energieniveaus von Elektronen in einem starken Magnetfeld. Diese Niveaus entstehen aufgrund der Wechselwirkung zwischen den Elektronen und dem Magnetfeld und sind ein zentrales Konzept in der Festkörperphysik.",
+      "difficulty": 3,
+      "subcategory": "Landau-Niveaus"
+    }
+  ]
+}
