@@ -1,0 +1,168 @@
+{
+  "date": "2026-02-15",
+  "generated_at": "2026-02-15T04:53:11Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Coulomb’sches Gesetz & elektrisches Feld",
+      "question": "Which statement about Coulomb's law is correct?",
+      "choices": [
+        "A: The force between two point charges is directly proportional to the product of the charges and inversely proportional to the square of the distance between them.",
+        "B: The unit of Coulomb force is the Joule.",
+        "C: Coulomb force always acts attractively, regardless of the charges' signs.",
+        "D: Coulomb's law applies only to point charges and not to distributed charges."
+      ],
+      "correct_answer": "A",
+      "explanation": "Coulomb's law describes the interaction between two point charges, stating that the electric force is directly proportional to the product of the charges and inversely proportional to the square of the distance between them. This relationship is fundamental for understanding electric fields and forces in electrodynamics.",
+      "difficulty": 8,
+      "subcategory": "Coulomb’sches Gesetz & elektrisches Feld"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Typen der schwachen Wechselwirkung (CC/NC)",
+      "question": "Which of the following interactions is characteristic of the neutral weak interaction?",
+      "choices": [
+        "A: Beta decay",
+        "B: Neutrino scatterings",
+        "C: Electron-positron pair production",
+        "D: Proton-proton collision"
+      ],
+      "correct_answer": "B",
+      "explanation": "The neutral weak interaction is responsible for processes like neutrino scatterings, where neutrinos interact with other particles without changing electric charges. Beta decay (Answer B) is an example of the charged weak interaction.",
+      "difficulty": 4,
+      "subcategory": "Typen der schwachen Wechselwirkung (CC/NC)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Quasi-freie Elektronen (Näherung)",
+      "question": "What does the model of quasi-free electrons in metals describe?",
+      "choices": [
+        "A: Electrons move like free particles within a crystal lattice.",
+        "B: Electrons are tightly bound to atoms and cannot move.",
+        "C: Electrons can only be quasi-free in insulating materials.",
+        "D: Electrons can only move freely at very high temperatures."
+      ],
+      "correct_answer": "A",
+      "explanation": "The model of quasi-free electrons describes that electrons in a metal can behave similarly to free particles as they move relatively unhindered within the crystal lattice. This approximation is helpful in understanding the electrical properties of metals.",
+      "difficulty": 3,
+      "subcategory": "Quasi-freie Elektronen (Näherung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Ultraschalldämpfung in amorphen Festkörpern",
+      "question": "Which property of amorphous solids contributes to ultrasonic damping?",
+      "choices": [
+        "A: Low density",
+        "B: High crystallinity",
+        "C: Irregular atomic structure",
+        "D: High thermal conductivity"
+      ],
+      "correct_answer": "C",
+      "explanation": "Amorphous solids have an irregular atomic structure, causing sound waves to scatter and be absorbed at many different locations. This irregularity is crucial for ultrasonic damping as it disperses the energy of sound waves, reducing their intensity.",
+      "difficulty": 5,
+      "subcategory": "Ultraschalldämpfung in amorphen Festkörpern"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Streuung elektromagnetischer Wellen",
+      "question": "Which statement about Rayleigh scattering of light is correct?",
+      "choices": [
+        "A: Rayleigh scattering results in light being evenly distributed in all directions.",
+        "B: Rayleigh scattering occurs with larger particles exceeding the light's wavelengths.",
+        "C: Rayleigh scattering has no effect on the color perception of objects.",
+        "D: Rayleigh scattering is responsible for the blue color of the sky due to the different wavelengths of incident light."
+      ],
+      "correct_answer": "D",
+      "explanation": "Rayleigh scattering describes the scattering of light by small particles smaller than the light's wavelength. This scattering is responsible for the blue color of the sky, as shorter wavelengths (blue) scatter more strongly than longer ones (red).",
+      "difficulty": 8,
+      "subcategory": "Streuung elektromagnetischer Wellen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Diamagnetismus (atomar)",
+      "question": "What describes diamagnetism at the atomic level?",
+      "choices": [
+        "A: Conversion of magnetic energy into kinetic energy.",
+        "B: Generation of electric currents by magnetic fields.",
+        "C: Strong attraction of materials by magnetic fields.",
+        "D: Weak repulsion of materials in external magnetic fields."
+      ],
+      "correct_answer": "D",
+      "explanation": "Diamagnetism is a phenomenon where materials are weakly repelled by magnetic fields. At the atomic level, this results from changes in electron motion in an external magnetic field, leading to a weak generation of an opposite magnetic field.",
+      "difficulty": 2,
+      "subcategory": "Diamagnetismus (atomar)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Wirbel & Zirkulation",
+      "question": "What describes the relationship between circulation around a closed path and the change in angular momentum within that path according to Stokes' theorem?",
+      "choices": [
+        "A: Circulation is independent of the change in angular momentum.",
+        "B: Circulation is inversely proportional to the change in angular momentum.",
+        "C: Circulation is proportional to the change in angular momentum within the path.",
+        "D: There is no connection between circulation and angular momentum."
+      ],
+      "correct_answer": "C",
+      "explanation": "Stokes' theorem relates the circulation of a vector field around a closed path to the rotation of the field within that path. This implies that a change in angular momentum is related to circulation, confirming correct answer A.",
+      "difficulty": 8,
+      "subcategory": "Wirbel & Zirkulation"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Thermodynamische Größen (großkanonisch)",
+      "question": "Which thermodynamic quantity describes the average energy of a system in the grand canonical ensemble?",
+      "choices": [
+        "A: Pressure",
+        "B: Temperature",
+        "C: Entropy",
+        "D: Volume"
+      ],
+      "correct_answer": "B",
+      "explanation": "In the grand canonical ensemble, temperature is a central quantity as it influences the average energy of particles in the system. It is crucial for describing thermal equilibrium and energy distribution among particles.",
+      "difficulty": 4,
+      "subcategory": "Thermodynamische Größen (großkanonisch)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Quadratintegrable Funktionen H=L^2",
+      "question": "What property does a square-integrable function have in the context of H=L^2?",
+      "choices": [
+        "A: It is a continuous function without discontinuities.",
+        "B: Its square is integrable over the entire domain.",
+        "C: It is always a periodic function.",
+        "D: It has only finitely many zeros."
+      ],
+      "correct_answer": "B",
+      "explanation": "A function belongs to H=L^2 if the integral of the function's square over the entire domain is finite, meaning it is square-integrable. This is a fundamental condition for defining the Hilbert space structure in quantum mechanics.",
+      "difficulty": 9,
+      "subcategory": "Quadratintegrable Funktionen H=L^2"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Geometrische Interpretation von Phasenübergängen",
+      "question": "What does the phase diagram describe in thermodynamics?",
+      "choices": [
+        "A: The speed of particles in a gas.",
+        "B: The chemical composition of different materials.",
+        "C: The amount of energy needed to heat a substance.",
+        "D: The relationship between temperature and pressure for different phases of a substance."
+      ],
+      "correct_answer": "D",
+      "explanation": "A phase diagram shows how temperature and pressure influence the different phases (solid, liquid, gas) of a substance. It helps understand under what conditions a phase transition occurs, such as the transition from liquid to gas (vaporization).",
+      "difficulty": 3,
+      "subcategory": "Geometrische Interpretation von Phasenübergängen"
+    }
+  ]
+}
