@@ -1,0 +1,169 @@
+{
+  "date": "2026-02-16",
+  "generated_at": "2026-02-16T03:54:29Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Drehschwingungen um eine feste Achse",
+      "question": "Welcher Zusammenhang beschreibt die Beziehung zwischen dem Drehmoment und der Winkelbeschleunigung eines starren Körpers, der um eine feste Achse rotiert?",
+      "choices": [
+        "A: τ = m * a",
+        "B: τ = p * v",
+        "C: τ = F * r",
+        "D: τ = I * α"
+      ],
+      "correct_answer": "D",
+      "explanation": "Der Zusammenhang τ = I * α beschreibt, dass das Drehmoment (τ) gleich dem Produkt aus dem Trägheitsmoment (I) und der Winkelbeschleunigung (α) ist. Dies ist eine zentrale Gleichung in der Rotationsdynamik und verdeutlicht, wie Kräfte bei Drehbewegungen wirken.",
+      "difficulty": 8,
+      "subcategory": "Drehschwingungen um eine feste Achse"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Elektrischer Ladungstransport",
+      "question": "Was ist die Hauptursache für den elektrischen Ladungstransport in Metallen?",
+      "choices": [
+        "A: Magnetische Felder",
+        "B: Bewegliche Elektronen",
+        "C: Fest gebundene Atome",
+        "D: Lichtstrahlen"
+      ],
+      "correct_answer": "B",
+      "explanation": "Der elektrische Ladungstransport in Metallen erfolgt hauptsächlich durch die Bewegung von freien Elektronen. Diese Elektronen können sich relativ leicht durch das Metall bewegen und tragen somit zur elektrischen Leitfähigkeit bei.",
+      "difficulty": 2,
+      "subcategory": "Elektrischer Ladungstransport"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Noether-Idee: Homogenität der Zeit ⇒ Energieerhaltung",
+      "question": "Welche Aussage beschreibt die Noether-Idee in Bezug auf die Homogenität der Zeit und die Energieerhaltung am besten?",
+      "choices": [
+        "A: Die Zeit ist homogen, daher bleibt die gesamte Energie eines geschlossenen Systems konstant.",
+        "B: Die Energie eines Systems kann nur durch äußere Einflüsse verändert werden.",
+        "C: Homogenität der Zeit bedeutet, dass die Geschwindigkeit eines Objekts konstant bleibt.",
+        "D: Zeitliche Veränderungen führen immer zu einer Veränderung der Masse eines Systems."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Noether-Idee besagt, dass die Homogenität der Zeit, also die Unabhängigkeit der physikalischen Gesetze von der Zeit, zur Erhaltung der Energie führt. In einem geschlossenen System bleibt die gesamte Energie aufgrund dieser zeitlichen Symmetrie konstant.",
+      "difficulty": 5,
+      "subcategory": "Noether-Idee: Homogenität der Zeit ⇒ Energieerhaltung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Quantenzahlen des Gesamtdrehimpulses",
+      "question": "Welche der folgenden Aussagen über die Quantenzahlen des Gesamtdrehimpulses in einem quantenmechanischen System ist korrekt?",
+      "choices": [
+        "A: Die magnetische Quantenzahl m kann nur positive Werte annehmen, die kleiner oder gleich der Gesamtdrehimpulsquantenzahl sind.",
+        "B: Der Gesamtdrehimpuls J setzt sich aus dem Bahndrehimpuls L und dem Spin S zusammen, wobei J = L + S gilt.",
+        "C: Der Gesamtdrehimpuls kann nur ganzzahlige Werte annehmen, unabhängig von der Spinquantenzahl.",
+        "D: Die Gesamtdrehimpulsquantenzahl J ist immer ein halbzahliger Vielfaches von ħ."
+      ],
+      "correct_answer": "B",
+      "explanation": "Der Gesamtdrehimpuls J eines quantenmechanischen Systems setzt sich tatsächlich aus dem Bahndrehimpuls L und dem Spin S zusammen, wobei die Beziehung J = L + S gilt. Diese Beziehung ist grundlegend für das Verständnis des Gesamtverhaltens von Teilchen im quantenmechanischen Rahmen.",
+      "difficulty": 10,
+      "subcategory": "Quantenzahlen des Gesamtdrehimpulses"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Doppelspalt: Welle vs. Teilchen",
+      "question": "Was zeigt das Doppelspalt-Experiment über die Natur von Licht?",
+      "choices": [
+        "A: Licht verhält sich sowohl wie eine Welle als auch wie ein Teilchen.",
+        "B: Licht kann nur als Welle betrachtet werden und nicht als Teilchen.",
+        "C: Licht hat keine messbaren Eigenschaften.",
+        "D: Licht besteht nur aus Teilchen und zeigt keine Wellenphänomene."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Doppelspalt-Experiment demonstriert, dass Licht Interferenzmuster erzeugt, was auf seine wellenartige Natur hinweist. Gleichzeitig können Lichtquanten (Photonen) als Teilchen detektiert werden, was die duale Natur von Licht zeigt.",
+      "difficulty": 5,
+      "subcategory": "Doppelspalt: Welle vs. Teilchen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Coulomb’sches Gesetz & elektrisches Feld",
+      "question": "Was beschreibt das Coulomb’sche Gesetz?",
+      "choices": [
+        "A: Die Geschwindigkeit von elektrischen Strömen in Leitern.",
+        "B: Die Energie, die bei der Bewegung von Elektronen frei wird.",
+        "C: Die Magnetfelder, die durch bewegte Ladungen erzeugt werden.",
+        "D: Die Kraft zwischen zwei punktförmigen elektrischen Ladungen."
+      ],
+      "correct_answer": "D",
+      "explanation": "Das Coulomb’sche Gesetz beschreibt die elektrische Kraft zwischen zwei punktförmigen elektrischen Ladungen und ist direkt proportional zum Produkt der Ladungen und umgekehrt proportional zum Quadrat des Abstands zwischen ihnen. Es ist eine fundamentale Beziehung in der Elektrodynamik.",
+      "difficulty": 5,
+      "subcategory": "Coulomb’sches Gesetz & elektrisches Feld"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Bauelemente auf p–n-Basis",
+      "question": "Welche Eigenschaft ist charakteristisch für einen p-n-Übergang?",
+      "choices": [
+        "A: Er zeigt bei Rückwärtsbias ein hohes Durchlassverhalten.",
+        "B: Er kann nur in Halbleitermaterialien mit hoher Reinheit hergestellt werden.",
+        "C: Er leitet Strom hauptsächlich in eine Richtung.",
+        "D: Er hat immer eine negative Temperaturkoeffizienten."
+      ],
+      "correct_answer": "C",
+      "explanation": "Ein p-n-Übergang leitet den elektrischen Strom hauptsächlich in eine Richtung, was ihn zu einem grundlegenden Bauelement in der Elektronik macht. Diese Eigenschaft ist entscheidend für die Funktion von Dioden und Transistoren, die in verschiedenen elektronischen Schaltungen verwendet werden.",
+      "difficulty": 7,
+      "subcategory": "Bauelemente auf p–n-Basis"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Spezielle Operatoren (Zahl-, Hamilton-Operator)",
+      "question": "Welcher Operator beschreibt die Energie eines quantenmechanischen Systems?",
+      "choices": [
+        "A: Spannungs-Operator",
+        "B: Hamilton-Operator",
+        "C: Ort-Operator",
+        "D: Impuls-Operator"
+      ],
+      "correct_answer": "B",
+      "explanation": "Der Hamilton-Operator ist der zentrale Operator in der Quantenmechanik, der die Gesamtenergie eines Systems beschreibt. Er spielt eine entscheidende Rolle in der Schrödinger-Gleichung und ist essentiell für die Analyse von quantenmechanischen Systemen.",
+      "difficulty": 6,
+      "subcategory": "Spezielle Operatoren (Zahl-, Hamilton-Operator)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Ferromagnetische Domänen",
+      "question": "Was beschreibt den Begriff 'ferromagnetische Domänen' in ferromagnetischen Materialien?",
+      "choices": [
+        "A: Flächen, an denen die magnetische Feldstärke konstant bleibt.",
+        "B: Regionen, in denen das Material nur unter extremen Temperaturen magnetisch wird.",
+        "C: Bereiche, in denen die magnetischen Momente der Atome gleich ausgerichtet sind.",
+        "D: Zonen, in denen keine magnetischen Eigenschaften vorhanden sind."
+      ],
+      "correct_answer": "C",
+      "explanation": "Ferromagnetische Domänen sind Bereiche in ferromagnetischen Materialien, in denen die magnetischen Momente der Atome parallel und gleich ausgerichtet sind, was zu einer starken Gesamtmagnetisierung führt. Diese Ausrichtung kann durch äußere magnetische Felder beeinflusst werden, was zu einer Umkehrung der Magnetisierung in den Domänen führt.",
+      "difficulty": 7,
+      "subcategory": "Ferromagnetische Domänen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Formulierung des Hamilton’schen Prinzips",
+      "question": "Was besagt das Hamilton’sche Prinzip in der analytischen Mechanik?",
+      "choices": [
+        "A: Energie kann nicht erzeugt oder vernichtet werden.",
+        "B: Der Weg eines Systems zwischen zwei Punkten ist der, der die Wirkung minimiert.",
+        "C: Die Geschwindigkeit eines Körpers bleibt konstant, solange keine äußeren Kräfte wirken.",
+        "D: Der Impuls eines Körpers ist immer konstant."
+      ],
+      "correct_answer": "B",
+      "explanation": "Das Hamilton’sche Prinzip besagt, dass der tatsächliche Weg, den ein physikalisches System zwischen zwei Zuständen zurücklegt, derjenige ist, der die Wirkung minimiert. Dieses Prinzip ist grundlegend für die Formulierung der analytischen Mechanik und verbindet die Lagrange- und Hamilton-Mechanik.",
+      "difficulty": 3,
+      "subcategory": "Formulierung des Hamilton’schen Prinzips"
+    }
+  ]
+}

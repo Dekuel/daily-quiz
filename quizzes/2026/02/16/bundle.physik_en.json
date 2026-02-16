@@ -1,0 +1,168 @@
+{
+  "date": "2026-02-16",
+  "generated_at": "2026-02-16T03:55:01Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Drehschwingungen um eine feste Achse",
+      "question": "What relationship describes the connection between the torque and angular acceleration of a rigid body rotating about a fixed axis?",
+      "choices": [
+        "A: τ = m * a",
+        "B: τ = p * v",
+        "C: τ = F * r",
+        "D: τ = I * α"
+      ],
+      "correct_answer": "D",
+      "explanation": "The relationship τ = I * α describes that the torque (τ) is equal to the product of the moment of inertia (I) and the angular acceleration (α). This is a central equation in rotational dynamics and illustrates how forces act in rotational motion.",
+      "difficulty": 8,
+      "subcategory": "Drehschwingungen um eine feste Achse"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Elektrischer Ladungstransport",
+      "question": "What is the primary cause of electrical charge transport in metals?",
+      "choices": [
+        "A: Magnetic fields",
+        "B: Mobile electrons",
+        "C: Tightly bound atoms",
+        "D: Beams of light"
+      ],
+      "correct_answer": "B",
+      "explanation": "Electrical charge transport in metals mainly occurs through the movement of free electrons. These electrons can move relatively easily through the metal, contributing to its electrical conductivity.",
+      "difficulty": 2,
+      "subcategory": "Elektrischer Ladungstransport"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Noether-Idee: Homogenität der Zeit ⇒ Energieerhaltung",
+      "question": "Which statement best describes the Noether's theorem regarding the homogeneity of time and energy conservation?",
+      "choices": [
+        "A: Time is homogeneous, hence the total energy of a closed system remains constant.",
+        "B: The energy of a system can only be altered by external influences.",
+        "C: Homogeneity of time means the velocity of an object remains constant.",
+        "D: Temporal changes always lead to a change in the mass of a system."
+      ],
+      "correct_answer": "A",
+      "explanation": "Noether's theorem states that the homogeneity of time, meaning the independence of physical laws from time, leads to the conservation of energy. In a closed system, the total energy remains constant due to this temporal symmetry.",
+      "difficulty": 5,
+      "subcategory": "Noether-Idee: Homogenität der Zeit ⇒ Energieerhaltung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Quantenzahlen des Gesamtdrehimpulses",
+      "question": "Which of the following statements about the quantum numbers of total angular momentum in a quantum mechanical system is correct?",
+      "choices": [
+        "A: The magnetic quantum number m can only take positive values less than or equal to the total angular momentum quantum number.",
+        "B: The total angular momentum J is composed of the orbital angular momentum L and the spin S, where J = L + S holds.",
+        "C: The total angular momentum can only take integer values, regardless of the spin quantum number.",
+        "D: The total angular momentum quantum number J is always a half-integer multiple of ħ."
+      ],
+      "correct_answer": "B",
+      "explanation": "The total angular momentum J of a quantum mechanical system is actually composed of the orbital angular momentum L and the spin S, where the relationship J = L + S holds. This relationship is fundamental for understanding the overall behavior of particles in the quantum mechanical framework.",
+      "difficulty": 10,
+      "subcategory": "Quantenzahlen des Gesamtdrehimpulses"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Doppelspalt: Welle vs. Teilchen",
+      "question": "What does the double-slit experiment reveal about the nature of light?",
+      "choices": [
+        "A: Light behaves both as a wave and a particle.",
+        "B: Light can only be considered as a wave and not as a particle.",
+        "C: Light has no measurable properties.",
+        "D: Light consists only of particles and shows no wave phenomena."
+      ],
+      "correct_answer": "A",
+      "explanation": "The double-slit experiment demonstrates that light creates interference patterns, indicating its wave-like nature. At the same time, light quanta (photons) can be detected as particles, revealing the dual nature of light.",
+      "difficulty": 5,
+      "subcategory": "Doppelspalt: Welle vs. Teilchen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Coulomb’sches Gesetz & elektrisches Feld",
+      "question": "What does Coulomb's law describe?",
+      "choices": [
+        "A: The velocity of electric currents in conductors.",
+        "B: The energy released during the movement of electrons.",
+        "C: The magnetic fields generated by moving charges.",
+        "D: The force between two point-like electric charges."
+      ],
+      "correct_answer": "D",
+      "explanation": "Coulomb's law describes the electric force between two point-like electric charges and is directly proportional to the product of the charges and inversely proportional to the square of the distance between them. It is a fundamental relationship in electrodynamics.",
+      "difficulty": 5,
+      "subcategory": "Coulomb’sches Gesetz & elektrisches Feld"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Bauelemente auf p–n-Basis",
+      "question": "Which property is characteristic of a p-n junction?",
+      "choices": [
+        "A: It exhibits high conductivity under reverse bias.",
+        "B: It can only be fabricated in semiconductor materials of high purity.",
+        "C: It mainly conducts current in one direction.",
+        "D: It always has a negative temperature coefficient."
+      ],
+      "correct_answer": "C",
+      "explanation": "A p-n junction primarily conducts electric current in one direction, making it a fundamental component in electronics. This property is crucial for the operation of diodes and transistors used in various electronic circuits.",
+      "difficulty": 7,
+      "subcategory": "Bauelemente auf p–n-Basis"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Spezielle Operatoren (Zahl-, Hamilton-Operator)",
+      "question": "Which operator describes the energy of a quantum mechanical system?",
+      "choices": [
+        "A: Voltage operator",
+        "B: Hamiltonian operator",
+        "C: Position operator",
+        "D: Momentum operator"
+      ],
+      "correct_answer": "B",
+      "explanation": "The Hamiltonian operator is the central operator in quantum mechanics that describes the total energy of a system. It plays a crucial role in the Schrödinger equation and is essential for analyzing quantum mechanical systems.",
+      "difficulty": 6,
+      "subcategory": "Spezielle Operatoren (Zahl-, Hamilton-Operator)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Ferromagnetische Domänen",
+      "question": "What does the term 'ferromagnetic domains' in ferromagnetic materials describe?",
+      "choices": [
+        "A: Areas where the magnetic field strength remains constant.",
+        "B: Regions where the material becomes magnetic only at extreme temperatures.",
+        "C: Areas where the magnetic moments of the atoms are aligned in the same direction.",
+        "D: Zones where no magnetic properties are present."
+      ],
+      "correct_answer": "C",
+      "explanation": "Ferromagnetic domains are regions in ferromagnetic materials where the magnetic moments of the atoms are aligned parallel and in the same direction, leading to a strong overall magnetization. This alignment can be influenced by external magnetic fields, causing a reversal of magnetization in the domains.",
+      "difficulty": 7,
+      "subcategory": "Ferromagnetische Domänen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Formulierung des Hamilton’schen Prinzips",
+      "question": "What does Hamilton's principle state in analytical mechanics?",
+      "choices": [
+        "A: Energy cannot be created or destroyed.",
+        "B: The path of a system between two points is the one that minimizes the action.",
+        "C: The velocity of a body remains constant as long as no external forces act.",
+        "D: The momentum of a body is always constant."
+      ],
+      "correct_answer": "B",
+      "explanation": "Hamilton's principle states that the actual path taken by a physical system between two states is the one that minimizes the action. This principle is fundamental to the formulation of analytical mechanics and connects Lagrangian and Hamiltonian mechanics.",
+      "difficulty": 3,
+      "subcategory": "Formulierung des Hamilton’schen Prinzips"
+    }
+  ]
+}
