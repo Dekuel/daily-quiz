@@ -1,0 +1,169 @@
+{
+  "date": "2026-02-17",
+  "generated_at": "2026-02-17T03:51:45Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Kraft & Drehmoment auf Stromverteilungen",
+      "question": "Was bewirkt eine magnetische Kraft auf einen stromdurchflossenen Draht in einem Magnetfeld?",
+      "choices": [
+        "A: Er wird länger.",
+        "B: Er wird kürzer.",
+        "C: Er wird seitlich abgelenkt.",
+        "D: Er wird erwärmt."
+      ],
+      "correct_answer": "C",
+      "explanation": "Ein stromdurchflossener Draht, der sich in einem Magnetfeld befindet, erfährt eine seitliche Ablenkung aufgrund der Lorentzkraft. Diese Kraft ist das Ergebnis der Wechselwirkung zwischen dem elektrischen Strom und dem Magnetfeld.",
+      "difficulty": 1,
+      "subcategory": "Kraft & Drehmoment auf Stromverteilungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Carnot-Kreisprozess & Wirkungsgrad",
+      "question": "Was beschreibt der Wirkungsgrad eines Carnot-Kreisprozesses?",
+      "choices": [
+        "A: Die maximale Temperatur, die im Prozess erreicht werden kann.",
+        "B: Das Verhältnis der geleisteten Arbeit zur zugeführten Wärme.",
+        "C: Die Dauer eines vollständigen Zyklus.",
+        "D: Die Menge an Arbeit, die pro Zyklus verrichtet wird."
+      ],
+      "correct_answer": "B",
+      "explanation": "Der Wirkungsgrad eines Carnot-Kreisprozesses ist definiert als das Verhältnis der geleisteten Arbeit zur zugeführten Wärme. Er stellt die maximale Effizienz dar, die ein thermodynamischer Prozess erreichen kann, basierend auf den Temperaturen der Wärmequellen.",
+      "difficulty": 5,
+      "subcategory": "Carnot-Kreisprozess & Wirkungsgrad"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Magnetische Momente von Baryonen",
+      "question": "Welches Baryon hat das größte magnetische Moment?",
+      "choices": [
+        "A: Proton",
+        "B: Neutron",
+        "C: Lambda-Baryon",
+        "D: Sigma-Baryon"
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Proton hat das größte magnetische Moment unter den Baryonen. Dies liegt an seiner positiven Ladung und der Struktur, die es ihm ermöglicht, ein stärkeres magnetisches Feld zu erzeugen als die anderen genannten Baryonen.",
+      "difficulty": 5,
+      "subcategory": "Magnetische Momente von Baryonen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Hilbert-Raum (allgemein)",
+      "question": "Was beschreibt der Hilbert-Raum in der Quantenmechanik?",
+      "choices": [
+        "A: Die Temperatur eines Systems in thermodynamischen Gleichgewicht.",
+        "B: Die Geschwindigkeit eines Objekts im klassischen Sinne.",
+        "C: Die Frequenz von Lichtstrahlen.",
+        "D: Die Menge aller möglichen Zustände eines quantenmechanischen Systems."
+      ],
+      "correct_answer": "D",
+      "explanation": "Der Hilbert-Raum ist ein abstrakter Vektorraum, der in der Quantenmechanik verwendet wird, um die möglichen Zustände eines Systems zu beschreiben. Jeder Zustand wird durch einen Vektor im Hilbert-Raum dargestellt, was eine zentrale Rolle in der mathematischen Formulierung der Quantenmechanik spielt.",
+      "difficulty": 6,
+      "subcategory": "Hilbert-Raum (allgemein)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Freie Achsen",
+      "question": "Was beschreibt das Konzept der freien Achsen in der klassischen Mechanik?",
+      "choices": [
+        "A: Die Rotation eines Körpers um seine eigene Achse.",
+        "B: Die Bewegungsfreiheit eines Körpers in einem dreidimensionalen Raum.",
+        "C: Die Bewegung eines Körpers nur entlang einer geraden Linie.",
+        "D: Die Einschränkung der Bewegungsfreiheit durch äußere Kräfte."
+      ],
+      "correct_answer": "B",
+      "explanation": "Freie Achsen beziehen sich auf die Möglichkeit eines Körpers, sich in alle Richtungen innerhalb eines dreidimensionalen Raums zu bewegen, ohne durch äußere Kräfte eingeschränkt zu werden. Dies ist ein grundlegendes Konzept in der klassischen Mechanik, das die Analyse von Bewegungen erleichtert.",
+      "difficulty": 6,
+      "subcategory": "Freie Achsen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Lichtleitung durch Totalreflexion",
+      "question": "Was ist ein notwendiger Vorgang für Totalreflexion bei Licht?",
+      "choices": [
+        "A: Licht wird von einer Linse fokussiert.",
+        "B: Licht wird von einem Spiegel reflektiert.",
+        "C: Licht bewegt sich in einem Vakuum.",
+        "D: Licht tritt von einem dichteren in ein dünneres Medium über."
+      ],
+      "correct_answer": "D",
+      "explanation": "Totalreflexion tritt auf, wenn Licht von einem dichteren Medium (z. B. Wasser) in ein dünneres Medium (z. B. Luft) übergeht und der Einfallswinkel größer als der kritische Winkel ist. In diesem Fall wird das Licht vollständig zurück ins dichtere Medium reflektiert, anstatt in das dünnere Medium einzutreten.",
+      "difficulty": 2,
+      "subcategory": "Lichtleitung durch Totalreflexion"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Zeitentwicklung (Heisenberg-Bild)",
+      "question": "Welche Aussage beschreibt korrekt die Zeitentwicklung eines Operators im Heisenberg-Bild der Quantenmechanik?",
+      "choices": [
+        "A: Die Zeitentwicklung wird ausschließlich durch die Schrödinger-Gleichung beschrieben.",
+        "B: Der Operator bleibt konstant, während der Zustand sich zeitabhängig entwickelt.",
+        "C: Sowohl der Operator als auch der Zustand entwickeln sich unabhängig voneinander.",
+        "D: Der Operator entwickelt sich zeitabhängig, während der Zustand zeitunabhängig bleibt."
+      ],
+      "correct_answer": "D",
+      "explanation": "Im Heisenberg-Bild der Quantenmechanik ist der Zustand eines Systems zeitunabhängig, während die Operatoren, die die Observablen repräsentieren, eine zeitabhängige Entwicklung erfahren. Dies steht im Gegensatz zum Schrödinger-Bild, in dem die Zustände sich zeitabhängig entwickeln und die Operatoren konstant bleiben.",
+      "difficulty": 9,
+      "subcategory": "Zeitentwicklung (Heisenberg-Bild)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Methode der Bildladungen",
+      "question": "Was beschreibt die Methode der Bildladungen in der Elektrodynamik?",
+      "choices": [
+        "A: Sie wird verwendet, um die Temperaturverteilung in einem leitenden Material zu bestimmen.",
+        "B: Sie dient zur Berechnung der Magnetfelder in einem elektrischen Stromkreis.",
+        "C: Sie beschreibt die Wechselwirkung zwischen elektrischen und magnetischen Feldern.",
+        "D: Sie ist ein Verfahren zur Lösung von Problemen mit leitenden Oberflächen und elektrischen Feldern."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Methode der Bildladungen ist ein mathematisches Werkzeug, das verwendet wird, um Probleme mit elektrischen Feldern und leitenden Oberflächen zu lösen. Sie vereinfacht die Berechnung des elektrischen Feldes, indem sie gedachte Ladungen einführt, die die Effekte der leitenden Oberfläche simulieren.",
+      "difficulty": 6,
+      "subcategory": "Methode der Bildladungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Biegung eines Balkens",
+      "question": "Was passiert mit der Biegung eines Balkens, wenn die Last in der Mitte des Balkens platziert wird?",
+      "choices": [
+        "A: Die Biegung ist maximal an den Enden des Balkens.",
+        "B: Die Biegung ist maximal in der Mitte des Balkens.",
+        "C: Es gibt keine Biegung des Balkens.",
+        "D: Der Balken verbiegt sich gleichmäßig über die gesamte Länge."
+      ],
+      "correct_answer": "B",
+      "explanation": "Wenn eine Last in der Mitte eines Balkens platziert wird, erfährt der Balken eine maximale Biegung an dieser Stelle. Dies liegt daran, dass die Kräfte, die auf den Balken wirken, am stärksten in der Mitte sind und die Biegemomente dort am größten sind.",
+      "difficulty": 5,
+      "subcategory": "Biegung eines Balkens"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Isotropie des Raumes ⇒ Drehimpulserhaltung",
+      "question": "Welche Aussage beschreibt am besten die Konsequenz der Isotropie des Raumes in Bezug auf den Drehimpuls?",
+      "choices": [
+        "A: Der Drehimpuls eines geschlossenen Systems bleibt konstant, wenn keine externen Drehmomente wirken.",
+        "B: Die Geschwindigkeit eines Objekts bleibt konstant, solange es sich in einem isotropen Raum bewegt.",
+        "C: Die kinetische Energie eines Systems bleibt konstant, wenn es sich ohne äußere Einflüsse bewegt.",
+        "D: Der gesamte Impuls eines geschlossenen Systems bleibt konstant, unabhängig von den Kräften, die wirken."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Isotropie des Raumes bedeutet, dass physikalische Gesetze in alle Richtungen gleich sind. Dies führt zur Erhaltung des Drehimpulses in einem geschlossenen System, solange keine externen Drehmomente vorhanden sind.",
+      "difficulty": 7,
+      "subcategory": "Isotropie des Raumes ⇒ Drehimpulserhaltung"
+    }
+  ]
+}

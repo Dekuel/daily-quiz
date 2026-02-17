@@ -1,0 +1,168 @@
+{
+  "date": "2026-02-17",
+  "generated_at": "2026-02-17T03:52:21Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Kraft & Drehmoment auf Stromverteilungen",
+      "question": "What effect does a magnetic force have on a current-carrying wire in a magnetic field?",
+      "choices": [
+        "A: It becomes longer.",
+        "B: It becomes shorter.",
+        "C: It is deflected laterally.",
+        "D: It gets heated."
+      ],
+      "correct_answer": "C",
+      "explanation": "A current-carrying wire in a magnetic field experiences lateral deflection due to the Lorentz force. This force is the result of the interaction between the electric current and the magnetic field.",
+      "difficulty": 1,
+      "subcategory": "Kraft & Drehmoment auf Stromverteilungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Carnot-Kreisprozess & Wirkungsgrad",
+      "question": "What describes the efficiency of a Carnot cycle process?",
+      "choices": [
+        "A: The maximum temperature that can be reached in the process.",
+        "B: The ratio of work done to heat supplied.",
+        "C: The duration of a complete cycle.",
+        "D: The amount of work done per cycle."
+      ],
+      "correct_answer": "B",
+      "explanation": "The efficiency of a Carnot cycle process is defined as the ratio of the work done to the heat supplied. It represents the maximum efficiency that a thermodynamic process can achieve based on the temperatures of the heat sources.",
+      "difficulty": 5,
+      "subcategory": "Carnot-Kreisprozess & Wirkungsgrad"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Magnetische Momente von Baryonen",
+      "question": "Which baryon has the largest magnetic moment?",
+      "choices": [
+        "A: Proton",
+        "B: Neutron",
+        "C: Lambda baryon",
+        "D: Sigma baryon"
+      ],
+      "correct_answer": "A",
+      "explanation": "The proton has the largest magnetic moment among baryons. This is due to its positive charge and structure, allowing it to generate a stronger magnetic field than the other mentioned baryons.",
+      "difficulty": 5,
+      "subcategory": "Magnetische Momente von Baryonen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Hilbert-Raum (allgemein)",
+      "question": "What does the concept of free axes describe in classical mechanics?",
+      "choices": [
+        "A: The rotation of a body around its own axis.",
+        "B: The freedom of movement of a body in a three-dimensional space.",
+        "C: The motion of a body only along a straight line.",
+        "D: The restriction of movement freedom by external forces."
+      ],
+      "correct_answer": "D",
+      "explanation": "Free axes refer to the ability of a body to move in all directions within a three-dimensional space without being restricted by external forces. This is a fundamental concept in classical mechanics that facilitates the analysis of motion.",
+      "difficulty": 6,
+      "subcategory": "Hilbert-Raum (allgemein)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Freie Achsen",
+      "question": "What is a necessary process for total internal reflection in light?",
+      "choices": [
+        "A: Light is focused by a lens.",
+        "B: Light is reflected by a mirror.",
+        "C: Light moves in a vacuum.",
+        "D: Light transitions from a denser to a rarer medium."
+      ],
+      "correct_answer": "B",
+      "explanation": "Total internal reflection occurs when light transitions from a denser medium (e.g., water) to a rarer medium (e.g., air) and the angle of incidence is greater than the critical angle. In this case, the light is completely reflected back into the denser medium instead of entering the rarer medium.",
+      "difficulty": 6,
+      "subcategory": "Freie Achsen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Lichtleitung durch Totalreflexion",
+      "question": "Which statement correctly describes the time evolution of an operator in the Heisenberg picture of quantum mechanics?",
+      "choices": [
+        "A: The time evolution is solely described by the Schrödinger equation.",
+        "B: The operator remains constant while the state evolves with time.",
+        "C: Both the operator and the state evolve independently of each other.",
+        "D: The operator evolves with time while the state remains time-independent."
+      ],
+      "correct_answer": "D",
+      "explanation": "In the Heisenberg picture of quantum mechanics, the state of a system is time-independent, while the operators representing observables undergo a time-dependent evolution. This is in contrast to the Schrödinger picture, where states evolve with time and operators remain constant.",
+      "difficulty": 2,
+      "subcategory": "Lichtleitung durch Totalreflexion"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Zeitentwicklung (Heisenberg-Bild)",
+      "question": "What describes the method of image charges in electrodynamics?",
+      "choices": [
+        "A: It is used to determine the temperature distribution in a conducting material.",
+        "B: It is used to calculate the magnetic fields in an electrical circuit.",
+        "C: It describes the interaction between electric and magnetic fields.",
+        "D: It is a procedure for solving problems involving conducting surfaces and electric fields."
+      ],
+      "correct_answer": "D",
+      "explanation": "The method of image charges is a mathematical tool used to solve problems involving electric fields and conducting surfaces. It simplifies the calculation of the electric field by introducing imaginary charges that simulate the effects of the conducting surface.",
+      "difficulty": 9,
+      "subcategory": "Zeitentwicklung (Heisenberg-Bild)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Methode der Bildladungen",
+      "question": "Was beschreibt die Methode der Bildladungen in der Elektrodynamik?",
+      "choices": [
+        "A: Sie wird verwendet, um die Temperaturverteilung in einem leitenden Material zu bestimmen.",
+        "B: Sie dient zur Berechnung der Magnetfelder in einem elektrischen Stromkreis.",
+        "C: Sie beschreibt die Wechselwirkung zwischen elektrischen und magnetischen Feldern.",
+        "D: Sie ist ein Verfahren zur Lösung von Problemen mit leitenden Oberflächen und elektrischen Feldern."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Methode der Bildladungen ist ein mathematisches Werkzeug, das verwendet wird, um Probleme mit elektrischen Feldern und leitenden Oberflächen zu lösen. Sie vereinfacht die Berechnung des elektrischen Feldes, indem sie gedachte Ladungen einführt, die die Effekte der leitenden Oberfläche simulieren.",
+      "difficulty": 6,
+      "subcategory": "Methode der Bildladungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Biegung eines Balkens",
+      "question": "Was passiert mit der Biegung eines Balkens, wenn die Last in der Mitte des Balkens platziert wird?",
+      "choices": [
+        "A: Die Biegung ist maximal an den Enden des Balkens.",
+        "B: Die Biegung ist maximal in der Mitte des Balkens.",
+        "C: Es gibt keine Biegung des Balkens.",
+        "D: Der Balken verbiegt sich gleichmäßig über die gesamte Länge."
+      ],
+      "correct_answer": "B",
+      "explanation": "Wenn eine Last in der Mitte eines Balkens platziert wird, erfährt der Balken eine maximale Biegung an dieser Stelle. Dies liegt daran, dass die Kräfte, die auf den Balken wirken, am stärksten in der Mitte sind und die Biegemomente dort am größten sind.",
+      "difficulty": 5,
+      "subcategory": "Biegung eines Balkens"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Isotropie des Raumes ⇒ Drehimpulserhaltung",
+      "question": "Welche Aussage beschreibt am besten die Konsequenz der Isotropie des Raumes in Bezug auf den Drehimpuls?",
+      "choices": [
+        "A: Der Drehimpuls eines geschlossenen Systems bleibt konstant, wenn keine externen Drehmomente wirken.",
+        "B: Die Geschwindigkeit eines Objekts bleibt konstant, solange es sich in einem isotropen Raum bewegt.",
+        "C: Die kinetische Energie eines Systems bleibt konstant, wenn es sich ohne äußere Einflüsse bewegt.",
+        "D: Der gesamte Impuls eines geschlossenen Systems bleibt konstant, unabhängig von den Kräften, die wirken."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Isotropie des Raumes bedeutet, dass physikalische Gesetze in alle Richtungen gleich sind. Dies führt zur Erhaltung des Drehimpulses in einem geschlossenen System, solange keine externen Drehmomente vorhanden sind.",
+      "difficulty": 7,
+      "subcategory": "Isotropie des Raumes ⇒ Drehimpulserhaltung"
+    }
+  ]
+}
