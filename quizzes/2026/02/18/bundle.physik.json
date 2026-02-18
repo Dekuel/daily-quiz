@@ -1,0 +1,169 @@
+{
+  "date": "2026-02-18",
+  "generated_at": "2026-02-18T03:52:09Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Biot–Savart-Gesetz",
+      "question": "Was beschreibt das Biot–Savart-Gesetz in der Elektrodynamik?",
+      "choices": [
+        "A: Die elektrische Feldstärke, die von einem geladenen Körper ausgeht.",
+        "B: Die magnetische Feldstärke, die von einem stromführenden Leiter erzeugt wird.",
+        "C: Die Wechselwirkung zwischen elektrischen und magnetischen Feldern.",
+        "D: Die Beziehung zwischen Spannung und Stromstärke in einem Widerstand."
+      ],
+      "correct_answer": "B",
+      "explanation": "Das Biot–Savart-Gesetz beschreibt, wie ein elektrischer Strom ein magnetisches Feld erzeugt. Es quantifiziert die magnetische Feldstärke, die an einem bestimmten Punkt durch einen stromführenden Leiter verursacht wird, und ist grundlegend für das Verständnis elektromagnetischer Phänomene.",
+      "difficulty": 1,
+      "subcategory": "Biot–Savart-Gesetz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Legendre-Transformation (U↔H↔F↔G)",
+      "question": "Was beschreibt die Legendre-Transformation in der Thermodynamik?",
+      "choices": [
+        "A: Den Wechsel von einer Energieform in eine andere.",
+        "B: Den Übergang zwischen verschiedenen thermodynamischen Potenzialen.",
+        "C: Die Umwandlung von Wärme in Arbeit.",
+        "D: Die Beziehung zwischen Temperatur und Druck."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Legendre-Transformation ist ein mathematisches Werkzeug, das in der Thermodynamik verwendet wird, um zwischen verschiedenen thermodynamischen Potenzialen wie innerer Energie (U), Enthalpie (H), Helmholtz-Freie Energie (F) und Gibbs-Freie Energie (G) zu wechseln. Sie ermöglicht es, die Abhängigkeiten zwischen diesen Größen zu verstehen und zu analysieren.",
+      "difficulty": 2,
+      "subcategory": "Legendre-Transformation (U↔H↔F↔G)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Herleitung der Boltzmann-Gleichung",
+      "question": "Was beschreibt die Boltzmann-Gleichung in der statistischen Mechanik?",
+      "choices": [
+        "A: Die Beziehung zwischen Temperatur und Druck in einem Gas.",
+        "B: Die Zeitentwicklung der Verteilung von Teilchen in einem System.",
+        "C: Die Energieverteilung von Quantenpartikeln.",
+        "D: Die Struktur von Atomen."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Boltzmann-Gleichung beschreibt die zeitliche Veränderung der Verteilung von Teilchen in einem System, basierend auf deren mikroskopischen Zuständen. Sie ist ein zentrales Element der statistischen Mechanik und ermöglicht das Verständnis des Verhaltens von Gasmolekülen und anderen Teilchen in thermodynamischen Gleichgewichtszuständen.",
+      "difficulty": 5,
+      "subcategory": "Herleitung der Boltzmann-Gleichung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Phonon–Phonon-Wechselwirkung (allgemein)",
+      "question": "Was beschreibt die Phonon-Phonon-Wechselwirkung in Festkörpern?",
+      "choices": [
+        "A: Die Wechselwirkung zwischen Phononen, die zu Energieübertragung führt.",
+        "B: Die Wechselwirkung zwischen Schallwellen in einem Medium.",
+        "C: Die Wechselwirkung zwischen phononischen und elektronischen Zuständen.",
+        "D: Die Wechselwirkung zwischen Elektronen in einem Metall."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Phonon-Phonon-Wechselwirkung bezieht sich auf die Wechselwirkungen zwischen Phononen, den quantisierten Schwingungen eines Kristalls, und spielt eine wichtige Rolle in der Wärmeleitung und der Energieübertragung in Festkörpern. Diese Wechselwirkungen können die Eigenschaften des Materials beeinflussen, insbesondere bei hohen Temperaturen oder in der Nähe von Phasenübergängen.",
+      "difficulty": 2,
+      "subcategory": "Phonon–Phonon-Wechselwirkung (allgemein)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Anwendungen: Hartree–Fock-Gleichungen",
+      "question": "Was ist das Hauptziel der Hartree-Fock-Gleichungen in der Quantenmechanik?",
+      "choices": [
+        "A: Die Berechnung der Elektronenkorrelation in Molekülen.",
+        "B: Die Beschreibung der Lichtbrechung in Materialien.",
+        "C: Die Ermittlung der Masse von subatomaren Teilchen.",
+        "D: Die Bestimmung der Temperatur eines Systems."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Hartree-Fock-Gleichungen dienen dazu, die Elektronenkorrelation in vielen Teilchensystemen zu approximieren, indem sie die Wellenfunktion eines Systems aus den Einzelteilchen beschreiben. Diese Methode ist besonders wichtig in der Chemie und Materialwissenschaft zur Berechnung der Eigenschaften von Molekülen.",
+      "difficulty": 4,
+      "subcategory": "Anwendungen: Hartree–Fock-Gleichungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Paraxiale Strahlen & Matrizen-Verfahren",
+      "question": "Was beschreibt das paraxiale Strahlenmodell in der Optik?",
+      "choices": [
+        "A: Die Wechselwirkung von Licht mit Materie auf atomarer Ebene.",
+        "B: Die Annahme, dass Lichtstrahlen parallel zur optischen Achse verlaufen.",
+        "C: Die Interferenz von Lichtstrahlen bei unterschiedlichen Wellenlängen.",
+        "D: Die Ausbreitung von Lichtstrahlen unter großen Winkeln."
+      ],
+      "correct_answer": "B",
+      "explanation": "Das paraxiale Strahlenmodell geht davon aus, dass Lichtstrahlen nahe der optischen Achse verlaufen und nur kleine Winkel zu dieser Achse bilden. Dies vereinfacht die mathematische Beschreibung von optischen Systemen erheblich und ist die Grundlage für viele optische Berechnungen.",
+      "difficulty": 5,
+      "subcategory": "Paraxiale Strahlen & Matrizen-Verfahren"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Molekularfeldnäherung",
+      "question": "Was beschreibt die Molekularfeldnäherung in der Festkörperphysik?",
+      "choices": [
+        "A: Die Wechselwirkungen zwischen benachbarten Atomen in einem Kristall.",
+        "B: Die thermische Bewegung von Molekülen in Gasen.",
+        "C: Die Lichtbrechung in Glas.",
+        "D: Die Struktur von atomaren Kernen."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Molekularfeldnäherung ist ein Modell, das die Wechselwirkungen zwischen benachbarten Atomen in einem Kristall beschreibt, indem sie ein effektives Feld berücksichtigt, das von den Nachbarn erzeugt wird. Dieses Modell hilft, die Eigenschaften von Festkörpern auf makroskopischer Ebene zu verstehen.",
+      "difficulty": 5,
+      "subcategory": "Molekularfeldnäherung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Polarisatoren",
+      "question": "Welches der folgenden Phänomene erklärt, warum ein Polarisator nur Licht einer bestimmten Polarisationsebene durchlässt?",
+      "choices": [
+        "A: Lichtstreuung",
+        "B: Lichtinterferenz",
+        "C: Lichtbrechung",
+        "D: Lichtpolarisation"
+      ],
+      "correct_answer": "D",
+      "explanation": "Ein Polarisator funktioniert, indem er nur Lichtwellen einer bestimmten Polarisationsebene durchlässt. Dies beruht auf dem Prinzip der Lichtpolarisation, bei dem Lichtwellen in einer bestimmten Richtung schwingen, wodurch sie durch den Polarisator hindurchtreten können.",
+      "difficulty": 8,
+      "subcategory": "Polarisatoren"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Brechende Kugelflächen",
+      "question": "Was passiert, wenn Licht auf eine brechende Kugelfläche trifft?",
+      "choices": [
+        "A: Das Licht wird angehalten.",
+        "B: Das Licht wird vollständig reflektiert.",
+        "C: Das Licht ändert seine Farbe.",
+        "D: Das Licht wird gebrochen und ändert seine Richtung."
+      ],
+      "correct_answer": "D",
+      "explanation": "Wenn Licht auf eine brechende Kugelfläche trifft, wird es aufgrund der unterschiedlichen Lichtgeschwindigkeit in verschiedenen Medien gebrochen. Dies führt zu einer Änderung der Richtung des Lichts, was als Brechung bezeichnet wird.",
+      "difficulty": 1,
+      "subcategory": "Brechende Kugelflächen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Eigenzeit und Weltgeschwindigkeit",
+      "question": "Wie beeinflusst die relativistische Zeitdilatation die Eigenzeit eines bewegten Objektes im Vergleich zu einem ruhenden Beobachter?",
+      "choices": [
+        "A: Die Eigenzeit eines bewegten Objektes vergeht langsamer als die Zeit eines ruhenden Beobachters.",
+        "B: Die Eigenzeit eines bewegten Objektes ist unabhängig von der Geschwindigkeit des Objektes.",
+        "C: Die Eigenzeit eines bewegten Objektes vergeht schneller als die Zeit eines ruhenden Beobachters.",
+        "D: Die Eigenzeit eines bewegten Objektes bleibt konstant, egal wie schnell es sich bewegt."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die relativistische Zeitdilatation besagt, dass die Zeit, die ein bewegtes Objekt erfährt (Eigenzeit), langsamer vergeht im Vergleich zur Zeit eines ruhenden Beobachters. Dies ist ein zentrales Konzept der speziellen Relativitätstheorie und bedeutet, dass je schneller sich ein Objekt bewegt, desto größer ist der Unterschied in den Zeitmessungen zwischen den beiden Beobachtern.",
+      "difficulty": 8,
+      "subcategory": "Eigenzeit und Weltgeschwindigkeit"
+    }
+  ]
+}
