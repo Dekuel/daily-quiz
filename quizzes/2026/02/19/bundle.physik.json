@@ -1,0 +1,169 @@
+{
+  "date": "2026-02-19",
+  "generated_at": "2026-02-19T03:52:06Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Fermat’sches Prinzip (Optik-Bezug)",
+      "question": "Was besagt das Fermat'sche Prinzip in der Optik?",
+      "choices": [
+        "A: Licht folgt dem schnellsten Weg zwischen zwei Punkten.",
+        "B: Licht hat keine Geschwindigkeit.",
+        "C: Licht wird immer in geraden Linien ausgestrahlt.",
+        "D: Licht kann nicht reflektiert werden."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Fermat'sche Prinzip besagt, dass Licht den Weg nimmt, der die kürzeste Zeit zwischen zwei Punkten benötigt. Dies erklärt Phänomene wie die Brechung und Reflexion von Lichtstrahlen.",
+      "difficulty": 2,
+      "subcategory": "Fermat’sches Prinzip (Optik-Bezug)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Doppelspalt: Welle vs. Teilchen",
+      "question": "Was zeigt das Doppelspaltexperiment?",
+      "choices": [
+        "A: Das Licht kann sowohl Wellen- als auch Teilcheneigenschaften zeigen.",
+        "B: Licht verhält sich immer wie ein Teilchen.",
+        "C: Licht ist ausschließlich eine Welle.",
+        "D: Das Doppelspaltexperiment hat keinen Einfluss auf die Physik."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Doppelspaltexperiment demonstriert, dass Licht sowohl Wellen- als auch Teilcheneigenschaften besitzt, je nach Experimentieranordnung. Dies ist ein zentrales Konzept der Quantenmechanik, das die duale Natur von Licht verdeutlicht.",
+      "difficulty": 1,
+      "subcategory": "Doppelspalt: Welle vs. Teilchen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Streuung an Defekten",
+      "question": "Welcher der folgenden Effekte tritt typischerweise bei der Streuung von Elektronen an Punktdefekten in einem Kristall auf?",
+      "choices": [
+        "A: Elektronen erfahren eine elastische Streuung und ändern ihre Richtung ohne Energieverlust.",
+        "B: Elektronen erzeugen phononische Anregungen, die die Temperatur des Kristalls erhöhen.",
+        "C: Elektronen werden vollständig reflektiert und kehren zum ursprünglichen Punkt zurück.",
+        "D: Elektronen absorbieren Energie und verlieren ihre Beweglichkeit."
+      ],
+      "correct_answer": "A",
+      "explanation": "Bei der elastischen Streuung an Punktdefekten ändern Elektronen ihre Richtung, ohne dass es zu einem Energieverlust kommt. Diese Wechselwirkung ist entscheidend für das Verständnis von elektrischen und thermischen Eigenschaften von Festkörpern.",
+      "difficulty": 9,
+      "subcategory": "Streuung an Defekten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Großkanonisches Ensemble: Dichtematrix & Potential",
+      "question": "Welche Aussage beschreibt am besten die Rolle der Dichtematrix im großkanonischen Ensemble?",
+      "choices": [
+        "A: Sie beschreibt die Wechselwirkungen zwischen Teilchen in einem geschlossenen System.",
+        "B: Sie definiert die Gesamtenergie eines Systems bei konstanter Temperatur.",
+        "C: Sie ist unabhängig von der Temperatur und dem chemischen Potential des Systems.",
+        "D: Sie gibt die Wahrscheinlichkeit an, die Energie eines Systems in einem bestimmten Zustand zu finden."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Dichtematrix im großkanonischen Ensemble enthält die Wahrscheinlichkeiten für die Besetzung der verschiedenen Zustände des Systems, abhängig von der Energie, Temperatur und dem chemischen Potential. Daher beschreibt sie, wie wahrscheinlich es ist, dass das System einen bestimmten Zustand einnimmt, was entscheidend für die statistische Beschreibung des Systems ist.",
+      "difficulty": 7,
+      "subcategory": "Großkanonisches Ensemble: Dichtematrix & Potential"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Elektrostatik der Dielektrika",
+      "question": "Welches der folgenden Materialien hat die höchste Dielektrizitätskonstante?",
+      "choices": [
+        "A: Wasser",
+        "B: Keramiken",
+        "C: Luft",
+        "D: Glas"
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Dielektrizitätskonstante von Wasser ist mit etwa 78,5 bei Raumtemperatur die höchste unter den genannten Materialien. Diese hohe Konstantenwerte sind entscheidend für die Kapazität von Kondensatoren, die Wasser als Dielektrikum verwenden.",
+      "difficulty": 9,
+      "subcategory": "Elektrostatik der Dielektrika"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Gluonenabstrahlung (Jets)",
+      "question": "Was beschreibt den Prozess der Gluonenabstrahlung in der Teilchenphysik?",
+      "choices": [
+        "A: Die Wechselwirkung von Elektronen mit Protonen, die Licht emittiert.",
+        "B: Die Emission von Gluonen aus einem Quark, die zur Bildung von Jets führt.",
+        "C: Die Umwandlung von Photonen in Elektron-Positron-Paare.",
+        "D: Die Absorption von Neutronen durch Atomkerne während einer Kernreaktion."
+      ],
+      "correct_answer": "B",
+      "explanation": "Gluonenabstrahlung tritt auf, wenn Quarks bei hohen Energien Gluonen emittieren. Diese Gluonen können dann in Jets von Teilchen umgewandelt werden, die bei Hochenergie-Kollisionen entstehen. Dieser Prozess ist entscheidend für das Verständnis der starken Wechselwirkung und der Struktur von Hadronen.",
+      "difficulty": 6,
+      "subcategory": "Gluonenabstrahlung (Jets)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Translation vs. Rotation (Vergleich)",
+      "question": "Was ist der Hauptunterschied zwischen Translation und Rotation in der klassischen Mechanik?",
+      "choices": [
+        "A: Bei der Translation handelt es sich um Bewegungen im Raum, während Rotation in der Zeit stattfindet.",
+        "B: Bei der Translation gibt es keine Kräfte, während bei der Rotation immer Kräfte wirken.",
+        "C: Die Geschwindigkeit ist bei der Translation konstant, während sie bei der Rotation immer variiert.",
+        "D: Bei der Translation bewegt sich der gesamte Körper gleichmäßig, während bei der Rotation Teile des Körpers um einen festen Punkt rotieren."
+      ],
+      "correct_answer": "D",
+      "explanation": "Translation beschreibt eine Bewegung, bei der sich ein Körper als Ganzes in eine Richtung bewegt, während Rotation bedeutet, dass sich Teile des Körpers um einen festen Punkt drehen. Dieser Unterschied ist grundlegend für das Verständnis der Bewegungen in der klassischen Mechanik.",
+      "difficulty": 5,
+      "subcategory": "Translation vs. Rotation (Vergleich)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Systeme aus N unterscheidbaren Teilchen",
+      "question": "Wie viele verschiedene Zustände kann ein System aus N unterscheidbaren Teilchen in einem quantenmechanischen Rahmen einnehmen?",
+      "choices": [
+        "A: N^2",
+        "B: 2^N",
+        "C: N!",
+        "D: N + 1"
+      ],
+      "correct_answer": "C",
+      "explanation": "In einem System aus N unterscheidbaren Teilchen können die Teilchen in verschiedenen Zuständen angeordnet werden, was zu N! (N Fakultät) möglichen Zuständen führt. Diese Formel berücksichtigt die unterschiedlichen Anordnungen der Teilchen untereinander.",
+      "difficulty": 5,
+      "subcategory": "Systeme aus N unterscheidbaren Teilchen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Laminar: Rohrströmung",
+      "question": "Was beschreibt die laminare Strömung in einem Rohr?",
+      "choices": [
+        "A: Die Strömung erfolgt in parallelen Schichten ohne Vermischung.",
+        "B: Die Strömung ist nur bei hohen Geschwindigkeiten stabil.",
+        "C: Die Strömung hat keine definierte Richtung.",
+        "D: Die Strömung ist turbulent und chaotisch."
+      ],
+      "correct_answer": "A",
+      "explanation": "Bei der laminarer Strömung bewegen sich die Flüssigkeitsschichten parallel zueinander, ohne sich zu vermischen. Dies tritt typischerweise bei niedrigen Geschwindigkeiten und in ruhigen Flüssigkeiten auf.",
+      "difficulty": 4,
+      "subcategory": "Laminar: Rohrströmung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Rutherford‑Wirkungsquerschnitt",
+      "question": "Welcher der folgenden Parameter spielt eine entscheidende Rolle bei der Berechnung des Rutherford-Wirkungsquerschnitts für elastische Streuung von Alpha-Teilchen an einem Atomkern?",
+      "choices": [
+        "A: Die Temperatur des Experiments",
+        "B: Die Energie der Alpha-Teilchen",
+        "C: Die Wellenlänge des verwendeten Lichts",
+        "D: Der Druck des verwendeten Gases"
+      ],
+      "correct_answer": "B",
+      "explanation": "Der Rutherford-Wirkungsquerschnitt hängt maßgeblich von der Energie der Alpha-Teilchen ab, da diese die Wechselwirkung mit dem Atomkern beeinflusst. Höhere Energien führen zu einer veränderten Streuwahrscheinlichkeit, was die Analyse der Kernstruktur beeinflusst.",
+      "difficulty": 10,
+      "subcategory": "Rutherford‑Wirkungsquerschnitt"
+    }
+  ]
+}

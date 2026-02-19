@@ -1,0 +1,168 @@
+{
+  "date": "2026-02-19",
+  "generated_at": "2026-02-19T03:52:41Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Fermat’sches Prinzip (Optik-Bezug)",
+      "question": "What does Fermat's principle state in optics?",
+      "choices": [
+        "A: Light follows the fastest path between two points.",
+        "B: Light has no speed.",
+        "C: Light is always emitted in straight lines.",
+        "D: Light cannot be reflected."
+      ],
+      "correct_answer": "A",
+      "explanation": "Fermat's principle states that light takes the path that requires the shortest time between two points. This explains phenomena such as the refraction and reflection of light rays.",
+      "difficulty": 2,
+      "subcategory": "Fermat’sches Prinzip (Optik-Bezug)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Doppelspalt: Welle vs. Teilchen",
+      "question": "What does the double-slit experiment demonstrate?",
+      "choices": [
+        "A: Light can exhibit both wave and particle properties.",
+        "B: Light always behaves like a particle.",
+        "C: Light is exclusively a wave.",
+        "D: The double-slit experiment has no impact on physics."
+      ],
+      "correct_answer": "A",
+      "explanation": "The double-slit experiment demonstrates that light exhibits both wave and particle properties, depending on the experimental setup. This is a central concept of quantum mechanics that illustrates the dual nature of light.",
+      "difficulty": 1,
+      "subcategory": "Doppelspalt: Welle vs. Teilchen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Streuung an Defekten",
+      "question": "Which of the following effects typically occurs during the scattering of electrons at point defects in a crystal?",
+      "choices": [
+        "A: Electrons undergo elastic scattering and change direction without energy loss.",
+        "B: Electrons generate phononic excitations that increase the crystal's temperature.",
+        "C: Electrons are completely reflected and return to the original point.",
+        "D: Electrons absorb energy and lose their mobility."
+      ],
+      "correct_answer": "A",
+      "explanation": "In elastic scattering at point defects, electrons change direction without any energy loss. This interaction is crucial for understanding the electrical and thermal properties of solids.",
+      "difficulty": 9,
+      "subcategory": "Streuung an Defekten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Großkanonisches Ensemble: Dichtematrix & Potential",
+      "question": "Which statement best describes the role of the density matrix in the grand canonical ensemble?",
+      "choices": [
+        "A: It describes the interactions between particles in a closed system.",
+        "B: It defines the total energy of a system at constant temperature.",
+        "C: It is independent of the temperature and chemical potential of the system.",
+        "D: It indicates the probability of finding the energy of a system in a specific state."
+      ],
+      "correct_answer": "D",
+      "explanation": "The density matrix in the grand canonical ensemble contains the probabilities for the occupation of the system's different states, depending on energy, temperature, and chemical potential. Therefore, it describes how likely the system is to occupy a specific state, which is crucial for the statistical description of the system.",
+      "difficulty": 7,
+      "subcategory": "Großkanonisches Ensemble: Dichtematrix & Potential"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Elektrostatik der Dielektrika",
+      "question": "Which of the following materials has the highest dielectric constant?",
+      "choices": [
+        "A: Water",
+        "B: Ceramics",
+        "C: Air",
+        "D: Glass"
+      ],
+      "correct_answer": "A",
+      "explanation": "The dielectric constant of water is approximately 78.5 at room temperature, making it the highest among the mentioned materials. These high constant values are crucial for the capacitance of capacitors using water as a dielectric.",
+      "difficulty": 9,
+      "subcategory": "Elektrostatik der Dielektrika"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Gluonenabstrahlung (Jets)",
+      "question": "What describes the process of gluon radiation in particle physics?",
+      "choices": [
+        "A: The interaction of electrons with protons emitting light.",
+        "B: The emission of gluons from a quark leading to the formation of jets.",
+        "C: The conversion of photons into electron-positron pairs.",
+        "D: The absorption of neutrons by atomic nuclei during a nuclear reaction."
+      ],
+      "correct_answer": "B",
+      "explanation": "Gluon radiation occurs when quarks emit gluons at high energies. These gluons can then be converted into jets of particles generated during high-energy collisions. This process is crucial for understanding strong interactions and the structure of hadrons.",
+      "difficulty": 6,
+      "subcategory": "Gluonenabstrahlung (Jets)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Translation vs. Rotation (Vergleich)",
+      "question": "What is the main difference between translation and rotation in classical mechanics?",
+      "choices": [
+        "A: Translation involves movements in space, while rotation occurs in time.",
+        "B: Translation involves no forces, while rotation always involves forces.",
+        "C: The velocity is constant in translation, while it varies in rotation.",
+        "D: In translation, the entire body moves uniformly, while in rotation, parts of the body rotate around a fixed point."
+      ],
+      "correct_answer": "D",
+      "explanation": "Translation describes motion where a body moves as a whole in one direction, while rotation means parts of the body rotate around a fixed point. This difference is fundamental for understanding movements in classical mechanics.",
+      "difficulty": 5,
+      "subcategory": "Translation vs. Rotation (Vergleich)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Systeme aus N unterscheidbaren Teilchen",
+      "question": "How many different states can a system of N distinguishable particles take in a quantum mechanical framework?",
+      "choices": [
+        "A: N^2",
+        "B: 2^N",
+        "C: N!",
+        "D: N + 1"
+      ],
+      "correct_answer": "C",
+      "explanation": "In a system of N distinguishable particles, the particles can be arranged in different states, leading to N! (N factorial) possible states. This formula considers the different arrangements of particles among themselves.",
+      "difficulty": 5,
+      "subcategory": "Systeme aus N unterscheidbaren Teilchen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Laminar: Rohrströmung",
+      "question": "What describes laminar flow in a pipe?",
+      "choices": [
+        "A: The flow occurs in parallel layers without mixing.",
+        "B: The flow is only stable at high speeds.",
+        "C: The flow has no defined direction.",
+        "D: The flow is turbulent and chaotic."
+      ],
+      "correct_answer": "A",
+      "explanation": "In laminar flow, the fluid layers move parallel to each other without mixing. This typically occurs at low speeds and in quiet fluids.",
+      "difficulty": 4,
+      "subcategory": "Laminar: Rohrströmung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Rutherford‑Wirkungsquerschnitt",
+      "question": "Which of the following parameters plays a crucial role in calculating the Rutherford cross-section for the elastic scattering of alpha particles on an atomic nucleus?",
+      "choices": [
+        "A: The temperature of the experiment",
+        "B: The energy of the alpha particles",
+        "C: The wavelength of the light used",
+        "D: The pressure of the gas used"
+      ],
+      "correct_answer": "B",
+      "explanation": "The Rutherford cross-section significantly depends on the energy of the alpha particles, as it influences their interaction with the atomic nucleus. Higher energies result in altered scattering probabilities, affecting the analysis of nuclear structure.",
+      "difficulty": 10,
+      "subcategory": "Rutherford‑Wirkungsquerschnitt"
+    }
+  ]
+}
