@@ -1,0 +1,169 @@
+{
+  "date": "2026-02-21",
+  "generated_at": "2026-02-21T03:48:00Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Kritischer Strom & kritisches Feld",
+      "question": "Was beschreibt der kritische Strom in einem Supraleiter?",
+      "choices": [
+        "A: Den Strom, der im Supraleiter eine magnetische Feldumkehr bewirken kann.",
+        "B: Den minimalen Strom, der erforderlich ist, um den Supraleiter zu aktivieren.",
+        "C: Den maximalen Strom, den der Supraleiter ohne Verlust transportieren kann.",
+        "D: Den Strom, bei dem der Supraleiter seine Temperatur verdoppelt."
+      ],
+      "correct_answer": "C",
+      "explanation": "Der kritische Strom ist die maximale Stromstärke, die ein Supraleiter führen kann, bevor er in den normalen, nicht-supraleitenden Zustand übergeht. Dieser Wert ist entscheidend für die Anwendungen von Supraleitern in der Technik.",
+      "difficulty": 6,
+      "subcategory": "Kritischer Strom & kritisches Feld"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Fourier-Reihen & -Integrale in der Wellenausbreitung",
+      "question": "Welche Aussage über Fourier-Reihen in der Wellenausbreitung ist korrekt?",
+      "choices": [
+        "A: Fourier-Reihen sind nur für nicht-periodische Wellen anwendbar.",
+        "B: Fourier-Reihen sind nicht in der Elektrodynamik relevant.",
+        "C: Fourier-Reihen können verwendet werden, um periodische Wellen als Summe von Sinus- und Kosinusfunktionen darzustellen.",
+        "D: Fourier-Reihen können keine Informationen über die Frequenz einer Welle liefern."
+      ],
+      "correct_answer": "C",
+      "explanation": "Fourier-Reihen sind ein fundamentales Werkzeug in der Elektrodynamik, um periodische Wellen zu analysieren. Sie ermöglichen die Darstellung komplexer Wellen durch eine Summe von einfacheren Sinus- und Kosinusfunktionen, was besonders hilfreich für die Untersuchung von Wellenausbreitung ist.",
+      "difficulty": 3,
+      "subcategory": "Fourier-Reihen & -Integrale in der Wellenausbreitung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Temperaturbegriff (thermisches Gleichgewicht)",
+      "question": "Was beschreibt das thermische Gleichgewicht zwischen zwei Körpern?",
+      "choices": [
+        "A: Einer der Körper ist wärmer als der andere.",
+        "B: Beide Körper haben die gleiche Temperatur.",
+        "C: Einer der Körper ist isoliert.",
+        "D: Beide Körper haben unterschiedliche Temperaturen."
+      ],
+      "correct_answer": "B",
+      "explanation": "Im thermischen Gleichgewicht haben zwei Körper die gleiche Temperatur, was bedeutet, dass kein Wärmefluss zwischen ihnen stattfindet. Dies ist ein grundlegendes Konzept in der Thermodynamik und wichtig für das Verständnis von Temperatur und Energieübertragung.",
+      "difficulty": 5,
+      "subcategory": "Temperaturbegriff (thermisches Gleichgewicht)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Tunneleffekt",
+      "question": "Welches Phänomen beschreibt die Wahrscheinlichkeit, dass ein Teilchen eine Potentialbarriere durchdringt, obwohl es nicht genügend Energie hat, um diese zu überwinden?",
+      "choices": [
+        "A: Tunneleffekt",
+        "B: Reflexion",
+        "C: Beugung",
+        "D: Absorption"
+      ],
+      "correct_answer": "A",
+      "explanation": "Der Tunneleffekt ist ein grundlegendes Konzept der Quantenmechanik, das es Teilchen ermöglicht, Barrieren zu überwinden, selbst wenn ihre Energie unter der Höhe der Barriere liegt. Dies ist ein Resultat der nicht-intuitiven Natur der Quantenmechanik, in der Teilchen auch als Wellen beschrieben werden können und sich mit einer gewissen Wahrscheinlichkeit in energetisch ungünstigen Zuständen befinden können.",
+      "difficulty": 9,
+      "subcategory": "Tunneleffekt"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Formulierung des Streuproblems",
+      "question": "Was beschreibt das Streuproblem in der Quantenmechanik?",
+      "choices": [
+        "A: Die Bewegung von Teilchen in einem Vakuum.",
+        "B: Die Energieverteilung in thermischen Systemen.",
+        "C: Die Wechselwirkung von Teilchen mit einem Hindernis.",
+        "D: Die Struktur von Atomen."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Streuproblem in der Quantenmechanik befasst sich mit der Wechselwirkung von Teilchen, wie Elektronen oder Photonen, mit Hindernissen, die deren Bewegung beeinflussen. Es ist ein zentrales Konzept, um zu verstehen, wie Teilchen durch verschiedene Materialien oder Felder gestreut werden können.",
+      "difficulty": 3,
+      "subcategory": "Formulierung des Streuproblems"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Kritische Exponenten",
+      "question": "Welcher kritische Exponent beschreibt das Verhalten der spezifischen Wärme an der Phasengrenze eines Systems bei der kritischen Temperatur?",
+      "choices": [
+        "A: γ (Gamma)",
+        "B: δ (Delta)",
+        "C: β (Beta)",
+        "D: α (Alpha)"
+      ],
+      "correct_answer": "D",
+      "explanation": "Der kritische Exponent α beschreibt das Verhalten der spezifischen Wärme an der Phasengrenze eines Systems bei der kritischen Temperatur. Er spielt eine wichtige Rolle in der Thermodynamik und in der Beschreibung von Phasenübergängen.",
+      "difficulty": 7,
+      "subcategory": "Kritische Exponenten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Translation vs. Rotation (Vergleich)",
+      "question": "Welche Aussage beschreibt am besten den Unterschied zwischen translationaler und rotationaler Bewegung?",
+      "choices": [
+        "A: Translationalbewegung tritt nur bei festen Körpern auf, während Rotationsbewegung nur bei Flüssigkeiten vorkommt.",
+        "B: Translationalbewegung ist unabhängig von der Masse, Rotationsbewegung hingegen hängt von der Masse ab.",
+        "C: Translationalbewegung ist die Bewegung um einen festen Punkt, während Rotationsbewegung eine gleichmäßige Geradeausbewegung ist.",
+        "D: Translationalbewegung bezieht sich auf die Bewegung eines Körpers entlang einer Linie, während Rotationsbewegung die Drehung um eine Achse beschreibt."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Antwort A beschreibt korrekt, dass die translationale Bewegung die Bewegung entlang einer Linie bezeichnet, während die Rotationsbewegung die Drehbewegung um eine Achse beschreibt. Diese Unterscheidung ist zentral in der klassischen Mechanik und hat Auswirkungen auf die Analyse von Bewegungen in verschiedenen physikalischen Systemen.",
+      "difficulty": 9,
+      "subcategory": "Translation vs. Rotation (Vergleich)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Spin (allgemein)",
+      "question": "Welche Aussage über den Spin von Teilchen ist korrekt?",
+      "choices": [
+        "A: Der Spin beeinflusst die Gravitationskraft eines Teilchens signifikant.",
+        "B: Der Spin ist eine Form von intrinsischem Drehimpuls, der unabhängig von der Bewegung des Teilchens ist.",
+        "C: Alle Teilchen mit Spin sind fermionisch und gehorchen dem Pauli-Prinzip.",
+        "D: Der Spin eines Teilchens kann beliebige Werte annehmen, ähnlich wie die Geschwindigkeit."
+      ],
+      "correct_answer": "B",
+      "explanation": "Der Spin ist eine quantenmechanische Eigenschaft, die als intrinsischer Drehimpuls betrachtet werden kann und nicht von der translationalen Bewegung des Teilchens abhängt. Anders als die Geschwindigkeit kann der Spin nur diskrete Werte annehmen, und nicht alle Teilchen mit Spin sind fermionisch; einige sind bosonisch und gehorchen nicht dem Pauli-Prinzip.",
+      "difficulty": 8,
+      "subcategory": "Spin (allgemein)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Elektrostatische Feldenergie",
+      "question": "Welche der folgenden Aussagen beschreibt am besten die elektrostatische Feldenergie zwischen zwei Punktladungen?",
+      "choices": [
+        "A: Die Feldenergie hängt von der relativen Position der Ladungen ab.",
+        "B: Die Feldenergie ist immer negativ, unabhängig von den Ladungen.",
+        "C: Die Feldenergie ist positiv, wenn die Ladungen gleich sind.",
+        "D: Die Feldenergie ist unabhängig von der Entfernung zwischen den Ladungen."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die elektrostatische Feldenergie zwischen zwei gleichnamigen Punktladungen ist positiv, da sie sich abstoßen. Bei ungleichnamigen Ladungen ist die Energie negativ, da sie sich anziehen. Die Energie ist zudem abhängig von der Entfernung zwischen den Ladungen, weshalb Antwort D auch korrekt wäre, aber nicht die beste Beschreibung ist.",
+      "difficulty": 5,
+      "subcategory": "Elektrostatische Feldenergie"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Stokes’scher Satz",
+      "question": "Was beschreibt der Stokes’sche Satz in der Elektrodynamik?",
+      "choices": [
+        "A: Die Energieerhaltung in einem geschlossenen System.",
+        "B: Die Bewegung von Teilchen in einem elektrischen Feld.",
+        "C: Die Beziehung zwischen der elektrischen Feldstärke und der magnetischen Flussdichte.",
+        "D: Den Zusammenhang zwischen einer geschlossenen Kurve und dem Fluss eines Vektorfeldes durch eine Fläche."
+      ],
+      "correct_answer": "D",
+      "explanation": "Der Stokes’sche Satz verknüpft die Linienintegrale eines Vektorfeldes entlang einer geschlossenen Kurve mit dem Fluss des zugehörigen Rotationsfeldes über die von dieser Kurve umschlossene Fläche. Er ist ein wichtiger Bestandteil der Vektoranalysis und wird häufig in der Elektrodynamik verwendet.",
+      "difficulty": 3,
+      "subcategory": "Stokes’scher Satz"
+    }
+  ]
+}

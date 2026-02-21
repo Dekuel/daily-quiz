@@ -1,0 +1,168 @@
+{
+  "date": "2026-02-21",
+  "generated_at": "2026-02-21T03:48:37Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Kritischer Strom & kritisches Feld",
+      "question": "What does the critical current in a superconductor describe?",
+      "choices": [
+        "A: The current that can cause a magnetic field reversal in the superconductor.",
+        "B: The minimum current required to activate the superconductor.",
+        "C: The maximum current that the superconductor can transport without loss.",
+        "D: The current at which the superconductor doubles its temperature."
+      ],
+      "correct_answer": "C",
+      "explanation": "The critical current is the maximum current that a superconductor can carry before transitioning to the normal, non-superconducting state. This value is crucial for the applications of superconductors in technology.",
+      "difficulty": 6,
+      "subcategory": "Kritischer Strom & kritisches Feld"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Fourier-Reihen & -Integrale in der Wellenausbreitung",
+      "question": "Which statement about Fourier series in wave propagation is correct?",
+      "choices": [
+        "A: Fourier series are only applicable to non-periodic waves.",
+        "B: Fourier series are not relevant in electrodynamics.",
+        "C: Fourier series can be used to represent periodic waves as a sum of sine and cosine functions.",
+        "D: Fourier series cannot provide information about the frequency of a wave."
+      ],
+      "correct_answer": "C",
+      "explanation": "Fourier series are a fundamental tool in electrodynamics for analyzing periodic waves. They allow the representation of complex waves as a sum of simpler sine and cosine functions, which is particularly helpful for the study of wave propagation.",
+      "difficulty": 3,
+      "subcategory": "Fourier-Reihen & -Integrale in der Wellenausbreitung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Temperaturbegriff (thermisches Gleichgewicht)",
+      "question": "What describes the thermal equilibrium between two bodies?",
+      "choices": [
+        "A: One of the bodies is warmer than the other.",
+        "B: Both bodies have the same temperature.",
+        "C: One of the bodies is isolated.",
+        "D: Both bodies have different temperatures."
+      ],
+      "correct_answer": "B",
+      "explanation": "In thermal equilibrium, two bodies have the same temperature, meaning that no heat flow occurs between them. This is a fundamental concept in thermodynamics and important for understanding temperature and energy transfer.",
+      "difficulty": 5,
+      "subcategory": "Temperaturbegriff (thermisches Gleichgewicht)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Tunneleffekt",
+      "question": "Which phenomenon describes the probability of a particle penetrating a potential barrier even though it does not have enough energy to overcome it?",
+      "choices": [
+        "A: Tunneling effect",
+        "B: Reflection",
+        "C: Diffraction",
+        "D: Absorption"
+      ],
+      "correct_answer": "A",
+      "explanation": "The tunneling effect is a fundamental concept in quantum mechanics that allows particles to overcome barriers even when their energy is below the height of the barrier. This is a result of the non-intuitive nature of quantum mechanics, where particles can also be described as waves and can exist with a certain probability in energetically unfavorable states.",
+      "difficulty": 9,
+      "subcategory": "Tunneleffekt"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Formulierung des Streuproblems",
+      "question": "What describes the scattering problem in quantum mechanics?",
+      "choices": [
+        "A: The motion of particles in a vacuum.",
+        "B: The energy distribution in thermal systems.",
+        "C: The interaction of particles with an obstacle.",
+        "D: The structure of atoms."
+      ],
+      "correct_answer": "C",
+      "explanation": "The scattering problem in quantum mechanics deals with the interaction of particles, such as electrons or photons, with obstacles that influence their motion. It is a central concept for understanding how particles can be scattered by different materials or fields.",
+      "difficulty": 3,
+      "subcategory": "Formulierung des Streuproblems"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Kritische Exponenten",
+      "question": "Which critical exponent describes the behavior of specific heat at the phase boundary of a system at the critical temperature?",
+      "choices": [
+        "A: γ (Gamma)",
+        "B: δ (Delta)",
+        "C: β (Beta)",
+        "D: α (Alpha)"
+      ],
+      "correct_answer": "D",
+      "explanation": "The critical exponent α describes the behavior of specific heat at the phase boundary of a system at the critical temperature. It plays an important role in thermodynamics and in describing phase transitions.",
+      "difficulty": 7,
+      "subcategory": "Kritische Exponenten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Translation vs. Rotation (Vergleich)",
+      "question": "Which statement best describes the difference between translational and rotational motion?",
+      "choices": [
+        "A: Translational motion occurs only in solid bodies, while rotational motion occurs only in liquids.",
+        "B: Translational motion is independent of mass, while rotational motion depends on mass.",
+        "C: Translational motion is motion around a fixed point, while rotational motion is uniform straight-line motion.",
+        "D: Translational motion refers to the motion of a body along a line, while rotational motion describes rotation around an axis."
+      ],
+      "correct_answer": "D",
+      "explanation": "Answer A correctly describes that translational motion refers to motion along a line, while rotational motion describes the motion around an axis. This distinction is central in classical mechanics and has implications for the analysis of motion in various physical systems.",
+      "difficulty": 9,
+      "subcategory": "Translation vs. Rotation (Vergleich)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Spin (allgemein)",
+      "question": "Which statement about the spin of particles is correct?",
+      "choices": [
+        "A: Spin significantly influences the gravitational force of a particle.",
+        "B: Spin is a form of intrinsic angular momentum that is independent of the particle's motion.",
+        "C: All particles with spin are fermionic and obey the Pauli exclusion principle.",
+        "D: The spin of a particle can take arbitrary values, similar to velocity."
+      ],
+      "correct_answer": "B",
+      "explanation": "Spin is a quantum mechanical property that can be considered as intrinsic angular momentum and is independent of the particle's translational motion. Unlike velocity, spin can only take discrete values, and not all particles with spin are fermionic; some are bosonic and do not obey the Pauli exclusion principle.",
+      "difficulty": 8,
+      "subcategory": "Spin (allgemein)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Elektrostatische Feldenergie",
+      "question": "Which of the following statements best describes the electrostatic field energy between two point charges?",
+      "choices": [
+        "A: The field energy depends on the relative position of the charges.",
+        "B: The field energy is always negative, regardless of the charges.",
+        "C: The field energy is positive when the charges are the same.",
+        "D: The field energy is independent of the distance between the charges."
+      ],
+      "correct_answer": "C",
+      "explanation": "The electrostatic field energy between two like point charges is positive because they repel each other. For unlike charges, the energy is negative as they attract each other. The energy also depends on the distance between the charges, which is why option D would also be correct but not the best description.",
+      "difficulty": 5,
+      "subcategory": "Elektrostatische Feldenergie"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Stokes’scher Satz",
+      "question": "What does Stokes's theorem describe in electrodynamics?",
+      "choices": [
+        "A: Energy conservation in a closed system.",
+        "B: The motion of particles in an electric field.",
+        "C: The relationship between electric field strength and magnetic flux density.",
+        "D: The connection between a closed curve and the flux of a vector field through a surface."
+      ],
+      "correct_answer": "D",
+      "explanation": "Stokes's theorem relates the line integrals of a vector field along a closed curve to the flux of the corresponding curl field over the surface enclosed by that curve. It is an important part of vector analysis and is frequently used in electrodynamics.",
+      "difficulty": 3,
+      "subcategory": "Stokes’scher Satz"
+    }
+  ]
+}
