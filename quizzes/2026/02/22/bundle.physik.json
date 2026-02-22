@@ -1,0 +1,169 @@
+{
+  "date": "2026-02-22",
+  "generated_at": "2026-02-22T03:50:23Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Wellenpakete & Kugelwellen",
+      "question": "Was beschreibt ein Wellenpaket in der Elektrodynamik?",
+      "choices": [
+        "A: Es ist die Summe aller elektromagnetischen Wellen im Vakuum.",
+        "B: Es handelt sich um eine Überlagerung von Wellen mit unterschiedlichen Frequenzen.",
+        "C: Es beschreibt einen stationären Zustand ohne Bewegung.",
+        "D: Es ist eine Welle, die sich nur in einer Dimension ausbreitet."
+      ],
+      "correct_answer": "B",
+      "explanation": "Ein Wellenpaket entsteht durch die Überlagerung von Wellen unterschiedlicher Frequenzen und ermöglicht die Beschreibung lokalisierter Schwingungen. Diese Eigenschaft ist wichtig für das Verständnis von Phänomenen wie der Signalübertragung und der Quantenmechanik.",
+      "difficulty": 5,
+      "subcategory": "Wellenpakete & Kugelwellen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Periodische Störungen",
+      "question": "Was beschreibt die Zeitentwicklung eines quantenmechanischen Systems unter der Einwirkung einer periodischen Störung?",
+      "choices": [
+        "A: Das System bleibt immer im Grundzustand.",
+        "B: Die Zeitentwicklung ist unabhängig von der Frequenz der Störung.",
+        "C: Die Störung hat keinen Einfluss auf die Quantenzustände.",
+        "D: Die Störung führt zu einer Änderung der Energieeigenwerte des Systems."
+      ],
+      "correct_answer": "D",
+      "explanation": "Bei periodischen Störungen in der Quantenmechanik können die Energieeigenwerte und Zustände des Systems variieren. Dies wird häufig durch die Zeitabhängige Störungstheorie beschrieben, die zeigt, dass die Energieeigenwerte durch die Störung beeinflusst werden können.",
+      "difficulty": 5,
+      "subcategory": "Periodische Störungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Supraleiter 2. Art & Grenzflächenenergie",
+      "question": "Was beschreibt die Grenzflächenenergie in einem supraleitenden Material 2. Art?",
+      "choices": [
+        "A: Die Energie, die benötigt wird, um das Material zu supraleitendem Zustand zu bringen.",
+        "B: Die Energie, die für die Bewegung von Elektronen innerhalb des Materials erforderlich ist.",
+        "C: Die Energie, die beim Übergang von supraleitendem zu normalem Zustand verloren geht.",
+        "D: Die Energie, die benötigt wird, um ein Magnetfeld in das Material einzuführen."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Grenzflächenenergie in supraleitenden Materialien 2. Art spielt eine entscheidende Rolle bei der Wechselwirkung zwischen dem Material und dem Magnetfeld. Sie beschreibt die Energie, die benötigt wird, um ein Magnetfeld in das Material einzuführen, und ist wichtig für das Verständnis der Pinning-Effekte in diesen Materialien.",
+      "difficulty": 5,
+      "subcategory": "Supraleiter 2. Art & Grenzflächenenergie"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Millersche Indizes",
+      "question": "Was beschreiben die Millerschen Indizes in der Kristallographie?",
+      "choices": [
+        "A: Die Temperatur des Kristalls",
+        "B: Die Orientierung der Kristallflächen",
+        "C: Die chemische Zusammensetzung des Materials",
+        "D: Die elektrische Leitfähigkeit des Materials"
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Millerschen Indizes sind eine Notation zur Beschreibung der Orientierung von Kristallflächen im Raum. Sie geben an, wie viele Einheitszellen in jede Richtung übersprungen werden, um die jeweilige Fläche zu definieren.",
+      "difficulty": 2,
+      "subcategory": "Millersche Indizes"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Biot–Savart-Gesetz",
+      "question": "Welcher der folgenden Aspekte ist eine korrekte Anwendung des Biot–Savart-Gesetzes zur Berechnung des Magnetfeldes aufgrund eines langen geraden Leiters?",
+      "choices": [
+        "A: Das Magnetfeld wird nur durch die geometrische Form des Leiters beeinflusst.",
+        "B: Das Magnetfeld ist konstant über alle Punkte in der Umgebung des Leiters.",
+        "C: Das Magnetfeld ist unabhängig von der Stromrichtung im Leiter.",
+        "D: Das Magnetfeld ist proportional zur Stromstärke und invers proportional zur Entfernung zum Leiter."
+      ],
+      "correct_answer": "D",
+      "explanation": "Das Biot–Savart-Gesetz beschreibt, dass das Magnetfeld eines elektrischen Stroms direkt proportional zur Stromstärke und umgekehrt proportional zur Entfernung vom Leiter ist. Damit ist A korrekt, während die anderen Aussagen nicht die Grundlagen des Gesetzes berücksichtigen.",
+      "difficulty": 10,
+      "subcategory": "Biot–Savart-Gesetz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Transformationsmatrix der Lorentz-Transformation",
+      "question": "Welche der folgenden Gleichungen beschreibt die Lorentz-Transformation für die Zeit?",
+      "choices": [
+        "A: t' = vt",
+        "B: t' = t/(1 - v²/c²)",
+        "C: t' = γ(t - vx/c²)",
+        "D: t' = t + vx"
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Lorentz-Transformation für die Zeit beschreibt, wie sich die Zeit zwischen zwei Bezugssystemen ändert, die sich relativ zueinander bewegen. Die korrekte Gleichung ist t' = γ(t - vx/c²), wobei γ der Lorentzfaktor ist und v die relative Geschwindigkeit zwischen den Beobachtern darstellt.",
+      "difficulty": 4,
+      "subcategory": "Transformationsmatrix der Lorentz-Transformation"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Wärmekapazität von Gläsern (tiefe T)",
+      "question": "Wie verändert sich die spezifische Wärmekapazität von Gläsern bei tiefen Temperaturen?",
+      "choices": [
+        "A: Sie ist unabhängig von der Temperatur.",
+        "B: Sie steigt mit abnehmender Temperatur.",
+        "C: Sie bleibt konstant bei tiefen Temperaturen.",
+        "D: Sie sinkt mit abnehmender Temperatur."
+      ],
+      "correct_answer": "D",
+      "explanation": "Bei tiefen Temperaturen zeigen Gläser oft ein abnehmendes Verhalten der spezifischen Wärmekapazität aufgrund von quantenmechanischen Effekten. Dies resultiert aus der geringeren Beweglichkeit der Atome und den Einschränkungen in den thermischen Schwingungen.",
+      "difficulty": 7,
+      "subcategory": "Wärmekapazität von Gläsern (tiefe T)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "β‑Zerfall (β±, EC)",
+      "question": "Was geschieht während eines β+ Zerfalls?",
+      "choices": [
+        "A: Ein Elektron wird aus dem Atomkern abgespalten.",
+        "B: Ein Proton wird in ein Neutron umgewandelt und ein Positron emittiert.",
+        "C: Ein Neutron wird in ein Proton umgewandelt und ein Elektron emittiert.",
+        "D: Ein Proton zerfällt in zwei Neutrinos."
+      ],
+      "correct_answer": "B",
+      "explanation": "Beim β+ Zerfall wandelt sich ein Proton in ein Neutron um und emittiert dabei ein Positron sowie ein Neutrino. Dies führt zu einer Abnahme der Protonenzahl im Atomkern, was das Atom in ein anderes Element umwandelt.",
+      "difficulty": 3,
+      "subcategory": "β‑Zerfall (β±, EC)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Streuung an der harten Kugel",
+      "question": "Was beschreibt das Streuungsmodell der harten Kugel in der Quantenmechanik?",
+      "choices": [
+        "A: Teilchen ziehen sich an und fusionieren.",
+        "B: Teilchen bewegen sich nur geradlinig.",
+        "C: Teilchen können sich nicht berühren.",
+        "D: Teilchen prallen elastisch aneinander ab."
+      ],
+      "correct_answer": "D",
+      "explanation": "Das Streuungsmodell der harten Kugel beschreibt, wie Teilchen elastisch miteinander kollidieren. Dies bedeutet, dass die Energie und der Impuls der Teilchen vor und nach der Kollision erhalten bleiben.",
+      "difficulty": 3,
+      "subcategory": "Streuung an der harten Kugel"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Bose–Einstein-Kondensation (BEC)",
+      "question": "Was beschreibt das Phänomen der Bose–Einstein-Kondensation?",
+      "choices": [
+        "A: Eine Ansammlung von Bosonen bei sehr niedrigen Temperaturen, die einen gemeinsamen Quantenzustand einnehmen.",
+        "B: Eine chemische Reaktion, die bei hohen Temperaturen stattfindet.",
+        "C: Die Bewegung von Teilchen in einem idealen Gas bei Raumtemperatur.",
+        "D: Eine Art von magnetischem Zustand in Festkörpern."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Bose–Einstein-Kondensation ist ein Zustand der Materie, der auftritt, wenn Bosonen bei extrem niedrigen Temperaturen in einen gemeinsamen Quantenzustand übergehen. Dies führt zu Eigenschaften, die sich stark von denen klassischer Materie unterscheiden, wie z.B. die Überlappung der Wellenfunktionen der Teilchen.",
+      "difficulty": 5,
+      "subcategory": "Bose–Einstein-Kondensation (BEC)"
+    }
+  ]
+}

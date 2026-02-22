@@ -1,0 +1,168 @@
+{
+  "date": "2026-02-22",
+  "generated_at": "2026-02-22T03:51:03Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Wellenpakete & Kugelwellen",
+      "question": "What does a wave packet describe in electrodynamics?",
+      "choices": [
+        "A: It is the sum of all electromagnetic waves in a vacuum.",
+        "B: It is a superposition of waves with different frequencies.",
+        "C: It describes a stationary state without motion.",
+        "D: It is a wave that propagates only in one dimension."
+      ],
+      "correct_answer": "B",
+      "explanation": "A wave packet arises from the superposition of waves of different frequencies and enables the description of localized vibrations. This property is important for understanding phenomena such as signal transmission and quantum mechanics.",
+      "difficulty": 5,
+      "subcategory": "Wellenpakete & Kugelwellen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Periodische Störungen",
+      "question": "What describes the time evolution of a quantum mechanical system under the influence of a periodic disturbance?",
+      "choices": [
+        "A: The system always remains in the ground state.",
+        "B: The time evolution is independent of the frequency of the disturbance.",
+        "C: The disturbance has no effect on the quantum states.",
+        "D: The disturbance leads to a change in the energy eigenvalues of the system."
+      ],
+      "correct_answer": "D",
+      "explanation": "In quantum mechanics, periodic disturbances can cause the energy eigenvalues and states of the system to vary. This is often described by time-dependent perturbation theory, which shows that the energy eigenvalues can be influenced by the disturbance.",
+      "difficulty": 5,
+      "subcategory": "Periodische Störungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Supraleiter 2. Art & Grenzflächenenergie",
+      "question": "What describes the interfacial energy in a type 2 superconducting material?",
+      "choices": [
+        "A: The energy required to bring the material to a superconducting state.",
+        "B: The energy required for the movement of electrons within the material.",
+        "C: The energy lost during the transition from a superconducting to a normal state.",
+        "D: The energy required to introduce a magnetic field into the material."
+      ],
+      "correct_answer": "D",
+      "explanation": "The interfacial energy in type 2 superconducting materials plays a crucial role in the interaction between the material and the magnetic field. It describes the energy required to introduce a magnetic field into the material and is important for understanding pinning effects in these materials.",
+      "difficulty": 5,
+      "subcategory": "Supraleiter 2. Art & Grenzflächenenergie"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Millersche Indizes",
+      "question": "What do the Miller indices describe in crystallography?",
+      "choices": [
+        "A: The temperature of the crystal",
+        "B: The orientation of the crystal faces",
+        "C: The chemical composition of the material",
+        "D: The electrical conductivity of the material"
+      ],
+      "correct_answer": "B",
+      "explanation": "The Miller indices are a notation for describing the orientation of crystal faces in space. They indicate how many unit cells are skipped in each direction to define the respective surface.",
+      "difficulty": 2,
+      "subcategory": "Millersche Indizes"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Biot–Savart-Gesetz",
+      "question": "Which of the following aspects is a correct application of the Biot-Savart law for calculating the magnetic field due to a long straight conductor?",
+      "choices": [
+        "A: The magnetic field is only influenced by the geometric shape of the conductor.",
+        "B: The magnetic field is constant across all points in the vicinity of the conductor.",
+        "C: The magnetic field is independent of the current direction in the conductor.",
+        "D: The magnetic field is proportional to the current and inversely proportional to the distance from the conductor."
+      ],
+      "correct_answer": "D",
+      "explanation": "The Biot-Savart law describes that the magnetic field of an electric current is directly proportional to the current and inversely proportional to the distance from the conductor. Therefore, A is correct, while the other statements do not consider the basics of the law.",
+      "difficulty": 10,
+      "subcategory": "Biot–Savart-Gesetz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Transformationsmatrix der Lorentz-Transformation",
+      "question": "Which of the following equations describes the Lorentz transformation for time?",
+      "choices": [
+        "A: t' = vt",
+        "B: t' = t/(1 - v²/c²)",
+        "C: t' = γ(t - vx/c²)",
+        "D: t' = t + vx"
+      ],
+      "correct_answer": "C",
+      "explanation": "The Lorentz transformation for time describes how the time between two reference frames changes when they are moving relative to each other. The correct equation is t' = γ(t - vx/c²), where γ is the Lorentz factor and v represents the relative velocity between the observers.",
+      "difficulty": 4,
+      "subcategory": "Transformationsmatrix der Lorentz-Transformation"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Wärmekapazität von Gläsern (tiefe T)",
+      "question": "How does the specific heat capacity of glasses change at low temperatures?",
+      "choices": [
+        "A: It is independent of temperature.",
+        "B: It increases with decreasing temperature.",
+        "C: It remains constant at low temperatures.",
+        "D: It decreases with decreasing temperature."
+      ],
+      "correct_answer": "D",
+      "explanation": "At low temperatures, glasses often exhibit a decreasing behavior of the specific heat capacity due to quantum mechanical effects. This results from the reduced mobility of atoms and constraints in thermal vibrations.",
+      "difficulty": 7,
+      "subcategory": "Wärmekapazität von Gläsern (tiefe T)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "β‑Zerfall (β±, EC)",
+      "question": "What happens during a β+ decay?",
+      "choices": [
+        "A: An electron is ejected from the atomic nucleus.",
+        "B: A proton is converted into a neutron and a positron is emitted.",
+        "C: A neutron is converted into a proton and an electron is emitted.",
+        "D: A proton decays into two neutrinos."
+      ],
+      "correct_answer": "B",
+      "explanation": "In β+ decay, a proton converts into a neutron and emits a positron and a neutrino. This leads to a decrease in the number of protons in the atomic nucleus, transforming the atom into a different element.",
+      "difficulty": 3,
+      "subcategory": "β‑Zerfall (β±, EC)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Streuung an der harten Kugel",
+      "question": "What does the hard sphere scattering model describe in quantum mechanics?",
+      "choices": [
+        "A: Particles attract and fuse together.",
+        "B: Particles move only in straight lines.",
+        "C: Particles cannot touch each other.",
+        "D: Particles elastically rebound off each other."
+      ],
+      "correct_answer": "D",
+      "explanation": "The hard sphere scattering model describes how particles collide elastically with each other. This means that the energy and momentum of the particles are conserved before and after the collision.",
+      "difficulty": 3,
+      "subcategory": "Streuung an der harten Kugel"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Bose–Einstein-Kondensation (BEC)",
+      "question": "What does the phenomenon of Bose-Einstein condensation describe?",
+      "choices": [
+        "A: An accumulation of bosons at very low temperatures assuming a common quantum state.",
+        "B: A chemical reaction occurring at high temperatures.",
+        "C: The movement of particles in an ideal gas at room temperature.",
+        "D: A type of magnetic state in solids."
+      ],
+      "correct_answer": "A",
+      "explanation": "Bose-Einstein condensation is a state of matter that occurs when bosons transition into a common quantum state at extremely low temperatures. This results in properties that differ significantly from those of classical matter, such as the overlap of the particles' wave functions.",
+      "difficulty": 5,
+      "subcategory": "Bose–Einstein-Kondensation (BEC)"
+    }
+  ]
+}
