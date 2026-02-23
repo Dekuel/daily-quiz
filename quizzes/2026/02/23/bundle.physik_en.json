@@ -1,0 +1,168 @@
+{
+  "date": "2026-02-23",
+  "generated_at": "2026-02-23T03:54:59Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Van-der-Waals-Kräfte",
+      "question": "Which of the following statements best describes Van der Waals forces?",
+      "choices": [
+        "A: They are the main cause of electrical conductivity in semiconductors.",
+        "B: They arise exclusively in metals.",
+        "C: They are weak, temporary attractive forces between molecules.",
+        "D: They are strong chemical bonds between atoms."
+      ],
+      "correct_answer": "C",
+      "explanation": "Van der Waals forces are weak, temporary attractive forces that act between molecules. They are important for many physical properties of solids and liquids, especially in nonpolar molecules and in the chemistry of organic compounds.",
+      "difficulty": 5,
+      "subcategory": "Van-der-Waals-Kräfte"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Entropie im mikrokanonischen Ensemble",
+      "question": "What describes entropy in the microcanonical ensemble?",
+      "choices": [
+        "A: The temperature of a system",
+        "B: The energy of a system",
+        "C: The number of possible microstates of a system",
+        "D: The speed of particles in a system"
+      ],
+      "correct_answer": "C",
+      "explanation": "Entropy in the microcanonical ensemble is a measure of the number of possible microstates that a system can assume at a given energy. Higher entropy means more possible microstates and thus greater disorder in the system.",
+      "difficulty": 1,
+      "subcategory": "Entropie im mikrokanonischen Ensemble"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Hamilton-Funktion (Hamiltonian)",
+      "question": "What best describes the Hamiltonian function in analytical mechanics?",
+      "choices": [
+        "A: The change in momentum of a body over time.",
+        "B: The mass of a body in a gravitational field.",
+        "C: The total energy of a system in the form of kinetic and potential energy.",
+        "D: The time it takes for an object to travel a certain distance."
+      ],
+      "correct_answer": "C",
+      "explanation": "The Hamiltonian function is a central quantity in analytical mechanics and describes the total energy of a system consisting of kinetic and potential energy. It plays an important role in formulating equations of motion and analyzing dynamic systems.",
+      "difficulty": 6,
+      "subcategory": "Hamilton-Funktion (Hamiltonian)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Isotropie des Raumes ⇒ Drehimpulserhaltung",
+      "question": "Which statement correctly describes angular momentum conservation in an isotropic space?",
+      "choices": [
+        "A: The angular momentum of a system remains constant when no external torques act.",
+        "B: The angular momentum of a system can be changed arbitrarily as long as the total energy remains constant.",
+        "C: Angular momentum can only be conserved in an anisotropic space.",
+        "D: A system can only change its angular momentum through external forces."
+      ],
+      "correct_answer": "A",
+      "explanation": "Angular momentum conservation states that the total angular momentum of a closed system remains constant when no external torques act on the system. This is a direct consequence of the isotropy of space, which states that space is the same in all directions and thus no preferred direction exists.",
+      "difficulty": 6,
+      "subcategory": "Isotropie des Raumes ⇒ Drehimpulserhaltung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Kollektive Phänomene im Elektronengas",
+      "question": "Which of the following statements describes a collective phenomenon in an electron gas?",
+      "choices": [
+        "A: The formation of electron spin polarization in a ferromagnet.",
+        "B: The effect of light reflection on a surface.",
+        "C: The temperature increase of a solid upon heat supply.",
+        "D: The motion of a single electron in an electric field."
+      ],
+      "correct_answer": "A",
+      "explanation": "The formation of electron spin polarization in a ferromagnet is an example of a collective phenomenon, as here the spins of many electrons are collectively aligned. In contrast, the other options refer to individual processes or effects that are not collective.",
+      "difficulty": 5,
+      "subcategory": "Kollektive Phänomene im Elektronengas"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Beugung am Doppelspalt",
+      "question": "Which statement best describes the diffraction pattern produced by a double slit?",
+      "choices": [
+        "A: It shows an interference pattern with alternating bright and dark fringes.",
+        "B: It only occurs when light passes through a single slit.",
+        "C: It consists of evenly distributed bright and dark fringes.",
+        "D: It shows a single bright line without dark areas."
+      ],
+      "correct_answer": "A",
+      "explanation": "The diffraction pattern of a double slit is created by the interference of light waves passing through the two slits. This results in a characteristic pattern of bright and dark fringes, with the bright fringes arising from constructive interference and the dark ones from destructive interference.",
+      "difficulty": 6,
+      "subcategory": "Beugung am Doppelspalt"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Formale Streutheorie: Lippmann–Schwinger-Gleichung",
+      "question": "What does the Lippmann–Schwinger equation describe in quantum mechanics?",
+      "choices": [
+        "A: The relationship between wave functions and energy eigenvalues.",
+        "B: The temperature dependence of particle motions.",
+        "C: The conservation of energy in closed systems.",
+        "D: The interaction of particles during a scattering process."
+      ],
+      "correct_answer": "D",
+      "explanation": "The Lippmann–Schwinger equation is a central tool in the scattering theory of quantum mechanics and describes how particles behave under the influence of a potential during a scattering process. It is crucial for calculating scattering amplitudes and thus for analyzing interactions between particles.",
+      "difficulty": 3,
+      "subcategory": "Formale Streutheorie: Lippmann–Schwinger-Gleichung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Kugelfall-Viskosimeter; Stokes-Gesetz",
+      "question": "What does Stokes' law describe in the context of a spherical drop viscosimeter?",
+      "choices": [
+        "A: The oscillation frequency of a pendulum.",
+        "B: The force acting on a stationary body.",
+        "C: The conservation of energy in the motion of a body.",
+        "D: The relationship between the falling speed of a sphere and the viscosity of the fluid."
+      ],
+      "correct_answer": "D",
+      "explanation": "Stokes' law describes how the falling speed of a sphere in a viscous fluid depends on the viscosity of the fluid and the radius of the sphere. It is particularly relevant in fluid mechanics and is commonly used in viscometers to determine viscosity.",
+      "difficulty": 3,
+      "subcategory": "Kugelfall-Viskosimeter; Stokes-Gesetz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Feldenergie & Feldimpuls",
+      "question": "Which statement about the energy of an electric field is correct?",
+      "choices": [
+        "A: The energy of an electric field is independent of the distance between charges.",
+        "B: The energy of an electric field can only be released in the form of heat.",
+        "C: The energy of an electric field is proportional to the square of the field strength.",
+        "D: The energy of an electric field is not dependent on the field strength."
+      ],
+      "correct_answer": "C",
+      "explanation": "The energy of an electric field is actually proportional to the square of the field strength, meaning that an increase in field strength leads to a significant increase in stored energy. This relationship is fundamental to understanding electric fields and their energy content.",
+      "difficulty": 5,
+      "subcategory": "Feldenergie & Feldimpuls"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Quarkfamilien (CKM)",
+      "question": "Which quark has the highest mass within the three generations of the quark family?",
+      "choices": [
+        "A: Bottom quark",
+        "B: Up quark",
+        "C: Strange quark",
+        "D: Top quark"
+      ],
+      "correct_answer": "D",
+      "explanation": "The top quark is the heaviest quark with a mass of about 173 GeV/c². In the CKM matrix, it plays a central role in interactions and flavor physics.",
+      "difficulty": 10,
+      "subcategory": "Quarkfamilien (CKM)"
+    }
+  ]
+}
