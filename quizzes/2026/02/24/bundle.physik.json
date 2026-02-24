@@ -1,0 +1,169 @@
+{
+  "date": "2026-02-24",
+  "generated_at": "2026-02-24T03:51:32Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Legendre-Transformation (L→H)",
+      "question": "Welche Aussage zur Legendre-Transformation in der analytischen Mechanik ist korrekt?",
+      "choices": [
+        "A: Die Legendre-Transformation ermöglicht den Wechsel von Lagrange-Funktionen zu Hamilton-Funktionen.",
+        "B: Die Legendre-Transformation findet keine Anwendung in der klassischen Mechanik.",
+        "C: Die Legendre-Transformation ist identisch mit der Fourier-Transformation.",
+        "D: Die Legendre-Transformation wird nur in der Thermodynamik verwendet."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Legendre-Transformation ist ein zentrales Konzept in der analytischen Mechanik, das den Übergang von der Lagrange- zur Hamilton-Formulierung ermöglicht. Sie hilft dabei, die Dynamik eines Systems in Bezug auf die Energie und die kanonischen Variablen zu beschreiben.",
+      "difficulty": 6,
+      "subcategory": "Legendre-Transformation (L→H)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Elektromagnetische Potentiale (φ, A)",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt die Beziehung zwischen dem elektrischen Potential φ und dem Vektorpotential A in einem elektrostatischen Feld?",
+      "choices": [
+        "A: Das elektrische Potential φ ist das Negative der Divergenz des Vektorpotentials A.",
+        "B: Das elektrische Potential φ ist der negative Gradient des elektrischen Feldes E.",
+        "C: Das elektrische Potential φ ist der Gradient des Vektorpotentials A.",
+        "D: Das elektrische Potential φ ist gleich der Zeitableitung des Vektorpotentials A."
+      ],
+      "correct_answer": "B",
+      "explanation": "In einem elektrostatischen Feld ist das elektrische Potential φ tatsächlich der negative Gradient des elektrischen Feldes E, was bedeutet, dass Änderungen im elektrischen Feld zu Änderungen im Potential führen. Die anderen Optionen beschreiben nicht korrekt die Beziehungen zwischen den Potentialen und den elektrischen Feldern.",
+      "difficulty": 6,
+      "subcategory": "Elektromagnetische Potentiale (φ, A)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Kritische Exponenten",
+      "question": "Welcher kritische Exponent beschreibt die Divergenz der spezifischen Wärmekapazität an einem kritischen Punkt?",
+      "choices": [
+        "A: α",
+        "B: β",
+        "C: γ",
+        "D: δ"
+      ],
+      "correct_answer": "C",
+      "explanation": "Der kritische Exponent γ beschreibt die Divergenz der spezifischen Wärmekapazität an einem kritischen Punkt. In der Thermodynamik sind kritische Exponenten wichtige Größen, die das Verhalten von Systemen in der Nähe von Phasenübergängen charakterisieren.",
+      "difficulty": 5,
+      "subcategory": "Kritische Exponenten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Überblick: Felder, Teilchen, Symmetrien des Standardmodells",
+      "question": "Welches der folgenden Teilchen ist ein Quark?",
+      "choices": [
+        "A: Elektron",
+        "B: Up-Quark",
+        "C: Neutrino",
+        "D: Photon"
+      ],
+      "correct_answer": "B",
+      "explanation": "Das Up-Quark ist eines der grundlegenden Bausteine der Materie im Standardmodell der Teilchenphysik. Elektronen, Photonen und Neutrinos sind andere Teilchenarten, die jedoch nicht zu den Quarks gehören.",
+      "difficulty": 5,
+      "subcategory": "Überblick: Felder, Teilchen, Symmetrien des Standardmodells"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Anwendungen der Matrizenmethode",
+      "question": "Welche der folgenden Aussagen beschreibt am besten, wie die Matrizenmethode in der Optik angewendet wird?",
+      "choices": [
+        "A: Sie dient zur Analyse von optischen Systemen durch die Beschreibung von Lichtstrahlen als Matrizen.",
+        "B: Sie wird verwendet, um die Brechung von Licht an Grenzflächen zu berechnen.",
+        "C: Sie wird hauptsächlich zur Berechnung der Temperaturverteilung in optischen Materialien eingesetzt.",
+        "D: Sie hilft bei der Bestimmung der Lichtgeschwindigkeit in verschiedenen Medien."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Matrizenmethode in der Optik ermöglicht es, komplexe optische Systeme zu analysieren, indem Lichtstrahlen durch Matrizen repräsentiert werden. Dadurch können verschiedene Eigenschaften wie Brennweite und Vergrößerung einfach miteinander verknüpft werden.",
+      "difficulty": 7,
+      "subcategory": "Anwendungen der Matrizenmethode"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Zustandsdichte (Elektronengas)",
+      "question": "Was beschreibt die Zustandsdichte in einem Elektronengas-Modell?",
+      "choices": [
+        "A: Die Gesamtzahl der Elektronen im Festkörper.",
+        "B: Die Wechselwirkungen zwischen Elektronen und Ionen im Gitter.",
+        "C: Die Anzahl der Zustände pro Energieeinheit im gegebenen Volumen.",
+        "D: Die kinetische Energie der Elektronen im Festkörper."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Zustandsdichte ist ein wichtiges Konzept in der Festkörperphysik, das beschreibt, wie viele quantenmechanische Zustände in einem bestimmten Energiebereich und Volumen verfügbar sind. Sie spielt eine entscheidende Rolle bei der Berechnung der elektrischen und thermodynamischen Eigenschaften von Materialien.",
+      "difficulty": 9,
+      "subcategory": "Zustandsdichte (Elektronengas)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Fraunhofersche Beugung (allgemein)",
+      "question": "Was beschreibt die Fraunhofersche Beugung?",
+      "choices": [
+        "A: Die Beugung von Lichtwellen an einem schmalen Spalt.",
+        "B: Die Streuung von Licht in einem Medium.",
+        "C: Die Absorption von Licht durch ein Material.",
+        "D: Die Reflexion von Licht an einer Oberfläche."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Fraunhofersche Beugung beschreibt das Muster, das entsteht, wenn Lichtwellen an einem schmalen Spalt oder um ein Hindernis gebeugt werden. Dieses Phänomen ist entscheidend für das Verständnis von Welleninterferenz und Lichtausbreitung.",
+      "difficulty": 4,
+      "subcategory": "Fraunhofersche Beugung (allgemein)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Quasi-freie Elektronen (Näherung)",
+      "question": "Was beschreibt die Näherung der quasi-freien Elektronen in Festkörpern am besten?",
+      "choices": [
+        "A: Elektronen haben keine Masse und bewegen sich mit Lichtgeschwindigkeit.",
+        "B: Elektronen bewegen sich unabhängig und ohne Beeinflussung durch das Gitter.",
+        "C: Elektronen sind vollständig an die Atome des Festkörpers gebunden und können sich nicht bewegen.",
+        "D: Elektronen verhalten sich wie freie Teilchen innerhalb eines bestimmten Energiebereichs, beeinflusst durch das Kristallgitter."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Näherung der quasi-freien Elektronen beschreibt, dass sich Elektronen in einem Festkörper wie freie Teilchen verhalten, jedoch durch die Wechselwirkungen mit dem Kristallgitter beeinflusst werden. Diese Sichtweise ist entscheidend für das Verständnis der elektrischen Eigenschaften von Metallen und Halbleitern.",
+      "difficulty": 7,
+      "subcategory": "Quasi-freie Elektronen (Näherung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Beugung am Kristallgitter",
+      "question": "Was beschreibt das Phänomen der Beugung von Elektronen an einem Kristallgitter?",
+      "choices": [
+        "A: Die Temperaturabhängigkeit von Materialien.",
+        "B: Die Wechselwirkung von Teilchen mit magnetischen Feldern.",
+        "C: Die Wellen-Natur von Teilchen.",
+        "D: Die Schwingungen in einem harmonischen Oszillator."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Beugung von Elektronen an einem Kristallgitter ist ein wichtiges Beispiel für die Wellen-Natur von Teilchen, was in der Quantenmechanik eine zentrale Rolle spielt. Dieses Phänomen zeigt, wie Teilchen in bestimmten Bedingungen Wellencharakteristika aufweisen und somit Muster erzeugen können, die durch das Gitter beeinflusst werden.",
+      "difficulty": 5,
+      "subcategory": "Beugung am Kristallgitter"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Grenzen der klassischen Physik",
+      "question": "Welche der folgenden Aussagen beschreibt am besten die Grenze der klassischen Physik im Vergleich zur Quantenmechanik?",
+      "choices": [
+        "A: In der Quantenmechanik können Teilchen gleichzeitig in mehreren Zuständen existieren.",
+        "B: In der klassischen Physik sind alle Teilchen immer an einem bestimmten Ort.",
+        "C: Die klassische Physik erklärt alle Phänomene in der Natur ohne Ausnahmen.",
+        "D: Die Quantenmechanik bezieht sich ausschließlich auf makroskopische Objekte."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Quantenmechanik zeigt, dass Teilchen in Überlagerungszuständen existieren können, was ein grundlegendes Konzept ist, das in der klassischen Physik nicht vorkommt. Klassische Physik beschreibt die Welt als deterministisch, während die Quantenmechanik probabilistische Naturen der Teilchen beschreibt.",
+      "difficulty": 1,
+      "subcategory": "Grenzen der klassischen Physik"
+    }
+  ]
+}

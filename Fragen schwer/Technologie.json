@@ -1120,6 +1120,20 @@
       "correct_answer": "A",
       "explanation": "Entscheidungsbäume sind ein weit verbreitetes Verfahren im überwachten Lernen, das für Klassifikations- und Regressionsaufgaben verwendet wird. Im Gegensatz dazu sind K-Means-Clustering und Hauptkomponentenanalyse Verfahren des unüberwachten Lernens, während genetische Algorithmen eine optimierende Methode darstellen.",
       "difficulty": 8
+    },
+    {
+      "category": "Technologie",
+      "topic": "KI & Zukunftstechnologien",
+      "question": "Welche Technik ermöglicht es, Informationen in einem neuronalen Netzwerk effizient zu verarbeiten und Muster zu erkennen?",
+      "choices": [
+        "A: Support Vector Machines (SVMs)",
+        "B: Convolutional Neural Networks (CNNs)",
+        "C: Recurrent Neural Networks (RNNs)",
+        "D: Künstliche Entscheidungsbäume"
+      ],
+      "correct_answer": "B",
+      "explanation": "Convolutional Neural Networks (CNNs) sind speziell für die Verarbeitung von Bilddaten optimiert und nutzen Filter, um relevante Merkmale effizient zu erkennen. Im Gegensatz dazu sind RNNs besser für sequentielle Daten geeignet, während SVMs und Entscheidungsbäume alternative Ansätze in der Mustererkennung darstellen, die jedoch nicht auf neuronalen Netzen basieren.",
+      "difficulty": 9
     }
   ]
 }
