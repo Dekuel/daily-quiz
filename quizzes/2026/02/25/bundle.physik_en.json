@@ -1,0 +1,168 @@
+{
+  "date": "2026-02-25",
+  "generated_at": "2026-02-25T03:52:02Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Phasen von Einstoffsystemen & Clausius–Clapeyron",
+      "question": "Which statement best describes the Clausius-Clapeyron equation?",
+      "choices": [
+        "A: It explains energy conservation in closed systems.",
+        "B: It describes the motion of particles in a vacuum.",
+        "C: It describes the relationship between pressure and temperature at a phase transition.",
+        "D: It specifies the laws of thermodynamic equilibrium states."
+      ],
+      "correct_answer": "C",
+      "explanation": "The Clausius-Clapeyron equation describes how the pressure of a substance changes with temperature during a phase transition, such as from liquid to gas. This relationship is crucial for understanding phase transitions in thermodynamics.",
+      "difficulty": 5,
+      "subcategory": "Phasen von Einstoffsystemen & Clausius–Clapeyron"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Spin (allgemein)",
+      "question": "What does the spin of a particle describe in quantum mechanics?",
+      "choices": [
+        "A: The mass of a particle.",
+        "B: The position of a particle in space.",
+        "C: An intrinsic property related to angular momentum.",
+        "D: The velocity of a particle."
+      ],
+      "correct_answer": "C",
+      "explanation": "Spin is a fundamental intrinsic property of particles related to angular momentum. It influences many quantum mechanical properties, including particle interactions.",
+      "difficulty": 4,
+      "subcategory": "Spin (allgemein)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Isotropie des Raumes ⇒ Drehimpulserhaltung",
+      "question": "What does angular momentum conservation describe in an isolated system?",
+      "choices": [
+        "A: The total linear momentum remains constant when no external forces act.",
+        "B: Energy remains constant regardless of the forces in the system.",
+        "C: The total angular momentum remains constant when no external torques act.",
+        "D: The mass of a body remains constant regardless of velocity."
+      ],
+      "correct_answer": "C",
+      "explanation": "Angular momentum conservation states that in an isolated system, the total angular momentum remains constant unless external torques act on the system. This is a direct consequence of spatial isotropy and conservation laws in physics.",
+      "difficulty": 5,
+      "subcategory": "Isotropie des Raumes ⇒ Drehimpulserhaltung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "de Broglie-Wellen",
+      "question": "What does the de Broglie wavelength of a particle describe?",
+      "choices": [
+        "A: The maximum wavelength a photon can have.",
+        "B: The speed at which a particle moves.",
+        "C: The frequency of a particle at rest.",
+        "D: The wavelength associated with the particle's kinetic energy."
+      ],
+      "correct_answer": "D",
+      "explanation": "The de Broglie wavelength is a concept describing the wave properties of particles and is directly linked to their motion and energy. It is defined by the relationship λ = h/p, where h is the Planck constant and p is the particle's momentum.",
+      "difficulty": 6,
+      "subcategory": "de Broglie-Wellen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Interpretation der Strukturfunktionen (Partonmodell)",
+      "question": "What does the parton model describe regarding the structure of hadrons?",
+      "choices": [
+        "A: Hadrons are composed of quarks and gluons acting as partons.",
+        "B: Interactions between hadrons are solely electromagnetic in nature.",
+        "C: Structure functions are independent of the energy of the accelerated particle.",
+        "D: Hadrons consist of point particles without internal structure."
+      ],
+      "correct_answer": "A",
+      "explanation": "The parton model describes hadrons as composed of quarks and gluons acting as partons. This model helps understand deep inelastic scattering and interpret the structure functions of hadrons.",
+      "difficulty": 7,
+      "subcategory": "Interpretation der Strukturfunktionen (Partonmodell)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Linearisierte Boltzmann-Gleichung & Relaxationszeit",
+      "question": "What does relaxation time describe in the linear Boltzmann equation?",
+      "choices": [
+        "A: The time a system takes to change its temperature.",
+        "B: The time needed to bring a system to an equilibrium state.",
+        "C: The time a particle takes to complete a full cycle.",
+        "D: The time needed to change a particle's velocity."
+      ],
+      "correct_answer": "B",
+      "explanation": "Relaxation time measures how quickly a non-equilibrium state transitions to an equilibrium state. In the linear Boltzmann equation, it plays a central role in describing the system's dynamics as it adjusts.",
+      "difficulty": 4,
+      "subcategory": "Linearisierte Boltzmann-Gleichung & Relaxationszeit"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Phonon-Polaritonen",
+      "question": "What are phonon polaritons?",
+      "choices": [
+        "A: Vibrations of atoms in a gas.",
+        "B: Collective excitations of phonons and photons in a solid.",
+        "C: Individual electrons in a metal.",
+        "D: Wave movements in a liquid."
+      ],
+      "correct_answer": "B",
+      "explanation": "Phonon polaritons are hybridized states arising from phonons and photons, typically found in dielectric materials. They play a significant role in solid-state physics, especially in the interaction of light with matter.",
+      "difficulty": 4,
+      "subcategory": "Phonon-Polaritonen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Zeitunabhängige Störungstheorie: nicht-entartete Niveaus",
+      "question": "What does the time-independent perturbation theory describe regarding non-degenerate energy levels?",
+      "choices": [
+        "A: It explains why no disturbances can occur in a quantum mechanical system.",
+        "B: It allows the calculation of the energy level correction due to a small perturbation.",
+        "C: It proves that all energy levels are degenerate.",
+        "D: It shows that time evolution in quantum mechanics is irrelevant."
+      ],
+      "correct_answer": "B",
+      "explanation": "The time-independent perturbation theory calculates corrections to the energy levels of a quantum mechanical system when a small perturbation occurs. This theory is particularly useful when the original energy levels are non-degenerate, meaning they have different values and do not influence each other.",
+      "difficulty": 7,
+      "subcategory": "Zeitunabhängige Störungstheorie: nicht-entartete Niveaus"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Ordnung und Unordnung",
+      "question": "What does 'entropy' describe in solid-state physics?",
+      "choices": [
+        "A: The maximum temperature of a material.",
+        "B: A measure of the disorder of a system.",
+        "C: The density of a solid.",
+        "D: The electrical conductivity of metals."
+      ],
+      "correct_answer": "B",
+      "explanation": "Entropy is a central concept in thermodynamics describing the disorder or randomness of a system. In solid-state physics, a higher entropy value is often associated with a greater degree of disorder in the material.",
+      "difficulty": 4,
+      "subcategory": "Ordnung und Unordnung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Vakuumbereiche",
+      "question": "What happens to an object falling in a vacuum compared to an object falling in air?",
+      "choices": [
+        "A: The object in a vacuum falls slower.",
+        "B: The object in the air falls faster.",
+        "C: The object in a vacuum remains stationary.",
+        "D: Both objects fall at the same speed."
+      ],
+      "correct_answer": "D",
+      "explanation": "In a vacuum, there is no air resistance, so all objects fall with the same acceleration due to gravity regardless of their mass. In air, however, resistance affects the falling speed, especially for lighter objects.",
+      "difficulty": 6,
+      "subcategory": "Vakuumbereiche"
+    }
+  ]
+}

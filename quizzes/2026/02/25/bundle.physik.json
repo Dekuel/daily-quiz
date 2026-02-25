@@ -1,0 +1,169 @@
+{
+  "date": "2026-02-25",
+  "generated_at": "2026-02-25T03:51:30Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Phasen von Einstoffsystemen & Clausius–Clapeyron",
+      "question": "Welche Aussage beschreibt am besten den Clausius–Clapeyron-Satz?",
+      "choices": [
+        "A: Er erklärt die Energieerhaltung in geschlossenen Systemen.",
+        "B: Er beschreibt die Bewegung von Teilchen in einem Vakuum.",
+        "C: Er beschreibt die Beziehung zwischen Druck und Temperatur an einem Phasenübergang.",
+        "D: Er gibt die Gesetze der thermodynamischen Gleichgewichtszustände an."
+      ],
+      "correct_answer": "C",
+      "explanation": "Der Clausius–Clapeyron-Satz beschreibt, wie sich der Druck eines Stoffes mit der Temperatur ändert, wenn ein Phasenübergang stattfindet, wie z.B. beim Übergang von flüssig zu gasförmig. Diese Beziehung ist entscheidend für das Verständnis von Phasenübergängen in der Thermodynamik.",
+      "difficulty": 5,
+      "subcategory": "Phasen von Einstoffsystemen & Clausius–Clapeyron"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Spin (allgemein)",
+      "question": "Was beschreibt der Spin eines Teilchens in der Quantenmechanik?",
+      "choices": [
+        "A: Die Masse eines Teilchens.",
+        "B: Die Position eines Teilchens im Raum.",
+        "C: Eine intrinsische Eigenschaft, die mit dem Drehimpuls verbunden ist.",
+        "D: Die Geschwindigkeit eines Teilchens."
+      ],
+      "correct_answer": "C",
+      "explanation": "Der Spin ist eine fundamentale, intrinsische Eigenschaft von Teilchen, die mit Drehimpuls verbunden ist. Er beeinflusst viele quantenmechanische Eigenschaften, einschließlich der Wechselwirkungen zwischen Teilchen.",
+      "difficulty": 4,
+      "subcategory": "Spin (allgemein)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Isotropie des Raumes ⇒ Drehimpulserhaltung",
+      "question": "Was beschreibt die Drehimpulserhaltung in einem isolierten System?",
+      "choices": [
+        "A: Der gesamte lineare Impuls bleibt konstant, wenn keine externen Kräfte wirken.",
+        "B: Die Energie bleibt konstant, unabhängig von den Kräften im System.",
+        "C: Der gesamte Drehimpuls bleibt konstant, wenn keine externen Drehmomente wirken.",
+        "D: Die Masse eines Körpers bleibt konstant, unabhängig von der Geschwindigkeit."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Drehimpulserhaltung besagt, dass in einem isolierten System der Gesamt-Drehimpuls konstant bleibt, solange keine externen Drehmomente auf das System wirken. Dies ist eine direkte Folge der Isotropie des Raumes und der Erhaltungssätze in der Physik.",
+      "difficulty": 5,
+      "subcategory": "Isotropie des Raumes ⇒ Drehimpulserhaltung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "de Broglie-Wellen",
+      "question": "Was beschreibt die de Broglie-Wellenlänge eines Teilchens?",
+      "choices": [
+        "A: Die maximale Wellenlänge, die ein Photon haben kann.",
+        "B: Die Geschwindigkeit, mit der ein Teilchen sich bewegt.",
+        "C: Die Frequenz eines Teilchens in Ruhe.",
+        "D: Die Wellenlänge, die mit der Bewegungsenergie des Teilchens verknüpft ist."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die de Broglie-Wellenlänge ist ein Konzept, das die Wellen-Eigenschaften von Teilchen beschreibt und ist direkt mit ihrer Bewegung und Energie verknüpft. Sie wird durch die Beziehung λ = h/p definiert, wobei h das Plancksche Wirkungsquantum und p der Impuls des Teilchens ist.",
+      "difficulty": 6,
+      "subcategory": "de Broglie-Wellen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Interpretation der Strukturfunktionen (Partonmodell)",
+      "question": "Was beschreibt das Partonmodell in Bezug auf die Struktur von Hadronen?",
+      "choices": [
+        "A: Hadronen sind aus Quarks und Gluonen zusammengesetzt, die als Partons betrachtet werden.",
+        "B: Die Wechselwirkungen zwischen Hadronen sind ausschließlich elektromagnetischer Natur.",
+        "C: Die Strukturfunktionen sind unabhängig von der Energie des beschleunigten Teilchens.",
+        "D: Die Hadronen bestehen aus Punktteilchen ohne innere Struktur."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Partonmodell beschreibt Hadronen als zusammengesetzt aus Quarks und Gluonen, die als Partons fungieren. Dieses Modell hilft dabei, die tief inelastische Streuung zu verstehen und die Strukturfunktionen der Hadronen zu interpretieren.",
+      "difficulty": 7,
+      "subcategory": "Interpretation der Strukturfunktionen (Partonmodell)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Linearisierte Boltzmann-Gleichung & Relaxationszeit",
+      "question": "Was beschreibt die Relaxationszeit in der linearen Boltzmann-Gleichung?",
+      "choices": [
+        "A: Die Zeit, die ein System benötigt, um seine Temperatur zu ändern.",
+        "B: Die Zeit, die benötigt wird, um ein System in einen Gleichgewichtszustand zu bringen.",
+        "C: Die Zeit, die ein Teilchen braucht, um einen vollständigen Zyklus durchzuführen.",
+        "D: Die Zeit, die benötigt wird, um die Geschwindigkeit eines Teilchens zu ändern."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Relaxationszeit ist ein Maß dafür, wie schnell ein nicht-Gleichgewichtszustand in einen Gleichgewichtszustand übergeht. In der linearen Boltzmann-Gleichung spielt sie eine zentrale Rolle, da sie die Dynamik des Systems beschreibt, während es sich anpasst.",
+      "difficulty": 4,
+      "subcategory": "Linearisierte Boltzmann-Gleichung & Relaxationszeit"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Phonon-Polaritonen",
+      "question": "Was sind Phonon-Polaritonen?",
+      "choices": [
+        "A: Schwingungen von Atomen in einem Gas.",
+        "B: Kollektive Anregungen von Phononen und Photonen in einem Festkörper.",
+        "C: Einzelne Elektronen in einem Metall.",
+        "D: Wellenbewegungen in einer Flüssigkeit."
+      ],
+      "correct_answer": "B",
+      "explanation": "Phonon-Polaritonen sind hybridisierte Zustände, die aus Phononen und Photonen entstehen und typischerweise in dielektrischen Materialien vorkommen. Sie spielen eine wichtige Rolle in der Festkörperphysik, insbesondere bei der Wechselwirkung von Licht mit Materie.",
+      "difficulty": 4,
+      "subcategory": "Phonon-Polaritonen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Zeitunabhängige Störungstheorie: nicht-entartete Niveaus",
+      "question": "Was beschreibt die zeitunabhängige Störungstheorie in Bezug auf nicht-entartete energieniveaus?",
+      "choices": [
+        "A: Sie erklärt, warum keine Störungen in einem quantenmechanischen System auftreten können.",
+        "B: Sie ermöglicht die Berechnung der Korrektur der Energieniveaus durch eine kleine Störung.",
+        "C: Sie beweist, dass alle Energieniveaus entartet sind.",
+        "D: Sie zeigt, dass die Zeitentwicklung in Quantenmechanik irrelevant ist."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die zeitunabhängige Störungstheorie ermöglicht es, die Korrekturen der Energieniveaus eines quantenmechanischen Systems zu berechnen, wenn eine kleine Störung auftritt. Diese Theorie ist besonders nützlich, wenn die ursprünglichen Energieniveaus nicht-entartet sind, was bedeutet, dass sie unterschiedliche Werte haben und sich nicht gegenseitig beeinflussen.",
+      "difficulty": 7,
+      "subcategory": "Zeitunabhängige Störungstheorie: nicht-entartete Niveaus"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Ordnung und Unordnung",
+      "question": "Was beschreibt der Begriff 'Entropie' in der Festkörperphysik?",
+      "choices": [
+        "A: Die maximale Temperatur eines Materials.",
+        "B: Ein Maß für die Unordnung eines Systems.",
+        "C: Die Dichte eines Festkörpers.",
+        "D: Die elektrische Leitfähigkeit von Metallen."
+      ],
+      "correct_answer": "B",
+      "explanation": "Entropie ist ein zentrales Konzept in der Thermodynamik, das die Unordnung oder Zufälligkeit eines Systems beschreibt. In der Festkörperphysik ist ein höherer Entropiewert oft mit einem größeren Maß an Unordnung im Material verbunden.",
+      "difficulty": 4,
+      "subcategory": "Ordnung und Unordnung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Vakuumbereiche",
+      "question": "Was passiert mit einem Objekt, das in einem Vakuum fällt, im Vergleich zu einem Objekt, das in Luft fällt?",
+      "choices": [
+        "A: Das Objekt im Vakuum fällt langsamer.",
+        "B: Das Objekt in der Luft fällt schneller.",
+        "C: Das Objekt im Vakuum bleibt stehen.",
+        "D: Beide Objekte fallen gleich schnell."
+      ],
+      "correct_answer": "D",
+      "explanation": "Im Vakuum gibt es keinen Luftwiderstand, daher fallen alle Objekte unabhängig von ihrer Masse mit der gleichen Beschleunigung aufgrund der Schwerkraft. In Luft hingegen beeinflusst der Widerstand die Fallgeschwindigkeit, besonders bei leichteren Objekten.",
+      "difficulty": 6,
+      "subcategory": "Vakuumbereiche"
+    }
+  ]
+}
