@@ -1,0 +1,169 @@
+{
+  "date": "2026-02-26",
+  "generated_at": "2026-02-26T03:52:54Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Erzeugende Funktion (vier Typen)",
+      "question": "Welche der folgenden Funktionen wird als Erzeugende Funktion für die harmonischen Oszillatoren verwendet?",
+      "choices": [
+        "A: Exponentialfunktion",
+        "B: Logarithmusfunktion",
+        "C: Quadratfunktion",
+        "D: Sinusfunktion"
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Erzeugende Funktion für harmonische Oszillatoren ist die Exponentialfunktion, da sie die Schwingungsbewegungen beschreibt. Diese Funktion ermöglicht es, die Zustände eines Systems effizient zu analysieren und zu berechnen.",
+      "difficulty": 4,
+      "subcategory": "Erzeugende Funktion (vier Typen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Nutation & Präzession (Überlagerung)",
+      "question": "Was beschreibt der Begriff 'Präzession' in der klassischen Mechanik?",
+      "choices": [
+        "A: Die Beschleunigung eines Körpers unter dem Einfluss einer konstanten Kraft.",
+        "B: Die langsame Drehung der Rotationsachse eines Körpers um eine senkrechte Achse.",
+        "C: Die schnelle Änderung der Geschwindigkeit eines Körpers.",
+        "D: Die Rückführung eines Körpers in seine Ausgangsposition nach einer Störung."
+      ],
+      "correct_answer": "B",
+      "explanation": "Präzession bezieht sich auf die langsame Veränderung der Richtung der Rotationsachse eines Körpers, wie z.B. bei einem Kreisel. Dies geschieht aufgrund von äußeren Kräften, die auf den Körper wirken und die Stabilität seiner Bewegung beeinflussen.",
+      "difficulty": 4,
+      "subcategory": "Nutation & Präzession (Überlagerung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Zustand und Gleichgewicht (makro/mikro)",
+      "question": "Welches der folgenden Konzepte beschreibt am besten den Zustand eines Systems im thermodynamischen Gleichgewicht?",
+      "choices": [
+        "A: Das System ist immer in einem festen Volumen und Temperatur.",
+        "B: Es gibt keine Wechselwirkungen zwischen den Teilchen im System.",
+        "C: Die Teilchen im System bewegen sich mit maximaler Geschwindigkeit.",
+        "D: Alle makroskopischen Eigenschaften eines Systems sind zeitlich konstant."
+      ],
+      "correct_answer": "D",
+      "explanation": "Im thermodynamischen Gleichgewicht sind alle makroskopischen Eigenschaften eines Systems, wie Temperatur, Druck und Volumen, zeitlich konstant. Dies bedeutet, dass sich das System in einem stabilen Zustand befindet, wo keine Nettobewegungen oder -änderungen stattfinden.",
+      "difficulty": 7,
+      "subcategory": "Zustand und Gleichgewicht (makro/mikro)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Virialsatz & Äquipartition (Gleichverteilungssatz)",
+      "question": "Was besagt der Äquipartitionstheorem in der statistischen Mechanik?",
+      "choices": [
+        "A: Die Teilchen in einem System bewegen sich immer gleichmäßig.",
+        "B: Die Gesamtenergie eines Systems bleibt konstant.",
+        "C: Ein System erreicht immer einen Zustand maximaler Entropie.",
+        "D: Jeder Freiheitsgrad eines Systems trägt im Mittel gleich viel zur Gesamtenergie bei."
+      ],
+      "correct_answer": "D",
+      "explanation": "Der Äquipartitionstheorem besagt, dass in einem thermischen Gleichgewicht jeder Freiheitsgrad eines Systems im Mittel zur gleichen Energie beiträgt. Dies ist eine fundamentale Annahme in der statistischen Mechanik, die die Verteilung der Energie in einem System beschreibt.",
+      "difficulty": 4,
+      "subcategory": "Virialsatz & Äquipartition (Gleichverteilungssatz)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Magnetostatik in Materie",
+      "question": "Welche der folgenden Aussagen beschreibt das Verhalten von ferromagnetischen Materialien in einem externen Magnetfeld?",
+      "choices": [
+        "A: Ihre Magnetisierung ist immer gleich der des externen Magnetfeldes.",
+        "B: Sie werden magnetisch und behalten ihre Magnetisierung auch nach Entfernen des Feldes.",
+        "C: Sie zeigen keine magnetischen Eigenschaften und verhalten sich wie diamagnetische Materialien.",
+        "D: Sie schwächen das Magnetfeld in ihrer Umgebung."
+      ],
+      "correct_answer": "B",
+      "explanation": "Ferromagnetische Materialien können in einem externen Magnetfeld magnetisiert werden und behalten diese Magnetisierung auch nach Entfernen des Feldes bei. Dies geschieht aufgrund der Ausrichtung der magnetischen Momente in den Materialien, die einen dauerhaften Magnetismus erzeugen können.",
+      "difficulty": 6,
+      "subcategory": "Magnetostatik in Materie"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Beugung am Schirm & Poisson’scher Fleck",
+      "question": "Was beschreibt der Poisson’sche Fleck in der Beugung von Licht an einem runden Schirm?",
+      "choices": [
+        "A: Eine gleichmäßige Verteilung von Lichtintensität.",
+        "B: Ein helles Zentrum mit dunklen Ringen umgeben.",
+        "C: Eine Verschiebung der Lichtwellen in der Phase.",
+        "D: Eine vollständige Absorption des Lichts."
+      ],
+      "correct_answer": "B",
+      "explanation": "Der Poisson’sche Fleck beschreibt das Phänomen, dass im Zentrum der Schattenregion eines runden Objekts (Schirm) eine helle Stelle entsteht, umgeben von dunklen Ringen. Dies tritt auf, wenn Licht durch eine kleine Öffnung oder um ein Hindernis gebeugt wird.",
+      "difficulty": 5,
+      "subcategory": "Beugung am Schirm & Poisson’scher Fleck"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Wechselwirkungsdarstellung (Dirac-Bild)",
+      "question": "Welche der folgenden Aussagen beschreibt die Wechselwirkungsdarstellung (Dirac-Bild) in der Quantenmechanik korrekt?",
+      "choices": [
+        "A: Im Dirac-Bild sind die Zustände zeitabhängig und die Operatoren zeitunabhängig.",
+        "B: Im Dirac-Bild werden nur klassische Mechanik und keine quantenmechanischen Prinzipien verwendet.",
+        "C: Im Dirac-Bild sind die Zustände zeitunabhängig und die Operatoren zeitabhängig.",
+        "D: Im Dirac-Bild sind die Zustände und die Operatoren beide zeitunabhängig."
+      ],
+      "correct_answer": "A",
+      "explanation": "Im Dirac-Bild sind die Zustände einer quantenmechanischen Beschreibung tatsächlich zeitabhängig, während die Operatoren, die die Messgrößen repräsentieren, konstant bleiben. Dies steht im Gegensatz zur Schrödinger-Darstellung, wo die Zustände konstant sind und die Operatoren zeitabhängig werden.",
+      "difficulty": 6,
+      "subcategory": "Wechselwirkungsdarstellung (Dirac-Bild)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Uneigentliche (Dirac-)Vektoren",
+      "question": "Was beschreibt ein uneigentlicher (Dirac-)Vektor in der Quantenmechanik?",
+      "choices": [
+        "A: Er beschreibt die Zeitentwicklung eines quantenmechanischen Systems.",
+        "B: Er ist immer orthogonal zu anderen Vektoren in der Quantenmechanik.",
+        "C: Er beschreibt Zustände in einem Hilbertraum mit unendlicher Dimension.",
+        "D: Er ist ein Vektor, der nur in der klassischen Mechanik existiert."
+      ],
+      "correct_answer": "C",
+      "explanation": "Ein uneigentlicher (Dirac-)Vektor ist ein mathematisches Objekt, das Zustände in einem Hilbertraum mit unendlicher Dimension beschreibt. Diese Vektoren sind in der Quantenmechanik von zentraler Bedeutung, da sie oft zur Darstellung von Teilchenzuständen verwendet werden.",
+      "difficulty": 6,
+      "subcategory": "Uneigentliche (Dirac-)Vektoren"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Klassischer Grenzfall (z ≪ 1)",
+      "question": "Welcher der folgenden Aspekte ist im klassischen Grenzfall der statistischen Mechanik entscheidend für die Validität der Boltzmann-Verteilung?",
+      "choices": [
+        "A: Die Berücksichtigung quantenmechanischer Effekte.",
+        "B: Die Annahme, dass die Teilchen unabhängig voneinander agieren.",
+        "C: Die Relevanz von Phasenräumen mit nicht-konvexen Geometrien.",
+        "D: Die Notwendigkeit, relativistische Korrekturen zu integrieren."
+      ],
+      "correct_answer": "B",
+      "explanation": "Im klassischen Grenzfall (z ≪ 1) ist die Annahme, dass die Teilchen unabhängig voneinander agieren, entscheidend, da dies die Grundlage für die Ableitung der Boltzmann-Verteilung bildet. In diesem Kontext kann die Wechselwirkung zwischen den Teilchen vernachlässigt werden, was die Annahme der Unabhängigkeit legitimiert.",
+      "difficulty": 10,
+      "subcategory": "Klassischer Grenzfall (z ≪ 1)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Moden im dielektrischen Wellenleiter",
+      "question": "Welche Bedingung muss erfüllt sein, damit in einem dielektrischen Wellenleiter eine propagierende Mode existiert?",
+      "choices": [
+        "A: Die Frequenz des Lichts muss unterhalb einer bestimmten Grenzfrequenz liegen.",
+        "B: Der Brechungsindex des Wellenleiters muss geringer sein als der des Umgebungsmediums.",
+        "C: Der Wellenleiter muss mindestens zwei unterschiedliche Materialien mit verschiedenen Brechungsindices enthalten.",
+        "D: Die Wellenlänge des Lichts muss kleiner als die Wellenleiterbreite sein."
+      ],
+      "correct_answer": "C",
+      "explanation": "Für die Existenz propagierender Moden in einem dielektrischen Wellenleiter ist es notwendig, dass der Wellenleiter mindestens zwei Materialien mit unterschiedlichen Brechungsindices aufweist. Diese Bedingung ermöglicht die Totalreflexion an den Grenzen der Materialien und führt zur Bildung stabiler Modes.",
+      "difficulty": 9,
+      "subcategory": "Moden im dielektrischen Wellenleiter"
+    }
+  ]
+}

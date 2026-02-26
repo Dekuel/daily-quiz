@@ -1512,6 +1512,20 @@
       "correct_answer": "D",
       "explanation": "A: Kariba Reservoir",
       "difficulty": 8
+    },
+    {
+      "category": "Geographie",
+      "topic": "Kartographie & GIS",
+      "question": "Which spectral index is commonly used for monitoring water resources in satellite images, allowing differentiation between water and non-water holding areas?",
+      "choices": [
+        "A: SAVI",
+        "B: NDWI",
+        "C: NDBI",
+        "D: NDVI"
+      ],
+      "correct_answer": "B",
+      "explanation": "The NDWI (Normalized Difference Water Index) is specifically used to identify water bodies in remote sensing data. This is done by analyzing reflection in specific wavelength ranges that can differentiate between water and land.",
+      "difficulty": 10
     }
   ]
 }

@@ -1,0 +1,168 @@
+{
+  "date": "2026-02-26",
+  "generated_at": "2026-02-26T03:53:32Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Erzeugende Funktion (vier Typen)",
+      "question": "Which of the following functions is used as the generating function for harmonic oscillators?",
+      "choices": [
+        "A: Exponential function",
+        "B: Logarithmic function",
+        "C: Quadratic function",
+        "D: Sine function"
+      ],
+      "correct_answer": "A",
+      "explanation": "The generating function for harmonic oscillators is the exponential function, as it describes the oscillatory movements. This function allows for efficient analysis and calculation of a system's states.",
+      "difficulty": 4,
+      "subcategory": "Erzeugende Funktion (vier Typen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Nutation & Präzession (Überlagerung)",
+      "question": "What does the term 'precession' describe in classical mechanics?",
+      "choices": [
+        "A: The acceleration of a body under the influence of a constant force.",
+        "B: The slow rotation of a body's axis of rotation around a perpendicular axis.",
+        "C: The rapid change in velocity of a body.",
+        "D: The return of a body to its original position after a disturbance."
+      ],
+      "correct_answer": "B",
+      "explanation": "Precession refers to the slow change in the direction of rotation axis of a body, such as in a gyroscope. This occurs due to external forces acting on the body, influencing the stability of its motion.",
+      "difficulty": 4,
+      "subcategory": "Nutation & Präzession (Überlagerung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Zustand und Gleichgewicht (makro/mikro)",
+      "question": "Which of the following concepts best describes the state of a system in thermodynamic equilibrium?",
+      "choices": [
+        "A: The system is always at a fixed volume and temperature.",
+        "B: There are no interactions between particles in the system.",
+        "C: The particles in the system move at maximum speed.",
+        "D: All macroscopic properties of a system remain constant over time."
+      ],
+      "correct_answer": "D",
+      "explanation": "In thermodynamic equilibrium, all macroscopic properties of a system, such as temperature, pressure, and volume, remain constant over time. This means the system is in a stable state where no net movements or changes occur.",
+      "difficulty": 7,
+      "subcategory": "Zustand und Gleichgewicht (makro/mikro)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Virialsatz & Äquipartition (Gleichverteilungssatz)",
+      "question": "What does the equipartition theorem state in statistical mechanics?",
+      "choices": [
+        "A: The particles in a system always move uniformly.",
+        "B: The total energy of a system remains constant.",
+        "C: A system always reaches a state of maximum entropy.",
+        "D: Each degree of freedom of a system contributes on average the same amount to the total energy."
+      ],
+      "correct_answer": "D",
+      "explanation": "The equipartition theorem states that in thermal equilibrium, each degree of freedom of a system contributes on average the same amount of energy. This is a fundamental assumption in statistical mechanics that describes the distribution of energy in a system.",
+      "difficulty": 4,
+      "subcategory": "Virialsatz & Äquipartition (Gleichverteilungssatz)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Magnetostatik in Materie",
+      "question": "Which of the following statements describes the behavior of ferromagnetic materials in an external magnetic field?",
+      "choices": [
+        "A: Their magnetization is always equal to that of the external magnetic field.",
+        "B: They become magnetic and retain their magnetization even after the field is removed.",
+        "C: They exhibit no magnetic properties and behave like diamagnetic materials.",
+        "D: They weaken the magnetic field in their surroundings."
+      ],
+      "correct_answer": "B",
+      "explanation": "Ferromagnetic materials can be magnetized in an external magnetic field and retain this magnetization even after the field is removed. This occurs due to the alignment of magnetic moments in the materials, which can generate permanent magnetism.",
+      "difficulty": 6,
+      "subcategory": "Magnetostatik in Materie"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Beugung am Schirm & Poisson’scher Fleck",
+      "question": "What does Poisson's spot describe in the diffraction of light on a circular screen?",
+      "choices": [
+        "A: A uniform distribution of light intensity.",
+        "B: A bright center surrounded by dark rings.",
+        "C: A shift in the phase of light waves.",
+        "D: Complete absorption of light."
+      ],
+      "correct_answer": "B",
+      "explanation": "Poisson's spot describes the phenomenon where a bright spot is formed at the center of the shadow region of a round object (screen), surrounded by dark rings. This occurs when light is diffracted through a small opening or around an obstacle.",
+      "difficulty": 5,
+      "subcategory": "Beugung am Schirm & Poisson’scher Fleck"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Wechselwirkungsdarstellung (Dirac-Bild)",
+      "question": "Which of the following statements correctly describes the interaction representation (Dirac picture) in quantum mechanics?",
+      "choices": [
+        "A: In the Dirac picture, the states are time-dependent and the operators are time-independent.",
+        "B: Only classical mechanics and no quantum mechanical principles are used in the Dirac picture.",
+        "C: In the Dirac picture, the states are time-independent and the operators are time-dependent.",
+        "D: In the Dirac picture, both the states and the operators are time-independent."
+      ],
+      "correct_answer": "A",
+      "explanation": "In the Dirac picture, the states of a quantum mechanical description are actually time-dependent, while the operators representing the observables remain constant. This is in contrast to the Schrödinger representation, where the states are constant and the operators become time-dependent.",
+      "difficulty": 6,
+      "subcategory": "Wechselwirkungsdarstellung (Dirac-Bild)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Uneigentliche (Dirac-)Vektoren",
+      "question": "What does an improper (Dirac) vector describe in quantum mechanics?",
+      "choices": [
+        "A: It describes the time evolution of a quantum mechanical system.",
+        "B: It is always orthogonal to other vectors in quantum mechanics.",
+        "C: It describes states in a Hilbert space of infinite dimension.",
+        "D: It is a vector that only exists in classical mechanics."
+      ],
+      "correct_answer": "C",
+      "explanation": "An improper (Dirac) vector is a mathematical object that describes states in a Hilbert space of infinite dimension. These vectors are crucial in quantum mechanics as they are often used to represent particle states.",
+      "difficulty": 6,
+      "subcategory": "Uneigentliche (Dirac-)Vektoren"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Klassischer Grenzfall (z ≪ 1)",
+      "question": "Which aspect is crucial in the classical limit of statistical mechanics for the validity of the Boltzmann distribution?",
+      "choices": [
+        "A: Considering quantum mechanical effects.",
+        "B: The assumption that particles act independently.",
+        "C: The relevance of phase spaces with non-convex geometries.",
+        "D: The need to integrate relativistic corrections."
+      ],
+      "correct_answer": "B",
+      "explanation": "In the classical limit (z ≪ 1), the assumption that particles act independently is crucial for the derivation of the Boltzmann distribution. In this context, the interaction between particles can be neglected, justifying the assumption of independence.",
+      "difficulty": 10,
+      "subcategory": "Klassischer Grenzfall (z ≪ 1)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Moden im dielektrischen Wellenleiter",
+      "question": "What condition must be met for a propagating mode to exist in a dielectric waveguide?",
+      "choices": [
+        "A: The frequency of light must be below a certain cutoff frequency.",
+        "B: The refractive index of the waveguide must be lower than that of the surrounding medium.",
+        "C: The waveguide must contain at least two different materials with different refractive indices.",
+        "D: The wavelength of light must be smaller than the waveguide width."
+      ],
+      "correct_answer": "C",
+      "explanation": "For the existence of propagating modes in a dielectric waveguide, it is necessary for the waveguide to have at least two materials with different refractive indices. This condition allows for total reflection at the boundaries of the materials, leading to the formation of stable modes.",
+      "difficulty": 9,
+      "subcategory": "Moden im dielektrischen Wellenleiter"
+    }
+  ]
+}

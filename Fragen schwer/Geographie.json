@@ -1722,6 +1722,20 @@
       "correct_answer": "D",
       "explanation": "Der Itaipu-Stausee, der an der Grenze zwischen Brasilien und Paraguay liegt, ist einer der größten Wasserkraftwerke der Welt. Er spielte eine entscheidende Rolle in der Energieversorgung beider Länder und hat sowohl wirtschaftliche Chancen als auch ökologische Herausforderungen mit sich gebracht.",
       "difficulty": 8
+    },
+    {
+      "category": "Geographie",
+      "topic": "Kartographie & GIS",
+      "question": "Welcher spektrale Index wird häufig zur Überwachung von Wasserressourcen in Satellitenbildern verwendet und ermöglicht die Differenzierung zwischen Wasser und nicht-wasserhaltenden Flächen?",
+      "choices": [
+        "A: SAVI",
+        "B: NDWI",
+        "C: NDBI",
+        "D: NDVI"
+      ],
+      "correct_answer": "B",
+      "explanation": "Der NDWI (Normalized Difference Water Index) wird speziell verwendet, um Wasserflächen in Fernerkundungsdaten zu identifizieren. Dies geschieht durch die Analyse der Reflexion in spezifischen Wellenlängenbereichen, die Wasser und Land unterscheiden können.",
+      "difficulty": 10
     }
   ]
 }
