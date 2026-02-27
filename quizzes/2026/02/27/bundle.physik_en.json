@@ -1,0 +1,168 @@
+{
+  "date": "2026-02-27",
+  "generated_at": "2026-02-27T03:51:06Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Meson‑Multipletts (SU(3))",
+      "question": "Which of the following mesons belongs to the pion multiplet in SU(3) symmetry?",
+      "choices": [
+        "A: ρ⁰",
+        "B: η",
+        "C: K⁻",
+        "D: π⁻"
+      ],
+      "correct_answer": "D",
+      "explanation": "The pion multiplet consists of the pions π⁻, π⁺, and π⁰. These belong to the SU(3) symmetry of strong interaction and are crucial for describing mesonic states.",
+      "difficulty": 8,
+      "subcategory": "Meson‑Multipletts (SU(3))"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Lagrange-Gleichungen",
+      "question": "What does the Lagrange equation describe in analytical mechanics?",
+      "choices": [
+        "A: The dynamic properties of a system through a function of generalized coordinates.",
+        "B: The conversion between different forms of energy.",
+        "C: The collisions between particles in a system.",
+        "D: The relationship between energy and time for a system."
+      ],
+      "correct_answer": "A",
+      "explanation": "The Lagrange equations describe the motion of systems by varying the Lagrangian function, which depends on generalized coordinates. This allows deriving the equations of motion from an energy-based approach, often simpler than applying Newton's laws.",
+      "difficulty": 6,
+      "subcategory": "Lagrange-Gleichungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Elektrostatik der Dielektrika",
+      "question": "Which of the following statements best describes the polarization of a dielectric under the influence of an electric field?",
+      "choices": [
+        "A: Dielectrics exhibit a permanent polarization regardless of external fields.",
+        "B: Dielectrics generate internal electric fields that can neutralize external fields.",
+        "C: Dielectrics completely lose their electrical properties when the electric field is removed.",
+        "D: Dielectrics increase the capacitance of a capacitor without affecting the electric field."
+      ],
+      "correct_answer": "B",
+      "explanation": "The polarization of a dielectric means that the positive and negative charges within the material shift under the influence of an external electric field. This creates internal fields that partially neutralize the external field, altering the effective electric field strength in the material.",
+      "difficulty": 8,
+      "subcategory": "Elektrostatik der Dielektrika"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Legendre-Transformation",
+      "question": "What is the main goal of the Legendre transformation in statistical mechanics?",
+      "choices": [
+        "A: Determining equilibrium states in physical systems.",
+        "B: Transforming different thermodynamic potentials.",
+        "C: Calculating state functions for ideal gases.",
+        "D: Converting an energy variable into a temperature variable."
+      ],
+      "correct_answer": "B",
+      "explanation": "The Legendre transformation is used to switch between different thermodynamic potentials, such as between Helmholtz and Gibbs energies. This is important for analyzing and understanding different physical situations.",
+      "difficulty": 4,
+      "subcategory": "Legendre-Transformation"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Wärmestrahlungsgesetze & Planck-Formel",
+      "question": "What does the Planck formula describe in quantum mechanics?",
+      "choices": [
+        "A: The speed of particles in a gas.",
+        "B: The vibration frequency of molecules in a solid.",
+        "C: The kinetic energy of moving particles.",
+        "D: The distribution of energy of photons depending on the temperature of a blackbody."
+      ],
+      "correct_answer": "D",
+      "explanation": "The Planck formula describes how the energy of photons is distributed at a specific temperature, especially concerning blackbody radiation. It is a fundamental result of quantum mechanics and explains why objects emit more energy at higher temperatures.",
+      "difficulty": 5,
+      "subcategory": "Wärmestrahlungsgesetze & Planck-Formel"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Der elastische Stoß in der SRT",
+      "question": "What happens to the total energy of a system in an elastic collision in special relativity theory (SRT)?",
+      "choices": [
+        "A: It is undefined.",
+        "B: It increases.",
+        "C: It decreases.",
+        "D: It remains constant."
+      ],
+      "correct_answer": "D",
+      "explanation": "In an elastic collision, the total energy of the system, including kinetic energy and rest energy, remains constant. This is a central property of elastic collisions in special relativity theory.",
+      "difficulty": 2,
+      "subcategory": "Der elastische Stoß in der SRT"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Dritter Hauptsatz (Nernst’scher Wärmesatz)",
+      "question": "What does the third law of thermodynamics state?",
+      "choices": [
+        "A: Energy cannot be created or destroyed.",
+        "B: The entropy of a perfect crystal approaches zero as the temperature reaches absolute zero.",
+        "C: Heat transfer always occurs from a colder to a warmer body.",
+        "D: Temperature is the measure of the kinetic energy of particles."
+      ],
+      "correct_answer": "B",
+      "explanation": "The third law of thermodynamics, also known as Nernst's heat theorem, states that the entropy of a perfect crystal becomes zero at absolute zero (0 Kelvin). This is crucial for understanding entropy and thermodynamic processes at low temperatures.",
+      "difficulty": 4,
+      "subcategory": "Dritter Hauptsatz (Nernst’scher Wärmesatz)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Reziprokes Gitter",
+      "question": "What does the reciprocal lattice describe in solid-state physics?",
+      "choices": [
+        "A: The frequencies of vibrations in a crystal lattice.",
+        "B: The relationship between the wavelength and lattice constant of a crystal.",
+        "C: The symmetric structure of molecules in gaseous states.",
+        "D: The geometric arrangement of atoms in a solid."
+      ],
+      "correct_answer": "B",
+      "explanation": "The reciprocal lattice is a concept used in solid-state physics to describe the relationship between a crystal's structure and the wavelengths of waves occurring within it. It is particularly important for analyzing diffraction patterns in crystals, as seen in X-ray crystallography.",
+      "difficulty": 6,
+      "subcategory": "Reziprokes Gitter"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Eigenwertproblem des Bahndrehimpulses",
+      "question": "What does orbital angular momentum describe in quantum mechanics?",
+      "choices": [
+        "A: The temperature of a system in thermal equilibrium.",
+        "B: The energy of a particle in an electric field.",
+        "C: The quantization of a particle's angular momentum.",
+        "D: The velocity of a particle at the speed of light."
+      ],
+      "correct_answer": "C",
+      "explanation": "Orbital angular momentum is quantized in quantum mechanics and describes the rotational motion of particles around a point. It is crucial for understanding the structure of atoms and their spectra.",
+      "difficulty": 3,
+      "subcategory": "Eigenwertproblem des Bahndrehimpulses"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Mittlere kinetische Energie & Temperatur",
+      "question": "What does the average kinetic energy of particles in a gas describe?",
+      "choices": [
+        "A: It is proportional to the gas's temperature.",
+        "B: It depends only on the type of particles.",
+        "C: It is inversely proportional to the gas's density.",
+        "D: It remains constant regardless of the temperature."
+      ],
+      "correct_answer": "A",
+      "explanation": "The average kinetic energy of particles in a gas is directly proportional to the gas's temperature. Higher temperatures lead to higher kinetic energy of particles, meaning they move faster.",
+      "difficulty": 3,
+      "subcategory": "Mittlere kinetische Energie & Temperatur"
+    }
+  ]
+}
