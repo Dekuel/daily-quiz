@@ -1,0 +1,169 @@
+{
+  "date": "2026-02-28",
+  "generated_at": "2026-02-28T03:38:13Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Zustand und Gleichgewicht (makro/mikro)",
+      "question": "Was beschreibt der Begriff 'thermisches Gleichgewicht' in der Thermodynamik?",
+      "choices": [
+        "A: Zwei Systeme haben die gleiche Druckänderung.",
+        "B: Zwei Systeme haben die gleiche Volumenänderung.",
+        "C: Zwei Systeme haben die gleiche Anzahl von Teilchen.",
+        "D: Zwei Systeme haben die gleiche Temperatur und keine Wärmeübertragung findet statt."
+      ],
+      "correct_answer": "D",
+      "explanation": "Thermisches Gleichgewicht beschreibt einen Zustand, in dem zwei Systeme die gleiche Temperatur erreicht haben, was dazu führt, dass zwischen ihnen kein Nettowärmefluss stattfindet. Dies ist ein zentraler Aspekt der Thermodynamik und wichtig für das Verständnis von Energieübertragungsprozessen.",
+      "difficulty": 5,
+      "subcategory": "Zustand und Gleichgewicht (makro/mikro)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Gezeitenverformung",
+      "question": "Welche der folgenden Aussagen beschreibt am besten die Ursache für Gezeitenverformungen auf der Erde?",
+      "choices": [
+        "A: Gezeitenverformungen werden durch die Wechselwirkung zwischen Luftdruck und Erdanziehung verursacht.",
+        "B: Die geologischen Strukturen der Erde sind verantwortlich für die Gezeitenverformungen.",
+        "C: Die Gravitationskraft des Mondes und der Sonne erzeugt unterschiedliche Anziehungskräfte auf verschiedene Teile der Erde.",
+        "D: Gezeitenverformungen entstehen ausschließlich durch die Rotation der Erde um ihre eigene Achse."
+      ],
+      "correct_answer": "C",
+      "explanation": "Gezeitenverformungen entstehen durch die unterschiedlich starken Gravitationskräfte, die der Mond und die Sonne auf die Erde ausüben. Diese Kräfte ziehen Wasser und die Erdkruste an, was zu den beobachtbaren Gezeiten führt.",
+      "difficulty": 7,
+      "subcategory": "Gezeitenverformung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Phasen der Kernmaterie",
+      "question": "Welche Phase der Kernmaterie zeichnet sich durch eine hohe Dichte und die Entstehung von ungepaarten Quarks aus?",
+      "choices": [
+        "A: Kernmaterie",
+        "B: Atomare Materie",
+        "C: Quark-Gluon-Plasma",
+        "D: Neutronensternmaterie"
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Quark-Gluon-Plasma ist eine Phase der Kernmaterie, in der Quarks und Gluonen, die normalerweise in Protonen und Neutronen gebunden sind, frei existieren. Dies geschieht unter extrem hohen Temperaturen und Energien, wie sie beispielsweise in den ersten Momenten nach dem Urknall oder in Teilchenbeschleunigern erreicht werden.",
+      "difficulty": 6,
+      "subcategory": "Phasen der Kernmaterie"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Hall-Effekt",
+      "question": "Was beschreibt der Hall-Effekt in einem elektrischen Leiter?",
+      "choices": [
+        "A: Die Bewegung von Elektronen in einem Vakuum.",
+        "B: Die Erzeugung einer Spannung quer zur Stromrichtung bei Vorhandensein eines Magnetfeldes.",
+        "C: Die Umwandlung elektrischer Energie in Wärmeenergie.",
+        "D: Die Erhöhung des elektrischen Widerstands bei Temperaturerhöhung."
+      ],
+      "correct_answer": "B",
+      "explanation": "Der Hall-Effekt tritt auf, wenn ein elektrischer Strom durch einen Leiter fließt, der sich in einem Magnetfeld befindet. Dies führt zur Erzeugung einer Spannung, die senkrecht zur Stromrichtung und zum Magnetfeld wirkt, was wichtige Anwendungen in der Messtechnik hat.",
+      "difficulty": 4,
+      "subcategory": "Hall-Effekt"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Freies Elektronengas",
+      "question": "Was beschreibt das Modell des freien Elektronengases in der Festkörperphysik?",
+      "choices": [
+        "A: Die Elektronen in einem Metall verhalten sich wie ideale, nicht wechselwirkende Teilchen.",
+        "B: Die Elektronen in einem Metall bewegen sich ausschließlich in einer festen Bahn.",
+        "C: Die Elektronen in einem Metall sind fest an bestimmte Gitterplätze gebunden.",
+        "D: Die Elektronen in einem Metall können nur in der Nähe der Atomkerne existieren."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Modell des freien Elektronengases geht davon aus, dass die Elektronen in einem Metall sich wie ideale, nicht wechselwirkende Teilchen verhalten. Dies ermöglicht das Verständnis von elektrischen und thermischen Eigenschaften von Metallen, da die Elektronen frei durch das Gitter bewegen können.",
+      "difficulty": 6,
+      "subcategory": "Freies Elektronengas"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Ionisations- & Penning-Vakuummeter",
+      "question": "Welches Prinzip liegt dem Ionisationsvakuummeter zugrunde?",
+      "choices": [
+        "A: Verdampfung von Flüssigkeiten",
+        "B: Änderung des Drucks bei Temperaturänderung",
+        "C: Reflexion von Lichtstrahlen",
+        "D: Ionisation von Gasen durch Elektronen"
+      ],
+      "correct_answer": "D",
+      "explanation": "Ionisationsvakuummeter messen den Druck, indem sie Gasmoleküle ionisieren und die entstandenen Ionen detektieren. Dies erfolgt durch Elektronen, die mit den Gasmolekülen kollidieren und sie ionisieren, was eine Messung des Vakuums ermöglicht.",
+      "difficulty": 2,
+      "subcategory": "Ionisations- & Penning-Vakuummeter"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Membranmanometer",
+      "question": "Welche Annahme ist für die korrekte Funktionsweise eines Membranmanometers entscheidend?",
+      "choices": [
+        "A: Der Dichteunterschied der Flüssigkeiten beeinflusst die Messung nicht.",
+        "B: Die Membran ist unelastisch.",
+        "C: Die Temperatur bleibt konstant während der Messung.",
+        "D: Der Druck auf beide Seiten der Membran ist gleich."
+      ],
+      "correct_answer": "C",
+      "explanation": "Für die korrekte Funktionsweise eines Membranmanometers ist es wichtig, dass die Temperatur konstant bleibt, da sich die Eigenschaften der verwendeten Flüssigkeiten und die Dichte mit der Temperatur ändern können. So wird sichergestellt, dass die Druckmessung präzise und wiederholbar ist.",
+      "difficulty": 9,
+      "subcategory": "Membranmanometer"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Idealer Paramagnet (Brillouin/Langevin-Idee)",
+      "question": "Was beschreibt das Verhalten eines idealen Paramagneten bei zunehmender Temperatur?",
+      "choices": [
+        "A: Die Magnetisierung fluktuiert ohne Trend.",
+        "B: Die Magnetisierung nimmt ab.",
+        "C: Die Magnetisierung bleibt konstant.",
+        "D: Die Magnetisierung nimmt zu."
+      ],
+      "correct_answer": "B",
+      "explanation": "Bei steigender Temperatur erzeugen thermische Bewegungen eine Zunahme der zufälligen Orientierung der magnetischen Momente, was zu einer Abnahme der netten Magnetisierung führt. Dies ist ein zentrales Konzept in der Thermodynamik und beschreibt das Verhalten idealer Paramagnete.",
+      "difficulty": 5,
+      "subcategory": "Idealer Paramagnet (Brillouin/Langevin-Idee)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Potentiale & Hauptsätze der Gleichgewichtsthermodynamik",
+      "question": "Welcher Hauptsatz der Thermodynamik beschreibt die Unmöglichkeit eines Prozesses, bei dem Wärme von einem kälteren zu einem wärmeren Körper übergeht, ohne dass Arbeit verrichtet wird?",
+      "choices": [
+        "A: Erster Hauptsatz",
+        "B: Zweiter Hauptsatz",
+        "C: Nullter Hauptsatz",
+        "D: Dritter Hauptsatz"
+      ],
+      "correct_answer": "B",
+      "explanation": "Der Zweite Hauptsatz der Thermodynamik besagt, dass Energie nicht spontan von einem kälteren auf einen wärmeren Körper übertragen werden kann. Dieser Satz ist fundamental für das Verständnis der Richtung von thermodynamischen Prozessen und der Entropie.",
+      "difficulty": 8,
+      "subcategory": "Potentiale & Hauptsätze der Gleichgewichtsthermodynamik"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Ultraschalldämpfung in Kristallen",
+      "question": "Welche der folgenden Aussagen beschreibt am besten den Effekt der Ultraschalldämpfung in Kristallen?",
+      "choices": [
+        "A: Ultraschalldämpfung tritt nur in amorphen Materialien und nicht in Kristallen auf.",
+        "B: Ultraschallwellen werden durch Defekte und Gitterfehler in Kristallen stark gedämpft.",
+        "C: Ultraschallwellen können in Kristallen ohne Verlust von Energie propagieren.",
+        "D: Ultraschall wird in Kristallen ausschließlich durch Temperaturänderungen beeinflusst."
+      ],
+      "correct_answer": "B",
+      "explanation": "Ultraschallwellen können in Kristallen durch verschiedene Faktoren wie Gitterfehler und Defekte gedämpft werden, was zu einem Verlust von Energie und damit zu einer Verringerung der Intensität führt. Diese Phänomene sind entscheidend für die Anwendung von Ultraschall in der Materialprüfung und der Akustik von Festkörpern.",
+      "difficulty": 6,
+      "subcategory": "Ultraschalldämpfung in Kristallen"
+    }
+  ]
+}

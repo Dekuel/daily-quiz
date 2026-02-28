@@ -1,0 +1,168 @@
+{
+  "date": "2026-02-28",
+  "generated_at": "2026-02-28T03:38:49Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Zustand und Gleichgewicht (makro/mikro)",
+      "question": "What does the term 'thermal equilibrium' describe in thermodynamics?",
+      "choices": [
+        "Which of the following statements best describes the cause of tidal deformations on Earth?",
+        "Tidal deformations arise from the varying gravitational forces exerted by the Moon and the Sun on Earth. These forces attract water and the Earth's crust, leading to the observable tides.",
+        "Which phase of nuclear matter is characterized by high density and the formation of unpaired quarks?",
+        "Quark-gluon plasma is a phase of nuclear matter in which quarks and gluons, normally bound in protons and neutrons, exist freely."
+      ],
+      "correct_answer": "D",
+      "explanation": "Thermal equilibrium describes a state in which two systems have reached the same temperature, resulting in no net heat flow between them. This is a central aspect of thermodynamics and important for understanding energy transfer processes.",
+      "difficulty": 5,
+      "subcategory": "Zustand und Gleichgewicht (makro/mikro)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Gezeitenverformung",
+      "question": "What does the Hall effect describe in an electrical conductor?",
+      "choices": [
+        "What does the model of free electron gas in solid-state physics describe?",
+        "The model of free electron gas assumes that electrons in a metal behave like ideal, non-interacting particles, allowing for the understanding of electrical and thermal properties of metals.",
+        "What principle underlies the operation of an ionization vacuum gauge?",
+        "Ionization vacuum gauges measure pressure by ionizing gas molecules and detecting the resulting ions."
+      ],
+      "correct_answer": "C",
+      "explanation": "The Hall effect occurs when an electric current flows through a conductor in a magnetic field, resulting in the generation of a voltage perpendicular to both the current direction and the magnetic field.",
+      "difficulty": 7,
+      "subcategory": "Gezeitenverformung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Phasen der Kernmaterie",
+      "question": "Which assumption is crucial for the correct functioning of a diaphragm manometer?",
+      "choices": [
+        "What describes the behavior of an ideal paramagnet with increasing temperature?",
+        "As temperature rises, thermal motions increase the random orientation of magnetic moments, leading to a decrease in net magnetization.",
+        "Which law of thermodynamics describes the impossibility of a process where heat transfers from a colder to a hotter body without work being done?",
+        "The Second Law of Thermodynamics states that energy cannot spontaneously transfer from a colder to a hotter body."
+      ],
+      "correct_answer": "C",
+      "explanation": "It is important for the temperature to remain constant during the measurement to ensure precise and repeatable pressure readings.",
+      "difficulty": 6,
+      "subcategory": "Phasen der Kernmaterie"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Hall-Effekt",
+      "question": "Which of the following statements best describes the effect of ultrasonic attenuation in crystals?",
+      "choices": [
+        "A: Die Bewegung von Elektronen in einem Vakuum.",
+        "B: Die Erzeugung einer Spannung quer zur Stromrichtung bei Vorhandensein eines Magnetfeldes.",
+        "C: Die Umwandlung elektrischer Energie in Wärmeenergie.",
+        "D: Die Erhöhung des elektrischen Widerstands bei Temperaturerhöhung."
+      ],
+      "correct_answer": "B",
+      "explanation": "Ultrasonic waves can be attenuated in crystals by factors such as lattice defects and imperfections, resulting in energy loss and a decrease in intensity.",
+      "difficulty": 4,
+      "subcategory": "Hall-Effekt"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Freies Elektronengas",
+      "question": "Was beschreibt das Modell des freien Elektronengases in der Festkörperphysik?",
+      "choices": [
+        "A: Die Elektronen in einem Metall verhalten sich wie ideale, nicht wechselwirkende Teilchen.",
+        "B: Die Elektronen in einem Metall bewegen sich ausschließlich in einer festen Bahn.",
+        "C: Die Elektronen in einem Metall sind fest an bestimmte Gitterplätze gebunden.",
+        "D: Die Elektronen in einem Metall können nur in der Nähe der Atomkerne existieren."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Modell des freien Elektronengases geht davon aus, dass die Elektronen in einem Metall sich wie ideale, nicht wechselwirkende Teilchen verhalten. Dies ermöglicht das Verständnis von elektrischen und thermischen Eigenschaften von Metallen, da die Elektronen frei durch das Gitter bewegen können.",
+      "difficulty": 6,
+      "subcategory": "Freies Elektronengas"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Ionisations- & Penning-Vakuummeter",
+      "question": "Welches Prinzip liegt dem Ionisationsvakuummeter zugrunde?",
+      "choices": [
+        "A: Verdampfung von Flüssigkeiten",
+        "B: Änderung des Drucks bei Temperaturänderung",
+        "C: Reflexion von Lichtstrahlen",
+        "D: Ionisation von Gasen durch Elektronen"
+      ],
+      "correct_answer": "D",
+      "explanation": "Ionisationsvakuummeter messen den Druck, indem sie Gasmoleküle ionisieren und die entstandenen Ionen detektieren. Dies erfolgt durch Elektronen, die mit den Gasmolekülen kollidieren und sie ionisieren, was eine Messung des Vakuums ermöglicht.",
+      "difficulty": 2,
+      "subcategory": "Ionisations- & Penning-Vakuummeter"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Membranmanometer",
+      "question": "Welche Annahme ist für die korrekte Funktionsweise eines Membranmanometers entscheidend?",
+      "choices": [
+        "A: Der Dichteunterschied der Flüssigkeiten beeinflusst die Messung nicht.",
+        "B: Die Membran ist unelastisch.",
+        "C: Die Temperatur bleibt konstant während der Messung.",
+        "D: Der Druck auf beide Seiten der Membran ist gleich."
+      ],
+      "correct_answer": "C",
+      "explanation": "Für die korrekte Funktionsweise eines Membranmanometers ist es wichtig, dass die Temperatur konstant bleibt, da sich die Eigenschaften der verwendeten Flüssigkeiten und die Dichte mit der Temperatur ändern können. So wird sichergestellt, dass die Druckmessung präzise und wiederholbar ist.",
+      "difficulty": 9,
+      "subcategory": "Membranmanometer"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Idealer Paramagnet (Brillouin/Langevin-Idee)",
+      "question": "Was beschreibt das Verhalten eines idealen Paramagneten bei zunehmender Temperatur?",
+      "choices": [
+        "A: Die Magnetisierung fluktuiert ohne Trend.",
+        "B: Die Magnetisierung nimmt ab.",
+        "C: Die Magnetisierung bleibt konstant.",
+        "D: Die Magnetisierung nimmt zu."
+      ],
+      "correct_answer": "B",
+      "explanation": "Bei steigender Temperatur erzeugen thermische Bewegungen eine Zunahme der zufälligen Orientierung der magnetischen Momente, was zu einer Abnahme der netten Magnetisierung führt. Dies ist ein zentrales Konzept in der Thermodynamik und beschreibt das Verhalten idealer Paramagnete.",
+      "difficulty": 5,
+      "subcategory": "Idealer Paramagnet (Brillouin/Langevin-Idee)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Potentiale & Hauptsätze der Gleichgewichtsthermodynamik",
+      "question": "Welcher Hauptsatz der Thermodynamik beschreibt die Unmöglichkeit eines Prozesses, bei dem Wärme von einem kälteren zu einem wärmeren Körper übergeht, ohne dass Arbeit verrichtet wird?",
+      "choices": [
+        "A: Erster Hauptsatz",
+        "B: Zweiter Hauptsatz",
+        "C: Nullter Hauptsatz",
+        "D: Dritter Hauptsatz"
+      ],
+      "correct_answer": "B",
+      "explanation": "Der Zweite Hauptsatz der Thermodynamik besagt, dass Energie nicht spontan von einem kälteren auf einen wärmeren Körper übertragen werden kann. Dieser Satz ist fundamental für das Verständnis der Richtung von thermodynamischen Prozessen und der Entropie.",
+      "difficulty": 8,
+      "subcategory": "Potentiale & Hauptsätze der Gleichgewichtsthermodynamik"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Ultraschalldämpfung in Kristallen",
+      "question": "Welche der folgenden Aussagen beschreibt am besten den Effekt der Ultraschalldämpfung in Kristallen?",
+      "choices": [
+        "A: Ultraschalldämpfung tritt nur in amorphen Materialien und nicht in Kristallen auf.",
+        "B: Ultraschallwellen werden durch Defekte und Gitterfehler in Kristallen stark gedämpft.",
+        "C: Ultraschallwellen können in Kristallen ohne Verlust von Energie propagieren.",
+        "D: Ultraschall wird in Kristallen ausschließlich durch Temperaturänderungen beeinflusst."
+      ],
+      "correct_answer": "B",
+      "explanation": "Ultraschallwellen können in Kristallen durch verschiedene Faktoren wie Gitterfehler und Defekte gedämpft werden, was zu einem Verlust von Energie und damit zu einer Verringerung der Intensität führt. Diese Phänomene sind entscheidend für die Anwendung von Ultraschall in der Materialprüfung und der Akustik von Festkörpern.",
+      "difficulty": 6,
+      "subcategory": "Ultraschalldämpfung in Kristallen"
+    }
+  ]
+}
