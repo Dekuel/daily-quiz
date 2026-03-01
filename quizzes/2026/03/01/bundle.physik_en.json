@@ -1,0 +1,168 @@
+{
+  "date": "2026-03-01",
+  "generated_at": "2026-03-01T03:54:32Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Kohlenstoff-Nanoröhren",
+      "question": "What are carbon nanotubes primarily composed of?",
+      "choices": [
+        "A: Aluminum",
+        "B: Carbon",
+        "C: Silicon",
+        "D: Iron"
+      ],
+      "correct_answer": "B",
+      "explanation": "Carbon nanotubes are primarily made up of carbon atoms arranged in a cylindrical structure. These unique materials have remarkable mechanical and electrical properties that make them particularly valuable in nanotechnology.",
+      "difficulty": 2,
+      "subcategory": "Kohlenstoff-Nanoröhren"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Zeitdilatation",
+      "question": "What describes the phenomenon of time dilation in the theory of relativity?",
+      "choices": [
+        "A: Time passes faster at high altitudes.",
+        "B: Time passes slower as an object moves faster.",
+        "C: Time always passes at the same rate regardless of speed.",
+        "D: Time cannot be influenced."
+      ],
+      "correct_answer": "B",
+      "explanation": "Time dilation states that time passes more slowly for a fast-moving object compared to a stationary observer. This concept is a central element of Einstein's special theory of relativity and has been confirmed by many experiments.",
+      "difficulty": 3,
+      "subcategory": "Zeitdilatation"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Wirkungs- und Winkelvariable (Action-Angle)",
+      "question": "Which of the following statements correctly describes the relationship between action and angle variables in analytical mechanics?",
+      "choices": [
+        "A: Both variables are independent of energy and define the dynamics of the system.",
+        "B: The action variable depends on the energy of the system and the angle variable describes the phase position.",
+        "C: The angle variable remains constant while the action variable changes with time.",
+        "D: The action variable is constant while the angle variable describes time."
+      ],
+      "correct_answer": "B",
+      "explanation": "In analytical mechanics, the action variable describes the total energy of a system, while the angle variable indicates the phase position in phase space. This relationship is crucial for understanding Hamiltonian systems and their temporal evolution.",
+      "difficulty": 8,
+      "subcategory": "Wirkungs- und Winkelvariable (Action-Angle)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Einfache Beispiele in Hamilton-Formulierung",
+      "question": "What does the Hamiltonian formulation of classical mechanics describe?",
+      "choices": [
+        "A: The relationship between energy and time.",
+        "B: Heat transfer between bodies.",
+        "C: Particle motion in an electric field.",
+        "D: The dynamic properties of a system using general coordinates and momenta."
+      ],
+      "correct_answer": "D",
+      "explanation": "The Hamiltonian formulation describes the dynamics of a system using general coordinates and their corresponding momenta, providing an alternative view to Newtonian mechanics. It is particularly useful for systems with many degrees of freedom and allows for an elegant formulation of the equations of motion.",
+      "difficulty": 4,
+      "subcategory": "Einfache Beispiele in Hamilton-Formulierung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Viskosität von Gasen",
+      "question": "How does temperature affect the viscosity of gases?",
+      "choices": [
+        "A: Viscosity decreases with increasing temperature.",
+        "B: Viscosity remains constant regardless of temperature.",
+        "C: Viscosity only varies with changes in pressure.",
+        "D: Viscosity increases with increasing temperature."
+      ],
+      "correct_answer": "A",
+      "explanation": "Viscosity of gases generally decreases with increasing temperature. This is because molecules have more kinetic energy at higher temperatures, moving faster and reducing friction between molecules.",
+      "difficulty": 9,
+      "subcategory": "Viskosität von Gasen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Ladungsunabhängigkeit der Kernkraft & Isospin",
+      "question": "Which statement about nuclear force and isospin is correct?",
+      "choices": [
+        "A: The strength of the nuclear force depends heavily on the charge of the nucleons.",
+        "B: The nuclear force acts independently of the electric charge of particles.",
+        "C: Isospin is only relevant for electrically charged particles.",
+        "D: Isospin is a concept used only in particle physics."
+      ],
+      "correct_answer": "B",
+      "explanation": "The nuclear force is actually charge-independent, meaning it acts equally between protons and neutrons. Isospin describes the symmetry of nuclear forces with respect to the different types of nucleons, independent of electric charge.",
+      "difficulty": 5,
+      "subcategory": "Ladungsunabhängigkeit der Kernkraft & Isospin"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Nukleon‑Nukleon‑Streuung",
+      "question": "What describes nucleon-nucleon scattering in nuclear physics?",
+      "choices": [
+        "A: Interaction between protons and neutrons within an atomic nucleus.",
+        "B: Decay processes of radioactive isotopes.",
+        "C: Emission of photons by an atomic nucleus.",
+        "D: Absorption of neutrons by an atomic nucleus."
+      ],
+      "correct_answer": "A",
+      "explanation": "Nucleon-nucleon scattering describes the interactions between protons and neutrons that are crucial for the stability of atomic nuclei. These interactions are complex and play a central role in nuclear physics.",
+      "difficulty": 6,
+      "subcategory": "Nukleon‑Nukleon‑Streuung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Diamagnetismus (atomar)",
+      "question": "What is a characteristic feature of diamagnetic materials at the atomic level?",
+      "choices": [
+        "A: They are always ferromagnetic.",
+        "B: They react strongly to external magnetic fields.",
+        "C: They have no unpaired electrons.",
+        "D: They have a high number of unpaired electrons."
+      ],
+      "correct_answer": "C",
+      "explanation": "Diamagnetic materials have no unpaired electrons at the atomic level, meaning they are not attracted to a magnetic field. Instead, they produce a weak, opposing magnetic field when exposed to an external magnetic field.",
+      "difficulty": 4,
+      "subcategory": "Diamagnetismus (atomar)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Phasen- und Gruppengeschwindigkeit",
+      "question": "What describes group velocity in a dispersive medium?",
+      "choices": [
+        "A: The speed at which energy or information is transmitted through the medium.",
+        "B: The speed of individual frequencies of a wave.",
+        "C: The speed at which light rays move in a vacuum.",
+        "D: The speed at which the phase of a wave propagates."
+      ],
+      "correct_answer": "A",
+      "explanation": "Group velocity is the speed at which the amplitude or energy of a wave packet propagates. In a dispersive medium, the group velocity can differ from the phase velocity, leading to interesting effects.",
+      "difficulty": 7,
+      "subcategory": "Phasen- und Gruppengeschwindigkeit"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Energietransport in Wellenfeldern (Poynting-Vektor)",
+      "question": "What does the Poynting vector describe in electrodynamics?",
+      "choices": [
+        "A: The direction and strength of energy transport in electromagnetic waves.",
+        "B: The force acting on a moving charge in a magnetic field.",
+        "C: The voltage in an electrical circuit.",
+        "D: The speed of electric charges in a conductor."
+      ],
+      "correct_answer": "A",
+      "explanation": "The Poynting vector indicates the direction and intensity of energy transport in an electromagnetic field. It is a central concept in describing the interactions between electric and magnetic fields in waves.",
+      "difficulty": 1,
+      "subcategory": "Energietransport in Wellenfeldern (Poynting-Vektor)"
+    }
+  ]
+}
