@@ -1,0 +1,168 @@
+{
+  "date": "2026-03-02",
+  "generated_at": "2026-03-02T03:50:38Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Klassischer Grenzfall & Quantenkorrekturen (Virial)",
+      "question": "What does the virial theorem describe in statistical mechanics in the classical limit?",
+      "choices": [
+        "A: The entropy of a system in thermal equilibrium.",
+        "B: The relationship between the average pressure and the kinetic energy of a system.",
+        "C: The interactions between particles in a quantum mechanical system.",
+        "D: The relationship between temperature and the wavelength of light."
+      ],
+      "correct_answer": "B",
+      "explanation": "The virial theorem shows that in the classical limit, the pressure of a gas is proportional to the kinetic energy of the particles. It is an important relationship used in statistical mechanics to describe systems.",
+      "difficulty": 4,
+      "subcategory": "Klassischer Grenzfall & Quantenkorrekturen (Virial)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Virialentwicklung & 2. Virialkoeffizient (klass./quant.)",
+      "question": "What does the second virial coefficient describe in statistical mechanics?",
+      "choices": [
+        "A: The number of particles in a specific volume.",
+        "B: The temperature dependence of the pressure of a gas.",
+        "C: The interactions between two particles in the gas.",
+        "D: The kinetic energy of a single particle."
+      ],
+      "correct_answer": "C",
+      "explanation": "The second virial coefficient is a measure of the interactions between particles in a gas and influences the behavior of the gas at different temperatures and pressures. It helps to understand the influence of intermolecular forces on the thermodynamic properties.",
+      "difficulty": 3,
+      "subcategory": "Virialentwicklung & 2. Virialkoeffizient (klass./quant.)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Sommerfeldsche Theorie",
+      "question": "What does the Sommerfeld theory describe in solid-state physics?",
+      "choices": [
+        "A: The movement of gas particles.",
+        "B: The properties of liquids.",
+        "C: The electronic structure of metals.",
+        "D: The heat conduction in insulators."
+      ],
+      "correct_answer": "C",
+      "explanation": "The Sommerfeld theory is a model for describing the electronic structure of metals, examining the band structure and properties of electrons in a solid. It combines classical and quantum mechanical concepts and explains phenomena such as electrical conductivity and specific heat of metals.",
+      "difficulty": 1,
+      "subcategory": "Sommerfeldsche Theorie"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Natürliche Zustandsvariablen (U, H, F, G)",
+      "question": "Which of the following quantities represents the internal energy of a system?",
+      "choices": [
+        "A: F",
+        "B: U",
+        "C: H",
+        "D: G"
+      ],
+      "correct_answer": "B",
+      "explanation": "The internal energy (U) is a central state variable in thermodynamics that encompasses the total energy of a system. The other quantities represent specific thermodynamic potentials used in different contexts.",
+      "difficulty": 4,
+      "subcategory": "Natürliche Zustandsvariablen (U, H, F, G)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Strukturfunktionen (F1, F2,…)",
+      "question": "Which of the following statements correctly describes the significance of the structure functions F1 and F2 in deep inelastic scattering?",
+      "choices": [
+        "A: F1 describes the distribution of quarks in a proton, while F2 describes the total charge and spin of the proton.",
+        "B: F1 describes the contribution of quarks to the electromagnetic interaction, while F2 represents the contribution density of gluons.",
+        "C: F1 and F2 are identical and only indicate the number of particles in a proton.",
+        "D: F1 is the structure function for protons, while F2 is the structure function for neutrons."
+      ],
+      "correct_answer": "B",
+      "explanation": "The structure functions F1 and F2 are crucial for understanding the internal structure of hadrons in deep inelastic scattering. F1 refers to the contribution of quarks to the electromagnetic interaction, while F2 describes the distribution of gluons and the dynamics of these interactions.",
+      "difficulty": 9,
+      "subcategory": "Strukturfunktionen (F1, F2,…)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Feldverhalten an Grenzflächen",
+      "question": "What happens to an electric field when it encounters the interface between two different materials?",
+      "choices": [
+        "A: The electric field is evenly distributed in both materials.",
+        "B: The electric field is partially reflected and partially transmitted.",
+        "C: The electric field loses its strength and is neutralized.",
+        "D: The electric field is completely reflected at the interface."
+      ],
+      "correct_answer": "B",
+      "explanation": "At the interface between two materials, part of the electric field is reflected while the other part penetrates into the second material. This leads to different field strengths in the materials depending on their properties.",
+      "difficulty": 2,
+      "subcategory": "Feldverhalten an Grenzflächen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Ferri- & Antiferromagnetismus (Überblick)",
+      "question": "What is a characteristic feature of antiferromagnetism?",
+      "choices": [
+        "A: The material exhibits magnetic properties only at high temperatures.",
+        "B: Antiferromagnetic materials are always electrically conductive.",
+        "C: The spins of the electrons are aligned in parallel.",
+        "D: The spins of the electrons are aligned antiparallel."
+      ],
+      "correct_answer": "D",
+      "explanation": "Antiferromagnetism is characterized by the antiparallel alignment of electron spins, resulting in a total magnetization of zero. This is in contrast to ferromagnetism, where spins are aligned in parallel.",
+      "difficulty": 4,
+      "subcategory": "Ferri- & Antiferromagnetismus (Überblick)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Feldstärke-Tensor (Fμν)",
+      "question": "What does the field strength tensor Fμν describe in relativity theory?",
+      "choices": [
+        "A: The structure of spacetime.",
+        "B: The speed of light in different media.",
+        "C: The mass of a body in a gravitational field.",
+        "D: The interaction of electric and magnetic fields."
+      ],
+      "correct_answer": "D",
+      "explanation": "The field strength tensor Fμν describes the electromagnetic fields in relativity theory, unifying electric and magnetic fields in a coherent framework. It is an important component of the Maxwell equations in relativistic form.",
+      "difficulty": 6,
+      "subcategory": "Feldstärke-Tensor (Fμν)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Born’sche Reihe",
+      "question": "Which statement about the Born series is correct?",
+      "choices": [
+        "A: The Born series is used to calculate the amplitudes of scattering processes in quantum mechanics.",
+        "B: In the Born series, only the first two terms are considered to approximate quantum mechanics.",
+        "C: The Born series is only applicable to classical mechanical systems.",
+        "D: The Born series describes the evolution of a quantum mechanical system over time."
+      ],
+      "correct_answer": "A",
+      "explanation": "The Born series is a method in quantum mechanics used to calculate the amplitudes of scattering processes, especially in the theory of small perturbations. It allows for analyzing the interaction of a quantum mechanical system with an external potential by representing the scattering amplitudes in a series.",
+      "difficulty": 8,
+      "subcategory": "Born’sche Reihe"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Impulsraum-Darstellung der Wellenfunktion",
+      "question": "Which statement correctly describes the momentum space representation of a wave function?",
+      "choices": [
+        "A: The momentum space is identical to the position space.",
+        "B: The wave function is represented in momentum space as a function of momentum.",
+        "C: The momentum space representation is irrelevant for quantum mechanics.",
+        "D: The wave function can only be represented in position space."
+      ],
+      "correct_answer": "B",
+      "explanation": "In quantum mechanics, the wave function can be represented in both position space and momentum space. The momentum space representation shows how the wave function looks in relation to the particle's momentum, which is crucial for many physical problems.",
+      "difficulty": 5,
+      "subcategory": "Impulsraum-Darstellung der Wellenfunktion"
+    }
+  ]
+}

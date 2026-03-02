@@ -1,0 +1,169 @@
+{
+  "date": "2026-03-02",
+  "generated_at": "2026-03-02T03:50:01Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Klassischer Grenzfall & Quantenkorrekturen (Virial)",
+      "question": "Was beschreibt das Virialgesetz in der statistischen Mechanik im klassischen Grenzfall?",
+      "choices": [
+        "A: Die Entropie eines Systems in thermischem Gleichgewicht.",
+        "B: Der Zusammenhang zwischen dem durchschnittlichen Druck und der kinetischen Energie eines Systems.",
+        "C: Die Wechselwirkungen zwischen Teilchen in einem quantenmechanischen System.",
+        "D: Die Beziehung zwischen der Temperatur und der Wellenlänge von Licht."
+      ],
+      "correct_answer": "B",
+      "explanation": "Das Virialgesetz zeigt, dass im klassischen Grenzfall der Druck eines Gases proportional zur kinetischen Energie der Teilchen ist. Es ist eine wichtige Beziehung, die in der statistischen Mechanik zur Beschreibung von Systemen verwendet wird.",
+      "difficulty": 4,
+      "subcategory": "Klassischer Grenzfall & Quantenkorrekturen (Virial)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Virialentwicklung & 2. Virialkoeffizient (klass./quant.)",
+      "question": "Was beschreibt der zweite Virialkoeffizient in der statistischen Mechanik?",
+      "choices": [
+        "A: Die Anzahl der Teilchen in einem bestimmten Volumen.",
+        "B: Die Temperaturabhängigkeit des Druckes eines Gases.",
+        "C: Die Wechselwirkungen zwischen zwei Teilchen im Gas.",
+        "D: Die kinetische Energie eines einzelnen Teilchens."
+      ],
+      "correct_answer": "C",
+      "explanation": "Der zweite Virialkoeffizient ist ein Maß für die Wechselwirkungen zwischen Teilchen in einem Gas und beeinflusst das Verhalten des Gases bei verschiedenen Temperaturen und Drücken. Er hilft, den Einfluss der intermolekularen Kräfte auf die thermodynamischen Eigenschaften zu verstehen.",
+      "difficulty": 3,
+      "subcategory": "Virialentwicklung & 2. Virialkoeffizient (klass./quant.)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Sommerfeldsche Theorie",
+      "question": "Was beschreibt die sommerfeldsche Theorie in der Festkörperphysik?",
+      "choices": [
+        "A: Die Bewegung von Gaspartikeln.",
+        "B: Die Eigenschaften von Flüssigkeiten.",
+        "C: Die elektronische Struktur von Metallen.",
+        "D: Die Wärmeleitung in Isolatoren."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die sommerfeldsche Theorie ist ein Modell zur Beschreibung der elektronischen Struktur von Metallen, das die Bandstruktur und die Eigenschaften von Elektronen in einem Festkörper untersucht. Es verbindet klassische und quantenmechanische Konzepte und erklärt Phänomene wie elektrische Leitfähigkeit und spezifische Wärme von Metallen.",
+      "difficulty": 1,
+      "subcategory": "Sommerfeldsche Theorie"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Natürliche Zustandsvariablen (U, H, F, G)",
+      "question": "Welche der folgenden Größen stellt die innere Energie eines Systems dar?",
+      "choices": [
+        "A: F",
+        "B: U",
+        "C: H",
+        "D: G"
+      ],
+      "correct_answer": "B",
+      "explanation": "Die innere Energie (U) ist eine zentrale Zustandsgröße in der Thermodynamik, die die gesamte Energie eines Systems umfasst. Die anderen Größen repräsentieren spezifische thermodynamische Potentiale, die in verschiedenen Kontexten verwendet werden.",
+      "difficulty": 4,
+      "subcategory": "Natürliche Zustandsvariablen (U, H, F, G)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Strukturfunktionen (F1, F2,…)",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt die Bedeutung der Strukturfunktionen F1 und F2 in der tiefinelastischen Streuung?",
+      "choices": [
+        "A: F1 beschreibt die Verteilung der Quarks in einem Proton, während F2 die Gesamtladung und Spin des Protons beschreibt.",
+        "B: F1 beschreibt den Beitrag der Quarks zur elektromagnetischen Wechselwirkung, während F2 die Beitragsdichte der Gluonen darstellt.",
+        "C: F1 und F2 sind beide identisch und geben nur die Anzahl der Teilchen in einem Proton an.",
+        "D: F1 ist die Strukturfunktion für die Protonen, während F2 die Strukturfunktion für Neutronen ist."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Strukturfunktionen F1 und F2 sind entscheidend für das Verständnis der inneren Struktur von Hadronen bei tiefinelastischer Streuung. F1 bezieht sich auf den Beitrag der Quarks zur elektromagnetischen Wechselwirkung, während F2 die Verteilung der Gluonen und die Dynamik dieser Wechselwirkungen beschreibt.",
+      "difficulty": 9,
+      "subcategory": "Strukturfunktionen (F1, F2,…)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Feldverhalten an Grenzflächen",
+      "question": "Was passiert mit einem elektrischen Feld, wenn es an die Grenzfläche zwischen zwei unterschiedlichen Materialien trifft?",
+      "choices": [
+        "A: Das elektrische Feld wird in beide Materialien gleichmäßig verteilt.",
+        "B: Das elektrische Feld wird teilweise reflektiert und teilweise durchgelassen.",
+        "C: Das elektrische Feld verliert seine Stärke und wird neutralisiert.",
+        "D: Das elektrische Feld wird an der Grenzfläche vollständig reflektiert."
+      ],
+      "correct_answer": "B",
+      "explanation": "An der Grenzfläche zwischen zwei Materialien wird ein Teil des elektrischen Feldes reflektiert, während der andere Teil in das zweite Material eindringt. Dies führt zu unterschiedlichen Feldstärken in den Materialien, abhängig von deren Eigenschaften.",
+      "difficulty": 2,
+      "subcategory": "Feldverhalten an Grenzflächen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Ferri- & Antiferromagnetismus (Überblick)",
+      "question": "Was ist ein charakteristisches Merkmal von Antiferromagnetismus?",
+      "choices": [
+        "A: Das Material zeigt magnetische Eigenschaften nur bei hohen Temperaturen.",
+        "B: Antiferromagnetische Materialien sind immer elektrisch leitend.",
+        "C: Die Spins der Elektronen sind parallel ausgerichtet.",
+        "D: Die Spins der Elektronen sind antiparallel ausgerichtet."
+      ],
+      "correct_answer": "D",
+      "explanation": "Antiferromagnetismus zeichnet sich durch die antiparallele Ausrichtung der Spins der Elektronen aus, was zu einer Gesamtmagnetisierung von null führt. Dies steht im Gegensatz zum Ferromagnetismus, wo die Spins parallel ausgerichtet sind.",
+      "difficulty": 4,
+      "subcategory": "Ferri- & Antiferromagnetismus (Überblick)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Feldstärke-Tensor (Fμν)",
+      "question": "Was beschreibt der Feldstärke-Tensor Fμν in der Relativitätstheorie?",
+      "choices": [
+        "A: Die Struktur der Raum-Zeit.",
+        "B: Die Geschwindigkeit von Licht in verschiedenen Medien.",
+        "C: Die Masse eines Körpers im Gravitationsfeld.",
+        "D: Die Wechselwirkung von elektrischen und magnetischen Feldern."
+      ],
+      "correct_answer": "D",
+      "explanation": "Der Feldstärke-Tensor Fμν beschreibt die elektromagnetischen Felder in der Relativitätstheorie und vereint elektrische und magnetische Felder in einem einheitlichen Rahmen. Er ist ein wichtiger Bestandteil der Maxwell-Gleichungen in relativistischer Form.",
+      "difficulty": 6,
+      "subcategory": "Feldstärke-Tensor (Fμν)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Born’sche Reihe",
+      "question": "Welche Aussage zur Born’schen Reihe ist korrekt?",
+      "choices": [
+        "A: Die Born’sche Reihe wird verwendet, um die Amplituden von Streuprozessen in der Quantenmechanik zu berechnen.",
+        "B: In der Born’schen Reihe werden nur die ersten beiden Terme berücksichtigt, um die Quantenmechanik zu approximieren.",
+        "C: Die Born’sche Reihe ist nur für klassische mechanische Systeme anwendbar.",
+        "D: Die Born’sche Reihe beschreibt die Entwicklung eines quantenmechanischen Systems über die Zeit."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Born’sche Reihe ist eine Methode in der Quantenmechanik, die verwendet wird, um die Amplituden von Streuprozessen zu berechnen, insbesondere in der Theorie der kleinen Störungen. Sie ermöglicht es, die Wechselwirkung eines quantenmechanischen Systems mit einem externen Potential zu analysieren, indem man die Streuamplituden in einer Reihe darstellt.",
+      "difficulty": 8,
+      "subcategory": "Born’sche Reihe"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Impulsraum-Darstellung der Wellenfunktion",
+      "question": "Welche Aussage beschreibt korrekt die Impulsraum-Darstellung einer Wellenfunktion?",
+      "choices": [
+        "A: Der Impulsraum ist identisch mit dem Ortsraum.",
+        "B: Die Wellenfunktion wird im Impulsraum als Funktion des Impulses dargestellt.",
+        "C: Die Impulsraum-Darstellung ist irrelevant für die Quantenmechanik.",
+        "D: Die Wellenfunktion kann nur im Ortsraum dargestellt werden."
+      ],
+      "correct_answer": "B",
+      "explanation": "In der Quantenmechanik kann die Wellenfunktion sowohl im Ortsraum als auch im Impulsraum dargestellt werden. Die Impulsraum-Darstellung zeigt, wie die Wellenfunktion in Bezug auf den Impuls des Teilchens aussieht, was für viele physikalische Probleme von großer Bedeutung ist.",
+      "difficulty": 5,
+      "subcategory": "Impulsraum-Darstellung der Wellenfunktion"
+    }
+  ]
+}
