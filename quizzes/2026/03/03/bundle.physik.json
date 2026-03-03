@@ -1,0 +1,169 @@
+{
+  "date": "2026-03-03",
+  "generated_at": "2026-03-03T03:50:11Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Arbeit in der Thermodynamik (p dV, generalisiert)",
+      "question": "Was beschreibt die Arbeit, die bei einer isothermen Expansion eines idealen Gases verrichtet wird?",
+      "choices": [
+        "A: Die Arbeit ist unabhängig von der Temperatur des Gases.",
+        "B: Die Arbeit ist gleich dem Produkt aus Druck und dem Differential der Volumenänderung (p dV).",
+        "C: Die Arbeit ist immer positiv, unabhängig von der Richtung der Expansion.",
+        "D: Die Arbeit hängt nur von der Anfangs- und Endtemperatur ab."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Arbeit, die bei einer isothermen Expansion eines idealen Gases verrichtet wird, kann durch die Formel W = ∫ p dV dargestellt werden. Dabei beschreibt p den Druck und dV die infinitesimale Volumenänderung. Diese Beziehung ist zentral für das Verständnis der Thermodynamik und der Arbeit, die Gase leisten können.",
+      "difficulty": 5,
+      "subcategory": "Arbeit in der Thermodynamik (p dV, generalisiert)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Mott‑Wirkungsquerschnitt",
+      "question": "Was beschreibt der Mott-Wirkungsquerschnitt in der Teilchenphysik?",
+      "choices": [
+        "A: Die Wahrscheinlichkeit, dass ein Teilchen mit einem Elektron wechselwirkt.",
+        "B: Die Energie, die bei einer Teilchenstrahlung freigesetzt wird.",
+        "C: Die Masse eines Teilchens bei der Teilchenzerfall.",
+        "D: Die Geschwindigkeit eines Teilchens bei der Kollision."
+      ],
+      "correct_answer": "A",
+      "explanation": "Der Mott-Wirkungsquerschnitt beschreibt die Wechselwirkung zwischen einem geladenen Teilchen und einem Elektron. Er ist ein Maß für die Wahrscheinlichkeit, dass diese Wechselwirkung stattfindet und spielt eine wichtige Rolle in der Kern- und Teilchenphysik.",
+      "difficulty": 2,
+      "subcategory": "Mott‑Wirkungsquerschnitt"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Auftrieb & Schwimmen",
+      "question": "Was bewirkt, dass ein Schiff auf dem Wasser schwimmt?",
+      "choices": [
+        "A: Der Auftrieb ist größer als das Gewicht des Schiffes.",
+        "B: Das Gewicht des Schiffes ist größer als der Wasserwiderstand.",
+        "C: Der Wasserstand ist höher als der Kanten des Schiffes.",
+        "D: Das Schiff hat einen speziellen Anstrich, der es schwimmfähig macht."
+      ],
+      "correct_answer": "A",
+      "explanation": "Ein Schiff schwimmt, weil der Auftrieb, der durch das verdrängte Wasser erzeugt wird, größer ist als das Gewicht des Schiffes. Dies ist ein grundlegendes Prinzip der Hydrostatik, das erklärt, warum Objekte auf Flüssigkeiten schwimmen oder sinken.",
+      "difficulty": 1,
+      "subcategory": "Auftrieb & Schwimmen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Absolute thermodynamische Temperaturskala",
+      "question": "Welche der folgenden Aussagen beschreibt die absolute thermodynamische Temperaturskala korrekt?",
+      "choices": [
+        "A: Die absolute thermodynamische Temperaturskala misst Temperaturen relativ zur Umgebungstemperatur.",
+        "B: Der Nullpunkt dieser Skala entspricht dem absoluten Nullpunkt, bei dem die Teilchenbewegung aufhört.",
+        "C: Diese Skala ist identisch mit der Fahrenheit-Skala, verwendet aber andere Einheiten.",
+        "D: Die absolute Temperaturskala basiert auf der Celsius-Skala und hat den Gefrierpunkt von Wasser als Nullpunkt."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die absolute thermodynamische Temperaturskala, auch als Kelvin-Skala bekannt, hat ihren Nullpunkt bei 0 Kelvin, was dem absoluten Nullpunkt entspricht. An diesem Punkt haben Teilchen ihre minimale kinetische Energie und die Bewegung hört auf.",
+      "difficulty": 6,
+      "subcategory": "Absolute thermodynamische Temperaturskala"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Elektrostatische Feldenergie",
+      "question": "Welche Aussage zur elektrostatischen Feldenergie ist korrekt?",
+      "choices": [
+        "A: Die elektrostatische Feldenergie ist unabhängig von der Geometrie des Systems.",
+        "B: Die elektrostatische Feldenergie hängt von der Position der Ladungen ab.",
+        "C: Die elektrostatische Feldenergie kann negativ sein, wenn sich zwei gleichnamige Ladungen anziehen.",
+        "D: Die elektrostatische Feldenergie ist immer positiv."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die elektrostatische Feldenergie hängt tatsächlich von der Position der Ladungen ab, da sie durch die Abstände zwischen den Ladungen bestimmt wird. Insbesondere ändert sich die Energie, wenn sich die Ladungen bewegen oder ihre Anordnung ändern.",
+      "difficulty": 5,
+      "subcategory": "Elektrostatische Feldenergie"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Thermodynamische Prozesse (Begriffe)",
+      "question": "Welche der folgenden Aussagen beschreibt am besten den Begriff 'Isothermer Prozess' in der Thermodynamik?",
+      "choices": [
+        "A: Ein Prozess, bei dem die Temperatur konstant bleibt.",
+        "B: Ein Prozess, bei dem der Druck konstant bleibt.",
+        "C: Ein Prozess, bei dem keine Wärmeübertragung stattfindet.",
+        "D: Ein Prozess, bei dem das Volumen konstant bleibt."
+      ],
+      "correct_answer": "A",
+      "explanation": "Ein isothermer Prozess ist definiert durch die Tatsache, dass die Temperatur des Systems während des gesamten Prozesses konstant bleibt. Dies bedeutet, dass alle Änderungen im System durch Wärmeübertragung kompensiert werden, um die Temperatur stabil zu halten.",
+      "difficulty": 9,
+      "subcategory": "Thermodynamische Prozesse (Begriffe)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Relativistische Elektrodynamik – Zusammenfassung der Formeln",
+      "question": "Welche Formel beschreibt die relativistische Änderung der Masse in Abhängigkeit von der Geschwindigkeit?",
+      "choices": [
+        "A: p = mv",
+        "B: m = m0 / √(1 - v²/c²)",
+        "C: E = mc²",
+        "D: F = ma"
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Formel m = m0 / √(1 - v²/c²) beschreibt, wie die relativistische Masse m eines Körpers von seiner Ruhemasse m0 abhängt, wenn sich der Körper mit einer Geschwindigkeit v relativ zu einem Beobachter bewegt. Diese Beziehung ist ein zentrales Ergebnis der relativistischen Elektrodynamik und zeigt, dass die Masse mit steigender Geschwindigkeit zunimmt.",
+      "difficulty": 6,
+      "subcategory": "Relativistische Elektrodynamik – Zusammenfassung der Formeln"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Laminar: parallele Wände",
+      "question": "Welcher Effekt beschreibt das Verhalten eines viskosen Fluids, das zwischen zwei parallelen Wänden strömt?",
+      "choices": [
+        "A: Laminare Strömung",
+        "B: Turbulente Strömung",
+        "C: Impulsübertragung",
+        "D: Thermische Leitung"
+      ],
+      "correct_answer": "A",
+      "explanation": "Die laminare Strömung beschreibt den geordneten Fluss eines Fluids, bei dem die Teilchen in parallelen Schichten bewegen. Dieser Zustand tritt auf, wenn die Viskosität des Fluids hoch genug ist und die Strömungsgeschwindigkeit niedrig ist, was zu einem gleichmäßigen und ruhigen Fluss führt.",
+      "difficulty": 5,
+      "subcategory": "Laminar: parallele Wände"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Übergangswahrscheinlichkeit",
+      "question": "Welche der folgenden Aussagen beschreibt die Übergangswahrscheinlichkeit eines quantenmechanischen Systems am besten?",
+      "choices": [
+        "A: Die Übergangswahrscheinlichkeit hängt ausschließlich von der Temperatur des Systems ab.",
+        "B: Die Übergangswahrscheinlichkeit ist unabhängig von der Zeit.",
+        "C: Die Übergangswahrscheinlichkeit ist proportional zum Quadrat der Matrixelemente des Hamiltonoperators.",
+        "D: Die Übergangswahrscheinlichkeit ist konstant für alle quantenmechanischen Übergänge."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Übergangswahrscheinlichkeit zwischen zwei quantenmechanischen Zuständen ist tatsächlich proportional zum Quadrat des Matrixelements des Hamiltonoperators, was bedeutet, dass die Wechselwirkung zwischen diesen Zuständen entscheidend ist. Die anderen Aussagen sind ungenau oder falsch, da sie nicht die relevanten Faktoren wie Interaktion oder Zeit berücksichtigen.",
+      "difficulty": 7,
+      "subcategory": "Übergangswahrscheinlichkeit"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Dritter Hauptsatz (Nernstsches Theorem): Konsequenzen",
+      "question": "Welche Konsequenz des Nernstschen Theorems beschreibt den Zusammenhang zwischen der Entropie und der Temperatur eines Systems bei annähernd 0 Kelvin?",
+      "choices": [
+        "A: Die Entropie eines idealen Gases bleibt konstant bei allen Temperaturen.",
+        "B: Die Entropie eines perfekten Kristalls nähert sich bei 0 Kelvin dem Wert Null an.",
+        "C: Die Temperatur eines Systems kann nie unter 0 Kelvin fallen.",
+        "D: Die Entropie eines Systems nimmt immer mit steigender Temperatur zu."
+      ],
+      "correct_answer": "B",
+      "explanation": "Der dritte Hauptsatz der Thermodynamik besagt, dass die Entropie eines perfekten Kristalls bei 0 Kelvin den Wert Null erreicht. Dies hat wichtige Implikationen für die Thermodynamik und statistische Mechanik, insbesondere in Bezug auf die Ordnung und Unordnung in einem System.",
+      "difficulty": 6,
+      "subcategory": "Dritter Hauptsatz (Nernstsches Theorem): Konsequenzen"
+    }
+  ]
+}
