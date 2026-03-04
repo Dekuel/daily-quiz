@@ -1,0 +1,169 @@
+{
+  "date": "2026-03-04",
+  "generated_at": "2026-03-04T03:48:39Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Ladungsträgerdichte (intrinsisch)",
+      "question": "Was beschreibt die intrinsische Ladungsträgerdichte in einem Halbleiter?",
+      "choices": [
+        "A: Die Temperatur, bei der ein Halbleiter zum Isolator wird.",
+        "B: Die maximale Energie, die ein Elektron in einem Halbleiter erreichen kann.",
+        "C: Die Fähigkeit eines Materials, elektrischen Strom zu leiten.",
+        "D: Die Anzahl der Elektronen und Löcher pro Volumeneinheit im Gleichgewichtszustand."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die intrinsische Ladungsträgerdichte beschreibt die Anzahl der Elektronen und Löcher in einem Halbleiter im Gleichgewichtszustand. Diese Dichte ist temperaturabhängig und entscheidend für die elektrischen Eigenschaften des Materials.",
+      "difficulty": 5,
+      "subcategory": "Ladungsträgerdichte (intrinsisch)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Langevin-Gleichungen (frei & mit Kraftfeld)",
+      "question": "Welche Aussage über die Langevin-Gleichung für ein Teilchen in einem Kraftfeld ist korrekt?",
+      "choices": [
+        "A: In der Langevin-Gleichung wird das Teilchen als nicht in Wechselwirkung mit anderen Teilchen betrachtet.",
+        "B: Die Störkraft in der Langevin-Gleichung ist unabhängig von der Temperatur des Systems.",
+        "C: Die Langevin-Gleichung beinhaltet sowohl deterministische als auch stochastische Terme und beschreibt die thermische Bewegung.",
+        "D: Die Langevin-Gleichung beschreibt die Bewegung eines Teilchens als deterministischen Prozess ohne Zufallseinflüsse."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Langevin-Gleichung kombiniert deterministische Bewegung durch ein Kraftfeld mit stochastischen Termen, die die thermische Bewegung und die Wechselwirkung mit der Umgebung berücksichtigen. Dies macht sie zu einem zentralen Werkzeug in der statistischen Mechanik zur Beschreibung von Diffusionsprozessen.",
+      "difficulty": 9,
+      "subcategory": "Langevin-Gleichungen (frei & mit Kraftfeld)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Erreichbarer Enddruck",
+      "question": "Was beschreibt der erreichbare Enddruck in einem geschlossenen System?",
+      "choices": [
+        "A: Den maximalen Druck, der durch eine bestimmte Menge Gas erreicht werden kann.",
+        "B: Den Druck, der immer konstant bleibt.",
+        "C: Den Druck, der nur durch Temperaturänderungen beeinflusst wird.",
+        "D: Den Druck, der unabhängig von der Gasart ist."
+      ],
+      "correct_answer": "A",
+      "explanation": "Der erreichbare Enddruck ist der maximale Druck, den ein Gas in einem geschlossenen System erreichen kann, abhängig von der Menge des Gases und der Temperatur. Er wird durch das ideale Gasgesetz beschrieben und ist wichtig für das Verständnis von thermodynamischen Prozessen.",
+      "difficulty": 2,
+      "subcategory": "Erreichbarer Enddruck"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Wellenausbreitung in Leitern",
+      "question": "Welche Aussage trifft auf die Wellenausbreitung in elektrischen Leitern zu?",
+      "choices": [
+        "A: Die Ausbreitungsgeschwindigkeit ist unabhängig von der Frequenz des Signals.",
+        "B: Nur Gleichströme können in Leitern wellenförmig propagiert werden.",
+        "C: Die Dämpfung der Welle nimmt mit zunehmender Frequenz zu.",
+        "D: Die Wellen breiten sich mit Lichtgeschwindigkeit aus."
+      ],
+      "correct_answer": "C",
+      "explanation": "In elektrischen Leitern nimmt die Dämpfung bei höheren Frequenzen zu, was bedeutet, dass hochfrequente Signale stärker abgeschwächt werden als niederfrequente. Dies ist wichtig für die Übertragung von Signalen in Kommunikationssystemen.",
+      "difficulty": 6,
+      "subcategory": "Wellenausbreitung in Leitern"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Reflexionsvermögen absorbierender Medien",
+      "question": "Welches der folgenden Medien hat das höchste Reflexionsvermögen?",
+      "choices": [
+        "A: Ein Spiegel",
+        "B: Ein schwarzes Tuch",
+        "C: Ein mattschwarzes Papier",
+        "D: Ein transparentes Glas"
+      ],
+      "correct_answer": "A",
+      "explanation": "Ein Spiegel ist speziell dafür konstruiert, Licht zu reflektieren und hat daher ein sehr hohes Reflexionsvermögen. Im Gegensatz dazu absorbieren die anderen genannten Medien Licht und reflektieren nur einen geringen Teil davon.",
+      "difficulty": 5,
+      "subcategory": "Reflexionsvermögen absorbierender Medien"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Harmonischer Oszillator: Erzeugungs-/Vernichtungsoperator",
+      "question": "Was bewirkt der Vernichtungsoperator a in einem harmonischen Oszillator?",
+      "choices": [
+        "A: Er reduziert die Anzahl der Teilchen um eins.",
+        "B: Er erhöht die Energie des Systems.",
+        "C: Er hat keinen Einfluss auf das System.",
+        "D: Er verändert die Frequenz des Oszillators."
+      ],
+      "correct_answer": "A",
+      "explanation": "Der Vernichtungsoperator a verringert die Anzahl der Quanten im harmonischen Oszillator um eins und senkt somit die Energie des Systems. Dies ist ein grundlegendes Konzept in der Quantenmechanik, das die Zustände von quantisierten Systemen beschreibt.",
+      "difficulty": 2,
+      "subcategory": "Harmonischer Oszillator: Erzeugungs-/Vernichtungsoperator"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Universalität & Skalenhypothese (statisch)",
+      "question": "Welche der folgenden Aussagen beschreibt am besten die Skalenhypothese in der statistischen Mechanik?",
+      "choices": [
+        "A: Die Eigenschaften eines Systems ändern sich nicht mit der Größe des Systems, solange die Wechselwirkungen stark genug sind.",
+        "B: Die Skalenhypothese besagt, dass makroskopische Eigenschaften stets proportional zur Anzahl der Teilchen sind.",
+        "C: Bei sehr kleinen Systemen dominieren quantenmechanische Effekte, die klassische Statistische Mechanik ist nicht anwendbar.",
+        "D: Alle Systeme, unabhängig von ihrer Größe, zeigen immer identisches thermodynamisches Verhalten."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Skalenhypothese legt nahe, dass Systeme mit starken Wechselwirkungen universelle Eigenschaften aufweisen, die unabhängig von der Systemgröße sind. Dies ist besonders relevant für Phasenübergänge und kritische Phänomene in der statistischen Mechanik.",
+      "difficulty": 9,
+      "subcategory": "Universalität & Skalenhypothese (statisch)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Wellenpakete & Kugelwellen",
+      "question": "Was beschreibt ein Wellenpaket in der Elektrodynamik?",
+      "choices": [
+        "A: Eine Überlagerung von mehreren Wellen mit unterschiedlichen Frequenzen.",
+        "B: Eine stehende Welle ohne Energieübertragung.",
+        "C: Eine kugelförmige Welle, die sich in alle Richtungen ausbreitet.",
+        "D: Eine einzelne Welle mit konstanter Frequenz."
+      ],
+      "correct_answer": "A",
+      "explanation": "Ein Wellenpaket entsteht durch die Überlagerung mehrerer Wellen unterschiedlicher Frequenzen, was zu einer lokalisierten Ausbreitung führt. Diese Kombination ermöglicht es, Informationen oder Energie über kurze Strecken zu transportieren, was in der Elektrodynamik von großer Bedeutung ist.",
+      "difficulty": 2,
+      "subcategory": "Wellenpakete & Kugelwellen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Erhaltungssätze & Hydrodynamik im lokalen Gleichgewicht",
+      "question": "Was beschreibt die lokale Erhaltung der Energie in einem hydrodynamischen System im Kontext der statistischen Mechanik?",
+      "choices": [
+        "A: Die Energie kann zwischen verschiedenen Formen umgewandelt werden, aber die Gesamtenergie bleibt nicht konstant.",
+        "B: Die Energie bleibt in einem geschlossenen System konstant, unabhängig von den internen Bewegungen der Teilchen.",
+        "C: Die Energie wird immer in kinetische Energie umgewandelt, wenn die Teilchen sich bewegen.",
+        "D: Die Temperatur ist der Hauptfaktor für die Energieerhaltung in einem hydrodynamischen System."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die lokale Erhaltung der Energie besagt, dass in einem geschlossenen System die Gesamtenergie konstant bleibt, auch wenn Energie zwischen den Teilchen umverteilt wird. Dies ist ein zentraler Aspekt der statistischen Mechanik, da es die thermodynamischen Eigenschaften von Systemen im lokalen Gleichgewicht beschreibt.",
+      "difficulty": 8,
+      "subcategory": "Erhaltungssätze & Hydrodynamik im lokalen Gleichgewicht"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Quarkstruktur der Nukleonen",
+      "question": "Welche Quarks sind in einem Proton enthalten?",
+      "choices": [
+        "A: drei Down-Quarks",
+        "B: ein Up-Quark und ein Bottom-Quark",
+        "C: zwei Up-Quarks und ein Down-Quark",
+        "D: ein Up-Quark und zwei Strange-Quarks"
+      ],
+      "correct_answer": "C",
+      "explanation": "Ein Proton besteht aus zwei Up-Quarks und einem Down-Quark, was ihm eine positive elektrische Ladung verleiht. Die Quarkstruktur ist entscheidend für das Verständnis der starken Wechselwirkungen, die die Nukleonen zusammenhalten.",
+      "difficulty": 8,
+      "subcategory": "Quarkstruktur der Nukleonen"
+    }
+  ]
+}

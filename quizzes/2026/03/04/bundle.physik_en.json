@@ -1,0 +1,168 @@
+{
+  "date": "2026-03-04",
+  "generated_at": "2026-03-04T03:49:18Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Ladungsträgerdichte (intrinsisch)",
+      "question": "What does the intrinsic charge carrier density describe in a semiconductor?",
+      "choices": [
+        "A: The temperature at which a semiconductor becomes an insulator.",
+        "B: The maximum energy an electron can reach in a semiconductor.",
+        "C: The ability of a material to conduct electric current.",
+        "D: The number of electrons and holes per unit volume in equilibrium."
+      ],
+      "correct_answer": "D",
+      "explanation": "The intrinsic charge carrier density describes the number of electrons and holes in a semiconductor in equilibrium. This density is temperature-dependent and crucial for the electrical properties of the material.",
+      "difficulty": 5,
+      "subcategory": "Ladungsträgerdichte (intrinsisch)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Langevin-Gleichungen (frei & mit Kraftfeld)",
+      "question": "Which statement about the Langevin equation for a particle in a force field is correct?",
+      "choices": [
+        "A: In the Langevin equation, the particle is considered to be non-interacting with other particles.",
+        "B: The random force in the Langevin equation is independent of the system's temperature.",
+        "C: The Langevin equation includes both deterministic and stochastic terms and describes thermal motion.",
+        "D: The Langevin equation describes the motion of a particle as a deterministic process without random influences."
+      ],
+      "correct_answer": "C",
+      "explanation": "The Langevin equation combines deterministic motion through a force field with stochastic terms that account for thermal motion and interaction with the environment. This makes it a central tool in statistical mechanics for describing diffusion processes.",
+      "difficulty": 9,
+      "subcategory": "Langevin-Gleichungen (frei & mit Kraftfeld)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Erreichbarer Enddruck",
+      "question": "What does the achievable final pressure in a closed system describe?",
+      "choices": [
+        "A: The maximum pressure that can be reached by a certain amount of gas.",
+        "B: The pressure that always remains constant.",
+        "C: The pressure influenced only by temperature changes.",
+        "D: The pressure independent of the type of gas."
+      ],
+      "correct_answer": "A",
+      "explanation": "The achievable final pressure is the maximum pressure that a gas in a closed system can reach, depending on the amount of gas and the temperature. It is described by the ideal gas law and is important for understanding thermodynamic processes.",
+      "difficulty": 2,
+      "subcategory": "Erreichbarer Enddruck"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Wellenausbreitung in Leitern",
+      "question": "Which statement best describes wave propagation in electrical conductors?",
+      "choices": [
+        "A: The propagation speed is independent of the signal's frequency.",
+        "B: Only direct currents can propagate in conductors in a wave-like manner.",
+        "C: The wave's damping increases with frequency.",
+        "D: The waves propagate at the speed of light."
+      ],
+      "correct_answer": "C",
+      "explanation": "In electrical conductors, damping increases at higher frequencies, meaning that high-frequency signals are attenuated more than low-frequency ones. This is important for signal transmission in communication systems.",
+      "difficulty": 6,
+      "subcategory": "Wellenausbreitung in Leitern"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Reflexionsvermögen absorbierender Medien",
+      "question": "Which of the following media has the highest reflectivity?",
+      "choices": [
+        "A: A mirror",
+        "B: A black cloth",
+        "C: A matte black paper",
+        "D: A transparent glass"
+      ],
+      "correct_answer": "A",
+      "explanation": "A mirror is specifically designed to reflect light and therefore has very high reflectivity. In contrast, the other mentioned media absorb light and reflect only a small portion of it.",
+      "difficulty": 5,
+      "subcategory": "Reflexionsvermögen absorbierender Medien"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Harmonischer Oszillator: Erzeugungs-/Vernichtungsoperator",
+      "question": "What does the annihilation operator a do in a harmonic oscillator?",
+      "choices": [
+        "A: It reduces the number of particles by one.",
+        "B: It increases the system's energy.",
+        "C: It has no influence on the system.",
+        "D: It changes the oscillator's frequency."
+      ],
+      "correct_answer": "A",
+      "explanation": "The annihilation operator a reduces the number of quanta in the harmonic oscillator by one, thus lowering the system's energy. This is a fundamental concept in quantum mechanics that describes the states of quantized systems.",
+      "difficulty": 2,
+      "subcategory": "Harmonischer Oszillator: Erzeugungs-/Vernichtungsoperator"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Universalität & Skalenhypothese (statisch)",
+      "question": "Which of the following statements best describes the scaling hypothesis in statistical mechanics?",
+      "choices": [
+        "A: The properties of a system do not change with the system's size as long as the interactions are strong enough.",
+        "B: The scaling hypothesis states that macroscopic properties are always proportional to the number of particles.",
+        "C: Quantum mechanical effects dominate in very small systems, making classical statistical mechanics inapplicable.",
+        "D: All systems, regardless of their size, always exhibit identical thermodynamic behavior."
+      ],
+      "correct_answer": "A",
+      "explanation": "The scaling hypothesis suggests that systems with strong interactions exhibit universal properties that are independent of system size. This is particularly relevant for phase transitions and critical phenomena in statistical mechanics.",
+      "difficulty": 9,
+      "subcategory": "Universalität & Skalenhypothese (statisch)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Wellenpakete & Kugelwellen",
+      "question": "What does a wave packet describe in electrodynamics?",
+      "choices": [
+        "A: A superposition of multiple waves with different frequencies.",
+        "B: A standing wave without energy transfer.",
+        "C: A spherical wave propagating in all directions.",
+        "D: A single wave with constant frequency."
+      ],
+      "correct_answer": "A",
+      "explanation": "A wave packet arises from the superposition of multiple waves of different frequencies, leading to localized propagation. This combination allows for the transport of information or energy over short distances, which is crucial in electrodynamics.",
+      "difficulty": 2,
+      "subcategory": "Wellenpakete & Kugelwellen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Erhaltungssätze & Hydrodynamik im lokalen Gleichgewicht",
+      "question": "What does the local conservation of energy in a hydrodynamic system describe in the context of statistical mechanics?",
+      "choices": [
+        "A: Energy can be converted between different forms, but the total energy does not remain constant.",
+        "B: Energy remains constant in a closed system, regardless of the internal motions of particles.",
+        "C: Energy is always converted into kinetic energy when particles move.",
+        "D: Temperature is the main factor for energy conservation in a hydrodynamic system."
+      ],
+      "correct_answer": "B",
+      "explanation": "The local conservation of energy states that in a closed system, the total energy remains constant even if energy is redistributed among particles. This is a central aspect of statistical mechanics as it describes the thermodynamic properties of systems in local equilibrium.",
+      "difficulty": 8,
+      "subcategory": "Erhaltungssätze & Hydrodynamik im lokalen Gleichgewicht"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Quarkstruktur der Nukleonen",
+      "question": "Which quarks are contained in a proton?",
+      "choices": [
+        "A: three down quarks",
+        "B: one up quark and one bottom quark",
+        "C: two up quarks and one down quark",
+        "D: one up quark and two strange quarks"
+      ],
+      "correct_answer": "C",
+      "explanation": "A proton consists of two up quarks and one down quark, giving it a positive electric charge. The quark structure is crucial for understanding the strong interactions that hold the nucleons together.",
+      "difficulty": 8,
+      "subcategory": "Quarkstruktur der Nukleonen"
+    }
+  ]
+}
