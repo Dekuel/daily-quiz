@@ -1,0 +1,169 @@
+{
+  "date": "2026-03-05",
+  "generated_at": "2026-03-05T03:50:21Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Gibbs-Duhem-Relation (homogene Systeme)",
+      "question": "Was beschreibt die Gibbs-Duhem-Relation für homogene Systeme?",
+      "choices": [
+        "A: Die Beziehung zwischen Druck und Volumen.",
+        "B: Die Beziehung zwischen chemischem Potential und Temperatur.",
+        "C: Die Beziehung zwischen Temperatur und Entropie.",
+        "D: Die Beziehung zwischen innerer Energie und Entropie."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Gibbs-Duhem-Relation beschreibt, wie sich das chemische Potential eines Systems mit Temperatur und Druck verhält. Sie ist eine wichtige Beziehung in der thermodynamischen Beschreibung homogener Systeme und zeigt, dass Änderungen im chemischen Potential mit Änderungen in anderen thermodynamischen Größen verknüpft sind.",
+      "difficulty": 5,
+      "subcategory": "Gibbs-Duhem-Relation (homogene Systeme)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Quantenstatistik: Dichtematrix (rein/gemischt)",
+      "question": "Welche Aussage über die Dichtematrix eines gemischten Zustands in der Quantenstatistik ist korrekt?",
+      "choices": [
+        "A: Sie ist immer positiv definit.",
+        "B: Sie kann eine Überlagerung von mehreren Zuständen repräsentieren.",
+        "C: Sie ist identisch mit der Dichtematrix eines reinen Zustands.",
+        "D: Sie beschreibt einen Zustand mit definierter Energie."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Dichtematrix eines gemischten Zustands kann mehrere Zustände repräsentieren und ist nicht auf einen einzelnen Zustand beschränkt. Dies unterscheidet sie von der Dichtematrix eines reinen Zustands, die einen spezifischen Zustand beschreibt.",
+      "difficulty": 5,
+      "subcategory": "Quantenstatistik: Dichtematrix (rein/gemischt)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Moden im dielektrischen Wellenleiter",
+      "question": "Was beschreibt der Begriff 'Moden' in einem dielektrischen Wellenleiter?",
+      "choices": [
+        "A: Die Brechungsindizes des Materials.",
+        "B: Die Geschwindigkeit des Lichts im Vakuum.",
+        "C: Die verschiedenen möglichen Lichtwellen, die sich im Wellenleiter ausbreiten können.",
+        "D: Die Temperaturverhältnisse im Wellenleiter."
+      ],
+      "correct_answer": "C",
+      "explanation": "Moden sind die spezifischen Lichtwellen, die sich in einem dielektrischen Wellenleiter ausbreiten können. Jede Mode hat ihre eigenen Eigenschaften, die durch die Geometrie und das Material des Wellenleiters bestimmt werden.",
+      "difficulty": 2,
+      "subcategory": "Moden im dielektrischen Wellenleiter"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Bloch-Funktion",
+      "question": "Welche Aussage über die Bloch-Funktionen in einem Kristallgitter ist korrekt?",
+      "choices": [
+        "A: Bloch-Funktionen sind unabhängig von der Symmetrie des Kristallgitters.",
+        "B: Bloch-Funktionen sind nur in nicht-periodischen Systemen anwendbar.",
+        "C: Bloch-Funktionen sind Lösungen der Schrödinger-Gleichung für Elektronen in einem periodischen Potential.",
+        "D: Bloch-Funktionen beschreiben ausschließlich die Schwingungen von Atomen in einem Kristall."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Bloch-Funktion beschreibt die quantenmechanischen Eigenschaften von Elektronen in einem periodischen Potential, wie es in Kristallgittern vorkommt. Diese Funktionen sind entscheidend für das Verständnis von Elektronenzuständen in Festkörpern und ermöglichen die Erklärung von Phänomenen wie dem Bandstrukturmodell.",
+      "difficulty": 6,
+      "subcategory": "Bloch-Funktion"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Elektroschwache Vereinheitlichung (SU(2)×U(1))",
+      "question": "Welche der folgenden Wechselwirkungen wird durch die elektroschwache Theorie vereinheitlicht?",
+      "choices": [
+        "A: Starke Wechselwirkung und schwache Wechselwirkung",
+        "B: Elektromagnetische und schwache Wechselwirkung",
+        "C: Starke Wechselwirkung und Gravitation",
+        "D: Gravitation und elektromagnetische Wechselwirkung"
+      ],
+      "correct_answer": "B",
+      "explanation": "Die elektroschwache Theorie vereinheitlicht die elektromagnetische und die schwache Wechselwirkung in einem gemeinsamen Rahmen. Diese Theorie ist ein fundamentaler Bestandteil des Standardmodells der Teilchenphysik und beschreibt, wie diese beiden Kräfte bei hohen Energien zusammenwirken.",
+      "difficulty": 4,
+      "subcategory": "Elektroschwache Vereinheitlichung (SU(2)×U(1))"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Abbildungsgleichung für dünne Linsen",
+      "question": "Welche der folgenden Gleichungen beschreibt die Abbildungsgleichung für dünne Linsen korrekt?",
+      "choices": [
+        "A: f = g * b",
+        "B: f = g + b",
+        "C: 1/f = 1/b - 1/g",
+        "D: 1/f = 1/g + 1/b"
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Abbildungsgleichung für dünne Linsen beschreibt den Zusammenhang zwischen der Brennweite (f), dem Gegenstandsabstand (g) und dem Bildabstand (b). Die korrekte Formel lautet 1/f = 1/g + 1/b, wobei die Abstände positiv sind, wenn sie auf der gleichen Seite wie das Licht einfallend sind.",
+      "difficulty": 7,
+      "subcategory": "Abbildungsgleichung für dünne Linsen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Feynman‑Diagramme (Streuprozesse)",
+      "question": "Was stellt ein Feynman-Diagramm typischerweise dar?",
+      "choices": [
+        "A: Die Bewegung von Planeten im Raum",
+        "B: Die Struktur von Atomkernen",
+        "C: Den Verlauf von Teilchenwechselwirkungen",
+        "D: Die Energieverteilung in einem thermodynamischen System"
+      ],
+      "correct_answer": "C",
+      "explanation": "Feynman-Diagramme sind grafische Darstellungen von Wechselwirkungen zwischen subatomaren Teilchen. Sie zeigen den Verlauf von Teilchen und deren Wechselwirkungen, was besonders in der Quantenfeldtheorie verwendet wird.",
+      "difficulty": 4,
+      "subcategory": "Feynman‑Diagramme (Streuprozesse)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Leptonpaar‑Erzeugung",
+      "question": "Was ist eine notwendige Bedingung für die Erzeugung eines Leptonenpaares in einem Teilchenprozess?",
+      "choices": [
+        "A: Die Energie des Prozesses muss mindestens der doppelten Ruhemasse des Leptonenpaars entsprechen.",
+        "B: Der Prozess muss in einem Vakuum stattfinden.",
+        "C: Die Temperatur des Systems muss über 1000 Kelvin liegen.",
+        "D: Es müssen mindestens drei verschiedene Teilchen beteiligt sein."
+      ],
+      "correct_answer": "A",
+      "explanation": "Um ein Leptonenpaar zu erzeugen, muss die Energie des Prozesses ausreichen, um die Ruhemasse beider Leptonen zu übertreffen. Dies entspricht mindestens der doppelten Ruhemasse des Leptonenpaars, da Energie und Masse gemäß der Relativitätstheorie äquivalent sind.",
+      "difficulty": 4,
+      "subcategory": "Leptonpaar‑Erzeugung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Phasenproblem bei Streuexperimenten",
+      "question": "Was beschreibt das Phasenproblem bei Streuexperimenten in der Festkörperphysik?",
+      "choices": [
+        "A: Die Schwierigkeit, die Phaseninformation aus den Streudaten zu extrahieren.",
+        "B: Die Unfähigkeit, feste Materialien zu streuen.",
+        "C: Die Notwendigkeit, Hochtemperaturbedingungen zu schaffen.",
+        "D: Die Bedeutung der Temperatur für die Streuintensität."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Phasenproblem tritt auf, weil bei Streuexperimenten oft nur die Intensität der gestreuten Wellen gemessen wird, nicht jedoch die Phaseninformationen. Diese Informationen sind jedoch entscheidend, um die Struktur und die Eigenschaften des Festkörpers genau zu bestimmen.",
+      "difficulty": 1,
+      "subcategory": "Phasenproblem bei Streuexperimenten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Partialwellenmethode & Zerlegung",
+      "question": "Was beschreibt die Partialwellenmethode in der Quantenmechanik?",
+      "choices": [
+        "A: Die Berechnung der Elektronenkonfiguration von Atomen.",
+        "B: Die Bestimmung der Temperatur eines Systems.",
+        "C: Die Zerlegung eines Wellenfunctions in harmonische Wellen.",
+        "D: Die Analyse von klassischen Mechanikproblemen."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Partialwellenmethode ist eine Technik in der Quantenmechanik, die es ermöglicht, komplexe Wellenfunktionen in einfachere harmonische Wellen zu zerlegen. Dies erleichtert die Analyse von Wechselwirkungen und die Berechnung von physikalischen Größen in quantenmechanischen Systemen.",
+      "difficulty": 3,
+      "subcategory": "Partialwellenmethode & Zerlegung"
+    }
+  ]
+}

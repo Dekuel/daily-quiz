@@ -1,0 +1,168 @@
+{
+  "date": "2026-03-05",
+  "generated_at": "2026-03-05T03:50:57Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Gibbs-Duhem-Relation (homogene Systeme)",
+      "question": "What does the Gibbs-Duhem relation describe for homogeneous systems?",
+      "choices": [
+        "A: The relationship between pressure and volume.",
+        "B: The relationship between chemical potential and temperature.",
+        "C: The relationship between temperature and entropy.",
+        "D: The relationship between internal energy and entropy."
+      ],
+      "correct_answer": "B",
+      "explanation": "The Gibbs-Duhem relation describes how the chemical potential of a system behaves with temperature and pressure. It is an important relationship in the thermodynamic description of homogeneous systems and shows that changes in the chemical potential are related to changes in other thermodynamic quantities.",
+      "difficulty": 5,
+      "subcategory": "Gibbs-Duhem-Relation (homogene Systeme)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Quantenstatistik: Dichtematrix (rein/gemischt)",
+      "question": "Which statement about the density matrix of a mixed state in quantum statistics is correct?",
+      "choices": [
+        "A: It is always positive definite.",
+        "B: It can represent a superposition of multiple states.",
+        "C: It is identical to the density matrix of a pure state.",
+        "D: It describes a state with defined energy."
+      ],
+      "correct_answer": "B",
+      "explanation": "The density matrix of a mixed state can represent multiple states and is not limited to a single state. This distinguishes it from the density matrix of a pure state, which describes a specific state.",
+      "difficulty": 5,
+      "subcategory": "Quantenstatistik: Dichtematrix (rein/gemischt)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Moden im dielektrischen Wellenleiter",
+      "question": "What does the term 'modes' describe in a dielectric waveguide?",
+      "choices": [
+        "A: The refractive indices of the material.",
+        "B: The speed of light in a vacuum.",
+        "C: The different possible light waves that can propagate in the waveguide.",
+        "D: The temperature conditions in the waveguide."
+      ],
+      "correct_answer": "C",
+      "explanation": "Modes are the specific light waves that can propagate in a dielectric waveguide. Each mode has its own characteristics determined by the geometry and material of the waveguide.",
+      "difficulty": 2,
+      "subcategory": "Moden im dielektrischen Wellenleiter"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Bloch-Funktion",
+      "question": "Which statement about Bloch functions in a crystal lattice is correct?",
+      "choices": [
+        "A: Bloch functions are independent of the symmetry of the crystal lattice.",
+        "B: Bloch functions are only applicable in non-periodic systems.",
+        "C: Bloch functions are solutions of the Schrödinger equation for electrons in a periodic potential.",
+        "D: Bloch functions exclusively describe the vibrations of atoms in a crystal."
+      ],
+      "correct_answer": "C",
+      "explanation": "The Bloch function describes the quantum mechanical properties of electrons in a periodic potential found in crystal lattices. These functions are crucial for understanding electron states in solids and explaining phenomena like the band structure model.",
+      "difficulty": 6,
+      "subcategory": "Bloch-Funktion"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Elektroschwache Vereinheitlichung (SU(2)×U(1))",
+      "question": "Which of the following interactions is unified by the electroweak theory?",
+      "choices": [
+        "A: Strong interaction and weak interaction",
+        "B: Electromagnetic and weak interaction",
+        "C: Strong interaction and gravity",
+        "D: Gravity and electromagnetic interaction"
+      ],
+      "correct_answer": "B",
+      "explanation": "The electroweak theory unifies the electromagnetic and weak interactions within a common framework. This theory is a fundamental component of the Standard Model of particle physics and describes how these two forces interact at high energies.",
+      "difficulty": 4,
+      "subcategory": "Elektroschwache Vereinheitlichung (SU(2)×U(1))"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Abbildungsgleichung für dünne Linsen",
+      "question": "Which of the following equations correctly describes the lens equation for thin lenses?",
+      "choices": [
+        "A: f = g * b",
+        "B: f = g + b",
+        "C: 1/f = 1/b - 1/g",
+        "D: 1/f = 1/g + 1/b"
+      ],
+      "correct_answer": "D",
+      "explanation": "The lens equation for thin lenses describes the relationship between focal length (f), object distance (g), and image distance (b). The correct formula is 1/f = 1/g + 1/b, with distances being positive when on the same side as the incident light.",
+      "difficulty": 7,
+      "subcategory": "Abbildungsgleichung für dünne Linsen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Feynman‑Diagramme (Streuprozesse)",
+      "question": "What does a Feynman diagram typically represent?",
+      "choices": [
+        "A: The motion of planets in space",
+        "B: The structure of atomic nuclei",
+        "C: The paths of particle interactions",
+        "D: The energy distribution in a thermodynamic system"
+      ],
+      "correct_answer": "C",
+      "explanation": "Feynman diagrams are graphical representations of interactions between subatomic particles. They depict the paths of particles and their interactions, particularly useful in quantum field theory.",
+      "difficulty": 4,
+      "subcategory": "Feynman‑Diagramme (Streuprozesse)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Leptonpaar‑Erzeugung",
+      "question": "What is a necessary condition for the production of a lepton pair in a particle process?",
+      "choices": [
+        "A: The energy of the process must be at least twice the rest mass of the lepton pair.",
+        "B: The process must occur in a vacuum.",
+        "C: The temperature of the system must be above 1000 Kelvin.",
+        "D: At least three different particles must be involved."
+      ],
+      "correct_answer": "A",
+      "explanation": "To produce a lepton pair, the energy of the process must be sufficient to exceed the rest mass of both leptons. This corresponds to at least twice the rest mass of the lepton pair, as energy and mass are equivalent according to the theory of relativity.",
+      "difficulty": 4,
+      "subcategory": "Leptonpaar‑Erzeugung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Phasenproblem bei Streuexperimenten",
+      "question": "What does the phase problem in scattering experiments in solid-state physics describe?",
+      "choices": [
+        "A: The difficulty of extracting phase information from scattering data.",
+        "B: The inability to scatter solid materials.",
+        "C: The need to create high-temperature conditions.",
+        "D: The significance of temperature for scattering intensity."
+      ],
+      "correct_answer": "A",
+      "explanation": "The phase problem arises because scattering experiments often only measure the intensity of scattered waves, not the phase information. However, this information is crucial for precisely determining the structure and properties of the solid-state.",
+      "difficulty": 1,
+      "subcategory": "Phasenproblem bei Streuexperimenten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Partialwellenmethode & Zerlegung",
+      "question": "What does the partial wave method in quantum mechanics describe?",
+      "choices": [
+        "A: Calculating the electron configuration of atoms.",
+        "B: Determining the temperature of a system.",
+        "C: Decomposing a wave function into harmonic waves.",
+        "D: Analyzing classical mechanics problems."
+      ],
+      "correct_answer": "C",
+      "explanation": "The partial wave method is a technique in quantum mechanics that allows complex wave functions to be decomposed into simpler harmonic waves. This facilitates the analysis of interactions and the calculation of physical quantities in quantum mechanical systems.",
+      "difficulty": 3,
+      "subcategory": "Partialwellenmethode & Zerlegung"
+    }
+  ]
+}
