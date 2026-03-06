@@ -1260,6 +1260,20 @@
       "correct_answer": "B",
       "explanation": "Instagram ist eine Plattform, die sich hauptsächlich auf das Teilen von Bildern und Videos konzentriert. LinkedIn hingegen ist für berufliche Netzwerke gedacht, während Twitter für kurze Textnachrichten bekannt ist. Snapchat ist zwar ebenfalls bildfokussiert, hat jedoch ein anderes Nutzungskonzept mit temporären Inhalten.",
       "difficulty": 6
+    },
+    {
+      "category": "Technologie",
+      "topic": "KI & Zukunftstechnologien",
+      "question": "Welches der folgenden Modelle verwendet ein sogenanntes 'Attention'-Mechanismus, um Kontextinformationen innerhalb von Sequenzen zu verarbeiten?",
+      "choices": [
+        "A: Convolutional Neural Network (CNN)",
+        "B: Recurrent Neural Network (RNN)",
+        "C: Transformer",
+        "D: Long Short-Term Memory (LSTM)"
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Transformer-Modell nutzt den Attention-Mechanismus, um relevante Informationen in sequenziellen Daten zu gewichten und zu verarbeiten, was die Effizienz und Leistung in Aufgaben wie der maschinellen Übersetzung erheblich verbessert. Im Gegensatz dazu sind RNNs und LSTMs auf sequentielle Verarbeitung angewiesen, während CNNs primär für Bildverarbeitung optimiert sind.",
+      "difficulty": 10
     }
   ]
 }

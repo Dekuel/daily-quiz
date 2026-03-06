@@ -1,0 +1,168 @@
+{
+  "date": "2026-03-06",
+  "generated_at": "2026-03-06T03:50:21Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Lennard–Jones-Potential",
+      "question": "What does the Lennard-Jones potential describe in solid-state physics?",
+      "choices": [
+        "A: The electron configuration of atoms in solids.",
+        "B: The thermal properties of solids at extreme temperatures.",
+        "C: The structure of crystal lattices in metals.",
+        "D: The interaction between atoms or molecules considering attraction and repulsion."
+      ],
+      "correct_answer": "D",
+      "explanation": "The Lennard-Jones potential describes the intermolecular forces between atoms or molecules by taking into account both the attractive and repulsive components of this interaction. It is an important model in solid-state physics to understand the structure and behavior of materials.",
+      "difficulty": 7,
+      "subcategory": "Lennard–Jones-Potential"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Transformation der elektromagnetischen Felder",
+      "question": "How do the electric and magnetic fields change during Lorentz transformation between two relatively moving reference frames?",
+      "choices": [
+        "A: Both fields are completely eliminated.",
+        "B: Both fields change depending on the relative velocity.",
+        "C: The electric fields change while the magnetic fields remain unchanged.",
+        "D: The electric fields remain unchanged, the magnetic fields change."
+      ],
+      "correct_answer": "B",
+      "explanation": "During Lorentz transformation, both the electric and magnetic fields change depending on the relative velocity of the reference frames. This transformation is a central result of special relativity theory and demonstrates the close connection between electricity and magnetism.",
+      "difficulty": 6,
+      "subcategory": "Transformation der elektromagnetischen Felder"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Phasenübergänge & kritische Phänomene (Überblick)",
+      "question": "What is a typical example of a phase transition?",
+      "choices": [
+        "A: Electron to proton",
+        "B: Iron to copper",
+        "C: Water to steam",
+        "D: Light to shadow"
+      ],
+      "correct_answer": "C",
+      "explanation": "A phase transition describes the change of a substance from one state of matter to another, such as from liquid (water) to gaseous (steam). This process occurs at a specific temperature and pressure, making it a classic example of phase transitions.",
+      "difficulty": 3,
+      "subcategory": "Phasenübergänge & kritische Phänomene (Überblick)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Brillouin–Wigner-Störreihe",
+      "question": "What does the Brillouin-Wigner perturbation series describe in quantum mechanics?",
+      "choices": [
+        "A: The development of wave functions in a perturbative series.",
+        "B: The symmetry properties of elementary particles.",
+        "C: The calculation of the temperature of an ideal gas.",
+        "D: The motion of particles in a classical field."
+      ],
+      "correct_answer": "A",
+      "explanation": "The Brillouin-Wigner perturbation series is a mathematical tool in quantum mechanics used to develop wave functions and energies in perturbations. It is particularly useful for analyzing quantum mechanical systems under the influence of small perturbations.",
+      "difficulty": 5,
+      "subcategory": "Brillouin–Wigner-Störreihe"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Deformierte Kerne",
+      "question": "Which of the following statements best describes the properties of deformed atomic nuclei?",
+      "choices": [
+        "A: They consist exclusively of protons and have no neutrons.",
+        "B: They have a spherical shape and show no anisotropic properties.",
+        "C: They have an asymmetric shape and can assume different energy states depending on the deformation.",
+        "D: They are always stable and do not change under external influences."
+      ],
+      "correct_answer": "C",
+      "explanation": "Deformed nuclei are non-spherical and have an asymmetric shape, leading to anisotropic properties. This deformation can influence the energetic states of the nucleus and is crucial for various nuclear reactions and the stability of isotopes.",
+      "difficulty": 8,
+      "subcategory": "Deformierte Kerne"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "χ^(3)-Phänomene (dritte Ordnung)",
+      "question": "What characterizes χ^(3) phenomena in optics?",
+      "choices": [
+        "A: They are solely related to the reflection of light.",
+        "B: They only refer to the refraction of light in transparent materials.",
+        "C: They have no influence on color perception.",
+        "D: They are nonlinear optical effects that occur at intense light fields."
+      ],
+      "correct_answer": "D",
+      "explanation": "χ^(3) phenomena are nonlinear optical effects that occur at high light intensities. They play an important role in modern optics, especially in applications such as frequency multiplication and the generation of terahertz radiation.",
+      "difficulty": 5,
+      "subcategory": "χ^(3)-Phänomene (dritte Ordnung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Kovariante Formulierung der Elektrodynamik",
+      "question": "Which statement correctly describes the covariant formulation of electrodynamics?",
+      "choices": [
+        "A: The electric field strength is independent of the observer's motion.",
+        "B: The electromagnetic fields are identical in all inertial systems.",
+        "C: Lorentz transformations are the fundamental symmetries of electrodynamics.",
+        "D: The light beam can only propagate in a medium with constant velocity."
+      ],
+      "correct_answer": "C",
+      "explanation": "The covariant formulation of electrodynamics is based on Lorentz transformations, which describe the relationships between space and time in different reference frames. These transformations are crucial for complying with the theory of relativity and the invariance of physical laws.",
+      "difficulty": 5,
+      "subcategory": "Kovariante Formulierung der Elektrodynamik"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Sommerfeld’sche Polynommethode",
+      "question": "Which of the following statements best describes the application of the Sommerfeld polynomial method in quantum mechanics?",
+      "choices": [
+        "A: It allows the approximation of wave functions in many-body quantum theory.",
+        "B: It is used to determine the energy states of particles in a one-dimensional potential well.",
+        "C: It is used to solve the Schrödinger equation for problems with spherical symmetry.",
+        "D: It provides an analytical solution for the motion of electrons in a constant electromagnetic field."
+      ],
+      "correct_answer": "C",
+      "explanation": "The Sommerfeld polynomial method is particularly used to solve the Schrödinger equation for problems with spherical symmetry. It allows for the calculation of quantum mechanical energy states considering the specific geometry of the system.",
+      "difficulty": 8,
+      "subcategory": "Sommerfeld’sche Polynommethode"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Periodische Randbedingungen",
+      "question": "What condition must a particle satisfy when located in a one-dimensional infinite potential well with periodic boundary conditions?",
+      "choices": [
+        "A: The wave function must be continuous at the boundaries.",
+        "B: The wave function must be constant at the boundaries.",
+        "C: The wave function must be infinite at the boundaries.",
+        "D: The wave function must be zero at the boundaries."
+      ],
+      "correct_answer": "A",
+      "explanation": "For a particle in an infinite potential well with periodic boundary conditions, the wave functions at the boundaries are identical, requiring continuity of the wave function. This leads to quantized energy levels resulting from the application of the Schrödinger equation.",
+      "difficulty": 10,
+      "subcategory": "Periodische Randbedingungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Observable",
+      "question": "Which statement about observables in quantum mechanics is correct?",
+      "choices": [
+        "A: Observables can only take discrete values.",
+        "B: Observables are always commutative.",
+        "C: Each observable has an associated operator describing its measurement.",
+        "D: The measurement of an observable never changes the state of the system."
+      ],
+      "correct_answer": "C",
+      "explanation": "In quantum mechanics, each observable is represented by a self-adjoint operator describing the possible outcomes of a measurement. Commutativity and discrete values are not given for all observables, and measurements typically influence the state of the system.",
+      "difficulty": 8,
+      "subcategory": "Observable"
+    }
+  ]
+}
