@@ -1,0 +1,169 @@
+{
+  "date": "2026-03-07",
+  "generated_at": "2026-03-07T03:42:30Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Hamilton’sches Prinzip (Prinzip der stationären Wirkung)",
+      "question": "Welches der folgenden Prinzipien ist das Fundament des Hamilton’schen Prinzips?",
+      "choices": [
+        "A: Das Prinzip der virtuellen Arbeit",
+        "B: Das Prinzip der Erhaltung der Energie",
+        "C: Das Prinzip der Impulserhaltung",
+        "D: Das Prinzip der stationären Aktion"
+      ],
+      "correct_answer": "D",
+      "explanation": "Das Hamilton’sche Prinzip beruht auf der Idee, dass die tatsächliche Bewegung eines Systems diejenige ist, die die Wirkung stationär macht. Dies bedeutet, dass die Variation der Wirkung um Null ist, was zentral für die Formulierung der Mechanik ist.",
+      "difficulty": 7,
+      "subcategory": "Hamilton’sches Prinzip (Prinzip der stationären Wirkung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Laplace-Gleichung in Kugelkoordinaten",
+      "question": "Welche Form der Laplace-Gleichung gilt in Kugelkoordinaten?",
+      "choices": [
+        "A: ∂²φ/∂r² + 2/r ∂φ/∂r + 1/r² ∂²φ/∂θ² + 1/(r²sinθ) ∂/∂φ(sinθ ∂φ/∂φ) = 0",
+        "B: ∇φ = 0",
+        "C: ∇²φ = 0",
+        "D: ∇²φ = 1/r²"
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Laplace-Gleichung beschreibt das Verhalten von skalaren Feldern, und in Kugelkoordinaten hat sie die Form ∇²φ = 0. Diese Gleichung ist fundamental in der Elektrodynamik und beschreibt Potentialfelder in einem isotropen Raum.",
+      "difficulty": 3,
+      "subcategory": "Laplace-Gleichung in Kugelkoordinaten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "d’Alembert’sches Prinzip",
+      "question": "Was beschreibt das d’Alembert’sche Prinzip in der Analytischen Mechanik?",
+      "choices": [
+        "A: Es beschreibt die Energieerhaltung in einem geschlossenen System.",
+        "B: Es formuliert die Gesetze der Thermodynamik.",
+        "C: Es stellt eine Beziehung zwischen Kräften und Beschleunigungen her.",
+        "D: Es erklärt die Quantennatur von Teilchen."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das d’Alembert’sche Prinzip verbindet die Dynamik mit der Kinematik, indem es besagt, dass die Summe der Kräfte, die auf ein System wirken, gleich der Masse des Systems multipliziert mit der Beschleunigung ist. Es ist eine wichtige Grundlage für die Ableitung der Bewegungsgleichungen in der Analytischen Mechanik.",
+      "difficulty": 4,
+      "subcategory": "d’Alembert’sches Prinzip"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Elektrostatik der Dielektrika",
+      "question": "Welcher der folgenden Faktoren beeinflusst die relative Permittivität eines Dielektrikums am stärksten?",
+      "choices": [
+        "A: Die Temperatur des Dielektrikums",
+        "B: Die Form des Dielektrikums",
+        "C: Die Größe des Dielektrikums",
+        "D: Die chemische Struktur des Materials"
+      ],
+      "correct_answer": "D",
+      "explanation": "Die relative Permittivität eines Dielektrikums hängt stark von der chemischen Struktur und den molekularen Eigenschaften des Materials ab. Während Temperaturveränderungen auch einen Einfluss haben können, ist die chemische Zusammensetzung entscheidend für die Polarisationseigenschaften des Dielektrikums.",
+      "difficulty": 7,
+      "subcategory": "Elektrostatik der Dielektrika"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Strukturfaktor",
+      "question": "Was beschreibt der Strukturfaktor in der Festkörperphysik?",
+      "choices": [
+        "A: Die mechanischen Eigenschaften von Flüssigkeiten.",
+        "B: Die Wechselwirkung zwischen Elektronen und Photonen.",
+        "C: Die räumliche Verteilung von Atomen in einem Kristall.",
+        "D: Die Temperaturabhängigkeit von elektrischen Widerständen."
+      ],
+      "correct_answer": "C",
+      "explanation": "Der Strukturfaktor ist ein Maß für die räumliche Anordnung der Atome in einem Kristall und wird häufig in der Röntgenbeugung verwendet, um Informationen über die Kristallstruktur zu erhalten. Er beschreibt, wie die Atome im Raum angeordnet sind und ist entscheidend für das Verständnis der Materialeigenschaften.",
+      "difficulty": 5,
+      "subcategory": "Strukturfaktor"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Carnot- und allgemeine Kreisprozesse",
+      "question": "Was beschreibt der Carnot-Prozess in der Thermodynamik?",
+      "choices": [
+        "A: Ein idealer Kreisprozess, der die maximale Effizienz eines Wärmekraftwerks darstellt.",
+        "B: Ein Zustand, in dem alle Teilchen einer Substanz in Ruhe sind.",
+        "C: Ein Verfahren zur Kühlung von Flüssigkeiten durch Verdampfung.",
+        "D: Ein Prozess zur Erzeugung elektrischer Energie aus Wärme."
+      ],
+      "correct_answer": "A",
+      "explanation": "Der Carnot-Prozess ist ein theoretischer Kreisprozess, der zeigt, wie ein Wärmekraftwerk mit maximaler Effizienz arbeiten kann. Er dient als Referenz, um die Effizienz realer thermodynamischer Prozesse zu bewerten.",
+      "difficulty": 3,
+      "subcategory": "Carnot- und allgemeine Kreisprozesse"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Kernspaltung",
+      "question": "Was ist das Hauptprodukt der Kernspaltung von Uran-235?",
+      "choices": [
+        "A: Protonen",
+        "B: Neutronen",
+        "C: Photonen",
+        "D: Elektronen"
+      ],
+      "correct_answer": "B",
+      "explanation": "Bei der Kernspaltung von Uran-235 spaltet sich der Atomkern in zwei kleinere Kerne und setzt dabei Neutronen frei. Diese Neutronen können weitere Spaltungen auslösen, was zu einer Kettenreaktion führt.",
+      "difficulty": 5,
+      "subcategory": "Kernspaltung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Grenzflächen & Haftspannung",
+      "question": "Welche der folgenden Aussagen beschreibt am besten die Haftspannung an einer Flüssigkeitsgrenze?",
+      "choices": [
+        "A: Die Haftspannung kann vernachlässigt werden, wenn die Oberflächenspannung hoch ist.",
+        "B: Die Haftspannung tritt nur in reinen Flüssigkeiten auf und nicht in Mischungen.",
+        "C: Die Haftspannung ist das Ergebnis der intermolekularen Kräfte zwischen den Molekülen der Flüssigkeit und der festen Oberfläche.",
+        "D: Die Haftspannung ist unabhängig von der Temperatur und bleibt konstant."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Haftspannung beschreibt die Wechselwirkungen zwischen den Molekülen einer Flüssigkeit und einer festen Oberfläche, wobei intermolekulare Kräfte eine entscheidende Rolle spielen. Sie ist temperaturabhängig und kann durch die Art der Flüssigkeit sowie deren Reinheit beeinflusst werden.",
+      "difficulty": 9,
+      "subcategory": "Grenzflächen & Haftspannung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Absolute thermodynamische Temperaturskala",
+      "question": "Was ist der absolute Nullpunkt auf der Kelvin-Skala?",
+      "choices": [
+        "A: 100 Grad Celsius",
+        "B: -273,15 Grad Celsius",
+        "C: 0 Kelvin",
+        "D: 0 Grad Celsius"
+      ],
+      "correct_answer": "C",
+      "explanation": "Der absolute Nullpunkt auf der Kelvin-Skala ist 0 Kelvin, was -273,15 Grad Celsius entspricht. An diesem Punkt haben Teilchen die niedrigste mögliche thermische Energie.",
+      "difficulty": 2,
+      "subcategory": "Absolute thermodynamische Temperaturskala"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Lagrange-Gleichungen",
+      "question": "Welche der folgenden Aussagen trifft auf die Lagrange-Gleichungen zu?",
+      "choices": [
+        "A: Sie sind identisch mit den Newtonschen Bewegungsgleichungen.",
+        "B: Sie können nicht für nicht-konservative Systeme verwendet werden.",
+        "C: Sie sind nur für Systeme mit konstanten Kräften anwendbar.",
+        "D: Sie beschreiben die Bewegung eines Systems in Bezug auf seine Generalisierten Koordinaten."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Lagrange-Gleichungen ermöglichen es, die Bewegung eines Systems unter Verwendung von generalisierten Koordinaten zu beschreiben, was eine flexiblere Handhabung komplexer Systeme erlaubt. Sie sind anwendbar auf konservative sowie nicht-konservative Systeme und sind nicht identisch mit den Newtonschen Gleichungen, sondern eine alternative Formulierung der Mechanik.",
+      "difficulty": 6,
+      "subcategory": "Lagrange-Gleichungen"
+    }
+  ]
+}

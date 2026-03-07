@@ -1274,6 +1274,20 @@
       "correct_answer": "C",
       "explanation": "Das Transformer-Modell nutzt den Attention-Mechanismus, um relevante Informationen in sequenziellen Daten zu gewichten und zu verarbeiten, was die Effizienz und Leistung in Aufgaben wie der maschinellen Übersetzung erheblich verbessert. Im Gegensatz dazu sind RNNs und LSTMs auf sequentielle Verarbeitung angewiesen, während CNNs primär für Bildverarbeitung optimiert sind.",
       "difficulty": 10
+    },
+    {
+      "category": "Technologie",
+      "topic": "KI & Zukunftstechnologien",
+      "question": "Welcher Machine Learning Algorithmus verwendet zur Vorhersage von Ergebnissen eine Baumstruktur, die auf Entscheidungen basiert?",
+      "choices": [
+        "A: Entscheidungsbaum",
+        "B: Künstliche Neuronale Netze",
+        "C: K-Means Clustering",
+        "D: Support Vector Machines"
+      ],
+      "correct_answer": "A",
+      "explanation": "Der Entscheidungsbaum-Algorithmus modelliert Entscheidungen und deren möglichen Konsequenzen in einer baumartigen Struktur, wodurch er besonders intuitiv und leicht zu interpretieren ist. Andere genannte Algorithmen haben unterschiedliche Ansätze zur Datenverarbeitung und Vorhersage, sind jedoch nicht baumbasiert.",
+      "difficulty": 8
     }
   ]
 }

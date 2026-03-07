@@ -1,0 +1,168 @@
+{
+  "date": "2026-03-07",
+  "generated_at": "2026-03-07T03:43:16Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Hamilton’sches Prinzip (Prinzip der stationären Wirkung)",
+      "question": "Which of the following principles is the foundation of Hamilton's principle?",
+      "choices": [
+        "A: The principle of virtual work",
+        "B: The principle of conservation of energy",
+        "C: The principle of conservation of momentum",
+        "D: The principle of stationary action"
+      ],
+      "correct_answer": "D",
+      "explanation": "The Hamiltonian principle is based on the idea that the actual motion of a system is the one that makes the action stationary. This means that the variation of the action is zero, which is central to the formulation of mechanics.",
+      "difficulty": 7,
+      "subcategory": "Hamilton’sches Prinzip (Prinzip der stationären Wirkung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Laplace-Gleichung in Kugelkoordinaten",
+      "question": "Which form of the Laplace's equation applies in spherical coordinates?",
+      "choices": [
+        "A: ∂²φ/∂r² + 2/r ∂φ/∂r + 1/r² ∂²φ/∂θ² + 1/(r²sinθ) ∂/∂φ(sinθ ∂φ/∂φ) = 0",
+        "B: ∇φ = 0",
+        "C: ∇²φ = 0",
+        "D: ∇²φ = 1/r²"
+      ],
+      "correct_answer": "C",
+      "explanation": "The Laplace's equation describes the behavior of scalar fields, and in spherical coordinates, it takes the form ∇²φ = 0. This equation is fundamental in electrodynamics and describes potential fields in an isotropic space.",
+      "difficulty": 3,
+      "subcategory": "Laplace-Gleichung in Kugelkoordinaten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "d’Alembert’sches Prinzip",
+      "question": "What does d'Alembert's principle describe in analytical mechanics?",
+      "choices": [
+        "A: It describes energy conservation in a closed system.",
+        "B: It formulates the laws of thermodynamics.",
+        "C: It establishes a relationship between forces and accelerations.",
+        "D: It explains the quantum nature of particles."
+      ],
+      "correct_answer": "C",
+      "explanation": "d'Alembert's principle connects dynamics with kinematics by stating that the sum of the forces acting on a system is equal to the mass of the system multiplied by the acceleration. It is an important basis for deriving the equations of motion in analytical mechanics.",
+      "difficulty": 4,
+      "subcategory": "d’Alembert’sches Prinzip"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Elektrostatik der Dielektrika",
+      "question": "Which of the following factors most influences the relative permittivity of a dielectric?",
+      "choices": [
+        "A: The temperature of the dielectric",
+        "B: The shape of the dielectric",
+        "C: The size of the dielectric",
+        "D: The chemical structure of the material"
+      ],
+      "correct_answer": "D",
+      "explanation": "The relative permittivity of a dielectric depends heavily on the chemical structure and molecular properties of the material. While temperature changes can also have an influence, the chemical composition is crucial for the polarization properties of the dielectric.",
+      "difficulty": 7,
+      "subcategory": "Elektrostatik der Dielektrika"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Strukturfaktor",
+      "question": "What does the structure factor describe in solid-state physics?",
+      "choices": [
+        "A: The mechanical properties of liquids.",
+        "B: The interaction between electrons and photons.",
+        "C: The spatial distribution of atoms in a crystal.",
+        "D: The temperature dependence of electrical resistances."
+      ],
+      "correct_answer": "C",
+      "explanation": "The structure factor is a measure of the spatial arrangement of atoms in a crystal and is often used in X-ray diffraction to obtain information about the crystal structure. It describes how the atoms are arranged in space and is crucial for understanding material properties.",
+      "difficulty": 5,
+      "subcategory": "Strukturfaktor"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Carnot- und allgemeine Kreisprozesse",
+      "question": "What does the Carnot cycle describe in thermodynamics?",
+      "choices": [
+        "A: An ideal cycle representing the maximum efficiency of a heat engine.",
+        "B: A state where all particles of a substance are at rest.",
+        "C: A process for cooling liquids through evaporation.",
+        "D: A process for generating electrical energy from heat."
+      ],
+      "correct_answer": "A",
+      "explanation": "The Carnot cycle is a theoretical cycle that shows how a heat engine can operate with maximum efficiency. It serves as a reference to evaluate the efficiency of real thermodynamic processes.",
+      "difficulty": 3,
+      "subcategory": "Carnot- und allgemeine Kreisprozesse"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Kernspaltung",
+      "question": "What is the main product of the fission of Uranium-235?",
+      "choices": [
+        "A: Protons",
+        "B: Neutrons",
+        "C: Photons",
+        "D: Electrons"
+      ],
+      "correct_answer": "B",
+      "explanation": "In the fission of Uranium-235, the atomic nucleus splits into two smaller nuclei, releasing neutrons in the process. These neutrons can trigger further fissions, leading to a chain reaction.",
+      "difficulty": 5,
+      "subcategory": "Kernspaltung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Grenzflächen & Haftspannung",
+      "question": "Which of the following statements best describes the adhesive tension at a liquid interface?",
+      "choices": [
+        "A: Adhesive tension can be neglected when surface tension is high.",
+        "B: Adhesive tension only occurs in pure liquids and not in mixtures.",
+        "C: Adhesive tension results from the intermolecular forces between the molecules of the liquid and the solid surface.",
+        "D: Adhesive tension is independent of temperature and remains constant."
+      ],
+      "correct_answer": "C",
+      "explanation": "Adhesive tension describes the interactions between the molecules of a liquid and a solid surface, with intermolecular forces playing a crucial role. It is temperature-dependent and can be influenced by the type of liquid and its purity.",
+      "difficulty": 9,
+      "subcategory": "Grenzflächen & Haftspannung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Absolute thermodynamische Temperaturskala",
+      "question": "What is the absolute zero on the Kelvin scale?",
+      "choices": [
+        "A: 100 degrees Celsius",
+        "B: -273.15 degrees Celsius",
+        "C: 0 Kelvin",
+        "D: 0 degrees Celsius"
+      ],
+      "correct_answer": "C",
+      "explanation": "The absolute zero on the Kelvin scale is 0 Kelvin, which corresponds to -273.15 degrees Celsius. At this point, particles have the lowest possible thermal energy.",
+      "difficulty": 2,
+      "subcategory": "Absolute thermodynamische Temperaturskala"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Lagrange-Gleichungen",
+      "question": "Which of the following statements applies to the Lagrange equations?",
+      "choices": [
+        "A: They are identical to Newton's equations of motion.",
+        "B: They cannot be used for non-conservative systems.",
+        "C: They are only applicable to systems with constant forces.",
+        "D: They describe the motion of a system in terms of its generalized coordinates."
+      ],
+      "correct_answer": "D",
+      "explanation": "The Lagrange equations allow describing the motion of a system using generalized coordinates, enabling a more flexible handling of complex systems. They are applicable to both conservative and non-conservative systems and are not identical to Newton's equations but an alternative formulation of mechanics.",
+      "difficulty": 6,
+      "subcategory": "Lagrange-Gleichungen"
+    }
+  ]
+}
