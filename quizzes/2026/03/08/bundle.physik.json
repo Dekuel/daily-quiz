@@ -1,0 +1,169 @@
+{
+  "date": "2026-03-08",
+  "generated_at": "2026-03-08T03:48:53Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Relativistischer Impuls, Energie und Kraft",
+      "question": "Wie verändert sich der relativistische Impuls eines Körpers, wenn seine Geschwindigkeit sich der Lichtgeschwindigkeit nähert?",
+      "choices": [
+        "A: Er nimmt zu und nähert sich unendlich.",
+        "B: Er bleibt konstant.",
+        "C: Er nimmt ab.",
+        "D: Er wird negativ."
+      ],
+      "correct_answer": "A",
+      "explanation": "Der relativistische Impuls eines Körpers nimmt zu, je näher die Geschwindigkeit des Körpers an die Lichtgeschwindigkeit heranrückt. In der Nähe der Lichtgeschwindigkeit wächst der Impuls exponentiell und kann theoretisch unendlich werden.",
+      "difficulty": 4,
+      "subcategory": "Relativistischer Impuls, Energie und Kraft"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Separation der Variablen in HJ",
+      "question": "Was ist das Hauptziel der Separation der Variablen in der Hamilton-Jacobi-Theorie?",
+      "choices": [
+        "A: Die Zeit unabhängig zu machen.",
+        "B: Die Masse eines Körpers zu bestimmen.",
+        "C: Die Lösung der Bewegungsgleichungen zu vereinfachen.",
+        "D: Die Energie eines Systems zu maximieren."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Separation der Variablen in der Hamilton-Jacobi-Theorie dient dem Zweck, die Bewegungsgleichungen eines Systems zu vereinfachen. Dadurch können die Lösungen leichter gefunden und analysiert werden.",
+      "difficulty": 4,
+      "subcategory": "Separation der Variablen in HJ"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Van-der-Waals-Bindung",
+      "question": "Welche Aussage über Van-der-Waals-Bindungen ist korrekt?",
+      "choices": [
+        "A: Sie sind immer stark genug, um die Eigenschaften eines Festkörpers zu dominieren.",
+        "B: Sie sind ausschließlich in metallischen Festkörpern zu finden.",
+        "C: Sie entstehen durch temporäre Dipole zwischen neutralen Atomen.",
+        "D: Sie sind die stärksten chemischen Bindungen."
+      ],
+      "correct_answer": "C",
+      "explanation": "Van-der-Waals-Bindungen sind schwache, intermolekulare Kräfte, die durch temporäre Dipole entstehen. Diese Bindungen sind in vielen nichtmetallischen Festkörpern und Flüssigkeiten zu finden und beeinflussen deren physikalische Eigenschaften, sind jedoch nicht die stärksten Bindungen.",
+      "difficulty": 6,
+      "subcategory": "Van-der-Waals-Bindung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Josephson-Effekt",
+      "question": "Was beschreibt der Josephson-Effekt im Kontext supraleitender Materialien?",
+      "choices": [
+        "A: Die Fähigkeit von Supraleitern, elektrischen Strom ohne Widerstand zu leiten.",
+        "B: Die Veränderung der kritischen Temperatur eines Supraleiters unter Druck.",
+        "C: Die Erzeugung von Magnetfeldern durch Supraleiter bei Temperaturen nahe dem absoluten Nullpunkt.",
+        "D: Die Wechselwirkung zwischen zwei Supraleitern über eine dünne isolierende Schicht."
+      ],
+      "correct_answer": "D",
+      "explanation": "Der Josephson-Effekt beschreibt das Phänomen, dass ein elektrischer Strom durch einen Isolator fließen kann, der zwei Supraleiter trennt, ohne dass eine Spannung angelegt wird. Dies ist eine fundamentale Eigenschaft von Supraleitern und spielt eine wichtige Rolle in der Quantenmechanik und bei der Entwicklung von Quantencomputern.",
+      "difficulty": 8,
+      "subcategory": "Josephson-Effekt"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Elektrostatische Feldenergie",
+      "question": "Was beschreibt die elektrostatische Feldenergie eines Systems von Punktladungen?",
+      "choices": [
+        "A: Die Energie, die erforderlich ist, um die Ladungen zu einem bestimmten Abstand zu bringen.",
+        "B: Die Energie, die bei der Bewegung der Ladungen freigesetzt wird.",
+        "C: Die Energie, die durch die Temperatur der Ladungen beeinflusst wird.",
+        "D: Die Energie, die durch den Luftwiderstand der Ladungen entsteht."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die elektrostatische Feldenergie ist die Arbeit, die erforderlich ist, um Punktladungen gegen die elektrische Kraft auf einen bestimmten Abstand zu bringen. Diese Energie hängt von den Werten der Ladungen und dem Abstand zwischen ihnen ab.",
+      "difficulty": 3,
+      "subcategory": "Elektrostatische Feldenergie"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Inelastische Kernanregungen",
+      "question": "Was passiert bei einer inelastischen Kernanregung?",
+      "choices": [
+        "A: Der Kern zerfällt sofort in kleinere Nukleonen.",
+        "B: Der Kern absorbiert Energie und wird in einen angeregten Zustand versetzt.",
+        "C: Der Kern gibt Energie in Form von Gamma-Strahlung ab.",
+        "D: Der Kern wird in seinen Grundzustand zurückgeführt."
+      ],
+      "correct_answer": "B",
+      "explanation": "Bei einer inelastischen Kernanregung absorbiert der Atomkern Energie durch den Einfluss eines Projektils und gelangt in einen angeregten Zustand. Dies kann zu weiteren Prozessen führen, wie z.B. dem Emittieren von Strahlung, wenn der Kern wieder in einen stabilen Zustand übergeht.",
+      "difficulty": 4,
+      "subcategory": "Inelastische Kernanregungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Separation der Variablen & orthogonale Funktionen",
+      "question": "Welche der folgenden Aussagen zur Separation der Variablen in der Elektrodynamik ist korrekt?",
+      "choices": [
+        "A: Die Separation der Variablen ist nur in eindimensionalen Systemen anwendbar.",
+        "B: Die Separation der Variablen kann verwendet werden, um die Laplace-Gleichung in orthogonalen Koordinaten zu lösen.",
+        "C: Die Methode der Separation der Variablen führt immer zu einer eindeutigen Lösung.",
+        "D: Orthogonale Funktionen sind irrelevant für die Lösung von Differentialgleichungen in der Elektrodynamik."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Separation der Variablen ist ein nützliches mathematisches Verfahren, um partielle Differentialgleichungen, wie die Laplace-Gleichung, in orthogonalen Koordinaten zu lösen. Diese Technik ermöglicht es, komplexe Probleme in einfachere, handhabbare Teile zu zerlegen und die Lösungen zu kombinieren.",
+      "difficulty": 7,
+      "subcategory": "Separation der Variablen & orthogonale Funktionen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Randwertprobleme der Elektrostatik (Laplace-Gleichung)",
+      "question": "Was beschreibt die Laplace-Gleichung in der Elektrostatik in Bezug auf das elektrische Potential?",
+      "choices": [
+        "A: Es hat in einem Gebiet ohne Ladungen den Wert null.",
+        "B: Es ist gleich der Laplace-Operator des elektrischen Feldes.",
+        "C: Es ist gleich der Ableitung des elektrischen Feldes.",
+        "D: Es ist konstant in einem geschlossenen Raum."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Laplace-Gleichung beschreibt, dass das elektrische Potential in einem Bereich ohne freie Ladungen eine harmonische Funktion ist. Dies bedeutet, dass die Divergenz des elektrischen Feldes gleich null ist und somit das Potential durch seine Umgebung beeinflusst wird.",
+      "difficulty": 6,
+      "subcategory": "Randwertprobleme der Elektrostatik (Laplace-Gleichung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Nicht-holonome Zwangsbedingungen",
+      "question": "Welche Aussage über nicht-holonome Zwangsbedingungen ist korrekt?",
+      "choices": [
+        "A: Sie beschränken die Bewegung eines Systems auf eine bestimmte Richtung, ohne die Gesamtenergie des Systems zu beeinflussen.",
+        "B: Sie sind immer zeitabhängig und verändern sich während der Bewegung des Systems.",
+        "C: Sie sind Bedingungen, die nicht durch Integrationskonstanten ausgedrückt werden können.",
+        "D: Sie können in der Regel durch geeignete Koordinatentransformationen in holonome Zwangsbedingungen umgewandelt werden."
+      ],
+      "correct_answer": "C",
+      "explanation": "Nicht-holonome Zwangsbedingungen können nicht durch Integrationskonstanten ausgedrückt werden und sind oft von der Geschwindigkeit abhängig. Dies unterscheidet sie von holonomen Zwangsbedingungen, die in formale Gleichungen integriert werden können.",
+      "difficulty": 6,
+      "subcategory": "Nicht-holonome Zwangsbedingungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Bindungsenergie von Edelgaskristallen",
+      "question": "Welche der folgenden Aussagen beschreibt am besten die Bindungsenergie von Edelgaskristallen?",
+      "choices": [
+        "A: Die Bindungsenergie ist sehr hoch, was zu einer stabilen Kristallstruktur führt.",
+        "B: Die Bindungsenergie ist unabhängig von der Temperatur.",
+        "C: Die Bindungsenergie ist gering, was die Edelgaskristalle instabil macht.",
+        "D: Die Bindungsenergie spielt keine Rolle in der Stabilität von Edelgaskristallen."
+      ],
+      "correct_answer": "A",
+      "explanation": "Edelgaskristalle zeichnen sich durch ihre hohe Bindungsenergie aus, die auf die starken Van-der-Waals-Kräfte zwischen den Atomen zurückzuführen ist. Diese hohe Bindungsenergie führt zu einer stabilen Kristallstruktur, die bei Raumtemperatur erhalten bleibt.",
+      "difficulty": 4,
+      "subcategory": "Bindungsenergie von Edelgaskristallen"
+    }
+  ]
+}
