@@ -1,0 +1,169 @@
+{
+  "date": "2026-03-09",
+  "generated_at": "2026-03-09T03:51:36Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Kräftefreier symmetrischer Kreisel",
+      "question": "Was passiert mit der Präzession eines symmetrischen Kreisels, wenn seine Rotationsgeschwindigkeit erhöht wird?",
+      "choices": [
+        "A: Die Präzessionsbewegung bleibt unverändert.",
+        "B: Die Präzessionsbewegung wird schneller.",
+        "C: Der Kreisel kippt um.",
+        "D: Die Präzessionsbewegung hört auf."
+      ],
+      "correct_answer": "B",
+      "explanation": "Wenn die Rotationsgeschwindigkeit eines symmetrischen Kreisels erhöht wird, nimmt die Stabilität zu, was die Präzessionsbewegung beschleunigt. Dies ist eine Folge der Erhaltung des Drehimpulses und der damit verbundenen dynamischen Eigenschaften des Kreisel. Ein schneller rotierender Kreisel hat eine ausgeprägtere Präzession.",
+      "difficulty": 6,
+      "subcategory": "Kräftefreier symmetrischer Kreisel"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Lorentz-Transformation (Grundform)",
+      "question": "Was beschreibt die Lorentz-Transformation in der speziellen Relativitätstheorie?",
+      "choices": [
+        "A: Die Gravitation zwischen zwei Massen im Universum.",
+        "B: Die Beziehung zwischen Raum und Zeit für sich relativ bewegende Objekte.",
+        "C: Die Bewegung von Teilchen in einem elektrischen Feld.",
+        "D: Die Wechselwirkung von Photonen mit Materie."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Lorentz-Transformation beschreibt, wie sich Zeit und Raum verändern, wenn sich Objekte relativ zueinander bewegen. Sie ist ein zentrales Element der speziellen Relativitätstheorie und berücksichtigt die endliche Lichtgeschwindigkeit.",
+      "difficulty": 7,
+      "subcategory": "Lorentz-Transformation (Grundform)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Inhomogene Wellengleichung",
+      "question": "Welche der folgenden Aussagen beschreibt am besten die Inhomogene Wellengleichung in der Elektrodynamik?",
+      "choices": [
+        "A: Sie beschreibt die Ausbreitung von elektromagnetischen Wellen in einem homogenen Medium.",
+        "B: Sie hat keine Lösungen in Bereichen mit variabler Permeabilität.",
+        "C: Sie berücksichtigt Quellen wie elektrische Ladungen und Ströme, die elektromagnetische Felder erzeugen.",
+        "D: Sie ist nur für statische elektrische Felder anwendbar."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die inhomogene Wellengleichung ist eine Erweiterung der homogenen Wellengleichung und berücksichtigt Quellen wie elektrische Ladungen und Ströme, die elektromagnetische Felder generieren. Ohne diese Quellen würde die Gleichung nur die Wellenbewegung in einem homogenen Medium beschreiben.",
+      "difficulty": 7,
+      "subcategory": "Inhomogene Wellengleichung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Idealer Paramagnet (Brillouin/Langevin-Idee)",
+      "question": "Was beschreibt die Langevin-Theorie für einen idealen Paramagneten im thermodynamischen Gleichgewicht?",
+      "choices": [
+        "A: Die magnetische Suszeptibilität nimmt mit steigender Temperatur ab.",
+        "B: Die magnetische Suszeptibilität ist unabhängig von der Temperatur.",
+        "C: Die magnetische Suszeptibilität ist konstant und unabhängig von der externen Magnetfeldstärke.",
+        "D: Die magnetische Suszeptibilität steigt mit der Temperatur."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Langevin-Theorie beschreibt, dass die magnetische Suszeptibilität eines idealen Paramagneten mit steigender Temperatur abnimmt, da thermische Bewegungen die Ausrichtung der Spins stören. Dies führt dazu, dass bei höheren Temperaturen weniger Spins in die gleiche Richtung ausgerichtet sind, was die Magnetisierung verringert.",
+      "difficulty": 8,
+      "subcategory": "Idealer Paramagnet (Brillouin/Langevin-Idee)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Wärmetransport in dielektrischen Kristallen (Überblick)",
+      "question": "Was ist der Hauptmechanismus für den Wärmetransport in dielektrischen Kristallen?",
+      "choices": [
+        "A: Photonen",
+        "B: Ionen",
+        "C: Elektronen",
+        "D: Phononen"
+      ],
+      "correct_answer": "D",
+      "explanation": "In dielektrischen Kristallen erfolgt der Wärmetransport hauptsächlich durch Phononen, die quantisierten Schwingungen des Gitters. Diese tragen die Wärmeenergie durch elastische Stöße und Wechselwirkungen im Kristallgitter weiter.",
+      "difficulty": 2,
+      "subcategory": "Wärmetransport in dielektrischen Kristallen (Überblick)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Welle-Teilchen-Dualismus (Licht)",
+      "question": "Was beschreibt der Welle-Teilchen-Dualismus in Bezug auf Licht?",
+      "choices": [
+        "A: Licht besteht ausschließlich aus Teilchen.",
+        "B: Licht ist immer eine Welle.",
+        "C: Licht hat keine Masse.",
+        "D: Licht kann sowohl als Welle als auch als Teilchen betrachtet werden."
+      ],
+      "correct_answer": "D",
+      "explanation": "Der Welle-Teilchen-Dualismus besagt, dass Licht sowohl Eigenschaften von Wellen als auch von Teilchen besitzt. Dies bedeutet, dass Licht in bestimmten Experimenten wie eine Welle und in anderen wie ein Teilchen verhält.",
+      "difficulty": 1,
+      "subcategory": "Welle-Teilchen-Dualismus (Licht)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Einsteins Postulate der SRT",
+      "question": "Welches der folgenden Postulate ist ein zentrales Element der speziellen Relativitätstheorie von Einstein?",
+      "choices": [
+        "A: Materie kann sich schneller als Licht bewegen, wenn sie genug Energie erhält.",
+        "B: Die Relativität von Zeit und Raum gilt nur für sehr große Geschwindigkeiten.",
+        "C: Die Zeit verläuft für alle Beobachter gleich schnell, unabhängig von ihrer relativistischen Geschwindigkeit.",
+        "D: Die Lichtgeschwindigkeit ist im Vakuum für alle Beobachter unabhängig von ihrer Bewegungszustände konstant."
+      ],
+      "correct_answer": "D",
+      "explanation": "Einsteins erstes Postulat der speziellen Relativitätstheorie besagt, dass die Lichtgeschwindigkeit im Vakuum für alle Beobachter konstant ist, unabhängig von deren Bewegungszustand. Dieses Konzept revolutionierte unser Verständnis von Raum und Zeit und führte zu vielen gegenintuitiven Ergebnissen in der Physik.",
+      "difficulty": 9,
+      "subcategory": "Einsteins Postulate der SRT"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Transistoren",
+      "question": "Welcher Mechanismus ermöglicht es einem Bipolartransistor, als Verstärker zu fungieren?",
+      "choices": [
+        "A: Die Anwendung von Wärmeleitfähigkeit zur Erhöhung der elektrischen Leitfähigkeit",
+        "B: Die Erzeugung eines elektrischen Feldes in einem Halbleitermaterial ohne externe Energie",
+        "C: Die Stromverstärkung durch die Kontrolle des Basisstroms",
+        "D: Die Nutzung von Tunnel-Effekten zur Stromerzeugung"
+      ],
+      "correct_answer": "C",
+      "explanation": "Ein Bipolartransistor verstärkt Signale, indem er den kleinen Basisstrom nutzt, um einen viel größeren Kollektorstrom zu steuern. Dies geschieht durch die Wechselwirkung zwischen den Halbleitermaterialien, die den Transistor bilden, und ermöglicht eine signifikante Verstärkung des Eingangssignals.",
+      "difficulty": 9,
+      "subcategory": "Transistoren"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Spin-Bahn-Wechselwirkung",
+      "question": "Welche der folgenden Aussagen beschreibt am besten die Spin-Bahn-Wechselwirkung in der Quantenmechanik?",
+      "choices": [
+        "A: Eine Wechselwirkung, die ausschließlich in klassischer Mechanik vorkommt.",
+        "B: Eine Wechselwirkung, die nur bei Photonen auftritt.",
+        "C: Die Wechselwirkung zwischen dem Spin eines Teilchens und seinem orbitalen Drehimpuls.",
+        "D: Die Wechselwirkung, die den Energiezustand von Elektronen in Atomen nicht beeinflusst."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Spin-Bahn-Wechselwirkung beschreibt die Wechselwirkung zwischen dem Spin eines Teilchens, wie beispielsweise eines Elektrons, und seinem orbitalen Drehimpuls. Diese Wechselwirkung hat signifikante Auswirkungen auf die Energieniveaus und die Struktur von Atomen, insbesondere in schweren Elementen.",
+      "difficulty": 7,
+      "subcategory": "Spin-Bahn-Wechselwirkung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Laminar: parallele Wände",
+      "question": "Was beschreibt die laminare Strömung zwischen parallelen Wänden?",
+      "choices": [
+        "A: Die Strömung findet nur in offenen Gewässern statt.",
+        "B: Die Strömung ist turbulent und chaotisch.",
+        "C: Die Strömung ist unabhängig von der Viskosität des Fluids.",
+        "D: Die Strömung verläuft gleichmäßig und schichtweise."
+      ],
+      "correct_answer": "D",
+      "explanation": "Bei laminarer Strömung bewegen sich die Fluidpartikel in parallelen Schichten, ohne dass es zu nennenswerten Querverwirbelungen kommt. Diese Art der Strömung tritt häufig bei niedrigen Geschwindigkeiten und hohen Viskositäten auf.",
+      "difficulty": 1,
+      "subcategory": "Laminar: parallele Wände"
+    }
+  ]
+}

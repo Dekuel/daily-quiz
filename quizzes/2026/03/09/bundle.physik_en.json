@@ -1,0 +1,168 @@
+{
+  "date": "2026-03-09",
+  "generated_at": "2026-03-09T03:52:20Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Kräftefreier symmetrischer Kreisel",
+      "question": "What happens to the precession of a symmetric gyroscope when its rotational speed is increased?",
+      "choices": [
+        "A: The precession movement remains unchanged.",
+        "B: The precession movement speeds up.",
+        "C: The gyroscope tilts over.",
+        "D: The precession movement stops."
+      ],
+      "correct_answer": "B",
+      "explanation": "When the rotational speed of a symmetric gyroscope is increased, stability increases, accelerating the precession movement. This is a consequence of the conservation of angular momentum and the associated dynamic properties of the gyroscope. A faster rotating gyroscope exhibits a more pronounced precession.",
+      "difficulty": 6,
+      "subcategory": "Kräftefreier symmetrischer Kreisel"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Lorentz-Transformation (Grundform)",
+      "question": "What does the Lorentz transformation describe in special relativity theory?",
+      "choices": [
+        "A: The gravitational interaction between two masses in the universe.",
+        "B: The relationship between space and time for objects moving relative to each other.",
+        "C: The motion of particles in an electric field.",
+        "D: The interaction of photons with matter."
+      ],
+      "correct_answer": "B",
+      "explanation": "The Lorentz transformation describes how time and space change when objects move relative to each other. It is a central element of special relativity theory and takes into account the finite speed of light.",
+      "difficulty": 7,
+      "subcategory": "Lorentz-Transformation (Grundform)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Inhomogene Wellengleichung",
+      "question": "Which of the following statements best describes the inhomogeneous wave equation in electrodynamics?",
+      "choices": [
+        "A: It describes the propagation of electromagnetic waves in a homogeneous medium.",
+        "B: It has no solutions in regions with variable permeability.",
+        "C: It takes into account sources like electric charges and currents that generate electromagnetic fields.",
+        "D: It is only applicable to static electric fields."
+      ],
+      "correct_answer": "C",
+      "explanation": "The inhomogeneous wave equation is an extension of the homogeneous wave equation and considers sources such as electric charges and currents that generate electromagnetic fields. Without these sources, the equation would only describe wave propagation in a homogeneous medium.",
+      "difficulty": 7,
+      "subcategory": "Inhomogene Wellengleichung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Idealer Paramagnet (Brillouin/Langevin-Idee)",
+      "question": "What does the Langevin theory describe for an ideal paramagnet in thermodynamic equilibrium?",
+      "choices": [
+        "A: The magnetic susceptibility decreases with increasing temperature.",
+        "B: The magnetic susceptibility is independent of temperature.",
+        "C: The magnetic susceptibility is constant and independent of the external magnetic field strength.",
+        "D: The magnetic susceptibility increases with temperature."
+      ],
+      "correct_answer": "A",
+      "explanation": "The Langevin theory describes that the magnetic susceptibility of an ideal paramagnet decreases with increasing temperature, as thermal motions disrupt the alignment of spins. This results in fewer spins being aligned in the same direction at higher temperatures, reducing magnetization.",
+      "difficulty": 8,
+      "subcategory": "Idealer Paramagnet (Brillouin/Langevin-Idee)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Wärmetransport in dielektrischen Kristallen (Überblick)",
+      "question": "What is the main mechanism for heat transport in dielectric crystals?",
+      "choices": [
+        "A: Photons",
+        "B: Ions",
+        "C: Electrons",
+        "D: Phonons"
+      ],
+      "correct_answer": "D",
+      "explanation": "In dielectric crystals, heat transport mainly occurs through phonons, which are quantized lattice vibrations. These carry thermal energy through elastic collisions and interactions in the crystal lattice.",
+      "difficulty": 2,
+      "subcategory": "Wärmetransport in dielektrischen Kristallen (Überblick)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Welle-Teilchen-Dualismus (Licht)",
+      "question": "What does the wave-particle duality describe regarding light?",
+      "choices": [
+        "A: Light consists solely of particles.",
+        "B: Light is always a wave.",
+        "C: Light has no mass.",
+        "D: Light can be considered both as a wave and as a particle."
+      ],
+      "correct_answer": "D",
+      "explanation": "The wave-particle duality states that light possesses properties of both waves and particles. This means that light behaves like a wave in certain experiments and like a particle in others.",
+      "difficulty": 1,
+      "subcategory": "Welle-Teilchen-Dualismus (Licht)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Einsteins Postulate der SRT",
+      "question": "Which of the following postulates is a central element of Einstein's special theory of relativity?",
+      "choices": [
+        "A: Matter can move faster than light if it receives enough energy.",
+        "B: The relativity of time and space applies only to very high speeds.",
+        "C: Time passes at the same rate for all observers, regardless of their relativistic velocity.",
+        "D: The speed of light in a vacuum is constant for all observers regardless of their motion states."
+      ],
+      "correct_answer": "D",
+      "explanation": "Einstein's first postulate of the special theory of relativity states that the speed of light in a vacuum is constant for all observers, regardless of their motion state. This concept revolutionized our understanding of space and time, leading to many counterintuitive results in physics.",
+      "difficulty": 9,
+      "subcategory": "Einsteins Postulate der SRT"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Transistoren",
+      "question": "Which mechanism allows a bipolar transistor to function as an amplifier?",
+      "choices": [
+        "A: Applying thermal conductivity to increase electrical conductivity",
+        "B: Generating an electric field in a semiconductor material without external energy",
+        "C: Current amplification by controlling the base current",
+        "D: Using tunnel effects for current generation"
+      ],
+      "correct_answer": "C",
+      "explanation": "A bipolar transistor amplifies signals by using the small base current to control a much larger collector current. This is achieved through the interaction between the semiconductor materials forming the transistor, allowing significant amplification of the input signal.",
+      "difficulty": 9,
+      "subcategory": "Transistoren"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Spin-Bahn-Wechselwirkung",
+      "question": "Which of the following statements best describes the spin-orbit interaction in quantum mechanics?",
+      "choices": [
+        "A: An interaction that occurs exclusively in classical mechanics.",
+        "B: An interaction that occurs only with photons.",
+        "C: The interaction between the spin of a particle and its orbital angular momentum.",
+        "D: An interaction that does not affect the energy state of electrons in atoms."
+      ],
+      "correct_answer": "C",
+      "explanation": "The spin-orbit interaction describes the interaction between the spin of a particle, such as an electron, and its orbital angular momentum. This interaction has significant effects on the energy levels and structure of atoms, especially in heavy elements.",
+      "difficulty": 7,
+      "subcategory": "Spin-Bahn-Wechselwirkung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Laminar: parallele Wände",
+      "question": "What does laminar flow between parallel walls describe?",
+      "choices": [
+        "A: Flow occurs only in open waters.",
+        "B: Flow is turbulent and chaotic.",
+        "C: Flow is independent of the fluid's viscosity.",
+        "D: Flow occurs uniformly and in layers."
+      ],
+      "correct_answer": "D",
+      "explanation": "In laminar flow, fluid particles move in parallel layers without significant cross-stream mixing. This type of flow often occurs at low speeds and high viscosities.",
+      "difficulty": 1,
+      "subcategory": "Laminar: parallele Wände"
+    }
+  ]
+}
