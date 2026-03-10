@@ -1,0 +1,169 @@
+{
+  "date": "2026-03-10",
+  "generated_at": "2026-03-10T03:49:35Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Teilbarkeit der Materie (historisch)",
+      "question": "Wer war der erste Physiker, der die Idee der Teilbarkeit der Materie in subatomare Teilchen formulierte und damit die Grundlagen der Quantenmechanik beeinflusste?",
+      "choices": [
+        "A: Max Planck",
+        "B: Ernest Rutherford",
+        "C: Niels Bohr",
+        "D: Albert Einstein"
+      ],
+      "correct_answer": "A",
+      "explanation": "Max Planck führte die Idee ein, dass Energie in diskreten Einheiten (Quantene) quantisiert ist, was die Grundlage für die Quantenmechanik bildete. Diese Entdeckung führte dazu, dass Materie als teilbar in subatomare Teilchen angesehen wurde, was das Verständnis der atomaren Struktur revolutionierte.",
+      "difficulty": 6,
+      "subcategory": "Teilbarkeit der Materie (historisch)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Kanonische Dichtematrix & Thermodynamik magnetischer Systeme",
+      "question": "Welche Aussage beschreibt korrekt die Bedeutung der kanonischen Dichtematrix in der statistischen Mechanik für magnetische Systeme?",
+      "choices": [
+        "A: Sie beschreibt ausschließlich die Wechselwirkungen zwischen magnetischen Momenten in einem System.",
+        "B: Sie ermöglicht die Berechnung der thermodynamischen Eigenschaften eines Systems bei konstantem Volumen und Temperatur.",
+        "C: Sie liefert keine Informationen über die Zustandsverteilung der Teilchen im System.",
+        "D: Sie ist nur für nicht-magnetische Systeme relevant und hat keine Anwendung in der Thermodynamik."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die kanonische Dichtematrix ist entscheidend für die Berechnung der thermodynamischen Eigenschaften eines Systems, insbesondere bei konstantem Volumen und Temperatur, da sie die statistische Verteilung der Zustände beschreibt. Sie hilft dabei, die makroskopischen Eigenschaften wie Energie und Entropie eines magnetischen Systems zu verstehen.",
+      "difficulty": 8,
+      "subcategory": "Kanonische Dichtematrix & Thermodynamik magnetischer Systeme"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Quasiklassische Näherung (WKB)",
+      "question": "Was beschreibt die WKB-Näherung in der Quantenmechanik?",
+      "choices": [
+        "A: Sie ist ein Verfahren zur Berechnung von Teilchenmasse.",
+        "B: Sie beschreibt die Wechselwirkung zwischen Licht und Materie.",
+        "C: Sie erklärt die relativistische Energie-Masse-Relation.",
+        "D: Sie approximiert die Lösungen der Schrödinger-Gleichung in Regionen mit klassischer Bewegung."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die WKB-Näherung (Wentzel-Kramers-Brillouin) ist eine Methode zur Approximation von Lösungen der Schrödinger-Gleichung in Bereichen, wo die klassische Mechanik anwendbar ist. Sie wird oft verwendet, um quantenmechanische Probleme zu lösen, wenn die Energie des Teilchens hoch ist im Vergleich zur potenziellen Energie.",
+      "difficulty": 4,
+      "subcategory": "Quasiklassische Näherung (WKB)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Beugung an mehrdimensionalen Gittern",
+      "question": "Was beschreibt die Beugung an einem zweidimensionalen Gitter?",
+      "choices": [
+        "A: Die Absorption von Licht in einem Material.",
+        "B: Die Brechung von Lichtstrahlen beim Durchgang durch ein Prisma.",
+        "C: Die Reflexion von Lichtstrahlen an einer Oberfläche.",
+        "D: Die Änderung der Lichtintensität in verschiedenen Richtungen."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Beugung an einem zweidimensionalen Gitter beschreibt, wie Lichtwellen an den Gitterlinien abgelenkt werden, was zu einer Änderung der Lichtintensität in verschiedenen Richtungen führt. Dieses Phänomen ist grundlegend für die Analyse von Lichtinterferenzmustern.",
+      "difficulty": 1,
+      "subcategory": "Beugung an mehrdimensionalen Gittern"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Potentiale & Hauptsätze der Gleichgewichtsthermodynamik",
+      "question": "Welcher Hauptsatz der Thermodynamik besagt, dass die Energie eines geschlossenen Systems konstant bleibt?",
+      "choices": [
+        "A: Nullter Hauptsatz",
+        "B: Erster Hauptsatz",
+        "C: Zweiter Hauptsatz",
+        "D: Dritter Hauptsatz"
+      ],
+      "correct_answer": "B",
+      "explanation": "Der erste Hauptsatz der Thermodynamik, auch bekannt als das Energieerhaltungsgesetz, besagt, dass die Gesamtenergie in einem geschlossenen System konstant bleibt, obwohl sie zwischen verschiedenen Formen (z.B. Wärme und Arbeit) umgewandelt werden kann. Dies ist ein grundlegendes Prinzip der Thermodynamik.",
+      "difficulty": 4,
+      "subcategory": "Potentiale & Hauptsätze der Gleichgewichtsthermodynamik"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Vergrößernde optische Instrumente",
+      "question": "Welches Prinzip wird in einem Refraktionsmikroskop verwendet, um das Bild zu vergrößern?",
+      "choices": [
+        "A: Interferenz von Lichtwellen",
+        "B: Brechung des Lichts durch konvexe Linsen",
+        "C: Beugung von Licht an einem Gitter",
+        "D: Reflexion des Lichts an einer konkaven Oberfläche"
+      ],
+      "correct_answer": "B",
+      "explanation": "Ein Refraktionsmikroskop nutzt die Brechung des Lichts durch konvexe Linsen, um das Bild eines Objekts zu vergrößern. Die Linsen sind so angeordnet, dass sie die Lichtstrahlen bündeln und ein vergrößertes Bild erzeugen, das durch das Okular betrachtet werden kann.",
+      "difficulty": 10,
+      "subcategory": "Vergrößernde optische Instrumente"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Fourier-Reihen & -Integrale in der Wellenausbreitung",
+      "question": "Welches der folgenden Konzepte beschreibt am besten die Anwendung von Fourier-Reihen in der Analyse von Wellenformen in der Elektrodynamik?",
+      "choices": [
+        "A: Die Bestimmung des elektrischen Feldes in einem statischen System.",
+        "B: Die Berechnung der Lichtgeschwindigkeit in Vakuum.",
+        "C: Die Zerlegung komplexer Wellenformen in ihre harmonischen Bestandteile.",
+        "D: Die Übertragung von Energie durch Leitungen ohne Verluste."
+      ],
+      "correct_answer": "C",
+      "explanation": "Fourier-Reihen ermöglichen es, komplexe Wellenformen in einfachere sinusförmige Komponenten zu zerlegen. Dies ist entscheidend für die Analyse von Wellenphänomenen in der Elektrodynamik, da viele physikalische Systeme durch überlagerte sinusförmige Wellen beschrieben werden können.",
+      "difficulty": 8,
+      "subcategory": "Fourier-Reihen & -Integrale in der Wellenausbreitung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Adiabaten und Isothermen (Prozesse)",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt einen isothermen Prozess?",
+      "choices": [
+        "A: Der Druck bleibt während des Prozesses konstant.",
+        "B: Die Temperatur steigt während des Prozesses an.",
+        "C: Die Temperatur bleibt während des Prozesses konstant.",
+        "D: Es findet kein Wärmeaustausch mit der Umgebung statt."
+      ],
+      "correct_answer": "C",
+      "explanation": "Ein isothermer Prozess zeichnet sich dadurch aus, dass die Temperatur des Systems während des gesamten Prozesses konstant bleibt. Dies bedeutet, dass die Wärme, die dem System zugeführt oder entzogen wird, genau der Arbeit entspricht, die am System verrichtet wird.",
+      "difficulty": 4,
+      "subcategory": "Adiabaten und Isothermen (Prozesse)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Streuung an Kristallen",
+      "question": "Was beschreibt der Begriff 'Streuung' in der Festkörperphysik?",
+      "choices": [
+        "A: Die Bewegung von Elektronen in einem Halbleiter.",
+        "B: Die Ablenkung von Teilchen oder Wellen durch ein Material.",
+        "C: Die Temperaturänderung eines Festkörpers unter Druck.",
+        "D: Die gleichmäßige Verteilung von Atomen in einem Kristall."
+      ],
+      "correct_answer": "B",
+      "explanation": "Streuung bezieht sich auf die Ablenkung von Teilchen oder Wellen, wie zum Beispiel Röntgenstrahlen oder Neutronen, wenn sie auf ein Kristallgitter treffen. Diese Wechselwirkung liefert wichtige Informationen über die Struktur und Eigenschaften der Materialien.",
+      "difficulty": 5,
+      "subcategory": "Streuung an Kristallen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Molekulare Polarisierbarkeit",
+      "question": "Welche der folgenden Aussagen beschreibt am besten den Einfluss von molekularer Polarisierbarkeit auf die Dielektrizitätskonstante eines Materials?",
+      "choices": [
+        "A: Dielektrizitätskonstante ist ausschließlich von der Temperatur und nicht von der molekularen Polarisierbarkeit abhängig.",
+        "B: Eine höhere Polarisierbarkeit führt zu einer höheren Dielektrizitätskonstante, da die Moleküle sich unter dem Einfluss eines elektrischen Feldes stärker verformen.",
+        "C: Eine niedrigere Polarisierbarkeit führt zu einer höheren Dielektrizitätskonstante, da weniger Energie benötigt wird, um die Moleküle zu polarisieren.",
+        "D: Molekulare Polarisierbarkeit hat keinen Einfluss auf die Dielektrizitätskonstante, da sie nur die elektrischen Eigenschaften von Atomen betrifft."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die molekulare Polarisierbarkeit beschreibt, wie leicht die Elektronenverteilung eines Moleküls durch ein elektrisches Feld verzerrt werden kann. Eine höhere Polarisierbarkeit bedeutet, dass das Material im elektrischen Feld besser polarisiert wird, was zu einer Erhöhung der Dielektrizitätskonstante führt.",
+      "difficulty": 8,
+      "subcategory": "Molekulare Polarisierbarkeit"
+    }
+  ]
+}

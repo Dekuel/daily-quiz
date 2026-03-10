@@ -1,0 +1,168 @@
+{
+  "date": "2026-03-10",
+  "generated_at": "2026-03-10T03:50:22Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Teilbarkeit der Materie (historisch)",
+      "question": "Who was the first physicist to formulate the idea of the divisibility of matter into subatomic particles and thus influence the foundations of quantum mechanics?",
+      "choices": [
+        "A: Max Planck",
+        "B: Ernest Rutherford",
+        "C: Niels Bohr",
+        "D: Albert Einstein"
+      ],
+      "correct_answer": "A",
+      "explanation": "Max Planck introduced the idea that energy is quantized in discrete units (quanta), which formed the basis for quantum mechanics. This discovery led to the view of matter as divisible into subatomic particles, revolutionizing the understanding of atomic structure.",
+      "difficulty": 6,
+      "subcategory": "Teilbarkeit der Materie (historisch)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Kanonische Dichtematrix & Thermodynamik magnetischer Systeme",
+      "question": "Which statement correctly describes the significance of the canonical density matrix in statistical mechanics for magnetic systems?",
+      "choices": [
+        "A: It exclusively describes the interactions between magnetic moments in a system.",
+        "B: It enables the calculation of the thermodynamic properties of a system at constant volume and temperature.",
+        "C: It provides no information about the distribution of states of particles in the system.",
+        "D: It is only relevant for non-magnetic systems and has no application in thermodynamics."
+      ],
+      "correct_answer": "B",
+      "explanation": "The canonical density matrix is crucial for calculating the thermodynamic properties of a system, especially at constant volume and temperature, as it describes the statistical distribution of states. It helps in understanding the macroscopic properties such as energy and entropy of a magnetic system.",
+      "difficulty": 8,
+      "subcategory": "Kanonische Dichtematrix & Thermodynamik magnetischer Systeme"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Quasiklassische Näherung (WKB)",
+      "question": "What does the WKB approximation describe in quantum mechanics?",
+      "choices": [
+        "A: It is a procedure for calculating particle mass.",
+        "B: It describes the interaction between light and matter.",
+        "C: It explains the relativistic energy-mass relation.",
+        "D: It approximates the solutions of the Schrödinger equation in regions with classical motion."
+      ],
+      "correct_answer": "D",
+      "explanation": "The WKB approximation (Wentzel-Kramers-Brillouin) is a method for approximating solutions of the Schrödinger equation in regions where classical mechanics is applicable. It is often used to solve quantum mechanical problems when the particle's energy is high compared to the potential energy.",
+      "difficulty": 4,
+      "subcategory": "Quasiklassische Näherung (WKB)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Beugung an mehrdimensionalen Gittern",
+      "question": "What does diffraction at a two-dimensional lattice describe?",
+      "choices": [
+        "A: The absorption of light in a material.",
+        "B: The refraction of light rays passing through a prism.",
+        "C: The reflection of light rays on a surface.",
+        "D: The change in light intensity in different directions."
+      ],
+      "correct_answer": "D",
+      "explanation": "Diffraction at a two-dimensional lattice describes how light waves are diffracted at the lattice lines, leading to a change in light intensity in different directions. This phenomenon is fundamental for the analysis of light interference patterns.",
+      "difficulty": 1,
+      "subcategory": "Beugung an mehrdimensionalen Gittern"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Potentiale & Hauptsätze der Gleichgewichtsthermodynamik",
+      "question": "Which law of thermodynamics states that the energy of a closed system remains constant?",
+      "choices": [
+        "A: Zeroth Law",
+        "B: First Law",
+        "C: Second Law",
+        "D: Third Law"
+      ],
+      "correct_answer": "B",
+      "explanation": "The first law of thermodynamics, also known as the law of conservation of energy, states that the total energy in a closed system remains constant, although it can be converted between different forms (e.g., heat and work). This is a fundamental principle of thermodynamics.",
+      "difficulty": 4,
+      "subcategory": "Potentiale & Hauptsätze der Gleichgewichtsthermodynamik"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Vergrößernde optische Instrumente",
+      "question": "Which principle is used in a refractive microscope to magnify the image?",
+      "choices": [
+        "A: Interference of light waves",
+        "B: Refraction of light through convex lenses",
+        "C: Diffraction of light at a lattice",
+        "D: Reflection of light on a concave surface"
+      ],
+      "correct_answer": "B",
+      "explanation": "A refractive microscope utilizes the refraction of light through convex lenses to magnify the image of an object. The lenses are arranged to focus the light rays and create an enlarged image that can be viewed through the eyepiece.",
+      "difficulty": 10,
+      "subcategory": "Vergrößernde optische Instrumente"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Fourier-Reihen & -Integrale in der Wellenausbreitung",
+      "question": "Which of the following concepts best describes the application of Fourier series in the analysis of waveforms in electrodynamics?",
+      "choices": [
+        "A: Determining the electric field in a static system.",
+        "B: Calculating the speed of light in a vacuum.",
+        "C: Decomposing complex waveforms into their harmonic components.",
+        "D: Transmitting energy through lines without losses."
+      ],
+      "correct_answer": "C",
+      "explanation": "Fourier series allow complex waveforms to be decomposed into simpler sinusoidal components. This is crucial for the analysis of wave phenomena in electrodynamics, as many physical systems can be described by superimposed sinusoidal waves.",
+      "difficulty": 8,
+      "subcategory": "Fourier-Reihen & -Integrale in der Wellenausbreitung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Adiabaten und Isothermen (Prozesse)",
+      "question": "Which of the following statements best describes an isothermal process?",
+      "choices": [
+        "A: The pressure remains constant during the process.",
+        "B: The temperature increases during the process.",
+        "C: The temperature remains constant during the process.",
+        "D: There is no heat exchange with the surroundings."
+      ],
+      "correct_answer": "C",
+      "explanation": "An isothermal process is characterized by the constant temperature of the system throughout the process. This means that the heat added to or removed from the system exactly matches the work done on the system.",
+      "difficulty": 4,
+      "subcategory": "Adiabaten und Isothermen (Prozesse)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Streuung an Kristallen",
+      "question": "What does the term 'scattering' describe in solid-state physics?",
+      "choices": [
+        "A: The movement of electrons in a semiconductor.",
+        "B: The deflection of particles or waves by a material.",
+        "C: The temperature change of a solid under pressure.",
+        "D: The uniform distribution of atoms in a crystal."
+      ],
+      "correct_answer": "B",
+      "explanation": "Scattering refers to the deflection of particles or waves, such as X-rays or neutrons, when they encounter a crystal lattice. This interaction provides important information about the structure and properties of materials.",
+      "difficulty": 5,
+      "subcategory": "Streuung an Kristallen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Molekulare Polarisierbarkeit",
+      "question": "Which of the following statements best describes the influence of molecular polarizability on the dielectric constant of a material?",
+      "choices": [
+        "A: Dielectric constant depends solely on temperature and not on molecular polarizability.",
+        "B: Higher polarizability results in a higher dielectric constant as molecules deform more under the influence of an electric field.",
+        "C: Lower polarizability leads to a higher dielectric constant as less energy is needed to polarize the molecules.",
+        "D: Molecular polarizability has no effect on the dielectric constant as it only concerns the electrical properties of atoms."
+      ],
+      "correct_answer": "B",
+      "explanation": "Molecular polarizability describes how easily the electron distribution of a molecule can be distorted by an electric field. Higher polarizability means that the material is more easily polarized in an electric field, leading to an increase in the dielectric constant.",
+      "difficulty": 8,
+      "subcategory": "Molekulare Polarisierbarkeit"
+    }
+  ]
+}
