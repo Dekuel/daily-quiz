@@ -1,0 +1,169 @@
+{
+  "date": "2026-03-11",
+  "generated_at": "2026-03-11T03:49:06Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Doppelter β‑Zerfall",
+      "question": "Was ist das Hauptmerkmal des doppelten β-Zerfalls?",
+      "choices": [
+        "A: Ein Neutron zerfällt in ein Proton und ein Elektron.",
+        "B: Zwei Elektronen und zwei Antineutrinos werden emittiert.",
+        "C: Es findet eine Kernspaltung statt.",
+        "D: Ein Proton wird in ein Neutron umgewandelt."
+      ],
+      "correct_answer": "B",
+      "explanation": "Der doppelte β-Zerfall ist ein seltener radioaktiver Zerfall, bei dem zwei β-Teilchen (Elektronen) und zwei Antineutrinos gleichzeitig emittiert werden. Dies geschieht, wenn ein Atomkern zwei Neutronen in zwei Protonen umwandelt, ohne dass dabei Photonen oder andere Teilchen emittiert werden.",
+      "difficulty": 4,
+      "subcategory": "Doppelter β‑Zerfall"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Quantenpunkte",
+      "question": "Was sind Quantenpunkte?",
+      "choices": [
+        "A: Moleküle, die bei hohen Temperaturen stabil sind.",
+        "B: Große Kristalle, die Licht brechen.",
+        "C: Untereinheiten von Atomen.",
+        "D: Nanostrukturen, die Elektronen in drei Dimensionen quantisieren."
+      ],
+      "correct_answer": "D",
+      "explanation": "Quantenpunkte sind nanoskalige Halbleiterpartikel, die aufgrund ihrer kleinen Größe quantenmechanische Effekte aufweisen. In diesen Strukturen sind Elektronen eingeschränkt, was zu diskreten Energieniveaus führt und sie in der Optoelektronik und Photovoltaik von Bedeutung macht.",
+      "difficulty": 6,
+      "subcategory": "Quantenpunkte"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Doppelspaltexperiment (Materiewellen)",
+      "question": "Was zeigt das Doppelspaltexperiment mit Elektronen?",
+      "choices": [
+        "A: Elektronen können nicht durch Spalte hindurchgehen.",
+        "B: Elektronen haben immer eine definierte Position.",
+        "C: Elektronen haben keine Masse.",
+        "D: Elektronen können sich wie Wellen verhalten."
+      ],
+      "correct_answer": "D",
+      "explanation": "Das Doppelspaltexperiment zeigt, dass Elektronen sich sowohl wie Teilchen als auch wie Wellen verhalten können. Diese duale Natur ist ein zentrales Konzept der Quantenmechanik und verdeutlicht die Wellen-Teilchen-Dualität von Materie.",
+      "difficulty": 3,
+      "subcategory": "Doppelspaltexperiment (Materiewellen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Photographische Kamera",
+      "question": "Welche der folgenden Aussagen beschreibt die Funktion des Blendenöffnungsmechanismus in einer Kamera?",
+      "choices": [
+        "A: Die Blende verändert die Empfindlichkeit des Films oder Sensors.",
+        "B: Die Blende beeinflusst die Farbe des aufgenommenen Bildes.",
+        "C: Die Blende bestimmt die Brennweite des Objektivs.",
+        "D: Die Blende reguliert die Lichtmenge, die auf den Sensor fällt."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Blende in einer Kamera ist dafür verantwortlich, die Lichtmenge zu steuern, die auf den Sensor oder Film trifft. Eine größere Blendenöffnung lässt mehr Licht durch, während eine kleinere Öffnung weniger Licht durchlässt, was die Belichtung und die Schärfentiefe des Bildes beeinflusst.",
+      "difficulty": 6,
+      "subcategory": "Photographische Kamera"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Kanonische Gleichungen (Hamilton-Gleichungen)",
+      "question": "Was beschreibt die Hamilton-Gleichung für die zeitliche Veränderung der kanonischen Impulse?",
+      "choices": [
+        "A: Die Änderung des Impulses ist unabhängig von der Hamilton-Funktion.",
+        "B: Die Änderung des Impulses entspricht der Ableitung der Hamilton-Funktion nach der Zeit.",
+        "C: Die Änderung des Impulses ist das Produkt aus der Masse und der Beschleunigung.",
+        "D: Die Änderung des Impulses ist gleich der negativen Ableitung der Hamilton-Funktion nach den Koordinaten."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Hamilton-Gleichungen beschreiben die Dynamik eines Systems in der analytischen Mechanik. Insbesondere zeigt die Gleichung, dass die zeitliche Änderung der kanonischen Impulse durch die negative partielle Ableitung der Hamilton-Funktion nach den jeweiligen Koordinaten gegeben ist.",
+      "difficulty": 4,
+      "subcategory": "Kanonische Gleichungen (Hamilton-Gleichungen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Wiederkehrzeit & Poincaré-Rekurrenz",
+      "question": "Was beschreibt das Poincaré-Rekurrenz-Theorem in der statistischen Mechanik?",
+      "choices": [
+        "A: Ein System kehrt nach einer endlichen Zeit zu einem nahezu identischen Zustand zurück.",
+        "B: Ein System verhält sich immer chaotisch und unvorhersehbar.",
+        "C: Ein System erreicht stets einen Zustand maximaler Entropie.",
+        "D: Ein System kann niemals zu einem früheren Zustand zurückkehren."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Poincaré-Rekurrenz-Theorem besagt, dass ein geschlossenes dynamisches System nach einer ausreichend langen Zeitspanne wieder in einen Zustand kommt, der dem ursprünglichen sehr ähnlich ist. Dies gilt für Systeme mit einer endlichen Anzahl von Mikrozuständen.",
+      "difficulty": 4,
+      "subcategory": "Wiederkehrzeit & Poincaré-Rekurrenz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Ladungen und Ströme",
+      "question": "Welche Einheit wird verwendet, um elektrischen Strom zu messen?",
+      "choices": [
+        "A: Ampere",
+        "B: Ohm",
+        "C: Volt",
+        "D: Coulomb"
+      ],
+      "correct_answer": "A",
+      "explanation": "Der elektrische Strom wird in Ampere (A) gemessen. Volt (V) ist die Einheit für die elektrische Spannung, Ohm (Ω) für den elektrischen Widerstand und Coulomb (C) für die elektrische Ladung.",
+      "difficulty": 4,
+      "subcategory": "Ladungen und Ströme"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Temperaturdefinition aus Energieaustausch",
+      "question": "Was beschreibt die Temperatur im Kontext des Energieaustauschs zwischen Systemen?",
+      "choices": [
+        "A: Die gesamte Energie eines geschlossenen Systems.",
+        "B: Die Anzahl der Teilchen in einem System.",
+        "C: Die durchschnittliche kinetische Energie der Teilchen eines Systems.",
+        "D: Die maximale Energie, die ein System erreichen kann."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Temperatur ist ein Maß für die durchschnittliche kinetische Energie der Teilchen in einem System. Sie spielt eine entscheidende Rolle beim Energieaustausch zwischen verschiedenen Systemen, da Wärmeübertragung immer zum Ausgleich der Temperatur führt.",
+      "difficulty": 4,
+      "subcategory": "Temperaturdefinition aus Energieaustausch"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Hookesches Gesetz",
+      "question": "Was beschreibt das Hookesche Gesetz?",
+      "choices": [
+        "A: Die Geschwindigkeit eines Objekts in einem Vakuum.",
+        "B: Die Bewegung eines Körpers unter dem Einfluss der Schwerkraft.",
+        "C: Die Energieerhaltung in einem geschlossenen System.",
+        "D: Die Beziehung zwischen der Dehnung einer Feder und der auf sie wirkenden Kraft."
+      ],
+      "correct_answer": "D",
+      "explanation": "Das Hookesche Gesetz besagt, dass die Dehnung einer Feder proportional zur auf sie wirkenden Kraft ist, solange die elastischen Grenzen nicht überschritten werden. Dies wird oft in der Form F = k * x ausgedrückt, wobei F die Kraft, k die Federkonstante und x die Dehnung ist.",
+      "difficulty": 2,
+      "subcategory": "Hookesches Gesetz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Maxwell-Verteilung & barometrische Höhenformel",
+      "question": "Welche Aussage beschreibt die Maxwell-Verteilung korrekt?",
+      "choices": [
+        "A: Sie beschreibt die Geschwindigkeitsverteilung von Teilchen in einem idealen Gas.",
+        "B: Sie beschreibt die Verteilung von elektrischen Ladungen.",
+        "C: Sie gilt nur für Teilchen in festen Körpern.",
+        "D: Sie ist unabhängig von der Temperatur des Systems."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Maxwell-Verteilung beschreibt die statistische Verteilung der Geschwindigkeiten von Teilchen in einem idealen Gas. Sie ist temperatureabhängig und stellt sicher, dass eine Vielzahl von Geschwindigkeiten in einem thermodynamischen Gleichgewicht vorliegt.",
+      "difficulty": 5,
+      "subcategory": "Maxwell-Verteilung & barometrische Höhenformel"
+    }
+  ]
+}
