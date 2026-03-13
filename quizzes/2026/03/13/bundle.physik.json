@@ -1,0 +1,169 @@
+{
+  "date": "2026-03-13",
+  "generated_at": "2026-03-13T03:49:34Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Der Laser (Prinzip & Anwendungen)",
+      "question": "Was ist das Hauptprinzip, wie ein Laser Licht erzeugt?",
+      "choices": [
+        "A: Reflektion",
+        "B: Stimulated Emission",
+        "C: Absorption",
+        "D: Brechung"
+      ],
+      "correct_answer": "B",
+      "explanation": "Ein Laser erzeugt Licht durch das Prinzip der stimulierten Emission, bei dem Lichtquanten (Photonen) emittiert werden, wenn Atome oder Moleküle angeregt werden. Diese Methode führt zu kohärentem und monochromatischem Licht, das charakteristisch für Laser ist.",
+      "difficulty": 2,
+      "subcategory": "Der Laser (Prinzip & Anwendungen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Fabry–Perot-Interferometer (Vielfachinterferenzen)",
+      "question": "Was ist das Hauptprinzip eines Fabry–Perot-Interferometers?",
+      "choices": [
+        "A: Polarisation von Licht durch einen Polarisator.",
+        "B: Brechung von Licht an einem Prisma.",
+        "C: Interferenz von Lichtwellen durch multiple Reflexionen zwischen zwei parallelen Spiegeln.",
+        "D: Beugung von Licht an einem Gitter."
+      ],
+      "correct_answer": "C",
+      "explanation": "Ein Fabry–Perot-Interferometer nutzt die Interferenz von Lichtwellen, die durch wiederholte Reflexionen zwischen zwei parallelen Spiegeln entstehen. Dies führt zu klaren Interferenzmustern, die zur Analyse von Licht verwendet werden können.",
+      "difficulty": 1,
+      "subcategory": "Fabry–Perot-Interferometer (Vielfachinterferenzen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Interferenz und Beugung (Licht)",
+      "question": "Was beschreibt das Phänomen der Interferenz von Lichtwellen?",
+      "choices": [
+        "A: Die Ablenkung von Lichtstrahlen durch ein Prisma.",
+        "B: Das Überlagern von Wellen, das zu verstärkten oder abgeschwächten Intensitäten führt.",
+        "C: Die Erzeugung von Wärme durch Lichtabsorption.",
+        "D: Die Reflexion von Licht an einer Oberfläche."
+      ],
+      "correct_answer": "B",
+      "explanation": "Interferenz tritt auf, wenn zwei oder mehr Lichtwellen aufeinandertreffen und sich überlagern. Dies kann zu konstruktiver oder destruktiver Interferenz führen, was die Intensität des beobachteten Lichts beeinflusst.",
+      "difficulty": 5,
+      "subcategory": "Interferenz und Beugung (Licht)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Kritische Exponenten",
+      "question": "Was beschreibt der kritische Exponent in der Thermodynamik?",
+      "choices": [
+        "A: Die Änderung eines Parameters bei einer Phasenänderung.",
+        "B: Die Temperatur eines Gases bei konstantem Druck.",
+        "C: Die Geschwindigkeit einer chemischen Reaktion.",
+        "D: Die Dichte eines Feststoffes."
+      ],
+      "correct_answer": "A",
+      "explanation": "Der kritische Exponent beschreibt, wie physikalische Eigenschaften wie Dichte oder spezifische Wärme eines Systems in der Nähe eines kritischen Punktes variieren. Diese Konzepte sind wichtig, um Phasenübergänge zu verstehen.",
+      "difficulty": 2,
+      "subcategory": "Kritische Exponenten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Vektorpotential",
+      "question": "Welcher Zusammenhang besteht zwischen dem Vektorpotential A und dem magnetischen Feld B in der Elektrodynamik?",
+      "choices": [
+        "A: B = ∇ × A",
+        "B: B = ∇ · A",
+        "C: B = -∂A/∂t",
+        "D: B = ∇²A"
+      ],
+      "correct_answer": "A",
+      "explanation": "Der magnetische Flussdichte B kann aus dem Vektorpotential A durch die rotatorische Ableitung (Curl) gewonnen werden, was den Zusammenhang B = ∇ × A beschreibt. Dies ist ein fundamentales Konzept in der Elektrodynamik, das die Beziehung zwischen elektrischen und magnetischen Feldern beschreibt.",
+      "difficulty": 9,
+      "subcategory": "Vektorpotential"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Fabry–Perot-Interferometer (Vielfachinterferenzen)",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt die Bedingung für konstruktive Interferenz in einem Fabry–Perot-Interferometer?",
+      "choices": [
+        "A: Die Wellenlängen der einfallenden Lichtstrahlen müssen gleich sein.",
+        "B: Die Reflexionskoeffizienten der beiden Spiegel müssen gleich sein.",
+        "C: Die Dicke des Interferometers muss ungerade Vielfache der Wellenlänge des Lichtes betragen.",
+        "D: Die Phasendifferenz zwischen aufeinanderfolgenden Reflexionen muss ein ganzzahliges Vielfaches von π betragen."
+      ],
+      "correct_answer": "D",
+      "explanation": "Für konstruktive Interferenz im Fabry–Perot-Interferometer muss die Phasendifferenz zwischen den aufeinanderfolgenden Reflexionen ein ganzzahliges Vielfaches von 2π betragen. Dies führt zu einer Verstärkung der Lichtintensität bei bestimmten Wellenlängen. Die anderen Optionen betreffen zwar relevante Aspekte, sind jedoch nicht die korrekten Bedingungen für konstruktive Interferenz.",
+      "difficulty": 10,
+      "subcategory": "Fabry–Perot-Interferometer (Vielfachinterferenzen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Michelson–Morley-Experiment (Ätherhypothese)",
+      "question": "Was war das Hauptziel des Michelson-Morley-Experiments?",
+      "choices": [
+        "A: Die Bewegung der Planeten zu erklären.",
+        "B: Die Gravitation zu untersuchen.",
+        "C: Den Äther nachzuweisen.",
+        "D: Die Lichtgeschwindigkeit zu messen."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Michelson-Morley-Experiment wurde durchgeführt, um den Äther nachzuweisen, von dem man annahm, dass er als Medium für die Ausbreitung von Licht dient. Die Ergebnisse des Experiments widerlegten die Ätherhypothese und führten zur Entwicklung der Relativitätstheorie.",
+      "difficulty": 4,
+      "subcategory": "Michelson–Morley-Experiment (Ätherhypothese)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Beugung am Doppelspalt",
+      "question": "Was beschreibt das Phänomen der Beugung am Doppelspalt?",
+      "choices": [
+        "A: Die Interferenz von Lichtwellen, die durch zwei Spalte hindurchgehen.",
+        "B: Die Ablenkung von Lichtstrahlen an einer Linse.",
+        "C: Die Reflexion von Licht an einer glatten Oberfläche.",
+        "D: Die Absorption von Licht durch ein Material."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Beugung am Doppelspalt ist ein klassisches Experiment, das zeigt, wie Lichtwellen interferieren, wenn sie durch zwei nahe beieinander liegende Spalte treten. Dieses Phänomen führt zu einem Muster aus hellen und dunklen Streifen auf einem Schirm, das durch konstruktive und destruktive Interferenz entsteht.",
+      "difficulty": 4,
+      "subcategory": "Beugung am Doppelspalt"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Makroskopische Feldgrößen (D, E, P)",
+      "question": "Was beschreibt die elektrische Feldstärke E in einem elektrischen Feld?",
+      "choices": [
+        "A: Die Kraft pro Einheit Ladung, die auf eine positive Testladung wirkt.",
+        "B: Den Fluss von elektrischen Feldlinien durch eine Fläche.",
+        "C: Die Energie, die benötigt wird, um eine Ladung von einem Punkt zu einem anderen zu bewegen.",
+        "D: Die Spannung zwischen zwei Punkten im Feld."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die elektrische Feldstärke E beschreibt, wie stark eine Kraft auf eine positive Testladung wirkt, die sich im elektrischen Feld befindet. Sie wird definiert als die Kraft F, die auf die Testladung q wirkt, geteilt durch die Größe dieser Ladung: E = F/q.",
+      "difficulty": 5,
+      "subcategory": "Makroskopische Feldgrößen (D, E, P)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Photonengas & Plancksches Strahlungsgesetz",
+      "question": "Was beschreibt das Plancksche Strahlungsgesetz im Kontext eines Photonengases?",
+      "choices": [
+        "A: Die Geschwindigkeit der Photonen in einem Vakuum.",
+        "B: Die Energieverteilung der Photonen in einem thermischen Gleichgewicht.",
+        "C: Die Wechselwirkung zwischen Photonen und Elektronen.",
+        "D: Die Wellenlänge von Photonen in einem magnetischen Feld."
+      ],
+      "correct_answer": "B",
+      "explanation": "Das Plancksche Strahlungsgesetz beschreibt, wie die Energie der Photonen in einem thermischen Gleichgewicht verteilt ist, abhängig von der Temperatur des Systems. Es ist fundamental für das Verständnis der Strahlungseigenschaften von schwarzen Körpern und deren Temperaturabhängigkeit.",
+      "difficulty": 6,
+      "subcategory": "Photonengas & Plancksches Strahlungsgesetz"
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "date": "2026-03-13",
+  "generated_at": "2026-03-13T03:50:07Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Der Laser (Prinzip & Anwendungen)",
+      "question": "What is the main principle by which a laser generates light?",
+      "choices": [
+        "A: Reflection",
+        "B: Stimulated Emission",
+        "C: Absorption",
+        "D: Refraction"
+      ],
+      "correct_answer": "B",
+      "explanation": "A laser generates light through the principle of stimulated emission, where light quanta (photons) are emitted when atoms or molecules are excited. This method results in coherent and monochromatic light, which is characteristic of lasers.",
+      "difficulty": 2,
+      "subcategory": "Der Laser (Prinzip & Anwendungen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Fabry–Perot-Interferometer (Vielfachinterferenzen)",
+      "question": "What is the main principle of a Fabry–Perot interferometer?",
+      "choices": [
+        "A: Polarization of light by a polarizer.",
+        "B: Refraction of light by a prism.",
+        "C: Interference of light waves through multiple reflections between two parallel mirrors.",
+        "D: Diffraction of light by a grating."
+      ],
+      "correct_answer": "C",
+      "explanation": "A Fabry–Perot interferometer utilizes the interference of light waves created by repeated reflections between two parallel mirrors. This leads to clear interference patterns that can be used for light analysis.",
+      "difficulty": 1,
+      "subcategory": "Fabry–Perot-Interferometer (Vielfachinterferenzen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Interferenz und Beugung (Licht)",
+      "question": "What describes the phenomenon of interference of light waves?",
+      "choices": [
+        "A: The deflection of light rays by a prism.",
+        "B: The overlapping of waves leading to enhanced or diminished intensities.",
+        "C: The generation of heat through light absorption.",
+        "D: The reflection of light on a surface."
+      ],
+      "correct_answer": "B",
+      "explanation": "Interference occurs when two or more light waves meet and overlap. This can result in constructive or destructive interference, affecting the intensity of the observed light.",
+      "difficulty": 5,
+      "subcategory": "Interferenz und Beugung (Licht)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Kritische Exponenten",
+      "question": "What does the critical exponent describe in thermodynamics?",
+      "choices": [
+        "A: The change of a parameter during a phase change.",
+        "B: The temperature of a gas at constant pressure.",
+        "C: The speed of a chemical reaction.",
+        "D: The density of a solid."
+      ],
+      "correct_answer": "A",
+      "explanation": "The critical exponent describes how physical properties such as density or specific heat of a system vary near a critical point. These concepts are important for understanding phase transitions.",
+      "difficulty": 2,
+      "subcategory": "Kritische Exponenten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Vektorpotential",
+      "question": "What is the relationship between the vector potential A and the magnetic field B in electrodynamics?",
+      "choices": [
+        "A: B = ∇ × A",
+        "B: B = ∇ · A",
+        "C: B = -∂A/∂t",
+        "D: B = ∇²A"
+      ],
+      "correct_answer": "A",
+      "explanation": "The magnetic flux density B can be obtained from the vector potential A through the curl operation, describing the relationship B = ∇ × A. This is a fundamental concept in electrodynamics that explains the relationship between electric and magnetic fields.",
+      "difficulty": 9,
+      "subcategory": "Vektorpotential"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Fabry–Perot-Interferometer (Vielfachinterferenzen)",
+      "question": "Which of the following statements correctly describes the condition for constructive interference in a Fabry–Perot interferometer?",
+      "choices": [
+        "A: The wavelengths of the incident light beams must be equal.",
+        "B: The reflection coefficients of the two mirrors must be equal.",
+        "C: The thickness of the interferometer must be an odd multiple of the wavelength of light.",
+        "D: The phase difference between successive reflections must be an integer multiple of π."
+      ],
+      "correct_answer": "D",
+      "explanation": "For constructive interference in a Fabry–Perot interferometer, the phase difference between successive reflections must be an integer multiple of 2π. This leads to an enhancement of light intensity at specific wavelengths. The other options address relevant aspects but are not the correct conditions for constructive interference.",
+      "difficulty": 10,
+      "subcategory": "Fabry–Perot-Interferometer (Vielfachinterferenzen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Michelson–Morley-Experiment (Ätherhypothese)",
+      "question": "What was the main goal of the Michelson-Morley experiment?",
+      "choices": [
+        "A: To explain the motion of planets.",
+        "B: To investigate gravitation.",
+        "C: To detect the ether.",
+        "D: To measure the speed of light."
+      ],
+      "correct_answer": "C",
+      "explanation": "The Michelson-Morley experiment was conducted to detect the ether, which was assumed to serve as a medium for the propagation of light. The results of the experiment refuted the ether hypothesis and led to the development of the theory of relativity.",
+      "difficulty": 4,
+      "subcategory": "Michelson–Morley-Experiment (Ätherhypothese)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Beugung am Doppelspalt",
+      "question": "What describes the phenomenon of diffraction at a double slit?",
+      "choices": [
+        "A: The interference of light waves passing through two slits.",
+        "B: The deflection of light rays by a lens.",
+        "C: The reflection of light on a smooth surface.",
+        "D: The absorption of light by a material."
+      ],
+      "correct_answer": "A",
+      "explanation": "Diffraction at a double slit is a classic experiment demonstrating how light waves interfere when passing through two closely spaced slits. This phenomenon results in a pattern of bright and dark fringes on a screen, created by constructive and destructive interference.",
+      "difficulty": 4,
+      "subcategory": "Beugung am Doppelspalt"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Makroskopische Feldgrößen (D, E, P)",
+      "question": "What describes the electric field strength E in an electric field?",
+      "choices": [
+        "A: The force per unit charge acting on a positive test charge.",
+        "B: The flow of electric field lines through a surface.",
+        "C: The energy required to move a charge from one point to another.",
+        "D: The voltage between two points in the field."
+      ],
+      "correct_answer": "A",
+      "explanation": "The electric field strength E describes how strongly a force acts on a positive test charge located in the electric field. It is defined as the force F acting on the test charge q divided by the magnitude of that charge: E = F/q.",
+      "difficulty": 5,
+      "subcategory": "Makroskopische Feldgrößen (D, E, P)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Photonengas & Plancksches Strahlungsgesetz",
+      "question": "What does Planck's radiation law describe in the context of a photon gas?",
+      "choices": [
+        "A: The speed of photons in a vacuum.",
+        "B: The energy distribution of photons in thermal equilibrium.",
+        "C: The interaction between photons and electrons.",
+        "D: The wavelength of photons in a magnetic field."
+      ],
+      "correct_answer": "B",
+      "explanation": "Planck's radiation law describes how the energy of photons in thermal equilibrium is distributed, depending on the temperature of the system. It is fundamental for understanding the radiation properties of black bodies and their temperature dependence.",
+      "difficulty": 6,
+      "subcategory": "Photonengas & Plancksches Strahlungsgesetz"
+    }
+  ]
+}
