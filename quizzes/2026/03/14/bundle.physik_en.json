@@ -1,0 +1,168 @@
+{
+  "date": "2026-03-14",
+  "generated_at": "2026-03-14T03:50:50Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Reibung in der Technik (Bedeutung)",
+      "question": "What function does friction serve in technical applications?",
+      "choices": [
+        "A: It completely reduces energy consumption.",
+        "B: It enables holding and stopping movements.",
+        "C: It has no influence on technical systems.",
+        "D: It prevents any movement."
+      ],
+      "correct_answer": "B",
+      "explanation": "Friction is crucial in technical systems as it helps to stop or control movements. It ensures, for example, that vehicles can brake. Without friction, it would be difficult to control or stop movements.",
+      "difficulty": 4,
+      "subcategory": "Reibung in der Technik (Bedeutung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Gibb’sche Phasenregel",
+      "question": "What does Gibbs' phase rule state?",
+      "choices": [
+        "A: Heat cannot be transferred from a cold body to a warm body.",
+        "B: The energy of a closed system always remains constant.",
+        "C: The number of phases in a system equals the number of components minus the number of degrees of freedom plus two.",
+        "D: In an isolated system, entropy always remains constant."
+      ],
+      "correct_answer": "C",
+      "explanation": "Gibbs' phase rule describes the relationships between phases, components, and degrees of freedom in a thermodynamic system. It helps determine the number of possible phases in a system under certain conditions.",
+      "difficulty": 3,
+      "subcategory": "Gibb’sche Phasenregel"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Wronski-Determinante",
+      "question": "Which statement about the Wronskian determinant in quantum mechanics is correct?",
+      "choices": [
+        "A: It is irrelevant for quantum mechanics.",
+        "B: It is a measure of the linear independence of solutions of a system of differential equations.",
+        "C: It describes the energy distribution in a quantum field.",
+        "D: It is used to analyze the symmetry of particles."
+      ],
+      "correct_answer": "B",
+      "explanation": "The Wronskian determinant is an important mathematical tool to check the linear independence of solutions of differential equations that frequently arise in quantum mechanics. A non-vanishing Wronskian determinant indicates that the solutions are linearly independent and can form a complete basis.",
+      "difficulty": 7,
+      "subcategory": "Wronski-Determinante"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Lineare Operatoren",
+      "question": "What does a linear operator describe in quantum mechanics?",
+      "choices": [
+        "A: It calculates the energy of a particle.",
+        "B: It measures the position of a particle.",
+        "C: It describes the motion of particles in a classical sense.",
+        "D: It transforms states into states within a Hilbert space."
+      ],
+      "correct_answer": "D",
+      "explanation": "A linear operator in quantum mechanics is a mathematical function that maps states in a Hilbert space while respecting the structure of quantum mechanics. It is commonly used to describe observables like momentum or energy.",
+      "difficulty": 4,
+      "subcategory": "Lineare Operatoren"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Grundbausteine der Materie",
+      "question": "What is the fundamental component of atomic nuclei?",
+      "choices": [
+        "A: Electrons",
+        "B: Photons",
+        "C: Neutrons",
+        "D: Protons"
+      ],
+      "correct_answer": "D",
+      "explanation": "Protons are positively charged particles that, together with neutrons, form the atomic nucleus. They are crucial for the identity of an element and its chemical properties.",
+      "difficulty": 4,
+      "subcategory": "Grundbausteine der Materie"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Vakuumbereiche",
+      "question": "What happens to an object moving in a vacuum when it experiences no external forces?",
+      "choices": [
+        "A: It stops immediately.",
+        "B: It falls to the ground.",
+        "C: It slows down.",
+        "D: It remains in motion."
+      ],
+      "correct_answer": "D",
+      "explanation": "In a vacuum, there is no air resistance or other frictional forces, so an object in motion experiencing no external forces will, according to the first Newton's law, continue in motion. This means it will keep moving at the same speed and in the same direction.",
+      "difficulty": 5,
+      "subcategory": "Vakuumbereiche"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Strukturfunktionen (F1, F2,…)",
+      "question": "What does the structure function F2 describe in particle physics?",
+      "choices": [
+        "A: The energy of a particle",
+        "B: The distribution of charge in a particle",
+        "C: The interaction between particles",
+        "D: The mass of a particle"
+      ],
+      "correct_answer": "B",
+      "explanation": "The structure function F2 describes the spatial distribution of electric charge within a particle, particularly concerning the deep inelastic scattering of electrons on protons. This function is crucial for understanding the structure of hadrons and their constituents.",
+      "difficulty": 1,
+      "subcategory": "Strukturfunktionen (F1, F2,…)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Ginzburg–Landau-Funktional: Herleitung",
+      "question": "Which of the following assumptions is fundamental for deriving the Ginzburg–Landau functional?",
+      "choices": [
+        "A: The order is described by a continuous function.",
+        "B: The system is in thermodynamic equilibrium.",
+        "C: There are no interactions between particles.",
+        "D: The system temperature is above the critical temperature."
+      ],
+      "correct_answer": "A",
+      "explanation": "The derivation of the Ginzburg–Landau functional is based on the assumption that the order can be described by a continuous function, the so-called order parameter. This assumption is crucial for modeling phenomena like phase transitions in supercritical systems.",
+      "difficulty": 6,
+      "subcategory": "Ginzburg–Landau-Funktional: Herleitung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "ħ→0-Grenzfall; Klassische Umkehrpunkte",
+      "question": "What does the ħ→0 limit case in quantum mechanics regarding the classical turning points of a particle describe?",
+      "choices": [
+        "A: The wave function becomes a Dirac delta function.",
+        "B: The behavior of the particle can only be explained by its quantum properties.",
+        "C: The uncertainty principle is lifted, and precise position and momentum can be determined.",
+        "D: The energy of the particle remains constant and does not lead to classical motion."
+      ],
+      "correct_answer": "A",
+      "explanation": "In the ħ→0 limit case, the wave function behaves in a way that increasingly concentrates on a point, leading to a Dirac delta function. This means that quantum effects vanish, and the particle behavior becomes classical, allowing for the definition of classical turning points.",
+      "difficulty": 10,
+      "subcategory": "ħ→0-Grenzfall; Klassische Umkehrpunkte"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Versagen des Rutherford-Modells",
+      "question": "Which of the following statements best describes one of the main reasons for the failure of the Rutherford model of atomic structure?",
+      "choices": [
+        "A: The model does not describe the interactions between protons and neutrons.",
+        "B: The model does not consider quantum mechanics.",
+        "C: The model cannot explain the stability of atoms.",
+        "D: The model shows that electrons move in fixed orbits."
+      ],
+      "correct_answer": "C",
+      "explanation": "The Rutherford model cannot explain the observed stability of atoms as it predicts that electrons should radiate due to their acceleration near the atomic nucleus and eventually fall into the nucleus. This discrepancy led to the development of quantum mechanics and the Bohr model, which better describes the electron configurations in atoms.",
+      "difficulty": 9,
+      "subcategory": "Versagen des Rutherford-Modells"
+    }
+  ]
+}
