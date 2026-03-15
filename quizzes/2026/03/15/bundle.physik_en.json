@@ -1,0 +1,168 @@
+{
+  "date": "2026-03-15",
+  "generated_at": "2026-03-15T04:00:36Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Legendre-Transformation (U↔H↔F↔G)",
+      "question": "Which of the following statements correctly describes an application of the Legendre transformation in thermodynamics?",
+      "choices": [
+        "What does the concept of hard spheres describe in quantum mechanics?",
+        "The concept of hard spheres describes in quantum mechanics how particles interact with a fixed obstacle, assuming the collisions to be inelastic. This allows the analysis of scattering effects and their quantum mechanical properties.",
+        "What does the Hilbert space describe in the context of spin in quantum mechanics?",
+        "The Hilbert space is a mathematical concept that describes the possible states of a quantum mechanical system, including spin states. In this space, states can be represented by vectors that play a central role in quantum mechanics."
+      ],
+      "correct_answer": "D",
+      "explanation": "The Legendre transformation is an important tool in thermodynamics that allows switching between different thermodynamic potentials. In particular, the internal energy (U) can be transformed into enthalpy (H), which is useful when considering processes at constant pressure.",
+      "difficulty": 7,
+      "subcategory": "Legendre-Transformation (U↔H↔F↔G)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Streuung an der harten Kugel",
+      "question": "Which of the following statements about the color-magnetic interaction in Quantum Chromodynamics (QCD) is correct?",
+      "choices": [
+        "Two events that occur simultaneously for one observer can appear temporally different for another observer. What is the main cause of this?",
+        "The relativity of simultaneity shows that the perception of time depends on the relative motion of observers. If two observers move at different speeds, they can perceive different temporal sequences for the same event.",
+        "Which of the following statements about improper (Dirac) vectors in quantum mechanics is correct?",
+        "Improper vectors, also known as Dirac vectors, are useful in quantum mechanics as they represent non-normalized states that exist in Hilbert spaces. They allow a concise representation of states and operators, especially in the context of discrete and continuous spectra."
+      ],
+      "correct_answer": "B",
+      "explanation": "The color-magnetic interaction plays a central role in Quantum Chromodynamics as it mediates the strong interaction between quarks. This interaction is crucial for the formation of hadrons, such as protons and neutrons, from quarks.",
+      "difficulty": 4,
+      "subcategory": "Streuung an der harten Kugel"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Hilbert-Raum des Spins",
+      "question": "Which of the following principles explains why an object floats or sinks in a fluid?",
+      "choices": [
+        "Which statement about hydrogen bonds is correct?",
+        "Hydrogen bonds are specific intermolecular interactions that occur when a hydrogen atom bound to an electronegative atom (such as oxygen or nitrogen) is attracted to another electronegative atom. These bonds are weaker than covalent bonds but crucial for many physical and chemical properties of molecules, especially in water and biological systems.",
+        "What does the term 'molecular beams' describe in classical mechanics?",
+        "Molecular beams refer to the directed motion of molecules in a vacuum, where they travel without significant disturbances from other molecules or atoms. This movement is important for experiments in physics aiming to investigate the properties of molecules."
+      ],
+      "correct_answer": "A",
+      "explanation": "Archimedes' principle states that an object immersed in a fluid experiences an upward buoyant force equal to the weight of the displaced fluid. If the buoyant force is greater than the object's weight, it floats; otherwise, it sinks.",
+      "difficulty": 6,
+      "subcategory": "Hilbert-Raum des Spins"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Farbmagnetische Wechselwirkung",
+      "question": "Which of the following factors has the greatest influence on the resonance frequency of a resonant circuit?",
+      "choices": [
+        "A: Farbmagnetische Wechselwirkung wirkt nur zwischen elektrisch geladenen Teilchen.",
+        "B: Farbmagnetische Wechselwirkung ist identisch mit der elektromagnetischen Wechselwirkung.",
+        "C: Die Farbmagnetische Wechselwirkung ist verantwortlich für die Bindung von Quarks zu Protonen und Neutronen.",
+        "D: Die Farbmagnetische Wechselwirkung hat keinen Einfluss auf die Masse von Hadronen."
+      ],
+      "correct_answer": "C",
+      "explanation": "The resonance frequency of a resonant circuit is mainly determined by the circuit's inductance and capacitance. Therefore, a change in inductance has the greatest influence on the resonance frequency, while other factors may have only indirect effects.",
+      "difficulty": 8,
+      "subcategory": "Farbmagnetische Wechselwirkung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Relativität der Gleichzeitigkeit",
+      "question": "Zwei Ereignisse, die für einen Beobachter gleichzeitig stattfinden, können für einen anderen Beobachter unterschiedlich zeitlich erscheinen. Was ist die Hauptursache dafür?",
+      "choices": [
+        "A: Die Lichtgeschwindigkeit ist konstant.",
+        "B: Die Schwerkraft beeinflusst die Zeit.",
+        "C: Die Bewegung der Beobachter relativ zueinander.",
+        "D: Elektrische Felder beeinflussen die Zeit."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Relativität der Gleichzeitigkeit zeigt, dass die Wahrnehmung von Zeit von der relativen Bewegung der Beobachter abhängt. Wenn sich zwei Beobachter unterschiedlich schnell bewegen, können sie unterschiedliche zeitliche Abläufe für dasselbe Ereignis wahrnehmen.",
+      "difficulty": 3,
+      "subcategory": "Relativität der Gleichzeitigkeit"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Uneigentliche (Dirac-)Vektoren",
+      "question": "Welches der folgenden Aussagen über uneigentliche (Dirac-)Vektoren in der Quantenmechanik ist richtig?",
+      "choices": [
+        "A: Uneigentliche Vektoren sind nur in der klassischen Mechanik von Bedeutung.",
+        "B: Uneigentliche Vektoren sind immer orthogonal zueinander.",
+        "C: Uneigentliche Vektoren sind nicht-normalisierte Zustände, die in einem Hilbertraum existieren können.",
+        "D: Uneigentliche Vektoren können nicht in einem physikalischen System verwendet werden."
+      ],
+      "correct_answer": "C",
+      "explanation": "Uneigentliche Vektoren, auch als Dirac-Vektoren bekannt, sind in der Quantenmechanik nützlich, da sie nicht-normalisierte Zustände repräsentieren, die in Hilberträumen existieren. Sie ermöglichen eine prägnante Darstellung von Zuständen und Operatoren, insbesondere im Zusammenhang mit diskreten und kontinuierlichen Spektren.",
+      "difficulty": 10,
+      "subcategory": "Uneigentliche (Dirac-)Vektoren"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Auftrieb & Schwimmen",
+      "question": "Welches der folgenden Prinzipien erklärt, warum ein Objekt in einer Flüssigkeit schwimmt oder sinkt?",
+      "choices": [
+        "A: Archimedes' Prinzip",
+        "B: Das Gesetz von Pascal",
+        "C: Das Hookesche Gesetz",
+        "D: Newtons Gesetz der Gravitation"
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Archimedes' Prinzip besagt, dass ein in eine Flüssigkeit eingetauchtes Objekt eine Auftriebskraft erfährt, die gleich dem Gewicht der verdrängten Flüssigkeit ist. Wenn die Auftriebskraft größer ist als das Gewicht des Objekts, schwimmt es; andernfalls sinkt es.",
+      "difficulty": 7,
+      "subcategory": "Auftrieb & Schwimmen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Wasserstoffbrückenbindung",
+      "question": "Welche Aussage über Wasserstoffbrückenbindungen ist korrekt?",
+      "choices": [
+        "A: Wasserstoffbrückenbindungen sind nicht polar.",
+        "B: Wasserstoffbrückenbindungen treten nur in festen Stoffen auf.",
+        "C: Wasserstoffbrückenbindungen sind immer stärker als kovalente Bindungen.",
+        "D: Wasserstoffbrückenbindungen sind intermolekulare Wechselwirkungen zwischen einem Wasserstoffatom und einem elektronegativen Atom."
+      ],
+      "correct_answer": "D",
+      "explanation": "Wasserstoffbrückenbindungen sind spezifische intermolekulare Wechselwirkungen, die auftreten, wenn ein Wasserstoffatom, das an ein elektronegatives Atom (wie Sauerstoff oder Stickstoff) gebunden ist, von einem anderen elektronegativen Atom angezogen wird. Diese Bindungen sind schwächer als kovalente Bindungen, aber entscheidend für viele physikalische und chemische Eigenschaften von Molekülen, insbesondere in Wasser und biologischen Systemen.",
+      "difficulty": 6,
+      "subcategory": "Wasserstoffbrückenbindung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Molekularstrahlen",
+      "question": "Was beschreibt der Begriff 'Molekularstrahlen' in der klassischen Mechanik?",
+      "choices": [
+        "A: Die Bewegung von Molekülen in einem Vakuum.",
+        "B: Die Wechselwirkung zwischen elektrischen Feldern und Molekülen.",
+        "C: Die Temperaturabhängigkeit der Molekülgeschwindigkeit.",
+        "D: Die Ausbreitung von Licht in Molekülstrukturen."
+      ],
+      "correct_answer": "A",
+      "explanation": "Molekularstrahlen beziehen sich auf die gerichtete Bewegung von Molekülen in einem Vakuum, wo sie ohne nennenswerte Störungen durch andere Moleküle oder Atome reisen. Diese Bewegung ist wichtig für Experimente in der Physik, bei denen die Eigenschaften von Molekülen untersucht werden sollen.",
+      "difficulty": 6,
+      "subcategory": "Molekularstrahlen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Resonanz & Schaltvorgänge",
+      "question": "Welcher der folgenden Faktoren hat den größten Einfluss auf die Resonanzfrequenz eines Schwingkreises?",
+      "choices": [
+        "A: Die Induktivität des Schwingkreises.",
+        "B: Die elektrische Feldstärke.",
+        "C: Die Temperatur der Umgebung.",
+        "D: Die Länge der Zuleitungen."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Resonanzfrequenz eines Schwingkreises wird maßgeblich durch die Induktivität und die Kapazität des Kreises bestimmt. Eine Änderung der Induktivität hat daher den größten Einfluss auf die Resonanzfrequenz, während die anderen Faktoren nur indirekten Einfluss haben können.",
+      "difficulty": 7,
+      "subcategory": "Resonanz & Schaltvorgänge"
+    }
+  ]
+}

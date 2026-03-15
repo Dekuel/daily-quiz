@@ -1,0 +1,169 @@
+{
+  "date": "2026-03-15",
+  "generated_at": "2026-03-15T03:59:58Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Legendre-Transformation (U↔H↔F↔G)",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt eine Anwendung der Legendre-Transformation in der Thermodynamik?",
+      "choices": [
+        "A: Die Legendre-Transformation ist ein mathematisches Verfahren, das in der Thermodynamik keine praktischen Anwendungsbereiche hat.",
+        "B: Die Legendre-Transformation wird verwendet, um die spezifische Wärme bei konstantem Volumen in die spezifische Wärme bei konstantem Druck umzurechnen.",
+        "C: Die Legendre-Transformation ist nur relevant für ideale Gase und hat keine Anwendung für reale Systeme.",
+        "D: Die Legendre-Transformation ermöglicht die Umwandlung von innerer Energie (U) in Enthalpie (H) unter der Annahme konstanter Temperatur und Druck."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Legendre-Transformation ist ein wichtiges Werkzeug in der Thermodynamik, das es ermöglicht, zwischen verschiedenen thermodynamischen Potentialen zu wechseln. Insbesondere kann die innere Energie (U) in die Enthalpie (H) umgewandelt werden, was nützlich ist, wenn der Prozess bei konstantem Druck betrachtet wird.",
+      "difficulty": 7,
+      "subcategory": "Legendre-Transformation (U↔H↔F↔G)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Streuung an der harten Kugel",
+      "question": "Was beschreibt das Konzept der harten Kugel in der Quantenmechanik?",
+      "choices": [
+        "A: Die Bewegung von Teilchen in einem Vakuum ohne Wechselwirkungen.",
+        "B: Die Wechselwirkung von Teilchen mit einem festen, unelastischen Hindernis.",
+        "C: Die Energieverteilung von Teilchen in einem geschlossenen System.",
+        "D: Die Eigenschaft von Teilchen, sich in beliebige Richtungen zu bewegen."
+      ],
+      "correct_answer": "B",
+      "explanation": "Das Konzept der harten Kugel beschreibt in der Quantenmechanik, wie Teilchen mit einem festen Hindernis wechselwirken, wobei die Kollisionen als unelastisch angenommen werden. Dies ermöglicht die Analyse von Streuungseffekten und deren quantenmechanischen Eigenschaften.",
+      "difficulty": 4,
+      "subcategory": "Streuung an der harten Kugel"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Hilbert-Raum des Spins",
+      "question": "Was beschreibt der Hilbert-Raum im Kontext des Spins in der Quantenmechanik?",
+      "choices": [
+        "A: Die möglichen Zustände eines quantenmechanischen Systems.",
+        "B: Die Trajektorien von Teilchen in einem klassischen System.",
+        "C: Die Temperaturänderungen in thermodynamischen Prozessen.",
+        "D: Die Frequenzen von elektromagnetischen Wellen."
+      ],
+      "correct_answer": "A",
+      "explanation": "Der Hilbert-Raum ist ein mathematisches Konzept, das die möglichen Zustände eines quantenmechanischen Systems beschreibt, einschließlich der Spin-Zustände. In diesem Raum können Zustände durch Vektoren repräsentiert werden, die eine zentrale Rolle in der Quantenmechanik spielen.",
+      "difficulty": 6,
+      "subcategory": "Hilbert-Raum des Spins"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Farbmagnetische Wechselwirkung",
+      "question": "Welche der folgenden Aussagen zur farbmagnetischen Wechselwirkung in der Quantenchromodynamik (QCD) ist korrekt?",
+      "choices": [
+        "A: Farbmagnetische Wechselwirkung wirkt nur zwischen elektrisch geladenen Teilchen.",
+        "B: Farbmagnetische Wechselwirkung ist identisch mit der elektromagnetischen Wechselwirkung.",
+        "C: Die Farbmagnetische Wechselwirkung ist verantwortlich für die Bindung von Quarks zu Protonen und Neutronen.",
+        "D: Die Farbmagnetische Wechselwirkung hat keinen Einfluss auf die Masse von Hadronen."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die farbmagnetische Wechselwirkung spielt eine zentrale Rolle in der Quantenchromodynamik, da sie die starke Wechselwirkung zwischen Quarks vermittelt. Diese Wechselwirkung ist entscheidend für die Bildung von Hadronen, wie Protonen und Neutronen, aus Quarks.",
+      "difficulty": 8,
+      "subcategory": "Farbmagnetische Wechselwirkung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Relativität der Gleichzeitigkeit",
+      "question": "Zwei Ereignisse, die für einen Beobachter gleichzeitig stattfinden, können für einen anderen Beobachter unterschiedlich zeitlich erscheinen. Was ist die Hauptursache dafür?",
+      "choices": [
+        "A: Die Lichtgeschwindigkeit ist konstant.",
+        "B: Die Schwerkraft beeinflusst die Zeit.",
+        "C: Die Bewegung der Beobachter relativ zueinander.",
+        "D: Elektrische Felder beeinflussen die Zeit."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Relativität der Gleichzeitigkeit zeigt, dass die Wahrnehmung von Zeit von der relativen Bewegung der Beobachter abhängt. Wenn sich zwei Beobachter unterschiedlich schnell bewegen, können sie unterschiedliche zeitliche Abläufe für dasselbe Ereignis wahrnehmen.",
+      "difficulty": 3,
+      "subcategory": "Relativität der Gleichzeitigkeit"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Uneigentliche (Dirac-)Vektoren",
+      "question": "Welches der folgenden Aussagen über uneigentliche (Dirac-)Vektoren in der Quantenmechanik ist richtig?",
+      "choices": [
+        "A: Uneigentliche Vektoren sind nur in der klassischen Mechanik von Bedeutung.",
+        "B: Uneigentliche Vektoren sind immer orthogonal zueinander.",
+        "C: Uneigentliche Vektoren sind nicht-normalisierte Zustände, die in einem Hilbertraum existieren können.",
+        "D: Uneigentliche Vektoren können nicht in einem physikalischen System verwendet werden."
+      ],
+      "correct_answer": "C",
+      "explanation": "Uneigentliche Vektoren, auch als Dirac-Vektoren bekannt, sind in der Quantenmechanik nützlich, da sie nicht-normalisierte Zustände repräsentieren, die in Hilberträumen existieren. Sie ermöglichen eine prägnante Darstellung von Zuständen und Operatoren, insbesondere im Zusammenhang mit diskreten und kontinuierlichen Spektren.",
+      "difficulty": 10,
+      "subcategory": "Uneigentliche (Dirac-)Vektoren"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Auftrieb & Schwimmen",
+      "question": "Welches der folgenden Prinzipien erklärt, warum ein Objekt in einer Flüssigkeit schwimmt oder sinkt?",
+      "choices": [
+        "A: Archimedes' Prinzip",
+        "B: Das Gesetz von Pascal",
+        "C: Das Hookesche Gesetz",
+        "D: Newtons Gesetz der Gravitation"
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Archimedes' Prinzip besagt, dass ein in eine Flüssigkeit eingetauchtes Objekt eine Auftriebskraft erfährt, die gleich dem Gewicht der verdrängten Flüssigkeit ist. Wenn die Auftriebskraft größer ist als das Gewicht des Objekts, schwimmt es; andernfalls sinkt es.",
+      "difficulty": 7,
+      "subcategory": "Auftrieb & Schwimmen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Wasserstoffbrückenbindung",
+      "question": "Welche Aussage über Wasserstoffbrückenbindungen ist korrekt?",
+      "choices": [
+        "A: Wasserstoffbrückenbindungen sind nicht polar.",
+        "B: Wasserstoffbrückenbindungen treten nur in festen Stoffen auf.",
+        "C: Wasserstoffbrückenbindungen sind immer stärker als kovalente Bindungen.",
+        "D: Wasserstoffbrückenbindungen sind intermolekulare Wechselwirkungen zwischen einem Wasserstoffatom und einem elektronegativen Atom."
+      ],
+      "correct_answer": "D",
+      "explanation": "Wasserstoffbrückenbindungen sind spezifische intermolekulare Wechselwirkungen, die auftreten, wenn ein Wasserstoffatom, das an ein elektronegatives Atom (wie Sauerstoff oder Stickstoff) gebunden ist, von einem anderen elektronegativen Atom angezogen wird. Diese Bindungen sind schwächer als kovalente Bindungen, aber entscheidend für viele physikalische und chemische Eigenschaften von Molekülen, insbesondere in Wasser und biologischen Systemen.",
+      "difficulty": 6,
+      "subcategory": "Wasserstoffbrückenbindung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Molekularstrahlen",
+      "question": "Was beschreibt der Begriff 'Molekularstrahlen' in der klassischen Mechanik?",
+      "choices": [
+        "A: Die Bewegung von Molekülen in einem Vakuum.",
+        "B: Die Wechselwirkung zwischen elektrischen Feldern und Molekülen.",
+        "C: Die Temperaturabhängigkeit der Molekülgeschwindigkeit.",
+        "D: Die Ausbreitung von Licht in Molekülstrukturen."
+      ],
+      "correct_answer": "A",
+      "explanation": "Molekularstrahlen beziehen sich auf die gerichtete Bewegung von Molekülen in einem Vakuum, wo sie ohne nennenswerte Störungen durch andere Moleküle oder Atome reisen. Diese Bewegung ist wichtig für Experimente in der Physik, bei denen die Eigenschaften von Molekülen untersucht werden sollen.",
+      "difficulty": 6,
+      "subcategory": "Molekularstrahlen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Resonanz & Schaltvorgänge",
+      "question": "Welcher der folgenden Faktoren hat den größten Einfluss auf die Resonanzfrequenz eines Schwingkreises?",
+      "choices": [
+        "A: Die Induktivität des Schwingkreises.",
+        "B: Die elektrische Feldstärke.",
+        "C: Die Temperatur der Umgebung.",
+        "D: Die Länge der Zuleitungen."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Resonanzfrequenz eines Schwingkreises wird maßgeblich durch die Induktivität und die Kapazität des Kreises bestimmt. Eine Änderung der Induktivität hat daher den größten Einfluss auf die Resonanzfrequenz, während die anderen Faktoren nur indirekten Einfluss haben können.",
+      "difficulty": 7,
+      "subcategory": "Resonanz & Schaltvorgänge"
+    }
+  ]
+}
