@@ -1,0 +1,169 @@
+{
+  "date": "2026-03-16",
+  "generated_at": "2026-03-16T04:03:37Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Erster Hauptsatz & innere Energie",
+      "question": "Was beschreibt der erste Hauptsatz der Thermodynamik?",
+      "choices": [
+        "A: Temperatur ist unabhängig von der inneren Energie eines Systems.",
+        "B: Die Energie eines geschlossenen Systems bleibt konstant.",
+        "C: Der Druck eines Gases ist immer konstant.",
+        "D: Wärme kann nicht von einem Körper auf einen anderen übertragen werden."
+      ],
+      "correct_answer": "B",
+      "explanation": "Der erste Hauptsatz der Thermodynamik besagt, dass die Gesamtenergie eines geschlossenen Systems konstant bleibt, was bedeutet, dass Energie weder erzeugt noch zerstört werden kann, sondern nur umgewandelt wird. Dies ist grundlegend für das Verständnis von Energieübertragungen in physikalischen Prozessen.",
+      "difficulty": 1,
+      "subcategory": "Erster Hauptsatz & innere Energie"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Maxwell-Gleichungen der Elektrostatik",
+      "question": "Was beschreibt die erste Maxwell-Gleichung in der Elektrostatik?",
+      "choices": [
+        "A: Die Energieerhaltung in elektrischen Schaltkreisen.",
+        "B: Die Bewegung von elektrischen Strömen.",
+        "C: Die Beziehung zwischen elektrischen Feldern und Ladungen.",
+        "D: Die Wechselwirkung zwischen Magnetfeldern und elektrischen Strömen."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die erste Maxwell-Gleichung beschreibt, wie elektrische Felder durch elektrische Ladungen erzeugt werden. Diese Beziehung ist grundlegend für das Verständnis der Elektrostatik und bildet die Basis für die weiteren Maxwell-Gleichungen.",
+      "difficulty": 2,
+      "subcategory": "Maxwell-Gleichungen der Elektrostatik"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Schwarzer Strahler: Emissionsverhalten",
+      "question": "Was ist ein schwarzer Strahler in der Physik?",
+      "choices": [
+        "A: Ein Körper, der niemals Wärme abgibt.",
+        "B: Ein Körper, der nur sichtbares Licht emittiert.",
+        "C: Ein idealer Körper, der jede Strahlung absorbiert und vollständig emittiert.",
+        "D: Ein Körper, der nur von außen beleuchtet werden kann."
+      ],
+      "correct_answer": "C",
+      "explanation": "Ein schwarzer Strahler ist ein theoretisches Modell, das perfekt absorbiert und emittiert. Er emittiert Strahlung entsprechend seiner Temperatur und folgt dem Planckschen Strahlungsgesetz.",
+      "difficulty": 1,
+      "subcategory": "Schwarzer Strahler: Emissionsverhalten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Vakuumbereiche",
+      "question": "Welche Aussage über Vakuumbereiche in der klassischen Mechanik ist korrekt?",
+      "choices": [
+        "A: Vakuumbereiche sind immer vollständig leer von Materie.",
+        "B: Ein Vakuum ist notwendig, um den Luftwiderstand bei der Bewegung von Objekten zu eliminieren.",
+        "C: In einem Vakuum kann die Schallausbreitung nicht stattfinden.",
+        "D: Vakuumbereiche haben keinen Einfluss auf die Gravitation von Objekten."
+      ],
+      "correct_answer": "C",
+      "explanation": "In einem Vakuum gibt es keine Luftmoleküle, was bedeutet, dass Schall nicht übertragen werden kann, da Schallwellen ein Medium benötigen. Vakuum bedeutet nicht notwendigerweise vollständige Leere, aber es ist entscheidend für die Schallübertragung.",
+      "difficulty": 7,
+      "subcategory": "Vakuumbereiche"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Lichtkegel und Minkowski-Diagramme",
+      "question": "Was beschreibt ein Lichtkegel im Minkowski-Diagramm?",
+      "choices": [
+        "A: Die Masse eines Körpers.",
+        "B: Die Geschwindigkeit eines bewegten Objekts.",
+        "C: Die möglichen Positionen eines Teilchens über die Zeit.",
+        "D: Die Energie eines Photons."
+      ],
+      "correct_answer": "C",
+      "explanation": "Ein Lichtkegel im Minkowski-Diagramm stellt die möglichen Positionen dar, die Lichtstrahlen in Raum und Zeit einnehmen können. Er hilft zu veranschaulichen, welche Ereignisse in einer bestimmten Zeitspanne für einen Beobachter erreichbar sind und welche nicht.",
+      "difficulty": 3,
+      "subcategory": "Lichtkegel und Minkowski-Diagramme"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Phasen- und Gruppengeschwindigkeit",
+      "question": "Was beschreibt die Gruppengeschwindigkeit in der Optik?",
+      "choices": [
+        "A: Die Geschwindigkeit, mit der sich die Phasen eines Wellenzyklus bewegen.",
+        "B: Die Geschwindigkeit, mit der sich Energie oder Information durch eine Welle ausbreitet.",
+        "C: Die Geschwindigkeit, mit der sich das Licht in einem Medium ausbreitet.",
+        "D: Die Geschwindigkeit von Licht im Vakuum."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Gruppengeschwindigkeit ist die Geschwindigkeit, mit der die Energie oder Information einer Welle propagiert wird. Sie kann von der Phasengeschwindigkeit abweichen, besonders in dispersiven Medien, wo unterschiedliche Frequenzen unterschiedlich schnell reisen.",
+      "difficulty": 3,
+      "subcategory": "Phasen- und Gruppengeschwindigkeit"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Definitionen & Rechenregeln von Tensoren",
+      "question": "Was beschreibt ein Tensor in der Relativitätstheorie?",
+      "choices": [
+        "A: Eine Funktion, die nur in der klassischen Mechanik Anwendung findet.",
+        "B: Eine spezielle Art von Vektor in einem zweidimensionalen Raum.",
+        "C: Ein mathematisches Objekt, das Beziehungen zwischen Vektoren und anderen Tensors beschreibt.",
+        "D: Eine skalare Größe ohne Richtung."
+      ],
+      "correct_answer": "C",
+      "explanation": "Ein Tensor ist ein mathematisches Objekt, das Beziehungen zwischen Vektoren, Skalaren und anderen Tensors beschreibt und eine zentrale Rolle in der Relativitätstheorie spielt. Sie ermöglichen eine präzise Beschreibung der physikalischen Gesetze in verschiedenen Koordinatensystemen.",
+      "difficulty": 5,
+      "subcategory": "Definitionen & Rechenregeln von Tensoren"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Energie und Impuls von Licht",
+      "question": "Welche der folgenden Aussagen über die Energie von Licht ist korrekt?",
+      "choices": [
+        "A: Die Energie eines Photons ist direkt proportional zu seiner Frequenz.",
+        "B: Die Energie eines Photons wird nur durch seine Intensität bestimmt.",
+        "C: Die Energie eines Photons ist konstant für alle Lichtarten.",
+        "D: Die Energie eines Photons ist unabhängig von seiner Wellenlänge."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Energie eines Photons ist direkt proportional zu seiner Frequenz, was durch die Gleichung E = h * f beschrieben wird, wobei E die Energie, h das Plancksche Wirkungsquantum und f die Frequenz ist. Dies bedeutet, dass Licht mit höherer Frequenz auch mehr Energie hat.",
+      "difficulty": 5,
+      "subcategory": "Energie und Impuls von Licht"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Hochtemperatur-Supraleiter",
+      "question": "Welche der folgenden Aussagen über Hochtemperatur-Supraleiter ist korrekt?",
+      "choices": [
+        "A: Hochtemperatur-Supraleiter sind immer aus Kupferoxid-Schichten aufgebaut.",
+        "B: Hochtemperatur-Supraleiter können nur durch Druck verfestigt werden.",
+        "C: Hochtemperatur-Supraleiter verlieren ihre supraleitenden Eigenschaften bei Temperaturen unter 0 K.",
+        "D: Hochtemperatur-Supraleiter weisen eine supraleitende Phase bei Temperaturen über 77 K auf."
+      ],
+      "correct_answer": "D",
+      "explanation": "Hochtemperatur-Supraleiter sind definiert als Materialien, die bei Temperaturen über der des flüssigen Stickstoffs (77 K) supraleitend werden. Diese Materialien können verschiedene chemische Zusammensetzungen haben, nicht ausschließlich Kupferoxide, und sie verlieren ihre supraleitenden Eigenschaften nicht bei Temperaturen unter 0 K, sondern bei höheren Temperaturen, die über ihrem kritischen Wert liegen.",
+      "difficulty": 8,
+      "subcategory": "Hochtemperatur-Supraleiter"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Eigenwertproblem des Bahndrehimpulses",
+      "question": "Was beschreibt der Eigenwert des Bahndrehimpulses in der Quantenmechanik?",
+      "choices": [
+        "A: Die Aufenthaltswahrscheinlichkeit eines Teilchens.",
+        "B: Den Drehimpuls eines Teilchens in Bezug auf einen bestimmten Punkt.",
+        "C: Die quantisierte Energie eines Teilchens.",
+        "D: Die Geschwindigkeit eines Teilchens."
+      ],
+      "correct_answer": "B",
+      "explanation": "Der Eigenwert des Bahndrehimpulses beschreibt den quantisierten Drehimpuls eines Teilchens, der in der Quantenmechanik nur bestimmte diskrete Werte annehmen kann. Dies ist ein grundlegendes Konzept, das zeigt, wie sich Drehimpuls und quantenmechanische Zustände verhalten.",
+      "difficulty": 5,
+      "subcategory": "Eigenwertproblem des Bahndrehimpulses"
+    }
+  ]
+}
