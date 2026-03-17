@@ -1,0 +1,169 @@
+{
+  "date": "2026-03-17",
+  "generated_at": "2026-03-17T03:50:42Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Erzwungene Schwingungen (Ionenkristalle)",
+      "question": "Was bezeichnet der Begriff 'erzwungene Schwingungen' in Ionenkristallen?",
+      "choices": [
+        "A: Schwingungen, die durch externe Kräfte angeregt werden.",
+        "B: Schwingungen, die nicht durch äußere Einflüsse beeinflusst werden.",
+        "C: Schwingungen, die nur bei sehr hohen Temperaturen vorkommen.",
+        "D: Schwingungen, die immer spontan auftreten."
+      ],
+      "correct_answer": "A",
+      "explanation": "Erzwungene Schwingungen in Ionenkristallen entstehen, wenn externe Kräfte einwirken, die das System in Schwingung versetzen. Diese Schwingungen sind wichtig für das Verständnis von Eigenschaften und Verhalten von Materialien unter bestimmten Bedingungen.",
+      "difficulty": 1,
+      "subcategory": "Erzwungene Schwingungen (Ionenkristalle)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Paramagnetismus",
+      "question": "Was ist ein charakteristisches Merkmal von paramagnetischen Materialien?",
+      "choices": [
+        "A: Sie haben unpaarige Elektronenspin-Zustände.",
+        "B: Sie sind nicht magnetisch unter normalen Bedingungen.",
+        "C: Sie besitzen eine permanente magnetische Ausrichtung.",
+        "D: Sie sind immer ferromagnetisch."
+      ],
+      "correct_answer": "A",
+      "explanation": "Paramagnetische Materialien haben unpaarige Elektronenspin-Zustände, die ihnen ermöglichen, sich in einem externen Magnetfeld auszurichten. Diese Materialien zeigen Magnetismus nur in Gegenwart eines externen Magnetfeldes und verlieren ihn, sobald das Feld entfernt wird.",
+      "difficulty": 3,
+      "subcategory": "Paramagnetismus"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Variationsverfahren (Extremalprinzip)",
+      "question": "Was beschreibt das Variationsverfahren in der Quantenmechanik?",
+      "choices": [
+        "A: Es wird ein approximativer Zustand gesucht, der die Energie eines quantenmechanischen Systems minimiert.",
+        "B: Es ist ein Verfahren zur Bestimmung der Temperatur eines Systems.",
+        "C: Es bezieht sich auf die Berechnung der Geschwindigkeit von Licht in verschiedenen Medien.",
+        "D: Es handelt sich um eine Methode zur Berechnung der Teilchenbewegung in klassischen Systemen."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Variationsverfahren ist eine mathematische Technik, die in der Quantenmechanik verwendet wird, um approximative Lösungen für das Schrödinger-Gleichung zu finden. Dabei wird ein Zustand gesucht, der die Energie des Systems minimiert, was zu wertvollen Einsichten in dessen Verhalten führt.",
+      "difficulty": 6,
+      "subcategory": "Variationsverfahren (Extremalprinzip)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Langer-Verfahren",
+      "question": "Was ist das Hauptziel des Langer-Verfahrens in der Quantenmechanik?",
+      "choices": [
+        "A: Bestimmung der Geschwindigkeit eines Objekts",
+        "B: Berechnung der Energiezustände eines quantenmechanischen Systems",
+        "C: Ermittlung der Lichtgeschwindigkeit",
+        "D: Analyse thermodynamischer Prozesse"
+      ],
+      "correct_answer": "B",
+      "explanation": "Das Langer-Verfahren ist ein mathematisches Werkzeug in der Quantenmechanik, das verwendet wird, um die Energiezustände eines Systems zu berechnen. Es spielt eine wichtige Rolle bei der Lösung von Differentialgleichungen, die quantenmechanische Probleme beschreiben.",
+      "difficulty": 2,
+      "subcategory": "Langer-Verfahren"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Orientierungspolarisation",
+      "question": "Was beschreibt die Orientierungspolarisation in Festkörpern?",
+      "choices": [
+        "A: Die Veränderung der Masse eines Körpers unter Druck.",
+        "B: Die Änderung des Volumens bei Temperaturänderung.",
+        "C: Die Ausrichtung von Polarisation in einem elektrischen Feld.",
+        "D: Die Temperaturabhängigkeit der elektrischen Leitfähigkeit."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Orientierungspolarisation bezieht sich auf die Ausrichtung von dipolaren Molekülen in einem elektrischen Feld. Diese Ausrichtung kann die dielektrischen Eigenschaften eines Materials beeinflussen.",
+      "difficulty": 2,
+      "subcategory": "Orientierungspolarisation"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Maxwell-Gleichungen (vollständig)",
+      "question": "Welche der folgenden Maxwell-Gleichungen beschreibt die Änderung des elektrischen Flusses durch eine geschlossene Fläche?",
+      "choices": [
+        "A: ∇ × B = μ₀j + μ₀ε₀∂E/∂t",
+        "B: ∇ × E = -∂B/∂t",
+        "C: ∇ · E = ρ/ε₀",
+        "D: ∇ · B = 0"
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Gleichung A (∇ · E = ρ/ε₀) beschreibt das elektrische Feld E und dessen Zusammenhang zur elektrischen Ladungsdichte ρ. Diese Gleichung ist eine Formulierung von Gauss' Gesetz, welches den elektrischen Fluss durch eine geschlossene Fläche beschreibt und somit die Änderung des Flusses in Bezug auf die Ladungsverteilung erfasst.",
+      "difficulty": 7,
+      "subcategory": "Maxwell-Gleichungen (vollständig)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Versagen des Rutherford-Modells",
+      "question": "Welches Phänomen kann nicht durch das Rutherford-Modell erklärt werden?",
+      "choices": [
+        "A: Das Stabilitätsproblem von Atomen",
+        "B: Die Wechselwirkung von Atomen mit Magnetfeldern",
+        "C: Die Existenz von Elektronenschalen",
+        "D: Die Absorption von Licht durch Atome"
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Rutherford-Modell kann nicht erklären, warum Atome stabil sind, da es vorhersagt, dass Elektronen spiralförmig in den Atomkern stürzen sollten. Dies steht im Widerspruch zu den beobachteten stabilen Atomen, was zur Entwicklung der Quantenmechanik führte.",
+      "difficulty": 4,
+      "subcategory": "Versagen des Rutherford-Modells"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Nicht-Vertauschbarkeit von Operatoren",
+      "question": "Was bedeutet die Nicht-Vertauschbarkeit von Operatoren in der Quantenmechanik?",
+      "choices": [
+        "A: Alle physikalischen Größen können jederzeit genau gemessen werden.",
+        "B: Quantenmechanik hat keine Auswirkungen auf die Messung von Teilchen.",
+        "C: Operatoren können beliebig vertauscht werden, ohne die Ergebnisse zu beeinflussen.",
+        "D: Es gibt Paare von physikalischen Größen, die nicht gleichzeitig genau gemessen werden können."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Nicht-Vertauschbarkeit von Operatoren bedeutet, dass es bestimmte Paare von physikalischen Größen, wie zum Beispiel Ort und Impuls, gibt, die nicht gleichzeitig mit beliebiger Genauigkeit gemessen werden können. Dies ist ein zentrales Konzept in der Quantenmechanik und führt zu den bekannten Unschärferelationen.",
+      "difficulty": 1,
+      "subcategory": "Nicht-Vertauschbarkeit von Operatoren"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Ginzburg–Landau-Funktional & -Nähe",
+      "question": "Was beschreibt das Ginzburg–Landau-Funktional in der statistischen Mechanik?",
+      "choices": [
+        "A: Die Temperaturabhängigkeit eines idealen Gases.",
+        "B: Die Energiedichte eines Systems in der Nähe eines Phasenübergangs.",
+        "C: Die Bewegung von Teilchen in einem Vakuum.",
+        "D: Die Wechselwirkungen zwischen elektromagnetischen Feldern."
+      ],
+      "correct_answer": "B",
+      "explanation": "Das Ginzburg–Landau-Funktional beschreibt die Energiedichte eines Systems, das sich in der Nähe eines Phasenübergangs befindet. Es ist besonders nützlich zur Beschreibung von Phänomenen wie Supraleitung und Magnetismus in Materialien.",
+      "difficulty": 3,
+      "subcategory": "Ginzburg–Landau-Funktional & -Nähe"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Innere Reibung (Kontinuumsmechanik)",
+      "question": "Welche der folgenden Aussagen beschreibt die Beziehung zwischen innerer Reibung und Viskosität in einem viskosen Fluid unter stationären Bedingungen?",
+      "choices": [
+        "A: Die innere Reibung nimmt mit steigender Temperatur des Fluids zu.",
+        "B: Die innere Reibung ist unabhängig von der Temperatur des Fluids.",
+        "C: Die innere Reibung ist proportional zur Geschwindigkeit des Flusses und zur Viskosität.",
+        "D: Die innere Reibung ist immer konstant, unabhängig von den Deformationsbedingungen."
+      ],
+      "correct_answer": "C",
+      "explanation": "In viskosen Fluiden beschreibt die innere Reibung, auch bekannt als Viskosität, den Widerstand, den das Fluid gegen Fließen leistet. Diese innere Reibung ist proportional zur Geschwindigkeit des Flusses und der Viskosität, was die Beziehung zwischen diesen Größen unter stationären Bedingungen kennzeichnet.",
+      "difficulty": 10,
+      "subcategory": "Innere Reibung (Kontinuumsmechanik)"
+    }
+  ]
+}

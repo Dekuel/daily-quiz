@@ -1,0 +1,168 @@
+{
+  "date": "2026-03-17",
+  "generated_at": "2026-03-17T03:51:20Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Erzwungene Schwingungen (Ionenkristalle)",
+      "question": "What does the term 'forced vibrations' refer to in ionic crystals?",
+      "choices": [
+        "A: Vibrations excited by external forces.",
+        "B: Vibrations not influenced by external factors.",
+        "C: Vibrations that only occur at very high temperatures.",
+        "D: Vibrations that always occur spontaneously."
+      ],
+      "correct_answer": "A",
+      "explanation": "Forced vibrations in ionic crystals occur when external forces act to set the system into vibration. These vibrations are important for understanding the properties and behavior of materials under certain conditions.",
+      "difficulty": 1,
+      "subcategory": "Erzwungene Schwingungen (Ionenkristalle)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Paramagnetismus",
+      "question": "What is a characteristic feature of paramagnetic materials?",
+      "choices": [
+        "A: They have unpaired electron spin states.",
+        "B: They are non-magnetic under normal conditions.",
+        "C: They possess a permanent magnetic orientation.",
+        "D: They are always ferromagnetic."
+      ],
+      "correct_answer": "A",
+      "explanation": "Paramagnetic materials have unpaired electron spin states that allow them to align in an external magnetic field. These materials exhibit magnetism only in the presence of an external magnetic field and lose it once the field is removed.",
+      "difficulty": 3,
+      "subcategory": "Paramagnetismus"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Variationsverfahren (Extremalprinzip)",
+      "question": "What does the variational method describe in quantum mechanics?",
+      "choices": [
+        "A: It searches for an approximate state that minimizes the energy of a quantum mechanical system.",
+        "B: It is a method for determining the temperature of a system.",
+        "C: It refers to the calculation of the speed of light in different media.",
+        "D: It is a method for calculating particle motion in classical systems."
+      ],
+      "correct_answer": "A",
+      "explanation": "The variational method is a mathematical technique used in quantum mechanics to find approximate solutions to the Schrödinger equation. It searches for a state that minimizes the system's energy, providing valuable insights into its behavior.",
+      "difficulty": 6,
+      "subcategory": "Variationsverfahren (Extremalprinzip)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Langer-Verfahren",
+      "question": "What is the main goal of the Langer's method in quantum mechanics?",
+      "choices": [
+        "A: Determination of an object's velocity.",
+        "B: Calculation of the energy states of a quantum mechanical system.",
+        "C: Determination of the speed of light.",
+        "D: Analysis of thermodynamic processes."
+      ],
+      "correct_answer": "B",
+      "explanation": "Langer's method is a mathematical tool in quantum mechanics used to calculate the energy states of a system. It plays a crucial role in solving differential equations describing quantum mechanical problems.",
+      "difficulty": 2,
+      "subcategory": "Langer-Verfahren"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Orientierungspolarisation",
+      "question": "What describes orientation polarization in solids?",
+      "choices": [
+        "A: The change in mass of a body under pressure.",
+        "B: The change in volume with temperature variation.",
+        "C: The alignment of polarization in an electric field.",
+        "D: The temperature dependence of electrical conductivity."
+      ],
+      "correct_answer": "C",
+      "explanation": "Orientation polarization refers to the alignment of dipolar molecules in an electric field. This alignment can influence the dielectric properties of a material.",
+      "difficulty": 2,
+      "subcategory": "Orientierungspolarisation"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Maxwell-Gleichungen (vollständig)",
+      "question": "Which of the following Maxwell's equations describes the change in electric flux through a closed surface?",
+      "choices": [
+        "A: ∇ × B = μ₀j + μ₀ε₀∂E/∂t",
+        "B: ∇ × E = -∂B/∂t",
+        "C: ∇ · E = ρ/ε₀",
+        "D: ∇ · B = 0"
+      ],
+      "correct_answer": "C",
+      "explanation": "Equation A (∇ · E = ρ/ε₀) describes the electric field E and its relation to the electric charge density ρ. This equation is a formulation of Gauss' law, which describes the electric flux through a closed surface and captures the change in flux with respect to the charge distribution.",
+      "difficulty": 7,
+      "subcategory": "Maxwell-Gleichungen (vollständig)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Versagen des Rutherford-Modells",
+      "question": "Which phenomenon cannot be explained by the Rutherford model?",
+      "choices": [
+        "A: The stability problem of atoms",
+        "B: The interaction of atoms with magnetic fields",
+        "C: The existence of electron shells",
+        "D: The absorption of light by atoms"
+      ],
+      "correct_answer": "A",
+      "explanation": "The Rutherford model cannot explain why atoms are stable, as it predicts that electrons should spiral into the atomic nucleus. This contradicts the observed stable atoms, leading to the development of quantum mechanics.",
+      "difficulty": 4,
+      "subcategory": "Versagen des Rutherford-Modells"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Nicht-Vertauschbarkeit von Operatoren",
+      "question": "What does the non-commutativity of operators in quantum mechanics mean?",
+      "choices": [
+        "A: All physical quantities can be precisely measured at any time.",
+        "B: Quantum mechanics has no effect on particle measurement.",
+        "C: Operators can be arbitrarily commuted without affecting the results.",
+        "D: There are pairs of physical quantities that cannot be precisely measured simultaneously."
+      ],
+      "correct_answer": "D",
+      "explanation": "The non-commutativity of operators means that there are certain pairs of physical quantities, such as position and momentum, that cannot be simultaneously measured with arbitrary precision. This is a central concept in quantum mechanics leading to the well-known uncertainty principles.",
+      "difficulty": 1,
+      "subcategory": "Nicht-Vertauschbarkeit von Operatoren"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Ginzburg–Landau-Funktional & -Nähe",
+      "question": "What does the Ginzburg–Landau functional describe in statistical mechanics?",
+      "choices": [
+        "A: The temperature dependence of an ideal gas.",
+        "B: The energy density of a system near a phase transition.",
+        "C: The motion of particles in a vacuum.",
+        "D: The interactions between electromagnetic fields."
+      ],
+      "correct_answer": "B",
+      "explanation": "The Ginzburg–Landau functional describes the energy density of a system near a phase transition. It is particularly useful for describing phenomena like superconductivity and magnetism in materials.",
+      "difficulty": 3,
+      "subcategory": "Ginzburg–Landau-Funktional & -Nähe"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Innere Reibung (Kontinuumsmechanik)",
+      "question": "Which of the following statements describes the relationship between internal friction and viscosity in a viscous fluid under steady conditions?",
+      "choices": [
+        "A: Internal friction increases with the temperature of the fluid.",
+        "B: Internal friction is independent of the temperature of the fluid.",
+        "C: Internal friction is proportional to the flow velocity and viscosity.",
+        "D: Internal friction is always constant, regardless of the deformation conditions."
+      ],
+      "correct_answer": "C",
+      "explanation": "In viscous fluids, internal friction, also known as viscosity, describes the resistance the fluid offers to flow. This internal friction is proportional to the flow velocity and viscosity, characterizing the relationship between these quantities under steady conditions.",
+      "difficulty": 10,
+      "subcategory": "Innere Reibung (Kontinuumsmechanik)"
+    }
+  ]
+}
