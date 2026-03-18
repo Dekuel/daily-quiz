@@ -1,0 +1,169 @@
+{
+  "date": "2026-03-18",
+  "generated_at": "2026-03-18T03:54:27Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Geschl. System im Wärmebad: Minimum der freien Energie F",
+      "question": "Was beschreibt das Minimum der freien Energie F in einem geschlossenen System im Wärmebad?",
+      "choices": [
+        "A: Der Druck, bei dem das System kollabiert.",
+        "B: Die maximale Temperatur des Systems.",
+        "C: Der Zustand, in dem das System im Gleichgewicht ist.",
+        "D: Die minimale Entropie des Systems."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Minimum der freien Energie F zeigt an, dass das System im thermodynamischen Gleichgewicht ist. In diesem Zustand sind die Temperatur und der Druck konstant, und das System hat die niedrigste mögliche Energie, was Stabilität bedeutet.",
+      "difficulty": 2,
+      "subcategory": "Geschl. System im Wärmebad: Minimum der freien Energie F"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Fermat’sches Prinzip (Optik-Bezug)",
+      "question": "Was besagt das Fermat’sche Prinzip in der Optik?",
+      "choices": [
+        "A: Licht kann durch gravitative Felder nicht beeinflusst werden.",
+        "B: Licht wird nur an Grenzflächen reflektiert.",
+        "C: Licht breitet sich immer gleichmäßig in alle Richtungen aus.",
+        "D: Licht folgt dem schnellsten Weg zwischen zwei Punkten."
+      ],
+      "correct_answer": "D",
+      "explanation": "Das Fermat’sche Prinzip besagt, dass Licht den Weg nimmt, für den die Zeit der Ausbreitung zwischen zwei Punkten minimal ist. Dies erklärt Phänomene wie die Brechung und Reflexion von Lichtstrahlen.",
+      "difficulty": 4,
+      "subcategory": "Fermat’sches Prinzip (Optik-Bezug)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Hartree-Gleichungen",
+      "question": "Welche Annahme liegt der Hartree-Gleichung zugrunde, die die Wechselwirkung zwischen mehreren Elektronen in einem Atom beschreibt?",
+      "choices": [
+        "A: Die Elektronen sind vollständig entkoppelt und beeinflussen sich gegenseitig nicht.",
+        "B: Die Wechselwirkung zwischen den Elektronen wird durch ein externes Magnetfeld dominiert.",
+        "C: Die Elektronen bewegen sich unabhängig voneinander in einem effektiven Potential.",
+        "D: Die Wellenfunktion der Elektronen ist eine einfache Produktform von individuellen Wellenfunktionen."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Hartree-Gleichung basiert auf der Annahme, dass jedes Elektron in einem durchschnittlichen, effektiven Potential agiert, das die Wechselwirkungen mit den anderen Elektronen berücksichtigt. Dies vereinfacht die Berechnung der Gesamtwellenfunktion für ein Mehr-Elektronensystem erheblich, trotz der intrinsischen Wechselwirkungen.",
+      "difficulty": 10,
+      "subcategory": "Hartree-Gleichungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Elektronen als Wellenpakete",
+      "question": "Welche Aussage über Elektronen als Wellenpakete ist korrekt?",
+      "choices": [
+        "A: Elektronen verhalten sich sowohl wie Teilchen als auch wie Wellen, abhängig von der Messung.",
+        "B: Elektronen können niemals als Wellen betrachtet werden.",
+        "C: Elektronen besitzen immer eine klar definierte Position und Geschwindigkeit.",
+        "D: Elektronen können nur in einem Vakuum als Wellenpakete existieren."
+      ],
+      "correct_answer": "A",
+      "explanation": "Elektronen zeigen sowohl Teilchen- als auch Wellencharakter, was als Welle-Teilchen-Dualismus bekannt ist. Diese Eigenschaften treten je nach Experiment und Messung unterschiedlich hervor, was die Quantenmechanik fundamental beeinflusst.",
+      "difficulty": 6,
+      "subcategory": "Elektronen als Wellenpakete"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Dritter Hauptsatz (Nernst’scher Wärmesatz)",
+      "question": "Welche Aussage über den dritten Hauptsatz der Thermodynamik (Nernst’scher Wärmesatz) ist korrekt?",
+      "choices": [
+        "A: Bei Temperaturen über dem absoluten Nullpunkt ist die Entropie immer gleich null.",
+        "B: Der dritte Hauptsatz gilt nur für ideale Gase.",
+        "C: Die Entropie eines Systems kann beliebig negativ sein.",
+        "D: Der Entropiewert eines perfekten Kristalls nähert sich bei absoluter Null dem Wert null an."
+      ],
+      "correct_answer": "D",
+      "explanation": "Der dritte Hauptsatz der Thermodynamik besagt, dass die Entropie eines perfekten Kristalls bei absolutem Nullpunkt (0 K) den Wert null erreicht. Dies ist fundamental für das Verständnis von thermodynamischen Prozessen und der Entropie in verschiedenen Zuständen.",
+      "difficulty": 10,
+      "subcategory": "Dritter Hauptsatz (Nernst’scher Wärmesatz)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Zeitabhängige (Dirac’sche) Störungstheorie: Grundgedanken",
+      "question": "Was beschreibt die zeitabhängige Störungstheorie in der Quantenmechanik?",
+      "choices": [
+        "A: Die Beschreibung der Wechselwirkungen zwischen Teilchen im Ruhezustand.",
+        "B: Die Berechnung von stationären Zuständen in einem System ohne äußere Einflüsse.",
+        "C: Die Entwicklung eines quantenmechanischen Systems in Abhängigkeit von einer zeitlich variierenden Störung.",
+        "D: Die Lösung der Schrödinger-Gleichung für konstante Potentiale."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die zeitabhängige Störungstheorie, auch Dirac’sche Störungstheorie genannt, ermöglicht es, die Zeitentwicklung eines quantenmechanischen Systems zu analysieren, wenn eine Störung in Form einer zeitabhängigen Wechselwirkung hinzugefügt wird. Sie ist besonders nützlich, um Übergänge zwischen quantenmechanischen Zuständen zu verstehen, die durch externe Einflüsse verursacht werden.",
+      "difficulty": 7,
+      "subcategory": "Zeitabhängige (Dirac’sche) Störungstheorie: Grundgedanken"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Zweiter Hauptsatz (Kelvin-Planck/Clausius)",
+      "question": "Was besagt der zweite Hauptsatz der Thermodynamik hinsichtlich der Umwandlung von Wärme in Arbeit?",
+      "choices": [
+        "A: Der zweite Hauptsatz betrifft nur geschlossene Systeme.",
+        "B: Arbeit kann immer vollständig in Wärme umgewandelt werden.",
+        "C: Wärme kann nicht ohne eine Änderung des Entropiestands in Arbeit umgewandelt werden.",
+        "D: Es ist möglich, Wärme vollständig in Arbeit umzuwandeln, ohne Verluste."
+      ],
+      "correct_answer": "C",
+      "explanation": "Der zweite Hauptsatz der Thermodynamik besagt, dass es nicht möglich ist, Wärme vollständig in Arbeit umzuwandeln, ohne dass eine Erhöhung der Entropie auftritt. Dies bedeutet, dass immer ein Teil der Wärmeenergie verloren geht oder in andere Formen umgewandelt wird, die nicht als Arbeit genutzt werden können.",
+      "difficulty": 5,
+      "subcategory": "Zweiter Hauptsatz (Kelvin-Planck/Clausius)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Nicht-holonome Zwangsbedingungen",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt nicht-holonome Zwangsbedingungen?",
+      "choices": [
+        "A: Nicht-holonome Zwangsbedingungen können nicht in eine integrable Form gebracht werden.",
+        "B: Nicht-holonome Zwangsbedingungen sind immer zeitunabhängig.",
+        "C: Nicht-holonome Zwangsbedingungen erlauben die vollständige Integration der Bewegungsgleichungen.",
+        "D: Nicht-holonome Zwangsbedingungen sind nur in der statischen Mechanik relevant."
+      ],
+      "correct_answer": "A",
+      "explanation": "Nicht-holonome Zwangsbedingungen können nicht in eine integrable Form umgeschrieben werden, was bedeutet, dass sie nicht einfach in Form von Positionen und Zeit dargestellt werden können. Diese Bedingung führt häufig zu komplexeren dynamischen Systemen, in denen die Bewegung nicht vollständig durch die Zwangsbedingungen beschrieben werden kann.",
+      "difficulty": 5,
+      "subcategory": "Nicht-holonome Zwangsbedingungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Reibung: Haftreibung",
+      "question": "Welche der folgenden Aussagen zur Haftreibung ist korrekt?",
+      "choices": [
+        "A: Die Haftreibung tritt auf, bevor eine Bewegung einsetzt.",
+        "B: Der Haftreibungskoeffizient ist unabhängig von der Normalkraft.",
+        "C: Haftreibung kann immer überwunden werden, ohne eine äußere Kraft anzuwenden.",
+        "D: Haftreibung ist immer größer als Gleitreibung."
+      ],
+      "correct_answer": "A",
+      "explanation": "Haftreibung ist die Kraft, die notwendig ist, um ein ruhendes Objekt in Bewegung zu setzen. Sie tritt auf, solange das Objekt stillsteht und überwunden werden muss, bevor die Bewegung einsetzt. Die anderen Aussagen sind falsch, da sie die Natur der Reibung nicht korrekt beschreiben.",
+      "difficulty": 7,
+      "subcategory": "Reibung: Haftreibung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Photographische Kamera",
+      "question": "Welches Element einer fotografischen Kamera steuert die Lichtmenge, die auf den Film oder Sensor trifft?",
+      "choices": [
+        "A: Brennweite",
+        "B: Blende",
+        "C: Verschlusszeit",
+        "D: ISO-Wert"
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Blende ist eine Öffnung in der Kamera, die die Menge des einfallenden Lichts reguliert. Eine größere Blendenöffnung lässt mehr Licht durch, während eine kleinere Öffnung weniger Licht zulässt, was die Belichtung des Bildes beeinflusst.",
+      "difficulty": 4,
+      "subcategory": "Photographische Kamera"
+    }
+  ]
+}

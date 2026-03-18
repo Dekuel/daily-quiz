@@ -1,0 +1,168 @@
+{
+  "date": "2026-03-18",
+  "generated_at": "2026-03-18T03:55:06Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Geschl. System im Wärmebad: Minimum der freien Energie F",
+      "question": "What does the minimum of the free energy F describe in a closed system in a heat bath?",
+      "choices": [
+        "A: The pressure at which the system collapses.",
+        "B: The maximum temperature of the system.",
+        "C: The state in which the system is in equilibrium.",
+        "D: The minimum entropy of the system."
+      ],
+      "correct_answer": "C",
+      "explanation": "The minimum of the free energy F indicates that the system is in thermodynamic equilibrium. In this state, the temperature and pressure are constant, and the system has the lowest possible energy, which means stability.",
+      "difficulty": 2,
+      "subcategory": "Geschl. System im Wärmebad: Minimum der freien Energie F"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Fermat’sches Prinzip (Optik-Bezug)",
+      "question": "What does Fermat's principle state in optics?",
+      "choices": [
+        "A: Light cannot be influenced by gravitational fields.",
+        "B: Light is only reflected at interfaces.",
+        "C: Light always propagates uniformly in all directions.",
+        "D: Light follows the fastest path between two points."
+      ],
+      "correct_answer": "D",
+      "explanation": "Fermat's principle states that light takes the path for which the time of propagation between two points is minimal. This explains phenomena such as the refraction and reflection of light rays.",
+      "difficulty": 4,
+      "subcategory": "Fermat’sches Prinzip (Optik-Bezug)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Hartree-Gleichungen",
+      "question": "What assumption underlies the Hartree equation describing the interaction between multiple electrons in an atom?",
+      "choices": [
+        "A: The electrons are completely decoupled and do not influence each other.",
+        "B: The interaction between the electrons is dominated by an external magnetic field.",
+        "C: The electrons move independently of each other in an effective potential.",
+        "D: The wave function of the electrons is a simple product form of individual wave functions."
+      ],
+      "correct_answer": "C",
+      "explanation": "The Hartree equation is based on the assumption that each electron acts in an average, effective potential that takes into account interactions with the other electrons. This simplifies the calculation of the total wave function for a multi-electron system significantly, despite the intrinsic interactions.",
+      "difficulty": 10,
+      "subcategory": "Hartree-Gleichungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Elektronen als Wellenpakete",
+      "question": "Which statement about electrons as wave packets is correct?",
+      "choices": [
+        "A: Electrons behave as both particles and waves, depending on the measurement.",
+        "B: Electrons can never be considered as waves.",
+        "C: Electrons always have a clearly defined position and velocity.",
+        "D: Electrons can only exist as wave packets in a vacuum."
+      ],
+      "correct_answer": "A",
+      "explanation": "Electrons exhibit both particle and wave characteristics, known as wave-particle duality. These properties manifest differently depending on the experiment and measurement, fundamentally influencing quantum mechanics.",
+      "difficulty": 6,
+      "subcategory": "Elektronen als Wellenpakete"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Dritter Hauptsatz (Nernst’scher Wärmesatz)",
+      "question": "Which statement about the third law of thermodynamics (Nernst's heat theorem) is correct?",
+      "choices": [
+        "A: At temperatures above absolute zero, entropy is always zero.",
+        "B: The third law applies only to ideal gases.",
+        "C: The entropy of a system can be arbitrarily negative.",
+        "D: The entropy value of a perfect crystal approaches zero at absolute zero."
+      ],
+      "correct_answer": "D",
+      "explanation": "The third law of thermodynamics states that the entropy of a perfect crystal reaches zero at absolute zero (0 K). This is fundamental for understanding thermodynamic processes and entropy in different states.",
+      "difficulty": 10,
+      "subcategory": "Dritter Hauptsatz (Nernst’scher Wärmesatz)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Zeitabhängige (Dirac’sche) Störungstheorie: Grundgedanken",
+      "question": "What does the time-dependent perturbation theory describe in quantum mechanics?",
+      "choices": [
+        "A: Describing interactions between particles at rest.",
+        "B: Calculating stationary states in a system without external influences.",
+        "C: Developing a quantum mechanical system depending on a time-varying perturbation.",
+        "D: Solving the Schrödinger equation for constant potentials."
+      ],
+      "correct_answer": "C",
+      "explanation": "The time-dependent perturbation theory, also known as Dirac's perturbation theory, allows for analyzing the time evolution of a quantum mechanical system when a perturbation in the form of a time-dependent interaction is added. It is particularly useful for understanding transitions between quantum states caused by external influences.",
+      "difficulty": 7,
+      "subcategory": "Zeitabhängige (Dirac’sche) Störungstheorie: Grundgedanken"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Zweiter Hauptsatz (Kelvin-Planck/Clausius)",
+      "question": "What does the second law of thermodynamics state regarding the conversion of heat into work?",
+      "choices": [
+        "A: The second law applies only to closed systems.",
+        "B: Work can always be completely converted into heat.",
+        "C: Heat cannot be converted into work without a change in entropy.",
+        "D: It is possible to convert heat completely into work without losses."
+      ],
+      "correct_answer": "C",
+      "explanation": "The second law of thermodynamics states that it is not possible to convert heat completely into work without an increase in entropy. This means that a portion of the heat energy is always lost or converted into other forms that cannot be used as work.",
+      "difficulty": 5,
+      "subcategory": "Zweiter Hauptsatz (Kelvin-Planck/Clausius)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Nicht-holonome Zwangsbedingungen",
+      "question": "Which of the following statements correctly describes non-holonomic constraints?",
+      "choices": [
+        "A: Non-holonomic constraints cannot be brought into an integrable form.",
+        "B: Non-holonomic constraints are always time-independent.",
+        "C: Non-holonomic constraints allow for the complete integration of the equations of motion.",
+        "D: Non-holonomic constraints are only relevant in statics mechanics."
+      ],
+      "correct_answer": "A",
+      "explanation": "Non-holonomic constraints cannot be rewritten in an integrable form, meaning they cannot be easily represented in terms of positions and time. This condition often leads to more complex dynamic systems where motion cannot be fully described by the constraints.",
+      "difficulty": 5,
+      "subcategory": "Nicht-holonome Zwangsbedingungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Reibung: Haftreibung",
+      "question": "Which of the following statements about static friction is correct?",
+      "choices": [
+        "A: Static friction occurs before motion begins.",
+        "B: The coefficient of static friction is independent of the normal force.",
+        "C: Static friction can always be overcome without applying an external force.",
+        "D: Static friction is always greater than kinetic friction."
+      ],
+      "correct_answer": "A",
+      "explanation": "Static friction is the force required to set a stationary object in motion. It occurs as long as the object remains at rest and must be overcome before motion begins. The other statements are incorrect as they do not accurately describe the nature of friction.",
+      "difficulty": 7,
+      "subcategory": "Reibung: Haftreibung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Photographische Kamera",
+      "question": "Which element of a photographic camera controls the amount of light hitting the film or sensor?",
+      "choices": [
+        "A: Focal length",
+        "B: Aperture",
+        "C: Shutter speed",
+        "D: ISO value"
+      ],
+      "correct_answer": "B",
+      "explanation": "The aperture is an opening in the camera that regulates the amount of incoming light. A larger aperture allows more light to pass through, while a smaller opening allows less light, affecting the exposure of the image.",
+      "difficulty": 4,
+      "subcategory": "Photographische Kamera"
+    }
+  ]
+}
