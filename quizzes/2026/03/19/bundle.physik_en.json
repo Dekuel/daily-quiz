@@ -1,0 +1,168 @@
+{
+  "date": "2026-03-19",
+  "generated_at": "2026-03-19T03:55:52Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Virialentwicklung & 2. Virialkoeffizient (klass./quant.)",
+      "question": "What does the 2nd virial coefficient describe in statistical mechanics?",
+      "choices": [
+        "What does the precession of a symmetric gyroscope describe?",
+        "The precession of a symmetric gyroscope describes the movement of the axis of rotation, which revolves around an external point or axis. This motion is caused by the moment acting on the gyroscope when it is tilted, leading to a circular motion of the gyroscope's axis.",
+        "Which of the following statements about a one-dimensional potential in quantum mechanics is correct?",
+        "A delta potential in quantum mechanics actually results in discrete energy eigenvalues as it represents a local disturbance in the potential. The other statements are either incorrect or misleading in this context."
+      ],
+      "correct_answer": "D",
+      "explanation": "The 2nd virial coefficient describes the interactions between two particles in a gas and is crucial for correcting the ideal gas laws for real gases. It provides insight into how particles influence each other due to intermolecular forces, thus being important for describing gas behavior under various conditions.",
+      "difficulty": 4,
+      "subcategory": "Virialentwicklung & 2. Virialkoeffizient (klass./quant.)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Präzession des symmetrischen Kreisels",
+      "question": "What does the H-theorem state in statistical mechanics?",
+      "choices": [
+        "What does the double-slit experiment in quantum mechanics describe?",
+        "The double-slit experiment shows that particles like electrons can exhibit both wave and particle behaviors. This is a central concept of quantum mechanics that highlights the limitations of classical physics, which only knew particle behavior.",
+        "What does the Kepler problem describe in analytical mechanics?",
+        "The Kepler problem describes the motions of planets in elliptical orbits around the Sun based on Johannes Kepler's laws. This problem is a central aspect of analytical mechanics and helps understand the dynamics of celestial bodies."
+      ],
+      "correct_answer": "C",
+      "explanation": "The H-theorem describes that the entropy of an isolated system never decreases over time but either remains constant or increases. This is a central concept in statistical mechanics that describes the irreversibility of natural processes.",
+      "difficulty": 3,
+      "subcategory": "Präzession des symmetrischen Kreisels"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "1D-Potentialprobleme: allgemeine Aussagen",
+      "question": "Which phase of nuclear matter describes the state where nuclear particles are no longer bound and can move freely?",
+      "choices": [
+        "What happens to a positive point charge in an electric field?",
+        "A positive point charge experiences a force in the same direction as the electric field. This is a fundamental property of electric fields as they can attract or repel charged particles depending on the charge's sign.",
+        "What is a characteristic property of an electric dipole?",
+        "An electric dipole consists of two equally sized but oppositely charged points, resulting in a positive and a negative charge. This structure is crucial for the properties of the dipole and its behavior in electric fields."
+      ],
+      "correct_answer": "D",
+      "explanation": "In plasma, atomic nuclei are ionized, and electrons are separated from the atomic nuclei, leading to a state where nuclear particles are freely movable. This differs from solid and liquid states where particles are more strongly bound.",
+      "difficulty": 9,
+      "subcategory": "1D-Potentialprobleme: allgemeine Aussagen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "H-Theorem, Irreversibilität & lokale Maxwell-Verteilung",
+      "question": "What does the Legendre transformation describe in thermodynamics?",
+      "choices": [
+        "A: Die Temperatur eines Systems ist immer konstant.",
+        "B: Die Entropie eines isolierten Systems nimmt immer zu oder bleibt konstant.",
+        "C: Die Entropie eines isolierten Systems bleibt konstant.",
+        "D: Die Energie ist in einem geschlossenen System immer gleich verteilt."
+      ],
+      "correct_answer": "B",
+      "explanation": "The Legendre transformation is used to switch between different thermodynamic potentials such as internal energy, enthalpy, Helmholtz, and Gibbs energies. It is an important tool to analyze and understand the relationships between these quantities.",
+      "difficulty": 6,
+      "subcategory": "H-Theorem, Irreversibilität & lokale Maxwell-Verteilung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Grenzen der klassischen Physik",
+      "question": "Was beschreibt das Doppelspalt-Experiment in der Quantenmechanik?",
+      "choices": [
+        "A: Licht besteht ausschließlich aus Teilchen.",
+        "B: Quantenobjekte können nicht lokalisiert werden.",
+        "C: Teilchen zeigen sowohl Wellen- als auch Teilchenverhalten.",
+        "D: Alle Teilchen bewegen sich immer geradeaus."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Doppelspalt-Experiment zeigt, dass Teilchen wie Elektronen sowohl Wellen- als auch Teilchenverhalten zeigen können. Dies ist ein zentrales Konzept der Quantenmechanik, das die Grenzen der klassischen Physik aufzeigt, die nur Teilchenverhalten kannte.",
+      "difficulty": 3,
+      "subcategory": "Grenzen der klassischen Physik"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Kepler-Problem (HJ/AA-Formalismus)",
+      "question": "Was beschreibt das Kepler-Problem in der analytischen Mechanik?",
+      "choices": [
+        "A: Die Bewegung von Planeten um die Sonne.",
+        "B: Die Schwingung eines Pendels.",
+        "C: Die Energieerhaltung in einem geschlossenen System.",
+        "D: Die Ausbreitung von Schallwellen."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Kepler-Problem beschreibt die Bewegungen der Planeten in elliptischen Bahnen um die Sonne, basierend auf den Gesetzen von Johannes Kepler. Dieses Problem ist ein zentraler Aspekt der analytischen Mechanik und hilft, die Dynamik von Himmelskörpern zu verstehen.",
+      "difficulty": 2,
+      "subcategory": "Kepler-Problem (HJ/AA-Formalismus)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Phasen der Kernmaterie",
+      "question": "Welche Phase der Kernmaterie beschreibt den Zustand, in dem die Kernpartikel nicht mehr gebunden sind und sich frei bewegen können?",
+      "choices": [
+        "A: Gas",
+        "B: Festkörper",
+        "C: Plasma",
+        "D: Flüssigkeit"
+      ],
+      "correct_answer": "C",
+      "explanation": "Im Plasma sind die Atomkerne ionisiert und die Elektronen sind von den Atomkernen getrennt, was zu einem Zustand führt, in dem die Kernpartikel frei beweglich sind. Dies unterscheidet sich von festen und flüssigen Zuständen, in denen die Teilchen stärker gebunden sind.",
+      "difficulty": 5,
+      "subcategory": "Phasen der Kernmaterie"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Wechselwirkung einer Ladungsverteilung mit äußerem Feld",
+      "question": "Was passiert mit einer positiven Punktladung, die sich in einem elektrischen Feld befindet?",
+      "choices": [
+        "A: Sie erfährt eine Kraft in Richtung des elektrischen Feldes.",
+        "B: Sie bewegt sich in die entgegengesetzte Richtung des elektrischen Feldes.",
+        "C: Sie wird neutralisiert.",
+        "D: Sie erfährt keine Kraft."
+      ],
+      "correct_answer": "A",
+      "explanation": "Eine positive Punktladung erfährt eine Kraft, die in die gleiche Richtung wie das elektrische Feld zeigt. Dies ist eine grundlegende Eigenschaft elektrischer Felder, da sie geladene Teilchen anziehen oder abstoßen können, abhängig von der Vorzeichen der Ladung.",
+      "difficulty": 4,
+      "subcategory": "Wechselwirkung einer Ladungsverteilung mit äußerem Feld"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Dipolschicht & Quadrupol",
+      "question": "Was ist eine charakteristische Eigenschaft eines elektrischen Dipols?",
+      "choices": [
+        "A: Er erzeugt ein elektrisches Feld, das sich radial von einer einzigen Ladung ausbreitet.",
+        "B: Er kann nur in einem homogenen elektrischen Feld existieren.",
+        "C: Er hat immer eine positive und eine negative Ladung.",
+        "D: Er hat einen festen Wert für sein elektrisches Moment unabhängig von der Entfernung."
+      ],
+      "correct_answer": "C",
+      "explanation": "Ein elektrischer Dipol besteht aus zwei gleich großen, aber entgegengesetzt geladenen Punkten, was zu einer positiven und einer negativen Ladung führt. Diese Struktur ist entscheidend für die Eigenschaften des Dipols und sein Verhalten in elektrischen Feldern.",
+      "difficulty": 6,
+      "subcategory": "Dipolschicht & Quadrupol"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Legendre-Transformation (U↔H↔F↔G)",
+      "question": "Was beschreibt die Legendre-Transformation in der Thermodynamik?",
+      "choices": [
+        "A: Die Messung des Drucks in einem geschlossenen System.",
+        "B: Die Umwandlung zwischen verschiedenen thermodynamischen Potenzialen.",
+        "C: Die Bestimmung der inneren Energie eines idealen Gases.",
+        "D: Die Berechnung der Temperatur eines Systems."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Legendre-Transformation wird verwendet, um zwischen verschiedenen thermodynamischen Potenzialen wie innerer Energie, Enthalpie, Helmholtz- und Gibbs-Energie zu wechseln. Sie ist ein wichtiges Werkzeug, um die Beziehungen zwischen diesen Größen zu analysieren und zu verstehen.",
+      "difficulty": 4,
+      "subcategory": "Legendre-Transformation (U↔H↔F↔G)"
+    }
+  ]
+}
