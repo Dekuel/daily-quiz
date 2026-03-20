@@ -1,0 +1,169 @@
+{
+  "date": "2026-03-20",
+  "generated_at": "2026-03-20T03:50:07Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Einfache Beispiele in Hamilton-Formulierung",
+      "question": "Welches der folgenden Systeme kann in der Hamilton-Formulierung durch eine kanonische Transformation in eine einfachere Form gebracht werden?",
+      "choices": [
+        "A: Ein System mit dissipativen Kräften",
+        "B: Ein harmonischer Oszillator",
+        "C: Ein freier Partikel ohne äußere Kräfte",
+        "D: Ein rotierender starrer Körper"
+      ],
+      "correct_answer": "B",
+      "explanation": "Der harmonische Oszillator ist ein klassisches Beispiel, das sich sehr gut in der Hamilton-Formulierung analysieren lässt. Durch kanonische Transformationen können die Hamilton-Funktionen vereinfacht werden, was bei anderen Systemen wie dissipativen Kräften nicht möglich ist.",
+      "difficulty": 9,
+      "subcategory": "Einfache Beispiele in Hamilton-Formulierung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Mott‑Wirkungsquerschnitt",
+      "question": "Was beschreibt der Mott-Wirkungsquerschnitt in der Kern- und Teilchenphysik?",
+      "choices": [
+        "A: Die Energieverteilung von Photonen in einem Magnetfeld.",
+        "B: Den effektiven Radius eines Atomkerns bei der Kernfusion.",
+        "C: Die Absorption von Neutronen in einem Material.",
+        "D: Die Wahrscheinlichkeit, dass ein Elektron in einem Feld von Protonen gestreut wird."
+      ],
+      "correct_answer": "D",
+      "explanation": "Der Mott-Wirkungsquerschnitt ist ein theoretisches Konzept, das die Streuwahrscheinlichkeit von Elektronen an einem atomaren Ziel beschreibt, insbesondere wenn starke Wechselwirkungen zwischen den Teilchen auftreten. Diese Größe ist entscheidend für das Verständnis von Hochenergie-Streuexperimenten in der Teilchenphysik.",
+      "difficulty": 8,
+      "subcategory": "Mott‑Wirkungsquerschnitt"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Typen der schwachen Wechselwirkung (CC/NC)",
+      "question": "Welche der folgenden Aussagen beschreibt eine neutrinolose schwache Wechselwirkung?",
+      "choices": [
+        "A: Sie ist immer mit der Erzeugung eines W- oder Z-Bosons verbunden.",
+        "B: Sie ist die häufigste Wechselwirkung, die in Atomkernen auftritt.",
+        "C: Sie führt immer zu einer Änderung der elektrischen Ladung eines Teilchens.",
+        "D: Sie findet ohne die Beteiligung von Neutrinos statt."
+      ],
+      "correct_answer": "D",
+      "explanation": "Eine neutrinolose schwache Wechselwirkung ist definiert durch das Fehlen von Neutrinos im Prozess. Diese Art der Wechselwirkung tritt auf, wenn die beteiligten Teilchen keine Neutrinos emittieren oder absorbieren, was sie von anderen schwachen Wechselwirkungen unterscheidet.",
+      "difficulty": 5,
+      "subcategory": "Typen der schwachen Wechselwirkung (CC/NC)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Bewegungsgleichung der Gitteratome",
+      "question": "Welche der folgenden Gleichungen beschreibt die Bewegung eines Gitteratoms im Rahmen der Harmonischen Näherung?",
+      "choices": [
+        "A: p = mv",
+        "B: F = m * a",
+        "C: F = -k * x",
+        "D: E = mc²"
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Gleichung F = -k * x ist die klassische Form der Hookeschen Gesetzes, das die Rückstellkraft beschreibt, die auf ein Gitteratom wirkt, wenn es von seiner Gleichgewichtslage abweicht. In der Festkörperphysik wird dies häufig verwendet, um die Schwingungen von Atomen in einem Kristall zu modellieren.",
+      "difficulty": 6,
+      "subcategory": "Bewegungsgleichung der Gitteratome"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Quark‑Antiquark‑Potential (Confinement)",
+      "question": "Was beschreibt das Confinement in der Quantenchromodynamik (QCD)?",
+      "choices": [
+        "A: Quarks können sich beliebig frei bewegen.",
+        "B: Quarks können sich nicht isoliert beobachten lassen.",
+        "C: Quarks sind immer positiv geladen.",
+        "D: Quarks existieren nur in Form von Protonen."
+      ],
+      "correct_answer": "B",
+      "explanation": "Confinement bezieht sich auf das Phänomen, dass Quarks und Antiquarks niemals isoliert vorkommen, sondern immer in gebundenen Zuständen, wie Mesonen oder Baryonen, auftreten. Dies liegt an der starken Wechselwirkung, die die Quarks zusammenhält und ihre Isolation energetisch ungünstig macht.",
+      "difficulty": 4,
+      "subcategory": "Quark‑Antiquark‑Potential (Confinement)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Spezifische Wärmekapazität: Phonon-Zustandsdichte",
+      "question": "Wie beeinflusst die Phonon-Zustandsdichte die spezifische Wärmekapazität eines Festkörpers bei tiefen Temperaturen?",
+      "choices": [
+        "A: Sie verursacht einen exponentiellen Anstieg der spezifischen Wärmekapazität mit zunehmender Temperatur.",
+        "B: Sie hat keinen Einfluss auf die spezifische Wärmekapazität.",
+        "C: Sie führt zu einer quadratischen Abhängigkeit der spezifischen Wärmekapazität von der Temperatur.",
+        "D: Sie führt zu einer linearen Abhängigkeit der spezifischen Wärmekapazität von der Temperatur."
+      ],
+      "correct_answer": "C",
+      "explanation": "Bei tiefen Temperaturen verhält sich die spezifische Wärmekapazität eines Festkörpers aufgrund der Phonon-Zustandsdichte quadratisch zur Temperatur, was durch die Debye-Theorie beschrieben wird. Diese Beziehung resultiert aus der quantenmechanischen Natur der Schwingungsmoden in Festkörpern.",
+      "difficulty": 9,
+      "subcategory": "Spezifische Wärmekapazität: Phonon-Zustandsdichte"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Hamilton–Jacobi-Gleichung (HJ)",
+      "question": "Was beschreibt die Hamilton–Jacobi-Gleichung in der analytischen Mechanik?",
+      "choices": [
+        "A: Sie wird verwendet, um die Wellenfunktion in der Quantenmechanik zu finden.",
+        "B: Sie ist eine Methode zur Bestimmung der Temperatur in einem thermodynamischen System.",
+        "C: Sie beschreibt die Bewegung von Teilchen in einem konservativen System.",
+        "D: Sie berechnet die Energie eines Systems in einem nicht-konservativen Feld."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Hamilton–Jacobi-Gleichung ist eine zentrale Gleichung in der analytischen Mechanik, die die Bewegung von Teilchen in einem konservativen System beschreibt. Sie ermöglicht es, die Trajektorien der Teilchen durch eine Transformation in eine neue Koordinatendarstellung zu finden.",
+      "difficulty": 5,
+      "subcategory": "Hamilton–Jacobi-Gleichung (HJ)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Poisson-Klammer (Definition & Bedeutung)",
+      "question": "Was beschreibt die Poisson-Klammer in der analytischen Mechanik?",
+      "choices": [
+        "A: Den Impuls eines Körpers in einem geschlossenen System.",
+        "B: Die Beziehung zwischen zwei kanonischen Variablen.",
+        "C: Die Energie eines Systems in Abhängigkeit von der Zeit.",
+        "D: Die Geschwindigkeit eines Körpers bei konstantem Druck."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Poisson-Klammer ist ein mathematisches Werkzeug in der analytischen Mechanik, das die Beziehung zwischen zwei kanonischen Variablen beschreibt. Sie spielt eine zentrale Rolle bei der Formulierung der Hamiltonschen Mechanik und hilft, die Zeitentwicklung von dynamischen Systemen zu analysieren.",
+      "difficulty": 4,
+      "subcategory": "Poisson-Klammer (Definition & Bedeutung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Stokes’scher Satz",
+      "question": "Was beschreibt der Stokes’sche Satz in der Elektrodynamik?",
+      "choices": [
+        "A: Die Bewegung eines elektrischen Teilchens in einem Magnetfeld.",
+        "B: Die Berechnung der Energie eines elektrischen Feldes in einem Kondensator.",
+        "C: Die Beziehung zwischen dem Fluss eines Vektorfeldes durch eine Fläche und der Rotation des Vektorfeldes über den Rand dieser Fläche.",
+        "D: Die Spannung in einem geschlossenen Stromkreis."
+      ],
+      "correct_answer": "C",
+      "explanation": "Der Stokes’sche Satz verknüpft den Fluss eines Vektorfeldes durch eine Fläche mit der Rotation des Feldes entlang ihrer Randlinie. Er ist eine fundamentale Aussage in der Vektoranalysis und hat Anwendungen in der Elektrodynamik.",
+      "difficulty": 1,
+      "subcategory": "Stokes’scher Satz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Brillouin-Zone",
+      "question": "Welche Aussage über die Brillouin-Zone in der Festkörperphysik ist korrekt?",
+      "choices": [
+        "A: Die Brillouin-Zone ist immer kubisch unabhängig von der Kristallstruktur.",
+        "B: Die Brillouin-Zone ist eine geometrische Darstellung der Symmetriegruppen eines Kristalls.",
+        "C: Die Brillouin-Zone ist der Bereich im Impulsraum, der alle möglichen Energien eines Elektrons in einem Kristall beschreibt.",
+        "D: Die Brillouin-Zone beschreibt die maximalen Energieniveaus von Elektronen in einem festen Material."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Brillouin-Zone ist ein fundamentales Konzept in der Festkörperphysik und beschreibt den Bereich im Impulsraum, der alle möglichen Wellenvektoren für Elektronen in einem periodischen Potential umfasst. Sie spielt eine entscheidende Rolle bei der Analyse der elektronischen Eigenschaften von Kristallen.",
+      "difficulty": 7,
+      "subcategory": "Brillouin-Zone"
+    }
+  ]
+}

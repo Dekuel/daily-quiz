@@ -1,0 +1,168 @@
+{
+  "date": "2026-03-20",
+  "generated_at": "2026-03-20T03:50:45Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Einfache Beispiele in Hamilton-Formulierung",
+      "question": "Which of the following systems can be brought into a simpler form in the Hamiltonian formulation through a canonical transformation?",
+      "choices": [
+        "A: A system with dissipative forces",
+        "B: A harmonic oscillator",
+        "C: A free particle without external forces",
+        "D: A rotating rigid body"
+      ],
+      "correct_answer": "B",
+      "explanation": "The harmonic oscillator is a classical example that can be well analyzed in the Hamiltonian formulation. Canonical transformations can simplify the Hamiltonian functions, which is not possible in other systems such as systems with dissipative forces.",
+      "difficulty": 9,
+      "subcategory": "Einfache Beispiele in Hamilton-Formulierung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Mott‑Wirkungsquerschnitt",
+      "question": "What does the Mott cross section describe in nuclear and particle physics?",
+      "choices": [
+        "A: The energy distribution of photons in a magnetic field.",
+        "B: The effective radius of an atomic nucleus in nuclear fusion.",
+        "C: The absorption of neutrons in a material.",
+        "D: The probability that an electron is scattered in a field of protons."
+      ],
+      "correct_answer": "D",
+      "explanation": "The Mott cross section is a theoretical concept that describes the scattering probability of electrons on an atomic target, especially when strong interactions between particles occur. This quantity is crucial for understanding high-energy scattering experiments in particle physics.",
+      "difficulty": 8,
+      "subcategory": "Mott‑Wirkungsquerschnitt"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Typen der schwachen Wechselwirkung (CC/NC)",
+      "question": "Which of the following statements describes a neutrinoless weak interaction?",
+      "choices": [
+        "A: It is always associated with the production of a W or Z boson.",
+        "B: It is the most common interaction occurring in atomic nuclei.",
+        "C: It always leads to a change in the electric charge of a particle.",
+        "D: It occurs without the involvement of neutrinos."
+      ],
+      "correct_answer": "D",
+      "explanation": "A neutrinoless weak interaction is defined by the absence of neutrinos in the process. This type of interaction occurs when the involved particles do not emit or absorb neutrinos, distinguishing it from other weak interactions.",
+      "difficulty": 5,
+      "subcategory": "Typen der schwachen Wechselwirkung (CC/NC)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Bewegungsgleichung der Gitteratome",
+      "question": "Which of the following equations describes the motion of a lattice atom within the harmonic approximation?",
+      "choices": [
+        "A: p = mv",
+        "B: F = m * a",
+        "C: F = -k * x",
+        "D: E = mc²"
+      ],
+      "correct_answer": "C",
+      "explanation": "The equation F = -k * x is the classical form of Hooke's law, describing the restoring force acting on a lattice atom when it deviates from its equilibrium position. In solid-state physics, this is often used to model the vibrations of atoms in a crystal.",
+      "difficulty": 6,
+      "subcategory": "Bewegungsgleichung der Gitteratome"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Quark‑Antiquark‑Potential (Confinement)",
+      "question": "What does confinement describe in quantum chromodynamics (QCD)?",
+      "choices": [
+        "A: Quarks can move freely in any direction.",
+        "B: Quarks cannot be observed in isolation.",
+        "C: Quarks are always positively charged.",
+        "D: Quarks exist only in the form of protons."
+      ],
+      "correct_answer": "B",
+      "explanation": "Confinement refers to the phenomenon that quarks and antiquarks never appear in isolation but always occur in bound states, such as mesons or baryons, due to the strong interaction that holds the quarks together and makes their isolation energetically unfavorable.",
+      "difficulty": 4,
+      "subcategory": "Quark‑Antiquark‑Potential (Confinement)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Spezifische Wärmekapazität: Phonon-Zustandsdichte",
+      "question": "How does the phonon density of states affect the specific heat capacity of a solid at low temperatures?",
+      "choices": [
+        "A: It causes an exponential increase in specific heat capacity with increasing temperature.",
+        "B: It has no effect on the specific heat capacity.",
+        "C: It leads to a quadratic dependence of the specific heat capacity on temperature.",
+        "D: It leads to a linear dependence of the specific heat capacity on temperature."
+      ],
+      "correct_answer": "C",
+      "explanation": "At low temperatures, the specific heat capacity of a solid behaves quadratically with temperature due to the phonon density of states, as described by the Debye theory. This relationship results from the quantum mechanical nature of vibrational modes in solids.",
+      "difficulty": 9,
+      "subcategory": "Spezifische Wärmekapazität: Phonon-Zustandsdichte"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Hamilton–Jacobi-Gleichung (HJ)",
+      "question": "What does the Hamilton-Jacobi equation describe in analytical mechanics?",
+      "choices": [
+        "A: It is used to find the wave function in quantum mechanics.",
+        "B: It is a method for determining the temperature in a thermodynamic system.",
+        "C: It describes the motion of particles in a conservative system.",
+        "D: It calculates the energy of a system in a non-conservative field."
+      ],
+      "correct_answer": "C",
+      "explanation": "The Hamilton-Jacobi equation is a central equation in analytical mechanics that describes the motion of particles in a conservative system. It allows finding the trajectories of particles through a transformation into a new coordinate representation.",
+      "difficulty": 5,
+      "subcategory": "Hamilton–Jacobi-Gleichung (HJ)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Poisson-Klammer (Definition & Bedeutung)",
+      "question": "What does the Poisson bracket describe in analytical mechanics?",
+      "choices": [
+        "A: The momentum of a body in a closed system.",
+        "B: The relationship between two canonical variables.",
+        "C: The energy of a system as a function of time.",
+        "D: The velocity of a body at constant pressure."
+      ],
+      "correct_answer": "B",
+      "explanation": "The Poisson bracket is a mathematical tool in analytical mechanics that describes the relationship between two canonical variables. It plays a central role in formulating Hamiltonian mechanics and helps analyze the time evolution of dynamic systems.",
+      "difficulty": 4,
+      "subcategory": "Poisson-Klammer (Definition & Bedeutung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Stokes’scher Satz",
+      "question": "What does Stokes's theorem describe in electrodynamics?",
+      "choices": [
+        "A: The motion of an electric particle in a magnetic field.",
+        "B: The calculation of the energy of an electric field in a capacitor.",
+        "C: The relationship between the flux of a vector field through a surface and the rotation of the vector field over the boundary of that surface.",
+        "D: The voltage in a closed circuit."
+      ],
+      "correct_answer": "C",
+      "explanation": "Stokes's theorem relates the flux of a vector field through a surface to the rotation of the field along its boundary. It is a fundamental statement in vector analysis and has applications in electrodynamics.",
+      "difficulty": 1,
+      "subcategory": "Stokes’scher Satz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Brillouin-Zone",
+      "question": "Which statement about the Brillouin zone in solid-state physics is correct?",
+      "choices": [
+        "A: The Brillouin zone is always cubic regardless of the crystal structure.",
+        "B: The Brillouin zone is a geometric representation of the symmetry groups of a crystal.",
+        "C: The Brillouin zone is the region in momentum space describing all possible energies of an electron in a crystal.",
+        "D: The Brillouin zone describes the maximum energy levels of electrons in a solid material."
+      ],
+      "correct_answer": "C",
+      "explanation": "The Brillouin zone is a fundamental concept in solid-state physics that describes the region in momentum space encompassing all possible wave vectors for electrons in a periodic potential. It plays a crucial role in analyzing the electronic properties of crystals.",
+      "difficulty": 7,
+      "subcategory": "Brillouin-Zone"
+    }
+  ]
+}
