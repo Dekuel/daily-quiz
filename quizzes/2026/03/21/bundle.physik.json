@@ -1,0 +1,169 @@
+{
+  "date": "2026-03-21",
+  "generated_at": "2026-03-21T03:46:38Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Fermatsches Prinzip",
+      "question": "Welches der folgenden Konzepte beschreibt am besten das Fermatsche Prinzip in der Optik?",
+      "choices": [
+        "A: Licht breitet sich gleichmäßig in alle Richtungen aus.",
+        "B: Licht wird immer durch Linsen fokussiert.",
+        "C: Licht folgt immer der kürzesten Strecke zwischen zwei Punkten.",
+        "D: Licht nimmt immer den Weg, der die kürzeste Zeit benötigt."
+      ],
+      "correct_answer": "D",
+      "explanation": "Das Fermatsche Prinzip besagt, dass Licht den Weg wählt, der die kürzeste Zeit benötigt, um von einem Punkt zu einem anderen zu gelangen. Dies führt zur Erklärung von Reflexion und Brechung, da Lichtstrahlen sich entlang dieser Zeitminima bewegen.",
+      "difficulty": 8,
+      "subcategory": "Fermatsches Prinzip"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Zustandsdichte (Elektronengas)",
+      "question": "Welche Aussage zur Zustandsdichte eines Elektronengases in einem festen Material ist korrekt?",
+      "choices": [
+        "A: Die Zustandsdichte ist konstant und unabhängig von der Energie.",
+        "B: Die Zustandsdichte ist proportional zur Quadratwurzel der Energie.",
+        "C: Die Zustandsdichte nimmt mit steigender Energie ab.",
+        "D: Die Zustandsdichte ist proportional zur fünften Potenz der Energie."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Zustandsdichte eines Elektronengases verhält sich proportional zur Quadratwurzel der Energie, was aus der Dispersion der Energie in Bezug auf den Impuls folgt. Diese Beziehung ist entscheidend für das Verständnis der elektrischen Eigenschaften von Festkörpern. Ein tiefes Verständnis der Zustandsdichte ist notwendig, um Phänomene wie den elektronischen Transport in Materialien zu analysieren.",
+      "difficulty": 8,
+      "subcategory": "Zustandsdichte (Elektronengas)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Gleichgewichtsbedingungen (allgemein)",
+      "question": "Welche Bedingung muss erfüllt sein, damit sich ein System im thermischen Gleichgewicht befindet?",
+      "choices": [
+        "A: Es gibt ständig Energiezufuhr von außen.",
+        "B: Das Volumen des Systems muss konstant sein.",
+        "C: Alle Teilchen bewegen sich mit der gleichen Geschwindigkeit.",
+        "D: Es gibt keinen Temperaturgradienten im System."
+      ],
+      "correct_answer": "D",
+      "explanation": "Ein thermisches Gleichgewicht liegt vor, wenn es keinen Temperaturgradienten gibt, was bedeutet, dass alle Teile des Systems die gleiche Temperatur haben. Dies ist eine grundlegende Bedingung für das Erreichen eines stabilen thermischen Zustands ohne Energieaustausch mit der Umgebung.",
+      "difficulty": 3,
+      "subcategory": "Gleichgewichtsbedingungen (allgemein)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Kanonisches Ensemble: Dichtematrix & Zustandssumme",
+      "question": "Was beschreibt die Zustandssumme im kanonischen Ensemble?",
+      "choices": [
+        "A: Die Summe aller möglichen Energiezustände eines Systems unter thermischen Gleichgewicht.",
+        "B: Die maximale Energie eines Teilchens im System.",
+        "C: Die Anzahl der Teilchen in einem System.",
+        "D: Die Temperatur eines Systems."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Zustandssumme ist ein zentrales Konzept im kanonischen Ensemble und beschreibt die Summe aller möglichen Energieniveaus eines thermodynamischen Systems im Gleichgewicht. Sie ist entscheidend für die Berechnung der thermodynamischen Eigenschaften des Systems.",
+      "difficulty": 4,
+      "subcategory": "Kanonisches Ensemble: Dichtematrix & Zustandssumme"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Makroskopische Feldgrößen (D, E, P)",
+      "question": "Was beschreibt die elektrische Feldstärke E in einem homogenen Feld?",
+      "choices": [
+        "A: Die Spannung zwischen zwei Punkten im Feld.",
+        "B: Die Dichte der elektrischen Ladung im Feld.",
+        "C: Die Kraft pro Einheit Ladung, die auf eine positive Testladung wirkt.",
+        "D: Die Geschwindigkeit der elektrischen Ladungsträger im Feld."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die elektrische Feldstärke E definiert sich als die Kraft F, die auf eine positive Testladung q wirkt, dividiert durch die Größe dieser Ladung: E = F/q. Dies beschreibt, wie stark und in welche Richtung das elektrische Feld wirkt.",
+      "difficulty": 8,
+      "subcategory": "Makroskopische Feldgrößen (D, E, P)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Kovariante Formulierung der Elektrodynamik",
+      "question": "Was beschreibt die kovariante Formulierung der Elektrodynamik?",
+      "choices": [
+        "A: Die Lichtgeschwindigkeit ist variabel und hängt vom Beobachter ab.",
+        "B: Die Zeit vergeht in allen Bezugssystemen gleich.",
+        "C: Die Gleichungen sind unabhängig von der Wahl des Bezugssystems.",
+        "D: Elektrische und magnetische Felder sind nicht miteinander verknüpft."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die kovariante Formulierung der Elektrodynamik stellt sicher, dass die physikalischen Gesetze unabhängig von der Wahl des Bezugssystems gelten. Dies bedeutet, dass die Gesetze der Elektrodynamik in allen Inertialsystemen die gleiche Form haben, was ein zentrales Konzept der Relativitätstheorie ist.",
+      "difficulty": 2,
+      "subcategory": "Kovariante Formulierung der Elektrodynamik"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Reibung: Rollreibung",
+      "question": "Was beschreibt die Rollreibung bei einem rollenden Objekt?",
+      "choices": [
+        "A: Die Kraft, die benötigt wird, um das Objekt anzuheben.",
+        "B: Die Kraft, die benötigt wird, um das Objekt in Bewegung zu setzen.",
+        "C: Die Widerstandskraft, die durch die Kontaktfläche zwischen dem Rad und der Unterlage entsteht.",
+        "D: Die Luftwiderstandskraft, die auf ein sich bewegendes Objekt wirkt."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Rollreibung ist die Kraft, die entsteht, wenn ein Objekt auf einer Oberfläche rollt, und sie wirkt als Widerstand gegen die Bewegung. Sie ist normalerweise geringer als die Gleitreibung, was das Rollen effizienter macht als das Gleiten.",
+      "difficulty": 5,
+      "subcategory": "Reibung: Rollreibung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Schwarzer Strahler: Emissionsverhalten",
+      "question": "Welches Emissionsverhalten charakterisiert einen idealen schwarzen Strahler?",
+      "choices": [
+        "A: Er emittiert keine Strahlung.",
+        "B: Er hat eine niedrige Temperatur und emittiert nur Infrarotstrahlung.",
+        "C: Er absorbiert alle eingestrahlten Photonen und emittiert die maximale Energie.",
+        "D: Er reflektiert einen Teil der eingestrahlten Strahlung."
+      ],
+      "correct_answer": "C",
+      "explanation": "Ein idealer schwarzer Strahler absorbiert alle incidenten Strahlungen und gibt die maximale Energie in Form von elektromagnetischer Strahlung ab, entsprechend seiner Temperatur. Dies macht ihn zu einem perfekten Beispiel für das Emissionsverhalten in der Thermodynamik und Optik.",
+      "difficulty": 5,
+      "subcategory": "Schwarzer Strahler: Emissionsverhalten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Plasmonen (longitudinale Schwingungen)",
+      "question": "Welche der folgenden Aussagen über longitudinale Plasmonen in Festkörpern ist korrekt?",
+      "choices": [
+        "A: Longitudinale Plasmonen sind ausschließlich in dielektrischen Materialien zu finden.",
+        "B: Longitudinale Plasmonen haben keine Wechselwirkung mit elektromagnetischen Feldern.",
+        "C: Longitudinale Plasmonen können nicht in nanoskaligen Strukturen auftreten.",
+        "D: Longitudinale Plasmonen entstehen durch die kollektive Bewegung von Elektronen in einem Metallgitter."
+      ],
+      "correct_answer": "D",
+      "explanation": "Longitudinale Plasmonen sind kollektive Schwingungen der Elektronendichte in Metallen und entstehen, wenn Elektronen auf eine periodische Störung im Gitter reagieren. Diese Schwingungen sind entscheidend für die Eigenschaften von Metallen und deren Wechselwirkungen mit Licht.",
+      "difficulty": 8,
+      "subcategory": "Plasmonen (longitudinale Schwingungen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Das Auge (Optik)",
+      "question": "Welche Struktur im menschlichen Auge ist für die Umwandlung von Licht in elektrische Signale verantwortlich?",
+      "choices": [
+        "A: Hornhaut",
+        "B: Netzhaut",
+        "C: Linse",
+        "D: Pupille"
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Netzhaut ist die lichtempfindliche Schicht im Augeninneren, die Lichtstrahlen aufnimmt und in elektrische Signale umwandelt. Diese Signale werden dann über den Sehnerv an das Gehirn weitergeleitet, wo sie als Bilder wahrgenommen werden.",
+      "difficulty": 4,
+      "subcategory": "Das Auge (Optik)"
+    }
+  ]
+}

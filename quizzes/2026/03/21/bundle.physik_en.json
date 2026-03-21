@@ -1,0 +1,168 @@
+{
+  "date": "2026-03-21",
+  "generated_at": "2026-03-21T03:47:19Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Fermatsches Prinzip",
+      "question": "Which of the following concepts best describes Fermat's principle in optics?",
+      "choices": [
+        "A: Light spreads evenly in all directions.",
+        "B: Light is always focused by lenses.",
+        "C: Light always follows the shortest path between two points.",
+        "D: Light always takes the path that requires the shortest time."
+      ],
+      "correct_answer": "D",
+      "explanation": "Fermat's principle states that light chooses the path that takes the shortest time to travel from one point to another. This explains reflection and refraction, as light rays move along these time minima.",
+      "difficulty": 8,
+      "subcategory": "Fermatsches Prinzip"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Zustandsdichte (Elektronengas)",
+      "question": "Which statement about the density of states of an electron gas in a solid material is correct?",
+      "choices": [
+        "A: The density of states is constant and independent of energy.",
+        "B: The density of states is proportional to the square root of the energy.",
+        "C: The density of states decreases with increasing energy.",
+        "D: The density of states is proportional to the fifth power of the energy."
+      ],
+      "correct_answer": "B",
+      "explanation": "The density of states of an electron gas is proportional to the square root of the energy, following from the dispersion of energy with respect to momentum. This relationship is crucial for understanding the electrical properties of solids. A deep understanding of the density of states is necessary to analyze phenomena such as electronic transport in materials.",
+      "difficulty": 8,
+      "subcategory": "Zustandsdichte (Elektronengas)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Gleichgewichtsbedingungen (allgemein)",
+      "question": "What condition must be met for a system to be in thermal equilibrium?",
+      "choices": [
+        "A: There is a constant external energy supply.",
+        "B: The volume of the system must be constant.",
+        "C: All particles move at the same speed.",
+        "D: There is no temperature gradient in the system."
+      ],
+      "correct_answer": "D",
+      "explanation": "Thermal equilibrium occurs when there is no temperature gradient, meaning all parts of the system have the same temperature. This is a fundamental condition for achieving a stable thermal state without energy exchange with the surroundings.",
+      "difficulty": 3,
+      "subcategory": "Gleichgewichtsbedingungen (allgemein)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Kanonisches Ensemble: Dichtematrix & Zustandssumme",
+      "question": "What does the partition function describe in the canonical ensemble?",
+      "choices": [
+        "A: The sum of all possible energy states of a system in thermal equilibrium.",
+        "B: The maximum energy of a particle in the system.",
+        "C: The number of particles in a system.",
+        "D: The temperature of a system."
+      ],
+      "correct_answer": "A",
+      "explanation": "The partition function is a central concept in the canonical ensemble and describes the sum of all possible energy levels of a thermodynamic system in equilibrium. It is crucial for calculating the thermodynamic properties of the system.",
+      "difficulty": 4,
+      "subcategory": "Kanonisches Ensemble: Dichtematrix & Zustandssumme"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Makroskopische Feldgrößen (D, E, P)",
+      "question": "What does the electric field strength E describe in a homogeneous field?",
+      "choices": [
+        "A: The voltage between two points in the field.",
+        "B: The density of electric charge in the field.",
+        "C: The force per unit charge acting on a positive test charge.",
+        "D: The velocity of electric charge carriers in the field."
+      ],
+      "correct_answer": "C",
+      "explanation": "The electric field strength E is defined as the force F acting on a positive test charge q divided by the magnitude of that charge: E = F/q. This describes how strong and in which direction the electric field acts.",
+      "difficulty": 8,
+      "subcategory": "Makroskopische Feldgrößen (D, E, P)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Kovariante Formulierung der Elektrodynamik",
+      "question": "What does the covariant formulation of electrodynamics describe?",
+      "choices": [
+        "A: The speed of light is variable and depends on the observer.",
+        "B: Time passes at the same rate in all reference frames.",
+        "C: The equations are independent of the choice of reference frame.",
+        "D: Electric and magnetic fields are not linked to each other."
+      ],
+      "correct_answer": "C",
+      "explanation": "The covariant formulation of electrodynamics ensures that the physical laws hold regardless of the choice of reference frame. This means that the laws of electrodynamics have the same form in all inertial systems, which is a central concept of the theory of relativity.",
+      "difficulty": 2,
+      "subcategory": "Kovariante Formulierung der Elektrodynamik"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Reibung: Rollreibung",
+      "question": "What does rolling friction describe in a rolling object?",
+      "choices": [
+        "A: The force needed to lift the object.",
+        "B: The force needed to set the object in motion.",
+        "C: The resistance force arising from the contact area between the wheel and the surface.",
+        "D: The air resistance force acting on a moving object."
+      ],
+      "correct_answer": "C",
+      "explanation": "Rolling friction is the force that occurs when an object rolls on a surface, acting as resistance to motion. It is usually lower than sliding friction, making rolling more efficient than sliding.",
+      "difficulty": 5,
+      "subcategory": "Reibung: Rollreibung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Schwarzer Strahler: Emissionsverhalten",
+      "question": "What emission behavior characterizes an ideal blackbody radiator?",
+      "choices": [
+        "A: It emits no radiation.",
+        "B: It has a low temperature and emits only infrared radiation.",
+        "C: It absorbs all incident photons and emits the maximum energy.",
+        "D: It reflects a portion of the incident radiation."
+      ],
+      "correct_answer": "C",
+      "explanation": "An ideal blackbody radiator absorbs all incident radiation and emits the maximum energy in the form of electromagnetic radiation, according to its temperature. This makes it a perfect example of emission behavior in thermodynamics and optics.",
+      "difficulty": 5,
+      "subcategory": "Schwarzer Strahler: Emissionsverhalten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Plasmonen (longitudinale Schwingungen)",
+      "question": "Which of the following statements about longitudinal plasmons in solids is correct?",
+      "choices": [
+        "A: Longitudinal plasmons are exclusively found in dielectric materials.",
+        "B: Longitudinal plasmons have no interaction with electromagnetic fields.",
+        "C: Longitudinal plasmons cannot occur in nanoscale structures.",
+        "D: Longitudinal plasmons arise from the collective motion of electrons in a metal lattice."
+      ],
+      "correct_answer": "D",
+      "explanation": "Longitudinal plasmons are collective oscillations of electron density in metals, arising when electrons react to a periodic disturbance in the lattice. These oscillations are crucial for the properties of metals and their interactions with light.",
+      "difficulty": 8,
+      "subcategory": "Plasmonen (longitudinale Schwingungen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Das Auge (Optik)",
+      "question": "Which structure in the human eye is responsible for converting light into electrical signals?",
+      "choices": [
+        "A: Cornea",
+        "B: Retina",
+        "C: Lens",
+        "D: Pupil"
+      ],
+      "correct_answer": "B",
+      "explanation": "The retina is the light-sensitive layer in the inner eye that receives light rays and converts them into electrical signals. These signals are then transmitted to the brain via the optic nerve, where they are perceived as images.",
+      "difficulty": 4,
+      "subcategory": "Das Auge (Optik)"
+    }
+  ]
+}
