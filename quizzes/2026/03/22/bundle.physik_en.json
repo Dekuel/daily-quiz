@@ -1,0 +1,168 @@
+{
+  "date": "2026-03-22",
+  "generated_at": "2026-03-22T03:51:47Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Reflexion & Brechung elektromagnetischer Wellen",
+      "question": "What happens to a light beam when it enters water from air?",
+      "choices": [
+        "A: The light beam is reflected and stays in the air.",
+        "B: The light beam changes its color.",
+        "C: The light beam is refracted and moves slower.",
+        "D: The light beam is amplified."
+      ],
+      "correct_answer": "C",
+      "explanation": "When light enters a different medium, its speed changes, leading to refraction. In the case of air to water, the light beam is refracted and moves slower, as water has a higher optical density than air.",
+      "difficulty": 5,
+      "subcategory": "Reflexion & Brechung elektromagnetischer Wellen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Formale Eigenschaften (Bilinearität, Antisymmetrie, Jacobi)",
+      "question": "What property best describes bilinearity in relation to a function?",
+      "choices": [
+        "A: f(x, y) = -f(y, x)",
+        "B: f(x, y, z) = f(x, z) + f(y, z)",
+        "C: f(x + y) = f(x) * f(y)",
+        "D: f(ax + by) = af(x) + bf(y) for a, b ∈ R"
+      ],
+      "correct_answer": "D",
+      "explanation": "The bilinearity of a function means that it is linear in both arguments. This implies that the function satisfies the form f(ax + by) = af(x) + bf(y) for real numbers a and b. The other options describe different properties that do not correspond to bilinearity.",
+      "difficulty": 2,
+      "subcategory": "Formale Eigenschaften (Bilinearität, Antisymmetrie, Jacobi)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Spontaner Phononenzerfall",
+      "question": "What describes spontaneous phonon decay in a solid?",
+      "choices": [
+        "A: The transfer of heat through phonons in a solid.",
+        "B: The spontaneous conversion of phonons into other excited states.",
+        "C: The formation of defects in the crystal lattice due to thermal excitation.",
+        "D: The alteration of electrical conductivity by phonons."
+      ],
+      "correct_answer": "B",
+      "explanation": "Spontaneous phonon decay refers to the process where phonons are converted into other energetic states without external influence. This plays a crucial role in the thermodynamics and thermal conductivity of solids.",
+      "difficulty": 6,
+      "subcategory": "Spontaner Phononenzerfall"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Reibung in der Technik (Bedeutung)",
+      "question": "Which statement best describes the significance of friction in technical applications?",
+      "choices": [
+        "A: Friction can be both useful for providing traction and harmful when leading to wear.",
+        "B: Friction only occurs in solid materials.",
+        "C: Friction has no impact on machine efficiency.",
+        "D: Friction is always undesirable and should be avoided."
+      ],
+      "correct_answer": "A",
+      "explanation": "Friction plays a dual role in engineering: it can be useful for providing grip and traction, yet it is also often the cause of wear and energy losses in machines. Understanding this dual nature is crucial for designing and maintaining technical systems.",
+      "difficulty": 4,
+      "subcategory": "Reibung in der Technik (Bedeutung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Elektronenspin (Pauli-Theorie)",
+      "question": "Which of the following statements about electron spin according to the Pauli theory is correct?",
+      "choices": [
+        "A: Electron spin is independent of the electron configuration of an atom.",
+        "B: Electron spin can only take the values +1/2 or -1/2.",
+        "C: Electrons with the same spin cannot exist in the same atom.",
+        "D: Electron spin is a classical angular momentum and can assume any value."
+      ],
+      "correct_answer": "B",
+      "explanation": "According to the Pauli exclusion principle, an electron can only assume the values +1/2 or -1/2 for its spin. These quantized values are crucial for the behavior of electrons in atoms and their chemical properties.",
+      "difficulty": 8,
+      "subcategory": "Elektronenspin (Pauli-Theorie)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Defekte in amorphen Materialien",
+      "question": "Which type of defect is common in amorphous materials and affects their mechanical properties?",
+      "choices": [
+        "A: Phase boundaries",
+        "B: Point defects",
+        "C: Grain boundaries",
+        "D: Dislocations"
+      ],
+      "correct_answer": "B",
+      "explanation": "Point defects are local disruptions in the structure of amorphous materials that can alter their mechanical properties. They arise from vacancies or unwanted atoms and are particularly prevalent in amorphous substances.",
+      "difficulty": 3,
+      "subcategory": "Defekte in amorphen Materialien"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Querkontraktion",
+      "question": "What describes the phenomenon of lateral contraction in classical mechanics?",
+      "choices": [
+        "A: The change in length of a material due to temperature variations.",
+        "B: The increase in density with faster motion.",
+        "C: The change in the cross-sectional area of a material under pressure.",
+        "D: The change in color of a material under stress."
+      ],
+      "correct_answer": "C",
+      "explanation": "Lateral contraction describes how the cross-sectional area of a material decreases when subjected to pressure. This phenomenon occurs because materials typically compress in the transverse direction when stretched longitudinally.",
+      "difficulty": 3,
+      "subcategory": "Querkontraktion"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Einschub über Lichtwellen (Optikbezug)",
+      "question": "Which statement about the refraction of light at an interface transition is correct?",
+      "choices": [
+        "A: Light cannot pass through transparent materials.",
+        "B: The light beam is always refracted towards the normal line.",
+        "C: The angle of refraction is independent of the angle of incidence.",
+        "D: The light beam slows down when transitioning from one medium to another."
+      ],
+      "correct_answer": "D",
+      "explanation": "Light refraction occurs when it transitions from one medium to another, changing its speed and direction. Specifically, light slows down when entering a denser medium, leading to a deviation of the light beam.",
+      "difficulty": 6,
+      "subcategory": "Einschub über Lichtwellen (Optikbezug)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Der Regenbogen (Dispersion + Geometrie)",
+      "question": "Which of the following statements describes the condition for the maximum angle of a rainbow ray relative to the incident light radiation?",
+      "choices": [
+        "A: The maximum angle occurs at a refraction of 42 degrees.",
+        "B: The maximum angle occurs at a reflection of 60 degrees.",
+        "C: The maximum angle occurs at a refraction of 51 degrees.",
+        "D: The maximum angle occurs at a refraction of 30 degrees."
+      ],
+      "correct_answer": "A",
+      "explanation": "The maximum angle of a rainbow ray relative to the incident light radiation is approximately 42 degrees. This condition arises from the refraction and reflection of light in water droplets, leading to color dispersion.",
+      "difficulty": 8,
+      "subcategory": "Der Regenbogen (Dispersion + Geometrie)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Absolute vs. empirische Temperatur",
+      "question": "What does absolute temperature describe in statistical mechanics?",
+      "choices": [
+        "A: It is directly proportional to the kinetic energy of particles.",
+        "B: It only refers to solid substances.",
+        "C: It is independent of the energy of particles.",
+        "D: It is always lower than the empirical temperature."
+      ],
+      "correct_answer": "A",
+      "explanation": "Absolute temperature is a measure of the average kinetic energy of particles in a system. It is measured in Kelvin and plays a central role in statistical mechanics as it describes the thermal properties of matter.",
+      "difficulty": 3,
+      "subcategory": "Absolute vs. empirische Temperatur"
+    }
+  ]
+}

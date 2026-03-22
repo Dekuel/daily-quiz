@@ -1,0 +1,169 @@
+{
+  "date": "2026-03-22",
+  "generated_at": "2026-03-22T03:51:13Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Reflexion & Brechung elektromagnetischer Wellen",
+      "question": "Was passiert mit einem Lichtstrahl, wenn er von Luft in Wasser eintritt?",
+      "choices": [
+        "A: Der Lichtstrahl wird reflektiert und bleibt in der Luft.",
+        "B: Der Lichtstrahl ändert seine Farbe.",
+        "C: Der Lichtstrahl wird gebrochen und bewegt sich langsamer.",
+        "D: Der Lichtstrahl wird verstärkt."
+      ],
+      "correct_answer": "C",
+      "explanation": "Wenn Licht von einem Medium in ein anderes eintritt, ändert sich seine Geschwindigkeit, was zu einer Brechung führt. Im Fall von Luft zu Wasser wird der Lichtstrahl gebrochen und bewegt sich langsamer, da Wasser eine höhere optische Dichte hat als Luft.",
+      "difficulty": 5,
+      "subcategory": "Reflexion & Brechung elektromagnetischer Wellen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Formale Eigenschaften (Bilinearität, Antisymmetrie, Jacobi)",
+      "question": "Welche der folgenden Eigenschaften beschreibt die Bilinearität in Bezug auf eine Funktion?",
+      "choices": [
+        "A: f(x, y) = -f(y, x)",
+        "B: f(x, y, z) = f(x, z) + f(y, z)",
+        "C: f(x + y) = f(x) * f(y)",
+        "D: f(ax + by) = af(x) + bf(y) für a, b ∈ R"
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Bilinearität einer Funktion bedeutet, dass sie linear in beiden Argumenten ist. Das bedeutet, dass die Funktion die Form f(ax + by) = af(x) + bf(y) für reelle Zahlen a und b erfüllt. Die anderen Optionen beschreiben verschiedene Eigenschaften, die nicht der Bilinearität entsprechen.",
+      "difficulty": 2,
+      "subcategory": "Formale Eigenschaften (Bilinearität, Antisymmetrie, Jacobi)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Spontaner Phononenzerfall",
+      "question": "Was beschreibt der spontane Phononenzerfall in einem Festkörper?",
+      "choices": [
+        "A: Die Übertragung von Wärme durch Phononen in einem Festkörper.",
+        "B: Die spontane Umwandlung von Phononen in andere excitierte Zustände.",
+        "C: Die Bildung von Defekten im Kristallgitter durch thermische Anregung.",
+        "D: Die Veränderung der elektrischen Leitfähigkeit durch Phononen."
+      ],
+      "correct_answer": "B",
+      "explanation": "Der spontane Phononenzerfall beschreibt den Prozess, bei dem Phononen in andere energetische Zustände umgewandelt werden, ohne äußeren Einfluss. Dies spielt eine wichtige Rolle in der Thermodynamik und der Wärmeleitfähigkeit von Festkörpern.",
+      "difficulty": 6,
+      "subcategory": "Spontaner Phononenzerfall"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Reibung in der Technik (Bedeutung)",
+      "question": "Welche Aussage beschreibt am besten die Bedeutung der Reibung in technischen Anwendungen?",
+      "choices": [
+        "A: Reibung kann sowohl nützlich sein, um Halt zu bieten, als auch schädlich, wenn sie zu Verschleiß führt.",
+        "B: Reibung tritt nur bei festen Materialien auf.",
+        "C: Reibung hat keinen Einfluss auf die Effizienz von Maschinen.",
+        "D: Reibung ist immer unerwünscht und sollte vermieden werden."
+      ],
+      "correct_answer": "A",
+      "explanation": "Reibung spielt eine doppelte Rolle in der Technik: Sie kann nützlich sein, um z.B. Grip und Halt zu gewährleisten, ist jedoch auch häufig die Ursache für Verschleiß und Energieverluste in Maschinen. Das Verständnis dieser dualen Natur ist entscheidend für das Design und die Wartung technischer Systeme.",
+      "difficulty": 4,
+      "subcategory": "Reibung in der Technik (Bedeutung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Elektronenspin (Pauli-Theorie)",
+      "question": "Welche der folgenden Aussagen über den Elektronenspin gemäß der Pauli-Theorie ist korrekt?",
+      "choices": [
+        "A: Der Elektronenspin ist unabhängig von der Elektronenkonfiguration eines Atoms.",
+        "B: Der Elektronenspin kann nur die Werte +1/2 oder -1/2 annehmen.",
+        "C: Elektronen mit demselben Spin können nicht in demselben Atom existieren.",
+        "D: Der Elektronenspin ist ein klassischer Drehimpuls und kann jeden Wert annehmen."
+      ],
+      "correct_answer": "B",
+      "explanation": "Nach der Pauli-Prinzip kann ein Elektron nur die Werte +1/2 oder -1/2 für seinen Spin annehmen. Diese quantisierten Werte sind entscheidend für das Verhalten von Elektronen in Atomen und deren chemischen Eigenschaften.",
+      "difficulty": 8,
+      "subcategory": "Elektronenspin (Pauli-Theorie)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Defekte in amorphen Materialien",
+      "question": "Welcher Typ von Defekt tritt häufig in amorphen Materialien auf und beeinflusst deren mechanische Eigenschaften?",
+      "choices": [
+        "A: Phasengrenzen",
+        "B: Punktdefekte",
+        "C: Korngrenzen",
+        "D: Versetzungen"
+      ],
+      "correct_answer": "B",
+      "explanation": "Punktdefekte sind lokale Störungen in der Struktur von amorphen Materialien, die deren mechanische Eigenschaften verändern können. Sie entstehen durch Fehlstellen oder unerwünschte Atome und sind in amorphen Stoffen besonders häufig anzutreffen.",
+      "difficulty": 3,
+      "subcategory": "Defekte in amorphen Materialien"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Querkontraktion",
+      "question": "Was beschreibt das Phänomen der Querkontraktion in der klassischen Mechanik?",
+      "choices": [
+        "A: Die Änderung der Länge eines Materials bei Temperaturänderungen.",
+        "B: Die Erhöhung der Dichte bei schnellerer Bewegung.",
+        "C: Die Änderung der Querschnittsfläche eines Materials unter Druck.",
+        "D: Die Veränderung der Farbe eines Materials bei Belastung."
+      ],
+      "correct_answer": "C",
+      "explanation": "Querkontraktion beschreibt, wie sich die Querschnittsfläche eines Materials verringert, wenn es unter Druck gesetzt wird. Dieses Phänomen tritt auf, weil Materialien in der Regel in der Querrichtung komprimiert werden, wenn sie in Längsrichtung gedehnt werden.",
+      "difficulty": 3,
+      "subcategory": "Querkontraktion"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Einschub über Lichtwellen (Optikbezug)",
+      "question": "Welche Aussage über die Brechung von Licht an einem Grenzflächenübergang ist korrekt?",
+      "choices": [
+        "A: Licht kann nicht durch transparente Materialien hindurchtreten.",
+        "B: Der Lichtstrahl wird immer in Richtung der normalen Linie gebrochen.",
+        "C: Der Brechungswinkel ist unabhängig vom Einfallswinkel.",
+        "D: Der Lichtstrahl wird beim Übergang von einem Medium in ein anderes langsamer."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Brechung von Licht tritt auf, wenn es von einem Medium in ein anderes übergeht, wobei seine Geschwindigkeit und Richtung geändert werden. Insbesondere wird Licht beim Eintritt in ein dichteres Medium langsamer, was zu einer Ablenkung des Lichtstrahls führt.",
+      "difficulty": 6,
+      "subcategory": "Einschub über Lichtwellen (Optikbezug)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Der Regenbogen (Dispersion + Geometrie)",
+      "question": "Welche der folgenden Aussagen beschreibt die Bedingung für den maximalen Winkel eines Regenbogenstrahls im Verhältnis zur einfallenden Lichtstrahlung?",
+      "choices": [
+        "A: Der maximale Winkel tritt bei einer Brechung von 42 Grad auf.",
+        "B: Der maximale Winkel tritt bei einer Reflexion von 60 Grad auf.",
+        "C: Der maximale Winkel tritt bei einer Brechung von 51 Grad auf.",
+        "D: Der maximale Winkel tritt bei einer Brechung von 30 Grad auf."
+      ],
+      "correct_answer": "A",
+      "explanation": "Der maximale Winkel eines Regenbogens im Verhältnis zur einfallenden Lichtstrahlung beträgt etwa 42 Grad. Diese Bedingung ergibt sich aus der Brechung und Reflexion des Lichts in Wassertropfen, was zur Dispersion der Farben führt.",
+      "difficulty": 8,
+      "subcategory": "Der Regenbogen (Dispersion + Geometrie)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Absolute vs. empirische Temperatur",
+      "question": "Was beschreibt die absolute Temperatur in der statistischen Mechanik?",
+      "choices": [
+        "A: Sie ist direkt proportional zur kinetischen Energie der Teilchen.",
+        "B: Sie bezieht sich nur auf feste Stoffe.",
+        "C: Sie ist unabhängig von der Energie der Teilchen.",
+        "D: Sie ist immer niedriger als die empirische Temperatur."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die absolute Temperatur ist ein Maß für die durchschnittliche kinetische Energie der Teilchen in einem System. Sie wird in Kelvin gemessen und spielt eine zentrale Rolle in der statistischen Mechanik, da sie die thermischen Eigenschaften von Materie beschreibt.",
+      "difficulty": 3,
+      "subcategory": "Absolute vs. empirische Temperatur"
+    }
+  ]
+}
