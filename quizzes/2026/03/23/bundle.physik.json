@@ -1,0 +1,169 @@
+{
+  "date": "2026-03-23",
+  "generated_at": "2026-03-23T03:56:43Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Isotropie des Raumes ⇒ Drehimpulserhaltung",
+      "question": "Was besagt das Prinzip der Drehimpulserhaltung in einem isotropen Raum?",
+      "choices": [
+        "A: Der Energiegehalt eines geschlossenen Systems bleibt konstant.",
+        "B: Die kinetische Energie eines geschlossenen Systems bleibt konstant.",
+        "C: Der Drehimpuls eines geschlossenen Systems bleibt konstant.",
+        "D: Der Gesamtimpuls eines geschlossenen Systems bleibt konstant."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Prinzip der Drehimpulserhaltung besagt, dass in einem geschlossenen System ohne äußere Einflüsse der Gesamt-Drehimpuls konstant bleibt. Diese Erhaltung ist eine direkte Folge der Isotropie des Raumes, also der gleichen physikalischen Gesetze in alle Richtungen.",
+      "difficulty": 5,
+      "subcategory": "Isotropie des Raumes ⇒ Drehimpulserhaltung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Elektrostatische Feldenergie",
+      "question": "Wie lautet die Formel zur Berechnung der elektrostatischen Feldenergie U eines Punktladungsystems?",
+      "choices": [
+        "A: U = k * (q1 + q2) / r",
+        "B: U = 1/2 * k * (q1 * q2) / (r^2 * r)",
+        "C: U = k * (q1 * q2) / r",
+        "D: U = 1/2 * k * (q1 * q2) / r^2"
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Formel U = k * (q1 * q2) / r beschreibt die elektrostatische Energie zwischen zwei Punktladungen, wobei k die Coulomb-Konstante ist und r der Abstand zwischen den Ladungen. Diese Energie ist entscheidend für das Verständnis elektrostatischer Wechselwirkungen in der Physik.",
+      "difficulty": 8,
+      "subcategory": "Elektrostatische Feldenergie"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Übergang zur Wellenmechanik (klassisch → QM)",
+      "question": "Welche der folgenden Aussagen beschreibt am besten den Übergang von klassischer Mechanik zur Wellenmechanik in der Quantenmechanik?",
+      "choices": [
+        "A: Teilchen verhalten sich immer wie Wellen, unabhängig von der Größe oder Geschwindigkeit.",
+        "B: Der Zustand eines Teilchens wird durch eine Wellenfunktion beschrieben, die Wahrscheinlichkeiten angibt.",
+        "C: In der Quantenmechanik gibt es keine Konzepte wie Energie oder Impuls.",
+        "D: Die Bewegung von Teilchen kann nur durch klassische Gesetze wie Newtons Gesetze erklärt werden."
+      ],
+      "correct_answer": "B",
+      "explanation": "Im Übergang zur Wellenmechanik wird der Zustand eines Teilchens durch eine Wellenfunktion beschrieben, die Informationen über die Wahrscheinlichkeiten des Auffindens des Teilchens an verschiedenen Orten liefert. Dies steht im Gegensatz zur klassischen Mechanik, wo Teilchen eindeutig positioniert sind.",
+      "difficulty": 5,
+      "subcategory": "Übergang zur Wellenmechanik (klassisch → QM)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Ewald-Kugel & Bragg-Bedingung",
+      "question": "Welche Bedingung muss erfüllt sein, damit die Bragg-Bedingung für die Beugung von Röntgenstrahlen an einem Kristall gilt?",
+      "choices": [
+        "A: Der Einfallswinkel muss gleich dem Reflexionswinkel sein.",
+        "B: Die Gitterkonstante muss verdoppelt werden.",
+        "C: Der Abstand zwischen den Gitterebenen muss gleich der Wellenlänge des Lichts sein.",
+        "D: Der Betrag der Wellenvektoren muss konstant sein."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Bragg-Bedingung beschreibt die geometrischen Bedingungen für die konstruktive Interferenz von Röntgenstrahlen an den Gitterebenen eines Kristalls. Die Bedingung besagt, dass der Einfallswinkel gleich dem Reflexionswinkel sein muss, um maximale Intensität in den Beugungsordnungen zu erreichen.",
+      "difficulty": 6,
+      "subcategory": "Ewald-Kugel & Bragg-Bedingung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Moden in optischen Wellenleitern",
+      "question": "Was versteht man unter 'Moden' in optischen Wellenleitern?",
+      "choices": [
+        "A: Die Temperaturänderungen in einem Wellenleiter.",
+        "B: Die Farbzusammensetzung des Lichtes in einer Linse.",
+        "C: Verschiedene Lichtwege, die Licht in einem Wellenleiter transportieren.",
+        "D: Die unterschiedlichen Materialien, die für Wellenleiter verwendet werden."
+      ],
+      "correct_answer": "C",
+      "explanation": "Moden sind spezifische Lichtwege, die in einem optischen Wellenleiter existieren. Sie bestimmen, wie das Licht innerhalb des Wellenleiters gefangen gehalten und geleitet wird.",
+      "difficulty": 2,
+      "subcategory": "Moden in optischen Wellenleitern"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Zeitdilatation",
+      "question": "Was beschreibt das Phänomen der Zeitdilatation in der Relativitätstheorie?",
+      "choices": [
+        "A: Die Zeit vergeht langsamer für Objekte, die sich schnell bewegen.",
+        "B: Zeitdilatation hat keinen Einfluss auf das tägliche Leben.",
+        "C: Zeit bleibt für alle Beobachter gleich.",
+        "D: Die Zeit vergeht schneller in der Nähe von großen Massekonzentrationen."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Zeitdilatation besagt, dass die Zeit für sich schnell bewegende Objekte langsamer vergeht im Vergleich zu einem ruhenden Beobachter. Dieses Phänomen ist ein zentrales Ergebnis der speziellen Relativitätstheorie und wurde experimentell bestätigt.",
+      "difficulty": 1,
+      "subcategory": "Zeitdilatation"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Wärmestrahlungsgesetze & Planck-Formel",
+      "question": "Was beschreibt die Planck-Formel in der Quantenmechanik?",
+      "choices": [
+        "A: Die Grundprinzipien der Relativitätstheorie.",
+        "B: Die Bewegung von Teilchen in einem elektrischen Feld.",
+        "C: Die Wechselwirkung zwischen Licht und Materie auf makroskopischer Ebene.",
+        "D: Die Beziehung zwischen der Temperatur eines schwarzen Körpers und der von ihm emittierten Strahlung."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Planck-Formel beschreibt die spektrale Energieverteilung der Strahlung eines schwarzen Körpers in Abhängigkeit von seiner Temperatur. Sie ist ein fundamentales Ergebnis der Quantenmechanik und spielt eine zentrale Rolle im Verständnis von Wärmestrahlung.",
+      "difficulty": 5,
+      "subcategory": "Wärmestrahlungsgesetze & Planck-Formel"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Hauptträgheitsmomente",
+      "question": "Welches der folgenden Objekte hat das größte Hauptträgheitsmoment bezüglich einer Achse, die durch seinen Schwerpunkt verläuft?",
+      "choices": [
+        "A: Ein homogener Zylinder",
+        "B: Eine dünne Platte",
+        "C: Eine Kugel",
+        "D: Ein homogener Würfel"
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Hauptträgheitsmoment eines Körpers hängt stark von seiner Geometrie und der Massverteilung ab. Ein homogener Zylinder hat im Allgemeinen ein größeres Hauptträgheitsmoment als die anderen genannten Formen, wenn man die Achse durch den Schwerpunkt betrachtet.",
+      "difficulty": 6,
+      "subcategory": "Hauptträgheitsmomente"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Majorana‑Neutrino?",
+      "question": "Was ist eine charakteristische Eigenschaft von Majorana-Neutrinos?",
+      "choices": [
+        "A: Sie interagieren ausschließlich über die starke Wechselwirkung.",
+        "B: Sie haben eine Masse von genau null.",
+        "C: Sie haben immer eine positive elektrische Ladung.",
+        "D: Sie sind ihre eigenen Antiteilchen."
+      ],
+      "correct_answer": "D",
+      "explanation": "Majorana-Neutrinos sind besondere Teilchen, die als ihre eigenen Antiteilchen gelten. Diese Eigenschaft unterscheidet sie von anderen Neutrinos, die immer ein entsprechendes Antiteilchen besitzen.",
+      "difficulty": 5,
+      "subcategory": "Majorana‑Neutrino?"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Kritische Exponenten",
+      "question": "Welcher kritische Exponent beschreibt das Verhalten des spezifischen Volumens an der kritischen Punkt eines Phasenübergangs?",
+      "choices": [
+        "A: δ",
+        "B: α",
+        "C: γ",
+        "D: β"
+      ],
+      "correct_answer": "D",
+      "explanation": "Der kritische Exponent β beschreibt die Änderung des spezifischen Volumens in der Nähe des kritischen Punktes eines Phasenübergangs. Er ist wichtig für das Verständnis von Phasenübergängen und kritischen Phänomenen in der Thermodynamik.",
+      "difficulty": 5,
+      "subcategory": "Kritische Exponenten"
+    }
+  ]
+}

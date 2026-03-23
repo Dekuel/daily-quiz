@@ -1,0 +1,168 @@
+{
+  "date": "2026-03-23",
+  "generated_at": "2026-03-23T03:57:19Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Isotropie des Raumes ⇒ Drehimpulserhaltung",
+      "question": "What does the principle of angular momentum conservation state in an isotropic space?",
+      "choices": [
+        "A: The energy content of a closed system remains constant.",
+        "B: The kinetic energy of a closed system remains constant.",
+        "C: The angular momentum of a closed system remains constant.",
+        "D: The total momentum of a closed system remains constant."
+      ],
+      "correct_answer": "C",
+      "explanation": "The principle of angular momentum conservation states that in a closed system without external influences, the total angular momentum remains constant. This conservation is a direct consequence of the isotropy of space, meaning the same physical laws apply in all directions.",
+      "difficulty": 5,
+      "subcategory": "Isotropie des Raumes ⇒ Drehimpulserhaltung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Elektrostatische Feldenergie",
+      "question": "What is the formula for calculating the electrostatic field energy U of a point charge system?",
+      "choices": [
+        "A: U = k * (q1 + q2) / r",
+        "B: U = 1/2 * k * (q1 * q2) / (r^2 * r)",
+        "C: U = k * (q1 * q2) / r",
+        "D: U = 1/2 * k * (q1 * q2) / r^2"
+      ],
+      "correct_answer": "C",
+      "explanation": "The formula U = k * (q1 * q2) / r describes the electrostatic energy between two point charges, where k is the Coulomb constant and r is the distance between the charges. This energy is crucial for understanding electrostatic interactions in physics.",
+      "difficulty": 8,
+      "subcategory": "Elektrostatische Feldenergie"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Übergang zur Wellenmechanik (klassisch → QM)",
+      "question": "Which of the following statements best describes the transition from classical mechanics to wave mechanics in quantum mechanics?",
+      "choices": [
+        "A: Particles always behave like waves, regardless of size or speed.",
+        "B: The state of a particle is described by a wave function that indicates probabilities.",
+        "C: In quantum mechanics, there are no concepts such as energy or momentum.",
+        "D: The motion of particles can only be explained by classical laws like Newton's laws."
+      ],
+      "correct_answer": "B",
+      "explanation": "In the transition to wave mechanics, the state of a particle is described by a wave function that provides information about the probabilities of finding the particle at different locations. This is in contrast to classical mechanics, where particles are uniquely positioned.",
+      "difficulty": 5,
+      "subcategory": "Übergang zur Wellenmechanik (klassisch → QM)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Ewald-Kugel & Bragg-Bedingung",
+      "question": "What condition must be met for the Bragg condition to hold for X-ray diffraction on a crystal?",
+      "choices": [
+        "A: The angle of incidence must be equal to the angle of reflection.",
+        "B: The lattice constant must be doubled.",
+        "C: The distance between the lattice planes must be equal to the wavelength of light.",
+        "D: The magnitude of the wave vectors must be constant."
+      ],
+      "correct_answer": "A",
+      "explanation": "The Bragg condition describes the geometric conditions for the constructive interference of X-rays on the lattice planes of a crystal. The condition states that the angle of incidence must be equal to the angle of reflection to achieve maximum intensity in the diffraction orders.",
+      "difficulty": 6,
+      "subcategory": "Ewald-Kugel & Bragg-Bedingung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Moden in optischen Wellenleitern",
+      "question": "What are 'modes' in optical waveguides?",
+      "choices": [
+        "A: The temperature changes in a waveguide.",
+        "B: The color composition of light in a lens.",
+        "C: Different light paths that transport light in a waveguide.",
+        "D: The different materials used for waveguides."
+      ],
+      "correct_answer": "C",
+      "explanation": "Modes are specific light paths that exist in an optical waveguide. They determine how light is trapped and guided within the waveguide.",
+      "difficulty": 2,
+      "subcategory": "Moden in optischen Wellenleitern"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Zeitdilatation",
+      "question": "What does the phenomenon of time dilation describe in the theory of relativity?",
+      "choices": [
+        "A: Time passes more slowly for objects moving quickly.",
+        "B: Time dilation has no impact on daily life.",
+        "C: Time remains the same for all observers.",
+        "D: Time passes faster near large concentrations of mass."
+      ],
+      "correct_answer": "A",
+      "explanation": "Time dilation states that time passes more slowly for objects moving quickly compared to a stationary observer. This phenomenon is a central result of the special theory of relativity and has been experimentally confirmed.",
+      "difficulty": 1,
+      "subcategory": "Zeitdilatation"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Wärmestrahlungsgesetze & Planck-Formel",
+      "question": "What does the Planck formula describe in quantum mechanics?",
+      "choices": [
+        "A: The basic principles of relativity theory.",
+        "B: The motion of particles in an electric field.",
+        "C: The interaction between light and matter on a macroscopic level.",
+        "D: The relationship between the temperature of a black body and the radiation emitted by it."
+      ],
+      "correct_answer": "D",
+      "explanation": "The Planck formula describes the spectral energy distribution of the radiation of a black body depending on its temperature. It is a fundamental result of quantum mechanics and plays a central role in understanding thermal radiation.",
+      "difficulty": 5,
+      "subcategory": "Wärmestrahlungsgesetze & Planck-Formel"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Hauptträgheitsmomente",
+      "question": "Which of the following objects has the largest principal moment of inertia about an axis passing through its center of mass?",
+      "choices": [
+        "A: A homogeneous cylinder",
+        "B: A thin plate",
+        "C: A sphere",
+        "D: A homogeneous cube"
+      ],
+      "correct_answer": "A",
+      "explanation": "The principal moment of inertia of a body strongly depends on its geometry and mass distribution. In general, a homogeneous cylinder has a larger principal moment of inertia than the other shapes mentioned when considering the axis passing through the center of mass.",
+      "difficulty": 6,
+      "subcategory": "Hauptträgheitsmomente"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Majorana‑Neutrino?",
+      "question": "What is a characteristic property of Majorana neutrinos?",
+      "choices": [
+        "A: They interact exclusively via the strong interaction.",
+        "B: They have a mass of exactly zero.",
+        "C: They always have a positive electric charge.",
+        "D: They are their own antiparticles."
+      ],
+      "correct_answer": "D",
+      "explanation": "Majorana neutrinos are special particles that are considered their own antiparticles. This property sets them apart from other neutrinos, which always have a corresponding antiparticle.",
+      "difficulty": 5,
+      "subcategory": "Majorana‑Neutrino?"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Kritische Exponenten",
+      "question": "Which critical exponent describes the behavior of the specific volume at the critical point of a phase transition?",
+      "choices": [
+        "A: δ",
+        "B: α",
+        "C: γ",
+        "D: β"
+      ],
+      "correct_answer": "D",
+      "explanation": "The critical exponent β describes the change in the specific volume near the critical point of a phase transition. It is important for understanding phase transitions and critical phenomena in thermodynamics.",
+      "difficulty": 5,
+      "subcategory": "Kritische Exponenten"
+    }
+  ]
+}
