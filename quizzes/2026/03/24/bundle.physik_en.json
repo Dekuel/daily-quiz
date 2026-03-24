@@ -1,0 +1,168 @@
+{
+  "date": "2026-03-24",
+  "generated_at": "2026-03-24T03:51:30Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Kohärenz von Lichtquellen",
+      "question": "Which of the following light sources is considered coherent?",
+      "choices": [
+        "A: Neon tube",
+        "B: Sun",
+        "C: Laser",
+        "D: Incandescent bulb"
+      ],
+      "correct_answer": "C",
+      "explanation": "A laser produces coherent light, which means that the light waves have a fixed phase and frequency. In contrast, incandescent bulbs and the sun are examples of incoherent light sources, whose light waves vary in phase and frequency.",
+      "difficulty": 3,
+      "subcategory": "Kohärenz von Lichtquellen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Wellenfunktion & statistische Interpretation",
+      "question": "What does the wave function describe in quantum mechanics?",
+      "choices": [
+        "A: It describes the velocity of a particle in space.",
+        "B: It describes the exact position of a particle at a specific time.",
+        "C: It indicates the energy of a particle in a quantum mechanical system.",
+        "D: It describes the probability of finding a particle at a specific location."
+      ],
+      "correct_answer": "D",
+      "explanation": "The wave function is a central concept in quantum mechanics and describes the probability of finding a particle at a specific location. It enables the statistical interpretation of quantum phenomena and is fundamental for understanding quantum mechanical systems.",
+      "difficulty": 6,
+      "subcategory": "Wellenfunktion & statistische Interpretation"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Versetzungen",
+      "question": "What is a dislocation in solid-state physics?",
+      "choices": [
+        "A: A property of gases.",
+        "B: A state of matter at extremely high temperatures.",
+        "C: An unordered arrangement of atoms.",
+        "D: A linear anomaly in the crystal structure."
+      ],
+      "correct_answer": "D",
+      "explanation": "A dislocation is a type of defect in the crystal structure of a solid that propagates linearly. It plays an essential role in the plastic deformation of materials.",
+      "difficulty": 2,
+      "subcategory": "Versetzungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Semileptonische Baryon‑Zerfälle",
+      "question": "What describes a semileptonic baryon decay?",
+      "choices": [
+        "A: A decay where no heavy particles are produced.",
+        "B: A decay that occurs exclusively through strong interactions.",
+        "C: A decay involving only baryons.",
+        "D: A decay in which a baryon decays into another baryon and a lepton."
+      ],
+      "correct_answer": "D",
+      "explanation": "A semileptonic baryon decay is a process in which a baryon decays into another baryon and a lepton. These decays are important for understanding the interactions between baryons and leptons.",
+      "difficulty": 3,
+      "subcategory": "Semileptonische Baryon‑Zerfälle"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Doppelspalt: Welle vs. Teilchen",
+      "question": "What is observed in the double-slit experiment when light is considered as a wave?",
+      "choices": [
+        "A: Light is reflected",
+        "B: No change in light",
+        "C: Light is absorbed",
+        "D: Interference pattern"
+      ],
+      "correct_answer": "D",
+      "explanation": "In the double-slit experiment, an interference pattern is observed when light is treated as a wave. This pattern arises because the wavefronts interfere through the two slits, leading to constructive and destructive interferences.",
+      "difficulty": 4,
+      "subcategory": "Doppelspalt: Welle vs. Teilchen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Bose–Einstein-Kondensation (BEC)",
+      "question": "What is a characteristic property of Bose-Einstein condensates?",
+      "choices": [
+        "A: They are always solid and not liquid.",
+        "B: They can only exist at temperatures above absolute zero.",
+        "C: They exhibit overlapping wave functions and behave collectively.",
+        "D: They consist of fermionic particles."
+      ],
+      "correct_answer": "C",
+      "explanation": "Bose-Einstein condensates consist of bosonic particles that transition to a state where their wave functions overlap at extremely low temperatures. This results in collective behavior and quantum mechanical effects on a macroscopic scale.",
+      "difficulty": 5,
+      "subcategory": "Bose–Einstein-Kondensation (BEC)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Verallgemeinerte Potentiale",
+      "question": "What does the generalized potential describe in analytical mechanics?",
+      "choices": [
+        "A: The general form of energy of a system regardless of the forces.",
+        "B: The change in the motion of a body under the influence of friction.",
+        "C: The relationship between force and energy in a system.",
+        "D: The velocity of a body in a homogeneous gravitational field."
+      ],
+      "correct_answer": "A",
+      "explanation": "The generalized potential is a function that describes the total energy of a system, regardless of the specific forces acting on it. It is particularly useful for analyzing the dynamics of complex systems and deriving the equations of motion.",
+      "difficulty": 5,
+      "subcategory": "Verallgemeinerte Potentiale"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Erster Hauptsatz & innere Energie",
+      "question": "What does the first law of thermodynamics state regarding the internal energy of a system?",
+      "choices": [
+        "A: The internal energy of a closed system remains constant if no heat or work is added.",
+        "B: The internal energy of a system is independent of the work done on the system.",
+        "C: The internal energy can only be increased by raising the temperature.",
+        "D: The internal energy of a system can only be changed by chemical reactions."
+      ],
+      "correct_answer": "A",
+      "explanation": "The first law of thermodynamics states that the change in the internal energy of a closed system is equal to the heat added minus the work done. Therefore, if no heat or work is added, the internal energy remains constant.",
+      "difficulty": 4,
+      "subcategory": "Erster Hauptsatz & innere Energie"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Fabry–Perot-Interferometer (Vielfachinterferenzen)",
+      "question": "What is the main principle of the Fabry–Perot interferometer?",
+      "choices": [
+        "A: Scattering of light by small particles.",
+        "B: Deflection of light rays by a lens.",
+        "C: Refraction of light at a prismatic surface.",
+        "D: Interference of light rays reflected multiple times between two parallel mirrors."
+      ],
+      "correct_answer": "D",
+      "explanation": "The Fabry–Perot interferometer utilizes the principle of interference of light reflected between two parallel mirrors. These multiple reflections result in constructive and destructive interferences, leading to characteristic light patterns.",
+      "difficulty": 1,
+      "subcategory": "Fabry–Perot-Interferometer (Vielfachinterferenzen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Zustandsgleichungen (Überblick)",
+      "question": "Which equation describes the behavior of an ideal gas?",
+      "choices": [
+        "A: W = Fd",
+        "B: pV = nRT",
+        "C: E = mc²",
+        "D: F = ma"
+      ],
+      "correct_answer": "B",
+      "explanation": "The equation of state pV = nRT describes how pressure (p), volume (V), and temperature (T) of an ideal gas are related, where n is the number of moles and R is the universal gas constant. This equation is fundamental in thermodynamics for ideal gases.",
+      "difficulty": 1,
+      "subcategory": "Zustandsgleichungen (Überblick)"
+    }
+  ]
+}
