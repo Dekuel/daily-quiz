@@ -1,0 +1,169 @@
+{
+  "date": "2026-03-25",
+  "generated_at": "2026-03-25T03:51:55Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Faraday’sches Induktionsgesetz",
+      "question": "Welches der folgenden Phänomene beschreibt das Faraday’sche Induktionsgesetz korrekt?",
+      "choices": [
+        "A: Der Widerstand eines Leiters beeinflusst die Stärke des erzeugten Magnetfeldes.",
+        "B: Eine konstante elektrische Spannung erzeugt ein zeitlich variierendes Magnetfeld.",
+        "C: Eine Änderung des Magnetfeldes in der Nähe eines Leiters induziert eine elektrische Spannung in diesem Leiter.",
+        "D: Magnetische Felder können nur durch bewegte elektrische Ladungen erzeugt werden."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Faraday’sche Induktionsgesetz besagt, dass eine Änderung des Magnetfeldes in der Nähe eines Leiters eine elektrische Spannung induziert. Dies ist die Grundlage für viele elektrische Generatoren und Transformatoren.",
+      "difficulty": 7,
+      "subcategory": "Faraday’sches Induktionsgesetz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Exponenten-Ungleichungen (Scaling Bounds)",
+      "question": "Was beschreibt das Konzept der Exponenten-Ungleichungen in der Thermodynamik?",
+      "choices": [
+        "A: Die Umwandlung von Wärme in Arbeit",
+        "B: Die Entropieänderung bei chemischen Reaktionen",
+        "C: Die Beziehung zwischen Temperatur und Energie",
+        "D: Die Grenzen für das Wachstum von physikalischen Größen"
+      ],
+      "correct_answer": "D",
+      "explanation": "Exponenten-Ungleichungen in der Thermodynamik beschreiben die Grenzen für das Wachstum von physikalischen Größen, insbesondere im Zusammenhang mit Skalierungseffekten. Diese Konzepte sind wichtig, um das Verhalten von Systemen unter verschiedenen Bedingungen vorherzusagen.",
+      "difficulty": 1,
+      "subcategory": "Exponenten-Ungleichungen (Scaling Bounds)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Bohr–Sommerfeld-Quantisierung (historisch)",
+      "question": "Was beschreibt die Bohr–Sommerfeld-Quantisierung in der Quantenmechanik?",
+      "choices": [
+        "A: Die Bewegung von Planeten um die Sonne.",
+        "B: Die Erhaltung des Impulses in einem geschlossenen System.",
+        "C: Die quantisierten Energiezustände eines Elektrons in einem Atom.",
+        "D: Die Beziehung zwischen Temperatur und Energie."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Bohr–Sommerfeld-Quantisierung beschreibt, wie Elektronen in Atomen nur bestimmte diskrete Energiezustände einnehmen können. Dies war ein wichtiger Schritt in der Entwicklung der Quantenmechanik und half, das Verhalten von Atomen zu erklären.",
+      "difficulty": 3,
+      "subcategory": "Bohr–Sommerfeld-Quantisierung (historisch)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Nicht-holonome Systeme (Lagrange)",
+      "question": "Welche der folgenden Aussagen beschreibt am besten nicht-holonome Systeme?",
+      "choices": [
+        "A: Sie können nicht vollständig durch Integrationsbedingungen beschrieben werden.",
+        "B: Sie sind immer in einem geschlossenen System.",
+        "C: Sie bewegen sich immer in einer geraden Linie.",
+        "D: Sie sind identisch mit holonomen Systemen."
+      ],
+      "correct_answer": "A",
+      "explanation": "Nicht-holonome Systeme sind durch Constraints charakterisiert, die nicht durch Integrationsbedingungen vollständig beschrieben werden können. Dies bedeutet, dass die Bewegung des Systems von den aktuellen Positionen und Geschwindigkeiten abhängt und nicht nur von den Wegpunkten.",
+      "difficulty": 3,
+      "subcategory": "Nicht-holonome Systeme (Lagrange)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Präzession des symmetrischen Kreisels",
+      "question": "Welche der folgenden Aussagen beschreibt am besten die Präzession eines symmetrischen Kreisels?",
+      "choices": [
+        "A: Die Präzession ist der Effekt, bei dem die Rotationsgeschwindigkeit eines Kreisels aufgrund der Schwerkraft verringert wird.",
+        "B: Die Präzession entsteht, wenn die Rotationsachse des Kreisels parallel zu einer externen Kraft bleibt.",
+        "C: Die Präzession tritt auf, wenn der Drehimpuls des Kreisels durch eine äußere Kraft nicht verändert wird.",
+        "D: Die Präzession ist das Ergebnis eines Anstiegs der kinetischen Energie des Kreisels."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Präzession eines symmetrischen Kreisels ist das Phänomen, bei dem sich die Achse der Drehung aufgrund einer äußeren Kraft, wie zum Beispiel der Schwerkraft, in einer kreisförmigen Bewegung bewegt, während der Drehimpuls erhalten bleibt. Diese physikalischen Prinzipien sind entscheidend für das Verständnis der Stabilität von rotierenden Körpern.",
+      "difficulty": 7,
+      "subcategory": "Präzession des symmetrischen Kreisels"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Feldstärke-Tensor (Fμν)",
+      "question": "Was beschreibt der Feldstärke-Tensor Fμν in der Relativitätstheorie?",
+      "choices": [
+        "A: Die Schwingungen von Teilchen in einem Gravitationsfeld.",
+        "B: Die Struktur von Raum und Zeit ohne Berücksichtigung von Kräften.",
+        "C: Die Bewegung von Objekten in einem Vakuum.",
+        "D: Die Wechselwirkung von elektromagnetischen Feldern mit Materie."
+      ],
+      "correct_answer": "D",
+      "explanation": "Der Feldstärke-Tensor Fμν ist ein zentraler Bestandteil der Elektrodynamik in der Relativitätstheorie und beschreibt, wie elektromagnetische Felder mit Materie interagieren. Er vereint die elektrischen und magnetischen Felder in einem mathematischen Objekt, das in der relativistischen Beschreibung von physikalischen Phänomenen unerlässlich ist.",
+      "difficulty": 5,
+      "subcategory": "Feldstärke-Tensor (Fμν)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Eigenschaften von Photonen",
+      "question": "Welche Eigenschaft von Photonen ermöglicht es ihnen, sich im Vakuum mit Lichtgeschwindigkeit zu bewegen?",
+      "choices": [
+        "A: Sie besitzen elektrische Ladung.",
+        "B: Sie haben keine Ruhemasse.",
+        "C: Sie können Materie durchdringen.",
+        "D: Sie sind Teilchen und Wellen zugleich."
+      ],
+      "correct_answer": "B",
+      "explanation": "Photonen sind masselose Teilchen, was bedeutet, dass sie keine Ruhemasse haben. Dies erlaubt es ihnen, sich mit der maximalen Geschwindigkeit im Universum, der Lichtgeschwindigkeit, fortzubewegen, während massive Teilchen langsamer reisen müssen.",
+      "difficulty": 4,
+      "subcategory": "Eigenschaften von Photonen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Ansatz der Wellenmechanik (de Broglie/Schrödinger-Idee)",
+      "question": "Was beschreibt die de Broglie-Wellenlänge eines Teilchens?",
+      "choices": [
+        "A: Die Geschwindigkeit eines Teilchens in einem elektrischen Feld.",
+        "B: Die Wellenlänge, die einem Teilchen mit einer bestimmten Impulsgröße entspricht.",
+        "C: Die Frequenz, mit der sich ein Teilchen bewegt.",
+        "D: Die Energie eines Teilchens in Ruhe."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die de Broglie-Wellenlänge ist ein Konzept, das die Wellen-Natur von Teilchen beschreibt und gibt an, welche Wellenlänge mit dem Impuls eines Teilchens korreliert ist. Je größer der Impuls, desto kleiner die Wellenlänge. Dieses Prinzip ist grundlegend für die Wellenmechanik.",
+      "difficulty": 3,
+      "subcategory": "Ansatz der Wellenmechanik (de Broglie/Schrödinger-Idee)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Lösungsstruktur (radial)",
+      "question": "Was beschreibt die radiale Lösungsstruktur einer Wellenfunktion in der Quantenmechanik?",
+      "choices": [
+        "A: Die Wahrscheinlichkeitsverteilung eines Teilchens in einem Potentialfeld.",
+        "B: Die Geschwindigkeit eines Teilchens in einem bestimmten Zustand.",
+        "C: Die Masse eines Teilchens in einem Quantenfeld.",
+        "D: Die Energie eines Teilchens, die unabhängig von seiner Position ist."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die radiale Lösungsstruktur einer Wellenfunktion gibt an, wie die Wahrscheinlichkeit, ein Teilchen an einem bestimmten Ort zu finden, in Bezug auf den Abstand vom Zentrum eines Potentials verteilt ist. Diese Verteilung ist entscheidend für das Verständnis der räumlichen Eigenschaften von Quantensystemen.",
+      "difficulty": 5,
+      "subcategory": "Lösungsstruktur (radial)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Baryon‑Multipletts",
+      "question": "Welches der folgenden Teilchen gehört zu den Baryon-Multipletts?",
+      "choices": [
+        "A: Photon",
+        "B: Elektron",
+        "C: Proton",
+        "D: Neutrino"
+      ],
+      "correct_answer": "C",
+      "explanation": "Baryonen sind Teilchen, die aus drei Quarks bestehen, und das Proton ist das bekannteste Beispiel dafür. Elektronen, Photonen und Neutrinos gehören nicht zu den Baryonen, sondern zu anderen Teilchenfamilien.",
+      "difficulty": 4,
+      "subcategory": "Baryon‑Multipletts"
+    }
+  ]
+}
