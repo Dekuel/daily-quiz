@@ -1,0 +1,168 @@
+{
+  "date": "2026-03-26",
+  "generated_at": "2026-03-26T04:00:50Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Turbulenz & Strömungswiderstand",
+      "question": "What is a common cause of turbulence in a fluid?",
+      "choices": [
+        "A: Coldness of the fluid",
+        "B: Increased speed of the flow",
+        "C: Low pressure of the fluid",
+        "D: Reduced density of the fluid"
+      ],
+      "correct_answer": "B",
+      "explanation": "Turbulence often occurs when the speed of a flow is increased. At high speeds, flow lines can become chaotic, leading to turbulence.",
+      "difficulty": 5,
+      "subcategory": "Turbulenz & Strömungswiderstand"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Äquivalente Formen der erzeugenden Funktion",
+      "question": "Which of the following statements correctly describes an equivalent form of the generating function in analytical mechanics?",
+      "choices": [
+        "A: The generating function is only relevant for systems without external forces.",
+        "B: The generating function is always constant and independent of the variables.",
+        "C: The generating function can be represented as a function of the general coordinates and momenta.",
+        "D: The generating function can only be used in a closed system."
+      ],
+      "correct_answer": "C",
+      "explanation": "In analytical mechanics, the generating function describes a relationship between the general coordinates and momenta, which is crucial for formulating Lagrange or Hamiltonian mechanics. The other options are incorrect as they misunderstand important properties of the generating function.",
+      "difficulty": 4,
+      "subcategory": "Äquivalente Formen der erzeugenden Funktion"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Kanonische Transformationen (Motivation)",
+      "question": "What is the main goal of canonical transformations in analytical mechanics?",
+      "choices": [
+        "A: To optimize the calculation of a system's mass.",
+        "B: To enable the description of systems in new, more suitable coordinates.",
+        "C: To facilitate the determination of particle velocities.",
+        "D: To ensure the conservation of a system's energy."
+      ],
+      "correct_answer": "B",
+      "explanation": "Canonical transformations allow for representing physical systems in new coordinates that are often easier to analyze. They are a central part of analytical mechanics to formulate the equations of motion more effectively.",
+      "difficulty": 5,
+      "subcategory": "Kanonische Transformationen (Motivation)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Spinwellen",
+      "question": "What describes the direction of spin waves in a ferromagnetic material?",
+      "choices": [
+        "A: The number of magnetic domains in the material.",
+        "B: The alignment of the spins of electrons in the crystal structure.",
+        "C: The strength of the external magnetic field.",
+        "D: The temperature of the material."
+      ],
+      "correct_answer": "B",
+      "explanation": "Spin waves are collective excitations where the spins of electrons in a ferromagnetic material oscillate synchronously. The direction of spin waves depends on the alignment of these spins, determined by interactions in the material.",
+      "difficulty": 6,
+      "subcategory": "Spinwellen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Michelson–Morley-Experiment (Ätherhypothese)",
+      "question": "Which result of the Michelson-Morley experiment contradicted the ether hypothesis and led to the development of the special theory of relativity?",
+      "choices": [
+        "A: No light waves could be detected in the ether.",
+        "B: There was no change in the speed of light in different directions.",
+        "C: The speed of light varied depending on the season.",
+        "D: The speed of light was faster in the direction of Earth's motion."
+      ],
+      "correct_answer": "B",
+      "explanation": "The Michelson-Morley experiment found that the speed of light was independent of the Earth's motion, challenging the idea of a stationary ether and the associated theory of light propagation. This result was crucial for Albert Einstein's development of the special theory of relativity.",
+      "difficulty": 8,
+      "subcategory": "Michelson–Morley-Experiment (Ätherhypothese)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Phasenübergänge (Übersicht)",
+      "question": "Which phase transition describes the process by which a substance changes from the solid to the liquid phase?",
+      "choices": [
+        "A: Solidification",
+        "B: Melting",
+        "C: Condensation",
+        "D: Sublimation"
+      ],
+      "correct_answer": "B",
+      "explanation": "The process by which a substance changes from the solid to the liquid phase is called melting. In this phase transition, heat is supplied, giving the molecules in the solid phase more energy to move.",
+      "difficulty": 9,
+      "subcategory": "Phasenübergänge (Übersicht)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Elektronen im Magnetfeld (Überblick)",
+      "question": "What describes the Lorentz force on a moving electron in a magnetic field?",
+      "choices": [
+        "A: The force is independent of the electron's direction of motion.",
+        "B: The force always acts in the direction of the magnetic field.",
+        "C: The force is proportional to the electron's velocity and the strength of the magnetic field.",
+        "D: The force remains constant regardless of the electron's velocity."
+      ],
+      "correct_answer": "C",
+      "explanation": "The Lorentz force is the product of the electron's charge, velocity, and the strength of the magnetic field. It acts perpendicular to both the electron's direction of motion and the magnetic field, resulting in circular motion.",
+      "difficulty": 7,
+      "subcategory": "Elektronen im Magnetfeld (Überblick)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Angeregte Nukleonzustände",
+      "question": "What describes the concept of an 'excited state' of a nucleon?",
+      "choices": [
+        "A: A state where the nucleon reduces its mass.",
+        "B: A state where the nucleon has more energy than in the ground state.",
+        "C: A state where the nucleon is at rest.",
+        "D: A state where the nucleon fuses with other particles."
+      ],
+      "correct_answer": "B",
+      "explanation": "An excited state of a nucleon means it has been raised to a higher energy state by energy input, possessing more energy than in the stable ground state. This state can be achieved through various processes like collisions or photon absorption.",
+      "difficulty": 8,
+      "subcategory": "Angeregte Nukleonzustände"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Energietransport in Wellenfeldern (Poynting-Vektor)",
+      "question": "What does the Poynting vector describe in electrodynamics?",
+      "choices": [
+        "A: The frequency of an electromagnetic signal.",
+        "B: The energy flux density in an electromagnetic field.",
+        "C: The velocity of electrons in an electric field.",
+        "D: The temperature distribution in a conducting material."
+      ],
+      "correct_answer": "B",
+      "explanation": "The Poynting vector describes the energy flux density in an electromagnetic field, indicating the direction and intensity of energy transport. It is a central concept in electrodynamics for analyzing energy transport in wave fields.",
+      "difficulty": 5,
+      "subcategory": "Energietransport in Wellenfeldern (Poynting-Vektor)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Viskosität von Gasen",
+      "question": "What describes the viscosity of a gas?",
+      "choices": [
+        "A: The density of a gas at room temperature.",
+        "B: The resistance of a gas to flow.",
+        "C: The ability of a gas to compress.",
+        "D: The temperature of a gas at constant pressure."
+      ],
+      "correct_answer": "B",
+      "explanation": "The viscosity of a gas is a measure of its resistance to flow, especially when moving through other gases or liquids. Higher viscosity means the gas flows less easily and requires more energy to move.",
+      "difficulty": 5,
+      "subcategory": "Viskosität von Gasen"
+    }
+  ]
+}

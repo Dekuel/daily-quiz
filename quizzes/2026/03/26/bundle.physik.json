@@ -1,0 +1,169 @@
+{
+  "date": "2026-03-26",
+  "generated_at": "2026-03-26T03:59:59Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Turbulenz & Strömungswiderstand",
+      "question": "Was ist eine häufige Ursache für Turbulenz in einer Flüssigkeit?",
+      "choices": [
+        "A: Kälte der Flüssigkeit",
+        "B: Erhöhte Geschwindigkeit der Strömung",
+        "C: Geringer Druck der Flüssigkeit",
+        "D: Reduzierte Dichte der Flüssigkeit"
+      ],
+      "correct_answer": "B",
+      "explanation": "Turbulenz entsteht oft, wenn die Geschwindigkeit einer Strömung erhöht wird. Bei hoher Geschwindigkeit können die Strömungslinien chaotisch werden, was zu Turbulenzen führt.",
+      "difficulty": 5,
+      "subcategory": "Turbulenz & Strömungswiderstand"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Äquivalente Formen der erzeugenden Funktion",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt eine äquivalente Form der erzeugenden Funktion in der analytischen Mechanik?",
+      "choices": [
+        "A: Die erzeugende Funktion ist nur für Systeme ohne äußere Kräfte relevant.",
+        "B: Die erzeugende Funktion ist immer konstant und unabhängig von den Variablen.",
+        "C: Die erzeugende Funktion kann als eine Funktion der allgemeinen Koordinaten und der allgemeinen Impulse dargestellt werden.",
+        "D: Die erzeugende Funktion kann nur in einem abgeschlossenen System verwendet werden."
+      ],
+      "correct_answer": "C",
+      "explanation": "In der analytischen Mechanik beschreibt die erzeugende Funktion eine Beziehung zwischen den allgemeinen Koordinaten und Impulsen, was für die Formulierung der Lagrange- oder Hamilton-Mechanik entscheidend ist. Die anderen Optionen sind nicht korrekt, da sie wichtige Eigenschaften der erzeugenden Funktion missverstehen.",
+      "difficulty": 4,
+      "subcategory": "Äquivalente Formen der erzeugenden Funktion"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Kanonische Transformationen (Motivation)",
+      "question": "Was ist das Hauptziel kanonischer Transformationen in der analytischen Mechanik?",
+      "choices": [
+        "A: Die Berechnung der Masse eines Systems zu optimieren.",
+        "B: Die Beschreibung von Systemen in neuen, geeigneteren Koordinaten zu ermöglichen.",
+        "C: Die Bestimmung der Geschwindigkeit von Teilchen zu erleichtern.",
+        "D: Die Erhaltung der Energie eines Systems zu gewährleisten."
+      ],
+      "correct_answer": "B",
+      "explanation": "Kanonische Transformationen ermöglichen es, physikalische Systeme in neuen Koordinaten darzustellen, die oft einfacher zu analysieren sind. Sie sind ein zentraler Bestandteil der analytischen Mechanik, um die Bewegungsgleichungen effektiver zu formulieren.",
+      "difficulty": 5,
+      "subcategory": "Kanonische Transformationen (Motivation)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Spinwellen",
+      "question": "Was beschreibt die Richtung der Spinwellen in einem ferromagnetischen Material?",
+      "choices": [
+        "A: Die Anzahl der Magnetdomänen im Material.",
+        "B: Die Ausrichtung der Spins der Elektronen in der Kristallstruktur.",
+        "C: Die Stärke des äußeren Magnetfeldes.",
+        "D: Die Temperatur des Materials."
+      ],
+      "correct_answer": "B",
+      "explanation": "Spinwellen sind kollektive Anregungen, bei denen die Spins der Elektronen in einem ferromagnetischen Material synchron oszillieren. Die Richtung der Spinwellen hängt von der Ausrichtung dieser Spins ab, die durch die Wechselwirkungen im Material bestimmt wird.",
+      "difficulty": 6,
+      "subcategory": "Spinwellen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Michelson–Morley-Experiment (Ätherhypothese)",
+      "question": "Welches Ergebnis des Michelson–Morley-Experiments widersprach der Ätherhypothese und führte zur Entwicklung der speziellen Relativitätstheorie?",
+      "choices": [
+        "A: Es konnten keine Lichtwellen im Äther nachgewiesen werden.",
+        "B: Es wurde keine Veränderung der Lichtgeschwindigkeit in verschiedenen Richtungen festgestellt.",
+        "C: Die Lichtgeschwindigkeit variierte je nach Jahreszeit.",
+        "D: Die Lichtgeschwindigkeit war in Richtung der Erdbewegung schneller."
+      ],
+      "correct_answer": "B",
+      "explanation": "Das Michelson–Morley-Experiment ergab, dass die Lichtgeschwindigkeit unabhängig von der Erdbewegung war, was die Vorstellung eines ruhenden Äthers und die damit verbundene Theorie der Lichtausbreitung in Frage stellte. Dieses Ergebnis war entscheidend für die Entwicklung der speziellen Relativitätstheorie durch Albert Einstein.",
+      "difficulty": 8,
+      "subcategory": "Michelson–Morley-Experiment (Ätherhypothese)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Phasenübergänge (Übersicht)",
+      "question": "Welcher Phasenübergang beschreibt den Prozess, bei dem ein Stoff von der festen in die flüssige Phase übergeht?",
+      "choices": [
+        "A: Erstarren",
+        "B: Schmelzen",
+        "C: Kondensation",
+        "D: Sublimation"
+      ],
+      "correct_answer": "B",
+      "explanation": "Der Prozess, bei dem ein Stoff von der festen in die flüssige Phase übergeht, wird als Schmelzen bezeichnet. Bei diesem Phasenübergang wird Wärme zugeführt, wodurch die Moleküle in der festen Phase mehr Energie erhalten und sich bewegen können.",
+      "difficulty": 9,
+      "subcategory": "Phasenübergänge (Übersicht)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Elektronen im Magnetfeld (Überblick)",
+      "question": "Was beschreibt die Lorentzkraft auf ein bewegtes Elektron in einem Magnetfeld?",
+      "choices": [
+        "A: Die Kraft ist unabhängig von der Bewegungsrichtung des Elektrons.",
+        "B: Die Kraft wirkt immer in Richtung des Magnetfelds.",
+        "C: Die Kraft ist proportional zur Geschwindigkeit des Elektrons und zur Stärke des Magnetfelds.",
+        "D: Die Kraft bleibt konstant, unabhängig von der Geschwindigkeit des Elektrons."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Lorentzkraft ist das Produkt aus der Ladung des Elektrons, der Geschwindigkeit und der Stärke des Magnetfelds. Sie wirkt senkrecht sowohl zur Bewegungsrichtung des Elektrons als auch zur Richtung des Magnetfelds, was zu einer Kreisbewegung führt.",
+      "difficulty": 7,
+      "subcategory": "Elektronen im Magnetfeld (Überblick)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Angeregte Nukleonzustände",
+      "question": "Was beschreibt den Begriff 'angeregter Zustand' eines Nukleons?",
+      "choices": [
+        "A: Ein Zustand, in dem das Nukleon seine Masse verringert.",
+        "B: Ein Zustand, in dem das Nukleon mehr Energie hat als im Grundzustand.",
+        "C: Ein Zustand, in dem das Nukleon sich nicht bewegt.",
+        "D: Ein Zustand, in dem das Nukleon mit anderen Teilchen fusioniert."
+      ],
+      "correct_answer": "B",
+      "explanation": "Ein angeregter Zustand eines Nukleons bedeutet, dass es durch Energiezufuhr in einen höheren energetischen Zustand versetzt wurde, wodurch es mehr Energie als im stabilen Grundzustand besitzt. Dieser Zustand kann durch verschiedene Prozesse wie Kollisionen oder Photonenabsorption erreicht werden.",
+      "difficulty": 8,
+      "subcategory": "Angeregte Nukleonzustände"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Energietransport in Wellenfeldern (Poynting-Vektor)",
+      "question": "Was beschreibt der Poynting-Vektor in der Elektrodynamik?",
+      "choices": [
+        "A: Die Frequenz eines elektromagnetischen Signals.",
+        "B: Die Energieflussdichte in einem elektromagnetischen Feld.",
+        "C: Die Geschwindigkeit von Elektronen in einem elektrischen Feld.",
+        "D: Die Temperaturverteilung in einem leitenden Material."
+      ],
+      "correct_answer": "B",
+      "explanation": "Der Poynting-Vektor beschreibt die Flussdichte der Energie in einem elektromagnetischen Feld und gibt an, in welche Richtung und mit welcher Intensität Energie transportiert wird. Er ist ein zentrales Konzept in der Elektrodynamik zur Analyse von Energietransport in Wellenfeldern.",
+      "difficulty": 5,
+      "subcategory": "Energietransport in Wellenfeldern (Poynting-Vektor)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Viskosität von Gasen",
+      "question": "Was beschreibt die Viskosität eines Gases?",
+      "choices": [
+        "A: Die Dichte eines Gases bei Raumtemperatur.",
+        "B: Den Widerstand eines Gases gegen Fließen.",
+        "C: Die Fähigkeit eines Gases, sich zu komprimieren.",
+        "D: Die Temperatur eines Gases bei konstantem Druck."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Viskosität eines Gases ist ein Maß für dessen Widerstand gegen Fließen, insbesondere bei der Bewegung durch andere Gase oder Flüssigkeiten. Höhere Viskosität bedeutet, dass das Gas weniger leicht fließt und mehr Energie benötigt, um sich zu bewegen.",
+      "difficulty": 5,
+      "subcategory": "Viskosität von Gasen"
+    }
+  ]
+}
