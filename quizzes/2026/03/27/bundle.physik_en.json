@@ -1,0 +1,168 @@
+{
+  "date": "2026-03-27",
+  "generated_at": "2026-03-27T04:01:07Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Magnetostatik in Materie",
+      "question": "What describes the magnetic field strength H in a ferromagnetic material?",
+      "choices": [
+        "A: The magnetic field strength H has no influence on the magnetic induction B.",
+        "B: The magnetic field strength H is independent of the magnetic induction B.",
+        "C: The magnetic field strength H is always zero.",
+        "D: The magnetic induction B is proportional to the magnetic field strength H."
+      ],
+      "correct_answer": "D",
+      "explanation": "In a ferromagnetic material, the magnetic induction B is directly proportional to the magnetic field strength H, with the proportionality constant depending on the material properties. This is a fundamental concept in magnetostatics and describes how materials respond to magnetic fields.",
+      "difficulty": 4,
+      "subcategory": "Magnetostatik in Materie"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Spinwellen",
+      "question": "Which statement about spin waves in ferromagnets is correct?",
+      "choices": [
+        "A: Spin waves have no influence on the magnetic properties of materials.",
+        "B: Spin waves can be considered as collective excitations within a magnetic lattice.",
+        "C: Spin waves only occur at temperatures close to absolute zero.",
+        "D: Spin waves can only occur in non-magnetic materials."
+      ],
+      "correct_answer": "B",
+      "explanation": "Spin waves are quasiparticle-like excitations that propagate in a magnetic material and describe the collective movements of spins. They play a crucial role in solid-state physics, especially in ferromagnetic materials, where they can influence the interactions between spins.",
+      "difficulty": 7,
+      "subcategory": "Spinwellen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Hookesches Gesetz",
+      "question": "What does Hooke's Law describe?",
+      "choices": [
+        "A: The conservation of energy in a closed system.",
+        "B: The relationship between the extension of a spring and the force applied to it.",
+        "C: The motion of a body in free fall.",
+        "D: The velocity of a body in circular motion."
+      ],
+      "correct_answer": "B",
+      "explanation": "Hooke's Law states that the extension of a spring is proportional to the force applied to it, as long as the elastic limits are not exceeded. This is mathematically expressed by the formula F = k * x, where F is the force, k is the spring constant, and x is the extension.",
+      "difficulty": 3,
+      "subcategory": "Hookesches Gesetz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Zerfallskanäle schwerer Quarkonia",
+      "question": "Which decay channel is typical for heavy quarkonia like the Upsilon boson?",
+      "choices": [
+        "A: Decay into a photon and a gluon",
+        "B: Decay into a pair of light quarks",
+        "C: Decay into two photons",
+        "D: Decay into a pair of heavy quarks"
+      ],
+      "correct_answer": "C",
+      "explanation": "Heavy quarkonia like the Upsilon boson often decay into two photons. This decay channel is characteristic and plays an important role in experimental particle physics for studying quarkonium states.",
+      "difficulty": 3,
+      "subcategory": "Zerfallskanäle schwerer Quarkonia"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Dirac’scher Spinoperator",
+      "question": "What does the Dirac spin operator describe in quantum mechanics?",
+      "choices": [
+        "A: The temperature of a system in thermodynamics.",
+        "B: The motion of a particle in a classical field.",
+        "C: The energy of a particle in a non-relativistic system.",
+        "D: The spin of particles in relativistic systems."
+      ],
+      "correct_answer": "D",
+      "explanation": "The Dirac spin operator describes the spin of particles within the framework of relativistic quantum mechanics. It is a central component of the Dirac equation, which takes into account the interaction of particles with spin.",
+      "difficulty": 4,
+      "subcategory": "Dirac’scher Spinoperator"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Übergang zur Wellenmechanik (klassisch → QM)",
+      "question": "Which of the following statements correctly describes the transition from classical to quantum mechanical descriptions in analytical mechanics?",
+      "choices": [
+        "A: The transition only occurs for particles reaching relativistic speeds.",
+        "B: The transition is manifested in the uncertainty principle, which describes a fundamental limit to the accuracy of measuring position and momentum.",
+        "C: The transition occurs when the wave function completely determines the position of a particle.",
+        "D: The transition is determined by the fact that the momentum of a particle becomes uncertain."
+      ],
+      "correct_answer": "B",
+      "explanation": "The uncertainty principle is a central concept of quantum mechanics that characterizes the transition from classical to quantum mechanical descriptions. It states that the position and momentum of a particle cannot be simultaneously determined with arbitrary precision, challenging the classical deterministic approach.",
+      "difficulty": 10,
+      "subcategory": "Übergang zur Wellenmechanik (klassisch → QM)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Entropie: Definition & Extremaleigenschaft",
+      "question": "Which of the following statements correctly describes the extremal property of entropy in a closed system?",
+      "choices": [
+        "A: Entropy is independent of the number of particles in the system.",
+        "B: The entropy of a closed system remains constant if the temperature does not vary.",
+        "C: Entropy can never decrease, not even through external work.",
+        "D: The entropy of a closed system reaches its maximum in thermodynamic equilibrium."
+      ],
+      "correct_answer": "D",
+      "explanation": "In thermodynamic equilibrium, the entropy of a closed system reaches its maximum, determining the direction of spontaneous processes. This is a central concept of statistical mechanics and describes the tendency towards maximum disorder in the system.",
+      "difficulty": 10,
+      "subcategory": "Entropie: Definition & Extremaleigenschaft"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Entropie im mikrokanonischen Ensemble",
+      "question": "What does entropy describe in the microcanonical ensemble?",
+      "choices": [
+        "A: The temperature of a system independent of energy.",
+        "B: The mass of a system at constant volume.",
+        "C: The velocity of particles in an ideal gas.",
+        "D: The number of microscopic states of a system at a given energy."
+      ],
+      "correct_answer": "D",
+      "explanation": "Entropy in the microcanonical ensemble reflects the number of accessible microscopic states corresponding to a system with a defined energy. A higher value of entropy indicates greater disorder and more possible states.",
+      "difficulty": 3,
+      "subcategory": "Entropie im mikrokanonischen Ensemble"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Feldverhalten an Grenzflächen",
+      "question": "Which of the following statements correctly describes the behavior of the electric field at the interface between two dielectrics with different permittivity?",
+      "choices": [
+        "A: The electric field strength remains constant at the interface.",
+        "B: The electric field is the same in both materials.",
+        "C: The electric flux is constant at the interface.",
+        "D: The electric displacement density is continuous at the interface."
+      ],
+      "correct_answer": "D",
+      "explanation": "At the interface between two dielectrics, the electric displacement density is continuous, meaning that the flux of the displacement density through the interface does not change abruptly. The electric field strength, however, can vary due to different permittivities.",
+      "difficulty": 9,
+      "subcategory": "Feldverhalten an Grenzflächen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Fokker–Planck aus Langevin; Smoluchowski-Gleichung",
+      "question": "Which equation describes the temporal evolution of the probability density for a particle in a fluid subject to random forces?",
+      "choices": [
+        "A: Schrödinger equation",
+        "B: Navier-Stokes equation",
+        "C: Fokker-Planck equation",
+        "D: Maxwell's equations"
+      ],
+      "correct_answer": "C",
+      "explanation": "The Fokker-Planck equation describes the temporal evolution of the probability density of particles under the influence of random forces, making it particularly relevant for statistical mechanics. It is an important basis for analyzing processes in statistical physics and thermodynamics.",
+      "difficulty": 2,
+      "subcategory": "Fokker–Planck aus Langevin; Smoluchowski-Gleichung"
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "date": "2026-03-27",
+  "generated_at": "2026-03-27T04:00:19Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Magnetostatik in Materie",
+      "question": "Was beschreibt die magnetische Feldstärke H in einem ferromagnetischen Material?",
+      "choices": [
+        "A: Die magnetische Feldstärke H hat keinen Einfluss auf die magnetische Induktion B.",
+        "B: Die magnetische Feldstärke H ist unabhängig von der magnetischen Induktion B.",
+        "C: Die magnetische Feldstärke H ist immer gleich null.",
+        "D: Die magnetische Induktion B ist proportional zur magnetischen Feldstärke H."
+      ],
+      "correct_answer": "D",
+      "explanation": "In einem ferromagnetischen Material ist die magnetische Induktion B direkt proportional zur magnetischen Feldstärke H, wobei die Proportionalitätskonstante von der Materialeigenschaft abhängt. Dies ist ein grundlegendes Konzept in der Magnetostatik und beschreibt, wie Materialien auf magnetische Felder reagieren.",
+      "difficulty": 4,
+      "subcategory": "Magnetostatik in Materie"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Spinwellen",
+      "question": "Welche Aussage zu Spinwellen in Ferromagneten ist korrekt?",
+      "choices": [
+        "A: Spinwellen haben keine Einfluss auf die magnetischen Eigenschaften von Materialien.",
+        "B: Spinwellen können als kollektive Anregungen innerhalb eines magnetischen Gitters betrachtet werden.",
+        "C: Spinwellen entstehen nur bei Temperaturen nahe dem absoluten Nullpunkt.",
+        "D: Spinwellen können nur in nicht-magnetischen Materialien auftreten."
+      ],
+      "correct_answer": "B",
+      "explanation": "Spinwellen sind quasipartikelartige Anregungen, die sich in einem magnetischen Material ausbreiten und die kollektiven Bewegungen der Spins beschreiben. Sie spielen eine entscheidende Rolle in der Festkörperphysik, insbesondere in ferromagnetischen Materialien, wo sie die Wechselwirkungen zwischen den Spins beeinflussen können.",
+      "difficulty": 7,
+      "subcategory": "Spinwellen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Hookesches Gesetz",
+      "question": "Was beschreibt das Hookesche Gesetz?",
+      "choices": [
+        "A: Die Energieerhaltung in einem geschlossenen System.",
+        "B: Die Beziehung zwischen der Dehnung einer Feder und der auf sie wirkenden Kraft.",
+        "C: Die Bewegung eines Körpers im freien Fall.",
+        "D: Die Geschwindigkeit eines Körpers in einer Kreisbewegung."
+      ],
+      "correct_answer": "B",
+      "explanation": "Das Hookesche Gesetz besagt, dass die Dehnung einer Feder proportional zur auf sie wirkenden Kraft ist, solange die elastischen Grenzen nicht überschritten werden. Dies wird mathematisch durch die Formel F = k * x ausgedrückt, wobei F die Kraft, k die Federkonstante und x die Dehnung ist.",
+      "difficulty": 3,
+      "subcategory": "Hookesches Gesetz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Zerfallskanäle schwerer Quarkonia",
+      "question": "Welcher Zerfallskanal ist typisch für schwere Quarkonia wie den Upsilon-Boson?",
+      "choices": [
+        "A: Zerfall in ein Photon und ein Gluon",
+        "B: Zerfall in ein Paar leichter Quarks",
+        "C: Zerfall in zwei Photonen",
+        "D: Zerfall in ein Paar schwerer Quarks"
+      ],
+      "correct_answer": "C",
+      "explanation": "Schwere Quarkonia wie das Upsilon-Boson zerfallen häufig in zwei Photonen. Dieser Zerfallskanal ist charakteristisch und spielt eine wichtige Rolle in der experimentellen Teilchenphysik zur Untersuchung von Quarkoniumzuständen.",
+      "difficulty": 3,
+      "subcategory": "Zerfallskanäle schwerer Quarkonia"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Dirac’scher Spinoperator",
+      "question": "Was beschreibt der Dirac’sche Spinoperator in der Quantenmechanik?",
+      "choices": [
+        "A: Die Temperatur eines Systems in der Thermodynamik.",
+        "B: Die Bewegung eines Teilchens in einem klassischen Feld.",
+        "C: Die Energie eines Teilchens in einem nicht-relativistischen System.",
+        "D: Den Spin von Teilchen in relativistischen Systemen."
+      ],
+      "correct_answer": "D",
+      "explanation": "Der Dirac’sche Spinoperator beschreibt den Spin von Teilchen im Rahmen der relativistischen Quantenmechanik. Er ist ein zentraler Bestandteil der Dirac-Gleichung, die die Wechselwirkung von Teilchen mit Spin berücksichtigt.",
+      "difficulty": 4,
+      "subcategory": "Dirac’scher Spinoperator"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Übergang zur Wellenmechanik (klassisch → QM)",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt den Übergang von klassischen zu quantenmechanischen Beschreibungen in der Analytischen Mechanik?",
+      "choices": [
+        "A: Der Übergang geschieht nur für Teilchen, die relativistische Geschwindigkeiten erreichen.",
+        "B: Der Übergang manifestiert sich in der Unschärferelation, die eine fundamentale Grenze für die Messgenauigkeit von Ort und Impuls beschreibt.",
+        "C: Der Übergang erfolgt, wenn die Wellenfunktion die Position eines Teilchens vollständig bestimmt.",
+        "D: Der Übergang wird durch die Tatsache bestimmt, dass der Impuls eines Teilchens unbestimmt wird."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Unschärferelation ist ein zentrales Konzept der Quantenmechanik, das den Übergang von klassischen zu quantenmechanischen Beschreibungen charakterisiert. Sie besagt, dass Ort und Impuls eines Teilchens nicht simultan beliebig genau bestimmt werden können, was den klassischen deterministischen Ansatz infrage stellt.",
+      "difficulty": 10,
+      "subcategory": "Übergang zur Wellenmechanik (klassisch → QM)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Entropie: Definition & Extremaleigenschaft",
+      "question": "Welches der folgenden Aussagen beschreibt korrekt die extremale Eigenschaft der Entropie in einem geschlossenen System?",
+      "choices": [
+        "A: Die Entropie ist unabhängig von der Anzahl der Teilchen im System.",
+        "B: Die Entropie eines geschlossenen Systems bleibt konstant, wenn die Temperatur nicht variiert.",
+        "C: Die Entropie kann niemals abnehmen, auch nicht durch externe Arbeit.",
+        "D: Die Entropie eines geschlossenen Systems erreicht ihr Maximum im thermodynamischen Gleichgewicht."
+      ],
+      "correct_answer": "D",
+      "explanation": "Im thermodynamischen Gleichgewicht erreicht die Entropie eines geschlossenen Systems ihr Maximum, was die Richtung spontaner Prozesse bestimmt. Dies ist ein zentrales Konzept der statistischen Mechanik und beschreibt das Streben nach maximaler Unordnung im System.",
+      "difficulty": 10,
+      "subcategory": "Entropie: Definition & Extremaleigenschaft"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Entropie im mikrokanonischen Ensemble",
+      "question": "Was beschreibt die Entropie im mikrokanonischen Ensemble?",
+      "choices": [
+        "A: Die Temperatur eines Systems unabhängig von der Energie.",
+        "B: Die Masse eines Systems bei konstantem Volumen.",
+        "C: Die Geschwindigkeit von Teilchen in einem idealen Gas.",
+        "D: Die Anzahl der mikroskopischen Zustände eines Systems bei gegebener Energie."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Entropie im mikrokanonischen Ensemble spiegelt die Anzahl der zugänglichen mikroskopischen Zustände wider, die einem System mit definierter Energie entsprechen. Ein höherer Wert der Entropie deutet auf eine größere Unordnung und mehr mögliche Zustände hin.",
+      "difficulty": 3,
+      "subcategory": "Entropie im mikrokanonischen Ensemble"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Feldverhalten an Grenzflächen",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt das Verhalten des elektrischen Feldes an der Grenzfläche zwischen zwei Dielektrika mit unterschiedlicher Permittivität?",
+      "choices": [
+        "A: Die elektrische Feldstärke bleibt an der Grenzfläche konstant.",
+        "B: Das elektrische Feld ist in beiden Materialien gleich groß.",
+        "C: Der elektrische Fluss ist an der Grenzfläche konstant.",
+        "D: Die elektrische Verschiebungsdichte ist an der Grenzfläche kontinuierlich."
+      ],
+      "correct_answer": "D",
+      "explanation": "An der Grenzfläche zwischen zwei Dielektrika ist die elektrische Verschiebungsdichte kontinuierlich, was bedeutet, dass der Fluss der Verschiebungsdichte durch die Grenzfläche nicht abrupt ändert. Die elektrische Feldstärke hingegen kann aufgrund unterschiedlicher Permittivitäten variieren.",
+      "difficulty": 9,
+      "subcategory": "Feldverhalten an Grenzflächen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Fokker–Planck aus Langevin; Smoluchowski-Gleichung",
+      "question": "Welche Gleichung beschreibt die zeitliche Entwicklung der Wahrscheinlichkeitsdichte für ein Teilchen in einem Fluid, das unter dem Einfluss von zufälligen Kräften steht?",
+      "choices": [
+        "A: Schrödinger-Gleichung",
+        "B: Navier-Stokes-Gleichung",
+        "C: Fokker-Planck-Gleichung",
+        "D: Maxwell-Gleichung"
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Fokker-Planck-Gleichung beschreibt die zeitliche Entwicklung der Wahrscheinlichkeitsdichte von Teilchen unter dem Einfluss zufälliger Kräfte, was sie besonders relevant für die statistische Mechanik macht. Sie ist eine wichtige Grundlage für die Analyse von Prozessen in der statistischen Physik und der Wärmelehre.",
+      "difficulty": 2,
+      "subcategory": "Fokker–Planck aus Langevin; Smoluchowski-Gleichung"
+    }
+  ]
+}
