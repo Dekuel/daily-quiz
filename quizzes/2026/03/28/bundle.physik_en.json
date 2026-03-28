@@ -1,0 +1,168 @@
+{
+  "date": "2026-03-28",
+  "generated_at": "2026-03-28T03:51:40Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Gauß’scher Satz",
+      "question": "What does Gauss's theorem describe in electrodynamics?",
+      "choices": [
+        "A: The interaction between magnetic and electric fields.",
+        "B: The conservation of energy in electrical circuits.",
+        "C: The motion of electric charges in an electric field.",
+        "D: The relationship between electric flux and enclosed charge."
+      ],
+      "correct_answer": "D",
+      "explanation": "Gauss's theorem states that the electric flux through a closed surface is proportional to the total charge enclosed within that surface. This is a fundamental relationship in electrodynamics and aids in the calculation of electric fields and fluxes.",
+      "difficulty": 4,
+      "subcategory": "Gauß’scher Satz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Strahlungsphysikalische Größen",
+      "question": "Which quantity describes the energy carried by a light beam per unit area?",
+      "choices": [
+        "A: Intensity",
+        "B: Frequency",
+        "C: Amplitude",
+        "D: Wavelength"
+      ],
+      "correct_answer": "A",
+      "explanation": "The intensity of a light beam is defined as the energy transferred per unit time and per unit area. It is an important parameter in radiation physics and influences how light is reflected or absorbed by surfaces.",
+      "difficulty": 5,
+      "subcategory": "Strahlungsphysikalische Größen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Interferenz & Beugung elektromagnetischer Wellen",
+      "question": "What describes the phenomenon of interference of electromagnetic waves?",
+      "choices": [
+        "A: The reflection of a wave on a surface.",
+        "B: The deflection of waves by an obstacle.",
+        "C: The division of a wave into two separate waves.",
+        "D: The superposition of waves leading to a reinforced or weakened signal."
+      ],
+      "correct_answer": "D",
+      "explanation": "Interference occurs when two or more waves meet and overlap. This superposition can lead to reinforced (constructive interference) or weakened (destructive interference) signals.",
+      "difficulty": 5,
+      "subcategory": "Interferenz & Beugung elektromagnetischer Wellen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Der Laser (Prinzip & Anwendungen)",
+      "question": "Which principle mainly describes the operation of a laser?",
+      "choices": [
+        "A: Stimulated Emission",
+        "B: Refraction of light",
+        "C: Reflection of light",
+        "D: Interference of light"
+      ],
+      "correct_answer": "A",
+      "explanation": "The operation of a laser is based on the principle of stimulated emission, where light is amplified by excited atoms. Unlike other optical phenomena such as refraction, reflection, or interference, stimulated emission is key to generating coherent light beams.",
+      "difficulty": 7,
+      "subcategory": "Der Laser (Prinzip & Anwendungen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Auflösungsvermögen optischer Geräte",
+      "question": "Which factor most influences the resolving power of a telescope?",
+      "choices": [
+        "A: The aperture of the telescope",
+        "B: The focal length of the telescope",
+        "C: The quality of the lens used",
+        "D: The type of eyepiece used"
+      ],
+      "correct_answer": "A",
+      "explanation": "The resolving power of a telescope depends significantly on the aperture, as a larger opening collects more light and can resolve finer details. A larger aperture thus leads to better resolving power, allowing clearer visibility of fainter and more distant objects.",
+      "difficulty": 7,
+      "subcategory": "Auflösungsvermögen optischer Geräte"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Magnetisches Moment & Drehimpuls",
+      "question": "Which of the following particles possesses a magnetic moment due to its spin?",
+      "choices": [
+        "A: Alpha particles",
+        "B: Electron",
+        "C: Proton",
+        "D: Neutron"
+      ],
+      "correct_answer": "B",
+      "explanation": "The electron possesses an intrinsic magnetic moment associated with its spin. Neutrons and alpha particles do not have a magnetic moment, while protons have a magnetic moment not based on their spin but on their composition of quarks.",
+      "difficulty": 4,
+      "subcategory": "Magnetisches Moment & Drehimpuls"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Mischungsentropie",
+      "question": "What happens to entropy when two different gases are mixed together?",
+      "choices": [
+        "A: Entropy remains the same.",
+        "B: Entropy cannot be determined.",
+        "C: Entropy decreases.",
+        "D: Entropy increases."
+      ],
+      "correct_answer": "D",
+      "explanation": "When two different gases are mixed, the entropy of the system increases as the particles can now occupy more possible arrangements and states. Entropy is a measure of disorder and the number of microstates of a system, which increases through mixing.",
+      "difficulty": 1,
+      "subcategory": "Mischungsentropie"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Herleitung der Boltzmann-Gleichung",
+      "question": "Which assumption is fundamental for deriving the Boltzmann equation?",
+      "choices": [
+        "A: Particles move in a constant electromagnetic field.",
+        "B: Temperature is constant and influences the speed of particles.",
+        "C: Particles interact solely through elastic collisions.",
+        "D: All particles are identical and indistinguishable."
+      ],
+      "correct_answer": "D",
+      "explanation": "The Boltzmann equation is based on the assumption that all particles are identical and indistinguishable, enabling the application of statistical methods. This assumption is crucial for describing the distribution of particles in phase space and deriving thermodynamic properties.",
+      "difficulty": 6,
+      "subcategory": "Herleitung der Boltzmann-Gleichung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Härte von Festkörpern",
+      "question": "Which of the following materials has the highest Mohs hardness and is therefore the most difficult to scratch?",
+      "choices": [
+        "A: Quartz",
+        "B: Feldspar",
+        "C: Apatite",
+        "D: Diamond"
+      ],
+      "correct_answer": "D",
+      "explanation": "Diamond is the hardest known natural material with a Mohs hardness of 10. Quartz, apatite, and feldspar have lower Mohs hardness and can be scratched by diamond.",
+      "difficulty": 7,
+      "subcategory": "Härte von Festkörpern"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Phasen von Einstoffsystemen & Clausius–Clapeyron",
+      "question": "Which statement correctly describes the Clausius-Clapeyron equation?",
+      "choices": [
+        "A: It specifies the relationship between the density and temperature of a gas.",
+        "B: It describes the relationship between pressure and temperature at the phase boundary between two states.",
+        "C: It describes the specific heat of a substance at constant pressure.",
+        "D: It describes the energy conversion in chemical reactions."
+      ],
+      "correct_answer": "B",
+      "explanation": "The Clausius-Clapeyron equation describes the relationship between pressure and temperature at the phase boundary between two states, such as between liquid and gas. This equation is crucial for understanding phase transitions in statistical mechanics.",
+      "difficulty": 5,
+      "subcategory": "Phasen von Einstoffsystemen & Clausius–Clapeyron"
+    }
+  ]
+}
