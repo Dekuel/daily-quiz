@@ -1,0 +1,168 @@
+{
+  "date": "2026-03-29",
+  "generated_at": "2026-03-29T04:02:28Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Gitterschwingungen: einatomige Basis",
+      "question": "What describes the vibration of atoms around their equilibrium position in a one-atom lattice model?",
+      "choices": [
+        "A: Electronic transitions",
+        "B: Quantum fluctuations",
+        "C: Harmonic oscillators",
+        "D: Thermal expansion"
+      ],
+      "correct_answer": "C",
+      "explanation": "In a one-atom lattice model, atoms are described by harmonic oscillators that vibrate around their equilibrium position. This assumption simplifies the analysis of lattice vibrations and their effects on the physical properties of the solid.",
+      "difficulty": 3,
+      "subcategory": "Gitterschwingungen: einatomige Basis"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Arbeit in der Thermodynamik (p dV, generalisiert)",
+      "question": "What describes the work done in an isobaric process?",
+      "choices": [
+        "A: The work depends only on the change in temperature.",
+        "B: The work is only considered for solid substances.",
+        "C: The work is the product of the pressure and the change in volume.",
+        "D: The work is independent of the system's pressure."
+      ],
+      "correct_answer": "C",
+      "explanation": "In an isobaric process, the pressure remains constant. The work done is described by the product of this constant pressure and the change in volume (W = p * ΔV).",
+      "difficulty": 4,
+      "subcategory": "Arbeit in der Thermodynamik (p dV, generalisiert)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Lichttechnische Größen",
+      "question": "Which unit is used to measure luminous intensity?",
+      "choices": [
+        "A: Lumens",
+        "B: Lux",
+        "C: Watts",
+        "D: Candela"
+      ],
+      "correct_answer": "D",
+      "explanation": "Luminous intensity is measured in Candela (cd), which indicates the intensity of light emitted in a particular direction. Lumens measure the total luminous flux, while lux describes illuminance, i.e., the luminous flux per unit area.",
+      "difficulty": 6,
+      "subcategory": "Lichttechnische Größen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Versagen des Rutherford-Modells",
+      "question": "Why can't the Rutherford model explain the stability of atoms?",
+      "choices": [
+        "A: It does not describe the interactions between protons correctly.",
+        "B: It does not consider the quantum mechanical properties of electrons.",
+        "C: It assumes that electrons orbit the atomic nucleus in fixed paths.",
+        "D: It neglects the existence of neutrons in the atomic nucleus."
+      ],
+      "correct_answer": "B",
+      "explanation": "The Rutherford model assumes that electrons orbit the nucleus like planets, leading to an unstable atomic structure. Quantum mechanics, however, shows that electrons occupy defined orbitals, explaining the stability of atoms.",
+      "difficulty": 4,
+      "subcategory": "Versagen des Rutherford-Modells"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "α‑Zerfall",
+      "question": "What is the characteristic product of an α-decay?",
+      "choices": [
+        "A: A helium nucleus (He-4)",
+        "B: A neutron",
+        "C: A β-particle",
+        "D: A proton"
+      ],
+      "correct_answer": "A",
+      "explanation": "In α-decay, a helium nucleus (He-4) is emitted, meaning two protons and two neutrons are expelled from the original atomic nucleus. This results in a reduction of the nuclear charge by two units and the mass number by four units.",
+      "difficulty": 8,
+      "subcategory": "α‑Zerfall"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Joule–Thomson-Prozess (Inversionstemp.)",
+      "question": "What does the inversion temperature describe in the Joule-Thomson process?",
+      "choices": [
+        "A: The temperature at which an ideal gas always cools upon expansion.",
+        "B: The temperature at which a gas undergoing adiabatic expansion experiences no temperature loss.",
+        "C: The temperature at which a real gas, when cooling, transitions to a state where it heats up.",
+        "D: The temperature at which the specific heat capacity of a gas is maximum."
+      ],
+      "correct_answer": "C",
+      "explanation": "The inversion temperature is the point at which a real gas transitions from cooling to heating during the Joule-Thomson process. Below this temperature, the gas cools upon expansion, while above it, the gas heats up.",
+      "difficulty": 6,
+      "subcategory": "Joule–Thomson-Prozess (Inversionstemp.)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Zustandsdichte im Magnetfeld",
+      "question": "What does the density of states in a magnetic field describe in solid-state physics?",
+      "choices": [
+        "A: The color of a solid.",
+        "B: The number of states per unit energy.",
+        "C: The electrical conductivity of a substance.",
+        "D: The temperature of a material."
+      ],
+      "correct_answer": "B",
+      "explanation": "The density of states describes how many quantum mechanical states exist within a specific energy range. In a magnetic field, it can be influenced, which is significant for the properties of materials.",
+      "difficulty": 2,
+      "subcategory": "Zustandsdichte im Magnetfeld"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Versagen des Rutherford-Modells",
+      "question": "Which phenomenon could the Rutherford model not explain?",
+      "choices": [
+        "A: The existence of electrons",
+        "B: The stability issue of atoms",
+        "C: The mass of the nucleus",
+        "D: The charge of the neutron"
+      ],
+      "correct_answer": "B",
+      "explanation": "The Rutherford model describes atoms as small, dense cores surrounded by electrons but does not explain why atoms are stable. This was clarified by quantum mechanics, particularly by the Bohr model, which introduced quantized orbits for electrons.",
+      "difficulty": 3,
+      "subcategory": "Versagen des Rutherford-Modells"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Formale Streutheorie: Lippmann–Schwinger-Gleichung",
+      "question": "What does the Lippmann–Schwinger equation describe in quantum mechanics?",
+      "choices": [
+        "A: The relationship between the initial and perturbed state of a quantum system.",
+        "B: The velocity of a freely falling body.",
+        "C: The conservation of energy in mechanical systems.",
+        "D: The temperature of an ideal gas in a closed container."
+      ],
+      "correct_answer": "A",
+      "explanation": "The Lippmann–Schwinger equation is a central part of formal scattering theory, describing how a quantum system transitions from an initial state to a perturbed state. It is used to calculate scattering amplitudes and is fundamental for analyzing interactions in quantum mechanics.",
+      "difficulty": 2,
+      "subcategory": "Formale Streutheorie: Lippmann–Schwinger-Gleichung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Einfache Anwendungen der Lagrange-Gleichungen",
+      "question": "What condition must be met for the Lagrange equations to be applicable to a system of particles?",
+      "choices": [
+        "A: The velocity of the particles must be equal.",
+        "B: The forces in the system must be conservative.",
+        "C: The mass of the particles must be constant.",
+        "D: There must be no friction in the system."
+      ],
+      "correct_answer": "B",
+      "explanation": "The Lagrange equations are particularly useful for systems where forces are conservative, as they are based on the principle of virtual work. The assumption of conservative forces allows the use of energy conservation and other fundamental principles to describe the motion of the system.",
+      "difficulty": 7,
+      "subcategory": "Einfache Anwendungen der Lagrange-Gleichungen"
+    }
+  ]
+}

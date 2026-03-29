@@ -1,0 +1,169 @@
+{
+  "date": "2026-03-29",
+  "generated_at": "2026-03-29T04:01:52Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Gitterschwingungen: einatomige Basis",
+      "question": "Was beschreibt in einem einatomigen Gittermodell die Schwingung der Atome um ihre Gleichgewichtslage?",
+      "choices": [
+        "A: Elektronische Übergänge",
+        "B: Quantenfluktuationen",
+        "C: Harmonische Oszillatoren",
+        "D: Thermische Ausdehnung"
+      ],
+      "correct_answer": "C",
+      "explanation": "In einem einatomigen Gittermodell werden die Atome durch harmonische Oszillatoren beschrieben, die um ihre Gleichgewichtslage schwingen. Diese Annahme vereinfacht die Analyse von Gitterschwingungen und deren Auswirkungen auf die physikalischen Eigenschaften des Festkörpers.",
+      "difficulty": 3,
+      "subcategory": "Gitterschwingungen: einatomige Basis"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Arbeit in der Thermodynamik (p dV, generalisiert)",
+      "question": "Was beschreibt die Arbeit, die bei einem isobaren Prozess verrichtet wird?",
+      "choices": [
+        "A: Die Arbeit hängt nur von der Temperaturänderung ab.",
+        "B: Die Arbeit wird nur bei festen Stoffen betrachtet.",
+        "C: Die Arbeit ist das Produkt aus dem Druck und der Änderung des Volumens.",
+        "D: Die Arbeit ist unabhängig vom Druck des Systems."
+      ],
+      "correct_answer": "C",
+      "explanation": "Bei einem isobaren Prozess bleibt der Druck konstant. Die Arbeit, die verrichtet wird, wird durch das Produkt aus diesem konstanten Druck und der Änderung des Volumens beschrieben (W = p * ΔV).",
+      "difficulty": 4,
+      "subcategory": "Arbeit in der Thermodynamik (p dV, generalisiert)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Lichttechnische Größen",
+      "question": "Welche Einheit wird verwendet, um die Lichtstärke zu messen?",
+      "choices": [
+        "A: Lumen",
+        "B: Lux",
+        "C: Watt",
+        "D: Candela"
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Lichtstärke wird in Candela (cd) gemessen, was die Intensität des Lichtes angibt, das in eine bestimmte Richtung ausgestrahlt wird. Lumen misst den gesamten Lichtstrom, während Lux die Beleuchtungsstärke beschreibt, also den Lichtstrom pro Fläche.",
+      "difficulty": 6,
+      "subcategory": "Lichttechnische Größen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Versagen des Rutherford-Modells",
+      "question": "Warum kann das Rutherford-Modell die Stabilität von Atomen nicht erklären?",
+      "choices": [
+        "A: Es beschreibt die Wechselwirkungen zwischen Protonen nicht richtig.",
+        "B: Es berücksichtigt nicht die quantenmechanischen Eigenschaften von Elektronen.",
+        "C: Es nimmt an, dass Elektronen in festen Bahnen um den Atomkern kreisen.",
+        "D: Es vernachlässigt die Existenz von Neutronen im Atomkern."
+      ],
+      "correct_answer": "B",
+      "explanation": "Das Rutherford-Modell geht davon aus, dass Elektronen wie Planeten um den Kern kreisen, was zu einer instabilen Atomstruktur führen würde. Die Quantenmechanik zeigt jedoch, dass Elektronen sich in definierten Orbitalen aufhalten, wodurch die Stabilität der Atome erklärt werden kann.",
+      "difficulty": 4,
+      "subcategory": "Versagen des Rutherford-Modells"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "α‑Zerfall",
+      "question": "Was ist das charakteristische Produkt eines α-Zerfalls?",
+      "choices": [
+        "A: Ein Heliumkern (He-4)",
+        "B: Ein Neutron",
+        "C: Ein β-Teilchen",
+        "D: Ein Proton"
+      ],
+      "correct_answer": "A",
+      "explanation": "Beim α-Zerfall wird ein Heliumkern (He-4) emittiert, was bedeutet, dass zwei Protonen und zwei Neutronen aus dem ursprünglichen Atomkern ausgesendet werden. Dies führt zu einer Reduktion der Kernladung um zwei Einheiten und der Massenzahl um vier Einheiten.",
+      "difficulty": 8,
+      "subcategory": "α‑Zerfall"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Joule–Thomson-Prozess (Inversionstemp.)",
+      "question": "Was beschreibt die Inversionstemperatur im Joule-Thomson-Prozess?",
+      "choices": [
+        "A: Die Temperatur, bei der ein ideales Gas bei Expansion immer kühlt.",
+        "B: Die Temperatur, bei der ein Gas bei adiabatischer Expansion keinen Temperaturverlust erfährt.",
+        "C: Die Temperatur, bei der ein reales Gas beim Abkühlen in einen Zustand übergeht, in dem es sich aufheizt.",
+        "D: Die Temperatur, bei der die spezifische Wärmekapazität eines Gases maximal ist."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Inversionstemperatur ist der Punkt, an dem ein reales Gas beim Joule-Thomson-Prozess von einer Abkühlung zu einer Erwärmung wechselt. Unterhalb dieser Temperatur kühlt das Gas bei Expansion, während es darüber sich erwärmt.",
+      "difficulty": 6,
+      "subcategory": "Joule–Thomson-Prozess (Inversionstemp.)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Zustandsdichte im Magnetfeld",
+      "question": "Was beschreibt die Zustandsdichte in einem Magnetfeld in der Festkörperphysik?",
+      "choices": [
+        "A: Die Farbe eines Festkörpers.",
+        "B: Die Anzahl der Zustände pro Energieeinheit.",
+        "C: Die elektrische Leitfähigkeit eines Stoffes.",
+        "D: Die Temperatur eines Materials."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Zustandsdichte beschreibt, wie viele quantenmechanische Zustände in einem bestimmten Energiebereich vorhanden sind. Im Magnetfeld kann sie beeinflusst werden, was für die Eigenschaften von Materialien von Bedeutung ist.",
+      "difficulty": 2,
+      "subcategory": "Zustandsdichte im Magnetfeld"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Versagen des Rutherford-Modells",
+      "question": "Welches Phänomen konnte das Rutherford-Modell nicht erklären?",
+      "choices": [
+        "A: Die Existenz von Elektronen",
+        "B: Das Stabilitätsproblem von Atomen",
+        "C: Die Masse des Kerns",
+        "D: Die Ladung des Neutrons"
+      ],
+      "correct_answer": "B",
+      "explanation": "Das Rutherford-Modell beschreibt Atome als kleine, dichte Kerne, umgeben von Elektronen, erklärt jedoch nicht, warum Atome stabil sind. Dies wurde erst durch die Quantenmechanik, insbesondere durch das Bohr-Modell, klarer, das quantisierte Bahnen für Elektronen einführte.",
+      "difficulty": 3,
+      "subcategory": "Versagen des Rutherford-Modells"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Formale Streutheorie: Lippmann–Schwinger-Gleichung",
+      "question": "Was beschreibt die Lippmann–Schwinger-Gleichung in der Quantenmechanik?",
+      "choices": [
+        "A: Die Beziehung zwischen dem ursprünglichen und dem gestörten Zustand eines Quantensystems.",
+        "B: Die Geschwindigkeit eines frei fallenden Körpers.",
+        "C: Die Energieerhaltung in mechanischen Systemen.",
+        "D: Die Temperatur eines idealen Gases in einem geschlossenen Behälter."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Lippmann–Schwinger-Gleichung ist ein zentraler Bestandteil der formalen Streutheorie und beschreibt, wie ein Quantensystem von einem ursprünglichen Zustand in einen gestörten Zustand übergeht. Sie wird verwendet, um Streuamplituden zu berechnen und ist fundamental für die Analyse von Wechselwirkungen in der Quantenmechanik.",
+      "difficulty": 2,
+      "subcategory": "Formale Streutheorie: Lippmann–Schwinger-Gleichung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Einfache Anwendungen der Lagrange-Gleichungen",
+      "question": "Welche Bedingung muss erfüllt sein, damit die Lagrange-Gleichungen für ein System von Teilchen anwendbar sind?",
+      "choices": [
+        "A: Die Geschwindigkeit der Teilchen muss gleich sein.",
+        "B: Die Kräfte im System müssen konservativ sein.",
+        "C: Die Masse der Teilchen muss konstant sein.",
+        "D: Es darf keine Reibung im System vorhanden sein."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Lagrange-Gleichungen sind besonders nützlich für Systeme, in denen die Kräfte konservativ sind, da sie auf dem Prinzip der virtuellen Arbeit basieren. Die Annahme konservativer Kräfte erlaubt es, Energieerhaltung und andere fundamentale Prinzipien zu nutzen, um die Bewegung des Systems zu beschreiben.",
+      "difficulty": 7,
+      "subcategory": "Einfache Anwendungen der Lagrange-Gleichungen"
+    }
+  ]
+}
