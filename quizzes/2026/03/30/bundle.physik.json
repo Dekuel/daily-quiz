@@ -1,0 +1,169 @@
+{
+  "date": "2026-03-30",
+  "generated_at": "2026-03-30T04:05:51Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Konstituentenquark‑Modell: Validität",
+      "question": "Welches der folgenden Experimente stellte die Validität des Konstituentenquark-Modells besonders in Frage?",
+      "choices": [
+        "A: Deep Inelastic Scattering Experimente",
+        "B: Photoelektrischer Effekt",
+        "C: Rutherford-Streuexperiment",
+        "D: Doppelspalt-Experiment"
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Deep Inelastic Scattering Experimente zeigten, dass Protonen und Neutronen eine substrukturale Komplexität aufweisen, die das einfache Quark-Modell in Frage stellte. Insbesondere wurde die Existenz von Quarks als isolierte Entitäten herausgefordert, was zu einer Überarbeitung der Quarktheorie führte.",
+      "difficulty": 9,
+      "subcategory": "Konstituentenquark‑Modell: Validität"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Van-der-Waals-Gas (Korrekturen)",
+      "question": "Was ist eine der Hauptanpassungen im Van-der-Waals-Gesetz im Vergleich zum idealen Gasgesetz?",
+      "choices": [
+        "A: Vernachlässigung der intermolekularen Kräfte.",
+        "B: Verwendung eines festen Drucks.",
+        "C: Berücksichtigung des Volumens der Gasteilchen.",
+        "D: Annahme einer konstanten Temperatur."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Van-der-Waals-Gesetz berücksichtigt das Volumen der Gasteilchen, was im idealen Gasgesetz nicht der Fall ist. Diese Korrektur ist wichtig, um das Verhalten realer Gase bei hohen Drücken und niedrigen Temperaturen besser zu beschreiben.",
+      "difficulty": 3,
+      "subcategory": "Van-der-Waals-Gas (Korrekturen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Kritisches Magnetfeld & thermodynamische Größen",
+      "question": "Was beschreibt das kritische Magnetfeld in einem Supraleiter?",
+      "choices": [
+        "A: Die maximale Temperatur, die ein supraleitendes Material erreichen kann, ohne seine Eigenschaften zu verlieren.",
+        "B: Die minimale Elektronendichte, die für Supraleitung erforderlich ist.",
+        "C: Die maximale Magnetfeldstärke, bei der der Supraleiter supraleitend bleibt.",
+        "D: Die Temperatur, bei der der Supraleiter den Übergang von normaler zu supraleitender Phase vollzieht."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das kritische Magnetfeld ist die Grenze, bis zu der ein Supraleiter seine supraleitenden Eigenschaften behält. Wird dieses Magnetfeld überschritten, verliert das Material seine Supraleitfähigkeit und wird wieder normal leitend.",
+      "difficulty": 5,
+      "subcategory": "Kritisches Magnetfeld & thermodynamische Größen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Stark gebundene Elektronen (tight-binding)",
+      "question": "Was beschreibt das Tight-Binding-Modell in der Festkörperphysik?",
+      "choices": [
+        "A: Die Bewegung von Elektronen in einem festen Gitter mit starken Bindungen.",
+        "B: Die Gravitationskräfte zwischen Festkörpern in einem Raum.",
+        "C: Die Wechselwirkungen zwischen Molekülen in einem Flüssigkeitszustand.",
+        "D: Die Strahlungsemission von Atomen bei hohen Temperaturen."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Tight-Binding-Modell beschreibt die elektronische Struktur von Festkörpern, in denen Elektronen stark an die Atomgitter gebunden sind. Es hilft zu verstehen, wie Elektronen sich in einem festen Material verhalten und wie dies die elektrischen Eigenschaften beeinflusst.",
+      "difficulty": 5,
+      "subcategory": "Stark gebundene Elektronen (tight-binding)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Phononen in Festkörpern: harmonischer Hamilton-Operator",
+      "question": "Was beschreibt der harmonische Hamilton-Operator in Bezug auf Phononen in Festkörpern?",
+      "choices": [
+        "A: Die chemischen Reaktionen zwischen Molekülen.",
+        "B: Die Magnetfelder in einem Festkörper.",
+        "C: Die Elektronenkonfiguration in Atomen.",
+        "D: Die Schwingungen der Atome um ihre Gleichgewichtslage."
+      ],
+      "correct_answer": "D",
+      "explanation": "Der harmonische Hamilton-Operator beschreibt die dynamische Bewegung von Atomen in einem Gitter durch harmonische Schwingungen um ihre Gleichgewichtslage, was direkt mit der Entstehung von Phononen verbunden ist. Phononen sind quantisierte Schwingungen, die in Festkörpern auftreten und für viele thermodynamische Eigenschaften verantwortlich sind.",
+      "difficulty": 1,
+      "subcategory": "Phononen in Festkörpern: harmonischer Hamilton-Operator"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Tiefinelastische Neutrinostreuung",
+      "question": "Was ist das Hauptziel der tiefinelastischen Neutrinostreuung in Experimenten der Teilchenphysik?",
+      "choices": [
+        "A: Die Untersuchung der Struktur von Nukleonen",
+        "B: Die Bestimmung der Masse von Neutrinos",
+        "C: Die Messung der Lichtgeschwindigkeit",
+        "D: Die Analyse von radioaktiven Zerfällen"
+      ],
+      "correct_answer": "A",
+      "explanation": "Die tiefinelastische Neutrinostreuung wird verwendet, um Informationen über die innere Struktur von Nukleonen (Protonen und Neutronen) zu gewinnen. Dabei interagieren Neutrinos mit den Quarks in den Nukleonen, was Aufschluss über deren Eigenschaften gibt.",
+      "difficulty": 3,
+      "subcategory": "Tiefinelastische Neutrinostreuung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Eigenzeit und Weltgeschwindigkeit",
+      "question": "Was beschreibt der Begriff 'Eigenzeit' in der Relativitätstheorie?",
+      "choices": [
+        "A: Die Zeit, die unabhängig von der Bewegung eines Objekts vergeht.",
+        "B: Die Zeit, die ein Objekt in seinem eigenen Ruhesystem misst.",
+        "C: Die Zeit, die relativ zu einem anderen Beobachter vergeht.",
+        "D: Die Zeitdilatation, die bei Geschwindigkeiten nahe der Lichtgeschwindigkeit auftritt."
+      ],
+      "correct_answer": "B",
+      "explanation": "Eigenzeit ist die Zeit, die ein Beobachter in seinem eigenen Bezugssystem misst, wenn er sich nicht relativ zu anderen bewegt. Diese Zeit ist für alle Beschleunigungen und Bewegungen eines Objekts konstant, während die Zeit für andere Beobachter unterschiedlich erscheinen kann.",
+      "difficulty": 5,
+      "subcategory": "Eigenzeit und Weltgeschwindigkeit"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Brillouin-Zone",
+      "question": "Was beschreibt die Brillouin-Zone in der Festkörperphysik?",
+      "choices": [
+        "A: Die geometrische Struktur eines Kristalls.",
+        "B: Den Raum, in dem sich Elektronen in einem Atom bewegen.",
+        "C: Die Temperaturabhängigkeit von Materialien.",
+        "D: Die energetischen Bandlücken in einem Festkörper."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Brillouin-Zone ist ein Konzept in der Festkörperphysik, das die energetischen Bandlücken eines Kristalls beschreibt. Sie ist ein wichtiger Bereich im künftigen Verständnis der elektronischen Eigenschaften von Materialien und hilft, das Verhalten von Elektronen in einem Kristallgitter zu analysieren.",
+      "difficulty": 4,
+      "subcategory": "Brillouin-Zone"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Makroskopische Feldgrößen (B, H, M)",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt die Beziehung zwischen dem magnetischen Flussdichtevektor B und dem magnetischen Feldstärkevektor H in einem isotropen, linearen Medium?",
+      "choices": [
+        "A: B = μ₀ H + M",
+        "B: B = ε₀ H",
+        "C: B = H/μ₀",
+        "D: B = μ₀ H"
+      ],
+      "correct_answer": "A",
+      "explanation": "In einem isotropen, linearen Medium ist die Beziehung zwischen den Vektoren B und H durch die Gleichung B = μ₀ H + M gegeben, wobei M die Magnetisierung ist und μ₀ die Permeabilität des Vakuums darstellt. Diese Gleichung zeigt, dass die magnetische Flussdichte B sowohl von der magnetischen Feldstärke H als auch von der Magnetisierung M abhängt.",
+      "difficulty": 8,
+      "subcategory": "Makroskopische Feldgrößen (B, H, M)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Reibung: Gleitreibung",
+      "question": "Was beschreibt die Gleitreibung zwischen zwei Oberflächen?",
+      "choices": [
+        "A: Die Kraft, die dem Bewegung entgegenwirkt, wenn ein Objekt über eine Oberfläche gleitet.",
+        "B: Die Energie, die benötigt wird, um ein Objekt zu beschleunigen.",
+        "C: Die Kraft, die ein Objekt in Bewegung hält ohne Reibung.",
+        "D: Die Geschwindigkeit eines Objekts, das sich auf einer geneigten Ebene bewegt."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Gleitreibung ist die Kraft, die der Bewegung eines Körpers entgegenwirkt, wenn dieser über eine Oberfläche gleitet. Sie hängt von den Materialien der Oberflächen und der Normalkraft ab, die auf sie wirkt.",
+      "difficulty": 3,
+      "subcategory": "Reibung: Gleitreibung"
+    }
+  ]
+}

@@ -1596,6 +1596,20 @@
       "correct_answer": "C",
       "explanation": "Android is an operating system developed by Google and is the most widely used OS for smartphones globally. Unlike iOS, it is an open-source operating system utilized by many manufacturers.",
       "difficulty": 5
+    },
+    {
+      "category": "Technologie",
+      "topic": "Computer & Internet",
+      "question": "Which protocol is primarily used for secure data transmission over the internet?",
+      "choices": [
+        "A: HTTP/2",
+        "B: FTP",
+        "C: HTTPS",
+        "D: Telnet"
+      ],
+      "correct_answer": "C",
+      "explanation": "HTTPS (Hypertext Transfer Protocol Secure) is an extension of HTTP and uses SSL/TLS to encrypt data transmission. This ensures a secure browsing experience, while FTP is primarily used for file transfers and Telnet for insecure terminal connections.",
+      "difficulty": 10
     }
   ]
 }

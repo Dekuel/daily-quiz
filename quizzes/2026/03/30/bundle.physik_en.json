@@ -1,0 +1,168 @@
+{
+  "date": "2026-03-30",
+  "generated_at": "2026-03-30T04:06:34Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Konstituentenquark‑Modell: Validität",
+      "question": "Which of the following experiments particularly questioned the validity of the constituent quark model?",
+      "choices": [
+        "A: Deep Inelastic Scattering experiments",
+        "B: Photoelectric effect",
+        "C: Rutherford scattering experiment",
+        "D: Double-slit experiment"
+      ],
+      "correct_answer": "A",
+      "explanation": "The Deep Inelastic Scattering experiments showed that protons and neutrons exhibit a substructural complexity that challenged the simple quark model. In particular, the existence of quarks as isolated entities was challenged, leading to a revision of the quark theory.",
+      "difficulty": 9,
+      "subcategory": "Konstituentenquark‑Modell: Validität"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Van-der-Waals-Gas (Korrekturen)",
+      "question": "What is one of the main adjustments in the Van der Waals equation compared to the ideal gas law?",
+      "choices": [
+        "A: Neglect of intermolecular forces.",
+        "B: Use of a fixed pressure.",
+        "C: Consideration of the volume of gas particles.",
+        "D: Assumption of a constant temperature."
+      ],
+      "correct_answer": "C",
+      "explanation": "The Van der Waals equation takes into account the volume of gas particles, which is not the case in the ideal gas law. This correction is important to better describe the behavior of real gases at high pressures and low temperatures.",
+      "difficulty": 3,
+      "subcategory": "Van-der-Waals-Gas (Korrekturen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Kritisches Magnetfeld & thermodynamische Größen",
+      "question": "What does the critical magnetic field describe in a superconductor?",
+      "choices": [
+        "A: The maximum temperature a superconducting material can reach without losing its properties.",
+        "B: The minimum electron density required for superconductivity.",
+        "C: The maximum magnetic field strength at which the superconductor remains superconducting.",
+        "D: The temperature at which the superconductor undergoes the transition from normal to superconducting phase."
+      ],
+      "correct_answer": "C",
+      "explanation": "The critical magnetic field is the limit up to which a superconductor maintains its superconducting properties. If this magnetic field is exceeded, the material loses its superconductivity and becomes normal conducting again.",
+      "difficulty": 5,
+      "subcategory": "Kritisches Magnetfeld & thermodynamische Größen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Stark gebundene Elektronen (tight-binding)",
+      "question": "What does the Tight-Binding model describe in solid-state physics?",
+      "choices": [
+        "A: The motion of electrons in a solid lattice with strong bonds.",
+        "B: The gravitational forces between solids in a space.",
+        "C: The interactions between molecules in a liquid state.",
+        "D: The radiation emission of atoms at high temperatures."
+      ],
+      "correct_answer": "A",
+      "explanation": "The Tight-Binding model describes the electronic structure of solids where electrons are strongly bound to the atomic lattices. It helps to understand how electrons behave in a solid material and how this influences the electrical properties.",
+      "difficulty": 5,
+      "subcategory": "Stark gebundene Elektronen (tight-binding)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Phononen in Festkörpern: harmonischer Hamilton-Operator",
+      "question": "What does the harmonic Hamiltonian operator describe in relation to phonons in solids?",
+      "choices": [
+        "A: The chemical reactions between molecules.",
+        "B: The magnetic fields in a solid.",
+        "C: The electron configuration in atoms.",
+        "D: The vibrations of atoms around their equilibrium position."
+      ],
+      "correct_answer": "D",
+      "explanation": "The harmonic Hamiltonian operator describes the dynamic motion of atoms in a lattice through harmonic vibrations around their equilibrium position, which is directly related to the generation of phonons. Phonons are quantized vibrations that occur in solids and are responsible for many thermodynamic properties.",
+      "difficulty": 1,
+      "subcategory": "Phononen in Festkörpern: harmonischer Hamilton-Operator"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Tiefinelastische Neutrinostreuung",
+      "question": "What is the main goal of deep inelastic neutrino scattering in particle physics experiments?",
+      "choices": [
+        "A: Investigating the structure of nucleons",
+        "B: Determining the mass of neutrinos",
+        "C: Measuring the speed of light",
+        "D: Analyzing radioactive decays"
+      ],
+      "correct_answer": "A",
+      "explanation": "Deep inelastic neutrino scattering is used to gain information about the internal structure of nucleons (protons and neutrons). Neutrinos interact with the quarks in the nucleons, providing insights into their properties.",
+      "difficulty": 3,
+      "subcategory": "Tiefinelastische Neutrinostreuung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Eigenzeit und Weltgeschwindigkeit",
+      "question": "What does the term 'proper time' describe in the theory of relativity?",
+      "choices": [
+        "A: The time that passes independently of the motion of an object.",
+        "B: The time measured by an object in its own rest frame.",
+        "C: The time that passes relative to another observer.",
+        "D: The time dilation that occurs at speeds close to the speed of light."
+      ],
+      "correct_answer": "B",
+      "explanation": "Proper time is the time measured by an observer in their own reference frame when not moving relative to others. This time remains constant for all accelerations and movements of an object, while appearing different to other observers.",
+      "difficulty": 5,
+      "subcategory": "Eigenzeit und Weltgeschwindigkeit"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Brillouin-Zone",
+      "question": "What does the Brillouin zone describe in solid-state physics?",
+      "choices": [
+        "A: The geometric structure of a crystal.",
+        "B: The space in which electrons move in an atom.",
+        "C: The temperature dependence of materials.",
+        "D: The energetic band gaps in a solid."
+      ],
+      "correct_answer": "D",
+      "explanation": "The Brillouin zone is a concept in solid-state physics that describes the energetic band gaps of a crystal. It is an important area in understanding the electronic properties of materials and helps analyze the behavior of electrons in a crystal lattice.",
+      "difficulty": 4,
+      "subcategory": "Brillouin-Zone"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Makroskopische Feldgrößen (B, H, M)",
+      "question": "Which of the following statements correctly describes the relationship between the magnetic flux density vector B and the magnetic field strength vector H in an isotropic, linear medium?",
+      "choices": [
+        "A: B = μ₀ H + M",
+        "B: B = ε₀ H",
+        "C: B = H/μ₀",
+        "D: B = μ₀ H"
+      ],
+      "correct_answer": "A",
+      "explanation": "In an isotropic, linear medium, the relationship between the vectors B and H is given by the equation B = μ₀ H + M, where M is the magnetization and μ₀ is the permeability of vacuum. This equation shows that the magnetic flux density B depends on both the magnetic field strength H and the magnetization M.",
+      "difficulty": 8,
+      "subcategory": "Makroskopische Feldgrößen (B, H, M)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Reibung: Gleitreibung",
+      "question": "What does sliding friction between two surfaces describe?",
+      "choices": [
+        "A: The force that opposes motion when an object slides over a surface.",
+        "B: The energy needed to accelerate an object.",
+        "C: The force that keeps an object in motion without friction.",
+        "D: The velocity of an object moving on an inclined plane."
+      ],
+      "correct_answer": "A",
+      "explanation": "Sliding friction is the force that opposes the motion of a body when it slides over a surface. It depends on the materials of the surfaces and the normal force acting on them.",
+      "difficulty": 3,
+      "subcategory": "Reibung: Gleitreibung"
+    }
+  ]
+}
