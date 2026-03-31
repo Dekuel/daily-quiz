@@ -1,0 +1,169 @@
+{
+  "date": "2026-03-31",
+  "generated_at": "2026-03-31T04:01:16Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Feldverhalten an Grenzflächen",
+      "question": "Was passiert mit einem elektrischen Feld, wenn es auf eine Grenzfläche zwischen zwei unterschiedlichen Materialien trifft?",
+      "choices": [
+        "A: Das Feld ändert seine Richtung und teilweise Intensität.",
+        "B: Das Feld bleibt unverändert, egal welches Material es erreicht.",
+        "C: Das Feld wird immer vollständig absorbiert.",
+        "D: Das Feld wird reflektiert und nicht verändert."
+      ],
+      "correct_answer": "A",
+      "explanation": "Beim Übergang eines elektrischen Feldes an eine Grenzfläche zwischen zwei Materialien ändert sich sowohl die Richtung als auch die Intensität des Feldes. Dies geschieht aufgrund der unterschiedlichen elektrischen Eigenschaften der Materialien, was zu einer Teilreflexion und Teilbrechung des Feldes führt.",
+      "difficulty": 4,
+      "subcategory": "Feldverhalten an Grenzflächen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Isotropie des Raumes ⇒ Drehimpulserhaltung",
+      "question": "Welche Aussage beschreibt am besten die Bedeutung der Isotropie des Raumes in Bezug auf die Drehimpulserhaltung?",
+      "choices": [
+        "A: Isotropie des Raumes bedeutet, dass der Drehimpuls in allen Richtungen gleich bleibt, solange keine äußeren Drehmomente wirken.",
+        "B: Isotropie des Raumes bedeutet, dass alle Körper sich nur um ihre eigene Achse drehen können.",
+        "C: Isotropie des Raumes ist nicht relevant für die Drehimpulserhaltung, da diese nur durch die Masse bestimmt wird.",
+        "D: Isotropie des Raumes führt dazu, dass der Gesamtimpuls eines Systems immer null ist."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Isotropie des Raumes besagt, dass physikalische Gesetze in alle Richtungen gleich sind, was direkt zur Erhaltung des Drehimpulses führt, solange keine äußeren Momente auf das System wirken. Dies ist ein fundamentales Prinzip in der analytischen Mechanik.",
+      "difficulty": 6,
+      "subcategory": "Isotropie des Raumes ⇒ Drehimpulserhaltung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "de Broglie-Wellen",
+      "question": "Welche Aussage über de Broglie-Wellen ist korrekt?",
+      "choices": [
+        "A: De Broglie-Wellen sind Wellen, die mit der Geschwindigkeit des Lichts propagieren.",
+        "B: De Broglie-Wellen existieren nur für massive Teilchen und nicht für Lichtquanten.",
+        "C: Die Wellenlänge einer de Broglie-Welle ist umgekehrt proportional zur Impuls eines Teilchens.",
+        "D: De Broglie-Wellen können nur in klassischen physikalischen Systemen beobachtet werden."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die de Broglie-Wellenlänge ist tatsächlich umgekehrt proportional zum Impuls eines Teilchens, was durch die Formel λ = h/p beschrieben wird, wobei h das Plancksche Wirkungsquantum und p der Impuls ist. Diese Beziehung ist fundamental für das Verständnis der Wellen-Teilchen-Dualität in der Quantenmechanik.",
+      "difficulty": 8,
+      "subcategory": "de Broglie-Wellen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Schallwellen im Festkörper",
+      "question": "Was beschreibt die Schallgeschwindigkeit in einem Festkörper am besten?",
+      "choices": [
+        "A: Sie wird ausschließlich durch die Temperatur bestimmt.",
+        "B: Sie hängt von der Dichte und der Elastizität des Materials ab.",
+        "C: Sie ist höher in Gasen als in Festkörpern.",
+        "D: Sie ist immer gleich, unabhängig vom Material."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Schallgeschwindigkeit in einem Festkörper wird hauptsächlich durch die Dichte und die elastischen Eigenschaften des Materials beeinflusst. Je elastischer und dichter ein Material ist, desto schneller breiten sich Schallwellen darin aus.",
+      "difficulty": 5,
+      "subcategory": "Schallwellen im Festkörper"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Inertialsysteme (Definition und Eigenschaften)",
+      "question": "Was beschreibt ein Inertialsystem in der Physik?",
+      "choices": [
+        "A: Ein System, in dem sich Objekte ohne äußere Kräfte gleichförmig bewegen.",
+        "B: Ein System, in dem die Schwerkraft nicht wirkt.",
+        "C: Ein System, das sich immer in einem festen Bezugssystem befindet.",
+        "D: Ein System, in dem nur beschleunigte Bewegungen auftreten."
+      ],
+      "correct_answer": "A",
+      "explanation": "Ein Inertialsystem ist ein Bezugssystem, in dem sich Objekte ohne Einwirkung äußerer Kräfte gleichförmig bewegen oder in Ruhe bleiben. Dies ist eine der grundlegenden Annahmen der klassischen Mechanik und auch der Relativitätstheorie.",
+      "difficulty": 3,
+      "subcategory": "Inertialsysteme (Definition und Eigenschaften)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Linsenfehler (Aberrationen)",
+      "question": "Was ist eine häufige Aberration, die bei Linsen auftritt und zu unscharfen Bildern führen kann?",
+      "choices": [
+        "A: geometrische Aberration",
+        "B: sphärische Aberration",
+        "C: elektrische Aberration",
+        "D: chromatische Aberration"
+      ],
+      "correct_answer": "B",
+      "explanation": "Die sphärische Aberration tritt auf, wenn Lichtstrahlen, die durch die Ränder einer Linse gehen, nicht auf den gleichen Brennpunkt treffen wie die Strahlen, die durch die Mitte gehen. Dies führt zu einem unscharfen Bild, weil die Lichtstrahlen nicht korrekt fokussiert werden.",
+      "difficulty": 2,
+      "subcategory": "Linsenfehler (Aberrationen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Photoeffekt in der Detektion (Nachweis)",
+      "question": "Welche Bedingung muss erfüllt sein, damit der Photoeffekt zur Detektion eines Photons in einem Material führt?",
+      "choices": [
+        "A: Die Energie des Photons muss größer sein als die Austrittsarbeit des Materials.",
+        "B: Das Photon muss in einer bestimmten Wellenlänge emittiert werden.",
+        "C: Die Temperatur des Materials muss über dem absoluten Nullpunkt liegen.",
+        "D: Das Material muss eine hohe elektrische Leitfähigkeit aufweisen."
+      ],
+      "correct_answer": "A",
+      "explanation": "Für den Photoeffekt ist es entscheidend, dass die Energie des einfallenden Photons die Austrittsarbeit des verwendeten Materials übersteigt. Nur dann können Elektronen aus dem Material herausgelöst werden, was die Grundlage für die Detektion des Photons bildet.",
+      "difficulty": 9,
+      "subcategory": "Photoeffekt in der Detektion (Nachweis)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Paritätsverletzung",
+      "question": "Welche der folgenden Aussagen zur Paritätsverletzung in der Kern- und Teilchenphysik ist korrekt?",
+      "choices": [
+        "A: Paritätsverletzung tritt nur in schwachen Wechselwirkungen auf.",
+        "B: Paritätsverletzung ist in allen physikalischen Prozessen beobachtbar.",
+        "C: Paritätsverletzung ist ein rein theoretisches Konzept ohne experimentelle Bestätigung.",
+        "D: Paritätsverletzung beeinflusst keine subatomaren Teilchen."
+      ],
+      "correct_answer": "A",
+      "explanation": "Paritätsverletzung ist ein Phänomen, das insbesondere bei schwachen Wechselwirkungen auftritt, wie zum Beispiel bei der Beta-Zerfall von Kernen. In diesen Prozessen zeigt sich, dass die physikalischen Gesetze nicht invariant unter Paritätsumkehr sind, was durch Experimente bewiesen wurde.",
+      "difficulty": 6,
+      "subcategory": "Paritätsverletzung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Schwingungen in amorphen Festkörpern",
+      "question": "Welche Aussage beschreibt am besten die Schwingungen in amorphen Festkörpern?",
+      "choices": [
+        "A: Sie besitzen eine klare Kristallstruktur und Schwingungen sind nur in bestimmten Richtungen möglich.",
+        "B: Ihre Schwingungen sind nur durch Temperaturänderungen beeinflusst.",
+        "C: Sie verhalten sich wie ideale Flüssigkeiten und zeigen keine festen Schwingungen.",
+        "D: Sie zeigen keine regelmäßige Struktur und haben vielfältige Schwingungsmoden."
+      ],
+      "correct_answer": "D",
+      "explanation": "Amorphe Festkörper haben keine regelmäßige atomare Struktur wie Kristalle, was zu einer Vielzahl von Schwingungsmoden führt. Dies beeinflusst ihre mechanischen und thermischen Eigenschaften erheblich.",
+      "difficulty": 4,
+      "subcategory": "Schwingungen in amorphen Festkörpern"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Kovariante Lagrange-Formulierung",
+      "question": "Welches Prinzip ist die Grundlage der kovarianten Lagrange-Formulierung in der Relativitätstheorie?",
+      "choices": [
+        "A: Die Wirkung ist ein invariant unter Koordinatentransformationen.",
+        "B: Die Lichtgeschwindigkeit ist in allen Inertialsystemen konstant.",
+        "C: Materie und Energie sind gleichwertig.",
+        "D: Energie und Impuls sind immer konstant."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die kovariante Lagrange-Formulierung basiert auf dem Prinzip, dass die Wirkung invariant ist unter Koordinatentransformationen. Dies ist entscheidend, um die relativistischen Eigenschaften der physikalischen Gesetze zu gewährleisten und die Struktur der Raum-Zeit zu berücksichtigen.",
+      "difficulty": 8,
+      "subcategory": "Kovariante Lagrange-Formulierung"
+    }
+  ]
+}

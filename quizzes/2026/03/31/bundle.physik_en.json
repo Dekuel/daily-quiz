@@ -1,0 +1,168 @@
+{
+  "date": "2026-03-31",
+  "generated_at": "2026-03-31T04:01:57Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Feldverhalten an Grenzflächen",
+      "question": "What happens to an electric field when it encounters a boundary between two different materials?",
+      "choices": [
+        "A: The field changes its direction and partially its intensity.",
+        "B: The field remains unchanged regardless of the material it encounters.",
+        "C: The field is always completely absorbed.",
+        "D: The field is reflected and not altered."
+      ],
+      "correct_answer": "A",
+      "explanation": "When an electric field transitions to a boundary between two materials, both the direction and intensity of the field change. This occurs due to the different electrical properties of the materials, leading to partial reflection and refraction of the field.",
+      "difficulty": 4,
+      "subcategory": "Feldverhalten an Grenzflächen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Isotropie des Raumes ⇒ Drehimpulserhaltung",
+      "question": "Which statement best describes the significance of isotropy of space in relation to angular momentum conservation?",
+      "choices": [
+        "A: Isotropy of space means angular momentum remains the same in all directions unless external torques act.",
+        "B: Isotropy of space means all bodies can only rotate about their own axis.",
+        "C: Isotropy of space is irrelevant to angular momentum conservation as it is determined only by mass.",
+        "D: Isotropy of space results in the total momentum of a system always being zero."
+      ],
+      "correct_answer": "A",
+      "explanation": "Isotropy of space states that physical laws are the same in all directions, directly leading to the conservation of angular momentum as long as no external torques act on the system. This is a fundamental principle in analytical mechanics.",
+      "difficulty": 6,
+      "subcategory": "Isotropie des Raumes ⇒ Drehimpulserhaltung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "de Broglie-Wellen",
+      "question": "Which statement about de Broglie waves is correct?",
+      "choices": [
+        "A: De Broglie waves are waves that propagate at the speed of light.",
+        "B: De Broglie waves exist only for massive particles and not for photons.",
+        "C: The wavelength of a de Broglie wave is inversely proportional to a particle's momentum.",
+        "D: De Broglie waves can only be observed in classical physical systems."
+      ],
+      "correct_answer": "C",
+      "explanation": "The de Broglie wavelength is inversely proportional to a particle's momentum, described by the formula λ = h/p, where h is the Planck constant and p is the momentum. This relationship is fundamental for understanding wave-particle duality in quantum mechanics.",
+      "difficulty": 8,
+      "subcategory": "de Broglie-Wellen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Schallwellen im Festkörper",
+      "question": "What best describes the speed of sound in a solid?",
+      "choices": [
+        "A: It is solely determined by temperature.",
+        "B: It depends on the density and elasticity of the material.",
+        "C: It is higher in gases than in solids.",
+        "D: It is always the same regardless of the material."
+      ],
+      "correct_answer": "B",
+      "explanation": "The speed of sound in a solid is primarily influenced by the material's density and elastic properties. The more elastic and dense a material is, the faster sound waves propagate within it.",
+      "difficulty": 5,
+      "subcategory": "Schallwellen im Festkörper"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Inertialsysteme (Definition und Eigenschaften)",
+      "question": "What is an Inertial Frame in physics?",
+      "choices": [
+        "A: A system in which objects move uniformly without external forces.",
+        "B: A system where gravity does not act.",
+        "C: A system always in a fixed reference frame.",
+        "D: A system where only accelerated motions occur."
+      ],
+      "correct_answer": "A",
+      "explanation": "An inertial frame is a reference system in which objects move uniformly or remain at rest without the influence of external forces. This is one of the fundamental assumptions of classical mechanics and also of the theory of relativity.",
+      "difficulty": 3,
+      "subcategory": "Inertialsysteme (Definition und Eigenschaften)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Linsenfehler (Aberrationen)",
+      "question": "What is a common aberration that occurs in lenses and can lead to blurry images?",
+      "choices": [
+        "A: Geometric aberration",
+        "B: Spherical aberration",
+        "C: Electrical aberration",
+        "D: Chromatic aberration"
+      ],
+      "correct_answer": "B",
+      "explanation": "Spherical aberration occurs when light rays passing through the edges of a lens do not converge to the same focal point as rays passing through the center. This results in a blurry image because the light rays are not correctly focused.",
+      "difficulty": 2,
+      "subcategory": "Linsenfehler (Aberrationen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Photoeffekt in der Detektion (Nachweis)",
+      "question": "What condition must be met for the photoelectric effect to detect a photon in a material?",
+      "choices": [
+        "A: The energy of the photon must be greater than the material's work function.",
+        "B: The photon must be emitted at a specific wavelength.",
+        "C: The material's temperature must be above absolute zero.",
+        "D: The material must have high electrical conductivity."
+      ],
+      "correct_answer": "A",
+      "explanation": "For the photoelectric effect, it is crucial that the energy of the incident photon exceeds the work function of the material used. Only then can electrons be ejected from the material, forming the basis for photon detection.",
+      "difficulty": 9,
+      "subcategory": "Photoeffekt in der Detektion (Nachweis)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Paritätsverletzung",
+      "question": "Which of the following statements about parity violation in nuclear and particle physics is correct?",
+      "choices": [
+        "A: Parity violation occurs only in weak interactions.",
+        "B: Parity violation is observable in all physical processes.",
+        "C: Parity violation is a purely theoretical concept without experimental confirmation.",
+        "D: Parity violation does not affect subatomic particles."
+      ],
+      "correct_answer": "A",
+      "explanation": "Parity violation is a phenomenon that occurs particularly in weak interactions, such as beta decay of nuclei. In these processes, it is evident that physical laws are not invariant under parity reversal, as proven by experiments.",
+      "difficulty": 6,
+      "subcategory": "Paritätsverletzung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Schwingungen in amorphen Festkörpern",
+      "question": "Which statement best describes vibrations in amorphous solids?",
+      "choices": [
+        "A: They have a clear crystal structure, and vibrations are only possible in specific directions.",
+        "B: Their vibrations are influenced only by temperature changes.",
+        "C: They behave like ideal liquids and show no solid vibrations.",
+        "D: They lack a regular structure and have diverse vibration modes."
+      ],
+      "correct_answer": "D",
+      "explanation": "Amorphous solids lack a regular atomic structure like crystals, leading to a variety of vibration modes. This significantly influences their mechanical and thermal properties.",
+      "difficulty": 4,
+      "subcategory": "Schwingungen in amorphen Festkörpern"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Kovariante Lagrange-Formulierung",
+      "question": "Which principle is the basis of the covariant Lagrangian formulation in relativity theory?",
+      "choices": [
+        "A: The action is invariant under coordinate transformations.",
+        "B: The speed of light is constant in all inertial frames.",
+        "C: Matter and energy are equivalent.",
+        "D: Energy and momentum are always conserved."
+      ],
+      "correct_answer": "A",
+      "explanation": "The covariant Lagrangian formulation is based on the principle that the action is invariant under coordinate transformations. This is crucial to ensure the relativistic properties of physical laws and consider the structure of spacetime.",
+      "difficulty": 8,
+      "subcategory": "Kovariante Lagrange-Formulierung"
+    }
+  ]
+}
