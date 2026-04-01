@@ -1,0 +1,169 @@
+{
+  "date": "2026-04-01",
+  "generated_at": "2026-04-01T04:06:13Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Hall-Effekt",
+      "question": "Was beschreibt der Hall-Effekt in einem Leiter?",
+      "choices": [
+        "A: Die Ablenkung von Elektronen durch elektrische Felder.",
+        "B: Die Verringerung des elektrischen Widerstands durch Temperaturerhöhung.",
+        "C: Die Erhöhung der Temperatur eines Leiters bei elektrischem Stromfluss.",
+        "D: Die Erzeugung einer Spannungsdifferenz quer zum Stromfluss bei Anwesenheit eines Magnetfeldes."
+      ],
+      "correct_answer": "D",
+      "explanation": "Der Hall-Effekt beschreibt die Entstehung einer Spannungsdifferenz in einem elektrischen Leiter, wenn dieser einem Magnetfeld ausgesetzt ist, während Strom fließt. Diese Spannungsdifferenz entsteht quer zum Stromfluss und ist ein wichtiges Phänomen in der Festkörperphysik.",
+      "difficulty": 5,
+      "subcategory": "Hall-Effekt"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Extremaleigenschaften von U und H",
+      "question": "Was beschreibt die innere Energie (U) in einem thermodynamischen System?",
+      "choices": [
+        "A: Nur die kinetische Energie der Teilchen im System.",
+        "B: Die gesamte kinetische und potenzielle Energie der Teilchen im System.",
+        "C: Die Energie, die durch Wärmeübertragung verloren geht.",
+        "D: Die Temperatur des Systems."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die innere Energie (U) eines thermodynamischen Systems umfasst die gesamte kinetische und potenzielle Energie der Teilchen, die das System bilden. Diese Energie ist wichtig für die Beschreibung der thermodynamischen Zustände und Prozesse.",
+      "difficulty": 1,
+      "subcategory": "Extremaleigenschaften von U und H"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Kritische Exponenten",
+      "question": "Welcher der folgenden kritischen Exponenten beschreibt in der Nähe des kritischen Punktes das Verhalten der Dichte des Phasenübergangs in einem System?",
+      "choices": [
+        "A: γ",
+        "B: β",
+        "C: α",
+        "D: δ"
+      ],
+      "correct_answer": "B",
+      "explanation": "Der kritische Exponent β beschreibt das Verhalten der Dichteänderung in der Nähe des kritischen Punktes eines Phasenübergangs. Er ist entscheidend für das Verständnis von Phasenübergängen in Systemen wie Flüssigkeiten und Gasen.",
+      "difficulty": 8,
+      "subcategory": "Kritische Exponenten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Ginzburg–Landau-Funktional: Herleitung",
+      "question": "Welche der folgenden Annahmen ist grundlegend für die Herleitung des Ginzburg–Landau-Funktionals in der statistischen Mechanik?",
+      "choices": [
+        "A: Die Ordnungstheorie ist irrelevant für Phasenübergänge.",
+        "B: Der Einfluss von äußeren Feldern wird vernachlässigt.",
+        "C: Die Wechselwirkungen sind nur zwischen benachbarten Teilchen signifikant.",
+        "D: Das System ist in thermodynamischem Gleichgewicht."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Herleitung des Ginzburg–Landau-Funktionals basiert auf der Annahme, dass das System sich im thermodynamischen Gleichgewicht befindet, was entscheidend für die Ableitung der freien Energie in Abhängigkeit von der Ordnungsparameterfeld ist. Diese Annahme ermöglicht es, die thermodynamischen Eigenschaften des Systems zu analysieren und Phasenübergänge zu beschreiben.",
+      "difficulty": 9,
+      "subcategory": "Ginzburg–Landau-Funktional: Herleitung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Quadratintegrable Funktionen H=L^2",
+      "question": "Welche Bedingung muss eine Funktion erfüllen, um quadratintegrabel zu sein und somit im Hilbertraum H=L^2 zu liegen?",
+      "choices": [
+        "A: Die Funktion muss einen endlichen Mittelwert besitzen.",
+        "B: Die Funktion muss eine konstante Funktion sein.",
+        "C: Die Funktion muss stetig und differenzierbar sein.",
+        "D: Das Integral des Betrags der Funktion über den gesamten Raum muss endlich sein."
+      ],
+      "correct_answer": "D",
+      "explanation": "Eine Funktion ist quadratintegrabel, wenn das Integral ihres Betrags über den gesamten Raum endlich ist. Diese Bedingung gewährleistet, dass die Funktion im Hilbertraum H=L^2 liegt, was für die Quantenmechanik von zentraler Bedeutung ist.",
+      "difficulty": 6,
+      "subcategory": "Quadratintegrable Funktionen H=L^2"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "ħ→0-Grenzfall; Klassische Umkehrpunkte",
+      "question": "Was passiert im ħ→0-Grenzfall in der Quantenmechanik?",
+      "choices": [
+        "A: Die Wellenfunktion wird konstant.",
+        "B: Die Quantenmechanik verhält sich wie die klassische Mechanik.",
+        "C: Quantenverschränkung wird unmöglich.",
+        "D: Alle Teilchen verlieren ihre Energie."
+      ],
+      "correct_answer": "B",
+      "explanation": "Im ħ→0-Grenzfall, der als klassischer Grenzfall verstanden wird, verhalten sich die quantenmechanischen Systeme wie klassische Systeme. Dies bedeutet, dass die Gesetze der klassischen Mechanik anwendbar werden und die quantenmechanischen Effekte vernachlässigbar sind.",
+      "difficulty": 2,
+      "subcategory": "ħ→0-Grenzfall; Klassische Umkehrpunkte"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Freie Materiewelle",
+      "question": "Was beschreibt eine freie Materiewelle in der Quantenmechanik?",
+      "choices": [
+        "A: Eine Welle, die keine Energie transportiert.",
+        "B: Eine Welle, die immer mit Lichtgeschwindigkeit reist.",
+        "C: Eine Welle, die sich ohne Wechselwirkung mit anderen Teilchen bewegt.",
+        "D: Eine Welle, die nur in einem Vakuum existieren kann."
+      ],
+      "correct_answer": "C",
+      "explanation": "Eine freie Materiewelle beschreibt das Verhalten von Teilchen, die sich ohne äußere Einflüsse oder Wechselwirkungen bewegen. In diesem Zustand können sie sich ungehindert ausbreiten, was ein zentrales Konzept in der Quantenmechanik ist.",
+      "difficulty": 3,
+      "subcategory": "Freie Materiewelle"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Erhaltungssätze in der Lagrange-Mechanik",
+      "question": "Was besagt der Energieerhaltungssatz in der Lagrange-Mechanik?",
+      "choices": [
+        "A: Die Masse eines Körpers bleibt immer konstant.",
+        "B: Die Gesamtenrgie eines geschlossenen Systems bleibt konstant.",
+        "C: Die Geschwindigkeit eines Körpers ist immer konstant.",
+        "D: Der Impuls eines Körpers bleibt immer konstant."
+      ],
+      "correct_answer": "B",
+      "explanation": "Der Energieerhaltungssatz in der Lagrange-Mechanik besagt, dass in einem geschlossenen System die gesamte Energie, einschließlich kinetischer und potentieller Energie, konstant bleibt, solange keine äußeren Kräfte wirken. Dies ist ein grundlegendes Prinzip der Physik und gilt für viele physikalische Systeme.",
+      "difficulty": 1,
+      "subcategory": "Erhaltungssätze in der Lagrange-Mechanik"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Formale Eigenschaften (Bilinearität, Antisymmetrie, Jacobi)",
+      "question": "Welche der folgenden Eigenschaften beschreibt die Antisymmetrie einer bilinearen Form?",
+      "choices": [
+        "A: f(x, y) = 0 für alle x, y",
+        "B: f(x, y) = f(y, x)",
+        "C: f(x, y) = f(x, y) + f(y, x)",
+        "D: f(x, y) = -f(y, x)"
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Antisymmetrie einer bilinearen Form bedeutet, dass der Funktionswert wechselt sein Vorzeichen, wenn die Argumente vertauscht werden. Dies wird mathematisch durch die Gleichung f(x, y) = -f(y, x) beschrieben.",
+      "difficulty": 5,
+      "subcategory": "Formale Eigenschaften (Bilinearität, Antisymmetrie, Jacobi)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Plattenkondensator",
+      "question": "Wie verändert sich die Speicherkapazität eines Plattenkondensators, wenn der Abstand zwischen den Platten verdoppelt wird, während die Fläche der Platten konstant bleibt?",
+      "choices": [
+        "A: Die Kapazität halbiert sich.",
+        "B: Die Kapazität bleibt gleich.",
+        "C: Die Kapazität verdoppelt sich.",
+        "D: Die Kapazität verringert sich auf ein Viertel."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Speicherkapazität eines Plattenkondensators ist gegeben durch die Formel C = ε₀ * (A/d), wobei A die Fläche und d der Abstand zwischen den Platten ist. Wenn der Abstand d verdoppelt wird, verringert sich die Kapazität entsprechend auf ein Viertel ihres ursprünglichen Wertes.",
+      "difficulty": 8,
+      "subcategory": "Plattenkondensator"
+    }
+  ]
+}

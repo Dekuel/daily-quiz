@@ -1,0 +1,168 @@
+{
+  "date": "2026-04-01",
+  "generated_at": "2026-04-01T04:06:54Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Hall-Effekt",
+      "question": "What does the Hall effect describe in a conductor?",
+      "choices": [
+        "A: The deflection of electrons by electric fields.",
+        "B: The reduction of electrical resistance by increasing temperature.",
+        "C: The increase in temperature of a conductor with electric current flow.",
+        "D: The generation of a voltage difference perpendicular to the current flow in the presence of a magnetic field."
+      ],
+      "correct_answer": "D",
+      "explanation": "The Hall effect describes the generation of a voltage difference in an electrical conductor when exposed to a magnetic field while current flows. This voltage difference occurs perpendicular to the direction of the current flow and is an important phenomenon in solid-state physics.",
+      "difficulty": 5,
+      "subcategory": "Hall-Effekt"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Extremaleigenschaften von U und H",
+      "question": "What does the internal energy (U) describe in a thermodynamic system?",
+      "choices": [
+        "A: Only the kinetic energy of the particles in the system.",
+        "B: The total kinetic and potential energy of the particles in the system.",
+        "C: The energy lost through heat transfer.",
+        "D: The temperature of the system."
+      ],
+      "correct_answer": "B",
+      "explanation": "The internal energy (U) of a thermodynamic system encompasses the total kinetic and potential energy of the particles forming the system. This energy is crucial for describing the thermodynamic states and processes.",
+      "difficulty": 1,
+      "subcategory": "Extremaleigenschaften von U und H"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Kritische Exponenten",
+      "question": "Which of the following critical exponents describes the behavior of the density of the phase transition in a system near the critical point?",
+      "choices": [
+        "A: γ",
+        "B: β",
+        "C: α",
+        "D: δ"
+      ],
+      "correct_answer": "B",
+      "explanation": "The critical exponent β describes the behavior of density change near the critical point of a phase transition. It is crucial for understanding phase transitions in systems such as liquids and gases.",
+      "difficulty": 8,
+      "subcategory": "Kritische Exponenten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Ginzburg–Landau-Funktional: Herleitung",
+      "question": "Which of the following assumptions is fundamental for deriving the Ginzburg-Landau functional in statistical mechanics?",
+      "choices": [
+        "A: The theory of order is irrelevant for phase transitions.",
+        "B: The influence of external fields is neglected.",
+        "C: Interactions are significant only between neighboring particles.",
+        "D: The system is in thermodynamic equilibrium."
+      ],
+      "correct_answer": "D",
+      "explanation": "The derivation of the Ginzburg-Landau functional is based on the assumption that the system is in thermodynamic equilibrium, which is crucial for deriving the free energy as a function of the order parameter field. This assumption allows for the analysis of the system's thermodynamic properties and description of phase transitions.",
+      "difficulty": 9,
+      "subcategory": "Ginzburg–Landau-Funktional: Herleitung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Quadratintegrable Funktionen H=L^2",
+      "question": "What condition must a function satisfy to be square integrable and thus lie in the Hilbert space H=L^2?",
+      "choices": [
+        "A: The function must have a finite mean.",
+        "B: The function must be a constant function.",
+        "C: The function must be continuous and differentiable.",
+        "D: The integral of the absolute value of the function over the entire space must be finite."
+      ],
+      "correct_answer": "D",
+      "explanation": "A function is square integrable if the integral of its absolute value over the entire space is finite. This condition ensures that the function lies in the Hilbert space H=L^2, which is crucial for quantum mechanics.",
+      "difficulty": 6,
+      "subcategory": "Quadratintegrable Funktionen H=L^2"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "ħ→0-Grenzfall; Klassische Umkehrpunkte",
+      "question": "What happens in the ℏ→0 limit in quantum mechanics?",
+      "choices": [
+        "A: The wave function becomes constant.",
+        "B: Quantum mechanics behaves like classical mechanics.",
+        "C: Quantum entanglement becomes impossible.",
+        "D: All particles lose their energy."
+      ],
+      "correct_answer": "B",
+      "explanation": "In the ℏ→0 limit, understood as the classical limit, quantum mechanical systems behave like classical systems. This means that the laws of classical mechanics become applicable, and quantum mechanical effects become negligible.",
+      "difficulty": 2,
+      "subcategory": "ħ→0-Grenzfall; Klassische Umkehrpunkte"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Freie Materiewelle",
+      "question": "What does a free matter wave describe in quantum mechanics?",
+      "choices": [
+        "A: A wave that carries no energy.",
+        "B: A wave that always travels at the speed of light.",
+        "C: A wave that moves without interaction with other particles.",
+        "D: A wave that can only exist in a vacuum."
+      ],
+      "correct_answer": "C",
+      "explanation": "A free matter wave describes the behavior of particles moving without external influences or interactions. In this state, they can propagate freely, which is a central concept in quantum mechanics.",
+      "difficulty": 3,
+      "subcategory": "Freie Materiewelle"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Erhaltungssätze in der Lagrange-Mechanik",
+      "question": "What does the conservation of energy state in Lagrangian mechanics?",
+      "choices": [
+        "A: The mass of a body always remains constant.",
+        "B: The total energy of a closed system remains constant.",
+        "C: The velocity of a body is always constant.",
+        "D: The momentum of a body always remains constant."
+      ],
+      "correct_answer": "B",
+      "explanation": "The conservation of energy in Lagrangian mechanics states that in a closed system, the total energy, including kinetic and potential energy, remains constant as long as no external forces act. This is a fundamental principle of physics and applies to many physical systems.",
+      "difficulty": 1,
+      "subcategory": "Erhaltungssätze in der Lagrange-Mechanik"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Formale Eigenschaften (Bilinearität, Antisymmetrie, Jacobi)",
+      "question": "Which of the following properties describes the antisymmetry of a bilinear form?",
+      "choices": [
+        "A: f(x, y) = 0 for all x, y",
+        "B: f(x, y) = f(y, x)",
+        "C: f(x, y) = f(x, y) + f(y, x)",
+        "D: f(x, y) = -f(y, x)"
+      ],
+      "correct_answer": "D",
+      "explanation": "The antisymmetry of a bilinear form means that the function value changes its sign when the arguments are interchanged. This is mathematically described by the equation f(x, y) = -f(y, x).",
+      "difficulty": 5,
+      "subcategory": "Formale Eigenschaften (Bilinearität, Antisymmetrie, Jacobi)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Plattenkondensator",
+      "question": "How does the storage capacity of a parallel plate capacitor change when the distance between the plates is doubled while the plate area remains constant?",
+      "choices": [
+        "A: The capacity is halved.",
+        "B: The capacity remains the same.",
+        "C: The capacity doubles.",
+        "D: The capacity decreases to one-fourth."
+      ],
+      "correct_answer": "D",
+      "explanation": "The storage capacity of a parallel plate capacitor is given by the formula C = ε₀ * (A/d), where A is the area and d is the distance between the plates. When the distance d is doubled, the capacity decreases to one-fourth of its original value.",
+      "difficulty": 8,
+      "subcategory": "Plattenkondensator"
+    }
+  ]
+}
