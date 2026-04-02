@@ -1,0 +1,168 @@
+{
+  "date": "2026-04-02",
+  "generated_at": "2026-04-02T03:58:06Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Das Auge (Optik)",
+      "question": "What is the main function of the lens in the human eye?",
+      "choices": [
+        "A: It regulates the intraocular pressure.",
+        "B: It produces tears.",
+        "C: It protects the eye from dust.",
+        "D: It refracts light and ensures sharp vision."
+      ],
+      "correct_answer": "D",
+      "explanation": "The lens in the human eye refracts light so that it is focused on the retina. This allows us to see objects clearly. A faulty function of the lens can lead to vision problems.",
+      "difficulty": 2,
+      "subcategory": "Das Auge (Optik)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Prinzip der kleinsten Wirkung",
+      "question": "Which of the following statements correctly describes the condition under which the action is minimized in a physical system?",
+      "choices": [
+        "A: The trajectory is independent of the initial and final states of the system.",
+        "B: The trajectory is the one that maximizes the total energy of the system.",
+        "C: The trajectory satisfies the Euler-Lagrange equations for all possible variations.",
+        "D: The trajectory is the one that minimizes the time required for the motion."
+      ],
+      "correct_answer": "C",
+      "explanation": "The principle of least action states that the physical trajectory of a system is the one that minimizes the action, which is mathematically expressed by the Euler-Lagrange equations. These equations arise from the calculus of variations and represent a necessary condition for minimizing the action.",
+      "difficulty": 10,
+      "subcategory": "Prinzip der kleinsten Wirkung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Wirbel & Zirkulation",
+      "question": "What does circulation strength describe in a fluid?",
+      "choices": [
+        "A: The density of the fluid.",
+        "B: The temperature change of the fluid.",
+        "C: The sum of velocities along a closed path.",
+        "D: The total kinetic energy in the fluid."
+      ],
+      "correct_answer": "C",
+      "explanation": "Circulation strength in a fluid is defined as the sum of velocities along a closed path. This is an important concept in fluid mechanics that helps understand flows and vortices.",
+      "difficulty": 5,
+      "subcategory": "Wirbel & Zirkulation"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Bauelemente auf p–n-Basis",
+      "question": "Which component is commonly used in electronics and is based on the p–n junction?",
+      "choices": [
+        "A: Transformer",
+        "B: Resistor",
+        "C: Diode",
+        "D: Capacitor"
+      ],
+      "correct_answer": "C",
+      "explanation": "A diode is an electronic component based on the p–n junction. It allows current to flow in one direction and blocks it in the opposite direction, making it a fundamental element in many electronic circuits.",
+      "difficulty": 3,
+      "subcategory": "Bauelemente auf p–n-Basis"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Skalenhypothese (Skalierungsansatz)",
+      "question": "Which of the following statements best describes the approach of scale hypothesis in thermodynamics?",
+      "choices": [
+        "A: The approach refers exclusively to kinetic gas theory and its application to ideal gases.",
+        "B: The approach postulates that all thermodynamic systems are identical regardless of their size.",
+        "C: The approach is based on the assumption that only macroscopic properties are relevant and microscopic details can be neglected.",
+        "D: The approach considers that thermodynamic systems can exhibit similar behavior on different scales."
+      ],
+      "correct_answer": "D",
+      "explanation": "The scale hypothesis in thermodynamics allows understanding the behavior of complex systems by examining similarities and patterns on different scales. This helps analyze the properties of materials and phase transitions, regardless of their specific size or structure.",
+      "difficulty": 8,
+      "subcategory": "Skalenhypothese (Skalierungsansatz)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Zweiter Hauptsatz (Kelvin-Planck/Clausius)",
+      "question": "What does the second law of thermodynamics state regarding energy conversion?",
+      "choices": [
+        "A: The entropy of an isolated system always remains constant.",
+        "B: Heat can always be completely converted into work.",
+        "C: It is impossible to create a perpetual motion machine of the first kind.",
+        "D: Energy can be generated from nothing."
+      ],
+      "correct_answer": "C",
+      "explanation": "The second law of thermodynamics states that it is impossible to build a perpetual motion machine of the first kind that generates work from heat without another energy source. This means that energy conversions are never 100% efficient and there is always some loss in the form of heat.",
+      "difficulty": 4,
+      "subcategory": "Zweiter Hauptsatz (Kelvin-Planck/Clausius)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Interferenz und Beugung (Licht)",
+      "question": "What phenomenon describes the generation of interference patterns by light passing through two closely spaced slits?",
+      "choices": [
+        "A: Diffraction",
+        "B: Compton effect",
+        "C: Rayleigh scattering",
+        "D: Photoelectric effect"
+      ],
+      "correct_answer": "A",
+      "explanation": "The phenomenon of interference occurs when two or more waves overlap and either reinforce or cancel out in specific areas. In the double-slit experiment, it is the diffraction of light at the slits that creates the characteristic interference patterns.",
+      "difficulty": 10,
+      "subcategory": "Interferenz und Beugung (Licht)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Brillouin-Zone",
+      "question": "Which statement about the Brillouin zone in crystal lattices is correct?",
+      "choices": [
+        "A: The Brillouin zone is always spherical for all crystal structures.",
+        "B: The Brillouin zone has no influence on the electronic properties of materials.",
+        "C: The Brillouin zone describes the range of possible energy states for electrons.",
+        "D: The Brillouin zone is the volume in k-space that reflects the symmetry of the crystal."
+      ],
+      "correct_answer": "D",
+      "explanation": "The Brillouin zone is a fundamental concept in solid-state physics that describes the structure of k-space and reflects the symmetry of the crystal. It helps understand the electronic properties and band structure of materials.",
+      "difficulty": 5,
+      "subcategory": "Brillouin-Zone"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Maxwell-Konstruktion (Van-der-Waals-Isothermen)",
+      "question": "Which statement describes the Maxwell construction in relation to the Van der Waals isotherms correctly?",
+      "choices": [
+        "A: It refers to heat conduction in solids.",
+        "B: It explains the kinetic energy of particles in a gas.",
+        "C: It describes the temperature dependence of ideal gases.",
+        "D: It allows the determination of equilibrium states between phases."
+      ],
+      "correct_answer": "D",
+      "explanation": "The Maxwell construction is a method for analyzing phase transitions and identifies the regions of thermodynamic equilibrium between different phases. It is particularly important for understanding the non-ideal behaviors of gases as described in the Van der Waals equation.",
+      "difficulty": 4,
+      "subcategory": "Maxwell-Konstruktion (Van-der-Waals-Isothermen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Modifiziertes Hamilton’sches Prinzip",
+      "question": "Which of the following concepts is part of the modified Hamiltonian principle?",
+      "choices": [
+        "A: The action principle for non-conservative systems",
+        "B: The principle of least energy",
+        "C: Newton's laws",
+        "D: Conservation of momentum"
+      ],
+      "correct_answer": "A",
+      "explanation": "The modified Hamiltonian principle extends the classical action principle and considers non-conservative forces, allowing to describe systems influenced not only by conservative forces. Therefore, the correct answer is A.",
+      "difficulty": 4,
+      "subcategory": "Modifiziertes Hamilton’sches Prinzip"
+    }
+  ]
+}

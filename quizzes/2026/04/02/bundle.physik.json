@@ -1,0 +1,169 @@
+{
+  "date": "2026-04-02",
+  "generated_at": "2026-04-02T03:57:32Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Das Auge (Optik)",
+      "question": "Was ist die Hauptfunktion der Linse im menschlichen Auge?",
+      "choices": [
+        "A: Sie reguliert den Augeninnendruck.",
+        "B: Sie produziert Tränenflüssigkeit.",
+        "C: Sie schützt das Auge vor Staub.",
+        "D: Sie bricht das Licht und sorgt für scharfes Sehen."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Linse im menschlichen Auge bricht das Licht, sodass es auf die Netzhaut fokussiert wird. Dadurch können wir Objekte scharf sehen. Eine fehlerhafte Funktion der Linse kann zu Sehschwächen führen.",
+      "difficulty": 2,
+      "subcategory": "Das Auge (Optik)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Prinzip der kleinsten Wirkung",
+      "question": "Welcher der folgenden Aussagen beschreibt korrekt die Bedingung, unter der die Wirkung bei einem physikalischen System minimiert wird?",
+      "choices": [
+        "A: Die Trajektorie ist unabhängig von den Anfangs- und Endzuständen des Systems.",
+        "B: Die Trajektorie ist diejenige, die die Gesamtenergie des Systems maximiert.",
+        "C: Die Trajektorie erfüllt die Euler-Lagrange-Gleichungen für alle möglichen Variationen.",
+        "D: Die Trajektorie ist diejenige, die die Zeit minimiert, die für die Bewegung benötigt wird."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Prinzip der kleinsten Wirkung besagt, dass die physikalische Trajektorie eines Systems diejenige ist, die die Wirkung minimiert, was mathematisch durch die Euler-Lagrange-Gleichungen ausgedrückt wird. Diese Gleichungen ergeben sich aus der Variationsrechnung und stellen eine notwendige Bedingung für die Minimierung der Wirkung dar.",
+      "difficulty": 10,
+      "subcategory": "Prinzip der kleinsten Wirkung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Wirbel & Zirkulation",
+      "question": "Was beschreibt die Zirkulationsstärke in einem Fluid?",
+      "choices": [
+        "A: Die Dichte des Fluids.",
+        "B: Die Temperaturveränderung des Fluids.",
+        "C: Die Summe der Geschwindigkeiten entlang eines geschlossenen Pfades.",
+        "D: Die Gesamtheit der Kinetischen Energie im Fluid."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Zirkulationsstärke in einem Fluid ist definiert als die Summe der Geschwindigkeiten entlang eines geschlossenen Pfades. Dies ist ein wichtiges Konzept in der Fluidmechanik, das hilft, Strömungen und Wirbel zu verstehen.",
+      "difficulty": 5,
+      "subcategory": "Wirbel & Zirkulation"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Bauelemente auf p–n-Basis",
+      "question": "Welches Bauelement wird häufig in der Elektronik verwendet und basiert auf dem p–n-Übergang?",
+      "choices": [
+        "A: Transformator",
+        "B: Widerstand",
+        "C: Diode",
+        "D: Kondensator"
+      ],
+      "correct_answer": "C",
+      "explanation": "Eine Diode ist ein elektrisches Bauelement, das auf dem p–n-Übergang basiert. Sie lässt den Strom in eine Richtung durch und blockiert ihn in die entgegengesetzte Richtung, was sie zu einem grundlegenden Element in vielen elektronischen Schaltungen macht.",
+      "difficulty": 3,
+      "subcategory": "Bauelemente auf p–n-Basis"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Skalenhypothese (Skalierungsansatz)",
+      "question": "Welche der folgenden Aussagen beschreibt am besten den Ansatz der Skalenhypothese in der Thermodynamik?",
+      "choices": [
+        "A: Der Ansatz bezieht sich ausschließlich auf die kinetische Gastheorie und deren Anwendung auf ideale Gase.",
+        "B: Der Ansatz postuliert, dass alle thermodynamischen Systeme unabhängig von ihrer Größe identisch sind.",
+        "C: Der Ansatz basiert auf der Annahme, dass nur makroskopische Eigenschaften relevant sind und mikroskopische Details vernachlässigt werden können.",
+        "D: Der Ansatz berücksichtigt, dass thermodynamische Systeme auf verschiedenen Skalen ähnlich Verhalten zeigen können."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Skalenhypothese in der Thermodynamik ermöglicht es, das Verhalten komplexer Systeme zu verstehen, indem man Ähnlichkeiten und Muster auf verschiedenen Skalen untersucht. Dies hilft, die Eigenschaften von Materialien und Phasenübergängen zu analysieren, unabhängig von deren spezifischer Größe oder Struktur.",
+      "difficulty": 8,
+      "subcategory": "Skalenhypothese (Skalierungsansatz)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Zweiter Hauptsatz (Kelvin-Planck/Clausius)",
+      "question": "Was besagt der zweite Hauptsatz der Thermodynamik in Bezug auf die Energieumwandlung?",
+      "choices": [
+        "A: Die Entropie eines isolierten Systems bleibt immer konstant.",
+        "B: Wärme kann immer vollständig in Arbeit umgewandelt werden.",
+        "C: Es ist unmöglich, ein Perpetuum Mobile erster Art zu erstellen.",
+        "D: Energie kann aus dem Nichts erzeugt werden."
+      ],
+      "correct_answer": "C",
+      "explanation": "Der zweite Hauptsatz der Thermodynamik besagt, dass es unmöglich ist, ein Perpetuum Mobile erster Art zu bauen, das Arbeit aus Wärme ohne eine andere Energiequelle erzeugt. Dies bedeutet, dass Energieumwandlungen nie zu 100 % effizient sind und immer ein gewisser Verlust in Form von Wärme auftritt.",
+      "difficulty": 4,
+      "subcategory": "Zweiter Hauptsatz (Kelvin-Planck/Clausius)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Interferenz und Beugung (Licht)",
+      "question": "Welches Phänomen beschreibt die Erzeugung von Interferenzmustern durch Licht, das durch zwei nahe beieinander liegende Spalten fällt?",
+      "choices": [
+        "A: Beugung",
+        "B: Compton-Effekt",
+        "C: Rayleigh-Streuung",
+        "D: Photoelektrischer Effekt"
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Phänomen der Interferenz tritt auf, wenn zwei oder mehr Wellen überlagert werden und sich in bestimmten Bereichen verstärken oder auslöschen. Beim Doppelspaltexperiment ist es die Beugung des Lichts an den Spalten, die die charakteristischen Interferenzmuster erzeugt.",
+      "difficulty": 10,
+      "subcategory": "Interferenz und Beugung (Licht)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Brillouin-Zone",
+      "question": "Welche Aussage über die Brillouin-Zone in einem Kristallgittern ist korrekt?",
+      "choices": [
+        "A: Die Brillouin-Zone ist immer sphärisch für alle Kristallstrukturen.",
+        "B: Die Brillouin-Zone hat keinen Einfluss auf die elektronischen Eigenschaften von Materialien.",
+        "C: Die Brillouin-Zone beschreibt den Bereich der möglichen Energiezustände für Elektronen.",
+        "D: Die Brillouin-Zone ist das Volumen im k-Raum, das die Symmetrie des Kristalls widerspiegelt."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Brillouin-Zone ist ein fundamentales Konzept in der Festkörperphysik, das die Struktur des k-Raums beschreibt und die Symmetrie des Kristalls widerspiegelt. Sie hilft dabei, die elektronischen Eigenschaften und die Bandstruktur von Materialien zu verstehen.",
+      "difficulty": 5,
+      "subcategory": "Brillouin-Zone"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Maxwell-Konstruktion (Van-der-Waals-Isothermen)",
+      "question": "Welche Aussage beschreibt die Maxwell-Konstruktion in Bezug auf die Van-der-Waals-Isothermen korrekt?",
+      "choices": [
+        "A: Sie bezieht sich auf die Wärmeleitung in festen Stoffen.",
+        "B: Sie erklärt die kinetische Energie von Teilchen in einem Gas.",
+        "C: Sie beschreibt die Temperaturabhängigkeit von idealen Gasen.",
+        "D: Sie ermöglicht die Bestimmung der Gleichgewichtszustände zwischen Phasen."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Maxwell-Konstruktion ist ein Verfahren zur Analyse von Phasenübergängen und ermöglicht es, die Bereiche des thermodynamischen Gleichgewichts zwischen verschiedenen Phasen zu identifizieren. Sie ist besonders wichtig für das Verständnis der nicht-idealen Verhaltensweisen von Gasen, wie sie in der Van-der-Waals-Gleichung beschrieben werden.",
+      "difficulty": 4,
+      "subcategory": "Maxwell-Konstruktion (Van-der-Waals-Isothermen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Modifiziertes Hamilton’sches Prinzip",
+      "question": "Welches der folgenden Konzepte ist Teil des modifizierten Hamilton’schen Prinzips?",
+      "choices": [
+        "A: Der Aktionsprinzip für nicht-konservative Systeme",
+        "B: Das Prinzip der kleinsten Energie",
+        "C: Die Newton'schen Gesetze",
+        "D: Der Erhaltungssatz der Impuls"
+      ],
+      "correct_answer": "A",
+      "explanation": "Das modifizierte Hamilton’sche Prinzip erweitert das klassische Aktionsprinzip und berücksichtigt nicht-konservative Kräfte, was es ermöglicht, Systeme zu beschreiben, die nicht nur durch konservative Kräfte beeinflusst werden. Daher ist die korrekte Antwort A.",
+      "difficulty": 4,
+      "subcategory": "Modifiziertes Hamilton’sches Prinzip"
+    }
+  ]
+}
