@@ -1,0 +1,169 @@
+{
+  "date": "2026-04-03",
+  "generated_at": "2026-04-03T03:58:18Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Korrespondenzprinzip (QM↔klassisch)",
+      "question": "Welches Prinzip besagt, dass sich die Vorhersagen der Quantenmechanik im Grenzfall großer Quantenzahlen mit den Vorhersagen der klassischen Physik decken?",
+      "choices": [
+        "A: Superpositionsprinzip",
+        "B: Pauli-Prinzip",
+        "C: Korrespondenzprinzip",
+        "D: Heisenbergsche Unschärferelation"
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Korrespondenzprinzip besagt, dass die Quantenmechanik in dem Limit hoher Quantenzahlen die klassischen physikalischen Gesetze reproduziert. Dies bedeutet, dass für große Systeme die quantenmechanischen Berechnungen mit den klassischen Vorhersagen übereinstimmen müssen.",
+      "difficulty": 2,
+      "subcategory": "Korrespondenzprinzip (QM↔klassisch)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Harmonischer Oszillator: Erzeugungs-/Vernichtungsoperator",
+      "question": "Was bewirkt der Erzeugungsoperator in einem quantenmechanischen harmonischen Oszillator?",
+      "choices": [
+        "A: Er verringert die Energie des Systems um ein Quanten.",
+        "B: Er erhöht die Energie des Systems um ein Quanten.",
+        "C: Er führt zu einem Zustandswechsel des Teilchens.",
+        "D: Er verändert die Frequenz des Oszillators."
+      ],
+      "correct_answer": "B",
+      "explanation": "Der Erzeugungsoperator, oft mit a† bezeichnet, erhöht die Energie eines quantenmechanischen harmonischen Oszillators um ein Quanten, was bedeutet, dass er den Zustand des Systems in einen höheren Energiezustand überführt. Dies ist ein grundlegendes Konzept in der Quantenmechanik, das die quantisierte Natur der Energie beschreibt.",
+      "difficulty": 6,
+      "subcategory": "Harmonischer Oszillator: Erzeugungs-/Vernichtungsoperator"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Entropie im mikrokanonischen Ensemble",
+      "question": "Welche Aussage über die Entropie im mikrokanonischen Ensemble ist korrekt?",
+      "choices": [
+        "A: Die Entropie nimmt mit zunehmender Temperatur immer ab.",
+        "B: Die Entropie ist nur für ideale Gase definiert.",
+        "C: Die Entropie ist ein Maß für die Anzahl der zugänglichen Mikrozustände.",
+        "D: Die Entropie ist konstant und unabhängig von der Energie."
+      ],
+      "correct_answer": "C",
+      "explanation": "Im mikrokanonischen Ensemble ist die Entropie ein Maß für die Anzahl der Mikrozustände, die ein System bei gegebener Energie einnehmen kann. Eine höhere Entropie bedeutet mehr mögliche Anordnungen der Teilchen und damit ein größerer Grad an Unordnung im System.",
+      "difficulty": 5,
+      "subcategory": "Entropie im mikrokanonischen Ensemble"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Gegen- und Selbstinduktion",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt den Unterschied zwischen Selbstinduktion und Gegeninduktion?",
+      "choices": [
+        "A: Selbstinduktion tritt auf, wenn sich der Strom in einer Spule ändert, während Gegeninduktion aufgrund des Einflusses einer benachbarten Spule entsteht.",
+        "B: Selbstinduktion und Gegeninduktion sind identische Prozesse, die nur unterschiedliche Namen tragen.",
+        "C: Selbstinduktion ist die Erzeugung eines elektrischen Feldes durch Magnetfelder, während Gegeninduktion die Erzeugung eines Magnetfeldes durch elektrische Felder beschreibt.",
+        "D: Selbstinduktion geschieht nur in geschlossenen Stromkreisen, während Gegeninduktion immer in offenen Kreisen auftritt."
+      ],
+      "correct_answer": "A",
+      "explanation": "Selbstinduktion beschreibt das Phänomen, dass eine Spule eine EMK erzeugt, wenn sich der Strom in ihr ändert. Gegeninduktion hingegen beschreibt die EMK, die in einer benachbarten Spule erzeugt wird, wenn sich der Strom in einer anderen Spule ändert.",
+      "difficulty": 9,
+      "subcategory": "Gegen- und Selbstinduktion"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Bloch-Funktion",
+      "question": "Welche der folgenden Aussagen beschreibt am besten die Bloch-Funktion in einem periodischen Potential?",
+      "choices": [
+        "A: Bloch-Funktionen sind Lösungen der Schrödinger-Gleichung, die die periodische Symmetrie des Kristallgitters widerspiegeln.",
+        "B: Bloch-Funktionen enthalten keine Informationen über die Energiezustände von Elektronen.",
+        "C: Bloch-Funktionen sind nur für nicht-periodische Systeme gültig.",
+        "D: Bloch-Funktionen sind immer konstant und unabhängig von der Gitterstruktur."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Bloch-Funktion beschreibt die quantenmechanischen Zustände von Elektronen in einem periodischen Potential, wie es in Kristallen vorkommt. Sie berücksichtigt die periodische Struktur des Kristallgitters und zeigt, dass sich die Wellenfunktionen der Elektronen entsprechend der Symmetrie des Gitters wiederholen.",
+      "difficulty": 7,
+      "subcategory": "Bloch-Funktion"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Streuung an Kristallen",
+      "question": "Welche der folgenden Aussagen beschreibt am besten den Einfluss der Gitterstruktur auf die Streuung von Röntgenstrahlen in Kristallen?",
+      "choices": [
+        "A: Die Gitterstruktur hat keinen Einfluss auf die Streuung, da Röntgenstrahlen unabhängig von der Materie reisen.",
+        "B: Die Gitterstruktur beeinflusst die Intensität und das Muster der gestreuten Röntgenstrahlen aufgrund der periodischen Anordnung der Atome.",
+        "C: Die Streuung von Röntgenstrahlen ist ausschließlich von der Temperatur des Kristalls abhängig.",
+        "D: Röntgenstrahlen werden immer gleich gestreut, unabhängig von der Art des Kristalls."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Gitterstruktur eines Kristalls bestimmt die Wechselwirkungen zwischen den Röntgenstrahlen und den Atomen im Kristall. Dies führt zu charakteristischen Beugungsmustern, die zur Analyse der Kristallstruktur verwendet werden können.",
+      "difficulty": 8,
+      "subcategory": "Streuung an Kristallen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Laplace-Gleichung in Kugelkoordinaten",
+      "question": "Welche der folgenden Gleichungen ist die Form der Laplace-Gleichung in Kugelkoordinaten?",
+      "choices": [
+        "A: ∇²φ = ρ/ε₀",
+        "B: ∇²φ = 0",
+        "C: ∇²φ = -μ₀J",
+        "D: ∇²φ = ∂²φ/∂t²"
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Laplace-Gleichung beschreibt ein Potentialfeld, das in einem bestimmten Bereich ohne Quellen existiert, und ist in jeder Koordinatenform, einschließlich Kugelkoordinaten, als ∇²φ = 0 formuliert. Die anderen Optionen beziehen sich auf unterschiedliche physikalische Konzepte oder Gleichungen.",
+      "difficulty": 5,
+      "subcategory": "Laplace-Gleichung in Kugelkoordinaten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Noether-Idee: Homogenität der Zeit ⇒ Energieerhaltung",
+      "question": "Welche Aussage beschreibt den Zusammenhang zwischen der Homogenität der Zeit und der Energieerhaltung gemäß der Noether-Idee?",
+      "choices": [
+        "A: Eine Veränderung der Zeit führt zu einer Änderung der Gesamtenergie eines Systems.",
+        "B: Wenn die physikalischen Gesetze zeitlich invariant sind, bleibt die Energie eines geschlossenen Systems konstant.",
+        "C: Energie kann nur in einem zeitlich variablen System erhalten bleiben.",
+        "D: Die Zeit ist unabhängig von der Energie eines Systems."
+      ],
+      "correct_answer": "B",
+      "explanation": "Gemäß der Noether-Idee bedeutet die Homogenität der Zeit, dass die physikalischen Gesetze zu jedem Zeitpunkt gleich sind. Dies führt zur Erhaltung der Energie in geschlossenen Systemen, da die Gesamtenergie konstant bleibt, wenn keine externen Kräfte wirken.",
+      "difficulty": 6,
+      "subcategory": "Noether-Idee: Homogenität der Zeit ⇒ Energieerhaltung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Kinetische Gastheorie: Grundgleichungen",
+      "question": "Welche Gleichung beschreibt in der kinetischen Gastheorie den Zusammenhang zwischen Druck, Volumen und Temperatur eines idealen Gases?",
+      "choices": [
+        "A: E = mc^2",
+        "B: F = ma",
+        "C: W = Fd",
+        "D: pV = nRT"
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Gleichung pV = nRT ist die ideale Gasgleichung und stellt den Zusammenhang zwischen Druck (p), Volumen (V), Temperatur (T) und der Anzahl der Mole (n) eines idealen Gases dar. Diese Beziehung ist fundamental in der kinetischen Gastheorie und beschreibt das Verhalten idealer Gase unter verschiedenen Bedingungen.",
+      "difficulty": 6,
+      "subcategory": "Kinetische Gastheorie: Grundgleichungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Reflexion & Brechung elektromagnetischer Wellen",
+      "question": "Was passiert, wenn ein Lichtstrahl von Luft in Wasser einfällt?",
+      "choices": [
+        "A: Der Lichtstrahl wird unendlich schnell.",
+        "B: Der Lichtstrahl wird vom Wasser reflektiert.",
+        "C: Der Lichtstrahl verändert seine Farbe.",
+        "D: Der Lichtstrahl wird zum Lot hin gebrochen."
+      ],
+      "correct_answer": "D",
+      "explanation": "Wenn Licht von einem Medium mit niedrigerer Brechungsindex (Luft) in ein Medium mit höherer Brechungsindex (Wasser) eintritt, wird es zum Lot hin gebrochen. Dies ist ein grundlegendes Prinzip der Optik und beschreibt, wie Lichtstrahlen an der Grenzfläche zwischen zwei Medien reagieren.",
+      "difficulty": 4,
+      "subcategory": "Reflexion & Brechung elektromagnetischer Wellen"
+    }
+  ]
+}

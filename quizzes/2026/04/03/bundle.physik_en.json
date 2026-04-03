@@ -1,0 +1,168 @@
+{
+  "date": "2026-04-03",
+  "generated_at": "2026-04-03T03:59:02Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Korrespondenzprinzip (QM↔klassisch)",
+      "question": "Which principle states that the predictions of quantum mechanics coincide with the predictions of classical physics in the limit of large quantum numbers?",
+      "choices": [
+        "A: Superposition principle",
+        "B: Pauli exclusion principle",
+        "C: Correspondence principle",
+        "D: Heisenberg uncertainty principle"
+      ],
+      "correct_answer": "C",
+      "explanation": "The correspondence principle states that quantum mechanics reproduces classical physical laws in the limit of high quantum numbers. This means that for large systems, quantum mechanical calculations must agree with classical predictions.",
+      "difficulty": 2,
+      "subcategory": "Korrespondenzprinzip (QM↔klassisch)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Harmonischer Oszillator: Erzeugungs-/Vernichtungsoperator",
+      "question": "What does the creation operator do in a quantum harmonic oscillator?",
+      "choices": [
+        "A: It decreases the energy of the system by one quantum.",
+        "B: It increases the energy of the system by one quantum.",
+        "C: It leads to a change in the particle's state.",
+        "D: It changes the frequency of the oscillator."
+      ],
+      "correct_answer": "B",
+      "explanation": "The creation operator, often denoted by a†, increases the energy of a quantum harmonic oscillator by one quantum, meaning it transitions the system's state to a higher energy state. This is a fundamental concept in quantum mechanics describing the quantized nature of energy.",
+      "difficulty": 6,
+      "subcategory": "Harmonischer Oszillator: Erzeugungs-/Vernichtungsoperator"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Entropie im mikrokanonischen Ensemble",
+      "question": "Which statement about entropy in the microcanonical ensemble is correct?",
+      "choices": [
+        "A: Entropy decreases with increasing temperature.",
+        "B: Entropy is only defined for ideal gases.",
+        "C: Entropy is a measure of the number of accessible microstates.",
+        "D: Entropy is constant and independent of energy."
+      ],
+      "correct_answer": "C",
+      "explanation": "In the microcanonical ensemble, entropy is a measure of the number of microstates a system can occupy at a given energy. Higher entropy means more possible arrangements of particles and thus a greater degree of disorder in the system.",
+      "difficulty": 5,
+      "subcategory": "Entropie im mikrokanonischen Ensemble"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Gegen- und Selbstinduktion",
+      "question": "Which of the following statements correctly describes the difference between self-induction and mutual induction?",
+      "choices": [
+        "A: Self-induction occurs when the current in a coil changes, while mutual induction arises due to the influence of a neighboring coil.",
+        "B: Self-induction and mutual induction are identical processes with different names.",
+        "C: Self-induction is the generation of an electric field by magnetic fields, while mutual induction describes the generation of a magnetic field by electric fields.",
+        "D: Self-induction only occurs in closed circuits, while mutual induction always occurs in open circuits."
+      ],
+      "correct_answer": "A",
+      "explanation": "Self-induction describes the phenomenon where a coil generates an electromotive force (EMF) when the current within it changes. Mutual induction, on the other hand, describes the EMF induced in a neighboring coil when the current in another coil changes.",
+      "difficulty": 9,
+      "subcategory": "Gegen- und Selbstinduktion"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Bloch-Funktion",
+      "question": "Which of the following statements best describes the Bloch function in a periodic potential?",
+      "choices": [
+        "A: Bloch functions are solutions of the Schrödinger equation reflecting the periodic symmetry of the crystal lattice.",
+        "B: Bloch functions contain no information about the energy states of electrons.",
+        "C: Bloch functions are only valid for non-periodic systems.",
+        "D: Bloch functions are always constant and independent of the lattice structure."
+      ],
+      "correct_answer": "A",
+      "explanation": "The Bloch function describes the quantum states of electrons in a periodic potential, as found in crystals. It takes into account the periodic structure of the crystal lattice and shows that the wave functions of electrons repeat according to the symmetry of the lattice.",
+      "difficulty": 7,
+      "subcategory": "Bloch-Funktion"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Streuung an Kristallen",
+      "question": "Which of the following statements best describes the influence of lattice structure on X-ray scattering in crystals?",
+      "choices": [
+        "A: The lattice structure has no effect on scattering, as X-rays travel independently of matter.",
+        "B: The lattice structure influences the intensity and pattern of scattered X-rays due to the periodic arrangement of atoms.",
+        "C: X-ray scattering depends solely on the temperature of the crystal.",
+        "D: X-rays are always scattered in the same way, regardless of the type of crystal."
+      ],
+      "correct_answer": "B",
+      "explanation": "The lattice structure of a crystal determines the interactions between X-rays and the atoms in the crystal, leading to characteristic diffraction patterns that can be used to analyze the crystal structure.",
+      "difficulty": 8,
+      "subcategory": "Streuung an Kristallen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Laplace-Gleichung in Kugelkoordinaten",
+      "question": "Which of the following equations is the form of the Laplace's equation in spherical coordinates?",
+      "choices": [
+        "A: ∇²φ = ρ/ε₀",
+        "B: ∇²φ = 0",
+        "C: ∇²φ = -μ₀J",
+        "D: ∇²φ = ∂²φ/∂t²"
+      ],
+      "correct_answer": "B",
+      "explanation": "The Laplace's equation describes a potential field existing without sources in a specific region and is formulated in any coordinate system, including spherical coordinates, as ∇²φ = 0. The other options refer to different physical concepts or equations.",
+      "difficulty": 5,
+      "subcategory": "Laplace-Gleichung in Kugelkoordinaten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Noether-Idee: Homogenität der Zeit ⇒ Energieerhaltung",
+      "question": "Which statement describes the relationship between the homogeneity of time and energy conservation according to the Noether's idea?",
+      "choices": [
+        "A: A change in time leads to a change in the total energy of a system.",
+        "B: If physical laws are time-invariant, the energy of a closed system remains constant.",
+        "C: Energy can only be conserved in a time-varying system.",
+        "D: Time is independent of the energy of a system."
+      ],
+      "correct_answer": "B",
+      "explanation": "According to Noether's idea, the homogeneity of time means that physical laws are the same at every point in time. This leads to the conservation of energy in closed systems, as the total energy remains constant when no external forces act.",
+      "difficulty": 6,
+      "subcategory": "Noether-Idee: Homogenität der Zeit ⇒ Energieerhaltung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Kinetische Gastheorie: Grundgleichungen",
+      "question": "Which equation in kinetic theory of gases describes the relationship between pressure, volume, and temperature of an ideal gas?",
+      "choices": [
+        "A: E = mc^2",
+        "B: F = ma",
+        "C: W = Fd",
+        "D: pV = nRT"
+      ],
+      "correct_answer": "D",
+      "explanation": "The equation pV = nRT is the ideal gas equation and represents the relationship between pressure (p), volume (V), temperature (T), and the number of moles (n) of an ideal gas. This relationship is fundamental in kinetic theory of gases and describes the behavior of ideal gases under various conditions.",
+      "difficulty": 6,
+      "subcategory": "Kinetische Gastheorie: Grundgleichungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Reflexion & Brechung elektromagnetischer Wellen",
+      "question": "What happens when a light beam enters water from air?",
+      "choices": [
+        "A: The light beam travels infinitely fast.",
+        "B: The light beam is reflected by water.",
+        "C: The light beam changes its color.",
+        "D: The light beam is refracted towards the normal."
+      ],
+      "correct_answer": "D",
+      "explanation": "When light enters a medium with a higher refractive index (water) from a medium with a lower refractive index (air), it is refracted towards the normal. This is a fundamental principle of optics describing how light rays react at the interface between two media.",
+      "difficulty": 4,
+      "subcategory": "Reflexion & Brechung elektromagnetischer Wellen"
+    }
+  ]
+}
