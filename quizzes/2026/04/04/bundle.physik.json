@@ -1,0 +1,169 @@
+{
+  "date": "2026-04-04",
+  "generated_at": "2026-04-04T03:50:12Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Längenkontraktion",
+      "question": "Was passiert mit der Länge eines Objekts, wenn es sich relativ zu einem Beobachter mit relativistischer Geschwindigkeit bewegt?",
+      "choices": [
+        "A: Die Länge des Objekts wird unendlich.",
+        "B: Die Länge des Objekts verlängert sich.",
+        "C: Die Länge des Objekts verkürzt sich.",
+        "D: Die Länge des Objekts bleibt unverändert."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Längenkontraktion ist ein Effekt der Relativitätstheorie, der besagt, dass sich die Länge eines sich schnell bewegenden Objekts aus der Sicht eines ruhenden Beobachters verkürzt. Je schneller das Objekt bewegt wird, desto stärker ist dieser Effekt.",
+      "difficulty": 2,
+      "subcategory": "Längenkontraktion"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Phasen (Definitionen, Beispiele)",
+      "question": "Welche der folgenden Aussagen beschreibt am besten den Phasenwechsel von fest zu flüssig?",
+      "choices": [
+        "A: Sublimation",
+        "B: Verdampfung",
+        "C: Erstarren",
+        "D: Schmelzen"
+      ],
+      "correct_answer": "D",
+      "explanation": "Der Phasenwechsel von fest zu flüssig wird als Schmelzen bezeichnet. Dies tritt auf, wenn die Temperatur eines Feststoffs den Schmelzpunkt erreicht und die Moleküle beginnen, sich freier zu bewegen, was zu einer flüssigen Phase führt.",
+      "difficulty": 6,
+      "subcategory": "Phasen (Definitionen, Beispiele)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Korrelationsfunktion & Suszeptibilität; Ornstein–Zernike",
+      "question": "Was beschreibt die Korrelationsfunktion in der statistischen Mechanik?",
+      "choices": [
+        "A: Die Temperatur eines Systems.",
+        "B: Die Wahrscheinlichkeit, dass zwei Teilchen an einem bestimmten Ort sind.",
+        "C: Die Energie eines Teilchens.",
+        "D: Die Geschwindigkeit eines Teilchens."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Korrelationsfunktion beschreibt die Wahrscheinlichkeit, dass zwei Teilchen in einem bestimmten Abstand zueinander sind. Diese Funktion ist wichtig für das Verständnis der Wechselwirkungen in einem statistischen Ensemble und spielt eine zentrale Rolle in der statistischen Mechanik.",
+      "difficulty": 1,
+      "subcategory": "Korrelationsfunktion & Suszeptibilität; Ornstein–Zernike"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Phasenproblem bei Streuexperimenten",
+      "question": "Was beschreibt das Phasenproblem in der Festkörperphysik bei Streuexperimenten?",
+      "choices": [
+        "A: Die Herausforderung, die Phasen der Wellenfronten bei der Beugung zu rekonstruieren.",
+        "B: Die Beschreibung der thermischen Ausdehnung von Festkörpern.",
+        "C: Die Unfähigkeit, die exakte Position von Elektronen in einem Kristall zu bestimmen.",
+        "D: Die Wechselwirkung zwischen Photonen und Elektronen in einem Festkörper."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Phasenproblem bezieht sich auf die Schwierigkeiten, die Phaseninformationen aus Streuexperimenten korrekt zu rekonstruieren, was für die Bestimmung der Struktur von Kristallen entscheidend ist. Ohne genaue Phaseninformationen kann die räumliche Anordnung der Atome nicht eindeutig bestimmt werden.",
+      "difficulty": 6,
+      "subcategory": "Phasenproblem bei Streuexperimenten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Wiedemann–Franz-Gesetz",
+      "question": "Was beschreibt das Wiedemann–Franz-Gesetz im Allgemeinen?",
+      "choices": [
+        "A: Die Bewegung von Teilchen in einem Vakuum.",
+        "B: Das Verhältnis von elektrischer und thermischer Leitfähigkeit in Metallen.",
+        "C: Die Beziehung zwischen Druck und Volumen in Gasmischungen.",
+        "D: Die Wechselwirkung zwischen Licht und Materie."
+      ],
+      "correct_answer": "B",
+      "explanation": "Das Wiedemann–Franz-Gesetz beschreibt, dass das Verhältnis der elektrischen Leitfähigkeit zu der thermischen Leitfähigkeit in Metallen konstant ist und temperaturabhängig bleibt. Dieses Gesetz ist besonders wichtig für das Verständnis der Wärmeleitung in metallischen Festkörpern.",
+      "difficulty": 4,
+      "subcategory": "Wiedemann–Franz-Gesetz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Spezielle Operatoren (Zahl-, Hamilton-Operator)",
+      "question": "Welcher Operator beschreibt in der Quantenmechanik die gesamte Energie eines Systems?",
+      "choices": [
+        "A: Impuls-Operator",
+        "B: Hamilton-Operator",
+        "C: Ort-Operator",
+        "D: Spin-Operator"
+      ],
+      "correct_answer": "B",
+      "explanation": "Der Hamilton-Operator ist der zentrale Operator in der Quantenmechanik, der die Gesamtenergie eines quantenmechanischen Systems beschreibt. Er spielt eine entscheidende Rolle in der Schrödinger-Gleichung, die das Verhalten von Quantenobjekten beschreibt.",
+      "difficulty": 4,
+      "subcategory": "Spezielle Operatoren (Zahl-, Hamilton-Operator)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Eigenfunktionen der gebundenen Zustände (Laguerre)",
+      "question": "Welche Eigenschaft der Laguerre-Polynome ist entscheidend für die Beschreibung der radialen Eigenfunktionen in einem Wasserstoffatom?",
+      "choices": [
+        "A: Sie besitzen nur reelle Nullstellen, die die Energiezustände bestimmen.",
+        "B: Sie sind periodisch und beschreiben die zeitliche Entwicklung der Zustände.",
+        "C: Sie sind konstant und nicht von den quantenmechanischen Zuständen abhängig.",
+        "D: Sie sind orthogonal und normalisierbar im Intervall [0, ∞)."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Laguerre-Polynome sind entscheidend für die Darstellung der radialen Eigenfunktionen im Wasserstoffatom, da ihre Orthogonalität und Normalisierbarkeit sicherstellen, dass die Lösungen der Schrödinger-Gleichung die quantenmechanischen Eigenschaften korrekt beschreiben. Diese Eigenschaften ermöglichen es, die Zustände eindeutig zu definieren und zu analysieren.",
+      "difficulty": 10,
+      "subcategory": "Eigenfunktionen der gebundenen Zustände (Laguerre)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Reflexions- und Brechungsgesetz",
+      "question": "Welches der folgenden Gesetze beschreibt die Beziehung zwischen dem Einfallswinkel und dem Brechungswinkel, wenn Licht von einem Medium in ein anderes übergeht?",
+      "choices": [
+        "A: Snelliussches Brechungsgesetz",
+        "B: Gesetz von Fresnel",
+        "C: Huygenssches Prinzip",
+        "D: Gesetz der totalen Reflexion"
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Snelliussche Brechungsgesetz beschreibt die Beziehung zwischen dem Einfallswinkel und dem Brechungswinkel, wenn Licht von einem Medium in ein anderes übertritt. Es gibt an, dass das Verhältnis der Sinuswerte der Winkel gleich dem Verhältnis der Geschwindigkeiten des Lichts in den beiden Medien ist.",
+      "difficulty": 8,
+      "subcategory": "Reflexions- und Brechungsgesetz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Ladungsunabhängigkeit der Kernkraft & Isospin",
+      "question": "Welche Aussage über die Kernkraft ist korrekt?",
+      "choices": [
+        "A: Die Kernkraft wirkt unabhängig von der elektrischen Ladung der Teilchen.",
+        "B: Die Kernkraft ist nur zwischen Protonen wirksam.",
+        "C: Die Kernkraft benötigt eine elektrische Ladung, um zu wirken.",
+        "D: Die Kernkraft zieht positiv geladene Teilchen an und stößt negativ geladene ab."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Kernkraft ist tatsächlich ladungsunabhängig und wirkt sowohl zwischen Protonen als auch zwischen Neutronen. Dies bedeutet, dass die Wechselwirkung nicht von der elektrischen Ladung der beteiligten Teilchen abhängt, was durch das Konzept des Isospins verdeutlicht wird.",
+      "difficulty": 4,
+      "subcategory": "Ladungsunabhängigkeit der Kernkraft & Isospin"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Kanonisches Ensemble: Dichtematrix & Zustandssumme",
+      "question": "Welche Aussage zur Zustandssumme Z eines kanonischen Ensembles ist korrekt?",
+      "choices": [
+        "A: Die Zustandssumme ist das Produkt der Energien aller Teilchen im System.",
+        "B: Die Zustandssumme bleibt konstant, wenn die Temperatur des Systems erhöht wird.",
+        "C: Die Zustandssumme ist immer gleich eins, unabhängig von der Temperatur.",
+        "D: Die Zustandssumme ist das Integral über die Dichtematrix, die die Wahrscheinlichkeit aller Mikrozustände beschreibt."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Zustandssumme Z eines kanonischen Ensembles ist tatsächlich das Integral über die Dichtematrix, die die Wahrscheinlichkeit aller Mikrozustände bei gegebener Temperatur beschreibt. Sie ist entscheidend für die Berechnung thermodynamischer Eigenschaften eines Systems.",
+      "difficulty": 8,
+      "subcategory": "Kanonisches Ensemble: Dichtematrix & Zustandssumme"
+    }
+  ]
+}

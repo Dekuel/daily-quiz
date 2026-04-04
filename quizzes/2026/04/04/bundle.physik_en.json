@@ -1,0 +1,168 @@
+{
+  "date": "2026-04-04",
+  "generated_at": "2026-04-04T03:50:49Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Längenkontraktion",
+      "question": "What happens to the length of an object when it moves relative to an observer at relativistic speeds?",
+      "choices": [
+        "A: The length of the object becomes infinite.",
+        "B: The length of the object increases.",
+        "C: The length of the object decreases.",
+        "D: The length of the object remains unchanged."
+      ],
+      "correct_answer": "C",
+      "explanation": "Length contraction is an effect of the theory of relativity, stating that the length of a rapidly moving object appears shortened from the perspective of a stationary observer. The faster the object moves, the stronger this effect is.",
+      "difficulty": 2,
+      "subcategory": "Längenkontraktion"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Phasen (Definitionen, Beispiele)",
+      "question": "Which of the following statements best describes the phase transition from solid to liquid?",
+      "choices": [
+        "A: Sublimation",
+        "B: Evaporation",
+        "C: Freezing",
+        "D: Melting"
+      ],
+      "correct_answer": "D",
+      "explanation": "The phase transition from solid to liquid is known as melting. This occurs when the temperature of a solid reaches its melting point, causing the molecules to move more freely, leading to a liquid phase.",
+      "difficulty": 6,
+      "subcategory": "Phasen (Definitionen, Beispiele)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Korrelationsfunktion & Suszeptibilität; Ornstein–Zernike",
+      "question": "What does the correlation function describe in statistical mechanics?",
+      "choices": [
+        "A: The temperature of a system.",
+        "B: The probability of two particles being at a specific location.",
+        "C: The energy of a particle.",
+        "D: The velocity of a particle."
+      ],
+      "correct_answer": "B",
+      "explanation": "The correlation function describes the probability of two particles being at a certain distance from each other. This function is crucial for understanding interactions in a statistical ensemble and plays a central role in statistical mechanics.",
+      "difficulty": 1,
+      "subcategory": "Korrelationsfunktion & Suszeptibilität; Ornstein–Zernike"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Phasenproblem bei Streuexperimenten",
+      "question": "What does the phase problem in solid-state physics refer to in scattering experiments?",
+      "choices": [
+        "A: The challenge of reconstructing wavefront phases in diffraction.",
+        "B: Describing the thermal expansion of solids.",
+        "C: The inability to determine the exact position of electrons in a crystal.",
+        "D: The interaction between photons and electrons in a solid."
+      ],
+      "correct_answer": "A",
+      "explanation": "The phase problem refers to the challenges of correctly reconstructing phase information from scattering experiments, which is crucial for determining the structure of crystals. Without precise phase information, the spatial arrangement of atoms cannot be definitively determined.",
+      "difficulty": 6,
+      "subcategory": "Phasenproblem bei Streuexperimenten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Wiedemann–Franz-Gesetz",
+      "question": "What does the Wiedemann–Franz law describe in general?",
+      "choices": [
+        "A: Particle motion in a vacuum.",
+        "B: The ratio of electrical and thermal conductivity in metals.",
+        "C: The relationship between pressure and volume in gas mixtures.",
+        "D: The interaction between light and matter."
+      ],
+      "correct_answer": "B",
+      "explanation": "The Wiedemann–Franz law states that the ratio of electrical conductivity to thermal conductivity in metals is constant and temperature-dependent. This law is particularly important for understanding heat conduction in metallic solids.",
+      "difficulty": 4,
+      "subcategory": "Wiedemann–Franz-Gesetz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Spezielle Operatoren (Zahl-, Hamilton-Operator)",
+      "question": "Which operator describes the total energy of a system in quantum mechanics?",
+      "choices": [
+        "A: Momentum operator",
+        "B: Hamiltonian operator",
+        "C: Position operator",
+        "D: Spin operator"
+      ],
+      "correct_answer": "B",
+      "explanation": "The Hamiltonian operator is the central operator in quantum mechanics that describes the total energy of a quantum mechanical system. It plays a crucial role in the Schrödinger equation, which describes the behavior of quantum objects.",
+      "difficulty": 4,
+      "subcategory": "Spezielle Operatoren (Zahl-, Hamilton-Operator)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Eigenfunktionen der gebundenen Zustände (Laguerre)",
+      "question": "What key property of Laguerre polynomials is essential for describing the radial eigenfunctions in a hydrogen atom?",
+      "choices": [
+        "A: They have only real roots that determine the energy states.",
+        "B: They are periodic and describe the temporal evolution of states.",
+        "C: They are constant and independent of quantum mechanical states.",
+        "D: They are orthogonal and normalizable over the interval [0, ∞)."
+      ],
+      "correct_answer": "D",
+      "explanation": "Laguerre polynomials are crucial for representing the radial eigenfunctions in the hydrogen atom because their orthogonality and normalizability ensure that the solutions of the Schrödinger equation accurately describe the quantum mechanical properties. These properties allow for the unique definition and analysis of states.",
+      "difficulty": 10,
+      "subcategory": "Eigenfunktionen der gebundenen Zustände (Laguerre)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Reflexions- und Brechungsgesetz",
+      "question": "Which of the following laws describes the relationship between the angle of incidence and the angle of refraction when light passes from one medium to another?",
+      "choices": [
+        "A: Snell's Law of Refraction",
+        "B: Fresnel's Law",
+        "C: Huygens' Principle",
+        "D: Law of total internal reflection"
+      ],
+      "correct_answer": "A",
+      "explanation": "Snell's Law of Refraction describes the relationship between the angle of incidence and the angle of refraction when light passes from one medium to another. It states that the ratio of the sine values of the angles is equal to the ratio of the speeds of light in the two media.",
+      "difficulty": 8,
+      "subcategory": "Reflexions- und Brechungsgesetz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Ladungsunabhängigkeit der Kernkraft & Isospin",
+      "question": "Which statement about the nuclear force is correct?",
+      "choices": [
+        "A: The nuclear force acts independently of the electric charge of the particles.",
+        "B: The nuclear force is effective only between protons.",
+        "C: The nuclear force requires an electric charge to act.",
+        "D: The nuclear force attracts positively charged particles and repels negatively charged ones."
+      ],
+      "correct_answer": "A",
+      "explanation": "The nuclear force is actually charge-independent and acts between both protons and neutrons. This means that the interaction is not dependent on the electric charge of the particles involved, as illustrated by the concept of isospin.",
+      "difficulty": 4,
+      "subcategory": "Ladungsunabhängigkeit der Kernkraft & Isospin"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Kanonisches Ensemble: Dichtematrix & Zustandssumme",
+      "question": "Which statement about the partition function Z of a canonical ensemble is correct?",
+      "choices": [
+        "A: The partition function is the product of the energies of all particles in the system.",
+        "B: The partition function remains constant when the system's temperature is increased.",
+        "C: The partition function is always equal to one, regardless of the temperature.",
+        "D: The partition function is the integral over the density matrix, which describes the probability of all microstates."
+      ],
+      "correct_answer": "D",
+      "explanation": "The partition function Z of a canonical ensemble is actually the integral over the density matrix, which describes the probability of all microstates at a given temperature. It is crucial for calculating thermodynamic properties of a system.",
+      "difficulty": 8,
+      "subcategory": "Kanonisches Ensemble: Dichtematrix & Zustandssumme"
+    }
+  ]
+}
