@@ -1,0 +1,169 @@
+{
+  "date": "2026-04-05",
+  "generated_at": "2026-04-05T04:02:14Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Fermi’s Goldene Regel",
+      "question": "Was beschreibt Fermi’s Goldene Regel in der Quantenmechanik?",
+      "choices": [
+        "A: Die Ablenkung von Lichtstrahlen durch ein Prisma.",
+        "B: Die Beziehung zwischen Temperatur und Energie eines Systems.",
+        "C: Die Wahrscheinlichkeit eines Übergangs zwischen quantenmechanischen Zuständen.",
+        "D: Die Erhaltung der Energie in einem geschlossenen System."
+      ],
+      "correct_answer": "C",
+      "explanation": "Fermi’s Goldene Regel gibt an, wie wahrscheinlich es ist, dass ein quantenmechanischer Übergang zwischen zwei Zuständen stattfindet. Sie ist besonders wichtig in der theoretischen Physik, um die Wechselwirkungen von Teilchen zu beschreiben.",
+      "difficulty": 5,
+      "subcategory": "Fermi’s Goldene Regel"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Angeregte Nukleonzustände",
+      "question": "Welches der folgenden Modelle beschreibt die angeregten Zustände von Nukleonen in einem Atomkern am besten?",
+      "choices": [
+        "A: Das Flüssigkeitströpfchenmodell",
+        "B: Das Quark-Modell",
+        "C: Das Shell-Modell",
+        "D: Das Rutherford-Modell"
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Shell-Modell beschreibt die angeregten Zustände von Nukleonen, indem es diese als in diskreten Energieniveaus organisiert betrachtet, ähnlich wie Elektronen in Atomen. Diese Betrachtung ist essentiell für das Verständnis der Kernstruktur und der Kernreaktionen.",
+      "difficulty": 9,
+      "subcategory": "Angeregte Nukleonzustände"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Bahndrehimpuls: Operator & Kommutatoren",
+      "question": "Welcher der folgenden Operatoren kommutiert nicht mit dem Bahndrehimpulsoperator in der Quantenmechanik?",
+      "choices": [
+        "A: Der Hamiltonoperator",
+        "B: Der Spinoperator",
+        "C: Der Impulsoperator",
+        "D: Der Energieoperator"
+      ],
+      "correct_answer": "B",
+      "explanation": "In der Quantenmechanik kommutiert der Bahndrehimpulsoperator mit dem Impuls- und Hamiltonoperator, da diese in verschiedenen Dimensionen operieren. Der Spinoperator hingegen, der intrinsische Drehimpuls beschreibt, interagiert nicht unabhängig vom Bahndrehimpuls, weshalb die beiden nicht kommutieren.",
+      "difficulty": 8,
+      "subcategory": "Bahndrehimpuls: Operator & Kommutatoren"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Potentiale & Hauptsätze der Gleichgewichtsthermodynamik",
+      "question": "Welcher der folgenden Hauptsätze der Thermodynamik besagt, dass die Energie eines geschlossenen Systems konstant bleibt, wenn keine Energie von außen zugeführt wird?",
+      "choices": [
+        "A: Erster Hauptsatz",
+        "B: Nullter Hauptsatz",
+        "C: Zweiter Hauptsatz",
+        "D: Dritter Hauptsatz"
+      ],
+      "correct_answer": "A",
+      "explanation": "Der Erste Hauptsatz der Thermodynamik, auch bekannt als das Gesetz der Energieerhaltung, besagt, dass die Gesamtenergie eines geschlossenen Systems konstant ist, solange keine Energie von außen zugeführt oder entzogen wird. Dieser Satz bildet die Grundlage für das Verständnis von Energieumwandlungen in physikalischen Prozessen.",
+      "difficulty": 7,
+      "subcategory": "Potentiale & Hauptsätze der Gleichgewichtsthermodynamik"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Statischer Druck in Flüssigkeiten",
+      "question": "Welcher Faktor beeinflusst den statischen Druck in einer Flüssigkeit am stärksten?",
+      "choices": [
+        "A: Die Dichte der Flüssigkeit",
+        "B: Die Temperatur der Flüssigkeit",
+        "C: Die Oberfläche der Flüssigkeit",
+        "D: Die Farbe der Flüssigkeit"
+      ],
+      "correct_answer": "A",
+      "explanation": "Der statische Druck in einer Flüssigkeit hängt direkt von der Dichte der Flüssigkeit und der Höhe der Flüssigkeitssäule ab. Eine höhere Dichte führt zu einem höheren Druck in der Tiefe, unabhängig von Temperatur oder anderen Faktoren.",
+      "difficulty": 6,
+      "subcategory": "Statischer Druck in Flüssigkeiten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Kritische Exponenten",
+      "question": "Was beschreibt der kritische Exponent in der Thermodynamik?",
+      "choices": [
+        "A: Die Masse eines Moleküls.",
+        "B: Die Temperatur eines idealen Gases.",
+        "C: Die Geschwindigkeit einer chemischen Reaktion.",
+        "D: Das Verhalten von physikalischen Größen nahe eines Phasenübergangs."
+      ],
+      "correct_answer": "D",
+      "explanation": "Der kritische Exponent beschreibt, wie physikalische Größen wie Druck oder Dichte sich verhalten, wenn ein System einen Phasenübergang durchläuft. Diese Größen zeigen dabei charakteristische Änderungen, die durch mathematische Exponenten quantifiziert werden.",
+      "difficulty": 1,
+      "subcategory": "Kritische Exponenten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Längenkontraktion",
+      "question": "Was passiert mit der Länge eines sich relativ zu einem Beobachter bewegenden Objekts?",
+      "choices": [
+        "A: Es erscheint länger als in Ruhe.",
+        "B: Es wird unsichtbar.",
+        "C: Es bleibt gleich.",
+        "D: Es erscheint kürzer als in Ruhe."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Längenkontraktion ist ein Phänomen der Relativitätstheorie, das besagt, dass sich bewegende Objekte aus der Sicht eines ruhenden Beobachters kürzer erscheinen. Dies tritt nur bei Geschwindigkeiten auf, die einen signifikanten Bruchteil der Lichtgeschwindigkeit erreichen.",
+      "difficulty": 2,
+      "subcategory": "Längenkontraktion"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Relativistische Theorie des Elektrons (Überblick)",
+      "question": "Was beschreibt die relativistische Theorie des Elektrons?",
+      "choices": [
+        "A: Die Bewegung von Elektronen bei Geschwindigkeiten nahe der Lichtgeschwindigkeit.",
+        "B: Die Entstehung von Elektron-Loch-Paaren in Halbleitern.",
+        "C: Die Wechselwirkung zwischen Elektronen und Photonen.",
+        "D: Die Stabilität von Elektronen in einem Atom."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die relativistische Theorie des Elektrons beschreibt, wie sich Elektronen verhalten, wenn sie sich mit Geschwindigkeiten nähern, die einen signifikanten Teil der Lichtgeschwindigkeit ausmachen. Dies führt zu Effekten wie der relativistischen Massenzunahme und der Zeitdilatation, die in der klassischen Mechanik nicht berücksichtigt werden.",
+      "difficulty": 6,
+      "subcategory": "Relativistische Theorie des Elektrons (Überblick)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Ladungsradius von Pionen und Kaonen",
+      "question": "Welcher der folgenden Aussagen über den Ladungsradius von Pionen und Kaonen ist korrekt?",
+      "choices": [
+        "A: Pionen und Kaonen haben denselben Ladungsradius.",
+        "B: Der Ladungsradius des Kaons ist größer als der des Pions.",
+        "C: Der Ladungsradius des Pions ist größer als der des Kaons.",
+        "D: Der Ladungsradius von Pionen und Kaonen ist unabhängig von ihrer Masse."
+      ],
+      "correct_answer": "B",
+      "explanation": "Der Ladungsradius des Kaons ist tatsächlich größer als der des Pions, was auf die unterschiedliche Quarkzusammensetzung zurückzuführen ist. Während Pionen aus einem Quark-Antiquark-Paar (u-d) bestehen, enthalten Kaonen ein anderes Quark (s).",
+      "difficulty": 8,
+      "subcategory": "Ladungsradius von Pionen und Kaonen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Ansatz der Wellenmechanik (de Broglie/Schrödinger-Idee)",
+      "question": "Was beschreibt die de Broglie-Wellenlänge eines Teilchens?",
+      "choices": [
+        "A: Die Geschwindigkeit eines Teilchens in einem Vakuum.",
+        "B: Die Wellenlänge, die mit der Bewegung eines Teilchens assoziiert ist.",
+        "C: Die Frequenz von Licht, das von einem Teilchen emittiert wird.",
+        "D: Die maximale Energie eines Teilchens in einem geschlossenen System."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die de Broglie-Wellenlänge ist ein Konzept, das die Wellen-Natur von Materie beschreibt und die Beziehung zwischen der Wellenlänge eines Teilchens und seinem Impuls herstellt. Sie spielt eine zentrale Rolle in der Quantenmechanik und verdeutlicht, dass Teilchen sowohl Eigenschaften von Teilchen als auch von Wellen besitzen können.",
+      "difficulty": 6,
+      "subcategory": "Ansatz der Wellenmechanik (de Broglie/Schrödinger-Idee)"
+    }
+  ]
+}
