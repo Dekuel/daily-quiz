@@ -1,0 +1,169 @@
+{
+  "date": "2026-04-06",
+  "generated_at": "2026-04-06T04:03:50Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Taylor-Entwicklung für Felder",
+      "question": "Welche der folgenden Aussagen zur Taylor-Entwicklung eines elektrischen Feldes E(x) um den Punkt x₀ ist korrekt?",
+      "choices": [
+        "A: Die Taylor-Entwicklung liefert eine Näherung für E(x) nur im Bereich sehr großer Abstände von x₀.",
+        "B: Eine Taylor-Entwicklung ist nur für konstante Felder anwendbar.",
+        "C: Die zweite Ableitung von E(x) an x₀ beschreibt die Krümmung des Feldes um diesen Punkt.",
+        "D: Die erste Ableitung von E(x) an x₀ ist gleich dem Wert von E(x₀)."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die zweite Ableitung von E(x) an x₀ gibt Aufschluss über die Krümmung des elektrischen Feldes in der Umgebung dieses Punktes. Die Taylor-Entwicklung ist ein wichtiges Werkzeug, um lokale Eigenschaften von Feldern zu analysieren und eignet sich für variable Felder, nicht nur für konstante.",
+      "difficulty": 9,
+      "subcategory": "Taylor-Entwicklung für Felder"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Observable",
+      "question": "Welche der folgenden Größen kann in der Quantenmechanik als Observable betrachtet werden?",
+      "choices": [
+        "A: Temperatur",
+        "B: Energie",
+        "C: Volumen",
+        "D: Druck"
+      ],
+      "correct_answer": "B",
+      "explanation": "In der Quantenmechanik sind Observable physikalische Größen, die durch Operatoren dargestellt werden. Die Energie eines Systems ist eine der wichtigsten Observable und kann gemessen werden, während die anderen genannten Größen nicht direkt als Observable im quantenmechanischen Sinne betrachtet werden können.",
+      "difficulty": 3,
+      "subcategory": "Observable"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Binomial- & Poisson-Verteilung (Exkurs)",
+      "question": "Welche der folgenden Aussagen beschreibt die Poisson-Verteilung korrekt?",
+      "choices": [
+        "A: Sie wird verwendet, um die Anzahl der Erfolge in einer festen Anzahl von Versuchen zu modellieren.",
+        "B: Sie ist eine spezielle Form der Normalverteilung.",
+        "C: Sie beschreibt die Wahrscheinlichkeit von Ereignissen in einem festen Zeitintervall.",
+        "D: Sie kann nur für diskrete Zufallsvariablen verwendet werden."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Poisson-Verteilung wird verwendet, um die Wahrscheinlichkeit von Ereignissen zu modellieren, die in einem festen Zeitintervall oder Raum auftreten. Sie ist besonders nützlich bei seltenen Ereignissen, während die Binomialverteilung sich auf eine feste Anzahl von Versuchen bezieht.",
+      "difficulty": 2,
+      "subcategory": "Binomial- & Poisson-Verteilung (Exkurs)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Wärmekapazitäten (C_V, C_p, Beziehungen)",
+      "question": "Was beschreibt die spezifische Wärmekapazität C_p eines Stoffes?",
+      "choices": [
+        "A: Die Wärmemenge, die erforderlich ist, um die Temperatur eines Stoffes bei konstantem Druck um 1 Grad Celsius zu erhöhen.",
+        "B: Die Wärmemenge, die erforderlich ist, um die Temperatur eines Stoffes bei konstantem Volumen um 1 Grad Celsius zu erhöhen.",
+        "C: Die Wärmemenge, die ein Stoff bei einer chemischen Reaktion abgibt.",
+        "D: Die maximale Temperatur, die ein Stoff erreichen kann."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die spezifische Wärmekapazität C_p beschreibt die Wärmemenge, die benötigt wird, um die Temperatur eines Stoffes bei konstantem Druck um 1 Grad Celsius zu erhöhen. Dies ist ein grundlegendes Konzept in der Thermodynamik und wichtig für das Verständnis von Wärmeübertragungsprozessen.",
+      "difficulty": 2,
+      "subcategory": "Wärmekapazitäten (C_V, C_p, Beziehungen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Ableitungen thermodynamischer Größen & Maxwell-Relationen",
+      "question": "Welche der folgenden Maxwell-Relationen beschreibt die Beziehung zwischen der Temperatur und der Entropie eines Systems?",
+      "choices": [
+        "A: (∂S/∂T)_P = (∂V/∂P)_T",
+        "B: (∂S/∂V)_T = (∂P/∂T)_V",
+        "C: (∂S/∂V)_P = (∂T/∂P)_S",
+        "D: (∂S/∂P)_T = (∂V/∂T)_P"
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Maxwell-Relation (∂S/∂V)_T = (∂P/∂T)_V beschreibt, wie die Entropie in Bezug auf das Volumen und die Temperatur variiert. Diese Beziehung ist ein zentrales Element in der thermodynamischen Analyse und zeigt, wie verschiedene Zustandsgrößen miteinander verknüpft sind.",
+      "difficulty": 6,
+      "subcategory": "Ableitungen thermodynamischer Größen & Maxwell-Relationen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Kernspaltung",
+      "question": "Was ist das Hauptprodukt der Kernspaltung in einem Kernkraftwerk?",
+      "choices": [
+        "A: Kohlenstoff",
+        "B: Energie",
+        "C: Wasserstoff",
+        "D: Helium"
+      ],
+      "correct_answer": "B",
+      "explanation": "Bei der Kernspaltung wird der Atomkern eines schweren Elements wie Uran oder Plutonium gespalten, was eine erhebliche Menge an Energie freisetzt. Diese Energie wird zur Erzeugung von Elektrizität in Kernkraftwerken genutzt.",
+      "difficulty": 5,
+      "subcategory": "Kernspaltung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Interferenz & Beugung elektromagnetischer Wellen",
+      "question": "Welche der folgenden Aussagen zur Beugung elektromagnetischer Wellen ist korrekt?",
+      "choices": [
+        "A: Beugung kann nur bei sichtbarem Licht beobachtet werden.",
+        "B: Beugung ist unabhängig von der Form des Hindernisses.",
+        "C: Beugung verändert die Frequenz der elektromagnetischen Wellen.",
+        "D: Beugung tritt auf, wenn die Wellen auf ein Hindernis treffen, dessen Größe vergleichbar mit der Wellenlänge ist."
+      ],
+      "correct_answer": "D",
+      "explanation": "Beugung ist ein Phänomen, das auftritt, wenn Wellen auf ein Hindernis treffen, dessen Größe in der Nähe der Wellenlänge liegt. Dies führt zu einer Ablenkung der Wellen und der Bildung von Interferenzmustern. Die anderen Aussagen sind falsch, da Beugung bei allen Wellenlängen auftritt, die Frequenz nicht verändert wird und die Form des Hindernisses eine Rolle spielt.",
+      "difficulty": 7,
+      "subcategory": "Interferenz & Beugung elektromagnetischer Wellen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Intrinsische kristalline Halbleiter",
+      "question": "Welche Eigenschaft ist charakteristisch für intrinsische Halbleiter bei Raumtemperatur?",
+      "choices": [
+        "A: Sie sind Isolatoren ohne freie Ladungsträger.",
+        "B: Sie leiten Strom ausschließlich durch Ionenbewegung.",
+        "C: Ihre Leitfähigkeit steigt mit zunehmender Temperatur.",
+        "D: Sie haben eine hohe elektrische Leitfähigkeit."
+      ],
+      "correct_answer": "C",
+      "explanation": "Intrinsische Halbleiter weisen bei Raumtemperatur eine moderate elektrische Leitfähigkeit auf, die mit steigender Temperatur zunimmt. Dies geschieht, weil thermische Energie Elektronen aus dem Valenzband in das Leitungsband anregt, wodurch freie Ladungsträger entstehen.",
+      "difficulty": 6,
+      "subcategory": "Intrinsische kristalline Halbleiter"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Van-der-Waals-Gas (Korrekturen)",
+      "question": "Was ist eine wichtige Korrektur, die bei der Beschreibung eines Van-der-Waals-Gases berücksichtigt werden muss?",
+      "choices": [
+        "A: Der Einfluss des Volumens der Moleküle",
+        "B: Der Druck des Gases",
+        "C: Die Temperatur des Gases",
+        "D: Die Farbe des Gases"
+      ],
+      "correct_answer": "A",
+      "explanation": "Bei der Beschreibung von Van-der-Waals-Gasen ist es wichtig, das Volumen der Moleküle zu berücksichtigen, da dies die verfügbaren Raumverhältnisse beeinflusst. Diese Korrektur ist besonders relevant, wenn die Moleküle dicht gepackt sind und sich gegenseitig beeinflussen.",
+      "difficulty": 2,
+      "subcategory": "Van-der-Waals-Gas (Korrekturen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Besetzungszahloperator & Eigenwertproblem",
+      "question": "Was beschreibt der Besetzungszahloperator in der Quantenmechanik?",
+      "choices": [
+        "A: Die Anzahl der Teilchen in einem bestimmten Zustand.",
+        "B: Die Gesamtenergie eines Systems von Teilchen.",
+        "C: Die Energie eines quantenmechanischen Systems.",
+        "D: Die Wahrscheinlichkeit, einen Teilchenzustand zu finden."
+      ],
+      "correct_answer": "A",
+      "explanation": "Der Besetzungszahloperator gibt an, wie viele Teilchen sich in einem bestimmten quantenmechanischen Zustand befinden. Er ist ein zentrales Konzept in der Quantenmechanik, insbesondere in der Beschreibung von vielen Teilchensystemen und deren statistischen Eigenschaften.",
+      "difficulty": 6,
+      "subcategory": "Besetzungszahloperator & Eigenwertproblem"
+    }
+  ]
+}

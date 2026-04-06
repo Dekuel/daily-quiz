@@ -1,0 +1,168 @@
+{
+  "date": "2026-04-06",
+  "generated_at": "2026-04-06T04:04:36Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Taylor-Entwicklung für Felder",
+      "question": "Which of the following statements about the Taylor expansion of an electric field E(x) around the point x₀ is correct?",
+      "choices": [
+        "A: The Taylor expansion provides an approximation for E(x) only in the range of very large distances from x₀.",
+        "B: A Taylor expansion is only applicable for constant fields.",
+        "C: The second derivative of E(x) at x₀ describes the curvature of the field around this point.",
+        "D: The first derivative of E(x) at x₀ is equal to the value of E(x₀)."
+      ],
+      "correct_answer": "C",
+      "explanation": "The second derivative of E(x) at x₀ provides information about the curvature of the electric field in the vicinity of this point. The Taylor expansion is an important tool for analyzing local properties of fields and is suitable for variable fields, not just for constant ones.",
+      "difficulty": 9,
+      "subcategory": "Taylor-Entwicklung für Felder"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Observable",
+      "question": "Which of the following quantities can be considered as an observable in quantum mechanics?",
+      "choices": [
+        "A: Temperature",
+        "B: Energy",
+        "C: Volume",
+        "D: Pressure"
+      ],
+      "correct_answer": "B",
+      "explanation": "In quantum mechanics, observables are physical quantities represented by operators. The energy of a system is one of the most important observables and can be measured, while the other mentioned quantities cannot be directly considered as observables in the quantum mechanical sense.",
+      "difficulty": 3,
+      "subcategory": "Observable"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Binomial- & Poisson-Verteilung (Exkurs)",
+      "question": "Which of the following statements correctly describes the Poisson distribution?",
+      "choices": [
+        "A: It is used to model the number of successes in a fixed number of trials.",
+        "B: It is a special form of the normal distribution.",
+        "C: It describes the probability of events in a fixed time interval.",
+        "D: It can only be used for discrete random variables."
+      ],
+      "correct_answer": "C",
+      "explanation": "The Poisson distribution is used to model the probability of events occurring in a fixed time interval or space. It is particularly useful for rare events, while the binomial distribution refers to a fixed number of trials.",
+      "difficulty": 2,
+      "subcategory": "Binomial- & Poisson-Verteilung (Exkurs)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Wärmekapazitäten (C_V, C_p, Beziehungen)",
+      "question": "What does the specific heat capacity C_p of a substance describe?",
+      "choices": [
+        "A: The amount of heat required to increase the temperature of a substance by 1 degree Celsius at constant pressure.",
+        "B: The amount of heat required to increase the temperature of a substance by 1 degree Celsius at constant volume.",
+        "C: The amount of heat released by a substance in a chemical reaction.",
+        "D: The maximum temperature a substance can reach."
+      ],
+      "correct_answer": "A",
+      "explanation": "The specific heat capacity C_p describes the amount of heat required to increase the temperature of a substance by 1 degree Celsius at constant pressure. This is a fundamental concept in thermodynamics and important for understanding heat transfer processes.",
+      "difficulty": 2,
+      "subcategory": "Wärmekapazitäten (C_V, C_p, Beziehungen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Ableitungen thermodynamischer Größen & Maxwell-Relationen",
+      "question": "Which of the following Maxwell relations describes the relationship between the temperature and entropy of a system?",
+      "choices": [
+        "A: (∂S/∂T)_P = (∂V/∂P)_T",
+        "B: (∂S/∂V)_T = (∂P/∂T)_V",
+        "C: (∂S/∂V)_P = (∂T/∂P)_S",
+        "D: (∂S/∂P)_T = (∂V/∂T)_P"
+      ],
+      "correct_answer": "B",
+      "explanation": "The Maxwell relation (∂S/∂V)_T = (∂P/∂T)_V describes how entropy varies with respect to volume and temperature. This relationship is a central element in thermodynamic analysis and shows how different state variables are linked.",
+      "difficulty": 6,
+      "subcategory": "Ableitungen thermodynamischer Größen & Maxwell-Relationen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Kernspaltung",
+      "question": "What is the main product of nuclear fission in a nuclear power plant?",
+      "choices": [
+        "A: Carbon",
+        "B: Energy",
+        "C: Hydrogen",
+        "D: Helium"
+      ],
+      "correct_answer": "B",
+      "explanation": "Nuclear fission involves splitting the atomic nucleus of a heavy element such as uranium or plutonium, releasing a significant amount of energy. This energy is used to generate electricity in nuclear power plants.",
+      "difficulty": 5,
+      "subcategory": "Kernspaltung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Interferenz & Beugung elektromagnetischer Wellen",
+      "question": "Which of the following statements about the diffraction of electromagnetic waves is correct?",
+      "choices": [
+        "A: Diffraction can only be observed with visible light.",
+        "B: Diffraction is independent of the shape of the obstacle.",
+        "C: Diffraction changes the frequency of electromagnetic waves.",
+        "D: Diffraction occurs when waves encounter an obstacle whose size is comparable to the wavelength."
+      ],
+      "correct_answer": "D",
+      "explanation": "Diffraction is a phenomenon that occurs when waves encounter an obstacle whose size is comparable to the wavelength. This leads to the bending of waves and the formation of interference patterns. The other statements are incorrect as diffraction occurs at all wavelengths, does not change the frequency, and the shape of the obstacle plays a role.",
+      "difficulty": 7,
+      "subcategory": "Interferenz & Beugung elektromagnetischer Wellen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Intrinsische kristalline Halbleiter",
+      "question": "Which property is characteristic of intrinsic semiconductors at room temperature?",
+      "choices": [
+        "A: They are insulators without free charge carriers.",
+        "B: They conduct electricity solely through ion movement.",
+        "C: Their conductivity increases with increasing temperature.",
+        "D: They have high electrical conductivity."
+      ],
+      "correct_answer": "C",
+      "explanation": "Intrinsic semiconductors exhibit moderate electrical conductivity at room temperature, which increases with rising temperature. This occurs because thermal energy excites electrons from the valence band to the conduction band, creating free charge carriers.",
+      "difficulty": 6,
+      "subcategory": "Intrinsische kristalline Halbleiter"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Van-der-Waals-Gas (Korrekturen)",
+      "question": "What is an important correction that must be considered when describing a Van der Waals gas?",
+      "choices": [
+        "A: The influence of the volume of the molecules",
+        "B: The pressure of the gas",
+        "C: The temperature of the gas",
+        "D: The color of the gas"
+      ],
+      "correct_answer": "A",
+      "explanation": "When describing Van der Waals gases, it is important to consider the volume of the molecules as it affects the available space. This correction is particularly relevant when the molecules are densely packed and influence each other.",
+      "difficulty": 2,
+      "subcategory": "Van-der-Waals-Gas (Korrekturen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Besetzungszahloperator & Eigenwertproblem",
+      "question": "What does the occupation number operator describe in quantum mechanics?",
+      "choices": [
+        "A: The number of particles in a specific state.",
+        "B: The total energy of a system of particles.",
+        "C: The energy of a quantum mechanical system.",
+        "D: The probability of finding a particle state."
+      ],
+      "correct_answer": "A",
+      "explanation": "The occupation number operator indicates how many particles are in a specific quantum state. It is a central concept in quantum mechanics, especially in describing many-particle systems and their statistical properties.",
+      "difficulty": 6,
+      "subcategory": "Besetzungszahloperator & Eigenwertproblem"
+    }
+  ]
+}
