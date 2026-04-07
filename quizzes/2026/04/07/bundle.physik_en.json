@@ -1,0 +1,168 @@
+{
+  "date": "2026-04-07",
+  "generated_at": "2026-04-07T04:01:00Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Bauelemente auf p–n-Basis",
+      "question": "What is the main advantage of a p-n junction in semiconductors?",
+      "choices": [
+        "A: It enables the control of current flow in a specific direction.",
+        "B: It generates high electrical conductivity without external energy.",
+        "C: It does not require doping of semiconductor materials.",
+        "D: It has the same physical structure as a metallic element."
+      ],
+      "correct_answer": "A",
+      "explanation": "The p-n junction is crucial for the operation of semiconductor devices such as diodes and transistors, as it allows current flow in only one direction. This is particularly important for applications in electronics where controlling the flow of current is essential.",
+      "difficulty": 6,
+      "subcategory": "Bauelemente auf p–n-Basis"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Statistische Begründung der Irreversibilität",
+      "question": "Which statement best describes the relationship between entropy and the irreversibility of processes in statistical mechanics?",
+      "choices": [
+        "A: Entropy can never decrease, excluding reversible processes.",
+        "B: Entropy remains constant in a closed system, allowing for return processes.",
+        "C: Entropy increases in a closed system, explaining irreversible processes.",
+        "D: Entropy is independent of the microscopic states of a system."
+      ],
+      "correct_answer": "C",
+      "explanation": "In statistical mechanics, entropy is a measure of disorder and the number of microscopic states of a system. The Second Law of Thermodynamics states that entropy tends to increase in a closed system, explaining the irreversibility of processes.",
+      "difficulty": 8,
+      "subcategory": "Statistische Begründung der Irreversibilität"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Eigenwertproblem des Bahndrehimpulses",
+      "question": "What does orbital angular momentum describe in quantum mechanics?",
+      "choices": [
+        "A: The temperature of a particle in a specific state.",
+        "B: The quantized values that a particle can assume in a specific state.",
+        "C: The velocity of a particle in a specific state.",
+        "D: The energy of a particle in a specific state."
+      ],
+      "correct_answer": "B",
+      "explanation": "Orbital angular momentum is an important quantity in quantum mechanics that describes quantized values for the angular momentum states of particles. These values are crucial for understanding the orbital properties of electrons in atoms.",
+      "difficulty": 5,
+      "subcategory": "Eigenwertproblem des Bahndrehimpulses"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Versagen des Rutherford-Modells",
+      "question": "Why does the Rutherford model fail to describe atoms?",
+      "choices": [
+        "A: It ignores the interactions between protons.",
+        "B: It describes electrons as point charges.",
+        "C: It assumes that electrons move in fixed orbits.",
+        "D: It does not consider the quantum nature of electrons."
+      ],
+      "correct_answer": "D",
+      "explanation": "The Rutherford model fails because it does not account for the quantum nature of electrons, leading to inaccurate predictions about the behavior of atoms. In quantum mechanics, electrons are described not as particles in fixed orbits, but as wave functions that provide probabilities for their positions.",
+      "difficulty": 5,
+      "subcategory": "Versagen des Rutherford-Modells"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Goldene Regel (Fermi)",
+      "question": "What does Fermi's Golden Rule describe in nuclear and particle physics?",
+      "choices": [
+        "A: The relationship between pressure and volume in gases.",
+        "B: The interaction between electrically charged particles.",
+        "C: The conservation of energy in a closed system.",
+        "D: The probability of a particle transitioning between two states."
+      ],
+      "correct_answer": "D",
+      "explanation": "Fermi's Golden Rule describes the transition probability of a particle between two states, particularly in quantum mechanics. It is important for understanding processes such as beta decay and other interactions in particle physics.",
+      "difficulty": 5,
+      "subcategory": "Goldene Regel (Fermi)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Design und Herstellung von Objektiven",
+      "question": "Which material is commonly used for manufacturing high-quality camera lenses to minimize chromatic aberration?",
+      "choices": [
+        "A: Silicon",
+        "B: Plastic",
+        "C: Glass",
+        "D: Fluorite"
+      ],
+      "correct_answer": "D",
+      "explanation": "Fluorite has a low refractive index variation across different wavelengths, which helps reduce chromatic aberration. High-quality lenses often use fluorite or special types of glass to improve image quality.",
+      "difficulty": 6,
+      "subcategory": "Design und Herstellung von Objektiven"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Jacobi-Prinzip (verkürzte Wirkung)",
+      "question": "Which of the following concepts is related to the Jacobi principle in analytical mechanics?",
+      "choices": [
+        "A: The energy of a system always remains constant.",
+        "B: The action is considered as an integral over the Lagrangian.",
+        "C: Newton's laws are directly derived.",
+        "D: The conservation of momentum applies only in non-closed systems."
+      ],
+      "correct_answer": "B",
+      "explanation": "The Jacobi principle is based on the idea that the action of a system can be expressed as an integral over the Lagrangian function. This concept is central to deriving the equations of motion in analytical mechanics.",
+      "difficulty": 7,
+      "subcategory": "Jacobi-Prinzip (verkürzte Wirkung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Maxwell–Boltzmann-Verteilung",
+      "question": "What does the Maxwell–Boltzmann distribution describe in thermodynamics?",
+      "choices": [
+        "A: The temperature change during an adiabatic process.",
+        "B: The distribution of velocities of molecules in an ideal gas.",
+        "C: The interaction between two charged particles.",
+        "D: The energy distribution of photons in a black body."
+      ],
+      "correct_answer": "B",
+      "explanation": "The Maxwell–Boltzmann distribution describes how the velocities of molecules in an ideal gas are distributed. It is crucial for understanding the kinetic theory of gases and the thermal properties of gases.",
+      "difficulty": 7,
+      "subcategory": "Maxwell–Boltzmann-Verteilung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Observable & Zustände für identische Teilchen",
+      "question": "In quantum mechanics, what does an 'observable' refer to?",
+      "choices": [
+        "A: A particle in a specific state.",
+        "B: A specific type of energy present in quanta.",
+        "C: A measurable quantity describing the state of a system.",
+        "D: A theoretical assumption about the motion of particles."
+      ],
+      "correct_answer": "C",
+      "explanation": "In quantum mechanics, an 'observable' refers to a measurable quantity, such as position or momentum, that describes the state of a system. Each observable can be represented by an operator whose eigenvalues represent the possible measurement outcomes.",
+      "difficulty": 2,
+      "subcategory": "Observable & Zustände für identische Teilchen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Eulersche Gleichungen",
+      "question": "What does the Euler's equation describe in classical mechanics?",
+      "choices": [
+        "A: Die Wärmeübertragung zwischen verschiedenen Körpern.",
+        "B: Die Bewegung von starren Körpern unter dem Einfluss von Kräften.",
+        "C: Die Quantisierung von Energieniveaus in Atomen.",
+        "D: Die Beziehung zwischen elektrischen und magnetischen Feldern."
+      ],
+      "correct_answer": "B",
+      "explanation": "The Euler's equation describes the dynamics of rigid bodies and their motion under the influence of forces. It is a fundamental concept in classical mechanics and helps analyze rotational movements.",
+      "difficulty": 3,
+      "subcategory": "Eulersche Gleichungen"
+    }
+  ]
+}
