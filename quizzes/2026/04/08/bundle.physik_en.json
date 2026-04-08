@@ -1,0 +1,168 @@
+{
+  "date": "2026-04-08",
+  "generated_at": "2026-04-08T04:02:27Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Struktur amorpher Festkörper",
+      "question": "What best describes the structure of an amorphous solid?",
+      "choices": [
+        "A: The atoms follow a two-dimensional crystal lattice.",
+        "B: The atoms are randomly arranged without long-term order.",
+        "C: The atoms are organized in a three-dimensional lattice structure.",
+        "D: The atoms are arranged in a regular, repeating pattern."
+      ],
+      "correct_answer": "B",
+      "explanation": "Amorphous solids are characterized by an irregular arrangement of atoms that lacks long-term order. This structure is distinctly different from the crystalline structure, where a regular arrangement is present.",
+      "difficulty": 6,
+      "subcategory": "Struktur amorpher Festkörper"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Kopplung von Drehimpulsen (J‑Kopplung)",
+      "question": "What describes J-coupling in nuclear and particle physics?",
+      "choices": [
+        "A: The analysis of light refraction in different media.",
+        "B: The interaction between spin and orbital angular momentum of particles.",
+        "C: The relationship between temperature and entropy.",
+        "D: The energy distribution in a solid."
+      ],
+      "correct_answer": "B",
+      "explanation": "J-coupling describes how the total angular momentum of a system of particles arises from the coupling of spin and orbital angular momentum. This coupling is crucial for understanding the energy states and spectral lines in atomic nuclei.",
+      "difficulty": 6,
+      "subcategory": "Kopplung von Drehimpulsen (J‑Kopplung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Geometrische Interpretation von Phasenübergängen",
+      "question": "What does a phase diagram describe in thermodynamics?",
+      "choices": [
+        "A: The chemical composition of a substance.",
+        "B: The changes in state of a substance depending on pressure and temperature.",
+        "C: The electrical properties of materials.",
+        "D: The kinetic energy of particles in a gas."
+      ],
+      "correct_answer": "B",
+      "explanation": "A phase diagram shows how the phases of a substance (solid, liquid, gas) change depending on pressure and temperature. It helps to understand the conditions under which a phase transition occurs.",
+      "difficulty": 2,
+      "subcategory": "Geometrische Interpretation von Phasenübergängen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Vergrößernde optische Instrumente",
+      "question": "Which of the following instruments is primarily used for magnifying objects?",
+      "choices": [
+        "A: Thermometer",
+        "B: Barometer",
+        "C: Compass",
+        "D: Microscope"
+      ],
+      "correct_answer": "D",
+      "explanation": "A microscope is an optical instrument used to magnify small objects for detailed viewing. The other mentioned instruments have different functions, such as measuring pressure, temperature, or direction.",
+      "difficulty": 4,
+      "subcategory": "Vergrößernde optische Instrumente"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Rotation bei konstantem Drehmoment",
+      "question": "What happens to the angular velocity of a body when a constant torque acts on it and no other external torques are present?",
+      "choices": [
+        "A: The angular velocity remains constant.",
+        "B: The angular velocity increases linearly.",
+        "C: The angular velocity decreases.",
+        "D: The angular velocity increases exponentially."
+      ],
+      "correct_answer": "B",
+      "explanation": "With a constant torque, the angular velocity of a body increases according to the law of inertia for rotational motion. This means that the angular velocity increases linearly with time as long as the torque remains constant and no other influences are at play.",
+      "difficulty": 6,
+      "subcategory": "Rotation bei konstantem Drehmoment"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Observable & Zustände für identische Teilchen",
+      "question": "Which statement about identical particles in quantum mechanics is correct?",
+      "choices": [
+        "A: Identical bosons can occupy the same quantum state.",
+        "B: Identical fermions can occupy the same quantum state without restriction.",
+        "C: Identical fermions can only exist with opposite spins.",
+        "D: Identical particles always behave like classical particles."
+      ],
+      "correct_answer": "A",
+      "explanation": "In quantum mechanics, identical bosons must follow Bose-Einstein statistics, allowing them to occupy the same quantum state. In contrast, identical fermions cannot occupy the same quantum state due to the Pauli exclusion principle. This distinction is fundamental for understanding quantum mechanical systems with identical particles.",
+      "difficulty": 7,
+      "subcategory": "Observable & Zustände für identische Teilchen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Maxwell-Gleichungen der Magnetostatik",
+      "question": "Which of the following statements about the Maxwell equations in magnetostatics is correct?",
+      "choices": [
+        "A: Magnetic monopoles exist and are considered in the Maxwell equations.",
+        "B: The magnetic field is generated by moving electric charges.",
+        "C: There is no connection between the magnetic field and the electric field strength.",
+        "D: The magnetic field is always radial and diverges from a point."
+      ],
+      "correct_answer": "B",
+      "explanation": "In magnetostatics, the Maxwell equation describes that the magnetic field is generated by moving electric charges (current). This relationship is fundamental for understanding magnetic fields and their sources in electrodynamics.",
+      "difficulty": 8,
+      "subcategory": "Maxwell-Gleichungen der Magnetostatik"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Elektronische Polarisierbarkeit",
+      "question": "Which of the following statements about electronic polarizability in solids is correct?",
+      "choices": [
+        "A: Electronic polarizability is always negative.",
+        "B: Electronic polarizability is independent of the frequency of incident light.",
+        "C: Materials with high electrical conductivity necessarily have low electronic polarizability.",
+        "D: Electronic polarizability describes a material's ability to shift its electron distribution under the influence of an external electric field."
+      ],
+      "correct_answer": "D",
+      "explanation": "Electronic polarizability is a measure of how much the electron distribution in a material is distorted under the influence of an external electric field. This property is crucial for understanding the optical and electrical properties of solids.",
+      "difficulty": 7,
+      "subcategory": "Elektronische Polarisierbarkeit"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Thermodynamische Systeme (offen/geschlossen/isoliert)",
+      "question": "Which of the following systems can exchange both matter and energy with its surroundings?",
+      "choices": [
+        "A: Closed system",
+        "B: Open system",
+        "C: Isolated system",
+        "D: Adiabatic system"
+      ],
+      "correct_answer": "B",
+      "explanation": "An open system is one that can exchange both matter and energy with its surroundings. In contrast, closed systems only exchange energy, while isolated systems exchange neither matter nor energy.",
+      "difficulty": 10,
+      "subcategory": "Thermodynamische Systeme (offen/geschlossen/isoliert)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Kronig–Penney-Modell (Bänder)",
+      "question": "What does the Kronig-Penney model describe in quantum mechanics?",
+      "choices": [
+        "A: The energy losses of photons in a vacuum.",
+        "B: The interaction between electrons and magnetic fields.",
+        "C: The band structure of electrons in a crystal.",
+        "D: The motion of particles in a classical pendulum."
+      ],
+      "correct_answer": "C",
+      "explanation": "The Kronig-Penney model is a simple model in quantum mechanics that describes the band structure of electrons in a periodic potential. It helps understand how electrons behave in solids and what energy levels they can occupy.",
+      "difficulty": 4,
+      "subcategory": "Kronig–Penney-Modell (Bänder)"
+    }
+  ]
+}
