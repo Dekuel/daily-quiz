@@ -1,0 +1,169 @@
+{
+  "date": "2026-04-09",
+  "generated_at": "2026-04-09T03:58:47Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Ideales Gas (Zustandsgleichung)",
+      "question": "Was beschreibt die Zustandsgleichung eines idealen Gases?",
+      "choices": [
+        "A: Die Geschwindigkeit der Moleküle in einem Gas.",
+        "B: Die chemische Zusammensetzung eines Gases.",
+        "C: Das Verhältnis von Druck, Volumen und Temperatur eines Gases.",
+        "D: Die Farbe und das Gewicht eines Gases."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Zustandsgleichung eines idealen Gases beschreibt das Verhältnis zwischen Druck, Volumen und Temperatur und ist gegeben durch die Formel PV = nRT. Diese Gleichung ist grundlegend für das Verständnis des Verhaltens von idealen Gasen in der Thermodynamik.",
+      "difficulty": 1,
+      "subcategory": "Ideales Gas (Zustandsgleichung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Totalreflexion und evaneszente Wellen",
+      "question": "Was passiert bei der Totalreflexion?",
+      "choices": [
+        "A: Licht breitet sich ungehindert aus.",
+        "B: Licht wird in zwei Teile gespalten.",
+        "C: Licht wird vollständig reflektiert.",
+        "D: Licht wird vollständig absorbiert."
+      ],
+      "correct_answer": "C",
+      "explanation": "Bei der Totalreflexion wird Licht an der Grenzfläche zwischen zwei Medien vollständig reflektiert, wenn der Einfallswinkel größer als der sogenannte kritische Winkel ist. Dies tritt typischerweise auf, wenn Licht von einem dichteren in ein dünneres Medium übergeht.",
+      "difficulty": 1,
+      "subcategory": "Totalreflexion und evaneszente Wellen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Eigenwertproblem",
+      "question": "Was beschreibt ein Eigenwertproblem in der Quantenmechanik?",
+      "choices": [
+        "A: Die Temperaturabhängigkeit von Materialien.",
+        "B: Die Bewegung von Teilchen in klassischen Systemen.",
+        "C: Die Wechselwirkungen zwischen elektrischen Feldern.",
+        "D: Die Beziehung zwischen einem Operator und seinen Eigenwerten."
+      ],
+      "correct_answer": "D",
+      "explanation": "Ein Eigenwertproblem in der Quantenmechanik beschreibt, wie ein Operator (z.B. Hamiltonoperator) auf einen quantenmechanischen Zustand wirkt und welche Eigenwerte (Energien) mit diesem Zustand verbunden sind. Dies ist entscheidend für das Verständnis der quantenmechanischen Systeme und deren Eigenschaften.",
+      "difficulty": 5,
+      "subcategory": "Eigenwertproblem"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Kollektive Phänomene im Elektronengas",
+      "question": "Welches Phänomen beschreibt die kollektive Bewegung von Elektronen in einem Metall, die zu einer signifikanten Änderung des elektrischen Widerstands führen kann?",
+      "choices": [
+        "A: Piezoelektrischer Effekt",
+        "B: Supraleitung",
+        "C: Hall-Effekt",
+        "D: Thermoelektrische Effekte"
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Supraleitung ist ein Zustand, in dem ein Material bei ausreichend niedrigen Temperaturen keinen elektrischen Widerstand zeigt. Dies ist ein Beispiel für ein kollektives Phänomen im Elektronengas, da die Elektronen sich koordiniert bewegen und die Wechselwirkungen mit Gitterunreinheiten eliminieren.",
+      "difficulty": 6,
+      "subcategory": "Kollektive Phänomene im Elektronengas"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Sommerfeld’sche Polynommethode",
+      "question": "Was ist das Hauptziel der Sommerfeld’schen Polynommethode in der Quantenmechanik?",
+      "choices": [
+        "A: Lösung von Differentialgleichungen für quantenmechanische Systeme",
+        "B: Analyse der Lichtbrechung in verschiedenen Medien",
+        "C: Berechnung der Trajektorien von Teilchen im klassischen Sinne",
+        "D: Bestimmung der Temperatur von Schwarzkörperstrahlung"
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Sommerfeld’sche Polynommethode wird verwendet, um Differentialgleichungen zu lösen, die in quantenmechanischen Systemen auftreten. Sie ist besonders nützlich für die Beschreibung von Energiezuständen in quantenmechanischen Problemen.",
+      "difficulty": 2,
+      "subcategory": "Sommerfeld’sche Polynommethode"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Elemente der Variationsrechnung",
+      "question": "Was beschreibt das Prinzip der kleinsten Wirkung in der Variationsrechnung?",
+      "choices": [
+        "A: Der Weg, der von einem Teilchen genommen wird, ist derjenige, der die Wirkung minimiert.",
+        "B: Der Impuls eines Teilchens kann niemals verloren gehen.",
+        "C: Die Energie eines Systems bleibt immer konstant.",
+        "D: Die Geschwindigkeit eines Teilchens ist immer konstant."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Prinzip der kleinsten Wirkung besagt, dass die Bewegungsbahn eines Teilchens so gewählt wird, dass die Wirkung minimiert wird. Dieses Prinzip ist ein zentrales Konzept in der analytischen Mechanik und wird häufig zur Ableitung der Bewegungsgleichungen verwendet.",
+      "difficulty": 5,
+      "subcategory": "Elemente der Variationsrechnung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Brillouin–Wigner-Störreihe",
+      "question": "Was beschreibt die Brillouin–Wigner-Störreihe in der Quantenmechanik?",
+      "choices": [
+        "A: Die Bewegung von Teilchen in einem elektrischen Feld.",
+        "B: Die Wechselwirkung zwischen Licht und Materie.",
+        "C: Die Entwicklung von Eigenwerten in Abhängigkeit von einer Störung.",
+        "D: Die thermodynamischen Eigenschaften von Gasen."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Brillouin–Wigner-Störreihe ist ein mathematisches Werkzeug, das in der Quantenmechanik verwendet wird, um Eigenwerte in Bezug auf eine perturbative Störung zu berechnen. Sie ermöglicht es, die Änderungen der Energiezustände eines Systems zu analysieren, wenn es einer kleinen Störung ausgesetzt wird.",
+      "difficulty": 1,
+      "subcategory": "Brillouin–Wigner-Störreihe"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Einsteins Postulate der SRT",
+      "question": "Was besagt das erste Postulat der speziellen Relativitätstheorie?",
+      "choices": [
+        "A: Licht breitet sich in jedem Medium mit der gleichen Geschwindigkeit aus.",
+        "B: Die Gesetze der Physik sind in allen inertialen Bezugssystemen gleich.",
+        "C: Die Zeit vergeht für alle Beobachter gleich schnell.",
+        "D: Die Masse eines Körpers bleibt konstant, unabhängig von seiner Geschwindigkeit."
+      ],
+      "correct_answer": "B",
+      "explanation": "Das erste Postulat der speziellen Relativitätstheorie besagt, dass die physikalischen Gesetze in allen inertialen Bezugssystemen die gleichen sind. Dies bedeutet, dass es kein bevorzugtes Bezugssystem gibt und die Naturgesetze universell gelten.",
+      "difficulty": 3,
+      "subcategory": "Einsteins Postulate der SRT"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Oberflächenspannung",
+      "question": "Welche der folgenden Aussagen beschreibt am besten den Effekt der Oberflächenspannung auf Flüssigkeiten?",
+      "choices": [
+        "A: Oberflächenspannung hat keinen Einfluss auf die Form von Flüssigkeitsoberflächen.",
+        "B: Oberflächenspannung ist verantwortlich für die Temperaturerhöhung einer Flüssigkeit.",
+        "C: Oberflächenspannung verursacht, dass Wasser in einem Glas höher steigt als der Rest des Wasserspiegels.",
+        "D: Oberflächenspannung führt dazu, dass Flüssigkeiten immer in einer perfekten Kugelform bleiben."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Oberflächenspannung bewirkt, dass die Moleküle an der Oberfläche einer Flüssigkeit stärker zusammengezogen werden, was zu einem Anstieg des Wassers in engen Röhren führt (Kapillarität). Diese Eigenschaft ist entscheidend für viele physikalische Prozesse und die Form von Flüssigkeitsoberflächen.",
+      "difficulty": 7,
+      "subcategory": "Oberflächenspannung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Bohr’sches Atommodell",
+      "question": "Was beschreibt das Bohr’sche Atommodell?",
+      "choices": [
+        "A: Die Wellenfunktion von Teilchen in einem quantenmechanischen System.",
+        "B: Die Struktur des Atomkerns aus Protonen und Neutronen.",
+        "C: Die Wechselwirkung zwischen Elektronen und Photonen.",
+        "D: Die Bewegungen von Elektronen in festen Bahnen um den Atomkern."
+      ],
+      "correct_answer": "D",
+      "explanation": "Das Bohr’sche Atommodell beschreibt die Elektronen als sich auf festen Bahnen um den Atomkern bewegend. Diese Bahnen sind quantisiert, was bedeutet, dass die Elektronen nur bestimmte Energieniveaus annehmen können.",
+      "difficulty": 3,
+      "subcategory": "Bohr’sches Atommodell"
+    }
+  ]
+}

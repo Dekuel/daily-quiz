@@ -1,0 +1,168 @@
+{
+  "date": "2026-04-09",
+  "generated_at": "2026-04-09T03:59:23Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Ideales Gas (Zustandsgleichung)",
+      "question": "What does the equation of state of an ideal gas describe?",
+      "choices": [
+        "A: The speed of molecules in a gas.",
+        "B: The chemical composition of a gas.",
+        "C: The relationship between the pressure, volume, and temperature of a gas.",
+        "D: The color and weight of a gas."
+      ],
+      "correct_answer": "C",
+      "explanation": "The equation of state of an ideal gas describes the relationship between pressure, volume, and temperature and is given by the formula PV = nRT. This equation is fundamental for understanding the behavior of ideal gases in thermodynamics.",
+      "difficulty": 1,
+      "subcategory": "Ideales Gas (Zustandsgleichung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Totalreflexion und evaneszente Wellen",
+      "question": "What happens during total internal reflection?",
+      "choices": [
+        "A: Light propagates unhindered.",
+        "B: Light is split into two parts.",
+        "C: Light is completely reflected.",
+        "D: Light is completely absorbed."
+      ],
+      "correct_answer": "C",
+      "explanation": "During total internal reflection, light is completely reflected at the interface between two media when the angle of incidence is greater than the so-called critical angle. This typically occurs when light transitions from a denser to a less dense medium.",
+      "difficulty": 1,
+      "subcategory": "Totalreflexion und evaneszente Wellen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Eigenwertproblem",
+      "question": "What does an eigenvalue problem in quantum mechanics describe?",
+      "choices": [
+        "A: The temperature dependence of materials.",
+        "B: The motion of particles in classical systems.",
+        "C: The interactions between electric fields.",
+        "D: The relationship between an operator and its eigenvalues."
+      ],
+      "correct_answer": "D",
+      "explanation": "An eigenvalue problem in quantum mechanics describes how an operator (e.g., Hamiltonian operator) acts on a quantum state and which eigenvalues (energies) are associated with that state. This is crucial for understanding quantum mechanical systems and their properties.",
+      "difficulty": 5,
+      "subcategory": "Eigenwertproblem"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Kollektive Phänomene im Elektronengas",
+      "question": "What phenomenon describes the collective motion of electrons in a metal that can lead to a significant change in electrical resistance?",
+      "choices": [
+        "A: Piezoelectric effect",
+        "B: Superconductivity",
+        "C: Hall effect",
+        "D: Thermoelectric effects"
+      ],
+      "correct_answer": "B",
+      "explanation": "Superconductivity is a state in which a material exhibits zero electrical resistance at sufficiently low temperatures. This is an example of a collective phenomenon in the electron gas, where electrons move in a coordinated manner and eliminate interactions with lattice defects.",
+      "difficulty": 6,
+      "subcategory": "Kollektive Phänomene im Elektronengas"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Sommerfeld’sche Polynommethode",
+      "question": "What is the main goal of the Sommerfeld polynomial method in quantum mechanics?",
+      "choices": [
+        "A: Solving differential equations for quantum mechanical systems",
+        "B: Analyzing light refraction in different media",
+        "C: Calculating trajectories of particles in the classical sense",
+        "D: Determining the temperature of blackbody radiation"
+      ],
+      "correct_answer": "A",
+      "explanation": "The Sommerfeld polynomial method is used to solve differential equations that arise in quantum mechanical systems. It is particularly useful for describing energy states in quantum mechanical problems.",
+      "difficulty": 2,
+      "subcategory": "Sommerfeld’sche Polynommethode"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Elemente der Variationsrechnung",
+      "question": "What does the principle of least action describe in variational calculus?",
+      "choices": [
+        "A: The path taken by a particle minimizes the action.",
+        "B: The momentum of a particle can never be lost.",
+        "C: The energy of a system always remains constant.",
+        "D: The velocity of a particle is always constant."
+      ],
+      "correct_answer": "A",
+      "explanation": "The principle of least action states that the path taken by a particle is chosen so that the action is minimized. This principle is a central concept in analytical mechanics and is often used to derive the equations of motion.",
+      "difficulty": 5,
+      "subcategory": "Elemente der Variationsrechnung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Brillouin–Wigner-Störreihe",
+      "question": "What does the Brillouin–Wigner perturbation series describe in quantum mechanics?",
+      "choices": [
+        "A: The motion of particles in an electric field.",
+        "B: The interaction between light and matter.",
+        "C: The evolution of eigenvalues depending on a disturbance.",
+        "D: The thermodynamic properties of gases."
+      ],
+      "correct_answer": "C",
+      "explanation": "The Brillouin–Wigner perturbation series is a mathematical tool used in quantum mechanics to calculate eigenvalues with respect to a perturbative disturbance. It allows for analyzing changes in the energy states of a system when subjected to a small disturbance.",
+      "difficulty": 1,
+      "subcategory": "Brillouin–Wigner-Störreihe"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Einsteins Postulate der SRT",
+      "question": "What does the first postulate of special relativity state?",
+      "choices": [
+        "A: Light propagates at the same speed in every medium.",
+        "B: The laws of physics are the same in all inertial reference frames.",
+        "C: Time passes at the same rate for all observers.",
+        "D: The mass of a body remains constant regardless of its velocity."
+      ],
+      "correct_answer": "B",
+      "explanation": "The first postulate of special relativity states that the physical laws are the same in all inertial reference frames. This means that there is no preferred reference frame, and the laws of nature are universally valid.",
+      "difficulty": 3,
+      "subcategory": "Einsteins Postulate der SRT"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Oberflächenspannung",
+      "question": "Which of the following statements best describes the effect of surface tension on liquids?",
+      "choices": [
+        "A: Surface tension has no effect on the shape of liquid surfaces.",
+        "B: Surface tension is responsible for the temperature increase of a liquid.",
+        "C: Surface tension causes water in a glass to rise higher than the rest of the water level.",
+        "D: Surface tension causes liquids to always remain in a perfect spherical shape."
+      ],
+      "correct_answer": "C",
+      "explanation": "Surface tension causes molecules at the surface of a liquid to be more tightly bound together, leading to an increase in water in narrow tubes (capillarity). This property is crucial for many physical processes and the shape of liquid surfaces.",
+      "difficulty": 7,
+      "subcategory": "Oberflächenspannung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Bohr’sches Atommodell",
+      "question": "What does Bohr's atomic model describe?",
+      "choices": [
+        "A: The wave function of particles in a quantum mechanical system.",
+        "B: The structure of the atomic nucleus composed of protons and neutrons.",
+        "C: The interaction between electrons and photons.",
+        "D: The movements of electrons in fixed orbits around the atomic nucleus."
+      ],
+      "correct_answer": "D",
+      "explanation": "Bohr's atomic model describes electrons as moving on fixed orbits around the atomic nucleus. These orbits are quantized, meaning electrons can only assume certain energy levels.",
+      "difficulty": 3,
+      "subcategory": "Bohr’sches Atommodell"
+    }
+  ]
+}
