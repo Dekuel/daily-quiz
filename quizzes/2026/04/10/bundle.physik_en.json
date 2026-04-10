@@ -1,0 +1,168 @@
+{
+  "date": "2026-04-10",
+  "generated_at": "2026-04-10T04:05:35Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Helmholtzsche Wirbelsätze",
+      "question": "Which of the following sentences describes the relationship between the conservation of energy and the conservation of momentum in a system described by the Helmholtz vortex theorems?",
+      "choices": [
+        "A: Energy is always converted into kinetic energy when momentum remains constant.",
+        "B: Momentum is always equal to energy multiplied by time.",
+        "C: In a closed system, the total energy remains constant, which also affects the total momentum.",
+        "D: The change in momentum is proportional to the change in energy in the system."
+      ],
+      "correct_answer": "C",
+      "explanation": "The Helmholtz vortex theorems refer to the conservation of energy and momentum in a closed system. The correct sentence describes that the total energy of a closed system remains constant, which also implies momentum conservation.",
+      "difficulty": 8,
+      "subcategory": "Helmholtzsche Wirbelsätze"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Naturkonstanten (Fundamentalwerte)",
+      "question": "Which of the following natural constants describes the strength of the electromagnetic interaction?",
+      "choices": [
+        "A: The fine-structure constant",
+        "B: The Planck constant",
+        "C: The gravitational constant",
+        "D: The speed of light"
+      ],
+      "correct_answer": "A",
+      "explanation": "The fine-structure constant is a dimensionless natural constant that describes the strength of the electromagnetic interaction between elementary particles. It plays a crucial role in quantum field theory and in the description of atomic spectra.",
+      "difficulty": 9,
+      "subcategory": "Naturkonstanten (Fundamentalwerte)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Geschl. System bei konstanten Kräften: Minimum der Enthalpie H",
+      "question": "Which state of a closed system with constant forces typically leads to the minimum of enthalpy H?",
+      "choices": [
+        "A: Phase transition",
+        "B: Isothermal compression",
+        "C: Adiabatic expansion",
+        "D: Thermal equilibrium"
+      ],
+      "correct_answer": "D",
+      "explanation": "A closed system reaches the minimum of enthalpy H in thermal equilibrium, as in this state the temperatures of all parts of the system are equal and no heat transfer occurs. This is a fundamental condition in thermodynamics to ensure energetic stability.",
+      "difficulty": 9,
+      "subcategory": "Geschl. System bei konstanten Kräften: Minimum der Enthalpie H"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Beispiel: α-Radioaktivität",
+      "question": "What is the main characteristic of α-radioactivity?",
+      "choices": [
+        "A: Emission of electrons",
+        "B: Conversion into another isotope",
+        "C: Emission of photons",
+        "D: Emission of helium nuclei"
+      ],
+      "correct_answer": "D",
+      "explanation": "Alpha radioactivity is characterized by the emission of helium nuclei, consisting of two protons and two neutrons. These particles, also called alpha particles, lead to a reduction in the mass number of the original atomic nucleus.",
+      "difficulty": 6,
+      "subcategory": "Beispiel: α-Radioaktivität"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Geschl. System bei konstanten Kräften: Minimum der Enthalpie H",
+      "question": "What happens to the enthalpy H of a closed system when the pressure is kept constant and the temperature decreases?",
+      "choices": [
+        "A: The enthalpy H decreases.",
+        "B: The enthalpy H increases.",
+        "C: The enthalpy H remains constant.",
+        "D: The enthalpy H fluctuates randomly."
+      ],
+      "correct_answer": "A",
+      "explanation": "In a closed system, a decrease in temperature at constant pressure generally leads to a decrease in enthalpy H. This is a fundamental principle of thermodynamics that describes the relationship between temperature, pressure, and enthalpy.",
+      "difficulty": 4,
+      "subcategory": "Geschl. System bei konstanten Kräften: Minimum der Enthalpie H"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Gesetz korrespondierender Zustände & kritischer Punkt",
+      "question": "Which of the following laws describes the behavior of systems near the critical point and the approach to the state of corresponding states?",
+      "choices": [
+        "A: Boyle's law",
+        "B: Law of conservation of energy",
+        "C: Law of corresponding states",
+        "D: Stefan-Boltzmann law"
+      ],
+      "correct_answer": "C",
+      "explanation": "The law of corresponding states states that different substances can exhibit similar properties under certain conditions, especially near the critical point. This concept is central to understanding the thermodynamic properties of liquids and gases in statistical mechanics.",
+      "difficulty": 6,
+      "subcategory": "Gesetz korrespondierender Zustände & kritischer Punkt"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Streuung an Oberflächen/dünnen Schichten",
+      "question": "Which of the following statements best describes the influence of surface roughness on the scattering of electrons at solid surfaces?",
+      "choices": [
+        "A: Higher surface roughness leads to increased scattering probability and alters the scattering angle distribution.",
+        "B: Surface roughness has no effect on the scattering of electrons, as it depends only on the material density.",
+        "C: Surface roughness only influences the energy, not the direction of scattered electrons.",
+        "D: Smoother surfaces always reflect electrons completely, preventing any scattering."
+      ],
+      "correct_answer": "A",
+      "explanation": "Surface roughness can increase the scattering probability as irregularities enhance the interactions between electrons and the surface. This leads to a more complex scattering angle distribution as electrons can be deflected in different directions.",
+      "difficulty": 7,
+      "subcategory": "Streuung an Oberflächen/dünnen Schichten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Beugung am Doppelspalt",
+      "question": "What does the diffraction of light at a double slit cause?",
+      "choices": [
+        "A: The formation of interference patterns.",
+        "B: Light is completely absorbed.",
+        "C: The speed of light is increased.",
+        "D: The colors of light disappear."
+      ],
+      "correct_answer": "A",
+      "explanation": "The diffraction of light at a double slit results in the formation of interference patterns, arising from the superposition of light waves emitted from the slits. These patterns are characteristic of wave phenomena and demonstrate the wave nature of light.",
+      "difficulty": 4,
+      "subcategory": "Beugung am Doppelspalt"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Quasiklassische Näherung (WKB)",
+      "question": "What does the WKB approximation describe in quantum mechanics?",
+      "choices": [
+        "A: The approximation of the wave function for classically describable systems.",
+        "B: The quantum mechanical description of non-continuous systems.",
+        "C: The precise calculation of transition probabilities.",
+        "D: The energy distribution in thermal equilibrium states."
+      ],
+      "correct_answer": "A",
+      "explanation": "The WKB approximation is a method for approximating the wave function in quantum mechanics, specifically for systems that can be described classically. It allows for understanding quantum mechanical solutions in the form of classically interpreted paths.",
+      "difficulty": 4,
+      "subcategory": "Quasiklassische Näherung (WKB)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Fresnelsche Formeln (Reflexionsgrad)",
+      "question": "What does the reflectance in the Fresnel equations describe?",
+      "choices": [
+        "A: The maximum light intensity passing through a medium.",
+        "B: The color change of a light beam passing through a prism.",
+        "C: The portion of light that is reflected at the interface.",
+        "D: Die Brechung des Lichts an einer Grenzfläche."
+      ],
+      "correct_answer": "C",
+      "explanation": "The reflectance indicates the portion of incident light at an interface that is reflected. The Fresnel equations help calculate this value for different angles and materials.",
+      "difficulty": 5,
+      "subcategory": "Fresnelsche Formeln (Reflexionsgrad)"
+    }
+  ]
+}
