@@ -1,0 +1,168 @@
+{
+  "date": "2026-04-11",
+  "generated_at": "2026-04-11T03:52:59Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Elemente der Variationsrechnung",
+      "question": "What is the main goal of the calculus of variations in analytical mechanics?",
+      "choices": [
+        "A: The investigation of quantum states.",
+        "B: The analysis of electric fields.",
+        "C: The determination of extrema of a function.",
+        "D: The calculation of temperature distributions."
+      ],
+      "correct_answer": "C",
+      "explanation": "The main goal of the calculus of variations in analytical mechanics is to determine extrema, that is, maxima or minima of a function. This is crucial for deriving the equations of motion from the principles of mechanics.",
+      "difficulty": 2,
+      "subcategory": "Elemente der Variationsrechnung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Inertialsysteme (Definition und Eigenschaften)",
+      "question": "What is an inertial system?",
+      "choices": [
+        "A: A system consisting only of stationary objects.",
+        "B: A reference system in which objects move uniformly without external forces.",
+        "C: A reference system in which constantly accelerated motions occur.",
+        "D: A system in which gravity does not act."
+      ],
+      "correct_answer": "B",
+      "explanation": "An inertial system is defined as a reference system in which free objects move at a constant velocity or remain at rest without the influence of external forces. In such systems, the laws of classical mechanics apply in their simplest form.",
+      "difficulty": 2,
+      "subcategory": "Inertialsysteme (Definition und Eigenschaften)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Interferenz & Beugung elektromagnetischer Wellen",
+      "question": "What describes the phenomenon of interference in electromagnetic waves?",
+      "choices": [
+        "A: The reflection of waves on a smooth surface.",
+        "B: The superposition of waves leading to reinforced or diminished amplitudes.",
+        "C: The motion of charged particles in an electric field.",
+        "D: The deflection of waves at an obstacle."
+      ],
+      "correct_answer": "B",
+      "explanation": "Interference occurs when two or more waves meet and overlap. This can lead to constructive interference, where the amplitudes add up, or destructive interference, where they diminish.",
+      "difficulty": 5,
+      "subcategory": "Interferenz & Beugung elektromagnetischer Wellen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Zentraler Grenzwertsatz",
+      "question": "What does the central limit theorem state in statistics?",
+      "choices": [
+        "A: The probability of a random variable is always constant.",
+        "B: The sum of a large number of independent random variables approaches a normal distribution.",
+        "C: All random variables are always uniformly distributed.",
+        "D: The variance of a random variable cannot be negative."
+      ],
+      "correct_answer": "B",
+      "explanation": "The central limit theorem states that the distribution of the sum (or average) of a large number of independent random variables, regardless of their original distribution, approaches a normal distribution. This is a fundamental concept in statistics.",
+      "difficulty": 3,
+      "subcategory": "Zentraler Grenzwertsatz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Zeitlich oszillierende Quellen",
+      "question": "Which of the following statements best describes the effect of a time-oscillating electric charge on its electric field?",
+      "choices": [
+        "A: The electric field changes only near the charge and remains constant at a distance.",
+        "B: The electric field is immediately removed when the charge moves.",
+        "C: The electric field oscillates at the same frequency as the charge.",
+        "D: The electric field remains constant and does not change over time."
+      ],
+      "correct_answer": "C",
+      "explanation": "A time-oscillating electric charge generates an electric field that also oscillates. This oscillation occurs at the same frequency as the motion of the charge and leads to the creation of electromagnetic waves.",
+      "difficulty": 7,
+      "subcategory": "Zeitlich oszillierende Quellen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Lorentz-Transformation (Grundform)",
+      "question": "What does the Lorentz transformation describe?",
+      "choices": [
+        "A: The interaction between light and matter.",
+        "B: The conversion of kinetic energy into potential energy.",
+        "C: The relationship between space and time at relativistic speeds.",
+        "D: The motion of objects in a gravitational field."
+      ],
+      "correct_answer": "C",
+      "explanation": "The Lorentz transformation describes how space and time change at relativistic speeds. It is a central element of the special theory of relativity and shows that time and space are relative and depend on the observer's velocity.",
+      "difficulty": 2,
+      "subcategory": "Lorentz-Transformation (Grundform)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Reflexionsgesetz (geometrisch)",
+      "question": "What does the law of reflection describe in the geometry of light rays?",
+      "choices": [
+        "A: The angle of reflection is always zero.",
+        "B: The angle of incidence is always greater than the angle of reflection.",
+        "C: The angle of incidence depends on the color of light.",
+        "D: The angle of incidence is equal to the angle of reflection."
+      ],
+      "correct_answer": "D",
+      "explanation": "The law of reflection states that the angle of incidence, the angle between the incident light ray and the normal, is equal to the angle of reflection, the angle between the reflected light ray and the normal. This fundamental principle is crucial for understanding light reflections on surfaces.",
+      "difficulty": 8,
+      "subcategory": "Reflexionsgesetz (geometrisch)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Großkanonisches Ensemble: Dichtematrix & Potential",
+      "question": "What does the density matrix describe in the grand canonical ensemble?",
+      "choices": [
+        "A: The temperature of a system.",
+        "B: The velocity of particles in the system.",
+        "C: The shape of the system.",
+        "D: The distribution of particles across different energy states."
+      ],
+      "correct_answer": "D",
+      "explanation": "The density matrix in the grand canonical ensemble indicates the probability that the system is in a specific state with a specific energy. It describes the distribution of particles across the energy states of a system in thermal equilibrium.",
+      "difficulty": 4,
+      "subcategory": "Großkanonisches Ensemble: Dichtematrix & Potential"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Coulomb’sches Gesetz & elektrisches Feld",
+      "question": "What is the Coulomb's law for calculating the electrostatic force between two point charges?",
+      "choices": [
+        "A: F = m * a",
+        "B: F = k * (q1 * q2) / r^2",
+        "C: F = q * E",
+        "D: F = G * (m1 * m2) / r^2"
+      ],
+      "correct_answer": "B",
+      "explanation": "Coulomb's law describes the force between two point charges and is given by F = k * (q1 * q2) / r^2, where k is the Coulomb constant. The other options refer to different physical laws, such as the law of gravitation or the equation of motion.",
+      "difficulty": 6,
+      "subcategory": "Coulomb’sches Gesetz & elektrisches Feld"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Ionenbindung: Abschätzung & Messung",
+      "question": "What is a typical property of ionically bonded solids?",
+      "choices": [
+        "A: They are good electrical conductors in the solid state.",
+        "B: They have high melting and boiling points.",
+        "C: They consist of molecules connected by covalent bonds.",
+        "D: They are gaseous at room temperature."
+      ],
+      "correct_answer": "B",
+      "explanation": "Ionic bonds result in strong electrostatic attraction forces between ions, typically leading to high melting and boiling points. These properties are characteristic of ionically bonded solids like sodium chloride (table salt).",
+      "difficulty": 6,
+      "subcategory": "Ionenbindung: Abschätzung & Messung"
+    }
+  ]
+}
