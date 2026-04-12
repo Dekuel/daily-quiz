@@ -1778,6 +1778,20 @@
       "correct_answer": "B",
       "explanation": "B: Facebook",
       "difficulty": 5
+    },
+    {
+      "category": "Technologie",
+      "topic": "Computer & Internet",
+      "question": "Which encryption method is commonly used to secure data in modern communication protocols?",
+      "choices": [
+        "A: AES (Advanced Encryption Standard)",
+        "B: DES (Data Encryption Standard)",
+        "C: RSA (Rivest-Shamir-Adleman)",
+        "D: Blowfish"
+      ],
+      "correct_answer": "A",
+      "explanation": "AES is the widely adopted standard for symmetric encryption and is used in many modern security protocols like TLS. DES is considered outdated and insecure, while RSA is an asymmetric method used for key exchange. Blowfish is also a symmetric method but does not have the same level of adoption as AES.",
+      "difficulty": 8
     }
   ]
 }

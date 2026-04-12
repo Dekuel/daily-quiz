@@ -1,0 +1,106 @@
+{
+  "date": "2026-04-12",
+  "generated_at": "2026-04-12T04:03:31Z",
+  "schema_version": 6,
+  "mode": "schwer",
+  "bundle_type": "daily",
+  "questions": [
+    {
+      "category": "Kunst und Literatur",
+      "topic": "Zitate, Figuren & Allgemeinwissen",
+      "question": "Welches berühmte Zitat stammt von Friedrich Nietzsche?",
+      "choices": [
+        "A: \"Alle Tiere sind gleich, aber einige sind gleicher.\"",
+        "B: \"Der Mensch ist das Maß aller Dinge.\"",
+        "C: \"Die beste aller möglichen Welten.\"",
+        "D: \"Gott ist tot.\""
+      ],
+      "correct_answer": "D",
+      "explanation": "Das Zitat \"Gott ist tot.\" ist ein zentrales Element in Nietzsches Philosophie und steht für den Bruch mit traditionell-religiösen Werten. Es stammt aus seinem Werk \"Die fröhliche Wissenschaft\" und spiegelt die Herausforderungen der modernen Existenz wider.",
+      "difficulty": 8
+    },
+    {
+      "category": "Technologie",
+      "topic": "Computer & Internet",
+      "question": "Welches Verschlüsselungsverfahren wird häufig zur Sicherung von Daten in modernen Kommunikationsprotokollen verwendet?",
+      "choices": [
+        "A: AES (Advanced Encryption Standard)",
+        "B: DES (Data Encryption Standard)",
+        "C: RSA (Rivest-Shamir-Adleman)",
+        "D: Blowfish"
+      ],
+      "correct_answer": "A",
+      "explanation": "AES ist der weit verbreitete Standard für symmetrische Verschlüsselung und wird in vielen modernen Sicherheitsprotokollen wie TLS verwendet. DES gilt als veraltet und unsicher, während RSA ein asymmetrisches Verfahren ist, das für den Schlüsselaustausch verwendet wird. Blowfish ist ebenfalls eine symmetrische Methode, hat jedoch nicht den gleichen Verbreitungsgrad wie AES.",
+      "difficulty": 8
+    },
+    {
+      "category": "Politiker",
+      "discipline": "Regierungschefs (Welt)",
+      "question": "Wer ist Regierungschef von Deutschland?",
+      "choices": [
+        "A: Friedrich Merz",
+        "B: Olaf Scholz",
+        "C: Annalena Baerbock",
+        "D: Jens Spahn"
+      ],
+      "correct_answer": "A",
+      "explanation": "Friedrich Merz ist der aktuelle Regierungschef von Deutschland. Er gehört der CDU an und hat eine bedeutende Rolle in der deutschen Politik.",
+      "difficulty": 1
+    },
+    {
+      "category": "Essen und Trinken",
+      "topic": "Ernährung",
+      "question": "Welches dieser Lebensmittel sollte aufgrund seiner hohen Verderblichkeit besonders schnell nach dem Öffnen verbraucht werden?",
+      "choices": [
+        "A: Frischkäse",
+        "B: Getrocknete Tomaten",
+        "C: Reis",
+        "D: Honig"
+      ],
+      "correct_answer": "A",
+      "explanation": "Frischkäse enthält viel Feuchtigkeit und ist anfällig für Bakterienwachstum, weshalb er nach dem Öffnen schnell verzehrt oder richtig gelagert werden sollte. Im Gegensatz dazu sind Reis, Honig und getrocknete Tomaten weniger verderblich und können länger aufbewahrt werden.",
+      "difficulty": 6
+    },
+    {
+      "question": "Was ist der Hauptunterschied zwischen Bitcoin und Bitcoin Cash?",
+      "category": "Wirtschaft & Finanzen",
+      "subcategory": "Bitcoin & Grundlagen",
+      "difficulty": 6,
+      "choices": [
+        "A: Bitcoin Cash hat eine längere Blockzeit als Bitcoin.",
+        "B: Bitcoin und Bitcoin Cash verwenden unterschiedliche Konsensmechanismen.",
+        "C: Bitcoin ist eine Abspaltung (Fork) von Bitcoin Cash.",
+        "D: Bitcoin Cash hat eine größere Blockgröße, was schnellere Transaktionen ermöglicht."
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "category": "Sport",
+      "topic": "Sonstige",
+      "question": "Welcher Makronährstoff ist hauptsächlich für den Muskelaufbau und die Reparatur von Gewebe verantwortlich?",
+      "choices": [
+        "A: Fette",
+        "B: Vitamine",
+        "C: Protein",
+        "D: Kohlenhydrate"
+      ],
+      "correct_answer": "C",
+      "explanation": "Proteine sind essentielle Bausteine, die für den Muskelaufbau und die Regeneration nach dem Training benötigt werden. Sie helfen, geschädigtes Gewebe zu reparieren und tragen zur Stärkung der Muskelmasse bei.",
+      "difficulty": 5
+    },
+    {
+      "category": "Sprache",
+      "topic": "Grammatik",
+      "question": "Welches Verb fordert kein Präpositionalobjekt im Deutschen?",
+      "choices": [
+        "A: sich erinnern an",
+        "B: glauben",
+        "C: warten auf",
+        "D: stolz sein auf"
+      ],
+      "correct_answer": "B",
+      "explanation": "Das Verb 'glauben' benötigt kein Präpositionalobjekt, sondern kann direkt mit einem Akkusativobjekt verwendet werden. Im Gegensatz dazu erfordern die anderen genannten Verben jeweils die Präpositionen 'auf' oder 'an', um vollständige Bedeutungen zu erzeugen.",
+      "difficulty": 8
+    }
+  ]
+}

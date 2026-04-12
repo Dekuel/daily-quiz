@@ -1,0 +1,169 @@
+{
+  "date": "2026-04-12",
+  "generated_at": "2026-04-12T04:04:14Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Ideales Fermi-Gas: Grundzustand & starke Entartung",
+      "question": "Was beschreibt das Konzept der Entartung in einem idealen Fermi-Gas?",
+      "choices": [
+        "A: Die Temperatur des Gases beeinflusst nicht die Energieverteilung der Teilchen.",
+        "B: Mehrere Teilchen können denselben quantenmechanischen Zustand einnehmen.",
+        "C: Teilchen im Fermi-Gas sind identisch und unterliegen dem Pauli-Prinzip.",
+        "D: Teilchen im Fermi-Gas bewegen sich immer mit der gleichen Geschwindigkeit."
+      ],
+      "correct_answer": "C",
+      "explanation": "Im idealen Fermi-Gas sind die Teilchen identische Fermionen, die dem Pauli-Prinzip unterliegen. Das bedeutet, dass keine zwei Teilchen denselben quantenmechanischen Zustand einnehmen können, was zu einer starken Entartung führt.",
+      "difficulty": 1,
+      "subcategory": "Ideales Fermi-Gas: Grundzustand & starke Entartung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Perkolation: Phänomen, Theorie & Skalen",
+      "question": "Was beschreibt das Perkolationsphänomen in der statistischen Mechanik?",
+      "choices": [
+        "A: Die Stabilität von festen Körpern unter Druck.",
+        "B: Die Bewegung von Teilchen in einem Vakuum.",
+        "C: Die Wechselwirkungen zwischen elektrischen Ladungen.",
+        "D: Die Durchdringung eines Mediums durch einen Flüssigkeitsstrom."
+      ],
+      "correct_answer": "D",
+      "explanation": "Das Perkolationsphänomen bezieht sich auf die Fähigkeit eines Mediums, durch ein Netzwerk von Verbindungen von einer Seite zur anderen durchdrungen zu werden. Es ist ein wichtiges Konzept in der statistischen Mechanik, das in verschiedenen Anwendungen, wie z.B. in der Materialwissenschaft und der Geophysik, vorkommt.",
+      "difficulty": 4,
+      "subcategory": "Perkolation: Phänomen, Theorie & Skalen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Poisson-Klammer (Definition & Bedeutung)",
+      "question": "Was beschreibt die Poisson-Klammer in der analytischen Mechanik?",
+      "choices": [
+        "A: Die Wechselwirkung zwischen zwei Körpern unter dem Einfluss von Kräften.",
+        "B: Die Beziehung zwischen zwei kanonischen Variablen und deren zeitlicher Entwicklung.",
+        "C: Die Energieerhaltung in einem geschlossenen System.",
+        "D: Die Berechnung der Temperatur eines idealen Gases."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Poisson-Klammer ist ein mathematisches Werkzeug, das die Beziehung zwischen kanonischen Variablen in der Hamiltonschen Mechanik beschreibt und deren zeitliche Entwicklung in dynamischen Systemen kennzeichnet. Sie spielt eine zentrale Rolle in der Formulierung der Hamiltonschen Gleichungen und der klassischen Mechanik insgesamt.",
+      "difficulty": 7,
+      "subcategory": "Poisson-Klammer (Definition & Bedeutung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Spin 1/2 (Pauli-Matrizen)",
+      "question": "Welche der folgenden Pauli-Matrizen beschreibt den Spin in z-Richtung?",
+      "choices": [
+        "A: [[1, 0], [0, -1]]",
+        "B: [[0, 1], [1, 0]]",
+        "C: [[0, -i], [i, 0]]",
+        "D: [[1, 0], [0, 1]]"
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Pauli-Matrix für den Spin in z-Richtung ist die Matrix A: [[1, 0], [0, -1]], die die Eigenwerte +1/2 und -1/2 repräsentiert. Diese Matrix ist entscheidend für die Beschreibung von Spin-1/2-Systemen in der Quantenmechanik.",
+      "difficulty": 3,
+      "subcategory": "Spin 1/2 (Pauli-Matrizen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Rutherford-Streuung",
+      "question": "Was ist das Hauptziel des Rutherford-Streuexperiments?",
+      "choices": [
+        "A: Die Masse von Elektronen zu bestimmen.",
+        "B: Die Struktur des Atoms zu untersuchen.",
+        "C: Die chemischen Eigenschaften von Stoffen zu analysieren.",
+        "D: Die Geschwindigkeit von Licht zu messen."
+      ],
+      "correct_answer": "B",
+      "explanation": "Das Rutherford-Streuexperiment hatte das Ziel, die Struktur des Atoms zu untersuchen, insbesondere die Existenz des Atomkerns. Durch die Streuung von alpha-Partikeln an dünnen Goldfolien konnte Rutherford zeigen, dass die meisten Masse und positive Ladung des Atoms im Kern konzentriert sind.",
+      "difficulty": 6,
+      "subcategory": "Rutherford-Streuung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Klassifikation der Randbedingungen",
+      "question": "Welche der folgenden Randbedingungen beschreibt das Verhalten eines elektrischen Feldes an einem perfekten Leiter?",
+      "choices": [
+        "A: Das elektrische Feld ist an der Oberfläche des Leiters gleich Null.",
+        "B: Das elektrische Feld zeigt immer in Richtung der Oberfläche des Leiters.",
+        "C: Das elektrische Feld ist konstant entlang der Oberfläche des Leiters.",
+        "D: Das elektrische Feld ist proportional zur Temperatur des Leiters."
+      ],
+      "correct_answer": "A",
+      "explanation": "An der Oberfläche eines perfekten Leiters ist das elektrische Feld gleich Null, da die freien Elektronen im Leiter sich so bewegen, dass sie das Feld neutralisieren. Dies ist eine grundlegende Eigenschaft von Leitern in der Elektrodynamik.",
+      "difficulty": 4,
+      "subcategory": "Klassifikation der Randbedingungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Flussquantisierung",
+      "question": "Was beschreibt das Phänomen der Flussquantisierung in Superleitern?",
+      "choices": [
+        "A: Die Erzeugung von Photonen durch thermische Strahlung in Festkörpern.",
+        "B: Die quantisierte Natur des magnetischen Flusses durch einen supraleitenden Ring.",
+        "C: Die Temperaturabhängigkeit der elektrischen Leitfähigkeit von Metallen.",
+        "D: Die gleichmäßige Verteilung von elektrischen Ladungen in einem Festkörper."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Flussquantisierung ist ein zentrales Konzept in der Festkörperphysik, das besagt, dass der magnetische Fluss durch einen supraleitenden Ring nur in diskreten Einheiten, den sogenannten Flussquanten, vorkommen kann. Dies ist eine Folge der quantenmechanischen Eigenschaften von Elektronen in einem supraleitenden Zustand.",
+      "difficulty": 6,
+      "subcategory": "Flussquantisierung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Einteilung magnetischer Stoffe (dia-/para-/ferro-)",
+      "question": "Welches der folgenden Materialien zeigt ferromagnetische Eigenschaften?",
+      "choices": [
+        "A: Eisen",
+        "B: Graphit",
+        "C: Aluminium",
+        "D: Kupfer"
+      ],
+      "correct_answer": "A",
+      "explanation": "Eisen ist ein klassisches Beispiel für ein ferromagnetisches Material, das starke magnetische Eigenschaften zeigt. Ferromagnetische Stoffe haben die Fähigkeit, ihre Magnetisierung auch nach dem Entfernen eines externen Magnetfelds zu behalten, was bei den anderen genannten Materialien nicht der Fall ist.",
+      "difficulty": 9,
+      "subcategory": "Einteilung magnetischer Stoffe (dia-/para-/ferro-)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Materiewellen (de Broglie-Idee)",
+      "question": "Was beschreibt die de Broglie-Idee in der Quantenmechanik?",
+      "choices": [
+        "A: Materie hat sowohl Teilchen- als auch Welleneigenschaften.",
+        "B: Licht besteht nur aus Wellen.",
+        "C: Materie verhält sich niemals wie eine Welle.",
+        "D: Materie besteht ausschließlich aus Teilchen."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die de Broglie-Idee besagt, dass Teilchen wie Elektronen nicht nur als klassische Teilchen, sondern auch als Wellen betrachtet werden können. Dies bedeutet, dass alle Materie Wellencharakteristika aufweist, was in der Quantenmechanik eine zentrale Rolle spielt.",
+      "difficulty": 2,
+      "subcategory": "Materiewellen (de Broglie-Idee)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Wasserstoffbrückenbindung",
+      "question": "Was ist eine Wasserstoffbrückenbindung?",
+      "choices": [
+        "A: Eine Art von ionischer Bindung zwischen Wasserstoff und Sauerstoff.",
+        "B: Eine metallische Bindung, die in Edelgasen vorkommt.",
+        "C: Eine schwache Wechselwirkung zwischen Wasserstoff und elektronegativen Atomen.",
+        "D: Eine starke chemische Bindung zwischen Wasserstoffatomen."
+      ],
+      "correct_answer": "C",
+      "explanation": "Eine Wasserstoffbrückenbindung ist eine schwache Wechselwirkung, die auftritt, wenn ein Wasserstoffatom, das an ein elektronegatives Atom gebunden ist, von einem anderen elektronegativen Atom angezogen wird. Diese Bindungen spielen eine wichtige Rolle in der Stabilität von Molekülen, wie z.B. bei Wasser und biologischen Makromolekülen.",
+      "difficulty": 1,
+      "subcategory": "Wasserstoffbrückenbindung"
+    }
+  ]
+}
