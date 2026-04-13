@@ -1,0 +1,168 @@
+{
+  "date": "2026-04-13",
+  "generated_at": "2026-04-13T04:09:44Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Elektrostatik der Dielektrika",
+      "question": "Which statement about the relative permittivity of a dielectric is correct?",
+      "choices": [
+        "A: It has no influence on the electric field strength.",
+        "B: It is always greater than 1.",
+        "C: It is equal to 1 for all materials.",
+        "D: It is always less than 1."
+      ],
+      "correct_answer": "B",
+      "explanation": "The relative permittivity, also known as the dielectric constant, is a measure of how strongly a dielectric influences the electric field. It is always greater than 1, as most materials have a dielectric effect that reduces the electric field.",
+      "difficulty": 5,
+      "subcategory": "Elektrostatik der Dielektrika"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Integrale mit Maxwell-Verteilung (Technik)",
+      "question": "What does the Maxwell distribution describe in statistical mechanics?",
+      "choices": [
+        "A: The temperature distribution in a solid.",
+        "B: The velocity distribution of particles in an ideal gas.",
+        "C: The energy distribution of electrons in metals.",
+        "D: The entropy distribution in a closed system."
+      ],
+      "correct_answer": "B",
+      "explanation": "The Maxwell distribution describes the distribution of particle velocities in an ideal gas at thermal equilibrium. This distribution is important for understanding thermodynamic processes and kinetic theory.",
+      "difficulty": 5,
+      "subcategory": "Integrale mit Maxwell-Verteilung (Technik)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Kepler-Problem (HJ/AA-Formalismus)",
+      "question": "Which statement about Kepler's laws is correct?",
+      "choices": [
+        "A: All planets move at the same speed in their orbit.",
+        "B: The speed of the planets is constant during their orbit.",
+        "C: The orbits of the planets are always circular.",
+        "D: The area swept out by a planet in a certain time is constant."
+      ],
+      "correct_answer": "D",
+      "explanation": "The first law of Kepler states that a planet moves in an elliptical orbit around the sun and that the area it sweeps out in equal time intervals is constant. This is a central principle of planetary motion, while the other statements are not accurate.",
+      "difficulty": 6,
+      "subcategory": "Kepler-Problem (HJ/AA-Formalismus)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Ritz’sches Verfahren",
+      "question": "Which principle is used in the Ritz method for calculating the energy levels of a quantum mechanical system?",
+      "choices": [
+        "A: Heisenberg uncertainty principle",
+        "B: Variational principle",
+        "C: Principle of superposition",
+        "D: Pauli exclusion principle"
+      ],
+      "correct_answer": "B",
+      "explanation": "The Ritz method uses the variational principle to approximate the energy levels of quantum mechanical systems. It uses a trial wave function that should be as close as possible to the actual wave function to minimize the associated energy.",
+      "difficulty": 6,
+      "subcategory": "Ritz’sches Verfahren"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Bindungsenergie von Ionenkristallen",
+      "question": "What does the binding energy in an ionic crystal describe?",
+      "choices": [
+        "A: The temperature at which the crystal melts.",
+        "B: The mass of the ions in the crystal.",
+        "C: The energy released during the formation of the crystal.",
+        "D: The energy required to remove an ion from the crystal."
+      ],
+      "correct_answer": "D",
+      "explanation": "The binding energy of an ionic crystal is the energy required to remove an ion from the crystal lattice. It is a measure of the strength of the ionic bonds in the crystal and is crucial for the stability of the material.",
+      "difficulty": 2,
+      "subcategory": "Bindungsenergie von Ionenkristallen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Relativität der Gleichzeitigkeit",
+      "question": "Which statement best describes the concept of the relativity of simultaneity in the theory of relativity?",
+      "choices": [
+        "A: Time passes at the same rate for all observers, regardless of their motion.",
+        "B: Two events observed in different inertial systems may appear to be simultaneous.",
+        "C: The relativity of simultaneity states that time travel to the past is possible.",
+        "D: Two events that occur simultaneously in one inertial system are also simultaneous in all other inertial systems."
+      ],
+      "correct_answer": "B",
+      "explanation": "The relativity of simultaneity states that two events that are simultaneous in one inertial system may not appear simultaneous in another inertial system moving relative to it. This is a central concept of Einstein's special theory of relativity.",
+      "difficulty": 6,
+      "subcategory": "Relativität der Gleichzeitigkeit"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Anwendungen der Doppelbrechung",
+      "question": "Which of the following applications uses birefringence?",
+      "choices": [
+        "A: Generation of X-rays in medicine",
+        "B: Use of lenses to magnify objects",
+        "C: Measurement of the speed of light in a vacuum",
+        "D: Polarization of light to improve vision in glasses"
+      ],
+      "correct_answer": "D",
+      "explanation": "Birefringence is used in the polarization of light to reduce glare and improve visibility, especially in glasses. In polarization, light is filtered to oscillate in a specific direction, which is achieved through doubly refractive materials.",
+      "difficulty": 5,
+      "subcategory": "Anwendungen der Doppelbrechung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Brechungsgesetz aus Fermat",
+      "question": "Which statement correctly describes Fermat's principle of refraction?",
+      "choices": [
+        "A: The refraction of light depends solely on the wavelength of light.",
+        "B: The refraction law is only valid for light rays incident perpendicular to the interface.",
+        "C: Light rays refract at the interface of two media according to the ratio of speeds in the media.",
+        "D: Light always follows the shortest path between two points, regardless of the medium transitions."
+      ],
+      "correct_answer": "C",
+      "explanation": "Fermat's principle of refraction states that light takes the path that requires the least time to travel between two points. This leads to the mathematical relationship describing refraction at the interface, with the ratios of light speeds in the media playing a central role.",
+      "difficulty": 9,
+      "subcategory": "Brechungsgesetz aus Fermat"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Eigenwertspektrum (diskret/kontinuierlich)",
+      "question": "Which of the following systems has a discrete eigenvalue spectrum?",
+      "choices": [
+        "A: A particle in a one-dimensional infinite potential well",
+        "B: A particle in a continuous potential",
+        "C: A particle under the influence of a constant electric field",
+        "D: A free particle in space"
+      ],
+      "correct_answer": "A",
+      "explanation": "A particle in a one-dimensional infinite potential well has only specific allowed energy levels that are discrete. In contrast, a free particle in space has a continuous eigenvalue spectrum, as it can assume any energy.",
+      "difficulty": 6,
+      "subcategory": "Eigenwertspektrum (diskret/kontinuierlich)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Frequenzabhängigkeit der Dielektrizitätskonstante",
+      "question": "How does the frequency of an electromagnetic field affect the dielectric constant of a material?",
+      "choices": [
+        "A: The dielectric constant increases with increasing frequency.",
+        "B: The dielectric constant decreases with increasing frequency.",
+        "C: The dielectric constant remains independent of the frequency.",
+        "D: The dielectric constant only changes at very high frequencies."
+      ],
+      "correct_answer": "B",
+      "explanation": "The dielectric constant of a material can actually depend on the frequency. In many materials, the dielectric constant decreases with increasing frequency, due to the limited ability of molecules to orient and polarize quickly.",
+      "difficulty": 2,
+      "subcategory": "Frequenzabhängigkeit der Dielektrizitätskonstante"
+    }
+  ]
+}

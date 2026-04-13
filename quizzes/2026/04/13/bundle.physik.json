@@ -1,0 +1,169 @@
+{
+  "date": "2026-04-13",
+  "generated_at": "2026-04-13T04:09:05Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Elektrostatik der Dielektrika",
+      "question": "Welche Aussage über die relative Permittivität eines Dielektrikums ist korrekt?",
+      "choices": [
+        "A: Sie hat keinen Einfluss auf die elektrische Feldstärke.",
+        "B: Sie ist immer größer als 1.",
+        "C: Sie ist gleich 1 für alle Materialien.",
+        "D: Sie ist immer kleiner als 1."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die relative Permittivität, auch dielektrische Konstante genannt, ist ein Maß dafür, wie stark ein Dielektrikum das elektrische Feld beeinflusst. Sie ist immer größer als 1, da die meisten Materialien eine dielektrische Wirkung haben, die das elektrische Feld reduziert.",
+      "difficulty": 5,
+      "subcategory": "Elektrostatik der Dielektrika"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Integrale mit Maxwell-Verteilung (Technik)",
+      "question": "Was beschreibt die Maxwell-Verteilung in der statistischen Mechanik?",
+      "choices": [
+        "A: Die Temperaturverteilung in einem Festkörper.",
+        "B: Die Geschwindigkeitsverteilung von Teilchen in einem idealen Gas.",
+        "C: Die Energieverteilung von Elektronen in Metallen.",
+        "D: Die Entropieverteilung in einem abgeschlossenen System."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Maxwell-Verteilung beschreibt die Verteilung der Geschwindigkeiten von Teilchen in einem idealen Gas bei thermischem Gleichgewicht. Diese Verteilung ist wichtig für das Verständnis von thermodynamischen Prozessen und kinetischer Theorie.",
+      "difficulty": 5,
+      "subcategory": "Integrale mit Maxwell-Verteilung (Technik)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Kepler-Problem (HJ/AA-Formalismus)",
+      "question": "Welche Aussage über die Keplerschen Gesetze ist korrekt?",
+      "choices": [
+        "A: Alle Planeten bewegen sich mit der gleichen Geschwindigkeit in ihrem Orbit.",
+        "B: Die Geschwindigkeit der Planeten ist konstant während ihrer Umlaufbahn.",
+        "C: Die Bahnen der Planeten sind immer kreisförmig.",
+        "D: Der Flächeninhalt, den ein Planet in einer bestimmten Zeit überstreicht, ist konstant."
+      ],
+      "correct_answer": "D",
+      "explanation": "Das erste Keplersche Gesetz besagt, dass ein Planet in einer elliptischen Bahn um die Sonne bewegt wird und dass der Flächeninhalt, den er in gleichen Zeitintervallen überstreicht, konstant ist. Dies ist ein zentrales Prinzip der Planetenbewegung, während die anderen Aussagen nicht zutreffend sind.",
+      "difficulty": 6,
+      "subcategory": "Kepler-Problem (HJ/AA-Formalismus)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Ritz’sches Verfahren",
+      "question": "Welches Prinzip wird im Ritz’schen Verfahren zur Berechnung der Energieniveaus eines quantenmechanischen Systems verwendet?",
+      "choices": [
+        "A: Heisenbergsche Unschärferelation",
+        "B: Variationsprinzip",
+        "C: Prinzip der superposition",
+        "D: Pauli-Prinzip"
+      ],
+      "correct_answer": "B",
+      "explanation": "Das Ritz’sche Verfahren nutzt das Variationsprinzip, um die Energieniveaus von quantenmechanischen Systemen zu approximieren. Dabei wird eine Testwellenfunktion verwendet, die möglichst nahe an der tatsächlichen Wellenfunktion liegen soll, um die zugehörige Energie zu minimieren.",
+      "difficulty": 6,
+      "subcategory": "Ritz’sches Verfahren"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Bindungsenergie von Ionenkristallen",
+      "question": "Was beschreibt die Bindungsenergie in einem Ionenkristall?",
+      "choices": [
+        "A: Die Temperatur, bei der der Kristall schmilzt.",
+        "B: Die Masse der Ionen im Kristall.",
+        "C: Die Energie, die bei der Bildung des Kristalls freigesetzt wird.",
+        "D: Die Energie, die benötigt wird, um ein Ion aus dem Kristall zu entfernen."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Bindungsenergie eines Ionenkristalls ist die Energie, die notwendig ist, um ein Ion aus dem Kristallgitter zu entfernen. Sie ist ein Maß für die Stärke der ionischen Bindungen im Kristall und ist entscheidend für die Stabilität des Materials.",
+      "difficulty": 2,
+      "subcategory": "Bindungsenergie von Ionenkristallen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Relativität der Gleichzeitigkeit",
+      "question": "Welche Aussage beschreibt am besten das Konzept der Relativität der Gleichzeitigkeit in der Relativitätstheorie?",
+      "choices": [
+        "A: Die Zeit vergeht für alle Beobachter immer gleich schnell, unabhängig von ihrer Bewegung.",
+        "B: Zwei Ereignisse, die in unterschiedlichen Inertialsystemen beobachtet werden, können unterschiedlich simultan erscheinen.",
+        "C: Die Relativität der Gleichzeitigkeit besagt, dass Zeitreisen in die Vergangenheit möglich sind.",
+        "D: Zwei Ereignisse, die in einem Inertialsystem gleichzeitig auftreten, sind auch in allen anderen Inertialsystemen gleichzeitig."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Relativität der Gleichzeitigkeit besagt, dass zwei Ereignisse, die in einem Inertialsystem gleichzeitig sind, in einem anderen Inertialsystem, das sich relativ dazu bewegt, nicht gleichzeitig erscheinen können. Dies ist ein zentrales Konzept der speziellen Relativitätstheorie von Einstein.",
+      "difficulty": 6,
+      "subcategory": "Relativität der Gleichzeitigkeit"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Anwendungen der Doppelbrechung",
+      "question": "Welche der folgenden Anwendungen nutzt die Doppelbrechung?",
+      "choices": [
+        "A: Erzeugung von Röntgenstrahlen in der Medizin",
+        "B: Nutzung von Linsen zur Vergrößerung von Objekten",
+        "C: Messung der Lichtgeschwindigkeit im Vakuum",
+        "D: Polarisation von Licht zur Verbesserung der Sicht bei Brillen"
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Doppelbrechung wird in der Polarisation von Licht verwendet, um Blendung zu reduzieren und die Sicht zu verbessern, insbesondere bei Brillen. Bei der Polarisation wird das Licht so gefiltert, dass es in eine bestimmte Richtung schwingt, was durch doppelt gebrochene Materialien erreicht wird.",
+      "difficulty": 5,
+      "subcategory": "Anwendungen der Doppelbrechung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Brechungsgesetz aus Fermat",
+      "question": "Welche Aussage beschreibt korrekt das Brechungsgesetz von Fermat?",
+      "choices": [
+        "A: Die Brechung des Lichts hängt ausschließlich von der Wellenlänge des Lichts ab.",
+        "B: Das Brechungsgesetz ist nur für Lichtstrahlen gültig, die senkrecht zur Grenzfläche auftreffen.",
+        "C: Lichtstrahlen brechen an der Grenzfläche zweier Medien gemäß dem Verhältnis der Geschwindigkeiten in den Medien.",
+        "D: Licht folgt immer dem kürzesten Weg zwischen zwei Punkten, unabhängig von den Mediumübergängen."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Brechungsgesetz von Fermat besagt, dass Licht den Pfad nimmt, der die geringste Zeit benötigt, um zwischen zwei Punkten zu reisen. Dies führt zu der mathematischen Beziehung, die die Brechung an der Grenzfläche beschreibt, wobei die Verhältnisse der Lichtgeschwindigkeiten in den Medien eine zentrale Rolle spielen.",
+      "difficulty": 9,
+      "subcategory": "Brechungsgesetz aus Fermat"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Eigenwertspektrum (diskret/kontinuierlich)",
+      "question": "Welches der folgenden Systeme hat ein diskretes Eigenwertspektrum?",
+      "choices": [
+        "A: Ein Teilchen in einem eindimensionalen unendlichen Potentialtopf",
+        "B: Ein Teilchen in einem kontinuierlichen Potential",
+        "C: Ein Teilchen unter dem Einfluss eines konstanten elektrischen Feldes",
+        "D: Ein freies Teilchen im Raum"
+      ],
+      "correct_answer": "A",
+      "explanation": "Ein Teilchen in einem eindimensionalen unendlichen Potentialtopf besitzt nur bestimmte erlaubte Energielevel, die diskret sind. Im Gegensatz dazu hat ein freies Teilchen im Raum ein kontinuierliches Eigenwertspektrum, da es jede Energie annehmen kann.",
+      "difficulty": 6,
+      "subcategory": "Eigenwertspektrum (diskret/kontinuierlich)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Frequenzabhängigkeit der Dielektrizitätskonstante",
+      "question": "Wie beeinflusst die Frequenz eines elektromagnetischen Feldes die Dielektrizitätskonstante eines Materials?",
+      "choices": [
+        "A: Die Dielektrizitätskonstante steigt mit zunehmender Frequenz.",
+        "B: Die Dielektrizitätskonstante sinkt mit zunehmender Frequenz.",
+        "C: Die Dielektrizitätskonstante bleibt unabhängig von der Frequenz.",
+        "D: Die Dielektrizitätskonstante ändert sich nur bei sehr hohen Frequenzen."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Dielektrizitätskonstante eines Materials kann tatsächlich von der Frequenz abhängen. In vielen Materialien nimmt die Dielektrizitätskonstante mit zunehmender Frequenz ab, was auf die begrenzte Fähigkeit der Moleküle zurückzuführen ist, sich schnell genug zu orientieren und polarisiert zu werden.",
+      "difficulty": 2,
+      "subcategory": "Frequenzabhängigkeit der Dielektrizitätskonstante"
+    }
+  ]
+}
