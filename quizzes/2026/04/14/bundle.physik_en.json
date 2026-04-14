@@ -1,0 +1,168 @@
+{
+  "date": "2026-04-14",
+  "generated_at": "2026-04-14T04:05:47Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Thermodynamische Systeme (offen/geschlossen/isoliert)",
+      "question": "Which of the following thermodynamic systems is characterized by the exchange of energy and matter with its surroundings?",
+      "choices": [
+        "A: Isolated System",
+        "B: Closed System",
+        "C: Open System",
+        "D: Thermodynamically Neutral System"
+      ],
+      "correct_answer": "C",
+      "explanation": "An open system can exchange both energy and matter with its surroundings, while closed systems can only exchange energy and isolated systems exchange neither energy nor matter. This distinction is important for understanding thermodynamics.",
+      "difficulty": 6,
+      "subcategory": "Thermodynamische Systeme (offen/geschlossen/isoliert)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Hamilton–Jacobi-Gleichung (HJ)",
+      "question": "What does the Hamilton-Jacobi equation describe in analytical mechanics?",
+      "choices": [
+        "A: The equations of motion for a system without external forces.",
+        "B: The relationship between energy and momentum of a particle.",
+        "C: The development of the wave function in quantum mechanics.",
+        "D: The relationship between the Hamiltonian function and the classical trajectory."
+      ],
+      "correct_answer": "D",
+      "explanation": "The Hamilton-Jacobi equation is a fundamental concept in analytical mechanics that allows describing the motion of a system by deriving trajectories from the Hamiltonian function. It connects classical mechanics with the theory of Hamiltonian dynamics by expressing trajectories in the form of Hamiltonian functions.",
+      "difficulty": 4,
+      "subcategory": "Hamilton–Jacobi-Gleichung (HJ)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Spin 1/2 (Pauli-Matrizen)",
+      "question": "Which of the following statements about the Pauli matrices is correct?",
+      "choices": [
+        "A: The Pauli matrices are only applicable to particles with integer spin.",
+        "B: The Pauli matrices are Hermitian matrices and are used to describe the spin of particles with spin 1/2.",
+        "C: The Pauli matrices cannot be used to describe spin states.",
+        "D: The Pauli matrices are orthogonal matrices and have no complex eigenvalues."
+      ],
+      "correct_answer": "B",
+      "explanation": "The Pauli matrices are indeed Hermitian matrices and play a central role in quantum mechanics, especially in describing spin-1/2 systems like electrons. They allow for the representation of spin operators and their eigenvalues.",
+      "difficulty": 8,
+      "subcategory": "Spin 1/2 (Pauli-Matrizen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Erhaltungssätze in der Lagrange-Mechanik",
+      "question": "Which of the following statements describes the conservation of energy in a closed system of Lagrangian mechanics?",
+      "choices": [
+        "A: The principle of conservation of mechanical energy",
+        "B: The principle of conservation of angular momentum",
+        "C: The principle of conservation of mass",
+        "D: The principle of conservation of momentum"
+      ],
+      "correct_answer": "A",
+      "explanation": "The principle of conservation of mechanical energy states that the total energy of a closed system remains constant as long as non-conservative forces are absent. In Lagrangian mechanics, this is a central aspect that can be derived from the structure of the Lagrangian function.",
+      "difficulty": 6,
+      "subcategory": "Erhaltungssätze in der Lagrange-Mechanik"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Noether-Idee: Homogenität der Zeit ⇒ Energieerhaltung",
+      "question": "What does the Noether idea state regarding time and energy conservation?",
+      "choices": [
+        "A: The homogeneity of time leads to the conservation of energy.",
+        "B: Time is independent of physical laws.",
+        "C: The instability of time has no effect on energy.",
+        "D: The variability of time leads to the conservation of energy."
+      ],
+      "correct_answer": "A",
+      "explanation": "The Noether idea states that the homogeneity of time, i.e., the independence of physical laws from the moment in time, leads to the conservation of energy. This is a fundamental principle of theoretical physics and demonstrates the deep connection between symmetries and conservation laws.",
+      "difficulty": 2,
+      "subcategory": "Noether-Idee: Homogenität der Zeit ⇒ Energieerhaltung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Interferenz & Beugung elektromagnetischer Wellen",
+      "question": "Which of the following statements about the interference of electromagnetic waves is correct?",
+      "choices": [
+        "A: In constructive interference, the amplitudes of the waves reinforce each other.",
+        "B: In destructive interference, the waves are always in phase.",
+        "C: Interference has no effect on the intensity of light.",
+        "D: Interference only occurs with waves of the same frequency."
+      ],
+      "correct_answer": "A",
+      "explanation": "Constructive interference occurs when waves are in phase, leading to an amplification of amplitudes. This is a fundamental principle of interference that plays a role in many physical applications, such as optics.",
+      "difficulty": 8,
+      "subcategory": "Interferenz & Beugung elektromagnetischer Wellen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Potentialbarrieren & -stufen",
+      "question": "What happens to a particle when it encounters a potential barrier higher than its energy?",
+      "choices": [
+        "A: It is immediately reflected back without further interactions.",
+        "B: It can cross the barrier with a certain probability.",
+        "C: It can pass the barrier only if it is in a specific state.",
+        "D: It always remains on one side of the barrier."
+      ],
+      "correct_answer": "B",
+      "explanation": "In quantum mechanics, a particle can tunnel through a potential barrier with a certain probability even if its energy is lower than the height of the barrier. This phenomenon is called tunneling effect and is a fundamental concept of quantum mechanics.",
+      "difficulty": 4,
+      "subcategory": "Potentialbarrieren & -stufen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Einheiten (natürliche Einheiten)",
+      "question": "Which unit is commonly used in the natural unit system to express the energy of particles?",
+      "choices": [
+        "A: Kilogram (kg)",
+        "B: Joule (J)",
+        "C: Meter (m)",
+        "D: Electronvolt (eV)"
+      ],
+      "correct_answer": "D",
+      "explanation": "In particle physics, the electronvolt (eV) is a common unit for measuring energy. It describes the energy gained by an electron when accelerated through an electric potential of one volt and is particularly useful for describing subatomic processes.",
+      "difficulty": 3,
+      "subcategory": "Einheiten (natürliche Einheiten)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Bahndrehimpuls: Operator & Kommutatoren",
+      "question": "Which operator is used to represent the orbital angular momentum of a particle in quantum mechanics?",
+      "choices": [
+        "A: L = r × p",
+        "B: p = mv",
+        "C: E = mc²",
+        "D: F = ma"
+      ],
+      "correct_answer": "A",
+      "explanation": "The orbital angular momentum in quantum mechanics is described by the operator L = r × p, where r is the position vector and p is the momentum vector. This is a fundamental concept derived from classical mechanics but plays an important role in quantum mechanics.",
+      "difficulty": 3,
+      "subcategory": "Bahndrehimpuls: Operator & Kommutatoren"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Kontinuitätsgleichung (vierdimensional)",
+      "question": "What does the continuity equation describe in four-dimensional relativity theory?",
+      "choices": [
+        "A: The conservation of energy in a closed system.",
+        "B: The conservation of mass in a four-dimensional spacetime continuum.",
+        "C: The conservation of electric charge in an electric field.",
+        "D: The conservation of the four-dimensional flow of a physical quantity."
+      ],
+      "correct_answer": "D",
+      "explanation": "The continuity equation in four-dimensional relativity theory describes how physical quantities such as energy and momentum are distributed and conserved in spacetime. It ensures that the four-dimensional flow of these quantities remains constant over any volume, which is a fundamental condition of physics.",
+      "difficulty": 5,
+      "subcategory": "Kontinuitätsgleichung (vierdimensional)"
+    }
+  ]
+}

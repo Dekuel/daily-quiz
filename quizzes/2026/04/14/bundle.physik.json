@@ -1,0 +1,169 @@
+{
+  "date": "2026-04-14",
+  "generated_at": "2026-04-14T04:04:52Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Thermodynamische Systeme (offen/geschlossen/isoliert)",
+      "question": "Welches der folgenden thermodynamischen Systeme ist durch den Austausch von Energie und Materie mit seiner Umgebung gekennzeichnet?",
+      "choices": [
+        "A: Isoliertes System",
+        "B: Geschlossenes System",
+        "C: Offenes System",
+        "D: Thermodynamisch neutrales System"
+      ],
+      "correct_answer": "C",
+      "explanation": "Ein offenes System kann sowohl Energie als auch Materie mit seiner Umgebung austauschen, während geschlossene Systeme nur Energie und isolierte Systeme weder Energie noch Materie austauschen. Diese Unterscheidung ist wichtig für das Verständnis der Thermodynamik.",
+      "difficulty": 6,
+      "subcategory": "Thermodynamische Systeme (offen/geschlossen/isoliert)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Hamilton–Jacobi-Gleichung (HJ)",
+      "question": "Was beschreibt die Hamilton–Jacobi-Gleichung in der analytischen Mechanik?",
+      "choices": [
+        "A: Die Bewegungsgleichungen für ein System ohne äußere Kräfte.",
+        "B: Den Zusammenhang zwischen Energie und Impuls eines Teilchens.",
+        "C: Die Entwicklung der Wellenfunktion in der Quantenmechanik.",
+        "D: Die Beziehung zwischen der Hamilton-Funktion und der klassischen Trajektorie."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Hamilton–Jacobi-Gleichung ist ein fundamentales Konzept in der analytischen Mechanik, das es ermöglicht, die Bewegung eines Systems durch die Ableitung von Trajektorien aus der Hamilton-Funktion zu beschreiben. Sie verbindet die klassische Mechanik mit der Theorie der Hamiltonschen Dynamik, indem sie die Trajektorien in Form von Hamilton-Funktionen ausdrückt.",
+      "difficulty": 4,
+      "subcategory": "Hamilton–Jacobi-Gleichung (HJ)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Spin 1/2 (Pauli-Matrizen)",
+      "question": "Welche der folgenden Aussagen über die Pauli-Matrizen ist korrekt?",
+      "choices": [
+        "A: Die Pauli-Matrizen sind nur für Teilchen mit ganzzahligem Spin anwendbar.",
+        "B: Die Pauli-Matrizen sind hermitesche Matrizen und dienen zur Beschreibung des Spins von Teilchen mit Spin 1/2.",
+        "C: Die Pauli-Matrizen können nicht zur Beschreibung von Spin-Zuständen verwendet werden.",
+        "D: Die Pauli-Matrizen sind orthogonale Matrizen und haben keine komplexen Eigenwerte."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Pauli-Matrizen sind tatsächlich hermitesche Matrizen und spielen eine zentrale Rolle in der Quantenmechanik, insbesondere bei der Beschreibung von Spin-1/2-Systemen wie Elektronen. Sie ermöglichen die Darstellung der Spinoperatoren und deren Eigenwerte.",
+      "difficulty": 8,
+      "subcategory": "Spin 1/2 (Pauli-Matrizen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Erhaltungssätze in der Lagrange-Mechanik",
+      "question": "Welcher der folgenden Sätze beschreibt die Erhaltung der Energie in einem abgeschlossenen System der Lagrange-Mechanik?",
+      "choices": [
+        "A: Der Satz von der Erhaltung der mechanischen Energie",
+        "B: Der Satz von der Erhaltung des Drehimpulses",
+        "C: Der Satz von der Erhaltung der Masse",
+        "D: Der Satz von der Erhaltung des Impulses"
+      ],
+      "correct_answer": "A",
+      "explanation": "Der Satz von der Erhaltung der mechanischen Energie besagt, dass die Gesamtenergie eines geschlossenen Systems konstant bleibt, solange keine nicht-konservativen Kräfte wirken. In der Lagrange-Mechanik ist dies ein zentraler Aspekt, der aus der Struktur der Lagrange-Funktion abgeleitet werden kann.",
+      "difficulty": 6,
+      "subcategory": "Erhaltungssätze in der Lagrange-Mechanik"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Noether-Idee: Homogenität der Zeit ⇒ Energieerhaltung",
+      "question": "Was besagt die Noether-Idee in Bezug auf die Zeit und die Energieerhaltung?",
+      "choices": [
+        "A: Die Homogenität der Zeit führt zur Erhaltung der Energie.",
+        "B: Die Zeit ist unabhängig von physikalischen Gesetzen.",
+        "C: Die Unbeständigkeit der Zeit hat keinen Einfluss auf die Energie.",
+        "D: Die Veränderlichkeit der Zeit führt zur Erhaltung der Energie."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Noether-Idee besagt, dass die Homogenität der Zeit, also die Unabhängigkeit der physikalischen Gesetze von dem Zeitpunkt, zu einer Erhaltung der Energie führt. Dies ist ein fundamentales Prinzip der theoretischen Physik und zeigt den tiefen Zusammenhang zwischen Symmetrien und Erhaltungsgrößen auf.",
+      "difficulty": 2,
+      "subcategory": "Noether-Idee: Homogenität der Zeit ⇒ Energieerhaltung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Interferenz & Beugung elektromagnetischer Wellen",
+      "question": "Welche der folgenden Aussagen zur Interferenz von elektromagnetischen Wellen ist korrekt?",
+      "choices": [
+        "A: Bei konstruktiver Interferenz verstärken sich die Amplituden der Wellen.",
+        "B: Bei destruktiver Interferenz sind die Wellen immer in Phase.",
+        "C: Interferenz hat keinen Einfluss auf die Intensität des Lichtes.",
+        "D: Interferenz tritt nur bei Wellen gleicher Frequenz auf."
+      ],
+      "correct_answer": "A",
+      "explanation": "Konstruktive Interferenz tritt auf, wenn die Wellen in Phase sind, was zu einer Verstärkung der Amplituden führt. Dies ist ein fundamentales Prinzip der Interferenz, das in vielen physikalischen Anwendungen, wie z.B. in der Optik, eine Rolle spielt.",
+      "difficulty": 8,
+      "subcategory": "Interferenz & Beugung elektromagnetischer Wellen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Potentialbarrieren & -stufen",
+      "question": "Was passiert mit einem Teilchen, wenn es auf eine Potentialbarriere trifft, die höher ist als seine Energie?",
+      "choices": [
+        "A: Es wird sofort zurückgeworfen ohne weitere Wechselwirkungen.",
+        "B: Es kann die Barriere mit einer gewissen Wahrscheinlichkeit durchqueren.",
+        "C: Es kann die Barriere nur passieren, wenn es sich in einem bestimmten Zustand befindet.",
+        "D: Es bleibt immer auf der einen Seite der Barriere."
+      ],
+      "correct_answer": "B",
+      "explanation": "In der Quantenmechanik kann ein Teilchen mit einer gewissen Wahrscheinlichkeit eine Potentialbarriere überwinden, auch wenn seine Energie niedriger ist als die Höhe der Barriere. Dieses Phänomen wird als Tunneleffekt bezeichnet und ist ein fundamentales Konzept der Quantenmechanik.",
+      "difficulty": 4,
+      "subcategory": "Potentialbarrieren & -stufen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Einheiten (natürliche Einheiten)",
+      "question": "Welche Einheit wird in der natürlichen Einheitensystem häufig verwendet, um die Energie von Teilchen auszudrücken?",
+      "choices": [
+        "A: Kilogramm (kg)",
+        "B: Joule (J)",
+        "C: Meter (m)",
+        "D: Elektronvolt (eV)"
+      ],
+      "correct_answer": "D",
+      "explanation": "In der Teilchenphysik ist das Elektronvolt (eV) eine gebräuchliche Einheit zur Messung von Energie. Es beschreibt die Energie, die ein Elektron gewinnt, wenn es durch eine elektrische Spannung von einem Volt beschleunigt wird und ist besonders nützlich für die Beschreibung von subatomaren Prozessen.",
+      "difficulty": 3,
+      "subcategory": "Einheiten (natürliche Einheiten)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Bahndrehimpuls: Operator & Kommutatoren",
+      "question": "Welcher Operator wird verwendet, um den Bahndrehimpuls eines Teilchens in der Quantenmechanik darzustellen?",
+      "choices": [
+        "A: L = r × p",
+        "B: p = mv",
+        "C: E = mc²",
+        "D: F = ma"
+      ],
+      "correct_answer": "A",
+      "explanation": "Der Bahndrehimpuls in der Quantenmechanik wird durch den Operator L = r × p beschrieben, wobei r der Positionsvektor und p der Impulsvektor ist. Dies ist ein grundlegendes Konzept, das sich aus der klassischen Mechanik ableitet, aber in der Quantenmechanik eine wichtige Rolle spielt.",
+      "difficulty": 3,
+      "subcategory": "Bahndrehimpuls: Operator & Kommutatoren"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Kontinuitätsgleichung (vierdimensional)",
+      "question": "Was beschreibt die Kontinuitätsgleichung in der vierdimensionalen Relativitätstheorie?",
+      "choices": [
+        "A: Die Erhaltung der Energie in einem abgeschlossenen System.",
+        "B: Die Erhaltung der Masse in einem vierdimensionalen Raum-Zeit-Kontinuum.",
+        "C: Die Erhaltung der elektrischen Ladung in einem elektrischen Feld.",
+        "D: Die Erhaltung des vierdimensionalen Flusses einer physikalischen Größe."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Kontinuitätsgleichung in der vierdimensionalen Relativitätstheorie beschreibt, wie physikalische Größen wie Energie und Impuls in der Raum-Zeit verteilt und erhalten bleiben. Sie stellt sicher, dass der vierdimensionale Fluss dieser Größen über ein beliebiges Volumen konstant bleibt, was eine fundamentale Bedingung der Physik darstellt.",
+      "difficulty": 5,
+      "subcategory": "Kontinuitätsgleichung (vierdimensional)"
+    }
+  ]
+}
