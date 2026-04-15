@@ -1736,6 +1736,20 @@
       "correct_answer": "B",
       "explanation": "B: NFC",
       "difficulty": 7
+    },
+    {
+      "category": "Technologie",
+      "topic": "KI & Zukunftstechnologien",
+      "question": "Which of the following algorithms is typically used for monitoring anomalies in time series data?",
+      "choices": [
+        "A: Decision Trees (DT)",
+        "B: K-Nearest Neighbors (KNN)",
+        "C: Support Vector Machines (SVM)",
+        "D: Long Short-Term Memory (LSTM)"
+      ],
+      "correct_answer": "D",
+      "explanation": "Long Short-Term Memory (LSTM) is a special type of recurrent neural networks designed to learn long-term dependencies, making them particularly suitable for analyzing time series data. While the other algorithms are also useful, they are not specifically designed for processing sequential data.",
+      "difficulty": 8
     }
   ]
 }

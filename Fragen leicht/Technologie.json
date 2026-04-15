@@ -1680,6 +1680,20 @@
       "correct_answer": "B",
       "explanation": "NFC (Near Field Communication) ist die gängigste Technologie für kontaktloses Bezahlen mit Smartphones, da sie eine schnelle und sichere Verbindung zwischen Geräten ermöglicht. Bluetooth und RFID sind ebenfalls verwandte Technologien, jedoch weniger verbreitet für Mobile-Payment-Anwendungen. QR-Codes bieten eine andere Methode zum Bezahlen, indem sie Informationen scannen, benötigen jedoch eine Kamera und sind nicht kontaktlos.",
       "difficulty": 7
+    },
+    {
+      "category": "Technologie",
+      "topic": "KI & Zukunftstechnologien",
+      "question": "Welcher der folgenden Algorithmen wird typischerweise für die Überwachung von Anomalien in Zeitreihendaten eingesetzt?",
+      "choices": [
+        "A: Decision Trees (DT)",
+        "B: K-Nearest Neighbors (KNN)",
+        "C: Support Vector Machines (SVM)",
+        "D: Long Short-Term Memory (LSTM)"
+      ],
+      "correct_answer": "D",
+      "explanation": "Long Short-Term Memory (LSTM) ist eine spezielle Art von rekurrenten neuronalen Netzwerken, die darauf ausgelegt sind, langfristige Abhängigkeiten zu lernen, was sie besonders geeignet für die Analyse von Zeitreihendaten macht. Die anderen Algorithmen sind zwar auch nützlich, jedoch nicht speziell auf die Verarbeitung sequenzieller Daten ausgelegt.",
+      "difficulty": 8
     }
   ]
 }

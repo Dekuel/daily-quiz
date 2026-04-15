@@ -1,0 +1,168 @@
+{
+  "date": "2026-04-15",
+  "generated_at": "2026-04-15T04:05:12Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Ferroelektrizität",
+      "question": "What is a characteristic property of ferroelectric materials?",
+      "choices": [
+        "A: They have high thermal conductivity.",
+        "B: They conduct electric current very well.",
+        "C: They possess a spontaneous polarization.",
+        "D: They are always magnetic."
+      ],
+      "correct_answer": "C",
+      "explanation": "Ferroelectric materials are characterized by their ability to generate a spontaneous electric polarization that can be influenced by external electric fields. This sets them apart from other material classes and is fundamental for their applications in capacitors and sensors.",
+      "difficulty": 3,
+      "subcategory": "Ferroelektrizität"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Gibbs-Phasenregel; Mehrkomponenten-Gleichgewichte",
+      "question": "What does the Gibbs phase rule describe for a system with C components and P phases?",
+      "choices": [
+        "A: F = C - P - 2",
+        "B: F = C + P - 1",
+        "C: F = C + P + 1",
+        "D: F = C - P + 2"
+      ],
+      "correct_answer": "D",
+      "explanation": "The Gibbs phase rule is a fundamental relationship in statistical mechanics that indicates how many degrees of freedom (F) a system with C chemical components and P phases has. It is F = C - P + 2 and is crucial for understanding multi-component equilibria.",
+      "difficulty": 9,
+      "subcategory": "Gibbs-Phasenregel; Mehrkomponenten-Gleichgewichte"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Temperaturbegriff (thermisches Gleichgewicht)",
+      "question": "What does thermal equilibrium between two bodies mean?",
+      "choices": [
+        "A: The bodies have the same temperature.",
+        "B: The bodies have different temperatures.",
+        "C: One of the bodies is hotter than the other.",
+        "D: The bodies are made of different materials."
+      ],
+      "correct_answer": "A",
+      "explanation": "Thermal equilibrium means that two bodies have reached the same temperature, so that no heat flow occurs between them. In this state, the temperatures of the bodies are identical and stable.",
+      "difficulty": 1,
+      "subcategory": "Temperaturbegriff (thermisches Gleichgewicht)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Lichtquanten / Photonen",
+      "question": "What does a photon describe in the context of quantum mechanics?",
+      "choices": [
+        "A: It is a form of heat energy.",
+        "B: It is a particle that carries light energy.",
+        "C: It is a molecule that catalyzes chemical reactions.",
+        "D: It is an atom responsible for the color of a material."
+      ],
+      "correct_answer": "B",
+      "explanation": "A photon is the quantum of the electromagnetic field and represents the smallest unit of light. It carries light energy and exhibits both particle and wave properties, making it a central element of quantum mechanics.",
+      "difficulty": 4,
+      "subcategory": "Lichtquanten / Photonen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Naturkonstanten (Fundamentalwerte)",
+      "question": "Which of the following quantities is a physical constant?",
+      "choices": [
+        "A: Speed of light in a vacuum",
+        "B: Weight of an apple",
+        "C: Number of planets in the solar system",
+        "D: Temperature of water"
+      ],
+      "correct_answer": "A",
+      "explanation": "The speed of light in a vacuum is a fundamental physical constant with a fixed value of about 299,792,458 meters per second. The other options depend on variable conditions and are not physical constants.",
+      "difficulty": 1,
+      "subcategory": "Naturkonstanten (Fundamentalwerte)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Drehschwingungen um eine feste Achse",
+      "question": "What does the frequency of a rotational vibration around a fixed axis describe?",
+      "choices": [
+        "A: The number of complete rotations per second.",
+        "B: The maximum displacement from the equilibrium point.",
+        "C: The strength of the forces acting on the axis.",
+        "D: The time taken to make a complete rotation."
+      ],
+      "correct_answer": "A",
+      "explanation": "The frequency of a rotational vibration describes how many complete rotations an object makes in a specific time period. It is an important parameter for characterizing the behavior of oscillating systems.",
+      "difficulty": 7,
+      "subcategory": "Drehschwingungen um eine feste Achse"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Spin (allgemein)",
+      "question": "What does the spin of a particle describe in quantum mechanics?",
+      "choices": [
+        "A: A form of self-rotation of the particle.",
+        "B: The velocity of the particle.",
+        "C: The mass of the particle.",
+        "D: The electric charge of the particle."
+      ],
+      "correct_answer": "A",
+      "explanation": "Spin is an intrinsic property of particles that can be thought of as a kind of self-rotation. It is quantized and can take on certain discrete values, which is crucial for describing particles in quantum mechanics.",
+      "difficulty": 4,
+      "subcategory": "Spin (allgemein)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Strahlenablenkung am Prisma",
+      "question": "What happens to a light beam when it enters a prism?",
+      "choices": [
+        "A: The light beam is refracted and changes its direction.",
+        "B: The light beam is reflected and remains in the prism.",
+        "C: The light beam passes through the prism without change.",
+        "D: The light beam is scattered and dispersed evenly."
+      ],
+      "correct_answer": "A",
+      "explanation": "When a light beam enters a prism, it undergoes refraction, which changes its direction. This effect occurs due to the different refractive index of the prism material compared to air.",
+      "difficulty": 3,
+      "subcategory": "Strahlenablenkung am Prisma"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Partonmodell",
+      "question": "What does the parton model describe in particle physics?",
+      "choices": [
+        "A: The interactions between electrons and protons in an atom.",
+        "B: The motion of mass particles under the influence of gravitational forces.",
+        "C: The wave function of particles within the framework of quantum mechanics.",
+        "D: The internal structure of protons and neutrons as compositions of quarks and gluons."
+      ],
+      "correct_answer": "D",
+      "explanation": "The parton model is a concept that describes the internal structure of hadrons by representing them as collections of partons (quarks and gluons). It is commonly used to understand the properties of high-energy collisions in particle accelerators.",
+      "difficulty": 6,
+      "subcategory": "Partonmodell"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Punktdefekte (Überblick)",
+      "question": "What is a point defect in a crystal lattice?",
+      "choices": [
+        "A: A layer of atoms arranged parallel to each other.",
+        "B: An arrangement of atoms in a fixed pattern.",
+        "C: A vacancy where an atom is missing.",
+        "D: A line of atoms extending in a specific direction."
+      ],
+      "correct_answer": "C",
+      "explanation": "Point defects are local disruptions in the crystal lattice, often in the form of vacancies where an atom is missing. These defects can influence the properties of the material, such as its electrical or thermal conductivity.",
+      "difficulty": 5,
+      "subcategory": "Punktdefekte (Überblick)"
+    }
+  ]
+}

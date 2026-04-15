@@ -1,0 +1,107 @@
+{
+  "date": "2026-04-15",
+  "generated_at": "2026-04-15T04:02:29Z",
+  "schema_version": 6,
+  "mode": "normal",
+  "bundle_type": "daily",
+  "questions": [
+    {
+      "category": "Wissenschaft",
+      "topic": "Biologie",
+      "question": "Welches dieser Mikroorganismen ist dafür bekannt, Krankheiten beim Menschen zu verursachen?",
+      "choices": [
+        "A: Streptococcus thermophilus",
+        "B: Saccharomyces cerevisiae",
+        "C: Lactobacillus",
+        "D: Escherichia coli"
+      ],
+      "correct_answer": "D",
+      "explanation": "Escherichia coli ist ein Bakterium, das in bestimmten Stämmen für Lebensmittelvergiftungen und andere Krankheiten verantwortlich sein kann. Die anderen genannten Mikroorganismen sind überwiegend harmlos oder sogar nützlich für den Menschen.",
+      "difficulty": 4
+    },
+    {
+      "category": "Technologie",
+      "topic": "KI & Zukunftstechnologien",
+      "question": "Welcher der folgenden Algorithmen wird typischerweise für die Überwachung von Anomalien in Zeitreihendaten eingesetzt?",
+      "choices": [
+        "A: Decision Trees (DT)",
+        "B: K-Nearest Neighbors (KNN)",
+        "C: Support Vector Machines (SVM)",
+        "D: Long Short-Term Memory (LSTM)"
+      ],
+      "correct_answer": "D",
+      "explanation": "Long Short-Term Memory (LSTM) ist eine spezielle Art von rekurrenten neuronalen Netzwerken, die darauf ausgelegt sind, langfristige Abhängigkeiten zu lernen, was sie besonders geeignet für die Analyse von Zeitreihendaten macht. Die anderen Algorithmen sind zwar auch nützlich, jedoch nicht speziell auf die Verarbeitung sequenzieller Daten ausgelegt.",
+      "difficulty": 8
+    },
+    {
+      "category": "Geographie",
+      "topic": "Städte, Länder & Flaggen",
+      "question": "Welches Land grenzt im Norden an Deutschland?",
+      "choices": [
+        "A: Frankreich",
+        "B: Dänemark",
+        "C: Österreich",
+        "D: Polen"
+      ],
+      "correct_answer": "B",
+      "explanation": "Dänemark liegt im Norden von Deutschland und ist durch die Grenze von Schleswig-Holstein getrennt. Österreich hingegen liegt im Süden, während Polen im Osten und Frankreich im Westen an Deutschland grenzt.",
+      "difficulty": 1
+    },
+    {
+      "category": "Sprache",
+      "topic": "Fremdsprachen",
+      "question": "Welche der folgenden französischen Begriffe bedeutet 'Haus'?",
+      "choices": [
+        "A: Voiture",
+        "B: Jardin",
+        "C: Chien",
+        "D: Maison"
+      ],
+      "correct_answer": "D",
+      "explanation": "Der französische Begriff 'Maison' bedeutet 'Haus'. 'Jardin' steht für 'Garten', 'Voiture' bedeutet 'Auto' und 'Chien' ist das französische Wort für 'Hund'. Diese Begriffe sind somit eindeutig zu unterscheiden.",
+      "difficulty": 5
+    },
+    {
+      "category": "Geschichte",
+      "topic": "Mittelalter",
+      "question": "Welches der folgenden Tiere wurde im Mittelalter häufig als Nutztier gehalten?",
+      "choices": [
+        "A: Elefant",
+        "B: Löwe",
+        "C: Schaf",
+        "D: Adler"
+      ],
+      "correct_answer": "C",
+      "explanation": "Im Mittelalter waren Schafe wichtige Nutztiere, die für Wolle und Fleisch gehalten wurden. Löwen, Adler und Elefanten hingegen waren in Europa selten und nicht als Nutztiere verfügbar.",
+      "difficulty": 2
+    },
+    {
+      "category": "Natur",
+      "topic": "Pflanzenwelt",
+      "question": "Welche der folgenden Pflanzen ist bekannt dafür, dass sie häufig in Gärten als Zierpflanze verwendet wird?",
+      "choices": [
+        "A: Brennnessel",
+        "B: Eiche",
+        "C: Rose",
+        "D: Fichte"
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Rose ist eine der beliebtesten Zierpflanzen und wird oft in Gärten für ihre schönen Blüten kultiviert. Eiche und Fichte sind Bäume, die eher in Wäldern vorkommen, während die Brennnessel oft als Unkraut angesehen wird.",
+      "difficulty": 1
+    },
+    {
+      "category": "Essen und Trinken",
+      "topic": "Ernährung",
+      "question": "Welche Ernährungsform legt den Schwerpunkt auf pflanzliche Nahrungsmittel und schließt tierische Produkte weitgehend aus?",
+      "choices": [
+        "A: Veganismus",
+        "B: Ketogene Ernährung",
+        "C: Paleo-Diät",
+        "D: Mediterrane Ernährung"
+      ],
+      "correct_answer": "A",
+      "explanation": "Veganismus ist eine Ernährungsform, die ausschließlich pflanzliche Produkte umfasst und alle tierischen Produkte vermeidet, einschließlich Fleisch, Milch und Eier. Diese Ernährungsweise wird oft aus gesundheitlichen, ethischen oder ökologischen Gründen gewählt.",
+      "difficulty": 1
+    }
+  ]
+}

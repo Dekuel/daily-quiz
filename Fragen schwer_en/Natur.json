@@ -2170,6 +2170,20 @@
       "correct_answer": "C",
       "explanation": "Mycorrhizal fungi form a symbiotic relationship with plant roots that significantly enhance their nutrient uptake. This is particularly important in nutrient-poor soils, where the interaction between fungi and plants promotes the growth and health of the entire ecosystem.",
       "difficulty": 9
+    },
+    {
+      "category": "Natur",
+      "topic": "Pflanzenwelt",
+      "question": "Which of the following procedures is typical for training deep neural networks?",
+      "choices": [
+        "A: Backpropagation",
+        "B: Principal Component Analysis",
+        "C: Gradient Descent",
+        "D: K-Means Clustering"
+      ],
+      "correct_answer": "B",
+      "explanation": "Backpropagation is a key algorithm for adjusting weights in neural networks during the training process. While gradient descent is also used in the context of neural networks, backpropagation is specific to error calculation and weight adjustment. The other options are more relevant for other types of data analysis and machine learning.",
+      "difficulty": 6
     }
   ]
 }

@@ -1,0 +1,169 @@
+{
+  "date": "2026-04-15",
+  "generated_at": "2026-04-15T04:04:34Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Ferroelektrizität",
+      "question": "Was ist eine charakteristische Eigenschaft von ferroelektrischen Materialien?",
+      "choices": [
+        "A: Sie haben eine hohe Temperaturleitfähigkeit.",
+        "B: Sie leiten elektrischen Strom sehr gut.",
+        "C: Sie besitzen eine spontane Polarisierung.",
+        "D: Sie sind immer magnetisch."
+      ],
+      "correct_answer": "C",
+      "explanation": "Ferroelektrische Materialien zeichnen sich durch ihre Fähigkeit aus, eine spontane elektrische Polarisierung zu erzeugen, die sich durch äußere elektrische Felder beeinflussen lässt. Dies unterscheidet sie von anderen Materialklassen und ist grundlegend für ihre Anwendungen in Kondensatoren und Sensoren.",
+      "difficulty": 3,
+      "subcategory": "Ferroelektrizität"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Gibbs-Phasenregel; Mehrkomponenten-Gleichgewichte",
+      "question": "Was beschreibt die Gibbs-Phasenregel für ein System mit C Komponenten und P Phasen?",
+      "choices": [
+        "A: F = C - P - 2",
+        "B: F = C + P - 1",
+        "C: F = C + P + 1",
+        "D: F = C - P + 2"
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Gibbs-Phasenregel ist eine fundamentale Beziehung in der statistischen Mechanik, die angibt, wie viele Freiheitsgrade (F) ein System mit C chemischen Komponenten und P Phasen hat. Sie lautet F = C - P + 2 und ist entscheidend für das Verständnis von Mehrkomponenten-Gleichgewichten.",
+      "difficulty": 9,
+      "subcategory": "Gibbs-Phasenregel; Mehrkomponenten-Gleichgewichte"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Temperaturbegriff (thermisches Gleichgewicht)",
+      "question": "Was bedeutet thermisches Gleichgewicht zwischen zwei Körpern?",
+      "choices": [
+        "A: Die Körper haben die gleiche Temperatur.",
+        "B: Die Körper haben unterschiedliche Temperaturen.",
+        "C: Einer der Körper ist heißer als der andere.",
+        "D: Die Körper sind aus verschiedenen Materialien."
+      ],
+      "correct_answer": "A",
+      "explanation": "Thermisches Gleichgewicht bedeutet, dass zwei Körper die gleiche Temperatur erreicht haben, sodass kein Wärmefluss mehr zwischen ihnen stattfindet. In diesem Zustand sind die Temperaturen der Körper identisch und stabil.",
+      "difficulty": 1,
+      "subcategory": "Temperaturbegriff (thermisches Gleichgewicht)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Lichtquanten / Photonen",
+      "question": "Was beschreibt das Photon im Kontext der Quantenmechanik?",
+      "choices": [
+        "A: Es ist eine Form von Wärmeenergie.",
+        "B: Es ist ein Teilchen, das Lichtenergie transportiert.",
+        "C: Es ist ein Molekül, das chemische Reaktionen katalysiert.",
+        "D: Es ist ein Atom, das für die Farbe eines Materials verantwortlich ist."
+      ],
+      "correct_answer": "B",
+      "explanation": "Ein Photon ist das Quant des elektromagnetischen Feldes und stellt die kleinste Einheit von Licht dar. Es transportiert Lichtenergie und zeigt sowohl Teilchen- als auch Welleneigenschaften, was es zu einem zentralen Element der Quantenmechanik macht.",
+      "difficulty": 4,
+      "subcategory": "Lichtquanten / Photonen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Naturkonstanten (Fundamentalwerte)",
+      "question": "Welche der folgenden Größen ist eine Naturkonstante?",
+      "choices": [
+        "A: Lichtgeschwindigkeit im Vakuum",
+        "B: Gewicht eines Apfels",
+        "C: Anzahl der Planeten im Sonnensystem",
+        "D: Temperatur des Wassers"
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Lichtgeschwindigkeit im Vakuum ist eine fundamentale Naturkonstante und hat einen festen Wert von etwa 299.792.458 Metern pro Sekunde. Die anderen Optionen sind von variablen Bedingungen abhängig und keine Naturkonstanten.",
+      "difficulty": 1,
+      "subcategory": "Naturkonstanten (Fundamentalwerte)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Drehschwingungen um eine feste Achse",
+      "question": "Was beschreibt die Frequenz einer Drehschwingung um eine feste Achse?",
+      "choices": [
+        "A: Die Anzahl der vollständigen Umdrehungen pro Sekunde.",
+        "B: Die maximale Auslenkung vom Gleichgewichtspunkt.",
+        "C: Die Stärke der auf die Achse wirkenden Kräfte.",
+        "D: Die Zeit, die benötigt wird, um eine vollständige Umdrehung zu machen."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Frequenz einer Drehschwingung beschreibt, wie oft ein Objekt in einer bestimmten Zeitspanne eine vollständige Umdrehung vollzieht. Sie ist ein wichtiger Parameter, um das Verhalten von schwingenden Systemen zu charakterisieren.",
+      "difficulty": 7,
+      "subcategory": "Drehschwingungen um eine feste Achse"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Spin (allgemein)",
+      "question": "Was beschreibt der Spin eines Teilchens in der Quantenmechanik?",
+      "choices": [
+        "A: Eine Form der Eigenrotation des Teilchens.",
+        "B: Die Geschwindigkeit des Teilchens.",
+        "C: Die Masse des Teilchens.",
+        "D: Die elektrische Ladung des Teilchens."
+      ],
+      "correct_answer": "A",
+      "explanation": "Der Spin ist eine intrinsische Eigenschaft von Teilchen, die man sich als eine Art Eigenrotation vorstellen kann. Er ist quantisiert und kann bestimmte diskrete Werte annehmen, was für die Beschreibung von Teilchen in der Quantenmechanik entscheidend ist.",
+      "difficulty": 4,
+      "subcategory": "Spin (allgemein)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Strahlenablenkung am Prisma",
+      "question": "Was passiert mit einem Lichtstrahl, wenn er in ein Prisma eintritt?",
+      "choices": [
+        "A: Der Lichtstrahl wird gebrochen und ändert seine Richtung.",
+        "B: Der Lichtstrahl wird reflektiert und bleibt im Prisma.",
+        "C: Der Lichtstrahl passiert das Prisma ohne Veränderung.",
+        "D: Der Lichtstrahl wird gestreut und verteilt sich gleichmäßig."
+      ],
+      "correct_answer": "A",
+      "explanation": "Wenn ein Lichtstrahl in ein Prisma eintritt, erfährt er eine Brechung, die seine Richtung ändert. Dieser Effekt tritt aufgrund des unterschiedlichen Brechungsindex des Prismamaterials im Vergleich zur Luft auf.",
+      "difficulty": 3,
+      "subcategory": "Strahlenablenkung am Prisma"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Partonmodell",
+      "question": "Was beschreibt das Partonmodell in der Teilchenphysik?",
+      "choices": [
+        "A: Die Wechselwirkungen zwischen Elektronen und Protonen in einem Atom.",
+        "B: Die Bewegung von Masseteilchen unter dem Einfluss von Gravitationskräften.",
+        "C: Die Wellenfunktion von Teilchen im Rahmen der Quantenmechanik.",
+        "D: Die innere Struktur von Protonen und Neutronen als Zusammensetzung von Quarks und Gluonen."
+      ],
+      "correct_answer": "D",
+      "explanation": "Das Partonmodell ist ein Konzept, das die innere Struktur von Hadronen beschreibt, indem es sie als Ansammlung von Partonen (Quarks und Gluonen) darstellt. Es wird häufig verwendet, um die Eigenschaften von hochenergetischen Kollisionen in Teilchenbeschleunigern zu verstehen.",
+      "difficulty": 6,
+      "subcategory": "Partonmodell"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Punktdefekte (Überblick)",
+      "question": "Was ist ein Punktdefekt in einem Kristallgitter?",
+      "choices": [
+        "A: Eine Schicht von Atomen, die sich parallel zueinander anordnen.",
+        "B: Eine Anordnung von Atomen in einem festen Muster.",
+        "C: Eine Fehlstelle, wo ein Atom fehlt.",
+        "D: Eine Linie von Atomen, die sich in einer bestimmten Richtung ausdehnt."
+      ],
+      "correct_answer": "C",
+      "explanation": "Punktdefekte sind lokale Störungen im Kristallgitter, häufig in Form von Fehlstellen, wo ein Atom fehlt. Diese Defekte können die Eigenschaften des Materials beeinflussen, etwa dessen elektrische oder thermische Leitfähigkeit.",
+      "difficulty": 5,
+      "subcategory": "Punktdefekte (Überblick)"
+    }
+  ]
+}
