@@ -1,0 +1,168 @@
+{
+  "date": "2026-04-16",
+  "generated_at": "2026-04-16T04:10:29Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Zerlegungs- und Eindeutigkeitssatz (Vektoranalysis)",
+      "question": "What does the decomposition and uniqueness theorem state in vector analysis?",
+      "choices": [
+        "A: Every vector can only be decomposed into a divergent component.",
+        "B: Every vector is always zero.",
+        "C: Every vector can only be decomposed into a rotational component.",
+        "D: Every vector can be uniquely decomposed into a divergent and a rotational component."
+      ],
+      "correct_answer": "D",
+      "explanation": "The decomposition and uniqueness theorem states that every vector can be uniquely decomposed into a divergent and a rotational component. This is a fundamental concept in vector analysis that finds application in many areas of physics.",
+      "difficulty": 5,
+      "subcategory": "Zerlegungs- und Eindeutigkeitssatz (Vektoranalysis)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Relativistische Theorie des Elektrons (Überblick)",
+      "question": "What describes the relativistic energy of an electron?",
+      "choices": [
+        "A: E = qV",
+        "B: E = mc²",
+        "C: E = hf",
+        "D: E = 1/2 mv²"
+      ],
+      "correct_answer": "B",
+      "explanation": "The relativistic energy of an electron is described by the equation E = mc², which represents the relationship between mass and energy in relativity theory. This equation is central to understanding particles in quantum mechanics, especially at relativistic speeds.",
+      "difficulty": 4,
+      "subcategory": "Relativistische Theorie des Elektrons (Überblick)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Coulomb-Potential (Wasserstoffatom): Energiespektrum",
+      "question": "What describes the energy spectrum of a hydrogen atom in the context of the Coulomb potential?",
+      "choices": [
+        "A: Energy levels that change with temperature.",
+        "B: Continuous energy values without restrictions.",
+        "C: Only negative energy values are possible.",
+        "D: Discrete energy levels dependent on the principal quantum number."
+      ],
+      "correct_answer": "D",
+      "explanation": "The energy spectrum of a hydrogen atom consists of discrete energy levels determined by the principal quantum number n. This is a fundamental property of quantum mechanics resulting from solving the Schrödinger equation for the Coulomb potential.",
+      "difficulty": 2,
+      "subcategory": "Coulomb-Potential (Wasserstoffatom): Energiespektrum"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Schwarzer Strahler: Emissionsverhalten",
+      "question": "What describes the emission behavior of an ideal blackbody radiator?",
+      "choices": [
+        "A: It absorbs all incident radiation without emitting any.",
+        "B: It emits only infrared radiation.",
+        "C: It reflects all incident light.",
+        "D: It radiates all frequencies of electromagnetic radiation with maximum efficiency."
+      ],
+      "correct_answer": "D",
+      "explanation": "An ideal blackbody radiator is a body that perfectly absorbs all incident radiation and emits the maximum radiation for each frequency at any temperature. This makes it an ideal example for emission behavior in thermodynamics and optics.",
+      "difficulty": 5,
+      "subcategory": "Schwarzer Strahler: Emissionsverhalten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Bindungstypen (Überblick)",
+      "question": "Which of the following types of bonding is typically responsible for metallic materials?",
+      "choices": [
+        "A: Covalent bonding",
+        "B: Hydrogen bonding",
+        "C: Ionic bonding",
+        "D: Metallic bonding"
+      ],
+      "correct_answer": "D",
+      "explanation": "Metallic bonding is characteristic of metallic materials and arises from the delocalized electrons holding the atomic nuclei together. This bonding imparts metals with typical properties like electrical conductivity and ductility.",
+      "difficulty": 6,
+      "subcategory": "Bindungstypen (Überblick)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Quantenstatistik: Dichtematrix (rein/gemischt)",
+      "question": "Which of the following statements correctly describes the difference between a pure and a mixed density matrix in quantum statistics?",
+      "choices": [
+        "A: A pure density matrix describes a state with a defined energy eigenvalue, while a mixed density matrix represents a statistical mixture of states.",
+        "B: A mixed density matrix always remains time-independent, while a pure density matrix is time-dependent.",
+        "C: A mixed density matrix is always a diagonal matrix, while a pure density matrix can be non-diagonal.",
+        "D: A pure density matrix can only be used for bosonic systems, while mixed density matrices also apply to fermionic systems."
+      ],
+      "correct_answer": "A",
+      "explanation": "A pure density matrix represents a quantum mechanical state with fully defined properties, while a mixed density matrix represents a statistical distribution over multiple possible states. This distinction is fundamental to quantum statistics and understanding systems with uncertainty.",
+      "difficulty": 7,
+      "subcategory": "Quantenstatistik: Dichtematrix (rein/gemischt)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Geometrische Interpretation von Phasenübergängen",
+      "question": "Which area in the phase diagram represents the region where a substance is in the liquid state?",
+      "choices": [
+        "A: Liquid phase",
+        "B: Gas phase",
+        "C: Solid phase",
+        "D: Supercritical phase"
+      ],
+      "correct_answer": "A",
+      "explanation": "In the phase diagram, the area of the liquid phase describes the conditions under which the substance exists as a liquid. This phase is situated between the solid phase and the gas phase, showing the transitions with changes in temperature and pressure.",
+      "difficulty": 3,
+      "subcategory": "Geometrische Interpretation von Phasenübergängen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Kinematik der Elektronenstreuung",
+      "question": "What does momentum describe in the kinematics of electron scattering?",
+      "choices": [
+        "A: The energy lost during scattering.",
+        "B: The mass of the electrons.",
+        "C: The number of scattered electrons.",
+        "D: The direction of motion and speed of the electrons."
+      ],
+      "correct_answer": "D",
+      "explanation": "Momentum is a central concept in kinematics as it describes both the direction of motion and the speed of a particle. In electron scattering, momentum is crucial for analyzing interactions and resulting changes in motion.",
+      "difficulty": 5,
+      "subcategory": "Kinematik der Elektronenstreuung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Hamilton–Jacobi-Gleichung (HJ)",
+      "question": "Which of the following statements correctly describes the role of the Hamilton–Jacobi equation in analytical mechanics?",
+      "choices": [
+        "A: It establishes a direct connection between the momentum and energy of a system.",
+        "B: It transforms the Hamiltonian equations into a form that simplifies the solution of motion problems.",
+        "C: It is only applicable to systems with a constant number of degrees of freedom.",
+        "D: It describes the time evolution of a system solely in terms of its kinetic energy."
+      ],
+      "correct_answer": "B",
+      "explanation": "The Hamilton–Jacobi equation simplifies the Hamiltonian equations, making the solution of complex motion problems significantly easier. It plays a central role in analytical mechanics, especially in dealing with systems with variable degrees of freedom.",
+      "difficulty": 8,
+      "subcategory": "Hamilton–Jacobi-Gleichung (HJ)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Adiabaten und Isothermen (Prozesse)",
+      "question": "What does an isothermal process describe in thermodynamics?",
+      "choices": [
+        "A: The process occurs at constant pressure.",
+        "B: The process occurs at constant temperature.",
+        "C: The process is reversible.",
+        "D: The process occurs without heat exchange."
+      ],
+      "correct_answer": "B",
+      "explanation": "An isothermal process is a thermodynamic process where the system's temperature remains constant. This means that heat is added or removed during the process to maintain a stable temperature.",
+      "difficulty": 2,
+      "subcategory": "Adiabaten und Isothermen (Prozesse)"
+    }
+  ]
+}

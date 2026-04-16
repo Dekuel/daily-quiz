@@ -1750,6 +1750,20 @@
       "correct_answer": "D",
       "explanation": "Long Short-Term Memory (LSTM) is a special type of recurrent neural networks designed to learn long-term dependencies, making them particularly suitable for analyzing time series data. While the other algorithms are also useful, they are not specifically designed for processing sequential data.",
       "difficulty": 8
+    },
+    {
+      "category": "Technologie",
+      "topic": "Computer & Internet",
+      "question": "Which protocol is commonly used for transmitting video streaming data over the Internet?",
+      "choices": [
+        "A: SMTP",
+        "B: FTP",
+        "C: RTSP",
+        "D: SNMP"
+      ],
+      "correct_answer": "C",
+      "explanation": "RTSP (Real-Time Streaming Protocol) is a network protocol specifically designed for streaming media content and is commonly used in video conferencing and streaming applications. In contrast, FTP and SMTP are used for file transfers and email, while SNMP is used for network management.",
+      "difficulty": 8
     }
   ]
 }

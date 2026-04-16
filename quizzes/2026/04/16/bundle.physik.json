@@ -1,0 +1,169 @@
+{
+  "date": "2026-04-16",
+  "generated_at": "2026-04-16T04:09:49Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Zerlegungs- und Eindeutigkeitssatz (Vektoranalysis)",
+      "question": "Was besagt der Zerlegungs- und Eindeutigkeitssatz in der Vektoranalysis?",
+      "choices": [
+        "A: Jeder Vektor kann nur in eine divergente Komponente zerlegt werden.",
+        "B: Jeder Vektor ist immer gleich Null.",
+        "C: Jeder Vektor kann nur in eine rotierende Komponente zerlegt werden.",
+        "D: Jeder Vektor kann eindeutig in eine divergente und eine rotierende Komponente zerlegt werden."
+      ],
+      "correct_answer": "D",
+      "explanation": "Der Zerlegungs- und Eindeutigkeitssatz besagt, dass jeder Vektor in eine eindeutige divergente und rotierende Komponente zerlegt werden kann. Dies ist ein grundlegendes Konzept in der Vektoranalysis, das in vielen Bereichen der Physik Anwendung findet.",
+      "difficulty": 5,
+      "subcategory": "Zerlegungs- und Eindeutigkeitssatz (Vektoranalysis)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Relativistische Theorie des Elektrons (Überblick)",
+      "question": "Was beschreibt die relativistische Energie eines Elektrons?",
+      "choices": [
+        "A: E = qV",
+        "B: E = mc²",
+        "C: E = hf",
+        "D: E = 1/2 mv²"
+      ],
+      "correct_answer": "B",
+      "explanation": "Die relativistische Energie eines Elektrons wird durch die Gleichung E = mc² beschrieben, die die Beziehung zwischen Masse und Energie in der Relativitätstheorie darstellt. Diese Gleichung ist zentral für das Verständnis von Teilchen in der Quantenmechanik, insbesondere bei relativistischen Geschwindigkeiten.",
+      "difficulty": 4,
+      "subcategory": "Relativistische Theorie des Elektrons (Überblick)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Coulomb-Potential (Wasserstoffatom): Energiespektrum",
+      "question": "Was beschreibt das Energiespektrum eines Wasserstoffatoms im Kontext des Coulomb-Potentials?",
+      "choices": [
+        "A: Energieniveaus, die sich mit der Temperatur ändern.",
+        "B: Kontinuierliche Energiewerte ohne Einschränkungen.",
+        "C: Nur negative Energiewerte sind möglich.",
+        "D: Diskrete Energieniveaus, die von der Hauptquantenzahl abhängen."
+      ],
+      "correct_answer": "D",
+      "explanation": "Das Energiespektrum eines Wasserstoffatoms besteht aus diskreten Energieniveaus, die durch die Hauptquantenzahl n bestimmt werden. Dies ist eine grundlegende Eigenschaft der Quantenmechanik und resultiert aus der Lösung der Schrödinger-Gleichung für das Coulomb-Potential.",
+      "difficulty": 2,
+      "subcategory": "Coulomb-Potential (Wasserstoffatom): Energiespektrum"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Schwarzer Strahler: Emissionsverhalten",
+      "question": "Was beschreibt das Emissionsverhalten eines idealen schwarzen Strahlers?",
+      "choices": [
+        "A: Er absorbiert alle einfallenden Strahlen, ohne sie abzugeben.",
+        "B: Er gibt nur infrarote Strahlung ab.",
+        "C: Er reflektiert das gesamte einfallende Licht.",
+        "D: Er strahlt alle Frequenzen der elektromagnetischen Strahlung mit maximaler Effizienz ab."
+      ],
+      "correct_answer": "D",
+      "explanation": "Ein idealer schwarzer Strahler ist ein Körper, der alle einfallenden Strahlung perfekt absorbiert und gleichzeitig bei jeder Temperatur die maximale Strahlung für jede Frequenz abgibt. Dies macht ihn zu einem idealen Beispiel für das Emissionsverhalten in der Thermodynamik und Optik.",
+      "difficulty": 5,
+      "subcategory": "Schwarzer Strahler: Emissionsverhalten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Bindungstypen (Überblick)",
+      "question": "Welche der folgenden Bindungsarten ist typischerweise für metallische Materialien verantwortlich?",
+      "choices": [
+        "A: Kovalente Bindung",
+        "B: Wasserstoffbindung",
+        "C: Ionenbindung",
+        "D: Metallbindung"
+      ],
+      "correct_answer": "D",
+      "explanation": "Metallbindungen sind charakteristisch für metallische Materialien und entstehen durch die delokalisierten Elektronen, die die Atomrümpfe zusammenhalten. Diese Bindung verleiht Metallen ihre typischen Eigenschaften wie elektrische Leitfähigkeit und Duktilität.",
+      "difficulty": 6,
+      "subcategory": "Bindungstypen (Überblick)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Quantenstatistik: Dichtematrix (rein/gemischt)",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt den Unterschied zwischen einer reinen und einer gemischten Dichtematrix in der Quantenstatistik?",
+      "choices": [
+        "A: Eine reine Dichtematrix beschreibt einen Zustand mit definiertem Energieeigenwert, während eine gemischte Dichtematrix eine statistische Mischung von Zuständen repräsentiert.",
+        "B: Eine gemischte Dichtematrix bleibt immer zeitunabhängig, während eine reine Dichtematrix zeitabhängig ist.",
+        "C: Eine gemischte Dichtematrix ist immer eine diagonale Matrix, während eine reine Dichtematrix nicht-diagonal sein kann.",
+        "D: Eine reine Dichtematrix kann nur für bosonische Systeme verwendet werden, während gemischte Dichtematrizen auch für fermionische Systeme gelten."
+      ],
+      "correct_answer": "A",
+      "explanation": "Eine reine Dichtematrix repräsentiert einen quantenmechanischen Zustand mit vollständig definierten Eigenschaften, während eine gemischte Dichtematrix eine statistische Verteilung über mehrere mögliche Zustände darstellt. Diese Unterscheidung ist fundamental für die Quantenstatistik und das Verständnis von Systemen mit Unschärfe.",
+      "difficulty": 7,
+      "subcategory": "Quantenstatistik: Dichtematrix (rein/gemischt)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Geometrische Interpretation von Phasenübergängen",
+      "question": "Welche Fläche im Phasendiagramm repräsentiert den Bereich, in dem ein Stoff im flüssigen Zustand vorliegt?",
+      "choices": [
+        "A: Flüssigkeitsphase",
+        "B: Gasphase",
+        "C: Festphase",
+        "D: Überkritische Phase"
+      ],
+      "correct_answer": "A",
+      "explanation": "Im Phasendiagramm beschreibt die Fläche der Flüssigkeitsphase die Bedingungen, unter denen der Stoff als Flüssigkeit existiert. Diese Phase ist zwischen der Festphase und der Gasphase angeordnet und zeigt die Übergänge bei Temperatur- und Druckänderungen.",
+      "difficulty": 3,
+      "subcategory": "Geometrische Interpretation von Phasenübergängen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Kinematik der Elektronenstreuung",
+      "question": "Was beschreibt der Impuls in der Kinematik der Elektronenstreuung?",
+      "choices": [
+        "A: Die Energie, die bei der Streuung verloren geht.",
+        "B: Die Masse der Elektronen.",
+        "C: Die Anzahl der gestreuten Elektronen.",
+        "D: Die Bewegungsrichtung und Geschwindigkeit der Elektronen."
+      ],
+      "correct_answer": "D",
+      "explanation": "Der Impuls ist ein zentrales Konzept in der Kinematik, da er sowohl die Bewegungsrichtung als auch die Geschwindigkeit eines Teilchens beschreibt. Bei der Elektronenstreuung ist der Impuls entscheidend, um die Wechselwirkungen und die resultierenden Bewegungsänderungen zu analysieren.",
+      "difficulty": 5,
+      "subcategory": "Kinematik der Elektronenstreuung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Hamilton–Jacobi-Gleichung (HJ)",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt die Rolle der Hamilton–Jacobi-Gleichung in der analytischen Mechanik?",
+      "choices": [
+        "A: Sie stellt eine direkte Verbindung zwischen dem Impuls und der Energie eines Systems her.",
+        "B: Sie transformiert die Hamiltonschen Gleichungen in eine Form, die die Lösung von Bewegungsproblemen vereinfacht.",
+        "C: Sie ist nur anwendbar für Systeme mit einer konstanten Anzahl von Freiheitsgraden.",
+        "D: Sie beschreibt die Zeitentwicklung eines Systems ausschließlich in Bezug auf seine kinetische Energie."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Hamilton–Jacobi-Gleichung ermöglicht es, die Hamiltonschen Gleichungen in eine vereinfachte Form zu bringen, was die Lösung von komplexen Bewegungsproblemen erheblich erleichtert. Sie spielt eine zentrale Rolle in der analytischen Mechanik, insbesondere bei der Behandlung von Systemen mit variablen Freiheitsgraden.",
+      "difficulty": 8,
+      "subcategory": "Hamilton–Jacobi-Gleichung (HJ)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Adiabaten und Isothermen (Prozesse)",
+      "question": "Was beschreibt ein isothermer Prozess in der Thermodynamik?",
+      "choices": [
+        "A: Der Prozess findet bei konstantem Druck statt.",
+        "B: Der Prozess findet bei konstanter Temperatur statt.",
+        "C: Der Prozess ist reversibel.",
+        "D: Der Prozess findet ohne Wärmeaustausch statt."
+      ],
+      "correct_answer": "B",
+      "explanation": "Ein isothermer Prozess ist ein thermodynamischer Prozess, bei dem die Temperatur des Systems konstant bleibt. Dies bedeutet, dass während des Prozesses Wärme zugeführt oder entzogen wird, um die Temperatur stabil zu halten.",
+      "difficulty": 2,
+      "subcategory": "Adiabaten und Isothermen (Prozesse)"
+    }
+  ]
+}
