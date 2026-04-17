@@ -1,0 +1,169 @@
+{
+  "date": "2026-04-17",
+  "generated_at": "2026-04-17T04:05:28Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Adiabaten und Isothermen (Prozesse)",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt die Eigenschaften eines adiabatischen Prozesses im Vergleich zu einem isothermen Prozess?",
+      "choices": [
+        "A: In einem adiabatischen Prozess wird Arbeit verrichtet, ohne dass sich das System ändert, während in einem isothermen Prozess Arbeit nur bei Temperaturänderung verrichtet wird.",
+        "B: In einem adiabatischen Prozess erfolgt keine Wärmeübertragung, während in einem isothermen Prozess die Temperatur konstant bleibt.",
+        "C: In einem adiabatischen Prozess bleibt die innere Energie konstant, während in einem isothermen Prozess die innere Energie variiert.",
+        "D: Adiabatische Prozesse sind immer reversibel, während isotherme Prozesse irreversibel sind."
+      ],
+      "correct_answer": "B",
+      "explanation": "Ein adiabatischer Prozess zeichnet sich dadurch aus, dass keine Wärme mit der Umgebung ausgetauscht wird. Im Gegensatz dazu bleibt bei einem isothermen Prozess die Temperatur konstant, was bedeutet, dass Wärme zugeführt oder abgeführt wird, um die Temperatur stabil zu halten.",
+      "difficulty": 8,
+      "subcategory": "Adiabaten und Isothermen (Prozesse)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Bessel-Funktionen (radiale Lösungen)",
+      "question": "Welche der folgenden Aussagen über Bessel-Funktionen als radiale Lösungen der Schrödinger-Gleichung in zylindrischen Koordinaten ist korrekt?",
+      "choices": [
+        "A: Bessel-Funktionen zweiter Art sind immer linear unabhängig von Bessel-Funktionen erster Art.",
+        "B: Bessel-Funktionen erster Art sind für die Beschreibung von Zuständen mit endlichen Energieeigenwerten in zylindrischen Potenzialen entscheidend.",
+        "C: Bessel-Funktionen haben keine Anwendung in der Quantenmechanik.",
+        "D: Bessel-Funktionen sind nur für sphärische Koordinaten relevant."
+      ],
+      "correct_answer": "B",
+      "explanation": "Bessel-Funktionen erster Art treten als Lösungen der radialen Schrödinger-Gleichung für zylindrische Symmetrie auf und sind entscheidend für die Beschreibung quantenmechanischer Systeme in zylindrischen Potenzialen. Sie sind für die Berechnung von Energieeigenwerten und -zuständen in solchen Systemen wichtig.",
+      "difficulty": 7,
+      "subcategory": "Bessel-Funktionen (radiale Lösungen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Homogenitätsrelationen (Euler/Gibbs-Duhem)",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt die Anwendung der Homogenitätsrelationen in der Thermodynamik?",
+      "choices": [
+        "A: Die Homogenitätsrelationen sind keine relevanten Konzepte in der Thermodynamik.",
+        "B: Die Homogenitätsrelationen beschreiben die Beziehung zwischen Temperatur und Druck.",
+        "C: Die Homogenitätsrelationen ermöglichen es, thermodynamische Potentiale in Bezug auf ihre Variablen zu analysieren.",
+        "D: Die Homogenitätsrelationen sind nur für ideale Gase anwendbar."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Homogenitätsrelationen, wie die Euler- und Gibbs-Duhem-Beziehungen, sind wichtige Werkzeuge in der Thermodynamik, um die Abhängigkeiten zwischen verschiedenen thermodynamischen Potentialen und ihren Variablen zu verstehen. Sie helfen dabei, Beziehungen zwischen Entropie, Energie, Temperatur und anderen Größen zu erfassen.",
+      "difficulty": 4,
+      "subcategory": "Homogenitätsrelationen (Euler/Gibbs-Duhem)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Fundamentale Wechselwirkungen",
+      "question": "Welche der folgenden Wechselwirkungen ist für den Zerfall von radioaktiven Atomkernen verantwortlich?",
+      "choices": [
+        "A: Elektromagnetische Wechselwirkung",
+        "B: Starke Wechselwirkung",
+        "C: Schwache Wechselwirkung",
+        "D: Gravitative Wechselwirkung"
+      ],
+      "correct_answer": "C",
+      "explanation": "Der Zerfall von radioaktiven Atomkernen wird durch die schwache Wechselwirkung verursacht, die unter anderem für den Beta-Zerfall verantwortlich ist. Die starke Wechselwirkung hält die Protonen und Neutronen im Atomkern zusammen, während die elektromagnetische und gravitative Wechselwirkung in diesem Kontext nicht relevant sind.",
+      "difficulty": 4,
+      "subcategory": "Fundamentale Wechselwirkungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Scherung & Torsionsmodul",
+      "question": "Welcher der folgenden Begriffe beschreibt die Eigenschaft eines Materials, sich unter einer Scherbelastung zu verformen?",
+      "choices": [
+        "A: Elastizitätsmodul",
+        "B: Kompressionsmodul",
+        "C: Schermodul",
+        "D: Torsionsmodul"
+      ],
+      "correct_answer": "C",
+      "explanation": "Der Schermodul beschreibt die Fähigkeit eines Materials, sich unter Scherkräfte zu verformen. Er ist ein Maß für die Steifigkeit des Materials gegenüber Scherung und ist entscheidend für die Analyse von Materialien unter solchen Belastungen.",
+      "difficulty": 5,
+      "subcategory": "Scherung & Torsionsmodul"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Diamagnetismus (atomar)",
+      "question": "Welches der folgenden Modelle beschreibt am besten das Verhalten von diamagnetischen Materialien auf atomarer Ebene?",
+      "choices": [
+        "A: Das quantenmechanische Modell, das die Veränderungen im elektronischen Zustand durch äußere Magnetfelder erklärt.",
+        "B: Das klassische Modell, das nur den Einfluss von externen Magnetfeldern auf die orientierten Spins betrachtet.",
+        "C: Das Landé-Modell, das die Spin- und Bahndrehimpulse der Elektronen berücksichtigt.",
+        "D: Das einfachste Modell, das von einer vollkommenen Ferromagnetisierung ausgeht."
+      ],
+      "correct_answer": "A",
+      "explanation": "Diamagnetische Materialien zeigen eine negative Magnetisierung, die auf die Veränderungen im elektronischen Zustand zurückzuführen ist, wenn sie einem äußeren Magnetfeld ausgesetzt werden. Das quantenmechanische Modell beschreibt präzise, wie die Elektronen auf das Magnetfeld reagieren und somit die Eigenschaften des Materials bestimmen.",
+      "difficulty": 7,
+      "subcategory": "Diamagnetismus (atomar)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Modifiziertes Hamilton’sches Prinzip",
+      "question": "Was beschreibt das modifizierte Hamilton’sche Prinzip in der analytischen Mechanik?",
+      "choices": [
+        "A: Die Variation von Pfaden unter Berücksichtigung von Einschränkungen auf die Dynamik.",
+        "B: Die Erhaltung der Energie in geschlossenen Systemen.",
+        "C: Die Ableitung von Bewegungsgleichungen aus der Newtonschen Mechanik.",
+        "D: Die Beziehung zwischen Lagrange- und Hamilton-Formulierungen der Mechanik."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das modifizierte Hamilton’sche Prinzip berücksichtigt Einschränkungen, die auf ein System angewendet werden, und beschreibt, wie man die Bewegungsbahnen variieren kann, um die dynamischen Eigenschaften dieses Systems zu analysieren. Dies ist besonders wichtig in der klassischen Mechanik, wenn nicht alle Bewegungsfreiheiten unabhängig sind.",
+      "difficulty": 7,
+      "subcategory": "Modifiziertes Hamilton’sches Prinzip"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Gibb’sche Phasenregel",
+      "question": "Was besagt die Gibb’sche Phasenregel über die Anzahl der Freiheitsgrade eines Systems?",
+      "choices": [
+        "A: Die Anzahl der Freiheitsgrade ist unabhängig von der Anzahl der Phasen.",
+        "B: Die Anzahl der Freiheitsgrade ist gleich der Anzahl der Phasen minus die Anzahl der Komponenten plus 2.",
+        "C: Die Anzahl der Freiheitsgrade ist gleich der Anzahl der Komponenten minus die Anzahl der Phasen.",
+        "D: Die Anzahl der Freiheitsgrade ist immer gleich 1."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Gibb’sche Phasenregel beschreibt das Gleichgewicht zwischen Phasen und Komponenten in einem thermodynamischen System. Sie besagt, dass die Anzahl der Freiheitsgrade (F) eines Systems gleich der Anzahl der Komponenten (C) minus der Anzahl der Phasen (P) plus 2 ist: F = C - P + 2.",
+      "difficulty": 7,
+      "subcategory": "Gibb’sche Phasenregel"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Noether-Idee: Homogenität der Zeit ⇒ Energieerhaltung",
+      "question": "Was besagt die Noether-Idee in Bezug auf die Homogenität der Zeit?",
+      "choices": [
+        "A: Die Geschwindigkeit eines Körpers bleibt konstant.",
+        "B: Die Temperatur eines Systems ist immer gleich.",
+        "C: Die Masse eines Körpers bleibt unverändert.",
+        "D: Die Gesamtenergie eines geschlossenen Systems bleibt konstant."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Noether-Idee besagt, dass die Homogenität der Zeit, also die Unabhängigkeit der physikalischen Gesetze von der Zeit, zur Erhaltung der Energie führt. In einem geschlossenen System bleibt die Gesamtenergie aufgrund dieser zeitlichen Symmetrie konstant.",
+      "difficulty": 4,
+      "subcategory": "Noether-Idee: Homogenität der Zeit ⇒ Energieerhaltung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Phasen (Definitionen, Beispiele)",
+      "question": "Welche der folgenden Aussagen beschreibt am besten die Eigenschaften einer idealen Flüssigkeit im Gegensatz zu einem Gas?",
+      "choices": [
+        "A: Eine ideale Flüssigkeit benötigt keine intermolekularen Kräfte zur Stabilität.",
+        "B: Eine ideale Flüssigkeit hat ein definiertes Volumen, während ein Gas sein Volumen an den Behälter anpasst.",
+        "C: Eine ideale Flüssigkeit kann nicht fließen, während ein Gas fließfähig ist.",
+        "D: Eine ideale Flüssigkeit hat eine sehr hohe Kompressibilität verglichen mit einem Gas."
+      ],
+      "correct_answer": "B",
+      "explanation": "Ideale Flüssigkeiten sind inkompressibel und haben ein definiertes Volumen, im Gegensatz zu Gasen, die ihr Volumen an die Form des Behälters anpassen. Diese Eigenschaften sind entscheidend für das Verständnis von Phasenübergängen in der Thermodynamik.",
+      "difficulty": 9,
+      "subcategory": "Phasen (Definitionen, Beispiele)"
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "date": "2026-04-17",
+  "generated_at": "2026-04-17T04:06:18Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Adiabaten und Isothermen (Prozesse)",
+      "question": "Which of the following statements correctly describes the properties of an adiabatic process compared to an isothermal process?",
+      "choices": [
+        "A: In an adiabatic process, work is done without changing the system, while in an isothermal process, work is only done during temperature changes.",
+        "B: In an adiabatic process, there is no heat transfer, while in an isothermal process, the temperature remains constant.",
+        "C: In an adiabatic process, the internal energy remains constant, while in an isothermal process, the internal energy varies.",
+        "D: Adiabatic processes are always reversible, while isothermal processes are irreversible."
+      ],
+      "correct_answer": "B",
+      "explanation": "An adiabatic process is characterized by no heat exchange with the surroundings. In contrast, in an isothermal process, the temperature remains constant, meaning heat is added or removed to maintain the temperature.",
+      "difficulty": 8,
+      "subcategory": "Adiabaten und Isothermen (Prozesse)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Bessel-Funktionen (radiale Lösungen)",
+      "question": "Which of the following statements about Bessel functions as radial solutions of the Schrödinger equation in cylindrical coordinates is correct?",
+      "choices": [
+        "A: Bessel functions of the second kind are always linearly independent of Bessel functions of the first kind.",
+        "B: Bessel functions of the first kind are crucial for describing states with finite energy eigenvalues in cylindrical potentials.",
+        "C: Bessel functions have no application in quantum mechanics.",
+        "D: Bessel functions are only relevant for spherical coordinates."
+      ],
+      "correct_answer": "B",
+      "explanation": "Bessel functions of the first kind appear as solutions of the radial Schrödinger equation for cylindrical symmetry and are crucial for describing quantum mechanical systems in cylindrical potentials. They are important for calculating energy eigenvalues and states in such systems.",
+      "difficulty": 7,
+      "subcategory": "Bessel-Funktionen (radiale Lösungen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Homogenitätsrelationen (Euler/Gibbs-Duhem)",
+      "question": "Which of the following statements correctly describes the application of homogeneity relations in thermodynamics?",
+      "choices": [
+        "A: Homogeneity relations are not relevant concepts in thermodynamics.",
+        "B: Homogeneity relations describe the relationship between temperature and pressure.",
+        "C: Homogeneity relations allow the analysis of thermodynamic potentials in terms of their variables.",
+        "D: Homogeneity relations are only applicable to ideal gases."
+      ],
+      "correct_answer": "C",
+      "explanation": "Homogeneity relations, such as the Euler and Gibbs-Duhem relationships, are important tools in thermodynamics to understand the dependencies between different thermodynamic potentials and their variables. They help capture relationships between entropy, energy, temperature, and other quantities.",
+      "difficulty": 4,
+      "subcategory": "Homogenitätsrelationen (Euler/Gibbs-Duhem)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Fundamentale Wechselwirkungen",
+      "question": "Which of the following interactions is responsible for the decay of radioactive atomic nuclei?",
+      "choices": [
+        "A: Electromagnetic interaction",
+        "B: Strong interaction",
+        "C: Weak interaction",
+        "D: Gravitational interaction"
+      ],
+      "correct_answer": "C",
+      "explanation": "The decay of radioactive atomic nuclei is caused by the weak interaction, which is responsible for processes like beta decay. The strong interaction holds the protons and neutrons in the atomic nucleus together, while the electromagnetic and gravitational interactions are not relevant in this context.",
+      "difficulty": 4,
+      "subcategory": "Fundamentale Wechselwirkungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Scherung & Torsionsmodul",
+      "question": "Which of the following terms describes the property of a material to deform under shear stress?",
+      "choices": [
+        "A: Elastic modulus",
+        "B: Bulk modulus",
+        "C: Shear modulus",
+        "D: Torsional modulus"
+      ],
+      "correct_answer": "C",
+      "explanation": "The shear modulus describes a material's ability to deform under shear forces. It is a measure of the material's stiffness against shearing and is crucial for analyzing materials under such loads.",
+      "difficulty": 5,
+      "subcategory": "Scherung & Torsionsmodul"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Diamagnetismus (atomar)",
+      "question": "Which of the following models best describes the behavior of diamagnetic materials at the atomic level?",
+      "choices": [
+        "A: The quantum mechanical model explaining changes in the electronic state due to external magnetic fields.",
+        "B: The classical model considering only the influence of external magnetic fields on oriented spins.",
+        "C: The Landé model considering the spin and orbital angular momenta of electrons.",
+        "D: The simplest model assuming perfect ferromagnetization."
+      ],
+      "correct_answer": "A",
+      "explanation": "Diamagnetic materials exhibit negative magnetization due to changes in the electronic state when exposed to an external magnetic field. The quantum mechanical model precisely explains how electrons react to the magnetic field, determining the material's properties.",
+      "difficulty": 7,
+      "subcategory": "Diamagnetismus (atomar)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Modifiziertes Hamilton’sches Prinzip",
+      "question": "What does the modified Hamiltonian principle state in analytical mechanics?",
+      "choices": [
+        "A: The variation of paths considering constraints on dynamics.",
+        "B: The conservation of energy in closed systems.",
+        "C: Deriving motion equations from Newtonian mechanics.",
+        "D: The relationship between Lagrange and Hamiltonian formulations of mechanics."
+      ],
+      "correct_answer": "A",
+      "explanation": "The modified Hamiltonian principle takes into account constraints applied to a system and describes how to vary the trajectories to analyze the dynamic properties of the system. This is particularly important in classical mechanics when not all degrees of freedom are independent.",
+      "difficulty": 7,
+      "subcategory": "Modifiziertes Hamilton’sches Prinzip"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Gibb’sche Phasenregel",
+      "question": "What does the Gibbs phase rule state about the number of degrees of freedom of a system?",
+      "choices": [
+        "A: The number of degrees of freedom is independent of the number of phases.",
+        "B: The number of degrees of freedom is equal to the number of phases minus the number of components plus 2.",
+        "C: The number of degrees of freedom is equal to the number of components minus the number of phases.",
+        "D: The number of degrees of freedom is always equal to 1."
+      ],
+      "correct_answer": "B",
+      "explanation": "The Gibbs phase rule describes the equilibrium between phases and components in a thermodynamic system. It states that the number of degrees of freedom (F) of a system is equal to the number of components (C) minus the number of phases (P) plus 2: F = C - P + 2.",
+      "difficulty": 7,
+      "subcategory": "Gibb’sche Phasenregel"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Noether-Idee: Homogenität der Zeit ⇒ Energieerhaltung",
+      "question": "What does the Noether idea state regarding the homogeneity of time?",
+      "choices": [
+        "A: The velocity of a body remains constant.",
+        "B: The temperature of a system is always the same.",
+        "C: The mass of a body remains unchanged.",
+        "D: The total energy of a closed system remains constant."
+      ],
+      "correct_answer": "D",
+      "explanation": "The Noether idea states that the homogeneity of time, i.e., the independence of physical laws from time, leads to the conservation of energy. In a closed system, the total energy remains constant due to this temporal symmetry.",
+      "difficulty": 4,
+      "subcategory": "Noether-Idee: Homogenität der Zeit ⇒ Energieerhaltung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Phasen (Definitionen, Beispiele)",
+      "question": "Which of the following statements best describes the properties of an ideal liquid compared to a gas?",
+      "choices": [
+        "A: An ideal liquid does not require intermolecular forces for stability.",
+        "B: An ideal liquid has a defined volume, while a gas adjusts its volume to the container.",
+        "C: An ideal liquid cannot flow, while a gas is flowable.",
+        "D: An ideal liquid has a very high compressibility compared to a gas."
+      ],
+      "correct_answer": "B",
+      "explanation": "Ideal liquids are incompressible and have a defined volume, unlike gases that adjust their volume to the shape of the container. These properties are crucial for understanding phase transitions in thermodynamics.",
+      "difficulty": 9,
+      "subcategory": "Phasen (Definitionen, Beispiele)"
+    }
+  ]
+}
