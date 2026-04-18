@@ -1,0 +1,168 @@
+{
+  "date": "2026-04-18",
+  "generated_at": "2026-04-18T03:59:32Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Lichtquanten / Photonen",
+      "question": "What is a photon?",
+      "choices": [
+        "A: A charged particle that acts in electric fields.",
+        "B: A neutron found in atomic nuclei.",
+        "C: An elementary particle that carries light and electromagnetic radiation.",
+        "D: A molecule that accelerates chemical reactions."
+      ],
+      "correct_answer": "C",
+      "explanation": "A photon is the smallest energy quantum of electromagnetic radiation and is considered a particle that carries light in quantum mechanical processes. It has no rest mass and always moves at the speed of light in a vacuum.",
+      "difficulty": 3,
+      "subcategory": "Lichtquanten / Photonen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Wirkungs- und Winkelvariable (Action-Angle)",
+      "question": "Which statement about the action-angle variables in analytical mechanics is correct?",
+      "choices": [
+        "A: Action variables are only defined for non-periodic systems.",
+        "B: The action variable changes continuously in a harmonic oscillator.",
+        "C: Angle variables are not dependent on the choice of coordinates.",
+        "D: The action variable remains constant in a closed system, while the angle variables change periodically."
+      ],
+      "correct_answer": "D",
+      "explanation": "The action variable is an integration quantity that remains constant in a closed system, while the associated angle variables describe the temporal evolution of the system and cyclically change. This is a central concept in Hamiltonian mechanics and describes the relationship between the energy and motion of a system.",
+      "difficulty": 7,
+      "subcategory": "Wirkungs- und Winkelvariable (Action-Angle)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Vakuumbereiche",
+      "question": "Which of the following statements best describes the influence of a vacuum on the motion of an object?",
+      "choices": [
+        "A: An object always experiences constant air resistance in a vacuum.",
+        "B: Gravity is not effective in a vacuum.",
+        "C: An object moves without air resistance and maintains a constant velocity.",
+        "D: An object cannot be accelerated in a vacuum."
+      ],
+      "correct_answer": "C",
+      "explanation": "In a vacuum, there is no air resistance, meaning that an object once set in motion maintains its velocity (law of inertia). Gravity still acts, and there is no restriction on the acceleration of an object in a vacuum.",
+      "difficulty": 6,
+      "subcategory": "Vakuumbereiche"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Strukturfaktor",
+      "question": "What does the structure factor describe in solid-state physics?",
+      "choices": [
+        "A: The magnetic properties of a substance",
+        "B: The spatial arrangement of atoms in the crystal",
+        "C: The temperature of a solid",
+        "D: The electrical conductivity of a material"
+      ],
+      "correct_answer": "B",
+      "explanation": "The structure factor is an important concept in solid-state physics that describes the spatial arrangement of atoms in a crystal. It is used to analyze the scattering of X-rays or neutrons on crystals.",
+      "difficulty": 2,
+      "subcategory": "Strukturfaktor"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Fundamentale Poisson-Klammern",
+      "question": "What does the Poisson bracket between two dynamic variables in analytical mechanics describe?",
+      "choices": [
+        "A: The product of the two variables.",
+        "B: The relationship between the variables in phase space.",
+        "C: The energy of a system.",
+        "D: The temporal change of a variable."
+      ],
+      "correct_answer": "B",
+      "explanation": "The Poisson bracket is an important concept in analytical mechanics that describes the relationship between two dynamic variables in phase space. It indicates how one quantity changes when another quantity changes and is crucial for formulating Hamiltonian mechanics.",
+      "difficulty": 4,
+      "subcategory": "Fundamentale Poisson-Klammern"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Kovariante Formulierung der klassischen Mechanik",
+      "question": "Which of the following statements correctly describes the covariant formulation of classical mechanics?",
+      "choices": [
+        "A: It is only applicable for relativistic velocities.",
+        "B: It ensures that the physical laws are identical in all inertial systems.",
+        "C: It is based solely on Newton's laws.",
+        "D: It ignores time dilation and length contraction."
+      ],
+      "correct_answer": "B",
+      "explanation": "The covariant formulation of classical mechanics ensures that the physical laws are the same in all inertial systems, which is a central principle of the theory of relativity. This means that the form of the laws remains independent of the observer's state of motion.",
+      "difficulty": 5,
+      "subcategory": "Kovariante Formulierung der klassischen Mechanik"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Babinetsches Prinzip",
+      "question": "What does Babinet's principle state regarding the propagation of light?",
+      "choices": [
+        "A: It defines the ratios of light intensity in a system of lenses.",
+        "B: It describes the superposition of light rays at different wavelengths.",
+        "C: It explains the deflection of light rays by a prismatic medium.",
+        "D: It describes the reflection of light at the interface between two media."
+      ],
+      "correct_answer": "A",
+      "explanation": "Babinet's principle refers to the relationship between the intensity of light and the position of lenses in an optical system. It determines how the light intensity is distributed at different points in a lens system and is particularly relevant in optical engineering.",
+      "difficulty": 9,
+      "subcategory": "Babinetsches Prinzip"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Zustand und Gleichgewicht (makro/mikro)",
+      "question": "What does the thermodynamic equilibrium of a system describe?",
+      "choices": [
+        "A: The temperature is the same everywhere in the system.",
+        "B: The particles move at maximum speed.",
+        "C: All particles are motionless.",
+        "D: The energy in the system constantly increases."
+      ],
+      "correct_answer": "A",
+      "explanation": "Thermodynamic equilibrium is reached when the macrovariables such as temperature, pressure, and volume are homogeneous throughout the system. This means that the temperature is the same everywhere in the system, representing a state of stable energy distribution.",
+      "difficulty": 4,
+      "subcategory": "Zustand und Gleichgewicht (makro/mikro)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Relativität der Gleichzeitigkeit",
+      "question": "What does the relativity of simultaneity state?",
+      "choices": [
+        "A: Gravity does not affect time.",
+        "B: Two events that occur simultaneously in one reference frame may not be simultaneous in another reference frame.",
+        "C: The speed of light is different in all reference frames.",
+        "D: Time passes at the same rate in every reference frame."
+      ],
+      "correct_answer": "B",
+      "explanation": "The relativity of simultaneity is a central concept of the theory of relativity, stating that simultaneous events in one reference frame may not be perceived as simultaneous in another. This shows that time is relative and dependent on the observer's state of motion.",
+      "difficulty": 2,
+      "subcategory": "Relativität der Gleichzeitigkeit"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Feldverhalten an Grenzflächen",
+      "question": "What happens to an electric field when it encounters the interface between two materials with different dielectric constants?",
+      "choices": [
+        "A: It is immediately neutralized and disappears.",
+        "B: It is only reflected without refraction.",
+        "C: It is reflected and refracted at the interface.",
+        "D: It remains unchanged and crosses the interface without influence."
+      ],
+      "correct_answer": "C",
+      "explanation": "When an electric field interacts with an interface between two materials with different dielectric constants, both reflection and refraction occur. The degree of reflection and refraction depends on the properties of the materials.",
+      "difficulty": 7,
+      "subcategory": "Feldverhalten an Grenzflächen"
+    }
+  ]
+}

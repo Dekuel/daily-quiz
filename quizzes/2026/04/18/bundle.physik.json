@@ -1,0 +1,169 @@
+{
+  "date": "2026-04-18",
+  "generated_at": "2026-04-18T03:58:52Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Lichtquanten / Photonen",
+      "question": "Was ist ein Photon?",
+      "choices": [
+        "A: Ein geladenes Teilchen, das in elektrischen Feldern wirkt.",
+        "B: Ein Neutron, das in Atomkernen vorkommt.",
+        "C: Ein Elementarteilchen, das Licht und elektromagnetische Strahlung trägt.",
+        "D: Ein Molekül, das chemische Reaktionen beschleunigt."
+      ],
+      "correct_answer": "C",
+      "explanation": "Ein Photon ist das kleinste Energiequantum der elektromagnetischen Strahlung und wird als Teilchen betrachtet, das Licht in quantenmechanischen Prozessen transportiert. Es hat keine Ruhemasse und bewegt sich immer mit Lichtgeschwindigkeit im Vakuum.",
+      "difficulty": 3,
+      "subcategory": "Lichtquanten / Photonen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Wirkungs- und Winkelvariable (Action-Angle)",
+      "question": "Welche Aussage über die Action-Angle-Variablen in der analytischen Mechanik ist korrekt?",
+      "choices": [
+        "A: Action-Variablen sind nur für nicht-periodische Systeme definiert.",
+        "B: Die Action-Variable verändert sich kontinuierlich in einem harmonischen Oszillator.",
+        "C: Winkelvariablen sind nicht von der Wahl der Koordinaten abhängig.",
+        "D: Die Action-Variable bleibt in einem abgeschlossenen System konstant, während die Winkelvariablen sich periodisch ändern."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Action-Variable ist eine Integrationsgröße, die in einem abgeschlossenen System konstant bleibt, während die zugehörigen Winkelvariablen die zeitliche Entwicklung des Systems beschreiben und sich zyklisch ändern. Dies ist ein zentrales Konzept in der Hamiltonschen Mechanik und beschreibt die Beziehung zwischen Energie und Bewegung eines Systems.",
+      "difficulty": 7,
+      "subcategory": "Wirkungs- und Winkelvariable (Action-Angle)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Vakuumbereiche",
+      "question": "Welche der folgenden Aussagen beschreibt am besten den Einfluss eines Vakuums auf die Bewegung eines Körpers?",
+      "choices": [
+        "A: Ein Körper erfährt im Vakuum immer einen konstanten Luftwiderstand.",
+        "B: Im Vakuum ist die Gravitationskraft nicht wirksam.",
+        "C: Ein Körper bewegt sich ohne Luftwiderstand und seine Geschwindigkeit bleibt konstant.",
+        "D: Ein Körper kann im Vakuum nicht beschleunigt werden."
+      ],
+      "correct_answer": "C",
+      "explanation": "Im Vakuum gibt es keinen Luftwiderstand, was bedeutet, dass ein Körper, der einmal in Bewegung gesetzt wird, seine Geschwindigkeit beibehält (Gesetz der Trägheit). Die Gravitationskraft wirkt weiterhin, und es gibt keine Einschränkung für die Beschleunigung eines Körpers im Vakuum.",
+      "difficulty": 6,
+      "subcategory": "Vakuumbereiche"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Strukturfaktor",
+      "question": "Was beschreibt der Strukturfaktor in der Festkörperphysik?",
+      "choices": [
+        "A: Die magnetischen Eigenschaften eines Stoffes",
+        "B: Die räumliche Anordnung von Atomen im Kristall",
+        "C: Die Temperatur eines Festkörpers",
+        "D: Die elektrische Leitfähigkeit eines Materials"
+      ],
+      "correct_answer": "B",
+      "explanation": "Der Strukturfaktor ist ein wichtiges Konzept in der Festkörperphysik, das die räumliche Anordnung von Atomen in einem Kristall beschreibt. Er wird verwendet, um die Streuung von Röntgenstrahlen oder Neutronen an Kristallen zu analysieren.",
+      "difficulty": 2,
+      "subcategory": "Strukturfaktor"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Fundamentale Poisson-Klammern",
+      "question": "Was beschreibt die Poisson-Klammer zwischen zwei dynamischen Variablen in der analytischen Mechanik?",
+      "choices": [
+        "A: Den Produkt der beiden Variablen.",
+        "B: Die Beziehung zwischen den Variablen im Phasenraum.",
+        "C: Die Energie eines Systems.",
+        "D: Die zeitliche Änderung einer Variablen."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Poisson-Klammer ist ein wichtiges Konzept in der analytischen Mechanik, das die Beziehung zwischen zwei dynamischen Variablen im Phasenraum beschreibt. Sie gibt an, wie sich eine Größe ändert, wenn sich eine andere Größe verändert, und ist entscheidend für die Formulierung der Hamiltonschen Mechanik.",
+      "difficulty": 4,
+      "subcategory": "Fundamentale Poisson-Klammern"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Kovariante Formulierung der klassischen Mechanik",
+      "question": "Welche der folgenden Aussagen beschreibt die kovariante Formulierung der klassischen Mechanik korrekt?",
+      "choices": [
+        "A: Sie ist nur für relativistische Geschwindigkeiten anwendbar.",
+        "B: Sie stellt sicher, dass die physikalischen Gesetze in allen Inertialsystemen identisch sind.",
+        "C: Sie basiert ausschließlich auf Newtons Gesetzen.",
+        "D: Sie ignoriert die Zeitdilatation und Längenkontraktion."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die kovariante Formulierung der klassischen Mechanik stellt sicher, dass die physikalischen Gesetze in allen Inertialsystemen gleich sind, was ein zentrales Prinzip der Relativitätstheorie ist. Dies bedeutet, dass die Form der Gesetze unabhängig vom Bewegungszustand des Beobachters bleibt.",
+      "difficulty": 5,
+      "subcategory": "Kovariante Formulierung der klassischen Mechanik"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Babinetsches Prinzip",
+      "question": "Was besagt das Babinetsche Prinzip hinsichtlich der Lichtausbreitung?",
+      "choices": [
+        "A: Es definiert die Verhältnisse der Lichtstärke in einem System aus Linsen.",
+        "B: Es beschreibt die Überlagerung von Lichtstrahlen bei unterschiedlichen Wellenlängen.",
+        "C: Es erklärt die Ablenkung von Lichtstrahlen durch ein prismatisches Medium.",
+        "D: Es beschreibt die Reflexion von Licht an der Grenzfläche zwischen zwei Medien."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Babinetsche Prinzip bezieht sich auf die Beziehung zwischen der Lichtstärke und der Position von Linsen in einem optischen System. Es legt fest, wie sich die Lichtstärke an verschiedenen Stellen in einem Linsensystem verteilt und ist besonders relevant in der optischen Ingenieurwissenschaft.",
+      "difficulty": 9,
+      "subcategory": "Babinetsches Prinzip"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Zustand und Gleichgewicht (makro/mikro)",
+      "question": "Was beschreibt das thermodynamische Gleichgewicht eines Systems?",
+      "choices": [
+        "A: Die Temperatur ist überall im System gleich.",
+        "B: Die Teilchen bewegen sich mit maximaler Geschwindigkeit.",
+        "C: Alle Teilchen sind bewegungslos.",
+        "D: Die Energie im System nimmt konstant zu."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das thermodynamische Gleichgewicht wird erreicht, wenn die Makrovariablen wie Temperatur, Druck und Volumen im gesamten System homogen sind. Dies bedeutet, dass die Temperatur überall im System gleich ist, was ein Zustand stabiler Energieverteilung darstellt.",
+      "difficulty": 4,
+      "subcategory": "Zustand und Gleichgewicht (makro/mikro)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Relativität der Gleichzeitigkeit",
+      "question": "Was besagt die Relativität der Gleichzeitigkeit?",
+      "choices": [
+        "A: Die Gravitation beeinflusst die Zeit nicht.",
+        "B: Zwei Ereignisse, die in einem Bezugssystem gleichzeitig stattfinden, können in einem anderen Bezugssystem nicht gleichzeitig sein.",
+        "C: Lichtgeschwindigkeit ist in allen Bezugssystemen unterschiedlich.",
+        "D: Zeit vergeht in jedem Bezugssystem immer gleich schnell."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Relativität der Gleichzeitigkeit ist ein zentrales Konzept der Relativitätstheorie, das besagt, dass simultane Ereignisse in einem Bezugssystem nicht unbedingt in einem anderen als simultan wahrgenommen werden. Dies zeigt, dass Zeit relativ und abhängig vom Bewegungszustand des Beobachters ist.",
+      "difficulty": 2,
+      "subcategory": "Relativität der Gleichzeitigkeit"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Feldverhalten an Grenzflächen",
+      "question": "Was passiert mit einem elektrischen Feld, wenn es auf die Grenzfläche zwischen zwei Materialien mit unterschiedlichen Dielektrizitätskonstanten trifft?",
+      "choices": [
+        "A: Es wird sofort neutralisiert und verschwindet.",
+        "B: Es wird nur reflektiert, ohne Brechung.",
+        "C: Es wird an der Grenzfläche reflektiert und gebrochen.",
+        "D: Es bleibt unverändert und durchquert die Grenzfläche ohne Einfluss."
+      ],
+      "correct_answer": "C",
+      "explanation": "Bei der Wechselwirkung eines elektrischen Feldes mit einer Grenzfläche zwischen zwei Materialien mit unterschiedlichen Dielektrizitätskonstanten tritt sowohl Reflexion als auch Brechung auf. Der Grad der Reflexion und Brechung hängt von den Eigenschaften der Materialien ab.",
+      "difficulty": 7,
+      "subcategory": "Feldverhalten an Grenzflächen"
+    }
+  ]
+}
