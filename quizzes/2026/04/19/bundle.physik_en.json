@@ -1,0 +1,168 @@
+{
+  "date": "2026-04-19",
+  "generated_at": "2026-04-19T04:06:32Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Moden im dielektrischen Wellenleiter",
+      "question": "Which statement about modes in a dielectric waveguide is correct?",
+      "choices": [
+        "A: All modes have the same frequency.",
+        "B: Modes are only present in metallic waveguides.",
+        "C: Modes are the specific electromagnetic fields that can propagate in a waveguide.",
+        "D: Modes are independent of the geometry of the waveguide."
+      ],
+      "correct_answer": "C",
+      "explanation": "Modes in a dielectric waveguide are specific electromagnetic fields determined by the geometry and material properties of the waveguide. They determine how light propagates within the waveguide and which frequencies can be supported.",
+      "difficulty": 5,
+      "subcategory": "Moden im dielektrischen Wellenleiter"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Korrespondenzregel (Operatorersatz)",
+      "question": "What does the correspondence rule in quantum mechanics state?",
+      "choices": [
+        "A: Classical quantities are replaced by operators in quantum mechanics.",
+        "B: The energy of a system is always constant.",
+        "C: Particles always move in straight lines.",
+        "D: Quantum objects cannot simultaneously occupy multiple states."
+      ],
+      "correct_answer": "A",
+      "explanation": "The correspondence rule states that classical physical quantities in quantum mechanics are represented by operators. This rule enables the transition from classical to quantum mechanical descriptions of systems, especially in the high quantum number regime.",
+      "difficulty": 3,
+      "subcategory": "Korrespondenzregel (Operatorersatz)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Strukturfunktionen (F1, F2,…)",
+      "question": "What does the structure function F2 describe in deep inelastic scattering?",
+      "choices": [
+        "A: The contribution of quarks to the overall structure of the proton.",
+        "B: The interaction between protons and neutrons.",
+        "C: The distribution of electric charge in the proton.",
+        "D: The fluctuations of quark-gluon dynamics."
+      ],
+      "correct_answer": "A",
+      "explanation": "The structure function F2 describes the contribution of quarks to the overall structure of a hadron, particularly in deep inelastic scattering experiments. It is crucial for understanding the internal structure of protons and neutrons.",
+      "difficulty": 5,
+      "subcategory": "Strukturfunktionen (F1, F2,…)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Natürliche Zustandsvariablen (U, H, F, G)",
+      "question": "Which of the following statements correctly describes the relationship between the natural state variables of thermodynamics?",
+      "choices": [
+        "A: The Gibbs free energy G is a minimization principle for reversible processes at constant pressure and temperature.",
+        "B: The Helmholtz free energy F is a minimization principle at constant temperature and volume.",
+        "C: The enthalpy H is the energy freely available in a system at constant pressure.",
+        "D: The internal energy U is independent of temperature and solely determines the entropy of a system."
+      ],
+      "correct_answer": "A",
+      "explanation": "The Gibbs free energy G is indeed a minimization principle at constant pressure and temperature, as it describes equilibrium in chemical reactions. The other statements are either inaccurate or incorrectly formulated with respect to the respective thermodynamic state variables.",
+      "difficulty": 8,
+      "subcategory": "Natürliche Zustandsvariablen (U, H, F, G)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Dritter Hauptsatz (Nernstsches Theorem): Konsequenzen",
+      "question": "What does the third law of thermodynamics state regarding absolute zero?",
+      "choices": [
+        "A: All chemical reactions are fully reversible at 0 K.",
+        "B: Matter cannot exist at 0 K.",
+        "C: The entropy of a perfect crystal approaches zero at 0 K.",
+        "D: The temperature is always positive at 0 K."
+      ],
+      "correct_answer": "C",
+      "explanation": "The third law of thermodynamics states that the entropy of a perfect crystal at absolute zero (0 K) is zero. This has significant consequences for the properties of matter and the calculation of entropy changes at low temperatures.",
+      "difficulty": 1,
+      "subcategory": "Dritter Hauptsatz (Nernstsches Theorem): Konsequenzen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Wechselströme & Schwingkreise",
+      "question": "What does the resonance frequency in a resonant circuit describe?",
+      "choices": [
+        "A: The frequency at which the voltage equals the frequency of the power supply.",
+        "B: The frequency at which the energy in the resonant circuit decreases.",
+        "C: The frequency at which the impedance is minimal.",
+        "D: The frequency at which the current remains constant."
+      ],
+      "correct_answer": "C",
+      "explanation": "The resonance frequency is the frequency at which the reactance of the inductor and capacitor cancel each other out, resulting in minimal impedance. This maximizes the exchange of energy between the electric field of the capacitor and the magnetic field of the inductor.",
+      "difficulty": 6,
+      "subcategory": "Wechselströme & Schwingkreise"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Meson‑Multipletts (SU(3))",
+      "question": "Which of the following mesons does not belong to the pion multiplet in SU(3) symmetry?",
+      "choices": [
+        "A: π⁰",
+        "B: π⁺",
+        "C: π⁻",
+        "D: K⁺"
+      ],
+      "correct_answer": "D",
+      "explanation": "The pion multiplet consists of the pions π⁺, π⁰, and π⁻. The K⁺ is a kaon and belongs to a different multiplet in SU(3) symmetry. Therefore, K⁺ is the correct answer.",
+      "difficulty": 7,
+      "subcategory": "Meson‑Multipletts (SU(3))"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "BCS bei endlicher Temperatur",
+      "question": "What does the BCS theory describe at finite temperature in superconducting materials?",
+      "choices": [
+        "A: The increase of the critical temperature with increasing electron density.",
+        "B: The complete loss of superconductivity at any temperature.",
+        "C: The independence of superconductivity from temperature.",
+        "D: The decrease of the superconducting temperature with increasing temperature."
+      ],
+      "correct_answer": "D",
+      "explanation": "The BCS theory explains that superconductivity decreases in a material as temperature increases, as thermal disturbances destabilize the Cooper pairs. At a certain critical temperature, the material ceases to be superconducting.",
+      "difficulty": 5,
+      "subcategory": "BCS bei endlicher Temperatur"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Quark‑Antiquark‑Potential (Confinement)",
+      "question": "What does the phenomenon of confinement in quantum chromodynamics describe?",
+      "choices": [
+        "A: Quarks can never appear in isolation.",
+        "B: Quarks can move infinitely far apart from each other.",
+        "C: Quarks lose their mass at high temperatures.",
+        "D: Quarks are always near electrons."
+      ],
+      "correct_answer": "A",
+      "explanation": "Confinement describes that quarks can never appear in isolation due to strong interactions. Instead, they are always found in bound states like protons and neutrons. This is a fundamental property of quantum chromodynamics (QCD).",
+      "difficulty": 7,
+      "subcategory": "Quark‑Antiquark‑Potential (Confinement)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "H-Theorem, Irreversibilität & lokale Maxwell-Verteilung",
+      "question": "What does the H-theorem in statistical mechanics describe?",
+      "choices": [
+        "A: The increase of entropy in a closed system.",
+        "B: The conservation of energy in an open system.",
+        "C: The motion of particles in an external magnetic field.",
+        "D: The uniform distribution of particles in a vacuum."
+      ],
+      "correct_answer": "A",
+      "explanation": "The H-theorem describes that entropy in a closed system increases with time, leading to the irreversibility of processes. It is a central concept in statistical mechanics that explains the direction of thermodynamic processes.",
+      "difficulty": 2,
+      "subcategory": "H-Theorem, Irreversibilität & lokale Maxwell-Verteilung"
+    }
+  ]
+}
