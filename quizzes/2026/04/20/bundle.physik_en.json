@@ -1,0 +1,168 @@
+{
+  "date": "2026-04-20",
+  "generated_at": "2026-04-20T04:09:48Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Exponenten-Ungleichungen (Scaling Bounds)",
+      "question": "Which of the following statements best describes the significance of exponent inequalities in thermodynamics?",
+      "choices": [
+        "A: They help understand the scaling of physical quantities in a thermodynamic system.",
+        "B: They are only relevant for chemical reactions and have no connection to thermodynamics.",
+        "C: They show that heat transfer always occurs linearly.",
+        "D: They are only significant in quantum mechanics."
+      ],
+      "correct_answer": "A",
+      "explanation": "Exponent inequalities are important for analyzing the relationship between different physical quantities in a thermodynamic system. They help understand how quantities such as pressure, temperature, and volume behave during changes in the system.",
+      "difficulty": 5,
+      "subcategory": "Exponenten-Ungleichungen (Scaling Bounds)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Potentialbarrieren & -stufen",
+      "question": "What describes the concept of a potential barrier in quantum mechanics?",
+      "choices": [
+        "A: A location where a particle's velocity remains constant.",
+        "B: A zone where particles with any energy can penetrate.",
+        "C: A region where a particle cannot exist.",
+        "D: A barrier that reflects particles with any energy."
+      ],
+      "correct_answer": "C",
+      "explanation": "In quantum mechanics, a potential barrier describes a region where a particle's energy is below the potential level. Particles have only a certain probability of overcoming this barrier, leading to phenomena like the tunnel effect.",
+      "difficulty": 2,
+      "subcategory": "Potentialbarrieren & -stufen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Wirkungsprinzipien (Überblick)",
+      "question": "Which principle describes the motion of a body influenced by a force field?",
+      "choices": [
+        "A: Hooke's Law",
+        "B: Principle of least action",
+        "C: Archimedes' Principle",
+        "D: Newton's third law"
+      ],
+      "correct_answer": "B",
+      "explanation": "The principle of least action states that the actual motion of a system minimizes the path that integrates the action. This principle is central in analytical mechanics and leads to the motion equations of a system.",
+      "difficulty": 2,
+      "subcategory": "Wirkungsprinzipien (Überblick)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Statistische Begründung der Irreversibilität",
+      "question": "Which of the following statements best describes the cause of irreversibility in a closed system from the perspective of statistical mechanics?",
+      "choices": [
+        "A: The temperature of a system can never increase.",
+        "B: The number of possible microstates of a system increases over time.",
+        "C: The energy of a closed system always remains constant.",
+        "D: All processes in a system are always reversible."
+      ],
+      "correct_answer": "B",
+      "explanation": "The irreversibility of a process in statistical mechanics is based on the increase in entropy, which is associated with an increase in the number of accessible microstates. A closed system tends to evolve towards a state of higher entropy, determining the direction of time and appearing irreversible.",
+      "difficulty": 7,
+      "subcategory": "Statistische Begründung der Irreversibilität"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Potentialtopf: gebundene Zustände",
+      "question": "What describes a bound state in a potential well?",
+      "choices": [
+        "A: A state where the total energy of the particle is always zero.",
+        "B: A state where a particle resides in the potential well and cannot escape.",
+        "C: A state where a particle can absorb any amount of energy.",
+        "D: A state where particles can move freely in space."
+      ],
+      "correct_answer": "B",
+      "explanation": "A bound state in a potential well means the particle is trapped by the potential of the well and lacks enough energy to escape. These states are quantum mechanical solutions with discrete energy levels.",
+      "difficulty": 5,
+      "subcategory": "Potentialtopf: gebundene Zustände"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Extremaleigenschaften von U und H",
+      "question": "Which of the following statements correctly describes the conditions for the extremal properties of the internal energy U and the enthalpy H in a closed system?",
+      "choices": [
+        "A: U has a maximum at constant pressure and constant temperature, while H has a minimum at constant volume.",
+        "B: U has a minimum at constant volume and constant temperature, while H has a maximum at constant pressure and constant temperature.",
+        "C: Both U and H have a maximum at constant volume and constant pressure.",
+        "D: U and H reach their minimum under adiabatic conditions at constant pressure."
+      ],
+      "correct_answer": "B",
+      "explanation": "Under conditions of constant volume and constant temperature, the internal energy U typically has a minimum as the system tends to reach the most energetically favorable states. In contrast, enthalpy H shows a maximum under constant pressure and constant temperature, related to the stability of phases in thermodynamic systems.",
+      "difficulty": 10,
+      "subcategory": "Extremaleigenschaften von U und H"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Noether-Idee: Homogenität der Zeit ⇒ Energieerhaltung",
+      "question": "Which statement best describes the relationship between the homogeneity of time and the conservation of energy?",
+      "choices": [
+        "A: Energy cannot be transferred from one system to another.",
+        "B: If physical laws are time-invariant, the total energy of a system remains constant.",
+        "C: Temporal changes in energy lead to an increase in total mass.",
+        "D: The energy of a system can only be considered within a changing time frame."
+      ],
+      "correct_answer": "B",
+      "explanation": "The Noether's theorem states that the homogeneity of time, the independence of physical laws from time, leads to the conservation of energy. If the laws remain unchanged, the total energy of an isolated system remains constant.",
+      "difficulty": 3,
+      "subcategory": "Noether-Idee: Homogenität der Zeit ⇒ Energieerhaltung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Prinzip der kleinsten Wirkung",
+      "question": "Which of the following principles is directly related to the principle of least action?",
+      "choices": [
+        "A: The fundamental law of motion",
+        "B: The conservation of energy",
+        "C: The Lagrange equations",
+        "D: The impulse law"
+      ],
+      "correct_answer": "C",
+      "explanation": "The principle of least action describes that the path a system takes between two states is the one where the action is minimized. This concept is closely related to the Lagrange equations, which provide a mathematical formulation of the principle.",
+      "difficulty": 7,
+      "subcategory": "Prinzip der kleinsten Wirkung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Kugelkondensator",
+      "question": "Which factor does not influence the capacitance of a spherical capacitor?",
+      "choices": [
+        "A: The distance between the spheres",
+        "B: The color of the outer sphere",
+        "C: The size of the inner sphere",
+        "D: The type of material between the spheres"
+      ],
+      "correct_answer": "B",
+      "explanation": "The capacitance of a spherical capacitor is influenced by the distance between the spheres, the size of the inner sphere, and the dielectric between the spheres. However, the color of the outer sphere does not affect the capacitance as it is purely an optical characteristic.",
+      "difficulty": 7,
+      "subcategory": "Kugelkondensator"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Begrenzungen in optischen Systemen (Apertur, Vignettierung)",
+      "question": "What is vignetting in optical systems?",
+      "choices": [
+        "A: A decrease in brightness at the edge of the image.",
+        "B: An increase in resolution at the center of the image.",
+        "C: Amplification of light through lenses.",
+        "D: Alteration of light color by filters."
+      ],
+      "correct_answer": "A",
+      "explanation": "Vignetting describes the effect where brightness decreases at the edge of an image, often occurring in cameras and telescopes. This can be caused by the shape and size of the aperture or the arrangement of lenses.",
+      "difficulty": 1,
+      "subcategory": "Begrenzungen in optischen Systemen (Apertur, Vignettierung)"
+    }
+  ]
+}

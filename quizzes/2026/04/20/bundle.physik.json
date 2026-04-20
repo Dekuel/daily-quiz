@@ -1,0 +1,169 @@
+{
+  "date": "2026-04-20",
+  "generated_at": "2026-04-20T04:08:57Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Exponenten-Ungleichungen (Scaling Bounds)",
+      "question": "Welche der folgenden Aussagen beschreibt am besten die Bedeutung von Exponenten-Ungleichungen in der Thermodynamik?",
+      "choices": [
+        "A: Sie helfen, die Skalierung von physikalischen Größen in einem thermodynamischen System zu verstehen.",
+        "B: Sie sind nur für chemische Reaktionen relevant und haben keinen Bezug zur Thermodynamik.",
+        "C: Sie zeigen, dass Wärmeübertragung immer linear erfolgt.",
+        "D: Sie sind nur in der Quantenmechanik von Bedeutung."
+      ],
+      "correct_answer": "A",
+      "explanation": "Exponenten-Ungleichungen sind wichtig, um die Beziehung zwischen verschiedenen physikalischen Größen in einem thermodynamischen System zu analysieren. Sie helfen zu verstehen, wie sich Größen wie Druck, Temperatur und Volumen bei Änderungen im System verhalten.",
+      "difficulty": 5,
+      "subcategory": "Exponenten-Ungleichungen (Scaling Bounds)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Potentialbarrieren & -stufen",
+      "question": "Was beschreibt das Konzept der Potentialbarriere in der Quantenmechanik?",
+      "choices": [
+        "A: Ein Ort, an dem die Geschwindigkeit eines Teilchens konstant bleibt.",
+        "B: Eine Zone, in der Teilchen mit beliebiger Energie eindringen können.",
+        "C: Ein Bereich, in dem ein Teilchen nicht existieren kann.",
+        "D: Eine Barriere, die Teilchen mit beliebiger Energie reflektiert."
+      ],
+      "correct_answer": "C",
+      "explanation": "In der Quantenmechanik beschreibt eine Potentialbarriere einen Bereich, in dem die Energie eines Teilchens unter dem Potentialniveau liegt. Teilchen haben nur eine bestimmte Wahrscheinlichkeit, diese Barriere zu überwinden, was zu Phänomenen wie dem Tunneleffekt führt.",
+      "difficulty": 2,
+      "subcategory": "Potentialbarrieren & -stufen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Wirkungsprinzipien (Überblick)",
+      "question": "Welches Prinzip beschreibt die Bewegung eines Körpers, der sich im Einfluss eines Kraftfeldes bewegt?",
+      "choices": [
+        "A: Gesetz von Hooke",
+        "B: Prinzip der kleinsten Wirkung",
+        "C: Prinzip von Archimedes",
+        "D: Newtons drittes Gesetz"
+      ],
+      "correct_answer": "B",
+      "explanation": "Das Prinzip der kleinsten Wirkung besagt, dass die tatsächliche Bewegung eines Systems den Weg minimiert, der die Wirkung integriert. Dieses Prinzip ist zentral in der analytischen Mechanik und führt zu den Bewegungsgleichungen eines Systems.",
+      "difficulty": 2,
+      "subcategory": "Wirkungsprinzipien (Überblick)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Statistische Begründung der Irreversibilität",
+      "question": "Welche der folgenden Aussagen beschreibt am besten die Ursache der Irreversibilität in einem geschlossenen System aus der Sicht der statistischen Mechanik?",
+      "choices": [
+        "A: Die Temperatur eines Systems kann niemals ansteigen.",
+        "B: Die Anzahl der möglichen Mikrozustände eines Systems nimmt mit der Zeit zu.",
+        "C: Die Energie eines geschlossenen Systems bleibt immer konstant.",
+        "D: Alle Prozesse in einem System sind immer reversibel."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Irreversibilität eines Prozesses in der statistischen Mechanik beruht auf der Zunahme der Entropie, die mit einer Zunahme der Anzahl der zugänglichen Mikrozustände verbunden ist. Ein geschlossenen System tendiert dazu, sich in einen Zustand höherer Entropie zu entwickeln, was die Richtung der Zeit bestimmt und irreversibel erscheint.",
+      "difficulty": 7,
+      "subcategory": "Statistische Begründung der Irreversibilität"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Potentialtopf: gebundene Zustände",
+      "question": "Was beschreibt ein gebundener Zustand in einem Potentialtopf?",
+      "choices": [
+        "A: Ein Zustand, in dem die Gesamtenergie des Teilchens immer Null ist.",
+        "B: Ein Zustand, in dem sich ein Teilchen im Potentialtopf aufhält und nicht entweichen kann.",
+        "C: Ein Zustand, in dem ein Teilchen beliebig viel Energie aufnehmen kann.",
+        "D: Ein Zustand, in dem Teilchen sich frei im Raum bewegen können."
+      ],
+      "correct_answer": "B",
+      "explanation": "Ein gebundener Zustand in einem Potentialtopf bedeutet, dass das Teilchen durch das Potential des Topfes gefangen ist und nicht genug Energie hat, um zu entweichen. Diese Zustände sind quantenmechanische Lösungen, die diskrete Energielevels besitzen.",
+      "difficulty": 5,
+      "subcategory": "Potentialtopf: gebundene Zustände"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Extremaleigenschaften von U und H",
+      "question": "Welches der folgenden Aussagen beschreibt korrekt die Bedingungen für die Extremaleigenschaften der inneren Energie U und der Enthalpie H in einem geschlossenen System?",
+      "choices": [
+        "A: U hat ein Maximum bei konstantem Druck und konstanter Temperatur, während H ein Minimum bei konstantem Volumen hat.",
+        "B: U hat ein Minimum bei konstantem Volumen und konstanter Temperatur, während H ein Maximum bei konstantem Druck und konstanter Temperatur hat.",
+        "C: Sowohl U als auch H haben ein Maximum bei konstantem Volumen und konstantem Druck.",
+        "D: U und H erreichen ihr Minimum unter adiabatischen Bedingungen bei konstantem Druck."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die innere Energie U hat unter den Bedingungen von konstantem Volumen und konstanter Temperatur typischerweise ein Minimum, da das System bestrebt ist, die energetisch günstigsten Zustände zu erreichen. Im Gegensatz dazu zeigt die Enthalpie H ein Maximum unter konstantem Druck und konstanter Temperatur, was mit der Stabilität der Phasen in thermodynamischen Systemen zusammenhängt.",
+      "difficulty": 10,
+      "subcategory": "Extremaleigenschaften von U und H"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Noether-Idee: Homogenität der Zeit ⇒ Energieerhaltung",
+      "question": "Welche Aussage beschreibt am besten die Beziehung zwischen der Homogenität der Zeit und der Energieerhaltung?",
+      "choices": [
+        "A: Energie kann nicht von einem System in ein anderes übertragen werden.",
+        "B: Wenn die physikalischen Gesetze zeitlich invariant sind, bleibt die Gesamtenergie eines Systems konstant.",
+        "C: Zeitliche Veränderungen in der Energie führen zu einer Erhöhung der Gesamtmasse.",
+        "D: Die Energie eines Systems kann nur in einem sich verändernden Zeitrahmen betrachtet werden."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Noether-Idee besagt, dass die Homogenität der Zeit, also die Unabhängigkeit physikalischer Gesetze von der Zeit, zur Erhaltung der Energie führt. Wenn die Gesetze unverändert bleiben, bleibt auch die Gesamtenergie eines isolierten Systems konstant.",
+      "difficulty": 3,
+      "subcategory": "Noether-Idee: Homogenität der Zeit ⇒ Energieerhaltung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Prinzip der kleinsten Wirkung",
+      "question": "Welches der folgenden Prinzipien ist direkt mit dem Prinzip der kleinsten Wirkung verbunden?",
+      "choices": [
+        "A: Das Grundgesetz der Bewegung",
+        "B: Die Erhaltung der Energie",
+        "C: Die Lagrange-Gleichungen",
+        "D: Das Impuls-Gesetz"
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Prinzip der kleinsten Wirkung beschreibt, dass der Weg, den ein System zwischen zwei Zuständen nimmt, der ist, für den die Wirkung minimiert wird. Dieses Konzept ist eng mit den Lagrange-Gleichungen verbunden, die eine mathematische Formulierung des Prinzips darstellen.",
+      "difficulty": 7,
+      "subcategory": "Prinzip der kleinsten Wirkung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Kugelkondensator",
+      "question": "Welcher Faktor beeinflusst die Kapazität eines Kugelkondensators nicht?",
+      "choices": [
+        "A: Der Abstand zwischen den Kugeln",
+        "B: Die Farbe der äußeren Kugel",
+        "C: Die Größe der inneren Kugel",
+        "D: Die Materialart zwischen den Kugeln"
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Kapazität eines Kugelkondensators wird durch den Abstand zwischen den Kugeln, die Größe der inneren Kugel und das Dielektrikum zwischen den Kugeln beeinflusst. Die Farbe der äußeren Kugel hat jedoch keinen Einfluss auf die Kapazität, da diese ein rein optisches Merkmal ist.",
+      "difficulty": 7,
+      "subcategory": "Kugelkondensator"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Begrenzungen in optischen Systemen (Apertur, Vignettierung)",
+      "question": "Was versteht man unter Vignettierung in optischen Systemen?",
+      "choices": [
+        "A: Eine Abnahme der Helligkeit am Rand des Bildes.",
+        "B: Eine Erhöhung der Auflösung in der Bildmitte.",
+        "C: Eine Verstärkung des Lichtes durch Linsen.",
+        "D: Eine Veränderung der Lichtfarbe durch Filter."
+      ],
+      "correct_answer": "A",
+      "explanation": "Vignettierung beschreibt den Effekt, dass die Helligkeit am Rand eines Bildes abnimmt, was oft bei Kameras und Teleskopen auftritt. Dies kann durch die Form und Größe der Apertur oder durch die Anordnung der Linsen verursacht werden.",
+      "difficulty": 1,
+      "subcategory": "Begrenzungen in optischen Systemen (Apertur, Vignettierung)"
+    }
+  ]
+}
