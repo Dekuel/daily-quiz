@@ -1,0 +1,168 @@
+{
+  "date": "2026-04-21",
+  "generated_at": "2026-04-21T04:06:09Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Jacobi-Prinzip (verkürzte Wirkung)",
+      "question": "What does the Jacobi principle describe in analytical mechanics?",
+      "choices": [
+        "A: It is a principle for minimizing action for dynamic systems.",
+        "B: It describes the relationship between energy and time.",
+        "C: It explains the motion of particles in a magnetic field.",
+        "D: It describes the interaction between light and matter."
+      ],
+      "correct_answer": "A",
+      "explanation": "The Jacobi principle, also known as the principle of least action, states that the path a system takes to move from one point to another is the one that minimizes the action. This principle is central in analytical mechanics and helps analyze the motion of systems.",
+      "difficulty": 2,
+      "subcategory": "Jacobi-Prinzip (verkürzte Wirkung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Photonengas & Plancksches Strahlungsgesetz",
+      "question": "What does Planck's radiation law describe?",
+      "choices": [
+        "A: The trajectory of electrons in an atom.",
+        "B: The energy distribution of photons in a black body.",
+        "C: The gravitational interaction between two masses.",
+        "D: The relationship between temperature and pressure in an ideal gas."
+      ],
+      "correct_answer": "B",
+      "explanation": "Planck's radiation law describes how the energy of photons in an ideal black body is distributed depending on its temperature. It plays a central role in quantum mechanics and explains the emission of electromagnetic radiation by hot objects.",
+      "difficulty": 3,
+      "subcategory": "Photonengas & Plancksches Strahlungsgesetz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Beugung am langen Spalt",
+      "question": "What does the diffraction of light at a long slit describe?",
+      "choices": [
+        "A: Light is completely absorbed by the slit.",
+        "B: Light is reflected in all directions.",
+        "C: Light spreads behind the slit and forms a pattern.",
+        "D: Light cannot pass through the slit."
+      ],
+      "correct_answer": "C",
+      "explanation": "Diffraction at a long slit describes how light waves interfere behind the slit, creating a characteristic pattern of bright and dark spots. This occurs because the wavefronts of light are diffracted at the edges of the slit.",
+      "difficulty": 2,
+      "subcategory": "Beugung am langen Spalt"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Isolierte Systeme: Maximum der Entropie",
+      "question": "What does the maximum of entropy in an isolated system describe?",
+      "choices": [
+        "A: The state with the lowest energy.",
+        "B: The state with the highest temperature.",
+        "C: The state with minimal particle movement.",
+        "D: The state with the highest disorder."
+      ],
+      "correct_answer": "D",
+      "explanation": "The maximum of entropy in an isolated system describes the state with the highest disorder, meaning that energy is evenly distributed. In this state, the possibilities of microstates are maximal, leading to increased entropy.",
+      "difficulty": 5,
+      "subcategory": "Isolierte Systeme: Maximum der Entropie"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Statischer Druck in Flüssigkeiten",
+      "question": "What does hydrostatic pressure in a liquid describe?",
+      "choices": [
+        "A: The pressure independent of the liquid temperature.",
+        "B: The pressure caused by the weight of the liquid column above a specific point.",
+        "C: The pressure caused by the movement of the liquid.",
+        "D: The pressure occurring in gases."
+      ],
+      "correct_answer": "B",
+      "explanation": "Hydrostatic pressure in a liquid is caused by the weight of the liquid column above and increases with depth. This pressure is crucial for understanding fluid statics and is independent of the shape of the container in which the liquid is.",
+      "difficulty": 2,
+      "subcategory": "Statischer Druck in Flüssigkeiten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Reflexion & Brechung elektromagnetischer Wellen",
+      "question": "What does Snell's law describe regarding the refraction of electromagnetic waves?",
+      "choices": [
+        "A: The wavelengths are identical in both media.",
+        "B: The energy loss during refraction is always the same.",
+        "C: The ratio of the sine values of the angles of incidence and refraction is constant.",
+        "D: The frequency of the wave remains constant when transitioning between two media."
+      ],
+      "correct_answer": "C",
+      "explanation": "Snell's law, also known as the law of refraction, states that the ratio of the sine values of the angle of incidence and the angle of refraction is equal to the ratio of the velocities of the wave in the two media. This leads to a constant relationship determined by the refractive indices of the media.",
+      "difficulty": 6,
+      "subcategory": "Reflexion & Brechung elektromagnetischer Wellen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Experimentelle Methoden: Messverfahren",
+      "question": "Which measurement method is commonly used to determine the electrical conductivity of solids?",
+      "choices": [
+        "A: Scanning tunneling microscopy",
+        "B: Thermogravimetric analysis",
+        "C: X-ray diffraction",
+        "D: Four-probe measurement"
+      ],
+      "correct_answer": "D",
+      "explanation": "The four-probe measurement is a proven method for accurately determining the electrical conductivity of materials as it minimizes the influence of contact resistance. In this method, four probes are used to measure the current and voltage, thus calculating the conductivity precisely.",
+      "difficulty": 5,
+      "subcategory": "Experimentelle Methoden: Messverfahren"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Thermodynamische Beschreibung der Kerne",
+      "question": "What does the temperature of an atomic nucleus describe?",
+      "choices": [
+        "A: The number of protons in the nucleus",
+        "B: The mass of the nucleus",
+        "C: The number of neutrons in the nucleus",
+        "D: The average kinetic energy of the nucleons"
+      ],
+      "correct_answer": "D",
+      "explanation": "The temperature of an atomic nucleus is related to the average kinetic energy of the nucleons. Higher temperatures typically mean that the nucleons are moving more vigorously and have more energy.",
+      "difficulty": 3,
+      "subcategory": "Thermodynamische Beschreibung der Kerne"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Nicht-holonome Zwangsbedingungen",
+      "question": "Which of the following statements correctly describes non-holonomic constraints?",
+      "choices": [
+        "A: They lead to a restriction of freedom of movement that cannot be represented by a simple relationship between the coordinates.",
+        "B: They are independent of time.",
+        "C: They can be described by integrable equations.",
+        "D: They are only relevant in systems with conservative forces."
+      ],
+      "correct_answer": "A",
+      "explanation": "Non-holonomic constraints are those that restrict the freedom of movement of a system without there being an integrable relationship between the coordinates. This often leads to complex dynamic systems that cannot be described by simple equations.",
+      "difficulty": 7,
+      "subcategory": "Nicht-holonome Zwangsbedingungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Periodische Randbedingungen",
+      "question": "What does the application of periodic boundary conditions in quantum mechanics describe?",
+      "choices": [
+        "A: The wave function is identical at the boundary values.",
+        "B: Particles can only assume discrete energy values.",
+        "C: Time is not constant.",
+        "D: Particles move only in a specific direction."
+      ],
+      "correct_answer": "A",
+      "explanation": "Periodic boundary conditions mean that the wave function at the boundaries of a considered system is the same, leading to quantized states. This is a fundamental concept often used in solid-state physics and quantum mechanics.",
+      "difficulty": 2,
+      "subcategory": "Periodische Randbedingungen"
+    }
+  ]
+}
