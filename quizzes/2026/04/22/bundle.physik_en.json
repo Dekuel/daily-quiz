@@ -1,0 +1,168 @@
+{
+  "date": "2026-04-22",
+  "generated_at": "2026-04-22T04:04:48Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Poisson-Klammer (Definition & Bedeutung)",
+      "question": "What does the Poisson bracket describe in analytical mechanics?",
+      "choices": [
+        "A: The relationship between two conserved quantities.",
+        "B: The energy of a closed system.",
+        "C: The force acting on a body.",
+        "D: The velocity of a particle."
+      ],
+      "correct_answer": "A",
+      "explanation": "The Poisson bracket is a mathematical tool that describes the interactions between different conserved quantities in a dynamic system. It plays a central role in Hamiltonian mechanics and helps in formulating the equations of motion.",
+      "difficulty": 2,
+      "subcategory": "Poisson-Klammer (Definition & Bedeutung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Mittelwerte & Schwankungen",
+      "question": "Which of the following values best describes the uncertainty principle in quantum mechanics?",
+      "choices": [
+        "A: Δv = Δs/Δt",
+        "B: ΔE * Δt ≥ ħ",
+        "C: Δx * Δp ≥ ħ/2",
+        "D: F = m * a"
+      ],
+      "correct_answer": "C",
+      "explanation": "The uncertainty principle states that the products of uncertainties in the position (Δx) and momentum (Δp) of a particle cannot fall below a minimum of ħ/2. This is a central concept in quantum mechanics that describes the fundamentally limited precision of measurements.",
+      "difficulty": 7,
+      "subcategory": "Mittelwerte & Schwankungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Diamagnetismus (atomar)",
+      "question": "What is a key characteristic of diamagnetism at the atomic level?",
+      "choices": [
+        "A: Diamagnetic materials are always electrically conductive.",
+        "B: Diamagnetism occurs only in metals.",
+        "C: Diamagnetic materials have no unpaired electrons.",
+        "D: Diamagnetic materials attract magnetic fields."
+      ],
+      "correct_answer": "C",
+      "explanation": "Diamagnetic materials are characterized by the absence of unpaired electrons, leading to a weak repulsion from magnetic fields. This property is independent of electrical conductivity and is present in many materials, not just metals.",
+      "difficulty": 2,
+      "subcategory": "Diamagnetismus (atomar)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Einheiten (natürliche Einheiten)",
+      "question": "Which unit is commonly used for energy in the natural unit system?",
+      "choices": [
+        "A: Pascal (Pa)",
+        "B: Electronvolt (eV)",
+        "C: Newton (N)",
+        "D: Joule (J)"
+      ],
+      "correct_answer": "B",
+      "explanation": "In the natural unit system, the electronvolt (eV) is the common unit for energy, especially in particle physics. While the joule is an SI unit, it is less used in this specific context.",
+      "difficulty": 4,
+      "subcategory": "Einheiten (natürliche Einheiten)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Zeitunabhängige Störungstheorie: entartete Niveaus",
+      "question": "What happens to degenerate energy levels in time-independent perturbation theory when a perturbation acts on them?",
+      "choices": [
+        "A: They completely disappear.",
+        "B: They split and shift.",
+        "C: They remain unchanged.",
+        "D: They merge into a new level."
+      ],
+      "correct_answer": "B",
+      "explanation": "In time-independent perturbation theory, a perturbation causes a splitting of degenerate levels, resulting in energy levels shifting in different directions. This is a fundamental principle of quantum mechanics that describes the interaction of systems with external influences.",
+      "difficulty": 5,
+      "subcategory": "Zeitunabhängige Störungstheorie: entartete Niveaus"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Das Deuteron",
+      "question": "What is a deuteron?",
+      "choices": [
+        "A: A nucleus consisting of a proton and a neutron.",
+        "B: A nucleus consisting of two protons.",
+        "C: A particle consisting only of electrons.",
+        "D: A molecule consisting of hydrogen atoms."
+      ],
+      "correct_answer": "A",
+      "explanation": "A deuteron is the nucleus of heavy hydrogen and consists of a proton and a neutron. It is an example of a stable atomic nucleus with a specific composition that distinguishes it from normal hydrogen.",
+      "difficulty": 4,
+      "subcategory": "Das Deuteron"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Freies Elektronengas",
+      "question": "What does the model of free electron gas describe in solid-state physics?",
+      "choices": [
+        "A: Electrons are tightly bound to their atomic nuclei and cannot move.",
+        "B: Electrons are only freely movable in semiconductors and not in metals.",
+        "C: Electrons move independently and freely within a metal lattice.",
+        "D: Electrons move only in a specific direction within the crystal lattice."
+      ],
+      "correct_answer": "C",
+      "explanation": "The model of free electron gas describes that electrons in a metal behave like a gas and can move independently of the atomic nuclei. This explains many electrical and thermal properties of metals.",
+      "difficulty": 6,
+      "subcategory": "Freies Elektronengas"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Gibbs-Phasenregel; Mehrkomponenten-Gleichgewichte",
+      "question": "How many intensive variables must be specified for a system in equilibrium with F phases and C components according to the Gibbs phase rule?",
+      "choices": [
+        "A: F - C + 2",
+        "B: F - C - 2",
+        "C: F + C + 1",
+        "D: F + C - 1"
+      ],
+      "correct_answer": "A",
+      "explanation": "The Gibbs phase rule states that the number of degrees of freedom of a system in equilibrium is given by the formula F - C + 2, where F is the number of phases and C is the number of components. This rule helps understand the relationships between different phases and their properties.",
+      "difficulty": 6,
+      "subcategory": "Gibbs-Phasenregel; Mehrkomponenten-Gleichgewichte"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Diffusion (in Gasen)",
+      "question": "What best describes the diffusion of gases?",
+      "choices": [
+        "A: All gas molecules have the same speed during diffusion.",
+        "B: Temperature has no effect on the diffusion rate of gases.",
+        "C: Molecules always move in a straight line without deviation.",
+        "D: Molecules move from areas of high concentration to areas of low concentration."
+      ],
+      "correct_answer": "D",
+      "explanation": "Diffusion describes the process in which molecules move due to concentration differences. This movement occurs from areas of higher concentration to areas of lower concentration until equilibrium is reached. Temperature and molecular velocity also play a role in the rate of diffusion.",
+      "difficulty": 6,
+      "subcategory": "Diffusion (in Gasen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Dirac-Gleichung",
+      "question": "Which of the following statements correctly describes the Dirac equation?",
+      "choices": [
+        "A: It unites quantum mechanics with special relativity.",
+        "B: It has no solutions for particles with spin.",
+        "C: It exclusively describes the motion of electrons in a classical field.",
+        "D: It is only applicable to massive particles."
+      ],
+      "correct_answer": "A",
+      "explanation": "The Dirac equation is a relativistic equation of quantum mechanics that describes electrons and other fermions. It unites principles of quantum mechanics with special relativity and also explains the behavior of spin-1/2 particles.",
+      "difficulty": 2,
+      "subcategory": "Dirac-Gleichung"
+    }
+  ]
+}

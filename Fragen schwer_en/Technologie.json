@@ -1918,6 +1918,20 @@
       "correct_answer": "B",
       "explanation": "Transport Layer Security (TLS) protocol is used to encrypt and secure data during transmission over the internet. It is a crucial technology for online communication security, especially in transactions and sensitive data. FTP (File Transfer Protocol) and SNMP (Simple Network Management Protocol) do not provide such security, while HTTP is unsecured.",
       "difficulty": 7
+    },
+    {
+      "category": "Technologie",
+      "topic": "Computer & Internet",
+      "question": "Which protocol is typically used for secure data transmission over the internet?",
+      "choices": [
+        "A: SMTP",
+        "B: HTTPS",
+        "C: FTP",
+        "D: IMAP"
+      ],
+      "correct_answer": "B",
+      "explanation": "HTTPS (Hypertext Transfer Protocol Secure) is an extension of HTTP and uses SSL/TLS to securely transmit data, while the other protocols are used for different functions such as file transfer (FTP) or email (SMTP, IMAP). Therefore, HTTPS is crucial for protecting sensitive information on the internet.",
+      "difficulty": 9
     }
   ]
 }

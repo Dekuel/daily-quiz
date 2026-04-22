@@ -1,0 +1,169 @@
+{
+  "date": "2026-04-22",
+  "generated_at": "2026-04-22T04:04:11Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Poisson-Klammer (Definition & Bedeutung)",
+      "question": "Was beschreibt die Poisson-Klammer in der analytischen Mechanik?",
+      "choices": [
+        "A: Die Beziehung zwischen zwei Erhaltungsgrößen.",
+        "B: Die Energie eines geschlossenen Systems.",
+        "C: Die Kraft, die auf einen Körper wirkt.",
+        "D: Die Geschwindigkeit eines Teilchens."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Poisson-Klammer ist ein mathematisches Werkzeug, das die Wechselwirkungen zwischen verschiedenen Erhaltungsgrößen in einem dynamischen System beschreibt. Sie spielt eine zentrale Rolle in der Hamiltonschen Mechanik und hilft bei der Formulierung der Gleichungen der Bewegung.",
+      "difficulty": 2,
+      "subcategory": "Poisson-Klammer (Definition & Bedeutung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Mittelwerte & Schwankungen",
+      "question": "Welcher der folgenden Werte beschreibt am besten die Unschärferelation in der Quantenmechanik?",
+      "choices": [
+        "A: Δv = Δs/Δt",
+        "B: ΔE * Δt ≥ ħ",
+        "C: Δx * Δp ≥ ħ/2",
+        "D: F = m * a"
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Unschärferelation besagt, dass die Produkte der Unsicherheiten in der Position (Δx) und dem Impuls (Δp) eines Teilchens ein Minimum von ħ/2 nicht unterschreiten können. Dies ist ein zentrales Konzept der Quantenmechanik, das die fundamental begrenzte Messgenauigkeit beschreibt.",
+      "difficulty": 7,
+      "subcategory": "Mittelwerte & Schwankungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Diamagnetismus (atomar)",
+      "question": "Was ist eine Hauptcharakteristik des Diamagnetismus auf atomarer Ebene?",
+      "choices": [
+        "A: Diamagnetische Materialien sind immer elektrisch leitend.",
+        "B: Diamagnetismus tritt nur bei Metallen auf.",
+        "C: Diamagnetische Materialien haben keine ungepaarten Elektronen.",
+        "D: Diamagnetische Materialien ziehen Magnetfelder an."
+      ],
+      "correct_answer": "C",
+      "explanation": "Diamagnetische Materialien zeichnen sich dadurch aus, dass sie keine ungepaarten Elektronen besitzen, was zu einer schwachen Abstoßung von Magnetfeldern führt. Diese Eigenschaft ist unabhängig von der elektrischen Leitfähigkeit und tritt in vielen Materialien auf, nicht nur in Metallen.",
+      "difficulty": 2,
+      "subcategory": "Diamagnetismus (atomar)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Einheiten (natürliche Einheiten)",
+      "question": "Welche Einheit wird in der natürlichen Einheitensystematik häufig für die Energie verwendet?",
+      "choices": [
+        "A: Pascal (Pa)",
+        "B: Elektronvolt (eV)",
+        "C: Newton (N)",
+        "D: Joule (J)"
+      ],
+      "correct_answer": "B",
+      "explanation": "In der natürlichen Einheitensystematik ist das Elektronvolt (eV) die gebräuchliche Einheit für Energie, insbesondere in der Teilchenphysik. Joule ist zwar eine SI-Einheit, wird jedoch in diesem speziellen Kontext weniger verwendet.",
+      "difficulty": 4,
+      "subcategory": "Einheiten (natürliche Einheiten)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Zeitunabhängige Störungstheorie: entartete Niveaus",
+      "question": "Was passiert mit den entarteten Energieniveaus in der zeitunabhängigen Störungstheorie, wenn eine Störung auf sie wirkt?",
+      "choices": [
+        "A: Sie verschwinden vollständig.",
+        "B: Sie werden aufgespalten und verschieben sich.",
+        "C: Sie bleiben unverändert.",
+        "D: Sie vereinen sich zu einem neuen Niveau."
+      ],
+      "correct_answer": "B",
+      "explanation": "In der zeitunabhängigen Störungstheorie führt eine Störung zu einer Aufspaltung der entarteten Niveaus, wodurch sich die Energieniveaus in unterschiedlichen Richtungen verschieben. Dies ist ein grundlegendes Prinzip der Quantenmechanik, das die Wechselwirkung von Systemen mit äußeren Einflüssen beschreibt.",
+      "difficulty": 5,
+      "subcategory": "Zeitunabhängige Störungstheorie: entartete Niveaus"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Das Deuteron",
+      "question": "Was ist ein Deuteron?",
+      "choices": [
+        "A: Ein Atomkern, der aus einem Proton und einem Neutron besteht.",
+        "B: Ein Atomkern, der aus zwei Protonen besteht.",
+        "C: Ein Teilchen, das nur aus Elektronen besteht.",
+        "D: Ein Molekül, das aus Wasserstoffatomen besteht."
+      ],
+      "correct_answer": "A",
+      "explanation": "Ein Deuteron ist der Atomkern des schweren Wasserstoffs und besteht aus einem Proton und einem Neutron. Es ist ein Beispiel für einen stabilen Atomkern mit einer speziellen Zusammensetzung, die ihn von normalem Wasserstoff unterscheidet.",
+      "difficulty": 4,
+      "subcategory": "Das Deuteron"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Freies Elektronengas",
+      "question": "Was beschreibt das Modell des freien Elektronengases in der Festkörperphysik?",
+      "choices": [
+        "A: Elektronen sind fest an ihre Atomkerne gebunden und können sich nicht bewegen.",
+        "B: Elektronen sind nur in Halbleitern frei beweglich und nicht in Metallen.",
+        "C: Elektronen bewegen sich unabhängig und frei innerhalb eines Metallgitters.",
+        "D: Elektronen bewegen sich nur in einer spezifischen Richtung innerhalb des Kristallgitters."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Modell des freien Elektronengases beschreibt, dass Elektronen in einem Metall wie ein Gas verhalten und sich unabhängig von den Atomkernen bewegen können. Dies erklärt viele elektrische und thermische Eigenschaften von Metallen.",
+      "difficulty": 6,
+      "subcategory": "Freies Elektronengas"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Gibbs-Phasenregel; Mehrkomponenten-Gleichgewichte",
+      "question": "Wie viele intensive Variablen müssen für ein System im Gleichgewicht mit F Phasen und C Komponenten gemäß der Gibbs-Phasenregel festgelegt werden?",
+      "choices": [
+        "A: F - C + 2",
+        "B: F - C - 2",
+        "C: F + C + 1",
+        "D: F + C - 1"
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Gibbs-Phasenregel besagt, dass die Anzahl der Freiheitsgrade eines Systems in Gleichgewicht durch die Formel F - C + 2 gegeben ist, wobei F die Anzahl der Phasen und C die Anzahl der Komponenten ist. Diese Regel hilft, die Beziehungen zwischen den verschiedenen Phasen und deren Eigenschaften zu verstehen.",
+      "difficulty": 6,
+      "subcategory": "Gibbs-Phasenregel; Mehrkomponenten-Gleichgewichte"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Diffusion (in Gasen)",
+      "question": "Was beschreibt die Diffusion von Gasen am besten?",
+      "choices": [
+        "A: Alle Gasmoleküle haben die gleiche Geschwindigkeit während der Diffusion.",
+        "B: Die Temperatur hat keinen Einfluss auf die Diffusionsrate von Gasen.",
+        "C: Moleküle bewegen sich immer in einer geraden Linie ohne Ablenkung.",
+        "D: Moleküle bewegen sich von Bereichen hoher Konzentration zu Bereichen niedriger Konzentration."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Diffusion beschreibt den Prozess, bei dem Moleküle sich aufgrund von Konzentrationsunterschieden bewegen. Diese Bewegung erfolgt von Bereichen höherer Konzentration zu Bereichen niedriger Konzentration, bis ein Gleichgewicht erreicht ist. Temperatur und Molekülgeschwindigkeit spielen ebenfalls eine Rolle bei der Diffusionsrate.",
+      "difficulty": 6,
+      "subcategory": "Diffusion (in Gasen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Dirac-Gleichung",
+      "question": "Welche der folgenden Aussagen beschreibt die Dirac-Gleichung korrekt?",
+      "choices": [
+        "A: Sie vereint die Quantenmechanik mit der speziellen Relativitätstheorie.",
+        "B: Sie hat keine Lösungen für Teilchen mit Spin.",
+        "C: Sie beschreibt ausschließlich die Bewegung von Elektronen in einem klassischen Feld.",
+        "D: Sie ist nur für massive Teilchen anwendbar."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Dirac-Gleichung ist eine relativistische Gleichung der Quantenmechanik, die Elektronen und andere Fermionen beschreibt. Sie vereint Prinzipien der Quantenmechanik mit der speziellen Relativitätstheorie und erklärt zudem das Verhalten von Spin-1/2-Teilchen.",
+      "difficulty": 2,
+      "subcategory": "Dirac-Gleichung"
+    }
+  ]
+}
