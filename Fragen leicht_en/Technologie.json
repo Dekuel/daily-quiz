@@ -1792,6 +1792,20 @@
       "correct_answer": "B",
       "explanation": "Twitter is a social platform that allows users to post and share short messages, known as tweets. Unlike Facebook or Instagram, Twitter is particularly known for real-time communication and current news.",
       "difficulty": 4
+    },
+    {
+      "category": "Technologie",
+      "topic": "Smartphones & Apps",
+      "question": "Which method is commonly used to secure data on smartphones to prevent unauthorized access?",
+      "choices": [
+        "A: End-to-End encryption",
+        "B: Password hashing",
+        "C: Public Key Infrastructure",
+        "D: Encryption in transit"
+      ],
+      "correct_answer": "A",
+      "explanation": "End-to-End encryption is a method where data is encrypted in a way that only the intended recipients can decrypt it. This protects the data during transmission and at rest on the device. While password hashing and Public Key Infrastructure are also important security concepts, they are not specifically used for encrypting data on smartphones.",
+      "difficulty": 7
     }
   ]
 }

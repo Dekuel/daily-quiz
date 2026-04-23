@@ -1,0 +1,168 @@
+{
+  "date": "2026-04-23",
+  "generated_at": "2026-04-23T04:05:51Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Wechselwirkung einer Ladungsverteilung mit äußerem Feld",
+      "question": "What happens to an electric charge distribution when it is placed in an external electric field?",
+      "choices": [
+        "A: The charge distribution reinforces the external field.",
+        "B: The charge distribution remains unchanged.",
+        "C: The charges move and create an internal field.",
+        "D: The charge distribution is neutralized."
+      ],
+      "correct_answer": "C",
+      "explanation": "When an electric charge distribution is placed in an external electric field, the individual charges experience forces that move them. This movement can lead to further charge displacement, creating an internal field that modifies the properties of the external field.",
+      "difficulty": 6,
+      "subcategory": "Wechselwirkung einer Ladungsverteilung mit äußerem Feld"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Erster & Zweiter Hauptsatz (reversibel/irreversibel)",
+      "question": "What does the second law of thermodynamics state?",
+      "choices": [
+        "A: Heat can flow from a colder body to a warmer body.",
+        "B: Energy cannot be created or destroyed.",
+        "C: The total energy content of a system remains constant.",
+        "D: The entropy of a closed system can only decrease."
+      ],
+      "correct_answer": "A",
+      "explanation": "The second law of thermodynamics states that heat cannot spontaneously flow from a colder body to a warmer body, determining the direction of heat transfer. This leads to an increase in entropy in a closed system.",
+      "difficulty": 1,
+      "subcategory": "Erster & Zweiter Hauptsatz (reversibel/irreversibel)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Harmonischer Oszillator: Erzeugungs-/Vernichtungsoperator",
+      "question": "Which operator is used in the context of the harmonic oscillator to raise the state of a quantum system?",
+      "choices": [
+        "A: Hamiltonian operator H",
+        "B: Creation operator a†",
+        "C: Annihilation operator a",
+        "D: Momentum operator p"
+      ],
+      "correct_answer": "B",
+      "explanation": "The creation operator a† is used to raise the energy state of a quantum mechanical harmonic oscillator. It adds a quantum of energy to the system, leading to a higher energy eigenstate.",
+      "difficulty": 9,
+      "subcategory": "Harmonischer Oszillator: Erzeugungs-/Vernichtungsoperator"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Das Auge (Optik)",
+      "question": "Which statement best describes the function of the lens in the human eye?",
+      "choices": [
+        "A: The lens filters harmful UV rays before reaching the retina.",
+        "B: The lens refracts light and enables focusing on the retina.",
+        "C: The lens produces the tears that moisten the eye.",
+        "D: The lens stores visual information for a short period."
+      ],
+      "correct_answer": "B",
+      "explanation": "The lens of the human eye primarily functions to refract light and focus it on the retina, enabling clear vision. This is crucial for image perception and seeing at different distances.",
+      "difficulty": 8,
+      "subcategory": "Das Auge (Optik)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Energiebänder (Überblick)",
+      "question": "Which statement about energy bands in solids is correct?",
+      "choices": [
+        "A: In a semiconductor, the valence and conduction bands are separated by a wide band gap.",
+        "B: The band gap in an insulator is typically much smaller than in a semiconductor.",
+        "C: In metals, all energy levels are completely filled.",
+        "D: In a conductor, the valence and conduction bands overlap."
+      ],
+      "correct_answer": "D",
+      "explanation": "In a conductor, the valence and conduction bands overlap, allowing electrons to move freely and conduct electricity. In semiconductors and insulators, the bands are separated by band gaps, with semiconductors having a smaller band gap than insulators.",
+      "difficulty": 8,
+      "subcategory": "Energiebänder (Überblick)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Rotation bei konstantem Drehmoment",
+      "question": "What happens to the angular velocity of a body when a constant torque acts on it and it is initially at rest?",
+      "choices": [
+        "A: The angular velocity increases linearly with time.",
+        "B: The angular velocity remains zero.",
+        "C: The angular velocity increases exponentially.",
+        "D: The angular velocity remains constant."
+      ],
+      "correct_answer": "A",
+      "explanation": "A constant torque results in a constant angular acceleration. Therefore, the angular velocity increases linearly with time as long as the torque acts and no other forces influence the body.",
+      "difficulty": 5,
+      "subcategory": "Rotation bei konstantem Drehmoment"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Ausbreitung EM-Wellen in Metallen",
+      "question": "What happens to electromagnetic waves when they penetrate a metal?",
+      "choices": [
+        "A: They are completely reflected.",
+        "B: They move unhindered through the metal.",
+        "C: They penetrate deeply into the metal and get amplified.",
+        "D: They are partially reflected and partially absorbed."
+      ],
+      "correct_answer": "D",
+      "explanation": "Electromagnetic waves are partially reflected and partially absorbed when penetrating metals. The penetration depth depends on the wave's frequency and the metal's properties, which is why not all waves can fully penetrate.",
+      "difficulty": 5,
+      "subcategory": "Ausbreitung EM-Wellen in Metallen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Gegen- und Selbstinduktion",
+      "question": "Which of the following statements correctly describes the difference between self-induction and mutual induction?",
+      "choices": [
+        "A: Self-induction can only occur in superconductors, while mutual induction occurs in normal conductors.",
+        "B: Mutual induction only occurs in closed circuits, while self-induction occurs in open circuits.",
+        "C: Self-induction refers to the induction of voltage in a coil due to its own changing current, while mutual induction describes induction due to a changing current in an adjacent coil.",
+        "D: Self-induction occurs when the current in a coil changes, while mutual induction is always caused by external magnetic fields."
+      ],
+      "correct_answer": "C",
+      "explanation": "Self-induction describes the induction of a voltage in a coil due to its own changing current. Mutual induction, on the other hand, refers to induction due to changes in the current in an adjacent coil that can influence magnetic fields.",
+      "difficulty": 9,
+      "subcategory": "Gegen- und Selbstinduktion"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Homogenitätsrelationen (Euler/Gibbs-Duhem)",
+      "question": "What does the Gibbs-Duhem equation describe in thermodynamics?",
+      "choices": [
+        "A: The relationship between pressure and volume.",
+        "B: The relationship between entropy and work.",
+        "C: The relationship between chemical potential and temperature.",
+        "D: The relationship between energy and temperature."
+      ],
+      "correct_answer": "C",
+      "explanation": "The Gibbs-Duhem equation describes how the chemical potential of a system changes with variations in temperature and amount of substance. It is an important tool in thermodynamics for analyzing equilibrium states in multi-component systems.",
+      "difficulty": 1,
+      "subcategory": "Homogenitätsrelationen (Euler/Gibbs-Duhem)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Kapillarität",
+      "question": "What causes water to rise in a thin tube?",
+      "choices": [
+        "A: Adhesion between water and tube wall",
+        "B: Pressure differences in water",
+        "C: Weight of the water",
+        "D: Temperature of the water"
+      ],
+      "correct_answer": "A",
+      "explanation": "Capillarity arises from the interaction between water molecules and the surface of the tube. The adhesion between water and the tube wall causes the water to rise, while the cohesion between water molecules supports the ascent.",
+      "difficulty": 3,
+      "subcategory": "Kapillarität"
+    }
+  ]
+}

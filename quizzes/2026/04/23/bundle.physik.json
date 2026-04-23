@@ -1,0 +1,169 @@
+{
+  "date": "2026-04-23",
+  "generated_at": "2026-04-23T04:05:11Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Wechselwirkung einer Ladungsverteilung mit äußerem Feld",
+      "question": "Was passiert mit einer elektrischen Ladungsverteilung, wenn sie in ein externes elektrisches Feld gebracht wird?",
+      "choices": [
+        "A: Die Ladungsverteilung verstärkt das externe Feld.",
+        "B: Die Ladungsverteilung bleibt unverändert.",
+        "C: Die Ladungen bewegen sich und erzeugen ein internes Feld.",
+        "D: Die Ladungsverteilung wird neutralisiert."
+      ],
+      "correct_answer": "C",
+      "explanation": "Wenn eine elektrische Ladungsverteilung in ein externes elektrisches Feld gebracht wird, erfahren die einzelnen Ladungen Kräfte, die sie bewegen. Diese Bewegung kann zu einer weiteren Ladungsverlagerung führen, die ein internes Feld erzeugt, welches die Eigenschaften des externen Feldes modifiziert.",
+      "difficulty": 6,
+      "subcategory": "Wechselwirkung einer Ladungsverteilung mit äußerem Feld"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Erster & Zweiter Hauptsatz (reversibel/irreversibel)",
+      "question": "Was besagt der zweite Hauptsatz der Thermodynamik?",
+      "choices": [
+        "A: Wärme kann von einem kälteren zu einem wärmeren Körper fließen.",
+        "B: Energie kann nicht erzeugt oder vernichtet werden.",
+        "C: Der Gesamtenergiegehalt eines Systems bleibt konstant.",
+        "D: Die Entropie eines geschlossenen Systems kann nur abnehmen."
+      ],
+      "correct_answer": "A",
+      "explanation": "Der zweite Hauptsatz der Thermodynamik besagt, dass Wärme niemals spontan von einem kälteren zu einem wärmeren Körper fließen kann, was die Richtung der Wärmeübertragung bestimmt. Dies führt zur Erhöhung der Entropie in einem geschlossenen System.",
+      "difficulty": 1,
+      "subcategory": "Erster & Zweiter Hauptsatz (reversibel/irreversibel)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Harmonischer Oszillator: Erzeugungs-/Vernichtungsoperator",
+      "question": "Welcher Operator wird im Kontext des harmonischen Oszillators verwendet, um den Zustand eines Quantensystems zu erhöhen?",
+      "choices": [
+        "A: Hamiltonoperator H",
+        "B: Erzeugungsoperator a†",
+        "C: Vernichtungsoperator a",
+        "D: Impulsoperator p"
+      ],
+      "correct_answer": "B",
+      "explanation": "Der Erzeugungsoperator a† wird verwendet, um den Energiezustand eines quantenmechanischen harmonischen Oszillators zu erhöhen. Er fügt dem System ein Quantenpaket Energie hinzu, was zu einem höheren Energieeigenzustand führt.",
+      "difficulty": 9,
+      "subcategory": "Harmonischer Oszillator: Erzeugungs-/Vernichtungsoperator"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Das Auge (Optik)",
+      "question": "Welche der folgenden Aussagen beschreibt die Funktion der Linse im menschlichen Auge am besten?",
+      "choices": [
+        "A: Die Linse filtert schädliche UV-Strahlen, bevor sie die Retina erreichen.",
+        "B: Die Linse bricht das Licht und ermöglicht die Fokussierung auf die Netzhaut.",
+        "C: Die Linse erzeugt die Tränenflüssigkeit, die das Auge befeuchtet.",
+        "D: Die Linse speichert visuelle Informationen über einen kurzen Zeitraum."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Linse des menschlichen Auges hat die Hauptfunktion, das Licht zu brechen und fokussiert es auf die Netzhaut, wodurch eine klare Sicht entsteht. Dies ist entscheidend für die Bildwahrnehmung und das Sehen in verschiedenen Entfernungen.",
+      "difficulty": 8,
+      "subcategory": "Das Auge (Optik)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Energiebänder (Überblick)",
+      "question": "Welche Aussage über Energiebänder in Festkörpern ist korrekt?",
+      "choices": [
+        "A: In einem Halbleiter sind die Valenz- und Leitungsbänder durch eine breite Bandlücke getrennt.",
+        "B: Die Bandlücke in einem Isolator ist typischerweise viel kleiner als die in einem Halbleiter.",
+        "C: In Metallen sind alle Energieniveaus vollständig gefüllt.",
+        "D: In einem Leiter sind die Valenz- und Leitungsbänder überlappend."
+      ],
+      "correct_answer": "D",
+      "explanation": "In einem Leiter überlappen sich die Valenz- und Leitungsbänder, was es Elektronen ermöglicht, sich frei zu bewegen und elektrischen Strom zu leiten. Bei Halbleitern und Isolatoren sind die Bänder durch Bandlücken getrennt, wobei Halbleiter eine kleinere Bandlücke aufweisen als Isolatoren.",
+      "difficulty": 8,
+      "subcategory": "Energiebänder (Überblick)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Rotation bei konstantem Drehmoment",
+      "question": "Was passiert mit der Winkelgeschwindigkeit eines Körpers, wenn ein konstantes Drehmoment auf ihn wirkt und er anfangs in Ruhe ist?",
+      "choices": [
+        "A: Die Winkelgeschwindigkeit nimmt linear mit der Zeit zu.",
+        "B: Die Winkelgeschwindigkeit bleibt null.",
+        "C: Die Winkelgeschwindigkeit nimmt exponentiell zu.",
+        "D: Die Winkelgeschwindigkeit bleibt konstant."
+      ],
+      "correct_answer": "A",
+      "explanation": "Ein konstantes Drehmoment führt zu einer konstanten Winkelbeschleunigung. Deshalb steigt die Winkelgeschwindigkeit linear mit der Zeit, solange das Drehmoment wirkt und keine weiteren Kräfte den Körper beeinflussen.",
+      "difficulty": 5,
+      "subcategory": "Rotation bei konstantem Drehmoment"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Ausbreitung EM-Wellen in Metallen",
+      "question": "Was passiert mit elektromagnetischen Wellen, wenn sie in ein Metall eindringen?",
+      "choices": [
+        "A: Sie werden vollständig reflektiert.",
+        "B: Sie bewegen sich ungehindert durch das Metall.",
+        "C: Sie dringen tief in das Metall ein und werden verstärkt.",
+        "D: Sie werden teilweise reflektiert und teilweise absorbiert."
+      ],
+      "correct_answer": "D",
+      "explanation": "Elektromagnetische Wellen werden beim Eindringen in Metalle teilweise reflektiert und teilweise absorbiert. Die Eindringtiefe hängt von der Frequenz der Welle und den Eigenschaften des Metalls ab, weshalb nicht alle Wellen vollständig durchdringen können.",
+      "difficulty": 5,
+      "subcategory": "Ausbreitung EM-Wellen in Metallen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Gegen- und Selbstinduktion",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt den Unterschied zwischen Selbstinduktion und Gegeninduktion?",
+      "choices": [
+        "A: Selbstinduktion kann nur in Superleitern auftreten, während Gegeninduktion in normalen Leitern stattfindet.",
+        "B: Gegeninduktion tritt nur in geschlossenen Stromkreisen auf, während Selbstinduktion in offenen Stromkreisen auftritt.",
+        "C: Selbstinduktion bezieht sich auf die Induktion von Spannung in einer Spule durch den eigenen, sich ändernden Strom, während Gegeninduktion die Induktion aufgrund eines sich ändernden Stroms in einer benachbarten Spule beschreibt.",
+        "D: Selbstinduktion tritt auf, wenn der Strom in einer Spule sich ändert, während Gegeninduktion immer durch externe magnetische Felder verursacht wird."
+      ],
+      "correct_answer": "C",
+      "explanation": "Selbstinduktion beschreibt die Induktion einer Spannung in einer Spule durch den eigenen, sich ändernden Strom. Gegeninduktion hingegen bezieht sich auf die Induktion aufgrund von Änderungen des Stroms in einer benachbarten Spule, die magnetische Felder beeinflussen können.",
+      "difficulty": 9,
+      "subcategory": "Gegen- und Selbstinduktion"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Homogenitätsrelationen (Euler/Gibbs-Duhem)",
+      "question": "Was beschreibt die Gibbs-Duhem-Gleichung in der Thermodynamik?",
+      "choices": [
+        "A: Die Beziehung zwischen Druck und Volumen.",
+        "B: Die Beziehung zwischen Entropie und Arbeit.",
+        "C: Die Beziehung zwischen chemischem Potential und Temperatur.",
+        "D: Die Beziehung zwischen Energie und Temperatur."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Gibbs-Duhem-Gleichung beschreibt, wie sich das chemische Potential eines Systems mit Änderungen der Temperatur und der Stoffmenge verändert. Sie ist ein wichtiges Werkzeug in der Thermodynamik zur Analyse von Gleichgewichtszuständen in mehrkomponentigen Systemen.",
+      "difficulty": 1,
+      "subcategory": "Homogenitätsrelationen (Euler/Gibbs-Duhem)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Kapillarität",
+      "question": "Was bewirkt, dass Wasser in einem dünnen Röhrchen ansteigt?",
+      "choices": [
+        "A: Adhäsion zwischen Wasser und Röhrchenwand",
+        "B: Druckunterschiede im Wasser",
+        "C: Gewicht des Wassers",
+        "D: Temperatur des Wassers"
+      ],
+      "correct_answer": "A",
+      "explanation": "Kapillarität entsteht durch die Wechselwirkung zwischen den Molekülen des Wassers und der Oberfläche des Röhrchens. Die Adhäsion zwischen Wasser und Röhrchenwand führt dazu, dass das Wasser ansteigt, während die Kohäsion zwischen den Wassermolekülen den Aufstieg unterstützt.",
+      "difficulty": 3,
+      "subcategory": "Kapillarität"
+    }
+  ]
+}

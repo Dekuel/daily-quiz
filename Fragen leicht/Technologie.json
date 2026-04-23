@@ -1764,6 +1764,20 @@
       "correct_answer": "B",
       "explanation": "Twitter ist eine soziale Plattform, die es Nutzer:innen ermöglicht, kurze Nachrichten, sogenannte Tweets, zu posten und zu teilen. Im Gegensatz zu Facebook oder Instagram ist Twitter besonders für Echtzeit-Kommunikation und aktuelle Nachrichten bekannt.",
       "difficulty": 4
+    },
+    {
+      "category": "Technologie",
+      "topic": "Smartphones & Apps",
+      "question": "Welches Verfahren wird häufig zur Sicherung von Daten auf Smartphones verwendet, um unbefugten Zugriff zu verhindern?",
+      "choices": [
+        "A: End-to-End-Verschlüsselung",
+        "B: Passwort-Hashing",
+        "C: Public-Key-Infrastruktur",
+        "D: Verschlüsselung im Transit"
+      ],
+      "correct_answer": "A",
+      "explanation": "End-to-End-Verschlüsselung ist eine Methode, bei der Daten so verschlüsselt werden, dass nur die vorgesehenen Empfänger sie entschlüsseln können. Dies schützt die Daten während der Übertragung und im Ruhezustand auf dem Gerät. Passwort-Hashing und Public-Key-Infrastruktur sind zwar auch wichtige Sicherheitskonzepte, werden jedoch nicht spezifisch für die Verschlüsselung von Daten auf Smartphones verwendet.",
+      "difficulty": 7
     }
   ]
 }

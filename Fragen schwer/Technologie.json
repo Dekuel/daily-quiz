@@ -1904,6 +1904,20 @@
       "correct_answer": "B",
       "explanation": "HTTPS (Hypertext Transfer Protocol Secure) ist eine Erweiterung von HTTP und verwendet SSL/TLS, um Daten sicher zu übertragen, während die anderen Protokolle für verschiedene Funktionen wie Dateiübertragung (FTP) oder E-Mail (SMTP, IMAP) verwendet werden. Daher ist HTTPS entscheidend für den Schutz sensibler Informationen im Internet.",
       "difficulty": 9
+    },
+    {
+      "category": "Technologie",
+      "topic": "KI & Zukunftstechnologien",
+      "question": "Welcher der folgenden Algorithmen wird häufig zur Optimierung von Hyperparametern in maschinellen Lernmodellen verwendet?",
+      "choices": [
+        "A: Bayesian Optimization",
+        "B: Decision Tree",
+        "C: K-Means Clustering",
+        "D: Support Vector Machine"
+      ],
+      "correct_answer": "A",
+      "explanation": "Bayesian Optimization ist eine Methode zur effizienten Suche nach optimalen Hyperparametern in komplexen Modellen, während K-Means, SVMs und Entscheidungsbäume selbst keine Hyperparameter-Optimierungsalgorithmen sind, sondern Klassifikations- bzw. Clustering-Methoden darstellen.",
+      "difficulty": 10
     }
   ]
 }

@@ -1,0 +1,105 @@
+{
+  "date": "2026-04-23",
+  "generated_at": "2026-04-23T04:04:23Z",
+  "schema_version": 6,
+  "mode": "schwer",
+  "bundle_type": "daily",
+  "questions": [
+    {
+      "category": "Sprache",
+      "topic": "Fremdsprachen",
+      "question": "Welches der folgenden Wörter ist ein typisches Beispiel für eine sogenannte 'Falsche Freundin' im Englischen, d.h. ein Wort, das in beiden Sprachen ähnlich klingt, aber eine unterschiedliche Bedeutung hat?",
+      "choices": [
+        "A: Eventually",
+        "B: Actual",
+        "C: Library",
+        "D: Fabric"
+      ],
+      "correct_answer": "C",
+      "explanation": "'Library' bedeutet im Englischen 'Bibliothek', während es im Deutschen oft mit 'Bücherei' verwechselt wird. 'Actual' bedeutet 'tatsächlich', 'Fabric' steht für 'Stoff' und 'Eventually' bedeutet 'schließlich', was keine falschen Freunde sind.",
+      "difficulty": 9
+    },
+    {
+      "category": "Technologie",
+      "topic": "KI & Zukunftstechnologien",
+      "question": "Welcher der folgenden Algorithmen wird häufig zur Optimierung von Hyperparametern in maschinellen Lernmodellen verwendet?",
+      "choices": [
+        "A: Bayesian Optimization",
+        "B: Decision Tree",
+        "C: K-Means Clustering",
+        "D: Support Vector Machine"
+      ],
+      "correct_answer": "A",
+      "explanation": "Bayesian Optimization ist eine Methode zur effizienten Suche nach optimalen Hyperparametern in komplexen Modellen, während K-Means, SVMs und Entscheidungsbäume selbst keine Hyperparameter-Optimierungsalgorithmen sind, sondern Klassifikations- bzw. Clustering-Methoden darstellen.",
+      "difficulty": 10
+    },
+    {
+      "category": "Geographie",
+      "topic": "Klima, Biome & Naturregionen",
+      "question": "Welche der folgenden Aussagen beschreibt am besten die Auswirkungen der Verschiebung der Innertropischen Konvergenzzone (ITCZ) auf die Monsunwinde in Südostasien während des Sommermonsuns?",
+      "choices": [
+        "A: Die ITCZ bleibt das ganze Jahr über stabil und beeinflusst somit die Monsunwinde nicht erheblich.",
+        "B: Die Wanderung der ITCZ hat keinen Einfluss auf die Temperaturunterschiede, die die Monsunwinde steuern.",
+        "C: Die ITCZ verschiebt sich nach Süden und schwächt die Monsunwinde, wodurch die Regenfälle im Sommer reduziert werden.",
+        "D: Die ITCZ wandert nach Norden und führt zur Verstärkung der Monsunwinde aus dem Süden, was zu intensiven Regenfällen führt."
+      ],
+      "correct_answer": "D",
+      "explanation": "Während des Sommermonsuns verschiebt sich die ITCZ nach Norden, was die Monsunwinde aus dem südlichen Ozean verstärkt. Dies führt zu intensiven Regenfällen in vielen Regionen Südostasiens, was für die Landwirtschaft und Wasserversorgung entscheidend ist.",
+      "difficulty": 10
+    },
+    {
+      "category": "Politiker",
+      "discipline": "Ministerien (DE)",
+      "question": "Wer ist Bundesminister(in) für das Bundesministerium für Wirtschaft und Klimaschutz?",
+      "choices": [
+        "A: Annalena Baerbock",
+        "B: Olaf Scholz",
+        "C: Peter Altmaier",
+        "D: Helmut Schmidt"
+      ],
+      "correct_answer": "D",
+      "explanation": "Helmut Schmidt war ein deutscher Politiker und Mitglied der SPD. Er war bekannt für seine wirtschaftspolitischen Initiativen und hat das Ministerium in der Vergangenheit geleitet.",
+      "difficulty": 1
+    },
+    {
+      "category": "Sport",
+      "topic": "Fußball",
+      "question": "Welches Team hat die meisten Titel in der Geschichte der Serie A gewonnen?",
+      "choices": [
+        "A: Inter Mailand",
+        "B: AC Milan",
+        "C: Juventus",
+        "D: AS Rom"
+      ],
+      "correct_answer": "C",
+      "explanation": "Juventus ist der erfolgreichste Verein in der Geschichte der Serie A und hat die meisten Meisterschaften gewonnen. Dies spiegelt ihre Dominanz im italienischen Fußball wider, insbesondere in den letzten Jahrzehnten.",
+      "difficulty": 3
+    },
+    {
+      "question": "Welche finanzielle Leistung können getrennte Eltern für ihre Kinder beantragen, die monatlich gezahlt wird?",
+      "category": "Alltag & Gesellschaft",
+      "subcategory": "Scheidung & Sorgerecht",
+      "difficulty": 6,
+      "choices": [
+        "A: Elternzeitgeld",
+        "B: Unterhaltsvorschuss",
+        "C: Kinderfreibetrag",
+        "D: Kindergeld"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "question": "Welche maximale Einlagensicherung gilt in Deutschland pro Person und Bank für Guthaben in Euro?",
+      "category": "Wirtschaft & Finanzen",
+      "subcategory": "Einlagensicherung",
+      "difficulty": 8,
+      "choices": [
+        "A: 250.000 Euro",
+        "B: 50.000 Euro",
+        "C: 500.000 Euro",
+        "D: 100.000 Euro"
+      ],
+      "correct_answer": "A"
+    }
+  ]
+}
