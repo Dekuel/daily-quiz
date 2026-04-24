@@ -1,0 +1,169 @@
+{
+  "date": "2026-04-24",
+  "generated_at": "2026-04-24T04:08:02Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "χ^(2)-Phänomene (zweite Ordnung)",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt ein χ^(2)-Phänomen in der Optik?",
+      "choices": [
+        "A: χ^(2)-Phänomene sind nichtlineare optische Effekte, die in Materialien auftreten.",
+        "B: χ^(2)-Phänomene treten nur in Vakuum auf.",
+        "C: χ^(2)-Phänomene sind verantwortlich für die Reflexion von Licht an Oberflächen.",
+        "D: χ^(2)-Phänomene beziehen sich ausschließlich auf die Brechung von Licht."
+      ],
+      "correct_answer": "A",
+      "explanation": "χ^(2)-Phänomene sind nichtlineare optische Effekte, die in bestimmten Materialien auftreten, wenn sie einem starken elektrischen Feld ausgesetzt sind. Dazu zählen Prozesse wie Frequenzverdopplung und parametrische Amplifikation, die in vielen modernen optischen Anwendungen genutzt werden.",
+      "difficulty": 6,
+      "subcategory": "χ^(2)-Phänomene (zweite Ordnung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Relativität der Gleichzeitigkeit",
+      "question": "Welche Aussage beschreibt am besten das Konzept der Relativität der Gleichzeitigkeit in der speziellen Relativitätstheorie?",
+      "choices": [
+        "A: Zeit ist für alle Beobachter unabhängig von ihrer Relativgeschwindigkeit gleich.",
+        "B: Lichtgeschwindigkeit ist unabhängig von der Bewegung des Lichtquellen-Objekts.",
+        "C: Die Gleichzeitigkeit zweier Ereignisse hängt vom Bewegungszustand des Beobachters ab.",
+        "D: Zwei Ereignisse, die gleichzeitig in einem Inertialsystem stattfinden, sind auch in allen anderen Inertialsystemen gleichzeitig."
+      ],
+      "correct_answer": "C",
+      "explanation": "In der speziellen Relativitätstheorie ist die Gleichzeitigkeit relativ, was bedeutet, dass zwei Ereignisse, die in einem Inertialsystem gleichzeitig auftreten, in einem anderen System, das sich relativ dazu bewegt, nicht gleichzeitig erscheinen müssen. Dies ist ein zentrales Konzept, das die Wahrnehmung von Zeit und Raum beeinflusst.",
+      "difficulty": 10,
+      "subcategory": "Relativität der Gleichzeitigkeit"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Phasen (Definitionen, Beispiele)",
+      "question": "Welche der folgenden Phasen beschreibt einen festen Zustand der Materie?",
+      "choices": [
+        "A: Gasförmig",
+        "B: Plasma",
+        "C: Flüssig",
+        "D: Fest"
+      ],
+      "correct_answer": "D",
+      "explanation": "Die feste Phase (Fest) ist durch eine definierte Form und ein festes Volumen gekennzeichnet. In dieser Phase sind die Teilchen eng gepackt und können sich nur geringfügig bewegen, was zu einer stabilen Struktur führt.",
+      "difficulty": 1,
+      "subcategory": "Phasen (Definitionen, Beispiele)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "S- und T-Matrix",
+      "question": "Welche Aussage über die S-Matrix in der Quantenmechanik ist korrekt?",
+      "choices": [
+        "A: Die S-Matrix kann nicht zur Berechnung von Streuamplituden verwendet werden.",
+        "B: Die S-Matrix ist unabhängig von den Wechselwirkungen zwischen Teilchen.",
+        "C: Die S-Matrix ist nur für nicht-wechselwirkende Systeme definiert.",
+        "D: Die S-Matrix beschreibt die Übergänge zwischen quantenmechanischen Zuständen."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die S-Matrix, oder Streumatrix, ist ein zentrales Konzept in der Quantenmechanik, das die Übergänge zwischen verschiedenen quantenmechanischen Zuständen beschreibt. Sie ermöglicht die Berechnung von Streuamplituden, die wichtig für die Analyse von Wechselwirkungen zwischen Teilchen sind.",
+      "difficulty": 6,
+      "subcategory": "S- und T-Matrix"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Langer-Verfahren",
+      "question": "Welcher Aspekt des Langer-Verfahrens ist entscheidend für die Berechnung von Zustandsgrößen in der Quantenmechanik?",
+      "choices": [
+        "A: Die Verwendung von Erhaltungsgrößen zur Vereinfachung der Wellenfunktionen.",
+        "B: Die Anwendung klassischer Mechanik zur Vorhersage quantenmechanischer Effekte.",
+        "C: Die Analyse der Zeitentwicklung von quantenmechanischen Zuständen mithilfe der Schrödinger-Gleichung.",
+        "D: Die Berücksichtigung der Wechselwirkungen zwischen Teilchen in einer klassischen Perspektive."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Langer-Verfahren nutzt die Schrödinger-Gleichung zur Analyse der Zeitentwicklung von quantenmechanischen Zuständen, was essentiell für das Verständnis dynamischer Systeme in der Quantenmechanik ist. Die anderen Optionen beziehen sich zwar auf relevante Konzepte, sind jedoch nicht spezifisch für das Langer-Verfahren.",
+      "difficulty": 7,
+      "subcategory": "Langer-Verfahren"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Heisenberg-Bild & Poisson-Klammer (klass. Limit)",
+      "question": "Welche der folgenden Aussagen beschreibt am besten die Beziehung zwischen dem Heisenberg-Bild und der Poisson-Klammer im klassischen Limit?",
+      "choices": [
+        "A: Im Heisenberg-Bild entsprechen die Operatoren den klassischen Variablen, und die Poisson-Klammer beschreibt ihre zeitliche Entwicklung.",
+        "B: Die Poisson-Klammer ist im Heisenberg-Bild nicht definiert, da nur Operatoren betrachtet werden.",
+        "C: Das Heisenberg-Bild und die Poisson-Klammer sind völlig unabhängig voneinander und können nicht miteinander verglichen werden.",
+        "D: Im Heisenberg-Bild sind die Zustände konstant, während die Operatoren variieren, und die Poisson-Klammer ist irrelevant."
+      ],
+      "correct_answer": "A",
+      "explanation": "Im Heisenberg-Bild sind die physikalischen Größen durch Operatoren dargestellt, deren zeitliche Entwicklung durch die Poisson-Klammer in der klassischen Mechanik beschrieben werden kann. Diese Beziehung verdeutlicht, wie die Quantenmechanik in das klassische Limit übergeht.",
+      "difficulty": 8,
+      "subcategory": "Heisenberg-Bild & Poisson-Klammer (klass. Limit)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Gibb’sche Phasenregel",
+      "question": "Wie lautet die Gibb'sche Phasenregel zur Bestimmung der Anzahl der Freiheitsgrade in einem System?",
+      "choices": [
+        "A: F = C + P - 1",
+        "B: F = C - P + 2",
+        "C: F = C - P - 2",
+        "D: F = P + 2"
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Gibb'sche Phasenregel beschreibt die Beziehung zwischen der Anzahl der Freiheitsgrade (F), der Komponenten (C) und der Phasen (P) in einem thermodynamischen System. Die Formel F = C - P + 2 hilft dabei zu verstehen, wie viele intensive Variablen unabhängig variiert werden können, ohne dass sich die Anzahl der Phasen im System ändert.",
+      "difficulty": 4,
+      "subcategory": "Gibb’sche Phasenregel"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Allgemeine Betrachtung von Streuprozessen",
+      "question": "Was beschreibt der Begriff 'Streuwinkel' in einem Streuprozess?",
+      "choices": [
+        "A: Den Winkel, unter dem die Teilchen nach dem Zusammenstoß abgelenkt werden.",
+        "B: Den Winkel, unter dem die Wechselwirkungen zwischen Teilchen stattfinden.",
+        "C: Den maximalen Abstand zwischen den Teilchen vor dem Streuprozess.",
+        "D: Den Winkel, in dem die Ausgangsteilchen aufeinanderprallen."
+      ],
+      "correct_answer": "A",
+      "explanation": "Der Streuwinkel ist der Winkel, unter dem die Teilchen nach einem Zusammenstoß abgelenkt werden. Er ist entscheidend für die Analyse von Streuprozessen, da er Informationen über die Wechselwirkungen zwischen den Teilchen liefert.",
+      "difficulty": 6,
+      "subcategory": "Allgemeine Betrachtung von Streuprozessen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Phasenintegralquantisierung",
+      "question": "Was beschreibt das Phasenintegral in der Quantenmechanik?",
+      "choices": [
+        "A: Die Wahrscheinlichkeit für den Zerfall eines radioaktiven Elements.",
+        "B: Die quantisierte Energie eines Teilchens in einem Potentialtopf.",
+        "C: Die Temperaturabhängigkeit von Materialien.",
+        "D: Die Bewegungsgleichungen für klassische Systeme."
+      ],
+      "correct_answer": "B",
+      "explanation": "Das Phasenintegral beschreibt die quantisierte Energie eines Teilchens, das sich in einem bestimmten Potential befindet. Es ist ein zentrales Konzept in der Quantenmechanik, das die Bedingungen für stabilisierte Zustände definiert.",
+      "difficulty": 4,
+      "subcategory": "Phasenintegralquantisierung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Laminar: parallele Wände",
+      "question": "Was beschreibt die laminare Strömung zwischen parallelen Wänden?",
+      "choices": [
+        "A: Die Strömung hat keine definierte Richtung.",
+        "B: Die Strömung erfolgt nur in vertikaler Richtung.",
+        "C: Die Strömung ist turbulent und chaotisch.",
+        "D: Die Strömung ist gleichmäßig und schichtweise."
+      ],
+      "correct_answer": "D",
+      "explanation": "Bei laminaren Strömungen bewegen sich die Flüssigkeitsschichten parallel zueinander und es gibt nur geringe Wechselwirkungen zwischen ihnen. Diese Art der Strömung tritt häufig bei niedrigen Geschwindigkeiten und viskosen Flüssigkeiten auf.",
+      "difficulty": 4,
+      "subcategory": "Laminar: parallele Wände"
+    }
+  ]
+}

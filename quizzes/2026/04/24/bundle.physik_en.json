@@ -1,0 +1,168 @@
+{
+  "date": "2026-04-24",
+  "generated_at": "2026-04-24T04:08:42Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "χ^(2)-Phänomene (zweite Ordnung)",
+      "question": "Which of the following statements correctly describes a χ^(2) phenomenon in optics?",
+      "choices": [
+        "A: χ^(2) phenomena are nonlinear optical effects that occur in materials.",
+        "B: χ^(2) phenomena occur only in vacuum.",
+        "C: χ^(2) phenomena are responsible for the reflection of light on surfaces.",
+        "D: χ^(2) phenomena refer exclusively to the refraction of light."
+      ],
+      "correct_answer": "A",
+      "explanation": "χ^(2) phenomena are nonlinear optical effects that occur in certain materials when exposed to a strong electric field. These include processes such as frequency doubling and parametric amplification, which are used in many modern optical applications.",
+      "difficulty": 6,
+      "subcategory": "χ^(2)-Phänomene (zweite Ordnung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Relativität der Gleichzeitigkeit",
+      "question": "Which statement best describes the concept of the relativity of simultaneity in the special theory of relativity?",
+      "choices": [
+        "A: Time is the same for all observers regardless of their relative velocity.",
+        "B: The speed of light is independent of the motion of the light source object.",
+        "C: The simultaneity of two events depends on the observer's state of motion.",
+        "D: Two events that occur simultaneously in an inertial system are also simultaneous in all other inertial systems."
+      ],
+      "correct_answer": "C",
+      "explanation": "In the special theory of relativity, simultaneity is relative, meaning that two events that occur simultaneously in one inertial system may not appear simultaneous in another system moving relative to it. This is a central concept that influences the perception of time and space.",
+      "difficulty": 10,
+      "subcategory": "Relativität der Gleichzeitigkeit"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Phasen (Definitionen, Beispiele)",
+      "question": "Which of the following phases describes a solid state of matter?",
+      "choices": [
+        "A: Gaseous",
+        "B: Plasma",
+        "C: Liquid",
+        "D: Solid"
+      ],
+      "correct_answer": "D",
+      "explanation": "The solid phase (Solid) is characterized by a defined shape and a fixed volume. In this phase, the particles are closely packed and can only move slightly, leading to a stable structure.",
+      "difficulty": 1,
+      "subcategory": "Phasen (Definitionen, Beispiele)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "S- und T-Matrix",
+      "question": "Which statement about the S-matrix in quantum mechanics is correct?",
+      "choices": [
+        "A: The S-matrix cannot be used to calculate scattering amplitudes.",
+        "B: The S-matrix is independent of interactions between particles.",
+        "C: The S-matrix is defined only for non-interacting systems.",
+        "D: The S-matrix describes transitions between quantum states."
+      ],
+      "correct_answer": "D",
+      "explanation": "The S-matrix, or scattering matrix, is a central concept in quantum mechanics that describes transitions between different quantum states. It enables the calculation of scattering amplitudes, which are important for analyzing interactions between particles.",
+      "difficulty": 6,
+      "subcategory": "S- und T-Matrix"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Langer-Verfahren",
+      "question": "Which aspect of the Langer procedure is crucial for calculating state quantities in quantum mechanics?",
+      "choices": [
+        "A: Using conservation laws to simplify wave functions.",
+        "B: Applying classical mechanics to predict quantum effects.",
+        "C: Analyzing the time evolution of quantum states using the Schrödinger equation.",
+        "D: Considering interactions between particles from a classical perspective."
+      ],
+      "correct_answer": "C",
+      "explanation": "The Langer procedure uses the Schrödinger equation to analyze the time evolution of quantum states, which is essential for understanding dynamic systems in quantum mechanics. While the other options refer to relevant concepts, they are not specific to the Langer procedure.",
+      "difficulty": 7,
+      "subcategory": "Langer-Verfahren"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Heisenberg-Bild & Poisson-Klammer (klass. Limit)",
+      "question": "Which of the following statements best describes the relationship between the Heisenberg picture and the Poisson bracket in the classical limit?",
+      "choices": [
+        "A: In the Heisenberg picture, operators correspond to classical variables, and the Poisson bracket describes their time evolution.",
+        "B: The Poisson bracket is not defined in the Heisenberg picture, as only operators are considered.",
+        "C: The Heisenberg picture and the Poisson bracket are completely independent and cannot be compared.",
+        "D: In the Heisenberg picture, states are constant while operators vary, and the Poisson bracket is irrelevant."
+      ],
+      "correct_answer": "A",
+      "explanation": "In the Heisenberg picture, physical quantities are represented by operators whose time evolution can be described by the Poisson bracket in classical mechanics. This relationship illustrates how quantum mechanics transitions to the classical limit.",
+      "difficulty": 8,
+      "subcategory": "Heisenberg-Bild & Poisson-Klammer (klass. Limit)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Gibb’sche Phasenregel",
+      "question": "What is Gibbs' phase rule for determining the number of degrees of freedom in a system?",
+      "choices": [
+        "A: F = C + P - 1",
+        "B: F = C - P + 2",
+        "C: F = C - P - 2",
+        "D: F = P + 2"
+      ],
+      "correct_answer": "B",
+      "explanation": "Gibbs' phase rule describes the relationship between the number of degrees of freedom (F), components (C), and phases (P) in a thermodynamic system. The formula F = C - P + 2 helps understand how many intensive variables can vary independently without changing the number of phases in the system.",
+      "difficulty": 4,
+      "subcategory": "Gibb’sche Phasenregel"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Allgemeine Betrachtung von Streuprozessen",
+      "question": "What does the term 'scattering angle' describe in a scattering process?",
+      "choices": [
+        "A: The angle at which particles are deflected after the collision.",
+        "B: The angle at which interactions between particles occur.",
+        "C: The maximum distance between particles before the scattering process.",
+        "D: The angle at which the initial particles collide."
+      ],
+      "correct_answer": "A",
+      "explanation": "The scattering angle is the angle at which particles are deflected after a collision. It is crucial for analyzing scattering processes as it provides information about the interactions between the particles.",
+      "difficulty": 6,
+      "subcategory": "Allgemeine Betrachtung von Streuprozessen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Phasenintegralquantisierung",
+      "question": "What does the phase integral describe in quantum mechanics?",
+      "choices": [
+        "A: The probability of decay of a radioactive element.",
+        "B: The quantized energy of a particle in a potential well.",
+        "C: The temperature dependence of materials.",
+        "D: The motion equations for classical systems."
+      ],
+      "correct_answer": "B",
+      "explanation": "The phase integral describes the quantized energy of a particle located in a specific potential. It is a central concept in quantum mechanics that defines the conditions for stabilized states.",
+      "difficulty": 4,
+      "subcategory": "Phasenintegralquantisierung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Laminar: parallele Wände",
+      "question": "What does laminar flow between parallel walls describe?",
+      "choices": [
+        "A: The flow has no defined direction.",
+        "B: The flow occurs only in the vertical direction.",
+        "C: The flow is turbulent and chaotic.",
+        "D: The flow is uniform and layered."
+      ],
+      "correct_answer": "D",
+      "explanation": "In laminar flows, the fluid layers move parallel to each other with minimal interactions between them. This type of flow often occurs at low velocities and with viscous fluids.",
+      "difficulty": 4,
+      "subcategory": "Laminar: parallele Wände"
+    }
+  ]
+}
