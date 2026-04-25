@@ -1932,6 +1932,20 @@
       "correct_answer": "B",
       "explanation": "Kotlin ist die von Google empfohlene Programmiersprache für die Android-Entwicklung und bietet viele moderne Funktionen. Während Java früher die Hauptsprache war, hat Kotlin in den letzten Jahren zunehmend an Bedeutung gewonnen. Swift hingegen ist für die iOS-Entwicklung zuständig, was häufig zu Verwechslungen führt.",
       "difficulty": 10
+    },
+    {
+      "category": "Technologie",
+      "topic": "Computer & Internet",
+      "question": "Welches Protokoll wird häufig verwendet, um sicherzustellen, dass Datenpakete in der richtigen Reihenfolge und ohne Fehler zwischen einem Client und einem Server übertragen werden?",
+      "choices": [
+        "A: FTP",
+        "B: HTTP",
+        "C: TCP",
+        "D: ICMP"
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Transmission Control Protocol (TCP) sorgt für eine zuverlässige und geordnete Übertragung von Datenpaketen zwischen kommunizierenden Geräten. HTTP und FTP nutzen TCP als zugrunde liegendes Protokoll, während ICMP für Fehlerdiagnosen und Netzwerkanalysen verwendet wird, jedoch keine garantierte Datenübertragung bietet.",
+      "difficulty": 10
     }
   ]
 }

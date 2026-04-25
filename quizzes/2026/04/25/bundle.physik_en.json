@@ -1,0 +1,168 @@
+{
+  "date": "2026-04-25",
+  "generated_at": "2026-04-25T04:01:11Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Ionisations- & Penning-Vakuummeter",
+      "question": "What does an ionization vacuum gauge measure?",
+      "choices": [
+        "A: The temperature of a gas",
+        "B: The pressure in a vacuum",
+        "C: The intensity of light",
+        "D: The electrical conductivity of materials"
+      ],
+      "correct_answer": "B",
+      "explanation": "An ionization vacuum gauge measures the pressure in a vacuum by generating ions and analyzing the resulting electrical currents. It is commonly used in high vacuum applications to perform precise pressure measurements.",
+      "difficulty": 2,
+      "subcategory": "Ionisations- & Penning-Vakuummeter"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Noether-Idee: Homogenität der Zeit ⇒ Energieerhaltung",
+      "question": "What does the Noether idea state regarding the homogeneity of time?",
+      "choices": [
+        "A: Matter cannot be created or destroyed.",
+        "B: The speed of light is constant.",
+        "C: Energy is conserved in a closed system.",
+        "D: Forces are always equal and opposite."
+      ],
+      "correct_answer": "C",
+      "explanation": "The Noether idea states that the homogeneity of time, meaning the independence of physical laws from time, leads to the conservation of energy. This implies that in a closed system, the total energy remains constant as long as no external influences are at play.",
+      "difficulty": 3,
+      "subcategory": "Noether-Idee: Homogenität der Zeit ⇒ Energieerhaltung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Idealer Paramagnet (Brillouin/Langevin-Idee)",
+      "question": "What describes the behavior of an ideal paramagnet at low temperatures?",
+      "choices": [
+        "A: The paramagnet becomes a ferromagnet.",
+        "B: The magnetic moments align parallel to the external magnetic field.",
+        "C: There is no interaction between the magnetic moments.",
+        "D: The magnetic moments are independent of the magnetic field."
+      ],
+      "correct_answer": "B",
+      "explanation": "At low temperatures, the magnetic moments of an ideal paramagnet align parallel to the external magnetic field, resulting in magnetization. This alignment occurs due to the energetic preference for the parallel arrangement in the magnetic field.",
+      "difficulty": 2,
+      "subcategory": "Idealer Paramagnet (Brillouin/Langevin-Idee)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Einfache Kristallgitter (sc, bcc, fcc)",
+      "question": "Which of the following crystal lattices has the highest packing density?",
+      "choices": [
+        "A: Body-Centered Cubic (bcc)",
+        "B: Face-Centered Cubic (fcc)",
+        "C: Hexagonal Close-Packed (hcp)",
+        "D: Simple Cubic (sc)"
+      ],
+      "correct_answer": "B",
+      "explanation": "The face-centered cubic (fcc) lattice has a packing density of about 74%, making it one of the most efficient arrangements for atoms in a solid. In comparison, the body-centered cubic (bcc) and simple cubic (sc) lattices have lower packing densities.",
+      "difficulty": 5,
+      "subcategory": "Einfache Kristallgitter (sc, bcc, fcc)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Eigenschaften von Photonen",
+      "question": "Which of the following features describes a photon as a massless particle?",
+      "choices": [
+        "A: Photons always move at the speed of light in a vacuum.",
+        "B: Photons have a constant energy.",
+        "C: Photons can exist in stationary matter objects.",
+        "D: Photons are always bundled in discrete energy units."
+      ],
+      "correct_answer": "A",
+      "explanation": "Photons are massless particles that always move at the speed of light in a vacuum. While their energy is quantized, their speed remains constant as long as they are in a vacuum.",
+      "difficulty": 8,
+      "subcategory": "Eigenschaften von Photonen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Erreichbarer Enddruck",
+      "question": "What happens to the final pressure in a closed system when the temperature is increased?",
+      "choices": [
+        "A: The final pressure decreases.",
+        "B: The final pressure remains constant.",
+        "C: The final pressure increases.",
+        "D: The final pressure is independent of temperature."
+      ],
+      "correct_answer": "C",
+      "explanation": "In a closed system, an increase in temperature according to the ideal gas law leads to a rise in pressure as molecules have more energy and collide more frequently with the container walls. Therefore, the correct answer is A.",
+      "difficulty": 5,
+      "subcategory": "Erreichbarer Enddruck"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Transformationsmatrix der Lorentz-Transformation",
+      "question": "Which form of Lorentz transformation describes the relationship between the coordinates of two inertial systems moving at constant velocity relative to each other?",
+      "choices": [
+        "A: x' = (x + vt) / γ",
+        "B: x' = (x - vt) / γ",
+        "C: x' = x + vt",
+        "D: x' = γ(x - vt)"
+      ],
+      "correct_answer": "D",
+      "explanation": "The Lorentz transformation describes how the space and time coordinates of an event are converted between two inertial systems moving at relativistic speeds. The correct form is x' = γ(x - vt), where γ is the Lorentz factor that accounts for time dilation and length contraction.",
+      "difficulty": 6,
+      "subcategory": "Transformationsmatrix der Lorentz-Transformation"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "s-Streuung am Potentialtopf",
+      "question": "What does s-scattering at the potential well describe in quantum mechanics?",
+      "choices": [
+        "A: Time dilation at relativistic speeds.",
+        "B: The probability of a particle tunneling through the potential well.",
+        "C: The temperature dependence of particle movements.",
+        "D: The energy of a particle in an accelerated reference frame."
+      ],
+      "correct_answer": "B",
+      "explanation": "S-scattering at the potential well describes how a particle can tunnel through the potential well with a certain probability. This phenomenon is a central concept of quantum mechanics, illustrating the non-intuitive nature of particles and their interactions.",
+      "difficulty": 5,
+      "subcategory": "s-Streuung am Potentialtopf"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Absolute thermodynamische Temperaturskala",
+      "question": "What is the absolute temperature in Kelvin when the value is 0 °C on the Celsius scale?",
+      "choices": [
+        "A: 0 K",
+        "B: 100 K",
+        "C: 273.15 K",
+        "D: 32 K"
+      ],
+      "correct_answer": "C",
+      "explanation": "The absolute temperature in Kelvin is determined by converting Celsius to Kelvin by adding 273.15 to the Celsius value. Thus, 0 °C corresponds exactly to 273.15 K on the absolute temperature scale.",
+      "difficulty": 5,
+      "subcategory": "Absolute thermodynamische Temperaturskala"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Tiefinelastische Neutrinostreuung",
+      "question": "What is the main goal of deep inelastic neutrino scattering in experimental particle physics?",
+      "choices": [
+        "A: Investigating the interactions between neutrinos and quarks",
+        "B: Determining the electric charge of neutrinos",
+        "C: Measuring the mass of neutrinos",
+        "D: Analyzing the neutrino background radiation"
+      ],
+      "correct_answer": "A",
+      "explanation": "Deep inelastic neutrino scattering is used to investigate the interactions between neutrinos and the quarks within protons and neutrons. These experiments help us better understand the structure of matter at the subatomic level and explore the properties of neutrinos.",
+      "difficulty": 8,
+      "subcategory": "Tiefinelastische Neutrinostreuung"
+    }
+  ]
+}

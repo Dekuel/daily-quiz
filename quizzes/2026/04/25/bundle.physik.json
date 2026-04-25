@@ -1,0 +1,169 @@
+{
+  "date": "2026-04-25",
+  "generated_at": "2026-04-25T04:00:31Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Ionisations- & Penning-Vakuummeter",
+      "question": "Was misst ein Ionisations-Vakuummeter?",
+      "choices": [
+        "A: Die Temperatur eines Gases",
+        "B: Den Druck in einem Vakuum",
+        "C: Die Lichtintensität",
+        "D: Die elektrische Leitfähigkeit von Materialien"
+      ],
+      "correct_answer": "B",
+      "explanation": "Ein Ionisations-Vakuummeter misst den Druck in einem Vakuum, indem es Ionen erzeugt und die resultierenden elektrischen Ströme analysiert. Es wird häufig in Hochvakuumanwendungen eingesetzt, um präzise Druckmessungen durchzuführen.",
+      "difficulty": 2,
+      "subcategory": "Ionisations- & Penning-Vakuummeter"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Noether-Idee: Homogenität der Zeit ⇒ Energieerhaltung",
+      "question": "Was besagt die Noether-Idee in Bezug auf die Homogenität der Zeit?",
+      "choices": [
+        "A: Materie kann nicht erschaffen oder vernichtet werden.",
+        "B: Die Geschwindigkeit von Licht ist konstant.",
+        "C: Energie bleibt in einem geschlossenen System erhalten.",
+        "D: Kräfte sind immer gleich groß und entgegengesetzt."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Noether-Idee besagt, dass die Homogenität der Zeit, also die Unabhängigkeit der physikalischen Gesetze von der Zeit, zur Erhaltung der Energie führt. Dies bedeutet, dass in einem geschlossenen System die gesamte Energie konstant bleibt, solange keine äußeren Einflüsse wirken.",
+      "difficulty": 3,
+      "subcategory": "Noether-Idee: Homogenität der Zeit ⇒ Energieerhaltung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Idealer Paramagnet (Brillouin/Langevin-Idee)",
+      "question": "Was beschreibt das Verhalten eines idealen Paramagneten bei niedrigen Temperaturen?",
+      "choices": [
+        "A: Der Paramagnet wird zu einem Ferromagneten.",
+        "B: Die magnetischen Momente richten sich parallel zum externen Magnetfeld aus.",
+        "C: Es gibt keine Wechselwirkung zwischen den magnetischen Momenten.",
+        "D: Die magnetischen Momente sind unabhängig vom Magnetfeld."
+      ],
+      "correct_answer": "B",
+      "explanation": "Bei niedrigen Temperaturen richten sich die magnetischen Momente eines idealen Paramagneten parallel zum externen Magnetfeld aus, was zu einer Magnetisierung führt. Diese Ausrichtung geschieht aufgrund der energetischen Bevorzugung der parallelen Anordnung im Magnetfeld.",
+      "difficulty": 2,
+      "subcategory": "Idealer Paramagnet (Brillouin/Langevin-Idee)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Einfache Kristallgitter (sc, bcc, fcc)",
+      "question": "Welches der folgenden Kristallgitter hat die höchste Packungsdichte?",
+      "choices": [
+        "A: Body-Centered Cubic (bcc)",
+        "B: Face-Centered Cubic (fcc)",
+        "C: Hexagonal Close-Packed (hcp)",
+        "D: Simple Cubic (sc)"
+      ],
+      "correct_answer": "B",
+      "explanation": "Das Face-Centered Cubic (fcc) Gitter hat eine Packungsdichte von etwa 74%, was es zu einer der effizientesten Anordnungen für Atome in einem Festkörper macht. Im Vergleich dazu haben das Body-Centered Cubic (bcc) und das Simple Cubic (sc) Gitter niedrigere Packungsdichten.",
+      "difficulty": 5,
+      "subcategory": "Einfache Kristallgitter (sc, bcc, fcc)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Eigenschaften von Photonen",
+      "question": "Welches der folgenden Merkmale beschreibt ein Photon als masseloses Teilchen?",
+      "choices": [
+        "A: Photonen bewegen sich immer mit Lichtgeschwindigkeit im Vakuum.",
+        "B: Photonen haben eine immer konstante Energie.",
+        "C: Photonen können in ruhenden Materie-Objekten existieren.",
+        "D: Photonen sind immer gebündelt in diskreten Energieeinheiten."
+      ],
+      "correct_answer": "A",
+      "explanation": "Photonen sind masselose Teilchen, die sich im Vakuum stets mit Lichtgeschwindigkeit bewegen. Ihre Energie ist zwar quantisiert, aber ihre Geschwindigkeit bleibt konstant, solange sie sich im Vakuum befinden.",
+      "difficulty": 8,
+      "subcategory": "Eigenschaften von Photonen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Erreichbarer Enddruck",
+      "question": "Was passiert mit dem Enddruck in einem geschlossenen System, wenn die Temperatur erhöht wird?",
+      "choices": [
+        "A: Der Enddruck sinkt.",
+        "B: Der Enddruck bleibt konstant.",
+        "C: Der Enddruck steigt.",
+        "D: Der Enddruck ist unabhängig von der Temperatur."
+      ],
+      "correct_answer": "C",
+      "explanation": "In einem geschlossenen System führt eine Erhöhung der Temperatur gemäß dem idealen Gasgesetz zu einem Anstieg des Drucks, da die Moleküle mehr Energie haben und häufiger mit den Wänden des Behälters kollidieren. Daher ist die richtige Antwort A.",
+      "difficulty": 5,
+      "subcategory": "Erreichbarer Enddruck"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Transformationsmatrix der Lorentz-Transformation",
+      "question": "Welche Form der Lorentz-Transformation beschreibt die Beziehung zwischen den Koordinaten zweier Inertialsysteme, die sich mit konstanter Geschwindigkeit relativ zueinander bewegen?",
+      "choices": [
+        "A: x' = (x + vt) / γ",
+        "B: x' = (x - vt) / γ",
+        "C: x' = x + vt",
+        "D: x' = γ(x - vt)"
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Lorentz-Transformation beschreibt, wie die Raum- und Zeitkoordinaten eines Ereignisses zwischen zwei Inertialsystemen mit relativistischer Geschwindigkeit umgerechnet werden. Die korrekte Form ist x' = γ(x - vt), wobei γ der Lorentz-Faktor ist, der die Zeitdilatation und Längenkontraktion berücksichtigt.",
+      "difficulty": 6,
+      "subcategory": "Transformationsmatrix der Lorentz-Transformation"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "s-Streuung am Potentialtopf",
+      "question": "Was beschreibt die s-Streuung am Potentialtopf in der Quantenmechanik?",
+      "choices": [
+        "A: Die Zeitdilatation bei relativistischen Geschwindigkeiten.",
+        "B: Die Wahrscheinlichkeit, dass ein Teilchen durch den Potentialtopf hindurch tunnelt.",
+        "C: Die Temperaturabhängigkeit von Teilchenbewegungen.",
+        "D: Die Energie eines Teilchens in einem beschleunigten Bezugssystem."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die s-Streuung am Potentialtopf beschreibt, wie ein Teilchen mit einer bestimmten Wahrscheinlichkeit durch den Potentialtopf hindurch tunneln kann. Dieses Phänomen ist ein zentrales Konzept der Quantenmechanik, das die nicht-intuitive Natur von Teilchen und deren Wechselwirkungen illustriert.",
+      "difficulty": 5,
+      "subcategory": "s-Streuung am Potentialtopf"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Absolute thermodynamische Temperaturskala",
+      "question": "Was ist die absolute Temperatur in Kelvin, wenn der Wert 0 °C auf der Celsius-Skala ist?",
+      "choices": [
+        "A: 0 K",
+        "B: 100 K",
+        "C: 273,15 K",
+        "D: 32 K"
+      ],
+      "correct_answer": "C",
+      "explanation": "Die absolute Temperatur in Kelvin wird durch die Umrechnung von Celsius in Kelvin bestimmt, indem 273,15 zu dem Celsius-Wert addiert wird. Somit entspricht 0 °C genau 273,15 K auf der absoluten Temperaturskala.",
+      "difficulty": 5,
+      "subcategory": "Absolute thermodynamische Temperaturskala"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Tiefinelastische Neutrinostreuung",
+      "question": "Was ist das Hauptziel der tiefinelastischen Neutrinostreuung in der experimentellen Teilchenphysik?",
+      "choices": [
+        "A: Untersuchung der Wechselwirkungen zwischen Neutrinos und Quarks",
+        "B: Bestimmung der elektrischen Ladung des Neutrinos",
+        "C: Messung der Masse des Neutrinos",
+        "D: Analyse der Neutrino-Hintergrundstrahlung"
+      ],
+      "correct_answer": "A",
+      "explanation": "Die tiefinelastische Neutrinostreuung wird verwendet, um die Wechselwirkungen zwischen Neutrinos und den Quarks innerhalb von Protonen und Neutronen zu untersuchen. Diese Experimente helfen uns, die Struktur der Materie auf subatomarer Ebene besser zu verstehen und die Eigenschaften von Neutrinos zu erforschen.",
+      "difficulty": 8,
+      "subcategory": "Tiefinelastische Neutrinostreuung"
+    }
+  ]
+}
