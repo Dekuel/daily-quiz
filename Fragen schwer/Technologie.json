@@ -1946,6 +1946,20 @@
       "correct_answer": "C",
       "explanation": "Das Transmission Control Protocol (TCP) sorgt für eine zuverlässige und geordnete Übertragung von Datenpaketen zwischen kommunizierenden Geräten. HTTP und FTP nutzen TCP als zugrunde liegendes Protokoll, während ICMP für Fehlerdiagnosen und Netzwerkanalysen verwendet wird, jedoch keine garantierte Datenübertragung bietet.",
       "difficulty": 10
+    },
+    {
+      "category": "Technologie",
+      "topic": "KI & Zukunftstechnologien",
+      "question": "Welche Technik ermöglicht es neuronalen Netzen, durch Rückpropagation ihre Gewichtungen zu optimieren?",
+      "choices": [
+        "A: Gradient Descent",
+        "B: Monte Carlo Simulation",
+        "C: Support Vector Machines",
+        "D: K-means Clustering"
+      ],
+      "correct_answer": "A",
+      "explanation": "Gradient Descent ist ein Optimierungsverfahren, das in neuronalen Netzen verwendet wird, um die Fehler zu minimieren und die Gewichtungen anzupassen. Im Gegensatz dazu sind die anderen Optionen unterschiedliche Methoden oder Algorithmen, die nicht zur direkten Optimierung von neuronalen Netzen verwendet werden. Ein Verständnis dieser Konzepte ist entscheidend für die Entwicklung effektiver KI-Modelle.",
+      "difficulty": 9
     }
   ]
 }

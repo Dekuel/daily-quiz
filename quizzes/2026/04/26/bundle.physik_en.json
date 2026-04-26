@@ -1,0 +1,168 @@
+{
+  "date": "2026-04-26",
+  "generated_at": "2026-04-26T04:12:23Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Identische Teilchen: Ununterscheidbarkeit",
+      "question": "What describes the concept of indistinguishability of identical particles in quantum mechanics?",
+      "choices": [
+        "A: Identical particles cannot occupy the same space.",
+        "B: Identical particles cannot be considered distinguishable from each other.",
+        "C: Identical particles can always be arbitrarily distinguished.",
+        "D: Identical particles always have the same mass."
+      ],
+      "correct_answer": "B",
+      "explanation": "In quantum mechanics, the principle of indistinguishability of identical particles is fundamental. It states that two identical particles cannot be distinguished by their properties, leading to specific statistical distributions.",
+      "difficulty": 3,
+      "subcategory": "Identische Teilchen: Ununterscheidbarkeit"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "β‑Zerfall (β±, EC)",
+      "question": "Which of the following statements about β+-decay is correct?",
+      "choices": [
+        "A: β+-decay is a form of spontaneous nuclear fission.",
+        "B: β+-decay always leads to an increase in the mass number of the atomic nucleus.",
+        "C: β+-decay only occurs in unstable isotopes of heavy elements.",
+        "D: In β+-decay, a positron and a neutrino are emitted."
+      ],
+      "correct_answer": "D",
+      "explanation": "In β+-decay, a proton transforms into a neutron, emitting a positron and an electron neutrino. This results in a decrease in the number of protons and thus an increase in the mass number by 1, not by 2 as implied in the incorrect answers.",
+      "difficulty": 8,
+      "subcategory": "β‑Zerfall (β±, EC)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Geschl. System bei konstanten Kräften: Minimum der Enthalpie H",
+      "question": "What describes the minimum of enthalpy H in a closed system under constant forces?",
+      "choices": [
+        "A: It is the state with the lowest energy.",
+        "B: It is the state where the pressure remains constant.",
+        "C: It is the state with the highest entropy.",
+        "D: It is the state with the highest temperature."
+      ],
+      "correct_answer": "A",
+      "explanation": "The minimum of enthalpy H in a closed system indicates the energetically most favorable state. This is the state in which the system requires the least amount of energy to be stable, which is significant in many physical processes.",
+      "difficulty": 2,
+      "subcategory": "Geschl. System bei konstanten Kräften: Minimum der Enthalpie H"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Energie und Impuls von Licht",
+      "question": "Which photon has the highest energy?",
+      "choices": [
+        "A: A green photon",
+        "B: A blue photon",
+        "C: A red photon",
+        "D: An ultraviolet photon"
+      ],
+      "correct_answer": "D",
+      "explanation": "The energy of a photon depends on its frequency. Ultraviolet light has a higher frequency than visible light and therefore more energy.",
+      "difficulty": 1,
+      "subcategory": "Energie und Impuls von Licht"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Periodische Systeme & Winkelvariable",
+      "question": "Which of the following statements correctly describes the relationship between the angular velocity and the period of a harmonic oscillator?",
+      "choices": [
+        "A: The angular velocity is the reciprocal of the period.",
+        "B: The period is the reciprocal of the angular velocity.",
+        "C: The period and the angular velocity are equal.",
+        "D: The angular velocity is independent of the period."
+      ],
+      "correct_answer": "B",
+      "explanation": "The period of a harmonic oscillator is the time required for a complete oscillation, while the angular velocity describes how quickly the oscillator moves. They are inversely related: the period is the reciprocal of the angular velocity.",
+      "difficulty": 7,
+      "subcategory": "Periodische Systeme & Winkelvariable"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Absorption von Licht",
+      "question": "Which statement best describes the concept of light absorption?",
+      "choices": [
+        "A: Light is completely reflected by a material.",
+        "B: Light is always amplified in a material.",
+        "C: Light penetrates all materials without change.",
+        "D: Light is converted into heat by a material."
+      ],
+      "correct_answer": "D",
+      "explanation": "Light absorption refers to the process where light energy is absorbed by a material and often converted into heat. This explains why certain materials become warm when exposed to light.",
+      "difficulty": 5,
+      "subcategory": "Absorption von Licht"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Wärmeleitfähigkeit amorpher Festkörper",
+      "question": "Which statement about the thermal conductivity of amorphous solids is correct?",
+      "choices": [
+        "A: Amorphous solids generally have higher thermal conductivity than crystalline solids.",
+        "B: The thermal conductivity of amorphous solids is highly dependent on temperature.",
+        "C: Amorphous solids mainly conduct heat through phononic transport mechanisms.",
+        "D: Amorphous solids have an isotropic thermal conductivity that is independent of direction."
+      ],
+      "correct_answer": "B",
+      "explanation": "The thermal conductivity of amorphous solids is indeed strongly temperature-dependent, as the irregular structure influences the mobility of heat transfer mechanisms. In contrast, crystalline solids have a more stable thermal conductivity at constant temperatures.",
+      "difficulty": 7,
+      "subcategory": "Wärmeleitfähigkeit amorpher Festkörper"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Skalenbrechung (Scaling Violation)",
+      "question": "Which statement best describes the concept of scale breaking in particle physics?",
+      "choices": [
+        "A: Scale breaking describes the dependence of interactions on the energy of the process.",
+        "B: Scale breaking is a phenomenon that only occurs in large particles like atoms.",
+        "C: Scale breaking describes the differentiation between different types of elementary particles.",
+        "D: Scale breaking refers to the stability of atomic nuclei under external pressure."
+      ],
+      "correct_answer": "A",
+      "explanation": "Scale breaking in particle physics refers to the fact that the interactions between particles depend on the energy of the process. This leads to theoretical predictions not always matching experimental results, especially at higher energies.",
+      "difficulty": 6,
+      "subcategory": "Skalenbrechung (Scaling Violation)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Makroskopische Feldgrößen (D, E, P)",
+      "question": "Which of the following statements correctly describes the relationship between the electric field E and the electric flux density D in a dielectric medium?",
+      "choices": [
+        "A: D = E²",
+        "B: D = E/ε₀",
+        "C: D = ε₀E + P",
+        "D: D = E * ε"
+      ],
+      "correct_answer": "C",
+      "explanation": "The relationship between the electric flux density D and the electric field E in a dielectric medium is described by the equation D = ε₀E + P, where P is the polarization of the medium. This equation shows that the flux density depends on both the electric field strength and the polarization.",
+      "difficulty": 7,
+      "subcategory": "Makroskopische Feldgrößen (D, E, P)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Coulomb-Potential (Wasserstoffatom): Energiespektrum",
+      "question": "What value for the energy of an electron in the ground state of a hydrogen atom results from the Coulomb potential?",
+      "choices": [
+        "A: -3.4 eV",
+        "B: -13.6 eV",
+        "C: 0 eV",
+        "D: 13.6 eV"
+      ],
+      "correct_answer": "B",
+      "explanation": "In the hydrogen atom, the energy of the electron in the ground state is -13.6 eV, resulting from the solution of the Schrödinger equation for the Coulomb potential. This negative energy indicates that the electron is bound and requires energy to leave the atom.",
+      "difficulty": 7,
+      "subcategory": "Coulomb-Potential (Wasserstoffatom): Energiespektrum"
+    }
+  ]
+}
