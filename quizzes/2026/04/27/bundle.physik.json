@@ -1,0 +1,169 @@
+{
+  "date": "2026-04-27",
+  "generated_at": "2026-04-27T04:16:18Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Lorentz-Kraft in Vierervektorform",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt die Lorentz-Kraft in Vierervektorform?",
+      "choices": [
+        "A: Die Lorentz-Kraft ist der Vektor, der die Änderung der Impulsdichte eines Ladungsfeldes beschreibt.",
+        "B: Die Lorentz-Kraft ist unabhängig von der Geschwindigkeit der Ladung und wirkt immer gleich.",
+        "C: Die Lorentz-Kraft kann als Ableitung des Vierervektors der elektrischen und magnetischen Felder in der speziellen Relativitätstheorie dargestellt werden.",
+        "D: Die Lorentz-Kraft wirkt nur auf ruhende Ladungen und hat keinen Einfluss auf bewegte Ladungen."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Lorentz-Kraft in Vierervektorform beschreibt die Wechselwirkung von elektrischen und magnetischen Feldern mit bewegten Ladungen unter Berücksichtigung relativistischer Effekte. Sie zeigt, dass die Kraft von der Geschwindigkeit der Ladung abhängt und die relativistische Transformation der Felder berücksichtigt.",
+      "difficulty": 6,
+      "subcategory": "Lorentz-Kraft in Vierervektorform"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Schalenmodell",
+      "question": "Wie viele Elektronen passen maximal in die erste Schale eines Atoms?",
+      "choices": [
+        "A: 2",
+        "B: 18",
+        "C: 8",
+        "D: 32"
+      ],
+      "correct_answer": "A",
+      "explanation": "Die erste Schale eines Atoms kann maximal 2 Elektronen aufnehmen. Dies folgt aus der Formeln 2n², wobei n die Schalenanzahl ist. Daher ist die maximale Anzahl für die erste Schale 2 (2*1²).",
+      "difficulty": 4,
+      "subcategory": "Schalenmodell"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "α‑Zerfall",
+      "question": "Welches der folgenden Teilchen wird bei einem α-Zerfall ausgesendet?",
+      "choices": [
+        "A: Heliumkern (α-Teilchen)",
+        "B: Proton",
+        "C: Elektron",
+        "D: Neutron"
+      ],
+      "correct_answer": "A",
+      "explanation": "Beim α-Zerfall emittiert ein instabiler Atomkern ein α-Teilchen, das aus zwei Protonen und zwei Neutronen besteht. Dieses α-Teilchen wird oft als Heliumkern bezeichnet und führt zu einer Änderung der Atomnummer des ursprünglichen Kerns.",
+      "difficulty": 9,
+      "subcategory": "α‑Zerfall"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Kanonische Transformationen (Motivation)",
+      "question": "Was ist der Hauptvorteil von kanonischen Transformationen in der analytischen Mechanik?",
+      "choices": [
+        "A: Sie beschleunigen die Berechnung von Kräften.",
+        "B: Sie ermöglichen die Verwendung von Relativitätstheorie.",
+        "C: Sie sind nur für quantenmechanische Systeme relevant.",
+        "D: Sie vereinfachen die Lösung von Bewegungsgleichungen."
+      ],
+      "correct_answer": "D",
+      "explanation": "Kanonische Transformationen dienen dazu, die Struktur der Hamiltonschen Mechanik zu bewahren und erleichtern dadurch die Lösung von Bewegungsgleichungen. Sie ermöglichen es, Systeme in eine einfachere Form zu bringen, was die Analyse und Berechnung der Dynamik vereinfacht.",
+      "difficulty": 3,
+      "subcategory": "Kanonische Transformationen (Motivation)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Maxwell-Gleichungen in kovarianter Form",
+      "question": "Was beschreibt die kovariante Form der Maxwell-Gleichungen?",
+      "choices": [
+        "A: Die Wechselwirkung zwischen elektrischen und magnetischen Feldern in allen Bezugssystemen.",
+        "B: Die Quantisierung von Lichtpartikeln in einem Vakuum.",
+        "C: Die thermodynamischen Eigenschaften von idealen Gasen.",
+        "D: Die Bewegung von Objekten unter dem Einfluss von Gravitationsfeldern."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die kovariante Form der Maxwell-Gleichungen stellt sicher, dass die Gesetze der Elektrodynamik in allen Inertialsystemen gleich aussehen. Dies ist ein zentraler Aspekt der Relativitätstheorie, der die Unabhängigkeit der physikalischen Gesetze von der Wahl des Bezugssystems betont.",
+      "difficulty": 4,
+      "subcategory": "Maxwell-Gleichungen in kovarianter Form"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Phasen (Definitionen, Beispiele)",
+      "question": "Welche der folgenden Zustände ist eine Phase der Materie?",
+      "choices": [
+        "A: Fest",
+        "B: Schnell",
+        "C: Dunkel",
+        "D: Laut"
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Phasen der Materie sind die verschiedenen Zustände, in denen Materie existieren kann, wie fest, flüssig und gasförmig. 'Fest' ist eine der grundlegenden Phasen, während 'Dunkel', 'Laut' und 'Schnell' keine Phasen der Materie darstellen.",
+      "difficulty": 1,
+      "subcategory": "Phasen (Definitionen, Beispiele)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Phononen/Rotonen in He II: Anregungen & Thermik",
+      "question": "Was sind Phononen im Kontext von flüssigem Helium II?",
+      "choices": [
+        "A: Photonen, die Lichtstrahlen in einem Vakuum darstellen.",
+        "B: Quasiteilchen, die Schwingungen des Gitters in Festkörpern beschreiben.",
+        "C: Elektronen, die für die elektrische Leitfähigkeit in Helium II sorgen.",
+        "D: Teilchen, die für die chemischen Reaktionen in Helium verantwortlich sind."
+      ],
+      "correct_answer": "B",
+      "explanation": "Phononen sind Quasiteilchen, die die Schwingungen des Gitters in Materialien beschreiben, einschließlich flüssigem Helium II. Sie spielen eine wichtige Rolle bei thermischen Anregungen und der Wärmeleitung in diesen Systemen.",
+      "difficulty": 3,
+      "subcategory": "Phononen/Rotonen in He II: Anregungen & Thermik"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Joule–Thomson-Prozess (Inversionstemp.)",
+      "question": "Was passiert mit einem Gas, wenn es im Joule-Thomson-Prozess durch eine Drosselung expandiert und die Inversionstemperatur überschreitet?",
+      "choices": [
+        "A: Es bleibt unverändert.",
+        "B: Es kühlt sich ab.",
+        "C: Es verdampft sofort.",
+        "D: Es erhitzt sich."
+      ],
+      "correct_answer": "D",
+      "explanation": "Im Joule-Thomson-Prozess kann ein Gas, wenn es die Inversionstemperatur überschreitet, beim Expandieren Wärme aufnehmen und sich dadurch erhitzen. Dies ist das Gegenteil von dem, was bei niedrigeren Temperaturen passiert, wo das Gas sich abkühlt.",
+      "difficulty": 1,
+      "subcategory": "Joule–Thomson-Prozess (Inversionstemp.)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Viskosität von Gasen",
+      "question": "Was beschreibt die Viskosität eines Gases?",
+      "choices": [
+        "A: Die Temperatur des Gases.",
+        "B: Den Widerstand eines Gases gegen das Fließen.",
+        "C: Die Dichte des Gases.",
+        "D: Die Fähigkeit des Gases, Wärme zu leiten."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Viskosität eines Gases ist ein Maß für dessen Widerstand gegen das Fließen. Sie beeinflusst, wie leicht oder schwer sich das Gas bewegt, wenn es auf ein Hindernis trifft oder durch ein Rohr strömt.",
+      "difficulty": 1,
+      "subcategory": "Viskosität von Gasen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Planck’sches Wirkungsquantum",
+      "question": "Was beschreibt das Planck’sche Wirkungsquantum in der Quantenmechanik?",
+      "choices": [
+        "A: Es beschreibt die Bewegung von Planeten.",
+        "B: Es quantisiert die Energie von Photonen.",
+        "C: Es ist ein Maß für die Temperatur eines Systems.",
+        "D: Es erklärt die Gravitation zwischen Teilchen."
+      ],
+      "correct_answer": "B",
+      "explanation": "Das Planck’sche Wirkungsquantum ist eine fundamentale Konstante in der Quantenmechanik, die die Energie eines Photons mit seiner Frequenz verknüpft. Es spielt eine zentrale Rolle bei der Beschreibung quantisierter Systeme und der Wechselwirkung von Licht und Materie.",
+      "difficulty": 5,
+      "subcategory": "Planck’sches Wirkungsquantum"
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "date": "2026-04-27",
+  "generated_at": "2026-04-27T04:16:57Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Lorentz-Kraft in Vierervektorform",
+      "question": "Which of the following statements correctly describes the Lorentz force in four-vector form?",
+      "choices": [
+        "A: The Lorentz force is the vector describing the change in momentum density of a charge field.",
+        "B: The Lorentz force is independent of the velocity of the charge and always acts the same.",
+        "C: The Lorentz force can be represented as the derivative of the four-vector of electric and magnetic fields in special relativity.",
+        "D: The Lorentz force acts only on stationary charges and has no effect on moving charges."
+      ],
+      "correct_answer": "C",
+      "explanation": "The Lorentz force in four-vector form describes the interaction of electric and magnetic fields with moving charges, taking into account relativistic effects. It shows that the force depends on the velocity of the charge and considers the relativistic transformation of the fields.",
+      "difficulty": 6,
+      "subcategory": "Lorentz-Kraft in Vierervektorform"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Schalenmodell",
+      "question": "How many electrons can fit in the first shell of an atom?",
+      "choices": [
+        "A: 2",
+        "B: 18",
+        "C: 8",
+        "D: 32"
+      ],
+      "correct_answer": "A",
+      "explanation": "The first shell of an atom can hold a maximum of 2 electrons. This follows from the formula 2n², where n is the shell number. Therefore, the maximum number for the first shell is 2 (2*1²).",
+      "difficulty": 4,
+      "subcategory": "Schalenmodell"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "α‑Zerfall",
+      "question": "Which of the following particles is emitted in an α-decay?",
+      "choices": [
+        "A: Helium nucleus (α-particle)",
+        "B: Proton",
+        "C: Electron",
+        "D: Neutron"
+      ],
+      "correct_answer": "A",
+      "explanation": "In α-decay, an unstable atomic nucleus emits an α-particle, consisting of two protons and two neutrons. This α-particle is often referred to as a helium nucleus and leads to a change in the atomic number of the original nucleus.",
+      "difficulty": 9,
+      "subcategory": "α‑Zerfall"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Kanonische Transformationen (Motivation)",
+      "question": "What is the main advantage of canonical transformations in analytical mechanics?",
+      "choices": [
+        "A: They accelerate the calculation of forces.",
+        "B: They enable the use of relativity theory.",
+        "C: They are only relevant for quantum mechanical systems.",
+        "D: They simplify the solution of equations of motion."
+      ],
+      "correct_answer": "D",
+      "explanation": "Canonical transformations serve to preserve the structure of Hamiltonian mechanics, thereby facilitating the solution of equations of motion. They allow systems to be brought into a simpler form, simplifying the analysis and calculation of dynamics.",
+      "difficulty": 3,
+      "subcategory": "Kanonische Transformationen (Motivation)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Maxwell-Gleichungen in kovarianter Form",
+      "question": "What does the covariant form of the Maxwell equations describe?",
+      "choices": [
+        "A: The interaction between electric and magnetic fields in all reference frames.",
+        "B: The quantization of light particles in a vacuum.",
+        "C: The thermodynamic properties of ideal gases.",
+        "D: The motion of objects under the influence of gravitational fields."
+      ],
+      "correct_answer": "A",
+      "explanation": "The covariant form of the Maxwell equations ensures that the laws of electrodynamics look the same in all inertial systems. This is a central aspect of relativity theory, emphasizing the independence of physical laws from the choice of reference frame.",
+      "difficulty": 4,
+      "subcategory": "Maxwell-Gleichungen in kovarianter Form"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Phasen (Definitionen, Beispiele)",
+      "question": "Which of the following states is a phase of matter?",
+      "choices": [
+        "A: Solid",
+        "B: Fast",
+        "C: Dark",
+        "D: Loud"
+      ],
+      "correct_answer": "A",
+      "explanation": "The phases of matter are the different states in which matter can exist, such as solid, liquid, and gas. 'Solid' is one of the fundamental phases, while 'Dark', 'Loud', and 'Fast' do not represent phases of matter.",
+      "difficulty": 1,
+      "subcategory": "Phasen (Definitionen, Beispiele)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Phononen/Rotonen in He II: Anregungen & Thermik",
+      "question": "What are phonons in the context of liquid helium II?",
+      "choices": [
+        "A: Photons representing light rays in a vacuum.",
+        "B: Quasi-particles describing lattice vibrations in solids.",
+        "C: Electrons responsible for electrical conductivity in helium II.",
+        "D: Particles responsible for chemical reactions in helium."
+      ],
+      "correct_answer": "B",
+      "explanation": "Phonons are quasi-particles that describe lattice vibrations in materials, including liquid helium II. They play an important role in thermal excitations and heat conduction in these systems.",
+      "difficulty": 3,
+      "subcategory": "Phononen/Rotonen in He II: Anregungen & Thermik"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Joule–Thomson-Prozess (Inversionstemp.)",
+      "question": "What happens to a gas when it expands through a throttle valve in the Joule-Thomson process and exceeds the inversion temperature?",
+      "choices": [
+        "A: It remains unchanged.",
+        "B: It cools down.",
+        "C: It immediately vaporizes.",
+        "D: It heats up."
+      ],
+      "correct_answer": "D",
+      "explanation": "In the Joule-Thomson process, a gas can absorb heat and heat up as it expands when exceeding the inversion temperature. This is the opposite of what happens at lower temperatures, where the gas cools down.",
+      "difficulty": 1,
+      "subcategory": "Joule–Thomson-Prozess (Inversionstemp.)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Viskosität von Gasen",
+      "question": "What does the viscosity of a gas describe?",
+      "choices": [
+        "A: The temperature of the gas.",
+        "B: The resistance of a gas to flow.",
+        "C: The density of the gas.",
+        "D: The gas's ability to conduct heat."
+      ],
+      "correct_answer": "B",
+      "explanation": "The viscosity of a gas is a measure of its resistance to flow. It influences how easily or difficultly the gas moves when encountering an obstacle or flowing through a pipe.",
+      "difficulty": 1,
+      "subcategory": "Viskosität von Gasen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Planck’sches Wirkungsquantum",
+      "question": "What does the Planck constant describe in quantum mechanics?",
+      "choices": [
+        "A: It describes the motion of planets.",
+        "B: It quantizes the energy of photons.",
+        "C: It is a measure of a system's temperature.",
+        "D: It explains the gravitational interaction between particles."
+      ],
+      "correct_answer": "B",
+      "explanation": "The Planck constant is a fundamental constant in quantum mechanics that relates the energy of a photon to its frequency. It plays a central role in describing quantized systems and the interaction of light and matter.",
+      "difficulty": 5,
+      "subcategory": "Planck’sches Wirkungsquantum"
+    }
+  ]
+}
