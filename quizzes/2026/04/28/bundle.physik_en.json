@@ -1,0 +1,168 @@
+{
+  "date": "2026-04-28",
+  "generated_at": "2026-04-28T04:19:16Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Quasientartung",
+      "question": "What does the term 'quasientartung' describe in quantum mechanics?",
+      "choices": [
+        "A: Conservation of momentum in classical systems.",
+        "B: Interaction between light and matter.",
+        "C: Ability of particles to behave like waves.",
+        "D: Energy states of a particle in a quantum field."
+      ],
+      "correct_answer": "D",
+      "explanation": "Quasientartung refers to the quantized energy states of particles in a quantum field. These states are discrete and define the behavior and properties of particles in quantum mechanics.",
+      "difficulty": 4,
+      "subcategory": "Quasientartung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Großkanonisches Ensemble: Dichtematrix & Potential",
+      "question": "What does the density matrix describe in the grand canonical ensemble?",
+      "choices": [
+        "A: Energy of an individual particle in the system.",
+        "B: Temperature of the system.",
+        "C: Probability of finding a specific state of the system.",
+        "D: Number of particles in a closed system."
+      ],
+      "correct_answer": "C",
+      "explanation": "The density matrix in the grand canonical ensemble indicates the probability of the system being in a specific microscopic state. It is a central tool for describing the statistical properties of systems with varying numbers of particles and energy.",
+      "difficulty": 4,
+      "subcategory": "Großkanonisches Ensemble: Dichtematrix & Potential"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Paraxiale Strahlen & Matrizen-Verfahren",
+      "question": "What does the paraxial ray model describe in optics?",
+      "choices": [
+        "A: Polarization of light rays in a crystal.",
+        "B: Interaction of light with matter at the molecular level.",
+        "C: Calculation of light intensity in a prism.",
+        "D: Assumption that light rays near the optical axis travel in straight lines."
+      ],
+      "correct_answer": "D",
+      "explanation": "The paraxial ray model assumes that light rays moving near the optical axis behave linearly. This greatly simplifies calculations in geometric optics as it avoids dealing with the complex effects of light at large angles.",
+      "difficulty": 4,
+      "subcategory": "Paraxiale Strahlen & Matrizen-Verfahren"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Totalreflexion und evaneszente Wellen",
+      "question": "What happens when light from a denser to a rarer medium hits at an angle greater than the critical angle?",
+      "choices": [
+        "A: Light is completely absorbed.",
+        "B: Light undergoes total internal reflection.",
+        "C: Light is scattered.",
+        "D: Light is refracted and enters the rarer medium."
+      ],
+      "correct_answer": "B",
+      "explanation": "When light hits the boundary between two media with different densities at an angle greater than the critical angle, it undergoes total internal reflection. This means it does not penetrate the rarer medium but is completely reflected back into the denser medium.",
+      "difficulty": 4,
+      "subcategory": "Totalreflexion und evaneszente Wellen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Weiß’scher Ferromagnet (mittlere Feldnäherung)",
+      "question": "Which parameter describes the interaction between spins of neighboring atoms in the mean field approximation of the Weiss ferromagnet?",
+      "choices": [
+        "A: Magnetic field strength",
+        "B: Exchange energy",
+        "C: Temperature",
+        "D: Entropy"
+      ],
+      "correct_answer": "B",
+      "explanation": "In the mean field approximation of the Weiss ferromagnet, the exchange energy is the crucial parameter quantifying the interactions between spins of neighboring atoms. It plays a significant role in the emergence of magnetic order in the material.",
+      "difficulty": 10,
+      "subcategory": "Weiß’scher Ferromagnet (mittlere Feldnäherung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Strukturbestimmung: Allgemeines",
+      "question": "Which method is commonly used to determine the crystal structure of solids?",
+      "choices": [
+        "A: Mass spectrometry",
+        "B: X-ray diffraction",
+        "C: Thermogravimetry",
+        "D: Electron microscopy"
+      ],
+      "correct_answer": "B",
+      "explanation": "X-ray diffraction is one of the most common methods for determining crystal structure as it provides information about the arrangement of atoms in a crystal lattice. The other mentioned methods are less suitable for structural elucidation of solids or have different primary applications.",
+      "difficulty": 3,
+      "subcategory": "Strukturbestimmung: Allgemeines"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Zerfall angeregter Kernzustände (γ, isomer)",
+      "question": "Which process describes the decay of an excited nucleus to a lower energy state with emission of a gamma ray?",
+      "choices": [
+        "A: Spontaneous fission",
+        "B: Beta decay",
+        "C: Alpha decay",
+        "D: Gamma decay"
+      ],
+      "correct_answer": "D",
+      "explanation": "Gamma decay is a process where an excited nucleus emits a gamma ray to transition to a more stable state. Unlike alpha and beta decay which emit particles, gamma decay involves the release of energy in the form of photons.",
+      "difficulty": 7,
+      "subcategory": "Zerfall angeregter Kernzustände (γ, isomer)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Faraday’sches Induktionsgesetz",
+      "question": "What does Faraday's law of electromagnetic induction describe?",
+      "choices": [
+        "A: The law describes the relationship between electric field strength and temperature.",
+        "B: The induced voltage is independent of the speed of magnetic field change.",
+        "C: The induced voltage is directly proportional to the rate of change of magnetic flux.",
+        "D: The induced voltage is constant regardless of external conditions."
+      ],
+      "correct_answer": "C",
+      "explanation": "Faraday's law of electromagnetic induction states that the induced voltage in a closed circuit is directly proportional to the rate of change of magnetic flux through the loop. This means that a faster change in the magnetic field produces a higher induced voltage.",
+      "difficulty": 7,
+      "subcategory": "Faraday’sches Induktionsgesetz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Klassischer Grenzfall (z ≪ 1)",
+      "question": "Which statement is correct in the classical limit of statistical mechanics (z ≪ 1)?",
+      "choices": [
+        "A: Temperature has no effect on particle behavior.",
+        "B: Particle energy distribution follows a Maxwell-Boltzmann distribution.",
+        "C: All particles have the same energy.",
+        "D: Interactions between particles are irrelevant."
+      ],
+      "correct_answer": "B",
+      "explanation": "In the classical limit, when z (the measure of quantum mechanical statistics) is much less than 1, the energy distribution of particles follows the Maxwell-Boltzmann distribution. This means that the statistical properties of particles are determined by their temperature and not all particles have the same energy.",
+      "difficulty": 8,
+      "subcategory": "Klassischer Grenzfall (z ≪ 1)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Maxwell-Gleichungen der Magnetostatik",
+      "question": "Which of the following Maxwell's equations describes the relationship between magnetic field and electric current in magnetostatics?",
+      "choices": [
+        "A: ∇×E = -∂B/∂t",
+        "B: ∇·B = 0",
+        "C: ∇·E = ρ/ε₀",
+        "D: ∇×B = μ₀J"
+      ],
+      "correct_answer": "D",
+      "explanation": "The equation ∇×B = μ₀J shows that the rotation of the magnetic field B is equal to the product of the magnetic permeability μ₀ and the electric current density J. This relationship is central in magnetostatics and describes how electric currents generate magnetic fields.",
+      "difficulty": 5,
+      "subcategory": "Maxwell-Gleichungen der Magnetostatik"
+    }
+  ]
+}

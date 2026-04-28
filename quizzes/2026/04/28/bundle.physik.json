@@ -1,0 +1,169 @@
+{
+  "date": "2026-04-28",
+  "generated_at": "2026-04-28T04:18:36Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Quasientartung",
+      "question": "Was beschreibt der Begriff 'Quasientartung' in der Quantenmechanik?",
+      "choices": [
+        "A: Die Erhaltung von Impuls in klassischen Systemen.",
+        "B: Die Wechselwirkung zwischen Licht und Materie.",
+        "C: Die Fähigkeit von Teilchen, sich wie Wellen zu verhalten.",
+        "D: Die Energiezustände eines Teilchens in einem Quantenfeld."
+      ],
+      "correct_answer": "D",
+      "explanation": "Quasientartung bezieht sich auf die quantisierten Energiezustände von Teilchen in einem Quantenfeld. Diese Zustände sind diskret und definieren das Verhalten und die Eigenschaften von Teilchen in der Quantenmechanik.",
+      "difficulty": 4,
+      "subcategory": "Quasientartung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Großkanonisches Ensemble: Dichtematrix & Potential",
+      "question": "Was beschreibt die Dichtematrix im großkanonischen Ensemble?",
+      "choices": [
+        "A: Die Energie eines einzelnen Teilchens im System.",
+        "B: Die Temperatur des Systems.",
+        "C: Die Wahrscheinlichkeit, einen bestimmten Zustand des Systems zu finden.",
+        "D: Die Anzahl der Teilchen in einem abgeschlossenen System."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Dichtematrix im großkanonischen Ensemble gibt an, mit welcher Wahrscheinlichkeit das System in einem bestimmten mikroskopischen Zustand vorkommt. Sie ist ein zentrales Werkzeug zur Beschreibung der statistischen Eigenschaften von Systemen bei variabler Teilchenzahl und Energie.",
+      "difficulty": 4,
+      "subcategory": "Großkanonisches Ensemble: Dichtematrix & Potential"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Paraxiale Strahlen & Matrizen-Verfahren",
+      "question": "Was beschreibt das paraxiale Strahlenmodell in der Optik?",
+      "choices": [
+        "A: Die Polarisation von Lichtstrahlen in einem Kristall.",
+        "B: Die Wechselwirkung von Licht mit Materie auf molekularer Ebene.",
+        "C: Die Berechnung der Lichtintensität in einem Prisma.",
+        "D: Die Annahme, dass Lichtstrahlen in der Nähe der optischen Achse geradlinig verlaufen."
+      ],
+      "correct_answer": "D",
+      "explanation": "Das paraxiale Strahlenmodell geht davon aus, dass Lichtstrahlen, die sich nahe der optischen Achse bewegen, sich geradlinig verhalten. Dies vereinfacht die Berechnungen in der geometrischen Optik erheblich, da nicht mit den komplizierten Effekten des Lichtes in großen Winkeln gearbeitet werden muss.",
+      "difficulty": 4,
+      "subcategory": "Paraxiale Strahlen & Matrizen-Verfahren"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Totalreflexion und evaneszente Wellen",
+      "question": "Was passiert, wenn Licht von einem dichteren in ein dünneres Medium auf einen Einfallswinkel größer als der Grenzwinkel trifft?",
+      "choices": [
+        "A: Das Licht wird vollständig absorbiert.",
+        "B: Das Licht wird total reflektiert.",
+        "C: Das Licht wird zerstreut.",
+        "D: Das Licht wird refraktiert und tritt in das dünnere Medium ein."
+      ],
+      "correct_answer": "B",
+      "explanation": "Wenn Licht an der Grenze zwischen zwei Medien mit unterschiedlicher Dichte auf einen Einfallswinkel größer als den kritischen Winkel trifft, wird es total reflektiert. Dies bedeutet, dass es nicht in das dünnere Medium eindringt, sondern vollständig zurück ins dichtere Medium reflektiert wird.",
+      "difficulty": 4,
+      "subcategory": "Totalreflexion und evaneszente Wellen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Weiß’scher Ferromagnet (mittlere Feldnäherung)",
+      "question": "Welcher Parameter beschreibt in der mittleren Feldnäherung des Weiß’schen Ferromagneten die Wechselwirkung zwischen den Spins der benachbarten Atome?",
+      "choices": [
+        "A: Magnetfeldstärke",
+        "B: Austauschenergie",
+        "C: Temperatur",
+        "D: Entropie"
+      ],
+      "correct_answer": "B",
+      "explanation": "In der mittleren Feldnäherung des Weiß’schen Ferromagneten ist die Austauschenergie der entscheidende Parameter, der die Wechselwirkungen zwischen den Spins der benachbarten Atome quantifiziert. Sie spielt eine wesentliche Rolle bei der Entstehung der magnetischen Ordnung im Material.",
+      "difficulty": 10,
+      "subcategory": "Weiß’scher Ferromagnet (mittlere Feldnäherung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Strukturbestimmung: Allgemeines",
+      "question": "Welches Verfahren wird häufig zur Bestimmung der Kristallstruktur von Festkörpern verwendet?",
+      "choices": [
+        "A: Massenspektrometrie",
+        "B: Röntgenbeugung",
+        "C: Thermogravimetrie",
+        "D: Elektronenmikroskopie"
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Röntgenbeugung ist eine der gängigsten Methoden zur Bestimmung der Kristallstruktur, da sie Informationen über die Anordnung der Atome in einem Kristallgitter liefert. Die anderen genannten Verfahren sind für die Strukturaufklärung von Festkörpern weniger geeignet oder haben andere Hauptanwendungen.",
+      "difficulty": 3,
+      "subcategory": "Strukturbestimmung: Allgemeines"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Zerfall angeregter Kernzustände (γ, isomer)",
+      "question": "Welcher der folgenden Prozesse beschreibt den Zerfall eines angeregten Kerns in einen niedrigeren Energiezustand unter Emission eines Gamma-Quants?",
+      "choices": [
+        "A: Spontane Spaltung",
+        "B: β-Zerfall",
+        "C: α-Zerfall",
+        "D: γ-Zerfall"
+      ],
+      "correct_answer": "D",
+      "explanation": "Der γ-Zerfall ist ein Prozess, bei dem ein angeregter Kern einen Gamma-Quant emittiert, um in einen stabileren Zustand überzugehen. Im Gegensatz zu α- und β-Zerfall, die Teilchen emittieren, handelt es sich beim γ-Zerfall um die Abgabe von Energie in Form von Photonen.",
+      "difficulty": 7,
+      "subcategory": "Zerfall angeregter Kernzustände (γ, isomer)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Faraday’sches Induktionsgesetz",
+      "question": "Was beschreibt das Faraday’sche Induktionsgesetz in Bezug auf die elektromagnetische Induktion?",
+      "choices": [
+        "A: Das Gesetz beschreibt die Beziehung zwischen elektrischer Feldstärke und Temperatur.",
+        "B: Die Induktionsspannung ist unabhängig von der Geschwindigkeit der Magnetfeldänderung.",
+        "C: Die Induktionsspannung ist direkt proportional zur zeitlichen Änderung des magnetischen Flusses.",
+        "D: Die Induktionsspannung ist konstant, unabhängig von den äußeren Bedingungen."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Faraday’sche Induktionsgesetz besagt, dass die induzierte Spannung in einem geschlossenen Stromkreis direkt proportional zur Rate der Änderung des magnetischen Flusses durch die Schleife ist. Dies bedeutet, dass eine schnellere Änderung des Magnetfeldes eine höhere Induktionsspannung erzeugt.",
+      "difficulty": 7,
+      "subcategory": "Faraday’sches Induktionsgesetz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Klassischer Grenzfall (z ≪ 1)",
+      "question": "Welche Aussage ist im klassischen Grenzfall der statistischen Mechanik (z ≪ 1) korrekt?",
+      "choices": [
+        "A: Die Temperatur hat keinen Einfluss auf das Verhalten der Teilchen.",
+        "B: Die Verteilung der Teilchenenergie folgt einer Maxwell-Boltzmann-Verteilung.",
+        "C: Alle Teilchen haben die gleiche Energie.",
+        "D: Die Wechselwirkungen zwischen den Teilchen sind irrelevant."
+      ],
+      "correct_answer": "B",
+      "explanation": "Im klassischen Grenzfall, wenn z (das Maß für die quantenmechanische Statistiken) viel kleiner als 1 ist, folgt die Energieverteilung der Teilchen der Maxwell-Boltzmann-Verteilung. Dies bedeutet, dass die statistischen Eigenschaften der Teilchen durch ihre Temperatur bestimmt werden und nicht alle Teilchen die gleiche Energie haben.",
+      "difficulty": 8,
+      "subcategory": "Klassischer Grenzfall (z ≪ 1)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Maxwell-Gleichungen der Magnetostatik",
+      "question": "Welche der folgenden Maxwell-Gleichungen beschreibt die Beziehung zwischen dem magnetischen Feld und dem elektrischen Strom in der Magnetostatik?",
+      "choices": [
+        "A: ∇×E = -∂B/∂t",
+        "B: ∇·B = 0",
+        "C: ∇·E = ρ/ε₀",
+        "D: ∇×B = μ₀J"
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Gleichung ∇×B = μ₀J zeigt, dass die Rotation des magnetischen Feldes B gleich dem Produkt aus der magnetischen Permeabilität μ₀ und der elektrischen Stromdichte J ist. Diese Beziehung ist zentral in der Magnetostatik und beschreibt, wie elektrische Ströme magnetische Felder erzeugen.",
+      "difficulty": 5,
+      "subcategory": "Maxwell-Gleichungen der Magnetostatik"
+    }
+  ]
+}
