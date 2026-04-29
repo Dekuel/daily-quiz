@@ -1,0 +1,169 @@
+{
+  "date": "2026-04-29",
+  "generated_at": "2026-04-29T04:15:38Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Gibb’sche Phasenregel",
+      "question": "Wie lautet die Gibb’sche Phasenregel, die die Anzahl der Phasen in einem thermodynamischen System beschreibt?",
+      "choices": [
+        "A: F = C + P - 1",
+        "B: F = C - P + 2",
+        "C: F = C + P - 2",
+        "D: F = P + 2"
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Gibb’sche Phasenregel beschreibt die Beziehung zwischen der Anzahl der Freiheitsgrade (F), der Anzahl der chemischen Komponenten (C) und der Anzahl der Phasen (P) in einem Gleichgewichtszustand. Die Regel lautet F = C - P + 2, was bedeutet, dass die Anzahl der Freiheitsgrade von der Anzahl der Phasen und Komponenten abhängt.",
+      "difficulty": 5,
+      "subcategory": "Gibb’sche Phasenregel"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Hauptträgheitsmomente",
+      "question": "Was beschreibt das Hauptträgheitsmoment eines Körpers?",
+      "choices": [
+        "A: Die Geschwindigkeit des Körpers.",
+        "B: Die Temperatur des Körpers.",
+        "C: Die Verteilung der Masse um eine Achse.",
+        "D: Die Form des Körpers."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Hauptträgheitsmoment beschreibt, wie die Masse eines Körpers um eine bestimmte Achse verteilt ist, was entscheidend für seine Rotationseigenschaften ist. Es ist ein zentrales Konzept in der klassischen Mechanik zur Analyse rotierender Körper.",
+      "difficulty": 2,
+      "subcategory": "Hauptträgheitsmomente"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Jacobi-Prinzip (verkürzte Wirkung)",
+      "question": "Was beschreibt das Jacobi-Prinzip in der analytischen Mechanik?",
+      "choices": [
+        "A: Die Berechnung der Geschwindigkeit eines Körpers auf einer schiefen Ebene.",
+        "B: Die Bestimmung der Masse eines Körpers durch seine Beschleunigung.",
+        "C: Die Minimierung der Wirkung zwischen zwei Punkten im Konfigurationsraum.",
+        "D: Die Erhaltung der Energie in geschlossenen Systemen."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Jacobi-Prinzip besagt, dass die Bewegung eines Systems von Teilchen so erfolgt, dass die Wirkung entlang der Trajektorie minimiert wird. Dies ist ein zentrales Konzept in der Variationsrechnung und der analytischen Mechanik.",
+      "difficulty": 4,
+      "subcategory": "Jacobi-Prinzip (verkürzte Wirkung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Ideales Gas (Zustandsgleichung)",
+      "question": "Welche der folgenden Gleichungen beschreibt das Verhalten eines idealen Gases?",
+      "choices": [
+        "A: F = ma",
+        "B: E = mc²",
+        "C: PV = nRT",
+        "D: W = Fd"
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Gleichung PV = nRT beschreibt die Zustandsgleichung für ideale Gase, wobei P der Druck, V das Volumen, n die Stoffmenge, R die universelle Gaskonstante und T die Temperatur ist. Die anderen Gleichungen beziehen sich auf unterschiedliche physikalische Konzepte.",
+      "difficulty": 4,
+      "subcategory": "Ideales Gas (Zustandsgleichung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Lösungsmethode der HJ-Theorie",
+      "question": "Welche Aussage über die Hamilton-Jacobi-Theorie ist korrekt?",
+      "choices": [
+        "A: Sie kann nicht auf Systeme mit mehreren Freiheitsgraden angewendet werden.",
+        "B: Sie ist gleichwertig mit der Lagrange-Mechanik und erfordert keine zusätzlichen Annahmen.",
+        "C: Sie benötigt immer eine explizite Zeitabhängigkeit der Hamilton-Funktion.",
+        "D: Sie transformiert die Bewegungsgleichungen in eine Schrankenform, die die Energie der Systeme direkt beschreibt."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Hamilton-Jacobi-Theorie ermöglicht es, die Bewegungsgleichungen in eine Form zu bringen, die die Energiestruktur des Systems klarer darstellt. Diese Methode ist besonders nützlich für die Analyse von dynamischen Systemen und kann auf Systeme mit mehreren Freiheitsgraden angewendet werden.",
+      "difficulty": 7,
+      "subcategory": "Lösungsmethode der HJ-Theorie"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Geometrische Interpretation von Phasenübergängen",
+      "question": "Was beschreibt die Linie auf einem Phasendiagramm, die die Bedingungen markiert, unter denen zwei Phasen eines Stoffes im Gleichgewicht sind?",
+      "choices": [
+        "A: Temperaturkurve",
+        "B: Isolatorlinie",
+        "C: Energiefläche",
+        "D: Phasengrenze"
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Phasengrenze im Phasendiagramm zeigt die Bedingungen (Druck und Temperatur) an, bei denen zwei Phasen eines Stoffes im thermischen Gleichgewicht existieren können. Diese Linie trennt die verschiedenen Phasen und ist entscheidend für das Verständnis von Phasenübergängen.",
+      "difficulty": 4,
+      "subcategory": "Geometrische Interpretation von Phasenübergängen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Wechselströme & Schwingkreise",
+      "question": "Was beschreibt die Frequenz eines Wechselstroms?",
+      "choices": [
+        "A: Die Spannung in Volt",
+        "B: Die Länge des Kabels",
+        "C: Die Stärke des Stroms in Ampere",
+        "D: Die Anzahl der Perioden pro Sekunde"
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Frequenz eines Wechselstroms gibt an, wie oft der Strom pro Sekunde seine Richtung ändert, also die Anzahl der Perioden pro Sekunde. Sie wird in Hertz (Hz) gemessen und ist ein grundlegendes Konzept bei der Analyse von Wechselströmen und Schwingkreisen.",
+      "difficulty": 1,
+      "subcategory": "Wechselströme & Schwingkreise"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Kinetische Gastheorie: Grundgleichungen",
+      "question": "Was beschreibt die kinetische Gastheorie in Bezug auf Gase?",
+      "choices": [
+        "A: Die Temperaturabhängigkeit des Drucks in Flüssigkeiten.",
+        "B: Die elektrische Leitfähigkeit von Gasen.",
+        "C: Die chemischen Reaktionen zwischen Gasen.",
+        "D: Die Bewegung der Gasmoleküle und deren Wechselwirkungen."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die kinetische Gastheorie beschreibt das Verhalten von Gasmolekülen, einschließlich ihrer Bewegungen und Wechselwirkungen. Sie hilft, makroskopische Eigenschaften wie Druck und Temperatur aus mikroskopischen Bewegungen abzuleiten.",
+      "difficulty": 4,
+      "subcategory": "Kinetische Gastheorie: Grundgleichungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Photonengas & Plancksches Strahlungsgesetz",
+      "question": "Welches der folgenden Gesetze beschreibt die Energieverteilung der Photonen in einem idealen Photonengas?",
+      "choices": [
+        "A: Plancksches Strahlungsgesetz",
+        "B: Newtonsches Gesetz",
+        "C: Kirchhoffsches Gesetz",
+        "D: Stefan-Boltzmann-Gesetz"
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Plancksche Strahlungsgesetz beschreibt die spektrale Verteilung der Energie eines idealen Photonengases in Abhängigkeit von der Temperatur. Es ist entscheidend für das Verständnis der thermischen Strahlung und zeigt, wie die Energie der Photonen bei verschiedenen Temperaturen verteilt ist.",
+      "difficulty": 6,
+      "subcategory": "Photonengas & Plancksches Strahlungsgesetz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Anwendungen: Hartree–Fock-Gleichungen",
+      "question": "Welche der folgenden Aussagen beschreibt am besten die Hartree–Fock-Gleichungen in der Quantenmechanik?",
+      "choices": [
+        "A: Sie beschreiben die Bewegung von Teilchen in einem klassischen System.",
+        "B: Sie sind eine Methode zur Analyse thermodynamischer Systeme.",
+        "C: Sie sind ein Verfahren zur Berechnung der elektronischen Struktur von Atomen und Molekülen.",
+        "D: Sie erklären die Relativität von Zeit und Raum."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Hartree–Fock-Gleichungen sind ein bedeutendes Verfahren in der Quantenmechanik zur Näherung der elektronischen Struktur von Atomen und Molekülen. Sie berücksichtigen die Wechselwirkungen zwischen Elektronen und sind grundlegend für viele chemische Berechnungen.",
+      "difficulty": 3,
+      "subcategory": "Anwendungen: Hartree–Fock-Gleichungen"
+    }
+  ]
+}

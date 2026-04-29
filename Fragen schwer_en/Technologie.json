@@ -2016,6 +2016,20 @@
       "correct_answer": "C",
       "explanation": "Which index represents the 30 largest and most liquid companies on the Frankfurt Stock Exchange?",
       "difficulty": 9
+    },
+    {
+      "category": "Technologie",
+      "topic": "Computer & Internet",
+      "question": "Which protocol is commonly used for secure communication over the Internet and is based on Transport Layer Security (TLS)?",
+      "choices": [
+        "A: IMAP",
+        "B: HTTPS",
+        "C: SMTP",
+        "D: FTP"
+      ],
+      "correct_answer": "B",
+      "explanation": "HTTPS (Hypertext Transfer Protocol Secure) is the secure version of the HTTP protocol and uses TLS to encrypt data transmission between a web server and a browser. FTP (File Transfer Protocol) and the email protocols SMTP and IMAP do not provide security without additional measures.",
+      "difficulty": 9
     }
   ]
 }

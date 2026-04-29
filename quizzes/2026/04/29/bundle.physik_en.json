@@ -1,0 +1,168 @@
+{
+  "date": "2026-04-29",
+  "generated_at": "2026-04-29T04:16:40Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Gibb’sche Phasenregel",
+      "question": "What is the Gibbs phase rule, which describes the number of phases in a thermodynamic system?",
+      "choices": [
+        "A: F = C + P - 1",
+        "B: F = C - P + 2",
+        "C: F = C + P - 2",
+        "D: F = P + 2"
+      ],
+      "correct_answer": "B",
+      "explanation": "The Gibbs phase rule describes the relationship between the number of degrees of freedom (F), the number of chemical components (C), and the number of phases (P) in an equilibrium state. The rule is F = C - P + 2, which means that the number of degrees of freedom depends on the number of phases and components.",
+      "difficulty": 5,
+      "subcategory": "Gibb’sche Phasenregel"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Hauptträgheitsmomente",
+      "question": "What does the principal moment of inertia of a body describe?",
+      "choices": [
+        "A: The velocity of the body.",
+        "B: The temperature of the body.",
+        "C: The distribution of mass around an axis.",
+        "D: The shape of the body."
+      ],
+      "correct_answer": "C",
+      "explanation": "The principal moment of inertia describes how the mass of a body is distributed around a specific axis, which is crucial for its rotational properties. It is a central concept in classical mechanics for analyzing rotating bodies.",
+      "difficulty": 2,
+      "subcategory": "Hauptträgheitsmomente"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Jacobi-Prinzip (verkürzte Wirkung)",
+      "question": "What does the Jacobi principle describe in analytical mechanics?",
+      "choices": [
+        "A: Calculating the velocity of a body on an inclined plane.",
+        "B: Determining the mass of a body by its acceleration.",
+        "C: Minimizing the action between two points in configuration space.",
+        "D: Conserving energy in closed systems."
+      ],
+      "correct_answer": "C",
+      "explanation": "The Jacobi principle states that the motion of a system of particles occurs in a way that minimizes the action along the trajectory. This is a central concept in variational calculus and analytical mechanics.",
+      "difficulty": 4,
+      "subcategory": "Jacobi-Prinzip (verkürzte Wirkung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Ideales Gas (Zustandsgleichung)",
+      "question": "Which of the following equations describes the behavior of an ideal gas?",
+      "choices": [
+        "A: F = ma",
+        "B: E = mc²",
+        "C: PV = nRT",
+        "D: W = Fd"
+      ],
+      "correct_answer": "C",
+      "explanation": "The equation PV = nRT describes the equation of state for ideal gases, where P is pressure, V is volume, n is the amount of substance, R is the universal gas constant, and T is temperature. The other equations relate to different physical concepts.",
+      "difficulty": 4,
+      "subcategory": "Ideales Gas (Zustandsgleichung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Lösungsmethode der HJ-Theorie",
+      "question": "Which statement about the Hamilton-Jacobi theory is correct?",
+      "choices": [
+        "A: It cannot be applied to systems with multiple degrees of freedom.",
+        "B: It is equivalent to Lagrangian mechanics and requires no additional assumptions.",
+        "C: It always requires an explicit time dependence of the Hamiltonian function.",
+        "D: It transforms the equations of motion into a canonical form that directly describes the energy of the systems."
+      ],
+      "correct_answer": "D",
+      "explanation": "The Hamilton-Jacobi theory allows transforming the equations of motion into a form that clarifies the energy structure of the system. This method is particularly useful for analyzing dynamic systems and can be applied to systems with multiple degrees of freedom.",
+      "difficulty": 7,
+      "subcategory": "Lösungsmethode der HJ-Theorie"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Geometrische Interpretation von Phasenübergängen",
+      "question": "What does the line on a phase diagram that marks the conditions under which two phases of a substance are in equilibrium describe?",
+      "choices": [
+        "A: Temperature curve",
+        "B: Insulator line",
+        "C: Energy surface",
+        "D: Phase boundary"
+      ],
+      "correct_answer": "D",
+      "explanation": "The phase boundary in the phase diagram indicates the conditions (pressure and temperature) at which two phases of a substance can coexist in thermal equilibrium. This line separates the different phases and is crucial for understanding phase transitions.",
+      "difficulty": 4,
+      "subcategory": "Geometrische Interpretation von Phasenübergängen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Wechselströme & Schwingkreise",
+      "question": "What does the frequency of an alternating current describe?",
+      "choices": [
+        "A: The voltage in volts",
+        "B: The length of the cable",
+        "C: The current strength in amperes",
+        "D: The number of periods per second"
+      ],
+      "correct_answer": "D",
+      "explanation": "The frequency of an alternating current indicates how many times the current changes direction per second, i.e., the number of periods per second. It is measured in Hertz (Hz) and is a fundamental concept in the analysis of alternating currents and oscillating circuits.",
+      "difficulty": 1,
+      "subcategory": "Wechselströme & Schwingkreise"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Kinetische Gastheorie: Grundgleichungen",
+      "question": "What does the kinetic theory of gases describe regarding gases?",
+      "choices": [
+        "A: The temperature dependence of pressure in liquids.",
+        "B: The electrical conductivity of gases.",
+        "C: The chemical reactions between gases.",
+        "D: The motion of gas molecules and their interactions."
+      ],
+      "correct_answer": "D",
+      "explanation": "The kinetic theory of gases describes the behavior of gas molecules, including their movements and interactions. It helps derive macroscopic properties such as pressure and temperature from microscopic motions.",
+      "difficulty": 4,
+      "subcategory": "Kinetische Gastheorie: Grundgleichungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Photonengas & Plancksches Strahlungsgesetz",
+      "question": "Which of the following laws describes the energy distribution of photons in an ideal photon gas?",
+      "choices": [
+        "A: Planck radiation law",
+        "B: Newton's law",
+        "C: Kirchhoff's law",
+        "D: Stefan-Boltzmann law"
+      ],
+      "correct_answer": "A",
+      "explanation": "The Planck radiation law describes the spectral distribution of energy of an ideal photon gas depending on temperature. It is crucial for understanding thermal radiation and shows how the energy of photons is distributed at different temperatures.",
+      "difficulty": 6,
+      "subcategory": "Photonengas & Plancksches Strahlungsgesetz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Anwendungen: Hartree–Fock-Gleichungen",
+      "question": "Which of the following statements best describes the Hartree-Fock equations in quantum mechanics?",
+      "choices": [
+        "A: They describe the motion of particles in a classical system.",
+        "B: They are a method for analyzing thermodynamic systems.",
+        "C: They are a procedure for calculating the electronic structure of atoms and molecules.",
+        "D: They explain the relativity of time and space."
+      ],
+      "correct_answer": "C",
+      "explanation": "The Hartree-Fock equations are a significant method in quantum mechanics for approximating the electronic structure of atoms and molecules. They consider the interactions between electrons and are fundamental for many chemical calculations.",
+      "difficulty": 3,
+      "subcategory": "Anwendungen: Hartree–Fock-Gleichungen"
+    }
+  ]
+}
