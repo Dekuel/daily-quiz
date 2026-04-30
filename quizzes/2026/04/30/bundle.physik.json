@@ -1,0 +1,169 @@
+{
+  "date": "2026-04-30",
+  "generated_at": "2026-04-30T04:18:24Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Bezug zur Quantenmechanik (Kommutator ↔ Poisson)",
+      "question": "Welcher Zusammenhang besteht zwischen den Poisson-Klammern in der klassischen Mechanik und den Kommutatoren in der Quantenmechanik?",
+      "choices": [
+        "A: Kommutatoren sind eine Erweiterung der Poisson-Klammern für Systeme mit einer unendlichen Anzahl von Freiheitsgraden.",
+        "B: Der Wert der Poisson-Klammern ist immer gleich dem Wert der entsprechenden Kommutatoren, unabhängig vom System.",
+        "C: Poisson-Klammern sind nur in der Quantenmechanik relevant, während Kommutatoren in der klassischen Mechanik keine Rolle spielen.",
+        "D: Beide beschreiben die Dynamik eines Systems, wobei Poisson-Klammern für klassische und Kommutatoren für quantenmechanische Systeme verwendet werden."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Poisson-Klammern beschreiben die Beziehung zwischen den dynamischen Variablen in der klassischen Mechanik, während die Kommutatoren in der Quantenmechanik diese Beziehung auf eine nichtkommutative Algebra übertragen. Beide Konzepte sind also fundamental für das Verständnis der Dynamik in ihren jeweiligen Theorien.",
+      "difficulty": 8,
+      "subcategory": "Bezug zur Quantenmechanik (Kommutator ↔ Poisson)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Reflexion & Brechung elektromagnetischer Wellen",
+      "question": "Was passiert, wenn ein elektromagnetischer Wellenstrahl von einem Medium in ein anderes mit unterschiedlicher Dichte übergeht?",
+      "choices": [
+        "A: Der Strahl wird gebrochen.",
+        "B: Der Strahl wird absorbiert.",
+        "C: Der Strahl wird reflektiert, aber nicht gebrochen.",
+        "D: Der Strahl bleibt unverändert."
+      ],
+      "correct_answer": "A",
+      "explanation": "Wenn ein elektromagnetischer Wellenstrahl in ein Medium mit unterschiedlicher Dichte eintritt, erfährt er eine Brechung, was bedeutet, dass sich seine Richtung ändert. Dies geschieht aufgrund der unterschiedlichen Lichtgeschwindigkeiten in den beiden Medien.",
+      "difficulty": 4,
+      "subcategory": "Reflexion & Brechung elektromagnetischer Wellen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Lorentz-Transformation (Grundform)",
+      "question": "Was beschreibt die Lorentz-Transformation in der Relativitätstheorie?",
+      "choices": [
+        "A: Die Beziehung zwischen Masse und Energie.",
+        "B: Die Kraft, die auf einen Körper wirkt.",
+        "C: Die Bewegung von Teilchen in einem Vakuum.",
+        "D: Die Beziehung zwischen Raum und Zeit in bewegten Bezugssystemen."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Lorentz-Transformation beschreibt, wie sich Raum und Zeit verändern, wenn sich Objekte relativ zueinander bewegen. Sie ist ein zentrales Konzept in der speziellen Relativitätstheorie und zeigt, dass Zeit und Raum relativ sind, abhängig von der Geschwindigkeit des Beobachters.",
+      "difficulty": 3,
+      "subcategory": "Lorentz-Transformation (Grundform)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Formulierung des Hamilton’schen Prinzips",
+      "question": "Welche Aussage beschreibt korrekt das Hamilton’sche Prinzip in der analytischen Mechanik?",
+      "choices": [
+        "A: Die Bewegungsgleichungen eines Systems können nur durch das Prinzip der virtuellen Arbeit abgeleitet werden.",
+        "B: Das Hamilton’sche Prinzip ist nur für Systeme mit konservativen Kräften anwendbar.",
+        "C: Das Prinzip basiert auf der Annahme, dass die Energie eines Systems konstant bleibt.",
+        "D: Der Weg, den ein System zwischen zwei Zeitpunkten nimmt, ist der, der die minimale Wirkung integriert."
+      ],
+      "correct_answer": "D",
+      "explanation": "Das Hamilton’sche Prinzip besagt, dass die physikalischen Bewegungen eines Systems den Weg minimieren, der die Wirkung integriert. Diese Minimierung führt zu den Bewegungsgleichungen des Systems, die eine fundamentale Rolle in der analytischen Mechanik spielen.",
+      "difficulty": 10,
+      "subcategory": "Formulierung des Hamilton’schen Prinzips"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Impulsoperator & Orts-/Impulsdarstellung",
+      "question": "Welcher der folgenden Operatoren beschreibt den Impuls in der Ortsdarstellung der Quantenmechanik?",
+      "choices": [
+        "A: -ħ ∂/∂x",
+        "B: iħ ∂/∂x",
+        "C: ħ ∂/∂x",
+        "D: -iħ ∂/∂x"
+      ],
+      "correct_answer": "D",
+      "explanation": "In der Quantenmechanik wird der Impulsoperator in der Ortsdarstellung durch den Ausdruck -iħ ∂/∂x definiert. Dieser Operator beschreibt, wie der Zustand einer Wellenfunktion in Bezug auf den Ort verändert wird.",
+      "difficulty": 7,
+      "subcategory": "Impulsoperator & Orts-/Impulsdarstellung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Translation vs. Rotation (Vergleich)",
+      "question": "Was beschreibt die Drehbewegung eines Körpers im Vergleich zur Translation?",
+      "choices": [
+        "A: Die Drehbewegung erfolgt immer mit konstanter Geschwindigkeit, während die Translation variabel ist.",
+        "B: Die Drehbewegung ist unabhängig von der Masse des Körpers, während die Translation massenabhängig ist.",
+        "C: Die Drehbewegung basiert auf einem festen Punkt, während die Translation eine Bewegung entlang einer Linie ist.",
+        "D: Die Drehbewegung erfordert immer eine äußere Kraft, während die Translation dies nicht tut."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Drehbewegung eines Körpers bezieht sich auf die Rotation um einen festen Punkt oder eine Achse, während die Translation die Bewegung entlang einer geraden Linie beschreibt. Beide Bewegungsarten haben unterschiedliche physikalische Konzepte, wie Drehmoment und lineare Kraft.",
+      "difficulty": 5,
+      "subcategory": "Translation vs. Rotation (Vergleich)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Semiklassische Atommodelle (Rutherford→Bohr)",
+      "question": "Welches Atommodell beschreibt die Elektronen als in festen Bahnen um den Atomkern kreisend?",
+      "choices": [
+        "A: Bohr-Modell",
+        "B: Schrödinger-Modell",
+        "C: Thomson-Modell",
+        "D: Rutherford-Modell"
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Bohr-Modell beschreibt Elektronen, die sich in festen, quantisierten Bahnen um den Atomkern bewegen. Es wurde als Weiterentwicklung des Rutherford-Modells eingeführt und bietet eine Erklärung für die Stabilität von Atomen und die Diskretheit ihrer Energielevels.",
+      "difficulty": 4,
+      "subcategory": "Semiklassische Atommodelle (Rutherford→Bohr)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Feldverhalten an Grenzflächen",
+      "question": "Was passiert mit einem elektrischen Feld an der Grenzfläche zwischen zwei unterschiedlichen Materialien?",
+      "choices": [
+        "A: Das Feld verschwindet vollständig.",
+        "B: Das Feld ändert seine Richtung und Stärke.",
+        "C: Das Feld bleibt unverändert.",
+        "D: Das Feld wird an der Grenzfläche reflektiert."
+      ],
+      "correct_answer": "B",
+      "explanation": "An der Grenzfläche zwischen zwei Materialien kann sich das elektrische Feld ändern, indem es seine Richtung und Stärke anpasst, abhängig von den Eigenschaften der beiden Materialien. Diese Änderung erfolgt aufgrund der unterschiedlichen Permittivitäten der Materialien.",
+      "difficulty": 2,
+      "subcategory": "Feldverhalten an Grenzflächen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Reibung in der Technik (Bedeutung)",
+      "question": "Welche Aussage beschreibt die Funktion von Reibung in technischen Anwendungen am besten?",
+      "choices": [
+        "A: Reibung ist notwendig, um Bewegungen zu kontrollieren und zu stabilisieren.",
+        "B: Reibung erzeugt immer Wärme, die nicht genutzt werden kann.",
+        "C: Reibung ist nur in der Natur von Bedeutung, nicht in der Technik.",
+        "D: Reibung hat keinen Einfluss auf die Leistung von Maschinen."
+      ],
+      "correct_answer": "A",
+      "explanation": "Reibung spielt eine entscheidende Rolle in technischen Anwendungen, da sie hilft, Bewegungen zu kontrollieren, wie zum Beispiel in Bremsen oder beim Greifen von Objekten. Ohne Reibung wären viele alltägliche technische Geräte nicht funktionsfähig oder gefährlich in der Nutzung.",
+      "difficulty": 5,
+      "subcategory": "Reibung in der Technik (Bedeutung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Formale Streutheorie: Lippmann–Schwinger-Gleichung",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt die Lippmann–Schwinger-Gleichung in der Quantenmechanik?",
+      "choices": [
+        "A: Sie ist identisch mit der Schrödinger-Gleichung.",
+        "B: Sie kann nicht für zeitabhängige Systeme angewendet werden.",
+        "C: Sie ist eine Gleichung, die nur für nicht-störende Wechselwirkungen gültig ist.",
+        "D: Sie beschreibt die Beziehung zwischen dem Wellenfunktionen und der Streuoperator."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Lippmann–Schwinger-Gleichung beschreibt die Beziehung zwischen den Wellenfunktionen eines Teilchens und dem Streuoperator, was in der formalen Streutheorie von zentraler Bedeutung ist. Sie ist eine fundamentale Gleichung zur Analyse von Streuproblemen in der Quantenmechanik und ist nicht nur auf nicht-störende Wechselwirkungen beschränkt.",
+      "difficulty": 8,
+      "subcategory": "Formale Streutheorie: Lippmann–Schwinger-Gleichung"
+    }
+  ]
+}
