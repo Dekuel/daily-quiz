@@ -1,0 +1,169 @@
+{
+  "date": "2026-05-01",
+  "generated_at": "2026-05-01T04:25:29Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "RG-Ideen: Ising 1D/2D & Dezimierung",
+      "question": "Welches der folgenden Systeme zeigt im Ising-Modell für 2D eine Phasenübergang bei einer kritischen Temperatur?",
+      "choices": [
+        "A: Wasser",
+        "B: Ideales Gas",
+        "C: Superfluid Helium",
+        "D: Ferromagnetisches Material"
+      ],
+      "correct_answer": "D",
+      "explanation": "Im 2D-Ising-Modell zeigt das ferromagnetische Material bei einer bestimmten kritischen Temperatur einen Phasenübergang von einem ungeordneten zu einem geordneten Zustand. Dies ist ein zentrales Konzept in der statistischen Mechanik und demonstriert die Bedeutung von Wechselwirkungen in der Materie.",
+      "difficulty": 5,
+      "subcategory": "RG-Ideen: Ising 1D/2D & Dezimierung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Legendre-Transformation (L→H)",
+      "question": "Was beschreibt die Legendre-Transformation in der analytischen Mechanik?",
+      "choices": [
+        "A: Den Übergang von Lagrange-Funktionen zu Hamilton-Funktionen.",
+        "B: Die Berechnung von Kräften in einem physikalischen System.",
+        "C: Die Beziehung zwischen Geschwindigkeit und Beschleunigung.",
+        "D: Die Erhaltung der Energie in einem geschlossenen System."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Legendre-Transformation wird verwendet, um von der Lagrange-Darstellung eines Systems zur Hamilton-Darstellung zu wechseln. Dies ermöglicht eine alternative Sichtweise auf die Dynamik eines Systems, indem die Generalisierten Koordinaten durch die Impulse ersetzt werden.",
+      "difficulty": 5,
+      "subcategory": "Legendre-Transformation (L→H)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Spektroskopie mittels Kernreaktionen",
+      "question": "Welche Technik wird häufig verwendet, um die Energie von Kernen in einer Kernreaktion zu messen?",
+      "choices": [
+        "A: Infrarotspektroskopie",
+        "B: Röntgenfluoreszenzanalyse",
+        "C: Elektronenspinresonanz",
+        "D: Gamma-Spektroskopie"
+      ],
+      "correct_answer": "D",
+      "explanation": "Gamma-Spektroskopie ist eine Methode, die Gamma-Strahlung detektiert, die während Kernreaktionen emittiert wird. Diese Technik ermöglicht die Analyse der Energiezustände von Kernen und ist daher besonders wichtig in der Kern- und Teilchenphysik.",
+      "difficulty": 4,
+      "subcategory": "Spektroskopie mittels Kernreaktionen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Maxwell–Boltzmann-Verteilung",
+      "question": "Was beschreibt die Maxwell–Boltzmann-Verteilung in der klassischen Mechanik?",
+      "choices": [
+        "A: Die Temperatur eines Festkörpers.",
+        "B: Die Geschwindigkeitsverteilung von Teilchen in einem idealen Gas.",
+        "C: Die Bewegungsbahnen von Planeten im Sonnensystem.",
+        "D: Die Energieverteilung von Elektronen in einem Atom."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Maxwell–Boltzmann-Verteilung beschreibt, wie die Geschwindigkeiten von Teilchen in einem idealen Gas verteilt sind. Sie zeigt, dass bei einer bestimmten Temperatur viele Teilchen eine mittlere Geschwindigkeit haben, während einige Teilchen viel schneller oder langsamer sind.",
+      "difficulty": 3,
+      "subcategory": "Maxwell–Boltzmann-Verteilung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Bindungsenergie von Ionenkristallen",
+      "question": "Welche Aussage über die Bindungsenergie von Ionenkristallen ist korrekt?",
+      "choices": [
+        "A: Die Bindungsenergie ist direkt proportional zur Ladung der Ionen.",
+        "B: Die Bindungsenergie ist unabhängig von der Kristallstruktur.",
+        "C: Die Bindungsenergie ist immer negativ.",
+        "D: Die Bindungsenergie ist unabhängig von der Größe der Ionen."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Bindungsenergie von Ionenkristallen hängt von der Ladung der Ionen ab; je höher die Ladung, desto größer ist die Bindungsenergie. Diese Energie ist entscheidend für die Stabilität des Kristalls und beeinflusst die physikalischen Eigenschaften des Materials.",
+      "difficulty": 6,
+      "subcategory": "Bindungsenergie von Ionenkristallen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Auflösungsvermögen optischer Geräte",
+      "question": "Was beschreibt das Auflösungsvermögen eines optischen Geräts?",
+      "choices": [
+        "A: Die maximale Vergrößerung, die ein Gerät erreichen kann.",
+        "B: Die Lichtmenge, die ein Gerät durchlassen kann.",
+        "C: Die Farbgenauigkeit der abgebildeten Objekte.",
+        "D: Die Fähigkeit, zwei nahe beieinander liegende Punkte als getrennt wahrzunehmen."
+      ],
+      "correct_answer": "D",
+      "explanation": "Das Auflösungsvermögen eines optischen Geräts gibt an, wie fein es Details unterscheiden kann. Ein höheres Auflösungsvermögen bedeutet, dass zwei nahe beieinander liegende Punkte klar als getrennte Punkte erkannt werden können.",
+      "difficulty": 3,
+      "subcategory": "Auflösungsvermögen optischer Geräte"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Reibungsvakuummeter",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt den Funktionsmechanismus eines Reibungsvakuummeters?",
+      "choices": [
+        "A: Es misst den Druck durch die Reibung zwischen einer beweglichen und einer festen Oberfläche im Vakuum.",
+        "B: Es misst den Druck durch die elektrische Leitfähigkeit von Gasen im Vakuum.",
+        "C: Es verwendet eine Flüssigkeit, die bei Vakuumdruck verdampft, um den Druck zu bestimmen.",
+        "D: Es arbeitet auf der Basis von Temperaturänderungen, die durch den Druck im Vakuum verursacht werden."
+      ],
+      "correct_answer": "A",
+      "explanation": "Ein Reibungsvakuummeter basiert auf dem Prinzip der Reibung zwischen einer beweglichen und einer festen Oberfläche, die in einem Vakuum angeordnet ist. Der Druck kann durch die Reibungskraft bestimmt werden, die von der Geschwindigkeit der beweglichen Oberfläche abhängt.",
+      "difficulty": 8,
+      "subcategory": "Reibungsvakuummeter"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Photonengas & Plancksches Strahlungsgesetz",
+      "question": "Was beschreibt das Plancksche Strahlungsgesetz?",
+      "choices": [
+        "A: Die Wechselwirkung zwischen Materie und elektromagnetischen Feldern.",
+        "B: Die Energieverteilung von Photonen in einem thermischen Gleichgewicht.",
+        "C: Die Geschwindigkeit von Licht in verschiedenen Medien.",
+        "D: Die Gravitationskraft zwischen zwei Massen."
+      ],
+      "correct_answer": "B",
+      "explanation": "Das Plancksche Strahlungsgesetz beschreibt, wie die Energieverteilung von Photonen in einem idealen Photonengas aussieht, das sich im thermischen Gleichgewicht befindet. Es erklärt, wie die Intensität der Strahlung von der Temperatur des Körpers abhängt und ist grundlegend für das Verständnis der thermischen Strahlung.",
+      "difficulty": 4,
+      "subcategory": "Photonengas & Plancksches Strahlungsgesetz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Schalenmodell",
+      "question": "Was beschreibt das Schalenmodell in der Atomphysik?",
+      "choices": [
+        "A: Die Wechselwirkung zwischen verschiedenen Atomsorten.",
+        "B: Die Temperaturabhängigkeit der Elektronenkonfiguration.",
+        "C: Die Bewegung von Protonen und Neutronen im Atomkern.",
+        "D: Die Verteilung der Elektronen in diskreten Energieniveaus."
+      ],
+      "correct_answer": "D",
+      "explanation": "Das Schalenmodell beschreibt, dass Elektronen in bestimmten Energieniveaus oder 'Schalen' um den Atomkern angeordnet sind. Diese Schalen sind quantisiert, was bedeutet, dass Elektronen nur bestimmte Energien besitzen können und nicht dazwischen liegen können.",
+      "difficulty": 3,
+      "subcategory": "Schalenmodell"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Ableitungen thermodynamischer Größen & Maxwell-Relationen",
+      "question": "Welche der folgenden Gleichungen stellt eine Maxwell-Relation dar?",
+      "choices": [
+        "A: (∂U/∂V)_T = (∂P/∂S)_V",
+        "B: (∂S/∂T)_V = (∂U/∂V)_T",
+        "C: (∂H/∂P)_T = (∂T/∂S)_P",
+        "D: (∂S/∂V)_T = (∂P/∂T)_V"
+      ],
+      "correct_answer": "D",
+      "explanation": "Maxwell-Relationen sind Beziehungen zwischen partiellen Ableitungen thermodynamischer Größen. Die Gleichung A ist korrekt, da sie eine Beziehung zwischen Entropie S und Druck P beschreibt, die aus der thermodynamischen Potentialtheorie abgeleitet werden kann.",
+      "difficulty": 4,
+      "subcategory": "Ableitungen thermodynamischer Größen & Maxwell-Relationen"
+    }
+  ]
+}

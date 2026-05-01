@@ -1,0 +1,185 @@
+{
+  "date": "2026-05-01",
+  "generated_at": "2026-05-01T04:26:06Z",
+  "schema_version": 6,
+  "mode": "schwer",
+  "questions": [
+    {
+      "category": "Glaube & Religion",
+      "topic": "Klassische & nordische Mythologien",
+      "question": "Which Roman god is known as the god of war?",
+      "choices": [
+        "A: Diana",
+        "B: Venus",
+        "C: Mars",
+        "D: Jupiter"
+      ],
+      "correct_answer": "C",
+      "explanation": "Mars is the god of war in Roman mythology and is often associated with military strength. He was also the father of Romulus, the legendary founder of Rome, underscoring his significance in Roman culture.",
+      "difficulty": 6
+    },
+    {
+      "question": "What term refers to the maximum increase in rent that landlords in a subsidized region are allowed to charge in a specific period?",
+      "category": "Alltag & Gesellschaft",
+      "subcategory": "Wohnungssuche & Immobilienmarkt",
+      "difficulty": 6,
+      "choices": [
+        "A: Rent control",
+        "B: Rent ceiling",
+        "C: Rent freeze regulation",
+        "D: Rent adjustment law"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "category": "Essen und Trinken",
+      "topic": "Getränke",
+      "question": "Which beer style is traditionally associated with the Reinheitsgebot of 1516 and exclusively uses water, barley malt, and hops?",
+      "choices": [
+        "A: Kölsch",
+        "B: Wheat beer",
+        "C: Pilsner",
+        "D: Dark beer"
+      ],
+      "correct_answer": "C",
+      "explanation": "The Reinheitsgebot of 1516 states that beer can only be brewed from water, barley malt, and hops. Pilsner, one of the most well-known beer styles, adheres to this decree and is globally recognized for its clear, golden color and bitter taste.",
+      "difficulty": 7
+    },
+    {
+      "category": "Geographie",
+      "topic": "Hauptstädte",
+      "question": "Which capital city is the furthest west in Africa?",
+      "choices": [
+        "A: Abidjan",
+        "B: Accra",
+        "C: Banjul",
+        "D: Dakar"
+      ],
+      "correct_answer": "D",
+      "explanation": "Dakar is the capital of Senegal and is located at the westernmost tip of Africa. Banjul, Accra, and Abidjan are east of Dakar, with Banjul being the westernmost capital, although not the westernmost city in Africa.",
+      "difficulty": 8
+    },
+    {
+      "category": "Geschichte",
+      "topic": "Neuzeit",
+      "question": "Which event significantly contributed to the reorganization of Europe after the Napoleonic Wars?",
+      "choices": [
+        "A: The foundation of the German Empire",
+        "B: The Franco-Prussian War of 1870–1871",
+        "C: The French Revolution",
+        "D: The Congress of Vienna"
+      ],
+      "correct_answer": "D",
+      "explanation": "The Congress of Vienna in 1814/1815 was a pivotal event that reshaped the political boundaries and power dynamics in Europe following the Napoleonic Wars. The participating powers sought to establish a balance to prevent future conflicts.",
+      "difficulty": 9
+    },
+    {
+      "category": "Kunst und Literatur",
+      "topic": "Weltliteratur & Genres",
+      "question": "Which work is often considered the oldest known literary work of humanity and describes the adventures of the eponymous hero?",
+      "choices": [
+        "A: Epic of Gilgamesh",
+        "B: Kalevala",
+        "C: Iliad",
+        "D: Odyssey"
+      ],
+      "correct_answer": "A",
+      "explanation": "The Epic of Gilgamesh originates from ancient Mesopotamia and narrates the tale of King Gilgamesh and his friendship with Enkidu. It explores themes such as friendship, death, and the quest for immortality, serving as one of the earliest examples of epic poetry.",
+      "difficulty": 9
+    },
+    {
+      "category": "Natur",
+      "topic": "Pflanzenwelt",
+      "question": "Which of the following plant species is typically adapted to saline soils and is referred to as a halophyte?",
+      "choices": [
+        "A: Waterweed",
+        "B: Cactus",
+        "C: Oak",
+        "D: Mangrove"
+      ],
+      "correct_answer": "D",
+      "explanation": "Halophytes are plants that thrive in salty environments. The mangrove is a prime example of such a plant that grows in coastal areas and has adapted to salty conditions.",
+      "difficulty": 7
+    },
+    {
+      "question": "Who is the current President of the United States?",
+      "choices": [
+        "A. Joe Biden",
+        "B. Donald Trump",
+        "C. Barack Obama"
+      ],
+      "correct_answer": "A",
+      "difficulty": 1,
+      "category": "politics"
+    },
+    {
+      "category": "Sport",
+      "topic": "Fußball",
+      "question": "Which league is the only North American league that plays a championship in a knockout system with the best teams from the regular season?",
+      "choices": [
+        "A: USL Championship",
+        "B: Canadian Premier League",
+        "C: Liga MX",
+        "D: Major League Soccer (MLS)"
+      ],
+      "correct_answer": "C",
+      "explanation": "The Liga MX introduces the Liguilla system, where the top teams from the regular season compete in a knockout round for the championship. This differs from the MLS, which structures its playoffs differently and does not play a championship in the traditional knockout style.",
+      "difficulty": 9
+    },
+    {
+      "category": "Language",
+      "topic": "Etymology",
+      "question": "Which of the following English words is derived from Slavic origins?",
+      "choices": [
+        "A: Vodka",
+        "B: Borscht",
+        "C: Cabbage",
+        "D: Sausage"
+      ],
+      "correct_answer": "A",
+      "explanation": "The word 'vodka' comes from the Slavic word 'voda,' meaning 'water.' It reflects the influence of Slavic languages on English, particularly in terms of culinary and beverage vocabulary.",
+      "difficulty": 5
+    },
+    {
+      "category": "Technologie",
+      "topic": "KI & Zukunftstechnologien",
+      "question": "Which quantum algorithm framework is commonly used for machine learning and optimization problems?",
+      "choices": [
+        "A: PyTorch",
+        "B: Qiskit",
+        "C: Scikit-learn",
+        "D: TensorFlow"
+      ],
+      "correct_answer": "B",
+      "explanation": "Qiskit is an open-source framework designed specifically for developing quantum applications and is frequently used in conjunction with quantum computers for machine learning. TensorFlow, PyTorch, and Scikit-learn are classical machine learning frameworks that are not specialized in quantum algorithms.",
+      "difficulty": 10
+    },
+    {
+      "question": "Which agreement in 1994 led to the creation of one of the largest free trade zones in the world?",
+      "category": "Wirtschaft & Finanzen",
+      "subcategory": "Globalisierung & Freihandel",
+      "difficulty": 8,
+      "choices": [
+        "A: NAFTA",
+        "B: GATT",
+        "C: EFTA",
+        "D: WTO"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "category": "Wissenschaft",
+      "topic": "Physik",
+      "question": "Which of the following concepts describes the phenomenon that particles in quantum mechanics cannot simultaneously have an exact position and a defined state?",
+      "choices": [
+        "A: Double-slit experiment",
+        "B: Heisenberg Uncertainty Principle",
+        "C: Schrödinger's cat",
+        "D: Quantum entanglement"
+      ],
+      "correct_answer": "B",
+      "explanation": "The Heisenberg Uncertainty Principle states that one cannot determine both the exact location and momentum of a particle simultaneously. This principle is fundamental to understanding quantum mechanics and highlights the limits of classical physics.",
+      "difficulty": 10
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "date": "2026-05-01",
+  "generated_at": "2026-05-01T04:26:20Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "RG-Ideen: Ising 1D/2D & Dezimierung",
+      "question": "Which of the following systems exhibits a phase transition at a critical temperature in the 2D Ising model?",
+      "choices": [
+        "A: Water",
+        "B: Ideal gas",
+        "C: Superfluid helium",
+        "D: Ferromagnetic material"
+      ],
+      "correct_answer": "D",
+      "explanation": "In the 2D Ising model, the ferromagnetic material undergoes a phase transition from a disordered to an ordered state at a specific critical temperature. This is a central concept in statistical mechanics, demonstrating the importance of interactions in matter.",
+      "difficulty": 5,
+      "subcategory": "RG-Ideen: Ising 1D/2D & Dezimierung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Legendre-Transformation (L→H)",
+      "question": "What does the Legendre transformation describe in analytical mechanics?",
+      "choices": [
+        "A: The transition from Lagrangian functions to Hamiltonian functions.",
+        "B: The calculation of forces in a physical system.",
+        "C: The relationship between velocity and acceleration.",
+        "D: The conservation of energy in a closed system."
+      ],
+      "correct_answer": "A",
+      "explanation": "The Legendre transformation is used to switch from the Lagrangian representation of a system to the Hamiltonian representation. This provides an alternative view of a system's dynamics by replacing generalized coordinates with momenta.",
+      "difficulty": 5,
+      "subcategory": "Legendre-Transformation (L→H)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Spektroskopie mittels Kernreaktionen",
+      "question": "Which technique is commonly used to measure the energy of nuclei in a nuclear reaction?",
+      "choices": [
+        "A: Infrared spectroscopy",
+        "B: X-ray fluorescence analysis",
+        "C: Electron spin resonance",
+        "D: Gamma spectroscopy"
+      ],
+      "correct_answer": "D",
+      "explanation": "Gamma spectroscopy is a method that detects gamma radiation emitted during nuclear reactions. This technique allows for the analysis of energy states of nuclei, making it particularly important in nuclear and particle physics.",
+      "difficulty": 4,
+      "subcategory": "Spektroskopie mittels Kernreaktionen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Maxwell–Boltzmann-Verteilung",
+      "question": "What does the Maxwell–Boltzmann distribution describe in classical mechanics?",
+      "choices": [
+        "A: The temperature of a solid.",
+        "B: The velocity distribution of particles in an ideal gas.",
+        "C: The orbits of planets in the solar system.",
+        "D: The energy distribution of electrons in an atom."
+      ],
+      "correct_answer": "B",
+      "explanation": "The Maxwell–Boltzmann distribution describes how particle velocities are distributed in an ideal gas. It shows that at a certain temperature, many particles have an average velocity, while some are much faster or slower.",
+      "difficulty": 3,
+      "subcategory": "Maxwell–Boltzmann-Verteilung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Bindungsenergie von Ionenkristallen",
+      "question": "Which statement about the binding energy of ionic crystals is correct?",
+      "choices": [
+        "A: The binding energy is directly proportional to the ions' charges.",
+        "B: The binding energy is independent of the crystal structure.",
+        "C: The binding energy is always negative.",
+        "D: The binding energy is independent of the ions' sizes."
+      ],
+      "correct_answer": "A",
+      "explanation": "The binding energy of ionic crystals depends on the ions' charges; the higher the charge, the greater the binding energy. This energy is crucial for the crystal's stability and influences the material's physical properties.",
+      "difficulty": 6,
+      "subcategory": "Bindungsenergie von Ionenkristallen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Auflösungsvermögen optischer Geräte",
+      "question": "What does the resolving power of an optical device describe?",
+      "choices": [
+        "A: The maximum magnification an instrument can achieve.",
+        "B: The amount of light an instrument can transmit.",
+        "C: The color accuracy of depicted objects.",
+        "D: The ability to perceive two closely spaced points as separate."
+      ],
+      "correct_answer": "D",
+      "explanation": "The resolving power of an optical device indicates how finely it can distinguish details. A higher resolving power means that two closely spaced points can be clearly recognized as separate points.",
+      "difficulty": 3,
+      "subcategory": "Auflösungsvermögen optischer Geräte"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Reibungsvakuummeter",
+      "question": "Which of the following statements correctly describes the operational mechanism of a friction vacuum gauge?",
+      "choices": [
+        "A: It measures pressure through the friction between a moving and a fixed surface in a vacuum.",
+        "B: It measures pressure through the electrical conductivity of gases in a vacuum.",
+        "C: It uses a liquid that evaporates at vacuum pressure to determine the pressure.",
+        "D: It operates based on temperature changes caused by pressure in a vacuum."
+      ],
+      "correct_answer": "A",
+      "explanation": "A friction vacuum gauge is based on the principle of friction between a moving and a fixed surface arranged in a vacuum. The pressure can be determined by the frictional force dependent on the speed of the moving surface.",
+      "difficulty": 8,
+      "subcategory": "Reibungsvakuummeter"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Photonengas & Plancksches Strahlungsgesetz",
+      "question": "What does Planck's radiation law describe?",
+      "choices": [
+        "A: The interaction between matter and electromagnetic fields.",
+        "B: The energy distribution of photons in thermal equilibrium.",
+        "C: The speed of light in different media.",
+        "D: The gravitational force between two masses."
+      ],
+      "correct_answer": "B",
+      "explanation": "Planck's radiation law describes the energy distribution of photons in an ideal photon gas in thermal equilibrium. It explains how radiation intensity depends on the body's temperature and is fundamental for understanding thermal radiation.",
+      "difficulty": 4,
+      "subcategory": "Photonengas & Plancksches Strahlungsgesetz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Schalenmodell",
+      "question": "What does the shell model describe in atomic physics?",
+      "choices": [
+        "A: The interaction between different types of atoms.",
+        "B: The temperature dependence of electron configuration.",
+        "C: The motion of protons and neutrons in the atomic nucleus.",
+        "D: The distribution of electrons in discrete energy levels."
+      ],
+      "correct_answer": "D",
+      "explanation": "The shell model describes that electrons are arranged in specific energy levels or 'shells' around the atomic nucleus. These shells are quantized, meaning electrons can only have certain energies and cannot exist between them.",
+      "difficulty": 3,
+      "subcategory": "Schalenmodell"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Ableitungen thermodynamischer Größen & Maxwell-Relationen",
+      "question": "Which of the following equations represents a Maxwell relation?",
+      "choices": [
+        "A: (∂U/∂V)_T = (∂P/∂S)_V",
+        "B: (∂S/∂T)_V = (∂U/∂V)_T",
+        "C: (∂H/∂P)_T = (∂T/∂S)_P",
+        "D: (∂S/∂V)_T = (∂P/∂T)_V"
+      ],
+      "correct_answer": "D",
+      "explanation": "Maxwell relations are relationships between partial derivatives of thermodynamic quantities. Equation A is correct as it describes a relationship between entropy S and pressure P derived from thermodynamic potential theory.",
+      "difficulty": 4,
+      "subcategory": "Ableitungen thermodynamischer Größen & Maxwell-Relationen"
+    }
+  ]
+}
