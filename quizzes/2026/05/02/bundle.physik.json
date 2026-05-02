@@ -1,0 +1,169 @@
+{
+  "date": "2026-05-02",
+  "generated_at": "2026-05-02T04:08:37Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Legendre-Transformation (U↔H↔F↔G)",
+      "question": "Welche der folgenden Aussagen zur Legendre-Transformation in der Thermodynamik ist korrekt?",
+      "choices": [
+        "A: Die Legendre-Transformation ermöglicht den Wechsel zwischen Wärme- und Gibbs-Energie bei konstantem Druck.",
+        "B: Die Legendre-Transformation verwandelt die innere Energie U in die Helmholtz freie Energie F durch die Beziehung F = U - TS.",
+        "C: Die Legendre-Transformation ist nur für thermodynamische Potentiale anwendbar, die von der Temperatur abhängen.",
+        "D: Die Legendre-Transformation ist nicht anwendbar auf Systeme mit nicht-konservativen Kräften."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Legendre-Transformation ist eine Methode, um zwischen verschiedenen thermodynamischen Potentialen zu wechseln. In der Beziehung F = U - TS wird die Helmholtz freie Energie aus der inneren Energie U abgeleitet, wobei T die Temperatur und S die Entropie ist. Diese Transformation ist fundamental in der Thermodynamik zur Analyse von Systemen unter verschiedenen Bedingungen.",
+      "difficulty": 10,
+      "subcategory": "Legendre-Transformation (U↔H↔F↔G)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Virialsatz & Äquipartition (Gleichverteilungssatz)",
+      "question": "Welches der folgenden Konzepte beschreibt, dass die Energie eines Systems gleichmäßig auf die Freiheitsgrade verteilt ist?",
+      "choices": [
+        "A: Zweiter Hauptsatz der Thermodynamik",
+        "B: Erster Hauptsatz der Thermodynamik",
+        "C: Äquipartitionstheorem",
+        "D: Clausius-Clapeyron-Gleichung"
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Äquipartitionstheorem besagt, dass in einem thermodynamischen Gleichgewicht die Energie eines Systems gleichmäßig auf alle Freiheitsgrade verteilt ist. Dies ist ein zentrales Konzept in der statistischen Mechanik und hilft, das Verhalten von Partikeln in einem System zu verstehen.",
+      "difficulty": 7,
+      "subcategory": "Virialsatz & Äquipartition (Gleichverteilungssatz)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Atom und seine Bausteine",
+      "question": "Welches der folgenden Teilchen ist kein Bestandteil des Atomkerns?",
+      "choices": [
+        "A: Positron",
+        "B: Proton",
+        "C: Neutron",
+        "D: Elektron"
+      ],
+      "correct_answer": "D",
+      "explanation": "Der Atomkern besteht aus Protonen und Neutronen. Elektronen befinden sich in der Elektronenhülle um den Atomkern und sind somit kein Bestandteil des Kerns. Positronen sind Antiteilchen zu Elektronen und auch nicht im Atomkern zu finden.",
+      "difficulty": 9,
+      "subcategory": "Atom und seine Bausteine"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Bezug zur Quantenmechanik (Kommutator ↔ Poisson)",
+      "question": "Welches der folgenden Paare von physikalischen Größen ist ein Beispiel für kommutierende Größen in der Quantenmechanik?",
+      "choices": [
+        "A: Spin und Spin",
+        "B: Ort und Impuls",
+        "C: Energie und Zeit",
+        "D: Temperatur und Druck"
+      ],
+      "correct_answer": "A",
+      "explanation": "In der Quantenmechanik kommutieren Spinoperatoren miteinander, was bedeutet, dass sie gleichzeitig genau bestimmt werden können. Im Gegensatz dazu sind Ort und Impuls gemäß dem Heisenbergschen Unschärferelationsprinzip nicht kommutierend, was zu Einschränkungen bei ihrer gleichzeitigen Messung führt.",
+      "difficulty": 6,
+      "subcategory": "Bezug zur Quantenmechanik (Kommutator ↔ Poisson)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Maxwell-Gleichungen in kovarianter Form",
+      "question": "Welche der folgenden Aussagen beschreibt die kovariante Form der Maxwell-Gleichungen korrekt?",
+      "choices": [
+        "A: Die Maxwell-Gleichungen können in Form von eineinheitlichen Tensoren dargestellt werden.",
+        "B: Die Maxwell-Gleichungen sind nur in einem nicht-inertialen Bezugssystem gültig.",
+        "C: Die Maxwell-Gleichungen gelten ausschließlich für statische elektrische Felder.",
+        "D: Die Maxwell-Gleichungen beschreiben nur magnetische Phänomene."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die kovariante Form der Maxwell-Gleichungen ermöglicht eine elegante Darstellung der elektrodynamischen Gesetze in relativistischen Systemen. Sie nutzt Tensoren, um die Gleichungen so zu formulieren, dass sie in allen Bezugssystemen, einschließlich beschleunigter Systeme, gültig sind.",
+      "difficulty": 5,
+      "subcategory": "Maxwell-Gleichungen in kovarianter Form"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Interferenz & Beugung elektromagnetischer Wellen",
+      "question": "Was beschreibt das Phänomen der Interferenz von elektromagnetischen Wellen?",
+      "choices": [
+        "A: Die Reflexion von Wellen an einer Grenzfläche.",
+        "B: Die Überlagerung von Wellen, die zu verstärkten oder abgeschwächten Amplituden führt.",
+        "C: Die Absorption von Wellen durch Materie.",
+        "D: Die Ablenkung von Wellen, wenn sie auf ein Hindernis treffen."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Interferenz von elektromagnetischen Wellen tritt auf, wenn zwei oder mehr Wellen sich überlagern und ihre Amplituden addiert oder subtrahiert werden. Dies kann zu konstruktiver oder destruktiver Interferenz führen, abhängig von der Phase der beteiligten Wellen.",
+      "difficulty": 5,
+      "subcategory": "Interferenz & Beugung elektromagnetischer Wellen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Erzeugung & Nachweis von Baryonen",
+      "question": "Was ist eine gängige Methode zur Erzeugung von Baryonen in Teilchenbeschleunigern?",
+      "choices": [
+        "A: Kollision von Protonen mit hohen Energien",
+        "B: Kühlung von Atomen auf ultratiefe Temperaturen",
+        "C: Absorption von Photonen in einem Vakuum",
+        "D: Erzeugung von elektrischen Feldern"
+      ],
+      "correct_answer": "A",
+      "explanation": "Baryonen werden häufig in Teilchenbeschleunigern erzeugt, indem hochenergetische Protonen aufeinander geschossen werden. Diese Kollisionen führen zu den Bedingungen, die notwendig sind, um Baryonen aus den Energiequellen gemäß der Äquivalenz von Masse und Energie zu erzeugen.",
+      "difficulty": 5,
+      "subcategory": "Erzeugung & Nachweis von Baryonen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Wärmeleitungsmanometer",
+      "question": "Was misst ein Wärmeleitungsmanometer?",
+      "choices": [
+        "A: Den Druck von Gasen oder Flüssigkeiten",
+        "B: Die Wärmeleitfähigkeit von Materialien",
+        "C: Die Geschwindigkeit von bewegten Objekten",
+        "D: Die Temperatur von festen Stoffen"
+      ],
+      "correct_answer": "A",
+      "explanation": "Ein Wärmeleitungsmanometer misst den Druck von Gasen oder Flüssigkeiten, indem es die Wärmeleitung in einem bestimmten Material nutzt. Es funktioniert auf der Grundlage der Temperaturänderungen, die durch Druckänderungen verursacht werden.",
+      "difficulty": 1,
+      "subcategory": "Wärmeleitungsmanometer"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Gleichgewichtsbedingungen (allgemein)",
+      "question": "Was besagt das Gleichgewichtsgesetz in der Thermodynamik?",
+      "choices": [
+        "A: Wärme kann nicht übertragen werden.",
+        "B: Die Temperatur bleibt konstant.",
+        "C: Die Summe der Kräfte ist gleich null.",
+        "D: Druck und Volumen sind unabhängig."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Gleichgewichtsgesetz in der Thermodynamik besagt, dass die Summe aller Kräfte, die auf ein System wirken, gleich null sein muss, damit das System im Gleichgewicht bleibt. Dies ist entscheidend für das Verständnis von Stabilität in thermischen Systemen.",
+      "difficulty": 5,
+      "subcategory": "Gleichgewichtsbedingungen (allgemein)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Inelastische Kernanregungen",
+      "question": "Was beschreibt der Begriff 'inelastische Kernanregung' in der Kernphysik?",
+      "choices": [
+        "A: Die Wechselwirkung, bei der ein Kern durch den Einfluss eines anderen Teilchens in einen höheren energetischen Zustand versetzt wird.",
+        "B: Die Spaltung eines Kerns in zwei leichtere Kerne.",
+        "C: Die Fusion von zwei Kernen zu einem stabilen, schwereren Kern.",
+        "D: Die Streuung von Teilchen ohne Energieübertragung zwischen den Teilchen."
+      ],
+      "correct_answer": "A",
+      "explanation": "Eine inelastische Kernanregung tritt auf, wenn ein Kern durch den Einfluss eines anderen Teilchens in einen angeregten Zustand versetzt wird. Diese Art der Wechselwirkung führt zu einer Energieübertragung und ist entscheidend für das Verständnis von Kernreaktionen und -prozessen.",
+      "difficulty": 7,
+      "subcategory": "Inelastische Kernanregungen"
+    }
+  ]
+}

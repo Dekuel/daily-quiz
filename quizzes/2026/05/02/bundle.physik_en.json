@@ -1,0 +1,168 @@
+{
+  "date": "2026-05-02",
+  "generated_at": "2026-05-02T04:09:19Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Legendre-Transformation (U↔H↔F↔G)",
+      "question": "Which of the following statements about the Legendre transformation in thermodynamics is correct?",
+      "choices": [
+        "A: The Legendre transformation allows switching between heat and Gibbs energy at constant pressure.",
+        "B: The Legendre transformation converts the internal energy U into the Helmholtz free energy F through the relation F = U - TS.",
+        "C: The Legendre transformation is only applicable to thermodynamic potentials dependent on temperature.",
+        "D: The Legendre transformation is not applicable to systems with non-conservative forces."
+      ],
+      "correct_answer": "B",
+      "explanation": "The Legendre transformation is a method to switch between different thermodynamic potentials. In the relation F = U - TS, the Helmholtz free energy is derived from the internal energy U, where T is the temperature and S is the entropy. This transformation is fundamental in thermodynamics for analyzing systems under different conditions.",
+      "difficulty": 10,
+      "subcategory": "Legendre-Transformation (U↔H↔F↔G)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Virialsatz & Äquipartition (Gleichverteilungssatz)",
+      "question": "Which of the following concepts describes that the energy of a system is evenly distributed among its degrees of freedom?",
+      "choices": [
+        "A: Second Law of Thermodynamics",
+        "B: First Law of Thermodynamics",
+        "C: Equipartition Theorem",
+        "D: Clausius-Clapeyron Equation"
+      ],
+      "correct_answer": "C",
+      "explanation": "The equipartition theorem states that in thermodynamic equilibrium, the energy of a system is evenly distributed among all degrees of freedom. This is a central concept in statistical mechanics and helps understand the behavior of particles in a system.",
+      "difficulty": 7,
+      "subcategory": "Virialsatz & Äquipartition (Gleichverteilungssatz)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Atom und seine Bausteine",
+      "question": "Which of the following particles is not a component of the atomic nucleus?",
+      "choices": [
+        "A: Positron",
+        "B: Proton",
+        "C: Neutron",
+        "D: Electron"
+      ],
+      "correct_answer": "D",
+      "explanation": "The atomic nucleus consists of protons and neutrons. Electrons are located in the electron shell around the atomic nucleus and thus are not part of the nucleus. Positrons are antiparticles to electrons and are also not found in the nucleus.",
+      "difficulty": 9,
+      "subcategory": "Atom und seine Bausteine"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Bezug zur Quantenmechanik (Kommutator ↔ Poisson)",
+      "question": "Which of the following pairs of physical quantities is an example of commuting quantities in quantum mechanics?",
+      "choices": [
+        "A: Spin and Spin",
+        "B: Position and Momentum",
+        "C: Energy and Time",
+        "D: Temperature and Pressure"
+      ],
+      "correct_answer": "A",
+      "explanation": "In quantum mechanics, spin operators commute with each other, meaning they can be precisely determined simultaneously. In contrast, position and momentum do not commute according to the Heisenberg Uncertainty Principle, leading to restrictions in their simultaneous measurement.",
+      "difficulty": 6,
+      "subcategory": "Bezug zur Quantenmechanik (Kommutator ↔ Poisson)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Maxwell-Gleichungen in kovarianter Form",
+      "question": "Which of the following statements correctly describes the covariant form of the Maxwell equations?",
+      "choices": [
+        "A: The Maxwell equations can be represented in terms of unified tensors.",
+        "B: The Maxwell equations are only valid in a non-inertial reference frame.",
+        "C: The Maxwell equations apply exclusively to static electric fields.",
+        "D: The Maxwell equations describe only magnetic phenomena."
+      ],
+      "correct_answer": "A",
+      "explanation": "The covariant form of the Maxwell equations allows an elegant representation of the electrodynamics laws in relativistic systems. It uses tensors to formulate the equations so that they are valid in all reference frames, including accelerated systems.",
+      "difficulty": 5,
+      "subcategory": "Maxwell-Gleichungen in kovarianter Form"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Interferenz & Beugung elektromagnetischer Wellen",
+      "question": "What describes the phenomenon of interference of electromagnetic waves?",
+      "choices": [
+        "A: Reflection of waves at a boundary.",
+        "B: Superposition of waves leading to amplified or diminished amplitudes.",
+        "C: Absorption of waves by matter.",
+        "D: Deflection of waves when encountering an obstacle."
+      ],
+      "correct_answer": "B",
+      "explanation": "The interference of electromagnetic waves occurs when two or more waves overlap, and their amplitudes are added or subtracted. This can lead to constructive or destructive interference, depending on the phase of the waves involved.",
+      "difficulty": 5,
+      "subcategory": "Interferenz & Beugung elektromagnetischer Wellen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Erzeugung & Nachweis von Baryonen",
+      "question": "What is a common method for generating baryons in particle accelerators?",
+      "choices": [
+        "A: Collision of high-energy protons",
+        "B: Cooling of atoms to ultra-low temperatures",
+        "C: Absorption of photons in a vacuum",
+        "D: Generation of electric fields"
+      ],
+      "correct_answer": "A",
+      "explanation": "Baryons are often generated in particle accelerators by colliding high-energy protons. These collisions create the conditions necessary to produce baryons from energy sources according to the equivalence of mass and energy.",
+      "difficulty": 5,
+      "subcategory": "Erzeugung & Nachweis von Baryonen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Wärmeleitungsmanometer",
+      "question": "What does a heat conduction gauge measure?",
+      "choices": [
+        "A: The pressure of gases or liquids",
+        "B: The thermal conductivity of materials",
+        "C: The speed of moving objects",
+        "D: The temperature of solid substances"
+      ],
+      "correct_answer": "A",
+      "explanation": "A heat conduction gauge measures the pressure of gases or liquids by utilizing heat conduction in a specific material. It operates based on the temperature changes caused by pressure variations.",
+      "difficulty": 1,
+      "subcategory": "Wärmeleitungsmanometer"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Gleichgewichtsbedingungen (allgemein)",
+      "question": "What does the equilibrium law in thermodynamics state?",
+      "choices": [
+        "A: Heat cannot be transferred.",
+        "B: The temperature remains constant.",
+        "C: The sum of forces is equal to zero.",
+        "D: Pressure and volume are independent."
+      ],
+      "correct_answer": "C",
+      "explanation": "The equilibrium law in thermodynamics states that the sum of all forces acting on a system must be zero for the system to remain in equilibrium. This is crucial for understanding stability in thermal systems.",
+      "difficulty": 5,
+      "subcategory": "Gleichgewichtsbedingungen (allgemein)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Inelastische Kernanregungen",
+      "question": "What does the term 'inelastic nuclear excitation' in nuclear physics describe?",
+      "choices": [
+        "A: The interaction where a nucleus is excited to a higher energetic state by the influence of another particle.",
+        "B: The splitting of a nucleus into two lighter nuclei.",
+        "C: The fusion of two nuclei into a stable, heavier nucleus.",
+        "D: The scattering of particles without energy transfer between them."
+      ],
+      "correct_answer": "A",
+      "explanation": "An inelastic nuclear excitation occurs when a nucleus is excited to a higher energy state by the influence of another particle. This type of interaction leads to energy transfer and is crucial for understanding nuclear reactions and processes.",
+      "difficulty": 7,
+      "subcategory": "Inelastische Kernanregungen"
+    }
+  ]
+}

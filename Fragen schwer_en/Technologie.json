@@ -2058,6 +2058,20 @@
       "correct_answer": "B",
       "explanation": "Qiskit is an open-source framework designed specifically for developing quantum applications and is frequently used in conjunction with quantum computers for machine learning. TensorFlow, PyTorch, and Scikit-learn are classical machine learning frameworks that are not specialized in quantum algorithms.",
       "difficulty": 10
+    },
+    {
+      "category": "Technologie",
+      "topic": "Smartphones & Apps",
+      "question": "Which method is commonly used to encrypt data on smartphones to protect it from unauthorized access?",
+      "choices": [
+        "A: AES (Advanced Encryption Standard)",
+        "B: Blowfish",
+        "C: RSA (Rivest-Shamir-Adleman)",
+        "D: DES (Data Encryption Standard)"
+      ],
+      "correct_answer": "A",
+      "explanation": "AES is the most common standard for symmetric encryption on smartphones, as it offers both high security and performance. While DES is outdated and RSA is typically used for asymmetric encryption, Blowfish is less commonly used in current mobile applications.",
+      "difficulty": 9
     }
   ]
 }
