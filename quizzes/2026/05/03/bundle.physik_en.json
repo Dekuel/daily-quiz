@@ -1,0 +1,168 @@
+{
+  "date": "2026-05-03",
+  "generated_at": "2026-05-03T04:21:49Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Kriterien für Kanonizität (Symplektizität)",
+      "question": "What criterion is crucial for the canonicity of a system in analytical mechanics?",
+      "choices": [
+        "A: The symplecticity of the Hamiltonian equations",
+        "B: The conservation of mass",
+        "C: The conservation of energy",
+        "D: The conservation of momentum"
+      ],
+      "correct_answer": "A",
+      "explanation": "In analytical mechanics, symplecticity is an essential criterion for the canonicity of a system. This means that the Hamiltonian equations must be formulated in a symplectic structure to obtain the canonical variables.",
+      "difficulty": 3,
+      "subcategory": "Kriterien für Kanonizität (Symplektizität)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Ideales Gas (Zustandsgleichung)",
+      "question": "Which expression describes the equation of state for an ideal gas?",
+      "choices": [
+        "A: V = nRT/P",
+        "B: n = PV/RT",
+        "C: PV = nRT",
+        "D: P = V/nRT"
+      ],
+      "correct_answer": "C",
+      "explanation": "The equation of state for an ideal gas is PV = nRT, where P is pressure, V is volume, n is the amount of substance, R is the universal gas constant, and T is temperature. This equation describes the behavior of ideal gases under various conditions and is fundamental in thermodynamics.",
+      "difficulty": 8,
+      "subcategory": "Ideales Gas (Zustandsgleichung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Zweiter Hauptsatz (Kelvin-Planck/Clausius)",
+      "question": "What does the second law of thermodynamics describe in the context of energy conversion?",
+      "choices": [
+        "A: Energy cannot be created out of nothing.",
+        "B: The efficiency of a heat engine can reach 100%.",
+        "C: Heat can be transferred from a colder body to a warmer body.",
+        "D: All processes in a closed system are reversible."
+      ],
+      "correct_answer": "A",
+      "explanation": "The second law of thermodynamics states that energy cannot be created out of nothing and that certain energetic transformations, such as heat transfer, are subject to constraints. This means, among other things, that heat cannot spontaneously flow from a colder body to a warmer body and the efficiency of heat engines is always less than 100%.",
+      "difficulty": 5,
+      "subcategory": "Zweiter Hauptsatz (Kelvin-Planck/Clausius)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Faraday’sches Induktionsgesetz",
+      "question": "Which of the following phenomena describes Faraday's law of electromagnetic induction?",
+      "choices": [
+        "A: A changing magnetic field generates an electric voltage in a closed circuit.",
+        "B: A static magnetic field can never induce an electric voltage.",
+        "C: An electric current generates a magnetic field that remains constant.",
+        "D: The temperature of a conductor affects the speed of electrons in an electric field."
+      ],
+      "correct_answer": "A",
+      "explanation": "Faraday's law of electromagnetic induction states that a change in magnetic field induces an electric voltage that flows in a closed circuit. This is fundamental for understanding transformers and electric generators.",
+      "difficulty": 8,
+      "subcategory": "Faraday’sches Induktionsgesetz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Reibung: Haftreibung",
+      "question": "Which of the following statements best describes the relationship between static friction and the normal force on a stationary object on a horizontal surface?",
+      "choices": [
+        "A: Static friction is proportional to the normal force up to a maximum value.",
+        "B: Static friction is independent of the normal force.",
+        "C: Static friction is always equal to the normal force.",
+        "D: Static friction is always less than the normal force."
+      ],
+      "correct_answer": "A",
+      "explanation": "Static friction acts up to a maximum value that is proportional to the normal force. This relationship describes how strong static friction acts to prevent the movement of a stationary object as long as the forces acting on it do not exceed this maximum static friction.",
+      "difficulty": 8,
+      "subcategory": "Reibung: Haftreibung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Reibung in der Technik (Bedeutung)",
+      "question": "Which of the following statements best describes the role of friction in technical applications?",
+      "choices": [
+        "A: Friction is only relevant in thermal processes.",
+        "B: Friction has no impact on machine efficiency.",
+        "C: Friction is always undesirable and should be completely avoided.",
+        "D: Friction can be considered both a useful and harmful element, depending on the application."
+      ],
+      "correct_answer": "D",
+      "explanation": "Friction plays a dual role in engineering: it can be useful by enabling traction and motion control, but also detrimental when leading to energy losses. Understanding this balance is crucial for designing efficient machines.",
+      "difficulty": 7,
+      "subcategory": "Reibung in der Technik (Bedeutung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Boltzmann-Gleichung (Transport)",
+      "question": "What does the Boltzmann equation describe in solid-state physics?",
+      "choices": [
+        "A: The electrical conductivity of metals.",
+        "B: The thermal conductivity of solids.",
+        "C: The motion of particles in a gas.",
+        "D: The diffusion of atoms in solids."
+      ],
+      "correct_answer": "D",
+      "explanation": "The Boltzmann equation describes the statistical distribution and transport of particles in a system, including the diffusion of atoms in solids. It is a central tool for analyzing transport phenomena in materials.",
+      "difficulty": 1,
+      "subcategory": "Boltzmann-Gleichung (Transport)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Induzierte Doppelbrechung",
+      "question": "Which property of materials leads to induced birefringence?",
+      "choices": [
+        "A: Opacity",
+        "B: Isotropy",
+        "C: Anisotropy",
+        "D: Transparency"
+      ],
+      "correct_answer": "C",
+      "explanation": "Induced birefringence occurs in anisotropic materials where light propagates at different speeds in different directions. This property causes a light beam to split into two rays with different polarization properties.",
+      "difficulty": 5,
+      "subcategory": "Induzierte Doppelbrechung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Integraldarstellung für Streuphasen",
+      "question": "Which of the following statements correctly describes the integral representation for scattering phases in quantum mechanics?",
+      "choices": [
+        "A: The integral representation is only applicable to classically mechanical systems.",
+        "B: The integral representation always provides a unique solution for scattering.",
+        "C: The integral representation enables the calculation of scattering phases from the system's wave function.",
+        "D: The integral representation requires knowledge of the system's temperature."
+      ],
+      "correct_answer": "C",
+      "explanation": "The integral representation for scattering phases in quantum mechanics allows for analyzing interactions between particles using the system's wave function. This method is central to understanding scattering processes in quantum mechanical systems.",
+      "difficulty": 7,
+      "subcategory": "Integraldarstellung für Streuphasen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Absolute thermodynamische Temperaturskala",
+      "question": "Which of the following laws describes the relationship between absolute temperature and pressure of an ideal gas when volume is held constant?",
+      "choices": [
+        "A: Clausius-Clapeyron-Gleichung",
+        "B: Gay-Lussacs Gesetz",
+        "C: Boyle-Mariottes Gesetz",
+        "D: Avogadro-Gesetz"
+      ],
+      "correct_answer": "B",
+      "explanation": "Gay-Lussac's law describes that the pressure of an ideal gas is directly proportional to the absolute temperature when volume remains constant. This is a central concept in thermodynamics and illustrates how temperature and pressure are linked.",
+      "difficulty": 10,
+      "subcategory": "Absolute thermodynamische Temperaturskala"
+    }
+  ]
+}

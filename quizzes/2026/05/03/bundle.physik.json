@@ -1,0 +1,169 @@
+{
+  "date": "2026-05-03",
+  "generated_at": "2026-05-03T04:21:10Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Kriterien für Kanonizität (Symplektizität)",
+      "question": "Welches Kriterium ist entscheidend für die Kanonizität eines Systems in der analytischen Mechanik?",
+      "choices": [
+        "A: Die Symplektizität der Hamiltonschen Gleichungen",
+        "B: Die Erhaltung der Masse",
+        "C: Die Erhaltung der Energie",
+        "D: Die Erhaltung des Impulses"
+      ],
+      "correct_answer": "A",
+      "explanation": "In der analytischen Mechanik ist die Symplektizität ein wesentliches Kriterium für die Kanonizität eines Systems. Dies bedeutet, dass die Hamiltonschen Gleichungen in einer symplektischen Struktur formuliert sein müssen, um die kanonischen Variablen zu erhalten.",
+      "difficulty": 3,
+      "subcategory": "Kriterien für Kanonizität (Symplektizität)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Ideales Gas (Zustandsgleichung)",
+      "question": "Welcher Ausdruck beschreibt die Zustandsgleichung für ein ideales Gas?",
+      "choices": [
+        "A: V = nRT/P",
+        "B: n = PV/RT",
+        "C: PV = nRT",
+        "D: P = V/nRT"
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Zustandsgleichung für ein ideales Gas lautet PV = nRT, wobei P der Druck, V das Volumen, n die Stoffmenge, R die universelle Gaskonstante und T die Temperatur ist. Diese Gleichung beschreibt das Verhalten idealer Gase unter verschiedenen Bedingungen und ist fundamental in der Thermodynamik.",
+      "difficulty": 8,
+      "subcategory": "Ideales Gas (Zustandsgleichung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Zweiter Hauptsatz (Kelvin-Planck/Clausius)",
+      "question": "Was beschreibt der zweite Hauptsatz der Thermodynamik im Kontext der Energieumwandlung?",
+      "choices": [
+        "A: Energie kann nicht aus dem Nichts erschaffen werden.",
+        "B: Der Wirkungsgrad einer Wärmemaschine kann 100 % erreichen.",
+        "C: Wärme kann von einem kälteren Körper auf einen wärmeren Körper übertragen werden.",
+        "D: Alle Prozesse in einem geschlossenen System sind umkehrbar."
+      ],
+      "correct_answer": "A",
+      "explanation": "Der zweite Hauptsatz der Thermodynamik besagt, dass Energie nicht aus dem Nichts erschaffen werden kann und dass bestimmte energetische Umwandlungen, wie die Wärmeübertragung, Einschränkungen unterliegen. Dies bedeutet unter anderem, dass Wärme nicht spontan von einem kälteren Körper auf einen wärmeren Körper fließen kann und der Wirkungsgrad von Wärmemaschinen immer unter 100 % liegt.",
+      "difficulty": 5,
+      "subcategory": "Zweiter Hauptsatz (Kelvin-Planck/Clausius)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Faraday’sches Induktionsgesetz",
+      "question": "Welches der folgenden Phänomene beschreibt das Faraday'sche Induktionsgesetz?",
+      "choices": [
+        "A: Ein sich änderndes Magnetfeld erzeugt eine elektrische Spannung in einem geschlossenen Stromkreis.",
+        "B: Ein statisches Magnetfeld kann niemals eine elektrische Spannung induzieren.",
+        "C: Ein elektrischer Strom erzeugt ein Magnetfeld, das konstant bleibt.",
+        "D: Die Temperatur eines Leiters beeinflusst die Geschwindigkeit der Elektronen in einem elektrischen Feld."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Faraday'sche Induktionsgesetz besagt, dass eine Änderung des Magnetfeldes eine elektrische Spannung induziert, die in einem geschlossenen Stromkreis fließt. Dies ist grundlegend für das Verständnis von Transformatoren und elektrischen Generatoren.",
+      "difficulty": 8,
+      "subcategory": "Faraday’sches Induktionsgesetz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Reibung: Haftreibung",
+      "question": "Welche der folgenden Aussagen beschreibt am besten das Verhältnis zwischen der Haftreibung und der Normalkraft bei einem ruhenden Körper auf einer horizontalen Fläche?",
+      "choices": [
+        "A: Die Haftreibung ist proportional zur Normalkraft bis zu einem maximalen Wert.",
+        "B: Die Haftreibung ist unabhängig von der Normalkraft.",
+        "C: Die Haftreibung ist immer gleich der Normalkraft.",
+        "D: Die Haftreibung ist immer geringer als die Normalkraft."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Haftreibung wirkt bis zu einem maximalen Wert, der proportional zur Normalkraft ist. Diese Beziehung beschreibt, wie stark die Haftreibung wirkt, um die Bewegung eines ruhenden Körpers zu verhindern, solange die auf ihn wirkenden Kräfte nicht diese maximale Haftreibung überschreiten.",
+      "difficulty": 8,
+      "subcategory": "Reibung: Haftreibung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Reibung in der Technik (Bedeutung)",
+      "question": "Welche der folgenden Aussagen beschreibt am besten die Rolle von Reibung in technischen Anwendungen?",
+      "choices": [
+        "A: Reibung ist nur in thermischen Prozessen relevant.",
+        "B: Reibung hat keinen Einfluss auf die Effizienz von Maschinen.",
+        "C: Reibung ist immer unerwünscht und sollte vollständig vermieden werden.",
+        "D: Reibung kann sowohl als nützliches als auch als schädliches Element betrachtet werden, je nach Anwendung."
+      ],
+      "correct_answer": "D",
+      "explanation": "Reibung spielt in der Technik eine doppelte Rolle: Sie kann nützlich sein, indem sie die Haftung und Kontrolle von Bewegungen ermöglicht, aber auch schädlich, wenn sie zu Energieverlusten führt. Das Verständnis dieser Balance ist entscheidend für die Konstruktion effizienter Maschinen.",
+      "difficulty": 7,
+      "subcategory": "Reibung in der Technik (Bedeutung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Boltzmann-Gleichung (Transport)",
+      "question": "Was beschreibt die Boltzmann-Gleichung in der Festkörperphysik?",
+      "choices": [
+        "A: Die elektrische Leitfähigkeit von Metallen.",
+        "B: Die Wärmeleitfähigkeit von Festkörpern.",
+        "C: Die Bewegung von Teilchen in einem Gas.",
+        "D: Die Diffusion von Atomen in Festkörpern."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Boltzmann-Gleichung beschreibt die statistische Verteilung und den Transport von Teilchen in einem System, einschließlich der Diffusion von Atomen in Festkörpern. Sie ist ein zentrales Werkzeug zur Analyse von Transportphänomenen in Materialien.",
+      "difficulty": 1,
+      "subcategory": "Boltzmann-Gleichung (Transport)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Induzierte Doppelbrechung",
+      "question": "Welche Eigenschaft von Materialien führt zur induzierten Doppelbrechung?",
+      "choices": [
+        "A: Opazität",
+        "B: Isotropie",
+        "C: Anisotropie",
+        "D: Transparenz"
+      ],
+      "correct_answer": "C",
+      "explanation": "Induzierte Doppelbrechung tritt in anisotropen Materialien auf, bei denen Licht unterschiedlich schnell in verschiedene Richtungen breitet. Diese Eigenschaft führt dazu, dass ein Lichtstrahl in zwei verschiedene Strahlen aufgeteilt wird, die unterschiedliche Polarisationseigenschaften haben.",
+      "difficulty": 5,
+      "subcategory": "Induzierte Doppelbrechung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Integraldarstellung für Streuphasen",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt die Integraldarstellung für Streuphasen in der Quantenmechanik?",
+      "choices": [
+        "A: Die Integraldarstellung ist nur für klassisch mechanische Systeme anwendbar.",
+        "B: Die Integraldarstellung liefert immer eine eindeutige Lösung für die Streuung.",
+        "C: Die Integraldarstellung ermöglicht die Berechnung von Streuphasen aus der Wellenfunktion des Systems.",
+        "D: Die Integraldarstellung erfordert die Kenntnis der Temperatur des Systems."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Integraldarstellung für Streuphasen in der Quantenmechanik ermöglicht es, die Wechselwirkungen zwischen Teilchen zu analysieren, indem man die Wellenfunktion des Systems nutzt. Diese Methode ist zentral für das Verständnis von Streuprozessen in quantenmechanischen Systemen.",
+      "difficulty": 7,
+      "subcategory": "Integraldarstellung für Streuphasen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Absolute thermodynamische Temperaturskala",
+      "question": "Welches der folgenden Gesetze beschreibt die Beziehung zwischen der absoluten Temperatur und dem Druck eines idealen Gases, wenn das Volumen konstant gehalten wird?",
+      "choices": [
+        "A: Clausius-Clapeyron-Gleichung",
+        "B: Gay-Lussacs Gesetz",
+        "C: Boyle-Mariottes Gesetz",
+        "D: Avogadro-Gesetz"
+      ],
+      "correct_answer": "B",
+      "explanation": "Das Gay-Lussacs Gesetz beschreibt, dass der Druck eines idealen Gases direkt proportional zur absoluten Temperatur ist, wenn das Volumen konstant bleibt. Dies ist ein zentrales Konzept in der Thermodynamik und zeigt, wie Temperatur und Druck miteinander verknüpft sind.",
+      "difficulty": 10,
+      "subcategory": "Absolute thermodynamische Temperaturskala"
+    }
+  ]
+}
