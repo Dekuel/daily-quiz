@@ -2086,6 +2086,20 @@
       "correct_answer": "C",
       "explanation": "Cloud storage services allow users to store their data online and access it from any device with internet access. This differs from traditional storage methods that require physical storage devices or local installations.",
       "difficulty": 5
+    },
+    {
+      "category": "Technologie",
+      "topic": "KI & Zukunftstechnologien",
+      "question": "Which of the following models uses a recurrent structure to model temporal dependencies in sequences?",
+      "choices": [
+        "A: Transformer",
+        "B: LSTM",
+        "C: Convolutional Neural Network",
+        "D: Generative Adversarial Network"
+      ],
+      "correct_answer": "B",
+      "explanation": "LSTM (Long Short-Term Memory) is a specific type of recurrent neural network particularly effective in learning temporal dependencies. It is commonly used in applications such as language processing and time series analysis. The other models have different architectures and applications not focused on modeling temporal dependencies.",
+      "difficulty": 10
     }
   ]
 }

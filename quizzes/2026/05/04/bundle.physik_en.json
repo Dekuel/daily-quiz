@@ -1,0 +1,168 @@
+{
+  "date": "2026-05-04",
+  "generated_at": "2026-05-04T04:21:14Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Observable & Zustände für identische Teilchen",
+      "question": "Which of the following statements about identical particles in quantum mechanics is correct?",
+      "choices": [
+        "A: The state of a system of identical particles must be symmetric or antisymmetric with respect to particle exchange.",
+        "B: In a system of identical particles, all particles can be in the same quantum state simultaneously.",
+        "C: Identical particles behave like classical particles and follow the rules of classical mechanics.",
+        "D: Identical particles can be distinguished arbitrarily from each other without affecting their states."
+      ],
+      "correct_answer": "A",
+      "explanation": "In quantum mechanics, identical particles must have either symmetric (Bose-Einstein statistics) or antisymmetric (Fermi-Dirac statistics) wave functions, depending on whether they are bosons or fermions. This property leads to fundamental differences in the behavior of particles and is crucial for many physical phenomena.",
+      "difficulty": 7,
+      "subcategory": "Observable & Zustände für identische Teilchen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Kritische Exponenten & Skalengesetze",
+      "question": "Which critical exponent describes the behavior of specific heat near the critical temperature in a second-order phase transition?",
+      "choices": [
+        "A: δ (Delta)",
+        "B: α (Alpha)",
+        "C: γ (Gamma)",
+        "D: β (Beta)"
+      ],
+      "correct_answer": "B",
+      "explanation": "The critical exponent α describes the divergence of specific heat at the critical temperature and is an essential component of the theory of phase transitions. In many systems, α typically exhibits values that indicate universal properties applicable to different materials.",
+      "difficulty": 7,
+      "subcategory": "Kritische Exponenten & Skalengesetze"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Verteilungsfunktion",
+      "question": "What does a distribution function describe in classical mechanics?",
+      "choices": [
+        "A: The probability of a particle being in a specific state.",
+        "B: The energy of a moving particle.",
+        "C: The mass of a body at rest.",
+        "D: The velocity of a particle at a specific time."
+      ],
+      "correct_answer": "A",
+      "explanation": "A distribution function indicates how probabilities of states, such as positions or velocities of particles, are distributed. It is particularly important in the statistics of particle motion and describes how many particles are in certain states.",
+      "difficulty": 3,
+      "subcategory": "Verteilungsfunktion"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Doppelspaltexperiment (Materiewellen)",
+      "question": "What does the double-slit experiment with electrons reveal about their behavior?",
+      "choices": [
+        "A: Electrons cannot pass through slits.",
+        "B: Electrons exhibit both particle and wave behavior.",
+        "C: Electrons always move in a straight line.",
+        "D: Electrons do not create interference patterns."
+      ],
+      "correct_answer": "B",
+      "explanation": "The double-slit experiment shows that electrons, when not observed, create interference patterns indicative of wave-like behavior. This suggests that they can exhibit both particle and wave characteristics, a fundamental concept in quantum mechanics.",
+      "difficulty": 4,
+      "subcategory": "Doppelspaltexperiment (Materiewellen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Dampfdruckkurve & Clausius–Clapeyron-Gleichung",
+      "question": "What does the Clausius-Clapeyron equation describe in thermodynamics?",
+      "choices": [
+        "A: The influence of ambient pressure on heat capacity.",
+        "B: The speed of particles in an ideal gas.",
+        "C: The relationship between pressure and temperature in phase transitions.",
+        "D: The relationship between specific heat and temperature."
+      ],
+      "correct_answer": "C",
+      "explanation": "The Clausius-Clapeyron equation describes the relationship between pressure and temperature in phase transitions, such as the transition from liquid to gas. It is particularly important for understanding the vapor pressure curves of substances.",
+      "difficulty": 5,
+      "subcategory": "Dampfdruckkurve & Clausius–Clapeyron-Gleichung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Exponenten-Ungleichungen (Scaling Bounds)",
+      "question": "Which of the following statements about exponent inequalities in thermodynamics is correct?",
+      "choices": [
+        "A: Exponent inequalities cannot be used to analyze phase transitions.",
+        "B: Under the same conditions, an ideal gas always has higher entropy than a real gas.",
+        "C: The entropy of a system can never be less than the entropy of another system with fewer microstates.",
+        "D: Exponent inequalities always show that temperature is directly proportional to pressure."
+      ],
+      "correct_answer": "C",
+      "explanation": "Exponent inequalities help understand the relationships between different thermodynamic quantities. Statement A is correct as entropy, which describes the number of microstates, can indeed be compared in this manner.",
+      "difficulty": 7,
+      "subcategory": "Exponenten-Ungleichungen (Scaling Bounds)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Dichtematrix (statistischer Operator)",
+      "question": "What does the density matrix describe in quantum mechanics?",
+      "choices": [
+        "A: The velocity of a particle in a quantum mechanical system.",
+        "B: The momentum of a particle in classical mechanics.",
+        "C: The temperature of a system in thermodynamics.",
+        "D: The state of a quantum mechanical system in statistical description."
+      ],
+      "correct_answer": "D",
+      "explanation": "The density matrix is a mathematical tool in quantum mechanics used to statistically describe the state of a system. It allows for the calculation of expectation values and is particularly useful for mixed states.",
+      "difficulty": 6,
+      "subcategory": "Dichtematrix (statistischer Operator)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Scherung & Torsionsmodul",
+      "question": "Which term describes the measure of a material's resistance to shear?",
+      "choices": [
+        "A: Torsional modulus",
+        "B: Shear modulus",
+        "C: Bulk modulus",
+        "D: Young's modulus"
+      ],
+      "correct_answer": "B",
+      "explanation": "The shear modulus is a measure of a material's ability to deform under shear forces. It describes the relationship between shear and applied shear stress. In contrast, torsional modulus refers to the deformation of a material under torsional forces.",
+      "difficulty": 5,
+      "subcategory": "Scherung & Torsionsmodul"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Zwangsbedingungen & generalisierte Koordinaten",
+      "question": "What does a constraint describe in analytical mechanics?",
+      "choices": [
+        "A: A state where all forces are in equilibrium.",
+        "B: A coordinate describing the position of a particle.",
+        "C: A force acting on a system.",
+        "D: A relationship restricting the motion of a system."
+      ],
+      "correct_answer": "D",
+      "explanation": "A constraint is a restriction that governs the movements of a system under certain conditions. It can appear in the form of an equation or a relationship between coordinates and helps reduce the number of degrees of freedom of a system.",
+      "difficulty": 3,
+      "subcategory": "Zwangsbedingungen & generalisierte Koordinaten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Allgemeine Betrachtung von Streuprozessen",
+      "question": "What does a scattering process describe in particle physics?",
+      "choices": [
+        "A: The decay rate of an unstable particle.",
+        "B: The temperature change of a material with energy input.",
+        "C: The interaction between particles changing their direction or energy.",
+        "D: The motion of particles in a magnetic field."
+      ],
+      "correct_answer": "C",
+      "explanation": "A scattering process describes how particles can change their direction or energy during an interaction. This is a central concept in particle physics that enables the study of particles and their properties.",
+      "difficulty": 4,
+      "subcategory": "Allgemeine Betrachtung von Streuprozessen"
+    }
+  ]
+}

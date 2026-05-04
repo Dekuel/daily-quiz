@@ -2058,6 +2058,20 @@
       "correct_answer": "C",
       "explanation": "Cloud-Speicher-Dienste ermöglichen es Benutzern, ihre Daten online zu speichern und von jedem Gerät mit Internetzugang darauf zuzugreifen. Dies unterscheidet sich von traditionellen Speichermethoden, die physische Speichergeräte oder lokale Installationen erfordern.",
       "difficulty": 5
+    },
+    {
+      "category": "Technologie",
+      "topic": "KI & Zukunftstechnologien",
+      "question": "Welches der folgenden Modelle nutzt eine rekurrente Struktur, um zeitliche Abhängigkeiten in Sequenzen zu modellieren?",
+      "choices": [
+        "A: Transformer",
+        "B: LSTM",
+        "C: Convolutional Neural Network",
+        "D: Generative Adversarial Network"
+      ],
+      "correct_answer": "B",
+      "explanation": "LSTM (Long Short-Term Memory) ist ein spezifisches rekurrentes neuronales Netzwerk, das besonders effektiv beim Lernen von zeitlichen Abhängigkeiten ist. Es wird häufig in Anwendungen wie Sprachverarbeitung und Zeitreihenanalysen eingesetzt. Die anderen Modelle haben unterschiedliche Architekturen und Anwendungsbereiche, die nicht auf die Modellierung von zeitlichen Abhängigkeiten fokussiert sind.",
+      "difficulty": 10
     }
   ]
 }

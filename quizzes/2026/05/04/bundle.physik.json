@@ -1,0 +1,169 @@
+{
+  "date": "2026-05-04",
+  "generated_at": "2026-05-04T04:20:39Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Observable & Zustände für identische Teilchen",
+      "question": "Welche der folgenden Aussagen über identische Teilchen in der Quantenmechanik ist korrekt?",
+      "choices": [
+        "A: Der Zustand eines Systems aus identischen Teilchen muss symmetrisch oder antisymmetrisch bezüglich der Teilchenvertauschung sein.",
+        "B: In einem System identischer Teilchen können alle Teilchen gleichzeitig im selben Quantenzustand sein.",
+        "C: Identische Teilchen verhalten sich wie klassische Teilchen und folgen den Regeln der klassischen Mechanik.",
+        "D: Identische Teilchen können beliebig voneinander unterschieden werden, ohne ihre Zustände zu beeinflussen."
+      ],
+      "correct_answer": "A",
+      "explanation": "In der Quantenmechanik müssen identische Teilchen entweder symmetrische (Bose-Einstein-Statistik) oder antisymmetrische (Fermi-Dirac-Statistik) Wellenfunktionen haben, je nachdem, ob es sich um Bosonen oder Fermionen handelt. Diese Eigenschaft führt zu fundamentalen Unterschieden im Verhalten von Teilchen und ist entscheidend für viele physikalische Phänomene.",
+      "difficulty": 7,
+      "subcategory": "Observable & Zustände für identische Teilchen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Kritische Exponenten & Skalengesetze",
+      "question": "Welcher kritische Exponent beschreibt das Verhalten der spezifischen Wärme nahe der kritischen Temperatur in einem zweiten Ordnung Phasenübergang?",
+      "choices": [
+        "A: δ (Delta)",
+        "B: α (Alpha)",
+        "C: γ (Gamma)",
+        "D: β (Beta)"
+      ],
+      "correct_answer": "B",
+      "explanation": "Der kritische Exponent α beschreibt die Divergenz der spezifischen Wärme an der kritischen Temperatur und ist ein wesentlicher Bestandteil der Theorie von Phasenübergängen. In vielen Systemen zeigt α typischerweise Werte, die auf universelle Eigenschaften hinweisen, die für verschiedene Materialien gelten.",
+      "difficulty": 7,
+      "subcategory": "Kritische Exponenten & Skalengesetze"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Verteilungsfunktion",
+      "question": "Was beschreibt eine Verteilungsfunktion in der klassischen Mechanik?",
+      "choices": [
+        "A: Die Wahrscheinlichkeit, dass ein Teilchen sich in einem bestimmten Zustand befindet.",
+        "B: Die Energie eines Teilchens in Bewegung.",
+        "C: Die Masse eines Körpers in Ruhe.",
+        "D: Die Geschwindigkeit eines Teilchens zu einem bestimmten Zeitpunkt."
+      ],
+      "correct_answer": "A",
+      "explanation": "Eine Verteilungsfunktion gibt an, wie die Wahrscheinlichkeiten von Zuständen, wie Positionen oder Geschwindigkeiten von Teilchen, verteilt sind. Sie ist besonders wichtig in der Statistik der Teilchenbewegung und beschreibt, wie viele Teilchen sich in bestimmten Zuständen befinden.",
+      "difficulty": 3,
+      "subcategory": "Verteilungsfunktion"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Doppelspaltexperiment (Materiewellen)",
+      "question": "Was zeigt das Doppelspaltexperiment mit Elektronen über deren Verhalten?",
+      "choices": [
+        "A: Elektronen können nicht durch Spalte hindurch gehen.",
+        "B: Elektronen verhalten sich sowohl wie Teilchen als auch wie Wellen.",
+        "C: Elektronen bewegen sich immer geradlinig.",
+        "D: Elektronen erzeugen keine Interferenzmuster."
+      ],
+      "correct_answer": "B",
+      "explanation": "Das Doppelspaltexperiment zeigt, dass Elektronen, wenn sie nicht beobachtet werden, Interferenzmuster erzeugen, die auf wellenartiges Verhalten hinweisen. Dies deutet darauf hin, dass sie sich sowohl wie Teilchen als auch wie Wellen verhalten können, was ein grundlegendes Konzept der Quantenmechanik ist.",
+      "difficulty": 4,
+      "subcategory": "Doppelspaltexperiment (Materiewellen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Dampfdruckkurve & Clausius–Clapeyron-Gleichung",
+      "question": "Was beschreibt die Clausius–Clapeyron-Gleichung in der Thermodynamik?",
+      "choices": [
+        "A: Den Einfluss der Umgebungsdruck auf die Wärmekapazität.",
+        "B: Die Geschwindigkeit von Teilchen in einem idealen Gas.",
+        "C: Den Zusammenhang zwischen Druck und Temperature bei Phasenübergängen.",
+        "D: Die Beziehung zwischen der spezifischen Wärme und der Temperatur."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Clausius–Clapeyron-Gleichung beschreibt den Zusammenhang zwischen Druck und Temperatur bei Phasenübergängen, wie dem Übergang von flüssig zu gasförmig. Sie ist besonders wichtig, um die Dampfdruckkurven von Stoffen zu verstehen.",
+      "difficulty": 5,
+      "subcategory": "Dampfdruckkurve & Clausius–Clapeyron-Gleichung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Exponenten-Ungleichungen (Scaling Bounds)",
+      "question": "Welche der folgenden Aussagen über Exponenten-Ungleichungen in der Thermodynamik ist korrekt?",
+      "choices": [
+        "A: Exponenten-Ungleichungen können nicht zur Analyse von Phasenübergängen verwendet werden.",
+        "B: Bei gleichen Bedingungen weist ein ideales Gas immer eine höhere Entropie auf als ein reales Gas.",
+        "C: Die Entropie eines Systems kann niemals kleiner sein als die Entropie eines anderen Systems mit einer geringeren Anzahl an Mikrozuständen.",
+        "D: Exponenten-Ungleichungen zeigen immer, dass die Temperatur direkt proportional zum Druck ist."
+      ],
+      "correct_answer": "C",
+      "explanation": "Exponenten-Ungleichungen helfen, die Beziehungen zwischen verschiedenen thermodynamischen Größen zu verstehen. Die Aussage A ist korrekt, da die Entropie, die die Anzahl der Mikrozustände beschreibt, tatsächlich in dieser Weise verglichen werden kann.",
+      "difficulty": 7,
+      "subcategory": "Exponenten-Ungleichungen (Scaling Bounds)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Dichtematrix (statistischer Operator)",
+      "question": "Was beschreibt die Dichtematrix in der Quantenmechanik?",
+      "choices": [
+        "A: Die Geschwindigkeit eines Teilchens in einem quantenmechanischen System.",
+        "B: Den Impuls eines Teilchens in der klassischen Mechanik.",
+        "C: Die Temperatur eines Systems in der Thermodynamik.",
+        "D: Den Zustand eines quantenmechanischen Systems in der statistischen Beschreibung."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Dichtematrix ist ein mathematisches Werkzeug in der Quantenmechanik, das verwendet wird, um den Zustand eines Systems statistisch zu beschreiben. Sie erlaubt die Berechnung von Erwartungswerten und ist besonders nützlich bei gemischten Zuständen.",
+      "difficulty": 6,
+      "subcategory": "Dichtematrix (statistischer Operator)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Scherung & Torsionsmodul",
+      "question": "Welcher der folgenden Begriffe beschreibt das Maß für die Widerstandsfähigkeit eines Materials gegen Scherung?",
+      "choices": [
+        "A: Torsionsmodul",
+        "B: Schermodul",
+        "C: Druckmodul",
+        "D: Elastizitätsmodul"
+      ],
+      "correct_answer": "B",
+      "explanation": "Das Schermodul ist ein Maß für die Fähigkeit eines Materials, sich unter Scherkräften zu verformen. Es beschreibt die Beziehung zwischen der Scherung und dem aufgebrachten Scherstress. Torsionsmodul hingegen bezieht sich auf die Verformung eines Materials unter Torsionskräften.",
+      "difficulty": 5,
+      "subcategory": "Scherung & Torsionsmodul"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Zwangsbedingungen & generalisierte Koordinaten",
+      "question": "Was beschreibt eine Zwangsbedingung in der analytischen Mechanik?",
+      "choices": [
+        "A: Ein Zustand, in dem alle Kräfte im Gleichgewicht sind.",
+        "B: Eine Koordinate, die die Position eines Teilchens beschreibt.",
+        "C: Eine Kraft, die auf ein System wirkt.",
+        "D: Eine Beziehung, die die Bewegung eines Systems einschränkt."
+      ],
+      "correct_answer": "D",
+      "explanation": "Eine Zwangsbedingung ist eine Einschränkung, die die Bewegungen eines Systems unter bestimmten Bedingungen regelt. Sie kann in Form einer Gleichung oder einer Beziehung zwischen den Koordinaten auftreten und hilft, die Anzahl der Freiheitsgrade eines Systems zu reduzieren.",
+      "difficulty": 3,
+      "subcategory": "Zwangsbedingungen & generalisierte Koordinaten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Allgemeine Betrachtung von Streuprozessen",
+      "question": "Was beschreibt ein Streuprozess in der Teilchenphysik?",
+      "choices": [
+        "A: Die Zerfallsrate eines instabilen Teilchens.",
+        "B: Die Temperaturänderung eines Materials bei Energiezufuhr.",
+        "C: Die Wechselwirkung zwischen Teilchen, die ihre Richtung oder Energie ändern.",
+        "D: Die Bewegung von Teilchen in einem Magnetfeld."
+      ],
+      "correct_answer": "C",
+      "explanation": "Ein Streuprozess beschreibt, wie Teilchen bei einer Wechselwirkung ihre Richtung oder Energie ändern können. Dies ist ein zentrales Konzept in der Teilchenphysik, das die Untersuchung von Teilchen und deren Eigenschaften ermöglicht.",
+      "difficulty": 4,
+      "subcategory": "Allgemeine Betrachtung von Streuprozessen"
+    }
+  ]
+}
