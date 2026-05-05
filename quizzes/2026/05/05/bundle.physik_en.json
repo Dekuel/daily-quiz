@@ -1,0 +1,168 @@
+{
+  "date": "2026-05-05",
+  "generated_at": "2026-05-05T04:07:12Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Integrale mit Maxwell-Verteilung (Technik)",
+      "question": "Which integral represents the total number of particles in a system when the velocity distribution of the particles follows the Maxwell-Boltzmann distribution?",
+      "choices": [
+        "A: ∫_0^∞ (4πv^2) * e^(-mv^2/(2kT)) dv",
+        "B: ∫_0^∞ (2πv) * e^(-mv^2/(kT)) dv",
+        "C: ∫_0^∞ v * e^(-mv^2/(2kT)) dv",
+        "D: ∫_0^∞ (4πv^2) * (m/(2πkT))^(3/2) * e^(-mv^2/(2kT)) dv"
+      ],
+      "correct_answer": "D",
+      "explanation": "The integral A represents the correct form for the total number of particles describing the Maxwell-Boltzmann velocity distribution. It takes into account both the form of the distribution and the volume elements in velocity space, which is crucial for statistical mechanics.",
+      "difficulty": 8,
+      "subcategory": "Integrale mit Maxwell-Verteilung (Technik)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Idealer Paramagnet (Brillouin/Langevin-Idee)",
+      "question": "What does the Langevin model describe regarding ideal paramagnets?",
+      "choices": [
+        "A: The interaction between two electric charges.",
+        "B: The motion of particles in an electric field.",
+        "C: The magnetic susceptibility as a function of temperature.",
+        "D: The structure of atoms and molecules."
+      ],
+      "correct_answer": "C",
+      "explanation": "The Langevin model describes how the magnetic susceptibility of an ideal paramagnet varies with temperature. It shows that magnetic order decreases at higher temperatures as thermal motions disrupt spin alignment.",
+      "difficulty": 4,
+      "subcategory": "Idealer Paramagnet (Brillouin/Langevin-Idee)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Ginzburg–Landau-Funktional: Herleitung",
+      "question": "Which term is crucial for deriving the Ginzburg-Landau functional regarding order parameters?",
+      "choices": [
+        "A: Pressure gradient",
+        "B: Momentum flow",
+        "C: Gradient of the order parameter",
+        "D: Thermal energy flux"
+      ],
+      "correct_answer": "C",
+      "explanation": "The gradient of the order parameter plays a central role in deriving the Ginzburg-Landau functional as it describes the spatial variation of the order. This variation is crucial for understanding phase transitions in superconductors and similar systems.",
+      "difficulty": 6,
+      "subcategory": "Ginzburg–Landau-Funktional: Herleitung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Separation der Variablen & orthogonale Funktionen",
+      "question": "Which of the following statements best describes the concept of variable separation concerning solving Laplace's equations in a rectangular domain?",
+      "choices": [
+        "A: The orthogonal functions cannot be used for solving differential equations.",
+        "B: The solution must be represented in the form of a Fourier series.",
+        "C: The solution can be represented as a product of functions depending on a single variable each.",
+        "D: Variable separation is only applicable for time-independent problems."
+      ],
+      "correct_answer": "C",
+      "explanation": "Variable separation allows representing a function as a product of single-variable functions, significantly simplifying the solution of differential equations. Particularly in Laplace's equations, this is a common method for determining solutions in defined domains.",
+      "difficulty": 8,
+      "subcategory": "Separation der Variablen & orthogonale Funktionen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Bewegungsgleichung der Gitteratome",
+      "question": "What describes the equation of motion of lattice atoms in a crystal?",
+      "choices": [
+        "A: Electron motion within atoms.",
+        "B: Motion of molecules in a liquid.",
+        "C: Interactions between neighboring atoms and their vibrations.",
+        "D: Thermal expansion of metals."
+      ],
+      "correct_answer": "C",
+      "explanation": "The equation of motion of lattice atoms describes how atoms in a crystal oscillate due to their interactions. These vibrations are crucial for the properties of solids, such as thermal conductivity and elasticity.",
+      "difficulty": 5,
+      "subcategory": "Bewegungsgleichung der Gitteratome"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Spezielle Operatoren (Zahl-, Hamilton-Operator)",
+      "question": "Which operator is used in quantum mechanics to describe the total energy of a system?",
+      "choices": [
+        "A: Position operator",
+        "B: Momentum operator",
+        "C: Hamiltonian operator",
+        "D: Spin operator"
+      ],
+      "correct_answer": "C",
+      "explanation": "The Hamiltonian operator is the central operator in quantum mechanics describing the total energy of a quantum mechanical system. It plays a crucial role in the Schrödinger equation and the temporal evolution of quantum states.",
+      "difficulty": 4,
+      "subcategory": "Spezielle Operatoren (Zahl-, Hamilton-Operator)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Detektoren (Nachweismethoden)",
+      "question": "Which detector is commonly used to detect ionizing radiation?",
+      "choices": [
+        "A: Thermometer",
+        "B: Barometer",
+        "C: Microscope",
+        "D: Geiger-Müller counter"
+      ],
+      "correct_answer": "D",
+      "explanation": "The Geiger-Müller counter is a widely used detector capable of measuring ionizing radiation such as alpha, beta, and gamma rays. It operates by ionizing gases within a counting tube, leading to measurable electrical pulses.",
+      "difficulty": 2,
+      "subcategory": "Detektoren (Nachweismethoden)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "α‑Zerfall",
+      "question": "Which of the following elements is an example of alpha decay?",
+      "choices": [
+        "A: Hydrogen",
+        "B: Tritium",
+        "C: Uranium-238",
+        "D: Carbon-14"
+      ],
+      "correct_answer": "C",
+      "explanation": "Uranium-238 is a radioactive isotope that decays into Thorium-234 through alpha decay. In contrast, Carbon-14 and Tritium decay mainly through beta decay, while Hydrogen is stable.",
+      "difficulty": 8,
+      "subcategory": "α‑Zerfall"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Phasen der Kernmaterie",
+      "question": "Which phase of nuclear matter describes the state where nucleons are densely packed without being able to move freely?",
+      "choices": [
+        "A: Nuclear matter",
+        "B: Plasma",
+        "C: Neutron star matter",
+        "D: Quark-gluon plasma"
+      ],
+      "correct_answer": "C",
+      "explanation": "Neutron star matter describes a state where nucleons are extremely densely packed, and interactions between them dominate. In this phase, particles are so close together that they cannot move freely, leading to the unique properties of neutron stars.",
+      "difficulty": 6,
+      "subcategory": "Phasen der Kernmaterie"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Van-der-Waals-Gas (Korrekturen)",
+      "question": "Which quantity is introduced in the Van der Waals equation to account for molecular volumes?",
+      "choices": [
+        "A: R (gas constant)",
+        "B: a (interaction strength)",
+        "C: b (adjustable volumes)",
+        "D: T (temperature)"
+      ],
+      "correct_answer": "C",
+      "explanation": "In the Van der Waals equation, the parameter 'b' is used to consider the volume of molecules. This improves the accuracy of describing gases, especially at high pressures and low temperatures.",
+      "difficulty": 5,
+      "subcategory": "Van-der-Waals-Gas (Korrekturen)"
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "date": "2026-05-05",
+  "generated_at": "2026-05-05T04:06:24Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Integrale mit Maxwell-Verteilung (Technik)",
+      "question": "Welches Integral repräsentiert die Gesamtzahl der Teilchen in einem System, wenn die Geschwindigkeitsverteilung der Teilchen der Maxwell-Boltzmann-Verteilung folgt?",
+      "choices": [
+        "A: ∫_0^∞ (4πv^2) * e^(-mv^2/(2kT)) dv",
+        "B: ∫_0^∞ (2πv) * e^(-mv^2/(kT)) dv",
+        "C: ∫_0^∞ v * e^(-mv^2/(2kT)) dv",
+        "D: ∫_0^∞ (4πv^2) * (m/(2πkT))^(3/2) * e^(-mv^2/(2kT)) dv"
+      ],
+      "correct_answer": "D",
+      "explanation": "Das Integral A stellt die korrekte Form für die Gesamtzahl der Teilchen dar, die die Maxwell-Boltzmann Geschwindigkeitsverteilung beschreibt. Es berücksichtigt sowohl die Form der Verteilung als auch die Volumenelemente im Geschwindigkeitsraum, was für die statistische Mechanik entscheidend ist.",
+      "difficulty": 8,
+      "subcategory": "Integrale mit Maxwell-Verteilung (Technik)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Idealer Paramagnet (Brillouin/Langevin-Idee)",
+      "question": "Was beschreibt das Langevin-Modell in Bezug auf ideale Paramagneten?",
+      "choices": [
+        "A: Die Wechselwirkung zwischen zwei elektrischen Ladungen.",
+        "B: Die Bewegung von Teilchen in einem elektrischen Feld.",
+        "C: Die magnetische Suszeptibilität in Abhängigkeit von der Temperatur.",
+        "D: Die Struktur von Atomen und Molekülen."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Langevin-Modell beschreibt, wie die magnetische Suszeptibilität eines idealen Paramagneten mit der Temperatur variiert. Es zeigt, dass die magnetische Ordnung bei höheren Temperaturen abnimmt, da thermische Bewegungen die Ausrichtung der Spins stören.",
+      "difficulty": 4,
+      "subcategory": "Idealer Paramagnet (Brillouin/Langevin-Idee)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Ginzburg–Landau-Funktional: Herleitung",
+      "question": "Welcher Term ist entscheidend für die Herleitung des Ginzburg–Landau-Funktionals in Bezug auf die Ordnungparameter?",
+      "choices": [
+        "A: Der Druckgradient",
+        "B: Der Impulsfluss",
+        "C: Der Gradient des Ordnungparameters",
+        "D: Der thermische Energiestrom"
+      ],
+      "correct_answer": "C",
+      "explanation": "Der Gradient des Ordnungparameters spielt eine zentrale Rolle in der Herleitung des Ginzburg–Landau-Funktionals, da er die räumliche Variation der Ordnung beschreibt. Diese Variation ist entscheidend für das Verständnis der Phasenübergänge in Superleitern und ähnlichen Systemen.",
+      "difficulty": 6,
+      "subcategory": "Ginzburg–Landau-Funktional: Herleitung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Separation der Variablen & orthogonale Funktionen",
+      "question": "Welche der folgenden Aussagen beschreibt am besten das Konzept der Separation der Variablen in Bezug auf die Lösung von Laplace'schen Gleichungen in einem rechteckigen Gebiet?",
+      "choices": [
+        "A: Die orthogonalen Funktionen können nicht für die Lösung von Differentialgleichungen verwendet werden.",
+        "B: Die Lösung muss zwingend in Form einer Fourierreihe dargestellt werden.",
+        "C: Die Lösung ist als Produkt von Funktionen darstellbar, die jeweils nur von einer Variablen abhängen.",
+        "D: Die Separation der Variablen ist nur für zeitunabhängige Probleme anwendbar."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Separation der Variablen ermöglicht es, eine Funktion als Produkt von Einzelvariablenfunktionen darzustellen, was die Lösung von Differentialgleichungen erheblich vereinfacht. Insbesondere bei Laplace'schen Gleichungen ist dies eine gängige Methode zur Bestimmung der Lösungen in definierten Gebieten.",
+      "difficulty": 8,
+      "subcategory": "Separation der Variablen & orthogonale Funktionen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Bewegungsgleichung der Gitteratome",
+      "question": "Was beschreibt die Bewegungsgleichung der Gitteratome in einem Kristall?",
+      "choices": [
+        "A: Die Elektronenbewegung innerhalb der Atome.",
+        "B: Die Bewegung von Molekülen in einer Flüssigkeit.",
+        "C: Die Wechselwirkungen zwischen benachbarten Atomen und deren Schwingungen.",
+        "D: Die thermische Ausdehnung von Metallen."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Bewegungsgleichung der Gitteratome beschreibt, wie Atome in einem Kristall durch ihre Wechselwirkungen schwingen. Diese Schwingungen sind entscheidend für die Eigenschaften des Festkörpers, wie z.B. Wärmeleitfähigkeit und Elastizität.",
+      "difficulty": 5,
+      "subcategory": "Bewegungsgleichung der Gitteratome"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Spezielle Operatoren (Zahl-, Hamilton-Operator)",
+      "question": "Welcher Operator wird in der Quantenmechanik verwendet, um die gesamte Energie eines Systems zu beschreiben?",
+      "choices": [
+        "A: Position-Operator",
+        "B: Impuls-Operator",
+        "C: Hamilton-Operator",
+        "D: Spin-Operator"
+      ],
+      "correct_answer": "C",
+      "explanation": "Der Hamilton-Operator ist der zentrale Operator in der Quantenmechanik, der die Gesamtenergie eines quantenmechanischen Systems beschreibt. Er spielt eine entscheidende Rolle bei der Schrödinger-Gleichung und der zeitlichen Entwicklung von Quantenzuständen.",
+      "difficulty": 4,
+      "subcategory": "Spezielle Operatoren (Zahl-, Hamilton-Operator)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Detektoren (Nachweismethoden)",
+      "question": "Welcher Detektor wird häufig verwendet, um ionisierende Strahlung nachzuweisen?",
+      "choices": [
+        "A: Thermometer",
+        "B: Barometer",
+        "C: Mikroskop",
+        "D: Geiger-Müller-Zähler"
+      ],
+      "correct_answer": "D",
+      "explanation": "Der Geiger-Müller-Zähler ist ein weit verbreiteter Detektor, der ionisierende Strahlung wie Alpha-, Beta- und Gammastrahlen messen kann. Er funktioniert durch die Ionisation von Gasen innerhalb eines Zählrohrs, was zu messbaren elektrischen Impulsen führt.",
+      "difficulty": 2,
+      "subcategory": "Detektoren (Nachweismethoden)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "α‑Zerfall",
+      "question": "Welches der folgenden Elemente ist ein Beispiel für einen α-Zerfall?",
+      "choices": [
+        "A: Wasserstoff",
+        "B: Tritium",
+        "C: Uran-238",
+        "D: Kohlenstoff-14"
+      ],
+      "correct_answer": "C",
+      "explanation": "Uran-238 ist ein radioaktives Isotop, das durch α-Zerfall in Thorium-234 zerfällt. Im Gegensatz dazu zerfallen Kohlenstoff-14 und Tritium hauptsächlich durch β-Zerfall, während Wasserstoff stabil ist.",
+      "difficulty": 8,
+      "subcategory": "α‑Zerfall"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Phasen der Kernmaterie",
+      "question": "Welche Phase der Kernmaterie beschreibt den Zustand, in dem sich Nukleonen in einem dicht gepackten Zustand befinden, ohne dass sie sich frei bewegen können?",
+      "choices": [
+        "A: Kernmaterie",
+        "B: Plasma",
+        "C: Neutronensternmaterie",
+        "D: Quark-Gluon-Plasma"
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Neutronensternmaterie beschreibt einen Zustand, in dem Nukleonen extrem dicht gepackt sind und die Wechselwirkungen zwischen ihnen dominieren. In dieser Phase sind die Teilchen so nahe beieinander, dass sie sich nicht frei bewegen können, was zu den einzigartigen Eigenschaften von Neutronensternen führt.",
+      "difficulty": 6,
+      "subcategory": "Phasen der Kernmaterie"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Van-der-Waals-Gas (Korrekturen)",
+      "question": "Welche Größe wird bei der Van-der-Waals-Gleichung zur Berücksichtigung der Molekülvolumina eingeführt?",
+      "choices": [
+        "A: R (Gaskonstante)",
+        "B: a (Kraft der Wechselwirkungen)",
+        "C: b (Verschiebbare Volumina)",
+        "D: T (Temperatur)"
+      ],
+      "correct_answer": "C",
+      "explanation": "In der Van-der-Waals-Gleichung wird der Parameter 'b' verwendet, um das Volumen der Moleküle zu berücksichtigen. Dies verbessert die Genauigkeit der Beschreibung von Gasen, insbesondere bei hohen Drücken und tiefen Temperaturen.",
+      "difficulty": 5,
+      "subcategory": "Van-der-Waals-Gas (Korrekturen)"
+    }
+  ]
+}

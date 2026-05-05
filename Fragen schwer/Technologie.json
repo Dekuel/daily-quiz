@@ -2072,6 +2072,20 @@
       "correct_answer": "B",
       "explanation": "LSTM (Long Short-Term Memory) ist ein spezifisches rekurrentes neuronales Netzwerk, das besonders effektiv beim Lernen von zeitlichen Abhängigkeiten ist. Es wird häufig in Anwendungen wie Sprachverarbeitung und Zeitreihenanalysen eingesetzt. Die anderen Modelle haben unterschiedliche Architekturen und Anwendungsbereiche, die nicht auf die Modellierung von zeitlichen Abhängigkeiten fokussiert sind.",
       "difficulty": 10
+    },
+    {
+      "category": "Technologie",
+      "topic": "KI & Zukunftstechnologien",
+      "question": "Welcher Algorithmus wird häufig für die Bildklassifikation in neuronalen Netzwerken verwendet?",
+      "choices": [
+        "A: Recurrent Neural Network (RNN)",
+        "B: Convolutional Neural Network (CNN)",
+        "C: Generative Adversarial Network (GAN)",
+        "D: Support Vector Machine (SVM)"
+      ],
+      "correct_answer": "B",
+      "explanation": "Convolutional Neural Networks (CNNs) sind speziell für die Verarbeitung von Bilddaten optimiert und werden weit verbreitet in der Bildklassifikation eingesetzt. Im Gegensatz dazu sind RNNs besser für sequenzielle Daten geeignet, GANs für die Generierung neuer Daten und SVMs für Klassifikationsaufgaben mit klaren Trennlinien in den Daten.",
+      "difficulty": 9
     }
   ]
 }
