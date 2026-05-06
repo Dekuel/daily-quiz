@@ -2086,6 +2086,20 @@
       "correct_answer": "B",
       "explanation": "Convolutional Neural Networks (CNNs) sind speziell für die Verarbeitung von Bilddaten optimiert und werden weit verbreitet in der Bildklassifikation eingesetzt. Im Gegensatz dazu sind RNNs besser für sequenzielle Daten geeignet, GANs für die Generierung neuer Daten und SVMs für Klassifikationsaufgaben mit klaren Trennlinien in den Daten.",
       "difficulty": 9
+    },
+    {
+      "category": "Technologie",
+      "topic": "KI & Zukunftstechnologien",
+      "question": "Welcher der folgenden Algorithmustypen wird häufig in der Anwendung des überwachten Lernens verwendet?",
+      "choices": [
+        "A: K-Means-Clustering",
+        "B: Entscheidungsbaum",
+        "C: Principal Component Analysis",
+        "D: Neuronales Netz ohne Labels"
+      ],
+      "correct_answer": "B",
+      "explanation": "Der Entscheidungsbaum ist ein klassischer Algorithmus für das überwachte Lernen, bei dem Daten in Form von Entscheidungsregeln klassifiziert werden. K-Means-Clustering hingegen ist ein Algorithmus für das unüberwachte Lernen, während neuronale Netze ohne Labels und PCA ebenfalls nicht für überwachte Lernmethoden geeignet sind.",
+      "difficulty": 8
     }
   ]
 }

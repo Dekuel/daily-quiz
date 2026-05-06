@@ -1,0 +1,168 @@
+{
+  "date": "2026-05-06",
+  "generated_at": "2026-05-06T04:19:13Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Pauli-Prinzip",
+      "question": "What does the Pauli exclusion principle state in quantum mechanics?",
+      "choices": [
+        "A: Photons have mass and therefore cannot travel in a vacuum.",
+        "B: Bosons must always be in the same state.",
+        "C: Two fermions cannot simultaneously occupy the same quantum state.",
+        "D: All particles can occupy an unlimited number of quantum states."
+      ],
+      "correct_answer": "C",
+      "explanation": "The Pauli exclusion principle states that two fermions, such as electrons, cannot occupy the same quantum state. This is a fundamental principle of quantum mechanics that explains the structure of atoms and the properties of matter.",
+      "difficulty": 6,
+      "subcategory": "Pauli-Prinzip"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Feldstärke-Tensor (Fμν)",
+      "question": "Which of the following properties correctly describes the field strength tensor Fμν?",
+      "choices": [
+        "A: It is symmetric in the indices μ and ν.",
+        "B: It exclusively describes gravitational fields.",
+        "C: It is only defined for stationary systems.",
+        "D: It is antisymmetric in the indices μ and ν."
+      ],
+      "correct_answer": "D",
+      "explanation": "The field strength tensor Fμν is antisymmetric in the indices μ and ν, which means that Fμν = -Fνμ holds. This property is crucial for describing electromagnetic fields within the theory of relativity.",
+      "difficulty": 9,
+      "subcategory": "Feldstärke-Tensor (Fμν)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Zeitlich oszillierende Quellen",
+      "question": "Which of the following statements best describes a time-oscillating electrical source?",
+      "choices": [
+        "A: It exclusively produces magnetic fields.",
+        "B: It has no influence on the surroundings.",
+        "C: It generates a constant electric field.",
+        "D: It generates an electric field that changes over time."
+      ],
+      "correct_answer": "D",
+      "explanation": "A time-oscillating electrical source is responsible for changing the electric field over time, which can also lead to the generation of electromagnetic waves. The other options do not describe the dynamic properties of these sources.",
+      "difficulty": 5,
+      "subcategory": "Zeitlich oszillierende Quellen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Tripelpunkt & Konvexität/ Konkavität freier Energien",
+      "question": "What does the triple point of a substance describe?",
+      "choices": [
+        "A: The state in which the substance only exists in a gaseous form.",
+        "B: The state in which the substance only exists in a solid form.",
+        "C: The point at which the temperature and pressure prevent any phase transition.",
+        "D: The state in which all three phases (solid, liquid, gaseous) are in equilibrium."
+      ],
+      "correct_answer": "D",
+      "explanation": "The triple point is the specific point at which the solid, liquid, and gaseous phases of a substance exist in thermodynamic equilibrium. At this point, all three phases have the same chemical potential and can coexist.",
+      "difficulty": 5,
+      "subcategory": "Tripelpunkt & Konvexität/ Konkavität freier Energien"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Dirac-Gleichung",
+      "question": "What does the Dirac equation describe in the framework of quantum mechanics?",
+      "choices": [
+        "A: The energy distribution in a thermodynamic system.",
+        "B: The motion of electrons in a classical field.",
+        "C: The relativistic motion of fermions and their spin.",
+        "D: The interaction between light and matter."
+      ],
+      "correct_answer": "C",
+      "explanation": "The Dirac equation is a relativistic wave equation that describes the behavior of fermions and takes into account their intrinsic spin. It is fundamental for understanding quantum mechanics and plays an important role in describing electrons and other particles with half-integer spin.",
+      "difficulty": 7,
+      "subcategory": "Dirac-Gleichung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Extremaleigenschaften von U und H",
+      "question": "Which of the following laws describes the relationship between the internal energy (U) and the enthalpy (H) in a closed system?",
+      "choices": [
+        "A: U = H + pV",
+        "B: H = U - pV",
+        "C: U = H - pV",
+        "D: H = U + pV"
+      ],
+      "correct_answer": "D",
+      "explanation": "The enthalpy H is defined as H = U + pV, where p is the pressure and V is the volume. This law helps to understand energy changes at constant pressure, which is relevant in many thermodynamic processes.",
+      "difficulty": 5,
+      "subcategory": "Extremaleigenschaften von U und H"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Hilbert-Raum & Basiszustände (sym/antisym)",
+      "question": "In the Hilbert space, what property of wave functions allows them to change sign when two identical particles are exchanged?",
+      "choices": [
+        "A: Symmetry",
+        "B: Antisymmetry",
+        "C: Linearity",
+        "D: Unitarity"
+      ],
+      "correct_answer": "B",
+      "explanation": "Antisymmetry is a fundamental property of wave functions for identical fermions, stating that the wave function changes sign when the positions of the particles are exchanged. Symmetric wave functions, on the other hand, are characteristic of bosons, which remain unchanged upon exchange.",
+      "difficulty": 1,
+      "subcategory": "Hilbert-Raum & Basiszustände (sym/antisym)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Austauschwechselwirkung (lokalisierte Elektronen)",
+      "question": "Which of the following statements best describes the exchange interaction between localized electrons in solids?",
+      "choices": [
+        "A: It describes the interaction between electrons and photons.",
+        "B: It leads to an influence on the spins of electrons in neighboring atoms.",
+        "C: It ensures that electrons can move freely through the material.",
+        "D: It has no effect on the properties of the solid."
+      ],
+      "correct_answer": "B",
+      "explanation": "The exchange interaction is a quantum mechanical phenomenon that affects the spin of electrons in neighboring atoms. It is crucial for the magnetic properties of materials by coupling the spins in a specific orientation.",
+      "difficulty": 5,
+      "subcategory": "Austauschwechselwirkung (lokalisierte Elektronen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Allgemeines & Radialgleichung",
+      "question": "What condition must be met for the radial equation of the Schrödinger equation for a particle in a Coulomb potential to have solutions?",
+      "choices": [
+        "A: The mass of the particle must be infinite.",
+        "B: The energy state must be negative.",
+        "C: The momentum of the particle must be constant.",
+        "D: The particle must be relativistic."
+      ],
+      "correct_answer": "B",
+      "explanation": "The radial equation of the Schrödinger equation for a Coulomb potential only has valid solutions when the energy state of the particle is negative, which is typical for bound states. For positive energy states, the solutions would diverge and are therefore not physically meaningful.",
+      "difficulty": 8,
+      "subcategory": "Allgemeines & Radialgleichung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Härte von Festkörpern",
+      "question": "Which of the following materials has the highest hardness according to the Mohs scale?",
+      "choices": [
+        "A: Quartz",
+        "B: Topaz",
+        "C: Diamond",
+        "D: Feldspar"
+      ],
+      "correct_answer": "C",
+      "explanation": "Diamond is the hardest known natural material and reaches a value of 10 on the Mohs scale. Quartz, topaz, and feldspar are also hard materials but do not reach the hardness of diamond.",
+      "difficulty": 7,
+      "subcategory": "Härte von Festkörpern"
+    }
+  ]
+}

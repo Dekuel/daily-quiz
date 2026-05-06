@@ -1,0 +1,169 @@
+{
+  "date": "2026-05-06",
+  "generated_at": "2026-05-06T04:18:35Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Pauli-Prinzip",
+      "question": "Was besagt das Pauli-Prinzip in der Quantenmechanik?",
+      "choices": [
+        "A: Photonen haben eine Masse und können daher nicht im Vakuum reisen.",
+        "B: Bosonen müssen immer im gleichen Zustand sein.",
+        "C: Zwei Fermionen können nicht gleichzeitig denselben Quantenzustand einnehmen.",
+        "D: Alle Teilchen können beliebig viele Quantenzustände einnehmen."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Pauli-Prinzip besagt, dass zwei Fermionen, wie Elektronen, nicht denselben Quantenzustand einnehmen können. Dies ist ein fundamentales Prinzip der Quantenmechanik, das die Struktur von Atomen und die Eigenschaften von Materie erklärt.",
+      "difficulty": 6,
+      "subcategory": "Pauli-Prinzip"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Feldstärke-Tensor (Fμν)",
+      "question": "Welches der folgenden Eigenschaften beschreibt den Feldstärke-Tensor Fμν korrekt?",
+      "choices": [
+        "A: Er ist symmetrisch in den Indizes μ und ν.",
+        "B: Er beschreibt ausschließlich die Gravitationsfelder.",
+        "C: Er ist nur für stationäre Systeme definiert.",
+        "D: Er ist antisymmetrisch in den Indizes μ und ν."
+      ],
+      "correct_answer": "D",
+      "explanation": "Der Feldstärke-Tensor Fμν ist antisymmetrisch in den Indizes μ und ν, was bedeutet, dass Fμν = -Fνμ gilt. Diese Eigenschaft ist entscheidend für die Beschreibung elektromagnetischer Felder innerhalb der Relativitätstheorie.",
+      "difficulty": 9,
+      "subcategory": "Feldstärke-Tensor (Fμν)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Zeitlich oszillierende Quellen",
+      "question": "Welche der folgenden Aussagen beschreibt am besten eine zeitlich oszillierende elektrische Quelle?",
+      "choices": [
+        "A: Sie produziert ausschließlich magnetische Felder.",
+        "B: Sie hat keinen Einfluss auf die Umgebung.",
+        "C: Sie erzeugt ein konstantes elektrisches Feld.",
+        "D: Sie erzeugt ein elektrisches Feld, das sich mit der Zeit ändert."
+      ],
+      "correct_answer": "D",
+      "explanation": "Eine zeitlich oszillierende elektrische Quelle ist dafür verantwortlich, dass sich das elektrische Feld mit der Zeit ändert, was auch zur Erzeugung von elektromagnetischen Wellen führen kann. Die anderen Optionen beschreiben keine dynamischen Eigenschaften dieser Quellen.",
+      "difficulty": 5,
+      "subcategory": "Zeitlich oszillierende Quellen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Tripelpunkt & Konvexität/ Konkavität freier Energien",
+      "question": "Was beschreibt der Tripelpunkt einer Substanz?",
+      "choices": [
+        "A: Den Zustand, in dem die Substanz nur in gasförmiger Form existiert.",
+        "B: Den Zustand, in dem die Substanz nur in fester Form vorliegt.",
+        "C: Den Punkt, an dem die Temperatur und der Druck jeglichen Phasenübergang verhindern.",
+        "D: Den Zustand, in dem alle drei Phasen (fest, flüssig, gasförmig) im Gleichgewicht sind."
+      ],
+      "correct_answer": "D",
+      "explanation": "Der Tripelpunkt ist der spezifische Punkt, an dem die festen, flüssigen und gasförmigen Phasen einer Substanz im thermodynamischen Gleichgewicht existieren. An diesem Punkt haben alle drei Phasen die gleiche chemische Potenzial und können koexistieren.",
+      "difficulty": 5,
+      "subcategory": "Tripelpunkt & Konvexität/ Konkavität freier Energien"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Dirac-Gleichung",
+      "question": "Was beschreibt die Dirac-Gleichung im Rahmen der Quantenmechanik?",
+      "choices": [
+        "A: Die Energieverteilung in einem thermodynamischen System.",
+        "B: Die Bewegung von Elektronen in einem klassischen Feld.",
+        "C: Die relativistische Bewegung von Fermionen und deren Spin.",
+        "D: Die Wechselwirkung zwischen Licht und Materie."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Dirac-Gleichung ist eine relativistische Wave-Gleichung, die das Verhalten von Fermionen beschreibt und deren intrinsischen Spin berücksichtigt. Sie ist grundlegend für das Verständnis der Quantenmechanik und spielt eine wichtige Rolle bei der Beschreibung von Elektronen und anderen Teilchen mit halbzahligem Spin.",
+      "difficulty": 7,
+      "subcategory": "Dirac-Gleichung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Extremaleigenschaften von U und H",
+      "question": "Welches der folgenden Gesetze beschreibt die Beziehung zwischen der inneren Energie (U) und der Enthalpie (H) in einem geschlossenen System?",
+      "choices": [
+        "A: U = H + pV",
+        "B: H = U - pV",
+        "C: U = H - pV",
+        "D: H = U + pV"
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Enthalpie H ist definiert als H = U + pV, wobei p der Druck und V das Volumen ist. Dieses Gesetz hilft, die Energieänderungen bei konstantem Druck zu verstehen, was in vielen thermodynamischen Prozessen relevant ist.",
+      "difficulty": 5,
+      "subcategory": "Extremaleigenschaften von U und H"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Hilbert-Raum & Basiszustände (sym/antisym)",
+      "question": "Was beschreibt im Hilbert-Raum die Eigenschaft von Wellenfunktionen, dass sie bei Austausch zweier identischer Teilchen ihr Vorzeichen ändern können?",
+      "choices": [
+        "A: Symmetrie",
+        "B: Antisymmetrie",
+        "C: Linearität",
+        "D: Unitarität"
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Antisymmetrie ist eine fundamentale Eigenschaft von Wellenfunktionen für identische Fermionen, die besagt, dass die Wellenfunktion ihr Vorzeichen ändert, wenn die Positionen der Teilchen vertauscht werden. Symmetrische Wellenfunktionen hingegen sind charakteristisch für Bosonen, die bei einem Austausch unverändert bleiben.",
+      "difficulty": 1,
+      "subcategory": "Hilbert-Raum & Basiszustände (sym/antisym)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Austauschwechselwirkung (lokalisierte Elektronen)",
+      "question": "Welche der folgenden Aussagen beschreibt am besten die Austauschwechselwirkung bei lokalisierten Elektronen in Festkörpern?",
+      "choices": [
+        "A: Sie beschreibt die Wechselwirkung zwischen Elektronen und Photonen.",
+        "B: Sie führt zu einer Beeinflussung der Spins von Elektronen in benachbarten Atomen.",
+        "C: Sie sorgt dafür, dass Elektronen sich frei durch das Material bewegen können.",
+        "D: Sie hat keinen Einfluss auf die Eigenschaften des Festkörpers."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Austauschwechselwirkung ist ein quantenmechanisches Phänomen, das den Spin von Elektronen in benachbarten Atomen beeinflusst. Sie ist entscheidend für magnetische Eigenschaften von Materialien, indem sie die Spins in einer bestimmten Ausrichtung koppelt.",
+      "difficulty": 5,
+      "subcategory": "Austauschwechselwirkung (lokalisierte Elektronen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Allgemeines & Radialgleichung",
+      "question": "Welche Bedingung muss erfüllt sein, damit die Radialgleichung der Schrödinger-Gleichung für ein Teilchen im Coulomb-Potential Lösungen hat?",
+      "choices": [
+        "A: Die Masse des Teilchens muss unendlich sein.",
+        "B: Der Energiezustand muss negativ sein.",
+        "C: Der Impuls des Teilchens muss konstant sein.",
+        "D: Das Teilchen muss relativistisch sein."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Radialgleichung der Schrödinger-Gleichung für ein Coulomb-Potential hat nur dann gültige Lösungen, wenn der Energiezustand des Teilchens negativ ist, was typisch für gebundene Zustände ist. Bei positiven Energiezuständen würden die Lösungen divergieren und sind daher nicht physikalisch sinnvoll.",
+      "difficulty": 8,
+      "subcategory": "Allgemeines & Radialgleichung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Härte von Festkörpern",
+      "question": "Welche der folgenden Materialien hat die höchste Härte nach der Mohs-Skala?",
+      "choices": [
+        "A: Quarz",
+        "B: Topas",
+        "C: Diamant",
+        "D: Feldspat"
+      ],
+      "correct_answer": "C",
+      "explanation": "Diamant ist das härteste bekannte natürliche Material und erreicht auf der Mohs-Skala den Wert 10. Quarz, Topas und Feldspat sind ebenfalls harte Materialien, erreichen jedoch nicht die Härte von Diamant.",
+      "difficulty": 7,
+      "subcategory": "Härte von Festkörpern"
+    }
+  ]
+}
