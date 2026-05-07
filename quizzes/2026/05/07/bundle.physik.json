@@ -1,0 +1,169 @@
+{
+  "date": "2026-05-07",
+  "generated_at": "2026-05-07T04:18:21Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Spektrum des harmonischen Oszillators",
+      "question": "Was beschreibt das Energieniveau eines quantenmechanischen harmonischen Oszillators?",
+      "choices": [
+        "A: E_n = n^2ħω",
+        "B: E_n = nħω",
+        "C: E_n = (n - 1/2)ħω",
+        "D: E_n = (n + 1/2)ħω"
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Energieniveaus eines harmonischen Oszillators sind quantisiert und folgen der Formel E_n = (n + 1/2)ħω, wobei n eine nicht-negative ganze Zahl ist, ħ das reduzierte Plancksche Wirkungsquantum und ω die Kreisfrequenz des Oszillators. Diese Formel verdeutlicht die quantenmechanische Natur des Systems, wo selbst der Grundzustand eine positive Energie besitzt.",
+      "difficulty": 8,
+      "subcategory": "Spektrum des harmonischen Oszillators"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Design und Herstellung von Objektiven",
+      "question": "Welche der folgenden Eigenschaften ist entscheidend für die Herstellung eines hochwertigen Kameraobjektivs?",
+      "choices": [
+        "A: Die Farbe des Gehäuses des Objektivs",
+        "B: Die Anzahl der Linsen im Objektiv",
+        "C: Die Verwendung von asphärischen Linsen zur Reduzierung von Aberrationen",
+        "D: Die Größe des Objektivs"
+      ],
+      "correct_answer": "C",
+      "explanation": "Asphärische Linsen sind entscheidend, um optische Aberrationen zu minimieren und eine bessere Bildqualität zu erreichen. Die Anzahl der Linsen und die Größe spielen zwar eine Rolle, sind jedoch nicht so entscheidend wie die Form der Linsen selbst.",
+      "difficulty": 6,
+      "subcategory": "Design und Herstellung von Objektiven"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Klassischer Grenzfall & Quantenkorrekturen (Virial)",
+      "question": "Was beschreibt der Virialsatz in der statistischen Mechanik?",
+      "choices": [
+        "A: Die Beziehung zwischen Temperatur und Druck in idealen Gasen.",
+        "B: Den Zusammenhang zwischen der mittleren kinetischen und potentiellen Energie eines Systems.",
+        "C: Die Geschwindigkeit von Licht in verschiedenen Medien.",
+        "D: Die Anzahl der Teilchen in einem geschlossenen System."
+      ],
+      "correct_answer": "B",
+      "explanation": "Der Virialsatz beschreibt den Zusammenhang zwischen der mittleren kinetischen Energie und der mittleren potentiellen Energie eines Systems in der statistischen Mechanik. Dies ist besonders relevant, um das Verhalten von Teilchen in einem thermodynamischen Gleichgewicht zu verstehen.",
+      "difficulty": 1,
+      "subcategory": "Klassischer Grenzfall & Quantenkorrekturen (Virial)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Freies Teilchen (3D)",
+      "question": "Was beschreibt die Wellenfunktion eines freien Teilchens in der Quantenmechanik?",
+      "choices": [
+        "A: Sie gibt die Wahrscheinlichkeit an, das Teilchen an einem bestimmten Ort zu finden.",
+        "B: Sie zeigt die Temperatur des Teilchens an.",
+        "C: Sie bestimmt die Geschwindigkeit des Teilchens.",
+        "D: Sie beschreibt die Masse des Teilchens."
+      ],
+      "correct_answer": "A",
+      "explanation": "In der Quantenmechanik beschreibt die Wellenfunktion die Wahrscheinlichkeit, ein Teilchen an einem bestimmten Ort zu finden. Sie ist ein zentrales Konzept und ermöglicht die Berechnung von verschiedenen physikalischen Eigenschaften des Teilchens.",
+      "difficulty": 2,
+      "subcategory": "Freies Teilchen (3D)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Formulierung des Streuproblems",
+      "question": "Was beschreibt die Schrödinger-Gleichung im Kontext des Streuproblems?",
+      "choices": [
+        "A: Die Temperaturabhängigkeit des Streuquerschnitts.",
+        "B: Die Wahrscheinlichkeit, dass ein Teilchen an einem bestimmten Punkt auftritt.",
+        "C: Die Energieerhaltung während des Streuprozesses.",
+        "D: Den Impulsübertrag zwischen zwei Teilchen."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Schrödinger-Gleichung ist eine fundamentale Gleichung der Quantenmechanik, die die zeitliche Entwicklung des Quantenzustands beschreibt. Im Kontext des Streuproblems gibt sie die Wahrscheinlichkeit an, dass ein Teilchen an einem bestimmten Punkt auftritt, was entscheidend für die Analyse von Wechselwirkungen ist.",
+      "difficulty": 6,
+      "subcategory": "Formulierung des Streuproblems"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Residuensatz",
+      "question": "Welches der folgenden Szenarien beschreibt korrekt die Anwendung des Residuensatzes in der Elektrodynamik?",
+      "choices": [
+        "A: Der Residuensatz wird genutzt, um die Spannung in einem ohmschen Widerstand zu berechnen.",
+        "B: Der Residuensatz hilft bei der Analyse der zeitlichen Entwicklung von elektromagnetischen Wellen in Vakuum.",
+        "C: Der Residuensatz ist entscheidend für die Berechnung der Integrale über geschlossene Kurven in der komplexen Ebene, insbesondere in Bezug auf Pole der Funktion.",
+        "D: Der Residuensatz wird verwendet, um die Wirkung von elektrischen Feldern an der Oberfläche eines Leiters zu bestimmen."
+      ],
+      "correct_answer": "C",
+      "explanation": "Der Residuensatz ist ein wichtiges Werkzeug in der komplexen Analysis, das es ermöglicht, Integrale über geschlossene Kurven zu berechnen, indem man die Residuen der Pole innerhalb dieser Kurven berücksichtigt. In der Elektrodynamik ist dies besonders nützlich, um bestimmte Integrale zu lösen, die im Zusammenhang mit elektromagnetischen Feldern stehen.",
+      "difficulty": 8,
+      "subcategory": "Residuensatz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Mittlere kinetische Energie & Temperatur",
+      "question": "Welche Aussage beschreibt am besten den Zusammenhang zwischen der mittleren kinetischen Energie der Teilchen und der Temperatur eines Gases?",
+      "choices": [
+        "A: Die mittlere kinetische Energie der Teilchen ist umgekehrt proportional zur Temperatur des Gases.",
+        "B: Die mittlere kinetische Energie der Teilchen ist unabhängig von der Temperatur des Gases.",
+        "C: Die mittlere kinetische Energie der Teilchen ist konstant bei jeder Temperatur.",
+        "D: Die mittlere kinetische Energie der Teilchen ist direkt proportional zur Temperatur des Gases."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die mittlere kinetische Energie der Teilchen in einem Gas ist direkt proportional zur Temperatur. Dies bedeutet, dass eine Erhöhung der Temperatur zu einer Erhöhung der mittleren kinetischen Energie der Teilchen führt, was sich in einer schnelleren Bewegung der Teilchen äußert.",
+      "difficulty": 5,
+      "subcategory": "Mittlere kinetische Energie & Temperatur"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Geschl. System im Wärmebad: Minimum der freien Energie F",
+      "question": "Was beschreibt das Minimum der freien Energie F in einem geschlossenen System im Wärmebad?",
+      "choices": [
+        "A: Der Zustand, in dem das System im Gleichgewicht ist.",
+        "B: Der Zustand, in dem die Temperatur konstant bleibt.",
+        "C: Der Zustand, in dem die Entropie maximal ist.",
+        "D: Der Zustand, in dem die chemische Energie minimiert wird."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Minimum der freien Energie F bedeutet, dass das System im Gleichgewicht ist, was eine stabile thermodynamische Konfiguration darstellt. In diesem Zustand ist die Energie optimal verteilt, und das System hat keine Tendenz, sich weiter zu verändern.",
+      "difficulty": 5,
+      "subcategory": "Geschl. System im Wärmebad: Minimum der freien Energie F"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Reelle W‑ und Z‑Bosonen",
+      "question": "Welches der folgenden Bosonen vermittelt die schwache Wechselwirkung und hat eine Masse von etwa 80 GeV/c²?",
+      "choices": [
+        "A: Gluon",
+        "B: Z-Boson",
+        "C: W-Boson",
+        "D: Photon"
+      ],
+      "correct_answer": "C",
+      "explanation": "Das W-Boson ist ein Träger der schwachen Wechselwirkung und spielt eine entscheidende Rolle bei Prozessen wie dem β-Zerfall. Es hat eine Masse von etwa 80 GeV/c², während das Z-Boson eine Masse von etwa 91 GeV/c² hat und ebenfalls an der schwachen Wechselwirkung beteiligt ist.",
+      "difficulty": 7,
+      "subcategory": "Reelle W‑ und Z‑Bosonen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Elemente der Variationsrechnung",
+      "question": "Was beschreibt das Prinzip der kleinsten Aktion in der Variationsrechnung?",
+      "choices": [
+        "A: Ein System bewegt sich entlang einer Bahn, die die minimalen Energieaufwendungen erfordert.",
+        "B: Ein System bewegt sich entlang einer Bahn, die die minimalen Zeitaufwendungen erfordert.",
+        "C: Ein System bleibt immer in Ruhe, bis eine äußere Kraft wirkt.",
+        "D: Ein System bewegt sich entlang einer Bahn, die die maximale Geschwindigkeit ermöglicht."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Prinzip der kleinsten Aktion besagt, dass die Bewegung eines Systems den Pfad wählt, der die minimalen Energieaufwendungen erfordert. Dies ist ein zentraler Aspekt der Variationsrechnung in der Physik und hilft, die Bewegungsgleichungen abzuleiten.",
+      "difficulty": 3,
+      "subcategory": "Elemente der Variationsrechnung"
+    }
+  ]
+}

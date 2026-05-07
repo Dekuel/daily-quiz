@@ -1,0 +1,168 @@
+{
+  "date": "2026-05-07",
+  "generated_at": "2026-05-07T04:19:14Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Spektrum des harmonischen Oszillators",
+      "question": "What describes the energy level of a quantum mechanical harmonic oscillator?",
+      "choices": [
+        "A: E_n = n^2ħω",
+        "B: E_n = nħω",
+        "C: E_n = (n - 1/2)ħω",
+        "D: E_n = (n + 1/2)ħω"
+      ],
+      "correct_answer": "D",
+      "explanation": "The energy levels of a harmonic oscillator are quantized and follow the formula E_n = (n + 1/2)ħω, where n is a non-negative integer, ħ is the reduced Planck constant, and ω is the oscillator's angular frequency. This formula illustrates the quantum mechanical nature of the system, where even the ground state has a positive energy.",
+      "difficulty": 8,
+      "subcategory": "Spektrum des harmonischen Oszillators"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Design und Herstellung von Objektiven",
+      "question": "Which of the following properties is crucial for producing a high-quality camera lens?",
+      "choices": [
+        "A: The color of the lens housing",
+        "B: The number of lenses in the lens",
+        "C: The use of aspherical lenses to reduce aberrations",
+        "D: The size of the lens"
+      ],
+      "correct_answer": "C",
+      "explanation": "Aspherical lenses are crucial for minimizing optical aberrations and achieving better image quality. While the number of lenses and size play a role, they are not as crucial as the shape of the lenses themselves.",
+      "difficulty": 6,
+      "subcategory": "Design und Herstellung von Objektiven"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Klassischer Grenzfall & Quantenkorrekturen (Virial)",
+      "question": "What does the virial theorem describe in statistical mechanics?",
+      "choices": [
+        "A: The relationship between temperature and pressure in ideal gases.",
+        "B: The relationship between the average kinetic and potential energy of a system.",
+        "C: The speed of light in different media.",
+        "D: The number of particles in a closed system."
+      ],
+      "correct_answer": "B",
+      "explanation": "The virial theorem describes the relationship between the average kinetic energy and the average potential energy of a system in statistical mechanics. This is particularly relevant for understanding the behavior of particles in thermodynamic equilibrium.",
+      "difficulty": 1,
+      "subcategory": "Klassischer Grenzfall & Quantenkorrekturen (Virial)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Freies Teilchen (3D)",
+      "question": "What does the wave function of a free particle describe in quantum mechanics?",
+      "choices": [
+        "A: It indicates the probability of finding the particle at a specific location.",
+        "B: It indicates the temperature of the particle.",
+        "C: It determines the velocity of the particle.",
+        "D: It describes the mass of the particle."
+      ],
+      "correct_answer": "A",
+      "explanation": "In quantum mechanics, the wave function describes the probability of finding a particle at a specific location. It is a central concept that enables the calculation of various physical properties of the particle.",
+      "difficulty": 2,
+      "subcategory": "Freies Teilchen (3D)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Formulierung des Streuproblems",
+      "question": "What does the Schrödinger equation describe in the context of the scattering problem?",
+      "choices": [
+        "A: The temperature dependence of the scattering cross-section.",
+        "B: The probability of a particle appearing at a specific point.",
+        "C: The conservation of energy during the scattering process.",
+        "D: The momentum transfer between two particles."
+      ],
+      "correct_answer": "B",
+      "explanation": "The Schrödinger equation is a fundamental equation of quantum mechanics that describes the temporal evolution of the quantum state. In the context of the scattering problem, it indicates the probability of a particle appearing at a specific point, which is crucial for analyzing interactions.",
+      "difficulty": 6,
+      "subcategory": "Formulierung des Streuproblems"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Residuensatz",
+      "question": "Which of the following scenarios correctly describes the application of the residue theorem in electrodynamics?",
+      "choices": [
+        "A: The residue theorem is used to calculate the voltage in an ohmic resistor.",
+        "B: The residue theorem aids in the analysis of the temporal evolution of electromagnetic waves in vacuum.",
+        "C: The residue theorem is crucial for calculating integrals over closed curves in the complex plane, especially regarding the poles of the function.",
+        "D: The residue theorem is used to determine the effect of electric fields on the surface of a conductor."
+      ],
+      "correct_answer": "C",
+      "explanation": "The residue theorem is an important tool in complex analysis that allows for the calculation of integrals over closed curves by considering the residues of the poles within these curves. In electrodynamics, this is particularly useful for solving specific integrals related to electromagnetic fields.",
+      "difficulty": 8,
+      "subcategory": "Residuensatz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Mittlere kinetische Energie & Temperatur",
+      "question": "Which statement best describes the relationship between the average kinetic energy of particles and the temperature of a gas?",
+      "choices": [
+        "A: The average kinetic energy of particles is inversely proportional to the gas temperature.",
+        "B: The average kinetic energy of particles is independent of the gas temperature.",
+        "C: The average kinetic energy of particles is constant at any temperature.",
+        "D: The average kinetic energy of particles is directly proportional to the gas temperature."
+      ],
+      "correct_answer": "D",
+      "explanation": "The average kinetic energy of particles in a gas is directly proportional to the temperature. This means that an increase in temperature leads to an increase in the average kinetic energy of the particles, resulting in faster particle movement.",
+      "difficulty": 5,
+      "subcategory": "Mittlere kinetische Energie & Temperatur"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Geschl. System im Wärmebad: Minimum der freien Energie F",
+      "question": "What does the minimum of the free energy F in a closed system in a heat bath describe?",
+      "choices": [
+        "A: The state in which the system is in equilibrium.",
+        "B: The state in which the temperature remains constant.",
+        "C: The state in which the entropy is maximal.",
+        "D: The state in which the chemical energy is minimized."
+      ],
+      "correct_answer": "A",
+      "explanation": "The minimum of the free energy F indicates that the system is in equilibrium, representing a stable thermodynamic configuration. In this state, the energy is optimally distributed, and the system has no tendency to further change.",
+      "difficulty": 5,
+      "subcategory": "Geschl. System im Wärmebad: Minimum der freien Energie F"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Reelle W‑ und Z‑Bosonen",
+      "question": "Which of the following bosons mediates the weak interaction and has a mass of about 80 GeV/c²?",
+      "choices": [
+        "A: Gluon",
+        "B: Z-boson",
+        "C: W-boson",
+        "D: Photon"
+      ],
+      "correct_answer": "C",
+      "explanation": "The W-boson is a carrier of the weak interaction and plays a crucial role in processes like beta decay. It has a mass of about 80 GeV/c², while the Z-boson has a mass of about 91 GeV/c² and is also involved in the weak interaction.",
+      "difficulty": 7,
+      "subcategory": "Reelle W‑ und Z‑Bosonen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Elemente der Variationsrechnung",
+      "question": "What does the principle of least action describe in the calculus of variations?",
+      "choices": [
+        "A: A system moves along a path that requires minimal energy expenditure.",
+        "B: A system moves along a path that requires minimal time expenditure.",
+        "C: A system remains at rest until an external force acts.",
+        "D: A system moves along a path that allows for maximum speed."
+      ],
+      "correct_answer": "A",
+      "explanation": "The principle of least action states that a system's motion chooses the path that requires minimal energy expenditure. This is a central aspect of the calculus of variations in physics and helps derive the equations of motion.",
+      "difficulty": 3,
+      "subcategory": "Elemente der Variationsrechnung"
+    }
+  ]
+}
