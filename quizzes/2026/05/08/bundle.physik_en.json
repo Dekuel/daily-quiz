@@ -1,0 +1,168 @@
+{
+  "date": "2026-05-08",
+  "generated_at": "2026-05-08T04:13:29Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Feldstärke-Tensor (Fμν)",
+      "question": "What does the field strength tensor Fμν describe in relativity theory?",
+      "choices": [
+        "A: The electromagnetic fields and their interactions.",
+        "B: The motion of particles in a vacuum.",
+        "C: The structure of space and time without material influences.",
+        "D: The gravitational forces between two masses."
+      ],
+      "correct_answer": "A",
+      "explanation": "The field strength tensor Fμν is a mathematical object that describes the electromagnetic fields and their interactions in relativity theory. It contains information about electric and magnetic fields in a compact form.",
+      "difficulty": 4,
+      "subcategory": "Feldstärke-Tensor (Fμν)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Darstellungsräume (q,p) und Funktionenräume",
+      "question": "What do the representation spaces (q,p) represent in analytical mechanics?",
+      "choices": [
+        "A: Velocity and acceleration of a system",
+        "B: Position and momentum of a system",
+        "C: Temperature and pressure of a system",
+        "D: Energy and time of a system"
+      ],
+      "correct_answer": "B",
+      "explanation": "In analytical mechanics, the representation spaces (q,p) refer to the phase space, which describes the position (q) and momentum (p) of a system. This representation is crucial for analyzing the dynamics of systems and their evolution over time.",
+      "difficulty": 4,
+      "subcategory": "Darstellungsräume (q,p) und Funktionenräume"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Potentialtopf: Streuzustände",
+      "question": "What does a scattering state describe in the context of a potential well in quantum mechanics?",
+      "choices": [
+        "A: Particles that always have a defined energy.",
+        "B: Particles confined only within the potential well.",
+        "C: Particles that can tunnel through the potential well.",
+        "D: Particles that cannot move."
+      ],
+      "correct_answer": "C",
+      "explanation": "In quantum mechanics, a scattering state describes a state in which a particle has the possibility to tunnel through the potential well, meaning it can overcome the barrier even if it would not be classically possible. These states are important for understanding particle interactions at potential barriers.",
+      "difficulty": 4,
+      "subcategory": "Potentialtopf: Streuzustände"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Kanonische Dichtematrix & Thermodynamik magnetischer Systeme",
+      "question": "Which of the following statements about the canonical density matrix of a magnetic system is correct?",
+      "choices": [
+        "A: The canonical density matrix is applicable only to systems without external magnetic fields.",
+        "B: The density matrix is independent of temperature and describes only the interactions between particles.",
+        "C: The Boltzmann factor is not relevant for calculating the density matrix in magnetic systems.",
+        "D: The canonical density matrix describes the state of a system at constant temperature and is proportional to the Boltzmann factor."
+      ],
+      "correct_answer": "D",
+      "explanation": "The canonical density matrix is a central concept in statistical mechanics that describes the thermodynamic state of a system at constant temperature. It is closely related to the Boltzmann factor, which weights the energetic states.",
+      "difficulty": 8,
+      "subcategory": "Kanonische Dichtematrix & Thermodynamik magnetischer Systeme"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Kanonisches Ensemble: Dichtematrix & Zustandssumme",
+      "question": "What does the partition function Z represent in the canonical ensemble?",
+      "choices": [
+        "A: The sum of the energies of all possible states of the system.",
+        "B: The temperature of the system.",
+        "C: The probability of a specific microstate of the system.",
+        "D: The sum of the concentrations of all particles in the system."
+      ],
+      "correct_answer": "A",
+      "explanation": "The partition function Z is a central quantity in the canonical ensemble and represents the sum of the exponentially weighted energies of all possible microstates. It enables the calculation of thermodynamic properties of the system.",
+      "difficulty": 4,
+      "subcategory": "Kanonisches Ensemble: Dichtematrix & Zustandssumme"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Ehrenfest-Klassifikation",
+      "question": "Which of the following statements correctly describes the Ehrenfest classification of phase transitions?",
+      "choices": [
+        "A: The transition from gas to plasma is a second-order phase transition.",
+        "B: All phase transitions are independent of temperature.",
+        "C: First-order phase transitions have no latent heat.",
+        "D: The transition between solid and liquid is a first-order phase transition."
+      ],
+      "correct_answer": "D",
+      "explanation": "The Ehrenfest classification distinguishes between first and second-order phase transitions. A first-order phase transition, such as the transition from solid to liquid, is characterized by a sudden change in enthalpy and a latent heat phenomenon.",
+      "difficulty": 7,
+      "subcategory": "Ehrenfest-Klassifikation"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Kronig–Penney-Modell (Bänder)",
+      "question": "What does the Kronig–Penney model describe in quantum mechanics?",
+      "choices": [
+        "A: The formation of energy band structures in solids",
+        "B: The properties of ideal gases",
+        "C: The motion of planets in the solar system",
+        "D: The interactions between photons and electrons"
+      ],
+      "correct_answer": "A",
+      "explanation": "The Kronig–Penney model is a simple model explaining the band structure in solids. It shows how periodicity in a material leads to discrete energy bands that are crucial for the electrical properties of semiconductors and metals.",
+      "difficulty": 3,
+      "subcategory": "Kronig–Penney-Modell (Bänder)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Der Dipol & Dipolfeld",
+      "question": "What does an electric dipole describe?",
+      "choices": [
+        "A: Two oppositely charged point charges separated by a certain distance.",
+        "B: An electric conductor without resistance.",
+        "C: A magnet with two poles.",
+        "D: A single positive charge."
+      ],
+      "correct_answer": "A",
+      "explanation": "An electric dipole consists of two equally sized but oppositely charged point charges separated by a certain distance. This structure is fundamental for understanding dipole fields and their properties in electrodynamics.",
+      "difficulty": 2,
+      "subcategory": "Der Dipol & Dipolfeld"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Teilbarkeit der Materie (historisch)",
+      "question": "Which of the following concepts significantly contributed to the discovery of the divisibility of matter in the early 20th century?",
+      "choices": [
+        "A: Ohm's Law",
+        "B: The Theory of Relativity",
+        "C: The discovery of the electron",
+        "D: Newton's Laws of Motion"
+      ],
+      "correct_answer": "C",
+      "explanation": "The discovery of the electron by J.J. Thomson in 1897 was a crucial step in quantum mechanics, showing that matter is not indivisible but consists of smaller particles. This realization led to a fundamental shift in the understanding of matter.",
+      "difficulty": 5,
+      "subcategory": "Teilbarkeit der Materie (historisch)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Einfache Kristallgitter (sc, bcc, fcc)",
+      "question": "Which of the following crystal lattices has the highest packing density?",
+      "choices": [
+        "A: Body-centered cubic (bcc)",
+        "B: Hexagonal close-packed (hcp)",
+        "C: Face-centered cubic (fcc)",
+        "D: Simple cubic (sc)"
+      ],
+      "correct_answer": "C",
+      "explanation": "The face-centered cubic lattice (fcc) has the highest packing density of about 74%, while the body-centered cubic lattice (bcc) reaches only about 68%, and the simple cubic lattice (sc) has the lowest density of about 52%. These differences are crucial for the physical properties of materials.",
+      "difficulty": 8,
+      "subcategory": "Einfache Kristallgitter (sc, bcc, fcc)"
+    }
+  ]
+}

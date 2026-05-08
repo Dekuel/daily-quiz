@@ -1,0 +1,169 @@
+{
+  "date": "2026-05-08",
+  "generated_at": "2026-05-08T04:12:42Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Feldstärke-Tensor (Fμν)",
+      "question": "Was beschreibt der Feldstärke-Tensor Fμν in der Relativitätstheorie?",
+      "choices": [
+        "A: Die elektromagnetischen Felder und deren Wechselwirkungen.",
+        "B: Die Bewegung von Teilchen in einem Vakuum.",
+        "C: Die Struktur von Raum und Zeit ohne materielle Einflüsse.",
+        "D: Die Gravitationskräfte zwischen zwei Massen."
+      ],
+      "correct_answer": "A",
+      "explanation": "Der Feldstärke-Tensor Fμν ist ein mathematisches Objekt, das die elektromagnetischen Felder beschreibt und deren Wechselwirkungen in der Relativitätstheorie darstellt. Er enthält Informationen über elektrische und magnetische Felder in einer kompakten Form.",
+      "difficulty": 4,
+      "subcategory": "Feldstärke-Tensor (Fμν)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Darstellungsräume (q,p) und Funktionenräume",
+      "question": "Was stellen die Darstellungsräume (q,p) in der analytischen Mechanik dar?",
+      "choices": [
+        "A: Geschwindigkeit und Beschleunigung eines Systems",
+        "B: Position und Impuls eines Systems",
+        "C: Temperatur und Druck eines Systems",
+        "D: Energie und Zeit eines Systems"
+      ],
+      "correct_answer": "B",
+      "explanation": "In der analytischen Mechanik beziehen sich die Darstellungsräume (q,p) auf den phasenraum, der die Position (q) und den Impuls (p) eines Systems beschreibt. Diese Darstellung ist entscheidend für die Analyse der Dynamik von Systemen und deren Entwicklung über die Zeit.",
+      "difficulty": 4,
+      "subcategory": "Darstellungsräume (q,p) und Funktionenräume"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Potentialtopf: Streuzustände",
+      "question": "Was beschreibt ein Streuzustand im Kontext eines Potentialtopfs in der Quantenmechanik?",
+      "choices": [
+        "A: Teilchen, die immer eine definierte Energie haben.",
+        "B: Teilchen, die sich nur innerhalb des Potentialtopfs befinden.",
+        "C: Teilchen, die durch den Potentialtopf hindurch tunneln können.",
+        "D: Teilchen, die sich nicht bewegen können."
+      ],
+      "correct_answer": "C",
+      "explanation": "Ein Streuzustand beschreibt in der Quantenmechanik einen Zustand, in dem ein Teilchen die Möglichkeit hat, durch den Potentialtopf zu tunneln, was bedeutet, dass es die Barriere überwinden kann, auch wenn es klassisch nicht möglich wäre. Diese Zustände sind wichtig für das Verständnis der Wechselwirkungen von Teilchen an Potentialbarrieren.",
+      "difficulty": 4,
+      "subcategory": "Potentialtopf: Streuzustände"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Kanonische Dichtematrix & Thermodynamik magnetischer Systeme",
+      "question": "Welche der folgenden Aussagen zur kanonischen Dichtematrix eines magnetischen Systems ist korrekt?",
+      "choices": [
+        "A: Die kanonische Dichtematrix ist nur für Systeme ohne äußere Magnetfelder anwendbar.",
+        "B: Die Dichtematrix ist unabhängig von der Temperatur und beschreibt nur die Wechselwirkungen zwischen Teilchen.",
+        "C: Der Boltzmann-Faktor ist nicht relevant für die Berechnung der Dichtematrix in magnetischen Systemen.",
+        "D: Die kanonische Dichtematrix beschreibt den Zustand eines Systems bei konstanter Temperatur und ist proportional zur Boltzmann-Faktor."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die kanonische Dichtematrix ist ein zentrales Konzept in der statistischen Mechanik, das den thermodynamischen Zustand eines Systems unter konstantem Temperatur beschreibt. Sie ist eng mit dem Boltzmann-Faktor verknüpft, der die energetischen Zustände gewichtet.",
+      "difficulty": 8,
+      "subcategory": "Kanonische Dichtematrix & Thermodynamik magnetischer Systeme"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Kanonisches Ensemble: Dichtematrix & Zustandssumme",
+      "question": "Was beschreibt die Zustandssumme Z im kanonischen Ensemble?",
+      "choices": [
+        "A: Die Summe der Energien aller möglichen Zustände des Systems.",
+        "B: Die Temperatur des Systems.",
+        "C: Die Wahrscheinlichkeit eines bestimmten Mikrozustands des Systems.",
+        "D: Die Summe der Konzentrationen aller Teilchen im System."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Zustandssumme Z ist eine zentrale Größe im kanonischen Ensemble und stellt die Summe der exponentiell gewichteten Energien aller möglichen Mikrozustände dar. Sie ermöglicht die Berechnung thermodynamischer Eigenschaften des Systems.",
+      "difficulty": 4,
+      "subcategory": "Kanonisches Ensemble: Dichtematrix & Zustandssumme"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Ehrenfest-Klassifikation",
+      "question": "Welche der folgenden Aussagen beschreibt die Ehrenfest-Klassifikation der Phasenübergänge korrekt?",
+      "choices": [
+        "A: Der Übergang von Gas zu Plasma ist ein zweiter Ordnung Phasenübergang.",
+        "B: Alle Phasenübergänge sind unabhängig von der Temperatur.",
+        "C: Phasenübergänge erster Ordnung haben keinen latent heat.",
+        "D: Der Übergang zwischen fest und flüssig ist ein erster Ordnung Phasenübergang."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Ehrenfest-Klassifikation unterscheidet zwischen Phasenübergängen erster und zweiter Ordnung. Ein erster Ordnung Phasenübergang, wie der Übergang von fest zu flüssig, zeichnet sich durch einen sprunghaften Wechsel in der Enthalpie und ein latentes Wärmephänomen aus.",
+      "difficulty": 7,
+      "subcategory": "Ehrenfest-Klassifikation"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Kronig–Penney-Modell (Bänder)",
+      "question": "Was beschreibt das Kronig–Penney-Modell in der Quantenmechanik?",
+      "choices": [
+        "A: Die Ausbildung von Energiebandstrukturen in Festkörpern",
+        "B: Die Eigenschaften von idealen Gasen",
+        "C: Die Bewegung von Planeten im Sonnensystem",
+        "D: Die Wechselwirkungen zwischen Photonen und Elektronen"
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Kronig–Penney-Modell ist ein einfaches Modell zur Erklärung der Bandstruktur in Festkörpern. Es zeigt, wie Periodizität in einem Material zu diskreten Energiebändern führt, die für die elektrischen Eigenschaften von Halbleitern und Metallen entscheidend sind.",
+      "difficulty": 3,
+      "subcategory": "Kronig–Penney-Modell (Bänder)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Der Dipol & Dipolfeld",
+      "question": "Was beschreibt ein elektrischer Dipol?",
+      "choices": [
+        "A: Zwei entgegengesetzt geladene Punktladungen, die sich in einem bestimmten Abstand befinden.",
+        "B: Eine elektrische Leitung ohne Widerstand.",
+        "C: Ein Magnet mit zwei Polen.",
+        "D: Eine einzige positive Ladung."
+      ],
+      "correct_answer": "A",
+      "explanation": "Ein elektrischer Dipol besteht aus zwei gleich großen, aber entgegengesetzt geladenen Punktladungen, die durch einen bestimmten Abstand getrennt sind. Diese Struktur ist grundlegend für das Verständnis von Dipolfeldern und deren Eigenschaften in der Elektrodynamik.",
+      "difficulty": 2,
+      "subcategory": "Der Dipol & Dipolfeld"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Teilbarkeit der Materie (historisch)",
+      "question": "Welches der folgenden Konzepte trug maßgeblich zur Entdeckung der Teilbarkeit der Materie im frühen 20. Jahrhundert bei?",
+      "choices": [
+        "A: Der Gesetz von Ohm",
+        "B: Die Relativitätstheorie",
+        "C: Die Entdeckung des Elektrons",
+        "D: Newtons Gesetze der Bewegung"
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Entdeckung des Elektrons durch J.J. Thomson im Jahr 1897 war ein entscheidender Schritt in der Quantenmechanik und zeigte, dass Materie nicht unteilbar ist, sondern aus kleineren Teilchen besteht. Diese Erkenntnis führte zu einem grundlegenden Wandel im Verständnis der Materie.",
+      "difficulty": 5,
+      "subcategory": "Teilbarkeit der Materie (historisch)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Einfache Kristallgitter (sc, bcc, fcc)",
+      "question": "Welches der folgenden Kristallgitter hat die größte Packungsdichte?",
+      "choices": [
+        "A: kubisch raumzentriert (bcc)",
+        "B: hexagonal dichtest gepackt (hcp)",
+        "C: kubisch flächenzentriert (fcc)",
+        "D: einfach kubisch (sc)"
+      ],
+      "correct_answer": "C",
+      "explanation": "Das kubisch flächenzentrierte Gitter (fcc) hat die höchste Packungsdichte von etwa 74%, während das kubisch raumzentrierte Gitter (bcc) nur etwa 68% erreicht und das einfach kubische Gitter (sc) mit etwa 52% die niedrigste Dichte aufweist. Diese Unterschiede sind entscheidend für die physikalischen Eigenschaften der Materialien.",
+      "difficulty": 8,
+      "subcategory": "Einfache Kristallgitter (sc, bcc, fcc)"
+    }
+  ]
+}
