@@ -1,0 +1,168 @@
+{
+  "date": "2026-05-09",
+  "generated_at": "2026-05-09T04:11:56Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Quantentheoretische Bewegungsgleichungen",
+      "question": "Which equation describes the behavior of particles in quantum mechanics and is often used as the basis for the quantum mechanical description of motion?",
+      "choices": [
+        "A: Maxwell's equations",
+        "B: Schrödinger equation",
+        "C: Newton's motion equation",
+        "D: Boltzmann equation"
+      ],
+      "correct_answer": "B",
+      "explanation": "The Schrödinger equation is a fundamental equation of quantum mechanics that describes the behavior of quantum mechanical systems. It allows for the calculation of the probability density in which a particle is located at a specific place and time.",
+      "difficulty": 6,
+      "subcategory": "Quantentheoretische Bewegungsgleichungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Quarkstruktur der Nukleonen",
+      "question": "Which quarks form a proton?",
+      "choices": [
+        "A: two up quarks and one down quark",
+        "B: three up quarks",
+        "C: one up quark and two strange quarks",
+        "D: one up quark and one bottom quark"
+      ],
+      "correct_answer": "A",
+      "explanation": "A proton consists of two up quarks and one down quark. This quark configuration gives the proton its positive electric charge as well as its properties as a nucleon.",
+      "difficulty": 6,
+      "subcategory": "Quarkstruktur der Nukleonen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "de Broglie-Wellen",
+      "question": "What does the de Broglie wavelength describe in particle motion?",
+      "choices": [
+        "A: The wavelength associated with the momentum energy of a particle.",
+        "B: The wavelength describing the temperature of a particle.",
+        "C: The wavelength of a light beam emitted by a particle.",
+        "D: The wavelength associated with the gravitational force of a particle."
+      ],
+      "correct_answer": "A",
+      "explanation": "The de Broglie wavelength is defined as the wavelength associated with a particle due to its momentum. It shows that particles like electrons possess both particle and wave properties and is a central concept in quantum mechanics.",
+      "difficulty": 4,
+      "subcategory": "de Broglie-Wellen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Semileptonische Baryon‑Zerfälle",
+      "question": "What is a characteristic feature of a semileptonic baryon decay?",
+      "choices": [
+        "A: It is a decay involving only hadrons.",
+        "B: It involves a transition between a baryon and a meson.",
+        "C: No neutrinos are involved.",
+        "D: Two leptons always emerge."
+      ],
+      "correct_answer": "B",
+      "explanation": "A semileptonic baryon decay involves the transition of a baryon into a meson and a lepton, often resulting in the creation of a neutrino. This is characteristic of this type of decay as both baryons and leptons are involved.",
+      "difficulty": 4,
+      "subcategory": "Semileptonische Baryon‑Zerfälle"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Strömungsleitwerte von Vakuumleitungen",
+      "question": "Which factor has the greatest influence on the conductance of a vacuum line?",
+      "choices": [
+        "A: The pressure in the vacuum",
+        "B: The length of the line",
+        "C: The diameter of the line",
+        "D: The temperature of the vacuum"
+      ],
+      "correct_answer": "C",
+      "explanation": "The diameter of the line significantly determines the conductance as it affects the cross-section through which the medium can flow. A larger diameter allows for a higher flow rate, increasing the conductance.",
+      "difficulty": 7,
+      "subcategory": "Strömungsleitwerte von Vakuumleitungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Bindungstypen (Überblick)",
+      "question": "Which of the following types of bonding is typically responsible for the high electrical conductivity of metals?",
+      "choices": [
+        "A: Hydrogen bonding",
+        "B: Metallic bonding",
+        "C: Covalent bonding",
+        "D: Ionic bonding"
+      ],
+      "correct_answer": "B",
+      "explanation": "Metallic bonding allows electrons to move freely within the crystal lattice, leading to high electrical conductivity. In ionic and covalent bonds, electrons are more localized and do not contribute to electrical conductivity.",
+      "difficulty": 8,
+      "subcategory": "Bindungstypen (Überblick)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Lichttechnische Größen",
+      "question": "What unit is used to measure the luminous intensity of a light source?",
+      "choices": [
+        "A: Candela",
+        "B: Lumen",
+        "C: Watt",
+        "D: Lux"
+      ],
+      "correct_answer": "A",
+      "explanation": "The luminous intensity of a light source is measured in Candela (cd). This unit describes the intensity of light emitted in a specific direction, while lumens describe the total amount of light and lux describes the illuminance.",
+      "difficulty": 9,
+      "subcategory": "Lichttechnische Größen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Wellenpakete (Dispersion)",
+      "question": "What does the term 'dispersion' describe in relation to wave packets?",
+      "choices": [
+        "A: The splitting of waves into different frequencies.",
+        "B: The loss of energy during wave propagation.",
+        "C: The reflection of waves on a surface.",
+        "D: The superposition of waves with identical frequencies."
+      ],
+      "correct_answer": "A",
+      "explanation": "Dispersion describes how wave packets split apart as they move through different media, leading to different speeds for different frequencies. This affects the shape and propagation of wave packets over time.",
+      "difficulty": 3,
+      "subcategory": "Wellenpakete (Dispersion)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Erreichbarer Enddruck",
+      "question": "Which of the following factors influences the achievable final pressure in a closed system filled with air?",
+      "choices": [
+        "A: Temperature of the system",
+        "B: Material of the system",
+        "C: Shape of the system",
+        "D: Color of the system"
+      ],
+      "correct_answer": "A",
+      "explanation": "The achievable final pressure in a closed system directly depends on the temperature according to the ideal gas law. As the temperature increases, so does the pressure, as long as the volume remains constant.",
+      "difficulty": 6,
+      "subcategory": "Erreichbarer Enddruck"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Verteilungsfunktion",
+      "question": "Which of the following statements correctly describes the significance of the distribution function in classical mechanics?",
+      "choices": [
+        "A: The distribution function indicates the average energy of particles in a system.",
+        "B: The distribution function exclusively describes the thermodynamic properties of gases.",
+        "C: The distribution function is irrelevant for the dynamic description of particle movements.",
+        "D: The distribution function describes the probability of a particle being in a specific state."
+      ],
+      "correct_answer": "D",
+      "explanation": "The distribution function is a fundamental concept in classical mechanics that describes the probability of finding a particle in a specific state or region of phase space. It helps to statistically understand the behavior of particles in a system and analyze their dynamics.",
+      "difficulty": 8,
+      "subcategory": "Verteilungsfunktion"
+    }
+  ]
+}

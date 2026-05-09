@@ -2156,6 +2156,20 @@
       "correct_answer": "A",
       "explanation": "Android is the most widely used mobile operating system globally, offering regular updates to enhance security and functionality, especially for devices integrated into the Google ecosystem. In comparison, HarmonyOS, Windows Phone, and Tizen are less common and do not offer the same update policy.",
       "difficulty": 9
+    },
+    {
+      "category": "Technologie",
+      "topic": "Computer & Internet",
+      "question": "Which encryption standard is commonly used to secure data in HTTP/2?",
+      "choices": [
+        "A: SSL 3.0",
+        "B: IPsec",
+        "C: TLS 1.2",
+        "D: AES"
+      ],
+      "correct_answer": "C",
+      "explanation": "TLS 1.2 is a widely used encryption standard essential for securing data transmissions over the Internet, including the use of HTTP/2. In contrast, SSL 3.0 and IPsec are less common for this purpose, while AES is an encryption algorithm used in various standards but not directly responsible for transmission security.",
+      "difficulty": 8
     }
   ]
 }
