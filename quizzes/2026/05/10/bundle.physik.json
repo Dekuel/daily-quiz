@@ -1,0 +1,169 @@
+{
+  "date": "2026-05-10",
+  "generated_at": "2026-05-10T04:25:09Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Halbleiterlaser",
+      "question": "Was ist die Hauptfunktion des p-n-Übergangs in einem Halbleiterlaser?",
+      "choices": [
+        "A: Er verstärkt die Lichtintensität durch Reflexion.",
+        "B: Er reduziert den elektrischen Widerstand des Materials.",
+        "C: Er ermöglicht die Rekombination von Elektronen und Löchern.",
+        "D: Er senkt die Bandlücke des Halbleiters."
+      ],
+      "correct_answer": "C",
+      "explanation": "Der p-n-Übergang in einem Halbleiterlaser ist entscheidend, da er die Rekombination von Elektronen und Löchern ermöglicht, was zur Erzeugung von Photonen führt. Diese Rekombination ist der grundlegende Prozess, der die Laseremission antreibt.",
+      "difficulty": 6,
+      "subcategory": "Halbleiterlaser"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Ladungsträgerdichte & Fermi-Niveau (dotiert)",
+      "question": "Was beschreibt die Fermi-Energie in einem dotierten Halbleiter?",
+      "choices": [
+        "A: Die mittlere Energie aller Elektronen im Halbleiter.",
+        "B: Die maximale Energie, die Elektronen bei 0 Kelvin haben können.",
+        "C: Die Energie, die benötigt wird, um ein Elektron aus dem Halbleiter zu entfernen.",
+        "D: Die geringste Energie, die Elektronen im Halbleiter erreichen können."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Fermi-Energie ist das Energieniveau, das die höchste Energie beschreibt, die Elektronen bei absoluter Nulltemperatur (0 Kelvin) haben können. In einem dotierten Halbleiter verschiebt sich das Fermi-Niveau je nach Art und Konzentration der Dotierstoffe.",
+      "difficulty": 5,
+      "subcategory": "Ladungsträgerdichte & Fermi-Niveau (dotiert)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Inertialsysteme (Definition und Eigenschaften)",
+      "question": "Was ist ein Inertialsystem?",
+      "choices": [
+        "A: Ein System, in dem alle Körper immer beschleunigt werden.",
+        "B: Ein Bezugssystem, in dem sich ein Körper ohne äußere Kräfte geradlinig und gleichmäßig bewegt.",
+        "C: Ein System, in dem die Schwerkraft dominiert.",
+        "D: Ein Bezugssystem, in dem die Lichtgeschwindigkeit variabel ist."
+      ],
+      "correct_answer": "B",
+      "explanation": "Ein Inertialsystem ist definiert als ein Bezugssystem, in dem die Gesetze der klassischen Mechanik gelten und sich Körper ohne äußere Kräfte geradlinig bewegen. Dies bedeutet, dass in einem Inertialsystem keine beschleunigenden Kräfte wirken, wodurch die Bewegungen der Objekte konstant bleiben können.",
+      "difficulty": 2,
+      "subcategory": "Inertialsysteme (Definition und Eigenschaften)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Carnot-Kreisprozess & Wirkungsgrad",
+      "question": "Welcher der folgenden Aussagen über den Carnot-Kreisprozess ist korrekt?",
+      "choices": [
+        "A: Der Wirkungsgrad des Carnot-Prozesses ist unabhängig von den Temperaturen der Wärmequellen.",
+        "B: Der Carnot-Kreisprozess kann in einem geschlossenen System nicht durchgeführt werden.",
+        "C: Der Wirkungsgrad eines Carnot-Prozesses hängt nur von den Temperaturen der beiden Wärmebäder ab.",
+        "D: Der Carnot-Kreisprozess kann eine Effizienz von 100 % erreichen, wenn das kalte Reservoir bei Raumtemperatur ist."
+      ],
+      "correct_answer": "C",
+      "explanation": "Der Wirkungsgrad eines Carnot-Kreisprozesses wird durch die Formel η = 1 - (T_k/T_h) bestimmt, wobei T_k die Temperatur des kalten und T_h die Temperatur des heißen Reservoirs ist. Damit ist der Wirkungsgrad tatsächlich nur von diesen Temperaturen abhängig und nie 100 %.",
+      "difficulty": 6,
+      "subcategory": "Carnot-Kreisprozess & Wirkungsgrad"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Viskosität von Gasen",
+      "question": "Welche der folgenden Aussagen beschreibt am besten die Viskosität von Gasen?",
+      "choices": [
+        "A: Die Viskosität von Gasen ist unabhängig von der Temperatur.",
+        "B: Die Viskosität von Gasen ist immer konstant.",
+        "C: Die Viskosität von Gasen nimmt mit steigender Temperatur zu.",
+        "D: Die Viskosität von Gasen nimmt mit steigender Temperatur ab."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Viskosität von Gasen steigt mit zunehmender Temperatur, da die Moleküle mehr kinetische Energie haben und sich schneller bewegen. Dies führt zu einer erhöhten Wechselwirkung zwischen den Molekülen, was die Viskosität erhöht.",
+      "difficulty": 4,
+      "subcategory": "Viskosität von Gasen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Josephson-Effekt",
+      "question": "Was beschreibt der Josephson-Effekt in supraleitenden Materialien?",
+      "choices": [
+        "A: Die Erhöhung der elektrischen Leitfähigkeit bei hohen Temperaturen.",
+        "B: Den quantenmechanischen Tunnel-Effekt von Cooper-Paaren durch eine isolierende Barriere.",
+        "C: Die Emission von Photonen durch supraleitende Materialien.",
+        "D: Die Wechselwirkung zwischen Elektronen und phononischen Zuständen in Festkörpern."
+      ],
+      "correct_answer": "B",
+      "explanation": "Der Josephson-Effekt beschreibt das Phänomen, dass Cooper-Paare in supraleitenden Materialien durch eine isolierende Schicht tunneln können, was zu einem supraleitenden Stromfluss führt. Dies ist ein zentrales Konzept in der Festkörperphysik und hat wichtige Anwendungen in der Quanteninformationstechnologie.",
+      "difficulty": 7,
+      "subcategory": "Josephson-Effekt"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Resonanzen (Breit‑Wigner)",
+      "question": "Was beschreibt die Breit-Wigner-Formel im Kontext von Resonanzen in der Teilchenphysik?",
+      "choices": [
+        "A: Die Energieverteilung von instabilen Teilchen im Zeitbereich.",
+        "B: Die Energieverteilung und Lebensdauer von Resonanzzuständen in einem quantenmechanischen System.",
+        "C: Die Beziehung zwischen der Spannung und dem Strom in einem Schaltkreis.",
+        "D: Die Eigenschaften von elastischen Kollisionen zwischen Teilchen."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Breit-Wigner-Formel beschreibt die Energieverteilung und Lebensdauer von Resonanzen, die auftreten, wenn Teilchen in einen instabilen Zustand übergehen. Diese Formel ist entscheidend für das Verständnis der Eigenschaften und der Wechselwirkungen von Resonanzen in der Teilchenphysik.",
+      "difficulty": 8,
+      "subcategory": "Resonanzen (Breit‑Wigner)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Charakter der Kernkraft",
+      "question": "Welche der folgenden Aussagen beschreibt die Kernkraft am besten?",
+      "choices": [
+        "A: Sie ist eine starke Wechselwirkung, die Nukleonen bindet.",
+        "B: Sie hat eine unendliche Reichweite.",
+        "C: Sie ist schwächer als die elektromagnetische Kraft.",
+        "D: Sie wirkt nur zwischen Protonen."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Kernkraft, auch starke Wechselwirkung genannt, ist die Kraft, die Protonen und Neutronen (Nukleonen) im Atomkern zusammenhält. Sie hat eine sehr kurze Reichweite, aber ist wesentlich stärker als die elektromagnetische Kraft innerhalb dieses Bereichs.",
+      "difficulty": 4,
+      "subcategory": "Charakter der Kernkraft"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Sommerfeldsche Theorie",
+      "question": "Was beschreibt die Sommerfeldsche Theorie in der Festkörperphysik?",
+      "choices": [
+        "A: Die Bewegung von Teilchen in einem Vakuum.",
+        "B: Die Wärmeleitung in Isolatoren.",
+        "C: Die elektronische Struktur von Metallen durch ein quasiklassisches Modell.",
+        "D: Die Lichtbrechung in Kristallen."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Sommerfeldsche Theorie ist ein Modell, das die elektronische Struktur von Metallen beschreibt, indem es die Elektronen als ein ideales Gas von Fermionen behandelt. Dies ermöglicht es, das Verhalten von Elektronen in Metallen unter verschiedenen Bedingungen zu erklären.",
+      "difficulty": 5,
+      "subcategory": "Sommerfeldsche Theorie"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Elektrostatische Feldenergie",
+      "question": "Welche Formel beschreibt die elektrostatische Energie U eines Punktladungsystems mit zwei Ladungen q1 und q2, die sich in einem Abstand r zueinander befinden?",
+      "choices": [
+        "A: U = k * (q1 + q2) / r^2",
+        "B: U = k * (q1 * q2) * r",
+        "C: U = k * (q1 * q2) / r",
+        "D: U = (q1 + q2) * r"
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Formel für die elektrostatische Energie zwischen zwei Punktladungen lautet U = k * (q1 * q2) / r, wobei k die Coulomb-Konstante ist. Diese Formel beschreibt die potentielle Energie, die aufgrund der Wechselwirkung der beiden Ladungen entsteht.",
+      "difficulty": 4,
+      "subcategory": "Elektrostatische Feldenergie"
+    }
+  ]
+}

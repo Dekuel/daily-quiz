@@ -1,0 +1,168 @@
+{
+  "date": "2026-05-10",
+  "generated_at": "2026-05-10T04:25:44Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Halbleiterlaser",
+      "question": "What is the main function of the p-n junction in a semiconductor laser?",
+      "choices": [
+        "A: It enhances light intensity through reflection.",
+        "B: It reduces the electrical resistance of the material.",
+        "C: It enables the recombination of electrons and holes.",
+        "D: It lowers the bandgap of the semiconductor."
+      ],
+      "correct_answer": "C",
+      "explanation": "The p-n junction in a semiconductor laser is crucial as it enables the recombination of electrons and holes, leading to the generation of photons. This recombination is the fundamental process that drives laser emission.",
+      "difficulty": 6,
+      "subcategory": "Halbleiterlaser"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Ladungsträgerdichte & Fermi-Niveau (dotiert)",
+      "question": "What does Fermi energy describe in a doped semiconductor?",
+      "choices": [
+        "A: The average energy of all electrons in the semiconductor.",
+        "B: The maximum energy electrons can have at 0 Kelvin.",
+        "C: The energy required to remove an electron from the semiconductor.",
+        "D: The lowest energy electrons can reach in the semiconductor."
+      ],
+      "correct_answer": "B",
+      "explanation": "Fermi energy is the energy level that describes the highest energy electrons can have at absolute zero temperature (0 Kelvin). In a doped semiconductor, the Fermi level shifts depending on the type and concentration of dopants.",
+      "difficulty": 5,
+      "subcategory": "Ladungsträgerdichte & Fermi-Niveau (dotiert)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Inertialsysteme (Definition und Eigenschaften)",
+      "question": "What is an inertial system?",
+      "choices": [
+        "A: A system where all bodies are always accelerated.",
+        "B: A reference system in which a body moves straight and uniformly without external forces.",
+        "C: A system where gravity dominates.",
+        "D: A reference system where the speed of light is variable."
+      ],
+      "correct_answer": "B",
+      "explanation": "An inertial system is defined as a reference system in which the laws of classical mechanics apply, and bodies move in straight lines without external forces. This means that in an inertial system, no accelerating forces act, allowing the motions of objects to remain constant.",
+      "difficulty": 2,
+      "subcategory": "Inertialsysteme (Definition und Eigenschaften)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Carnot-Kreisprozess & Wirkungsgrad",
+      "question": "Which of the following statements about the Carnot cycle process is correct?",
+      "choices": [
+        "A: The efficiency of the Carnot process is independent of the temperatures of the heat sources.",
+        "B: The Carnot cycle process cannot be carried out in a closed system.",
+        "C: The efficiency of a Carnot process depends only on the temperatures of the two heat baths.",
+        "D: The Carnot cycle process can achieve 100% efficiency if the cold reservoir is at room temperature."
+      ],
+      "correct_answer": "C",
+      "explanation": "The efficiency of a Carnot cycle process is determined by the formula η = 1 - (T_c/T_h), where T_c is the temperature of the cold reservoir and T_h is the temperature of the hot reservoir. Thus, the efficiency depends only on these temperatures and never reaches 100%.",
+      "difficulty": 6,
+      "subcategory": "Carnot-Kreisprozess & Wirkungsgrad"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Viskosität von Gasen",
+      "question": "Which of the following statements best describes the viscosity of gases?",
+      "choices": [
+        "A: The viscosity of gases is independent of temperature.",
+        "B: The viscosity of gases is always constant.",
+        "C: The viscosity of gases increases with rising temperature.",
+        "D: The viscosity of gases decreases with rising temperature."
+      ],
+      "correct_answer": "C",
+      "explanation": "The viscosity of gases increases with rising temperature as molecules have more kinetic energy and move faster. This leads to increased interaction between molecules, resulting in higher viscosity.",
+      "difficulty": 4,
+      "subcategory": "Viskosität von Gasen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Josephson-Effekt",
+      "question": "What does the Josephson effect describe in superconducting materials?",
+      "choices": [
+        "A: The increase in electrical conductivity at high temperatures.",
+        "B: The quantum mechanical tunneling effect of Cooper pairs through an insulating barrier.",
+        "C: The emission of photons by superconducting materials.",
+        "D: The interaction between electrons and phononic states in solids."
+      ],
+      "correct_answer": "B",
+      "explanation": "The Josephson effect describes the phenomenon where Cooper pairs in superconducting materials can tunnel through an insulating barrier, leading to a superconducting current flow. This is a central concept in solid-state physics and has important applications in quantum information technology.",
+      "difficulty": 7,
+      "subcategory": "Josephson-Effekt"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Resonanzen (Breit‑Wigner)",
+      "question": "What does the Breit-Wigner formula describe in the context of resonances in particle physics?",
+      "choices": [
+        "A: The energy distribution of unstable particles in the time domain.",
+        "B: The energy distribution and lifetime of resonance states in a quantum mechanical system.",
+        "C: The relationship between voltage and current in a circuit.",
+        "D: The properties of elastic collisions between particles."
+      ],
+      "correct_answer": "B",
+      "explanation": "The Breit-Wigner formula describes the energy distribution and lifetime of resonances that occur when particles transition to an unstable state. This formula is crucial for understanding the properties and interactions of resonances in particle physics.",
+      "difficulty": 8,
+      "subcategory": "Resonanzen (Breit‑Wigner)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Charakter der Kernkraft",
+      "question": "Which of the following statements best describes the nuclear force?",
+      "choices": [
+        "A: It is a strong interaction that binds nucleons.",
+        "B: It has an infinite range.",
+        "C: It is weaker than the electromagnetic force.",
+        "D: It only acts between protons."
+      ],
+      "correct_answer": "A",
+      "explanation": "The nuclear force, also known as the strong interaction, is the force that holds protons and neutrons (nucleons) together in the atomic nucleus. It has a very short range but is significantly stronger than the electromagnetic force within this range.",
+      "difficulty": 4,
+      "subcategory": "Charakter der Kernkraft"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Sommerfeldsche Theorie",
+      "question": "What does the Sommerfeld theory describe in solid-state physics?",
+      "choices": [
+        "A: The motion of particles in a vacuum.",
+        "B: The heat conduction in insulators.",
+        "C: The electronic structure of metals through a quasi-classical model.",
+        "D: The light refraction in crystals."
+      ],
+      "correct_answer": "C",
+      "explanation": "The Sommerfeld theory is a model that describes the electronic structure of metals by treating electrons as an ideal gas of fermions. This allows for explaining the behavior of electrons in metals under various conditions.",
+      "difficulty": 5,
+      "subcategory": "Sommerfeldsche Theorie"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Elektrostatische Feldenergie",
+      "question": "Which formula describes the electrostatic energy U of a point charge system with two charges q1 and q2 separated by a distance r?",
+      "choices": [
+        "A: U = k * (q1 + q2) / r^2",
+        "B: U = k * (q1 * q2) * r",
+        "C: U = k * (q1 * q2) / r",
+        "D: U = (q1 + q2) * r"
+      ],
+      "correct_answer": "C",
+      "explanation": "The formula for the electrostatic energy between two point charges is U = k * (q1 * q2) / r, where k is the Coulomb constant. This formula describes the potential energy arising from the interaction of the two charges.",
+      "difficulty": 4,
+      "subcategory": "Elektrostatische Feldenergie"
+    }
+  ]
+}
