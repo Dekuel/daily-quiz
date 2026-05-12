@@ -1,0 +1,169 @@
+{
+  "date": "2026-05-12",
+  "generated_at": "2026-05-12T04:19:32Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Flächenintegrale (orientierte Flächen)",
+      "question": "Welche Aussage über das Flächenintegral eines Vektorfeldes über eine orientierte Fläche ist korrekt?",
+      "choices": [
+        "A: Das Flächenintegral ist immer gleich Null.",
+        "B: Das Flächenintegral ist unabhängig von der Orientierung der Fläche.",
+        "C: Das Flächenintegral hängt von der Richtung des Normalenvektors der Fläche ab.",
+        "D: Das Flächenintegral ergibt keine physikalische Bedeutung."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Flächenintegral eines Vektorfeldes hängt entscheidend von der Orientierung der Fläche ab, da der Normalenvektor die Richtung angibt, in der das Integral berechnet wird. Eine Änderung der Orientierung des Normalenvektors führt zu einem Vorzeichenwechsel im Integral, was die physikalische Bedeutung des Integrals beeinflusst.",
+      "difficulty": 8,
+      "subcategory": "Flächenintegrale (orientierte Flächen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Strukturfunktionen (F1, F2,…)",
+      "question": "Was beschreibt die Strukturfunktion F2 in der Teilchenphysik?",
+      "choices": [
+        "A: Die Verteilung der elektrischen Ladung in einem Proton.",
+        "B: Die Anzahl der Quarks in einem Proton.",
+        "C: Die Wechselwirkung von Quarks in einem Neutron.",
+        "D: Die Wahrscheinlichkeit, ein Teilchen mit einer bestimmten Energie zu finden."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Strukturfunktion F2 beschreibt die Verteilung der elektrischen Ladung innerhalb von Hadronen wie Protonen. Sie spielt eine zentrale Rolle bei der Analyse von tiefinelastischen Streuungen und hilft, die innere Struktur von Nukleonen zu verstehen.",
+      "difficulty": 4,
+      "subcategory": "Strukturfunktionen (F1, F2,…)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Kritische Exponenten",
+      "question": "Was beschreibt der kritische Exponent in der Thermodynamik?",
+      "choices": [
+        "A: Die Geschwindigkeit einer chemischen Reaktion.",
+        "B: Das Verhalten von physikalischen Größen nahe eines Phasenübergangs.",
+        "C: Die Energie eines Photons.",
+        "D: Die Dichte eines Gases bei unterschiedlichen Temperaturen."
+      ],
+      "correct_answer": "B",
+      "explanation": "Der kritische Exponent beschreibt, wie bestimmte physikalische Größen wie Dichte oder Wärmeleitfähigkeit sich verhalten, wenn ein System sich einem Phasenübergang nähert. Diese Exponenten sind entscheidend für das Verständnis von Phasenübergängen in der Thermodynamik.",
+      "difficulty": 3,
+      "subcategory": "Kritische Exponenten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Thermodynamische Systeme (offen/geschlossen/isoliert)",
+      "question": "Welches der folgenden Systeme ist ein Beispiel für ein geschlossenes thermodynamisches System?",
+      "choices": [
+        "A: Ein isolierter Thermosbecher, der Wärme und Materie mit der Umgebung austauscht.",
+        "B: Ein offenen Topf mit kochendem Wasser auf dem Herd.",
+        "C: Ein Kühlschrank, der Wärme aus dem Inneren nach außen abführt.",
+        "D: Ein geschlossener Behälter mit gasförmigem Wasserstoff, der nicht mit der Umgebung interagiert."
+      ],
+      "correct_answer": "D",
+      "explanation": "Ein geschlossenes System erlaubt den Austausch von Energie, jedoch nicht von Materie mit der Umgebung. Der geschlossene Behälter mit gasförmigem Wasserstoff ist somit ein ideales Beispiel, da er keine Materie entweichen lässt, während er dennoch thermische Energie abgeben oder aufnehmen kann.",
+      "difficulty": 8,
+      "subcategory": "Thermodynamische Systeme (offen/geschlossen/isoliert)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Tiefinelastische Neutrinostreuung",
+      "question": "Bei der tiefinelastischen Neutrinostreuung wird hauptsächlich welche Art von Wechselwirkung betrachtet?",
+      "choices": [
+        "A: Gravitative Wechselwirkung",
+        "B: Schwache Wechselwirkung",
+        "C: Starke Wechselwirkung",
+        "D: Elektromagnetische Wechselwirkung"
+      ],
+      "correct_answer": "B",
+      "explanation": "Die tiefinelastische Neutrinostreuung wird durch die schwache Wechselwirkung vermittelt, die für den Austausch von Neutrinos verantwortlich ist. Im Gegensatz dazu sind die starke und elektromagnetische Wechselwirkung für andere Prozesse in der Teilchenphysik zuständig.",
+      "difficulty": 5,
+      "subcategory": "Tiefinelastische Neutrinostreuung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Interferenz und Beugung (Licht)",
+      "question": "Was beschreibt das Phänomen, wenn Lichtwellen sich überlagern und ein Muster aus hellen und dunklen Streifen erzeugen?",
+      "choices": [
+        "A: Interferenz",
+        "B: Brechung",
+        "C: Absorption",
+        "D: Reflexion"
+      ],
+      "correct_answer": "A",
+      "explanation": "Interferenz tritt auf, wenn zwei oder mehr Lichtwellen aufeinandertreffen und sich überlagern. Dies führt zu einem charakteristischen Muster aus hellen und dunklen Bereichen, was typischerweise in Experimenten wie dem Doppelspalt-Experiment beobachtet wird.",
+      "difficulty": 1,
+      "subcategory": "Interferenz und Beugung (Licht)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Flüssigkeitsdruckmessgeräte",
+      "question": "Welches Gerät wird verwendet, um den Druck einer Flüssigkeit zu messen?",
+      "choices": [
+        "A: Manometer",
+        "B: Thermometer",
+        "C: Hygrometer",
+        "D: Barometer"
+      ],
+      "correct_answer": "A",
+      "explanation": "Ein Manometer ist ein Gerät, das den Druck von Flüssigkeiten oder Gasen misst. Es funktioniert häufig durch die Messung der Höhe einer Flüssigkeitssäule, die den Druck in der Flüssigkeit anzeigt.",
+      "difficulty": 3,
+      "subcategory": "Flüssigkeitsdruckmessgeräte"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Plattenkondensator",
+      "question": "Was ist die Hauptfunktion eines Plattenkondensators?",
+      "choices": [
+        "A: Er speichert elektrische Energie.",
+        "B: Er wandelt elektrische Energie in mechanische Energie um.",
+        "C: Er dient als Widerstand in einem Stromkreis.",
+        "D: Er erzeugt magnetische Felder."
+      ],
+      "correct_answer": "A",
+      "explanation": "Ein Plattenkondensator speichert elektrische Energie, indem er zwei leitende Platten verwendet, die durch ein Dielektrikum getrennt sind. Die gespeicherte Energie ist proportional zur Spannung und der Kapazität des Kondensators.",
+      "difficulty": 4,
+      "subcategory": "Plattenkondensator"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Korrespondenzprinzip (QM↔klassisch)",
+      "question": "Welches Prinzip beschreibt, dass die Vorhersagen der Quantenmechanik in bestimmten Grenzfällen mit denen der klassischen Physik übereinstimmen?",
+      "choices": [
+        "A: Zwangsbedingungen",
+        "B: Unschärferelation",
+        "C: Superposition",
+        "D: Korrespondenzprinzip"
+      ],
+      "correct_answer": "D",
+      "explanation": "Das Korrespondenzprinzip besagt, dass die Ergebnisse der Quantenmechanik in den Bereichen, in denen die quantenmechanischen Effekte vernachlässigbar sind, mit den Vorhersagen der klassischen Physik übereinstimmen. Dies ist besonders relevant, wenn die Quantenzahlen sehr groß sind und die Systeme sich in einem klassischen Grenzfall befinden.",
+      "difficulty": 7,
+      "subcategory": "Korrespondenzprinzip (QM↔klassisch)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Inhomogene Wellengleichung",
+      "question": "Welche der folgenden Bedingungen beschreibt die Lösung der inhomogenen Wellengleichung in einem homogenen Medium?",
+      "choices": [
+        "A: Die Lösung ist unabhängig von den Randbedingungen des Systems.",
+        "B: Die Lösung ist ausschließlich die homogene Lösung ohne Zusatz.",
+        "C: Die Lösung kann nur durch numerische Methoden gefunden werden.",
+        "D: Die Lösung ist die Superposition der homogenen Lösung und einer speziellen Lösung der inhomogenen Gleichung."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die inhomogene Wellengleichung beschreibt Systeme, die durch externe Quellen beeinflusst werden. Die allgemeine Lösung setzt sich aus der homogenen Lösung und einer speziellen Lösung der inhomogenen Gleichung zusammen, was die Superposition ermöglicht.",
+      "difficulty": 6,
+      "subcategory": "Inhomogene Wellengleichung"
+    }
+  ]
+}
