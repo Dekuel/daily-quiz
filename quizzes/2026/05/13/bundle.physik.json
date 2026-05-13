@@ -1,0 +1,169 @@
+{
+  "date": "2026-05-13",
+  "generated_at": "2026-05-13T04:22:58Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Dielektrische Funktion & optische Messungen",
+      "question": "Welche Eigenschaft eines Materials wird durch die dielektrische Funktion charakterisiert?",
+      "choices": [
+        "A: Die Fähigkeit, elektrische Felder zu beeinflussen",
+        "B: Die mechanische Festigkeit des Materials",
+        "C: Die thermische Leitfähigkeit des Materials",
+        "D: Die Temperaturbeständigkeit des Materials"
+      ],
+      "correct_answer": "A",
+      "explanation": "Die dielektrische Funktion beschreibt, wie ein Material auf elektrische Felder reagiert und dadurch seine Fähigkeit zeigt, elektrische Energie zu speichern oder zu leiten. Dies ist besonders relevant für die optischen Messungen und die Studie von Festkörpern.",
+      "difficulty": 4,
+      "subcategory": "Dielektrische Funktion & optische Messungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "d’Alembert’sches Prinzip",
+      "question": "Was besagt das d’Alembert’sche Prinzip in der analytischen Mechanik?",
+      "choices": [
+        "A: Die Summe der virtuellen Arbeit ist gleich null im Gleichgewicht.",
+        "B: Die wirkenden Kräfte sind gleich der Masse multipliziert mit der Geschwindigkeit.",
+        "C: Die Energie eines Systems bleibt konstant, wenn keine äußeren Kräfte wirken.",
+        "D: Die Summe der Kräfte ist gleich der Beschleunigung."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das d’Alembert’sche Prinzip besagt, dass die Summe der virtuellen Arbeiten der Kräfte, die auf ein System wirken, im Gleichgewichtszustand null ist. Es ist ein zentraler Bestandteil der Lagrangeschen Mechanik und hilft, die Bewegungsgleichungen abzuleiten.",
+      "difficulty": 5,
+      "subcategory": "d’Alembert’sches Prinzip"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Ko- und kontravariante Tensoren (Grundbegriffe)",
+      "question": "Was ist ein ko-variantes Tensorformat?",
+      "choices": [
+        "A: Ein Tensor, der nur für skalare Größen verwendet wird.",
+        "B: Ein Tensor, der immer konstant bleibt, unabhängig von der Koordinatenauswahl.",
+        "C: Ein Tensor, der nur in einem bestimmten Koordinatensystem definiert ist.",
+        "D: Ein Tensor, der sich unter Koordinatentransformationen wie die Basisvektoren verhält."
+      ],
+      "correct_answer": "D",
+      "explanation": "Ein ko-varianter Tensor verändert sich entsprechend der Basisvektoren bei Koordinatentransformationen, wodurch er die Eigenschaften der Vektoren in einem gegebenen Raum widerspiegelt. Diese Eigenschaft unterscheidet ihn von kontravarianten Tensoren, die sich anders verhalten.",
+      "difficulty": 1,
+      "subcategory": "Ko- und kontravariante Tensoren (Grundbegriffe)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Gleichgewichtsbedingungen (allgemein)",
+      "question": "Welche der folgenden Aussagen beschreibt eine Bedingung für thermodynamisches Gleichgewicht?",
+      "choices": [
+        "A: Es findet ein ständiger Austausch von Teilchen mit der Umgebung statt.",
+        "B: Die Stoffmengen sind im System nicht konstant.",
+        "C: Die Temperatur ist an allen Punkten eines Systems gleich.",
+        "D: Die Druckverhältnisse sind an den Rändern des Systems unterschiedlich."
+      ],
+      "correct_answer": "C",
+      "explanation": "Für thermodynamisches Gleichgewicht muss die Temperatur in einem System homogen sein, was bedeutet, dass es keine Temperaturunterschiede gibt, die zu Energieübertragungen führen könnten. Dies ist eine grundlegende Voraussetzung für die Stabilität eines thermodynamischen Systems.",
+      "difficulty": 7,
+      "subcategory": "Gleichgewichtsbedingungen (allgemein)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Messung der Erdverformung",
+      "question": "Welche Methode wird häufig zur Messung der Erdverformung verwendet, um Veränderungen in der Erdoberfläche zu erfassen?",
+      "choices": [
+        "A: Magnetfeldmessung",
+        "B: GPS-Tracking",
+        "C: Barometrische Höhenmessung",
+        "D: Seismische Wellenanalyse"
+      ],
+      "correct_answer": "B",
+      "explanation": "GPS-Tracking ist eine präzise Methode, die es ermöglicht, Bewegungen der Erdoberfläche in Echtzeit zu messen. Diese Technologie wird insbesondere verwendet, um die Verformung der Erde aufgrund geologischer Prozesse wie Erdbeben oder Gletscherbewegungen zu überwachen.",
+      "difficulty": 7,
+      "subcategory": "Messung der Erdverformung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Massenwirkungsgesetz (chem. Gleichgewicht)",
+      "question": "Was beschreibt das Massenwirkungsgesetz im chemischen Gleichgewicht?",
+      "choices": [
+        "A: Das Verhältnis der Konzentrationen der Produkte zu den Reaktanten.",
+        "B: Die Art der Moleküle, die an der Reaktion teilnehmen.",
+        "C: Die Temperaturabhängigkeit der Reaktionsgeschwindigkeit.",
+        "D: Die Energieänderung während einer chemischen Reaktion."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Massenwirkungsgesetz beschreibt, dass im chemischen Gleichgewicht das Verhältnis der Konzentrationen der Produkte zu den Reaktanten konstant ist. Diese Konstante ist spezifisch für jede Reaktion bei einer gegebenen Temperatur.",
+      "difficulty": 4,
+      "subcategory": "Massenwirkungsgesetz (chem. Gleichgewicht)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Virialsatz & Äquipartition (Gleichverteilungssatz)",
+      "question": "Was besagt der Äquipartitionstheorem in der statistischen Mechanik?",
+      "choices": [
+        "A: Jede Energieform in einem System trägt gleich viel zur Gesamtenergie bei.",
+        "B: Temperatur hat keinen Einfluss auf die kinetische Energie der Teilchen.",
+        "C: Teilchen in einem System bewegen sich immer gleichmäßig.",
+        "D: Die Gesamtenergie eines Systems bleibt immer konstant."
+      ],
+      "correct_answer": "A",
+      "explanation": "Der Äquipartitionstheorem besagt, dass die Energie eines Systems gleichmäßig auf alle Freiheitsgrade verteilt ist. Dies bedeutet, dass jede Form von Energie, wie kinetische und potenzielle, im Durchschnitt gleich zur Gesamtenergie des Systems beiträgt.",
+      "difficulty": 2,
+      "subcategory": "Virialsatz & Äquipartition (Gleichverteilungssatz)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Interferometer (spezielle Anordnungen)",
+      "question": "Welches der folgenden Interferometer-Designs verwendet eine gekrümmte Wellenfront zur Erzeugung von Interferenzmustern?",
+      "choices": [
+        "A: Fizeau-Interferometer",
+        "B: Sagnac-Interferometer",
+        "C: Mach-Zehnder-Interferometer",
+        "D: Michelson-Interferometer"
+      ],
+      "correct_answer": "B",
+      "explanation": "Das Sagnac-Interferometer nutzt gekrümmte Wellenfronten, die durch die Rotation des Systems beeinflusst werden, um Interferenzmuster zu erzeugen. Diese Anordnung ist besonders nützlich in der Messtechnik für Rotationssensoren.",
+      "difficulty": 7,
+      "subcategory": "Interferometer (spezielle Anordnungen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Welle-Teilchen-Dualismus (Licht)",
+      "question": "Was beschreibt der Welle-Teilchen-Dualismus von Licht?",
+      "choices": [
+        "A: Licht besteht nur aus Teilchen und hat keine wellenartigen Eigenschaften.",
+        "B: Licht kann nur als Welle und nicht als Teilchen betrachtet werden.",
+        "C: Licht bewegt sich immer in geraden Linien ohne Wellencharakter.",
+        "D: Licht kann sowohl als Welle als auch als Teilchen beschrieben werden."
+      ],
+      "correct_answer": "D",
+      "explanation": "Der Welle-Teilchen-Dualismus besagt, dass Licht sowohl wellenartige als auch teilchenartige Eigenschaften besitzt. Dies bedeutet, dass Licht in bestimmten Experimenten wie eine Welle und in anderen wie ein Teilchen verhält.",
+      "difficulty": 4,
+      "subcategory": "Welle-Teilchen-Dualismus (Licht)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Thermodynamische Systeme (offen/geschlossen/isoliert)",
+      "question": "Welche Art von thermodynamischem System kann Materie und Energie mit seiner Umgebung austauschen?",
+      "choices": [
+        "A: Isoliertes System",
+        "B: Geschlossenes System",
+        "C: Offenes System",
+        "D: Adiabatisches System"
+      ],
+      "correct_answer": "C",
+      "explanation": "Ein offenes System ermöglicht den Austausch von sowohl Materie als auch Energie mit seiner Umgebung. Im Gegensatz dazu können geschlossene Systeme nur Energie, und isolierte Systeme weder Materie noch Energie austauschen.",
+      "difficulty": 3,
+      "subcategory": "Thermodynamische Systeme (offen/geschlossen/isoliert)"
+    }
+  ]
+}

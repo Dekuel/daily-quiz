@@ -1,0 +1,168 @@
+{
+  "date": "2026-05-13",
+  "generated_at": "2026-05-13T04:23:31Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Dielektrische Funktion & optische Messungen",
+      "question": "What property of a material is characterized by the dielectric function?",
+      "choices": [
+        "A: The ability to influence electric fields",
+        "B: The mechanical strength of the material",
+        "C: The thermal conductivity of the material",
+        "D: The temperature resistance of the material"
+      ],
+      "correct_answer": "A",
+      "explanation": "The dielectric function describes how a material responds to electric fields, showing its ability to store or conduct electrical energy. This is particularly relevant for optical measurements and the study of solid-state materials.",
+      "difficulty": 4,
+      "subcategory": "Dielektrische Funktion & optische Messungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "d’Alembert’sches Prinzip",
+      "question": "What does d'Alembert's principle state in analytical mechanics?",
+      "choices": [
+        "A: The sum of virtual work is zero in equilibrium.",
+        "B: The acting forces are equal to the mass multiplied by the velocity.",
+        "C: The energy of a system remains constant when no external forces are acting.",
+        "D: The sum of forces is equal to the acceleration."
+      ],
+      "correct_answer": "A",
+      "explanation": "d'Alembert's principle states that the sum of the virtual work of forces acting on a system in equilibrium is zero. It is a central part of Lagrangian mechanics and helps derive the equations of motion.",
+      "difficulty": 5,
+      "subcategory": "d’Alembert’sches Prinzip"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Ko- und kontravariante Tensoren (Grundbegriffe)",
+      "question": "What is a covariant tensor format?",
+      "choices": [
+        "A: A tensor used only for scalar quantities.",
+        "B: A tensor that remains constant regardless of coordinate choice.",
+        "C: A tensor defined only in a specific coordinate system.",
+        "D: A tensor that behaves under coordinate transformations like the basis vectors."
+      ],
+      "correct_answer": "D",
+      "explanation": "A covariant tensor changes according to the basis vectors during coordinate transformations, reflecting the properties of vectors in a given space. This sets it apart from contravariant tensors, which behave differently.",
+      "difficulty": 1,
+      "subcategory": "Ko- und kontravariante Tensoren (Grundbegriffe)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Gleichgewichtsbedingungen (allgemein)",
+      "question": "Which of the following statements describes a condition for thermodynamic equilibrium?",
+      "choices": [
+        "A: There is a constant exchange of particles with the surroundings.",
+        "B: The amounts of substances in the system are not constant.",
+        "C: The temperature is the same at all points of a system.",
+        "D: The pressure conditions are different at the edges of the system."
+      ],
+      "correct_answer": "C",
+      "explanation": "For thermodynamic equilibrium, the temperature in a system must be homogeneous, meaning there are no temperature differences that could lead to energy transfers. This is a fundamental requirement for the stability of a thermodynamic system.",
+      "difficulty": 7,
+      "subcategory": "Gleichgewichtsbedingungen (allgemein)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Messung der Erdverformung",
+      "question": "Which method is commonly used to measure Earth deformation to detect changes in the Earth's surface?",
+      "choices": [
+        "A: Magnetic field measurement",
+        "B: GPS tracking",
+        "C: Barometric height measurement",
+        "D: Seismic wave analysis"
+      ],
+      "correct_answer": "B",
+      "explanation": "GPS tracking is a precise method that allows real-time measurement of movements of the Earth's surface. This technology is particularly used to monitor Earth deformation due to geological processes such as earthquakes or glacier movements.",
+      "difficulty": 7,
+      "subcategory": "Messung der Erdverformung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Massenwirkungsgesetz (chem. Gleichgewicht)",
+      "question": "What does the law of mass action describe in chemical equilibrium?",
+      "choices": [
+        "A: The ratio of concentrations of products to reactants.",
+        "B: The types of molecules involved in the reaction.",
+        "C: The temperature dependence of reaction rate.",
+        "D: The energy change during a chemical reaction."
+      ],
+      "correct_answer": "A",
+      "explanation": "The law of mass action describes that in chemical equilibrium, the ratio of concentrations of products to reactants is constant. This constant is specific to each reaction at a given temperature.",
+      "difficulty": 4,
+      "subcategory": "Massenwirkungsgesetz (chem. Gleichgewicht)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Virialsatz & Äquipartition (Gleichverteilungssatz)",
+      "question": "What does the equipartition theorem state in statistical mechanics?",
+      "choices": [
+        "A: Each form of energy in a system contributes equally to the total energy.",
+        "B: Temperature has no effect on the kinetic energy of particles.",
+        "C: Particles in a system always move uniformly.",
+        "D: The total energy of a system always remains constant."
+      ],
+      "correct_answer": "A",
+      "explanation": "The equipartition theorem states that the energy of a system is evenly distributed among all degrees of freedom. This means that each form of energy, such as kinetic and potential, contributes equally on average to the total energy of the system.",
+      "difficulty": 2,
+      "subcategory": "Virialsatz & Äquipartition (Gleichverteilungssatz)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Interferometer (spezielle Anordnungen)",
+      "question": "Which of the following interferometer designs uses a curved wavefront to generate interference patterns?",
+      "choices": [
+        "A: Fizeau interferometer",
+        "B: Sagnac interferometer",
+        "C: Mach-Zehnder interferometer",
+        "D: Michelson interferometer"
+      ],
+      "correct_answer": "B",
+      "explanation": "The Sagnac interferometer uses curved wavefronts influenced by the rotation of the system to generate interference patterns. This arrangement is particularly useful in measurement technology for rotation sensors.",
+      "difficulty": 7,
+      "subcategory": "Interferometer (spezielle Anordnungen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Welle-Teilchen-Dualismus (Licht)",
+      "question": "What does the wave-particle duality of light describe?",
+      "choices": [
+        "A: Light consists only of particles and has no wave-like properties.",
+        "B: Light can only be considered as a wave and not as a particle.",
+        "C: Light always moves in straight lines without wave characteristics.",
+        "D: Light can be described as both a wave and a particle."
+      ],
+      "correct_answer": "D",
+      "explanation": "The wave-particle duality states that light possesses both wave-like and particle-like properties. This means that light behaves as a wave in certain experiments and as a particle in others.",
+      "difficulty": 4,
+      "subcategory": "Welle-Teilchen-Dualismus (Licht)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Thermodynamische Systeme (offen/geschlossen/isoliert)",
+      "question": "What type of thermodynamic system can exchange matter and energy with its surroundings?",
+      "choices": [
+        "A: Isolated system",
+        "B: Closed system",
+        "C: Open system",
+        "D: Adiabatic system"
+      ],
+      "correct_answer": "C",
+      "explanation": "An open system allows for the exchange of both matter and energy with its surroundings. In contrast, closed systems can only exchange energy, and isolated systems exchange neither matter nor energy.",
+      "difficulty": 3,
+      "subcategory": "Thermodynamische Systeme (offen/geschlossen/isoliert)"
+    }
+  ]
+}

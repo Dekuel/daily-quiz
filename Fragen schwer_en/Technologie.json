@@ -2212,6 +2212,20 @@
       "correct_answer": "C",
       "explanation": "B: SNMP",
       "difficulty": 10
+    },
+    {
+      "category": "Technologie",
+      "topic": "Computer & Internet",
+      "question": "Which protocol is commonly used for secure data transmission over the internet and is based on encryption through certificates?",
+      "choices": [
+        "A: FTP",
+        "B: HTTPS",
+        "C: HTTP",
+        "D: SNMP"
+      ],
+      "correct_answer": "B",
+      "explanation": "HTTPS (Hypertext Transfer Protocol Secure) is the protocol that combines HTTP with a layer of SSL/TLS to ensure secure data transfer between browsers and web servers. It is particularly important for protecting sensitive information such as passwords and credit card data on the internet.",
+      "difficulty": 9
     }
   ]
 }
