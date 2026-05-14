@@ -2226,6 +2226,20 @@
       "correct_answer": "B",
       "explanation": "HTTPS (Hypertext Transfer Protocol Secure) is the protocol that combines HTTP with a layer of SSL/TLS to ensure secure data transfer between browsers and web servers. It is particularly important for protecting sensitive information such as passwords and credit card data on the internet.",
       "difficulty": 9
+    },
+    {
+      "category": "Technologie",
+      "topic": "Computer & Internet",
+      "question": "Which protocol is used to transmit data over the internet in a connection-oriented manner?",
+      "choices": [
+        "A: UDP",
+        "B: IP",
+        "C: HTTP",
+        "D: TCP"
+      ],
+      "correct_answer": "D",
+      "explanation": "The Transmission Control Protocol (TCP) ensures reliable, connection-oriented data transmission by ensuring that all data arrives in the correct order and without loss. In contrast, UDP is connectionless and is better suited for applications where speed is more important than data transmission reliability.",
+      "difficulty": 10
     }
   ]
 }

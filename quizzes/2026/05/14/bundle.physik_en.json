@@ -1,0 +1,168 @@
+{
+  "date": "2026-05-14",
+  "generated_at": "2026-05-14T04:23:05Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Meson‑Multipletts (SU(3))",
+      "question": "Which of the following statements about meson multiplets within the framework of SU(3) symmetry is correct?",
+      "choices": [
+        "A: Meson multiplets are only relevant for baryonic particles.",
+        "B: Meson multiplets consist exclusively of three quarks.",
+        "C: Mesons are grouped in multiplets composed of quarks and antiquarks.",
+        "D: All mesons have the same mass within a multiplet."
+      ],
+      "correct_answer": "C",
+      "explanation": "Meson multiplets in SU(3) symmetry consist of different combinations of quarks and antiquarks arranged in multiplet-like structures. These groups exhibit the symmetry properties of quarks and are crucial for understanding strong interactions.",
+      "difficulty": 6,
+      "subcategory": "Meson‑Multipletts (SU(3))"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "RG-Ideen: Ising 1D/2D & Dezimierung",
+      "question": "What does the Ising model describe in statistical mechanics?",
+      "choices": [
+        "A: The interaction of light and matter",
+        "B: The structure of atoms",
+        "C: The motion of particles in a gas",
+        "D: Interactions between spins in a magnet"
+      ],
+      "correct_answer": "D",
+      "explanation": "The Ising model is a simple model for describing magnetic materials, taking into account the interactions between spins in a lattice. It is used to investigate phase transitions and magnetic properties.",
+      "difficulty": 2,
+      "subcategory": "RG-Ideen: Ising 1D/2D & Dezimierung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Viskosität von Gasen",
+      "question": "Which factor influences the viscosity of an ideal gas according to the Kinetic Molecular Theory?",
+      "choices": [
+        "A: Molecule size",
+        "B: Temperature",
+        "C: Pressure",
+        "D: Molecule polarity"
+      ],
+      "correct_answer": "B",
+      "explanation": "The viscosity of an ideal gas increases with temperature as molecules move faster, leading to more frequent collisions. Pressure has minimal impact on gas viscosity at constant temperatures, while molecule size and polarity are less directly relevant.",
+      "difficulty": 9,
+      "subcategory": "Viskosität von Gasen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Resonanzstreuung",
+      "question": "What does the term resonance scattering describe in quantum mechanics?",
+      "choices": [
+        "A: The motion of planets around the sun.",
+        "B: The conversion of heat into mechanical energy.",
+        "C: The interaction between particles at specific energy states.",
+        "D: The deflection of light by a lens."
+      ],
+      "correct_answer": "C",
+      "explanation": "Resonance scattering describes the interaction between particles when their energy matches a specific state of the other particle. This results in enhanced interaction and is a fundamental concept in quantum mechanics.",
+      "difficulty": 2,
+      "subcategory": "Resonanzstreuung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Virialentwicklung & 2. Virialkoeffizient (klass./quant.)",
+      "question": "Which of the following statements correctly describes the 2nd virial coefficient in statistical mechanics?",
+      "choices": [
+        "A: It describes the interactions between two particles in a gas.",
+        "B: It is always zero for ideal gases.",
+        "C: It has no effect on the pressure of a gas.",
+        "D: It is independent of temperature."
+      ],
+      "correct_answer": "A",
+      "explanation": "The 2nd virial coefficient describes the interactions between particles in a gas and is crucial for understanding non-ideal gases. For ideal gases, the 2nd virial coefficient is indeed zero, highlighting the significance of interactions.",
+      "difficulty": 3,
+      "subcategory": "Virialentwicklung & 2. Virialkoeffizient (klass./quant.)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Wellengleichung der klassischen Mechanik (Hamilton–Jacobi ↔ eikonal)",
+      "question": "Which statement about the wave equation in the Hamilton-Jacobi theory is correct?",
+      "choices": [
+        "A: The Hamilton-Jacobi equation can be used to determine the trajectory of a particle.",
+        "B: The Hamilton-Jacobi equation describes the time evolution of wave functions.",
+        "C: The wave equation is only relevant in quantum mechanical systems.",
+        "D: Eikonal and Hamilton-Jacobi equation are completely independent in classical mechanics."
+      ],
+      "correct_answer": "A",
+      "explanation": "The Hamilton-Jacobi equation is an important tool in classical mechanics that allows for describing the motion of particles. It transforms the problem of motion into a geometry problem by providing the trajectory of a particle as a solution.",
+      "difficulty": 6,
+      "subcategory": "Wellengleichung der klassischen Mechanik (Hamilton–Jacobi ↔ eikonal)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Biot–Savart-Gesetz",
+      "question": "What does the Biot–Savart law describe?",
+      "choices": [
+        "A: The relationship between electric voltage and current in a resistor.",
+        "B: The magnetic field strength generated by a current-carrying wire.",
+        "C: The conservation of energy in a closed system.",
+        "D: The speed of light in different media."
+      ],
+      "correct_answer": "B",
+      "explanation": "The Biot–Savart law describes how an electric current generates a magnetic field. It indicates how the magnetic field strength at a specific point in space depends on the shape and path of the current.",
+      "difficulty": 4,
+      "subcategory": "Biot–Savart-Gesetz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Harmonischer Oszillator: Erzeugungs-/Vernichtungsoperator",
+      "question": "What does the creation operator a† do in quantum mechanics for a harmonic oscillator?",
+      "choices": [
+        "A: It increases the energy of the system by one quantum level.",
+        "B: It decreases the energy of the system by one quantum level.",
+        "C: It leads the system to a state with indefinite energy.",
+        "D: It has no effect on the energy of the system."
+      ],
+      "correct_answer": "A",
+      "explanation": "The creation operator a† increases the energy state of a harmonic oscillator by one quantum level, meaning it elevates the system to a higher energy state. This is a fundamental concept in quantum mechanics crucial for understanding quantum mechanical systems.",
+      "difficulty": 4,
+      "subcategory": "Harmonischer Oszillator: Erzeugungs-/Vernichtungsoperator"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Lichtwellen & Lichtquanten (Dualismus)",
+      "question": "What describes the dualistic nature of light?",
+      "choices": [
+        "A: Light only has wave properties.",
+        "B: Light is always a particle and never a wave.",
+        "C: Light can be considered both as a wave and a particle.",
+        "D: Light consists solely of quanta."
+      ],
+      "correct_answer": "C",
+      "explanation": "The dualistic nature of light means it exhibits both wave and particle properties. This is supported by various experiments, such as the double-slit experiment, showing that light acts as a wave in certain situations and as a particle in others.",
+      "difficulty": 5,
+      "subcategory": "Lichtwellen & Lichtquanten (Dualismus)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Bra- und Ket-Vektoren; Dualraum",
+      "question": "Which of the following concepts describes the relationship between ket and bra vectors in quantum mechanics?",
+      "choices": [
+        "A: Bra vectors are the complex conjugates of the corresponding ket vectors.",
+        "B: Ket vectors are always orthogonal to each other.",
+        "C: Ket vectors cannot be represented in a dual space.",
+        "D: Bra and ket vectors are identical in their representation."
+      ],
+      "correct_answer": "A",
+      "explanation": "In quantum mechanics, a bra vector is the complex conjugate transpose of a ket vector. This relationship is crucial for calculating transition probabilities and other quantum mechanical quantities.",
+      "difficulty": 6,
+      "subcategory": "Bra- und Ket-Vektoren; Dualraum"
+    }
+  ]
+}

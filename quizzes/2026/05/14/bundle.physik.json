@@ -1,0 +1,169 @@
+{
+  "date": "2026-05-14",
+  "generated_at": "2026-05-14T04:22:09Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Meson‑Multipletts (SU(3))",
+      "question": "Welche der folgenden Aussagen über Meson-Multiplets im Rahmen der SU(3) Symmetrie ist korrekt?",
+      "choices": [
+        "A: Meson-Multiplets sind nur für baryonische Teilchen relevant.",
+        "B: Meson-Multiplets bestehen ausschließlich aus drei Quarks.",
+        "C: Die Mesonen sind in Multiplets gruppiert, die sich aus Quarks und Antiquarks zusammensetzen.",
+        "D: Alle Mesonen haben die gleiche Masse innerhalb eines Multiplets."
+      ],
+      "correct_answer": "C",
+      "explanation": "Meson-Multiplets in der SU(3) Symmetrie bestehen aus verschiedenen Kombinationen von Quarks und Antiquarks, die in multipletartigen Strukturen angeordnet sind. Diese Gruppen zeigen die Symmetrieeigenschaften der Quarks und sind entscheidend für das Verständnis der starken Wechselwirkungen.",
+      "difficulty": 6,
+      "subcategory": "Meson‑Multipletts (SU(3))"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "RG-Ideen: Ising 1D/2D & Dezimierung",
+      "question": "Was beschreibt das Ising-Modell in der statistischen Mechanik?",
+      "choices": [
+        "A: Die Wechselwirkung von Licht und Materie",
+        "B: Die Struktur von Atomen",
+        "C: Die Bewegung von Teilchen in einem Gas",
+        "D: Wechselwirkungen zwischen Spins in einem Magneten"
+      ],
+      "correct_answer": "D",
+      "explanation": "Das Ising-Modell ist ein einfaches Modell zur Beschreibung von magnetischen Materialien, das die Wechselwirkungen zwischen Spins in einem Gitter berücksichtigt. Es dient dazu, Phasenübergänge und magnetische Eigenschaften zu untersuchen.",
+      "difficulty": 2,
+      "subcategory": "RG-Ideen: Ising 1D/2D & Dezimierung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Viskosität von Gasen",
+      "question": "Welcher Faktor beeinflusst die Viskosität eines idealen Gases gemäß der Kinetic Molecular Theory?",
+      "choices": [
+        "A: Molekülgröße",
+        "B: Temperatur",
+        "C: Druck",
+        "D: Molekülpolarität"
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Viskosität eines idealen Gases steigt mit der Temperatur, da sich die Moleküle schneller bewegen und somit häufiger Kollisionen auftreten. Druck hat einen minimalen Einfluss auf die Viskosität von Gasen bei konstanten Temperaturen, während Molekülgröße und Polarität weniger direkt relevant sind.",
+      "difficulty": 9,
+      "subcategory": "Viskosität von Gasen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Resonanzstreuung",
+      "question": "Was beschreibt der Begriff der Resonanzstreuung in der Quantenmechanik?",
+      "choices": [
+        "A: Die Bewegung von Planeten um die Sonne.",
+        "B: Die Umwandlung von Wärme in mechanische Energie.",
+        "C: Die Wechselwirkung zwischen Teilchen bei bestimmten Energiezuständen.",
+        "D: Die Ablenkung von Licht an einer Linse."
+      ],
+      "correct_answer": "C",
+      "explanation": "Resonanzstreuung beschreibt die Wechselwirkung zwischen Teilchen, wenn ihre Energie mit einem bestimmten Zustand des anderen Teilchens übereinstimmt. Dies führt zu einer verstärkten Wechselwirkung und ist ein grundlegendes Konzept in der Quantenmechanik.",
+      "difficulty": 2,
+      "subcategory": "Resonanzstreuung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Virialentwicklung & 2. Virialkoeffizient (klass./quant.)",
+      "question": "Welcher der folgenden Aussagen beschreibt den 2. Virialkoeffizienten in der statistischen Mechanik korrekt?",
+      "choices": [
+        "A: Er beschreibt die Wechselwirkungen zwischen zwei Teilchen in einem Gas.",
+        "B: Er ist immer null für ideale Gase.",
+        "C: Er hat keinen Einfluss auf den Druck eines Gases.",
+        "D: Er ist unabhängig von der Temperatur."
+      ],
+      "correct_answer": "A",
+      "explanation": "Der 2. Virialkoeffizient beschreibt die Wechselwirkungen zwischen Teilchen in einem Gas und ist somit entscheidend für das Verständnis von nicht-idealen Gasen. Für ideale Gase ist der 2. Virialkoeffizient tatsächlich null, was die Bedeutung der Wechselwirkungen verdeutlicht.",
+      "difficulty": 3,
+      "subcategory": "Virialentwicklung & 2. Virialkoeffizient (klass./quant.)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Wellengleichung der klassischen Mechanik (Hamilton–Jacobi ↔ eikonal)",
+      "question": "Welche Aussage zur Wellengleichung in der Hamilton-Jacobi-Theorie ist korrekt?",
+      "choices": [
+        "A: Die Hamilton-Jacobi-Gleichung kann verwendet werden, um die Bahn eines Teilchens zu bestimmen.",
+        "B: Die Hamilton-Jacobi-Gleichung beschreibt die Zeitentwicklung von Wellenfunktionen.",
+        "C: Die Wellengleichung ist nur in quantenmechanischen Systemen relevant.",
+        "D: Eikonal und Hamilton-Jacobi-Gleichung sind in der klassischen Mechanik vollständig unabhängig."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Hamilton-Jacobi-Gleichung ist ein wichtiges Werkzeug in der klassischen Mechanik, das es ermöglicht, die Bewegung von Teilchen zu beschreiben. Sie verwandelt das Problem der Bewegung in ein Problem der Geometrie, indem sie die Bahn eines Teilchens als Lösung angibt.",
+      "difficulty": 6,
+      "subcategory": "Wellengleichung der klassischen Mechanik (Hamilton–Jacobi ↔ eikonal)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Biot–Savart-Gesetz",
+      "question": "Was beschreibt das Biot–Savart-Gesetz?",
+      "choices": [
+        "A: Den Zusammenhang zwischen elektrischer Spannung und Stromstärke in einem Widerstand.",
+        "B: Die magnetische Feldstärke, die durch einen stromdurchflossenen Draht erzeugt wird.",
+        "C: Die Energieerhaltung in einem geschlossenen System.",
+        "D: Die Geschwindigkeit von Licht in verschiedenen Medien."
+      ],
+      "correct_answer": "B",
+      "explanation": "Das Biot–Savart-Gesetz beschreibt, wie ein elektrischer Strom ein magnetisches Feld erzeugt. Es gibt an, wie die magnetische Feldstärke in einem bestimmten Punkt im Raum von der Form und dem Verlauf des Stroms abhängt.",
+      "difficulty": 4,
+      "subcategory": "Biot–Savart-Gesetz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Harmonischer Oszillator: Erzeugungs-/Vernichtungsoperator",
+      "question": "Was bewirkt der Erzeugungsoperator a† in der Quantenmechanik für einen harmonischen Oszillator?",
+      "choices": [
+        "A: Er erhöht die Energie des Systems um eine Quantenstufe.",
+        "B: Er senkt die Energie des Systems um eine Quantenstufe.",
+        "C: Er führt das System in einen Zustand mit unbestimmter Energie.",
+        "D: Er hat keinen Einfluss auf die Energie des Systems."
+      ],
+      "correct_answer": "A",
+      "explanation": "Der Erzeugungsoperator a† erhöht den Energiezustand eines harmonischen Oszillators um eine Quantenstufe, was bedeutet, dass er das System in einen höheren Energiezustand versetzt. Dies ist ein grundlegendes Konzept in der Quantenmechanik, das für das Verständnis von quantenmechanischen Systemen entscheidend ist.",
+      "difficulty": 4,
+      "subcategory": "Harmonischer Oszillator: Erzeugungs-/Vernichtungsoperator"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Lichtwellen & Lichtquanten (Dualismus)",
+      "question": "Was beschreibt den dualistischen Charakter von Licht?",
+      "choices": [
+        "A: Licht hat nur Eigenschaften von Wellen.",
+        "B: Licht ist immer ein Teilchen und niemals eine Welle.",
+        "C: Licht kann sowohl als Welle als auch als Teilchen betrachtet werden.",
+        "D: Licht besteht ausschließlich aus Quanten."
+      ],
+      "correct_answer": "C",
+      "explanation": "Der dualistische Charakter von Licht bedeutet, dass es sowohl Wellen- als auch Teilcheneigenschaften aufweist. Dies wird durch verschiedene Experimente, wie das Doppelspaltexperiment, belegt, die zeigen, dass Licht in bestimmten Situationen als Welle und in anderen als Teilchen agiert.",
+      "difficulty": 5,
+      "subcategory": "Lichtwellen & Lichtquanten (Dualismus)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Bra- und Ket-Vektoren; Dualraum",
+      "question": "Welches der folgenden Konzepte beschreibt die Beziehung zwischen Ket- und Bra-Vektoren in der Quantenmechanik?",
+      "choices": [
+        "A: Bra-Vektoren sind die komplexen Konjugierten der entsprechenden Ket-Vektoren.",
+        "B: Ket-Vektoren sind immer orthogonal zueinander.",
+        "C: Ket-Vektoren können nicht in einem Dualraum dargestellt werden.",
+        "D: Bra- und Ket-Vektoren sind identisch in ihrer Darstellung."
+      ],
+      "correct_answer": "A",
+      "explanation": "In der Quantenmechanik ist ein Bra-Vektor das komplex konjugierte Transponierte eines Ket-Vektors. Diese Beziehung ist entscheidend für die Berechnung von Übergangswahrscheinlichkeiten und anderen quantenmechanischen Größen.",
+      "difficulty": 6,
+      "subcategory": "Bra- und Ket-Vektoren; Dualraum"
+    }
+  ]
+}

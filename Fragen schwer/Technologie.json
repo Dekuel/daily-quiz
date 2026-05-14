@@ -2198,6 +2198,20 @@
       "correct_answer": "B",
       "explanation": "HTTPS (Hypertext Transfer Protocol Secure) ist das Protokoll, das HTTP mit einer Schicht von SSL/TLS kombiniert, um eine sichere Datenübertragung zwischen Browsern und Webservern zu gewährleisten. Es ist besonders wichtig für den Schutz sensibler Informationen wie Passwörter und Kreditkartendaten im Internet.",
       "difficulty": 9
+    },
+    {
+      "category": "Technologie",
+      "topic": "Computer & Internet",
+      "question": "Welches Protokoll wird verwendet, um Daten über das Internet in einer verbindungsorientierten Weise zu übertragen?",
+      "choices": [
+        "A: UDP",
+        "B: IP",
+        "C: HTTP",
+        "D: TCP"
+      ],
+      "correct_answer": "D",
+      "explanation": "Das Transmission Control Protocol (TCP) sorgt für eine zuverlässige, verbindungsorientierte Datenübertragung, indem es sicherstellt, dass alle Daten in der richtigen Reihenfolge und ohne Verlust ankommen. Im Gegensatz dazu ist UDP verbindungslos und eignet sich besser für Anwendungen, bei denen Geschwindigkeit wichtiger ist als die Zuverlässigkeit der Datenübertragung.",
+      "difficulty": 10
     }
   ]
 }
