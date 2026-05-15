@@ -1,0 +1,169 @@
+{
+  "date": "2026-05-15",
+  "generated_at": "2026-05-15T04:25:40Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Lichtkegel und Minkowski-Diagramme",
+      "question": "Was beschreibt ein Lichtkegel in der Relativitätstheorie?",
+      "choices": [
+        "A: Die Bewegung eines Körpers in der klassischen Physik.",
+        "B: Den Bereich, in dem Lichtstrahlen sich ausbreiten können.",
+        "C: Die Wechselwirkung zwischen elektrischen Feldern.",
+        "D: Den Verlauf von Zeit in einem Gravitationsfeld."
+      ],
+      "correct_answer": "B",
+      "explanation": "Ein Lichtkegel stellt in der Relativitätstheorie den Raum-Zeit-Bereich dar, in dem Informationen oder Lichtsignale von einem Ereignis ausgehen oder zu ihm gelangen können. Er hilft dabei, die Relativität von Raum und Zeit zu visualisieren und zu verstehen.",
+      "difficulty": 1,
+      "subcategory": "Lichtkegel und Minkowski-Diagramme"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Reibung in der Lagrange-Formulierung",
+      "question": "Welche Aussage beschreibt korrekt die Rolle der Reibung in der Lagrange-Formulierung der analytischen Mechanik?",
+      "choices": [
+        "A: Reibung kann ignoriert werden, wenn die Geschwindigkeit niedrig ist.",
+        "B: Reibung wird als konservative Kraft betrachtet.",
+        "C: Reibung wird durch ein dissipatives Kraftfeld dargestellt.",
+        "D: Reibung hat keinen Einfluss auf die Bewegungsgleichungen."
+      ],
+      "correct_answer": "C",
+      "explanation": "In der Lagrange-Formulierung wird Reibung durch dissipative Kräfte beschrieben, die Energie aus dem System dissipieren. Dies hat direkte Auswirkungen auf die Bewegungsgleichungen und die Dynamik des Systems.",
+      "difficulty": 4,
+      "subcategory": "Reibung in der Lagrange-Formulierung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Induzierte Doppelbrechung",
+      "question": "Was beschreibt die induzierte Doppelbrechung in Materialien?",
+      "choices": [
+        "A: Die Erzeugung von Licht durch thermische Strahlung.",
+        "B: Die Aufspaltung eines Lichtstrahls in zwei Strahlen mit unterschiedlicher Polarisation.",
+        "C: Die Änderung der Lichtgeschwindigkeit in Abhängigkeit von der Wellenlänge.",
+        "D: Die Reflexion von Licht an einer Grenzfläche zwischen zwei Medien."
+      ],
+      "correct_answer": "B",
+      "explanation": "Induzierte Doppelbrechung tritt auf, wenn ein Lichtstrahl in ein anisotropes Material eintritt und in zwei Strahlen mit unterschiedlichen Geschwindigkeiten und Polarisationen aufgespalten wird. Diese Eigenschaft ist entscheidend für die Nutzung von Doppelbrechungs-Kristallen in optischen Anwendungen.",
+      "difficulty": 6,
+      "subcategory": "Induzierte Doppelbrechung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Experimentelle Dispersionskurven",
+      "question": "Was beschreibt eine Dispersionskurve in der Festkörperphysik?",
+      "choices": [
+        "A: Den Zusammenhang zwischen Frequenz und Wellenzahl von Schwingungen in einem Material.",
+        "B: Die Wechselwirkungen zwischen Elektronen und Photonen in einem Vakuum.",
+        "C: Die Änderung der Dichte eines Festkörpers unter Druck.",
+        "D: Die Temperaturabhängigkeit der elektrischen Leitfähigkeit eines Halbleiters."
+      ],
+      "correct_answer": "A",
+      "explanation": "Eine Dispersionskurve zeigt den Zusammenhang zwischen Frequenz und Wellenzahl von Schwingungen in einem Material, was wichtig ist, um die Eigenschaften von Wellenphänomenen in Festkörpern zu verstehen. Diese Kurven helfen, die Ausbreitung von phononischen oder elektronischen Wellen in unterschiedlichen Materialien zu analysieren.",
+      "difficulty": 5,
+      "subcategory": "Experimentelle Dispersionskurven"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Skalenbrechung (Scaling Violation)",
+      "question": "Was beschreibt der Begriff Skalenbrechung in der Teilchenphysik?",
+      "choices": [
+        "A: Die Stabilität von Atomkernen unter verschiedenen Bedingungen.",
+        "B: Die Verteilung von Teilchen in einem physikalischen System.",
+        "C: Die Abhängigkeit der Wechselwirkungsstärke von der Energie oder dem Impuls der beteiligten Teilchen.",
+        "D: Die Umwandlung von Masse in Energie gemäß Einsteins Gleichung."
+      ],
+      "correct_answer": "C",
+      "explanation": "Skalenbrechung bezieht sich darauf, wie die Wechselwirkungen zwischen Teilchen von der Energie oder dem Impuls abhängen. Dies ist besonders wichtig in Hochenergie-Experimenten, wo die Struktur von Hadronen und deren interne Wechselwirkungen untersucht werden.",
+      "difficulty": 6,
+      "subcategory": "Skalenbrechung (Scaling Violation)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Zwangsbedingungen & generalisierte Koordinaten",
+      "question": "Welche Aussage über Zwangsbedingungen in der analytischen Mechanik ist korrekt?",
+      "choices": [
+        "A: Zwangsbedingungen können nur durch externe Kräfte erzeugt werden.",
+        "B: Generalisierte Koordinaten haben keinen Einfluss auf die Formulierung der Zwangsbedingungen.",
+        "C: Zwangsbedingungen sind immer unelastisch.",
+        "D: Zwangsbedingungen reduzieren die Anzahl der Freiheitsgrade eines Systems."
+      ],
+      "correct_answer": "D",
+      "explanation": "Zwangsbedingungen sind Einschränkungen, die die Bewegungsfreiheit eines Systems vermindern. Sie führen dazu, dass nicht alle Freiheitsgrade unabhängig sind, was die Anzahl der tatsächlich nutzbaren Koordinaten reduziert. Diese Reduktion ist wichtig für die Analyse der Bewegung in komplexen Systemen.",
+      "difficulty": 6,
+      "subcategory": "Zwangsbedingungen & generalisierte Koordinaten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Dritter Hauptsatz (Nernstsches Theorem): Konsequenzen",
+      "question": "Welche der folgenden Aussagen beschreibt eine Konsequenz des Nernstschen Theorems?",
+      "choices": [
+        "A: Der Druck eines idealen Gases ist unabhängig von der Temperatur.",
+        "B: Die Wärmeleitfähigkeit von Materialien nimmt bei hohen Temperaturen zu.",
+        "C: Die innere Energie eines Systems bleibt konstant, unabhängig von der Temperatur.",
+        "D: Die Entropie eines perfekten Kristalls strebt bei Temperatur nahe dem absoluten Nullpunkt gegen null."
+      ],
+      "correct_answer": "D",
+      "explanation": "Das Nernstsches Theorem besagt, dass die Entropie eines perfekten Kristalls bei der Temperatur von 0 Kelvin null sein muss. Dies ist eine fundamentale Eigenschaft, die die statistische Mechanik mit der Thermodynamik verbindet.",
+      "difficulty": 6,
+      "subcategory": "Dritter Hauptsatz (Nernstsches Theorem): Konsequenzen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Einteilung magnetischer Stoffe (dia-/para-/ferro-)",
+      "question": "Welcher der folgenden Stoffe ist ein Beispiel für ferromagnetisches Material?",
+      "choices": [
+        "A: Eisen",
+        "B: Bismut",
+        "C: Aluminium",
+        "D: Kupfer"
+      ],
+      "correct_answer": "A",
+      "explanation": "Ferromagnetische Materialien wie Eisen zeigen eine starke magnetische Anziehung und können selbst Magnetfelder erzeugen. Im Gegensatz dazu sind Kupfer und Aluminium paramagnetisch und Bismut ist diamagnetisch, was bedeutet, dass sie nur schwach auf Magnetfelder reagieren.",
+      "difficulty": 5,
+      "subcategory": "Einteilung magnetischer Stoffe (dia-/para-/ferro-)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Skalenhypothese (Skalierungsansatz)",
+      "question": "Was beschreibt die Skalenhypothese in der Thermodynamik?",
+      "choices": [
+        "A: Die Abhängigkeit thermodynamischer Eigenschaften von der Größe eines Systems.",
+        "B: Die Konstanz der Energie in geschlossenen Systemen.",
+        "C: Die Umwandlung von Wärme in mechanische Arbeit.",
+        "D: Die Beziehung zwischen Temperatur und Druck in idealen Gasen."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Skalenhypothese besagt, dass thermodynamische Eigenschaften nicht nur von der Art der Teilchen, sondern auch von der Größe des Systems abhängen. Dies ist wichtig, um das Verhalten von Systemen bei verschiedenen Maßstäben zu verstehen.",
+      "difficulty": 5,
+      "subcategory": "Skalenhypothese (Skalierungsansatz)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Kovariante Formulierung der Elektrodynamik",
+      "question": "Welches der folgenden Gesetze bleibt unter Lorentz-Transformationen in der kovarianten Formulierung der Elektrodynamik unverändert?",
+      "choices": [
+        "A: Gesetz von der Erhaltung der Masse",
+        "B: Maxwell-Gleichungen",
+        "C: Newtonsche Gesetze",
+        "D: Ohmsches Gesetz"
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Maxwell-Gleichungen beschreiben die Elektrodynamik und sind in der kovarianten Formulierung unter Lorentz-Transformationen invariant. Dies ist eine fundamentale Eigenschaft der relativistischen Elektrodynamik, während die anderen Gesetze nicht diese Form der Invarianz aufweisen.",
+      "difficulty": 4,
+      "subcategory": "Kovariante Formulierung der Elektrodynamik"
+    }
+  ]
+}

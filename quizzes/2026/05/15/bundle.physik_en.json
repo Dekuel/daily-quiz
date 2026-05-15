@@ -1,0 +1,168 @@
+{
+  "date": "2026-05-15",
+  "generated_at": "2026-05-15T04:26:18Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Lichtkegel und Minkowski-Diagramme",
+      "question": "What does a light cone describe in the theory of relativity?",
+      "choices": [
+        "A: The motion of a body in classical physics.",
+        "B: The area in which light rays can propagate.",
+        "C: The interaction between electric fields.",
+        "D: The course of time in a gravitational field."
+      ],
+      "correct_answer": "B",
+      "explanation": "A light cone in the theory of relativity represents the spacetime region in which information or light signals can originate from or reach an event. It helps to visualize and understand the relativity of space and time.",
+      "difficulty": 1,
+      "subcategory": "Lichtkegel und Minkowski-Diagramme"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Reibung in der Lagrange-Formulierung",
+      "question": "Which statement correctly describes the role of friction in the Lagrangian formulation of analytical mechanics?",
+      "choices": [
+        "A: Friction can be ignored when the velocity is low.",
+        "B: Friction is considered a conservative force.",
+        "C: Friction is represented by a dissipative force field.",
+        "D: Friction has no influence on the equations of motion."
+      ],
+      "correct_answer": "C",
+      "explanation": "In the Lagrangian formulation, friction is described by dissipative forces that dissipate energy from the system. This directly affects the equations of motion and the dynamics of the system.",
+      "difficulty": 4,
+      "subcategory": "Reibung in der Lagrange-Formulierung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Induzierte Doppelbrechung",
+      "question": "What does induced birefringence in materials describe?",
+      "choices": [
+        "A: The generation of light through thermal radiation.",
+        "B: The splitting of a light beam into two beams with different polarizations.",
+        "C: The change in the speed of light depending on the wavelength.",
+        "D: The reflection of light at an interface between two media."
+      ],
+      "correct_answer": "B",
+      "explanation": "Induced birefringence occurs when a light beam enters an anisotropic material and splits into two beams with different speeds and polarizations. This property is crucial for the use of birefringent crystals in optical applications.",
+      "difficulty": 6,
+      "subcategory": "Induzierte Doppelbrechung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Experimentelle Dispersionskurven",
+      "question": "What does a dispersion curve describe in solid-state physics?",
+      "choices": [
+        "A: The relationship between frequency and wave number of vibrations in a material.",
+        "B: The interactions between electrons and photons in a vacuum.",
+        "C: The change in the density of a solid under pressure.",
+        "D: The temperature dependence of the electrical conductivity of a semiconductor."
+      ],
+      "correct_answer": "A",
+      "explanation": "A dispersion curve shows the relationship between frequency and wave number of vibrations in a material, which is important for understanding the properties of wave phenomena in solids. These curves help analyze the propagation of phononic or electronic waves in different materials.",
+      "difficulty": 5,
+      "subcategory": "Experimentelle Dispersionskurven"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Skalenbrechung (Scaling Violation)",
+      "question": "What does the term scale breaking describe in particle physics?",
+      "choices": [
+        "A: The stability of atomic nuclei under different conditions.",
+        "B: The distribution of particles in a physical system.",
+        "C: The dependence of the interaction strength on the energy or momentum of the particles involved.",
+        "D: The conversion of mass into energy according to Einstein's equation."
+      ],
+      "correct_answer": "C",
+      "explanation": "Scale breaking refers to how the interactions between particles depend on the energy or momentum. This is particularly important in high-energy experiments where the structure of hadrons and their internal interactions are studied.",
+      "difficulty": 6,
+      "subcategory": "Skalenbrechung (Scaling Violation)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Zwangsbedingungen & generalisierte Koordinaten",
+      "question": "Which statement about constraints in analytical mechanics is correct?",
+      "choices": [
+        "A: Constraints can only be generated by external forces.",
+        "B: Generalized coordinates have no influence on the formulation of constraints.",
+        "C: Constraints are always inelastic.",
+        "D: Constraints reduce the number of degrees of freedom of a system."
+      ],
+      "correct_answer": "D",
+      "explanation": "Constraints are limitations that reduce the degrees of freedom of a system. They result in not all degrees of freedom being independent, reducing the number of usable coordinates. This reduction is important for analyzing motion in complex systems.",
+      "difficulty": 6,
+      "subcategory": "Zwangsbedingungen & generalisierte Koordinaten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Dritter Hauptsatz (Nernstsches Theorem): Konsequenzen",
+      "question": "Which of the following statements describes a consequence of Nernst's theorem?",
+      "choices": [
+        "A: The pressure of an ideal gas is independent of temperature.",
+        "B: The thermal conductivity of materials increases at high temperatures.",
+        "C: The internal energy of a system remains constant regardless of temperature.",
+        "D: The entropy of a perfect crystal approaches zero at temperatures close to absolute zero."
+      ],
+      "correct_answer": "D",
+      "explanation": "Nernst's theorem states that the entropy of a perfect crystal must be zero at a temperature of 0 Kelvin. This is a fundamental property that connects statistical mechanics with thermodynamics.",
+      "difficulty": 6,
+      "subcategory": "Dritter Hauptsatz (Nernstsches Theorem): Konsequenzen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Einteilung magnetischer Stoffe (dia-/para-/ferro-)",
+      "question": "Which of the following substances is an example of a ferromagnetic material?",
+      "choices": [
+        "A: Iron",
+        "B: Bismuth",
+        "C: Aluminum",
+        "D: Copper"
+      ],
+      "correct_answer": "A",
+      "explanation": "Ferromagnetic materials like iron exhibit strong magnetic attraction and can generate magnetic fields themselves. In contrast, copper and aluminum are paramagnetic, and bismuth is diamagnetic, meaning they only weakly respond to magnetic fields.",
+      "difficulty": 5,
+      "subcategory": "Einteilung magnetischer Stoffe (dia-/para-/ferro-)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Skalenhypothese (Skalierungsansatz)",
+      "question": "What does the scale hypothesis describe in thermodynamics?",
+      "choices": [
+        "A: The dependence of thermodynamic properties on the size of a system.",
+        "B: The constancy of energy in closed systems.",
+        "C: The conversion of heat into mechanical work.",
+        "D: The relationship between temperature and pressure in ideal gases."
+      ],
+      "correct_answer": "A",
+      "explanation": "The scale hypothesis states that thermodynamic properties depend not only on the type of particles but also on the size of the system. This is important for understanding the behavior of systems at different scales.",
+      "difficulty": 5,
+      "subcategory": "Skalenhypothese (Skalierungsansatz)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Kovariante Formulierung der Elektrodynamik",
+      "question": "Which of the following laws remains unchanged under Lorentz transformations in the covariant formulation of electrodynamics?",
+      "choices": [
+        "A: Law of conservation of mass",
+        "B: Maxwell equations",
+        "C: Newton's laws",
+        "D: Ohm's law"
+      ],
+      "correct_answer": "B",
+      "explanation": "The Maxwell equations describe electrodynamics and are invariant under Lorentz transformations in the covariant formulation. This is a fundamental property of relativistic electrodynamics, while the other laws do not exhibit this form of invariance.",
+      "difficulty": 4,
+      "subcategory": "Kovariante Formulierung der Elektrodynamik"
+    }
+  ]
+}
