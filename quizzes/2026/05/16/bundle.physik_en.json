@@ -1,0 +1,168 @@
+{
+  "date": "2026-05-16",
+  "generated_at": "2026-05-16T04:16:33Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Natürliche Zustandsvariablen (U, H, F, G)",
+      "question": "Which of the following state variables describes the internal energy of a system?",
+      "choices": [
+        "A: H",
+        "B: F",
+        "C: G",
+        "D: U"
+      ],
+      "correct_answer": "D",
+      "explanation": "The internal energy (U) is a fundamental state quantity in thermodynamics that describes the total energy of a system, including the kinetic and potential energy of the particles. The other options refer to different thermodynamic state quantities: H is enthalpy, F is Helmholtz free energy, and G is Gibbs free energy.",
+      "difficulty": 1,
+      "subcategory": "Natürliche Zustandsvariablen (U, H, F, G)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Van-der-Waals-Gleichung & Maxwell-Konstruktion",
+      "question": "Which statement about the Maxwell construction regarding the Van der Waals equation is correct?",
+      "choices": [
+        "A: The Maxwell construction allows determining the phase equilibrium conditions for a non-ideal gas.",
+        "B: In the Maxwell construction, the pressure-volume curve is replaced by a horizontal line to define equilibrium.",
+        "C: The Maxwell construction is only valid for ideal gases and provides no information about non-ideal gases.",
+        "D: The Maxwell construction is based on the assumption that the pressure of a gas remains constant regardless of temperature."
+      ],
+      "correct_answer": "A",
+      "explanation": "The Maxwell construction is a method for analyzing phase transitions in non-ideal gases described by the Van der Waals equation. It allows determining the coexistence curve and phase equilibrium conditions by adjusting the pressure-volume curve accordingly.",
+      "difficulty": 8,
+      "subcategory": "Van-der-Waals-Gleichung & Maxwell-Konstruktion"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Ideales Gas: Modell",
+      "question": "What does the ideal gas law describe?",
+      "choices": [
+        "A: The molecules of an ideal gas are always at rest.",
+        "B: The molecular mass of an ideal gas has no influence on its properties.",
+        "C: Pressure, volume, and temperature of an ideal gas are interconnected.",
+        "D: Ideal gases cannot be compressed."
+      ],
+      "correct_answer": "C",
+      "explanation": "The ideal gas law describes the relationship between pressure, volume, and temperature of an ideal gas and is represented by the equation PV=nRT. It is a fundamental concept in thermodynamics that helps understand the behavior of gases under ideal conditions.",
+      "difficulty": 6,
+      "subcategory": "Ideales Gas: Modell"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Darstellungsräume (q,p) und Funktionenräume",
+      "question": "What does the phase space represent in analytical mechanics?",
+      "choices": [
+        "A: All possible positions and momenta of a system",
+        "B: Only the momenta of a system",
+        "C: Only the positions of a system",
+        "D: The time evolution of a system"
+      ],
+      "correct_answer": "A",
+      "explanation": "The phase space is a concept that describes all possible states of a physical system, with each state represented by a combination of position (q) and momentum (p). In analytical mechanics, these variables are crucial for the analysis of motions and forces.",
+      "difficulty": 2,
+      "subcategory": "Darstellungsräume (q,p) und Funktionenräume"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Hall-Effekt",
+      "question": "Which of the following phenomena describes the Hall effect in a conducting material?",
+      "choices": [
+        "A: The thermal expansion of solids under pressure.",
+        "B: The deflection of electrons by a magnetic field resulting in a voltage difference.",
+        "C: The increase in electrical conductivity at high temperatures.",
+        "D: The change in the frequency of light passing through a prism."
+      ],
+      "correct_answer": "B",
+      "explanation": "The Hall effect describes the generation of a voltage difference (Hall voltage) in a conductor placed in a perpendicular magnetic field. This voltage results from the deflection of mobile charge carriers, typically electrons, influenced by the Lorentz force.",
+      "difficulty": 9,
+      "subcategory": "Hall-Effekt"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Erzeugende Funktion (vier Typen)",
+      "question": "Which of the following functions is NOT a generating function in analytical mechanics?",
+      "choices": [
+        "A: The generating function of the fourth kind",
+        "B: The generating function of the second kind",
+        "C: The generating function of the first kind",
+        "D: The generating function of the third kind"
+      ],
+      "correct_answer": "D",
+      "explanation": "In analytical mechanics, there are various types of generating functions, each with specific properties and applications. However, the generating function of the third kind is not recognized and is not covered in standard textbooks.",
+      "difficulty": 6,
+      "subcategory": "Erzeugende Funktion (vier Typen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Interferenzen dünner Schichten",
+      "question": "What does the interference of light in a thin layer, such as a soap bubble, result in?",
+      "choices": [
+        "A: The light is completely absorbed.",
+        "B: Only monochromatic reflections are produced.",
+        "C: Colored patterns are formed through constructive and destructive interference.",
+        "D: The speed of light is increased in the layer."
+      ],
+      "correct_answer": "C",
+      "explanation": "The interference of light in a thin layer leads to the formation of colored patterns as certain wavelengths interfere constructively and others destructively. This is why soap bubbles shimmer in different colors.",
+      "difficulty": 6,
+      "subcategory": "Interferenzen dünner Schichten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Plancksche Strahlungsformel",
+      "question": "Which statement correctly describes the Planck radiation formula?",
+      "choices": [
+        "A: It shows that the energy of a photon is independent of the frequency of light.",
+        "B: It describes the spectral radiation intensity of a black body depending on temperature and wavelength.",
+        "C: It explains the deflection of light rays by gravitational fields.",
+        "D: It states that light always has a constant speed regardless of wavelength."
+      ],
+      "correct_answer": "B",
+      "explanation": "The Planck radiation formula describes how the intensity of radiation from an ideal black body depends on temperature and wavelength. This formula was fundamental for understanding quantum mechanics and explains the phenomenon of temperature dependence of light.",
+      "difficulty": 5,
+      "subcategory": "Plancksche Strahlungsformel"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Jacobi-Prinzip (verkürzte Wirkung)",
+      "question": "Which of the following principles is a central basis of the Jacobi principle in analytical mechanics?",
+      "choices": [
+        "A: The principle of maximum energy.",
+        "B: The principle of constant acceleration.",
+        "C: The principle of least action.",
+        "D: The principle of uniform motion."
+      ],
+      "correct_answer": "C",
+      "explanation": "The Jacobi principle is based on the principle of least action, which states that the actual path taken by a system is the one for which the action is extreme. This concept is crucial for deriving the equations of motion in analytical mechanics.",
+      "difficulty": 7,
+      "subcategory": "Jacobi-Prinzip (verkürzte Wirkung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "d’Alembert’sches Prinzip",
+      "question": "Which of the following statements correctly describes d'Alembert's principle?",
+      "choices": [
+        "A: It represents the equality of virtual works in a dynamic system.",
+        "B: It states that the sum of forces in an equilibrium state is zero.",
+        "C: It is a method for determining the energy of a system.",
+        "D: It formulates the relationship between acceleration and momentum."
+      ],
+      "correct_answer": "A",
+      "explanation": "d'Alembert's principle states that the virtual works of active and passive forces in a dynamic system are equal. This allows applying static equilibrium conditions to dynamic problems.",
+      "difficulty": 8,
+      "subcategory": "d’Alembert’sches Prinzip"
+    }
+  ]
+}

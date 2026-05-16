@@ -1,0 +1,169 @@
+{
+  "date": "2026-05-16",
+  "generated_at": "2026-05-16T04:15:51Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Natürliche Zustandsvariablen (U, H, F, G)",
+      "question": "Welche der folgenden Zustandsvariablen beschreibt die innere Energie eines Systems?",
+      "choices": [
+        "A: H",
+        "B: F",
+        "C: G",
+        "D: U"
+      ],
+      "correct_answer": "D",
+      "explanation": "Die innere Energie (U) ist eine fundamentale Zustandsgröße in der Thermodynamik, die die gesamte Energie eines Systems beschreibt, einschließlich kinetischer und potenzieller Energie der Teilchen. Die anderen Optionen beziehen sich auf unterschiedliche thermodynamische Zustandsgrößen: H ist die Enthalpie, F ist die Helmholtz-Freie Energie und G ist die Gibbs-Freie Energie.",
+      "difficulty": 1,
+      "subcategory": "Natürliche Zustandsvariablen (U, H, F, G)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Van-der-Waals-Gleichung & Maxwell-Konstruktion",
+      "question": "Welche Aussage zur Maxwell-Konstruktion in Bezug auf die Van-der-Waals-Gleichung ist korrekt?",
+      "choices": [
+        "A: Die Maxwell-Konstruktion ermöglicht die Bestimmung der Phasengleichgewichtsbedingungen für ein nicht-ideales Gas.",
+        "B: In der Maxwell-Konstruktion wird die Druck-Volumen-Kurve durch eine horizontale Linie ersetzt, um das Gleichgewicht zu definieren.",
+        "C: Die Maxwell-Konstruktion ist nur für ideale Gase gültig und liefert keine Informationen über nicht-ideale Gase.",
+        "D: Die Maxwell-Konstruktion beruht auf der Annahme, dass der Druck eines Gases konstant bleibt, unabhängig von der Temperatur."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Maxwell-Konstruktion ist ein Verfahren zur Analyse der Phasenumwandlungen in nicht-idealen Gasen, die durch die Van-der-Waals-Gleichung beschrieben werden. Sie ermöglicht es, die Koexistenzkurve und die Phasengleichgewichtsbedingungen zu bestimmen, indem man die Druck-Volumen-Kurve entsprechend anpasst.",
+      "difficulty": 8,
+      "subcategory": "Van-der-Waals-Gleichung & Maxwell-Konstruktion"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Ideales Gas: Modell",
+      "question": "Was beschreibt das ideale Gasgesetz?",
+      "choices": [
+        "A: Die Moleküle eines idealen Gases sind immer in Ruhe.",
+        "B: Die molekulare Masse eines idealen Gases hat keinen Einfluss auf seine Eigenschaften.",
+        "C: Druck, Volumen und Temperatur eines idealen Gases sind miteinander verknüpft.",
+        "D: Ideale Gase können nicht komprimiert werden."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das ideale Gasgesetz beschreibt die Beziehung zwischen Druck, Volumen und Temperatur eines idealen Gases und wird durch die Gleichung PV=nRT dargestellt. Es ist ein fundamentales Konzept in der Thermodynamik, das hilft, das Verhalten von Gasen unter idealen Bedingungen zu verstehen.",
+      "difficulty": 6,
+      "subcategory": "Ideales Gas: Modell"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Darstellungsräume (q,p) und Funktionenräume",
+      "question": "Was repräsentiert der Phasenraum in der analytischen Mechanik?",
+      "choices": [
+        "A: Alle möglichen Positionen und Impulse eines Systems",
+        "B: Nur die Impulse eines Systems",
+        "C: Nur die Positionen eines Systems",
+        "D: Die Zeitentwicklung eines Systems"
+      ],
+      "correct_answer": "A",
+      "explanation": "Der Phasenraum ist ein Konzept, das alle möglichen Zustände eines physikalischen Systems beschreibt, wobei jeder Zustand durch eine Kombination aus Position (q) und Impuls (p) dargestellt wird. In der analytischen Mechanik sind diese Variablen entscheidend für die Analyse von Bewegungen und Kräften.",
+      "difficulty": 2,
+      "subcategory": "Darstellungsräume (q,p) und Funktionenräume"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Hall-Effekt",
+      "question": "Welches der folgenden Phänomene beschreibt den Hall-Effekt in einem leitenden Material?",
+      "choices": [
+        "A: Die thermische Ausdehnung von Festkörpern unter Druck.",
+        "B: Die Ablenkung von Elektronen durch ein magnetisches Feld, was zu einer Spannungsdifferenz führt.",
+        "C: Die Erhöhung der elektrischen Leitfähigkeit bei hohen Temperaturen.",
+        "D: Die Änderung der Frequenz von Licht beim Durchgang durch ein Prisma."
+      ],
+      "correct_answer": "B",
+      "explanation": "Der Hall-Effekt beschreibt die Erzeugung einer Spannungsdifferenz (Hall-Spannung) in einem Leiter, der sich in einem senkrechten Magnetfeld befindet. Diese Spannung resultiert aus der Ablenkung von beweglichen Ladungsträgern, typischerweise Elektronen, die durch die Lorentzkraft beeinflusst werden.",
+      "difficulty": 9,
+      "subcategory": "Hall-Effekt"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Erzeugende Funktion (vier Typen)",
+      "question": "Welche der folgenden Funktionen ist KEINE erzeugende Funktion in der analytischen Mechanik?",
+      "choices": [
+        "A: Die Erzeugende Funktion der vierten Art",
+        "B: Die Erzeugende Funktion der zweiten Art",
+        "C: Die Erzeugende Funktion der ersten Art",
+        "D: Die Erzeugende Funktion der dritten Art"
+      ],
+      "correct_answer": "D",
+      "explanation": "In der analytischen Mechanik gibt es verschiedene Typen von erzeugenden Funktionen, die jeweils spezifische Eigenschaften und Anwendungen haben. Die erzeugende Funktion der dritten Art ist allerdings nicht anerkannt und wird nicht in den Standardlehrbüchern behandelt.",
+      "difficulty": 6,
+      "subcategory": "Erzeugende Funktion (vier Typen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Interferenzen dünner Schichten",
+      "question": "Was bewirkt die Interferenz von Licht in einer dünnen Schicht, wie z.B. einer Seifenblase?",
+      "choices": [
+        "A: Das Licht wird vollständig absorbiert.",
+        "B: Es entstehen nur monochrome Reflexionen.",
+        "C: Es entstehen farbige Muster durch konstruktive und destruktive Interferenz.",
+        "D: Die Lichtgeschwindigkeit wird in der Schicht erhöht."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Interferenz von Licht in einer dünnen Schicht führt zu der Ausbildung von farbigen Mustern, da bestimmte Wellenlängen konstruktiv und andere destruktiv interferieren. Dies ist der Grund, warum Seifenblasen in verschiedenen Farben schimmern.",
+      "difficulty": 6,
+      "subcategory": "Interferenzen dünner Schichten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Plancksche Strahlungsformel",
+      "question": "Welche Aussage beschreibt die Plancksche Strahlungsformel korrekt?",
+      "choices": [
+        "A: Sie zeigt, dass die Energie eines Photons von der Frequenz des Lichts unabhängig ist.",
+        "B: Sie beschreibt die spektrale Strahlungsintensität eines schwarzen Körpers in Abhängigkeit von Temperatur und Wellenlänge.",
+        "C: Sie erklärt die Ablenkung von Lichtstrahlen durch Gravitationsfelder.",
+        "D: Sie besagt, dass Licht immer eine konstante Geschwindigkeit hat, unabhängig von der Wellenlänge."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Plancksche Strahlungsformel beschreibt, wie die Intensität der Strahlung eines idealen schwarzen Körpers von der Temperatur und der Wellenlänge abhängt. Diese Formel war grundlegend für das Verständnis der Quantenmechanik und erklärt das Phänomen der Temperaturabhängigkeit des Lichtes.",
+      "difficulty": 5,
+      "subcategory": "Plancksche Strahlungsformel"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Jacobi-Prinzip (verkürzte Wirkung)",
+      "question": "Welches der folgenden Prinzipien ist eine zentrale Grundlage des Jacobi-Prinzips in der analytischen Mechanik?",
+      "choices": [
+        "A: Das Prinzip der maximalen Energie.",
+        "B: Das Prinzip der konstanten Beschleunigung.",
+        "C: Das Prinzip der kleinsten Wirkung.",
+        "D: Das Prinzip der gleichmäßigen Bewegung."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Jacobi-Prinzip basiert auf dem Prinzip der kleinsten Wirkung, das besagt, dass die tatsächlich von einem System eingeschlagene Bahn diejenige ist, für die die Wirkung extrem ist. Dieses Konzept ist entscheidend für die Ableitung der Bewegungsgleichungen in der analytischen Mechanik.",
+      "difficulty": 7,
+      "subcategory": "Jacobi-Prinzip (verkürzte Wirkung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "d’Alembert’sches Prinzip",
+      "question": "Welches der folgenden Aussagen beschreibt das d'Alembert'sche Prinzip korrekt?",
+      "choices": [
+        "A: Es stellt die Gleichheit von virtuellen Arbeiten in einem dynamischen System dar.",
+        "B: Es besagt, dass die Summe der Kräfte in einem Gleichgewichtszustand null ist.",
+        "C: Es ist eine Methode zur Ermittlung der Energie eines Systems.",
+        "D: Es formuliert die Beziehung zwischen Beschleunigung und Impuls."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das d'Alembert'sche Prinzip besagt, dass die virtuellen Arbeiten der aktiven und passiven Kräfte in einem dynamischen System gleich sind. Dies ermöglicht die Anwendung der statischen Gleichgewichtsbedingungen auf dynamische Probleme.",
+      "difficulty": 8,
+      "subcategory": "d’Alembert’sches Prinzip"
+    }
+  ]
+}
