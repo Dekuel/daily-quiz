@@ -1,0 +1,169 @@
+{
+  "date": "2026-05-17",
+  "generated_at": "2026-05-17T04:26:32Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Zustand / reiner Zustand (Präparation)",
+      "question": "Was beschreibt ein reiner Zustand in der Quantenmechanik?",
+      "choices": [
+        "A: Ein Zustand, der immer mit einer Messung verbunden ist.",
+        "B: Ein Zustand, der durch eine eindeutige Wellenfunktion vollständig charakterisiert ist.",
+        "C: Ein Zustand, der nur durch eine statistische Verteilung von Teilchen beschrieben werden kann.",
+        "D: Ein Zustand, der unabhängig von der Wellenfunktion existiert."
+      ],
+      "correct_answer": "B",
+      "explanation": "Ein reiner Zustand wird in der Quantenmechanik durch eine Wellenfunktion beschrieben, die alle Informationen über das System enthält. Im Gegensatz dazu sind gemischte Zustände durch eine statistische Mischung von reinen Zuständen charakterisiert.",
+      "difficulty": 4,
+      "subcategory": "Zustand / reiner Zustand (Präparation)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Natürliche Zustandsvariablen (U, H, F, G)",
+      "question": "Welche der folgenden Größen beschreibt die freie Enthalpie eines Systems?",
+      "choices": [
+        "A: Wärmeinhalt",
+        "B: Innere Energie",
+        "C: Gibbs-Energie",
+        "D: Entropie"
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Gibbs-Energie (freie Enthalpie) ist eine thermodynamische Zustandsgröße, die das Gleichgewicht und die spontane Reaktion in einem System beschreibt. Sie ist besonders wichtig bei Prozessen, die bei konstantem Druck und konstanter Temperatur ablaufen.",
+      "difficulty": 5,
+      "subcategory": "Natürliche Zustandsvariablen (U, H, F, G)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Diamagnetismus",
+      "question": "Was ist ein charakteristisches Merkmal von diamagnetischen Materialien?",
+      "choices": [
+        "A: Sie werden von Magnetfeldern angezogen.",
+        "B: Sie haben ein permanentes Magnetfeld.",
+        "C: Sie sind immer elektrisch leitend.",
+        "D: Sie erzeugen ein schwaches Magnetfeld in entgegengesetzter Richtung zu einem angelegten Magnetfeld."
+      ],
+      "correct_answer": "D",
+      "explanation": "Diamagnetische Materialien zeigen eine negative magnetische Suszeptibilität, was bedeutet, dass sie ein schwaches Magnetfeld in entgegengesetzter Richtung zu einem angelegten Magnetfeld erzeugen. Dies führt dazu, dass sie von Magnetfeldern abgestoßen werden, was sie von ferromagnetischen und paramagnetischen Materialien unterscheidet.",
+      "difficulty": 5,
+      "subcategory": "Diamagnetismus"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Herstellung von Glasfasern",
+      "question": "Welches Material wird häufig zur Herstellung von Glasfasern verwendet?",
+      "choices": [
+        "A: Aluminiumoxid",
+        "B: Calciumphosphat",
+        "C: Siliziumdioxid",
+        "D: Magnesiumcarbonat"
+      ],
+      "correct_answer": "C",
+      "explanation": "Glasfasern werden in der Regel aus Siliziumdioxid (SiO2) hergestellt, da es eine hohe Transparenz für Licht und eine geeignete Brechungsindexstruktur aufweist. Diese Eigenschaften sind entscheidend für die effiziente Übertragung von Lichtsignalen über lange Strecken.",
+      "difficulty": 4,
+      "subcategory": "Herstellung von Glasfasern"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Relativität der Gleichzeitigkeit",
+      "question": "Was beschreibt das Prinzip der Relativität der Gleichzeitigkeit in der speziellen Relativitätstheorie?",
+      "choices": [
+        "A: Zeit kann für verschiedene Beobachter unterschiedlich wahrgenommen werden, je nach ihrer Relativbewegung.",
+        "B: Die Gesetze der Physik sind für alle Beobachter gleich, unabhängig von ihrem Bewegungszustand.",
+        "C: Ereignisse, die für einen Beobachter gleichzeitig sind, sind es auch für alle anderen Beobachter.",
+        "D: Zwei Lichtstrahlen reisen immer mit der gleichen Geschwindigkeit, unabhängig vom Bezugssystem."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Relativität der Gleichzeitigkeit besagt, dass zwei Ereignisse, die in einem Bezugssystem gleichzeitig auftreten, in einem anderen Bezugssystem nicht unbedingt gleichzeitig wahrgenommen werden. Dies hängt von der Relativbewegung der Beobachter ab.",
+      "difficulty": 4,
+      "subcategory": "Relativität der Gleichzeitigkeit"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Faraday’sches Induktionsgesetz",
+      "question": "Welcher der folgenden Aussagen beschreibt am besten das Faraday’sche Induktionsgesetz?",
+      "choices": [
+        "A: Magnetische Felder können keine elektrischen Ströme erzeugen.",
+        "B: Ein konstanter Strom erzeugt immer ein konstantes Magnetfeld, unabhängig von der Umgebung.",
+        "C: Die elektrische Energie wird in magnetische Energie umgewandelt, wenn ein Strom durch eine Spule fließt.",
+        "D: Eine Änderung des magnetischen Flusses durch eine Fläche induziert eine elektromotorische Kraft in einem geschlossenen Stromkreis."
+      ],
+      "correct_answer": "D",
+      "explanation": "Das Faraday’sche Induktionsgesetz besagt, dass eine Veränderung des magnetischen Flusses durch eine Fläche eine elektromotorische Kraft induziert. Diese Grundregel der Elektrodynamik ist entscheidend für das Verständnis von Generatoren und Transformatoren.",
+      "difficulty": 7,
+      "subcategory": "Faraday’sches Induktionsgesetz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Arbeit in der Thermodynamik (p dV, generalisiert)",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt die Arbeit, die von einem Gas während einer isobaren Expansion verrichtet wird?",
+      "choices": [
+        "A: Die Arbeit hängt nur von der Temperatur des Gases ab.",
+        "B: Die Arbeit ist unabhängig von der Änderung des Drucks während der Expansion.",
+        "C: Die Arbeit ist gleich dem Produkt aus dem Druck und der Änderung des Volumens.",
+        "D: Die Arbeit wird als negativ betrachtet, da das Gas Energie verliert."
+      ],
+      "correct_answer": "C",
+      "explanation": "Bei einer isobaren Expansion bleibt der Druck konstant, und die Arbeit wird durch das Produkt aus diesem konstanten Druck und der Änderung des Volumens bestimmt. Diese Beziehung ist eine grundlegende Gleichung in der Thermodynamik, die für isobare Prozesse gilt.",
+      "difficulty": 8,
+      "subcategory": "Arbeit in der Thermodynamik (p dV, generalisiert)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Kräftefreier symmetrischer Kreisel",
+      "question": "Was geschieht mit der Präzession eines symmetrischen Kreisels, wenn seine Drehgeschwindigkeit erhöht wird?",
+      "choices": [
+        "A: Die Präzession hört auf.",
+        "B: Die Präzessionsgeschwindigkeit nimmt zu.",
+        "C: Die Präzessionsgeschwindigkeit nimmt ab.",
+        "D: Die Präzessionsgeschwindigkeit bleibt konstant."
+      ],
+      "correct_answer": "B",
+      "explanation": "Bei einem symmetrischen Kreisel führt eine Erhöhung der Drehgeschwindigkeit zu einer Zunahme der Präzessionsgeschwindigkeit. Dies liegt daran, dass die Zentrifugalkraft und das Drehmoment, die auf den Kreisel wirken, im Gleichgewicht bleiben und die Stabilität des Kreisels unterstützen.",
+      "difficulty": 7,
+      "subcategory": "Kräftefreier symmetrischer Kreisel"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Paraxiale Strahlen & Matrizen-Verfahren",
+      "question": "Was beschreibt die Transfermatrix in der paraxialen Optik?",
+      "choices": [
+        "A: Die Dispersion von Licht in einem prismatischen Medium.",
+        "B: Die Beziehung zwischen dem Eingang und dem Ausgang eines optischen Systems.",
+        "C: Die Brechungsgesetze an der Grenzfläche zwischen zwei Medien.",
+        "D: Die Reflexion von Lichtstrahlen an einer ebenen Fläche."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Transfermatrix ist ein zentraler Bestandteil der paraxialen Optik und beschreibt, wie Lichtstrahlen durch ein optisches System propagiert werden. Sie stellt die Beziehung zwischen den Eingangs- und Ausgangsparametern eines Strahlengangs dar und ermöglicht die Analyse komplexer optischer Systeme.",
+      "difficulty": 8,
+      "subcategory": "Paraxiale Strahlen & Matrizen-Verfahren"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Homogenitätsrelationen (Euler/Gibbs-Duhem)",
+      "question": "Was beschreibt die Gibbs-Duhem-Relation in der Thermodynamik?",
+      "choices": [
+        "A: Die maximale Entropie eines idealen Gases bei konstanter Temperatur.",
+        "B: Die Beziehung zwischen Energie und Arbeit in einem mechanischen System.",
+        "C: Die Beziehung zwischen Temperatur und Druck in einem geschlossenen System.",
+        "D: Die Abhängigkeit der chemischen Potentiale von der Zusammensetzung eines Systems."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Gibbs-Duhem-Relation beschreibt, wie sich die chemischen Potentiale von Komponenten in einem thermodynamischen System mit der Zusammensetzung ändern. Sie ist besonders wichtig für Systeme mit mehr als einer Komponente und ist eine fundamentale Beziehung in der Thermodynamik.",
+      "difficulty": 4,
+      "subcategory": "Homogenitätsrelationen (Euler/Gibbs-Duhem)"
+    }
+  ]
+}

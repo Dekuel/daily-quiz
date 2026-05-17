@@ -1,0 +1,168 @@
+{
+  "date": "2026-05-17",
+  "generated_at": "2026-05-17T04:27:03Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Zustand / reiner Zustand (Präparation)",
+      "question": "What describes a pure state in quantum mechanics?",
+      "choices": [
+        "A: A state that is always associated with a measurement.",
+        "B: A state that is completely characterized by a unique wave function.",
+        "C: A state that can only be described by a statistical distribution of particles.",
+        "D: A state that exists independently of the wave function."
+      ],
+      "correct_answer": "B",
+      "explanation": "A pure state in quantum mechanics is described by a wave function that contains all information about the system. In contrast, mixed states are characterized by a statistical mixture of pure states.",
+      "difficulty": 4,
+      "subcategory": "Zustand / reiner Zustand (Präparation)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Natürliche Zustandsvariablen (U, H, F, G)",
+      "question": "Which of the following quantities describes the free energy of a system?",
+      "choices": [
+        "A: Heat content",
+        "B: Internal energy",
+        "C: Gibbs energy",
+        "D: Entropy"
+      ],
+      "correct_answer": "C",
+      "explanation": "Gibbs energy (free energy) is a thermodynamic state quantity that describes the equilibrium and spontaneous reaction in a system. It is particularly important for processes that occur at constant pressure and temperature.",
+      "difficulty": 5,
+      "subcategory": "Natürliche Zustandsvariablen (U, H, F, G)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Diamagnetismus",
+      "question": "What is a characteristic feature of diamagnetic materials?",
+      "choices": [
+        "A: They are attracted by magnetic fields.",
+        "B: They have a permanent magnetic field.",
+        "C: They are always electrically conductive.",
+        "D: They generate a weak magnetic field in the opposite direction to an applied magnetic field."
+      ],
+      "correct_answer": "D",
+      "explanation": "Diamagnetic materials exhibit a negative magnetic susceptibility, meaning they generate a weak magnetic field in the opposite direction to an applied magnetic field. This causes them to be repelled by magnetic fields, distinguishing them from ferromagnetic and paramagnetic materials.",
+      "difficulty": 5,
+      "subcategory": "Diamagnetismus"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Herstellung von Glasfasern",
+      "question": "Which material is commonly used in the production of optical fibers?",
+      "choices": [
+        "A: Aluminum oxide",
+        "B: Calcium phosphate",
+        "C: Silicon dioxide",
+        "D: Magnesium carbonate"
+      ],
+      "correct_answer": "C",
+      "explanation": "Optical fibers are typically made from silicon dioxide (SiO2) due to its high transparency to light and suitable refractive index structure. These properties are crucial for efficient transmission of light signals over long distances.",
+      "difficulty": 4,
+      "subcategory": "Herstellung von Glasfasern"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Relativität der Gleichzeitigkeit",
+      "question": "What describes the principle of the relativity of simultaneity in the special theory of relativity?",
+      "choices": [
+        "A: Time can be perceived differently by different observers depending on their relative motion.",
+        "B: The laws of physics are the same for all observers regardless of their state of motion.",
+        "C: Events that are simultaneous for one observer are also simultaneous for all other observers.",
+        "D: Two light rays always travel at the same speed regardless of the reference frame."
+      ],
+      "correct_answer": "A",
+      "explanation": "The relativity of simultaneity states that two events that occur simultaneously in one reference frame may not be perceived as simultaneous in another reference frame. This depends on the relative motion of the observers.",
+      "difficulty": 4,
+      "subcategory": "Relativität der Gleichzeitigkeit"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Faraday’sches Induktionsgesetz",
+      "question": "Which of the following statements best describes Faraday's law of electromagnetic induction?",
+      "choices": [
+        "A: Magnetic fields cannot generate electric currents.",
+        "B: A constant current always produces a constant magnetic field regardless of the surroundings.",
+        "C: Electrical energy is converted into magnetic energy when a current flows through a coil.",
+        "D: A change in magnetic flux through a surface induces an electromotive force in a closed circuit."
+      ],
+      "correct_answer": "D",
+      "explanation": "Faraday's law of electromagnetic induction states that a change in magnetic flux through a surface induces an electromotive force. This fundamental rule of electrodynamics is crucial for understanding generators and transformers.",
+      "difficulty": 7,
+      "subcategory": "Faraday’sches Induktionsgesetz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Arbeit in der Thermodynamik (p dV, generalisiert)",
+      "question": "Which of the following statements correctly describes the work done by a gas during an isobaric expansion?",
+      "choices": [
+        "A: The work depends only on the temperature of the gas.",
+        "B: The work is independent of the change in pressure during the expansion.",
+        "C: The work is equal to the product of the pressure and the change in volume.",
+        "D: The work is considered negative as the gas loses energy."
+      ],
+      "correct_answer": "C",
+      "explanation": "In an isobaric expansion, the pressure remains constant, and the work is determined by the product of this constant pressure and the change in volume. This relationship is a fundamental equation in thermodynamics that applies to isobaric processes.",
+      "difficulty": 8,
+      "subcategory": "Arbeit in der Thermodynamik (p dV, generalisiert)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Kräftefreier symmetrischer Kreisel",
+      "question": "What happens to the precession of a symmetric gyroscope when its rotational speed is increased?",
+      "choices": [
+        "A: The precession stops.",
+        "B: The precession rate increases.",
+        "C: The precession rate decreases.",
+        "D: The precession rate remains constant."
+      ],
+      "correct_answer": "B",
+      "explanation": "In a symmetric gyroscope, increasing the rotational speed leads to an increase in the precession rate. This is because the centrifugal force and torque acting on the gyroscope remain in balance, supporting the stability of the gyroscope.",
+      "difficulty": 7,
+      "subcategory": "Kräftefreier symmetrischer Kreisel"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Paraxiale Strahlen & Matrizen-Verfahren",
+      "question": "What does the transfer matrix describe in paraxial optics?",
+      "choices": [
+        "A: The dispersion of light in a prism medium.",
+        "B: The relationship between the input and output of an optical system.",
+        "C: The laws of refraction at the interface between two media.",
+        "D: The reflection of light rays on a flat surface."
+      ],
+      "correct_answer": "B",
+      "explanation": "The transfer matrix is a central component of paraxial optics and describes how light rays propagate through an optical system. It represents the relationship between the input and output parameters of a beam path and enables the analysis of complex optical systems.",
+      "difficulty": 8,
+      "subcategory": "Paraxiale Strahlen & Matrizen-Verfahren"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Homogenitätsrelationen (Euler/Gibbs-Duhem)",
+      "question": "What does the Gibbs-Duhem relation describe in thermodynamics?",
+      "choices": [
+        "A: The maximum entropy of an ideal gas at constant temperature.",
+        "B: The relationship between energy and work in a mechanical system.",
+        "C: The relationship between temperature and pressure in a closed system.",
+        "D: The dependence of chemical potentials on the composition of a system."
+      ],
+      "correct_answer": "D",
+      "explanation": "The Gibbs-Duhem relation describes how the chemical potentials of components in a thermodynamic system change with composition. It is particularly important for systems with more than one component and is a fundamental relationship in thermodynamics.",
+      "difficulty": 4,
+      "subcategory": "Homogenitätsrelationen (Euler/Gibbs-Duhem)"
+    }
+  ]
+}
