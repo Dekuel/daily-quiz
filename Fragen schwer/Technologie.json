@@ -2254,6 +2254,20 @@
       "correct_answer": "C",
       "explanation": "Eine SSD ist eine Speichereinheit, die Daten dauerhaft speichert und im Vergleich zu traditionellen Festplatten schneller ist. Die CPU und GPU sind für die Verarbeitung von Daten zuständig, während RAM temporär Daten speichert, die gerade in Bearbeitung sind.",
       "difficulty": 6
+    },
+    {
+      "category": "Technologie",
+      "topic": "Computer & Internet",
+      "question": "Welches Protokoll wird hauptsächlich für den sicheren Austausch von Daten im Internet verwendet?",
+      "choices": [
+        "A: SMTP (Simple Mail Transfer Protocol)",
+        "B: FTP (File Transfer Protocol)",
+        "C: HTTPS ✓",
+        "D: IMAP (Internet Message Access Protocol)"
+      ],
+      "correct_answer": "C",
+      "explanation": "HTTPS (Hypertext Transfer Protocol Secure) ist die sichere Version von HTTP und nutzt Verschlüsselung, um die Integrität und Vertraulichkeit der übertragenen Daten zu gewährleisten. FTP, SMTP und IMAP sind Protokolle für andere Zwecke, wie Dateiübertragungen oder den E-Mail-Verkehr, verwenden jedoch keine standardmäßige Verschlüsselung für die Datenübertragung.",
+      "difficulty": 9
     }
   ]
 }

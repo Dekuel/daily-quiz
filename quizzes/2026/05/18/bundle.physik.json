@@ -1,0 +1,169 @@
+{
+  "date": "2026-05-18",
+  "generated_at": "2026-05-18T04:31:11Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Ionenpolarisation",
+      "question": "Was beschreibt der Begriff 'Ionenpolarisation' in Festkörpern?",
+      "choices": [
+        "A: Die Temperaturabhängigkeit des Widerstands von Metallen.",
+        "B: Die Verschiebung von Ionen unter dem Einfluss eines elektrischen Feldes.",
+        "C: Die Änderung der Kristallstruktur bei Temperaturänderungen.",
+        "D: Die Ausbildung von Elektronenpaaren in einem Halbleiter."
+      ],
+      "correct_answer": "B",
+      "explanation": "Ionenpolarisation bezieht sich auf die Verschiebung von Ionen in einem Kristallgitter, wenn ein elektrisches Feld angelegt wird. Diese Bewegung kann die dielektrischen Eigenschaften des Materials beeinflussen und ist wichtig für das Verständnis von elektrischen Eigenschaften in Festkörpern.",
+      "difficulty": 5,
+      "subcategory": "Ionenpolarisation"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Beugung am Doppelspalt",
+      "question": "Was bewirkt die Beugung von Licht am Doppelspalt?",
+      "choices": [
+        "A: Die vollständige Absorption des Lichts.",
+        "B: Die Erhöhung der Lichtgeschwindigkeit.",
+        "C: Die Änderung der Lichtfarbe.",
+        "D: Die Bildung von Interferenzmustern."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Beugung am Doppelspalt führt zur Bildung von Interferenzmustern, die durch die Überlagerung von Lichtwellen entstehen. Diese Muster sind ein typisches Ergebnis der Wellencharakteristik des Lichts und zeigen helle und dunkle Bereiche auf einem Schirm.",
+      "difficulty": 4,
+      "subcategory": "Beugung am Doppelspalt"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Wärmekapazitäten (C_V, C_p, Beziehungen)",
+      "question": "Welche der folgenden Beziehungen zwischen den Wärmekapazitäten C_V und C_p für ideale Gase ist korrekt?",
+      "choices": [
+        "A: C_V = C_p + R",
+        "B: C_V = C_p - R",
+        "C: C_p = C_V + R",
+        "D: C_p = C_V - R"
+      ],
+      "correct_answer": "C",
+      "explanation": "Für ideale Gase gilt die Beziehung, dass die Wärmekapazität bei konstantem Druck (C_p) immer größer ist als die Wärmekapazität bei konstantem Volumen (C_V), und der Unterschied beträgt die ideale Gaskonstante R. Diese Beziehung ist fundamental in der Thermodynamik und zeigt, wie sich die Wärmekapazitäten zueinander verhalten.",
+      "difficulty": 6,
+      "subcategory": "Wärmekapazitäten (C_V, C_p, Beziehungen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Fluktuationen makroskopischer Größen",
+      "question": "Welche der folgenden Aussagen beschreibt am besten das Verhalten von makroskopischen Größen in Bezug auf Fluktuationen?",
+      "choices": [
+        "A: Fluktuationen in makroskopischen Größen sind immer unerheblich und haben keinen Einfluss auf Systeme.",
+        "B: Makroskopische Größen können durch statistische Fluktuationen beeinflusst werden, insbesondere bei kleinen Teilchenzahlen.",
+        "C: Makroskopische Größen zeigen immer konstante Werte ohne Schwankungen.",
+        "D: Fluktuationen treten nur in quantenmechanischen Systemen auf und nicht in makroskopischen Systemen."
+      ],
+      "correct_answer": "B",
+      "explanation": "Makroskopische Größen sind oft das Ergebnis von vielen Teilchen, und ihre Fluktuationen können bei kleinen Teilchenzahlen signifikant werden. Diese statistischen Fluktuationen sind ein wichtiges Konzept in der statistischen Mechanik, da sie das Verhalten von Systemen beeinflussen können.",
+      "difficulty": 3,
+      "subcategory": "Fluktuationen makroskopischer Größen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Einsteins Postulate der SRT",
+      "question": "Welches der folgenden Postulate ist eine Grundlage der speziellen Relativitätstheorie (SRT)?",
+      "choices": [
+        "A: Die Lichtgeschwindigkeit ist in allen Inertialsystemen konstant.",
+        "B: Gravitation beeinflusst die Lichtgeschwindigkeit.",
+        "C: Zeit und Raum sind unabhängig voneinander.",
+        "D: Materie kann sich schneller als Licht bewegen."
+      ],
+      "correct_answer": "A",
+      "explanation": "Einsteins erstes Postulat der speziellen Relativitätstheorie besagt, dass die Lichtgeschwindigkeit in einem Vakuum für alle Beobachter unabhängig von deren Bewegungszustand konstant ist. Dieses Postulat ist fundamental für das Verständnis der Relativität und hat weitreichende Konsequenzen für die Physik.",
+      "difficulty": 6,
+      "subcategory": "Einsteins Postulate der SRT"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Maxwell-Gleichungen in kovarianter Form",
+      "question": "Welche der folgenden Aussagen beschreibt am besten die kovariante Form der Maxwell-Gleichungen?",
+      "choices": [
+        "A: Sie gelten nur in einem ruhenden Bezugssystem.",
+        "B: Sie sind in einer Form formuliert, die in jedem Inertialsystem gültig ist.",
+        "C: Sie sind nur für elektrische Felder anwendbar.",
+        "D: Sie beschreiben die Bewegung von Teilchen in einem Vakuum."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die kovariante Form der Maxwell-Gleichungen stellt sicher, dass die Gleichungen unabhängig von der Wahl des Inertialsystems sind und somit universell anwendbar sind. Dies ist ein grundlegendes Prinzip der Relativitätstheorie und ermöglicht die Konsistenz der Elektrodynamik bei relativistischen Geschwindigkeiten.",
+      "difficulty": 3,
+      "subcategory": "Maxwell-Gleichungen in kovarianter Form"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Schwarzer Strahler: Emissionsverhalten",
+      "question": "Was beschreibt das Emissionsverhalten eines idealen schwarzen Strahlers?",
+      "choices": [
+        "A: Er reflektiert alle einfallenden Strahlung und emittiert nur bei hohen Temperaturen.",
+        "B: Er absorbiert nur sichtbares Licht und emittiert keine Infrarotstrahlung.",
+        "C: Er emittiert nur bei einer bestimmten Temperatur und absorbiert nicht.",
+        "D: Er absorbiert alle einfallenden Strahlung und emittiert bei jeder Temperatur maximalen Strahlungsanteil."
+      ],
+      "correct_answer": "D",
+      "explanation": "Ein idealer schwarzer Strahler absorbiert alle einfallende Strahlung, unabhängig von der Wellenlänge. Bei jeder Temperatur emittiert er gemäß dem Planckschen Strahlungsgesetz maximalen Strahlungsanteil, was ihn zu einem perfekten Strahler macht.",
+      "difficulty": 6,
+      "subcategory": "Schwarzer Strahler: Emissionsverhalten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Relativistischer Impuls, Energie und Kraft",
+      "question": "Welches der folgenden Konzepte beschreibt den relativistischen Impuls eines Objekts, das sich mit relativistischer Geschwindigkeit bewegt?",
+      "choices": [
+        "A: p = m/(1-v^2/c^2)",
+        "B: p = mv",
+        "C: p = mγv",
+        "D: p = mv^2"
+      ],
+      "correct_answer": "C",
+      "explanation": "Der relativistische Impuls wird durch die Formel p = mγv beschrieben, wobei γ der Lorentz-Faktor ist. Diese Formel berücksichtigt die Effekte der Relativitätstheorie bei hohen Geschwindigkeiten, die sich der Lichtgeschwindigkeit annähern.",
+      "difficulty": 5,
+      "subcategory": "Relativistischer Impuls, Energie und Kraft"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Bohr–Sommerfeld-Quantisierung (historisch)",
+      "question": "Was beschreibt die Bohr-Sommerfeld-Quantisierung in der Quantenmechanik?",
+      "choices": [
+        "A: Die Bewegung von Körpern unter dem Einfluss von Kräften.",
+        "B: Die Berechnung der Gravitationskraft zwischen zwei Massen.",
+        "C: Die Quantisierung von Energiezuständen in einem Atom.",
+        "D: Die Thermodynamik von idealen Gasen."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Bohr-Sommerfeld-Quantisierung ist ein Konzept, das die quantisierten Energiezustände von Elektronen in Atomen beschreibt. Sie erweitert das ursprüngliche Bohr-Modell und berücksichtigt die Bewegung der Elektronen in elliptischen Bahnen.",
+      "difficulty": 2,
+      "subcategory": "Bohr–Sommerfeld-Quantisierung (historisch)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Homogenität des Raumes ⇒ Impulserhaltung",
+      "question": "Was besagt das Impulserhaltungsgesetz im Kontext einer homogenen Raumstruktur?",
+      "choices": [
+        "A: Der Gesamtimpuls eines geschlossenen Systems bleibt konstant.",
+        "B: Der Impuls eines Körpers ist immer gleich seiner Masse mal seiner Geschwindigkeit.",
+        "C: Der Impuls eines einzelnen Körpers kann beliebig verändert werden.",
+        "D: Impuls kann nur in einem System mit externen Kräften erhalten bleiben."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Impulserhaltungsgesetz besagt, dass in einem geschlossenen System, in dem keine äußeren Kräfte wirken, der Gesamtimpuls konstant bleibt. Dies ist eine direkte Folge der Homogenität des Raumes, die besagt, dass die physikalischen Gesetze unabhängig von der Position im Raum sind.",
+      "difficulty": 4,
+      "subcategory": "Homogenität des Raumes ⇒ Impulserhaltung"
+    }
+  ]
+}

@@ -2282,6 +2282,20 @@
       "correct_answer": "C",
       "explanation": "An SSD is a storage unit that permanently stores data and is faster compared to traditional hard drives. The CPU and GPU are responsible for processing data, while RAM temporarily stores data being worked on.",
       "difficulty": 6
+    },
+    {
+      "category": "Technologie",
+      "topic": "Computer & Internet",
+      "question": "Which protocol is primarily used for secure data exchange on the internet?",
+      "choices": [
+        "A: SMTP (Simple Mail Transfer Protocol)",
+        "B: FTP (File Transfer Protocol)",
+        "C: HTTPS ✓",
+        "D: IMAP (Internet Message Access Protocol)"
+      ],
+      "correct_answer": "C",
+      "explanation": "HTTPS (Hypertext Transfer Protocol Secure) is the secure version of HTTP and uses encryption to ensure the integrity and confidentiality of transmitted data. FTP, SMTP, and IMAP are protocols for other purposes such as file transfers or email traffic, but do not use standard encryption for data transmission.",
+      "difficulty": 9
     }
   ]
 }
