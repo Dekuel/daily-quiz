@@ -1,0 +1,168 @@
+{
+  "date": "2026-05-19",
+  "generated_at": "2026-05-19T04:28:39Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Brechungsgesetz aus Fermat",
+      "question": "Which principle describes that light chooses the path that requires the minimum time to travel from one point to another?",
+      "choices": [
+        "A: Principle of least time",
+        "B: Snell's Law",
+        "C: Snellius Law",
+        "D: Law of Reflection"
+      ],
+      "correct_answer": "A",
+      "explanation": "The principle of least time, also known as Fermat's principle, states that light rays choose the fastest path between two points. Therefore, the correct answer is C, while A and D refer to specific aspects of light refraction and B relates to reflection.",
+      "difficulty": 8,
+      "subcategory": "Brechungsgesetz aus Fermat"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Einsteins Postulate der SRT",
+      "question": "Which of the following postulates is not part of Einstein's special theory of relativity?",
+      "choices": [
+        "A: Time passes at the same rate for all observers.",
+        "B: The speed of light is independent of the observer's motion.",
+        "C: The speed of light is constant and approximately 299,792,458 m/s in a vacuum.",
+        "D: The laws of physics are the same in all inertial frames."
+      ],
+      "correct_answer": "A",
+      "explanation": "Einstein's special theory of relativity postulates that time is relative and depends on the observer's velocity. Therefore, time does not pass at the same rate for all observers, making Postulate C incorrect.",
+      "difficulty": 7,
+      "subcategory": "Einsteins Postulate der SRT"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Lichtquellen für Beleuchtungszwecke",
+      "question": "Which of the following light sources is commonly used for illuminating rooms?",
+      "choices": [
+        "A: Incandescent light bulb",
+        "B: Refrigerator",
+        "C: Microwave",
+        "D: Television"
+      ],
+      "correct_answer": "A",
+      "explanation": "The incandescent light bulb is a widely used light source in many households to illuminate rooms. Refrigerators, televisions, and microwaves are not light sources but devices with other functions.",
+      "difficulty": 2,
+      "subcategory": "Lichtquellen für Beleuchtungszwecke"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Kritisches Magnetfeld & thermodynamische Größen",
+      "question": "What does the critical magnetic field in a superconducting material describe?",
+      "choices": [
+        "A: It is the maximum magnetic field strength at which the material remains superconducting.",
+        "B: It is the temperature at which the material loses its superconducting properties.",
+        "C: It is the energy needed to move electrons in the material.",
+        "D: It is the pressure at which the material undergoes its phase change."
+      ],
+      "correct_answer": "A",
+      "explanation": "The critical magnetic field is the point at which a superconducting material loses its superconducting properties when the external magnetic field exceeds this value. It depends on the temperature and specific properties of the material.",
+      "difficulty": 5,
+      "subcategory": "Kritisches Magnetfeld & thermodynamische Größen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Mikro→Makro: Ursprung irreversibler Gleichungen",
+      "question": "Which of the following statements best describes the origin of irreversible processes in statistical mechanics?",
+      "choices": [
+        "A: They are solely due to external forces.",
+        "B: They are always reversible given enough time.",
+        "C: They can be explained by the law of conservation of energy.",
+        "D: They arise from the increase in entropy in a closed system."
+      ],
+      "correct_answer": "D",
+      "explanation": "Irreversible processes in statistical mechanics are closely related to entropy, which must always increase in a closed system. This leads to a transition from an ordered state to more disorder, determining the direction of irreversible processes.",
+      "difficulty": 6,
+      "subcategory": "Mikro→Makro: Ursprung irreversibler Gleichungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Atom und seine Bausteine",
+      "question": "Which of the following particles is a component of the atomic nucleus?",
+      "choices": [
+        "A: Proton",
+        "B: Neutrino",
+        "C: Photon",
+        "D: Electron"
+      ],
+      "correct_answer": "A",
+      "explanation": "The atomic nucleus consists of protons and neutrons. Electrons move in the electron cloud around the nucleus, while photons and neutrinos are not components of the atomic nucleus.",
+      "difficulty": 5,
+      "subcategory": "Atom und seine Bausteine"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Struktur amorpher Festkörper",
+      "question": "What describes the structure of an amorphous solid?",
+      "choices": [
+        "A: A structure found only in liquids",
+        "B: An unordered arrangement of atoms or molecules",
+        "C: An arrangement stable only at very high temperatures",
+        "D: A regular, periodic arrangement of atoms or molecules"
+      ],
+      "correct_answer": "B",
+      "explanation": "Amorphous solids are characterized by a disordered structure, unlike crystalline materials that have a regular arrangement. This disorder results in special properties, such as isotropic behavior and high flexibility.",
+      "difficulty": 4,
+      "subcategory": "Struktur amorpher Festkörper"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Punktdefekte (Überblick)",
+      "question": "Which of the following defects is not a typical point defect in crystals?",
+      "choices": [
+        "A: Vacancies",
+        "B: Interstitial defect",
+        "C: Substitution atoms",
+        "D: Dislocations"
+      ],
+      "correct_answer": "D",
+      "explanation": "Point defects are local disruptions in the crystal lattice, including vacancies, substitution atoms, and interstitial defects. Dislocations, on the other hand, are linear defects and are not considered point defects.",
+      "difficulty": 6,
+      "subcategory": "Punktdefekte (Überblick)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Eigenwertproblem des Bahndrehimpulses",
+      "question": "Which of the following statements correctly describes the eigenvalues of orbital angular momentum in quantum mechanics?",
+      "choices": [
+        "A: The eigenvalues of orbital angular momentum are continuous and can take any positive value.",
+        "B: The eigenvalues of orbital angular momentum are given by l(l+1)ħ², where l is a non-negative integer.",
+        "C: The eigenvalues of orbital angular momentum are independent of the quantum number l.",
+        "D: The eigenvalues of orbital angular momentum are always zero."
+      ],
+      "correct_answer": "B",
+      "explanation": "In quantum mechanics, the eigenvalues of orbital angular momentum are quantized and described by the formula l(l+1)ħ², where l is the principal quantum number. These quantized values are crucial for understanding the quantum mechanical angular momentum states of particles.",
+      "difficulty": 9,
+      "subcategory": "Eigenwertproblem des Bahndrehimpulses"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Brillouin-Zonen & Fermi-Flächen",
+      "question": "What does the Fermi surface in a solid describe?",
+      "choices": [
+        "A: The temperature at which a solid becomes superconducting.",
+        "B: The shape of the first Brillouin zone of a crystal.",
+        "C: The energetic states that electrons can occupy in the solid.",
+        "D: The maximum energy electrons can reach at absolute temperature."
+      ],
+      "correct_answer": "C",
+      "explanation": "The Fermi surface represents the set of energetic states occupied by electrons up to the Fermi energy. It plays a crucial role in describing the electrical properties of metals and semiconductors.",
+      "difficulty": 4,
+      "subcategory": "Brillouin-Zonen & Fermi-Flächen"
+    }
+  ]
+}

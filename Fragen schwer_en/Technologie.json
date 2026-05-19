@@ -2296,6 +2296,20 @@
       "correct_answer": "C",
       "explanation": "HTTPS (Hypertext Transfer Protocol Secure) is the secure version of HTTP and uses encryption to ensure the integrity and confidentiality of transmitted data. FTP, SMTP, and IMAP are protocols for other purposes such as file transfers or email traffic, but do not use standard encryption for data transmission.",
       "difficulty": 9
+    },
+    {
+      "category": "Technologie",
+      "topic": "Smartphones & Apps",
+      "question": "Which technology enables processing payments via mobile devices without physical cards?",
+      "choices": [
+        "A: Near Field Communication (NFC)",
+        "B: Wi-Fi Direct",
+        "C: Bluetooth Low Energy (BLE)",
+        "D: QR Code Scanning"
+      ],
+      "correct_answer": "A",
+      "explanation": "Near Field Communication (NFC) is a technology that allows data to be transmitted over short distances and is the basis for mobile payment services like Apple Pay and Google Pay. While other technologies can also be used for payments, NFC is specifically optimized for contactless payments.",
+      "difficulty": 7
     }
   ]
 }

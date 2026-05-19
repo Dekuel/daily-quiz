@@ -1,0 +1,169 @@
+{
+  "date": "2026-05-19",
+  "generated_at": "2026-05-19T04:28:00Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Brechungsgesetz aus Fermat",
+      "question": "Welches Prinzip beschreibt, dass Licht den Weg wählt, der die minimale Zeit benötigt, um von einem Punkt zu einem anderen zu gelangen?",
+      "choices": [
+        "A: Das Prinzip der kleinsten Zeit",
+        "B: Das Brechungsgesetz",
+        "C: Das Snellius-Gesetz",
+        "D: Das Reflexionsgesetz"
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Prinzip der kleinsten Zeit, auch bekannt als das Fermatsche Prinzip, besagt, dass Lichtstrahlen den schnellsten Weg zwischen zwei Punkten wählen. Daher ist die korrekte Antwort C, während A und D auf spezifische Aspekte der Lichtbrechung hinweisen und B sich auf die Reflexion bezieht.",
+      "difficulty": 8,
+      "subcategory": "Brechungsgesetz aus Fermat"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Einsteins Postulate der SRT",
+      "question": "Welches der folgenden Postulate ist nicht Teil von Einsteins spezieller Relativitätstheorie?",
+      "choices": [
+        "A: Die Zeit vergeht für alle Beobachter gleich schnell.",
+        "B: Die Lichtgeschwindigkeit ist unabhängig von der Bewegung des Beobachters.",
+        "C: Die Lichtgeschwindigkeit ist konstant und beträgt im Vakuum etwa 299.792.458 m/s.",
+        "D: Die Gesetze der Physik sind in allen Inertialsystemen gleich."
+      ],
+      "correct_answer": "A",
+      "explanation": "Einsteins spezielle Relativitätstheorie postuliert, dass die Zeit relativ ist und von der Geschwindigkeit des Beobachters abhängt. Daher vergeht die Zeit nicht für alle Beobachter gleich schnell, was Postulat C falsch macht.",
+      "difficulty": 7,
+      "subcategory": "Einsteins Postulate der SRT"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Lichtquellen für Beleuchtungszwecke",
+      "question": "Welche der folgenden Lichtquellen wird häufig für die Beleuchtung von Räumen verwendet?",
+      "choices": [
+        "A: Glühbirne",
+        "B: Kühlschrank",
+        "C: Mikrowelle",
+        "D: Fernseher"
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Glühbirne ist eine weit verbreitete Lichtquelle, die in vielen Haushalten verwendet wird, um Räume zu beleuchten. Kühlschränke, Fernseher und Mikrowellen sind keine Lichtquellen, sondern Geräte mit anderen Funktionen.",
+      "difficulty": 2,
+      "subcategory": "Lichtquellen für Beleuchtungszwecke"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Kritisches Magnetfeld & thermodynamische Größen",
+      "question": "Was beschreibt das kritische Magnetfeld in einem supraleitenden Material?",
+      "choices": [
+        "A: Es ist die maximale Magnetfeldstärke, bei der das Material supraleitend bleibt.",
+        "B: Es ist die Temperatur, bei der das Material seine supraleitenden Eigenschaften verliert.",
+        "C: Es ist die Energie, die benötigt wird, um Elektronen im Material zu bewegen.",
+        "D: Es ist der Druck, bei dem das Material seine Phasenänderung vollzieht."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das kritische Magnetfeld ist der Punkt, an dem ein supraleitendes Material seine supraleitenden Eigenschaften verliert, wenn das externe Magnetfeld diesen Wert überschreitet. Es hängt von der Temperatur und den spezifischen Eigenschaften des Materials ab.",
+      "difficulty": 5,
+      "subcategory": "Kritisches Magnetfeld & thermodynamische Größen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Mikro→Makro: Ursprung irreversibler Gleichungen",
+      "question": "Welche der folgenden Aussagen beschreibt am besten den Ursprung irreversibler Prozesse in der statistischen Mechanik?",
+      "choices": [
+        "A: Sie sind ausschließlich auf äußere Kräfte zurückzuführen.",
+        "B: Sie sind immer reversibel, wenn genügend Zeit zur Verfügung steht.",
+        "C: Sie können durch das Gesetz der Erhaltung der Energie erklärt werden.",
+        "D: Sie entstehen durch die Zunahme der Entropie in einem geschlossenen System."
+      ],
+      "correct_answer": "D",
+      "explanation": "Irreversible Prozesse in der statistischen Mechanik sind eng mit der Entropie verbunden, die in einem geschlossenen System immer zunehmen muss. Dies führt zu einem Übergang von einem geordneten Zustand zu mehr Unordnung, was die Richtung irreversibler Prozesse bestimmt.",
+      "difficulty": 6,
+      "subcategory": "Mikro→Makro: Ursprung irreversibler Gleichungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Atom und seine Bausteine",
+      "question": "Welches der folgenden Teilchen ist ein Bestandteil des Atomkerns?",
+      "choices": [
+        "A: Proton",
+        "B: Neutrino",
+        "C: Photon",
+        "D: Elektron"
+      ],
+      "correct_answer": "A",
+      "explanation": "Der Atomkern besteht aus Protonen und Neutronen. Elektronen bewegen sich in der Elektronenhülle um den Kern, während Photonen und Neutrinos keine Bestandteile des Atomkerns sind.",
+      "difficulty": 5,
+      "subcategory": "Atom und seine Bausteine"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Struktur amorpher Festkörper",
+      "question": "Was beschreibt die Struktur eines amorphen Festkörpers?",
+      "choices": [
+        "A: Eine Struktur, die nur in Flüssigkeiten vorkommt",
+        "B: Eine ungeordnete Anordnung von Atomen oder Molekülen",
+        "C: Eine Anordnung, die nur bei sehr hohen Temperaturen stabil ist",
+        "D: Eine regelmäßige, periodische Anordnung von Atomen oder Molekülen"
+      ],
+      "correct_answer": "B",
+      "explanation": "Amorphe Festkörper zeichnen sich durch eine ungeordnete Struktur aus, im Gegensatz zu kristallinen Materialien, die eine regelmäßige Anordnung aufweisen. Diese Unordnung führt zu besonderen Eigenschaften, wie z.B. isotropem Verhalten und einer hohen Flexibilität.",
+      "difficulty": 4,
+      "subcategory": "Struktur amorpher Festkörper"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Punktdefekte (Überblick)",
+      "question": "Welcher der folgenden Defekte gehört nicht zu den typischen Punktdefekten in Kristallen?",
+      "choices": [
+        "A: Leerstellen",
+        "B: interstitieller Defekt",
+        "C: Substitutionsatome",
+        "D: Versetzungen"
+      ],
+      "correct_answer": "D",
+      "explanation": "Punktdefekte sind lokale Störungen im Kristallgitter, zu denen Leerstellen, Substitutionsatome und interstitielle Defekte gehören. Versetzungen hingegen sind linienartige Defekte und zählen nicht zu den Punktdefekten.",
+      "difficulty": 6,
+      "subcategory": "Punktdefekte (Überblick)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Eigenwertproblem des Bahndrehimpulses",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt die Eigenwerte des Bahndrehimpulses in der Quantenmechanik?",
+      "choices": [
+        "A: Die Eigenwerte des Bahndrehimpulses sind kontinuierlich und können jeden positiven Wert annehmen.",
+        "B: Die Eigenwerte des Bahndrehimpulses sind gegeben durch l(l+1)ħ², wobei l eine nicht-negative ganze Zahl ist.",
+        "C: Die Eigenwerte des Bahndrehimpulses sind unabhängig von der Quantennummer l.",
+        "D: Die Eigenwerte des Bahndrehimpulses sind immer gleich null."
+      ],
+      "correct_answer": "B",
+      "explanation": "In der Quantenmechanik sind die Eigenwerte des Bahndrehimpulses quantisiert und werden durch die Formel l(l+1)ħ² beschrieben, wobei l die Hauptquantenzahl ist. Diese quantisierten Werte sind entscheidend für das Verständnis der quantenmechanischen Drehimpulszustände von Teilchen.",
+      "difficulty": 9,
+      "subcategory": "Eigenwertproblem des Bahndrehimpulses"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Brillouin-Zonen & Fermi-Flächen",
+      "question": "Was beschreibt die Fermi-Fläche in einem Festkörper?",
+      "choices": [
+        "A: Die Temperatur, bei der ein Festkörper supraleitend wird.",
+        "B: Die Form der ersten Brillouin-Zone eines Kristalls.",
+        "C: Die energetischen Zustände, die Elektronen im Festkörper einnehmen können.",
+        "D: Die maximale Energie, die Elektronen bei absoluter Temperatur erreichen können."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Fermi-Fläche repräsentiert die Menge der energetischen Zustände, die von Elektronen bis zur Fermi-Energie besetzt sind. Sie spielt eine wichtige Rolle bei der Beschreibung der elektrischen Eigenschaften von Metallen und Halbleitern.",
+      "difficulty": 4,
+      "subcategory": "Brillouin-Zonen & Fermi-Flächen"
+    }
+  ]
+}
