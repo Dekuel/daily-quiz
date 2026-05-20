@@ -1,0 +1,169 @@
+{
+  "date": "2026-05-20",
+  "generated_at": "2026-05-20T04:28:52Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Wirkungs- und Winkelvariable (Action-Angle)",
+      "question": "Was beschreibt die Action-Angle-Variable in der analytischen Mechanik?",
+      "choices": [
+        "A: Die Beschreibung der dynamischen Systeme durch die Hamiltonsche Gleichung.",
+        "B: Die Transformation von Koordinaten in nichtlinearen Systemen.",
+        "C: Die Beziehung zwischen Energie und Zeit in nichtstationären Systemen.",
+        "D: Die Beziehung zwischen den Phasenräumen von Hamilton-Systemen."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Action-Angle-Variablen sind eine spezielle Form von Zustandsvariablen für Hamilton-Systeme, die es ermöglichen, die Bewegung in Phasenräumen zu beschreiben. Sie vereinfachen die Analyse periodischer Bewegungen erheblich, indem sie die Zeitabhängigkeit eliminieren und die Dynamik in Bezug auf die geometrischen Eigenschaften des Systems darstellen.",
+      "difficulty": 7,
+      "subcategory": "Wirkungs- und Winkelvariable (Action-Angle)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Zeitumkehr & Gasexpansion; Störungen der Trajektorien",
+      "question": "Was beschreibt das Konzept der Zeitumkehr in der statistischen Mechanik?",
+      "choices": [
+        "A: Die Unmöglichkeit, Prozesse in der Zeit zurückgehen zu lassen.",
+        "B: Die Geschwindigkeit von Teilchen in einem Gas.",
+        "C: Die Möglichkeit, dass ein Prozess in umgekehrter Richtung ablaufen kann.",
+        "D: Die Veränderung der Energie in einem geschlossenen System."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Konzept der Zeitumkehr besagt, dass die physikalischen Gesetze in umgekehrter Zeit genauso gültig sind, was bedeutet, dass viele Prozesse theoretisch auch rückwärts ablaufen können. Dies ist ein wichtiges Konzept in der statistischen Mechanik, insbesondere im Zusammenhang mit der Entropie und dem Verhalten von Gasen.",
+      "difficulty": 2,
+      "subcategory": "Zeitumkehr & Gasexpansion; Störungen der Trajektorien"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Hamilton’sche charakteristische Funktion S",
+      "question": "Was beschreibt die Hamilton’sche charakteristische Funktion S in der analytischen Mechanik?",
+      "choices": [
+        "A: Die Struktur von Atomen.",
+        "B: Die Beziehung zwischen Energie und Zeit.",
+        "C: Die Umwandlung von kinetischer in potenzielle Energie.",
+        "D: Die Bewegungsgleichungen eines Systems."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Hamilton’sche charakteristische Funktion S ist ein zentrales Konzept in der analytischen Mechanik, das die Bewegungsgleichungen eines physikalischen Systems beschreibt. Sie ist eine Funktion der Koordinaten und Impulse und hilft, die Dynamik des Systems zu analysieren.",
+      "difficulty": 1,
+      "subcategory": "Hamilton’sche charakteristische Funktion S"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Magnetische Feldenergie (Dichte)",
+      "question": "Welche Aussage zur magnetischen Feldenergiedichte ist korrekt?",
+      "choices": [
+        "A: Die magnetische Feldenergiedichte ist proportional zum Quadrat der magnetischen Flussdichte B.",
+        "B: Die magnetische Feldenergiedichte ist invers proportional zur elektrischen Feldstärke.",
+        "C: Die magnetische Feldenergiedichte ist unabhängig von der magnetischen Flussdichte.",
+        "D: Die magnetische Feldenergiedichte ist konstant in einem geschlossenen System."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die magnetische Feldenergiedichte wird durch die Formel u = B²/(2µ₀) beschrieben, wobei u die Energiedichte und B die magnetische Flussdichte ist. Diese Beziehung zeigt, dass die Energiedichte tatsächlich proportional zum Quadrat der magnetischen Flussdichte ist, was für das Verständnis der Energiespeicherung in magnetischen Feldern entscheidend ist.",
+      "difficulty": 8,
+      "subcategory": "Magnetische Feldenergie (Dichte)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Legierungen",
+      "question": "Welche der folgenden Aussagen beschreibt am besten eine Legierung?",
+      "choices": [
+        "A: Ein gasförmiger Zustand von Materie.",
+        "B: Ein reines Element mit einer spezifischen Kristallstruktur.",
+        "C: Eine Mischung aus zwei oder mehr Metallen oder Metallen und Nichtmetallen.",
+        "D: Eine chemische Verbindung mit einer festen Formel."
+      ],
+      "correct_answer": "C",
+      "explanation": "Eine Legierung ist eine Mischung aus zwei oder mehr Metallen oder Metallen und Nichtmetallen, die zusammengefügt werden, um die Eigenschaften der Materialien zu verbessern. Legierungen werden häufig verwendet, um die Festigkeit, Korrosionsbeständigkeit und andere Eigenschaften zu optimieren.",
+      "difficulty": 2,
+      "subcategory": "Legierungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Parametrisierung der Bindungsenergie (Weizsäcker)",
+      "question": "Welche der folgenden Aussagen beschreibt am besten die Weizsäcker-Formel zur Parametrisierung der Bindungsenergie von Atomkernen?",
+      "choices": [
+        "A: Die Bindungsenergie pro Nukleon bleibt konstant, unabhängig von der Nukleonenzahl.",
+        "B: Die Bindungsenergie pro Nukleon steigt mit zunehmender Nukleonenzahl.",
+        "C: Die Weizsäcker-Formel berücksichtigt nur die Wechselwirkungen zwischen Protonen.",
+        "D: Die Bindungsenergie ist ausschließlich von der Anzahl der Protonen im Kern abhängig."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Weizsäcker-Formel zeigt, dass die Bindungsenergie pro Nukleon zunächst mit der Nukleonenzahl steigt, da mehr Nukleonen zu stabileren Kernen führen. Diese Formel berücksichtigt auch verschiedene Einflussfaktoren wie die Coulomb-Abstoßung und die Volumen- und Oberflächenenergien, die die Bindungsenergie beeinflussen.",
+      "difficulty": 9,
+      "subcategory": "Parametrisierung der Bindungsenergie (Weizsäcker)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Präzession des symmetrischen Kreisels",
+      "question": "Was beschreibt die Präzession eines symmetrischen Kreisels?",
+      "choices": [
+        "A: Die Erhöhung der kinetischen Energie des Kreisels.",
+        "B: Die Änderung der Masse des Kreisels beim Drehen.",
+        "C: Die Drehung der Achse des Kreisels um eine senkrechte Linie.",
+        "D: Die Geschwindigkeit, mit der der Kreisel sich dreht."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Präzession eines symmetrischen Kreisels beschreibt die Bewegung der Drehachse, die sich um eine senkrechte Linie bewegt, wenn der Kreisel auf einer geneigten Fläche steht. Diese Bewegung entsteht durch das Drehmoment, das auf die Achse wirkt, und führt dazu, dass die Achse eine kreisförmige Bahn beschreibt.",
+      "difficulty": 4,
+      "subcategory": "Präzession des symmetrischen Kreisels"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Einfache Folgerungen aus den Hauptsätzen",
+      "question": "Welcher der folgenden Sätze beschreibt am besten die Konsequenz des zweiten Hauptsatzes der Thermodynamik?",
+      "choices": [
+        "A: Wärme kann nur von einem wärmeren Körper zu einem kälteren Körper fließen, ohne dass Arbeit verrichtet wird.",
+        "B: Wärme kann von einem kälteren Körper zu einem wärmeren Körper fließen, ohne Arbeit zu verrichten.",
+        "C: In einem geschlossenen System bleibt die Gesamtenergie immer konstant.",
+        "D: Der Wirkungsgrad eines Wärmekraftwerks kann 100 % erreichen."
+      ],
+      "correct_answer": "A",
+      "explanation": "Der zweite Hauptsatz der Thermodynamik besagt, dass Wärme spontan von einem wärmeren zu einem kälteren Körper fließt, und nicht umgekehrt, es sei denn, es wird Arbeit verrichtet. Diese Regel ist grundlegend für das Verständnis von Wärmeübertragung und Energieumwandlung.",
+      "difficulty": 6,
+      "subcategory": "Einfache Folgerungen aus den Hauptsätzen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Maxwell–Boltzmann-Verteilung",
+      "question": "Was beschreibt die Maxwell–Boltzmann-Verteilung in der klassischen Mechanik?",
+      "choices": [
+        "A: Die Verteilung der Geschwindigkeiten von Teilchen in einem idealen Gas.",
+        "B: Den Energieverlust eines Körpers bei einem elastischen Stoß.",
+        "C: Die Rotation eines starren Körpers um eine Achse.",
+        "D: Die Bewegung eines Pendels in einem Gravitationsfeld."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Maxwell–Boltzmann-Verteilung beschreibt, wie die Geschwindigkeiten von Teilchen in einem idealen Gas bei thermischer Gleichgewicht verteilt sind. Sie zeigt, dass die meisten Teilchen eine Geschwindigkeit nahe dem Durchschnitt haben, während nur wenige sehr hohe oder sehr niedrige Geschwindigkeiten erreichen.",
+      "difficulty": 3,
+      "subcategory": "Maxwell–Boltzmann-Verteilung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Meißner-Effekt & London-Gleichungen",
+      "question": "Was beschreibt der Meißner-Effekt in einem supraleitenden Material?",
+      "choices": [
+        "A: Supraleitende Materialien verlieren ihre thermische Energie.",
+        "B: Supraleitende Materialien absorbieren Magnetfelder.",
+        "C: Supraleitende Materialien weisen keinen magnetischen Fluss innerhalb des Materials auf.",
+        "D: Supraleitende Materialien erhöhen ihre elektrische Leitfähigkeit."
+      ],
+      "correct_answer": "C",
+      "explanation": "Der Meißner-Effekt beschreibt das Phänomen, dass in einem supraleitenden Material der magnetische Fluss vollständig aus dem Inneren des Materials verdrängt wird, wenn es unter die kritische Temperatur abgekühlt wird. Dies ist eine charakteristische Eigenschaft von Supraleitern und zeigt, dass sie perfekt diamagnetisch sind.",
+      "difficulty": 6,
+      "subcategory": "Meißner-Effekt & London-Gleichungen"
+    }
+  ]
+}

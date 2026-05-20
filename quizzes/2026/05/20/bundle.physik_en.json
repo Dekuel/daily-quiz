@@ -1,0 +1,168 @@
+{
+  "date": "2026-05-20",
+  "generated_at": "2026-05-20T04:29:27Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Wirkungs- und Winkelvariable (Action-Angle)",
+      "question": "What does the action-angle variable describe in analytical mechanics?",
+      "choices": [
+        "A: The description of dynamic systems by Hamilton's equation.",
+        "B: The transformation of coordinates in nonlinear systems.",
+        "C: The relationship between energy and time in non-stationary systems.",
+        "D: The relationship between the phase spaces of Hamiltonian systems."
+      ],
+      "correct_answer": "D",
+      "explanation": "The action-angle variables are a special form of state variables for Hamiltonian systems that allow describing motion in phase spaces. They significantly simplify the analysis of periodic motions by eliminating time dependence and representing dynamics in terms of the system's geometric properties.",
+      "difficulty": 7,
+      "subcategory": "Wirkungs- und Winkelvariable (Action-Angle)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Zeitumkehr & Gasexpansion; Störungen der Trajektorien",
+      "question": "What does the concept of time reversal describe in statistical mechanics?",
+      "choices": [
+        "A: The impossibility of processes to go back in time.",
+        "B: The speed of particles in a gas.",
+        "C: The possibility of a process to run in reverse direction.",
+        "D: The change in energy in a closed system."
+      ],
+      "correct_answer": "C",
+      "explanation": "The concept of time reversal states that physical laws are equally valid in reverse time, meaning that many processes can theoretically run backward. This is an important concept in statistical mechanics, especially concerning entropy and gas behavior.",
+      "difficulty": 2,
+      "subcategory": "Zeitumkehr & Gasexpansion; Störungen der Trajektorien"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Hamilton’sche charakteristische Funktion S",
+      "question": "What does Hamilton's characteristic function S describe in analytical mechanics?",
+      "choices": [
+        "A: The structure of atoms.",
+        "B: The relationship between energy and time.",
+        "C: The conversion of kinetic into potential energy.",
+        "D: The motion equations of a system."
+      ],
+      "correct_answer": "D",
+      "explanation": "Hamilton's characteristic function S is a central concept in analytical mechanics that describes the motion equations of a physical system. It is a function of coordinates and momenta and helps analyze the system's dynamics.",
+      "difficulty": 1,
+      "subcategory": "Hamilton’sche charakteristische Funktion S"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Magnetische Feldenergie (Dichte)",
+      "question": "Which statement about magnetic field energy density is correct?",
+      "choices": [
+        "A: The magnetic field energy density is proportional to the square of the magnetic flux density B.",
+        "B: The magnetic field energy density is inversely proportional to the electric field strength.",
+        "C: The magnetic field energy density is independent of the magnetic flux density.",
+        "D: The magnetic field energy density is constant in a closed system."
+      ],
+      "correct_answer": "A",
+      "explanation": "The magnetic field energy density is described by the formula u = B²/(2µ₀), where u is the energy density and B is the magnetic flux density. This relationship shows that the energy density is actually proportional to the square of the magnetic flux density, which is crucial for understanding energy storage in magnetic fields.",
+      "difficulty": 8,
+      "subcategory": "Magnetische Feldenergie (Dichte)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Legierungen",
+      "question": "Which of the following statements best describes an alloy?",
+      "choices": [
+        "A: A gaseous state of matter.",
+        "B: A pure element with a specific crystal structure.",
+        "C: A mixture of two or more metals or metals and non-metals.",
+        "D: A chemical compound with a fixed formula."
+      ],
+      "correct_answer": "C",
+      "explanation": "An alloy is a mixture of two or more metals or metals and non-metals combined to enhance the properties of the materials. Alloys are commonly used to optimize strength, corrosion resistance, and other properties.",
+      "difficulty": 2,
+      "subcategory": "Legierungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Parametrisierung der Bindungsenergie (Weizsäcker)",
+      "question": "Which of the following statements best describes the Weizsäcker formula for parameterizing the binding energy of atomic nuclei?",
+      "choices": [
+        "A: The binding energy per nucleon remains constant regardless of the nucleon number.",
+        "B: The binding energy per nucleon increases with increasing nucleon number.",
+        "C: The Weizsäcker formula only considers interactions between protons.",
+        "D: The binding energy depends solely on the number of protons in the nucleus."
+      ],
+      "correct_answer": "B",
+      "explanation": "The Weizsäcker formula shows that the binding energy per nucleon initially increases with the nucleon number, as more nucleons lead to more stable nuclei. This formula also considers various influencing factors like Coulomb repulsion and volume and surface energies affecting the binding energy.",
+      "difficulty": 9,
+      "subcategory": "Parametrisierung der Bindungsenergie (Weizsäcker)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Präzession des symmetrischen Kreisels",
+      "question": "What does the precession of a symmetric gyroscope describe?",
+      "choices": [
+        "A: The increase in the kinetic energy of the gyroscope.",
+        "B: The change in the mass of the gyroscope when rotating.",
+        "C: The rotation of the axis of the gyroscope around a vertical line.",
+        "D: The speed at which the gyroscope rotates."
+      ],
+      "correct_answer": "C",
+      "explanation": "The precession of a symmetric gyroscope describes the movement of the axis of rotation as it moves around a vertical line when the gyroscope is on an inclined surface. This motion arises from the torque acting on the axis, causing it to describe a circular path.",
+      "difficulty": 4,
+      "subcategory": "Präzession des symmetrischen Kreisels"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Einfache Folgerungen aus den Hauptsätzen",
+      "question": "Which of the following sentences best describes the consequence of the second law of thermodynamics?",
+      "choices": [
+        "A: Heat can only flow from a warmer body to a colder body without work being done.",
+        "B: Heat can flow from a colder body to a warmer body without doing work.",
+        "C: In a closed system, the total energy always remains constant.",
+        "D: The efficiency of a heat engine can reach 100%."
+      ],
+      "correct_answer": "A",
+      "explanation": "The second law of thermodynamics states that heat spontaneously flows from a warmer to a colder body, not the other way around, unless work is done. This rule is fundamental for understanding heat transfer and energy conversion.",
+      "difficulty": 6,
+      "subcategory": "Einfache Folgerungen aus den Hauptsätzen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Maxwell–Boltzmann-Verteilung",
+      "question": "What does the Maxwell–Boltzmann distribution describe in classical mechanics?",
+      "choices": [
+        "A: The distribution of velocities of particles in an ideal gas.",
+        "B: The energy loss of a body in an elastic collision.",
+        "C: The rotation of a rigid body around an axis.",
+        "D: The motion of a pendulum in a gravitational field."
+      ],
+      "correct_answer": "A",
+      "explanation": "The Maxwell–Boltzmann distribution describes how the velocities of particles in an ideal gas are distributed at thermal equilibrium. It shows that most particles have a velocity close to the average, while only a few reach very high or very low velocities.",
+      "difficulty": 3,
+      "subcategory": "Maxwell–Boltzmann-Verteilung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Meißner-Effekt & London-Gleichungen",
+      "question": "What does the Meissner effect describe in a superconducting material?",
+      "choices": [
+        "A: Superconducting materials lose their thermal energy.",
+        "B: Superconducting materials absorb magnetic fields.",
+        "C: Superconducting materials have no magnetic flux inside the material.",
+        "D: Superconducting materials increase their electrical conductivity."
+      ],
+      "correct_answer": "C",
+      "explanation": "The Meissner effect describes the phenomenon that in a superconducting material, the magnetic flux is completely expelled from the interior of the material when it is cooled below the critical temperature. This is a characteristic property of superconductors, showing that they are perfectly diamagnetic.",
+      "difficulty": 6,
+      "subcategory": "Meißner-Effekt & London-Gleichungen"
+    }
+  ]
+}
