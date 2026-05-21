@@ -1,0 +1,168 @@
+{
+  "date": "2026-05-21",
+  "generated_at": "2026-05-21T04:33:27Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Pauli-Paramagnetismus",
+      "question": "What does Pauli paramagnetism describe?",
+      "choices": [
+        "A: The temperature dependence of materials without a magnetic field.",
+        "B: The movement of particles in a vacuum.",
+        "C: The heat conduction in solid materials.",
+        "D: The behavior of electrons in a magnetic field due to their spins."
+      ],
+      "correct_answer": "D",
+      "explanation": "The Pauli paramagnetism describes how electrons with half-integer spin are aligned in an external magnetic field, leading to magnetization of the material. This particularly affects materials with an odd number of electrons, where not all spins are paired oppositely.",
+      "difficulty": 1,
+      "subcategory": "Pauli-Paramagnetismus"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Stoßquerschnitt & mittlere freie Weglänge",
+      "question": "Which factor significantly influences the mean free path of a particle in a gas?",
+      "choices": [
+        "A: The diameter of the particles",
+        "B: The electric charge of the particles",
+        "C: The pressure of the gas",
+        "D: The temperature of the gas"
+      ],
+      "correct_answer": "A",
+      "explanation": "The mean free path of a particle in a gas is directly proportional to the ratio of thermal energy to the interaction cross-sectional area determined by the particle diameter. A larger diameter leads to more frequent collisions, reducing the mean free path. Therefore, the particle diameter is the crucial factor for the mean free path.",
+      "difficulty": 9,
+      "subcategory": "Stoßquerschnitt & mittlere freie Weglänge"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "ħ→0-Grenzfall; Klassische Umkehrpunkte",
+      "question": "What happens in the ħ→0 limit case in quantum mechanics with classical turning points?",
+      "choices": [
+        "A: New turning points emerge.",
+        "B: The energy remains constant.",
+        "C: Quantum mechanics becomes indeterminate.",
+        "D: Quantum mechanics behaves like classical mechanics."
+      ],
+      "correct_answer": "D",
+      "explanation": "In the ħ→0 limit case, there is a correspondence between quantum mechanics and classical mechanics. This means that the quantum states and their energy relationships correspond to classical turning points.",
+      "difficulty": 4,
+      "subcategory": "ħ→0-Grenzfall; Klassische Umkehrpunkte"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Ordnungs–Unordnungs-Übergang",
+      "question": "What describes the transition from an ordered to a disordered state in solids?",
+      "choices": [
+        "A: Sublimation",
+        "B: Crystallization",
+        "C: Evaporation",
+        "D: Melting"
+      ],
+      "correct_answer": "D",
+      "explanation": "The transition from an ordered to a disordered state in solids is called melting. In this process, the solid structure dissolves, and the substance transitions to the liquid state.",
+      "difficulty": 1,
+      "subcategory": "Ordnungs–Unordnungs-Übergang"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Symmetrien und Erhaltungssätze",
+      "question": "Which of the following conservation laws applies in particle physics?",
+      "choices": [
+        "A: Conservation of mass",
+        "B: Conservation of energy",
+        "C: Conservation of temperature",
+        "D: Conservation of velocity"
+      ],
+      "correct_answer": "B",
+      "explanation": "In particle physics, the conservation of energy is a fundamental conservation law that applies to all physical processes. The conservation of mass is no longer valid in relativity theory, as mass and energy are interconnected (E=mc²).",
+      "difficulty": 5,
+      "subcategory": "Symmetrien und Erhaltungssätze"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Lorentz-Transformation (Grundform)",
+      "question": "Which of the following equations describes the Lorentz transformation for time dilation?",
+      "choices": [
+        "A: t' = t / √(1 - v²/c²)",
+        "B: t' = t - (v/c²) * x",
+        "C: t' = t * √(1 - v²/c²)",
+        "D: t' = t + (v/c²) * x"
+      ],
+      "correct_answer": "A",
+      "explanation": "The Lorentz transformation for time dilation shows that the time t' of a moving object appears longer compared to the time t of a stationary object when considering the object's velocity v relative to the speed of light c. The correct formula is t' = t / √(1 - v²/c²), which is an important consequence of relativity theory.",
+      "difficulty": 6,
+      "subcategory": "Lorentz-Transformation (Grundform)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Nichtresonante Hadronerzeugung (R‑Verhältnis)",
+      "question": "What does the R-ratio describe in non-resonant hadron production?",
+      "choices": [
+        "A: The interaction between hadrons and light mesons.",
+        "B: The probability of quark hadronization to hadrons.",
+        "C: The energy distribution of the produced particles.",
+        "D: The ratio of produced hadrons to non-hadronic states."
+      ],
+      "correct_answer": "D",
+      "explanation": "The R-ratio is an important parameter describing the relationship between the number of produced hadrons and the number of non-hadronic states in high-energy processes. It is crucial for understanding the dynamics of hadron production and the underlying quantum chromodynamics.",
+      "difficulty": 7,
+      "subcategory": "Nichtresonante Hadronerzeugung (R‑Verhältnis)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Wellengleichung der klassischen Mechanik (Hamilton–Jacobi ↔ eikonal)",
+      "question": "Which statement best describes the relationship between the Hamilton–Jacobi equation and the eikonal equation in classical mechanics?",
+      "choices": [
+        "A: The Hamilton–Jacobi equation cannot be applied to the eikonal equation.",
+        "B: The Hamilton–Jacobi equation is a method for solving the eikonal equation, which describes wave propagation.",
+        "C: The eikonal equation is a special form of the Hamilton–Jacobi equation that only applies to harmonic oscillators.",
+        "D: The eikonal equation is a formulation of the Hamilton–Jacobi equation for nonlinear systems."
+      ],
+      "correct_answer": "B",
+      "explanation": "The Hamilton–Jacobi equation allows solving problems in classical mechanics by being linked to the eikonal equation, which describes wave propagation. This relationship shows how the motion of particles can be represented in a wave form.",
+      "difficulty": 5,
+      "subcategory": "Wellengleichung der klassischen Mechanik (Hamilton–Jacobi ↔ eikonal)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Kern‑Formfaktoren",
+      "question": "What does the term 'nuclear form factor' describe in nuclear physics?",
+      "choices": [
+        "A: The distribution of electric charge in the atomic nucleus.",
+        "B: The mass of a nucleus in relation to its size.",
+        "C: The stability of the atomic nucleus.",
+        "D: The number of protons in the nucleus."
+      ],
+      "correct_answer": "A",
+      "explanation": "The nuclear form factor describes the distribution of electric charge within the atomic nucleus. It is important for understanding interactions between nuclei and other particles and plays a central role in experiments on nuclear structure.",
+      "difficulty": 1,
+      "subcategory": "Kern‑Formfaktoren"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Potential einer Punktladung, Multipolmomente",
+      "question": "What does the electric potential of a point charge at a distance r from the charge describe?",
+      "choices": [
+        "A: V = k * Q / r",
+        "B: V = ε_0 * Q / r",
+        "C: V = k * Q * r",
+        "D: V = Q / (4 * π * ε_0 * r^2)"
+      ],
+      "correct_answer": "A",
+      "explanation": "The electric potential V of a point charge Q at a distance r is given by the formula V = k * Q / r, where k is the Coulomb constant. This relationship shows how the potential decreases with distance from the charge.",
+      "difficulty": 4,
+      "subcategory": "Potential einer Punktladung, Multipolmomente"
+    }
+  ]
+}

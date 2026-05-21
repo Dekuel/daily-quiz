@@ -1,0 +1,169 @@
+{
+  "date": "2026-05-21",
+  "generated_at": "2026-05-21T04:32:50Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Pauli-Paramagnetismus",
+      "question": "Was beschreibt der Pauli-Paramagnetismus?",
+      "choices": [
+        "A: Die Temperaturabhängigkeit von Materialien ohne Magnetfeld.",
+        "B: Die Bewegung von Teilchen in einem Vakuum.",
+        "C: Die Wärmeleitung in festen Stoffen.",
+        "D: Das Verhalten von Elektronen in einem Magnetfeld aufgrund ihrer Spins."
+      ],
+      "correct_answer": "D",
+      "explanation": "Der Pauli-Paramagnetismus beschreibt, wie Elektronen mit halbzahligem Spin in einem externen Magnetfeld ausgerichtet werden, was zu einer Magnetisierung des Materials führt. Dies betrifft insbesondere Materialien, die eine ungerade Anzahl an Elektronen besitzen und somit nicht alle Spins paarweise entgegengesetzt sind.",
+      "difficulty": 1,
+      "subcategory": "Pauli-Paramagnetismus"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Stoßquerschnitt & mittlere freie Weglänge",
+      "question": "Welcher Faktor beeinflusst maßgeblich die mittlere freie Weglänge eines Teilchens in einem Gas?",
+      "choices": [
+        "A: Der Durchmesser der Teilchen",
+        "B: Die elektrische Ladung der Teilchen",
+        "C: Der Druck des Gases",
+        "D: Die Temperatur des Gases"
+      ],
+      "correct_answer": "A",
+      "explanation": "Die mittlere freie Weglänge eines Teilchens in einem Gas ist direkt proportional zum Verhältnis der thermischen Energie zur Wechselwirkungsquerschnittsfläche, die durch den Durchmesser der Teilchen bestimmt wird. Ein größerer Durchmesser führt zu häufigeren Kollisionen, was die freie Weglänge verringert. Daher ist der Durchmesser der Teilchen der entscheidende Faktor für die mittlere freie Weglänge.",
+      "difficulty": 9,
+      "subcategory": "Stoßquerschnitt & mittlere freie Weglänge"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "ħ→0-Grenzfall; Klassische Umkehrpunkte",
+      "question": "Was passiert im ħ→0-Grenzfall in der Quantenmechanik mit den klassischen Umkehrpunkten?",
+      "choices": [
+        "A: Es entstehen neue Umkehrpunkte.",
+        "B: Die Energie wird konstant.",
+        "C: Die Quantenmechanik wird unbestimmbar.",
+        "D: Die Quantenmechanik verhält sich wie die klassische Mechanik."
+      ],
+      "correct_answer": "D",
+      "explanation": "Im ħ→0-Grenzfall tritt eine Übereinstimmung zwischen der Quantenmechanik und der klassischen Mechanik auf. Das bedeutet, dass die quantenmechanischen Zustände und deren Energieverhältnisse den klassischen Umkehrpunkten entsprechen.",
+      "difficulty": 4,
+      "subcategory": "ħ→0-Grenzfall; Klassische Umkehrpunkte"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Ordnungs–Unordnungs-Übergang",
+      "question": "Was beschreibt der Übergang von einem geordneten zu einem ungeordneten Zustand in Festkörpern?",
+      "choices": [
+        "A: Sublimieren",
+        "B: Kristallisieren",
+        "C: Verdampfen",
+        "D: Schmelzen"
+      ],
+      "correct_answer": "D",
+      "explanation": "Der Übergang von einem geordneten zu einem ungeordneten Zustand in Festkörpern wird als Schmelzen bezeichnet. Dabei wird die feste Struktur aufgelöst und der Stoff geht in den flüssigen Aggregatzustand über.",
+      "difficulty": 1,
+      "subcategory": "Ordnungs–Unordnungs-Übergang"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Symmetrien und Erhaltungssätze",
+      "question": "Welcher der folgenden Erhaltungssätze gilt in der Teilchenphysik?",
+      "choices": [
+        "A: Erhaltung der Masse",
+        "B: Erhaltung der Energie",
+        "C: Erhaltung der Temperatur",
+        "D: Erhaltung der Geschwindigkeit"
+      ],
+      "correct_answer": "B",
+      "explanation": "In der Teilchenphysik ist die Erhaltung der Energie ein fundamentaler Erhaltungssatz, der in allen physikalischen Prozessen gilt. Die Erhaltung der Masse ist in der Relativitätstheorie nicht mehr gültig, da Masse und Energie miteinander verknüpft sind (E=mc²).",
+      "difficulty": 5,
+      "subcategory": "Symmetrien und Erhaltungssätze"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Lorentz-Transformation (Grundform)",
+      "question": "Welche der folgenden Gleichungen beschreibt die Lorentz-Transformation für die Zeitdilatation?",
+      "choices": [
+        "A: t' = t / √(1 - v²/c²)",
+        "B: t' = t - (v/c²) * x",
+        "C: t' = t * √(1 - v²/c²)",
+        "D: t' = t + (v/c²) * x"
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Lorentz-Transformation für die Zeitdilatation zeigt, dass die Zeit t' eines bewegten Objekts im Vergleich zur Zeit t eines ruhenden Objekts länger erscheint, wenn die Geschwindigkeit v des Objekts relativ zur Lichtgeschwindigkeit c betrachtet wird. Die richtige Formel ist t' = t / √(1 - v²/c²), was eine wichtige Konsequenz der Relativitätstheorie ist.",
+      "difficulty": 6,
+      "subcategory": "Lorentz-Transformation (Grundform)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Nichtresonante Hadronerzeugung (R‑Verhältnis)",
+      "question": "Was beschreibt das R-Verhältnis in der nichtresonanten Hadronerzeugung?",
+      "choices": [
+        "A: Die Wechselwirkung zwischen Hadronen und leichten Mesonen.",
+        "B: Die Wahrscheinlichkeit der Hadronisierung von Quarks zu Hadronen.",
+        "C: Die Energieverteilung der erzeugten Teilchen.",
+        "D: Das Verhältnis der erzeugten Hadronen zu den nicht-hadronischen Zuständen."
+      ],
+      "correct_answer": "D",
+      "explanation": "Das R-Verhältnis ist ein wichtiger Parameter zur Beschreibung der Beziehung zwischen der Anzahl der erzeugten Hadronen und der Anzahl der nicht-hadronischen Zustände in Hochenergieprozessen. Es ist entscheidend für das Verständnis der Dynamik der Hadronerzeugung und der zugrunde liegenden Quantenchromodynamik.",
+      "difficulty": 7,
+      "subcategory": "Nichtresonante Hadronerzeugung (R‑Verhältnis)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Wellengleichung der klassischen Mechanik (Hamilton–Jacobi ↔ eikonal)",
+      "question": "Welche Aussage beschreibt am besten den Zusammenhang zwischen der Hamilton–Jacobi-Gleichung und der Eikonal-Gleichung in der klassischen Mechanik?",
+      "choices": [
+        "A: Die Hamilton–Jacobi-Gleichung kann nicht auf die Eikonal-Gleichung angewendet werden.",
+        "B: Die Hamilton–Jacobi-Gleichung ist eine Methode zur Lösung der Eikonal-Gleichung, die die Ausbreitung von Wellen beschreibt.",
+        "C: Die Eikonal-Gleichung ist eine spezielle Form der Hamilton–Jacobi-Gleichung, die nur für harmonische Oszillatoren gilt.",
+        "D: Die Eikonal-Gleichung ist eine Formulierung der Hamilton–Jacobi-Gleichung für nichtlineare Systeme."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Hamilton–Jacobi-Gleichung ermöglicht es, die Probleme der klassischen Mechanik zu lösen, indem sie mit der Eikonal-Gleichung verknüpft wird, die die Ausbreitung von Wellen beschreibt. Diese Beziehung zeigt, wie sich die Bewegung von Teilchen in einer Wellenform darstellen lässt.",
+      "difficulty": 5,
+      "subcategory": "Wellengleichung der klassischen Mechanik (Hamilton–Jacobi ↔ eikonal)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Kern‑Formfaktoren",
+      "question": "Was beschreibt der Begriff 'Kernformfaktor' in der Kernphysik?",
+      "choices": [
+        "A: Die Verteilung der elektrischen Ladung im Atomkern.",
+        "B: Die Masse eines Kerns in Relation zu seiner Größe.",
+        "C: Die Stabilität des Atomkerns.",
+        "D: Die Anzahl der Protonen im Kern."
+      ],
+      "correct_answer": "A",
+      "explanation": "Der Kernformfaktor beschreibt, wie die elektrische Ladungsverteilung innerhalb des Atomkerns aussieht. Er ist wichtig, um die Wechselwirkungen zwischen Kernen und anderen Teilchen zu verstehen und spielt eine zentrale Rolle in Experimenten zur Kernstruktur.",
+      "difficulty": 1,
+      "subcategory": "Kern‑Formfaktoren"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Potential einer Punktladung, Multipolmomente",
+      "question": "Was beschreibt das elektrische Potential einer Punktladung in einem Abstand r von der Ladung?",
+      "choices": [
+        "A: V = k * Q / r",
+        "B: V = ε_0 * Q / r",
+        "C: V = k * Q * r",
+        "D: V = Q / (4 * π * ε_0 * r^2)"
+      ],
+      "correct_answer": "A",
+      "explanation": "Das elektrische Potential V einer Punktladung Q in einem Abstand r ist gegeben durch die Formel V = k * Q / r, wobei k die Coulomb-Konstante ist. Diese Beziehung zeigt, wie das Potential mit der Entfernung von der Ladung abnimmt.",
+      "difficulty": 4,
+      "subcategory": "Potential einer Punktladung, Multipolmomente"
+    }
+  ]
+}
