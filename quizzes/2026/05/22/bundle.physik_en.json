@@ -1,0 +1,168 @@
+{
+  "date": "2026-05-22",
+  "generated_at": "2026-05-22T04:30:50Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Wahrscheinlichkeitstheorie: Dichten & charakteristische Funktion",
+      "question": "What does the probability density describe in statistical mechanics?",
+      "choices": [
+        "A: The temperature of a system.",
+        "B: The velocity of a particle in a system.",
+        "C: The probability of finding a specific state.",
+        "D: The energy of a particle in a system."
+      ],
+      "correct_answer": "C",
+      "explanation": "The probability density indicates how likely it is for a system to be in a specific state. It is a central concept in statistical mechanics as it describes the distribution of particle states.",
+      "difficulty": 3,
+      "subcategory": "Wahrscheinlichkeitstheorie: Dichten & charakteristische Funktion"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Herleitung der Boltzmann-Gleichung",
+      "question": "Which assumption is fundamental for deriving the Boltzmann equation?",
+      "choices": [
+        "A: Particle interactions are negligible.",
+        "B: All particles are identical and indistinguishable.",
+        "C: The system is in thermodynamic equilibrium.",
+        "D: The total energy is constant."
+      ],
+      "correct_answer": "A",
+      "explanation": "The Boltzmann equation is based on the assumption that particles move independently of each other, allowing interactions to be neglected. This assumption enables the derivation of the equation describing statistical properties of particles in a gas.",
+      "difficulty": 6,
+      "subcategory": "Herleitung der Boltzmann-Gleichung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Wirkungs- und Winkelvariable (Action-Angle)",
+      "question": "What does the angular variable describe in the action-angle formulation of analytical mechanics?",
+      "choices": [
+        "A: The phase angle of a harmonic oscillator.",
+        "B: The energy of a system in classical mechanics.",
+        "C: The force acting on a body.",
+        "D: The time a body takes to complete a full motion."
+      ],
+      "correct_answer": "A",
+      "explanation": "In the action-angle formulation, the angular variable describes the phase angle of a harmonic oscillator characterizing the motion in phase space. This description is particularly useful for analyzing periodic systems in analytical mechanics.",
+      "difficulty": 5,
+      "subcategory": "Wirkungs- und Winkelvariable (Action-Angle)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Quanten-Hall-Effekt",
+      "question": "What does the quantum Hall effect describe in a two-dimensional electron system?",
+      "choices": [
+        "A: Generation of photons by electrons",
+        "B: Reflection of light on the surface of a solid",
+        "C: Quantization of Hall resistance",
+        "D: Heat conduction in metals"
+      ],
+      "correct_answer": "C",
+      "explanation": "The quantum Hall effect describes a phenomenon that occurs when electrons in a two-dimensional material exhibit quantized Hall resistances at extremely low temperatures and strong magnetic fields. This leads to precise quantization of resistance, which has important applications in metrology.",
+      "difficulty": 5,
+      "subcategory": "Quanten-Hall-Effekt"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Design und Herstellung von Objektiven",
+      "question": "Which of the following properties is crucial for minimizing chromatic aberration in lenses?",
+      "choices": [
+        "A: Use of different types of glass with varying refractive indices",
+        "B: Reducing the number of lenses in the system",
+        "C: Increasing the aperture size",
+        "D: Increasing the focal length"
+      ],
+      "correct_answer": "A",
+      "explanation": "Chromatic aberration arises from the differential refraction of light colors in a lens. The use of different types of glass with varying refractive indices allows for more effective color correction and thus minimizes aberration.",
+      "difficulty": 8,
+      "subcategory": "Design und Herstellung von Objektiven"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Perkolation: Phänomen, Theorie & Skalen",
+      "question": "What does the percolation phenomenon describe in statistical mechanics?",
+      "choices": [
+        "A: Quantum entanglement of particles.",
+        "B: Formation of connected structures in a network.",
+        "C: Energy transfer between molecules.",
+        "D: Movement of particles in a vacuum."
+      ],
+      "correct_answer": "B",
+      "explanation": "The percolation phenomenon describes how connected clusters can form in a randomly occupied network. It is crucial for understanding phase transitions and critical phenomena in statistical mechanics.",
+      "difficulty": 5,
+      "subcategory": "Perkolation: Phänomen, Theorie & Skalen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Maxwell–Boltzmann-Verteilung",
+      "question": "Which statement about the Maxwell–Boltzmann distribution is correct?",
+      "choices": [
+        "A: The Maxwell–Boltzmann distribution applies only to slow particles.",
+        "B: The Maxwell–Boltzmann distribution describes the velocity distribution of particles in an ideal gas.",
+        "C: The Maxwell–Boltzmann distribution describes the temperature distribution in a solid.",
+        "D: The Maxwell–Boltzmann distribution is applicable only in a vacuum."
+      ],
+      "correct_answer": "B",
+      "explanation": "The Maxwell–Boltzmann distribution describes how the velocities of particles are distributed in an ideal gas. It is a fundamental concept in statistical mechanics and shows that most particles have velocities close to the average, while only a few have very high or very low velocities.",
+      "difficulty": 5,
+      "subcategory": "Maxwell–Boltzmann-Verteilung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Korrespondenzprinzip (QM↔klassisch)",
+      "question": "Which of the following concepts describes the correspondence principle in quantum mechanics?",
+      "choices": [
+        "A: Quantum mechanical systems behave identically to classical systems under all conditions.",
+        "B: The correspondence principle states that all quantum mechanical effects also occur in classical mechanics.",
+        "C: The correspondence principle ensures that quantum phenomena always propagate at the speed of light.",
+        "D: In classical mechanics, the results are deterministic, while quantum mechanics provides probabilistic results."
+      ],
+      "correct_answer": "D",
+      "explanation": "The correspondence principle states that the results of quantum mechanics in the limit of high quantum numbers correspond to the predictions of classical mechanics. This allows for a transition from quantum to classical description when the systems are large enough or certain conditions are met.",
+      "difficulty": 9,
+      "subcategory": "Korrespondenzprinzip (QM↔klassisch)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Innere Reibung (Kontinuumsmechanik)",
+      "question": "What does internal friction in a material describe?",
+      "choices": [
+        "A: The resistance to the movement of particles within the material.",
+        "B: The influence of gravity on the material.",
+        "C: The material's ability to conduct electrical energy.",
+        "D: The temperature change of the material."
+      ],
+      "correct_answer": "A",
+      "explanation": "Internal friction, also known as viscosity, describes the resistance experienced by particles within a material when they move relative to each other. This property is crucial for understanding flow behavior in liquids and solid materials.",
+      "difficulty": 1,
+      "subcategory": "Innere Reibung (Kontinuumsmechanik)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Wirkungsprinzipien (Überblick)",
+      "question": "Which principle states that a system will move along the path of motion that minimizes the action?",
+      "choices": [
+        "A: Principle of conservation of momentum",
+        "B: Law of conservation of energy",
+        "C: Principle of least action",
+        "D: Newton's First Law"
+      ],
+      "correct_answer": "C",
+      "explanation": "The principle of least action, also known as Hamilton's principle, states that natural phenomena choose the path that minimizes the action. This principle is fundamental to analytical mechanics and connects various physical concepts.",
+      "difficulty": 3,
+      "subcategory": "Wirkungsprinzipien (Überblick)"
+    }
+  ]
+}

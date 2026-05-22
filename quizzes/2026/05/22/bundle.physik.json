@@ -1,0 +1,169 @@
+{
+  "date": "2026-05-22",
+  "generated_at": "2026-05-22T04:30:12Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Wahrscheinlichkeitstheorie: Dichten & charakteristische Funktion",
+      "question": "Was beschreibt die Wahrscheinlichkeitsdichte in der statistischen Mechanik?",
+      "choices": [
+        "A: Die Temperatur eines Systems.",
+        "B: Die Geschwindigkeit eines Teilchens in einem System.",
+        "C: Die Wahrscheinlichkeit, einen bestimmten Zustand zu finden.",
+        "D: Die Energie eines Teilchens in einem System."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Wahrscheinlichkeitsdichte gibt an, wie wahrscheinlich es ist, dass ein System in einem bestimmten Zustand ist. Sie ist ein zentrales Konzept in der statistischen Mechanik, da sie die Verteilung von Teilchenzuständen beschreibt.",
+      "difficulty": 3,
+      "subcategory": "Wahrscheinlichkeitstheorie: Dichten & charakteristische Funktion"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Herleitung der Boltzmann-Gleichung",
+      "question": "Welche Annahme ist grundlegend für die Herleitung der Boltzmann-Gleichung?",
+      "choices": [
+        "A: Teilcheninteraktionen sind vernachlässigbar.",
+        "B: Alle Teilchen sind identisch und nicht unterscheidbar.",
+        "C: Das System ist im thermodynamischen Gleichgewicht.",
+        "D: Die Gesamtenergie ist konstant."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Boltzmann-Gleichung basiert auf der Annahme, dass Teilchen sich unabhängig voneinander bewegen, wodurch Wechselwirkungen vernachlässigt werden können. Diese Annahme ermöglicht die Ableitung der Gleichung, die statistische Eigenschaften von Teilchen in einem Gas beschreibt.",
+      "difficulty": 6,
+      "subcategory": "Herleitung der Boltzmann-Gleichung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Wirkungs- und Winkelvariable (Action-Angle)",
+      "question": "Was beschreibt die Winkelvariable in der Action-Angle-Formulierung der analytischen Mechanik?",
+      "choices": [
+        "A: Den Phasenwinkel eines harmonischen Oszillators.",
+        "B: Die Energie eines Systems in der klassischen Mechanik.",
+        "C: Die Kraft, die auf einen Körper wirkt.",
+        "D: Die Zeit, die ein Körper benötigt, um eine vollständige Bewegung auszuführen."
+      ],
+      "correct_answer": "A",
+      "explanation": "In der Action-Angle-Formulierung beschreibt die Winkelvariable den Phasenwinkel eines harmonischen Oszillators, der die Bewegung im Phasenraum charakterisiert. Diese Beschreibung ist besonders nützlich für die Analyse von periodischen Systemen in der analytischen Mechanik.",
+      "difficulty": 5,
+      "subcategory": "Wirkungs- und Winkelvariable (Action-Angle)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Quanten-Hall-Effekt",
+      "question": "Was beschreibt der Quanten-Hall-Effekt in einem zweidimensionalen Elektronensystem?",
+      "choices": [
+        "A: Die Erzeugung von Photonen durch Elektronen",
+        "B: Die Reflexion von Licht an der Oberfläche eines Festkörpers",
+        "C: Die Quantisierung des Hall-Widerstands",
+        "D: Die Wärmeleitung in Metallen"
+      ],
+      "correct_answer": "C",
+      "explanation": "Der Quanten-Hall-Effekt beschreibt ein Phänomen, das auftritt, wenn Elektronen in einem zweidimensionalen Material bei extrem niedrigen Temperaturen und starken Magnetfeldern quantisierte Hall-Widerstände zeigen. Dies führt zu einer präzisen Quantisierung des Widerstands, die wichtige Anwendungen in der Messtechnik hat.",
+      "difficulty": 5,
+      "subcategory": "Quanten-Hall-Effekt"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Design und Herstellung von Objektiven",
+      "question": "Welche der folgenden Eigenschaften ist entscheidend für die Minimierung von chromatischer Aberration in Objektiven?",
+      "choices": [
+        "A: Verwendung von verschiedenen Glassorten mit unterschiedlichen Brechungsindices",
+        "B: Reduzierung der Anzahl der Linsen im System",
+        "C: Erhöhung der Blendenöffnung",
+        "D: Erhöhung der Brennweite"
+      ],
+      "correct_answer": "A",
+      "explanation": "Chromatische Aberration entsteht durch unterschiedliche Brechung von Lichtfarben in einem Objektiv. Die Verwendung von verschiedenen Glassorten mit unterschiedlichen Brechungsindices ermöglicht es, die Farben effektiver zu korrigieren und somit die Aberration zu minimieren.",
+      "difficulty": 8,
+      "subcategory": "Design und Herstellung von Objektiven"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Perkolation: Phänomen, Theorie & Skalen",
+      "question": "Was beschreibt das Perkolationsphänomen in der statistischen Mechanik?",
+      "choices": [
+        "A: Die Quantenverschränkung von Teilchen.",
+        "B: Die Bildung von zusammenhängenden Strukturen in einem Netzwerk.",
+        "C: Die Energieübertragung zwischen Molekülen.",
+        "D: Die Bewegung von Teilchen in einem Vakuum."
+      ],
+      "correct_answer": "B",
+      "explanation": "Das Perkolationsphänomen beschreibt, wie in einem zufällig besetzten Netzwerk zusammenhängende Cluster entstehen können. Es ist entscheidend für das Verständnis von Phasenübergängen und kritischen Phänomenen in der statistischen Mechanik.",
+      "difficulty": 5,
+      "subcategory": "Perkolation: Phänomen, Theorie & Skalen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Maxwell–Boltzmann-Verteilung",
+      "question": "Welche Aussage zur Maxwell–Boltzmann-Verteilung ist korrekt?",
+      "choices": [
+        "A: Die Maxwell–Boltzmann-Verteilung gilt nur für langsame Teilchen.",
+        "B: Die Maxwell–Boltzmann-Verteilung beschreibt die Geschwindigkeitsverteilung von Teilchen in einem idealen Gas.",
+        "C: Die Maxwell–Boltzmann-Verteilung beschreibt die Temperaturverteilung in einem Festkörper.",
+        "D: Die Maxwell–Boltzmann-Verteilung ist nur in einem Vakuum anwendbar."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Maxwell–Boltzmann-Verteilung beschreibt, wie die Geschwindigkeiten der Teilchen in einem idealen Gas verteilt sind. Sie ist ein fundamentales Konzept der statistischen Mechanik und zeigt, dass die meisten Teilchen Geschwindigkeiten nahe dem Durchschnitt haben, während nur wenige sehr hohe oder sehr niedrige Geschwindigkeiten aufweisen.",
+      "difficulty": 5,
+      "subcategory": "Maxwell–Boltzmann-Verteilung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Korrespondenzprinzip (QM↔klassisch)",
+      "question": "Welches der folgenden Konzepte beschreibt das Korrespondenzprinzip in der Quantenmechanik?",
+      "choices": [
+        "A: Quantenmechanische Systeme verhalten sich identisch zu klassischen Systemen unter allen Bedingungen.",
+        "B: Das Korrespondenzprinzip besagt, dass alle quantenmechanischen Effekte auch in der klassischen Mechanik auftreten.",
+        "C: Das Korrespondenzprinzip stellt sicher, dass Quantenphänomene immer mit Lichtgeschwindigkeit propagieren.",
+        "D: In der klassischen Mechanik sind die Ergebnisse deterministisch, während die Quantenmechanik probabilistische Ergebnisse liefert."
+      ],
+      "correct_answer": "D",
+      "explanation": "Das Korrespondenzprinzip besagt, dass die Ergebnisse der Quantenmechanik im Grenzfall hoher Quantenzahlen den Vorhersagen der klassischen Mechanik entsprechen. Damit wird ein Übergang von der Quanten- zur klassischen Beschreibung ermöglicht, wenn die Systeme groß genug sind oder bestimmte Bedingungen erfüllt sind.",
+      "difficulty": 9,
+      "subcategory": "Korrespondenzprinzip (QM↔klassisch)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Innere Reibung (Kontinuumsmechanik)",
+      "question": "Was beschreibt die innere Reibung in einem Material?",
+      "choices": [
+        "A: Den Widerstand gegen die Bewegung von Teilchen innerhalb des Materials.",
+        "B: Den Einfluss der Schwerkraft auf das Material.",
+        "C: Die Fähigkeit des Materials, elektrische Energie zu leiten.",
+        "D: Die Temperaturänderung des Materials."
+      ],
+      "correct_answer": "A",
+      "explanation": "Innere Reibung, auch als Viskosität bekannt, beschreibt den Widerstand, den Teilchen innerhalb eines Materials erfahren, wenn sie sich relativ zueinander bewegen. Diese Eigenschaft ist entscheidend für das Verständnis von Fließverhalten in Flüssigkeiten und festen Stoffen.",
+      "difficulty": 1,
+      "subcategory": "Innere Reibung (Kontinuumsmechanik)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Wirkungsprinzipien (Überblick)",
+      "question": "Welches Prinzip besagt, dass sich ein System entlang der Bahnbewegung bewegen wird, die die Wirkung minimiert?",
+      "choices": [
+        "A: Prinzip der Impulserhaltung",
+        "B: Gesetz der Erhaltung der Energie",
+        "C: Prinzip der kleinsten Wirkung",
+        "D: Newtons Erstes Gesetz"
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Prinzip der kleinsten Wirkung, auch als Hamiltonsches Prinzip bekannt, besagt, dass die Naturerscheinungen den Pfad wählen, der die Wirkung minimiert. Dieses Prinzip ist grundlegend für die analytische Mechanik und verbindet verschiedene physikalische Konzepte miteinander.",
+      "difficulty": 3,
+      "subcategory": "Wirkungsprinzipien (Überblick)"
+    }
+  ]
+}
