@@ -1,0 +1,169 @@
+{
+  "date": "2026-05-23",
+  "generated_at": "2026-05-23T04:19:08Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Zeitabhängige (Dirac’sche) Störungstheorie: Grundgedanken",
+      "question": "Welche Aussage beschreibt am besten die zeitabhängige Störungstheorie in der Quantenmechanik?",
+      "choices": [
+        "A: Sie ist ausschließlich auf stationäre Zustände anwendbar und ignoriert zeitliche Veränderungen.",
+        "B: Sie führt zu deterministischen Vorhersagen der Teilchenpositionen zu jedem Zeitpunkt.",
+        "C: Sie beschreibt die Bewegung von Teilchen in einer klassischen Bahn unter Einfluss von Störungen.",
+        "D: Sie ermöglicht die Berechnung von Übergangswahrscheinlichkeiten zwischen Zuständen durch die Berücksichtigung kleiner Störungen."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die zeitabhängige Störungstheorie von Dirac ermöglicht es, die Auswirkungen kleiner Störungen auf quantenmechanische Systeme zu berechnen, insbesondere die Übergangswahrscheinlichkeiten zwischen verschiedenen Zuständen. Sie berücksichtigt dabei die zeitliche Entwicklung der Systeme und ist daher nicht auf stationäre Zustände beschränkt.",
+      "difficulty": 6,
+      "subcategory": "Zeitabhängige (Dirac’sche) Störungstheorie: Grundgedanken"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Virialentwicklung & 2. Virialkoeffizient (klass./quant.)",
+      "question": "Was beschreibt der zweite Virialkoeffizient in der statistischen Mechanik?",
+      "choices": [
+        "A: Die Wechselwirkungen zwischen zwei Teilchen.",
+        "B: Die Gesamtenergie eines Systems.",
+        "C: Die Geschwindigkeit eines Teilchens.",
+        "D: Die Temperatur eines Systems."
+      ],
+      "correct_answer": "A",
+      "explanation": "Der zweite Virialkoeffizient beschreibt die Wechselwirkungen zwischen Teilchen in einem gasförmigen Zustand und ist wichtig für das Verständnis der Zustandsgleichung von Gasen. Er gibt an, wie sich die Anziehung und Abstoßung zwischen Molekülen auf das Volumen und den Druck eines idealen Gases auswirken.",
+      "difficulty": 1,
+      "subcategory": "Virialentwicklung & 2. Virialkoeffizient (klass./quant.)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Doppelspaltexperiment (Materiewellen)",
+      "question": "Was zeigt das Doppelspaltexperiment mit Elektronen?",
+      "choices": [
+        "A: Elektronen verhalten sich sowohl wie Teilchen als auch wie Wellen.",
+        "B: Elektronen können nicht durch zwei Spalte gleichzeitig gehen.",
+        "C: Die Bahn eines Elektrons kann genau vorhergesagt werden.",
+        "D: Elektronen haben keine Masse."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Doppelspaltexperiment demonstriert das duale Verhalten von Elektronen, indem sie sowohl Wellen- als auch Teilchencharakteristika zeigen. Wenn Elektronen durch zwei Spalte geschickt werden, interferieren sie wie Wellen und erzeugen ein Interferenzmuster auf einem Detektor.",
+      "difficulty": 2,
+      "subcategory": "Doppelspaltexperiment (Materiewellen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Kugelfall-Viskosimeter; Stokes-Gesetz",
+      "question": "Welcher der folgenden Faktoren hat keinen Einfluss auf die Fallgeschwindigkeit einer Kugel in einer viskosen Flüssigkeit gemäß dem Stokes-Gesetz?",
+      "choices": [
+        "A: Die Farbe der Kugel",
+        "B: Die Dichte der Kugel",
+        "C: Die Temperatur der Flüssigkeit",
+        "D: Der Durchmesser der Kugel"
+      ],
+      "correct_answer": "A",
+      "explanation": "Laut dem Stokes-Gesetz ist die Fallgeschwindigkeit einer Kugel in einer viskosen Flüssigkeit abhängig von ihrem Durchmesser, ihrer Dichte und der Viskosität der Flüssigkeit, die durch Temperaturänderungen beeinflusst wird. Die Farbe der Kugel hat jedoch keinen Einfluss auf die Fallgeschwindigkeit oder die Strömungsbedingungen in der Flüssigkeit.",
+      "difficulty": 9,
+      "subcategory": "Kugelfall-Viskosimeter; Stokes-Gesetz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Phonon-Thermodynamik (Debye u. a.)",
+      "question": "Was beschreibt das Debye-Modell in der Phonon-Thermodynamik?",
+      "choices": [
+        "A: Die Bewegung von Elektronen in Halbleitern.",
+        "B: Die Ausbreitung von elektromagnetischen Wellen.",
+        "C: Die spezifische Wärme von festen Körpern bei tiefen Temperaturen.",
+        "D: Die Relativität der Zeit bei hohen Geschwindigkeiten."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Debye-Modell beschreibt die spezifische Wärme von Festkörpern, insbesondere bei tiefen Temperaturen, indem es die quantisierte Schwingungen von Atomen (Phononen) berücksichtigt. Es hilft zu erklären, warum die spezifische Wärme bei tiefen Temperaturen abnimmt.",
+      "difficulty": 2,
+      "subcategory": "Phonon-Thermodynamik (Debye u. a.)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Klassische Ensembles: Phasenraum & Verteilungsfunktion",
+      "question": "Welches der folgenden Konzepte beschreibt die Verteilung der Teilchen im Phasenraum eines klassischen Ensembles?",
+      "choices": [
+        "A: Das Huygens-Prinzip",
+        "B: Das Pauli-Prinzip",
+        "C: Der Schrödinger-Ansatz",
+        "D: Die Boltzmann-Verteilung"
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Boltzmann-Verteilung ist eine zentrale Beziehung in der statistischen Mechanik, die beschreibt, wie sich Teilchen in einem System über verschiedene Energiezustände im Phasenraum verteilen. Sie ist entscheidend für das Verständnis von Temperaturen und thermischen Gleichgewichtszuständen in klassischen Ensembles.",
+      "difficulty": 6,
+      "subcategory": "Klassische Ensembles: Phasenraum & Verteilungsfunktion"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Quasiklassische Näherung (WKB)",
+      "question": "Was beschreibt die quasiklassische Näherung (WKB) in der Quantenmechanik?",
+      "choices": [
+        "A: Sie behandelt die Bewegung von Teilchen in einem Vakuum.",
+        "B: Sie beschreibt die Wechselwirkung von Licht und Materie.",
+        "C: Sie approximiert die Lösung von Schrödingers Gleichung für langsame Änderungen.",
+        "D: Sie erklärt die Relativität von Zeit und Raum."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die quasiklassische Näherung (WKB) ist eine Methode zur Lösung der Schrödinger-Gleichung, die besonders nützlich ist, wenn die Potenzialänderungen langsam sind. Sie ermöglicht es, quantenmechanische Probleme mit klassischen Konzepten zu verbinden, wodurch die Analyse vereinfacht wird.",
+      "difficulty": 1,
+      "subcategory": "Quasiklassische Näherung (WKB)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Fresnel vs. Fraunhofer (Übergangsbedingungen)",
+      "question": "Was beschreibt der Unterschied zwischen Fresnel- und Fraunhofer-Diffraction?",
+      "choices": [
+        "A: Fresnel-Diffraction tritt bei nahegelegenen Lichtquellen auf, während Fraunhofer-Diffraction bei weit entfernten Lichtquellen auftritt.",
+        "B: Fresnel-Diffraction ist immer intensiver als Fraunhofer-Diffraction.",
+        "C: Fraunhofer-Diffraction kann nur bei monochromatischem Licht beobachtet werden.",
+        "D: Fresnel-Diffraction hat keine praktischen Anwendungen."
+      ],
+      "correct_answer": "A",
+      "explanation": "Der Hauptunterschied zwischen Fresnel- und Fraunhofer-Diffraction liegt in der Entfernung der Lichtquelle zur Obstruktion. Fresnel-Diffraction tritt auf, wenn die Lichtquelle relativ nah ist, während Fraunhofer-Diffraction für weit entfernte Lichtquellen gilt, was die Analyse vereinfacht.",
+      "difficulty": 2,
+      "subcategory": "Fresnel vs. Fraunhofer (Übergangsbedingungen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Austausch im freien Elektronengas",
+      "question": "Was beschreibt das Modell des freien Elektronengases in einem Metall?",
+      "choices": [
+        "A: Elektronen sind vollständig lokalisiert und unbeweglich.",
+        "B: Elektronen können sich nur in einer festen Bahn bewegen.",
+        "C: Elektronen bewegen sich unabhängig und zufällig im Kristallgitter.",
+        "D: Elektronen sind fest an die Atomkerne gebunden."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Modell des freien Elektronengases beschreibt, dass Elektronen in einem Metall sich unabhängig und zufällig bewegen können, ohne an die Atomkerne gebunden zu sein. Diese Mobilität ist entscheidend für die elektrischen Eigenschaften von Metallen.",
+      "difficulty": 3,
+      "subcategory": "Austausch im freien Elektronengas"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Experimentelle Dispersionskurven",
+      "question": "Was beschreibt eine Dispersionskurve in der Festkörperphysik?",
+      "choices": [
+        "A: Die Temperaturabhängigkeit des elektrischen Widerstands.",
+        "B: Die Struktur von Kristallgittern.",
+        "C: Die chemischen Eigenschaften von Metallen.",
+        "D: Die Beziehung zwischen Frequenz und Wellenzahl von Phononen."
+      ],
+      "correct_answer": "D",
+      "explanation": "Eine Dispersionskurve in der Festkörperphysik zeigt, wie die Frequenz von Schwingungen (z.B. Phononen) in einem Material von der Wellenzahl abhängt. Diese Kurven sind entscheidend für das Verständnis der dynamischen Eigenschaften von Festkörpern und deren Interaktionen.",
+      "difficulty": 3,
+      "subcategory": "Experimentelle Dispersionskurven"
+    }
+  ]
+}
