@@ -1,0 +1,168 @@
+{
+  "date": "2026-05-24",
+  "generated_at": "2026-05-24T04:31:05Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Møller-Operatoren & Streuoperator",
+      "question": "What does the Møller operator describe in quantum mechanics?",
+      "choices": [
+        "A: The conservation of energy in closed systems.",
+        "B: The state of a particle in classical mechanics.",
+        "C: The interaction between particles and fields.",
+        "D: The time evolution of a quantum mechanical system."
+      ],
+      "correct_answer": "C",
+      "explanation": "The Møller operator describes the asymptotic interaction between particles in quantum mechanics, especially during scattering processes. It is used to analyze the transition from non-interacting to interacting states.",
+      "difficulty": 3,
+      "subcategory": "Møller-Operatoren & Streuoperator"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Ideales Gas (Zustandsgleichung)",
+      "question": "Which of the following statements about the equation of state of an ideal gas is correct?",
+      "choices": [
+        "A: The equation of state also includes interactions between gas molecules.",
+        "B: The equation of state applies only to real gases at high pressures.",
+        "C: The equation of state describes the relationship between pressure, volume, and temperature of a gas, with the number of molecules remaining constant.",
+        "D: The equation of state is independent of the temperature of the gas."
+      ],
+      "correct_answer": "C",
+      "explanation": "The equation of state of an ideal gas, pV = nRT, describes the behavior of the gas in terms of pressure (p), volume (V), and temperature (T) with a constant number of molecules (n). This relationship is fundamental to thermodynamics and holds under idealized conditions, not at extreme pressures or temperatures.",
+      "difficulty": 7,
+      "subcategory": "Ideales Gas (Zustandsgleichung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Längenkontraktion",
+      "question": "What does the phenomenon of length contraction describe in the theory of relativity?",
+      "choices": [
+        "A: Objects become heavier when they move quickly.",
+        "B: Objects appear shorter when moving relative to an observer at high speed.",
+        "C: Light sources emit less light when moving quickly.",
+        "D: Time passes more slowly for objects in motion."
+      ],
+      "correct_answer": "B",
+      "explanation": "Length contraction states that moving objects appear shorter to a stationary observer. This phenomenon occurs when the velocity of the object reaches a significant fraction of the speed of light.",
+      "difficulty": 3,
+      "subcategory": "Längenkontraktion"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Homogenitätsrelationen (Euler/Gibbs-Duhem)",
+      "question": "Which of the following statements correctly describes the Euler homogeneity relation?",
+      "choices": [
+        "A: The state functions of a thermodynamic quantity are homogeneous of degree one.",
+        "B: The entropy of a system is always constant.",
+        "C: The internal energy is independent of the volume of a system.",
+        "D: The pressure of an ideal gas does not depend on the temperature."
+      ],
+      "correct_answer": "A",
+      "explanation": "The Euler homogeneity relation states that a homogeneous function of degree one can be represented by its variables. This means that the state functions of thermodynamic variables are proportional to their state quantities.",
+      "difficulty": 5,
+      "subcategory": "Homogenitätsrelationen (Euler/Gibbs-Duhem)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Semileptonische Baryon‑Zerfälle",
+      "question": "Which of the following particles is typically produced in a semileptonic decay of a baryon?",
+      "choices": [
+        "A: Neutron",
+        "B: Proton",
+        "C: Electron",
+        "D: Positron"
+      ],
+      "correct_answer": "C",
+      "explanation": "In semileptonic decays of a baryon, a leptonic particle, often an electron or a neutrino, is produced. These decays are characterized by the simultaneous emission of a baryon and a lepton, distinguishing them from other decay modes.",
+      "difficulty": 6,
+      "subcategory": "Semileptonische Baryon‑Zerfälle"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Elektrische Dipolstrahlung",
+      "question": "What does electric dipole radiation describe?",
+      "choices": [
+        "A: Radiation that only occurs at high temperatures.",
+        "B: Radiation emitted by an accelerating electric dipole.",
+        "C: Radiation generated by a magnetic dipole.",
+        "D: Radiation emitted by a stationary electric dipole."
+      ],
+      "correct_answer": "B",
+      "explanation": "Electric dipole radiation occurs when an electric dipole, a system of two opposite electric charges, is accelerated. This acceleration leads to the emission of electromagnetic waves that can be perceived as radiation.",
+      "difficulty": 5,
+      "subcategory": "Elektrische Dipolstrahlung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Geometrische Interpretation von Phasenübergängen",
+      "question": "Which of the following statements correctly describes the geometric interpretation of a phase transition in a p-V diagram?",
+      "choices": [
+        "A: A phase transition is represented by a vertical line that keeps the pressure constant.",
+        "B: A phase transition is represented by a curve showing the relationship between temperature and pressure.",
+        "C: A phase transition is represented by a point where the temperature and pressure are constant.",
+        "D: A phase transition is represented by a horizontal line that keeps the volume constant."
+      ],
+      "correct_answer": "C",
+      "explanation": "In a p-V diagram, the phase transition represents a state where temperature and pressure are constant, leading to a point where the phases coexist. This geometric interpretation is crucial for understanding phase diagrams and critical points.",
+      "difficulty": 8,
+      "subcategory": "Geometrische Interpretation von Phasenübergängen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Mott‑Wirkungsquerschnitt",
+      "question": "What does the Mott cross section describe in particle physics?",
+      "choices": [
+        "A: The scattering probability of electrons on atomic nuclei considering spin polarization.",
+        "B: The energy distribution of photons in an electromagnetic field.",
+        "C: The interaction between electrons and the electromagnetic fields of molecules.",
+        "D: The temperature dependence of the specific heat capacity of matter."
+      ],
+      "correct_answer": "A",
+      "explanation": "The Mott cross section describes the quantum mechanical scattering probability of electrons on atomic nuclei, taking into account effects such as spin polarization. It is particularly important for experiments investigating the structure of nuclei and plays a central role in high-energy physics.",
+      "difficulty": 9,
+      "subcategory": "Mott‑Wirkungsquerschnitt"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Fourier-Entwicklung von Punktgittern",
+      "question": "What does the Fourier development of a lattice in solid-state physics describe?",
+      "choices": [
+        "A: The examination of crystal structures under extreme conditions.",
+        "B: The decomposition of a periodic function into sinusoidal components.",
+        "C: The analysis of the thermal expansion of solids.",
+        "D: The calculation of the electrical conductivity of materials."
+      ],
+      "correct_answer": "B",
+      "explanation": "The Fourier development of a lattice allows for decomposing a periodic function into its sinusoidal components. This is particularly important for understanding the properties of solids and their wave functions.",
+      "difficulty": 4,
+      "subcategory": "Fourier-Entwicklung von Punktgittern"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Kritische Exponenten",
+      "question": "Which critical exponent typically describes the behavior of specific heat near the critical point of a phase transition?",
+      "choices": [
+        "A: β (Beta)",
+        "B: α (Alpha)",
+        "C: δ (Delta)",
+        "D: γ (Gamma)"
+      ],
+      "correct_answer": "B",
+      "explanation": "The critical exponent α describes the behavior of specific heat at a critical point where thermal conductivity diverges. This exponent is crucial for understanding the thermodynamic properties of materials during a phase transition.",
+      "difficulty": 9,
+      "subcategory": "Kritische Exponenten"
+    }
+  ]
+}

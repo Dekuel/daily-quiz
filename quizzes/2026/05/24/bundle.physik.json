@@ -1,0 +1,169 @@
+{
+  "date": "2026-05-24",
+  "generated_at": "2026-05-24T04:30:25Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Møller-Operatoren & Streuoperator",
+      "question": "Was beschreibt der Møller-Operator in der Quantenmechanik?",
+      "choices": [
+        "A: Die Energieerhaltung in geschlossenen Systemen.",
+        "B: Den Zustand eines Teilchens in der klassischen Mechanik.",
+        "C: Die Wechselwirkung zwischen Teilchen und Feldern.",
+        "D: Die Zeitentwicklung eines quantenmechanischen Systems."
+      ],
+      "correct_answer": "C",
+      "explanation": "Der Møller-Operator beschreibt die asymptotische Wechselwirkung zwischen Teilchen in der Quantenmechanik, insbesondere während Streuprozessen. Er wird verwendet, um den Übergang von nicht wechselwirkenden zu wechselwirkenden Zuständen zu analysieren.",
+      "difficulty": 3,
+      "subcategory": "Møller-Operatoren & Streuoperator"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Ideales Gas (Zustandsgleichung)",
+      "question": "Welche der folgenden Aussagen zur Zustandsgleichung eines idealen Gases ist korrekt?",
+      "choices": [
+        "A: Die Zustandsgleichung beinhaltet auch die Wechselwirkungen zwischen den Gasmolekülen.",
+        "B: Die Zustandsgleichung gilt nur für reale Gase bei hohen Drücken.",
+        "C: Die Zustandsgleichung beschreibt das Verhältnis zwischen Druck, Volumen und Temperatur eines Gases, wobei die Anzahl der Moleküle konstant bleibt.",
+        "D: Die Zustandsgleichung ist unabhängig von der Temperatur des Gases."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Zustandsgleichung eines idealen Gases, pV = nRT, beschreibt das Verhalten des Gases in Bezug auf Druck (p), Volumen (V) und Temperatur (T) mit einer konstanten Anzahl von Molekülen (n). Diese Beziehung ist grundlegend für die Thermodynamik und gilt unter idealisierten Bedingungen, nicht unter extremen Drücken oder Temperaturen.",
+      "difficulty": 7,
+      "subcategory": "Ideales Gas (Zustandsgleichung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Längenkontraktion",
+      "question": "Was beschreibt das Phänomen der Längenkontraktion in der Relativitätstheorie?",
+      "choices": [
+        "A: Objekte werden schwerer, wenn sie sich schnell bewegen.",
+        "B: Objekte erscheinen kürzer, wenn sie sich relativ zu einem Beobachter mit hoher Geschwindigkeit bewegen.",
+        "C: Lichtquellen senden weniger Licht aus, wenn sie sich schnell bewegen.",
+        "D: Die Zeit vergeht langsamer für Objekte in Bewegung."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Längenkontraktion besagt, dass sich bewegende Objekte von einem ruhenden Beobachter aus kürzer erscheinen. Dieses Phänomen tritt auf, wenn die Geschwindigkeit des Objekts einen signifikanten Bruchteil der Lichtgeschwindigkeit erreicht.",
+      "difficulty": 3,
+      "subcategory": "Längenkontraktion"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Homogenitätsrelationen (Euler/Gibbs-Duhem)",
+      "question": "Welche der folgenden Aussagen beschreibt die Euler-Homogenitätsrelation korrekt?",
+      "choices": [
+        "A: Die Zustandsfunktionen einer thermodynamischen Größe sind homogen vom Grad eins.",
+        "B: Die Entropie eines Systems ist immer konstant.",
+        "C: Die innere Energie ist unabhängig vom Volumen eines Systems.",
+        "D: Der Druck eines idealen Gases hängt nicht von der Temperatur ab."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Euler-Homogenitätsrelation besagt, dass eine homogene Funktion vom Grad eins durch ihre Variablen dargestellt werden kann. Dies bedeutet, dass die Zustandsfunktionen von thermodynamischen Variablen in Bezug auf ihre Zustandsgrößen proportional sind.",
+      "difficulty": 5,
+      "subcategory": "Homogenitätsrelationen (Euler/Gibbs-Duhem)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Semileptonische Baryon‑Zerfälle",
+      "question": "Welches der folgenden Teilchen wird typischerweise in einem semileptonischen Zerfall eines Baryons erzeugt?",
+      "choices": [
+        "A: Neutron",
+        "B: Proton",
+        "C: Elektron",
+        "D: Positron"
+      ],
+      "correct_answer": "C",
+      "explanation": "In semileptonischen Zerfällen eines Baryons wird ein leptonisches Teilchen, oft ein Elektron oder ein Neutrino, erzeugt. Diese Zerfälle sind charakterisiert durch den gleichzeitigen Ausstoß eines Baryons und eines Leptonen, was sie von anderen Zerfallsarten unterscheidet.",
+      "difficulty": 6,
+      "subcategory": "Semileptonische Baryon‑Zerfälle"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Elektrische Dipolstrahlung",
+      "question": "Was beschreibt die elektrische Dipolstrahlung?",
+      "choices": [
+        "A: Die Strahlung, die nur bei hohen Temperaturen auftritt.",
+        "B: Die Strahlung, die von einem sich beschleunigenden elektrischen Dipol ausgeht.",
+        "C: Die Strahlung, die von einem magnetischen Dipol erzeugt wird.",
+        "D: Die Strahlung, die von einem stationären elektrischen Dipol ausgeht."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die elektrische Dipolstrahlung entsteht, wenn ein elektrischer Dipol, also ein System aus zwei entgegengesetzten elektrischen Ladungen, beschleunigt wird. Diese Beschleunigung führt zur Emission von elektromagnetischen Wellen, die als Strahlung wahrgenommen werden können.",
+      "difficulty": 5,
+      "subcategory": "Elektrische Dipolstrahlung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Geometrische Interpretation von Phasenübergängen",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt die geometrische Interpretation eines Phasenübergangs im p-V-Diagramm?",
+      "choices": [
+        "A: Ein Phasenübergang wird durch eine vertikale Linie dargestellt, die den Druck konstant hält.",
+        "B: Ein Phasenübergang wird durch eine Kurve dargestellt, die die Beziehung zwischen Temperatur und Druck zeigt.",
+        "C: Ein Phasenübergang wird durch einen Punkt dargestellt, an dem die Temperatur und der Druck konstant sind.",
+        "D: Ein Phasenübergang wird durch eine horizontale Linie dargestellt, die das Volumen konstant hält."
+      ],
+      "correct_answer": "C",
+      "explanation": "Im p-V-Diagramm repräsentiert der Phasenübergang einen Zustand, in dem Temperatur und Druck konstant sind, was zu einem Punkt führt, an dem die Phasen koexistieren. Diese geometrische Interpretation ist entscheidend für das Verständnis von Phasendiagrammen und kritischen Punkten.",
+      "difficulty": 8,
+      "subcategory": "Geometrische Interpretation von Phasenübergängen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Mott‑Wirkungsquerschnitt",
+      "question": "Was beschreibt der Mott-Wirkungsquerschnitt in der Teilchenphysik?",
+      "choices": [
+        "A: Die Streuwahrscheinlichkeit von Elektronen an Atomkernen unter Berücksichtigung der Spin-Polarisation.",
+        "B: Die Energieverteilung von Photonen in einem elektromagnetischen Feld.",
+        "C: Die Wechselwirkung zwischen Elektronen und den elektromagnetischen Feldern von Molekülen.",
+        "D: Die Temperaturabhängigkeit der spezifischen Wärmekapazität von Materie."
+      ],
+      "correct_answer": "A",
+      "explanation": "Der Mott-Wirkungsquerschnitt beschreibt die quantenmechanische Streuwahrscheinlichkeit von Elektronen an Atomkernen und berücksichtigt dabei Effekte wie die Spin-Polarisation. Er ist besonders wichtig für Experimente, die die Struktur von Kernen untersuchen und spielt eine zentrale Rolle in der Hochenergiephysik.",
+      "difficulty": 9,
+      "subcategory": "Mott‑Wirkungsquerschnitt"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Fourier-Entwicklung von Punktgittern",
+      "question": "Was beschreibt die Fourier-Entwicklung eines Punktgitters in der Festkörperphysik?",
+      "choices": [
+        "A: Die Untersuchung der Kristallstrukturen unter extremen Bedingungen.",
+        "B: Die Zerlegung einer periodischen Funktion in sinusförmige Komponenten.",
+        "C: Die Analyse der thermischen Ausdehnung von Festkörpern.",
+        "D: Die Berechnung der elektrischen Leitfähigkeit von Materialien."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Fourier-Entwicklung eines Punktgitters ermöglicht es, eine periodische Funktion in ihre sinusförmigen Bestandteile zu zerlegen. Dies ist besonders wichtig, um die Eigenschaften von Festkörpern und deren Wellenfunktionen zu verstehen.",
+      "difficulty": 4,
+      "subcategory": "Fourier-Entwicklung von Punktgittern"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Kritische Exponenten",
+      "question": "Welcher kritische Exponent beschreibt in der Regel das Verhalten der spezifischen Wärme nahe dem kritischen Punkt eines Phasenübergangs?",
+      "choices": [
+        "A: β (Beta)",
+        "B: α (Alpha)",
+        "C: δ (Delta)",
+        "D: γ (Gamma)"
+      ],
+      "correct_answer": "B",
+      "explanation": "Der kritische Exponent α beschreibt das Verhalten der spezifischen Wärme an einem kritischen Punkt, wo die Wärmeleitfähigkeit divergiert. Dieser Exponent ist entscheidend für das Verständnis der thermodynamischen Eigenschaften von Materialien während eines Phasenübergangs.",
+      "difficulty": 9,
+      "subcategory": "Kritische Exponenten"
+    }
+  ]
+}
