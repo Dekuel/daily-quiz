@@ -1,0 +1,168 @@
+{
+  "date": "2026-05-25",
+  "generated_at": "2026-05-25T04:33:26Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Hookesches Gesetz",
+      "question": "What does Hooke's Law state?",
+      "choices": [
+        "A: The energy of a system always remains constant.",
+        "B: The velocity of a body remains constant as long as no force acts on it.",
+        "C: The pressure in a gas is directly proportional to its temperature.",
+        "D: The deformation of an elastic body is proportional to the force acting on it."
+      ],
+      "correct_answer": "D",
+      "explanation": "Hooke's Law describes the behavior of elastic materials that deform under an applied force. It states that the extension or compression of a material is proportional to the applied force, as long as the elastic limit is not exceeded.",
+      "difficulty": 5,
+      "subcategory": "Hookesches Gesetz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Hamilton–Jacobi-Gleichung (HJ)",
+      "question": "What does the Hamilton-Jacobi equation describe in analytical mechanics?",
+      "choices": [
+        "A: The evolution of a system over time.",
+        "B: Determining the equations of motion for a system.",
+        "C: The connection between classical and quantum mechanical systems.",
+        "D: The relationship between energy and the position of a particle."
+      ],
+      "correct_answer": "B",
+      "explanation": "The Hamilton-Jacobi equation is a fundamental equation in analytical mechanics that allows deriving the equations of motion of a system. It represents a transition between Hamiltonian formulation and classical mechanics.",
+      "difficulty": 4,
+      "subcategory": "Hamilton–Jacobi-Gleichung (HJ)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Austausch im freien Elektronengas",
+      "question": "What does the concept of free electron gas in solids describe?",
+      "choices": [
+        "A: The interactions between electrons in an insulator.",
+        "B: The bonding between electrons and atomic nuclei.",
+        "C: The stability of electrons in a semiconductor.",
+        "D: The mobility of electrons that can move independently of atoms."
+      ],
+      "correct_answer": "D",
+      "explanation": "The free electron gas model describes the motion of electrons in a solid, where they are considered as free particles moving independently of the atomic nuclei. This concept helps explain the electrical properties of metals.",
+      "difficulty": 5,
+      "subcategory": "Austausch im freien Elektronengas"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Maxwell–Boltzmann-Verteilung",
+      "question": "Which of the following statements correctly describes the Maxwell-Boltzmann distribution for particles in an ideal gas?",
+      "choices": [
+        "A: The distribution indicates the probability that particles have a certain velocity based on their temperature and mass.",
+        "B: The Maxwell-Boltzmann distribution is always symmetric around the average velocity of the particles.",
+        "C: The distribution is independent of the system's temperature and only applies to perfect crystals.",
+        "D: The distribution exclusively describes the movements of particles in a solid."
+      ],
+      "correct_answer": "A",
+      "explanation": "The Maxwell-Boltzmann distribution describes how the velocities of particles in an ideal gas are distributed at a given temperature and mass. It is crucial for understanding the thermal properties of gases and shows that higher temperatures lead to a broader distribution of velocities.",
+      "difficulty": 8,
+      "subcategory": "Maxwell–Boltzmann-Verteilung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Charmonium",
+      "question": "What is Charmonium?",
+      "choices": [
+        "A: A particle composed of a proton and a neutron.",
+        "B: A bound system of a charm quark and a charm antiquark.",
+        "C: A state of matter at extremely high temperatures.",
+        "D: A type of neutron found in nuclear physics."
+      ],
+      "correct_answer": "B",
+      "explanation": "Charmonium is a meson composed of a charm quark and its antiquark, the charm antiquark. It is an important object in particle physics used to study quark structure and strong interactions.",
+      "difficulty": 5,
+      "subcategory": "Charmonium"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Spannung & Verformung",
+      "question": "Which of the following statements best describes the relationship between stress and strain in an elastic material?",
+      "choices": [
+        "A: Stress is always directly proportional to strain as long as the elastic limit is not exceeded.",
+        "B: Stress and strain are independent of each other and do not influence one another.",
+        "C: Strain remains constant regardless of the applied stress.",
+        "D: The relationship between stress and strain is only linear in plastic materials."
+      ],
+      "correct_answer": "A",
+      "explanation": "In the elastic range of a material, Hooke's Law applies, stating that stress is directly proportional to strain as long as the elastic limit is not exceeded. This means that an increase in applied stress leads to a proportional increase in strain until the material fails or undergoes plastic deformation.",
+      "difficulty": 7,
+      "subcategory": "Spannung & Verformung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Van-der-Waals-Gas (Korrekturen)",
+      "question": "Which of the following statements correctly describes the significance of Van der Waals corrections for a real gas?",
+      "choices": [
+        "A: They are only relevant at high temperatures.",
+        "B: They account for intermolecular interactions and the volume of molecules.",
+        "C: They neglect all interactions between molecules.",
+        "D: They apply only to ideal gases and are not applicable to real gases."
+      ],
+      "correct_answer": "B",
+      "explanation": "The Van der Waals equation improves the description of real gases by considering the attractive forces between molecules and the molecular volume. These corrections are important for accurately modeling gas behavior under different conditions.",
+      "difficulty": 6,
+      "subcategory": "Van-der-Waals-Gas (Korrekturen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Wahrscheinlichkeiten & Erwartungswerte (H-Atom)",
+      "question": "Which of the following statements best describes the expectation value of the location of an electron in a hydrogen atom?",
+      "choices": [
+        "A: It is always identical to the core of the hydrogen atom.",
+        "B: It is the location where the probability of finding the electron is highest.",
+        "C: It is the location where the electron is found with 100% probability.",
+        "D: It is the average of all possible positions of the electron over a long period of time."
+      ],
+      "correct_answer": "D",
+      "explanation": "The expectation value of the electron's location in a hydrogen atom is the average of all possible positions where the electron can be found. This considers the quantum mechanical probability distributions occurring in the hydrogen atom, which do not necessarily correspond to a fixed location.",
+      "difficulty": 7,
+      "subcategory": "Wahrscheinlichkeiten & Erwartungswerte (H-Atom)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Feldverhalten an Grenzflächen",
+      "question": "What happens to an electric field at the boundary between two different materials?",
+      "choices": [
+        "A: The field can change and reverse direction.",
+        "B: The electric field remains unchanged.",
+        "C: The field completely disappears.",
+        "D: The field always becomes stronger."
+      ],
+      "correct_answer": "A",
+      "explanation": "At interfaces between two materials, the electric field can be altered in strength and direction depending on the material properties. This is important for understanding phenomena like light refraction and reflection.",
+      "difficulty": 1,
+      "subcategory": "Feldverhalten an Grenzflächen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Wasserstoffbrückenbindung",
+      "question": "What is a hydrogen bond?",
+      "choices": [
+        "A: A covalent bond between two hydrogen atoms.",
+        "B: A weak chemical interaction between a hydrogen atom and a highly electronegative atom.",
+        "C: A metallic bond between hydrogen and oxygen.",
+        "D: A strong ionic bond between two hydrogens."
+      ],
+      "correct_answer": "B",
+      "explanation": "Hydrogen bonds are weak interactions that occur when a hydrogen atom, bound to an electronegative atom, is attracted to another electronegative atom. These bonds play a crucial role in the structure and stability of molecules like water and many biological macromolecules.",
+      "difficulty": 4,
+      "subcategory": "Wasserstoffbrückenbindung"
+    }
+  ]
+}
