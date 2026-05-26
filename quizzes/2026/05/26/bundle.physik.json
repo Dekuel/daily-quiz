@@ -1,0 +1,169 @@
+{
+  "date": "2026-05-26",
+  "generated_at": "2026-05-26T04:28:18Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Molekulare Polarisierbarkeit",
+      "question": "Was beschreibt die molekulare Polarisierbarkeit eines Materials?",
+      "choices": [
+        "A: Die Temperaturabhängigkeit der elektrischen Leitfähigkeit eines Stoffes.",
+        "B: Die Fähigkeit eines Moleküls, sich unter dem Einfluss eines elektrischen Feldes zu deformieren.",
+        "C: Die Geschwindigkeit, mit der sich elektrische Felder im Vakuum ausbreiten.",
+        "D: Die Masse eines Moleküls in Bezug auf seine Größe."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die molekulare Polarisierbarkeit beschreibt, wie leicht ein Molekül unter dem Einfluss eines elektrischen Feldes deformiert werden kann. Diese Eigenschaft ist entscheidend für das Verständnis von Dielektrika und deren Verhalten in elektrischen Feldern.",
+      "difficulty": 6,
+      "subcategory": "Molekulare Polarisierbarkeit"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Laplace-Gleichung in Kugelkoordinaten",
+      "question": "Welche der folgenden Aussagen beschreibt die Laplace-Gleichung in Kugelkoordinaten korrekt?",
+      "choices": [
+        "A: ∇²φ = 0, wobei φ die magnetische Flussdichte ist.",
+        "B: ∇²φ = 4π, wobei φ die elektrische Feldstärke ist.",
+        "C: ∇²φ = 0, wobei φ die Potentialfunktion ist.",
+        "D: ∇²φ = -ρ/ε₀, wobei ρ die elektrische Ladungsdichte ist."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Laplace-Gleichung in Kugelkoordinaten beschreibt ein Potentialfeld, das keine Ladungen enthält. Die Gleichung ∇²φ = 0 bedeutet, dass das Potential eine harmonische Funktion ist, was für viele elektrostatische Probleme gilt.",
+      "difficulty": 6,
+      "subcategory": "Laplace-Gleichung in Kugelkoordinaten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Maxwell’sche Ergänzung des Ampèreschen Gesetzes",
+      "question": "Was beschreibt die Maxwell’sche Ergänzung des Ampèreschen Gesetzes?",
+      "choices": [
+        "A: Der elektrische Fluss ist unabhängig von der Zeit.",
+        "B: Magnetische Monopole existieren in der klassischen Elektrodynamik.",
+        "C: Magnetische Felder können nur durch elektrische Ströme erzeugt werden.",
+        "D: Die Änderung des elektrischen Feldes erzeugt ein magnetisches Feld."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Maxwell’sche Ergänzung des Ampèreschen Gesetzes besagt, dass auch eine zeitliche Änderung des elektrischen Feldes ein magnetisches Feld erzeugt. Diese Erkenntnis ist entscheidend für das Verständnis von elektromagnetischen Wellen und deren Ausbreitung.",
+      "difficulty": 7,
+      "subcategory": "Maxwell’sche Ergänzung des Ampèreschen Gesetzes"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Erhaltungssätze in der Lagrange-Mechanik",
+      "question": "Welcher der folgenden Erhaltungssätze ist in der Lagrange-Mechanik direkt mit der Symmetrie der Zeit verbunden?",
+      "choices": [
+        "A: Der Erhaltungssatz der Impuls",
+        "B: Der Erhaltungssatz der Masse",
+        "C: Der Erhaltungssatz der Energie",
+        "D: Der Erhaltungssatz des Drehimpulses"
+      ],
+      "correct_answer": "C",
+      "explanation": "In der Lagrange-Mechanik ist der Erhaltungssatz der Energie mit der Zeitinvarianz des Systems verbunden. Wenn die physikalischen Gesetze zeitlich unverändert sind, bleibt die Gesamtenergie des Systems konstant.",
+      "difficulty": 6,
+      "subcategory": "Erhaltungssätze in der Lagrange-Mechanik"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Kugelfall-Viskosimeter; Stokes-Gesetz",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt die Beziehung zwischen der Fallgeschwindigkeit einer Kugel in einer viskosen Flüssigkeit und den Parametern, die im Stokes-Gesetz berücksichtigt werden?",
+      "choices": [
+        "A: Die Fallgeschwindigkeit hängt nur von der Temperatur der Flüssigkeit ab, nicht von der Kugelgröße.",
+        "B: Die Fallgeschwindigkeit ist unabhängig von der Dichte der Flüssigkeit und hängt nur vom Gewicht der Kugel ab.",
+        "C: Die Fallgeschwindigkeit ist direkt proportional zur Dichte der Kugel, jedoch unabhängig von der Viskosität der Flüssigkeit.",
+        "D: Die Fallgeschwindigkeit ist direkt proportional zur Kugelradius und umgekehrt proportional zur Viskosität der Flüssigkeit."
+      ],
+      "correct_answer": "D",
+      "explanation": "Das Stokes-Gesetz beschreibt, dass die Fallgeschwindigkeit einer Kugel in einer viskosen Flüssigkeit proportional zum Quadrat des Radius der Kugel und dem Unterschied der Dichten zwischen Kugel und Flüssigkeit ist, und umgekehrt proportional zur Viskosität der Flüssigkeit. Dies bedeutet, dass die Fallgeschwindigkeit steigt, wenn der Kugelradius größer wird oder die Viskosität abnimmt.",
+      "difficulty": 10,
+      "subcategory": "Kugelfall-Viskosimeter; Stokes-Gesetz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Quarkfamilien (CKM)",
+      "question": "Welche der folgenden Quarkfamilien ist Teil des CKM-Matrix-Modells?",
+      "choices": [
+        "A: Up, Down, Electron, Neutrino, Muon",
+        "B: Up, Down, Strange, Bottom, Top",
+        "C: Up, Down, Photon, Gluon, Higgs",
+        "D: Up, Down, Proton, Neutron, Positron"
+      ],
+      "correct_answer": "B",
+      "explanation": "Die CKM-Matrix beschreibt die Wechselwirkungen zwischen den verschiedenen Quarkfamilien, insbesondere die Up- und Down-Quarks sowie deren schwerere Geschwister Strange, Bottom und Top. Diese Quarks spielen eine zentrale Rolle in der Quantenchromodynamik (QCD).",
+      "difficulty": 5,
+      "subcategory": "Quarkfamilien (CKM)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Reibung: Gleitreibung",
+      "question": "Welche Aussage über die Gleitreibung zwischen zwei festen Oberflächen ist korrekt?",
+      "choices": [
+        "A: Die Gleitreibungskraft ist proportional zur Normalkraft und unabhängig von der Kontaktfläche.",
+        "B: Die Gleitreibungskraft hängt nicht von der Art der Materialien ab.",
+        "C: Die Gleitreibungskraft ist geringer als die Haftreibungskraft.",
+        "D: Die Gleitreibungskraft ist immer konstant, unabhängig von der Geschwindigkeit."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Gleitreibungskraft ist tatsächlich proportional zur Normalkraft, was bedeutet, dass sie steigt, wenn die auf die Oberflächen wirkende Kraft zunimmt. Im Gegensatz zur Haftreibungskraft kann die Gleitreibungskraft jedoch variieren, abhängig von den Materialien und der Oberflächenbeschaffenheit.",
+      "difficulty": 9,
+      "subcategory": "Reibung: Gleitreibung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Stokes’scher Satz",
+      "question": "Was besagt der Stokes’sche Satz in der Elektrodynamik?",
+      "choices": [
+        "A: Der Fluss eines Vektorfeldes durch eine geschlossene Fläche ist gleich der Divergenz des Feldes im Inneren.",
+        "B: Der Linienintegral eines Vektorfeldes entlang einer geschlossenen Kurve ist gleich dem Fluss des Rotationsfeldes durch die von der Kurve umschlossene Fläche.",
+        "C: Der Betrag eines elektrischen Feldes ist direkt proportional zur Spannung.",
+        "D: Der Widerstand in einem geschlossenen Stromkreis ist unabhängig von der Temperatur."
+      ],
+      "correct_answer": "B",
+      "explanation": "Der Stokes’sche Satz verknüpft das Linienintegral eines Vektorfeldes entlang einer geschlossenen Kurve mit dem Fluss des Rotationsfeldes durch die Fläche, die von der Kurve umschlossen wird. Dies ist eine grundlegende Beziehung in der Vektoranalysis und spielt eine wichtige Rolle in der Elektrodynamik.",
+      "difficulty": 4,
+      "subcategory": "Stokes’scher Satz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Wärmeleitung in Gasen",
+      "question": "Was beschreibt die Wärmeleitung in Gasen am besten?",
+      "choices": [
+        "A: Wärmeleitung in Gasen erfolgt hauptsächlich durch Kollisionen zwischen Molekülen.",
+        "B: Wärmeleitung in Gasen geschieht nur in flüssigen Medien.",
+        "C: Wärmeleitung in Gasen ist schneller als in Feststoffen.",
+        "D: Wärmeleitung in Gasen ist unabhängig von der Temperatur."
+      ],
+      "correct_answer": "A",
+      "explanation": "In Gasen erfolgt die Wärmeleitung durch die kinetische Energieübertragung zwischen kollidierenden Molekülen. Je häufiger die Moleküle kollidieren, desto effizienter erfolgt die Wärmeübertragung. Temperatur hat dabei einen direkten Einfluss auf die Bewegungsgeschwindigkeit der Moleküle, welche die Wärmeleitung beeinflusst.",
+      "difficulty": 5,
+      "subcategory": "Wärmeleitung in Gasen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Klassische Ensembles: Phasenraum & Verteilungsfunktion",
+      "question": "Welche Aussage über die Phasenraumdarstellung in der statistischen Mechanik ist korrekt?",
+      "choices": [
+        "A: Der Phasenraum ist nur für ideale Gase relevant und hat keine Bedeutung für reale Systeme.",
+        "B: Der Phasenraum ist ein eindimensionaler Raum, der nur die Positionen der Teilchen beschreibt.",
+        "C: Die Verteilungsfunktion im Phasenraum ist immer konstant und unabhängig von der Energie.",
+        "D: Der Phasenraum umfasst alle möglichen Zustände eines Systems, einschließlich ihrer Impulse."
+      ],
+      "correct_answer": "D",
+      "explanation": "Der Phasenraum ist ein mehrdimensionaler Raum, der alle möglichen Zustände eines Systems beschreibt, einschließlich der Positionen und Impulse der Teilchen. Dies ist grundlegend für die Analyse von thermodynamischen Eigenschaften und der statistischen Verteilung von Teilchen in einem System.",
+      "difficulty": 6,
+      "subcategory": "Klassische Ensembles: Phasenraum & Verteilungsfunktion"
+    }
+  ]
+}
