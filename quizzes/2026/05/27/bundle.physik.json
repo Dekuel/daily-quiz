@@ -1,0 +1,169 @@
+{
+  "date": "2026-05-27",
+  "generated_at": "2026-05-27T04:33:40Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Definitionen & Rechenregeln von Tensoren",
+      "question": "Was beschreibt ein Tensor in der Relativitätstheorie?",
+      "choices": [
+        "A: Ein Konzept, das ausschließlich für die allgemeine Relativitätstheorie relevant ist.",
+        "B: Eine mathematische Struktur, die in jedem Bezugssystem identisch ist.",
+        "C: Eine Größe, die die Wechselwirkung zwischen Materie und Raum beschreibt.",
+        "D: Eine einfache Funktion, die nur Vektoren beschreibt."
+      ],
+      "correct_answer": "C",
+      "explanation": "Ein Tensor beschreibt in der Relativitätstheorie, wie physikalische Größen in unterschiedlichen Bezugssystemen transformieren. Sie sind entscheidend für die Beschreibung von Wechselwirkungen zwischen Materie, Raum und Zeit. Die korrekte Antwort ist A, da Tensoren diese Beziehungen in einem allgemeineren Sinne abbilden können.",
+      "difficulty": 5,
+      "subcategory": "Definitionen & Rechenregeln von Tensoren"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Übergang zur Wellenmechanik (klassisch → QM)",
+      "question": "Was beschreibt im Rahmen des Übergangs von der klassischen Mechanik zur Quantenmechanik das Konzept der Wellenfunktion?",
+      "choices": [
+        "A: Die Wahrscheinlichkeit, das Teilchen an einem bestimmten Ort zu finden.",
+        "B: Die Masse eines Teilchens.",
+        "C: Die Kraft, die auf ein Teilchen wirkt.",
+        "D: Die Geschwindigkeit eines Teilchens in einem Vakuum."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Wellenfunktion ist ein zentrales Konzept in der Quantenmechanik, das die Wahrscheinlichkeit beschreibt, ein Teilchen an einem bestimmten Ort zu finden. Dies stellt einen grundlegenden Unterschied zur klassischen Mechanik dar, wo Teilchenpositionen genau bestimmt werden können.",
+      "difficulty": 3,
+      "subcategory": "Übergang zur Wellenmechanik (klassisch → QM)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Van-der-Waals-Gas (Korrekturen)",
+      "question": "Welche Korrektur wird bei der Beschreibung eines Van-der-Waals-Gases im Vergleich zu einem idealen Gas berücksichtigt?",
+      "choices": [
+        "A: Die gleichmäßige Verteilung der Moleküle",
+        "B: Die endliche Größe der Moleküle",
+        "C: Die ideale Gasgleichung",
+        "D: Die konstante Temperatur"
+      ],
+      "correct_answer": "B",
+      "explanation": "Bei der Van-der-Waals-Gleichung wird die endliche Größe der Moleküle berücksichtigt, indem ein Volumen ausgeschlossen wird, das den Molekülen selbst zugeordnet ist. Dies führt zu einer realistischeren Beschreibung des Verhaltens von Gasen unter hohen Drücken und niedrigen Temperaturen.",
+      "difficulty": 7,
+      "subcategory": "Van-der-Waals-Gas (Korrekturen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Noether-Idee: Homogenität der Zeit ⇒ Energieerhaltung",
+      "question": "Was besagt die Noether-Idee in Bezug auf die Zeit, die zur Erhaltung der Energie führt?",
+      "choices": [
+        "A: Energie kann nicht erzeugt oder vernichtet werden.",
+        "B: Zeit ist eine lineare Größe ohne Einfluss auf die Energie.",
+        "C: Bewegung ist nur im Vakuum möglich.",
+        "D: Die physikalischen Gesetze sind zeitlich invariant."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Noether-Idee besagt, dass die Homogenität der Zeit bedeutet, dass die physikalischen Gesetze unabhängig von der Zeit sind. Diese Invarianz führt zur Erhaltung der Energie in einem geschlossenen System.",
+      "difficulty": 4,
+      "subcategory": "Noether-Idee: Homogenität der Zeit ⇒ Energieerhaltung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Lorentz-Kraft in Vierervektorform",
+      "question": "Was beschreibt die Lorentz-Kraft in der Viererveektorform?",
+      "choices": [
+        "A: Die Energieerhaltung in geschlossenen Systemen.",
+        "B: Die Wechselwirkung zwischen elektrischen und magnetischen Feldern.",
+        "C: Die Zeitdilatation bei relativistischen Geschwindigkeiten.",
+        "D: Die Gravitation in der allgemeinen Relativitätstheorie."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Lorentz-Kraft beschreibt die Kraft, die auf eine bewegte Ladung in einem elektromagnetischen Feld wirkt. In der Vierervektorform wird diese Kraft in der relativistischen Physik formuliert, um die Wechselwirkungen zwischen elektrischen und magnetischen Feldern zu berücksichtigen.",
+      "difficulty": 4,
+      "subcategory": "Lorentz-Kraft in Vierervektorform"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Erster & Zweiter Hauptsatz (reversibel/irreversibel)",
+      "question": "Welches der folgenden Szenarien beschreibt einen irreversiblen Prozess gemäß dem Zweiten Hauptsatz der Thermodynamik?",
+      "choices": [
+        "A: Ein Pendel, das ohne Luftreibung schwingt.",
+        "B: Ein Gaskolben, der in einem adiabatischen Prozess komprimiert wird.",
+        "C: Ein perfekt isolierter Behälter, der sich mit einer konstanten Temperatur ausdehnt.",
+        "D: Ein Glas Wasser, das bei Raumtemperatur steht und sich mit Eiswürfeln vermischt."
+      ],
+      "correct_answer": "D",
+      "explanation": "Der Zweite Hauptsatz der Thermodynamik besagt, dass irreversiblen Prozesse eine Zunahme der Entropie zur Folge haben. Das Vermischen von Eiswürfeln mit Wasser führt zu einem Zustand größerer Entropie und ist somit ein irreversibler Prozess.",
+      "difficulty": 5,
+      "subcategory": "Erster & Zweiter Hauptsatz (reversibel/irreversibel)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Partonmodell",
+      "question": "Was beschreibt das Partonmodell in der Teilchenphysik?",
+      "choices": [
+        "A: Die Struktur von Protonen und Neutronen als Zusammensetzung von Quarks und Gluonen.",
+        "B: Die Bewegung von Teilchen in einem Vakuum.",
+        "C: Die Eigenschaften von Kernspins und deren Messung.",
+        "D: Die Wechselwirkungen zwischen geladenen Teilchen in einem elektrischen Feld."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Partonmodell erklärt die inneren Strukturen von Protonen und Neutronen, indem es diese als aus Quarks und Gluonen bestehend beschreibt. Es hilft, die Ergebnisse von hochenergetischen Kollisionsexperimenten zu verstehen, indem es die Teilcheninteraktionen auf subatomarer Ebene modelliert.",
+      "difficulty": 4,
+      "subcategory": "Partonmodell"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Ferromagnetismus: Austausch & Ising-MF",
+      "question": "Welcher Parameter ist entscheidend für den Übergang von einem paramagnetischen zu einem ferromagnetischen Zustand im Ising-Modell?",
+      "choices": [
+        "A: Austauschwechselwirkung",
+        "B: Kristallstruktur",
+        "C: Magnetische Feldstärke",
+        "D: Temperatur"
+      ],
+      "correct_answer": "A",
+      "explanation": "Im Ising-Modell ist die Austauschwechselwirkung der entscheidende Parameter, der die Spins in einem Material koppelt. Bei starker Austauschwechselwirkung tendieren die Spins dazu, in die gleiche Richtung auszurichten, was zu einem ferromagnetischen Zustand führt. Temperatur und andere Faktoren haben zwar Einfluss, sind jedoch nicht der Hauptfaktor für den Phasenübergang selbst.",
+      "difficulty": 9,
+      "subcategory": "Ferromagnetismus: Austausch & Ising-MF"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Interpretation der Strukturfunktionen (Partonmodell)",
+      "question": "Was beschreibt die Strukturfunktion F2 im Partonmodell am besten?",
+      "choices": [
+        "A: Die Wechselwirkungen zwischen Neutronen und Protonen.",
+        "B: Die Symmetrieeigenschaften von Elementarteilchen.",
+        "C: Die Energieverteilung bei Kernfusionsreaktionen.",
+        "D: Die Verteilung der Quarks in einem Proton."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Strukturfunktion F2 beschreibt die Verteilung der Quarks innerhalb eines Protons in Bezug auf ihre Momentanverteilung beim elastischen Streuen von Elektronen. Sie ist ein Schlüsselbegriff im Rahmen des Partonmodells, das die inneren Strukturen von Hadronen beschreibt.",
+      "difficulty": 6,
+      "subcategory": "Interpretation der Strukturfunktionen (Partonmodell)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Farbmagnetische Wechselwirkung",
+      "question": "Was beschreibt die farbmagnetische Wechselwirkung in der Quantenchromodynamik?",
+      "choices": [
+        "A: Die Gravitation zwischen Massen im Universum.",
+        "B: Die Wechselwirkung zwischen Elektronen und Photonen.",
+        "C: Die Wechselwirkung zwischen Quarks durch den Austausch von Gluonen.",
+        "D: Die Anziehungskraft zwischen Protonen und Neutronen."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die farbmagnetische Wechselwirkung ist ein grundlegender Bestandteil der Quantenchromodynamik, die die Wechselwirkungen zwischen Quarks und Gluonen beschreibt. Sie ist verantwortlich für die Bindung von Quarks in Protonen und Neutronen und erklärt die Farbladung, die Quarks besitzen.",
+      "difficulty": 4,
+      "subcategory": "Farbmagnetische Wechselwirkung"
+    }
+  ]
+}

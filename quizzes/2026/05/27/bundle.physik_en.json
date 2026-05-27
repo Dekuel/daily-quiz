@@ -1,0 +1,168 @@
+{
+  "date": "2026-05-27",
+  "generated_at": "2026-05-27T04:34:34Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Definitionen & Rechenregeln von Tensoren",
+      "question": "What does a tensor describe in the theory of relativity?",
+      "choices": [
+        "A: A concept that is relevant exclusively to general relativity theory.",
+        "B: A mathematical structure that is identical in every reference system.",
+        "C: A quantity that describes the interaction between matter and space.",
+        "D: A simple function that only describes vectors."
+      ],
+      "correct_answer": "C",
+      "explanation": "A tensor describes in the theory of relativity how physical quantities transform in different reference systems. They are crucial for describing interactions between matter, space, and time. The correct answer is A, as tensors can represent these relationships in a more general sense.",
+      "difficulty": 5,
+      "subcategory": "Definitionen & Rechenregeln von Tensoren"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Übergang zur Wellenmechanik (klassisch → QM)",
+      "question": "What does the concept of the wave function describe in the transition from classical mechanics to quantum mechanics?",
+      "choices": [
+        "A: The probability of finding the particle at a specific location.",
+        "B: The mass of a particle.",
+        "C: The force acting on a particle.",
+        "D: The velocity of a particle in a vacuum."
+      ],
+      "correct_answer": "A",
+      "explanation": "The wave function is a central concept in quantum mechanics that describes the probability of finding a particle at a specific location. This represents a fundamental difference from classical mechanics, where particle positions can be precisely determined.",
+      "difficulty": 3,
+      "subcategory": "Übergang zur Wellenmechanik (klassisch → QM)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Van-der-Waals-Gas (Korrekturen)",
+      "question": "What correction is considered when describing a Van der Waals gas compared to an ideal gas?",
+      "choices": [
+        "A: The uniform distribution of molecules",
+        "B: The finite size of molecules",
+        "C: The ideal gas equation",
+        "D: The constant temperature"
+      ],
+      "correct_answer": "B",
+      "explanation": "The Van der Waals equation takes into account the finite size of molecules by excluding a volume associated with the molecules themselves. This leads to a more realistic description of gas behavior under high pressures and low temperatures.",
+      "difficulty": 7,
+      "subcategory": "Van-der-Waals-Gas (Korrekturen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Noether-Idee: Homogenität der Zeit ⇒ Energieerhaltung",
+      "question": "What does the Noether idea state regarding time leading to the conservation of energy?",
+      "choices": [
+        "A: Energy cannot be created or destroyed.",
+        "B: Time is a linear quantity with no influence on energy.",
+        "C: Motion is only possible in a vacuum.",
+        "D: Physical laws are time-invariant."
+      ],
+      "correct_answer": "D",
+      "explanation": "The Noether idea states that the homogeneity of time means that physical laws are independent of time. This invariance leads to the conservation of energy in a closed system.",
+      "difficulty": 4,
+      "subcategory": "Noether-Idee: Homogenität der Zeit ⇒ Energieerhaltung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Lorentz-Kraft in Vierervektorform",
+      "question": "What does the Lorentz force describe in the four-vector form?",
+      "choices": [
+        "A: The conservation of energy in closed systems.",
+        "B: The interaction between electric and magnetic fields.",
+        "C: Time dilation at relativistic speeds.",
+        "D: Gravity in general relativity theory."
+      ],
+      "correct_answer": "B",
+      "explanation": "The Lorentz force describes the force acting on a moving charge in an electromagnetic field. In the four-vector form, this force is formulated in relativistic physics to account for interactions between electric and magnetic fields.",
+      "difficulty": 4,
+      "subcategory": "Lorentz-Kraft in Vierervektorform"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Erster & Zweiter Hauptsatz (reversibel/irreversibel)",
+      "question": "Which of the following scenarios describes an irreversible process according to the Second Law of Thermodynamics?",
+      "choices": [
+        "A: A pendulum swinging without air friction.",
+        "B: A gas piston being compressed in an adiabatic process.",
+        "C: A perfectly insulated container expanding at a constant temperature.",
+        "D: A glass of water standing at room temperature and mixing with ice cubes."
+      ],
+      "correct_answer": "D",
+      "explanation": "The Second Law of Thermodynamics states that irreversible processes result in an increase in entropy. Mixing ice cubes with water leads to a state of higher entropy and is thus an irreversible process.",
+      "difficulty": 5,
+      "subcategory": "Erster & Zweiter Hauptsatz (reversibel/irreversibel)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Partonmodell",
+      "question": "What does the parton model describe in particle physics?",
+      "choices": [
+        "A: The structure of protons and neutrons as compositions of quarks and gluons.",
+        "B: The motion of particles in a vacuum.",
+        "C: The properties of nuclear spins and their measurement.",
+        "D: The interactions between charged particles in an electric field."
+      ],
+      "correct_answer": "A",
+      "explanation": "The parton model explains the internal structures of protons and neutrons by describing them as composed of quarks and gluons. It helps understand the results of high-energy collision experiments by modeling particle interactions at a subatomic level.",
+      "difficulty": 4,
+      "subcategory": "Partonmodell"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Ferromagnetismus: Austausch & Ising-MF",
+      "question": "Which parameter is crucial for the transition from a paramagnetic to a ferromagnetic state in the Ising model?",
+      "choices": [
+        "A: Exchange interaction",
+        "B: Crystal structure",
+        "C: Magnetic field strength",
+        "D: Temperature"
+      ],
+      "correct_answer": "A",
+      "explanation": "In the Ising model, the exchange interaction is the crucial parameter that couples the spins in a material. With a strong exchange interaction, spins tend to align in the same direction, leading to a ferromagnetic state. While temperature and other factors have an influence, they are not the main factor for the phase transition itself.",
+      "difficulty": 9,
+      "subcategory": "Ferromagnetismus: Austausch & Ising-MF"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Interpretation der Strukturfunktionen (Partonmodell)",
+      "question": "What does the structure function F2 in the parton model best describe?",
+      "choices": [
+        "A: The interactions between neutrons and protons.",
+        "B: The symmetry properties of elementary particles.",
+        "C: The energy distribution in nuclear fusion reactions.",
+        "D: The distribution of quarks in a proton."
+      ],
+      "correct_answer": "D",
+      "explanation": "The structure function F2 describes the distribution of quarks within a proton in terms of their momentum distribution during the elastic scattering of electrons. It is a key concept within the parton model, which describes the internal structures of hadrons.",
+      "difficulty": 6,
+      "subcategory": "Interpretation der Strukturfunktionen (Partonmodell)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Farbmagnetische Wechselwirkung",
+      "question": "What does the color-magnetic interaction describe in quantum chromodynamics?",
+      "choices": [
+        "A: The gravitational interaction between masses in the universe.",
+        "B: The interaction between electrons and photons.",
+        "C: The interaction between quarks through the exchange of gluons.",
+        "D: The attraction between protons and neutrons."
+      ],
+      "correct_answer": "C",
+      "explanation": "The color-magnetic interaction is a fundamental component of quantum chromodynamics, describing the interactions between quarks and gluons. It is responsible for binding quarks in protons and neutrons and explains the color charge that quarks possess.",
+      "difficulty": 4,
+      "subcategory": "Farbmagnetische Wechselwirkung"
+    }
+  ]
+}
