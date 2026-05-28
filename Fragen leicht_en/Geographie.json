@@ -2744,6 +2744,20 @@
       "correct_answer": "B",
       "explanation": "Suva is the capital of Fiji and is located on the southern coast of the main island Viti Levu. The city is the political and administrative center of the country and plays an important role in Fiji's economy and culture.",
       "difficulty": 6
+    },
+    {
+      "category": "Geographie",
+      "topic": "Kartographie & GIS",
+      "question": "Which of the following reference systems is based on a spherical modeling of the Earth and takes into account the flattening of the poles?",
+      "choices": [
+        "A: WGS 84",
+        "B: UTM",
+        "C: NAD83",
+        "D: EPSG:4326"
+      ],
+      "correct_answer": "A",
+      "explanation": "WGS 84 is a global reference system that considers the shape of the Earth as spherical, accounting for the flattening at the poles. This makes it an important foundation for GPS applications and global geodata. The other options are either projected systems or alternative geodetic systems that do not specifically aim at spherical modeling.",
+      "difficulty": 8
     }
   ]
 }

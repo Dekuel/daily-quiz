@@ -1,0 +1,168 @@
+{
+  "date": "2026-05-28",
+  "generated_at": "2026-05-28T04:31:35Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Isolierte Systeme: Maximum der Entropie",
+      "question": "What does the maximum of entropy describe in an isolated system?",
+      "choices": [
+        "A: The maximum temperature a system can reach.",
+        "B: A uniform distribution of particles without energy exchange.",
+        "C: The state with the lowest energy in the system.",
+        "D: The maximum disorder and the highest probability for the microstates of the system."
+      ],
+      "correct_answer": "D",
+      "explanation": "The maximum of entropy in an isolated system represents the state of maximum disorder, which presents the highest probability for the microstates of the system. In this state, the energy distributions of the particles in a system are most uniform.",
+      "difficulty": 5,
+      "subcategory": "Isolierte Systeme: Maximum der Entropie"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Fresnelsche Formeln (Reflexionsgrad)",
+      "question": "How does the reflectance change during the reflection of light at an interface between two media?",
+      "choices": [
+        "A: The reflectance is always 0%, regardless of the media.",
+        "B: The reflectance depends only on the wavelength of light.",
+        "C: The reflectance depends on the refractive indices of the media.",
+        "D: The reflectance is always 100%, regardless of the media."
+      ],
+      "correct_answer": "C",
+      "explanation": "The reflectance describes the portion of light that is reflected at an interface. It depends on the refractive indices of the two media and can be calculated using the Fresnel equations.",
+      "difficulty": 3,
+      "subcategory": "Fresnelsche Formeln (Reflexionsgrad)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Elemente der Variationsrechnung",
+      "question": "Which principle is used in variational calculus to describe the motion of systems?",
+      "choices": [
+        "A: Conservation of energy",
+        "B: Newton's third law",
+        "C: Principle of superposition",
+        "D: Principle of least action"
+      ],
+      "correct_answer": "D",
+      "explanation": "The principle of least action states that the actual path of a system between two points is the one for which the action is minimal. This principle is fundamental to variational calculus and plays a central role in analytical mechanics.",
+      "difficulty": 9,
+      "subcategory": "Elemente der Variationsrechnung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Überblick: Felder, Teilchen, Symmetrien des Standardmodells",
+      "question": "Which of the following particles is a boson responsible for mediating the strong interaction?",
+      "choices": [
+        "A: Quark",
+        "B: Electron",
+        "C: Gluon",
+        "D: Neutrino"
+      ],
+      "correct_answer": "C",
+      "explanation": "Gluons are the exchange particles that mediate the strong interaction between quarks and thus play a central role in the Standard Model of particle physics. Electrons, quarks, and neutrinos are fermions with other properties and functions in the particle model.",
+      "difficulty": 7,
+      "subcategory": "Überblick: Felder, Teilchen, Symmetrien des Standardmodells"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Hamilton’sche charakteristische Funktion S",
+      "question": "Which of the following statements correctly describes Hamilton's characteristic function S?",
+      "choices": [
+        "A: The function S is only defined for systems with conservative forces.",
+        "B: The function S is a scalar function that describes the entire dynamics of a system.",
+        "C: The function S is always constant and does not change over time.",
+        "D: The function S is identical to the Lagrangian function of a system."
+      ],
+      "correct_answer": "B",
+      "explanation": "Hamilton's characteristic function S describes the entire dynamics of a system in Hamiltonian mechanics and allows for the derivation of the equations of motion. Unlike the other options, S is not constant and not identical to the Lagrangian function, but a function of the general coordinates and momenta.",
+      "difficulty": 5,
+      "subcategory": "Hamilton’sche charakteristische Funktion S"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Typen der schwachen Wechselwirkung (CC/NC)",
+      "question": "What is referred to as weak interaction in particle physics?",
+      "choices": [
+        "A: An interaction that occurs only at high energies.",
+        "B: An interaction that does not affect matter and antimatter.",
+        "C: An interaction that only occurs in atomic nuclei.",
+        "D: An interaction that allows the decay of neutrons into protons."
+      ],
+      "correct_answer": "D",
+      "explanation": "Weak interaction is responsible for processes like beta decay, where neutrons are converted into protons. It plays a crucial role in nuclear physics, especially in particle transformations.",
+      "difficulty": 1,
+      "subcategory": "Typen der schwachen Wechselwirkung (CC/NC)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Wärmeleitungsmanometer",
+      "question": "What does a heat conduction manometer primarily describe?",
+      "choices": [
+        "A: The flow rate of liquids.",
+        "B: The thermal conductivity of materials.",
+        "C: The temperature difference between two bodies.",
+        "D: The pressure of a gas depending on temperature."
+      ],
+      "correct_answer": "C",
+      "explanation": "A heat conduction manometer works by measuring the temperature difference between two bodies caused by heat conduction. This temperature difference is crucial for determining the pressure in a system. Therefore, option C is the correct answer.",
+      "difficulty": 6,
+      "subcategory": "Wärmeleitungsmanometer"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Relativistischer Impuls, Energie und Kraft",
+      "question": "What does the relativistic momentum of an object describe?",
+      "choices": [
+        "A: It is equal to the classical momentum formula for speeds below the speed of light.",
+        "B: It is the product of the mass and the velocity of the object.",
+        "C: It additionally depends on the Lorentz factor and changes with increasing velocity.",
+        "D: It remains constant, regardless of the velocity of the object."
+      ],
+      "correct_answer": "C",
+      "explanation": "Relativistic momentum takes into account the Lorentz factor, which becomes significant at speeds close to the speed of light. As a result, the momentum increases compared to the classical definition when an object moves quickly.",
+      "difficulty": 4,
+      "subcategory": "Relativistischer Impuls, Energie und Kraft"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Grundbausteine der Materie",
+      "question": "Which of the following particles is an elementary particle?",
+      "choices": [
+        "A: Proton",
+        "B: Electron",
+        "C: Neutron",
+        "D: Helium nucleus"
+      ],
+      "correct_answer": "B",
+      "explanation": "An electron is an elementary particle belonging to the leptons. Neutrons and protons, on the other hand, are composed of quarks and therefore not elementary particles. A helium nucleus also consists of protons and neutrons, making it a composite particle.",
+      "difficulty": 6,
+      "subcategory": "Grundbausteine der Materie"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Semiklassische Atommodelle (Rutherford→Bohr)",
+      "question": "Which atomic model describes electrons as particles moving on fixed orbits around the atomic nucleus?",
+      "choices": [
+        "A: Rutherford model",
+        "B: Dalton model",
+        "C: Bohr model",
+        "D: Thomson model"
+      ],
+      "correct_answer": "C",
+      "explanation": "The Bohr model describes electrons moving on fixed, quantized orbits around the atomic nucleus. It is a semi-classical model that integrates some aspects of quantum mechanics and explains the stability of electron orbits.",
+      "difficulty": 5,
+      "subcategory": "Semiklassische Atommodelle (Rutherford→Bohr)"
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "date": "2026-05-28",
+  "generated_at": "2026-05-28T04:30:41Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Isolierte Systeme: Maximum der Entropie",
+      "question": "Was beschreibt das Maximum der Entropie in einem isolierten System?",
+      "choices": [
+        "A: Die maximale Temperatur, die ein System erreichen kann.",
+        "B: Eine gleichmäßige Verteilung der Teilchen ohne Energieaustausch.",
+        "C: Den Zustand mit der niedrigsten Energie im System.",
+        "D: Die maximale Unordnung und die höchste Wahrscheinlichkeit für die Mikrozustände des Systems."
+      ],
+      "correct_answer": "D",
+      "explanation": "Das Maximum der Entropie in einem isolierten System steht für den Zustand maximaler Unordnung, der die höchste Wahrscheinlichkeit für die Mikrozustände des Systems darstellt. In diesem Zustand sind die Energieverteilungen der Teilchen in einem System am gleichmäßigsten.",
+      "difficulty": 5,
+      "subcategory": "Isolierte Systeme: Maximum der Entropie"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Fresnelsche Formeln (Reflexionsgrad)",
+      "question": "Wie verändert sich der Reflexionsgrad bei der Reflexion von Licht an einer Grenzfläche zwischen zwei Medien?",
+      "choices": [
+        "A: Der Reflexionsgrad ist immer 0%, unabhängig von den Medien.",
+        "B: Der Reflexionsgrad hängt nur von der Wellenlänge des Lichts ab.",
+        "C: Der Reflexionsgrad hängt von den Brechungsindices der Medien ab.",
+        "D: Der Reflexionsgrad ist immer 100%, unabhängig von den Medien."
+      ],
+      "correct_answer": "C",
+      "explanation": "Der Reflexionsgrad beschreibt den Anteil des Lichtes, der an einer Grenzfläche reflektiert wird. Er ist abhängig von den Brechungsindices der beiden Medien und kann mit den Fresnelschen Formeln berechnet werden.",
+      "difficulty": 3,
+      "subcategory": "Fresnelsche Formeln (Reflexionsgrad)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Elemente der Variationsrechnung",
+      "question": "Welches Prinzip wird in der Variationsrechnung verwendet, um die Bewegung von Systemen zu beschreiben?",
+      "choices": [
+        "A: Erhaltungssatz der Energie",
+        "B: Newtons drittes Gesetz",
+        "C: Prinzip der Superposition",
+        "D: Prinzip der kleinsten Wirkung"
+      ],
+      "correct_answer": "D",
+      "explanation": "Das Prinzip der kleinsten Wirkung besagt, dass die tatsächliche Bahn eines Systems zwischen zwei Punkten diejenige ist, für die die Wirkung minimal ist. Dieses Prinzip ist grundlegend für die Variationsrechnung und spielt eine zentrale Rolle in der analytischen Mechanik.",
+      "difficulty": 9,
+      "subcategory": "Elemente der Variationsrechnung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Überblick: Felder, Teilchen, Symmetrien des Standardmodells",
+      "question": "Welches der folgenden Teilchen ist ein Boson, das für die Vermittlung der starken Wechselwirkung verantwortlich ist?",
+      "choices": [
+        "A: Quark",
+        "B: Elektron",
+        "C: Gluon",
+        "D: Neutrino"
+      ],
+      "correct_answer": "C",
+      "explanation": "Gluonen sind die Austauschteilchen, die die starke Wechselwirkung zwischen Quarks vermitteln und somit eine zentrale Rolle im Standardmodell der Teilchenphysik spielen. Elektronen, Quarks und Neutrinos sind Fermionen, die andere Eigenschaften und Funktionen im Teilchenmodell aufweisen.",
+      "difficulty": 7,
+      "subcategory": "Überblick: Felder, Teilchen, Symmetrien des Standardmodells"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Hamilton’sche charakteristische Funktion S",
+      "question": "Welche der folgenden Aussagen beschreibt die Hamilton’sche charakteristische Funktion S korrekt?",
+      "choices": [
+        "A: Die Funktion S ist nur für Systeme mit konzervativen Kräften definiert.",
+        "B: Die Funktion S ist eine skalare Funktion, die die gesamte Dynamik eines Systems beschreibt.",
+        "C: Die Funktion S ist immer konstant und verändert sich nicht im Verlauf der Zeit.",
+        "D: Die Funktion S ist identisch mit der Lagrange-Funktion eines Systems."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Hamilton’sche charakteristische Funktion S beschreibt die gesamte Dynamik eines Systems in der Hamiltonschen Mechanik und ermöglicht die Ableitung der Bewegungsgleichungen. Im Gegensatz zu den anderen Optionen ist S nicht konstant und nicht identisch mit der Lagrange-Funktion, sondern eine Funktion der allgemeinen Koordinaten und Momente.",
+      "difficulty": 5,
+      "subcategory": "Hamilton’sche charakteristische Funktion S"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Typen der schwachen Wechselwirkung (CC/NC)",
+      "question": "Was bezeichnet man als schwache Wechselwirkung in der Teilchenphysik?",
+      "choices": [
+        "A: Eine Wechselwirkung, die ausschließlich bei hohen Energien auftritt.",
+        "B: Eine Wechselwirkung, die Materie und Antimaterie nicht beeinflusst.",
+        "C: Eine Wechselwirkung, die nur in Atomkernen stattfindet.",
+        "D: Eine Wechselwirkung, die den Zerfall von Neutronen in Protonen ermöglicht."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die schwache Wechselwirkung ist verantwortlich für Prozesse wie den Beta-Zerfall, bei dem Neutronen in Protonen umgewandelt werden. Sie spielt eine entscheidende Rolle in der Kernphysik, insbesondere bei der Umwandlung von Teilchen.",
+      "difficulty": 1,
+      "subcategory": "Typen der schwachen Wechselwirkung (CC/NC)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Wärmeleitungsmanometer",
+      "question": "Was beschreibt ein Wärmeleitungsmanometer hauptsächlich?",
+      "choices": [
+        "A: Den Volumenstrom von Flüssigkeiten.",
+        "B: Die Wärmeleitfähigkeit von Materialien.",
+        "C: Den Temperaturunterschied zwischen zwei Körpern.",
+        "D: Den Druck eines Gases in Abhängigkeit von der Temperatur."
+      ],
+      "correct_answer": "C",
+      "explanation": "Ein Wärmeleitungsmanometer funktioniert, indem es den Temperaturunterschied zwischen zwei Körpern misst, der durch Wärmeleitung entsteht. Dieser Temperaturunterschied ist entscheidend für die Bestimmung des Drucks in einem System. Daher ist die Wahl C die richtige Antwort.",
+      "difficulty": 6,
+      "subcategory": "Wärmeleitungsmanometer"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Relativistischer Impuls, Energie und Kraft",
+      "question": "Was beschreibt der relativistische Impuls eines Objekts?",
+      "choices": [
+        "A: Er ist gleich der klassischen Impulsformel für Geschwindigkeiten unterhalb der Lichtgeschwindigkeit.",
+        "B: Er ist das Produkt aus der Masse und der Geschwindigkeit des Objekts.",
+        "C: Er hängt zusätzlich von der Lorentz-Faktor ab und verändert sich mit steigender Geschwindigkeit.",
+        "D: Er bleibt konstant, unabhängig von der Geschwindigkeit des Objekts."
+      ],
+      "correct_answer": "C",
+      "explanation": "Der relativistische Impuls berücksichtigt den Lorentz-Faktor, der bei Geschwindigkeiten nahe der Lichtgeschwindigkeit signifikant wird. Dadurch erhöht sich der Impuls im Vergleich zur klassischen Definition, wenn sich ein Objekt schnell bewegt.",
+      "difficulty": 4,
+      "subcategory": "Relativistischer Impuls, Energie und Kraft"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Grundbausteine der Materie",
+      "question": "Welche der folgenden Teilchen ist ein Elementarteilchen?",
+      "choices": [
+        "A: Proton",
+        "B: Elektron",
+        "C: Neutron",
+        "D: Heliumkern"
+      ],
+      "correct_answer": "B",
+      "explanation": "Ein Elektron ist ein Elementarteilchen, das zu den Leptonen gehört. Neutronen und Protonen sind hingegen aus Quarks zusammengesetzt und daher keine Elementarteilchen. Ein Heliumkern besteht ebenfalls aus Protonen und Neutronen und ist somit ein zusammengesetztes Teilchen.",
+      "difficulty": 6,
+      "subcategory": "Grundbausteine der Materie"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Semiklassische Atommodelle (Rutherford→Bohr)",
+      "question": "Welches Atommodell beschreibt die Elektronen als Teilchen, die sich auf festen Bahnen um den Atomkern bewegen?",
+      "choices": [
+        "A: Rutherford-Modell",
+        "B: Dalton-Modell",
+        "C: Bohr-Modell",
+        "D: Thomson-Modell"
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Bohr-Modell beschreibt Elektronen, die sich auf festen, quantisierten Bahnen um den Atomkern bewegen. Es ist ein semiklassisches Modell, das einige Aspekte der Quantenmechanik integriert und die Stabilität der Elektronenbahnen erklärt.",
+      "difficulty": 5,
+      "subcategory": "Semiklassische Atommodelle (Rutherford→Bohr)"
+    }
+  ]
+}
