@@ -1,0 +1,106 @@
+{
+  "date": "2026-05-29",
+  "generated_at": "2026-05-29T04:31:26Z",
+  "schema_version": 6,
+  "mode": "schwer",
+  "bundle_type": "daily",
+  "questions": [
+    {
+      "category": "Technologie",
+      "topic": "KI & Zukunftstechnologien",
+      "question": "Welcher Algorithmus wird häufig für die Implementierung von generativen Modellen in der KI verwendet?",
+      "choices": [
+        "A: Long Short-Term Memory (LSTM)",
+        "B: Generative Adversarial Networks (GANs)",
+        "C: K-Means Clustering",
+        "D: Support Vector Machines (SVM)"
+      ],
+      "correct_answer": "B",
+      "explanation": "Generative Adversarial Networks (GANs) sind ein populärer Algorithmus zur Erzeugung neuer Daten, die den Trainingsdaten ähnlich sind. Sie bestehen aus zwei Netzwerken, einem Generator und einem Diskriminator, die gegeneinander antreten, um realistischere Ausgaben zu erzeugen. Im Gegensatz dazu sind die anderen genannten Algorithmen nicht primär für generative Zwecke konzipiert.",
+      "difficulty": 10
+    },
+    {
+      "category": "Wissenschaft",
+      "topic": "Biologie",
+      "question": "Welche Funktion hat das Hämoglobin im menschlichen Körper?",
+      "choices": [
+        "A: Speicherung von Fett",
+        "B: Abwehr von Krankheiten",
+        "C: Transport von Sauerstoff",
+        "D: Regulation des Blutzuckerspiegels"
+      ],
+      "correct_answer": "C",
+      "explanation": "Hämoglobin ist ein Protein in den roten Blutkörperchen, das für den Transport von Sauerstoff von der Lunge zu den Geweben verantwortlich ist. Es bindet Sauerstoffmoleküle und gibt sie bei Bedarf an die Zellen ab. Ohne Hämoglobin könnte der Körper nicht ausreichend mit Sauerstoff versorgt werden.",
+      "difficulty": 5
+    },
+    {
+      "category": "Kunst und Literatur",
+      "topic": "Moderne & Zeitgenössische Kunst",
+      "question": "Welche Performance von Marina Abramović wird als ihr bekanntestes Werk angesehen, in dem sie über 700 Stunden lang in einem Museum saß und den Zuschauern erlaubte, ihr Gegenüber zu sitzen?",
+      "choices": [
+        "A: Rhythm 0",
+        "B: Balkan Baroque",
+        "C: The Artist Is Present",
+        "D: The Other: Womb"
+      ],
+      "correct_answer": "C",
+      "explanation": "In 'The Artist Is Present' saß Marina Abramović 2010 im Museum of Modern Art in New York, und Zuschauer konnten sich ihr gegenüber setzen. Diese Performance thematisiert Präsenz, Interaktion und die Beziehung zwischen Künstler und Publikum und gilt als Meilenstein in der Performancekunst.",
+      "difficulty": 7
+    },
+    {
+      "question": "Was ist ein typisches Merkmal eines Tagesgeldkontos?",
+      "category": "Wirtschaft & Finanzen",
+      "subcategory": "Sparen & Tagesgeld",
+      "difficulty": 6,
+      "choices": [
+        "A: Flexibilität beim Zugriff auf das Geld und variabler Zinssatz",
+        "B: Feste Laufzeit und höhere Zinsen als Tagesgeld",
+        "C: Garantierte Einlagensicherung nur bis 20.000 Euro",
+        "D: Zinsen werden nur einmal jährlich ausgezahlt"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "category": "Glaube & Religion",
+      "topic": "Klassische & nordische Mythologien",
+      "question": "Welches Element war entscheidend für die Rückkehr von Persephone aus der Unterwelt?",
+      "choices": [
+        "A: Ein silberner Schlüssel",
+        "B: Eine goldene Münze",
+        "C: Ein Lotosblütenblatt",
+        "D: Ein Granatapfel"
+      ],
+      "correct_answer": "D",
+      "explanation": "In der griechischen Mythologie musste Persephone, die Tochter von Demeter, einen Granatapfel in der Unterwelt essen, was ihre Rückkehr zur Hälfte des Jahres verzögert und damit den Wechsel der Jahreszeiten symbolisiert. Diese Geschichte verdeutlicht die Verbindung zwischen Leben, Tod und Fruchtbarkeit in der Mythologie der Antike.",
+      "difficulty": 8
+    },
+    {
+      "category": "Geschichte",
+      "topic": "Neuzeit",
+      "question": "Welches Jahr wird häufig mit dem Fall der Berliner Mauer in Verbindung gebracht?",
+      "choices": [
+        "A: 1987",
+        "B: 1989",
+        "C: 1991",
+        "D: 1990"
+      ],
+      "correct_answer": "B",
+      "explanation": "Der Fall der Berliner Mauer am 9. November 1989 markierte einen entscheidenden Wendepunkt in der deutschen Geschichte und leitete das Ende der Teilung Deutschlands ein. Dies führte letztendlich zur Wiedervereinigung Deutschlands am 3. Oktober 1990.",
+      "difficulty": 4
+    },
+    {
+      "category": "Sport",
+      "topic": "Sonstige",
+      "question": "Welche der folgenden Disziplinen ist keine offizielle Disziplin im nordischen Skisport?",
+      "choices": [
+        "A: Skispringen",
+        "B: Biathlon",
+        "C: Snowboardcross",
+        "D: Langlauf"
+      ],
+      "correct_answer": "C",
+      "explanation": "Snowboardcross gehört zu den Snowboard-Disziplinen und ist daher nicht Teil des nordischen Skisports. Der nordische Skisport umfasst Disziplinen wie Skispringen, Biathlon und Langlauf, die alle auf klassischen Langlaufski basieren.",
+      "difficulty": 9
+    }
+  ]
+}

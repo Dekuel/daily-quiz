@@ -1,0 +1,169 @@
+{
+  "date": "2026-05-29",
+  "generated_at": "2026-05-29T04:32:21Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Erster Hauptsatz & innere Energie",
+      "question": "Welcher der folgenden Aussagen beschreibt korrekt die Beziehung zwischen der inneren Energie eines Systems und der Arbeit sowie der Wärme, die ihm zugeführt oder entzogen wird?",
+      "choices": [
+        "A: Die Änderung der inneren Energie ist gleich der zugeführten Wärme minus der geleisteten Arbeit.",
+        "B: Wärme und Arbeit sind gleichwertige Formen der Energie, die unabhängig von der inneren Energie sind.",
+        "C: Die innere Energie bleibt konstant, wenn Arbeit verrichtet wird.",
+        "D: Die innere Energie eines Systems kann nur durch Wärmeübertragung verändert werden."
+      ],
+      "correct_answer": "A",
+      "explanation": "Der Erste Hauptsatz der Thermodynamik besagt, dass die Änderung der inneren Energie eines Systems gleich der zugeführten Wärme minus der geleisteten Arbeit ist. Das bedeutet, dass sowohl Wärme als auch Arbeit zur Änderung der inneren Energie beitragen können.",
+      "difficulty": 7,
+      "subcategory": "Erster Hauptsatz & innere Energie"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Laminar: parallele Wände",
+      "question": "Welcher Faktor beeinflusst die laminare Strömung zwischen zwei parallelen Wänden am stärksten?",
+      "choices": [
+        "A: Die Viskosität der Flüssigkeit",
+        "B: Die Temperatur der Flüssigkeit",
+        "C: Die Dichte der Flüssigkeit",
+        "D: Der Druck auf die Flüssigkeit"
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Viskosität der Flüssigkeit hat den größten Einfluss auf die laminare Strömung zwischen parallelen Wänden, da sie die innere Reibung der Flüssigkeit beschreibt. Eine höhere Viskosität führt zu einer stärkeren Dämpfung der Strömung und damit zu einer geringeren Geschwindigkeit in der Nähe der Wände.",
+      "difficulty": 9,
+      "subcategory": "Laminar: parallele Wände"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Energietransport in Wellenfeldern (Poynting-Vektor)",
+      "question": "Was beschreibt der Poynting-Vektor?",
+      "choices": [
+        "A: Die Frequenz einer elektromagnetischen Welle.",
+        "B: Die Richtung und Intensität des Energietransports in einem elektromagnetischen Feld.",
+        "C: Die Temperatur eines schwarzen Körpers.",
+        "D: Die elektrische Feldstärke in einem Leiter."
+      ],
+      "correct_answer": "B",
+      "explanation": "Der Poynting-Vektor ist ein wichtiges Konzept in der Elektrodynamik, das die Energieübertragung in elektromagnetischen Feldern beschreibt. Er zeigt die Richtung an, in die die Energie transportiert wird, sowie die Intensität dieses Energietransports.",
+      "difficulty": 3,
+      "subcategory": "Energietransport in Wellenfeldern (Poynting-Vektor)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Spontaner Phononenzerfall",
+      "question": "Welches der folgenden Phänomene ist ein Ergebnis des spontanen Phononenzerfalls in einem Festkörper?",
+      "choices": [
+        "A: Erzeugung von Wärme durch elastische Deformation",
+        "B: Abnahme der thermischen Leitfähigkeit bei tiefen Temperaturen",
+        "C: Die Erhöhung der Bandlücke in Halbleitern",
+        "D: Die Entstehung von Licht bei mechanischer Beanspruchung"
+      ],
+      "correct_answer": "B",
+      "explanation": "Der spontane Phononenzerfall führt bei tiefen Temperaturen zu einer Abnahme der thermischen Leitfähigkeit, da die Phononen nicht mehr effizient transportiert werden können. Dies ist ein wichtiges Phänomen in der Festkörperphysik, das das Verhalten von Materialien bei tiefen Temperaturen beeinflusst.",
+      "difficulty": 8,
+      "subcategory": "Spontaner Phononenzerfall"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Additionstheorem für Geschwindigkeiten",
+      "question": "Was besagt das Additionstheorem für Geschwindigkeiten in der Relativitätstheorie?",
+      "choices": [
+        "A: Die Geschwindigkeiten addieren sich nur, wenn sie in die gleiche Richtung zeigen.",
+        "B: Die Geschwindigkeiten addieren sich einfach wie im klassischen Fall.",
+        "C: Die Geschwindigkeiten addieren sich unter Berücksichtigung der Lichtgeschwindigkeit.",
+        "D: Die Geschwindigkeiten können niemals größer als die Lichtgeschwindigkeit sein."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Additionstheorem für Geschwindigkeiten in der Relativitätstheorie beschreibt, wie sich Geschwindigkeiten relativistisch addieren. Es berücksichtigt die Lichtgeschwindigkeit als obere Grenze und führt zu anderen Ergebnissen als die klassische Mechanik. Daher ist die korrekte Antwort C.",
+      "difficulty": 3,
+      "subcategory": "Additionstheorem für Geschwindigkeiten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Innere Reibung (Kontinuumsmechanik)",
+      "question": "Was beschreibt der Begriff 'innere Reibung' in einem Fluid?",
+      "choices": [
+        "A: Den Einfluss der Schwerkraft auf die Bewegungen von Fluiden.",
+        "B: Die Temperaturabhängigkeit der Dichte eines Fluids.",
+        "C: Den Widerstand, den Moleküle eines Fluids gegeneinander leisten.",
+        "D: Den Einfluss der äußeren Druckverhältnisse auf die Fluidbewegung."
+      ],
+      "correct_answer": "C",
+      "explanation": "Innere Reibung, auch Viskosität genannt, beschreibt den Widerstand, den benachbarte Moleküle eines Fluids beim Gleiten gegeneinander erfahren. Sie spielt eine wesentliche Rolle bei der Strömung von Flüssigkeiten und Gasen und beeinflusst die Materialeigenschaften des Fluids.",
+      "difficulty": 6,
+      "subcategory": "Innere Reibung (Kontinuumsmechanik)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Farbe von Gegenständen",
+      "question": "Welche Farbe erscheint ein Blatt Papier, wenn es mit rotem Licht beleuchtet wird?",
+      "choices": [
+        "A: Grün",
+        "B: Gelb",
+        "C: Rot",
+        "D: Blau"
+      ],
+      "correct_answer": "C",
+      "explanation": "Ein Blatt Papier erscheint in der Farbe des Lichts, das auf es fällt, wenn es keine anderen Farben reflektiert. Unter rotem Licht reflektiert das Blatt das rote Licht, wodurch es rot erscheint.",
+      "difficulty": 5,
+      "subcategory": "Farbe von Gegenständen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Relativität der Gleichzeitigkeit",
+      "question": "Wenn zwei Ereignisse zeitgleich in einem Bezugssystem beobachtet werden, wie wirken sich Bewegungen in einem anderen Bezugssystem auf die Wahrnehmung dieser Gleichzeitigkeit aus?",
+      "choices": [
+        "A: Die Gleichzeitigkeit bleibt nur in Bezug auf das erste Bezugssystem gültig.",
+        "B: Beide Ereignisse erscheinen in jedem Bezugssystem gleichzeitig.",
+        "C: Die Ereignisse erscheinen in jedem Bezugssystem unterschiedlich, abhängig von der Relativgeschwindigkeit.",
+        "D: Die Unterschiede in der Wahrnehmung der Gleichzeitigkeit sind irrelevant für die Physik."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Relativitätstheorie besagt, dass die Gleichzeitigkeit von Ereignissen relativ ist und von der Bewegungsrichtung sowie der Relativgeschwindigkeit zwischen den Beobachtern abhängt. In einem anderen Bezugssystem können sich die Ereignisse daher als nicht gleichzeitig darstellen.",
+      "difficulty": 8,
+      "subcategory": "Relativität der Gleichzeitigkeit"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Universalität & Skalenhypothese (statisch)",
+      "question": "Welche Aussage beschreibt am besten die Skalenhypothese in der statistischen Mechanik?",
+      "choices": [
+        "A: Statistische Mechanik kann nur für ideale Gase angewendet werden.",
+        "B: Makroskopische Eigenschaften eines Systems sind unabhängig von der mikroskopischen Details.",
+        "C: Die Energie eines Systems ist immer konstant.",
+        "D: Alle physikalischen Systeme verhalten sich gleich bei sehr hohen Temperaturen."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Skalenhypothese besagt, dass die makroskopischen Eigenschaften eines Systems von den Details der mikroskopischen Bestandteile unabhängig sind. Dies ermöglicht es, universelle Verhaltensweisen in verschiedenen Systemen zu identifizieren, ohne die spezifischen Wechselwirkungen im Detail betrachten zu müssen.",
+      "difficulty": 4,
+      "subcategory": "Universalität & Skalenhypothese (statisch)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Der Laser (Prinzip & Anwendungen)",
+      "question": "Was ist das Hauptprinzip, das einem Laser zugrunde liegt?",
+      "choices": [
+        "A: Reflektion",
+        "B: Stimulated Emission",
+        "C: Absorption",
+        "D: Streuung"
+      ],
+      "correct_answer": "B",
+      "explanation": "Das Hauptprinzip eines Lasers ist die stimulierte Emission, bei der Elektronen in einem angeregten Zustand durch die Einwirkung eines Photons dazu angeregt werden, ein weiteres Photon zu emittieren. Dies führt zu einer Verstärkung des Lichts und der charakteristischen kohärenten Strahlung eines Lasers.",
+      "difficulty": 5,
+      "subcategory": "Der Laser (Prinzip & Anwendungen)"
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "date": "2026-05-29",
+  "generated_at": "2026-05-29T04:33:11Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Erster Hauptsatz & innere Energie",
+      "question": "Which of the following statements correctly describes the relationship between the internal energy of a system and the work and heat added to or removed from it?",
+      "choices": [
+        "A: The change in internal energy is equal to the heat added minus the work done.",
+        "B: Heat and work are equivalent forms of energy independent of internal energy.",
+        "C: The internal energy remains constant when work is done.",
+        "D: The internal energy of a system can only be changed by heat transfer."
+      ],
+      "correct_answer": "A",
+      "explanation": "The First Law of Thermodynamics states that the change in internal energy of a system is equal to the heat added minus the work done. This means that both heat and work can contribute to the change in internal energy.",
+      "difficulty": 7,
+      "subcategory": "Erster Hauptsatz & innere Energie"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Laminar: parallele Wände",
+      "question": "Which factor has the greatest influence on laminar flow between two parallel walls?",
+      "choices": [
+        "A: The viscosity of the fluid",
+        "B: The temperature of the fluid",
+        "C: The density of the fluid",
+        "D: The pressure on the fluid"
+      ],
+      "correct_answer": "A",
+      "explanation": "The viscosity of the fluid has the greatest impact on laminar flow between parallel walls, as it describes the internal friction of the fluid. Higher viscosity leads to stronger damping of the flow and thus lower velocity near the walls.",
+      "difficulty": 9,
+      "subcategory": "Laminar: parallele Wände"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Energietransport in Wellenfeldern (Poynting-Vektor)",
+      "question": "What does the Poynting vector describe?",
+      "choices": [
+        "A: The frequency of an electromagnetic wave.",
+        "B: The direction and intensity of energy transfer in an electromagnetic field.",
+        "C: The temperature of a black body.",
+        "D: The electric field strength in a conductor."
+      ],
+      "correct_answer": "B",
+      "explanation": "The Poynting vector is an important concept in electrodynamics that describes energy transfer in electromagnetic fields. It indicates the direction in which energy is transported and the intensity of this energy transfer.",
+      "difficulty": 3,
+      "subcategory": "Energietransport in Wellenfeldern (Poynting-Vektor)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Spontaner Phononenzerfall",
+      "question": "Which of the following phenomena is a result of spontaneous phonon decay in a solid?",
+      "choices": [
+        "A: Generation of heat through elastic deformation",
+        "B: Decrease in thermal conductivity at low temperatures",
+        "C: Increase in band gap in semiconductors",
+        "D: Generation of light under mechanical stress"
+      ],
+      "correct_answer": "B",
+      "explanation": "Spontaneous phonon decay leads to a decrease in thermal conductivity at low temperatures, as phonons can no longer be efficiently transported. This is an important phenomenon in solid-state physics that influences the behavior of materials at low temperatures.",
+      "difficulty": 8,
+      "subcategory": "Spontaner Phononenzerfall"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Additionstheorem für Geschwindigkeiten",
+      "question": "What does the addition theorem for velocities in relativity theory state?",
+      "choices": [
+        "A: Velocities only add up if they are in the same direction.",
+        "B: Velocities add up simply as in the classical case.",
+        "C: Velocities add up considering the speed of light.",
+        "D: Velocities can never exceed the speed of light."
+      ],
+      "correct_answer": "C",
+      "explanation": "The addition theorem for velocities in relativity theory describes how velocities add relativistically. It considers the speed of light as an upper limit and leads to different results than classical mechanics. Therefore, the correct answer is C.",
+      "difficulty": 3,
+      "subcategory": "Additionstheorem für Geschwindigkeiten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Innere Reibung (Kontinuumsmechanik)",
+      "question": "What does the term 'internal friction' in a fluid describe?",
+      "choices": [
+        "A: The influence of gravity on fluid movements.",
+        "B: The temperature dependence of a fluid's density.",
+        "C: The resistance that molecules of a fluid exert against each other.",
+        "D: The influence of external pressure conditions on fluid motion."
+      ],
+      "correct_answer": "C",
+      "explanation": "Internal friction, also known as viscosity, describes the resistance experienced by neighboring molecules of a fluid as they slide against each other. It plays a crucial role in the flow of liquids and gases and influences the material properties of the fluid.",
+      "difficulty": 6,
+      "subcategory": "Innere Reibung (Kontinuumsmechanik)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Farbe von Gegenständen",
+      "question": "What color does a piece of paper appear when illuminated with red light?",
+      "choices": [
+        "A: Green",
+        "B: Yellow",
+        "C: Red",
+        "D: Blue"
+      ],
+      "correct_answer": "C",
+      "explanation": "A piece of paper appears in the color of the light falling on it if it does not reflect other colors. Under red light, the paper reflects red light, making it appear red.",
+      "difficulty": 5,
+      "subcategory": "Farbe von Gegenständen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Relativität der Gleichzeitigkeit",
+      "question": "If two events are observed simultaneously in one reference frame, how do motions in another reference frame affect the perception of this simultaneity?",
+      "choices": [
+        "A: Simultaneity remains valid only with respect to the first reference frame.",
+        "B: Both events appear simultaneous in every reference frame.",
+        "C: The events appear different in every reference frame, depending on the relative velocity.",
+        "D: Differences in the perception of simultaneity are irrelevant to physics."
+      ],
+      "correct_answer": "C",
+      "explanation": "According to the theory of relativity, the simultaneity of events is relative and depends on the direction of motion and the relative velocity between observers. In another reference frame, the events may not appear simultaneous.",
+      "difficulty": 8,
+      "subcategory": "Relativität der Gleichzeitigkeit"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Universalität & Skalenhypothese (statisch)",
+      "question": "Which statement best describes the scale hypothesis in statistical mechanics?",
+      "choices": [
+        "A: Statistical mechanics can only be applied to ideal gases.",
+        "B: Macroscopic properties of a system are independent of microscopic details.",
+        "C: The energy of a system is always constant.",
+        "D: All physical systems behave the same at very high temperatures."
+      ],
+      "correct_answer": "B",
+      "explanation": "The scale hypothesis states that the macroscopic properties of a system are independent of the details of its microscopic components. This allows for identifying universal behaviors in different systems without needing to consider the specific interactions in detail.",
+      "difficulty": 4,
+      "subcategory": "Universalität & Skalenhypothese (statisch)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Der Laser (Prinzip & Anwendungen)",
+      "question": "What is the main principle underlying a laser?",
+      "choices": [
+        "A: Reflection",
+        "B: Stimulated Emission",
+        "C: Absorption",
+        "D: Scattering"
+      ],
+      "correct_answer": "B",
+      "explanation": "The main principle of a laser is stimulated emission, where electrons in an excited state are stimulated by a photon to emit another photon. This leads to amplification of light and the characteristic coherent radiation of a laser.",
+      "difficulty": 5,
+      "subcategory": "Der Laser (Prinzip & Anwendungen)"
+    }
+  ]
+}
