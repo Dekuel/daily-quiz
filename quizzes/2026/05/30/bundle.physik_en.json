@@ -1,0 +1,168 @@
+{
+  "date": "2026-05-30",
+  "generated_at": "2026-05-30T04:24:51Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Ideales Gas (Zustandsgleichung)",
+      "question": "Which of the following equations correctly describes the ideal gas law?",
+      "choices": [
+        "A: PV = nRT^2",
+        "B: PV = nRT",
+        "C: PV^2 = nRT",
+        "D: PV = nR/T"
+      ],
+      "correct_answer": "B",
+      "explanation": "The ideal gas law describes the relationship between pressure (P), volume (V), the number of moles (n), and the temperature (T) of an ideal gas. The correct equation is PV = nRT, where R is the universal gas constant.",
+      "difficulty": 9,
+      "subcategory": "Ideales Gas (Zustandsgleichung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Hamilton’sches Prinzip (Prinzip der stationären Wirkung)",
+      "question": "Which of the following concepts describes Hamilton's principle in analytical mechanics?",
+      "choices": [
+        "A: The action of a system is stationary, meaning the change in action is zero.",
+        "B: The energy of a closed system always remains constant.",
+        "C: The force acting on a particle is constant throughout its motion.",
+        "D: The path of a particle minimizes the total time it takes to travel from one point to another."
+      ],
+      "correct_answer": "A",
+      "explanation": "Hamilton's principle states that the actual path of a system is the one for which the action is stationary. This means that the variation of the action is zero, leading to the equations of motion.",
+      "difficulty": 6,
+      "subcategory": "Hamilton’sches Prinzip (Prinzip der stationären Wirkung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Querkontraktion",
+      "question": "What does the term 'lateral contraction' describe in physics?",
+      "choices": [
+        "A: The increase in length of a material under pressure.",
+        "B: The temperature increase of a body due to friction.",
+        "C: The change in volume of a body with temperature change.",
+        "D: The decrease in width of a material under tension."
+      ],
+      "correct_answer": "D",
+      "explanation": "Lateral contraction describes the phenomenon where materials decrease in width when stretched in the longitudinal direction. This is an important consideration in mechanics and materials science.",
+      "difficulty": 3,
+      "subcategory": "Querkontraktion"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Absolute thermodynamische Temperaturskala",
+      "question": "What is the absolute temperature scale used in thermodynamics?",
+      "choices": [
+        "A: Fahrenheit",
+        "B: Kelvin",
+        "C: Rankine",
+        "D: Celsius"
+      ],
+      "correct_answer": "B",
+      "explanation": "The absolute temperature scale is the Kelvin scale, starting at 0 K, the absolute zero point. This scale is independent of the material and is commonly used in thermodynamics for thermodynamic calculations.",
+      "difficulty": 3,
+      "subcategory": "Absolute thermodynamische Temperaturskala"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Lichtkegel und Minkowski-Diagramme",
+      "question": "What does a light cone represent in Minkowski diagrams?",
+      "choices": [
+        "A: The propagation of light rays in spacetime.",
+        "B: The structure of atomic nuclei.",
+        "C: The trajectory of particle motion in the classical sense.",
+        "D: The interaction of matter and antimatter."
+      ],
+      "correct_answer": "A",
+      "explanation": "A light cone in Minkowski diagrams represents the possible positions a light ray can occupy in spacetime. It shows how light moves through spacetime at maximum speed and separates the regions that can be influenced by an event from those that cannot.",
+      "difficulty": 3,
+      "subcategory": "Lichtkegel und Minkowski-Diagramme"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Fundamentale Poisson-Klammern",
+      "question": "Which of the following statements about fundamental Poisson brackets is correct?",
+      "choices": [
+        "A: The Poisson bracket of two canonical variables is always equal to the curvature of phase space.",
+        "B: Poisson brackets are only defined for systems with a single degree of freedom.",
+        "C: Poisson brackets are symmetric in their arguments and describe the temporal evolution of observables.",
+        "D: The Poisson bracket of a state with itself is zero, regardless of the choice of variables."
+      ],
+      "correct_answer": "C",
+      "explanation": "The Poisson bracket of two observables is a central concept in analytical mechanics, describing the relationship between these observables and their temporal evolution. It is antisymmetric and plays a crucial role in Hamiltonian dynamics, not only in systems with one degree of freedom but also in more complex systems.",
+      "difficulty": 10,
+      "subcategory": "Fundamentale Poisson-Klammern"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Doppelbrechung",
+      "question": "What does the term 'birefringence' describe in optics?",
+      "choices": [
+        "A: Light is not affected by a medium.",
+        "B: Light slows down in a medium.",
+        "C: Light is split into two different directions.",
+        "D: Light is completely reflected."
+      ],
+      "correct_answer": "C",
+      "explanation": "Birefringence is a phenomenon where light rays passing through certain materials, such as calcite, are split into two different directions. This results in two different refractive indices, characteristic of anisotropic materials.",
+      "difficulty": 2,
+      "subcategory": "Doppelbrechung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Ginzburg–Landau-Funktional & -Nähe",
+      "question": "What does the Ginzburg-Landau functional describe in statistical mechanics?",
+      "choices": [
+        "A: The thermodynamic properties of an ideal gas.",
+        "B: The structure of solid crystals at high temperatures.",
+        "C: The free energy of a superconductor as a function of the order parameter matrix.",
+        "D: The interactions between particles in a plasma."
+      ],
+      "correct_answer": "C",
+      "explanation": "The Ginzburg-Landau functional is a theoretical tool in statistical mechanics that describes the free energy of a superconductor as a function of the order parameter matrix. It is commonly used to analyze phase transitions in superconducting materials.",
+      "difficulty": 9,
+      "subcategory": "Ginzburg–Landau-Funktional & -Nähe"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Typen der schwachen Wechselwirkung (CC/NC)",
+      "question": "Which of the following statements correctly describes the neutrinoless weak interaction?",
+      "choices": [
+        "A: It changes the electric charges of quarks.",
+        "B: It only occurs between charged particles.",
+        "C: It is responsible for the beta decay of neutrons.",
+        "D: It produces electrons and antineutrinos."
+      ],
+      "correct_answer": "A",
+      "explanation": "The neutrinoless weak interaction, also known as Charged Current Interaction, causes the conversion of quarks, leading to a change in their electric charges, while neutral current (NC) interactions do not cause charge changes. This distinction is central to understanding weak interactions in particle physics.",
+      "difficulty": 7,
+      "subcategory": "Typen der schwachen Wechselwirkung (CC/NC)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Entropie: Definition & Extremaleigenschaft",
+      "question": "What does entropy describe in a closed system?",
+      "choices": [
+        "A: The disorder and the number of possible microstates.",
+        "B: The temperature of the system.",
+        "C: The number of particles in the system.",
+        "D: The total energy of the system."
+      ],
+      "correct_answer": "A",
+      "explanation": "Entropy is a measure of the disorder of a system, indicating how many microstates are compatible with a given macroscopic state configuration. Higher entropy means more possible arrangements of particles, leading to greater disorder.",
+      "difficulty": 4,
+      "subcategory": "Entropie: Definition & Extremaleigenschaft"
+    }
+  ]
+}

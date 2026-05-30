@@ -1,0 +1,169 @@
+{
+  "date": "2026-05-30",
+  "generated_at": "2026-05-30T04:24:09Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Ideales Gas (Zustandsgleichung)",
+      "question": "Welche der folgenden Gleichungen beschreibt korrekt das ideale Gasgesetz?",
+      "choices": [
+        "A: PV = nRT^2",
+        "B: PV = nRT",
+        "C: PV^2 = nRT",
+        "D: PV = nR/T"
+      ],
+      "correct_answer": "B",
+      "explanation": "Das ideale Gasgesetz beschreibt die Beziehung zwischen Druck (P), Volumen (V), der Anzahl der Mol (n) und der Temperatur (T) eines idealen Gases. Die korrekte Gleichung ist PV = nRT, wobei R die universelle Gaskonstante ist.",
+      "difficulty": 9,
+      "subcategory": "Ideales Gas (Zustandsgleichung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Hamilton’sches Prinzip (Prinzip der stationären Wirkung)",
+      "question": "Welches der folgenden Konzepte beschreibt das Hamilton’sche Prinzip in der analytischen Mechanik?",
+      "choices": [
+        "A: Die Wirkung eines Systems ist stationär, was bedeutet, dass die Änderung der Wirkung um Null ist.",
+        "B: Die Energie eines geschlossenen Systems bleibt immer konstant.",
+        "C: Die Kraft, die auf ein Teilchen wirkt, ist immer konstant während seiner Bewegung.",
+        "D: Die Bahn eines Teilchens minimiert die gesamte Zeit, die es benötigt, um von einem Punkt zu einem anderen zu gelangen."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Hamilton’sche Prinzip besagt, dass die tatsächliche Bahn eines Systems diejenige ist, für die die Wirkung stationär ist. Dies bedeutet, dass die Variation der Wirkung um Null ist, was zu den Bewegungsgleichungen führt.",
+      "difficulty": 6,
+      "subcategory": "Hamilton’sches Prinzip (Prinzip der stationären Wirkung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Querkontraktion",
+      "question": "Was beschreibt der Begriff Querkontraktion in der Physik?",
+      "choices": [
+        "A: Die Zunahme der Länge eines Materials bei Druck.",
+        "B: Die Temperaturerhöhung eines Körpers durch Reibung.",
+        "C: Die Änderung des Volumens eines Körpers bei Temperaturänderung.",
+        "D: Die Abnahme der Breite eines Materials bei Dehnung."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Querkontraktion beschreibt das Phänomen, dass Materialien sich in der Breite verringern, wenn sie in Längsrichtung gedehnt werden. Dies ist eine wichtige Überlegung in der Mechanik und Materialwissenschaft.",
+      "difficulty": 3,
+      "subcategory": "Querkontraktion"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Absolute thermodynamische Temperaturskala",
+      "question": "Was ist die absolute Temperaturskala, die in der Thermodynamik verwendet wird?",
+      "choices": [
+        "A: Fahrenheit",
+        "B: Kelvin",
+        "C: Rankine",
+        "D: Celsius"
+      ],
+      "correct_answer": "B",
+      "explanation": "Die absolute Temperaturskala ist die Kelvin-Skala, die bei 0 K beginnt, dem absoluten Nullpunkt. Diese Skala ist unabhängig von der Art des Materials und wird häufig in der Thermodynamik verwendet, um thermodynamische Berechnungen durchzuführen.",
+      "difficulty": 3,
+      "subcategory": "Absolute thermodynamische Temperaturskala"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Lichtkegel und Minkowski-Diagramme",
+      "question": "Was beschreibt ein Lichtkegel im Minkowski-Diagramm?",
+      "choices": [
+        "A: Die Ausbreitung von Lichtstrahlen in der Raum-Zeit.",
+        "B: Die Struktur von Atomkernen.",
+        "C: Den Verlauf von Teilchenbewegungen im klassischen Sinne.",
+        "D: Die Wechselwirkung von Materie und Antimaterie."
+      ],
+      "correct_answer": "A",
+      "explanation": "Ein Lichtkegel im Minkowski-Diagramm stellt die möglichen Positionen dar, die ein Lichtstrahl im Raum-Zeit-Kontinuum einnehmen kann. Er zeigt, wie sich Licht mit maximaler Geschwindigkeit durch die Raum-Zeit bewegt und trennt die Bereiche, die von einem Ereignis beeinflusst werden können, von den Bereichen, die nicht beeinflusst werden können.",
+      "difficulty": 3,
+      "subcategory": "Lichtkegel und Minkowski-Diagramme"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Fundamentale Poisson-Klammern",
+      "question": "Welche der folgenden Aussagen über fundamentale Poisson-Klammern ist korrekt?",
+      "choices": [
+        "A: Die Poisson-Klammer zweier kanonischer Variablen ist immer gleich der Krümmung des Phasenraumes.",
+        "B: Poisson-Klammern sind nur für Systeme mit einem einzigen Freiheitsgrad definiert.",
+        "C: Poisson-Klammern sind symmetrisch in ihren Argumenten und beschreiben die zeitliche Entwicklung von Observablen.",
+        "D: Die Poisson-Klammer eines Zustands mit sich selbst ist gleich null, unabhängig von der Wahl der Variablen."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Poisson-Klammer zweier Observablen ist ein zentrales Konzept in der analytischen Mechanik, welches die Beziehung zwischen diesen Observablen und deren zeitlicher Entwicklung beschreibt. Sie ist anti-symmetrisch und spielt eine entscheidende Rolle in der Hamiltonschen Dynamik, nicht nur in Systemen mit einem Freiheitsgrad, sondern auch in komplexeren Systemen.",
+      "difficulty": 10,
+      "subcategory": "Fundamentale Poisson-Klammern"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Doppelbrechung",
+      "question": "Was beschreibt der Begriff 'Doppelbrechung' in der Optik?",
+      "choices": [
+        "A: Licht wird nicht von einem Medium beeinflusst.",
+        "B: Licht wird in einem Medium langsamer.",
+        "C: Licht wird in zwei verschiedene Richtungen gebrochen.",
+        "D: Licht wird vollständig reflektiert."
+      ],
+      "correct_answer": "C",
+      "explanation": "Doppelbrechung ist ein Phänomen, bei dem Lichtstrahlen beim Durchgang durch bestimmte Materialien, wie z.B. Kalkspat, in zwei unterschiedliche Richtungen gebrochen werden. Dies führt zu zwei verschiedenen Brechungsindices, was charakteristisch für anisotrope Materialien ist.",
+      "difficulty": 2,
+      "subcategory": "Doppelbrechung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Ginzburg–Landau-Funktional & -Nähe",
+      "question": "Was beschreibt das Ginzburg–Landau-Funktional in der statistischen Mechanik?",
+      "choices": [
+        "A: Die thermodynamischen Eigenschaften eines idealen Gases.",
+        "B: Die Struktur von festen Kristallen bei hohen Temperaturen.",
+        "C: Die freie Energie eines Superleiters in Abhängigkeit von der Ordnungsmatrix.",
+        "D: Die Wechselwirkungen zwischen Teilchen in einem Plasma."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Ginzburg–Landau-Funktional ist ein theoretisches Werkzeug in der statistischen Mechanik, das die freie Energie eines Superleiters in Abhängigkeit von der Ordnungsmatrix beschreibt. Es wird häufig verwendet, um Phasenübergänge in supraleitenden Materialien zu analysieren.",
+      "difficulty": 9,
+      "subcategory": "Ginzburg–Landau-Funktional & -Nähe"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Typen der schwachen Wechselwirkung (CC/NC)",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt die neutrinolose schwache Wechselwirkung?",
+      "choices": [
+        "A: Sie verändert die elektrischen Ladungen von Quarks.",
+        "B: Sie tritt nur zwischen geladenen Teilchen auf.",
+        "C: Sie ist verantwortlich für den Beta-Zerfall von Neutronen.",
+        "D: Sie erzeugt Elektronen und Antineutrinos."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die neutrinolose schwache Wechselwirkung, auch als Charged Current Interaction bezeichnet, bewirkt die Umwandlung von Quarks und führt somit zu einer Veränderung ihrer elektrischen Ladungen, während die neutralen Wechselwirkungen (NC) keine Ladungsänderungen verursachen. Diese Unterscheidung ist zentral für das Verständnis der schwachen Wechselwirkungen in der Teilchenphysik.",
+      "difficulty": 7,
+      "subcategory": "Typen der schwachen Wechselwirkung (CC/NC)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Entropie: Definition & Extremaleigenschaft",
+      "question": "Was beschreibt die Entropie in einem geschlossenen System?",
+      "choices": [
+        "A: Die Unordnung und die Anzahl der möglichen Mikrozustände.",
+        "B: Die Temperatur des Systems.",
+        "C: Die Anzahl der Teilchen im System.",
+        "D: Die Gesamtenergie des Systems."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Entropie ist ein Maß für die Unordnung eines Systems und gibt an, wie viele Mikrozustände mit einer bestimmten makroskopischen Zustandskonfiguration vereinbar sind. Eine höhere Entropie bedeutet mehr mögliche Anordnungen der Teilchen, was zu einer größeren Unordnung führt.",
+      "difficulty": 4,
+      "subcategory": "Entropie: Definition & Extremaleigenschaft"
+    }
+  ]
+}
