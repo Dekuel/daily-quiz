@@ -1,0 +1,168 @@
+{
+  "date": "2026-05-31",
+  "generated_at": "2026-05-31T04:32:35Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Feldstärke-Tensor (Fμν)",
+      "question": "Which of the following elements is part of the field strength tensor Fμν in relativity theory?",
+      "choices": [
+        "A: Electric field strength",
+        "B: Time dilation",
+        "C: Gravitational field",
+        "D: Mass"
+      ],
+      "correct_answer": "A",
+      "explanation": "The field strength tensor Fμν describes the electromagnetic fields in relativity theory and includes both the electric and magnetic field strength. The electric field strength is thus an elementary component of this tensor.",
+      "difficulty": 8,
+      "subcategory": "Feldstärke-Tensor (Fμν)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Messung der Erdverformung",
+      "question": "What instrument is commonly used to measure earth deformation?",
+      "choices": [
+        "A: Microscopes",
+        "B: Barometers",
+        "C: Geodetic instruments",
+        "D: Thermometers"
+      ],
+      "correct_answer": "C",
+      "explanation": "Geodetic instruments are specially designed to measure changes in the shape and position of the Earth. These include instruments such as theodolites and GPS systems, which can provide precise data on earth deformation.",
+      "difficulty": 1,
+      "subcategory": "Messung der Erdverformung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Ideales Fermi-Gas: Grundzustand & starke Entartung",
+      "question": "What describes the ground state of an ideal Fermi gas at low temperatures?",
+      "choices": [
+        "A: Particles occupy the lowest energy states until all are filled.",
+        "B: All states are completely degenerate.",
+        "C: All particles are at the highest energy levels.",
+        "D: The gas has maximum entropy."
+      ],
+      "correct_answer": "A",
+      "explanation": "In the ground state of an ideal Fermi gas, particles fill the lowest available energy states according to the Pauli exclusion principle. This leads to a strong degeneracy of states, as the particles are fermionic and cannot occupy the same state.",
+      "difficulty": 5,
+      "subcategory": "Ideales Fermi-Gas: Grundzustand & starke Entartung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Sommerfeldsche Theorie",
+      "question": "Which assumption is central to the Sommerfeld theory of electrons in metals?",
+      "choices": [
+        "A: Electrons have a finite mass.",
+        "B: Electrons can be considered as free particles in a periodic system.",
+        "C: Electrons move in a constant potential.",
+        "D: Interactions between electrons are negligible."
+      ],
+      "correct_answer": "B",
+      "explanation": "The Sommerfeld theory considers electrons in metals as free particles arranged in a regular lattice. This assumption allows for explaining the electrical and thermal properties of metals by examining the energy levels and density of states of electrons.",
+      "difficulty": 8,
+      "subcategory": "Sommerfeldsche Theorie"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Welle-Teilchen-Dualismus (Licht)",
+      "question": "What does the wave-particle duality describe regarding light?",
+      "choices": [
+        "A: Light behaves as both a wave and a particle.",
+        "B: Light can only be considered as a particle.",
+        "C: Light can only be considered as a wave.",
+        "D: Light has no defined structure."
+      ],
+      "correct_answer": "A",
+      "explanation": "The wave-particle duality states that light exhibits both wave-like and particle-like properties. This theory helps explain various phenomena such as interference and photoelectric effects.",
+      "difficulty": 1,
+      "subcategory": "Welle-Teilchen-Dualismus (Licht)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Dampfdruckkurve & Clausius–Clapeyron-Gleichung",
+      "question": "What does the Clausius–Clapeyron equation describe?",
+      "choices": [
+        "A: The relationship between pressure and temperature of a phase transition.",
+        "B: The relationship between energy and work in a closed system.",
+        "C: The speed at which heat moves through a substance.",
+        "D: The forces acting on a body at rest."
+      ],
+      "correct_answer": "A",
+      "explanation": "The Clausius–Clapeyron equation describes the relationship between vapor pressure and temperature during a phase transition, such as the transition from liquid to gas. This equation is important for understanding phase diagrams and vapor pressure curves of different substances.",
+      "difficulty": 5,
+      "subcategory": "Dampfdruckkurve & Clausius–Clapeyron-Gleichung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Bewegte Punktladungen & Liénard–Wiechert-Potentiale",
+      "question": "What does the Liénard–Wiechert potential describe in electrodynamics?",
+      "choices": [
+        "A: The electric field of a constant source.",
+        "B: The magnetic field of a stationary charge.",
+        "C: The potential of a stationary point charge.",
+        "D: The potential of a moving point charge."
+      ],
+      "correct_answer": "D",
+      "explanation": "The Liénard–Wiechert potential describes the electric potential generated by a moving point charge. It takes into account the motion of the charge and the time delay of interactions in electrodynamics.",
+      "difficulty": 1,
+      "subcategory": "Bewegte Punktladungen & Liénard–Wiechert-Potentiale"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Geschl. System bei konstanten Kräften: Minimum der Enthalpie H",
+      "question": "What does the minimum of enthalpy H in a closed thermodynamic system describe?",
+      "choices": [
+        "A: It is the state with the lowest internal energy.",
+        "B: It is the state in which temperature remains constant.",
+        "C: It is the state ensuring the maximum stability of the system.",
+        "D: It is the state in which pressure remains constant."
+      ],
+      "correct_answer": "C",
+      "explanation": "The minimum of enthalpy H in a closed system corresponds to the state of maximum stability, as in this state energy losses are minimized. This is important for thermodynamic equilibrium and process efficiency.",
+      "difficulty": 4,
+      "subcategory": "Geschl. System bei konstanten Kräften: Minimum der Enthalpie H"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Helmholtzsche Wirbelsätze",
+      "question": "What does the Helmholtz's theorem state about the conservation of vortex motions in an ideal fluid?",
+      "choices": [
+        "A: Vortex motions cannot be created.",
+        "B: Vortex motions remain constant in a closed system.",
+        "C: Vortex motions can be arbitrarily amplified.",
+        "D: Vortex motions always lead to a pressure drop."
+      ],
+      "correct_answer": "B",
+      "explanation": "Helmholtz's theorem describes that in an ideal fluid, vortex motions in a closed system remain constant as long as no external forces act. This is a basis for understanding flows in fluid mechanics.",
+      "difficulty": 4,
+      "subcategory": "Helmholtzsche Wirbelsätze"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Atomarer Transport (Diffusion)",
+      "question": "What describes the process of diffusion in solids?",
+      "choices": [
+        "A: The arrangement of atoms in a solid lattice without movement.",
+        "B: The transformation of solids into liquids.",
+        "C: The heat conduction through a solid.",
+        "D: The movement of atoms or molecules from an area of high concentration to an area of low concentration."
+      ],
+      "correct_answer": "D",
+      "explanation": "Diffusion refers to the movement of particles due to concentration differences. In solids, this typically occurs through the migration of atoms or molecules within the crystal lattice, leading to mixing and equilibrium.",
+      "difficulty": 6,
+      "subcategory": "Atomarer Transport (Diffusion)"
+    }
+  ]
+}

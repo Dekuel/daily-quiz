@@ -1,0 +1,169 @@
+{
+  "date": "2026-05-31",
+  "generated_at": "2026-05-31T04:32:06Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Feldstärke-Tensor (Fμν)",
+      "question": "Welches der folgenden Elemente ist Teil des Feldstärke-Tensors Fμν in der Relativitätstheorie?",
+      "choices": [
+        "A: Elektrische Feldstärke",
+        "B: Zeitdilatation",
+        "C: Gravitationsfeld",
+        "D: Masse"
+      ],
+      "correct_answer": "A",
+      "explanation": "Der Feldstärke-Tensor Fμν beschreibt die elektromagnetischen Felder in der Relativitätstheorie und beinhaltet sowohl die elektrische als auch die magnetische Feldstärke. Die elektrische Feldstärke ist somit ein elementarer Bestandteil dieses Tensors.",
+      "difficulty": 8,
+      "subcategory": "Feldstärke-Tensor (Fμν)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Messung der Erdverformung",
+      "question": "Welches Instrument wird häufig verwendet, um die Erdverformung zu messen?",
+      "choices": [
+        "A: Mikroskope",
+        "B: Barometer",
+        "C: Geodätische Instrumente",
+        "D: Thermometer"
+      ],
+      "correct_answer": "C",
+      "explanation": "Geodätische Instrumente sind speziell entwickelt, um Veränderungen in der Form und Position der Erde zu messen. Dazu gehören beispielsweise Theodoliten und GPS-Systeme, die präzise Daten zur Erdverformung liefern können.",
+      "difficulty": 1,
+      "subcategory": "Messung der Erdverformung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Ideales Fermi-Gas: Grundzustand & starke Entartung",
+      "question": "Was beschreibt den Grundzustand eines idealen Fermi-Gases bei niedrigen Temperaturen?",
+      "choices": [
+        "A: Teilchen besetzen die niedrigsten Energiezustände, bis alle besetzt sind.",
+        "B: Alle Zustände sind vollständig entartet.",
+        "C: Alle Teilchen befinden sich im höchsten energieniveaus.",
+        "D: Das Gas hat eine maximale Entropie."
+      ],
+      "correct_answer": "A",
+      "explanation": "Im Grundzustand eines idealen Fermi-Gases füllen die Teilchen die niedrigsten verfügbaren Energiezustände auf, gemäß dem Pauli-Prinzip. Dies führt zu einer starken Entartung der Zustände, da die Teilchen fermionisch sind und nicht den gleichen Zustand besetzen können.",
+      "difficulty": 5,
+      "subcategory": "Ideales Fermi-Gas: Grundzustand & starke Entartung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Sommerfeldsche Theorie",
+      "question": "Welche Annahme ist zentral für die Sommerfeldsche Theorie der Elektronen in Metallen?",
+      "choices": [
+        "A: Die Elektronen haben eine endliche Masse.",
+        "B: Die Elektronen können als freie Teilchen in einem Periodensystem betrachtet werden.",
+        "C: Die Elektronen bewegen sich in einem konstanten Potential.",
+        "D: Die Wechselwirkungen zwischen Elektronen sind vernachlässigbar."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Sommerfeldsche Theorie betrachtet Elektronen in Metallen als freie Teilchen, die sich in einem regelmäßigen Gitter anordnen. Diese Annahme ermöglicht es, die elektrischen und thermischen Eigenschaften von Metallen zu erklären, indem man die Energieniveaus und die Zustandsdichte der Elektronen untersucht.",
+      "difficulty": 8,
+      "subcategory": "Sommerfeldsche Theorie"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Welle-Teilchen-Dualismus (Licht)",
+      "question": "Was beschreibt der Welle-Teilchen-Dualismus in Bezug auf Licht?",
+      "choices": [
+        "A: Licht verhält sich sowohl wie eine Welle als auch wie ein Teilchen.",
+        "B: Licht kann nur als Teilchen betrachtet werden.",
+        "C: Licht kann nur als Welle betrachtet werden.",
+        "D: Licht hat keine definierte Struktur."
+      ],
+      "correct_answer": "A",
+      "explanation": "Der Welle-Teilchen-Dualismus besagt, dass Licht sowohl wellenartige als auch teilchenartige Eigenschaften aufweist. Diese Theorie hilft, verschiedene Phänomene wie Interferenz und photoelektrische Effekte zu erklären.",
+      "difficulty": 1,
+      "subcategory": "Welle-Teilchen-Dualismus (Licht)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Dampfdruckkurve & Clausius–Clapeyron-Gleichung",
+      "question": "Was beschreibt die Clausius–Clapeyron-Gleichung?",
+      "choices": [
+        "A: Den Zusammenhang zwischen Druck und Temperatur eines Phasenübergangs.",
+        "B: Die Beziehung zwischen Energie und Arbeit in einem geschlossenen System.",
+        "C: Die Geschwindigkeit, mit der sich Wärme durch einen Stoff bewegt.",
+        "D: Die Kräfte, die auf einen Körper in Ruhe wirken."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Clausius–Clapeyron-Gleichung beschreibt den Zusammenhang zwischen dem Dampfdruck und der Temperatur während eines Phasenübergangs, wie zum Beispiel beim Übergang von flüssig zu gasförmig. Diese Gleichung ist wichtig für das Verständnis von Phasendiagrammen und der Dampfdruckkurven verschiedener Stoffe.",
+      "difficulty": 5,
+      "subcategory": "Dampfdruckkurve & Clausius–Clapeyron-Gleichung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Bewegte Punktladungen & Liénard–Wiechert-Potentiale",
+      "question": "Was beschreibt das Liénard–Wiechert-Potential in der Elektrodynamik?",
+      "choices": [
+        "A: Das elektrische Feld einer konstanten Quelle.",
+        "B: Das Magnetfeld einer ruhenden Ladung.",
+        "C: Das Potential einer ruhenden Punktladung.",
+        "D: Das Potential einer bewegten Punktladung."
+      ],
+      "correct_answer": "D",
+      "explanation": "Das Liénard–Wiechert-Potential beschreibt das elektrische Potential, das von einer bewegten Punktladung erzeugt wird. Es berücksichtigt die Bewegung der Ladung und die Zeitverzögerung der Wechselwirkungen in der Elektrodynamik.",
+      "difficulty": 1,
+      "subcategory": "Bewegte Punktladungen & Liénard–Wiechert-Potentiale"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Geschl. System bei konstanten Kräften: Minimum der Enthalpie H",
+      "question": "Was beschreibt das Minimum der Enthalpie H in einem geschlossenen thermodynamischen System?",
+      "choices": [
+        "A: Es ist der Zustand mit der geringsten inneren Energie.",
+        "B: Es ist der Zustand, in dem die Temperatur konstant bleibt.",
+        "C: Es ist der Zustand, der die maximale Stabilität des Systems gewährleistet.",
+        "D: Es ist der Zustand, in dem der Druck konstant bleibt."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Minimum der Enthalpie H in einem geschlossenen System entspricht dem Zustand der maximalen Stabilität, da in diesem Zustand die Energieverluste minimiert werden. Dies ist wichtig für das thermodynamische Gleichgewicht und die Effizienz von Prozessen.",
+      "difficulty": 4,
+      "subcategory": "Geschl. System bei konstanten Kräften: Minimum der Enthalpie H"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Helmholtzsche Wirbelsätze",
+      "question": "Was besagt der Helmholtzsche Wirbelsatz über die Erhaltung von Wirbelbewegungen in einem idealen Fluid?",
+      "choices": [
+        "A: Wirbelbewegungen können nicht entstehen.",
+        "B: Die Wirbelbewegungen sind in einem geschlossenen System konstant.",
+        "C: Die Wirbelbewegungen können beliebig verstärkt werden.",
+        "D: Die Wirbelbewegungen führen immer zu einem Druckabfall."
+      ],
+      "correct_answer": "B",
+      "explanation": "Der Helmholtzsche Wirbelsatz beschreibt, dass in einem idealen Fluid die Wirbelbewegungen in einem geschlossenen System konstant bleiben, solange keine äußeren Kräfte wirken. Dies ist eine Grundlage für das Verständnis von Strömungen in der Fluidmechanik.",
+      "difficulty": 4,
+      "subcategory": "Helmholtzsche Wirbelsätze"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Atomarer Transport (Diffusion)",
+      "question": "Was beschreibt den Prozess der Diffusion in Festkörpern?",
+      "choices": [
+        "A: Die Anordnung von Atomen in einem festen Gitter ohne Bewegung.",
+        "B: Die Umwandlung von Feststoffen in Flüssigkeiten.",
+        "C: Die Wärmeleitung durch einen Festkörper.",
+        "D: Die Bewegung von Atomen oder Molekülen von einem Bereich hoher Konzentration zu einem Bereich niedriger Konzentration."
+      ],
+      "correct_answer": "D",
+      "explanation": "Diffusion bezeichnet die Bewegung von Teilchen aufgrund von Konzentrationsunterschieden. In Festkörpern geschieht dies typischerweise durch das Wandern von Atomen oder Molekülen innerhalb des Kristallgitters, was zur Vermischung und zum Gleichgewicht führt.",
+      "difficulty": 6,
+      "subcategory": "Atomarer Transport (Diffusion)"
+    }
+  ]
+}
