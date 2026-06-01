@@ -1,0 +1,169 @@
+{
+  "date": "2026-06-01",
+  "generated_at": "2026-06-01T04:34:14Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Zustand und Gleichgewicht (makro/mikro)",
+      "question": "Was beschreibt das Konzept des thermodynamischen Gleichgewichts auf makroskopischer Ebene?",
+      "choices": [
+        "A: Alle Teilchen bewegen sich mit der gleichen Geschwindigkeit.",
+        "B: Die Druckverhältnisse in einem geschlossenen System sind immer konstant.",
+        "C: Die Energieverteilung ist gleichmäßig und es gibt keine Nettoenergieflüsse.",
+        "D: Die Temperatur ist immer gleich, unabhängig von den Materialien."
+      ],
+      "correct_answer": "C",
+      "explanation": "Thermodynamisches Gleichgewicht bedeutet, dass es auf makroskopischer Ebene keine Nettoenergieflüsse zwischen System und Umgebung gibt, was zu einer stabilen Energieverteilung führt. In diesem Zustand sind Temperatur, Druck und Volumen konstant, aber nicht unbedingt gleich für verschiedene Materialien oder Teilchenbewegungen.",
+      "difficulty": 6,
+      "subcategory": "Zustand und Gleichgewicht (makro/mikro)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Ideales Molekülgas: Zustandssumme (Rot./Vib.)",
+      "question": "Welche Aussage zur Zustandssumme eines idealen Molekülgases mit Berücksichtigung der Rotations- und Vibrationsgrade ist korrekt?",
+      "choices": [
+        "A: Die Zustandssumme für Rotationen und Vibrationen ist unabhängig von der Temperatur.",
+        "B: Die Zustandssumme eines idealen Molekülgases kann durch die Produktregel der Zustandssummen für Translation, Rotation und Vibration geschrieben werden.",
+        "C: Die Zustandssumme für Rotationen ist immer größer als die für Vibrationen.",
+        "D: Die Zustandssumme für Vibrationen ist nur bei hohen Temperaturen signifikant."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Zustandssumme eines idealen Molekülgases ergibt sich aus der Multiplikation der Zustandssummen der verschiedenen Freiheitsgrade, einschließlich Translation, Rotation und Vibration. Dies ermöglicht eine umfassende Beschreibung der thermodynamischen Eigenschaften des Systems unter Berücksichtigung aller relevanten Energiezustände.",
+      "difficulty": 10,
+      "subcategory": "Ideales Molekülgas: Zustandssumme (Rot./Vib.)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Kronig–Penney-Modell (Bänder)",
+      "question": "Im Kronig–Penney-Modell, welches der folgenden Phänomene beschreibt das Auftreten von Energiebandlücken in einem Periodensystem von Potentialen?",
+      "choices": [
+        "A: Die Heisenbergsche Unschärferelation",
+        "B: Interferenz von Wellenfunktionen in einem periodischen Potential",
+        "C: Die thermische Bewegung von Elektronen in Leitern",
+        "D: Die relativistische Massenzunahme von Teilchen"
+      ],
+      "correct_answer": "B",
+      "explanation": "Im Kronig–Penney-Modell führen die Überlappungen der Wellenfunktionen von Elektronen in einem periodischen Potential zu konstruktiver und destruktiver Interferenz, wodurch Energiebandlücken entstehen. Diese Konzeptualisierung ist entscheidend für das Verständnis der elektronischen Eigenschaften von Festkörpern und Halbleitern.",
+      "difficulty": 10,
+      "subcategory": "Kronig–Penney-Modell (Bänder)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Wirkungsquerschnitt & differentielle Größen",
+      "question": "Welcher der folgenden Faktoren beeinflusst nicht den Wirkungsquerschnitt eines Teilchenprozesses?",
+      "choices": [
+        "A: Die Temperatur des Umgebungssystems",
+        "B: Der Impuls der Teilchen",
+        "C: Die Art der Wechselwirkung (z.B. elektromagnetisch, schwach, stark)",
+        "D: Die Energie der eintreffenden Teilchen"
+      ],
+      "correct_answer": "A",
+      "explanation": "Der Wirkungsquerschnitt ist in erster Linie von der Energie der Teilchen, der Art der Wechselwirkung und ihrem Impuls abhängig. Die Temperatur des Umgebungssystems hat keinen direkten Einfluss auf den Wirkungsquerschnitt, es sei denn, sie verändert die Zustände der Teilchen oder ihre Wechselwirkungen.",
+      "difficulty": 8,
+      "subcategory": "Wirkungsquerschnitt & differentielle Größen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Reversible Vorgänge & Adiabatengleichung",
+      "question": "Was beschreibt die Adiabatengleichung in der statistischen Mechanik?",
+      "choices": [
+        "A: Die Zustandsänderungen eines Gases bei konstantem Druck.",
+        "B: Den Zusammenhang zwischen Druck, Volumen und Temperatur eines idealen Gases bei adiabatischen Prozessen.",
+        "C: Die Berechnung der inneren Energie eines idealen Gases unter Isochorie.",
+        "D: Die Beziehung zwischen Entropie und Temperatur in einem geschlossenen System."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Adiabatengleichung beschreibt den Zusammenhang zwischen Druck, Volumen und Temperatur eines idealen Gases während eines adiabatischen Prozesses, bei dem keine Wärme mit der Umgebung ausgetauscht wird. Diese Gleichung ist wichtig für das Verständnis reversibler thermodynamischer Prozesse in der statistischen Mechanik.",
+      "difficulty": 3,
+      "subcategory": "Reversible Vorgänge & Adiabatengleichung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Maxwell-Konstruktion (Van-der-Waals-Isothermen)",
+      "question": "Was beschreibt die Maxwell-Konstruktion in Bezug auf die Van-der-Waals-Isothermen?",
+      "choices": [
+        "A: Sie veranschaulicht den Phasenübergang zwischen fest und flüssig.",
+        "B: Sie zeigt die Beziehung zwischen innerer Energie und Temperatur.",
+        "C: Sie beschreibt den Zusammenhang zwischen Druck und Temperatur in idealen Gasen.",
+        "D: Sie ermöglicht die Bestimmung des kritischen Punktes eines Stoffes."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Maxwell-Konstruktion wird verwendet, um den kritischen Punkt eines Stoffes zu bestimmen, indem die Fläche zwischen der isothermen Kurve und der Druckachse betrachtet wird. Sie ist besonders wichtig für die Analyse von Phasenübergängen bei nicht-idealen Gasen, wie sie durch die Van-der-Waals-Gleichung beschrieben werden.",
+      "difficulty": 6,
+      "subcategory": "Maxwell-Konstruktion (Van-der-Waals-Isothermen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Fresnelsche Formeln (Reflexionsgrad)",
+      "question": "Was beschreibt der Reflexionsgrad R in den Fresnelschen Formeln?",
+      "choices": [
+        "A: Den Gesamtanteil des Lichts, der durch ein Medium hindurchtritt.",
+        "B: Den Anteil des einfallenden Lichts, der reflektiert wird.",
+        "C: Den Unterschied zwischen einfallendem und durchgelassenem Licht.",
+        "D: Den Anteil des einfallenden Lichts, der absorbiert wird."
+      ],
+      "correct_answer": "B",
+      "explanation": "Der Reflexionsgrad R gibt an, wie viel Prozent des einfallenden Lichts an der Grenzfläche reflektiert werden. Die Fresnelschen Formeln berechnen diesen Grad in Abhängigkeit von den Einfallswinkeln und den Brechungsindices der Materialien.",
+      "difficulty": 6,
+      "subcategory": "Fresnelsche Formeln (Reflexionsgrad)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Tunneleffekt",
+      "question": "Was beschreibt der Tunneleffekt in der Quantenmechanik?",
+      "choices": [
+        "A: Teilchen können eine Energiebarriere durchdringen, auch wenn sie nicht genügend Energie haben.",
+        "B: Teilchen haben immer eine definierte Position und Geschwindigkeit.",
+        "C: Teilchen können nicht durch Wände hindurch gelangen.",
+        "D: Teilchen können sich nur in festen Bahnen bewegen."
+      ],
+      "correct_answer": "A",
+      "explanation": "Der Tunneleffekt ist ein Phänomen, bei dem Teilchen eine energetische Barriere überwinden können, obwohl sie nicht genügend Energie besitzen, um dies klassisch zu tun. Dies geschieht aufgrund der quantenmechanischen Eigenschaften von Teilchen, die es ihnen ermöglichen, sich in einem bestimmten Bereich zu 'tunneln'.",
+      "difficulty": 3,
+      "subcategory": "Tunneleffekt"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Van-der-Waals-Gleichung & Maxwell-Konstruktion",
+      "question": "Was beschreibt die Van-der-Waals-Gleichung in der Thermodynamik?",
+      "choices": [
+        "A: Die Temperaturabhängigkeit von Festkörpern.",
+        "B: Die Lichtgeschwindigkeit im Vakuum.",
+        "C: Die Wechselwirkungen zwischen Molekülen und das Volumen dieser Moleküle.",
+        "D: Das Verhalten idealer Gase unter Druck."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Van-der-Waals-Gleichung erweitert die ideale Gasgleichung, indem sie die Anziehungskräfte zwischen Molekülen und das Eigenvolumen der Moleküle berücksichtigt. Diese Anpassung ist wichtig, um das Verhalten realer Gase besser zu beschreiben.",
+      "difficulty": 3,
+      "subcategory": "Van-der-Waals-Gleichung & Maxwell-Konstruktion"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Huygenssches Prinzip",
+      "question": "Was besagt das Huygenssche Prinzip in der Optik?",
+      "choices": [
+        "A: Jedes Punkt auf einer Wellenfront kann als Ausgangspunkt einer neuen Welle betrachtet werden.",
+        "B: Wellen können sich nicht überlagern.",
+        "C: Licht kann nur in Vakuum reisen und nicht durch Medien wie Wasser.",
+        "D: Licht breitet sich immer geradlinig aus und kann nicht gebrochen werden."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Huygenssche Prinzip besagt, dass jeder Punkt auf einer Wellenfront als Quelle neuer Wellen betrachtet werden kann. Diese neuen Wellen interferieren miteinander und bilden die nächste Wellenfront.",
+      "difficulty": 4,
+      "subcategory": "Huygenssches Prinzip"
+    }
+  ]
+}

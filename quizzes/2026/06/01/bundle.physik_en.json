@@ -1,0 +1,168 @@
+{
+  "date": "2026-06-01",
+  "generated_at": "2026-06-01T04:34:46Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Zustand und Gleichgewicht (makro/mikro)",
+      "question": "What describes the concept of thermodynamic equilibrium at the macroscopic level?",
+      "choices": [
+        "A: All particles move at the same speed.",
+        "B: The pressure conditions in a closed system are always constant.",
+        "C: The energy distribution is uniform, and there are no net energy flows.",
+        "D: The temperature is always the same, regardless of the materials."
+      ],
+      "correct_answer": "C",
+      "explanation": "Thermodynamic equilibrium means that there are no net energy flows between the system and the surroundings at the macroscopic level, leading to a stable energy distribution. In this state, temperature, pressure, and volume are constant, but not necessarily equal for different materials or particle movements.",
+      "difficulty": 6,
+      "subcategory": "Zustand und Gleichgewicht (makro/mikro)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Ideales Molekülgas: Zustandssumme (Rot./Vib.)",
+      "question": "Which statement about the partition function of an ideal gas considering rotational and vibrational degrees of freedom is correct?",
+      "choices": [
+        "A: The partition function for rotations and vibrations is independent of temperature.",
+        "B: The partition function of an ideal gas can be written using the product rule of the partition functions for translation, rotation, and vibration.",
+        "C: The partition function for rotations is always greater than that for vibrations.",
+        "D: The partition function for vibrations is significant only at high temperatures."
+      ],
+      "correct_answer": "B",
+      "explanation": "The partition function of an ideal gas results from the multiplication of the partition functions of the different degrees of freedom, including translation, rotation, and vibration. This allows for a comprehensive description of the thermodynamic properties of the system considering all relevant energy states.",
+      "difficulty": 10,
+      "subcategory": "Ideales Molekülgas: Zustandssumme (Rot./Vib.)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Kronig–Penney-Modell (Bänder)",
+      "question": "In the Kronig-Penney model, which of the following phenomena describes the occurrence of energy band gaps in a periodic array of potentials?",
+      "choices": [
+        "A: Heisenberg's uncertainty principle",
+        "B: Interference of wave functions in a periodic potential",
+        "C: The thermal motion of electrons in conductors",
+        "D: The relativistic mass increase of particles"
+      ],
+      "correct_answer": "B",
+      "explanation": "In the Kronig-Penney model, the overlaps of electron wave functions in a periodic potential lead to constructive and destructive interference, resulting in energy band gaps. This conceptualization is crucial for understanding the electronic properties of solids and semiconductors.",
+      "difficulty": 10,
+      "subcategory": "Kronig–Penney-Modell (Bänder)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Wirkungsquerschnitt & differentielle Größen",
+      "question": "Which of the following factors does not influence the cross-section of a particle process?",
+      "choices": [
+        "A: The temperature of the surrounding system",
+        "B: The momentum of the particles",
+        "C: The type of interaction (e.g., electromagnetic, weak, strong)",
+        "D: The energy of the incoming particles"
+      ],
+      "correct_answer": "A",
+      "explanation": "The cross-section primarily depends on the energy of the particles, the type of interaction, and their momentum. The temperature of the surrounding system does not directly affect the cross-section unless it alters the states of the particles or their interactions.",
+      "difficulty": 8,
+      "subcategory": "Wirkungsquerschnitt & differentielle Größen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Reversible Vorgänge & Adiabatengleichung",
+      "question": "What does the adiabatic equation describe in statistical mechanics?",
+      "choices": [
+        "A: The changes in the state of a gas at constant pressure.",
+        "B: The relationship between pressure, volume, and temperature of an ideal gas in adiabatic processes.",
+        "C: The calculation of the internal energy of an ideal gas under isochoric conditions.",
+        "D: The relationship between entropy and temperature in a closed system."
+      ],
+      "correct_answer": "B",
+      "explanation": "The adiabatic equation describes the relationship between pressure, volume, and temperature of an ideal gas during an adiabatic process where no heat is exchanged with the surroundings. This equation is important for understanding reversible thermodynamic processes in statistical mechanics.",
+      "difficulty": 3,
+      "subcategory": "Reversible Vorgänge & Adiabatengleichung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Maxwell-Konstruktion (Van-der-Waals-Isothermen)",
+      "question": "What does the Maxwell construction describe regarding the Van der Waals isotherms?",
+      "choices": [
+        "A: It illustrates the phase transition between solid and liquid.",
+        "B: It shows the relationship between internal energy and temperature.",
+        "C: It describes the relationship between pressure and temperature in ideal gases.",
+        "D: It allows for the determination of the critical point of a substance."
+      ],
+      "correct_answer": "D",
+      "explanation": "The Maxwell construction is used to determine the critical point of a substance by considering the area between the isotherm curve and the pressure axis. It is particularly important for analyzing phase transitions in non-ideal gases as described by the Van der Waals equation.",
+      "difficulty": 6,
+      "subcategory": "Maxwell-Konstruktion (Van-der-Waals-Isothermen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Fresnelsche Formeln (Reflexionsgrad)",
+      "question": "What does the reflectance R in the Fresnel equations describe?",
+      "choices": [
+        "A: The total amount of light that passes through a medium.",
+        "B: The portion of incident light that is reflected.",
+        "C: The difference between incident and transmitted light.",
+        "D: The portion of incident light that is absorbed."
+      ],
+      "correct_answer": "B",
+      "explanation": "The reflectance R indicates the percentage of the incident light that is reflected at the interface. The Fresnel equations calculate this degree depending on the angles of incidence and the refractive indices of the materials.",
+      "difficulty": 6,
+      "subcategory": "Fresnelsche Formeln (Reflexionsgrad)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Tunneleffekt",
+      "question": "What does the tunneling effect describe in quantum mechanics?",
+      "choices": [
+        "A: Particles can penetrate an energy barrier even if they do not have enough energy.",
+        "B: Particles always have a defined position and velocity.",
+        "C: Particles cannot pass through walls.",
+        "D: Particles can only move in fixed paths."
+      ],
+      "correct_answer": "A",
+      "explanation": "The tunneling effect is a phenomenon where particles can overcome an energy barrier even if they do not have enough energy to do so classically. This occurs due to the quantum mechanical properties of particles that allow them to 'tunnel' within a certain range.",
+      "difficulty": 3,
+      "subcategory": "Tunneleffekt"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Van-der-Waals-Gleichung & Maxwell-Konstruktion",
+      "question": "What does the Van der Waals equation describe in thermodynamics?",
+      "choices": [
+        "A: The temperature dependence of solids.",
+        "B: The speed of light in a vacuum.",
+        "C: The interactions between molecules and the volume of these molecules.",
+        "D: The behavior of ideal gases under pressure."
+      ],
+      "correct_answer": "C",
+      "explanation": "The Van der Waals equation extends the ideal gas equation by considering the attractive forces between molecules and the volume of these molecules. This adjustment is important for better describing the behavior of real gases.",
+      "difficulty": 3,
+      "subcategory": "Van-der-Waals-Gleichung & Maxwell-Konstruktion"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Huygenssches Prinzip",
+      "question": "What does the Huygens' principle state in optics?",
+      "choices": [
+        "A: Every point on a wavefront can be considered as the starting point of a new wave.",
+        "B: Waves cannot overlap.",
+        "C: Light can only travel in a vacuum and not through media like water.",
+        "D: Light always propagates in a straight line and cannot be refracted."
+      ],
+      "correct_answer": "A",
+      "explanation": "Huygens' principle states that every point on a wavefront can be considered as a source of new waves. These new waves interfere with each other to form the next wavefront.",
+      "difficulty": 4,
+      "subcategory": "Huygenssches Prinzip"
+    }
+  ]
+}
