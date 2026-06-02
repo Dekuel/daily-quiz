@@ -1,0 +1,168 @@
+{
+  "date": "2026-06-02",
+  "generated_at": "2026-06-02T04:33:39Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Diamagnetismus (atomar)",
+      "question": "What is the main cause of diamagnetism at the atomic level?",
+      "choices": [
+        "A: The alignment of electron spins.",
+        "B: The Pauli exclusion principles of electron configuration.",
+        "C: The interaction between electrons and the external magnetic field.",
+        "D: The movement of electrons in closed orbits."
+      ],
+      "correct_answer": "C",
+      "explanation": "Diamagnetism occurs when the electrons in a material move under the influence of an external magnetic field, generating a weak, opposing magnetic field. This movement results in a repulsion of the external magnetic field, which is characteristic of diamagnetic materials.",
+      "difficulty": 6,
+      "subcategory": "Diamagnetismus (atomar)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Zeitlich oszillierende Quellen",
+      "question": "Which of the following statements best describes the behavior of a time-oscillating electrical source in an electromagnetic field?",
+      "choices": [
+        "A: It generates a standing wave in space.",
+        "B: It emits electromagnetic waves that propagate at the speed of light.",
+        "C: It can only exist in a vacuum.",
+        "D: It has no effect on neighboring electric fields."
+      ],
+      "correct_answer": "B",
+      "explanation": "A time-oscillating electrical source, such as an alternating current circuit, generates electromagnetic waves that propagate at the speed of light in space. These waves can transport energy and influence other charged particles in their vicinity.",
+      "difficulty": 7,
+      "subcategory": "Zeitlich oszillierende Quellen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Geschl. System im Wärmebad: Minimum der freien Energie F",
+      "question": "What describes the minimum of free energy F in a closed system in a heat bath?",
+      "choices": [
+        "A: The system is in equilibrium.",
+        "B: The entropy of the system is maximal.",
+        "C: The energy of the system is minimal.",
+        "D: The temperature of the system is constant."
+      ],
+      "correct_answer": "A",
+      "explanation": "The minimum of free energy F is a state in which a closed system in a heat bath has reached thermodynamic equilibrium. In this state, the macroscopic properties of the system are stable and do not change as long as the external conditions remain constant.",
+      "difficulty": 3,
+      "subcategory": "Geschl. System im Wärmebad: Minimum der freien Energie F"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Trägheitstensor & -ellipsoid",
+      "question": "What does the inertia tensor of a body describe?",
+      "choices": [
+        "A: The distribution of mass of a body in space.",
+        "B: The electric charge of a body.",
+        "C: The velocity of a body.",
+        "D: The temperature of a body."
+      ],
+      "correct_answer": "A",
+      "explanation": "The inertia tensor is a mathematical object that describes the distribution of mass of a body in space and is crucial for its rotational motion. It plays a central role in the analysis of torques and rotating systems.",
+      "difficulty": 1,
+      "subcategory": "Trägheitstensor & -ellipsoid"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Zwischengitteratome",
+      "question": "Which of the following statements about interstitial atoms in metallic crystals is correct?",
+      "choices": [
+        "A: Interstitial atoms are always larger atoms that fit into the interstices between the main atoms of the crystal lattice.",
+        "B: The influence of interstitial atoms on the mechanical properties of a metal is negligible.",
+        "C: Interstitial atoms are always non-metallic and lead to an increase in the hardness of the crystal.",
+        "D: Interstitial atoms can improve the electrical conductivity of a metal by reducing electron scattering."
+      ],
+      "correct_answer": "D",
+      "explanation": "Interstitial atoms can significantly influence the electrical conductivity of a metal by reducing electron scattering, leading to an improvement in conductivity. They play an important role in modifying the properties of alloys and other metallic materials.",
+      "difficulty": 8,
+      "subcategory": "Zwischengitteratome"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Lösung der 1D-Schrödinger-Gleichung",
+      "question": "What does the 1D Schrödinger equation describe in quantum mechanics?",
+      "choices": [
+        "A: The temperature dependence of solid materials.",
+        "B: The geometry of light rays in an optical medium.",
+        "C: The motion of classical particles under the influence of forces.",
+        "D: The temporal evolution of the wave function behavior of a quantum mechanical system."
+      ],
+      "correct_answer": "D",
+      "explanation": "The 1D Schrödinger equation describes the evolution of the wave function of a quantum mechanical system over time. It is fundamental for understanding quantum mechanics and enables the calculation of energy states and probability distributions of particles.",
+      "difficulty": 5,
+      "subcategory": "Lösung der 1D-Schrödinger-Gleichung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Nachweis der Energielücke",
+      "question": "Which experiment is commonly used to demonstrate the energy gap in semiconductors?",
+      "choices": [
+        "A: Joule-Thomson effect",
+        "B: Hall effect",
+        "C: Photoelectric effect",
+        "D: Rutherford scattering"
+      ],
+      "correct_answer": "C",
+      "explanation": "The photoelectric effect is a crucial experiment for investigating the energy gap in semiconductor materials, as it shows how light quanta can eject electrons from a material when the energy of the photons exceeds the energy gap. This relationship is fundamental for understanding the electronic properties of semiconductors.",
+      "difficulty": 8,
+      "subcategory": "Nachweis der Energielücke"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Feldverhalten an Grenzflächen",
+      "question": "What happens to an electric field when it enters the interface between two different dielectrics?",
+      "choices": [
+        "A: The field strength remains constant.",
+        "B: The field lines run parallel to the interface.",
+        "C: The field is reflected at the interface.",
+        "D: The electric field disappears completely."
+      ],
+      "correct_answer": "C",
+      "explanation": "At the interface between two dielectrics, a portion of the electric field is reflected, while the other part penetrates into the second dielectric. This leads to a change in the field lines and field strength in both materials.",
+      "difficulty": 3,
+      "subcategory": "Feldverhalten an Grenzflächen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Schwarzer Strahler: Emissionsverhalten",
+      "question": "What is a black body radiator in physics?",
+      "choices": [
+        "A: An ideal body that absorbs all incident radiation and emits the maximum radiation.",
+        "B: A material that does not conduct heat.",
+        "C: A body that only reflects visible light.",
+        "D: A body that emits only electromagnetic radiation in the form of X-rays."
+      ],
+      "correct_answer": "A",
+      "explanation": "A black body radiator is an idealized body that completely absorbs all incident radiation and emits the maximum radiation for a given temperature. This concept is fundamental for understanding thermodynamics and radiation laws.",
+      "difficulty": 2,
+      "subcategory": "Schwarzer Strahler: Emissionsverhalten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Lorentz-Transformation (Grundform)",
+      "question": "Which of the following statements correctly describes the Lorentz transformation for time dilation?",
+      "choices": [
+        "A: t' = t × √(1 - v²/c²)",
+        "B: t' = t / √(1 - v²/c²)",
+        "C: t' = t × (1 + v/c)",
+        "D: t' = t × (1 - v/c)"
+      ],
+      "correct_answer": "B",
+      "explanation": "The Lorentz transformation describes how the time between two reference systems moving at relativistic velocity v relative to each other is altered. The correct formula for time dilation is t' = t / √(1 - v²/c²), where c is the speed of light.",
+      "difficulty": 6,
+      "subcategory": "Lorentz-Transformation (Grundform)"
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "date": "2026-06-02",
+  "generated_at": "2026-06-02T04:33:08Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Diamagnetismus (atomar)",
+      "question": "Was ist die Hauptursache für den Diamagnetismus auf atomarer Ebene?",
+      "choices": [
+        "A: Die Ausrichtung der Spins der Elektronen.",
+        "B: Die Pauli-Prinzipien der Elektronenkonfiguration.",
+        "C: Die Wechselwirkung zwischen Elektronen und dem externen Magnetfeld.",
+        "D: Die Bewegung der Elektronen in geschlossenen Bahnen."
+      ],
+      "correct_answer": "C",
+      "explanation": "Der Diamagnetismus tritt auf, wenn sich die Elektronen in einem Material unter dem Einfluss eines externen Magnetfelds bewegen und dabei ein schwaches, entgegengesetztes Magnetfeld erzeugen. Diese Bewegung führt zu einer Abstoßung des externen Magnetfelds, was charakteristisch für diamagnetische Materialien ist.",
+      "difficulty": 6,
+      "subcategory": "Diamagnetismus (atomar)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Zeitlich oszillierende Quellen",
+      "question": "Welche der folgenden Aussagen beschreibt am besten das Verhalten einer zeitlich oszillierenden elektrischen Quelle in einem elektromagnetischen Feld?",
+      "choices": [
+        "A: Sie erzeugt eine stehende Welle im Raum.",
+        "B: Sie sendet elektromagnetische Wellen aus, die sich mit Lichtgeschwindigkeit ausbreiten.",
+        "C: Sie kann nur in einem Vakuum existieren.",
+        "D: Sie hat keinen Einfluss auf benachbarte elektrische Felder."
+      ],
+      "correct_answer": "B",
+      "explanation": "Eine zeitlich oszillierende elektrische Quelle, wie ein Wechselstromkreis, erzeugt elektromagnetische Wellen, die sich mit Lichtgeschwindigkeit im Raum ausbreiten. Diese Wellen können Energie transportieren und beeinflussen andere geladene Teilchen in ihrer Umgebung.",
+      "difficulty": 7,
+      "subcategory": "Zeitlich oszillierende Quellen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Geschl. System im Wärmebad: Minimum der freien Energie F",
+      "question": "Was beschreibt das Minimum der freien Energie F in einem geschlossenen System im Wärmebad?",
+      "choices": [
+        "A: Das System befindet sich im Gleichgewicht.",
+        "B: Die Entropie des Systems ist maximal.",
+        "C: Die Energie des Systems ist minimal.",
+        "D: Die Temperatur des Systems ist konstant."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Minimum der freien Energie F ist ein Zustand, in dem ein geschlossenen System im Wärmebad das thermodynamische Gleichgewicht erreicht hat. In diesem Zustand sind die makroskopischen Eigenschaften des Systems stabil und verändern sich nicht mehr, solange die äußeren Bedingungen konstant bleiben.",
+      "difficulty": 3,
+      "subcategory": "Geschl. System im Wärmebad: Minimum der freien Energie F"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Trägheitstensor & -ellipsoid",
+      "question": "Was beschreibt der Trägheitstensor eines Körpers?",
+      "choices": [
+        "A: Die Verteilung der Masse eines Körpers im Raum.",
+        "B: Die elektrische Ladung eines Körpers.",
+        "C: Die Geschwindigkeit eines Körpers.",
+        "D: Die Temperatur eines Körpers."
+      ],
+      "correct_answer": "A",
+      "explanation": "Der Trägheitstensor ist ein mathematisches Objekt, das die Verteilung der Masse eines Körpers im Raum beschreibt und entscheidend für seine Rotationsbewegung ist. Er spielt eine zentrale Rolle in der Analyse von Drehmomenten und rotierenden Systemen.",
+      "difficulty": 1,
+      "subcategory": "Trägheitstensor & -ellipsoid"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Zwischengitteratome",
+      "question": "Welche der folgenden Aussagen über Zwischengitteratome in metallischen Kristallen ist korrekt?",
+      "choices": [
+        "A: Zwischengitteratome sind immer größere Atome, die in die Lücken zwischen den Hauptatomen des Kristallgitters passen.",
+        "B: Der Einfluss von Zwischengitteratomen auf die mechanischen Eigenschaften eines Metalls ist vernachlässigbar.",
+        "C: Zwischengitteratome sind immer nichtmetallisch und führen zu einer Erhöhung der Härte des Kristalls.",
+        "D: Zwischengitteratome können die elektrische Leitfähigkeit eines Metalls verbessern, indem sie Elektronenstreuung reduzieren."
+      ],
+      "correct_answer": "D",
+      "explanation": "Zwischengitteratome können die elektrische Leitfähigkeit eines Metalls erheblich beeinflussen, indem sie Elektronenstreuung reduzieren, was zu einer Verbesserung der Leitfähigkeit führt. Sie spielen eine wichtige Rolle bei der Modifikation der Eigenschaften von Legierungen und anderen metallischen Materialien.",
+      "difficulty": 8,
+      "subcategory": "Zwischengitteratome"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Lösung der 1D-Schrödinger-Gleichung",
+      "question": "Was beschreibt die 1D-Schrödinger-Gleichung in der Quantenmechanik?",
+      "choices": [
+        "A: Die Temperaturabhängigkeit von festen Materialien.",
+        "B: Die Geometrie von Lichtstrahlen in einem optischen Medium.",
+        "C: Die Bewegung von klassischen Teilchen unter dem Einfluss von Kräften.",
+        "D: Die zeitliche Entwicklung des Wellenfunktionsverhaltens eines quantenmechanischen Systems."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die 1D-Schrödinger-Gleichung beschreibt die Entwicklung der Wellenfunktion eines quantenmechanischen Systems über die Zeit. Sie ist fundamental für das Verständnis der Quantenmechanik und ermöglicht die Berechnung von Energiezuständen und Wahrscheinlichkeitsverteilungen von Teilchen.",
+      "difficulty": 5,
+      "subcategory": "Lösung der 1D-Schrödinger-Gleichung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Nachweis der Energielücke",
+      "question": "Welches Experiment wird häufig verwendet, um die Energielücke in Halbleitern nachzuweisen?",
+      "choices": [
+        "A: Joule-Thomson-Effekt",
+        "B: Hall-Effekt",
+        "C: Photoelektrischer Effekt",
+        "D: Rutherford-Streuung"
+      ],
+      "correct_answer": "C",
+      "explanation": "Der photoelektrische Effekt ist ein entscheidendes Experiment zur Untersuchung der Energielücke in Halbleitermaterialien, da er zeigt, wie Lichtquanten Elektronen aus einem Material herauslösen können, wenn die Energie der Photonen die Energielücke übersteigt. Diese Beziehung ist fundamental für das Verständnis der elektronischen Eigenschaften von Halbleitern.",
+      "difficulty": 8,
+      "subcategory": "Nachweis der Energielücke"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Feldverhalten an Grenzflächen",
+      "question": "Was geschieht mit einem elektrischen Feld, wenn es an die Grenzfläche zwischen zwei unterschiedlichen Dielektrika tritt?",
+      "choices": [
+        "A: Die Feldstärke bleibt konstant.",
+        "B: Die Feldlinien verlaufen parallel zur Grenzfläche.",
+        "C: Das Feld wird an der Grenzfläche reflektiert.",
+        "D: Das elektrische Feld verschwindet vollständig."
+      ],
+      "correct_answer": "C",
+      "explanation": "An der Grenzfläche zwischen zwei Dielektrika wird ein Teil des elektrischen Feldes reflektiert, während der andere Teil in das zweite Dielektrikum eindringt. Dies führt zu einer Änderung der Feldlinien und der Feldstärke in beiden Materialien.",
+      "difficulty": 3,
+      "subcategory": "Feldverhalten an Grenzflächen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Schwarzer Strahler: Emissionsverhalten",
+      "question": "Was ist ein schwarzer Strahler in der Physik?",
+      "choices": [
+        "A: Ein idealer Körper, der alle einfallende Strahlung absorbiert und die maximale Strahlung emittiert.",
+        "B: Ein Material, das keine Wärme leitet.",
+        "C: Ein Körper, der nur sichtbares Licht reflektiert.",
+        "D: Ein Körper, der nur elektromagnetische Strahlung in Form von Röntgenstrahlen abgibt."
+      ],
+      "correct_answer": "A",
+      "explanation": "Ein schwarzer Strahler ist ein idealisierter Körper, der alle einfallenden Strahlen vollständig absorbiert und die maximale Strahlung für eine gegebene Temperatur emittiert. Dieses Konzept ist grundlegend für das Verständnis der Thermodynamik und der Strahlungsgesetze.",
+      "difficulty": 2,
+      "subcategory": "Schwarzer Strahler: Emissionsverhalten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Lorentz-Transformation (Grundform)",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt die Lorentz-Transformation für die Zeitdilatation?",
+      "choices": [
+        "A: t' = t × √(1 - v²/c²)",
+        "B: t' = t / √(1 - v²/c²)",
+        "C: t' = t × (1 + v/c)",
+        "D: t' = t × (1 - v/c)"
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Lorentz-Transformation beschreibt, wie die Zeit zwischen zwei Bezugssystemen mit relativistischer Geschwindigkeit v zueinander verändert wird. Die korrekte Formel für die Zeitdilatation ist t' = t / √(1 - v²/c²), wobei c die Lichtgeschwindigkeit ist.",
+      "difficulty": 6,
+      "subcategory": "Lorentz-Transformation (Grundform)"
+    }
+  ]
+}

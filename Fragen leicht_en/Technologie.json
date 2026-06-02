@@ -2310,6 +2310,20 @@
       "correct_answer": "C",
       "explanation": "B: FTP",
       "difficulty": 6
+    },
+    {
+      "category": "Technologie",
+      "topic": "Soziale Medien",
+      "question": "Which algorithm is commonly used for content moderation on platforms like Facebook and Instagram to detect and filter problematic content?",
+      "choices": [
+        "A: Support Vector Machines (SVM)",
+        "B: Decision Trees",
+        "C: Convolutional Neural Networks (CNN) ✓",
+        "D: K-Nearest Neighbors (KNN)"
+      ],
+      "correct_answer": "C",
+      "explanation": "Convolutional Neural Networks (CNN) are specifically optimized for processing image data and are therefore particularly effective in recognizing content such as images and videos on social media platforms. The other algorithms mentioned are also useful but less specialized for analyzing visual content.",
+      "difficulty": 8
     }
   ]
 }

@@ -2268,6 +2268,20 @@
       "correct_answer": "C",
       "explanation": "SSL/TLS sind Protokolle, die sichere Verbindungen zwischen Webbrowsern und Servern herstellen, um Daten während der Übertragung zu schützen. Sie spielen eine entscheidende Rolle beim Schutz von sensiblen Informationen wie Passwörtern und Kreditkarten. Im Gegensatz dazu sind FTP und HTTP nicht für die Sicherheit der Datenübertragung ausgelegt.",
       "difficulty": 6
+    },
+    {
+      "category": "Technologie",
+      "topic": "Soziale Medien",
+      "question": "Welcher Algorithmus wird häufig zur Content-Moderation auf Plattformen wie Facebook und Instagram eingesetzt, um problematische Inhalte zu erkennen und zu filtern?",
+      "choices": [
+        "A: Support Vector Machines (SVM)",
+        "B: Decision Trees",
+        "C: Convolutional Neural Networks (CNN) ✓",
+        "D: K-Nearest Neighbors (KNN)"
+      ],
+      "correct_answer": "C",
+      "explanation": "Convolutional Neural Networks (CNN) sind speziell für die Verarbeitung von Bilddaten optimiert und daher besonders effektiv bei der Erkennung von Inhalten wie Bildern und Videos auf Social-Media-Plattformen. Die anderen genannten Algorithmen sind ebenfalls nützlich, jedoch weniger spezifiziert für die Analyse von visuellen Inhalten.",
+      "difficulty": 8
     }
   ]
 }
