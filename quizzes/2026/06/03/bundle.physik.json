@@ -1,0 +1,169 @@
+{
+  "date": "2026-06-03",
+  "generated_at": "2026-06-03T04:33:30Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Ideales Gas (Zustandsgleichung)",
+      "question": "Welche der folgenden Gleichungen beschreibt das Verhalten eines idealen Gases?",
+      "choices": [
+        "A: PV = nRT",
+        "B: F = ma",
+        "C: W = Fd",
+        "D: E = mc²"
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Gleichung PV = nRT ist die Zustandsgleichung für ein ideales Gas, wobei P den Druck, V das Volumen, n die Stoffmenge, R die ideale Gaskonstante und T die Temperatur in Kelvin darstellt. Diese Beziehung gilt unter Annahme, dass das Gas ideal ist und keine Wechselwirkungen zwischen den Teilchen auftreten.",
+      "difficulty": 6,
+      "subcategory": "Ideales Gas (Zustandsgleichung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Diffusionspumpen",
+      "question": "Was ist die Hauptfunktion einer Diffusionspumpe?",
+      "choices": [
+        "A: Sie misst den Druck in einem Behälter.",
+        "B: Sie kühlt Gase ab.",
+        "C: Sie entfernt Moleküle aus einem Vakuum.",
+        "D: Sie erzeugt elektrische Energie."
+      ],
+      "correct_answer": "C",
+      "explanation": "Eine Diffusionspumpe wird verwendet, um Moleküle aus einem Vakuum zu entfernen und so einen höheren Vakuumgrad zu erzeugen. Sie funktioniert durch die Diffusion von Gasen in einem speziellen Medium, das die Moleküle effizient abführt.",
+      "difficulty": 1,
+      "subcategory": "Diffusionspumpen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Methode der Lagrange’schen Multiplikatoren (Zwangskräfte)",
+      "question": "Wie kann die Methode der Lagrange’schen Multiplikatoren verwendet werden, um Zwangskräfte in einem physikalischen System zu berücksichtigen?",
+      "choices": [
+        "A: Sie ignoriert Zwangskräfte und betrachtet nur die Freiheit der Bewegung.",
+        "B: Sie identifiziert die Zwangskräfte und behandelt sie als externe Kräfte.",
+        "C: Sie erlaubt es, die Zwangskräfte als zusätzliche Terme in die Lagrange-Gleichungen einzufügen.",
+        "D: Sie eliminiert die Zwangskräfte vollständig aus den Gleichungen."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Methode der Lagrange’schen Multiplikatoren ermöglicht es, Zwangskräfte zu berücksichtigen, indem sie als zusätzliche Terme in die Lagrange-Gleichungen eingefügt werden. Dies führt zu einer korrekten Beschreibung der Bewegung unter den gegebenen Zwangsbedingungen.",
+      "difficulty": 5,
+      "subcategory": "Methode der Lagrange’schen Multiplikatoren (Zwangskräfte)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Einteilung magnetischer Stoffe (dia-/para-/ferro-)",
+      "question": "Welcher der folgenden Stoffe wird als ferromagnetisch klassifiziert?",
+      "choices": [
+        "A: Blei",
+        "B: Aluminium",
+        "C: Kupfer",
+        "D: Eisen"
+      ],
+      "correct_answer": "D",
+      "explanation": "Ferromagnetische Stoffe, wie Eisen, haben die Fähigkeit, in einem Magnetfeld stark magnetisiert zu werden und behalten oft ihre Magnetisierung auch nach Entfernen des Feldes. Im Gegensatz dazu sind Kupfer, Aluminium und Blei diamagnetisch oder paramagnetisch und zeigen keine solche Eigenschaft.",
+      "difficulty": 5,
+      "subcategory": "Einteilung magnetischer Stoffe (dia-/para-/ferro-)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Detektoren (Nachweismethoden)",
+      "question": "Welcher Detektor wird häufig verwendet, um ionisierende Strahlung zu messen?",
+      "choices": [
+        "A: Mikrowellenofen",
+        "B: Geiger-Müller-Zähler",
+        "C: Photovoltaikzelle",
+        "D: Thermoelement"
+      ],
+      "correct_answer": "B",
+      "explanation": "Der Geiger-Müller-Zähler ist ein weit verbreiteter Detektor zur Messung ionisierender Strahlung, da er hohe Empfindlichkeit und einfache Handhabung bietet. Er registriert die Ionisation von Gasen, die durch die Strahlung erzeugt wird.",
+      "difficulty": 3,
+      "subcategory": "Detektoren (Nachweismethoden)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Querkontraktion",
+      "question": "Was beschreibt das Phänomen der Querkontraktion in einem Material?",
+      "choices": [
+        "A: Die Verformung eines Materials in der Richtung senkrecht zur angewendeten Kraft.",
+        "B: Die Änderung der Masse eines Körpers bei Bewegung.",
+        "C: Die Änderung der Dichte eines Materials bei Druckerhöhung.",
+        "D: Die Ausdehnung eines Materials bei Temperaturerhöhung."
+      ],
+      "correct_answer": "A",
+      "explanation": "Querkontraktion bezieht sich auf die Tatsache, dass Materialien sich in der Querrichtung verformen, wenn eine Zugkraft in Längsrichtung angewendet wird. Dies ist ein wichtiges Konzept beim Verständnis der mechanischen Eigenschaften von Materialien.",
+      "difficulty": 5,
+      "subcategory": "Querkontraktion"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Brillouin-Zonen & Fermi-Flächen",
+      "question": "Welche Aussage über Brillouin-Zonen in einem kristallinen Festkörper ist korrekt?",
+      "choices": [
+        "A: Brillouin-Zonen spielen keine Rolle für die elektronische Struktur des Festkörpers.",
+        "B: Brillouin-Zonen sind die Gebiete im k-Raum, die durch die Wellenvektoren der Elektronen definiert werden.",
+        "C: Brillouin-Zonen sind unabhängig von der Symmetrie des Kristallgitters.",
+        "D: Brillouin-Zonen bestimmen die Temperaturleitfähigkeit eines Festkörpers."
+      ],
+      "correct_answer": "B",
+      "explanation": "Brillouin-Zonen sind wichtig für das Verständnis der elektronischen Eigenschaften von Festkörpern, da sie die k-Raum-Struktur definieren, in der sich die Wellenfunktionen der Elektronen befinden. Jede Zone repräsentiert einen Bereich im k-Raum, und die Elektronenverteilung in diesen Zonen beeinflusst die physikalischen Eigenschaften des Materials.",
+      "difficulty": 6,
+      "subcategory": "Brillouin-Zonen & Fermi-Flächen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Addition von Drehimpulsen: Gesamtdrehimpuls",
+      "question": "Wie wird der Gesamtdrehimpuls zweier quantenmechanischer Systeme addiert?",
+      "choices": [
+        "A: Er erfolgt durch Vektoraddition der Drehimpulsvektoren.",
+        "B: Er wird durch die Multiplikation der Drehimpulsquantenzahlen bestimmt.",
+        "C: Der Gesamtdrehimpuls ist konstant und unabhängig von den einzelnen Systemen.",
+        "D: Er ist immer gleich der Summe der einzelnen Drehimpulse ohne Berücksichtigung der Quantenzahlen."
+      ],
+      "correct_answer": "A",
+      "explanation": "In der Quantenmechanik wird der Gesamtdrehimpuls zweier Systeme durch Vektoraddition der einzelnen Drehimpulsvektoren ermittelt. Diese Methode berücksichtigt die Richtungen und Beträge der Drehimpulse und ist grundlegend für die Berechnung von Gesamtzuständen in quantenmechanischen Systemen.",
+      "difficulty": 4,
+      "subcategory": "Addition von Drehimpulsen: Gesamtdrehimpuls"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Exponenten-Ungleichungen (Scaling Bounds)",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt die Beziehung zwischen der spezifischen Wärme und der Temperaturabhängigkeit eines idealen Gases gemäß den Exponenten-Ungleichungen?",
+      "choices": [
+        "A: Die spezifische Wärme eines idealen Gases ist nicht von der Temperatur abhängig und bleibt konstant bei allen Druckverhältnissen.",
+        "B: Die spezifische Wärme eines idealen Gases ist konstant und unabhängig von der Temperatur.",
+        "C: Die spezifische Wärme eines idealen Gases nimmt exponentiell mit der Temperatur ab.",
+        "D: Die spezifische Wärme kann mit steigender Temperatur zunehmen, aber nicht schneller als linear."
+      ],
+      "correct_answer": "D",
+      "explanation": "Laut den Exponenten-Ungleichungen können die spezifischen Wärmewerte eines idealen Gases mit der Temperatur variieren, wobei sie jedoch nicht schneller als linear ansteigen dürfen. Diese Beziehung ist wichtig für das Verständnis von Wärmeübertragung und thermodynamischen Prozessen.",
+      "difficulty": 9,
+      "subcategory": "Exponenten-Ungleichungen (Scaling Bounds)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Zeitdilatation",
+      "question": "Was beschreibt das Konzept der Zeitdilatation in der Relativitätstheorie?",
+      "choices": [
+        "A: Zeit kann nicht beeinflusst werden.",
+        "B: Zeit kann nur durch Gravitation beeinflusst werden.",
+        "C: Zeit vergeht langsamer, je schneller man sich bewegt.",
+        "D: Zeit bleibt immer konstant, unabhängig von der Geschwindigkeit."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Zeitdilatation besagt, dass die Zeit für einen bewegten Beobachter langsamer vergeht als für einen ruhenden Beobachter. Dieser Effekt wird besonders bei hohen Geschwindigkeiten, nahe der Lichtgeschwindigkeit, deutlich.",
+      "difficulty": 1,
+      "subcategory": "Zeitdilatation"
+    }
+  ]
+}

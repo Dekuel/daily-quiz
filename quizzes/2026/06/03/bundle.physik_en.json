@@ -1,0 +1,168 @@
+{
+  "date": "2026-06-03",
+  "generated_at": "2026-06-03T04:34:02Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Ideales Gas (Zustandsgleichung)",
+      "question": "Which of the following equations describes the behavior of an ideal gas?",
+      "choices": [
+        "A: PV = nRT",
+        "B: F = ma",
+        "C: W = Fd",
+        "D: E = mc²"
+      ],
+      "correct_answer": "A",
+      "explanation": "The equation PV = nRT is the equation of state for an ideal gas, where P represents pressure, V volume, n amount of substance, R the ideal gas constant, and T temperature in Kelvin. This relationship holds under the assumption that the gas is ideal and there are no interactions between the particles.",
+      "difficulty": 6,
+      "subcategory": "Ideales Gas (Zustandsgleichung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Diffusionspumpen",
+      "question": "What is the main function of a diffusion pump?",
+      "choices": [
+        "A: It measures the pressure in a container.",
+        "B: It cools gases down.",
+        "C: It removes molecules from a vacuum.",
+        "D: It generates electrical energy."
+      ],
+      "correct_answer": "C",
+      "explanation": "A diffusion pump is used to remove molecules from a vacuum to create a higher vacuum level. It operates by diffusing gases in a special medium that efficiently removes the molecules.",
+      "difficulty": 1,
+      "subcategory": "Diffusionspumpen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Methode der Lagrange’schen Multiplikatoren (Zwangskräfte)",
+      "question": "How can the method of Lagrange multipliers be used to account for constraint forces in a physical system?",
+      "choices": [
+        "A: It ignores constraint forces and only considers freedom of motion.",
+        "B: It identifies the constraint forces and treats them as external forces.",
+        "C: It allows for adding the constraint forces as additional terms in the Lagrange equations.",
+        "D: It completely eliminates the constraint forces from the equations."
+      ],
+      "correct_answer": "C",
+      "explanation": "The method of Lagrange multipliers allows for the consideration of constraint forces by adding them as additional terms in the Lagrange equations. This leads to a correct description of motion under the given constraint conditions.",
+      "difficulty": 5,
+      "subcategory": "Methode der Lagrange’schen Multiplikatoren (Zwangskräfte)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Einteilung magnetischer Stoffe (dia-/para-/ferro-)",
+      "question": "Which of the following substances is classified as ferromagnetic?",
+      "choices": [
+        "A: Lead",
+        "B: Aluminum",
+        "C: Copper",
+        "D: Iron"
+      ],
+      "correct_answer": "D",
+      "explanation": "Ferromagnetic materials, like iron, have the ability to become strongly magnetized in a magnetic field and often retain their magnetization even after the field is removed. In contrast, copper, aluminum, and lead are diamagnetic or paramagnetic and do not exhibit such properties.",
+      "difficulty": 5,
+      "subcategory": "Einteilung magnetischer Stoffe (dia-/para-/ferro-)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Detektoren (Nachweismethoden)",
+      "question": "Which detector is commonly used to measure ionizing radiation?",
+      "choices": [
+        "A: Microwave oven",
+        "B: Geiger-Müller counter",
+        "C: Photovoltaic cell",
+        "D: Thermocouple"
+      ],
+      "correct_answer": "B",
+      "explanation": "The Geiger-Müller counter is a widely used detector for measuring ionizing radiation due to its high sensitivity and ease of use. It detects the ionization of gases produced by the radiation.",
+      "difficulty": 3,
+      "subcategory": "Detektoren (Nachweismethoden)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Querkontraktion",
+      "question": "What describes the phenomenon of transverse contraction in a material?",
+      "choices": [
+        "A: The deformation of a material in the direction perpendicular to the applied force.",
+        "B: The change in mass of a body during motion.",
+        "C: The change in density of a material with increased pressure.",
+        "D: The expansion of a material with increased temperature."
+      ],
+      "correct_answer": "A",
+      "explanation": "Transverse contraction refers to the fact that materials deform in the transverse direction when a tensile force is applied in the longitudinal direction. This is an important concept in understanding the mechanical properties of materials.",
+      "difficulty": 5,
+      "subcategory": "Querkontraktion"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Brillouin-Zonen & Fermi-Flächen",
+      "question": "Which statement about Brillouin zones in a crystalline solid is correct?",
+      "choices": [
+        "A: Brillouin zones play no role in the electronic structure of the solid.",
+        "B: Brillouin zones are the regions in k-space defined by the wave vectors of the electrons.",
+        "C: Brillouin zones are independent of the symmetry of the crystal lattice.",
+        "D: Brillouin zones determine the thermal conductivity of a solid."
+      ],
+      "correct_answer": "B",
+      "explanation": "Brillouin zones are important for understanding the electronic properties of solids as they define the k-space structure where the electron wave functions reside. Each zone represents a region in k-space, and the electron distribution in these zones influences the material's physical properties.",
+      "difficulty": 6,
+      "subcategory": "Brillouin-Zonen & Fermi-Flächen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Addition von Drehimpulsen: Gesamtdrehimpuls",
+      "question": "How is the total angular momentum of two quantum mechanical systems added?",
+      "choices": [
+        "A: It is done by vector addition of the angular momentum vectors.",
+        "B: It is determined by multiplying the angular momentum quantum numbers.",
+        "C: The total angular momentum is constant and independent of the individual systems.",
+        "D: It is always equal to the sum of the individual angular momenta without considering the quantum numbers."
+      ],
+      "correct_answer": "A",
+      "explanation": "In quantum mechanics, the total angular momentum of two systems is determined by vector addition of the individual angular momentum vectors. This method takes into account the directions and magnitudes of the angular momenta and is fundamental for calculating total states in quantum mechanical systems.",
+      "difficulty": 4,
+      "subcategory": "Addition von Drehimpulsen: Gesamtdrehimpuls"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Exponenten-Ungleichungen (Scaling Bounds)",
+      "question": "Which of the following statements correctly describes the relationship between the specific heat and the temperature dependence of an ideal gas according to the exponent inequalities?",
+      "choices": [
+        "A: The specific heat of an ideal gas is not dependent on temperature and remains constant at all pressure conditions.",
+        "B: The specific heat of an ideal gas is constant and independent of temperature.",
+        "C: The specific heat of an ideal gas decreases exponentially with temperature.",
+        "D: The specific heat may increase with temperature, but not faster than linearly."
+      ],
+      "correct_answer": "D",
+      "explanation": "According to the exponent inequalities, the specific heat values of an ideal gas can vary with temperature but must not increase faster than linearly. This relationship is important for understanding heat transfer and thermodynamic processes.",
+      "difficulty": 9,
+      "subcategory": "Exponenten-Ungleichungen (Scaling Bounds)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Zeitdilatation",
+      "question": "What describes the concept of time dilation in the theory of relativity?",
+      "choices": [
+        "A: Time cannot be influenced.",
+        "B: Time can only be influenced by gravity.",
+        "C: Time passes more slowly the faster one moves.",
+        "D: Time always remains constant, regardless of speed."
+      ],
+      "correct_answer": "C",
+      "explanation": "Time dilation states that time passes more slowly for a moving observer than for a stationary observer. This effect becomes significant at high speeds, close to the speed of light.",
+      "difficulty": 1,
+      "subcategory": "Zeitdilatation"
+    }
+  ]
+}
