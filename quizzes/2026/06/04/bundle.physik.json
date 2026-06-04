@@ -1,0 +1,169 @@
+{
+  "date": "2026-06-04",
+  "generated_at": "2026-06-04T04:33:55Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Phasenübergänge (Übersicht)",
+      "question": "Welche der folgenden Aussagen beschreibt den Phasenübergang von flüssig zu gasförmig?",
+      "choices": [
+        "A: Sublimation",
+        "B: Erstarrung",
+        "C: Kondensation",
+        "D: Verdampfung"
+      ],
+      "correct_answer": "D",
+      "explanation": "Der Phasenübergang von flüssig zu gasförmig wird als Verdampfung bezeichnet. Dies geschieht, wenn Moleküle in der Flüssigkeit genug Energie erhalten, um die Anziehungskräfte zu überwinden und in die gasförmige Phase überzugehen.",
+      "difficulty": 5,
+      "subcategory": "Phasenübergänge (Übersicht)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Beweglichkeit & elektrische Leitfähigkeit",
+      "question": "Welcher der folgenden Faktoren beeinflusst die elektrische Leitfähigkeit von Metallen am stärksten?",
+      "choices": [
+        "A: Temperatur",
+        "B: Magnetfeld",
+        "C: Reinheitsgrad des Metalls",
+        "D: Kristallgitterstruktur"
+      ],
+      "correct_answer": "C",
+      "explanation": "Der Reinheitsgrad eines Metalls hat einen signifikanten Einfluss auf seine elektrische Leitfähigkeit, da Verunreinigungen die Beweglichkeit der Elektronen behindern können. Eine höhere Reinheit führt in der Regel zu einer besseren Leitfähigkeit, während Verunreinigungen die Beweglichkeit der freien Elektronen verringern.",
+      "difficulty": 7,
+      "subcategory": "Beweglichkeit & elektrische Leitfähigkeit"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Lösungsmethode der HJ-Theorie",
+      "question": "Welche der folgenden Aussagen beschreibt am besten die Hauptidee der Hamilton-Jacobi-Theorie?",
+      "choices": [
+        "A: Sie verwendet nur das Prinzip der kleinsten Wirkung zur Lösung von Problemen.",
+        "B: Sie verwandelt die Bewegungsgleichungen in eine Differentialgleichung für die Hamilton-Funktion.",
+        "C: Sie beschreibt die quantenmechanischen Eigenschaften von Teilchen.",
+        "D: Sie basiert auf der Annahme, dass die Zeit konstant ist."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Hamilton-Jacobi-Theorie ist eine Methode zur Lösung von Bewegungsgleichungen, die es ermöglicht, die Hamilton-Funktion in eine Differentialgleichung zu verwandeln. Diese Methode erleichtert die Analyse komplexer physikalischer Systeme und verbindet klassisch mechanische und analytische Ansätze.",
+      "difficulty": 3,
+      "subcategory": "Lösungsmethode der HJ-Theorie"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Zerlegungs- und Eindeutigkeitssatz (Vektoranalysis)",
+      "question": "Was besagt der Zerlegungs- und Eindeutigkeitssatz in der Vektoranalysis?",
+      "choices": [
+        "A: Alle Vektorfelder sind immer rotatorisch.",
+        "B: Vektorfelder können nicht in skalare Funktionen zerlegt werden.",
+        "C: Der Satz gilt nur für homogene Vektorfelder.",
+        "D: Jede stetige Vektorfunktion kann in eine divergente und eine rotierende Komponente zerlegt werden."
+      ],
+      "correct_answer": "D",
+      "explanation": "Der Zerlegungs- und Eindeutigkeitssatz besagt, dass jede stetige Vektorfunktion in eine divergente und eine rotierende Komponente zerlegt werden kann, was eine wichtige Eigenschaft in der Elektrodynamik ist. Dies ermöglicht eine tiefere Analyse von Feldern und deren Quellen.",
+      "difficulty": 6,
+      "subcategory": "Zerlegungs- und Eindeutigkeitssatz (Vektoranalysis)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Dritter Hauptsatz (Nernst’scher Wärmesatz)",
+      "question": "Was besagt der dritte Hauptsatz der Thermodynamik?",
+      "choices": [
+        "A: Die gesamte Energie in einem geschlossenen System bleibt immer konstant.",
+        "B: Die Entropie eines perfekten Kristalls nähert sich dem Wert null, wenn die Temperatur gegen den absoluten Nullpunkt tendiert.",
+        "C: Der Druck eines idealen Gases ist direkt proportional zur Temperatur.",
+        "D: Wärme kann von einem kälteren Körper auf einen wärmeren Körper übertragen werden."
+      ],
+      "correct_answer": "B",
+      "explanation": "Der dritte Hauptsatz der Thermodynamik, auch bekannt als Nernst’scher Wärmesatz, besagt, dass die Entropie eines perfekten Kristalls bei Temperaturen nahe dem absoluten Nullpunkt gegen null tendiert. Dies hat wichtige Implikationen für die Thermodynamik und das Verhalten von Materie bei tiefen Temperaturen.",
+      "difficulty": 6,
+      "subcategory": "Dritter Hauptsatz (Nernst’scher Wärmesatz)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Bezug zur Quantenmechanik (Kommutator ↔ Poisson)",
+      "question": "Welcher der folgenden Ausdrücke beschreibt die Beziehung zwischen dem Kommutator in der Quantenmechanik und den Poisson-Klammern in der klassischen Mechanik?",
+      "choices": [
+        "A: [A, B] = iħ {A, B}",
+        "B: [A, B] = -iħ {A, B}",
+        "C: [A, B] = {A, B}",
+        "D: [A, B] = 0"
+      ],
+      "correct_answer": "A",
+      "explanation": "Der Kommutator in der Quantenmechanik ist mit den Poisson-Klammern der klassischen Mechanik über die Beziehung [A, B] = iħ {A, B} verbunden. Dies zeigt, dass die Quantenmechanik eine Erweiterung der klassischen Mechanik ist, wobei ħ die reduzierte Planck-Konstante darstellt.",
+      "difficulty": 5,
+      "subcategory": "Bezug zur Quantenmechanik (Kommutator ↔ Poisson)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Härte von Festkörpern",
+      "question": "Welches Material ist bekannt für seine hohe Härte und wird häufig in Werkzeugen verwendet?",
+      "choices": [
+        "A: Gummi",
+        "B: Diamant",
+        "C: Holz",
+        "D: Aluminium"
+      ],
+      "correct_answer": "B",
+      "explanation": "Diamant ist das härteste bekannte natürliche Material und wird häufig in Schneidwerkzeugen verwendet, um andere Materialien zu bearbeiten. Die Härte eines Materials wird oft durch seine Widerstandsfähigkeit gegenüber Kratzern und Abnutzung bestimmt, was Diamant zu einer ausgezeichneten Wahl für diese Anwendungen macht.",
+      "difficulty": 5,
+      "subcategory": "Härte von Festkörpern"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Kritische Exponenten & Skalengesetze",
+      "question": "Welcher der folgenden kritischen Exponenten charakterisiert typischerweise die Divergenz der spezifischen Wärme nahe dem kritischen Punkt?",
+      "choices": [
+        "A: β",
+        "B: δ",
+        "C: γ",
+        "D: α"
+      ],
+      "correct_answer": "D",
+      "explanation": "Der kritische Exponent α beschreibt die Divergenz der spezifischen Wärme an einem Phasenübergang. Diese Größe spielt eine wichtige Rolle in der statistischen Mechanik und der Thermodynamik, insbesondere in der Nähe kritischer Punkte von Phasenübergängen.",
+      "difficulty": 5,
+      "subcategory": "Kritische Exponenten & Skalengesetze"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Brechungsgesetz aus Fermat",
+      "question": "Welches Prinzip beschreibt das Brechungsgesetz, das besagt, dass Licht den Weg nimmt, der die geringste Zeit benötigt?",
+      "choices": [
+        "A: Prinzip der Superposition",
+        "B: Prinzip von Fermat",
+        "C: Prinzip der Dynamik",
+        "D: Prinzip der Erhaltung der Energie"
+      ],
+      "correct_answer": "B",
+      "explanation": "Das Brechungsgesetz basiert auf dem Prinzip von Fermat, welches besagt, dass Lichtstrahlen den schnellsten Weg zwischen zwei Punkten wählen. Dieses Prinzip ist entscheidend für das Verständnis der Lichtbrechung an Grenzflächen zwischen verschiedenen Medien.",
+      "difficulty": 7,
+      "subcategory": "Brechungsgesetz aus Fermat"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Elektromagnetische Übergänge",
+      "question": "Welches der folgenden Phänomene beschreibt den Prozess eines elektrischen dipolaren Übergangs in einem Atom?",
+      "choices": [
+        "A: Emission eines Photons bei einem Übergang von einem angeregten Zustand in einen Grundzustand.",
+        "B: Spontane Kernspaltung eines schweren Atomkerns.",
+        "C: Absorption eines Neutrinos durch ein Atom.",
+        "D: Verselbstständigung der Elektronen im Atom bei sehr hohen Temperaturen."
+      ],
+      "correct_answer": "A",
+      "explanation": "Ein elektrischer dipolarer Übergang erfolgt typischerweise durch die Emission oder Absorption eines Photons, wenn ein Elektron von einem angeregten Zustand in einen stabileren Zustand übergeht. Dies ist ein grundlegender Mechanismus in der Quantenmechanik, der den Energieaustausch zwischen Atomen und elektromagnetischer Strahlung beschreibt.",
+      "difficulty": 9,
+      "subcategory": "Elektromagnetische Übergänge"
+    }
+  ]
+}

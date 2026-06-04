@@ -1,0 +1,168 @@
+{
+  "date": "2026-06-04",
+  "generated_at": "2026-06-04T04:34:30Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Phasenübergänge (Übersicht)",
+      "question": "Which of the following statements describes the phase transition from liquid to gas?",
+      "choices": [
+        "A: Sublimation",
+        "B: Solidification",
+        "C: Condensation",
+        "D: Evaporation"
+      ],
+      "correct_answer": "D",
+      "explanation": "The phase transition from liquid to gas is called evaporation. This occurs when molecules in the liquid receive enough energy to overcome the attractive forces and transition into the gaseous phase.",
+      "difficulty": 5,
+      "subcategory": "Phasenübergänge (Übersicht)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Beweglichkeit & elektrische Leitfähigkeit",
+      "question": "Which of the following factors most strongly influences the electrical conductivity of metals?",
+      "choices": [
+        "A: Temperature",
+        "B: Magnetic field",
+        "C: Purity of the metal",
+        "D: Crystal lattice structure"
+      ],
+      "correct_answer": "C",
+      "explanation": "The purity of a metal significantly affects its electrical conductivity, as impurities can hinder the mobility of electrons. Higher purity generally leads to better conductivity, while impurities decrease the mobility of free electrons.",
+      "difficulty": 7,
+      "subcategory": "Beweglichkeit & elektrische Leitfähigkeit"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Lösungsmethode der HJ-Theorie",
+      "question": "Which of the following statements best describes the main idea of the Hamilton-Jacobi theory?",
+      "choices": [
+        "A: It uses only the principle of least action to solve problems.",
+        "B: It transforms the motion equations into a differential equation for the Hamiltonian function.",
+        "C: It describes the quantum mechanical properties of particles.",
+        "D: It is based on the assumption that time is constant."
+      ],
+      "correct_answer": "B",
+      "explanation": "The Hamilton-Jacobi theory is a method for solving motion equations that allows transforming the Hamiltonian function into a differential equation. This method facilitates the analysis of complex physical systems and connects classical mechanical and analytical approaches.",
+      "difficulty": 3,
+      "subcategory": "Lösungsmethode der HJ-Theorie"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Zerlegungs- und Eindeutigkeitssatz (Vektoranalysis)",
+      "question": "What does the decomposition and uniqueness theorem state in vector analysis?",
+      "choices": [
+        "A: All vector fields are always rotational.",
+        "B: Vector fields cannot be decomposed into scalar functions.",
+        "C: The theorem applies only to homogeneous vector fields.",
+        "D: Every continuous vector function can be decomposed into a divergent and a rotational component."
+      ],
+      "correct_answer": "D",
+      "explanation": "The decomposition and uniqueness theorem states that every continuous vector function can be decomposed into a divergent and a rotational component, which is an important property in electrodynamics. This allows for a deeper analysis of fields and their sources.",
+      "difficulty": 6,
+      "subcategory": "Zerlegungs- und Eindeutigkeitssatz (Vektoranalysis)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Dritter Hauptsatz (Nernst’scher Wärmesatz)",
+      "question": "What does the third law of thermodynamics state?",
+      "choices": [
+        "A: The total energy in a closed system always remains constant.",
+        "B: The entropy of a perfect crystal approaches zero as the temperature approaches absolute zero.",
+        "C: The pressure of an ideal gas is directly proportional to the temperature.",
+        "D: Heat can be transferred from a colder body to a warmer body."
+      ],
+      "correct_answer": "B",
+      "explanation": "The third law of thermodynamics, also known as Nernst's heat theorem, states that the entropy of a perfect crystal approaches zero as the temperature approaches absolute zero. This has important implications for thermodynamics and the behavior of matter at low temperatures.",
+      "difficulty": 6,
+      "subcategory": "Dritter Hauptsatz (Nernst’scher Wärmesatz)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Bezug zur Quantenmechanik (Kommutator ↔ Poisson)",
+      "question": "Which of the following expressions describes the relationship between the commutator in quantum mechanics and the Poisson brackets in classical mechanics?",
+      "choices": [
+        "A: [A, B] = iħ {A, B}",
+        "B: [A, B] = -iħ {A, B}",
+        "C: [A, B] = {A, B}",
+        "D: [A, B] = 0"
+      ],
+      "correct_answer": "A",
+      "explanation": "The commutator in quantum mechanics is connected to the Poisson brackets of classical mechanics through the relationship [A, B] = iħ {A, B}. This shows that quantum mechanics is an extension of classical mechanics, with ħ representing the reduced Planck constant.",
+      "difficulty": 5,
+      "subcategory": "Bezug zur Quantenmechanik (Kommutator ↔ Poisson)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Härte von Festkörpern",
+      "question": "Which material is known for its high hardness and is commonly used in tools?",
+      "choices": [
+        "A: Rubber",
+        "B: Diamond",
+        "C: Wood",
+        "D: Aluminum"
+      ],
+      "correct_answer": "B",
+      "explanation": "Diamond is the hardest known natural material and is frequently used in cutting tools to work on other materials. The hardness of a material is often determined by its resistance to scratches and wear, making diamond an excellent choice for these applications.",
+      "difficulty": 5,
+      "subcategory": "Härte von Festkörpern"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Kritische Exponenten & Skalengesetze",
+      "question": "Which of the following critical exponents typically characterizes the divergence of specific heat near the critical point?",
+      "choices": [
+        "A: β",
+        "B: δ",
+        "C: γ",
+        "D: α"
+      ],
+      "correct_answer": "D",
+      "explanation": "The critical exponent α describes the divergence of specific heat at a phase transition. This quantity plays a crucial role in statistical mechanics and thermodynamics, especially near critical points of phase transitions.",
+      "difficulty": 5,
+      "subcategory": "Kritische Exponenten & Skalengesetze"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Brechungsgesetz aus Fermat",
+      "question": "Which principle describes Snell's law, stating that light takes the path that requires the least time?",
+      "choices": [
+        "A: Principle of superposition",
+        "B: Fermat's principle",
+        "C: Principle of dynamics",
+        "D: Principle of conservation of energy"
+      ],
+      "correct_answer": "B",
+      "explanation": "Snell's law is based on Fermat's principle, which states that light rays choose the fastest path between two points. This principle is crucial for understanding light refraction at interfaces between different media.",
+      "difficulty": 7,
+      "subcategory": "Brechungsgesetz aus Fermat"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Elektromagnetische Übergänge",
+      "question": "Which of the following phenomena describes the process of an electric dipolar transition in an atom?",
+      "choices": [
+        "A: Emission of a photon during a transition from an excited state to a ground state.",
+        "B: Spontaneous fission of a heavy atomic nucleus.",
+        "C: Absorption of a neutrino by an atom.",
+        "D: Independent movement of electrons in the atom at very high temperatures."
+      ],
+      "correct_answer": "A",
+      "explanation": "An electric dipolar transition typically occurs through the emission or absorption of a photon when an electron transitions from an excited state to a more stable state. This is a fundamental mechanism in quantum mechanics that describes the exchange of energy between atoms and electromagnetic radiation.",
+      "difficulty": 9,
+      "subcategory": "Elektromagnetische Übergänge"
+    }
+  ]
+}
