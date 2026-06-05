@@ -1,0 +1,168 @@
+{
+  "date": "2026-06-05",
+  "generated_at": "2026-06-05T04:32:43Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Punktdefekte (Überblick)",
+      "question": "Was ist ein Punktdefekt in einem Kristallgitter?",
+      "choices": [
+        "A: Eine Änderung der Temperatur im Kristall.",
+        "B: Ein Fehlplatz eines Atoms im Gitter.",
+        "C: Eine Verunreinigung durch ein anderes Material.",
+        "D: Eine Rissbildung im Kristall."
+      ],
+      "correct_answer": "B",
+      "explanation": "Ein Punktdefekt ist eine lokale Störung im Kristallgitter, die typischerweise durch das Fehlen eines Atoms oder die Anwesenheit eines zusätzlichen Atoms (Interstitium) verursacht wird. Diese Defekte haben einen großen Einfluss auf die physikalischen Eigenschaften des Materials wie die elektrische und thermische Leitfähigkeit.",
+      "difficulty": 4,
+      "subcategory": "Punktdefekte (Überblick)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Fresnelsche Formeln (Reflexionsgrad)",
+      "question": "Welcher der folgenden Faktoren beeinflusst den Reflexionsgrad an der Grenzfläche zwischen zwei Medien?",
+      "choices": [
+        "A: Die Farbe des Lichts",
+        "B: Die Temperatur des Mediums",
+        "C: Der Einfallswinkel des Lichts",
+        "D: Die Länge des Lichtstrahls"
+      ],
+      "correct_answer": "C",
+      "explanation": "Der Reflexionsgrad an der Grenzfläche zwischen zwei Medien hängt stark vom Einfallswinkel des Lichts ab. Die Fresnelschen Formeln beschreiben, wie sich der Reflexionsgrad in Abhängigkeit von diesem Winkel ändert.",
+      "difficulty": 3,
+      "subcategory": "Fresnelsche Formeln (Reflexionsgrad)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Lösung der 1D-Schrödinger-Gleichung",
+      "question": "Welche Bedingung muss erfüllt sein, damit die Wellenfunktion einer quantenmechanischen Lösung der 1D-Schrödinger-Gleichung normalisierbar ist?",
+      "choices": [
+        "A: Die Wellenfunktion muss in einem endlichen Bereich integriert werden können.",
+        "B: Die Wellenfunktion muss im Unendlichen konstant sein.",
+        "C: Die Wellenfunktion muss in den Grenzen divergieren.",
+        "D: Die Wellenfunktion muss an den Grenzen stetig sein."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Normalisierbarkeit einer Wellenfunktion erfordert, dass das Integral ihrer Quadrate über den gesamten Raum endlich ist. Dies bedeutet, dass die Wellenfunktion in einem endlichen Bereich integriert werden muss, um eine physikalisch sinnvolle Interpretation zu ermöglichen.",
+      "difficulty": 8,
+      "subcategory": "Lösung der 1D-Schrödinger-Gleichung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Naturkonstanten (Fundamentalwerte)",
+      "question": "Welche der folgenden Naturkonstanten beschreibt die Stärke der elektromagnetischen Wechselwirkung?",
+      "choices": [
+        "A: Plancksches Wirkungsquantum",
+        "B: Feinstrukturkonstante",
+        "C: Gravitationskonstante",
+        "D: Lichtgeschwindigkeit im Vakuum"
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Feinstrukturkonstante ist eine dimensionslose Naturkonstante, die die Stärke der elektromagnetischen Wechselwirkung zwischen elementaren geladenen Teilchen beschreibt. Sie spielt eine zentrale Rolle in der Quantenmechanik und der Elektrodynamik.",
+      "difficulty": 6,
+      "subcategory": "Naturkonstanten (Fundamentalwerte)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Erhaltungssätze in der Lagrange-Mechanik",
+      "question": "Welcher der folgenden Erhaltungssätze ist in der Lagrange-Mechanik eine direkte Folge der Zeitinvarianz des Systems?",
+      "choices": [
+        "A: Erhaltung des Drehimpulses",
+        "B: Erhaltung des Impulses",
+        "C: Erhaltung der Masse",
+        "D: Erhaltung der Energie"
+      ],
+      "correct_answer": "D",
+      "explanation": "In der Lagrange-Mechanik führt die Zeitinvarianz eines Systems zu einem Erhaltungssatz, der die Energie betrifft. Wenn die Lagrange-Funktion nicht explizit von der Zeit abhängt, bleibt die Gesamtenergie des Systems konstant.",
+      "difficulty": 6,
+      "subcategory": "Erhaltungssätze in der Lagrange-Mechanik"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Identische Teilchen: Ununterscheidbarkeit",
+      "question": "Was beschreibt das Konzept der Ununterscheidbarkeit identischer Teilchen in der Quantenmechanik?",
+      "choices": [
+        "A: Alle identischen Teilchen sind in einem quantenmechanischen System vollständig identisch und ihre Eigenschaften können nicht separat betrachtet werden.",
+        "B: Identische Teilchen verhalten sich in allen Situationen wie klassische Teilchen.",
+        "C: Identische Teilchen können nur in einem makroskopischen System als unterscheidbar betrachtet werden.",
+        "D: Ununterscheidbarkeit impliziert, dass identische Teilchen unterschiedliche Quantenzustände einnehmen können."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Konzept der Ununterscheidbarkeit besagt, dass identische Teilchen in der Quantenmechanik nicht als individuelle Entitäten betrachtet werden können, sondern als Teil eines Gesamtsystems. Dies führt zu fundamentalen Konsequenzen für die Statistiken, die zur Beschreibung dieser Teilchen verwendet werden, wie die Bose-Einstein- und Fermi-Dirac-Statistik.",
+      "difficulty": 7,
+      "subcategory": "Identische Teilchen: Ununterscheidbarkeit"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Isolierte Systeme: Maximum der Entropie",
+      "question": "In einem isolierten System erreicht die Entropie ihr Maximum, wenn: ",
+      "choices": [
+        "A: Das System durch äußere Einflüsse gestört wird.",
+        "B: Die Temperatur des Systems konstant bleibt.",
+        "C: Die Energie des Systems vollständig in kinetische Energie umgewandelt wird.",
+        "D: Das System sich im thermodynamischen Gleichgewicht befindet."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Entropie eines isolierten Systems erreicht ihr Maximum im thermodynamischen Gleichgewicht, da dort die mikroskopischen Zustände gleichverteilt sind und keine netten Flüsse von Energie oder Materie mehr stattfinden. In einem solchen Zustand sind alle möglichen Mikrozustände des Systems gleich wahrscheinlich, was zur maximalen Entropie führt.",
+      "difficulty": 10,
+      "subcategory": "Isolierte Systeme: Maximum der Entropie"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Noether-Idee: Homogenität der Zeit ⇒ Energieerhaltung",
+      "question": "Welche Aussage beschreibt am besten die Verbindung zwischen der Homogenität der Zeit und der Energieerhaltung gemäß der Noether-Idee?",
+      "choices": [
+        "A: Die Zeit hat keinen Einfluss auf physikalische Systeme.",
+        "B: Zeitliche Symmetrie führt zu einer Erhaltung der Energie.",
+        "C: Energie kann nur in geschlossenen Systemen erhalten bleiben.",
+        "D: Energieerhaltung ist unabhängig von der Zeit."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Noether-Idee besagt, dass jede kontinuierliche Symmetrie in der Physik eine Erhaltungsgröße hat. Im Fall der Homogenität der Zeit führt die Symmetrie in Bezug auf die Zeit zu der Erhaltung der Energie.",
+      "difficulty": 5,
+      "subcategory": "Noether-Idee: Homogenität der Zeit ⇒ Energieerhaltung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Dichtematrix von Teilsystemen (Reduktion)",
+      "question": "Welche Aussage über die Dichtematrix eines Teilsystems in der statistischen Mechanik trifft zu?",
+      "choices": [
+        "A: Die Dichtematrix eines Teilsystems ist immer diagonal, wenn das System im thermischen Gleichgewicht ist.",
+        "B: Die Dichtematrix eines Teilsystems ist unabhängig von der Wechselwirkung mit anderen Teilsystemen.",
+        "C: Die Dichtematrix eines Teilsystems kann aus der Dichtematrix des Gesamtystems durch Rückverfolgung des gesamten Zustands gewonnen werden.",
+        "D: Die Dichtematrix lässt sich immer als Produkt der Dichtematrizen der Teilsysteme darstellen."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Dichtematrix eines Teilsystems kann durch partielles Tracing der Dichtematrix des Gesamtsystems gewonnen werden, was die Wechselwirkungen zwischen den Teilsystemen berücksichtigt. Diese Methode ist zentral in der statistischen Mechanik, um die Eigenschaften von subsystemspezifischen Systemen zu analysieren.",
+      "difficulty": 7,
+      "subcategory": "Dichtematrix von Teilsystemen (Reduktion)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Holonome Zwangsbedingungen",
+      "question": "Was beschreibt eine holonome Zwangsbedingung in der analytischen Mechanik?",
+      "choices": [
+        "A: Eine Zwangsbedingung, die nur im statischen Gleichgewicht gilt.",
+        "B: Eine Zwangsbedingung, die nur von der Geschwindigkeit abhängt.",
+        "C: Eine Zwangsbedingung, die keine Abhängigkeit von den Koordinaten hat.",
+        "D: Eine Zwangsbedingung, die nur von den Koordinaten und nicht von der Zeit abhängt."
+      ],
+      "correct_answer": "D",
+      "explanation": "Eine holonome Zwangsbedingung ist eine Bedingung, die die Bewegung eines Systems nur in Abhängigkeit von den Koordinaten beschreibt, nicht jedoch von der Zeit. Diese Art von Zwangsbedingungen ermöglicht eine Integration in die Lagrangesche Mechanik, wodurch die Bewegungsgleichungen abgeleitet werden können.",
+      "difficulty": 6,
+      "subcategory": "Holonome Zwangsbedingungen"
+    }
+  ]
+}
