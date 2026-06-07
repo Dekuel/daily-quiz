@@ -1,0 +1,168 @@
+{
+  "date": "2026-06-07",
+  "generated_at": "2026-06-07T04:33:30Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Translation vs. Rotation (Vergleich)",
+      "question": "Which of the following statements best describes the difference between translational and rotational motion?",
+      "choices": [
+        "A: Translational motion is always faster than rotational motion.",
+        "B: Translational motion only occurs in straight lines, while rotational motion does not.",
+        "C: In translational motion, the distance between particles remains constant, while in rotational motion, particles rotate around a fixed point.",
+        "D: In rotational motion, the velocities of all particles are the same, while they vary in translational motion."
+      ],
+      "correct_answer": "C",
+      "explanation": "Translational motion refers to the movement of a body along a trajectory, with all particles moving uniformly. In contrast, rotational motion involves spinning around a fixed point, where particles can have different angular velocities but the distance to the pivot point remains constant.",
+      "difficulty": 8,
+      "subcategory": "Translation vs. Rotation (Vergleich)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Harmonischer Oszillator: Erzeugungs-/Vernichtungsoperator",
+      "question": "What does the annihilation operator a do in a harmonic oscillator?",
+      "choices": [
+        "A: It increases the energy of the system.",
+        "B: It changes the frequency of the oscillator.",
+        "C: It reduces the number of quanta of the oscillator by one.",
+        "D: It has no effect on the system."
+      ],
+      "correct_answer": "C",
+      "explanation": "The annihilation operator a reduces the number of quanta of the harmonic oscillator by one, causing the system to transition to a lower energy state. This is a fundamental aspect of quantum mechanics that describes the interaction between quantized energy states.",
+      "difficulty": 3,
+      "subcategory": "Harmonischer Oszillator: Erzeugungs-/Vernichtungsoperator"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Ladungsradius von Pionen und Kaonen",
+      "question": "What is the charge radius of a pion compared to a kaon?",
+      "choices": [
+        "A: Pions have no charge radius.",
+        "B: The charge radius of a pion is smaller than that of a kaon.",
+        "C: The charge radius of pions and kaons is identical.",
+        "D: The charge radius of a pion is larger than that of a kaon."
+      ],
+      "correct_answer": "B",
+      "explanation": "The charge radius of a pion is actually smaller than that of a kaon. This is due to the different quark composition and mass of the two particles.",
+      "difficulty": 2,
+      "subcategory": "Ladungsradius von Pionen und Kaonen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Makroskopische Feldgrößen (D, E, P)",
+      "question": "What does the electric field E describe in an electric field?",
+      "choices": [
+        "A: The velocity of charged particles.",
+        "B: The temperature of the system.",
+        "C: The energy per unit charge.",
+        "D: The force per charge acting on a positive test charge."
+      ],
+      "correct_answer": "D",
+      "explanation": "The electric field E is defined as the force F acting on a positive test charge q divided by that charge (E = F/q). It describes how the force on charges behaves in an electric field.",
+      "difficulty": 4,
+      "subcategory": "Makroskopische Feldgrößen (D, E, P)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Parametrisierung der Bindungsenergie (Weizsäcker)",
+      "question": "What does the Weizsäcker formula describe in nuclear and particle physics?",
+      "choices": [
+        "A: The mass of electrons.",
+        "B: The speed of light particles.",
+        "C: The binding energy of atomic nuclei.",
+        "D: The temperature of nuclei."
+      ],
+      "correct_answer": "C",
+      "explanation": "The Weizsäcker formula is a model for calculating the binding energy of atomic nuclei. It takes into account various factors influencing the stability of nuclei and allows an estimation of the energy required to disassemble a nucleus.",
+      "difficulty": 3,
+      "subcategory": "Parametrisierung der Bindungsenergie (Weizsäcker)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Lineare Operatoren",
+      "question": "Which of the following operators is known as a Hermitian operator in the context of quantum mechanics?",
+      "choices": [
+        "A: Momentum operator",
+        "B: Time operator",
+        "C: Position operator",
+        "D: Energy operator"
+      ],
+      "correct_answer": "A",
+      "explanation": "The momentum operator is an example of a Hermitian operator in quantum mechanics. Hermitian operators have real eigenvalues and ensure that measurements are physically meaningful. In quantum mechanics, most observable quantities are described by Hermitian operators.",
+      "difficulty": 5,
+      "subcategory": "Lineare Operatoren"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Ritz’sches Verfahren",
+      "question": "What principle underlies the Ritz method for calculating the energy eigenvalues of quantum systems?",
+      "choices": [
+        "A: Using symmetry considerations to predict energy levels.",
+        "B: Applying the Heisenberg uncertainty principle.",
+        "C: Varying the wave function to minimize the energy.",
+        "D: Determining transition probabilities between states."
+      ],
+      "correct_answer": "C",
+      "explanation": "The Ritz method is based on the variational approach, where the wave function is adjusted to minimize the calculated energy. This allows an approximation of the actual energy eigenvalues of a quantum system.",
+      "difficulty": 10,
+      "subcategory": "Ritz’sches Verfahren"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Faraday’sches Induktionsgesetz",
+      "question": "What does Faraday's law of electromagnetic induction state?",
+      "choices": [
+        "A: Magnetic fields cannot interact.",
+        "B: Electrical energy cannot be generated.",
+        "C: A change in magnetic field generates an electric voltage.",
+        "D: A stationary magnetic field always generates an electric current."
+      ],
+      "correct_answer": "C",
+      "explanation": "Faraday's law of electromagnetic induction describes that a change in magnetic field over time induces an electric voltage. This is the basis for many applications such as generators and transformers.",
+      "difficulty": 1,
+      "subcategory": "Faraday’sches Induktionsgesetz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Perkolation: Phänomen, Theorie & Skalen",
+      "question": "What does the percolation phenomenon describe in statistical mechanics?",
+      "choices": [
+        "A: The temperature dependence of chemical reactions.",
+        "B: The motion of particles in a gas.",
+        "C: The interactions between quantum objects.",
+        "D: The transition from an insulating to a conducting state in a material."
+      ],
+      "correct_answer": "D",
+      "explanation": "The percolation phenomenon describes the transition of a system from an insulating state to a conducting state when a critical density is reached. In statistical mechanics, this is important for understanding phase transitions and the structure of materials.",
+      "difficulty": 1,
+      "subcategory": "Perkolation: Phänomen, Theorie & Skalen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Einleitung & Zielsetzung der Statistischen Mechanik",
+      "question": "Which fundamental principle of statistical mechanics describes the relationship between the microscopic state description of a system and its macroscopic thermodynamic properties?",
+      "choices": [
+        "A: Planck's law",
+        "B: Maxwell's law",
+        "C: Heisenberg's uncertainty principle",
+        "D: Boltzmann's law"
+      ],
+      "correct_answer": "D",
+      "explanation": "The Boltzmann law establishes a fundamental connection between the statistical description of particle states and the macroscopic properties of a system. It allows the derivation of thermodynamic quantities from the microstates of particles, which is the essence of statistical mechanics.",
+      "difficulty": 10,
+      "subcategory": "Einleitung & Zielsetzung der Statistischen Mechanik"
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "date": "2026-06-07",
+  "generated_at": "2026-06-07T04:33:00Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Translation vs. Rotation (Vergleich)",
+      "question": "Welches der folgenden Aussagen beschreibt den Unterschied zwischen translationale und rotatorische Bewegung am besten?",
+      "choices": [
+        "A: Translationale Bewegung ist immer schneller als rotatorische Bewegung.",
+        "B: Translationale Bewegung tritt nur in geraden Linien auf, rotatorische Bewegung jedoch nicht.",
+        "C: Bei translationale Bewegung bleibt der Abstand zwischen den Teilchen konstant, während bei rotatorischer Bewegung die Teilchen um einen festen Punkt rotieren.",
+        "D: Bei rotatorischer Bewegung sind die Geschwindigkeiten aller Teilchen gleich, während sie bei translationale Bewegung variieren."
+      ],
+      "correct_answer": "C",
+      "explanation": "Translationale Bewegung bezieht sich auf die Bewegung eines Körpers entlang einer Trajektorie, wobei sich alle Teilchen gleichmäßig bewegen. Im Gegensatz dazu beschreibt rotatorische Bewegung das Drehen um einen festen Punkt, wobei die Teilchen unterschiedliche Winkelgeschwindigkeiten haben können, aber der Abstand zum Drehpunkt konstant bleibt.",
+      "difficulty": 8,
+      "subcategory": "Translation vs. Rotation (Vergleich)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Harmonischer Oszillator: Erzeugungs-/Vernichtungsoperator",
+      "question": "Was bewirkt der Vernichtungsoperator a in einem harmonischen Oszillator?",
+      "choices": [
+        "A: Er erhöht die Energie des Systems.",
+        "B: Er verändert die Frequenz des Oszillators.",
+        "C: Er reduziert die Anzahl der Quanten des Oszillators um eins.",
+        "D: Er hat keinen Einfluss auf das System."
+      ],
+      "correct_answer": "C",
+      "explanation": "Der Vernichtungsoperator a reduziert die Anzahl der Quanten des harmonischen Oszillators um eins, wodurch das System in einen Zustand niedrigerer Energie übergeht. Dies ist ein grundlegender Aspekt der Quantenmechanik, der die Wechselwirkung zwischen quantisierten Energiezuständen beschreibt.",
+      "difficulty": 3,
+      "subcategory": "Harmonischer Oszillator: Erzeugungs-/Vernichtungsoperator"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Ladungsradius von Pionen und Kaonen",
+      "question": "Welchen Ladungsradius hat ein Pion im Vergleich zu einem Kaon?",
+      "choices": [
+        "A: Pionen haben keinen Ladungsradius.",
+        "B: Der Ladungsradius eines Pions ist kleiner als der eines Kaons.",
+        "C: Der Ladungsradius von Pionen und Kaonen ist identisch.",
+        "D: Der Ladungsradius eines Pions ist größer als der eines Kaons."
+      ],
+      "correct_answer": "B",
+      "explanation": "Der Ladungsradius eines Pions ist tatsächlich kleiner als der eines Kaons. Dies liegt an der unterschiedlichen Quarkzusammensetzung und Masse der beiden Teilchen.",
+      "difficulty": 2,
+      "subcategory": "Ladungsradius von Pionen und Kaonen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Makroskopische Feldgrößen (D, E, P)",
+      "question": "Was beschreibt das elektrische Feld E in einem elektrischen Feld?",
+      "choices": [
+        "A: Die Geschwindigkeit von geladenen Teilchen.",
+        "B: Die Temperatur des Systems.",
+        "C: Die Energie pro Einheit Ladung.",
+        "D: Die Kraft pro Ladung, die auf eine positive Testladung wirkt."
+      ],
+      "correct_answer": "D",
+      "explanation": "Das elektrische Feld E ist definiert als die Kraft F, die auf eine positive Testladung q wirkt, geteilt durch diese Ladung (E = F/q). Es beschreibt, wie sich die Kraft auf Ladungen in einem elektrischen Feld verhält.",
+      "difficulty": 4,
+      "subcategory": "Makroskopische Feldgrößen (D, E, P)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Parametrisierung der Bindungsenergie (Weizsäcker)",
+      "question": "Was beschreibt die Weizsäcker-Formel in der Kern- und Teilchenphysik?",
+      "choices": [
+        "A: Die Masse von Elektronen.",
+        "B: Die Geschwindigkeit von Lichtteilchen.",
+        "C: Die Bindungsenergie von Atomkernen.",
+        "D: Die Temperatur von Kernen."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Weizsäcker-Formel ist ein Modell zur Berechnung der Bindungsenergie von Atomkernen. Sie berücksichtigt verschiedene Faktoren, die die Stabilität von Kernen beeinflussen, und ermöglicht eine Abschätzung der Energie, die benötigt wird, um einen Kern zu zerlegen.",
+      "difficulty": 3,
+      "subcategory": "Parametrisierung der Bindungsenergie (Weizsäcker)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Lineare Operatoren",
+      "question": "Welcher der folgenden Operatoren ist im Rahmen der Quantenmechanik als Hermitescher Operator bekannt?",
+      "choices": [
+        "A: Impulsoperator",
+        "B: Zeitoperator",
+        "C: Ortoperator",
+        "D: Energieoperator"
+      ],
+      "correct_answer": "A",
+      "explanation": "Der Impulsoperator ist ein Beispiel für einen Hermiteschen Operator in der Quantenmechanik. Hermitesche Operatoren haben reelle Eigenwerte und gewährleisten, dass die Messungen physikalisch sinnvoll sind. In der Quantenmechanik sind die meisten observablen Größen durch Hermitesche Operatoren beschrieben.",
+      "difficulty": 5,
+      "subcategory": "Lineare Operatoren"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Ritz’sches Verfahren",
+      "question": "Welches Prinzip liegt dem Ritz’schen Verfahren zugrunde, um die energieeigenwerte von Quantensystemen zu berechnen?",
+      "choices": [
+        "A: Die Nutzung von Symmetrieüberlegungen zur Vorhersage von Energieniveaus.",
+        "B: Die Anwendung des Heisenbergschen Unschärfeprinzips.",
+        "C: Die Variation der Wellenfunktion zur Minimierung der Energie.",
+        "D: Die Ermittlung der Übergangswahrscheinlichkeiten zwischen Zuständen."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Ritz’sche Verfahren beruht auf der Variationsmethode, bei der die Wellenfunktion so angepasst wird, dass die berechnete Energie minimiert wird. Dies ermöglicht eine Annäherung an die tatsächlichen Energieeigenwerte eines Quantensystems.",
+      "difficulty": 10,
+      "subcategory": "Ritz’sches Verfahren"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Faraday’sches Induktionsgesetz",
+      "question": "Was besagt das Faraday’sche Induktionsgesetz?",
+      "choices": [
+        "A: Magnetische Felder können nicht wechselwirken.",
+        "B: Elektrische Energie kann nicht erzeugt werden.",
+        "C: Eine Änderung des Magnetfeldes erzeugt eine elektrische Spannung.",
+        "D: Ein ruhendes Magnetfeld erzeugt immer einen elektrischen Strom."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Faraday’sche Induktionsgesetz beschreibt, dass eine Änderung des Magnetfeldes in der Zeit eine elektrische Spannung induziert. Dies ist die Grundlage für viele Anwendungen, wie z.B. Generatoren und Transformatoren.",
+      "difficulty": 1,
+      "subcategory": "Faraday’sches Induktionsgesetz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Perkolation: Phänomen, Theorie & Skalen",
+      "question": "Was beschreibt das Perkolationsphänomen in der statistischen Mechanik?",
+      "choices": [
+        "A: Die Temperaturabhängigkeit von chemischen Reaktionen.",
+        "B: Die Bewegung von Teilchen in einem Gas.",
+        "C: Die Wechselwirkungen zwischen Quantenobjekten.",
+        "D: Der Übergang von einem isolierenden zu einem leitenden Zustand in einem Material."
+      ],
+      "correct_answer": "D",
+      "explanation": "Das Perkolationsphänomen beschreibt den Übergang eines Systems von einem isolierenden Zustand zu einem leitenden Zustand, wenn eine kritische Dichte erreicht wird. In der statistischen Mechanik ist dies wichtig für das Verständnis von Phasenübergängen und der Struktur von Materialien.",
+      "difficulty": 1,
+      "subcategory": "Perkolation: Phänomen, Theorie & Skalen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Einleitung & Zielsetzung der Statistischen Mechanik",
+      "question": "Welches grundlegende Prinzip der statistischen Mechanik beschreibt die Beziehung zwischen der mikroskopischen Zustandsbeschreibung eines Systems und dessen makroskopischen thermodynamischen Eigenschaften?",
+      "choices": [
+        "A: Das Gesetz von Planck",
+        "B: Das Maxwellsche Gesetz",
+        "C: Das Heisenbergsche Unschärfeprinzip",
+        "D: Das Boltzmann-Gesetz"
+      ],
+      "correct_answer": "D",
+      "explanation": "Das Boltzmann-Gesetz stellt eine fundamentale Verbindung zwischen der statistischen Beschreibung von Teilchenzuständen und den makroskopischen Eigenschaften eines Systems her. Es ermöglicht die Ableitung thermodynamischer Größen aus den Mikrozuständen der Teilchen, was das Herzstück der statistischen Mechanik ist.",
+      "difficulty": 10,
+      "subcategory": "Einleitung & Zielsetzung der Statistischen Mechanik"
+    }
+  ]
+}
