@@ -1,0 +1,169 @@
+{
+  "date": "2026-06-09",
+  "generated_at": "2026-06-09T04:28:08Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Moden im dielektrischen Wellenleiter",
+      "question": "Was beschreibt eine Mode in einem dielektrischen Wellenleiter?",
+      "choices": [
+        "A: Die Farbe des Lichts, das durch den Wellenleiter geleitet wird.",
+        "B: Die Anzahl der Wellenleiter, die in einem System verwendet werden.",
+        "C: Eine spezifische Verteilung von elektrischen und magnetischen Feldern.",
+        "D: Die Temperatur des Wellenleitermaterials."
+      ],
+      "correct_answer": "C",
+      "explanation": "Eine Mode in einem dielektrischen Wellenleiter beschreibt die spezifische Verteilung von elektrischen und magnetischen Feldern, die sich innerhalb des Wellenleiters bilden. Diese Moden bestimmen, wie Licht in dem Wellenleiter propagiert wird.",
+      "difficulty": 2,
+      "subcategory": "Moden im dielektrischen Wellenleiter"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Ableitungen thermodynamischer Größen & Maxwell-Relationen",
+      "question": "Welche der folgenden Maxwell-Relationen beschreibt die Beziehung zwischen Entropie und Volumen bei konstanter Temperatur und Druck?",
+      "choices": [
+        "A: (∂S/∂T)_V = (∂P/∂V)_T",
+        "B: (∂V/∂T)_P = (∂S/∂P)_T",
+        "C: (∂S/∂V)_T = (∂P/∂T)_V",
+        "D: (∂P/∂S)_V = (∂T/∂V)_S"
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Maxwell-Relation (∂S/∂V)_T = (∂P/∂T)_V ist eine fundamentale Gleichung der thermodynamischen Potentiale und beschreibt, wie die Entropie in Bezug auf das Volumen bei konstanter Temperatur variiert. Diese Beziehung ist wichtig für das Verständnis der thermodynamischen Prozesse in einem System.",
+      "difficulty": 9,
+      "subcategory": "Ableitungen thermodynamischer Größen & Maxwell-Relationen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Elektrischer Strom (Definition & Kontinuitätsgleichung)",
+      "question": "Was versteht man unter elektrischem Strom?",
+      "choices": [
+        "A: Die Wärme, die durch Widerstand erzeugt wird.",
+        "B: Die Bewegung von Elektronen durch einen Leiter.",
+        "C: Die Energie, die von einer Batterie bereitgestellt wird.",
+        "D: Die Spannung, die in einem Stromkreis anliegt."
+      ],
+      "correct_answer": "B",
+      "explanation": "Elektrischer Strom bezeichnet die gerichtete Bewegung von Elektronen durch einen Leiter. Diese Bewegung entsteht, wenn eine elektrische Spannung anliegt, wodurch die Elektronen in Bewegung gesetzt werden.",
+      "difficulty": 4,
+      "subcategory": "Elektrischer Strom (Definition & Kontinuitätsgleichung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Jacobi-Determinante (Wechsel der Variablen)",
+      "question": "Was beschreibt die Jacobi-Determinante im Kontext des Wechsels der Variablen in der statistischen Mechanik?",
+      "choices": [
+        "A: Sie beschreibt die Bewegung eines Teilchens in einem Feld.",
+        "B: Sie gibt an, wie sich das Volumen bei einer Transformation von Variablen verändert.",
+        "C: Sie ist unabhängig von der Anzahl der Teilchen im System.",
+        "D: Sie berechnet die Temperatur eines Systems."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Jacobi-Determinante ist ein wichtiger Begriff beim Wechsel der Variablen, da sie das Verhältnis des Volumens zwischen dem ursprünglichen und dem transformierten Raum beschreibt. Dies ist entscheidend für die korrekte Anwendung von Integralen in der statistischen Mechanik.",
+      "difficulty": 4,
+      "subcategory": "Jacobi-Determinante (Wechsel der Variablen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Ehrenfest-Klassifikation",
+      "question": "Welche der folgenden Stoffe wird in der Ehrenfest-Klassifikation als ideales Gas betrachtet?",
+      "choices": [
+        "A: Eisen",
+        "B: Quecksilber",
+        "C: Helium",
+        "D: Wasser"
+      ],
+      "correct_answer": "C",
+      "explanation": "In der Ehrenfest-Klassifikation wird Helium als ideales Gas betrachtet, da es bei normalen Bedingungen ein ideales Verhalten zeigt. Ideale Gase halten sich an die Gasgesetze und haben keine Wechselwirkungen zwischen den Molekülen.",
+      "difficulty": 2,
+      "subcategory": "Ehrenfest-Klassifikation"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "p–n-Übergang",
+      "question": "Was ist der Hauptunterschied zwischen p- und n-dotierten Halbleitern?",
+      "choices": [
+        "A: p-dotierte Halbleiter haben einen Überschuss an Löchern, während n-dotierte Halbleiter einen Überschuss an Elektronen haben.",
+        "B: p-dotierte Halbleiter sind aus Metall, während n-dotierte Halbleiter aus Isolatoren bestehen.",
+        "C: Es gibt keinen Unterschied, beide Arten leiten Strom auf die gleiche Weise.",
+        "D: p-dotierte Halbleiter sind immer in einem festen Zustand, während n-dotierte Halbleiter nur bei hohen Temperaturen leiten."
+      ],
+      "correct_answer": "A",
+      "explanation": "p-dotierte Halbleiter enthalten mehr Löcher (fehlende Elektronen), während n-dotierte Halbleiter mehr Elektronen aufweisen. Dieser Unterschied führt zu unterschiedlichen elektrischen Eigenschaften und Verhaltensweisen in Halbleiterschaltungen.",
+      "difficulty": 4,
+      "subcategory": "p–n-Übergang"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Gibbs-Phasenregel; Mehrkomponenten-Gleichgewichte",
+      "question": "Welche Aussage zur Gibbs-Phasenregel ist korrekt?",
+      "choices": [
+        "A: Die Gibbs-Phasenregel besagt, dass in einem System mit mehreren Phasen die Temperatur immer gleich ist.",
+        "B: Die Gibbs-Phasenregel ist nur für Systeme mit einer Komponente anwendbar.",
+        "C: Die Anzahl der Phasen in einem Gleichgewichtssystem ist gleich der Anzahl der Komponenten minus die Anzahl der Freiheitsgrade.",
+        "D: Die Anzahl der Freiheitsgrade ist immer gleich der Anzahl der Phasen in einem System."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Gibbs-Phasenregel beschreibt die Beziehung zwischen der Anzahl der Phasen, der Komponenten und den Freiheitsgraden in einem Gleichgewichtssystem. Sie lautet F = C - P + 2, wobei F die Freiheitsgrade, C die Komponenten und P die Phasen sind.",
+      "difficulty": 4,
+      "subcategory": "Gibbs-Phasenregel; Mehrkomponenten-Gleichgewichte"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Das Auge (Optik)",
+      "question": "Welche Struktur im menschlichen Auge ist verantwortlich für die Lichtbrechung?",
+      "choices": [
+        "A: Iris",
+        "B: Netzhaut",
+        "C: Hornhaut",
+        "D: Linse"
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Hornhaut ist die erste Struktur, die das Licht bricht, wenn es ins Auge fällt. Sie trägt wesentlich zur Fokussierung des Bildes auf der Netzhaut bei, während die Linse eine zusätzliche Anpassung der Fokussierung ermöglicht.",
+      "difficulty": 5,
+      "subcategory": "Das Auge (Optik)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Residuensatz",
+      "question": "Was beschreibt der Residuensatz in der Elektrodynamik?",
+      "choices": [
+        "A: Die Bestimmung der Gesamtladung innerhalb eines geschlossenen Systems.",
+        "B: Die Integration von Funktionen, die Singularitäten aufweisen.",
+        "C: Die Beziehung zwischen Spannung und Strom in einem Leiter.",
+        "D: Die Berechnung von elektrischen Feldern in isolierenden Materialien."
+      ],
+      "correct_answer": "B",
+      "explanation": "Der Residuensatz ist ein mathematisches Werkzeug in der komplexen Analysis, das hilft, Integrale von Funktionen mit Singularitäten zu berechnen. In der Elektrodynamik wird dieser Satz oft verwendet, um bestimmte Integrale zu evaluieren, die in der Theorie der elektrischen Felder auftreten.",
+      "difficulty": 2,
+      "subcategory": "Residuensatz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Korrespondenzregel (Operatorersatz)",
+      "question": "Was besagt die Korrespondenzregel in der Quantenmechanik?",
+      "choices": [
+        "A: Quantenmechanische Effekte sind nur für Teilchen von sehr geringer Masse relevant.",
+        "B: Die quantenmechanischen Operatoren entsprechen klassischen physikalischen Größen im Grenzfall hoher Quantenzahlen.",
+        "C: Die Korrespondenzregel beschreibt das Verhalten von Photonen in einem elektrischen Feld.",
+        "D: Jede quantenmechanische Größe hat eine eindeutige klassische Entsprechung."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Korrespondenzregel besagt, dass im Grenzfall hoher Quantenzahlen die quantenmechanischen Operatoren die klassischen physikalischen Größen ersetzen. Dies ist ein wichtiges Konzept, um den Übergang von der Quantenmechanik zur klassischen Physik zu verstehen.",
+      "difficulty": 6,
+      "subcategory": "Korrespondenzregel (Operatorersatz)"
+    }
+  ]
+}
