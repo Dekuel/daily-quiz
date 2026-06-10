@@ -1,0 +1,168 @@
+{
+  "date": "2026-06-10",
+  "generated_at": "2026-06-10T04:33:10Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Elastische Konstanten",
+      "question": "Which of the following quantities describes the ability of a material to deform elastically under load?",
+      "choices": [
+        "A: Thermal conductivity",
+        "B: Modulus of elasticity",
+        "C: Density",
+        "D: Viscosity"
+      ],
+      "correct_answer": "B",
+      "explanation": "The modulus of elasticity is a measure of the stiffness of a material and describes how much it deforms elastically under a certain load. The higher the modulus of elasticity, the less the material deforms under load.",
+      "difficulty": 3,
+      "subcategory": "Elastische Konstanten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Elektromagnetische Potentiale (Vierervektor)",
+      "question": "What does the electromagnetic four-vector describe in relativity theory?",
+      "choices": [
+        "A: Time dilation in a moving system.",
+        "B: Electric and magnetic field strength in a four-dimensional space.",
+        "C: Gravitational force between two massive objects.",
+        "D: Only the electric field strength in classical mechanics."
+      ],
+      "correct_answer": "B",
+      "explanation": "The electromagnetic four-vector combines the electric and magnetic field strength in a four-dimensional space and enables a unified description of electrodynamics in relativity theory. This is important to consider the relativity of simultaneous events.",
+      "difficulty": 4,
+      "subcategory": "Elektromagnetische Potentiale (Vierervektor)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Quarks in Hadronen (Flavor, Farbladung)",
+      "question": "Which quark has the highest electric charge?",
+      "choices": [
+        "A: Bottom quark",
+        "B: Up quark",
+        "C: Down quark",
+        "D: Strange quark"
+      ],
+      "correct_answer": "B",
+      "explanation": "The up quark has an electric charge of +2/3, making it the quark with the highest charge. The other quark flavors have lower charges: down quark (-1/3), strange quark (-1/3), and bottom quark (-1/3).",
+      "difficulty": 7,
+      "subcategory": "Quarks in Hadronen (Flavor, Farbladung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Mittelwerte & Schwankungen",
+      "question": "What does the expectation value describe in quantum mechanics?",
+      "choices": [
+        "A: The exact position of a particle at a specific time.",
+        "B: The average value of a measurement over many trials.",
+        "C: The highest possible energy of a particle.",
+        "D: The number of particles in a system."
+      ],
+      "correct_answer": "B",
+      "explanation": "The expectation value is a central concept in quantum mechanics and indicates the average value of a measurement when an experiment is repeated infinitely. It reflects the average result of the measurement and is crucial for understanding quantum mechanical systems.",
+      "difficulty": 5,
+      "subcategory": "Mittelwerte & Schwankungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Streuung an der harten Kugel",
+      "question": "Which of the following statements best describes the relationship between scattering on a hard sphere and the wave nature of particles in quantum mechanics?",
+      "choices": [
+        "A: Scattering on a hard sphere supports the wave nature of particles and leads to interference patterns.",
+        "B: Scattering on a hard sphere is irrelevant for quantum mechanics.",
+        "C: Scattering on a hard sphere shows that particles must always be considered as point objects.",
+        "D: Scattering on a hard sphere can only be described by classical particle models."
+      ],
+      "correct_answer": "A",
+      "explanation": "Scattering on a hard sphere demonstrates the wave nature of particles, as interference patterns are generated when the waves of the particles interact. These observations are central to understanding quantum phenomena and confirm the dual nature of particles.",
+      "difficulty": 7,
+      "subcategory": "Streuung an der harten Kugel"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Zeitlich oszillierende Quellen",
+      "question": "What does the frequency of a temporally oscillating source describe?",
+      "choices": [
+        "A: The wavelength of the emitted radiation",
+        "B: The energy of the emitted waves",
+        "C: The maximum displacement of the oscillation",
+        "D: The number of oscillations per second"
+      ],
+      "correct_answer": "D",
+      "explanation": "The frequency of a temporally oscillating source indicates how many oscillations occur per second. It is a crucial parameter for characterizing vibrations and waves, as it is directly related to the energy and wavelength of the emitted radiation.",
+      "difficulty": 5,
+      "subcategory": "Zeitlich oszillierende Quellen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Wronski-Determinante",
+      "question": "What does the Wronskian determinant describe in quantum mechanics?",
+      "choices": [
+        "A: The linear independence of wave functions.",
+        "B: The temperature of an ideal gas.",
+        "C: The speed of light in a medium.",
+        "D: The energy of a particle in free fall."
+      ],
+      "correct_answer": "A",
+      "explanation": "The Wronskian determinant is used to check the linear independence of wave functions in quantum mechanics. If the determinant is zero, the wave functions are linearly dependent, which has important physical consequences.",
+      "difficulty": 4,
+      "subcategory": "Wronski-Determinante"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Carnot-Kreisprozess & Wirkungsgrad",
+      "question": "What does the efficiency of a Carnot cycle process describe?",
+      "choices": [
+        "A: The speed of the working medium.",
+        "B: The amount of work converted into heat.",
+        "C: The ratio of work done to heat supplied.",
+        "D: The maximum temperature of the working medium."
+      ],
+      "correct_answer": "C",
+      "explanation": "The efficiency of a Carnot cycle process is defined as the ratio of the work done to the heat supplied. This efficiency is a measure of how efficiently the process converts the energy supplied to it.",
+      "difficulty": 3,
+      "subcategory": "Carnot-Kreisprozess & Wirkungsgrad"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Ideales Fermi-Gas: Grundzustand & starke Entartung",
+      "question": "What describes the ground state of an ideal Fermi gas under strong degeneracy?",
+      "choices": [
+        "A: The energy distribution of fermions is uniform across all states.",
+        "B: The fermions exhibit classical Maxwell-Boltzmann behavior.",
+        "C: All fermions are in the lowest energy state.",
+        "D: The fermions are completely degenerate and show no statistical behavior."
+      ],
+      "correct_answer": "C",
+      "explanation": "In the ground state of an ideal Fermi gas, all fermions are arranged in the lowest available energy state, leading to strong degeneracy. This configuration is characteristic of the behavior of fermions obeying the Pauli exclusion principle.",
+      "difficulty": 8,
+      "subcategory": "Ideales Fermi-Gas: Grundzustand & starke Entartung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Hyperkerne",
+      "question": "What is a characteristic feature of hypernuclei compared to ordinary atomic nuclei?",
+      "choices": [
+        "A: They consist only of protons and neutrons.",
+        "B: They are stable and occur frequently in nature.",
+        "C: They always have a positive electric charge.",
+        "D: They contain at least one or more hyperons."
+      ],
+      "correct_answer": "D",
+      "explanation": "Hypernuclei are atomic nuclei that contain hyperons in addition to protons and neutrons. These special particles are heavier than protons and neutrons and play an important role in the study of strong interactions and the structure of the atomic nucleus.",
+      "difficulty": 8,
+      "subcategory": "Hyperkerne"
+    }
+  ]
+}
