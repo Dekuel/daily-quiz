@@ -1,0 +1,169 @@
+{
+  "date": "2026-06-11",
+  "generated_at": "2026-06-11T04:34:04Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Wiedemann–Franz-Gesetz",
+      "question": "Was beschreibt das Wiedemann–Franz-Gesetz?",
+      "choices": [
+        "A: Die Bewegung von Teilchen in einem Vakuum.",
+        "B: Die Umwandlung von Licht in elektrische Energie.",
+        "C: Die thermodynamischen Eigenschaften von Gasen.",
+        "D: Die Beziehung zwischen elektrischer Leitfähigkeit und Wärmeleitfähigkeit in Metallen."
+      ],
+      "correct_answer": "D",
+      "explanation": "Das Wiedemann–Franz-Gesetz besagt, dass in Metallen die elektrische Leitfähigkeit proportional zur Wärmeleitfähigkeit ist. Dieses Gesetz ist wichtig für das Verständnis der Wärmeleitung in elektrischen Leitern.",
+      "difficulty": 3,
+      "subcategory": "Wiedemann–Franz-Gesetz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Ideales Gas (Zustandsgleichung)",
+      "question": "Welche der folgenden Gleichungen beschreibt ein ideales Gas?",
+      "choices": [
+        "A: PV = nRT",
+        "B: F = ma",
+        "C: W = Fd",
+        "D: E = mc²"
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Zustandsgleichung für ein ideales Gas lautet PV = nRT, wobei P der Druck, V das Volumen, n die Stoffmenge, R die universelle Gaskonstante und T die Temperatur ist. Diese Gleichung beschreibt das Verhalten idealer Gase unter verschiedenen Bedingungen.",
+      "difficulty": 3,
+      "subcategory": "Ideales Gas (Zustandsgleichung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Beugung an der kreisförmigen Öffnung",
+      "question": "Welches Phänomen beschreibt die Beugung von Licht an einer kreisförmigen Öffnung?",
+      "choices": [
+        "A: Die Reflexion an einer glatten Oberfläche",
+        "B: Die Ablenkung von Lichtstrahlen in einem Prisma",
+        "C: Die Brechung von Licht an einer Linse",
+        "D: Die Entstehung von Interferenzmustern"
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Beugung an einer kreisförmigen Öffnung führt zur Bildung von charakteristischen Interferenzmustern, die durch die Überlagerung der von der Öffnung ausgehenden Wellen entstehen. Dieses Phänomen ist besonders ausgeprägt, wenn die Wellenlängen des Lichts mit der Größe der Öffnung vergleichbar sind.",
+      "difficulty": 7,
+      "subcategory": "Beugung an der kreisförmigen Öffnung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Nutation & Präzession (Überlagerung)",
+      "question": "Was beschreibt die Präzession eines gyroskopischen Körpers?",
+      "choices": [
+        "A: Die gleichmäßige Bewegung entlang einer geraden Linie ohne äußere Einflüsse.",
+        "B: Die Änderung der Ausrichtung der Rotationsachse aufgrund eines äußeren Moments.",
+        "C: Die Schwankung in der Geschwindigkeit der Rotation ohne Änderung der Achse.",
+        "D: Die Rotation um die eigene Achse mit konstanter Geschwindigkeit."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Präzession ist das Phänomen, bei dem die Achse eines rotierenden Körpers aufgrund eines äußeren Drehmoments eine langsame Bewegung beschreibt. Dies ist insbesondere bei Gyroskopen und Planeten zu beobachten, wo die Gravitationskräfte auf die Rotationsachse einwirken und diese beeinflussen.",
+      "difficulty": 7,
+      "subcategory": "Nutation & Präzession (Überlagerung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Einteilung magnetischer Stoffe (dia-/para-/ferro-)",
+      "question": "Welche Art von magnetischem Material wird als ferromagnetisch bezeichnet?",
+      "choices": [
+        "A: Materialien, die schwach magnetisiert werden und ihre Magnetisierung verlieren.",
+        "B: Materialien, die gar nicht magnetisiert werden können.",
+        "C: Materialien, die ihre Magnetisierung nur bei hohen Temperaturen behalten.",
+        "D: Materialien, die von einem Magneten stark angezogen werden und ihre Magnetisierung behalten."
+      ],
+      "correct_answer": "D",
+      "explanation": "Ferromagnetische Materialien wie Eisen besitzen eine starke Anziehung zu Magneten und können ihre Magnetisierung auch ohne äußeres Magnetfeld beibehalten. Diese Eigenschaft unterscheidet sie von diamagnetischen und paramagnetischen Materialien, die nur schwach auf Magnetfelder reagieren und ihre Magnetisierung schnell verlieren.",
+      "difficulty": 3,
+      "subcategory": "Einteilung magnetischer Stoffe (dia-/para-/ferro-)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Natürliche Zustandsvariablen (U, H, F, G)",
+      "question": "Welche der folgenden Zustandsvariablen beschreibt die freie Enthalpie eines Systems?",
+      "choices": [
+        "A: H",
+        "B: U",
+        "C: G",
+        "D: F"
+      ],
+      "correct_answer": "C",
+      "explanation": "Die freie Enthalpie, auch als Gibbs-Energie bezeichnet, wird durch das Symbol G dargestellt. Sie ist eine wichtige Zustandsgröße in der Thermodynamik, die zur Bestimmung der Spontaneität von Prozessen dient.",
+      "difficulty": 6,
+      "subcategory": "Natürliche Zustandsvariablen (U, H, F, G)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Ideales Gas (Zustandsgleichung)",
+      "question": "Was beschreibt die Zustandsgleichung eines idealen Gases?",
+      "choices": [
+        "A: Die Farbe des Gases.",
+        "B: Die Geschwindigkeit der Gasmoleküle.",
+        "C: Die chemische Zusammensetzung des Gases.",
+        "D: Das Verhältnis von Druck, Volumen und Temperatur."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Zustandsgleichung eines idealen Gases beschreibt das Verhältnis zwischen Druck, Volumen und Temperatur und wird häufig in der Form PV = nRT dargestellt. Diese Beziehung ist grundlegend für das Verständnis des Verhaltens von Gasen unter verschiedenen Bedingungen.",
+      "difficulty": 1,
+      "subcategory": "Ideales Gas (Zustandsgleichung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Isolierte Systeme: Maximum der Entropie",
+      "question": "Was beschreibt das Maximum der Entropie in einem isolierten System?",
+      "choices": [
+        "A: Die minimale Energie, die im System gespeichert ist.",
+        "B: Die maximale Arbeit, die aus dem System gewonnen werden kann.",
+        "C: Die gleichmäßige Verteilung von Temperatur im System.",
+        "D: Die maximale Unordnung und das Gleichgewicht des Systems."
+      ],
+      "correct_answer": "D",
+      "explanation": "Das Maximum der Entropie in einem isolierten System beschreibt den Zustand maximaler Unordnung, der erreicht wird, wenn das System im thermodynamischen Gleichgewicht ist. In diesem Zustand ist die Wahrscheinlichkeit der verschiedenen Mikrozustände maximiert, was zu einer maximalen Entropie führt.",
+      "difficulty": 6,
+      "subcategory": "Isolierte Systeme: Maximum der Entropie"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Biot–Savart-Gesetz",
+      "question": "Was beschreibt das Biot–Savart-Gesetz?",
+      "choices": [
+        "A: Die Beziehung zwischen der elektrischen Feldstärke und der Ladungsverteilung.",
+        "B: Die Bewegung von Elektronen in einem Magnetfeld.",
+        "C: Die Wechselwirkung zwischen elektrischen und magnetischen Feldern.",
+        "D: Die magnetische Feldstärke aufgrund eines stromdurchflossenen Leiters."
+      ],
+      "correct_answer": "D",
+      "explanation": "Das Biot–Savart-Gesetz beschreibt, wie ein elektrischer Strom ein magnetisches Feld erzeugt. Es quantifiziert das magnetische Feld, das von einem infinitesimalen Stromelement erzeugt wird, in Bezug auf den Abstand und die Richtung zu dem Punkt, an dem das Feld gemessen wird.",
+      "difficulty": 6,
+      "subcategory": "Biot–Savart-Gesetz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Legendre-Transformation (U↔H↔F↔G)",
+      "question": "Welche der folgenden Beziehungen beschreibt korrekt die Legendre-Transformation zwischen der inneren Energie U und der Enthalpie H?",
+      "choices": [
+        "A: H = U - PV",
+        "B: H = U - nRT",
+        "C: H = U + PV",
+        "D: H = U + nRT"
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Legendre-Transformation zwischen der inneren Energie U und der Enthalpie H wird durch die Gleichung H = U + PV beschrieben, wobei P der Druck und V das Volumen ist. Diese Beziehung zeigt, dass die Enthalpie die innere Energie plus die Arbeit ist, die notwendig ist, um das Volumen gegen den Druck zu erweitern.",
+      "difficulty": 8,
+      "subcategory": "Legendre-Transformation (U↔H↔F↔G)"
+    }
+  ]
+}
