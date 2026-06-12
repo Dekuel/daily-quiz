@@ -1,0 +1,168 @@
+{
+  "date": "2026-06-12",
+  "generated_at": "2026-06-12T04:33:27Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Der Laser (Prinzip & Anwendungen)",
+      "question": "Which of the following principles is fundamental to the operation of a laser?",
+      "choices": [
+        "A: Diffraction",
+        "B: Polarization",
+        "C: Stimulated Emission",
+        "D: Refraction"
+      ],
+      "correct_answer": "C",
+      "explanation": "The operation of a laser is based on the principle of stimulated emission, where a photon stimulates an excited atom to emit another photon that is coherent and in phase with the original photon. This leads to amplification of light and enables the generation of an intense, focused beam.",
+      "difficulty": 7,
+      "subcategory": "Der Laser (Prinzip & Anwendungen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Beugung am langen Spalt",
+      "question": "What happens to light when it passes through a narrow slit?",
+      "choices": [
+        "A: It spreads evenly.",
+        "B: It is completely reflected.",
+        "C: It shows diffraction patterns.",
+        "D: It is absorbed."
+      ],
+      "correct_answer": "C",
+      "explanation": "When light passes through a narrow slit, it exhibits diffraction patterns due to the wave nature of light. This diffraction occurs because the wavefront is deflected at the edges of the slit, leading to interference.",
+      "difficulty": 4,
+      "subcategory": "Beugung am langen Spalt"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Eigenschaften von Photonen",
+      "question": "Which statement about photons is correct?",
+      "choices": [
+        "A: Photons are negatively charged and influence electric fields.",
+        "B: Photons cannot move in a vacuum, always require a medium.",
+        "C: Photons are massless particles and move at the speed of light in a vacuum.",
+        "D: Photons have rest mass and always move at the speed of light."
+      ],
+      "correct_answer": "C",
+      "explanation": "Photons are massless particles that always move at the speed of light in a vacuum. This property is fundamental to quantum mechanics and electrodynamics.",
+      "difficulty": 9,
+      "subcategory": "Eigenschaften von Photonen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Bottonium & Toponium",
+      "question": "What is Bottonium?",
+      "choices": [
+        "A: A bound state of a bottom quark and a bottom antiquark.",
+        "B: A state of water at boiling point.",
+        "C: A type of neutrino.",
+        "D: An element of the periodic table."
+      ],
+      "correct_answer": "A",
+      "explanation": "Bottonium is a meson composed of a bottom quark and a bottom antiquark. It belongs to the family of quark-antiquark pairs and plays a role in particle physics and the study of quark aggregations.",
+      "difficulty": 4,
+      "subcategory": "Bottonium & Toponium"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Elastische Konstanten",
+      "question": "Which of the following statements about the elastic constants of an isotropic material is correct?",
+      "choices": [
+        "A: The Young's modulus and the shear modulus are independent of each other.",
+        "B: The shear modulus can be calculated from the other elastic constants.",
+        "C: The bulk modulus is always smaller than the Young's modulus.",
+        "D: The Young's modulus is defined as the ratio of tensile stress to longitudinal strain."
+      ],
+      "correct_answer": "B",
+      "explanation": "The shear modulus can be calculated from the Young's modulus and the Poisson's ratio of an isotropic material, illustrating the relationship between these elastic constants. This is important for analyzing material behavior under different mechanical loads.",
+      "difficulty": 8,
+      "subcategory": "Elastische Konstanten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Hilbert-Raum (allgemein)",
+      "question": "What is a Hilbert space in quantum mechanics?",
+      "choices": [
+        "A: A method for calculating classical trajectories.",
+        "B: A physical experiment for measuring quantum objects.",
+        "C: A theoretical model for relativity theory.",
+        "D: A mathematical concept for describing states and their properties."
+      ],
+      "correct_answer": "D",
+      "explanation": "A Hilbert space is an abstract mathematical space used to describe quantum states in quantum mechanics. It allows for the application of linear operators and is crucial for the mathematical formulation of the theory.",
+      "difficulty": 5,
+      "subcategory": "Hilbert-Raum (allgemein)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Turbulenz & Strömungswiderstand",
+      "question": "Which of the following statements best describes the influence of turbulence on the flow resistance of a body in a fluid?",
+      "choices": [
+        "A: The flow resistance remains constant in turbulent flows.",
+        "B: Turbulent flow results in higher flow resistance compared to laminar flows.",
+        "C: Turbulent flow significantly reduces flow resistance.",
+        "D: Turbulent flow has no effect on flow resistance."
+      ],
+      "correct_answer": "B",
+      "explanation": "Turbulent flows cause additional interactions between fluid particles, leading to higher flow resistance. Compared to laminar flows, the resistance in turbulent flows is significantly increased.",
+      "difficulty": 6,
+      "subcategory": "Turbulenz & Strömungswiderstand"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Elektron (Entdeckung, Eigenschaften)",
+      "question": "Which particle was discovered by J.J. Thomson in 1897 and is considered the carrier of negative electric charge?",
+      "choices": [
+        "A: Electron",
+        "B: Neutron",
+        "C: Positron",
+        "D: Proton"
+      ],
+      "correct_answer": "A",
+      "explanation": "J.J. Thomson discovered the electron as the first subatomic particle, laying the foundation for modern physics and the understanding of atoms. Electrons possess a negative charge and play a crucial role in chemistry and electrodynamics.",
+      "difficulty": 3,
+      "subcategory": "Elektron (Entdeckung, Eigenschaften)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Quasi-freie Elektronen (Näherung)",
+      "question": "What does the model of quasi-free electrons in solids describe?",
+      "choices": [
+        "A: Electrons in solids always have a negative charge.",
+        "B: Electrons are fully bound to atoms and cannot move.",
+        "C: Electrons move in a network of crystal lattices and can change energetic states.",
+        "D: Electrons move like ideal gases in a solid."
+      ],
+      "correct_answer": "C",
+      "explanation": "The model of quasi-free electrons describes how electrons in a solid can move freely within a crystal lattice while taking into account interactions with the atomic nuclei. This assumption helps explain the behavior of electrons in metals and semiconductors.",
+      "difficulty": 3,
+      "subcategory": "Quasi-freie Elektronen (Näherung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Fluktuationen & thermodynamische Ungleichungen",
+      "question": "Which of the following statements correctly describes the concept of thermodynamic fluctuations?",
+      "choices": [
+        "A: Thermodynamic fluctuations are insignificant variations that occur in a system at equilibrium.",
+        "B: Thermodynamic fluctuations are only relevant at very high temperatures.",
+        "C: Thermodynamic fluctuations always lead to a stable state in the system.",
+        "D: Thermodynamic fluctuations can only be observed in open systems."
+      ],
+      "correct_answer": "A",
+      "explanation": "Thermodynamic fluctuations are small, random deviations from equilibrium states that can occur in any thermodynamic system. These fluctuations are particularly important for understanding the behavior of systems in equilibrium, especially in statistical mechanics.",
+      "difficulty": 4,
+      "subcategory": "Fluktuationen & thermodynamische Ungleichungen"
+    }
+  ]
+}

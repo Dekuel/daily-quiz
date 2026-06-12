@@ -2590,6 +2590,20 @@
       "correct_answer": "D",
       "explanation": "FTP (File Transfer Protocol) ist ein Standardnetzwerkprotokoll, das für die Übertragung von Dateien zwischen Computern über das Internet genutzt wird. HTTP (Hypertext Transfer Protocol) wird hingegen für den Zugriff auf Webseiten verwendet, während SMTP (Simple Mail Transfer Protocol) für den E-Mail-Versand und IMAP (Internet Message Access Protocol) für den E-Mail-Zugriff zuständig ist.",
       "difficulty": 7
+    },
+    {
+      "category": "Technologie",
+      "topic": "KI & Zukunftstechnologien",
+      "question": "Welches der folgenden KI-Modelle nutzt die Architektur von generativen adversarialen Netzwerken (GANs)?",
+      "choices": [
+        "A: LSTM",
+        "B: BERT",
+        "C: ResNet",
+        "D: StyleGAN"
+      ],
+      "correct_answer": "D",
+      "explanation": "StyleGAN ist ein bekanntes Beispiel für ein KI-Modell, das auf der GAN-Architektur basiert und zur Erzeugung von realistisch aussehenden Bildern verwendet wird. BERT hingegen ist ein Transformer-basiertes Modell für natürliche Sprachverarbeitung, während ResNet eine Architektur für tiefe neuronale Netze ist und LSTM ein Typ rekurrenter Netzwerke zur Verarbeitung von Sequenzdaten.",
+      "difficulty": 10
     }
   ]
 }

@@ -1,0 +1,169 @@
+{
+  "date": "2026-06-12",
+  "generated_at": "2026-06-12T04:32:55Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Der Laser (Prinzip & Anwendungen)",
+      "question": "Welches der folgenden Prinzipien ist grundlegend für die Funktionsweise eines Lasers?",
+      "choices": [
+        "A: Diffraction",
+        "B: Polarization",
+        "C: Stimulated Emission",
+        "D: Refraction"
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Funktionsweise eines Lasers basiert auf dem Prinzip der stimulierten Emission, bei dem ein Photon ein angeregtes Atom dazu anregt, ein weiteres Photon zu emittieren, das kohärent und in Phase mit dem ursprünglichen Photon ist. Dies führt zu einer Verstärkung des Lichtes und ermöglicht die Erzeugung eines intensiven, gebündelten Strahls.",
+      "difficulty": 7,
+      "subcategory": "Der Laser (Prinzip & Anwendungen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Beugung am langen Spalt",
+      "question": "Was passiert mit Licht, wenn es durch einen langen Spalt fällt?",
+      "choices": [
+        "A: Es breitet sich gleichmäßig aus.",
+        "B: Es wird vollständig reflektiert.",
+        "C: Es zeigt Beugungsmuster.",
+        "D: Es wird absorbiert."
+      ],
+      "correct_answer": "C",
+      "explanation": "Wenn Licht durch einen langen Spalt fällt, zeigt es Beugungsmuster aufgrund der Wellencharakteristik des Lichts. Diese Beugung tritt auf, weil die Wellenfront an den Kanten des Spalts abgelenkt wird, was zu Interferenz führt.",
+      "difficulty": 4,
+      "subcategory": "Beugung am langen Spalt"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Eigenschaften von Photonen",
+      "question": "Welche Aussage über Photonen ist korrekt?",
+      "choices": [
+        "A: Photonen sind negativ geladen und beeinflussen elektrische Felder.",
+        "B: Photonen können sich nicht im Vakuum bewegen, benötigen immer ein Medium.",
+        "C: Photonen sind masselose Teilchen und bewegen sich im Vakuum mit Lichtgeschwindigkeit.",
+        "D: Photonen haben eine Ruhemasse und bewegen sich immer mit Lichtgeschwindigkeit."
+      ],
+      "correct_answer": "C",
+      "explanation": "Photonen sind masselose Teilchen, die sich im Vakuum immer mit Lichtgeschwindigkeit bewegen. Diese Eigenschaft ist fundamental für die Quantenmechanik und die Elektrodynamik.",
+      "difficulty": 9,
+      "subcategory": "Eigenschaften von Photonen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Bottonium & Toponium",
+      "question": "Was ist Bottonium?",
+      "choices": [
+        "A: Ein gebundenes Zustand aus einem Bottom-Quark und einem Bottom-Antiquark.",
+        "B: Ein Zustand von Wasser bei Siedepunkt.",
+        "C: Eine Art von Neutrino.",
+        "D: Ein Element des Periodensystems."
+      ],
+      "correct_answer": "A",
+      "explanation": "Bottonium ist ein Meson, das aus einem Bottom-Quark und einem Bottom-Antiquark besteht. Es gehört zur Familie der Quark-Antiquark-Paare und spielt eine Rolle in der Teilchenphysik und der Untersuchung von Quark-Aggregationen.",
+      "difficulty": 4,
+      "subcategory": "Bottonium & Toponium"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Elastische Konstanten",
+      "question": "Welche der folgenden Aussagen über die elastischen Konstanten eines isotropen Materials ist korrekt?",
+      "choices": [
+        "A: Der Young-Modul und der Scher-Modul sind unabhängig voneinander.",
+        "B: Der Scher-Modul kann aus den anderen elastischen Konstanten berechnet werden.",
+        "C: Der Bulk-Modul ist immer kleiner als der Young-Modul.",
+        "D: Der Young-Modul ist definiert als das Verhältnis von Zugspannung zu Längsdehnung."
+      ],
+      "correct_answer": "B",
+      "explanation": "Der Scher-Modul kann aus dem Young-Modul und der Poisson-Zahl eines isotropen Materials berechnet werden, was die Beziehung zwischen diesen elastischen Konstanten verdeutlicht. Dies ist wichtig für die Analyse von Materialverhalten unter verschiedenen mechanischen Belastungen.",
+      "difficulty": 8,
+      "subcategory": "Elastische Konstanten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Hilbert-Raum (allgemein)",
+      "question": "Was ist ein Hilbert-Raum in der Quantenmechanik?",
+      "choices": [
+        "A: Eine Methode zur Berechnung von klassischen Bahnen.",
+        "B: Ein physikalisches Experiment zur Messung von Quantenobjekten.",
+        "C: Ein theoretisches Modell für die Relativitätstheorie.",
+        "D: Ein mathematisches Konzept zur Beschreibung von Zuständen und deren Eigenschaften."
+      ],
+      "correct_answer": "D",
+      "explanation": "Ein Hilbert-Raum ist ein abstrakter mathematischer Raum, der zur Beschreibung von Quantenzuständen in der Quantenmechanik verwendet wird. Er ermöglicht die Anwendung von linearen Operatoren und ist entscheidend für die mathematische Formulierung der Theorie.",
+      "difficulty": 5,
+      "subcategory": "Hilbert-Raum (allgemein)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Turbulenz & Strömungswiderstand",
+      "question": "Welche der folgenden Aussagen beschreibt am besten den Einfluss von Turbulenz auf den Strömungswiderstand eines Körpers im Fluid?",
+      "choices": [
+        "A: Der Strömungswiderstand bleibt in turbulenten Strömungen konstant.",
+        "B: Turbulente Strömung führt zu einem höheren Strömungswiderstand im Vergleich zu laminaren Strömungen.",
+        "C: Turbulente Strömung reduziert den Strömungswiderstand erheblich.",
+        "D: Turbulente Strömung hat keinen Einfluss auf den Strömungswiderstand."
+      ],
+      "correct_answer": "B",
+      "explanation": "Turbulente Strömungen verursachen zusätzliche Wechselwirkungen zwischen den Fluidpartikeln, was zu einem höheren Strömungswiderstand führt. Im Vergleich zu laminaren Strömungen ist der Widerstand in turbulenten Strömungen daher signifikant erhöht.",
+      "difficulty": 6,
+      "subcategory": "Turbulenz & Strömungswiderstand"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Elektron (Entdeckung, Eigenschaften)",
+      "question": "Welches Teilchen wurde 1897 von J.J. Thomson entdeckt und gilt als Träger der negativen elektrischen Ladung?",
+      "choices": [
+        "A: Elektron",
+        "B: Neutron",
+        "C: Positron",
+        "D: Proton"
+      ],
+      "correct_answer": "A",
+      "explanation": "J.J. Thomson entdeckte das Elektron als erstes subatomare Teilchen, was die Grundlage für die moderne Physik und das Verständnis von Atomen legte. Elektronen besitzen eine negative Ladung und spielen eine entscheidende Rolle in der Chemie und Elektrodynamik.",
+      "difficulty": 3,
+      "subcategory": "Elektron (Entdeckung, Eigenschaften)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Quasi-freie Elektronen (Näherung)",
+      "question": "Was beschreibt das Modell der quasi-freien Elektronen in Festkörpern?",
+      "choices": [
+        "A: Elektronen in Festkörpern haben immer eine negative Ladung.",
+        "B: Elektronen sind vollständig an Atome gebunden und können sich nicht bewegen.",
+        "C: Elektronen bewegen sich in einem Netzwerk von Kristallgittern und können dabei energetische Zustände ändern.",
+        "D: Elektronen bewegen sich wie ideale Gase in einem Festkörper."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Modell der quasi-freien Elektronen beschreibt, wie Elektronen in einem Festkörper innerhalb eines Kristallgitters frei bewegen können, während sie die Wechselwirkungen mit den Atomrümpfen berücksichtigen. Diese Annahme hilft, das Verhalten von Elektronen in Metallen und Halbleitern zu erklären.",
+      "difficulty": 3,
+      "subcategory": "Quasi-freie Elektronen (Näherung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Fluktuationen & thermodynamische Ungleichungen",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt das Konzept der thermodynamischen Fluktuationen?",
+      "choices": [
+        "A: Thermodynamische Fluktuationen sind unerhebliche Schwankungen, die in einem System bei Gleichgewicht auftreten.",
+        "B: Thermodynamische Fluktuationen sind ausschließlich bei sehr hohen Temperaturen relevant.",
+        "C: Thermodynamische Fluktuationen führen immer zu einem stabilen Zustand im System.",
+        "D: Thermodynamische Fluktuationen können nur in offenen Systemen beobachtet werden."
+      ],
+      "correct_answer": "A",
+      "explanation": "Thermodynamische Fluktuationen sind kleine, zufällige Abweichungen von Gleichgewichtszuständen, die in jedem thermodynamischen System auftreten können. Diese Fluktuationen sind besonders wichtig, um das Verhalten von Systemen im Gleichgewicht zu verstehen, insbesondere in der statistischen Mechanik.",
+      "difficulty": 4,
+      "subcategory": "Fluktuationen & thermodynamische Ungleichungen"
+    }
+  ]
+}
