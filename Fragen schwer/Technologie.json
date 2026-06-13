@@ -2604,6 +2604,20 @@
       "correct_answer": "D",
       "explanation": "StyleGAN ist ein bekanntes Beispiel für ein KI-Modell, das auf der GAN-Architektur basiert und zur Erzeugung von realistisch aussehenden Bildern verwendet wird. BERT hingegen ist ein Transformer-basiertes Modell für natürliche Sprachverarbeitung, während ResNet eine Architektur für tiefe neuronale Netze ist und LSTM ein Typ rekurrenter Netzwerke zur Verarbeitung von Sequenzdaten.",
       "difficulty": 10
+    },
+    {
+      "category": "Technologie",
+      "topic": "Computer & Internet",
+      "question": "Was ist das Hauptmerkmal von HTTP/2 im Vergleich zu HTTP/1.1?",
+      "choices": [
+        "A: Multiplexing von Anfragen",
+        "B: Abwärtskompatibilität zu HTTP/1.0",
+        "C: Verwendung von JSON als Standardformat",
+        "D: Unterstützung von WebSockets"
+      ],
+      "correct_answer": "A",
+      "explanation": "HTTP/2 führt das Multiplexing von Anfragen ein, was bedeutet, dass mehrere Anfragen gleichzeitig über eine einzige Verbindung gesendet werden können. Dies verbessert die Ladezeiten und die Effizienz der Datenübertragung erheblich. Die anderen Optionen beziehen sich zwar auf relevante Technologien, sind jedoch nicht das Hauptmerkmal von HTTP/2.",
+      "difficulty": 10
     }
   ]
 }

@@ -1,0 +1,169 @@
+{
+  "date": "2026-06-13",
+  "generated_at": "2026-06-13T04:32:28Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Trägheitstensor & -ellipsoid",
+      "question": "Welcher der folgenden Aussagen beschreibt korrekt die Eigenschaften des Trägheitstensors eines starren Körpers?",
+      "choices": [
+        "A: Der Trägheitstensor ist unabhängig von der Massiverteilung innerhalb des Körpers.",
+        "B: Der Trägheitstensor ist immer diagonal, wenn das Bezugssystem in Hauptachsen ausgerichtet ist.",
+        "C: Der Trägheitstensor ist immer identisch mit der Masse des Körpers.",
+        "D: Der Trägheitstensor hat keine physikalische Bedeutung für die Rotation des Körpers."
+      ],
+      "correct_answer": "B",
+      "explanation": "Der Trägheitstensor eines starren Körpers ist in einem Bezugssystem, das mit den Hauptachsen des Körpers übereinstimmt, stets diagonal. Dies bedeutet, dass die Trägheitsmomente entlang dieser Achsen die einzige relevante Information über die Rotationsdynamik des Körpers liefern.",
+      "difficulty": 8,
+      "subcategory": "Trägheitstensor & -ellipsoid"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Ideales Molekülgas: Zustandssumme (Rot./Vib.)",
+      "question": "Welche Aussage zur Zustandssumme eines idealen Molekülgases mit Berücksichtigung der Rotations- und Vibrationsbewegungen ist korrekt?",
+      "choices": [
+        "A: Die Zustandssumme kann als das Produkt der translationalen, rotationalen und vibrationalen Zustandssummen dargestellt werden.",
+        "B: Die Rotationszustandssumme ist für alle Gase konstant und unabhängig von der Temperatur.",
+        "C: Die Zustandssumme enthält nur die Beiträge der translationalen Bewegungen.",
+        "D: Die Zustandssumme verringert sich mit steigender Temperatur."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Zustandssumme eines idealen Molekülgases ist tatsächlich das Produkt der translationalen, rotationalen und vibrationalen Zustandssummen, was die Gesamtstatistik des Systems beschreibt. Die Berücksichtigung aller Bewegungsarten ist entscheidend für ein vollständiges Verständnis der thermodynamischen Eigenschaften des Gases.",
+      "difficulty": 9,
+      "subcategory": "Ideales Molekülgas: Zustandssumme (Rot./Vib.)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Stoßquerschnitt & mittlere freie Weglänge",
+      "question": "Was beschreibt der Begriff 'mittlere freie Weglänge' in der klassischen Mechanik?",
+      "choices": [
+        "A: Die Zeit, die ein Teilchen braucht, um von einem Punkt zum anderen zu gelangen.",
+        "B: Die maximale Entfernung, die ein Teilchen in einem Vakuum erreichen kann.",
+        "C: Die Anzahl der Teilchen in einem bestimmten Volumen.",
+        "D: Die durchschnittliche Distanz, die ein Teilchen zwischen zwei Kollisionen zurücklegt."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die mittlere freie Weglänge ist ein zentrales Konzept in der kinetischen Theorie und beschreibt die durchschnittliche Distanz, die ein Teilchen in einem Gas zwischen zwei Kollisionen mit anderen Teilchen zurücklegt. Diese Größe ist wichtig für das Verständnis von Transportphänomenen in Gasen.",
+      "difficulty": 2,
+      "subcategory": "Stoßquerschnitt & mittlere freie Weglänge"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Formale Streutheorie: Lippmann–Schwinger-Gleichung",
+      "question": "Was beschreibt die Lippmann–Schwinger-Gleichung in der Quantenmechanik?",
+      "choices": [
+        "A: Sie beschreibt die Wechselwirkung zwischen quantenmechanischen Zuständen und externen Feldern.",
+        "B: Sie erklärt die Bewegung von Objekten unter der Einwirkung von Kräften.",
+        "C: Sie stellt die Beziehung zwischen der Energie eines Systems und seiner Temperatur dar.",
+        "D: Sie beschreibt die Diffusion von Teilchen in einem Medium."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Lippmann–Schwinger-Gleichung ist ein fundamentales Werkzeug in der quantenmechanischen Streutheorie. Sie beschreibt, wie quantenmechanische Zustände durch Wechselwirkungen mit äußeren Feldern verändert werden, und ermöglicht somit die Berechnung von Streuamplituden.",
+      "difficulty": 5,
+      "subcategory": "Formale Streutheorie: Lippmann–Schwinger-Gleichung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Natürliche Zustandsvariablen (U, H, F, G)",
+      "question": "Welches der folgenden thermodynamischen Potentiale ist bei konstantem Druck und Temperatur am besten geeignet, um die spontane Reaktion eines Systems zu bewerten?",
+      "choices": [
+        "A: Innere Energie (U)",
+        "B: Enthalpie (H)",
+        "C: Helmholtz freie Energie (F)",
+        "D: Gibbs freie Energie (G)"
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Gibbs freie Energie (G) ist besonders wichtig in chemischen Reaktionen und Phasenübergängen, da sie die maximale Arbeit beschreibt, die bei konstantem Druck und Temperatur geleistet werden kann. Eine negative Änderung der Gibbs freien Energie weist auf eine spontane Reaktion hin.",
+      "difficulty": 9,
+      "subcategory": "Natürliche Zustandsvariablen (U, H, F, G)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Anwendungen der Doppelbrechung",
+      "question": "Welche der folgenden Anwendungen nutzt die Doppelbrechung?",
+      "choices": [
+        "A: Linsen in Kameras",
+        "B: Gläser in Mikroskopen",
+        "C: Polarisationsfilter in Sonnenbrillen",
+        "D: Spiegelsysteme in Teleskopen"
+      ],
+      "correct_answer": "C",
+      "explanation": "Polarisationsfilter nutzen die Doppelbrechung, um Lichtwellen zu filtern und nur Licht einer bestimmten Polarisation durchzulassen. Diese Technologie ist besonders effektiv in Sonnenbrillen, um Blendung zu reduzieren und die Sicht zu verbessern.",
+      "difficulty": 3,
+      "subcategory": "Anwendungen der Doppelbrechung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Sternentwicklung & Elementsynthese",
+      "question": "Was ist der Hauptprozess, durch den in den Kernen von Sternen schwerere Elemente aus Wasserstoff entstehen?",
+      "choices": [
+        "A: Kernspaltung",
+        "B: Elektroneneinfang",
+        "C: Beta-Zerfall",
+        "D: Kernfusion"
+      ],
+      "correct_answer": "D",
+      "explanation": "In den Kernen von Sternen findet die Kernfusion statt, bei der Wasserstoffkerne miteinander verschmelzen, um schwerere Elemente zu bilden. Dieser Prozess ist entscheidend für die Energieerzeugung in Sternen und trägt zur Elementsynthese im Universum bei.",
+      "difficulty": 6,
+      "subcategory": "Sternentwicklung & Elementsynthese"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Elektromagnetische Potentiale (Vierervektor)",
+      "question": "Was beschreibt der Vierervektor im Kontext der elektromagnetischen Potentiale?",
+      "choices": [
+        "A: Die zeitliche und räumliche Verteilung von elektrischen und magnetischen Feldern",
+        "B: Die Masse eines Teilchens in einem elektromagnetischen Feld",
+        "C: Die Geschwindigkeit eines Teilchens in relativistischen Systemen",
+        "D: Die Kraft, die auf ein geladenes Teilchen wirkt"
+      ],
+      "correct_answer": "A",
+      "explanation": "Der Vierervektor kombiniert die elektrischen und magnetischen Potentiale in einer relativistischen Form und beschreibt deren Verteilung in Raum und Zeit. Dies ist entscheidend für die Anwendung der Elektrodynamik in der Relativitätstheorie.",
+      "difficulty": 4,
+      "subcategory": "Elektromagnetische Potentiale (Vierervektor)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Dritter Hauptsatz (Nernst’scher Wärmesatz)",
+      "question": "Was besagt der dritte Hauptsatz der Thermodynamik?",
+      "choices": [
+        "A: Die Energie eines geschlossenen Systems bleibt konstant.",
+        "B: Die Entropie eines perfekten Kristalls strebt bei 0 Kelvin gegen null.",
+        "C: Wärme kann nicht von einem kälteren Körper auf einen wärmeren Körper übertragen werden.",
+        "D: Der Druck und das Volumen eines idealen Gases sind konstant."
+      ],
+      "correct_answer": "B",
+      "explanation": "Der dritte Hauptsatz der Thermodynamik, auch bekannt als Nernst’scher Wärmesatz, besagt, dass die Entropie eines perfekten Kristalls bei absolutem Nullpunkt (0 Kelvin) gleich null ist. Dies bedeutet, dass es keine Unordnung im System gibt, wenn es sich im niedrigsten energetischen Zustand befindet.",
+      "difficulty": 5,
+      "subcategory": "Dritter Hauptsatz (Nernst’scher Wärmesatz)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Halbleiterlaser",
+      "question": "Welche der folgenden Aussagen beschreibt am besten den Funktionsprinzip eines Halbleiterlasers?",
+      "choices": [
+        "A: Er funktioniert ausschließlich durch thermische Strahlung.",
+        "B: Er nutzt die rekombinierende Elektronen-Loch-Paare zur Emission von Photonen.",
+        "C: Er erzeugt Licht durch den Einfluss eines starken Magnetfeldes.",
+        "D: Er verwendet eine optische Pumpe zur Anregung von Atomen."
+      ],
+      "correct_answer": "B",
+      "explanation": "Halbleiterlaser erzeugen Licht durch die Rekombination von Elektronen und Löchern in einem Halbleitermaterial, was zur Emission von Photonen führt. Diese Rekombination ist der zentrale Mechanismus, der die Laserstrahlung ermöglicht.",
+      "difficulty": 5,
+      "subcategory": "Halbleiterlaser"
+    }
+  ]
+}

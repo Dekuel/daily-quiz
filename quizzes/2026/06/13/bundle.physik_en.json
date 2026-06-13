@@ -1,0 +1,168 @@
+{
+  "date": "2026-06-13",
+  "generated_at": "2026-06-13T04:33:04Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Trägheitstensor & -ellipsoid",
+      "question": "Which of the following statements correctly describes the properties of the inertia tensor of a rigid body?",
+      "choices": [
+        "A: The inertia tensor is independent of the mass distribution within the body.",
+        "B: The inertia tensor is always diagonal when the reference system is aligned with principal axes.",
+        "C: The inertia tensor is always identical to the mass of the body.",
+        "D: The inertia tensor has no physical significance for the rotation of the body."
+      ],
+      "correct_answer": "B",
+      "explanation": "The inertia tensor of a rigid body is always diagonal in a reference system that aligns with the body's principal axes. This means that the moments of inertia along these axes provide the only relevant information about the body's rotational dynamics.",
+      "difficulty": 8,
+      "subcategory": "Trägheitstensor & -ellipsoid"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Ideales Molekülgas: Zustandssumme (Rot./Vib.)",
+      "question": "Which statement about the partition function of an ideal molecular gas considering rotational and vibrational motions is correct?",
+      "choices": [
+        "A: The partition function can be represented as the product of the translational, rotational, and vibrational partition functions.",
+        "B: The rotational partition function is constant for all gases and independent of temperature.",
+        "C: The partition function includes only contributions from translational motions.",
+        "D: The partition function decreases with increasing temperature."
+      ],
+      "correct_answer": "A",
+      "explanation": "The partition function of an ideal molecular gas is actually the product of the translational, rotational, and vibrational partition functions, describing the overall statistics of the system. Considering all types of motion is crucial for a complete understanding of the gas's thermodynamic properties.",
+      "difficulty": 9,
+      "subcategory": "Ideales Molekülgas: Zustandssumme (Rot./Vib.)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Stoßquerschnitt & mittlere freie Weglänge",
+      "question": "What does the term 'mean free path' describe in classical mechanics?",
+      "choices": [
+        "A: The time a particle takes to travel from one point to another.",
+        "B: The maximum distance a particle can reach in a vacuum.",
+        "C: The number of particles in a specific volume.",
+        "D: The average distance a particle travels between two collisions."
+      ],
+      "correct_answer": "D",
+      "explanation": "The mean free path is a central concept in kinetic theory, describing the average distance a particle in a gas travels between two collisions with other particles. This quantity is important for understanding transport phenomena in gases.",
+      "difficulty": 2,
+      "subcategory": "Stoßquerschnitt & mittlere freie Weglänge"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Formale Streutheorie: Lippmann–Schwinger-Gleichung",
+      "question": "What does the Lippmann–Schwinger equation describe in quantum mechanics?",
+      "choices": [
+        "A: It describes the interaction between quantum states and external fields.",
+        "B: It explains the motion of objects under the influence of forces.",
+        "C: It represents the relationship between a system's energy and its temperature.",
+        "D: It describes the diffusion of particles in a medium."
+      ],
+      "correct_answer": "A",
+      "explanation": "The Lippmann–Schwinger equation is a fundamental tool in quantum scattering theory. It describes how quantum states are altered by interactions with external fields, enabling the calculation of scattering amplitudes.",
+      "difficulty": 5,
+      "subcategory": "Formale Streutheorie: Lippmann–Schwinger-Gleichung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Natürliche Zustandsvariablen (U, H, F, G)",
+      "question": "Which of the following thermodynamic potentials is best suited for evaluating the spontaneous reaction of a system at constant pressure and temperature?",
+      "choices": [
+        "A: Internal energy (U)",
+        "B: Enthalpy (H)",
+        "C: Helmholtz free energy (F)",
+        "D: Gibbs free energy (G)"
+      ],
+      "correct_answer": "D",
+      "explanation": "The Gibbs free energy (G) is particularly important in chemical reactions and phase transitions as it describes the maximum work that can be done at constant pressure and temperature. A negative change in Gibbs free energy indicates a spontaneous reaction.",
+      "difficulty": 9,
+      "subcategory": "Natürliche Zustandsvariablen (U, H, F, G)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Anwendungen der Doppelbrechung",
+      "question": "Which of the following applications utilizes birefringence?",
+      "choices": [
+        "A: Lenses in cameras",
+        "B: Glasses in microscopes",
+        "C: Polarizing filters in sunglasses",
+        "D: Mirror systems in telescopes"
+      ],
+      "correct_answer": "C",
+      "explanation": "Polarizing filters use birefringence to filter light waves and allow only light of a specific polarization to pass through. This technology is particularly effective in sunglasses to reduce glare and improve visibility.",
+      "difficulty": 3,
+      "subcategory": "Anwendungen der Doppelbrechung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Sternentwicklung & Elementsynthese",
+      "question": "What is the primary process through which heavier elements are formed from hydrogen in the cores of stars?",
+      "choices": [
+        "A: Nuclear fission",
+        "B: Electron capture",
+        "C: Beta decay",
+        "D: Nuclear fusion"
+      ],
+      "correct_answer": "D",
+      "explanation": "Nuclear fusion occurs in the cores of stars, where hydrogen nuclei fuse together to form heavier elements. This process is crucial for energy generation in stars and contributes to element synthesis in the universe.",
+      "difficulty": 6,
+      "subcategory": "Sternentwicklung & Elementsynthese"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Elektromagnetische Potentiale (Vierervektor)",
+      "question": "What does the four-vector describe in the context of electromagnetic potentials?",
+      "choices": [
+        "A: The temporal and spatial distribution of electric and magnetic fields",
+        "B: The mass of a particle in an electromagnetic field",
+        "C: The velocity of a particle in relativistic systems",
+        "D: The force acting on a charged particle"
+      ],
+      "correct_answer": "A",
+      "explanation": "The four-vector combines the electric and magnetic potentials in a relativistic form, describing their distribution in space and time. This is crucial for applying electrodynamics in relativity theory.",
+      "difficulty": 4,
+      "subcategory": "Elektromagnetische Potentiale (Vierervektor)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Dritter Hauptsatz (Nernst’scher Wärmesatz)",
+      "question": "What does the third law of thermodynamics state?",
+      "choices": [
+        "A: The energy of a closed system remains constant.",
+        "B: The entropy of a perfect crystal approaches zero at 0 Kelvin.",
+        "C: Heat cannot be transferred from a colder body to a hotter body.",
+        "D: The pressure and volume of an ideal gas are constant."
+      ],
+      "correct_answer": "B",
+      "explanation": "The third law of thermodynamics, also known as Nernst's heat theorem, states that the entropy of a perfect crystal at absolute zero (0 Kelvin) is zero. This means there is no disorder in the system when it is in the lowest energy state.",
+      "difficulty": 5,
+      "subcategory": "Dritter Hauptsatz (Nernst’scher Wärmesatz)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Halbleiterlaser",
+      "question": "Which statement best describes the operating principle of a semiconductor laser?",
+      "choices": [
+        "A: It operates solely through thermal radiation.",
+        "B: It utilizes recombining electron-hole pairs for photon emission.",
+        "C: It generates light through the influence of a strong magnetic field.",
+        "D: It uses an optical pump to excite atoms."
+      ],
+      "correct_answer": "B",
+      "explanation": "Semiconductor lasers generate light through the recombination of electrons and holes in a semiconductor material, leading to the emission of photons. This recombination is the central mechanism enabling laser radiation.",
+      "difficulty": 5,
+      "subcategory": "Halbleiterlaser"
+    }
+  ]
+}
