@@ -1,0 +1,168 @@
+{
+  "date": "2026-06-14",
+  "generated_at": "2026-06-14T04:33:46Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Maxwell-Verteilung & barometrische Höhenformel",
+      "question": "What does the Maxwell distribution describe in statistical mechanics?",
+      "choices": [
+        "A: The pressure distribution in a liquid flow.",
+        "B: The energy distribution of atoms in a crystal.",
+        "C: The velocity distribution of particles in an ideal gas.",
+        "D: The temperature distribution in a solid body."
+      ],
+      "correct_answer": "C",
+      "explanation": "The Maxwell distribution describes how the velocities of particles in an ideal gas are distributed. It is a central concept in statistical mechanics and helps to understand the behavior of gases.",
+      "difficulty": 1,
+      "subcategory": "Maxwell-Verteilung & barometrische Höhenformel"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Phasenübergänge (Übersicht)",
+      "question": "Which phase transition describes the change from a solid state to a gaseous state without passing through the liquid state?",
+      "choices": [
+        "A: Evaporation",
+        "B: Melting",
+        "C: Sublimation",
+        "D: Condensation"
+      ],
+      "correct_answer": "C",
+      "explanation": "Sublimation is the process in which a solid transitions directly into the gaseous state without first melting. Examples include dry ice and iodine, which transition directly into vapor at normal pressure.",
+      "difficulty": 5,
+      "subcategory": "Phasenübergänge (Übersicht)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Plattenkondensator",
+      "question": "Which of the following statements about the plate capacitor is correct?",
+      "choices": [
+        "A: The capacitance of a plate capacitor depends only on the area of the plates and the distance between them.",
+        "B: The energy in the capacitor is independent of the voltage and depends only on the dielectric.",
+        "C: The plate capacitor cannot generate an electric field when it is not charged.",
+        "D: The electric field strength between the plates is constant, regardless of the voltage."
+      ],
+      "correct_answer": "A",
+      "explanation": "The capacitance of a plate capacitor is described by the formula C = ε₀ * (A/d), where A is the area of the plates and d is the distance between them. The voltage affects the stored energy, but not the capacitance itself.",
+      "difficulty": 7,
+      "subcategory": "Plattenkondensator"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Zwangsbedingungen & generalisierte Koordinaten",
+      "question": "What does the term 'constraints' describe in analytical mechanics?",
+      "choices": [
+        "A: Conditions that restrict the motion of a system.",
+        "B: The number of degrees of freedom of a system.",
+        "C: Forces acting on a system.",
+        "D: The conservation of energy in a closed system."
+      ],
+      "correct_answer": "A",
+      "explanation": "Constraints are limitations that define the possible movements of a mechanical system. They can arise, for example, from fixed connections or geometric restrictions and are crucial for the application of Lagrangian mechanics.",
+      "difficulty": 3,
+      "subcategory": "Zwangsbedingungen & generalisierte Koordinaten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Erhaltungssätze in der Lagrange-Mechanik",
+      "question": "Which conservation law in Lagrangian mechanics is directly related to the time invariance of a system?",
+      "choices": [
+        "A: Conservation of energy",
+        "B: Conservation of angular momentum",
+        "C: Conservation of momentum",
+        "D: Conservation of mass"
+      ],
+      "correct_answer": "A",
+      "explanation": "The conservation law of energy is directly linked to the time invariance of a physical system, meaning that the physical laws do not change with time. In Lagrangian mechanics, this can be derived from the invariant formulation of the Lagrange equations.",
+      "difficulty": 6,
+      "subcategory": "Erhaltungssätze in der Lagrange-Mechanik"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Fermi’s Goldene Regel",
+      "question": "Which of the following statements correctly describes the application of Fermi's Golden Rule in quantum mechanics?",
+      "choices": [
+        "A: It describes the energy spectra of electrons in semiconductor materials.",
+        "B: It explains the principles of thermal equilibrium states in quantum mechanical systems.",
+        "C: It specifies the transition rate between two quantum states depending on the density of the final states.",
+        "D: It is applicable only to undisturbed systems."
+      ],
+      "correct_answer": "C",
+      "explanation": "Fermi's Golden Rule is a fundamental relationship in quantum mechanics that describes the transition rate between quantum states, with the density of final states playing a central role. This rule is applied in numerous physical processes, including the irradiation of atoms and nuclear reactions.",
+      "difficulty": 10,
+      "subcategory": "Fermi’s Goldene Regel"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Temperaturdefinition aus Energieaustausch",
+      "question": "What does temperature describe in the context of energy exchange between systems?",
+      "choices": [
+        "A: The total energy of a system.",
+        "B: The average kinetic energy of the particles in a system.",
+        "C: The number of particles in a system.",
+        "D: The density of a material."
+      ],
+      "correct_answer": "B",
+      "explanation": "The temperature of a system is a measure of the average kinetic energy of the particles moving within that system. A higher energy exchange between systems corresponds to a higher temperature, meaning that, on average, the particles are faster.",
+      "difficulty": 3,
+      "subcategory": "Temperaturdefinition aus Energieaustausch"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Beugung an der kreisförmigen Öffnung",
+      "question": "What does the phenomenon of diffraction describe when light passes through a circular opening?",
+      "choices": [
+        "A: Light is completely absorbed.",
+        "B: Light reflects at the opening and returns.",
+        "C: Light propagates behind the opening and forms a characteristic pattern.",
+        "D: Light is separated into different colors."
+      ],
+      "correct_answer": "C",
+      "explanation": "Diffraction describes how light waves propagate behind an opening, creating interference patterns. With a circular opening, characteristic light and shadow patterns are formed, depending on the wavelength of light.",
+      "difficulty": 5,
+      "subcategory": "Beugung an der kreisförmigen Öffnung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Absolute thermodynamische Temperaturskala",
+      "question": "What is the unit of absolute temperature in thermodynamics?",
+      "choices": [
+        "A: Fahrenheit",
+        "B: Kelvin",
+        "C: Celsius",
+        "D: Joule"
+      ],
+      "correct_answer": "B",
+      "explanation": "Absolute temperature scale is measured in Kelvin (K). This scale starts at 0 K, the absolute zero point where particle motion is minimal. Celsius and Fahrenheit are relative temperature scales and are not suitable for absolute thermodynamics.",
+      "difficulty": 5,
+      "subcategory": "Absolute thermodynamische Temperaturskala"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Charmonium",
+      "question": "What is Charmonium?",
+      "choices": [
+        "A: A type of dark matter.",
+        "B: An experiment to study neutrinos.",
+        "C: An elementary particle composed of protons.",
+        "D: A bound state of charm and anticharm quarks."
+      ],
+      "correct_answer": "D",
+      "explanation": "Charmonium is a bound system consisting of a charm quark and an anticharm quark. It is an example of a mesonic particle and plays an important role in Quantum Chromodynamics (QCD).",
+      "difficulty": 5,
+      "subcategory": "Charmonium"
+    }
+  ]
+}

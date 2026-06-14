@@ -1,0 +1,169 @@
+{
+  "date": "2026-06-14",
+  "generated_at": "2026-06-14T04:33:14Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Maxwell-Verteilung & barometrische Höhenformel",
+      "question": "Was beschreibt die Maxwell-Verteilung in der statistischen Mechanik?",
+      "choices": [
+        "A: Die Druckverteilung in einem Flüssigkeitsstrom.",
+        "B: Die Energieverteilung von Atomen in einem Kristall.",
+        "C: Die Geschwindigkeitsverteilung von Teilchen in einem idealen Gas.",
+        "D: Die Temperaturverteilung in einem festen Körper."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Maxwell-Verteilung beschreibt, wie sich die Geschwindigkeiten von Teilchen in einem idealen Gas verteilen. Sie ist ein zentrales Konzept in der statistischen Mechanik und hilft, das Verhalten von Gasen zu verstehen.",
+      "difficulty": 1,
+      "subcategory": "Maxwell-Verteilung & barometrische Höhenformel"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Phasenübergänge (Übersicht)",
+      "question": "Welcher Phasenübergang beschreibt den Wechsel von einem festen Zustand in einen gasförmigen Zustand ohne den flüssigen Zustand zu durchlaufen?",
+      "choices": [
+        "A: Verdampfung",
+        "B: Schmelzen",
+        "C: Sublimation",
+        "D: Kondensation"
+      ],
+      "correct_answer": "C",
+      "explanation": "Sublimation ist der Prozess, bei dem ein Feststoff direkt in den gasförmigen Zustand übergeht, ohne dass er zuerst schmilzt. Beispiele hierfür sind Trockeneis und Iod, die bei Normaldruck direkt in Dampf übergehen.",
+      "difficulty": 5,
+      "subcategory": "Phasenübergänge (Übersicht)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Plattenkondensator",
+      "question": "Welcher der folgenden Aussagen über den Plattenkondensator ist korrekt?",
+      "choices": [
+        "A: Die Kapazität eines Plattenkondensators hängt nur von der Fläche der Platten und dem Abstand zwischen ihnen ab.",
+        "B: Die Energie im Kondensator ist unabhängig von der Spannung und hängt nur von der Dielektrizität ab.",
+        "C: Der Plattenkondensator kann kein elektrisches Feld erzeugen, wenn er nicht aufgeladen ist.",
+        "D: Die elektrische Feldstärke zwischen den Platten ist konstant, unabhängig von der Spannung."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Kapazität eines Plattenkondensators wird durch die Formel C = ε₀ * (A/d) beschrieben, wobei A die Fläche der Platten und d der Abstand zwischen ihnen ist. Die Spannung beeinflusst die gespeicherte Energie, aber nicht die Kapazität selbst.",
+      "difficulty": 7,
+      "subcategory": "Plattenkondensator"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Zwangsbedingungen & generalisierte Koordinaten",
+      "question": "Was beschreibt der Begriff 'Zwangsbedingungen' in der analytischen Mechanik?",
+      "choices": [
+        "A: Bedingungen, die die Bewegung eines Systems einschränken.",
+        "B: Die Anzahl der Freiheitsgrade eines Systems.",
+        "C: Kräfte, die auf ein System wirken.",
+        "D: Die Energieerhaltung in einem geschlossenen System."
+      ],
+      "correct_answer": "A",
+      "explanation": "Zwangsbedingungen sind Einschränkungen, die die möglichen Bewegungen eines mechanischen Systems definieren. Sie können beispielsweise durch feste Verbindungen oder geometrische Einschränkungen entstehen und sind entscheidend für die Anwendung der Lagrange-Mechanik.",
+      "difficulty": 3,
+      "subcategory": "Zwangsbedingungen & generalisierte Koordinaten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Erhaltungssätze in der Lagrange-Mechanik",
+      "question": "Welcher Erhaltungssatz ist in der Lagrange-Mechanik direkt mit der Zeitinvarianz eines Systems verbunden?",
+      "choices": [
+        "A: Erhaltung der Energie",
+        "B: Erhaltung des Drehimpulses",
+        "C: Erhaltung des Impulses",
+        "D: Erhaltung der Masse"
+      ],
+      "correct_answer": "A",
+      "explanation": "Der Erhaltungssatz der Energie ist direkt mit der Zeitinvarianz eines physikalischen Systems verknüpft, was bedeutet, dass sich die physikalischen Gesetze nicht mit der Zeit ändern. In der Lagrange-Mechanik kann man dies aus der invarianten Formulierung der Lagrange-Gleichungen ableiten.",
+      "difficulty": 6,
+      "subcategory": "Erhaltungssätze in der Lagrange-Mechanik"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Fermi’s Goldene Regel",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt die Anwendung von Fermi's Goldener Regel in der Quantenmechanik?",
+      "choices": [
+        "A: Sie beschreibt die Energiespektren von Elektronen in Halbleitermaterialien.",
+        "B: Sie erklärt die Prinzipien der thermischen Gleichgewichtszustände in quantenmechanischen Systemen.",
+        "C: Sie gibt die Übergangsrate zwischen zwei quantenmechanischen Zuständen in Abhängigkeit von der Dichte der finalen Zustände an.",
+        "D: Sie ist ausschließlich auf nicht-gestörte Systeme anwendbar."
+      ],
+      "correct_answer": "C",
+      "explanation": "Fermi's Goldene Regel ist eine fundamentale Beziehung in der Quantenmechanik, die die Übergangsrate von quantenmechanischen Zuständen beschreibt, wobei die Dichte der finalen Zustände eine zentrale Rolle spielt. Diese Regel findet Anwendung in zahlreichen physikalischen Prozessen, einschließlich der Bestrahlung von Atomen und Kernreaktionen.",
+      "difficulty": 10,
+      "subcategory": "Fermi’s Goldene Regel"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Temperaturdefinition aus Energieaustausch",
+      "question": "Was beschreibt die Temperatur im Kontext des Energieaustauschs zwischen Systemen?",
+      "choices": [
+        "A: Die Gesamtenergie eines Systems.",
+        "B: Die mittlere kinetische Energie der Teilchen eines Systems.",
+        "C: Die Anzahl der Teilchen in einem System.",
+        "D: Die Dichte eines Materials."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Temperatur eines Systems ist ein Maß für die mittlere kinetische Energie der Teilchen, die sich in diesem System bewegen. Ein höherer Energieaustausch zwischen Systemen entspricht einer höheren Temperatur, was bedeutet, dass die Teilchen im Durchschnitt schneller sind.",
+      "difficulty": 3,
+      "subcategory": "Temperaturdefinition aus Energieaustausch"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Beugung an der kreisförmigen Öffnung",
+      "question": "Was beschreibt das Phänomen der Beugung, wenn Licht durch eine kreisförmige Öffnung fällt?",
+      "choices": [
+        "A: Licht wird vollständig absorbiert.",
+        "B: Licht reflektiert an der Öffnung und kehrt zurück.",
+        "C: Licht breitet sich hinter der Öffnung aus und bildet ein charakteristisches Muster.",
+        "D: Licht wird in verschiedene Farben zerlegt."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Beugung beschreibt, wie sich Lichtwellen hinter einer Öffnung ausbreiten und dabei Interferenzmuster erzeugen. Bei einer kreisförmigen Öffnung entstehen charakteristische Licht- und Schattenmuster, die von der Wellenlänge des Lichts abhängen.",
+      "difficulty": 5,
+      "subcategory": "Beugung an der kreisförmigen Öffnung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Absolute thermodynamische Temperaturskala",
+      "question": "Was ist die Einheit der absoluten Temperatur in der Thermodynamik?",
+      "choices": [
+        "A: Fahrenheit",
+        "B: Kelvin",
+        "C: Celsius",
+        "D: Joule"
+      ],
+      "correct_answer": "B",
+      "explanation": "Die absolute Temperaturskala wird in Kelvin (K) gemessen. Diese Skala beginnt bei 0 K, dem absoluten Nullpunkt, wo die Bewegung der Teilchen minimal ist. Celsius und Fahrenheit sind relative Temperaturskalen und nicht für die absolute Thermodynamik geeignet.",
+      "difficulty": 5,
+      "subcategory": "Absolute thermodynamische Temperaturskala"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Charmonium",
+      "question": "Was ist Charmonium?",
+      "choices": [
+        "A: Eine Art von Dunkler Materie.",
+        "B: Ein Experiment zur Erforschung von Neutrinos.",
+        "C: Ein Elementarteilchen, das aus Protonen besteht.",
+        "D: Ein gebundenes Zustand von Charm- und Anticharm-Quarks."
+      ],
+      "correct_answer": "D",
+      "explanation": "Charmonium ist ein gebundenes System, das aus einem Charm-Quark und einem Anticharm-Quark besteht. Es ist ein Beispiel für ein mesonisches Teilchen und spielt eine wichtige Rolle in der Quantenchromodynamik (QCD).",
+      "difficulty": 5,
+      "subcategory": "Charmonium"
+    }
+  ]
+}
