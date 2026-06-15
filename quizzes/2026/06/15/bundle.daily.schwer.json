@@ -1,0 +1,106 @@
+{
+  "date": "2026-06-15",
+  "generated_at": "2026-06-15T04:34:01Z",
+  "schema_version": 6,
+  "mode": "schwer",
+  "bundle_type": "daily",
+  "questions": [
+    {
+      "category": "Natur",
+      "topic": "Wetter & Klima",
+      "question": "Welche der folgenden Aussagen beschreibt am besten die Auswirkungen eines Tiefdruckgebiets auf die lokale Wetterlage?",
+      "choices": [
+        "A: Ein Tiefdruckgebiet führt typischerweise zu aufsteigender Luft, die Wolkenbildung und Niederschlag fördert.",
+        "B: Ein Tiefdruckgebiet bewirkt eine Erhöhung des atmosphärischen Drucks und damit trockene Luftverhältnisse.",
+        "C: Ein Tiefdruckgebiet resultiert in stabilen, klaren Wetterbedingungen mit wenig Wind.",
+        "D: Ein Tiefdruckgebiet hat keinen signifikanten Einfluss auf die Temperaturveränderungen in der Region."
+      ],
+      "correct_answer": "A",
+      "explanation": "Ein Tiefdruckgebiet entsteht, wenn Luft aufsteigt, was zu einer Abkühlung und damit zur Kondensation von Wasserdampf führt. Dies fördert die Bildung von Wolken und Niederschlägen, was typischerweise mit wechselhaftem Wetter einhergeht.",
+      "difficulty": 9
+    },
+    {
+      "question": "Was ist das Hauptziel der Bitcoin-Blockchain?",
+      "category": "Wirtschaft & Finanzen",
+      "subcategory": "Bitcoin & Grundlagen",
+      "difficulty": 6,
+      "choices": [
+        "A: Die Durchführung von Smart Contracts",
+        "B: Die Verwaltung von Aktien und Anleihen",
+        "C: Die Ermöglichung einer dezentralen digitalen Währung",
+        "D: Die Speicherung von persönlichen Daten"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "category": "Sprache",
+      "topic": "Wortherkunft",
+      "question": "Welches der folgenden Wörter hat im Deutschen NICHT eine pejorative Bedeutung entwickelt?",
+      "choices": [
+        "A: Pionier",
+        "B: Zyniker",
+        "C: Scharlatan",
+        "D: Dilettant"
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Wort 'Pionier' hat im Deutschen seine positive Bedeutung als Vorreiter und Innovator bewahrt. Im Gegensatz dazu haben die anderen Begriffe eine negative Konnotation entwickelt. 'Scharlatan' bezeichnet eine betrügerische Person, 'Dilettant' hat eine abwertende Bedeutung für jemanden, der nur oberflächliches Wissen hat, und 'Zyniker' beschreibt oft eine negative, skeptische Haltung gegenüber anderen.",
+      "difficulty": 10
+    },
+    {
+      "category": "Technologie",
+      "topic": "Soziale Medien",
+      "question": "Welcher Algorithmus wird häufig zur Identifizierung von schädlichen Inhalten in sozialen Medien eingesetzt?",
+      "choices": [
+        "A: Gradient Boosting",
+        "B: K-Nearest Neighbors",
+        "C: Convolutional Neural Networks",
+        "D: Support Vector Machines"
+      ],
+      "correct_answer": "C",
+      "explanation": "Convolutional Neural Networks (CNNs) sind besonders effektiv in der Bild- und Videoverarbeitung, was sie ideal für die Moderation von Inhalten in sozialen Medien macht. Sie helfen, problematische Inhalte schnell und präzise zu identifizieren. Während auch andere Algorithmen verwendet werden, sind CNNs speziell für diese Aufgaben optimiert.",
+      "difficulty": 8
+    },
+    {
+      "category": "Politiker",
+      "discipline": "Parteikürzel (DE)",
+      "question": "Wofür steht das Parteikürzel „FDP“ in Deutschland?",
+      "choices": [
+        "A: Freie Demokratische Partei Deutschlands",
+        "B: Freie Demokratische Partei",
+        "C: Freie Demokraten Partei",
+        "D: Freiheitlich Demokratische Partei"
+      ],
+      "correct_answer": "B",
+      "explanation": "Liberale Partei; marktwirtschaftlich und bürgerrechtlich; seit 1948.",
+      "difficulty": 1
+    },
+    {
+      "category": "Essen und Trinken",
+      "topic": "Getränke",
+      "question": "Welches der folgenden Erfrischungsgetränke zeichnet sich durch die Kombination von Fruchtsirup, Essig und Wasser aus und wird traditionell als 'Shrub' bezeichnet?",
+      "choices": [
+        "A: Smoothie",
+        "B: Shrub",
+        "C: Eistee",
+        "D: Limonade"
+      ],
+      "correct_answer": "B",
+      "explanation": "Shrubs sind syrups, die durch die Kombination von Fruchtsirup und Essig hergestellt werden. Sie sind bekannt für ihre erfrischende Säure und werden oft mit Wasser oder kohlensäurehaltigen Getränken gemischt, um ein erfrischendes Getränk zu kreieren.",
+      "difficulty": 9
+    },
+    {
+      "category": "Geographie",
+      "topic": "Kartographie & GIS",
+      "question": "Welche Kartenprojektion eignet sich am besten für die Darstellung von Gebieten in mittleren Breiten, da sie die Flächenverhältnisse weitgehend bewahrt?",
+      "choices": [
+        "A: Albers-Gleichflächenprojektion",
+        "B: UTM-Projektion",
+        "C: Mercator-Projektion",
+        "D: Lambert-Konforme Projektion"
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Albers-Gleichflächenprojektion ist speziell für die Darstellung von Flächen in mittleren Breiten entwickelt worden und sorgt dafür, dass Flächenverhältnisse möglichst genau wiedergegeben werden. Dies ist besonders wichtig für geographische Analysen, bei denen die Flächengröße von Bedeutung ist.",
+      "difficulty": 9
+    }
+  ]
+}

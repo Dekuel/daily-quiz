@@ -1,0 +1,169 @@
+{
+  "date": "2026-06-15",
+  "generated_at": "2026-06-15T04:34:50Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Temperaturabhängigkeit der Leitfähigkeit",
+      "question": "Wie verändert sich die elektrische Leitfähigkeit eines Metalls in der Regel mit steigender Temperatur?",
+      "choices": [
+        "A: Sie nimmt zu.",
+        "B: Sie nimmt ab.",
+        "C: Sie bleibt konstant.",
+        "D: Sie schwankt unregelmäßig."
+      ],
+      "correct_answer": "B",
+      "explanation": "In der Regel nimmt die elektrische Leitfähigkeit von Metallen mit steigender Temperatur ab, da die thermische Bewegung der Atome die Beweglichkeit der Elektronen behindert. Dies führt zu einer erhöhten Streuung und damit zu einer geringeren Leitfähigkeit.",
+      "difficulty": 4,
+      "subcategory": "Temperaturabhängigkeit der Leitfähigkeit"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Carnot-Kreisprozess & Wirkungsgrad",
+      "question": "Welcher der folgenden Prozesse hat den höchsten theoretischen Wirkungsgrad?",
+      "choices": [
+        "A: Realer Otto-Kreisprozess",
+        "B: Idealer Luftkreisprozess",
+        "C: Realer Diesel-Kreisprozess",
+        "D: Carnot-Kreisprozess"
+      ],
+      "correct_answer": "D",
+      "explanation": "Der Carnot-Kreisprozess ist ein idealisierter thermodynamischer Prozess, der zwischen zwei Wärmereservoirs arbeitet und den maximal möglichen Wirkungsgrad erreicht. Er dient oft als Referenz für den Vergleich mit realen Prozessen, die immer einen niedrigeren Wirkungsgrad aufweisen.",
+      "difficulty": 4,
+      "subcategory": "Carnot-Kreisprozess & Wirkungsgrad"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Kanonische Gleichungen (Hamilton-Gleichungen)",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt die Bedeutung der Hamilton-Gleichungen in der analytischen Mechanik?",
+      "choices": [
+        "A: Sie beschreiben nur die Bewegung von Teilchen in einem elektrischen Feld.",
+        "B: Sie sind eine spezielle Form der Newtonschen Gesetze für nicht-konservative Systeme.",
+        "C: Sie sind identisch mit den Lagrange-Gleichungen, jedoch in einer anderen Formulierung.",
+        "D: Sie stellen eine Beziehung zwischen den allgemeinen Koordinaten und den Impulsen eines Systems her."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Hamilton-Gleichungen sind zentrale Gleichungen der analytischen Mechanik, die eine systematische Verbindung zwischen den generalisierten Koordinaten und den dazugehörigen Impulsen eines Systems herstellen. Sie ermöglichen eine elegante Formulierung der Dynamik und sind besonders hilfreich in der theoretischen Physik und der Quantenmechanik.",
+      "difficulty": 7,
+      "subcategory": "Kanonische Gleichungen (Hamilton-Gleichungen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Erster Hauptsatz & innere Energie",
+      "question": "Was beschreibt der erste Hauptsatz der Thermodynamik in Bezug auf die innere Energie eines Systems?",
+      "choices": [
+        "A: Die innere Energie eines Systems ist unabhängig von der Temperatur.",
+        "B: Die innere Energie eines isolierten Systems bleibt konstant.",
+        "C: Die innere Energie eines Systems kann nur durch Wärmeübertragung verändert werden.",
+        "D: Die innere Energie eines Systems kann sowohl durch Arbeit als auch durch Wärmeübertragung verändert werden."
+      ],
+      "correct_answer": "D",
+      "explanation": "Der erste Hauptsatz der Thermodynamik besagt, dass die Änderung der inneren Energie eines Systems gleich der zugeführten Wärme minus der geleisteten Arbeit ist. Das bedeutet, dass die innere Energie durch beide Wege, nämlich Arbeit und Wärmeübertragung, beeinflusst werden kann.",
+      "difficulty": 6,
+      "subcategory": "Erster Hauptsatz & innere Energie"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Von-Neumann-Gleichung",
+      "question": "Welche Aussage beschreibt die Von-Neumann-Gleichung in der statistischen Mechanik korrekt?",
+      "choices": [
+        "A: Sie beschreibt die thermodynamischen Eigenschaften von Festkörpern.",
+        "B: Sie beschreibt die zeitliche Entwicklung von Dichtematrizen in der Quantenmechanik.",
+        "C: Sie beschreibt die Bewegung von Teilchen in einem elektrischen Feld.",
+        "D: Sie beschreibt die Wechselwirkung zwischen Teilchen in einem idealen Gas."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Von-Neumann-Gleichung ist eine fundamentale Gleichung in der Quantenmechanik, die die zeitliche Entwicklung von Dichtematrizen beschreibt. Diese Gleichung ist entscheidend für das Verständnis der statistischen Eigenschaften von quantenmechanischen Systemen.",
+      "difficulty": 5,
+      "subcategory": "Von-Neumann-Gleichung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Additionstheorem für Geschwindigkeiten",
+      "question": "Wie addieren sich Geschwindigkeiten im Rahmen der Relativitätstheorie, wenn zwei Objekte sich in entgegengesetzten Richtungen bewegen?",
+      "choices": [
+        "A: Die Geschwindigkeiten addieren sich zu einer konstanten Summe von 1.",
+        "B: Die Geschwindigkeiten addieren sich direkt.",
+        "C: Die Geschwindigkeiten können nicht addiert werden.",
+        "D: Die Geschwindigkeiten addieren sich, aber vermindert durch die Lichtgeschwindigkeit."
+      ],
+      "correct_answer": "D",
+      "explanation": "Im Rahmen der speziellen Relativitätstheorie addieren sich Geschwindigkeiten nicht einfach direkt. Stattdessen wird die Lichtgeschwindigkeit als Obergrenze berücksichtigt, was bedeutet, dass die resultierende Geschwindigkeit immer geringer ist als die Summe der beiden Geschwindigkeiten, wenn sie relativ zueinander betrachtet werden.",
+      "difficulty": 4,
+      "subcategory": "Additionstheorem für Geschwindigkeiten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Ideales Molekülgas: Zustandssumme (Rot./Vib.)",
+      "question": "Welche der folgenden Aussagen über die Zustandssumme eines idealen Molekülgases mit Rotations- und Vibrationsgraden ist korrekt?",
+      "choices": [
+        "A: Bei höheren Temperaturen dominieren die Rotationszustände gegenüber den Vibrationszuständen.",
+        "B: Die Zustandssumme ist unabhängig von der Anzahl der Moleküle im System.",
+        "C: Die Zustandssumme kann als Produkt der Zustandssummen der Rotations- und Vibrationszustände betrachtet werden.",
+        "D: Die Zustandssumme hängt nicht von der Temperatur des Systems ab."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Zustandssumme eines idealen Molekülgases kann tatsächlich als Produkt der Zustandssummen der Rotations- und Vibrationszustände betrachtet werden, was wichtig für die thermodynamische Beschreibung des Systems ist. Die anderen Optionen sind falsch, da die Zustandssumme temperaturabhängig ist und die Anzahl der Moleküle einen Einfluss auf die Gesamtzustandssumme hat.",
+      "difficulty": 7,
+      "subcategory": "Ideales Molekülgas: Zustandssumme (Rot./Vib.)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Ladungsradius von Pionen und Kaonen",
+      "question": "Welcher der folgenden Werte beschreibt am besten den Ladungsradius eines Pions?",
+      "choices": [
+        "A: Etwa 1,0 fm",
+        "B: Etwa 1,5 fm",
+        "C: Etwa 0,5 fm",
+        "D: Etwa 0,7 fm"
+      ],
+      "correct_answer": "D",
+      "explanation": "Der Ladungsradius eines Pions wird auf etwa 0,7 Femtometer (fm) geschätzt. Diese Größe ist wichtig für das Verständnis der Wechselwirkungen von Pionen in der Kern- und Teilchenphysik.",
+      "difficulty": 4,
+      "subcategory": "Ladungsradius von Pionen und Kaonen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Resonanzen (Breit‑Wigner)",
+      "question": "Was beschreibt die Breit-Wigner-Formel in der Kern- und Teilchenphysik?",
+      "choices": [
+        "A: Die Beziehung zwischen der Temperatur und dem Druck eines idealen Gases.",
+        "B: Die Frequenz eines Lichtstrahls in einem Vakuum.",
+        "C: Die Bewegungsbahn eines Teilchens in einem elektrischen Feld.",
+        "D: Die Verteilung der Energie eines instabilen Teilchens in der Nähe seiner Resonanz."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Breit-Wigner-Formel beschreibt, wie die Energieverteilung eines instabilen Teilchens aussieht, wenn es sich in der Nähe seiner Resonanzenergie befindet. Diese Formel ist entscheidend für das Verständnis von Resonanzphänomenen in der Teilchenphysik.",
+      "difficulty": 6,
+      "subcategory": "Resonanzen (Breit‑Wigner)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Tunneleffekt",
+      "question": "Welches der folgenden Szenarien beschreibt den Tunneleffekt in der Quantenmechanik korrekt?",
+      "choices": [
+        "A: Bei dem Tunneleffekt handelt es sich um eine klassische Bewegungsform von Teilchen.",
+        "B: Ein Teilchen kann eine Energiebarriere überwinden, auch wenn seine Energie unter der Höhe der Barriere liegt.",
+        "C: Ein Teilchen kann nicht in einen Bereich gelangen, der eine höhere Energie als seine eigene erfordert.",
+        "D: Der Tunneleffekt tritt nur bei sehr hohen Temperaturen auf."
+      ],
+      "correct_answer": "B",
+      "explanation": "Der Tunneleffekt beschreibt die Fähigkeit von Teilchen, durch eine Energiebarriere zu 'tunneln', selbst wenn ihre Energie nicht ausreicht, um die Barriere klassisch zu überwinden. Dieses Phänomen ist ein fundamentales Konzept der Quantenmechanik und erklärt viele Effekte, wie z.B. den radioaktiven Zerfall und die Funktionsweise von Tunneltransistoren.",
+      "difficulty": 9,
+      "subcategory": "Tunneleffekt"
+    }
+  ]
+}
