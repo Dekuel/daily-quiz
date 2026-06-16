@@ -1,0 +1,169 @@
+{
+  "date": "2026-06-16",
+  "generated_at": "2026-06-16T04:34:40Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Methode der Bildladungen",
+      "question": "Welche der folgenden Aussagen zur Methode der Bildladungen ist korrekt?",
+      "choices": [
+        "A: Sie ist nur anwendbar für unendlich große, nicht leitende Materialien.",
+        "B: Sie kann nur bei statischen elektrischen Feldern angewendet werden.",
+        "C: Die Methode der Bildladungen erfordert komplexe numerische Lösungen für alle möglichen Konfigurationen.",
+        "D: Sie kann verwendet werden, um die Feldverteilung eines Punktladungsystems in der Nähe eines leitenden Objekts zu bestimmen."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Methode der Bildladungen ist ein mathematisches Werkzeug, das verwendet wird, um die elektrischen Felder in der Nähe von leitenden Oberflächen zu berechnen, indem man imaginäre Ladungen einführt. Diese Methode vereinfacht die Berechnung der Feldverteilung erheblich und ist besonders nützlich bei Punktladungssystemen in der Nähe von Leitern.",
+      "difficulty": 8,
+      "subcategory": "Methode der Bildladungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Interferenz & Beugung elektromagnetischer Wellen",
+      "question": "Was beschreibt das Phänomen der Interferenz elektromagnetischer Wellen?",
+      "choices": [
+        "A: Die Überlagerung von Wellen, die zu Verstärkungen oder Auslöschungen führen kann.",
+        "B: Das Verhalten von Wellen an einer festen Grenze.",
+        "C: Die Ablenkung von Wellen durch einen prismatischen Körper.",
+        "D: Die Geschwindigkeit von Licht in einem Vakuum."
+      ],
+      "correct_answer": "A",
+      "explanation": "Interferenz tritt auf, wenn zwei oder mehr Wellen überlagert werden. Diese Überlagerung kann konstruktiv (Verstärkung) oder destruktiv (Auslöschung) wirken, was zu den charakteristischen Mustern führt, die in vielen optischen Experimenten beobachtet werden.",
+      "difficulty": 4,
+      "subcategory": "Interferenz & Beugung elektromagnetischer Wellen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Nukleon‑Nukleon‑Streuung",
+      "question": "Was beschreibt die Nukleon-Nukleon-Streuung in der Kern- und Teilchenphysik?",
+      "choices": [
+        "A: Die Bewegung von Elektronen in einem Atom.",
+        "B: Die Wechselwirkungen zwischen Atomen und Molekülen.",
+        "C: Die Wechselwirkung zwischen zwei Nukleonen, wie Protonen und Neutronen.",
+        "D: Die Ausbreitung von Licht durch ein Medium."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Nukleon-Nukleon-Streuung beschreibt die Wechselwirkung zwischen Nukleonen, also zwischen Protonen und Neutronen, in einem Atomkern. Diese Prozesse sind entscheidend für das Verständnis der Kernkräfte und der Struktur von Atomkernen.",
+      "difficulty": 4,
+      "subcategory": "Nukleon‑Nukleon‑Streuung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Phasen- und Gruppengeschwindigkeit",
+      "question": "Was beschreibt die Phasengeschwindigkeit in einem Medium?",
+      "choices": [
+        "A: Die Geschwindigkeit, mit der sich die Wellenfront einer Welle bewegt.",
+        "B: Die Geschwindigkeit, mit der sich die Energie einer Welle ausbreitet.",
+        "C: Die Geschwindigkeit, mit der sich die Teilchen eines Mediums bewegen.",
+        "D: Die maximale Geschwindigkeit von Licht im Vakuum."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Phasengeschwindigkeit beschreibt die Geschwindigkeit, mit der sich die Wellenfront einer Welle durch ein Medium bewegt. Sie ist wichtig, um das Verhalten von Wellen in verschiedenen Materialien zu verstehen, während die Gruppengeschwindigkeit die Geschwindigkeit beschreibt, mit der sich Energie oder Information überträgt.",
+      "difficulty": 3,
+      "subcategory": "Phasen- und Gruppengeschwindigkeit"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Resonanz & Schaltvorgänge",
+      "question": "Was beschreibt der Begriff 'Resonanz' in einem elektrischen Schaltkreis?",
+      "choices": [
+        "A: Den vollständigen Stromfluss durch den Schaltkreis.",
+        "B: Die Umwandlung elektrischer Energie in Wärme.",
+        "C: Die Reduktion von Spannung in einem Widerstand.",
+        "D: Die Verstärkung von Schwingungen bei bestimmten Frequenzen."
+      ],
+      "correct_answer": "D",
+      "explanation": "Resonanz tritt auf, wenn die Frequenz einer externen Quelle mit der Eigenfrequenz eines Schaltkreises übereinstimmt, was zu einer Verstärkung der Schwingungen führt. Diese Eigenschaft ist besonders wichtig in der Elektrodynamik und wird häufig in Schwingkreisen eingesetzt.",
+      "difficulty": 4,
+      "subcategory": "Resonanz & Schaltvorgänge"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Operatoren als Matrizen",
+      "question": "Welcher der folgenden Operatoren kann als Hermitescher Operator in der Quantenmechanik betrachtet werden?",
+      "choices": [
+        "A: Der Impulsoperator",
+        "B: Der Energieoperator in Form eines konstanten Wertes",
+        "C: Der Zeitoperator",
+        "D: Der Positionsoperator nur unter bestimmten Bedingungen"
+      ],
+      "correct_answer": "A",
+      "explanation": "In der Quantenmechanik ist der Impulsoperator ein Beispiel für einen Hermiteschen Operator, da er die Eigenschaft hat, dass seine Eigenwerte reell sind und seine Eigenfunktionen orthogonal zueinander sind. Hermitesche Operatoren sind wichtig, da sie die Messwerte in quantenmechanischen Systemen repräsentieren.",
+      "difficulty": 6,
+      "subcategory": "Operatoren als Matrizen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Arbeit in der Thermodynamik (p dV, generalisiert)",
+      "question": "Was beschreibt die Arbeit, die in einem geschlossenen System bei einer isothermen Expansion verrichtet wird?",
+      "choices": [
+        "A: Die Arbeit ist null, da die Temperatur konstant bleibt.",
+        "B: Die Arbeit ist gleich dem Produkt aus Druck und dem Volumenänderung (p dV).",
+        "C: Die Arbeit ist gleich der inneren Energie des Systems.",
+        "D: Die Arbeit hängt nicht vom Druck ab."
+      ],
+      "correct_answer": "B",
+      "explanation": "Bei einer isothermen Expansion in einem geschlossenen System wird Arbeit geleistet, die durch das Produkt des Drucks und der Volumenänderung (p dV) beschrieben wird. Die Temperatur bleibt zwar konstant, aber das bedeutet nicht, dass keine Arbeit verrichtet wird.",
+      "difficulty": 5,
+      "subcategory": "Arbeit in der Thermodynamik (p dV, generalisiert)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Zweite Quantisierung: Erzeugungs-/Vernichtungsoperatoren",
+      "question": "Was ist die Hauptfunktion eines Erzeugungsoperators in der Quantenmechanik?",
+      "choices": [
+        "A: Er misst die Position eines Teilchens.",
+        "B: Er senkt die Energie eines quantenmechanischen Zustands.",
+        "C: Er beschreibt die Wechselwirkung zwischen Teilchen.",
+        "D: Er erhöht die Teilchenzahl in einem quantenmechanischen Zustand."
+      ],
+      "correct_answer": "D",
+      "explanation": "Ein Erzeugungsoperator fügt einem quantenmechanischen Zustand ein Teilchen hinzu, wodurch die Teilchenzahl erhöht wird. Dies ist ein fundamentales Konzept in der zweiten Quantisierung, das die Beschreibung von vielen Teilchensystemen erleichtert.",
+      "difficulty": 3,
+      "subcategory": "Zweite Quantisierung: Erzeugungs-/Vernichtungsoperatoren"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Brechungsgesetz aus Fermat",
+      "question": "Welches Prinzip beschreibt das Brechungsgesetz nach Fermat in Bezug auf Lichtstrahlen?",
+      "choices": [
+        "A: Lichtstrahlen brechen auf dem Weg zwischen zwei Punkten immer so, dass die Zeit minimiert wird.",
+        "B: Lichtstrahlen reflektieren immer im gleichen Winkel wie die Inzidenz.",
+        "C: Lichtstrahlen bewegen sich immer in geraden Linien ohne Ablenkung.",
+        "D: Lichtstrahlen brechen immer im Verhältnis der Wellenlängen der beiden Medien."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Brechungsgesetz nach Fermat postuliert, dass Lichtstrahlen den Weg wählen, der die benötigte Zeit minimiert, was zu der Formulierung des Snelliusschen Gesetzes führt. Dies erklärt, warum der Lichtstrahl beim Übergang zwischen zwei Medien abgelenkt wird, abhängig von deren optischen Dichten.",
+      "difficulty": 7,
+      "subcategory": "Brechungsgesetz aus Fermat"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Fresnel–Kirchhoffsche Beugungstheorie",
+      "question": "Was beschreibt die Fresnel–Kirchhoffsche Beugungstheorie hauptsächlich?",
+      "choices": [
+        "A: Die Polarisation von Lichtstrahlen.",
+        "B: Die Brechung von Licht in verschiedenen Medien.",
+        "C: Die Reflexion von Licht an glatten Oberflächen.",
+        "D: Das Verhalten von Lichtwellen an Hindernissen."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Fresnel–Kirchhoffsche Beugungstheorie beschreibt, wie Lichtwellen an Objekten und Hindernissen gebeugt werden. Sie ist entscheidend für das Verständnis der Lichtausbreitung in der Nähe von Kanten und Öffnungen.",
+      "difficulty": 3,
+      "subcategory": "Fresnel–Kirchhoffsche Beugungstheorie"
+    }
+  ]
+}

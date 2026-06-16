@@ -1,0 +1,168 @@
+{
+  "date": "2026-06-16",
+  "generated_at": "2026-06-16T04:35:14Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Methode der Bildladungen",
+      "question": "Which of the following statements about the method of image charges is correct?",
+      "choices": [
+        "A: It is only applicable to infinitely large, non-conducting materials.",
+        "B: It can only be applied to static electric fields.",
+        "C: The method of image charges requires complex numerical solutions for all possible configurations.",
+        "D: It can be used to determine the field distribution of a point charge system near a conducting object."
+      ],
+      "correct_answer": "D",
+      "explanation": "The method of image charges is a mathematical tool used to calculate the electric fields near conducting surfaces by introducing imaginary charges. This method significantly simplifies the calculation of field distribution and is particularly useful for point charge systems near conductors.",
+      "difficulty": 8,
+      "subcategory": "Methode der Bildladungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Interferenz & Beugung elektromagnetischer Wellen",
+      "question": "What describes the phenomenon of interference of electromagnetic waves?",
+      "choices": [
+        "A: The superposition of waves that can lead to reinforcement or cancellation.",
+        "B: The behavior of waves at a fixed boundary.",
+        "C: The deflection of waves by a prism.",
+        "D: The speed of light in a vacuum."
+      ],
+      "correct_answer": "A",
+      "explanation": "Interference occurs when two or more waves overlap. This superposition can be constructive (reinforcement) or destructive (cancellation), leading to the characteristic patterns observed in many optical experiments.",
+      "difficulty": 4,
+      "subcategory": "Interferenz & Beugung elektromagnetischer Wellen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Nukleon‑Nukleon‑Streuung",
+      "question": "What describes nucleon-nucleon scattering in nuclear and particle physics?",
+      "choices": [
+        "A: The movement of electrons in an atom.",
+        "B: The interactions between atoms and molecules.",
+        "C: The interaction between two nucleons, such as protons and neutrons.",
+        "D: The propagation of light through a medium."
+      ],
+      "correct_answer": "C",
+      "explanation": "Nucleon-nucleon scattering describes the interaction between nucleons, such as protons and neutrons, in an atomic nucleus. These processes are crucial for understanding nuclear forces and the structure of atomic nuclei.",
+      "difficulty": 4,
+      "subcategory": "Nukleon‑Nukleon‑Streuung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Phasen- und Gruppengeschwindigkeit",
+      "question": "What describes the phase velocity in a medium?",
+      "choices": [
+        "A: The speed at which the wavefront of a wave moves.",
+        "B: The speed at which the energy of a wave propagates.",
+        "C: The speed at which the particles of a medium move.",
+        "D: The maximum speed of light in a vacuum."
+      ],
+      "correct_answer": "A",
+      "explanation": "The phase velocity describes the speed at which the wavefront of a wave moves through a medium. It is important for understanding the behavior of waves in different materials, while the group velocity describes the speed at which energy or information is transmitted.",
+      "difficulty": 3,
+      "subcategory": "Phasen- und Gruppengeschwindigkeit"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Resonanz & Schaltvorgänge",
+      "question": "What describes the concept of 'resonance' in an electrical circuit?",
+      "choices": [
+        "A: The total current flow through the circuit.",
+        "B: The conversion of electrical energy into heat.",
+        "C: The reduction of voltage in a resistor.",
+        "D: The amplification of vibrations at specific frequencies."
+      ],
+      "correct_answer": "D",
+      "explanation": "Resonance occurs when the frequency of an external source matches the natural frequency of a circuit, leading to an amplification of vibrations. This property is particularly important in electrodynamics and is commonly used in resonant circuits.",
+      "difficulty": 4,
+      "subcategory": "Resonanz & Schaltvorgänge"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Operatoren als Matrizen",
+      "question": "Which of the following operators can be considered as a Hermitian operator in quantum mechanics?",
+      "choices": [
+        "A: The momentum operator",
+        "B: The energy operator in the form of a constant value",
+        "C: The time operator",
+        "D: The position operator only under certain conditions"
+      ],
+      "correct_answer": "A",
+      "explanation": "In quantum mechanics, the momentum operator is an example of a Hermitian operator, as it has the property that its eigenvalues are real and its eigenfunctions are orthogonal to each other. Hermitian operators are important as they represent the measurement values in quantum mechanical systems.",
+      "difficulty": 6,
+      "subcategory": "Operatoren als Matrizen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Arbeit in der Thermodynamik (p dV, generalisiert)",
+      "question": "What describes the work done in a closed system during an isothermal expansion?",
+      "choices": [
+        "A: The work is zero because the temperature remains constant.",
+        "B: The work is equal to the product of pressure and the volume change (p dV).",
+        "C: The work is equal to the internal energy of the system.",
+        "D: The work does not depend on pressure."
+      ],
+      "correct_answer": "B",
+      "explanation": "During an isothermal expansion in a closed system, work is done, which is described by the product of pressure and volume change (p dV). Although the temperature remains constant, it does not mean that no work is done.",
+      "difficulty": 5,
+      "subcategory": "Arbeit in der Thermodynamik (p dV, generalisiert)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Zweite Quantisierung: Erzeugungs-/Vernichtungsoperatoren",
+      "question": "What is the main function of a creation operator in quantum mechanics?",
+      "choices": [
+        "A: It measures the position of a particle.",
+        "B: It lowers the energy of a quantum state.",
+        "C: It describes the interaction between particles.",
+        "D: It increases the number of particles in a quantum state."
+      ],
+      "correct_answer": "D",
+      "explanation": "A creation operator adds a particle to a quantum state, increasing the number of particles. This is a fundamental concept in second quantization, which facilitates the description of many particle systems.",
+      "difficulty": 3,
+      "subcategory": "Zweite Quantisierung: Erzeugungs-/Vernichtungsoperatoren"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Brechungsgesetz aus Fermat",
+      "question": "Which principle describes Fermat's principle of refraction regarding light rays?",
+      "choices": [
+        "A: Light rays always refract between two points in a way that minimizes time.",
+        "B: Light rays always reflect at the same angle as the incidence.",
+        "C: Light rays always move in straight lines without deviation.",
+        "D: Light rays always refract in proportion to the wavelengths of the two media."
+      ],
+      "correct_answer": "A",
+      "explanation": "Fermat's principle of refraction postulates that light rays choose the path that minimizes the required time, leading to the formulation of Snell's law. This explains why the light ray is refracted when transitioning between two media, depending on their optical densities.",
+      "difficulty": 7,
+      "subcategory": "Brechungsgesetz aus Fermat"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Fresnel–Kirchhoffsche Beugungstheorie",
+      "question": "What mainly describes the Fresnel-Kirchhoff diffraction theory?",
+      "choices": [
+        "A: Die Polarisation von Lichtstrahlen.",
+        "B: Die Brechung von Licht in verschiedenen Medien.",
+        "C: Die Reflexion von Licht an glatten Oberflächen.",
+        "D: Das Verhalten von Lichtwellen an Hindernissen."
+      ],
+      "correct_answer": "D",
+      "explanation": "The Fresnel-Kirchhoff diffraction theory describes how light waves are diffracted by objects and obstacles. It is crucial for understanding the propagation of light near edges and openings.",
+      "difficulty": 3,
+      "subcategory": "Fresnel–Kirchhoffsche Beugungstheorie"
+    }
+  ]
+}
