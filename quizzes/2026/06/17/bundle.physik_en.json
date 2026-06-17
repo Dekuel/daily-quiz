@@ -1,0 +1,168 @@
+{
+  "date": "2026-06-17",
+  "generated_at": "2026-06-17T04:34:22Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Schalenmodell",
+      "question": "In the shell model of atomic structure, electrons are organized in specific energy levels. Which statement best describes the principal quantum number n in this model?",
+      "choices": [
+        "A: It determines the shape of the orbitals.",
+        "B: It indicates the maximum number of electrons in a shell.",
+        "C: It is independent of the number of protons in the atomic nucleus.",
+        "D: It defines the relative energy of an electron in a shell."
+      ],
+      "correct_answer": "D",
+      "explanation": "The principal quantum number n indicates the energy level in which an electron is located, thus influencing the relative energy of the electron. It also directly affects the spatial distribution of electrons, but not the shape of the orbitals or the number of protons in the nucleus.",
+      "difficulty": 7,
+      "subcategory": "Schalenmodell"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Maxwell–Boltzmann-Verteilung",
+      "question": "What does the Maxwell–Boltzmann distribution describe?",
+      "choices": [
+        "A: The speed distribution of particles in an ideal gas.",
+        "B: The energy distribution of electrons in a solid.",
+        "C: The motion of planets around the sun.",
+        "D: The temperature dependence of magnetic materials."
+      ],
+      "correct_answer": "A",
+      "explanation": "The Maxwell–Boltzmann distribution describes how the speeds of particles are distributed in an ideal gas. It is important for understanding thermal properties and kinetic gas theory.",
+      "difficulty": 2,
+      "subcategory": "Maxwell–Boltzmann-Verteilung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Übergangswahrscheinlichkeit",
+      "question": "What does transition probability describe in quantum mechanics?",
+      "choices": [
+        "A: The probability of a particle transitioning to a specific energy state.",
+        "B: The speed at which a particle moves.",
+        "C: The temperature of a quantum mechanical system.",
+        "D: The mass of an electron in a quantized system."
+      ],
+      "correct_answer": "A",
+      "explanation": "Transition probability is a central concept in quantum mechanics, indicating the likelihood of a quantum mechanical system transitioning from one state to another. It depends on factors such as the system's energy and interaction with external fields.",
+      "difficulty": 7,
+      "subcategory": "Übergangswahrscheinlichkeit"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Brechungsindex und Absorption von Metallen",
+      "question": "What does the refractive index of a material describe?",
+      "choices": [
+        "A: The ratio of the speed of light in a vacuum to the speed of light in the material.",
+        "B: The color of the material.",
+        "C: The density of the material.",
+        "D: The thermal conductivity of the material."
+      ],
+      "correct_answer": "A",
+      "explanation": "The refractive index describes how much light is refracted when entering a material. It is defined as the ratio of the speed of light in a vacuum to the speed of light in the material and is a central concept in optics.",
+      "difficulty": 1,
+      "subcategory": "Brechungsindex und Absorption von Metallen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Potential einer Punktladung, Multipolmomente",
+      "question": "Which of the following multipole moments describes the electric dipole moment of a point charge?",
+      "choices": [
+        "A: The dipole moment is zero because there is only one point charge.",
+        "B: The dipole moment is always equal to the charge of the point charge.",
+        "C: The dipole moment is independent of the geometry of the charge distribution.",
+        "D: The dipole moment is proportional to the charge and the distance between the charges."
+      ],
+      "correct_answer": "A",
+      "explanation": "A single point charge has no dipole moment, as a dipole moment only arises when there are two oppositely charged point charges separated by a distance. Therefore, the dipole moment of a single point charge is zero.",
+      "difficulty": 6,
+      "subcategory": "Potential einer Punktladung, Multipolmomente"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Maxwell-Konstruktion (Van-der-Waals-Isothermen)",
+      "question": "What does the Maxwell construction describe in thermodynamics?",
+      "choices": [
+        "A: Calculating the pressure of ideal gases.",
+        "B: The relationship between pressure and volume in phase transitions.",
+        "C: The change in temperature in a closed system.",
+        "D: Energy conversion in mechanical systems."
+      ],
+      "correct_answer": "B",
+      "explanation": "The Maxwell construction is used to visualize the relationship between pressure and volume during phase transitions, especially in real gases like van der Waals gases. It shows how the isothermal curves interact in a P-V diagram and enable phase coexistence.",
+      "difficulty": 2,
+      "subcategory": "Maxwell-Konstruktion (Van-der-Waals-Isothermen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Molekulare Polarisierbarkeit",
+      "question": "What does molecular polarizability in an electric field describe?",
+      "choices": [
+        "A: The heating of molecules during current flow.",
+        "B: The interaction between molecules and magnetic fields.",
+        "C: The influence of temperature on molecular structure.",
+        "D: The ability of molecules to change their electron distribution."
+      ],
+      "correct_answer": "D",
+      "explanation": "Molecular polarizability describes how molecules adjust their electron distribution when exposed to an electric field. This adjustment leads to temporary dipole formation, which is important for molecular interactions.",
+      "difficulty": 5,
+      "subcategory": "Molekulare Polarisierbarkeit"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Bewegte Punktladungen & Liénard–Wiechert-Potentiale",
+      "question": "Which of the following statements correctly describes the Liénard-Wiechert potential for a moving point charge?",
+      "choices": [
+        "A: It accounts for the delay of electromagnetic interactions due to the finite speed of light.",
+        "B: It describes only the electric fields without considering magnetic effects.",
+        "C: It is identical to the static Coulomb potential regardless of the motion of the charge.",
+        "D: It applies only to point charges moving at speeds close to the speed of light."
+      ],
+      "correct_answer": "A",
+      "explanation": "The Liénard-Wiechert potential describes the fields of a moving point charge and considers the finite speed of light, meaning that interactions are not instantaneous. This delay is crucial for the accurate description of electromagnetic fields in electrodynamics.",
+      "difficulty": 7,
+      "subcategory": "Bewegte Punktladungen & Liénard–Wiechert-Potentiale"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Turbulenz & Strömungswiderstand",
+      "question": "Which of the following factors has the greatest influence on the occurrence of turbulence in a flow?",
+      "choices": [
+        "A: The viscosity of the fluid",
+        "B: The flow velocity",
+        "C: The temperature of the fluid",
+        "D: The diameter of the pipe"
+      ],
+      "correct_answer": "B",
+      "explanation": "Flow velocity is crucial for the occurrence of turbulence as it affects the Reynolds number. Higher flow velocity leads to a higher Reynolds number and thus a greater likelihood of turbulent flow states. Viscosity and pipe diameter also play a role but are not as dominant as flow velocity.",
+      "difficulty": 8,
+      "subcategory": "Turbulenz & Strömungswiderstand"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Streutheorie: Grundbegriffe & Modell des Streuprozesses",
+      "question": "What does the concept of cross section describe in scattering theory?",
+      "choices": [
+        "A: Die Geschwindigkeit eines Teilchens während des Streuprozesses.",
+        "B: Die Masse eines Teilchens vor und nach dem Streuprozess.",
+        "C: Die Energieerhaltung während eines Streuprozesses.",
+        "D: Die Wahrscheinlichkeit, dass ein Teilchen mit einem anderen Teilchen wechselwirkt."
+      ],
+      "correct_answer": "D",
+      "explanation": "The cross section is a measure of the probability of a specific scattering process occurring between particles. It plays a central role in scattering theory and allows for quantifying interactions in quantum mechanical systems.",
+      "difficulty": 6,
+      "subcategory": "Streutheorie: Grundbegriffe & Modell des Streuprozesses"
+    }
+  ]
+}
