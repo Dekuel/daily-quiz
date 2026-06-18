@@ -1,0 +1,168 @@
+{
+  "date": "2026-06-18",
+  "generated_at": "2026-06-18T04:33:46Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Dispersion dichter Medien",
+      "question": "What describes the effect of dispersion in a dense medium?",
+      "choices": [
+        "A: Light is not refracted in the medium.",
+        "B: All light waves are refracted equally.",
+        "C: Light of different wavelengths is refracted differently.",
+        "D: Light is only refracted at very high frequencies."
+      ],
+      "correct_answer": "C",
+      "explanation": "Dispersion occurs when light of different wavelengths is refracted differently in a dense medium. This results in white light sources being separated into their spectral colors, as observed with a prism.",
+      "difficulty": 5,
+      "subcategory": "Dispersion dichter Medien"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Integraldarstellung für Streuphasen",
+      "question": "What describes the integral representation for scattering phases in quantum mechanics?",
+      "choices": [
+        "A: The velocity of a particle during a collision.",
+        "B: The mass of a particle during scattering.",
+        "C: The probability of a particle transitioning to a specific state.",
+        "D: The energy of a particle in a specific state."
+      ],
+      "correct_answer": "C",
+      "explanation": "The integral representation for scattering phases is a mathematical tool that describes the probability of a particle transitioning from one state to another. This representation is fundamental for understanding scattering processes in quantum mechanics.",
+      "difficulty": 2,
+      "subcategory": "Integraldarstellung für Streuphasen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Van-der-Waals-Kräfte",
+      "question": "What are Van der Waals forces?",
+      "choices": [
+        "A: Strong chemical bonds between atoms.",
+        "B: Weak attractive forces between molecules.",
+        "C: Gravitational forces between large objects.",
+        "D: Electrical interactions between charged particles."
+      ],
+      "correct_answer": "B",
+      "explanation": "Van der Waals forces are weak attractive forces that occur between neutral molecules. These forces play a crucial role in the stability of solids and liquids.",
+      "difficulty": 1,
+      "subcategory": "Van-der-Waals-Kräfte"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Relativistische Theorie des Elektrons (Überblick)",
+      "question": "Which statement correctly describes the relativistic energy-mass relationship for an electron?",
+      "choices": [
+        "A: E = mc^2",
+        "B: E = hf",
+        "C: E = p^2/(2m)",
+        "D: E^2 = (pc)^2 + (m_0c^2)^2"
+      ],
+      "correct_answer": "D",
+      "explanation": "The relativistic energy-mass relationship describes that the total energy E of a particle consists of its rest mass m_0 and its momentum p. This relationship is fundamental for quantum mechanics and relativity theory, showing that energy and mass are equivalent regardless of the particle's velocity.",
+      "difficulty": 10,
+      "subcategory": "Relativistische Theorie des Elektrons (Überblick)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Additionstheorem für Geschwindigkeiten",
+      "question": "What is the correct addition theorem for velocities in the framework of relativity theory?",
+      "choices": [
+        "A: v' = (v - u) / (1 - (vu/c²))",
+        "B: v' = c - (v + u)",
+        "C: v' = (v + u) / (1 + (vu/c²))",
+        "D: v' = v + u"
+      ],
+      "correct_answer": "C",
+      "explanation": "The addition theorem for velocities in relativity theory describes how velocities must be added relative to each other to account for Lorentz transformations. The correct formula is v' = (v + u) / (1 + (vu/c²)), where v and u are the velocities and c represents the speed of light.",
+      "difficulty": 5,
+      "subcategory": "Additionstheorem für Geschwindigkeiten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Lösungsstruktur (radial)",
+      "question": "Which of the following statements best describes the radial solutions of the Schrödinger equation for a hydrogen atom?",
+      "choices": [
+        "A: They are always constant and independent of the electron's energy.",
+        "B: They are determined by the number of nodes and the principal quantum number.",
+        "C: They show no dependence on the quantum mechanical properties of the electron.",
+        "D: They are only relevant for the hydrogen atom and do not apply to other atoms."
+      ],
+      "correct_answer": "B",
+      "explanation": "The radial solutions of the Schrödinger equation for the hydrogen atom are actually characterized by the number of nodes and the principal quantum number. These solutions are fundamental for understanding electron configuration in atoms.",
+      "difficulty": 4,
+      "subcategory": "Lösungsstruktur (radial)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Periodische Randbedingungen",
+      "question": "Which statement about periodic boundary conditions in quantum mechanics is correct?",
+      "choices": [
+        "A: They cause the wave function to be identical at the boundary points.",
+        "B: They reduce the number of possible energy states to a minimum.",
+        "C: They result in infinite energy density in the system.",
+        "D: They are only applicable to one-dimensional systems."
+      ],
+      "correct_answer": "A",
+      "explanation": "Periodic boundary conditions mean that the wave function at the boundaries of a system is identical, leading to discrete energy levels. This is a common concept in quantum mechanics, especially in solid-state physics, to analyze material properties.",
+      "difficulty": 6,
+      "subcategory": "Periodische Randbedingungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Gesetz korrespondierender Zustände & kritischer Punkt",
+      "question": "What does the law of corresponding states state?",
+      "choices": [
+        "A: The critical point is the point at which a gas is completely liquefied.",
+        "B: Gases with similar properties behave similarly at the same reduced temperatures and pressures.",
+        "C: All gases are identical regardless of temperature and pressure.",
+        "D: The law applies only to ideal gases and not to real gases."
+      ],
+      "correct_answer": "B",
+      "explanation": "The law of corresponding states states that different gases exhibit similar properties under similar temperature and pressure conditions when referred to their reduced values. This helps in comparing and understanding the behavior of different gases, especially near the critical point.",
+      "difficulty": 3,
+      "subcategory": "Gesetz korrespondierender Zustände & kritischer Punkt"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Lichtleitfasern (Grundlagen)",
+      "question": "What is the main reason why light can be guided over long distances in an optical fiber?",
+      "choices": [
+        "A: Diffraction",
+        "B: Absorption",
+        "C: Total internal reflection",
+        "D: Scattering"
+      ],
+      "correct_answer": "C",
+      "explanation": "The main reason for light guidance in optical fibers is total internal reflection. When light hits the interface between the fiber material and surrounding air, it is reflected as long as the angle of incidence is greater than the critical angle. This keeps the light within the fiber and allows it to be transported over long distances.",
+      "difficulty": 6,
+      "subcategory": "Lichtleitfasern (Grundlagen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Ladungsunabhängigkeit der Kernkraft & Isospin",
+      "question": "Which statement best describes the charge independence of the strong interaction?",
+      "choices": [
+        "A: The strong interaction is only effective between positively charged particles.",
+        "B: Only neutrons experience the strong interaction, while protons are excluded.",
+        "C: The strong interaction depends on the velocity of the particles.",
+        "D: The strong interaction acts equally on protons and neutrons, regardless of their electric charges."
+      ],
+      "correct_answer": "D",
+      "explanation": "The strong interaction is actually independent of the electric charge of the particles involved. This means that both protons and neutrons are equally affected by the strong nuclear force, ensuring the stability of the atomic nucleus.",
+      "difficulty": 7,
+      "subcategory": "Ladungsunabhängigkeit der Kernkraft & Isospin"
+    }
+  ]
+}
