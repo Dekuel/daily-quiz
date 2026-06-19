@@ -1,0 +1,169 @@
+{
+  "date": "2026-06-19",
+  "generated_at": "2026-06-19T04:33:54Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Legendre-Transformation (L→H)",
+      "question": "Was ist das Hauptziel der Legendre-Transformation in der analytischen Mechanik?",
+      "choices": [
+        "A: Die Geschwindigkeit eines Körpers zu bestimmen.",
+        "B: Die Masse eines Körpers zu messen.",
+        "C: Den Lagrange-Formalismus in den Hamilton-Formalismus umzuwandeln.",
+        "D: Die kinetische Energie eines Systems zu berechnen."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Legendre-Transformation wird verwendet, um von der Lagrange-Formulierung einer Theorie zur Hamilton-Formulierung zu wechseln. Dies ermöglicht eine andere Perspektive auf das dynamische Verhalten eines Systems und erleichtert das Verständnis von Erhaltungsgrößen und Bewegungsgleichungen.",
+      "difficulty": 2,
+      "subcategory": "Legendre-Transformation (L→H)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Gebundene vs. Kontinuumszustände (radial)",
+      "question": "Welcher Zustand beschreibt ein Elektron in einem Wasserstoffatom, das sich in einer festen Entfernung vom Proton befindet?",
+      "choices": [
+        "A: Resonanzzustand",
+        "B: Gebundener Zustand",
+        "C: Freier Zustand",
+        "D: Kontinuumszustand"
+      ],
+      "correct_answer": "B",
+      "explanation": "Ein gebundener Zustand ist charakteristisch für Teilchen, die sich in einem Potentialfeld befinden und somit eine bestimmte Energie besitzen, ohne die Möglichkeit, unendlich weit zu entkommen. Im Falle des Wasserstoffatoms kann das Elektron in einem gebundenen Zustand um das Proton kreisen, solange es nicht genug Energie hat, um in einen Kontinuumszustand überzugehen.",
+      "difficulty": 6,
+      "subcategory": "Gebundene vs. Kontinuumszustände (radial)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Der Laser (Prinzip & Anwendungen)",
+      "question": "Welche Eigenschaft macht Laserlicht besonders?",
+      "choices": [
+        "A: Es ist kohärent.",
+        "B: Es ist immer rot.",
+        "C: Es wird nur in der Medizin verwendet.",
+        "D: Es hat eine hohe Lichtstärke."
+      ],
+      "correct_answer": "A",
+      "explanation": "Laserlicht ist kohärent, was bedeutet, dass die Lichtwellen in Phase und parallel zueinander sind. Diese Eigenschaft ermöglicht präzise Anwendungen in verschiedenen Bereichen, wie der Medizin, der Kommunikation und der Materialbearbeitung.",
+      "difficulty": 4,
+      "subcategory": "Der Laser (Prinzip & Anwendungen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Geschl. System im Wärmebad: Minimum der freien Energie F",
+      "question": "Was beschreibt das Minimum der freien Energie F in einem geschlossenen System im Wärmebad?",
+      "choices": [
+        "A: Es ist der Zustand, in dem die Entropie maximal ist.",
+        "B: Es ist der Zustand, in dem die innere Energie minimal ist.",
+        "C: Es ist der Zustand, in dem die Temperatur konstant bleibt.",
+        "D: Es ist der Zustand, in dem das System im Gleichgewicht ist."
+      ],
+      "correct_answer": "D",
+      "explanation": "Das Minimum der freien Energie F ist entscheidend für das thermodynamische Gleichgewicht eines geschlossenen Systems. In diesem Zustand sind die systeminternen Kräfte und die äußeren Einflüsse im Gleichgewicht, was bedeutet, dass keine Nettobewegung oder -reaktion mehr stattfindet.",
+      "difficulty": 8,
+      "subcategory": "Geschl. System im Wärmebad: Minimum der freien Energie F"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Absolute thermodynamische Temperaturskala",
+      "question": "Was ist der absolute Nullpunkt auf der Kelvin-Skala?",
+      "choices": [
+        "A: 100 K",
+        "B: 0 K",
+        "C: 0 °C",
+        "D: -273,15 °C"
+      ],
+      "correct_answer": "B",
+      "explanation": "Der absolute Nullpunkt auf der Kelvin-Skala ist 0 K, was -273,15 °C entspricht. An diesem Punkt haben die Teilchen die geringstmögliche thermische Energie und bewegen sich theoretisch nicht mehr.",
+      "difficulty": 4,
+      "subcategory": "Absolute thermodynamische Temperaturskala"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Wärmeleitungsmanometer",
+      "question": "Was ist die Hauptfunktion eines Wärmeleitungsmanometers?",
+      "choices": [
+        "A: Es misst den Druck von Gasen.",
+        "B: Es misst die Geschwindigkeit von bewegten Objekten.",
+        "C: Es zeigt die Temperatur von Flüssigkeiten an.",
+        "D: Es erfasst die Wärmemenge, die durch ein Material geleitet wird."
+      ],
+      "correct_answer": "D",
+      "explanation": "Ein Wärmeleitungsmanometer misst die Wärmemenge, die durch ein Material geleitet wird, indem es die Temperaturunterschiede an verschiedenen Stellen des Materials erfasst. Diese Information kann genutzt werden, um die Wärmeleitfähigkeit des Materials zu bestimmen.",
+      "difficulty": 5,
+      "subcategory": "Wärmeleitungsmanometer"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Analoga: Wasserstoff & Positronium",
+      "question": "Welches der folgenden Aussagen beschreibt korrekt die Beziehung zwischen Wasserstoff und Positronium?",
+      "choices": [
+        "A: Wasserstoff hat eine kürzere Lebensdauer als Positronium.",
+        "B: Positronium hat eine größere Masse als Wasserstoff.",
+        "C: Wasserstoff und Positronium sind isotopische Formen des selben Elements.",
+        "D: Wasserstoff besteht aus einem Proton und einem Elektron, während Positronium aus einem Elektron und einem Positron besteht."
+      ],
+      "correct_answer": "D",
+      "explanation": "Wasserstoff ist ein Atom, das aus einem Proton und einem Elektron besteht. Positronium hingegen ist ein gebundenes System aus einem Elektron und dem Antiteilchen Positron, was es zu einem interessanten Analogon zum Wasserstoff macht.",
+      "difficulty": 8,
+      "subcategory": "Analoga: Wasserstoff & Positronium"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Kern‑Formfaktoren",
+      "question": "Was beschreibt der Formfaktor eines Atomkerns?",
+      "choices": [
+        "A: Die relative Masse des Kerns im Vergleich zu einem Standard",
+        "B: Die Kernenergie, die bei der Spaltung freigesetzt wird",
+        "C: Die räumliche Verteilung der elektrischen Ladung im Kern",
+        "D: Die Anzahl der Protonen im Kern"
+      ],
+      "correct_answer": "C",
+      "explanation": "Der Formfaktor eines Atomkerns beschreibt, wie die elektrische Ladung innerhalb des Kerns verteilt ist. Dies hat Auswirkungen auf die Wechselwirkungen des Kerns mit anderen Teilchen und ist entscheidend für die Interpretation von Experimenten zur Kernstruktur.",
+      "difficulty": 7,
+      "subcategory": "Kern‑Formfaktoren"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "1D-Potentialprobleme: allgemeine Aussagen",
+      "question": "Was beschreibt das Wellenfunktion Ψ(x) eines Teilchens in einem eindimensionalen Potential?",
+      "choices": [
+        "A: Die Energie des Teilchens an der Position x.",
+        "B: Die Geschwindigkeit des Teilchens an der Position x.",
+        "C: Die Wahrscheinlichkeit, das Teilchen an der Position x zu finden.",
+        "D: Die Masse des Teilchens an der Position x."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Wellenfunktion Ψ(x) ist ein zentrales Konzept in der Quantenmechanik und gibt die Wahrscheinlichkeit an, ein Teilchen an einer bestimmten Position x zu finden. Sie ist nicht direkt mit der Geschwindigkeit oder Energie des Teilchens verknüpft, sondern beschreibt die quantenmechanische Verteilung des Teilchens im Raum.",
+      "difficulty": 6,
+      "subcategory": "1D-Potentialprobleme: allgemeine Aussagen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Quantenzahlen des Gesamtdrehimpulses",
+      "question": "Welche der folgenden Quantenzahlen beschreibt den Gesamtdrehimpuls eines Elektrons in einem Atom?",
+      "choices": [
+        "A: Nebenquantenzahl (l)",
+        "B: Magnetquantenzahl (m_l)",
+        "C: Spinquantenzahl (m_s)",
+        "D: Hauptquantenzahl (n)"
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Spinquantenzahl (m_s) beschreibt den intrinsischen Drehimpuls eines Elektrons, während die anderen Quantenzahlen verschiedene Aspekte der Elektronenkonfiguration im Atom bestimmen. Der Gesamtdrehimpuls wird durch die Kombination dieser Quantenzahlen charakterisiert, wobei der Spin eine entscheidende Rolle spielt.",
+      "difficulty": 4,
+      "subcategory": "Quantenzahlen des Gesamtdrehimpulses"
+    }
+  ]
+}

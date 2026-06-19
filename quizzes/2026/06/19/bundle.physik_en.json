@@ -1,0 +1,168 @@
+{
+  "date": "2026-06-19",
+  "generated_at": "2026-06-19T04:34:28Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Legendre-Transformation (L→H)",
+      "question": "What is the main goal of the Legendre transformation in analytical mechanics?",
+      "choices": [
+        "A: To determine the velocity of a body.",
+        "B: To measure the mass of a body.",
+        "C: To convert the Lagrange formalism into the Hamiltonian formalism.",
+        "D: To calculate the kinetic energy of a system."
+      ],
+      "correct_answer": "C",
+      "explanation": "The Legendre transformation is used to switch from the Lagrange formulation of a theory to the Hamiltonian formulation. This allows for a different perspective on the dynamic behavior of a system and facilitates the understanding of conservation laws and equations of motion.",
+      "difficulty": 2,
+      "subcategory": "Legendre-Transformation (L→H)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Gebundene vs. Kontinuumszustände (radial)",
+      "question": "Which state describes an electron in a hydrogen atom located at a fixed distance from the proton?",
+      "choices": [
+        "A: Resonance state",
+        "B: Bound state",
+        "C: Free state",
+        "D: Continuum state"
+      ],
+      "correct_answer": "B",
+      "explanation": "A bound state is characteristic of particles located in a potential field, possessing a specific energy without the ability to escape infinitely. In the case of a hydrogen atom, the electron can orbit the proton in a bound state as long as it does not have enough energy to transition into a continuum state.",
+      "difficulty": 6,
+      "subcategory": "Gebundene vs. Kontinuumszustände (radial)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Der Laser (Prinzip & Anwendungen)",
+      "question": "What property makes laser light special?",
+      "choices": [
+        "A: It is coherent.",
+        "B: It is always red.",
+        "C: It is only used in medicine.",
+        "D: It has high luminosity."
+      ],
+      "correct_answer": "A",
+      "explanation": "Laser light is coherent, meaning that the light waves are in phase and parallel to each other. This property enables precise applications in various fields such as medicine, communication, and material processing.",
+      "difficulty": 4,
+      "subcategory": "Der Laser (Prinzip & Anwendungen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Geschl. System im Wärmebad: Minimum der freien Energie F",
+      "question": "What does the minimum of the free energy F in a closed system in a heat bath describe?",
+      "choices": [
+        "A: It is the state where entropy is maximal.",
+        "B: It is the state where internal energy is minimal.",
+        "C: It is the state where temperature remains constant.",
+        "D: It is the state where the system is in equilibrium."
+      ],
+      "correct_answer": "D",
+      "explanation": "The minimum of the free energy F is crucial for the thermodynamic equilibrium of a closed system. In this state, the internal forces of the system and external influences are balanced, indicating no net movement or reaction.",
+      "difficulty": 8,
+      "subcategory": "Geschl. System im Wärmebad: Minimum der freien Energie F"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Absolute thermodynamische Temperaturskala",
+      "question": "What is the absolute zero point on the Kelvin scale?",
+      "choices": [
+        "A: 100 K",
+        "B: 0 K",
+        "C: 0 °C",
+        "D: -273.15 °C"
+      ],
+      "correct_answer": "B",
+      "explanation": "The absolute zero point on the Kelvin scale is 0 K, which corresponds to -273.15 °C. At this point, particles have the least possible thermal energy and theoretically cease to move.",
+      "difficulty": 4,
+      "subcategory": "Absolute thermodynamische Temperaturskala"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Wärmeleitungsmanometer",
+      "question": "What is the main function of a heat conduction gauge?",
+      "choices": [
+        "A: It measures the pressure of gases.",
+        "B: It measures the speed of moving objects.",
+        "C: It displays the temperature of liquids.",
+        "D: It detects the amount of heat conducted through a material."
+      ],
+      "correct_answer": "D",
+      "explanation": "A heat conduction gauge measures the amount of heat conducted through a material by detecting temperature differences at various points within the material. This information can be used to determine the material's thermal conductivity.",
+      "difficulty": 5,
+      "subcategory": "Wärmeleitungsmanometer"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Analoga: Wasserstoff & Positronium",
+      "question": "Which of the following statements correctly describes the relationship between hydrogen and positronium?",
+      "choices": [
+        "A: Hydrogen has a shorter lifespan than positronium.",
+        "B: Positronium has a greater mass than hydrogen.",
+        "C: Hydrogen and positronium are isotopic forms of the same element.",
+        "D: Hydrogen consists of a proton and an electron, while positronium consists of an electron and a positron."
+      ],
+      "correct_answer": "D",
+      "explanation": "Hydrogen is an atom composed of a proton and an electron. Positronium, on the other hand, is a bound system consisting of an electron and the antiparticle positron, making it an interesting analogue to hydrogen.",
+      "difficulty": 8,
+      "subcategory": "Analoga: Wasserstoff & Positronium"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Kern‑Formfaktoren",
+      "question": "What does the form factor of an atomic nucleus describe?",
+      "choices": [
+        "A: The relative mass of the nucleus compared to a standard",
+        "B: The nuclear energy released during fission",
+        "C: The spatial distribution of electric charge within the nucleus",
+        "D: The number of protons in the nucleus"
+      ],
+      "correct_answer": "C",
+      "explanation": "The form factor of an atomic nucleus describes how the electric charge is distributed within the nucleus. This has implications for the nucleus's interactions with other particles and is crucial for interpreting experiments on nuclear structure.",
+      "difficulty": 7,
+      "subcategory": "Kern‑Formfaktoren"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "1D-Potentialprobleme: allgemeine Aussagen",
+      "question": "What does the wave function Ψ(x) of a particle in a one-dimensional potential describe?",
+      "choices": [
+        "A: The energy of the particle at position x.",
+        "B: The velocity of the particle at position x.",
+        "C: The probability of finding the particle at position x.",
+        "D: The mass of the particle at position x."
+      ],
+      "correct_answer": "C",
+      "explanation": "The wave function Ψ(x) is a central concept in quantum mechanics, indicating the probability of finding a particle at a specific position x. It is not directly linked to the particle's velocity or energy but describes the quantum mechanical distribution of the particle in space.",
+      "difficulty": 6,
+      "subcategory": "1D-Potentialprobleme: allgemeine Aussagen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Quantenzahlen des Gesamtdrehimpulses",
+      "question": "Which of the following quantum numbers describes the total angular momentum of an electron in an atom?",
+      "choices": [
+        "A: Azimuthal quantum number (l)",
+        "B: Magnetic quantum number (m_l)",
+        "C: Spin quantum number (m_s)",
+        "D: Principal quantum number (n)"
+      ],
+      "correct_answer": "C",
+      "explanation": "The spin quantum number (m_s) describes the intrinsic angular momentum of an electron, while the other quantum numbers determine various aspects of the electron configuration in the atom. The total angular momentum is characterized by the combination of these quantum numbers, with spin playing a crucial role.",
+      "difficulty": 4,
+      "subcategory": "Quantenzahlen des Gesamtdrehimpulses"
+    }
+  ]
+}
