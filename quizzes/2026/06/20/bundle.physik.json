@@ -1,0 +1,169 @@
+{
+  "date": "2026-06-20",
+  "generated_at": "2026-06-20T04:31:16Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Zustandsgleichungen (Überblick)",
+      "question": "Welche der folgenden Zustandsgleichungen beschreibt das Verhalten eines idealen Gases unter der Annahme, dass die Temperatur konstant bleibt?",
+      "choices": [
+        "A: pV^n = const.",
+        "B: pV = mRT",
+        "C: pV = nRT",
+        "D: pV = C"
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Zustandsgleichung pV = nRT beschreibt das Verhalten eines idealen Gases, wobei p der Druck, V das Volumen, n die Stoffmenge und T die Temperatur ist. Unter konstanter Temperatur (isotherm) bleibt diese Gleichung gültig und zeigt den Zusammenhang zwischen Druck und Volumen.",
+      "difficulty": 10,
+      "subcategory": "Zustandsgleichungen (Überblick)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Elektroschwache Vereinheitlichung (SU(2)×U(1))",
+      "question": "Was beschreibt das elektroschwache Kraftfeld in der SU(2)×U(1) Vereinheitlichung?",
+      "choices": [
+        "A: Die Wechselwirkung zwischen Quarks und Gluonen.",
+        "B: Die elektromagnetische Wechselwirkung zwischen geladenen Teilchen.",
+        "C: Die Gravitationskraft zwischen massiven Objekten.",
+        "D: Die Wechselwirkung zwischen Elektronen und Neutrinos."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die elektroschwache Vereinheitlichung beschreibt die Wechselwirkungen zwischen Elektronen, Neutrinos und den W- und Z-Bosonen, die die elektroschwache Kraft vermitteln. Diese Theorie vereint die elektromagnetische und die schwache Wechselwirkung, was durch die Gruppensymmetrie SU(2)×U(1) formalisiert wird.",
+      "difficulty": 7,
+      "subcategory": "Elektroschwache Vereinheitlichung (SU(2)×U(1))"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Erreichbarer Enddruck",
+      "question": "Was beschreibt den erreichbaren Enddruck in einem geschlossenen System?",
+      "choices": [
+        "A: Den Druck, der in einem Vakuum immer gleich bleibt.",
+        "B: Den Druck, der durch die Gleichgewichtszustände der Teilchen erreicht wird.",
+        "C: Den maximalen Druck, der durch äußere Kräfte erzeugt werden kann.",
+        "D: Den Druck, der nur bei Temperaturen unter dem absoluten Nullpunkt erreicht werden kann."
+      ],
+      "correct_answer": "B",
+      "explanation": "Der erreichbare Enddruck in einem geschlossenen System wird durch die Wechselwirkungen und das Gleichgewicht der Teilchen im System bestimmt. Dies ist der Druck, der im thermodynamischen Gleichgewicht erreicht wird, wenn keine weiteren externen Kräfte wirken.",
+      "difficulty": 4,
+      "subcategory": "Erreichbarer Enddruck"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Green’sche Sätze",
+      "question": "Welcher der folgenden Green’schen Sätze beschreibt die Beziehung zwischen einem Vektorfeld und dem Fluss des zugehörigen Skalarfeldes über eine geschlossene Kurve?",
+      "choices": [
+        "A: Der Divergenzsatz",
+        "B: Der Satz von Stokes",
+        "C: Der Grünwald-Satz",
+        "D: Der Satz von Gauss"
+      ],
+      "correct_answer": "B",
+      "explanation": "Der Satz von Stokes verbindet den Fluss eines Vektorfeldes über eine geschlossene Kurve mit der Divergenz des zugehörigen Skalarfeldes in der Fläche, die von der Kurve umschlossen wird. Diese Beziehung ist zentral in der Elektrodynamik zur Analyse von elektrischen und magnetischen Feldern.",
+      "difficulty": 8,
+      "subcategory": "Green’sche Sätze"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Isotropie des Raumes ⇒ Drehimpulserhaltung",
+      "question": "Welche der folgenden Aussagen beschreibt am besten die Konsequenz der Isotropie des Raumes auf die Erhaltung des Drehimpulses in einem abgeschlossenen System?",
+      "choices": [
+        "A: Der lineare Impuls eines Systems ist nur in einem isotropen Raum konstant.",
+        "B: Die Geschwindigkeit eines Körpers kann in isotropem Raum nicht variieren.",
+        "C: Der gesamte Energieinhalt eines Systems ist unabhängig von der Raumrichtung.",
+        "D: Der Drehimpuls eines geschlossenen Systems bleibt konstant, solange keine äußeren Drehmomente wirken."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Isotropie des Raumes bedeutet, dass die physikalischen Gesetze in allen Richtungen gleich sind. Dies führt zur Erhaltung des Drehimpulses in einem abgeschlossenen System, solange keine äußeren Drehmomente wirken, was eine fundamentale Konsequenz der symmetrischen Eigenschaften des Raumes ist.",
+      "difficulty": 9,
+      "subcategory": "Isotropie des Raumes ⇒ Drehimpulserhaltung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Quasiklassische Näherung (WKB)",
+      "question": "Was beschreibt die WKB-Näherung in der Quantenmechanik?",
+      "choices": [
+        "A: Die Unschärferelation zwischen Ort und Impuls.",
+        "B: Die quantenmechanische Beschreibung von Teilchen ohne Bezug zu klassischer Physik.",
+        "C: Die Berechnung von Energieniveaus in einem harmonischen Oszillator.",
+        "D: Die Approximation von Wellenfunktionen durch klassische Trajektorien."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die WKB-Näherung (Wentzel-Kramers-Brillouin) beschreibt, wie man die Wellenfunktionen eines quantenmechanischen Systems unter bestimmten Bedingungen durch klassische Trajektorien approximieren kann. Diese Methode ist besonders nützlich in Situationen, in denen das Potential langsam variiert und die Teilchen eine hohe Energie im Vergleich zu den Potentialbarrieren haben.",
+      "difficulty": 6,
+      "subcategory": "Quasiklassische Näherung (WKB)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Kovariante Formulierung der klassischen Mechanik",
+      "question": "Welche der folgenden Aussagen beschreibt am besten die kovariante Formulierung der klassischen Mechanik?",
+      "choices": [
+        "A: Sie stellt sicher, dass die physikalischen Gesetze in allen Inertialsystemen gleich sind.",
+        "B: Sie ignoriert die Zeitdimension vollständig.",
+        "C: Sie ist ausschließlich auf die relativistische Masse anwendbar.",
+        "D: Sie beschreibt die Bewegung von Körpern nur in ruhenden Koordinatensystemen."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die kovariante Formulierung der klassischen Mechanik stellt sicher, dass die physikalischen Gesetze in allen Inertialsystemen gleich sind, was eine zentrale Voraussetzung für die Relativitätstheorie ist. Diese Formulierung ermöglicht die Vereinheitlichung der Beschreibung von Bewegung und Kräften unabhängig von der Bewegung des Beobachters.",
+      "difficulty": 5,
+      "subcategory": "Kovariante Formulierung der klassischen Mechanik"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Skalenhypothese (Skalierungsansatz)",
+      "question": "Was beschreibt die Skalenhypothese in der Thermodynamik?",
+      "choices": [
+        "A: Die Beziehung zwischen makroskopischen und mikroskopischen Eigenschaften eines Systems.",
+        "B: Die Umwandlung von Wärme in mechanische Arbeit.",
+        "C: Die Effekte von Temperaturänderungen auf den Aggregatzustand.",
+        "D: Die Gesetzmäßigkeiten von Gasen unter Druck."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Skalenhypothese beschreibt, wie makroskopische Eigenschaften wie Temperatur und Druck aus den mikroskopischen Eigenschaften der Teilchen eines Systems abgeleitet werden können. Sie ist ein grundlegendes Konzept in der Thermodynamik, das hilft, das Verhalten von Materie zu verstehen.",
+      "difficulty": 4,
+      "subcategory": "Skalenhypothese (Skalierungsansatz)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Materiewellen (de Broglie-Idee)",
+      "question": "Was besagt die de Broglie-Idee bezüglich Materie?",
+      "choices": [
+        "A: Materie kann nur in einem Vakuum existieren.",
+        "B: Materie hat keine Wellencharakteristik.",
+        "C: Materie kann als Welle beschrieben werden.",
+        "D: Materie besteht ausschließlich aus festen Partikeln."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die de Broglie-Idee schlägt vor, dass alle Materie, einschließlich Teilchen wie Elektronen, sowohl Teilchen- als auch Wellencharakteristika aufweist. Dies revolutionierte das Verständnis der Quantenmechanik und führte zur Entwicklung der Wellenmechanik.",
+      "difficulty": 1,
+      "subcategory": "Materiewellen (de Broglie-Idee)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Abbesche Bildtheorie & Fourieroptik",
+      "question": "Was beschreibt die Abbesche Bildtheorie in der Optik?",
+      "choices": [
+        "A: Die Beziehung zwischen der Wellenlänge des Lichts und der Auflösung von Mikroskopen.",
+        "B: Die Erzeugung von Farben durch Lichtmischung.",
+        "C: Die Brechung von Licht an einer Linse.",
+        "D: Die Reflexion von Licht an einer Oberfläche."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Abbesche Bildtheorie beschäftigt sich mit der Auflösung von optischen Systemen, insbesondere von Mikroskopen, und beschreibt, wie die Wellenlänge des Lichts die maximale Detailgenauigkeit beeinflusst, die erreicht werden kann. Sie ist grundlegend für das Verständnis der Bildqualität in der Mikroskopie.",
+      "difficulty": 2,
+      "subcategory": "Abbesche Bildtheorie & Fourieroptik"
+    }
+  ]
+}
