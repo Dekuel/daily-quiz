@@ -1,0 +1,168 @@
+{
+  "date": "2026-06-21",
+  "generated_at": "2026-06-21T04:33:36Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Einschub über Lichtwellen (Optikbezug)",
+      "question": "What is the speed of light in a vacuum?",
+      "choices": [
+        "A: 1,000 km/s",
+        "B: 150,000 km/s",
+        "C: 3,000 km/s",
+        "D: 300,000 km/s"
+      ],
+      "correct_answer": "D",
+      "explanation": "The speed of light in a vacuum is approximately 300,000 kilometers per second. This speed is a fundamental constant of physics and plays an important role in optics and the theory of relativity.",
+      "difficulty": 2,
+      "subcategory": "Einschub über Lichtwellen (Optikbezug)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Potentiale des idealen Gases",
+      "question": "What does the ideal gas law describe?",
+      "choices": [
+        "A: The relationship between the pressure, volume, and temperature of an ideal gas.",
+        "B: The energy conversion in chemical reactions.",
+        "C: The interaction between two electric charges.",
+        "D: The movement of particles in a solid."
+      ],
+      "correct_answer": "A",
+      "explanation": "The ideal gas law describes the fundamental relationship between the pressure, volume, and temperature of an ideal gas, expressed by the equation PV = nRT. This law is crucial for understanding the properties and behavior of gases under various conditions.",
+      "difficulty": 4,
+      "subcategory": "Potentiale des idealen Gases"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Gleichgewichtsbedingungen (allgemein)",
+      "question": "What describes the equilibrium condition of a system in thermodynamics?",
+      "choices": [
+        "A: All forces involved are in equilibrium.",
+        "B: The volume of the system is constant.",
+        "C: The total energy of the system remains constant.",
+        "D: The temperature of the system is always the same."
+      ],
+      "correct_answer": "A",
+      "explanation": "The equilibrium condition in thermodynamics states that all forces acting on a system are balanced, meaning the system no longer changes. This is a fundamental concept for analyzing stable states.",
+      "difficulty": 4,
+      "subcategory": "Gleichgewichtsbedingungen (allgemein)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Kanonische Gleichungen (Hamilton-Gleichungen)",
+      "question": "What does the Hamiltonian equation describe in analytical mechanics?",
+      "choices": [
+        "A: The relationship between the energy and temperature of a system.",
+        "B: The quantum mechanical properties of particles.",
+        "C: The time evolution of systems based on canonical variables.",
+        "D: The interaction between two point masses."
+      ],
+      "correct_answer": "C",
+      "explanation": "The Hamiltonian equation describes the time evolution of a physical system in terms of its canonical variables, that is, position and momentum. This equation is fundamental for analytical mechanics and allows the reformulation of the equations of motion in a new framework.",
+      "difficulty": 6,
+      "subcategory": "Kanonische Gleichungen (Hamilton-Gleichungen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Coulomb-Potential (Wasserstoffatom): Energiespektrum",
+      "question": "What describes the energy spectrum of the hydrogen atom in a Coulomb potential?",
+      "choices": [
+        "A: Only one energy level",
+        "B: No energy levels",
+        "C: Discrete energy levels",
+        "D: Continuous energy values"
+      ],
+      "correct_answer": "C",
+      "explanation": "The energy spectrum of the hydrogen atom in a Coulomb potential shows discrete energy levels. These levels arise due to the quantized states of electrons in the atom and are characteristic of the hydrogen atom.",
+      "difficulty": 1,
+      "subcategory": "Coulomb-Potential (Wasserstoffatom): Energiespektrum"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Zeitdilatation",
+      "question": "Which statement correctly describes time dilation according to the special theory of relativity?",
+      "choices": [
+        "A: Time cannot be influenced and remains constant in all inertial systems.",
+        "B: Time dilation occurs only at speeds close to the speed of light but does not affect everyday time perception.",
+        "C: Time passes slower for moving observers compared to stationary observers.",
+        "D: Time passes at the same rate for all observers, regardless of their motion."
+      ],
+      "correct_answer": "C",
+      "explanation": "According to the special theory of relativity, time slows down for observers moving relative to each other. This means that a clock moving at high speed ticks slower than a stationary clock from the perspective of a stationary observer.",
+      "difficulty": 7,
+      "subcategory": "Zeitdilatation"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Reflexionsgesetz (geometrisch)",
+      "question": "Which of the following laws describes that the angle of incidence is equal to the angle of reflection?",
+      "choices": [
+        "A: The law of reflection",
+        "B: Snell's law",
+        "C: Huygens' principle",
+        "D: The law of refraction"
+      ],
+      "correct_answer": "A",
+      "explanation": "The law of reflection states that the angle of incidence is equal to the angle of reflection, meaning that light is reflected at a certain angle when it strikes a reflective surface. This law is fundamental for understanding light reflection and is used in many practical applications, such as mirrors.",
+      "difficulty": 8,
+      "subcategory": "Reflexionsgesetz (geometrisch)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Inhomogene Wellengleichung",
+      "question": "What does the inhomogeneous wave equation describe in electrodynamics?",
+      "choices": [
+        "A: The propagation of electromagnetic waves in a medium with sources.",
+        "B: The superposition of electric fields in a vacuum.",
+        "C: The movement of electric charges without external influences.",
+        "D: The reflection of waves at a boundary between two media."
+      ],
+      "correct_answer": "A",
+      "explanation": "The inhomogeneous wave equation describes the propagation of electromagnetic waves in a medium where sources such as electric charges or currents are present. These sources lead to a change in the behavior of the wave compared to the homogeneous equation, which does not consider sources.",
+      "difficulty": 5,
+      "subcategory": "Inhomogene Wellengleichung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Maxwell’sche Ergänzung des Ampèreschen Gesetzes",
+      "question": "What does Maxwell's addition to Ampère's law describe?",
+      "choices": [
+        "A: The force between two stationary electric charges.",
+        "B: The motion of electric charges in a uniform magnetic field.",
+        "C: The relationship between voltage and current in a resistor.",
+        "D: The generation of a magnetic field by a changing electric current."
+      ],
+      "correct_answer": "D",
+      "explanation": "Maxwell's addition describes that a changing electric current generates a magnetic field even when no steady current flows. This extends the original Ampère's law and is fundamental for understanding electromagnetic fields.",
+      "difficulty": 5,
+      "subcategory": "Maxwell’sche Ergänzung des Ampèreschen Gesetzes"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "β‑Zerfall (β±, EC)",
+      "question": "What is the main feature of a β+ (beta-plus) decay?",
+      "choices": [
+        "A: A proton is converted into a neutron.",
+        "B: An electron is emitted.",
+        "C: A neutron is converted into a proton.",
+        "D: A photon is generated."
+      ],
+      "correct_answer": "C",
+      "explanation": "In β+ decay, a neutron converts into a proton while emitting a positron and a neutrino. This is a form of radioactive decay that results in elements emitting positrons.",
+      "difficulty": 3,
+      "subcategory": "β‑Zerfall (β±, EC)"
+    }
+  ]
+}

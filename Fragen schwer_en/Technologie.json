@@ -2730,6 +2730,20 @@
       "correct_answer": "B",
       "explanation": "Ada Lovelace is often regarded as the first programmer for writing the first algorithmic instructions for Charles Babbage's Analytical Engine in the 1840s. Her concepts laid the foundation for the later development of programming languages.",
       "difficulty": 8
+    },
+    {
+      "category": "Technologie",
+      "topic": "KI & Zukunftstechnologien",
+      "question": "Which algorithm is commonly used for optimizing neural networks to avoid local minima?",
+      "choices": [
+        "A: SGD",
+        "B: AdaGrad",
+        "C: Adam",
+        "D: RMSprop"
+      ],
+      "correct_answer": "C",
+      "explanation": "The Adam algorithm combines the advantages of two other optimization methods and is known for efficiently handling large datasets and numerous parameters. Through adaptive learning, it can often converge faster than more traditional methods like SGD or RMSprop.",
+      "difficulty": 8
     }
   ]
 }

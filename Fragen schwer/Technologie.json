@@ -2702,6 +2702,20 @@
       "correct_answer": "B",
       "explanation": "Ada Lovelace wird oft als die erste Programmiererin angesehen, da sie in den 1840er Jahren die erste algorithmische Anleitung für die von Charles Babbage konzipierte Analytical Engine schrieb. Ihre Konzepte legten den Grundstein für die spätere Entwicklung von Programmiersprachen.",
       "difficulty": 8
+    },
+    {
+      "category": "Technologie",
+      "topic": "KI & Zukunftstechnologien",
+      "question": "Welcher Algorithmus wird häufig für die Optimierung von neuronalen Netzwerken eingesetzt, um lokale Minima zu vermeiden?",
+      "choices": [
+        "A: SGD",
+        "B: AdaGrad",
+        "C: Adam",
+        "D: RMSprop"
+      ],
+      "correct_answer": "C",
+      "explanation": "Der Adam-Algorithmus kombiniert die Vorteile von zwei anderen Optimierungsmethoden und ist dafür bekannt, effizient mit großen Datensätzen und vielen Parametern umzugehen. Durch adaptives Lernen kann er oft schneller konvergieren als traditionellere Methoden wie SGD oder RMSprop.",
+      "difficulty": 8
     }
   ]
 }
