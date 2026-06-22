@@ -1,0 +1,169 @@
+{
+  "date": "2026-06-22",
+  "generated_at": "2026-06-22T04:34:11Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Längenkontraktion",
+      "question": "Was beschreibt das Phänomen der Längenkontraktion in der Relativitätstheorie?",
+      "choices": [
+        "A: Licht benötigt mehr Zeit, um sich durch bewegte Objekte zu bewegen.",
+        "B: Die Zeit vergeht langsamer für sich bewegende Objekte.",
+        "C: Objekte erscheinen kürzer, wenn sie sich relativ zu einem Beobachter bewegen.",
+        "D: Objekte werden schwerer, je schneller sie sich bewegen."
+      ],
+      "correct_answer": "C",
+      "explanation": "Längenkontraktion ist ein Effekt der Relativitätstheorie, bei dem sich die Länge eines sich bewegenden Objekts aus der Sicht eines ruhenden Beobachters verkürzt. Dieser Effekt tritt nur bei relativistischen Geschwindigkeiten nahe der Lichtgeschwindigkeit auf.",
+      "difficulty": 3,
+      "subcategory": "Längenkontraktion"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Bohr–Sommerfeld-Quantisierung (historisch)",
+      "question": "Was besagt das Bohr-Sommerfeld-Modell über die Quantisierung von Bahnen in einem Atom?",
+      "choices": [
+        "A: Es gibt keine quantisierten Zustände, nur kontinuierliche Energieniveaus.",
+        "B: Die Bahnen sind nur für bestimmte Energiezustände erlaubt.",
+        "C: Alle Bahnen sind erlaubt, solange die Geschwindigkeit hoch genug ist.",
+        "D: Elektronen bewegen sich immer in kreisförmigen Bahnen."
+      ],
+      "correct_answer": "B",
+      "explanation": "Das Bohr-Sommerfeld-Modell postuliert, dass nur bestimmte, diskrete Bahnen für Elektronen in Atomen erlaubt sind, was zu quantisierten Energieniveaus führt. Dies war ein entscheidender Schritt in der Entwicklung der Quantenmechanik und half, die Stabilität der Atome zu erklären.",
+      "difficulty": 5,
+      "subcategory": "Bohr–Sommerfeld-Quantisierung (historisch)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Lichtquanten / Photonen",
+      "question": "Welches der folgenden Konzepte beschreibt am besten das Verhalten von Photonen in einem Doppelspalt-Experiment?",
+      "choices": [
+        "A: Photonen verhalten sich sowohl wie Teilchen als auch wie Wellen.",
+        "B: Photonen durchqueren den Doppelspalt als klassische Teilchen ohne Interferenz.",
+        "C: Photonen können nur in einem der beiden Spalte detektiert werden, was eine klassische Bahn erzeugt.",
+        "D: Photonen interagieren nicht mit der Umgebung und zeigen daher keine Wellencharakteristik."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Doppelspalt-Experiment zeigt, dass Photonen sowohl Wellen- als auch Teilcheneigenschaften besitzen, was durch das Muster der Interferenz belegt wird. Dies ist ein zentrales Element der Quantenmechanik, das die duale Natur von Licht verdeutlicht.",
+      "difficulty": 10,
+      "subcategory": "Lichtquanten / Photonen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Hochtemperatur-Supraleiter",
+      "question": "Welche der folgenden Aussagen über Hochtemperatur-Supraleiter ist korrekt?",
+      "choices": [
+        "A: Hochtemperatur-Supraleiter sind nur in Form von dünnen Schichten stabil.",
+        "B: Hochtemperatur-Supraleiter weisen immer einen perfekten diamagnetischen Zustand bei Raumtemperatur auf.",
+        "C: Hochtemperatur-Supraleiter haben kritische Temperaturen über 77 K.",
+        "D: Alle Hochtemperatur-Supraleiter sind metallisch und haben eine vollständige Bandstruktur."
+      ],
+      "correct_answer": "C",
+      "explanation": "Hochtemperatur-Supraleiter sind Materialien, die kritische Temperaturen über 77 K erreichen, was sie von konventionellen Supraleitern unterscheidet. Diese hohe Temperatur ermöglicht Anwendungen bei moderaten Kühltechniken und ist entscheidend für technologische Entwicklungen in der Supraleitung.",
+      "difficulty": 9,
+      "subcategory": "Hochtemperatur-Supraleiter"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Makroskopische Feldgrößen (D, E, P)",
+      "question": "Welches der folgenden Gesetze beschreibt die Beziehung zwischen dem elektrischen Feld E und der elektrischen Flussdichte D in einem dielektrischen Medium?",
+      "choices": [
+        "A: Die Beziehung D = εE",
+        "B: Das Gauss'sche Gesetz",
+        "C: Das Coulomb-Gesetz",
+        "D: Das Ampèresche Gesetz"
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Beziehung D = εE beschreibt, wie die elektrische Flussdichte D mit dem elektrischen Feld E in einem dielektrischen Medium zusammenhängt, wobei ε die Dielektrizitätskonstante des Mediums ist. Diese Beziehung ist grundlegend für die Analyse elektrischer Felder in Materialien und hilft, die Wirkung von elektrischen Feldern auf die Materie zu verstehen.",
+      "difficulty": 6,
+      "subcategory": "Makroskopische Feldgrößen (D, E, P)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Ferromagnetismus: Austausch & Ising-MF",
+      "question": "Was beschreibt das Konzept des Austauschwechsels im Kontext des Ferromagnetismus?",
+      "choices": [
+        "A: Die Wechselwirkung zwischen benachbarten Spins, die zu einer parallelen Ausrichtung führt.",
+        "B: Die Temperatur, bei der ein ferromagnetisches Material seine magnetischen Eigenschaften verliert.",
+        "C: Die maximale magnetische Flussdichte eines Materials.",
+        "D: Die Energie, die benötigt wird, um einen Magneten zu magnetisieren."
+      ],
+      "correct_answer": "A",
+      "explanation": "Der Austauschwechsel ist eine fundamentale Wechselwirkung in ferromagnetischen Materialien, die dafür sorgt, dass benachbarte Spins in die gleiche Richtung ausgerichtet werden. Dies führt zur Entstehung eines makroskopischen Magnetfelds und ist entscheidend für das Verständnis des Ferromagnetismus im Rahmen des Ising-Modells.",
+      "difficulty": 6,
+      "subcategory": "Ferromagnetismus: Austausch & Ising-MF"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Meson‑Multipletts (SU(3))",
+      "question": "Welches der folgenden Mesonen gehört zum Pion-Multiplett?",
+      "choices": [
+        "A: K⁺",
+        "B: η",
+        "C: ρ⁰",
+        "D: π⁺"
+      ],
+      "correct_answer": "D",
+      "explanation": "Das Pion-Multiplett besteht aus den drei Pionen: dem positiven Pion (π⁺), dem negativen Pion (π⁻) und dem neutralen Pion (π⁰). Diese Mesonen sind für die starke Wechselwirkung verantwortlich und spielen eine wichtige Rolle in der Hadronenphysik.",
+      "difficulty": 3,
+      "subcategory": "Meson‑Multipletts (SU(3))"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Bohr–Sommerfeld-Quantisierung (historisch)",
+      "question": "Was besagt das Bohr-Sommerfeld-Modell bezüglich der Quantisierung von Drehimpuls?",
+      "choices": [
+        "A: Der Drehimpuls ist nur in einem konstanten Zustand quantisiert.",
+        "B: Der Drehimpuls ist immer gleich Null.",
+        "C: Der Drehimpuls kann beliebige Werte annehmen und ist nicht quantisiert.",
+        "D: Der Drehimpuls ist quantisiert und kann nur bestimmte diskrete Werte annehmen."
+      ],
+      "correct_answer": "D",
+      "explanation": "Das Bohr-Sommerfeld-Modell postuliert, dass der Drehimpuls von Elektronen in Atomen quantisiert ist und nur bestimmte Werte annehmen kann. Dies war ein wichtiger Schritt in der Entwicklung der Quantenmechanik und half, die Struktur der Atome besser zu verstehen.",
+      "difficulty": 5,
+      "subcategory": "Bohr–Sommerfeld-Quantisierung (historisch)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Wirkungsprinzipien (Überblick)",
+      "question": "Was beschreibt das Prinzip der kleinsten Wirkung in der analytischen Mechanik?",
+      "choices": [
+        "A: Ein System bewegt sich entlang des Pfades, für den die Wirkung minimal ist.",
+        "B: Der Weg, den ein System nimmt, minimiert die Zeit.",
+        "C: Ein System bleibt immer in Ruhe, wenn keine Kraft wirkt.",
+        "D: Ein System bewegt sich immer in Richtung der größtmöglichen Energie."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Prinzip der kleinsten Wirkung besagt, dass die Bewegung eines Systems den Pfad wählt, der die Wirkung minimiert. Diese Idee ist zentral in der analytischen Mechanik und verbindet Energie, Zeit und Bewegung miteinander.",
+      "difficulty": 2,
+      "subcategory": "Wirkungsprinzipien (Überblick)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Phasenintegralquantisierung",
+      "question": "Was wird in der Quantenmechanik als Phasenintegral bezeichnet?",
+      "choices": [
+        "A: Die Frequenz eines Photons.",
+        "B: Die Geschwindigkeit eines Teilchens in einem bestimmten Zustand.",
+        "C: Der Abstand zwischen zwei Energiezuständen eines Elektrons.",
+        "D: Die Summe der Phasen über alle möglichen Bahnen eines Teilchens."
+      ],
+      "correct_answer": "D",
+      "explanation": "In der Quantenmechanik beschreibt das Phasenintegral die Gesamtheit der Phasen, die ein Teilchen auf verschiedenen möglichen Bahnen durchläuft. Diese Idee ist entscheidend für das Verständnis der quantenmechanischen Interferenzeffekte und der Quantisierung von Energiezuständen.",
+      "difficulty": 1,
+      "subcategory": "Phasenintegralquantisierung"
+    }
+  ]
+}

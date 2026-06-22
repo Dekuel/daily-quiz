@@ -1,0 +1,168 @@
+{
+  "date": "2026-06-22",
+  "generated_at": "2026-06-22T04:34:43Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Längenkontraktion",
+      "question": "What describes the phenomenon of length contraction in the theory of relativity?",
+      "choices": [
+        "A: Light takes more time to pass through moving objects.",
+        "B: Time passes slower for moving objects.",
+        "C: Objects appear shorter when moving relative to an observer.",
+        "D: Objects become heavier the faster they move."
+      ],
+      "correct_answer": "C",
+      "explanation": "Length contraction is an effect of the theory of relativity in which the length of a moving object appears shortened from the perspective of a stationary observer. This effect occurs only at relativistic speeds close to the speed of light.",
+      "difficulty": 3,
+      "subcategory": "Längenkontraktion"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Bohr–Sommerfeld-Quantisierung (historisch)",
+      "question": "What does the Bohr-Sommerfeld model state about the quantization of orbits in an atom?",
+      "choices": [
+        "A: There are no quantized states, only continuous energy levels.",
+        "B: Orbits are only allowed for specific energy states.",
+        "C: All orbits are allowed as long as the velocity is high enough.",
+        "D: Electrons always move in circular orbits."
+      ],
+      "correct_answer": "B",
+      "explanation": "The Bohr-Sommerfeld model postulates that only specific discrete orbits are allowed for electrons in atoms, leading to quantized energy levels. This was a crucial step in the development of quantum mechanics and helped explain the stability of atoms.",
+      "difficulty": 5,
+      "subcategory": "Bohr–Sommerfeld-Quantisierung (historisch)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Lichtquanten / Photonen",
+      "question": "Which of the following concepts best describes the behavior of photons in a double-slit experiment?",
+      "choices": [
+        "A: Photons behave as both particles and waves.",
+        "B: Photons pass through the double slit as classical particles without interference.",
+        "C: Photons can only be detected in one of the two slits, creating a classical path.",
+        "D: Photons do not interact with the environment and therefore do not exhibit wave characteristics."
+      ],
+      "correct_answer": "A",
+      "explanation": "The double-slit experiment demonstrates that photons exhibit both wave and particle properties, as evidenced by the interference pattern. This is a central element of quantum mechanics that illustrates the dual nature of light.",
+      "difficulty": 10,
+      "subcategory": "Lichtquanten / Photonen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Hochtemperatur-Supraleiter",
+      "question": "Which of the following statements about high-temperature superconductors is correct?",
+      "choices": [
+        "A: High-temperature superconductors are only stable in the form of thin films.",
+        "B: High-temperature superconductors always exhibit a perfect diamagnetic state at room temperature.",
+        "C: High-temperature superconductors have critical temperatures above 77 K.",
+        "D: All high-temperature superconductors are metallic and have a complete band structure."
+      ],
+      "correct_answer": "C",
+      "explanation": "High-temperature superconductors are materials that reach critical temperatures above 77 K, distinguishing them from conventional superconductors. This high temperature allows for applications with moderate cooling techniques and is crucial for technological advancements in superconductivity.",
+      "difficulty": 9,
+      "subcategory": "Hochtemperatur-Supraleiter"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Makroskopische Feldgrößen (D, E, P)",
+      "question": "Which of the following laws describes the relationship between the electric field E and the electric flux density D in a dielectric medium?",
+      "choices": [
+        "A: The relationship D = εE",
+        "B: Gauss's law",
+        "C: Coulomb's law",
+        "D: Ampère's law"
+      ],
+      "correct_answer": "A",
+      "explanation": "The relationship D = εE describes how the electric flux density D is related to the electric field E in a dielectric medium, where ε is the dielectric constant of the medium. This relationship is fundamental for analyzing electric fields in materials and helps understand the effect of electric fields on matter.",
+      "difficulty": 6,
+      "subcategory": "Makroskopische Feldgrößen (D, E, P)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Ferromagnetismus: Austausch & Ising-MF",
+      "question": "What does the concept of exchange interaction describe in the context of ferromagnetism?",
+      "choices": [
+        "A: The interaction between neighboring spins leading to a parallel alignment.",
+        "B: The temperature at which a ferromagnetic material loses its magnetic properties.",
+        "C: The maximum magnetic flux density of a material.",
+        "D: The energy required to magnetize a magnet."
+      ],
+      "correct_answer": "A",
+      "explanation": "The exchange interaction is a fundamental interaction in ferromagnetic materials that aligns neighboring spins in the same direction. This leads to the creation of a macroscopic magnetic field and is crucial for understanding ferromagnetism within the Ising model.",
+      "difficulty": 6,
+      "subcategory": "Ferromagnetismus: Austausch & Ising-MF"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Meson‑Multipletts (SU(3))",
+      "question": "Which of the following mesons belongs to the pion multiplet?",
+      "choices": [
+        "A: K⁺",
+        "B: η",
+        "C: ρ⁰",
+        "D: π⁺"
+      ],
+      "correct_answer": "D",
+      "explanation": "The pion multiplet consists of the three pions: the positive pion (π⁺), the negative pion (π⁻), and the neutral pion (π⁰). These mesons are responsible for the strong interaction and play a significant role in hadron physics.",
+      "difficulty": 3,
+      "subcategory": "Meson‑Multipletts (SU(3))"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Bohr–Sommerfeld-Quantisierung (historisch)",
+      "question": "What does the Bohr-Sommerfeld model state regarding the quantization of angular momentum?",
+      "choices": [
+        "A: Angular momentum is quantized only in a constant state.",
+        "B: Angular momentum is always zero.",
+        "C: Angular momentum can take any value and is not quantized.",
+        "D: Angular momentum is quantized and can only take certain discrete values."
+      ],
+      "correct_answer": "D",
+      "explanation": "The Bohr-Sommerfeld model postulates that the angular momentum of electrons in atoms is quantized and can only take on certain values. This was an important step in the development of quantum mechanics and helped better understand the structure of atoms.",
+      "difficulty": 5,
+      "subcategory": "Bohr–Sommerfeld-Quantisierung (historisch)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Wirkungsprinzipien (Überblick)",
+      "question": "What does the principle of least action describe in analytical mechanics?",
+      "choices": [
+        "A: A system moves along the path where the action is minimal.",
+        "B: The path a system takes minimizes time.",
+        "C: A system always remains at rest when no force is acting.",
+        "D: A system always moves towards the highest possible energy."
+      ],
+      "correct_answer": "A",
+      "explanation": "The principle of least action states that the motion of a system follows the path that minimizes the action. This idea is central in analytical mechanics and connects energy, time, and motion.",
+      "difficulty": 2,
+      "subcategory": "Wirkungsprinzipien (Überblick)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Phasenintegralquantisierung",
+      "question": "What is referred to as the phase integral in quantum mechanics?",
+      "choices": [
+        "A: The frequency of a photon.",
+        "B: The velocity of a particle in a specific state.",
+        "C: The distance between two energy states of an electron.",
+        "D: The sum of phases over all possible paths of a particle."
+      ],
+      "correct_answer": "D",
+      "explanation": "In quantum mechanics, the phase integral describes the sum of the phases that a particle undergoes on various possible paths. This idea is crucial for understanding quantum interference effects and the quantization of energy states.",
+      "difficulty": 1,
+      "subcategory": "Phasenintegralquantisierung"
+    }
+  ]
+}

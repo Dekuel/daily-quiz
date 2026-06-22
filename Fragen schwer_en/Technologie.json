@@ -2744,6 +2744,20 @@
       "correct_answer": "C",
       "explanation": "The Adam algorithm combines the advantages of two other optimization methods and is known for efficiently handling large datasets and numerous parameters. Through adaptive learning, it can often converge faster than more traditional methods like SGD or RMSprop.",
       "difficulty": 8
+    },
+    {
+      "category": "Technologie",
+      "topic": "KI & Zukunftstechnologien",
+      "question": "Which of the following AI models uses an encoder-decoder architecture for text translation?",
+      "choices": [
+        "A: Transformer",
+        "B: Recurrent Neural Network",
+        "C: Convolutional Neural Network",
+        "D: Generative Adversarial Network"
+      ],
+      "correct_answer": "A",
+      "explanation": "The Transformer model introduced by Google utilizes an encoder-decoder architecture that is particularly effective for tasks like machine translation. In contrast, Convolutional Neural Networks are mainly optimized for image processing, Recurrent Neural Networks for sequential data, and Generative Adversarial Networks for generating new data.",
+      "difficulty": 9
     }
   ]
 }
