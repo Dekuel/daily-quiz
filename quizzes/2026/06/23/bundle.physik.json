@@ -1,0 +1,169 @@
+{
+  "date": "2026-06-23",
+  "generated_at": "2026-06-23T04:26:31Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Kinematik der Elektronenstreuung",
+      "question": "Was beschreibt der Impuls eines Elektrons bei der Elektronenstreuung?",
+      "choices": [
+        "A: Die Geschwindigkeit des Elektrons multipliziert mit seiner Masse.",
+        "B: Die Energie des Elektrons nach der Kollision.",
+        "C: Die Temperatur des Elektronenstrahls.",
+        "D: Die Anzahl der Elektronen in einem Strahl."
+      ],
+      "correct_answer": "A",
+      "explanation": "Der Impuls eines Elektrons ist definiert als das Produkt seiner Masse und seiner Geschwindigkeit. Bei der Elektronenstreuung ist der Impuls ein wichtiger Faktor, um die Wechselwirkung zwischen dem Elektron und dem Zielteilchen zu verstehen.",
+      "difficulty": 3,
+      "subcategory": "Kinematik der Elektronenstreuung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Addition von Drehimpulsen: Gesamtdrehimpuls",
+      "question": "Wie ergibt sich der Gesamtdrehimpuls eines Systems aus zwei Teilchen mit je einem Drehimpuls von j1 und j2?",
+      "choices": [
+        "A: j = j1 / j2",
+        "B: j = |j1 - j2|, |j1 - j2| + 1, ..., j1 + j2",
+        "C: j = j1 * j2",
+        "D: j = j1 + j2"
+      ],
+      "correct_answer": "B",
+      "explanation": "Der Gesamtdrehimpuls eines Systems aus zwei Teilchen mit den Drehimpulsen j1 und j2 kann durch die quantenmechanische Regel zur Addition von Drehimpulsen bestimmt werden. Er ergibt sich aus den Werten |j1 - j2| bis j1 + j2 in ganzen Zahlen.",
+      "difficulty": 6,
+      "subcategory": "Addition von Drehimpulsen: Gesamtdrehimpuls"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Geschl. System bei konstanten Kräften: Minimum der Enthalpie H",
+      "question": "Welcher Zustand eines geschlossenen Systems bei konstanten Kräften entspricht dem Minimum der Enthalpie H?",
+      "choices": [
+        "A: Eine adiabatische Expansion mit maximaler Arbeit",
+        "B: Eine isochore Prozessführung mit Temperaturerhöhung",
+        "C: Ein Zustand mit konstantem Druck und Temperatur",
+        "D: Eine isotherme Expansion ohne Arbeit"
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Minimum der Enthalpie H in einem geschlossenen System bei konstanten Kräften tritt auf, wenn der Druck und die Temperatur konstant gehalten werden. In diesem Zustand sind die thermodynamischen Eigenschaften optimal ausgeglichen, was zu einer minimalen Enthalpie führt.",
+      "difficulty": 8,
+      "subcategory": "Geschl. System bei konstanten Kräften: Minimum der Enthalpie H"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Hauptträgheitsmomente",
+      "question": "Welches der folgenden Hauptträgheitsmomente beschreibt am besten ein massives Zylindersystem, dessen Achse durch den Mittelpunkt verläuft und parallel zur Längsachse ist?",
+      "choices": [
+        "A: \\( \\frac{1}{2} m r^2 \\)",
+        "B: \\( m r^2 \\)",
+        "C: \\( \\frac{1}{3} m r^2 \\)",
+        "D: \\( \\frac{1}{4} m r^2 \\)"
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Hauptträgheitsmoment eines massiven Zylinders, dessen Achse durch den Mittelpunkt und parallel zur Längsachse verläuft, ist \\( \\frac{1}{2} m r^2 \\). Dies ist wichtig für die Berechnung der Rotationsdynamik solcher Körper bei der Anwendung von Drehmomenten und Rotationsbewegungen.",
+      "difficulty": 8,
+      "subcategory": "Hauptträgheitsmomente"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Spin-Bahn-Wechselwirkung",
+      "question": "Was beschreibt die Spin-Bahn-Wechselwirkung in der Quantenmechanik?",
+      "choices": [
+        "A: Die Wechselwirkung zwischen Photonen und Elektronen.",
+        "B: Die Wechselwirkung zwischen zwei Spins in einem Atom.",
+        "C: Die Wechselwirkung zwischen dem Spin eines Teilchens und seinem Bahnmoment.",
+        "D: Die Wechselwirkung zwischen elektrischen und magnetischen Feldern."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Spin-Bahn-Wechselwirkung ist ein fundamentales Konzept in der Quantenmechanik, das beschreibt, wie der Spin eines Teilchens mit seinem Bahnmoment gekoppelt ist. Diese Wechselwirkung hat wichtige Auswirkungen auf die Energielevels von Atomen und auf die Struktur von Elektronenhüllen.",
+      "difficulty": 3,
+      "subcategory": "Spin-Bahn-Wechselwirkung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Nicht-holonome Zwangsbedingungen",
+      "question": "Was beschreibt eine nicht-holonome Zwangsbedingung in der Mechanik?",
+      "choices": [
+        "A: Eine Bedingung, die nicht durch eine Funktion der Generalisierten Koordinaten ausgedrückt werden kann.",
+        "B: Eine Bedingung, die nur in bestimmten Koordinatensystemen gilt.",
+        "C: Eine Bedingung, die die Bewegung eines Körpers in einer geraden Linie einschränkt.",
+        "D: Eine Bedingung, die immer zu Energieverlust führt."
+      ],
+      "correct_answer": "A",
+      "explanation": "Nicht-holonome Zwangsbedingungen können nicht als Gleichung zwischen den Generalisierten Koordinaten formuliert werden, was sie von holonomen Zwangsbedingungen unterscheidet. Sie sind oft in Systemen zu finden, bei denen die Bewegung durch andere, nicht-triviale Bedingungen eingeschränkt ist.",
+      "difficulty": 1,
+      "subcategory": "Nicht-holonome Zwangsbedingungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Klassischer Grenzfall (z ≪ 1)",
+      "question": "Was beschreibt der klassische Grenzfall in der statistischen Mechanik?",
+      "choices": [
+        "A: Die Verteilung von Teilchen in einem System bei hoher Temperatur.",
+        "B: Die Bewegung von Teilchen im quantenmechanischen Zustand.",
+        "C: Die Eigenschaften von Materie bei extrem niedrigen Temperaturen.",
+        "D: Die Wechselwirkungen zwischen Teilchen in einem Vakuum."
+      ],
+      "correct_answer": "A",
+      "explanation": "Im klassischen Grenzfall z ≪ 1 können die statistischen Eigenschaften von Teilchen in einem System durch klassische Thermodynamik beschrieben werden, insbesondere bei hohen Temperaturen. Dies bedeutet, dass die Energieverteilung der Teilchen eher klassisch als quantenmechanisch ist, was zu einer Maxwell-Boltzmann-Verteilung führt.",
+      "difficulty": 1,
+      "subcategory": "Klassischer Grenzfall (z ≪ 1)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Kräfte beim Fliegen",
+      "question": "Welche Kraft ist entscheidend, damit ein Flugzeug in der Luft bleibt?",
+      "choices": [
+        "A: Zentrifugalkraft",
+        "B: Gewicht",
+        "C: Reibung",
+        "D: Auftrieb"
+      ],
+      "correct_answer": "D",
+      "explanation": "Der Auftrieb ist die Kraft, die ein Flugzeug nach oben hebt und es in der Luft hält. Er entsteht durch die Form der Flügel und die Bewegung des Flugzeugs durch die Luft, während das Gewicht die Schwerkraft ist, die das Flugzeug nach unten zieht.",
+      "difficulty": 1,
+      "subcategory": "Kräfte beim Fliegen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Carnot- und allgemeine Kreisprozesse",
+      "question": "Welcher der folgenden Prozesse ist ein idealer Carnot-Prozess?",
+      "choices": [
+        "A: Ein Prozess, der keinen Temperaturunterschied zwischen Wärmequellen nutzt.",
+        "B: Ein Prozess, der den gesamten Arbeitsweg in einem einzigen Schritt durchführt.",
+        "C: Ein Prozess, der zwischen zwei Wärmequellen mit konstanten Temperaturen arbeitet.",
+        "D: Ein Prozess, der nur Wärme von einer Quelle aufnimmt und an die Umgebung abgibt."
+      ],
+      "correct_answer": "C",
+      "explanation": "Ein idealer Carnot-Prozess ist definiert durch den Austausch von Wärme zwischen zwei Wärmequellen, die konstant bleiben. Dadurch erreicht er den maximalen Wirkungsgrad, der nur durch die Temperaturen der beteiligten Quellen bestimmt wird.",
+      "difficulty": 5,
+      "subcategory": "Carnot- und allgemeine Kreisprozesse"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Kriterien für Kanonizität (Symplektizität)",
+      "question": "Welches Kriterium ist notwendig, damit ein System kanonisch ist?",
+      "choices": [
+        "A: Der Phasenraum muss symplektisch sein.",
+        "B: Die Hamiltonsche Gleichung muss erfüllt sein.",
+        "C: Die Energie des Systems muss konstant bleiben.",
+        "D: Die Zeit muss linear verlaufen."
+      ],
+      "correct_answer": "A",
+      "explanation": "Für ein System, das kanonisch ist, muss der Phasenraum symplektisch sein, was bedeutet, dass eine bestimmte Struktur in der Darstellung der Zustände vorhanden ist. Dieses Kriterium ist entscheidend für die Erhaltung der symplektischen Geometrie in der analytischen Mechanik.",
+      "difficulty": 5,
+      "subcategory": "Kriterien für Kanonizität (Symplektizität)"
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "date": "2026-06-23",
+  "generated_at": "2026-06-23T04:27:00Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Kinematik der Elektronenstreuung",
+      "question": "What does the momentum of an electron describe in electron scattering?",
+      "choices": [
+        "A: The velocity of the electron multiplied by its mass.",
+        "B: The energy of the electron after the collision.",
+        "C: The temperature of the electron beam.",
+        "D: The number of electrons in a beam."
+      ],
+      "correct_answer": "A",
+      "explanation": "The momentum of an electron is defined as the product of its mass and its velocity. In electron scattering, momentum is an important factor in understanding the interaction between the electron and the target particle.",
+      "difficulty": 3,
+      "subcategory": "Kinematik der Elektronenstreuung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Addition von Drehimpulsen: Gesamtdrehimpuls",
+      "question": "How is the total angular momentum of a system composed of two particles with angular momenta j1 and j2 determined?",
+      "choices": [
+        "A: j = j1 / j2",
+        "B: j = |j1 - j2|, |j1 - j2| + 1, ..., j1 + j2",
+        "C: j = j1 * j2",
+        "D: j = j1 + j2"
+      ],
+      "correct_answer": "B",
+      "explanation": "The total angular momentum of a system composed of two particles with angular momenta j1 and j2 can be determined using the quantum mechanical rule for adding angular momenta. It ranges from |j1 - j2| to j1 + j2 in integer values.",
+      "difficulty": 6,
+      "subcategory": "Addition von Drehimpulsen: Gesamtdrehimpuls"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Geschl. System bei konstanten Kräften: Minimum der Enthalpie H",
+      "question": "Which state of a closed system under constant forces corresponds to the minimum of the enthalpy H?",
+      "choices": [
+        "A: An adiabatic expansion with maximum work",
+        "B: An isochoric process with temperature increase",
+        "C: A state with constant pressure and temperature",
+        "D: An isothermal expansion without work"
+      ],
+      "correct_answer": "C",
+      "explanation": "The minimum of enthalpy H in a closed system under constant forces occurs when pressure and temperature are kept constant. In this state, the thermodynamic properties are optimally balanced, resulting in minimal enthalpy.",
+      "difficulty": 8,
+      "subcategory": "Geschl. System bei konstanten Kräften: Minimum der Enthalpie H"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Hauptträgheitsmomente",
+      "question": "Which of the following principal moments of inertia best describes a solid cylinder system with its axis passing through the center and parallel to the longitudinal axis?",
+      "choices": [
+        "A: \\( \\frac{1}{2} m r^2 \\)",
+        "B: \\( m r^2 \\)",
+        "C: \\( \\frac{1}{3} m r^2 \\)",
+        "D: \\( \\frac{1}{4} m r^2 \\)"
+      ],
+      "correct_answer": "A",
+      "explanation": "The principal moment of inertia of a solid cylinder with its axis passing through the center and parallel to the longitudinal axis is \\( \\frac{1}{2} m r^2 \\). This is important for calculating the rotational dynamics of such bodies when applying torques and rotational movements.",
+      "difficulty": 8,
+      "subcategory": "Hauptträgheitsmomente"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Spin-Bahn-Wechselwirkung",
+      "question": "What does spin-orbit interaction describe in quantum mechanics?",
+      "choices": [
+        "A: The interaction between photons and electrons.",
+        "B: The interaction between two spins in an atom.",
+        "C: The interaction between a particle's spin and its orbital angular momentum.",
+        "D: The interaction between electric and magnetic fields."
+      ],
+      "correct_answer": "C",
+      "explanation": "Spin-orbit interaction is a fundamental concept in quantum mechanics that describes how a particle's spin is coupled with its orbital angular momentum. This interaction has important implications on the energy levels of atoms and the structure of electron shells.",
+      "difficulty": 3,
+      "subcategory": "Spin-Bahn-Wechselwirkung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Nicht-holonome Zwangsbedingungen",
+      "question": "What does a non-holonomic constraint describe in mechanics?",
+      "choices": [
+        "A: A constraint that cannot be expressed by a function of generalized coordinates.",
+        "B: A constraint that only holds in certain coordinate systems.",
+        "C: A constraint that restricts the motion of a body in a straight line.",
+        "D: A constraint that always leads to energy loss."
+      ],
+      "correct_answer": "A",
+      "explanation": "Non-holonomic constraints cannot be expressed as equations between generalized coordinates, distinguishing them from holonomic constraints. They are often found in systems where motion is restricted by other non-trivial conditions.",
+      "difficulty": 1,
+      "subcategory": "Nicht-holonome Zwangsbedingungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Klassischer Grenzfall (z ≪ 1)",
+      "question": "What does the classical limit in statistical mechanics describe?",
+      "choices": [
+        "A: The distribution of particles in a system at high temperature.",
+        "B: The motion of particles in a quantum mechanical state.",
+        "C: The properties of matter at extremely low temperatures.",
+        "D: The interactions between particles in a vacuum."
+      ],
+      "correct_answer": "A",
+      "explanation": "In the classical limit z ≪ 1, the statistical properties of particles in a system can be described by classical thermodynamics, especially at high temperatures. This means that the energy distribution of the particles is more classical than quantum mechanical, leading to a Maxwell-Boltzmann distribution.",
+      "difficulty": 1,
+      "subcategory": "Klassischer Grenzfall (z ≪ 1)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Kräfte beim Fliegen",
+      "question": "Which force is crucial for keeping an airplane airborne?",
+      "choices": [
+        "A: Centrifugal force",
+        "B: Weight",
+        "C: Friction",
+        "D: Lift"
+      ],
+      "correct_answer": "D",
+      "explanation": "Lift is the force that lifts an airplane upward and keeps it airborne. It is generated by the shape of the wings and the movement of the airplane through the air, while weight is the gravitational force pulling the airplane downward.",
+      "difficulty": 1,
+      "subcategory": "Kräfte beim Fliegen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Carnot- und allgemeine Kreisprozesse",
+      "question": "Which of the following processes is an ideal Carnot process?",
+      "choices": [
+        "A: A process that does not utilize a temperature difference between heat sources.",
+        "B: A process that completes the entire work path in a single step.",
+        "C: A process that operates between two heat sources with constant temperatures.",
+        "D: A process that only absorbs heat from one source and releases it to the surroundings."
+      ],
+      "correct_answer": "C",
+      "explanation": "An ideal Carnot process is defined by the exchange of heat between two heat sources that remain constant. It achieves the maximum efficiency, determined solely by the temperatures of the involved sources.",
+      "difficulty": 5,
+      "subcategory": "Carnot- und allgemeine Kreisprozesse"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Kriterien für Kanonizität (Symplektizität)",
+      "question": "What criterion is necessary for a system to be canonical?",
+      "choices": [
+        "A: The phase space must be symplectic.",
+        "B: Hamilton's equation must be satisfied.",
+        "C: The system's energy must remain constant.",
+        "D: Time must progress linearly."
+      ],
+      "correct_answer": "A",
+      "explanation": "For a system to be canonical, the phase space must be symplectic, meaning there is a specific structure present in the representation of states. This criterion is crucial for preserving symplectic geometry in analytical mechanics.",
+      "difficulty": 5,
+      "subcategory": "Kriterien für Kanonizität (Symplektizität)"
+    }
+  ]
+}
