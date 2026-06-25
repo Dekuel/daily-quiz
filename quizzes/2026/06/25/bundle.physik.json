@@ -1,0 +1,169 @@
+{
+  "date": "2026-06-25",
+  "generated_at": "2026-06-25T04:27:25Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Polarisationszustände von Licht",
+      "question": "Welcher Polarisationszustand beschreibt Licht, das in einer einzigen Ebene schwingt?",
+      "choices": [
+        "A: Elliptisch polarisiert",
+        "B: Linear polarisiert",
+        "C: Zirkular polarisiert",
+        "D: Unpolarisiert"
+      ],
+      "correct_answer": "B",
+      "explanation": "Licht, das in einer einzigen Ebene schwingt, wird als linear polarisiert bezeichnet. Dies bedeutet, dass die elektrische Feldstärke des Lichts nur in einer bestimmten Richtung schwingt, im Gegensatz zu zirkular oder elliptisch polarisiertem Licht, wo die Schwingung komplexer ist.",
+      "difficulty": 7,
+      "subcategory": "Polarisationszustände von Licht"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Wärmeleitung in Gasen",
+      "question": "Welches Gas leitet Wärme am besten?",
+      "choices": [
+        "A: Sauerstoff",
+        "B: Argon",
+        "C: Helium",
+        "D: Stickstoff"
+      ],
+      "correct_answer": "C",
+      "explanation": "Helium hat die höchste Wärmeleitfähigkeit unter den genannten Gasen, da es eine niedrige Molekülmasse und eine hohe kinetische Energie besitzt, was zu einer effektiveren Energieübertragung führt. Daher leitet Helium Wärme besser als Stickstoff, Sauerstoff oder Argon.",
+      "difficulty": 5,
+      "subcategory": "Wärmeleitung in Gasen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Unterscheidbare Teilchen: Produktraum & Observable",
+      "question": "Was beschreibt der Produktraum in der Quantenmechanik für zwei unterscheidbare Teilchen?",
+      "choices": [
+        "A: Nur den Ort eines Teilchens.",
+        "B: Die Gesamtwellenfunktion der beiden Teilchen.",
+        "C: Die Bewegung eines einzelnen Teilchens.",
+        "D: Die Temperatur des Systems."
+      ],
+      "correct_answer": "B",
+      "explanation": "Der Produktraum in der Quantenmechanik beschreibt die Gesamtwellenfunktion, die alle möglichen Zustände der beiden unterscheidbaren Teilchen kombiniert. Dies ist entscheidend für die Berechnung von Observablen, die das Verhalten des Systems charakterisieren.",
+      "difficulty": 5,
+      "subcategory": "Unterscheidbare Teilchen: Produktraum & Observable"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Laser-Strahlen: Optik Gaußscher Bündel",
+      "question": "Was beschreibt das Gaußsche Bündel in der Laseroptik?",
+      "choices": [
+        "A: Die Intensitätsverteilung eines Laserstrahls.",
+        "B: Die Polarisationseigenschaften eines Laserstrahls.",
+        "C: Die Wellenlängenverteilung eines Laserstrahls.",
+        "D: Die Brechung eines Laserstrahls an einer Linse."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Gaußsche Bündel beschreibt die Intensitätsverteilung eines Laserstrahls, die typischerweise eine Glockenform aufweist. Diese Verteilung ist wichtig für die Analyse und Anwendung von Laserstrahlen in verschiedenen optischen Systemen.",
+      "difficulty": 6,
+      "subcategory": "Laser-Strahlen: Optik Gaußscher Bündel"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Fermat’sches Prinzip (Optik-Bezug)",
+      "question": "Was besagt das Fermat'sche Prinzip in der Optik?",
+      "choices": [
+        "A: Licht bewegt sich immer in einer geraden Linie.",
+        "B: Licht folgt dem Weg, der die kürzeste Zeit benötigt.",
+        "C: Licht kann nicht durch transparente Materialien hindurchtreten.",
+        "D: Licht wird immer von reflektierenden Oberflächen abgelenkt."
+      ],
+      "correct_answer": "B",
+      "explanation": "Das Fermat'sche Prinzip besagt, dass Licht den Weg nimmt, der die kürzeste Zeit für seine Reise benötigt, was zu den Gesetzen der Lichtbrechung und Reflexion führt. Dieses Prinzip ist fundamental für das Verständnis der Lichtausbreitung in verschiedenen Medien.",
+      "difficulty": 6,
+      "subcategory": "Fermat’sches Prinzip (Optik-Bezug)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Verträgliche vs. nicht-verträgliche Observable",
+      "question": "Welche der folgenden Observable sind verträglich?",
+      "choices": [
+        "A: Ort und Impuls",
+        "B: Energie und Zeit",
+        "C: Spin entlang einer Achse und Spin entlang einer anderen Achse",
+        "D: Temperatur und Druck"
+      ],
+      "correct_answer": "C",
+      "explanation": "Verträgliche Observable sind solche, die gleichzeitig mit einem definierten Wert gemessen werden können, ohne dass die Messung der einen die Messung der anderen beeinflusst. Spin entlang verschiedener Achsen ist ein Beispiel für verträgliche Observable, während Ort und Impuls nicht verträglich sind, gemäß der Heisenbergschen Unschärferelation.",
+      "difficulty": 5,
+      "subcategory": "Verträgliche vs. nicht-verträgliche Observable"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Mischungsentropie",
+      "question": "Welcher der folgenden Prozesse führt zu einer maximalen Mischungsentropie bei der Vermischung zweier idealer Gase?",
+      "choices": [
+        "A: Vermischung bei konstanter Temperatur, jedoch unter Anwendung äußerer Arbeit",
+        "B: Vermischung unter isothermen Bedingungen mit Druckunterschieden",
+        "C: Ungehinderte Vermischung bei konstanter Temperatur und Druck",
+        "D: Abkühlung der Gase vor der Vermischung"
+      ],
+      "correct_answer": "C",
+      "explanation": "Die maximale Mischungsentropie wird erreicht, wenn zwei ideale Gase ohne äußere Einflüsse und bei konstanten Temperatur- und Druckbedingungen gemischt werden. In diesem Zustand ist die Unordnung maximal, was zu einer erhöhten Entropie führt.",
+      "difficulty": 9,
+      "subcategory": "Mischungsentropie"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Diffusion (in Gasen)",
+      "question": "Welche der folgenden Aussagen beschreibt den Prozess der Diffusion in Gasen korrekt?",
+      "choices": [
+        "A: Die Diffusion in Gasen erfolgt aufgrund der zufälligen Bewegung der Moleküle, die durch Kollisionen hervorgerufen wird.",
+        "B: Moleküle in einem Gas bewegen sich immer gleich schnell und unabhängig von ihrer Umgebung.",
+        "C: Gase diffundieren immer in Richtung höherer Druckverhältnisse.",
+        "D: Die Diffusion in Gasen ist ausschließlich temperaturabhängig und unabhängig von der Molekülmasse."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Diffusion in Gasen beruht auf der zufälligen Bewegung von Molekülen, die durch ihre ständigen Kollisionen verursacht wird. Das bedeutet, dass Moleküle sich in alle Richtungen bewegen und die Diffusion in der Regel von Bereichen höherer Konzentration zu Bereichen niedrigerer Konzentration erfolgt.",
+      "difficulty": 7,
+      "subcategory": "Diffusion (in Gasen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Experimente (Überblick)",
+      "question": "Welches Experiment bewies die Existenz von Quarks als Grundbausteine der Hadronen?",
+      "choices": [
+        "A: Das Rutherford-Experiment",
+        "B: Das Michelson-Morley-Experiment",
+        "C: Das Deep Inelastic Scattering Experiment",
+        "D: Das Millikan-Öltropfenexperiment"
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Deep Inelastic Scattering Experiment, durchgeführt in den 1960er Jahren, lieferte durch die Streuung von Elektronen an Protonen und Neutronen entscheidende Hinweise auf die Existenz von Quarks. Diese Experimente konnten die innere Struktur von Hadronen aufdecken und bestätigten das Quark-Modell der Elementarteilchenphysik.",
+      "difficulty": 10,
+      "subcategory": "Experimente (Überblick)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Kapillarität",
+      "question": "Welcher der folgenden Faktoren beeinflusst die Höhe, auf die eine Flüssigkeit in einem Kapillarröhrchen steigt?",
+      "choices": [
+        "A: Die Temperatur der Flüssigkeit",
+        "B: Die Farbe der Flüssigkeit",
+        "C: Der Luftdruck über der Flüssigkeit",
+        "D: Der Durchmesser des Kapillarröhrchens"
+      ],
+      "correct_answer": "D",
+      "explanation": "Der Durchmesser des Kapillarröhrchens hat einen direkten Einfluss auf die Höhe der Flüssigkeitssäule, die durch die Kapillarität angezogen wird. Ein kleinerer Durchmesser führt zu einer größeren Höhe des Flüssigkeitsstandes, während ein größerer Durchmesser die Kapillarwirkung verringert.",
+      "difficulty": 6,
+      "subcategory": "Kapillarität"
+    }
+  ]
+}

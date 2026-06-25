@@ -1,0 +1,168 @@
+{
+  "date": "2026-06-25",
+  "generated_at": "2026-06-25T04:27:57Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Polarisationszustände von Licht",
+      "question": "Which polarization state describes light vibrating in a single plane?",
+      "choices": [
+        "A: Elliptically polarized",
+        "B: Linearly polarized",
+        "C: Circularly polarized",
+        "D: Unpolarized"
+      ],
+      "correct_answer": "B",
+      "explanation": "Light vibrating in a single plane is referred to as linearly polarized. This means that the electric field strength of the light vibrates only in a specific direction, as opposed to circular or elliptically polarized light, where the vibration is more complex.",
+      "difficulty": 7,
+      "subcategory": "Polarisationszustände von Licht"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Wärmeleitung in Gasen",
+      "question": "Which gas conducts heat the best?",
+      "choices": [
+        "A: Oxygen",
+        "B: Argon",
+        "C: Helium",
+        "D: Nitrogen"
+      ],
+      "correct_answer": "C",
+      "explanation": "Helium has the highest thermal conductivity among the mentioned gases, due to its low molecular mass and high kinetic energy, leading to more effective energy transfer. Therefore, helium conducts heat better than nitrogen, oxygen, or argon.",
+      "difficulty": 5,
+      "subcategory": "Wärmeleitung in Gasen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Unterscheidbare Teilchen: Produktraum & Observable",
+      "question": "What does the product space describe in quantum mechanics for two distinguishable particles?",
+      "choices": [
+        "A: Only the position of a particle.",
+        "B: The total wave function of the two particles.",
+        "C: The motion of a single particle.",
+        "D: The temperature of the system."
+      ],
+      "correct_answer": "B",
+      "explanation": "The product space in quantum mechanics describes the total wave function that combines all possible states of the two distinguishable particles. This is crucial for calculating observables that characterize the system's behavior.",
+      "difficulty": 5,
+      "subcategory": "Unterscheidbare Teilchen: Produktraum & Observable"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Laser-Strahlen: Optik Gaußscher Bündel",
+      "question": "What does the Gaussian beam describe in laser optics?",
+      "choices": [
+        "A: The intensity distribution of a laser beam.",
+        "B: The polarization properties of a laser beam.",
+        "C: The wavelength distribution of a laser beam.",
+        "D: The refraction of a laser beam by a lens."
+      ],
+      "correct_answer": "A",
+      "explanation": "The Gaussian beam describes the intensity distribution of a laser beam, typically having a bell-shaped form. This distribution is important for the analysis and application of laser beams in various optical systems.",
+      "difficulty": 6,
+      "subcategory": "Laser-Strahlen: Optik Gaußscher Bündel"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Fermat’sches Prinzip (Optik-Bezug)",
+      "question": "What does Fermat's principle state in optics?",
+      "choices": [
+        "A: Light always moves in a straight line.",
+        "B: Light follows the path that requires the shortest time.",
+        "C: Light cannot pass through transparent materials.",
+        "D: Light is always deflected by reflective surfaces."
+      ],
+      "correct_answer": "B",
+      "explanation": "Fermat's principle states that light takes the path that requires the shortest time for its journey, leading to the laws of light refraction and reflection. This principle is fundamental for understanding light propagation in different media.",
+      "difficulty": 6,
+      "subcategory": "Fermat’sches Prinzip (Optik-Bezug)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Verträgliche vs. nicht-verträgliche Observable",
+      "question": "Which of the following observables are compatible?",
+      "choices": [
+        "A: Position and momentum",
+        "B: Energy and time",
+        "C: Spin along one axis and spin along another axis",
+        "D: Temperature and pressure"
+      ],
+      "correct_answer": "C",
+      "explanation": "Compatible observables are those that can be measured simultaneously with a defined value, without one measurement affecting the other. Spin along different axes is an example of compatible observables, while position and momentum are not compatible, according to the Heisenberg Uncertainty Principle.",
+      "difficulty": 5,
+      "subcategory": "Verträgliche vs. nicht-verträgliche Observable"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Mischungsentropie",
+      "question": "Which of the following processes leads to maximum mixing entropy when mixing two ideal gases?",
+      "choices": [
+        "A: Mixing at constant temperature, but with external work applied",
+        "B: Mixing under isothermal conditions with pressure differences",
+        "C: Unrestricted mixing at constant temperature and pressure",
+        "D: Cooling the gases before mixing"
+      ],
+      "correct_answer": "C",
+      "explanation": "Maximum mixing entropy is achieved when two ideal gases are mixed without external influences and under constant temperature and pressure conditions. In this state, disorder is maximal, leading to increased entropy.",
+      "difficulty": 9,
+      "subcategory": "Mischungsentropie"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Diffusion (in Gasen)",
+      "question": "Which of the following statements correctly describes the process of diffusion in gases?",
+      "choices": [
+        "A: Diffusion in gases occurs due to the random movement of molecules caused by collisions.",
+        "B: Molecules in a gas always move at the same speed regardless of their surroundings.",
+        "C: Gases always diffuse towards higher pressure conditions.",
+        "D: Diffusion in gases is solely temperature-dependent and independent of molecular mass."
+      ],
+      "correct_answer": "A",
+      "explanation": "Diffusion in gases is based on the random movement of molecules caused by their constant collisions. This means that molecules move in all directions, and diffusion typically occurs from areas of higher concentration to areas of lower concentration.",
+      "difficulty": 7,
+      "subcategory": "Diffusion (in Gasen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Experimente (Überblick)",
+      "question": "Which experiment proved the existence of quarks as the fundamental building blocks of hadrons?",
+      "choices": [
+        "A: The Rutherford Experiment",
+        "B: The Michelson-Morley Experiment",
+        "C: The Deep Inelastic Scattering Experiment",
+        "D: The Millikan Oil Drop Experiment"
+      ],
+      "correct_answer": "C",
+      "explanation": "The Deep Inelastic Scattering Experiment, conducted in the 1960s, provided crucial evidence of the existence of quarks through the scattering of electrons on protons and neutrons. These experiments were able to reveal the inner structure of hadrons and confirm the quark model of elementary particle physics.",
+      "difficulty": 10,
+      "subcategory": "Experimente (Überblick)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Kapillarität",
+      "question": "Which of the following factors influences the height to which a liquid rises in a capillary tube?",
+      "choices": [
+        "A: The temperature of the liquid",
+        "B: The color of the liquid",
+        "C: The air pressure above the liquid",
+        "D: The diameter of the capillary tube"
+      ],
+      "correct_answer": "D",
+      "explanation": "The diameter of the capillary tube directly affects the height of the liquid column attracted by capillarity. A smaller diameter leads to a greater height of the liquid level, while a larger diameter reduces the capillary action.",
+      "difficulty": 6,
+      "subcategory": "Kapillarität"
+    }
+  ]
+}
