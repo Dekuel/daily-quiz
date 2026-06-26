@@ -1,0 +1,105 @@
+{
+  "date": "2026-06-26",
+  "generated_at": "2026-06-26T04:30:46Z",
+  "schema_version": 6,
+  "mode": "schwer",
+  "bundle_type": "daily",
+  "questions": [
+    {
+      "category": "Technologie",
+      "topic": "Technik-Geschichte",
+      "question": "Welches Protokoll wurde ursprünglich für die Kommunikation zwischen Internet-Routern entwickelt und ist bis heute ein fundamentaler Bestandteil des Internets?",
+      "choices": [
+        "A: RIP (Routing Information Protocol)",
+        "B: OSPF (Open Shortest Path First)",
+        "C: BGP (Border Gateway Protocol)",
+        "D: EIGRP (Enhanced Interior Gateway Routing Protocol)"
+      ],
+      "correct_answer": "C",
+      "explanation": "BGP ist das zentrale Routing-Protokoll, das Internet-Service-Provider (ISPs) nutzen, um Informationen über die Verfügbarkeit und Erreichbarkeit von Netzwerken auszutauschen. Es wurde entwickelt, um die Skalierbarkeit und Stabilität des Internets zu gewährleisten, während andere Protokolle wie RIP und EIGRP eher in kleineren Netzwerken verwendet werden.",
+      "difficulty": 10
+    },
+    {
+      "category": "Essen und Trinken",
+      "topic": "Ernährung",
+      "question": "Welches Lebensmittel ist bekannt dafür, bei vielen Menschen Allergien oder Unverträglichkeiten auszulösen?",
+      "choices": [
+        "A: Reis",
+        "B: Brokkoli",
+        "C: Milch",
+        "D: Karotten"
+      ],
+      "correct_answer": "C",
+      "explanation": "Milchprodukte sind häufige Auslöser von Allergien und Laktoseintoleranz, insbesondere bei Menschen mit genetischen Veranlagungen. Diese Unverträglichkeiten können zu verschiedenen Symptomen führen und erfordern oft eine Anpassung der Ernährung.",
+      "difficulty": 4
+    },
+    {
+      "category": "Wissenschaft",
+      "topic": "Astronomie",
+      "question": "Welche Phase der Sternentwicklung ist durch die Fusion von Wasserstoff zu Helium im Kern und die Stabilität der Energieproduktion gekennzeichnet?",
+      "choices": [
+        "A: Neutronenstern",
+        "B: Weißer Zwerg",
+        "C: Hauptreihe",
+        "D: Roter Riese"
+      ],
+      "correct_answer": "C",
+      "explanation": "In der Hauptreihe befindet sich der Stern in der stabilen Phase seiner Entwicklung, in der Wasserstoffkerne zu Helium fusionieren. Diese Phase macht den Großteil eines Sterns Lebenszyklus aus und bestimmt seine Helligkeit und Temperatur.",
+      "difficulty": 10
+    },
+    {
+      "question": "Welcher der folgenden Indizes umfasst 30 der größten und liquidesten Unternehmen in Deutschland?",
+      "category": "Wirtschaft & Finanzen",
+      "subcategory": "Aktien & Börsengrundlagen",
+      "difficulty": 6,
+      "choices": [
+        "A: DAX",
+        "B: SDAX",
+        "C: TecDAX",
+        "D: MDAX"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "category": "Glaube & Religion",
+      "topic": "Indische & fernöstliche Religionen",
+      "question": "Was ist die Hauptlehre der International Society for Krishna Consciousness (ISKCON)?",
+      "choices": [
+        "A: Der Glaube an die Reinkarnation ohne Karma.",
+        "B: Die Verehrung des Gottes Krishna als höchste Realität.",
+        "C: Die Verehrung von Buddha als den höchsten Lehrer.",
+        "D: Die Ablehnung aller Formen von Meditation."
+      ],
+      "correct_answer": "B",
+      "explanation": "ISKCON, auch bekannt als die Hare-Krishna-Bewegung, legt den Fokus auf die Verehrung von Krishna als die höchste Gottheit und propagiert das Praktizieren von Bhakti-Yoga, um eine persönliche Beziehung zu ihm aufzubauen. Die Bewegung entstand in den 1960er Jahren und hat weltweit Anhänger gefunden.",
+      "difficulty": 5
+    },
+    {
+      "question": "Welche der folgenden Maßnahmen zählt zu einer gängigen Form der beruflichen Weiterbildung?",
+      "category": "Alltag & Gesellschaft",
+      "subcategory": "Karriereplanung & Weiterbildung",
+      "difficulty": 5,
+      "choices": [
+        "A: Online-Kurs",
+        "B: Praktikumsvertrag",
+        "C: Kündigungsschreiben",
+        "D: Urlaubsantrag"
+      ],
+      "correct_answer": "A"
+    },
+    {
+      "category": "Natur",
+      "topic": "Pflanzenwelt",
+      "question": "Welche der folgenden Pflanzen ist ein typisches Beispiel für einen Produzenten in einem Nahrungsnetz?",
+      "choices": [
+        "A: Waschbär",
+        "B: Pilz",
+        "C: Algen",
+        "D: Schmetterling"
+      ],
+      "correct_answer": "C",
+      "explanation": "Produzenten sind Organismen, die durch Photosynthese oder Chemosynthese ihre eigene Nahrung herstellen. Algen sind pflanzliche Organismen, die Lichtenergie nutzen, um Nährstoffe zu produzieren, und spielen daher eine wichtige Rolle in aquatischen Nahrungsnetzen.",
+      "difficulty": 5
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "date": "2026-06-26",
+  "generated_at": "2026-06-26T04:32:12Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Elektrische Dipolstrahlung",
+      "question": "What describes electric dipole radiation?",
+      "choices": [
+        "What describes the law of corresponding states in statistical mechanics?",
+        "The law of corresponding states states that gases of different kinds behave similarly under the same conditions when normalized to their critical properties. This helps in understanding the behavior of gases in different phases.",
+        "Which statement about the magnetic susceptibility of ferromagnetic materials is correct?",
+        "Ferromagnetic materials have a high positive magnetic susceptibility that strongly depends on temperature and leads to phenomena like magnetic hysteresis. At high temperatures, they lose their magnetic properties due to thermal disorder."
+      ],
+      "correct_answer": "D",
+      "explanation": "Electric dipole radiation occurs when an electric dipole, consisting of two opposite charges, undergoes a temporal change and emits electromagnetic waves. This radiation is a crucial aspect in electrodynamics, especially in antennas and the classical theory of radiation.",
+      "difficulty": 4,
+      "subcategory": "Elektrische Dipolstrahlung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Gesetz korrespondierender Zustände & kritischer Punkt",
+      "question": "What describes the behavior of a large ideal gas in the grand canonical ensemble theory?",
+      "choices": [
+        "Which statement about the Helmholtz's vortex theorems is correct?",
+        "The Helmholtz's vortex theorems are crucial for analyzing flow fields and determine under which conditions a vector field can be represented as the gradient of a scalar field. These theorems are fundamental for describing potential fields in various physical contexts.",
+        "What describes the p-n junction in semiconductor materials?",
+        "The p-n junction is the interface between p-doped and n-doped semiconductors where electrons and holes recombine. This region is crucial for the operation of diodes and transistors in electronics."
+      ],
+      "correct_answer": "B",
+      "explanation": "In the grand canonical ensemble, the behavior of an ideal gas is described by the interactions between particles and the possibility of energy exchange. This leads to a thermodynamic equilibrium where temperature and chemical potential remain constant.",
+      "difficulty": 3,
+      "subcategory": "Gesetz korrespondierender Zustände & kritischer Punkt"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Magnetostatik in Materie",
+      "question": "What describes the energy spectrum of a quantum mechanical harmonic oscillator?",
+      "choices": [
+        "Which statement about absolute temperature is correct?",
+        "Absolute temperature, measured in Kelvin, starts at 0 K and cannot take negative values. It is a fundamental concept in thermodynamics and describes the energy state of a system.",
+        "Which measurement technique is commonly used to determine the electrical conductivity of solids?",
+        "The Hall effect is a method used to measure the electrical conductivity of materials. It is based on generating a voltage when an electric current flows through a material in a magnetic field."
+      ],
+      "correct_answer": "A",
+      "explanation": "The energy spectrum of a harmonic oscillator is discrete and given by the formula E_n = (n + 1/2)ħω, where n is a non-negative integer. This means that the energy states are quantized and evenly spaced.",
+      "difficulty": 8,
+      "subcategory": "Magnetostatik in Materie"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Klassisches ideales Gas (großkanonisch)",
+      "question": "Which of the following statements correctly describes the relationship between the collision cross-section and the mean free path in a gaseous system?",
+      "choices": [
+        "A: Der Druck bleibt konstant, unabhängig von der Temperatur.",
+        "B: Es gibt keine Wechselwirkungen zwischen den Teilchen.",
+        "C: Die Teilchen bewegen sich immer langsamer.",
+        "D: Es liegt ein Gleichgewicht zwischen Teilchen und Energieaustausch vor."
+      ],
+      "correct_answer": "D",
+      "explanation": "The collision cross-section is a measure of how likely a collision between particles is. A larger collision cross-section means that particles collide more frequently, leading to a shorter mean free path as particles spend less time between collisions.",
+      "difficulty": 2,
+      "subcategory": "Klassisches ideales Gas (großkanonisch)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Helmholtzsche Wirbelsätze",
+      "question": "Welche Aussage über die Helmholtzschen Wirbelsätze ist korrekt?",
+      "choices": [
+        "A: Die Helmholtzschen Wirbelsätze können nicht auf elektrische Felder angewendet werden.",
+        "B: Die Helmholtzschen Wirbelsätze beschreiben die mathematischen Bedingungen für die Existenz von Potentialfeldern.",
+        "C: Die Helmholtzschen Wirbelsätze sind nur für stationäre Strömungen anwendbar.",
+        "D: Die Helmholtzschen Wirbelsätze gelten nur für ideale Flüssigkeiten ohne Viskosität."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Helmholtzschen Wirbelsätze sind entscheidend für die Analyse von Strömungsfeldern und legen fest, unter welchen Bedingungen ein Vektorfeld als Gradient eines Skalarfeldes dargestellt werden kann. Diese Sätze sind grundlegend für die Beschreibung von Potentialfeldern in verschiedenen physikalischen Kontexten.",
+      "difficulty": 8,
+      "subcategory": "Helmholtzsche Wirbelsätze"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "p–n-Übergang",
+      "question": "Was beschreibt der p-n-Übergang in Halbleitermaterialien?",
+      "choices": [
+        "A: Die Grenzfläche zwischen p-dotiertem und n-dotiertem Material.",
+        "B: Die Temperaturabhängigkeit von elektrischen Widerständen.",
+        "C: Die Erzeugung von Wärme in Halbleitern.",
+        "D: Die Reflexion von Licht an Halbleitergrenzen."
+      ],
+      "correct_answer": "A",
+      "explanation": "Der p-n-Übergang ist die Schnittstelle zwischen p-dotierten und n-dotierten Halbleitern, an der Elektronen und Löcher rekombinieren. Diese Region ist entscheidend für die Funktionsweise von Dioden und Transistoren in der Elektronik.",
+      "difficulty": 4,
+      "subcategory": "p–n-Übergang"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Spektrum des harmonischen Oszillators",
+      "question": "Was beschreibt das Energie-Spektrum eines quantenmechanischen harmonischen Oszillators?",
+      "choices": [
+        "A: Es ist gleichmäßig und kontinuierlich verteilt.",
+        "B: Es ist diskret und gleichmäßig gestaffelt.",
+        "C: Es ist kontinuierlich und nicht quantisiert.",
+        "D: Es hängt nur von der Temperatur ab."
+      ],
+      "correct_answer": "B",
+      "explanation": "Das Energie-Spektrum eines harmonischen Oszillators ist diskret und wird durch die Formel E_n = (n + 1/2)ħω gegeben, wobei n eine nicht-negative ganze Zahl ist. Dies bedeutet, dass die Energiezustände quantisiert sind und gleichmäßig gestaffelt auftreten.",
+      "difficulty": 4,
+      "subcategory": "Spektrum des harmonischen Oszillators"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Absolute vs. empirische Temperatur",
+      "question": "Welche Aussage über die absolute Temperatur ist korrekt?",
+      "choices": [
+        "A: Die empirische Temperatur wird in Kelvin gemessen.",
+        "B: Die absolute Temperatur kann negative Werte annehmen.",
+        "C: Die absolute Temperatur ist immer größer als Null.",
+        "D: Die absolute Temperatur ist unabhängig von der thermodynamischen Skala."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die absolute Temperatur, gemessen in Kelvin, beginnt bei 0 K und kann keine negativen Werte annehmen. Sie ist ein fundamentales Konzept in der Thermodynamik und beschreibt den Energiezustand eines Systems.",
+      "difficulty": 4,
+      "subcategory": "Absolute vs. empirische Temperatur"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Experimentelle Methoden: Messverfahren",
+      "question": "Welches Messverfahren wird häufig verwendet, um die elektrische Leitfähigkeit von Festkörpern zu bestimmen?",
+      "choices": [
+        "A: Hall-Effekt",
+        "B: Thermografie",
+        "C: Spektroskopie",
+        "D: Mikroskopie"
+      ],
+      "correct_answer": "A",
+      "explanation": "Der Hall-Effekt ist ein Verfahren, das zur Messung der elektrischen Leitfähigkeit von Materialien genutzt wird. Es basiert auf der Erzeugung einer Spannung, wenn ein elektrischer Strom durch ein Material in einem Magnetfeld fließt.",
+      "difficulty": 1,
+      "subcategory": "Experimentelle Methoden: Messverfahren"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Stoßquerschnitt & mittlere freie Weglänge",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt den Zusammenhang zwischen dem Stoßquerschnitt und der mittleren freien Weglänge in einem gasförmigen System?",
+      "choices": [
+        "A: Ein größerer Stoßquerschnitt führt zu einer kürzeren mittleren freien Weglänge.",
+        "B: Stoßquerschnitt und mittlere freie Weglänge sind identisch und können als gleich angesehen werden.",
+        "C: Der Stoßquerschnitt ist unabhängig von der mittleren freien Weglänge.",
+        "D: Eine größere mittlere freie Weglänge erhöht den Stoßquerschnitt."
+      ],
+      "correct_answer": "A",
+      "explanation": "Der Stoßquerschnitt ist ein Maß dafür, wie wahrscheinlich ein Stoß zwischen Teilchen ist. Ein größerer Stoßquerschnitt bedeutet, dass die Teilchen häufiger kollidieren, was zu einer kürzeren mittleren freien Weglänge führt, da die Teilchen weniger Zeit zwischen den Kollisionen verbringen können.",
+      "difficulty": 9,
+      "subcategory": "Stoßquerschnitt & mittlere freie Weglänge"
+    }
+  ]
+}

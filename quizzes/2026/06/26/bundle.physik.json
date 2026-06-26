@@ -1,0 +1,169 @@
+{
+  "date": "2026-06-26",
+  "generated_at": "2026-06-26T04:31:43Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Elektrische Dipolstrahlung",
+      "question": "Was beschreibt die elektrische Dipolstrahlung?",
+      "choices": [
+        "A: Die Bewegung von Elektronen in einem elektrischen Feld.",
+        "B: Die Wechselwirkung von Magnetfeldern mit elektrischen Ladungen.",
+        "C: Die Energieübertragung durch thermische Strahlung.",
+        "D: Die Ausbreitung von elektromagnetischen Wellen durch elektrische Dipole."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die elektrische Dipolstrahlung tritt auf, wenn sich ein elektrischer Dipol, also zwei entgegengesetzte Ladungen, zeitlich ändert und elektromagnetische Wellen abstrahlt. Diese Strahlung ist ein wichtiger Aspekt in der Elektrodynamik, insbesondere bei Antennen und der klassischen Theorie der Strahlung.",
+      "difficulty": 4,
+      "subcategory": "Elektrische Dipolstrahlung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Gesetz korrespondierender Zustände & kritischer Punkt",
+      "question": "Was beschreibt das Gesetz korrespondierender Zustände in der statistischen Mechanik?",
+      "choices": [
+        "A: Alle Gase bestehen aus identischen Molekülen.",
+        "B: Gase verschiedener Arten unter ähnlichen Bedingungen verhalten sich gleich.",
+        "C: Der kritische Punkt ist der Punkt, an dem alle Gase flüssig werden.",
+        "D: Flüssigkeiten können nicht komprimiert werden."
+      ],
+      "correct_answer": "B",
+      "explanation": "Das Gesetz korrespondierender Zustände besagt, dass Gase verschiedener Arten sich unter denselben Bedingungen ähnlich verhalten, wenn sie auf ihre kritischen Eigenschaften normiert werden. Dies hilft dabei, das Verhalten von Gasen in verschiedenen Phasen zu verstehen.",
+      "difficulty": 3,
+      "subcategory": "Gesetz korrespondierender Zustände & kritischer Punkt"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Magnetostatik in Materie",
+      "question": "Welche Aussage über die magnetische Suszeptibilität von ferromagnetischen Materialien ist korrekt?",
+      "choices": [
+        "A: Ferromagnetische Materialien haben eine positive Suszeptibilität, die stark von der Temperatur abhängt.",
+        "B: Ferromagnetische Materialien haben eine negative Suszeptibilität.",
+        "C: Ferromagnetische Materialien zeigen keine magnetische Hysterese.",
+        "D: Ferromagnetische Materialien sind bei Temperaturen nahe dem absoluten Nullpunkt nicht magnetisch."
+      ],
+      "correct_answer": "A",
+      "explanation": "Ferromagnetische Materialien besitzen eine hohe positive magnetische Suszeptibilität, die stark von der Temperatur abhängig ist und zu Phänomenen wie magnetischer Hysterese führt. Bei hohen Temperaturen verlieren sie ihre magnetischen Eigenschaften aufgrund thermischer Unordnung.",
+      "difficulty": 8,
+      "subcategory": "Magnetostatik in Materie"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Klassisches ideales Gas (großkanonisch)",
+      "question": "Was beschreibt das Verhalten eines großen idealen Gases in der großkanonischen Ensemble-Theorie?",
+      "choices": [
+        "A: Der Druck bleibt konstant, unabhängig von der Temperatur.",
+        "B: Es gibt keine Wechselwirkungen zwischen den Teilchen.",
+        "C: Die Teilchen bewegen sich immer langsamer.",
+        "D: Es liegt ein Gleichgewicht zwischen Teilchen und Energieaustausch vor."
+      ],
+      "correct_answer": "D",
+      "explanation": "Im großkanonischen Ensemble wird das Verhalten eines idealen Gases durch die Wechselwirkungen zwischen Teilchen und die Möglichkeit des Energieaustauschs beschrieben. Dies führt zu einem thermodynamischen Gleichgewicht, in dem Temperatur und chemisches Potential konstant bleiben.",
+      "difficulty": 2,
+      "subcategory": "Klassisches ideales Gas (großkanonisch)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Helmholtzsche Wirbelsätze",
+      "question": "Welche Aussage über die Helmholtzschen Wirbelsätze ist korrekt?",
+      "choices": [
+        "A: Die Helmholtzschen Wirbelsätze können nicht auf elektrische Felder angewendet werden.",
+        "B: Die Helmholtzschen Wirbelsätze beschreiben die mathematischen Bedingungen für die Existenz von Potentialfeldern.",
+        "C: Die Helmholtzschen Wirbelsätze sind nur für stationäre Strömungen anwendbar.",
+        "D: Die Helmholtzschen Wirbelsätze gelten nur für ideale Flüssigkeiten ohne Viskosität."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Helmholtzschen Wirbelsätze sind entscheidend für die Analyse von Strömungsfeldern und legen fest, unter welchen Bedingungen ein Vektorfeld als Gradient eines Skalarfeldes dargestellt werden kann. Diese Sätze sind grundlegend für die Beschreibung von Potentialfeldern in verschiedenen physikalischen Kontexten.",
+      "difficulty": 8,
+      "subcategory": "Helmholtzsche Wirbelsätze"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "p–n-Übergang",
+      "question": "Was beschreibt der p-n-Übergang in Halbleitermaterialien?",
+      "choices": [
+        "A: Die Grenzfläche zwischen p-dotiertem und n-dotiertem Material.",
+        "B: Die Temperaturabhängigkeit von elektrischen Widerständen.",
+        "C: Die Erzeugung von Wärme in Halbleitern.",
+        "D: Die Reflexion von Licht an Halbleitergrenzen."
+      ],
+      "correct_answer": "A",
+      "explanation": "Der p-n-Übergang ist die Schnittstelle zwischen p-dotierten und n-dotierten Halbleitern, an der Elektronen und Löcher rekombinieren. Diese Region ist entscheidend für die Funktionsweise von Dioden und Transistoren in der Elektronik.",
+      "difficulty": 4,
+      "subcategory": "p–n-Übergang"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Spektrum des harmonischen Oszillators",
+      "question": "Was beschreibt das Energie-Spektrum eines quantenmechanischen harmonischen Oszillators?",
+      "choices": [
+        "A: Es ist gleichmäßig und kontinuierlich verteilt.",
+        "B: Es ist diskret und gleichmäßig gestaffelt.",
+        "C: Es ist kontinuierlich und nicht quantisiert.",
+        "D: Es hängt nur von der Temperatur ab."
+      ],
+      "correct_answer": "B",
+      "explanation": "Das Energie-Spektrum eines harmonischen Oszillators ist diskret und wird durch die Formel E_n = (n + 1/2)ħω gegeben, wobei n eine nicht-negative ganze Zahl ist. Dies bedeutet, dass die Energiezustände quantisiert sind und gleichmäßig gestaffelt auftreten.",
+      "difficulty": 4,
+      "subcategory": "Spektrum des harmonischen Oszillators"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Absolute vs. empirische Temperatur",
+      "question": "Welche Aussage über die absolute Temperatur ist korrekt?",
+      "choices": [
+        "A: Die empirische Temperatur wird in Kelvin gemessen.",
+        "B: Die absolute Temperatur kann negative Werte annehmen.",
+        "C: Die absolute Temperatur ist immer größer als Null.",
+        "D: Die absolute Temperatur ist unabhängig von der thermodynamischen Skala."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die absolute Temperatur, gemessen in Kelvin, beginnt bei 0 K und kann keine negativen Werte annehmen. Sie ist ein fundamentales Konzept in der Thermodynamik und beschreibt den Energiezustand eines Systems.",
+      "difficulty": 4,
+      "subcategory": "Absolute vs. empirische Temperatur"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Experimentelle Methoden: Messverfahren",
+      "question": "Welches Messverfahren wird häufig verwendet, um die elektrische Leitfähigkeit von Festkörpern zu bestimmen?",
+      "choices": [
+        "A: Hall-Effekt",
+        "B: Thermografie",
+        "C: Spektroskopie",
+        "D: Mikroskopie"
+      ],
+      "correct_answer": "A",
+      "explanation": "Der Hall-Effekt ist ein Verfahren, das zur Messung der elektrischen Leitfähigkeit von Materialien genutzt wird. Es basiert auf der Erzeugung einer Spannung, wenn ein elektrischer Strom durch ein Material in einem Magnetfeld fließt.",
+      "difficulty": 1,
+      "subcategory": "Experimentelle Methoden: Messverfahren"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Stoßquerschnitt & mittlere freie Weglänge",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt den Zusammenhang zwischen dem Stoßquerschnitt und der mittleren freien Weglänge in einem gasförmigen System?",
+      "choices": [
+        "A: Ein größerer Stoßquerschnitt führt zu einer kürzeren mittleren freien Weglänge.",
+        "B: Stoßquerschnitt und mittlere freie Weglänge sind identisch und können als gleich angesehen werden.",
+        "C: Der Stoßquerschnitt ist unabhängig von der mittleren freien Weglänge.",
+        "D: Eine größere mittlere freie Weglänge erhöht den Stoßquerschnitt."
+      ],
+      "correct_answer": "A",
+      "explanation": "Der Stoßquerschnitt ist ein Maß dafür, wie wahrscheinlich ein Stoß zwischen Teilchen ist. Ein größerer Stoßquerschnitt bedeutet, dass die Teilchen häufiger kollidieren, was zu einer kürzeren mittleren freien Weglänge führt, da die Teilchen weniger Zeit zwischen den Kollisionen verbringen können.",
+      "difficulty": 9,
+      "subcategory": "Stoßquerschnitt & mittlere freie Weglänge"
+    }
+  ]
+}

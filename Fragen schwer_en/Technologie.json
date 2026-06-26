@@ -2800,6 +2800,20 @@
       "correct_answer": "B",
       "explanation": "In 2023, Android received a significant update introducing new features and enhanced security measures. HarmonyOS by Huawei and iOS by Apple are also relevant operating systems, but the question specifically refers to developments in the Android realm. Windows Mobile, on the other hand, is no longer actively developed and was previously present in the smartphone market.",
       "difficulty": 7
+    },
+    {
+      "category": "Technologie",
+      "topic": "Technik-Geschichte",
+      "question": "Which protocol was originally developed for communication between internet routers and remains a fundamental part of the internet?",
+      "choices": [
+        "A: RIP (Routing Information Protocol)",
+        "B: OSPF (Open Shortest Path First)",
+        "C: BGP (Border Gateway Protocol)",
+        "D: EIGRP (Enhanced Interior Gateway Routing Protocol)"
+      ],
+      "correct_answer": "C",
+      "explanation": "BGP is the central routing protocol used by Internet Service Providers (ISPs) to exchange information about network availability and reachability. It was designed to ensure the scalability and stability of the internet, while other protocols like RIP and EIGRP are more commonly used in smaller networks.",
+      "difficulty": 10
     }
   ]
 }
