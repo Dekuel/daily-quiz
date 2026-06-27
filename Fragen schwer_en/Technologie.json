@@ -2814,6 +2814,20 @@
       "correct_answer": "C",
       "explanation": "BGP is the central routing protocol used by Internet Service Providers (ISPs) to exchange information about network availability and reachability. It was designed to ensure the scalability and stability of the internet, while other protocols like RIP and EIGRP are more commonly used in smaller networks.",
       "difficulty": 10
+    },
+    {
+      "category": "Technologie",
+      "topic": "Computer & Internet",
+      "question": "Which of the following encryption methods uses asymmetric cryptography?",
+      "choices": [
+        "A: DES",
+        "B: AES",
+        "C: RSA",
+        "D: Blowfish"
+      ],
+      "correct_answer": "C",
+      "explanation": "RSA is a widely used method of asymmetric cryptography that uses a public and a private key. In contrast, AES, DES, and Blowfish are symmetric encryption methods where the same key is used for encryption and decryption.",
+      "difficulty": 9
     }
   ]
 }

@@ -1,0 +1,168 @@
+{
+  "date": "2026-06-27",
+  "generated_at": "2026-06-27T04:24:24Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Isolierte Systeme: Maximum der Entropie",
+      "question": "What does the maximum of entropy describe in an isolated system?",
+      "choices": [
+        "A: The system reaches a state of maximum disorder.",
+        "B: The temperature of the system remains constant.",
+        "C: The energy in the system remains unchanged.",
+        "D: The system can never lose heat."
+      ],
+      "correct_answer": "A",
+      "explanation": "The maximum of entropy in an isolated system describes the state of maximum disorder, where the possible microstates of the system are equally probable. This is a central concept in thermodynamics that shows how systems evolve over time.",
+      "difficulty": 3,
+      "subcategory": "Isolierte Systeme: Maximum der Entropie"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Entropie als Zustandsgröße",
+      "question": "What does entropy describe in a thermodynamic system?",
+      "choices": [
+        "A: The pressure of the system.",
+        "B: The total energy in the system.",
+        "C: The temperature of the system.",
+        "D: The disorder or randomness of particles in the system."
+      ],
+      "correct_answer": "D",
+      "explanation": "Entropy is a measure of the disorder or randomness of particles in a thermodynamic system. The higher the entropy, the greater the disorder in the system. This plays a central role in thermodynamics, especially in understanding energy conversions and heat transfers.",
+      "difficulty": 5,
+      "subcategory": "Entropie als Zustandsgröße"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Nachweis der Energielücke",
+      "question": "Which experiment is commonly used to detect the energy gap in semiconductors?",
+      "choices": [
+        "A: Temperature-dependent conductivity measurement",
+        "B: X-ray diffraction",
+        "C: Double-slit experiment",
+        "D: Photoelectric effect"
+      ],
+      "correct_answer": "A",
+      "explanation": "Temperature-dependent conductivity measurement is a common method to determine the energy gap in semiconductors. It observes how the electrical conductivity changes with temperature, allowing conclusions about the energy gap.",
+      "difficulty": 6,
+      "subcategory": "Nachweis der Energielücke"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Deformierte Kerne",
+      "question": "What describes the deformation of a nucleus in nuclear physics?",
+      "choices": [
+        "A: The speed at which a nucleus moves.",
+        "B: The energy needed to split a nucleus.",
+        "C: The number of protons in the nucleus.",
+        "D: The deviation of a nucleus's shape from a perfect sphere."
+      ],
+      "correct_answer": "D",
+      "explanation": "The deformation of a nucleus refers to the deviation from the ideal spherical shape, influenced by the interactions of nucleons. This deformation can have effects on the stability and energetic properties of the nucleus.",
+      "difficulty": 3,
+      "subcategory": "Deformierte Kerne"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Additionstheorem für Geschwindigkeiten",
+      "question": "How do velocities add up in the context of the theory of relativity when two objects are in motion relative to each other?",
+      "choices": [
+        "A: Velocities subtract from each other.",
+        "B: Velocities simply add up.",
+        "C: Velocities add up according to the addition theorem of special relativity.",
+        "D: There is no rule for adding velocities."
+      ],
+      "correct_answer": "C",
+      "explanation": "In the theory of relativity, the addition of velocities is not simply done by adding the magnitudes. Instead, there is a specific addition theorem that considers relativistic effects to correctly determine the resultant velocity.",
+      "difficulty": 3,
+      "subcategory": "Additionstheorem für Geschwindigkeiten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Faraday’sches Induktionsgesetz",
+      "question": "What does Faraday's law of electromagnetic induction state?",
+      "choices": [
+        "A: Electric fields cannot be influenced by magnetic fields.",
+        "B: A change in the magnetic field generates an electric voltage.",
+        "C: Magnetic fields are independent of electric fields.",
+        "D: Current always flows in closed circuits without energy loss."
+      ],
+      "correct_answer": "B",
+      "explanation": "Faraday's law of electromagnetic induction describes how a change in the magnetic field in a closed circuit generates an electric voltage. This is the principle underlying many electric generators and transformers.",
+      "difficulty": 1,
+      "subcategory": "Faraday’sches Induktionsgesetz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Translation vs. Rotation (Vergleich)",
+      "question": "What is the main difference between translation and rotation in classical mechanics?",
+      "choices": [
+        "A: In rotation, the entire body moves in a straight line.",
+        "B: Translation describes the rotational motion around an axis.",
+        "C: Rotation is always slower than translation.",
+        "D: In translation, all points of a body move uniformly in the same direction."
+      ],
+      "correct_answer": "D",
+      "explanation": "In translation, all points of a body move uniformly in the same direction, while in rotation, the body rotates around a fixed axis, meaning that points describe different paths. Therefore, answer A is correct as it describes the definition of translation.",
+      "difficulty": 5,
+      "subcategory": "Translation vs. Rotation (Vergleich)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Dipolschicht & Quadrupol",
+      "question": "What does an electric dipole in an electric field describe?",
+      "choices": [
+        "A: The interaction between two equally charged particles.",
+        "B: The motion of electrically charged particles in a magnetic field.",
+        "C: The interaction between positive and negative charges creating a dipole moment.",
+        "D: The generation of energy by separating charges."
+      ],
+      "correct_answer": "C",
+      "explanation": "An electric dipole consists of two oppositely charged particles separated by a distance. In an electric field, the dipole experiences a force proportional to the dipole moment, describing the interaction between the differently charged parts.",
+      "difficulty": 5,
+      "subcategory": "Dipolschicht & Quadrupol"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Identische Teilchen: Ununterscheidbarkeit",
+      "question": "What does it mean that identical particles are indistinguishable in quantum mechanics?",
+      "choices": [
+        "A: They cannot be distinguished from each other even if they have different properties.",
+        "B: They cannot be in the same place at the same time.",
+        "C: They can only occur in pairs.",
+        "D: They always have the same velocity."
+      ],
+      "correct_answer": "A",
+      "explanation": "In quantum mechanics, the indistinguishability of identical particles means that they cannot be differentiated by their individual properties. This has implications for the statistical description of particles and leads to different physical behaviors of bosons and fermions.",
+      "difficulty": 2,
+      "subcategory": "Identische Teilchen: Ununterscheidbarkeit"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Interferenz & Beugung elektromagnetischer Wellen",
+      "question": "Which of the following statements best describes the phenomenon of constructive interference in electromagnetic waves?",
+      "choices": [
+        "A: Waves interfere only if they have the same frequency.",
+        "B: Waves cancel out when they are 180 degrees out of phase.",
+        "C: Waves reinforce when they are in phase.",
+        "D: Waves can only overlap in a vacuum."
+      ],
+      "correct_answer": "C",
+      "explanation": "Constructive interference occurs when two or more waves are in phase, meaning their crests and troughs align. This results in an amplification of the total amplitude of the resulting wave. The other statements are not correct in the context of constructive interference.",
+      "difficulty": 6,
+      "subcategory": "Interferenz & Beugung elektromagnetischer Wellen"
+    }
+  ]
+}
