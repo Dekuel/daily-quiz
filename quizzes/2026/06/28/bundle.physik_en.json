@@ -1,0 +1,168 @@
+{
+  "date": "2026-06-28",
+  "generated_at": "2026-06-28T04:33:19Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Potentialtopf: Streuzustände",
+      "question": "What describes a scattering state in a potential well in quantum mechanics?",
+      "choices": [
+        "A: A state in which particles can tunnel through a barrier.",
+        "B: A state in which particles move in only one direction.",
+        "C: A state in which particles lose their mass.",
+        "D: A state in which particles are always at rest."
+      ],
+      "correct_answer": "A",
+      "explanation": "A scattering state in quantum mechanics describes a state in which particles interact with a barrier and have the possibility to tunnel through it. This is a central concept of quantum mechanics and illustrates the non-intuitive nature of particle motion at the microscopic level.",
+      "difficulty": 4,
+      "subcategory": "Potentialtopf: Streuzustände"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Lösung der 1D-Schrödinger-Gleichung",
+      "question": "What does the 1D Schrödinger equation describe in quantum mechanics?",
+      "choices": [
+        "A: The heat conduction in solid materials.",
+        "B: The temporal evolution of the quantum mechanical state of a particle.",
+        "C: The electromagnetic interaction between particles.",
+        "D: The classical motion of a body under the influence of forces."
+      ],
+      "correct_answer": "B",
+      "explanation": "The 1D Schrödinger equation describes the temporal evolution of the quantum mechanical state of a particle in a one-dimensional potential. It is fundamental for understanding quantum mechanics and enables the calculation of wave functions and energy states.",
+      "difficulty": 2,
+      "subcategory": "Lösung der 1D-Schrödinger-Gleichung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Einfache Beispiele in Hamilton-Formulierung",
+      "question": "Which of the following statements correctly describes the Hamiltonian formulation of mechanics?",
+      "choices": [
+        "A: Hamilton's equations are only applicable to systems with conservative forces and not to non-conservative systems.",
+        "B: In the Hamiltonian formulation, time is considered a constant quantity and plays no role in the system's dynamics.",
+        "C: The Hamiltonian formulation exclusively uses Lagrangian functions to describe a system's dynamics.",
+        "D: In the Hamiltonian formulation, the motion quantities are replaced by canonical variables representing the position and momentum of a system."
+      ],
+      "correct_answer": "D",
+      "explanation": "The Hamiltonian formulation of mechanics is based on the use of canonical variables, namely position and momentum, to describe the dynamics of a system. This representation allows for a unified analysis and is particularly useful in classical mechanics as well as in quantum mechanics.",
+      "difficulty": 7,
+      "subcategory": "Einfache Beispiele in Hamilton-Formulierung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Exponenten-Ungleichungen (Scaling Bounds)",
+      "question": "What does the exponent inequality describe in thermodynamics?",
+      "choices": [
+        "A: The change in energy in a closed system.",
+        "B: The relationship between volume and density of a material.",
+        "C: The scaling properties of physical systems under different conditions.",
+        "D: The relationship between temperature and pressure in an ideal gas."
+      ],
+      "correct_answer": "C",
+      "explanation": "Exponent inequalities indicate how certain physical quantities scale under variations of parameters. They are important for understanding phenomena in thermodynamics, especially in phase transitions and critical points.",
+      "difficulty": 3,
+      "subcategory": "Exponenten-Ungleichungen (Scaling Bounds)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Zustand und Gleichgewicht (makro/mikro)",
+      "question": "What describes the state of a thermodynamic system in equilibrium?",
+      "choices": [
+        "A: All particles move at the same speed.",
+        "B: The system can perform work at any time without external influences.",
+        "C: The macroscopic properties are constant and the internal energies of the particles are equal.",
+        "D: The temperature of the system is always equal to the ambient temperature."
+      ],
+      "correct_answer": "C",
+      "explanation": "In thermodynamic equilibrium, the macroscopic properties such as pressure and temperature are constant, and the statistical properties of the particles lead to a stable state. The internal energy of the particles may vary but remains constant on average, defining the equilibrium state.",
+      "difficulty": 6,
+      "subcategory": "Zustand und Gleichgewicht (makro/mikro)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Homogenität des Raumes ⇒ Impulserhaltung",
+      "question": "Which statement best describes the principle of momentum conservation in relation to spatial homogeneity?",
+      "choices": [
+        "A: The total momentum of a closed system remains constant when no external forces act.",
+        "B: An object's momentum can always be increased by accelerating it.",
+        "C: The total momentum of a system can only be maintained in an open system.",
+        "D: Momentum is conserved only in systems with changing masses."
+      ],
+      "correct_answer": "A",
+      "explanation": "The principle of momentum conservation states that the total momentum of a closed system remains constant unless external forces act on the system. This rule is directly related to spatial homogeneity, indicating that physical laws are independent of position in space.",
+      "difficulty": 6,
+      "subcategory": "Homogenität des Raumes ⇒ Impulserhaltung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Laminar: parallele Wände",
+      "question": "What describes the flow of fluids between two parallel walls in laminar flow?",
+      "choices": [
+        "A: The pressure remains constant.",
+        "B: The flow is turbulent.",
+        "C: The temperature is independent of the flow velocity.",
+        "D: The velocity distribution is linear."
+      ],
+      "correct_answer": "D",
+      "explanation": "In laminar flow between parallel walls, the velocity distribution is linear, meaning the velocity of the fluid increases from the wall to the center of the layer. This is in contrast to turbulent flow, where velocities vary and are chaotic.",
+      "difficulty": 5,
+      "subcategory": "Laminar: parallele Wände"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Definitionen & Rechenregeln von Tensoren",
+      "question": "What is a tensor in relativity theory?",
+      "choices": [
+        "A: A mathematical object that generalizes scalars and vectors.",
+        "B: A physical concept used only in classical mechanics.",
+        "C: A function describing the speed of light.",
+        "D: A special type of scalar describing motion."
+      ],
+      "correct_answer": "A",
+      "explanation": "A tensor is a mathematical object that generalizes the properties of scalars and vectors and is used in relativity theory to describe physical quantities. It allows for the representation of complex relationships between different physical fields and coordinate systems.",
+      "difficulty": 4,
+      "subcategory": "Definitionen & Rechenregeln von Tensoren"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Einfache Beispiele in Hamilton-Formulierung",
+      "question": "What does the Hamiltonian formulation primarily describe in mechanics?",
+      "choices": [
+        "A: The relationships between energy, momentum, and coordinates of a system.",
+        "B: The interference of light waves in optical systems.",
+        "C: The quantum mechanical states of a particle.",
+        "D: The calculation of heat capacities in thermodynamic systems."
+      ],
+      "correct_answer": "A",
+      "explanation": "The Hamiltonian formulation of mechanics describes the dynamics of a system through the relationship between energy, momentum, and coordinates. It offers an alternative view to the Lagrangian formulation and is particularly useful in analytical mechanics.",
+      "difficulty": 3,
+      "subcategory": "Einfache Beispiele in Hamilton-Formulierung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Störungstheoretische Grundformel",
+      "question": "Which of the following statements correctly describes the application of perturbation theory's basic formula in quantum mechanics?",
+      "choices": [
+        "A: It is valid only for systems without interactions.",
+        "B: It is used to derive relativity theory from classical mechanics.",
+        "C: It describes the fundamentals of thermodynamic state variables in a quantum mechanical context.",
+        "D: It is used to calculate the time evolution of a quantum mechanical system under the influence of a small perturbation."
+      ],
+      "correct_answer": "D",
+      "explanation": "The basic formula of perturbation theory is a central tool in quantum mechanics to analyze the effects of a small perturbation on a known system. It enables the calculation of transition probabilities and energy levels in a perturbed system.",
+      "difficulty": 9,
+      "subcategory": "Störungstheoretische Grundformel"
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "date": "2026-06-28",
+  "generated_at": "2026-06-28T04:32:40Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Potentialtopf: Streuzustände",
+      "question": "Was beschreibt ein Streuzustand in einem Potentialtopf in der Quantenmechanik?",
+      "choices": [
+        "A: Einen Zustand, in dem Teilchen durch eine Barriere hindurch tunneln können.",
+        "B: Einen Zustand, in dem Teilchen sich nur in einer Richtung bewegen.",
+        "C: Einen Zustand, in dem Teilchen ihre Masse verlieren.",
+        "D: Einen Zustand, in dem Teilchen immer in Ruhe sind."
+      ],
+      "correct_answer": "A",
+      "explanation": "Ein Streuzustand beschreibt in der Quantenmechanik einen Zustand, in dem Teilchen mit einer Barriere interagieren und die Möglichkeit besteht, dass sie durch diese Barriere tunneln. Dies ist ein zentrales Konzept der Quantenmechanik und verdeutlicht die nicht-intuitive Natur der Teilchenbewegung auf mikroskopischer Ebene.",
+      "difficulty": 4,
+      "subcategory": "Potentialtopf: Streuzustände"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Lösung der 1D-Schrödinger-Gleichung",
+      "question": "Was beschreibt die 1D-Schrödinger-Gleichung in der Quantenmechanik?",
+      "choices": [
+        "A: Die Wärmeleitung in festen Materialien.",
+        "B: Die zeitliche Entwicklung des quantenmechanischen Zustands eines Teilchens.",
+        "C: Die elektromagnetische Wechselwirkung zwischen Teilchen.",
+        "D: Die klassische Bewegung eines Körpers unter Einfluss von Kräften."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die 1D-Schrödinger-Gleichung beschreibt die zeitliche Entwicklung des quantenmechanischen Zustands eines Teilchens in einem eindimensionalen Potential. Sie ist grundlegend für das Verständnis der Quantenmechanik und ermöglicht die Berechnung von Wellenfunktionen und Energiezuständen.",
+      "difficulty": 2,
+      "subcategory": "Lösung der 1D-Schrödinger-Gleichung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Einfache Beispiele in Hamilton-Formulierung",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt die Hamilton-Formulierung der Mechanik?",
+      "choices": [
+        "A: Hamiltons Gleichungen sind nur für Systeme mit konservativen Kräften anwendbar und nicht für nicht-konservative Systeme.",
+        "B: In der Hamilton-Formulierung wird die Zeit als konstante Größe betrachtet und spielt keine Rolle für die Dynamik des Systems.",
+        "C: Die Hamilton-Formulierung verwendet ausschließlich Lagrange-Funktionen zur Beschreibung der Dynamik eines Systems.",
+        "D: In der Hamilton-Formulierung werden die Bewegungsgrößen durch kanonische Variablen ersetzt, die die Position und den Impuls eines Systems darstellen."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Hamilton-Formulierung der Mechanik basiert auf der Verwendung kanonischer Variablen, nämlich der Position und des Impulses, um die Dynamik eines Systems zu beschreiben. Diese Darstellung ermöglicht eine vereinheitlichte Analyse und ist besonders nützlich in der klassischen Mechanik sowie in der Quantenmechanik.",
+      "difficulty": 7,
+      "subcategory": "Einfache Beispiele in Hamilton-Formulierung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Exponenten-Ungleichungen (Scaling Bounds)",
+      "question": "Was beschreibt die Exponenten-Ungleichung in der Thermodynamik?",
+      "choices": [
+        "A: Die Änderung der Energie in einem geschlossenen System.",
+        "B: Die Beziehung zwischen Volumen und Dichte eines Materials.",
+        "C: Die Skalierungseigenschaften von physikalischen Systemen unter verschiedenen Bedingungen.",
+        "D: Die Beziehung zwischen Temperatur und Druck in einem idealen Gas."
+      ],
+      "correct_answer": "C",
+      "explanation": "Exponenten-Ungleichungen geben an, wie sich bestimmte physikalische Größen unter Variationen von Parametern skalieren. Sie sind wichtig für das Verständnis von Phänomenen in der Thermodynamik, insbesondere bei Phasenübergängen und kritischen Punkten.",
+      "difficulty": 3,
+      "subcategory": "Exponenten-Ungleichungen (Scaling Bounds)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Zustand und Gleichgewicht (makro/mikro)",
+      "question": "Was beschreibt den Zustand eines thermodynamischen Systems im Gleichgewicht?",
+      "choices": [
+        "A: Alle Teilchen bewegen sich mit der gleichen Geschwindigkeit.",
+        "B: Das System kann jederzeit Arbeit verrichten, ohne externe Einflüsse.",
+        "C: Die makroskopischen Eigenschaften sind konstant und die inneren Energien der Teilchen sind gleich.",
+        "D: Die Temperatur des Systems ist immer gleich der Umgebungstemperatur."
+      ],
+      "correct_answer": "C",
+      "explanation": "Im thermodynamischen Gleichgewicht sind die makroskopischen Eigenschaften, wie Druck und Temperatur, konstant, und die statistischen Eigenschaften der Teilchen führen zu einem stabilen Zustand. Die innere Energie der Teilchen kann variieren, bleibt aber im Durchschnitt konstant, was den Gleichgewichtszustand ausmacht.",
+      "difficulty": 6,
+      "subcategory": "Zustand und Gleichgewicht (makro/mikro)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Homogenität des Raumes ⇒ Impulserhaltung",
+      "question": "Welche Aussage beschreibt am besten das Prinzip der Impulserhaltung im Zusammenhang mit der Homogenität des Raumes?",
+      "choices": [
+        "A: Der Gesamtimpuls eines geschlossenen Systems bleibt konstant, wenn keine äußeren Kräfte wirken.",
+        "B: Der Impuls eines Körpers kann immer erhöht werden, indem man ihn beschleunigt.",
+        "C: Der Gesamtimpuls eines Systems kann nur in einem offenen System bestehen bleiben.",
+        "D: Impuls wird nur in Systemen mit wechselnden Massen erhalten."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Prinzip der Impulserhaltung besagt, dass der Gesamtimpuls eines geschlossenen Systems konstant bleibt, solange keine äußeren Kräfte auf das System einwirken. Diese Regel ist direkt mit der Homogenität des Raumes verbunden, da sie darauf hinweist, dass die physikalischen Gesetze unabhängig von der Position im Raum sind.",
+      "difficulty": 6,
+      "subcategory": "Homogenität des Raumes ⇒ Impulserhaltung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Laminar: parallele Wände",
+      "question": "Was beschreibt den Fluss von Flüssigkeiten zwischen zwei parallelen Wänden in laminarer Strömung?",
+      "choices": [
+        "A: Der Druck bleibt konstant.",
+        "B: Die Strömung ist turbulent.",
+        "C: Die Temperatur ist unabhängig von der Strömungsgeschwindigkeit.",
+        "D: Die Geschwindigkeitsverteilung ist linear."
+      ],
+      "correct_answer": "D",
+      "explanation": "In einer laminarer Strömung zwischen parallelen Wänden ist die Geschwindigkeitsverteilung linear, was bedeutet, dass die Geschwindigkeit der Flüssigkeit von der Wand zu den Mitte der Schicht zunimmt. Dies steht im Gegensatz zur turbulenten Strömung, bei der die Geschwindigkeiten variieren und chaotisch sind.",
+      "difficulty": 5,
+      "subcategory": "Laminar: parallele Wände"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Definitionen & Rechenregeln von Tensoren",
+      "question": "Was ist ein Tensor in der Relativitätstheorie?",
+      "choices": [
+        "A: Ein mathematisches Objekt, das Skalare und Vektoren generalisiert.",
+        "B: Ein physikalisches Konzept, das nur in der klassischen Mechanik verwendet wird.",
+        "C: Eine Funktion, die die Geschwindigkeit von Licht beschreibt.",
+        "D: Eine spezielle Art von Skalar, der Bewegung beschreibt."
+      ],
+      "correct_answer": "A",
+      "explanation": "Ein Tensor ist ein mathematisches Objekt, das die Eigenschaften von Skalaren und Vektoren generalisiert und in der Relativitätstheorie zur Beschreibung von physikalischen Größen verwendet wird. Er ermöglicht die Darstellung komplexer Beziehungen zwischen verschiedenen physikalischen Feldern und Koordinatensystemen.",
+      "difficulty": 4,
+      "subcategory": "Definitionen & Rechenregeln von Tensoren"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Einfache Beispiele in Hamilton-Formulierung",
+      "question": "Was beschreibt die Hamilton-Formulierung in der Mechanik hauptsächlich?",
+      "choices": [
+        "A: Die Beziehungen zwischen Energie, Impuls und Koordinaten eines Systems.",
+        "B: Die Interferenz von Lichtwellen in optischen Systemen.",
+        "C: Die quantenmechanischen Zustände eines Teilchens.",
+        "D: Die Berechnung von Wärmekapazitäten in thermodynamischen Systemen."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Hamilton-Formulierung der Mechanik beschreibt die Dynamik eines Systems durch die Beziehung zwischen Energie, Impuls und Koordinaten. Sie bietet eine alternative Sichtweise zur Lagrange-Formulierung und ist besonders nützlich in der analytischen Mechanik.",
+      "difficulty": 3,
+      "subcategory": "Einfache Beispiele in Hamilton-Formulierung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Störungstheoretische Grundformel",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt die Anwendung der störungstheoretischen Grundformel in der Quantenmechanik?",
+      "choices": [
+        "A: Sie ist ausschließlich für Systeme ohne Wechselwirkungen gültig.",
+        "B: Sie dient zur Ableitung der Relativitätstheorie aus der klassischen Mechanik.",
+        "C: Sie beschreibt die Grundlagen der thermodynamischen Zustandsgrößen in einem quantenmechanischen Kontext.",
+        "D: Sie wird verwendet, um die Zeitentwicklung eines quantenmechanischen Systems unter dem Einfluss eines kleinen Störterms zu berechnen."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die störungstheoretische Grundformel ist ein zentrales Werkzeug in der Quantenmechanik, um die Effekte einer kleinen Störung auf ein bekanntes System zu analysieren. Sie ermöglicht die Berechnung von Übergangswahrscheinlichkeiten und Energieniveaus in einem gestörten System.",
+      "difficulty": 9,
+      "subcategory": "Störungstheoretische Grundformel"
+    }
+  ]
+}
