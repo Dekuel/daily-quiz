@@ -1,0 +1,169 @@
+{
+  "date": "2026-06-29",
+  "generated_at": "2026-06-29T04:33:15Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Modifiziertes Hamilton’sches Prinzip",
+      "question": "Was beschreibt das modifizierte Hamilton’sche Prinzip in der analytischen Mechanik?",
+      "choices": [
+        "A: Die Bewegung eines Systems unter Berücksichtigung von Randbedingungen.",
+        "B: Die Beschreibung von Quantenübertragungen in Teilchenbewegungen.",
+        "C: Die Energieerhaltung eines Systems in einem geschlossenen Raum.",
+        "D: Die Symmetrieeigenschaften von physikalischen Systemen."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das modifizierte Hamilton’sche Prinzip erweitert das klassische Hamilton'sche Prinzip, indem es Randbedingungen in die Analyse der Bewegung eines Systems einbezieht. Es erlaubt eine tiefere Einsicht in die Dynamik von Systemen, die unter bestimmten Einschränkungen agieren müssen.",
+      "difficulty": 5,
+      "subcategory": "Modifiziertes Hamilton’sches Prinzip"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Zustandsgleichungen (Überblick)",
+      "question": "Welche der folgenden Gleichungen beschreibt idealerweise das Verhalten eines idealen Gases?",
+      "choices": [
+        "A: W = Fd",
+        "B: E = mc²",
+        "C: F = ma",
+        "D: PV = nRT"
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Gleichung PV = nRT ist die Zustandsgleichung für ideale Gase, die den Druck (P), das Volumen (V), die Stoffmenge (n) und die Temperatur (T) in Beziehung setzt. Die anderen Optionen stehen in Zusammenhang mit verschiedenen physikalischen Konzepten, sind jedoch nicht auf Gase anwendbar.",
+      "difficulty": 3,
+      "subcategory": "Zustandsgleichungen (Überblick)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Ansatz der Wellenmechanik (de Broglie/Schrödinger-Idee)",
+      "question": "Was beschreibt die de Broglie-Wellenlänge eines Teilchens?",
+      "choices": [
+        "A: Die Frequenz des Schwingens eines Teilchens in einem harmonischen Oszillator.",
+        "B: Die maximale Entfernung, die ein Teilchen in einem Vakuum zurücklegen kann.",
+        "C: Die Wellenlänge, die einem Teilchen aufgrund seiner Impuls- und Energieeigenschaften zugeordnet werden kann.",
+        "D: Die Wellenlänge eines Lichtstrahls, der von einem Teilchen ausgestrahlt wird."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die de Broglie-Wellenlänge ist ein Konzept, das beschreibt, dass Teilchen wie Elektronen auch Wellencharakteristika besitzen. Diese Wellenlänge ist direkt proportional zu ihrem Impuls und ist eine zentrale Idee in der Quantenmechanik.",
+      "difficulty": 3,
+      "subcategory": "Ansatz der Wellenmechanik (de Broglie/Schrödinger-Idee)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Fokker–Planck aus Langevin; Smoluchowski-Gleichung",
+      "question": "Welche Aussage beschreibt am besten die Smoluchowski-Gleichung in der statistischen Mechanik?",
+      "choices": [
+        "A: Sie beschreibt die Bewegung eines Teilchens unter dem Einfluss einer externen Kraft ohne Berücksichtigung der Umgebung.",
+        "B: Sie beschreibt die zeitliche Evolution der Wahrscheinlichkeitsdichte eines Teilchens in einem viskosen Medium.",
+        "C: Sie beschreibt die quantenmechanische Zustandsänderung eines Teilchens.",
+        "D: Sie ist identisch mit der Schrödinger-Gleichung für ein freies Teilchen."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Smoluchowski-Gleichung beschreibt, wie sich die Wahrscheinlichkeitsdichte eines Teilchens in einem viskosen Medium über die Zeit verändert. Sie berücksichtigt die Wechselwirkungen des Teilchens mit seiner Umgebung und ist somit wichtig für das Verständnis von Diffusionsprozessen.",
+      "difficulty": 5,
+      "subcategory": "Fokker–Planck aus Langevin; Smoluchowski-Gleichung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Streuung langsamer Teilchen am Potentialtopf",
+      "question": "Was beschreibt das Phänomen der Quanten-Tunneln bei der Streuung langsamer Teilchen an einem Potentialtopf?",
+      "choices": [
+        "A: Teilchen reflektieren immer vollständig am Potentialtopf.",
+        "B: Teilchen bewegen sich klassisch und ignorieren quantenmechanische Effekte.",
+        "C: Teilchen haben eine bestimmte Wahrscheinlichkeit, den Potentialtopf zu durchqueren.",
+        "D: Teilchen können den Potentialtopf vollständig überwinden."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Quanten-Tunneln beschreibt, dass Teilchen, obwohl sie nicht genügend Energie haben, um einen Potentialtopf zu überwinden, eine gewisse Wahrscheinlichkeit besitzen, diesen dennoch zu durchqueren. Dies ist ein zentrales Konzept in der Quantenmechanik und unterscheidet sich grundlegend von klassischer Physik.",
+      "difficulty": 6,
+      "subcategory": "Streuung langsamer Teilchen am Potentialtopf"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Brechungsindex und Absorption von Metallen",
+      "question": "Welcher der folgenden Faktoren beeinflusst den Brechungsindex eines Metalls?",
+      "choices": [
+        "A: Die elektrische Leitfähigkeit des Metalls",
+        "B: Die Temperatur des Metalls",
+        "C: Die Farbe des Lichts",
+        "D: Die Dicke des Metalls"
+      ],
+      "correct_answer": "B",
+      "explanation": "Der Brechungsindex eines Metalls kann durch die Temperatur beeinflusst werden, da sich die Eigenschaften des Materials mit der Temperatur ändern. Farben des Lichts und die Dicke des Metalls sind zwar relevant, jedoch nicht direkt für den Brechungsindex, während die elektrische Leitfähigkeit eher die Wechselwirkungen mit Licht beschreibt, aber nicht den Brechungsindex selbst bestimmt.",
+      "difficulty": 6,
+      "subcategory": "Brechungsindex und Absorption von Metallen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Großkanonisches Potential (Quanten-Gase)",
+      "question": "Was beschreibt das großkanonische Potential in der statistischen Mechanik für Quanten-Gase?",
+      "choices": [
+        "A: Die Anzahl der Teilchen in einem geschlossenen System.",
+        "B: Das Gleichgewicht zwischen Temperatur und Energie.",
+        "C: Die Verteilung von Teilchen in verschiedenen Energiezuständen.",
+        "D: Die Beziehung zwischen Druck und Volumen eines Gases."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das großkanonische Potential ist entscheidend für die Beschreibung von Quanten-Gasen im Gleichgewicht, da es die statistische Verteilung der Teilchen in verschiedenen Energiezuständen bei variabler Teilchenzahl und Temperatur beschreibt. Es hilft, thermodynamische Eigenschaften von Systemen zu verstehen, die mit ihrer Umgebung im Austausch stehen.",
+      "difficulty": 4,
+      "subcategory": "Großkanonisches Potential (Quanten-Gase)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Erzeugende Funktion (vier Typen)",
+      "question": "Welche der folgenden Erzeugenden Funktionen beschreibt korrekt die Beziehung zwischen der Zeit und der Position eines Teilchens im klassischen System?",
+      "choices": [
+        "A: Die Erzeugende Funktion für die Energie-Koordinaten.",
+        "B: Die Erzeugende Funktion für die Geschwindigkeits-Koordinaten.",
+        "C: Die Erzeugende Funktion für die Zeit-Koordinaten.",
+        "D: Die Erzeugende Funktion für die Impuls-Koordinaten."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Erzeugende Funktion für die Impuls-Koordinaten spielt eine zentrale Rolle in der analytischen Mechanik, da sie die Beziehung zwischen Impuls und Position beschreibt. Sie ermöglicht die Formulierung der Lagrange-Gleichungen und die Ableitung der Bewegungsgleichungen für ein System.",
+      "difficulty": 6,
+      "subcategory": "Erzeugende Funktion (vier Typen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Variationsverfahren (Extremalprinzip)",
+      "question": "Was beschreibt das Variationsverfahren in der Quantenmechanik?",
+      "choices": [
+        "A: Es dient zur Bestimmung der Energieeigenwerte eines quantenmechanischen Systems.",
+        "B: Es ist ein Ansatz zur Erklärung der Teilchen-Wellen-Dualität.",
+        "C: Es hilft dabei, die thermodynamischen Eigenschaften von Systemen zu ermitteln.",
+        "D: Es wird verwendet, um die Zeitentwicklung eines Systems zu berechnen."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Variationsverfahren ist eine mathematische Methode, die in der Quantenmechanik verwendet wird, um die Energieeigenwerte eines Systems zu approximieren. Durch die Variation einer Testwellenfunktion und die Berechnung des dazugehörigen Erwartungswerts der Energie lässt sich die Grundzustandsenergie ermitteln.",
+      "difficulty": 6,
+      "subcategory": "Variationsverfahren (Extremalprinzip)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Coulomb’sches Gesetz & elektrisches Feld",
+      "question": "Was beschreibt das Coulomb’sche Gesetz?",
+      "choices": [
+        "A: Die Kraft zwischen zwei punktförmigen elektrischen Ladungen.",
+        "B: Die Energie, die benötigt wird, um eine Ladung zu bewegen.",
+        "C: Die Beziehung zwischen Spannung und Stromstärke.",
+        "D: Die Bewegung von elektrischen Ladungen in einem Magnetfeld."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Coulomb’sche Gesetz beschreibt die elektrostatische Kraft zwischen zwei punktförmigen elektrischen Ladungen. Diese Kraft ist proportional zum Produkt der Ladungen und umgekehrt proportional zum Quadrat des Abstands zwischen ihnen.",
+      "difficulty": 4,
+      "subcategory": "Coulomb’sches Gesetz & elektrisches Feld"
+    }
+  ]
+}

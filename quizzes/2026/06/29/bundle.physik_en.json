@@ -1,0 +1,168 @@
+{
+  "date": "2026-06-29",
+  "generated_at": "2026-06-29T04:33:52Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Modifiziertes Hamilton’sches Prinzip",
+      "question": "What does the modified Hamiltonian principle describe in analytical mechanics?",
+      "choices": [
+        "A: The motion of a system taking into account boundary conditions.",
+        "B: The description of quantum transfers in particle movements.",
+        "C: The energy conservation of a system in a closed space.",
+        "D: The symmetry properties of physical systems."
+      ],
+      "correct_answer": "A",
+      "explanation": "The modified Hamiltonian principle extends the classical Hamiltonian principle by incorporating boundary conditions into the analysis of a system's motion. It allows for a deeper insight into the dynamics of systems that must operate under certain constraints.",
+      "difficulty": 5,
+      "subcategory": "Modifiziertes Hamilton’sches Prinzip"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Zustandsgleichungen (Überblick)",
+      "question": "Which of the following equations ideally describes the behavior of an ideal gas?",
+      "choices": [
+        "A: W = Fd",
+        "B: E = mc²",
+        "C: F = ma",
+        "D: PV = nRT"
+      ],
+      "correct_answer": "D",
+      "explanation": "The equation PV = nRT is the equation of state for ideal gases, relating pressure (P), volume (V), amount of substance (n), and temperature (T). The other options are related to different physical concepts but are not applicable to gases.",
+      "difficulty": 3,
+      "subcategory": "Zustandsgleichungen (Überblick)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Ansatz der Wellenmechanik (de Broglie/Schrödinger-Idee)",
+      "question": "What does the de Broglie wavelength of a particle describe?",
+      "choices": [
+        "A: The frequency of oscillation of a particle in a harmonic oscillator.",
+        "B: The maximum distance a particle can travel in a vacuum.",
+        "C: The wavelength that can be assigned to a particle based on its momentum and energy properties.",
+        "D: The wavelength of a light beam emitted by a particle."
+      ],
+      "correct_answer": "C",
+      "explanation": "The de Broglie wavelength is a concept that describes how particles, such as electrons, also exhibit wave characteristics. This wavelength is directly proportional to their momentum and is a central idea in quantum mechanics.",
+      "difficulty": 3,
+      "subcategory": "Ansatz der Wellenmechanik (de Broglie/Schrödinger-Idee)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Fokker–Planck aus Langevin; Smoluchowski-Gleichung",
+      "question": "Which statement best describes the Smoluchowski equation in statistical mechanics?",
+      "choices": [
+        "A: It describes the motion of a particle under the influence of an external force without considering the environment.",
+        "B: It describes the temporal evolution of the probability density of a particle in a viscous medium.",
+        "C: It describes the quantum mechanical state change of a particle.",
+        "D: It is identical to the Schrödinger equation for a free particle."
+      ],
+      "correct_answer": "B",
+      "explanation": "The Smoluchowski equation describes how the probability density of a particle in a viscous medium changes over time. It takes into account the interactions of the particle with its environment and is important for understanding diffusion processes.",
+      "difficulty": 5,
+      "subcategory": "Fokker–Planck aus Langevin; Smoluchowski-Gleichung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Streuung langsamer Teilchen am Potentialtopf",
+      "question": "What describes the phenomenon of quantum tunneling in the scattering of slow particles on a potential well?",
+      "choices": [
+        "A: Particles always reflect completely at the potential well.",
+        "B: Particles move classically and ignore quantum mechanical effects.",
+        "C: Particles have a certain probability of crossing the potential well.",
+        "D: Particles can completely overcome the potential well."
+      ],
+      "correct_answer": "C",
+      "explanation": "Quantum tunneling describes that particles, even if they do not have enough energy to overcome a potential well, have a certain probability of still crossing it. This is a central concept in quantum mechanics and fundamentally differs from classical physics.",
+      "difficulty": 6,
+      "subcategory": "Streuung langsamer Teilchen am Potentialtopf"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Brechungsindex und Absorption von Metallen",
+      "question": "Which of the following factors influences the refractive index of a metal?",
+      "choices": [
+        "A: The electrical conductivity of the metal",
+        "B: The temperature of the metal",
+        "C: The color of light",
+        "D: The thickness of the metal"
+      ],
+      "correct_answer": "B",
+      "explanation": "The refractive index of a metal can be influenced by temperature, as the properties of the material change with temperature. While colors of light and the thickness of the metal are relevant, they are not directly related to the refractive index, and electrical conductivity describes interactions with light rather than determining the refractive index itself.",
+      "difficulty": 6,
+      "subcategory": "Brechungsindex und Absorption von Metallen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Großkanonisches Potential (Quanten-Gase)",
+      "question": "What does the grand canonical potential describe in statistical mechanics for quantum gases?",
+      "choices": [
+        "A: The number of particles in a closed system.",
+        "B: The equilibrium between temperature and energy.",
+        "C: The distribution of particles in different energy states.",
+        "D: The relationship between pressure and volume of a gas."
+      ],
+      "correct_answer": "C",
+      "explanation": "The grand canonical potential is crucial for describing quantum gases in equilibrium, as it describes the statistical distribution of particles in different energy states with varying numbers of particles and temperature. It helps understand thermodynamic properties of systems interacting with their environment.",
+      "difficulty": 4,
+      "subcategory": "Großkanonisches Potential (Quanten-Gase)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Erzeugende Funktion (vier Typen)",
+      "question": "Which of the following generating functions correctly describes the relationship between time and position of a particle in the classical system?",
+      "choices": [
+        "A: The generating function for energy coordinates.",
+        "B: The generating function for velocity coordinates.",
+        "C: The generating function for time coordinates.",
+        "D: The generating function for momentum coordinates."
+      ],
+      "correct_answer": "D",
+      "explanation": "The generating function for momentum coordinates plays a central role in analytical mechanics as it describes the relationship between momentum and position. It enables the formulation of Lagrange equations and the derivation of motion equations for a system.",
+      "difficulty": 6,
+      "subcategory": "Erzeugende Funktion (vier Typen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Variationsverfahren (Extremalprinzip)",
+      "question": "What does the variational method describe in quantum mechanics?",
+      "choices": [
+        "A: It is used to determine the energy eigenvalues of a quantum mechanical system.",
+        "B: It is an approach to explain particle-wave duality.",
+        "C: It helps determine the thermodynamic properties of systems.",
+        "D: It is used to calculate the time evolution of a system."
+      ],
+      "correct_answer": "A",
+      "explanation": "The variational method is a mathematical technique used in quantum mechanics to approximate the energy eigenvalues of a system. By varying a trial wave function and calculating the corresponding expectation value of energy, the ground state energy can be determined.",
+      "difficulty": 6,
+      "subcategory": "Variationsverfahren (Extremalprinzip)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Coulomb’sches Gesetz & elektrisches Feld",
+      "question": "What does Coulomb's law describe?",
+      "choices": [
+        "A: The force between two point-like electric charges.",
+        "B: The energy needed to move a charge.",
+        "C: The relationship between voltage and current.",
+        "D: The motion of electric charges in a magnetic field."
+      ],
+      "correct_answer": "A",
+      "explanation": "Coulomb's law describes the electrostatic force between two point-like electric charges. This force is proportional to the product of the charges and inversely proportional to the square of the distance between them.",
+      "difficulty": 4,
+      "subcategory": "Coulomb’sches Gesetz & elektrisches Feld"
+    }
+  ]
+}
