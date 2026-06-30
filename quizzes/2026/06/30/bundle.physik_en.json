@@ -1,0 +1,168 @@
+{
+  "date": "2026-06-30",
+  "generated_at": "2026-06-30T04:28:09Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Kraft & Drehmoment auf Stromverteilungen",
+      "question": "What does the magnetic field do to a current-carrying conductor?",
+      "choices": [
+        "A: It exerts a force on the conductor.",
+        "B: It increases the temperature of the conductor.",
+        "C: It changes the color of the conductor.",
+        "D: It keeps the conductor at rest."
+      ],
+      "correct_answer": "A",
+      "explanation": "A current-carrying conductor in a magnetic field experiences a force resulting from the Lorentz force. This force can cause the conductor to move if it is not fixed.",
+      "difficulty": 3,
+      "subcategory": "Kraft & Drehmoment auf Stromverteilungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Fermi-Energie & Fermi-Kugel",
+      "question": "What does Fermi energy describe in a metallic solid?",
+      "choices": [
+        "A: The energy released in chemical reactions.",
+        "B: The maximum energy electrons can have at 0 Kelvin.",
+        "C: The minimum energy required to remove an electron from the solid.",
+        "D: The average energy of all electrons in the solid."
+      ],
+      "correct_answer": "B",
+      "explanation": "Fermi energy is the highest energy that electrons in a metallic solid can have at absolute zero temperature (0 Kelvin). It plays a central role in solid-state physics, especially in describing the electronic properties of metals.",
+      "difficulty": 5,
+      "subcategory": "Fermi-Energie & Fermi-Kugel"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Gleichgewichtsbedingungen (allgemein)",
+      "question": "What condition must be met for a system to be in thermodynamic equilibrium?",
+      "choices": [
+        "A: The temperature is constant throughout the system.",
+        "B: There is a net change in the system's energy.",
+        "C: Heat flow is unimpeded between the components of the system.",
+        "D: The pressure is different at every point in the system."
+      ],
+      "correct_answer": "A",
+      "explanation": "Thermodynamic equilibrium requires that the temperature is homogeneous throughout the system, meaning there are no temperature gradients. This ensures no heat transfer between different parts of the system and no net energy changes.",
+      "difficulty": 9,
+      "subcategory": "Gleichgewichtsbedingungen (allgemein)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Elektromagnetische Potentiale (φ, A)",
+      "question": "Which of the following statements about the electromagnetic potential is correct?",
+      "choices": [
+        "A: The vector potential A is always constant and cannot vary.",
+        "B: The divergence of the vector potential A is always zero.",
+        "C: The scalar potential φ is independent of the choice of the vector potential A.",
+        "D: The scalar potential φ can be derived from the vector potential A and is uniquely determined up to a constant."
+      ],
+      "correct_answer": "D",
+      "explanation": "The scalar potential φ is not unique and can vary by additive constants, meaning it can be derived from the vector potential A. The choice of the vector potential is not unique as long as the corresponding Maxwell's equations are satisfied.",
+      "difficulty": 9,
+      "subcategory": "Elektromagnetische Potentiale (φ, A)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Natürliche Zustandsvariablen (U, H, F, G)",
+      "question": "Which of the following state variables describes the total energy of a system?",
+      "choices": [
+        "A: Enthalpy (H)",
+        "B: Internal energy (U)",
+        "C: Free energy (F)",
+        "D: Gibbs free energy (G)"
+      ],
+      "correct_answer": "B",
+      "explanation": "The internal energy (U) is a state quantity that describes the total energy of a thermodynamic system. It includes the kinetic and potential energy of the particles in the system and is crucial for analyzing energy conversions in thermodynamics.",
+      "difficulty": 4,
+      "subcategory": "Natürliche Zustandsvariablen (U, H, F, G)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Phasen der Kernmaterie",
+      "question": "Which phase of nuclear matter describes the state where nucleons (protons and neutrons) can be considered as free particles?",
+      "choices": [
+        "A: Neutron star",
+        "B: Gaseous form",
+        "C: Atomic nucleus",
+        "D: Quark-gluon plasma"
+      ],
+      "correct_answer": "D",
+      "explanation": "Quark-gluon plasma is a phase of nuclear matter where nucleons are no longer bound and can move as free quarks and gluons. This state occurs at extremely high temperatures and energies, such as those shortly after the Big Bang.",
+      "difficulty": 6,
+      "subcategory": "Phasen der Kernmaterie"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Eulersche Gleichungen",
+      "question": "Which of the following statements correctly describes the Euler equations for the rotational motion of a rigid body?",
+      "choices": [
+        "A: The Euler equations are identical to Newton's laws.",
+        "B: The Euler equations describe the relationship between torque and angular velocity.",
+        "C: The Euler equations apply only to translational motion.",
+        "D: The Euler equations are applicable only in an inertial system."
+      ],
+      "correct_answer": "B",
+      "explanation": "The Euler equations relate the torque, angular velocity, and moment of inertia of a body. They are essential for analyzing rotational motion in classical mechanics and hold true regardless of the choice of reference frame, as long as forces and moments are correctly considered.",
+      "difficulty": 5,
+      "subcategory": "Eulersche Gleichungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Lösungsmethode der HJ-Theorie",
+      "question": "What is the main goal of the Hamilton-Jacobi theory in analytical mechanics?",
+      "choices": [
+        "A: Determining the forces acting on a body.",
+        "B: Reducing the problem to solving a simple system of differential equations.",
+        "C: Searching for a Hamiltonian describing energy conservation.",
+        "D: Investigating the quantum mechanical properties of particles."
+      ],
+      "correct_answer": "B",
+      "explanation": "The Hamilton-Jacobi theory aims to solve problems of classical mechanics by transforming motion equations into a simpler system of differential equations. This allows for a more efficient analysis of dynamic systems and is a central aspect of analytical mechanics.",
+      "difficulty": 5,
+      "subcategory": "Lösungsmethode der HJ-Theorie"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Längenkontraktion",
+      "question": "What happens to the length of an object when it moves relative to an observer at near-light speed?",
+      "choices": [
+        "A: The object becomes longer.",
+        "B: The length of the object shortens.",
+        "C: The length of the object remains unchanged.",
+        "D: The length of the object varies randomly."
+      ],
+      "correct_answer": "B",
+      "explanation": "According to the theory of relativity, a rapidly moving object experiences length contraction in the direction of motion. This contraction is significant only at speeds close to the speed of light and is not perceived in everyday situations.",
+      "difficulty": 1,
+      "subcategory": "Längenkontraktion"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Antiferromagnetismus",
+      "question": "What characterizes antiferromagnetism in materials?",
+      "choices": [
+        "A: Magnetic properties disappear at high temperatures.",
+        "B: The spins of the atoms are aligned in parallel.",
+        "C: The spins of the atoms are aligned antiparallel.",
+        "D: All atoms are disordered and randomly aligned."
+      ],
+      "correct_answer": "C",
+      "explanation": "Antiferromagnetic materials exhibit a spin arrangement where the spins of neighboring atoms are oppositely oriented. This results in the cancellation of magnetic moments, leading to a total magnetism of zero.",
+      "difficulty": 3,
+      "subcategory": "Antiferromagnetismus"
+    }
+  ]
+}

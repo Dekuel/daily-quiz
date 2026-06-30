@@ -1,0 +1,169 @@
+{
+  "date": "2026-06-30",
+  "generated_at": "2026-06-30T04:27:35Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Kraft & Drehmoment auf Stromverteilungen",
+      "question": "Was bewirkt das Magnetfeld auf einen stromdurchflossenen Leiter?",
+      "choices": [
+        "A: Es übt eine Kraft auf den Leiter aus.",
+        "B: Es erhöht die Temperatur des Leiters.",
+        "C: Es verändert die Farbe des Leiters.",
+        "D: Es hält den Leiter in Ruhe."
+      ],
+      "correct_answer": "A",
+      "explanation": "Ein stromdurchflossener Leiter in einem Magnetfeld erfährt eine Kraft, die sich aus der Lorentzkraft ergibt. Diese Kraft kann dazu führen, dass der Leiter sich in Bewegung setzt, wenn er nicht fixiert ist.",
+      "difficulty": 3,
+      "subcategory": "Kraft & Drehmoment auf Stromverteilungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Fermi-Energie & Fermi-Kugel",
+      "question": "Was beschreibt die Fermi-Energie in einem metallischen Festkörper?",
+      "choices": [
+        "A: Die Energie, die bei chemischen Reaktionen freigesetzt wird.",
+        "B: Die maximale Energie, die Elektronen bei 0 Kelvin besitzen können.",
+        "C: Die minimale Energie, die benötigt wird, um ein Elektron aus dem Festkörper zu entfernen.",
+        "D: Die mittlere Energie aller Elektronen im Festkörper."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Fermi-Energie ist die höchste Energie, die Elektronen in einem metallischen Festkörper bei absoluter Nulltemperatur (0 Kelvin) haben können. Sie spielt eine zentrale Rolle in der Festkörperphysik, insbesondere bei der Beschreibung der elektronischen Eigenschaften von Metallen.",
+      "difficulty": 5,
+      "subcategory": "Fermi-Energie & Fermi-Kugel"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Gleichgewichtsbedingungen (allgemein)",
+      "question": "Welche Bedingung muss erfüllt sein, damit ein System im thermodynamischen Gleichgewicht ist?",
+      "choices": [
+        "A: Die Temperatur ist überall im System konstant.",
+        "B: Es gibt eine nettorisiko Änderung in der Energie des Systems.",
+        "C: Der Wärmefluss ist ungehindert zwischen den Komponenten des Systems.",
+        "D: Der Druck ist an jedem Punkt des Systems unterschiedlich."
+      ],
+      "correct_answer": "A",
+      "explanation": "Ein thermodynamisches Gleichgewicht erfordert, dass die Temperatur im gesamten System homogen ist, was bedeutet, dass es keine Temperaturgradienten gibt. Dies stellt sicher, dass keine Wärmeübertragung zwischen verschiedenen Teilen des Systems stattfindet und es keine netten Energieänderungen gibt.",
+      "difficulty": 9,
+      "subcategory": "Gleichgewichtsbedingungen (allgemein)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Elektromagnetische Potentiale (φ, A)",
+      "question": "Welche der folgenden Aussagen über das elektromagnetische Potential ist korrekt?",
+      "choices": [
+        "A: Das Vektorpotential A ist immer konstant und kann nicht variieren.",
+        "B: Die Divergenz des Vektorpotentials A ist immer gleich null.",
+        "C: Das skalare Potential φ ist unabhängig von der Wahl des Vektorpotentials A.",
+        "D: Das skalare Potential φ kann aus dem Vektorpotential A abgeleitet werden und ist nur bis auf eine Konstante eindeutig bestimmt."
+      ],
+      "correct_answer": "D",
+      "explanation": "Das skalare Potential φ ist nicht eindeutig und kann durch additive Konstanten variiert werden, was bedeutet, dass es sich aus dem Vektorpotential A ableiten lässt. Die Wahl des Vektorpotentials ist nicht eindeutig, solange die entsprechenden Maxwell-Gleichungen erfüllt bleiben.",
+      "difficulty": 9,
+      "subcategory": "Elektromagnetische Potentiale (φ, A)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Natürliche Zustandsvariablen (U, H, F, G)",
+      "question": "Welche der folgenden Zustandsvariablen beschreibt die Gesamtenergie eines Systems?",
+      "choices": [
+        "A: Enthalpie (H)",
+        "B: Innere Energie (U)",
+        "C: freie Energie (F)",
+        "D: Gibbs-Energie (G)"
+      ],
+      "correct_answer": "B",
+      "explanation": "Die innere Energie (U) ist eine Zustandsgröße, die die Gesamtenergie eines thermodynamischen Systems beschreibt. Sie umfasst die kinetische und potenzielle Energie der Teilchen im System und ist entscheidend für die Analyse von Energieumwandlungen in der Thermodynamik.",
+      "difficulty": 4,
+      "subcategory": "Natürliche Zustandsvariablen (U, H, F, G)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Phasen der Kernmaterie",
+      "question": "Welche Phase der Kernmaterie beschreibt den Zustand, in dem Nukleonen (Protonen und Neutronen) als freie Teilchen betrachtet werden können?",
+      "choices": [
+        "A: Neutronenstern",
+        "B: Gasform",
+        "C: Atomkern",
+        "D: Quark-Gluon-Plasma"
+      ],
+      "correct_answer": "D",
+      "explanation": "Das Quark-Gluon-Plasma ist eine Phase der Kernmaterie, in der die Nukleonen nicht mehr gebunden sind und sich als freie Quarks und Gluonen bewegen können. Dieser Zustand tritt bei extrem hohen Temperaturen und Energien auf, wie sie kurz nach dem Urknall existierten.",
+      "difficulty": 6,
+      "subcategory": "Phasen der Kernmaterie"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Eulersche Gleichungen",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt die Eulerschen Gleichungen für die Drehbewegung eines starren Körpers?",
+      "choices": [
+        "A: Die Eulerschen Gleichungen sind identisch mit den Newtonschen Gesetzen.",
+        "B: Die Eulerschen Gleichungen beschreiben die Beziehung zwischen dem Drehmoment und der Winkelgeschwindigkeit.",
+        "C: Die Eulerschen Gleichungen gelten nur für translationale Bewegungen.",
+        "D: Die Eulerschen Gleichungen sind nur in einem Inertialsystem anwendbar."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Eulerschen Gleichungen verknüpfen das Drehmoment, die Winkelgeschwindigkeit und das Trägheitsmoment eines Körpers. Sie sind essenziell für die Analyse von Rotationsbewegungen in der klassischen Mechanik und gelten unabhängig von der Wahl des Bezugssystems, solange die Kräfte und Momente korrekt berücksichtigt werden.",
+      "difficulty": 5,
+      "subcategory": "Eulersche Gleichungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Lösungsmethode der HJ-Theorie",
+      "question": "Was ist das Hauptziel der Hamilton-Jacobi-Theorie in der analytischen Mechanik?",
+      "choices": [
+        "A: Die Bestimmung der Kräfte, die auf einen Körper wirken.",
+        "B: Die Reduktion des Problems auf die Lösung eines einfachen Differentialgleichungssystems.",
+        "C: Die Suche nach einem Hamiltonian, der die Erhaltung der Energie beschreibt.",
+        "D: Die Untersuchung der quantenmechanischen Eigenschaften von Teilchen."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Hamilton-Jacobi-Theorie zielt darauf ab, Probleme der klassischen Mechanik durch die Transformation von Bewegungsgleichungen in ein einfacheres Differentialgleichungssystem zu lösen. Dies ermöglicht eine effizientere Analyse dynamischer Systeme und ist ein zentraler Aspekt der analytischen Mechanik.",
+      "difficulty": 5,
+      "subcategory": "Lösungsmethode der HJ-Theorie"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Längenkontraktion",
+      "question": "Was passiert mit der Länge eines Objekts, wenn es sich relativ zu einem Beobachter mit annähernder Lichtgeschwindigkeit bewegt?",
+      "choices": [
+        "A: Das Objekt wird länger.",
+        "B: Die Länge des Objekts verkürzt sich.",
+        "C: Die Länge des Objekts bleibt unverändert.",
+        "D: Die Länge des Objekts variiert zufällig."
+      ],
+      "correct_answer": "B",
+      "explanation": "Gemäß der Relativitätstheorie erfährt ein sich schnell bewegendes Objekt eine Längenkontraktion in Bewegungsrichtung. Diese Kontraktion ist nur bei Geschwindigkeiten nahe der Lichtgeschwindigkeit signifikant und wird nicht in alltäglichen Situationen wahrgenommen.",
+      "difficulty": 1,
+      "subcategory": "Längenkontraktion"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Antiferromagnetismus",
+      "question": "Was charakterisiert Antiferromagnetismus in Materialien?",
+      "choices": [
+        "A: Magnetische Eigenschaften verschwinden bei hohen Temperaturen.",
+        "B: Die Spins der Atome sind parallel ausgerichtet.",
+        "C: Die Spins der Atome sind antiparallel ausgerichtet.",
+        "D: Alle Atome sind ungeordnet und zufällig ausgerichtet."
+      ],
+      "correct_answer": "C",
+      "explanation": "Antiferromagnetische Materialien zeigen eine Anordnung der Spins, bei der die Spins benachbarter Atome entgegengesetzt gerichtet sind. Dadurch heben sich die magnetischen Momente auf, was zu einem Gesamtmagnetismus von null führt.",
+      "difficulty": 3,
+      "subcategory": "Antiferromagnetismus"
+    }
+  ]
+}
