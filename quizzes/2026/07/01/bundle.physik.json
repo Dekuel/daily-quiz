@@ -1,0 +1,169 @@
+{
+  "date": "2026-07-01",
+  "generated_at": "2026-07-01T04:33:06Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Gibbs-Phasenregel; Mehrkomponenten-Gleichgewichte",
+      "question": "Was besagt die Gibbs-Phasenregel für ein System mit mehreren Komponenten?",
+      "choices": [
+        "A: Es gibt keine Einschränkungen für die Anzahl der Phasen in einem System.",
+        "B: Die Anzahl der Freiheitsgrade ist immer gleich null.",
+        "C: Die Anzahl der Freiheitsgrade ist gleich der Anzahl der Phasen minus die Anzahl der Komponenten plus zwei.",
+        "D: Die Anzahl der Phasen ist immer gleich der Anzahl der Komponenten."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Gibbs-Phasenregel beschreibt den Zusammenhang zwischen der Anzahl der Phasen, den Komponenten und den Freiheitsgraden eines Systems. Für ein System mit C Komponenten und P Phasen ergibt sich die Formel F = P - C + 2, wobei F die Freiheitsgrade sind.",
+      "difficulty": 5,
+      "subcategory": "Gibbs-Phasenregel; Mehrkomponenten-Gleichgewichte"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Beugung an mehrdimensionalen Gittern",
+      "question": "Welche Eigenschaft beeinflusst die Beugungsmuster, die durch ein zweidimensionales Gitter erzeugt werden?",
+      "choices": [
+        "A: Die Intensität des einfallenden Lichts",
+        "B: Die Wellenlänge des einfallenden Lichts",
+        "C: Die Farbe des Gitters",
+        "D: Die Temperatur des Gitters"
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Wellenlänge des einfallenden Lichts hat direkten Einfluss auf die Beugungsmuster, die an einem mehrdimensionalen Gitter entstehen. Längere Wellenlängen führen zu größeren Beugungswinkeln und somit zu veränderten Beugungsschemata. Die anderen Optionen haben keinen signifikanten Einfluss auf das Beugungsverhalten.",
+      "difficulty": 7,
+      "subcategory": "Beugung an mehrdimensionalen Gittern"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Kanonische Dichtematrix & Thermodynamik magnetischer Systeme",
+      "question": "Wie beeinflusst der Zustand eines magnetischen Systems, beschrieben durch die kanonische Dichtematrix, die thermodynamischen Eigenschaften bei unterschiedlichen Temperaturen?",
+      "choices": [
+        "A: Der Zustand ist nur bei Temperaturen nahe dem absoluten Nullpunkt relevant.",
+        "B: Der Zustand hat keinen Einfluss auf die thermodynamischen Eigenschaften.",
+        "C: Der Zustand beeinflusst nur die interne Energie, nicht aber die Entropie.",
+        "D: Der Zustand bestimmt die magnetische Suszeptibilität und deren Temperatureffekt."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die kanonische Dichtematrix beschreibt die Verteilung der Energiezustände eines magnetischen Systems bei einer gegebenen Temperatur. Der Zustand hat einen direkten Einfluss auf die magnetische Suszeptibilität, die sich mit der Temperatur ändert und somit die thermodynamischen Eigenschaften des Systems bestimmt.",
+      "difficulty": 9,
+      "subcategory": "Kanonische Dichtematrix & Thermodynamik magnetischer Systeme"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Zeitunabhängige Störungstheorie: entartete Niveaus",
+      "question": "Was beschreibt die zeitunabhängige Störungstheorie im Kontext von entarteten Niveaus in der Quantenmechanik?",
+      "choices": [
+        "A: Die Bestimmung der Bahnen von Elektronen in Atomen.",
+        "B: Die Veränderung der Masse eines Teilchens in einem Magnetfeld.",
+        "C: Die Aufspaltung entarteter Energieniveaus bei der Anwendung einer perturbativen Störung.",
+        "D: Die Berechnung der Lebensdauer radioaktiver Zerfälle."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die zeitunabhängige Störungstheorie ermöglicht es, die Auswirkungen einer kleinen Störung auf ein System mit entarteten Niveaus zu analysieren, indem sie die Energieniveaus aufspaltet. Dies ist fundamental, um die Wechselwirkungen in quantenmechanischen Systemen zu verstehen.",
+      "difficulty": 1,
+      "subcategory": "Zeitunabhängige Störungstheorie: entartete Niveaus"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Maxwell-Gleichungen der Magnetostatik",
+      "question": "Welche Aussage über die Maxwell-Gleichungen in der Magnetostatik ist korrekt?",
+      "choices": [
+        "A: Der magnetische Fluss durch eine geschlossene Fläche ist immer null.",
+        "B: Ein zeitlich veränderliches elektrisches Feld erzeugt ein konstantes magnetisches Feld.",
+        "C: Der Divergenz des magnetischen Feldes ist proportional zur elektrischen Ladung.",
+        "D: Magnetische Monopole existieren und können isoliert gefunden werden."
+      ],
+      "correct_answer": "A",
+      "explanation": "Nach einer der Maxwell-Gleichungen, dem Gauss'schen Gesetz für Magnetismus, ist der magnetische Fluss durch jede geschlossene Fläche gleich null, was bedeutet, dass es keine isolierten magnetischen Monopole gibt. Diese Eigenschaft ist fundamental für die Magnetostatik.",
+      "difficulty": 9,
+      "subcategory": "Maxwell-Gleichungen der Magnetostatik"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Linsenfehler (Aberrationen)",
+      "question": "Was ist eine chromatische Aberration?",
+      "choices": [
+        "A: Eine Unschärfe, die entsteht, wenn Licht unterschiedlicher Wellenlängen unterschiedlich gebrochen wird.",
+        "B: Ein Fehler, der durch die Verwendung von minderwertigem Material verursacht wird.",
+        "C: Eine Verzerrung, die aufgrund der Form einer Linse entsteht.",
+        "D: Eine Erscheinung, die nur bei Spiegeln auftritt."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die chromatische Aberration ist ein Linsenfehler, der auftritt, wenn Licht verschiedener Farben (Wellenlängen) unterschiedlich gebrochen wird. Dies führt zu einer Unschärfe oder Farbverschiebung in den Bildern, die durch die Linse erzeugt werden.",
+      "difficulty": 4,
+      "subcategory": "Linsenfehler (Aberrationen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Kernspaltung",
+      "question": "Welche der folgenden Aussagen beschreibt am besten den Prozess der Kernspaltung?",
+      "choices": [
+        "A: Kernspaltung tritt auf, wenn Neutronen in einem Atomkern absorbiert werden und die Atommasse dadurch erhöht wird.",
+        "B: Kernspaltung ist der Prozess, bei dem schwere Atomkerne in leichtere Kerne zerfallen, wobei eine große Menge Energie freigesetzt wird.",
+        "C: Kernspaltung ist der Prozess, bei dem Elektronen in einem Atomkern zerlegt werden, um Stabilität zu erreichen.",
+        "D: Kernspaltung ist der Prozess, bei dem Lichtkerne zu schwereren Kernen fusionieren, um Energie zu erzeugen."
+      ],
+      "correct_answer": "B",
+      "explanation": "Kernspaltung ist ein physikalischer Prozess, bei dem schwere Atomkerne, wie Uran-235 oder Plutonium-239, durch Neutronenbeschuss in leichtere Kerne zerlegt werden. Dieser Prozess setzt im Vergleich zur ursprünglichen Masse eine erhebliche Energiemenge frei, die in Kernkraftwerken zur Energieerzeugung genutzt wird.",
+      "difficulty": 10,
+      "subcategory": "Kernspaltung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Ehrenfest-Klassifikation",
+      "question": "Welche der folgenden Aussagen beschreibt die Unterschiede zwischen den Phasen in der Ehrenfest-Klassifikation korrekt?",
+      "choices": [
+        "A: Phasen erster Ordnung zeigen Sprünge in der Entropie, während Phasen zweiter Ordnung keine Sprünge aufweisen.",
+        "B: Phasen erster Ordnung treten nur bei festen Stoffen auf, während Phasen zweiter Ordnung bei Flüssigkeiten und Gasen auftreten.",
+        "C: Phasen zweiter Ordnung sind immer reversibel, während Phasen erster Ordnung irreversibel sind.",
+        "D: Phasen erster Ordnung haben kontinuierliche thermodynamische Eigenschaften, während Phasen zweiter Ordnung diskontinuierlich sind."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Ehrenfest-Klassifikation unterscheidet zwischen Phasen erster und zweiter Ordnung basierend auf dem Verhalten der Entropie an den Phasenübergängen. Bei ersten Ordnung Übergängen gibt es Sprünge in der Entropie, während bei zweiten Ordnung Übergängen die Entropie kontinuierlich bleibt, jedoch andere Eigenschaften wie die Temperatur oder die spezifische Wärme sich ändern können.",
+      "difficulty": 7,
+      "subcategory": "Ehrenfest-Klassifikation"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Spontaner Phononenzerfall",
+      "question": "Was beschreibt der spontane Phononenzerfall in Festkörpern?",
+      "choices": [
+        "A: Die spontane Erzeugung und Vernichtung von Phononen im thermodynamischen Gleichgewicht.",
+        "B: Die Übertragung von elektrischer Energie durch Phononen in Supraleitern.",
+        "C: Die reflektierende Eigenschaft von akustischen Wellen in Kristallen.",
+        "D: Die Wechselwirkung zwischen Elektronen und Phononen bei tiefen Temperaturen."
+      ],
+      "correct_answer": "A",
+      "explanation": "Der spontane Phononenzerfall beschreibt die Erzeugung und Vernichtung von Phononen aufgrund von thermischen Fluktuationen im Gleichgewichtszustand eines Festkörpers. Dies spielt eine zentrale Rolle in der Thermodynamik und der Wärmeleitung in Festkörpern.",
+      "difficulty": 9,
+      "subcategory": "Spontaner Phononenzerfall"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Kraft & Drehmoment auf Stromverteilungen",
+      "question": "Welche der folgenden Aussagen beschreibt am besten die Wirkung eines Magnetfeldes auf einen stromdurchflossenen Leiter?",
+      "choices": [
+        "A: Ein Magnetfeld übt eine Kraft auf den Leiter aus, die senkrecht zur Stromrichtung und zum Magnetfeld steht.",
+        "B: Die Kraft auf den Leiter ist immer in die gleiche Richtung wie der Strom.",
+        "C: Ein Magnetfeld beeinflusst keinen stromdurchflossenen Leiter.",
+        "D: Der Leiter wird immer in eine Drehbewegung versetzt, unabhängig von der Richtung des Magnetfeldes."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Magnetfeld übt eine Lorentzkraft auf den stromdurchflossenen Leiter aus, die gemäß der rechten-Hand-Regel senkrecht zur Stromrichtung und zum Magnetfeld steht. Dies ist ein grundlegendes Prinzip der Elektrodynamik, das in vielen Anwendungen wie Elektromotoren von Bedeutung ist.",
+      "difficulty": 6,
+      "subcategory": "Kraft & Drehmoment auf Stromverteilungen"
+    }
+  ]
+}

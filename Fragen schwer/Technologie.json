@@ -2842,6 +2842,20 @@
       "correct_answer": "B",
       "explanation": "Near Field Communication (NFC) ist eine Technologie, die es ermöglicht, Daten über kurze Distanzen hinweg zu übertragen und wird häufig für mobile Zahlungen verwendet. Im Gegensatz zu Bluetooth Low Energy, Wi-Fi Direct und UPnP ist NFC speziell für die sichere und schnelle Kommunikation zwischen Geräten konzipiert, was es ideal für Transaktionen macht.",
       "difficulty": 7
+    },
+    {
+      "category": "Technologie",
+      "topic": "Soziale Medien",
+      "question": "Welcher Algorithmus wird häufig zur Inhalte-Moderation auf sozialen Medien verwendet, um irreführende Inhalte zu identifizieren und zu filtern?",
+      "choices": [
+        "A: PageRank (zur Bewertung von Webseiten)",
+        "B: K-means (zum Clustern von Daten)",
+        "C: Dijkstra-Algorithmus (für kürzeste Wege)",
+        "D: Naive Bayes ✓"
+      ],
+      "correct_answer": "D",
+      "explanation": "Der Naive Bayes-Algorithmus ist ein populärer Ansatz zur Klassifizierung von Texten, der oft in der Inhaltsmoderation zum Einsatz kommt. Er analysiert Merkmale von Inhalten, um zu entscheiden, ob diese potenziell schädlich sind. Die anderen genannten Algorithmen sind für andere spezifische Aufgaben in der Datenanalyse und -verarbeitung konzipiert.",
+      "difficulty": 8
     }
   ]
 }
