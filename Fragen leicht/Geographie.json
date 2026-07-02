@@ -3332,6 +3332,20 @@
       "correct_answer": "B",
       "explanation": "Der Bosporus ist eine Meerenge, die den europäischen Teil von Istanbul mit dem asiatischen Teil verbindet. Er spielt eine wichtige Rolle in der Geographie, da er die Grenze zwischen Europa und Asien markiert.",
       "difficulty": 3
+    },
+    {
+      "category": "Geographie",
+      "topic": "Kartographie & GIS",
+      "question": "Welche der folgenden Kartenprojektionen ist insbesondere für die genaue Darstellung von Flächen, jedoch nicht für Winkel oder Entfernungen geeignet?",
+      "choices": [
+        "A: Peters-Projektion",
+        "B: azimutale Projektion",
+        "C: Robinson-Projektion",
+        "D: Mercator-Projektion"
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Peters-Projektion ist eine zylindrische Projektion, die die Flächentreue bewahrt, wodurch die relativen Größen der Länder korrekt dargestellt werden. Allerdings führt diese Projektion zu Verzerrungen bei der Form und den Winkeln, was sie für bestimmten Anwendungen weniger geeignet macht.",
+      "difficulty": 8
     }
   ]
 }

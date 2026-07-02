@@ -1,0 +1,168 @@
+{
+  "date": "2026-07-02",
+  "generated_at": "2026-07-02T04:27:18Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Zeitumkehr & Gasexpansion; Störungen der Trajektorien",
+      "question": "What happens to the trajectories of particles in an ideal gas when time is reversed?",
+      "choices": [
+        "A: The particles move faster.",
+        "B: The particles remain stationary.",
+        "C: The trajectories become chaotic.",
+        "D: The trajectories return to their original state."
+      ],
+      "correct_answer": "D",
+      "explanation": "In statistical mechanics, the time reversal principle holds that the motion of particles in an ideal gas is reversible. When time is reversed, the particles move back along their original trajectories.",
+      "difficulty": 5,
+      "subcategory": "Zeitumkehr & Gasexpansion; Störungen der Trajektorien"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Mikrokanonisches Ensemble: Verteilungsfunktion & Dichtematrix",
+      "question": "What does the density matrix describe in a microcanonical ensemble?",
+      "choices": [
+        "A: The movements of particles in a vacuum.",
+        "B: The distribution of states of a system at constant energy.",
+        "C: The interactions between different types of particles.",
+        "D: The relationship between temperature and pressure in an ideal gas."
+      ],
+      "correct_answer": "B",
+      "explanation": "The density matrix in a microcanonical ensemble describes the probability of a system being in a particular state, given that the energy is constant. This is important for the statistical description of systems in thermodynamic equilibrium.",
+      "difficulty": 3,
+      "subcategory": "Mikrokanonisches Ensemble: Verteilungsfunktion & Dichtematrix"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Reibung: Rollreibung",
+      "question": "What describes the resistance experienced by a rolling object on a surface?",
+      "choices": [
+        "A: Rolling friction",
+        "B: Oscillatory friction",
+        "C: Sliding friction",
+        "D: Air resistance"
+      ],
+      "correct_answer": "A",
+      "explanation": "Rolling friction is the resistance that occurs when an object rolls, as opposed to sliding friction that occurs when the object slides. Rolling friction is typically lower than sliding friction, making rolling more efficient.",
+      "difficulty": 4,
+      "subcategory": "Reibung: Rollreibung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Methode der Lagrange’schen Multiplikatoren (Zwangskräfte)",
+      "question": "What is the main goal of the method of Lagrange multipliers in analytical mechanics?",
+      "choices": [
+        "A: Determining the mass of a body.",
+        "B: Determining the constraint forces in a system.",
+        "C: Calculating the velocity of an object.",
+        "D: Analyzing electric fields."
+      ],
+      "correct_answer": "B",
+      "explanation": "The method of Lagrange multipliers is used to account for constraint forces in a mechanical system and formulate the equations of motion under constraints. It allows for the optimization of functions while adhering to certain conditions.",
+      "difficulty": 2,
+      "subcategory": "Methode der Lagrange’schen Multiplikatoren (Zwangskräfte)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Brownsche Bewegung",
+      "question": "What describes Brownian motion?",
+      "choices": [
+        "A: The uniform motion of a body in a straight line.",
+        "B: The vibration of molecules in a solid.",
+        "C: The random motion of particles in a liquid or gas.",
+        "D: The motion of planets around the sun."
+      ],
+      "correct_answer": "C",
+      "explanation": "Brownian motion is the random and chaotic motion pattern of small particles suspended in a liquid or gas. This movement results from the collisions of particles with the molecules of the surrounding substance.",
+      "difficulty": 4,
+      "subcategory": "Brownsche Bewegung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Kernmitbewegung; Zwei-Körper-Problem",
+      "question": "In the context of the two-body problem in quantum mechanics, which statement best describes the behavior of the wave functions of the two particles?",
+      "choices": [
+        "A: The wave functions must be symmetric or antisymmetric depending on the particles' identity.",
+        "B: The wave functions of the two particles are independent, but they do not interfere with each other.",
+        "C: The total wave function is the product of the individual wave functions when the particles are identical.",
+        "D: The wave functions are independent and can be added to obtain the total wave function."
+      ],
+      "correct_answer": "A",
+      "explanation": "In quantum mechanics, the wave functions of identical particles must be symmetric or antisymmetric to account for the Pauli exclusion principles. This has a crucial impact on the properties of the system, especially for fermions and bosons.",
+      "difficulty": 10,
+      "subcategory": "Kernmitbewegung; Zwei-Körper-Problem"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Zeitunabhängige Störungstheorie: entartete Niveaus",
+      "question": "What happens when applying time-independent perturbation theory to degenerate energy levels?",
+      "choices": [
+        "A: The energy remains unchanged.",
+        "B: The degenerate states are split by the perturbation.",
+        "C: All states are uniformly shifted.",
+        "D: There are no effects on the states."
+      ],
+      "correct_answer": "B",
+      "explanation": "In time-independent perturbation theory, degenerate levels are split by the perturbation, leading to a differentiation of energy levels. This allows for a more precise description of physical systems affected by external influences.",
+      "difficulty": 5,
+      "subcategory": "Zeitunabhängige Störungstheorie: entartete Niveaus"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Phänomenologie der Supraleitung",
+      "question": "Which of the following phenomena is characteristic of superconductors?",
+      "choices": [
+        "A: Reduction of electrical conductivity with increasing temperature.",
+        "B: Increase in electrical resistance at low temperatures.",
+        "C: Ability to conduct electric current without any resistance, regardless of temperature.",
+        "D: The effect of magnetic flux not penetrating the superconductor (Meissner-Ochsenfeld effect)."
+      ],
+      "correct_answer": "D",
+      "explanation": "The Meissner-Ochsenfeld effect is a key feature of superconductors, where they expel magnetic fields from their interior when transitioning to the superconducting state. This distinguishes superconductors from normal conductors, which show no resistance loss at low temperatures but can still allow magnetic fields.",
+      "difficulty": 7,
+      "subcategory": "Phänomenologie der Supraleitung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Wirkungsquerschnitt & differentielle Größen",
+      "question": "What does the cross section describe in particle physics?",
+      "choices": [
+        "A: The probability of a particle interacting with another particle.",
+        "B: The velocity of a particle in a specific field.",
+        "C: The energy a particle loses during an interaction.",
+        "D: The mass of a particle."
+      ],
+      "correct_answer": "A",
+      "explanation": "The cross section is a measure of the probability of an interaction between particles. It plays a central role in nuclear and particle physics by helping quantify the efficiency of reactions.",
+      "difficulty": 5,
+      "subcategory": "Wirkungsquerschnitt & differentielle Größen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Ginzburg–Landau-Theorie",
+      "question": "What does the Ginzburg–Landau theory describe in the context of superconductors?",
+      "choices": [
+        "A: The crystal structure of superconducting materials.",
+        "B: The thermodynamics of superconducting materials.",
+        "C: The electron correlations in normal conductors.",
+        "D: The relationship between temperature and magnetic flux density in superconducting materials."
+      ],
+      "correct_answer": "D",
+      "explanation": "The Ginzburg–Landau theory describes how the magnetic flux density in superconducting materials varies depending on temperature. It provides a macroscopic description of the superconducting phase and the interactions between superconductivity and magnetism.",
+      "difficulty": 5,
+      "subcategory": "Ginzburg–Landau-Theorie"
+    }
+  ]
+}

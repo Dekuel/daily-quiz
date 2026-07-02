@@ -1,0 +1,169 @@
+{
+  "date": "2026-07-02",
+  "generated_at": "2026-07-02T04:26:42Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Zeitumkehr & Gasexpansion; Störungen der Trajektorien",
+      "question": "Was passiert mit den Trajektorien von Teilchen in einem idealen Gas, wenn man die Zeit umkehrt?",
+      "choices": [
+        "A: Die Teilchen bewegen sich schneller.",
+        "B: Die Teilchen bleiben stationär.",
+        "C: Die Trajektorien werden chaotisch.",
+        "D: Die Trajektorien kehren zu ihrem ursprünglichen Zustand zurück."
+      ],
+      "correct_answer": "D",
+      "explanation": "In der statistischen Mechanik gilt das Zeitumkehrprinzip, das besagt, dass die Bewegung der Teilchen in einem idealen Gas umkehrbar ist. Wenn die Zeit umgekehrt wird, bewegen sich die Teilchen entlang ihrer ursprünglichen Trajektorien zurück.",
+      "difficulty": 5,
+      "subcategory": "Zeitumkehr & Gasexpansion; Störungen der Trajektorien"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Mikrokanonisches Ensemble: Verteilungsfunktion & Dichtematrix",
+      "question": "Was beschreibt die Dichtematrix in einem mikrokanonischen Ensemble?",
+      "choices": [
+        "A: Die Bewegungen von Teilchen in einem Vakuum.",
+        "B: Die Verteilung der Zustände eines Systems bei konstanter Energie.",
+        "C: Die Wechselwirkungen zwischen verschiedenen Teilchenarten.",
+        "D: Die Beziehung zwischen Temperatur und Druck in einem idealen Gas."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Dichtematrix im mikrokanonischen Ensemble beschreibt die Wahrscheinlichkeit, dass sich ein System in einem bestimmten Zustand befindet, unter der Bedingung, dass die Energie konstant ist. Dies ist wichtig für die statistische Beschreibung von Systemen in thermodynamischem Gleichgewicht.",
+      "difficulty": 3,
+      "subcategory": "Mikrokanonisches Ensemble: Verteilungsfunktion & Dichtematrix"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Reibung: Rollreibung",
+      "question": "Was beschreibt den Widerstand, den ein rollendes Objekt auf einer Oberfläche erfährt?",
+      "choices": [
+        "A: Rollreibung",
+        "B: Schwingreibung",
+        "C: Gleitreibung",
+        "D: Luftwiderstand"
+      ],
+      "correct_answer": "A",
+      "explanation": "Rollreibung ist der Widerstand, der auftritt, wenn ein Objekt rollt, im Gegensatz zur Gleitreibung, die auftritt, wenn das Objekt gleitet. Rollreibung ist in der Regel geringer als Gleitreibung, was das Rollen effizienter macht.",
+      "difficulty": 4,
+      "subcategory": "Reibung: Rollreibung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Methode der Lagrange’schen Multiplikatoren (Zwangskräfte)",
+      "question": "Was ist das Hauptziel der Methode der Lagrange’schen Multiplikatoren in der analytischen Mechanik?",
+      "choices": [
+        "A: Die Ermittlung der Masse eines Körpers.",
+        "B: Die Bestimmung der Zwangskräfte in einem System.",
+        "C: Die Berechnung der Geschwindigkeit eines Objekts.",
+        "D: Die Analyse von elektrischen Feldern."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Methode der Lagrange’schen Multiplikatoren dient dazu, Zwangskräfte in einem mechanischen System zu berücksichtigen und die Bewegungsgleichungen unter Nebenbedingungen zu formulieren. Sie ermöglicht die Optimierung von Funktionen, während man bestimmte Bedingungen einhält.",
+      "difficulty": 2,
+      "subcategory": "Methode der Lagrange’schen Multiplikatoren (Zwangskräfte)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Brownsche Bewegung",
+      "question": "Was beschreibt die Brownsche Bewegung?",
+      "choices": [
+        "A: Die gleichmäßige Bewegung eines Körpers auf einer geraden Linie.",
+        "B: Die Schwingung von Molekülen in einem Festkörper.",
+        "C: Die zufällige Bewegung von Partikeln in einer Flüssigkeit oder einem Gas.",
+        "D: Die Bewegung von Planeten um die Sonne."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Brownsche Bewegung ist das zufällige und chaotische Bewegungsmuster von kleinen Partikeln, die in einer Flüssigkeit oder einem Gas suspendiert sind. Diese Bewegung resultiert aus den Kollisionen der Partikel mit den Molekülen der umgebenden Substanz.",
+      "difficulty": 4,
+      "subcategory": "Brownsche Bewegung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Kernmitbewegung; Zwei-Körper-Problem",
+      "question": "Im Rahmen des Zwei-Körper-Problems in der Quantenmechanik, welche Aussage beschreibt das Verhalten der Wellenfunktionen der beiden Teilchen am besten?",
+      "choices": [
+        "A: Die Wellenfunktionen müssen symmetrisch oder antisymmetrisch sein, abhängig von der Identität der Teilchen.",
+        "B: Die Wellenfunktionen der zwei Teilchen sind unabhängig, jedoch interferieren sie nicht miteinander.",
+        "C: Die Gesamtwellenfunktion ist das Produkt der Einzelwellenfunktionen, wenn die Teilchen identisch sind.",
+        "D: Die Wellenfunktionen sind unabhängig und können addiert werden, um die Gesamtwellenfunktion zu erhalten."
+      ],
+      "correct_answer": "A",
+      "explanation": "In der Quantenmechanik müssen die Wellenfunktionen von identischen Teilchen symmetrisch oder antisymmetrisch sein, um die Pauli-Prinzipien zu berücksichtigen. Dies hat einen entscheidenden Einfluss auf die Eigenschaften des Systems, insbesondere bei Fermionen und Bosonen.",
+      "difficulty": 10,
+      "subcategory": "Kernmitbewegung; Zwei-Körper-Problem"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Zeitunabhängige Störungstheorie: entartete Niveaus",
+      "question": "Was passiert bei der Anwendung der zeitunabhängigen Störungstheorie auf entartete Energieniveaus?",
+      "choices": [
+        "A: Die Energie bleibt unverändert.",
+        "B: Die degenerierten Zustände werden durch die Störung aufgespalten.",
+        "C: Alle Zustände werden gleichmäßig verschoben.",
+        "D: Es gibt keine Auswirkungen auf die Zustände."
+      ],
+      "correct_answer": "B",
+      "explanation": "Bei der zeitunabhängigen Störungstheorie werden entartete Niveaus durch die Störung aufgespalten, was zu einer Differenzierung der Energieniveaus führt. Dies ermöglicht eine genauere Beschreibung der physikalischen Systeme, die von externen Einflüssen betroffen sind.",
+      "difficulty": 5,
+      "subcategory": "Zeitunabhängige Störungstheorie: entartete Niveaus"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Phänomenologie der Supraleitung",
+      "question": "Welches der folgenden Phänomene ist charakteristisch für Supraleiter?",
+      "choices": [
+        "A: Die Reduktion der elektrischen Leitfähigkeit durch Erhöhung der Temperatur.",
+        "B: Die Erhöhung des elektrischen Widerstands bei tiefen Temperaturen.",
+        "C: Die Fähigkeit, elektrischen Strom ohne jeglichen Widerstand zu leiten, unabhängig von der Temperatur.",
+        "D: Der Effekt des magnetischen Flusses, der nicht in den Supraleiter eindringen kann (Meißner-Ochsenfeld-Effekt)."
+      ],
+      "correct_answer": "D",
+      "explanation": "Der Meißner-Ochsenfeld-Effekt ist ein zentrales Merkmal von Supraleitern, bei dem sie Magnetfelder aus ihrem Inneren verdrängen, wenn sie in den supraleitenden Zustand übergehen. Dies unterscheidet Supraleiter von normalen Leitern, die bei tiefen Temperaturen keinen Verlust an Widerstand zeigen, aber dennoch Magnetfelder zulassen können.",
+      "difficulty": 7,
+      "subcategory": "Phänomenologie der Supraleitung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Wirkungsquerschnitt & differentielle Größen",
+      "question": "Was beschreibt der Wirkungsquerschnitt in der Teilchenphysik?",
+      "choices": [
+        "A: Die Wahrscheinlichkeit, dass ein Teilchen mit einem anderen Teilchen wechselwirkt.",
+        "B: Die Geschwindigkeit eines Teilchens in einem bestimmten Feld.",
+        "C: Die Energie, die ein Teilchen bei einer Wechselwirkung verliert.",
+        "D: Die Masse eines Teilchens."
+      ],
+      "correct_answer": "A",
+      "explanation": "Der Wirkungsquerschnitt ist ein Maß für die Wahrscheinlichkeit, dass eine Wechselwirkung zwischen Teilchen stattfindet. Er spielt eine zentrale Rolle in der Kern- und Teilchenphysik, da er hilft, die Effizienz von Reaktionen zu quantifizieren.",
+      "difficulty": 5,
+      "subcategory": "Wirkungsquerschnitt & differentielle Größen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Ginzburg–Landau-Theorie",
+      "question": "Was beschreibt die Ginzburg–Landau-Theorie im Kontext von Supraleitern?",
+      "choices": [
+        "A: Die Kristallstruktur von supraleitenden Materialien.",
+        "B: Die Thermodynamik von supraleitenden Materialien.",
+        "C: Die Elektronenkorrelationen in normalen Leitern.",
+        "D: Die Beziehung zwischen Temperatur und magnetischer Flussdichte in supraleitenden Materialien."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Ginzburg–Landau-Theorie beschreibt, wie die magnetische Flussdichte in supraleitenden Materialien in Abhängigkeit von der Temperatur variiert. Sie bietet eine makroskopische Beschreibung der supraleitenden Phase und der Wechselwirkungen zwischen Supraleitung und Magnetismus.",
+      "difficulty": 5,
+      "subcategory": "Ginzburg–Landau-Theorie"
+    }
+  ]
+}
