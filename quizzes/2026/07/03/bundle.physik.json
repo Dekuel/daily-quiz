@@ -1,0 +1,169 @@
+{
+  "date": "2026-07-03",
+  "generated_at": "2026-07-03T04:20:15Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Unbestimmtheitsrelation(en)",
+      "question": "Welche Aussage beschreibt am besten die Unbestimmtheitsrelation von Heisenberg?",
+      "choices": [
+        "A: Die Lichtgeschwindigkeit ist in allen Inertialsystemen konstant.",
+        "B: Es ist unmöglich, sowohl den Ort als auch den Impuls eines Teilchens exakt zu bestimmen.",
+        "C: Teilchen können unendlich oft zwischen verschiedenen Zuständen wechseln.",
+        "D: Der Energieerhaltungssatz kann nicht auf quantenmechanische Systeme angewendet werden."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Unbestimmtheitsrelation von Heisenberg besagt, dass es eine fundamentale Grenze für die gleichzeitige Messung von Ort und Impuls eines Teilchens gibt. Je genauer der Ort eines Teilchens bestimmt wird, desto ungenauer wird der Impuls, und umgekehrt. Dies ist ein zentrales Konzept der Quantenmechanik, das die Natur der subatomaren Teilchen beschreibt.",
+      "difficulty": 7,
+      "subcategory": "Unbestimmtheitsrelation(en)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Erster & Zweiter Hauptsatz (reversibel/irreversibel)",
+      "question": "Welches der folgenden Szenarien beschreibt einen irreversiblen Prozess im Sinne der statistischen Mechanik?",
+      "choices": [
+        "A: Das spontane Mischen von zwei Gasen in einem Behälter.",
+        "B: Das langsame Komprimieren eines Gases unter Isothermie.",
+        "C: Das Verdampfen von Wasser bei konstanter Temperatur und Druck.",
+        "D: Die Rückführung eines Gases in seinen ursprünglichen Zustand ohne Energieverlust."
+      ],
+      "correct_answer": "A",
+      "explanation": "Ein irreversibler Prozess ist durch seine Unumkehrbarkeit gekennzeichnet, was bedeutet, dass er nicht ohne externe Einflüsse rückgängig gemacht werden kann. Das spontane Mischen von zwei Gasen ist ein typisches Beispiel für einen irreversiblen Prozess, da es zu einer Erhöhung der Entropie führt und nicht ohne Aufwand getrennt werden kann.",
+      "difficulty": 8,
+      "subcategory": "Erster & Zweiter Hauptsatz (reversibel/irreversibel)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Ideales Gas: Modell",
+      "question": "Welches der folgenden Gesetze beschreibt das Verhalten eines idealen Gases, wenn die Temperatur konstant gehalten wird?",
+      "choices": [
+        "A: ideal Gasgesetz",
+        "B: Charles-Gesetz",
+        "C: Avogadro-Gesetz",
+        "D: Boyle-Mariotte-Gesetz"
+      ],
+      "correct_answer": "D",
+      "explanation": "Das Boyle-Mariotte-Gesetz beschreibt, dass der Druck eines idealen Gases bei konstanter Temperatur umgekehrt proportional zum Volumen ist. Dies bedeutet, dass bei konstant gehaltener Temperatur eine Erhöhung des Volumens zu einem Rückgang des Drucks führt und umgekehrt.",
+      "difficulty": 7,
+      "subcategory": "Ideales Gas: Modell"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Abbildungsgleichung für dünne Linsen",
+      "question": "Welche der folgenden Gleichungen beschreibt die Beziehung zwischen dem Objektabstand (g), dem Bildabstand (b) und der Brennweite (f) einer dünnen Linse?",
+      "choices": [
+        "A: f = g * b",
+        "B: f = g + b",
+        "C: 1/f = 1/g + 1/b",
+        "D: 1/f = g - b"
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Abbildungsgleichung für dünne Linsen lautet 1/f = 1/g + 1/b. Diese Gleichung beschreibt, wie der Objektabstand, der Bildabstand und die Brennweite einer Linse miteinander verknüpft sind. Sie ist wesentlich für das Verständnis der Bildentstehung durch Linsen.",
+      "difficulty": 4,
+      "subcategory": "Abbildungsgleichung für dünne Linsen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Sommerfeldsche Theorie",
+      "question": "Welches Konzept beschreibt die Sommerfeldsche Theorie zur Erklärung der elektrischen Leitfähigkeit in Metallen?",
+      "choices": [
+        "A: Die Temperatur hat keinen Einfluss auf die Leitfähigkeit von Metallen.",
+        "B: Die Bandstruktur von Halbleitern ist für die Leitfähigkeit verantwortlich.",
+        "C: Die Elektronen in Metallen bewegen sich als freie Teilchen in einem Potentialtopf.",
+        "D: Die Wechselwirkungen zwischen Atomkernen bestimmen die leitenden Eigenschaften."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Sommerfeldsche Theorie erläutert die elektrische Leitfähigkeit in Metallen durch die Annahme, dass Elektronen sich als nahezu freie Teilchen in einem regelmäßigen Gitter bewegen, was zu einer hohen Beweglichkeit und damit zu einer guten Leitfähigkeit führt. Diese Theorie stellt eine Erweiterung des Drude-Modells dar und berücksichtigt quantenmechanische Effekte.",
+      "difficulty": 9,
+      "subcategory": "Sommerfeldsche Theorie"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Effektive Masse von Elektronen & Löchern",
+      "question": "Was beschreibt die effektive Masse von Elektronen in einem Halbleiter?",
+      "choices": [
+        "A: Die Geschwindigkeit der Elektronen bei Raumtemperatur.",
+        "B: Die elektrische Ladung der Elektronen.",
+        "C: Die Anzahl der Elektronen in einem Atom.",
+        "D: Die Trägheit der Elektronen in einem Kristallgitter."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die effektive Masse ist ein Maß dafür, wie sich Elektronen in einem Kristallgitter unter dem Einfluss eines elektrischen Feldes verhalten. Sie berücksichtigt die Wechselwirkungen mit dem Gitter und kann davon abweichen, was die Masse im Vakuum wäre.",
+      "difficulty": 5,
+      "subcategory": "Effektive Masse von Elektronen & Löchern"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "S- und T-Matrix",
+      "question": "Was beschreibt die S-Matrix in der Quantenmechanik?",
+      "choices": [
+        "A: Die Temperatur eines Quantenobjekts.",
+        "B: Die Geschwindigkeit eines Teilchens.",
+        "C: Die Energie eines Systems zu jedem Zeitpunkt.",
+        "D: Die Wahrscheinlichkeit, dass ein System von einem Zustand in einen anderen übergeht."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die S-Matrix, oder Streumatrix, beschreibt in der Quantenmechanik die Übergangswahrscheinlichkeiten zwischen verschiedenen Zuständen eines Systems. Sie ist ein zentrales Werkzeug zur Analyse von Streuprozessen in der Quantenfeldtheorie.",
+      "difficulty": 2,
+      "subcategory": "S- und T-Matrix"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Verallgemeinerte Potentiale",
+      "question": "Was beschreibt ein verallgemeinertes Potential in der analytischen Mechanik?",
+      "choices": [
+        "A: Es ermöglicht die Formulierung von Lagrangeschen Gleichungen.",
+        "B: Es bezieht sich ausschließlich auf die Bewegung von Partikeln in einem Vakuum.",
+        "C: Es beschreibt die Energieänderung eines Systems in Echtzeit.",
+        "D: Es ist identisch mit dem klassischen Potential in der Newtonschen Mechanik."
+      ],
+      "correct_answer": "A",
+      "explanation": "Ein verallgemeinertes Potential ist ein Konzept in der analytischen Mechanik, das die Formulierung von Lagrangeschen Gleichungen erleichtert. Es generalisiert die Idee des klassischen Potentials, indem es auch nicht-konservative Kräfte und komplexe Systeme berücksichtigt.",
+      "difficulty": 5,
+      "subcategory": "Verallgemeinerte Potentiale"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Mischungsentropie",
+      "question": "Was passiert mit der Entropie eines Systems, wenn zwei unterschiedliche Gase bei konstanter Temperatur und Druck gemischt werden?",
+      "choices": [
+        "A: Die Entropie nimmt ab.",
+        "B: Die Entropie nimmt zu.",
+        "C: Die Entropie bleibt gleich.",
+        "D: Die Entropie kann nicht bestimmt werden."
+      ],
+      "correct_answer": "B",
+      "explanation": "Wenn zwei unterschiedliche Gase bei konstanter Temperatur und Druck gemischt werden, erhöht sich die Entropie des Systems. Dies liegt daran, dass die Mischungsentropie das Maß für die Unordnung oder die Anzahl der möglichen Mikrozustände des Systems erhöht.",
+      "difficulty": 4,
+      "subcategory": "Mischungsentropie"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Gluonenabstrahlung (Jets)",
+      "question": "Was beschreibt die Gluonenabstrahlung in der Hochenergiephysik?",
+      "choices": [
+        "A: Die Erzeugung von Photonen aus der Wechselwirkung von Neutronen.",
+        "B: Die Wechselwirkung von Elektronen mit Protonen.",
+        "C: Die Emission von Gluonen, die Quarks und Gluonen in Jets umwandeln.",
+        "D: Die Kollision von Atomen in einem Fusionreaktor."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Gluonenabstrahlung bezieht sich auf den Prozess, bei dem Gluonen in einem Quark-Gluon-Plasma emittiert werden, was zur Bildung von Jets führt, die aus Hadronen bestehen. Diese Jets sind wichtige Signale in der Hochenergiephysik und helfen, die fundamentalen Wechselwirkungen zu verstehen.",
+      "difficulty": 5,
+      "subcategory": "Gluonenabstrahlung (Jets)"
+    }
+  ]
+}

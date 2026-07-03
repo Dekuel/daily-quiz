@@ -1,0 +1,168 @@
+{
+  "date": "2026-07-03",
+  "generated_at": "2026-07-03T04:20:55Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Unbestimmtheitsrelation(en)",
+      "question": "Which statement best describes Heisenberg's uncertainty principle?",
+      "choices": [
+        "A: The speed of light is constant in all inertial systems.",
+        "B: It is impossible to precisely determine both the position and momentum of a particle.",
+        "C: Particles can switch between different states infinitely.",
+        "D: The conservation of energy cannot be applied to quantum mechanical systems."
+      ],
+      "correct_answer": "B",
+      "explanation": "The Heisenberg uncertainty principle states that there is a fundamental limit to the simultaneous measurement of a particle's position and momentum. The more precisely the position of a particle is determined, the less precisely the momentum is known, and vice versa. This is a central concept of quantum mechanics that describes the nature of subatomic particles.",
+      "difficulty": 7,
+      "subcategory": "Unbestimmtheitsrelation(en)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Erster & Zweiter Hauptsatz (reversibel/irreversibel)",
+      "question": "Which of the following scenarios describes an irreversible process in the context of statistical mechanics?",
+      "choices": [
+        "A: The spontaneous mixing of two gases in a container.",
+        "B: The slow compression of a gas under isothermic conditions.",
+        "C: The evaporation of water at constant temperature and pressure.",
+        "D: The return of a gas to its original state without energy loss."
+      ],
+      "correct_answer": "A",
+      "explanation": "An irreversible process is characterized by its irreversibility, meaning it cannot be undone without external influences. The spontaneous mixing of two gases is a typical example of an irreversible process, as it leads to an increase in entropy and cannot be reversed without effort.",
+      "difficulty": 8,
+      "subcategory": "Erster & Zweiter Hauptsatz (reversibel/irreversibel)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Ideales Gas: Modell",
+      "question": "Which of the following laws describes the behavior of an ideal gas when temperature is held constant?",
+      "choices": [
+        "A: Ideal gas law",
+        "B: Charles's law",
+        "C: Avogadro's law",
+        "D: Boyle's law"
+      ],
+      "correct_answer": "D",
+      "explanation": "The Boyle's law describes that the pressure of an ideal gas is inversely proportional to the volume at constant temperature. This means that an increase in volume leads to a decrease in pressure and vice versa when temperature is held constant.",
+      "difficulty": 7,
+      "subcategory": "Ideales Gas: Modell"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Abbildungsgleichung für dünne Linsen",
+      "question": "Which of the following equations describes the relationship between object distance (g), image distance (b), and focal length (f) of a thin lens?",
+      "choices": [
+        "A: f = g * b",
+        "B: f = g + b",
+        "C: 1/f = 1/g + 1/b",
+        "D: 1/f = g - b"
+      ],
+      "correct_answer": "C",
+      "explanation": "The thin lens equation is 1/f = 1/g + 1/b. This equation describes how the object distance, image distance, and focal length of a lens are related. It is essential for understanding image formation by lenses.",
+      "difficulty": 4,
+      "subcategory": "Abbildungsgleichung für dünne Linsen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Sommerfeldsche Theorie",
+      "question": "Which concept describes the Sommerfeld theory for explaining electrical conductivity in metals?",
+      "choices": [
+        "A: Temperature has no effect on the conductivity of metals.",
+        "B: The band structure of semiconductors is responsible for conductivity.",
+        "C: Electrons in metals move as free particles in a potential well.",
+        "D: Interactions between atomic nuclei determine the conducting properties."
+      ],
+      "correct_answer": "C",
+      "explanation": "The Sommerfeld theory explains the electrical conductivity in metals by assuming that electrons move as nearly free particles in a regular lattice, leading to high mobility and thus good conductivity. This theory is an extension of the Drude model and considers quantum mechanical effects.",
+      "difficulty": 9,
+      "subcategory": "Sommerfeldsche Theorie"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Effektive Masse von Elektronen & Löchern",
+      "question": "What does the effective mass of electrons in a semiconductor describe?",
+      "choices": [
+        "A: The velocity of electrons at room temperature.",
+        "B: The electric charge of electrons.",
+        "C: The number of electrons in an atom.",
+        "D: The inertia of electrons in a crystal lattice."
+      ],
+      "correct_answer": "D",
+      "explanation": "The effective mass is a measure of how electrons behave in a crystal lattice under the influence of an electric field. It takes into account interactions with the lattice and may differ from what the mass would be in a vacuum.",
+      "difficulty": 5,
+      "subcategory": "Effektive Masse von Elektronen & Löchern"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "S- und T-Matrix",
+      "question": "What does the S-matrix describe in quantum mechanics?",
+      "choices": [
+        "A: The temperature of a quantum object.",
+        "B: The velocity of a particle.",
+        "C: The energy of a system at any given time.",
+        "D: The probability of a system transitioning from one state to another."
+      ],
+      "correct_answer": "D",
+      "explanation": "The S-matrix, or scattering matrix, describes in quantum mechanics the transition probabilities between different states of a system. It is a central tool for analyzing scattering processes in quantum field theory.",
+      "difficulty": 2,
+      "subcategory": "S- und T-Matrix"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Verallgemeinerte Potentiale",
+      "question": "What does a generalized potential describe in analytical mechanics?",
+      "choices": [
+        "A: It enables the formulation of Lagrange's equations.",
+        "B: It refers exclusively to the motion of particles in a vacuum.",
+        "C: It describes the energy change of a system in real-time.",
+        "D: It is identical to the classical potential in Newtonian mechanics."
+      ],
+      "correct_answer": "A",
+      "explanation": "A generalized potential is a concept in analytical mechanics that facilitates the formulation of Lagrange's equations. It generalizes the idea of classical potential by considering non-conservative forces and complex systems.",
+      "difficulty": 5,
+      "subcategory": "Verallgemeinerte Potentiale"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Mischungsentropie",
+      "question": "What happens to the entropy of a system when two different gases are mixed at constant temperature and pressure?",
+      "choices": [
+        "A: The entropy decreases.",
+        "B: The entropy increases.",
+        "C: The entropy remains the same.",
+        "D: The entropy cannot be determined."
+      ],
+      "correct_answer": "B",
+      "explanation": "When two different gases are mixed at constant temperature and pressure, the entropy of the system increases. This is because the mixing entropy increases the measure of disorder or the number of possible microstates of the system.",
+      "difficulty": 4,
+      "subcategory": "Mischungsentropie"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Gluonenabstrahlung (Jets)",
+      "question": "What does gluon radiation describe in high-energy physics?",
+      "choices": [
+        "A: The generation of photons from the interaction of neutrons.",
+        "B: The interaction of electrons with protons.",
+        "C: The emission of gluons that convert quarks and gluons into jets.",
+        "D: The collision of atoms in a fusion reactor."
+      ],
+      "correct_answer": "C",
+      "explanation": "Gluon radiation refers to the process where gluons are emitted in a quark-gluon plasma, leading to the formation of jets consisting of hadrons. These jets are important signals in high-energy physics and help understand fundamental interactions.",
+      "difficulty": 5,
+      "subcategory": "Gluonenabstrahlung (Jets)"
+    }
+  ]
+}
