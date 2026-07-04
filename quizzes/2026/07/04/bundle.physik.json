@@ -1,0 +1,169 @@
+{
+  "date": "2026-07-04",
+  "generated_at": "2026-07-04T04:17:20Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Streuung an Defekten",
+      "question": "Was passiert, wenn ein Elektron auf einen Kristalldefekt trifft?",
+      "choices": [
+        "A: Es durchdringt den Defekt ohne Wechselwirkung.",
+        "B: Es wird in eine andere Dimension verschoben.",
+        "C: Es verliert seine Energie vollständig.",
+        "D: Es wird gestreut."
+      ],
+      "correct_answer": "D",
+      "explanation": "Wenn ein Elektron auf einen Defekt in einem Kristall trifft, erfährt es eine Streuung. Diese Streuung kann die Richtung und Energie des Elektrons beeinflussen, ohne dass es vollständig seine Energie verliert oder in eine andere Dimension verschoben wird.",
+      "difficulty": 2,
+      "subcategory": "Streuung an Defekten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Langevin-Gleichungen (frei & mit Kraftfeld)",
+      "question": "Was beschreibt die Langevin-Gleichung in der statistischen Mechanik?",
+      "choices": [
+        "A: Die zeitliche Entwicklung eines Teilchen mit zufälligen Störungen und externen Kräften.",
+        "B: Die Bewegung von Teilchen in einem idealen Gas ohne äußere Einflüsse.",
+        "C: Die Beziehung zwischen Temperatur und Druck in einem geschlossenen System.",
+        "D: Die quantenmechanische Beschreibung von Teilchen in einem Potentialfeld."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Langevin-Gleichung modelliert die Bewegung eines Teilchens unter dem Einfluss von zufälligen Störungen, die oft als thermische Fluktuationen angesehen werden, sowie durch externe Kräfte. Dies ist besonders nützlich zur Beschreibung von Diffusionsprozessen und der dynamischen Eigenschaften von Partikeln in Flüssigkeiten oder Gasen.",
+      "difficulty": 5,
+      "subcategory": "Langevin-Gleichungen (frei & mit Kraftfeld)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Virialentwicklung & 2. Virialkoeffizient (klass./quant.)",
+      "question": "Was beschreibt der zweite Virialkoeffizient in der statistischen Mechanik?",
+      "choices": [
+        "A: Die Gesamtenergie eines Systems.",
+        "B: Die Entropie eines Systems.",
+        "C: Die Temperatur eines Systems.",
+        "D: Die Wechselwirkungen zwischen zwei Teilchen."
+      ],
+      "correct_answer": "D",
+      "explanation": "Der zweite Virialkoeffizient beschreibt die Wechselwirkungen zwischen zwei Teilchen in einem Gas und beeinflusst das Verhalten des Gases bei höheren Dichten. Er ist entscheidend für die Beschreibung der nicht idealen Gase in der statistischen Mechanik.",
+      "difficulty": 4,
+      "subcategory": "Virialentwicklung & 2. Virialkoeffizient (klass./quant.)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Kepler-Problem (HJ/AA-Formalismus)",
+      "question": "Was beschreibt das Kepler-Problem in der Analytischen Mechanik?",
+      "choices": [
+        "A: Die Bewegung eines Körpers um einen anderen unter dem Einfluss der Gravitation",
+        "B: Die quantenmechanischen Zustände von Teilchen",
+        "C: Die Reflexion von Lichtstrahlen an einer Oberfläche",
+        "D: Die Wärmeübertragung zwischen zwei Körpern"
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Kepler-Problem befasst sich mit der Bewegung von Planeten und anderen Himmelskörpern, die sich unter dem Einfluss der Gravitation eines zentralen Körpers bewegen. Es ist ein klassisches Problem der Analytischen Mechanik und zeigt, wie sich diese Körper in elliptischen Bahnen bewegen können.",
+      "difficulty": 3,
+      "subcategory": "Kepler-Problem (HJ/AA-Formalismus)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Quarks in Hadronen (Flavor, Farbladung)",
+      "question": "Welcher der folgenden Quark-Flavors hat die größte elektrische Ladung?",
+      "choices": [
+        "A: Strange-Quark",
+        "B: Up-Quark",
+        "C: Bottom-Quark",
+        "D: Down-Quark"
+      ],
+      "correct_answer": "B",
+      "explanation": "Das Up-Quark hat eine elektrische Ladung von +2/3, während die anderen Quarks (Down, Strange und Bottom) eine geringere oder negative Ladung haben. Diese Eigenschaften sind entscheidend für die Zusammensetzung von Hadronen wie Protonen und Neutronen.",
+      "difficulty": 6,
+      "subcategory": "Quarks in Hadronen (Flavor, Farbladung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Maxwell–Boltzmann-Verteilung",
+      "question": "Was beschreibt die Maxwell-Boltzmann-Verteilung?",
+      "choices": [
+        "A: Die Lichtintensität, die von einem Körper emittiert wird.",
+        "B: Die Bewegung von Planeten um die Sonne.",
+        "C: Die Energieverteilung von Elektronen in einem Atom.",
+        "D: Die Verteilung der Geschwindigkeiten von Teilchen in einem idealen Gas."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Maxwell-Boltzmann-Verteilung beschreibt die statistische Verteilung der Geschwindigkeiten von Teilchen in einem idealen Gas bei thermischem Gleichgewicht. Diese Verteilung ist wichtig für das Verständnis von thermodynamischen Prozessen und kinetischer Theorie.",
+      "difficulty": 1,
+      "subcategory": "Maxwell–Boltzmann-Verteilung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Irreversible Expansion (Gay-Lussac)",
+      "question": "Welche Aussage beschreibt am besten das Verhalten eines idealen Gases während einer irreversiblen Expansion bei konstanter Temperatur gemäß dem Gay-Lussac-Gesetz?",
+      "choices": [
+        "A: Die Temperatur des Gases steigt, während das Volumen konstant bleibt.",
+        "B: Der Druck des Gases bleibt konstant, während das Volumen zunimmt.",
+        "C: Der Druck des Gases sinkt, während die Temperatur konstant bleibt.",
+        "D: Das Gas nimmt einen festen Zustand an und das Volumen bleibt unverändert."
+      ],
+      "correct_answer": "B",
+      "explanation": "Bei einer konstanten Temperatur während einer irreversiblen Expansion bleibt der Druck des idealen Gases konstant, während das Volumen zunimmt. Dies steht im Einklang mit dem Gesetz von Gay-Lussac, das die Beziehung zwischen Druck und Temperatur beschreibt, wobei in diesem Fall das Volumen flexibel ist.",
+      "difficulty": 7,
+      "subcategory": "Irreversible Expansion (Gay-Lussac)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Störungstheoretische Grundformel",
+      "question": "Was beschreibt die störungstheoretische Grundformel in der Quantenmechanik?",
+      "choices": [
+        "A: Die Schwingungen von Teilchen in einem klassischen Pendel.",
+        "B: Die Änderung der Energie eines Systems bei einer kleinen Störung.",
+        "C: Die Berechnung der Temperatur eines quantenmechanischen Systems.",
+        "D: Die Wechselwirkung zwischen Licht und Materie auf makroskopischer Ebene."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die störungstheoretische Grundformel in der Quantenmechanik befasst sich mit der Berechnung von Änderungen in den Eigenschaften eines Systems, wenn es einer kleinen perturbativen Störung ausgesetzt wird. Diese Methode ist besonders nützlich, um Übergangs Wahrscheinlichkeiten zwischen Zuständen zu bestimmen.",
+      "difficulty": 6,
+      "subcategory": "Störungstheoretische Grundformel"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Landau-Niveaus",
+      "question": "Was beschreibt das Konzept der Landau-Niveaus in der Festkörperphysik?",
+      "choices": [
+        "A: Die Temperaturabhängigkeit von Festkörpern.",
+        "B: Das Verhalten von Licht in Kristallen.",
+        "C: Die Struktur von Atomen.",
+        "D: Diskrete Energiezustände von Elektronen in einem Magnetfeld."
+      ],
+      "correct_answer": "D",
+      "explanation": "Landau-Niveaus sind quantisierte Energiezustände von Elektronen, die in einem starken Magnetfeld existieren. Sie sind wichtig für das Verständnis der elektrischen Eigenschaften von Materialien unter magnetischen Einflüssen.",
+      "difficulty": 2,
+      "subcategory": "Landau-Niveaus"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Kinematik der Elektronenstreuung",
+      "question": "Was beschreibt die Kinematik der Elektronenstreuung hauptsächlich?",
+      "choices": [
+        "A: Die Energieerhaltung bei chemischen Reaktionen.",
+        "B: Die Temperaturabhängigkeit von Elektronenbewegungen.",
+        "C: Die Wechselwirkung von Elektronen mit Atomkernen.",
+        "D: Die Lichtgeschwindigkeit in verschiedenen Medien."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Kinematik der Elektronenstreuung befasst sich mit der Analyse der Bewegungen und Wechselwirkungen von Elektronen, insbesondere wenn sie auf Atomkerne treffen. Diese Prozesse sind entscheidend, um die Struktur von Materie und die Eigenschaften von subatomaren Teilchen zu verstehen.",
+      "difficulty": 5,
+      "subcategory": "Kinematik der Elektronenstreuung"
+    }
+  ]
+}

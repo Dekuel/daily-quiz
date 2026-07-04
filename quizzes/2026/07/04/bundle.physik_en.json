@@ -1,0 +1,168 @@
+{
+  "date": "2026-07-04",
+  "generated_at": "2026-07-04T04:17:54Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Streuung an Defekten",
+      "question": "What happens when an electron encounters a crystal defect?",
+      "choices": [
+        "A: It penetrates the defect without interaction.",
+        "B: It is shifted to another dimension.",
+        "C: It completely loses its energy.",
+        "D: It is scattered."
+      ],
+      "correct_answer": "D",
+      "explanation": "When an electron encounters a defect in a crystal, it undergoes scattering. This scattering can influence the direction and energy of the electron without it completely losing its energy or being shifted to another dimension.",
+      "difficulty": 2,
+      "subcategory": "Streuung an Defekten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Langevin-Gleichungen (frei & mit Kraftfeld)",
+      "question": "What does the Langevin equation describe in statistical mechanics?",
+      "choices": [
+        "A: The temporal evolution of a particle with random disturbances and external forces.",
+        "B: The motion of particles in an ideal gas without external influences.",
+        "C: The relationship between temperature and pressure in a closed system.",
+        "D: The quantum mechanical description of particles in a potential field."
+      ],
+      "correct_answer": "A",
+      "explanation": "The Langevin equation models the motion of a particle under the influence of random disturbances, often viewed as thermal fluctuations, as well as external forces. This is particularly useful for describing diffusion processes and the dynamic properties of particles in liquids or gases.",
+      "difficulty": 5,
+      "subcategory": "Langevin-Gleichungen (frei & mit Kraftfeld)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Virialentwicklung & 2. Virialkoeffizient (klass./quant.)",
+      "question": "What does the second virial coefficient describe in statistical mechanics?",
+      "choices": [
+        "A: The total energy of a system.",
+        "B: The entropy of a system.",
+        "C: The temperature of a system.",
+        "D: The interactions between two particles."
+      ],
+      "correct_answer": "D",
+      "explanation": "The second virial coefficient describes the interactions between two particles in a gas and influences the behavior of the gas at higher densities. It is crucial for describing non-ideal gases in statistical mechanics.",
+      "difficulty": 4,
+      "subcategory": "Virialentwicklung & 2. Virialkoeffizient (klass./quant.)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Kepler-Problem (HJ/AA-Formalismus)",
+      "question": "What does the Kepler problem describe in analytical mechanics?",
+      "choices": [
+        "A: The motion of a body around another under the influence of gravity",
+        "B: The quantum mechanical states of particles",
+        "C: The reflection of light rays on a surface",
+        "D: The heat transfer between two bodies"
+      ],
+      "correct_answer": "A",
+      "explanation": "The Kepler problem deals with the motion of planets and other celestial bodies moving under the influence of the gravitational pull of a central body. It is a classic problem in analytical mechanics and shows how these bodies can move in elliptical orbits.",
+      "difficulty": 3,
+      "subcategory": "Kepler-Problem (HJ/AA-Formalismus)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Quarks in Hadronen (Flavor, Farbladung)",
+      "question": "Which of the following quark flavors has the largest electric charge?",
+      "choices": [
+        "A: Strange quark",
+        "B: Up quark",
+        "C: Bottom quark",
+        "D: Down quark"
+      ],
+      "correct_answer": "B",
+      "explanation": "The up quark has an electric charge of +2/3, while the other quarks (down, strange, and bottom) have lower or negative charges. These properties are crucial for the composition of hadrons like protons and neutrons.",
+      "difficulty": 6,
+      "subcategory": "Quarks in Hadronen (Flavor, Farbladung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Maxwell–Boltzmann-Verteilung",
+      "question": "What does the Maxwell-Boltzmann distribution describe?",
+      "choices": [
+        "A: The light intensity emitted by a body.",
+        "B: The motion of planets around the sun.",
+        "C: The energy distribution of electrons in an atom.",
+        "D: The distribution of particle velocities in an ideal gas."
+      ],
+      "correct_answer": "D",
+      "explanation": "The Maxwell-Boltzmann distribution describes the statistical distribution of particle velocities in an ideal gas at thermal equilibrium. This distribution is important for understanding thermodynamic processes and kinetic theory.",
+      "difficulty": 1,
+      "subcategory": "Maxwell–Boltzmann-Verteilung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Irreversible Expansion (Gay-Lussac)",
+      "question": "Which statement best describes the behavior of an ideal gas during an irreversible expansion at constant temperature according to Gay-Lussac's law?",
+      "choices": [
+        "A: The gas's temperature increases while the volume remains constant.",
+        "B: The gas's pressure remains constant while the volume increases.",
+        "C: The gas's pressure decreases while the temperature remains constant.",
+        "D: The gas assumes a solid state and the volume remains unchanged."
+      ],
+      "correct_answer": "B",
+      "explanation": "At constant temperature during an irreversible expansion, the pressure of the ideal gas remains constant while the volume increases. This is in line with Gay-Lussac's law, which describes the relationship between pressure and temperature, with the volume being flexible in this case.",
+      "difficulty": 7,
+      "subcategory": "Irreversible Expansion (Gay-Lussac)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Störungstheoretische Grundformel",
+      "question": "What does the perturbation theory basic formula describe in quantum mechanics?",
+      "choices": [
+        "A: The oscillations of particles in a classical pendulum.",
+        "B: The change in a system's energy under a small disturbance.",
+        "C: The calculation of a quantum mechanical system's temperature.",
+        "D: The interaction between light and matter on a macroscopic level."
+      ],
+      "correct_answer": "B",
+      "explanation": "The perturbation theory basic formula in quantum mechanics deals with calculating changes in the properties of a system when subjected to a small perturbative disturbance. This method is particularly useful for determining transition probabilities between states.",
+      "difficulty": 6,
+      "subcategory": "Störungstheoretische Grundformel"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Landau-Niveaus",
+      "question": "What does the concept of Landau levels describe in solid-state physics?",
+      "choices": [
+        "A: The temperature dependence of solids.",
+        "B: The behavior of light in crystals.",
+        "C: The structure of atoms.",
+        "D: Discrete energy states of electrons in a magnetic field."
+      ],
+      "correct_answer": "D",
+      "explanation": "Landau levels are quantized energy states of electrons existing in a strong magnetic field. They are important for understanding the electrical properties of materials under magnetic influences.",
+      "difficulty": 2,
+      "subcategory": "Landau-Niveaus"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Kinematik der Elektronenstreuung",
+      "question": "What does the kinematics of electron scattering primarily describe?",
+      "choices": [
+        "A: The energy conservation in chemical reactions.",
+        "B: The temperature dependence of electron movements.",
+        "C: The interaction of electrons with atomic nuclei.",
+        "D: The speed of light in different media."
+      ],
+      "correct_answer": "C",
+      "explanation": "The kinematics of electron scattering deals with analyzing the movements and interactions of electrons, especially when they encounter atomic nuclei. These processes are crucial for understanding the structure of matter and the properties of subatomic particles.",
+      "difficulty": 5,
+      "subcategory": "Kinematik der Elektronenstreuung"
+    }
+  ]
+}
