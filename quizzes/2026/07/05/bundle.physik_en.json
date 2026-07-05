@@ -1,0 +1,168 @@
+{
+  "date": "2026-07-05",
+  "generated_at": "2026-07-05T04:26:01Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Elektroschwache Vereinheitlichung (SU(2)×U(1))",
+      "question": "What does the SU(2)×U(1) symmetry principle describe in the electroweak theory?",
+      "choices": [
+        "A: The structure of hadrons and their binding forces.",
+        "B: The unification of electromagnetic and weak interactions.",
+        "C: The interactions between quarks and gluons.",
+        "D: The generation of matter from energy according to the theory of relativity."
+      ],
+      "correct_answer": "B",
+      "explanation": "The SU(2)×U(1) symmetry principle describes the electroweak interaction, which unifies electromagnetic and weak forces. This theory is a central component of the Standard Model of particle physics and explains how W and Z bosons mediate the weak interaction.",
+      "difficulty": 7,
+      "subcategory": "Elektroschwache Vereinheitlichung (SU(2)×U(1))"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Wärmekapazitäten (C_V, C_p, Beziehungen)",
+      "question": "Which heat capacity describes a substance's ability to absorb heat at constant volume?",
+      "choices": [
+        "A: C_m",
+        "B: C_p",
+        "C: C_V",
+        "D: C_a"
+      ],
+      "correct_answer": "C",
+      "explanation": "C_V represents the molar heat capacity at constant volume. It describes how much heat must be supplied to a substance to increase its temperature while keeping the volume constant.",
+      "difficulty": 2,
+      "subcategory": "Wärmekapazitäten (C_V, C_p, Beziehungen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Unterscheidbare Teilchen: Produktraum & Observable",
+      "question": "Which statement about the product space of distinguishable particles in quantum mechanics is correct?",
+      "choices": [
+        "A: The product space for distinguishable particles is only applicable to bosons.",
+        "B: The product space for two distinguishable particles is the tensor product of their individual state spaces.",
+        "C: The observables of a system of distinguishable particles are independent of their states.",
+        "D: The product space for two distinguishable particles is identical to the direct product of their individual state spaces."
+      ],
+      "correct_answer": "B",
+      "explanation": "In quantum mechanics, the product space of two distinguishable particles is defined by the tensor product of their individual state spaces. This is crucial for accurately describing the interactions and overall states of the particles.",
+      "difficulty": 8,
+      "subcategory": "Unterscheidbare Teilchen: Produktraum & Observable"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Carnot-Kreisprozess & Wirkungsgrad",
+      "question": "Which of the following statements correctly describes the maximum efficiency of a Carnot cycle process?",
+      "choices": [
+        "A: The efficiency is always higher than the efficiency of a real process.",
+        "B: The efficiency can never reach 100%, even under ideal conditions.",
+        "C: The maximum achievable efficiency depends only on the temperatures of the heat sources.",
+        "D: The efficiency is independent of the temperatures of the heat sources."
+      ],
+      "correct_answer": "C",
+      "explanation": "The maximum efficiency of a Carnot cycle process is determined by the temperatures of the hot and cold reservoirs and can be calculated using the formula η = 1 - (T_cold/T_hot). Therefore, statement A is correct, while the other statements are either false or misleading.",
+      "difficulty": 7,
+      "subcategory": "Carnot-Kreisprozess & Wirkungsgrad"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Arbeit in der Thermodynamik (p dV, generalisiert)",
+      "question": "Which of the following statements correctly describes the work done in a quasi-static process of an ideal gas in a p-V diagram?",
+      "choices": [
+        "A: The work is equal to the product of pressure and volume change, regardless of the type of process.",
+        "B: The work is equal to the change in the gas's internal energy multiplied by the temperature.",
+        "C: The work is equal to the integral of the product of temperature and the volume differential.",
+        "D: The work is equal to the integral of the pressure over the volume, with the pressure remaining constant."
+      ],
+      "correct_answer": "D",
+      "explanation": "In a p-V diagram, the work done during a quasi-static process is represented by the integral of the pressure over the change in volume. This relationship holds true only when the pressure is not constant, making answer A correct and illustrating the mathematical approach to calculating work in thermodynamics.",
+      "difficulty": 10,
+      "subcategory": "Arbeit in der Thermodynamik (p dV, generalisiert)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Eigenschaften von Photonen",
+      "question": "Which property of a photon determines its color?",
+      "choices": [
+        "A: Wavelength",
+        "B: Speed",
+        "C: Energy",
+        "D: Polarization"
+      ],
+      "correct_answer": "A",
+      "explanation": "The color of a photon depends on its wavelength. Photons with different wavelengths exhibit different colors in the visible spectrum, with shorter wavelengths appearing blue and longer wavelengths appearing red.",
+      "difficulty": 6,
+      "subcategory": "Eigenschaften von Photonen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Der elastische Stoß in der SRT",
+      "question": "Which statement correctly describes the elastic collision between two relativistic particles, both having a mass that is significant in a relativistic context?",
+      "choices": [
+        "A: Energy conservation applies only when both particles are at rest relative to each other.",
+        "B: The total energy and total momentum are constant before and after the collision, with relativistic effects of velocity addition needing to be considered.",
+        "C: In an elastic collision in special relativity, the particles' velocities always remain below the speed of light, regardless of their initial momentum.",
+        "D: The elastic collision always results in a conversion of some of the kinetic energy into thermal energy, regardless of relativity."
+      ],
+      "correct_answer": "B",
+      "explanation": "In the context of special relativity, in an elastic collision, the total energy and total momentum remain constant. Relativistic effects such as velocity addition and relativistic mass increase must be considered to obtain an accurate description.",
+      "difficulty": 10,
+      "subcategory": "Der elastische Stoß in der SRT"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Elektrische Dipolstrahlung",
+      "question": "What does electric dipole radiation describe?",
+      "choices": [
+        "A: The radiation generated by a changing electric dipole.",
+        "B: The radiation generated exclusively by positive charges.",
+        "C: The radiation that only occurs at high frequencies.",
+        "D: The radiation generated by a stationary electric dipole."
+      ],
+      "correct_answer": "A",
+      "explanation": "Electric dipole radiation arises from the temporal change in the electric dipole moment. It occurs when the charge distribution in the dipole changes, emitting electromagnetic waves.",
+      "difficulty": 4,
+      "subcategory": "Elektrische Dipolstrahlung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Natürliche Zustandsvariablen (U, H, F, G)",
+      "question": "Which of the following quantities describes the free energy of a system?",
+      "choices": [
+        "A: Internal energy (U)",
+        "B: Enthalpy (H)",
+        "C: Gibbs energy (G)",
+        "D: Helmholtz energy (F)"
+      ],
+      "correct_answer": "C",
+      "explanation": "Gibbs energy (G) is a natural state variable that describes the free energy of a system and is commonly used in thermodynamics to assess the equilibrium and spontaneity of processes. It is particularly relevant at constant pressure and temperature.",
+      "difficulty": 5,
+      "subcategory": "Natürliche Zustandsvariablen (U, H, F, G)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Wirkungsprinzipien (Überblick)",
+      "question": "Which of the following principles describes the condition for achieving an extremum of action in a physical system?",
+      "choices": [
+        "A: Law of conservation of energy",
+        "B: Principle of least action",
+        "C: Law of conservation of momentum",
+        "D: Newton's first law"
+      ],
+      "correct_answer": "B",
+      "explanation": "The principle of least action states that the path of a system between two states is the one that minimizes the action. This principle is central in analytical mechanics and fundamentally differs from the classical laws of motion.",
+      "difficulty": 8,
+      "subcategory": "Wirkungsprinzipien (Überblick)"
+    }
+  ]
+}

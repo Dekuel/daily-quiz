@@ -1,0 +1,169 @@
+{
+  "date": "2026-07-05",
+  "generated_at": "2026-07-05T04:25:23Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Elektroschwache Vereinheitlichung (SU(2)×U(1))",
+      "question": "Was beschreibt das SU(2)×U(1) Symmetrieprinzip in der elektroschwachen Theorie?",
+      "choices": [
+        "A: Die Struktur von Hadronen und ihre Bindungskräfte.",
+        "B: Die Vereinheitlichung der elektromagnetischen und schwachen Wechselwirkung.",
+        "C: Die Wechselwirkungen zwischen Quarks und Gluonen.",
+        "D: Die Entstehung von Materie aus Energie gemäß der Relativitätstheorie."
+      ],
+      "correct_answer": "B",
+      "explanation": "Das SU(2)×U(1) Symmetrieprinzip beschreibt die elektroschwache Wechselwirkung, die elektromagnetische und schwache Kräfte vereint. Diese Theorie ist ein zentraler Bestandteil des Standardmodells der Teilchenphysik und erklärt, wie W- und Z-Bosonen die schwache Wechselwirkung vermitteln.",
+      "difficulty": 7,
+      "subcategory": "Elektroschwache Vereinheitlichung (SU(2)×U(1))"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Wärmekapazitäten (C_V, C_p, Beziehungen)",
+      "question": "Welche Wärmekapazität beschreibt die Fähigkeit eines Stoffes, Wärme bei konstantem Volumen aufzunehmen?",
+      "choices": [
+        "A: C_m",
+        "B: C_p",
+        "C: C_V",
+        "D: C_a"
+      ],
+      "correct_answer": "C",
+      "explanation": "C_V steht für die molare Wärmekapazität bei konstantem Volumen. Sie beschreibt, wie viel Wärme einem Stoff zugeführt werden muss, um seine Temperatur zu erhöhen, während das Volumen konstant bleibt.",
+      "difficulty": 2,
+      "subcategory": "Wärmekapazitäten (C_V, C_p, Beziehungen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Unterscheidbare Teilchen: Produktraum & Observable",
+      "question": "Welche Aussage über den Produktraum von unterscheidbaren Teilchen in der Quantenmechanik ist korrekt?",
+      "choices": [
+        "A: Der Produktraum für unterscheidbare Teilchen ist nur für Bosonen anwendbar.",
+        "B: Der Produktraum für zwei unterscheidbare Teilchen ist das Tensorprodukt ihrer individuellen Zustandsräume.",
+        "C: Die Observable eines Systems von unterscheidbaren Teilchen sind unabhängig von deren Zustand.",
+        "D: Der Produktraum für zwei unterscheidbare Teilchen ist identisch mit dem direkten Produkt ihrer individuellen Zustandsräume."
+      ],
+      "correct_answer": "B",
+      "explanation": "In der Quantenmechanik wird der Produktraum von zwei unterscheidbaren Teilchen durch das Tensorprodukt ihrer individuellen Zustandsräume definiert. Dies ist entscheidend, um die Wechselwirkungen und Gesamtzustände der Teilchen korrekt zu beschreiben.",
+      "difficulty": 8,
+      "subcategory": "Unterscheidbare Teilchen: Produktraum & Observable"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Carnot-Kreisprozess & Wirkungsgrad",
+      "question": "Welcher der folgenden Aussagen beschreibt den maximalen Wirkungsgrad eines Carnot-Kreisprozesses?",
+      "choices": [
+        "A: Der Wirkungsgrad ist immer höher als der Wirkungsgrad eines realen Prozesses.",
+        "B: Der Wirkungsgrad kann niemals 100% erreichen, selbst bei idealen Bedingungen.",
+        "C: Der maximal erreichbare Wirkungsgrad hängt nur von den Temperaturen der Wärmequellen ab.",
+        "D: Der Wirkungsgrad ist unabhängig von den Temperaturen der Wärmequellen."
+      ],
+      "correct_answer": "C",
+      "explanation": "Der maximale Wirkungsgrad eines Carnot-Kreisprozesses wird durch die Temperaturen der heißen und kalten Reservoirs bestimmt und kann mit der Formel η = 1 - (T_kalt/T_heiß) berechnet werden. Daher ist die Aussage A korrekt, während die anderen Aussagen entweder falsch oder irreführend sind.",
+      "difficulty": 7,
+      "subcategory": "Carnot-Kreisprozess & Wirkungsgrad"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Arbeit in der Thermodynamik (p dV, generalisiert)",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt die Arbeit, die bei einem quasistatischen Prozess eines idealen Gases im p-V-Diagramm verrichtet wird?",
+      "choices": [
+        "A: Die Arbeit ist gleich dem Produkt von Druck und Volumenänderung, unabhängig von der Prozessart.",
+        "B: Die Arbeit ist gleich der Änderung der inneren Energie des Gases multipliziert mit der Temperatur.",
+        "C: Die Arbeit ist gleich dem Integral des Produktes aus Temperatur und dem Differential des Volumens.",
+        "D: Die Arbeit ist gleich dem Integral des Drucks über das Volumen, wobei der Druck konstant bleibt."
+      ],
+      "correct_answer": "D",
+      "explanation": "Im p-V-Diagramm wird die Arbeit, die während eines quasistatischen Prozesses verrichtet wird, durch das Integral des Drucks über die Änderung des Volumens dargestellt. Diese Beziehung gilt nur, wenn der Druck nicht konstant ist, was die Antwort A korrekt macht und den mathematischen Ansatz zur Berechnung der Arbeit in der Thermodynamik illustriert.",
+      "difficulty": 10,
+      "subcategory": "Arbeit in der Thermodynamik (p dV, generalisiert)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Eigenschaften von Photonen",
+      "question": "Welche Eigenschaft eines Photons bestimmt seine Farbe?",
+      "choices": [
+        "A: Wellenlänge",
+        "B: Geschwindigkeit",
+        "C: Energie",
+        "D: Polarisation"
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Farbe eines Photons hängt von seiner Wellenlänge ab. Photonen mit unterschiedlichen Wellenlängen nehmen unterschiedliche Farben im sichtbaren Spektrum an, wobei kürzere Wellenlängen blau und längere Wellenlängen rot erscheinen.",
+      "difficulty": 6,
+      "subcategory": "Eigenschaften von Photonen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Der elastische Stoß in der SRT",
+      "question": "Welche Aussage beschreibt korrekt den elastischen Stoß zwischen zwei relativistischen Teilchen, bei dem beide Teilchen eine Masse besitzen, die relativistisch betrachtet signifikant ist?",
+      "choices": [
+        "A: Der Energieerhalt gilt nur, wenn beide Teilchen sich relativ zueinander in Ruhe befinden.",
+        "B: Die Gesamtenergie und der Gesamtimpuls sind vor und nach dem Stoß konstant, wobei auch die relativistischen Effekte der Geschwindigkeitsaddition berücksichtigt werden müssen.",
+        "C: Bei einem elastischen Stoß in der SRT bleibt die Geschwindigkeit der Teilchen immer unter der Lichtgeschwindigkeit, unabhängig von ihrem ursprünglichen Impuls.",
+        "D: Der elastische Stoß führt immer zu einer Umwandlung eines Teils der kinetischen Energie in thermische Energie, unabhängig von der Relativität."
+      ],
+      "correct_answer": "B",
+      "explanation": "Im Kontext der speziellen Relativitätstheorie bleibt bei einem elastischen Stoß die Gesamtenergie und der Gesamtimpuls konstant. Dabei müssen relativistische Effekte, wie die Geschwindigkeitsaddition und die relativistische Massenerhöhung, berücksichtigt werden, um eine korrekte Beschreibung zu erhalten.",
+      "difficulty": 10,
+      "subcategory": "Der elastische Stoß in der SRT"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Elektrische Dipolstrahlung",
+      "question": "Was beschreibt die elektrische Dipolstrahlung?",
+      "choices": [
+        "A: Die Strahlung, die von einem sich ändernden elektrischen Dipol erzeugt wird.",
+        "B: Die Strahlung, die ausschließlich von positiven Ladungen erzeugt wird.",
+        "C: Die Strahlung, die nur bei hohen Frequenzen auftritt.",
+        "D: Die Strahlung, die von einem stationären elektrischen Dipol erzeugt wird."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die elektrische Dipolstrahlung entsteht durch die zeitliche Änderung des elektrischen Dipolmoments. Sie tritt auf, wenn sich die Ladungsverteilung im Dipol ändert, wodurch elektromagnetische Wellen ausgesendet werden.",
+      "difficulty": 4,
+      "subcategory": "Elektrische Dipolstrahlung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Natürliche Zustandsvariablen (U, H, F, G)",
+      "question": "Welche der folgenden Größen beschreibt die freie Enthalpie eines Systems?",
+      "choices": [
+        "A: Innere Energie (U)",
+        "B: Enthalpie (H)",
+        "C: Gibbs-Energie (G)",
+        "D: Helmholtz-Energie (F)"
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Gibbs-Energie (G) ist eine natürliche Zustandsvariable, die die freie Enthalpie eines Systems beschreibt und häufig in der Thermodynamik verwendet wird, um das Gleichgewicht und die Spontaneität von Prozessen zu beurteilen. Sie ist besonders relevant bei konstantem Druck und Temperatur.",
+      "difficulty": 5,
+      "subcategory": "Natürliche Zustandsvariablen (U, H, F, G)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Wirkungsprinzipien (Überblick)",
+      "question": "Welches der folgenden Prinzipien beschreibt die Bedingung für das Erreichen eines Extremums der Wirkung in einem physikalischen System?",
+      "choices": [
+        "A: Energieerhaltungssatz",
+        "B: Prinzip der kleinsten Wirkung",
+        "C: Impulserhaltungssatz",
+        "D: Newtons erstes Gesetz"
+      ],
+      "correct_answer": "B",
+      "explanation": "Das Prinzip der kleinsten Wirkung besagt, dass die Bahn eines Systems zwischen zwei Zuständen diejenige ist, die die Wirkung minimiert. Dieses Prinzip ist zentral in der analytischen Mechanik und unterscheidet sich grundlegend von den klassischen Gesetzen der Bewegung.",
+      "difficulty": 8,
+      "subcategory": "Wirkungsprinzipien (Überblick)"
+    }
+  ]
+}

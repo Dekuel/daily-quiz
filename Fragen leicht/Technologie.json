@@ -2660,6 +2660,20 @@
       "correct_answer": "A",
       "explanation": "Boston Dynamics ist ein führendes Unternehmen, das für seine fortschrittlichen humanoiden Roboter bekannt ist, darunter Atlas und Spot. Diese Roboter werden häufig in der Forschung und in verschiedenen Bereichen wie Logistik und Sicherheit eingesetzt.",
       "difficulty": 4
+    },
+    {
+      "category": "Technologie",
+      "topic": "KI & Zukunftstechnologien",
+      "question": "Was beschreibt der Begriff 'Overfitting' im Kontext des maschinellen Lernens?",
+      "choices": [
+        "A: Ein Modell kann keine Muster in den Daten erkennen und hat eine hohe Bias.",
+        "B: Ein Modell wird aufgrund von zu wenigen Daten überlastet und gibt falsche Ergebnisse aus.",
+        "C: Ein Modell hat die Trainingsdaten zu gut gelernt und generalisiert schlecht auf neue Daten.",
+        "D: Ein Modell verwendet zu viele Datenquellen und verliert dabei an Effizienz."
+      ],
+      "correct_answer": "C",
+      "explanation": "Overfitting tritt auf, wenn ein Machine-Learning-Modell die Trainingsdaten so gut erlernt, dass es nicht mehr in der Lage ist, auf unbekannte Daten zu generalisieren. Dies führt oft zu einer hohen Genauigkeit auf den Trainingsdaten, jedoch zu schlechten Ergebnissen bei neuen Daten. Ein ausgewogenes Modell sollte sowohl auf Trainings- als auch auf Testdaten gut abschneiden.",
+      "difficulty": 6
     }
   ]
 }
