@@ -1,0 +1,168 @@
+{
+  "date": "2026-07-06",
+  "generated_at": "2026-07-06T04:30:25Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Lorentz-Kraft in Vierervektorform",
+      "question": "What does the Lorentz force describe in four-vector form?",
+      "choices": [
+        "A: Time dilation at relativistic speeds.",
+        "B: Motion of particles in a gravitational field.",
+        "C: Energy conservation in closed systems.",
+        "D: Interaction between electrically charged particles and electromagnetic fields."
+      ],
+      "correct_answer": "D",
+      "explanation": "The Lorentz force describes the force acting on a moving, electrically charged particle when it is in an electromagnetic field. In four-vector form, this force is formulated in relativity theory taking into account space and time.",
+      "difficulty": 5,
+      "subcategory": "Lorentz-Kraft in Vierervektorform"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Prinzip der kleinsten Wirkung",
+      "question": "Which of the following principles describes the motion of a system of particles by selecting the path with the least action?",
+      "choices": [
+        "A: Newton's law",
+        "B: Huygens' principle",
+        "C: Principle of least action",
+        "D: Conservation of energy"
+      ],
+      "correct_answer": "C",
+      "explanation": "The principle of least action states that the actual motion of a physical system is the one that minimizes the action. This method is fundamental in analytical mechanics and allows for the derivation of the equations of motion for various systems.",
+      "difficulty": 7,
+      "subcategory": "Prinzip der kleinsten Wirkung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Phasen (Definitionen, Beispiele)",
+      "question": "Which of the following statements describes a solid state in thermodynamics?",
+      "choices": [
+        "A: Molecules are arranged in a fixed structure and vibrate around fixed positions.",
+        "B: Molecules are far apart and have little interaction.",
+        "C: Molecules move freely and independently.",
+        "D: Molecules are in a state of maximum disorder."
+      ],
+      "correct_answer": "A",
+      "explanation": "In a solid state, molecules are arranged in a regular structure and can only move around their fixed positions. This is significantly different from liquid or gaseous states where molecules have more freedom and disorder.",
+      "difficulty": 5,
+      "subcategory": "Phasen (Definitionen, Beispiele)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Paraxiale Strahlen & Matrizen-Verfahren",
+      "question": "What does the matrix describe in a paraxial ray path when applied to a lens?",
+      "choices": [
+        "A: Temperature dependence of the lens refractive index.",
+        "B: Energy losses due to reflection on the lens.",
+        "C: Change in ray direction and position when passing through the lens.",
+        "D: Wavelength dependence of light refraction in the lens."
+      ],
+      "correct_answer": "C",
+      "explanation": "The matrix in a paraxial ray path describes how light rays are deflected and shifted when passing through optical elements such as lenses. This matrix representation is particularly useful for analyzing the behavior of light in complex optical systems.",
+      "difficulty": 9,
+      "subcategory": "Paraxiale Strahlen & Matrizen-Verfahren"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Quadratintegrable Funktionen H=L^2",
+      "question": "Which of the following statements applies to square-integrable functions in the Hilbert space H=L^2?",
+      "choices": [
+        "A: Square-integrable functions cannot be decomposed into an orthonormal basis.",
+        "B: Square-integrable functions are functions converging to zero.",
+        "C: Square-integrable functions are always continuous and differentiable.",
+        "D: Square-integrable functions have a finite integral over the entire space."
+      ],
+      "correct_answer": "D",
+      "explanation": "Square-integrable functions in the Hilbert space H=L^2 are precisely the functions whose square is integrable, meaning the integral over the entire space is finite. This property is crucial for the definition of the Hilbert space and enables the application of methods in quantum mechanics.",
+      "difficulty": 8,
+      "subcategory": "Quadratintegrable Funktionen H=L^2"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Zwangsbedingungen & generalisierte Koordinaten",
+      "question": "What is meant by a constraint in analytical mechanics?",
+      "choices": [
+        "A: A condition that has no influence on motion.",
+        "B: A condition that restricts the motion of a system in certain directions.",
+        "C: A condition that alters the mass of an object.",
+        "D: A condition that only affects the velocity of an object."
+      ],
+      "correct_answer": "B",
+      "explanation": "Constraints are limitations that restrict the freedom of motion of a mechanical system in certain directions. They are important for describing the motion states using generalized coordinates and analyzing the dynamics of the system.",
+      "difficulty": 5,
+      "subcategory": "Zwangsbedingungen & generalisierte Koordinaten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Carnot- und allgemeine Kreisprozesse",
+      "question": "What does the Carnot cycle process describe?",
+      "choices": [
+        "A: It is a process that does not involve energy transfer.",
+        "B: It represents the ideal process for converting heat into work.",
+        "C: It is a process that only occurs in real machines.",
+        "D: It describes the evaporation of water at constant pressure."
+      ],
+      "correct_answer": "B",
+      "explanation": "The Carnot cycle process is a theoretical model that describes the maximum efficiency that can be achieved in converting heat into work. It is based on reversible processes and ideal gases, making it an important reference in thermodynamics.",
+      "difficulty": 5,
+      "subcategory": "Carnot- und allgemeine Kreisprozesse"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Thermodynamische Größen (großkanonisch)",
+      "question": "Which of the following quantities describes the relationship between energy and temperature in the grand canonical ensemble?",
+      "choices": [
+        "A: Temperature",
+        "B: Entropy",
+        "C: Gibbs free energy",
+        "D: Helmholtz free energy"
+      ],
+      "correct_answer": "C",
+      "explanation": "In the grand canonical ensemble, the Gibbs free energy is a central quantity that describes the relationship between thermodynamic energy and temperature. It allows for the calculation of equilibrium states and helps understand the behavior of systems under varying conditions.",
+      "difficulty": 3,
+      "subcategory": "Thermodynamische Größen (großkanonisch)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Linsenfehler (Aberrationen)",
+      "question": "What type of aberration causes light rays passing through the edges of a lens to be more refracted than those passing through the center?",
+      "choices": [
+        "A: Coma",
+        "B: Chromatic aberration",
+        "C: Astigmatism",
+        "D: Spherical aberration"
+      ],
+      "correct_answer": "D",
+      "explanation": "Spherical aberration occurs because light rays passing through the edges of a spherical lens undergo different angles of refraction compared to those passing through the center. This results in a blurred image as the light rays are not all focused at the same point.",
+      "difficulty": 6,
+      "subcategory": "Linsenfehler (Aberrationen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Isolierte Systeme: Maximum der Entropie",
+      "question": "What does the maximum entropy in an isolated system describe?",
+      "choices": [
+        "A: State of maximum temperature.",
+        "B: State of stable order.",
+        "C: State of minimum energy.",
+        "D: State of maximum disorder."
+      ],
+      "correct_answer": "D",
+      "explanation": "The maximum entropy in an isolated system describes the state of maximum disorder where the available microstates are equiprobable. When this maximum is reached, the system is in thermodynamic equilibrium.",
+      "difficulty": 4,
+      "subcategory": "Isolierte Systeme: Maximum der Entropie"
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "date": "2026-07-06",
+  "generated_at": "2026-07-06T04:29:52Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Lorentz-Kraft in Vierervektorform",
+      "question": "Was beschreibt die Lorentz-Kraft in der Viererveektorform?",
+      "choices": [
+        "A: Die Zeitdilatation bei relativistischen Geschwindigkeiten.",
+        "B: Die Bewegung von Teilchen im Gravitationsfeld.",
+        "C: Die Energieerhaltung in geschlossenen Systemen.",
+        "D: Die Wechselwirkung zwischen elektrisch geladenen Teilchen und elektromagnetischen Feldern."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Lorentz-Kraft beschreibt die Kraft, die auf ein bewegtes, elektrisch geladenes Teilchen wirkt, wenn es sich in einem elektromagnetischen Feld befindet. In der Vierervektorform wird diese Kraft in der Relativitätstheorie unter Berücksichtigung von Raum und Zeit formuliert.",
+      "difficulty": 5,
+      "subcategory": "Lorentz-Kraft in Vierervektorform"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Prinzip der kleinsten Wirkung",
+      "question": "Welches der folgenden Prinzipien beschreibt die Bewegung eines Systems von Teilchen, indem es den Pfad mit der minimalen Wirkung auswählt?",
+      "choices": [
+        "A: Newtonsches Gesetz",
+        "B: Huygenssches Prinzip",
+        "C: Prinzip der kleinsten Wirkung",
+        "D: Erhaltungssatz der Energie"
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Prinzip der kleinsten Wirkung besagt, dass die tatsächliche Bewegung eines physikalischen Systems derjenige Pfad ist, der die Wirkung minimiert. Diese Methode ist grundlegend in der analytischen Mechanik und ermöglicht die Herleitung der Bewegungsgleichungen für verschiedene Systeme.",
+      "difficulty": 7,
+      "subcategory": "Prinzip der kleinsten Wirkung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Phasen (Definitionen, Beispiele)",
+      "question": "Welche der folgenden Aussagen beschreibt einen festen Zustand in der Thermodynamik?",
+      "choices": [
+        "A: Die Moleküle sind in einer festen Struktur angeordnet und schwingen um feste Positionen.",
+        "B: Die Moleküle sind weit voneinander entfernt und haben kaum Wechselwirkungen.",
+        "C: Die Moleküle bewegen sich frei und unabhängig voneinander.",
+        "D: Die Moleküle sind in einem Zustand der maximalen Unordnung."
+      ],
+      "correct_answer": "A",
+      "explanation": "Im festen Zustand sind die Moleküle in einer regelmäßigen Struktur angeordnet und können sich nur um ihre festen Positionen herum bewegen. Dies unterscheidet sich deutlich von flüssigen oder gasförmigen Zuständen, in denen die Moleküle mehr Freiheit und Unordnung aufweisen.",
+      "difficulty": 5,
+      "subcategory": "Phasen (Definitionen, Beispiele)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Paraxiale Strahlen & Matrizen-Verfahren",
+      "question": "Was beschreibt die Matrix in einem paraxialen Strahlenverlauf, wenn sie auf eine Linse angewendet wird?",
+      "choices": [
+        "A: Die Temperaturabhängigkeit des Brechungsindex der Linse.",
+        "B: Die Energieverluste durch Reflexion an der Linse.",
+        "C: Die Änderung der Strahlenrichtung und -lage beim Durchgang durch die Linse.",
+        "D: Die Wellenlängenabhängigkeit der Lichtbrechung in der Linse."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Matrix in einem paraxialen Strahlenverlauf beschreibt, wie Lichtstrahlen beim Durchgang durch optische Elemente wie Linsen abgelenkt und verschoben werden. Diese Matrizendarstellung ist besonders nützlich, um das Verhalten von Licht in komplexen optischen Systemen zu analysieren.",
+      "difficulty": 9,
+      "subcategory": "Paraxiale Strahlen & Matrizen-Verfahren"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Quadratintegrable Funktionen H=L^2",
+      "question": "Welche der folgenden Aussagen trifft auf quadratintegrable Funktionen im Hilbertraum H=L^2 zu?",
+      "choices": [
+        "A: Quadratintegrable Funktionen können nicht in eine orthonormierte Basis zerlegt werden.",
+        "B: Quadratintegrable Funktionen sind gegen Null konvergente Funktionen.",
+        "C: Quadratintegrable Funktionen sind immer stetig und differenzierbar.",
+        "D: Quadratintegrable Funktionen haben ein endliches Integral über dem gesamten Raum."
+      ],
+      "correct_answer": "D",
+      "explanation": "Quadratintegrable Funktionen im Hilbertraum H=L^2 sind genau die Funktionen, deren Quadrat integrierbar ist, d.h. das Integral über den gesamten Raum ist endlich. Diese Eigenschaft ist entscheidend für die Definition des Hilbertraums und ermöglicht die Anwendung von Methoden der Quantenmechanik.",
+      "difficulty": 8,
+      "subcategory": "Quadratintegrable Funktionen H=L^2"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Zwangsbedingungen & generalisierte Koordinaten",
+      "question": "Was versteht man unter einer Zwangsbedingung in der analytischen Mechanik?",
+      "choices": [
+        "A: Eine Bedingung, die keinen Einfluss auf die Bewegung hat.",
+        "B: Eine Bedingung, die die Bewegung eines Systems in bestimmten Richtungen einschränkt.",
+        "C: Eine Bedingung, die die Masse eines Objekts verändert.",
+        "D: Eine Bedingung, die nur die Geschwindigkeit eines Objekts beeinflusst."
+      ],
+      "correct_answer": "B",
+      "explanation": "Zwangsbedingungen sind Einschränkungen, die die Bewegungsfreiheit eines mechanischen Systems in bestimmten Richtungen limitieren. Sie sind wichtig, um die Bewegungszustände mit Hilfe von generalisierten Koordinaten zu beschreiben und die Dynamik des Systems zu analysieren.",
+      "difficulty": 5,
+      "subcategory": "Zwangsbedingungen & generalisierte Koordinaten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Carnot- und allgemeine Kreisprozesse",
+      "question": "Was beschreibt der Carnot-Kreisprozess?",
+      "choices": [
+        "A: Er ist ein Prozess, der keine Energieübertragung beinhaltet.",
+        "B: Er stellt den idealen Prozess zur Umwandlung von Wärme in Arbeit dar.",
+        "C: Er ist ein Prozess, der nur in realen Maschinen auftritt.",
+        "D: Er beschreibt die Verdampfung von Wasser bei konstantem Druck."
+      ],
+      "correct_answer": "B",
+      "explanation": "Der Carnot-Kreisprozess ist ein theoretisches Modell, das den maximalen Wirkungsgrad beschreibt, der bei der Umwandlung von Wärme in Arbeit erreicht werden kann. Er basiert auf reversiblen Prozessen und idealen Gasen, was ihn zu einer wichtigen Referenz in der Thermodynamik macht.",
+      "difficulty": 5,
+      "subcategory": "Carnot- und allgemeine Kreisprozesse"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Thermodynamische Größen (großkanonisch)",
+      "question": "Welche der folgenden Größen beschreibt im großkanonischen Ensemble die Beziehung zwischen Energie und Temperatur?",
+      "choices": [
+        "A: Temperatur",
+        "B: Entropie",
+        "C: Gibbs-Freiheitsenergie",
+        "D: Helmholtz-Freiheitsenergie"
+      ],
+      "correct_answer": "C",
+      "explanation": "Im großkanonischen Ensemble ist die Gibbs-Freiheitsenergie eine zentrale Größe, die die Beziehung zwischen der thermodynamischen Energie und der Temperatur beschreibt. Sie ermöglicht die Berechnung von Gleichgewichtszuständen und hilft dabei, das Verhalten von Systemen unter variierenden Bedingungen zu verstehen.",
+      "difficulty": 3,
+      "subcategory": "Thermodynamische Größen (großkanonisch)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Linsenfehler (Aberrationen)",
+      "question": "Welche Art von Aberration führt dazu, dass Lichtstrahlen, die durch die Ränder einer Linse gehen, stärker gebrochen werden als solche, die durch die Mitte gehen?",
+      "choices": [
+        "A: Koma",
+        "B: Farbaberration",
+        "C: Astigmatismus",
+        "D: Sphärische Aberration"
+      ],
+      "correct_answer": "D",
+      "explanation": "Die sphärische Aberration entsteht, weil Lichtstrahlen, die durch die Ränder einer sphärischen Linse gehen, unterschiedlichen Brechungswinkeln unterliegen als solche, die durch die Mitte gehen. Dies führt zu einem unscharfen Bild, da die Lichtstrahlen nicht alle im gleichen Punkt fokussiert werden.",
+      "difficulty": 6,
+      "subcategory": "Linsenfehler (Aberrationen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Isolierte Systeme: Maximum der Entropie",
+      "question": "Was beschreibt das Maximum der Entropie in einem isolierten System?",
+      "choices": [
+        "A: Der Zustand maximaler Temperatur.",
+        "B: Der Zustand stabiler Ordnung.",
+        "C: Der Zustand minimaler Energie.",
+        "D: Der Zustand maximaler Unordnung."
+      ],
+      "correct_answer": "D",
+      "explanation": "Das Maximum der Entropie in einem isolierten System beschreibt den Zustand maximaler Unordnung, in dem die verfügbaren Mikrozustände gleichwahrscheinlich sind. Bei Erreichen dieses Maximums ist das System im thermodynamischen Gleichgewicht.",
+      "difficulty": 4,
+      "subcategory": "Isolierte Systeme: Maximum der Entropie"
+    }
+  ]
+}
