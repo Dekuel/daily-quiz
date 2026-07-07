@@ -1,0 +1,169 @@
+{
+  "date": "2026-07-07",
+  "generated_at": "2026-07-07T04:23:27Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Farbe von Gegenständen",
+      "question": "Welche Farbe erscheint ein Blatt Papier, wenn es weiß ist und mit rotem Licht beleuchtet wird?",
+      "choices": [
+        "A: Blau",
+        "B: Weiß",
+        "C: Grün",
+        "D: Rot"
+      ],
+      "correct_answer": "D",
+      "explanation": "Ein Blatt Papier erscheint rot, wenn es mit rotem Licht beleuchtet wird, da es das Licht reflektiert. Andere Farben des Lichts würden vom Papier nicht reflektiert, weshalb sie nicht sichtbar sind.",
+      "difficulty": 3,
+      "subcategory": "Farbe von Gegenständen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Interferenz und Beugung (Licht)",
+      "question": "Was passiert, wenn Licht durch einen schmalen Spalt fällt?",
+      "choices": [
+        "A: Es verändert die Farbe.",
+        "B: Es wird reflektiert.",
+        "C: Es tritt Beugung auf.",
+        "D: Es wird absorbiert."
+      ],
+      "correct_answer": "C",
+      "explanation": "Wenn Licht durch einen schmalen Spalt fällt, zeigt es ein Beugungsmuster, das durch die Wellennatur des Lichtes erklärt wird. Die Beugung ist das Phänomen, bei dem sich Wellen um Hindernisse oder durch Öffnungen ausbreiten.",
+      "difficulty": 4,
+      "subcategory": "Interferenz und Beugung (Licht)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Phonon-Thermodynamik (Debye u. a.)",
+      "question": "Was beschreibt das Debye-Modell in der Phonon-Thermodynamik?",
+      "choices": [
+        "A: Die elektrische Leitfähigkeit von Metallen.",
+        "B: Die Bewegung von Teilchen in einem Vakuum.",
+        "C: Die Wärmeleitung in Kristallen aufgrund von Phononen.",
+        "D: Den Druck in idealen Gasen."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Debye-Modell beschreibt, wie Phononen als quantisierte Schwingungen in Kristallen zur Wärmeleitung beitragen. Es hilft zu verstehen, wie die spezifische Wärme von Festkörpern bei tiefen Temperaturen verhält.",
+      "difficulty": 2,
+      "subcategory": "Phonon-Thermodynamik (Debye u. a.)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Überblick: Felder, Teilchen, Symmetrien des Standardmodells",
+      "question": "Welches der folgenden Teilchen ist ein Bosen?",
+      "choices": [
+        "A: Neutron",
+        "B: Elektron",
+        "C: Proton",
+        "D: Photon"
+      ],
+      "correct_answer": "D",
+      "explanation": "Das Photon ist ein Boson, das als Trägerteilchen des elektromagnetischen Feldes fungiert. Im Gegensatz dazu sind Elektronen, Protonen und Neutronen Fermionen, die den Pauli-Ausschlussprinzip unterliegen.",
+      "difficulty": 5,
+      "subcategory": "Überblick: Felder, Teilchen, Symmetrien des Standardmodells"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Allgemeine Betrachtung von Streuprozessen",
+      "question": "Was beschreibt der Begriff 'Streuprozess' in der Teilchenphysik?",
+      "choices": [
+        "A: Die Bewegung von Teilchen in einem elektrischen Feld.",
+        "B: Die Wechselwirkung zwischen Teilchen, bei der sie ihre Richtung oder Energie ändern.",
+        "C: Die Zerfallsgeschwindigkeit radioaktiver Substanzen.",
+        "D: Die Erzeugung neuer Teilchen aus einer Energiequelle."
+      ],
+      "correct_answer": "B",
+      "explanation": "Ein Streuprozess beschreibt, wie Teilchen miteinander interagieren und dabei ihre Richtung oder Energie ändern können. Dies ist ein fundamentaler Aspekt der Teilchenphysik, der hilft zu verstehen, wie Teilchen miteinander in Wechselwirkung treten.",
+      "difficulty": 4,
+      "subcategory": "Allgemeine Betrachtung von Streuprozessen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Kriterien für Kanonizität (Symplektizität)",
+      "question": "Welches Kriterium ist entscheidend, um zu überprüfen, ob ein System kanonisch ist?",
+      "choices": [
+        "A: Die Kräfte müssen konservativ sein.",
+        "B: Die Hamiltonsche Gleichung muss erfüllt sein.",
+        "C: Der Phasenraum muss symplektisch sein.",
+        "D: Die Energie muss konstant sein."
+      ],
+      "correct_answer": "C",
+      "explanation": "Ein System ist kanonisch, wenn die Strukturen im Phasenraum symplektisch sind. Dies bedeutet, dass die Hamiltonschen Gleichungen in einer bestimmten Form vorliegen, die die Erhaltung von Volumen im Phasenraum garantiert.",
+      "difficulty": 6,
+      "subcategory": "Kriterien für Kanonizität (Symplektizität)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Dispersion dichter Medien",
+      "question": "Was passiert, wenn Licht in ein dichtes Medium eintritt?",
+      "choices": [
+        "A: Das Licht verstärkt sich.",
+        "B: Das Licht bleibt unverändert.",
+        "C: Das Licht wird gebrochen und in verschiedene Farben aufgeteilt.",
+        "D: Das Licht wird reflektiert."
+      ],
+      "correct_answer": "C",
+      "explanation": "Wenn Licht in ein dichtes Medium eintritt, wird es gebrochen, was zu einer Dispersion führt. Diese Dispersion teilt das Licht in verschiedene Farben auf, da unterschiedliche Farben unterschiedliche Wellenlängen und Brechungsindices haben.",
+      "difficulty": 2,
+      "subcategory": "Dispersion dichter Medien"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Thermodynamische Systeme (offen/geschlossen/isoliert)",
+      "question": "Welches der folgenden Systeme ist ein geschlossenes System?",
+      "choices": [
+        "A: Ein offenes Glas Wasser auf einem Tisch.",
+        "B: Ein Kühlschrank, der Wärme an die Umgebung abgibt.",
+        "C: Ein Thermosbehälter, der heißes Wasser enthält.",
+        "D: Ein Luftballon, der mit Luft gefüllt ist und gedehnt wird."
+      ],
+      "correct_answer": "C",
+      "explanation": "Ein geschlossenes System kann Energie in Form von Wärme und Arbeit austauschen, jedoch keine Materie. Der Thermosbehälter hält die Materie (das Wasser) im Inneren, während er Wärmeverluste minimiert. Die anderen Optionen lassen entweder Materie oder Energie in das System hinein oder hinaus.",
+      "difficulty": 3,
+      "subcategory": "Thermodynamische Systeme (offen/geschlossen/isoliert)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Potential einer Punktladung, Multipolmomente",
+      "question": "Welches der folgenden Gesetze beschreibt das elektrische Potential V einer Punktladung Q in einem Abstand r von der Ladung?",
+      "choices": [
+        "A: V = k * Q * r²",
+        "B: V = k * Q / r",
+        "C: V = k * Q * r",
+        "D: V = k * Q / r²"
+      ],
+      "correct_answer": "B",
+      "explanation": "Das elektrische Potential V einer Punktladung Q ist proportional zur Ladung und umgekehrt proportional zum Abstand r. Das entsprechende Gesetz ist V = k * Q / r, wobei k die Coulomb-Konstante ist.",
+      "difficulty": 5,
+      "subcategory": "Potential einer Punktladung, Multipolmomente"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Elektronenspin (Pauli-Theorie)",
+      "question": "Was besagt das Pauli-Prinzip in Bezug auf Elektronenspin?",
+      "choices": [
+        "A: Der Spin eines Elektrons kann beliebige Werte annehmen.",
+        "B: Ein Atom kann maximal zwei Elektronen mit entgegengesetztem Spin in demselben Orbital enthalten.",
+        "C: Elektronen mit identischem Spin ziehen sich gegenseitig an.",
+        "D: Zwei Elektronen in einem Atom können den gleichen Spin haben."
+      ],
+      "correct_answer": "B",
+      "explanation": "Das Pauli-Prinzip besagt, dass zwei Elektronen im selben Atom nicht denselben Quantenzustand einnehmen können. Besonders im Hinblick auf den Spin bedeutet dies, dass ein Orbital maximal zwei Elektronen mit entgegengesetztem Spin aufnehmen kann.",
+      "difficulty": 6,
+      "subcategory": "Elektronenspin (Pauli-Theorie)"
+    }
+  ]
+}

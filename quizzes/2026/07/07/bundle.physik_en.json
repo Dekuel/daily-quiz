@@ -1,0 +1,168 @@
+{
+  "date": "2026-07-07",
+  "generated_at": "2026-07-07T04:23:59Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Farbe von Gegenständen",
+      "question": "What color does a sheet of paper appear when it is white and illuminated with red light?",
+      "choices": [
+        "A: Blue",
+        "B: White",
+        "C: Green",
+        "D: Red"
+      ],
+      "correct_answer": "D",
+      "explanation": "A sheet of paper appears red when illuminated with red light, as it reflects the light. Other colors of light would not be reflected by the paper, hence they are not visible.",
+      "difficulty": 3,
+      "subcategory": "Farbe von Gegenständen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Interferenz und Beugung (Licht)",
+      "question": "What happens when light passes through a narrow slit?",
+      "choices": [
+        "A: It changes color.",
+        "B: It gets reflected.",
+        "C: Diffraction occurs.",
+        "D: It gets absorbed."
+      ],
+      "correct_answer": "C",
+      "explanation": "When light passes through a narrow slit, it exhibits a diffraction pattern, which is explained by the wave nature of light. Diffraction is the phenomenon where waves spread around obstacles or through openings.",
+      "difficulty": 4,
+      "subcategory": "Interferenz und Beugung (Licht)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Phonon-Thermodynamik (Debye u. a.)",
+      "question": "What does the Debye model describe in phonon thermodynamics?",
+      "choices": [
+        "A: The electrical conductivity of metals.",
+        "B: The movement of particles in a vacuum.",
+        "C: Heat conduction in crystals due to phonons.",
+        "D: Pressure in ideal gases."
+      ],
+      "correct_answer": "C",
+      "explanation": "The Debye model describes how phonons contribute to heat conduction in crystals as quantized vibrations. It helps understand how the specific heat of solids behaves at low temperatures.",
+      "difficulty": 2,
+      "subcategory": "Phonon-Thermodynamik (Debye u. a.)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Überblick: Felder, Teilchen, Symmetrien des Standardmodells",
+      "question": "Which of the following particles is a boson?",
+      "choices": [
+        "A: Neutron",
+        "B: Electron",
+        "C: Proton",
+        "D: Photon"
+      ],
+      "correct_answer": "D",
+      "explanation": "The photon is a boson that acts as the carrier particle of the electromagnetic field. In contrast, electrons, protons, and neutrons are fermions subject to the Pauli exclusion principle.",
+      "difficulty": 5,
+      "subcategory": "Überblick: Felder, Teilchen, Symmetrien des Standardmodells"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Allgemeine Betrachtung von Streuprozessen",
+      "question": "What does the term 'scattering process' describe in particle physics?",
+      "choices": [
+        "A: The movement of particles in an electric field.",
+        "B: Interaction between particles where they change direction or energy.",
+        "C: Decay rate of radioactive substances.",
+        "D: Generation of new particles from an energy source."
+      ],
+      "correct_answer": "B",
+      "explanation": "A scattering process describes how particles interact with each other, potentially changing their direction or energy. This is a fundamental aspect of particle physics that helps understand how particles interact with each other.",
+      "difficulty": 4,
+      "subcategory": "Allgemeine Betrachtung von Streuprozessen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Kriterien für Kanonizität (Symplektizität)",
+      "question": "What criterion is crucial to verify if a system is canonical?",
+      "choices": [
+        "A: Forces must be conservative.",
+        "B: Hamiltonian equation must be satisfied.",
+        "C: Phase space must be symplectic.",
+        "D: Energy must be constant."
+      ],
+      "correct_answer": "C",
+      "explanation": "A system is canonical if the structures in phase space are symplectic. This means that the Hamiltonian equations are in a specific form that guarantees the conservation of volume in phase space.",
+      "difficulty": 6,
+      "subcategory": "Kriterien für Kanonizität (Symplektizität)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Dispersion dichter Medien",
+      "question": "What happens when light enters a dense medium?",
+      "choices": [
+        "A: Light intensifies.",
+        "B: Light remains unchanged.",
+        "C: Light refracts and separates into different colors.",
+        "D: Light gets reflected."
+      ],
+      "correct_answer": "C",
+      "explanation": "When light enters a dense medium, it undergoes refraction leading to dispersion. This dispersion separates light into different colors as different colors have different wavelengths and refractive indices.",
+      "difficulty": 2,
+      "subcategory": "Dispersion dichter Medien"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Thermodynamische Systeme (offen/geschlossen/isoliert)",
+      "question": "Which of the following systems is a closed system?",
+      "choices": [
+        "A: An open glass of water on a table.",
+        "B: A refrigerator releasing heat to the surroundings.",
+        "C: A thermos flask containing hot water.",
+        "D: A balloon filled with air and being stretched."
+      ],
+      "correct_answer": "C",
+      "explanation": "A closed system can exchange energy in the form of heat and work but not matter. The thermos flask contains the matter (water) inside while minimizing heat losses. The other options either allow matter or energy to enter or leave the system.",
+      "difficulty": 3,
+      "subcategory": "Thermodynamische Systeme (offen/geschlossen/isoliert)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Potential einer Punktladung, Multipolmomente",
+      "question": "Which of the following laws describes the electric potential V of a point charge Q at a distance r from the charge?",
+      "choices": [
+        "A: V = k * Q * r²",
+        "B: V = k * Q / r",
+        "C: V = k * Q * r",
+        "D: V = k * Q / r²"
+      ],
+      "correct_answer": "B",
+      "explanation": "The electric potential V of a point charge Q is proportional to the charge and inversely proportional to the distance r. The corresponding law is V = k * Q / r, where k is the Coulomb constant.",
+      "difficulty": 5,
+      "subcategory": "Potential einer Punktladung, Multipolmomente"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Elektronenspin (Pauli-Theorie)",
+      "question": "What does the Pauli principle state regarding electron spin?",
+      "choices": [
+        "A: The spin of an electron can take any values.",
+        "B: An atom can contain a maximum of two electrons with opposite spins in the same orbital.",
+        "C: Electrons with identical spin attract each other.",
+        "D: Two electrons in an atom can have the same spin."
+      ],
+      "correct_answer": "B",
+      "explanation": "The Pauli principle states that two electrons in the same atom cannot occupy the same quantum state. Particularly concerning spin, this means that an orbital can hold a maximum of two electrons with opposite spins.",
+      "difficulty": 6,
+      "subcategory": "Elektronenspin (Pauli-Theorie)"
+    }
+  ]
+}
