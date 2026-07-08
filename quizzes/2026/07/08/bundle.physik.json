@@ -1,0 +1,169 @@
+{
+  "date": "2026-07-08",
+  "generated_at": "2026-07-08T04:06:01Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Abbildungsgleichung für dünne Linsen",
+      "question": "Welche der folgenden Gleichungen beschreibt die Abbildungsgleichung für dünne Linsen?",
+      "choices": [
+        "A: 1/f = 1/g + 1/b",
+        "B: f = g - b",
+        "C: f = g + b",
+        "D: 1/f = g - b"
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Abbildungsgleichung für dünne Linsen lautet 1/f = 1/g + 1/b, wobei f die Brennweite, g die Gegenstandsweite und b die Bildweite ist. Diese Gleichung hilft, die Beziehung zwischen diesen Größen zu verstehen und abzuleiten, wie ein Bild durch eine Linse erzeugt wird.",
+      "difficulty": 5,
+      "subcategory": "Abbildungsgleichung für dünne Linsen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Kanonisches Ensemble: Dichtematrix & Zustandssumme",
+      "question": "Was beschreibt die Zustandssumme eines kanonischen Ensembles?",
+      "choices": [
+        "A: Die Summe aller möglichen Energien eines Systems bei konstantem Volumen.",
+        "B: Die Anzahl der Teilchen in einem System unter konstantem Druck.",
+        "C: Die gewichtete Summe der Exponentialwerte der Energiezustände eines Systems.",
+        "D: Die mittlere kinetische Energie der Teilchen in einem idealen Gas."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Zustandssumme ist eine zentrale Größe in der statistischen Mechanik, die die Wahrscheinlichkeit der Besetzung der verschiedenen Energiezustände eines Systems beschreibt. Sie wird berechnet, indem man die Exponentialwerte der Energiezustände gewichtet summiert, was essenziell für die Berechnung thermodynamischer Eigenschaften ist.",
+      "difficulty": 5,
+      "subcategory": "Kanonisches Ensemble: Dichtematrix & Zustandssumme"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Hamilton-Funktion (Hamiltonian)",
+      "question": "Was beschreibt die Hamilton-Funktion in der analytischen Mechanik?",
+      "choices": [
+        "A: Die Beziehung zwischen Temperatur und Energie in einem idealen Gas.",
+        "B: Die Bewegungsgleichungen eines Systems ohne äußere Kräfte.",
+        "C: Die Gesamtenergie eines Systems in Abhängigkeit von seinen Koordinaten und Impulsen.",
+        "D: Die zeitliche Veränderung der Position eines Körpers."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Hamilton-Funktion, auch Hamiltonian genannt, ist eine zentrale Größe in der analytischen Mechanik, die die Gesamtenergie eines Systems beschreibt. Sie ist eine Funktion der Generalisierten Koordinaten und der Generalisierten Impulse und ermöglicht die Ableitung der Bewegungsgleichungen des Systems.",
+      "difficulty": 5,
+      "subcategory": "Hamilton-Funktion (Hamiltonian)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Potentiale des idealen Gases",
+      "question": "Was beschreibt das ideale Gasgesetz?",
+      "choices": [
+        "A: Das Verhältnis zwischen Druck, Volumen und Temperatur eines Gases.",
+        "B: Die spezifische Wärme eines Gases.",
+        "C: Die Dichte eines Gases bei verschiedenen Temperaturen.",
+        "D: Die Wechselwirkungen zwischen Molekülen in einem Gas."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das ideale Gasgesetz beschreibt, wie Druck, Volumen und Temperatur eines idealen Gases miteinander verknüpft sind. Es lautet pV = nRT, wobei p der Druck, V das Volumen, n die Stoffmenge und T die Temperatur ist.",
+      "difficulty": 4,
+      "subcategory": "Potentiale des idealen Gases"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Michelson–Morley-Experiment (Ätherhypothese)",
+      "question": "Was war das Hauptziel des Michelson–Morley-Experiments?",
+      "choices": [
+        "A: Den Äther nachzuweisen, der Licht als Welle tragen sollte.",
+        "B: Die Geschwindigkeit von Elektronen zu messen.",
+        "C: Die allgemeine Relativitätstheorie zu überprüfen.",
+        "D: Die Existenz von Gravitationswellen zu bestätigen."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Michelson–Morley-Experiment wurde durchgeführt, um den hypothetischen Äther nachzuweisen, von dem man annahm, dass er als Medium für die Ausbreitung von Lichtwellen dient. Das Ergebnis des Experiments war negativ, was zur Ablehnung der Ätherhypothese und zur Entwicklung der Relativitätstheorie führte.",
+      "difficulty": 8,
+      "subcategory": "Michelson–Morley-Experiment (Ätherhypothese)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Ladungsträgerdichte & Fermi-Niveau (dotiert)",
+      "question": "Wie beeinflusst die Dotierung eines Halbleiters die Fermi-Energie im Vergleich zu einem reinen Halbleiter?",
+      "choices": [
+        "A: Die Fermi-Energie variiert unabhängig von der Dotierung.",
+        "B: Die Fermi-Energie bleibt unverändert.",
+        "C: Die Fermi-Energie sinkt näher an das Valenzband heran.",
+        "D: Die Fermi-Energie steigt näher an das Leitungsband heran."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Dotierung eines Halbleiters führt zu einer Erhöhung der Ladungsträgerdichte, was die Fermi-Energie näher an das Leitungsband verschiebt. Dies geschieht, da durch die Einführung von Donator- oder Akzeptor-Atomen zusätzliche Energieniveaus entstehen, die die Elektronenverteilung beeinflussen.",
+      "difficulty": 8,
+      "subcategory": "Ladungsträgerdichte & Fermi-Niveau (dotiert)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Einfache Folgerungen aus den Hauptsätzen",
+      "question": "Was besagt der erste Hauptsatz der Thermodynamik?",
+      "choices": [
+        "A: Wärme fließt immer von einem kälteren zu einem wärmeren Körper.",
+        "B: Energie kann nicht erzeugt oder vernichtet werden, sondern nur umgewandelt.",
+        "C: Die Temperatur eines Systems kann nicht unter den absoluten Nullpunkt gesenkt werden.",
+        "D: Der Druck eines idealen Gases ist konstant, wenn das Volumen verändert wird."
+      ],
+      "correct_answer": "B",
+      "explanation": "Der erste Hauptsatz der Thermodynamik, auch bekannt als das Gesetz der Energieerhaltung, besagt, dass die Gesamtenergie eines geschlossenen Systems konstant bleibt. Energie kann zwischen verschiedenen Formen umgewandelt werden, aber nicht verloren gehen oder neu geschaffen werden.",
+      "difficulty": 5,
+      "subcategory": "Einfache Folgerungen aus den Hauptsätzen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Phasenübergänge (Übersicht)",
+      "question": "Welcher der folgenden Phasenübergänge beschreibt den Übergang von fest zu gasförmig?",
+      "choices": [
+        "A: Schmelzen",
+        "B: Erstarren",
+        "C: Sublimation",
+        "D: Verdampfung"
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Sublimation ist der Prozess, bei dem ein Feststoff direkt in den gasförmigen Zustand übergeht, ohne zuvor flüssig zu werden. Ein Beispiel hierfür ist Trockeneis, das direkt zu Kohlendioxid-Gas wird.",
+      "difficulty": 4,
+      "subcategory": "Phasenübergänge (Übersicht)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Zustand und Gleichgewicht (makro/mikro)",
+      "question": "Was beschreibt der Zustand eines thermodynamischen Systems im Gleichgewicht?",
+      "choices": [
+        "A: Es findet ständig eine chemische Reaktion statt.",
+        "B: Es gibt keine Wechselwirkungen zwischen den Molekülen.",
+        "C: Die Temperatur steigt kontinuierlich an.",
+        "D: Alle makroskopischen Eigenschaften bleiben konstant."
+      ],
+      "correct_answer": "D",
+      "explanation": "Ein thermodynamisches System im Gleichgewicht hat stabile makroskopische Eigenschaften, die sich nicht verändern. Im Gegensatz dazu können Systeme, die sich nicht im Gleichgewicht befinden, dynamische Prozesse durchlaufen, die zu Veränderungen in den Eigenschaften führen.",
+      "difficulty": 3,
+      "subcategory": "Zustand und Gleichgewicht (makro/mikro)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Einteilung magnetischer Stoffe (dia-/para-/ferro-)",
+      "question": "Welches der folgenden Materialien ist ein Beispiel für ein ferromagnetisches Material?",
+      "choices": [
+        "A: Eisen",
+        "B: Kupfer",
+        "C: Gold",
+        "D: Aluminium"
+      ],
+      "correct_answer": "A",
+      "explanation": "Ferromagnetische Materialien, wie Eisen, besitzen die Fähigkeit, in einem Magnetfeld magnetisiert zu werden und ihre Magnetisierung auch nach dem Entfernen des Feldes zu behalten. Im Gegensatz dazu sind Kupfer, Aluminium und Gold paramagnetisch oder diamagnetisch und zeigen keine solche Eigenschaft.",
+      "difficulty": 4,
+      "subcategory": "Einteilung magnetischer Stoffe (dia-/para-/ferro-)"
+    }
+  ]
+}
