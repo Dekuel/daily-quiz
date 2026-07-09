@@ -1,0 +1,168 @@
+{
+  "date": "2026-07-09",
+  "generated_at": "2026-07-09T04:22:35Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Paraxiale Strahlen & Matrizen-Verfahren",
+      "question": "What does the paraxial approximation describe in optics?",
+      "choices": [
+        "A: The interference of light rays from different sources.",
+        "B: The assumption that light rays travel near the optical axis.",
+        "C: The refraction of light in different materials.",
+        "D: The calculation of the wavelengths of light."
+      ],
+      "correct_answer": "B",
+      "explanation": "The paraxial approximation assumes that light rays travel near the optical axis, simplifying calculations. This assumption is crucial for the application of matrix methods in optics as it facilitates the analysis of optical systems.",
+      "difficulty": 4,
+      "subcategory": "Paraxiale Strahlen & Matrizen-Verfahren"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Wärmekapazitäten (C_V, C_p, Beziehungen)",
+      "question": "What does the specific heat capacity C_p of a substance describe?",
+      "choices": [
+        "A: The temperature at which a substance changes its state of matter.",
+        "B: The heat needed to increase the temperature of a substance by 1 degree Celsius at constant volume.",
+        "C: The total amount of heat a substance can absorb at any temperature.",
+        "D: The heat needed to increase the temperature of a substance by 1 degree Celsius at constant pressure."
+      ],
+      "correct_answer": "D",
+      "explanation": "The specific heat capacity C_p describes the amount of heat needed to increase the temperature of a substance at constant pressure. It is an important parameter in thermodynamics and differs from the heat capacity at constant volume (C_V).",
+      "difficulty": 4,
+      "subcategory": "Wärmekapazitäten (C_V, C_p, Beziehungen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Zeitdilatation",
+      "question": "What happens over time for a traveler moving at nearly the speed of light relative to a stationary observer?",
+      "choices": [
+        "A: Time passes irregularly for the traveler.",
+        "B: Time passes faster for the traveler.",
+        "C: Time passes slower for the traveler.",
+        "D: Time remains the same for the traveler."
+      ],
+      "correct_answer": "C",
+      "explanation": "According to the theory of relativity, a traveler moving at nearly the speed of light experiences time dilation, meaning time passes more slowly for them compared to a stationary observer. This is a central concept in Einstein's special theory of relativity.",
+      "difficulty": 4,
+      "subcategory": "Zeitdilatation"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Optische Aktivität & Faraday-Effekt",
+      "question": "Which phenomenon describes the rotation of the polarization plane of light in an optically active medium?",
+      "choices": [
+        "A: Reflection",
+        "B: Faraday effect",
+        "C: Refraction",
+        "D: Optical activity"
+      ],
+      "correct_answer": "D",
+      "explanation": "Optical activity is the phenomenon where the polarization plane of light is rotated by certain materials, such as sugar solutions. In contrast, the Faraday effect describes the rotation of the polarization plane in a magnetic field. Both effects are important in optics but have different causes.",
+      "difficulty": 5,
+      "subcategory": "Optische Aktivität & Faraday-Effekt"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Temperaturbegriff (thermisches Gleichgewicht)",
+      "question": "What describes the thermal equilibrium between two bodies?",
+      "choices": [
+        "A: The bodies have different temperatures.",
+        "B: The bodies cannot move.",
+        "C: The bodies are in contact with a third body.",
+        "D: The bodies have the same temperature."
+      ],
+      "correct_answer": "D",
+      "explanation": "In thermal equilibrium, two bodies have the same temperature, meaning no heat flow occurs between them. This is a fundamental concept in thermodynamics describing a state where heat transfer has ceased.",
+      "difficulty": 6,
+      "subcategory": "Temperaturbegriff (thermisches Gleichgewicht)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Maxwell-Gleichungen (vollständig)",
+      "question": "Which of the following equations is one of the Maxwell's equations?",
+      "choices": [
+        "A: E = mc²",
+        "B: ∇ · E = ρ/ε₀",
+        "C: pV = nRT",
+        "D: F = m * a"
+      ],
+      "correct_answer": "B",
+      "explanation": "The Maxwell's equations describe the fundamentals of electrodynamics. The equation ∇ · E = ρ/ε₀ is the first Maxwell's equation and describes how electric fields are related to charges.",
+      "difficulty": 3,
+      "subcategory": "Maxwell-Gleichungen (vollständig)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Transistoren",
+      "question": "What is the main function of a transistor?",
+      "choices": [
+        "A: It dissipates heat.",
+        "B: It amplifies electrical signals.",
+        "C: It cools electronic components.",
+        "D: It stores electrical energy."
+      ],
+      "correct_answer": "B",
+      "explanation": "Transistors are semiconductor devices mainly used for amplifying electrical signals or switching electric currents. They are fundamental components in modern electronics and can be found in nearly all electronic devices.",
+      "difficulty": 1,
+      "subcategory": "Transistoren"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Kovariante Lagrange-Formulierung",
+      "question": "Which statement best describes the covariant Lagrangian formulation in relativity theory?",
+      "choices": [
+        "A: It enables formulating the equations of motion in a way independent of the choice of coordinate system.",
+        "B: It is based solely on Newtonian mechanics.",
+        "C: It is only applicable to non-relativistic systems.",
+        "D: It ignores interactions between particles."
+      ],
+      "correct_answer": "A",
+      "explanation": "The covariant Lagrangian formulation is crucial for relativity theory as it allows writing physical laws in a form independent of the choice of reference frame. This is particularly important in relativistic physics where different observers may have different descriptions of the same phenomena.",
+      "difficulty": 7,
+      "subcategory": "Kovariante Lagrange-Formulierung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Farbe von Gegenständen",
+      "question": "Why do green leaves appear green in daylight?",
+      "choices": [
+        "A: They contain green pigments that emit light.",
+        "B: They reflect all colors of light uniformly.",
+        "C: They reflect green light and absorb other colors.",
+        "D: They emit green light."
+      ],
+      "correct_answer": "C",
+      "explanation": "Green leaves contain chlorophyll, which reflects green light and absorbs other colors of light. This makes them appear green to the human eye when viewed in daylight.",
+      "difficulty": 6,
+      "subcategory": "Farbe von Gegenständen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Auftrieb & Schwimmen",
+      "question": "Which statement best describes the principle of buoyancy?",
+      "choices": [
+        "A: A body sinks if its density is greater than that of water.",
+        "B: A heavy body always has more buoyancy than a light one.",
+        "C: A body always floats, regardless of its shape.",
+        "D: Buoyancy only occurs with solid bodies."
+      ],
+      "correct_answer": "A",
+      "explanation": "The principle of buoyancy states that a body submerged in a fluid experiences an upward force equal to the weight of the displaced fluid. If a body sinks, it has a greater density than the fluid it is in.",
+      "difficulty": 5,
+      "subcategory": "Auftrieb & Schwimmen"
+    }
+  ]
+}

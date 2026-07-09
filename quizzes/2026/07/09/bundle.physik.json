@@ -1,0 +1,169 @@
+{
+  "date": "2026-07-09",
+  "generated_at": "2026-07-09T04:22:00Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Paraxiale Strahlen & Matrizen-Verfahren",
+      "question": "Was beschreibt die paraxiale Approximation in der Optik?",
+      "choices": [
+        "A: Die Interferenz von Lichtstrahlen aus verschiedenen Quellen.",
+        "B: Die Annahme, dass Lichtstrahlen nahe der optischen Achse verlaufen.",
+        "C: Die Brechung von Licht in verschiedenen Materialien.",
+        "D: Die Berechnung der Wellenlängen von Licht."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die paraxiale Approximation geht davon aus, dass die Lichtstrahlen in der Nähe der optischen Achse verlaufen, wodurch die Berechnungen vereinfacht werden. Diese Annahme ist entscheidend für die Anwendung von Matrizenverfahren in der Optik, da sie die Analyse von optischen Systeme erleichtert.",
+      "difficulty": 4,
+      "subcategory": "Paraxiale Strahlen & Matrizen-Verfahren"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Wärmekapazitäten (C_V, C_p, Beziehungen)",
+      "question": "Was beschreibt die spezifische Wärmekapazität C_p eines Stoffes?",
+      "choices": [
+        "A: Die Temperatur, bei der ein Stoff seinen Aggregatzustand ändert.",
+        "B: Die Wärme, die benötigt wird, um die Temperatur eines Stoffes bei konstantem Volumen um 1 Grad Celsius zu erhöhen.",
+        "C: Die Gesamtmenge an Wärme, die ein Stoff bei jeder Temperatur aufnehmen kann.",
+        "D: Die Wärme, die benötigt wird, um die Temperatur eines Stoffes bei konstantem Druck um 1 Grad Celsius zu erhöhen."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die spezifische Wärmekapazität C_p beschreibt die Wärmemenge, die benötigt wird, um die Temperatur eines Stoffes bei konstantem Druck zu erhöhen. Sie ist ein wichtiger Parameter in der Thermodynamik und unterscheidet sich von der Wärmekapazität bei konstantem Volumen (C_V).",
+      "difficulty": 4,
+      "subcategory": "Wärmekapazitäten (C_V, C_p, Beziehungen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Zeitdilatation",
+      "question": "Was passiert mit der Zeit für einen Reisenden, der sich relativ zu einem ruhenden Beobachter mit fast Lichtgeschwindigkeit bewegt?",
+      "choices": [
+        "A: Die Zeit vergeht für den Reisenden unregelmäßig.",
+        "B: Die Zeit vergeht für den Reisenden schneller.",
+        "C: Die Zeit vergeht für den Reisenden langsamer.",
+        "D: Die Zeit bleibt für den Reisenden gleich."
+      ],
+      "correct_answer": "C",
+      "explanation": "Laut der Relativitätstheorie erlebt ein Reisender, der sich mit nahezu Lichtgeschwindigkeit bewegt, eine Zeitdilatation, was bedeutet, dass die Zeit für ihn langsamer vergeht im Vergleich zu einem ruhenden Beobachter. Dies ist ein zentrales Konzept der speziellen Relativitätstheorie von Einstein.",
+      "difficulty": 4,
+      "subcategory": "Zeitdilatation"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Optische Aktivität & Faraday-Effekt",
+      "question": "Welches Phänomen beschreibt die Drehung der Polarisationsebene von Licht in einem optisch aktiven Medium?",
+      "choices": [
+        "A: Reflexion",
+        "B: Faraday-Effekt",
+        "C: Brechung",
+        "D: Optische Aktivität"
+      ],
+      "correct_answer": "D",
+      "explanation": "Die optische Aktivität ist das Phänomen, bei dem die Polarisationsebene von Licht durch bestimmte Materialien, wie z.B. Zuckerlösungen, gedreht wird. Im Gegensatz dazu beschreibt der Faraday-Effekt die Rotation der Polarisationsebene in einem Magnetfeld. Beide Effekte sind wichtig in der Optik, haben jedoch unterschiedliche Ursachen.",
+      "difficulty": 5,
+      "subcategory": "Optische Aktivität & Faraday-Effekt"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Temperaturbegriff (thermisches Gleichgewicht)",
+      "question": "Was beschreibt das thermische Gleichgewicht zwischen zwei Körpern?",
+      "choices": [
+        "A: Die Körper haben unterschiedliche Temperaturen.",
+        "B: Die Körper können sich nicht bewegen.",
+        "C: Die Körper sind in Kontakt mit einem dritten Körper.",
+        "D: Die Körper haben die gleiche Temperatur."
+      ],
+      "correct_answer": "D",
+      "explanation": "Im thermischen Gleichgewicht haben zwei Körper die gleiche Temperatur, was bedeutet, dass kein Wärmefluss zwischen ihnen stattfindet. Dies ist ein grundlegendes Konzept in der Thermodynamik, das den Zustand beschreibt, in dem die Wärmeübertragung aufgehört hat.",
+      "difficulty": 6,
+      "subcategory": "Temperaturbegriff (thermisches Gleichgewicht)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Maxwell-Gleichungen (vollständig)",
+      "question": "Welche der folgenden Gleichungen ist eine der Maxwell-Gleichungen?",
+      "choices": [
+        "A: E = mc²",
+        "B: ∇ · E = ρ/ε₀",
+        "C: pV = nRT",
+        "D: F = m * a"
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Maxwell-Gleichungen beschreiben die Grundlagen der Elektrodynamik. Die Gleichung ∇ · E = ρ/ε₀ ist die erste Maxwell-Gleichung und beschreibt, wie elektrische Felder mit Ladungen verbunden sind.",
+      "difficulty": 3,
+      "subcategory": "Maxwell-Gleichungen (vollständig)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Transistoren",
+      "question": "Was ist die Hauptfunktion eines Transistors?",
+      "choices": [
+        "A: Er leitet Wärme ab.",
+        "B: Er verstärkt elektrische Signale.",
+        "C: Er kühlt elektronische Bauteile.",
+        "D: Er speichert elektrische Energie."
+      ],
+      "correct_answer": "B",
+      "explanation": "Transistoren sind Halbleiterbauelemente, die hauptsächlich zur Verstärkung elektrischer Signale oder zur Schaltung von elektrischen Strömen verwendet werden. Sie sind grundlegende Bausteine in der modernen Elektronik und finden sich in nahezu allen elektronischen Geräten.",
+      "difficulty": 1,
+      "subcategory": "Transistoren"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Kovariante Lagrange-Formulierung",
+      "question": "Welche der folgenden Aussagen beschreibt am besten die kovariante Lagrange-Formulierung in der Relativitätstheorie?",
+      "choices": [
+        "A: Sie ermöglicht die Formulierung der Bewegungsgleichungen in einer Weise, die unabhängig von der Wahl des Koordinatensystems ist.",
+        "B: Sie basiert ausschließlich auf der Newtonschen Mechanik.",
+        "C: Sie ist nur für nicht-relativistische Systeme anwendbar.",
+        "D: Sie ignoriert die Wechselwirkungen zwischen Teilchen."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die kovariante Lagrange-Formulierung ist entscheidend für die Relativitätstheorie, da sie es ermöglicht, physikalische Gesetze in einer Form zu schreiben, die unabhängig von der Wahl des Bezugssystems ist. Dies ist besonders wichtig in der relativistischen Physik, wo unterschiedliche Beobachter unterschiedliche Beschreibungen der gleichen Phänomene haben können.",
+      "difficulty": 7,
+      "subcategory": "Kovariante Lagrange-Formulierung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Farbe von Gegenständen",
+      "question": "Warum erscheinen grüne Blätter bei Tageslicht grün?",
+      "choices": [
+        "A: Sie enthalten grüne Farbpigmente, die Licht emittieren.",
+        "B: Sie reflektieren alle Farben des Lichts gleichmäßig.",
+        "C: Sie reflektieren grünes Licht und absorbieren andere Farben.",
+        "D: Sie senden grünes Licht aus."
+      ],
+      "correct_answer": "C",
+      "explanation": "Grüne Blätter enthalten Chlorophyll, das das grüne Licht reflektiert und andere Farben des Lichts absorbiert. Dadurch erscheinen sie für das menschliche Auge grün, wenn sie unter Tageslicht betrachtet werden.",
+      "difficulty": 6,
+      "subcategory": "Farbe von Gegenständen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Auftrieb & Schwimmen",
+      "question": "Welche Aussage beschreibt am besten das Prinzip des Auftriebs?",
+      "choices": [
+        "A: Ein Körper sinkt, wenn seine Dichte größer ist als die des Wassers.",
+        "B: Ein schwerer Körper hat immer mehr Auftrieb als ein leichter.",
+        "C: Ein Körper schwimmt immer, unabhängig von seiner Form.",
+        "D: Auftrieb tritt nur bei festen Körpern auf."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Auftriebsprinzip besagt, dass ein Körper, der in eine Flüssigkeit eingetaucht ist, einen Auftrieb erfährt, der gleich dem Gewicht der verdrängten Flüssigkeit ist. Sinkt ein Körper, hat er eine größere Dichte als die Flüssigkeit, in der er sich befindet.",
+      "difficulty": 5,
+      "subcategory": "Auftrieb & Schwimmen"
+    }
+  ]
+}
