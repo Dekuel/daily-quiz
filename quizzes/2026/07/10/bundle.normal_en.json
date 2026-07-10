@@ -1,0 +1,185 @@
+{
+  "date": "2026-07-10",
+  "generated_at": "2026-07-10T04:23:27Z",
+  "schema_version": 6,
+  "mode": "normal",
+  "questions": [
+    {
+      "category": "Glaube & Religion",
+      "topic": "Monotheistische Religionen",
+      "question": "Which of the following practices is one of the Five Pillars of Islam?",
+      "choices": [
+        "A: Prayer (Salah)",
+        "B: Meditation with mantras",
+        "C: Fasting during Advent",
+        "D: Pilgrimage to Varanasi"
+      ],
+      "correct_answer": "A",
+      "explanation": "The Five Pillars of Islam are central practices that Muslims follow in their daily lives. This includes prayer (Salah), performed five times a day, which is an important connection to God.",
+      "difficulty": 2
+    },
+    {
+      "question": "What is an important requirement to start a dual education in Germany?",
+      "category": "Alltag & Gesellschaft",
+      "subcategory": "Berufsbilder & Ausbildungen",
+      "difficulty": 3,
+      "choices": [
+        "A: An average of 2.0 in the Abitur",
+        "B: Presentation of an employment contract",
+        "C: A completed degree in a similar field",
+        "D: Minimum age of 16 years"
+      ],
+      "correct_answer": "D"
+    },
+    {
+      "category": "Essen und Trinken",
+      "topic": "Küche international",
+      "question": "Which of these foods is commonly used as a meat alternative in Asian cuisine and is made from fermented soybeans?",
+      "choices": [
+        "A: Chickpeas",
+        "B: Jackfruit",
+        "C: Tofu",
+        "D: Quinoa"
+      ],
+      "correct_answer": "C",
+      "explanation": "Tofu is a widely used product in Asian cuisine made from soybeans. It is often used as a meat alternative due to its high protein content and versatility in preparation.",
+      "difficulty": 5
+    },
+    {
+      "category": "Geographie",
+      "topic": "Kartographie & GIS",
+      "question": "Which data format is particularly suitable for storing vector data in a compact and platform-independent format commonly used in web GIS applications?",
+      "choices": [
+        "A: TIFF",
+        "B: Shapefile",
+        "C: GeoPackage",
+        "D: GeoJSON"
+      ],
+      "correct_answer": "D",
+      "explanation": "GeoJSON is a widely used format for storing geographic data in JSON format and is ideal for use in web GIS applications. It allows easy integration into web technologies and supports both vector and point data.",
+      "difficulty": 8
+    },
+    {
+      "category": "Geschichte",
+      "topic": "Mittelalter",
+      "question": "Which event is often considered the beginning of the Holy Roman Empire of the German Nation?",
+      "choices": [
+        "A: The founding of the Hanseatic League in the 12th century",
+        "B: The coronation of Charlemagne in 800",
+        "C: The Treaty of Verdun in 843",
+        "D: The Battle of Hastings in 1066"
+      ],
+      "correct_answer": "B",
+      "explanation": "The coronation of Charlemagne by Pope Leo III in 800 is seen as a crucial event that established the idea of a Christian empire in Western Europe. This event laid the foundation for the later Holy Roman Empire that developed over centuries.",
+      "difficulty": 6
+    },
+    {
+      "category": "Kunst und Literatur",
+      "topic": "Epochen & Strömungen",
+      "question": "Which of the following features is characteristic of ancient classical art in Greece and Rome?",
+      "choices": [
+        "A: Focus on individual emotions and subjective experiences",
+        "B: Use of surrealistic elements and dream logic",
+        "C: Emphasis on ideal beauty and harmony in the human body",
+        "D: Challenging traditional narrative structures through experimental techniques"
+      ],
+      "correct_answer": "C",
+      "explanation": "Ancient classical art is characterized by the idealization of the human body and the pursuit of harmony and proportion in art and architecture. These features can be seen in the sculptures and temple structures of the time, reflecting the philosophical ideals of that era.",
+      "difficulty": 8
+    },
+    {
+      "category": "Natur",
+      "topic": "Pflanzenwelt",
+      "question": "Which of the following statements best describes the process of photosynthesis in plants?",
+      "choices": [
+        "A: Plants convert light energy into chemical energy and produce oxygen",
+        "B: Plants only breathe at night and release carbon dioxide",
+        "C: Plants only use water and nutrients from the soil for energy production",
+        "D: Plants do not need light for photosynthesis as they derive their energy solely from the soil"
+      ],
+      "correct_answer": "A",
+      "explanation": "During photosynthesis, plants convert light energy, usually from the sun, into chemical energy. They absorb carbon dioxide from the air and release oxygen, which is crucial for the ecosystem.",
+      "difficulty": 7
+    },
+    {
+      "question": "Who is the current President of the United States?",
+      "choices": [
+        "A: Joe Biden",
+        "B: Donald Trump",
+        "C: Barack Obama"
+      ],
+      "correct_answer": "A",
+      "difficulty": 1,
+      "category": "politics"
+    },
+    {
+      "category": "Sport",
+      "topic": "Olympische Spiele",
+      "question": "Which of these sports was added as an Olympic discipline only in 2020?",
+      "choices": [
+        "A: Athletics",
+        "B: Basketball",
+        "C: Swimming",
+        "D: Skateboarding"
+      ],
+      "correct_answer": "D",
+      "explanation": "Skateboarding was included in the Olympic program for the first time at the 2020 Tokyo Olympics. It complements more traditional sports like basketball, athletics, and swimming, which have been part of the Olympics for a long time.",
+      "difficulty": 4
+    },
+    {
+      "category": "Language",
+      "topic": "Etymology",
+      "question": "What is the origin of the English word 'piano'?",
+      "choices": [
+        "A: Italian",
+        "B: French",
+        "C: Latin",
+        "D: German"
+      ],
+      "correct_answer": "A",
+      "explanation": "The word 'piano' comes from the Italian phrase 'pianoforte', which means 'soft-loud'. It reflects the instrument's ability to play notes at varying volumes. This Italian term was adopted into English in the early 18th century.",
+      "difficulty": 1
+    },
+    {
+      "category": "Technologie",
+      "topic": "Computer & Internet",
+      "question": "Which component of a computer is primarily responsible for processing data?",
+      "choices": [
+        "A: RAM",
+        "B: Graphics card",
+        "C: Motherboard",
+        "D: Processor"
+      ],
+      "correct_answer": "D",
+      "explanation": "The processor, also known as the CPU, is the heart of a computer and is responsible for executing calculations and program instructions. While the graphics card is responsible for displaying images and the RAM stores temporary data, the motherboard coordinates the connections between all components.",
+      "difficulty": 6
+    },
+    {
+      "question": "Which event is considered the beginning of modern free trade policy?",
+      "category": "Wirtschaft & Finanzen",
+      "subcategory": "Globalisierung & Freihandel",
+      "difficulty": 5,
+      "choices": [
+        "A: Reykjavik Economic Summit 1986",
+        "B: GATT Agreement 1947",
+        "C: Geneva Trade Conference 1964",
+        "D: Bretton Woods Conference 1944"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "category": "Wissenschaft",
+      "topic": "Biologie",
+      "question": "Which of the following microorganisms are known to cause diseases in humans?",
+      "choices": [
+        "A: Animals",
+        "B: Bacteria",
+        "C: Plants",
+        "D: Fungi"
+      ],
+      "correct_answer": "B",
+      "explanation": "Bacteria are microorganisms that can cause various diseases, such as streptococci or Escherichia coli. Plants and animals are not microorganisms, and fungi can also cause diseases, but bacteria are the most common agents of bacterial infections. Therefore, A is the correct answer.",
+      "difficulty": 2
+    }
+  ]
+}

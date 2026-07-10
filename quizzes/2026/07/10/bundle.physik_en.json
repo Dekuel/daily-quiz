@@ -1,0 +1,168 @@
+{
+  "date": "2026-07-10",
+  "generated_at": "2026-07-10T04:23:48Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Phononen in Festkörpern: harmonischer Hamilton-Operator",
+      "question": "Which statement best describes the harmonic Hamilton operator for phonons in a solid?",
+      "choices": [
+        "A: It can only be applied to systems with an odd number of phonons.",
+        "B: It considers only the temperature dependence of phononic states.",
+        "C: It describes the interaction between electrons in a metal.",
+        "D: It represents the energy of phonons as a function of their frequency."
+      ],
+      "correct_answer": "D",
+      "explanation": "The harmonic Hamilton operator for phonons describes the energy of phonons in a solid and represents it as a function of their frequency. This is crucial for understanding the thermodynamic properties of solids.",
+      "difficulty": 6,
+      "subcategory": "Phononen in Festkörpern: harmonischer Hamilton-Operator"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Lorentz-Transformation (Grundform)",
+      "question": "What does the Lorentz transformation in relativity theory describe?",
+      "choices": [
+        "A: The laws of motion for bodies under the influence of forces.",
+        "B: The relationship between space and time at relativistic speeds.",
+        "C: The conservation of energy in closed systems.",
+        "D: The gravitational force between two mass particles."
+      ],
+      "correct_answer": "B",
+      "explanation": "The Lorentz transformation describes how the coordinates of space and time change when objects move relative to each other. It is a central element of special relativity theory and enables the understanding of time dilation and length contraction.",
+      "difficulty": 4,
+      "subcategory": "Lorentz-Transformation (Grundform)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Elektronen im Magnetfeld (Überblick)",
+      "question": "What happens to a moving electron when it moves perpendicular to a homogeneous magnetic field?",
+      "choices": [
+        "A: It exits the magnetic field without deflection.",
+        "B: It is brought to a halt and remains at rest.",
+        "C: It accelerates towards the magnetic field.",
+        "D: It experiences a Lorentz force and moves on a circular path."
+      ],
+      "correct_answer": "D",
+      "explanation": "A moving electron in a homogeneous magnetic field experiences a Lorentz force that acts perpendicular to the direction of motion and the magnetic field. This causes the electron to move on a circular path around the field lines.",
+      "difficulty": 4,
+      "subcategory": "Elektronen im Magnetfeld (Überblick)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Zerlegungs- und Eindeutigkeitssatz (Vektoranalysis)",
+      "question": "What does the decomposition and uniqueness theorem in vector analysis state?",
+      "choices": [
+        "A: Every vector is always zero.",
+        "B: Every vector can be uniquely decomposed into a divergent and a rotational part.",
+        "C: Vectors can only be decomposed into two parts.",
+        "D: The theorem applies only to scalar fields."
+      ],
+      "correct_answer": "B",
+      "explanation": "The decomposition and uniqueness theorem states that every vector can be decomposed into a divergent and a rotational part. This decomposition is unique, meaning there is only one way to do it as long as the conditions are met.",
+      "difficulty": 5,
+      "subcategory": "Zerlegungs- und Eindeutigkeitssatz (Vektoranalysis)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Welle-Teilchen-Dualismus (Licht)",
+      "question": "Which experiment best illustrates the wave-particle duality of light?",
+      "choices": [
+        "A: Michelson-Morley experiment",
+        "B: Double-slit experiment",
+        "C: Rutherford scattering experiment",
+        "D: Cavendish experiment"
+      ],
+      "correct_answer": "B",
+      "explanation": "The double-slit experiment shows that light exhibits both wave and particle properties. When light is passed through two slits, interference patterns typical of waves are formed, while individual photons can also be detected as particles.",
+      "difficulty": 7,
+      "subcategory": "Welle-Teilchen-Dualismus (Licht)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Bewegungsgleichung der Gitteratome",
+      "question": "Which of the following statements correctly describes the equation of motion of lattice atoms in a crystal?",
+      "choices": [
+        "A: Lattice atoms move independently of each other without interaction.",
+        "B: Lattice atoms only move at temperatures above 1000 °C.",
+        "C: Lattice atoms cannot move.",
+        "D: Lattice atoms move harmonically around their equilibrium position."
+      ],
+      "correct_answer": "D",
+      "explanation": "The equation of motion of lattice atoms describes their harmonic oscillation around their equilibrium position. This motion is crucial for the properties of solids, especially in heat conduction and elastic deformation.",
+      "difficulty": 2,
+      "subcategory": "Bewegungsgleichung der Gitteratome"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "De Haas–van Alphen-Effekt",
+      "question": "What does the De Haas–van Alphen effect in solids describe?",
+      "choices": [
+        "A: The change in electrical resistance with temperature changes.",
+        "B: The transfer of heat through convection in solid materials.",
+        "C: The alteration of crystal structure at high pressures.",
+        "D: The quantization of magnetic moments in a metallic solid."
+      ],
+      "correct_answer": "D",
+      "explanation": "The De Haas–van Alphen effect describes the quantum mechanical interaction between the magnetic moment and the external magnetic field in metallic solids. This leads to an oscillatory change in magnetic susceptibility that occurs as a function of the magnetic field.",
+      "difficulty": 7,
+      "subcategory": "De Haas–van Alphen-Effekt"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Kohärente inelastische Neutronenstreuung",
+      "question": "What does coherent inelastic neutron scattering in solid-state physics describe?",
+      "choices": [
+        "A: The change in energy and direction of neutrons through interaction with phonons.",
+        "B: The scattering of neutrons without energy loss.",
+        "C: The inelastic scattering of photons on electrons.",
+        "D: The elastic scattering of neutrons on atomic nuclei."
+      ],
+      "correct_answer": "A",
+      "explanation": "Coherent inelastic neutron scattering refers to the process where neutrons change their energy and direction by interacting with phonons in the solid. This method is often used to gain information about the dynamic properties of solids.",
+      "difficulty": 6,
+      "subcategory": "Kohärente inelastische Neutronenstreuung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Drehschwingungen um eine feste Achse",
+      "question": "Which expression describes the energy of a rotating body in terms of kinetic energy?",
+      "choices": [
+        "A: E_k = 0.5 I ω²",
+        "B: E_k = mgh",
+        "C: E_k = Fd",
+        "D: E_k = 0.5 mv²"
+      ],
+      "correct_answer": "A",
+      "explanation": "The kinetic energy of a rotating body is described by the expression E_k = 0.5 I ω², where I is the moment of inertia and ω is the angular velocity. The other answers refer to different physical concepts not related to rotational motion.",
+      "difficulty": 9,
+      "subcategory": "Drehschwingungen um eine feste Achse"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Charakter der Kernkraft",
+      "question": "Which of the following statements best describes the properties of the nuclear force?",
+      "choices": [
+        "A: The nuclear force is an attractive force that acts only between protons.",
+        "B: The nuclear force is a strongly attractive interaction that acts between both protons and neutrons.",
+        "C: The nuclear force is an electromagnetic force that acts between charged particles.",
+        "D: The nuclear force has an unlimited range and acts throughout space."
+      ],
+      "correct_answer": "B",
+      "explanation": "The nuclear force is one of the four fundamental forces and acts strongly between nucleons (protons and neutrons) within the atomic nucleus. It is very strong but has a limited range of about 1 femtometer, explaining why it is effective only at very short distances.",
+      "difficulty": 6,
+      "subcategory": "Charakter der Kernkraft"
+    }
+  ]
+}

@@ -3346,6 +3346,20 @@
       "correct_answer": "A",
       "explanation": "Sweden is not located on a peninsula but is part of the Scandinavian mainland. Portugal, Spain, and Greece are all countries located on peninsulas. Portugal is situated on the Iberian Peninsula, while Greece encompasses the Greek Peninsula.",
       "difficulty": 6
+    },
+    {
+      "category": "Geographie",
+      "topic": "Kartographie & GIS",
+      "question": "Which data format is particularly suitable for storing vector data in a compact and platform-independent format commonly used in web GIS applications?",
+      "choices": [
+        "A: TIFF",
+        "B: Shapefile",
+        "C: GeoPackage",
+        "D: GeoJSON"
+      ],
+      "correct_answer": "D",
+      "explanation": "GeoJSON is a widely used format for storing geographic data in JSON format and is ideal for use in web GIS applications. It allows easy integration into web technologies and supports both vector and point data.",
+      "difficulty": 8
     }
   ]
 }

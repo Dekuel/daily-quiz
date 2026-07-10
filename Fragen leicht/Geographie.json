@@ -3444,6 +3444,20 @@
       "correct_answer": "A",
       "explanation": "Schweden liegt nicht auf einer Halbinsel, sondern ist Teil des skandinavischen Festlandes. Portugal, Spanien und Griechenland sind allesamt Länder, die auf Halbinseln liegen. Portugal befindet sich auf der Iberischen Halbinsel, während Griechenland die griechische Halbinsel umfasst.",
       "difficulty": 6
+    },
+    {
+      "category": "Geographie",
+      "topic": "Kartographie & GIS",
+      "question": "Welches Datenformat ist besonders geeignet für die Speicherung von Vektordaten in einem kompakten und plattformunabhängigen Format, das häufig in Web-GIS-Anwendungen verwendet wird?",
+      "choices": [
+        "A: TIFF",
+        "B: Shapefile",
+        "C: GeoPackage",
+        "D: GeoJSON"
+      ],
+      "correct_answer": "D",
+      "explanation": "GeoJSON ist ein weit verbreitetes Format zur Speicherung von geografischen Daten im JSON-Format und ideal für die Nutzung in Web-GIS-Anwendungen. Es ermöglicht eine einfache Integration in Webtechnologien und unterstützt sowohl Vektor- als auch Punktdaten.",
+      "difficulty": 8
     }
   ]
 }
