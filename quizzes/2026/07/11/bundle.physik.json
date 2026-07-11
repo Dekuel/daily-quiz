@@ -1,0 +1,169 @@
+{
+  "date": "2026-07-11",
+  "generated_at": "2026-07-11T04:04:17Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Zeitentwicklung (Schrödinger-Bild)",
+      "question": "Welche Aussage beschreibt korrekt die Zeitentwicklung eines quantenmechanischen Zustands im Schrödinger-Bild?",
+      "choices": [
+        "A: Die Operatoren verändern sich gemäß der Schrödinger-Gleichung, während der Zustand konstant bleibt.",
+        "B: Es gibt keine zeitliche Entwicklung im Schrödinger-Bild.",
+        "C: Sowohl der Zustand als auch die Operatoren ändern sich unabhängig voneinander.",
+        "D: Der Zustand ändert sich gemäß der Schrödinger-Gleichung, während die Operatoren zeitlich konstant bleiben."
+      ],
+      "correct_answer": "D",
+      "explanation": "Im Schrödinger-Bild bleibt der Zustand eines quantenmechanischen Systems zeitlich konstant, während die Operatoren die Zeitentwicklung des Systems beschreiben. Diese Formulierung ist grundlegend für die Analyse quantenmechanischer Systeme und deren Dynamik.",
+      "difficulty": 9,
+      "subcategory": "Zeitentwicklung (Schrödinger-Bild)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "β‑Zerfall des Kerns",
+      "question": "Was geschieht beim β-Zerfall eines Kerns?",
+      "choices": [
+        "A: Ein Neutron bleibt unverändert und ein Photon wird emittiert.",
+        "B: Ein Proton wird in ein Proton umgewandelt und ein Neutron wird emittiert.",
+        "C: Ein Neutron wird in ein Proton umgewandelt und ein Elektron wird emittiert.",
+        "D: Ein Proton wird in ein Neutron umgewandelt und ein Positron wird emittiert."
+      ],
+      "correct_answer": "C",
+      "explanation": "Beim β-Zerfall wandelt sich ein Neutron in ein Proton um, wobei ein Elektron (β-Partikel) und ein Antineutrino emittiert werden. Dies führt zu einer Erhöhung der Kernladungszahl um eins und verändert das Atom in ein anderes Element.",
+      "difficulty": 2,
+      "subcategory": "β‑Zerfall des Kerns"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Carnot- und allgemeine Kreisprozesse",
+      "question": "Welche Aussage beschreibt korrekt die Effizienz eines Carnot-Prozesses?",
+      "choices": [
+        "A: Die Effizienz ist unabhängig von den verwendeten Arbeitsstoffen.",
+        "B: Die Effizienz hängt nur von den Temperaturen der Wärmequellen ab.",
+        "C: Die Effizienz kann 100 % erreichen, wenn keine Reibung vorhanden ist.",
+        "D: Die Effizienz ist konstant bei allen Temperaturen."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Effizienz eines Carnot-Prozesses ist ausschließlich durch die Temperaturen der heißen und kalten Wärmequellen bestimmt. Sie kann niemals 100 % erreichen, da immer Verluste auftreten und die Effizienz von den spezifischen Arbeitsstoffen abhängt.",
+      "difficulty": 7,
+      "subcategory": "Carnot- und allgemeine Kreisprozesse"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Arbeit in der Thermodynamik (p dV, generalisiert)",
+      "question": "Was beschreibt die Arbeit, die von einem Gas bei einer isobaren Expansion verrichtet wird?",
+      "choices": [
+        "A: p * V",
+        "B: p * ΔV",
+        "C: T * ΔS",
+        "D: ΔU"
+      ],
+      "correct_answer": "B",
+      "explanation": "Bei einer isobaren Expansion bleibt der Druck konstant, und die Arbeit wird als Produkt aus dem Druck und der Änderung des Volumens berechnet. Daher ist die richtige Formel für die verrichtete Arbeit p * ΔV.",
+      "difficulty": 4,
+      "subcategory": "Arbeit in der Thermodynamik (p dV, generalisiert)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Quantenzahlen des Gesamtdrehimpulses",
+      "question": "Welche der folgenden Aussagen über die Quantenzahlen des Gesamtdrehimpulses ist korrekt?",
+      "choices": [
+        "A: Die magnetische Quantenzahl m_J kann positive und negative Werte annehmen, die den Bereich -J bis +J abdecken.",
+        "B: Die Gesamtdrehimpulsquantenzahl J kann nur ganzzahlige Werte annehmen.",
+        "C: Der Gesamtdrehimpuls J kann niemals 0 sein.",
+        "D: Die Spinquantenzahl S ist unabhängig von der Gesamtdrehimpulsquantenzahl J."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die magnetische Quantenzahl m_J kann Werte von -J bis +J annehmen und umfasst sowohl positive als auch negative Werte. Die Gesamtdrehimpulsquantenzahl J kann sowohl ganzzahlige als auch halbzahlige Werte annehmen, einschließlich 0, was bedeutet, dass die anderen Aussagen nicht korrekt sind.",
+      "difficulty": 6,
+      "subcategory": "Quantenzahlen des Gesamtdrehimpulses"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Joule–Thomson-Prozess (Inversionstemp.)",
+      "question": "Welcher der folgenden Faktoren beeinflusst die Inversionstemperatur im Joule-Thomson-Prozess für ideale Gase am stärksten?",
+      "choices": [
+        "A: Die spezifische Wärmekapazität des Gases bei konstantem Druck",
+        "B: Die molare Masse des Gases",
+        "C: Die intermolekularen Kräfte zwischen den Gasmolekülen",
+        "D: Der Druck des Gases vor der Expansion"
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Inversionstemperatur ist die Temperatur, bei der ein Gas, das sich im Joule-Thomson-Prozess ausdehnt, vom Heiz- zum Kühlverhalten wechselt. Diese Temperatur hängt stark vom Druck des Gases vor der Expansion ab, da sich die intermolekularen Kräfte und die kinetische Energie der Moleküle bei unterschiedlichen Drücken unterscheiden.",
+      "difficulty": 10,
+      "subcategory": "Joule–Thomson-Prozess (Inversionstemp.)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "ħ→0-Grenzfall; Klassische Umkehrpunkte",
+      "question": "Was passiert im ħ→0-Grenzfall in der Quantenmechanik?",
+      "choices": [
+        "A: Alle Teilchen bewegen sich mit Lichtgeschwindigkeit.",
+        "B: Teilchen können nicht mehr lokalisiert werden.",
+        "C: Die Quantenmechanik wird zur klassischen Mechanik.",
+        "D: Die Unschärferelation wird irrelevant."
+      ],
+      "correct_answer": "C",
+      "explanation": "Im ħ→0-Grenzfall verhält sich die Quantenmechanik wie die klassische Mechanik, da die quantenmechanischen Effekte verschwinden und klassische Trajektorien gelten. Dies bedeutet, dass die Konzepte der klassischen Physik, wie Umkehrpunkte, wieder anwendbar werden.",
+      "difficulty": 1,
+      "subcategory": "ħ→0-Grenzfall; Klassische Umkehrpunkte"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Elektronenspin (Pauli-Theorie)",
+      "question": "Was beschreibt der Elektronenspin in der Quantenmechanik?",
+      "choices": [
+        "A: Die Masse des Elektrons.",
+        "B: Die Richtung, in die sich ein Elektron bewegt.",
+        "C: Eine intrinsische Eigenschaft des Elektrons, vergleichbar mit Drehimpuls.",
+        "D: Die elektrische Ladung des Elektrons."
+      ],
+      "correct_answer": "C",
+      "explanation": "Der Elektronenspin ist eine grundlegende quantenmechanische Eigenschaft von Elektronen, die mit ihrem Drehimpuls verglichen werden kann. Er spielt eine wichtige Rolle in der Pauli-Theorie und beeinflusst das Verhalten von Elektronen in Atomen und Molekülen.",
+      "difficulty": 1,
+      "subcategory": "Elektronenspin (Pauli-Theorie)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Verträgliche vs. nicht-verträgliche Observable",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt verträgliche Observable in der Quantenmechanik?",
+      "choices": [
+        "A: Sie sind immer unkompatibel mit anderen Observable.",
+        "B: Sie haben immer denselben Wert in jedem Zustand.",
+        "C: Sie sind nur für Teilchen im Ruhemodus relevant.",
+        "D: Sie können gleichzeitig genau gemessen werden."
+      ],
+      "correct_answer": "D",
+      "explanation": "Verträgliche Observable können gleichzeitig gemessen werden, was bedeutet, dass ihre Messwerte nicht miteinander interferieren. Dies steht im Gegensatz zu nicht-verträglichen Observable, bei denen die Messung einer Größe die Messung einer anderen beeinflusst oder unmöglich macht.",
+      "difficulty": 5,
+      "subcategory": "Verträgliche vs. nicht-verträgliche Observable"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Natürliche Zustandsvariablen (U, H, F, G)",
+      "question": "Welche der folgenden Zustandsvariablen beschreibt die Änderung der freien Energie eines Systems bei konstanter Temperatur und Druck?",
+      "choices": [
+        "A: Innere Energie (U)",
+        "B: Enthalpie (H)",
+        "C: Helmholtz-Energie (F)",
+        "D: Gibbs-Energie (G)"
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Gibbs-Energie (G) ist die Zustandsgröße, die die maximale reversible Arbeit beschreibt, die ein System bei konstanter Temperatur und Druck leisten kann. Sie ist entscheidend für die Vorhersage der Spontaneität von chemischen Reaktionen und Phasenübergängen.",
+      "difficulty": 7,
+      "subcategory": "Natürliche Zustandsvariablen (U, H, F, G)"
+    }
+  ]
+}

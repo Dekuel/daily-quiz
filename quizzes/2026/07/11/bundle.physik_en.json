@@ -1,0 +1,168 @@
+{
+  "date": "2026-07-11",
+  "generated_at": "2026-07-11T04:04:50Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Zeitentwicklung (Schrödinger-Bild)",
+      "question": "Which statement correctly describes the time evolution of a quantum mechanical state in the Schrödinger picture?",
+      "choices": [
+        "A: The operators change according to the Schrödinger equation, while the state remains constant.",
+        "B: There is no time evolution in the Schrödinger picture.",
+        "C: Both the state and the operators change independently of each other.",
+        "D: The state changes according to the Schrödinger equation, while the operators remain constant."
+      ],
+      "correct_answer": "D",
+      "explanation": "In the Schrödinger picture, the state of a quantum mechanical system remains constant over time, while the operators describe the time evolution of the system. This formulation is fundamental for the analysis of quantum mechanical systems and their dynamics.",
+      "difficulty": 9,
+      "subcategory": "Zeitentwicklung (Schrödinger-Bild)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "β‑Zerfall des Kerns",
+      "question": "What happens during the β-decay of a nucleus?",
+      "choices": [
+        "A: A neutron remains unchanged and a photon is emitted.",
+        "B: A proton is converted into a proton and a neutron is emitted.",
+        "C: A neutron is converted into a proton and an electron is emitted.",
+        "D: A proton is converted into a neutron and a positron is emitted."
+      ],
+      "correct_answer": "C",
+      "explanation": "During β-decay, a neutron converts into a proton, emitting an electron (β-particle) and an antineutrino. This leads to an increase in the nuclear charge by one and transforms the atom into a different element.",
+      "difficulty": 2,
+      "subcategory": "β‑Zerfall des Kerns"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Carnot- und allgemeine Kreisprozesse",
+      "question": "Which statement correctly describes the efficiency of a Carnot process?",
+      "choices": [
+        "A: The efficiency is independent of the working substances used.",
+        "B: The efficiency depends only on the temperatures of the heat sources.",
+        "C: The efficiency can reach 100% if there is no friction present.",
+        "D: The efficiency remains constant at all temperatures."
+      ],
+      "correct_answer": "B",
+      "explanation": "The efficiency of a Carnot process is solely determined by the temperatures of the hot and cold heat sources. It can never reach 100%, as there are always losses and the efficiency depends on the specific working substances.",
+      "difficulty": 7,
+      "subcategory": "Carnot- und allgemeine Kreisprozesse"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Arbeit in der Thermodynamik (p dV, generalisiert)",
+      "question": "What describes the work done by a gas during an isobaric expansion?",
+      "choices": [
+        "A: p * V",
+        "B: p * ΔV",
+        "C: T * ΔS",
+        "D: ΔU"
+      ],
+      "correct_answer": "B",
+      "explanation": "During an isobaric expansion, the pressure remains constant, and the work is calculated as the product of the pressure and the change in volume. Therefore, the correct formula for the work done is p * ΔV.",
+      "difficulty": 4,
+      "subcategory": "Arbeit in der Thermodynamik (p dV, generalisiert)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Quantenzahlen des Gesamtdrehimpulses",
+      "question": "Which of the following statements about the quantum numbers of total angular momentum is correct?",
+      "choices": [
+        "A: The magnetic quantum number m_J can take positive and negative values covering the range -J to +J.",
+        "B: The total angular momentum quantum number J can only take integer values.",
+        "C: The total angular momentum J can never be 0.",
+        "D: The spin quantum number S is independent of the total angular momentum quantum number J."
+      ],
+      "correct_answer": "A",
+      "explanation": "The magnetic quantum number m_J can take values from -J to +J, covering both positive and negative values. The total angular momentum quantum number J can take both integer and half-integer values, including 0, which means the other statements are not correct.",
+      "difficulty": 6,
+      "subcategory": "Quantenzahlen des Gesamtdrehimpulses"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Joule–Thomson-Prozess (Inversionstemp.)",
+      "question": "Which of the following factors most strongly influences the inversion temperature in the Joule-Thomson process for ideal gases?",
+      "choices": [
+        "A: The specific heat capacity of the gas at constant pressure",
+        "B: The molar mass of the gas",
+        "C: The intermolecular forces between gas molecules",
+        "D: The pressure of the gas before expansion"
+      ],
+      "correct_answer": "D",
+      "explanation": "The inversion temperature is the temperature at which a gas undergoing Joule-Thomson expansion switches from heating to cooling behavior. This temperature is highly dependent on the pressure of the gas before expansion, as the intermolecular forces and kinetic energy of the molecules vary at different pressures.",
+      "difficulty": 10,
+      "subcategory": "Joule–Thomson-Prozess (Inversionstemp.)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "ħ→0-Grenzfall; Klassische Umkehrpunkte",
+      "question": "What happens in the ℏ→0 limit in quantum mechanics?",
+      "choices": [
+        "A: All particles move at the speed of light.",
+        "B: Particles can no longer be localized.",
+        "C: Quantum mechanics transitions to classical mechanics.",
+        "D: The uncertainty principle becomes irrelevant."
+      ],
+      "correct_answer": "C",
+      "explanation": "In the ℏ→0 limit, quantum mechanics behaves like classical mechanics, as quantum effects vanish and classical trajectories apply. This means that classical physics concepts, such as turning points, become applicable again.",
+      "difficulty": 1,
+      "subcategory": "ħ→0-Grenzfall; Klassische Umkehrpunkte"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Elektronenspin (Pauli-Theorie)",
+      "question": "What does the electron spin describe in quantum mechanics?",
+      "choices": [
+        "A: The mass of the electron.",
+        "B: The direction in which an electron moves.",
+        "C: An intrinsic property of the electron comparable to angular momentum.",
+        "D: The electric charge of the electron."
+      ],
+      "correct_answer": "C",
+      "explanation": "Electron spin is a fundamental quantum mechanical property of electrons that can be compared to their angular momentum. It plays a crucial role in the Pauli theory and influences the behavior of electrons in atoms and molecules.",
+      "difficulty": 1,
+      "subcategory": "Elektronenspin (Pauli-Theorie)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Verträgliche vs. nicht-verträgliche Observable",
+      "question": "Which of the following statements correctly describes compatible observables in quantum mechanics?",
+      "choices": [
+        "A: They are always incompatible with other observables.",
+        "B: They always have the same value in every state.",
+        "C: They are only relevant for particles in rest mode.",
+        "D: They can be precisely measured simultaneously."
+      ],
+      "correct_answer": "D",
+      "explanation": "Compatible observables can be measured simultaneously, meaning their measurement values do not interfere with each other. This is in contrast to incompatible observables, where measuring one quantity affects or makes it impossible to measure another.",
+      "difficulty": 5,
+      "subcategory": "Verträgliche vs. nicht-verträgliche Observable"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Natürliche Zustandsvariablen (U, H, F, G)",
+      "question": "Which of the following state variables describes the change in the free energy of a system at constant temperature and pressure?",
+      "choices": [
+        "A: Internal energy (U)",
+        "B: Enthalpy (H)",
+        "C: Helmholtz free energy (F)",
+        "D: Gibbs energy (G)"
+      ],
+      "correct_answer": "D",
+      "explanation": "Gibbs energy (G) is the state quantity that describes the maximum reversible work a system can perform at constant temperature and pressure. It is crucial for predicting the spontaneity of chemical reactions and phase transitions.",
+      "difficulty": 7,
+      "subcategory": "Natürliche Zustandsvariablen (U, H, F, G)"
+    }
+  ]
+}
