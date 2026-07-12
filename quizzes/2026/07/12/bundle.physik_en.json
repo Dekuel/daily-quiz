@@ -1,0 +1,168 @@
+{
+  "date": "2026-07-12",
+  "generated_at": "2026-07-12T04:14:17Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Einteilung magnetischer Stoffe (dia-/para-/ferro-)",
+      "question": "Which of the following materials exhibits ferromagnetic properties?",
+      "choices": [
+        "A: Gold",
+        "B: Aluminum",
+        "C: Iron",
+        "D: Copper"
+      ],
+      "correct_answer": "C",
+      "explanation": "Iron is a classic example of a ferromagnetic material, as it is able to retain its magnetic orientation even after the external magnetic field is removed. On the other hand, aluminum, copper, and gold are paramagnetic or diamagnetic and do not show significant magnetic remanence.",
+      "difficulty": 8,
+      "subcategory": "Einteilung magnetischer Stoffe (dia-/para-/ferro-)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Interferenz & Beugung elektromagnetischer Wellen",
+      "question": "What happens when two parallel light wavefronts encounter an obstacle?",
+      "choices": [
+        "A: They are always reflected.",
+        "B: They interfere and create a pattern of bright and dark fringes.",
+        "C: They diffract in different directions.",
+        "D: They disappear completely."
+      ],
+      "correct_answer": "B",
+      "explanation": "When two parallel light wavefronts encounter an obstacle, they interfere with each other. This results in an interference pattern consisting of bright and dark fringes, depending on the phase relationship of the waves.",
+      "difficulty": 1,
+      "subcategory": "Interferenz & Beugung elektromagnetischer Wellen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Gegen- und Selbstinduktion",
+      "question": "Which of the following statements correctly describes the mechanism of self-induction in a coil?",
+      "choices": [
+        "A: Self-induction occurs only when the current in the coil is constant.",
+        "B: Self-induction describes the ability of a coil to generate a voltage that opposes the change in current.",
+        "C: Self-induction is independent of the geometric shape of the coil.",
+        "D: Self-induction always results in positive feedback in the circuit."
+      ],
+      "correct_answer": "B",
+      "explanation": "Self-induction is the phenomenon where a change in the electric current in a coil generates a voltage that opposes the change in current. This is a fundamental principle in electrodynamics and leads to a delay in the current change in the coil.",
+      "difficulty": 10,
+      "subcategory": "Gegen- und Selbstinduktion"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Fresnelsche Formeln (Reflexionsgrad)",
+      "question": "Which of the following relationships correctly describes the reflectance R for the Fresnel equations at an interface between two media with different refractive indices n1 and n2, given the angle of incidence θ1?",
+      "choices": [
+        "A: R = |(n1 * cos(θ1) - n2 * cos(θ2)) / (n1 * cos(θ1) + n2 * cos(θ2})|^2",
+        "B: R = |(cos(θ1) - cos(θ2)) / (cos(θ1) + cos(θ2})|^2",
+        "C: R = |(n1 * sin(θ1) - n2 * sin(θ2)) / (n1 * sin(θ1) + n2 * sin(θ2})|^2",
+        "D: R = |(n2 * cos(θ1) - n1 * cos(θ2)) / (n2 * cos(θ1) + n1 * cos(θ2})|^2"
+      ],
+      "correct_answer": "A",
+      "explanation": "The Fresnel equations determine the reflectance at the interface between two media and depend on the refractive indices and the angle of incidence. The correct formula for the reflectance R is option A, which considers the amplitude reflection for normal incidence.",
+      "difficulty": 10,
+      "subcategory": "Fresnelsche Formeln (Reflexionsgrad)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Anwendungen der Matrizenmethode",
+      "question": "What is the application of the matrix method in optics?",
+      "choices": [
+        "A: Measuring the temperature of materials",
+        "B: Analyzing electric fields",
+        "C: Determining the mass of particles",
+        "D: Calculating light rays in optical systems"
+      ],
+      "correct_answer": "D",
+      "explanation": "The matrix method is used in optics to calculate light rays in complex optical systems. It allows for easy handling of lenses and mirrors by representing their properties in matrices.",
+      "difficulty": 1,
+      "subcategory": "Anwendungen der Matrizenmethode"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Viskosität von Gasen",
+      "question": "What describes the viscosity of a gas?",
+      "choices": [
+        "A: The color of a gas.",
+        "B: The temperature of a gas.",
+        "C: The resistance of a gas to flow.",
+        "D: The density of a gas."
+      ],
+      "correct_answer": "C",
+      "explanation": "The viscosity of a gas is a measure of how strongly the gas resists flowing. The higher the viscosity, the more sluggish the gas moves under the influence of a force.",
+      "difficulty": 1,
+      "subcategory": "Viskosität von Gasen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Kugelsymmetrischer Potentialtopf (radial)",
+      "question": "What describes the radially symmetric potential in quantum mechanics?",
+      "choices": [
+        "A: It is the same as a one-dimensional potential.",
+        "B: It has no effect on motion quantization.",
+        "C: It is effective only in one direction.",
+        "D: It has the same energy in all directions."
+      ],
+      "correct_answer": "D",
+      "explanation": "A radially symmetric potential has the same energy regardless of direction, simplifying the Schrödinger equation in spherical coordinates. This leads to specific quantized energy states for particles residing in such a potential.",
+      "difficulty": 3,
+      "subcategory": "Kugelsymmetrischer Potentialtopf (radial)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Dampfdruckkurve & Clausius–Clapeyron-Gleichung",
+      "question": "Which of the following statements best describes the relationship between vapor pressure and temperature according to the Clausius–Clapeyron equation?",
+      "choices": [
+        "A: Vapor pressure decreases with increasing temperature.",
+        "B: Vapor pressure increases with increasing temperature.",
+        "C: Vapor pressure remains constant regardless of temperature.",
+        "D: Vapor pressure is not dependent on temperature."
+      ],
+      "correct_answer": "B",
+      "explanation": "The Clausius–Clapeyron equation describes the relationship between the vapor pressure of a substance and its temperature. A higher vapor pressure at elevated temperatures indicates that the molecules have more energy to transition into the gas phase.",
+      "difficulty": 3,
+      "subcategory": "Dampfdruckkurve & Clausius–Clapeyron-Gleichung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Bindungsenergie von Edelgaskristallen",
+      "question": "Which of the following statements best describes the binding energy of noble gas crystals compared to other crystal structures?",
+      "choices": [
+        "A: The binding energy is relatively low due to the weak van der Waals forces between atoms.",
+        "B: The binding energy is higher than that of metallic crystals due to strong ionic bonds.",
+        "C: The binding energy is independent of atomic size, as it depends only on the electron configuration.",
+        "D: The binding energy is typically highest in noble gas crystals due to strong covalent bonds."
+      ],
+      "correct_answer": "A",
+      "explanation": "Noble gas crystals are characterized by their weak van der Waals forces, resulting in a relatively low binding energy. In contrast, other crystal structures such as metallic or ionic crystals have stronger bonds leading to higher binding energies.",
+      "difficulty": 10,
+      "subcategory": "Bindungsenergie von Edelgaskristallen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Magnetische Momente von Baryonen",
+      "question": "What describes the magnetic moment of a baryon?",
+      "choices": [
+        "A: The strength of its magnetic field.",
+        "B: The size of the baryon.",
+        "C: The velocity of its particles.",
+        "D: The number of its protons."
+      ],
+      "correct_answer": "A",
+      "explanation": "The magnetic moment of a baryon describes the strength and direction of its magnetic field. It is an important concept in particle physics as it provides information about the internal properties of particles.",
+      "difficulty": 1,
+      "subcategory": "Magnetische Momente von Baryonen"
+    }
+  ]
+}

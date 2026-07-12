@@ -1,0 +1,169 @@
+{
+  "date": "2026-07-12",
+  "generated_at": "2026-07-12T04:13:46Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Einteilung magnetischer Stoffe (dia-/para-/ferro-)",
+      "question": "Welches der folgenden Materialien zeigt ferromagnetische Eigenschaften?",
+      "choices": [
+        "A: Gold",
+        "B: Aluminium",
+        "C: Eisen",
+        "D: Kupfer"
+      ],
+      "correct_answer": "C",
+      "explanation": "Eisen ist ein klassisches Beispiel für ein ferromagnetisches Material, da es in der Lage ist, seine magnetische Orientierung zu behalten, auch nachdem das äußere Magnetfeld entfernt wurde. Aluminium, Kupfer und Gold hingegen sind paramagnetisch oder diamagnetisch und zeigen keine signifikante magnetische Remanenz.",
+      "difficulty": 8,
+      "subcategory": "Einteilung magnetischer Stoffe (dia-/para-/ferro-)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Interferenz & Beugung elektromagnetischer Wellen",
+      "question": "Was passiert, wenn zwei parallele Lichtwellenfronten auf ein Hindernis treffen?",
+      "choices": [
+        "A: Sie werden immer reflektiert.",
+        "B: Sie interferieren und erzeugen ein Muster von hellen und dunklen Streifen.",
+        "C: Sie brechen in unterschiedliche Richtungen.",
+        "D: Sie verschwinden vollständig."
+      ],
+      "correct_answer": "B",
+      "explanation": "Wenn zwei parallele Lichtwellenfronten auf ein Hindernis treffen, interferieren sie miteinander. Dies führt zu einem Interferenzmuster, das aus hellen und dunklen Streifen besteht, abhängig von der Phasenlage der Wellen.",
+      "difficulty": 1,
+      "subcategory": "Interferenz & Beugung elektromagnetischer Wellen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Gegen- und Selbstinduktion",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt den Mechanismus der Selbstinduktion in einer Spule?",
+      "choices": [
+        "A: Selbstinduktion tritt nur auf, wenn der Strom in der Spule konstant ist.",
+        "B: Selbstinduktion beschreibt die Fähigkeit einer Spule, eine Spannung zu erzeugen, die der Änderung des Stroms entgegenwirkt.",
+        "C: Selbstinduktion ist unabhängig von der geometrischen Form der Spule.",
+        "D: Selbstinduktion führt immer zu einer positiven Rückkopplung im Stromkreis."
+      ],
+      "correct_answer": "B",
+      "explanation": "Selbstinduktion ist das Phänomen, bei dem eine Veränderung des elektrischen Stroms in einer Spule eine Spannung erzeugt, die der Änderung des Stroms entgegenwirkt. Dies ist ein grundlegendes Prinzip in der Elektrodynamik und führt zu einer Verzögerung der Stromänderung in der Spule.",
+      "difficulty": 10,
+      "subcategory": "Gegen- und Selbstinduktion"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Fresnelsche Formeln (Reflexionsgrad)",
+      "question": "Welcher der folgenden Zusammenhänge beschreibt korrekt den Reflexionsgrad R für die Fresnelschen Formeln an einem Grenzfläche zwischen zwei Medien mit unterschiedlichen Brechungsindices n1 und n2, wobei der Einfallswinkel θ1 gegeben ist?",
+      "choices": [
+        "A: R = |(n1 * cos(θ1) - n2 * cos(θ2)) / (n1 * cos(θ1) + n2 * cos(θ2})|^2",
+        "B: R = |(cos(θ1) - cos(θ2)) / (cos(θ1) + cos(θ2})|^2",
+        "C: R = |(n1 * sin(θ1) - n2 * sin(θ2)) / (n1 * sin(θ1) + n2 * sin(θ2})|^2",
+        "D: R = |(n2 * cos(θ1) - n1 * cos(θ2)) / (n2 * cos(θ1) + n1 * cos(θ2})|^2"
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Fresnelschen Formeln bestimmen den Reflexionsgrad an der Grenzfläche zwischen zwei Medien und hängen von den Brechungsindices und dem Einfallswinkel ab. Die korrekte Formel für den Reflexionsgrad R ist die Option A, die die Amplitudenreflexion bei senkrechtem Einfall berücksichtigt.",
+      "difficulty": 10,
+      "subcategory": "Fresnelsche Formeln (Reflexionsgrad)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Anwendungen der Matrizenmethode",
+      "question": "Welche Anwendung hat die Matrizenmethode in der Optik?",
+      "choices": [
+        "A: Messung der Temperatur von Materialien",
+        "B: Analyse von elektrischen Feldern",
+        "C: Bestimmung der Masse von Teilchen",
+        "D: Berechnung von Lichtstrahlen in optischen Systemen"
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Matrizenmethode wird in der Optik verwendet, um Lichtstrahlen in komplexen optischen Systemen zu berechnen. Sie ermöglicht eine einfache Handhabung von Linsen und Spiegeln, indem sie deren Eigenschaften in Matrizen darstellt.",
+      "difficulty": 1,
+      "subcategory": "Anwendungen der Matrizenmethode"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Viskosität von Gasen",
+      "question": "Was beschreibt die Viskosität eines Gases?",
+      "choices": [
+        "A: Die Farbe eines Gases.",
+        "B: Die Temperatur eines Gases.",
+        "C: Die Widerstandsfähigkeit eines Gases gegen Fließen.",
+        "D: Die Dichte eines Gases."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Viskosität eines Gases ist ein Maß dafür, wie stark das Gas dem Fließen widersteht. Je höher die Viskosität, desto träger bewegt sich das Gas unter dem Einfluss einer Kraft.",
+      "difficulty": 1,
+      "subcategory": "Viskosität von Gasen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Kugelsymmetrischer Potentialtopf (radial)",
+      "question": "Was beschreibt das radial symmetrische Potential in der Quantenmechanik?",
+      "choices": [
+        "A: Es ist das gleiche wie ein eindimensionales Potential.",
+        "B: Es hat keine Auswirkungen auf die Bewegungsquantisierung.",
+        "C: Es ist nur in einer Richtung wirksam.",
+        "D: Es hat die gleiche Energie in alle Richtungen."
+      ],
+      "correct_answer": "D",
+      "explanation": "Ein radial symmetrisches Potential hat die gleiche Energie unabhängig von der Richtung, was bedeutet, dass die Schrödinger-Gleichung in Kugelkoordinaten vereinfacht werden kann. Dies führt zu spezifischen quantisierten Energiezuständen für Teilchen, die sich in einem solchen Potential aufhalten.",
+      "difficulty": 3,
+      "subcategory": "Kugelsymmetrischer Potentialtopf (radial)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Dampfdruckkurve & Clausius–Clapeyron-Gleichung",
+      "question": "Welche der folgenden Aussagen beschreibt am besten den Zusammenhang zwischen Dampfdruck und Temperatur gemäß der Clausius–Clapeyron-Gleichung?",
+      "choices": [
+        "A: Der Dampfdruck sinkt mit zunehmender Temperatur.",
+        "B: Der Dampfdruck steigt mit zunehmender Temperatur.",
+        "C: Der Dampfdruck bleibt konstant, unabhängig von der Temperatur.",
+        "D: Der Dampfdruck ist nicht von der Temperatur abhängig."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Clausius–Clapeyron-Gleichung beschreibt den Zusammenhang zwischen dem Dampfdruck eines Stoffes und seiner Temperatur. Ein höherer Dampfdruck bei erhöhten Temperaturen zeigt, dass die Moleküle mehr Energie haben, um in die Gasphase überzugehen.",
+      "difficulty": 3,
+      "subcategory": "Dampfdruckkurve & Clausius–Clapeyron-Gleichung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Bindungsenergie von Edelgaskristallen",
+      "question": "Welche der folgenden Aussagen beschreibt am besten die Bindungsenergie von Edelgaskristallen im Vergleich zu anderen Kristallstrukturen?",
+      "choices": [
+        "A: Die Bindungsenergie ist relativ niedrig aufgrund der schwachen van-der-Waals-Kräfte zwischen den Atomen.",
+        "B: Die Bindungsenergie ist höher als die von metallischen Kristallen aufgrund starker ionischer Bindungen.",
+        "C: Die Bindungsenergie ist unabhängig von der atomaren Größe, da sie nur von der Elektronenkonfiguration abhängt.",
+        "D: Die Bindungsenergie ist typischerweise am höchsten bei Edelgaskristallen aufgrund der starken kovalenten Bindungen."
+      ],
+      "correct_answer": "A",
+      "explanation": "Edelgaskristalle zeichnen sich durch ihre schwachen van-der-Waals-Kräfte aus, was zu einer relativ niedrigen Bindungsenergie führt. Im Gegensatz dazu haben andere Kristallstrukturen, wie metallische oder ionische Kristalle, stärkere Bindungen, die höhere Bindungsenergien zur Folge haben.",
+      "difficulty": 10,
+      "subcategory": "Bindungsenergie von Edelgaskristallen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Magnetische Momente von Baryonen",
+      "question": "Was beschreibt das magnetische Moment eines Baryons?",
+      "choices": [
+        "A: Die Stärke seines Magnetfeldes.",
+        "B: Die Größe des Baryons.",
+        "C: Die Geschwindigkeit seiner Teilchen.",
+        "D: Die Anzahl seiner Protonen."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das magnetische Moment eines Baryons beschreibt die Stärke und Richtung seines magnetischen Feldes. Es ist ein wichtiges Konzept in der Teilchenphysik, da es Informationen über die inneren Eigenschaften der Teilchen liefert.",
+      "difficulty": 1,
+      "subcategory": "Magnetische Momente von Baryonen"
+    }
+  ]
+}
