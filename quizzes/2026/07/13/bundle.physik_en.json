@@ -1,0 +1,168 @@
+{
+  "date": "2026-07-13",
+  "generated_at": "2026-07-13T04:16:23Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Mikrokanonisches Ensemble: Verteilungsfunktion & Dichtematrix",
+      "question": "Which statement about the density matrix in the microcanonical ensemble is correct?",
+      "choices": [
+        "A: The density matrix is a function of temperature and the total energy of the system.",
+        "B: The density matrix is always diagonal and contains only the energy values of the system.",
+        "C: The density matrix describes the probability of finding the system in a specific state and is independent of the temperature.",
+        "D: The density matrix takes into account interactions between particles in the system."
+      ],
+      "correct_answer": "C",
+      "explanation": "In the microcanonical ensemble, the density matrix describes the probabilities of individual microstates while keeping the energy constant. It is independent of the temperature since the ensemble is specific to a given energy level.",
+      "difficulty": 6,
+      "subcategory": "Mikrokanonisches Ensemble: Verteilungsfunktion & Dichtematrix"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Oberflächenspannung",
+      "question": "Which statement about surface tension is correct?",
+      "choices": [
+        "A: Surface tension only occurs in liquids and is independent of temperature.",
+        "B: Surface tension is a force that contracts the surface of a liquid and is caused by intermolecular forces.",
+        "C: Surface tension does not affect the shape of water droplets.",
+        "D: Surface tension can be increased by adding salts to a liquid."
+      ],
+      "correct_answer": "B",
+      "explanation": "Surface tension arises from the attractive forces between molecules in a liquid, which are more pronounced at the surface. This force causes liquids to assume a minimal surface area, leading to the characteristic shape of water droplets.",
+      "difficulty": 6,
+      "subcategory": "Oberflächenspannung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Ferri- & Antiferromagnetismus (Überblick)",
+      "question": "What is a characteristic feature of antiferromagnets?",
+      "choices": [
+        "A: Antiferromagnets are always ferromagnetic.",
+        "B: The magnetic moments align parallel to each other.",
+        "C: The magnetic moments align antiparallel to each other.",
+        "D: Antiferromagnets have no magnetic order."
+      ],
+      "correct_answer": "C",
+      "explanation": "Antiferromagnets are characterized by their magnetic moments aligning antiparallel to each other, resulting in a net magnetization of zero. These properties are crucial for understanding their magnetic structure and applications in materials science.",
+      "difficulty": 5,
+      "subcategory": "Ferri- & Antiferromagnetismus (Überblick)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Einsteins Postulate der SRT",
+      "question": "What is one of Einstein's fundamental postulates of the special theory of relativity?",
+      "choices": [
+        "A: Time passes at the same rate for all observers.",
+        "B: Matter can move faster than light.",
+        "C: Spacetime is independent of the observer's motion.",
+        "D: The speed of light is constant in all reference frames."
+      ],
+      "correct_answer": "D",
+      "explanation": "One of the central postulates of the special theory of relativity is that the speed of light in a vacuum is constant for all observers regardless of their motion. This leads to many interesting consequences such as time dilation and length contraction.",
+      "difficulty": 3,
+      "subcategory": "Einsteins Postulate der SRT"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Geschl. System im Wärmebad: Minimum der freien Energie F",
+      "question": "What does the minimum of the free energy F in a closed system in a heat bath describe?",
+      "choices": [
+        "A: The entropy of the system is maximal.",
+        "B: The system has the maximum enthalpy.",
+        "C: The system has reached equilibrium in this state.",
+        "D: The temperature of the system is constant."
+      ],
+      "correct_answer": "C",
+      "explanation": "The minimum of the free energy F indicates that the system has reached a thermodynamic equilibrium. In this state, the energy distributions are optimal, and the system is stable against small disturbances.",
+      "difficulty": 5,
+      "subcategory": "Geschl. System im Wärmebad: Minimum der freien Energie F"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Wechselströme & Schwingkreise",
+      "question": "What describes an alternating current?",
+      "choices": [
+        "A: A current used only in electrical devices.",
+        "B: A current that flows constantly in one direction.",
+        "C: A current that regularly changes its direction.",
+        "D: A current that can only flow in a closed circuit."
+      ],
+      "correct_answer": "C",
+      "explanation": "An alternating current is characterized by regularly changing its direction, which is typical in many electrical networks. In contrast, a direct current flows constantly in one direction.",
+      "difficulty": 1,
+      "subcategory": "Wechselströme & Schwingkreise"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Geschl. System im Wärmebad: Minimum der freien Energie F",
+      "question": "What happens to the free energy F of a closed system in a heat bath when it reaches equilibrium?",
+      "choices": [
+        "A: It continuously increases.",
+        "B: It remains constant.",
+        "C: It fluctuates significantly.",
+        "D: It reaches a minimum."
+      ],
+      "correct_answer": "D",
+      "explanation": "In the thermodynamic equilibrium of a closed system in a heat bath, the free energy F tends towards a minimum. This indicates that the system is stable, and no further spontaneous changes occur.",
+      "difficulty": 2,
+      "subcategory": "Geschl. System im Wärmebad: Minimum der freien Energie F"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Isotropie des Raumes ⇒ Drehimpulserhaltung",
+      "question": "Which statement best describes the conservation of angular momentum in an isotropic space?",
+      "choices": [
+        "A: Angular momentum can only be changed by temperature variations.",
+        "B: Angular momentum remains constant when no external torques act.",
+        "C: Angular momentum is independent of the mass of the objects involved.",
+        "D: Angular momentum can only be conserved in an open system."
+      ],
+      "correct_answer": "B",
+      "explanation": "The conservation of angular momentum states that the angular momentum of a system remains constant unless external torques act on the system. This property is a direct consequence of the isotropy of space, meaning that the physical laws are the same in all directions.",
+      "difficulty": 6,
+      "subcategory": "Isotropie des Raumes ⇒ Drehimpulserhaltung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Das Deuteron",
+      "question": "Which of the following particles is a component of the deuteron?",
+      "choices": [
+        "A: Two protons",
+        "B: One neutron and one electron",
+        "C: One proton and two neutrons",
+        "D: One proton and one neutron"
+      ],
+      "correct_answer": "D",
+      "explanation": "The deuteron is the nucleus of deuterium, a heavy isotope variant of hydrogen, and consists of a proton and a neutron. This differs from other hydrogen isotopes that contain only a proton or no nucleon.",
+      "difficulty": 7,
+      "subcategory": "Das Deuteron"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Translation vs. Rotation (Vergleich)",
+      "question": "What is an essential feature of rotation compared to translation?",
+      "choices": [
+        "A: The mass of the object is irrelevant in rotation.",
+        "B: An object moves around a fixed point in rotation.",
+        "C: An object moves in a straight line in rotation.",
+        "D: There is no velocity in rotation."
+      ],
+      "correct_answer": "B",
+      "explanation": "In rotation, an object spins around a fixed point or axis, while translation represents motion in a straight line. This fundamental concept distinguishes the two types of motion in classical mechanics.",
+      "difficulty": 3,
+      "subcategory": "Translation vs. Rotation (Vergleich)"
+    }
+  ]
+}

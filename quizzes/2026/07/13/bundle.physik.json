@@ -1,0 +1,169 @@
+{
+  "date": "2026-07-13",
+  "generated_at": "2026-07-13T04:15:49Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Mikrokanonisches Ensemble: Verteilungsfunktion & Dichtematrix",
+      "question": "Welche Aussage über die Dichtematrix im mikrokanonischen Ensemble ist korrekt?",
+      "choices": [
+        "A: Die Dichtematrix ist eine Funktion der Temperatur und der Gesamtenergie des Systems.",
+        "B: Die Dichtematrix ist immer diagonal und enthält nur die Energiewerte des Systems.",
+        "C: Die Dichtematrix beschreibt die Wahrscheinlichkeit, das System in einem bestimmten Zustand zu finden, und ist unabhängig von der Temperatur.",
+        "D: Die Dichtematrix berücksichtigt Wechselwirkungen zwischen den Teilchen im System."
+      ],
+      "correct_answer": "C",
+      "explanation": "Im mikrokanonischen Ensemble beschreibt die Dichtematrix die Wahrscheinlichkeiten der einzelnen Mikrozustände, wobei die Energie konstant gehalten wird. Sie ist unabhängig von der Temperatur, da das ensemble spezifisch für ein gegebenes Energieniveau ist.",
+      "difficulty": 6,
+      "subcategory": "Mikrokanonisches Ensemble: Verteilungsfunktion & Dichtematrix"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Oberflächenspannung",
+      "question": "Welche Aussage zur Oberflächenspannung ist korrekt?",
+      "choices": [
+        "A: Oberflächenspannung tritt nur in Flüssigkeiten auf und ist unabhängig von der Temperatur.",
+        "B: Oberflächenspannung ist eine Kraft, die die Oberfläche einer Flüssigkeit zusammenzieht und durch intermolekulare Kräfte verursacht wird.",
+        "C: Oberflächenspannung hat keinen Einfluss auf die Form von Wassertropfen.",
+        "D: Oberflächenspannung kann durch das Hinzufügen von Salzen zu einer Flüssigkeit erhöht werden."
+      ],
+      "correct_answer": "B",
+      "explanation": "Oberflächenspannung entsteht durch die Anziehungskräfte zwischen Molekülen in einer Flüssigkeit, die an der Oberfläche stärker ausgeprägt sind. Diese Kraft führt dazu, dass Flüssigkeiten eine minimale Oberfläche annehmen, was zur charakteristischen Form von Wassertropfen führt.",
+      "difficulty": 6,
+      "subcategory": "Oberflächenspannung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Ferri- & Antiferromagnetismus (Überblick)",
+      "question": "Was ist ein charakteristisches Merkmal von Antiferromagneten?",
+      "choices": [
+        "A: Antiferromagneten sind immer ferromagnetisch.",
+        "B: Die magnetischen Momente richten sich parallel zueinander aus.",
+        "C: Die magnetischen Momente richten sich antiparallel zueinander aus.",
+        "D: Antiferromagneten haben keine magnetische Ordnung."
+      ],
+      "correct_answer": "C",
+      "explanation": "Antiferromagneten zeichnen sich dadurch aus, dass ihre magnetischen Momente sich antiparallel zueinander ausrichten, was zu einer Nettomagnetisierung von null führt. Diese Eigenschaften sind entscheidend für das Verständnis ihrer magnetischen Struktur und Anwendungen in der Materialwissenschaft.",
+      "difficulty": 5,
+      "subcategory": "Ferri- & Antiferromagnetismus (Überblick)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Einsteins Postulate der SRT",
+      "question": "Was ist eines von Einsteins grundlegenden Postulaten der speziellen Relativitätstheorie?",
+      "choices": [
+        "A: Zeit verläuft für alle Beobachter gleich.",
+        "B: Materie kann sich schneller als Licht bewegen.",
+        "C: Die Raumzeit ist unabhängig von der Bewegung des Beobachters.",
+        "D: Die Lichtgeschwindigkeit ist konstant in allen Bezugssystemen."
+      ],
+      "correct_answer": "D",
+      "explanation": "Eines der zentralen Postulate der speziellen Relativitätstheorie ist, dass die Lichtgeschwindigkeit im Vakuum für alle Beobachter unabhängig von deren Bewegung konstant ist. Dies führt zu vielen interessanten Konsequenzen, wie der Zeitdilatation und der Längenkontraktion.",
+      "difficulty": 3,
+      "subcategory": "Einsteins Postulate der SRT"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Geschl. System im Wärmebad: Minimum der freien Energie F",
+      "question": "Was beschreibt das Minimum der freien Energie F in einem geschlossenen System, das sich im Wärmebad befindet?",
+      "choices": [
+        "A: Die Entropie des Systems ist maximal.",
+        "B: Das System hat die maximale Enthalpie.",
+        "C: Das System hat bei diesem Zustand das Gleichgewicht erreicht.",
+        "D: Die Temperatur des Systems ist konstant."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Minimum der freien Energie F zeigt an, dass das System ein thermodynamisches Gleichgewicht erreicht hat. In diesem Zustand sind die Energieverteilungen optimal und das System ist stabil gegenüber kleinen Störungen.",
+      "difficulty": 5,
+      "subcategory": "Geschl. System im Wärmebad: Minimum der freien Energie F"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Wechselströme & Schwingkreise",
+      "question": "Was beschreibt ein Wechselstrom?",
+      "choices": [
+        "A: Ein Strom, der nur in elektrischen Geräten verwendet wird.",
+        "B: Ein Strom, der konstant in eine Richtung fließt.",
+        "C: Ein Strom, der seine Richtung regelmäßig ändert.",
+        "D: Ein Strom, der nur in einem geschlossenen Schaltkreis fließen kann."
+      ],
+      "correct_answer": "C",
+      "explanation": "Ein Wechselstrom ist dadurch gekennzeichnet, dass er seine Richtung regelmäßig ändert, was typischerweise in vielen elektrischen Netzwerken der Fall ist. Im Gegensatz dazu fließt ein Gleichstrom konstant in eine Richtung.",
+      "difficulty": 1,
+      "subcategory": "Wechselströme & Schwingkreise"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Geschl. System im Wärmebad: Minimum der freien Energie F",
+      "question": "Was geschieht mit der freien Energie F eines geschlossenen Systems im Wärmebad, wenn es ein Gleichgewicht erreicht?",
+      "choices": [
+        "A: Sie steigt kontinuierlich.",
+        "B: Sie bleibt konstant.",
+        "C: Sie schwankt stark.",
+        "D: Sie erreicht ein Minimum."
+      ],
+      "correct_answer": "D",
+      "explanation": "Im thermodynamischen Gleichgewicht eines geschlossenen Systems im Wärmebad strebt die freie Energie F ein Minimum an. Dies ist ein Zeichen dafür, dass das System stabil ist und keine weiteren spontanen Veränderungen stattfinden.",
+      "difficulty": 2,
+      "subcategory": "Geschl. System im Wärmebad: Minimum der freien Energie F"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Isotropie des Raumes ⇒ Drehimpulserhaltung",
+      "question": "Welche Aussage beschreibt am besten die Erhaltung des Drehimpulses in einem isotropen Raum?",
+      "choices": [
+        "A: Der Drehimpuls kann nur durch Temperaturänderungen verändert werden.",
+        "B: Der Drehimpuls bleibt konstant, wenn keine externen Drehmomente wirken.",
+        "C: Der Drehimpuls ist unabhängig von der Masse der beteiligten Objekte.",
+        "D: Der Drehimpuls kann nur in einem offenen System erhalten bleiben."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Erhaltung des Drehimpulses besagt, dass der Drehimpuls eines Systems konstant bleibt, solange keine externen Drehmomente auf das System wirken. Diese Eigenschaft ist eine direkte Folge der Isotropie des Raumes, die bedeutet, dass die physikalischen Gesetze in alle Richtungen gleich sind.",
+      "difficulty": 6,
+      "subcategory": "Isotropie des Raumes ⇒ Drehimpulserhaltung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Das Deuteron",
+      "question": "Welches der folgenden Teilchen ist ein Bestandteil des Deuterons?",
+      "choices": [
+        "A: Zwei Protonen",
+        "B: Ein Neutron und ein Elektron",
+        "C: Ein Proton und zwei Neutronen",
+        "D: Ein Proton und ein Neutron"
+      ],
+      "correct_answer": "D",
+      "explanation": "Das Deuteron ist der Kern des Deuteriums, einer schweren Isotop-Variante von Wasserstoff, und besteht aus einem Proton und einem Neutron. Dies unterscheidet sich von anderen Wasserstoff-Isotopen, die nur ein Proton oder kein Nukleon enthalten.",
+      "difficulty": 7,
+      "subcategory": "Das Deuteron"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Translation vs. Rotation (Vergleich)",
+      "question": "Was ist ein wesentliches Merkmal der Rotation im Vergleich zur Translation?",
+      "choices": [
+        "A: Bei der Rotation ist die Masse des Objekts irrelevant.",
+        "B: Bei der Rotation bewegt sich ein Objekt um einen festen Punkt.",
+        "C: Bei der Rotation bewegt sich ein Objekt in einer geraden Linie.",
+        "D: Bei der Rotation gibt es keine Geschwindigkeit."
+      ],
+      "correct_answer": "B",
+      "explanation": "Bei der Rotation dreht sich ein Objekt um einen festen Punkt oder eine Achse, während die Translation eine Bewegung in einer geraden Linie darstellt. Dieses grundlegende Konzept unterscheidet die beiden Bewegungsarten in der klassischen Mechanik.",
+      "difficulty": 3,
+      "subcategory": "Translation vs. Rotation (Vergleich)"
+    }
+  ]
+}
