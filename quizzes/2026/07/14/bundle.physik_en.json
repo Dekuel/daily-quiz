@@ -1,0 +1,168 @@
+{
+  "date": "2026-07-14",
+  "generated_at": "2026-07-14T04:02:54Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Frequenzabhängigkeit der Dielektrizitätskonstante",
+      "question": "How does the dielectric constant of a material typically change with increasing frequency of electromagnetic waves?",
+      "choices": [
+        "A: It shows an inexplicable variation.",
+        "B: It increases.",
+        "C: It decreases.",
+        "D: It remains constant."
+      ],
+      "correct_answer": "C",
+      "explanation": "The dielectric constant of a material usually decreases with increasing frequency, as the polarization effects are no longer able to adapt quickly enough. This results in a lower effective dielectric constant at higher frequencies.",
+      "difficulty": 8,
+      "subcategory": "Frequenzabhängigkeit der Dielektrizitätskonstante"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Doppelspaltexperiment (Materiewellen)",
+      "question": "What does the double-slit experiment with electrons reveal about their properties?",
+      "choices": [
+        "A: Electrons cannot pass through a single slit.",
+        "B: Electrons have no mass.",
+        "C: Electrons behave only as particles.",
+        "D: Electrons exhibit both particle and wave properties."
+      ],
+      "correct_answer": "D",
+      "explanation": "The double-slit experiment demonstrates that electrons form interference patterns when passed through two slits, indicating wave-like behavior. At the same time, they can also be detected as particles, illustrating the dual nature of matter in quantum mechanics.",
+      "difficulty": 7,
+      "subcategory": "Doppelspaltexperiment (Materiewellen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Reversible Vorgänge & Adiabatengleichung",
+      "question": "Which statement about reversible adiabatic processes is correct?",
+      "choices": [
+        "A: Energy cannot be transferred between the system and the surroundings.",
+        "B: Pressure remains constant during the process.",
+        "C: Temperature remains constant.",
+        "D: Entropy remains constant."
+      ],
+      "correct_answer": "D",
+      "explanation": "In a reversible adiabatic process, entropy remains constant, meaning the process is both reversible and does not exchange heat with the surroundings. This contrasts with the other statements that are not accurate.",
+      "difficulty": 5,
+      "subcategory": "Reversible Vorgänge & Adiabatengleichung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Thermodynamik der Magnonen",
+      "question": "What does the term 'magnon' describe in solid-state physics?",
+      "choices": [
+        "A: A particle in a state of superconductivity.",
+        "B: A quantum mechanical excitation of a ferromagnet.",
+        "C: A specific crystal structure of metals.",
+        "D: A form of thermal energy in crystals."
+      ],
+      "correct_answer": "B",
+      "explanation": "Magnons are collective excitations of spins in ferromagnetic materials, representing quantized energy states. They play a crucial role in the thermodynamics of magnetic materials and influence their thermal properties.",
+      "difficulty": 7,
+      "subcategory": "Thermodynamik der Magnonen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Quasiklassische Näherung (WKB)",
+      "question": "What is the main principle of the WKB approximation in quantum mechanics?",
+      "choices": [
+        "A: The solution of the Schrödinger equation is sought in a classically possible range.",
+        "B: The energy of the particles is always constant.",
+        "C: Quantum objects have defined paths like classical particles.",
+        "D: The particles always move at the speed of light."
+      ],
+      "correct_answer": "A",
+      "explanation": "The WKB approximation (Wentzel-Kramers-Brillouin) is a method to find solutions of the Schrödinger equation in regions where the particle's energy is classically allowed. This approximation is often used to approximate quantum effects in classically treatable situations.",
+      "difficulty": 5,
+      "subcategory": "Quasiklassische Näherung (WKB)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Maxwell-Gleichungen der Magnetostatik",
+      "question": "Which Maxwell equation describes the magnetic field in terms of magnetic flux and conservation of magnetic field lines?",
+      "choices": [
+        "A: ∇·E = ρ/ε₀",
+        "B: ∇×B = μ₀j",
+        "C: ∇·B = 0",
+        "D: ∇×E = -∂B/∂t"
+      ],
+      "correct_answer": "C",
+      "explanation": "The equation ∇·B = 0 states that there are no magnetic monopoles and that magnetic field lines are closed. This is a fundamental property of the magnetic field in magnetostatics.",
+      "difficulty": 6,
+      "subcategory": "Maxwell-Gleichungen der Magnetostatik"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Wärmekapazitäten (C_V, C_p, Beziehungen)",
+      "question": "Which of the following statements about the specific heat capacity C_p is correct?",
+      "choices": [
+        "A: C_p describes heat absorption at constant volume.",
+        "B: C_p is the heat capacity at constant pressure.",
+        "C: C_p and C_V are identical for all substances.",
+        "D: C_p is always smaller than the heat capacity C_V."
+      ],
+      "correct_answer": "B",
+      "explanation": "The specific heat capacity C_p describes the amount of heat needed to increase the temperature of a substance at constant pressure. In contrast, C_V refers to the heat capacity at constant volume, leading to different values, especially for gases.",
+      "difficulty": 3,
+      "subcategory": "Wärmekapazitäten (C_V, C_p, Beziehungen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Drude-Modell",
+      "question": "What is an assumption of the Drude model for describing electrical conductivity in metals?",
+      "choices": [
+        "A: All electrons in a metal have the same velocity.",
+        "B: Electrical resistance is independent of temperature.",
+        "C: Electrons move independently and collide elastically with atomic lattices.",
+        "D: Electrons are bound to fixed lattice points and only move thermally."
+      ],
+      "correct_answer": "C",
+      "explanation": "The Drude model postulates that electrons in a metal can be considered as free particles moving independently and elastically colliding with the atomic lattice points. This assumption is crucial for understanding electrical conductivity in metals.",
+      "difficulty": 8,
+      "subcategory": "Drude-Modell"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Zeitlich oszillierende Quellen",
+      "question": "What does a time-oscillating source describe in electrodynamics?",
+      "choices": [
+        "A: A source that operates exclusively in a closed circuit.",
+        "B: A source that continuously generates electric current.",
+        "C: A source that only produces static electric fields.",
+        "D: A source that changes periodically and generates electromagnetic waves."
+      ],
+      "correct_answer": "D",
+      "explanation": "A time-oscillating source varies periodically and can generate electromagnetic waves. Examples include antennas transmitting radio signals. In contrast, static sources do not produce time-varying fields.",
+      "difficulty": 5,
+      "subcategory": "Zeitlich oszillierende Quellen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Fresnelsche Formeln (Reflexionsgrad)",
+      "question": "What does the reflectance in the Fresnel formula describe?",
+      "choices": [
+        "A: The wavelength of the incident light.",
+        "B: The color of the reflected light.",
+        "C: The proportion of light reflected at the interface.",
+        "D: The speed of light in a medium."
+      ],
+      "correct_answer": "C",
+      "explanation": "The reflectance describes how much light is reflected at an interface compared to the incident light intensity. The Fresnel formulas provide quantitative values for the reflectance depending on the angles of incidence and the materials.",
+      "difficulty": 4,
+      "subcategory": "Fresnelsche Formeln (Reflexionsgrad)"
+    }
+  ]
+}

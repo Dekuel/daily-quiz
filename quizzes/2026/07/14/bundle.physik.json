@@ -1,0 +1,169 @@
+{
+  "date": "2026-07-14",
+  "generated_at": "2026-07-14T04:02:20Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Frequenzabhängigkeit der Dielektrizitätskonstante",
+      "question": "Wie ändert sich die Dielektrizitätskonstante eines Materials typischerweise mit zunehmender Frequenz elektromagnetischer Wellen?",
+      "choices": [
+        "A: Sie zeigt eine unerklärliche Variation.",
+        "B: Sie nimmt zu.",
+        "C: Sie nimmt ab.",
+        "D: Sie bleibt konstant."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Dielektrizitätskonstante eines Materials nimmt in der Regel mit steigender Frequenz ab, da die Polarisationseffekte nicht mehr in der Lage sind, sich schnell genug anzupassen. Dies führt zu einer geringeren effektiven Dielektrizitätskonstante bei höheren Frequenzen.",
+      "difficulty": 8,
+      "subcategory": "Frequenzabhängigkeit der Dielektrizitätskonstante"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Doppelspaltexperiment (Materiewellen)",
+      "question": "Was zeigt das Doppelspaltexperiment mit Elektronen über deren Eigenschaften?",
+      "choices": [
+        "A: Elektronen können nicht durch einen Spalt hindurch gehen.",
+        "B: Elektronen haben keine Masse.",
+        "C: Elektronen verhalten sich nur wie Teilchen.",
+        "D: Elektronen zeigen sowohl Teilchen- als auch Welleneigenschaften."
+      ],
+      "correct_answer": "D",
+      "explanation": "Das Doppelspaltexperiment demonstriert, dass Elektronen Interferenzmuster bilden, wenn sie durch zwei Spalte geschickt werden, was darauf hinweist, dass sie sich wie Wellen verhalten. Gleichzeitig können sie auch als Teilchen detektiert werden, was die duale Natur der Materie in der Quantenmechanik verdeutlicht.",
+      "difficulty": 7,
+      "subcategory": "Doppelspaltexperiment (Materiewellen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Reversible Vorgänge & Adiabatengleichung",
+      "question": "Welche Aussage über reversible adiabatische Prozesse ist korrekt?",
+      "choices": [
+        "A: Die Energie kann nicht zwischen dem System und der Umgebung übertragen werden.",
+        "B: Der Druck bleibt während des Prozesses konstant.",
+        "C: Die Temperatur bleibt konstant.",
+        "D: Die Entropie bleibt konstant."
+      ],
+      "correct_answer": "D",
+      "explanation": "In einem reversiblen adiabatischen Prozess bleibt die Entropie konstant, was bedeutet, dass der Prozess sowohl umkehrbar ist als auch keine Wärme mit der Umgebung austauscht. Dies steht im Gegensatz zu den anderen Aussagen, die nicht zutreffen.",
+      "difficulty": 5,
+      "subcategory": "Reversible Vorgänge & Adiabatengleichung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Thermodynamik der Magnonen",
+      "question": "Was beschreibt der Begriff 'Magnon' in der Festkörperphysik?",
+      "choices": [
+        "A: Ein Teilchen im Zustand der Supraleitung.",
+        "B: Ein quantenmechanisches Excitation eines Ferromagneten.",
+        "C: Eine spezielle Kristallstruktur von Metallen.",
+        "D: Eine Form von thermischer Energie in Kristallen."
+      ],
+      "correct_answer": "B",
+      "explanation": "Magnonen sind kollektive Anregungen von Spins in ferromagnetischen Materialien und stellen somit quantisierte Energiezustände dar. Sie spielen eine wichtige Rolle in der Thermodynamik von magnetischen Materialien und beeinflussen deren thermische Eigenschaften.",
+      "difficulty": 7,
+      "subcategory": "Thermodynamik der Magnonen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Quasiklassische Näherung (WKB)",
+      "question": "Was ist das Hauptprinzip der WKB-Näherung in der Quantenmechanik?",
+      "choices": [
+        "A: Die Lösung der Schrödinger-Gleichung wird in einem klassisch möglichen Bereich gesucht.",
+        "B: Die Energie der Teilchen ist immer konstant.",
+        "C: Quantenobjekte haben definierte Bahnen wie klassische Teilchen.",
+        "D: Die Teilchen bewegen sich immer mit Lichtgeschwindigkeit."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die WKB-Näherung (Wentzel-Kramers-Brillouin) ist eine Methode, um Lösungen der Schrödinger-Gleichung in Bereichen zu finden, in denen die Energie der Teilchen klassisch erlaubt ist. Diese Näherung wird oft verwendet, um Quanteneffekte in klassisch behandelbaren Situationen zu approximieren.",
+      "difficulty": 5,
+      "subcategory": "Quasiklassische Näherung (WKB)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Maxwell-Gleichungen der Magnetostatik",
+      "question": "Welche Maxwell-Gleichung beschreibt das magnetische Feld in Bezug auf den magnetischen Fluss und die Erhaltung der magnetischen Feldlinien?",
+      "choices": [
+        "A: ∇·E = ρ/ε₀",
+        "B: ∇×B = μ₀j",
+        "C: ∇·B = 0",
+        "D: ∇×E = -∂B/∂t"
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Gleichung ∇·B = 0 besagt, dass es keine magnetischen Monopole gibt und dass die magnetischen Feldlinien geschlossen sind. Dies ist eine grundlegende Eigenschaft des magnetischen Feldes in der Magnetostatik.",
+      "difficulty": 6,
+      "subcategory": "Maxwell-Gleichungen der Magnetostatik"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Wärmekapazitäten (C_V, C_p, Beziehungen)",
+      "question": "Welche der folgenden Aussagen über die spezifische Wärmekapazität C_p ist korrekt?",
+      "choices": [
+        "A: C_p beschreibt die Wärmeaufnahme bei konstantem Volumen.",
+        "B: C_p ist die Wärmekapazität bei konstantem Druck.",
+        "C: C_p und C_V sind identisch für alle Stoffe.",
+        "D: C_p ist immer kleiner als die Wärmekapazität C_V."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die spezifische Wärmekapazität C_p beschreibt die Wärmemenge, die benötigt wird, um die Temperatur eines Stoffes bei konstantem Druck zu erhöhen. Im Gegensatz dazu bezieht sich C_V auf die Wärmekapazität bei konstantem Volumen, was zu unterschiedlichen Werten führt, besonders bei Gasen.",
+      "difficulty": 3,
+      "subcategory": "Wärmekapazitäten (C_V, C_p, Beziehungen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Drude-Modell",
+      "question": "Was ist eine Annahme des Drude-Modells zur Beschreibung der elektrischen Leitfähigkeit in Metallen?",
+      "choices": [
+        "A: Alle Elektronen in einem Metall haben dieselbe Geschwindigkeit.",
+        "B: Der elektrische Widerstand ist unabhängig von der Temperatur.",
+        "C: Die Elektronen bewegen sich unabhängig und stoßen elastisch mit atomaren Gittern zusammen.",
+        "D: Die Elektronen sind an feste Gitterpunkte gebunden und bewegen sich nur thermisch."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Drude-Modell postuliert, dass die Elektronen in einem Metall als freie Teilchen betrachtet werden können, die sich unabhängig bewegen und bei Kollisionen mit den atomaren Gitterpunkten elastisch stoßen. Diese Annahme ist entscheidend für das Verständnis der elektrischen Leitfähigkeit in Metallen.",
+      "difficulty": 8,
+      "subcategory": "Drude-Modell"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Zeitlich oszillierende Quellen",
+      "question": "Was beschreibt eine zeitlich oszillierende Quelle in der Elektrodynamik?",
+      "choices": [
+        "A: Eine Quelle, die ausschließlich in einem geschlossenen Stromkreis arbeitet.",
+        "B: Eine Quelle, die kontinuierlich elektrischen Strom erzeugt.",
+        "C: Eine Quelle, die nur statische elektrische Felder produziert.",
+        "D: Eine Quelle, die sich periodisch ändert und elektromagnetische Wellen erzeugt."
+      ],
+      "correct_answer": "D",
+      "explanation": "Eine zeitlich oszillierende Quelle verändert sich periodisch und kann somit elektromagnetische Wellen erzeugen. Beispiele sind Antennen, die Radiosignale senden. Im Gegensatz dazu erzeugen statische Quellen kein zeitlich variierendes Feld.",
+      "difficulty": 5,
+      "subcategory": "Zeitlich oszillierende Quellen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Fresnelsche Formeln (Reflexionsgrad)",
+      "question": "Was beschreibt der Reflexionsgrad in der Fresnelschen Formel?",
+      "choices": [
+        "A: Die Wellenlänge des einfallenden Lichtes.",
+        "B: Die Farbe des reflektierten Lichtes.",
+        "C: Den Anteil des Lichtes, der an der Grenzfläche reflektiert wird.",
+        "D: Die Geschwindigkeit des Lichtes in einem Medium."
+      ],
+      "correct_answer": "C",
+      "explanation": "Der Reflexionsgrad beschreibt, wie viel Licht an einer Grenzfläche reflektiert wird, im Vergleich zur einfallenden Lichtintensität. Die Fresnelschen Formeln geben die quantitativen Werte für den Reflexionsgrad in Abhängigkeit von den Einfallswinkeln und den Materialien an.",
+      "difficulty": 4,
+      "subcategory": "Fresnelsche Formeln (Reflexionsgrad)"
+    }
+  ]
+}
