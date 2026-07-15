@@ -1,0 +1,168 @@
+{
+  "date": "2026-07-15",
+  "generated_at": "2026-07-15T05:26:44Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Noether-Idee: Homogenität der Zeit ⇒ Energieerhaltung",
+      "question": "What does the Noether's theorem state regarding time leading to conservation of energy?",
+      "choices": [
+        "A: If the energy of a system is lost, the total mass is also reduced.",
+        "B: Changes in time always lead to changes in the mass of a system.",
+        "C: Energy conservation is independent of time and is solely based on the forces in the system.",
+        "D: If the physical laws are time-invariant, the total energy of a closed system remains constant."
+      ],
+      "correct_answer": "D",
+      "explanation": "Noether's theorem establishes a fundamental connection between symmetries and conservation laws. In particular, the homogeneity of time implies that the physical laws are independent of time, leading to the conservation of energy.",
+      "difficulty": 5,
+      "subcategory": "Noether-Idee: Homogenität der Zeit ⇒ Energieerhaltung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Nullpunktsenergie & angeregte Phononen",
+      "question": "What describes the zero-point energy in solid-state physics?",
+      "choices": [
+        "A: The minimum possible energy of a quantum mechanical system in its ground state.",
+        "B: The maximum energy an electron in a solid can reach.",
+        "C: The energy required to melt a solid.",
+        "D: The energy needed for a phonon to be created."
+      ],
+      "correct_answer": "A",
+      "explanation": "Zero-point energy is the smallest energy that a quantum mechanical system, such as atoms in a solid, possesses in its ground state due to the Heisenberg Uncertainty Principle. Even at absolute zero, the particles cannot come to a complete rest, leading to a fundamental energy that is not zero.",
+      "difficulty": 3,
+      "subcategory": "Nullpunktsenergie & angeregte Phononen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Maxwell-Gleichungen in kovarianter Form",
+      "question": "Which of the following statements describes the covariant form of the Maxwell's equations?",
+      "choices": [
+        "A: They are in the form of differential equations describing the electromagnetic fields in different reference frames.",
+        "B: They are only valid for stationary systems and do not consider moving charges.",
+        "C: They are equivalent to Newton's laws of motion.",
+        "D: They describe the interaction between electrons and protons in an atom."
+      ],
+      "correct_answer": "A",
+      "explanation": "The covariant form of the Maxwell's equations allows describing the electromagnetic fields in different inertial systems, which is a central element of the theory of relativity. These equations remain valid in any reference frame and show that the laws of electrodynamics are independent of the observer's motion.",
+      "difficulty": 4,
+      "subcategory": "Maxwell-Gleichungen in kovarianter Form"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Natürliche Zustandsvariablen (U, H, F, G)",
+      "question": "Which of the following state variables describes the internal energy of a system?",
+      "choices": [
+        "A: F",
+        "B: H",
+        "C: U",
+        "D: G"
+      ],
+      "correct_answer": "C",
+      "explanation": "The internal energy (U) is a central state variable in thermodynamics that encompasses the total energy of a system. The other options refer to different thermodynamic potentials, each with distinct physical meanings.",
+      "difficulty": 5,
+      "subcategory": "Natürliche Zustandsvariablen (U, H, F, G)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Erhaltungssätze in der Lagrange-Mechanik",
+      "question": "Which of the following conservation laws can be directly derived from the Lagrangian's invariance under temporal shifts?",
+      "choices": [
+        "A: Conservation of angular momentum",
+        "B: Conservation of momentum",
+        "C: Conservation of energy",
+        "D: Conservation of mass"
+      ],
+      "correct_answer": "C",
+      "explanation": "The energy conservation in Lagrangian mechanics results from the Lagrangian's invariance under temporal shifts, describing the temporal evolution of the system's dynamics. If the Lagrangian does not explicitly depend on time, the total energy of the system remains constant.",
+      "difficulty": 9,
+      "subcategory": "Erhaltungssätze in der Lagrange-Mechanik"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Lösung der 1D-Schrödinger-Gleichung",
+      "question": "What does the solution of the 1D Schrödinger equation for a particle in a one-dimensional potential well describe?",
+      "choices": [
+        "A: The energy of the particle always remains constant.",
+        "B: The particle moves constantly at the speed of light.",
+        "C: The velocity of the particle is always the same.",
+        "D: The probable position of the particle as a function of time."
+      ],
+      "correct_answer": "D",
+      "explanation": "The solution of the 1D Schrödinger equation describes the wave function of a particle, indicating the probability of finding the particle at a specific location. This wave function is time-dependent and depends on the boundary conditions of the potential.",
+      "difficulty": 6,
+      "subcategory": "Lösung der 1D-Schrödinger-Gleichung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Helmholtzsche Wirbelsätze",
+      "question": "What does the Helmholtz's theorem state about the motion of fluids?",
+      "choices": [
+        "A: It is independent of the density of the fluid.",
+        "B: It is always spiral-shaped.",
+        "C: It occurs along vortices.",
+        "D: It is exclusively linear."
+      ],
+      "correct_answer": "C",
+      "explanation": "Helmholtz's theorem describes that in ideal fluids, the motion of fluids is determined by vortex structures. This means that the flow occurs along vortices, which is crucial for the dynamics of fluids.",
+      "difficulty": 3,
+      "subcategory": "Helmholtzsche Wirbelsätze"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Nicht-holonome Zwangsbedingungen",
+      "question": "Which of the following statements describes a non-holonomic constraint?",
+      "choices": [
+        "A: A constraint that does not restrict the direction of motion of a body.",
+        "B: A constraint that cannot be expressed through integrals with respect to coordinates.",
+        "C: A constraint that depends only on time.",
+        "D: A constraint that always occurs in a conservative system."
+      ],
+      "correct_answer": "B",
+      "explanation": "Non-holonomic constraints cannot be expressed through integrals with respect to coordinates and are often found in dynamic systems. They restrict the freedom of motion of a body in a way that cannot be simply described by the geometry of space.",
+      "difficulty": 5,
+      "subcategory": "Nicht-holonome Zwangsbedingungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Langer-Verfahren",
+      "question": "What is the main goal of the Langer's method in quantum mechanics?",
+      "choices": [
+        "A: Determining the temperature of a system.",
+        "B: Measuring electric fields.",
+        "C: Calculating transition probabilities between states.",
+        "D: Analyzing classical mechanical systems."
+      ],
+      "correct_answer": "C",
+      "explanation": "The Langer's method is an important mathematical tool in quantum mechanics used to calculate transition probabilities between quantum states. It is particularly useful in studying systems influenced by disturbances.",
+      "difficulty": 4,
+      "subcategory": "Langer-Verfahren"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Randwertprobleme der Elektrostatik (Laplace-Gleichung)",
+      "question": "What does the Laplace's equation describe in electrostatics?",
+      "choices": [
+        "A: The behavior of electric field lines in a homogeneous medium.",
+        "B: The interaction between electric and magnetic fields.",
+        "C: The distribution of electric potential in an area without free charges.",
+        "D: The motion of charged particles in an electric field."
+      ],
+      "correct_answer": "C",
+      "explanation": "The Laplace's equation describes how the electric potential behaves in a region where no free charges are present. This is particularly important for solving boundary value problems in electrostatics, where the conditions at the boundaries of the considered region are defined.",
+      "difficulty": 6,
+      "subcategory": "Randwertprobleme der Elektrostatik (Laplace-Gleichung)"
+    }
+  ]
+}

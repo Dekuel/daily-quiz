@@ -1,0 +1,169 @@
+{
+  "date": "2026-07-15",
+  "generated_at": "2026-07-15T05:26:09Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Noether-Idee: Homogenität der Zeit ⇒ Energieerhaltung",
+      "question": "Was besagt die Noether-Idee in Bezug auf die Zeit, die zur Erhaltung der Energie führt?",
+      "choices": [
+        "A: Wenn die Energie eines Systems verloren geht, wird die Gesamtmasse ebenfalls reduziert.",
+        "B: Veränderungen in der Zeit führen immer zu Veränderungen in der Masse eines Systems.",
+        "C: Die Energieerhaltung ist unabhängig von der Zeit und basiert lediglich auf den Kräften im System.",
+        "D: Wenn die physikalischen Gesetze zeitlich invariant sind, bleibt die Gesamtenergie eines geschlossenen Systems konstant."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Noether-Idee stellt einen fundamentalen Zusammenhang zwischen Symmetrien und Erhaltungsgrößen her. Insbesondere bedeutet die Homogenität der Zeit, dass die physikalischen Gesetze unabhängig von der Zeit sind, was zur Erhaltung der Energie führt.",
+      "difficulty": 5,
+      "subcategory": "Noether-Idee: Homogenität der Zeit ⇒ Energieerhaltung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Nullpunktsenergie & angeregte Phononen",
+      "question": "Was beschreibt die Nullpunktsenergie in der Festkörperphysik?",
+      "choices": [
+        "A: Die minimal mögliche Energie eines quantenmechanischen Systems im Grundzustand.",
+        "B: Die maximale Energie, die ein Elektron in einem Festkörper erreichen kann.",
+        "C: Die Energie, die benötigt wird, um einen Festkörper zum Schmelzen zu bringen.",
+        "D: Die Energie, die ein Phonon benötigt, um zu entstehen."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Nullpunktsenergie ist die kleinste Energie, die ein quantenmechanisches System, wie z.B. Atome in einem Festkörper, aufgrund der Heisenbergschen Unschärferelation im Grundzustand besitzt. Selbst bei absolutem Nullpunkt können die Teilchen nicht vollständig zur Ruhe kommen, was zu einer grundlegenden Energie führt, die nicht null ist.",
+      "difficulty": 3,
+      "subcategory": "Nullpunktsenergie & angeregte Phononen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Maxwell-Gleichungen in kovarianter Form",
+      "question": "Welche der folgenden Aussagen beschreibt die kovariante Form der Maxwell-Gleichungen?",
+      "choices": [
+        "A: Sie sind in Form von Differentialgleichungen, die die elektromagnetischen Felder in verschiedenen Bezugssystemen beschreiben.",
+        "B: Sie sind nur für stationäre Systeme gültig und berücksichtigen keine bewegten Ladungen.",
+        "C: Sie sind gleichwertig zu Newtons Gesetzen der Bewegung.",
+        "D: Sie beschreiben die Wechselwirkung zwischen Elektronen und Protonen in einem Atom."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die kovariante Form der Maxwell-Gleichungen ermöglicht es, die elektromagnetischen Felder in verschiedenen Inertialsystemen zu beschreiben, was ein zentrales Element der Relativitätstheorie ist. Diese Gleichungen bleiben in jedem Bezugssystem gültig und zeigen, dass die Gesetze der Elektrodynamik unabhängig von der Bewegung des Beobachters sind.",
+      "difficulty": 4,
+      "subcategory": "Maxwell-Gleichungen in kovarianter Form"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Natürliche Zustandsvariablen (U, H, F, G)",
+      "question": "Welche der folgenden Zustandsgrößen beschreibt die innere Energie eines Systems?",
+      "choices": [
+        "A: F",
+        "B: H",
+        "C: U",
+        "D: G"
+      ],
+      "correct_answer": "C",
+      "explanation": "Die innere Energie (U) ist eine zentrale Zustandsgröße in der Thermodynamik, die die gesamte Energie eines Systems umfasst. Die anderen Optionen beziehen sich auf andere thermodynamische Potenziale, die jedoch unterschiedliche physikalische Bedeutungen haben.",
+      "difficulty": 5,
+      "subcategory": "Natürliche Zustandsvariablen (U, H, F, G)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Erhaltungssätze in der Lagrange-Mechanik",
+      "question": "Welcher der folgenden Erhaltungssätze ist direkt aus der Invarianz der Lagrange-Funktion gegenüber zeitlichen Verschiebungen ableitbar?",
+      "choices": [
+        "A: Drehimpulserhaltung",
+        "B: Impulserhaltung",
+        "C: Energieerhaltung",
+        "D: Masseerhaltung"
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Energieerhaltung in der Lagrange-Mechanik resultiert aus der Invarianz der Lagrange-Funktion gegenüber zeitlichen Verschiebungen, was durch den zeitlichen Verlauf der Systemdynamik beschreibt wird. Wenn die Lagrange-Funktion nicht explizit von der Zeit abhängt, bleibt die Gesamtenergie des Systems konstant.",
+      "difficulty": 9,
+      "subcategory": "Erhaltungssätze in der Lagrange-Mechanik"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Lösung der 1D-Schrödinger-Gleichung",
+      "question": "Was beschreibt die Lösung der 1D-Schrödinger-Gleichung für ein Teilchen in einem eindimensionalen Potentialtopf?",
+      "choices": [
+        "A: Die Energie des Teilchens bleibt immer konstant.",
+        "B: Das Teilchen bewegt sich konstant mit Lichtgeschwindigkeit.",
+        "C: Die Geschwindigkeit des Teilchens ist immer gleich.",
+        "D: Die wahrscheinliche Position des Teilchens als Funktion der Zeit."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Lösung der 1D-Schrödinger-Gleichung beschreibt die Wellenfunktion eines Teilchens, die die Wahrscheinlichkeit angibt, das Teilchen an einem bestimmten Ort zu finden. Diese Wellenfunktion ist zeitabhängig und hängt von den Randbedingungen des Potentials ab.",
+      "difficulty": 6,
+      "subcategory": "Lösung der 1D-Schrödinger-Gleichung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Helmholtzsche Wirbelsätze",
+      "question": "Was besagt der Helmholtzsche Wirbelsatz über die Bewegung von Flüssigkeiten?",
+      "choices": [
+        "A: Sie ist unabhängig von der Dichte der Flüssigkeit.",
+        "B: Sie ist immer spiralförmig.",
+        "C: Sie erfolgt entlang von Wirbeln.",
+        "D: Sie ist ausschließlich geradlinig."
+      ],
+      "correct_answer": "C",
+      "explanation": "Der Helmholtzsche Wirbelsatz beschreibt, dass in idealen Fluiden die Bewegung von Flüssigkeiten durch Wirbelstrukturen bestimmt wird. Dies bedeutet, dass die Strömung entlang von Wirbeln verläuft, was für die Dynamik von Flüssigkeiten wichtig ist.",
+      "difficulty": 3,
+      "subcategory": "Helmholtzsche Wirbelsätze"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Nicht-holonome Zwangsbedingungen",
+      "question": "Welche der folgenden Aussagen beschreibt eine nicht-holonome Zwangsbedingung?",
+      "choices": [
+        "A: Eine Zwangsbedingung, die die Bewegungsrichtung eines Körpers nicht einschränkt.",
+        "B: Eine Zwangsbedingung, die nicht durch Integrale in Bezug auf die Koordinaten ausgedrückt werden kann.",
+        "C: Eine Zwangsbedingung, die nur in der Zeit abhängt.",
+        "D: Eine Zwangsbedingung, die immer in einem konservativen System vorkommt."
+      ],
+      "correct_answer": "B",
+      "explanation": "Nicht-holonome Zwangsbedingungen können nicht durch Integrale in Bezug auf die Koordinaten ausgedrückt werden und sind häufig in dynamischen Systemen zu finden. Sie beschränken die Bewegungsfreiheit eines Körpers auf eine Weise, die nicht einfach durch die Geometrie des Raumes beschrieben werden kann.",
+      "difficulty": 5,
+      "subcategory": "Nicht-holonome Zwangsbedingungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Langer-Verfahren",
+      "question": "Was ist das Hauptziel des Langer-Verfahrens in der Quantenmechanik?",
+      "choices": [
+        "A: Die Bestimmung der Temperatur eines Systems.",
+        "B: Die Messung elektrischer Felder.",
+        "C: Die Berechnung von Übergangswahrscheinlichkeiten zwischen Zuständen.",
+        "D: Die Analyse klassischer mechanischer Systeme."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Langer-Verfahren ist ein wichtiges mathematisches Werkzeug in der Quantenmechanik, das dazu verwendet wird, Übergangswahrscheinlichkeiten zwischen quantenmechanischen Zuständen zu berechnen. Es ist besonders nützlich bei der Untersuchung von Systemen, die durch Störungen beeinflusst werden.",
+      "difficulty": 4,
+      "subcategory": "Langer-Verfahren"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Randwertprobleme der Elektrostatik (Laplace-Gleichung)",
+      "question": "Was beschreibt die Laplace-Gleichung in der Elektrostatik?",
+      "choices": [
+        "A: Das Verhalten der elektrischen Feldlinien in einem homogenen Medium.",
+        "B: Die Wechselwirkung zwischen elektrischen und magnetischen Feldern.",
+        "C: Die Verteilung des elektrischen Potentials in einem Gebiet ohne freie Ladungen.",
+        "D: Die Bewegung von geladenen Teilchen in einem elektrischen Feld."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Laplace-Gleichung beschreibt, wie sich das elektrische Potential in einem Bereich verhält, in dem keine freien Ladungen vorhanden sind. Dies ist besonders wichtig für die Lösung von Randwertproblemen in der Elektrostatik, wo die Bedingungen an den Grenzen des betrachteten Gebiets definiert sind.",
+      "difficulty": 6,
+      "subcategory": "Randwertprobleme der Elektrostatik (Laplace-Gleichung)"
+    }
+  ]
+}
