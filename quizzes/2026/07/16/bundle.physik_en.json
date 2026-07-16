@@ -1,0 +1,168 @@
+{
+  "date": "2026-07-16",
+  "generated_at": "2026-07-16T05:35:23Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Metalle und Isolatoren (Bandbild)",
+      "question": "Which of the following phenomena describes the difference between metal and insulator in the context of the band structure?",
+      "choices": [
+        "A: Insulators conduct electricity better than metals because they have more free electrons.",
+        "B: In metals, electrons are tightly bound to their atoms, while insulators have mobile electrons.",
+        "C: Metals have a higher electron density than insulators, making them less conductive.",
+        "D: Metals have an overlapping valence and conduction band, while insulators have a band gap."
+      ],
+      "correct_answer": "D",
+      "explanation": "Metals are characterized by an overlapping valence and conduction band, enabling electrical conductivity. Insulators, on the other hand, have a significant band gap that hinders the excitation of electrons into the conduction band, thus greatly reducing electrical conductivity.",
+      "difficulty": 7,
+      "subcategory": "Metalle und Isolatoren (Bandbild)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Reibung: Haftreibung",
+      "question": "What describes static friction?",
+      "choices": [
+        "A: The force that slows down a falling body.",
+        "B: The force acting between two moving surfaces.",
+        "C: The force needed to set a stationary object in motion.",
+        "D: The force that stops a moving body."
+      ],
+      "correct_answer": "C",
+      "explanation": "Static friction is the force required to set a stationary object in motion. It acts between two surfaces not moving relative to each other until the maximum static friction is reached and motion occurs.",
+      "difficulty": 3,
+      "subcategory": "Reibung: Haftreibung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Hartree-Gleichungen",
+      "question": "What is the main goal of the Hartree equations in quantum mechanics?",
+      "choices": [
+        "A: Explaining gravity.",
+        "B: Determining the speed of light.",
+        "C: Calculating the electronic structure of many particles.",
+        "D: Describing macroscopic movements."
+      ],
+      "correct_answer": "C",
+      "explanation": "The Hartree equations are an approach to calculate the electronic structure in many-particle systems, especially in atoms and molecules. They allow for considering the interactions between electrons, which is crucial for quantum mechanics.",
+      "difficulty": 1,
+      "subcategory": "Hartree-Gleichungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Zeitunabhängige Störungstheorie: entartete Niveaus",
+      "question": "Which of the following statements about time-independent perturbation theory for degenerate levels is correct?",
+      "choices": [
+        "A: The energy corrections are always zero if the perturbation does not affect the complete system.",
+        "B: Degenerate levels can never lead to different energy values.",
+        "C: The corrections to the energies of degenerate levels are independent of the strength of the perturbation.",
+        "D: For degenerate levels, the perturbation must be diagonalized to determine the energy corrections."
+      ],
+      "correct_answer": "D",
+      "explanation": "For degenerate levels, it is necessary to diagonalize the perturbation to correctly calculate the energy corrections. This is because the degenerate states can interfere with each other when the perturbation is introduced.",
+      "difficulty": 9,
+      "subcategory": "Zeitunabhängige Störungstheorie: entartete Niveaus"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Dispersion dichter Medien",
+      "question": "Which phenomenon describes the wavelength dependence of refraction in a dense medium like glass?",
+      "choices": [
+        "A: Reflection",
+        "B: Diffraction",
+        "C: Interference",
+        "D: Dispersion"
+      ],
+      "correct_answer": "D",
+      "explanation": "Dispersion is the process where light in a medium is separated into its components due to different refractive indices for different wavelengths. This explains why a prism splits white light into the colors of the rainbow.",
+      "difficulty": 9,
+      "subcategory": "Dispersion dichter Medien"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Schalenmodell",
+      "question": "What describes the shell model in atomic physics?",
+      "choices": [
+        "A: The radiation of atoms at high temperatures.",
+        "B: The arrangement of electrons in discrete energy levels around the atomic nucleus.",
+        "C: The motion of particles in a magnetic field.",
+        "D: The interactions between quarks and gluons."
+      ],
+      "correct_answer": "B",
+      "explanation": "The shell model describes how electrons in an atom are arranged in specific energy levels or 'shells' around the atomic nucleus. These shells have different energy levels, which is crucial for the chemical behavior of atoms.",
+      "difficulty": 2,
+      "subcategory": "Schalenmodell"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Interferenz und Beugung (Licht)",
+      "question": "What describes the phenomenon of light wave diffraction?",
+      "choices": [
+        "A: The rapid movement of light in a vacuum.",
+        "B: The conversion of light into heat energy.",
+        "C: The generation of light through chemical reactions.",
+        "D: The bending of light waves around an obstacle or through narrow openings."
+      ],
+      "correct_answer": "D",
+      "explanation": "Light diffraction occurs when light waves are bent around an obstacle or through narrow openings. This behavior is a typical characteristic of waves and demonstrates the wave nature of light in quantum mechanics.",
+      "difficulty": 4,
+      "subcategory": "Interferenz und Beugung (Licht)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Kugelkondensator",
+      "question": "What determines the capacitance of a spherical capacitor?",
+      "choices": [
+        "A: Only the distance between the spheres.",
+        "B: The distance between the spheres and the size of the spheres.",
+        "C: The type of material between the spheres.",
+        "D: Only the size of the inner sphere."
+      ],
+      "correct_answer": "B",
+      "explanation": "The capacitance of a spherical capacitor depends on both the distance between the two spheres and their diameters. A larger distance reduces capacitance, while larger spheres can increase capacitance.",
+      "difficulty": 3,
+      "subcategory": "Kugelkondensator"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Wellenpakete (Dispersion)",
+      "question": "What describes the dispersion of wave packets in quantum mechanics?",
+      "choices": [
+        "A: The variation of phase velocity depending on frequency.",
+        "B: The stability of a particle beam in a vacuum.",
+        "C: The uncertainty relation between position and momentum.",
+        "D: The increase in energy of a particle through interaction."
+      ],
+      "correct_answer": "A",
+      "explanation": "Dispersion describes how wave packets spread out and change their shape over time due to different phase velocities of individual frequencies. This leads to a thinning of the wave packet in space and time, which is an important property in quantum mechanics.",
+      "difficulty": 6,
+      "subcategory": "Wellenpakete (Dispersion)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Photoeffekt (Grundlagen)",
+      "question": "What describes the photoelectric effect?",
+      "choices": [
+        "A: The deflection of light rays by a lens.",
+        "B: The refraction of light in different media.",
+        "C: The reflection of light on a surface.",
+        "D: The emission of electrons from a material when illuminated with light."
+      ],
+      "correct_answer": "D",
+      "explanation": "The photoelectric effect explains how light can eject electrons from a material. This occurs when the energy of the photons is high enough to overcome the binding energy of the electrons.",
+      "difficulty": 6,
+      "subcategory": "Photoeffekt (Grundlagen)"
+    }
+  ]
+}
