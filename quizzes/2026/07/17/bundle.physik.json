@@ -1,0 +1,169 @@
+{
+  "date": "2026-07-17",
+  "generated_at": "2026-07-17T05:36:42Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Statischer Druck in Flüssigkeiten",
+      "question": "Was beschreibt der hydrostatische Druck in einer Flüssigkeit?",
+      "choices": [
+        "A: Den Druck, der durch das Gewicht der Flüssigkeitssäule über dem Punkt erzeugt wird.",
+        "B: Den Druck, der bei chemischen Reaktionen in Flüssigkeiten entsteht.",
+        "C: Den Druck, der von der Flüssigkeitsoberfläche auf den Luftdruck wirkt.",
+        "D: Den Druck, der durch bewegte Flüssigkeiten entsteht."
+      ],
+      "correct_answer": "A",
+      "explanation": "Der hydrostatische Druck in einer Flüssigkeit ergibt sich aus dem Gewicht der Flüssigkeitssäule, die sich über einem bestimmten Punkt befindet. Je tiefer man in eine Flüssigkeit eintaucht, desto größer ist der Druck aufgrund des Gewichts der darüber liegenden Flüssigkeitsschichten.",
+      "difficulty": 4,
+      "subcategory": "Statischer Druck in Flüssigkeiten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "BCS-Grundzustand",
+      "question": "Was beschreibt der BCS-Grundzustand in der Festkörperphysik?",
+      "choices": [
+        "A: Die Wechselwirkung zwischen Elektronen und Phononen in Halbleitern.",
+        "B: Die Ausbildung von Cooper-Paaren in Supraleitern.",
+        "C: Die Struktur von Kristallen im festen Zustand.",
+        "D: Die thermodynamischen Eigenschaften von Magnetmaterialien."
+      ],
+      "correct_answer": "B",
+      "explanation": "Der BCS-Grundzustand beschreibt das Phänomen der Supraleitung, bei dem Elektronen zu sogenannten Cooper-Paaren gebunden werden. Diese Paare bewegen sich kooperativ und ohne Widerstand durch das Material, was zu supraleitenden Eigenschaften führt.",
+      "difficulty": 7,
+      "subcategory": "BCS-Grundzustand"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Noether-Idee: Homogenität der Zeit ⇒ Energieerhaltung",
+      "question": "Welche Aussage beschreibt am besten die Beziehung zwischen der Homogenität der Zeit und der Energieerhaltung gemäß der Noether-Idee?",
+      "choices": [
+        "A: Die Homogenität der Zeit bewirkt, dass Kräfte in einem System variabel sind.",
+        "B: Die Homogenität der Zeit hat keinen Einfluss auf physikalische Gesetze.",
+        "C: Die Homogenität der Zeit führt dazu, dass Energie in geschlossenen Systemen konstant bleibt.",
+        "D: Die Homogenität der Zeit ist die Ursache für die Erzeugung neuer Energiequellen."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Noether-Idee besagt, dass für jede kontinuierliche Symmetrie in der Physik eine Erhaltungsgröße existiert. Die Homogenität der Zeit bedeutet, dass die Gesetze der Physik zu jedem Zeitpunkt gleich sind, was zur Erhaltung der Energie führt.",
+      "difficulty": 5,
+      "subcategory": "Noether-Idee: Homogenität der Zeit ⇒ Energieerhaltung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Faraday’sches Induktionsgesetz",
+      "question": "Was beschreibt das Faraday’sche Induktionsgesetz?",
+      "choices": [
+        "A: Die Erzeugung einer elektrischen Spannung durch eine Änderung des Magnetfeldes.",
+        "B: Die Beziehung zwischen Temperatur und elektrischer Widerstand.",
+        "C: Die Bewegung von Elektronen in einem Leiter bei konstanter Spannung.",
+        "D: Die Wechselwirkung zwischen zwei elektrischen Ladungen."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Faraday’sche Induktionsgesetz besagt, dass eine Änderung des Magnetfeldes in der Zeit eine elektrische Spannung erzeugt. Dies ist die Grundlage für viele Anwendungen, wie beispielsweise Generatoren und Transformatoren.",
+      "difficulty": 5,
+      "subcategory": "Faraday’sches Induktionsgesetz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Typen der schwachen Wechselwirkung (CC/NC)",
+      "question": "Welche der folgenden Aussagen beschreibt am besten den Unterschied zwischen geladenen und neutralen schwachen Wechselwirkungen?",
+      "choices": [
+        "A: Geladene Wechselwirkungen treten nur in der Nähe von starken Wechselwirkungen auf, während neutrale Wechselwirkungen unabhängig sind.",
+        "B: Geladene Wechselwirkungen sind verantwortlich für die Verzerrung der Raum-Zeit, während neutrale Wechselwirkungen die Materie beeinflussen.",
+        "C: Geladene Wechselwirkungen sind nur für Leptonen relevant, während neutrale Wechselwirkungen auch für Quarks gelten.",
+        "D: Geladene schwache Wechselwirkungen bewirken den Wechsel von Elektron zu Neutrino, während neutrale Wechselwirkungen keine Teilchenumwandlung verursachen."
+      ],
+      "correct_answer": "D",
+      "explanation": "Geladene schwache Wechselwirkungen, auch als Charged Current (CC) Wechselwirkungen bekannt, sind verantwortlich für die Umwandlung von Teilchen wie Elektronen in Neutrinos. Neutrale schwache Wechselwirkungen hingegen, oder Neutral Current (NC), treten auf, ohne dass eine solche Umwandlung stattfindet, und sind an der Wechselwirkung mit dem Z-Boson beteiligt.",
+      "difficulty": 9,
+      "subcategory": "Typen der schwachen Wechselwirkung (CC/NC)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Feynman‑Diagramme (Streuprozesse)",
+      "question": "Was beschreibt ein Feynman-Diagramm in der Teilchenphysik?",
+      "choices": [
+        "A: Den Verlauf von Lichtstrahlen in einem optischen System.",
+        "B: Die Wechselwirkungen zwischen Teilchen und deren Energieverteilung.",
+        "C: Die Bewegung von Planeten um die Sonne.",
+        "D: Die Temperaturveränderungen in einem thermodynamischen System."
+      ],
+      "correct_answer": "B",
+      "explanation": "Feynman-Diagramme sind grafische Darstellungen von Wechselwirkungen zwischen Teilchen, die in der Quantenfeldtheorie verwendet werden. Sie zeigen, wie Teilchen miteinander interagieren und dabei virtuelle Teilchen erzeugt oder annihiliert werden. Diese Diagramme sind ein essentielles Werkzeug zur Berechnung von Streuprozessen in der Teilchenphysik.",
+      "difficulty": 6,
+      "subcategory": "Feynman‑Diagramme (Streuprozesse)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Dritter Hauptsatz (Nernstsches Theorem): Konsequenzen",
+      "question": "Welche der folgenden Aussagen beschreibt eine Konsequenz des Nernstschen Theorems?",
+      "choices": [
+        "A: Alle thermodynamischen Prozesse sind reversibel.",
+        "B: Die spezifische Wärmekapazität eines Stoffes ist bei hohen Temperaturen konstant.",
+        "C: Die Entropie eines perfekten Kristalls geht bei 0 Kelvin gegen Null.",
+        "D: Die Wärmeleitung in Metallen ist unabhängig von der Temperatur."
+      ],
+      "correct_answer": "C",
+      "explanation": "Der dritte Hauptsatz der Thermodynamik, auch bekannt als Nernstsches Theorem, besagt, dass die Entropie eines perfekten Kristalls bei der absoluten Nulltemperatur (0 Kelvin) gleich Null ist. Dies hat wichtige Konsequenzen für das Verständnis von Entropie und thermodynamischen Prozessen bei tiefen Temperaturen.",
+      "difficulty": 7,
+      "subcategory": "Dritter Hauptsatz (Nernstsches Theorem): Konsequenzen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Hochtemperatur-Supraleiter",
+      "question": "Welches Material gilt als der erste Hochtemperatur-Supraleiter, der über 90 K supraleitend wird?",
+      "choices": [
+        "A: Niob",
+        "B: Eisen-Arsenid",
+        "C: Yttrium-Barium-Kupfer-Oxid (YBCO)",
+        "D: Blei"
+      ],
+      "correct_answer": "C",
+      "explanation": "Yttrium-Barium-Kupfer-Oxid (YBCO) wurde 1987 entdeckt und war der erste bekannte Hochtemperatur-Supraleiter, der bei Temperaturen über 90 K supraleitend wurde. Diese Entdeckung eröffnete neue Forschungsfelder in der Supraleitertechnologie und führte zu bedeutenden Fortschritten in der Festkörperphysik.",
+      "difficulty": 7,
+      "subcategory": "Hochtemperatur-Supraleiter"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Kollektive Phänomene im Elektronengas",
+      "question": "Was beschreibt das Verhalten eines Elektronengases in einem Metall bei niedrigen Temperaturen?",
+      "choices": [
+        "A: Es zeigt supraleitende Eigenschaften.",
+        "B: Es verhält sich wie ein ideales Gas.",
+        "C: Es hat eine erhöhte elektrische Resistivität.",
+        "D: Es unterliegt dem idealen Gasgesetz."
+      ],
+      "correct_answer": "A",
+      "explanation": "Bei sehr niedrigen Temperaturen können Elektronen in einem Metall kooperativ agieren und supraleitende Eigenschaften entwickeln, was bedeutet, dass sie ohne Widerstand fließen können. Dies ist ein kollektives Phänomen, das auf die Wechselwirkungen zwischen den Elektronen zurückzuführen ist.",
+      "difficulty": 3,
+      "subcategory": "Kollektive Phänomene im Elektronengas"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Leptonpaar‑Erzeugung",
+      "question": "Was ist eine Voraussetzung für die Erzeugung eines Leptonenpaares in einem hochenergetischen Prozess?",
+      "choices": [
+        "A: Die Energie muss größer als die Ruhemasse des Leptonenpaares sein.",
+        "B: Es muss ein Photon vorhanden sein.",
+        "C: Die Temperatur muss über 1000 Grad Celsius liegen.",
+        "D: Es muss ein Magnetfeld vorhanden sein."
+      ],
+      "correct_answer": "A",
+      "explanation": "Für die Erzeugung eines Leptonenpaares muss die Energie des Prozesses mindestens der Gesamtenergie der Ruhemasse der beiden Leptonen entsprechen, gemäß der Energie-Masse-Relation von Einstein. Dies ist eine grundlegende Voraussetzung in der Teilchenphysik.",
+      "difficulty": 5,
+      "subcategory": "Leptonpaar‑Erzeugung"
+    }
+  ]
+}

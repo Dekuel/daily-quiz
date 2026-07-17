@@ -1,0 +1,105 @@
+{
+  "date": "2026-07-17",
+  "generated_at": "2026-07-17T05:35:59Z",
+  "schema_version": 6,
+  "mode": "schwer",
+  "bundle_type": "daily",
+  "questions": [
+    {
+      "category": "Technologie",
+      "topic": "KI & Zukunftstechnologien",
+      "question": "Was versteht man unter 'Überwachtem Lernen' im Kontext des Machine Learning?",
+      "choices": [
+        "A: Ein Prozess, bei dem Algorithmen selbstständig ohne Daten lernen.",
+        "B: Eine Methode zur Analyse unstrukturierter Daten ohne vorherige Kategorisierung.",
+        "C: Eine Technik, um Daten in Echtzeit zu verarbeiten, ohne historische Daten zu nutzen.",
+        "D: Ein Lernansatz, bei dem ein Modell mit gekennzeichneten Daten trainiert wird."
+      ],
+      "correct_answer": "D",
+      "explanation": "Überwachtes Lernen ist ein zentraler Ansatz im Machine Learning, bei dem Algorithmen mithilfe von gekennzeichneten Beispieldaten trainiert werden. Dies ermöglicht es dem Modell, Muster zu erkennen und Vorhersagen für neue, unmarkierte Daten zu treffen.",
+      "difficulty": 5
+    },
+    {
+      "question": "Was sollte in einem Bewerbungsgespräch unbedingt vermieden werden?",
+      "category": "Alltag & Gesellschaft",
+      "subcategory": "Bewerbung & Vorstellungsgespräch",
+      "difficulty": 6,
+      "choices": [
+        "A: Das eigene Gehalt ansprechen",
+        "B: Über seine Stärken sprechen",
+        "C: Negative Erfahrungen mit früheren Arbeitgebern",
+        "D: Fragen zur Unternehmenskultur stellen"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "category": "Wissenschaft",
+      "topic": "Astronomie",
+      "question": "Welcher Planet unseres Sonnensystems hat die größte Anzahl von Monden?",
+      "choices": [
+        "A: Uranus",
+        "B: Neptun",
+        "C: Jupiter",
+        "D: Saturn"
+      ],
+      "correct_answer": "C",
+      "explanation": "Jupiter ist bekannt dafür, der Planet mit den meisten Monden zu sein, mit über 79 bestätigten Monden. Diese Zahl kann sich jedoch ständig ändern, da neue Monde entdeckt werden können. Saturn folgt mit einer ebenfalls großen Anzahl an Monden, hat jedoch nicht so viele wie Jupiter.",
+      "difficulty": 9
+    },
+    {
+      "category": "Politiker",
+      "discipline": "Sitze (International)",
+      "question": "In welcher Stadt befindet sich der Hauptsitz der Welthandelsorganisation (WTO)?",
+      "choices": [
+        "A: Luxemburg (Luxemburg)",
+        "B: New York City (USA)",
+        "C: Straßburg (Frankreich)",
+        "D: Genf (Centre William Rappard, Schweiz)"
+      ],
+      "correct_answer": "D",
+      "explanation": "Internationale Organisationen haben fest definierte Hauptsitze; die Alternativen sind Sitze anderer Organisationen.",
+      "difficulty": 1
+    },
+    {
+      "category": "Sprache",
+      "topic": "Redewendungen",
+      "question": "Welche der folgenden Redewendungen wird typischerweise mit dem Genitiv verwendet?",
+      "choices": [
+        "A: sich des Problems bewusst sein",
+        "B: auf den Holzweg geraten",
+        "C: sich in der Pflicht fühlen",
+        "D: mit dem Feuer spielen"
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Redewendung 'sich des Problems bewusst sein' verwendet den Genitiv, da es sich um eine feste Verbindung handelt, die die Zugehörigkeit oder den Bezug zu einem Problem ausdrückt. Die anderen Beispiele verwenden unterschiedliche Kasus.",
+      "difficulty": 7
+    },
+    {
+      "question": "In welchem Jahr begann die industrielle Revolution in England, die als Wendepunkt in der Wirtschaftsgeschichte gilt?",
+      "category": "Wirtschaft & Finanzen",
+      "subcategory": "Industrielle Revolution",
+      "difficulty": 5,
+      "choices": [
+        "A: 1760",
+        "B: 1780",
+        "C: 1820",
+        "D: 1840"
+      ],
+      "correct_answer": "B"
+    },
+    {
+      "category": "Glaube & Religion",
+      "topic": "Monotheistische Religionen",
+      "question": "Welches Buch des Alten Testaments erzählt von den Rückkehrern aus dem Exil, die den Tempel in Jerusalem wieder aufbauen?",
+      "choices": [
+        "A: Daniel",
+        "B: Nehemia",
+        "C: Jona",
+        "D: Esra"
+      ],
+      "correct_answer": "D",
+      "explanation": "Das Buch Esra beschreibt die Rückkehr der Juden aus dem Babylonischen Exil und den Wiederaufbau des Tempels in Jerusalem. Esra wird als Priester und Schriftgelehrter dargestellt, der eine zentrale Rolle in dieser Erzählung spielt.",
+      "difficulty": 8
+    }
+  ]
+}
