@@ -1,0 +1,168 @@
+{
+  "date": "2026-07-18",
+  "generated_at": "2026-07-18T05:20:09Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Exponenten-Ungleichungen (Scaling Bounds)",
+      "question": "Which statement about exponent inequalities in thermodynamics is correct?",
+      "choices": [
+        "A: Exponent inequalities can be used to describe the relationship between different thermodynamic quantities in different states.",
+        "B: Exponent inequalities are not relevant for describing thermodynamic processes.",
+        "C: Exponent inequalities always lead to exact values for all thermodynamic calculations.",
+        "D: Exponent inequalities are only applicable to ideal gases."
+      ],
+      "correct_answer": "A",
+      "explanation": "Exponent inequalities are useful for analyzing the scaling of thermodynamic quantities in different states, which is particularly important in statistical thermodynamics. These inequalities help to understand the relationships between different variables, even though they do not provide exact values.",
+      "difficulty": 7,
+      "subcategory": "Exponenten-Ungleichungen (Scaling Bounds)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Verträgliche vs. nicht-verträgliche Observable",
+      "question": "Which of the following observables are compatible?",
+      "choices": [
+        "A: Spin in two different directions",
+        "B: Energy and time",
+        "C: Position and momentum",
+        "D: Temperature and pressure"
+      ],
+      "correct_answer": "A",
+      "explanation": "Compatible observables can be precisely measured simultaneously without one measurement affecting the other. Spin in two different directions is an example of compatible observables, while position and momentum are not compatible, according to the uncertainty principle in quantum mechanics.",
+      "difficulty": 3,
+      "subcategory": "Verträgliche vs. nicht-verträgliche Observable"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Strahlungsgesetze (Wien, Rayleigh–Jeans)",
+      "question": "Which law describes the dependence of the spectral radiance of a black body on temperature?",
+      "choices": [
+        "A: Coulomb's law",
+        "B: Wien's displacement law",
+        "C: Rayleigh-Jeans law",
+        "D: Ohm's law"
+      ],
+      "correct_answer": "B",
+      "explanation": "The Wien's displacement law describes how the wavelength of the maximum radiance of a black body varies with temperature. It shows that higher temperatures lead to a shift of radiation towards shorter wavelengths.",
+      "difficulty": 3,
+      "subcategory": "Strahlungsgesetze (Wien, Rayleigh–Jeans)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Fresnelsche Formeln (Reflexionsgrad)",
+      "question": "What does the reflectance in optics describe?",
+      "choices": [
+        "A: The speed of light in a vacuum.",
+        "B: The proportion of light that is reflected at an interface.",
+        "C: The angle of refraction of light when transitioning between two media.",
+        "D: The color of the reflected light."
+      ],
+      "correct_answer": "B",
+      "explanation": "The reflectance indicates the proportion of incident light at an interface that is reflected. This is an important aspect in optics, especially in the study of light interactions at surfaces.",
+      "difficulty": 2,
+      "subcategory": "Fresnelsche Formeln (Reflexionsgrad)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Zyklotronresonanz",
+      "question": "What does cyclotron resonance in solids describe?",
+      "choices": [
+        "A: The diffusion of atoms in a crystal lattice.",
+        "B: The heat conduction of metals at high temperatures.",
+        "C: The interaction of electrons with a magnetic field leading to oscillations.",
+        "D: The influence of temperature on electrical resistance."
+      ],
+      "correct_answer": "C",
+      "explanation": "Cyclotron resonance describes the behavior of electrons in a magnetic field, where they oscillate due to the Lorentz force. These oscillations are characteristic of the interaction between the magnetic field and electrons in solids.",
+      "difficulty": 5,
+      "subcategory": "Zyklotronresonanz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "RG-Ideen: Ising 1D/2D & Dezimierung",
+      "question": "Which model describes the behavior of spins in a two-dimensional Ising system?",
+      "choices": [
+        "A: The harmonic oscillator model",
+        "B: The ideal gas model without interactions",
+        "C: The Ising model with interactions between neighboring spins",
+        "D: The Coulomb model of electrons"
+      ],
+      "correct_answer": "C",
+      "explanation": "The Ising model is a fundamental model in statistical mechanics that describes the interactions between neighboring spins. It is commonly used to investigate phase transitions and critical phenomena in two dimensions.",
+      "difficulty": 3,
+      "subcategory": "RG-Ideen: Ising 1D/2D & Dezimierung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "d’Alembert’sches Prinzip",
+      "question": "What does d'Alembert's principle describe in analytical mechanics?",
+      "choices": [
+        "A: The connection of kinematic and dynamic aspects of a body.",
+        "B: The relationship between force and acceleration.",
+        "C: The relationship between work and energy.",
+        "D: The conservation of energy in closed systems."
+      ],
+      "correct_answer": "A",
+      "explanation": "D'Alembert's principle connects kinematics and dynamics by considering the effective forces acting on a system. It allows for the analysis of motions involving constraint forces and is a fundamental concept in analytical mechanics.",
+      "difficulty": 1,
+      "subcategory": "d’Alembert’sches Prinzip"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Spezifische Wärme der Elektronen",
+      "question": "What does the specific heat of electrons in a solid describe?",
+      "choices": [
+        "A: The interaction between electrons and atomic nuclei.",
+        "B: The amount of energy needed to increase the temperature of an electron by one degree.",
+        "C: The amount of energy needed to increase the temperature of the entire solid by one degree.",
+        "D: The ability of electrons to conduct heat."
+      ],
+      "correct_answer": "B",
+      "explanation": "The specific heat of electrons describes how much energy is required to increase the temperature of a single electron by one degree. This is important for understanding the thermal properties of solids, especially in metals.",
+      "difficulty": 4,
+      "subcategory": "Spezifische Wärme der Elektronen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Feldverhalten an Grenzflächen",
+      "question": "What happens to the electric field at the interface between two dielectrics with different permittivities?",
+      "choices": [
+        "A: The field strength changes abruptly at the interface.",
+        "B: The electric field is constant at the interface.",
+        "C: The density of field lines remains unchanged at the interface.",
+        "D: The field lines always point perpendicular to the interface."
+      ],
+      "correct_answer": "A",
+      "explanation": "At the interface between two dielectrics with different permittivities, the electric field strength changes due to the different responses of the materials to the electric field. This leads to a sudden change in field strength at the interface, while the direction of the field lines adjusts accordingly.",
+      "difficulty": 7,
+      "subcategory": "Feldverhalten an Grenzflächen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Kinetische Gastheorie: Grundgleichungen",
+      "question": "Which law describes the relationship between pressure, volume, and temperature of an ideal gas?",
+      "choices": [
+        "A: Coulomb's law",
+        "B: Hooke's law",
+        "C: Bernoulli's principle",
+        "D: The ideal gas law"
+      ],
+      "correct_answer": "D",
+      "explanation": "The ideal gas law describes the relationship between pressure, volume, and temperature for ideal gases. It states PV = nRT, where P is pressure, V is volume, n is the amount of substance, R is the ideal gas constant, and T is the temperature in Kelvin.",
+      "difficulty": 4,
+      "subcategory": "Kinetische Gastheorie: Grundgleichungen"
+    }
+  ]
+}

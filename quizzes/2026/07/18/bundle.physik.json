@@ -1,0 +1,169 @@
+{
+  "date": "2026-07-18",
+  "generated_at": "2026-07-18T05:19:41Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Exponenten-Ungleichungen (Scaling Bounds)",
+      "question": "Welche Aussage über Exponenten-Ungleichungen in der Thermodynamik ist korrekt?",
+      "choices": [
+        "A: Exponenten-Ungleichungen können verwendet werden, um die Beziehung zwischen verschiedenen thermodynamischen Größen in verschiedenen Zuständen zu beschreiben.",
+        "B: Exponenten-Ungleichungen sind für die Beschreibung von thermodynamischen Prozessen nicht relevant.",
+        "C: Exponenten-Ungleichungen führen immer zu exakten Werten für alle thermodynamischen Berechnungen.",
+        "D: Exponenten-Ungleichungen sind nur für ideale Gase anwendbar."
+      ],
+      "correct_answer": "A",
+      "explanation": "Exponenten-Ungleichungen sind nützlich, um die Skalierung von thermodynamischen Größen in verschiedenen Zuständen zu analysieren, was insbesondere in der statistischen Thermodynamik von Bedeutung ist. Diese Ungleichungen helfen, die Beziehungen zwischen verschiedenen Variablen zu verstehen, auch wenn sie keine exakten Werte liefern.",
+      "difficulty": 7,
+      "subcategory": "Exponenten-Ungleichungen (Scaling Bounds)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Verträgliche vs. nicht-verträgliche Observable",
+      "question": "Welche der folgenden Observable sind verträglich?",
+      "choices": [
+        "A: Spin in zwei verschiedenen Richtungen",
+        "B: Energie und Zeit",
+        "C: Ort und Impuls",
+        "D: Temperatur und Druck"
+      ],
+      "correct_answer": "A",
+      "explanation": "Verträgliche Observable können gleichzeitig genau gemessen werden, ohne dass die Messung der einen die andere beeinflusst. Spin in zwei verschiedenen Richtungen ist ein Beispiel für verträgliche Observable, während Ort und Impuls nicht verträglich sind, gemäß der Unschärferelation in der Quantenmechanik.",
+      "difficulty": 3,
+      "subcategory": "Verträgliche vs. nicht-verträgliche Observable"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Strahlungsgesetze (Wien, Rayleigh–Jeans)",
+      "question": "Welches Gesetz beschreibt die Abhängigkeit der spektralen Strahlungsdichte eines schwarzen Körpers von der Temperatur?",
+      "choices": [
+        "A: Coulomb-Gesetz",
+        "B: Wien'sches Verschiebungsgesetz",
+        "C: Rayleigh-Jeans-Gesetz",
+        "D: Ohm'sches Gesetz"
+      ],
+      "correct_answer": "B",
+      "explanation": "Das Wien'sche Verschiebungsgesetz beschreibt, wie die Wellenlänge der maximalen Strahlungsdichte eines schwarzen Körpers mit der Temperatur variiert. Es zeigt, dass höhere Temperaturen zu einer Verschiebung der Strahlung in kürzere Wellenlängen führen.",
+      "difficulty": 3,
+      "subcategory": "Strahlungsgesetze (Wien, Rayleigh–Jeans)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Fresnelsche Formeln (Reflexionsgrad)",
+      "question": "Was beschreibt der Reflexionsgrad in der Optik?",
+      "choices": [
+        "A: Die Geschwindigkeit von Licht in einem Vakuum.",
+        "B: Den Anteil des Lichts, der an einer Grenzfläche reflektiert wird.",
+        "C: Den Brechungswinkel des Lichts beim Übergang zwischen zwei Medien.",
+        "D: Die Farbe des reflektierten Lichts."
+      ],
+      "correct_answer": "B",
+      "explanation": "Der Reflexionsgrad gibt an, welcher Anteil des einfallenden Lichts an einer Grenzfläche reflektiert wird. Dies ist ein wichtiger Aspekt in der Optik, insbesondere bei der Untersuchung von Lichtwechselwirkungen an Oberflächen.",
+      "difficulty": 2,
+      "subcategory": "Fresnelsche Formeln (Reflexionsgrad)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Zyklotronresonanz",
+      "question": "Was beschreibt die Zyklotronresonanz in Festkörpern?",
+      "choices": [
+        "A: Die Diffusion von Atomen in einem Kristallgitter.",
+        "B: Die Wärmeleitung von Metallen bei hohen Temperaturen.",
+        "C: Die Wechselwirkung von Elektronen mit einem Magnetfeld, die zu Schwingungen führt.",
+        "D: Den Einfluss von Temperatur auf den elektrischen Widerstand."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Zyklotronresonanz beschreibt das Verhalten von Elektronen in einem Magnetfeld, wo sie aufgrund der Lorentzkraft Schwingungen ausführen. Diese Schwingungen sind charakteristisch für die Wechselwirkung zwischen dem Magnetfeld und den Elektronen in Festkörpern.",
+      "difficulty": 5,
+      "subcategory": "Zyklotronresonanz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "RG-Ideen: Ising 1D/2D & Dezimierung",
+      "question": "Welches Modell beschreibt das Verhalten von Spins in einem zweidimensionalen Ising-System?",
+      "choices": [
+        "A: Das harmonische Oszillator-Modell",
+        "B: Das ideale Gas-Modell ohne Wechselwirkungen",
+        "C: Das Ising-Modell mit Wechselwirkungen zwischen benachbarten Spins",
+        "D: Das Coulomb-Modell der Elektronen"
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Ising-Modell ist ein fundamentales Modell in der statistischen Mechanik, das die Wechselwirkungen zwischen benachbarten Spins beschreibt. Es wird häufig verwendet, um Phasenübergänge und kritische Phänomene in zwei Dimensionen zu untersuchen.",
+      "difficulty": 3,
+      "subcategory": "RG-Ideen: Ising 1D/2D & Dezimierung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "d’Alembert’sches Prinzip",
+      "question": "Was beschreibt das d’Alembert’sche Prinzip in der Analytischen Mechanik?",
+      "choices": [
+        "A: Die Verbindung von kinematischen und dynamischen Aspekten eines Körpers.",
+        "B: Die Beziehung zwischen Kraft und Beschleunigung.",
+        "C: Die Beziehung zwischen Arbeit und Energie.",
+        "D: Die Erhaltung der Energie in geschlossenen Systemen."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das d’Alembert’sche Prinzip verbindet die Kinematik und Dynamik, indem es die effektiven Kräfte berücksichtigt, die auf ein System wirken. Es ermöglicht die Analyse von Bewegungen unter Einbeziehung von Zwangskräften und ist ein grundlegendes Konzept in der analytischen Mechanik.",
+      "difficulty": 1,
+      "subcategory": "d’Alembert’sches Prinzip"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Spezifische Wärme der Elektronen",
+      "question": "Was beschreibt die spezifische Wärme der Elektronen in einem Festkörper?",
+      "choices": [
+        "A: Die Wechselwirkung zwischen Elektronen und Atomkernen.",
+        "B: Die Energiemenge, die benötigt wird, um die Temperatur eines Elektrons um ein Grad zu erhöhen.",
+        "C: Die Energiemenge, die benötigt wird, um die Temperatur des gesamten Festkörpers um ein Grad zu erhöhen.",
+        "D: Die Fähigkeit von Elektronen, Wärme zu leiten."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die spezifische Wärme der Elektronen beschreibt, wie viel Energie erforderlich ist, um die Temperatur eines einzelnen Elektrons um ein Grad zu erhöhen. Dies ist wichtig für das Verständnis der thermischen Eigenschaften von Festkörpern, insbesondere bei Metallen.",
+      "difficulty": 4,
+      "subcategory": "Spezifische Wärme der Elektronen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Feldverhalten an Grenzflächen",
+      "question": "Was passiert mit dem elektrischen Feld an der Grenzfläche zwischen zwei Dielektrika mit unterschiedlichen Permittivitäten?",
+      "choices": [
+        "A: Die Feldstärke ändert sich sprunghaft an der Grenzfläche.",
+        "B: Das elektrische Feld ist an der Grenzfläche konstant.",
+        "C: Die Dichte der Feldlinien bleibt an der Grenzfläche unverändert.",
+        "D: Die Feldlinien zeigen immer senkrecht zur Grenzfläche."
+      ],
+      "correct_answer": "A",
+      "explanation": "An der Grenzfläche zwischen zwei Dielektrika mit unterschiedlichen Permittivitäten verändert sich die elektrische Feldstärke aufgrund der unterschiedlichen Reaktionen der Materialien auf das elektrische Feld. Dies führt zu einer sprunghaften Änderung der Feldstärke an der Grenzfläche, während die Richtung der Feldlinien sich entsprechend anpasst.",
+      "difficulty": 7,
+      "subcategory": "Feldverhalten an Grenzflächen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Kinetische Gastheorie: Grundgleichungen",
+      "question": "Welches Gesetz beschreibt den Zusammenhang zwischen Druck, Volumen und Temperatur eines idealen Gases?",
+      "choices": [
+        "A: Das Coulombsche Gesetz",
+        "B: Das Hookesche Gesetz",
+        "C: Das Bernoulli-Gesetz",
+        "D: Das ideale Gasgesetz"
+      ],
+      "correct_answer": "D",
+      "explanation": "Das ideale Gasgesetz beschreibt die Beziehung zwischen Druck, Volumen und Temperatur für ideale Gase. Es lautet PV = nRT, wobei P den Druck, V das Volumen, n die Stoffmenge, R die ideale Gaskonstante und T die Temperatur in Kelvin darstellt.",
+      "difficulty": 4,
+      "subcategory": "Kinetische Gastheorie: Grundgleichungen"
+    }
+  ]
+}
