@@ -1,0 +1,168 @@
+{
+  "date": "2026-07-19",
+  "generated_at": "2026-07-19T05:46:01Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Hauptträgheitsmomente",
+      "question": "Which of the following objects has the largest principal moment of inertia about an axis passing through its center of mass?",
+      "choices": [
+        "A: A homogeneous cube",
+        "B: A homogeneous cylinder",
+        "C: A point mass",
+        "D: A thin ring"
+      ],
+      "correct_answer": "B",
+      "explanation": "The principal moment of inertia of a body depends on its mass distribution. A homogeneous cylinder has the largest principal moment of inertia about an axis passing through its center of mass compared to the other mentioned objects, as the mass is further away from the axis.",
+      "difficulty": 1,
+      "subcategory": "Hauptträgheitsmomente"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Joule–Thomson-Prozess (Inversionstemp.)",
+      "question": "What does the inversion temperature describe in the Joule-Thomson process?",
+      "choices": [
+        "A: The temperature at which a gas always cools upon expansion.",
+        "B: The maximum temperature of a gas at constant pressure.",
+        "C: The temperature at which a gas has no volume upon expansion.",
+        "D: The temperature at which a gas heats up upon expansion."
+      ],
+      "correct_answer": "D",
+      "explanation": "The inversion temperature is the point at which a gas, upon expansion, either heats up or cools down. Below this temperature, the gas cools upon expansion, while above it, the gas heats up.",
+      "difficulty": 3,
+      "subcategory": "Joule–Thomson-Prozess (Inversionstemp.)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Bohr–Sommerfeld-Quantisierung (historisch)",
+      "question": "What best describes the Bohr–Sommerfeld quantization within classical mechanics?",
+      "choices": [
+        "A: The infinite number of possible orbitals of an electron in an atom.",
+        "B: The fact that particles always move along classical paths.",
+        "C: The derivation of classical motion equations from quantum mechanical principles.",
+        "D: The quantized energy levels of an electron in a hydrogen atom."
+      ],
+      "correct_answer": "D",
+      "explanation": "The Bohr–Sommerfeld quantization is a historical concept that describes the electron energy levels in an atom taking discrete values resulting from the condition that the integrals of motion over a complete path are quantized. This was an important step towards the development of modern quantum mechanics.",
+      "difficulty": 9,
+      "subcategory": "Bohr–Sommerfeld-Quantisierung (historisch)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Dirac’sche δ-Funktion",
+      "question": "What does the Dirac delta function describe in physics?",
+      "choices": [
+        "A: A function describing the temperature of a system.",
+        "B: A function representing a point charge in an electric field.",
+        "C: A function describing the motion of particles in a vacuum.",
+        "D: A function indicating the energy content of photons."
+      ],
+      "correct_answer": "B",
+      "explanation": "The Dirac delta function is used to mathematically represent point charges in electrodynamics. It is particularly useful for analyzing the properties of charge distributions in an electric field.",
+      "difficulty": 3,
+      "subcategory": "Dirac’sche δ-Funktion"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Photonengas & Plancksches Strahlungsgesetz",
+      "question": "Which relationship in Planck's radiation law describes the energy of a photon?",
+      "choices": [
+        "A: E = h * f",
+        "B: E = m * c^2",
+        "C: E = q * V",
+        "D: E = k * T"
+      ],
+      "correct_answer": "A",
+      "explanation": "The energy of a photon is described by the relationship E = h * f, where h is the Planck constant and f is the frequency of the photon. This formula is fundamental for understanding the quantum nature of light radiation in the context of statistical mechanics.",
+      "difficulty": 7,
+      "subcategory": "Photonengas & Plancksches Strahlungsgesetz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Hilbert-Raum (allgemein)",
+      "question": "Which of the following concepts best describes the structure of a Hilbert space in quantum mechanics?",
+      "choices": [
+        "A: A Hilbert space is a discrete space with a finite number of states.",
+        "B: A Hilbert space is a closed space without orthogonality.",
+        "C: A Hilbert space is an infinite-dimensional space without an inner product.",
+        "D: A Hilbert space is a complete normed vector space."
+      ],
+      "correct_answer": "D",
+      "explanation": "A Hilbert space is actually a complete normed vector space, meaning it has both a vector space structure and a norm ensuring completeness. This is crucial for the mathematical description of quantum states and their superpositions.",
+      "difficulty": 8,
+      "subcategory": "Hilbert-Raum (allgemein)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "H-Theorem, Irreversibilität & lokale Maxwell-Verteilung",
+      "question": "Which of the following concepts is central to Boltzmann's H-theorem and describes the evolution of a system from a disordered state to an ordered state?",
+      "choices": [
+        "A: Pressure",
+        "B: Volume",
+        "C: Temperature",
+        "D: Entropy"
+      ],
+      "correct_answer": "D",
+      "explanation": "Boltzmann's H-theorem describes how the entropy of a system increases over time, leading to the irreversibility of physical processes. Entropy is a measure of a system's disorder and plays a central role in statistical mechanics and thermodynamics.",
+      "difficulty": 8,
+      "subcategory": "H-Theorem, Irreversibilität & lokale Maxwell-Verteilung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Natürliche Zustandsvariablen (U, H, F, G)",
+      "question": "Which of the following statements correctly describes Gibbs free energy (G)?",
+      "choices": [
+        "A: Gibbs free energy is the state function indicating the maximum work achievable at constant temperature and pressure.",
+        "B: Gibbs free energy is always positive and can never become negative.",
+        "C: Gibbs free energy is the state function describing the internal energy of a system.",
+        "D: Gibbs free energy is independent of the temperature and pressure of a system."
+      ],
+      "correct_answer": "A",
+      "explanation": "Gibbs free energy G is an important thermodynamic state function indicating how much work a system can do at constant temperature and pressure. A negative Delta G indicates a reaction can proceed spontaneously, while a positive Delta G means the opposite.",
+      "difficulty": 7,
+      "subcategory": "Natürliche Zustandsvariablen (U, H, F, G)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Ionenbindung: Abschätzung & Messung",
+      "question": "What does ionic bonding in a solid describe?",
+      "choices": [
+        "A: The attraction between neutral atoms.",
+        "B: The bonding of molecules through hydrogen bonds.",
+        "C: The electrostatic attraction between positively and negatively charged ions.",
+        "D: The interaction between electrons in an atom."
+      ],
+      "correct_answer": "C",
+      "explanation": "Ionic bonding is a chemical bond formed by the electrostatic attraction between positively charged cations and negatively charged anions. This type of bonding is characteristic of salts and plays a significant role in solid-state physics.",
+      "difficulty": 1,
+      "subcategory": "Ionenbindung: Abschätzung & Messung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Lineare Operatoren",
+      "question": "Which of the following operators in quantum mechanics is not Hermitian and therefore does not lead to a valid physical observable?",
+      "choices": [
+        "A: Angular momentum operator",
+        "B: Momentum operator",
+        "C: Position operator",
+        "D: Hamiltonian operator"
+      ],
+      "correct_answer": "B",
+      "explanation": "The momentum operator is Hermitian, but a non-Hermitian formulation of momentum, such as through a complex generalization, may be considered invalid in quantum mechanics. The other mentioned operators are all Hermitian and represent valid observables.",
+      "difficulty": 10,
+      "subcategory": "Lineare Operatoren"
+    }
+  ]
+}

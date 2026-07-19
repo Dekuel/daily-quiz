@@ -1,0 +1,169 @@
+{
+  "date": "2026-07-19",
+  "generated_at": "2026-07-19T05:45:29Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Hauptträgheitsmomente",
+      "question": "Welches der folgenden Objekte hat das größte Hauptträgheitsmoment um eine Achse, die durch seinen Schwerpunkt verläuft?",
+      "choices": [
+        "A: Ein homogener Würfel",
+        "B: Ein homogener Zylinder",
+        "C: Eine punktuelle Masse",
+        "D: Ein dünner Ring"
+      ],
+      "correct_answer": "B",
+      "explanation": "Das Hauptträgheitsmoment eines Körpers hängt von seiner Masseverteilung ab. Ein homogener Zylinder hat das größte Hauptträgheitsmoment um eine Achse durch seinen Schwerpunkt im Vergleich zu den anderen genannten Objekten, da die Masse weiter von der Achse entfernt ist.",
+      "difficulty": 1,
+      "subcategory": "Hauptträgheitsmomente"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Joule–Thomson-Prozess (Inversionstemp.)",
+      "question": "Was beschreibt die Inversionstemperatur im Joule-Thomson-Prozess?",
+      "choices": [
+        "A: Die Temperatur, bei der ein Gas immer abkühlt, wenn es entspannt wird.",
+        "B: Die maximale Temperatur eines Gases bei konstantem Druck.",
+        "C: Die Temperatur, bei der ein Gas bei Entspannung kein Volumen mehr hat.",
+        "D: Die Temperatur, bei der ein Gas beim Entspannen sich erwärmt."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Inversionstemperatur ist der Punkt, an dem ein Gas beim Entspannen entweder erwärmt oder abkühlt. Unterhalb dieser Temperatur kühlt das Gas beim Entspannen ab, während es sich darüber erwärmt.",
+      "difficulty": 3,
+      "subcategory": "Joule–Thomson-Prozess (Inversionstemp.)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Bohr–Sommerfeld-Quantisierung (historisch)",
+      "question": "Was beschreibt die Bohr–Sommerfeld-Quantisierung im Rahmen der klassischen Mechanik?",
+      "choices": [
+        "A: Die unendliche Anzahl an möglichen Orbitalen eines Elektrons in einem Atom.",
+        "B: Die Tatsache, dass Teilchen sich immer entlang klassischer Bahnen bewegen.",
+        "C: Die Ableitung der klassischen Bewegungsgleichungen aus quantenmechanischen Prinzipien.",
+        "D: Die quantisierte Energieniveaus eines Elektrons in einem Wasserstoffatom."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Bohr–Sommerfeld-Quantisierung ist ein historisches Konzept, das beschreibt, dass die Energieniveaus eines Elektrons in einem Atom diskrete Werte annehmen, die aus der Bedingung resultieren, dass die Integrale der Bewegung über eine vollständige Bahn quantisiert sind. Dies war ein wichtiger Schritt zur Entwicklung der modernen Quantenmechanik.",
+      "difficulty": 9,
+      "subcategory": "Bohr–Sommerfeld-Quantisierung (historisch)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Dirac’sche δ-Funktion",
+      "question": "Was beschreibt die Dirac’sche δ-Funktion in der Physik?",
+      "choices": [
+        "A: Eine Funktion, die die Temperatur eines Systems beschreibt.",
+        "B: Eine Funktion, die eine Punktladung in einem elektrischen Feld darstellt.",
+        "C: Eine Funktion, die die Bewegung von Teilchen in einem Vakuum beschreibt.",
+        "D: Eine Funktion, die den Energiegehalt von Photonen angibt."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Dirac’sche δ-Funktion wird verwendet, um Punktladungen in der Elektrodynamik mathematisch darzustellen. Sie ist besonders nützlich, um die Eigenschaften von Ladungsverteilungen in einem elektrischen Feld zu analysieren.",
+      "difficulty": 3,
+      "subcategory": "Dirac’sche δ-Funktion"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Photonengas & Plancksches Strahlungsgesetz",
+      "question": "Welcher Zusammenhang beschreibt im Planckschen Strahlungsgesetz die Energie eines Photons?",
+      "choices": [
+        "A: E = h * f",
+        "B: E = m * c^2",
+        "C: E = q * V",
+        "D: E = k * T"
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Energie eines Photons wird durch die Beziehung E = h * f beschrieben, wobei h das Plancksche Wirkungsquantum und f die Frequenz des Photons ist. Diese Formel ist grundlegend für das Verständnis der Quantennatur der Lichtstrahlung im Kontext der statistischen Mechanik.",
+      "difficulty": 7,
+      "subcategory": "Photonengas & Plancksches Strahlungsgesetz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Hilbert-Raum (allgemein)",
+      "question": "Welches der folgenden Konzepte beschreibt am besten die Struktur eines Hilbert-Raums in der Quantenmechanik?",
+      "choices": [
+        "A: Ein Hilbert-Raum ist ein diskreter Raum mit einer endlichen Anzahl von Zuständen.",
+        "B: Ein Hilbert-Raum ist ein abgeschlossener Raum ohne Orthogonalität.",
+        "C: Ein Hilbert-Raum ist ein unendlicher dimensionaler Raum ohne inneres Produkt.",
+        "D: Ein Hilbert-Raum ist ein vollständig normierter Vektorraum."
+      ],
+      "correct_answer": "D",
+      "explanation": "Ein Hilbert-Raum ist tatsächlich ein vollständig normierter Vektorraum, was bedeutet, dass er sowohl eine Vektorraumstruktur als auch eine Norm aufweist, die die Vollständigkeit garantiert. Dies ist entscheidend für die mathematische Beschreibung von Quantenzuständen und deren Superpositionen.",
+      "difficulty": 8,
+      "subcategory": "Hilbert-Raum (allgemein)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "H-Theorem, Irreversibilität & lokale Maxwell-Verteilung",
+      "question": "Welches der folgenden Konzepte ist zentral für das H-Theorem von Boltzmann und beschreibt die Entwicklung eines Systems von einem ungeordneten Zustand zu einem geordneten Zustand?",
+      "choices": [
+        "A: Druck",
+        "B: Volumen",
+        "C: Temperatur",
+        "D: Entropie"
+      ],
+      "correct_answer": "D",
+      "explanation": "Das H-Theorem von Boltzmann beschreibt, wie die Entropie eines Systems im Laufe der Zeit zunimmt, was zur Irreversibilität von physikalischen Prozessen führt. Entropie ist ein Maß für die Unordnung eines Systems und spielt eine zentrale Rolle in der statistischen Mechanik und der Thermodynamik.",
+      "difficulty": 8,
+      "subcategory": "H-Theorem, Irreversibilität & lokale Maxwell-Verteilung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Natürliche Zustandsvariablen (U, H, F, G)",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt die Gibbs-Energie (G)?",
+      "choices": [
+        "A: Die Gibbs-Energie ist die Zustandsgröße, die die maximal verrichtbare Arbeit bei konstanter Temperatur und Druck angibt.",
+        "B: Die Gibbs-Energie ist immer positiv und kann niemals negativ werden.",
+        "C: Die Gibbs-Energie ist die Zustandsgröße, die die innere Energie eines Systems beschreibt.",
+        "D: Die Gibbs-Energie ist unabhängig von der Temperatur und dem Druck eines Systems."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Gibbs-Energie G ist ein wichtiger thermodynamischer Zustand, der angibt, wie viel Arbeit ein System bei konstanter Temperatur und Druck leisten kann. Ein negatives Delta G zeigt an, dass eine Reaktion spontan ablaufen kann, während ein positives Delta G das Gegenteil bedeutet.",
+      "difficulty": 7,
+      "subcategory": "Natürliche Zustandsvariablen (U, H, F, G)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Ionenbindung: Abschätzung & Messung",
+      "question": "Was beschreibt die Ionenbindung in einem Festkörper?",
+      "choices": [
+        "A: Die Anziehung zwischen neutralen Atomen.",
+        "B: Die Verbindung von Molekülen durch Wasserstoffbrücken.",
+        "C: Die elektrostatische Anziehung zwischen positiv und negativ geladenen Ionen.",
+        "D: Die Wechselwirkung zwischen Elektronen in einem Atom."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Ionenbindung ist eine chemische Bindung, die durch die elektrostatische Anziehung zwischen positiv geladenen Kationen und negativ geladenen Anionen entsteht. Diese Art der Bindung ist charakteristisch für Salze und spielt eine wichtige Rolle in der Festkörperphysik.",
+      "difficulty": 1,
+      "subcategory": "Ionenbindung: Abschätzung & Messung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Lineare Operatoren",
+      "question": "Welcher der folgenden Operatoren ist in der Quantenmechanik nicht hermitesch und führt daher nicht zu einem gültigen physikalischen Observable?",
+      "choices": [
+        "A: Drehimpulsoperator",
+        "B: Impulsoperator",
+        "C: Positionoperator",
+        "D: Hamilton-Operator"
+      ],
+      "correct_answer": "B",
+      "explanation": "Der Impulsoperator ist hermitesch, jedoch kann eine nicht-hermitesche Formulierung des Impulses, etwa durch eine komplexe Verallgemeinerung, als nicht valid in der Quantenmechanik angesehen werden. Die anderen genannten Operatoren sind alle hermitesch und repräsentieren gültige Observablen.",
+      "difficulty": 10,
+      "subcategory": "Lineare Operatoren"
+    }
+  ]
+}
