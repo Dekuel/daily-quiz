@@ -1,0 +1,106 @@
+{
+  "date": "2026-07-20",
+  "generated_at": "2026-07-20T06:09:37Z",
+  "schema_version": 6,
+  "mode": "normal",
+  "bundle_type": "daily",
+  "questions": [
+    {
+      "category": "Sprache",
+      "topic": "Fremdsprachen",
+      "question": "Welche der folgenden Übersetzungen bedeutet 'Haus' auf Spanisch?",
+      "choices": [
+        "A: Mesa",
+        "B: Casa",
+        "C: Silla",
+        "D: Cielo"
+      ],
+      "correct_answer": "B",
+      "explanation": "Das spanische Wort 'casa' bedeutet 'Haus'. 'Cielo' bedeutet 'Himmel', 'mesa' steht für 'Tisch' und 'silla' heißt 'Stuhl'. Diese Wörter sind gängige Begriffe im Spanischen, jedoch nicht für 'Haus'.",
+      "difficulty": 4
+    },
+    {
+      "question": "Welche Ursache wird häufig mit der Finanzkrise von 2008 in Verbindung gebracht?",
+      "category": "Wirtschaft & Finanzen",
+      "subcategory": "Finanzkrise 2008",
+      "difficulty": 6,
+      "choices": [
+        "A: Übermäßige Staatsverschuldung in den USA",
+        "B: Weltwirtschaftskrise von 1929",
+        "C: Platzen der Immobilienblase",
+        "D: Zinsanhebungen der Europäischen Zentralbank im Jahr 2010"
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "category": "Politiker",
+      "discipline": "Regierungschefs (Welt)",
+      "question": "Wer ist Regierungschef von Frankreich?",
+      "choices": [
+        "A: Emmanuel Macron",
+        "B: Sébastien Lecornu",
+        "C: Édouard Philippe",
+        "D: Jean Castex"
+      ],
+      "correct_answer": "B",
+      "explanation": "Sébastien Lecornu ist der aktuelle Regierungschef von Frankreich. Er hat die Verantwortung für die Exekutive und die Umsetzung der Regierungspolitik.",
+      "difficulty": 1
+    },
+    {
+      "category": "Wissenschaft",
+      "topic": "Physik",
+      "question": "Welche Aussage beschreibt das Konzept der Wärmeübertragung am besten?",
+      "choices": [
+        "A: Wärme bleibt immer in einem geschlossenen System.",
+        "B: Wärme fließt immer von einem heißen zu einem kalten Objekt.",
+        "C: Wärmeübertragung erfordert immer einen festen Stoff.",
+        "D: Wärme kann nur durch Strahlung übertragen werden."
+      ],
+      "correct_answer": "B",
+      "explanation": "Das Prinzip der Wärmeübertragung besagt, dass Wärme von einem Bereich höheren Temperaturs zu einem Bereich niedrigerer Temperatur fließt, bis ein Gleichgewicht erreicht ist. Dies geschieht durch verschiedene Mechanismen wie Leitung, Konvektion und Strahlung.",
+      "difficulty": 4
+    },
+    {
+      "category": "Essen und Trinken",
+      "topic": "Ernährung",
+      "question": "Welches der folgenden Lebensmittel sollte aufgrund seiner kurzen Haltbarkeit zuerst verwendet werden, um Lebensmittelverschwendung zu vermeiden?",
+      "choices": [
+        "A: Hartkäse",
+        "B: Konservendosen",
+        "C: Reis",
+        "D: Frische Beeren"
+      ],
+      "correct_answer": "D",
+      "explanation": "Frische Beeren haben eine kurze Haltbarkeit und verderben schnell, wenn sie nicht zeitnah konsumiert werden. Im Gegensatz dazu können Reis und Konservendosen über längere Zeit gelagert werden, und Hartkäse bleibt ebenfalls länger genießbar, wenn er richtig gelagert wird.",
+      "difficulty": 4
+    },
+    {
+      "category": "Geographie",
+      "topic": "Flüsse, Seen & Meere",
+      "question": "Welches Meer ist eine Verbindung zwischen dem Atlantischen Ozean und dem Mittelmeer?",
+      "choices": [
+        "A: Karibisches Meer",
+        "B: Nordsee",
+        "C: Adriatisches Meer",
+        "D: Gibraltar"
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Straße von Gibraltar ist die Meerenge, die den Atlantischen Ozean mit dem Mittelmeer verbindet. Sie liegt zwischen Spanien und Marokko und spielt eine wichtige Rolle für die Schifffahrt zwischen diesen beiden Gewässern.",
+      "difficulty": 6
+    },
+    {
+      "category": "Technologie",
+      "topic": "Computer & Internet",
+      "question": "Was ist das Hauptprotokoll, das für den E-Mail-Versand verwendet wird?",
+      "choices": [
+        "A: HTTP",
+        "B: IMAP",
+        "C: SMTP",
+        "D: FTP"
+      ],
+      "correct_answer": "C",
+      "explanation": "SMTP steht für Simple Mail Transfer Protocol und ist das Standardprotokoll für den Versand von E-Mails über das Internet. IMAP hingegen wird für den Empfang von E-Mails verwendet, während FTP und HTTP für andere Datentransfers zuständig sind.",
+      "difficulty": 3
+    }
+  ]
+}

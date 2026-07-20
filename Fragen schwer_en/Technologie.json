@@ -3094,6 +3094,20 @@
       "correct_answer": "C",
       "explanation": "Algorithmic responsibility refers to the need to integrate ethical principles into the decision-making processes of AI systems. This includes the responsibility of developers and companies for the consequences of decisions made by AI, forming a crucial basis for appropriate regulations.",
       "difficulty": 8
+    },
+    {
+      "category": "Technologie",
+      "topic": "KI & Zukunftstechnologien",
+      "question": "Which of the following concepts is a fundamental architecture for many modern neural networks, particularly used for processing sequential data?",
+      "choices": [
+        "A: Convolutional Neural Network (CNN)",
+        "B: Autoencoder",
+        "C: Recurrent Neural Network (RNN)",
+        "D: Generative Adversarial Network (GAN)"
+      ],
+      "correct_answer": "C",
+      "explanation": "Recurrent Neural Networks (RNNs) have been specifically designed to process sequential data, making them particularly useful for applications like language processing and time series analysis. In contrast, CNNs are more specialized for spatial data like images, while GANs are used for generating new data and autoencoders are primarily used for data compression and reconstruction.",
+      "difficulty": 10
     }
   ]
 }
