@@ -1,0 +1,168 @@
+{
+  "date": "2026-07-21",
+  "generated_at": "2026-07-21T05:45:11Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Rutherford‑Wirkungsquerschnitt",
+      "question": "What does the Rutherford cross section describe in nuclear and particle physics?",
+      "choices": [
+        "A: The temperature of a nucleus.",
+        "B: The velocity of particles in an accelerator.",
+        "C: The probability of interaction between particles.",
+        "D: The mass of an atomic nucleus."
+      ],
+      "correct_answer": "C",
+      "explanation": "The Rutherford cross section describes the probability of interaction between particles, which is a key quantity in particle physics. It is often used to quantify and understand the results of scattering experiments.",
+      "difficulty": 3,
+      "subcategory": "Rutherford‑Wirkungsquerschnitt"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Kanonische Dichtematrix & Thermodynamik magnetischer Systeme",
+      "question": "Which statement about the canonical density matrix in statistical mechanics is correct?",
+      "choices": [
+        "A: The canonical density matrix is only used in quantum mechanics.",
+        "B: The canonical density matrix is independent of the system's energy.",
+        "C: The canonical density matrix describes the state distribution of a system at constant temperature.",
+        "D: The canonical density matrix is only relevant for systems without interactions."
+      ],
+      "correct_answer": "C",
+      "explanation": "The canonical density matrix describes the statistical distribution of a system's states at constant temperature and is a central concept in statistical mechanics. It allows deriving thermodynamic properties from microscopic states.",
+      "difficulty": 5,
+      "subcategory": "Kanonische Dichtematrix & Thermodynamik magnetischer Systeme"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Verteilungsfunktion",
+      "question": "Which of the following statements correctly describes the distribution function in classical mechanics?",
+      "choices": [
+        "A: It represents the force acting on a body.",
+        "B: It is independent of the mass of a body.",
+        "C: It indicates the probability of a particle being in a specific state.",
+        "D: It describes the velocity of a body at a specific time."
+      ],
+      "correct_answer": "C",
+      "explanation": "The distribution function in classical mechanics describes the probability of a particle being in a specific state or range. It is a central concept for statistically describing the behavior of particles in a system.",
+      "difficulty": 6,
+      "subcategory": "Verteilungsfunktion"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Symmetrien und Erhaltungssätze",
+      "question": "Which of the following conservation laws is fundamental in nuclear and particle physics?",
+      "choices": [
+        "A: Conservation of mass",
+        "B: Conservation of the speed of light",
+        "C: Conservation of electric charge",
+        "D: Conservation of temperature"
+      ],
+      "correct_answer": "C",
+      "explanation": "In nuclear and particle physics, the conservation of electric charge is a fundamental conservation law stating that the total electric charge in a closed system remains constant. The other answer options are either not applicable or do not directly relate to nuclear and particle physics.",
+      "difficulty": 6,
+      "subcategory": "Symmetrien und Erhaltungssätze"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Noether-Idee: Homogenität der Zeit ⇒ Energieerhaltung",
+      "question": "Which statement describes the relationship between the homogeneity of time and energy conservation?",
+      "choices": [
+        "A: Energy remains constant if physical laws are invariant under time translations.",
+        "B: Energy cannot be generated when time is homogeneous.",
+        "C: Homogeneity of time leads to variable energy.",
+        "D: Time variations always lead to energy loss."
+      ],
+      "correct_answer": "A",
+      "explanation": "The Noether's theorem states that if the physical laws are invariant under time translations (i.e., remain the same under time shifts), then the total energy of a system remains constant. This forms the basis for the principle of energy conservation in physics.",
+      "difficulty": 3,
+      "subcategory": "Noether-Idee: Homogenität der Zeit ⇒ Energieerhaltung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Wigner–Seitz-Zelle",
+      "question": "What does the Wigner-Seitz cell describe in solid-state physics?",
+      "choices": [
+        "A: The maximum density of a solid at absolute temperature.",
+        "B: A model for explaining quantum mechanical effects in solids.",
+        "C: The energy states of electrons in a metallic solid.",
+        "D: The smallest unit of a crystal lattice representing the symmetry of the lattice."
+      ],
+      "correct_answer": "D",
+      "explanation": "The Wigner-Seitz cell is a type of primitive cell in a crystal lattice defined to contain the shortest distance to the nearest neighbor. This cell helps analyze and represent the structure and properties of a solid.",
+      "difficulty": 6,
+      "subcategory": "Wigner–Seitz-Zelle"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Hamilton’sches Prinzip (Prinzip der stationären Wirkung)",
+      "question": "Which of the following statements best describes Hamilton's principle in analytical mechanics?",
+      "choices": [
+        "A: It defines the kinetics of gases under ideal conditions.",
+        "B: It describes the behavior of particles in a vacuum without external forces.",
+        "C: It states that the path of a particle's motion is the one for which the action is stationary.",
+        "D: It is a method for calculating the energy of a system at a specific time."
+      ],
+      "correct_answer": "C",
+      "explanation": "Hamilton's principle states that the motion of a system of particles is determined by the path for which the action is stationary, i.e., the variation of the action yields zero. This is a fundamental aspect of analytical mechanics that connects the Lagrange and Hamilton formulations.",
+      "difficulty": 9,
+      "subcategory": "Hamilton’sches Prinzip (Prinzip der stationären Wirkung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Plasmonen (longitudinale Schwingungen)",
+      "question": "Which statement about longitudinal plasmons in metals is correct?",
+      "choices": [
+        "A: Longitudinal plasmons are exclusively transverse vibrations of atomic nuclei.",
+        "B: Longitudinal plasmons are collective oscillations of electron density along the material surface.",
+        "C: Longitudinal plasmons only occur in dielectric materials.",
+        "D: Longitudinal plasmons do not depend on the frequency of the incident light."
+      ],
+      "correct_answer": "B",
+      "explanation": "Longitudinal plasmons describe collective oscillations of electron density in metals that can propagate along the material surface. These oscillations are important for understanding plasmon hypersensitivity and surface plasmon resonance.",
+      "difficulty": 8,
+      "subcategory": "Plasmonen (longitudinale Schwingungen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Inertialsysteme (Definition und Eigenschaften)",
+      "question": "What is an inertial system in relativity theory?",
+      "choices": [
+        "A: A reference system in which all bodies always accelerate.",
+        "B: A reference system in which a body without external influences remains at rest or moves uniformly.",
+        "C: A reference system in which the speed of light is constant and independent of the observer's motion.",
+        "D: A reference system that always moves relative to another system."
+      ],
+      "correct_answer": "B",
+      "explanation": "An inertial system is defined as a reference system in which a body, not subjected to external forces, either remains at rest or moves uniformly and rectilinearly. This definition is central to relativity theory and Newtonian mechanics.",
+      "difficulty": 5,
+      "subcategory": "Inertialsysteme (Definition und Eigenschaften)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Thermodynamische Beschreibung der Kerne",
+      "question": "Which statement best describes the behavior of nuclei at high temperatures?",
+      "choices": [
+        "A: Nuclei decay immediately at high temperatures.",
+        "B: Nuclei contract and become more stable.",
+        "C: Nuclei expand, and their binding energy decreases.",
+        "D: Nuclei remain unchanged regardless of temperature."
+      ],
+      "correct_answer": "C",
+      "explanation": "At high temperatures, nuclei have more kinetic energy, leading to expansion. This can also affect the binding energy of nucleons, decreasing the stability of nuclei.",
+      "difficulty": 5,
+      "subcategory": "Thermodynamische Beschreibung der Kerne"
+    }
+  ]
+}
