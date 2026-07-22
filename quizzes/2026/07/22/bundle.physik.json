@@ -1,0 +1,169 @@
+{
+  "date": "2026-07-22",
+  "generated_at": "2026-07-22T05:43:38Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Van-der-Waals-Gas (Korrekturen)",
+      "question": "Welche der folgenden Korrekturen berücksichtigt das Van-der-Waals-Gesetz für reale Gase?",
+      "choices": [
+        "A: Korrektur für die Schwingungsenergie",
+        "B: Korrektur für die elektrische Polarisation",
+        "C: Korrektur für das Volumen der Moleküle",
+        "D: Korrektur für die Wärmeleitfähigkeit"
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Van-der-Waals-Gesetz berücksichtigt die Abweichungen von idealen Gasen, indem es eine Korrektur für das Volumen der Moleküle einführt, die den effektiven Platz reduziert, den die Gasmoleküle einnehmen. Diese Korrektur ist entscheidend, um das Verhalten realer Gase genauer zu beschreiben.",
+      "difficulty": 6,
+      "subcategory": "Van-der-Waals-Gas (Korrekturen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Einfache Beispiele in Hamilton-Formulierung",
+      "question": "Was beschreibt die Hamiltonsche Gleichung in der analytischen Mechanik?",
+      "choices": [
+        "A: Die Energieerhaltung in einem geschlossenen System.",
+        "B: Die Beziehung zwischen Position und Impuls eines Systems.",
+        "C: Die Beschleunigung in einem zentripetalen System.",
+        "D: Den zeitabhängigen Verlauf einer Kraft."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Hamiltonsche Gleichung beschreibt die Dynamik eines Systems in Form von Position und Impuls. Sie ist eine Grundlage der analytischen Mechanik und ermöglicht die Analyse von Systemen in verschiedenen Koordinatensystemen.",
+      "difficulty": 5,
+      "subcategory": "Einfache Beispiele in Hamilton-Formulierung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Natürliche Zustandsvariablen (U, H, F, G)",
+      "question": "Welche der folgenden Zustandsgrößen wird als die freie Enthalpie bezeichnet?",
+      "choices": [
+        "A: Innere Energie",
+        "B: Helmholtz-Energie",
+        "C: Enthalpie",
+        "D: Gibbs-Energie"
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Gibbs-Energie, auch als freie Enthalpie bekannt, ist eine der wichtigen Zustandsvariablen in der Thermodynamik. Sie beschreibt die maximale Arbeit, die ein System bei konstanter Temperatur und konstantem Druck leisten kann.",
+      "difficulty": 5,
+      "subcategory": "Natürliche Zustandsvariablen (U, H, F, G)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Dritter Hauptsatz (Nernst’scher Wärmesatz)",
+      "question": "Was besagt der dritte Hauptsatz der Thermodynamik?",
+      "choices": [
+        "A: Wärme kann nicht von einem kälteren zu einem wärmeren Körper übertragen werden.",
+        "B: Die Entropie eines perfekten Kristalls geht bei 0 Kelvin gegen null.",
+        "C: Der Druck eines Gases ist direkt proportional zur Temperatur.",
+        "D: Energie kann nicht aus dem Nichts geschaffen werden."
+      ],
+      "correct_answer": "B",
+      "explanation": "Der dritte Hauptsatz der Thermodynamik, auch als Nernst’scher Wärmesatz bekannt, besagt, dass die Entropie eines perfekten Kristalls im absoluten Nullpunkt (0 Kelvin) gleich null ist. Dies bedeutet, dass alle thermodynamischen Prozesse bei 0 Kelvin zum Stillstand kommen und keine Unordnung mehr vorhanden ist.",
+      "difficulty": 3,
+      "subcategory": "Dritter Hauptsatz (Nernst’scher Wärmesatz)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Methode der Bildladungen",
+      "question": "Was ist der Hauptvorteil der Methode der Bildladungen in der Elektrodynamik?",
+      "choices": [
+        "A: Sie ermöglicht die Lösung von Problemen mit unendlichen Potentialen.",
+        "B: Sie liefert immer exakte numerische Ergebnisse für alle Formen von Ladungsverteilungen.",
+        "C: Sie vereinfacht die Berechnung von elektrischen Feldern in der Nähe von leitenden Flächen.",
+        "D: Sie eliminiert die Notwendigkeit, die Gesetze von Coulomb zu verwenden."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Methode der Bildladungen ist besonders nützlich, um elektrische Felder in der Nähe von leitenden Flächen zu berechnen, indem sie die Problematik auf eine einfachere Form reduziert. Dadurch können schwierige Integrale oder komplizierte geometrische Anordnungen vermieden werden.",
+      "difficulty": 6,
+      "subcategory": "Methode der Bildladungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Kohärenz von Lichtquellen",
+      "question": "Welche Aussage beschreibt am besten die Kohärenz von Lichtquellen?",
+      "choices": [
+        "A: Kohärente Lichtquellen sind immer monochromatisch.",
+        "B: Kohärente Lichtquellen können keine Interferenzmuster erzeugen.",
+        "C: Kohärente Lichtquellen haben immer dieselbe Frequenz.",
+        "D: Kohärente Lichtquellen emittieren Lichtwellen mit konstanter Phasenbeziehung."
+      ],
+      "correct_answer": "D",
+      "explanation": "Kohärenz bezieht sich auf die Fähigkeit von Lichtwellen, eine konstante Phasenbeziehung aufrechtzuerhalten, was entscheidend für die Erzeugung von Interferenzmustern ist. Während monochromatische Lichtquellen oft kohärent sind, beschreibt Kohärenz nicht zwangsläufig die Frequenz oder Farbigkeit der Quelle.",
+      "difficulty": 7,
+      "subcategory": "Kohärenz von Lichtquellen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Kovariante Formulierung der klassischen Mechanik",
+      "question": "Was beschreibt die kovariante Formulierung der klassischen Mechanik hauptsächlich?",
+      "choices": [
+        "A: Die Einführung von Quantenmechanik-Elementen in die klassische Mechanik.",
+        "B: Die Trennung von Raum und Zeit in der klassischen Mechanik.",
+        "C: Die Existenz eines absoluten Raumes und einer absoluten Zeit.",
+        "D: Die Unveränderlichkeit der physikalischen Gesetze unter Koordinatentransformationen."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die kovariante Formulierung der klassischen Mechanik beschreibt, dass die physikalischen Gesetze bei Wechseln der Koordinatensysteme unverändert bleiben. Dies ist ein zentrales Konzept in der Relativitätstheorie, das die Gleichwertigkeit aller Inertialsysteme betont.",
+      "difficulty": 4,
+      "subcategory": "Kovariante Formulierung der klassischen Mechanik"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Quadrupol- und magnetische Dipolstrahlung",
+      "question": "Welche der folgenden Aussagen beschreibt die magnetische Dipolstrahlung?",
+      "choices": [
+        "A: Sie hat keinen Einfluss auf die elektromagnetische Wellenausbreitung.",
+        "B: Sie tritt auf, wenn sich elektrische Ladungen in einer nicht-symmetrischen Anordnung bewegen.",
+        "C: Sie entsteht ausschließlich durch die Bewegung positiver Ladungen.",
+        "D: Sie ist immer stärker als die elektrische Dipolstrahlung."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die magnetische Dipolstrahlung entsteht durch die Bewegung von elektrischen Strömen oder magnetischen Momenten in einer nicht-symmetrischen Anordnung. Diese Strahlung ist ein wichtiger Aspekt der Elektrodynamik und beschreibt, wie sich magnetische Dipole in einem wechselnden Magnetfeld verhalten.",
+      "difficulty": 4,
+      "subcategory": "Quadrupol- und magnetische Dipolstrahlung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Flussquantisierung",
+      "question": "Was beschreibt das Phänomen der Flussquantisierung in Festkörpern?",
+      "choices": [
+        "A: Die Reflexion von Licht an den Oberflächen von Festkörpern.",
+        "B: Die thermische Ausdehnung von Materialien bei Temperaturänderungen.",
+        "C: Die quantisierte Natur von Magnetfeldlinien in supraleitenden Materialien.",
+        "D: Die Bewegung von Elektronen in einem elektrischen Feld."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Flussquantisierung beschreibt, dass in supraleitenden Materialien Magnetfeldlinien nur in diskreten Einheiten durch den Supraleiter hindurchtreten können. Dies ist ein zentrales Konzept in der Festkörperphysik, das die quantisierten Zustände in diesen Materialien erklärt.",
+      "difficulty": 4,
+      "subcategory": "Flussquantisierung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Zustand und Gleichgewicht (makro/mikro)",
+      "question": "Welche Aussage beschreibt am besten den thermodynamischen Zustand eines Systems im Gleichgewicht?",
+      "choices": [
+        "A: Die Teilchen des Systems bewegen sich nur sehr langsam.",
+        "B: Die Temperatur des Systems variiert ständig.",
+        "C: Alle makroskopischen Eigenschaften sind konstant und zeitunabhängig.",
+        "D: Das System ist immer im thermischen Kontakt mit seiner Umgebung."
+      ],
+      "correct_answer": "C",
+      "explanation": "Ein System im thermodynamischen Gleichgewicht weist konstante makroskopische Eigenschaften auf, was bedeutet, dass sich Temperatur, Druck und Volumen nicht über die Zeit ändern. Im Gegensatz dazu können Systeme, die nicht im Gleichgewicht sind, zeitliche Veränderungen in diesen Größen aufweisen.",
+      "difficulty": 4,
+      "subcategory": "Zustand und Gleichgewicht (makro/mikro)"
+    }
+  ]
+}

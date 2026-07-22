@@ -1,0 +1,168 @@
+{
+  "date": "2026-07-22",
+  "generated_at": "2026-07-22T05:44:12Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Van-der-Waals-Gas (Korrekturen)",
+      "question": "Which of the following corrections accounts for the Van der Waals equation for real gases?",
+      "choices": [
+        "A: Correction for vibrational energy",
+        "B: Correction for electrical polarization",
+        "C: Correction for the volume of the molecules",
+        "D: Correction for thermal conductivity"
+      ],
+      "correct_answer": "C",
+      "explanation": "The Van der Waals equation considers deviations from ideal gases by introducing a correction for the volume of the molecules, reducing the effective space occupied by the gas molecules. This correction is crucial for describing the behavior of real gases more accurately.",
+      "difficulty": 6,
+      "subcategory": "Van-der-Waals-Gas (Korrekturen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Einfache Beispiele in Hamilton-Formulierung",
+      "question": "What does the Hamiltonian equation describe in analytical mechanics?",
+      "choices": [
+        "A: Energy conservation in a closed system.",
+        "B: Relationship between position and momentum of a system.",
+        "C: Acceleration in a centripetal system.",
+        "D: Time-dependent evolution of a force."
+      ],
+      "correct_answer": "B",
+      "explanation": "The Hamiltonian equation describes the dynamics of a system in terms of position and momentum. It is a foundation of analytical mechanics and enables the analysis of systems in different coordinate systems.",
+      "difficulty": 5,
+      "subcategory": "Einfache Beispiele in Hamilton-Formulierung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Natürliche Zustandsvariablen (U, H, F, G)",
+      "question": "Which of the following state variables is referred to as the free enthalpy?",
+      "choices": [
+        "A: Internal energy",
+        "B: Helmholtz energy",
+        "C: Enthalpy",
+        "D: Gibbs free energy"
+      ],
+      "correct_answer": "D",
+      "explanation": "The Gibbs free energy, also known as free enthalpy, is one of the important state variables in thermodynamics. It describes the maximum work a system can perform at constant temperature and pressure.",
+      "difficulty": 5,
+      "subcategory": "Natürliche Zustandsvariablen (U, H, F, G)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Dritter Hauptsatz (Nernst’scher Wärmesatz)",
+      "question": "What does the third law of thermodynamics state?",
+      "choices": [
+        "A: Heat cannot be transferred from a colder to a hotter body.",
+        "B: The entropy of a perfect crystal approaches zero at 0 Kelvin.",
+        "C: The pressure of a gas is directly proportional to temperature.",
+        "D: Energy cannot be created from nothing."
+      ],
+      "correct_answer": "B",
+      "explanation": "The third law of thermodynamics, also known as Nernst's heat theorem, states that the entropy of a perfect crystal at absolute zero (0 Kelvin) is zero. This implies that all thermodynamic processes cease at 0 Kelvin, and no disorder remains.",
+      "difficulty": 3,
+      "subcategory": "Dritter Hauptsatz (Nernst’scher Wärmesatz)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Methode der Bildladungen",
+      "question": "What is the main advantage of the method of images in electrodynamics?",
+      "choices": [
+        "A: It allows solving problems with infinite potentials.",
+        "B: It always provides exact numerical results for all charge distributions.",
+        "C: It simplifies the calculation of electric fields near conducting surfaces.",
+        "D: It eliminates the need to use Coulomb's laws."
+      ],
+      "correct_answer": "C",
+      "explanation": "The method of images is particularly useful for calculating electric fields near conducting surfaces by simplifying the problem to a more manageable form. This helps avoid difficult integrals or complex geometric arrangements.",
+      "difficulty": 6,
+      "subcategory": "Methode der Bildladungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Kohärenz von Lichtquellen",
+      "question": "Which statement best describes the coherence of light sources?",
+      "choices": [
+        "A: Coherent light sources are always monochromatic.",
+        "B: Coherent light sources cannot generate interference patterns.",
+        "C: Coherent light sources always have the same frequency.",
+        "D: Coherent light sources emit light waves with a constant phase relationship."
+      ],
+      "correct_answer": "D",
+      "explanation": "Coherence refers to the ability of light waves to maintain a constant phase relationship, crucial for generating interference patterns. While monochromatic light sources are often coherent, coherence does not necessarily describe the frequency or color of the source.",
+      "difficulty": 7,
+      "subcategory": "Kohärenz von Lichtquellen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Kovariante Formulierung der klassischen Mechanik",
+      "question": "What does the covariant formulation of classical mechanics primarily describe?",
+      "choices": [
+        "A: Introduction of quantum mechanics elements into classical mechanics.",
+        "B: Separation of space and time in classical mechanics.",
+        "C: Existence of absolute space and time.",
+        "D: Invariance of physical laws under coordinate transformations."
+      ],
+      "correct_answer": "D",
+      "explanation": "The covariant formulation of classical mechanics describes that physical laws remain unchanged when switching coordinate systems. This is a central concept in relativity theory, emphasizing the equivalence of all inertial systems.",
+      "difficulty": 4,
+      "subcategory": "Kovariante Formulierung der klassischen Mechanik"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Quadrupol- und magnetische Dipolstrahlung",
+      "question": "Which of the following statements best describes magnetic dipole radiation?",
+      "choices": [
+        "A: It has no effect on electromagnetic wave propagation.",
+        "B: It occurs when electric charges move in a non-symmetric arrangement.",
+        "C: It arises solely from the movement of positive charges.",
+        "D: It is always stronger than electric dipole radiation."
+      ],
+      "correct_answer": "B",
+      "explanation": "Magnetic dipole radiation arises from the movement of electric currents or magnetic moments in a non-symmetric arrangement. This radiation is an important aspect of electrodynamics, describing how magnetic dipoles behave in a changing magnetic field.",
+      "difficulty": 4,
+      "subcategory": "Quadrupol- und magnetische Dipolstrahlung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Flussquantisierung",
+      "question": "What does the phenomenon of flux quantization in solids describe?",
+      "choices": [
+        "A: Reflection of light at the surfaces of solids.",
+        "B: Thermal expansion of materials with temperature changes.",
+        "C: Quantized nature of magnetic field lines in superconducting materials.",
+        "D: Movement of electrons in an electric field."
+      ],
+      "correct_answer": "C",
+      "explanation": "Flux quantization describes that in superconducting materials, magnetic field lines can only pass through the superconductor in discrete units. This is a central concept in solid-state physics explaining the quantized states in these materials.",
+      "difficulty": 4,
+      "subcategory": "Flussquantisierung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Zustand und Gleichgewicht (makro/mikro)",
+      "question": "Which statement best describes the thermodynamic state of a system at equilibrium?",
+      "choices": [
+        "A: Particles of the system move very slowly.",
+        "B: The temperature of the system constantly varies.",
+        "C: All macroscopic properties are constant and time-independent.",
+        "D: The system is always in thermal contact with its surroundings."
+      ],
+      "correct_answer": "C",
+      "explanation": "A system in thermodynamic equilibrium exhibits constant macroscopic properties, meaning that temperature, pressure, and volume do not change over time. In contrast, systems not in equilibrium may show temporal variations in these quantities.",
+      "difficulty": 4,
+      "subcategory": "Zustand und Gleichgewicht (makro/mikro)"
+    }
+  ]
+}

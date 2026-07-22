@@ -3108,6 +3108,20 @@
       "correct_answer": "B",
       "explanation": "Kotlin ist die von Google empfohlene Programmiersprache für die Entwicklung nativer Android-Apps. Swift hingegen ist die bevorzugte Sprache für iOS-Entwicklung, während C# häufig in Verbindung mit Xamarin verwendet wird, um plattformübergreifende Apps zu entwickeln. Ruby wird weniger im mobilen Kontext verwendet und ist eher für Webanwendungen bekannt.",
       "difficulty": 10
+    },
+    {
+      "category": "Technologie",
+      "topic": "Computer & Internet",
+      "question": "Welcher Algorithmus wird häufig zur asymmetrischen Verschlüsselung verwendet?",
+      "choices": [
+        "A: DES",
+        "B: AES",
+        "C: Blowfish",
+        "D: RSA"
+      ],
+      "correct_answer": "D",
+      "explanation": "RSA (Rivest-Shamir-Adleman) ist ein weit verbreiteter asymmetrischer Verschlüsselungsalgorithmus, der auf der mathematischen Schwierigkeit der Faktorisierung großer Zahlen basiert. Im Gegensatz dazu sind AES und DES symmetrische Algorithmen, die einen gemeinsamen Schlüssel verwenden, während Blowfish ebenfalls symmetrisch ist und weniger für moderne Anwendungen empfohlen wird.",
+      "difficulty": 8
     }
   ]
 }
