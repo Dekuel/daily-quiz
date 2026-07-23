@@ -1,0 +1,169 @@
+{
+  "date": "2026-07-23",
+  "generated_at": "2026-07-23T05:48:45Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Kraft & Drehmoment auf Stromverteilungen",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt den Einfluss eines Magnetfeldes auf einen stromdurchflossenen Leiter?",
+      "choices": [
+        "A: Der Leiter erfährt keine Kraft, wenn der Strom parallel zum Magnetfeld fließt.",
+        "B: Der Leiter erfährt eine Kraft, die in die gleiche Richtung wie der Strom zeigt.",
+        "C: Der Leiter zieht das Magnetfeld an, unabhängig von der Stromrichtung.",
+        "D: Der Leiter erfährt eine Kraft, die senkrecht zu beiden, dem Strom und dem Magnetfeld, steht."
+      ],
+      "correct_answer": "D",
+      "explanation": "Ein stromdurchflossener Leiter, der sich in einem Magnetfeld befindet, erfährt eine Kraft, die durch die Lorentzkraft beschrieben wird. Diese Kraft ist immer senkrecht zu der Richtung des Stroms und dem Magnetfeld gerichtet, was zu einer seitlichen Ablenkung des Leiters führt.",
+      "difficulty": 5,
+      "subcategory": "Kraft & Drehmoment auf Stromverteilungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Temperaturbegriff (thermisches Gleichgewicht)",
+      "question": "Was beschreibt thermisches Gleichgewicht zwischen zwei Körpern?",
+      "choices": [
+        "A: Die Körper bewegen sich ständig aufeinander zu.",
+        "B: Die Körper haben die gleiche Temperatur.",
+        "C: Die Körper sind aus verschiedenen Materialien.",
+        "D: Die Körper haben unterschiedliche Temperaturen."
+      ],
+      "correct_answer": "B",
+      "explanation": "Thermisches Gleichgewicht tritt ein, wenn zwei Körper die gleiche Temperatur haben und somit keine Wärme mehr zwischen ihnen fließt. Dies ist ein grundlegendes Konzept in der Thermodynamik.",
+      "difficulty": 2,
+      "subcategory": "Temperaturbegriff (thermisches Gleichgewicht)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Separation der Variablen in HJ",
+      "question": "Welches Prinzip wird verwendet, um die Variablen in der Hamilton-Jacobi-Gleichung zu trennen?",
+      "choices": [
+        "A: Das Unschärfeprinzip",
+        "B: Das Prinzip der relativen Bewegung",
+        "C: Das Superpositionsprinzip",
+        "D: Der Prinzip der stationären Wirkung"
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Separation der Variablen in der Hamilton-Jacobi-Gleichung basiert auf dem Prinzip der stationären Wirkung. Dieses Prinzip ermöglicht es, die Bewegungsgleichungen eines Systems in einfacher zu handhabende Teile zu zerlegen, was die Analyse von dynamischen Systemen erleichtert.",
+      "difficulty": 4,
+      "subcategory": "Separation der Variablen in HJ"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Diamagnetismus",
+      "question": "Was ist ein charakteristisches Merkmal von diamagnetischen Materialien?",
+      "choices": [
+        "A: Sie werden von einem Magnetfeld abgestoßen.",
+        "B: Sie ziehen sich zu Magneten hin.",
+        "C: Sie haben eine hohe magnetische Suszeptibilität.",
+        "D: Sie besitzen permanente Magnetisierung."
+      ],
+      "correct_answer": "A",
+      "explanation": "Diamagnetische Materialien weisen eine negative magnetische Suszeptibilität auf und werden von externen Magnetfeldern abgestoßen. Dies ist ein grundlegendes Verhalten, das sie von ferromagnetischen und paramagnetischen Materialien unterscheidet.",
+      "difficulty": 3,
+      "subcategory": "Diamagnetismus"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Separation der Variablen & orthogonale Funktionen",
+      "question": "Welche Aussage beschreibt am besten die Separation der Variablen in der Elektrodynamik?",
+      "choices": [
+        "A: Sie führt zu einer Erhöhung der Komplexität der Gleichungen.",
+        "B: Sie ist nur in statischen elektrischen Feldern anwendbar.",
+        "C: Sie ist nicht für periodische Funktionen geeignet.",
+        "D: Sie ermöglicht die Lösung von Differentialgleichungen durch Trennung der Variablen in verschiedene Funktionen."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Separation der Variablen ist eine Methode zur Lösung von Differentialgleichungen, bei der die Variablen in verschiedene Funktionen aufgeteilt werden. Diese Technik erleichtert die Lösung von Problemen in der Elektrodynamik erheblich, da sie eine klare Struktur in die Gleichungen bringt.",
+      "difficulty": 3,
+      "subcategory": "Separation der Variablen & orthogonale Funktionen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Erreichbarer Enddruck",
+      "question": "Was beschreibt den erreichbaren Enddruck in einem geschlossenen System? ",
+      "choices": [
+        "A: Der maximale Druck, der in einem System unter Berücksichtigung der Temperatur und des Volumens erreicht werden kann.",
+        "B: Der Druck, der immer gleich der atmosphärischen Druck ist.",
+        "C: Der Druck, der nach dem ersten Gesetz der Thermodynamik immer konstant bleibt.",
+        "D: Der Druck, der erreicht wird, wenn die Temperatur konstant bleibt."
+      ],
+      "correct_answer": "A",
+      "explanation": "Der erreichbare Enddruck in einem geschlossenen System hängt von den Bedingungen wie Temperatur und Volumen ab. Es beschreibt den maximalen Druck, der aufgrund der physikalischen Eigenschaften des Systems erreicht werden kann.",
+      "difficulty": 5,
+      "subcategory": "Erreichbarer Enddruck"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Fresnelsche Formeln (Reflexionsgrad)",
+      "question": "Was beschreibt der Reflexionsgrad in den Fresnelschen Formeln?",
+      "choices": [
+        "A: Die Wellenlänge des reflektierten Lichts.",
+        "B: Die Polarisation des einfallenden Lichts.",
+        "C: Den Anteil des einfallenden Lichts, der reflektiert wird.",
+        "D: Den Brechungsindex des Materials."
+      ],
+      "correct_answer": "C",
+      "explanation": "Der Reflexionsgrad gibt an, welcher Anteil des einfallenden Lichtes an der Grenzfläche eines Materials reflektiert wird. Die Fresnelschen Formeln ermöglichen die Berechnung dieses Anteils in Abhängigkeit von den Brechungsindizes der beiden Medien und dem Einfallswinkel.",
+      "difficulty": 9,
+      "subcategory": "Fresnelsche Formeln (Reflexionsgrad)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Klassischer Grenzfall & Quantenkorrekturen (Virial)",
+      "question": "Was beschreibt das Virialtheorem in der statistischen Mechanik im klassischen Grenzfall?",
+      "choices": [
+        "A: Die Beziehung zwischen Entropie und Temperatur in einem idealen Gas.",
+        "B: Die Quantenkorrekturen von thermodynamischen Größen.",
+        "C: Den Zusammenhang zwischen der mittleren kinetischen Energie und der potenziellen Energie eines Systems.",
+        "D: Den Einfluss von externen Feldern auf die Teilchenbewegung."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Virialtheorem beschreibt, dass in einem stabilen, geschlossenen System die mittlere kinetische Energie mit der mittleren potenziellen Energie in Beziehung steht. Dies ist besonders relevant für die Analyse der thermodynamischen Eigenschaften von Systemen in der statistischen Mechanik im klassischen Grenzfall.",
+      "difficulty": 5,
+      "subcategory": "Klassischer Grenzfall & Quantenkorrekturen (Virial)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Skalenhypothese (Skalierungsansatz)",
+      "question": "Was beschreibt die Skalenhypothese in der Thermodynamik?",
+      "choices": [
+        "A: Sie beschreibt die Energieerhaltung in einem geschlossenen System.",
+        "B: Sie definiert die Wechselwirkungen zwischen verschiedenen thermodynamischen Systemen.",
+        "C: Sie legt fest, wie makroskopische Eigenschaften aus mikroskopischen Zuständen abgeleitet werden können.",
+        "D: Sie erklärt die Phasenübergänge in der Thermodynamik."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Skalenhypothese ermöglicht es, makroskopische Eigenschaften wie Temperatur und Druck durch das Verhalten von mikroskopischen Teilchen zu verstehen. Diese Herangehensweise ist entscheidend für das Verständnis der Beziehung zwischen Mikro- und Makroebene in der Thermodynamik.",
+      "difficulty": 7,
+      "subcategory": "Skalenhypothese (Skalierungsansatz)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Michelson–Morley-Experiment (Ätherhypothese)",
+      "question": "Was war das Hauptziel des Michelson–Morley-Experiments?",
+      "choices": [
+        "A: Die Theorie der elektromagnetischen Strahlung zu widerlegen.",
+        "B: Den Nachweis der Existenz des Äthers zu erbringen.",
+        "C: Die Auswirkungen der Gravitation auf Lichtstrahlen zu untersuchen.",
+        "D: Die Lichtgeschwindigkeit in verschiedenen Materialien zu messen."
+      ],
+      "correct_answer": "B",
+      "explanation": "Das Michelson–Morley-Experiment wurde durchgeführt, um den hypothetischen Äther nachzuweisen, von dem man annahm, dass er als Medium für die Ausbreitung von Licht dient. Das Experiment zeigte jedoch keine erwarteten Unterschiede in der Lichtgeschwindigkeit, was zur Ablehnung der Ätherhypothese führte.",
+      "difficulty": 7,
+      "subcategory": "Michelson–Morley-Experiment (Ätherhypothese)"
+    }
+  ]
+}

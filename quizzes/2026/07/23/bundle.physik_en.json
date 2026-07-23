@@ -1,0 +1,168 @@
+{
+  "date": "2026-07-23",
+  "generated_at": "2026-07-23T05:49:15Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Kraft & Drehmoment auf Stromverteilungen",
+      "question": "Which of the following statements correctly describes the influence of a magnetic field on a current-carrying conductor?",
+      "choices": [
+        "A: The conductor experiences no force when the current flows parallel to the magnetic field.",
+        "B: The conductor experiences a force in the same direction as the current.",
+        "C: The conductor attracts the magnetic field, regardless of the direction of the current.",
+        "D: The conductor experiences a force perpendicular to both the current and the magnetic field."
+      ],
+      "correct_answer": "D",
+      "explanation": "A current-carrying conductor in a magnetic field experiences a force described by the Lorentz force. This force is always perpendicular to the direction of the current and the magnetic field, leading to a lateral deflection of the conductor.",
+      "difficulty": 5,
+      "subcategory": "Kraft & Drehmoment auf Stromverteilungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Temperaturbegriff (thermisches Gleichgewicht)",
+      "question": "What describes thermal equilibrium between two bodies?",
+      "choices": [
+        "A: The bodies are constantly moving towards each other.",
+        "B: The bodies have the same temperature.",
+        "C: The bodies are made of different materials.",
+        "D: The bodies have different temperatures."
+      ],
+      "correct_answer": "B",
+      "explanation": "Thermal equilibrium occurs when two bodies have the same temperature, and thus no heat flows between them. This is a fundamental concept in thermodynamics.",
+      "difficulty": 2,
+      "subcategory": "Temperaturbegriff (thermisches Gleichgewicht)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Separation der Variablen in HJ",
+      "question": "Which principle is used to separate the variables in the Hamilton-Jacobi equation?",
+      "choices": [
+        "A: The Uncertainty Principle",
+        "B: The Principle of Relative Motion",
+        "C: The Superposition Principle",
+        "D: The Principle of Stationary Action"
+      ],
+      "correct_answer": "D",
+      "explanation": "The separation of variables in the Hamilton-Jacobi equation is based on the principle of stationary action. This principle allows breaking down the equations of motion of a system into more manageable parts, facilitating the analysis of dynamic systems.",
+      "difficulty": 4,
+      "subcategory": "Separation der Variablen in HJ"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Diamagnetismus",
+      "question": "What is a characteristic feature of diamagnetic materials?",
+      "choices": [
+        "A: They are repelled by a magnetic field.",
+        "B: They are attracted to magnets.",
+        "C: They have a high magnetic susceptibility.",
+        "D: They possess permanent magnetization."
+      ],
+      "correct_answer": "A",
+      "explanation": "Diamagnetic materials have a negative magnetic susceptibility and are repelled by external magnetic fields. This is a fundamental behavior that distinguishes them from ferromagnetic and paramagnetic materials.",
+      "difficulty": 3,
+      "subcategory": "Diamagnetismus"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Separation der Variablen & orthogonale Funktionen",
+      "question": "Which statement best describes the separation of variables in electrodynamics?",
+      "choices": [
+        "A: It leads to an increase in the complexity of the equations.",
+        "B: It is only applicable in static electric fields.",
+        "C: It is not suitable for periodic functions.",
+        "D: It allows solving differential equations by separating the variables into different functions."
+      ],
+      "correct_answer": "D",
+      "explanation": "The separation of variables is a method for solving differential equations by splitting the variables into different functions. This technique significantly facilitates problem-solving in electrodynamics by bringing a clear structure to the equations.",
+      "difficulty": 3,
+      "subcategory": "Separation der Variablen & orthogonale Funktionen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Erreichbarer Enddruck",
+      "question": "What describes the achievable final pressure in a closed system?",
+      "choices": [
+        "A: The maximum pressure that can be achieved in a system considering temperature and volume.",
+        "B: The pressure that is always equal to atmospheric pressure.",
+        "C: The pressure that always remains constant according to the first law of thermodynamics.",
+        "D: The pressure reached when the temperature remains constant."
+      ],
+      "correct_answer": "A",
+      "explanation": "The achievable final pressure in a closed system depends on conditions such as temperature and volume. It describes the maximum pressure that can be reached due to the physical properties of the system.",
+      "difficulty": 5,
+      "subcategory": "Erreichbarer Enddruck"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Fresnelsche Formeln (Reflexionsgrad)",
+      "question": "What does the reflectance in the Fresnel equations describe?",
+      "choices": [
+        "A: The wavelength of the reflected light.",
+        "B: The polarization of the incident light.",
+        "C: The proportion of the incident light that is reflected.",
+        "D: The refractive index of the material."
+      ],
+      "correct_answer": "C",
+      "explanation": "The reflectance indicates the proportion of the incident light reflected at the interface of a material. The Fresnel equations allow calculating this proportion depending on the refractive indices of the two media and the angle of incidence.",
+      "difficulty": 9,
+      "subcategory": "Fresnelsche Formeln (Reflexionsgrad)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Klassischer Grenzfall & Quantenkorrekturen (Virial)",
+      "question": "What does the virial theorem describe in statistical mechanics in the classical limit?",
+      "choices": [
+        "A: The relationship between entropy and temperature in an ideal gas.",
+        "B: The quantum corrections of thermodynamic quantities.",
+        "C: The connection between the average kinetic energy and the potential energy of a system.",
+        "D: The influence of external fields on particle motion."
+      ],
+      "correct_answer": "C",
+      "explanation": "The virial theorem states that in a stable, closed system, the average kinetic energy is related to the average potential energy. This is particularly relevant for analyzing the thermodynamic properties of systems in statistical mechanics in the classical limit.",
+      "difficulty": 5,
+      "subcategory": "Klassischer Grenzfall & Quantenkorrekturen (Virial)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Skalenhypothese (Skalierungsansatz)",
+      "question": "What does the scaling hypothesis describe in thermodynamics?",
+      "choices": [
+        "A: It describes energy conservation in a closed system.",
+        "B: It defines the interactions between different thermodynamic systems.",
+        "C: It specifies how macroscopic properties can be derived from microscopic states.",
+        "D: It explains phase transitions in thermodynamics."
+      ],
+      "correct_answer": "C",
+      "explanation": "The scaling hypothesis allows understanding macroscopic properties such as temperature and pressure through the behavior of microscopic particles. This approach is crucial for understanding the relationship between the micro and macro levels in thermodynamics.",
+      "difficulty": 7,
+      "subcategory": "Skalenhypothese (Skalierungsansatz)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Michelson–Morley-Experiment (Ätherhypothese)",
+      "question": "What was the main goal of the Michelson-Morley experiment?",
+      "choices": [
+        "A: To refute the theory of electromagnetic radiation.",
+        "B: To provide evidence of the existence of the ether.",
+        "C: To examine the effects of gravity on light rays.",
+        "D: To measure the speed of light in different materials."
+      ],
+      "correct_answer": "B",
+      "explanation": "The Michelson-Morley experiment was conducted to detect the hypothetical ether, assumed to serve as a medium for the propagation of light. However, the experiment showed no expected differences in the speed of light, leading to the rejection of the ether hypothesis.",
+      "difficulty": 7,
+      "subcategory": "Michelson–Morley-Experiment (Ätherhypothese)"
+    }
+  ]
+}
