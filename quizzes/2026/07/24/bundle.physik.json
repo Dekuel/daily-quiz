@@ -1,0 +1,169 @@
+{
+  "date": "2026-07-24",
+  "generated_at": "2026-07-24T05:44:34Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Wechselströme & Schwingkreise",
+      "question": "Was beschreibt die Frequenz eines Wechselstroms?",
+      "choices": [
+        "A: Die Spannung des Stroms",
+        "B: Die Anzahl der Perioden pro Sekunde",
+        "C: Die Stärke des Stroms",
+        "D: Die Länge des Stromkreises"
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Frequenz eines Wechselstroms gibt an, wie viele vollständige Perioden der Strom in einer Sekunde durchläuft. Sie wird in Hertz (Hz) gemessen und ist ein wichtiges Merkmal für die Beschreibung von Wechselstromquellen.",
+      "difficulty": 3,
+      "subcategory": "Wechselströme & Schwingkreise"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Relativität der Gleichzeitigkeit",
+      "question": "Was beschreibt das Konzept der Relativität der Gleichzeitigkeit in der Relativitätstheorie?",
+      "choices": [
+        "A: Zeit vergeht für alle Beobachter gleich schnell.",
+        "B: Lichtgeschwindigkeit ist unabhängig von der Bewegung des Lichtquellen.",
+        "C: Gleichzeitigkeit hängt vom Bewegungszustand des Beobachters ab.",
+        "D: Ereignisse, die gleichzeitig stattfinden, sind in allen Bezugssystemen gleich."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Konzept der Relativität der Gleichzeitigkeit besagt, dass zwei Ereignisse, die in einem Bezugssystem gleichzeitig auftreten, in einem anderen Bezugssystem nicht notwendigerweise gleichzeitig erscheinen. Dies ist ein zentrales Element der Einstein'schen Relativitätstheorie und zeigt, dass Zeit relativ ist und von der Geschwindigkeit des Beobachters abhängt.",
+      "difficulty": 6,
+      "subcategory": "Relativität der Gleichzeitigkeit"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Maxwell-Konstruktion (Van-der-Waals-Isothermen)",
+      "question": "Welche Aussage beschreibt die Maxwell-Konstruktion in Bezug auf Van-der-Waals-Isothermen?",
+      "choices": [
+        "A: Sie analysiert die Lichtbrechung in verschiedenen Materialien.",
+        "B: Sie beschreibt die absolute Temperatur eines idealen Gases.",
+        "C: Sie legt den Bereich der Stabilität und Instabilität in einer Phasendiagramm fest.",
+        "D: Sie erklärt die Bewegung von Teilchen in einem Vakuum."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Maxwell-Konstruktion ist ein Verfahren zur Bestimmung der Phasenkoexistenz in einem Phasendiagramm, insbesondere bei Van-der-Waals-Gasen. Sie zeigt, wo sich stabile und instabile Punkte befinden und hilft, das Verhalten von Phasenübergängen zu verstehen.",
+      "difficulty": 4,
+      "subcategory": "Maxwell-Konstruktion (Van-der-Waals-Isothermen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Reibungsvakuummeter",
+      "question": "Was misst ein Reibungsvakuummeter?",
+      "choices": [
+        "A: Den Druck in einem Vakuum.",
+        "B: Die Temperatur von Gasen.",
+        "C: Die Geschwindigkeit von Luftströmungen.",
+        "D: Die Dichte von Flüssigkeiten."
+      ],
+      "correct_answer": "A",
+      "explanation": "Ein Reibungsvakuummeter wird verwendet, um den Druck in einem Vakuum zu messen. Es basiert auf der Reibungskräften zwischen einem beweglichen Element und der umgebenden Luft, die bei unterschiedlichen Drücken variieren.",
+      "difficulty": 4,
+      "subcategory": "Reibungsvakuummeter"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Einheiten (natürliche Einheiten)",
+      "question": "Was ist die natürliche Einheit für die Energie in der Teilchenphysik?",
+      "choices": [
+        "A: Joule (J)",
+        "B: Newton (N)",
+        "C: Elektronvolt (eV)",
+        "D: Watt (W)"
+      ],
+      "correct_answer": "C",
+      "explanation": "In der Teilchenphysik wird die Energie häufig in Elektronvolt (eV) gemessen, da diese Einheit besonders praktisch ist, um die Energie von Teilchen und deren Wechselwirkungen zu beschreiben. Joule ist eine allgemeinere Einheit, die jedoch in diesem spezifischen Kontext weniger gebräuchlich ist.",
+      "difficulty": 2,
+      "subcategory": "Einheiten (natürliche Einheiten)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Elektrostatische Feldenergie",
+      "question": "Wie berechnet man die elektrostatische Feldenergie U eines Punktladungsystems?",
+      "choices": [
+        "A: U = 1/2 * C * V^2",
+        "B: U = k * (q1 * q2) / r",
+        "C: U = m * g * h",
+        "D: U = 1/2 * q * V"
+      ],
+      "correct_answer": "B",
+      "explanation": "Die elektrostatische Feldenergie U zwischen zwei Punktladungen wird durch die Formel U = k * (q1 * q2) / r beschrieben, wobei k die Coulomb-Konstante, q1 und q2 die Ladungen und r der Abstand zwischen ihnen ist. Diese Formel zeigt, wie die Energie in einem elektrischen Feld zwischen zwei Ladungen gespeichert ist.",
+      "difficulty": 4,
+      "subcategory": "Elektrostatische Feldenergie"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Energie–Zeit–Unschärfe",
+      "question": "Welche Aussage beschreibt am besten die Energie-Zeit-Unschärferelation in der Quantenmechanik?",
+      "choices": [
+        "A: Die Unschärfe in der Energie eines Systems ist umgekehrt proportional zur Unschärfe in der Zeit, in der diese Energie gemessen wird.",
+        "B: Die Energie eines Systems bleibt immer konstant, unabhängig von der Zeit.",
+        "C: Die Zeit ist im quantenmechanischen Sinne immer exakt messbar, während die Energie unbestimmt bleibt.",
+        "D: Die Unschärfe in der Position eines Teilchens hat keinen Einfluss auf die Energie-Zeit-Unschärferelation."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Energie-Zeit-Unschärferelation besagt, dass eine genaue Messung der Energie eines quantenmechanischen Systems die Bestimmung des Zeitintervalls, in dem diese Energie existiert, unbestimmt macht. Dies reflektiert die grundlegenden Prinzipien der Quantenmechanik, die auf der Unschärfe basieren.",
+      "difficulty": 10,
+      "subcategory": "Energie–Zeit–Unschärfe"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Semiklassische Atommodelle (Rutherford→Bohr)",
+      "question": "Welches Atommodell wurde von Niels Bohr entwickelt?",
+      "choices": [
+        "A: Bohr-Modell",
+        "B: Dalton-Modell",
+        "C: Thomson-Modell",
+        "D: Rutherford-Modell"
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Bohr-Modell beschreibt die Elektronenbahnen in Atomen als feste, diskrete Umlaufbahnen um den Atomkern. Es wurde von Niels Bohr im Jahr 1913 eingeführt und stellt eine wichtige Weiterentwicklung des Rutherford-Modells dar.",
+      "difficulty": 2,
+      "subcategory": "Semiklassische Atommodelle (Rutherford→Bohr)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Legendre-Transformation",
+      "question": "Was beschreibt die Legendre-Transformation in der statistischen Mechanik?",
+      "choices": [
+        "A: Den Übergang von einer Energie- zu einer Temperaturdarstellung von thermodynamischen Potenzialen.",
+        "B: Die Analyse von elektrischen Feldern in einem Leiter.",
+        "C: Die Berechnung der Geschwindigkeit eines Teilchens.",
+        "D: Die Bestimmung der Frequenz eines harmonischen Oszillators."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Legendre-Transformation ist ein mathematisches Werkzeug, das in der statistischen Mechanik verwendet wird, um zwischen verschiedenen thermodynamischen Potentialen zu wechseln. Sie ermöglicht es, von der Energie- zur Temperaturdarstellung zu gelangen, was für die Analyse thermodynamischer Systeme entscheidend ist.",
+      "difficulty": 5,
+      "subcategory": "Legendre-Transformation"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Äquivalente Formen der erzeugenden Funktion",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt die erzeugende Funktion in der analytischen Mechanik?",
+      "choices": [
+        "A: Sie ist eine Methode zur Berechnung der Energie eines Systems unter Berücksichtigung der Zeit.",
+        "B: Sie beschreibt die Beziehung zwischen Kräften und Beschleunigungen in einem System.",
+        "C: Sie stellt eine Beziehung zwischen den allgemeinen Koordinaten und den Geschwindigkeiten dar.",
+        "D: Sie ist eine Funktion, die die Wechselwirkungen zwischen Teilchen in einem System beschreibt."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die erzeugende Funktion verbindet die allgemeinen Koordinaten eines Systems mit den Geschwindigkeiten, was in der analytischen Mechanik wichtig ist, um die Dynamik zu analysieren. Sie ist ein zentrales Konzept für die Herleitung der Lagrange-Gleichungen.",
+      "difficulty": 5,
+      "subcategory": "Äquivalente Formen der erzeugenden Funktion"
+    }
+  ]
+}

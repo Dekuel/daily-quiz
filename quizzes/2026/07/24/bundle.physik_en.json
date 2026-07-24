@@ -1,0 +1,168 @@
+{
+  "date": "2026-07-24",
+  "generated_at": "2026-07-24T05:45:06Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Wechselströme & Schwingkreise",
+      "question": "What does the frequency of an alternating current describe?",
+      "choices": [
+        "A: The voltage of the current",
+        "B: The number of cycles per second",
+        "C: The strength of the current",
+        "D: The length of the circuit"
+      ],
+      "correct_answer": "B",
+      "explanation": "The frequency of an alternating current indicates how many complete cycles the current goes through in one second. It is measured in Hertz (Hz) and is an important characteristic for describing alternating current sources.",
+      "difficulty": 3,
+      "subcategory": "Wechselströme & Schwingkreise"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Relativität der Gleichzeitigkeit",
+      "question": "What does the concept of the relativity of simultaneity describe in the theory of relativity?",
+      "choices": [
+        "A: Time passes at the same rate for all observers.",
+        "B: The speed of light is independent of the motion of the light source.",
+        "C: Simultaneity depends on the observer's state of motion.",
+        "D: Events that occur simultaneously are the same in all reference frames."
+      ],
+      "correct_answer": "C",
+      "explanation": "The concept of the relativity of simultaneity states that two events that occur simultaneously in one reference frame may not necessarily appear simultaneous in another reference frame. This is a central element of Einstein's theory of relativity and shows that time is relative and depends on the observer's velocity.",
+      "difficulty": 6,
+      "subcategory": "Relativität der Gleichzeitigkeit"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Maxwell-Konstruktion (Van-der-Waals-Isothermen)",
+      "question": "Which statement best describes the Maxwell construction in relation to Van der Waals isotherms?",
+      "choices": [
+        "A: It analyzes light refraction in different materials.",
+        "B: It describes the absolute temperature of an ideal gas.",
+        "C: It defines the range of stability and instability in a phase diagram.",
+        "D: It explains the motion of particles in a vacuum."
+      ],
+      "correct_answer": "C",
+      "explanation": "The Maxwell construction is a method for determining phase coexistence in a phase diagram, especially in Van der Waals gases. It shows where stable and unstable points are located and helps understand the behavior of phase transitions.",
+      "difficulty": 4,
+      "subcategory": "Maxwell-Konstruktion (Van-der-Waals-Isothermen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Reibungsvakuummeter",
+      "question": "What does a friction vacuum gauge measure?",
+      "choices": [
+        "A: The pressure in a vacuum.",
+        "B: The temperature of gases.",
+        "C: The speed of air currents.",
+        "D: The density of liquids."
+      ],
+      "correct_answer": "A",
+      "explanation": "A friction vacuum gauge is used to measure the pressure in a vacuum. It is based on the friction forces between a movable element and the surrounding air, which vary at different pressures.",
+      "difficulty": 4,
+      "subcategory": "Reibungsvakuummeter"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Einheiten (natürliche Einheiten)",
+      "question": "What is the natural unit for energy in particle physics?",
+      "choices": [
+        "A: Joule (J)",
+        "B: Newton (N)",
+        "C: Electronvolt (eV)",
+        "D: Watt (W)"
+      ],
+      "correct_answer": "C",
+      "explanation": "In particle physics, energy is often measured in electronvolts (eV) as this unit is particularly convenient for describing the energy of particles and their interactions. Joule is a more general unit but less commonly used in this specific context.",
+      "difficulty": 2,
+      "subcategory": "Einheiten (natürliche Einheiten)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Elektrostatische Feldenergie",
+      "question": "How is the electrostatic field energy U of a point charge system calculated?",
+      "choices": [
+        "A: U = 1/2 * C * V^2",
+        "B: U = k * (q1 * q2) / r",
+        "C: U = m * g * h",
+        "D: U = 1/2 * q * V"
+      ],
+      "correct_answer": "B",
+      "explanation": "The electrostatic field energy U between two point charges is described by the formula U = k * (q1 * q2) / r, where k is the Coulomb constant, q1 and q2 are the charges, and r is the distance between them. This formula shows how energy is stored in an electric field between two charges.",
+      "difficulty": 4,
+      "subcategory": "Elektrostatische Feldenergie"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Energie–Zeit–Unschärfe",
+      "question": "Which statement best describes the energy-time uncertainty principle in quantum mechanics?",
+      "choices": [
+        "A: The uncertainty in the energy of a system is inversely proportional to the uncertainty in the time in which this energy is measured.",
+        "B: The energy of a system always remains constant, regardless of time.",
+        "C: Time is always precisely measurable in quantum mechanical terms, while energy remains uncertain.",
+        "D: The uncertainty in the position of a particle has no effect on the energy-time uncertainty principle."
+      ],
+      "correct_answer": "A",
+      "explanation": "The energy-time uncertainty principle states that a precise measurement of the energy of a quantum mechanical system makes the determination of the time interval in which this energy exists uncertain. This reflects the fundamental principles of quantum mechanics based on uncertainty.",
+      "difficulty": 10,
+      "subcategory": "Energie–Zeit–Unschärfe"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Semiklassische Atommodelle (Rutherford→Bohr)",
+      "question": "Which atomic model was developed by Niels Bohr?",
+      "choices": [
+        "A: Bohr model",
+        "B: Dalton model",
+        "C: Thomson model",
+        "D: Rutherford model"
+      ],
+      "correct_answer": "A",
+      "explanation": "The Bohr model describes the electron orbits in atoms as fixed, discrete paths around the atomic nucleus. It was introduced by Niels Bohr in 1913 and represents an important advancement of the Rutherford model.",
+      "difficulty": 2,
+      "subcategory": "Semiklassische Atommodelle (Rutherford→Bohr)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Legendre-Transformation",
+      "question": "What does the Legendre transformation describe in statistical mechanics?",
+      "choices": [
+        "A: The transition from an energy to a temperature representation of thermodynamic potentials.",
+        "B: The analysis of electric fields in a conductor.",
+        "C: The calculation of a particle's velocity.",
+        "D: The determination of the frequency of a harmonic oscillator."
+      ],
+      "correct_answer": "A",
+      "explanation": "The Legendre transformation is a mathematical tool used in statistical mechanics to switch between different thermodynamic potentials. It allows transitioning from energy to temperature representation, which is crucial for analyzing thermodynamic systems.",
+      "difficulty": 5,
+      "subcategory": "Legendre-Transformation"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Äquivalente Formen der erzeugenden Funktion",
+      "question": "Which of the following statements correctly describes the generating function in analytical mechanics?",
+      "choices": [
+        "A: It is a method for calculating the energy of a system considering time.",
+        "B: It describes the relationship between forces and accelerations in a system.",
+        "C: It represents a relationship between the general coordinates and velocities.",
+        "D: It is a function that describes the interactions between particles in a system."
+      ],
+      "correct_answer": "C",
+      "explanation": "The generating function connects the general coordinates of a system with the velocities, which is important in analytical mechanics for analyzing dynamics. It is a central concept for deriving the Lagrange equations.",
+      "difficulty": 5,
+      "subcategory": "Äquivalente Formen der erzeugenden Funktion"
+    }
+  ]
+}
