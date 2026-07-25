@@ -1,0 +1,168 @@
+{
+  "date": "2026-07-25",
+  "generated_at": "2026-07-25T05:38:55Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Grundbausteine der Materie",
+      "question": "Which particle is a fundamental building block of matter?",
+      "choices": [
+        "A: Hydrogen",
+        "B: Gold",
+        "C: Cement",
+        "D: Electron"
+      ],
+      "correct_answer": "D",
+      "explanation": "An electron is a fundamental particle and belongs to the elementary particles that determine the material structure of the universe. Hydrogen, cement, and gold, on the other hand, are chemical compounds or elements consisting of multiple atoms and do not represent fundamental building blocks.",
+      "difficulty": 3,
+      "subcategory": "Grundbausteine der Materie"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Feldenergie & Feldimpuls",
+      "question": "Which statement about electric field energy is correct?",
+      "choices": [
+        "A: Electric field energy can never be positive.",
+        "B: Electric field energy is always negative.",
+        "C: Electric field energy is proportional to the square of the field strength.",
+        "D: Electric field energy does not depend on the geometry of the field."
+      ],
+      "correct_answer": "C",
+      "explanation": "Electric field energy is actually proportional to the square of the electric field strength. This relationship shows that the energy in the electric field increases with increasing field strength. Furthermore, field energy can take on both positive and negative values, depending on the arrangement of charges and the reference system.",
+      "difficulty": 5,
+      "subcategory": "Feldenergie & Feldimpuls"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Totalreflexion und evaneszente Wellen",
+      "question": "What happens when light passes from a denser to a rarer medium and the angle of incidence is greater than the critical angle?",
+      "choices": [
+        "A: Light is refracted and enters the rarer medium.",
+        "B: Light is totally reflected.",
+        "C: Light is completely absorbed.",
+        "D: Light is scattered in all directions."
+      ],
+      "correct_answer": "B",
+      "explanation": "When light hits the boundary between two media and the angle of incidence is greater than the critical angle, total internal reflection occurs. In this case, the light is completely reflected in the denser medium instead of passing into the rarer medium.",
+      "difficulty": 3,
+      "subcategory": "Totalreflexion und evaneszente Wellen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Universalität & Skalenhypothese (statisch)",
+      "question": "Which statement best describes the scale hypothesis in statistical mechanics?",
+      "choices": [
+        "A: The universal properties of systems are only relevant at extreme temperatures.",
+        "B: The properties of a system are independent of the number of particles as long as the density remains constant.",
+        "C: In a system with a small number of particles, the behavior of the particles is always predictable.",
+        "D: The macroscopic properties of a system depend solely on the temperature."
+      ],
+      "correct_answer": "B",
+      "explanation": "The scale hypothesis states that the properties of a system become universal at large particle numbers and independent of density. This allows understanding the behavior of complex systems by reducing them to their basic statistical properties.",
+      "difficulty": 7,
+      "subcategory": "Universalität & Skalenhypothese (statisch)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Beugung an der kreisförmigen Öffnung",
+      "question": "Which of the following statements best describes the diffraction behavior of light at a circular aperture?",
+      "choices": [
+        "A: Light passes as a single, undisturbed beam through the aperture.",
+        "B: Light is diffracted in a diffuse pattern with multiple rings and dark areas.",
+        "C: Light is completely reflected and does not pass through the aperture.",
+        "D: Light is diffracted in a clear ring pattern with uniform spacing."
+      ],
+      "correct_answer": "B",
+      "explanation": "Diffraction at a circular aperture produces a characteristic pattern consisting of a central bright maximum followed by several rings and dark areas. This behavior is a direct result of the wave nature of light and is caused by the interference of waves passing through the aperture.",
+      "difficulty": 7,
+      "subcategory": "Beugung an der kreisförmigen Öffnung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Feynman‑Diagramme (Streuprozesse)",
+      "question": "What does a Feynman diagram represent in particle physics?",
+      "choices": [
+        "A: The basics of classical mechanics.",
+        "B: Interactions between subatomic particles.",
+        "C: The structure of atoms.",
+        "D: The movements of planets in the solar system."
+      ],
+      "correct_answer": "B",
+      "explanation": "A Feynman diagram is a graphical representation of interactions between particles in quantum field theory. It is used to visualize scattering processes and interactions of subatomic particles.",
+      "difficulty": 4,
+      "subcategory": "Feynman‑Diagramme (Streuprozesse)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Dichtematrix (statistischer Operator)",
+      "question": "What does the density matrix describe in quantum mechanics?",
+      "choices": [
+        "A: The state of a quantum mechanical system.",
+        "B: The velocity of a particle.",
+        "C: The energy of a system in classical mechanics.",
+        "D: The color of a light beam."
+      ],
+      "correct_answer": "A",
+      "explanation": "The density matrix is a mathematical object that describes the state of a quantum mechanical system, especially in statistical considerations. It allows calculating the probabilities for different states and is central to quantum statistics.",
+      "difficulty": 3,
+      "subcategory": "Dichtematrix (statistischer Operator)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Streuung langsamer Teilchen am Potentialtopf",
+      "question": "What describes the transmission of a particle encountering a potential well?",
+      "choices": [
+        "A: The mass of the particle determining the scattering effect.",
+        "B: The probability of the particle penetrating the potential well.",
+        "C: The velocity of the particle when encountering the potential well.",
+        "D: The energy of the particle before encountering the potential well."
+      ],
+      "correct_answer": "B",
+      "explanation": "Transmission describes the probability of a particle overcoming the potential well and appearing on the other side. This probability depends on the energy of the particle and the height of the potential well.",
+      "difficulty": 4,
+      "subcategory": "Streuung langsamer Teilchen am Potentialtopf"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Bewegungsgleichung & effektive Masse",
+      "question": "Which statement about effective mass in solids is correct?",
+      "choices": [
+        "A: Effective mass is independent of the material's band structure.",
+        "B: Effective mass is relevant only for semiconductors.",
+        "C: Effective mass is always equal to the rest mass of the particles.",
+        "D: Effective mass can be negative, affecting the motion of electrons."
+      ],
+      "correct_answer": "D",
+      "explanation": "Effective mass describes how an electron behaves in a crystal field and can become negative in certain materials. This is important for understanding electron motion in semiconductors and their behavior in electric fields.",
+      "difficulty": 8,
+      "subcategory": "Bewegungsgleichung & effektive Masse"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Orts- und Impulsdarstellung (Verknüpfung)",
+      "question": "Which of the following statements best describes the Heisenberg Uncertainty Principle?",
+      "choices": [
+        "A: It is impossible to determine both the exact position and exact momentum of a particle simultaneously.",
+        "B: The position of a particle can always be precisely determined.",
+        "C: The momentum of a particle is independent of its position.",
+        "D: A particle always has a defined path in space."
+      ],
+      "correct_answer": "A",
+      "explanation": "The Heisenberg Uncertainty Principle states that there is a fundamental limit to the simultaneous measurement of a particle's position and momentum. The more precisely the position is measured, the less precisely the momentum is known, and vice versa.",
+      "difficulty": 2,
+      "subcategory": "Orts- und Impulsdarstellung (Verknüpfung)"
+    }
+  ]
+}

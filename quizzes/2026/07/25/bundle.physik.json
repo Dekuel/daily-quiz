@@ -1,0 +1,169 @@
+{
+  "date": "2026-07-25",
+  "generated_at": "2026-07-25T05:38:20Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Grundbausteine der Materie",
+      "question": "Welches Teilchen ist ein Grundbaustein der Materie?",
+      "choices": [
+        "A: Wasserstoff",
+        "B: Gold",
+        "C: Zement",
+        "D: Elektron"
+      ],
+      "correct_answer": "D",
+      "explanation": "Ein Elektron ist ein fundamentales Teilchen und gehört zu den Elementarteilchen, die die materielle Struktur des Universums bestimmen. Wasserstoff, Zement und Gold sind hingegen chemische Verbindungen oder Elemente, die aus mehreren Atomen bestehen und keine grundlegenden Bausteine darstellen.",
+      "difficulty": 3,
+      "subcategory": "Grundbausteine der Materie"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Feldenergie & Feldimpuls",
+      "question": "Welche Aussage über die elektrische Feldenergie ist korrekt?",
+      "choices": [
+        "A: Die elektrische Feldenergie kann nie positiv sein.",
+        "B: Die elektrische Feldenergie ist immer negativ.",
+        "C: Die elektrische Feldenergie ist proportional zum Quadrat der Feldstärke.",
+        "D: Die elektrische Feldenergie hängt nicht von der Geometrie des Feldes ab."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die elektrische Feldenergie ist tatsächlich proportional zum Quadrat der elektrischen Feldstärke. Diese Beziehung zeigt, dass die Energie im elektrischen Feld mit zunehmender Stärke des Feldes zunimmt. Zudem kann die Feldenergie sowohl positive als auch negative Werte annehmen, abhängig von der Anordnung der Ladungen und dem Bezugssystem.",
+      "difficulty": 5,
+      "subcategory": "Feldenergie & Feldimpuls"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Totalreflexion und evaneszente Wellen",
+      "question": "Was passiert, wenn Licht von einem dichteren in ein dünneres Medium trifft und der Einfallswinkel größer als der Grenzwinkel ist?",
+      "choices": [
+        "A: Das Licht wird gebrochen und geht in das dünnere Medium über.",
+        "B: Das Licht wird total reflektiert.",
+        "C: Das Licht wird vollständig absorbiert.",
+        "D: Das Licht wird in alle Richtungen gestreut."
+      ],
+      "correct_answer": "B",
+      "explanation": "Wenn Licht auf die Grenze zwischen zwei Medien trifft und der Einfallswinkel größer als der Grenzwinkel ist, tritt Totalreflexion auf. Dabei wird das Licht vollständig im dichteren Medium reflektiert, anstatt in das dünnere Medium überzugehen.",
+      "difficulty": 3,
+      "subcategory": "Totalreflexion und evaneszente Wellen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Universalität & Skalenhypothese (statisch)",
+      "question": "Welche Aussage beschreibt am besten die Skalenhypothese in der statistischen Mechanik?",
+      "choices": [
+        "A: Die universellen Eigenschaften von Systemen sind nur bei extremen Temperaturen relevant.",
+        "B: Die Eigenschaften eines Systems sind unabhängig von der Anzahl der Teilchen, solange die Dichte konstant bleibt.",
+        "C: In einem System mit geringer Teilchenzahl ist das Verhalten der Teilchen immer vorhersagbar.",
+        "D: Die makroskopischen Eigenschaften eines Systems hängen ausschließlich von der Temperatur ab."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Skalenhypothese besagt, dass die Eigenschaften eines Systems bei großen Teilchenzahlen universell sind und von der Dichte unabhängig werden. Dies ermöglicht es, das Verhalten komplexer Systeme zu verstehen, indem man sie auf ihre grundlegenden statistischen Eigenschaften reduziert.",
+      "difficulty": 7,
+      "subcategory": "Universalität & Skalenhypothese (statisch)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Beugung an der kreisförmigen Öffnung",
+      "question": "Welche der folgenden Aussagen beschreibt am besten das Beugungsverhalten von Licht an einer kreisförmigen Öffnung?",
+      "choices": [
+        "A: Licht tritt als ein einzelner, ungestörter Strahl durch die Öffnung.",
+        "B: Licht wird in einem diffusen Muster mit mehreren Ringen und dunklen Bereichen gebeugt.",
+        "C: Licht wird vollständig reflektiert und tritt nicht durch die Öffnung.",
+        "D: Licht wird in einem klaren Ringmuster mit gleichmäßigen Abständen gebeugt."
+      ],
+      "correct_answer": "B",
+      "explanation": "Bei der Beugung an einer kreisförmigen Öffnung entsteht ein charakteristisches Muster, das aus einem zentralen hellen Maximum besteht, gefolgt von mehreren Ringen und dunklen Bereichen. Dieses Verhalten ist ein direktes Ergebnis der Wellennatur des Lichts und wird durch die Interferenz der Wellen verursacht, die durch die Öffnung hindurchtreten.",
+      "difficulty": 7,
+      "subcategory": "Beugung an der kreisförmigen Öffnung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Feynman‑Diagramme (Streuprozesse)",
+      "question": "Was stellt ein Feynman-Diagramm in der Teilchenphysik dar?",
+      "choices": [
+        "A: Die Grundlagen der klassischen Mechanik.",
+        "B: Die Wechselwirkungen zwischen subatomaren Teilchen.",
+        "C: Die Struktur von Atomen.",
+        "D: Die Bewegungen von Planeten im Sonnensystem."
+      ],
+      "correct_answer": "B",
+      "explanation": "Ein Feynman-Diagramm ist eine grafische Darstellung von Wechselwirkungen zwischen Teilchen in der Quantenfeldtheorie. Es wird verwendet, um Streuprozesse und die Wechselwirkungen von subatomaren Teilchen zu visualisieren.",
+      "difficulty": 4,
+      "subcategory": "Feynman‑Diagramme (Streuprozesse)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Dichtematrix (statistischer Operator)",
+      "question": "Was beschreibt die Dichtematrix in der Quantenmechanik?",
+      "choices": [
+        "A: Den Zustand eines quantenmechanischen Systems.",
+        "B: Die Geschwindigkeit eines Teilchens.",
+        "C: Die Energie eines Systems in klassischer Mechanik.",
+        "D: Die Farbe eines Lichtstrahls."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Dichtematrix ist ein mathematisches Objekt, das den Zustand eines quantenmechanischen Systems beschreibt, insbesondere in statistischen Betrachtungen. Sie ermöglicht es, die Wahrscheinlichkeiten für verschiedene Zustände zu berechnen und ist zentral für die Quantenstatistik.",
+      "difficulty": 3,
+      "subcategory": "Dichtematrix (statistischer Operator)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Streuung langsamer Teilchen am Potentialtopf",
+      "question": "Was beschreibt die Transmission eines Teilchens, das auf einen Potentialtopf trifft?",
+      "choices": [
+        "A: Die Masse des Teilchens, die den Effekt der Streuung bestimmt.",
+        "B: Die Wahrscheinlichkeit, dass das Teilchen den Potentialtopf durchdringt.",
+        "C: Die Geschwindigkeit des Teilchens beim Aufeinandertreffen mit dem Potentialtopf.",
+        "D: Die Energie des Teilchens vor dem Aufeinandertreffen mit dem Potentialtopf."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Transmission beschreibt die Wahrscheinlichkeit, dass ein Teilchen den Potentialtopf überwindet und auf der anderen Seite erscheint. Diese Wahrscheinlichkeit hängt von der Energie des Teilchens und der Höhe des Potentialtopfs ab.",
+      "difficulty": 4,
+      "subcategory": "Streuung langsamer Teilchen am Potentialtopf"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Bewegungsgleichung & effektive Masse",
+      "question": "Welche Aussage zur effektiven Masse in Festkörpern ist korrekt?",
+      "choices": [
+        "A: Die effektive Masse ist unabhängig von der Bandstruktur des Materials.",
+        "B: Die effektive Masse ist ausschließlich für Halbleiter relevant.",
+        "C: Die effektive Masse ist immer gleich der Ruhemasse der Teilchen.",
+        "D: Die effektive Masse kann negativ sein, was Auswirkungen auf die Bewegung von Elektronen hat."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die effektive Masse beschreibt, wie sich ein Elektron in einem Kristallfeld verhält und kann in bestimmten Materialien negativ werden. Dies ist wichtig für das Verständnis von Elektronenbewegung in Halbleitern und deren Eigenschaften in elektrischen Feldern.",
+      "difficulty": 8,
+      "subcategory": "Bewegungsgleichung & effektive Masse"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Orts- und Impulsdarstellung (Verknüpfung)",
+      "question": "Welche der folgenden Aussagen beschreibt die Heisenbergsche Unschärferelation?",
+      "choices": [
+        "A: Es ist unmöglich, sowohl den genauen Ort als auch den genauen Impuls eines Teilchens gleichzeitig zu bestimmen.",
+        "B: Der Ort eines Teilchens kann immer genau bestimmt werden.",
+        "C: Der Impuls eines Teilchens ist unabhängig von seiner Position.",
+        "D: Ein Teilchen hat immer eine definierte Bahn im Raum."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Heisenbergsche Unschärferelation besagt, dass es eine fundamentale Grenze für die gleichzeitige Messung von Ort und Impuls eines Teilchens gibt. Je genauer der Ort gemessen wird, desto ungenauer wird der Impuls und umgekehrt.",
+      "difficulty": 2,
+      "subcategory": "Orts- und Impulsdarstellung (Verknüpfung)"
+    }
+  ]
+}
