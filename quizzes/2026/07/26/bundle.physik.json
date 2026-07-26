@@ -1,0 +1,169 @@
+{
+  "date": "2026-07-26",
+  "generated_at": "2026-07-26T05:54:37Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Idealer Paramagnet (Brillouin/Langevin-Idee)",
+      "question": "Was beschreibt das Verhalten eines idealen Paramagneten im externen Magnetfeld?",
+      "choices": [
+        "A: Die Magnetisierung ist unabhängig vom externen Magnetfeld.",
+        "B: Die Magnetisierung ist proportional zur Temperatur.",
+        "C: Die Magnetisierung steigt mit der Temperatur und erreicht ein Maximum.",
+        "D: Die Magnetisierung bleibt konstant unabhängig von der Temperatur."
+      ],
+      "correct_answer": "B",
+      "explanation": "Ein idealer Paramagnet zeigt bei Erhöhung der Temperatur eine proportionale Beziehung zwischen Magnetisierung und Temperatur, da sich die Spins der Atome bei höherer Temperatur zufälliger orientieren. Im externen Magnetfeld nehmen die magnetischen Momente eine bevorzugte Ausrichtung an, was die Magnetisierung erhöht.",
+      "difficulty": 2,
+      "subcategory": "Idealer Paramagnet (Brillouin/Langevin-Idee)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Green’sche Sätze",
+      "question": "Welcher der folgenden Sätze beschreibt die Beziehung zwischen einem Vektorfeld und dem Fluss seiner Rotation durch eine geschlossene Fläche?",
+      "choices": [
+        "A: Der Divergenzsatz.",
+        "B: Der zweite Greensche Satz.",
+        "C: Der erste Greensche Satz.",
+        "D: Der Satz von Stokes."
+      ],
+      "correct_answer": "B",
+      "explanation": "Der zweite Greensche Satz, auch als Satz von Green bekannt, stellt die Beziehung zwischen dem Fluss eines Vektorfeldes durch eine geschlossene Fläche und der Rotation des Feldes im Inneren dieser Fläche dar. Dies ist ein zentrales Konzept in der Elektrodynamik zur Analyse elektrischer und magnetischer Felder.",
+      "difficulty": 8,
+      "subcategory": "Green’sche Sätze"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Oberflächenspannung",
+      "question": "Was beschreibt das Phänomen der Oberflächenspannung bei Flüssigkeiten?",
+      "choices": [
+        "A: Die Geschwindigkeit, mit der Flüssigkeiten verdampfen.",
+        "B: Die Temperaturabhängigkeit von Flüssigkeitsdichten.",
+        "C: Die chemische Zusammensetzung von Flüssigkeiten.",
+        "D: Die Fähigkeit von Flüssigkeiten, eine elastische Oberfläche zu bilden."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Oberflächenspannung ist das Ergebnis der intermolekularen Kräfte an der Oberfläche einer Flüssigkeit, die bewirken, dass die Flüssigkeit eine elastische Oberfläche bildet. Dieses Phänomen erklärt, warum kleine Objekte manchmal auf Wasser schwimmen können, obwohl sie schwerer sind als das Wasser.",
+      "difficulty": 4,
+      "subcategory": "Oberflächenspannung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "BCS bei endlicher Temperatur",
+      "question": "Was beschreibt das BCS-Modell in der Festkörperphysik bei endlicher Temperatur?",
+      "choices": [
+        "A: Die Umwandlung von festen in flüssige Materialien.",
+        "B: Die Erhöhung der elektrischen Leitfähigkeit bei hohen Temperaturen.",
+        "C: Die Bildung von Cooper-Paaren in Supraleitern.",
+        "D: Die Abnahme der spezifischen Wärme bei niedrigen Temperaturen."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das BCS-Modell (Bardeen-Cooper-Schrieffer) beschreibt, wie Elektronen in einem Supraleiter bei sehr niedrigen Temperaturen durch die Bildung von Cooper-Paaren zusammenwirken, was zur Supraleitung führt. Bei endlicher Temperatur spielt die thermische Aktivität eine Rolle, da sie die Stabilität dieser Paare beeinflusst.",
+      "difficulty": 3,
+      "subcategory": "BCS bei endlicher Temperatur"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Legendre-Transformation (U↔H↔F↔G)",
+      "question": "Welche Aussage über die Legendre-Transformation in der Thermodynamik ist korrekt?",
+      "choices": [
+        "A: Die Legendre-Transformation ermöglicht den Wechsel zwischen innerer Energie (U) und freier Enthalpie (G).",
+        "B: Die Legendre-Transformation wird verwendet, um die Beziehung zwischen Entropie und Temperatur zu beschreiben.",
+        "C: Die Legendre-Transformation ist nur für ideale Gase anwendbar.",
+        "D: Die Legendre-Transformation ist ein mathematisches Verfahren, um von einer Zustandsgröße zur anderen zu wechseln, wie von U zu H oder F."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Legendre-Transformation ist ein wichtiges Werkzeug in der Thermodynamik, das es erlaubt, zwischen verschiedenen thermodynamischen Potenzialen wie der inneren Energie (U), der Enthalpie (H) und der freien Energie (F) zu wechseln. Sie hilft, die Variablen zu ändern, die in den thermodynamischen Gleichungen verwendet werden, um verschiedene physikalische Probleme zu lösen.",
+      "difficulty": 7,
+      "subcategory": "Legendre-Transformation (U↔H↔F↔G)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Feldstärke-Tensor (Fμν)",
+      "question": "Was beschreibt der Feldstärke-Tensor Fμν in der Relativitätstheorie?",
+      "choices": [
+        "A: Die elektromagnetischen Felder und deren Wechselwirkungen",
+        "B: Die Gravitationskraft zwischen zwei Massen",
+        "C: Die Temperatur eines Systems",
+        "D: Die Struktur von Raum und Zeit"
+      ],
+      "correct_answer": "A",
+      "explanation": "Der Feldstärke-Tensor Fμν ist ein zentrales Element der Elektrodynamik in der Relativitätstheorie. Er beschreibt die elektromagnetischen Felder und deren Wechselwirkungen in einem vierdimensionalen Raum-Zeit-Kontinuum.",
+      "difficulty": 4,
+      "subcategory": "Feldstärke-Tensor (Fμν)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Thermodynamische Systeme (offen/geschlossen/isoliert)",
+      "question": "Welches der folgenden Systeme ist ein Beispiel für ein geschlossenes thermodynamisches System?",
+      "choices": [
+        "A: Ein Raum, der vollständig isoliert ist und keine Wärme mit der Außenwelt austauscht",
+        "B: Ein Kühlschrank, der Wärme an die Umgebung abgibt",
+        "C: Ein Topf mit Wasser, der auf dem Herd kocht und offen ist",
+        "D: Ein luftdicht verschlossener Behälter mit Gas"
+      ],
+      "correct_answer": "D",
+      "explanation": "Ein geschlossenes System erlaubt den Austausch von Energie, jedoch nicht von Materie mit der Umgebung. Der luftdicht verschlossene Behälter mit Gas erfüllt diese Bedingungen, während die anderen Optionen entweder Materie austauschen oder nicht alle Bedingungen eines geschlossenen Systems erfüllen.",
+      "difficulty": 5,
+      "subcategory": "Thermodynamische Systeme (offen/geschlossen/isoliert)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Zeitlich oszillierende Quellen",
+      "question": "Was ist eine typische Eigenschaft von zeitlich oszillierenden elektrischen Feldern?",
+      "choices": [
+        "A: Sie beeinflussen keine anderen Felder.",
+        "B: Sie erzeugen immer ein konstantes Magnetfeld.",
+        "C: Sie sind unabhängig von der Frequenz.",
+        "D: Sie können elektromagnetische Wellen erzeugen."
+      ],
+      "correct_answer": "D",
+      "explanation": "Zeitlich oszillierende elektrische Felder sind in der Lage, elektromagnetische Wellen zu erzeugen, da sie sich mit der Zeit verändern und somit auch ein sich änderndes Magnetfeld erzeugen. Diese Wechselwirkung zwischen elektrischen und magnetischen Feldern ist grundlegend für die Elektrodynamik.",
+      "difficulty": 3,
+      "subcategory": "Zeitlich oszillierende Quellen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Relativität der Gleichzeitigkeit",
+      "question": "Was besagt die Relativität der Gleichzeitigkeit?",
+      "choices": [
+        "A: Zeit vergeht in bewegten Systemen langsamer als in ruhenden Systemen.",
+        "B: Die Zeit ist für alle Beobachter immer gleich.",
+        "C: Zwei Ereignisse, die in einem Bezugssystem gleichzeitig stattfinden, sind auch in einem anderen Bezugssystem gleichzeitig.",
+        "D: Gleichzeitigkeit ist relativ und hängt vom Bewegungszustand des Beobachters ab."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Relativität der Gleichzeitigkeit beschreibt, dass zwei Ereignisse, die von einem Beobachter als gleichzeitig wahrgenommen werden, von einem anderen Beobachter, der sich relativ zu diesem bewegt, möglicherweise nicht als gleichzeitig wahrgenommen werden. Dies ist ein zentrales Konzept der speziellen Relativitätstheorie von Einstein.",
+      "difficulty": 4,
+      "subcategory": "Relativität der Gleichzeitigkeit"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Wärmekapazitäten (C_V, C_p, Beziehungen)",
+      "question": "Was beschreibt die Wärmekapazität C_p eines Stoffes?",
+      "choices": [
+        "A: Die Temperatur, bei der ein Stoff seinen Aggregatzustand ändert.",
+        "B: Die Wärmemenge, die benötigt wird, um die Temperatur eines Stoffes bei konstantem Druck zu erhöhen.",
+        "C: Die maximale Temperatur, die ein Stoff erreichen kann.",
+        "D: Die Wärmemenge, die benötigt wird, um die Temperatur eines Stoffes bei konstantem Volumen zu erhöhen."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Wärmekapazität C_p beschreibt die energetische Fähigkeit eines Stoffes, Wärme aufzunehmen oder abzugeben, während der Druck konstant bleibt. Dies ist wichtig für viele thermodynamische Prozesse und Anwendungen.",
+      "difficulty": 4,
+      "subcategory": "Wärmekapazitäten (C_V, C_p, Beziehungen)"
+    }
+  ]
+}

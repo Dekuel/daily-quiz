@@ -1,0 +1,168 @@
+{
+  "date": "2026-07-26",
+  "generated_at": "2026-07-26T05:55:06Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Idealer Paramagnet (Brillouin/Langevin-Idee)",
+      "question": "What describes the behavior of an ideal paramagnet in an external magnetic field?",
+      "choices": [
+        "A: Magnetization is independent of the external magnetic field.",
+        "B: Magnetization is proportional to temperature.",
+        "C: Magnetization increases with temperature and reaches a maximum.",
+        "D: Magnetization remains constant regardless of temperature."
+      ],
+      "correct_answer": "B",
+      "explanation": "An ideal paramagnet shows a proportional relationship between magnetization and temperature as the spins of the atoms randomize at higher temperatures. In an external magnetic field, the magnetic moments align preferentially, increasing the magnetization.",
+      "difficulty": 2,
+      "subcategory": "Idealer Paramagnet (Brillouin/Langevin-Idee)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Green’sche Sätze",
+      "question": "Which of the following statements describes the relationship between a vector field and the flux of its rotation through a closed surface?",
+      "choices": [
+        "A: The divergence theorem.",
+        "B: The second Green's theorem.",
+        "C: The first Green's theorem.",
+        "D: Stokes' theorem."
+      ],
+      "correct_answer": "B",
+      "explanation": "The second Green's theorem, also known as Green's theorem, illustrates the relationship between the flux of a vector field through a closed surface and the rotation of the field inside that surface. This is a central concept in electrodynamics for analyzing electric and magnetic fields.",
+      "difficulty": 8,
+      "subcategory": "Green’sche Sätze"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Oberflächenspannung",
+      "question": "What describes the phenomenon of surface tension in liquids?",
+      "choices": [
+        "A: The rate at which liquids evaporate.",
+        "B: The temperature dependence of liquid densities.",
+        "C: The chemical composition of liquids.",
+        "D: The ability of liquids to form an elastic surface."
+      ],
+      "correct_answer": "D",
+      "explanation": "Surface tension results from intermolecular forces at the surface of a liquid, causing the liquid to form an elastic surface. This phenomenon explains why small objects can sometimes float on water even if they are heavier than water.",
+      "difficulty": 4,
+      "subcategory": "Oberflächenspannung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "BCS bei endlicher Temperatur",
+      "question": "What does the BCS model describe in solid-state physics at finite temperature?",
+      "choices": [
+        "A: The transformation of solids into liquid materials.",
+        "B: The increase in electrical conductivity at high temperatures.",
+        "C: The formation of Cooper pairs in superconductors.",
+        "D: The decrease in specific heat at low temperatures."
+      ],
+      "correct_answer": "C",
+      "explanation": "The BCS model (Bardeen-Cooper-Schrieffer) explains how electrons in a superconductor interact at very low temperatures by forming Cooper pairs, leading to superconductivity. At finite temperature, thermal activity plays a role in influencing the stability of these pairs.",
+      "difficulty": 3,
+      "subcategory": "BCS bei endlicher Temperatur"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Legendre-Transformation (U↔H↔F↔G)",
+      "question": "Which statement about the Legendre transformation in thermodynamics is correct?",
+      "choices": [
+        "A: The Legendre transformation enables switching between internal energy (U) and free enthalpy (G).",
+        "B: The Legendre transformation is used to describe the relationship between entropy and temperature.",
+        "C: The Legendre transformation is only applicable to ideal gases.",
+        "D: The Legendre transformation is a mathematical procedure to switch from one state quantity to another, such as from U to H or F."
+      ],
+      "correct_answer": "D",
+      "explanation": "The Legendre transformation is a key tool in thermodynamics that allows switching between different thermodynamic potentials such as internal energy (U), enthalpy (H), and free energy (F). It helps change the variables used in thermodynamic equations to solve various physical problems.",
+      "difficulty": 7,
+      "subcategory": "Legendre-Transformation (U↔H↔F↔G)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Feldstärke-Tensor (Fμν)",
+      "question": "What does the field strength tensor Fμν describe in relativity theory?",
+      "choices": [
+        "A: The electromagnetic fields and their interactions.",
+        "B: The gravitational force between two masses.",
+        "C: The temperature of a system.",
+        "D: The structure of space and time."
+      ],
+      "correct_answer": "A",
+      "explanation": "The field strength tensor Fμν is a central element of electrodynamics in relativity theory. It describes the electromagnetic fields and their interactions in a four-dimensional spacetime continuum.",
+      "difficulty": 4,
+      "subcategory": "Feldstärke-Tensor (Fμν)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Thermodynamische Systeme (offen/geschlossen/isoliert)",
+      "question": "Which of the following systems is an example of a closed thermodynamic system?",
+      "choices": [
+        "A: A room that is completely isolated and does not exchange heat with the outside world.",
+        "B: A refrigerator that releases heat to the environment.",
+        "C: A pot of water boiling on the stove and open.",
+        "D: An airtight container with gas."
+      ],
+      "correct_answer": "D",
+      "explanation": "A closed system allows the exchange of energy but not matter with the surroundings. The airtight container with gas fulfills these conditions, while the other options either exchange matter or do not meet all the conditions of a closed system.",
+      "difficulty": 5,
+      "subcategory": "Thermodynamische Systeme (offen/geschlossen/isoliert)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Zeitlich oszillierende Quellen",
+      "question": "What is a typical property of time-oscillating electric fields?",
+      "choices": [
+        "A: They do not influence other fields.",
+        "B: They always generate a constant magnetic field.",
+        "C: They are independent of frequency.",
+        "D: They can generate electromagnetic waves."
+      ],
+      "correct_answer": "D",
+      "explanation": "Time-oscillating electric fields can generate electromagnetic waves as they change over time, thus producing a changing magnetic field. This interaction between electric and magnetic fields is fundamental to electrodynamics.",
+      "difficulty": 3,
+      "subcategory": "Zeitlich oszillierende Quellen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Relativität der Gleichzeitigkeit",
+      "question": "What does the relativity of simultaneity state?",
+      "choices": [
+        "A: Time passes slower in moving systems than in stationary systems.",
+        "B: Time is always the same for all observers.",
+        "C: Two events that occur simultaneously in one reference frame are also simultaneous in another reference frame.",
+        "D: Simultaneity is relative and depends on the observer's state of motion."
+      ],
+      "correct_answer": "D",
+      "explanation": "The relativity of simultaneity describes that two events perceived as simultaneous by one observer may not be perceived as simultaneous by another observer moving relative to the first. This is a central concept of Einstein's special theory of relativity.",
+      "difficulty": 4,
+      "subcategory": "Relativität der Gleichzeitigkeit"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Wärmekapazitäten (C_V, C_p, Beziehungen)",
+      "question": "What does the heat capacity C_p of a substance describe?",
+      "choices": [
+        "A: The temperature at which a substance changes its state of matter.",
+        "B: The amount of heat needed to increase the temperature of a substance at constant pressure.",
+        "C: The maximum temperature a substance can reach.",
+        "D: The amount of heat needed to increase the temperature of a substance at constant volume."
+      ],
+      "correct_answer": "B",
+      "explanation": "The heat capacity C_p describes a substance's ability to absorb or release heat while keeping pressure constant. This is important for many thermodynamic processes and applications.",
+      "difficulty": 4,
+      "subcategory": "Wärmekapazitäten (C_V, C_p, Beziehungen)"
+    }
+  ]
+}
