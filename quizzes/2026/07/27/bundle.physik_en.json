@@ -1,0 +1,168 @@
+{
+  "date": "2026-07-27",
+  "generated_at": "2026-07-27T06:23:31Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "χ^(3)-Phänomene (dritte Ordnung)",
+      "question": "What does the χ^(3) phenomenon describe in optics?",
+      "choices": [
+        "A: The nonlinear interaction of light with matter leading to phenomena like self-focusing.",
+        "B: The reflection of light at an interface between two media.",
+        "C: The generation of photons through thermal radiation.",
+        "D: The refraction of light rays in a prism."
+      ],
+      "correct_answer": "A",
+      "explanation": "The χ^(3) phenomenon describes the nonlinear interaction of light with matter, capable of generating effects like self-focusing and higher harmonics. These phenomena are of great importance in modern optics, especially in fiber optics and laser development.",
+      "difficulty": 8,
+      "subcategory": "χ^(3)-Phänomene (dritte Ordnung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Gibbs- vs. Boltzmann-Entropie & Zeitentwicklung",
+      "question": "What does the Boltzmann entropy describe in statistical mechanics?",
+      "choices": [
+        "A: The maximum energy content of a system",
+        "B: The measure of disorder in a system based on the number of its microstates",
+        "C: The speed at which a system reaches its equilibrium states",
+        "D: The temperature of a system in relation to its particle motion"
+      ],
+      "correct_answer": "B",
+      "explanation": "The Boltzmann entropy is defined as the measure of disorder in a system and is directly proportional to the number of underlying microstates. It plays a central role in statistical mechanics to understand thermodynamic properties of systems.",
+      "difficulty": 4,
+      "subcategory": "Gibbs- vs. Boltzmann-Entropie & Zeitentwicklung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Gibb’sche Phasenregel",
+      "question": "What is the Gibbs phase rule that describes the number of phases in a thermodynamic system?",
+      "choices": [
+        "A: F = P + C - 1",
+        "B: F = C - P + 2",
+        "C: F = C + P + 2",
+        "D: F = P - C + 1"
+      ],
+      "correct_answer": "B",
+      "explanation": "The Gibbs phase rule describes the relationship between the number of degrees of freedom (F), the number of phases (P), and the number of components (C) in a system. It states F = C - P + 2, meaning the number of independently variable state quantities in a system can be calculated when the number of phases and components are known.",
+      "difficulty": 7,
+      "subcategory": "Gibb’sche Phasenregel"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Formfaktoren des Nukleons",
+      "question": "Which of the following form factors describes the spatial distribution of electric charge in the proton?",
+      "choices": [
+        "A: The electromagnetic form factor G_E(Q^2)",
+        "B: The axial form factor G_A(Q^2)",
+        "C: The pseudoscalar form factor G_P(Q^2)",
+        "D: The magnetic form factor G_M(Q^2)"
+      ],
+      "correct_answer": "A",
+      "explanation": "The electromagnetic form factor G_E(Q^2) describes the distribution of electric charge in the proton and is crucial for analyzing electron-proton scattering experiments. In contrast, the other form factors relate to different aspects of nucleon interactions and properties.",
+      "difficulty": 8,
+      "subcategory": "Formfaktoren des Nukleons"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Großkanonisches Ensemble: Dichtematrix & Potential",
+      "question": "What does the density matrix describe in the grand canonical ensemble?",
+      "choices": [
+        "A: The volume change of a gas at constant pressure.",
+        "B: The temperature of a system in thermal equilibrium.",
+        "C: The probability distribution of states in a system.",
+        "D: The kinetic energy of particles in a system."
+      ],
+      "correct_answer": "C",
+      "explanation": "The density matrix is a central concept in statistical mechanics, describing the probability distribution over the microscopic states of a system in the grand canonical ensemble. It allows deriving thermodynamic properties from the statistical properties of particles.",
+      "difficulty": 4,
+      "subcategory": "Großkanonisches Ensemble: Dichtematrix & Potential"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Wärmestrahlungsgesetze & Planck-Formel",
+      "question": "What does the Planck formula describe in quantum mechanics?",
+      "choices": [
+        "A: The interaction between light and matter.",
+        "B: The relationship between pressure and volume of an ideal gas.",
+        "C: The speed of particles in a vacuum.",
+        "D: The energy distribution of electromagnetic radiation depending on the temperature."
+      ],
+      "correct_answer": "D",
+      "explanation": "The Planck formula explains how the energy of electromagnetic radiation is distributed depending on the temperature. It is fundamental for understanding thermal radiation and quantum mechanics.",
+      "difficulty": 4,
+      "subcategory": "Wärmestrahlungsgesetze & Planck-Formel"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Hookesches Gesetz",
+      "question": "What does Hooke's Law describe?",
+      "choices": [
+        "A: The conservation of energy in a closed system.",
+        "B: The relationship between the force and deformation of an elastic body.",
+        "C: The motion of a body under the influence of gravity.",
+        "D: The relationship between temperature and pressure of a gas."
+      ],
+      "correct_answer": "B",
+      "explanation": "Hooke's Law describes that the deformation (extension or compression) of an elastic body is proportional to the force acting on it, as long as the elastic limits are not exceeded. It is a fundamental relationship in mechanics, often used in materials science and engineering.",
+      "difficulty": 1,
+      "subcategory": "Hookesches Gesetz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Rotation bei konstantem Drehmoment",
+      "question": "What happens to the angular velocity of a body when a constant torque acts on it and no other external influences are present?",
+      "choices": [
+        "A: The angular velocity remains constant.",
+        "B: The angular velocity decreases.",
+        "C: The angular velocity increases.",
+        "D: The angular velocity becomes unpredictable."
+      ],
+      "correct_answer": "C",
+      "explanation": "When a constant torque acts on a body, it usually accelerates, and its angular velocity increases. This is a direct consequence of the rotational law, stating that torque causes the change in angular velocity.",
+      "difficulty": 4,
+      "subcategory": "Rotation bei konstantem Drehmoment"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Bottonium & Toponium",
+      "question": "What is a characteristic property of bottomonium and toponium in quantum chromodynamics?",
+      "choices": [
+        "A: They are mesons consisting of a quark and an antiquark.",
+        "B: They have a total spin quantum number of 1.",
+        "C: They are stable particles occurring in nature.",
+        "D: They consist of two bottom quarks or two top quarks."
+      ],
+      "correct_answer": "D",
+      "explanation": "Bottomonium and toponium are bound states of two bottom quarks and two top quarks, respectively. These quark-antiquark pairs are specific examples of heavy quarkonium states studied in quantum chromodynamics.",
+      "difficulty": 8,
+      "subcategory": "Bottonium & Toponium"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Hydrodynamik & Kubo-Formalismus (Übersicht)",
+      "question": "What does the Kubo formalism describe in statistical mechanics?",
+      "choices": [
+        "A: The motion of bodies under the influence of forces.",
+        "B: The thermodynamic properties of ideal gases.",
+        "C: The relationship between macroscopic and microscopic quantities.",
+        "D: The structure of atoms and molecules."
+      ],
+      "correct_answer": "C",
+      "explanation": "The Kubo formalism is an approach to connect macroscopic physical properties with microscopic motions in statistical mechanics. It is commonly used to describe a system's response to external disturbances.",
+      "difficulty": 2,
+      "subcategory": "Hydrodynamik & Kubo-Formalismus (Übersicht)"
+    }
+  ]
+}

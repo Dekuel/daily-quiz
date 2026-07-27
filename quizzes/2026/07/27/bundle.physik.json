@@ -1,0 +1,169 @@
+{
+  "date": "2026-07-27",
+  "generated_at": "2026-07-27T06:22:57Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "χ^(3)-Phänomene (dritte Ordnung)",
+      "question": "Was beschreibt das χ^(3)-Phänomen in der Optik?",
+      "choices": [
+        "A: Die nichtlineare Wechselwirkung von Licht mit Materie, die zu Phänomenen wie der Selbstfokussierung führt.",
+        "B: Die Reflexion von Licht an einer Grenzfläche zwischen zwei Medien.",
+        "C: Die Erzeugung von Photonen durch thermische Strahlung.",
+        "D: Die Brechung von Lichtstrahlen in einem Prisma."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das χ^(3)-Phänomen beschreibt die nichtlineare Wechselwirkung von Licht mit Materie, die in der Lage ist, Effekte wie Selbstfokussierung und höhere Harmonische zu erzeugen. Diese Phänomene sind in der modernen Optik von großer Bedeutung, insbesondere in der Faseroptik und bei der Entwicklung von Lasern.",
+      "difficulty": 8,
+      "subcategory": "χ^(3)-Phänomene (dritte Ordnung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Gibbs- vs. Boltzmann-Entropie & Zeitentwicklung",
+      "question": "Was beschreibt die Boltzmann-Entropie in der statistischen Mechanik?",
+      "choices": [
+        "A: Den maximalen Energiegehalt eines Systems",
+        "B: Das Maß für die Unordnung eines Systems basierend auf der Anzahl seiner Mikrozustände",
+        "C: Die Geschwindigkeit, mit der ein System seine Gleichgewichtszustände erreicht",
+        "D: Die Temperatur eines Systems in Bezug auf seine Teilchenbewegung"
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Boltzmann-Entropie ist definiert als das Maß für die Unordnung eines Systems und ist direkt proportional zur Anzahl der zugrunde liegenden Mikrozustände. Sie spielt eine zentrale Rolle in der statistischen Mechanik, um thermodynamische Eigenschaften von Systemen zu verstehen.",
+      "difficulty": 4,
+      "subcategory": "Gibbs- vs. Boltzmann-Entropie & Zeitentwicklung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Gibb’sche Phasenregel",
+      "question": "Wie lautet die Gibb’sche Phasenregel, die die Anzahl der Phasen in einem thermodynamischen System beschreibt?",
+      "choices": [
+        "A: F = P + C - 1",
+        "B: F = C - P + 2",
+        "C: F = C + P + 2",
+        "D: F = P - C + 1"
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Gibb’sche Phasenregel beschreibt die Beziehung zwischen der Anzahl der Freiheitsgrade (F), der Anzahl der Phasen (P) und der Anzahl der Komponenten (C) in einem System. Sie lautet F = C - P + 2, was bedeutet, dass die Anzahl der unabhängig variierbaren Zustandsgrößen in einem System berechnet werden kann, wenn die Anzahl der Phasen und Komponenten bekannt ist.",
+      "difficulty": 7,
+      "subcategory": "Gibb’sche Phasenregel"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Formfaktoren des Nukleons",
+      "question": "Welcher der folgenden Formfaktoren beschreibt den räumlichen Verteilungszustand der elektrischen Ladung im Proton?",
+      "choices": [
+        "A: Der elektromagnetische Formfaktor G_E(Q^2)",
+        "B: Der axialle Formfaktor G_A(Q^2)",
+        "C: Der pseudoskalare Formfaktor G_P(Q^2)",
+        "D: Der magnetische Formfaktor G_M(Q^2)"
+      ],
+      "correct_answer": "A",
+      "explanation": "Der elektromagnetische Formfaktor G_E(Q^2) beschreibt die Verteilung der elektrischen Ladung im Proton und ist entscheidend für die Analyse von Elektron-Proton-Streuexperimenten. Im Gegensatz dazu beziehen sich die anderen Formfaktoren auf verschiedene Aspekte der Wechselwirkungen und Eigenschaften des Nukleons.",
+      "difficulty": 8,
+      "subcategory": "Formfaktoren des Nukleons"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Großkanonisches Ensemble: Dichtematrix & Potential",
+      "question": "Was beschreibt die Dichtematrix im großkanonischen Ensemble?",
+      "choices": [
+        "A: Die Volumenänderung eines Gases bei konstantem Druck.",
+        "B: Die Temperatur eines Systems in thermischem Gleichgewicht.",
+        "C: Die Wahrscheinlichkeitsverteilung von Zuständen eines Systems.",
+        "D: Die kinetische Energie der Teilchen in einem System."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Dichtematrix ist ein zentrales Konzept in der statistischen Mechanik und beschreibt die Wahrscheinlichkeitsverteilung über die mikroskopischen Zustände eines Systems im großkanonischen Ensemble. Sie ermöglicht es, thermodynamische Eigenschaften aus den statistischen Eigenschaften der Teilchen abzuleiten.",
+      "difficulty": 4,
+      "subcategory": "Großkanonisches Ensemble: Dichtematrix & Potential"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Wärmestrahlungsgesetze & Planck-Formel",
+      "question": "Was beschreibt die Planck-Formel in der Quantenmechanik?",
+      "choices": [
+        "A: Die Wechselwirkung zwischen Licht und Materie.",
+        "B: Die Beziehung zwischen Druck und Volumen eines idealen Gases.",
+        "C: Die Geschwindigkeit von Teilchen in einem Vakuum.",
+        "D: Die Energieverteilung von elektromagnetischer Strahlung in Abhängigkeit von der Temperatur."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Planck-Formel erklärt, wie die Energie von elektromagnetischer Strahlung in Abhängigkeit von der Temperatur verteilt ist. Sie ist fundamental für das Verständnis der Wärmestrahlung und der Quantenmechanik.",
+      "difficulty": 4,
+      "subcategory": "Wärmestrahlungsgesetze & Planck-Formel"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Hookesches Gesetz",
+      "question": "Was beschreibt das Hookesche Gesetz?",
+      "choices": [
+        "A: Die Erhaltung der Energie in einem geschlossenen System.",
+        "B: Die Beziehung zwischen der Kraft und der Deformation eines elastischen Körpers.",
+        "C: Die Bewegung eines Körpers unter dem Einfluss der Schwerkraft.",
+        "D: Die Beziehung zwischen Temperatur und Druck eines Gases."
+      ],
+      "correct_answer": "B",
+      "explanation": "Das Hookesche Gesetz beschreibt, dass die Deformation (Verlängerung oder Verkürzung) eines elastischen Körpers proportional zur auf ihn wirkenden Kraft ist, solange die elastischen Grenzen nicht überschritten werden. Es ist eine grundlegende Beziehung in der Mechanik, die oft in der Materialwissenschaft und Ingenieurwissenschaft verwendet wird.",
+      "difficulty": 1,
+      "subcategory": "Hookesches Gesetz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Rotation bei konstantem Drehmoment",
+      "question": "Was passiert mit der Winkelgeschwindigkeit eines Körpers, wenn ein konstantes Drehmoment auf ihn wirkt und keine anderen äußeren Einflüsse vorhanden sind?",
+      "choices": [
+        "A: Die Winkelgeschwindigkeit bleibt konstant.",
+        "B: Die Winkelgeschwindigkeit nimmt ab.",
+        "C: Die Winkelgeschwindigkeit nimmt zu.",
+        "D: Die Winkelgeschwindigkeit wird unvorhersehbar."
+      ],
+      "correct_answer": "C",
+      "explanation": "Wenn ein konstantes Drehmoment auf einen Körper wirkt, beschleunigt er in der Regel und seine Winkelgeschwindigkeit nimmt zu. Dies ist eine direkte Folge des Drehgesetzes, das besagt, dass das Drehmoment die Änderung der Winkelgeschwindigkeit verursacht.",
+      "difficulty": 4,
+      "subcategory": "Rotation bei konstantem Drehmoment"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Bottonium & Toponium",
+      "question": "Was ist eine charakteristische Eigenschaft von Bottonium und Tonium in der Quantenchromodynamik?",
+      "choices": [
+        "A: Sie sind Mesonen, die aus einem Quark und einem Antiquark bestehen.",
+        "B: Sie haben eine gesamte Spin-Quantenzahl von 1.",
+        "C: Sie sind stabile Teilchen, die in der Natur vorkommen.",
+        "D: Sie bestehen aus zwei Bottom-Quarks bzw. zwei Top-Quarks."
+      ],
+      "correct_answer": "D",
+      "explanation": "Bottonium und Tonium sind Bindungszustände aus je zwei Bottom-Quarks bzw. zwei Top-Quarks. Diese Quark-Antiquark-Paare sind spezifische Beispiele für schwere Quarkonium-Zustände, die in der Quantenchromodynamik untersucht werden.",
+      "difficulty": 8,
+      "subcategory": "Bottonium & Toponium"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Hydrodynamik & Kubo-Formalismus (Übersicht)",
+      "question": "Was beschreibt der Kubo-Formalismus in der statistischen Mechanik?",
+      "choices": [
+        "A: Die Bewegung von Körpern unter dem Einfluss von Kräften.",
+        "B: Die thermodynamischen Eigenschaften von idealen Gasen.",
+        "C: Die Beziehung zwischen makroskopischen und mikroskopischen Größen.",
+        "D: Die Struktur von Atomen und Molekülen."
+      ],
+      "correct_answer": "C",
+      "explanation": "Der Kubo-Formalismus ist ein Ansatz zur Verbindung von makroskopischen physikalischen Eigenschaften mit mikroskopischen Bewegungen in der statistischen Mechanik. Er wird häufig verwendet, um die Reaktion eines Systems auf äußere Störungen zu beschreiben.",
+      "difficulty": 2,
+      "subcategory": "Hydrodynamik & Kubo-Formalismus (Übersicht)"
+    }
+  ]
+}
