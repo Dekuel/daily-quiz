@@ -1,0 +1,168 @@
+{
+  "date": "2026-07-28",
+  "generated_at": "2026-07-28T05:42:52Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Natürliche Zustandsvariablen (U, H, F, G)",
+      "question": "Which of the following state variables describes the maximum work that can be done at constant pressure?",
+      "choices": [
+        "A: Enthalpy (H)",
+        "B: Internal energy (U)",
+        "C: Helmholtz free energy (F)",
+        "D: Gibbs free energy (G)"
+      ],
+      "correct_answer": "D",
+      "explanation": "The Gibbs free energy (G) is a thermodynamic state variable that describes the maximum work at constant pressure and temperature. It is particularly important for chemical reactions and phase transitions as it indicates the spontaneous direction of processes.",
+      "difficulty": 6,
+      "subcategory": "Natürliche Zustandsvariablen (U, H, F, G)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Ginzburg–Landau-Funktional & -Nähe",
+      "question": "What does the Ginzburg-Landau functional describe in statistical mechanics?",
+      "choices": [
+        "A: The motion of particles in a vacuum.",
+        "B: The electron configuration in atoms.",
+        "C: The interaction between light and matter.",
+        "D: The thermodynamic properties of phase transitions."
+      ],
+      "correct_answer": "D",
+      "explanation": "The Ginzburg-Landau functional describes the changes in free energy in systems near phase transitions, especially in superconductors and other critical phases. It allows for the analysis of order and phase stability in these systems.",
+      "difficulty": 6,
+      "subcategory": "Ginzburg–Landau-Funktional & -Nähe"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Kovariante Lagrange-Formulierung",
+      "question": "What is the main feature of the covariant Lagrange formulation in relativity theory?",
+      "choices": [
+        "A: It uses only Cartesian coordinates.",
+        "B: It does not consider interactions between particles.",
+        "C: It enables the formulation of physics independent of the choice of coordinate system.",
+        "D: It is limited to classical mechanics only."
+      ],
+      "correct_answer": "C",
+      "explanation": "The covariant Lagrange formulation is crucial as it allows the laws of physics to appear the same in any reference frame, which is a fundamental requirement of relativity theory. This promotes the general applicability of physical laws regardless of the specific choice of coordinates.",
+      "difficulty": 6,
+      "subcategory": "Kovariante Lagrange-Formulierung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Phasen von Einstoffsystemen & Clausius–Clapeyron",
+      "question": "What does the Clausius-Clapeyron equation describe?",
+      "choices": [
+        "A: Energy conservation in closed systems.",
+        "B: The motion of particles in an ideal gas.",
+        "C: The relationship between pressure and temperature in phase transitions.",
+        "D: Formulas for calculating electric field strength."
+      ],
+      "correct_answer": "C",
+      "explanation": "The Clausius-Clapeyron equation describes how the pressure of a substance changes with temperature during a phase transition. It is particularly important for understanding phase changes such as vaporization and condensation.",
+      "difficulty": 5,
+      "subcategory": "Phasen von Einstoffsystemen & Clausius–Clapeyron"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Erzeugende Funktion (vier Typen)",
+      "question": "Which of the following statements correctly describes the functions used in analytical mechanics to generate equations of motion?",
+      "choices": [
+        "A: The generating functions are exclusively the energy function and the momentum function used in classical mechanics.",
+        "B: The generating functions include only the Hamiltonian and Lagrangian functions, which are identical.",
+        "C: The generating functions are the Lagrangian function, the Hamiltonian function, the classical energy function, and the potential function.",
+        "D: The generating functions are the Hamiltonian function, the Lagrangian function, the energy function, and the momentum function."
+      ],
+      "correct_answer": "D",
+      "explanation": "In analytical mechanics, the generating functions are crucial for deriving equations of motion. The Hamiltonian and Lagrangian functions are specifically important for understanding systems in analytical mechanics, along with the concepts of energy and momentum.",
+      "difficulty": 9,
+      "subcategory": "Erzeugende Funktion (vier Typen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Paramagnetismus ungekoppelter Momente (Curie-Gesetz)",
+      "question": "What does the Curie's law describe in relation to paramagnetic materials?",
+      "choices": [
+        "A: The magnetic susceptibility is temperature-independent.",
+        "B: The magnetic susceptibility is inversely proportional to temperature.",
+        "C: The magnetic susceptibility is constant and independent of temperature.",
+        "D: The magnetic susceptibility is directly proportional to temperature."
+      ],
+      "correct_answer": "B",
+      "explanation": "Curie's law states that the magnetic susceptibility of a paramagnetic material is inversely proportional to temperature. This means that as temperature increases, the magnetic susceptibility decreases, leading to a reduction in magnetization.",
+      "difficulty": 4,
+      "subcategory": "Paramagnetismus ungekoppelter Momente (Curie-Gesetz)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Laminar: Rohrströmung",
+      "question": "What describes the state of laminar flow in a pipe?",
+      "choices": [
+        "A: The flow occurs in parallel layered sheets without mixing.",
+        "B: The flow is turbulent and chaotic.",
+        "C: The flow is independent of the viscosity of the liquid.",
+        "D: The flow always has a constant velocity."
+      ],
+      "correct_answer": "A",
+      "explanation": "In laminar flow, fluid particles move in parallel layers, resulting in a uniform flow without significant mixing. This type of flow typically occurs at low speeds and high viscosities.",
+      "difficulty": 5,
+      "subcategory": "Laminar: Rohrströmung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Feldverhalten an Grenzflächen",
+      "question": "What happens to an electric field at an interface between two different materials?",
+      "choices": [
+        "A: The electric field becomes stronger.",
+        "B: The electric field is refracted and changes its direction.",
+        "C: The electric field remains unchanged.",
+        "D: The electric field completely disappears."
+      ],
+      "correct_answer": "B",
+      "explanation": "At an interface between two materials, the speed and direction of the electric field can vary, a phenomenon known as field refraction. This change depends on the properties of the two materials, especially their permittivity.",
+      "difficulty": 3,
+      "subcategory": "Feldverhalten an Grenzflächen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Green’sche Sätze",
+      "question": "Which of the following sentences belongs to the Green's theorems?",
+      "choices": [
+        "A: Gauss's divergence theorem.",
+        "B: Law of conservation of energy.",
+        "C: Green's theorem.",
+        "D: Stokes's theorem."
+      ],
+      "correct_answer": "C",
+      "explanation": "Green's theorem is a specific case of one of the Green's theorems, describing a relationship between integrals over a surface and its boundary. While the other theorems also represent important concepts in vector analysis, they are not part of the Green's theorems.",
+      "difficulty": 4,
+      "subcategory": "Green’sche Sätze"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Zentraler Grenzwertsatz",
+      "question": "What does the central limit theorem state in statistics?",
+      "choices": [
+        "A: The mean of a random variable is always 0.",
+        "B: All random variables are uniformly distributed.",
+        "C: The sum of independent random variables follows a normal distribution when the number of variables is large enough.",
+        "D: The variance of a random variable is constant, regardless of the number of variables."
+      ],
+      "correct_answer": "C",
+      "explanation": "The central limit theorem states that the sum of a large number of independent random variables, regardless of their original distribution, follows a normal distribution. This is an important concept in statistics and probability theory.",
+      "difficulty": 4,
+      "subcategory": "Zentraler Grenzwertsatz"
+    }
+  ]
+}
