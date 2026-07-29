@@ -1,0 +1,169 @@
+{
+  "date": "2026-07-29",
+  "generated_at": "2026-07-29T04:04:02Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Integraldarstellung der Divergenz",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt die Integraldarstellung der Divergenz eines Vektorfeldes F in einem Volumen V?",
+      "choices": [
+        "A: Die Divergenz von F ist gleich dem Fluss von F über die Oberfläche S, die das Volumen V umschließt.",
+        "B: Die Divergenz von F ist unabhängig von der Form des Volumens V.",
+        "C: Die Divergenz von F ist gleich der Differenz der Werte von F an einem Punkt innerhalb von V.",
+        "D: Die Divergenz von F ist gleich dem Produkt der Integrale von F über die Achsen des V."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Integraldarstellung der Divergenz basiert auf dem Satz von Gauss und besagt, dass die Divergenz eines Vektorfeldes gleich dem Fluss des Feldes durch die Randfläche des Volumens ist. Dies ist ein fundamentales Konzept in der Elektrodynamik zur Analyse von elektrischen und magnetischen Feldern.",
+      "difficulty": 8,
+      "subcategory": "Integraldarstellung der Divergenz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Faraday’sches Induktionsgesetz",
+      "question": "Was beschreibt das Faraday’sche Induktionsgesetz in Bezug auf einen geschlossenen Stromkreis?",
+      "choices": [
+        "A: Die Induktionsspannung ist direkt proportional zur Änderung des magnetischen Flusses.",
+        "B: Die Induktionsspannung ist konstant, unabhängig von der Fläche des Stromkreises.",
+        "C: Es gibt keine Induktionsspannung, wenn sich das Magnetfeld nicht ändert.",
+        "D: Die Induktionsspannung ist unabhängig von der Geschwindigkeit der Magnetfeldänderung."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Faraday’sche Induktionsgesetz besagt, dass die induzierte Spannung in einem geschlossenen Stromkreis gleich der negativen Änderung des magnetischen Flusses durch die Fläche des Stromkreises ist. Dies bedeutet, dass eine schnellere Änderung des magnetischen Flusses eine höhere Induktionsspannung erzeugt.",
+      "difficulty": 7,
+      "subcategory": "Faraday’sches Induktionsgesetz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Kapillarität",
+      "question": "Was beschreibt den Effekt der Kapillarität in Flüssigkeiten?",
+      "choices": [
+        "A: Die Druckänderung in einer Flüssigkeit bei Temperaturänderung.",
+        "B: Die Bewegung von Partikeln in einer Flüssigkeit unter Einfluss eines elektrischen Feldes.",
+        "C: Die Reflexion von Licht an der Oberfläche einer Flüssigkeit.",
+        "D: Die Fähigkeit von Flüssigkeiten, durch enge Räume zu steigen oder zu fallen."
+      ],
+      "correct_answer": "D",
+      "explanation": "Kapillarität ist das Phänomen, bei dem Flüssigkeiten in engen Röhren oder Spalten aufsteigen oder absinken, abhängig von den Wechselwirkungen zwischen der Flüssigkeit und der festen Oberfläche. Dies tritt aufgrund der Adhäsion und Kohäsion der Moleküle auf.",
+      "difficulty": 4,
+      "subcategory": "Kapillarität"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Extremaleigenschaften von U und H",
+      "question": "Welche Aussage über die Beziehung zwischen der inneren Energie (U) und der Enthalpie (H) ist korrekt?",
+      "choices": [
+        "A: H ist unabhängig von der Temperatur.",
+        "B: H = U + pV bei konstantem Druck.",
+        "C: U ist immer größer als H.",
+        "D: U kann nie negativ sein."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Enthalpie H ist definiert als H = U + pV, wobei p der Druck und V das Volumen ist. Dies gilt insbesondere bei Prozessen, die bei konstantem Druck stattfinden, und beschreibt den Energieinhalt eines Systems unter diesen Bedingungen.",
+      "difficulty": 7,
+      "subcategory": "Extremaleigenschaften von U und H"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Ko- und kontravariante Tensoren (Grundbegriffe)",
+      "question": "Was beschreibt ein kontravarianter Tensor in der Relativitätstheorie?",
+      "choices": [
+        "A: Er bleibt unter Koordinatenänderungen unverändert.",
+        "B: Er hat ausschließlich positive Komponenten.",
+        "C: Er transformiert sich mit der inversen Jacobimatrix unter Koordinatenänderungen.",
+        "D: Er beschreibt nur skalare Größen."
+      ],
+      "correct_answer": "C",
+      "explanation": "Ein kontravarianter Tensor verändert sich mit der inversen Jacobimatrix, wenn man die Koordinaten wechselt. Dies bedeutet, dass seine Komponenten sich abhängig von der Wahl des Koordinatensystems verändern, um die physikalische Bedeutung konstant zu halten.",
+      "difficulty": 6,
+      "subcategory": "Ko- und kontravariante Tensoren (Grundbegriffe)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Interferenzen dünner Schichten",
+      "question": "Welche Bedingung muss erfüllt sein, damit eine konstruktive Interferenz in einer dünnen Schicht auftritt?",
+      "choices": [
+        "A: Der Wegunterschied zwischen den reflektierten Lichtstrahlen muss ein halbes Vielfaches der Wellenlänge sein.",
+        "B: Der Lichtstrahl muss senkrecht auf die Schicht treffen.",
+        "C: Die Schichtdicke muss kleiner als die Wellenlänge des Lichts sein.",
+        "D: Der Wegunterschied zwischen den reflektierten Lichtstrahlen muss ein ganzzahliges Vielfaches der Wellenlänge sein."
+      ],
+      "correct_answer": "D",
+      "explanation": "Für konstruktive Interferenz müssen die Lichtwellen, die an den Oberflächen einer dünnen Schicht reflektiert werden, einen Wegunterschied von nλ (n = 0, 1, 2, ...) aufweisen, wobei λ die Wellenlänge des Lichts ist. Dies führt zu einer Verstärkung der Intensität des reflektierten Lichts.",
+      "difficulty": 7,
+      "subcategory": "Interferenzen dünner Schichten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Mischungsentropie",
+      "question": "Was geschieht mit der Entropie, wenn zwei verschiedene Gase in einem geschlossenen Raum gemischt werden?",
+      "choices": [
+        "A: Die Entropie nimmt ab.",
+        "B: Die Entropie nimmt zu.",
+        "C: Die Entropie bleibt konstant.",
+        "D: Die Entropie kann nicht bestimmt werden."
+      ],
+      "correct_answer": "B",
+      "explanation": "Beim Mischen von zwei verschiedenen Gasen steigt die Entropie, da die Teilchen der Gase eine größere Anzahl an möglichen Anordnungsmöglichkeiten erhalten. Dies ist ein typisches Verhalten in der Thermodynamik, das den zweiten Hauptsatz der Thermodynamik unterstützt.",
+      "difficulty": 4,
+      "subcategory": "Mischungsentropie"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Energie und Impuls von Licht",
+      "question": "Was beschreibt das Konzept des Impulses von Licht im Kontext der elektromagnetischen Strahlung?",
+      "choices": [
+        "A: Der Impuls von Licht ist konstant über alle Frequenzen hinweg.",
+        "B: Der Impuls von Licht ist unabhängig von seiner Frequenz.",
+        "C: Der Impuls von Licht ist gleich der Energie geteilt durch die Lichtgeschwindigkeit.",
+        "D: Der Impuls von Licht ist nur bei sehr hohen Frequenzen relevant."
+      ],
+      "correct_answer": "C",
+      "explanation": "Der Impuls von Licht wird durch die Beziehung p = E/c beschrieben, wobei p der Impuls, E die Energie und c die Lichtgeschwindigkeit ist. Diese Beziehung zeigt, dass der Impuls von Licht direkt von seiner Energie abhängt und somit proportional zur Frequenz ist, gemäß der Planckschen Beziehung E = hf.",
+      "difficulty": 9,
+      "subcategory": "Energie und Impuls von Licht"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Eindimensionale Leiter",
+      "question": "Was beschreibt den elektrischen Widerstand in einem eindimensionalen Leiter?",
+      "choices": [
+        "A: Der Widerstand hängt nicht von der Materialart ab.",
+        "B: Der Widerstand ist unabhängig von der Temperatur.",
+        "C: Der Widerstand ist konstant, unabhängig von der Länge des Leiters.",
+        "D: Der Widerstand ist proportional zur Länge und umgekehrt proportional zur Querschnittsfläche."
+      ],
+      "correct_answer": "D",
+      "explanation": "Der elektrische Widerstand eines Leiters ist direkt proportional zur Länge des Leiters und umgekehrt proportional zur Querschnittsfläche. Dies wird durch das Ohmsche Gesetz beschrieben, das die Beziehung zwischen Spannung, Strom und Widerstand definiert.",
+      "difficulty": 5,
+      "subcategory": "Eindimensionale Leiter"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Quark‑Antiquark‑Potential (Confinement)",
+      "question": "Welches Konzept beschreibt das Phänomen, dass Quarks und Antiquarks niemals isoliert vorkommen können, sondern stets in gebundenen Zuständen existieren?",
+      "choices": [
+        "A: Quark-Confinement",
+        "B: Quark-Interferenz",
+        "C: Quark-Dekohärenz",
+        "D: Quark-Resonanz"
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Quark-Confinement ist ein fundamentales Konzept in der Quantenchromodynamik, das besagt, dass Quarks aufgrund der starken Wechselwirkung nie isoliert vorkommen können. Stattdessen sind sie immer Teil von Hadronen wie Protonen und Neutronen gebunden, was zu ihrer Beobachtbarkeit führt.",
+      "difficulty": 8,
+      "subcategory": "Quark‑Antiquark‑Potential (Confinement)"
+    }
+  ]
+}

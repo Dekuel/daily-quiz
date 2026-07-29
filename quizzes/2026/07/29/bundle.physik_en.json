@@ -1,0 +1,168 @@
+{
+  "date": "2026-07-29",
+  "generated_at": "2026-07-29T04:04:45Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Integraldarstellung der Divergenz",
+      "question": "Which of the following statements correctly describes the integral representation of the divergence of a vector field F in a volume V?",
+      "choices": [
+        "A: The divergence of F is equal to the flux of F over the surface S enclosing the volume V.",
+        "B: The divergence of F is independent of the shape of the volume V.",
+        "C: The divergence of F is equal to the difference of the values of F at a point within V.",
+        "D: The divergence of F is equal to the product of the integrals of F over the axes of V."
+      ],
+      "correct_answer": "A",
+      "explanation": "The integral representation of the divergence is based on Gauss's theorem and states that the divergence of a vector field is equal to the flux of the field through the bounding surface of the volume. This is a fundamental concept in electrodynamics for analyzing electric and magnetic fields.",
+      "difficulty": 8,
+      "subcategory": "Integraldarstellung der Divergenz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Faraday’sches Induktionsgesetz",
+      "question": "What does Faraday's law of electromagnetic induction describe in relation to a closed circuit?",
+      "choices": [
+        "A: The induced voltage is directly proportional to the change in magnetic flux.",
+        "B: The induced voltage is constant, regardless of the area of the circuit.",
+        "C: There is no induced voltage if the magnetic field does not change.",
+        "D: The induced voltage is independent of the rate of change of the magnetic field."
+      ],
+      "correct_answer": "A",
+      "explanation": "Faraday's law states that the induced electromotive force in any closed circuit is equal to the negative rate of change of the magnetic flux through the circuit. This means that a faster change in magnetic flux produces a higher induction voltage.",
+      "difficulty": 7,
+      "subcategory": "Faraday’sches Induktionsgesetz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Kapillarität",
+      "question": "What describes the capillarity effect in liquids?",
+      "choices": [
+        "A: The pressure change in a liquid due to temperature variation.",
+        "B: The movement of particles in a liquid under the influence of an electric field.",
+        "C: The reflection of light on the surface of a liquid.",
+        "D: The ability of liquids to rise or fall through narrow spaces."
+      ],
+      "correct_answer": "D",
+      "explanation": "Capillarity is the phenomenon where liquids rise or fall in narrow tubes or gaps, depending on the interactions between the liquid and the solid surface. This occurs due to the adhesion and cohesion of molecules.",
+      "difficulty": 4,
+      "subcategory": "Kapillarität"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Extremaleigenschaften von U und H",
+      "question": "Which statement about the relationship between internal energy (U) and enthalpy (H) is correct?",
+      "choices": [
+        "A: H is independent of temperature.",
+        "B: H = U + pV at constant pressure.",
+        "C: U is always greater than H.",
+        "D: U can never be negative."
+      ],
+      "correct_answer": "B",
+      "explanation": "Enthalpy H is defined as H = U + pV, where p is pressure and V is volume. This holds especially for processes occurring at constant pressure and describes the energy content of a system under these conditions.",
+      "difficulty": 7,
+      "subcategory": "Extremaleigenschaften von U und H"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Ko- und kontravariante Tensoren (Grundbegriffe)",
+      "question": "What describes a contravariant tensor in the theory of relativity?",
+      "choices": [
+        "A: It remains unchanged under coordinate transformations.",
+        "B: It has exclusively positive components.",
+        "C: It transforms with the inverse Jacobian matrix under coordinate changes.",
+        "D: It describes only scalar quantities."
+      ],
+      "correct_answer": "C",
+      "explanation": "A contravariant tensor changes with the inverse Jacobian matrix when changing coordinates. This means its components vary depending on the choice of coordinate system to maintain the physical significance.",
+      "difficulty": 6,
+      "subcategory": "Ko- und kontravariante Tensoren (Grundbegriffe)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Interferenzen dünner Schichten",
+      "question": "What condition must be met for constructive interference to occur in a thin film?",
+      "choices": [
+        "A: The path difference between the reflected light beams must be half a wavelength.",
+        "B: The light beam must strike the film perpendicularly.",
+        "C: The thickness of the film must be less than the wavelength of light.",
+        "D: The path difference between the reflected light beams must be an integer multiple of the wavelength."
+      ],
+      "correct_answer": "D",
+      "explanation": "For constructive interference, the light waves reflected at the surfaces of a thin film must have a path difference of nλ (n = 0, 1, 2, ...), where λ is the wavelength of light. This leads to an amplification of the intensity of the reflected light.",
+      "difficulty": 7,
+      "subcategory": "Interferenzen dünner Schichten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Mischungsentropie",
+      "question": "What happens to entropy when two different gases are mixed in a closed container?",
+      "choices": [
+        "A: Entropy decreases.",
+        "B: Entropy increases.",
+        "C: Entropy remains constant.",
+        "D: Entropy cannot be determined."
+      ],
+      "correct_answer": "B",
+      "explanation": "When mixing two different gases, entropy increases as the gas particles have a greater number of possible arrangements. This is a typical behavior in thermodynamics supporting the second law of thermodynamics.",
+      "difficulty": 4,
+      "subcategory": "Mischungsentropie"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Energie und Impuls von Licht",
+      "question": "What describes the concept of the momentum of light in the context of electromagnetic radiation?",
+      "choices": [
+        "A: The momentum of light is constant across all frequencies.",
+        "B: The momentum of light is independent of its frequency.",
+        "C: The momentum of light is equal to the energy divided by the speed of light.",
+        "D: The momentum of light is only relevant at very high frequencies."
+      ],
+      "correct_answer": "C",
+      "explanation": "The momentum of light is described by the relationship p = E/c, where p is momentum, E is energy, and c is the speed of light. This relationship shows that the momentum of light directly depends on its energy and is thus proportional to the frequency according to the Planck relation E = hf.",
+      "difficulty": 9,
+      "subcategory": "Energie und Impuls von Licht"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Eindimensionale Leiter",
+      "question": "What describes the electrical resistance in a one-dimensional conductor?",
+      "choices": [
+        "A: Resistance does not depend on the type of material.",
+        "B: Resistance is independent of temperature.",
+        "C: Resistance is constant, regardless of the length of the conductor.",
+        "D: Resistance is proportional to the length and inversely proportional to the cross-sectional area."
+      ],
+      "correct_answer": "D",
+      "explanation": "The electrical resistance of a conductor is directly proportional to the length of the conductor and inversely proportional to the cross-sectional area. This is described by Ohm's law, which defines the relationship between voltage, current, and resistance.",
+      "difficulty": 5,
+      "subcategory": "Eindimensionale Leiter"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Quark‑Antiquark‑Potential (Confinement)",
+      "question": "Which concept describes the phenomenon that quarks and antiquarks can never exist in isolation but always in bound states?",
+      "choices": [
+        "A: Quark confinement",
+        "B: Quark interference",
+        "C: Quark decoherence",
+        "D: Quark resonance"
+      ],
+      "correct_answer": "A",
+      "explanation": "Quark confinement is a fundamental concept in quantum chromodynamics stating that quarks, due to strong interaction, can never exist in isolation. Instead, they are always part of hadrons like protons and neutrons, leading to their observability.",
+      "difficulty": 8,
+      "subcategory": "Quark‑Antiquark‑Potential (Confinement)"
+    }
+  ]
+}
