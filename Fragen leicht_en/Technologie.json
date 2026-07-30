@@ -2968,6 +2968,20 @@
       "correct_answer": "B",
       "explanation": "Near Field Communication (NFC) is a technology that allows data to be transferred over short distances, especially for mobile payments. It is commonly used in smartphones and payment terminals to ensure secure and fast transaction processing.",
       "difficulty": 7
+    },
+    {
+      "category": "Technologie",
+      "topic": "KI & Zukunftstechnologien",
+      "question": "Which technique is commonly used to prevent overfitting in machine learning models?",
+      "choices": [
+        "A: Feature Engineering",
+        "B: Transfer Learning",
+        "C: Cross-validation",
+        "D: Hyperparameter Optimization"
+      ],
+      "correct_answer": "C",
+      "explanation": "Cross-validation is a technique that involves training and testing a model on different subsets of data to evaluate its generalizability. It helps identify and prevent overfitting by providing a more realistic assessment of model performance on new, unseen data.",
+      "difficulty": 8
     }
   ]
 }

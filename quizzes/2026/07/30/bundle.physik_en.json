@@ -1,0 +1,168 @@
+{
+  "date": "2026-07-30",
+  "generated_at": "2026-07-30T04:03:48Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Temperaturbegriff (thermisches Gleichgewicht)",
+      "question": "Which of the following statements correctly describes the concept of thermal equilibrium?",
+      "choices": [
+        "What does the time-independent perturbation theory in quantum mechanics state for non-degenerate levels?",
+        "The time-independent perturbation theory deals with how the energy eigenvalues and eigenfunctions of a quantum mechanical system change when a small perturbation is added. For non-degenerate levels, calculating the new energy levels is relatively simple and is done by applying perturbation theory formulas.",
+        "What does the Noether's theorem state regarding the homogeneity of time?",
+        "The Noether's theorem states that the homogeneity of time, i.e., the independence of physical laws from time, leads to the conservation of energy. In a closed system, the total energy remains constant."
+      ],
+      "correct_answer": "D",
+      "explanation": "Thermal equilibrium means that two systems have the same temperature and thus no heat exchange takes place anymore. This is a fundamental concept of thermodynamics that is important for understanding heat transfer and energy conservation.",
+      "difficulty": 7,
+      "subcategory": "Temperaturbegriff (thermisches Gleichgewicht)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Zeitunabhängige Störungstheorie: nicht-entartete Niveaus",
+      "question": "Which principle describes the relationship between the action and the motion state of a system in analytical mechanics?",
+      "choices": [
+        "Which property of light shows that it can be considered both as a wave and a particle?",
+        "Interference is a phenomenon that occurs when waves overlap and form new patterns. It is a property of waves that shows light also possesses wave-like properties, while the photoelectric effect confirms the particle nature of light.",
+        "Which statement regarding the Gibbs-Duhem relation is correct?",
+        "The Gibbs-Duhem relation describes the relationship between the chemical potentials and the composition of a homogeneous system. It is an important concept in statistical mechanics that helps understand the thermodynamic properties of systems."
+      ],
+      "correct_answer": "B",
+      "explanation": "The principle of least action states that the actual path a system takes is the one for which the action is minimal. It elegantly connects kinematics and dynamics and is a fundamental concept in analytical mechanics.",
+      "difficulty": 3,
+      "subcategory": "Zeitunabhängige Störungstheorie: nicht-entartete Niveaus"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Noether-Idee: Homogenität der Zeit ⇒ Energieerhaltung",
+      "question": "What does the Gauss's law state in electrodynamics?",
+      "choices": [
+        "Which expression describes the Poynting vector that describes the energy transport in electromagnetic waves?",
+        "The Poynting vector is defined as the cross product of the electric field E and the magnetic field B (S = E × B). This vector indicates the direction and intensity of energy transport in electromagnetic waves.",
+        "What does the phenomenon of Bose-Einstein condensation describe?",
+        "Bose-Einstein condensation occurs when bosons transition into the same quantum state at temperatures close to absolute zero. This leads to fascinating properties that differ from classical gases."
+      ],
+      "correct_answer": "B",
+      "explanation": "Gauss's law states that the electric flux through a closed surface is proportional to the enclosed electric charge. This is a fundamental aspect in electrodynamics that allows for the analysis of electric fields.",
+      "difficulty": 2,
+      "subcategory": "Noether-Idee: Homogenität der Zeit ⇒ Energieerhaltung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Wirkungsprinzipien (Überblick)",
+      "question": "What does the concept of duality in quantum mechanics regarding light describe?",
+      "choices": [
+        "A: Impulserhaltungssatz",
+        "B: Prinzip der kleinsten Wirkung",
+        "C: Energieerhaltungssatz",
+        "D: Newtonsches Gesetz"
+      ],
+      "correct_answer": "B",
+      "explanation": "The concept of duality states that light possesses both wave and particle characteristics. This means that light acts as a wave in certain experiments and as a particle (photon) in others.",
+      "difficulty": 3,
+      "subcategory": "Wirkungsprinzipien (Überblick)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Welle-Teilchen-Dualismus (Licht)",
+      "question": "Welche Eigenschaft von Licht zeigt, dass es sowohl als Welle als auch als Teilchen betrachtet werden kann?",
+      "choices": [
+        "A: Reflexion",
+        "B: Interferenz",
+        "C: Absorption",
+        "D: Brechung"
+      ],
+      "correct_answer": "B",
+      "explanation": "Interferenz ist ein Phänomen, das auftritt, wenn sich Wellen überlagern und neue Muster bilden. Es ist eine Eigenschaft von Wellen, die zeigt, dass Licht auch wellenartige Eigenschaften besitzt, während der photoelektrische Effekt die Teilchennatur des Lichts bestätigt.",
+      "difficulty": 4,
+      "subcategory": "Welle-Teilchen-Dualismus (Licht)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Gibbs-Duhem-Relation (homogene Systeme)",
+      "question": "Welche Aussage bezüglich der Gibbs-Duhem-Relation ist korrekt?",
+      "choices": [
+        "A: Sie ist unabhängig von der Anzahl der Teilchen im System.",
+        "B: Sie ist nur für heterogene Systeme anwendbar.",
+        "C: Sie besagt, dass die Temperatur konstant bleibt, wenn das Volumen variiert.",
+        "D: Sie beschreibt die Beziehung zwischen chemischen Potenzialen in einem homogenen System."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Gibbs-Duhem-Relation beschreibt die Beziehung zwischen den chemischen Potenzialen und der Zusammensetzung eines homogenen Systems. Sie ist ein wichtiges Konzept in der statistischen Mechanik, das hilft, die thermodynamischen Eigenschaften von Systemen zu verstehen.",
+      "difficulty": 4,
+      "subcategory": "Gibbs-Duhem-Relation (homogene Systeme)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Gauß’scher Satz",
+      "question": "Was beschreibt der Gauß’sche Satz in der Elektrodynamik?",
+      "choices": [
+        "A: Die Bewegung von geladenen Teilchen in einem Magnetfeld.",
+        "B: Die Energieerhaltung in elektrischen Schaltungen.",
+        "C: Die Wechselwirkung zwischen Licht und Materie.",
+        "D: Der Zusammenhang zwischen elektrischer Flussdichte und der eingeschlossenen Ladung."
+      ],
+      "correct_answer": "D",
+      "explanation": "Der Gauß’sche Satz besagt, dass der elektrische Fluss durch eine geschlossene Fläche proportional zur eingeschlossenen elektrischen Ladung ist. Dies ist ein grundlegender Aspekt in der Elektrodynamik, der es ermöglicht, elektrische Felder zu analysieren.",
+      "difficulty": 4,
+      "subcategory": "Gauß’scher Satz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Energietransport in Wellenfeldern (Poynting-Vektor)",
+      "question": "Welcher Ausdruck beschreibt den Poynting-Vektor, der den Energietransport in elektromagnetischen Wellen beschreibt?",
+      "choices": [
+        "A: E × B",
+        "B: E / B",
+        "C: E · B",
+        "D: E + B"
+      ],
+      "correct_answer": "A",
+      "explanation": "Der Poynting-Vektor ist definiert als das Kreuzprodukt des elektrischen Feldes E und des magnetischen Feldes B (S = E × B). Dieser Vektor gibt die Richtung und die Intensität des Energietransports in elektromagnetischen Wellen an.",
+      "difficulty": 8,
+      "subcategory": "Energietransport in Wellenfeldern (Poynting-Vektor)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Bose–Einstein-Kondensation (BEC)",
+      "question": "Was beschreibt das Phänomen der Bose–Einstein-Kondensation?",
+      "choices": [
+        "A: Die Bildung eines Zustands, in dem Bosonen bei sehr niedrigen Temperaturen in den gleichen quantenmechanischen Zustand übergehen.",
+        "B: Die Wechselwirkung zwischen Fermionen in einem Gas bei hohen Temperaturen.",
+        "C: Die Umwandlung von Licht in Materie unter extremen Bedingungen.",
+        "D: Die Aggregation von Molekülen zu festen Kristallen bei Raumtemperatur."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Bose–Einstein-Kondensation tritt auf, wenn Bosonen bei Temperaturen nahe dem absoluten Nullpunkt in denselben quantenmechanischen Zustand übergehen. Dies führt zu faszinierenden Eigenschaften, die sich von klassischen Gasen unterscheiden.",
+      "difficulty": 4,
+      "subcategory": "Bose–Einstein-Kondensation (BEC)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Lichtwellen & Lichtquanten (Dualismus)",
+      "question": "Was beschreibt das Konzept des Dualismus in der Quantenmechanik bezüglich Licht?",
+      "choices": [
+        "A: Licht kann sowohl als Welle als auch als Teilchen betrachtet werden.",
+        "B: Licht bewegt sich immer in geraden Linien.",
+        "C: Licht kann nur in einem Medium reisen.",
+        "D: Licht hat nur die Eigenschaft einer Welle."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Konzept des Dualismus besagt, dass Licht sowohl Wellen- als auch Teilchencharakter besitzt. Dies bedeutet, dass Licht in bestimmten Experimenten wie eine Welle und in anderen wie ein Teilchen (Photon) agiert.",
+      "difficulty": 3,
+      "subcategory": "Lichtwellen & Lichtquanten (Dualismus)"
+    }
+  ]
+}

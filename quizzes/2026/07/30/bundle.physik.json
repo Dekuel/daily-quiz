@@ -1,0 +1,169 @@
+{
+  "date": "2026-07-30",
+  "generated_at": "2026-07-30T04:03:12Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Temperaturbegriff (thermisches Gleichgewicht)",
+      "question": "Welcher der folgenden Aussagen beschreibt korrekt das Konzept des thermischen Gleichgewichts?",
+      "choices": [
+        "A: Thermisches Gleichgewicht bedeutet, dass die Atome eines Systems in verschiedenen Phasen vorliegen.",
+        "B: Thermisches Gleichgewicht tritt auf, wenn die kinetische Energie der Moleküle in einem System maximal ist.",
+        "C: Im thermischen Gleichgewicht sind die Systeme immer in Bewegung, um Wärme auszutauschen.",
+        "D: Zwei Systeme befinden sich im thermischen Gleichgewicht, wenn sie keinen Wärmeaustausch mehr haben, weil sie die gleiche Temperatur erreicht haben."
+      ],
+      "correct_answer": "D",
+      "explanation": "Thermisches Gleichgewicht bedeutet, dass zwei Systeme dieselbe Temperatur haben und somit kein Wärmeaustausch mehr stattfindet. Dies ist ein grundlegendes Konzept der Thermodynamik, das für das Verständnis von Wärmeübertragung und Energieerhaltung wichtig ist.",
+      "difficulty": 7,
+      "subcategory": "Temperaturbegriff (thermisches Gleichgewicht)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Zeitunabhängige Störungstheorie: nicht-entartete Niveaus",
+      "question": "Was beschreibt die zeitunabhängige Störungstheorie in der Quantenmechanik für nicht-entartete Niveaus?",
+      "choices": [
+        "A: Die Messung der Aufenthaltswahrscheinlichkeit eines Teilchens.",
+        "B: Die Änderung der Energieniveaus eines Systems unter dem Einfluss einer kleinen Störung.",
+        "C: Die Umwandlung von Teilchen in Wellen.",
+        "D: Die Erzeugung von Teilchen-Antiteilchen-Paaren."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die zeitunabhängige Störungstheorie behandelt, wie sich die Energieeigenwerte und Eigenfunktionen eines quantenmechanischen Systems ändern, wenn eine kleine Störung hinzugefügt wird. Für nicht-entartete Niveaus ist die Berechnung der neuen Energieniveaus relativ einfach und erfolgt durch die Anwendung von Störungstheorie-Formeln.",
+      "difficulty": 3,
+      "subcategory": "Zeitunabhängige Störungstheorie: nicht-entartete Niveaus"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Noether-Idee: Homogenität der Zeit ⇒ Energieerhaltung",
+      "question": "Was besagt die Noether-Idee in Bezug auf die Homogenität der Zeit?",
+      "choices": [
+        "A: Materie kann nicht in Energie umgewandelt werden.",
+        "B: Energie wird in einem geschlossenen System immer erhalten.",
+        "C: Die Geschwindigkeit von Licht ist konstant.",
+        "D: Kräfte erzeugen immer eine Beschleunigung."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Noether-Idee besagt, dass die Homogenität der Zeit, also die Unabhängigkeit der physikalischen Gesetze von der Zeit, zur Erhaltung der Energie führt. In einem geschlossenen System bleibt die Gesamtenergie somit konstant.",
+      "difficulty": 2,
+      "subcategory": "Noether-Idee: Homogenität der Zeit ⇒ Energieerhaltung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Wirkungsprinzipien (Überblick)",
+      "question": "Welches Prinzip beschreibt den Zusammenhang zwischen der Wirkung und dem Bewegungszustand eines Systems in der analytischen Mechanik?",
+      "choices": [
+        "A: Impulserhaltungssatz",
+        "B: Prinzip der kleinsten Wirkung",
+        "C: Energieerhaltungssatz",
+        "D: Newtonsches Gesetz"
+      ],
+      "correct_answer": "B",
+      "explanation": "Das Prinzip der kleinsten Wirkung besagt, dass die tatsächliche Bahn, die ein System nimmt, diejenige ist, für die die Wirkung minimal ist. Es verbindet die Kinematik und Dynamik auf elegante Weise und ist ein fundamentales Konzept in der analytischen Mechanik.",
+      "difficulty": 3,
+      "subcategory": "Wirkungsprinzipien (Überblick)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Welle-Teilchen-Dualismus (Licht)",
+      "question": "Welche Eigenschaft von Licht zeigt, dass es sowohl als Welle als auch als Teilchen betrachtet werden kann?",
+      "choices": [
+        "A: Reflexion",
+        "B: Interferenz",
+        "C: Absorption",
+        "D: Brechung"
+      ],
+      "correct_answer": "B",
+      "explanation": "Interferenz ist ein Phänomen, das auftritt, wenn sich Wellen überlagern und neue Muster bilden. Es ist eine Eigenschaft von Wellen, die zeigt, dass Licht auch wellenartige Eigenschaften besitzt, während der photoelektrische Effekt die Teilchennatur des Lichts bestätigt.",
+      "difficulty": 4,
+      "subcategory": "Welle-Teilchen-Dualismus (Licht)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Gibbs-Duhem-Relation (homogene Systeme)",
+      "question": "Welche Aussage bezüglich der Gibbs-Duhem-Relation ist korrekt?",
+      "choices": [
+        "A: Sie ist unabhängig von der Anzahl der Teilchen im System.",
+        "B: Sie ist nur für heterogene Systeme anwendbar.",
+        "C: Sie besagt, dass die Temperatur konstant bleibt, wenn das Volumen variiert.",
+        "D: Sie beschreibt die Beziehung zwischen chemischen Potenzialen in einem homogenen System."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Gibbs-Duhem-Relation beschreibt die Beziehung zwischen den chemischen Potenzialen und der Zusammensetzung eines homogenen Systems. Sie ist ein wichtiges Konzept in der statistischen Mechanik, das hilft, die thermodynamischen Eigenschaften von Systemen zu verstehen.",
+      "difficulty": 4,
+      "subcategory": "Gibbs-Duhem-Relation (homogene Systeme)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Gauß’scher Satz",
+      "question": "Was beschreibt der Gauß’sche Satz in der Elektrodynamik?",
+      "choices": [
+        "A: Die Bewegung von geladenen Teilchen in einem Magnetfeld.",
+        "B: Die Energieerhaltung in elektrischen Schaltungen.",
+        "C: Die Wechselwirkung zwischen Licht und Materie.",
+        "D: Der Zusammenhang zwischen elektrischer Flussdichte und der eingeschlossenen Ladung."
+      ],
+      "correct_answer": "D",
+      "explanation": "Der Gauß’sche Satz besagt, dass der elektrische Fluss durch eine geschlossene Fläche proportional zur eingeschlossenen elektrischen Ladung ist. Dies ist ein grundlegender Aspekt in der Elektrodynamik, der es ermöglicht, elektrische Felder zu analysieren.",
+      "difficulty": 4,
+      "subcategory": "Gauß’scher Satz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Energietransport in Wellenfeldern (Poynting-Vektor)",
+      "question": "Welcher Ausdruck beschreibt den Poynting-Vektor, der den Energietransport in elektromagnetischen Wellen beschreibt?",
+      "choices": [
+        "A: E × B",
+        "B: E / B",
+        "C: E · B",
+        "D: E + B"
+      ],
+      "correct_answer": "A",
+      "explanation": "Der Poynting-Vektor ist definiert als das Kreuzprodukt des elektrischen Feldes E und des magnetischen Feldes B (S = E × B). Dieser Vektor gibt die Richtung und die Intensität des Energietransports in elektromagnetischen Wellen an.",
+      "difficulty": 8,
+      "subcategory": "Energietransport in Wellenfeldern (Poynting-Vektor)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Bose–Einstein-Kondensation (BEC)",
+      "question": "Was beschreibt das Phänomen der Bose–Einstein-Kondensation?",
+      "choices": [
+        "A: Die Bildung eines Zustands, in dem Bosonen bei sehr niedrigen Temperaturen in den gleichen quantenmechanischen Zustand übergehen.",
+        "B: Die Wechselwirkung zwischen Fermionen in einem Gas bei hohen Temperaturen.",
+        "C: Die Umwandlung von Licht in Materie unter extremen Bedingungen.",
+        "D: Die Aggregation von Molekülen zu festen Kristallen bei Raumtemperatur."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Bose–Einstein-Kondensation tritt auf, wenn Bosonen bei Temperaturen nahe dem absoluten Nullpunkt in denselben quantenmechanischen Zustand übergehen. Dies führt zu faszinierenden Eigenschaften, die sich von klassischen Gasen unterscheiden.",
+      "difficulty": 4,
+      "subcategory": "Bose–Einstein-Kondensation (BEC)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Lichtwellen & Lichtquanten (Dualismus)",
+      "question": "Was beschreibt das Konzept des Dualismus in der Quantenmechanik bezüglich Licht?",
+      "choices": [
+        "A: Licht kann sowohl als Welle als auch als Teilchen betrachtet werden.",
+        "B: Licht bewegt sich immer in geraden Linien.",
+        "C: Licht kann nur in einem Medium reisen.",
+        "D: Licht hat nur die Eigenschaft einer Welle."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Konzept des Dualismus besagt, dass Licht sowohl Wellen- als auch Teilchencharakter besitzt. Dies bedeutet, dass Licht in bestimmten Experimenten wie eine Welle und in anderen wie ein Teilchen (Photon) agiert.",
+      "difficulty": 3,
+      "subcategory": "Lichtwellen & Lichtquanten (Dualismus)"
+    }
+  ]
+}

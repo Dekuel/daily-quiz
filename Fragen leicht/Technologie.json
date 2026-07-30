@@ -2982,6 +2982,20 @@
       "correct_answer": "B",
       "explanation": "Near Field Communication (NFC) ist eine Technologie, die es ermöglicht, Daten über kurze Distanzen zu übertragen, insbesondere für mobile Zahlungen. Sie wird häufig in Smartphones und Zahlungsterminals verwendet, um eine sichere und schnelle Abwicklung von Transaktionen zu gewährleisten.",
       "difficulty": 7
+    },
+    {
+      "category": "Technologie",
+      "topic": "KI & Zukunftstechnologien",
+      "question": "Welches Verfahren wird häufig verwendet, um Überanpassung in maschinellen Lernmodellen zu verhindern?",
+      "choices": [
+        "A: Feature Engineering",
+        "B: Transfer Learning",
+        "C: Kreuzvalidierung",
+        "D: Hyperparameter-Optimierung"
+      ],
+      "correct_answer": "C",
+      "explanation": "Kreuzvalidierung ist eine Technik, die es ermöglicht, ein Modell auf verschiedenen Teilmengen der Daten zu trainieren und zu testen, um seine Generalisierbarkeit zu bewerten. Sie hilft, Überanpassung zu identifizieren und zu verhindern, indem sie eine realistischere Einschätzung der Modellleistung auf neuen, unbekannten Daten liefert.",
+      "difficulty": 8
     }
   ]
 }
