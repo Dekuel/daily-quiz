@@ -1,0 +1,169 @@
+{
+  "date": "2026-07-31",
+  "generated_at": "2026-07-31T04:09:59Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Quanten-Hall-Effekt",
+      "question": "Welches Phänomen beschreibt die quantisierte Hall-Leitfähigkeit im Quanten-Hall-Effekt?",
+      "choices": [
+        "A: Die Hall-Leitfähigkeit ist direkt proportional zur elektrischen Feldstärke.",
+        "B: Die Hall-Leitfähigkeit ist unabhängig von der Magnetfeldstärke.",
+        "C: Die Hall-Leitfähigkeit ist in diskreten Einheiten proportional zur Anzahl der Landau-Niveaus.",
+        "D: Die Hall-Leitfähigkeit bleibt konstant unabhängig von der Temperatur."
+      ],
+      "correct_answer": "C",
+      "explanation": "Der Quanten-Hall-Effekt tritt auf, wenn zwei Dimensionen in einem starken Magnetfeld quantisiert werden, was zu einer quantisierten Hall-Leitfähigkeit führt. Diese quantisierten Werte sind direkt proportional zur Anzahl der Landau-Niveaus, was charakteristisch für diesen Effekt ist.",
+      "difficulty": 8,
+      "subcategory": "Quanten-Hall-Effekt"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Elastische Konstanten",
+      "question": "Welche der folgenden elastischen Konstanten beschreibt das Verhältnis von Zugspannung zu Dehnung in einem elastischen Material?",
+      "choices": [
+        "A: Poisson'sches Verhältnis",
+        "B: Schubmodul",
+        "C: Youngscher Modul",
+        "D: Bulkmodul"
+      ],
+      "correct_answer": "C",
+      "explanation": "Der Youngsche Modul ist eine Maßzahl, die angibt, wie stark ein Material im Längsrichtung auf Zug oder Druck reagiert. Er beschreibt das Verhältnis von Zugspannung zu Dehnung und ist somit entscheidend für die Beschreibung der elastischen Eigenschaften von Materialien.",
+      "difficulty": 3,
+      "subcategory": "Elastische Konstanten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Josephson-Effekt",
+      "question": "Was beschreibt der Josephson-Effekt im Kontext superleitender Materialien?",
+      "choices": [
+        "A: Die Fähigkeit, elektrische Ströme ohne Spannungsabfall zu leiten.",
+        "B: Die Wechselwirkung zwischen magnetischen Feldern und elektrischen Strömen in Halbleitern.",
+        "C: Die Erzeugung eines elektrischen Stroms durch das Überqueren eines Isolators zwischen zwei Superleitern.",
+        "D: Die Änderung des Widerstands von Materialien bei unterschiedlichen Temperaturen."
+      ],
+      "correct_answer": "C",
+      "explanation": "Der Josephson-Effekt beschreibt die Fähigkeit, dass ein supraleitender Strom durch einen dünnen Isolator fließen kann, ohne dass eine Spannung angelegt werden muss. Dies tritt auf, wenn zwei supraleitende Materialien durch einen isolierenden Tunnelbarriere getrennt sind, was zu quantenmechanischen Effekten führt.",
+      "difficulty": 7,
+      "subcategory": "Josephson-Effekt"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Kronig–Penney-Modell (Bänder)",
+      "question": "Was beschreibt das Kronig–Penney-Modell in der Quantenmechanik?",
+      "choices": [
+        "A: Die Wechselwirkung von Licht mit Elektronen.",
+        "B: Die Bewegung von Teilchen in einem Vakuum.",
+        "C: Die Eigenschaften von idealen Gasen.",
+        "D: Die Bildung von Energiebandstrukturen in Festkörpern."
+      ],
+      "correct_answer": "D",
+      "explanation": "Das Kronig–Penney-Modell ist ein einfaches Modell zur Erklärung der Bildung von Energiebandstrukturen in periodischen Potentialen. Es zeigt, wie sich Elektronen in einem Festkörper verhalten und wie Bandlücken entstehen können.",
+      "difficulty": 4,
+      "subcategory": "Kronig–Penney-Modell (Bänder)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Lichtleitung durch Totalreflexion",
+      "question": "Was ist notwendig, damit Totalreflexion auftritt?",
+      "choices": [
+        "A: Der Lichtstrahl muss von einem dichteren in ein dünneres Medium übertreten.",
+        "B: Der Lichtstrahl muss in einem Vakuum sein.",
+        "C: Der Lichtstrahl muss von einem dünneren in ein dichtere Medium übertreten.",
+        "D: Der Lichtstrahl muss senkrecht auf die Grenzfläche treffen."
+      ],
+      "correct_answer": "A",
+      "explanation": "Totalreflexion tritt auf, wenn Licht von einem dichteren Medium in ein dünneres Medium übertritt und der Einfallswinkel größer ist als der kritische Winkel. In diesem Fall wird das Licht vollständig reflektiert und tritt nicht in das dünnere Medium ein.",
+      "difficulty": 2,
+      "subcategory": "Lichtleitung durch Totalreflexion"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Ableitungen thermodynamischer Größen & Maxwell-Relationen",
+      "question": "Welche Maxwell-Relation beschreibt die Beziehung zwischen der Temperatur und der Entropie eines Systems bei konstanter Teilchenanzahl und konstantem Volumen?",
+      "choices": [
+        "A: (∂S/∂T)_V = (∂P/∂V)_T",
+        "B: (∂T/∂V)_S = (∂P/∂S)_V",
+        "C: (∂S/∂V)_N = (∂P/∂T)_N",
+        "D: (∂S/∂N)_T = (∂μ/∂T)_N"
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Maxwell-Relation (∂S/∂V)_N = (∂P/∂T)_N verbindet die Entropie mit dem Druck und der Temperatur unter den gegebenen Bedingungen. Diese Beziehung ist ein wichtiges Ergebnis der thermodynamischen Ableitungen und zeigt, wie sich thermodynamische Größen gegenseitig beeinflussen.",
+      "difficulty": 4,
+      "subcategory": "Ableitungen thermodynamischer Größen & Maxwell-Relationen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Fokker–Planck aus Langevin; Smoluchowski-Gleichung",
+      "question": "Welche Gleichung beschreibt die zeitliche Entwicklung der Wahrscheinlichkeit Dichte in einem stochastischen System, das durch thermische Fluktuationen beeinflusst wird?",
+      "choices": [
+        "A: Fokker-Planck-Gleichung",
+        "B: Maxwell-Gleichung",
+        "C: Schrödinger-Gleichung",
+        "D: Navier-Stokes-Gleichung"
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Fokker-Planck-Gleichung beschreibt die zeitliche Entwicklung der Wahrscheinlichkeitsdichte in Systemen, die durch zufällige Prozesse, wie z.B. thermische Fluktuationen, beeinflusst werden. Sie ist eng mit der Langevin-Gleichung und der Smoluchowski-Gleichung verbunden, die in der statistischen Mechanik verwendet werden.",
+      "difficulty": 6,
+      "subcategory": "Fokker–Planck aus Langevin; Smoluchowski-Gleichung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Planck’sches Wirkungsquantum",
+      "question": "Was beschreibt das Planck’sche Wirkungsquantum in der Quantenmechanik?",
+      "choices": [
+        "A: Die Geschwindigkeit von Licht im Vakuum.",
+        "B: Die Temperatur eines schwarzen Körpers.",
+        "C: Die Masse eines Elektrons.",
+        "D: Die Beziehung zwischen Energie und Frequenz eines Photons."
+      ],
+      "correct_answer": "D",
+      "explanation": "Das Planck’sche Wirkungsquantum ist eine fundamentale Konstante, die die Beziehung zwischen der Energie eines Photons und seiner Frequenz beschreibt. Es spielt eine zentrale Rolle in der Quantenmechanik und zeigt, dass Energie in diskreten Quanten übertragen wird.",
+      "difficulty": 3,
+      "subcategory": "Planck’sches Wirkungsquantum"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Innere Reibung (Kontinuumsmechanik)",
+      "question": "Was beschreibt die innere Reibung in einem Material?",
+      "choices": [
+        "A: Die Widerstandskraft gegen die Bewegung innerhalb des Materials.",
+        "B: Die Geschwindigkeit, mit der sich ein Material erwärmt.",
+        "C: Die Kraft, die auf ein Material von außen wirkt.",
+        "D: Die Masse eines Materials."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die innere Reibung ist ein Maß für den Widerstand, den die Moleküle eines Materials gegeneinander aufbringen, wenn es deformiert wird. Sie spielt eine wichtige Rolle in der Kontinuumsmechanik, insbesondere bei der Beschreibung von Fließeigenschaften von Materialien.",
+      "difficulty": 2,
+      "subcategory": "Innere Reibung (Kontinuumsmechanik)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Biot–Savart-Gesetz",
+      "question": "Welches der folgenden Aussagen beschreibt korrekt die Anwendung des Biot-Savart-Gesetzes?",
+      "choices": [
+        "A: Es gilt nur für zeitlich variierende elektrische Felder.",
+        "B: Es kann nicht zur Berechnung des Magnetfelds um einen geraden Draht verwendet werden.",
+        "C: Es beschreibt die magnetische Feldstärke, die durch einen stationären elektrischen Strom erzeugt wird.",
+        "D: Es ist unabhängig von der Form des Leiters."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Biot-Savart-Gesetz beschreibt die magnetische Feldstärke, die durch einen elektrischen Strom erzeugt wird und ist insbesondere relevant für stationäre Ströme. Es gilt für beliebige Stromführende Drahtformen, jedoch ist die Anwendung auf gerade Drähte oft die einfachste Form der Berechnung.",
+      "difficulty": 7,
+      "subcategory": "Biot–Savart-Gesetz"
+    }
+  ]
+}

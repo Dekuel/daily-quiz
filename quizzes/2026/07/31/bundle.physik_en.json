@@ -1,0 +1,168 @@
+{
+  "date": "2026-07-31",
+  "generated_at": "2026-07-31T04:10:36Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Quanten-Hall-Effekt",
+      "question": "What phenomenon describes the quantized Hall conductivity in the quantum Hall effect?",
+      "choices": [
+        "A: The Hall conductivity is directly proportional to the electric field strength.",
+        "B: The Hall conductivity is independent of the magnetic field strength.",
+        "C: The Hall conductivity is in discrete units proportional to the number of Landau levels.",
+        "D: The Hall conductivity remains constant regardless of temperature."
+      ],
+      "correct_answer": "C",
+      "explanation": "The quantum Hall effect occurs when two dimensions are quantized in a strong magnetic field, leading to quantized Hall conductivity. These quantized values are directly proportional to the number of Landau levels, which is characteristic of this effect.",
+      "difficulty": 8,
+      "subcategory": "Quanten-Hall-Effekt"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Elastische Konstanten",
+      "question": "Which of the following elastic constants describes the ratio of tensile stress to strain in an elastic material?",
+      "choices": [
+        "A: Poisson's ratio",
+        "B: Shear modulus",
+        "C: Young's modulus",
+        "D: Bulk modulus"
+      ],
+      "correct_answer": "C",
+      "explanation": "Young's modulus is a measure indicating how strongly a material reacts to tension or compression in the longitudinal direction. It describes the ratio of tensile stress to strain and is crucial for describing the elastic properties of materials.",
+      "difficulty": 3,
+      "subcategory": "Elastische Konstanten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Josephson-Effekt",
+      "question": "What does the Josephson effect describe in the context of superconducting materials?",
+      "choices": [
+        "A: The ability to conduct electric currents without voltage drop.",
+        "B: The interaction between magnetic fields and electric currents in semiconductors.",
+        "C: The generation of an electric current by crossing an insulator between two superconductors.",
+        "D: The change in resistance of materials at different temperatures."
+      ],
+      "correct_answer": "C",
+      "explanation": "The Josephson effect describes the ability of a superconducting current to flow through a thin insulator without the need for an applied voltage. This occurs when two superconducting materials are separated by an insulating tunnel barrier, leading to quantum mechanical effects.",
+      "difficulty": 7,
+      "subcategory": "Josephson-Effekt"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Kronig–Penney-Modell (Bänder)",
+      "question": "What does the Kronig-Penney model describe in quantum mechanics?",
+      "choices": [
+        "A: The interaction of light with electrons.",
+        "B: The motion of particles in a vacuum.",
+        "C: The properties of ideal gases.",
+        "D: The formation of energy band structures in solids."
+      ],
+      "correct_answer": "D",
+      "explanation": "The Kronig-Penney model is a simple model explaining the formation of energy band structures in periodic potentials. It shows how electrons behave in a solid and how band gaps can form.",
+      "difficulty": 4,
+      "subcategory": "Kronig–Penney-Modell (Bänder)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Lichtleitung durch Totalreflexion",
+      "question": "What is necessary for total internal reflection to occur?",
+      "choices": [
+        "A: The light beam must pass from a denser to a rarer medium.",
+        "B: The light beam must be in a vacuum.",
+        "C: The light beam must pass from a rarer to a denser medium.",
+        "D: The light beam must strike the interface perpendicularly."
+      ],
+      "correct_answer": "A",
+      "explanation": "Total internal reflection occurs when light passes from a denser medium to a rarer medium and the angle of incidence is greater than the critical angle. In this case, the light is completely reflected and does not enter the rarer medium.",
+      "difficulty": 2,
+      "subcategory": "Lichtleitung durch Totalreflexion"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Ableitungen thermodynamischer Größen & Maxwell-Relationen",
+      "question": "Which Maxwell relation describes the relationship between the temperature and entropy of a system at constant particle number and constant volume?",
+      "choices": [
+        "A: (∂S/∂T)_V = (∂P/∂V)_T",
+        "B: (∂T/∂V)_S = (∂P/∂S)_V",
+        "C: (∂S/∂V)_N = (∂P/∂T)_N",
+        "D: (∂S/∂N)_T = (∂μ/∂T)_N"
+      ],
+      "correct_answer": "C",
+      "explanation": "The Maxwell relation (∂S/∂V)_N = (∂P/∂T)_N connects entropy with pressure and temperature under the given conditions. This relationship is an important result of thermodynamic derivations and shows how thermodynamic quantities influence each other.",
+      "difficulty": 4,
+      "subcategory": "Ableitungen thermodynamischer Größen & Maxwell-Relationen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Fokker–Planck aus Langevin; Smoluchowski-Gleichung",
+      "question": "Which equation describes the temporal evolution of probability density in a stochastic system influenced by thermal fluctuations?",
+      "choices": [
+        "A: Fokker-Planck equation",
+        "B: Maxwell's equation",
+        "C: Schrödinger equation",
+        "D: Navier-Stokes equation"
+      ],
+      "correct_answer": "A",
+      "explanation": "The Fokker-Planck equation describes the temporal evolution of probability density in systems influenced by random processes, such as thermal fluctuations. It is closely related to the Langevin equation and the Smoluchowski equation used in statistical mechanics.",
+      "difficulty": 6,
+      "subcategory": "Fokker–Planck aus Langevin; Smoluchowski-Gleichung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Planck’sches Wirkungsquantum",
+      "question": "What does Planck's constant describe in quantum mechanics?",
+      "choices": [
+        "A: The speed of light in a vacuum.",
+        "B: The temperature of a black body.",
+        "C: The mass of an electron.",
+        "D: The relationship between energy and frequency of a photon."
+      ],
+      "correct_answer": "D",
+      "explanation": "Planck's constant is a fundamental constant describing the relationship between the energy of a photon and its frequency. It plays a central role in quantum mechanics and shows that energy is transferred in discrete quanta.",
+      "difficulty": 3,
+      "subcategory": "Planck’sches Wirkungsquantum"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Innere Reibung (Kontinuumsmechanik)",
+      "question": "What does internal friction in a material describe?",
+      "choices": [
+        "A: The resistance force against movement within the material.",
+        "B: The rate at which a material heats up.",
+        "C: The force acting on a material from the outside.",
+        "D: The mass of a material."
+      ],
+      "correct_answer": "A",
+      "explanation": "Internal friction is a measure of the resistance that the molecules of a material exert against each other when it is deformed. It plays an important role in continuum mechanics, especially in describing the flow properties of materials.",
+      "difficulty": 2,
+      "subcategory": "Innere Reibung (Kontinuumsmechanik)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Biot–Savart-Gesetz",
+      "question": "Which of the following statements correctly describes the application of Biot-Savart's law?",
+      "choices": [
+        "A: It applies only to time-varying electric fields.",
+        "B: It cannot be used to calculate the magnetic field around a straight wire.",
+        "C: It describes the magnetic field strength generated by a steady electric current.",
+        "D: It is independent of the shape of the conductor."
+      ],
+      "correct_answer": "C",
+      "explanation": "Biot-Savart's law describes the magnetic field strength generated by an electric current and is particularly relevant for steady currents. It applies to any current-carrying wire shapes, but the application to straight wires is often the simplest form of calculation.",
+      "difficulty": 7,
+      "subcategory": "Biot–Savart-Gesetz"
+    }
+  ]
+}
