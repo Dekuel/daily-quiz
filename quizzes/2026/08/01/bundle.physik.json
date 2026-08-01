@@ -1,0 +1,169 @@
+{
+  "date": "2026-08-01",
+  "generated_at": "2026-08-01T04:09:16Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Wirkungsquerschnitt & differentielle Größen",
+      "question": "Was beschreibt der Wirkungsquerschnitt in der Teilchenphysik?",
+      "choices": [
+        "A: Die Temperatur eines Systems.",
+        "B: Die Geschwindigkeit, mit der sich Teilchen bewegen.",
+        "C: Die Wahrscheinlichkeit, dass eine Wechselwirkung zwischen Teilchen stattfindet.",
+        "D: Die Masse eines Teilchens."
+      ],
+      "correct_answer": "C",
+      "explanation": "Der Wirkungsquerschnitt ist ein Maß für die Wahrscheinlichkeit, dass bei einer Wechselwirkung zwischen Teilchen bestimmte Prozesse eintreten. Je größer der Wirkungsquerschnitt, desto wahrscheinlicher ist die Wechselwirkung.",
+      "difficulty": 3,
+      "subcategory": "Wirkungsquerschnitt & differentielle Größen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Zustandsgleichungen (Überblick)",
+      "question": "Welche der folgenden Zustandsgleichungen beschreibt das Verhalten eines idealen Gases unter der Annahme, dass die Moleküle keine Wechselwirkungen haben?",
+      "choices": [
+        "A: P(V - nb) = nRT",
+        "B: P = a(n/V)^2",
+        "C: PV = nR(T + b)",
+        "D: PV = nRT"
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Zustandsgleichung PV = nRT beschreibt das Verhalten idealer Gase, wobei P der Druck, V das Volumen, n die Stoffmenge, R die universelle Gaskonstante und T die Temperatur ist. Diese Gleichung geht von einer idealen Gasannahme aus, in der keine intermolekularen Kräfte berücksichtigt werden.",
+      "difficulty": 10,
+      "subcategory": "Zustandsgleichungen (Überblick)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Steinerscher Satz",
+      "question": "Was besagt der Steinersche Satz in der klassischen Mechanik?",
+      "choices": [
+        "A: Die Geschwindigkeit eines Körpers ist immer konstant.",
+        "B: Die Energie eines Systems bleibt immer gleich.",
+        "C: Das Moment eines Körpers um einen Punkt ist gleich dem Moment um den Schwerpunkt plus dem Produkt der Masse und der quadratischen Entfernung zum Punkt.",
+        "D: Der Gesamtimpuls eines geschlossenen Systems bleibt konstant."
+      ],
+      "correct_answer": "C",
+      "explanation": "Der Steinersche Satz beschreibt, wie man das Drehmoment eines Körpers um einen beliebigen Punkt berechnen kann, indem man das Drehmoment um den Schwerpunkt und das Produkt aus Masse und dem Quadrat der Entfernung zum Punkt berücksichtigt. Dies ist ein grundlegendes Konzept in der Mechanik, das bei der Analyse von rotierenden Körpern hilft.",
+      "difficulty": 4,
+      "subcategory": "Steinerscher Satz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Eigenfunktionen der gebundenen Zustände (Laguerre)",
+      "question": "Welche der folgenden Aussagen über die Laguerre-Eigenfunktionen in der Quantenmechanik ist korrekt?",
+      "choices": [
+        "A: Sie beschreiben die Bewegungen von Teilchen in einem klassischen Pendel.",
+        "B: Sie sind Lösungen der radialen Schrödinger-Gleichung für einen Wasserstoffatom.",
+        "C: Sie sind unabhängig von der Quantenzahl n.",
+        "D: Sie haben immer einen konstanten Wert für alle r."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Laguerre-Eigenfunktionen sind tatsächlich Lösungen der radialen Schrödinger-Gleichung, die spezifisch für die Beschreibung gebundener Zustände wie im Wasserstoffatom verwendet werden. Diese Funktionen hängen von der Quantenzahl n ab und variieren mit r, was sie von den anderen Antwortmöglichkeiten unterscheidet.",
+      "difficulty": 4,
+      "subcategory": "Eigenfunktionen der gebundenen Zustände (Laguerre)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Elektrostatik der Dielektrika",
+      "question": "Was passiert mit der elektrischen Feldstärke in einem Dielektrikum, wenn es in ein externes elektrisches Feld gebracht wird?",
+      "choices": [
+        "A: Sie bleibt unverändert.",
+        "B: Sie wird verstärkt.",
+        "C: Sie wird reduziert.",
+        "D: Sie verschwindet vollständig."
+      ],
+      "correct_answer": "C",
+      "explanation": "In einem Dielektrikum polarisiert sich das Material unter dem Einfluss eines elektrischen Feldes, was zu einer Reduzierung der effektiven elektrischen Feldstärke führt. Diese Polarisation erzeugt ein internes Feld, das dem externen Feld entgegenwirkt.",
+      "difficulty": 4,
+      "subcategory": "Elektrostatik der Dielektrika"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Strukturfaktor",
+      "question": "Was beschreibt der Strukturfaktor in der Festkörperphysik?",
+      "choices": [
+        "A: Die Verteilung der Atompositionen im Raum.",
+        "B: Die Energielevels von Elektronen in Atomen.",
+        "C: Die Wechselwirkungen zwischen Molekülen in Flüssigkeiten.",
+        "D: Die Temperaturabhängigkeit von elektrischen Leitfähigkeiten."
+      ],
+      "correct_answer": "A",
+      "explanation": "Der Strukturfaktor beschreibt, wie die Atome in einem Kristallgitter räumlich angeordnet sind und wie diese Anordnung die Streuung von Röntgenstrahlen oder Neutronen beeinflusst. Er ist ein wichtiges Werkzeug zur Analyse der Struktur von Festkörpern.",
+      "difficulty": 5,
+      "subcategory": "Strukturfaktor"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Überblick: Felder, Teilchen, Symmetrien des Standardmodells",
+      "question": "Welches der folgenden Teilchen ist ein Beispiel für ein Lepton im Standardmodell der Teilchenphysik?",
+      "choices": [
+        "A: Elektron",
+        "B: Gluon",
+        "C: Neutron",
+        "D: Proton"
+      ],
+      "correct_answer": "A",
+      "explanation": "Leptonen sind eine Familie von Elementarteilchen, zu denen das Elektron gehört. Im Gegensatz zu Protonen und Neutronen, die Baryonen sind, und dem Gluon, das ein Eichboson ist, sind Leptonen nicht an der starken Wechselwirkung beteiligt.",
+      "difficulty": 8,
+      "subcategory": "Überblick: Felder, Teilchen, Symmetrien des Standardmodells"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Spezielle Operatoren (hermitesch, projektiv)",
+      "question": "Welcher der folgenden Operatoren ist hermitesch?",
+      "choices": [
+        "A: Der Zeitoperator",
+        "B: Der Ortsoperator mit einer komplexen Konstante",
+        "C: Der Impulsoperator",
+        "D: Der Hamilton-Operator ohne Hermiteschheit"
+      ],
+      "correct_answer": "C",
+      "explanation": "Der Impulsoperator ist hermitesch, da er die Bedingung erfüllt, dass sein adjungierter Operator gleich dem Operator selbst ist. Hermitesche Operatoren sind wichtig in der Quantenmechanik, da ihre Eigenwerte reale Werte repräsentieren, die physikalische Messgrößen darstellen.",
+      "difficulty": 4,
+      "subcategory": "Spezielle Operatoren (hermitesch, projektiv)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Intrinsische kristalline Halbleiter",
+      "question": "Welches der folgenden Materialien ist ein Beispiel für einen intrinsischen Halbleiter?",
+      "choices": [
+        "A: Kupfer",
+        "B: Silizium",
+        "C: Aluminium",
+        "D: Niob"
+      ],
+      "correct_answer": "B",
+      "explanation": "Silizium ist der bekannteste intrinsische Halbleiter und wird häufig in der Elektronik verwendet. Intrinsische Halbleiter besitzen eine spezifische Bandlücke, die es ihnen ermöglicht, bei bestimmten Temperaturen Leiter- und Nichtleiterverhalten zu zeigen.",
+      "difficulty": 4,
+      "subcategory": "Intrinsische kristalline Halbleiter"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Strahlungsgesetze (Wien, Rayleigh–Jeans)",
+      "question": "Welches Gesetz beschreibt die Abhängigkeit der Strahlungsintensität eines schwarzen Körpers von der Wellenlänge und Temperatur?",
+      "choices": [
+        "A: Gesetz von Ohm",
+        "B: Gesetz von Coulomb",
+        "C: Gesetz von Planck",
+        "D: Gesetz von Newton"
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Gesetz von Planck beschreibt, wie die Intensität der Strahlung eines idealen schwarzen Körpers von der Wellenlänge und der Temperatur abhängt. Es ist grundlegend für das Verständnis der thermischen Strahlung und die Entwicklung der Quantenmechanik.",
+      "difficulty": 1,
+      "subcategory": "Strahlungsgesetze (Wien, Rayleigh–Jeans)"
+    }
+  ]
+}
