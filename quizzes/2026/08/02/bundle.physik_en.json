@@ -1,0 +1,168 @@
+{
+  "date": "2026-08-02",
+  "generated_at": "2026-08-02T04:12:05Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Hamilton-Funktion (Hamiltonian)",
+      "question": "What does the Hamiltonian function describe in analytical mechanics?",
+      "choices": [
+        "Which of the following equations describes the behavior of an ideal gas?",
+        "The equation PV = nRT is the equation of state for an ideal gas, where P is pressure, V is volume, n is the amount of substance in moles, R is the universal gas constant, and T is the temperature in Kelvin. This equation helps in understanding the relationship between these variables.",
+        "What condition must be met for electron diffraction to occur on a crystal lattice?",
+        "For diffraction on a crystal lattice, it is crucial that the wavelength of the electrons is in the same range as the lattice constant of the crystal. This allows for constructive interference of the waves, leading to characteristic diffraction patterns."
+      ],
+      "correct_answer": "D",
+      "explanation": "The Hamiltonian function describes the total energy of a system in terms of its position and momentum. It is a central concept in analytical mechanics and enables the formulation of the equations of motion. This function plays an essential role in Hamiltonian mechanics and helps in the analysis of dynamic systems.",
+      "difficulty": 4,
+      "subcategory": "Hamilton-Funktion (Hamiltonian)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Ideales Gas (Zustandsgleichung)",
+      "question": "What describes the time evolution of a quantum mechanical system in the Schrödinger picture?",
+      "choices": [
+        "Which phase transition describes the change from solid to gaseous?",
+        "Sublimation is the process where a solid transitions directly into the gaseous state without first becoming liquid. A well-known example is dry ice, which sublimes at room temperature.",
+        "What does the expectation value of the operator for energy in a hydrogen atom describe in the context of quantum mechanics?",
+        "The expectation value of the energy operator indicates the average energy content of a quantum mechanical state. It is calculated from the possible energy eigenvalues and their probabilities, making it a central aspect of quantum mechanics."
+      ],
+      "correct_answer": "C",
+      "explanation": "In the Schrödinger picture, the time evolution is given by the wave function of the system, which changes with time. The observables remain constant in the Schrödinger picture, and the energy cannot always be considered constant.",
+      "difficulty": 3,
+      "subcategory": "Ideales Gas (Zustandsgleichung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Beugung am Kristallgitter",
+      "question": "What does the Taylor expansion describe in electrodynamics?",
+      "choices": [
+        "What does Snell's Law describe in optics?",
+        "Snell's Law describes the mathematical relationship between the angle of incidence and the angle of refraction when light occurs at the boundary between two different media. It is crucial for understanding light refraction and its application in optics.",
+        "Which statement about the behavior of a particle in a one-dimensional potential well is correct?",
+        "In a one-dimensional potential well, the particle is quantum mechanically confined and can only assume discrete energy levels. The ground state is the lowest energy level the particle can occupy, making statement C correct."
+      ],
+      "correct_answer": "D",
+      "explanation": "The Taylor expansion is a mathematical method that allows approximating a function as a power series around a specific point. In electrodynamics, this can be used to describe and analyze electric and magnetic fields near a point.",
+      "difficulty": 7,
+      "subcategory": "Beugung am Kristallgitter"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Zeitentwicklung (Schrödinger-Bild)",
+      "question": "What does the concept of temperature describe in the context of thermal equilibrium?",
+      "choices": [
+        "A: Die Wahrscheinlichkeit, das System zu messen, bleibt unverändert.",
+        "B: Die Wellenfunktion des Systems ändert sich mit der Zeit.",
+        "C: Die Energie des Systems bleibt immer konstant.",
+        "D: Die Observable des Systems verändern sich mit der Zeit."
+      ],
+      "correct_answer": "B",
+      "explanation": "The concept of temperature describes the average kinetic energy of the particles of a system, which is crucial for understanding thermal equilibrium. In thermal equilibrium, systems have the same temperature, meaning there is no net energy transfer between them.",
+      "difficulty": 6,
+      "subcategory": "Zeitentwicklung (Schrödinger-Bild)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Phasenübergänge (Übersicht)",
+      "question": "Welcher Phasenübergang beschreibt den Wechsel von fest zu gasförmig?",
+      "choices": [
+        "A: Verdampfung",
+        "B: Schmelzen",
+        "C: Sublimation",
+        "D: Kondensation"
+      ],
+      "correct_answer": "C",
+      "explanation": "Sublimation ist der Prozess, bei dem ein Feststoff direkt in den gasförmigen Zustand übergeht, ohne zuerst flüssig zu werden. Ein bekanntes Beispiel ist Trockeneis, das bei Raumtemperatur sublimiert.",
+      "difficulty": 5,
+      "subcategory": "Phasenübergänge (Übersicht)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Wahrscheinlichkeiten & Erwartungswerte (H-Atom)",
+      "question": "Was beschreibt der Erwartungswert des Operators für die Energie in einem Wasserstoffatom im Rahmen der Quantenmechanik?",
+      "choices": [
+        "A: Er gibt den Mittelwert der möglichen Energiewerte eines quantenmechanischen Systems an.",
+        "B: Er ist immer gleich der höchsten Energie des Systems.",
+        "C: Er ist unabhängig von den quantenmechanischen Zuständen des Systems.",
+        "D: Er ist identisch mit der kinetischen Energie des Elektrons."
+      ],
+      "correct_answer": "A",
+      "explanation": "Der Erwartungswert des Energieoperators gibt den mittleren Energieinhalt eines quantenmechanischen Zustands an. Er wird aus den möglichen Energieeigenwerten und deren Wahrscheinlichkeiten berechnet und ist somit ein zentraler Aspekt der Quantenmechanik.",
+      "difficulty": 8,
+      "subcategory": "Wahrscheinlichkeiten & Erwartungswerte (H-Atom)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Taylor-Entwicklung für Felder",
+      "question": "Was beschreibt die Taylor-Entwicklung in der Elektrodynamik?",
+      "choices": [
+        "A: Die Messung der Lichtgeschwindigkeit.",
+        "B: Die Definition von magnetischen Monopolen.",
+        "C: Eine Approximation von Funktionen in der Umgebung eines Punktes.",
+        "D: Die Berechnung von elektrischen Feldern in einem Vakuum."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Taylor-Entwicklung ist ein mathematisches Verfahren, das es ermöglicht, eine Funktion als Potenzreihe um einen bestimmten Punkt zu approximieren. In der Elektrodynamik kann dies verwendet werden, um elektrische und magnetische Felder in der Nähe eines Punktes zu beschreiben und zu analysieren.",
+      "difficulty": 2,
+      "subcategory": "Taylor-Entwicklung für Felder"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Reflexions- und Brechungsgesetz",
+      "question": "Was beschreibt das Snellius-Gesetz in der Optik?",
+      "choices": [
+        "A: Die Reflexion von Licht an einer glatten Oberfläche.",
+        "B: Die Farbzerstreuung von Licht durch ein Prisma.",
+        "C: Die Beziehung zwischen dem Einfallswinkel und dem Brechungswinkel von Licht an einer Grenzfläche.",
+        "D: Die Geschwindigkeit von Licht in verschiedenen Medien."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Snellius-Gesetz beschreibt die mathematische Beziehung zwischen dem Einfallswinkel und dem Brechungswinkel, wenn Licht an der Grenze zwischen zwei verschiedenen Medien auftritt. Es ist entscheidend für das Verständnis der Lichtbrechung und deren Anwendung in der Optik.",
+      "difficulty": 6,
+      "subcategory": "Reflexions- und Brechungsgesetz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "1D-Potentialprobleme: allgemeine Aussagen",
+      "question": "Welche Aussage über das Verhalten eines Teilchens in einem eindimensionalen Potentialtopf ist korrekt?",
+      "choices": [
+        "A: Das Teilchen kann sich jederzeit außerhalb des Potentialtopfes befinden.",
+        "B: Das Teilchen bewegt sich kontinuierlich mit konstanter Geschwindigkeit innerhalb des Potentials.",
+        "C: Im Grundzustand hat das Teilchen die niedrigste erlaubte Energie.",
+        "D: Die Energie des Teilchens muss immer größer als die Höhe des Potentials sein."
+      ],
+      "correct_answer": "C",
+      "explanation": "Im eindimensionalen Potentialtopf ist das Teilchen quantenmechanisch eingeschränkt und kann nur diskrete Energieniveaus annehmen. Der Grundzustand ist das niedrigste Energieniveau, das das Teilchen einnehmen kann, wodurch die Aussage C korrekt ist.",
+      "difficulty": 7,
+      "subcategory": "1D-Potentialprobleme: allgemeine Aussagen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Temperaturbegriff (thermisches Gleichgewicht)",
+      "question": "Was beschreibt der Temperaturbegriff im Kontext des thermischen Gleichgewichts?",
+      "choices": [
+        "A: Die durchschnittliche kinetische Energie der Teilchen eines Systems.",
+        "B: Die maximale Energie, die ein System aufnehmen kann.",
+        "C: Die Dichte der Teilchen in einem System.",
+        "D: Die Fähigkeit eines Systems, Arbeit zu verrichten."
+      ],
+      "correct_answer": "A",
+      "explanation": "Der Temperaturbegriff beschreibt die durchschnittliche kinetische Energie der Teilchen eines Systems, was entscheidend für das Verständnis des thermischen Gleichgewichts ist. Im thermischen Gleichgewicht haben Systeme dieselbe Temperatur, was bedeutet, dass kein Nettoenergietransfer zwischen ihnen stattfindet.",
+      "difficulty": 8,
+      "subcategory": "Temperaturbegriff (thermisches Gleichgewicht)"
+    }
+  ]
+}

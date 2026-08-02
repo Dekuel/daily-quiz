@@ -1,0 +1,169 @@
+{
+  "date": "2026-08-02",
+  "generated_at": "2026-08-02T04:11:37Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Hamilton-Funktion (Hamiltonian)",
+      "question": "Was beschreibt die Hamilton-Funktion in der analytischen Mechanik?",
+      "choices": [
+        "A: Die Wechselwirkung zwischen verschiedenen Kräften in einem System.",
+        "B: Den Weg, den ein Objekt in einer bestimmten Zeit zurücklegt.",
+        "C: Die Drehimpulsformel für einen starren Körper.",
+        "D: Die Gesamtenergie eines Systems als Funktion von Position und Impuls."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Hamilton-Funktion beschreibt die Gesamtenergie eines Systems in Bezug auf seine Position und seinen Impuls. Sie ist ein zentrales Konzept in der analytischen Mechanik und ermöglicht die Formulierung der Bewegungsgleichungen. Diese Funktion spielt eine wesentliche Rolle in der Hamiltonschen Mechanik und hilft bei der Analyse dynamischer Systeme.",
+      "difficulty": 4,
+      "subcategory": "Hamilton-Funktion (Hamiltonian)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Ideales Gas (Zustandsgleichung)",
+      "question": "Welche der folgenden Gleichungen beschreibt das Verhalten eines idealen Gases?",
+      "choices": [
+        "A: F = ma",
+        "B: E = mc²",
+        "C: PV = nRT",
+        "D: W = Fd"
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Gleichung PV = nRT ist die Zustandsgleichung für ein ideales Gas, wobei P der Druck, V das Volumen, n die Stoffmenge in Mol, R die universelle Gaskonstante und T die Temperatur in Kelvin darstellt. Diese Gleichung hilft dabei, die Beziehung zwischen diesen Variablen zu verstehen.",
+      "difficulty": 3,
+      "subcategory": "Ideales Gas (Zustandsgleichung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Beugung am Kristallgitter",
+      "question": "Welche Bedingung muss erfüllt sein, damit es zur Beugung von Elektronen an einem Kristallgitter kommt?",
+      "choices": [
+        "A: Die Temperatur des Kristalls muss über 1000 K liegen.",
+        "B: Die Elektronen müssen mit einem Magnetfeld abgelenkt werden.",
+        "C: Die Elektronen müssen mit einer Geschwindigkeit von mindestens 10% Lichtgeschwindigkeit fliegen.",
+        "D: Die Wellenlänge der Elektronen muss ähnlich der Gitterkonstante des Kristalls sein."
+      ],
+      "correct_answer": "D",
+      "explanation": "Für die Beugung an einem Kristallgitter ist es entscheidend, dass die Wellenlänge der Elektronen im gleichen Bereich wie die Gitterkonstante des Kristalls liegt. Dies ermöglicht die konstruktive Interferenz der Wellen, was zu den charakteristischen Beugungsmustern führt.",
+      "difficulty": 7,
+      "subcategory": "Beugung am Kristallgitter"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Zeitentwicklung (Schrödinger-Bild)",
+      "question": "Was beschreibt die Zeitentwicklung eines quantenmechanischen Systems im Schrödinger-Bild?",
+      "choices": [
+        "A: Die Wahrscheinlichkeit, das System zu messen, bleibt unverändert.",
+        "B: Die Wellenfunktion des Systems ändert sich mit der Zeit.",
+        "C: Die Energie des Systems bleibt immer konstant.",
+        "D: Die Observable des Systems verändern sich mit der Zeit."
+      ],
+      "correct_answer": "B",
+      "explanation": "Im Schrödinger-Bild ist die Zeitentwicklung durch die Wellenfunktion des Systems gegeben, die sich mit der Zeit verändert. Die Observable bleiben im Schrödinger-Bild konstant und die Energie kann nicht immer als konstant angesehen werden.",
+      "difficulty": 6,
+      "subcategory": "Zeitentwicklung (Schrödinger-Bild)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Phasenübergänge (Übersicht)",
+      "question": "Welcher Phasenübergang beschreibt den Wechsel von fest zu gasförmig?",
+      "choices": [
+        "A: Verdampfung",
+        "B: Schmelzen",
+        "C: Sublimation",
+        "D: Kondensation"
+      ],
+      "correct_answer": "C",
+      "explanation": "Sublimation ist der Prozess, bei dem ein Feststoff direkt in den gasförmigen Zustand übergeht, ohne zuerst flüssig zu werden. Ein bekanntes Beispiel ist Trockeneis, das bei Raumtemperatur sublimiert.",
+      "difficulty": 5,
+      "subcategory": "Phasenübergänge (Übersicht)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Wahrscheinlichkeiten & Erwartungswerte (H-Atom)",
+      "question": "Was beschreibt der Erwartungswert des Operators für die Energie in einem Wasserstoffatom im Rahmen der Quantenmechanik?",
+      "choices": [
+        "A: Er gibt den Mittelwert der möglichen Energiewerte eines quantenmechanischen Systems an.",
+        "B: Er ist immer gleich der höchsten Energie des Systems.",
+        "C: Er ist unabhängig von den quantenmechanischen Zuständen des Systems.",
+        "D: Er ist identisch mit der kinetischen Energie des Elektrons."
+      ],
+      "correct_answer": "A",
+      "explanation": "Der Erwartungswert des Energieoperators gibt den mittleren Energieinhalt eines quantenmechanischen Zustands an. Er wird aus den möglichen Energieeigenwerten und deren Wahrscheinlichkeiten berechnet und ist somit ein zentraler Aspekt der Quantenmechanik.",
+      "difficulty": 8,
+      "subcategory": "Wahrscheinlichkeiten & Erwartungswerte (H-Atom)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Taylor-Entwicklung für Felder",
+      "question": "Was beschreibt die Taylor-Entwicklung in der Elektrodynamik?",
+      "choices": [
+        "A: Die Messung der Lichtgeschwindigkeit.",
+        "B: Die Definition von magnetischen Monopolen.",
+        "C: Eine Approximation von Funktionen in der Umgebung eines Punktes.",
+        "D: Die Berechnung von elektrischen Feldern in einem Vakuum."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Taylor-Entwicklung ist ein mathematisches Verfahren, das es ermöglicht, eine Funktion als Potenzreihe um einen bestimmten Punkt zu approximieren. In der Elektrodynamik kann dies verwendet werden, um elektrische und magnetische Felder in der Nähe eines Punktes zu beschreiben und zu analysieren.",
+      "difficulty": 2,
+      "subcategory": "Taylor-Entwicklung für Felder"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Reflexions- und Brechungsgesetz",
+      "question": "Was beschreibt das Snellius-Gesetz in der Optik?",
+      "choices": [
+        "A: Die Reflexion von Licht an einer glatten Oberfläche.",
+        "B: Die Farbzerstreuung von Licht durch ein Prisma.",
+        "C: Die Beziehung zwischen dem Einfallswinkel und dem Brechungswinkel von Licht an einer Grenzfläche.",
+        "D: Die Geschwindigkeit von Licht in verschiedenen Medien."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Snellius-Gesetz beschreibt die mathematische Beziehung zwischen dem Einfallswinkel und dem Brechungswinkel, wenn Licht an der Grenze zwischen zwei verschiedenen Medien auftritt. Es ist entscheidend für das Verständnis der Lichtbrechung und deren Anwendung in der Optik.",
+      "difficulty": 6,
+      "subcategory": "Reflexions- und Brechungsgesetz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "1D-Potentialprobleme: allgemeine Aussagen",
+      "question": "Welche Aussage über das Verhalten eines Teilchens in einem eindimensionalen Potentialtopf ist korrekt?",
+      "choices": [
+        "A: Das Teilchen kann sich jederzeit außerhalb des Potentialtopfes befinden.",
+        "B: Das Teilchen bewegt sich kontinuierlich mit konstanter Geschwindigkeit innerhalb des Potentials.",
+        "C: Im Grundzustand hat das Teilchen die niedrigste erlaubte Energie.",
+        "D: Die Energie des Teilchens muss immer größer als die Höhe des Potentials sein."
+      ],
+      "correct_answer": "C",
+      "explanation": "Im eindimensionalen Potentialtopf ist das Teilchen quantenmechanisch eingeschränkt und kann nur diskrete Energieniveaus annehmen. Der Grundzustand ist das niedrigste Energieniveau, das das Teilchen einnehmen kann, wodurch die Aussage C korrekt ist.",
+      "difficulty": 7,
+      "subcategory": "1D-Potentialprobleme: allgemeine Aussagen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Temperaturbegriff (thermisches Gleichgewicht)",
+      "question": "Was beschreibt der Temperaturbegriff im Kontext des thermischen Gleichgewichts?",
+      "choices": [
+        "A: Die durchschnittliche kinetische Energie der Teilchen eines Systems.",
+        "B: Die maximale Energie, die ein System aufnehmen kann.",
+        "C: Die Dichte der Teilchen in einem System.",
+        "D: Die Fähigkeit eines Systems, Arbeit zu verrichten."
+      ],
+      "correct_answer": "A",
+      "explanation": "Der Temperaturbegriff beschreibt die durchschnittliche kinetische Energie der Teilchen eines Systems, was entscheidend für das Verständnis des thermischen Gleichgewichts ist. Im thermischen Gleichgewicht haben Systeme dieselbe Temperatur, was bedeutet, dass kein Nettoenergietransfer zwischen ihnen stattfindet.",
+      "difficulty": 8,
+      "subcategory": "Temperaturbegriff (thermisches Gleichgewicht)"
+    }
+  ]
+}
