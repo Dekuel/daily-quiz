@@ -1,0 +1,169 @@
+{
+  "date": "2026-08-03",
+  "generated_at": "2026-08-03T04:14:20Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Kohärente inelastische Neutronenstreuung",
+      "question": "Welches der folgenden Konzepte ist entscheidend für die Analyse von inelastischer Neutronenstreuung in Festkörpern?",
+      "choices": [
+        "A: Die Geometrie der Kristallgitter.",
+        "B: Der Einfluss von Temperatur auf die Neutronenkinetik.",
+        "C: Die Wechselwirkung zwischen Elektronen und Neutronen.",
+        "D: Die Energieübertragung zwischen Neutronen und Phononen."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die inelastische Neutronenstreuung ist wesentlich von der Energieübertragung zwischen Neutronen und Phononen im Material abhängig. Diese Wechselwirkungen ermöglichen es, Informationen über die dynamischen Eigenschaften der Festkörper zu erhalten, was für das Verständnis der Materialeigenschaften entscheidend ist.",
+      "difficulty": 9,
+      "subcategory": "Kohärente inelastische Neutronenstreuung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Elektromagnetische Potentiale (φ, A)",
+      "question": "Welcher Ausdruck beschreibt die Beziehung zwischen dem elektrischen Potential φ und dem elektrischen Feld E in einem homogenen Medium?",
+      "choices": [
+        "A: φ = ∫E dl",
+        "B: E = ∇(φA)",
+        "C: E = -∇φ",
+        "D: φ = -∇E"
+      ],
+      "correct_answer": "C",
+      "explanation": "Der Ausdruck E = -∇φ zeigt, dass das elektrische Feld E als der negative Gradient des elektrischen Potentials φ definiert ist. Diese Beziehung ist grundlegend in der Elektrodynamik und beschreibt, wie das Potential das elektrische Feld beeinflusst.",
+      "difficulty": 9,
+      "subcategory": "Elektromagnetische Potentiale (φ, A)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Korrespondenzregel (Operatorersatz)",
+      "question": "Welche Aussage beschreibt die Korrespondenzregel in der Quantenmechanik?",
+      "choices": [
+        "A: Im klassischen Limit sind die Zustände immer lokalisiert.",
+        "B: Im Grenzfall hoher Quantenzahlen stimmen die Vorhersagen der Quantenmechanik mit denen der klassischen Mechanik überein.",
+        "C: Die Korrespondenzregel besagt, dass alle Operatoren in der Quantenmechanik kommutativ sind.",
+        "D: Die Korrespondenzregel definiert die Unschärferelation zwischen Ort und Impuls."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Korrespondenzregel besagt, dass die Quantenmechanik im Grenzfall hoher Quantenzahlen zu den Vorhersagen der klassischen Mechanik übergeht. Dies bedeutet, dass bei großen Energien und Massenschwankungen die klassischen Gesetze wieder Gültigkeit erlangen.",
+      "difficulty": 6,
+      "subcategory": "Korrespondenzregel (Operatorersatz)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Beugung am Schirm & Poisson’scher Fleck",
+      "question": "Was beschreibt der Poisson’sche Fleck im Zusammenhang mit der Beugung von Licht an einem runden Schirm?",
+      "choices": [
+        "A: Die Interferenz von Lichtwellen in transparenten Medien.",
+        "B: Die Streuung von Lichtstrahlen in alle Richtungen.",
+        "C: Das Auftreten eines hellen Punktes in der Mitte des Schattens eines runden Objekts.",
+        "D: Die Veränderung der Wellenlängen des Lichts durch Reflexion."
+      ],
+      "correct_answer": "C",
+      "explanation": "Der Poisson’sche Fleck ist ein Phänomen, das auftritt, wenn Licht an einem runden Schirm beugungserzeugt wird, wodurch sich in der Mitte des Schattens ein heller Punkt zeigt. Dies ist ein direktes Ergebnis der Wellencharakteristik des Lichts und der geometrischen Anordnung des Schirms.",
+      "difficulty": 6,
+      "subcategory": "Beugung am Schirm & Poisson’scher Fleck"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Spin-Bahn-Wechselwirkung",
+      "question": "Was beschreibt die Spin-Bahn-Wechselwirkung in der Quantenmechanik?",
+      "choices": [
+        "A: Die Wechselwirkung zwischen dem Spin eines Teilchens und seinem orbitalen Bewegungszustand.",
+        "B: Die Wechselwirkung zwischen zwei Spins ohne Berücksichtigung der Bewegung.",
+        "C: Die Wechselwirkung von Teilchen mit Licht.",
+        "D: Die Wechselwirkung zwischen elektrischen Feldern und magnetischen Feldern."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Spin-Bahn-Wechselwirkung beschreibt, wie der Spin eines Teilchens mit seinem orbitalen Bewegungszustand gekoppelt ist. Diese Wechselwirkung führt zu einer Energieaufspaltung, die in vielen physikalischen Systemen von Bedeutung ist, wie beispielsweise in Atomen und Halbleitern.",
+      "difficulty": 2,
+      "subcategory": "Spin-Bahn-Wechselwirkung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Pauli-Prinzip",
+      "question": "Welches der folgenden Aussagen beschreibt das Pauli-Prinzip korrekt?",
+      "choices": [
+        "A: Das Pauli-Prinzip gilt nur für Fermionen, nicht für Bosonen.",
+        "B: Zwei Elektronen können immer denselben Spin haben, solange sie sich in unterschiedlichen Orbitalen befinden.",
+        "C: Zwei Elektronen in einem Atom können niemals denselben Quantenzustand einnehmen.",
+        "D: Das Pauli-Prinzip ist irrelevant für die Elektronenkonfiguration von Atomen."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Pauli-Prinzip besagt, dass keine zwei Fermionen, wie Elektronen, im selben Quantenzustand existieren können. Dies ist entscheidend für das Verständnis der Elektronenkonfiguration in Atomen und erklärt viele chemische Eigenschaften der Elemente.",
+      "difficulty": 8,
+      "subcategory": "Pauli-Prinzip"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Isolierte Systeme: Maximum der Entropie",
+      "question": "Was beschreibt das Maximum der Entropie in einem isolierten System?",
+      "choices": [
+        "A: Die Energie des Systems bleibt konstant.",
+        "B: Das System erreicht einen Zustand maximaler Ordnung.",
+        "C: Alle möglichen Mikrozustände sind gleich wahrscheinlich.",
+        "D: Die Temperatur des Systems bleibt konstant."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Maximum der Entropie in einem isolierten System bedeutet, dass alle möglichen Mikrozustände gleich wahrscheinlich sind. Dies führt zu einem Zustand maximaler Unordnung, was die Entropie erhöht. In einem solchen Zustand kann das System nicht mehr Energie gewinnen oder verlieren.",
+      "difficulty": 5,
+      "subcategory": "Isolierte Systeme: Maximum der Entropie"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Thermodynamische Prozesse (Begriffe)",
+      "question": "Was beschreibt der Begriff 'Isothermer Prozess' in der Thermodynamik?",
+      "choices": [
+        "A: Ein Prozess, bei dem die Energie konstant bleibt.",
+        "B: Ein Prozess, bei dem das Volumen konstant bleibt.",
+        "C: Ein Prozess, bei dem der Druck konstant bleibt.",
+        "D: Ein Prozess, bei dem die Temperatur konstant bleibt."
+      ],
+      "correct_answer": "D",
+      "explanation": "Ein isothermer Prozess ist ein thermodynamischer Prozess, bei dem die Temperatur des Systems während des gesamten Vorgangs konstant bleibt. Dies ist besonders relevant in der idealen Gasgesetz-Theorie, wo Temperatur, Druck und Volumen in Beziehung stehen.",
+      "difficulty": 4,
+      "subcategory": "Thermodynamische Prozesse (Begriffe)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Inertialsysteme (Definition und Eigenschaften)",
+      "question": "Was ist ein Inertialsystem?",
+      "choices": [
+        "A: Ein System, in dem die Schwerkraft immer gleich ist.",
+        "B: Ein Bezugssystem, das sich immer in Bewegung befindet.",
+        "C: Ein Bezugssystem, in dem ein Körper ohne äußere Einwirkungen in Ruhe bleibt oder sich gleichförmig bewegt.",
+        "D: Ein System, in dem alle Körper immer beschleunigt sind."
+      ],
+      "correct_answer": "C",
+      "explanation": "Ein Inertialsystem ist definiert als ein Bezugssystem, in dem die Newtonschen Gesetze gültig sind. In einem solchen System bleibt ein Körper in Ruhe oder bewegt sich gleichförmig, solange keine äußeren Kräfte wirken.",
+      "difficulty": 1,
+      "subcategory": "Inertialsysteme (Definition und Eigenschaften)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Addition von Drehimpulsen: Gesamtdrehimpuls",
+      "question": "Was ist der Gesamtdrehimpuls eines Systems, das aus zwei Teilchen mit den Drehimpulsen L1 und L2 besteht?",
+      "choices": [
+        "A: L = L1 - L2",
+        "B: L = L1 * L2",
+        "C: L = L1 / L2",
+        "D: L = L1 + L2"
+      ],
+      "correct_answer": "D",
+      "explanation": "Der Gesamtdrehimpuls eines Systems ist die vektorielle Summe der Drehimpulse der einzelnen Teilchen. Dies bedeutet, dass man die beiden Drehimpulse einfach addiert, um den Gesamtwert zu erhalten.",
+      "difficulty": 3,
+      "subcategory": "Addition von Drehimpulsen: Gesamtdrehimpuls"
+    }
+  ]
+}

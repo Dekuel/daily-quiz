@@ -3262,6 +3262,20 @@
       "correct_answer": "C",
       "explanation": "WLAN steht für 'Wireless Local Area Network' und bezeichnet ein drahtloses Netzwerk, das es Geräten ermöglicht, sich innerhalb eines begrenzten geografischen Bereichs zu verbinden. Es wird häufig in Haushalten und Büros verwendet, um Internetzugang zu bieten, ohne Kabel zu benötigen.",
       "difficulty": 5
+    },
+    {
+      "category": "Technologie",
+      "topic": "Computer & Internet",
+      "question": "Welche Technologie wird häufig zur Lastverteilung auf Servern eingesetzt, um die Verfügbarkeit und Performance von Webanwendungen zu optimieren?",
+      "choices": [
+        "A: Virtual Private Network (VPN)",
+        "B: Content Delivery Network (CDN)",
+        "C: Load Balancing",
+        "D: Network Address Translation (NAT)"
+      ],
+      "correct_answer": "C",
+      "explanation": "Load Balancing verteilt den eingehenden Datenverkehr auf mehrere Server, um Überlastungen zu vermeiden und die Effizienz zu steigern. Im Gegensatz dazu optimiert ein CDN die Verteilung von Inhalten über geografisch verteilte Server, während ein VPN für sichere Verbindungen sorgt und NAT IP-Adressen übersetzt.",
+      "difficulty": 9
     }
   ]
 }

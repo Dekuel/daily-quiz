@@ -3276,6 +3276,20 @@
       "correct_answer": "C",
       "explanation": "B: Wired Local Area Network",
       "difficulty": 5
+    },
+    {
+      "category": "Technologie",
+      "topic": "Computer & Internet",
+      "question": "Which technology is commonly used for load distribution on servers to optimize the availability and performance of web applications?",
+      "choices": [
+        "A: Virtual Private Network (VPN)",
+        "B: Content Delivery Network (CDN)",
+        "C: Load Balancing",
+        "D: Network Address Translation (NAT)"
+      ],
+      "correct_answer": "C",
+      "explanation": "Load Balancing distributes incoming traffic across multiple servers to avoid overloads and enhance efficiency. In contrast, a CDN optimizes content distribution across geographically dispersed servers, while a VPN ensures secure connections and translates NAT IP addresses.",
+      "difficulty": 9
     }
   ]
 }

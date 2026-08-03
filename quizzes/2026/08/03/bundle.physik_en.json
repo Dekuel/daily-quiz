@@ -1,0 +1,168 @@
+{
+  "date": "2026-08-03",
+  "generated_at": "2026-08-03T04:14:56Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Kohärente inelastische Neutronenstreuung",
+      "question": "Which of the following concepts is crucial for the analysis of inelastic neutron scattering in solids?",
+      "choices": [
+        "A: The geometry of the crystal lattice.",
+        "B: The influence of temperature on neutron kinetics.",
+        "C: The interaction between electrons and neutrons.",
+        "D: The energy transfer between neutrons and phonons."
+      ],
+      "correct_answer": "D",
+      "explanation": "The inelastic neutron scattering crucially depends on the energy transfer between neutrons and phonons in the material. These interactions allow obtaining information about the dynamic properties of solids, which is crucial for understanding the material properties.",
+      "difficulty": 9,
+      "subcategory": "Kohärente inelastische Neutronenstreuung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Elektromagnetische Potentiale (φ, A)",
+      "question": "Which expression describes the relationship between the electric potential φ and the electric field E in a homogeneous medium?",
+      "choices": [
+        "A: φ = ∫E dl",
+        "B: E = ∇(φA)",
+        "C: E = -∇φ",
+        "D: φ = -∇E"
+      ],
+      "correct_answer": "C",
+      "explanation": "The expression E = -∇φ shows that the electric field E is defined as the negative gradient of the electric potential φ. This relationship is fundamental in electrodynamics and describes how the potential influences the electric field.",
+      "difficulty": 9,
+      "subcategory": "Elektromagnetische Potentiale (φ, A)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Korrespondenzregel (Operatorersatz)",
+      "question": "Which statement describes the correspondence principle in quantum mechanics?",
+      "choices": [
+        "A: In the classical limit, the states are always localized.",
+        "B: In the limit of high quantum numbers, the predictions of quantum mechanics coincide with those of classical mechanics.",
+        "C: The correspondence principle states that all operators in quantum mechanics are commutative.",
+        "D: The correspondence principle defines the uncertainty relation between position and momentum."
+      ],
+      "correct_answer": "B",
+      "explanation": "The correspondence principle states that in the limit of high quantum numbers, quantum mechanics transitions to the predictions of classical mechanics. This means that at high energies and mass fluctuations, the classical laws regain validity.",
+      "difficulty": 6,
+      "subcategory": "Korrespondenzregel (Operatorersatz)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Beugung am Schirm & Poisson’scher Fleck",
+      "question": "What does the Poisson's spot describe in the context of light diffraction on a round screen?",
+      "choices": [
+        "A: The interference of light waves in transparent media.",
+        "B: The scattering of light rays in all directions.",
+        "C: The occurrence of a bright spot in the center of the shadow of a round object.",
+        "D: The alteration of the wavelengths of light through reflection."
+      ],
+      "correct_answer": "C",
+      "explanation": "The Poisson's spot is a phenomenon that occurs when light diffracts on a round screen, creating a bright spot in the center of the shadow. This is a direct result of the wave nature of light and the geometric arrangement of the screen.",
+      "difficulty": 6,
+      "subcategory": "Beugung am Schirm & Poisson’scher Fleck"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Spin-Bahn-Wechselwirkung",
+      "question": "What describes the spin-orbit interaction in quantum mechanics?",
+      "choices": [
+        "A: The interaction between the spin of a particle and its orbital motion state.",
+        "B: The interaction between two spins without considering motion.",
+        "C: The interaction of particles with light.",
+        "D: The interaction between electric fields and magnetic fields."
+      ],
+      "correct_answer": "A",
+      "explanation": "The spin-orbit interaction describes how the spin of a particle is coupled with its orbital motion state. This interaction leads to an energy splitting that is significant in many physical systems, such as atoms and semiconductors.",
+      "difficulty": 2,
+      "subcategory": "Spin-Bahn-Wechselwirkung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Pauli-Prinzip",
+      "question": "Which of the following statements correctly describes the Pauli exclusion principle?",
+      "choices": [
+        "A: The Pauli exclusion principle applies only to fermions, not to bosons.",
+        "B: Two electrons can always have the same spin as long as they are in different orbitals.",
+        "C: Two electrons in an atom can never occupy the same quantum state.",
+        "D: The Pauli exclusion principle is irrelevant for the electron configuration of atoms."
+      ],
+      "correct_answer": "C",
+      "explanation": "The Pauli exclusion principle states that no two fermions, such as electrons, can exist in the same quantum state. This is crucial for understanding the electron configuration in atoms and explains many chemical properties of elements.",
+      "difficulty": 8,
+      "subcategory": "Pauli-Prinzip"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Isolierte Systeme: Maximum der Entropie",
+      "question": "What does the maximum of entropy in an isolated system describe?",
+      "choices": [
+        "A: The energy of the system remains constant.",
+        "B: The system reaches a state of maximum order.",
+        "C: All possible microstates are equally probable.",
+        "D: The temperature of the system remains constant."
+      ],
+      "correct_answer": "C",
+      "explanation": "The maximum of entropy in an isolated system means that all possible microstates are equally probable. This leads to a state of maximum disorder, increasing entropy. In such a state, the system cannot gain or lose energy anymore.",
+      "difficulty": 5,
+      "subcategory": "Isolierte Systeme: Maximum der Entropie"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Thermodynamische Prozesse (Begriffe)",
+      "question": "What does the term 'isothermal process' describe in thermodynamics?",
+      "choices": [
+        "A: A process where energy remains constant.",
+        "B: A process where volume remains constant.",
+        "C: A process where pressure remains constant.",
+        "D: A process where temperature remains constant."
+      ],
+      "correct_answer": "D",
+      "explanation": "An isothermal process is a thermodynamic process where the temperature of the system remains constant throughout the operation. This is particularly relevant in the ideal gas law theory, where temperature, pressure, and volume are related.",
+      "difficulty": 4,
+      "subcategory": "Thermodynamische Prozesse (Begriffe)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Inertialsysteme (Definition und Eigenschaften)",
+      "question": "What is an inertial system?",
+      "choices": [
+        "A: A system where gravity is always constant.",
+        "B: A reference system that is always in motion.",
+        "C: A reference system where a body remains at rest or moves uniformly without external influences.",
+        "D: A system where all bodies are always accelerated."
+      ],
+      "correct_answer": "C",
+      "explanation": "An inertial system is defined as a reference system in which Newton's laws are valid. In such a system, a body remains at rest or moves uniformly as long as no external forces act.",
+      "difficulty": 1,
+      "subcategory": "Inertialsysteme (Definition und Eigenschaften)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Addition von Drehimpulsen: Gesamtdrehimpuls",
+      "question": "What is the total angular momentum of a system consisting of two particles with angular momenta L1 and L2?",
+      "choices": [
+        "A: L = L1 - L2",
+        "B: L = L1 * L2",
+        "C: L = L1 / L2",
+        "D: L = L1 + L2"
+      ],
+      "correct_answer": "D",
+      "explanation": "The total angular momentum of a system is the vector sum of the angular momenta of the individual particles. This means that one simply adds the two angular momenta to obtain the total value.",
+      "difficulty": 3,
+      "subcategory": "Addition von Drehimpulsen: Gesamtdrehimpuls"
+    }
+  ]
+}
