@@ -1,0 +1,169 @@
+{
+  "date": "2026-08-04",
+  "generated_at": "2026-08-04T04:03:51Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Reibung in der Lagrange-Formulierung",
+      "question": "Was beschreibt die Reibung in der Lagrange-Formulierung der analytischen Mechanik?",
+      "choices": [
+        "A: Sie hat keinen Einfluss auf die Bewegung von Körpern.",
+        "B: Sie ist unabhängig von der Geschwindigkeit des Körpers.",
+        "C: Sie wirkt immer entgegengesetzt zur Bewegungsrichtung.",
+        "D: Sie kann nur bei gleichförmiger Bewegung berücksichtigt werden."
+      ],
+      "correct_answer": "C",
+      "explanation": "In der Lagrange-Formulierung wird die Reibung als eine Kraft betrachtet, die stets in die entgegengesetzte Richtung der Bewegung wirkt. Diese Annahme ist grundlegend, um die Bewegung von Körpern unter dem Einfluss von Reibung korrekt zu beschreiben.",
+      "difficulty": 1,
+      "subcategory": "Reibung in der Lagrange-Formulierung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Planck’sches Wirkungsquantum",
+      "question": "Was beschreibt das Planck’sche Wirkungsquantum?",
+      "choices": [
+        "A: Die Temperatur eines Systems.",
+        "B: Die kleinste Einheit der Energieübertragung.",
+        "C: Die Geschwindigkeit eines Lichtstrahls.",
+        "D: Die Masse eines Elektrons."
+      ],
+      "correct_answer": "B",
+      "explanation": "Das Planck’sche Wirkungsquantum ist eine fundamentale Konstante in der Quantenmechanik, die die kleinste Einheit der Energieübertragung beschreibt. Es spielt eine zentrale Rolle in der Quantisierung von Energie und anderen physikalischen Größen.",
+      "difficulty": 1,
+      "subcategory": "Planck’sches Wirkungsquantum"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Hochtemperatur-Supraleiter",
+      "question": "Was ist ein charakteristisches Merkmal von Hochtemperatur-Supraleitern?",
+      "choices": [
+        "A: Sie sind immer aus Kupfer hergestellt.",
+        "B: Sie verlieren ihren elektrischen Widerstand bei höheren Temperaturen als herkömmliche Supraleiter.",
+        "C: Sie können nur in Vakuumumgebungen funktionieren.",
+        "D: Sie benötigen extrem niedrige Temperaturen, um supraleitend zu werden."
+      ],
+      "correct_answer": "B",
+      "explanation": "Hochtemperatur-Supraleiter zeichnen sich dadurch aus, dass sie ihren elektrischen Widerstand bei höheren Temperaturen verlieren als traditionelle Supraleiter, die meist auf Temperaturen nahe dem absoluten Nullpunkt angewiesen sind. Diese Eigenschaft macht sie für praktische Anwendungen interessanter.",
+      "difficulty": 2,
+      "subcategory": "Hochtemperatur-Supraleiter"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Reibung in der Lagrange-Formulierung",
+      "question": "Wie wird Reibung in der Lagrange-Formulierung typischerweise behandelt, wenn es um nicht-konservative Kräfte geht?",
+      "choices": [
+        "A: Reibung wird ignoriert, da sie nicht in der Hamiltonschen Mechanik berücksichtigt wird.",
+        "B: Reibung kann nicht in der Lagrange-Formulierung behandelt werden, da sie nicht deterministisch ist.",
+        "C: Reibung wird als konservative Kraft betrachtet und in das potenzielle Energieformular integriert.",
+        "D: Reibung wird durch die Einführung eines dissipativen Terms in die Lagrange-Gleichungen modelliert."
+      ],
+      "correct_answer": "D",
+      "explanation": "In der Lagrange-Formulierung werden nicht-konservative Kräfte wie Reibung oft durch zusätzliche dissipative Terme in den Gleichungen integriert, um ihre Auswirkungen auf die dynamischen Systeme zu berücksichtigen. Dies ermöglicht eine korrekte Beschreibung der Bewegung unter dem Einfluss von Reibung.",
+      "difficulty": 10,
+      "subcategory": "Reibung in der Lagrange-Formulierung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Der Laser (Prinzip & Anwendungen)",
+      "question": "Was ist das Hauptprinzip, das einem Laser zugrunde liegt?",
+      "choices": [
+        "A: Brechung von Licht",
+        "B: Reflexion an Oberflächen",
+        "C: Stimulierter Emission von Photonen",
+        "D: Absorption von Licht"
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Hauptprinzip eines Lasers ist die stimulierte Emission von Photonen, die zu einer kohärenten und monochromatischen Lichtquelle führt. Diese Eigenschaft ermöglicht zahlreiche Anwendungen, von medizinischen Verfahren bis hin zu Kommunikationssystemen.",
+      "difficulty": 5,
+      "subcategory": "Der Laser (Prinzip & Anwendungen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Bohr–Sommerfeld-Quantisierung (historisch)",
+      "question": "Was beschreibt die Bohr–Sommerfeld-Quantisierung im Rahmen der Quantenmechanik?",
+      "choices": [
+        "A: Die Beziehung zwischen Temperatur und Energie bei idealen Gasen.",
+        "B: Die Bewegung von Planeten um die Sonne.",
+        "C: Die Kraftwirkung zwischen zwei geladenen Teilchen.",
+        "D: Die quantisierten Energieniveaus von Elektronen in Atomen."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Bohr–Sommerfeld-Quantisierung ist ein historisches Konzept, das besagt, dass die Energielevels von Elektronen in einem Atom quantisiert sind. Dies bedeutet, dass Elektronen nur bestimmte diskrete Energieniveaus annehmen können, was fundamentales Verständnis für die Struktur von Atomen und Molekülen bietet.",
+      "difficulty": 3,
+      "subcategory": "Bohr–Sommerfeld-Quantisierung (historisch)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Quantenzahlen des Gesamtdrehimpulses",
+      "question": "Welche Quantenzahl beschreibt den Gesamtdrehimpuls eines Teilchens in der Quantenmechanik?",
+      "choices": [
+        "A: Hauptquantenzahl",
+        "B: Gesamtdrehimpulsquantenzahl",
+        "C: Nebenquantenzahl",
+        "D: Spinquantenzahl"
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Gesamtdrehimpulsquantenzahl beschreibt den Gesamtdrehimpuls eines Teilchens in der Quantenmechanik. Sie ist wichtig, um die Spins und Bahnen von Teilchen in verschiedenen quantenmechanischen Systemen zu charakterisieren.",
+      "difficulty": 2,
+      "subcategory": "Quantenzahlen des Gesamtdrehimpulses"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Besetzungszahldarstellung",
+      "question": "Was beschreibt die Besetzungszahldarstellung in der Quantenmechanik?",
+      "choices": [
+        "A: Die Geschwindigkeit von Teilchen in einem Vakuum.",
+        "B: Die Temperatur von Teilchen in einem System.",
+        "C: Die Masse von Teilchen in einem Magnetfeld.",
+        "D: Die Verteilung von Teilchen in verschiedenen Energiezuständen."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Besetzungszahldarstellung beschreibt, wie viele Teilchen sich in bestimmten Quantenzuständen befinden. Sie ist ein wichtiges Konzept in der statistischen Mechanik und hilft, die Eigenschaften von Systemen mit vielen Teilchen zu verstehen.",
+      "difficulty": 3,
+      "subcategory": "Besetzungszahldarstellung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Statistische Begründung der Irreversibilität",
+      "question": "Was beschreibt den zweiten Hauptsatz der Thermodynamik in Bezug auf die Irreversibilität?",
+      "choices": [
+        "A: Die Energie bleibt in einem geschlossenen System konstant.",
+        "B: Alles strebt nach einem Zustand der maximalen Ordnung.",
+        "C: Die Entropie eines isolierten Systems nimmt immer zu.",
+        "D: Wärme kann spontan von einem kälteren zu einem wärmeren Körper fließen."
+      ],
+      "correct_answer": "C",
+      "explanation": "Der zweite Hauptsatz der Thermodynamik besagt, dass die Entropie in einem isolierten System im Laufe der Zeit nicht abnimmt, was die Irreversibilität von Prozessen beschreibt. Dies bedeutet, dass natürliche Prozesse tendenziell in Richtung größerer Unordnung oder Entropie ablaufen.",
+      "difficulty": 4,
+      "subcategory": "Statistische Begründung der Irreversibilität"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Huygenssches Prinzip",
+      "question": "Welches der folgenden Konzepte beschreibt das Huygenssche Prinzip in der Optik?",
+      "choices": [
+        "A: Die Lichtgeschwindigkeit ist in allen Medien konstant und unabhängig von der Frequenz.",
+        "B: Lichtstrahlen können sich nicht überlagern und interferieren nicht miteinander.",
+        "C: Licht kann nur in geraden Linien propagieren und ändert seine Richtung nur an Grenzflächen.",
+        "D: Jede Welle breitet sich von jedem Punkt der Wellenfront als neue Quelle einer Welle aus."
+      ],
+      "correct_answer": "D",
+      "explanation": "Das Huygenssche Prinzip besagt, dass jeder Punkt einer Wellenfront als Quelle neuer Wellen betrachtet werden kann. Dadurch lassen sich die Ausbreitung und die Interferenz von Wellen erklären. Die anderen Optionen beschreiben nicht korrekt das Prinzip oder sind falsche Aussagen über Licht.",
+      "difficulty": 6,
+      "subcategory": "Huygenssches Prinzip"
+    }
+  ]
+}

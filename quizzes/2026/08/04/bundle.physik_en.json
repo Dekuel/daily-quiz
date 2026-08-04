@@ -1,0 +1,168 @@
+{
+  "date": "2026-08-04",
+  "generated_at": "2026-08-04T04:04:24Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Reibung in der Lagrange-Formulierung",
+      "question": "What does friction describe in the Lagrangian formulation of analytical mechanics?",
+      "choices": [
+        "A: It has no influence on the motion of bodies.",
+        "B: It is independent of the velocity of the body.",
+        "C: It always acts opposite to the direction of motion.",
+        "D: It can only be considered in uniform motion."
+      ],
+      "correct_answer": "C",
+      "explanation": "In the Lagrangian formulation, friction is considered as a force that always acts in the opposite direction of motion. This assumption is fundamental to correctly describe the motion of bodies under the influence of friction.",
+      "difficulty": 1,
+      "subcategory": "Reibung in der Lagrange-Formulierung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Planck’sches Wirkungsquantum",
+      "question": "What does the Planck constant describe?",
+      "choices": [
+        "A: The temperature of a system.",
+        "B: The smallest unit of energy transfer.",
+        "C: The speed of light.",
+        "D: The mass of an electron."
+      ],
+      "correct_answer": "B",
+      "explanation": "The Planck constant is a fundamental constant in quantum mechanics that describes the smallest unit of energy transfer. It plays a central role in the quantization of energy and other physical quantities.",
+      "difficulty": 1,
+      "subcategory": "Planck’sches Wirkungsquantum"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Hochtemperatur-Supraleiter",
+      "question": "What is a characteristic feature of high-temperature superconductors?",
+      "choices": [
+        "A: They are always made of copper.",
+        "B: They lose their electrical resistance at higher temperatures than conventional superconductors.",
+        "C: They can only function in vacuum environments.",
+        "D: They require extremely low temperatures to become superconducting."
+      ],
+      "correct_answer": "B",
+      "explanation": "High-temperature superconductors are characterized by losing their electrical resistance at higher temperatures than traditional superconductors, which mostly rely on temperatures close to absolute zero. This property makes them more interesting for practical applications.",
+      "difficulty": 2,
+      "subcategory": "Hochtemperatur-Supraleiter"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Reibung in der Lagrange-Formulierung",
+      "question": "How is friction typically treated in the Lagrangian formulation when dealing with non-conservative forces?",
+      "choices": [
+        "A: Friction is ignored as it is not considered in Hamiltonian mechanics.",
+        "B: Friction cannot be addressed in the Lagrangian formulation as it is nondeterministic.",
+        "C: Friction is considered as a conservative force and integrated into the potential energy formula.",
+        "D: Friction is modeled by introducing a dissipative term into the Lagrange equations."
+      ],
+      "correct_answer": "D",
+      "explanation": "In the Lagrangian formulation, non-conservative forces like friction are often integrated through additional dissipative terms in the equations to account for their effects on dynamic systems. This allows for a correct description of motion under the influence of friction.",
+      "difficulty": 10,
+      "subcategory": "Reibung in der Lagrange-Formulierung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Der Laser (Prinzip & Anwendungen)",
+      "question": "What is the main principle underlying a laser?",
+      "choices": [
+        "A: Refraction of light",
+        "B: Reflection on surfaces",
+        "C: Stimulated emission of photons",
+        "D: Absorption of light"
+      ],
+      "correct_answer": "C",
+      "explanation": "The main principle of a laser is the stimulated emission of photons, leading to a coherent and monochromatic light source. This property enables numerous applications, from medical procedures to communication systems.",
+      "difficulty": 5,
+      "subcategory": "Der Laser (Prinzip & Anwendungen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Bohr–Sommerfeld-Quantisierung (historisch)",
+      "question": "What does the Bohr-Sommerfeld quantization describe in quantum mechanics?",
+      "choices": [
+        "A: The relationship between temperature and energy in ideal gases.",
+        "B: The motion of planets around the sun.",
+        "C: The force interaction between two charged particles.",
+        "D: The quantized energy levels of electrons in atoms."
+      ],
+      "correct_answer": "D",
+      "explanation": "The Bohr-Sommerfeld quantization is a historical concept stating that the energy levels of electrons in an atom are quantized. This means that electrons can only assume certain discrete energy levels, providing fundamental understanding of the structure of atoms and molecules.",
+      "difficulty": 3,
+      "subcategory": "Bohr–Sommerfeld-Quantisierung (historisch)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Quantenzahlen des Gesamtdrehimpulses",
+      "question": "Which quantum number describes the total angular momentum of a particle in quantum mechanics?",
+      "choices": [
+        "A: Principal quantum number",
+        "B: Total angular momentum quantum number",
+        "C: Azimuthal quantum number",
+        "D: Spin quantum number"
+      ],
+      "correct_answer": "B",
+      "explanation": "The total angular momentum quantum number describes the total angular momentum of a particle in quantum mechanics. It is important for characterizing the spins and orbits of particles in different quantum systems.",
+      "difficulty": 2,
+      "subcategory": "Quantenzahlen des Gesamtdrehimpulses"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Besetzungszahldarstellung",
+      "question": "What does the occupation number representation describe in quantum mechanics?",
+      "choices": [
+        "A: The velocity of particles in a vacuum.",
+        "B: The temperature of particles in a system.",
+        "C: The mass of particles in a magnetic field.",
+        "D: The distribution of particles in different energy states."
+      ],
+      "correct_answer": "D",
+      "explanation": "The occupation number representation describes how many particles are in specific quantum states. It is an important concept in statistical mechanics and helps understand the properties of systems with many particles.",
+      "difficulty": 3,
+      "subcategory": "Besetzungszahldarstellung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Statistische Begründung der Irreversibilität",
+      "question": "What does the second law of thermodynamics describe regarding irreversibility?",
+      "choices": [
+        "A: Energy remains constant in a closed system.",
+        "B: Everything tends towards a state of maximum order.",
+        "C: The entropy of an isolated system always increases.",
+        "D: Heat can spontaneously flow from a colder to a warmer body."
+      ],
+      "correct_answer": "C",
+      "explanation": "The second law of thermodynamics states that the entropy in an isolated system does not decrease over time, describing the irreversibility of processes. This means that natural processes tend to move towards greater disorder or entropy.",
+      "difficulty": 4,
+      "subcategory": "Statistische Begründung der Irreversibilität"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Huygenssches Prinzip",
+      "question": "Which of the following concepts describes the Huygens' principle in optics?",
+      "choices": [
+        "A: Die Lichtgeschwindigkeit ist in allen Medien konstant und unabhängig von der Frequenz.",
+        "B: Lichtstrahlen können sich nicht überlagern und interferieren nicht miteinander.",
+        "C: Licht kann nur in geraden Linien propagieren und ändert seine Richtung nur an Grenzflächen.",
+        "D: Jede Welle breitet sich von jedem Punkt der Wellenfront als neue Quelle einer Welle aus."
+      ],
+      "correct_answer": "D",
+      "explanation": "The Huygens' principle states that every point on a wavefront can be considered as a source of new waves. This explains the propagation and interference of waves. The other options do not correctly describe the principle or are false statements about light.",
+      "difficulty": 6,
+      "subcategory": "Huygenssches Prinzip"
+    }
+  ]
+}

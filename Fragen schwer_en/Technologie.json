@@ -3290,6 +3290,20 @@
       "correct_answer": "C",
       "explanation": "Load Balancing distributes incoming traffic across multiple servers to avoid overloads and enhance efficiency. In contrast, a CDN optimizes content distribution across geographically dispersed servers, while a VPN ensures secure connections and translates NAT IP addresses.",
       "difficulty": 9
+    },
+    {
+      "category": "Technologie",
+      "topic": "Computer & Internet",
+      "question": "What does the term 'end-to-end encryption' describe?",
+      "choices": [
+        "A: Data is encrypted from the sender directly to the recipient and cannot be read by third parties.",
+        "B: Data is anonymized during transmission to protect the sender.",
+        "C: Data is stored in a database and secured with passwords there.",
+        "D: Data is stored on a server and encrypted there."
+      ],
+      "correct_answer": "A",
+      "explanation": "End-to-end encryption is a security concept that ensures only the sender and the recipient have access to the messages. This protects private information from unauthorized access by third parties, even when data is transmitted over insecure networks.",
+      "difficulty": 6
     }
   ]
 }

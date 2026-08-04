@@ -3276,6 +3276,20 @@
       "correct_answer": "C",
       "explanation": "Load Balancing verteilt den eingehenden Datenverkehr auf mehrere Server, um Überlastungen zu vermeiden und die Effizienz zu steigern. Im Gegensatz dazu optimiert ein CDN die Verteilung von Inhalten über geografisch verteilte Server, während ein VPN für sichere Verbindungen sorgt und NAT IP-Adressen übersetzt.",
       "difficulty": 9
+    },
+    {
+      "category": "Technologie",
+      "topic": "Computer & Internet",
+      "question": "Was beschreibt der Begriff 'Ende-zu-Ende-Verschlüsselung'?",
+      "choices": [
+        "A: Daten werden vom Sender direkt bis zum Empfänger verschlüsselt und können nicht von Dritten gelesen werden.",
+        "B: Daten werden während der Übertragung anonymisiert, um den Absender zu schützen.",
+        "C: Daten werden in einer Datenbank gespeichert und dort mit Passwörtern gesichert.",
+        "D: Daten werden auf einem Server gespeichert und dort verschlüsselt."
+      ],
+      "correct_answer": "A",
+      "explanation": "Ende-zu-Ende-Verschlüsselung ist ein Sicherheitskonzept, das sicherstellt, dass nur der Sender und der Empfänger Zugang zu den Nachrichten haben. Dies schützt private Informationen vor unbefugtem Zugriff durch Dritte, selbst wenn die Daten über unsichere Netzwerke übertragen werden.",
+      "difficulty": 6
     }
   ]
 }
