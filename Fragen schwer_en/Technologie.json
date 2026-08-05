@@ -3304,6 +3304,20 @@
       "correct_answer": "A",
       "explanation": "End-to-end encryption is a security concept that ensures only the sender and the recipient have access to the messages. This protects private information from unauthorized access by third parties, even when data is transmitted over insecure networks.",
       "difficulty": 6
+    },
+    {
+      "category": "Technologie",
+      "topic": "Computer & Internet",
+      "question": "Which protocol is commonly used for secure data transmission over the internet?",
+      "choices": [
+        "A: FTP",
+        "B: SMTP",
+        "C: HTTPS",
+        "D: HTTP"
+      ],
+      "correct_answer": "C",
+      "explanation": "HTTPS (HyperText Transfer Protocol Secure) is an extension of HTTP that provides security through SSL/TLS. It is used to securely transmit data between web browsers and servers, especially for online transactions and confidential information.",
+      "difficulty": 10
     }
   ]
 }

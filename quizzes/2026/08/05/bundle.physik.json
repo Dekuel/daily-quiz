@@ -1,0 +1,169 @@
+{
+  "date": "2026-08-05",
+  "generated_at": "2026-08-05T04:03:37Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Symmetrien und Erhaltungssätze",
+      "question": "Welcher der folgenden Erhaltungssätze ist ein grundlegendes Konzept in der Teilchenphysik?",
+      "choices": [
+        "A: Erhaltung der Farbe",
+        "B: Erhaltung der Energie",
+        "C: Erhaltung der Temperatur",
+        "D: Erhaltung der Masse"
+      ],
+      "correct_answer": "B",
+      "explanation": "Der Erhaltungssatz der Energie besagt, dass die Gesamtenergie in einem geschlossenen System konstant bleibt. In der Teilchenphysik spielt dieser Satz eine zentrale Rolle, da er hilft, die Wechselwirkungen und Reaktionen zwischen Teilchen zu verstehen.",
+      "difficulty": 3,
+      "subcategory": "Symmetrien und Erhaltungssätze"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Doppelbrechung",
+      "question": "Was beschreibt der Begriff 'Doppelbrechung' in der Optik?",
+      "choices": [
+        "A: Die Aufspaltung von Licht in zwei unterschiedliche Richtungen durch ein anisotropes Material.",
+        "B: Die Reflexion von Licht an einer Oberfläche.",
+        "C: Die Brechung von Licht in einem Vakuum.",
+        "D: Die Erzeugung von Licht durch Wärme."
+      ],
+      "correct_answer": "A",
+      "explanation": "Doppelbrechung tritt auf, wenn Licht in einem anisotropen Material in zwei verschiedene Polarisationsrichtungen aufgeteilt wird, was zu zwei unterschiedlichen Brechungsindices führt. Dies ist ein charakteristisches Phänomen in Kristallen wie z.B. Calcit.",
+      "difficulty": 5,
+      "subcategory": "Doppelbrechung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Entropie als Zustandsgröße",
+      "question": "Welche Aussage beschreibt die Entropie in einem geschlossenen System am besten?",
+      "choices": [
+        "A: Entropie ist ein Maß für die Unordnung eines Systems.",
+        "B: Entropie kann nur abnehmen, nie zunehmen.",
+        "C: Entropie bleibt immer konstant.",
+        "D: Entropie hat keinen Einfluss auf die Energieumwandlung."
+      ],
+      "correct_answer": "A",
+      "explanation": "Entropie ist ein Begriff aus der Thermodynamik, der die Unordnung oder Zufälligkeit eines Systems beschreibt. In einem geschlossenen System kann die Entropie nur gleich bleiben oder zunehmen, was den natürlichen Verlauf von Prozessen erklärt.",
+      "difficulty": 6,
+      "subcategory": "Entropie als Zustandsgröße"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Auftrieb & Schwimmen",
+      "question": "Was ist der Hauptgrund dafür, dass ein Schiff auf dem Wasser schwimmt?",
+      "choices": [
+        "A: Das Gewicht des Schiffs ist kleiner als das Gewicht des verdrängten Wassers.",
+        "B: Das Schiff ist aus einem leichtem Material hergestellt.",
+        "C: Wasser hat eine höhere Dichte als der Schiffskörper.",
+        "D: Die Luftdruckverhältnisse beeinflussen das Schwimmen."
+      ],
+      "correct_answer": "A",
+      "explanation": "Ein Schiff schwimmt, weil die Auftriebskraft, die durch das verdrängte Wasser erzeugt wird, größer ist als das Gewicht des Schiffs. Dies ist ein direktes Ergebnis des archimedischen Prinzips, das besagt, dass ein Körper, der in eine Flüssigkeit eintaucht, einen Auftrieb erfährt, der gleich dem Gewicht des verdrängten Wassers ist.",
+      "difficulty": 3,
+      "subcategory": "Auftrieb & Schwimmen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Potentiale des idealen Gases",
+      "question": "Was beschreibt das ideale Gasgesetz in Bezug auf Druck, Volumen und Temperatur eines Gases?",
+      "choices": [
+        "A: pV = kT",
+        "B: pV = nRT",
+        "C: pV = mRT",
+        "D: pV = E"
+      ],
+      "correct_answer": "B",
+      "explanation": "Das ideale Gasgesetz, ausgedrückt als pV = nRT, beschreibt die Beziehung zwischen Druck (p), Volumen (V), der Anzahl der Mole (n), der allgemeinen Gaskonstante (R) und der Temperatur (T) eines idealen Gases. Diese Gleichung ist fundamental für das Verständnis thermodynamischer Prozesse in Gasen.",
+      "difficulty": 5,
+      "subcategory": "Potentiale des idealen Gases"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Resonanz & Schaltvorgänge",
+      "question": "Was beschreibt der Begriff 'Resonanz' in einem elektrischen Schaltkreis?",
+      "choices": [
+        "A: Den Widerstand eines Leiters bei hohen Temperaturen.",
+        "B: Die Verringerung der elektrischen Spannung.",
+        "C: Die Verstärkung von Signalfrequenzen bei bestimmter Frequenz.",
+        "D: Die Umwandlung von elektrischer in mechanische Energie."
+      ],
+      "correct_answer": "C",
+      "explanation": "Resonanz tritt auf, wenn die Frequenz eines externen Signals mit der Eigenfrequenz eines Schaltkreises übereinstimmt, was zu einer Verstärkung der Signalstärke führt. Diese Eigenschaft ist entscheidend für viele Anwendungen in der Elektrotechnik, wie z.B. in Schwingkreisen.",
+      "difficulty": 4,
+      "subcategory": "Resonanz & Schaltvorgänge"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Formulierung des Streuproblems",
+      "question": "Was beschreibt das Streuproblem in der Quantenmechanik?",
+      "choices": [
+        "A: Die Bewegung eines Teilchens in einem konstanten elektrischen Feld.",
+        "B: Die Energieerhaltung in einem geschlossenen System.",
+        "C: Die Diffusion von Teilchen in einem idealen Gas.",
+        "D: Die Wechselwirkung zwischen einem Teilchen und einem Potentialfeld."
+      ],
+      "correct_answer": "D",
+      "explanation": "Das Streuproblem in der Quantenmechanik untersucht, wie Teilchen durch Wechselwirkungen mit Potentialfeldern abgelenkt werden. Diese Wechselwirkungen sind zentral für das Verständnis von Quantenphänomenen und werden häufig mithilfe von Streutheorien analysiert.",
+      "difficulty": 5,
+      "subcategory": "Formulierung des Streuproblems"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Dipolschicht & Quadrupol",
+      "question": "Was beschreibt ein elektrischer Dipol in einem elektrischen Feld?",
+      "choices": [
+        "A: Die Ausrichtung von zwei entgegengesetzten Ladungen.",
+        "B: Die Wechselwirkung zwischen zwei magnetischen Feldern.",
+        "C: Die Bewegung von Elektronen in einem Leiter.",
+        "D: Die Verteilung von elektrischen Ladungen in einem Isolator."
+      ],
+      "correct_answer": "A",
+      "explanation": "Ein elektrischer Dipol besteht aus zwei gleich großen, entgegengesetzten Ladungen, die durch einen Abstand getrennt sind. In einem elektrischen Feld orientiert sich der Dipol entlang der Feldlinien, was die Eigenschaften von Dipolen in der Elektrodynamik beschreibt.",
+      "difficulty": 4,
+      "subcategory": "Dipolschicht & Quadrupol"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Beugung an mehrdimensionalen Gittern",
+      "question": "Was beschreibt das Phänomen der Beugung an einem zweidimensionalen Gitter?",
+      "choices": [
+        "A: Die Absorption von Licht durch das Gittermaterial.",
+        "B: Die Ablenkung von Lichtstrahlen durch ein Gitter, die zu einem Interferenzmuster führt.",
+        "C: Die Streuung von Licht in alle Richtungen durch eine undurchsichtige Fläche.",
+        "D: Die Reflexion von Lichtstrahlen an den Kanten des Gitters."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Beugung an einem zweidimensionalen Gitter tritt auf, wenn Lichtstrahlen an den periodischen Strukturen des Gitters abgelenkt werden, was zu charakteristischen Interferenzmustern führt. Diese Muster sind abhängig von der Gitterkonstanten und der Wellenlänge des einfallenden Lichts.",
+      "difficulty": 7,
+      "subcategory": "Beugung an mehrdimensionalen Gittern"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Einteilung magnetischer Stoffe (dia-/para-/ferro-)",
+      "question": "Welche Art von magnetischem Material wird als ferromagnetisch bezeichnet?",
+      "choices": [
+        "A: Materialien, die nur schwach magnetisiert werden und keine dauerhafte Magnetisierung zeigen.",
+        "B: Materialien, die sich in einem Magnetfeld gleichmäßig verteilen.",
+        "C: Materialien, die in einem Magnetfeld abstoßend wirken.",
+        "D: Materialien, die in einem Magnetfeld stark magnetisiert werden und diese Magnetisierung auch nach Entfernen des Feldes beibehalten."
+      ],
+      "correct_answer": "D",
+      "explanation": "Ferromagnetische Materialien sind in der Lage, eine starke Magnetisierung zu erzeugen und diese auch nach Entfernen des Magnetfeldes zu behalten. Beispiele hierfür sind Eisen, Nickel und Kobalt. Im Gegensatz dazu zeigen diamagnetische und paramagnetische Materialien andere Eigenschaften.",
+      "difficulty": 3,
+      "subcategory": "Einteilung magnetischer Stoffe (dia-/para-/ferro-)"
+    }
+  ]
+}
