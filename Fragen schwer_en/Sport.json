@@ -3668,6 +3668,20 @@
       "correct_answer": "A",
       "explanation": "An athlete who starts running too early at the beginning commits a false start. According to the rules of athletics, the athlete will be disqualified in this case to ensure fair conditions for all participants.",
       "difficulty": 5
+    },
+    {
+      "category": "Sport",
+      "topic": "Sonstige",
+      "question": "Which quantum algorithm framework was released by IBM for developing quantum applications?",
+      "choices": [
+        "A: Cirq",
+        "B: TensorFlow Quantum",
+        "C: Quipper",
+        "D: Qiskit"
+      ],
+      "correct_answer": "A",
+      "explanation": "Qiskit is an open-source framework by IBM that allows developers to create quantum algorithms and run them on real quantum computers. In contrast, TensorFlow Quantum is an extension for machine learning, while Quipper and Cirq represent other approaches to quantum programming not originating from IBM.",
+      "difficulty": 8
     }
   ]
 }

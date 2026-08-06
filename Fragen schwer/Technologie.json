@@ -3304,6 +3304,20 @@
       "correct_answer": "C",
       "explanation": "HTTPS (HyperText Transfer Protocol Secure) ist eine Erweiterung von HTTP, die Sicherheit durch SSL/TLS bietet. Es wird verwendet, um Daten zwischen Webbrowsern und Servern sicher zu übertragen, insbesondere bei Online-Transaktionen und vertraulichen Informationen.",
       "difficulty": 10
+    },
+    {
+      "category": "Technologie",
+      "topic": "KI & Zukunftstechnologien",
+      "question": "Welches Quantenalgorithmus-Framework wurde von IBM zur Entwicklung von Quantenanwendungen veröffentlicht?",
+      "choices": [
+        "A: Cirq",
+        "B: TensorFlow Quantum",
+        "C: Quipper",
+        "D: Qiskit"
+      ],
+      "correct_answer": "D",
+      "explanation": "Qiskit ist ein Open-Source-Framework von IBM, das Entwicklern ermöglicht, Quantenalgorithmen zu erstellen und auf echten Quantencomputern auszuführen. TensorFlow Quantum ist hingegen eine Erweiterung für das maschinelle Lernen, während Quipper und Cirq andere Ansätze zur Quantenprogrammierung darstellen, jedoch nicht von IBM stammen.",
+      "difficulty": 10
     }
   ]
 }
