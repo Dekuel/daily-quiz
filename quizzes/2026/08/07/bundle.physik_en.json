@@ -1,0 +1,168 @@
+{
+  "date": "2026-08-07",
+  "generated_at": "2026-08-07T04:52:43Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Elektrische Dipolstrahlung",
+      "question": "Which of the following statements correctly describes the dependence of dipole radiation on the frequency of the source?",
+      "choices": [
+        "A: The emitted power is proportional to the frequency of the source.",
+        "B: The emitted power is proportional to the frequency squared.",
+        "C: The emitted power is independent of the frequency of the source.",
+        "D: The emitted power is proportional to the fourth power of the frequency."
+      ],
+      "correct_answer": "B",
+      "explanation": "The electric dipole radiation shows that the emitted power is proportional to the square of the frequency, which results from the calculation of the radiation power of a harmonic dipole moment. This means that a higher frequency leads to a significantly higher emitted power, which is important for the analysis of electromagnetic waves.",
+      "difficulty": 10,
+      "subcategory": "Elektrische Dipolstrahlung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Energie–Zeit–Unschärfe",
+      "question": "What does the energy-time uncertainty principle state in quantum mechanics?",
+      "choices": [
+        "A: The uncertainty in energy is inversely proportional to the uncertainty in time.",
+        "B: The energy of a system can be determined with arbitrary precision if the time measurement is inaccurate.",
+        "C: The uncertainty in energy does not affect the properties of the system.",
+        "D: The time of a quantum mechanical process is constant, regardless of the energy."
+      ],
+      "correct_answer": "A",
+      "explanation": "The energy-time uncertainty principle states that the uncertainty in the energy of a system is inversely proportional to the uncertainty in time. This means that a precise measurement of energy leads to a large uncertainty in time and vice versa. This principle is fundamental for understanding quantum processes and their temporal properties.",
+      "difficulty": 8,
+      "subcategory": "Energie–Zeit–Unschärfe"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Lineare Operatoren",
+      "question": "What describes a linear operator in quantum mechanics?",
+      "choices": [
+        "A: A method for calculating classical forms of energy.",
+        "B: A process that affects time dilation.",
+        "C: A physical quantity that is independent of quantum mechanics.",
+        "D: A mathematical function that maps states to states."
+      ],
+      "correct_answer": "D",
+      "explanation": "In quantum mechanics, linear operators are functions that map states of a quantum system to other states. They play a central role in describing observables and their measurements.",
+      "difficulty": 3,
+      "subcategory": "Lineare Operatoren"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Maxwell-Konstruktion (Van-der-Waals-Isothermen)",
+      "question": "Which statement about the Maxwell construction for Van der Waals isotherms is correct?",
+      "choices": [
+        "A: The Maxwell construction can only be applied to systems with a single phase.",
+        "B: The Maxwell construction ensures that the area between the isotherms and the pressure axis is the same.",
+        "C: The Maxwell construction completely ignores the interactions between molecules.",
+        "D: The Maxwell construction uses only ideal gases to calculate phase transitions."
+      ],
+      "correct_answer": "B",
+      "explanation": "The Maxwell construction is used to modify the pressure-volume isotherms of Van der Waals gases so that the area between the isotherm and the pressure axis is equal to the area under the isotherm, ensuring thermodynamic consistency. This method is crucial for understanding phase transitions in real gases.",
+      "difficulty": 10,
+      "subcategory": "Maxwell-Konstruktion (Van-der-Waals-Isothermen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Phasen von Einstoffsystemen & Clausius–Clapeyron",
+      "question": "Which statement correctly describes the relationship between the vapor pressure curve and the phase equation according to the Clausius-Clapeyron equation?",
+      "choices": [
+        "A: The vapor pressure decreases linearly with temperature.",
+        "B: The vapor pressure is temperature-independent and depends only on pressure.",
+        "C: The vapor pressure increases exponentially with temperature.",
+        "D: The vapor pressure remains constant, regardless of temperature."
+      ],
+      "correct_answer": "C",
+      "explanation": "The Clausius-Clapeyron equation describes that the vapor pressure of a substance increases exponentially with temperature. This shows that temperature has a direct influence on the state of the substance, especially during the phase transition from liquid to gas.",
+      "difficulty": 9,
+      "subcategory": "Phasen von Einstoffsystemen & Clausius–Clapeyron"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Translationsgitter & Kristallsysteme",
+      "question": "Which of the following crystal systems has the simplest structure?",
+      "choices": [
+        "A: Tetragonal",
+        "B: Body-centered cubic",
+        "C: Hexagonal close-packed",
+        "D: Simple cubic"
+      ],
+      "correct_answer": "D",
+      "explanation": "The simple cubic crystal system has the simplest structure, as it contains only one atom per unit cell and the atoms are arranged at the corners of the cube. In comparison, the other systems have more complex arrangements and more atoms per unit cell.",
+      "difficulty": 3,
+      "subcategory": "Translationsgitter & Kristallsysteme"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Wellenpakete (Optik)",
+      "question": "What describes a wave packet in optics?",
+      "choices": [
+        "A: A local superposition of multiple waves with different frequencies.",
+        "B: A single monochromatic wave without modulation.",
+        "C: The behavior of light in a vacuum.",
+        "D: A light beam refracted by a prism."
+      ],
+      "correct_answer": "A",
+      "explanation": "A wave packet is formed by the superposition of multiple waves with different frequencies, resulting in a localized wave. This construction is important for understanding phenomena such as diffraction and the interference pattern of light.",
+      "difficulty": 5,
+      "subcategory": "Wellenpakete (Optik)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Entstehung von Wirbeln",
+      "question": "What is a common cause for the formation of air vortices?",
+      "choices": [
+        "A: High air pressure",
+        "B: Constant humidity",
+        "C: Temperature differences in the air",
+        "D: Static wind"
+      ],
+      "correct_answer": "C",
+      "explanation": "Air vortices often form due to temperature differences that lead to varying densities and movements of air. These differences create upward and downward movements that form the characteristic vortices.",
+      "difficulty": 3,
+      "subcategory": "Entstehung von Wirbeln"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Fresnel vs. Fraunhofer (Übergangsbedingungen)",
+      "question": "What describes the difference between Fresnel and Fraunhofer diffraction?",
+      "choices": [
+        "A: There is no difference between Fresnel and Fraunhofer diffraction.",
+        "B: Fresnel diffraction occurs with close light sources, while Fraunhofer diffraction occurs with distant light sources.",
+        "C: Fresnel diffraction only refers to water waves.",
+        "D: Fresnel diffraction is always weaker than Fraunhofer diffraction."
+      ],
+      "correct_answer": "B",
+      "explanation": "Fresnel diffraction describes the diffraction of light waves at objects when the light source is relatively close, while Fraunhofer diffraction occurs when the light source is far away and the wavefronts are nearly parallel. This is crucial for understanding diffraction effects in optics.",
+      "difficulty": 1,
+      "subcategory": "Fresnel vs. Fraunhofer (Übergangsbedingungen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Strömungsleitwerte von Vakuumleitungen",
+      "question": "What describes the conductance of a vacuum line?",
+      "choices": [
+        "A: The maximum temperature the line can withstand.",
+        "B: The ability to allow a certain amount of gas to pass through.",
+        "C: The density of the gas in the line.",
+        "D: The length of the vacuum line."
+      ],
+      "correct_answer": "B",
+      "explanation": "The conductance of a vacuum line indicates how much gas can flow through the line at a specific pressure difference. A higher conductance means better permeability of the line for gases.",
+      "difficulty": 2,
+      "subcategory": "Strömungsleitwerte von Vakuumleitungen"
+    }
+  ]
+}

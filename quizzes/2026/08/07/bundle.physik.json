@@ -1,0 +1,169 @@
+{
+  "date": "2026-08-07",
+  "generated_at": "2026-08-07T04:52:07Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Elektrische Dipolstrahlung",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt die Abhängigkeit der Dipolstrahlung von der Frequenz der Quelle?",
+      "choices": [
+        "A: Die abgestrahlte Leistung ist proportional zur Frequenz der Quelle.",
+        "B: Die abgestrahlte Leistung ist proportional zur Frequenz zum Quadrat.",
+        "C: Die abgestrahlte Leistung ist unabhängig von der Frequenz der Quelle.",
+        "D: Die abgestrahlte Leistung ist proportional zur vierten Potenz der Frequenz."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die elektrische Dipolstrahlung zeigt, dass die abgestrahlte Leistung proportional zur Frequenz zum Quadrat ist, was sich aus der Berechnung der Strahlungsleistung eines harmonischen Dipolmoment ergibt. Dies bedeutet, dass eine höhere Frequenz zu einer signifikant höheren abgestrahlten Leistung führt, was für die Analyse elektromagnetischer Wellen von Bedeutung ist.",
+      "difficulty": 10,
+      "subcategory": "Elektrische Dipolstrahlung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Energie–Zeit–Unschärfe",
+      "question": "Was besagt das Energie-Zeit-Unschärfe-Prinzip in der Quantenmechanik?",
+      "choices": [
+        "A: Die Unschärfe in der Energie ist umgekehrt proportional zur Unschärfe in der Zeit.",
+        "B: Die Energie eines Systems kann beliebig genau bestimmt werden, wenn die Zeitmessung ungenau ist.",
+        "C: Die Unschärfe in der Energie beeinflusst nicht die Eigenschaften des Systems.",
+        "D: Die Zeit eines quantenmechanischen Prozesses ist konstant, unabhängig von der Energie."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Energie-Zeit-Unschärfe-Prinzip besagt, dass die Unschärfe der Energie eines Systems umgekehrt proportional zur Unschärfe in der Zeit ist. Dies bedeutet, dass eine genaue Messung der Energie zu einer großen Unschärfe in der Zeit führt und umgekehrt. Dieses Prinzip ist fundamental für das Verständnis von Quantenprozessen und deren temporalen Eigenschaften.",
+      "difficulty": 8,
+      "subcategory": "Energie–Zeit–Unschärfe"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Lineare Operatoren",
+      "question": "Was beschreibt ein linearer Operator in der Quantenmechanik?",
+      "choices": [
+        "A: Eine Methode zur Berechnung klassischer Energieformen.",
+        "B: Ein Prozess, der die Zeitdilatation beeinflusst.",
+        "C: Eine physikalische Größe, die unabhängig von der Quantenmechanik ist.",
+        "D: Eine mathematische Funktion, die Zustände in Zustände abbildet."
+      ],
+      "correct_answer": "D",
+      "explanation": "In der Quantenmechanik sind lineare Operatoren Funktionen, die Zustände eines Quantensystems in andere Zustände abbilden. Sie spielen eine zentrale Rolle bei der Beschreibung von Observablen und deren Messungen.",
+      "difficulty": 3,
+      "subcategory": "Lineare Operatoren"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Maxwell-Konstruktion (Van-der-Waals-Isothermen)",
+      "question": "Welche Aussage zur Maxwell-Konstruktion für Van-der-Waals-Isothermen ist korrekt?",
+      "choices": [
+        "A: Die Maxwell-Konstruktion kann nur für Systeme mit einer einzigen Phase angewendet werden.",
+        "B: Die Maxwell-Konstruktion stellt sicher, dass die Fläche zwischen den Isothermen und der Druckachse die gleiche Fläche hat.",
+        "C: Die Maxwell-Konstruktion ignoriert die Wechselwirkungen zwischen Molekülen vollständig.",
+        "D: Die Maxwell-Konstruktion verwendet nur ideale Gase zur Berechnung von Phasenübergängen."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Maxwell-Konstruktion dient dazu, die Druck-Volumen-Isothermen von Van-der-Waals-Gasen so zu modifizieren, dass die Fläche zwischen der Isotherme und der Druckachse gleich der Fläche unter der Isotherme ist, was die thermodynamische Konsistenz sicherstellt. Diese Methode ist entscheidend für das Verständnis von Phasenübergängen in realen Gasen.",
+      "difficulty": 10,
+      "subcategory": "Maxwell-Konstruktion (Van-der-Waals-Isothermen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Phasen von Einstoffsystemen & Clausius–Clapeyron",
+      "question": "Welche Aussage beschreibt korrekt die Beziehung zwischen der Dampfdruckkurve und der Phasengleichung gemäß der Clausius–Clapeyron-Gleichung?",
+      "choices": [
+        "A: Der Dampfdruck nimmt linear mit der Temperatur ab.",
+        "B: Der Dampfdruck ist temperaturunabhängig und hängt nur vom Druck ab.",
+        "C: Der Dampfdruck nimmt exponentiell mit der Temperatur zu.",
+        "D: Der Dampfdruck bleibt konstant, unabhängig von der Temperatur."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Clausius–Clapeyron-Gleichung beschreibt, dass der Dampfdruck eines Stoffes exponentiell mit der Temperatur ansteigt. Dies zeigt, dass die Temperatur einen direkten Einfluss auf den Zustand des Stoffes hat, insbesondere beim Phasenübergang von flüssig zu gasförmig.",
+      "difficulty": 9,
+      "subcategory": "Phasen von Einstoffsystemen & Clausius–Clapeyron"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Translationsgitter & Kristallsysteme",
+      "question": "Welches der folgenden Kristallsysteme hat die einfachste Struktur?",
+      "choices": [
+        "A: Tetragonal",
+        "B: Kubisch flächenzentriert",
+        "C: Hexagonal dichteste Packung",
+        "D: Kubisch einfach"
+      ],
+      "correct_answer": "D",
+      "explanation": "Das kubisch einfache Kristallsystem hat die einfachste Struktur, da es nur ein Atom pro Gitterzelle enthält und die Atome in den Ecken des Würfels angeordnet sind. Im Vergleich dazu haben die anderen Systeme komplexere Anordnungen und mehr Atome pro Gitterzelle.",
+      "difficulty": 3,
+      "subcategory": "Translationsgitter & Kristallsysteme"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Wellenpakete (Optik)",
+      "question": "Was beschreibt ein Wellenpaket in der Optik?",
+      "choices": [
+        "A: Eine lokale Überlagerung mehrerer Wellen mit verschiedenen Frequenzen.",
+        "B: Eine einzelne monochromatische Welle ohne Modulation.",
+        "C: Das Verhalten von Licht in einem Vakuum.",
+        "D: Ein Lichtstrahl, der durch ein Prisma gebrochen wird."
+      ],
+      "correct_answer": "A",
+      "explanation": "Ein Wellenpaket entsteht durch die Überlagerung mehrerer Wellen mit unterschiedlichen Frequenzen, was zu einer lokalisierten Welle führt. Diese Konstruktion ist wichtig für das Verständnis von Phänomenen wie der Beugung und dem Interferenzmuster von Licht.",
+      "difficulty": 5,
+      "subcategory": "Wellenpakete (Optik)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Entstehung von Wirbeln",
+      "question": "Was ist eine häufige Ursache für die Entstehung von Luftwirbeln?",
+      "choices": [
+        "A: Hoher Luftdruck",
+        "B: Konstante Luftfeuchtigkeit",
+        "C: Temperaturunterschiede in der Luft",
+        "D: Statischer Wind"
+      ],
+      "correct_answer": "C",
+      "explanation": "Luftwirbel entstehen oft durch Temperaturunterschiede, die zu unterschiedlichen Dichten und Bewegungen der Luft führen. Diese Unterschiede erzeugen Auf- und Abwärtsbewegungen, die die charakteristischen Wirbel bilden.",
+      "difficulty": 3,
+      "subcategory": "Entstehung von Wirbeln"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Fresnel vs. Fraunhofer (Übergangsbedingungen)",
+      "question": "Was beschreibt der Unterschied zwischen Fresnel- und Fraunhofer-Beugung?",
+      "choices": [
+        "A: Es gibt keinen Unterschied zwischen Fresnel- und Fraunhofer-Beugung.",
+        "B: Fresnel-Beugung tritt bei nahen Lichtquellen auf, während Fraunhofer-Beugung bei weit entfernten Lichtquellen auftritt.",
+        "C: Fresnel-Beugung bezieht sich nur auf Wasserwellen.",
+        "D: Fresnel-Beugung ist immer schwächer als Fraunhofer-Beugung."
+      ],
+      "correct_answer": "B",
+      "explanation": "Fresnel-Beugung beschreibt die Beugung von Lichtwellen an Objekten, wenn die Lichtquelle relativ nahe ist, während Fraunhofer-Beugung auftritt, wenn die Lichtquelle weit entfernt ist und die Wellenfronten nahezu parallel sind. Dies ist entscheidend für das Verständnis von Beugungseffekten in der Optik.",
+      "difficulty": 1,
+      "subcategory": "Fresnel vs. Fraunhofer (Übergangsbedingungen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Strömungsleitwerte von Vakuumleitungen",
+      "question": "Was beschreibt der Strömungsleitwert einer Vakuumleitung?",
+      "choices": [
+        "A: Die maximale Temperatur, die die Leitung aushalten kann.",
+        "B: Die Fähigkeit, eine bestimmte Menge an Gas durchzulassen.",
+        "C: Die Dichte des Gases in der Leitung.",
+        "D: Die Länge der Vakuumleitung."
+      ],
+      "correct_answer": "B",
+      "explanation": "Der Strömungsleitwert einer Vakuumleitung gibt an, wie viel Gas bei einem bestimmten Druckunterschied durch die Leitung strömen kann. Ein höherer Strömungsleitwert bedeutet eine bessere Durchlässigkeit der Leitung für Gase.",
+      "difficulty": 2,
+      "subcategory": "Strömungsleitwerte von Vakuumleitungen"
+    }
+  ]
+}
