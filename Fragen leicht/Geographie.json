@@ -3808,6 +3808,20 @@
       "correct_answer": "A",
       "explanation": "Die Arabische Halbinsel erstreckt sich im Südwesten Asiens und ist von verschiedenen Kulturen und Sprachen geprägt. Sie grenzt an das Rote Meer, den Persischen Golf und das Arabische Meer und ist Heimat für eine Vielzahl von Ländern, einschließlich Saudi-Arabien und den Vereinigten Arabischen Emiraten.",
       "difficulty": 5
+    },
+    {
+      "category": "Geographie",
+      "topic": "Kartographie & GIS",
+      "question": "Welcher Join-Typ in GIS wird verwendet, um räumliche Beziehungen zwischen zwei Datensätzen herzustellen, basierend auf deren Geometrien?",
+      "choices": [
+        "A: Attribut-Join",
+        "B: Outer-Join",
+        "C: Spatial-Join",
+        "D: Inner-Join"
+      ],
+      "correct_answer": "C",
+      "explanation": "Der Spatial-Join verbindet Daten aus zwei verschiedenen Layern in einem GIS, indem er die räumlichen Beziehungen zwischen den geometrischen Objekten berücksichtigt. Diese Methode ist besonders nützlich, um Informationen zu extrahieren, die auf der räumlichen Nähe oder Überlappung basieren.",
+      "difficulty": 6
     }
   ]
 }

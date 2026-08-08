@@ -3738,6 +3738,20 @@
       "correct_answer": "A",
       "explanation": "The Arabian Peninsula extends in the southwest of Asia and is characterized by various cultures and languages. It borders the Red Sea, the Persian Gulf, and the Arabian Sea and is home to a variety of countries, including Saudi Arabia and the United Arab Emirates.",
       "difficulty": 5
+    },
+    {
+      "category": "Geographie",
+      "topic": "Kartographie & GIS",
+      "question": "Which join type in GIS is used to establish spatial relationships between two datasets based on their geometries?",
+      "choices": [
+        "A: Attribute Join",
+        "B: Outer Join",
+        "C: Spatial Join",
+        "D: Inner Join"
+      ],
+      "correct_answer": "C",
+      "explanation": "Spatial Join connects data from two different layers in a GIS by considering the spatial relationships between the geometric objects. This method is particularly useful for extracting information based on spatial proximity or overlap.",
+      "difficulty": 6
     }
   ]
 }

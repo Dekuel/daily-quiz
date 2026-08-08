@@ -1,0 +1,168 @@
+{
+  "date": "2026-08-08",
+  "generated_at": "2026-08-08T04:08:50Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Nutation & Präzession (Überlagerung)",
+      "question": "What does the term 'precession' describe in classical mechanics?",
+      "choices": [
+        "A: The slow gyration motion of a rotating mass around a vertical axis.",
+        "B: The acceleration of an object when a force acts on it.",
+        "C: The change in the shape of a body under pressure.",
+        "D: The speed at which an object hits a surface."
+      ],
+      "correct_answer": "A",
+      "explanation": "Precession refers to the slow change in the direction of the rotational axis of a rotating body, such as a gyroscope. This movement arises from external forces acting on the body and is an important concept in the analysis of rotating systems.",
+      "difficulty": 6,
+      "subcategory": "Nutation & Präzession (Überlagerung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Prinzip der kleinsten Wirkung",
+      "question": "Which of the following principles is in line with the principle of least action?",
+      "choices": [
+        "A: A system moves along the path that requires the least time.",
+        "B: A system follows the path that requires the least energy.",
+        "C: A force is always equal to mass multiplied by acceleration.",
+        "D: A system remains at rest as long as no external force acts."
+      ],
+      "correct_answer": "A",
+      "explanation": "The principle of least action states that the actual path of a system is the one that minimizes time. It is directly related to the idea that motion along a specific path is optimized, which also plays an important role in classical mechanics.",
+      "difficulty": 7,
+      "subcategory": "Prinzip der kleinsten Wirkung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Moden in optischen Wellenleitern",
+      "question": "What does the term 'modes' describe in optical waveguides?",
+      "choices": [
+        "A: The frequency ranges used for light transmission.",
+        "B: The temperature conditions in an optical material.",
+        "C: The different light paths that can propagate in the waveguide.",
+        "D: The chemical composition of the waveguide material."
+      ],
+      "correct_answer": "C",
+      "explanation": "In optical waveguides, the term 'modes' refers to the different light paths or profiles that can be supported within the waveguide. These modes depend on the geometry of the waveguide and the physical properties of the material.",
+      "difficulty": 4,
+      "subcategory": "Moden in optischen Wellenleitern"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Einleitung & Zielsetzung der Statistischen Mechanik",
+      "question": "What is the main goal of statistical mechanics?",
+      "choices": [
+        "A: Deriving the microscopic properties of systems from the distribution of their macrostates.",
+        "B: Applying the laws of classical mechanics to quantum mechanical systems.",
+        "C: Tracking the individual particle movements in a system precisely.",
+        "D: Determining the maximum entropy values of closed systems."
+      ],
+      "correct_answer": "A",
+      "explanation": "Statistical mechanics aims to derive the macroscopic properties of a system by statistically describing its microscopic states. It connects thermodynamics with molecular and atomic physics to enable a deeper understanding of physical systems.",
+      "difficulty": 9,
+      "subcategory": "Einleitung & Zielsetzung der Statistischen Mechanik"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Baryon‑Multipletts",
+      "question": "Which of the following baryon multiplets contains the Omega baryon?",
+      "choices": [
+        "A: N(938)",
+        "B: Δ(1232)",
+        "C: Σ(1192)",
+        "D: Ω(1672)"
+      ],
+      "correct_answer": "D",
+      "explanation": "The Omega baryon is a member of the baryon multiplet known as Ω(1672). It belongs to the group of baryonic resonances and has a specific property that distinguishes it from other baryons.",
+      "difficulty": 8,
+      "subcategory": "Baryon‑Multipletts"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Energie–Zeit–Unschärfe",
+      "question": "Which statement correctly describes the energy-time uncertainty relation in quantum mechanics?",
+      "choices": [
+        "A: The uncertainty in time is independent of the system's energy.",
+        "B: The uncertainty in energy is inversely proportional to the uncertainty in time.",
+        "C: The energy-time uncertainty relation applies only to stationary states.",
+        "D: An exact energy determination requires an infinite time measurement."
+      ],
+      "correct_answer": "B",
+      "explanation": "The energy-time uncertainty relation states that the uncertainty in energy ΔE and the uncertainty in time Δt are linked, with ΔE * Δt ≥ ħ/2. This relationship shows that a precise measurement of energy requires a greater uncertainty in time and vice versa.",
+      "difficulty": 10,
+      "subcategory": "Energie–Zeit–Unschärfe"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Formale Eigenschaften (Bilinearität, Antisymmetrie, Jacobi)",
+      "question": "Which property describes a bilinear form in analytical mechanics?",
+      "choices": [
+        "A: It is linear in both arguments.",
+        "B: It is linear in only one argument.",
+        "C: It is always constant.",
+        "D: It is always positive."
+      ],
+      "correct_answer": "A",
+      "explanation": "A bilinear form is defined by its linearity in both arguments, meaning it reacts linearly to the scaling or addition of vectors. This property is fundamental to many concepts in analytical mechanics.",
+      "difficulty": 2,
+      "subcategory": "Formale Eigenschaften (Bilinearität, Antisymmetrie, Jacobi)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Residuensatz",
+      "question": "Which of the following expressions correctly represents the residue theorem in electrodynamics?",
+      "choices": [
+        "A: The residue theorem is a method for calculating the electrical energy of a system.",
+        "B: The residue theorem states that the sum of the residues of an analytic function in a closed region is equal to the total charge within that region.",
+        "C: The residue theorem describes the relationship between electric field lines and magnetic flux densities.",
+        "D: The residue theorem states that the work done on a charge is independent of the path taken."
+      ],
+      "correct_answer": "B",
+      "explanation": "The residue theorem is a fundamental concept in complex analysis applied in electrodynamics to describe the relationship between the residues of a function and the sources within a closed region. This relationship is crucial for understanding the distribution of electric charges and their effects on the electric field.",
+      "difficulty": 6,
+      "subcategory": "Residuensatz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Eigenschaften der Leptonen",
+      "question": "Which of the following particles belongs to the leptons?",
+      "choices": [
+        "A: Proton",
+        "B: Electron",
+        "C: Neutron",
+        "D: Alpha particles"
+      ],
+      "correct_answer": "B",
+      "explanation": "Leptons are elementary particles that do not participate in the strong interaction. The electron is the most well-known lepton, while protons and neutrons are baryons, and alpha particles consist of multiple nucleons.",
+      "difficulty": 4,
+      "subcategory": "Eigenschaften der Leptonen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Bottonium & Toponium",
+      "question": "Which of the following statements about Bottomonium and Toponium is correct?",
+      "choices": [
+        "A: Bottomonium cannot be produced in most high-energy collisions due to the large mass of the bottom quark.",
+        "B: Bottomonium is a bound state of a bottom quark and an anti-bottom quark, while Toponium consists of a top quark and an anti-top quark.",
+        "C: Bottomonium and Toponium are identical states that differ only by their mass difference.",
+        "D: Toponium has a longer lifespan than Bottomonium and mainly decays into photons."
+      ],
+      "correct_answer": "B",
+      "explanation": "Bottomonium is indeed a bound state of a bottom quark and its antiparticle, the anti-bottom quark. Toponium consists of the top quark and the anti-top quark, but due to the high mass of the top quark, it is less stable and has a shorter lifespan than Bottomonium.",
+      "difficulty": 10,
+      "subcategory": "Bottonium & Toponium"
+    }
+  ]
+}
