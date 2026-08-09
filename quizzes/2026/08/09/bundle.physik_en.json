@@ -1,0 +1,168 @@
+{
+  "date": "2026-08-09",
+  "generated_at": "2026-08-09T04:14:31Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Streuung an der harten Kugel",
+      "question": "What phenomenon describes the change in scattering angles when particles scatter off a hard sphere in quantum mechanics?",
+      "choices": [
+        "A: The tunneling effect",
+        "B: The Heisenberg Uncertainty Principle",
+        "C: The photoelectric effect",
+        "D: The Compton effect"
+      ],
+      "correct_answer": "D",
+      "explanation": "The Compton effect describes the scattering of photons off electrons, resulting in a change in energy and momentum vectors leading to a modified scattering angle. Similar principles can be applied in scattering off a hard sphere in quantum mechanics to analyze interactions.",
+      "difficulty": 7,
+      "subcategory": "Streuung an der harten Kugel"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Impulsraum-Darstellung der Wellenfunktion",
+      "question": "What does the momentum space representation of the wave function in quantum mechanics describe?",
+      "choices": [
+        "A: The relationship between energy and frequency of a particle.",
+        "B: The probability distribution of a particle in momentum space.",
+        "C: The time evolution of the wave function in position space.",
+        "D: The interaction between two particles in space."
+      ],
+      "correct_answer": "B",
+      "explanation": "The momentum space representation of the wave function describes the distribution of probabilities of particle momenta, which plays a central role in quantum mechanics. This representation is useful for analyzing particle properties in terms of their momentum.",
+      "difficulty": 6,
+      "subcategory": "Impulsraum-Darstellung der Wellenfunktion"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Gleichgewichtsbedingungen (allgemein)",
+      "question": "What condition must be met for a system to be in thermodynamic equilibrium?",
+      "choices": [
+        "A: Temperature and pressure are equal everywhere.",
+        "B: There are no interactions between particles.",
+        "C: The system always has a constant energy.",
+        "D: The volume of the system remains constant."
+      ],
+      "correct_answer": "A",
+      "explanation": "Thermodynamic equilibrium requires that temperature and pressure are uniform throughout the system. This ensures there is no net movement of energy or matter, leading to a stable state.",
+      "difficulty": 5,
+      "subcategory": "Gleichgewichtsbedingungen (allgemein)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Spezifische Wärme der Elektronen",
+      "question": "What does the specific heat of electrons in solids describe?",
+      "choices": [
+        "A: The ability of electrons to conduct heat.",
+        "B: The average kinetic energy of electrons in a solid.",
+        "C: The total heat a solid can release at constant pressure.",
+        "D: The energy required to increase the temperature of an electron by 1 degree Kelvin."
+      ],
+      "correct_answer": "D",
+      "explanation": "The specific heat of electrons refers to the amount of energy needed to increase the temperature of an electron by 1 degree Kelvin. This property is important for understanding heat conduction and thermal properties in solids.",
+      "difficulty": 5,
+      "subcategory": "Spezifische Wärme der Elektronen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Zweiter Hauptsatz (Kelvin-Planck/Clausius)",
+      "question": "What does the second law of thermodynamics state regarding heat transfer?",
+      "choices": [
+        "A: All physical processes are reversible.",
+        "B: The temperature of a system remains constant as long as no work is done.",
+        "C: Energy cannot be created or destroyed.",
+        "D: Heat cannot spontaneously flow from a colder to a warmer body."
+      ],
+      "correct_answer": "D",
+      "explanation": "The second law of thermodynamics states that heat cannot spontaneously flow from a colder body to a warmer one, as observed in nature. This regulation leads to an understanding of the direction of thermodynamic processes and the efficiency of machines.",
+      "difficulty": 5,
+      "subcategory": "Zweiter Hauptsatz (Kelvin-Planck/Clausius)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Streuung an Oberflächen/dünnen Schichten",
+      "question": "Which of the following statements best describes the influence of surface roughness on the scattering of electrons off a metal surface?",
+      "choices": [
+        "A: Electron scattering on a surface depends solely on material density.",
+        "B: A rough surface can increase electron scattering and influence the direction of scattered electrons.",
+        "C: A smooth surface leads to stronger elastic scattering.",
+        "D: Surface roughness has no effect on electron scattering."
+      ],
+      "correct_answer": "B",
+      "explanation": "Surface roughness can increase electron scattering by introducing additional scattering angles and mechanisms. A rough surface provides more scattering possibilities and influences the direction of electrons, which is less pronounced in smooth surfaces.",
+      "difficulty": 6,
+      "subcategory": "Streuung an Oberflächen/dünnen Schichten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Fluktuationen makroskopischer Größen",
+      "question": "What does the statistical mechanics concept of fluctuations of macroscopic quantities describe?",
+      "choices": [
+        "A: The uniform distribution of particles in an ideal gas.",
+        "B: The constant values of pressure and volume in a closed system.",
+        "C: The random changes in energy and temperature in a system.",
+        "D: The linear relationship between temperature and energy."
+      ],
+      "correct_answer": "C",
+      "explanation": "Fluctuations of macroscopic quantities refer to the random and time-dependent changes that can occur in a system, typically concerning energy, temperature, or other thermodynamic variables. These fluctuations are a central concept in statistical mechanics, which considers the microscopic states of a system to explain macroscopic properties.",
+      "difficulty": 2,
+      "subcategory": "Fluktuationen makroskopischer Größen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Inertialsysteme (Definition und Eigenschaften)",
+      "question": "Which feature describes an inertial system according to the theory of relativity?",
+      "choices": [
+        "A: In an inertial system, all physical laws are only locally applicable.",
+        "B: In an inertial system, Newton's laws apply without additional forces.",
+        "C: In an inertial system, a body always experiences acceleration.",
+        "D: In an inertial system, the speed of light is variable and depends on the observer."
+      ],
+      "correct_answer": "B",
+      "explanation": "An inertial system is defined as a reference frame in which Newton's laws hold true as long as no external forces act on the objects. In such systems, bodies move at a constant velocity unless forces are applied to them.",
+      "difficulty": 8,
+      "subcategory": "Inertialsysteme (Definition und Eigenschaften)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Identische Teilchen: Ununterscheidbarkeit",
+      "question": "What does the principle of indistinguishability of identical particles in quantum mechanics describe?",
+      "choices": [
+        "A: Identical particles are always identical in their properties.",
+        "B: Identical particles can never exist in the same place simultaneously.",
+        "C: Identical particles cannot be distinguished even when they are in different states.",
+        "D: Identical particles always behave like classical particles."
+      ],
+      "correct_answer": "C",
+      "explanation": "The principle of indistinguishability states that identical particles, such as electrons or photons, cannot be distinguished from each other even when they are in different quantum states. This has far-reaching consequences for the statistical description of particles and their interactions in quantum mechanics.",
+      "difficulty": 3,
+      "subcategory": "Identische Teilchen: Ununterscheidbarkeit"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Freie Achsen",
+      "question": "What describes the motion of a body on a free axis in a system without external influences?",
+      "choices": [
+        "A: The body experiences constant acceleration.",
+        "B: The body remains at rest.",
+        "C: The body moves uniformly and in a straight line.",
+        "D: Der Körper bewegt sich in einer elliptischen Bahn."
+      ],
+      "correct_answer": "C",
+      "explanation": "A free axis means no external forces are acting, so the body must move uniformly and in a straight line according to the law of inertia. This property is fundamental for understanding motion in classical mechanics.",
+      "difficulty": 10,
+      "subcategory": "Freie Achsen"
+    }
+  ]
+}

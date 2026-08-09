@@ -1,0 +1,169 @@
+{
+  "date": "2026-08-09",
+  "generated_at": "2026-08-09T04:14:00Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Streuung an der harten Kugel",
+      "question": "Welches Phänomen beschreibt die Veränderung der Streuwinkel bei der Streuung von Teilchen an einer harten Kugel in der Quantenmechanik?",
+      "choices": [
+        "A: Der Tunneleffekt",
+        "B: Die Heisenbergsche Unschärferelation",
+        "C: Der photoelektrische Effekt",
+        "D: Der Compton-Effekt"
+      ],
+      "correct_answer": "D",
+      "explanation": "Der Compton-Effekt beschreibt die Streuung von Photonen an Elektronen, wobei die Änderung des Energie- und Impulsvektors zu einem veränderten Streuwinkel führt. Bei der Streuung an einer harten Kugel in der Quantenmechanik können ähnliche Prinzipien angewendet werden, um die Wechselwirkungen zu analysieren.",
+      "difficulty": 7,
+      "subcategory": "Streuung an der harten Kugel"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Impulsraum-Darstellung der Wellenfunktion",
+      "question": "Was beschreibt die Impulsraum-Darstellung der Wellenfunktion in der Quantenmechanik?",
+      "choices": [
+        "A: Die Beziehung zwischen Energie und Frequenz eines Teilchens.",
+        "B: Die Wahrscheinlichkeitsverteilung eines Teilchens im Impulsraum.",
+        "C: Die zeitliche Entwicklung der Wellenfunktion im Positionsraum.",
+        "D: Die Wechselwirkung zwischen zwei Teilchen im Raum."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Impulsraum-Darstellung der Wellenfunktion beschreibt die Verteilung der Wahrscheinlichkeiten von Teilchenimpulsen, was in der Quantenmechanik eine zentrale Rolle spielt. Diese Darstellung ist nützlich, um die Eigenschaften von Teilchen in Bezug auf ihren Impuls zu analysieren.",
+      "difficulty": 6,
+      "subcategory": "Impulsraum-Darstellung der Wellenfunktion"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Gleichgewichtsbedingungen (allgemein)",
+      "question": "Welche Bedingung muss erfüllt sein, damit ein System im thermodynamischen Gleichgewicht ist?",
+      "choices": [
+        "A: Temperatur und Druck sind überall gleich.",
+        "B: Es gibt keine Wechselwirkungen zwischen den Teilchen.",
+        "C: Das System hat immer eine konstante Energie.",
+        "D: Das Volumen des Systems bleibt konstant."
+      ],
+      "correct_answer": "A",
+      "explanation": "Ein thermodynamisches Gleichgewicht erfordert, dass Temperatur und Druck im gesamten System einheitlich sind. Dadurch wird sichergestellt, dass es keine Nettobewegung von Energie oder Materie gibt, was zu einem stabilen Zustand führt.",
+      "difficulty": 5,
+      "subcategory": "Gleichgewichtsbedingungen (allgemein)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Spezifische Wärme der Elektronen",
+      "question": "Was beschreibt die spezifische Wärme der Elektronen in Festkörpern?",
+      "choices": [
+        "A: Die Fähigkeit von Elektronen, Wärme zu leiten.",
+        "B: Die durchschnittliche kinetische Energie der Elektronen in einem Festkörper.",
+        "C: Die Gesamtwärme, die ein Festkörper bei konstantem Druck abgeben kann.",
+        "D: Die Energie, die benötigt wird, um die Temperatur eines Elektrons um 1 Grad Kelvin zu erhöhen."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die spezifische Wärme der Elektronen bezieht sich auf die Menge an Energie, die erforderlich ist, um die Temperatur eines Elektrons um 1 Grad Kelvin zu erhöhen. Diese Eigenschaft ist wichtig für das Verständnis von Wärmeleitung und thermischen Eigenschaften in Festkörpern.",
+      "difficulty": 5,
+      "subcategory": "Spezifische Wärme der Elektronen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Zweiter Hauptsatz (Kelvin-Planck/Clausius)",
+      "question": "Was besagt der zweite Hauptsatz der Thermodynamik in Bezug auf Wärmeübertragung?",
+      "choices": [
+        "A: Alle physikalischen Prozesse sind umkehrbar.",
+        "B: Die Temperatur eines Systems bleibt konstant, solange kein Arbeit verrichtet wird.",
+        "C: Energie kann nicht geschaffen oder zerstört werden.",
+        "D: Wärme kann nicht spontan von einem kälteren zu einem wärmeren Körper fließen."
+      ],
+      "correct_answer": "D",
+      "explanation": "Der zweite Hauptsatz der Thermodynamik besagt, dass Wärme nicht spontan von einem kälteren zu einem wärmeren Körper fließen kann, was in der Natur beobachtet wird. Diese Regelung führt zu einem Verständnis der Richtung thermodynamischer Prozesse und der Effizienz von Maschinen.",
+      "difficulty": 5,
+      "subcategory": "Zweiter Hauptsatz (Kelvin-Planck/Clausius)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Streuung an Oberflächen/dünnen Schichten",
+      "question": "Welche der folgenden Aussagen beschreibt am besten den Einfluss der Oberflächenrauhigkeit auf die Streuung von Elektronen an einer Metalloberfläche?",
+      "choices": [
+        "A: Die Streuung von Elektronen an einer Oberfläche ist ausschließlich von der Materialdichte abhängig.",
+        "B: Eine raue Oberfläche kann die Streuung von Elektronen erhöhen und die Richtung der gestreuten Elektronen beeinflussen.",
+        "C: Eine glatte Oberfläche führt zu einer stärkeren elastischen Streuung.",
+        "D: Oberflächenrauhigkeit hat keinen Einfluss auf die Streuung von Elektronen."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Oberflächenrauhigkeit kann die Streuung von Elektronen erhöhen, da sie zu zusätzlichen Streuwinkeln und -mechanismen führt. Eine raue Oberfläche bietet mehr Streumöglichkeiten und beeinflusst die Richtung der Elektronen, was bei glatten Oberflächen weniger der Fall ist.",
+      "difficulty": 6,
+      "subcategory": "Streuung an Oberflächen/dünnen Schichten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Fluktuationen makroskopischer Größen",
+      "question": "Was beschreibt in der statistischen Mechanik die Fluktuationen makroskopischer Größen?",
+      "choices": [
+        "A: Die gleichmäßige Verteilung von Teilchen in einem idealen Gas.",
+        "B: Die konstante Größe von Druck und Volumen in einem geschlossenen System.",
+        "C: Die zufälligen Veränderungen von Energie und Temperatur in einem System.",
+        "D: Die lineare Beziehung zwischen Temperatur und Energie."
+      ],
+      "correct_answer": "C",
+      "explanation": "Fluktuationen makroskopischer Größen beziehen sich auf die zufälligen und zeitabhängigen Veränderungen, die in einem System auftreten können, typischerweise in Bezug auf Energie, Temperatur oder andere thermodynamische Variablen. Diese Fluktuationen sind ein zentrales Konzept in der statistischen Mechanik, das die mikroskopischen Zustände eines Systems betrachtet, um makroskopische Eigenschaften zu erklären.",
+      "difficulty": 2,
+      "subcategory": "Fluktuationen makroskopischer Größen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Inertialsysteme (Definition und Eigenschaften)",
+      "question": "Welches der folgenden Merkmale beschreibt ein Inertialsystem gemäß der Relativitätstheorie?",
+      "choices": [
+        "A: In einem Inertialsystem sind alle physikalischen Gesetze nur lokal anwendbar.",
+        "B: In einem Inertialsystem gelten die Newtonschen Gesetze ohne zusätzliche Kräfte.",
+        "C: In einem Inertialsystem erfährt ein Körper immer eine Beschleunigung.",
+        "D: In einem Inertialsystem ist die Lichtgeschwindigkeit variabel und hängt vom Beobachter ab."
+      ],
+      "correct_answer": "B",
+      "explanation": "Ein Inertialsystem ist definiert als ein Bezugssystem, in dem die Newtonschen Gesetze gelten, solange keine externen Kräfte auf die Objekte wirken. In solchen Systemen bewegen sich Körper mit konstanter Geschwindigkeit, sofern keine Kräfte auf sie einwirken.",
+      "difficulty": 8,
+      "subcategory": "Inertialsysteme (Definition und Eigenschaften)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Identische Teilchen: Ununterscheidbarkeit",
+      "question": "Was beschreibt das Prinzip der Ununterscheidbarkeit identischer Teilchen in der Quantenmechanik?",
+      "choices": [
+        "A: Identische Teilchen sind in ihren Eigenschaften immer gleich.",
+        "B: Identische Teilchen können niemals gleichzeitig am selben Ort existieren.",
+        "C: Identische Teilchen können nicht unterschieden werden, selbst wenn sie sich in unterschiedlichen Zuständen befinden.",
+        "D: Identische Teilchen verhalten sich immer wie klassische Teilchen."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Prinzip der Ununterscheidbarkeit besagt, dass identische Teilchen, wie Elektronen oder Photonen, nicht voneinander unterschieden werden können, selbst wenn sie sich in unterschiedlichen quantenmechanischen Zuständen befinden. Dies hat weitreichende Konsequenzen für die statistische Beschreibung von Teilchen und deren Wechselwirkungen in der Quantenmechanik.",
+      "difficulty": 3,
+      "subcategory": "Identische Teilchen: Ununterscheidbarkeit"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Freie Achsen",
+      "question": "Was beschreibt die Bewegung eines Körpers auf einer freien Achse in einem System ohne äußere Einflüsse?",
+      "choices": [
+        "A: Der Körper erfährt eine konstante Beschleunigung.",
+        "B: Der Körper bleibt in Ruhe.",
+        "C: Der Körper bewegt sich gleichförmig und geradlinig.",
+        "D: Der Körper bewegt sich in einer elliptischen Bahn."
+      ],
+      "correct_answer": "C",
+      "explanation": "Eine freie Achse bedeutet, dass keine äußeren Kräfte wirken, weshalb sich der Körper gemäß dem Trägheitsgesetz gleichförmig und geradlinig bewegen muss. Diese Eigenschaft ist grundlegend für das Verständnis der Bewegung in der klassischen Mechanik.",
+      "difficulty": 10,
+      "subcategory": "Freie Achsen"
+    }
+  ]
+}
