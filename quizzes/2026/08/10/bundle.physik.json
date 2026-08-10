@@ -1,0 +1,169 @@
+{
+  "date": "2026-08-10",
+  "generated_at": "2026-08-10T04:26:17Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Kovariante Formulierung der Elektrodynamik",
+      "question": "Was beschreibt die kovariante Formulierung der Elektrodynamik in der Relativitätstheorie?",
+      "choices": [
+        "A: Die Geschwindigkeit von Licht in verschiedenen Medien.",
+        "B: Die Erhaltung der Energie in einem sich bewegenden System.",
+        "C: Die Vereinheitlichung der Maxwell-Gleichungen für verschiedene Inertialsysteme.",
+        "D: Die Ableitung der Gravitationsgesetze aus elektromagnetischen Prinzipien."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die kovariante Formulierung der Elektrodynamik ermöglicht es, die Maxwell-Gleichungen so zu formulieren, dass sie in allen Inertialsystemen gültig sind. Dies ist ein zentrales Konzept der Relativitätstheorie und zeigt, wie physikalische Gesetze universell in verschiedenen Bezugssystemen gelten.",
+      "difficulty": 5,
+      "subcategory": "Kovariante Formulierung der Elektrodynamik"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Brillouin-Zone",
+      "question": "Welche Aussage über die Brillouin-Zone in der Festkörperphysik ist korrekt?",
+      "choices": [
+        "A: Die Brillouin-Zone beschreibt die Temperaturabhängigkeit der spezifischen Wärme von Metallen.",
+        "B: Die Brillouin-Zone ist der Bereich im k-Raum, der die vollständigen Informationen über die elektronische Struktur eines Kristalls enthält.",
+        "C: Die Brillouin-Zone ist unabhängig von der Kristallstruktur und betrifft nur isotrope Materialien.",
+        "D: Die Brillouin-Zone hat keinen Einfluss auf die Bandstruktur eines Festkörpers."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Brillouin-Zone ist ein zentraler Begriff in der Festkörperphysik, der den k-Raum beschreibt und essentielle Informationen über die elektronische Struktur eines Kristalls liefert. Sie definiert Bereiche, in denen sich die Elektronenwellenfunktion aufgrund der Kristallstruktur vermehren und interferieren können.",
+      "difficulty": 9,
+      "subcategory": "Brillouin-Zone"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Dirac’sche δ-Funktion",
+      "question": "Welche der folgenden Aussagen beschreibt die Dirac’sche δ-Funktion korrekt?",
+      "choices": [
+        "A: Sie ist eine periodische Funktion mit einer Periode von 1.",
+        "B: Sie ist eine stetige Funktion, die überall definiert ist.",
+        "C: Sie ist eine Funktion, die an einem Punkt unendlich ist und an allen anderen Punkten null.",
+        "D: Sie hat einen definierten Funktionswert für alle reellen Zahlen."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Dirac’sche δ-Funktion ist keine Funktion im traditionellen Sinne, sondern eine Distribution, die an einem bestimmten Punkt unendlich hoch ist und an allen anderen Punkten den Wert null hat. Ihre Hauptanwendung liegt in der Mathematik und Physik, insbesondere zur Modellierung von Punktladungen oder -massen in der Elektrodynamik.",
+      "difficulty": 5,
+      "subcategory": "Dirac’sche δ-Funktion"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Grundbausteine der Materie",
+      "question": "Welches der folgenden Teilchen ist ein grundlegender Baustein der Materie und kann nicht weiter in kleinere Teilchen zerlegt werden?",
+      "choices": [
+        "A: Quark",
+        "B: Neutron",
+        "C: Proton",
+        "D: Atom"
+      ],
+      "correct_answer": "A",
+      "explanation": "Quarks sind die fundamentalen Bausteine von Protonen und Neutronen und sind somit die kleinsten bekannten Teilchen, die nicht weiter zerlegt werden können. Protonen und Neutronen bestehen aus Quarks, während Atome aus Protonen, Neutronen und Elektronen bestehen, die nicht als grundlegende Teilchen betrachtet werden.",
+      "difficulty": 7,
+      "subcategory": "Grundbausteine der Materie"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Anwendungen: Hartree–Fock-Gleichungen",
+      "question": "Welche Aussage über die Hartree-Fock-Gleichungen ist korrekt?",
+      "choices": [
+        "A: Sie führen immer zu exakten Ergebnissen für die Energiezustände.",
+        "B: Sie sind nur für ein-Elektron-System anwendbar.",
+        "C: Sie sind eine Näherung zur Lösung des quantenmechanischen Viele-Körper-Problems.",
+        "D: Sie berücksichtigen die Elektronenkorrelation vollständig."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Hartree-Fock-Gleichungen sind ein wichtiger Ansatz zur näherungsweisen Lösung des Viele-Körper-Systems in der Quantenmechanik. Sie berücksichtigen die Wechselwirkungen zwischen Elektronen durch eine mittlere Feldannäherung, erfassen jedoch nicht die vollständige Elektronenkorrelation.",
+      "difficulty": 8,
+      "subcategory": "Anwendungen: Hartree–Fock-Gleichungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Formale Eigenschaften (Bilinearität, Antisymmetrie, Jacobi)",
+      "question": "Welche Eigenschaft beschreibt die Bilinearität in einem physikalischen Kontext?",
+      "choices": [
+        "A: Eine lineare Kombination von Vektoren ergibt immer einen neuen Vektor im selben Raum.",
+        "B: Bilinearität bedeutet, dass eine Funktion nur auf ganze Zahlen anwendbar ist.",
+        "C: Eine Funktion ist nur dann bilinear, wenn sie antisymmetrisch ist.",
+        "D: Der Wechsel der Reihenfolge der Operationen hat keinen Einfluss auf das Ergebnis."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Bilinearität beschreibt, dass eine Funktion in zwei Variablen linear ist. Das bedeutet, dass die Anwendung von Skalarfaktoren auf die Variablen zu einer entsprechenden Skalierung des Ergebnisses führt, wodurch eine neue Kombination von Vektoren im gleichen Raum entsteht.",
+      "difficulty": 5,
+      "subcategory": "Formale Eigenschaften (Bilinearität, Antisymmetrie, Jacobi)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Separation der Variablen & orthogonale Funktionen",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt die Anwendung der Separation der Variablen in der Lösung der Maxwell-Gleichungen unter bestimmten Randbedingungen?",
+      "choices": [
+        "A: Die Funktionen, die zur Separation verwendet werden, sind immer linear und kontinuierlich.",
+        "B: Alle Lösungen der Maxwell-Gleichungen sind automatisch orthogonal zueinander.",
+        "C: Separation der Variablen ist nur für zeitunabhängige Probleme anwendbar.",
+        "D: Orthogonale Funktionen können zur Lösung von Differentialgleichungen verwendet werden, indem sie die Abhängigkeiten in Raum und Zeit trennen."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Separation der Variablen ist eine Methode, die es ermöglicht, mehrdimensionale Probleme in einfachere, eindimensionale Probleme zu zerlegen. Orthogonale Funktionen sind besonders nützlich, da sie die Abhängigkeiten in Raum und Zeit effektiv trennen und eine Lösung der Differentialgleichungen ermöglichen.",
+      "difficulty": 7,
+      "subcategory": "Separation der Variablen & orthogonale Funktionen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Potentiale & Hauptsätze der Gleichgewichtsthermodynamik",
+      "question": "Welcher Hauptsatz der Thermodynamik besagt, dass die Energie in einem geschlossenen System erhalten bleibt?",
+      "choices": [
+        "A: Dritter Hauptsatz",
+        "B: Zweiter Hauptsatz",
+        "C: Erster Hauptsatz",
+        "D: Nullter Hauptsatz"
+      ],
+      "correct_answer": "C",
+      "explanation": "Der erste Hauptsatz der Thermodynamik, auch als Energieerhaltungssatz bekannt, besagt, dass die Gesamtenergie eines geschlossenen Systems konstant bleibt. Er beschreibt, wie Energie zwischen verschiedenen Formen (z.B. Wärme und Arbeit) umgewandelt werden kann, aber nicht verloren geht.",
+      "difficulty": 3,
+      "subcategory": "Potentiale & Hauptsätze der Gleichgewichtsthermodynamik"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Nukleon‑Nukleon‑Streuung",
+      "question": "Was beschreibt die Nukleon-Nukleon-Streuung in der Kernphysik?",
+      "choices": [
+        "A: Die Wechselwirkung zwischen Protonen und Neutronen innerhalb eines Atomkerns.",
+        "B: Die Ablenkung von Elektronen durch Atomkerne.",
+        "C: Die Wechselwirkung von Photonen mit Materie.",
+        "D: Den Zerfall von radioaktiven Kernen in stabilere Isotope."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Nukleon-Nukleon-Streuung beschreibt die Wechselwirkungen zwischen Protonen und Neutronen, die bei hohen Energien stattfinden und für das Verständnis der Kernkräfte entscheidend sind. Diese Prozesse sind fundamental für die Struktur und Stabilität von Atomkernen.",
+      "difficulty": 6,
+      "subcategory": "Nukleon‑Nukleon‑Streuung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Design und Herstellung von Objektiven",
+      "question": "Welche Linse wird verwendet, um Licht zu bündeln und ein Bild zu vergrößern?",
+      "choices": [
+        "A: Zerstreuungslinse",
+        "B: Sammellinse",
+        "C: Prismenlinse",
+        "D: Flache Linse"
+      ],
+      "correct_answer": "B",
+      "explanation": "Eine Sammellinse hat die Fähigkeit, parallele Lichtstrahlen zu bündeln und einen vergrößerten Bildpunkt zu erzeugen. Sie wird häufig in Kameras und Mikroskopen eingesetzt, um Objekte klarer darzustellen.",
+      "difficulty": 2,
+      "subcategory": "Design und Herstellung von Objektiven"
+    }
+  ]
+}

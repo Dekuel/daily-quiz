@@ -1,0 +1,168 @@
+{
+  "date": "2026-08-10",
+  "generated_at": "2026-08-10T04:26:51Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Kovariante Formulierung der Elektrodynamik",
+      "question": "What does the covariant formulation of electrodynamics in relativity theory describe?",
+      "choices": [
+        "A: The speed of light in different media.",
+        "B: The conservation of energy in a moving system.",
+        "C: The unification of the Maxwell's equations for different inertial systems.",
+        "D: The derivation of gravitational laws from electromagnetic principles."
+      ],
+      "correct_answer": "C",
+      "explanation": "The covariant formulation of electrodynamics allows the Maxwell's equations to be formulated in a way that is valid in all inertial systems. This is a central concept of relativity theory and demonstrates how physical laws hold universally in different reference frames.",
+      "difficulty": 5,
+      "subcategory": "Kovariante Formulierung der Elektrodynamik"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Brillouin-Zone",
+      "question": "Which statement about the Brillouin zone in solid-state physics is correct?",
+      "choices": [
+        "A: The Brillouin zone describes the temperature dependence of the specific heat of metals.",
+        "B: The Brillouin zone is the region in k-space that contains complete information about the electronic structure of a crystal.",
+        "C: The Brillouin zone is independent of the crystal structure and only concerns isotropic materials.",
+        "D: The Brillouin zone has no influence on the band structure of a solid."
+      ],
+      "correct_answer": "B",
+      "explanation": "The Brillouin zone is a central concept in solid-state physics that describes the k-space and provides essential information about the electronic structure of a crystal. It defines regions where electron wave functions can proliferate and interfere due to the crystal structure.",
+      "difficulty": 9,
+      "subcategory": "Brillouin-Zone"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Dirac’sche δ-Funktion",
+      "question": "Which of the following statements correctly describes the Dirac delta function?",
+      "choices": [
+        "A: It is a periodic function with a period of 1.",
+        "B: It is a continuous function defined everywhere.",
+        "C: It is a function that is infinite at one point and zero at all other points.",
+        "D: It has a defined function value for all real numbers."
+      ],
+      "correct_answer": "C",
+      "explanation": "The Dirac delta function is not a function in the traditional sense but a distribution that is infinitely high at a specific point and zero at all other points. Its main application lies in mathematics and physics, particularly in modeling point charges or masses in electrodynamics.",
+      "difficulty": 5,
+      "subcategory": "Dirac’sche δ-Funktion"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Grundbausteine der Materie",
+      "question": "Which of the following particles is a fundamental building block of matter and cannot be further divided into smaller particles?",
+      "choices": [
+        "A: Quark",
+        "B: Neutron",
+        "C: Proton",
+        "D: Atom"
+      ],
+      "correct_answer": "A",
+      "explanation": "Quarks are the fundamental building blocks of protons and neutrons, making them the smallest known particles that cannot be further divided. Protons and neutrons consist of quarks, while atoms consist of protons, neutrons, and electrons, which are not considered fundamental particles.",
+      "difficulty": 7,
+      "subcategory": "Grundbausteine der Materie"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Anwendungen: Hartree–Fock-Gleichungen",
+      "question": "Which statement about the Hartree-Fock equations is correct?",
+      "choices": [
+        "A: They always lead to exact results for the energy states.",
+        "B: They are only applicable to single-electron systems.",
+        "C: They are an approximation for solving the quantum many-body problem.",
+        "D: They fully account for electron correlation."
+      ],
+      "correct_answer": "C",
+      "explanation": "The Hartree-Fock equations are an important approach for the approximate solution of the many-body system in quantum mechanics. They consider the interactions between electrons through a mean-field approximation but do not fully capture electron correlation.",
+      "difficulty": 8,
+      "subcategory": "Anwendungen: Hartree–Fock-Gleichungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Formale Eigenschaften (Bilinearität, Antisymmetrie, Jacobi)",
+      "question": "Which property describes bilinearity in a physical context?",
+      "choices": [
+        "A: A linear combination of vectors always results in a new vector in the same space.",
+        "B: Bilinearity means that a function is only applicable to integers.",
+        "C: A function is bilinear only if it is antisymmetric.",
+        "D: Changing the order of operations has no effect on the result."
+      ],
+      "correct_answer": "A",
+      "explanation": "Bilinearity describes a function that is linear in two variables. This means that applying scalar factors to the variables results in a corresponding scaling of the result, creating a new combination of vectors in the same space.",
+      "difficulty": 5,
+      "subcategory": "Formale Eigenschaften (Bilinearität, Antisymmetrie, Jacobi)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Separation der Variablen & orthogonale Funktionen",
+      "question": "Which of the following statements correctly describes the application of variable separation in solving the Maxwell's equations under certain boundary conditions?",
+      "choices": [
+        "A: The functions used for separation are always linear and continuous.",
+        "B: All solutions of the Maxwell's equations are automatically orthogonal to each other.",
+        "C: Variable separation is only applicable to time-independent problems.",
+        "D: Orthogonal functions can be used to solve differential equations by separating dependencies in space and time."
+      ],
+      "correct_answer": "D",
+      "explanation": "Variable separation is a method that allows multidimensional problems to be decomposed into simpler one-dimensional problems. Orthogonal functions are particularly useful as they effectively separate dependencies in space and time, enabling a solution to the differential equations.",
+      "difficulty": 7,
+      "subcategory": "Separation der Variablen & orthogonale Funktionen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Potentiale & Hauptsätze der Gleichgewichtsthermodynamik",
+      "question": "Which main law of thermodynamics states that energy is conserved in a closed system?",
+      "choices": [
+        "A: Third law",
+        "B: Second law",
+        "C: First law",
+        "D: Zeroth law"
+      ],
+      "correct_answer": "C",
+      "explanation": "The first law of thermodynamics, also known as the conservation of energy, states that the total energy of a closed system remains constant. It describes how energy can be converted between different forms (e.g., heat and work) but is not lost.",
+      "difficulty": 3,
+      "subcategory": "Potentiale & Hauptsätze der Gleichgewichtsthermodynamik"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Nukleon‑Nukleon‑Streuung",
+      "question": "What does nucleon-nucleon scattering in nuclear physics describe?",
+      "choices": [
+        "A: The interaction between protons and neutrons within an atomic nucleus.",
+        "B: The deflection of electrons by atomic nuclei.",
+        "C: The interaction of photons with matter.",
+        "D: The decay of radioactive nuclei into more stable isotopes."
+      ],
+      "correct_answer": "A",
+      "explanation": "Nucleon-nucleon scattering describes the interactions between protons and neutrons that occur at high energies and are crucial for understanding nuclear forces. These processes are fundamental for the structure and stability of atomic nuclei.",
+      "difficulty": 6,
+      "subcategory": "Nukleon‑Nukleon‑Streuung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Design und Herstellung von Objektiven",
+      "question": "Which lens is used to focus light and magnify an image?",
+      "choices": [
+        "A: Diverging lens",
+        "B: Converging lens",
+        "C: Prism lens",
+        "D: Flat lens"
+      ],
+      "correct_answer": "B",
+      "explanation": "A converging lens has the ability to focus parallel light rays and create an enlarged image point. It is commonly used in cameras and microscopes to provide clearer views.",
+      "difficulty": 2,
+      "subcategory": "Design und Herstellung von Objektiven"
+    }
+  ]
+}
