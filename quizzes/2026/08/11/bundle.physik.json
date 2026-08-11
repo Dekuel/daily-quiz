@@ -1,0 +1,169 @@
+{
+  "date": "2026-08-11",
+  "generated_at": "2026-08-11T04:15:15Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Rotation bei konstantem Drehmoment",
+      "question": "Was passiert mit der Winkelgeschwindigkeit eines Körpers, der sich um eine feste Achse dreht, wenn ein konstantes Drehmoment auf ihn wirkt?",
+      "choices": [
+        "A: Die Winkelgeschwindigkeit nimmt ab.",
+        "B: Die Winkelgeschwindigkeit nimmt zu.",
+        "C: Die Winkelgeschwindigkeit bleibt konstant.",
+        "D: Die Winkelgeschwindigkeit wird unberechenbar."
+      ],
+      "correct_answer": "B",
+      "explanation": "Wenn ein konstantes Drehmoment auf einen Körper wirkt, erhöht sich dessen Winkelgeschwindigkeit. Dies liegt daran, dass das Drehmoment eine Beschleunigung der Rotation bewirkt, solange keine anderen Kräfte vorhanden sind, die dem entgegenwirken.",
+      "difficulty": 6,
+      "subcategory": "Rotation bei konstantem Drehmoment"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Der Dipol & Dipolfeld",
+      "question": "Was beschreibt das Dipolfeld eines elektrischen Dipols?",
+      "choices": [
+        "A: Es ist ein Feld, das nur in einer Richtung wirkt.",
+        "B: Es ist das elektrische Feld, das aufgrund von zwei entgegengesetzt geladenen Punkten entsteht.",
+        "C: Es ist identisch mit dem elektrischen Feld eines einzelnen Punktladungen.",
+        "D: Es hat immer die gleiche Stärke in allen Punkten."
+      ],
+      "correct_answer": "B",
+      "explanation": "Das Dipolfeld wird von zwei entgegengesetzt geladenen Punkten erzeugt und hat eine charakteristische Verteilung, die von ihrer Trennung und den Beträgen der Ladungen abhängt. Es zeigt unterschiedliche Stärken und Richtungen in verschiedenen Punkten des Raums.",
+      "difficulty": 6,
+      "subcategory": "Der Dipol & Dipolfeld"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Perkolation: Phänomen, Theorie & Skalen",
+      "question": "Was beschreibt das Perkolationsphänomen in der statistischen Mechanik?",
+      "choices": [
+        "A: Die Beziehung zwischen Druck und Volumen in idealen Gasen.",
+        "B: Die quantenmechanischen Eigenschaften von Teilchen in einem festen Gitter.",
+        "C: Den Übergang von einem nicht-perkolierenden zu einem perkolierenden Zustand in einem Netzwerk.",
+        "D: Den Effekt von Temperatur auf die kinetische Energie von Teilchen."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Perkolationsphänomen beschreibt, wie in einem Netzwerk von verbundenen Elementen der Übergang von einem Zustand, in dem keine durchgehende Verbindung besteht, zu einem Zustand, in dem eine solche Verbindung vorliegt, auftritt. Dieser Übergang ist entscheidend für das Verständnis von Phänomenen wie der Ausbreitung von Flüssigkeiten oder dem Verhalten von Materialien unter Stress.",
+      "difficulty": 6,
+      "subcategory": "Perkolation: Phänomen, Theorie & Skalen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Ansatz der Wellenmechanik (de Broglie/Schrödinger-Idee)",
+      "question": "Was beschreibt die de Broglie-Wellenlänge eines Teilchens?",
+      "choices": [
+        "A: Sie ist umgekehrt proportional zur Geschwindigkeit des Teilchens.",
+        "B: Sie ist direkt proportional zur Masse des Teilchens.",
+        "C: Sie ist immer gleich der Planckschen Konstante.",
+        "D: Sie beschreibt das Verhalten von Licht unter Einfluss von Magnetfeldern."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die de Broglie-Wellenlänge eines Teilchens ist umgekehrt proportional zu dessen Impuls, was bedeutet, dass schneller bewegte Teilchen eine kürzere Wellenlänge haben. Diese Beziehung ist zentral für die Wellenmechanik und verdeutlicht die duale Natur von Teilchen und Wellen.",
+      "difficulty": 5,
+      "subcategory": "Ansatz der Wellenmechanik (de Broglie/Schrödinger-Idee)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Reziprokes Gitter",
+      "question": "Was beschreibt das reziproke Gitter in der Festkörperphysik?",
+      "choices": [
+        "A: Die elektrische Leitfähigkeit von Metallen.",
+        "B: Die Temperaturabhängigkeit von Festkörpern.",
+        "C: Die Struktur von Atomen in einem Molekül.",
+        "D: Die Beziehung zwischen der Wellenlängenverteilung und den Gitterkonstanten eines Kristalls."
+      ],
+      "correct_answer": "D",
+      "explanation": "Das reziproke Gitter ist ein mathematisches Konzept, das die Beziehung zwischen Wellenlängen und dem Kristallgitter beschreibt. Es spielt eine zentrale Rolle in der Festkörperphysik, insbesondere bei der Analyse von Beugungsmustern und den Eigenschaften von Kristallen.",
+      "difficulty": 4,
+      "subcategory": "Reziprokes Gitter"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Korrespondenzregel (Operatorersatz)",
+      "question": "Welche Aussage beschreibt am besten die Korrespondenzregel in der Quantenmechanik?",
+      "choices": [
+        "A: Quantenobjekte können nicht durch klassische Konzepte beschrieben werden.",
+        "B: Quantenmechanische Operatoren sind identisch mit klassischen Variablen.",
+        "C: Die klassischen physikalischen Gesetze sind im Grenzfall von hohen Quantenenergien gültig.",
+        "D: Der Ort eines Teilchens ist immer genau bestimmt."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Korrespondenzregel besagt, dass die Ergebnisse der Quantenmechanik in der klassischen Grenzfälle (hohe Energien oder große Objekte) mit den klassischen physikalischen Gesetzen übereinstimmen sollten. Dies ist besonders wichtig, um den Übergang zwischen klassischer und Quantenmechanik zu verstehen.",
+      "difficulty": 5,
+      "subcategory": "Korrespondenzregel (Operatorersatz)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Farbmagnetische Wechselwirkung",
+      "question": "Was beschreibt die farbmagnetische Wechselwirkung im Kontext der Quantenchromodynamik?",
+      "choices": [
+        "A: Die Wechselwirkung zwischen Elektronen und Protonen.",
+        "B: Die elektromagnetische Wechselwirkung zwischen Photonen.",
+        "C: Die Gravitation zwischen atomaren Teilchen.",
+        "D: Die Wechselwirkung zwischen Quarks, die durch Farbladungen vermittelt wird."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die farbmagnetische Wechselwirkung ist eine fundamentale Kraft in der Quantenchromodynamik, die die Wechselwirkung zwischen Quarks beschreibt. Diese Wechselwirkung wird durch die sogenannten Farbladungen vermittelt, die den Quarks zugeordnet sind und für die Stabilität von Hadronen verantwortlich sind.",
+      "difficulty": 3,
+      "subcategory": "Farbmagnetische Wechselwirkung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Konstituentenquark‑Modell: Validität",
+      "question": "Was ist eine grundlegende Annahme des Konstituentenquark-Modells?",
+      "choices": [
+        "A: Quarks und Antiquarks sind nicht miteinander verbunden.",
+        "B: Hadronen bestehen aus Quarks und Gluonen.",
+        "C: Hadronen sind vollständig aus Elektronen aufgebaut.",
+        "D: Es gibt nur zwei Arten von Quarks."
+      ],
+      "correct_answer": "B",
+      "explanation": "Das Konstituentenquark-Modell beschreibt Hadronen, wie Protonen und Neutronen, als aus Quarks und Gluonen bestehend. Diese Quarks sind die grundlegenden Bausteine der Hadronen und sind durch die starke Wechselwirkung miteinander verbunden.",
+      "difficulty": 5,
+      "subcategory": "Konstituentenquark‑Modell: Validität"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Oberflächen von Flüssigkeiten",
+      "question": "Was beschreibt den Begriff 'Oberflächenspannung' in Flüssigkeiten?",
+      "choices": [
+        "A: Die Masse der Flüssigkeit pro Volumeneinheit.",
+        "B: Die Kraft, die die Moleküle an der Oberfläche einer Flüssigkeit zusammenhält.",
+        "C: Die Geschwindigkeit, mit der sich Flüssigkeiten ausdehnen.",
+        "D: Die Temperatur, bei der eine Flüssigkeit zu sieden beginnt."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Oberflächenspannung ist eine physikalische Eigenschaft von Flüssigkeiten, die durch die intermolekularen Kräfte an der Oberfläche verursacht wird. Sie führt dazu, dass die Oberfläche einer Flüssigkeit wie eine elastische Haut wirkt und beeinflusst Phänomene wie das Verhalten von Tropfen und Kapillareffekte.",
+      "difficulty": 6,
+      "subcategory": "Oberflächen von Flüssigkeiten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Moden in optischen Wellenleitern",
+      "question": "Welche Aussage über Moden in optischen Wellenleitern ist korrekt?",
+      "choices": [
+        "A: Es gibt nur eine Mode, die in jedem Wellenleiter existiert.",
+        "B: Moden haben keinen Einfluss auf die Signalübertragung in Wellenleitern.",
+        "C: Moden sind die verschiedenen Lichtverteilungen, die in einem Wellenleiter unterstützt werden können.",
+        "D: Moden sind immer monochromatisch und können nicht variieren."
+      ],
+      "correct_answer": "C",
+      "explanation": "Moden in optischen Wellenleitern beziehen sich auf die unterschiedlichen Lichtverteilungen, die innerhalb des Wellenleiters propagieren können. Jede Mode hat ihre eigene Ausbreitungseigenschaften, die die Effizienz und Qualität der Signalübertragung beeinflussen können.",
+      "difficulty": 3,
+      "subcategory": "Moden in optischen Wellenleitern"
+    }
+  ]
+}
