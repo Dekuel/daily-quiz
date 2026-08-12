@@ -1,0 +1,106 @@
+{
+  "date": "2026-08-12",
+  "generated_at": "2026-08-12T04:42:41Z",
+  "schema_version": 6,
+  "mode": "normal",
+  "bundle_type": "daily",
+  "questions": [
+    {
+      "category": "Technologie",
+      "topic": "KI & Zukunftstechnologien",
+      "question": "Welche Technologie wird häufig für die autonome Navigation von Drohnen verwendet?",
+      "choices": [
+        "A: NFC",
+        "B: GPS",
+        "C: RFID",
+        "D: Lidar"
+      ],
+      "correct_answer": "D",
+      "explanation": "Lidar (Light Detection and Ranging) ist eine Technologie, die Laserstrahlen verwendet, um präzise 3D-Karten der Umgebung zu erstellen. Diese Daten sind entscheidend für die autonome Navigation von Drohnen, da sie helfen, Hindernisse zu erkennen und sicher zu navigieren. GPS bietet zwar Standortdaten, reicht jedoch nicht für die detaillierte Umgebungsanalyse aus.",
+      "difficulty": 7
+    },
+    {
+      "category": "Natur",
+      "topic": "Tierwelt",
+      "question": "Welche der folgenden Eigenschaften ist ein typisches Merkmal von Säugetieren?",
+      "choices": [
+        "A: Sie besitzen Milchdrüsen.",
+        "B: Sie haben schuppenbedeckte Haut.",
+        "C: Sie haben Federn.",
+        "D: Sie legen Eier."
+      ],
+      "correct_answer": "A",
+      "explanation": "Säugetiere sind bekannt dafür, dass sie Milchdrüsen besitzen, die es ihnen ermöglichen, ihre Nachkommen mit Milch zu versorgen. Diese Eigenschaft unterscheidet sie von anderen Tiergruppen wie Vögeln oder Reptilien.",
+      "difficulty": 4
+    },
+    {
+      "category": "Geschichte",
+      "topic": "Mittelalter",
+      "question": "Welche architektonische Stilrichtung ist typischerweise mit hohen Gewölben und spitzen Bögen verbunden?",
+      "choices": [
+        "A: Romanik",
+        "B: Klassizismus",
+        "C: Gotik",
+        "D: Barock"
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Gotik, die im 12. Jahrhundert begann und bis ins 16. Jahrhundert andauerte, ist bekannt für ihre hohen, lichtdurchfluteten Kathedralen mit spitzen Bögen und Kreuzrippengewölben. Im Gegensatz dazu war die Romanik durch massive Mauern und runde Bögen geprägt.",
+      "difficulty": 4
+    },
+    {
+      "question": "Was unterscheidet einen Altcoin von einem Token?",
+      "category": "Wirtschaft & Finanzen",
+      "subcategory": "Altcoins & Token",
+      "difficulty": 5,
+      "choices": [
+        "A: Tokens haben immer eine größere Marktkapitalisierung als Altcoins.",
+        "B: Tokens sind meist in Form von physischen Münzen.",
+        "C: Altcoins sind eigene Kryptowährungen mit eigener Blockchain, während Tokens auf bestehenden Blockchains erstellt werden.",
+        "D: Altcoins basieren immer auf der Bitcoin-Blockchain."
+      ],
+      "correct_answer": "C"
+    },
+    {
+      "category": "Sport",
+      "topic": "Sonstige",
+      "question": "Wie viele Spieler sind in einem Eishockeyteam während eines Spiels auf dem Eis aktiv?",
+      "choices": [
+        "A: 6",
+        "B: 3",
+        "C: 4",
+        "D: 5"
+      ],
+      "correct_answer": "A",
+      "explanation": "In einem Eishockeyspiel sind während des Spiels sechs Spieler pro Team auf dem Eis aktiv, davon ein Torwart und fünf Feldspieler. Diese Spielerzahl ist entscheidend für die Teamtaktik und das Spielgeschehen.",
+      "difficulty": 5
+    },
+    {
+      "category": "Geographie",
+      "topic": "Hauptstädte",
+      "question": "Welche Hauptstadt gehört zu dem Land Deutschland?",
+      "choices": [
+        "A: Madrid",
+        "B: Paris",
+        "C: Rom",
+        "D: Berlin"
+      ],
+      "correct_answer": "D",
+      "explanation": "Berlin ist die Hauptstadt von Deutschland und liegt im nordöstlichen Teil des Landes. Es ist eine bedeutende kulturelle und politische Metropole in Europa.",
+      "difficulty": 2
+    },
+    {
+      "category": "Wissenschaft",
+      "topic": "Medizin",
+      "question": "Was ist eine häufige Nebenwirkung der Chemotherapie bei Krebspatienten?",
+      "choices": [
+        "A: Übermäßige Gewichtszunahme",
+        "B: Haarausfall",
+        "C: Verbesserte Sehkraft",
+        "D: Erhöhte Energielevel"
+      ],
+      "correct_answer": "B",
+      "explanation": "Haarausfall ist eine bekannte Nebenwirkung der Chemotherapie, da die Behandlung auch schnell wachsende Zellen, wie die Haarfollikel, angreift. Andere Optionen sind nicht typisch für die Chemotherapie.",
+      "difficulty": 5
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "date": "2026-08-12",
+  "generated_at": "2026-08-12T04:44:14Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Langevin-Gleichungen (frei & mit Kraftfeld)",
+      "question": "Welche Aussage über die Langevin-Gleichung für ein Teilchen in einem Kraftfeld ist korrekt?",
+      "choices": [
+        "A: Die Langevin-Gleichung kann nur für idealisierte Systeme ohne externe Kräfte angewendet werden.",
+        "B: Die Langevin-Gleichung berücksichtigt keine thermischen Fluktuationen.",
+        "C: Die Lösung der Langevin-Gleichung ist immer deterministisch und unabhängig von Anfangsbedingungen.",
+        "D: Die Langevin-Gleichung beschreibt die zeitliche Entwicklung der Position unter dem Einfluss eines deterministischen Kraftfeldes und einer zufälligen Kraft."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Langevin-Gleichung kombiniert deterministische Kräfte mit stochastischen Impulsen, um die Bewegung eines Teilchens unter dem Einfluss eines Kraftfeldes und thermischer Fluktuationen zu beschreiben. Sie ist ein wichtiges Werkzeug in der statistischen Mechanik zur Analyse von Diffusionsprozessen.",
+      "difficulty": 8,
+      "subcategory": "Langevin-Gleichungen (frei & mit Kraftfeld)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Lichtkegel und Minkowski-Diagramme",
+      "question": "Was beschreibt ein Lichtkegel in einem Minkowski-Diagramm?",
+      "choices": [
+        "A: Die Zusammenstöße zwischen Teilchen in relativistischen Kollisionen.",
+        "B: Den Energieverlust eines Körpers während der Zeitdilatation.",
+        "C: Die möglichen Orte, die ein Lichtstrahl in der Zeit zurücklegen kann.",
+        "D: Die Bewegung von massiven Teilchen bei Überlichtgeschwindigkeit."
+      ],
+      "correct_answer": "C",
+      "explanation": "Ein Lichtkegel im Minkowski-Diagramm zeigt die Ausbreitung von Lichtstrahlen im Raum-Zeit-Kontinuum. Er definiert die Grenzen, innerhalb derer Informationen von einem Ereignis zu einem anderen übertragen werden können, und ist somit fundamental für das Verständnis der Relativitätstheorie.",
+      "difficulty": 6,
+      "subcategory": "Lichtkegel und Minkowski-Diagramme"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Reflexionsgesetz (geometrisch)",
+      "question": "Was besagt das Reflexionsgesetz in der Optik?",
+      "choices": [
+        "A: Der Einfallswinkel ist gleich dem Reflexionswinkel.",
+        "B: Der Reflexionswinkel ist immer größer als der Einfallswinkel.",
+        "C: Licht wird in einem Medium immer gebrochen.",
+        "D: Licht kann nicht reflektiert werden."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Reflexionsgesetz besagt, dass der Winkel, in dem das Licht auf eine Oberfläche trifft (Einfallswinkel), gleich dem Winkel ist, in dem es von der Oberfläche reflektiert wird (Reflexionswinkel). Dieses Gesetz gilt für alle Arten von Oberflächen und ist fundamental in der Optik.",
+      "difficulty": 3,
+      "subcategory": "Reflexionsgesetz (geometrisch)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Kritische Exponenten",
+      "question": "Was beschreibt der kritische Exponent β in der Thermodynamik?",
+      "choices": [
+        "A: Die Beziehung zwischen der Temperatur und der Dichte eines Stoffes.",
+        "B: Die Abhängigkeit der Magnetisierung von der Temperatur bei einem ferromagnetischen Material.",
+        "C: Die Änderung der spezifischen Wärme bei Phasenübergängen.",
+        "D: Die Änderung des Drucks in einem idealen Gas bei konstanter Temperatur."
+      ],
+      "correct_answer": "B",
+      "explanation": "Der kritische Exponent β beschreibt, wie die Magnetisierung eines ferromagnetischen Materials mit der Temperatur variiert, insbesondere in der Nähe des kritischen Punktes. Diese Beziehung ist entscheidend für das Verständnis von Phasenübergängen in magnetischen Materialien.",
+      "difficulty": 5,
+      "subcategory": "Kritische Exponenten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Phasenübergänge (Übersicht)",
+      "question": "Welcher Phasenübergang beschreibt den Übergang von einem festen in einen flüssigen Zustand?",
+      "choices": [
+        "A: Erstarren",
+        "B: Schmelzen",
+        "C: Verdampfen",
+        "D: Sublimieren"
+      ],
+      "correct_answer": "B",
+      "explanation": "Der Phasenübergang, der den Übergang von fest zu flüssig beschreibt, wird als Schmelzen bezeichnet. Dieser Prozess findet statt, wenn die Temperatur eines Festkörpers den Schmelzpunkt erreicht.",
+      "difficulty": 5,
+      "subcategory": "Phasenübergänge (Übersicht)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Spin (allgemein)",
+      "question": "Was beschreibt der Spin eines Teilchens in der Quantenmechanik?",
+      "choices": [
+        "A: Eine intrinsische Form des Drehimpulses.",
+        "B: Die Energie des Teilchens.",
+        "C: Die Geschwindigkeit des Teilchens.",
+        "D: Die Masse des Teilchens."
+      ],
+      "correct_answer": "A",
+      "explanation": "Der Spin ist eine fundamentale Eigenschaft von Teilchen, die als eine Art intrinsischer Drehimpuls betrachtet werden kann. Er spielt eine entscheidende Rolle in der Quantenmechanik und beeinflusst die statistischen Eigenschaften von Teilchen.",
+      "difficulty": 4,
+      "subcategory": "Spin (allgemein)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Definitionen & Rechenregeln von Tensoren",
+      "question": "Was ist ein Tensor in der Relativitätstheorie?",
+      "choices": [
+        "A: Eine mathematische Struktur, die Objekte beschreibt, die sich unter Koordinatentransformationen verändern.",
+        "B: Eine Art von Vektor, der immer eine feste Länge hat.",
+        "C: Ein Konzept, das nur in der Quantenmechanik relevant ist.",
+        "D: Ein physikalisches Objekt, das nur in der klassischen Mechanik vorkommt."
+      ],
+      "correct_answer": "A",
+      "explanation": "Ein Tensor ist eine mathematische Struktur, die in der Relativitätstheorie verwendet wird, um physikalische Größen zu beschreiben und deren Verhalten unter Koordinatentransformationen zu charakterisieren. Sie sind entscheidend für die Formulierung der allgemeinen Relativitätstheorie und ermöglichen die Beschreibung von Krümmungen im Raum-Zeit-Kontinuum.",
+      "difficulty": 3,
+      "subcategory": "Definitionen & Rechenregeln von Tensoren"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Einheiten (natürliche Einheiten)",
+      "question": "Welche der folgenden Einheiten wird in der natürlichen Einheitensystematik oft als die Einheit für Energie verwendet?",
+      "choices": [
+        "A: Pascal (Pa)",
+        "B: Newton (N)",
+        "C: Joule (J)",
+        "D: Elektronvolt (eV)"
+      ],
+      "correct_answer": "D",
+      "explanation": "Im natürlichen Einheitensystem, insbesondere in der Teilchenphysik, wird das Elektronvolt (eV) häufig als Maßeinheit für Energie verwendet. Diese Einheit ist besonders nützlich, da sie direkt mit der Ruhemasse von Teilchen in Beziehung steht und es erlaubt, Energien auf sehr kleinen Skalen zu messen.",
+      "difficulty": 8,
+      "subcategory": "Einheiten (natürliche Einheiten)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Überblick: Felder, Teilchen, Symmetrien des Standardmodells",
+      "question": "Welches der folgenden Teilchen ist ein Boson, das im Standardmodell der Teilchenphysik als Trägerteilchen für die elektromagnetische Wechselwirkung dient?",
+      "choices": [
+        "A: Elektron",
+        "B: Proton",
+        "C: Photon",
+        "D: Neutron"
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Photon ist das Trägerteilchen der elektromagnetischen Wechselwirkung im Standardmodell der Teilchenphysik. Es ist ein Boson und spielt eine zentrale Rolle in der Beschreibung der Elektrodynamik.",
+      "difficulty": 4,
+      "subcategory": "Überblick: Felder, Teilchen, Symmetrien des Standardmodells"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Lösungsstruktur (radial)",
+      "question": "Was beschreibt die radiale Lösungsstruktur in der Quantenmechanik für ein Wasserstoffatom?",
+      "choices": [
+        "A: Die Geschwindigkeit des Elektrons in einer bestimmten Bahn.",
+        "B: Die Wahrscheinlichkeit, das Elektron in einem bestimmten Abstand vom Proton zu finden.",
+        "C: Die Masse des Protons im Vergleich zur Masse des Elektrons.",
+        "D: Die Energie des Elektrons bei unendlicher Distanz zum Proton."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die radiale Lösungsstruktur in der Quantenmechanik beschreibt die Verteilung der Wahrscheinlichkeit, das Elektron in einem bestimmten Abstand vom Proton zu finden. Dies ist entscheidend für das Verständnis der Elektronenorbitale im Wasserstoffatom.",
+      "difficulty": 3,
+      "subcategory": "Lösungsstruktur (radial)"
+    }
+  ]
+}

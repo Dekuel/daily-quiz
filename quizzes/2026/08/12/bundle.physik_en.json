@@ -1,0 +1,168 @@
+{
+  "date": "2026-08-12",
+  "generated_at": "2026-08-12T04:44:49Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Langevin-Gleichungen (frei & mit Kraftfeld)",
+      "question": "Which statement about the Langevin equation for a particle in a force field is correct?",
+      "choices": [
+        "A: The Langevin equation can only be applied to idealized systems without external forces.",
+        "B: The Langevin equation does not consider thermal fluctuations.",
+        "C: The solution of the Langevin equation is always deterministic and independent of initial conditions.",
+        "D: The Langevin equation describes the temporal evolution of position under the influence of a deterministic force field and a random force."
+      ],
+      "correct_answer": "D",
+      "explanation": "The Langevin equation combines deterministic forces with stochastic impulses to describe the motion of a particle under the influence of a force field and thermal fluctuations. It is an important tool in statistical mechanics for analyzing diffusion processes.",
+      "difficulty": 8,
+      "subcategory": "Langevin-Gleichungen (frei & mit Kraftfeld)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Lichtkegel und Minkowski-Diagramme",
+      "question": "What does a light cone in a Minkowski diagram describe?",
+      "choices": [
+        "A: The collisions between particles in relativistic collisions.",
+        "B: The energy loss of a body during time dilation.",
+        "C: The possible paths a light beam can travel in time.",
+        "D: The motion of massive particles at superluminal speeds."
+      ],
+      "correct_answer": "C",
+      "explanation": "A light cone in a Minkowski diagram shows the propagation of light rays in spacetime continuum. It defines the limits within which information can be transmitted from one event to another, and is thus fundamental for understanding the theory of relativity.",
+      "difficulty": 6,
+      "subcategory": "Lichtkegel und Minkowski-Diagramme"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Reflexionsgesetz (geometrisch)",
+      "question": "What does the law of reflection in optics describe?",
+      "choices": [
+        "A: The angle of incidence is equal to the angle of reflection.",
+        "B: The angle of reflection is always greater than the angle of incidence.",
+        "C: Light is always refracted in a medium.",
+        "D: Light cannot be reflected."
+      ],
+      "correct_answer": "A",
+      "explanation": "The law of reflection states that the angle at which light hits a surface (angle of incidence) is equal to the angle at which it is reflected from the surface (angle of reflection). This law applies to all types of surfaces and is fundamental in optics.",
+      "difficulty": 3,
+      "subcategory": "Reflexionsgesetz (geometrisch)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Kritische Exponenten",
+      "question": "What does the critical exponent β describe in thermodynamics?",
+      "choices": [
+        "A: The relationship between the temperature and the density of a substance.",
+        "B: The dependence of magnetization on temperature in a ferromagnetic material.",
+        "C: The change in specific heat at phase transitions.",
+        "D: The change in pressure in an ideal gas at constant temperature."
+      ],
+      "correct_answer": "B",
+      "explanation": "The critical exponent β describes how the magnetization of a ferromagnetic material varies with temperature, especially near the critical point. This relationship is crucial for understanding phase transitions in magnetic materials.",
+      "difficulty": 5,
+      "subcategory": "Kritische Exponenten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Phasenübergänge (Übersicht)",
+      "question": "Which phase transition describes the transition from a solid to a liquid state?",
+      "choices": [
+        "A: Solidification",
+        "B: Melting",
+        "C: Evaporation",
+        "D: Sublimation"
+      ],
+      "correct_answer": "B",
+      "explanation": "The phase transition that describes the transition from solid to liquid is called melting. This process occurs when the temperature of a solid reaches the melting point.",
+      "difficulty": 5,
+      "subcategory": "Phasenübergänge (Übersicht)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Spin (allgemein)",
+      "question": "What does the spin of a particle describe in quantum mechanics?",
+      "choices": [
+        "A: An intrinsic form of angular momentum.",
+        "B: The energy of the particle.",
+        "C: The velocity of the particle.",
+        "D: The mass of the particle."
+      ],
+      "correct_answer": "A",
+      "explanation": "Spin is a fundamental property of particles that can be considered as a kind of intrinsic angular momentum. It plays a crucial role in quantum mechanics and influences the statistical properties of particles.",
+      "difficulty": 4,
+      "subcategory": "Spin (allgemein)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Definitionen & Rechenregeln von Tensoren",
+      "question": "What is a tensor in relativity theory?",
+      "choices": [
+        "A: A mathematical structure that describes objects that change under coordinate transformations.",
+        "B: A type of vector that always has a fixed length.",
+        "C: A concept relevant only in quantum mechanics.",
+        "D: A physical object that only occurs in classical mechanics."
+      ],
+      "correct_answer": "A",
+      "explanation": "A tensor is a mathematical structure used in relativity theory to describe physical quantities and characterize their behavior under coordinate transformations. They are crucial for formulating general relativity and enable the description of curvatures in spacetime continuum.",
+      "difficulty": 3,
+      "subcategory": "Definitionen & Rechenregeln von Tensoren"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Einheiten (natürliche Einheiten)",
+      "question": "Which of the following units is often used as the unit for energy in natural unit systems?",
+      "choices": [
+        "A: Pascal (Pa)",
+        "B: Newton (N)",
+        "C: Joule (J)",
+        "D: Electronvolt (eV)"
+      ],
+      "correct_answer": "D",
+      "explanation": "In natural unit systems, especially in particle physics, the electronvolt (eV) is often used as a unit of energy. This unit is particularly useful as it is directly related to the rest mass of particles and allows for measuring energies on very small scales.",
+      "difficulty": 8,
+      "subcategory": "Einheiten (natürliche Einheiten)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Überblick: Felder, Teilchen, Symmetrien des Standardmodells",
+      "question": "Which of the following particles is a boson that serves as the carrier particle for electromagnetic interaction in the Standard Model of particle physics?",
+      "choices": [
+        "A: Electron",
+        "B: Proton",
+        "C: Photon",
+        "D: Neutron"
+      ],
+      "correct_answer": "C",
+      "explanation": "The photon is the carrier particle of electromagnetic interaction in the Standard Model of particle physics. It is a boson and plays a central role in describing electrodynamics.",
+      "difficulty": 4,
+      "subcategory": "Überblick: Felder, Teilchen, Symmetrien des Standardmodells"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Lösungsstruktur (radial)",
+      "question": "What does the radial solution structure in quantum mechanics for a hydrogen atom describe?",
+      "choices": [
+        "A: The velocity of the electron in a specific orbit.",
+        "B: The probability of finding the electron at a certain distance from the proton.",
+        "C: The mass of the proton compared to the mass of the electron.",
+        "D: The energy of the electron at infinite distance from the proton."
+      ],
+      "correct_answer": "B",
+      "explanation": "The radial solution structure in quantum mechanics describes the distribution of probability of finding the electron at a certain distance from the proton. This is crucial for understanding the electron orbitals in the hydrogen atom.",
+      "difficulty": 3,
+      "subcategory": "Lösungsstruktur (radial)"
+    }
+  ]
+}

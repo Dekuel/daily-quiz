@@ -3388,6 +3388,20 @@
       "correct_answer": "D",
       "explanation": "SMTP (Simple Mail Transfer Protocol) ist das Standardprotokoll für den Versand von E-Mails über das Internet. IMAP und POP3 sind Protokolle für den Empfang von E-Mails, während HTTP für den Zugriff auf Webseiten verwendet wird.",
       "difficulty": 7
+    },
+    {
+      "category": "Technologie",
+      "topic": "KI & Zukunftstechnologien",
+      "question": "Welches der folgenden KI-Modelle verwendet eine rekurrente Struktur zur Verarbeitung von sequenziellen Daten?",
+      "choices": [
+        "A: Support Vector Machine (SVM)",
+        "B: LSTM-Netzwerk",
+        "C: Convolutional Neural Network (CNN)",
+        "D: Generatives Adversariales Netzwerk (GAN)"
+      ],
+      "correct_answer": "B",
+      "explanation": "LSTM-Netzwerke (Long Short-Term Memory) sind eine spezielle Art von rekurrenten neuronalen Netzen, die sich besonders gut für die Verarbeitung von zeitlich abhängigen Daten eignen. Im Gegensatz dazu sind CNNs vor allem auf Bilddaten spezialisiert, GANs zur Generierung neuer Daten und SVMs für Klassifikationsaufgaben gedacht.",
+      "difficulty": 10
     }
   ]
 }
