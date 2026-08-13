@@ -1,0 +1,168 @@
+{
+  "date": "2026-08-13",
+  "generated_at": "2026-08-13T04:48:52Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Ladungen und Ströme",
+      "question": "What happens to an electrically charged balloon when held against dry hair?",
+      "choices": [
+        "A: The balloon has no effect on the hair.",
+        "B: The balloon repels the hair.",
+        "C: The hair becomes electrically neutral.",
+        "D: The balloon attracts the hair."
+      ],
+      "correct_answer": "D",
+      "explanation": "When a balloon is rubbed against dry hair, electrons are transferred from the hair to the balloon. The balloon becomes negatively charged and attracts the positively charged hair.",
+      "difficulty": 4,
+      "subcategory": "Ladungen und Ströme"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Ionisations- & Penning-Vakuummeter",
+      "question": "What principle underlies an ionization vacuum gauge?",
+      "choices": [
+        "A: Reflection of light rays",
+        "B: Vibrations of springs",
+        "C: Measurement of gas temperature",
+        "D: Ionization of gases by electric fields"
+      ],
+      "correct_answer": "D",
+      "explanation": "An ionization vacuum gauge operates by ionizing gases through an electric field. This allows the measurement of the number of ions, providing information about the pressure in the vacuum.",
+      "difficulty": 1,
+      "subcategory": "Ionisations- & Penning-Vakuummeter"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Binomial- & Poisson-Verteilung (Exkurs)",
+      "question": "What does the Poisson distribution describe in statistical mechanics?",
+      "choices": [
+        "A: Distribution of particle energy in a system.",
+        "B: Number of successes in a fixed number of trials.",
+        "C: Relationship between temperature and pressure in a gas.",
+        "D: Probability of events in a fixed interval."
+      ],
+      "correct_answer": "D",
+      "explanation": "The Poisson distribution describes the probability of a specific number of events occurring independently within a fixed time interval. This is particularly useful in applications where events are rare, such as radioactivity or customer arrivals in a store.",
+      "difficulty": 5,
+      "subcategory": "Binomial- & Poisson-Verteilung (Exkurs)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Messprozess & Projektionspostulat",
+      "question": "What does the projection postulate describe in quantum mechanics?",
+      "choices": [
+        "A: Quantum objects always have a defined position.",
+        "B: Particles cannot be described simultaneously as waves and particles.",
+        "C: The measurement process leads to a specific outcome that changes the system's state.",
+        "D: The energy of a particle always remains constant."
+      ],
+      "correct_answer": "C",
+      "explanation": "The projection postulate states that when measuring a quantum object, the system's state is projected onto an eigenstate of the measurement operator, meaning the measurement process actually changes the system and leads to a specific outcome.",
+      "difficulty": 2,
+      "subcategory": "Messprozess & Projektionspostulat"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Zeitunabhängige Störungstheorie: entartete Niveaus",
+      "question": "What does the time-independent perturbation theory describe in quantum mechanics for degenerate levels?",
+      "choices": [
+        "A: Perturbations have no effect on the eigenstates.",
+        "B: Perturbations can split the energy levels.",
+        "C: Energy eigenvalues remain unchanged.",
+        "D: Wave functions are always orthogonal."
+      ],
+      "correct_answer": "B",
+      "explanation": "The time-independent perturbation theory addresses how an external potential can influence a system's energy levels. For degenerate levels, the perturbation can cause these levels to split, resulting in different energies. Therefore, answer D is correct.",
+      "difficulty": 3,
+      "subcategory": "Zeitunabhängige Störungstheorie: entartete Niveaus"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Fermatsches Prinzip",
+      "question": "What does Fermat's principle state in optics?",
+      "choices": [
+        "A: Light cannot be reflected.",
+        "B: Light follows the path that requires the shortest time.",
+        "C: Light always spreads evenly in all directions.",
+        "D: Light is only transmitted in straight lines."
+      ],
+      "correct_answer": "B",
+      "explanation": "Fermat's principle states that light chooses the path between two points that requires the shortest time. This is the basis for explaining reflection and refraction in optics.",
+      "difficulty": 9,
+      "subcategory": "Fermatsches Prinzip"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Reibung: Rollreibung",
+      "question": "Which factor has the greatest influence on the rolling resistance of a body rolling on a surface?",
+      "choices": [
+        "A: The mass of the body.",
+        "B: The nature of the rolling surface.",
+        "C: The diameter of the body.",
+        "D: The velocity of the rolling body."
+      ],
+      "correct_answer": "B",
+      "explanation": "The nature of the rolling surface significantly affects rolling resistance, as different materials have different coefficients of friction. A rough surface increases rolling resistance, while smooth surfaces can reduce it.",
+      "difficulty": 8,
+      "subcategory": "Reibung: Rollreibung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Reflexion & Brechung elektromagnetischer Wellen",
+      "question": "What happens to a light beam when it transitions from an optically rarer medium to an optically denser medium?",
+      "choices": [
+        "A: The light beam is reflected by the medium.",
+        "B: The light beam is completely absorbed by the medium.",
+        "C: The light beam passes through the medium unhindered.",
+        "D: The light beam is refracted towards the normal."
+      ],
+      "correct_answer": "D",
+      "explanation": "When light transitions from a rarer to a denser medium, it is refracted towards the normal, meaning the angle of incidence is greater than the angle of refraction. This is a fundamental principle of optics describing the direction light rays change when crossing different materials.",
+      "difficulty": 5,
+      "subcategory": "Reflexion & Brechung elektromagnetischer Wellen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Kohärenz von Lichtquellen",
+      "question": "What does the coherence of a light source describe?",
+      "choices": [
+        "A: The ability to disperse light into different colors.",
+        "B: The ability to generate light at a single wavelength.",
+        "C: The ability to reflect light rays at any angle.",
+        "D: The ability to generate light rays independently."
+      ],
+      "correct_answer": "B",
+      "explanation": "Coherence refers to a light source's ability to generate light waves in a specific phase and wavelength. A coherent light source, such as a laser, produces light with a constant wavelength and phase, which is important for interference phenomena.",
+      "difficulty": 3,
+      "subcategory": "Kohärenz von Lichtquellen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Maxwell-Gleichungen der Elektrostatik",
+      "question": "Which of the following equations describes Coulomb's law in electrostatics?",
+      "choices": [
+        "A: ∇ × E = -∂B/∂t",
+        "B: ∇ ⋅ E = ρ/ε₀",
+        "C: ∇ × E = J/ε₀ + ∂D/∂t",
+        "D: ∇ ⋅ B = 0"
+      ],
+      "correct_answer": "B",
+      "explanation": "Coulomb's law is described by the equation ∇ ⋅ E = ρ/ε₀, which relates the electric field strength E to the charge density ρ. This equation is one of the Maxwell equations and forms the basis of electrostatics.",
+      "difficulty": 5,
+      "subcategory": "Maxwell-Gleichungen der Elektrostatik"
+    }
+  ]
+}

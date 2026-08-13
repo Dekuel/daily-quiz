@@ -3402,6 +3402,20 @@
       "correct_answer": "B",
       "explanation": "LSTM-Netzwerke (Long Short-Term Memory) sind eine spezielle Art von rekurrenten neuronalen Netzen, die sich besonders gut für die Verarbeitung von zeitlich abhängigen Daten eignen. Im Gegensatz dazu sind CNNs vor allem auf Bilddaten spezialisiert, GANs zur Generierung neuer Daten und SVMs für Klassifikationsaufgaben gedacht.",
       "difficulty": 10
+    },
+    {
+      "category": "Technologie",
+      "topic": "Computer & Internet",
+      "question": "Welches der folgenden Protokolle wird häufig für die Kommunikation zwischen Webservern und Clients verwendet?",
+      "choices": [
+        "A: SNMP",
+        "B: HTTP",
+        "C: SMTP",
+        "D: FTP"
+      ],
+      "correct_answer": "B",
+      "explanation": "HTTP (Hypertext Transfer Protocol) ist das grundlegende Protokoll für die Kommunikation im Web und wird verwendet, um Webseiten an Browser zu übertragen. FTP (File Transfer Protocol) wird für den Dateitransfer verwendet, SMTP (Simple Mail Transfer Protocol) für den E-Mail-Versand und SNMP (Simple Network Management Protocol) für die Netzwerkverwaltung.",
+      "difficulty": 8
     }
   ]
 }

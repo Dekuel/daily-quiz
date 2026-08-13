@@ -1,0 +1,169 @@
+{
+  "date": "2026-08-13",
+  "generated_at": "2026-08-13T04:48:17Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Ladungen und Ströme",
+      "question": "Was passiert mit einem elektrisch geladenen Ballon, wenn man ihn an ein trockenes Haar hält?",
+      "choices": [
+        "A: Der Ballon hat keinen Effekt auf das Haar.",
+        "B: Der Ballon stößt das Haar ab.",
+        "C: Das Haar wird elektrisch neutral.",
+        "D: Der Ballon zieht das Haar an."
+      ],
+      "correct_answer": "D",
+      "explanation": "Wenn ein Ballon an einem trockenen Haar gerieben wird, werden Elektronen vom Haar auf den Ballon übertragen. Der Ballon erhält eine negative Ladung und zieht das positiv geladene Haar an.",
+      "difficulty": 4,
+      "subcategory": "Ladungen und Ströme"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Ionisations- & Penning-Vakuummeter",
+      "question": "Welches Prinzip liegt einem Ionisations-Vakuummeter zugrunde?",
+      "choices": [
+        "A: Reflektion von Lichtstrahlen",
+        "B: Schwingungen von Federn",
+        "C: Messung der Temperatur von Gasen",
+        "D: Ionisation von Gasen durch elektrische Felder"
+      ],
+      "correct_answer": "D",
+      "explanation": "Ein Ionisations-Vakuummeter funktioniert durch die Ionisation von Gasen, die durch ein elektrisches Feld verursacht wird. Dadurch kann die Anzahl der Ionen gemessen werden, was Aufschluss über den Druck im Vakuum gibt.",
+      "difficulty": 1,
+      "subcategory": "Ionisations- & Penning-Vakuummeter"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Binomial- & Poisson-Verteilung (Exkurs)",
+      "question": "Was beschreibt die Poisson-Verteilung in der statistischen Mechanik?",
+      "choices": [
+        "A: Die Verteilung der Teilchenenergie in einem System.",
+        "B: Die Anzahl der Erfolge in einer festen Anzahl von Versuchen.",
+        "C: Die Beziehung zwischen Temperatur und Druck in einem Gas.",
+        "D: Die Wahrscheinlichkeit von Ereignissen in einem festen Intervall."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Poisson-Verteilung beschreibt die Wahrscheinlichkeit, dass in einem festen Zeitintervall eine bestimmte Anzahl von Ereignissen eintritt, die unabhängig voneinander auftreten. Dies ist besonders nützlich in Anwendungen, wo Ereignisse selten sind, wie z.B. Radioaktivität oder Ankunft von Kunden in einem Geschäft.",
+      "difficulty": 5,
+      "subcategory": "Binomial- & Poisson-Verteilung (Exkurs)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Messprozess & Projektionspostulat",
+      "question": "Was beschreibt das Projektionspostulat in der Quantenmechanik?",
+      "choices": [
+        "A: Quantenobjekte haben immer eine definierte Position.",
+        "B: Teilchen können nicht gleichzeitig als Welle und Teilchen beschrieben werden.",
+        "C: Der Messprozess führt zu einem bestimmten Ergebnis, das den Zustand des Systems verändert.",
+        "D: Die Energie eines Teilchens bleibt immer konstant."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Projektionspostulat besagt, dass beim Messen eines Quantenobjekts der Zustand des Systems auf einen Eigenzustand des Messoperators projiziert wird, was bedeutet, dass der Messprozess das System tatsächlich verändert und zu einem bestimmten Ergebnis führt.",
+      "difficulty": 2,
+      "subcategory": "Messprozess & Projektionspostulat"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Zeitunabhängige Störungstheorie: entartete Niveaus",
+      "question": "Was beschreibt die zeitunabhängige Störungstheorie in der Quantenmechanik für entartete Niveaus?",
+      "choices": [
+        "A: Die Störungen haben keine Auswirkung auf die Eigenzustände.",
+        "B: Die Störungen können die Energieniveaus aufspalten.",
+        "C: Die Energieeigenwerte bleiben unverändert.",
+        "D: Die Wellenfunktionen sind immer orthogonal."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die zeitunabhängige Störungstheorie behandelt, wie ein externes Potential die Energieniveaus eines Systems beeinflussen kann. Bei entarteten Niveaus kann die Störung dazu führen, dass diese Niveaus aufgespalten werden, was zu unterschiedlichen Energien führt. Daher ist die Antwort D korrekt.",
+      "difficulty": 3,
+      "subcategory": "Zeitunabhängige Störungstheorie: entartete Niveaus"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Fermatsches Prinzip",
+      "question": "Was besagt das Fermatsche Prinzip in der Optik?",
+      "choices": [
+        "A: Licht kann nicht reflektiert werden.",
+        "B: Licht folgt dem Weg, der die kürzeste Zeit benötigt.",
+        "C: Licht breitet sich immer gleichmäßig in alle Richtungen aus.",
+        "D: Licht wird nur in geraden Linien übertragen."
+      ],
+      "correct_answer": "B",
+      "explanation": "Das Fermatsche Prinzip besagt, dass Licht den Weg zwischen zwei Punkten wählt, der die kürzeste Zeit benötigt. Dies ist die Grundlage für die Erklärung von Reflexion und Brechung in der Optik.",
+      "difficulty": 9,
+      "subcategory": "Fermatsches Prinzip"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Reibung: Rollreibung",
+      "question": "Welcher Faktor hat den größten Einfluss auf den Rollwiderstand eines Körpers, der auf einer Oberfläche rollt?",
+      "choices": [
+        "A: Die Masse des Körpers.",
+        "B: Die Beschaffenheit der Rollfläche.",
+        "C: Der Durchmesser des Körpers.",
+        "D: Die Geschwindigkeit des rollenden Körpers."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Beschaffenheit der Rollfläche beeinflusst maßgeblich den Rollwiderstand, da unterschiedliche Materialien unterschiedliche Reibungskoeffizienten aufweisen. Eine raue Oberfläche erhöht den Rollwiderstand, während glatte Oberflächen diesen verringern können.",
+      "difficulty": 8,
+      "subcategory": "Reibung: Rollreibung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Reflexion & Brechung elektromagnetischer Wellen",
+      "question": "Was passiert mit einem Lichtstrahl, wenn er von einem optisch dünneren Medium in ein optisch dichteres Medium übergeht?",
+      "choices": [
+        "A: Der Lichtstrahl wird vom Medium reflektiert.",
+        "B: Der Lichtstrahl wird vom Medium vollständig absorbiert.",
+        "C: Der Lichtstrahl wird vom Medium ungehindert durchgelassen.",
+        "D: Der Lichtstrahl wird zum Lot hin gebrochen."
+      ],
+      "correct_answer": "D",
+      "explanation": "Wenn Licht von einem dünneren in ein dichteres Medium übergeht, wird es zum Lot hin gebrochen, was bedeutet, dass der Einfallswinkel größer ist als der Brechungswinkel. Dies ist ein grundlegendes Prinzip der Optik, das die Richtung beschreibt, in die Lichtstrahlen sich ändern, wenn sie unterschiedliche Materialien durchqueren.",
+      "difficulty": 5,
+      "subcategory": "Reflexion & Brechung elektromagnetischer Wellen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Kohärenz von Lichtquellen",
+      "question": "Was beschreibt die Kohärenz einer Lichtquelle?",
+      "choices": [
+        "A: Die Fähigkeit, Licht in verschiedene Farben zu zerlegen.",
+        "B: Die Fähigkeit, Licht in einer einzigen Wellenlänge zu erzeugen.",
+        "C: Die Fähigkeit, Lichtstrahlen in beliebigen Winkeln zu reflektieren.",
+        "D: Die Fähigkeit, Lichtstrahlen unabhängig voneinander zu erzeugen."
+      ],
+      "correct_answer": "B",
+      "explanation": "Kohärenz bezieht sich auf die Fähigkeit einer Lichtquelle, Lichtwellen in einer bestimmten Phase und Wellenlänge zu erzeugen. Eine kohärente Lichtquelle, wie ein Laser, erzeugt Licht mit einer konstanten Wellenlänge und Phase, was für Interferenzphänomene wichtig ist.",
+      "difficulty": 3,
+      "subcategory": "Kohärenz von Lichtquellen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Maxwell-Gleichungen der Elektrostatik",
+      "question": "Welche der folgenden Gleichungen beschreibt das Coulomb'sche Gesetz in der Elektrostatik?",
+      "choices": [
+        "A: ∇ × E = -∂B/∂t",
+        "B: ∇ ⋅ E = ρ/ε₀",
+        "C: ∇ × E = J/ε₀ + ∂D/∂t",
+        "D: ∇ ⋅ B = 0"
+      ],
+      "correct_answer": "B",
+      "explanation": "Das Coulomb'sche Gesetz wird durch die Gleichung ∇ ⋅ E = ρ/ε₀ beschrieben, die beschreibt, wie die elektrische Feldstärke E mit der Ladungsdichte ρ in Beziehung steht. Diese Gleichung ist eine der Maxwell-Gleichungen und stellt die Basis der Elektrostatik dar.",
+      "difficulty": 5,
+      "subcategory": "Maxwell-Gleichungen der Elektrostatik"
+    }
+  ]
+}
