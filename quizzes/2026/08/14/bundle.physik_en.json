@@ -1,0 +1,168 @@
+{
+  "date": "2026-08-14",
+  "generated_at": "2026-08-14T04:45:50Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Thermodynamische Systeme (offen/geschlossen/isoliert)",
+      "question": "Which of the following systems is a closed thermodynamic system?",
+      "choices": [
+        "A: A closed container of water not in contact with the surroundings.",
+        "B: An insulated thermos flask that does not release or absorb heat.",
+        "C: A cooking pot with an open lid on the stove.",
+        "D: An open glass of water on a table."
+      ],
+      "correct_answer": "A",
+      "explanation": "A closed thermodynamic system can exchange energy but not matter with its surroundings. Option A describes exactly such a system, while the other options contain elements that can exchange matter with the surroundings.",
+      "difficulty": 4,
+      "subcategory": "Thermodynamische Systeme (offen/geschlossen/isoliert)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Erhaltungssätze & Hydrodynamik im lokalen Gleichgewicht",
+      "question": "Which of the following statements best describes the Ehrenfest classification of phase transitions?",
+      "choices": [
+        "A: It refers exclusively to chemical reactions.",
+        "B: It distinguishes between continuous and discontinuous phase transitions.",
+        "C: It is only relevant for solid-liquid transitions.",
+        "D: It classifies phase transitions based on their temperature."
+      ],
+      "correct_answer": "A",
+      "explanation": "The Ehrenfest classification distinguishes between continuous (e.g. first-order) and discontinuous phase transitions (e.g. second-order). This differentiation is based on the behavior of the thermodynamic potentials and their derivatives at the transition points.",
+      "difficulty": 5,
+      "subcategory": "Erhaltungssätze & Hydrodynamik im lokalen Gleichgewicht"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Ehrenfest-Klassifikation",
+      "question": "What does a spherical harmonic function describe in quantum mechanics?",
+      "choices": [
+        "A: The temperature of a system.",
+        "B: The energy of a particle.",
+        "C: The velocity of a particle.",
+        "D: The spatial distribution of a particle in space."
+      ],
+      "correct_answer": "B",
+      "explanation": "Spherical harmonic functions are solutions of the Schrödinger equation in spherical coordinates and describe the spatial distribution of wave functions, specifically with respect to angular momentum quantization. They are crucial for analyzing quantum systems with spherical symmetry.",
+      "difficulty": 4,
+      "subcategory": "Ehrenfest-Klassifikation"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Ortsdarstellung & Eigenfunktionen (sphärische Harmonische)",
+      "question": "What does the boundary value problem in a dielectric describe?",
+      "choices": [
+        "A: The mass of a charged particle.",
+        "B: The motion of electrons in a vacuum.",
+        "C: The distribution of electric fields at the boundaries between different materials.",
+        "D: The temperature distribution in a solid body."
+      ],
+      "correct_answer": "D",
+      "explanation": "The boundary value problem in a dielectric refers to the analysis of electric fields at the interfaces between different materials. These problems are important for understanding the distribution of electric fields and the influence of materials on energy.",
+      "difficulty": 1,
+      "subcategory": "Ortsdarstellung & Eigenfunktionen (sphärische Harmonische)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Randwertprobleme & Energie in Dielektrika",
+      "question": "What does the spin-orbit interaction describe in quantum mechanics?",
+      "choices": [
+        "A: The interaction between particles and electromagnetic fields.",
+        "B: The relationship between temperature and kinetic energy of particles.",
+        "C: The force acting between two electrically charged particles.",
+        "D: The interaction between the spin of a particle and its orbital motion."
+      ],
+      "correct_answer": "C",
+      "explanation": "The spin-orbit interaction describes how the spin of a particle, such as an electron, interacts with its motion in space. This interaction has significant effects on the energy states of atoms and plays a crucial role in quantum mechanics and solid-state physics.",
+      "difficulty": 4,
+      "subcategory": "Randwertprobleme & Energie in Dielektrika"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Spin-Bahn-Wechselwirkung",
+      "question": "Which statement about Fourier series in wave propagation is correct?",
+      "choices": [
+        "A: Fourier series are only applicable to sinusoidal waves.",
+        "B: Fourier series always require a finite number of harmonics.",
+        "C: Fourier series can represent any periodic function.",
+        "D: Fourier series are not relevant in electrodynamics."
+      ],
+      "correct_answer": "D",
+      "explanation": "Fourier series are a powerful tool for representing periodic functions as a sum of sine and cosine functions. They are widely used in wave propagation to analyze and synthesize complex waveforms.",
+      "difficulty": 3,
+      "subcategory": "Spin-Bahn-Wechselwirkung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Fourier-Reihen & -Integrale in der Wellenausbreitung",
+      "question": "What does the decomposition and uniqueness theorem state in vector analysis?",
+      "choices": [
+        "A: Every vector in a space can be uniquely decomposed into a divergent and a rotational vector.",
+        "B: Every vector in a space can be decomposed into two arbitrary directions.",
+        "C: The decomposition and uniqueness theorem applies only to constant vector fields.",
+        "D: Vectors can only be decomposed into orthogonal components."
+      ],
+      "correct_answer": "C",
+      "explanation": "The decomposition and uniqueness theorem states that every vector in a suitable space can be represented as the sum of a divergent and a rotational vector. This decomposition is unique under certain conditions related to the vector fields.",
+      "difficulty": 5,
+      "subcategory": "Fourier-Reihen & -Integrale in der Wellenausbreitung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Zerlegungs- und Eindeutigkeitssatz (Vektoranalysis)",
+      "question": "What does the phenomenon of tunneling in quantum mechanics related to potential barriers describe?",
+      "choices": [
+        "A: Particles can pass through a potential barrier even if they do not have enough energy to overcome it.",
+        "B: Particles always lose energy when encountering a potential barrier.",
+        "C: Tunneling particles behave like classical particles and follow the laws of classical mechanics.",
+        "D: The probability of a particle crossing a potential barrier is independent of its height."
+      ],
+      "correct_answer": "A",
+      "explanation": "The phenomenon of tunneling states that particles in quantum mechanics have a probability of penetrating a potential barrier even if their energy is below the height of the barrier. This contradicts classical physical expectations and is a central concept in quantum mechanics.",
+      "difficulty": 5,
+      "subcategory": "Zerlegungs- und Eindeutigkeitssatz (Vektoranalysis)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Potentialbarrieren & -stufen",
+      "question": "What does the resolving power of an optical device describe?",
+      "choices": [
+        "A: The ability to perceive two closely spaced points as separate.",
+        "B: The color accuracy of the displayed objects.",
+        "C: The amount of light the device can process.",
+        "D: The maximum magnification the device can achieve."
+      ],
+      "correct_answer": "A",
+      "explanation": "The resolving power is a measure of how well an optical device can distinguish two closely spaced points. Higher resolving power allows for a sharper and more detailed view of objects.",
+      "difficulty": 7,
+      "subcategory": "Potentialbarrieren & -stufen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Auflösungsvermögen optischer Geräte",
+      "question": "Was beschreibt das Auflösungsvermögen eines optischen Geräts?",
+      "choices": [
+        "A: Die Fähigkeit, zwei nahe beieinander liegende Punkte als getrennt wahrzunehmen.",
+        "B: Die Farbtreue der abgebildeten Objekte.",
+        "C: Die Lichtmenge, die das Gerät verarbeiten kann.",
+        "D: Die maximale Vergrößerung, die ein Gerät erreichen kann."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Auflösungsvermögen ist ein Maß dafür, wie gut ein optisches Gerät zwei nahe beieinander liegende Punkte unterscheiden kann. Ein höheres Auflösungsvermögen ermöglicht eine schärfere und detailliertere Sicht auf Objekte.",
+      "difficulty": 5,
+      "subcategory": "Auflösungsvermögen optischer Geräte"
+    }
+  ]
+}

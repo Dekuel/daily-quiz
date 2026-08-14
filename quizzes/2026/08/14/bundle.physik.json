@@ -1,0 +1,169 @@
+{
+  "date": "2026-08-14",
+  "generated_at": "2026-08-14T04:45:22Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Thermodynamische Systeme (offen/geschlossen/isoliert)",
+      "question": "Welches der folgenden Systeme ist ein geschlossenes thermodynamisches System?",
+      "choices": [
+        "A: Ein geschlossener Behälter mit Wasser, der nicht mit der Umgebung in Kontakt steht.",
+        "B: Ein isolierter Thermosbehälter, der Wärme nicht abgibt oder aufnimmt.",
+        "C: Ein Kochtopf mit offenem Deckel auf dem Herd.",
+        "D: Ein offenes Glas Wasser auf einem Tisch."
+      ],
+      "correct_answer": "A",
+      "explanation": "Ein geschlossenes thermodynamisches System kann Energie austauschen, jedoch keine Materie mit seiner Umgebung. Option A beschreibt genau ein solches System, während die anderen Optionen Elemente enthalten, die Materie mit der Umgebung austauschen können.",
+      "difficulty": 4,
+      "subcategory": "Thermodynamische Systeme (offen/geschlossen/isoliert)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Erhaltungssätze & Hydrodynamik im lokalen Gleichgewicht",
+      "question": "Welcher der folgenden Sätze beschreibt eine Erhaltungsgesetzmäßigkeit in der Hydrodynamik im lokalen Gleichgewicht?",
+      "choices": [
+        "A: Der Impuls eines geschlossenen Systems bleibt konstant.",
+        "B: Die Temperatur eines Systems bleibt immer konstant.",
+        "C: Die Dichte eines idealen Gases bleibt immer gleich.",
+        "D: Der Druck in einem System kann nicht variieren."
+      ],
+      "correct_answer": "A",
+      "explanation": "Der Impuls eines geschlossenen Systems bleibt gemäß dem Impulserhaltungssatz konstant, solange keine äußeren Kräfte wirken. Dies ist ein grundlegendes Konzept in der Hydrodynamik und gilt auch im lokalen Gleichgewicht von Fluiden.",
+      "difficulty": 5,
+      "subcategory": "Erhaltungssätze & Hydrodynamik im lokalen Gleichgewicht"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Ehrenfest-Klassifikation",
+      "question": "Welche der folgenden Aussagen beschreibt am besten die Ehrenfest-Klassifikation von Phasenübergängen?",
+      "choices": [
+        "A: Sie bezieht sich ausschließlich auf chemische Reaktionen.",
+        "B: Sie unterscheidet zwischen kontinuierlichen und diskontinuierlichen Phasenübergängen.",
+        "C: Sie ist nur für fest-flüssige Übergänge relevant.",
+        "D: Sie klassifiziert Phasenübergänge nach ihrer Temperatur."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Ehrenfest-Klassifikation unterscheidet zwischen kontinuierlichen (z.B. erster Ordnung) und diskontinuierlichen Phasenübergängen (z.B. zweiter Ordnung). Diese Unterscheidung basiert auf dem Verhalten der thermodynamischen Potentiale und deren Ableitungen an den Übergangspunkten.",
+      "difficulty": 4,
+      "subcategory": "Ehrenfest-Klassifikation"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Ortsdarstellung & Eigenfunktionen (sphärische Harmonische)",
+      "question": "Was beschreibt eine sphärische harmonische Funktion in der Quantenmechanik?",
+      "choices": [
+        "A: Die Temperatur eines Systems.",
+        "B: Die Energie eines Teilchens.",
+        "C: Die Geschwindigkeit eines Teilchens.",
+        "D: Die räumliche Verteilung eines Teilchens im Raum."
+      ],
+      "correct_answer": "D",
+      "explanation": "Sphärische harmonische Funktionen sind Lösungen der Schrödinger-Gleichung in Kugelkoordinaten und beschreiben die räumliche Verteilung von Wellenfunktionen, speziell in Bezug auf die Angularmomentumquantisierung. Sie sind daher entscheidend für die Analyse von Quantensystemen mit sphärischer Symmetrie.",
+      "difficulty": 1,
+      "subcategory": "Ortsdarstellung & Eigenfunktionen (sphärische Harmonische)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Randwertprobleme & Energie in Dielektrika",
+      "question": "Was beschreibt das Randwertproblem in einem Dielektrikum?",
+      "choices": [
+        "A: Die Masse eines geladenen Teilchens.",
+        "B: Die Bewegung von Elektronen in einem Vakuum.",
+        "C: Die Verteilung der elektrischen Felder an den Grenzen zwischen verschiedenen Materialien.",
+        "D: Die Temperaturverteilung in einem festen Körper."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Randwertproblem in einem Dielektrikum bezieht sich auf die Analyse der elektrischen Felder an den Schnittstellen zwischen verschiedenen Materialien. Diese Probleme sind wichtig, um die Verteilung der elektrischen Felder und die Einflussnahme der Materialien auf die Energie zu verstehen.",
+      "difficulty": 4,
+      "subcategory": "Randwertprobleme & Energie in Dielektrika"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Spin-Bahn-Wechselwirkung",
+      "question": "Was beschreibt die Spin-Bahn-Wechselwirkung in der Quantenmechanik?",
+      "choices": [
+        "A: Die Wechselwirkung zwischen Teilchen und elektromagnetischen Feldern.",
+        "B: Die Beziehung zwischen Temperatur und kinetischer Energie von Teilchen.",
+        "C: Die Kraft, die zwischen zwei elektrisch geladenen Teilchen wirkt.",
+        "D: Die Wechselwirkung zwischen dem Spin eines Teilchens und seiner Bahnbewegung."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Spin-Bahn-Wechselwirkung beschreibt, wie der Spin eines Teilchens, wie z.B. eines Elektrons, mit seiner Bewegung im Raum interagiert. Diese Wechselwirkung hat wichtige Auswirkungen auf die Energiezustände von Atomen und spielt eine entscheidende Rolle in der Quantenmechanik und der Festkörperphysik.",
+      "difficulty": 3,
+      "subcategory": "Spin-Bahn-Wechselwirkung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Fourier-Reihen & -Integrale in der Wellenausbreitung",
+      "question": "Welche Aussage über Fourier-Reihen in der Wellenausbreitung ist korrekt?",
+      "choices": [
+        "A: Fourier-Reihen sind nur für sinusförmige Wellen anwendbar.",
+        "B: Fourier-Reihen erfordern immer eine endliche Anzahl an Harmonischen.",
+        "C: Fourier-Reihen können jede periodische Funktion darstellen.",
+        "D: Fourier-Reihen sind in der Elektrodynamik nicht relevant."
+      ],
+      "correct_answer": "C",
+      "explanation": "Fourier-Reihen sind ein mächtiges Werkzeug zur Darstellung von periodischen Funktionen als Summe von Sinus- und Kosinusfunktionen. Sie finden breite Anwendung in der Wellenausbreitung, da sie es ermöglichen, komplexe Wellenformen zu analysieren und zu synthetisieren.",
+      "difficulty": 5,
+      "subcategory": "Fourier-Reihen & -Integrale in der Wellenausbreitung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Zerlegungs- und Eindeutigkeitssatz (Vektoranalysis)",
+      "question": "Was besagt der Zerlegungs- und Eindeutigkeitssatz in der Vektoranalysis?",
+      "choices": [
+        "A: Jeder Vektor in einem Raum kann eindeutig als Summe aus einem divergenten und einem rotierenden Vektor zerlegt werden.",
+        "B: Jeder Vektor in einem Raum kann in zwei beliebige Richtungen zerlegt werden.",
+        "C: Der Zerlegungs- und Eindeutigkeitssatz gilt nur für konstante Vektorfelder.",
+        "D: Vektoren können nur in orthogonale Komponenten zerlegt werden."
+      ],
+      "correct_answer": "A",
+      "explanation": "Der Zerlegungs- und Eindeutigkeitssatz besagt, dass jeder Vektor in einem geeigneten Raum als Summe eines divergenten und eines rotierenden Vektors dargestellt werden kann. Diese Zerlegung ist eindeutig unter bestimmten Bedingungen, die die Vektorfelder betreffen.",
+      "difficulty": 5,
+      "subcategory": "Zerlegungs- und Eindeutigkeitssatz (Vektoranalysis)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Potentialbarrieren & -stufen",
+      "question": "Was beschreibt das Phänomen der Tunnelung in der Quantenmechanik im Zusammenhang mit Potentialbarrieren?",
+      "choices": [
+        "A: Teilchen können durch eine Potentialbarriere hindurch gelangen, obwohl sie nicht genug Energie haben, um sie zu überwinden.",
+        "B: Teilchen verlieren bei der Begegnung mit einer Potentialbarriere immer Energie.",
+        "C: Tunnelnde Teilchen verhalten sich wie klassische Teilchen und folgen den Gesetzen der klassischen Mechanik.",
+        "D: Die Wahrscheinlichkeit, dass ein Teilchen eine Potentialbarriere durchquert, ist unabhängig von ihrer Höhe."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Phänomen der Tunnelung besagt, dass Teilchen in der Quantenmechanik eine Wahrscheinlichkeit besitzen, eine Potentialbarriere zu durchdringen, auch wenn ihre Energie unterhalb der Höhe der Barriere liegt. Dies widerspricht den klassischen physikalischen Erwartungen und ist ein zentrales Konzept der Quantenmechanik.",
+      "difficulty": 7,
+      "subcategory": "Potentialbarrieren & -stufen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Auflösungsvermögen optischer Geräte",
+      "question": "Was beschreibt das Auflösungsvermögen eines optischen Geräts?",
+      "choices": [
+        "A: Die Fähigkeit, zwei nahe beieinander liegende Punkte als getrennt wahrzunehmen.",
+        "B: Die Farbtreue der abgebildeten Objekte.",
+        "C: Die Lichtmenge, die das Gerät verarbeiten kann.",
+        "D: Die maximale Vergrößerung, die ein Gerät erreichen kann."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Auflösungsvermögen ist ein Maß dafür, wie gut ein optisches Gerät zwei nahe beieinander liegende Punkte unterscheiden kann. Ein höheres Auflösungsvermögen ermöglicht eine schärfere und detailliertere Sicht auf Objekte.",
+      "difficulty": 5,
+      "subcategory": "Auflösungsvermögen optischer Geräte"
+    }
+  ]
+}
