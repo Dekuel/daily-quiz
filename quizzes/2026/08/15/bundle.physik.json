@@ -1,0 +1,169 @@
+{
+  "date": "2026-08-15",
+  "generated_at": "2026-08-15T03:33:47Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Temperaturbegriff (thermisches Gleichgewicht)",
+      "question": "Was beschreibt das thermische Gleichgewicht zwischen zwei Körpern?",
+      "choices": [
+        "A: Die Körper haben die gleiche Temperatur.",
+        "B: Die Körper sind aus dem gleichen Material.",
+        "C: Die Körper befinden sich im Vakuum.",
+        "D: Die Körper haben die gleiche Masse."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das thermische Gleichgewicht zwischen zwei Körpern bedeutet, dass sie die gleiche Temperatur haben und somit kein netto Temperaturgradient zwischen ihnen existiert. Dies führt dazu, dass kein Wärmeaustausch mehr stattfindet.",
+      "difficulty": 3,
+      "subcategory": "Temperaturbegriff (thermisches Gleichgewicht)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Zeitlich oszillierende Quellen",
+      "question": "Was beschreibt eine zeitlich oszillierende Quelle in der Elektrodynamik?",
+      "choices": [
+        "A: Eine Quelle, die Wärmeenergie produziert.",
+        "B: Eine Quelle, die elektrische und magnetische Felder variabel erzeugt.",
+        "C: Eine Quelle, die nur statische elektrische Felder erzeugt.",
+        "D: Eine Quelle, die Lichtstrahlen in gerader Linie abstrahlt."
+      ],
+      "correct_answer": "B",
+      "explanation": "Eine zeitlich oszillierende Quelle erzeugt elektrische und magnetische Felder, die sich mit der Zeit ändern. Diese Schwankungen sind charakteristisch für die Ausbreitung elektromagnetischer Wellen, wie sie beispielsweise in Antennen vorkommen.",
+      "difficulty": 2,
+      "subcategory": "Zeitlich oszillierende Quellen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Periodische Systeme & Winkelvariable",
+      "question": "Was beschreibt die Rückstellkraft in einem harmonischen Oszillator?",
+      "choices": [
+        "A: Sie ist nur bei sehr großen Auslenkungen relevant.",
+        "B: Sie ist unabhängig von der Auslenkung und konstant.",
+        "C: Sie ist proportional zur Auslenkung und wirkt in die entgegengesetzte Richtung.",
+        "D: Sie ist direkt proportional zur Geschwindigkeit des Oszillators."
+      ],
+      "correct_answer": "C",
+      "explanation": "Im harmonischen Oszillator ist die Rückstellkraft direkt proportional zur Auslenkung und wirkt immer in die entgegengesetzte Richtung. Dieses Prinzip ist grundlegend für das Verständnis periodischer Bewegungen in der Analytischen Mechanik.",
+      "difficulty": 5,
+      "subcategory": "Periodische Systeme & Winkelvariable"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Leerstellen",
+      "question": "Was ist eine Leerstelle in einem Kristallgitter?",
+      "choices": [
+        "A: Ein fehlendes Atom im Kristallgitter.",
+        "B: Ein zusätzlicher Platz für ein weiteres Atom im Gitter.",
+        "C: Ein Atom, das eine höhere Energie als seine Umgebung hat.",
+        "D: Ein Atom, das an der falschen Position im Gitter sitzt."
+      ],
+      "correct_answer": "A",
+      "explanation": "Eine Leerstelle ist ein Defekt im Kristallgitter, der entsteht, wenn ein Atom fehlt. Diese Defekte können die Eigenschaften des Materials beeinflussen, wie z.B. die elektrische Leitfähigkeit oder die Diffusion.",
+      "difficulty": 6,
+      "subcategory": "Leerstellen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Übergangswahrscheinlichkeit",
+      "question": "Was beschreibt die Übergangswahrscheinlichkeit in der Quantenmechanik?",
+      "choices": [
+        "A: Die Wahrscheinlichkeit, dass ein Teilchen vollständig beobachtet werden kann.",
+        "B: Die Wahrscheinlichkeit, dass ein Teilchen sich schneller als das Licht bewegt.",
+        "C: Die Wahrscheinlichkeit, dass ein Teilchen seine Masse ändert.",
+        "D: Die Wahrscheinlichkeit, dass ein Teilchen von einem Energiezustand in einen anderen wechselt."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Übergangswahrscheinlichkeit beschreibt, wie wahrscheinlich es ist, dass ein Quantensystem von einem bestimmten Energiezustand in einen anderen übergeht. Dies ist ein zentrales Konzept in der Quantenmechanik, insbesondere bei der Beschreibung von Atomübergängen und der Wechselwirkung von Teilchen.",
+      "difficulty": 4,
+      "subcategory": "Übergangswahrscheinlichkeit"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Quarkfamilien (CKM)",
+      "question": "Wie viele Quarkfamilien gibt es im Standardmodell der Teilchenphysik?",
+      "choices": [
+        "A: 3",
+        "B: 4",
+        "C: 2",
+        "D: 5"
+      ],
+      "correct_answer": "A",
+      "explanation": "Im Standardmodell der Teilchenphysik gibt es drei Quarkfamilien: die up- und down-Quarks, die charm- und strange-Quarks sowie die top- und bottom-Quarks. Diese Quarkfamilien sind grundlegend für den Aufbau der Materie im Universum.",
+      "difficulty": 1,
+      "subcategory": "Quarkfamilien (CKM)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Bauelemente auf p–n-Basis",
+      "question": "Was ist eine wichtige Eigenschaft eines p-n-Übergangs in Halbleitern?",
+      "choices": [
+        "A: Er sorgt für den gleichmäßigen Fluss von Elektronen und Löchern.",
+        "B: Er reflektiert Licht in alle Richtungen.",
+        "C: Er erhöht die Temperatur des Materials.",
+        "D: Er ermöglicht die Steuerung des elektrischen Stroms."
+      ],
+      "correct_answer": "D",
+      "explanation": "Ein p-n-Übergang ist entscheidend für die Funktion von Halbleiterbauelementen wie Dioden und Transistoren, da er die Kontrolle über den elektrischen Stromfluss ermöglicht. Durch die unterschiedlichen Ladungsträger (Elektronen und Löcher) im p- und n-Bereich können elektrische Ströme in spezifischen Richtungen geleitet werden.",
+      "difficulty": 5,
+      "subcategory": "Bauelemente auf p–n-Basis"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Freies Teilchen (3D)",
+      "question": "Was beschreibt die Wellenfunktion eines freien Teilchens in der Quantenmechanik?",
+      "choices": [
+        "A: Die Masse des Teilchens in Ruhe.",
+        "B: Die Wahrscheinlichkeit, das Teilchen an einem bestimmten Ort zu finden.",
+        "C: Die Geschwindigkeit des Teilchens zu einem bestimmten Zeitpunkt.",
+        "D: Die Temperatur des Teilchens."
+      ],
+      "correct_answer": "B",
+      "explanation": "In der Quantenmechanik beschreibt die Wellenfunktion die Wahrscheinlichkeit, ein Teilchen an einem bestimmten Ort zu finden. Sie ist ein zentrales Konzept zur Beschreibung des Verhaltens von Teilchen, insbesondere in der quantenmechanischen Beschreibung eines freien Teilchens.",
+      "difficulty": 4,
+      "subcategory": "Freies Teilchen (3D)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Mott‑Wirkungsquerschnitt",
+      "question": "Was beschreibt der Mott-Wirkungsquerschnitt in der Kern- und Teilchenphysik?",
+      "choices": [
+        "A: Die Wahrscheinlichkeit, dass ein Teilchen in einem bestimmten Bereich gestreut wird.",
+        "B: Die Geschwindigkeit, mit der Teilchen durch ein Medium reisen.",
+        "C: Die Anzahl der Teilchen in einer Probe.",
+        "D: Die Energie, die bei einer Kernspaltung freigesetzt wird."
+      ],
+      "correct_answer": "A",
+      "explanation": "Der Mott-Wirkungsquerschnitt beschreibt die Wahrscheinlichkeit, dass ein Teilchen in einem definierten Bereich gestreut wird, und ist besonders relevant in der Streuphysik. Er berücksichtigt auch die Wechselwirkungen zwischen den Teilchen, was ihn zu einem wichtigen Konzept in der Kern- und Teilchenphysik macht.",
+      "difficulty": 6,
+      "subcategory": "Mott‑Wirkungsquerschnitt"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Wellengleichung und Lösungen",
+      "question": "Welche der folgenden Gleichungen beschreibt die Ausbreitung einer harmonischen Welle im Vakuum?",
+      "choices": [
+        "A: y(x, t) = A * e^(kx) * cos(ωt)",
+        "B: y(x, t) = A * sin(kx - ωt)",
+        "C: y(x, t) = A * x^2 - ωt",
+        "D: y(x, t) = A * log(kx) * sin(ωt)"
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Gleichung A beschreibt die Ausbreitung einer harmonischen Welle, wobei A die Amplitude, k die Wellenzahl und ω die Kreisfrequenz ist. Sie zeigt, dass die Welle sowohl von der Position x als auch von der Zeit t abhängt und sinusförmig ist.",
+      "difficulty": 5,
+      "subcategory": "Wellengleichung und Lösungen"
+    }
+  ]
+}

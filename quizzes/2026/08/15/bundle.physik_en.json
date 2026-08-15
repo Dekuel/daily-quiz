@@ -1,0 +1,168 @@
+{
+  "date": "2026-08-15",
+  "generated_at": "2026-08-15T03:34:21Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Temperaturbegriff (thermisches Gleichgewicht)",
+      "question": "What describes the thermal equilibrium between two bodies?",
+      "choices": [
+        "A: The bodies have the same temperature.",
+        "B: The bodies are made of the same material.",
+        "C: The bodies are in a vacuum.",
+        "D: The bodies have the same mass."
+      ],
+      "correct_answer": "A",
+      "explanation": "Thermal equilibrium between two bodies means they have the same temperature, resulting in no net temperature gradient between them. This leads to no further heat exchange taking place.",
+      "difficulty": 3,
+      "subcategory": "Temperaturbegriff (thermisches Gleichgewicht)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Zeitlich oszillierende Quellen",
+      "question": "What describes a time-oscillating source in electrodynamics?",
+      "choices": [
+        "A: A source that produces heat energy.",
+        "B: A source that generates electric and magnetic fields variably.",
+        "C: A source that only produces static electric fields.",
+        "D: A source that emits light rays in a straight line."
+      ],
+      "correct_answer": "B",
+      "explanation": "A time-oscillating source generates electric and magnetic fields that change over time. These fluctuations are characteristic of the propagation of electromagnetic waves, as found in antennas for example.",
+      "difficulty": 2,
+      "subcategory": "Zeitlich oszillierende Quellen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Periodische Systeme & Winkelvariable",
+      "question": "What describes the restoring force in a harmonic oscillator?",
+      "choices": [
+        "A: It is only relevant for very large displacements.",
+        "B: It is independent of the displacement and constant.",
+        "C: It is proportional to the displacement and acts in the opposite direction.",
+        "D: It is directly proportional to the velocity of the oscillator."
+      ],
+      "correct_answer": "C",
+      "explanation": "In a harmonic oscillator, the restoring force is directly proportional to the displacement and always acts in the opposite direction. This principle is fundamental for understanding periodic motions in analytical mechanics.",
+      "difficulty": 5,
+      "subcategory": "Periodische Systeme & Winkelvariable"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Leerstellen",
+      "question": "What is a vacancy in a crystal lattice?",
+      "choices": [
+        "A: A missing atom in the crystal lattice.",
+        "B: An additional space for another atom in the lattice.",
+        "C: An atom with higher energy than its surroundings.",
+        "D: An atom sitting at the wrong position in the lattice."
+      ],
+      "correct_answer": "A",
+      "explanation": "A vacancy is a defect in the crystal lattice that occurs when an atom is missing. These defects can influence the properties of the material, such as electrical conductivity or diffusion.",
+      "difficulty": 6,
+      "subcategory": "Leerstellen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Übergangswahrscheinlichkeit",
+      "question": "What describes the transition probability in quantum mechanics?",
+      "choices": [
+        "A: The probability of fully observing a particle.",
+        "B: The probability of a particle moving faster than light.",
+        "C: The probability of a particle changing its mass.",
+        "D: The probability of a particle transitioning from one energy state to another."
+      ],
+      "correct_answer": "D",
+      "explanation": "The transition probability describes how likely a quantum system is to transition from one energy state to another. This is a central concept in quantum mechanics, especially in describing atomic transitions and particle interactions.",
+      "difficulty": 4,
+      "subcategory": "Übergangswahrscheinlichkeit"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Quarkfamilien (CKM)",
+      "question": "How many quark families are there in the Standard Model of particle physics?",
+      "choices": [
+        "A: 3",
+        "B: 4",
+        "C: 2",
+        "D: 5"
+      ],
+      "correct_answer": "A",
+      "explanation": "In the Standard Model of particle physics, there are three quark families: up and down quarks, charm and strange quarks, and top and bottom quarks. These quark families are fundamental for the structure of matter in the universe.",
+      "difficulty": 1,
+      "subcategory": "Quarkfamilien (CKM)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Bauelemente auf p–n-Basis",
+      "question": "What is an important property of a p-n junction in semiconductors?",
+      "choices": [
+        "A: It ensures the uniform flow of electrons and holes.",
+        "B: It reflects light in all directions.",
+        "C: It increases the temperature of the material.",
+        "D: It enables the control of electric current."
+      ],
+      "correct_answer": "D",
+      "explanation": "A p-n junction is crucial for the operation of semiconductor devices like diodes and transistors as it enables control over the flow of electric current. Due to the different charge carriers (electrons and holes) in the p and n regions, electric currents can be directed in specific directions.",
+      "difficulty": 5,
+      "subcategory": "Bauelemente auf p–n-Basis"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Freies Teilchen (3D)",
+      "question": "What describes the wave function of a free particle in quantum mechanics?",
+      "choices": [
+        "A: The mass of the particle at rest.",
+        "B: The probability of finding the particle at a specific location.",
+        "C: The velocity of the particle at a specific time.",
+        "D: The temperature of the particle."
+      ],
+      "correct_answer": "B",
+      "explanation": "In quantum mechanics, the wave function describes the probability of finding a particle at a specific location. It is a central concept for describing the behavior of particles, especially in the quantum mechanical description of a free particle.",
+      "difficulty": 4,
+      "subcategory": "Freies Teilchen (3D)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Mott‑Wirkungsquerschnitt",
+      "question": "What describes the Mott cross section in nuclear and particle physics?",
+      "choices": [
+        "A: The probability of a particle being scattered in a specific range.",
+        "B: The speed at which particles travel through a medium.",
+        "C: The number of particles in a sample.",
+        "D: The energy released in a nuclear fission."
+      ],
+      "correct_answer": "A",
+      "explanation": "The Mott cross section describes the probability of a particle being scattered in a defined range and is particularly relevant in scattering physics. It also considers the interactions between particles, making it an important concept in nuclear and particle physics.",
+      "difficulty": 6,
+      "subcategory": "Mott‑Wirkungsquerschnitt"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Wellengleichung und Lösungen",
+      "question": "Which of the following equations describes the propagation of a harmonic wave in a vacuum?",
+      "choices": [
+        "A: y(x, t) = A * e^(kx) * cos(ωt)",
+        "B: y(x, t) = A * sin(kx - ωt)",
+        "C: y(x, t) = A * x^2 - ωt",
+        "D: y(x, t) = A * log(kx) * sin(ωt)"
+      ],
+      "correct_answer": "B",
+      "explanation": "Equation A describes the propagation of a harmonic wave, where A is the amplitude, k is the wave number, and ω is the angular frequency. It shows that the wave depends on both the position x and time t and is sinusoidal.",
+      "difficulty": 5,
+      "subcategory": "Wellengleichung und Lösungen"
+    }
+  ]
+}
