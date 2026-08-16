@@ -1,0 +1,168 @@
+{
+  "date": "2026-08-16",
+  "generated_at": "2026-08-16T03:43:33Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Coulomb-Potential (Wasserstoffatom): Energiespektrum",
+      "question": "Which of the following energy levels does the hydrogen atom have in its ground state?",
+      "choices": [
+        "A: 0 eV",
+        "B: 13.6 eV",
+        "C: -13.6 eV",
+        "D: -3.4 eV"
+      ],
+      "correct_answer": "C",
+      "explanation": "In the hydrogen atom, the energy level in the ground state corresponds to an energy of -13.6 eV. This negative energy describes the bound state of the electron moving around the atomic nucleus.",
+      "difficulty": 4,
+      "subcategory": "Coulomb-Potential (Wasserstoffatom): Energiespektrum"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Entropie als Zustandsgröße",
+      "question": "What does entropy describe in a thermodynamic system?",
+      "choices": [
+        "A: The pressure present in the system.",
+        "B: The disorder or randomness of particle arrangement.",
+        "C: The temperature of the system.",
+        "D: The total energy of the system."
+      ],
+      "correct_answer": "B",
+      "explanation": "Entropy is a measure of the disorder or randomness within a thermodynamic system. A higher entropy value means that the particles in the system are more disordered, often associated with an increase in temperature and energy.",
+      "difficulty": 4,
+      "subcategory": "Entropie als Zustandsgröße"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Vektorpotential",
+      "question": "What does the vector potential describe in electrodynamics?",
+      "choices": [
+        "A: It describes the electric field strength.",
+        "B: It is an auxiliary field used to calculate the magnetic field.",
+        "C: It describes the motion of charged particles.",
+        "D: It is the source of the electric field."
+      ],
+      "correct_answer": "B",
+      "explanation": "The vector potential is a mathematical tool in electrodynamics used to calculate the magnetic field. It is crucial as the magnetic field can be represented as the gradient of the vector potential. The vector potential itself has no physical significance but aids in calculations in electrodynamics.",
+      "difficulty": 5,
+      "subcategory": "Vektorpotential"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Optische Phononen in Ionenkristallen",
+      "question": "What are optical phonons in ionic crystals?",
+      "choices": [
+        "A: Particles consisting of protons and neutrons.",
+        "B: Vibrations of atoms in a crystal lattice generating electromagnetic waves.",
+        "C: A type of crystal defect.",
+        "D: Electrons moving through the crystal."
+      ],
+      "correct_answer": "B",
+      "explanation": "Optical phonons are quantized vibrations of atoms in a crystal lattice that can generate electromagnetic waves. They play a significant role in solid-state physics, especially in the interaction of light with matter.",
+      "difficulty": 2,
+      "subcategory": "Optische Phononen in Ionenkristallen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Phonon-Polaritonen",
+      "question": "What does the concept of phonon-polaritons in solids describe?",
+      "choices": [
+        "A: The coupling of optical phonons and electromagnetic fields.",
+        "B: The interaction between light and acoustic phonons.",
+        "C: The motion of electrons in a crystal lattice.",
+        "D: The thermal properties of superconducting materials."
+      ],
+      "correct_answer": "A",
+      "explanation": "Phonon-polaritons are quasiparticle excitations arising from the coupling of optical phonons and electromagnetic waves. They are crucial in solid-state physics, particularly in analyzing material properties and developing optoelectronic devices.",
+      "difficulty": 7,
+      "subcategory": "Phonon-Polaritonen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Lorentz-Kraft in Vierervektorform",
+      "question": "Which of the following statements correctly describes the Lorentz force in four-vector form?",
+      "choices": [
+        "A: The Lorentz force can only be considered in a static electromagnetic field.",
+        "B: The four-vector of the Lorentz force remains constant in all inertial systems.",
+        "C: The Lorentz force is independent of relativity theory and applies only to classical motions.",
+        "D: The four-vector of the Lorentz force is directly proportional to the product of the four-velocity vector and the four-vector of the electromagnetic field."
+      ],
+      "correct_answer": "D",
+      "explanation": "The Lorentz force in four-vector form describes the interaction between moving charges and electromagnetic fields. It is directly proportional to the product of the four-velocity vector and the four-vector of the electromagnetic field, which is central in relativity theory.",
+      "difficulty": 7,
+      "subcategory": "Lorentz-Kraft in Vierervektorform"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Härte von Festkörpern",
+      "question": "Which material is generally considered the hardest natural material?",
+      "choices": [
+        "A: Diamond",
+        "B: Glass",
+        "C: Steel",
+        "D: Quartz"
+      ],
+      "correct_answer": "A",
+      "explanation": "Diamond is the hardest known natural material due to its cubic crystal structure and strong covalent bonds between carbon atoms. This makes it highly resistant to scratches and other mechanical impacts.",
+      "difficulty": 6,
+      "subcategory": "Härte von Festkörpern"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Feldstärke-Tensor (Fμν)",
+      "question": "What does the field strength tensor (Fμν) describe in relativity theory?",
+      "choices": [
+        "A: The motion of particles in an electric field.",
+        "B: The gravitational force between two massive objects.",
+        "C: The electromagnetic fields in a spacetime continuum.",
+        "D: The energy of a stationary body."
+      ],
+      "correct_answer": "C",
+      "explanation": "The field strength tensor (Fμν) describes the electromagnetic fields in spacetime by representing the electric and magnetic field strengths in a unified form. It is a fundamental concept in the relativistic description of electromagnetism, coupling the interactions between electric and magnetic fields.",
+      "difficulty": 3,
+      "subcategory": "Feldstärke-Tensor (Fμν)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Beugung am Doppelspalt",
+      "question": "What happens when light passes through a double slit?",
+      "choices": [
+        "A: The light is only shadowed.",
+        "B: The light is completely reflected.",
+        "C: There is no change in the light.",
+        "D: An interference pattern is formed."
+      ],
+      "correct_answer": "D",
+      "explanation": "When light passes through a double slit, the waves interfere, creating a characteristic pattern of bright and dark stripes on a screen. This interference pattern is evidence of the wave-like nature of light.",
+      "difficulty": 2,
+      "subcategory": "Beugung am Doppelspalt"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Paritätsverletzung",
+      "question": "What does parity violation describe in nuclear and particle physics?",
+      "choices": [
+        "A: The interaction between electrons and photons.",
+        "B: The symmetry of physical processes under spatial coordinate reversal.",
+        "C: The stability of atomic nuclei under different conditions.",
+        "D: The conservation of energy in closed systems."
+      ],
+      "correct_answer": "B",
+      "explanation": "Parity violation refers to the fact that certain physical processes are not invariant when the spatial coordinates are mirrored. This was first discovered in relation to weak interactions, where the parity symmetry is not preserved.",
+      "difficulty": 3,
+      "subcategory": "Paritätsverletzung"
+    }
+  ]
+}
