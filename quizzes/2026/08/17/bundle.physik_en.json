@@ -1,0 +1,168 @@
+{
+  "date": "2026-08-17",
+  "generated_at": "2026-08-17T03:45:34Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Green’sche Sätze",
+      "question": "Which of the following sentences is an example of one of Green's theorems in electrodynamics?",
+      "choices": [
+        "A: Green's theorem on the relationship between line integrals and surface integrals.",
+        "B: Ampère's theorem on magnetic induction.",
+        "C: Gauss's theorem on the electric field.",
+        "D: Stokes's theorem on the relationship between surface and line integrals."
+      ],
+      "correct_answer": "A",
+      "explanation": "The theorem of Green establishes an important relationship between the line integral of a vector field along a closed path and the surface integral over the area enclosed by this path. In electrodynamics, this theorem is relevant for the analysis of electric and magnetic fields.",
+      "difficulty": 5,
+      "subcategory": "Green’sche Sätze"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Clebsch–Gordan-Koeffizienten",
+      "question": "What do the Clebsch–Gordan coefficients describe in quantum mechanics?",
+      "choices": [
+        "A: The combination of spin states of two particles.",
+        "B: The energy levels of an electron in an atom.",
+        "C: The speed of light in different media.",
+        "D: The transformation of coordinates in classical mechanics."
+      ],
+      "correct_answer": "A",
+      "explanation": "The Clebsch–Gordan coefficients are mathematical coefficients used to determine the results of adding angular momenta in quantum mechanics. They play a crucial role in combining spin states of particles.",
+      "difficulty": 5,
+      "subcategory": "Clebsch–Gordan-Koeffizienten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Goldene Regel (Fermi)",
+      "question": "Which of the following scenarios correctly describes the application of Fermi's Golden Rule in nuclear and particle physics?",
+      "choices": [
+        "A: The lifetime of unstable particles is constant and independent of external influences.",
+        "B: The probability of a transition between two states is proportional to the density of final states and the square of the matrix elements.",
+        "C: The interaction between nuclear spins is the main factor in determining reaction cross-sections.",
+        "D: Energy conservation is enforced in every nuclear reaction process, regardless of the particles involved."
+      ],
+      "correct_answer": "B",
+      "explanation": "Fermi's Golden Rule describes the transition probability between quantum states and emphasizes the role of the density of final states and matrix elements. This is a central concept in nuclear and particle physics enabling the calculation of reaction rates and cross-sections.",
+      "difficulty": 10,
+      "subcategory": "Goldene Regel (Fermi)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Bose–Einstein-Kondensation (BEC)",
+      "question": "What does Bose-Einstein condensation (BEC) describe in quantum mechanics?",
+      "choices": [
+        "A: The formation of black holes.",
+        "B: The conversion of light into matter.",
+        "C: The interaction between electrons and photons.",
+        "D: The formation of a new state of matter at low temperatures."
+      ],
+      "correct_answer": "D",
+      "explanation": "Bose-Einstein condensation describes a state where bosons transition into a common quantum state at extremely low temperatures. This leads to unusual quantum mechanical properties not present in classical physics.",
+      "difficulty": 5,
+      "subcategory": "Bose–Einstein-Kondensation (BEC)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Anwendungen: Reaktionen, kritische Dynamik",
+      "question": "What does the critical point in a phase transition describe?",
+      "choices": [
+        "A: The state where the kinetic energy of particles is maximal.",
+        "B: The point where a chemical reaction completes entirely.",
+        "C: The temperature and pressure point where the properties of liquid and gas are identical.",
+        "D: The state where phases coexist."
+      ],
+      "correct_answer": "C",
+      "explanation": "The critical point is a state in the phase diagram where the properties of the liquid and gas become identical. At this point, the substance can no longer exist as a separate gas or liquid but is in a supercritical state.",
+      "difficulty": 4,
+      "subcategory": "Anwendungen: Reaktionen, kritische Dynamik"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Absorption von Licht",
+      "question": "What happens to light when it hits a black object?",
+      "choices": [
+        "A: The light is reflected.",
+        "B: The light is transmitted.",
+        "C: The light is absorbed.",
+        "D: The light is scattered."
+      ],
+      "correct_answer": "C",
+      "explanation": "A black object absorbs the light that hits it and converts it into heat. This is why black surfaces quickly warm up in the sun.",
+      "difficulty": 4,
+      "subcategory": "Absorption von Licht"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Geometrische Interpretation von Phasenübergängen",
+      "question": "Which diagram is commonly used to illustrate phase transitions in thermodynamics?",
+      "choices": [
+        "A: Force-distance diagram",
+        "B: Velocity-time diagram",
+        "C: Phase diagram",
+        "D: Energy-time diagram"
+      ],
+      "correct_answer": "C",
+      "explanation": "A phase diagram shows the different phases of a substance depending on pressure and temperature, illustrating the conditions under which phase transitions like melting and vaporization occur. It is a central tool in thermodynamics for analyzing substance behavior under different conditions.",
+      "difficulty": 5,
+      "subcategory": "Geometrische Interpretation von Phasenübergängen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Adiabaten und Isothermen (Prozesse)",
+      "question": "What characterizes an isothermal process in thermodynamics?",
+      "choices": [
+        "A: The temperature remains constant.",
+        "B: The pressure remains constant.",
+        "C: No heat transfer occurs.",
+        "D: The volume remains constant."
+      ],
+      "correct_answer": "A",
+      "explanation": "An isothermal process is characterized by a constant temperature. In this process, the system can perform work or have work done on it while the temperature remains constant, meaning heat is added or removed to maintain the temperature constant.",
+      "difficulty": 3,
+      "subcategory": "Adiabaten und Isothermen (Prozesse)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Maxwell-Verteilung & barometrische Höhenformel",
+      "question": "Which of the following statements best describes the Maxwell distribution?",
+      "choices": [
+        "A: It describes the energy distribution of photons in a vacuum.",
+        "B: It describes the temperature distribution in a physical system.",
+        "C: It describes the velocity distribution of particles in an ideal gas.",
+        "D: It describes the pressure distribution in a solid."
+      ],
+      "correct_answer": "C",
+      "explanation": "The Maxwell distribution is a statistical distribution describing the velocity distribution of particles in an ideal gas. It is important for understanding the thermodynamic properties of gases and kinetic theory of gases.",
+      "difficulty": 3,
+      "subcategory": "Maxwell-Verteilung & barometrische Höhenformel"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Unterscheidbare Teilchen: Produktraum & Observable",
+      "question": "What does the product space in quantum mechanics for distinguishable particles describe?",
+      "choices": [
+        "A: The interactions between particles.",
+        "B: The energy states of a single particle.",
+        "C: The entire Hilbert space structure for the particles.",
+        "D: The time evolution of a single particle."
+      ],
+      "correct_answer": "C",
+      "explanation": "The product space in quantum mechanics is the Hilbert space describing the states of multiple distinguishable particles. It allows for analyzing the common states and their properties, especially concerning observable quantities and interactions between the particles.",
+      "difficulty": 6,
+      "subcategory": "Unterscheidbare Teilchen: Produktraum & Observable"
+    }
+  ]
+}
