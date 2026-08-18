@@ -1,0 +1,168 @@
+{
+  "date": "2026-08-18",
+  "generated_at": "2026-08-18T03:40:14Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Einfache Anwendungen der Lagrange-Gleichungen",
+      "question": "What does the Lagrange equation describe in analytical mechanics?",
+      "choices": [
+        "A: The conservation of energy in a closed system.",
+        "B: The relationship between velocity and acceleration.",
+        "C: The interaction between electric charges.",
+        "D: The motion of a system depending on its generalized coordinates and the forces."
+      ],
+      "correct_answer": "D",
+      "explanation": "The Lagrange equation describes the motion of a system using generalized coordinates and the forces acting on the system. It allows for deriving the equations of motion without directly considering the forces, which facilitates the analysis of complex systems.",
+      "difficulty": 5,
+      "subcategory": "Einfache Anwendungen der Lagrange-Gleichungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Grenzflächen & Haftspannung",
+      "question": "What does the term 'adhesive stress' describe in classical mechanics?",
+      "choices": [
+        "A: The stress caused by temperature changes in a material.",
+        "B: The stress that arises at the interface between two different materials.",
+        "C: The stress occurring in a solid body during deformation.",
+        "D: The stress resulting from the gravitational force of a body in free fall."
+      ],
+      "correct_answer": "B",
+      "explanation": "Adhesive stress is a physical concept that describes interactions at the interface between two materials. This stress is crucial for understanding phenomena like adhesion and surface effects in classical mechanics.",
+      "difficulty": 5,
+      "subcategory": "Grenzflächen & Haftspannung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Resonanzstreuung",
+      "question": "What does the term 'resonance scattering' describe in quantum mechanics?",
+      "choices": [
+        "A: The scattering of photons in a magnetic field.",
+        "B: The process where particles decay due to thermal effects.",
+        "C: The interaction of particles at specific energies leading to increased scattering probability.",
+        "D: The deflection of electrons by gravitational fields."
+      ],
+      "correct_answer": "C",
+      "explanation": "Resonance scattering refers to the increased probability of particles interacting at specific energy frequencies. This typically occurs when the energy of the incident particles resonates with the energy levels of the scattered particle.",
+      "difficulty": 6,
+      "subcategory": "Resonanzstreuung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Zeitdilatation",
+      "question": "What does the concept of time dilation describe in relativity theory?",
+      "choices": [
+        "A: Time passes slower for rapidly moving objects compared to stationary objects.",
+        "B: Time is always the same for all observers.",
+        "C: Time cannot be influenced.",
+        "D: Time passes faster near massive objects."
+      ],
+      "correct_answer": "A",
+      "explanation": "Time dilation states that time passes differently for objects moving relative to each other. In particular, time passes slower for rapidly moving objects compared to stationary observers. This phenomenon has been confirmed through various experiments and is a central concept of special relativity theory.",
+      "difficulty": 5,
+      "subcategory": "Zeitdilatation"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Kovalente Bindung",
+      "question": "Which of the following statements best describes the properties of covalent bonds?",
+      "choices": [
+        "A: Covalent bonds are formed by sharing electrons between atoms.",
+        "B: Covalent bonds are formed by transferring electrons from one atom to another.",
+        "C: Covalent bonds are always weaker than ionic bonds.",
+        "D: Covalent bonds only occur between metals."
+      ],
+      "correct_answer": "A",
+      "explanation": "Covalent bonds form when atoms share electrons to achieve a more stable electron configuration. This type of bonding is characteristic of nonmetals and leads to molecules or network structures in solids. Compared to ionic bonds, covalent bonds are often stable but not always weaker.",
+      "difficulty": 6,
+      "subcategory": "Kovalente Bindung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Legendre-Transformation",
+      "question": "Which of the following statements correctly describes the role of the Legendre transformation in statistical mechanics?",
+      "choices": [
+        "A: It is a method for calculating the density of an ideal gas.",
+        "B: It is used to analyze the symmetry of physical systems.",
+        "C: It describes the time evolution of a system in quantum mechanics.",
+        "D: It enables the transition between different thermodynamic potentials."
+      ],
+      "correct_answer": "D",
+      "explanation": "The Legendre transformation is an important mathematical tool in statistical mechanics that allows for switching between different thermodynamic potentials such as the Helmholtz and Gibbs potentials. This is particularly useful when considering different state variables (e.g., temperature and entropy).",
+      "difficulty": 6,
+      "subcategory": "Legendre-Transformation"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Ortsdarstellung (Hermite-Polynome)",
+      "question": "Which of these polynomials is the first Hermite polynomial?",
+      "choices": [
+        "A: x^2",
+        "B: x",
+        "C: 1",
+        "D: x^3"
+      ],
+      "correct_answer": "C",
+      "explanation": "The first Hermite polynomial is the constant polynomial 1. Hermite polynomials are a family of orthogonal polynomials that play an important role in quantum mechanics, especially in position representation.",
+      "difficulty": 2,
+      "subcategory": "Ortsdarstellung (Hermite-Polynome)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Natürliche Zustandsvariablen (U, H, F, G)",
+      "question": "Which of the following quantities refers to the internal energy of a system?",
+      "choices": [
+        "A: F",
+        "B: G",
+        "C: U",
+        "D: H"
+      ],
+      "correct_answer": "C",
+      "explanation": "The internal energy (U) is a fundamental state variable in thermodynamics that describes the total energy of a system. In contrast, there are the enthalpy (H), Helmholtz free energy (F), and Gibbs free energy (G), each representing different thermodynamic properties.",
+      "difficulty": 3,
+      "subcategory": "Natürliche Zustandsvariablen (U, H, F, G)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Beugung am langen Spalt",
+      "question": "What does the diffraction of light at a long slit describe?",
+      "choices": [
+        "A: Light is completely reflected.",
+        "B: Light is diffracted into wavefronts around the slit.",
+        "C: Light is separated into different colors.",
+        "D: Light propagates straight after the slit."
+      ],
+      "correct_answer": "B",
+      "explanation": "Diffraction at a long slit occurs when light passes by a slit and spreads out into wavefronts behind the slit. This deviation leads to a characteristic pattern created by the interference of waves.",
+      "difficulty": 4,
+      "subcategory": "Beugung am langen Spalt"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Fabry–Perot-Interferometer (Vielfachinterferenzen)",
+      "question": "What does a Fabry–Perot interferometer do?",
+      "choices": [
+        "A: It reflects light beams in all directions.",
+        "B: It measures the temperature of objects.",
+        "C: It converts light into electrical energy.",
+        "D: It amplifies certain wavelengths through constructive interference."
+      ],
+      "correct_answer": "D",
+      "explanation": "A Fabry–Perot interferometer uses two parallel mirrors to reflect light beams multiple times. This enhances certain wavelengths while canceling out others, resulting in an interference pattern.",
+      "difficulty": 6,
+      "subcategory": "Fabry–Perot-Interferometer (Vielfachinterferenzen)"
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "date": "2026-08-18",
+  "generated_at": "2026-08-18T03:39:41Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Einfache Anwendungen der Lagrange-Gleichungen",
+      "question": "Was beschreibt die Lagrange-Gleichung in der analytischen Mechanik?",
+      "choices": [
+        "A: Die Energieerhaltung in einem geschlossenen System.",
+        "B: Den Zusammenhang zwischen Geschwindigkeit und Beschleunigung.",
+        "C: Die Wechselwirkung zwischen elektrischen Ladungen.",
+        "D: Die Bewegung eines Systems in Abhängigkeit von seinen Generalisierten Koordinaten und den Kräften."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Lagrange-Gleichung beschreibt die Bewegung eines Systems mithilfe der generalisierten Koordinaten und der Kräfte, die auf das System wirken. Sie ermöglicht die Ableitung der Bewegungsgleichungen ohne die direkten Kräfte zu berücksichtigen, was die Analyse komplexer Systeme erleichtert.",
+      "difficulty": 5,
+      "subcategory": "Einfache Anwendungen der Lagrange-Gleichungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Grenzflächen & Haftspannung",
+      "question": "Was beschreibt der Begriff 'Haftspannung' in der klassischen Mechanik?",
+      "choices": [
+        "A: Die Spannung, die durch Temperaturänderungen in einem Material verursacht wird.",
+        "B: Die Spannung, die an der Grenzfläche zwischen zwei verschiedenen Materialien entsteht.",
+        "C: Die Spannung, die in einem festen Körper bei Deformation auftritt.",
+        "D: Die Spannung, die aufgrund der Gewichtskraft eines Körpers im freien Fall entsteht."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Haftspannung ist ein physikalisches Konzept, das die Wechselwirkungen an der Grenzfläche zwischen zwei Materialien beschreibt. Diese Spannung ist entscheidend für das Verständnis von Phänomenen wie Adhäsion und Oberflächeneffekten in der klassischen Mechanik.",
+      "difficulty": 5,
+      "subcategory": "Grenzflächen & Haftspannung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Resonanzstreuung",
+      "question": "Was beschreibt der Begriff 'Resonanzstreuung' in der Quantenmechanik?",
+      "choices": [
+        "A: Die Streuung von Photonen an einem magnetischen Feld.",
+        "B: Der Prozess, bei dem Teilchen aufgrund von thermischen Effekten zerfallen.",
+        "C: Die Wechselwirkung von Teilchen bei spezifischen Energien, die zu einer erhöhten Streuwahrscheinlichkeit führt.",
+        "D: Die Ablenkung von Elektronen durch gravitative Felder."
+      ],
+      "correct_answer": "C",
+      "explanation": "Resonanzstreuung bezieht sich auf die erhöhte Wahrscheinlichkeit, dass Teilchen bei bestimmten Energiefrequenzen miteinander wechselwirken. Dies geschieht typischerweise, wenn die Energie der einfallenden Teilchen in Resonanz mit den Energieniveaus des gestoßenen Teilchens ist.",
+      "difficulty": 6,
+      "subcategory": "Resonanzstreuung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Zeitdilatation",
+      "question": "Was beschreibt das Konzept der Zeitdilatation in der Relativitätstheorie?",
+      "choices": [
+        "A: Die Zeit vergeht langsamer für sich schnell bewegende Objekte im Vergleich zu ruhenden Objekten.",
+        "B: Die Zeit ist für alle Beobachter immer gleich.",
+        "C: Die Zeit kann nicht beeinflusst werden.",
+        "D: Die Zeit vergeht schneller in der Nähe von massiven Objekten."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Zeitdilatation besagt, dass die Zeit für Objekte, die sich relativ zueinander bewegen, unterschiedlich vergeht. Insbesondere vergeht die Zeit für sich schnell bewegende Objekte langsamer im Vergleich zu ruhenden Beobachtern. Dieses Phänomen wurde durch verschiedene Experimente bestätigt und ist ein zentrales Konzept der speziellen Relativitätstheorie.",
+      "difficulty": 5,
+      "subcategory": "Zeitdilatation"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Kovalente Bindung",
+      "question": "Welche der folgenden Aussagen beschreibt am besten die Eigenschaften von kovalenten Bindungen?",
+      "choices": [
+        "A: Kovalente Bindungen entstehen durch das Teilen von Elektronen zwischen Atomen.",
+        "B: Kovalente Bindungen entstehen durch die Übertragung von Elektronen von einem Atom auf ein anderes.",
+        "C: Kovalente Bindungen sind immer schwächer als ionische Bindungen.",
+        "D: Kovalente Bindungen finden nur zwischen Metallen statt."
+      ],
+      "correct_answer": "A",
+      "explanation": "Kovalente Bindungen entstehen, wenn Atome Elektronen teilen, um eine stabilere Elektronenkonfiguration zu erreichen. Diese Art von Bindung ist charakteristisch für Nichtmetalle und führt zu Molekülen oder Netzwerkstrukturen in Festkörpern. Im Vergleich zu ionischen Bindungen sind kovalente Bindungen oft stabil, aber nicht immer schwächer.",
+      "difficulty": 6,
+      "subcategory": "Kovalente Bindung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Legendre-Transformation",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt die Rolle der Legendre-Transformation in der statistischen Mechanik?",
+      "choices": [
+        "A: Sie ist ein Verfahren zur Berechnung der Dichte eines idealen Gases.",
+        "B: Sie wird verwendet, um die Symmetrie von physikalischen Systemen zu analysieren.",
+        "C: Sie beschreibt die Zeitentwicklung eines Systems in der Quantenmechanik.",
+        "D: Sie ermöglicht den Wechsel zwischen verschiedenen thermodynamischen Potentialen."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Legendre-Transformation ist ein wichtiges mathematisches Werkzeug in der statistischen Mechanik, das es ermöglicht, zwischen verschiedenen thermodynamischen Potentialen wie dem Helmholtz- und dem Gibbs-Potential zu wechseln. Dies ist besonders nützlich, wenn man unterschiedliche Zustandsgrößen (z.B. Temperatur und Entropie) betrachten möchte.",
+      "difficulty": 6,
+      "subcategory": "Legendre-Transformation"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Ortsdarstellung (Hermite-Polynome)",
+      "question": "Welches dieser Polynome ist das erste Hermite-Polynom?",
+      "choices": [
+        "A: x^2",
+        "B: x",
+        "C: 1",
+        "D: x^3"
+      ],
+      "correct_answer": "C",
+      "explanation": "Das erste Hermite-Polynom ist das konstante Polynom 1. Hermite-Polynome sind eine Familie von orthogonalen Polynomen, die in der Quantenmechanik, besonders in der Ortsdarstellung, eine wichtige Rolle spielen.",
+      "difficulty": 2,
+      "subcategory": "Ortsdarstellung (Hermite-Polynome)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Natürliche Zustandsvariablen (U, H, F, G)",
+      "question": "Welche der folgenden Größen bezeichnet die innere Energie eines Systems?",
+      "choices": [
+        "A: F",
+        "B: G",
+        "C: U",
+        "D: H"
+      ],
+      "correct_answer": "C",
+      "explanation": "Die innere Energie (U) ist eine fundamentale Zustandsgröße in der Thermodynamik, die die gesamte Energie eines Systems beschreibt. Im Gegensatz dazu stehen die Enthalpie (H), die Helmholtz-Freie Energie (F) und die Gibbs-Freie Energie (G), die jeweils andere thermodynamische Eigenschaften darstellen.",
+      "difficulty": 3,
+      "subcategory": "Natürliche Zustandsvariablen (U, H, F, G)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Beugung am langen Spalt",
+      "question": "Was beschreibt die Beugung von Licht an einem langen Spalt?",
+      "choices": [
+        "A: Licht wird vollständig reflektiert.",
+        "B: Licht wird in Wellenfronten um den Spalt herum abgelenkt.",
+        "C: Licht wird in verschiedene Farben zerlegt.",
+        "D: Licht breitet sich nach dem Spalt geradlinig aus."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Beugung am langen Spalt tritt auf, wenn Licht an einem Spalt vorbeifließt und sich hinter dem Spalt in Wellenfronten ausbreitet. Diese Ablenkung führt zu einem charakteristischen Muster, das durch die Interferenz der Wellen entsteht.",
+      "difficulty": 4,
+      "subcategory": "Beugung am langen Spalt"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Fabry–Perot-Interferometer (Vielfachinterferenzen)",
+      "question": "Was beschreibt die Funktion eines Fabry–Perot-Interferometers?",
+      "choices": [
+        "A: Es reflektiert Lichtstrahlen in alle Richtungen.",
+        "B: Es misst die Temperatur von Objekten.",
+        "C: Es wandelt Licht in elektrische Energie um.",
+        "D: Es verstärkt bestimmte Wellenlängen durch konstruktive Interferenz."
+      ],
+      "correct_answer": "D",
+      "explanation": "Ein Fabry–Perot-Interferometer nutzt zwei parallele Spiegel, um Lichtstrahlen mehrfach zu reflektieren. Dadurch werden bestimmte Wellenlängen verstärkt, während andere ausgelöscht werden, was zu einem Interferenzmuster führt.",
+      "difficulty": 6,
+      "subcategory": "Fabry–Perot-Interferometer (Vielfachinterferenzen)"
+    }
+  ]
+}
