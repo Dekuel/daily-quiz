@@ -1,0 +1,168 @@
+{
+  "date": "2026-08-19",
+  "generated_at": "2026-08-19T03:42:12Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Prinzip der kleinsten Wirkung",
+      "question": "What does the principle of least action state in analytical mechanics?",
+      "choices": [
+        "A: The path a particle takes is the one that minimizes the action.",
+        "B: The energy of a system always remains the same.",
+        "C: The velocity of a particle remains constant.",
+        "D: The force is always proportional to the acceleration."
+      ],
+      "correct_answer": "A",
+      "explanation": "The principle of least action states that the physical motions of systems take the path that minimizes the action. This means that the actual path a particle takes is the one that minimizes the integrated action over time.",
+      "difficulty": 4,
+      "subcategory": "Prinzip der kleinsten Wirkung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Relativistischer Impuls, Energie und Kraft",
+      "question": "What describes the relativistic energy of an object moving at nearly the speed of light?",
+      "choices": [
+        "A: E = mgh",
+        "B: E = ½ mv²",
+        "C: E = mc²",
+        "D: E = p²/2m"
+      ],
+      "correct_answer": "C",
+      "explanation": "Relativistic energy is described by the formula E = mc², where m is the rest mass. This formula also applies to objects moving at a significant fraction of the speed of light and accounts for the increase in energy with velocity.",
+      "difficulty": 6,
+      "subcategory": "Relativistischer Impuls, Energie und Kraft"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Eigenzeit und Weltgeschwindigkeit",
+      "question": "What describes proper time in relativity theory?",
+      "choices": [
+        "A: The time that elapses for an external observer.",
+        "B: The time measured by an observer in their own reference frame.",
+        "C: The time that passes at the speed of light.",
+        "D: The time that elapses during free fall."
+      ],
+      "correct_answer": "B",
+      "explanation": "Proper time is the time experienced by an observer in their own frame of motion. It differs from the time measured by a stationary observer in another reference frame, especially at relativistic speeds.",
+      "difficulty": 4,
+      "subcategory": "Eigenzeit und Weltgeschwindigkeit"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Eigenwertspektrum (diskret/kontinuierlich)",
+      "question": "What describes a discrete eigenvalue spectrum in quantum mechanics?",
+      "choices": [
+        "A: Energy can only exist in the form of light quanta.",
+        "B: There is only a finite number of possible energy levels.",
+        "C: There are no energy levels, only a continuous flow of energy.",
+        "D: All energy levels are continuous and infinite."
+      ],
+      "correct_answer": "B",
+      "explanation": "A discrete eigenvalue spectrum means that the system can only assume certain clearly defined energy levels. This is typical for bound systems, such as electrons in an atom, where energy levels are quantized.",
+      "difficulty": 2,
+      "subcategory": "Eigenwertspektrum (diskret/kontinuierlich)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Stoßquerschnitt & mittlere freie Weglänge",
+      "question": "Which of the following factors directly influences the cross-section in a gas?",
+      "choices": [
+        "A: The temperature of the gas",
+        "B: The type of molecules",
+        "C: The velocity of the molecules",
+        "D: The pressure of the gas"
+      ],
+      "correct_answer": "A",
+      "explanation": "The cross-section is temperature-dependent, as higher temperature increases the kinetic energy of molecules, thus increasing the likelihood of collisions. While pressure and velocity also play a role, the temperature factor is crucial for changing the cross-section in a gas.",
+      "difficulty": 9,
+      "subcategory": "Stoßquerschnitt & mittlere freie Weglänge"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Integrale der Bewegung & Involution",
+      "question": "What describes the integral of motion in analytical mechanics?",
+      "choices": [
+        "A: The conservation of energy or momentum in a system.",
+        "B: The mass of a body at rest.",
+        "C: The temperature of a system.",
+        "D: The velocity of a body at a specific time."
+      ],
+      "correct_answer": "A",
+      "explanation": "The integral of motion refers to the conservation laws in a physical system, particularly the conservation of energy or momentum. These concepts are central to analytical mechanics and help understand the behavior of bodies.",
+      "difficulty": 1,
+      "subcategory": "Integrale der Bewegung & Involution"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Uneigentliche (Dirac-)Vektoren",
+      "question": "What is a characteristic property of improper (Dirac) vectors in quantum mechanics?",
+      "choices": [
+        "A: They cannot be normalized.",
+        "B: They are always one-dimensional.",
+        "C: They are only relevant in classical mechanics.",
+        "D: They have no physical significance."
+      ],
+      "correct_answer": "A",
+      "explanation": "Improper (Dirac) vectors are vectors that are not normalizable in certain contexts, such as when describing states with continuous energy values. They play a crucial role in formulating quantum mechanics, especially in quantum field theory.",
+      "difficulty": 6,
+      "subcategory": "Uneigentliche (Dirac-)Vektoren"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Phasenproblem bei Streuexperimenten",
+      "question": "What describes the phase problem in solid-state physics in scattering experiments?",
+      "choices": [
+        "A: The inability to convert scattering data into the corresponding wave function.",
+        "B: The challenge of measuring interactions between electrons in metals.",
+        "C: The difficulty of determining the absolute position of atoms in the crystal.",
+        "D: The absence of electrons in a solid."
+      ],
+      "correct_answer": "C",
+      "explanation": "The phase problem refers to the difficulty of reconstructing phase information from scattering data, which is necessary to determine the absolute position of atoms in the crystal. This phase information is crucial for accurately determining the atomic structure of a solid.",
+      "difficulty": 5,
+      "subcategory": "Phasenproblem bei Streuexperimenten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Längenkontraktion",
+      "question": "Which of the following statements best describes the phenomenon of length contraction according to the theory of relativity?",
+      "choices": [
+        "A: Length contraction is an effect that occurs in all motions regardless of speed.",
+        "B: Length contraction is only relevant in classical mechanics and has no significance in relativity theory.",
+        "C: Length contraction occurs only at speeds close to the speed of light and affects objects moving relative to each other.",
+        "D: Length contraction causes the mass of a moving object to increase."
+      ],
+      "correct_answer": "C",
+      "explanation": "Length contraction is a relativistic phenomenon that occurs when an object moves at a speed close to the speed of light. In this case, the object appears shortened from the perspective of a stationary observer. The other statements are either incorrect or do not correctly relate to the theory of relativity.",
+      "difficulty": 8,
+      "subcategory": "Längenkontraktion"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Semiklassische Atommodelle (Rutherford→Bohr)",
+      "question": "Which atomic model introduced the concept of discrete energy levels for electrons?",
+      "choices": [
+        "A: Dalton model",
+        "B: Bohr model",
+        "C: Rutherford model",
+        "D: Thomson model"
+      ],
+      "correct_answer": "B",
+      "explanation": "The Bohr model describes that electrons orbit the atomic nucleus in specific discrete orbits and can only assume certain energy levels. This concept was a significant advancement in understanding atomic structure compared to the Rutherford model, which did not consider quantized energy levels.",
+      "difficulty": 4,
+      "subcategory": "Semiklassische Atommodelle (Rutherford→Bohr)"
+    }
+  ]
+}

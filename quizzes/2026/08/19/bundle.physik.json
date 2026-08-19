@@ -1,0 +1,169 @@
+{
+  "date": "2026-08-19",
+  "generated_at": "2026-08-19T03:41:40Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Prinzip der kleinsten Wirkung",
+      "question": "Was besagt das Prinzip der kleinsten Wirkung in der analytischen Mechanik?",
+      "choices": [
+        "A: Der Weg, den ein Teilchen nimmt, ist der, der die Wirkung minimiert.",
+        "B: Die Energie eines Systems bleibt immer gleich.",
+        "C: Die Geschwindigkeit eines Teilchens bleibt konstant.",
+        "D: Die Kraft ist immer proportional zur Beschleunigung."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Prinzip der kleinsten Wirkung besagt, dass die physikalischen Bewegungen von Systemen den Weg nehmen, der die Wirkung minimiert. Dies bedeutet, dass der tatsächliche Pfad, den ein Teilchen nimmt, der ist, der die integrierte Wirkung über die Zeit am kleinsten macht.",
+      "difficulty": 4,
+      "subcategory": "Prinzip der kleinsten Wirkung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Relativistischer Impuls, Energie und Kraft",
+      "question": "Was beschreibt die relativistische Energie eines Objekts, das sich mit nahezu Lichtgeschwindigkeit bewegt?",
+      "choices": [
+        "A: E = mgh",
+        "B: E = ½ mv²",
+        "C: E = mc²",
+        "D: E = p²/2m"
+      ],
+      "correct_answer": "C",
+      "explanation": "Die relativistische Energie wird durch die Formel E = mc² beschrieben, wobei m die Ruhemasse ist. Diese Formel gilt auch für Objekte, die sich mit einer signifikanten Fraktion der Lichtgeschwindigkeit bewegen und berücksichtigt die Zunahme der Energie mit der Geschwindigkeit.",
+      "difficulty": 6,
+      "subcategory": "Relativistischer Impuls, Energie und Kraft"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Eigenzeit und Weltgeschwindigkeit",
+      "question": "Was beschreibt die Eigenzeit in der Relativitätstheorie?",
+      "choices": [
+        "A: Die Zeit, die für einen externen Beobachter vergeht.",
+        "B: Die Zeit, die ein Beobachter in seinem eigenen Bezugssystem misst.",
+        "C: Die Zeit, die bei Lichtgeschwindigkeit vergeht.",
+        "D: Die Zeit, die während eines freien Falls vergeht."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Eigenzeit ist die Zeit, die ein Beobachter in seinem eigenen Bewegungsrahmen erlebt. Sie unterscheidet sich von der Zeit, die ein Stationärbeobachter in einem anderen Bezugssystem misst, insbesondere bei relativistischen Geschwindigkeiten.",
+      "difficulty": 4,
+      "subcategory": "Eigenzeit und Weltgeschwindigkeit"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Eigenwertspektrum (diskret/kontinuierlich)",
+      "question": "Was beschreibt ein diskretes Eigenwertspektrum in der Quantenmechanik?",
+      "choices": [
+        "A: Energie kann nur in Form von Lichtquanten existieren.",
+        "B: Es gibt nur eine endliche Anzahl von möglichen Energielevels.",
+        "C: Es gibt keine Energielevels, nur einen kontinuierlichen Energiefluss.",
+        "D: Alle Energielevels sind stetig und unendlich."
+      ],
+      "correct_answer": "B",
+      "explanation": "Ein diskretes Eigenwertspektrum bedeutet, dass das System nur bestimmte, klar definierte Energielevels annehmen kann. Dies ist typisch für gebundene Systeme, wie z.B. Elektronen in einem Atom, wo die Energielevels quantisiert sind.",
+      "difficulty": 2,
+      "subcategory": "Eigenwertspektrum (diskret/kontinuierlich)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Stoßquerschnitt & mittlere freie Weglänge",
+      "question": "Welcher der folgenden Faktoren beeinflusst direkt den Stoßquerschnitt in einem Gas?",
+      "choices": [
+        "A: Die Temperatur des Gases",
+        "B: Die Art der Moleküle",
+        "C: Die Geschwindigkeit der Moleküle",
+        "D: Der Druck des Gases"
+      ],
+      "correct_answer": "A",
+      "explanation": "Der Stoßquerschnitt ist temperaturabhängig, da eine höhere Temperatur die kinetische Energie der Moleküle erhöht und somit die Wahrscheinlichkeit von Kollisionen steigert. Während Druck und Geschwindigkeit ebenfalls eine Rolle spielen, ist der Temperaturfaktor entscheidend für die Veränderung des Stoßquerschnitts in einem Gas.",
+      "difficulty": 9,
+      "subcategory": "Stoßquerschnitt & mittlere freie Weglänge"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Integrale der Bewegung & Involution",
+      "question": "Was beschreibt das Integral der Bewegung in der analytischen Mechanik?",
+      "choices": [
+        "A: Die Erhaltung von Energie oder Impuls in einem System.",
+        "B: Die Masse eines Körpers in Ruhe.",
+        "C: Die Temperatur eines Systems.",
+        "D: Die Geschwindigkeit eines Körpers zu einem bestimmten Zeitpunkt."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Integral der Bewegung bezieht sich auf die Erhaltungsgesetze in einem physikalischen System, insbesondere die Erhaltung von Energie oder Impuls. Diese Konzepte sind zentrale Bestandteile der analytischen Mechanik und helfen, das Verhalten von Körpern zu verstehen.",
+      "difficulty": 1,
+      "subcategory": "Integrale der Bewegung & Involution"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Uneigentliche (Dirac-)Vektoren",
+      "question": "Was ist eine charakteristische Eigenschaft von uneigentlichen (Dirac-)Vektoren in der Quantenmechanik?",
+      "choices": [
+        "A: Sie können nicht normalisiert werden.",
+        "B: Sie sind immer eindimensional.",
+        "C: Sie sind nur in klassischer Mechanik relevant.",
+        "D: Sie haben keine physikalische Bedeutung."
+      ],
+      "correct_answer": "A",
+      "explanation": "Uneigentliche (Dirac-)Vektoren sind Vektoren, die in bestimmten Kontexten, wie zum Beispiel bei der Beschreibung von Zuständen mit kontinuierlichen Energiewerten, nicht normalisierbar sind. Sie spielen eine wichtige Rolle in der Formulierung der Quantenmechanik, insbesondere in der Quantenfeldtheorie.",
+      "difficulty": 6,
+      "subcategory": "Uneigentliche (Dirac-)Vektoren"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Phasenproblem bei Streuexperimenten",
+      "question": "Was beschreibt das Phasenproblem in der Festkörperphysik bei Streuexperimenten?",
+      "choices": [
+        "A: Die Unfähigkeit, Streudaten in die entsprechende Wellenfunktion umzuwandeln.",
+        "B: Die Herausforderung, die Wechselwirkungen zwischen Elektronen in Metallen zu messen.",
+        "C: Die Schwierigkeit, die absolute Position von Atomen im Kristall zu bestimmen.",
+        "D: Das Fehlen von Elektronen in einem Festkörper."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Phasenproblem bezieht sich auf die Schwierigkeit, die Phaseninformationen aus Streudaten zu rekonstruieren, was notwendig ist, um die absolute Position von Atomen im Kristall zu bestimmen. Diese Phaseninformationen sind entscheidend für die genaue Bestimmung der atomaren Struktur eines Festkörpers.",
+      "difficulty": 5,
+      "subcategory": "Phasenproblem bei Streuexperimenten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Längenkontraktion",
+      "question": "Welche der folgenden Aussagen beschreibt am besten das Phänomen der Längenkontraktion gemäß der Relativitätstheorie?",
+      "choices": [
+        "A: Längenkontraktion ist ein Effekt, der bei allen Bewegungen unabhängig von der Geschwindigkeit auftritt.",
+        "B: Die Längenkontraktion ist nur in der klassischen Mechanik relevant und hat keine Bedeutung in der Relativitätstheorie.",
+        "C: Die Längenkontraktion tritt nur bei Geschwindigkeiten nahe der Lichtgeschwindigkeit auf und betrifft Objekte, die sich relativ zueinander bewegen.",
+        "D: Längenkontraktion bewirkt, dass sich die Masse eines sich bewegenden Objekts erhöht."
+      ],
+      "correct_answer": "C",
+      "explanation": "Längenkontraktion ist ein relativistisches Phänomen, das auftritt, wenn sich ein Objekt mit einer Geschwindigkeit nahe der Lichtgeschwindigkeit bewegt. In diesem Fall erscheint das Objekt aus der Sicht eines ruhenden Beobachters verkürzt. Die anderen Aussagen sind entweder falsch oder beziehen sich nicht korrekt auf die Relativitätstheorie.",
+      "difficulty": 8,
+      "subcategory": "Längenkontraktion"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Semiklassische Atommodelle (Rutherford→Bohr)",
+      "question": "Welches Atommodell führte das Konzept von diskreten Energieniveaus für Elektronen ein?",
+      "choices": [
+        "A: Dalton-Modell",
+        "B: Bohr-Modell",
+        "C: Rutherford-Modell",
+        "D: Thomson-Modell"
+      ],
+      "correct_answer": "B",
+      "explanation": "Das Bohr-Modell beschreibt, dass Elektronen in bestimmten diskreten Bahnen um den Atomkern kreisen und nur bestimmte Energieniveaus annehmen können. Dieses Konzept war ein wesentlicher Fortschritt im Verständnis der Atomstruktur im Vergleich zum Rutherford-Modell, das keine quantisierten Energieniveaus berücksichtigte.",
+      "difficulty": 4,
+      "subcategory": "Semiklassische Atommodelle (Rutherford→Bohr)"
+    }
+  ]
+}
