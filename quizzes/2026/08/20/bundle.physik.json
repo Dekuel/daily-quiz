@@ -1,0 +1,169 @@
+{
+  "date": "2026-08-20",
+  "generated_at": "2026-08-20T03:41:23Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Fundamentale Poisson-Klammern",
+      "question": "Welche der folgenden Aussagen über die Poisson-Klammern ist korrekt?",
+      "choices": [
+        "A: Die Poisson-Klammern sind nur für konservative Systeme definiert.",
+        "B: Die Poisson-Klammern sind symmetrisch in ihren Argumenten.",
+        "C: Die Poisson-Klammern dienen zur Berechnung der Zeitentwicklung von Observablen in der Hamiltonschen Mechanik.",
+        "D: Die Poisson-Klammern sind unabhängig von der Wahl der Hamiltonschen Variablen."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Poisson-Klammern sind ein fundamentales Werkzeug in der Hamiltonschen Mechanik, um die Zeitentwicklung von Observablen zu beschreiben. Sie ermöglichen es, die Dynamik eines Systems durch die Beziehung zwischen den kanonischen Variablen und deren Ableitungen zu charakterisieren.",
+      "difficulty": 10,
+      "subcategory": "Fundamentale Poisson-Klammern"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Kontinuitätsgleichung (vierdimensional)",
+      "question": "Welche Aussage beschreibt die Kontinuitätsgleichung in der vierdimensionalen Relativitätstheorie korrekt?",
+      "choices": [
+        "A: Materie kann aus dem Nichts entstehen, solange Energie erhalten bleibt.",
+        "B: Die Zeit ist für alle Beobachter gleich und unabhängig von deren Bewegung.",
+        "C: Die Divergenz des vierdimensionalen Strömungsvektors ist gleich null.",
+        "D: Die Geschwindigkeit eines Objekts bleibt konstant, unabhängig von der Bezugsebene."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Kontinuitätsgleichung beschreibt die Erhaltung der Ladung oder Masse in einem gegebenen Raum-Zeit-Kontinuum. In der vierdimensionalen Relativitätstheorie bedeutet dies, dass die Divergenz des vierdimensionalen Strömungsvektors gleich null ist, was die Erhaltung der physikalischen Größen über Raum und Zeit hinweg ausdrückt.",
+      "difficulty": 5,
+      "subcategory": "Kontinuitätsgleichung (vierdimensional)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Kraft & Drehmoment auf Stromverteilungen",
+      "question": "Welche der folgenden Aussagen beschreibt am besten die Wirkung einer Magnetkraft auf einen stromdurchflossenen Leiter in einem Magnetfeld?",
+      "choices": [
+        "A: Der Leiter erfährt eine Kraft, die parallel zum Stromfluss wirkt.",
+        "B: Der Leiter wird immer in die Richtung des Magnetfeldes gezogen.",
+        "C: Der Leiter erfährt eine Kraft, die senkrecht zur Richtung des Stroms und des Magnetfeldes steht.",
+        "D: Der Leiter erfährt keine Kraft, wenn der Strom konstant ist."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Lorentzkraft beschreibt die Wechselwirkung zwischen einem stromdurchflossenen Leiter und einem Magnetfeld. Diese Kraft wirkt immer senkrecht sowohl zur Stromrichtung als auch zur Richtung des Magnetfeldes, was die Bewegung des Leiters beeinflusst.",
+      "difficulty": 3,
+      "subcategory": "Kraft & Drehmoment auf Stromverteilungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Periodische Randbedingungen",
+      "question": "Welche der folgenden Aussagen beschreibt am besten die Anwendung periodischer Randbedingungen in der Quantenmechanik?",
+      "choices": [
+        "A: Sie erlauben die Beschreibung von Teilchen in endlichen Raumdimensionen.",
+        "B: Sie ermöglichen es, die Lösungen der Schrödinger-Gleichung für Systeme in unendlichen Potentialen zu finden.",
+        "C: Sie führen dazu, dass die Wellenfunktionen an den Rändern des Systems null sind.",
+        "D: Sie sind notwendig, um diskrete Energieniveaus in endlichen Potentialen zu erhalten."
+      ],
+      "correct_answer": "B",
+      "explanation": "Periodische Randbedingungen sind hilfreich, um die Schrödinger-Gleichung für quantenmechanische Systeme zu lösen, die in einem unendlichen Potentialfeld oder in einem kristallinen Gitter eingeschlossen sind. Sie führen zu quantisierten Zuständen, die in vielen physikalischen Anwendungen, wie in der Festkörperphysik, wichtig sind.",
+      "difficulty": 4,
+      "subcategory": "Periodische Randbedingungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Phasen (Definitionen, Beispiele)",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt den Zustand eines festen Körpers im Vergleich zu einer Flüssigkeit?",
+      "choices": [
+        "A: Moleküle im festen Zustand haben eine hohe kinetische Energie und bewegen sich schnell.",
+        "B: Moleküle im festen Zustand sind in einer festen Anordnung und bewegen sich nur minimal.",
+        "C: Moleküle in der Flüssigkeit sind in einer festen Anordnung und bewegen sich frei.",
+        "D: Moleküle in der Flüssigkeit sind vollständig bewegungslos und können nicht fließen."
+      ],
+      "correct_answer": "B",
+      "explanation": "Im festen Zustand sind die Moleküle eng gepackt und nehmen eine feste Anordnung ein, was ihre Bewegungen stark einschränkt. Im Gegensatz dazu sind die Moleküle in einer Flüssigkeit weniger geordnet und können sich relativ frei bewegen, was zu einem fließenden Verhalten führt.",
+      "difficulty": 7,
+      "subcategory": "Phasen (Definitionen, Beispiele)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Kräftefreier symmetrischer Kreisel",
+      "question": "Welcher Effekt tritt bei einem kreisenden, kräftefreien symmetrischen Kreisel auf, wenn er eine Neigung erfährt?",
+      "choices": [
+        "A: Kippmoment",
+        "B: Präzession",
+        "C: Zentripetalkraft",
+        "D: Auftrieb"
+      ],
+      "correct_answer": "B",
+      "explanation": "Wenn ein symmetrischer Kreisel eine Neigung erfährt, tritt der Effekt der Präzession auf. Dies bedeutet, dass sich die Achse des Kreisels nicht nur kippt, sondern in einer kreisförmigen Bewegung um die vertikale Achse wandert, was durch die Erhaltung des Drehimpulses verursacht wird.",
+      "difficulty": 8,
+      "subcategory": "Kräftefreier symmetrischer Kreisel"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Maxwell-Konstruktion (Van-der-Waals-Isothermen)",
+      "question": "Was beschreibt die Maxwell-Konstruktion in der Thermodynamik?",
+      "choices": [
+        "A: Die Darstellung von Phasenübergängen in einem Temperatur-Volumen-Diagramm.",
+        "B: Die Beziehung zwischen Entropie und Energie in einem geschlossenen System.",
+        "C: Den Zusammenhang zwischen Temperatur und Druck für ideale Gase.",
+        "D: Die Berechnung der Arbeit zwischen verschiedenen Phasen eines Stoffes."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Maxwell-Konstruktion ist ein grafisches Verfahren, das verwendet wird, um die phasengleiche Arbeit bei Phasenübergängen zu bestimmen. Sie visualisiert den Verlauf von Van-der-Waals-Isothermen im Temperatur-Volumen-Diagramm und zeigt, wie Phasenumwandlungen zwischen Flüssigkeit und Dampf stattfinden.",
+      "difficulty": 3,
+      "subcategory": "Maxwell-Konstruktion (Van-der-Waals-Isothermen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Interferometer (spezielle Anordnungen)",
+      "question": "Welches Interferometer wird häufig zur Messung von sehr kleinen Längenänderungen verwendet?",
+      "choices": [
+        "A: Michelson-Interferometer",
+        "B: Sagnac-Interferometer",
+        "C: Fabry-Pérot-Interferometer",
+        "D: Youngsches Doppelspalt-Interferometer"
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Michelson-Interferometer ist bekannt für seine Fähigkeit, präzise Längenänderungen zu messen, indem es die Interferenz von Lichtstrahlen verwendet, die in verschiedene Wege geleitet werden. Es ist besonders nützlich in der Metrologie und der Forschung zur Bestimmung von Wellenlängen und Veränderungen in der Materialdicke.",
+      "difficulty": 4,
+      "subcategory": "Interferometer (spezielle Anordnungen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Effektive Masse von Elektronen & Löchern",
+      "question": "Was beschreibt die effektive Masse von Elektronen in einem Halbleiter?",
+      "choices": [
+        "A: Die Geschwindigkeit, mit der sich Elektronen bewegen können.",
+        "B: Die Masse der Elektronen im Vakuum.",
+        "C: Die Beschleunigung der Elektronen bei einer bestimmten Kraft.",
+        "D: Die Wechselwirkung zwischen den Elektronen und dem Gitter."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die effektive Masse von Elektronen in einem Halbleiter ist ein Maß dafür, wie sich Elektronen unter dem Einfluss eines elektrischen Feldes verhalten, wobei die Wechselwirkung mit dem Kristallgitter berücksichtigt wird. Sie ist entscheidend für die elektronische Eigenschaften des Materials.",
+      "difficulty": 5,
+      "subcategory": "Effektive Masse von Elektronen & Löchern"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Mechanische Pumpen",
+      "question": "Welche der folgenden Aussagen beschreibt am besten die Funktionsweise einer klassischen Kolbenpumpe?",
+      "choices": [
+        "A: Der Kolben drückt die Flüssigkeit kontinuierlich ohne Unterbrechung nach außen.",
+        "B: Die Pumpe nutzt die Schwerkraft, um die Flüssigkeit nach oben zu befördern.",
+        "C: Der Kolben arbeitet ausschließlich mit hydraulischem Druck ohne mechanische Bewegung.",
+        "D: Der Kolben erzeugt durch seine Bewegung einen Unterdruck, der Flüssigkeit in den Zylinder saugt."
+      ],
+      "correct_answer": "D",
+      "explanation": "Eine Kolbenpumpe funktioniert, indem der Kolben durch seine Bewegung einen Unterdruck im Zylinder erzeugt, wodurch die Flüssigkeit in den Zylinder gesogen wird. Diese Methode ist grundlegend für die Funktionsweise vieler mechanischer Pumpen in der Technik.",
+      "difficulty": 9,
+      "subcategory": "Mechanische Pumpen"
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "date": "2026-08-20",
+  "generated_at": "2026-08-20T03:41:57Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Fundamentale Poisson-Klammern",
+      "question": "Which of the following statements about Poisson brackets is correct?",
+      "choices": [
+        "A: The Poisson brackets are only defined for conservative systems.",
+        "B: The Poisson brackets are symmetric in their arguments.",
+        "C: The Poisson brackets are used to calculate the time evolution of observables in Hamiltonian mechanics.",
+        "D: The Poisson brackets are independent of the choice of Hamiltonian variables."
+      ],
+      "correct_answer": "C",
+      "explanation": "The Poisson brackets are a fundamental tool in Hamiltonian mechanics to describe the time evolution of observables. They allow characterizing the dynamics of a system through the relationship between the canonical variables and their derivatives.",
+      "difficulty": 10,
+      "subcategory": "Fundamentale Poisson-Klammern"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Kontinuitätsgleichung (vierdimensional)",
+      "question": "Which statement correctly describes the continuity equation in four-dimensional relativity theory?",
+      "choices": [
+        "A: Matter can emerge from nothing as long as energy is conserved.",
+        "B: Time is the same for all observers and independent of their motion.",
+        "C: The divergence of the four-dimensional flow vector is zero.",
+        "D: The velocity of an object remains constant regardless of the reference plane."
+      ],
+      "correct_answer": "C",
+      "explanation": "The continuity equation describes the conservation of charge or mass in a given spacetime continuum. In four-dimensional relativity theory, this means that the divergence of the four-dimensional flow vector is zero, expressing the conservation of physical quantities over space and time.",
+      "difficulty": 5,
+      "subcategory": "Kontinuitätsgleichung (vierdimensional)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Kraft & Drehmoment auf Stromverteilungen",
+      "question": "Which of the following statements best describes the effect of a magnetic force on a current-carrying conductor in a magnetic field?",
+      "choices": [
+        "A: The conductor experiences a force acting parallel to the current flow.",
+        "B: The conductor is always pulled in the direction of the magnetic field.",
+        "C: The conductor experiences a force perpendicular to the direction of the current and the magnetic field.",
+        "D: The conductor experiences no force when the current is constant."
+      ],
+      "correct_answer": "C",
+      "explanation": "The Lorentz force describes the interaction between a current-carrying conductor and a magnetic field. This force always acts perpendicular to both the direction of the current and the direction of the magnetic field, influencing the movement of the conductor.",
+      "difficulty": 3,
+      "subcategory": "Kraft & Drehmoment auf Stromverteilungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Periodische Randbedingungen",
+      "question": "Which of the following statements best describes the application of periodic boundary conditions in quantum mechanics?",
+      "choices": [
+        "A: They allow the description of particles in finite spatial dimensions.",
+        "B: They enable finding solutions of the Schrödinger equation for systems in infinite potentials.",
+        "C: They result in wave functions being zero at the edges of the system.",
+        "D: They are necessary to obtain discrete energy levels in finite potentials."
+      ],
+      "correct_answer": "B",
+      "explanation": "Periodic boundary conditions are useful for solving the Schrödinger equation for quantum mechanical systems confined in an infinite potential well or a crystalline lattice. They lead to quantized states that are important in many physical applications, such as solid-state physics.",
+      "difficulty": 4,
+      "subcategory": "Periodische Randbedingungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Phasen (Definitionen, Beispiele)",
+      "question": "Which of the following statements correctly describes the state of a solid compared to a liquid?",
+      "choices": [
+        "A: Molecules in the solid state have high kinetic energy and move fast.",
+        "B: Molecules in the solid state are in a fixed arrangement and move minimally.",
+        "C: Molecules in the liquid are in a fixed arrangement and move freely.",
+        "D: Molecules in the liquid are completely motionless and cannot flow."
+      ],
+      "correct_answer": "B",
+      "explanation": "In the solid state, molecules are closely packed and have a fixed arrangement, restricting their movements significantly. In contrast, molecules in a liquid are less ordered and can move relatively freely, leading to a flowing behavior.",
+      "difficulty": 7,
+      "subcategory": "Phasen (Definitionen, Beispiele)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Kräftefreier symmetrischer Kreisel",
+      "question": "What effect occurs in a circling, force-free symmetric gyroscope when it experiences a tilt?",
+      "choices": [
+        "A: Torsional moment",
+        "B: Precession",
+        "C: Centripetal force",
+        "D: Buoyancy"
+      ],
+      "correct_answer": "B",
+      "explanation": "When a symmetric gyroscope experiences a tilt, the effect of precession occurs. This means that the gyroscope's axis not only tilts but also moves in a circular motion around the vertical axis, caused by the conservation of angular momentum.",
+      "difficulty": 8,
+      "subcategory": "Kräftefreier symmetrischer Kreisel"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Maxwell-Konstruktion (Van-der-Waals-Isothermen)",
+      "question": "What does the Maxwell construction describe in thermodynamics?",
+      "choices": [
+        "A: Representation of phase transitions in a temperature-volume diagram.",
+        "B: Relationship between entropy and energy in a closed system.",
+        "C: Connection between temperature and pressure for ideal gases.",
+        "D: Calculation of work between different phases of a substance."
+      ],
+      "correct_answer": "A",
+      "explanation": "The Maxwell construction is a graphical method used to determine the equal-phase work during phase transitions. It visualizes the course of Van der Waals isotherms in the temperature-volume diagram and shows how phase transitions between liquid and vapor occur.",
+      "difficulty": 3,
+      "subcategory": "Maxwell-Konstruktion (Van-der-Waals-Isothermen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Interferometer (spezielle Anordnungen)",
+      "question": "Which interferometer is commonly used to measure very small length changes?",
+      "choices": [
+        "A: Michelson interferometer",
+        "B: Sagnac interferometer",
+        "C: Fabry-Pérot interferometer",
+        "D: Young's double-slit interferometer"
+      ],
+      "correct_answer": "A",
+      "explanation": "The Michelson interferometer is known for its ability to measure precise length changes by using the interference of light beams directed in different paths. It is particularly useful in metrology and research for determining wavelengths and changes in material thickness.",
+      "difficulty": 4,
+      "subcategory": "Interferometer (spezielle Anordnungen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Effektive Masse von Elektronen & Löchern",
+      "question": "What does the effective mass of electrons in a semiconductor describe?",
+      "choices": [
+        "A: The speed at which electrons can move.",
+        "B: The mass of electrons in a vacuum.",
+        "C: The acceleration of electrons under a specific force.",
+        "D: The interaction between electrons and the lattice."
+      ],
+      "correct_answer": "D",
+      "explanation": "The effective mass of electrons in a semiconductor is a measure of how electrons behave under the influence of an electric field, taking into account the interaction with the crystal lattice. It is crucial for the electronic properties of the material.",
+      "difficulty": 5,
+      "subcategory": "Effektive Masse von Elektronen & Löchern"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Mechanische Pumpen",
+      "question": "Which of the following statements best describes the operation of a classical piston pump?",
+      "choices": [
+        "A: The piston continuously pushes the liquid outward without interruption.",
+        "B: The pump uses gravity to move the liquid upward.",
+        "C: The piston operates solely with hydraulic pressure without mechanical movement.",
+        "D: The piston creates a vacuum through its movement, sucking liquid into the cylinder."
+      ],
+      "correct_answer": "D",
+      "explanation": "A piston pump works by the piston creating a vacuum in the cylinder through its movement, sucking the liquid into the cylinder. This method is fundamental to the operation of many mechanical pumps in engineering.",
+      "difficulty": 9,
+      "subcategory": "Mechanische Pumpen"
+    }
+  ]
+}

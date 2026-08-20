@@ -3486,6 +3486,20 @@
       "correct_answer": "D",
       "explanation": "Überwachtes Lernen ist ein zentraler Ansatz im Machine Learning, bei dem Modelle anhand von Daten trainiert werden, die sowohl Eingaben als auch die entsprechenden Ausgaben enthalten. Dies ermöglicht es dem Modell, Muster zu erkennen und Vorhersagen zu treffen, basierend auf neuen, ungesehenen Daten.",
       "difficulty": 6
+    },
+    {
+      "category": "Technologie",
+      "topic": "Computer & Internet",
+      "question": "Welches Protokoll wird häufig für die sichere Übertragung von Daten über das Internet verwendet?",
+      "choices": [
+        "A: IMAP",
+        "B: HTTPS ✓",
+        "C: SMTP",
+        "D: FTP"
+      ],
+      "correct_answer": "B",
+      "explanation": "HTTPS (Hypertext Transfer Protocol Secure) ist das Protokoll, das die sichere Kommunikation über ein Computernetzwerk ermöglicht, indem es Daten verschlüsselt. Im Gegensatz dazu sind FTP (File Transfer Protocol), SMTP (Simple Mail Transfer Protocol) und IMAP (Internet Message Access Protocol) spezifische Protokolle für Dateiübertragungen und E-Mail-Kommunikation, bieten jedoch keine integrierte Sicherheit wie HTTPS.",
+      "difficulty": 9
     }
   ]
 }
