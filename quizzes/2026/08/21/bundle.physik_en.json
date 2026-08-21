@@ -1,0 +1,168 @@
+{
+  "date": "2026-08-21",
+  "generated_at": "2026-08-21T03:46:03Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Innere Reibung (Kontinuumsmechanik)",
+      "question": "What describes internal friction in a material?",
+      "choices": [
+        "A: The interaction between two different materials.",
+        "B: The temperature changes of a body.",
+        "C: The energy losses due to deformation within the material.",
+        "D: The velocity of an object in the air."
+      ],
+      "correct_answer": "C",
+      "explanation": "Internal friction, also known as viscous friction, describes the energy losses that occur when parts of a material move against each other. These losses are particularly relevant in continuum mechanics, where the motion of deformable bodies is analyzed.",
+      "difficulty": 3,
+      "subcategory": "Innere Reibung (Kontinuumsmechanik)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Maxwell-Gleichungen der Magnetostatik",
+      "question": "Which of the following statements correctly describes the Maxwell equations in magnetostatics?",
+      "choices": [
+        "A: There are no magnetic monopoles, and the divergence of the magnetic flux density is zero.",
+        "B: The Lorentz force acts only on moving electric charges and not on magnetic fields.",
+        "C: The change in the electric field generates a steady magnetic field.",
+        "D: The magnetic flux density is always proportional to the electric field strength."
+      ],
+      "correct_answer": "A",
+      "explanation": "In magnetostatics, it holds that the divergence of the magnetic flux density is zero, which means that there are no isolated magnetic monopoles. This property is one of the basic assumptions of the Maxwell equations in this specific consideration.",
+      "difficulty": 5,
+      "subcategory": "Maxwell-Gleichungen der Magnetostatik"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Nicht-Vertauschbarkeit von Operatoren",
+      "question": "Which of the following statements describes the non-commutativity of operators in quantum mechanics?",
+      "choices": [
+        "A: Non-commutative operators can always be precisely measured simultaneously.",
+        "B: Commutative operators have no effect on measurements.",
+        "C: Two non-commutative operators cannot be precisely measured simultaneously.",
+        "D: All operators in quantum mechanics are commutative."
+      ],
+      "correct_answer": "C",
+      "explanation": "In quantum mechanics, the non-commutativity of operators means that the measured values of the corresponding observables cannot be precisely determined simultaneously. This leads to a fundamental principle that describes the uncertainty principle.",
+      "difficulty": 4,
+      "subcategory": "Nicht-Vertauschbarkeit von Operatoren"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Biegung eines Balkens",
+      "question": "What happens to a beam when subjected to a bending load?",
+      "choices": [
+        "A: It remains unchanged and shows no movement.",
+        "B: It becomes wider and shorter.",
+        "C: It immediately breaks without warning.",
+        "D: It deforms and bends in the direction of the applied force."
+      ],
+      "correct_answer": "D",
+      "explanation": "Under bending load, a beam deforms by bending in the direction of the applied force. This deformation is the result of stresses that arise from the load and is a fundamental concept in the statics of materials.",
+      "difficulty": 1,
+      "subcategory": "Biegung eines Balkens"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Fresnel–Kirchhoffsche Beugungstheorie",
+      "question": "What does the Fresnel-Kirchhoff diffraction theory describe?",
+      "choices": [
+        "A: The propagation of light waves and their interference.",
+        "B: The refraction of light at an interface between two media.",
+        "C: The reflection of light on a smooth surface.",
+        "D: The polarization of light by a polarizer."
+      ],
+      "correct_answer": "A",
+      "explanation": "The Fresnel-Kirchhoff diffraction theory describes how light waves are diffracted by obstacles or through slits. This theory explains the patterns that arise from the interference of light waves when they encounter objects comparable in size to their wavelength.",
+      "difficulty": 4,
+      "subcategory": "Fresnel–Kirchhoffsche Beugungstheorie"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Exponenten-Ungleichungen (Scaling Bounds)",
+      "question": "Which statement best describes the role of exponent inequalities in thermodynamics?",
+      "choices": [
+        "A: They have no influence on the behavior of gases.",
+        "B: They apply only to solid-state systems.",
+        "C: They help determine the scaling of physical quantities with temperature changes.",
+        "D: They are only relevant for chemical reactions."
+      ],
+      "correct_answer": "C",
+      "explanation": "Exponent inequalities are important for understanding the behavior of physical quantities in relation to changes in temperature and pressure. They allow for formulating scaling relationships that are crucial in thermodynamics.",
+      "difficulty": 5,
+      "subcategory": "Exponenten-Ungleichungen (Scaling Bounds)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Mittlere kinetische Energie & Temperatur",
+      "question": "What describes the average kinetic energy of particles in a gas?",
+      "choices": [
+        "A: It is independent of temperature.",
+        "B: It is constant regardless of temperature.",
+        "C: It is always zero.",
+        "D: It is directly proportional to the gas temperature."
+      ],
+      "correct_answer": "D",
+      "explanation": "The average kinetic energy of particles in a gas is directly proportional to the absolute temperature. This means that at higher temperatures, the particles on average have more energy and move faster.",
+      "difficulty": 2,
+      "subcategory": "Mittlere kinetische Energie & Temperatur"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Vakuumbereiche",
+      "question": "What happens to an object falling in a vacuum compared to one falling in air?",
+      "choices": [
+        "A: The object in a vacuum is not affected by gravity.",
+        "B: The object in a vacuum falls slower than the one in air.",
+        "C: The object in a vacuum experiences no air resistance, while the one in air does.",
+        "D: Both objects fall with the same acceleration."
+      ],
+      "correct_answer": "C",
+      "explanation": "In a vacuum, there is no air resistance, meaning a falling object accelerates unhindered by this effect. In contrast, an object falling in air experiences resistance, which slows its descent.",
+      "difficulty": 6,
+      "subcategory": "Vakuumbereiche"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Kräfte beim Fliegen",
+      "question": "Which force acts against gravity when an airplane is in the air?",
+      "choices": [
+        "A: Resistance",
+        "B: Lift",
+        "C: Pressure force",
+        "D: Tension force"
+      ],
+      "correct_answer": "B",
+      "explanation": "Lift is the force that raises an airplane and counteracts gravity. It is generated by the shape of the wings and the movement of the aircraft through the air.",
+      "difficulty": 4,
+      "subcategory": "Kräfte beim Fliegen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Dampfdruckkurve & Clausius–Clapeyron-Gleichung",
+      "question": "Which of the following statements about the Clausius-Clapeyron equation is correct?",
+      "choices": [
+        "A: It is only applicable to ideal gases and fails for real liquids.",
+        "B: It represents a relationship between the vapor pressure and temperature of a phase in equilibrium.",
+        "C: It describes the relationship between the change in entropy and the vapor pressure of a substance.",
+        "D: Its application is limited to phase transitions from solids to gases."
+      ],
+      "correct_answer": "B",
+      "explanation": "The Clausius-Clapeyron equation describes the relationship between vapor pressure and temperature for phase transitions in equilibrium, regardless of the substance. It is a fundamental equation in thermodynamics that can be used for both ideal and real substances.",
+      "difficulty": 10,
+      "subcategory": "Dampfdruckkurve & Clausius–Clapeyron-Gleichung"
+    }
+  ]
+}

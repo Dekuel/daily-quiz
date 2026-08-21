@@ -1,0 +1,169 @@
+{
+  "date": "2026-08-21",
+  "generated_at": "2026-08-21T03:45:29Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Innere Reibung (Kontinuumsmechanik)",
+      "question": "Was beschreibt die innere Reibung in einem Material?",
+      "choices": [
+        "A: Die Interaktion zwischen zwei verschiedenen Materialien.",
+        "B: Die Temperaturänderungen eines Körpers.",
+        "C: Die Energieverluste durch Deformation innerhalb des Materials.",
+        "D: Die Geschwindigkeit eines Objekts in der Luft."
+      ],
+      "correct_answer": "C",
+      "explanation": "Innere Reibung, auch als viskose Reibung bekannt, beschreibt die Energieverluste, die entstehen, wenn sich Teile eines Materials gegeneinander bewegen. Diese Verluste sind besonders relevant in der Kontinuumsmechanik, wo die Bewegung von deformierbaren Körpern analysiert wird.",
+      "difficulty": 3,
+      "subcategory": "Innere Reibung (Kontinuumsmechanik)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Maxwell-Gleichungen der Magnetostatik",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt die Maxwell-Gleichungen in der Magnetostatik?",
+      "choices": [
+        "A: Es gibt keine magnetischen Monopole, und die Divergenz der magnetischen Flussdichte ist null.",
+        "B: Die Lorentzkraft wirkt nur auf bewegte elektrische Ladungen und nicht auf magnetische Felder.",
+        "C: Die Änderung des elektrischen Feldes erzeugt ein stationäres magnetisches Feld.",
+        "D: Die magnetische Flussdichte ist immer proportional zur elektrischen Feldstärke."
+      ],
+      "correct_answer": "A",
+      "explanation": "In der Magnetostatik gilt, dass die Divergenz der magnetischen Flussdichte null ist, was bedeutet, dass es keine isolierten magnetischen Monopole gibt. Diese Eigenschaft ist eine der Grundannahmen der Maxwell-Gleichungen in dieser speziellen Betrachtung.",
+      "difficulty": 5,
+      "subcategory": "Maxwell-Gleichungen der Magnetostatik"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Nicht-Vertauschbarkeit von Operatoren",
+      "question": "Welche der folgenden Aussagen beschreibt die Nicht-Vertauschbarkeit von Operatoren in der Quantenmechanik?",
+      "choices": [
+        "A: Nicht-vertauschbare Operatoren können immer gleichzeitig exakt gemessen werden.",
+        "B: Vertauschbare Operatoren haben keinen Einfluss auf die Messungen.",
+        "C: Zwei nicht-vertauschbare Operatoren können nicht gleichzeitig exakt gemessen werden.",
+        "D: Alle Operatoren in der Quantenmechanik sind vertauschbar."
+      ],
+      "correct_answer": "C",
+      "explanation": "In der Quantenmechanik bedeutet die Nicht-Vertauschbarkeit von Operatoren, dass die gemessenen Werte der entsprechenden Observablen nicht gleichzeitig präzise bestimmt werden können. Dies führt zu einem fundamentalen Prinzip, das die Unschärferelation beschreibt.",
+      "difficulty": 4,
+      "subcategory": "Nicht-Vertauschbarkeit von Operatoren"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Biegung eines Balkens",
+      "question": "Was passiert mit einem Balken, wenn er einer Biegebelastung ausgesetzt wird?",
+      "choices": [
+        "A: Er bleibt unverändert und zeigt keine Bewegung.",
+        "B: Er wird breiter und kürzer.",
+        "C: Er bricht sofort ohne Vorwarnung.",
+        "D: Er verformt sich und biegt sich in Richtung der aufgebrachten Kraft."
+      ],
+      "correct_answer": "D",
+      "explanation": "Bei Biegebelastung verformt sich ein Balken, indem er sich in Richtung der aufgebrachten Kraft biegt. Diese Verformung ist das Ergebnis von Spannungen, die durch die Belastung entstehen, und ist ein fundamentales Konzept in der Statik der Materialien.",
+      "difficulty": 1,
+      "subcategory": "Biegung eines Balkens"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Fresnel–Kirchhoffsche Beugungstheorie",
+      "question": "Was beschreibt die Fresnel–Kirchhoffsche Beugungstheorie?",
+      "choices": [
+        "A: Die Ausbreitung von Lichtwellen und deren Interferenz.",
+        "B: Die Brechung von Licht an einer Grenzfläche zwischen zwei Medien.",
+        "C: Die Reflexion von Licht an einer glatten Oberfläche.",
+        "D: Die Polarisation von Licht durch einen Polarisator."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Fresnel–Kirchhoffsche Beugungstheorie beschreibt, wie Lichtwellen an Hindernissen oder durch Spalte gebeugt werden. Diese Theorie erklärt die Muster, die durch die Interferenz von Lichtwellen entstehen, wenn sie auf Objekte treffen, die mit ihrer Wellenlänge vergleichbar sind.",
+      "difficulty": 4,
+      "subcategory": "Fresnel–Kirchhoffsche Beugungstheorie"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Exponenten-Ungleichungen (Scaling Bounds)",
+      "question": "Welche Aussage beschreibt am besten die Rolle der Exponenten-Ungleichungen in der Thermodynamik?",
+      "choices": [
+        "A: Sie haben keinen Einfluss auf das Verhalten von Gasen.",
+        "B: Sie gelten nur für festkörperliche Systeme.",
+        "C: Sie helfen, die Skalierung von physikalischen Größen bei Temperaturänderungen zu bestimmen.",
+        "D: Sie sind nur für chemische Reaktionen von Bedeutung."
+      ],
+      "correct_answer": "C",
+      "explanation": "Exponenten-Ungleichungen sind wichtig, um das Verhalten von physikalischen Größen in Abhängigkeit von Temperatur- und Druckänderungen zu verstehen. Sie ermöglichen es, Skalierungsbeziehungen zu formulieren, die in der Thermodynamik entscheidend sind.",
+      "difficulty": 5,
+      "subcategory": "Exponenten-Ungleichungen (Scaling Bounds)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Mittlere kinetische Energie & Temperatur",
+      "question": "Was beschreibt die mittlere kinetische Energie von Teilchen in einem Gas?",
+      "choices": [
+        "A: Sie ist unabhängig von der Temperatur.",
+        "B: Sie ist konstant, egal bei welcher Temperatur.",
+        "C: Sie ist immer null.",
+        "D: Sie ist direkt proportional zur Temperatur des Gases."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die mittlere kinetische Energie der Teilchen in einem Gas ist direkt proportional zur absoluten Temperatur. Dies bedeutet, dass bei höherer Temperatur die Teilchen im Durchschnitt mehr Energie haben und sich schneller bewegen.",
+      "difficulty": 2,
+      "subcategory": "Mittlere kinetische Energie & Temperatur"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Vakuumbereiche",
+      "question": "Was passiert mit einem Objekt, das in einem Vakuum fallend ist, im Vergleich zu einem Objekt, das in Luft fällt?",
+      "choices": [
+        "A: Das Objekt im Vakuum wird durch die Schwerkraft nicht beeinflusst.",
+        "B: Das Objekt im Vakuum fällt langsamer als das in Luft.",
+        "C: Das Objekt im Vakuum erfährt keinen Luftwiderstand, das in Luft jedoch schon.",
+        "D: Beide Objekte fallen mit der gleichen Beschleunigung."
+      ],
+      "correct_answer": "C",
+      "explanation": "Im Vakuum gibt es keinen Luftwiderstand, was bedeutet, dass ein fallendes Objekt ungehindert von diesem Effekt beschleunigt wird. Im Gegensatz dazu erfährt ein Objekt, das in Luft fällt, einen Widerstand, der seine Fallgeschwindigkeit verringert.",
+      "difficulty": 6,
+      "subcategory": "Vakuumbereiche"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Kräfte beim Fliegen",
+      "question": "Welche Kraft wirkt der Schwerkraft entgegen, wenn ein Flugzeug in der Luft ist?",
+      "choices": [
+        "A: Widerstand",
+        "B: Auftrieb",
+        "C: Druckkraft",
+        "D: Zugkraft"
+      ],
+      "correct_answer": "B",
+      "explanation": "Der Auftrieb ist die Kraft, die ein Flugzeug in die Höhe hebt und der Schwerkraft entgegenwirkt. Er entsteht durch die Form der Flügel und die Bewegung des Flugzeugs durch die Luft.",
+      "difficulty": 4,
+      "subcategory": "Kräfte beim Fliegen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Dampfdruckkurve & Clausius–Clapeyron-Gleichung",
+      "question": "Welche der folgenden Aussagen über die Clausius–Clapeyron-Gleichung ist korrekt?",
+      "choices": [
+        "A: Sie ist nur für ideale Gase anwendbar und versagt bei realen Flüssigkeiten.",
+        "B: Sie stellt eine Beziehung zwischen dem Dampfdruck und der Temperatur einer Phase im Gleichgewicht dar.",
+        "C: Sie beschreibt die Beziehung zwischen der Entropieänderung und dem Dampfdruck eines Stoffes.",
+        "D: Ihre Anwendung ist auf Phasenübergänge von festen Stoffen zu Gasen beschränkt."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Clausius–Clapeyron-Gleichung beschreibt die Beziehung zwischen Dampfdruck und Temperatur für Phasenübergänge im Gleichgewicht, unabhängig von der Art des Stoffes. Sie ist eine grundlegende Gleichung in der Thermodynamik, die sowohl für ideale als auch für reale Stoffe verwendet werden kann.",
+      "difficulty": 10,
+      "subcategory": "Dampfdruckkurve & Clausius–Clapeyron-Gleichung"
+    }
+  ]
+}
