@@ -1,0 +1,168 @@
+{
+  "date": "2026-08-22",
+  "generated_at": "2026-08-22T03:37:37Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Magnetisches Moment & Drehimpuls",
+      "question": "Which of the following effects is directly related to the magnetic moment of an electron?",
+      "choices": [
+        "A: The Compton Effect",
+        "B: The Zeeman Effect",
+        "C: The Doppler Effect",
+        "D: The Photoelectric Effect"
+      ],
+      "correct_answer": "B",
+      "explanation": "The Zeeman effect describes the splitting of spectral lines in a magnetic field, which is directly related to the magnetic moment of the electrons. The other effects refer to different physical phenomena that are not directly linked to the magnetic moment.",
+      "difficulty": 8,
+      "subcategory": "Magnetisches Moment & Drehimpuls"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Gitterschwingungen: einatomige Basis",
+      "question": "What describes lattice vibrations in a solid with a single-atom basis?",
+      "choices": [
+        "A: The periodic motion of atoms around their equilibrium position.",
+        "B: The chemical bonding between atoms.",
+        "C: The motion of electrons in an atom.",
+        "D: The rotation of the entire crystal around its axis."
+      ],
+      "correct_answer": "A",
+      "explanation": "Lattice vibrations in a solid with a single-atom basis refer to the collective movement of atoms around their equilibrium position. These vibrations are important for understanding the thermal properties and stability of the material.",
+      "difficulty": 1,
+      "subcategory": "Gitterschwingungen: einatomige Basis"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Dirac’scher Spinoperator",
+      "question": "What does the Dirac spin operator describe in quantum mechanics?",
+      "choices": [
+        "A: The temperature of a system in thermodynamics.",
+        "B: The interaction of spin and magnetic fields.",
+        "C: The trajectory of a particle in an electric field.",
+        "D: The energy of a particle in a gravitational field."
+      ],
+      "correct_answer": "B",
+      "explanation": "The Dirac spin operator describes the interaction of spin-1/2 particles, such as electrons, with external magnetic fields. It is a central element in relativistic quantum mechanics and explains how spin and relativistic effects interact.",
+      "difficulty": 4,
+      "subcategory": "Dirac’scher Spinoperator"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Hochtemperatur-Supraleiter",
+      "question": "Which material is commonly associated with high-temperature superconductors?",
+      "choices": [
+        "A: Iron",
+        "B: Yttrium-barium-copper oxide (YBCO)",
+        "C: Silicon",
+        "D: Graphene"
+      ],
+      "correct_answer": "B",
+      "explanation": "Yttrium-barium-copper oxide (YBCO) is one of the most well-known high-temperature superconductor materials, which becomes superconducting at temperatures above the boiling point of liquid nitrogen. This property makes it particularly interesting for applications in technology and research.",
+      "difficulty": 6,
+      "subcategory": "Hochtemperatur-Supraleiter"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Wirkungsprinzipien (Überblick)",
+      "question": "Which of the following principles describes the relationship between the trajectory of a system and a varying Lagrangian function?",
+      "choices": [
+        "A: The law of conservation of energy",
+        "B: Newton's law",
+        "C: The principle of conservation of momentum",
+        "D: The principle of least action"
+      ],
+      "correct_answer": "D",
+      "explanation": "The principle of least action states that the actual trajectory of a system is the one that minimizes the action. This is a fundamental concept in analytical mechanics and forms the basis for Lagrangian mechanics.",
+      "difficulty": 7,
+      "subcategory": "Wirkungsprinzipien (Überblick)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Dotierung (n/p)",
+      "question": "Which of the following statements correctly describes the influence of n-doping on the electronic structure of a semiconductor?",
+      "choices": [
+        "A: N-doping has no effect on the distribution of energy levels in the semiconductor.",
+        "B: N-doping reduces the number of holes in the valence band, thus decreasing conductivity.",
+        "C: N-doping creates additional energy levels in the valence band.",
+        "D: N-doping increases the number of electrons in the conduction band, leading to higher electrical conductivity."
+      ],
+      "correct_answer": "D",
+      "explanation": "n-doping introduces additional electrons into the conduction band of a semiconductor, increasing its electrical conductivity. These electrons come from donors that release their outer electrons, thereby improving the material's conductivity.",
+      "difficulty": 8,
+      "subcategory": "Dotierung (n/p)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Randwertprobleme & Energie in Dielektrika",
+      "question": "What condition must hold for the electric field strength at the interface between a dielectric and a conducting material?",
+      "choices": [
+        "A: The electric field strength is independent of the dielectric constant.",
+        "B: The electric field strength is zero at the interface.",
+        "C: The electric field strength is continuous at the interface.",
+        "D: The electric field strength changes abruptly according to the surface charge."
+      ],
+      "correct_answer": "D",
+      "explanation": "At the interface between a dielectric and a conducting material, the electric field strength changes abruptly due to the surface charge of the conducting material. This condition is crucial for solving boundary value problems in electrodynamics.",
+      "difficulty": 9,
+      "subcategory": "Randwertprobleme & Energie in Dielektrika"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Zustandsgleichungen (Überblick)",
+      "question": "Which of the following equations describes the behavior of an ideal gas?",
+      "choices": [
+        "A: PV^2 = nRT",
+        "B: PV = nRT",
+        "C: P = nRT/V",
+        "D: P + V = nRT"
+      ],
+      "correct_answer": "B",
+      "explanation": "The equation PV = nRT describes the behavior of ideal gases, where P represents pressure, V volume, n the number of moles, and T temperature in Kelvin. This equation is fundamental in thermodynamics and allows for the calculation of gas behavior under various conditions.",
+      "difficulty": 8,
+      "subcategory": "Zustandsgleichungen (Überblick)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Partonmodell",
+      "question": "What does the parton model describe in high-energy physics?",
+      "choices": [
+        "A: The internal structure of protons and neutrons through quarks and gluons.",
+        "B: The thermodynamics of nuclear reactions.",
+        "C: The interactions of electrons in an atom.",
+        "D: The quantum mechanical properties of photons."
+      ],
+      "correct_answer": "A",
+      "explanation": "The parton model is a theoretical approach that describes the structure of protons and neutrons by considering them as composed of quarks and gluons. This description helps understand the results of high-energy collisions, especially in quantum chromodynamics (QCD).",
+      "difficulty": 8,
+      "subcategory": "Partonmodell"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Hamilton’sche charakteristische Funktion S",
+      "question": "What does Hamilton's characteristic function S describe in analytical mechanics?",
+      "choices": [
+        "A: The energy of a system as a function of the generalized coordinates and momenta.",
+        "B: The acceleration of a body based on the force acting on it.",
+        "C: The velocity of a body at a specific time.",
+        "D: The mass of a body in a conservative field."
+      ],
+      "correct_answer": "A",
+      "explanation": "Hamilton's characteristic function S is a central quantity in analytical mechanics that describes the energy of a system as a function of the generalized coordinates and momenta. It plays a key role in formulating Hamilton's equations and analyzing dynamic systems.",
+      "difficulty": 5,
+      "subcategory": "Hamilton’sche charakteristische Funktion S"
+    }
+  ]
+}
