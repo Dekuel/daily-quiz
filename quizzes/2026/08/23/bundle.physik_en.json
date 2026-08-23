@@ -1,0 +1,168 @@
+{
+  "date": "2026-08-23",
+  "generated_at": "2026-08-23T03:45:46Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Wirkungs- und Winkelvariable (Action-Angle)",
+      "question": "What does the angular variable describe in analytical mechanics in the context of the action-angle method?",
+      "choices": [
+        "A: It represents the periodic motion of a system.",
+        "B: It indicates the position of a particle in space.",
+        "C: It is the velocity of a particle.",
+        "D: It describes the energy of a system."
+      ],
+      "correct_answer": "A",
+      "explanation": "The angular variable in the action-angle method describes the phase of a system in periodic motion. It is crucial for the analysis and understanding of the dynamic behavior in analytical mechanics.",
+      "difficulty": 5,
+      "subcategory": "Wirkungs- und Winkelvariable (Action-Angle)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Lösungsstruktur (radial)",
+      "question": "What does the radial solution structure of a quantum mechanical system describe?",
+      "choices": [
+        "A: The velocity of a particle at a specific point in space.",
+        "B: The distribution of the probability of finding a particle at a specific distance from the origin.",
+        "C: The energy of a particle in a strong magnetic field.",
+        "D: The temperature of a quantum mechanical system."
+      ],
+      "correct_answer": "B",
+      "explanation": "The radial solution structure refers to the probability of finding a particle at a specific distance from a point (e.g., the nucleus of an atom). This distribution is essential for understanding electron clouds and orbitals in quantum mechanics.",
+      "difficulty": 4,
+      "subcategory": "Lösungsstruktur (radial)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Kritische Exponenten",
+      "question": "Which critical exponent describes the divergence of specific heat capacity at a critical point?",
+      "choices": [
+        "A: α",
+        "B: β",
+        "C: δ",
+        "D: γ"
+      ],
+      "correct_answer": "D",
+      "explanation": "The critical exponent γ describes the divergence of specific heat capacity at a critical point, where the system undergoes a phase transition. It is an important parameter in thermodynamics that helps understand the behavior of matter near critical points.",
+      "difficulty": 5,
+      "subcategory": "Kritische Exponenten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Lichtleitfasern (Grundlagen)",
+      "question": "What is the main principle that guides light in an optical fiber?",
+      "choices": [
+        "A: Scattering",
+        "B: Refraction",
+        "C: Absorption",
+        "D: Total internal reflection"
+      ],
+      "correct_answer": "D",
+      "explanation": "The main principle guiding light in an optical fiber is total internal reflection. In this process, light is reflected at the interface between the core of the fiber and the cladding, allowing it to remain within the fiber and be transported over long distances.",
+      "difficulty": 7,
+      "subcategory": "Lichtleitfasern (Grundlagen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Isolierte Systeme: Maximum der Entropie",
+      "question": "What does the maximum entropy principle state for an isolated system in thermodynamic equilibrium?",
+      "choices": [
+        "A: Entropy varies periodically in equilibrium.",
+        "B: Entropy is maximal and remains constant.",
+        "C: Entropy can never reach the maximum value.",
+        "D: Entropy is minimal and increases with time."
+      ],
+      "correct_answer": "B",
+      "explanation": "In thermodynamic equilibrium, the entropy of an isolated system reaches its maximum value. This property is a fundamental principle of thermodynamics and describes that systems tend to reach states of higher disorder.",
+      "difficulty": 6,
+      "subcategory": "Isolierte Systeme: Maximum der Entropie"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Temperaturbegriff (thermisches Gleichgewicht)",
+      "question": "What does the concept of temperature describe in the context of thermal equilibrium?",
+      "choices": [
+        "A: The strength of intermolecular forces in a material.",
+        "B: The number of particles in a system.",
+        "C: The maximum energy a system can generate.",
+        "D: The average kinetic energy of particles in a system."
+      ],
+      "correct_answer": "D",
+      "explanation": "The concept of temperature describes the average kinetic energy of particles in a system. In thermal equilibrium, two systems have the same temperature, meaning there is no net temperature difference and thus no heat exchange.",
+      "difficulty": 3,
+      "subcategory": "Temperaturbegriff (thermisches Gleichgewicht)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Moden im dielektrischen Wellenleiter",
+      "question": "What does a mode in a dielectric waveguide describe?",
+      "choices": [
+        "A: The frequency of light transmitted through the waveguide.",
+        "B: The temperature of the waveguide material.",
+        "C: The different possible light distributions in the waveguide.",
+        "D: The length of the waveguide."
+      ],
+      "correct_answer": "C",
+      "explanation": "A mode in a dielectric waveguide describes the different possible distributions and intensities of light propagating within the waveguide. Each mode has a specific propagation property and characteristic frequency.",
+      "difficulty": 2,
+      "subcategory": "Moden im dielektrischen Wellenleiter"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Freie Materiewelle",
+      "question": "What does the free matter wave describe in quantum mechanics?",
+      "choices": [
+        "A: A wave that can only exist in two dimensions.",
+        "B: A standing wave existing in a solid medium.",
+        "C: A wave that propagates without interactions.",
+        "D: A wave that always travels at the speed of light."
+      ],
+      "correct_answer": "C",
+      "explanation": "The free matter wave describes a particle wave that propagates without interactions with other particles or fields. In quantum mechanics, particles can be considered both as particles and waves, with the free matter wave being an important foundation for understanding quantum mechanics.",
+      "difficulty": 3,
+      "subcategory": "Freie Materiewelle"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Wärmeleitung in Gasen",
+      "question": "Which statement about heat conduction in gases is correct?",
+      "choices": [
+        "A: Gases have no thermal conductivity.",
+        "B: Heat conduction in gases mainly occurs through molecular motion.",
+        "C: Heat conduction in gases is independent of temperature.",
+        "D: Gases conduct heat better than liquids."
+      ],
+      "correct_answer": "B",
+      "explanation": "Heat conduction in gases occurs through the collision and movement of molecules. The faster the molecules move, the better heat can be transferred, depending on the temperature. Gases generally conduct heat worse than liquids and solids.",
+      "difficulty": 5,
+      "subcategory": "Wärmeleitung in Gasen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Kugelsymmetrischer Potentialtopf (radial)",
+      "question": "What does the radially symmetric potential describe in quantum mechanics?",
+      "choices": [
+        "A: The energy states of a particle in a central potential.",
+        "B: The motion of a particle in a one-dimensional potential.",
+        "C: The interactions between two particles in a vacuum.",
+        "D: The thermodynamic properties of an ideal gas."
+      ],
+      "correct_answer": "A",
+      "explanation": "In quantum mechanics, a radially symmetric potential describes the energy states of a particle moving in a central potential field. Such potentials are particularly relevant for systems like electrons in atoms, where symmetry plays an important role.",
+      "difficulty": 6,
+      "subcategory": "Kugelsymmetrischer Potentialtopf (radial)"
+    }
+  ]
+}
