@@ -1,0 +1,169 @@
+{
+  "date": "2026-08-24",
+  "generated_at": "2026-08-24T03:49:27Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Stoßquerschnitt & mittlere freie Weglänge",
+      "question": "Was beschreibt der Stoßquerschnitt in der klassischen Mechanik?",
+      "choices": [
+        "A: Die maximale Geschwindigkeit eines Teilchens in einem Vakuum.",
+        "B: Die Masse eines Teilchens in Relation zu seiner Energie.",
+        "C: Die Temperatur eines Gases in Bezug auf seine kinetische Energie.",
+        "D: Die Wahrscheinlichkeit, dass Teilchen in einem bestimmten Bereich eines Raumes aufeinanderstoßen."
+      ],
+      "correct_answer": "D",
+      "explanation": "Der Stoßquerschnitt ist ein Maß für die Wahrscheinlichkeit, dass zwei Teilchen bei einer bestimmten Wechselwirkung aufeinandertreffen. Er ist entscheidend für die Berechnung der mittleren freien Weglänge, da er angibt, wie oft und wie wahrscheinlich Teilchen in einem bestimmten Volumen kollidieren.",
+      "difficulty": 6,
+      "subcategory": "Stoßquerschnitt & mittlere freie Weglänge"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Auflösungsvermögen optischer Geräte",
+      "question": "Welches der folgenden Faktoren hat den größten Einfluss auf das Auflösungsvermögen eines Mikroskops?",
+      "choices": [
+        "A: Die Art des Objekts, das beobachtet wird",
+        "B: Die Wellenlänge des verwendeten Lichts",
+        "C: Die Größe des Mikroskops",
+        "D: Die Anzahl der Linsen im Mikroskop"
+      ],
+      "correct_answer": "B",
+      "explanation": "Das Auflösungsvermögen eines Mikroskops wird maßgeblich durch die Wellenlänge des verwendeten Lichts bestimmt. Kürzere Wellenlängen ermöglichen es, kleinere Details aufzulösen, während längere Wellenlängen zu einer geringeren Auflösung führen. Daher ist die Wellenlänge der entscheidende Faktor für das Auflösungsvermögen.",
+      "difficulty": 7,
+      "subcategory": "Auflösungsvermögen optischer Geräte"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Gibbs-Phasenregel; Mehrkomponenten-Gleichgewichte",
+      "question": "Was beschreibt die Gibbs-Phasenregel?",
+      "choices": [
+        "A: Alle Phasen eines Systems haben die gleiche Dichte.",
+        "B: Die Energie einer Phase ist immer konstant.",
+        "C: Die Anzahl der Phasen in einem Gleichgewichtssystem hängt von der Anzahl der Komponenten und der Freiheitsgrade ab.",
+        "D: Phasenwechsel können nur bei Temperaturänderungen stattfinden."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Gibbs-Phasenregel beschreibt, wie die Anzahl der Phasen in einem thermodynamischen Gleichgewicht durch die Anzahl der chemischen Komponenten und die Freiheitsgrade des Systems bestimmt wird. Dies ist grundlegend für das Verständnis von mehrkomponentigen Gleichgewichten in der statistischen Mechanik.",
+      "difficulty": 3,
+      "subcategory": "Gibbs-Phasenregel; Mehrkomponenten-Gleichgewichte"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Zeitunabhängige Störungstheorie: entartete Niveaus",
+      "question": "Was beschreibt die zeitunabhängige Störungstheorie in der Quantenmechanik für entartete Niveaus?",
+      "choices": [
+        "A: Die Unveränderlichkeit der Energie der entarteten Niveaus.",
+        "B: Die Aufspaltung der entarteten Niveaus bei Einwirkung einer Störung.",
+        "C: Die Berechnung der Lebensdauer von instabilen Zuständen.",
+        "D: Die vollständige Entartung der Niveaus ohne Einfluss von Störungen."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die zeitunabhängige Störungstheorie beschreibt, wie entartete Energieniveaus auf eine Störung reagieren und sich aufspalten. Bei der Berücksichtigung von Störungen wird die Wechselwirkung zwischen den Zuständen wichtig, was zu einer energetischen Differenzierung führt.",
+      "difficulty": 3,
+      "subcategory": "Zeitunabhängige Störungstheorie: entartete Niveaus"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Arbeit in der Thermodynamik (p dV, generalisiert)",
+      "question": "Was beschreibt die Arbeit, die an einem Gaskolben verrichtet wird, wenn sich das Volumen unter konstantem Druck ändert?",
+      "choices": [
+        "A: Die Arbeit wird nur verrichtet, wenn die Temperatur konstant bleibt.",
+        "B: Die Arbeit ist gleich dem Produkt aus dem Druck und der Änderung des Volumens (W = p * ΔV).",
+        "C: Die Arbeit ist unabhängig von der Druckänderung.",
+        "D: Die Arbeit ist immer negativ, wenn sich das Volumen erhöht."
+      ],
+      "correct_answer": "B",
+      "explanation": "In der Thermodynamik wird die Arbeit, die an einem Gaskolben verrichtet wird, durch die Formel W = p * ΔV beschrieben, wobei p der Druck und ΔV die Volumenänderung ist. Diese Beziehung gilt für Prozesse, bei denen der Druck konstant bleibt.",
+      "difficulty": 4,
+      "subcategory": "Arbeit in der Thermodynamik (p dV, generalisiert)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Brechungsindex (Dispersion)",
+      "question": "Was beschreibt der Brechungsindex eines Materials?",
+      "choices": [
+        "A: Die Temperatur des Materials.",
+        "B: Das Verhältnis der Lichtgeschwindigkeit im Vakuum zur Lichtgeschwindigkeit im Material.",
+        "C: Die Farbe des Materials.",
+        "D: Die Dichte des Materials."
+      ],
+      "correct_answer": "B",
+      "explanation": "Der Brechungsindex ist eine dimensionslose Zahl, die angibt, wie viel langsamer Licht in einem bestimmten Material im Vergleich zum Vakuum ist. Ein höherer Brechungsindex bedeutet, dass Licht stärker gebrochen wird, was bei der Dispersion zu beobachten ist.",
+      "difficulty": 2,
+      "subcategory": "Brechungsindex (Dispersion)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Gegen- und Selbstinduktion",
+      "question": "Was beschreibt der Begriff 'Selbstinduktion' in einem elektrischen Stromkreis?",
+      "choices": [
+        "A: Die Erzeugung einer EMK durch die Bewegung eines Magneten in einem Stromkreis.",
+        "B: Die Beeinflussung des Stroms durch externe Magnetfelder.",
+        "C: Die Erzeugung einer Elektromotorischen Kraft (EMK) durch eine Veränderung des eigenen Stroms.",
+        "D: Die Speicherung von elektrischer Energie in einem Kondensator."
+      ],
+      "correct_answer": "C",
+      "explanation": "Selbstinduktion tritt auf, wenn eine Änderung des elektrischen Stroms in einer Spule eine EMK erzeugt, die dem ursprünglichen Stromfluss entgegenwirkt. Dies ist ein grundlegendes Prinzip in der Elektrodynamik, das in vielen Anwendungen wie Transformatoren und Induktivitäten vorkommt.",
+      "difficulty": 2,
+      "subcategory": "Gegen- und Selbstinduktion"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Nuklide & Nuklidkarte",
+      "question": "Welches der folgenden Nuklide hat die größte Bindungsenergie pro Nukleon?",
+      "choices": [
+        "A: 56Fe",
+        "B: 3H",
+        "C: 12C",
+        "D: 238U"
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Nuklid Eisen-56 (56Fe) hat die höchste Bindungsenergie pro Nukleon, was es zu einem der stabilsten Nuklide macht. Diese hohe Bindungsenergie ist ein Grund, warum Eisen in vielen astrophysikalischen Prozessen eine zentrale Rolle spielt, insbesondere in der Nukleosynthese von Sternen.",
+      "difficulty": 7,
+      "subcategory": "Nuklide & Nuklidkarte"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Ebene Wellen & Polarisation",
+      "question": "Welche der folgenden Aussagen beschreibt eine polarisiert Welle korrekt?",
+      "choices": [
+        "A: Eine polarisiert Welle schwingt in einer bestimmten Ebene.",
+        "B: Eine polarisiert Welle kann nur in einem Vakuum existieren.",
+        "C: Eine polarisiert Welle reflektiert sich nicht an Oberflächen.",
+        "D: Eine polarisiert Welle hat eine variable Wellenlänge."
+      ],
+      "correct_answer": "A",
+      "explanation": "Eine polarisiert Welle schwingt in eine bestimmte Richtung oder Ebene, was bedeutet, dass die elektrische Feldstärke in einer definierten Ebene variiert. Diese Eigenschaft unterscheidet sich von unpolarisierten Wellen, die in beliebigen Richtungen schwingen können.",
+      "difficulty": 5,
+      "subcategory": "Ebene Wellen & Polarisation"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Carnot-Kreisprozess & Wirkungsgrad",
+      "question": "Welcher der folgenden Faktoren beeinflusst den maximalen Wirkungsgrad eines Carnot-Kreisprozesses?",
+      "choices": [
+        "A: Der Druck des Arbeitsmediums.",
+        "B: Die Geschwindigkeit des Arbeitsmediums.",
+        "C: Die Temperaturdifferenz zwischen der heißen und der kalten Wärmequelle.",
+        "D: Die Art des verwendeten Arbeitsmediums."
+      ],
+      "correct_answer": "C",
+      "explanation": "Der maximale Wirkungsgrad eines Carnot-Kreisprozesses hängt ausschließlich von der Temperaturdifferenz zwischen der heißen und der kalten Wärmequelle ab, gemäß der Formel η = 1 - (T_k/T_h). Die anderen Faktoren beeinflussen den Wirkungsgrad nicht direkt im Rahmen des Carnot-Modells.",
+      "difficulty": 8,
+      "subcategory": "Carnot-Kreisprozess & Wirkungsgrad"
+    }
+  ]
+}

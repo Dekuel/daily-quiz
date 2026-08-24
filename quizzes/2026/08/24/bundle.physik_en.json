@@ -1,0 +1,168 @@
+{
+  "date": "2026-08-24",
+  "generated_at": "2026-08-24T03:49:55Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Stoßquerschnitt & mittlere freie Weglänge",
+      "question": "What does the cross section describe in classical mechanics?",
+      "choices": [
+        "Which of the following factors has the greatest influence on the resolution of a microscope?",
+        "The resolution of a microscope is primarily determined by the wavelength of the light used. Shorter wavelengths allow for resolving smaller details, while longer wavelengths lead to lower resolution. Therefore, the wavelength is the crucial factor for resolution.",
+        "What does the Gibbs phase rule describe?",
+        "The Gibbs phase rule describes how the number of phases in a thermodynamic equilibrium is determined by the number of chemical components and the degrees of freedom of the system. This is fundamental for understanding multi-component equilibria in statistical mechanics."
+      ],
+      "correct_answer": "D",
+      "explanation": "The cross section is a measure of the probability that two particles will collide in a specific interaction. It is crucial for calculating the mean free path, as it indicates how often and how likely particles will collide within a certain volume.",
+      "difficulty": 6,
+      "subcategory": "Stoßquerschnitt & mittlere freie Weglänge"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Auflösungsvermögen optischer Geräte",
+      "question": "What does the time-independent perturbation theory describe in quantum mechanics for degenerate levels?",
+      "choices": [
+        "What does the work done on a gas piston when the volume changes at constant pressure describe?",
+        "In thermodynamics, the work done on a gas piston is described by the formula W = p * ΔV, where p is the pressure and ΔV is the volume change. This relationship holds for processes where the pressure remains constant.",
+        "What does the refractive index of a material describe?",
+        "The refractive index is a dimensionless number indicating how much slower light travels in a specific material compared to vacuum. A higher refractive index means light is more strongly refracted, as observed in dispersion."
+      ],
+      "correct_answer": "B",
+      "explanation": "The time-independent perturbation theory describes how degenerate energy levels respond to a perturbation and split. When considering perturbations, the interaction between states becomes important, leading to an energetic differentiation.",
+      "difficulty": 7,
+      "subcategory": "Auflösungsvermögen optischer Geräte"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Gibbs-Phasenregel; Mehrkomponenten-Gleichgewichte",
+      "question": "What does the term 'self-induction' in an electrical circuit describe?",
+      "choices": [
+        "Which of the following nuclides has the highest binding energy per nucleon?",
+        "The nuclide iron-56 (56Fe) has the highest binding energy per nucleon, making it one of the most stable nuclides. This high binding energy is why iron plays a central role in many astrophysical processes, especially in stellar nucleosynthesis.",
+        "Which of the following statements correctly describes a polarized wave?",
+        "A polarized wave oscillates in a specific direction or plane, meaning the electric field strength varies in a defined plane. This property distinguishes it from unpolarized waves that can oscillate in any direction."
+      ],
+      "correct_answer": "C",
+      "explanation": "Self-induction occurs when a change in the electric current in a coil generates an electromotive force (EMF) that opposes the original current flow. This is a fundamental principle in electrodynamics found in applications like transformers and inductors.",
+      "difficulty": 3,
+      "subcategory": "Gibbs-Phasenregel; Mehrkomponenten-Gleichgewichte"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Zeitunabhängige Störungstheorie: entartete Niveaus",
+      "question": "Which of the following factors influences the maximum efficiency of a Carnot cycle process?",
+      "choices": [
+        "A: Die Unveränderlichkeit der Energie der entarteten Niveaus.",
+        "B: Die Aufspaltung der entarteten Niveaus bei Einwirkung einer Störung.",
+        "C: Die Berechnung der Lebensdauer von instabilen Zuständen.",
+        "D: Die vollständige Entartung der Niveaus ohne Einfluss von Störungen."
+      ],
+      "correct_answer": "B",
+      "explanation": "The maximum efficiency of a Carnot cycle process depends solely on the temperature difference between the hot and cold heat sources, according to the formula η = 1 - (T_c/T_h). The other factors do not directly influence the efficiency within the Carnot model.",
+      "difficulty": 3,
+      "subcategory": "Zeitunabhängige Störungstheorie: entartete Niveaus"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Arbeit in der Thermodynamik (p dV, generalisiert)",
+      "question": "Was beschreibt die Arbeit, die an einem Gaskolben verrichtet wird, wenn sich das Volumen unter konstantem Druck ändert?",
+      "choices": [
+        "A: Die Arbeit wird nur verrichtet, wenn die Temperatur konstant bleibt.",
+        "B: Die Arbeit ist gleich dem Produkt aus dem Druck und der Änderung des Volumens (W = p * ΔV).",
+        "C: Die Arbeit ist unabhängig von der Druckänderung.",
+        "D: Die Arbeit ist immer negativ, wenn sich das Volumen erhöht."
+      ],
+      "correct_answer": "B",
+      "explanation": "In der Thermodynamik wird die Arbeit, die an einem Gaskolben verrichtet wird, durch die Formel W = p * ΔV beschrieben, wobei p der Druck und ΔV die Volumenänderung ist. Diese Beziehung gilt für Prozesse, bei denen der Druck konstant bleibt.",
+      "difficulty": 4,
+      "subcategory": "Arbeit in der Thermodynamik (p dV, generalisiert)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Brechungsindex (Dispersion)",
+      "question": "Was beschreibt der Brechungsindex eines Materials?",
+      "choices": [
+        "A: Die Temperatur des Materials.",
+        "B: Das Verhältnis der Lichtgeschwindigkeit im Vakuum zur Lichtgeschwindigkeit im Material.",
+        "C: Die Farbe des Materials.",
+        "D: Die Dichte des Materials."
+      ],
+      "correct_answer": "B",
+      "explanation": "Der Brechungsindex ist eine dimensionslose Zahl, die angibt, wie viel langsamer Licht in einem bestimmten Material im Vergleich zum Vakuum ist. Ein höherer Brechungsindex bedeutet, dass Licht stärker gebrochen wird, was bei der Dispersion zu beobachten ist.",
+      "difficulty": 2,
+      "subcategory": "Brechungsindex (Dispersion)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Gegen- und Selbstinduktion",
+      "question": "Was beschreibt der Begriff 'Selbstinduktion' in einem elektrischen Stromkreis?",
+      "choices": [
+        "A: Die Erzeugung einer EMK durch die Bewegung eines Magneten in einem Stromkreis.",
+        "B: Die Beeinflussung des Stroms durch externe Magnetfelder.",
+        "C: Die Erzeugung einer Elektromotorischen Kraft (EMK) durch eine Veränderung des eigenen Stroms.",
+        "D: Die Speicherung von elektrischer Energie in einem Kondensator."
+      ],
+      "correct_answer": "C",
+      "explanation": "Selbstinduktion tritt auf, wenn eine Änderung des elektrischen Stroms in einer Spule eine EMK erzeugt, die dem ursprünglichen Stromfluss entgegenwirkt. Dies ist ein grundlegendes Prinzip in der Elektrodynamik, das in vielen Anwendungen wie Transformatoren und Induktivitäten vorkommt.",
+      "difficulty": 2,
+      "subcategory": "Gegen- und Selbstinduktion"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Nuklide & Nuklidkarte",
+      "question": "Welches der folgenden Nuklide hat die größte Bindungsenergie pro Nukleon?",
+      "choices": [
+        "A: 56Fe",
+        "B: 3H",
+        "C: 12C",
+        "D: 238U"
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Nuklid Eisen-56 (56Fe) hat die höchste Bindungsenergie pro Nukleon, was es zu einem der stabilsten Nuklide macht. Diese hohe Bindungsenergie ist ein Grund, warum Eisen in vielen astrophysikalischen Prozessen eine zentrale Rolle spielt, insbesondere in der Nukleosynthese von Sternen.",
+      "difficulty": 7,
+      "subcategory": "Nuklide & Nuklidkarte"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Ebene Wellen & Polarisation",
+      "question": "Welche der folgenden Aussagen beschreibt eine polarisiert Welle korrekt?",
+      "choices": [
+        "A: Eine polarisiert Welle schwingt in einer bestimmten Ebene.",
+        "B: Eine polarisiert Welle kann nur in einem Vakuum existieren.",
+        "C: Eine polarisiert Welle reflektiert sich nicht an Oberflächen.",
+        "D: Eine polarisiert Welle hat eine variable Wellenlänge."
+      ],
+      "correct_answer": "A",
+      "explanation": "Eine polarisiert Welle schwingt in eine bestimmte Richtung oder Ebene, was bedeutet, dass die elektrische Feldstärke in einer definierten Ebene variiert. Diese Eigenschaft unterscheidet sich von unpolarisierten Wellen, die in beliebigen Richtungen schwingen können.",
+      "difficulty": 5,
+      "subcategory": "Ebene Wellen & Polarisation"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Carnot-Kreisprozess & Wirkungsgrad",
+      "question": "Welcher der folgenden Faktoren beeinflusst den maximalen Wirkungsgrad eines Carnot-Kreisprozesses?",
+      "choices": [
+        "A: Der Druck des Arbeitsmediums.",
+        "B: Die Geschwindigkeit des Arbeitsmediums.",
+        "C: Die Temperaturdifferenz zwischen der heißen und der kalten Wärmequelle.",
+        "D: Die Art des verwendeten Arbeitsmediums."
+      ],
+      "correct_answer": "C",
+      "explanation": "Der maximale Wirkungsgrad eines Carnot-Kreisprozesses hängt ausschließlich von der Temperaturdifferenz zwischen der heißen und der kalten Wärmequelle ab, gemäß der Formel η = 1 - (T_k/T_h). Die anderen Faktoren beeinflussen den Wirkungsgrad nicht direkt im Rahmen des Carnot-Modells.",
+      "difficulty": 8,
+      "subcategory": "Carnot-Kreisprozess & Wirkungsgrad"
+    }
+  ]
+}
