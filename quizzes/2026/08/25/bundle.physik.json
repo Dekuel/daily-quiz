@@ -1,0 +1,169 @@
+{
+  "date": "2026-08-25",
+  "generated_at": "2026-08-25T03:43:06Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Noether-Idee: Homogenität der Zeit ⇒ Energieerhaltung",
+      "question": "Welche Aussage beschreibt am besten die Beziehung zwischen der Homogenität der Zeit und der Energieerhaltung nach der Noether-Idee?",
+      "choices": [
+        "A: Zeit kann als Dimension in der Physik ignoriert werden.",
+        "B: Die Invarianz der physikalischen Gesetze über die Zeit führt zur Erhaltung der Energie.",
+        "C: Die Zeitmessung ist unabhängig von der Bewegung eines Körpers.",
+        "D: Energien können nur in geschlossenen Systemen erhalten werden."
+      ],
+      "correct_answer": "B",
+      "explanation": "Nach der Noether-Idee führt die Homogenität der Zeit, also die Unabhängigkeit der physikalischen Gesetze von der Zeit, zur Erhaltung der Energie. Dies bedeutet, dass in einem geschlossenen System die Gesamtenergie konstant bleibt.",
+      "difficulty": 4,
+      "subcategory": "Noether-Idee: Homogenität der Zeit ⇒ Energieerhaltung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Kanonisches Ensemble: Dichtematrix & Zustandssumme",
+      "question": "Was beschreibt die Zustandssumme im kanonischen Ensemble?",
+      "choices": [
+        "A: Sie ist die Masse eines Systems in Ruhe.",
+        "B: Sie ist die Summe aller möglichen Energiezustände eines Systems bei konstanter Temperatur.",
+        "C: Sie ist die Anzahl der Teilchen in einem idealen Gas.",
+        "D: Sie beschreibt die Wechselwirkungen zwischen verschiedenen physikalischen Feldern."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Zustandssumme im kanonischen Ensemble ist ein zentrales Konzept, das die thermodynamischen Eigenschaften eines Systems beschreibt. Sie ergibt sich aus der Summe der Exponentialfunktionen der Energiezustände, gewichtet durch die Boltzmann-Konstante und die Temperatur.",
+      "difficulty": 6,
+      "subcategory": "Kanonisches Ensemble: Dichtematrix & Zustandssumme"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Glasherstellung",
+      "question": "Welcher der folgenden Rohstoffe wird typischerweise bei der Herstellung von Glas verwendet?",
+      "choices": [
+        "A: Aluminiumoxid",
+        "B: Kupferoxid",
+        "C: Siliziumdioxid",
+        "D: Eisenoxid"
+      ],
+      "correct_answer": "C",
+      "explanation": "Siliziumdioxid ist der Hauptbestandteil von Glas und sorgt für dessen Transparenz und Festigkeit. Es wird oft in Form von Quarzsand verwendet, während die anderen genannten Oxide in der Glasherstellung weniger verbreitet sind.",
+      "difficulty": 5,
+      "subcategory": "Glasherstellung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Dirac-Gleichung",
+      "question": "Welche Aussage über die Dirac-Gleichung ist korrekt?",
+      "choices": [
+        "A: Sie beschreibt den Spin von Teilchen ohne Berücksichtigung der Relativität.",
+        "B: Sie kann nur in einer nicht-relativistischen Formulierung genutzt werden.",
+        "C: Sie ist eine relativistische Quantenmechanik-Gleichung, die Elektronen als Spin-1/2-Teilchen beschreibt.",
+        "D: Sie ist ausschließlich für masselose Teilchen anwendbar."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Dirac-Gleichung ist eine fundamentale Gleichung der Quantenmechanik, die relativistische Effekte berücksichtigt und Elektronen als Spin-1/2-Teilchen beschreibt. Sie ist essentiell für das Verständnis der Antimaterie und relativistischen Quanteneffekte.",
+      "difficulty": 8,
+      "subcategory": "Dirac-Gleichung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Kriterien für Kanonizität (Symplektizität)",
+      "question": "Welche Bedingung muss erfüllt sein, damit ein Hamiltonsches System symplektisch ist?",
+      "choices": [
+        "A: Die Hamilton-Funktionen müssen eine kontinuierliche Ableitung besitzen.",
+        "B: Die Poisson-Klammer zwischen den kanonischen Variablen muss konstant sein.",
+        "C: Die Energie muss konstant sein.",
+        "D: Die Symplektische Form muss geschlossen sein."
+      ],
+      "correct_answer": "D",
+      "explanation": "Ein Hamiltonsches System ist genau dann symplektisch, wenn die symplektische Form geschlossen ist. Dies stellt sicher, dass die kanonischen Variablen die nötigen Eigenschaften für die Erhaltung von Strukturen im Phasenraum besitzen.",
+      "difficulty": 5,
+      "subcategory": "Kriterien für Kanonizität (Symplektizität)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Plancksche Strahlungsformel",
+      "question": "Welche Aussage zur Planckschen Strahlungsformel ist korrekt?",
+      "choices": [
+        "A: Die Formel ist nur für Wellenlängen im sichtbaren Bereich gültig.",
+        "B: Die Formel gilt nur für ideale Gase und ist nicht anwendbar auf Festkörper.",
+        "C: Die Plancksche Strahlungsformel zeigt, dass die Strahlung eines Körpers unabhängig von seiner Temperatur ist.",
+        "D: Die Formel beschreibt die spektrale Energieverteilung eines schwarzen Körpers in Abhängigkeit von der Temperatur."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Plancksche Strahlungsformel beschreibt, wie die Energie eines schwarzen Körpers über verschiedene Wellenlängen verteilt ist und hängt dabei von der Temperatur des Körpers ab. Sie ist ein zentrales Ergebnis der Quantenmechanik und erklärt das Phänomen der Schwarzkörperstrahlung.",
+      "difficulty": 7,
+      "subcategory": "Plancksche Strahlungsformel"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Cooper-Paare",
+      "question": "Was ist eine charakteristische Eigenschaft von Cooper-Paaren in Supraleitern?",
+      "choices": [
+        "A: Sie sind instabil und zerfallen sofort bei höheren Temperaturen.",
+        "B: Sie sind verantwortlich für die Wärmeleitung in Festkörpern.",
+        "C: Sie bestehen aus zwei Elektronen mit entgegengesetztem Spin und Impuls.",
+        "D: Sie entstehen nur bei Temperaturen über dem kritischen Temperaturbereich."
+      ],
+      "correct_answer": "C",
+      "explanation": "Cooper-Paare sind ein fundamentales Konzept in der Supraleitung, bei dem zwei Elektronen mit entgegengesetzten Spins und Impulsen gekoppelt sind. Diese Paare ermöglichen es Elektronen, sich ohne Widerstand durch ein Material zu bewegen, was typisch für supraleitende Materialien ist.",
+      "difficulty": 8,
+      "subcategory": "Cooper-Paare"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Jacobi-Prinzip (verkürzte Wirkung)",
+      "question": "Was beschreibt das Jacobi-Prinzip in der analytischen Mechanik?",
+      "choices": [
+        "A: Es ermöglicht die Ableitung der Bewegungsgleichungen aus einer Wirkungsfunktion.",
+        "B: Es ist eine Methode zur Berechnung der kinetischen Energie eines Systems.",
+        "C: Es beschreibt die Erhaltung der Impulsgröße in einem abgeschlossenen System.",
+        "D: Es stellt eine Technik zur Lösung von Differentialgleichungen dar."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Jacobi-Prinzip, auch bekannt als verkürzte Wirkung, beschreibt, wie die Bewegungsgleichungen eines mechanischen Systems aus einer bestimmten Wirkungsfunktion abgeleitet werden können. Es ist ein zentrales Konzept in der analytischen Mechanik und ermöglicht die Formulierung der Gleichungen in einer eleganten und allgemeinen Weise.",
+      "difficulty": 8,
+      "subcategory": "Jacobi-Prinzip (verkürzte Wirkung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Heisenberg-Bild & Poisson-Klammer (klass. Limit)",
+      "question": "Welche Aussage beschreibt korrekt die Beziehung zwischen dem Heisenberg-Bild und der Poisson-Klammer im klassischen Limit?",
+      "choices": [
+        "A: Der Zustand eines Systems im Heisenberg-Bild bleibt über die Zeit konstant.",
+        "B: Die Poisson-Klammer beschreibt die Unschärferelation im Heisenberg-Bild.",
+        "C: Die Poisson-Klammer hat keine Relevanz im Heisenberg-Bild der Quantenmechanik.",
+        "D: Im Heisenberg-Bild entsprechen die zeitabhängigen Observablen klassischen Variablen, die durch Poisson-Klammern miteinander verknüpft sind."
+      ],
+      "correct_answer": "D",
+      "explanation": "Im Heisenberg-Bild werden Observablen als zeitabhängig betrachtet, wobei ihre Entwicklung durch Poisson-Klammern beschrieben werden kann, die im klassischen Limit auf die klassischen Variablen angewendet werden. Dies zeigt die Verbindung zwischen Quantenmechanik und klassischer Mechanik auf, insbesondere in Bezug auf die Dynamik von Systemen.",
+      "difficulty": 5,
+      "subcategory": "Heisenberg-Bild & Poisson-Klammer (klass. Limit)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Carnot- und allgemeine Kreisprozesse",
+      "question": "Was beschreibt der Carnot-Prozess in der Thermodynamik?",
+      "choices": [
+        "A: Er ist der effizienteste thermodynamische Kreisprozess, der zwischen zwei Wärmequellen arbeitet.",
+        "B: Er beschreibt einen kontinuierlichen Prozess ohne Temperaturänderungen.",
+        "C: Er ist ein Prozess, der die maximale Arbeit aus einem gegebenen Volumen an gasförmiger Substanz extrahiert.",
+        "D: Er bezieht sich ausschließlich auf ideale Gase bei konstantem Druck."
+      ],
+      "correct_answer": "A",
+      "explanation": "Der Carnot-Prozess ist ein theoretischer thermodynamischer Kreisprozess, der zwischen zwei Wärmequellen arbeitet und als effizientester Prozess gilt. Er definiert eine obere Grenze für die Effizienz von Wärmekraftmaschinen, die zwischen zwei Temperaturniveaus operieren.",
+      "difficulty": 6,
+      "subcategory": "Carnot- und allgemeine Kreisprozesse"
+    }
+  ]
+}

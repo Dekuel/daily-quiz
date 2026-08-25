@@ -1,0 +1,168 @@
+{
+  "date": "2026-08-25",
+  "generated_at": "2026-08-25T03:43:47Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Noether-Idee: Homogenität der Zeit ⇒ Energieerhaltung",
+      "question": "Which statement best describes the relationship between the homogeneity of time and the conservation of energy according to the Noether idea?",
+      "choices": [
+        "A: Time can be ignored as a dimension in physics.",
+        "B: The invariance of physical laws over time leads to the conservation of energy.",
+        "C: Time measurement is independent of the motion of a body.",
+        "D: Energies can only be conserved in closed systems."
+      ],
+      "correct_answer": "B",
+      "explanation": "According to the Noether idea, the homogeneity of time, i.e., the independence of physical laws from time, leads to the conservation of energy. This means that in a closed system, the total energy remains constant.",
+      "difficulty": 4,
+      "subcategory": "Noether-Idee: Homogenität der Zeit ⇒ Energieerhaltung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Kanonisches Ensemble: Dichtematrix & Zustandssumme",
+      "question": "What describes the partition function in the canonical ensemble?",
+      "choices": [
+        "A: It is the mass of a system at rest.",
+        "B: It is the sum of all possible energy states of a system at constant temperature.",
+        "C: It is the number of particles in an ideal gas.",
+        "D: It describes the interactions between different physical fields."
+      ],
+      "correct_answer": "B",
+      "explanation": "The partition function in the canonical ensemble is a central concept that describes the thermodynamic properties of a system. It results from the sum of the exponential functions of the energy states, weighted by the Boltzmann constant and the temperature.",
+      "difficulty": 6,
+      "subcategory": "Kanonisches Ensemble: Dichtematrix & Zustandssumme"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Glasherstellung",
+      "question": "Which of the following raw materials is typically used in the production of glass?",
+      "choices": [
+        "A: Aluminum oxide",
+        "B: Copper oxide",
+        "C: Silicon dioxide",
+        "D: Iron oxide"
+      ],
+      "correct_answer": "C",
+      "explanation": "Silicon dioxide is the main component of glass, providing its transparency and strength. It is often used in the form of quartz sand, while the other mentioned oxides are less common in glass production.",
+      "difficulty": 5,
+      "subcategory": "Glasherstellung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Dirac-Gleichung",
+      "question": "Which statement about the Dirac equation is correct?",
+      "choices": [
+        "A: It describes the spin of particles without considering relativity.",
+        "B: It can only be used in a non-relativistic formulation.",
+        "C: It is a relativistic quantum mechanics equation that describes electrons as spin-1/2 particles.",
+        "D: It is applicable only to massless particles."
+      ],
+      "correct_answer": "C",
+      "explanation": "The Dirac equation is a fundamental equation of quantum mechanics that considers relativistic effects and describes electrons as spin-1/2 particles. It is essential for understanding antimatter and relativistic quantum effects.",
+      "difficulty": 8,
+      "subcategory": "Dirac-Gleichung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Kriterien für Kanonizität (Symplektizität)",
+      "question": "What condition must be met for a Hamiltonian system to be symplectic?",
+      "choices": [
+        "A: The Hamiltonian functions must have a continuous derivative.",
+        "B: The Poisson bracket between the canonical variables must be constant.",
+        "C: The energy must be constant.",
+        "D: The symplectic form must be closed."
+      ],
+      "correct_answer": "D",
+      "explanation": "A Hamiltonian system is symplectic if and only if the symplectic form is closed. This ensures that the canonical variables have the necessary properties for preserving structures in phase space.",
+      "difficulty": 5,
+      "subcategory": "Kriterien für Kanonizität (Symplektizität)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Plancksche Strahlungsformel",
+      "question": "Which statement about Planck's radiation formula is correct?",
+      "choices": [
+        "A: The formula is valid only for wavelengths in the visible range.",
+        "B: The formula applies only to ideal gases and is not applicable to solids.",
+        "C: Planck's radiation formula shows that a body's radiation is independent of its temperature.",
+        "D: The formula describes the spectral energy distribution of a black body depending on the temperature."
+      ],
+      "correct_answer": "D",
+      "explanation": "Planck's radiation formula describes how the energy of a black body is distributed over different wavelengths and depends on the body's temperature. It is a central result of quantum mechanics and explains the phenomenon of blackbody radiation.",
+      "difficulty": 7,
+      "subcategory": "Plancksche Strahlungsformel"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Cooper-Paare",
+      "question": "What is a characteristic property of Cooper pairs in superconductors?",
+      "choices": [
+        "A: They are unstable and decay immediately at higher temperatures.",
+        "B: They are responsible for heat conduction in solids.",
+        "C: They consist of two electrons with opposite spin and momentum.",
+        "D: They only form at temperatures above the critical range."
+      ],
+      "correct_answer": "C",
+      "explanation": "Cooper pairs are a fundamental concept in superconductivity, where two electrons with opposite spins and momenta are coupled. These pairs allow electrons to move through a material without resistance, which is typical of superconducting materials.",
+      "difficulty": 8,
+      "subcategory": "Cooper-Paare"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Jacobi-Prinzip (verkürzte Wirkung)",
+      "question": "What does the Jacobi principle describe in analytical mechanics?",
+      "choices": [
+        "A: It allows the derivation of the equations of motion from an action function.",
+        "B: It is a method for calculating the kinetic energy of a system.",
+        "C: It describes the conservation of momentum in a closed system.",
+        "D: It represents a technique for solving differential equations."
+      ],
+      "correct_answer": "A",
+      "explanation": "The Jacobi principle, also known as the abbreviated action, describes how the equations of motion of a mechanical system can be derived from a specific action function. It is a central concept in analytical mechanics and allows the formulation of equations in an elegant and general way.",
+      "difficulty": 8,
+      "subcategory": "Jacobi-Prinzip (verkürzte Wirkung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Heisenberg-Bild & Poisson-Klammer (klass. Limit)",
+      "question": "Which statement correctly describes the relationship between the Heisenberg picture and the Poisson bracket in the classical limit?",
+      "choices": [
+        "A: The state of a system in the Heisenberg picture remains constant over time.",
+        "B: The Poisson bracket describes the uncertainty principle in the Heisenberg picture.",
+        "C: The Poisson bracket is irrelevant in the Heisenberg picture of quantum mechanics.",
+        "D: In the Heisenberg picture, the time-dependent observables correspond to classical variables linked by Poisson brackets."
+      ],
+      "correct_answer": "D",
+      "explanation": "In the Heisenberg picture, observables are considered time-dependent, and their evolution can be described by Poisson brackets applied to classical variables in the classical limit. This demonstrates the connection between quantum mechanics and classical mechanics, especially regarding the dynamics of systems.",
+      "difficulty": 5,
+      "subcategory": "Heisenberg-Bild & Poisson-Klammer (klass. Limit)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Carnot- und allgemeine Kreisprozesse",
+      "question": "What does the Carnot process describe in thermodynamics?",
+      "choices": [
+        "A: It is the most efficient thermodynamic cycle operating between two heat sources.",
+        "B: It describes a continuous process without temperature changes.",
+        "C: It is a process that extracts the maximum work from a given volume of gaseous substance.",
+        "D: It only refers to ideal gases at constant pressure."
+      ],
+      "correct_answer": "A",
+      "explanation": "The Carnot process is a theoretical thermodynamic cycle that operates between two heat sources and is considered the most efficient process. It defines an upper limit for the efficiency of heat engines operating between two temperature levels.",
+      "difficulty": 6,
+      "subcategory": "Carnot- und allgemeine Kreisprozesse"
+    }
+  ]
+}
