@@ -1,0 +1,168 @@
+{
+  "date": "2026-08-26",
+  "generated_at": "2026-08-26T03:49:39Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Reflexions- und Brechungsgesetz",
+      "question": "What does the law of reflection state?",
+      "choices": [
+        "A: The angle of refraction is always greater than the angle of incidence.",
+        "B: Light cannot be reflected.",
+        "C: The angle of incidence is equal to the angle of reflection.",
+        "D: Light is always refracted when it hits a surface."
+      ],
+      "correct_answer": "C",
+      "explanation": "The law of reflection states that the angle of incidence is equal to the angle of reflection. This means that light is reflected at the same angle at which it strikes the surface.",
+      "difficulty": 3,
+      "subcategory": "Reflexions- und Brechungsgesetz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Brechende Kugelflächen",
+      "question": "Which of the following statements about light refraction on a spherical surface is correct?",
+      "choices": [
+        "A: Light is never refracted on a convex spherical surface.",
+        "B: The angle of refraction is always equal to the angle of incidence.",
+        "C: The light beam is not reflected at the surface.",
+        "D: The refractive index of the medium influences how much the light is refracted."
+      ],
+      "correct_answer": "D",
+      "explanation": "The refractive index of the medium is crucial for the degree of light refraction on a surface. A higher refractive index leads to a stronger deviation of the light beam. The other statements are either incorrect or misleading regarding the physics of light refraction.",
+      "difficulty": 7,
+      "subcategory": "Brechende Kugelflächen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Zustandsgleichung & thermische Ausdehnung",
+      "question": "Which statement about the thermal expansion of solids is correct?",
+      "choices": [
+        "A: The equation of state for solids is identical to that for gases.",
+        "B: Thermal expansion only occurs in metals, not in non-metals.",
+        "C: The thermal expansion of a solid is proportional to the change in temperature and depends on the material.",
+        "D: The thermal expansion is the same for all materials and independent of temperature."
+      ],
+      "correct_answer": "C",
+      "explanation": "The thermal expansion of a solid is indeed proportional to the change in temperature and varies depending on material properties. This property is important for applications in engineering to avoid deformations and stresses.",
+      "difficulty": 7,
+      "subcategory": "Zustandsgleichung & thermische Ausdehnung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Integrale der Bewegung & Involution",
+      "question": "Which of the following integrals of motion describes the conservation of angular momentum in a closed system?",
+      "choices": [
+        "A: The integral of momentum over time.",
+        "B: The integral of force over time.",
+        "C: The integral of the moment over time.",
+        "D: The integral of velocity over time."
+      ],
+      "correct_answer": "C",
+      "explanation": "The integral of the moment (torque) over time leads to the conservation of angular momentum when no external torques are acting. In a closed system, angular momentum remains constant, which is a central concept in analytical mechanics.",
+      "difficulty": 7,
+      "subcategory": "Integrale der Bewegung & Involution"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Temperaturbegriff (thermisches Gleichgewicht)",
+      "question": "What describes the thermal equilibrium between two bodies?",
+      "choices": [
+        "A: One of the bodies has a higher temperature than the other.",
+        "B: The bodies are in different environments.",
+        "C: The bodies constantly exchange heat.",
+        "D: Both bodies have the same temperature."
+      ],
+      "correct_answer": "D",
+      "explanation": "Thermal equilibrium means that two bodies in contact no longer exchange net heat, which only occurs when they have the same temperature. In this state, the heat flow between the bodies is zero.",
+      "difficulty": 4,
+      "subcategory": "Temperaturbegriff (thermisches Gleichgewicht)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Kinematik der Elektronenstreuung",
+      "question": "What describes the kinematics of electron scattering?",
+      "choices": [
+        "A: The chemical reactions of electrons in atoms.",
+        "B: The motion of electrons after interacting with another particle.",
+        "C: The temperature dependence of electrons in a material.",
+        "D: The velocity of electrons in an electric field."
+      ],
+      "correct_answer": "B",
+      "explanation": "The kinematics of electron scattering deals with the movements and physical properties of electrons after colliding with other particles. It is important for understanding interactions in particle physics.",
+      "difficulty": 3,
+      "subcategory": "Kinematik der Elektronenstreuung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Maxwell-Verteilung & barometrische Höhenformel",
+      "question": "Which of the following statements correctly describes the significance of the Maxwell distribution in statistical mechanics and its application to gaseous systems?",
+      "choices": [
+        "A: The barometric height formula is based solely on the kinetic energy of molecules and ignores the interactions between them.",
+        "B: The Maxwell distribution describes the distribution of speeds of particles in an ideal gas and is fundamental for deriving the barometric height formula.",
+        "C: The Maxwell distribution is only relevant for biophysics and has no significance in classical statistical mechanics.",
+        "D: The Maxwell distribution is a model for the temperature distribution in solid materials and has no application in thermodynamics."
+      ],
+      "correct_answer": "B",
+      "explanation": "The Maxwell distribution describes how the speeds of particles in an ideal gas are distributed, which is fundamental for deriving the barometric height formula describing pressure changes with altitude. These concepts are crucial for understanding thermodynamic and statistical processes in gases.",
+      "difficulty": 9,
+      "subcategory": "Maxwell-Verteilung & barometrische Höhenformel"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Verträgliche vs. nicht-verträgliche Observable",
+      "question": "Which of the following observables are compatible?",
+      "choices": [
+        "A: Position and momentum",
+        "B: Energy and time",
+        "C: Spin in different directions",
+        "D: Temperature and pressure"
+      ],
+      "correct_answer": "C",
+      "explanation": "Compatible observables can be precisely measured simultaneously, which applies to spin in different directions. Position and momentum are not compatible, as their measurement violates the Heisenberg uncertainty principle.",
+      "difficulty": 3,
+      "subcategory": "Verträgliche vs. nicht-verträgliche Observable"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Flussquantisierung",
+      "question": "What describes the phenomenon of flux quantization in solids?",
+      "choices": [
+        "A: The process of heat transfer in solids.",
+        "B: The maximum energy an electron can reach in a solid.",
+        "C: The quantized number of magnetic flux lines through a superconducting ring.",
+        "D: The motion of electrons in an electric field."
+      ],
+      "correct_answer": "C",
+      "explanation": "Flux quantization is an important concept in solid-state physics, describing how magnetic fluxes in superconducting materials can only occur in discrete values. This leads to interesting properties relevant in superconducting circuits and quantum computers.",
+      "difficulty": 3,
+      "subcategory": "Flussquantisierung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Magnetostatik in Materie",
+      "question": "What describes the magnetic field in a ferromagnetic material during magnetization?",
+      "choices": [
+        "A: It is influenced by the alignment of the spins of electrons in the material.",
+        "B: It varies only with the temperature of the material.",
+        "C: It remains constant and independent of external influences.",
+        "D: It is always zero, as the material has no magnetic properties."
+      ],
+      "correct_answer": "A",
+      "explanation": "In ferromagnetic materials, the magnetic moments of electrons align due to external magnetic fields, leading to an enhancement of the magnetic field. These interactions are key to the magnetization of such materials.",
+      "difficulty": 6,
+      "subcategory": "Magnetostatik in Materie"
+    }
+  ]
+}

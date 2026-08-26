@@ -1,0 +1,169 @@
+{
+  "date": "2026-08-26",
+  "generated_at": "2026-08-26T03:49:10Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Reflexions- und Brechungsgesetz",
+      "question": "Was besagt das Reflexionsgesetz?",
+      "choices": [
+        "A: Der Winkel der Brechung ist immer größer als der Einfallswinkel.",
+        "B: Licht kann nicht reflektiert werden.",
+        "C: Der Einfallswinkel ist gleich dem Reflexionswinkel.",
+        "D: Licht wird immer gebrochen, wenn es auf eine Oberfläche trifft."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Reflexionsgesetz besagt, dass der Einfallswinkel gleich dem Reflexionswinkel ist. Dies bedeutet, dass das Licht in dem gleichen Winkel zurückgeworfen wird, in dem es auf die Oberfläche trifft.",
+      "difficulty": 3,
+      "subcategory": "Reflexions- und Brechungsgesetz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Brechende Kugelflächen",
+      "question": "Welche der folgenden Aussagen über die Lichtbrechung an einer kugelförmigen Oberfläche ist korrekt?",
+      "choices": [
+        "A: Licht wird an einer konvexen Kugelfläche niemals gebrochen.",
+        "B: Der Brechungswinkel ist immer gleich dem Einfallswinkel.",
+        "C: Der Lichtstrahl wird an der Oberfläche nicht reflektiert.",
+        "D: Der Brechungsindex des Mediums beeinflusst, wie stark das Licht gebrochen wird."
+      ],
+      "correct_answer": "D",
+      "explanation": "Der Brechungsindex des Mediums ist entscheidend für den Grad der Lichtbrechung an einer Oberfläche. Ein höherer Brechungsindex führt zu einer stärkeren Ablenkung des Lichtstrahls. Die anderen Aussagen sind entweder falsch oder missverständlich bezüglich der Physik der Lichtbrechung.",
+      "difficulty": 7,
+      "subcategory": "Brechende Kugelflächen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Zustandsgleichung & thermische Ausdehnung",
+      "question": "Welche Aussage zur thermischen Ausdehnung von Festkörpern ist korrekt?",
+      "choices": [
+        "A: Die Zustandsgleichung für Festkörper ist identisch mit der für Gase.",
+        "B: Thermische Ausdehnung tritt nur bei Metallen auf, nicht bei Nichtmetallen.",
+        "C: Die thermische Ausdehnung eines Festkörpers ist proportional zur Temperaturänderung und hängt vom Material ab.",
+        "D: Die thermische Ausdehnung ist bei allen Materialien gleich und unabhängig von der Temperatur."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die thermische Ausdehnung eines Festkörpers ist tatsächlich proportional zur Temperaturänderung und variiert je nach Materialeigenschaften. Diese Eigenschaft ist wichtig für Anwendungen in der Technik, um Verformungen und Spannungen zu vermeiden.",
+      "difficulty": 7,
+      "subcategory": "Zustandsgleichung & thermische Ausdehnung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Integrale der Bewegung & Involution",
+      "question": "Welches der folgenden Integrale der Bewegung beschreibt die Erhaltung des Drehimpulses in einem abgeschlossenen System?",
+      "choices": [
+        "A: Das Integral über den Impuls über die Zeit.",
+        "B: Das Integral über die Kraft über die Zeit.",
+        "C: Das Integral über das Moment über die Zeit.",
+        "D: Das Integral über die Geschwindigkeit über die Zeit."
+      ],
+      "correct_answer": "C",
+      "explanation": "Das Integral über das Moment (Drehmoment) über die Zeit führt zur Erhaltung des Drehimpulses, wenn keine äußeren Momente wirken. In einem abgeschlossenen System bleibt der Drehimpuls konstant, was ein zentrales Konzept in der analytischen Mechanik darstellt.",
+      "difficulty": 7,
+      "subcategory": "Integrale der Bewegung & Involution"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Temperaturbegriff (thermisches Gleichgewicht)",
+      "question": "Was beschreibt das thermische Gleichgewicht zwischen zwei Körpern?",
+      "choices": [
+        "A: Einer der Körper hat eine höhere Temperatur als der andere.",
+        "B: Die Körper sind in unterschiedlicher Umgebung.",
+        "C: Die Körper tauschen ständig Wärme aus.",
+        "D: Beide Körper haben die gleiche Temperatur."
+      ],
+      "correct_answer": "D",
+      "explanation": "Thermisches Gleichgewicht bedeutet, dass zwei Körper bei Kontakt keine Nettowärme mehr austauschen, was nur der Fall ist, wenn sie die gleiche Temperatur haben. In diesem Zustand ist der Wärmefluss zwischen den Körpern gleich null.",
+      "difficulty": 4,
+      "subcategory": "Temperaturbegriff (thermisches Gleichgewicht)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Kinematik der Elektronenstreuung",
+      "question": "Was beschreibt die Kinematik der Elektronenstreuung?",
+      "choices": [
+        "A: Die chemischen Reaktionen von Elektronen in Atomen.",
+        "B: Die Bewegung von Elektronen nach einer Wechselwirkung mit einem anderen Teilchen.",
+        "C: Die Temperaturabhängigkeit von Elektronen in einem Material.",
+        "D: Die Geschwindigkeit von Elektronen in einem elektrischen Feld."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Kinematik der Elektronenstreuung beschäftigt sich mit den Bewegungen und den physikalischen Eigenschaften von Elektronen, nachdem sie mit anderen Teilchen kollidiert sind. Es ist wichtig, um die Wechselwirkungen in der Teilchenphysik zu verstehen.",
+      "difficulty": 3,
+      "subcategory": "Kinematik der Elektronenstreuung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Maxwell-Verteilung & barometrische Höhenformel",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt die Bedeutung der Maxwell-Verteilung in der statistischen Mechanik und deren Anwendung auf gasförmige Systeme?",
+      "choices": [
+        "A: Die barometrische Höhenformel basiert ausschließlich auf der kinetischen Energie der Moleküle und ignoriert die Wechselwirkungen zwischen ihnen.",
+        "B: Die Maxwell-Verteilung beschreibt die Verteilung der Geschwindigkeiten von Teilchen in einem idealen Gas und ist grundlegend für die Ableitung der barometrischen Höhenformel.",
+        "C: Die Maxwell-Verteilung ist nur relevant für Biophysik und hat keine Bedeutung in der klassischen statistischen Mechanik.",
+        "D: Die Maxwell-Verteilung ist ein Modell für die Temperaturverteilung in festen Materialien und hat keine Anwendung in der Thermodynamik."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Maxwell-Verteilung beschreibt, wie die Geschwindigkeiten von Teilchen in einem idealen Gas verteilt sind, was fundamental zur Herleitung der barometrischen Höhenformel beiträgt, die die Druckveränderung mit der Höhe beschreibt. Diese Konzepte sind entscheidend für das Verständnis thermodynamischer und statistischer Prozesse in Gasen.",
+      "difficulty": 9,
+      "subcategory": "Maxwell-Verteilung & barometrische Höhenformel"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Verträgliche vs. nicht-verträgliche Observable",
+      "question": "Welche der folgenden Observable sind verträglich?",
+      "choices": [
+        "A: Ort und Impuls",
+        "B: Energie und Zeit",
+        "C: Spin in verschiedenen Richtungen",
+        "D: Temperatur und Druck"
+      ],
+      "correct_answer": "C",
+      "explanation": "Verträgliche Observable können gleichzeitig präzise gemessen werden, was für den Spin in verschiedenen Richtungen gilt. Ort und Impuls sind nicht verträglich, da ihre Messung die Heisenbergsche Unschärferelation verletzt.",
+      "difficulty": 3,
+      "subcategory": "Verträgliche vs. nicht-verträgliche Observable"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Flussquantisierung",
+      "question": "Was beschreibt das Phänomen der Flussquantisierung in Festkörpern?",
+      "choices": [
+        "A: Den Prozess der Wärmeübertragung in Festkörpern.",
+        "B: Die maximale Energie, die ein Elektron in einem Festkörper erreichen kann.",
+        "C: Die quantisierte Anzahl von magnetischen Flusslinien durch einen supraleitenden Ring.",
+        "D: Die Bewegung von Elektronen in einem elektrischen Feld."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Flussquantisierung ist ein wichtiges Konzept in der Festkörperphysik, das beschreibt, wie magnetische Flüsse in supraleitenden Materialien nur in diskreten Werten auftreten können. Dies führt zu interessanten Eigenschaften, die in supraleitenden Schaltkreisen und Quantencomputern von Bedeutung sind.",
+      "difficulty": 3,
+      "subcategory": "Flussquantisierung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Magnetostatik in Materie",
+      "question": "Was beschreibt das magnetische Feld in einem ferromagnetischen Material bei der Magnetisierung?",
+      "choices": [
+        "A: Es wird durch die Ausrichtung der Spins der Elektronen im Material beeinflusst.",
+        "B: Es variiert nur mit der Temperatur des Materials.",
+        "C: Es bleibt konstant und unabhängig von äußeren Einflüssen.",
+        "D: Es ist immer gleich null, da das Material keine magnetischen Eigenschaften besitzt."
+      ],
+      "correct_answer": "A",
+      "explanation": "In ferromagnetischen Materialien werden die magnetischen Momente der Elektronen durch äußere magnetische Felder ausgerichtet, was zu einer Verstärkung des magnetischen Feldes führt. Diese Wechselwirkungen sind der Schlüssel zur Magnetisierung solcher Materialien.",
+      "difficulty": 6,
+      "subcategory": "Magnetostatik in Materie"
+    }
+  ]
+}
