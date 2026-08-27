@@ -1,0 +1,169 @@
+{
+  "date": "2026-08-27",
+  "generated_at": "2026-08-27T13:29:19Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Methode der Bildladungen",
+      "question": "Was ist das Ziel der Methode der Bildladungen in der Elektrodynamik?",
+      "choices": [
+        "A: Die Analyse von thermischen Effekten in Materialien.",
+        "B: Die Bestimmung von Lichtgeschwindigkeit.",
+        "C: Die Untersuchung von magnetischen Feldern.",
+        "D: Die Berechnung von elektrischen Feldern durch künstliche Ladungen."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Methode der Bildladungen wird verwendet, um elektrische Felder zu berechnen, indem man imaginäre oder 'Bild'-Ladungen einführt, um die Boundary-Conditions eines Problems zu erfüllen. Dies vereinfacht die Analyse komplexer Ladungsverteilungen, insbesondere bei leitenden Flächen.",
+      "difficulty": 2,
+      "subcategory": "Methode der Bildladungen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Fabry–Perot-Interferometer (Vielfachinterferenzen)",
+      "question": "Was ist das Hauptprinzip eines Fabry–Perot-Interferometers?",
+      "choices": [
+        "A: Interferenz von Lichtstrahlen, die mehrfach zwischen zwei reflektierenden Oberflächen reflektiert werden.",
+        "B: Absorption von Licht in einem optischen Medium.",
+        "C: Streuung von Licht an kleinen Partikeln.",
+        "D: Brechung von Lichtstrahlen an einer Linse."
+      ],
+      "correct_answer": "A",
+      "explanation": "Ein Fabry–Perot-Interferometer nutzt die Interferenz von Lichtstrahlen, die zwischen zwei parallelen reflektierenden Oberflächen hin und her reflektiert werden. Dies führt zu charakteristischen Interferenzmustern, die zur Analyse von Lichtquellen verwendet werden können.",
+      "difficulty": 2,
+      "subcategory": "Fabry–Perot-Interferometer (Vielfachinterferenzen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Dynamischer Auftrieb",
+      "question": "Was bewirkt den dynamischen Auftrieb eines Körpers in einer Flüssigkeit?",
+      "choices": [
+        "A: Die Dichte der Flüssigkeit.",
+        "B: Der Druckunterschied zwischen Ober- und Unterseite des Körpers.",
+        "C: Die Temperatur der Flüssigkeit.",
+        "D: Die Geschwindigkeit des Körpers."
+      ],
+      "correct_answer": "B",
+      "explanation": "Der dynamische Auftrieb entsteht durch den Druckunterschied, der durch die Strömung der Flüssigkeit um den Körper erzeugt wird. Wenn sich der Körper bewegt, ist der Druck auf der Oberseite geringer als auf der Unterseite, was zu einer Auftriebskraft führt.",
+      "difficulty": 3,
+      "subcategory": "Dynamischer Auftrieb"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Inertialsysteme (Definition und Eigenschaften)",
+      "question": "Was kennzeichnet ein Inertialsystem in der Relativitätstheorie?",
+      "choices": [
+        "A: In einem Inertialsystem ist die Lichtgeschwindigkeit variabel.",
+        "B: In einem Inertialsystem ist die Zeit für alle Beobachter gleich.",
+        "C: In einem Inertialsystem gibt es immer eine beschleunigte Bewegung.",
+        "D: In einem Inertialsystem gelten die Newtonschen Gesetze ohne Ausnahme."
+      ],
+      "correct_answer": "D",
+      "explanation": "Ein Inertialsystem ist definiert durch den Umstand, dass die Newtonschen Gesetze dort ohne Ausnahme gelten. Dies bedeutet, dass sich Objekte in Ruhe oder gleichförmiger geradliniger Bewegung befinden, solange keine äußeren Kräfte wirken.",
+      "difficulty": 6,
+      "subcategory": "Inertialsysteme (Definition und Eigenschaften)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Besetzungszahldarstellung",
+      "question": "Was beschreibt die Besetzungszahldarstellung in der Quantenmechanik?",
+      "choices": [
+        "A: Die Anzahl der Teilchen in einem bestimmten Energiezustand.",
+        "B: Die Wechselwirkung zwischen Teilchen in einem quantenmechanischen System.",
+        "C: Die räumliche Verteilung von Teilchen in einem System.",
+        "D: Die Geschwindigkeit von Teilchen in einem quantenmechanischen System."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Besetzungszahldarstellung gibt an, wie viele Teilchen sich in jedem Energiezustand eines quantenmechanischen Systems befinden. Sie ist besonders wichtig in der statistischen Mechanik und hilft, das Verhalten von Fermionen und Bosonen zu beschreiben.",
+      "difficulty": 5,
+      "subcategory": "Besetzungszahldarstellung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Reflexionsvermögen absorbierender Medien",
+      "question": "Welches Material hat typischerweise ein hohes Reflexionsvermögen und absorbiert wenig Licht?",
+      "choices": [
+        "A: Eine Gummioberfläche",
+        "B: Ein Stück Holz",
+        "C: Ein schwarzes Tuch",
+        "D: Ein Spiegel"
+      ],
+      "correct_answer": "D",
+      "explanation": "Ein Spiegel ist so konstruiert, dass er Licht reflektiert und wenig davon absorbiert, was ihm ein hohes Reflexionsvermögen verleiht. Im Gegensatz dazu absorbieren Materialien wie ein schwarzes Tuch oder Gummi einen Großteil des einfallenden Lichts.",
+      "difficulty": 5,
+      "subcategory": "Reflexionsvermögen absorbierender Medien"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Unbestimmtheitsrelation(en)",
+      "question": "Was besagt die Heisenbergsche Unbestimmtheitsrelation?",
+      "choices": [
+        "A: Die Energie eines Systems kann nicht verloren gehen.",
+        "B: Licht kann sowohl als Teilchen als auch als Welle betrachtet werden.",
+        "C: Man kann den Ort und den Impuls eines Teilchens nicht gleichzeitig genau bestimmen.",
+        "D: Materie kann niemals in Ruhe sein."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Heisenbergsche Unbestimmtheitsrelation beschreibt, dass es eine fundamentale Grenze für die gleichzeitige Messgenauigkeit von Ort und Impuls eines Teilchens gibt. Diese Beziehung ist ein zentrales Konzept der Quantenmechanik und zeigt die Einschränkungen in der Messung von quantenmechanischen Systemen auf.",
+      "difficulty": 1,
+      "subcategory": "Unbestimmtheitsrelation(en)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Clebsch–Gordan-Koeffizienten",
+      "question": "Was ist die Hauptanwendung der Clebsch–Gordan-Koeffizienten in der Quantenmechanik?",
+      "choices": [
+        "A: Sie beschreiben die Addition von Drehimpulszuständen.",
+        "B: Sie ermöglichen die Berechnung von Energiepegeln in Atomen.",
+        "C: Sie sind notwendig für die Lösung der Schrödinger-Gleichung.",
+        "D: Sie bestimmen die Wellenfunktion eines Teilchens."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die Clebsch–Gordan-Koeffizienten sind entscheidend zur Beschreibung der Addition von Drehimpulszuständen in der Quantenmechanik. Sie ermöglichen es, die gemeinsamen Zustände von zwei quantenmechanischen Systemen zu bestimmen, die jeweils einen bestimmten Drehimpuls besitzen.",
+      "difficulty": 6,
+      "subcategory": "Clebsch–Gordan-Koeffizienten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Maxwell–Boltzmann-Verteilung",
+      "question": "Was beschreibt die Maxwell–Boltzmann-Verteilung in der klassischen Mechanik?",
+      "choices": [
+        "A: Die Masse von Teilchen in einem Gas.",
+        "B: Die Temperatur eines Körpers in thermischem Gleichgewicht.",
+        "C: Die Geschwindigkeit von Teilchen in einem idealen Gas.",
+        "D: Die kinetische Energie von Teilchen im Vakuum."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Maxwell–Boltzmann-Verteilung beschreibt, wie die Geschwindigkeiten von Teilchen in einem idealen Gas verteilt sind. Sie zeigt, dass bei gegebener Temperatur die Mehrheit der Teilchen eine Geschwindigkeit hat, die um einen Mittelwert gruppiert ist, wobei es weniger Teilchen mit sehr hohen oder sehr niedrigen Geschwindigkeiten gibt.",
+      "difficulty": 4,
+      "subcategory": "Maxwell–Boltzmann-Verteilung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Allgemeine Betrachtung von Streuprozessen",
+      "question": "Was beschreibt der Begriff 'Streuprozess' in der Teilchenphysik?",
+      "choices": [
+        "A: Die Bewegung von Teilchen in einem elektrischen Feld.",
+        "B: Die Erzeugung von Teilchen in einem Hochenergieprozess.",
+        "C: Die Wechselwirkung von Teilchen, bei der sie ihre Richtung ändern.",
+        "D: Den Zerfall von instabilen Kernen."
+      ],
+      "correct_answer": "C",
+      "explanation": "Ein Streuprozess beschreibt die Wechselwirkung zwischen Teilchen, bei der sie durch Kollisionen ihre Richtung und möglicherweise auch ihre Energie ändern. Dies ist ein grundlegendes Konzept in der Teilchenphysik, das hilft, verschiedene Wechselwirkungen zu verstehen.",
+      "difficulty": 3,
+      "subcategory": "Allgemeine Betrachtung von Streuprozessen"
+    }
+  ]
+}
