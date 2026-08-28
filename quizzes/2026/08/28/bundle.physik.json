@@ -1,0 +1,169 @@
+{
+  "date": "2026-08-28",
+  "generated_at": "2026-08-28T14:48:48Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Magnetische Feldenergie (Dichte)",
+      "question": "Was beschreibt die magnetische Feldenergie-Dichte in einem Magnetfeld?",
+      "choices": [
+        "A: Die Temperatur eines Magnetfeldes",
+        "B: Die Energie, die benötigt wird, um einen Magneten zu erzeugen",
+        "C: Die Energie pro Volumeneinheit im Magnetfeld",
+        "D: Die Gesamtenergie eines Magneten"
+      ],
+      "correct_answer": "C",
+      "explanation": "Die magnetische Feldenergie-Dichte beschreibt, wie viel Energie pro Volumeneinheit im Magnetfeld vorhanden ist. Diese Größe ist wichtig, um zu verstehen, wie Magnetfelder Energie speichern können und wie sie in verschiedenen Anwendungen genutzt werden.",
+      "difficulty": 3,
+      "subcategory": "Magnetische Feldenergie (Dichte)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Zweiter Hauptsatz (Kelvin-Planck/Clausius)",
+      "question": "Was besagt der zweite Hauptsatz der Thermodynamik bezüglich der Umwandlung von Wärme in Arbeit?",
+      "choices": [
+        "A: Wärme kann nur unter bestimmten Bedingungen in Arbeit umgewandelt werden.",
+        "B: Es ist unmöglich, Wärme vollständig in Arbeit umzuwandeln, ohne dass eine andere Wirkung entsteht.",
+        "C: Der zweite Hauptsatz bezieht sich nicht auf die Umwandlung von Wärme in Arbeit.",
+        "D: Es ist möglich, Wärme vollständig in Arbeit umzuwandeln, ohne dass ein Teil verloren geht."
+      ],
+      "correct_answer": "B",
+      "explanation": "Der zweite Hauptsatz der Thermodynamik besagt, dass es unmöglich ist, einen Prozess zu konstruieren, der vollständig Wärme in Arbeit umwandelt, ohne dass eine andere Wirkung, wie zum Beispiel eine Erhöhung der Entropie, auftritt. Dies bedeutet, dass immer ein Teil der Wärmeenergie verloren geht oder nicht in Arbeit umgewandelt werden kann.",
+      "difficulty": 5,
+      "subcategory": "Zweiter Hauptsatz (Kelvin-Planck/Clausius)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Arbeit in der Thermodynamik (p dV, generalisiert)",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt die Arbeit, die bei einer quasistatischen Expansion eines idealen Gases verrichtet wird?",
+      "choices": [
+        "A: Die Arbeit ist unabhängig von der Art des Prozesses und hängt nur von den Anfangs- und Endzuständen ab.",
+        "B: Die Arbeit kann nur negativ sein, da das Gas immer Energie verliert.",
+        "C: Die Arbeit ist gleich dem Integral von p dV, wobei p der Druck und V das Volumen sind.",
+        "D: Die Arbeit wird durch die Temperatur des Gases bestimmt und ist konstant während des Prozesses."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Arbeit bei einer quasistatischen Expansion eines idealen Gases wird durch das Integral von p dV beschrieben, was bedeutet, dass sowohl der Druck als auch die Änderung des Volumens berücksichtigt werden müssen. Die anderen Optionen sind nicht korrekt, da sie grundlegende thermodynamische Prinzipien missverstehen.",
+      "difficulty": 10,
+      "subcategory": "Arbeit in der Thermodynamik (p dV, generalisiert)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Zeitdilatation",
+      "question": "Welche Aussage zur Zeitdilatation gemäß der speziellen Relativitätstheorie ist korrekt?",
+      "choices": [
+        "A: Ein Observer, der sich relativ zu einem anderen Observer mit hoher Geschwindigkeit bewegt, misst eine kürzere Zeitspanne als der ruhende Observer.",
+        "B: Zeitdilatation tritt nur auf, wenn sich beide Observer mit der gleichen Geschwindigkeit bewegen.",
+        "C: Bei Annäherung an die Lichtgeschwindigkeit bleibt die Zeit für beide Observer gleich.",
+        "D: Zeitdilatation hat keinen Einfluss auf die Wahrnehmung von Zeit in gravitativen Feldern."
+      ],
+      "correct_answer": "A",
+      "explanation": "Nach der speziellen Relativitätstheorie erfährt ein sich schnell bewegender Observer eine Zeitdilatation, d.h. er misst eine kürzere Zeitspanne im Vergleich zu einem ruhenden Observer. Diese relativistische Zeitdilatation ist eine fundamentale Konsequenz der Theorie und zeigt, dass Zeit relativ ist und von der Geschwindigkeit des Observers abhängt.",
+      "difficulty": 10,
+      "subcategory": "Zeitdilatation"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Kanonische Transformationen (Motivation)",
+      "question": "Welche der folgenden Aussagen beschreibt am besten den Zweck kanonischer Transformationen in der analytischen Mechanik?",
+      "choices": [
+        "A: Sie reduzieren die Anzahl der Freiheitsgrade eines Systems.",
+        "B: Sie vereinfachen die Berechnung von Erhaltungsgrößen.",
+        "C: Sie ermöglichen die Umwandlung von Hamiltonschen Gleichungen in Lagrangesche Gleichungen.",
+        "D: Sie transformieren die Phasenraumkoordinaten, um die Lösung von dynamischen Systemen zu erleichtern."
+      ],
+      "correct_answer": "D",
+      "explanation": "Kanonische Transformationen sind entscheidend, da sie die Phasenraumkoordinaten eines Systems so ändern, dass die Hamiltonschen Gleichungen in einer Form erscheinen, die oft einfacher zu lösen ist. Dies erleichtert die Analyse von dynamischen Systemen und die Ermittlung ihrer Eigenschaften.",
+      "difficulty": 7,
+      "subcategory": "Kanonische Transformationen (Motivation)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Streuung langsamer Teilchen am Potentialtopf",
+      "question": "Was beschreibt das Phänomen der Tunneleffekte bei der Streuung langsamer Teilchen an einem Potentialtopf?",
+      "choices": [
+        "A: Teilchen können mit einer bestimmten Wahrscheinlichkeit den Potentialtopf durchqueren, auch wenn ihre Energie geringer ist als die Höhe des Potentials.",
+        "B: Die Streuung langsamer Teilchen ist nur bei sehr hohen Temperaturen relevant.",
+        "C: Teilchen reflektieren immer vollständig, wenn sie auf einen Potentialtopf treffen.",
+        "D: Teilchen verlieren bei der Streuung immer ihre gesamte Energie."
+      ],
+      "correct_answer": "A",
+      "explanation": "Der Tunneleffekt zeigt, dass Teilchen in der Quantenmechanik nicht nur klassisch reflektiert oder durch einen Potentialtopf hindurch gelangen können, sondern dass sie auch mit einer bestimmten Wahrscheinlichkeit 'tunneln' können, selbst wenn ihre Energie niedriger ist als die Potentialhöhe. Dies hat grundlegende Implikationen für die quantenmechanische Beschreibung von Teilchenbewegungen.",
+      "difficulty": 7,
+      "subcategory": "Streuung langsamer Teilchen am Potentialtopf"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Planck’sches Wirkungsquantum",
+      "question": "Welcher Wert beschreibt das Planck’sche Wirkungsquantum?",
+      "choices": [
+        "A: 1,602 × 10^-19 Js",
+        "B: 6,626 × 10^-34 Js",
+        "C: 9,109 × 10^-31 Js",
+        "D: 3,141 × 10^-10 Js"
+      ],
+      "correct_answer": "B",
+      "explanation": "Das Planck’sche Wirkungsquantum ist eine fundamentale Konstante, die die Wechselwirkung zwischen Licht und Materie beschreibt. Es hat den Wert von 6,626 × 10^-34 Js und ist zentral in der Quantenmechanik, insbesondere in der Beschreibung der Energiequanten von Photonen.",
+      "difficulty": 6,
+      "subcategory": "Planck’sches Wirkungsquantum"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Kanonische Transformationen (Motivation)",
+      "question": "Was ist das Hauptziel einer kanonischen Transformation in der analytischen Mechanik?",
+      "choices": [
+        "A: Den Impuls eines Systems zu maximieren.",
+        "B: Die Bewegungsgleichungen eines Systems zu vereinfachen und zu lösen.",
+        "C: Die Erhaltung der Energie eines Systems zu gewährleisten.",
+        "D: Die Hamilton-Funktion in eine einfachere Form zu überführen."
+      ],
+      "correct_answer": "B",
+      "explanation": "Kanonische Transformationen haben das Ziel, die Bewegungsgleichungen eines mechanischen Systems zu vereinfachen, wodurch die Analyse und Lösung der Probleme erleichtert wird. Dadurch können in vielen Fällen die dynamischen Eigenschaften des Systems klarer und effizienter erfasst werden.",
+      "difficulty": 7,
+      "subcategory": "Kanonische Transformationen (Motivation)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Resonanzen (Breit‑Wigner)",
+      "question": "Welche der folgenden Aussagen beschreibt am besten die Breit-Wigner-Resonanz in der Kern- und Teilchenphysik?",
+      "choices": [
+        "A: Sie beschreibt die quantenmechanischen Zustände eines Teilchens in einem externen Feld.",
+        "B: Sie beschreibt die Energieverteilung eines instabilen Teilchens in Abhängigkeit von seiner Lebensdauer.",
+        "C: Sie beschreibt die Form der Resonanzkurve eines instabilen Zustands in Bezug auf seine Energie.",
+        "D: Sie beschreibt die Wechselwirkung zwischen zwei stabilen Teilchen bei extremen Energien."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Breit-Wigner-Resonanz beschreibt die Form der Resonanzkurve eines instabilen Zustands, die charakterisiert ist durch die Energie und die Breite des Resonanzmaximums. Dies ist entscheidend für das Verständnis der Wechselwirkungen in der Teilchenphysik und der damit verbundenen Zerfallsprozesse.",
+      "difficulty": 9,
+      "subcategory": "Resonanzen (Breit‑Wigner)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Noether-Idee: Homogenität der Zeit ⇒ Energieerhaltung",
+      "question": "Was besagt die Noether-Idee in Bezug auf die Homogenität der Zeit?",
+      "choices": [
+        "A: Die Geschwindigkeit von Licht ist konstant.",
+        "B: Die Gravitation wirkt nur auf massive Körper.",
+        "C: Die Masse eines Körpers bleibt immer gleich.",
+        "D: Die Energie eines geschlossenen Systems bleibt konstant."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Noether-Idee besagt, dass für jede kontinuierliche Symmetrie in der Physik eine Erhaltungsgröße existiert. In Bezug auf die Homogenität der Zeit bedeutet dies, dass die Energie in einem geschlossenen System erhalten bleibt, solange keine äußeren Einflüsse wirken.",
+      "difficulty": 3,
+      "subcategory": "Noether-Idee: Homogenität der Zeit ⇒ Energieerhaltung"
+    }
+  ]
+}

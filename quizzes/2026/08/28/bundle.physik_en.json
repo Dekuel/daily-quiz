@@ -1,0 +1,168 @@
+{
+  "date": "2026-08-28",
+  "generated_at": "2026-08-28T14:49:27Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Magnetische Feldenergie (Dichte)",
+      "question": "What does the magnetic field energy density describe in a magnetic field?",
+      "choices": [
+        "A: The temperature of a magnetic field",
+        "B: The energy needed to create a magnet",
+        "C: The energy per unit volume in the magnetic field",
+        "D: The total energy of a magnet"
+      ],
+      "correct_answer": "C",
+      "explanation": "The magnetic field energy density describes how much energy per unit volume is present in the magnetic field. This quantity is important to understand how magnetic fields can store energy and how they can be utilized in various applications.",
+      "difficulty": 3,
+      "subcategory": "Magnetische Feldenergie (Dichte)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Zweiter Hauptsatz (Kelvin-Planck/Clausius)",
+      "question": "What does the second law of thermodynamics state regarding the conversion of heat into work?",
+      "choices": [
+        "A: Heat can only be converted into work under certain conditions.",
+        "B: It is impossible to convert heat entirely into work without another effect occurring.",
+        "C: The second law does not apply to the conversion of heat into work.",
+        "D: It is possible to convert heat entirely into work without any loss."
+      ],
+      "correct_answer": "B",
+      "explanation": "The second law of thermodynamics states that it is impossible to construct a process that converts heat entirely into work without some other effect, such as an increase in entropy, occurring. This means that some of the heat energy is always lost or cannot be converted into work.",
+      "difficulty": 5,
+      "subcategory": "Zweiter Hauptsatz (Kelvin-Planck/Clausius)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Arbeit in der Thermodynamik (p dV, generalisiert)",
+      "question": "Which of the following statements correctly describes the work done in a quasistatic expansion of an ideal gas?",
+      "choices": [
+        "A: The work is independent of the type of process and depends only on the initial and final states.",
+        "B: The work can only be negative as the gas always loses energy.",
+        "C: The work is equal to the integral of p dV, where p is pressure and V is volume.",
+        "D: The work is determined by the temperature of the gas and remains constant during the process."
+      ],
+      "correct_answer": "C",
+      "explanation": "The work done in a quasistatic expansion of an ideal gas is described by the integral of p dV, which means that both pressure and volume change must be taken into account. The other options are incorrect as they misunderstand basic thermodynamic principles.",
+      "difficulty": 10,
+      "subcategory": "Arbeit in der Thermodynamik (p dV, generalisiert)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Zeitdilatation",
+      "question": "Which statement about time dilation according to the special theory of relativity is correct?",
+      "choices": [
+        "A: An observer moving at high speed relative to another observer measures a shorter time interval than the stationary observer.",
+        "B: Time dilation occurs only when both observers move at the same speed.",
+        "C: As the speed approaches the speed of light, time remains the same for both observers.",
+        "D: Time dilation does not affect the perception of time in gravitational fields."
+      ],
+      "correct_answer": "A",
+      "explanation": "According to the special theory of relativity, a rapidly moving observer experiences time dilation, meaning they measure a shorter time interval compared to a stationary observer. This relativistic time dilation is a fundamental consequence of the theory and shows that time is relative and depends on the observer's velocity.",
+      "difficulty": 10,
+      "subcategory": "Zeitdilatation"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Kanonische Transformationen (Motivation)",
+      "question": "Which of the following statements best describes the purpose of canonical transformations in analytical mechanics?",
+      "choices": [
+        "A: They reduce the number of degrees of freedom of a system.",
+        "B: They simplify the calculation of conserved quantities.",
+        "C: They allow the transformation of Hamiltonian equations into Lagrangian equations.",
+        "D: They transform the phase space coordinates to facilitate the solution of dynamic systems."
+      ],
+      "correct_answer": "D",
+      "explanation": "Canonical transformations are crucial as they change the phase space coordinates of a system in a way that the Hamiltonian equations appear in a form that is often easier to solve. This facilitates the analysis of dynamic systems and the determination of their properties.",
+      "difficulty": 7,
+      "subcategory": "Kanonische Transformationen (Motivation)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Streuung langsamer Teilchen am Potentialtopf",
+      "question": "What describes the phenomenon of tunneling effects in the scattering of slow particles on a potential barrier?",
+      "choices": [
+        "A: Particles can cross the potential barrier with a certain probability even if their energy is lower than the potential height.",
+        "B: Scattering of slow particles is only relevant at very high temperatures.",
+        "C: Particles always reflect completely when they encounter a potential barrier.",
+        "D: Particles always lose all their energy during scattering."
+      ],
+      "correct_answer": "A",
+      "explanation": "The tunneling effect shows that particles in quantum mechanics can not only be classically reflected or pass through a potential barrier, but they can also 'tunnel' with a certain probability, even if their energy is lower than the potential height. This has fundamental implications for the quantum mechanical description of particle movements.",
+      "difficulty": 7,
+      "subcategory": "Streuung langsamer Teilchen am Potentialtopf"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Planck’sches Wirkungsquantum",
+      "question": "What value describes Planck's constant?",
+      "choices": [
+        "A: 1.602 × 10^-19 Js",
+        "B: 6.626 × 10^-34 Js",
+        "C: 9.109 × 10^-31 Js",
+        "D: 3.141 × 10^-10 Js"
+      ],
+      "correct_answer": "B",
+      "explanation": "Planck's constant is a fundamental constant that describes the interaction between light and matter. It has a value of 6.626 × 10^-34 Js and is central in quantum mechanics, especially in describing the energy quanta of photons.",
+      "difficulty": 6,
+      "subcategory": "Planck’sches Wirkungsquantum"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Kanonische Transformationen (Motivation)",
+      "question": "What is the main goal of a canonical transformation in analytical mechanics?",
+      "choices": [
+        "A: To maximize the momentum of a system.",
+        "B: To simplify and solve the motion equations of a system.",
+        "C: To ensure the conservation of energy of a system.",
+        "D: To transform the Hamiltonian function into a simpler form."
+      ],
+      "correct_answer": "B",
+      "explanation": "Canonical transformations aim to simplify the motion equations of a mechanical system, making the analysis and solution of problems easier. This can make the dynamic properties of the system clearer and more efficiently captured in many cases.",
+      "difficulty": 7,
+      "subcategory": "Kanonische Transformationen (Motivation)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Resonanzen (Breit‑Wigner)",
+      "question": "Which of the following statements best describes the Breit-Wigner resonance in nuclear and particle physics?",
+      "choices": [
+        "A: It describes the quantum mechanical states of a particle in an external field.",
+        "B: It describes the energy distribution of an unstable particle depending on its lifetime.",
+        "C: It describes the shape of the resonance curve of an unstable state in terms of its energy.",
+        "D: It describes the interaction between two stable particles at extreme energies."
+      ],
+      "correct_answer": "C",
+      "explanation": "The Breit-Wigner resonance describes the shape of the resonance curve of an unstable state, characterized by the energy and width of the resonance peak. This is crucial for understanding interactions in particle physics and associated decay processes.",
+      "difficulty": 9,
+      "subcategory": "Resonanzen (Breit‑Wigner)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Noether-Idee: Homogenität der Zeit ⇒ Energieerhaltung",
+      "question": "What does the Noether idea state regarding the homogeneity of time?",
+      "choices": [
+        "A: The speed of light is constant.",
+        "B: Gravity only acts on massive bodies.",
+        "C: The mass of a body always remains the same.",
+        "D: The energy of a closed system remains constant."
+      ],
+      "correct_answer": "D",
+      "explanation": "The Noether idea states that for every continuous symmetry in physics, there exists a conserved quantity. In terms of the homogeneity of time, this means that energy in a closed system remains conserved as long as no external influences act.",
+      "difficulty": 3,
+      "subcategory": "Noether-Idee: Homogenität der Zeit ⇒ Energieerhaltung"
+    }
+  ]
+}
