@@ -1,0 +1,169 @@
+{
+  "date": "2026-08-29",
+  "generated_at": "2026-08-29T09:38:34Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Mittlere kinetische Energie & Temperatur",
+      "question": "Was beschreibt die mittlere kinetische Energie der Teilchen in einem Gas?",
+      "choices": [
+        "A: Sie ist proportional zur Temperatur des Gases.",
+        "B: Sie ist unabhängig von der Temperatur.",
+        "C: Sie ist konstant bei allen Temperaturen.",
+        "D: Sie hängt nur von der Art des Gases ab."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die mittlere kinetische Energie der Teilchen in einem Gas ist direkt proportional zur Temperatur. Je höher die Temperatur, desto mehr Energie haben die Teilchen und desto schneller bewegen sie sich.",
+      "difficulty": 1,
+      "subcategory": "Mittlere kinetische Energie & Temperatur"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Heterostrukturen & Übergitter",
+      "question": "Welche der folgenden Aussagen über Heterostrukturen in der Festkörperphysik ist korrekt?",
+      "choices": [
+        "A: Heterostrukturen können aus Materialien mit unterschiedlichen Bandlücken gebildet werden.",
+        "B: Heterostrukturen können nicht in der Halbleitertechnik verwendet werden.",
+        "C: Alle Heterostrukturen sind elektrisch isolierend.",
+        "D: Heterostrukturen sind immer isotrop und zeigen keine Richtungsabhängigkeit."
+      ],
+      "correct_answer": "A",
+      "explanation": "Heterostrukturen bestehen aus verschiedenen Materialien, die oft unterschiedliche Bandlücken aufweisen, was zu speziellen optoelektronischen Eigenschaften führt. Diese Eigenschaften sind entscheidend für Anwendungen in der Halbleitertechnik, wie z.B. in Laserdioden und Transistoren.",
+      "difficulty": 6,
+      "subcategory": "Heterostrukturen & Übergitter"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Fraunhofer-Beugung",
+      "question": "Was beschreibt die Fraunhofer-Beugung?",
+      "choices": [
+        "A: Die Bewegung von Elektronen in einem Atom.",
+        "B: Die Beugung von Licht an einem schmalen Spalt.",
+        "C: Die Absorption von Licht durch ein Material.",
+        "D: Die Wechselwirkung von Photonen mit Materie."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Fraunhofer-Beugung beschreibt das Muster, das entsteht, wenn Licht durch einen schmalen Spalt fällt und sich dahinter ausbreitet. Dies ist ein grundlegendes Phänomen in der Optik, das die Wellencharakteristik des Lichts demonstriert.",
+      "difficulty": 2,
+      "subcategory": "Fraunhofer-Beugung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Makroskopische Wellenfunktion",
+      "question": "Welche der folgenden Aussagen beschreibt am besten die makroskopische Wellenfunktion in der Festkörperphysik?",
+      "choices": [
+        "A: Sie ist identisch mit der quantenmechanischen Wellenfunktion eines einzelnen Teilchens.",
+        "B: Sie beschreibt die statistische Verteilung von Teilchen in einem Festkörper.",
+        "C: Sie gibt die genaue Position eines einzelnen Elektrons in einem Kristall an.",
+        "D: Sie ist unabhängig von Temperatur und Druck."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die makroskopische Wellenfunktion beschreibt die statistische Verteilung von Teilchen in einem Festkörper und ermöglicht somit das Verständnis von kollektiven Eigenschaften. Sie berücksichtigt dabei die Wechselwirkungen zwischen den Teilchen und deren Verhalten unter verschiedenen Bedingungen.",
+      "difficulty": 7,
+      "subcategory": "Makroskopische Wellenfunktion"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Spektrum des harmonischen Oszillators",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt die Energiespektren eines quantenmechanischen harmonischen Oszillators?",
+      "choices": [
+        "A: Die Energien sind diskret und folgen der Beziehung E_n = (n + 1/2)ħω.",
+        "B: Die Energien sind kontinuierlich und können jeden Wert annehmen.",
+        "C: Die Energien sind diskret und gleichmäßig verteilt.",
+        "D: Die Energien sind nur in bestimmten, sehr großen Abständen diskret."
+      ],
+      "correct_answer": "A",
+      "explanation": "Der harmonische Oszillator hat ein quantenmechanisches Spektrum, bei dem die Energien diskret sind und durch die Beziehung E_n = (n + 1/2)ħω beschrieben werden, wobei n eine nicht-negative ganze Zahl ist. Diese quantisierten Energien sind charakteristisch für das Verhalten von Teilchen in einem harmonischen Potential.",
+      "difficulty": 5,
+      "subcategory": "Spektrum des harmonischen Oszillators"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Turbulenz & Strömungswiderstand",
+      "question": "Was beschreibt der Begriff 'Strömungswiderstand' in der Fluidmechanik?",
+      "choices": [
+        "A: Die Geschwindigkeit eines Fluids bei konstantem Druck.",
+        "B: Die Dichte eines Fluids im Ruhezustand.",
+        "C: Die Temperatur eines Fluids während des Fließens.",
+        "D: Die Kraft, die der Bewegung eines Körpers in einer Flüssigkeit oder einem Gas entgegenwirkt."
+      ],
+      "correct_answer": "D",
+      "explanation": "Der Strömungswiderstand ist die Kraft, die der Bewegung eines Körpers in einer strömenden Flüssigkeit oder einem Gas entgegen wirkt. Diese Kraft ist entscheidend für die Analyse von Turbulenzen und spielt eine wichtige Rolle in der Strömungsmechanik.",
+      "difficulty": 5,
+      "subcategory": "Turbulenz & Strömungswiderstand"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Vakuumbereiche",
+      "question": "Was passiert mit einem Körper, der sich in einem Vakuum bewegt?",
+      "choices": [
+        "A: Er wird sofort gestoppt.",
+        "B: Er erfährt keine Luftwiderstand.",
+        "C: Er wird langsamer durch Luftreibung.",
+        "D: Er benötigt immer eine Kraft, um sich zu bewegen."
+      ],
+      "correct_answer": "B",
+      "explanation": "In einem Vakuum gibt es keine Luft oder andere Gase, die auf einen Körper wirken könnten. Daher erfährt ein Körper, der sich in einem Vakuum bewegt, keinen Luftwiderstand und kann sich ungehindert fortbewegen.",
+      "difficulty": 1,
+      "subcategory": "Vakuumbereiche"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Eigenzeit und Weltgeschwindigkeit",
+      "question": "Wie verändert sich die Eigenzeit eines Objekts, das sich relativ zu einem ruhenden Beobachter mit annähernder Lichtgeschwindigkeit bewegt?",
+      "choices": [
+        "A: Die Eigenzeit kann nicht definiert werden.",
+        "B: Die Eigenzeit vergeht schneller als die Zeit des Beobachters.",
+        "C: Die Eigenzeit verlangsamt sich im Vergleich zur Zeit des Beobachters.",
+        "D: Die Eigenzeit bleibt unverändert."
+      ],
+      "correct_answer": "C",
+      "explanation": "Laut der speziellen Relativitätstheorie verlangsamt sich die Eigenzeit eines bewegten Objekts relativ zu einem ruhenden Beobachter, was als Zeitdilatation bekannt ist. Dies bedeutet, dass die Zeit für das Objekt langsamer vergeht, je näher es sich der Lichtgeschwindigkeit annähert.",
+      "difficulty": 6,
+      "subcategory": "Eigenzeit und Weltgeschwindigkeit"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Bra- und Ket-Vektoren; Dualraum",
+      "question": "Welches der folgenden Konzepte beschreibt die korrekte Beziehung zwischen einem Ket-Vektor |ψ⟩ und seinem zugehörigen Bra-Vektor ⟨ψ| im Kontext der Quantenmechanik?",
+      "choices": [
+        "A: ⟨ψ| = |ψ⟩^†",
+        "B: ⟨ψ| = |ψ⟩^T",
+        "C: ⟨ψ| = -|ψ⟩^†",
+        "D: ⟨ψ| = |ψ⟩^*"
+      ],
+      "correct_answer": "A",
+      "explanation": "In der Quantenmechanik ist der Bra-Vektor ⟨ψ| der adjungierte Vektor des entsprechenden Ket-Vektors |ψ⟩, was durch die transponierte Konjugation dargestellt wird. Diese Beziehung ist entscheidend für die Berechnung von Erwartungswerten und inneren Produkten im Hilbertraum.",
+      "difficulty": 10,
+      "subcategory": "Bra- und Ket-Vektoren; Dualraum"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Prinzip der kleinsten Wirkung",
+      "question": "Was besagt das Prinzip der kleinsten Wirkung in der analytischen Mechanik?",
+      "choices": [
+        "A: Die Bewegung eines Systems folgt dem Pfad, für den die Wirkung minimal ist.",
+        "B: Die Kraft ist gleich der Änderung der Impulsrate über die Zeit.",
+        "C: Die Energie eines geschlossenen Systems bleibt immer konstant.",
+        "D: Ein Objekt bewegt sich immer mit konstanter Geschwindigkeit."
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Prinzip der kleinsten Wirkung besagt, dass die tatsächliche Bahn eines Systems zwischen zwei Punkten diejenige ist, für die die Wirkung, ein Integral über die Lagrange-Funktion, minimal ist. Dies ist ein zentrales Konzept in der analytischen Mechanik und verbindet Geometrie mit der Physik der Bewegung.",
+      "difficulty": 5,
+      "subcategory": "Prinzip der kleinsten Wirkung"
+    }
+  ]
+}

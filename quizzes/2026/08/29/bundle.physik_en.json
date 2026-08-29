@@ -1,0 +1,168 @@
+{
+  "date": "2026-08-29",
+  "generated_at": "2026-08-29T09:39:04Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Mittlere kinetische Energie & Temperatur",
+      "question": "What describes the average kinetic energy of particles in a gas?",
+      "choices": [
+        "A: It is proportional to the temperature of the gas.",
+        "B: It is independent of the temperature.",
+        "C: It is constant at all temperatures.",
+        "D: It depends only on the type of gas."
+      ],
+      "correct_answer": "A",
+      "explanation": "The average kinetic energy of particles in a gas is directly proportional to the temperature. The higher the temperature, the more energy the particles have and the faster they move.",
+      "difficulty": 1,
+      "subcategory": "Mittlere kinetische Energie & Temperatur"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Heterostrukturen & Übergitter",
+      "question": "Which of the following statements about heterostructures in solid-state physics is correct?",
+      "choices": [
+        "A: Heterostructures can be formed from materials with different band gaps.",
+        "B: Heterostructures cannot be used in semiconductor technology.",
+        "C: All heterostructures are electrically insulating.",
+        "D: Heterostructures are always isotropic and show no directional dependence."
+      ],
+      "correct_answer": "A",
+      "explanation": "Heterostructures consist of different materials that often have different band gaps, leading to special optoelectronic properties. These properties are crucial for applications in semiconductor technology, such as in laser diodes and transistors.",
+      "difficulty": 6,
+      "subcategory": "Heterostrukturen & Übergitter"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Fraunhofer-Beugung",
+      "question": "What does Fraunhofer diffraction describe?",
+      "choices": [
+        "A: The motion of electrons in an atom.",
+        "B: The diffraction of light at a narrow slit.",
+        "C: The absorption of light by a material.",
+        "D: The interaction of photons with matter."
+      ],
+      "correct_answer": "B",
+      "explanation": "Fraunhofer diffraction describes the pattern that occurs when light passes through a narrow slit and spreads out behind it. This is a fundamental phenomenon in optics that demonstrates the wave characteristics of light.",
+      "difficulty": 2,
+      "subcategory": "Fraunhofer-Beugung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Makroskopische Wellenfunktion",
+      "question": "Which of the following statements best describes the macroscopic wave function in solid-state physics?",
+      "choices": [
+        "A: It is identical to the quantum mechanical wave function of a single particle.",
+        "B: It describes the statistical distribution of particles in a solid.",
+        "C: It specifies the exact position of a single electron in a crystal.",
+        "D: It is independent of temperature and pressure."
+      ],
+      "correct_answer": "B",
+      "explanation": "The macroscopic wave function describes the statistical distribution of particles in a solid and thus enables the understanding of collective properties. It takes into account the interactions between the particles and their behavior under different conditions.",
+      "difficulty": 7,
+      "subcategory": "Makroskopische Wellenfunktion"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Spektrum des harmonischen Oszillators",
+      "question": "Which of the following statements correctly describes the energy spectra of a quantum mechanical harmonic oscillator?",
+      "choices": [
+        "A: The energies are discrete and follow the relationship E_n = (n + 1/2)ħω.",
+        "B: The energies are continuous and can take any value.",
+        "C: The energies are discrete and evenly distributed.",
+        "D: The energies are discrete only at certain, very large intervals."
+      ],
+      "correct_answer": "A",
+      "explanation": "The harmonic oscillator has a quantum mechanical spectrum where the energies are discrete and described by the relationship E_n = (n + 1/2)ħω, where n is a non-negative integer. These quantized energies are characteristic of the behavior of particles in a harmonic potential.",
+      "difficulty": 5,
+      "subcategory": "Spektrum des harmonischen Oszillators"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Turbulenz & Strömungswiderstand",
+      "question": "What does the term 'flow resistance' describe in fluid mechanics?",
+      "choices": [
+        "A: The velocity of a fluid at constant pressure.",
+        "B: The density of a fluid in a static state.",
+        "C: The temperature of a fluid during flow.",
+        "D: The force that opposes the movement of a body in a liquid or gas."
+      ],
+      "correct_answer": "D",
+      "explanation": "Flow resistance is the force that opposes the movement of a body in a flowing liquid or gas. This force is crucial for the analysis of turbulence and plays an important role in fluid mechanics.",
+      "difficulty": 5,
+      "subcategory": "Turbulenz & Strömungswiderstand"
+    },
+    {
+      "category": "Physik",
+      "topic": "Klassische Mechanik",
+      "subtopic": "Vakuumbereiche",
+      "question": "What happens to a body moving in a vacuum?",
+      "choices": [
+        "A: It comes to an immediate stop.",
+        "B: It experiences no air resistance.",
+        "C: It slows down due to air friction.",
+        "D: It always requires a force to move."
+      ],
+      "correct_answer": "B",
+      "explanation": "In a vacuum, there is no air or other gases that could act on a body. Therefore, a body moving in a vacuum experiences no air resistance and can move unhindered.",
+      "difficulty": 1,
+      "subcategory": "Vakuumbereiche"
+    },
+    {
+      "category": "Physik",
+      "topic": "Relativitätstheorie",
+      "subtopic": "Eigenzeit und Weltgeschwindigkeit",
+      "question": "How does the proper time of an object moving at nearly the speed of light relative to a stationary observer change?",
+      "choices": [
+        "A: The proper time cannot be defined.",
+        "B: The proper time passes faster than the observer's time.",
+        "C: The proper time slows down compared to the observer's time.",
+        "D: The proper time remains unchanged."
+      ],
+      "correct_answer": "C",
+      "explanation": "According to the special theory of relativity, the proper time of a moving object slows down relative to a stationary observer, a phenomenon known as time dilation. This means that time passes slower for the object the closer it approaches the speed of light.",
+      "difficulty": 6,
+      "subcategory": "Eigenzeit und Weltgeschwindigkeit"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Bra- und Ket-Vektoren; Dualraum",
+      "question": "Which of the following concepts describes the correct relationship between a ket vector |ψ⟩ and its corresponding bra vector ⟨ψ| in the context of quantum mechanics?",
+      "choices": [
+        "A: ⟨ψ| = |ψ⟩^†",
+        "B: ⟨ψ| = |ψ⟩^T",
+        "C: ⟨ψ| = -|ψ⟩^†",
+        "D: ⟨ψ| = |ψ⟩^*"
+      ],
+      "correct_answer": "A",
+      "explanation": "In quantum mechanics, the bra vector ⟨ψ| is the adjoint vector of the corresponding ket vector |ψ⟩, represented by the transposed conjugation. This relationship is crucial for calculating expectation values and inner products in Hilbert space.",
+      "difficulty": 10,
+      "subcategory": "Bra- und Ket-Vektoren; Dualraum"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Prinzip der kleinsten Wirkung",
+      "question": "What does the principle of least action state in analytical mechanics?",
+      "choices": [
+        "A: The motion of a system follows the path for which the action is minimal.",
+        "B: The force is equal to the change in the rate of momentum over time.",
+        "C: The energy of a closed system always remains constant.",
+        "D: An object always moves at a constant speed."
+      ],
+      "correct_answer": "A",
+      "explanation": "The principle of least action states that the actual path of a system between two points is the one for which the action, an integral over the Lagrangian function, is minimal. This is a central concept in analytical mechanics that connects geometry with the physics of motion.",
+      "difficulty": 5,
+      "subcategory": "Prinzip der kleinsten Wirkung"
+    }
+  ]
+}
