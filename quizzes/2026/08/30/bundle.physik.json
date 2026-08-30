@@ -1,0 +1,169 @@
+{
+  "date": "2026-08-30",
+  "generated_at": "2026-08-30T08:50:11Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Debye-Näherung der spezifischen Wärme",
+      "question": "Was beschreibt die Debye-Näherung in der Festkörperphysik?",
+      "choices": [
+        "A: Die chemischen Bindungen in Molekülen.",
+        "B: Die Temperaturabhängigkeit der spezifischen Wärme von Kristallen.",
+        "C: Die Bewegung von Elektronen in einem Halbleiter.",
+        "D: Die Lichtbrechung in festen Materialien."
+      ],
+      "correct_answer": "B",
+      "explanation": "Die Debye-Näherung beschreibt, wie die spezifische Wärme von Kristallen in Abhängigkeit von der Temperatur variiert, insbesondere bei niedrigen Temperaturen. Diese Theorie berücksichtigt die quantisierten Schwingungen der Gittersymmetrien in Festkörpern und liefert eine gute Näherung für die spezifische Wärme von kristallinen Stoffen bei tiefen Temperaturen.",
+      "difficulty": 3,
+      "subcategory": "Debye-Näherung der spezifischen Wärme"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Van-der-Waals-Kräfte",
+      "question": "Welche der folgenden Aussagen beschreibt am besten die Van-der-Waals-Kräfte?",
+      "choices": [
+        "A: Sie sind starke, langfristige Bindungen innerhalb eines Moleküls.",
+        "B: Sie treten nur in ionischen Verbindungen auf.",
+        "C: Sie sind schwache, kurzreichweitige Anziehungskräfte zwischen Molekülen.",
+        "D: Sie sind die Hauptkraft, die Metallbindungen stabilisiert."
+      ],
+      "correct_answer": "C",
+      "explanation": "Van-der-Waals-Kräfte sind schwache Anziehungskräfte, die zwischen neutralen Molekülen entstehen. Sie spielen eine wichtige Rolle in der Festkörperphysik, insbesondere bei der Stabilität und den Eigenschaften von Festkörpern.",
+      "difficulty": 5,
+      "subcategory": "Van-der-Waals-Kräfte"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Elastische Konstanten",
+      "question": "Welche der folgenden elastischen Konstanten beschreibt das Verhältnis zwischen Zugspannung und Längenänderung in einem Material?",
+      "choices": [
+        "A: Bulkmodul",
+        "B: Youngscher Modul",
+        "C: Schubmodul",
+        "D: Poissonzahl"
+      ],
+      "correct_answer": "B",
+      "explanation": "Der Youngsche Modul ist eine Maßzahl für die Steifigkeit eines Materials und beschreibt das Verhältnis von Zugspannung zu relativer Längenänderung. Er ist entscheidend für das Verständnis der elastischen Eigenschaften von Festkörpern.",
+      "difficulty": 7,
+      "subcategory": "Elastische Konstanten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Wärmeleitfähigkeit amorpher Festkörper",
+      "question": "Welche der folgenden Aussagen beschreibt am besten die Wärmeleitfähigkeit in amorphen Festkörpern?",
+      "choices": [
+        "A: Sie ist immer höher als die von kristallinen Festkörpern.",
+        "B: Sie ist in der Regel niedriger als die von kristallinen Festkörpern.",
+        "C: Sie ist unabhängig von der Temperatur.",
+        "D: Sie variiert nur bei sehr hohen Temperaturen."
+      ],
+      "correct_answer": "B",
+      "explanation": "Amorphe Festkörper haben eine unregelmäßige atomare Struktur, die die Wärmeleitung durch phononische Transportmechanismen behindert. Daher ist ihre Wärmeleitfähigkeit in der Regel niedriger als die von kristallinen Materialien, die eine geordnete Struktur aufweisen.",
+      "difficulty": 6,
+      "subcategory": "Wärmeleitfähigkeit amorpher Festkörper"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Maxwell-Gleichungen der Magnetostatik",
+      "question": "Welches der folgenden Gesetze beschreibt die Beziehung zwischen einem zeitlich konstanten Magnetfeld und der auf es wirkenden Kraft auf eine bewegte Ladung in der Magnetostatik?",
+      "choices": [
+        "A: Lorentz-Kraft-Gesetz",
+        "B: Ampère'sches Gesetz",
+        "C: Gauss'sches Gesetz für Magnetfelder",
+        "D: Faradaysches Induktionsgesetz"
+      ],
+      "correct_answer": "A",
+      "explanation": "Das Lorentz-Kraft-Gesetz beschreibt die Kraft, die auf eine bewegte Ladung in einem Magnetfeld wirkt. In der Magnetostatik, wo Magnetfelder zeitlich konstant sind, ist dieses Gesetz entscheidend für das Verständnis der Wechselwirkungen zwischen Ladungen und Magnetfeldern.",
+      "difficulty": 8,
+      "subcategory": "Maxwell-Gleichungen der Magnetostatik"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Residuensatz",
+      "question": "Welcher der folgenden Ausdrücke beschreibt den Residuensatz in der komplexen Funktionalanalyse, der in der Elektrodynamik Anwendung findet?",
+      "choices": [
+        "A: Der Residuensatz kann nur für analytische Funktionen angewendet werden, die nicht in der gesamten komplexen Ebene definiert sind.",
+        "B: Der Residuensatz besagt, dass die Ableitung einer holomorphen Funktion in der Nähe ihrer Singularität gleich null ist.",
+        "C: Der Wert eines Integrals über eine geschlossene Kurve ist gleich der Summe der Residuen innerhalb des Integrationspfades multipliziert mit 2πi.",
+        "D: Der Wert eines Integrals über eine offene Kurve ist gleich der Differenz der Funktionswerte an den Randpunkten."
+      ],
+      "correct_answer": "C",
+      "explanation": "Der Residuensatz ist eine zentrale Aussage in der komplexen Analysis und besagt, dass das Integral einer meromorphen Funktion über eine geschlossene Kurve gleich 2πi multipliziert mit der Summe der Residuen der Funktion innerhalb der Kurve ist. Diese Eigenschaft wird in der Elektrodynamik verwendet, um Lösungen von Integralen zu finden, die in physikalischen Anwendungen häufig auftreten.",
+      "difficulty": 8,
+      "subcategory": "Residuensatz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Fundamentale Poisson-Klammern",
+      "question": "Was beschreibt die fundamentale Poisson-Klammer zwischen zwei Funktionen A und B in der analytischen Mechanik?",
+      "choices": [
+        "A: Die Symmetrieeigenschaften eines Systems.",
+        "B: Die Wechselwirkung zwischen zwei Teilchen.",
+        "C: Der zeitliche Änderungsrate von A in Bezug auf B.",
+        "D: Den Zusammenhang zwischen der Energie und der Zeit."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die fundamentale Poisson-Klammer gibt an, wie sich eine physikalische Größe A in Bezug auf eine andere Größe B zeitlich ändert. Sie ist ein zentrales Konzept in der Hamiltonschen Mechanik und beschreibt die Dynamik des Systems.",
+      "difficulty": 5,
+      "subcategory": "Fundamentale Poisson-Klammern"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Riemannsche ζ-Funktion & Bernoulli-Zahlen (Anwendungen)",
+      "question": "Welche der folgenden Aussagen beschreibt korrekt eine Anwendung der Riemannschen ζ-Funktion in der statistischen Mechanik?",
+      "choices": [
+        "A: Die Riemannsche ζ-Funktion ist nur für die Berechnung von Energiezuständen in Quantenmechanik relevant.",
+        "B: Die Riemannsche ζ-Funktion hat keinen Bezug zur statistischen Mechanik.",
+        "C: Die Riemannsche ζ-Funktion kann verwendet werden, um die Anzahl der möglichen Zustände eines Systems bei thermischem Gleichgewicht zu berechnen.",
+        "D: Die Riemannsche ζ-Funktion hilft bei der Bestimmung der maximalen Temperatur eines Systems."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Riemannsche ζ-Funktion spielt eine wichtige Rolle in der statistischen Mechanik, insbesondere bei der Berechnung der Anzahl der Zustände eines Systems im thermischen Gleichgewicht. Dies ist eng verbunden mit der Berechnung von thermodynamischen Eigenschaften und der Analyse von Phasenübergängen.",
+      "difficulty": 6,
+      "subcategory": "Riemannsche ζ-Funktion & Bernoulli-Zahlen (Anwendungen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Quasiklassische Näherung (WKB)",
+      "question": "Welche Bedingung muss erfüllt sein, damit die WKB-Näherung für ein quantenmechanisches System anwendbar ist?",
+      "choices": [
+        "A: Die Wellenlänge der Welle muss klein im Vergleich zur charakteristischen Länge des Potentials sein.",
+        "B: Die klassische Bahn muss einen maximalen Impuls besitzen.",
+        "C: Der Potentialgradient muss konstant sein.",
+        "D: Die Energie muss unterhalb der Schranken des Potentials liegen."
+      ],
+      "correct_answer": "A",
+      "explanation": "Die WKB-Näherung setzt voraus, dass die Wellenlänge der quantenmechanischen Welle klein ist im Vergleich zu den charakteristischen Längen des Potentials, was die Anwendung klassischer Konzepte in der quantenmechanischen Beschreibung ermöglicht.",
+      "difficulty": 10,
+      "subcategory": "Quasiklassische Näherung (WKB)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Postulate der Quantenmechanik",
+      "question": "Was besagt das erste Postulat der Quantenmechanik?",
+      "choices": [
+        "A: Teilchen sind immer in Bewegung.",
+        "B: Ein physikalisches System wird durch einen Wellenfunktion beschrieben.",
+        "C: Alle Teilchen sind Teil eines größeren Ganzen.",
+        "D: Energie kann nicht erzeugt oder vernichtet werden."
+      ],
+      "correct_answer": "B",
+      "explanation": "Das erste Postulat der Quantenmechanik besagt, dass physikalische Systeme durch Wellenfunktionen beschrieben werden, die alle Informationen über das System enthalten. Diese Wellenfunktionen sind zentrale Elemente in der Quantenmechanik und ermöglichen die Berechnung von Wahrscheinlichkeiten für verschiedene Messungen.",
+      "difficulty": 3,
+      "subcategory": "Postulate der Quantenmechanik"
+    }
+  ]
+}

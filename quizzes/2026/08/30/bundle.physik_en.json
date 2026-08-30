@@ -1,0 +1,168 @@
+{
+  "date": "2026-08-30",
+  "generated_at": "2026-08-30T08:50:42Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Debye-Näherung der spezifischen Wärme",
+      "question": "What does the Debye approximation describe in solid-state physics?",
+      "choices": [
+        "A: The chemical bonds in molecules.",
+        "B: The temperature dependence of the specific heat of crystals.",
+        "C: The movement of electrons in a semiconductor.",
+        "D: The light refraction in solid materials."
+      ],
+      "correct_answer": "B",
+      "explanation": "The Debye approximation describes how the specific heat of crystals varies with temperature, especially at low temperatures. This theory takes into account the quantized vibrations of lattice symmetries in solids and provides a good approximation for the specific heat of crystalline substances at low temperatures.",
+      "difficulty": 3,
+      "subcategory": "Debye-Näherung der spezifischen Wärme"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Van-der-Waals-Kräfte",
+      "question": "Which of the following statements best describes van der Waals forces?",
+      "choices": [
+        "A: They are strong, long-term bonds within a molecule.",
+        "B: They only occur in ionic compounds.",
+        "C: They are weak, short-range attractive forces between molecules.",
+        "D: They are the main force that stabilizes metallic bonds."
+      ],
+      "correct_answer": "C",
+      "explanation": "Van der Waals forces are weak attractive forces that arise between neutral molecules. They play an important role in solid-state physics, particularly in the stability and properties of solids.",
+      "difficulty": 5,
+      "subcategory": "Van-der-Waals-Kräfte"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Elastische Konstanten",
+      "question": "Which of the following elastic constants describes the ratio between tensile stress and strain in a material?",
+      "choices": [
+        "A: Bulk modulus",
+        "B: Young's modulus",
+        "C: Shear modulus",
+        "D: Poisson's ratio"
+      ],
+      "correct_answer": "B",
+      "explanation": "The Young's modulus is a measure of a material's stiffness and describes the ratio of tensile stress to relative strain. It is crucial for understanding the elastic properties of solids.",
+      "difficulty": 7,
+      "subcategory": "Elastische Konstanten"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Wärmeleitfähigkeit amorpher Festkörper",
+      "question": "Which of the following statements best describes thermal conductivity in amorphous solids?",
+      "choices": [
+        "A: It is always higher than that of crystalline solids.",
+        "B: It is typically lower than that of crystalline solids.",
+        "C: It is independent of temperature.",
+        "D: It varies only at very high temperatures."
+      ],
+      "correct_answer": "B",
+      "explanation": "Amorphous solids have an irregular atomic structure that hinders heat conduction through phononic transport mechanisms. Therefore, their thermal conductivity is typically lower than that of crystalline materials, which have an ordered structure.",
+      "difficulty": 6,
+      "subcategory": "Wärmeleitfähigkeit amorpher Festkörper"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Maxwell-Gleichungen der Magnetostatik",
+      "question": "Which of the following laws describes the relationship between a time-constant magnetic field and the force acting on a moving charge in magnetostatics?",
+      "choices": [
+        "A: Lorentz force law",
+        "B: Ampère's law",
+        "C: Gauss's law for magnetism",
+        "D: Faraday's law of electromagnetic induction"
+      ],
+      "correct_answer": "A",
+      "explanation": "The Lorentz force law describes the force acting on a moving charge in a magnetic field. In magnetostatics, where magnetic fields are time-constant, this law is crucial for understanding the interactions between charges and magnetic fields.",
+      "difficulty": 8,
+      "subcategory": "Maxwell-Gleichungen der Magnetostatik"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Residuensatz",
+      "question": "Which of the following expressions describes the residue theorem in complex function analysis, which is used in electrodynamics?",
+      "choices": [
+        "A: The residue theorem can only be applied to analytic functions that are not defined in the entire complex plane.",
+        "B: The residue theorem states that the derivative of a holomorphic function near its singularity is zero.",
+        "C: The value of an integral over a closed curve is equal to the sum of the residues within the integration path multiplied by 2πi.",
+        "D: The value of an integral over an open curve is equal to the difference of the function values at the boundary points."
+      ],
+      "correct_answer": "C",
+      "explanation": "The residue theorem is a central statement in complex analysis stating that the integral of a meromorphic function over a closed curve is equal to 2πi times the sum of the residues of the function within the curve. This property is used in electrodynamics to find solutions to integrals that commonly arise in physical applications.",
+      "difficulty": 8,
+      "subcategory": "Residuensatz"
+    },
+    {
+      "category": "Physik",
+      "topic": "Analytische Mechanik",
+      "subtopic": "Fundamentale Poisson-Klammern",
+      "question": "What does the fundamental Poisson bracket between two functions A and B describe in analytical mechanics?",
+      "choices": [
+        "A: The symmetry properties of a system.",
+        "B: The interaction between two particles.",
+        "C: The rate of change of A with respect to B over time.",
+        "D: The relationship between energy and time."
+      ],
+      "correct_answer": "C",
+      "explanation": "The fundamental Poisson bracket indicates how a physical quantity A changes with respect to another quantity B over time. It is a central concept in Hamiltonian mechanics and describes the dynamics of the system.",
+      "difficulty": 5,
+      "subcategory": "Fundamentale Poisson-Klammern"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Riemannsche ζ-Funktion & Bernoulli-Zahlen (Anwendungen)",
+      "question": "Which of the following statements correctly describes an application of the Riemann zeta function in statistical mechanics?",
+      "choices": [
+        "A: The Riemann zeta function is only relevant for calculating energy states in quantum mechanics.",
+        "B: The Riemann zeta function is not related to statistical mechanics.",
+        "C: The Riemann zeta function can be used to calculate the number of possible states of a system in thermal equilibrium.",
+        "D: The Riemann zeta function helps determine the maximum temperature of a system."
+      ],
+      "correct_answer": "C",
+      "explanation": "The Riemann zeta function plays a crucial role in statistical mechanics, particularly in calculating the number of states of a system in thermal equilibrium. This is closely related to the computation of thermodynamic properties and the analysis of phase transitions.",
+      "difficulty": 6,
+      "subcategory": "Riemannsche ζ-Funktion & Bernoulli-Zahlen (Anwendungen)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Quasiklassische Näherung (WKB)",
+      "question": "What condition must be met for the WKB approximation to be applicable to a quantum mechanical system?",
+      "choices": [
+        "A: The wavelength of the wave must be small compared to the characteristic length of the potential.",
+        "B: The classical trajectory must have a maximum momentum.",
+        "C: The potential gradient must be constant.",
+        "D: The energy must be below the potential barriers."
+      ],
+      "correct_answer": "A",
+      "explanation": "The WKB approximation requires that the wavelength of the quantum wave be small compared to the characteristic lengths of the potential, enabling the application of classical concepts in the quantum mechanical description.",
+      "difficulty": 10,
+      "subcategory": "Quasiklassische Näherung (WKB)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Quantenmechanik",
+      "subtopic": "Postulate der Quantenmechanik",
+      "question": "What does the first postulate of quantum mechanics state?",
+      "choices": [
+        "A: Particles are always in motion.",
+        "B: A physical system is described by a wave function.",
+        "C: All particles are part of a larger whole.",
+        "D: Energy cannot be created or destroyed."
+      ],
+      "correct_answer": "B",
+      "explanation": "The first postulate of quantum mechanics states that physical systems are described by wave functions that contain all information about the system. These wave functions are central elements in quantum mechanics and enable the calculation of probabilities for various measurements.",
+      "difficulty": 3,
+      "subcategory": "Postulate der Quantenmechanik"
+    }
+  ]
+}
