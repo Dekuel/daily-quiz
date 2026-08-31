@@ -1,0 +1,169 @@
+{
+  "date": "2026-08-31",
+  "generated_at": "2026-08-31T09:12:01Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "bundle_type": "full",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Doppelspalt: Welle vs. Teilchen",
+      "question": "Was beschreibt das Ergebnis des Doppelspalt-Experiments in Bezug auf die Natur des Lichts?",
+      "choices": [
+        "A: Licht verhält sich immer wie ein Teilchen.",
+        "B: Licht zeigt sowohl wellen- als auch teilchenartige Eigenschaften.",
+        "C: Licht verhält sich immer wie eine Welle.",
+        "D: Licht kann nicht durch zwei Spalte hindurchgehen."
+      ],
+      "correct_answer": "B",
+      "explanation": "Das Doppelspalt-Experiment zeigt, dass Licht sowohl wellenartige als auch teilchenartige Eigenschaften hat, ein Phänomen, das als Welle-Teilchen-Dualismus bekannt ist. Dies bedeutet, dass Licht unter bestimmten Bedingungen Interferenzmuster erzeugt, während es unter anderen Bedingungen als Teilchen (Photonen) auftritt.",
+      "difficulty": 6,
+      "subcategory": "Doppelspalt: Welle vs. Teilchen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Randwertprobleme der Elektrostatik (Laplace-Gleichung)",
+      "question": "Was ist die Grundannahme für die Lösung von Randwertproblemen der Elektrostatik mithilfe der Laplace-Gleichung?",
+      "choices": [
+        "A: Es handelt sich um eine stationäre Situation ohne zeitliche Änderungen.",
+        "B: Das elektrische Feld ist konstant über den gesamten Raum.",
+        "C: Die Lösungen sind immer periodisch in der Zeit.",
+        "D: Die Geometrie des Problems hat keinen Einfluss auf die Lösung."
+      ],
+      "correct_answer": "A",
+      "explanation": "Randwertprobleme in der Elektrostatik werden unter der Annahme betrachtet, dass die Ladungsverteilung und das elektrische Feld zeitlich konstant sind. Dies ermöglicht die Anwendung der Laplace-Gleichung zur Bestimmung des Potentials in stationären Situationen.",
+      "difficulty": 7,
+      "subcategory": "Randwertprobleme der Elektrostatik (Laplace-Gleichung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Beugung an mehrdimensionalen Gittern",
+      "question": "Was beschreibt die Beugung von Licht an einem mehrdimensionalen Gitter?",
+      "choices": [
+        "A: Die Reflexion von Lichtstrahlen an einer glatten Oberfläche.",
+        "B: Die Emission von Licht durch ein glühendes Objekt.",
+        "C: Die Ablenkung von Lichtstrahlen beim Durchtritt durch enge Spalten.",
+        "D: Die Absorption von Licht durch ein Material."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Beugung an mehrdimensionalen Gittern tritt auf, wenn Lichtstrahlen durch enge Spalten hindurchtreten und dabei abgelenkt werden. Diese Ablenkung führt zu spezifischen Interferenzmustern, die charakteristisch für die Struktur des Gitters sind.",
+      "difficulty": 1,
+      "subcategory": "Beugung an mehrdimensionalen Gittern"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Fokker–Planck aus Langevin; Smoluchowski-Gleichung",
+      "question": "Was beschreibt die Smoluchowski-Gleichung in der statistischen Mechanik?",
+      "choices": [
+        "A: Die Bewegung von Teilchen in einem harmonischen Oszillator.",
+        "B: Die Energieverteilung von Teilchen in einem idealen Gas.",
+        "C: Die Wechselwirkungen zwischen verschiedenen Teilchen in einem Vakuum.",
+        "D: Die zeitliche Entwicklung der Wahrscheinlichkeitsdichte für die Position von Teilchen in einem Medium."
+      ],
+      "correct_answer": "D",
+      "explanation": "Die Smoluchowski-Gleichung beschreibt, wie sich die Wahrscheinlichkeitsdichte von Teilchenpositionen in einem Medium über die Zeit verändert. Sie ist besonders wichtig in der Beschreibung von Diffusionsprozessen und wird aus der Langevin-Gleichung abgeleitet.",
+      "difficulty": 6,
+      "subcategory": "Fokker–Planck aus Langevin; Smoluchowski-Gleichung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Isolierte Systeme: Maximum der Entropie",
+      "question": "Was beschreibt das Maximum der Entropie in einem isolierten System?",
+      "choices": [
+        "A: Der Zustand maximaler Temperatur.",
+        "B: Der Zustand höchster Unordnung.",
+        "C: Der Zustand konstanter Volumenänderung.",
+        "D: Der Zustand minimaler Energie."
+      ],
+      "correct_answer": "B",
+      "explanation": "Das Maximum der Entropie in einem isolierten System beschreibt den Zustand höchster Unordnung, wo die Teilchen gleichmäßig verteilt sind und keine Energieübertragungen stattfinden. In diesem Zustand ist das System thermodynamisch im Gleichgewicht.",
+      "difficulty": 2,
+      "subcategory": "Isolierte Systeme: Maximum der Entropie"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Universalität & Skalenhypothese (statisch)",
+      "question": "Welche Aussage beschreibt am besten die Skalenhypothese in der statistischen Mechanik?",
+      "choices": [
+        "A: Die Mikrozustände eines Systems sind immer gleichmäßig verteilt.",
+        "B: Die thermodynamischen Eigenschaften eines Systems sind konstant, unabhängig von der Temperatur.",
+        "C: Die Eigenschaften eines Systems sind unabhängig von der Größe der betrachteten Teilchenanzahl.",
+        "D: Die makroskopischen Eigenschaften eines Systems hängen nur von den spezifischen Wechselwirkungen zwischen den Teilchen ab."
+      ],
+      "correct_answer": "C",
+      "explanation": "Die Skalenhypothese besagt, dass die makroskopischen Eigenschaften eines Systems auch dann ähnlich sind, wenn die Anzahl der Teilchen variiert, solange die systematischen Bedingungen gleich bleiben. Dies zeigt die Universalität in der statistischen Mechanik, die es ermöglicht, verschiedene Systeme zu vergleichen.",
+      "difficulty": 6,
+      "subcategory": "Universalität & Skalenhypothese (statisch)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Partonmodell",
+      "question": "Was beschreibt das Partonmodell in der Teilchenphysik?",
+      "choices": [
+        "A: Die Entstehung von schwarzen Löchern.",
+        "B: Die Struktur von Protonen und Neutronen aus Quarks und Gluonen.",
+        "C: Die Bewegung von Teilchen in einem elektrischen Feld.",
+        "D: Die Wechselwirkung zwischen Licht und Materie."
+      ],
+      "correct_answer": "B",
+      "explanation": "Das Partonmodell ist ein Konzept, das die innere Struktur von Protonen und Neutronen erklärt, indem es diese als aus Quarks und Gluonen bestehend betrachtet. Es wird häufig in der Hochenergiephysik verwendet, um die Streueigenschaften von Hadronen zu beschreiben.",
+      "difficulty": 3,
+      "subcategory": "Partonmodell"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Quark‑Antiquark‑Potential (Confinement)",
+      "question": "Was beschreibt das Quark-Antiquark-Potential im Kontext des Confinements?",
+      "choices": [
+        "A: Die Geschwindigkeit, mit der Quarks rotieren.",
+        "B: Die Temperatur, bei der Quarks entkoppeln.",
+        "C: Die Masse von Quarks in einem Proton.",
+        "D: Die Energie, die benötigt wird, um Quarks zu isolieren."
+      ],
+      "correct_answer": "D",
+      "explanation": "Das Quark-Antiquark-Potential beschreibt die starke Wechselwirkung, die Quarks zusammenhält und verhindert, dass sie isoliert werden. Diese Wechselwirkung führt dazu, dass die Energie, die benötigt wird, um ein Quark von seinem Antiquark zu trennen, mit zunehmendem Abstand steigt, was als Confinement bekannt ist.",
+      "difficulty": 6,
+      "subcategory": "Quark‑Antiquark‑Potential (Confinement)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Arbeit in der Thermodynamik (p dV, generalisiert)",
+      "question": "Was beschreibt die Arbeit, die bei einem isothermen Prozess in einem idealen Gas verrichtet wird?",
+      "choices": [
+        "A: Die Arbeit ist das Produkt aus Druck und Volumenänderung.",
+        "B: Die Arbeit ist immer null, da die Temperatur konstant bleibt.",
+        "C: Die Arbeit ist unabhängig vom Druck des Gases.",
+        "D: Die Arbeit kann nur positiv sein."
+      ],
+      "correct_answer": "A",
+      "explanation": "In einem isothermen Prozess kann die Arbeit als das Produkt aus dem Druck und der Änderung des Volumens (p dV) beschrieben werden. Diese Beziehung ist grundlegend für das Verständnis thermodynamischer Prozesse in idealen Gasen.",
+      "difficulty": 3,
+      "subcategory": "Arbeit in der Thermodynamik (p dV, generalisiert)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Hochtemperatur-Supraleiter",
+      "question": "Welcher der folgenden Mechanismen wird häufig mit der Supraleitfähigkeit in Hochtemperatur-Supraleitern in Verbindung gebracht?",
+      "choices": [
+        "A: Antiferromagnetische Wechselwirkungen",
+        "B: Paarung von Elektronen in Cooper-Paaren",
+        "C: Elektron-Phonon-Wechselwirkungen",
+        "D: Spin-Glas-Anomalien"
+      ],
+      "correct_answer": "A",
+      "explanation": "Hochtemperatur-Supraleiter zeigen oft antiferromagnetische Eigenschaften, die mit der Bildung von Cooper-Paaren in Verbindung stehen. Insbesondere wird angenommen, dass die Wechselwirkungen zwischen den Spins der Elektronen eine zentrale Rolle bei der Supraleitfähigkeit dieser Materialien spielen.",
+      "difficulty": 9,
+      "subcategory": "Hochtemperatur-Supraleiter"
+    }
+  ]
+}

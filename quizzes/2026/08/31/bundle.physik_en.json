@@ -1,0 +1,168 @@
+{
+  "date": "2026-08-31",
+  "generated_at": "2026-08-31T09:12:36Z",
+  "schema_version": 6,
+  "mode": "physik",
+  "questions": [
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Doppelspalt: Welle vs. Teilchen",
+      "question": "What describes the result of the double-slit experiment regarding the nature of light?",
+      "choices": [
+        "A: Light always behaves like a particle.",
+        "B: Light exhibits both wave-like and particle-like properties.",
+        "C: Light always behaves like a wave.",
+        "D: Light cannot pass through two slits."
+      ],
+      "correct_answer": "B",
+      "explanation": "The double-slit experiment shows that light exhibits both wave-like and particle-like properties, a phenomenon known as wave-particle duality. This means that light generates interference patterns under certain conditions, while behaving as particles (photons) under other conditions.",
+      "difficulty": 6,
+      "subcategory": "Doppelspalt: Welle vs. Teilchen"
+    },
+    {
+      "category": "Physik",
+      "topic": "Elektrodynamik",
+      "subtopic": "Randwertprobleme der Elektrostatik (Laplace-Gleichung)",
+      "question": "What is the fundamental assumption for solving boundary value problems of electrostatics using the Laplace equation?",
+      "choices": [
+        "A: It is a stationary situation without temporal changes.",
+        "B: The electric field is constant throughout space.",
+        "C: The solutions are always periodic in time.",
+        "D: The geometry of the problem does not affect the solution."
+      ],
+      "correct_answer": "A",
+      "explanation": "Boundary value problems in electrostatics are considered under the assumption that the charge distribution and the electric field are constant in time. This allows the application of the Laplace equation to determine the potential in stationary situations.",
+      "difficulty": 7,
+      "subcategory": "Randwertprobleme der Elektrostatik (Laplace-Gleichung)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Optik",
+      "subtopic": "Beugung an mehrdimensionalen Gittern",
+      "question": "What describes the diffraction of light on a multi-dimensional lattice?",
+      "choices": [
+        "A: The reflection of light rays on a smooth surface.",
+        "B: The emission of light by a glowing object.",
+        "C: The deflection of light rays when passing through narrow slits.",
+        "D: The absorption of light by a material."
+      ],
+      "correct_answer": "C",
+      "explanation": "Diffraction on multi-dimensional lattices occurs when light rays pass through narrow slits and are deflected. This deflection leads to specific interference patterns that are characteristic of the lattice structure.",
+      "difficulty": 1,
+      "subcategory": "Beugung an mehrdimensionalen Gittern"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Fokker–Planck aus Langevin; Smoluchowski-Gleichung",
+      "question": "What describes the Smoluchowski equation in statistical mechanics?",
+      "choices": [
+        "A: The motion of particles in a harmonic oscillator.",
+        "B: The energy distribution of particles in an ideal gas.",
+        "C: The interactions between different particles in a vacuum.",
+        "D: The temporal evolution of the probability density for the position of particles in a medium."
+      ],
+      "correct_answer": "D",
+      "explanation": "The Smoluchowski equation describes how the probability density of particle positions in a medium changes over time. It is particularly important in describing diffusion processes and is derived from the Langevin equation.",
+      "difficulty": 6,
+      "subcategory": "Fokker–Planck aus Langevin; Smoluchowski-Gleichung"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Isolierte Systeme: Maximum der Entropie",
+      "question": "What describes the maximum of entropy in an isolated system?",
+      "choices": [
+        "A: The state of maximum temperature.",
+        "B: The state of highest disorder.",
+        "C: The state of constant volume change.",
+        "D: The state of minimum energy."
+      ],
+      "correct_answer": "B",
+      "explanation": "The maximum of entropy in an isolated system describes the state of highest disorder, where particles are evenly distributed and no energy transfers occur. In this state, the system is thermodynamically in equilibrium.",
+      "difficulty": 2,
+      "subcategory": "Isolierte Systeme: Maximum der Entropie"
+    },
+    {
+      "category": "Physik",
+      "topic": "Statistische Mechanik",
+      "subtopic": "Universalität & Skalenhypothese (statisch)",
+      "question": "Which statement best describes the scale hypothesis in statistical mechanics?",
+      "choices": [
+        "A: The microstates of a system are always evenly distributed.",
+        "B: The thermodynamic properties of a system are constant, regardless of temperature.",
+        "C: The properties of a system are independent of the size of the considered number of particles.",
+        "D: The macroscopic properties of a system depend only on the specific interactions between the particles."
+      ],
+      "correct_answer": "C",
+      "explanation": "The scale hypothesis states that the macroscopic properties of a system are similar even when the number of particles varies, as long as the systematic conditions remain the same. This demonstrates the universality in statistical mechanics, allowing for comparisons between different systems.",
+      "difficulty": 6,
+      "subcategory": "Universalität & Skalenhypothese (statisch)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Partonmodell",
+      "question": "What describes the parton model in particle physics?",
+      "choices": [
+        "A: The formation of black holes.",
+        "B: The structure of protons and neutrons from quarks and gluons.",
+        "C: The motion of particles in an electric field.",
+        "D: The interaction between light and matter."
+      ],
+      "correct_answer": "B",
+      "explanation": "The parton model is a concept that explains the internal structure of protons and neutrons by considering them as composed of quarks and gluons. It is frequently used in high-energy physics to describe the scattering properties of hadrons.",
+      "difficulty": 3,
+      "subcategory": "Partonmodell"
+    },
+    {
+      "category": "Physik",
+      "topic": "Kern- und Teilchenphysik",
+      "subtopic": "Quark‑Antiquark‑Potential (Confinement)",
+      "question": "What describes the quark-antiquark potential in the context of confinement?",
+      "choices": [
+        "A: The speed at which quarks rotate.",
+        "B: The temperature at which quarks decouple.",
+        "C: The mass of quarks in a proton.",
+        "D: The energy required to isolate quarks."
+      ],
+      "correct_answer": "D",
+      "explanation": "The quark-antiquark potential describes the strong interaction that holds quarks together and prevents them from being isolated. This interaction causes the energy required to separate a quark from its antiquark to increase with distance, known as confinement.",
+      "difficulty": 6,
+      "subcategory": "Quark‑Antiquark‑Potential (Confinement)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Thermodynamik",
+      "subtopic": "Arbeit in der Thermodynamik (p dV, generalisiert)",
+      "question": "What describes the work done in an isothermal process in an ideal gas?",
+      "choices": [
+        "A: Work is the product of pressure and volume change.",
+        "B: Work is always zero, as the temperature remains constant.",
+        "C: Work is independent of the gas pressure.",
+        "D: Work can only be positive."
+      ],
+      "correct_answer": "A",
+      "explanation": "In an isothermal process, work can be described as the product of the pressure and the change in volume (p dV). This relationship is fundamental for understanding thermodynamic processes in ideal gases.",
+      "difficulty": 3,
+      "subcategory": "Arbeit in der Thermodynamik (p dV, generalisiert)"
+    },
+    {
+      "category": "Physik",
+      "topic": "Festkörperphysik",
+      "subtopic": "Hochtemperatur-Supraleiter",
+      "question": "Which of the following mechanisms is commonly associated with superconductivity in high-temperature superconductors?",
+      "choices": [
+        "A: Antiferromagnetic interactions",
+        "B: Pairing of electrons in Cooper pairs",
+        "C: Electron-phonon interactions",
+        "D: Spin glass anomalies"
+      ],
+      "correct_answer": "A",
+      "explanation": "High-temperature superconductors often exhibit antiferromagnetic properties, which are associated with the formation of Cooper pairs. In particular, it is believed that interactions between the spins of electrons play a central role in the superconductivity of these materials.",
+      "difficulty": 9,
+      "subcategory": "Hochtemperatur-Supraleiter"
+    }
+  ]
+}
